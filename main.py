@@ -17,3 +17,6 @@ with col2:
 
     if st.button("🌐 Tradutor de Palavras EN → PT", use_container_width=True):
         st.switch_page("pages/palavras_ingles_anki.py")
+
+    if st.button("📋 Organizador de Conteúdos de Edital", use_container_width=True):
+        st.switch_page("pages/organizar_conteudo_edital.py")

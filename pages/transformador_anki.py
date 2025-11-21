@@ -10,6 +10,7 @@ def tratar_texto(texto):
     4. Substitui números de questões por quebras de linha
     5. Limpa formatação desnecessária
     """
+    texto = re.sub(r'(.*?)Assuntos\)', '', texto, flags=re.DOTALL)
     # 1. Remover linhas que começam com www.*
     texto = re.sub(r'^www\..*\n?', '', texto, flags=re.MULTILINE)
 

@@ -20,3 +20,6 @@ with col2:
 
     if st.button("📋 Organizador de Conteúdos de Edital", use_container_width=True):
         st.switch_page("pages/organizar_conteudo_edital.py")
+
+    if st.button("📝 Gerador de Cards Alternativa por Alternativa", use_container_width=True):
+        st.switch_page("pages/transformado_tec_anki_cespe.py")

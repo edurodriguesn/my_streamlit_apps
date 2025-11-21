@@ -16,16 +16,21 @@ def tratar_texto(texto):
     # Remove linhas que começam com www.*
     texto = re.sub(r'^www\..*\n?', '', texto, flags=re.MULTILINE)
 
-    texto = re.sub(r'\, assinale a alternativa correta\.', ':', texto)
-
     # Marcar início de questões (antes de substituir \n por <br>) para não perder separação
     texto = re.sub(r'\n\s*(\d+)\)', r'\n@@Q@@\1)', texto)
 
+    # Marcar "Certo" e "Errado" que aparecem sozinhos em linhas para preservá-los
+    texto = re.sub(r'\n(Certo)\s*\n', r'\n@@CE@@\1@@CE@@\n', texto)
+    texto = re.sub(r'\n(Errado)\s*\n', r'\n@@CE@@\1@@CE@@\n', texto)
+    
     # Substitui quebras de linha por <br>
     texto = texto.replace('\n', '<br>')
 
     # Restaura marcador como quebras reais (cada questão começará em linha nova)
     texto = texto.replace('@@Q@@', '\n')
+    
+    # Restaura marcadores de Certo/Errado como quebras reais
+    texto = texto.replace('@@CE@@', '\n')
 
     # Substituir 'Gabarito:' por '|Gabarito'
     texto = texto.replace('Gabarito:', '|Gabarito')
@@ -70,27 +75,24 @@ def gerar_cards(texto_tratado):
         # remover marcador inicial tipo "1)" caso exista
         bloco_sem_gab = re.sub(r'^\s*\d+\)\s*', '', bloco_sem_gab)
 
-        # Encontrar enunciado: primeiro segmento não vazio que não comece com alternativa (a) )
-        segmentos = [s.strip() for s in bloco_sem_gab.split('<br>') if s.strip()]
-
+        # Extrair enunciado completo: tudo até a primeira alternativa "a)" ou até "Certo/Errado"
         enunciado = ""
-        for seg in segmentos:
-            if re.match(r'^[a-e]\)', seg, flags=re.IGNORECASE):
-                continue
-            # Se o segmento for apenas "Certo" ou "Errado", não é enunciado
-            if seg.strip().lower() in ('certo', 'errado'):
-                continue
-            enunciado = seg
-            break
-
-        # fallback: tudo até a primeira 'a)' se não achar enunciado
-        if not enunciado:
-            split_a = re.split(r'<br>\s*a\)', bloco_sem_gab, flags=re.IGNORECASE)
-            if split_a:
-                enunciado = split_a[0].strip()
-            else:
-                # como último recurso, use todo o bloco_sem_gab até antes de "Certo" ou "Errado"
-                enunciado = re.split(r'<br>\s*(?:Certo|Errado)', bloco_sem_gab, flags=re.IGNORECASE)[0].strip()
+        
+        # Tentar encontrar onde começa a primeira alternativa ou Certo/Errado
+        match_primeira_alt = re.search(r'<br>\s*a\)', bloco_sem_gab, flags=re.IGNORECASE)
+        match_certo_errado = re.search(r'<br>\s*(?:Certo|Errado)\s*(?:<br>|$)', bloco_sem_gab, flags=re.IGNORECASE)
+        
+        # Determinar onde o enunciado termina
+        if match_primeira_alt:
+            enunciado = bloco_sem_gab[:match_primeira_alt.start()].strip()
+        elif match_certo_errado:
+            enunciado = bloco_sem_gab[:match_certo_errado.start()].strip()
+        else:
+            # Se não encontrou nada, pega tudo
+            enunciado = bloco_sem_gab.strip()
+        
+        # Remover <br> extras no início e fim do enunciado
+        enunciado = enunciado.strip('<br>').strip()
 
         # Preparar versão em texto "limpo" (substituir <br> por \n) para detectar linhas do tipo "Certo" / "Errado"
         plain = bloco_sem_gab.replace('<br>', '\n')
@@ -115,9 +117,8 @@ def gerar_cards(texto_tratado):
             partes_ce = re.split(r'<br>\s*(?:Certo|Errado)\s*', bloco_sem_gab, maxsplit=1, flags=re.IGNORECASE)
             enunciado_ce = partes_ce[0].strip()
             
-            # Limpar tags <br> no início e fim, e substituir <br> internos por espaço
+            # Limpar tags <br> no início e fim, mas manter <br> internos
             enunciado_ce = enunciado_ce.strip('<br>').strip()
-            enunciado_ce = enunciado_ce.replace('<br>', ' ').strip()
 
             frente = enunciado_ce
 
@@ -149,7 +150,8 @@ def gerar_cards(texto_tratado):
         # gerar cards por alternativa
         for letra, texto_alt in alternativas_matches:
             letra = letra.upper()
-            texto_alt = texto_alt.strip().replace('<br>', ' ').strip()
+            # Manter <br> no texto da alternativa, apenas limpar início/fim
+            texto_alt = texto_alt.strip()
             # Remover qualquer resíduo de gabarito que possa ter ficado
             texto_alt = re.sub(r'\|?Gabarito[:\s]*[A-Za-zÀ-ÿ0-9]+', '', texto_alt, flags=re.IGNORECASE).strip()
             frente = f"{enunciado} {texto_alt}".strip()

@@ -1,6 +1,9 @@
 import streamlit as st
 import re
 import io
+from pypdf import PdfReader
+
+# --- FUNÇÕES DE LÓGICA ---
 
 def limpar_rodape_estrategia(texto_completo):
     """
@@ -48,18 +51,13 @@ def formatar_questao_final(texto_bloco):
     # 4. Limpeza de espaços duplos
     texto_unido = re.sub(r'\s+', ' ', texto_unido).strip()
 
-    # 5. CORTE APÓS GABARITO (Crucial)
-    # Encontra onde está o Gabarito curto e descarta tudo depois dele.
-    match_gabarito = re.search(r'(Gabarito:\s*[\w]+(?:\s+[\w\.]+)?).*', texto_unido, re.IGNORECASE)
+    # 5. CORTE APÓS GABARITO (Corte Interno da Questão)
+    padrao_gabarito = r'Gabarito:\s*[\w]+(?:\s+[\w\.]+)?'
+    match_exato = re.search(padrao_gabarito, texto_unido, re.IGNORECASE)
     
-    if match_gabarito:
-        # Pega a string original APENAS até o fim do "Gabarito: XX"
-        # O grupo 1 do regex pega o padrão do gabarito. Usamos o span dele.
-        # Mas para ser mais seguro, vamos usar o match específico do gabarito dentro da string limpa
-        padrao_gabarito = r'Gabarito:\s*[\w]+(?:\s+[\w\.]+)?'
-        match_exato = re.search(padrao_gabarito, texto_unido, re.IGNORECASE)
-        if match_exato:
-            texto_unido = texto_unido[:match_exato.end()]
+    if match_exato:
+        # Corta a string exatamente onde termina o gabarito curto encontrado
+        texto_unido = texto_unido[:match_exato.end()]
 
     # 6. Inserir o PIPE (|)
     match_sep = re.search(r'(Comentários?:|Gabarito:)', texto_unido, re.IGNORECASE)
@@ -75,8 +73,17 @@ def formatar_questao_final(texto_bloco):
     return final
 
 def processar_texto(texto_bruto):
-    # 1. Limpeza inicial
-    texto_sem_rodape = limpar_rodape_estrategia(texto_bruto)
+    # 1. Limpeza inicial (Rodapés)
+    texto_trabalho = limpar_rodape_estrategia(texto_bruto)
+
+    # ============================================================
+    # NOVO: CORTE GLOBAL "LISTA DE QUESTÕES"
+    # Se encontrar "LISTA DE QUESTÕES", descarta tudo dali para baixo.
+    # ============================================================
+    match_fim = re.search(r'LISTA DE QUESTÕES', texto_trabalho, re.IGNORECASE)
+    if match_fim:
+        # Pega o texto apenas do início até onde começa a frase "LISTA DE QUESTÕES"
+        texto_trabalho = texto_trabalho[:match_fim.start()]
 
     # 2. Lista de bancas
     bancas = [
@@ -111,7 +118,7 @@ def processar_texto(texto_bruto):
     # Regex de Cabeçalho
     padrao_inicio = rf'(?:^\d+\s*[\.\-\)]\s*)?\(?\b(?:{bancas_regex})\b.*?20\d{{2}}.*?'
 
-    partes = re.split(f'({padrao_inicio})', texto_sem_rodape, flags=re.MULTILINE)
+    partes = re.split(f'({padrao_inicio})', texto_trabalho, flags=re.MULTILINE)
     
     questoes_finais = []
     buffer_atual = ""
@@ -132,52 +139,69 @@ def processar_texto(texto_bruto):
     
     return "\n".join(questoes_finais)
 
+def extrair_texto_pdf(arquivo_pdf):
+    """Lê o arquivo PDF carregado e retorna todo o texto como string."""
+    leitor = PdfReader(arquivo_pdf)
+    texto_completo = ""
+    barra_progresso = st.progress(0)
+    total_paginas = len(leitor.pages)
+    
+    for i, pagina in enumerate(leitor.pages):
+        texto_pagina = pagina.extract_text()
+        if texto_pagina:
+            texto_completo += texto_pagina + "\n"
+        barra_progresso.progress((i + 1) / total_paginas)
+        
+    barra_progresso.empty()
+    return texto_completo
+
 # --- Interface Streamlit ---
 
-st.set_page_config(page_title="Extrator de Questões (Limpo)", layout="wide")
+st.set_page_config(page_title="Extrator PDF -> TXT", layout="wide")
 
-st.title("✂️ Extrator de Questões - TXT Limpo")
+st.title("📄 Extrator de Questões (PDF)")
 st.markdown("""
-**Regras aplicadas:**
-1. Remove rodapés do Estratégia.
-2. Remove numeração inicial (ex: `14.`).
-3. Separa Pergunta e Resposta por `|`.
-4. **Corte Rígido:** A linha termina imediatamente após o Gabarito (ex: `Gabarito: Letra B`).
+**Filtros Ativos:**
+1. **Ignora tudo** após encontrar a frase "LISTA DE QUESTÕES".
+2. **Remove rodapés** e numeração inicial.
+3. **Valida:** Somente blocos com Comentário e Gabarito curto.
+4. **Formata:** `Pergunta | Resposta` (com `<br>`).
 """)
 
-texto_input = st.text_area("Cole o texto do PDF:", height=300)
+uploaded_file = st.file_uploader("Escolha o arquivo PDF", type="pdf")
 
-if st.button("Processar Texto"):
-    if not texto_input:
-        st.warning("Cole o texto primeiro.")
-    else:
-        try:
-            resultado = processar_texto(texto_input)
-            
-            if not resultado.strip():
-                qtd = 0
-            else:
-                qtd = len(resultado.splitlines())
-            
-            if qtd == 0:
-                st.error("Nenhuma questão válida encontrada.")
-            else:
-                st.success(f"{qtd} questões formatadas.")
+if uploaded_file is not None:
+    if st.button("Processar Arquivo"):
+        with st.spinner('Lendo e processando PDF...'):
+            try:
+                texto_extraido = extrair_texto_pdf(uploaded_file)
                 
-                st.subheader("Exemplo (Primeira linha):")
-                preview = resultado.split("\n")[0]
-                st.code(preview, language="text")
+                resultado = processar_texto(texto_extraido)
+                
+                if not resultado.strip():
+                    qtd = 0
+                else:
+                    qtd = len(resultado.splitlines())
+                
+                if qtd == 0:
+                    st.error("Nenhuma questão válida encontrada.")
+                else:
+                    st.success(f"Sucesso! {qtd} questões extraídas.")
+                    
+                    st.subheader("Exemplo (Primeira linha):")
+                    preview = resultado.split("\n")[0]
+                    st.code(preview, language="text")
 
-                buffer = io.BytesIO()
-                buffer.write(resultado.encode('utf-8'))
-                buffer.seek(0)
+                    buffer = io.BytesIO()
+                    buffer.write(resultado.encode('utf-8'))
+                    buffer.seek(0)
 
-                st.download_button(
-                    label="📥 Baixar TXT",
-                    data=buffer,
-                    file_name="anki_estrategia.txt",
-                    mime="text/plain"
-                )
+                    st.download_button(
+                        label="📥 Baixar TXT Formatado",
+                        data=buffer,
+                        file_name="estrategia_anki.txt",
+                        mime="text/plain"
+                    )
 
-        except Exception as e:
-            st.error(f"Erro: {e}")
+            except Exception as e:
+                st.error(f"Erro: {e}")

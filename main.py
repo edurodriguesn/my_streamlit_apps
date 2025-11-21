@@ -23,3 +23,6 @@ with col2:
 
     if st.button("📝 Gerador de Cards Alternativa por Alternativa", use_container_width=True):
         st.switch_page("pages/transformado_tec_anki_cespe.py")
+
+    if st.button("🦉 Extrator de Questões de PDF do Estratégia", use_container_width=True):
+        st.switch_page("pages/estrategia_anki.py")

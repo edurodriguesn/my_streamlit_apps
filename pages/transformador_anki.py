@@ -6,15 +6,19 @@ def tratar_texto(texto):
     texto = re.sub(r'^www\..*\n?', '', texto, flags=re.MULTILINE)
     texto = texto.replace('\n', '<br>')
     texto = texto.replace('Gabarito:', '|Gabarito')
-    texto = re.sub(r'<br>[0-9][0-9]\)', '<br>\n', texto)
-    texto = re.sub(r'<br>[0-9]\)', '\n', texto)
+    
+    # Trata questões com 1 a 4 dígitos antes do ')'
+    texto = re.sub(r'<br>[0-9]{1,4}\)', '\n', texto)
+
     texto = texto.replace('<br>\n <br>', '\n')
     texto = texto.replace('\n <br>', '\n')
     texto = texto.replace('<br><br>', '<br>')
     texto = re.sub(r'<br>.<br>', '<br>', texto)
     texto = texto.replace('<br><br>', '<br>')
     texto = re.sub(r'.*Caderno de Questões.*\n', '', texto)
+    
     return texto
+
 
 def main():
     st.set_page_config(

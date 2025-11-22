@@ -27,11 +27,22 @@ def validar_bloco_questao(texto):
     """
     Verifica se o bloco é válido:
     1. Tem Comentário.
-    2. Tem Gabarito curto (até 2 palavras).
+    2. Tem Gabarito curto OU "Questão correta/incorreta".
+    3. Tem conteúdo de pergunta antes do comentário.
     """
     tem_comentario = re.search(r'Comentários?:', texto, re.IGNORECASE)
-    tem_gabarito = re.search(r'Gabarito:\s*[\w]+(?:\s+[\w\.]+)?', texto, re.IGNORECASE)
-    return bool(tem_comentario and tem_gabarito)
+    tem_gabarito = re.search(r'Gabarito:?\s*(?:[Ll]etra\s*)?[A-E]\.?|Gabarito:?\s*(?:Certo|Errado)', texto, re.IGNORECASE)
+    tem_questao_resposta = re.search(r'Questão\s+(?:correta|certa|incorreta|errada)\.?', texto, re.IGNORECASE)
+    
+    # Verificar se há conteúdo antes do comentário (pelo menos 50 caracteres)
+    if tem_comentario:
+        match = re.search(r'Comentários?:', texto, re.IGNORECASE)
+        conteudo_antes = texto[:match.start()].strip()
+        tem_pergunta = len(conteudo_antes) > 50
+    else:
+        tem_pergunta = False
+    
+    return bool(tem_comentario and (tem_gabarito or tem_questao_resposta) and tem_pergunta)
 
 def formatar_questao_final(texto_bloco):
     """
@@ -51,22 +62,44 @@ def formatar_questao_final(texto_bloco):
     # 4. Limpeza de espaços duplos
     texto_unido = re.sub(r'\s+', ' ', texto_unido).strip()
 
-    # 5. CORTE APÓS GABARITO (Corte Interno da Questão)
-    padrao_gabarito = r'Gabarito:\s*[\w]+(?:\s+[\w\.]+)?'
-    match_exato = re.search(padrao_gabarito, texto_unido, re.IGNORECASE)
+    # 5. CORTE APÓS GABARITO OU "QUESTÃO CORRETA/INCORRETA" (Corte Interno da Questão)
+    # Padrão 1: Gabarito tradicional
+    padrao_gabarito = r'Gabarito:?\s*[Ll]etra\s*[A-E]\.?|Gabarito:?\s*[A-E]\.?|Gabarito:?\s*(?:Certo|Errado|Correto|Incorreto)\.?'
+    # Padrão 2: Questão correta/incorreta
+    padrao_questao = r'Questão\s+(?:correta|certa|incorreta|errada)\.?'
+    
+    # Buscar ambos os padrões
+    match_gabarito = re.search(padrao_gabarito, texto_unido, re.IGNORECASE)
+    match_questao = re.search(padrao_questao, texto_unido, re.IGNORECASE)
+    
+    # Usar o que aparecer primeiro ou o que existir
+    match_exato = None
+    if match_gabarito and match_questao:
+        # Pega o que aparece primeiro
+        match_exato = match_gabarito if match_gabarito.start() < match_questao.start() else match_questao
+    elif match_gabarito:
+        match_exato = match_gabarito
+    elif match_questao:
+        match_exato = match_questao
     
     if match_exato:
-        # Corta a string exatamente onde termina o gabarito curto encontrado
+        # Corta a string exatamente onde termina o gabarito/resposta encontrado
         texto_unido = texto_unido[:match_exato.end()]
 
     # 6. Inserir o PIPE (|)
-    match_sep = re.search(r'(Comentários?:|Gabarito:)', texto_unido, re.IGNORECASE)
+    match_sep = re.search(r'(Comentários?:|Gabarito:?)', texto_unido, re.IGNORECASE)
     
     if match_sep:
         idx = match_sep.start()
         parte_pergunta = texto_unido[:idx].strip()
         parte_resposta = texto_unido[idx:].strip()
-        final = f"{parte_pergunta}|{parte_resposta}"
+        
+        # Validar se a pergunta não está vazia
+        if parte_pergunta:
+            final = f"{parte_pergunta}|{parte_resposta}"
+        else:
+            # Se a pergunta estiver vazia, não adicionar o pipe no início
+            final = texto_unido
     else:
         final = texto_unido
 
@@ -76,13 +109,9 @@ def processar_texto(texto_bruto):
     # 1. Limpeza inicial (Rodapés)
     texto_trabalho = limpar_rodape_estrategia(texto_bruto)
 
-    # ============================================================
-    # NOVO: CORTE GLOBAL "LISTA DE QUESTÕES"
-    # Se encontrar "LISTA DE QUESTÕES", descarta tudo dali para baixo.
-    # ============================================================
+    # CORTE GLOBAL "LISTA DE QUESTÕES"
     match_fim = re.search(r'LISTA DE QUESTÕES', texto_trabalho, re.IGNORECASE)
     if match_fim:
-        # Pega o texto apenas do início até onde começa a frase "LISTA DE QUESTÕES"
         texto_trabalho = texto_trabalho[:match_fim.start()]
 
     # 2. Lista de bancas
@@ -115,25 +144,43 @@ def processar_texto(texto_bruto):
     ]
     bancas_regex = "|".join(bancas)
     
-    # Regex de Cabeçalho
-    padrao_inicio = rf'(?:^\d+\s*[\.\-\)]\s*)?\(?\b(?:{bancas_regex})\b.*?20\d{{2}}.*?'
-
-    partes = re.split(f'({padrao_inicio})', texto_trabalho, flags=re.MULTILINE)
+    # Regex de Cabeçalho PRIMÁRIO (com banca)
+    padrao_banca = rf'(?:^\d+\s*[\.\-\)]\s*)?\(?\b(?:{bancas_regex})\b.*?20\d{{2}}.*?'
+    
+    # Regex de Cabeçalho ALTERNATIVO (sem banca, formato órgão/ano)
+    padrao_alternativo = r'(?:^\d+\s*[\.\-\)]\s*)?\(?[A-ZÀ-Ú][A-ZÀ-Ú\s\-]+\s*[-/–]\s*20[0-2][0-9]\)?'
+    
+    # Primeiro tenta com padrão de banca
+    partes = re.split(f'({padrao_banca})', texto_trabalho, flags=re.MULTILINE)
     
     questoes_finais = []
     buffer_atual = ""
+    padrao_usado = "banca"
+    
+    # Se não encontrou questões com banca, tenta padrão alternativo
+    if len(partes) <= 1:
+        st.info("Nenhuma questão encontrada com padrão de banca. Tentando padrão alternativo...")
+        partes = re.split(f'({padrao_alternativo})', texto_trabalho, flags=re.MULTILINE)
+        padrao_usado = "alternativo"
+    
+    padrao_ativo = padrao_banca if padrao_usado == "banca" else padrao_alternativo
     
     for parte in partes:
-        if not parte: continue
+        if not parte or not parte.strip(): 
+            continue
 
-        if re.search(padrao_inicio, parte, re.MULTILINE):
+        if re.search(padrao_ativo, parte, re.MULTILINE):
+            # Salvar bloco anterior se válido
             if buffer_atual:
                 if validar_bloco_questao(buffer_atual):
                     questoes_finais.append(formatar_questao_final(buffer_atual))
+            
+            # Iniciar novo bloco
             buffer_atual = parte
         else:
             buffer_atual += parte
 
+    # Processar último bloco
     if buffer_atual and validar_bloco_questao(buffer_atual):
         questoes_finais.append(formatar_questao_final(buffer_atual))
     
@@ -162,10 +209,11 @@ st.set_page_config(page_title="Extrator PDF -> TXT", layout="wide")
 st.title("📄 Extrator de Questões (PDF)")
 st.markdown("""
 **Filtros Ativos:**
-1. **Ignora tudo** após encontrar a frase "LISTA DE QUESTÕES".
-2. **Remove rodapés** e numeração inicial.
-3. **Valida:** Somente blocos com Comentário e Gabarito curto.
-4. **Formata:** `Pergunta | Resposta` (com `<br>`).
+1. **Busca dupla:** Primeiro tenta padrão com banca, depois padrão alternativo (ÓRGÃO/ANO).
+2. **Ignora tudo** após encontrar a frase "LISTA DE QUESTÕES".
+3. **Remove rodapés** e numeração inicial.
+4. **Valida:** Somente blocos com Comentário e Gabarito curto.
+5. **Formata:** `Pergunta | Resposta` (com `<br>`).
 """)
 
 uploaded_file = st.file_uploader("Escolha o arquivo PDF", type="pdf")

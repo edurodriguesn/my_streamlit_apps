@@ -52,7 +52,10 @@ def formatar_questao_final(texto_bloco):
     # 1. REMOVER NUMERAÇÃO INICIAL
     # Remove: 1 ou 2 digitos, ponto, espaço (ex: "14. ", "05. ", "1. ") no inicio da string
     texto_bloco = re.sub(r'^\s*\d{1,2}\.\s+', '', texto_bloco)
-    
+    # 1.5 Inserir <br> antes de alternativas que estão sozinhas na linha
+    # Detecta: início de linha após quebra → a), b), c), d), e)
+    texto_bloco = re.sub(r'\n([a-eA-E]\))', r'<br> \1', texto_bloco)
+
     # 2. Tratamento de quebras de linha (unir parágrafos quebrados)
     texto_unido = re.sub(r'(?<!\.)\n', ' ', texto_bloco)
     
@@ -106,6 +109,18 @@ def formatar_questao_final(texto_bloco):
     return final
 
 def processar_texto(texto_bruto):
+    # 1. Limpeza inicial (Rodapés)
+    # 0. Remoção de tudo antes de "sumário" ou "índice"
+    texto_lower = texto_bruto.lower()
+    pos_sumario = texto_lower.find("sumário")
+    pos_indice = texto_lower.find("índice")
+
+    posicoes_validas = [p for p in [pos_sumario, pos_indice] if p != -1]
+
+    if posicoes_validas:
+        inicio = min(posicoes_validas)
+        texto_bruto = texto_bruto[inicio:]
+
     # 1. Limpeza inicial (Rodapés)
     texto_trabalho = limpar_rodape_estrategia(texto_bruto)
 

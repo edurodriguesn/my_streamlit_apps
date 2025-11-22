@@ -31,7 +31,7 @@ def validar_bloco_questao(texto):
     3. Tem conteúdo de pergunta antes do comentário.
     """
     tem_comentario = re.search(r'Comentários?:', texto, re.IGNORECASE)
-    tem_gabarito = re.search(r'Gabarito:?.*[Ll]etra\s*[A-E]\.?|Gabarito:?.*[A-E]\.?|Gabarito:?.*(?:Certo|Errado|Correto|Incorreto)\.?', texto, re.IGNORECASE)
+    tem_gabarito = re.search(r'Gabarito(?:\s*é)?(?:\s*(?:a|o))?(?:\s*(?:letra|item))?\s*[A-E]\.?|Gabarito:?\s*[Ll]etra\s*[A-E]\.?|Gabarito:?\s*[A-E]\.?|Gabarito:?\s*(?:Certo|Errado|Correto|Incorreto)\.?', texto, re.IGNORECASE)
     tem_questao_resposta = re.search(r'Questão\s+(?:correta|certa|incorreta|errada)\.?', texto, re.IGNORECASE)
     
     # Verificar se há conteúdo antes do comentário (pelo menos 50 caracteres)
@@ -64,7 +64,7 @@ def formatar_questao_final(texto_bloco):
 
     # 5. CORTE APÓS GABARITO OU "QUESTÃO CORRETA/INCORRETA" (Corte Interno da Questão)
     # Padrão 1: Gabarito tradicional
-    padrao_gabarito = r'Gabarito:?.*[Ll]etra\s*[A-E]\.?|Gabarito:?.*[A-E]\.?|Gabarito:?.*(?:Certo|Errado|Correto|Incorreto)\.?'
+    padrao_gabarito = r'Gabarito(?:\s*é)?(?:\s*(?:a|o))?(?:\s*(?:letra|item))?\s*[A-E]\.?|Gabarito:?\s*[Ll]etra\s*[A-E]\.?|Gabarito:?\s*[A-E]\.?|Gabarito:?\s*(?:Certo|Errado|Correto|Incorreto)\.?'
     # Padrão 2: Questão correta/incorreta
     padrao_questao = r'Questão\s+(?:correta|certa|incorreta|errada)\.?'
     

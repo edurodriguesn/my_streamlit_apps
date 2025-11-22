@@ -123,11 +123,7 @@ def processar_texto(texto_bruto):
 
     # 1. Limpeza inicial (Rodapés)
     texto_trabalho = limpar_rodape_estrategia(texto_bruto)
-
-    # CORTE GLOBAL "LISTA DE QUESTÕES"
-    match_fim = re.search(r'LISTA DE QUESTÕES', texto_trabalho, re.IGNORECASE)
-    if match_fim:
-        texto_trabalho = texto_trabalho[:match_fim.start()]
+    
 
     # 2. Lista de bancas
     bancas = [
@@ -163,7 +159,7 @@ def processar_texto(texto_bruto):
     padrao_banca = rf'(?:^\d+\s*[\.\-\)]\s*)?\(?\b(?:{bancas_regex})\b.*?20\d{{2}}.*?'
     
     # Regex de Cabeçalho ALTERNATIVO (sem banca, formato órgão/ano)
-    padrao_alternativo = r'(?:^\d+\s*[\.\-\)]\s*)?\(?[A-ZÀ-Ú][A-ZÀ-Ú\s\-]+\s*[-/–]\s*20[0-2][0-9]\)?'
+    padrao_alternativo = r'\n.*?\s[-–/]\s*20[0-2][0-9]\)\n?'
     
     # Primeiro tenta com padrão de banca
     partes = re.split(f'({padrao_banca})', texto_trabalho, flags=re.MULTILINE)

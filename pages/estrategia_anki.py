@@ -3,8 +3,6 @@ import re
 import io
 from pypdf import PdfReader
 
-# --- FUNÇÕES DE LÓGICA ---
-
 def limpar_rodape_estrategia(texto_completo):
     """
     Remove linhas contendo 'www.estrategiaconcursos.com.br',
@@ -23,85 +21,77 @@ def limpar_rodape_estrategia(texto_completo):
     linhas_limpas = [linha for i, linha in enumerate(linhas) if i not in indices_para_remover]
     return "\n".join(linhas_limpas)
 
+def normalizar_tracos(txt):
+    txt = (
+        txt.replace("–", "-")
+           .replace("—", "-")
+           .replace("-", "-")
+           .replace("‒", "-")
+           .replace("−", "-")
+           .replace("  ", " ")
+    )
+    txt = re.sub(r'[0-9]{1,4}\.', '.', txt)
+    return txt
+
 def validar_bloco_questao(texto):
     """
-    Verifica se o bloco é válido:
-    1. Tem Comentário.
-    2. Tem Gabarito curto OU "Questão correta/incorreta".
-    3. Tem conteúdo de pergunta antes do comentário.
+    Verifica se o bloco é válido.
+    Exige apenas:
+    1. Presença de 'Comentários'.
+    2. Conteúdo de pergunta antes do comentário (> 30 chars).
     """
-    tem_comentario = re.search(r'Comentários?:', texto, re.IGNORECASE)
-    tem_gabarito = re.search(r'Gabarito(?:\s*é)?(?:\s*(?:a|o))?(?:\s*(?:letra|item))?\s*[A-E]\.?|Gabarito:?\s*[Ll]etra\s*[A-E]\.?|Gabarito:?\s*[A-E]\.?|Gabarito:?\s*(?:Certo|Errado|Correto|Incorreto)\.?', texto, re.IGNORECASE)
-    tem_questao_resposta = re.search(r'Questão\s+(?:correta|certa|incorreta|errada)\.?', texto, re.IGNORECASE)
+    match_comentario = re.search(r'Comentários?:', texto, re.IGNORECASE)
     
-    # Verificar se há conteúdo antes do comentário (pelo menos 50 caracteres)
-    if tem_comentario:
-        match = re.search(r'Comentários?:', texto, re.IGNORECASE)
-        conteudo_antes = texto[:match.start()].strip()
-        tem_pergunta = len(conteudo_antes) > 50
-    else:
-        tem_pergunta = False
+    if match_comentario:
+        conteudo_antes = texto[:match_comentario.start()].strip()
+        # Exige pelo menos 30 caracteres para considerar uma pergunta válida
+        tem_pergunta = len(conteudo_antes) > 30
+        return tem_pergunta
     
-    return bool(tem_comentario and (tem_gabarito or tem_questao_resposta) and tem_pergunta)
+    return False
 
 def formatar_questao_final(texto_bloco):
     """
-    Aplica formatações, remove números iniciais e corta após o gabarito.
+    Aplica formatações e insere o PIPE.
     """
-    
-    # 1. REMOVER NUMERAÇÃO INICIAL
-    # Remove: 1 ou 2 digitos, ponto, espaço (ex: "14. ", "05. ", "1. ") no inicio da string
-    texto_bloco = re.sub(r'^\s*\d{1,2}\.\s+', '', texto_bloco)
-    # 1.5 Inserir <br> antes de alternativas que estão sozinhas na linha
-    # Detecta: início de linha após quebra → a), b), c), d), e)
+    # 1. REMOVER NUMERAÇÃO INICIAL (Ex: "14. ", "05. ", "1. ")
+    texto_bloco = re.sub(r'^\s*\d{1,3}\.\s+', '', texto_bloco.strip())
+
+    # 2. Inserir <br> antes de alternativas (a), b), c)...)
     texto_bloco = re.sub(r'\n([a-eA-E]\))', r'<br> \1', texto_bloco)
 
-    # 2. Tratamento de quebras de linha (unir parágrafos quebrados)
+    # 3. Tratamento de quebras de linha
     texto_unido = re.sub(r'(?<!\.)\n', ' ', texto_bloco)
-    
-    # 3. Substitui os \n restantes (após ponto) por <br>
     texto_unido = re.sub(r'\n', ' <br> ', texto_unido)
-    
-    # 4. Limpeza de espaços duplos
     texto_unido = re.sub(r'\s+', ' ', texto_unido).strip()
+    texto_unido = re.sub(r'^\.+\s+', '', texto_unido)
+    
 
-    # 5. CORTE APÓS GABARITO OU "QUESTÃO CORRETA/INCORRETA" (Corte Interno da Questão)
-    # Padrão 1: Gabarito tradicional
-    padrao_gabarito = r'Gabarito(?:\s*é)?(?:\s*(?:a|o))?(?:\s*(?:letra|item))?\s*[A-E]\.?|Gabarito:?\s*[Ll]etra\s*[A-E]\.?|Gabarito:?\s*[A-E]\.?|Gabarito:?\s*(?:Certo|Errado|Correto|Incorreto)\.?'
-    # Padrão 2: Questão correta/incorreta
-    padrao_questao = r'Questão\s+(?:correta|certa|incorreta|errada)\.?'
-    
-    # Buscar ambos os padrões
-    match_gabarito = re.search(padrao_gabarito, texto_unido, re.IGNORECASE)
-    match_questao = re.search(padrao_questao, texto_unido, re.IGNORECASE)
-    
-    # Usar o que aparecer primeiro ou o que existir
-    match_exato = None
-    if match_gabarito and match_questao:
-        # Pega o que aparece primeiro
-        match_exato = match_gabarito if match_gabarito.start() < match_questao.start() else match_questao
-    elif match_gabarito:
-        match_exato = match_gabarito
-    elif match_questao:
-        match_exato = match_questao
-    
-    if match_exato:
-        # Corta a string exatamente onde termina o gabarito/resposta encontrado
-        texto_unido = texto_unido[:match_exato.end()]
+    # 4. CORTE COSMÉTICO (Gabarito final)
+    # Tenta cortar se achar "Gabarito: Letra X" ou "Questão Correta" no final da string
+    padrao_corte = (
+        r'\bGabarito\b(?!\s+da)'
+        r'(?=(?:\s*(?:é|:)\s*(?:a\s+)?)?(?:\s*(?:letra|item)?\s*[A-E]\b\.?))'
+        r'(?:\s*(?:é|:)\s*(?:a\s+)?)?(?:\s*(?:letra|item)?\s*[A-E]\b\.?)'
+        r'|Questão\s+(?:correta|certa|incorreta|errada)\.?'
+    )
 
-    # 6. Inserir o PIPE (|)
-    match_sep = re.search(r'(Comentários?:|Gabarito:?)', texto_unido, re.IGNORECASE)
+    match_corte = re.search(padrao_corte, texto_unido, re.IGNORECASE)
+    if match_corte:
+        texto_unido = texto_unido[:match_corte.end()]
+
+    # 5. Inserir o PIPE (|)
+    # Divisor: palavra "Comentários"
+    match_sep = re.search(r'(Comentários?:)', texto_unido, re.IGNORECASE)
     
     if match_sep:
         idx = match_sep.start()
         parte_pergunta = texto_unido[:idx].strip()
         parte_resposta = texto_unido[idx:].strip()
         
-        # Validar se a pergunta não está vazia
         if parte_pergunta:
             final = f"{parte_pergunta}|{parte_resposta}"
         else:
-            # Se a pergunta estiver vazia, não adicionar o pipe no início
             final = texto_unido
     else:
         final = texto_unido
@@ -109,96 +99,34 @@ def formatar_questao_final(texto_bloco):
     return final
 
 def processar_texto(texto_bruto):
-    # 1. Limpeza inicial (Rodapés)
-    # 0. Remoção de tudo antes de "sumário" ou "índice"
-    texto_lower = texto_bruto.lower()
-    pos_sumario = texto_lower.find("sumário")
-    pos_indice = texto_lower.find("índice")
-
-    posicoes_validas = [p for p in [pos_sumario, pos_indice] if p != -1]
-
-    if posicoes_validas:
-        inicio = min(posicoes_validas)
-        texto_bruto = texto_bruto[inicio:]
-
-    # 1. Limpeza inicial (Rodapés)
-    texto_trabalho = limpar_rodape_estrategia(texto_bruto)
+    # 1. Normalização e Limpeza de Rodapé
+    texto_limpo = limpar_rodape_estrategia(texto_bruto)
+    texto_limpo = normalizar_tracos(texto_limpo)
     
+    padrao_agressivo = r'(\.[^.]*?[A-Za-z]\s?[-/]\s?20[12][0-9])'
+    texto_marcado = re.sub(padrao_agressivo, r'\n;;;\1', texto_limpo, flags=re.MULTILINE)
+    # Verifica se o marcador foi inserido (debugging visual)
+    if ";;;" not in texto_marcado:
+        st.error("ERRO CRÍTICO: O padrão de data (ex: '- 2023' ou '/ 2023') não foi encontrado no texto. O PDF pode estar com formatação muito irregular.")
+        return ""
 
-    # 2. Lista de bancas
-    bancas = [
-        "FGV","CESGRANRIO","CEBRASPE","CESPE","VUNESP","FCC",
-        "IDECAN","IBFC","QUADRIX","CONSULPLAN","AOCP","SELECON",
-        "FUNDATEC","INSTITUTO MAIS","FEPESE",
-
-        "IADES","FADESP","COPESE","COPEL","FAPEC","FUNRIO",
-        "NUCEPE","CETREDE","COPEVE","FAEPE","FMP CONCURSOS",
-        "OBJETIVA CONCURSOS","LEGALLE","CONSULPAM","INAZ DO PARÁ",
-        "IBAM","MS CONCURSOS","GUALIMP","ADVISE","ÁGUIA CONSULTORIA",
-        "RBO CONCURSOS","HC CONSULTORIA","SUSTENTE CONCURSOS",
-        "OMNI CONCURSOS","KLC CONCURSOS","ALPHA CONCURSOS",
-        "ECH CONSULTORIA","FAPAM","FUNIVERSA","FUMARC","IBADE",
-        "FADURPE","FAFIPA CONCURSOS","FAUEL CONCURSOS","FAPETEC",
-        "FUNDEP","CESPLAN","COVEST","CEPS","FUNDESPE","FGAF",
-        "PROCERGS CONCURSOS",
-
-        "INSTITUTO ÁGATA","INSTITUTO ACCESS","INSTITUTO SELETA",
-        "INSTITUTO CONSULPAM","INSTITUTO UNIVERSAL",
-        "INSTITUTO EXCELÊNCIA","INSTITUTO IDEAP","INSTITUTO RENNOVE",
-        "INSTITUTO AVALIA","INSTITUTO IBRASP","INSTITUTO AVANÇAR",
-        "INSTITUTO FATEC","INSTITUTO NOSSA SENHORA AUXILIADORA (INSA)",
-        "INSTITUTO OBJETIVO","INSTITUTO LEGATUS","INSTITUTO MADRE JULIANA",
-        "INSTITUTO VICENTINA","INSTITUTO IGPBR","INSTITUTO OCP",
-        "INSTITUTO AOCP",
-        "INSTITUTO UNIÃO","INSTITUTO CONSULWEST","INSTITUTO CONSULMO",
-        "INSTITUTO PROMUN" 
-    ]
-    bancas_regex = "|".join(bancas)
-    
-    # Regex de Cabeçalho PRIMÁRIO (com banca)
-    padrao_banca = rf'(?:^\d+\s*[\.\-\)]\s*)?\(?\b(?:{bancas_regex})\b.*?20\d{{2}}.*?'
-    
-    # Regex de Cabeçalho ALTERNATIVO (sem banca, formato órgão/ano)
-    padrao_alternativo = r'\n.*?\s[-–/]\s*20[0-2][0-9]\)\n?'
-    
-    # Primeiro tenta com padrão de banca
-    partes = re.split(f'({padrao_banca})', texto_trabalho, flags=re.MULTILINE)
+    # 3. DIVISÃO
+    blocos = texto_marcado.split(';;;')
     
     questoes_finais = []
-    buffer_atual = ""
-    padrao_usado = "banca"
     
-    # Se não encontrou questões com banca, tenta padrão alternativo
-    if len(partes) <= 1:
-        st.info("Nenhuma questão encontrada com padrão de banca. Tentando padrão alternativo...")
-        partes = re.split(f'({padrao_alternativo})', texto_trabalho, flags=re.MULTILINE)
-        padrao_usado = "alternativo"
-    
-    padrao_ativo = padrao_banca if padrao_usado == "banca" else padrao_alternativo
-    
-    for parte in partes:
-        if not parte or not parte.strip(): 
+    for bloco in blocos:
+        if not bloco.strip():
             continue
-
-        if re.search(padrao_ativo, parte, re.MULTILINE):
-            # Salvar bloco anterior se válido
-            if buffer_atual:
-                if validar_bloco_questao(buffer_atual):
-                    questoes_finais.append(formatar_questao_final(buffer_atual))
             
-            # Iniciar novo bloco
-            buffer_atual = parte
-        else:
-            buffer_atual += parte
-
-    # Processar último bloco
-    if buffer_atual and validar_bloco_questao(buffer_atual):
-        questoes_finais.append(formatar_questao_final(buffer_atual))
+        # 4. VALIDAÇÃO (Requer apenas Comentários + Pergunta)
+        if validar_bloco_questao(bloco):
+            questao_formatada = formatar_questao_final(bloco)
+            questoes_finais.append(questao_formatada)
     
     return "\n".join(questoes_finais)
 
 def extrair_texto_pdf(arquivo_pdf):
-    """Lê o arquivo PDF carregado e retorna todo o texto como string."""
     leitor = PdfReader(arquivo_pdf)
     texto_completo = ""
     barra_progresso = st.progress(0)
@@ -215,23 +143,23 @@ def extrair_texto_pdf(arquivo_pdf):
 
 # --- Interface Streamlit ---
 
-st.set_page_config(page_title="Extrator PDF -> TXT", layout="wide")
+st.set_page_config(page_title="Extrator PDF → Flashcards Anki", layout="wide")
 
-st.title("📄 Extrator de Questões (PDF)")
+st.title("📄🦉🟣 Extrator de Questões para Anki")
 st.markdown("""
-**Filtros Ativos:**
-1. **Busca dupla:** Primeiro tenta padrão com banca, depois padrão alternativo (ÓRGÃO/ANO).
-2. **Ignora tudo** após encontrar a frase "LISTA DE QUESTÕES".
-3. **Remove rodapés** e numeração inicial.
-4. **Valida:** Somente blocos com Comentário e Gabarito curto.
-5. **Formata:** `Pergunta | Resposta` (com `<br>`).
+Este aplicativo converte PDFs de questões comentadas do Estratégia Concursos em um formato compatível com flashcards do Anki.
+
+**Como funciona:**
+- Faz upload do PDF de questões comentadas
+- O sistema identifica e separa cada questão automaticamente
+- Gera um arquivo TXT formatado pronto para importação no Anki
 """)
 
 uploaded_file = st.file_uploader("Escolha o arquivo PDF", type="pdf")
 
 if uploaded_file is not None:
     if st.button("Processar Arquivo"):
-        with st.spinner('Lendo e processando PDF...'):
+        with st.spinner('Processando PDF...'):
             try:
                 texto_extraido = extrair_texto_pdf(uploaded_file)
                 
@@ -242,25 +170,27 @@ if uploaded_file is not None:
                 else:
                     qtd = len(resultado.splitlines())
                 
-                if qtd == 0:
-                    st.error("Nenhuma questão válida encontrada.")
+                if qtd <= 1:
+                    st.warning(f"Atenção: Apenas {qtd} questão foi identificada. Verifique se o PDF contém texto selecionável.")
+                    if qtd == 1:
+                        st.text("Preview do conteúdo processado:")
+                        st.text(resultado[:500] + "...")
                 else:
-                    st.success(f"Sucesso! {qtd} questões extraídas.")
+                    st.success(f"✅ {qtd} questões extraídas com sucesso!")
                     
-                    st.subheader("Exemplo (Primeira linha):")
-                    preview = resultado.split("\n")[0]
-                    st.code(preview, language="text")
+                    st.subheader("Preview da Primeira Questão:")
+                    st.code(resultado.split("\n")[0], language="text")
 
                     buffer = io.BytesIO()
                     buffer.write(resultado.encode('utf-8'))
                     buffer.seek(0)
 
                     st.download_button(
-                        label="📥 Baixar TXT Formatado",
+                        label="📥 Baixar Arquivo para Anki",
                         data=buffer,
-                        file_name="estrategia_anki.txt",
+                        file_name="questoes_anki.txt",
                         mime="text/plain"
                     )
 
             except Exception as e:
-                st.error(f"Erro: {e}")
+                st.error(f"Erro ao processar o arquivo: {e}")

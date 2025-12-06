@@ -43,8 +43,8 @@ def tratar_cebraspe(texto):
         c = re.sub(r'Certo<br>Errado<br>', '', c)
         c = re.sub(r'Certo<br>Errado', '', c)
         c = re.sub(r'Certo Errado', '', c)
-        c = re.sub(r'<br>|', '', c)
-        c = re.sub(r'^<br>', '', c)
+        c = re.sub(r'<br>\|', '|', c)   # remove <br>| e deixa só |
+        c = re.sub(r'^<br>', '', c)     # remove <br> apenas no início
         c = re.sub(r'Gabarito ', '', c)
 
         novos_cards.append(c)

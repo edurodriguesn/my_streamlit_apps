@@ -34,7 +34,7 @@ def tratar_cebraspe(texto):
 
         # --- Remover prefixo antes do primeiro ponto ---
         # encontra o primeiro "." depois de algum texto
-        match = re.search(r'\.', c)
+        match = re.search(r'\.<br>', c)
         if match:
             idx = match.end()
             c = c[idx:].lstrip()  # remove espaço ou <br> no começo

@@ -12,7 +12,7 @@ with col2:
     if st.button("📄 Tratar Texto de PDF", use_container_width=True):
         st.switch_page("pages/tratar_texto.py")
 
-    if st.button("🧠 Transformador TEC → Anki", use_container_width=True):
+    if st.button("📘 Transformador TEC → Anki", use_container_width=True):
         st.switch_page("pages/transformador_anki.py")
 
     if st.button("🌐 Tradutor de Palavras EN → PT", use_container_width=True):

@@ -20,6 +20,39 @@ def tratar_texto(texto):
     return texto
 
 
+# ➕ ADIÇÃO CEBRASPE: função pós-processamento
+def tratar_cebraspe(texto):
+    # quebra o texto em cartões pelo marcador de gabarito
+    cards = re.split(r'(?=\n)', texto)
+
+    novos_cards = []
+    for card in cards:
+        c = card.strip()
+
+        if not c:
+            continue
+
+        # --- Remover prefixo antes do primeiro ponto ---
+        # encontra o primeiro "." depois de algum texto
+        match = re.search(r'\.', c)
+        if match:
+            idx = match.end()
+            c = c[idx:].lstrip()  # remove espaço ou <br> no começo
+
+        # --- Remover bloco Certo Errado ---
+        c = re.sub(r'Certo<br>Errado<br>', '', c)
+        c = re.sub(r'Certo<br>Errado', '', c)
+        c = re.sub(r'Certo Errado', '', c)
+        c = re.sub(r'<br>|', '', c)
+        c = re.sub(r'^<br>', '', c)
+        c = re.sub(r'Gabarito ', '', c)
+
+        novos_cards.append(c)
+
+    # junta novamente com quebra dupla entre cartões
+    return "\n".join(novos_cards)
+
+
 def main():
     st.set_page_config(
         page_title="Transformador de Texto para Anki",
@@ -29,57 +62,50 @@ def main():
     
     st.title("📝 Transformador de Texto para Anki")
     st.markdown("---")
-    
+
     with st.sidebar:
         st.header("ℹ️ Como usar")
         st.markdown("""
-        1. Cole o texto que deseja transformar no campo abaixo
-        2. Clique em 'Processar Texto'
-        3. O resultado aparecerá na área de resultado
-        4. Você pode copiar ou baixar o texto processado
+        1. Cole o texto que deseja transformar
+        2. Marque opções extras se desejar
+        3. Clique em 'Processar Texto'
+        4. Copie ou baixe o resultado
         """)
-        
-        st.header("🔧 Transformações aplicadas")
-        st.markdown("""
-        - Remove linhas que começam com www.*
-        - Substitui quebras de linha por `<br>`
-        - Substitui 'Gabarito:' por '|Gabarito'
-        - Formata números de questões
-        - Remove formatação desnecessária
-        """)
-    
+
     col1, col2 = st.columns([1, 1])
     
     with col1:
         st.subheader("📥 Texto de entrada")
         texto_entrada = st.text_area(
             "Cole seu texto aqui:",
-            height=400,
-            placeholder="Cole o texto que deseja transformar aqui...",
-            help="Cole o texto que você quer processar para criar flashcards do Anki"
+            height=400
         )
+        cebraspe_option = st.checkbox("Marque aqui se todas as questões são da banca Cebraspe", value=False)
         
         if st.button("🔄 Processar Texto", type="primary", use_container_width=True):
             if texto_entrada.strip():
                 with st.spinner("Processando texto..."):
                     texto_processado = tratar_texto(texto_entrada)
+                      
+                    # ➕ ADIÇÃO CEBRASPE: aplicar depois do processamento normal
+                    if cebraspe_option:
+                        texto_processado = tratar_cebraspe(texto_processado)
+
                     st.session_state['texto_processado'] = texto_processado
                     st.session_state['processado'] = True
             else:
-                st.warning("⚠️ Por favor, insira algum texto para processar.")
+                st.warning("⚠️ Por favor, insira algum texto.")
     
     with col2:
         st.subheader("📤 Resultado processado")
         
-        if st.session_state.get('processado', False) and 'texto_processado' in st.session_state:
+        if st.session_state.get('processado', False):
             st.text_area(
                 "Texto processado:",
                 value=st.session_state['texto_processado'],
-                height=400,
-                help="Texto transformado, pronto para usar no Anki"
+                height=400
             )
 
-            # 🔥 Botão de download como TXT
             st.download_button(
                 label="📥 Baixar como cards.txt",
                 data=st.session_state['texto_processado'],
@@ -89,9 +115,6 @@ def main():
             )
         else:
             st.info("👆 Processe um texto para ver o resultado aqui.")
-    
-    st.markdown("---")
-    st.markdown("💡 **Dica:** Após processar o texto, você pode copiar ou baixar o resultado para usar no Anki!")
 
 if __name__ == "__main__":
     if 'processado' not in st.session_state:

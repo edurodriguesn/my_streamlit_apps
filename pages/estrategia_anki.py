@@ -222,8 +222,11 @@ if uploaded_file is not None:
                         st.text(resultado[:500] + "...")
                 else:
                     st.success(f"✅ {qtd} questões extraídas com sucesso!")
-                    st.subheader("Preview da Primeira Questão:")
-                    st.code(resultado.split("\n")[0], language="text")
+                    st.text_area(
+                        "Texto:",
+                        value=resultado,
+                        height=400
+                    )
 
                     buffer = io.BytesIO()
                     buffer.write(resultado.encode('utf-8'))

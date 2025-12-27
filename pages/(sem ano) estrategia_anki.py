@@ -31,6 +31,7 @@ def normalizar_tracos(txt):
     )
     txt = re.sub(r'\s\s', ' ', txt)
     txt = re.sub(r'[0-9]{1,4}\.', '.', txt)
+    txt = re.sub(r'\b\d{1,2}\s\d{1,2}\b', '', txt)
     return txt
 
 def validar_bloco_questao(texto):
@@ -131,12 +132,17 @@ def processar_texto(texto_bruto):
     texto_limpo = re.sub(padrao_gabarito, adicionar_ponto_gabarito, texto_limpo)
 
     # 3. Aplicação do padrão agressivo
-    padrao_agressivo = r'\(([^.]*?\))'
-    texto_marcado = re.sub(padrao_agressivo, r'\n;;;(\1', texto_limpo)
+    texto_marcado = re.sub(
+        r'(?<![^\s.] )\(([^.]*?)\)',
+        r'\n;;;(\1)',
+        texto_limpo
+    )
+
+
 
     # Verifica se o marcador foi inserido (debugging visual)
     if ";;;" not in texto_marcado:
-        st.error("ERRO CRÍTICO: O padrão de data (ex: '- 2023' ou '/ 2023') não foi encontrado no texto. O PDF pode estar com formatação muito irregular.")
+        st.error("ERRO CRÍTICO: O padrão não foi encontrado no texto. O PDF pode estar com formatação muito irregular.")
         return ""
 
     # 4. DIVISÃO
@@ -154,6 +160,15 @@ def processar_texto(texto_bruto):
             questoes_finais.append(questao_formatada)
     
     return "\n".join(questoes_finais)
+
+def pos_processar_texto(texto):
+    texto = (
+        texto.replace("..",".")
+        .replace("alternativa. <br>", "alternativa")
+    )
+    texto = re.sub(r'(?<=[.;])\s([a-e]\))', r'<br>\1', texto)
+
+    return texto
 
 def extrair_texto_pdf(arquivo_pdf, pagina_inicial=None, pagina_final=None):
     # LER O ARQUIVO ENVIADO PELO STREAMLIT
@@ -207,7 +222,7 @@ if uploaded_file is not None:
             try:
                 texto_extraido = extrair_texto_pdf(uploaded_file, pagina_inicial, pagina_final)
                 resultado = processar_texto(texto_extraido)
-
+                resultado = pos_processar_texto(resultado)
                 # --- restante do código permanece igual ---
                 if not resultado.strip():
                     qtd = 0
@@ -247,7 +262,7 @@ if uploaded_file is not None:
             try:
                 texto_extraido = extrair_texto_pdf(uploaded_file)  # sem intervalos
                 resultado = processar_texto(texto_extraido)
-
+                resultado = pos_processar_texto(resultado)
                 # --- restante igual ---
                 if not resultado.strip():
                     qtd = 0

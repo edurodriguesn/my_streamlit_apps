@@ -29,6 +29,7 @@ def normalizar_tracos(txt):
            .replace("‒", "-")
            .replace("−", "-")
     )
+    txt = re.sub(r'[\u00A0\u2000-\u200B\u202F\u205F\u3000]', ' ', txt)
     txt = re.sub(r'\s\s', ' ', txt)
     txt = re.sub(r'[0-9]{1,4}\.', '.', txt)
     txt = re.sub(r'\b\d{1,2}\s\d{1,2}\b', '', txt)

@@ -167,7 +167,7 @@ def pos_processar_texto(texto):
         texto.replace("..",".")
         .replace("alternativa. <br>", "alternativa")
     )
-    texto = re.sub(r'(?<=[.;])\s([a-e]\))', r'<br>\1', texto)
+    texto = re.sub(r'(?<=[.:;])\s([a-e]\))', r'<br>\1', texto)
 
     return texto
 

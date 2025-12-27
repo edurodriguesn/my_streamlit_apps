@@ -163,7 +163,7 @@ def pos_processar_texto(texto):
         .replace("alternativa. <br>", "alternativa")
         .replace("questão. <br>", "questão")
     )
-    texto = re.sub(r'(?<=[.;])\s([a-e]\))', r'<br>\1', texto)
+    texto = re.sub(r'(?<=[.;:])\s([a-e]\))', r'<br>\1', texto)
 
     return texto
 def extrair_texto_pdf(arquivo_pdf, pagina_inicial=None, pagina_final=None):

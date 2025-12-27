@@ -202,7 +202,7 @@ def extrair_texto_pdf(arquivo_pdf, pagina_inicial=None, pagina_final=None):
 
 st.set_page_config(page_title="Extrator PDF → Flashcards Anki", layout="wide")
 
-st.title("📄🦉🟣 Extrator de Questões para Anki")
+st.title("📄🦉🟣❓ Extrator de Questões para Anki (Sem ano)")
 st.markdown("""
 Este aplicativo converte PDFs de questões comentadas do Estratégia Concursos em um formato compatível com flashcards do Anki.
 """)

@@ -229,7 +229,7 @@ if uploaded_file is not None:
             try:
                 texto_extraido = extrair_texto_pdf(uploaded_file, pagina_inicial, pagina_final)
                 resultado = processar_texto(texto_extraido)
-
+                resultado = pos_processar_texto(resultado)
                 # --- restante do código permanece igual ---
                 if not resultado.strip():
                     qtd = 0
@@ -269,7 +269,7 @@ if uploaded_file is not None:
             try:
                 texto_extraido = extrair_texto_pdf(uploaded_file)  # sem intervalos
                 resultado = processar_texto(texto_extraido)
-
+                resultado = pos_processar_texto(resultado)
                 # --- restante igual ---
                 if not resultado.strip():
                     qtd = 0

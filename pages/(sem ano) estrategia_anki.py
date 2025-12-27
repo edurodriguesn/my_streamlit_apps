@@ -32,6 +32,7 @@ def normalizar_tracos(txt):
     txt = re.sub(r'\s\s', ' ', txt)
     txt = re.sub(r'[0-9]{1,4}\.', '.', txt)
     txt = re.sub(r'\b\d{1,2}\s\d{1,2}\b', '', txt)
+    txt = re.sub(r"==.{6}==", "", txt)
     return txt
 
 def validar_bloco_questao(texto):

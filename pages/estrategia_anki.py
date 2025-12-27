@@ -31,6 +31,7 @@ def normalizar_tracos(txt):
     )
     txt = re.sub(r'\s\s', ' ', txt)
     txt = re.sub(r'[0-9]{1,4}\.', '.', txt)
+    txt = re.sub(r'\b\d{1,2}\s\d{1,2}\b', '', txt)
     txt = re.sub(r"==.{6}==", "", txt)
     return txt
 
@@ -156,8 +157,28 @@ def processar_texto(texto_bruto):
     
     return "\n".join(questoes_finais)
 
+def pos_processar_texto(texto):
+    texto = (
+        texto.replace("..",".")
+        .replace("alternativa. <br>", "alternativa")
+        .replace("questão. <br>", "questão")
+    )
+    texto = re.sub(r'(?<=[.;])\s([a-e]\))', r'<br>\1', texto)
+
+    return texto
 def extrair_texto_pdf(arquivo_pdf, pagina_inicial=None, pagina_final=None):
     # LER O ARQUIVO ENVIADO PELO STREAMLIT
+    """
+    Extrai o texto de um arquivo PDF a partir de um streamlit UploadedFile.
+
+    Parâmetros:
+    arquivo_pdf (UploadedFile): O arquivo PDF a ser lido.
+    pagina_inicial (int, opcional): A página inicial a ser lida. Se None, começa da página 1.
+    pagina_final (int, opcional): A página final a ser lida. Se None, termina na última página do arquivo.
+
+    Retorna:
+    str: O texto extraído do arquivo PDF.
+    """
     pdf_bytes = arquivo_pdf.read()
 
     # ABRIR O PDF A PARTIR DO STREAM

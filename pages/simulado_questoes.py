@@ -52,6 +52,14 @@ if "questoes" not in st.session_state:
 questoes = st.session_state.questoes
 total = len(questoes)
 
+if total == 0:
+    st.warning("Nenhuma questão encontrada no PDF.")
+    st.stop()
+
+# Garantir que idx está dentro dos limites
+if st.session_state.idx >= total:
+    st.session_state.idx = total - 1
+
 # Tela de resultado final
 if st.session_state.finalizado:
     respondidas = len(st.session_state.respostas)

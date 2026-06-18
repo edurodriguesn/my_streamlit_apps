@@ -27,5 +27,8 @@ with col2:
     if st.button("🟣🦉 Extrator de Questões de PDF do Estratégia", use_container_width=True):
         st.switch_page("pages/estrategia_anki.py")
 
+    if st.button("⚙️Gerador de Simulados TEC", use_container_width=True):
+        st.switch_page("pages/simulado_questoes.py")
+
     if st.button("❓ (Questões sem ano) Extrator de Questões de PDF do Estratégia", use_container_width=True):
         st.switch_page("pages/(sem ano) estrategia_anki.py")

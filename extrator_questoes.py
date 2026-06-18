@@ -32,30 +32,22 @@ import re
 def armazenar_questoes(texto):
     questoes = []
 
-    # início de questão: número de 1-200 seguido de )
-    inicio_pattern = re.compile(r'^(?P<id>(?:[1-9]\d?|1\d\d|200))\)\s*(.*)$', re.MULTILINE)
+    # início de questão: qualquer número seguido de )
+    inicio_pattern = re.compile(r'^\d+\)\s*(.*)$', re.MULTILINE)
 
     matches = list(inicio_pattern.finditer(texto))
-
-    ids_usados = set()
 
     for i, match in enumerate(matches):
         inicio = match.start()
         fim = matches[i + 1].start() if i + 1 < len(matches) else len(texto)
 
         bloco = texto[inicio:fim].strip()
-
-        qid = int(match.group("id"))
-
-        if qid in ids_usados:
-            raise ValueError(f"ID repetido: {qid}")
-
-        ids_usados.add(qid)
+        qid = i + 1
 
         linhas = bloco.splitlines()
 
-        # remove o marcador "123)"
-        linhas[0] = re.sub(r'^(?:[1-9]\d?|1\d\d|200)\)\s*', '', linhas[0])
+        # remove o marcador numérico "N)"
+        linhas[0] = re.sub(r'^\d+\)\s*', '', linhas[0])
 
         # encontra alternativas
         idx_alt = None

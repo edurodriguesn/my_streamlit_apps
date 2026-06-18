@@ -2,6 +2,7 @@ import streamlit as st
 import tempfile
 import os
 import sys
+import random
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from extrator_questoes import processar_pdf
@@ -148,7 +149,7 @@ else:
 st.markdown("---")
 
 # Navegação
-col_prev, col_next, col_fim = st.columns([1, 1, 1])
+col_prev, col_next, col_rand, col_fim = st.columns([1, 1, 1, 1])
 with col_prev:
     if st.button("⬅️ Anterior", disabled=(idx == 0), use_container_width=True):
         st.session_state.idx -= 1
@@ -156,6 +157,10 @@ with col_prev:
 with col_next:
     if st.button("➡️ Próxima", disabled=(idx == total - 1), use_container_width=True):
         st.session_state.idx += 1
+        st.rerun()
+with col_rand:
+    if st.button("🎲 Aleatória", use_container_width=True):
+        st.session_state.idx = random.randint(0, total - 1)
         st.rerun()
 with col_fim:
     if st.button("🏁 Terminar", use_container_width=True):

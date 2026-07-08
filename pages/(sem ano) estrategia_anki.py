@@ -54,111 +54,64 @@ def validar_bloco_questao(texto):
     return False
 
 def formatar_questao_final(texto_bloco):
-    """
-    Aplica formatações e insere o PIPE.
-    """
-    # 1. REMOVER NUMERAÇÃO INICIAL (Ex: "14. ", "05. ", "1. ")
-    texto_bloco = re.sub(r'^\s*\d{1,3}\.\s+', '', texto_bloco.strip())
+    # 1. Remover a numeração puramente numérica do início para o Anki (opcional)
+    # Mantém apenas o (BANCA - ÓRGÃO - ANO)
+    texto_bloco = re.sub(r'^\d+\.\s+', '', texto_bloco.strip())
 
-    # 2. Inserir <br> antes de alternativas (a), b), c)...)
+    # 2. Inserir <br> antes de alternativas
     texto_bloco = re.sub(r'\n([a-eA-E]\))', r'<br> \1', texto_bloco)
 
-    # 3. Tratamento de quebras de linha
-    texto_unido = re.sub(r'(?<!\.)\n', ' ', texto_bloco)
-    texto_unido = re.sub(r'\n', ' <br> ', texto_unido)
-    texto_unido = re.sub(r'^<br>', '', texto_unido)
-    texto_unido = re.sub(r'\s+', ' ', texto_unido).strip()
-    texto_unido = re.sub(r'^\.+\s+', '', texto_unido)
-    texto_unido = re.sub(r'([a-z])([A-Z])', r'\1 \2', texto_unido)
-    texto_unido = re.sub(r'([azA-Z][A-Z])([a-z])', r'\1 \2', texto_unido)
+    # 3. Limpeza de quebras de linha excessivas
+    # Transforma quebras simples em espaços, mas mantém o que já é <br>
+    texto_unido = re.sub(r'\s+', ' ', texto_bloco).strip()
+
+    # 4. CAPTURA DO GABARITO E CORTE
+    # Procuramos "Gabarito" seguido de qualquer caractere até o ponto final
+    padrao_gabarito_final = r'(Gabarito\s*[:\-]?\s*[A-E]\b\.?)'
+    match_gabarito = re.search(padrao_gabarito_final, texto_unido, re.IGNORECASE)
     
+    if match_gabarito:
+        # Corta tudo que vier depois do ponto do Gabarito
+        texto_unido = texto_unido[:match_gabarito.end()]
 
-    # 4. CORTE COSMÉTICO (Gabarito final)
-    # Tenta cortar se achar "Gabarito: Letra X" ou "Questão Correta" no final da string
-    padrao_corte = (
-        r'\bGabarito\b(?!\s+da)'
-        r'(?=(?:\s*(?:é|:)\s*(?:a\s+)?)?(?:\s*(?:letra|item)?\s*[A-E]\b\.?))'
-        r'(?:\s*(?:é|:)\s*(?:a\s+)?)?(?:\s*(?:letra|item)?\s*[A-E]\b\.?)'
-        r'|Questão\s+(?:correta|certa|incorreta|errada)\.?'
-    )
-
-    match_corte = re.search(padrao_corte, texto_unido, re.IGNORECASE)
-    if match_corte:
-        texto_unido = texto_unido[:match_corte.end()]
-
-    # 5. Inserir o PIPE (|)
-    # Divisor: palavra "Comentários"
+    # 5. Inserir o PIPE (|) no divisor "Comentários"
     match_sep = re.search(r'(Comentários?:)', texto_unido, re.IGNORECASE)
     
     if match_sep:
         idx = match_sep.start()
         parte_pergunta = texto_unido[:idx].strip()
         parte_resposta = texto_unido[idx:].strip()
-        
-        if parte_pergunta:
-            final = f"{parte_pergunta}|{parte_resposta}"
-        else:
-            final = texto_unido
-    else:
-        final = texto_unido
-
-    return final
+        return f"{parte_pergunta}|{parte_resposta}"
+    
+    return texto_unido
 
 def processar_texto(texto_bruto):
-    # 1. Normalização e Limpeza de Rodapé
+    # 1. Normalização e Limpeza
     texto_limpo = limpar_rodape_estrategia(texto_bruto)
     texto_limpo = normalizar_tracos(texto_limpo)
 
-    # 2. Pré-tratamento do "Gabarito:"
-    # Padrão: captura "Gabarito:" seguido de até 3 palavras OU até encontrar \n
-    # Grupo 1: "Gabarito:"
-    # Grupo 2: conteúdo até 3 palavras ou quebra de linha
-    padrao_gabarito = r'(Gabarito:\s*)([^\n]*?)(?=\n|(?:\s+\S+){3}\s+)'
+    # 2. DIVISÃO PELO PADRÃO: 1. (FGV - ... - 202X)
+    # Explicação do Regex:
+    # \d+\.\s+ -> Número seguido de ponto e espaço
+    # \([A-Z]{3,}\s+-\s+ -> Abre parênteses, 3+ letras (banca), hífen
+    # .*? -> Qualquer conteúdo (órgão)
+    # -\s+202\d\) -> Hífen, ano 202x e fecha parênteses
+    padrao_inicio_questao = r'(\d+\.\s+\([A-Z]{3,}\s+-\s+.*?-\s+202\d\))'
     
-    def adicionar_ponto_gabarito(match):
-        prefixo = match.group(1)  # "Gabarito: "
-        conteudo = match.group(2).strip()  # conteúdo capturado
-        
-        # Pega até 3 palavras do conteúdo
-        palavras = conteudo.split()
-        ate_tres_palavras = ' '.join(palavras[:3])
-        resto = ' '.join(palavras[3:]) if len(palavras) > 3 else ''
-        
-        # Monta o resultado com ponto e quebra de linha
-        resultado = f"{prefixo}{ate_tres_palavras}.\n"
-        if resto:
-            resultado += resto
-        
-        return resultado
-    
-    texto_limpo = re.sub(padrao_gabarito, adicionar_ponto_gabarito, texto_limpo)
-
-    # 3. Aplicação do padrão agressivo
-    texto_marcado = re.sub(
-        r'(?<![^\s.] )\(([^.]*?)\)',
-        r'\n;;;(\1)',
-        texto_limpo
-    )
-
-
-
-    # Verifica se o marcador foi inserido (debugging visual)
-    if ";;;" not in texto_marcado:
-        st.error("ERRO CRÍTICO: O padrão não foi encontrado no texto. O PDF pode estar com formatação muito irregular.")
-        return ""
-
-    # 4. DIVISÃO
-    blocos = texto_marcado.split(';;;')
+    # Usamos o split mantendo o delimitador para não perder o cabeçalho da questão
+    partes = re.split(padrao_inicio_questao, texto_limpo)
     
     questoes_finais = []
     
-    for bloco in blocos:
-        if not bloco.strip():
-            continue
-            
-        # 4. VALIDAÇÃO (Requer apenas Comentários + Pergunta)
-        if validar_bloco_questao(bloco):
-            questao_formatada = formatar_questao_final(bloco)
+    # Como o split com grupo de captura retorna [vazio, delimitador, conteúdo, delimitador, conteúdo...]
+    # Vamos iterar de 2 em 2 para remontar Cabeçalho + Corpo
+    for i in range(1, len(partes), 2):
+        cabecalho = partes[i]
+        corpo = partes[i+1] if (i+1) < len(partes) else ""
+        bloco_completo = cabecalho + corpo
+        
+        if validar_bloco_questao(bloco_completo):
+            questao_formatada = formatar_questao_final(bloco_completo)
             questoes_finais.append(questao_formatada)
     
     return "\n".join(questoes_finais)

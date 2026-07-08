@@ -3,6 +3,7 @@ import tempfile
 import os
 import sys
 import random
+import json
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from extrator_questoes import processar_pdf
@@ -21,29 +22,33 @@ st.markdown("""
 
 st.title("📝 Simulado de Questões")
 
-# Upload do PDF
-uploaded_file = st.file_uploader("Envie o PDF com as questões", type="pdf")
+# Upload do PDF ou JSON
+uploaded_file = st.file_uploader("Envie o PDF ou JSON com as questões", type=["pdf", "json"])
 
 if uploaded_file:
     if "questoes" not in st.session_state or st.session_state.get("arquivo_nome") != uploaded_file.name:
-        with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as tmp:
-            tmp.write(uploaded_file.read())
-            tmp_path = tmp.name
         try:
-            with st.spinner("Gerando seu simulado, por favor aguarde alguns segundos..."):
-                questoes = processar_pdf(tmp_path)
+            if uploaded_file.name.endswith(".json"):
+                questoes = json.loads(uploaded_file.read().decode("utf-8"))
+            else:
+                with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as tmp:
+                    tmp.write(uploaded_file.read())
+                    tmp_path = tmp.name
+                try:
+                    with st.spinner("Gerando seu simulado, por favor aguarde alguns segundos..."):
+                        questoes = processar_pdf(tmp_path)
+                finally:
+                    os.unlink(tmp_path)
             st.session_state.questoes = questoes
             st.session_state.arquivo_nome = uploaded_file.name
             st.session_state.idx = 0
-            st.session_state.respostas = {}  # {id: letra_escolhida}
-            st.session_state.respondidas = {}  # {id: True}
+            st.session_state.respostas = {}
+            st.session_state.respondidas = {}
             st.session_state.mostrar_gabarito = {}
             st.session_state.finalizado = False
         except Exception as e:
-            st.error(f"Erro ao processar PDF: {e}")
+            st.error(f"Erro ao processar arquivo: {e}")
             st.stop()
-        finally:
-            os.unlink(tmp_path)
 
 if "questoes" not in st.session_state:
     st.info("Envie um PDF para começar.")
@@ -64,7 +69,7 @@ if st.session_state.idx >= total:
 if st.session_state.finalizado:
     respondidas = len(st.session_state.respostas)
     acertos = sum(1 for qid, resp in st.session_state.respostas.items()
-                  if any(q["gabarito"] == resp for q in questoes if q["id"] == qid))
+                  if any(q["alternativas"][ord(resp) - ord('A')] == q["gabarito"] for q in questoes if q["id"] == qid))
     porcentagem = (acertos / respondidas * 100) if respondidas > 0 else 0
 
     st.markdown("---")
@@ -84,7 +89,7 @@ if st.session_state.finalizado:
 
 # Contador de acertos/erros visível
 acertos = sum(1 for qid, resp in st.session_state.respostas.items()
-              if any(q["gabarito"] == resp for q in questoes if q["id"] == qid))
+              if any(q["alternativas"][ord(resp) - ord('A')] == q["gabarito"] for q in questoes if q["id"] == qid))
 erros = len(st.session_state.respostas) - acertos
 
 col_ac, col_er, col_tot = st.columns(3)
@@ -128,8 +133,14 @@ if not ja_respondida and not mostrar_gab:
             st.session_state.mostrar_gabarito[qid] = True
             st.rerun()
 else:
-    gabarito = q["gabarito"]
-    acertou = escolha == gabarito if ja_respondida else None
+    gabarito_texto = q["gabarito"]
+    # Encontrar a letra correta baseado no texto do gabarito
+    letra_gabarito = None
+    for i, alt in enumerate(q["alternativas"]):
+        if alt == gabarito_texto:
+            letra_gabarito = letras[i]
+            break
+    acertou = (escolha == letra_gabarito) if ja_respondida else None
     mostrar_correta = mostrar_gab or (ja_respondida and acertou)
 
     for i, alt in enumerate(q["alternativas"]):
@@ -137,14 +148,14 @@ else:
         texto_alt = f"{letra}) {alt}"
 
         if ja_respondida:
-            if mostrar_correta and letra == gabarito:
+            if mostrar_correta and letra == letra_gabarito:
                 st.markdown(f'<div class="correta">{texto_alt}</div>', unsafe_allow_html=True)
             elif letra == escolha and not acertou:
                 st.markdown(f'<div class="errada">{texto_alt}</div>', unsafe_allow_html=True)
             else:
                 st.markdown(f"&nbsp;&nbsp;{texto_alt}")
         elif mostrar_gab:
-            if letra == gabarito:
+            if letra == letra_gabarito:
                 st.markdown(f'<div class="gabarito">{texto_alt}</div>', unsafe_allow_html=True)
             else:
                 st.markdown(f"&nbsp;&nbsp;{texto_alt}")

@@ -28,8 +28,7 @@ def _extrair_texto_fitz(caminho_pdf):
     return texto
 
 
-def extrair_questoes_pdf(caminho_pdf):
-    # Tenta pdfplumber primeiro, se falhar usa fitz
+def extrair_questoes_pdf(caminho_pdf, com_assunto=False):
     texto_completo = None
     if pdfplumber:
         try:
@@ -45,28 +44,68 @@ def extrair_questoes_pdf(caminho_pdf):
     texto_completo = re.sub(r'\s{2,}', ' ', texto_completo)
     # 2 - remover as 3 primeiras linhas
     texto_completo = '\n'.join(texto_completo.split('\n')[3:])
-    # 3 - remover as linhas que começam com www
-    texto_completo = '\n'.join([linha for linha in texto_completo.split('\n') if not linha.startswith('www')])
-    # 4 - remover numeração tipo "1) ", "23) " (sem abre parênteses antes)
-    texto_completo = re.sub(r'(?<!\()\d+\)\s*', '', texto_completo)
-    # 5 - adicionar ponto final após "Gabarito: X" (apenas a letra)
+    # 3 - remover as linhas que começam com www (e a linha seguinte se com_assunto)
+    linhas = texto_completo.split('\n')
+    linhas_filtradas = []
+    pular_proxima = False
+    for linha in linhas:
+        if pular_proxima:
+            pular_proxima = False
+            continue
+        if linha.startswith('www'):
+            if com_assunto:
+                pular_proxima = True
+            continue
+        linhas_filtradas.append(linha)
+    texto_completo = '\n'.join(linhas_filtradas)
+
+    texto_completo = re.sub(
+        r'Certo\s+Errado\s+Gabarito:\s*Certo',
+        'a) Certo\nb) Errado\nGabarito: A',
+        texto_completo
+    )
+    texto_completo = re.sub(
+        r'Certo\s+Errado\s+Gabarito:\s*Errado',
+        'a) Certo\nb) Errado\nGabarito: B',
+        texto_completo
+    )
+
+    # 3.5 - se com_assunto, marcar linha acima da numeração como assunto
+    if com_assunto:
+        linhas = texto_completo.split('\n')
+        novas_linhas = []
+        for i, linha in enumerate(linhas):
+            if re.match(r'(?<!\()\d+\)\s*', linha):
+                if novas_linhas:
+                    prev = novas_linhas[-1].rstrip('.')
+                    novas_linhas[-1] = 'Assunto: ' + prev + '.'
+                linha_sem_num = re.sub(r'(?<!\()\d+\)\s*', '', linha)
+                novas_linhas.append('Enunciado: ' + linha_sem_num)
+            else:
+                novas_linhas.append(linha)
+        texto_completo = '\n'.join(novas_linhas)
+    else:
+        # 4 - remover numeração tipo "1) ", "23) "
+        texto_completo = re.sub(r'(?<!\()\d+\)\s*', '', texto_completo)
+
+    # 5 - adicionar ponto final após "Gabarito: X"
     texto_completo = re.sub(r'(Gabarito:\s[A-E])', r'\1.', texto_completo, flags=re.MULTILINE)
     # 6 - remover quebras de linha não terminadas com ponto
     texto_completo = re.sub(r'(?<!\.|\:|\;)\n', ' ', texto_completo)
-    # 7 - adiciona quebra de linha em casos a-e) que não estão na posição inicial da linha
+    # 7 - adiciona quebra de linha em casos a-e)
     texto_completo = re.sub(r'(?<!\n)\s+([a-e]\))', r'\n\1', texto_completo)
     # 8 - adicionar quebra de linha quando houver "Gabarito: A-E" no meio do texto
     texto_completo = re.sub(r'(?<!\n)(Gabarito:\s[A-E]\.)', r'\n\1', texto_completo)
-    # 9 - adicionar ponto no final de texto que começa com a-e) e não termina com ponto
-    texto_completo = re.sub(r'^([a-e]\).*)(?<!\.)$', r'\1.', texto_completo, flags=re.MULTILINE)
+    # 9 - adicionar ponto no final de texto que começa com a-e) e não termina com ponto ou ponto e vírgula
+    texto_completo = re.sub(r'^([a-e]\).*)(?<![.;])$', r'\1.', texto_completo, flags=re.MULTILINE)
+    texto_completo = texto_completo.replace(' .', '.')
 
     return texto_completo
 
 
-def armazenar_questoes(texto):
+def armazenar_questoes(texto, com_assunto=False):
     questoes = []
 
-    # Divide usando "Gabarito: X." como delimitador de fim de questão
     gabarito_pattern = re.compile(r'^Gabarito:\s*([A-E])\s*\.?$', re.MULTILINE | re.IGNORECASE)
     matches = list(gabarito_pattern.finditer(texto))
 
@@ -83,6 +122,19 @@ def armazenar_questoes(texto):
         try:
             gabarito = match.group(1).upper()
             linhas = bloco.splitlines()
+
+            # Extrair assunto se com_assunto
+            assunto = ""
+            if com_assunto:
+                for j, linha in enumerate(linhas):
+                    if linha.strip().startswith('Assunto: '):
+                        assunto = linha.strip().replace('Assunto: ', '', 1).rstrip('.')
+                        linhas = linhas[:j] + linhas[j+1:]
+                        break
+                for j, linha in enumerate(linhas):
+                    if linha.strip().startswith('Enunciado: '):
+                        linhas[j] = linha.replace('Enunciado: ', '', 1)
+                        break
 
             # encontra alternativas (primeira linha que começa com a))
             idx_alt = None
@@ -118,20 +170,27 @@ def armazenar_questoes(texto):
             if not valida or not alternativas:
                 continue
 
+            # Resolver gabarito: texto da alternativa correspondente à letra
+            idx_gabarito = ord(gabarito.lower()) - ord('a')
+            texto_gabarito = alternativas[idx_gabarito] if idx_gabarito < len(alternativas) else gabarito
+
             qid += 1
-            questoes.append({
+            questao = {
                 "id": qid,
                 "enunciado": enunciado,
                 "alternativas": alternativas,
-                "gabarito": gabarito
-            })
+                "gabarito": texto_gabarito
+            }
+            if com_assunto:
+                questao["assunto"] = assunto
+            questoes.append(questao)
         except Exception:
             continue
 
     return questoes
 
 
-def processar_pdf(pdf_path):
-    texto = extrair_questoes_pdf(pdf_path)
-    questoes = armazenar_questoes(texto)
+def processar_pdf(pdf_path, com_assunto=False):
+    texto = extrair_questoes_pdf(pdf_path, com_assunto=com_assunto)
+    questoes = armazenar_questoes(texto, com_assunto=com_assunto)
     return questoes

@@ -22,43 +22,99 @@ st.markdown("""
 
 st.title("📝 Simulado de Questões")
 
-# Upload do PDF ou JSON
+# --- SEÇÃO DE CARREGAMENTO DE ARQUIVOS ---
+PASTA_RAIZ = "questoes_filtradas"
+arquivo_local_selecionado = None
+
+# 1. Upload manual por arquivo
 uploaded_file = st.file_uploader("Envie o PDF ou JSON com as questões", type=["pdf", "json"])
 
-if uploaded_file:
-    if "questoes" not in st.session_state or st.session_state.get("arquivo_nome") != uploaded_file.name:
-        try:
-            if uploaded_file.name.endswith(".json"):
-                questoes = json.loads(uploaded_file.read().decode("utf-8"))
+# 2. Navegador de arquivos do servidor (questoes_filtradas)
+st.markdown("### 📂 Ou escolha um arquivo do servidor")
+if not os.path.exists(PASTA_RAIZ):
+    st.info(f"A pasta `{PASTA_RAIZ}` ainda não existe no diretório raiz. Crie-a para navegar pelos arquivos.")
+else:
+    # Listar subpastas
+    subpastas = [f for f in os.listdir(PASTA_RAIZ) if os.path.isdir(os.path.join(PASTA_RAIZ, f))]
+    
+    if not subpastas:
+        st.warning(f"Nenhuma subpasta encontrada dentro de `{PASTA_RAIZ}`.")
+    else:
+        subpasta_sel = st.selectbox("Selecione a disciplina/pasta:", ["Selecione..."] + subpastas)
+        
+        if subpasta_sel != "Selecione...":
+            caminho_subpasta = os.path.join(PASTA_RAIZ, subpasta_sel)
+            # Listar PDFs e JSONs
+            arquivos = [f for f in os.listdir(caminho_subpasta) if f.endswith((".pdf", ".json"))]
+            
+            if not arquivos:
+                st.warning("Nenhum arquivo PDF ou JSON encontrado nesta pasta.")
             else:
-                with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as tmp:
-                    tmp.write(uploaded_file.read())
-                    tmp_path = tmp.name
-                try:
-                    with st.spinner("Gerando seu simulado, por favor aguarde alguns segundos..."):
-                        questoes = processar_pdf(tmp_path)
-                finally:
-                    os.unlink(tmp_path)
+                arquivo_sel = st.selectbox("Selecione o arquivo de questões:", ["Selecione..."] + arquivos)
+                if arquivo_sel != "Selecione...":
+                    arquivo_local_selecionado = os.path.join(caminho_subpasta, arquivo_sel)
+
+# --- LÓGICA DE PROCESSAMENTO (Upload OU Local) ---
+# Define qual arquivo e nome usar na lógica do programa
+arquivo_para_processar = None
+nome_do_arquivo = None
+origem_local = False
+
+if uploaded_file:
+    arquivo_para_processar = uploaded_file
+    nome_do_arquivo = uploaded_file.name
+elif arquivo_local_selecionado:
+    arquivo_para_processar = arquivo_local_selecionado
+    nome_do_arquivo = os.path.basename(arquivo_local_selecionado)
+    origem_local = True
+
+# Processamento do arquivo unificado
+if arquivo_para_processar:
+    if "questoes" not in st.session_state or st.session_state.get("arquivo_nome") != nome_do_arquivo:
+        try:
+            if nome_do_arquivo.endswith(".json"):
+                if origem_local:
+                    with open(arquivo_para_processar, "r", encoding="utf-8") as f:
+                        questoes = json.load(f)
+                else:
+                    questoes = json.loads(arquivo_para_processar.read().decode("utf-8"))
+            else:
+                # Se for PDF
+                if origem_local:
+                    caminho_pdf = arquivo_para_processar
+                    with st.spinner("Gerando seu simulado do servidor, aguarde..."):
+                        questoes = processar_pdf(caminho_pdf)
+                else:
+                    with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as tmp:
+                        tmp.write(arquivo_para_processar.read())
+                        tmp_path = tmp.name
+                    try:
+                        with st.spinner("Gerando seu simulado, por favor aguarde alguns segundos..."):
+                            questoes = processar_pdf(tmp_path)
+                    finally:
+                        os.unlink(tmp_path)
+                        
             st.session_state.questoes = questoes
-            st.session_state.arquivo_nome = uploaded_file.name
+            st.session_state.arquivo_nome = nome_do_arquivo
             st.session_state.idx = 0
             st.session_state.respostas = {}
             st.session_state.respondidas = {}
             st.session_state.mostrar_gabarito = {}
             st.session_state.finalizado = False
+            st.rerun()
         except Exception as e:
             st.error(f"Erro ao processar arquivo: {e}")
             st.stop()
 
 if "questoes" not in st.session_state:
-    st.info("Envie um PDF para começar.")
+    st.info("Envie um PDF ou selecione um arquivo do servidor para começar.")
     st.stop()
 
 questoes = st.session_state.questoes
 total = len(questoes)
 
 if total == 0:
-    st.warning("Nenhuma questão encontrada no PDF.")
+    st.warning("Nenhuma questão encontrada no arquivo.")
     st.stop()
 
 # Garantir que idx está dentro dos limites

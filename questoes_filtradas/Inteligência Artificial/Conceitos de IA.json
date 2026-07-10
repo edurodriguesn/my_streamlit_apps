@@ -1,0 +1,810 @@
+[
+    {
+        "id": 1,
+        "enunciado": "No que concerne a inteligência artificial, análise de dados e Big Data, julgue o item que se segue.\nOs agentes de inteligência artificial são programas cujo objetivo é a coleta de informações com o intuito de embasar a tomada de decisão de um usuário humano.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 2,
+        "enunciado": "Marcelo, auditor especializado em Análise de Dados, está estudando o uso de algoritmos de aprendizado de máquina (Machine Learning) para a detecção de fraudes em contas públicas. Como parte de seus experimentos, ele dividiu seu conjunto de dados em treinamento e teste. Após treinar um modelo, percebeu que os resultados apresentavam indícios de underfitting.\nO underfitting ocorre",
+        "alternativas": [
+            "quando o modelo se ajuste bem ao conjunto de treinamento, mas acaba por capturar não apenas os padrões, mas também os ruídos, comprometendo sua capacidade de generalização.",
+            "apenas quando o conjunto de treinamento não contém exemplos de todas as classes, prejudicando o desempenho do modelo em classes minoritárias.",
+            "quando o modelo não consegue capturar adequadamente os padrões nos dados do conjunto de treinamento, resultando em um desempenho insuficiente.",
+            "quando a taxa de aprendizado do modelo é muito baixa, prolongando por exemplo o tempo necessário para que o modelo convirja.",
+            "quando o modelo apresenta uma complexidade muito maior do que o necessário, levando por exemplo ao uso ineficiente de recursos computacionais."
+        ],
+        "gabarito": "quando o modelo não consegue capturar adequadamente os padrões nos dados do conjunto de treinamento, resultando em um desempenho insuficiente."
+    },
+    {
+        "id": 3,
+        "enunciado": "Em um sistema de Geração Aumentada via Recuperação (RAG, do inglês Retrieval-Augmented Generation), os embeddings vetoriais desempenham um papel crucial no processo de recuperação de informações. Qual das opções abaixo descreve melhor sua finalidade e funcionalidade?",
+        "alternativas": [
+            "Os embeddings vetoriais são usados para tokenizar o texto de entrada em unidades menores, facilitando o processamento e a geração de respostas coerentes.",
+            "Os embeddings vetoriais são usados para gerar o texto de saída diretamente, mapeando consultas de entrada para respostas pré definidas armazenadas em uma tabela de busca.",
+            "Os embeddings vetoriais substituem os índices tradicionais, armazenando os dados textuais brutos em uma forma comprimida para recuperação mais rápida durante o treinamento.",
+            "Os em beddings vetoriais transformam o texto em representações numéricas que permitem ao sistema comparar a similaridade semântica entre consultas e documentos em um espaço de alta dimensão."
+        ],
+        "gabarito": "Os em beddings vetoriais transformam o texto em representações numéricas que permitem ao sistema comparar a similaridade semântica entre consultas e documentos em um espaço de alta dimensão."
+    },
+    {
+        "id": 4,
+        "enunciado": "No que se refere a inteligências artificiais (IAs) generativas e discriminativas, julgue o item seguinte.\nUm prompt é um conjunto de instruções que o modelo generativo utiliza para prever a resposta desejada.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 5,
+        "enunciado": "No que se refere a inteligências artificiais (IAs) generativas e discriminativas, julgue o item seguinte.\nUma IA generativa cujo aprendizado é realizado a partir da distribuição de probabilidade conjunta p(x,y), em que x é o dado de entrada e y é o rótulo que se queira classificar, pode gerar mais amostras por si só artificialmente, com base em suposições a respeito da distribuição de dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 6,
+        "enunciado": "Julgue o próximo item, relativo à avaliação de modelos.\nA IA generativa é capaz de criar conteúdos novos, como textos, imagens, músicas e vídeos, além de resolver problemas inéditos com base em conhecimentos prévios, permitindo gerar novos artefatos realistas em escala, sem repeti-los.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 7,
+        "enunciado": "Em um banco de grande porte, o time de operações de TI enfrenta dificuldades para monitorar a grande quantidade de eventos e alertas provenientes de diversos sistemas e ferramentas. O time está considerando implementar uma solução baseada em Inteligência Artificial (IA) para automatizar as tarefas operacionais (AiOps) de identificação de problemas e de redução do tempo de resposta a incidentes críticos. Nesse contexto, o uso de IA é possível, pelo fato de a AiOps, nesse caso,",
+        "alternativas": [
+            "focar apenas a coleta de logs e relatórios de desempenho de sistemas, fornecendo somente dados para os administradores, sem integrar a automação de tarefas.",
+            "usar aprendizado de máquina para processar grandes volumes de dados em tempo real, identificar padrões e prever falhas antes que ocorram, permitindo a automação de correções de problemas críticos com mínima intervenção manual.",
+            "utilizar redes neurais para aumentar a complexidade das tarefas operacionais e realizar decisões mais informadas, mas sem automatizar processos em tempo real.",
+            "usar algoritmos baseados em regras fixas para corrigir incidentes de forma reativa, não considerando dados históricos nem possíveis falhas futuras.",
+            "aumentar a capacidade dos servidores físicos para lidar com picos de demanda em tempo real, para prever e evitar falhas."
+        ],
+        "gabarito": "usar aprendizado de máquina para processar grandes volumes de dados em tempo real, identificar padrões e prever falhas antes que ocorram, permitindo a automação de correções de problemas críticos com mínima intervenção manual."
+    },
+    {
+        "id": 8,
+        "enunciado": "Uma cidade enfrenta desafios constantes para melhorar sua mobilidade urbana. Recentemente, soluções baseadas em Inteligência Artificial (IA), como sistemas preditivos para controle de tráfego e algoritmos de roteamento inteligente para transporte público, começaram a ser implementadas. No entanto, essas tecnologias também levantam questões éticas e legais, como a privacidade dos dados dos cidadãos, a responsabilidade por decisões automatizadas e o impacto no mercado de trabalho. Ao implementar sistemas de IA para otimizar a mobilidade urbana, o principal desafio ético e legal que deve ser priorizado para garantir um equilíbrio entre inovação tecnológica e direitos dos cidadãos é",
+        "alternativas": [
+            "implementar sanções financeiras severas a todas as empresas que coletam dados dos usuários.",
+            "centralizar o controle dos algoritmos em uma única autoridade municipal.",
+            "garantir que as decisões automatizadas sejam explicáveis e auditáveis.",
+            "restringir o uso de IA apenas a aplicações que não envolvam dados pessoais.",
+            "priorizar a redução de custos operacionais em detrimento de preocupações éticas."
+        ],
+        "gabarito": "garantir que as decisões automatizadas sejam explicáveis e auditáveis."
+    },
+    {
+        "id": 9,
+        "enunciado": "Com referência ao uso de inteligência artificial para o reconhecimento automático de padrões de imagens de satélite, julgue o item a seguir.\nAs metodologias existentes para diferentes escalas de tomada de decisão se alinham às tecnologias incorporadas e a aplicativos orientados ao usuário, com base em ferramentas computacionais de gestão e processamento de dados, tais como webservices, SIGWeb, big data, computação em nuvem, processamento paralelo e modelagem cognitiva.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 10,
+        "enunciado": "A respeito de inteligência artificial (IA) e de metodologias ágeis de desenvolvimento de software, julgue o item a seguir.\nGraças ao aumento no desempenho de processamento e à análise de grandes volumes de dados, a IA já superou o desempenho humano em várias tarefas específicas, embora a criatividade ainda seja um desafio para a IA.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 11,
+        "enunciado": "A respeito da avaliação de políticas públicas, da gestão da informação e do conhecimento, da inteligência estratégica e competitiva e dos métodos e técnica de pesquisa, julgue o item a seguir.\nA inteligência artificial transforma a gestão do conhecimento ao organizar melhor as informações, facilitar o acesso, automatizar processos e gerar insights estratégicos, garantindo sempre a segurança e privacidade.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 12,
+        "enunciado": "Em relação a inteligência artificial, metodologias ágeis de desenvolvimento e teste de software, julgue o item a seguir.\nOs sistemas de inteligência artificial dependem de algoritmos simples e fixos, ou seja, que não podem ser ajustados ou aprimorados ao longo do tempo.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 13,
+        "enunciado": "Julgue o item que se seguem, relativos a ciência de dados e inteligência artificial (IA).\nViés algorítmico pode ocorrer quando os dados utilizados no treinamento de um sistema de IA refletem desigualdades sociais, o que pode resultar em decisões discriminatórias automatizadas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 14,
+        "enunciado": "Julgue o item que se seguem, relativos a ciência de dados e inteligência artificial (IA).\nModelos de linguagem de grande escala, como os do tipo transformer, são treinados exclusivamente com base em regras sintáticas explícitas extraídas de dados linguísticos anotados manualmente, o que assegura maior controle semântico.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 15,
+        "enunciado": "De acordo com os conceitos que dão base à inteligência artificial (IA), existe uma entidade autônoma que se caracteriza por perceber seu ambiente através de sensores, atuar sobre esse ambiente por meio de atuadores, processar internamente dados percebidos e conhecimentos armazenados, e selecionar ações específicas que maximizam sua medida de desempenho esperada, conforme definido pela sequência de percepções e seu conhecimento interno. Essa entidade é definida na IA como",
+        "alternativas": [
+            "processo de decisão sequencial.",
+            "rede neural.",
+            "agente racional.",
+            "algoritmo evolutivo.",
+            "modelagem cognitiva."
+        ],
+        "gabarito": "agente racional."
+    },
+    {
+        "id": 16,
+        "enunciado": "A inteligência artificial (IA) está sendo, atualmente, utilizada em praticamente todas as aplicações modernas. A partir dessa informação, julgue o item seguinte.\nA análise preditiva, uma subárea de IA, utiliza algoritmos estatísticos e de machine learning, para prever eventos futuros com base em dados históricos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 17,
+        "enunciado": "A inteligência artificial (IA) está sendo, atualmente, utilizada em praticamente todas as aplicações modernas. A partir dessa informação, julgue o item seguinte.\nBusiness Intelligence elimina a necessidade de decisões humanas, automatizando completamente o processo decisório.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 18,
+        "enunciado": "A inteligência artificial (IA) está sendo, atualmente, utilizada em praticamente todas as aplicações modernas. A partir dessa informação, julgue o item seguinte.\nFerramentas como Python (com pandas, scikit‑learn) e R são amplamente utilizadas na análise de dados por oferecerem bibliotecas especializadas e facilidade de visualização.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 19,
+        "enunciado": "No exercício das atividades de desenvolvimento e supervisão de soluções de Inteligência Altificial (IA) no Poder Judiciário, a equipe de inovação precisa avaliar cuidadosamente os riscos associados ao uso de sistemas de IA generativa. Considerando os principais desafios identificados na literatura e nas normativas sobre o tema, o uso de IA generativa pode implicar riscos relacionados",
+        "alternativas": [
+            "a proteção intrínseca dos dados sensíveis suprimindo a regulamentação adicional.",
+            "ao aumento da transparência nos dados e redução de vieses algoritmicos.",
+            "ao fortalecimento automático da autoria individual em conteúdos gerados.",
+            "à disseminação de desinformação e violaçao de direitos autorais.",
+            "à eliminação de impactos sociais decorrentes da automação de tarefas."
+        ],
+        "gabarito": "à disseminação de desinformação e violaçao de direitos autorais."
+    },
+    {
+        "id": 20,
+        "enunciado": "No desenvolvimento de soluções de Inteligência Artificial para um tribunal, a equipe técnica precisa implementar modelos de Machine Learning de forma integrada em pipelines de produção, considerando práticas de MLOps para garantir a confiabilidade e a atualização contínua dos modelos implantados. Em um projeto que envolve a criação de um sistema de recomendação baseado em processamento de linguagem natural (NLP) e a identificação de anomalias para prevenção de fraudes, a configuração do pipeline de produção deve adotar estratégias que",
+        "alternativas": [
+            "estabeleçam fluxos de atualização baseados em monitoramento manual, com reavaliações periódicas dos modelos conduzidas conforme demandas operacionais pontuais.",
+            "concetrem os processos de ingestão, transformação e treinamento em única etapa para facilitar manutenções pontuais, mesmo que sem orquestração automatizada de reexecução completa.",
+            "integrem práticas de Contínuous lntegration/Continuous Delivery (CI/CD) específicas para Machine Learning, facilitando a atuallzação e monitoramento dos modelos em produção.",
+            "concentrem o processo de engenharia de atributos na maximização da variedade de entradas, isentando da aplicação de mecanismos de seleção baseados em relevância estatística ou impacto preditivo.",
+            "organizem as tarefas de recomendação e detecção de anomalias em pipelines serializados, utilizando fontes de dados independentes para evitar acoplamento excessivo entre os modelos."
+        ],
+        "gabarito": "integrem práticas de Contínuous lntegration/Continuous Delivery (CI/CD) específicas para Machine Learning, facilitando a atuallzação e monitoramento dos modelos em produção."
+    },
+    {
+        "id": 21,
+        "enunciado": "Julgue o item a seguir, relativos à inteligência artificial (IA).\nDeepfakes são vídeos gerados por IA para produzir conteúdo altamente realista e podem ser criados por meio de rede adversária generativa (GAN), a qual corresponde a uma arquitetura de aprendizado profundo que treina duas redes neurais para competirem entre si.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 22,
+        "enunciado": "Acerca dos tipos de aprendizado, da inteligência artificial generativa e das redes neurais, julgue o item subsequente.\nA inteligência artificial generativa inclui modelos como as redes generativas adversárias e os modelos baseados em transformadores, os quais são capazes de criar novos conteúdos, como imagens, textos ou áudios.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 23,
+        "enunciado": "No campo da inteligência artificial, os agentes desempenham papel central como entidades capazes de perceber o ambiente, tomar decisões e agir com base em metas definidas. Compreender sua estrutura e tipos é fundamental para o desenvolvimento de sistemas inteligentes.\nAssinale a afirmativa que descreve corretamente uma característica de agentes de inteligência artificial.",
+        "alternativas": [
+            "Um agente reativo simples armazena historicamente os estados anteriores do ambiente para prever ações futuras com base em aprendizado profundo.",
+            "Agentes baseados em objetivos não consideram o estado atual do ambiente, mas tomam decisões aleatórias até alcançarem a meta desejada.",
+            "Agentes baseados em utilidade avaliam diferentes cursos de ação e escolhem aquele que maximiza um valor numérico associado à satisfação da meta.",
+            "Um agente só pode ser considerado inteligente se tiver consciência própria e habilidades linguísticas semelhantes às humanas.",
+            "Agentes de IA operam exclusivamente em ambientes totalmente observáveis e determinísticos, pois exigem informações completas para funcionar."
+        ],
+        "gabarito": "Agentes baseados em utilidade avaliam diferentes cursos de ação e escolhem aquele que maximiza um valor numérico associado à satisfação da meta."
+    },
+    {
+        "id": 24,
+        "enunciado": "Com o crescimento da Inteligência Artificial Generativa, tornou-se essencial compreender seus fundamentos e limites. Avaliar corretamente os conceitos técnicos é essencial para evitar generalizações incorretas ou confusões com outras abordagens. Diante do exposto, assinale a alternativa correta.",
+        "alternativas": [
+            "Modelos de IA generativa operam exclusivamente com imagens e não com linguagem natural.",
+            "O treinamento de modelos generativos exige labels específicos para cada saída esperada.",
+            "Modelos como o Gemini e o GPT utilizam transformers para gerar conteúdo textual e multimodal.",
+            "IA generativa é sinônimo de clustering e segmentação de dados não rotulados."
+        ],
+        "gabarito": "Modelos como o Gemini e o GPT utilizam transformers para gerar conteúdo textual e multimodal."
+    },
+    {
+        "id": 25,
+        "enunciado": "Um analista de dados da AgSUS sabe que a detecção de anomalias, ou detecção de valores discrepantes, é a identificação de uma observação, evento ou ponto de dados que se desvia do que é padrão ou esperado, tornando-o inconsistente em relação ao resto do conjunto de dados. Relacione os tipos de anomalias de dados às suas respectivas definições.\n1. Anomalias não intencionais.\n2. Anomalias pontuais.\n3. Anomalias contextuais.\n4. Anomalias coletivas.\n( ) Essas anomalias, também conhecidas como valores discrepantes globais, são pontos de dados individuais que estão muito fora do restante do conjunto de dados. Um exemplo desses tipo anomalia é um saque de conta bancária que é significativamente maior do que qualquer um dos saques anteriores do usuário;\n( ) Essas anomalias envolvem um conjunto de instâncias de dados que juntas se desviam da norma, mesmo que as instâncias individuais possam parecer normais.\nUm exemplo desse tipo de anomalia seria um conjunto de dados de tráfego de rede que mostra um aumento repentino no tráfego de vários endereços IP ao mesmo tempo;\n( ) Essas anomalias são pontos de dados que se desviam da norma devido a erros ou ruído no processo de coleta de dados. Esses erros podem ser sistemáticos ou aleatórios, originados por problemas como sensores defeituosos ou erro humano durante a entrada de dados. Esse tipo de anomalia pode distorcer o conjunto de dados, dificultando a obtenção de insights precisos;\n( ) Essas anomalias são pontos de dados que se desviam da norma dentro de um contexto específico. Essas anomalias não são necessariamente valores discrepantes quando consideradas isoladamente, mas se tornam anômalas quando vistas dentro de seu contexto específico. Por exemplo, considere o uso de energia. Se houver um aumento repentino no consumo de energia ao meio-dia, quando normalmente nenhum membro da família está em casa. Este dado pode não ser um valor discrepante quando comparado ao consumo de energia pela manhã ou à noite (quando as pessoas geralmente estão em casa), mas é anômalo em relação ao horário em que ocorreu.\nA relação correta, na ordem dada, é:",
+        "alternativas": [
+            "4 – 3 – 1 – 2.",
+            "2 – 4 – 1 – 3.",
+            "3 – 2 – 4 – 1.",
+            "1 – 2 – 3 – 4.",
+            "3 – 4 – 1 – 2."
+        ],
+        "gabarito": "2 – 4 – 1 – 3."
+    },
+    {
+        "id": 26,
+        "enunciado": "Segundo Adir Rech no livro “Inteligência artificial, meio ambiente e cidades inteligentes” (2, o conceito de cidade inteligente trata de cidades organizadas e resilientes que utilizam avanços tecnológicos que visam atender aos desafios impostos pelas tendências tecnológicas e culturas digitais. Sobre o tema, analise as assertivas a seguir:\nI. A economia inteligente inclui atributos voltados à inovação, ao empreendedorismo e à flexibilidade de mercado de trabalho.\nII. Pessoas inteligentes compreendem o nível de qualificação e de educação dos cidadãos, conforme a qualidade de interações socais relacionadas à vida pública.\nIII. A mobilidade inteligente abrange questões sobre acessibilidade, sistemas de transporte modernos e sustentáveis e disponibilidade de recursos providos pelas tecnologias de informação e comunicação.\nQuais estão corretas?",
+        "alternativas": [
+            "Apenas III.",
+            "Apenas I e II.",
+            "Apenas I e III.",
+            "Apenas II e III.",
+            "I, II e III."
+        ],
+        "gabarito": "I, II e III."
+    },
+    {
+        "id": 27,
+        "enunciado": "Conforme Cleyson Mello et al. no livro “Inteligência Artificial e Educação 6.0: os caminhos da educação inteligente” (2, a Inteligência Artificial (IA) é um ramo da Ciência da Computação que visa desenvolver sistemas inteligentes que simulam o raciocínio humano, bem como sua forma de pensar e resolver problemas. Sobre o tema, analise as assertivas a seguir:\nI. O desenvolvimento das linguagens de programação influenciou o avanço das novas tecnologias que serviram de base para o desenvolvimento da IA.\nII. A IA utiliza uma ampla gama de tecnologias e métodos, como aprendizado de máquina, aprendizado adaptativo, processamento de linguagem natural, mineração de dados e redes neurais.\nIII. A IA impulsionou a implementação de tecnologias como big data e supercomputação.\nQuais estão corretas?",
+        "alternativas": [
+            "Apenas I.",
+            "Apenas II.",
+            "Apenas I e II.",
+            "Apenas I e III.",
+            "I, II e III."
+        ],
+        "gabarito": "I, II e III."
+    },
+    {
+        "id": 28,
+        "enunciado": "A lógica de primeira ordem, que é uma extensão da lógica proposicional largamente empregada em inteligência artificial, diferencia-se, pois:",
+        "alternativas": [
+            "permite representar objetos, suas propriedades, relações entre eles e usar quantificadores.",
+            "trabalha apenas com proposições indivisíveis e operadores lógicos básicos.",
+            "baseia-se exclusivamente em tabelas-verdade para inferências.",
+            "é limitada a problemas em que todas as proposições são verdadeiras ou falsas.",
+            "não suporta representação de relações complexas entre entidades."
+        ],
+        "gabarito": "permite representar objetos, suas propriedades, relações entre eles e usar quantificadores."
+    },
+    {
+        "id": 29,
+        "enunciado": "O uso de técnicas de Inteligência Artificial (IA) tem aumentado grandemente em várias áreas, incluindo a infraestrutura de Tecnologia da Informação nas organizações. Seu uso indica ganhos em vários aspectos, mostrando-se uma ferramenta capaz de auxiliar no dia a dia do analista em TI.\nEm relação à IA e a seus usos em infraestrutura de TI, assinale a alternativa correta.",
+        "alternativas": [
+            "Eliminação da necessidade de firewalls, já que a IA garante segurança absoluta, sem necessidade de outros mecanismos.",
+            "Redução drástica do consumo de energia nos cabos de rede, sem alteração na topologia.",
+            "Substituição de protocolos como OSPF e BGP por redes neurais não supervisionadas.",
+            "Previsão de falhas em equipamentos de rede por meio de análise de padrões de tráfego e dados históricos.",
+            "Eliminação da necessidade de servidores DNS, pois a IA pode mapear endereços automaticamente."
+        ],
+        "gabarito": "Previsão de falhas em equipamentos de rede por meio de análise de padrões de tráfego e dados históricos."
+    },
+    {
+        "id": 30,
+        "enunciado": "Um técnico administrativo precisa redigir um ofício solicitando a cessão de um auditório para a realização de um evento institucional. Ele já possui todas as informações necessárias (data, horário, nome do evento, remetente e destinatário). Para redigir rapidamente o ofício com linguagem formal e estrutura adequada, ele decide pedir ajuda a uma IA generativa. Qual prompt é mais direto e eficaz para esse fim?",
+        "alternativas": [
+            "“Elabore a minuta de um Ofício. Remetente: [Seu Cargo e Instituição]. Destinatário: [Cargo e Instituição de Destino]. Assunto: Solicitação de cessão de auditório. Corpo: Solicitar o uso do auditório no dia [Data], das [Hora Início] às [Hora Fim], para o evento [Nome do Evento]. Utilize a estrutura e a linguagem formal padrão para ofícios, incluindo vocativo e fecho adequados.”.",
+            "“Como se escreve um ofício para pedir um espaço emprestado?”.",
+            "“Me dê um modelo de ofício em branco para eu preencher.”.",
+            "“Verifique a gramática do texto a seguir: ‘Oi, tudo bem? Queria saber se posso usar o auditório de vocês…’”.",
+            "“Qual o pronome de tratamento correto para um Reitor de Universidade Federal?”."
+        ],
+        "gabarito": "“Elabore a minuta de um Ofício. Remetente: [Seu Cargo e Instituição]. Destinatário: [Cargo e Instituição de Destino]. Assunto: Solicitação de cessão de auditório. Corpo: Solicitar o uso do auditório no dia [Data], das [Hora Início] às [Hora Fim], para o evento [Nome do Evento]. Utilize a estrutura e a linguagem formal padrão para ofícios, incluindo vocativo e fecho adequados.”."
+    },
+    {
+        "id": 31,
+        "enunciado": "Relacione os termos de Inteligência Artificial (IA) às suas respectivas definições.\n1. IA fraca 2. IA forte 3. IA generativa 4. Teste de Turing ( ) É capaz de resolver uma única tarefa, pode automatizar tarefas demoradas e analisar dados de maneiras que os humanos às vezes não podem.\n( ) É uma categoria de algoritmos de IA que gera novos resultados com base nos dados em que foram treinados.\n( ) É capaz de resolver uma gama extensa e arbitrária de tarefas, incluindo aquelas que são novas, e executá-las com eficácia comparável à de um ser humano.\n( ) É uma medida de inteligência de uma máquina, onde se a máquina pode se passar por um humano em uma conversa de texto, ela passa no teste.\nAssinale a opção que indica a relação correta, segundo a ordem apresentada.",
+        "alternativas": [
+            "1 – 3 – 2 – 4.",
+            "1 – 2 – 4 – 3.",
+            "4 – 3 – 2 – 1.",
+            "3 – 2 – 1 – 4."
+        ],
+        "gabarito": "1 – 3 – 2 – 4."
+    },
+    {
+        "id": 32,
+        "enunciado": "Com relação a ciência de dados e inteligência artificial, julgue o próximo item.\nNa inteligência artificial, a representação completa de determinado assunto constitui uma ontologia.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 33,
+        "enunciado": "Com relação a ciência de dados e inteligência artificial, julgue o próximo item.\nO dispositivo computacional da inteligência artificial engloba, entre outros elementos, a percepção, que é a capacidade de provocar mudanças no ambiente.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 34,
+        "enunciado": "Com relação a ciência de dados e inteligência artificial, julgue o próximo item.\nNa inteligência artificial, o agente inteligente deve ser capaz de ter autonomia, isto é, deve ter a capacidade de acumular conhecimento que seja útil em suas ações.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 35,
+        "enunciado": "Com base em obtenção, limpeza e pré-processamento de dados, julgue o próximo item.\nNo processo de análise de dados, a identificação de correlação entre dois dados define também a causalidade entre esses dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 36,
+        "enunciado": "Com base em obtenção, limpeza e pré-processamento de dados, julgue o próximo item.\nA análise descritiva tem como objetivo responder à pergunta ‘o que aconteceu?’, ao passo que a análise diagnóstica visa responder à questão ‘por que isso aconteceu?’.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 37,
+        "enunciado": "A respeito de ontologia, julgue o próximo item.\nA representação formal de ontologias é utilizada para que estas sejam consumidas por computadores, enquanto a representação gráfica é utilizada para compreensão humana.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 38,
+        "enunciado": "A respeito de ontologia, julgue o próximo item.\nOntologias podem ser entendidas como aplicações criadas para simular a ação de especialistas humanos, com o propósito de solucionar problemas específicos em um dado domínio.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 39,
+        "enunciado": "A respeito de ontologia, julgue o próximo item.\nNa ontologia, o conjunto de axiomas do domínio é aquele que serve para modelar restrições e regras inerentes às instâncias.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 40,
+        "enunciado": "O pré-processamento é um conjunto de atividades que envolvem preparação, organização e estruturação de dados, sendo fundamental no desempenho do modelo de aprendizagem de máquina. Tais atividades contemplam métodos e técnicas de limpeza, transformação, integração e redução de dimensionalidade. Os métodos que podem ser utilizados para o tratamento de dados faltantes são:",
+        "alternativas": [
+            "interpolação de vizinhos mais próximos, valor médio do atributo, valor modal.",
+            "validação estratificada, k-fold, divisão do conjunto de dados.",
+            "validação cruzada, leave-one-out (deixando um de fora), valor mediano do atributo.",
+            "divisão do conjunto de dados, gradiente descendente, valor médio do atributo."
+        ],
+        "gabarito": "interpolação de vizinhos mais próximos, valor médio do atributo, valor modal."
+    },
+    {
+        "id": 41,
+        "enunciado": "O Sistema Paraná Inteligência Artificial (PIA) é uma iniciativa do Governo do Estado do Paraná, no Brasil, que visa promover o uso da inteligência artificial para melhorar os serviços públicos, aumentar a eficiência governamental e impulsionar o desenvolvimento econômico. O PIA busca aplicar tecnologias de IA em diversas áreas, como saúde, segurança pública, educação, gestão ambiental e administração pública. Sobre Inteligência Artificial é correto afirmar que:",
+        "alternativas": [
+            "inteligência artificial (IA) como ferramenta de perguntas e respostas aproveita o poder das redes neurais e outras técnicas de aprendizado de máquina para criar sistemas capazes de compreender e responder a perguntas de maneira semelhante aos seres humanos.",
+            "redes neurais são como o cérebro humano pois são inspiradas na estrutura do cérebro humano, podem aprender tudo sozinhas e sempre produzem resultados precisos.",
+            "chatbots podem resolver qualquer tipo de problema e lidar com solicitações complexas, mesmo situações fora de seu escopo de treinamento e substituirão completamente o atendimento humano.",
+            "a inteligência artificial pode desempenhar um papel importante na automação do envio de mensagens via e-mail, porém apenas grandes empresas podem se beneficiar da IA no envio de e-mails pois automatizar tudo é sempre a melhor opção.",
+            "O SINESP Cidadão faz uso direto e exclusivo de inteligência artificial (IA) em seu funcionamento básico, sendo uma plataforma que fornece informações sobre veículos e ocorrências policiais, e suas consultas são realizadas com base em dados registrados pelos órgãos de segurança pública."
+        ],
+        "gabarito": "inteligência artificial (IA) como ferramenta de perguntas e respostas aproveita o poder das redes neurais e outras técnicas de aprendizado de máquina para criar sistemas capazes de compreender e responder a perguntas de maneira semelhante aos seres humanos."
+    },
+    {
+        "id": 42,
+        "enunciado": "Em relação a tecnologias de IA e aprendizado de máquina, julgue o item que se segue.\nA geração de linguagem natural é uma tecnologia capaz de criar texto similar ao texto escrito por seres humanos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 43,
+        "enunciado": "Julgue o item a seguir, a respeito de RPA (robotic process automation).\nRPA é o processo pelo qual um bot usa uma combinação de automação, visão computacional e aprendizado de máquina para automatizar tarefas repetitivas e de alto volume, baseadas em regras e acionadas por gatilhos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 44,
+        "enunciado": "O desenvolvimento de algoritmos de Inteligência Artificial generativa está relacionado a aspectos éticos com impactos sociais, culturais e econômicos. Entre as diretrizes presentes em diversos instrumentos regulatórios relacionados à IA generativa, destaca-se a priorização de abordagens considerando os aspectos que formam a matriz FAT.\nO acrônimo FAT é formado pelos seguintes princípios éticos relacionados ao desenvolvimento de algoritmos:",
+        "alternativas": [
+            "Feedback, Algorithm e Training.",
+            "Framework, Agents e Tasks.",
+            "Fairness, Accountability e Transparency.",
+            "Freedom, Autonomy e Trust.",
+            "Fidelity, Altruism e Truthfulness."
+        ],
+        "gabarito": "Fairness, Accountability e Transparency."
+    },
+    {
+        "id": 45,
+        "enunciado": "Diversas ferramentas de IA generativa têm sido utilizadas em desenvolvimento web, com foco especial na personalização de experiências do usuário. Em geral, a personalização de experiências se baseia no processamento de dados coletados dos usuários.\nA respeito dos benefícios relacionados ao uso de técnicas de IA generativa para personalização das experiências dos usuários, avalie as afirmativas a seguir:\nI. Os usuários tendem, predominantemente, a se sentir mais valorizados ao receberem conteúdos alinhados a suas preferências e necessidades.\nII. Os usuários tendem, predominantemente, a se sentir mais seguros com relação à proteção e à utilização ética e moralmente correta de seus dados privados.\nIII. Os usuários podem receber conteúdos dinâmicos, mais adequados às configurações de seus dispositivos.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, apenas.",
+            "II, apenas.",
+            "III, apenas.",
+            "I e II, apenas.",
+            "I e III, apenas."
+        ],
+        "gabarito": "I e III, apenas."
+    },
+    {
+        "id": 46,
+        "enunciado": "O uso de Inteligência Artificial generativa é de grande utilidade para desenvolvedores web, por permitir a criação rápida de ilustrações e gráficos de alta qualidade.\nPor exemplo, uma das ferramentas mais populares atualmente é a aplicação Crayion, anteriormente conhecida como DALL-E mini, por ser uma ferramenta de acesso livre com interface amigável. No entanto, essas ferramentas podem frustrar os usuários por apresentarem limitações que inviabilizam o uso dos elementos visuais criados a partir de seus resultados.\nA respeito das tendências no uso de IA generativa em design web, avalie as afirmativas a seguir:\nI. Há limitações éticas relacionadas à reprodução de potenciais vieses discriminatórios, provenientes das bases de dados de treinamento das redes generativas.\nII. Sua principal vantagem consiste na eliminação de elementos de propriedade intelectual protegida nas imagens geradas, garantindo aos desenvolvedores a não- obrigatoriedade de pagamentos de direitos autorais.\nIII. Há preocupações com relação à geração de imagens extremamente realistas e com o potencial uso dos chamados “deepfakes” em campanhas de desinformação.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, apenas.",
+            "I e II, apenas.",
+            "I, II e III.",
+            "II e III, apenas.",
+            "I e III, apenas."
+        ],
+        "gabarito": "I e III, apenas."
+    },
+    {
+        "id": 47,
+        "enunciado": "Em relação à inteligência artificial (IA), julgue o item a seguir.\nAs redes adversárias generativas utilizam a rede geradora para produzir dados falsos aleatoriamente e a discriminadora para identificar esses dados falsos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 48,
+        "enunciado": "Em relação à inteligência artificial (IA), julgue o item a seguir.\nTodos os tipos de IA buscam imitar a inteligência humana em tarefas de computação, ocorrendo o aprendizado por meio de reconhecimento de textos e imagens.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 49,
+        "enunciado": "Em relação à inteligência artificial (IA), julgue o item a seguir.\nOs modelos de difusão são focados na classificação de pontos de dados para determinar a relação entre fatores conhecidos e desconhecidos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 50,
+        "enunciado": "Em uma rede neural artificial feedforward usada para a classificação de documentos no TRF-1, um dos neurônios de uma camada intermediária possui o seguinte vetor de pesos na entrada: W=[2,−1,ln( 5/, 1/2]. Para uma determinada instância a ser classificada, o vetor de entradas para esse neurônio é I= [ln( 2/,ln (1/,1,ln (9/], sem a presença de bias.\nSabendo que o neurônio possui como função de ativação a função sigmoide, o valor de saída do neurônio será:",
+        "alternativas": [
+            "3/83;",
+            "3/80;",
+            "1/4;",
+            "3/10;",
+            "1/3."
+        ],
+        "gabarito": "1/4;"
+    },
+    {
+        "id": 51,
+        "enunciado": "Uma camada convolucional de uma rede neural convolucional recebe como entrada uma imagem de 50 x 50 pixels. Essa imagem passa por um filtro convolucional de tamanho 5 x 5. Sabendo que a convolução usa um stride de 3 e um padding de 0, o tamanho da imagem na saída dessa convolução será:",
+        "alternativas": [
+            "15 x 15;",
+            "16 x 16;",
+            "17 x 17;",
+            "45 x 45;",
+            "46 x 46."
+        ],
+        "gabarito": "16 x 16;"
+    },
+    {
+        "id": 52,
+        "enunciado": "A lógica fuzzy é uma extensão da lógica booleana. Embora as técnicas de controle possam ser implementadas por modelos matemáticos, as implementações baseadas na lógica fuzzy apresentam um melhor desempenho. Qual é o aspecto fundamental da lógica fuzzy?",
+        "alternativas": [
+            "É ideal para sistemas em que as variáveis de entrada têm limites bem definidos e não variam.",
+            "Permite modelar situações em que os limites entre categorias são difusos e não nitidamente definidos.",
+            "Requer que todas as regras sejam expressas em termos de “se-então” para funcionar corretamente.",
+            "Utiliza sempre conjuntos crisp para representar valores de entrada e saída.",
+            "Utiliza somente funções lineares para representar a pertinência dos elementos aos conjuntos fuzzy."
+        ],
+        "gabarito": "Permite modelar situações em que os limites entre categorias são difusos e não nitidamente definidos."
+    },
+    {
+        "id": 53,
+        "enunciado": "Teste de Turing é um conceito fundamental na história da inteligência artificial (IA), proposto pelo matemático e lógico Alan Turing em 1950. Ele é frequentemente discutido em relação à capacidade das máquinas de exibir comportamento inteligente semelhante ao dos seres humanos. Diante do exposto, assinale a alternativa que apresenta quais são as principais capacidades para um computador passar no teste de Turing.",
+        "alternativas": [
+            "Apenas processamento de linguagem natural e robótica.",
+            "Visão computacional e conhecimento.",
+            "Processamento de linguagem natural, representação de conhecimento, raciocínio automatizado e aprendizado de máquina.",
+            "Processamento de linguagem natural e visão computacional."
+        ],
+        "gabarito": "Processamento de linguagem natural, representação de conhecimento, raciocínio automatizado e aprendizado de máquina."
+    },
+    {
+        "id": 54,
+        "enunciado": "Considere a afirmação a seguir: “O processo de penalizar explicitamente a hipótese complexa é chamado ________ estamos procurando funções que sejam mais regulares. Observe que agora estamos fazendo duas escolhas: a função de perda (L1 ou Le a medida de complexidade, que é chamada função de _______” (RUSSEL et al., 2022, p..\nAssinale a alternativa que preencha correta e respectivamente as lacunas.",
+        "alternativas": [
+            "Cria/ Criação.",
+            "Regularização / Regularização.",
+            "Ajustes / Ajuste.",
+            "Adaptação / Adaptação."
+        ],
+        "gabarito": "Regularização / Regularização."
+    },
+    {
+        "id": 55,
+        "enunciado": "Aprendizado de máquina (Machine learning) e aprendizado profundo (Deep learning) são assuntos populares nos dias de hoje na área da computação. Assinale a alternativa que apresenta a principal diferença entre aprendizado máquina e aprendizado profundo.",
+        "alternativas": [
+            "Aprendizado de máquina usa apenas análise estatística, enquanto aprendizado profundo usa redes neurais.",
+            "Aprendizado de máquina é baseado em múltiplas técnicas, enquanto aprendizado profundo imita a funcionalidade do cérebro humano usando redes neurais.",
+            "Aprendizado de máquina é menos eficaz do que aprendizado profundo.",
+            "Aprendizado profundo depende de intervenção humana, enquanto aprendizado de máquina é totalmente automatizado."
+        ],
+        "gabarito": "Aprendizado de máquina é baseado em múltiplas técnicas, enquanto aprendizado profundo imita a funcionalidade do cérebro humano usando redes neurais."
+    },
+    {
+        "id": 56,
+        "enunciado": "Assinale a alternativa que apresenta qual foi o ponto de partida para o desenvolvimento da Inteligência Artificial (IA) e como ela evoluiu ao longo das décadas.",
+        "alternativas": [
+            "O desenvolvimento da IA começou na década de 1960 com a criação de redes neurais.",
+            "AIA surgiu em 1980, com a criação de sistemas capazes de raciocinar como humanos.",
+            "O projeto Dartmouth, em 1950, foi o marco inicial da IA, e ao longo das décadas, o estudo das redes neurais se tornou uma base fundamental para o desenvolvimento da IA.",
+            "A IA começou na década de 1990 com a criação dos primeiros computadores de grande porte."
+        ],
+        "gabarito": "O projeto Dartmouth, em 1950, foi o marco inicial da IA, e ao longo das décadas, o estudo das redes neurais se tornou uma base fundamental para o desenvolvimento da IA."
+    },
+    {
+        "id": 57,
+        "enunciado": "Assinale a alternativa que apresenta como a estatística é aplicada no contexto da inteligência artificial e quais são os desafios enfrentados na Era do Big Data.",
+        "alternativas": [
+            "A estatística, combinada com machine learning e deep learning, ajuda a enfrentar desafios e oportunidades da Era Big Data, como a Indústria 4.0 e a Internet das Coisas (loT).",
+            "A estatística é utilizada apenas para a coleta de dados em inteligência artificial, sem relação com machine learning.",
+            "Na Era Big Data, a estatística é aplicada unicamente na análise de dados, sem uso em deep learning.",
+            "A estatística e a inteligência artificial são independentes e não se complementam na resolução de problemas complexos."
+        ],
+        "gabarito": "A estatística, combinada com machine learning e deep learning, ajuda a enfrentar desafios e oportunidades da Era Big Data, como a Indústria 4.0 e a Internet das Coisas (loT)."
+    },
+    {
+        "id": 58,
+        "enunciado": "Analise a citação, que trata de uma categoria de Inteligência Artificial (IA):\n“[...] acredita que um dia será possível recriar máquinas capazes de pensar, criar e exibir comportamento inteligente nos moldes humanos, a partir da criação de algoritmos cognitivos que possam executar em computadores [...]” (SILVA et al., 2018, p..\nAssinale a alternativa que apresenta esta categoria de IA.",
+        "alternativas": [
+            "Hiperinteligência.",
+            "Superinteligência.",
+            "Inteligência artificial fraca.",
+            "Inteligência artificial forte."
+        ],
+        "gabarito": "Inteligência artificial forte."
+    },
+    {
+        "id": 59,
+        "enunciado": "Assinale a alternativa que apresenta a principal função da engenharia de prompt no contexto da inteligência artificial (IA) generativa.",
+        "alternativas": [
+            "A engenharia de prompt visa desenvolver novos algoritmos de aprendizado de máquina para melhorar a precisão dos modelos de IA generativa.",
+            "A engenharia de prompt é responsável por criar instruções detalhadas e formatos específicos que orientam a IA generativa para gerar resultados relevantes e de alta qualidade.",
+            "A engenharia de prompt foca em implementar soluções de hardware para melhorar a performance da IA generativa em termos de processamento.",
+            "A engenharia de prompt trata da integração de diferentes plataformas de IA generativa para maximizar a eficiência na execução de tarefas."
+        ],
+        "gabarito": "A engenharia de prompt é responsável por criar instruções detalhadas e formatos específicos que orientam a IA generativa para gerar resultados relevantes e de alta qualidade."
+    },
+    {
+        "id": 60,
+        "enunciado": "Assinale a alternativa correta sobre a importância da criação de prompts detalhados para obter resultados úteis de uma Inteligência Artificial (IA) generativa.",
+        "alternativas": [
+            "Prompts detalhados ajudam a IA generativa a prever a melhor saída com base em treinamentos anteriores, gerando resultados mais precisos e relevantes.",
+            "Prompts detalhados são importantes para garantir que a IA generativa opere com maior velocidade, reduzindo o tempo de resposta.",
+            "Prompts detalhados são necessários para a IA generativa realizar análises estatísticas complexas e otimizar seus modelos de linguagem.",
+            "Prompts detalhados são utilizados para atualizar os modelos de machine learning da IA generativa com novos dados de treinamento."
+        ],
+        "gabarito": "Prompts detalhados ajudam a IA generativa a prever a melhor saída com base em treinamentos anteriores, gerando resultados mais precisos e relevantes."
+    },
+    {
+        "id": 61,
+        "enunciado": "No que se refere à inteligência artificial e aprendizado de máquina, julgue o próximo item.\nRAG (retrieval augmented generation) é o processo de recuperar informações contextuais relevantes de uma fonte de dados e integrá-las ao prompt do usuário em um modelo de linguagem, melhorando-se a qualidade da resposta gerada",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 62,
+        "enunciado": "A Inteligência Artificial (IA) tem sido um campo de pesquisa e inovação que evoluiu bastante ao longo das décadas, e geralmente é dividida em IA fraca e IA forte, conceitos que se referem ao nível de “inteligência” que a IA consegue simular ou alcançar. Em relação ao conceito de Inteligência Artificial (IA), assinale a afirmativa que descreve corretamente a diferença entre IA forte e IA fraca.",
+        "alternativas": [
+            "IA forte é um sistema que simula a inteligência humana em tarefas específicas, enquanto IA fraca consegue aprender e entender contextos complexos, como um ser humano.",
+            "IA fraca se refere a sistemas que replicam com exatidão a consciência humana, enquanto IA forte realiza tarefas automatizadas sem a necessidade de consciência.",
+            "IA forte é caracterizada pela capacidade de adquirir consciência e compreensão geral, enquanto IA fraca é projetada para executar tarefas específicas sem consciência.",
+            "IA fraca é um sistema totalmente autônomo, que toma decisões complexas de forma independente, enquanto IA forte precisa da intervenção humana para operar.",
+            "IA forte e IA fraca não têm diferença quanto à forma de processamento de informações; a distinção está apenas na potência do hardware que utilizam."
+        ],
+        "gabarito": "IA forte é caracterizada pela capacidade de adquirir consciência e compreensão geral, enquanto IA fraca é projetada para executar tarefas específicas sem consciência."
+    },
+    {
+        "id": 63,
+        "enunciado": "É INCORRETO afirmar que os modelos preditivos:",
+        "alternativas": [
+            "podem ser aplicados em áreas como vendas, detecção de fraudes e diagnóstico médico.",
+            "identificam padrões no histórico dos dados para prever eventos futuros.",
+            "são também eficazes quando empregam algoritmos de aprendizado de máquina.",
+            "podem utilizar Redes Neurais Artificiais (RNA).",
+            "não conseguem alcançar os seus objetivos através da técnica de regressão linear."
+        ],
+        "gabarito": "não conseguem alcançar os seus objetivos através da técnica de regressão linear."
+    },
+    {
+        "id": 64,
+        "enunciado": "Suponha o problema de indicadores econômicos ou de mercado futuro, nos quais se tenta prever o próximo valor analisando os dados de algumas variáveis (atributos descritivos) historicamente armazenados em um conjunto de dados. Qual é o modelo preditivo que pode ser utilizado para estimar os valores a partir de um conjunto de dados históricos?",
+        "alternativas": [
+            "SVM – Suport Vector Machine.",
+            "K-NN (k-vizinhos próximos).",
+            "Agrupamento.",
+            "Regressão.",
+            "Naive Bayes."
+        ],
+        "gabarito": "Regressão."
+    },
+    {
+        "id": 65,
+        "enunciado": "Acerca de blockchain, conceitos de inteligência artificial, arquitetura hexagonal e gestão de conteúdo, julgue o item a seguir.\nDe acordo com os conceitos de inteligência artificial, as máquinas reativas têm a capacidade compreender os seres humanos, entendendo seus estados mentais.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 66,
+        "enunciado": "O uso de Sistemas de Apoio à Decisão (SAD) envolve um processo interativo de modelagem analítica cujo objetivo principal é:",
+        "alternativas": [
+            "Identificar possíveis cenários e suas consequências.",
+            "Desenvolver algoritmos para previsão de resultados.",
+            "Fornecer dados históricos para análise de tendências.",
+            "Otimizar a performance de algoritmos de aprendizado de máquina.",
+            "Determinar a eficácia dos algoritmos de mineração de dados."
+        ],
+        "gabarito": "Identificar possíveis cenários e suas consequências."
+    },
+    {
+        "id": 67,
+        "enunciado": "Julgue o item subsequente, a respeito de inteligência artificial.\nA inteligência artificial geralmente se enquadra em duas categorias abrangentes: narrow AI, às vezes referida como weak AI, que é uma simulação da inteligência humana e opera dentro de um contexto limitado; e AGI (artificial general intelligence), que é uma máquina com inteligência geral e, assim como um ser humano, pode aplicar essa inteligência para resolver qualquer problema.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 68,
+        "enunciado": "Julgue o item subsequente, a respeito de inteligência artificial.\nComputação cognitiva, um subcampo da inteligência artificial, refere-se à computação que se concentra no raciocínio e na compreensão em alto nível, sendo análoga à cognição, à lógica e ao julgamento humanos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 69,
+        "enunciado": "Informe Verdadeiro (V) ou Falso (F) em relação às seguintes afirmativas abaixo.\nEm seguida marque a opção que apresenta a sequência correta:\n( ) As abordagens de redução de dados vertical conhecidas como Filter realizam a seleção de atributos sem considerar o algoritmo de mineração de dados que será utilizado aos atributos selecionados. Por outro lado, as abordagens conhecidas como Wrapper experimentam o algoritmo de mineração de dados para cada conjunto selecionado, avaliando os resultados obtidos.\n( ) Os algoritmos de clusterização e classificação automática visam modelar os dados utilizando padrões locais enquanto que algoritmos de regras de associação procuram modelar os dados utilizando padrões globais.\n( ) São exemplos de métodos de clusterização: k-means, k-Modes, k-medoids e BIRCH ( ) São exemplos de métodos de descoberta de sequencias: GSP, CART, MSDD, SPADE",
+        "alternativas": [
+            "(F); (V); (F); (V).",
+            "(F); (V); (V); (F).",
+            "(V); (F); (F); (V).",
+            "(V); (F); (V); (F)."
+        ],
+        "gabarito": "(V); (F); (V); (F)."
+    },
+    {
+        "id": 70,
+        "enunciado": "Machine Learning possui um grande conjunto de técnicas e algoritmos consagrados. Por possuírem características específicas, essas técnicas e algoritmos são adequados ou não para a solução de um problema, a depender do tipo de aprendizagem que será utilizado.\nMarque a alternativa que indica o nome de um algoritmo que NÃO faz parte dos utilizados em cenários onde a aprendizagem supervisionada está presente.",
+        "alternativas": [
+            "KNN.",
+            "K-means.",
+            "Redes Neurais.",
+            "Árvore de Decisão.",
+            "SVM."
+        ],
+        "gabarito": "K-means."
+    },
+    {
+        "id": 71,
+        "enunciado": "Machine Learning é um ramo da ciência da computação que utiliza conceitos das áreas de Estatística, Engenharia e da própria Computação com o objetivo de reconhecer padrões e ensiná-los a uma máquina. Além das áreas citadas, outro aspecto importante para Machine Learning são os dados. Sem eles não é possível viabilizar o treinamento da máquina. Esses dados devem estar relacionados ao tema para o qual a máquina será treinada. Isso é fundamental pois o objetivo de Machine Learning é permitir que a máquina seja capaz de evidenciar informações que um humano não perceberia facilmente, permitindo, por exemplo, a predição de eventos ou a execução de diagnósticos precisos.\nA respeito dos fundamentos que envolvem Machine Learning, analise as afirmativas abaixo e marque alternativa correta.\nI. No processo de aprendizagem supervisionada o computador recebe um conjunto de dados. Ele encontrará neste conjunto dados de entrada atrelados as saídas esperadas. Neste tipo de aprendizagem o objetivo é encontrar as regras que conseguem mapear aquelas entradas com aquelas saídas.\nII. A aprendizagem por reforço é um tipo de treinamento usado onde enfrentamos um ambiente complexo. Através das tentativas e erro o computador busca uma solução para o problema. Para que a máquina entenda o que são acertos e erros ela receberá recompensas e penalidades durante o processo de busca da solução.\nIII. Quando o conjunto de dados repassado para o computador possui apenas os valores de saída possíveis (rótulos) mas não conhecemos nada a respeito dos valores das entradas, devemos fazer uso do processo de aprendizagem não supervisionada. Ela foi criada justamente para atender este cenário. Esse aprendizagem envolve complexidades adicionais quando comparada a aprendizagem supervisionada.",
+        "alternativas": [
+            "Apenas a afirmativa II está correta.",
+            "Apenas as afirmativas I e II estão corretas.",
+            "Apenas as afirmativas II e III estão corretas.",
+            "Apenas a afirmativa I está correta.",
+            "Todas as afirmativas estão corretas."
+        ],
+        "gabarito": "Apenas as afirmativas I e II estão corretas."
+    },
+    {
+        "id": 72,
+        "enunciado": "O Chefe do Departamento de Treinamento de Modelos de I.A de determinado Banco de Investimento recebe em sua sala cinco cientistas de dados (cada um com um diferente modelo treinado e desenvolvido) e verifica que todos eles possuem a mesma queixa: o comprometimento da capacidade de generalização em decorrência da problemática do overfitting. Cada opção abaixo representa um modelo desenvolvido e a respectiva proposta de ·solução de um dos cientistas de dados. Assim assinale a opção com a proposta INCORRETA.",
+        "alternativas": [
+            "Regressão Linear Composta. Retirar penalidade LASSO do modelo.",
+            "Regressão Logística. Reduzir número de variáveis explicativas.",
+            "Rede Neural Artificial. Aplicar técnica de early stopping.",
+            "Rede Neural Artificial. Reduzir a quantidade de camadas de neurônios.",
+            "Random Forest. Aumentar número de árvores de decisão."
+        ],
+        "gabarito": "Regressão Linear Composta. Retirar penalidade LASSO do modelo."
+    },
+    {
+        "id": 73,
+        "enunciado": "O sckit-learn suporta o processamento de algoritmos de aprendizado de máquina do tipo supervisionado como, por exemplo,",
+        "alternativas": [
+            "o SVM e a clusterização.",
+            "o BIRCH e o vizinho mais próximo.",
+            "o PCA e os gaussian mixture models.",
+            "o naive bayes e as árvores de decisão.",
+            "o modelo cúbico e a densidade estimada."
+        ],
+        "gabarito": "o naive bayes e as árvores de decisão."
+    },
+    {
+        "id": 74,
+        "enunciado": "Analise o script abaixo from pandas import DataFrame import matplotlib.pyplot as plt from sklearn.cluster import KMeans Data = {'x':\n[36,35,23,28,34,32,30,23,36,34,66,55,56,44,51,56,52,51,64,48,49,50,36,34,43,46,40,42,52,47], 'y':\n[76,52,52,79,60,73,73,58,70,76,52,33,41,45,52,37,36,59,60,51,26,21,15,13,21,10,30,28,10,17] } df = DataFrame(Data,columns=['x','y']) m = KMeans(n_clusters=.fit(df) d = m.cluster_centers_ plt.xlabel(\"X\") plt.ylabel(\"Y\") plt.scatter(df['x'], df['y'], c= m.labels_.astype(float), s=100, alpha=0.plt.scatter(d[:, 0], d[:, 1], c='red', s=250, marker='*') plt.grid() plt.show() O resultado da execução é As estrelas indicam",
+        "alternativas": [
+            "componentes principais.",
+            "centros de voronoi.",
+            "covariâncias.",
+            "centroides.",
+            "clusteres."
+        ],
+        "gabarito": "centroides."
+    },
+    {
+        "id": 75,
+        "enunciado": "Julgue o item a seguir, referentes a conceitos e especificidades de MDM (master data management).\nA grande diferença entre algoritmos fuzzy matching e stemming reside no fato de que, enquanto o primeiro combina palavras com a mesma raiz linguística, o segundo trabalha com semelhanças de ortografia.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 76,
+        "enunciado": "A respeito de inteligência artificial, julgue o item seguinte.\nAplicações de reconhecimento de voz fazem a transcrição de um áudio para texto diretamente, sem a necessidade de nenhum modelo intermediário.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 77,
+        "enunciado": "A correta definição do termo “inteligência artificial” é tratar-se de:",
+        "alternativas": [
+            "uma tecnologia que interliga uma rede de computadores conectando dispositivos, pessoas e até animais através da nuvem.",
+            "uma tecnologia que visa facilitar o trabalho com marketing digital, ao mesmo tempo em que traz mais eficiência e otimiza os processos dessa estratégia, aumentando as chances de sucesso.",
+            "um sistema de identificação que permite rastrear e categorizar itens ou dispositivos, por meio da internet.",
+            "uma ciência multidisciplinar que busca desenvolver e aplicar técnicas computacionais que simulem o comportamento humano em atividades específicas."
+        ],
+        "gabarito": "uma ciência multidisciplinar que busca desenvolver e aplicar técnicas computacionais que simulem o comportamento humano em atividades específicas."
+    }
+]

@@ -1,0 +1,1639 @@
+[
+    {
+        "id": 1,
+        "enunciado": "Um Ministério Público precisa atualizar sua Política de Segurança da Informação (PSI), incluindo diretrizes para continuidade do serviço e tratamento de incidentes críticos. Durante o processo de revisão, o Comitê de Governança de TI discute como integrar o Plano de Contingência e o Plano de Recuperação de Desastres à PSI.\nA abordagem mais adequada ao setor público é:",
+        "alternativas": [
+            "O Plano de Contingência e o de Recuperação de Desastres devem estar alinhados à PSI, servindo como instrumentos práticos que detalham procedimentos e responsabilidades para manter a continuidade dos serviços essenciais, reduzir impactos e restabelecer a operação após incidentes graves.",
+            "A PSI deve ser independente de planos operacionais, sendo suficiente por si só para definir como os serviços serão restabelecidos após um desastre.",
+            "O Plano de Recuperação de Desastres pode substituir integralmente a PSI, já que foca em continuidade e segurança dos dados.",
+            "No setor público, apenas a existência da PSI já atende às exigências legais de continuidade de serviços, tornando desnecessários planos adicionais de contingência.",
+            "O Plano de Contingência é aplicado apenas a situações de falhas de energia elétrica, não sendo necessário expandi-lo para outros cenários, como ataques cibernéticos ou indisponibilidade de infraestrutura em nuvem."
+        ],
+        "gabarito": "O Plano de Contingência e o de Recuperação de Desastres devem estar alinhados à PSI, servindo como instrumentos práticos que detalham procedimentos e responsabilidades para manter a continuidade dos serviços essenciais, reduzir impactos e restabelecer a operação após incidentes graves."
+    },
+    {
+        "id": 2,
+        "enunciado": "Um Ministério Público está implementando um sistema de logging conforme a ISO/IEC 27002:022 para monitorar atividades críticas em seus servidores. O analista de infraestrutura precisa garantir que os logs gerados sejam protegidos contra manipulação e permitam a detecção de incidentes de segurança.\nConsiderando as práticas recomendadas pela norma,",
+        "alternativas": [
+            "usuários com privilégios administrativos devem ter permissão para editar logs de suas próprias atividades para corrigir eventuais erros de registro, mantendo a agilidade operacional.",
+            "a sicronização de tempo entre sistemas não é recomendada, pois os logs podem ser correlacionados manualmente durante investigação sem prejuízo da análise forense.",
+            "técnicas como hashing criptográfico, gravação em arquivos append-only e uso de arquivos de transparência pública são recomendadas para proteger a integridade dos logs contra modificações não autorizadas.",
+            "logs enviados para fornecedores externos para troubleshooting devem incluir informações completas de identificação (como IPs e nomes de usuário) para garantir o diagnóstico preciso dos problemas.",
+            "a análise de logs deve focar exclusivamente em eventos bem-sucedidos de acesso a sistemas, pois tentativas rejeitadas não representam riscos significativos à segurança."
+        ],
+        "gabarito": "técnicas como hashing criptográfico, gravação em arquivos append-only e uso de arquivos de transparência pública são recomendadas para proteger a integridade dos logs contra modificações não autorizadas."
+    },
+    {
+        "id": 3,
+        "enunciado": "Acerca de procedimentos de segurança e da gestão da segurança da informação, julgue o próximo item.\nNos documentos que formalizam os procedimentos de segurança, as políticas de segurança são traduzidas em instruções operacionais verificáveis, o que viabiliza a execução consistente dos controles técnicos e organizacionais e a geração de evidências objetivas para auditoria e avaliação de conformidade.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 4,
+        "enunciado": "Uma Secretaria da Fazenda está elaborando política de segurança da informação para proteger dados tributários sensíveis (declarações fiscais, informações bancárias de contribuintes e dados de fiscalizações). A política precisa definir responsabilidades sobre classificação de informações, controles de acesso, tratamento de incidentes de segurança e conformidade com a LGPD. Durante as reuniões de elaboração, surgem dúvidas sobre quem deve aprovar a política, quem é responsável por sua implementação técnica e quem deve monitorar a conformidade. Considerando boas práticas de governança sobre papéis e responsabilidades na gestão de políticas organizacionais de TIC,",
+        "alternativas": [
+            "a equipe técnica de infraestrutura de TI deve elaborar, aprovar e implementar a política de forma autônoma, visto que possui conhecimento especializado sobre segurança da informação, cabendo às áreas de negócio restringir as determinações técnicas estabelecidas pela área de tecnologia.",
+            "a política deve ser elaborada pela assessoria jurídica em conjunto com a área de TI, considerando requisitos da LGPD e sigilo fiscal, aprovada pelo secretário- adjunto administrativo, para garantir celeridade na tramitação, implementada por cada gestor de área, segundo orientações gerais estabelecidas no documento, e monitorada pela equipe de segurança da informação com apoio de controles internos periódicos.",
+            "o responsável pela área de TI deve coordenar a elaboração técnica e aprovar as políticas relacionadas a tecnologia, incluindo segurança da informação, submetendo-as posteriormente à alta administração apenas para homologação final, desde que a política seja tecnicamente adequada, esteja alinhada com frameworks de segurança e não demande investimentos superiores a 10% do orçamento anual de TI.",
+            "a política deve ser elaborada por grupo de trabalho multidisciplinar incluindo TI, segurança, áreas finalísticas e jurídico, validada quanto à viabilidade técnica e conformidade legal, submetida à aprovação formal da alta administração que possui autoridade sobre políticas institucionais, implementada pela área de TI com apoio das demais áreas e monitorada por função independente de auditoria ou compliance.",
+            "cada área finalística (de arrecadação, fiscalização, atendimento) deve elaborar sua própria política de segurança para seus sistemas, aprovando internamente suas normas, permitindo flexibilidade para adaptar controles conforme necessidades particulares de cada processo sem padronização institucional centralizada."
+        ],
+        "gabarito": "a política deve ser elaborada por grupo de trabalho multidisciplinar incluindo TI, segurança, áreas finalísticas e jurídico, validada quanto à viabilidade técnica e conformidade legal, submetida à aprovação formal da alta administração que possui autoridade sobre políticas institucionais, implementada pela área de TI com apoio das demais áreas e monitorada por função independente de auditoria ou compliance."
+    },
+    {
+        "id": 5,
+        "enunciado": "No contexto da Segurança da Informação na Administração Pública, diversas organizações adotam uma Política de Uso Aceitável (PUA) como parte de seu conjunto de normativos internos, em complemento às demais políticas e controles institucionais.\nConsiderando o papel e o escopo típico de uma PUA em um órgão público, assinale a opção que apresenta exemplos de ações que podem ser formalmente disciplinadas por esse tipo de política.",
+        "alternativas": [
+            "Definição da arquitetura corporativa de sistemas, critérios de priorização de investimentos estratégicos de TI e parâmetros para alinhar o planejamento de TI ao planejamento institucional.",
+            "Estabelecimento de métricas de desempenho contratual, procedimentos de gestão de fornecedores e critérios de aceitabilidade de riscos organizacionais relacionados a projetos de TI.",
+            "Procedimentos de auditoria interna, cronograma de ações do planejamento estratégico de TI e diretrizes para contratação de serviços terceirizados de tecnologia.",
+            "Definição de controles avançados de perímetro, como tunelamento de VPN, políticas de firewall, IDS/IPS e segregação lógica de redes internas, independentemente de comportamento do usuário.",
+            "Regras para uso adequado do e-mail institucional, orientações sobre instalação de softwares autorizados, diretrizes para manuseio de dispositivos corporativos e condutas permitidas ou proibidas na navegação em redes e internet."
+        ],
+        "gabarito": "Regras para uso adequado do e-mail institucional, orientações sobre instalação de softwares autorizados, diretrizes para manuseio de dispositivos corporativos e condutas permitidas ou proibidas na navegação em redes e internet."
+    },
+    {
+        "id": 6,
+        "enunciado": "Acerca dos princípios, das políticas e dos conceitos fundamentais de segurança da informação, julgue o item seguinte.\nA efetividade de uma Política de Segurança da Informação como instrumento de governança pressupõe, além de sua formalização, o patrocínio da alta direção e a sua observância pelos usuários que tenham acesso aos ativos de informação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 7,
+        "enunciado": "Durante a implantação de um sistema de gestão da segurança da informação (SGSI) na secretaria de meio ambiente de certo estado da Federação, a equipe responsável identificou que já existiam controles técnicos de segurança em operação, porém sem diretrizes formais documentadas, sem definição clara de responsabilidades e sem um processo estruturado de análise de riscos. Diante desse cenário, a alta administração solicitou a adoção de práticas que permitissem integrar governança, gestão de riscos e controles de segurança da informação, de forma consistente e alinhada às boas práticas de gestão da segurança da informação.\nNessa situação, de acordo com as disposições da NBR ISO/IEC 27001:2013 relativas à gestão da segurança da informação, a medida prioritária que a secretaria deve adotar para atender à solicitação da alta administração é",
+        "alternativas": [
+            "definir os controles de segurança da informação adotando uma abordagem puramente reativa, baseada apenas nos incidentes de segurança que já ocorreram na organização.",
+            "delegar a responsabilidade pela segurança da informação exclusivamente às equipes de TI, a fim de não sobrecarregar a alta administração, cujo envolvimento direto poderá ser dispensado.",
+            "estabelecer uma política de segurança aprovada pela alta administração e baseada em análise sistemática de riscos para a seleção coerente de controles organizacionais.",
+            "implantar novos controles técnicos de forma imediata, com foco em tecnologias avançadas, mas sem a devida formalização de políticas ou uma prévia análise de riscos institucionais.",
+            "focar a elaboração de procedimentos operacionais para as áreas técnicas, postergando a definição da política de segurança da informação, que é o documento norteador."
+        ],
+        "gabarito": "estabelecer uma política de segurança aprovada pela alta administração e baseada em análise sistemática de riscos para a seleção coerente de controles organizacionais."
+    },
+    {
+        "id": 8,
+        "enunciado": "Conforme os fundamentos da NBR ISO/IEC 27001:2013, a política de segurança da informação cumpre adequadamente seu papel quando",
+        "alternativas": [
+            "estabelece diretrizes gerais alinhadas aos objetivos organizacionais e define responsabilidades relacionadas à segurança da informação.",
+            "é elaborada exclusivamente para atender exigências formais de auditoria, dispensando ampla divulgação interna.",
+            "permanece inalterada ao longo do tempo, independentemente de mudanças no contexto organizacional ou nos riscos associados à informação.",
+            "define regras técnicas de segurança, sendo sua aplicação delegada exclusivamente à área de tecnologia da informação.",
+            "descreve de forma detalhada procedimentos operacionais e controles técnicos específicos para todos os sistemas da organização."
+        ],
+        "gabarito": "estabelece diretrizes gerais alinhadas aos objetivos organizacionais e define responsabilidades relacionadas à segurança da informação."
+    },
+    {
+        "id": 9,
+        "enunciado": "Uma organização de grande porte, com unidades distribuídas em diferentes regiões, decidiu revisar sua Política de Segurança da Informação após identificar inconsistências internas: ausência de critérios formais para classificação de dados, indefinição sobre responsabilidades quanto ao uso de credenciais privilegiadas e mistura, no mesmo documento, de diretrizes estratégicas com instruções técnicas detalhadas de configuração de sistemas. Durante as discussões, surgiram divergências entre a equipe técnica e a gestão executiva acerca do escopo adequado da política e de sua relação com normas complementares e procedimentos operacionais. À luz das boas práticas em segurança da informação, assinale a alternativa CORRETA.",
+        "alternativas": [
+            "A política institucional pode prescindir de aprovação formal da alta administração, desde que os controles técnicos estejam devidamente implementados.",
+            "A revisão periódica da política é facultativa, pois sua estabilidade normativa contribui para a previsibilidade organizacional.",
+            "A Política de Segurança deve detalhar tecnicamente todos os procedimentos operacionais de configuração de firewall, antivírus e backups, de modo a evitar interpretações divergentes pelas equipes técnicas.",
+            "A classificação da informação, quando prevista em política institucional, tende a orientar a definição de controles proporcionais ao nível de sensibilidade dos dados tratados.",
+            "A responsabilidade pela segurança da informação restringe-se à área de TI, visto que os controles tecnológicos concentram os principais mecanismos de proteção."
+        ],
+        "gabarito": "A classificação da informação, quando prevista em política institucional, tende a orientar a definição de controles proporcionais ao nível de sensibilidade dos dados tratados."
+    },
+    {
+        "id": 10,
+        "enunciado": "Um órgão público, a partir dos seus objetivos e necessidades organizacionais, deve estabelecer, implementar, manter e melhorar continuamente o Sistema de Gestão de Segurança da Informação (SGSI). Com relação à política de Segurança da Informação (PSI), que é um dos documentos que compõem o SGSI, analise as afirmativas a seguir.\nI. A PSI é elaborada a partir dos riscos levantados durante a elaboração do plano de gestão dos riscos.\nII. A PSI estabelece os princípios, diretrizes e atribuições relacionadas à Segurança da Informação de um órgão público.\nIII. A PSI tem como objetivo proteger somente dados corporativos que trafegam por sistemas de tecnologia da informação e comunicação.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, apenas.",
+            "I e II, apenas.",
+            "I e III, apenas.",
+            "II e III, apenas.",
+            "I, II e III."
+        ],
+        "gabarito": "II e III, apenas."
+    },
+    {
+        "id": 11,
+        "enunciado": "Julgue o item a seguir, a respeito de segurança da informação, políticas de segurança, classificação de informações e análise de vulnerabilidades.\nConsiderando que uma organização adota o desenvolvimento de software seguro, o uso de ferramentas de varredura de vulnerabilidades será direcionado especificamente às bibliotecas de software de terceiros utilizadas pela organização.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 12,
+        "enunciado": "Julgue o item a seguir, a respeito de segurança da informação, políticas de segurança, classificação de informações e análise de vulnerabilidades.\nDe acordo com a NBR ISO/IEC 27002:2022, é relevante que a política de segurança da informação organizacional contenha declarações explícitas de veto a quaisquer isenções e exceções.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 13,
+        "enunciado": "A respeito de governança e gestão de TI, julgue o próximo item.\nUma política de segurança da informação pode ser considerada eficaz mesmo se não for revisada regularmente, desde que tenha sido bem elaborada inicialmente.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 14,
+        "enunciado": "Julgue o próximo item, no que se refere à segurança da informação e às políticas de segurança.\nNa política de segurança, os procedimentos descrevem quando se deve implementar diretrizes de segurança aplicáveis, indiferente de padrões.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 15,
+        "enunciado": "Julgue o próximo item, no que se refere à segurança da informação e às políticas de segurança.\nAo se criar uma política de segurança, é importante considerar e descrever diversos padrões e diretrizes que especificam as tecnologias para proteger sistemas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 16,
+        "enunciado": "A respeito do Programa de Privacidade e Segurança da Informação (PPSI), o qual envolve um conjunto de ações de adequação voltadas para melhoria no grau de maturidade e de resiliência dos órgãos e das entidades integrantes do Sistema de Administração dos Recursos de Tecnologia da Informação (SISP), da Administração Pública Federal, julgue os itens a seguir:\nI. A área temática de Governança é responsável por avaliar, direcionar e monitorar as ações do PPSI e tem como objetivos: assegurar a entrega de benefícios, a otimização dos recursos e o engajamento das partes interessadas.\nII. O PPSI tem várias publicações, como guias e modelos, voltados para a efetiva implementação das melhores práticas. Um desses modelos é o de Política de Controle de Acesso, o qual visa garantir que os ativos de informação sejam identificados adequadamente e que os controles de proteção recomendados para estes ativos de informação estejam em vigor.\nIII. A Política de Backup e Restauração de Dados Digitais objetiva instituir diretrizes, responsabilidades e competências que visam à segurança, proteção e disponibilidade dos dados digitais custodiados pelo Órgão e formalmente definidos como de necessária salvaguarda, para se manter a continuidade do negócio.\nÉ CORRETO o que se afirma em:",
+        "alternativas": [
+            "I, II e III.",
+            "I e II, apenas.",
+            "I e III,apenas.",
+            "II e III, apenas.",
+            "III, apenas."
+        ],
+        "gabarito": "I e III,apenas."
+    },
+    {
+        "id": 17,
+        "enunciado": "Julgue o item a seguir, acerca de conceitos, políticas e gestão de riscos relacionados à segurança da informação.\nO propósito das políticas de segurança da informação organizacionais é assegurar adequação contínua, suficiência, efetividade da direção de gestão e suporte à segurança da informação de acordo com requisitos comerciais, legais, estatutários, regulamentares e contratuais.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 18,
+        "enunciado": "Julgue o item a seguir, a respeito de atributos da informação, gestão de riscos em segurança da informação, gestão de segurança da informação, controles de segurança cibernética e privacidade.\nEm uma organização, a elaboração de políticas e normas de segurança da informação, juntamente com o acompanhamento contínuo do desempenho dessas políticas, é essencial para garantir a proteção dos dados e a conformidade com as regulamentações de privacidade.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 19,
+        "enunciado": "Uma cidade enfrenta desafios crescentes em segurança digital em órgãos públicos. Recentemente, um ataque ransomware criptografou os dados de uma secretaria municipal, causando a paralisação de serviços de saúde e educação. Um estudo apontou que a ausência de uma política de segurança da informação bem estruturada foi um dos principais fatores para a vulnerabilidade. Nesse caso, a ação adequada para minimizar os riscos futuros e evitar a recorrência de situações semelhantes é",
+        "alternativas": [
+            "realocar todos os investimentos e esforços da implementação de políticas internas de segurança para ferramentas avançadas de detecção de ameaças.",
+            "estabelecer uma política de segurança da informação baseada na classificação dos ativos, priorizando os mais críticos, treinando e sensibilizando os colaboradores sobre sua responsabilidade.",
+            "definir uma política genérica de segurança da informação, aplicável a todas as secretarias municipais, para facilitar a gestão dos ativos gerenciados.",
+            "implementar controles de segurança em todas as máquinas, não envolvendo os colaboradores, para evitar o vazamento das ações de segurança do processo.",
+            "substituir rapidamente a infraestrutura digital atual por uma nova tecnologia, analisando posteriormente os possíveis riscos dessa mudança."
+        ],
+        "gabarito": "estabelecer uma política de segurança da informação baseada na classificação dos ativos, priorizando os mais críticos, treinando e sensibilizando os colaboradores sobre sua responsabilidade."
+    },
+    {
+        "id": 20,
+        "enunciado": "Qual das afirmativas abaixo melhor descreve uma política de segurança da informação?",
+        "alternativas": [
+            "Deve determinar a competência necessária das pessoas que realizam trabalhos que afetam o desempenho da segurança da informação.",
+            "Deve determinar os limites e a aplicabilidade do sistema de gestão da segurança da informação para estabelecer o seu escopo.",
+            "Deve incluir os objetivos de segurança da informação ou fornecer a estrutura para estabelecer esses objetivos.",
+            "Deve assegurar que as contínuas avaliações de riscos de segurança da informação produzam resultados comparáveis, válidos e consistentes.",
+            "Deve assegurar que o sistema de gestão da segurança da informação pode alcançar seus resultados pretendidos."
+        ],
+        "gabarito": "Deve incluir os objetivos de segurança da informação ou fornecer a estrutura para estabelecer esses objetivos."
+    },
+    {
+        "id": 21,
+        "enunciado": "Em relação à segurança da informação em organizações, julgue o item a seguir, com base na norma ABNT NBR ISO/IEC 27002:2022.\nA segurança da informação deve ser apoiada por políticas específicas para cada tópico, de acordo com a necessidade da organização, além de ser necessária a implementação de controles de segurança da informação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 22,
+        "enunciado": "Em relação à segurança da informação em organizações, julgue o item a seguir, com base na norma ABNT NBR ISO/IEC 27002:2022.\nA política de segurança da informação deve ser definida pela organização, aprovada pela gerência, publicada, comunicada e reconhecida pelo pessoal relevante e pelas partes interessadas relevantes, bem como deve ser revisada em intervalos planejados e na hipótese de ocorrência de mudanças significativas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 23,
+        "enunciado": "A norma ABNT NBR ISO/IEC 27002:2022 recomenda que as informações relacionadas às ameaças à segurança da informação sejam coletadas e analisadas para produzir inteligência de ameaças. A equipe de TI de um Tribunal Regional do Trabalho, ao realizar a coleta, dividiu essa inteligência de ameaças nas três camadas indicadas pela norma, conforme a seguir:\nI. troca de informações de alto nível sobre o cenário de ameaças em mudança.\nII. detalhes sobre ataques específicos, incluindo indicadores técnicos.\nIII. informações sobre as metodologias dos atacantes, ferramentas e tecnologias envolvidas.\nAs camadas I, II e III correspondem, correta e respectivamente, às inteligências de ameaças denominadas:",
+        "alternativas": [
+            "tática, operacional e estratégica.",
+            "de alto nível, de nível técnico e de nível tecnológico.",
+            "de alto nível, de baixo nível e de médio nível.",
+            "de mudança, de detalhes e de tecnologias.",
+            "estratégica, operacional e tática."
+        ],
+        "gabarito": "estratégica, operacional e tática."
+    },
+    {
+        "id": 24,
+        "enunciado": "Acerca da elaboração de políticas de segurança de rede e da implementação de diretrizes de segurança de rede, julgue o item seguinte.\nAs políticas de segurança não podem ser estáticas, pois as ameaças cibernéticas evoluem constantemente. Logo, é necessário que as diretrizes sejam revisadas periodicamente para se adequarem às novas vulnerabilidades e desafios.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 25,
+        "enunciado": "Acerca da segurança da informação, julgue o item seguinte.\nAs políticas de segurança da informação devem ser restritas ao setor de TI, pois apenas os profissionais dessa área manipulam dados sensíveis.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 26,
+        "enunciado": "A existência de uma política de segurança relacionada ao uso de mídias removíveis em uma organização",
+        "alternativas": [
+            "mitiga ou controla o risco de infecção por worms.",
+            "dispensa o uso de softwares antivírus nos computadores da organização, reduzindo custos.",
+            "é considerada obsoleta, porque, mesmo quando utilizadas, as mídias removíveis não trazem mais riscos de segurança aos computadores modernos.",
+            "impõe que todos os computadores da organização usem o mesmo sistema operacional, visando a compatibilidade do sistema de arquivos desses computadores.",
+            "é considerada obsoleta, porque apenas computadores antigos possuem unidades de disco flexível (disquetes), que são as mídias removíveis."
+        ],
+        "gabarito": "mitiga ou controla o risco de infecção por worms."
+    },
+    {
+        "id": 27,
+        "enunciado": "Uma prática recomendada para a implementação do SIEM (Security Information and Event Management) em uma empresa é que sejam estabelecidas políticas de BYOD. Essas políticas, independentemente de serem proibitivas ou permissivas, dizem respeito ao",
+        "alternativas": [
+            "acesso físico a servidores on premises da empresa.",
+            "uso de dispositivos de informática (computadores, tablets, etc.) pessoais de funcionários para fins de trabalho.",
+            "uso de inteligência artificial generativa para fins de trabalho.",
+            "tipo de cabeamento de rede que deve ser usado nas instalações físicas da empresa.",
+            "processo de seleção de fornecedores para a compra de equipamentos de rede, considerando principalmente os aspectos de segurança."
+        ],
+        "gabarito": "uso de dispositivos de informática (computadores, tablets, etc.) pessoais de funcionários para fins de trabalho."
+    },
+    {
+        "id": 28,
+        "enunciado": "A implementação de uma Política de Segurança da Informação (PSI) em um órgão público deve considerar não apenas as normas técnicas como ISO/IEC 27001/27002, mas também as particularidades do setor público brasileiro, incluindo a Lei de Acesso à Informação (Lei nº 12.527/. Considerando a Lei de Acesso à Informação (LAI) e os princípios da PSI no setor público, assinale a alternativa que apresenta um desafio ou consideração importante na gestão da segurança da informação.",
+        "alternativas": [
+            "A LAI exige que todas as informações públicas sejam classificadas como confidenciais por padrão, priorizando a confidencialidade em detrimento da transparência ativa.",
+            "A PSI do órgão deve estabelecer mecanismos de segurança que garantam a disponibilidade das informações classificadas, mas que impeçam totalmente o acesso a informações sigilosas mesmo por agentes públicos autorizados, para evitar vazamentos.",
+            "A LAI impõe que uma PSI contemple a publicidade como regra e o sigilo como exceção, exigindo a proteção de dados pessoais e informações sensíveis (confidencialidade e integridade), ao mesmo tempo que assegura a disponibilidade e a rastreabilidade do acesso.",
+            "As normas ISO/IEC 27001/27002 são meras recomendações para o setor público e podem ser ignoradas se houver conflito com os requisitos de transparência da LAI."
+        ],
+        "gabarito": "A LAI impõe que uma PSI contemple a publicidade como regra e o sigilo como exceção, exigindo a proteção de dados pessoais e informações sensíveis (confidencialidade e integridade), ao mesmo tempo que assegura a disponibilidade e a rastreabilidade do acesso."
+    },
+    {
+        "id": 29,
+        "enunciado": "No contexto da Administração Pública, a Política de Segurança da Informação (PSI) tem como finalidade principal ________, assegurando que ativos informacionais sejam protegidos contra ameaças que comprometam sua confidencialidade, integridade e disponibilidade. Assinale a alternativa que preencha corretamente a lacuna.",
+        "alternativas": [
+            "restringir o uso de tecnologia apenas a servidores efetivos.",
+            "atender unicamente aos requisitos da LGPD.",
+            "estabelecer diretrizes e controles para a proteção da informação institucional.",
+            "priorizar apenas sistemas internos e de missão crítica."
+        ],
+        "gabarito": "estabelecer diretrizes e controles para a proteção da informação institucional."
+    },
+    {
+        "id": 30,
+        "enunciado": "Em conformidade com as diretrizes do CNJ sobre segurança da informação nos órgãos do Judiciário ______. Assinale a alternativa que preencha corretamente a lacuna.",
+        "alternativas": [
+            "é obrigatória a divulgação pública de todas as ocorrências de incidentes de segurança digital.",
+            "o plano de continuidade de serviços de Tecnologia da Informação e Comunicação (TIC) deve considerar apenas falhas técnicas, e não eventos naturais.",
+            "os órgãos do Poder Judiciário deverão instituir Política de Segurança da Informação e implementar controles com base na gestão de riscos.",
+            "as políticas de segurança se restringem aos dados processuais e não alcançam informações administrativas."
+        ],
+        "gabarito": "os órgãos do Poder Judiciário deverão instituir Política de Segurança da Informação e implementar controles com base na gestão de riscos."
+    },
+    {
+        "id": 31,
+        "enunciado": "Durante o monitoramento contínuo de um sistema crítico, um analista de TI da MSGÁS identifica tentativas de acesso não autorizado que não comprometem a disponibilidade do serviço. Considerando que a confidencialidade dos dados dos clientes é a prioridade absoluta, assinale a alternativa correta:",
+        "alternativas": [
+            "Priorizar a manutenção da disponibilidade, garantindo que o sistema permaneça no ar para todos os usuários.",
+            "Aguardar uma tentativa de acesso bem-sucedida para coletar mais evidências antes de qualquer ação.",
+            "Documentar o evento para análise futura, uma vez que a integridade dos dados não foi afetada.",
+            "Acionar o protocolo de resposta a incidentes para investigar a violação de dados sensíveis e notificar a liderança, mesmo sem confirmação de vazamento."
+        ],
+        "gabarito": "Acionar o protocolo de resposta a incidentes para investigar a violação de dados sensíveis e notificar a liderança, mesmo sem confirmação de vazamento."
+    },
+    {
+        "id": 32,
+        "enunciado": "Leia o fragmento de texto a seguir.\nTexto I A proteção dessas informações pelo Governo, enquanto agente de tratamento, está designada no artigo 46, da Lei Geral de Proteção de Dados, em que “[...] os agentes de tratamento devem adotar medidas de segurança, técnicas e administrativas aptas a proteger os dados pessoais de acessos não autorizados e de situações acidentais ou Modelo de Política de Segurança da Informação (PPSI) ilícitas de destruição, perda, alteração, comunicação ou qualquer forma de tratamento inadequado ou ilícito”.\nFonte: BRASIL. Ministério da Gestão e da Inovação em Serviços Públicos. Secretaria de Governo Digital. Diretoria de Privacidade e Segurança da Informação. Coordenação-Geral de Privacidade.\nCoordenação-Geral de Segurança da Informação. Modelo de Política de Segurança da Informação: Programa de Privacidade e Segurança da Informação (PPSI). Brasília, DF:\nMGISP/SGD/DPS/CGP/CGSI, 2024. p. 7-6. (adaptado).\nConsiderando as informações apresentadas no texto, bem como seus conhecimentos, são políticas de segurança da informação, EXCETO:",
+        "alternativas": [
+            "Manutenção do sigilo absoluto de informações, de dados e de conteúdos da administração pública.",
+            "Garantia da disponibilidade, da integridade, da confidencialidade e da autenticidade das informações.",
+            "Continuidade dos serviços essenciais e alinhamento da política de segurança com o planejamento institucional.",
+            "Adoção de ações proporcionais aos riscos e baseadas em boas práticas à luz da legislação e das normas vigentes."
+        ],
+        "gabarito": "Manutenção do sigilo absoluto de informações, de dados e de conteúdos da administração pública."
+    },
+    {
+        "id": 33,
+        "enunciado": "O ransomware é um malware (programa malicioso) de extorsão – do estilo cavalo de troia – capaz de bloquear seu computador/banco de dados e, depois, exigir resgate para desbloqueá-lo. Este tipo de ataque foi o ataque que mais cresceu nos últimos anos. Alguns dos mais utilizados são: Crypto ransomware, Locker ransomware, Bad Rabbit, B0r0nt0k, CryptoWall, Doxware e Medusa.\nEntre as estratégias de gestão de segurança da informação, após identificação de artefatos maliciosos hospedados em endereços de redes no Brasil, deve ser encaminhada notificação com o seguinte regramento:",
+        "alternativas": [
+            "mensagem para ‘SEC.MIL.BR’, devendo ser realizado descritivo da ação do artefato malicioso para o qual se pede a remoção, com os registros de log anexos.",
+            "mensagem para ‘CERT.BR’, devendo ser realizado relato descritivo do artefato malicioso para o qual se pede a remoção, esclarecendo como foi detectado, e devem ser encaminhadas as entradas de log anexas.",
+            "mensagem para ‘secu-CERT’, devendo somente ser realizado o pedido de remoção, informando como foi detectado o agente.",
+            "mensagem para ‘S-CERT’, devendo ser realizado o descritivo do artefato malicioso para o qual se pede a remoção, e de como foi detectado, a fim de permitir o entendimento do problema e das entradas de log anexas.",
+            "mensagem para ‘CERT RS’ , devendo ser realizado o descritivo do sistema local e o invasor, com envio das entradas de log anexas."
+        ],
+        "gabarito": "mensagem para ‘CERT.BR’, devendo ser realizado relato descritivo do artefato malicioso para o qual se pede a remoção, esclarecendo como foi detectado, e devem ser encaminhadas as entradas de log anexas."
+    },
+    {
+        "id": 34,
+        "enunciado": "Com relação ao monitoramento de comportamento em redes de computadores, analise as afirmativas a seguir e assinale (V) para a verdadeira e (F) para a falsa.\n( ) Rastreia o tráfego de rede para identificar ameaças e anomalias.\n( ) É capaz de detectar atividades suspeitas, como tentativas de acesso a portas não autorizadas e varreduras de rede.\n( ) É uma ferramenta usada exclusivamente para fins de conformidade regulatória.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "V – V – F.",
+            "V – F – F.",
+            "F – V – V.",
+            "V – V – V."
+        ],
+        "gabarito": "V – V – F."
+    },
+    {
+        "id": 35,
+        "enunciado": "Com relação à Data Loss Prevention (DLP), analise as afirmativas a seguir.\nI. A DLP ajuda a proteger informações confidenciais, identificando e monitorando o uso de dados sensíveis dentro e fora de uma organização.\nII. A DLP geralmente é implementada por meio de soluções de software que podem ser personalizadas de acordo com as necessidades da organização.\nIII. A DLP se concentra apenas em prevenir a perda de dados intencional por parte dos empregados, não levando em conta as ameaças externas.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, II e III.",
+            "I e II, apenas.",
+            "I e III, apenas.",
+            "II e III, apenas."
+        ],
+        "gabarito": "I e II, apenas."
+    },
+    {
+        "id": 36,
+        "enunciado": "Julgue o próximo item, relativo a política de segurança da informação.\nA política de segurança da informação que esteja alinhada tanto à estratégia e aos requisitos do negócio quanto às regulamentações e legislações afetas está isenta de considerar os riscos e as ameaças atuais para a segurança da informação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 37,
+        "enunciado": "Julgue o próximo item, relativo a política de segurança da informação.\nConvencionou-se que, no âmbito das organizações, a política de segurança da informação seja definida e aprovada pela direção, devendo ser analisada criticamente em intervalos planejados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 38,
+        "enunciado": "Com referência a políticas de segurança da informação, julgue o item a seguir.\nCada informação deverá ter o seu próprio gestor, que será responsável por controlar suas autorizações de acesso e sua confidencialidade.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 39,
+        "enunciado": "No que se refere à gestão de segurança da informação, julgue o item subsecutivo.\nPara se aplicar uma política de segurança da informação em uma organização, é suficiente que a alta direção da organização bem como os detentores dos demais cargos de liderança tenham conhecimento do teor da referida política e acompanhem a sua implantação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 40,
+        "enunciado": "Julgue o próximo item, a respeito da gestão de segurança da informação.\nA política de segurança da informação deve ser revisada periodicamente e atualizada conforme necessário.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 41,
+        "enunciado": "Um plano de conscientização de segurança da informação visa educar os funcionários sobre os riscos de segurança da informação e as práticas adequadas para mitigá-los. Nesse sentido, para aumentar a conscientização sobre segurança da informação entre os funcionários, uma estratégia a ser adotada pela organização é",
+        "alternativas": [
+            "fornecer treinamento e atualizações regulares em segurança da informação para todos os funcionários.",
+            "limitar o treinamento de segurança aos membros da equipe de TI.",
+            "realizar uma única sessão de treinamento em segurança da informação no momento da contratação.",
+            "aplicar penalidades severas para violações das políticas de segurança."
+        ],
+        "gabarito": "fornecer treinamento e atualizações regulares em segurança da informação para todos os funcionários."
+    },
+    {
+        "id": 42,
+        "enunciado": "A gestão de direitos de acesso, uma parte importante da segurança da informação, inclui o processo de garantir que apenas usuários autorizados tenham acesso a informações e recursos de TI específicos. Nesse contexto, uma ação recomendada para gerenciar os direitos de acesso é",
+        "alternativas": [
+            "utilizar uma política de menor privilégio, limitando o acesso aos recursos necessários para as funções de trabalho.",
+            "designar um único administrador para gerenciar todos os direitos de acesso.",
+            "conceder a todos os usuários acesso irrestrito, a fim de promover a transparência.",
+            "evitar auditorias regulares de direitos de acesso, para reduzir a carga administrativa."
+        ],
+        "gabarito": "utilizar uma política de menor privilégio, limitando o acesso aos recursos necessários para as funções de trabalho."
+    },
+    {
+        "id": 43,
+        "enunciado": "O envolvimento da alta direção é crucial para o sucesso de um sistema de gestão de segurança da informação; uma atividade que é responsabilidade direta da alta direção é",
+        "alternativas": [
+            "a execução diária de backups de dados.",
+            "a configuração de firewalls e sistemas de detecção de intrusão.",
+            "o desenvolvimento de políticas de segurança da informação.",
+            "a realização de auditorias internas de segurança da informação."
+        ],
+        "gabarito": "o desenvolvimento de políticas de segurança da informação."
+    },
+    {
+        "id": 44,
+        "enunciado": "Julgue o item que se segue, relativo a políticas de segurança da informação.\nA política de segurança da informação deve ser boa o suficiente para prever tendências de ameaças e vulnerabilidades, bem como prováveis mudanças do ambiente organizacional, sem que haja a necessidade de reavaliação de seu conteúdo.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 45,
+        "enunciado": "Julgue o item que se segue, relativo a políticas de segurança da informação.\nNa definição do escopo da política de segurança da informação, devem-se detalhar os limites de sua aplicação, especificando os ambientes físicos, lógicos e organizacionais que são aplicáveis e os tipos de usuários.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 46,
+        "enunciado": "Julgue o item que se segue, relativo a políticas de segurança da informação.\nNa política de segurança são definidos os papéis de cada membro da organização no que tange à informação, além de serem listados os direitos, os deveres e as punições aplicadas diante do não cumprimento da política.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 47,
+        "enunciado": "Julgue o próximo item, a respeito da política de segurança da informação nas organizações.\nA política de segurança da informação tem como objetivo a proteção das informações contra ameaças internas e externas, assim como a prevenção contra vazamento de dados e sua alteração ou eliminação sem as devidas autorizações.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 48,
+        "enunciado": "Julgue o próximo item, a respeito da política de segurança da informação nas organizações.\nÉ competência dos órgãos e das entidades a elaboração de sua política de segurança da informação, bem como de suas normas internas de segurança da informação, devendo toda essa atividade de elaboração ser coordenada pelo gestor de segurança da informação do respectivo órgão ou entidade.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 49,
+        "enunciado": "Em relação à segurança da informação conforme o disposto nas normas ISO 27001, 27002 e 27005, julgue o item subsecutivo.\nA política de segurança da informação deve ser divulgada a todos da organização, de maneira formal e efetiva, informando-se todos os detalhes da sua implementação, a forma como ela deve ser cumprida e as penalidades aplicáveis em caso da sua não observância.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 50,
+        "enunciado": "O Tribunal de Justiça do Amapá (TJAP) identificou que não havia um documento de Política para Segurança da Informação e resolveu elaborá-lo. Para atender esse objetivo, fez uso da Norma 27002:2013, que orienta a organização a definir uma política de segurança que seja aprovada pela direção.\nPara a elaboração do documento, a norma orienta que sejam contemplados requisitos oriundos da(s):",
+        "alternativas": [
+            "normas da família 27000, atribuição de responsabilidades gerais e específicas para o gerenciamento da segurança;",
+            "definições de segurança da informação, objetivos e princípios para orientar todas as atividades de segurança;",
+            "definição do controle de acesso, segurança física e do ambiente e proteção contra malware;",
+            "transferência de informação, segurança nas comunicações, proteção e privacidade da informação de identificação pessoal;",
+            "estratégia de negócios, regulamentações, legislação e contratos e ambiente de ameaça da segurança da informação, atual e futuro."
+        ],
+        "gabarito": "estratégia de negócios, regulamentações, legislação e contratos e ambiente de ameaça da segurança da informação, atual e futuro."
+    },
+    {
+        "id": 51,
+        "enunciado": "Durante a primeira fase do processo de atualização da política de segurança da informação da empresa de contabilidade XXX Ltda., foi(foram) elencado(s)/a(s) como recurso crítico sob risco de segurança:",
+        "alternativas": [
+            "o registro dos móveis da empresa;",
+            "pessoas, em termos de usuários (internos e externos, quando conveniente), funcionários e dirigentes;",
+            "hardware, tais como, roteadores, linhas de comunicação, filtros de linhas, nobreaks e pen drives;",
+            "documentação a respeito de software, sistemas de informação e manuais de ativos de redes;",
+            "dados (em processamento, estáticos ou em transmissão), backups, logs, base de dados e servidores."
+        ],
+        "gabarito": "dados (em processamento, estáticos ou em transmissão), backups, logs, base de dados e servidores."
+    },
+    {
+        "id": 52,
+        "enunciado": "Algumas das razões que justificam que uma organização autorize o desenvolvimento e implantação de políticas e normas de segurança da informação são:",
+        "alternativas": [
+            "avanço tecnológico, explicitação das regras e legislação;",
+            "patrocínio, avanço tecnológico e treinamento das pessoas;",
+            "adequação às melhores práticas, legislação e explicitação das regras;",
+            "exigência do mercado, necessidade do negócio e patrocínio;",
+            "exigência do cliente, adequação às melhores práticas e necessidade do negócio."
+        ],
+        "gabarito": "exigência do cliente, adequação às melhores práticas e necessidade do negócio."
+    },
+    {
+        "id": 53,
+        "enunciado": "O TJMS instituiu sua política de segurança da informação visando a orientar ações destinadas a assegurar a disponibilidade, a integridade, a confidencialidade e a autenticidade da informação, conforme os preceitos da norma ISO 27002.\nCarlos, analista de sistemas do TJMS, ao tomar conhecimento do teor dessa política, identificou ser vedada a instalação de softwares não homologados nas estações de trabalho por:",
+        "alternativas": [
+            "possibilitar a perda e dano de informações durante a instalação, afetando a integridade dos dados;",
+            "ser necessária a desinstalação prévia de programas similares para garantir a disponibilidade da informação;",
+            "ser necessária a utilização de duplo fator de autenticação para garantir a autenticidade da informação;",
+            "poder introduzir vulnerabilidades e em seguida gerar vazamento de informações, o que poderia afetar a confidencialidade da informação;",
+            "possibilitar a coleta de dados pessoais sem o prévio mapeamento e análise de risco, afetando a confidencialidade da informação."
+        ],
+        "gabarito": "poder introduzir vulnerabilidades e em seguida gerar vazamento de informações, o que poderia afetar a confidencialidade da informação;"
+    },
+    {
+        "id": 54,
+        "enunciado": "Na era digital, onde a informação é um dos ativos mais valiosos, a implementação de uma política de segurança da informação é crucial para proteger os dados sensíveis e garantir a confiança de clientes e parceiros. Quando se trata de desenvolver uma política de segurança da informação, é recomendável ter em mente alguns conceitos:\nI. Toda informação deve ser mantida na sua condição original, tal como fornecida pelo seu proprietário, com o objetivo de protegê-la contra quaisquer alterações indevidas, sejam elas intencionais ou acidentais.\nII. É fundamental registrar tanto o acesso quanto o uso da informação, permitindo a identificação dos usuários que acessaram e as ações realizadas com os dados.\nIII. Toda informação deve ser protegida conforme o seu nível de sigilo, com o objetivo de restringir o acesso e o uso apenas às pessoas autorizadas a recebê-la.\nAs afirmações acima referem-se aos seguintes conceitos, respectivamente.",
+        "alternativas": [
+            "Integridade– Disponibilidade – Legalidade.",
+            "Disponibilidade – Confidencialidade – Legalidade.",
+            "Auditabilidade – Legalidade – Confidencialidade.",
+            "Integridade – Auditabilidade – Confidencialidade."
+        ],
+        "gabarito": "Integridade – Auditabilidade – Confidencialidade."
+    },
+    {
+        "id": 55,
+        "enunciado": "Um analista de ouvidoria em uma grande corporação é responsável por garantir que as políticas de segurança da informação sejam aplicadas de maneira eficaz, especialmente no que diz respeito ao acesso a dados pessoais sensíveis dos clientes. Considerando as ameaças internas e externas, qual das seguintes medidas de segurança é mais crítica para proteger contra vazamentos de dados e garantir a conformidade com normas de privacidade?",
+        "alternativas": [
+            "Implementação de software antivírus e anti-malware em todos os dispositivos da rede corporativa.",
+            "Treinamento regular de funcionários sobre as melhores práticas de segurança da informação e protocolos de privacidade.",
+            "Adoção de uma política de segurança que inclua autenticação multifator para todos os acessos a sistemas que contêm informações sensíveis.",
+            "Utilização de redes privadas virtuais (VPNs) para todos os funcionários ao acessarem a rede corporativa remotamente."
+        ],
+        "gabarito": "Adoção de uma política de segurança que inclua autenticação multifator para todos os acessos a sistemas que contêm informações sensíveis."
+    },
+    {
+        "id": 56,
+        "enunciado": "Qual é o papel da alta administração na elaboração e implantação da política de segurança da informação para ela ser efetiva e eficaz?",
+        "alternativas": [
+            "A alta administração deve ser neutra e seu comprometimento deve ser expresso informalmente.",
+            "O envolvimento da alta administração deve ser restrito e seu comprometimento deve ser expresso informalmente.",
+            "O envolvimento da alta administração deve ser o maior possível e seu comprometimento deve ser expresso formalmente, por escrito.",
+            "O envolvimento da alta administração deve ser ponderado e seu comprometimento deve ser expresso financeiramente.",
+            "O envolvimento da alta administração deve ser o menor possível e seu comprometimento deve ser expresso informalmente."
+        ],
+        "gabarito": "O envolvimento da alta administração deve ser o maior possível e seu comprometimento deve ser expresso formalmente, por escrito."
+    },
+    {
+        "id": 57,
+        "enunciado": "Julgue o item subsecutivo, referente a segurança da informação e proteção de dados.\nA política de segurança da informação adotada em uma organização deve ser periodicamente analisada para se buscar sua adequação e eficiência, assim como deve ser revista para atender a mudanças, por exemplo, nos negócios e em aspectos contratuais, regulamentares e legais.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 58,
+        "enunciado": "Julgue o item a seguir, que tratam de gestão da segurança da informação.\nSegundo a NBR ISO/IEC 27002:2022, são dois os tipos de controle nas políticas de segurança da informação: #Preventivo e #Corretivo.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 59,
+        "enunciado": "O processo de criação de políticas de segurança da informação de uma organização deve basear-se em alguns princípios.\nQuais diretrizes devem fazer parte desses princípios fundamentais?",
+        "alternativas": [
+            "Confidencialidade, integridade, disponibilidade.",
+            "Autoridade, conformidade, transparência.",
+            "Conformidade regulatória, gestão de riscos, continuidade de negócios.",
+            "Análise de informações, ingestão de dados, restrição.",
+            "Segurança física, segurança lógica, segurança de redes."
+        ],
+        "gabarito": "Confidencialidade, integridade, disponibilidade."
+    },
+    {
+        "id": 60,
+        "enunciado": "O Ministério da Gestão e da Inovação, por meio de seu departamento de Tecnologia da Informação (TI), designou o especialista em segurança da informação e proteção de dados à liderança da implantação de um programa de segurança da informação, com a finalidade de proteger seus ativos digitais e diminuir o risco de ataques e violação de dados.\nNesse cenário, qual deve ser a primeira etapa do processo de definição de políticas de segurança da informação?",
+        "alternativas": [
+            "Definir as ferramentas a serem utilizadas pela empresa.",
+            "Implementar políticas de acesso e uso dos dados.",
+            "Fazer um levantamento dos ativos relacionados à informação e de quais dados dos sistemas precisam ser protegidos.",
+            "Realizar uma auditoria nos dados da empresa.",
+            "Definir os objetivos de segurança da informação da organização."
+        ],
+        "gabarito": "Definir os objetivos de segurança da informação da organização."
+    },
+    {
+        "id": 61,
+        "enunciado": "O time de segurança da informação do Ministério da Gestão e da Inovação quer implementar novas políticas de segurança da informação.\nQual ação deve ser tomada antes de definir uma nova política de segurança nesse contexto?",
+        "alternativas": [
+            "Entender quais dados sensíveis a empresa trata em suas soluções.",
+            "Avaliar o estado atual da organização e sua relação com a segurança da informação.",
+            "Analisar a infraestrutura da empresa.",
+            "Analisar o fluxo de trabalho dos colaboradores.",
+            "Entender como a organização trata seus colaboradores e terceiros."
+        ],
+        "gabarito": "Avaliar o estado atual da organização e sua relação com a segurança da informação."
+    },
+    {
+        "id": 62,
+        "enunciado": "Considerando as políticas de segurança da informação, qual das seguintes alternativas melhor representa a importância da classificação da informação para uma organização?",
+        "alternativas": [
+            "A classificação da informação é uma formalidade administrativa que não impacta as medidas de segurança aplicadas aos dados.",
+            "A classificação da informação permite que as organizações apliquem o mesmo nível de proteção a todos os dados, simplificando o processo de segurança.",
+            "A classificação da informação é crucial porque determina o nível de proteção adequado e as medidas de controle a serem aplicadas, baseando-se na sensibilidade e no valor da informação para a organização.",
+            "A classificação da informação destina-se apenas a cumprir regulamentações legais, sem oferecer benefícios práticos significativos para a segurança da informação."
+        ],
+        "gabarito": "A classificação da informação é crucial porque determina o nível de proteção adequado e as medidas de controle a serem aplicadas, baseando-se na sensibilidade e no valor da informação para a organização."
+    },
+    {
+        "id": 63,
+        "enunciado": "A Política de Segurança da Informação (PSI) é um documento que deve conter um conjunto de normas, métodos e procedimentos, os quais devem ser comunicados a todos os funcionários. São exemplos de ações para política de segurança da informação, exceto:",
+        "alternativas": [
+            "Categorização dos ativos da informação.",
+            "Levantamento de vulnerabilidades.",
+            "Identificação dos controles e ferramentas de segurança.",
+            "Análise somente da parte física, não sendo necessário analisar a parte lógica."
+        ],
+        "gabarito": "Análise somente da parte física, não sendo necessário analisar a parte lógica."
+    },
+    {
+        "id": 64,
+        "enunciado": "A norma ABNT NBR ISO/IEC 27002:2022 organiza os controles de segurança em diferentes categorias (ou temas), e cada controle está associado a cinco atributos com valores de atributo correspondentes. Dentre esses atributos, o de domínios de segurança é usado para visualizar controles na perspectiva de quatro domínios de segurança da informação. Os valores desse atributo consistem em:",
+        "alternativas": [
+            "Confidencialidade, Integridade, Disponibilidade e Resiliência.",
+            "Governança, Defesa, Continuidade e Segurança_física.",
+            "Governança, Confidencialidade, Integridade e Disponibilidade.",
+            "Governança_e_Ecossistema, Proteção, Defesa e Resiliência.",
+            "Governança_e_Ecossistema, Proteção, Defesa e Segurança_física."
+        ],
+        "gabarito": "Governança_e_Ecossistema, Proteção, Defesa e Resiliência."
+    },
+    {
+        "id": 65,
+        "enunciado": "Quanto ao gerenciamento de projetos de infraestrutura de TI, à elaboração de políticas de segurança de rede e à implementação de diretrizes de segurança, julgue o próximo item.\nNa elaboração de políticas de segurança de rede, o controle de acesso é essencial para definir quem pode acessar quais recursos e em quais condições.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 66,
+        "enunciado": "Em uma organização, a política de segurança da informação definida pela alta direção, em seu mais alto nível, deve incluir prescrições para a segurança da informação a respeito de requisitos relacionados a",
+        "alternativas": [
+            "riscos e ameaças atuais.",
+            "classificação e tratamento de informações.",
+            "controle de acesso.",
+            "gestão de incidentes."
+        ],
+        "gabarito": "riscos e ameaças atuais."
+    },
+    {
+        "id": 67,
+        "enunciado": "A implementação de políticas de segurança da informação visa proteger os ativos organizacionais contra ameaças, vulnerabilidades e riscos.\nNão faz parte das práticas de segurança da informação que visam reduzir riscos e melhorar, sem comprometer, a segurança em uma organização a Política de",
+        "alternativas": [
+            "Controle de Acessos.",
+            "Backup e Recuperação de Dados.",
+            "Segurança Física.",
+            "Treinamento de Usuários.",
+            "Redução de Custos Operacionais de Segurança."
+        ],
+        "gabarito": "Redução de Custos Operacionais de Segurança."
+    },
+    {
+        "id": 68,
+        "enunciado": "Normas ISO/IEC são normas internacionalmente reconhecidas, desenvolvidas pela International Organization for Standardization (ISO) e pela International Electrotechnical Commission (IEC). A Norma ISO/IEC que serve de base para uma empresa elaborar sua política de segurança da informação é a:",
+        "alternativas": [
+            "ISO/IEC 27004.",
+            "ISO/IEC 27002.",
+            "ISO/IEC 27003.",
+            "ISO/IEC 27001.",
+            "ISO/IEC 27005."
+        ],
+        "gabarito": "ISO/IEC 27001."
+    },
+    {
+        "id": 69,
+        "enunciado": "Uma empresa de serviços financeiros está revisando suas políticas de segurança da informação para garantir a conformidade com regulamentos e proteger dados sensíveis. O novo Diretor de Segurança da Informação (CISO) está criando um plano abrangente para atualizar e implementar essas políticas em toda a organização. Qual das seguintes opções descreve CORRETAMENTE o principal objetivo de uma política de segurança da informação?",
+        "alternativas": [
+            "Melhorar a eficiência dos processos de negócios.",
+            "Reduzir os custos operacionais da empresa.",
+            "Proteger a confidencialidade, integridade e disponibilidade das informações.",
+            "Aumentar a velocidade de processamento dos sistemas de TI.",
+            "Facilitar a atualização de software e hardware."
+        ],
+        "gabarito": "Proteger a confidencialidade, integridade e disponibilidade das informações."
+    },
+    {
+        "id": 70,
+        "enunciado": "Em uma política de segurança da informação, qual é uma medida adequada a ser incluída no plano de contingência para lidar com incidentes de segurança?",
+        "alternativas": [
+            "Desligar imediatamente todos os sistemas de TI da organização.",
+            "Ignorar o incidente e não tomar nenhuma ação imediata.",
+            "Isolar imediatamente o sistema afetado da rede para evitar a propagação do incidente.",
+            "Solicitar aos funcionários que apaguem imediatamente todos os registros relacionados ao incidente.",
+            "Continuar normalmente as operações sem fazer qualquer alteração."
+        ],
+        "gabarito": "Isolar imediatamente o sistema afetado da rede para evitar a propagação do incidente."
+    },
+    {
+        "id": 71,
+        "enunciado": "Uma empresa de tecnologia está implementando novas políticas de segurança da informação para proteger seus dados e sistemas. A equipe de segurança está organizando uma sessão de treinamento para todos os funcionários, explicando os diferentes aspectos dessas políticas e a importância de cada uma. Qual das seguintes afirmações sobre políticas de segurança da informação está CORRETA?",
+        "alternativas": [
+            "As políticas de segurança da informação não precisam ser atualizadas regularmente, uma vez que os princípios básicos de segurança não mudam.",
+            "Políticas de segurança da informação são documentos exclusivamente técnicos que só precisam ser compreendidos pela equipe de TI.",
+            "Uma política de segurança da informação deve incluir diretrizes sobre controle de acesso, gerenciamento de incidentes e uso aceitável dos recursos da empresa.",
+            "Políticas de segurança da informação são recomendáveis, mas não essenciais para empresas que não lidam com dados sensíveis.",
+            "As políticas de segurança da informação focam apenas na proteção contra ameaças externas, como hackers e malwares."
+        ],
+        "gabarito": "Uma política de segurança da informação deve incluir diretrizes sobre controle de acesso, gerenciamento de incidentes e uso aceitável dos recursos da empresa."
+    },
+    {
+        "id": 72,
+        "enunciado": "Julgue o item seguinte, relativos à gestão de riscos e políticas de segurança da informação.\nAs políticas de segurança da informação dentro de uma organização podem ser apoiadas por políticas específicas por tema, as quais devem, por sua vez, ser alinhadas e complementares à política de segurança da informação da organização.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 73,
+        "enunciado": "Em relação a políticas de segurança da informação e a gerenciamento de projetos, julgue o item a seguir, conforme o PMBOK 7.ª edição.\nNo âmbito da política de segurança da informação (PSI) de determinada organização, recomenda-se que as políticas específicas por temas — tais como controle de acesso, segurança física e do ambiente e gestão de ativos — sejam alinhadas e complementares à PSI da organização.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 74,
+        "enunciado": "Uma organização permite que seus colaboradores trabalhem remotamente e está preocupada com a segurança das informações sensíveis acessadas através de dispositivos pessoais. Durante uma auditoria de segurança, o Auditor recomendou a emissão de uma política específica sobre trabalho remoto que defina as condições e restrições pertinentes, considerando, segundo a norma ABNT NBR ISO/IEC 27002:2022,",
+        "alternativas": [
+            "o uso de acesso remoto, como acesso a “desktop virtual”, que estabelece o tratamento e armazenamento adequado de informações em equipamentos de propriedade particular.",
+            "a proibição do uso de notebooks pessoais durante o trabalho remoto, permitindo apenas celulares particulares e equipamentos fornecidos empregador.",
+            "a implementação de uma política de mesa limpa que garanta que as informações confidenciais sejam descartadas corretamente.",
+            "exigir que os colaboradores armazenem todas as informações localmente em seus dispositivos para acessá-las offline.",
+            "solicitar que os colaboradores realizem backup manual dos dados confidenciais em dispositivos de armazenamento como HD externo ou pen drive."
+        ],
+        "gabarito": "o uso de acesso remoto, como acesso a “desktop virtual”, que estabelece o tratamento e armazenamento adequado de informações em equipamentos de propriedade particular."
+    },
+    {
+        "id": 75,
+        "enunciado": "Nos termos da Política Nacional de Segurança da Informação (PNSI), a competência para instituir o sistema de gestão de segurança da informação é do(a):",
+        "alternativas": [
+            "Gestor(a) de Segurança da Informação.",
+            "Alta Administração.",
+            "Comitê Gestor de Segurança da Informação.",
+            "Comitê Interno de Segurança da Informação.",
+            "Equipe de Prevenção, Tratamento e Resposta a Incidentes Cibernéticos."
+        ],
+        "gabarito": "Alta Administração."
+    },
+    {
+        "id": 76,
+        "enunciado": "A política de segurança da informação (PSI) é um conjunto de diretrizes e regras que uma organização estabelece para gerenciar e proteger seus ativos de informação.\nCom relação à política de segurança da informação (PSI), assinale com V as afirmativas verdadeiras e com F as falsas.\n( ) A PSI visa à confidencialidade, à integridade e à disponibilidade das informações.\n( ) A PSI aborda aspectos relacionados ao controle de acesso e gerenciamento de senhas.\n( ) A PSI inclui diretrizes sobre uso de criptografia e outros recursos de proteção de dados.\nAssinale a sequência correta.",
+        "alternativas": [
+            "V V V.",
+            "V F F.",
+            "F V V.",
+            "F F F."
+        ],
+        "gabarito": "V V V."
+    },
+    {
+        "id": 77,
+        "enunciado": "Com relação à manutenção das políticas de segurança da informação, analise as afirmativas a seguir.\nI. A revisão regular das políticas é importante para mantê‑las atualizadas e alinhadas com os objetivos da organização.\nII. Devem ser feitas auditorias para garantir que as políticas estejam sendo cumpridas e, caso não estejam, deve‑se alterar as políticas conforme estão sendo executadas.\nIII. A avaliação de riscos contínua permite identificar ameaças emergentes e, assim que identificados, as políticas devem ser ajustadas conforme necessário.\nEstão corretas as afirmativas",
+        "alternativas": [
+            "I e II, apenas.",
+            "I e III, apenas.",
+            "II e III, apenas.",
+            "I, II e III."
+        ],
+        "gabarito": "I e III, apenas."
+    },
+    {
+        "id": 78,
+        "enunciado": "Com relação à implantação da política de controle de criptografia para proteção da informação, marcar C para as afirmativas Certas, E para as Erradas e, após, assinalar a alternativa que apresenta a sequência CORRETA:\n(_) Convém que sejam consideradas a abordagem da Direção quanto ao uso de controles criptográficos em toda a organização, incluindo os princípios gerais sob os quais as informações de negócio sejam protegidas.\n(_) Convém que sejam consideradas o uso de criptografia para a proteção de informações sensíveis transportadas em dispositivos móveis, mídias removíveis ou através de linhas de comunicação.\n(_) Convém que sejam considerados o impacto do uso de informações cifradas em controles que dependem da inspeção de conteúdo (por exemplo, detecção de malware).",
+        "alternativas": [
+            "C – C – C.",
+            "C – C – E.",
+            "C – E – E.",
+            "E – C – E.",
+            "E – E – E."
+        ],
+        "gabarito": "C – C – C."
+    },
+    {
+        "id": 79,
+        "enunciado": "A política de segurança de uma organização prevê as bases da garantia de segurança de informação. Neste contexto, é INCORRETO afirmar que um dos conjuntos de elementos que compõem uma política de segurança são:",
+        "alternativas": [
+            "as normas.",
+            "as diretrizes.",
+            "os procedimentos.",
+            "os recursos humanos.",
+            "os baselines."
+        ],
+        "gabarito": "os recursos humanos."
+    },
+    {
+        "id": 80,
+        "enunciado": "Observe as afirmativas a seguir, em relação às funções básicas de uma Política de Segurança em organizações.\nI. A Política de Segurança deve deixar claro o que deve ser protegido e por quê.\nII. A Política de Segurança deve explicitar quem é responsável pela proteção.\nIII. A Política de Segurança deve funcionar como referência para problemas que possam surgir.\nDas afirmativas acima:",
+        "alternativas": [
+            "apenas I está correta.",
+            "apenas II está correta.",
+            "apenas I e II estão corretas.",
+            "apenas II e III estão corretas.",
+            "todas estão corretas."
+        ],
+        "gabarito": "todas estão corretas."
+    },
+    {
+        "id": 81,
+        "enunciado": "Na criação de uma Política de Segurança da Informação, as diretrizes são definidas pelo(s):",
+        "alternativas": [
+            "Nível tático.",
+            "Nível operacional.",
+            "Nível estratégico.",
+            "Níveis estratégico e operacional.",
+            "Níveis estratégico, tático e operacional."
+        ],
+        "gabarito": "Nível estratégico."
+    },
+    {
+        "id": 82,
+        "enunciado": "A política de segurança é um mecanismo preventivo de proteção dos dados; contém a definição de processos importantes de uma organização que define um padrão de segurança a ser seguido pelo corpo técnico e gerencial e pelos usuários, internos ou externos da organização.\n(DIAS, C.; Segurança e auditoria da tecnologia da informação. Ed. Axcel Books, 2000.) Considerando que uma política de segurança possui alguns componentes, marque V para as afirmativas verdadeiras e F para as falsas.\n( ) Guias para a compra de tecnologia computacional que especifiquem os requisitos ou características que os produtos devem possuir.\n( ) Política de privacidade que define as expectativas de privacidade relacionadas a aspectos como: a monitoração de correio eletrônico; logs de atividades; e, acesso aos arquivos dos usuários.\n( ) Política de contabilidade que define as responsabilidades dos usuários, especificando a capacidade de auditoria e as diretrizes no caso de incidentes.\n( ) Política de autenticação que deve estabelecer confiança através de uma política efetiva de senhas; diretrizes para autenticação de acessos remotos; e, uso de dispositivos de autenticação.\n( ) Não é necessário fornecer contatos para que os usuários possam comunicar violações, apenas definir diretrizes que os usuários devem seguir para gerenciar consultas externas relacionados a um incidente de segurança, ou informação considerada confidencial ou proprietária.\nA sequência está correta em",
+        "alternativas": [
+            "F, F, F, V, V.",
+            "V, V, F, F, F.",
+            "V, V, V, V, F.",
+            "F, F, V, F, V."
+        ],
+        "gabarito": "V, V, V, V, F."
+    },
+    {
+        "id": 83,
+        "enunciado": "Segundo a Norma ISO/IEC 27002, segurança da informação é definida como sendo a preservação da confidencialidade, da integridade e da disponibilidade da informação. Considerando os conceitos abordados nesta normativa, assinale a afirmativa correta.",
+        "alternativas": [
+            "Integridade: pode ser definida como a garantia de que as informações serão acessadas apenas pelas pessoas que têm autorização para acessá-las.",
+            "Confidencialidade: garantia de que as informações estarão disponíveis para serem acessadas pelas pessoas que têm autorização para vê-las quando forem necessárias.",
+            "Política de Segurança da Informação: deve expressar informalmente as intenções e diretrizes setoriais da direção da organização no sentido de promover a preservação da confidencialidade; da integridade; e, da disponibilidade da informação.",
+            "Política de Segurança da Informação: documento que tem como objetivo mostrar a orientação e o apoio da direção da organização para a segurança da informação de acordo com os requisitos do negócio e com as leis e regulamentações pertinentes."
+        ],
+        "gabarito": "Política de Segurança da Informação: documento que tem como objetivo mostrar a orientação e o apoio da direção da organização para a segurança da informação de acordo com os requisitos do negócio e com as leis e regulamentações pertinentes."
+    },
+    {
+        "id": 84,
+        "enunciado": "O documento que fornece diretrizes base, as quais permitem que a empresa e seus usuários ajam de forma a manter a integridade, a confidencialidade e a disponibilidade das informações denomina-se",
+        "alternativas": [
+            "VPN.",
+            "estilo de programação.",
+            "documentação de APIs.",
+            "funções Lambda.",
+            "política de segurança da informação."
+        ],
+        "gabarito": "política de segurança da informação."
+    },
+    {
+        "id": 85,
+        "enunciado": "Políticas de segurança definem os direitos e as responsabilidades de cada um em relação à segurança dos recursos computacionais que utiliza e as penalidades às quais está sujeito, caso não as cumpram (Cartilha de Segurança da Internet,. Sobre os tipos de políticas de segurança, marque V para as afirmativas verdadeiras e F para as falsas.\n( ) Política de confidencialidade: não define como são tratadas as informações institucionais, ou seja, se elas podem ser repassadas a terceiros.\n( ) Política de senhas: define as regras sobre o uso de senhas nos recursos computacionais, como tamanho mínimo e máximo, regra de formação e periodicidade de troca.\n( ) Política de privacidade: define como são tratadas as informações pessoais, sejam elas de clientes, usuários ou funcionários.\n( ) Política de uso aceitável: não define as regras de uso dos recursos computacionais, os direitos e as responsabilidades de quem os utiliza e as situações que são consideradas abusivas.\n( ) Política de backup: define as regras sobre a realização de cópias de segurança, como tipo de mídia utilizada, período de retenção e frequência de execução.\nA sequência está correta em",
+        "alternativas": [
+            "F, F, F, F, F.",
+            "F, V, V, F, V.",
+            "F, V, F, V, F.",
+            "V, F, F, V, F.",
+            "V, V, V, V, V."
+        ],
+        "gabarito": "F, V, V, F, V."
+    },
+    {
+        "id": 86,
+        "enunciado": "Segundo a norma ABNT NBR ISO/IEC 27001:2013, quem deve estabelecer a política de segurança da informação, atribuir responsabilidades e autoridade para assegurar que o Sistema de Gestão da Segurança da Informação (SGSI) esteja em conformidade com os requisitos dessa norma e, ainda, relatar sobre o desempenho do sistema de gestão da segurança da informação é",
+        "alternativas": [
+            "o setor de Qualidade.",
+            "a área de Infraestrutura.",
+            "a área de Tecnologia da Informação.",
+            "a Alta Direção.",
+            "a área de Compliance."
+        ],
+        "gabarito": "a Alta Direção."
+    },
+    {
+        "id": 87,
+        "enunciado": "Julgue o próximo item, relativo a segurança da informação no gerenciamento de projetos, segurança em recursos humanos, gestão de incidentes de segurança da informação e a aspectos pertinentes à segurança da informação na gestão da continuidade do negócio.\nNo gerenciamento de projetos da organização, convém que as responsabilidades pela segurança da informação sejam definidas e alocadas para papéis específicos definidos por meio dos métodos de gerenciamento de projeto.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 88,
+        "enunciado": "A respeito de segurança da informação, julgue o seguinte item.\nA política de segurança da informação é um documento formal aprovado pela alta gestão da organização e no qual ela declara o seu comprometimento no apoio às metas e aos princípios da segurança da informação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 89,
+        "enunciado": "Na empresa XX, os funcionários do departamento de engenharia têm acesso de leitura e execução para cada objeto armazenado no diretório “orçamentos” e direito de escrita apenas no diretório “projetos”.\nA política de segurança da informação adotada pela empresa XX está relacionada ao princípio da:",
+        "alternativas": [
+            "auditabilidade;",
+            "disponibilidade;",
+            "autenticidade;",
+            "confidencialidade;",
+            "privacidade."
+        ],
+        "gabarito": "confidencialidade;"
+    },
+    {
+        "id": 90,
+        "enunciado": "Uma das formas de assegurar a proteção da informação é através de uma Política de Segurança da Informação. Possui como objetivo prover orientação e apoio a todos os ativos da organização, de acordo com os requisitos de negócio e com as leis regulamentadoras pertinentes. Sobre a Segurança da Informação, analise as afirmativas a seguir.\nI. Ao interconectar redes públicas e privadas, o acesso aos recursos de informações compartilhados aumenta a dificuldade de se controlar. Instalar e utilizar antivírus é uma forma de ação preventiva que pode eliminar completamente a insegurança de ataques à rede.\nII. Uma Política de Segurança da Informação é adquirida a partir da implementação de controles adequados. Os recursos e as instalações de processamento de informações devem ser mantidos em áreas seguras, incluindo políticas segurança, procedimentos, estruturas organizacionais e funções de software e hardware com barreiras de segurança apropriadas e controle de acesso.\nIII. Uma Política de Segurança da Informação é um manual de procedimentos que atribuem controles de segurança que precisam ser estabelecidos, implementados, monitorados e analisados para garantir que os objetivos do negócio sejam atendidos. Caso não existam regras preestabelecidas, a segurança se tornará inconsistente.\nIV. Uma Política de Segurança da Informação bem estruturada com procedimentos de controle adequados é importante para os negócios, tanto do setor público quanto do setor privado para proteger as infraestruturas críticas.\nEstá correto o que se afirma apenas em",
+        "alternativas": [
+            "I e III.",
+            "III e IV.",
+            "I, II e IV.",
+            "II, III e IV."
+        ],
+        "gabarito": "II, III e IV."
+    },
+    {
+        "id": 91,
+        "enunciado": "A norma ABNT 27001 estabelece alguns princípios a serem seguidos com respeito à política de segurança da informação, sendo correto que a norma estabelece que essa política",
+        "alternativas": [
+            "não necessita ser transmitida à equipe técnica da empresa.",
+            "não tem ligação com os sistemas de informação da empresa.",
+            "não necessita se adequar aos propósitos gerais de organização da empresa.",
+            "deve estar disponível como informação documentada.",
+            "deve ser restrita à alta direção da empresa."
+        ],
+        "gabarito": "deve estar disponível como informação documentada."
+    },
+    {
+        "id": 92,
+        "enunciado": "O objetivo das políticas de segurança é a prevenção e pode conter outras políticas específicas, nesse contexto, assinale a assertiva que apresenta a política de segurança que define como são tratadas as informações pessoais, sejam elas de clientes, usuários ou funcionários.",
+        "alternativas": [
+            "Política de Privacidade.",
+            "Política de Senhas.",
+            "Política de Backup.",
+            "Política de Confidencialidade."
+        ],
+        "gabarito": "Política de Privacidade."
+    },
+    {
+        "id": 93,
+        "enunciado": "Julgue o item que se segue, relativo à política de segurança da informação, segundo a NBR ISO/IEC 27001:2013.\nA política de segurança da informação somente deve ser comunicada dentro da organização quando for apropriado.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 94,
+        "enunciado": "Julgue o item que se segue, relativo à política de segurança da informação, segundo a NBR ISO/IEC 27001:2013.\nA política de segurança da informação deve estar disponível como referência aberta para consulta fora da organização.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 95,
+        "enunciado": "A Política de Segurança da Informação (PSI) pode ser compreendida como um documento que reúne um conjunto de ações, técnicas e boas práticas para o uso seguro dos ativos de tecnologia da informação. Um termo relacionado à política de segurança da informação é",
+        "alternativas": [
+            "“incidente” - evento inesperado capaz de trazer danos à propriedade e/ou comprometer a segurança da informação.",
+            "“ameaça” - fator interno ou externo que vai ao encontro do conjunto de normas, técnicas e procedimentos definidos por uma organização.",
+            "“risco” - ação que explora uma vulnerabilidade para comprometer a segurança de um sistema de informação.",
+            "“vulnerabilidade” - probabilidade de uma ação ou omissão destruir a informação, de modo intencional ou não, e suas consequências."
+        ],
+        "gabarito": "“incidente” - evento inesperado capaz de trazer danos à propriedade e/ou comprometer a segurança da informação."
+    },
+    {
+        "id": 96,
+        "enunciado": "Conforme Baltzan (2, as políticas de segurança da informação são divididas em diversas categorias. Qual a categoria em que devem ser informados todos os mecanismos adotados pela empresa contra ciberataques, como firewall, criptografia, controles de acessos, backups, auditorias, Big Data Analytic?",
+        "alternativas": [
+            "Logística da implementação da TI.",
+            "Tecnologia de defesas.",
+            "Responsabilidades da TI.",
+            "Responsabilidades dos colaboradores.",
+            "Política de treinamentos aos colaboradores."
+        ],
+        "gabarito": "Tecnologia de defesas."
+    },
+    {
+        "id": 97,
+        "enunciado": "De acordo com a norma ABNT NBR ISO/IEC 27002:2013, convém que as políticas de segurança da informação contemplem requisitos oriundos de",
+        "alternativas": [
+            "lições aprendidas, experiências externas e literatura especializada.",
+            "normas internacionais, especialmente as da família ISO 27000.",
+            "estratégias do negócio, regulamentações, legislação e contratos.",
+            "melhores práticas de segurança da informação e de análise de riscos.",
+            "histórico de configurações de ativos de rede e de sistemas."
+        ],
+        "gabarito": "estratégias do negócio, regulamentações, legislação e contratos."
+    },
+    {
+        "id": 98,
+        "enunciado": "Julgue o item a seguir, com base na NBR ISO/IEC 27002.\nO documento de política de segurança da informação tem como diretriz de implementação a necessidade de a direção da organização emitir uma declaração de comprometimento, que deve ser previamente registrada em órgão competente e anexada à política de segurança da informação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 99,
+        "enunciado": "Sobre a Política de Segurança da Informação em uma organização, analise as assertivas abaixo, assinalando V, se verdadeiras, ou F, se falsas.\n( ) As diretrizes da Política de Segurança da Informação são definidas pelo nível operacional.\n( ) A segurança da informação é alcançada com a implementação de um conjunto adequado de controles, incluindo políticas, processos, procedimentos, estrutura organizacional e funções de software e hardware.\n( ) A Política de Segurança da Informação possui caráter abrangente e atende a todos os níveis organizacionais.\nA ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+        "alternativas": [
+            "F – V – V.",
+            "F – V – F.",
+            "F – F – V.",
+            "V – V – F.",
+            "V – F – V."
+        ],
+        "gabarito": "F – V – V."
+    },
+    {
+        "id": 100,
+        "enunciado": "A respeito da Política de Segurança da Informação (POSIN), julgue o item a seguir.\nUma POSIN deve estar em conformidade com a legislação vigente, com as normas pertinentes, com os requisitos regulamentares e contratuais e com as melhores práticas de segurança da informação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 101,
+        "enunciado": "A respeito da Política de Segurança da Informação (POSIN), julgue o item a seguir.\nCompetências e responsabilidades, apesar de serem importantes, não devem constar da POSIN, pois sua definição é restrita à alta administração da organização.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 102,
+        "enunciado": "Julgue o item a seguir, relativo a arquitetura de sistemas operacionais e a servidores físicos.\nOs pilares formantes da segurança de servidores físicos são norteados pelas seguintes políticas de segurança: física, contra indisponibilidade, ambiental e lógica.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 103,
+        "enunciado": "A elaboração de uma política de segurança da informação deve ser difundida a partir do nível...I... e tem como último estágio providências relativas à...II...\nPreenche, correta e respectivamente, as lacunas I e II:",
+        "alternativas": [
+            "geral - finalização.",
+            "estrutural - distribuição.",
+            "tático - distribuição.",
+            "operacional - disponibilização.",
+            "estratégico - disponibilização."
+        ],
+        "gabarito": "estratégico - disponibilização."
+    },
+    {
+        "id": 104,
+        "enunciado": "Qual das seguintes opções não é uma política de segurança de TI comum?",
+        "alternativas": [
+            "Controle de acesso.",
+            "Backup e recuperação de dados.",
+            "Gerenciamento de patches.",
+            "Prevenção e investigação dos crimes contra a vida.",
+            "Criptografia de dados."
+        ],
+        "gabarito": "Prevenção e investigação dos crimes contra a vida."
+    },
+    {
+        "id": 105,
+        "enunciado": "O que é uma política de descarte seguro de informações?",
+        "alternativas": [
+            "Uma política que proíbe o compartilhamento de in formações confidenciais dentro da organização.",
+            "Uma prática que incentiva os funcionários a manter todas as informações em seus computadores pessoais.",
+            "Um conjunto de regras para destruir ou remover informações confidenciais de forma segura.",
+            "Uma política que exige que todas as informações sejam armazenadas em servidores externos.",
+            "Uma prática para restringir o acesso a informações confidenciais apenas aos administradores do sistema."
+        ],
+        "gabarito": "Um conjunto de regras para destruir ou remover informações confidenciais de forma segura."
+    },
+    {
+        "id": 106,
+        "enunciado": "De acordo com a Norma NBR ISO/IEC n.º 27002, na definição de políticas de segurança da organização, devem ser contemplados requisitos oriundos",
+        "alternativas": [
+            "dos padrões aplicados por organizações concorrentes.",
+            "da infraestrutura tecnológica organizacional.",
+            "dos sistemas de informação desenvolvidos na organização.",
+            "das boas práticas de segurança orgânica da empresa.",
+            "da legislação vigente, das regulamentações e dos contratos."
+        ],
+        "gabarito": "da legislação vigente, das regulamentações e dos contratos."
+    },
+    {
+        "id": 107,
+        "enunciado": "As políticas de segurança da informação devem ser revisadas em intervalos planejados ou se ocorrerem mudanças significativas a fim de assegurar sua contínua conformidade, adequação e eficácia, é o que estabelece a ISO",
+        "alternativas": [
+            "27001:2005.",
+            "27001:2013.",
+            "27002:2013.",
+            "27003.",
+            "27005."
+        ],
+        "gabarito": "27002:2013."
+    },
+    {
+        "id": 108,
+        "enunciado": "Acerca de MFA, julgue o item a seguir.\nSoluções de MFA com dependências externas aos sistemas incluem o risco de introduzir vulnerabilidades de segurança passíveis de exploração por atacantes.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 109,
+        "enunciado": "A respeito de políticas de segurança da informação, julgue o item seguinte, considerando as normas ISO 31000 e ISO 27002.\nDe acordo com a ISO 27002, no desenvolvimento de uma política para criptografia, o nível de proteção criptográfica requerido pela organização será identificado com base em uma avaliação de risco.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 110,
+        "enunciado": "A respeito de políticas de segurança da informação, julgue o item seguinte, considerando as normas ISO 31000 e ISO 27002.\nSegundo a ISO 27002, as políticas de segurança da informação devem garantir a estabilidade organizacional, impedindo mudanças no ambiente de gestão e de tecnologia, por meio da análise crítica, e definindo por seus termos as circunstâncias do negócio.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 111,
+        "enunciado": "No que se refere à gestão de identidade e acesso, DLP e gestão de vulnerabilidades, julgue o item a seguir.\nNa técnica de DLP denominada keyword matching, assinaturas exclusivas são definidas para os arquivos classificados como sensíveis e os processos de saída de dados da rede ou dos computadores são verificados em busca de assinaturas correspondentes.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 112,
+        "enunciado": "Acerca de gestão de segurança da informação, julgue o item a seguir, considerando a NBR ISO/IEC 27001:2013 e a NBR ISO/IEC 27002:2013.\nUma política de uso aceitável dos ativos de informação, subsidiária à política de segurança da informação, estabelece requisitos e regras de segurança da informação para acesso a esses ativos, bem como a responsabilização decorrente de seu uso.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 113,
+        "enunciado": "Com base na norma ABNT NBR ISO/IEC 27002, julgue o item subsequente.\nO documento de política de segurança da informação deve ser aprovado pela alta direção da organização e ser parte integrante do documento de planejamento estratégico organizacional.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 114,
+        "enunciado": "Com base na norma ABNT NBR ISO/IEC 27002, julgue o item subsequente.\nA análise crítica da política de segurança da informação, realizada em intervalos regulares, deve fornecer como uma das saídas as recomendações fornecidas por autoridades relevantes.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 115,
+        "enunciado": "Acerca de aspectos diversos pertinentes a objetos de avaliação associados a segurança da informação, julgue o item seguinte.\nConsiderando que, em determinada empresa de telefonia, a política de segurança contempla um conjunto de regras e diretrizes com o intuito de proteger as informações e os ativos da empresa, definindo normas/técnicas e melhores práticas para assegurar a autenticidade, legalidade, integridade, disponibilidade e confidencialidade da informação, é correto afirmar que, nessa situação, para assegurar confiabilidade, todas as informações da telefonia: custos, gastos de áreas, contestações, auditoria, rateio de custos, uso fora do horário e principais ofensores devem estar protegidas de acordo com o grau de sigilo necessário, com limitações de acesso estabelecidas por meio de perfis de acesso.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 116,
+        "enunciado": "Você é responsável pela elaboração de uma política de segurança que trata especificamente sobre o uso adequado de equipamentos corporativos de TIC. Como responsável pela elaboração do documento, você também deve ter conhecimento sobre as práticas corretas em relação à política. Assinale a alternativa que possui uma ação correta em relação à Política de Segurança, de acordo com as melhores práticas de mercado.",
+        "alternativas": [
+            "A divulgação da política deve partir das equipes técnicas da segurança que elaboraram o documento.",
+            "É um documento que, por questões óbvias de segurança, não deve ser divulgado amplamente na empresa.",
+            "Por ser um documento interno, deve atender unicamente os interesses da organização.",
+            "Deve ser revisada e atualizada frequentemente, de preferência semanalmente.",
+            "O documento deve abordar o que é permitido ou o que não é permitido fazer, mas não como fazer."
+        ],
+        "gabarito": "O documento deve abordar o que é permitido ou o que não é permitido fazer, mas não como fazer."
+    },
+    {
+        "id": 117,
+        "enunciado": "Você é o analista responsável pela gestão do sistema de e-mail da SEAD-GO e percebe que os servidores utilizam a rede wifi para enviar e ler o seu e-mail privado e navegar na internet. Em termos legais, de que melhor forma o uso da internet e das facilidades do e-mail pode ser regulamentado?",
+        "alternativas": [
+            "Instalando uma aplicação que torna certos websites não mais acessíveis e que filtra anexos em e-mails.",
+            "Instalando um antispyware.",
+            "Desenvolvendo regras para impedir o acesso a esses recursos.",
+            "Instalando um utilitário para limpar arquivos indesejados e entradas inválidas.",
+            "Implementando um código de conduta que estabeleça a forma de utilização do e-mail e da internet e que defina todos os direitos e as obrigações."
+        ],
+        "gabarito": "Implementando um código de conduta que estabeleça a forma de utilização do e-mail e da internet e que defina todos os direitos e as obrigações."
+    },
+    {
+        "id": 118,
+        "enunciado": "A política de segurança de informações de uma empresa possui diversas ligações e relacionamentos com outras políticas e planos da empresa, sendo correto afirmar que a política de segurança da informação",
+        "alternativas": [
+            "tem sua implementação independente do apoio da gerência e diretoria da empresa.",
+            "não tem impacto sobre o plano de continuidade de serviços.",
+            "é influenciada e definida pelo plano estratégico de informática.",
+            "não deve ser divulgada aos funcionários envolvidos com a tecnologia da informação.",
+            "não se aplica a sistemas de pequeno e médio porte."
+        ],
+        "gabarito": "é influenciada e definida pelo plano estratégico de informática."
+    },
+    {
+        "id": 119,
+        "enunciado": "A opção que a norma ISO/IEC 27001 lista como uma tarefa que cabe à alta direção, dentro de um Sistema de Gestão de Segurança da Informação (SGSI), é",
+        "alternativas": [
+            "criar e atualizar informação documentada.",
+            "identificar os riscos de segurança da organização.",
+            "estabelecer uma política de segurança da informação que seja apropriada ao propósito da organização.",
+            "definir os critérios e o escopo das auditorias internas.",
+            "estabelecer os objetivos de segurança da informação para as funções e níveis relevantes."
+        ],
+        "gabarito": "estabelecer uma política de segurança da informação que seja apropriada ao propósito da organização."
+    },
+    {
+        "id": 120,
+        "enunciado": "Julgue o item, relativo às NBR ISO/IEC 27001:2013 e 27002:2013, que versam sobre a gestão de segurança da informação.\nPara controlar o acesso aos ativos de informação, é conveniente que os requisitos comerciais de controle de acesso da organização sejam claramente documentados em uma política e nos procedimentos de controle de acesso.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 121,
+        "enunciado": "Julgue o item, relativo às NBR ISO/IEC 27001:2013 e 27002:2013, que versam sobre a gestão de segurança da informação.\nNo nível superior da organização, deve existir uma política de segurança da informação generalizada, conforme especificado na ISO/IEC 27001:2013.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 122,
+        "enunciado": "Segundo a norma ABNT NBR ISO/IEC 27001:2013, quem deve estabelecer uma política de segurança da informação que seja apropriada ao propósito da organização é:",
+        "alternativas": [
+            "Área de Tecnologia da Informação.",
+            "Área de Qualidade.",
+            "Alta Direção.",
+            "Gerência de Projetos.",
+            "Chief Information Officer (CIO)."
+        ],
+        "gabarito": "Alta Direção."
+    },
+    {
+        "id": 123,
+        "enunciado": "Sobre a Análise crítica da política de segurança da informação, assinale a alternativa correta.",
+        "alternativas": [
+            "Uma vez implantada, a política de segurança da informação não necessita ser novamente analisada criticamente a intervalos planejados apenas quando mudanças significativas ocorrerem.",
+            "Convém que a análise crítica da política de segurança da informação leve em consideração os resultados da análise crítica pela direção.",
+            "Não há necessidade de que sejam definidos procedimentos para análise crítica pela direção, apenas pela equipe de TI.",
+            "Um registro da análise crítica pela direção é opcional, ficando esse registro a critério da equipe de TI."
+        ],
+        "gabarito": "Convém que a análise crítica da política de segurança da informação leve em consideração os resultados da análise crítica pela direção."
+    },
+    {
+        "id": 124,
+        "enunciado": "Julgue o item a seguir, a respeito de políticas de segurança da informação, segurança de redes de computadores e prevenção e tratamento de incidentes.\nA NBR ISO/IEC 27002 recomenda que a análise crítica da política de segurança da informação seja focada em responder diretamente aos investimentos e ao reconhecimento organizacional em relação ao valor da segurança da informação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 125,
+        "enunciado": "A respeito da política de segurança da informação (PSI), assinale a opção correta.",
+        "alternativas": [
+            "Acordos, contratos, convênios e outros instrumentos congêneres celebrados por empresas que adotam políticas de segurança da informação não necessariamente têm de estar de acordo com a PSI.",
+            "A PSI deve ser avaliada periodicamente, a fim de garantir o cumprimento dos requisitos de segurança da informação e o respeito à cláusula de responsabilidade e sigilo.",
+            "A PSI não pode conter informações dos tipos de bloqueio e restrições a sites e acesso à Internet.",
+            "A PSI é um documento restrito e acessível somente à alta direção das organizações, a qual o acessa para nortear suas ações."
+        ],
+        "gabarito": "A PSI deve ser avaliada periodicamente, a fim de garantir o cumprimento dos requisitos de segurança da informação e o respeito à cláusula de responsabilidade e sigilo."
+    },
+    {
+        "id": 126,
+        "enunciado": "Na elaboração de políticas, diretrizes e procedimentos de segurança da informação, é correto",
+        "alternativas": [
+            "assegurar que as contínuas avaliações de riscos de segurança da informação produzam resultados únicos, não comparáveis, válidos e consistentes.",
+            "estabelecer e manter critérios de aceitação do risco, de acordo com os padrões mundiais, independentemente do tipo da cultura da empresa.",
+            "realizar o processo de avaliação do risco de segurança da informação para identificar os riscos associados à perda de confidencialidade, integridade e disponibilidade da informação.",
+            "avaliar a probabilidade realística da ocorrência dos riscos não identificados."
+        ],
+        "gabarito": "realizar o processo de avaliação do risco de segurança da informação para identificar os riscos associados à perda de confidencialidade, integridade e disponibilidade da informação."
+    },
+    {
+        "id": 127,
+        "enunciado": "A respeito de tecnologias, arquitetura e gestão de data center e de ambientes de missão crítica, julgue o item subsequente.\nA redundância dos dados exige que os dados sejam precisos, o que significa que a entrada de dados deve estar correta, as alterações nos dados devem ser registradas e os dados devem ser armazenados de forma segura e confiável para que não possam ser alterados sem autorização.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 128,
+        "enunciado": "Analise as afirmativas abaixo com relação a ABNT-NBR-17799.\n1. A Política de segurança da informação tem como objetivo prover uma orientação e apoio da direção para a segurança da informação de acordo com os requisitos do negócio e com as leis e regulamentações relevantes.\n2. Convém que o documento da política de segurança da informação declare o comprometimento da direção e estabeleça o enfoque da organização para gerenciar a segurança da informação.\n3. Convém que a política de segurança da informação seja analisada criticamente a intervalos planejados ou quando mudanças significativas ocorrerem, para assegurar a sua contínua pertinência, adequação e eficácia.\nAssinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "É correta apenas a afirmativa 1.",
+            "É correta apenas a afirmativa 2.",
+            "São corretas apenas as afirmativas 1 e 2.",
+            "São corretas apenas as afirmativas 2 e 3.",
+            "São corretas as afirmativas 1, 2 e 3."
+        ],
+        "gabarito": "São corretas as afirmativas 1, 2 e 3."
+    },
+    {
+        "id": 129,
+        "enunciado": "Analise as afirmativas abaixo com relação à segurança da informação.\n1. Uma Política de Segurança da Informação tem como objetivo prover orientação da Direção e apoio para a segurança da informação de acordo com os requisitos do negócio e com as leis e regulamentações relevantes.\n2. A gestão da continuidade de negócios apresenta somente medidas de recuperação, com o objetivo de impedir a indisponibilidade de serviços e atividades do negócio, protegendo,assim, os processos críticos contra impactos causados por falhas ou desastres e, no caso de perdas, prover a recuperação dos ativos envolvidos e restabelecer o funcionamento normal da organização em um intervalo de tempo aceitável.\n3. A gestão de incidentes de segurança da informação engloba a definição de responsabilidades e procedimentos efetivos para o controle de eventos adversos (incidentes) após a notificação. Sendo assim, a gestão de incidentes envolve procedimentos para a notificação de eventos adversos de segurança e aplicação de medidas adequadas para sua resolução.\nAssinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "É correta apenas a afirmativa 2.",
+            "É correta apenas a afirmativa 3.",
+            "São corretas apenas as afirmativas 1 e 2.",
+            "São corretas apenas as afirmativas 1 e 3.",
+            "São corretas apenas as afirmativas 2 e 3."
+        ],
+        "gabarito": "São corretas apenas as afirmativas 1 e 3."
+    },
+    {
+        "id": 130,
+        "enunciado": "Segundo a NBR-ISO/IEC 27002, no que se refere à política de segurança da informação, NÃO é exemplo de política específica do tema de tópicos orientados aos usuários finais:",
+        "alternativas": [
+            "Mesa limpa e tela limpa.",
+            "Regulamentações, legislação e contratos.",
+            "Uso aceitável dos ativos.",
+            "Dispositivos móveis e trabalho remoto.",
+            "Restrições sobre o uso e instalação de software."
+        ],
+        "gabarito": "Regulamentações, legislação e contratos."
+    },
+    {
+        "id": 131,
+        "enunciado": "Políticas são requisitos que especificam como determinado acesso é gerenciado e quem, sob circunstâncias definidas, pode acessar tais informações. Utilizada para controle de acesso, a classe de política que limita o acesso a recursos de um sistema com base na função do indivíduo dentro de uma organização é denominada",
+        "alternativas": [
+            "controle de acesso baseado em papéis.",
+            "controle de acesso obrigatório.",
+            "controle de acesso discricionário.",
+            "controle de acesso opcional.",
+            "controle de acesso flexível."
+        ],
+        "gabarito": "controle de acesso baseado em papéis."
+    },
+    {
+        "id": 132,
+        "enunciado": "De acordo com a Norma ISO/IEC 27.001/2013, “a organização deve estabelecer os objetivos de segurança da informação para funções e níveis relevantes”.\nConsiderando a Política de Segurança da Informação, e em conformidade com a norma apresentada, os objetivos devem ser:",
+        "alternativas": [
+            "Adequados.",
+            "Controlados.",
+            "Comunicados.",
+            "Documentados."
+        ],
+        "gabarito": "Comunicados."
+    },
+    {
+        "id": 133,
+        "enunciado": "De acordo com a Norma ISO/IEC 27.002/2013, que dispõe sobre Tecnologia da informação; Técnicas de segurança; Sistemas de Gestão da Segurança da Informação; e, Requisitos, “as políticas de segurança da informação devem passar por uma revisão sempre que houver alterações significativas ou por períodos planejados, de modo que se assegure a contínua conformidade, adequação e eficácia”. Considerando tal legislação, a política de segurança da informação deve, EXCETO:",
+        "alternativas": [
+            "Ser comunicada dentro da organização.",
+            "Estar disponível como informação documentada.",
+            "Ser publicada em todos os canais de comunicação da instituição.",
+            "Estar disponível para as partes interessadas, conforme apropriado."
+        ],
+        "gabarito": "Ser publicada em todos os canais de comunicação da instituição."
+    },
+    {
+        "id": 134,
+        "enunciado": "Para que uma política de segurança se torne apropriada e efetiva, ela deve ter a aceitação e o suporte de todos os níveis de empregados dentro da organização. É especialmente importante que a gerência corporativa suporte de forma completa o processo da política de segurança, caso contrário, haverá pouca chance dela ter o impacto desejado. Nesse sentido, é correto afirmar que o principal propósito de uma política de segurança é",
+        "alternativas": [
+            "informar aos usuários, equipes, gerentes, diretores e presidência suas obrigações para a proteção da tecnologia e do acesso à informação.",
+            "ser exigida com ferramentas de segurança, apenas em níveis operacionais, e com sanções onde a prevenção efetiva não seja tecnicamente possível.",
+            "estabelecer confiança através de uma política de senhas criptografadas, autenticação de acesso remoto e o uso de dispositivos de autenticação.",
+            "manter-se independente de hardware e softwares específicos, onde os mecanismos para a atualização da política devem estar claros, incluindo processos e as pessoas da organização envolvida."
+        ],
+        "gabarito": "informar aos usuários, equipes, gerentes, diretores e presidência suas obrigações para a proteção da tecnologia e do acesso à informação."
+    },
+    {
+        "id": 135,
+        "enunciado": "Em qual dos instrumentos abaixo poderiam ser encontradas regras gerais a respeito da concessão de perfis de acesso a sistemas informatizados e instalações de uma determinada organização?",
+        "alternativas": [
+            "formulário de referência.",
+            "política de divulgação de informações.",
+            "política de segurança da informação.",
+            "política de pessoal.",
+            "carta anual de governança corporativa."
+        ],
+        "gabarito": "política de segurança da informação."
+    },
+    {
+        "id": 136,
+        "enunciado": "Considerando as disposições das normas ISO 27001, ISO 27002 e NBR ISO/IEC 27005, julgue o item a seguir.\nÉ importante que a análise crítica de uma política de segurança da informação tenha um enfoque no gerenciamento da segurança da informação em resposta às mudanças das condições legais e das circunstâncias do negócio.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 137,
+        "enunciado": "A respeito de processos de definição, implantação e gestão de políticas de segurança e auditoria, julgue o item subsequente.\nAssegurar os recursos necessários para a gestão da política de segurança da organização é atribuição da alta direção, como forma de demonstrar comprometimento e liderança.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 138,
+        "enunciado": "A respeito de processos de definição, implantação e gestão de políticas de segurança e auditoria, julgue o item subsequente.\nEm uma organização, a alta direção deve estabelecer uma política de segurança da informação, independentemente de esta ser apropriada ou não ao propósito da organização, para que existam controles e ações que diminuam os riscos de segurança da informação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 139,
+        "enunciado": "Julgue o próximo item, relativo às políticas de segurança da informação.\nEm uma organização, o planejamento para a implementação de mecanismos de segurança deverá ter início com a definição dos requisitos de disponibilidade e integridade e concluir-se com a elaboração das políticas de segurança.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 140,
+        "enunciado": "Julgue o próximo item, relativo às políticas de segurança da informação.\nAo desenvolver as políticas de segurança de uma organização, o gerente deverá considerar, além do valor dos ativos a ser protegidos, a relação entre os custos de segurança e os custos de falha e recuperação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 141,
+        "enunciado": "Acerca das NBR ISO/IEC 27001, 27002 e 27005 e plano de continuidade de negócios, julgue o item a seguir.\nA análise crítica de políticas de segurança da informação deve apoiar o gerenciamento da segurança da informação propondo melhorias na política de segurança da informação em resposta às mudanças no ambiente organizacional, nas circunstâncias do negócio, nas condições legais ou no ambiente de tecnologia.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 142,
+        "enunciado": "Qual das alternativas a seguir melhor define o que é uma política de segurança da informação?",
+        "alternativas": [
+            "Documento ou conjunto de documentos que definem as regras de acesso, controle e transmissão das informações em uma organização.",
+            "Conjunto de boas práticas para processos organizacionais de TI que pode auxiliar em diversos aspectos de segurança.",
+            "Padrões que podem servir de base para a implementação da segurança organizacional.",
+            "Esquema de classificação das informações tratadas por uma organização.",
+            "Fiscalização da segurança da informação em todos os níveis organizacionais de uma empresa."
+        ],
+        "gabarito": "Documento ou conjunto de documentos que definem as regras de acesso, controle e transmissão das informações em uma organização."
+    },
+    {
+        "id": 143,
+        "enunciado": "De acordo com a Norma ABNT NBR ISO/IEC 27001, julgue os itens subsequentes.\nI A política de segurança da informação deve estar disponível como informação documentada.\nII A política de segurança da informação deve conter um plano de recuperação de desastres.\nIII A política de segurança da informação deve ser comunicada dentro da organização.\nIV A política de segurança da informação deve estar disponível para as partes interessadas, conforme apropriado.\nAssinale a alternativa correta.",
+        "alternativas": [
+            "Apenas os itens I e III estão certos.",
+            "Apenas os itens II e III estão certos.",
+            "Apenas os itens II e IV estão certos.",
+            "Apenas os itens I, III e IV estão certos.",
+            "Apenas os itens II, III e IV estão certos."
+        ],
+        "gabarito": "Apenas os itens I, III e IV estão certos."
+    },
+    {
+        "id": 144,
+        "enunciado": "Para que a segurança da informação seja eficaz, normalmente são imprescindíveis a atribuição de responsabilidade e papéis pela segurança da informação, os quais devem estar primeiramente definidos na",
+        "alternativas": [
+            "política de controle de ativos.",
+            "norma de controle de acesso.",
+            "política de gestão de continuidade.",
+            "norma de resposta a incidentes.",
+            "política de segurança da informação."
+        ],
+        "gabarito": "política de segurança da informação."
+    },
+    {
+        "id": 145,
+        "enunciado": "A análise crítica da política de segurança da informação visa assegurar a sua contínua pertinência, adequação e eficácia dentro da organização. Entre suas saídas, deve(m) estar",
+        "alternativas": [
+            "a realimentação das partes interessadas.",
+            "o desempenho e a conformidade do processo.",
+            "o relato sobre incidentes de segurança da informação.",
+            "a situação de ações preventivas e corretivas.",
+            "a melhoria dos controles e dos objetivos de controles."
+        ],
+        "gabarito": "a melhoria dos controles e dos objetivos de controles."
+    },
+    {
+        "id": 146,
+        "enunciado": "A política de segurança da informação das empresas e instituições deve atender aos seguintes atributos:",
+        "alternativas": [
+            "Confidencialidade, Disponibilidade e Velocidade.",
+            "Confidencialidade, Integralidade e Diversidade.",
+            "Integridade, Disponibilidade e Duplicidade.",
+            "Confidencialidade, Integridade e Disponibilidade."
+        ],
+        "gabarito": "Confidencialidade, Integridade e Disponibilidade."
+    },
+    {
+        "id": 147,
+        "enunciado": "Políticas de segurança podem ser definidas como um documento que descreve um conjunto de ações, boas práticas e técnicas para utilização segura dos dados, garantindo assim a segurança da informação.\nSobre algumas políticas necessárias para garantir a aplicabilidade na prática das políticas de segurança, analise as proposições abaixo e assinale (V) para Verdadeiro ou (F) para Falso.\n( ) Não é necessário revisão e monitoramento constante acerca da implementação efetiva das normas previstas.\n( ) Não se tem a necessidade de fazer um levantamento minucioso dos sistemas de proteção da empresa e seus ativos críticos.\n( ) O planejamento é fundamental para que seja definido o perfil da empresa, suas peculiaridades, vulnerabilidades potenciais e necessidades específicas de proteção, que irão circundar o documento a ser elaborado.\nAssinale a alternativa que apresenta a sequência correta.",
+        "alternativas": [
+            "V / V / F.",
+            "V / F / V.",
+            "F / V / F.",
+            "F / F / V."
+        ],
+        "gabarito": "F / F / V."
+    },
+    {
+        "id": 148,
+        "enunciado": "Considere a NBR ISO/IEC 27.002/2013 referente à Tecnologia da Informação – Técnicas de Segurança – Código de prática para controles de segurança da informação, em tempos de significativa evidência de trabalho remoto. Sobre os dispositivos móveis e o trabalho remoto, tem-se como objetivo “garantir a segurança das informações no trabalho remoto e no uso de dispositivos móveis”. São políticas para uso de dispositivos móveis, considerando tal legislação, EXCETO:",
+        "alternativas": [
+            "Proteção contra malware.",
+            "Registro de dispositivos móveis.",
+            "Requisito de firewall e proteção antivírus.",
+            "Restrição para conexão aos serviços de informação.",
+            "Requisito para as versões dos softwares e aplicações de patches."
+        ],
+        "gabarito": "Requisito de firewall e proteção antivírus."
+    },
+    {
+        "id": 149,
+        "enunciado": "Com base na NBR ISO/IEC 27002, assinale a opção que indica o instrumento que caracteriza a segurança da informação na organização, seu escopo e sua importância, e no qual a direção declara comprometimento e apoio às metas do SGSI, e que este esteja alinhado às estratégias e aos objetivos do negócio.",
+        "alternativas": [
+            "acordo de confidencialidade.",
+            "documento da política de segurança da informação.",
+            "inventário dos ativos.",
+            "política de classificação da informação.",
+            "documentação dos procedimentos de operação."
+        ],
+        "gabarito": "documento da política de segurança da informação."
+    },
+    {
+        "id": 150,
+        "enunciado": "A respeito das políticas de segurança da informação nas organizações, julgue os itens a seguir.\nI Essas políticas provêm fundamentos conceituais para a construção de uma infraestrutura de segurança da informação nas organizações.\nII Devem-se evitar, nas políticas de segurança, definições de papéis internos à organização ou de diretrizes de acessos a recursos, em razão do nível de detalhamento exigido nessas definições.\nIII Uma política de segurança da informação deve identificar realisticamente os recursos informacionais, as atividades e operações críticas da organização, além de apoiar a gestão da segurança da informação.\nIV A definição da política de segurança da informação deve contemplar requisitos oriundos de ameaças identificadas para a segurança da informação da organização, atuais e futuras.\nEstão certos apenas os itens",
+        "alternativas": [
+            "I e II.",
+            "I e III.",
+            "II e IV.",
+            "I, III e IV.",
+            "II, III e IV."
+        ],
+        "gabarito": "I, III e IV."
+    },
+    {
+        "id": 151,
+        "enunciado": "Julgue o item subsequente, a respeito das atribuições de uma organização no que se refere ao sistema de gestão da segurança da informação (SGSI), de acordo com a norma ISO/IEC 27001.\nA política do SGSI, para os efeitos da norma em questão, não é considerada um documento importante da política de segurança da informação, pois estabelece apenas diretrizes.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 152,
+        "enunciado": "A política de segurança define os direitos e as responsabilidades de cada um em relação à segurança dos recursos computacionais que utiliza e as penalidades às quais está sujeito, caso não a cumpra.\nÉ considerada como um importante mecanismo de segurança, tanto para as Instituições como para os usuários, pois com ela é possível deixar claro o comportamento esperado de cada um. Desta forma, casos de mau comportamento, que estejam previstos na política, podem ser tratados de forma adequada pelas partes envolvidas.\nA política de segurança pode conter outras políticas específicas, como:\nI. Política de senhas: define as regras sobre o uso de senhas nos recursos computacionais, como tamanho mínimo e máximo, regra de formação e periodicidade de troca.\nII. Política de backup; define as regras sobre a realização de cópias de segurança, como tipo de mídia utilizada, período de retenção e frequência de execução, III. Política de privacidade: define como são tratadas as informações pessoais, sejam elas de clientes, usuários ou funcionários.\nIV. Política de confidencialidade: define como são tratadas as informações institucionais, ou seja, se elas podem ser repassadas a terceiros.\nV. Política de uso aceitável (PUA) ou Acceptable Use Policy (AUP): também chamada de \"Termo de Uso\" ou “Termo de Serviço”, define as regras de uso dos recursos computacionais, os direitos e as responsabilidades de quem os utiliza e as situações que são consideradas abusiva.",
+        "alternativas": [
+            "Apenas os itens I, II, III e IV estão corretos.",
+            "Apenas os itens III e V estão corretos.",
+            "Apenas os itens I, II, IV e V estão correios.",
+            "Os itens I, II, III, IV e V estão corretos."
+        ],
+        "gabarito": "Os itens I, II, III, IV e V estão corretos."
+    },
+    {
+        "id": 153,
+        "enunciado": "Sobre a Política de Segurança da Informação, segundo a NBR-27001 e a NBR-27002, assinale a alternativa correta.",
+        "alternativas": [
+            "É o conjunto de regras gerais que devem ser seguidas por alguns setores da organização, principalmente a TI.",
+            "Uma vez criada e publicada, a política de segurança não precisa ser atualizada.",
+            "É o processo estruturado de tratamento da segurança da informação nos diversos setores da organização.",
+            "Trata apenas dos controles de acesso físico e lógico aos ativos da organização.",
+            "É o conjunto de regras gerais que direcionam a segurança da informação e são suportadas por normas e procedimentos."
+        ],
+        "gabarito": "É o conjunto de regras gerais que direcionam a segurança da informação e são suportadas por normas e procedimentos."
+    }
+]

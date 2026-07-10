@@ -1,0 +1,472 @@
+[
+    {
+        "id": 1,
+        "enunciado": "Uma equipe de TI quer que merges na branch main disparem automaticamente deploy em um cluster Kubernetes via GitHub Actions, mas com segredos seguros (como KUBE_CONFIG) acessíveis somente no job de deploy.\nNesse cenário, a prática correta é",
+        "alternativas": [
+            "usar runs-on: self-hosted que já garante que segredos nunca vazem.",
+            "executar deploy com workflow_dispatch manual, com segredos configurados por meio de vault: secrets.",
+            "definir secrets.KUBE_CONFIG em todos os jobs, inclusive de testes, pois o GitHub oculta valores nos logs.",
+            "configurar o job de deploy com environment: production e usar segredos apenas nesse ambiente.",
+            "guardar segredos em variáveis de ambiente no código-fonte para facilitar a execução."
+        ],
+        "gabarito": "configurar o job de deploy com environment: production e usar segredos apenas nesse ambiente."
+    },
+    {
+        "id": 2,
+        "enunciado": "Em um servidor GitLab CI/CD, um pipeline é acionado por um push no branch 'feature/nova-funcionalidade'. O arquivo.gitlab-ci.yml que configurou o pipeline acionado não possui regras específicas para esse branch. Além disso, a variável $CI_COMMIT_BRANCH, predefinida pelo GitLab CI/CD, não foi sobrescrita em nenhum momento.\nNesse cenário, o valor da variável $CI_COMMIT_BRANCH durante a execução do pipeline será:",
+        "alternativas": [
+            "o nome do branch padrão do repositório;",
+            "o nome do branch remoto ‘feature/nova-funcionalidade’;",
+            "nulo, pois essa variável estará desativada para esse branch;",
+            "o nome do branch local onde o commit foi originado, prefixado pelo upstream;",
+            "o nome do branch local onde o commit foi originado, sem informações de upstream."
+        ],
+        "gabarito": "o nome do branch remoto ‘feature/nova-funcionalidade’;"
+    },
+    {
+        "id": 3,
+        "enunciado": "Em relação às ferramentas de backup e às tecnologias JSON, Git e GitLab, julgue o item seguinte.\nO GitLab fornece recursos integrados como repositórios Git, pipelines de CI/CD, controle de issues e gerenciamento de permissões por projeto e grupo.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 4,
+        "enunciado": "A respeito de gerência de configuração de software, julgue o item a seguir.\nA integração contínua no GitHub Actions é configurada manualmente em cada repositório, e os workflows são executados apenas quando o código é aprovado por uma revisão de código.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 5,
+        "enunciado": "steps:\n- name: Checkout code uses: actions/checkout@v2 Com base na instrução precedente, julgue o item a seguir, considerando o contexto de um arquivo de workflow no GitHub Actions e a função da ação actions/checkout@v2.\nA instrução apresentada tem como objetivo realizar o checkout, ou seja, baixar o código do repositório no runner para a execução de outras tarefas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 6,
+        "enunciado": "Em um projeto, um analista de TI precisa garantir que uma nova feature seja integrada sem conflitos com o código existente. Após a implementação, a feature precisa passar por testes automatizados antes de ser incorporada ao branch principal, assegurando que não introduza erros. Assinale a alternativa que apresenta a opção mais eficiente para alcançar essa integração de forma segura e automatizada.",
+        "alternativas": [
+            "Criar um pipeline no GitLab CI para validar e testar automaticamente o código da nova feature antes do merge no branch principal.",
+            "Configurar scripts de integração contínua no GitLab para compilar o código e realizar o merge automaticamente após cada commit.",
+            "Realizar o merge manual da feature no branch principal e, em seguida, rodar testes de unidade locais para garantir a integridade do código.",
+            "Usar o Jenkins apenas para compilar o código e delegar a responsabilidade dos testes para o ambiente de produção."
+        ],
+        "gabarito": "Criar um pipeline no GitLab CI para validar e testar automaticamente o código da nova feature antes do merge no branch principal."
+    },
+    {
+        "id": 7,
+        "enunciado": "No que concerne à gestão de configuração e à infraestrutura como código (IAC), julgue o item a seguir.\nO editor de pipeline é a ferramenta principal para configurar o GitLab CI/CD, através do arquivo.gitlab-ci.yml, que por padrão deve estar localizado na pasta de configuração do repositório.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 8,
+        "enunciado": "Em um pipeline de CI/CD utilizando GitHub Actions, qual configuração é necessária para garantir que os testes automatizados sejam executados antes de cada merge na branch principal?",
+        "alternativas": [
+            "Adicionar um workflow que executa na pull request com evento \"pull_request\".",
+            "Configurar branch protection com status checks obrigatórios.",
+            "Implementar um script de build manual.",
+            "Criar uma action customizada para cada teste.",
+            "Usar um webhook para acionar testes automatizados."
+        ],
+        "gabarito": "Configurar branch protection com status checks obrigatórios."
+    },
+    {
+        "id": 9,
+        "enunciado": "Uma equipe de desenvolvimento utiliza o GitLab CI/CD para automação de builds e deploys. Para otimizar o processo de integração contínua (CI), foi configurado um webhook para disparar automaticamente um pipeline de build assim que um commit é enviado ao branch main. No entanto, durante uma atualização do ambiente de produção, percebeu-se que o webhook falhou e o pipeline não foi executado, causando atraso no deploy. Após uma análise técnica, verificou-se que o problema ocorreu devido a uma falha no endpoint do webhook, que não conseguiu validar a mensagem enviada.\nA solução técnica que deve ser implementada para garantir que o webhook não falhe novamente devido a erros de validação é",
+        "alternativas": [
+            "configurar uma API reversa para verificar e redirecionar as mensagens do webhook para um endpoint alternativo.",
+            "implementar SSL offoading no servidor para garantir que as mensagens webhook trafeguem com criptografia SSL.",
+            "configurar um balanceador de carga para distribuir as requisições do webhook entre múltiplos endpoints redundantes de validação de mensagens.",
+            "criar um proxy reverso com logs detalhados para monitorar a comunicação e diagnosticar falhas no endpoint do webhook.",
+            "habilitar o recurso de verificação de assinatura (usando token) para checar a integridade das mensagens enviadas pelo webhook."
+        ],
+        "gabarito": "habilitar o recurso de verificação de assinatura (usando token) para checar a integridade das mensagens enviadas pelo webhook."
+    },
+    {
+        "id": 10,
+        "enunciado": "A equipe de desenvolvimento de um Tribunal adota o modelo GitFiow para gerenciar o versionamento de código em um repositório GitLab. Durante o desenvolvimento de uma nova funcionalidade, a equipe percebeu que algumas mudanças feitas no branch feature impactam diretamente no branch develop e precisam ser incorporadas imediatamente para integração contínua (CI). Contudo, um dos desenvolvedores cometeu um erro ao realizar um merge, levando à sobrescrita de código existente no develop.\nO procedimento que a equipe deve adotar para resolver o problema de sobrescrita e prevenir a repetição desse erro no futuro é",
+        "alternativas": [
+            "realizar um git reset -- hard no branch develop para voltar ao último commit correto e forçar os desenvolvedores a refazerem o merge.",
+            "configurar políticas de revisão opcionais (Operation Request Approvals) no Github para que todas as operações sejam aprovadas por, no mínimo, um revisor.",
+            "fazer um rollback do branch develop usando git stepback, garantindo que apenas os commits problemáticos sejam desfeitos sem afetar o histórico.",
+            "configurar um Webhook no GitLab para rejeitar automaticamente merges que causam conflitos ou sobrescritas de código no develop.",
+            "utilizar a estratégia rebase no branch feature para reorganizar os commits e alinhar o histórico com o branch develop antes de realizar um novo merge."
+        ],
+        "gabarito": "utilizar a estratégia rebase no branch feature para reorganizar os commits e alinhar o histórico com o branch develop antes de realizar um novo merge."
+    },
+    {
+        "id": 11,
+        "enunciado": "Um workflow no github é um processo automatizado e configurável capaz de executar jobs.\nCom relação aos componentes básicos presentes nos workflows, analise os itens a seguir.\nI. Event é uma atividade específica em um repositório que aciona a execução do workflow. Por exemplo, uma atividade pode se originar do GitHub quando um usuário cria uma solicitação de pull ou envia um commit para um repositório.\nII. Job é um conjunto de tarefas que são executadas em um workflow por um ou mais hosts. Cada tarefa é uma ação ou shell script a ser executado na ordem em que foram definidos, sendo dependentes umas das outras.\nIII. Host é um servidor que executa os workflows quando são acionados pelos usuários. Cada host pode executar vários jobs de modo concorrente. O GitHub fornece hosts no Ubuntu Linux, Windows e MacOS.\nEstá correto, o que se afirma em",
+        "alternativas": [
+            "I, apenas.",
+            "II, apenas.",
+            "III, apenas.",
+            "I e II, apenas.",
+            "II e III, apenas."
+        ],
+        "gabarito": "I, apenas."
+    },
+    {
+        "id": 12,
+        "enunciado": "Uma equipe de desenvolvimento de software está trabalhando em uma aplicação web e necessita adotar uma ferramenta de integração de código e criação de pipelines de implantação, a fim de automatizar o processo de integração e entrega contínua.\nNessa situação, a ferramenta mais indicada para o atendimento da necessidade da equipe é o",
+        "alternativas": [
+            "Vagrant.",
+            "Docker.",
+            "Ansible.",
+            "Kubernetes.",
+            "GitLab CI."
+        ],
+        "gabarito": "GitLab CI."
+    },
+    {
+        "id": 13,
+        "enunciado": "Em um tribunal, a equipe técnica adota práticas de DevOps e DevSecOps. A equipe utiliza ferramentas de controle de versão como Gitlab e GitHub, além de pipelines automatizados de CI/CD. Dentro dessa estrutura, a organização eficiente do versionamento e da gestão de código deve considerar que",
+        "alternativas": [
+            "o fluxo Git baseado em branches centraliza o trabalho em main, utilizando branches secundárias apenas em situações de exceção.",
+            "o merge entre branches deve ser conduzido manualmente, priorizando decisões da equipe técnica, ainda que sem validações automatizadas vinculadas ao pipeline.",
+            "o versionamento de código deve ser adaptado de forma simplificada para projetos internos, com registro informal de alterações e controle local de mudanças.",
+            "pipelines de CI/CD devem executar validações principalmente em ambientes de homologação, sendo dispensáveis na etapa de publicação em produção.",
+            "a gestão de branches seja organizada com a criação de ramificações específicas para novas funcionalidades, correções e releases, alinhando-se as boas práticas de versionamento."
+        ],
+        "gabarito": "a gestão de branches seja organizada com a criação de ramificações específicas para novas funcionalidades, correções e releases, alinhando-se as boas práticas de versionamento."
+    },
+    {
+        "id": 14,
+        "enunciado": "Para responder à questão abaixo, analise o arquivo YAML.\nO código apresentado define um pipeline para integração contínua no Github Actions. Além disso, considere que esse pipeline deve ser acionado, automaticamente, sempre que novos commits são enviados ao repositório ou quando um Pull Request é criado ou atualizado.\nConsidere que, na linha 3, esteja presente o código que informa quais eventos devem disparar a pipeline. Nesse caso, o comando apresentado na linha 15 está",
+        "alternativas": [
+            "correto e será executado sem erros, permitindo que os múltiplos comandos sejam executados de forma paralela na pipeline.",
+            "incorreto e apresentará erros durante a execução, devendo ser substituído por “run &”, o que permite que múltiplos comandos sejam executados em sequência na pipeline.",
+            "incorreto e apresentará erros durante a execução, devendo ser substituído por “run &”, o que permite que múltiplos comandos sejam executados de forma paralela na pipeline.",
+            "correto e será executado sem erros, permitindo que múltiplos comandos sejam executados em sequência na pipeline."
+        ],
+        "gabarito": "correto e será executado sem erros, permitindo que múltiplos comandos sejam executados em sequência na pipeline."
+    },
+    {
+        "id": 15,
+        "enunciado": "Uma Analista, que está criando um pipeline no GitLab CI/CD, deve criar o arquivo.gitlab-ci.yml na raiz do repositório e definir nesse arquivo",
+        "alternativas": [
+            "as pull requests e actions do pipeline.",
+            "as máquinas que executam os jobs do pipeline.",
+            "todas as versões anteriores do repositório.",
+            "os estágios (stages) e os jobs do pipeline.",
+            "as branches para novas funcionalidades."
+        ],
+        "gabarito": "os estágios (stages) e os jobs do pipeline."
+    },
+    {
+        "id": 16,
+        "enunciado": "Uma equipe de desenvolvimento de software está migrando para uma abordagem DevOps e pretende utilizar o GitLab como plataforma principal de versionamento e automação de pipeline CI/CD. Considerando o uso da ferramenta GitLab no contexto de infraestrutura de software moderna, assinale a alternativa que contém uma de suas principais funcionalidades integradas.",
+        "alternativas": [
+            "Gerenciar exclusivamente repositórios Git locais sem suporte à colaboração em nuvem.",
+            "Criar pipelines de integração e entrega contínua (CI/CD) integradas com versionamento de código-fonte.",
+            "Substituir servidores de aplicação e bancos de dados por containers permanentes.",
+            "Monitorar redes físicas de servidores e aplicar atualizações automáticas de sistema operacional.",
+            "Realizar backups incrementais automatizados de discos físicos em infraestrutura local."
+        ],
+        "gabarito": "Criar pipelines de integração e entrega contínua (CI/CD) integradas com versionamento de código-fonte."
+    },
+    {
+        "id": 17,
+        "enunciado": "Um órgão público precisa automatizar o deploy de suas aplicações usando integração contínua e entrega contínua. O Analista de Tecnologia da Informação optou por usar uma ferramenta que permite pipelines declarativas via arquivos.gitlab-ci.yml. Assinale a alternativa correta que corresponde qual das soluções abaixo atende melhor a esse contexto.",
+        "alternativas": [
+            "Jenkins usa plugins externos para definir pipelines e não utiliza YAML nativamente.",
+            "CircleCI trabalha com arquivos XML, sendo focado em infraestrutura de testes.",
+            "Travis CI possui foco em aplicações.NET e suporte limitado a YAML.",
+            "GitHub Actions oferece CI/CD baseado em scripts Bash diretamente no repositório.",
+            "GitLab CI/CD usa arquivos YAML para definir estágios, jobs e variáveis do pipeline."
+        ],
+        "gabarito": "GitLab CI/CD usa arquivos YAML para definir estágios, jobs e variáveis do pipeline."
+    },
+    {
+        "id": 18,
+        "enunciado": "Assinale a alternativa correta em relação ao funcionamento do GitLab.",
+        "alternativas": [
+            "No GitLab, os pipelines de CI/CD só podem ser executados manualmente e não suportam gatilhos automáticos.",
+            "O GitLab não oferece suporte à criação de issues (tarefas) ou boards de gerenciamento ágil de projetos.",
+            "O arquivo.gitlab-ci.yml deve obrigatoriamente estar localizado dentro da pasta.git/config/ do repositório.",
+            "O GitLab permite a definição de pipelines automatizados através do arquivo.gitlab-ci.yml, que especifica estágios e jobs de CI/CD baseados em eventos do repositório.",
+            "O GitLab Runner é um serviço interno apenas disponível em planos pagos, sem suporte para instalação em servidores próprios."
+        ],
+        "gabarito": "O GitLab permite a definição de pipelines automatizados através do arquivo.gitlab-ci.yml, que especifica estágios e jobs de CI/CD baseados em eventos do repositório."
+    },
+    {
+        "id": 19,
+        "enunciado": "Julgue o item que se segue a respeito do Gitlab.\nO Gitlab suporta o uso de snippets, que são trechos de código reutilizáveis e possíveis de serem compartilhados entre projetos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 20,
+        "enunciado": "Julgue o item que se segue a respeito do Gitlab.\nO Gitlab disponibiliza recursos nativos capazes de automatizar testes e verificar a qualidade do código, conhecidos como CI (continuous integration), sendo necessários recursos de terceiros para executar a etapa de CD (continuous delivery).",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 21,
+        "enunciado": "A plataforma de hospedagem de código GitHub possui como um de seus produtos uma ferramenta que utiliza inteligência artificial para auxiliar na escrita de código.\nO nome dessa ferramenta é GitHub",
+        "alternativas": [
+            "Keras.",
+            "Copilot.",
+            "Watson.",
+            "SageMaker.",
+            "TensorFlow."
+        ],
+        "gabarito": "Copilot."
+    },
+    {
+        "id": 22,
+        "enunciado": "O Git é um sistema de controle de versão distribuído amplamente utilizado para o gerenciamento de projetos de desenvolvimento de software. Ele oferece uma variedade de comandos e funcionalidades que permitem aos desenvolvedores rastrear, gerenciar e colaborar em projetos de forma eficiente. Qual comando do GitLab é usado para listar apenas as branches remotas, sem detalhar os commits de cada uma?",
+        "alternativas": [
+            "git branch –r.",
+            "git clone.",
+            "git checkout –b.",
+            "git commit –m.",
+            "git branch –a."
+        ],
+        "gabarito": "git branch –r."
+    },
+    {
+        "id": 23,
+        "enunciado": "Assinale a opção em que é apresentado o comando utilizado no GitHub para que se informem a outras pessoas as alterações de push que foram feitas em uma ramificação de um repositório.",
+        "alternativas": [
+            "git push.",
+            "git commit.",
+            "git add.",
+            "add file.",
+            "pull request."
+        ],
+        "gabarito": "pull request."
+    },
+    {
+        "id": 24,
+        "enunciado": "Marque a alternativa que descreve para que serve a tag stages do pipeline em GitLab.",
+        "alternativas": [
+            "É utilizada para definir a ordem das diferentes etapas do pipeline de CI/CD.",
+            "É utilizada para definir quais branches do repositório serão utilizados para executar o pipeline.",
+            "É utilizada para definir variáveis de ambiente que serão utilizadas pelos jobs do pipeline.",
+            "É utilizada para definir os scripts de deploy que serão executados pelo pipeline."
+        ],
+        "gabarito": "É utilizada para definir a ordem das diferentes etapas do pipeline de CI/CD."
+    },
+    {
+        "id": 25,
+        "enunciado": "O analista Maicon deve configurar um novo runner, chamado RunM, no GitLab CI/CD do TRF1. Os jobs executados no RunM devem ser capazes de interagir de forma plena com um dispositivo externo conectado fisicamente ao host do runner. O escalonamento do RunM pelo GitLab deve ser fixo, e não automático. Maicon deve escolher o executor de runner do GitLab que exige a menor quantidade de customização necessária para a execução de RunM.\nO executor de runner que Maicon deve escolher é:",
+        "alternativas": [
+            "shell;",
+            "docker;",
+            "parallels;",
+            "instance;",
+            "virtualbox."
+        ],
+        "gabarito": "shell;"
+    },
+    {
+        "id": 26,
+        "enunciado": "Uma Analista estã trabalhando em um repositório GitHub, em condições ideais, e precisa mesclar uma branch chamada feature na branch main. No entanto, durante o merge, a Analista encontrou um conflito no arquivo index.bhtml. Após resolver o conflito manualmente, ela adicionou o arquivo ao indice, mas esqueceu de finalizar o merge. O comando a ser utilizado para finalizar o merge corretamente é:",
+        "alternativas": [
+            "qit push origin main to feature.",
+            "git commit -x \"Merge branch 'feature' into 'main' \".",
+            "git merge --continue.",
+            "git rebase --continue.",
+            "git commit --amend."
+        ],
+        "gabarito": "git merge --continue."
+    },
+    {
+        "id": 27,
+        "enunciado": "A respeito de ferramentas de controle de versão e ferramentas de integração contínua, julgue o item subsequente.\nUm arquivo.gitlab-ci.yml no GitLab é usado para definir os stages e jobs do pipeline, além de especificar variáveis de ambiente, configurar regras de deploy e definir condições para a execução dos jobs.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 28,
+        "enunciado": "O desenvolvimento de software é uma tarefa complexa e desafiadora que envolve, normalmente, um time de desenvolvedores que colaboram entre si. Para o sucesso desse desenvolvimento colaborativo, utilizam-se práticas e ferramentas que minimizarão problemas. A integração contínua é uma dessas práticas. Analise as assertivas abaixo e assinale a alternativa correta.\nI. GitHub oferece fluxo de trabalho inicial de CI (Integração Contínua) para uma série de linguagens e estruturas.\nII. A Integração Contínua é uma prática que recomenda que os commits sejam adiados o máximo possível, evitando tráfego de rede.\nIII. O GitHub permite personalizar e compartilhar fluxos de trabalho.",
+        "alternativas": [
+            "Todas estão corretas.",
+            "Todas estão incorretas.",
+            "Apenas I e II estão corretas.",
+            "Apenas I e III estão corretas.",
+            "Apenas II e III estão corretas."
+        ],
+        "gabarito": "Apenas I e III estão corretas."
+    },
+    {
+        "id": 29,
+        "enunciado": "A respeito do GitLab, uma plataforma de controle de versão distribuído e colaboração de código, assinale a alternativa correta.",
+        "alternativas": [
+            "GitLab é um fork do GitHub e, portanto, todas as funcionalidades presentes no GitHub estão disponíveis no GitLab.",
+            "GitLab é uma plataforma de gerenciamento de projetos ágeis e não possui integração com sistemas de controle de versão.",
+            "GitLab é um software de controle de versão distribuído e, ao contrário do GitHub, só pode ser usado on-premises (instalado no próprio servidor do cliente).",
+            "GitLab oferece funcionalidades como controle de versão, integração contínua/distribuição contínua (CI/CD) e gerenciamento de projetos, e pode ser usado tanto em sua versão SaaS quanto on-premises.",
+            "GitLab é uma alternativa ao Git e, portanto, não é compatível com repositórios Git existentes."
+        ],
+        "gabarito": "GitLab oferece funcionalidades como controle de versão, integração contínua/distribuição contínua (CI/CD) e gerenciamento de projetos, e pode ser usado tanto em sua versão SaaS quanto on-premises."
+    },
+    {
+        "id": 30,
+        "enunciado": "No GitLab, qual é a característica fundamental do arquivo.gitlab-ci.yml, utilizado para configurar pipelines de Continuous Integration e Continuous Delivery (CI/CD)?",
+        "alternativas": [
+            "Arquivo de configuração no formato YAML que define as etapas do pipeline.",
+            "Arquivo de configuração no formato JSON que define as etapas do pipeline.",
+            "Arquivo binário que deve ser criado usando a interface web do GitLab.",
+            "Deve ser armazenado fora do repositório do projeto para garantir a segurança.",
+            "Deve ser criado manualmente pelo administrador do sistema para cada projeto."
+        ],
+        "gabarito": "Arquivo de configuração no formato YAML que define as etapas do pipeline."
+    },
+    {
+        "id": 31,
+        "enunciado": "O controle de versão do software é necessário para indicar os status de desenvolvimento contínuo no desenvolvimento de software. O controle de versão pode ser convenientemente organizado durante o desenvolvimento de aplicativos por meio do controle de versão de uma ferramenta de software. Sobre versionamento de software, analise as assertivas e assinale a alternativa correta.\nI. O controle de versão não é apenas relevante para a programação, mas também parte de todo gerenciamento de arquivos e documentação.\nII. É comum documentar o progresso em termos de extensões funcionais e extensões de interface com versionamento contínuo através da documentação do software.\nIII. O GitHub e o GitLab são os aplicativos de software mais populares da variante Git e oferecem fluxos de trabalho profissionais para versionamento de software.\nIV. Os repositórios Git são descentralizados, o que significa que um repositório Git sempre mantém uma versão local até que ela seja disponibilizada em um sistema centralizado para disponibilidade geral.",
+        "alternativas": [
+            "Apenas I e II estão corretas.",
+            "Apenas III e IV estão corretas.",
+            "Apenas I, II e III estão corretas.",
+            "Todas estão corretas."
+        ],
+        "gabarito": "Todas estão corretas."
+    },
+    {
+        "id": 32,
+        "enunciado": "A respeito do Gitlab, julgue o item a seguir.\nO runner tem como função a execução de pipelines e o versionamento automático do código-fonte de um repositório.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 33,
+        "enunciado": "A respeito do Gitlab, julgue o item a seguir.\nO Gitlab suporta MR (merge request) que é capaz de mesclar a branch de origem com uma branch alvo.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 34,
+        "enunciado": "A respeito do Gitlab, julgue o item a seguir.\nÉ possível visualizar jobs de um pipeline e executar operações como cancelar e tentar novamente se der erro, mas os registros de log não podem ser apagados, pois registram o comportamento da execução dos jobs.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 35,
+        "enunciado": "O Git é um sistema de controle de versão distribuído, inventado por Linus Torvalds em 2005. Ele permite rastrear e gerenciar alterações em arquivos, facilitando a colaboração entre desenvolvedores de softwares, sendo reconhecido principalmente devido à sua eficiência e recursos poderosos. Qual comando do GitLab é usado para exibir os commits mais recentes em um repositório remoto?",
+        "alternativas": [
+            "git fetch origin.",
+            "git remote show origin.",
+            "git branch -r.",
+            "git log --oneline.",
+            "git show-ref --tags."
+        ],
+        "gabarito": "git log --oneline."
+    },
+    {
+        "id": 36,
+        "enunciado": "A analista Jéssica administra o Gitlab do TCE SP. Jéssica atribuiu ao projeto TCEMóvel a estratégia de merge na qual, após feito o merge, o hash do último commit do branch de destino torna-se idêntico ao hash do último commit do branch de origem. A estratégia escolhida por Jéssica visa preservar a quantidade e a linearidade do histórico de commits, exigindo, porém, que o branch de origem esteja atualizado em relação ao destino para a efetuação do merge.\nJéssica atribuiu para o TCEMóvel a estratégia de merge:",
+        "alternativas": [
+            "merge commit;",
+            "three-way merge;",
+            "squash and merge;",
+            "fast-forward merge;",
+            "semi-linear merge commit."
+        ],
+        "gabarito": "fast-forward merge;"
+    },
+    {
+        "id": 37,
+        "enunciado": "O analista Kléber gerencia os pipelines do Gitlab CI/CD do TCE SP. No pipeline do projeto TCEMóvel, o job D precisa dos artefatos que foram gerados pelos jobs A e B. Para minimizar o tempo gasto com a transferência de artefatos, Kléber modificou a seção do.gitlab-ci.yml que define o job D, adicionando os nomes dos jobs A e B à subseção que especifica de quais jobs devem ser obtidos artefatos.\nNa definição do job D, Kléber modificou a subseção:",
+        "alternativas": [
+            "needs;",
+            "inherit;",
+            "extends;",
+            "artifacts;",
+            "dependencies."
+        ],
+        "gabarito": "dependencies."
+    },
+    {
+        "id": 38,
+        "enunciado": "O analista Mateus configurou um pipeline CI/CD para o projeto TJApp no GitLab. O repositório de TJApp denomina-se TJAppRepo. Mateus precisou controlar o comportamento do pipeline de TJApp condicionando o início de sua execução aos eventos de push de tags para o TJAppRepo.\nPara aplicar essa condição ao pipeline de TJApp, Mateus precisou modificar o arquivo.gitlab-ci.yml na raiz de TJAppRepo, adicionando uma regra na seção:",
+        "alternativas": [
+            "default;",
+            "include;",
+            "stages;",
+            "variables;",
+            "workflow."
+        ],
+        "gabarito": "workflow."
+    },
+    {
+        "id": 39,
+        "enunciado": "Para usar o GitLab CI/CD são necessários os seguintes passos iniciais:\n– Certificar-se que haja runners disponíveis para executar os jobs. Se não houver um runner, instalar o GitLab Runner e registrar um runner para a instância, projeto ou grupo.\n– Criar um arquivo I na raiz do repositório. Este arquivo é o local onde se definem os jobs CI/CD.\n– Quando for feito o commit deste arquivo no repositório, o runner executará os jobs.\nPreenche corretamente a lacuna I:",
+        "alternativas": [
+            ".gitlab-cd.yaml.",
+            ".gitlab-cd.yml.",
+            ".gitlab-cicd.yaml.",
+            ".gitlab-cicd.yml.",
+            ".gitlab-ci.yml."
+        ],
+        "gabarito": ".gitlab-ci.yml."
+    },
+    {
+        "id": 40,
+        "enunciado": "Considere o recorte de um arquivo.gitlab-ci.yml que traz algumas opções de configuração de um pipeline GitLab CI/CD, nas seções que são separadas pelas global keywords.\nstages:\n- sync - prepare - build-images..I..:\ninterruptible: true timeout: 90m workflow:\n# regras variables:\n# variáveis..II.. :\n- local:.gitlab/ci/*.gitlab-ci.yml - remote: 'https://gitlab.com/gitlab-org/frontend/-/merge_request_pipelines.yml' As global keywords I e II correspondem, correta e respectivamente, a",
+        "alternativas": [
+            "tags e directories.",
+            "dependencies e environment.",
+            "dependencies e pages.",
+            "default e include.",
+            "default e directories."
+        ],
+        "gabarito": "default e include."
+    },
+    {
+        "id": 41,
+        "enunciado": "Para controle de versionamento uma ferramenta muito utilizada é o Github. Para não ter diretamente conflitos entre funcionalidades novas é criada uma branch por segurança. Qual das alternativas a seguir é a correta para a criação da branch “novo_recurso”?",
+        "alternativas": [
+            "git add novo_recurso.",
+            "git branch novo_recurso.",
+            "banch new novo_recurso.",
+            "git novo_recurso.",
+            "create a branch novo_recurso."
+        ],
+        "gabarito": "git branch novo_recurso."
+    },
+    {
+        "id": 42,
+        "enunciado": "No GitHub, um serviço web que oferece diversas funcionalidades extras aplicadas ao Git,",
+        "alternativas": [
+            "as pulls requests criam um repositório local no computador de modo a sincronizar o conteúdo desse local com o repositório do GitHub.",
+            "um branch é uma ação equivalente a um Commit no projeto, que marca a alteração no arquivo ou conjunto de arquivos por meio de um hash.",
+            "o blame é a capacidade de executar os serviços do GitHub em vários nós de modo que se tenha uma cópia do conteúdo contido no repositório em vários locais ao mesmo tempo.",
+            "pode-se criar fluxos de trabalho personalizados de integração contínua (continuous integration) e de implantação contínua (continuous deployment) diretamente no repositório do GitHub.",
+            "uma bifurcação (fork) é uma cópia de um repositório que atualiza automaticamente o repositório original a cada alteração realizada no projeto."
+        ],
+        "gabarito": "pode-se criar fluxos de trabalho personalizados de integração contínua (continuous integration) e de implantação contínua (continuous deployment) diretamente no repositório do GitHub."
+    }
+]

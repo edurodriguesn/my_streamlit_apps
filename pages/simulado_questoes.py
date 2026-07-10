@@ -162,6 +162,8 @@ qid = q["id"]
 letras = "ABCDE"
 
 st.subheader(f"Questão {q['id']} de {total}")
+if q.get("assunto"):
+    st.caption(f"📚 Assunto: {q['assunto']}")
 st.markdown(q["enunciado"])
 
 ja_respondida = qid in st.session_state.respondidas

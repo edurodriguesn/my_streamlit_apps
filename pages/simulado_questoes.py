@@ -161,10 +161,16 @@ q = questoes[idx]
 qid = q["id"]
 letras = "ABCDE"
 
+def escape_markdown(text):
+    chars = ['\\', '`', '*', '_', '{', '}', '[', ']', '(', ')', '#', '+', '-', '.', '!', '|', '~', '$']
+    for c in chars:
+        text = text.replace(c, '\\' + c)
+    return text
+
 st.subheader(f"Questão {q['id']} de {total}")
 if q.get("assunto"):
     st.caption(f"📚 Assunto: {q['assunto']}")
-st.markdown(q["enunciado"])
+st.markdown(escape_markdown(q["enunciado"]))
 
 ja_respondida = qid in st.session_state.respondidas
 mostrar_gab = st.session_state.mostrar_gabarito.get(qid, False)
@@ -173,7 +179,7 @@ mostrar_gab = st.session_state.mostrar_gabarito.get(qid, False)
 escolha = st.session_state.respostas.get(qid)
 
 if not ja_respondida and not mostrar_gab:
-    opcoes = [f"{letras[i]}) {alt}" for i, alt in enumerate(q["alternativas"])]
+    opcoes = [f"{letras[i]}) {escape_markdown(alt)}" for i, alt in enumerate(q["alternativas"])]
     selecao = st.radio("Alternativas:", opcoes, index=None, key=f"radio_{qid}")
 
     col_resp, col_gab = st.columns(2)
@@ -203,7 +209,7 @@ else:
 
     for i, alt in enumerate(q["alternativas"]):
         letra = letras[i]
-        texto_alt = f"{letra}) {alt}"
+        texto_alt = f"{letra}) {escape_markdown(alt)}"
 
         if ja_respondida:
             if mostrar_correta and letra == letra_gabarito:

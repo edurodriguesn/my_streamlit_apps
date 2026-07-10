@@ -1,0 +1,971 @@
+[
+    {
+        "id": 1,
+        "enunciado": "Um time está implementando uma arquitetura Data Lakehouse para suportar as atividades de Business Intelligence (BI) e Machine Learning.\nConsiderando a necessidade de garantir qualidade nos dados para relatórios analíticos, a ação fundamental para assegurar a consistência das informações durante processos de ETL/ELT com atualizações concorrentes é:",
+        "alternativas": [
+            "Utilizar ferramentas de visualização de dados com capacidade de processamento in-memory para agilizar a geração de dashboards.",
+            "Implementar uma camada de metadados com suporte a transações ACID sobre o armazenamento cloud, usando formatos como Delta Lake, Iceberg ou Hudi.",
+            "Configurar pipelines de dados em fluxo contínuo (streaming) para ingestão imediata dos dados nas camadas de apresentação.",
+            "Aplicar técnicas de modelagem dimensional, como esquemas estrela e floco de neve, na camada de armazenamento do Data Lake.",
+            "Utilizar ferramentas de Data Catalog para documentar metadados business e técnicos dos conjuntos de dados."
+        ],
+        "gabarito": "Implementar uma camada de metadados com suporte a transações ACID sobre o armazenamento cloud, usando formatos como Delta Lake, Iceberg ou Hudi."
+    },
+    {
+        "id": 2,
+        "enunciado": "Em um ambiente de Data Warehouse corporativo, a equipe de infraestrutura precisa garantir a integridade dos dados durante processos de carga paralela massiva provenientes de múltiplas fontes operacionais.\nConsiderando a arquitetura de ETL tradicional e a necessidade de evitar bloqueios prolongados nas tabelas de destino, a abordagem técnica que assegura a consistência transacional sem comprometer a disponibilidade para consultas analíticas simultâneas é:",
+        "alternativas": [
+            "Implementar particionamento dinâmico nas tabelas fato, realocando os dados em sistemas de arquivos distribuídos para balancear a carga de I/O durante as operações de inserção.",
+            "Configurar filas de mensagens assíncronas entre os estágios de transformação e carga, assegurando a ordenação dos lotes, mas aceitando eventual consistência nos relatórios gerados em tempo real.",
+            "Utilizar tabelas de staging com transações curtas e comutar partições (partition switching) nas tabelas dimensão e fato, operação metadada que minimiza locks e mantém atomicidade.",
+            "Aumentar o nível de isolamento das transações no SGBD para SERIALIZABLE, garantindo consistência absoluta, mas exigindo ajuste fino nos tempos de timeout das sessões.",
+            "Adotar armazenamento columnar (ou colunar) com compressão avançada, reduzindo o espaço em disco e melhorando a velocidade de leitura, mesmo durante atualizações em lote."
+        ],
+        "gabarito": "Utilizar tabelas de staging com transações curtas e comutar partições (partition switching) nas tabelas dimensão e fato, operação metadada que minimiza locks e mantém atomicidade."
+    },
+    {
+        "id": 3,
+        "enunciado": "Um Ministério Público estadual está migrando seu sistema de Business Intelligence (BI) para um Data Warehouse on-premises de alta disponibilidade. O foco é análise preditiva de processos para identificar padrões de tramitação. A equipe de infraestrutura precisa garantir que as cargas ETL noturnas, que processam terabytes de dados, não interfiram nas consultas simultâneas dos analistas durante o horário comercial.\nA estratégia de arquitetura técnica que equilibra consistência transacional e disponibilidade contínua é:",
+        "alternativas": [
+            "Implementar mirroring assíncrono entre dois servidores de banco de dados, direcionando as consultas de BI para o servidor secundário durante as janelas de carga no primário.",
+            "Configurar um cluster de failover com discos em SAN replicada, permitindo que as cargas ETL ocorram no nó passivo enquanto o nó ativo responde às consultas.",
+            "Utilizar tabelas em camadas: carregar os dados diários em tabelas de staging com índices desabilitados, e usar comutação de partições (switch) para inserção transacional instantânea na tabela fato principal.",
+            "Adotar tabelas otimizadas para memória (in-memory OLTP) para as cargas ETL, transferindo os dados periodicamente para o Data Warehouse columnar (ou colunar) via processos em lote.",
+            "Particionar verticalmente as tabelas fato, separando colunas frequentemente atualizadas em tabelas físicas distintas com junção por view materializada."
+        ],
+        "gabarito": "Utilizar tabelas em camadas: carregar os dados diários em tabelas de staging com índices desabilitados, e usar comutação de partições (switch) para inserção transacional instantânea na tabela fato principal."
+    },
+    {
+        "id": 4,
+        "enunciado": "A Secretaria de Saúde de um município está implementando um sistema de análise de dados para monitorar atendimentos em unidades de saúde. O cientista de dados apresentou duas abordagens para integrar dados de diferentes postos de saúde.\n• Abordagem 1 − Extrair dados dos sistemas de cada posto (CSV, Excel, bancos locais) − Transformar os dados em um servidor intermediário: padronizar formatos de data, validar CPF, limpar dados inconsistentes, calcular métricas agregadas − Carregar apenas os dados já processados e limpos no Data Warehouse • Abordagem 2 − Extrair dados dos sistemas de cada posto − Carregar os dados brutos diretamente no Data Lake (Amazon S3 − Transformar os dados, quando necessário, usando ferramentas de análise (SQL, Python, Spark) Sobre essas abordagens, é correto afirmar que:",
+        "alternativas": [
+            "ambas as abordagens são exemplos de ETL, diferindo apenas no local onde as transformações são executadas, sendo a primeira em servidor dedicado e a segunda no próprio Data Warehouse;",
+            "a abordagem 1 é mais moderna e escalável que a abordagem 2, pois permite que todas as transformações sejam feitas em um único servidor centralizado, eliminando a necessidade de capacidade computacional no destino;",
+            "a principal vantagem da abordagem 1 é que ela preserva os dados originais completos, permitindo aplicar novas regras de transformação no futuro sem precisar reextrair das fontes, enquanto a abordagem 2 descarta os dados brutos após a transformação;",
+            "a abordagem 1 representa um processo ELT (Extract-Load-Transform), onde as transformações ocorrem após o carregamento no destino, enquanto a abordagem 2 representa ETL (Extract-Transform-Load), onde transformações ocorrem antes do carregamento;",
+            "a abordagem 1 representa um processo ETL (Extract-Transform-Load), adequado quando se deseja carregar apenas dados validados no warehouse, enquanto a abordagem 2 representa ELT (Extract-Load-Transform), adequado quando se deseja preservar dados brutos para análises exploratórias futuras."
+        ],
+        "gabarito": "a abordagem 1 representa um processo ETL (Extract-Transform-Load), adequado quando se deseja carregar apenas dados validados no warehouse, enquanto a abordagem 2 representa ELT (Extract-Load-Transform), adequado quando se deseja preservar dados brutos para análises exploratórias futuras."
+    },
+    {
+        "id": 5,
+        "enunciado": "No que diz respeito a Big Data, ETL/ELT e metadados, julgue o próximo item.\nUma das técnicas utilizadas na etapa de transformação do processo de ETL é a derivação, em que são vinculados dados semelhantes oriundos de diferentes fontes de dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 6,
+        "enunciado": "Julgue o próximo item, relativo às técnicas e aos métodos de BI (business intelligence), aos sistemas de suporte à decisão e gestão de conteúdo e à otimização de bases de dados multidimensionais.\nO processo de ETL, em soluções de BI, tem como objetivo principal garantir a integridade, a padronização e a qualidade dos dados antes da disponibilização destes em um data warehouse.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 7,
+        "enunciado": "Texto CG1A12-I Em 2006, Clive Humby cunhou a frase “Dados são o novo petróleo”, traçando analogias com a revolução que o petróleo proporcionou à indústria e com o fato de que muitos dos desafios relacionados ao petróleo se colocam em relação aos dados: processo de refino, construção de subprodutos e destilação para torná-los úteis.\nInternet: <sheffield.ac.uk> (tradução livre com adaptações).\nConsiderando os desafios mencionados no texto CG1A12-I, assinale a opção que apresenta o objetivo da etapa de junção do ETL em business intelligence.",
+        "alternativas": [
+            "a aplicação de regras de negócios aos dados para o cálculo de novos valores com base em valores existentes.",
+            "a divisão de um atributo de dados em diversas colunas no sistema de destino.",
+            "a melhora da qualidade dos dados pela redução de um grande número de valores de dados em um conjunto de dados menor.",
+            "a vinculação de dados semelhantes de diferentes fontes de dados.",
+            "a proteção de dados confidenciais para o cumprimento das leis de dados ou para a privacidade de dados por meio do adicionamento de encriptação."
+        ],
+        "gabarito": "a vinculação de dados semelhantes de diferentes fontes de dados."
+    },
+    {
+        "id": 8,
+        "enunciado": "No processo de ETL, a fase de Transformação é a mais crítica para garantir a qualidade e a consistência dos dados que serão carregados no Data Warehouse.\nAssinale a opção que descreve uma operação tipicamente executada na fase de Transformação.",
+        "alternativas": [
+            "Utilizar um Log Miner para capturar dados alterados diretamente do log de transações do banco de dados de origem (OLTP).",
+            "Aplicar a desnormalização do esquema, realizar a limpeza de dados e calcular novas métricas antes do carregamento.",
+            "Criar a conexão de rede e estabelecer o protocolo de transferência de dados entre a fonte e o destino.",
+            "Forçar o uso de índices de bitmap e full-text na Tabela Fato para otimizar o tempo de busca durante as consultas OLAP.",
+            "Executar o comando TRUNCATE TABLE no Data Warehouse para remover todos os dados existentes antes de carregar o novo lote."
+        ],
+        "gabarito": "Aplicar a desnormalização do esquema, realizar a limpeza de dados e calcular novas métricas antes do carregamento."
+    },
+    {
+        "id": 9,
+        "enunciado": "Sobre o processo de ETL (Extract, Transform, and Load), analise as afirmativas a seguir.\nI. A etapa de extração pode impactar negativamente o desempenho do sistema de origem, caso não seja planejada adequadamente, principalmente quando se trata de um grande volume de dados em tempo real.\nII. O Apache NiFi é uma plataforma de orquestração de fluxos de trabalho de código aberto, frequentemente utilizado para criação de pipelines ETL complexos, em que o usuário deve utilizar a linguagem de programação Python.\nIII. A etapa de transformação compreende tarefas como a limpeza, padronização e formatação dos dados, além de conversões de tipos de dados e agregações.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, II e III.",
+            "II e III, apenas.",
+            "I e III, apenas.",
+            "I, apenas.",
+            "III, apenas."
+        ],
+        "gabarito": "I e III, apenas."
+    },
+    {
+        "id": 10,
+        "enunciado": "O pré-processamento de dados é uma tarefa necessária para a mineração de dados. Alguns problemas como integração de esquema, tratamento de dados redundantes, detecção e resolução de conflitos de valores são tratados em qual das etapas de pré-processamento de dados?",
+        "alternativas": [
+            "Redução de dados.",
+            "Limpeza de dados.",
+            "Integração de dados.",
+            "Transformação de dados."
+        ],
+        "gabarito": "Integração de dados."
+    },
+    {
+        "id": 11,
+        "enunciado": "Em relação a BI (business intelligence) e à modelagem de dados, julgue o item que se segue.\nNo ETL, a qualificação de dados engloba o processo de conformidade, no qual são identificados registros repetidos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 12,
+        "enunciado": "Analise as afirmativas sobre ETL (extração, transformação e carga):\nI - O ETL serve para integrar, preparar e organizar dados de diversas fontes, tornando-os úteis para análise, tomada de decisões e geração de insights.\nII - Combina dados de várias fontes (banco de dados, APls, arquivos CSV, planilhas e outros) em um único local, como um data warehouse ou data lake.\nIII - O carregamento é a etapa do ETL responsável por garantir que os dados estejam no formato correto e prontos para análise.\nQual(is) afirmativa(s) está(ão) correta(s)?",
+        "alternativas": [
+            "Somente as afirmativas II e III.",
+            "Todas as afirmativas estão corretas.",
+            "Somente as afirmativas I e II.",
+            "Somente a afirmativa I.",
+            "Somente as afirmativas I e III."
+        ],
+        "gabarito": "Somente as afirmativas I e II."
+    },
+    {
+        "id": 13,
+        "enunciado": "No contexto de Business Intelligence (BI), o conceito de \"ETL\" refere-se a qual conjunto de atividades?",
+        "alternativas": [
+            "Elaboração de Tabelas e Linhas no banco de dados.",
+            "Estimativa de Tempo de Log para execução de consultas.",
+            "Encriptação Total e Local dos dados sensíveis.",
+            "Extração, Transformação e Carregamento de dados.",
+            "Estudo Técnico de Linhas de produção."
+        ],
+        "gabarito": "Extração, Transformação e Carregamento de dados."
+    },
+    {
+        "id": 14,
+        "enunciado": "Uma prefeitura decidiu migrar parte de seus dados armazenados em um ambiente on-premises para a nuvem utilizando o Azure. O objetivo é manter uma sincronização contínua entre os dados armazenados localmente e os dados migrados para a nuvem, garantindo baixa latência e alta disponibilidade. Para melhor atender à necessidade de migração e sincronização contínua dos dados descrita, deve-se",
+        "alternativas": [
+            "adotar a ferramenta Apache NiFi para gerenciar exclusivamente a transferência de dados, sem integração com o Azure.",
+            "configurar o Apache Talend como ferramenta principal de migração, sem utilizar suporte nativo do Azure para evitar conflitos.",
+            "realizar a migração utilizando shell scripts customizados para transferir os dados periodicamente via MSFTP.",
+            "implementar um middleware genérico, como CircleCI , sem utilizar serviços nativos do Azure para evitar impacto na performance.",
+            "configurar o Azure Data Factory para realizar a migração e sincronização contínua entre o ambiente on-premises e o Azure."
+        ],
+        "gabarito": "configurar o Azure Data Factory para realizar a migração e sincronização contínua entre o ambiente on-premises e o Azure."
+    },
+    {
+        "id": 15,
+        "enunciado": "A plataforma digital do PDPJ-Br também necessita executar tarefas relativas ao processo ETL, sendo correto afirmar:",
+        "alternativas": [
+            "na fase de Carga, são desprezados todos os registros que contenham o valor nulo.",
+            "um exemplo de uma ação feita na fase de Transformação é a padronização de todas as unidades de medida, para, por exemplo, centímetros.",
+            "na fase de Transformação, não se permitem alterações de valores de atributos do tipo data.",
+            "a fase de Extração deve ser realizada após uma operação de backup completo da base de dados.",
+            "na fase de Extração, não são obtidos ou extraídos dados de tabelas sem atributos numéricos."
+        ],
+        "gabarito": "um exemplo de uma ação feita na fase de Transformação é a padronização de todas as unidades de medida, para, por exemplo, centímetros."
+    },
+    {
+        "id": 16,
+        "enunciado": "Considerando os chamados dados ou valores faltantes em registros de tabelas de bancos de dados, destacam- -se dois tipos: listwise deletion e pairwise deletion, sendo correto afirmar:",
+        "alternativas": [
+            "antes da utilização em que se adota o tipo listwise deletion, todos os valores nulos da tabela em questão devem ser preenchidos com o valor 0 (zero).",
+            "o tipo pairwise deletion não considera registros em que haja, pelo menos, um valor faltante entre seus atributos.",
+            "no tipo listwise deletion, consideram-se casos em que possa haver um valor faltante que não interfira na análise.",
+            "o tipo listwise deletion não considera registros em que haja, pelo menos, um valor faltante entre seus atributos.",
+            "antes da utilização em que se adota o tipo pairwise deletion, todos os valores nulos da tabela em questão devem ser preenchidos com o valor #."
+        ],
+        "gabarito": "o tipo listwise deletion não considera registros em que haja, pelo menos, um valor faltante entre seus atributos."
+    },
+    {
+        "id": 17,
+        "enunciado": "Com relação a processos de banco de dados ETL (extração, transformação e carga), julgue o item a seguir.\nNa modelagem de data warehouses, a abordagem top-down torna o processo ETL mais flexível e adaptável a mudanças nos requisitos de negócio, enquanto a abordagem bottom-up exige um ETL rígido e pouco adaptável a novas necessidades.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 18,
+        "enunciado": "Com relação a processos de banco de dados ETL (extração, transformação e carga), julgue o item a seguir.\nNa extração incremental, apenas os dados alterados desde a última carga são extraídos, tornando o processo mais eficiente que a extração full, que recupera todos os dados da fonte.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 19,
+        "enunciado": "No que diz respeito à engenharia de dados, julgue o item a seguir.\nNa engenharia de dados, o uso de pipelines de dados é justificado pela necessidade de automatizar e organizar o fluxo de dados entre diferentes sistemas, garantindo-se escalabilidade e confiabilidade. Entre os tipos de pipelines existentes, destacam-se os pipelines em lote (batch) e os pipelines em tempo real (streaming), que se diferenciam pelo tempo de processamento e pela forma de ingestão dos dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 20,
+        "enunciado": "Uma Secretaria da Fazenda tem por meta a implementação de um sistema de Data Warehouse para consolidar dados de diferentes departamentos e melhorar a tomada de decisões. A equipe responsável precisa escolher a abordagem correta para garantir a integração eficiente dos dados e a capacidade de realizar análises complexas e, por conta disso, decidiu utilizar um",
+        "alternativas": [
+            "processo ELT para extrair dados de sistemas operacionais, transformá-los em tempo real e carregá-los diretamente em cubos OLAP para análises multidimensionais.",
+            "processo ETL para extrair dados de sistemas operacionais, transformá-los e carregá-los diretamente em cubos OLAP, sem passar pelo Data Warehouse.",
+            "processo ELT para extrair dados de sistemas operacionais, carregá-los diretamente no Data Warehouse e transformá-los durante as consultas OLAP.",
+            "Data Mart para cada departamento, carregando dados diretamente dos sistemas operacionais e realizando transformações durante as consultas OLAP.",
+            "processo ETL para extrair dados de sistemas operacionais, transformá-los para garantir consistência, carregá-los no Data Warehouse e usar OLAP para realizar análises multidimensionais."
+        ],
+        "gabarito": "processo ETL para extrair dados de sistemas operacionais, transformá-los para garantir consistência, carregá-los no Data Warehouse e usar OLAP para realizar análises multidimensionais."
+    },
+    {
+        "id": 21,
+        "enunciado": "Julgue o próximo item, a respeito de Big Data, data mining e Oracle Data Integrator (ODI).\nNo ODI, os knowledge modules são componentes reutilizáveis que encapsulam as lógicas de integração e transformação e que podem ser personalizados em linguagens como SQL, Groovy e Shell Script.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 22,
+        "enunciado": "Julgue o próximo item, a respeito de Big Data, data mining e Oracle Data Integrator (ODI).\nO ODI suporta integração nativa com tecnologias Big Data por meio do ODI Big Data Adapter e é capaz de gerar código HiveQL, Spark e Pig sem que o desenvolvedor escreva manualmente tais scripts.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 23,
+        "enunciado": "Em ambientes de Business Intelligence (BI) e Data Warehousing, os processos de Extract, Transform, Load (ETL) são fundamentais para integrar dados provenientes de diferentes fontes, garantindo qualidade, consistência e disponibilidade para análises estratégicas.\nEm relação ao processo de ETL, assinale a afirmativa correta.",
+        "alternativas": [
+            "A etapa de carga (Load) ocorre antes das etapas de extração e transformação, pois é necessário armazenar os dados para então processá-los.",
+            "A transformação no ETL é responsável apenas por converter os dados para o formato JSON, sendo irrelevante para a consistência e qualidade dos dados.",
+            "A extração no ETL envolve a remoção de dados redundantes ou inconsistentes do sistema de destino.",
+            "O processo ETL é utilizado para integrar dados de múltiplas fontes, aplicar regras de negócio e carregá-los em um repositório central como um data warehouse.",
+            "O principal objetivo do ETL é realizar o backup de dados operacionais para arquivamento em fitas magnéticas, sem aplicação analítica."
+        ],
+        "gabarito": "O processo ETL é utilizado para integrar dados de múltiplas fontes, aplicar regras de negócio e carregá-los em um repositório central como um data warehouse."
+    },
+    {
+        "id": 24,
+        "enunciado": "Julgue o próximo item, relativos a data warehouse, ETL e OLAP.\nA técnica de junção do ETL consiste em aplicar regras de negócio aos dados para a obtenção de novos valores com base em valores já existentes.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 25,
+        "enunciado": "Com relação ao ETL, ELT e suas tecnologias, avalie as afirmativas a seguir e assinale V para a verdadeira e F para a falsa.\n( ) ELT utiliza fluxos de trabalho de análise de dados e de aprendizado de máquina. O ELT é frequentemente usado por uma organização para: Extrair dados de sistemas legados, limpar os dados para melhorar sua qualidade e carregar dados em um banco de dados de destino. O ELT transforma dados no trânsito.\n( ) ETL copia ou exporta os dados dos locais de origem, mas, em vez de carregá-los em uma área de preparação para transformação, ele carrega os dados em estado brutos diretamente no armazenamento de dados no destino para serem transformados conforme necessário. O ETL não transforma nenhum dado no trânsito.\n( ) A ordem das etapas não é a única diferença entre ETL e ELT. No ELT, o armazenamento de dados de destino pode ser um armazém de dados, mas, mais frequentemente, é um data lake, que é um armazenamento central grande projetado para manter tanto dados estruturados quanto não estruturados em grande escala.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "F – V – F.",
+            "F – F – V.",
+            "F – V – V.",
+            "V – F – V.",
+            "V – V – F."
+        ],
+        "gabarito": "F – F – V."
+    },
+    {
+        "id": 26,
+        "enunciado": "Avalie se a ingestão de dados é um processo que consiste em:\nI. Extrair dados de uma fonte e carregá-los no destino, sem qualquer transformação.\nII. Extrair dados de uma fonte, transformá-los de acordo com as necessidades do sistema e carregá-los no destino.\nIII. Transformar dados de uma fonte de acordo com as necessidades do sistema e carregá-los no destino.\nEstá correto apenas o que se apresenta em",
+        "alternativas": [
+            "II e III.",
+            "II.",
+            "I.",
+            "I e II.",
+            "I e III."
+        ],
+        "gabarito": "II."
+    },
+    {
+        "id": 27,
+        "enunciado": "Julgue o item seguinte, a respeito de ETL e de manipulação, tratamento e visualização de dados.\nNo processo de ETL, extrair refere-se à obtenção de dados e envolve ocupar-se com diferentes tipos de esquemas e regras em vários sistemas de origem.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 28,
+        "enunciado": "Julgue o item subsecutivo, a respeito de integração de dados e big data.\nO processo de ETL consiste em analisar e reformatar os dados depois que forem carregados para um data warehouse, para posterior eliminação do que não é considerado necessário.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 29,
+        "enunciado": "No que se refere a dados estruturados e não estruturados e a técnicas de integração e ingestão de dados, julgue o próximo item.\nO ETL (extract, transform and load) pode ser utilizado para armazenar dados legados ou para agregar dados para analisar e impulsionar as decisões de negócios.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 30,
+        "enunciado": "O componente arquitetural de um ambiente de Data Warehouse usado para armazenar temporariamente os dados durante a sua transformação é o(a):",
+        "alternativas": [
+            "log;",
+            "data mining;",
+            "stage area;",
+            "repositório de metadados;",
+            "cubo de dados."
+        ],
+        "gabarito": "stage area;"
+    },
+    {
+        "id": 31,
+        "enunciado": "Marque a alternativa correta que contém um desafio enfrentado pelos profissionais de TI, para garantir a integridade e qualidade dos dados carregados no data warehouse e durante a etapa de carga (load) em um processo ETL.",
+        "alternativas": [
+            "Garantir a ordem correta de carregamento dos dados.",
+            "Manter a integridade referencial entre tabelas relacionadas durante o carregamento dos dados.",
+            "Identificar os sistemas de origem para extração dos dados.",
+            "Realizar a limpeza dos dados após o carregamento no data warehouse."
+        ],
+        "gabarito": "Manter a integridade referencial entre tabelas relacionadas durante o carregamento dos dados."
+    },
+    {
+        "id": 32,
+        "enunciado": "Data warehousing é um sistema de armazenamento de dados projetado para consolidar e integrar dados de várias fontes diferentes para fins de análise e geração de relatórios. Sobre os principais conceitos de data warehousing, assinale a afirmativa que define corretamente ETL (Extração, Transformação e Carregamento) no contexto de data warehousing.",
+        "alternativas": [
+            "Tipo de banco de dados NoSQL.",
+            "Processo para integrar dados de várias fontes.",
+            "Protocolo de rede para transferência de dados.",
+            "Modelo de representação de dados hierárquico."
+        ],
+        "gabarito": "Processo para integrar dados de várias fontes."
+    },
+    {
+        "id": 33,
+        "enunciado": "Uma das etapas do projeto e implementação de um sistema de Data Warehouse é constituída pela atividade denominada ETL, constituída por três fases, sendo que a fase de",
+        "alternativas": [
+            "transformação consiste no processo de obtenção e exclusão, em suas origens, dos dados necessários ao Data Warehouse.",
+            "carga consiste no processo de definição dos metadados dos dados obtidos a partir dos ambientes de origem.",
+            "extração consiste no processo de obtenção dos dados a partir dos ambientes de origem dos dados.",
+            "extração consiste na exclusão dos dados obtidos que contenham valores nulos em seus atributos.",
+            "carga consiste em se aplicar um algoritmo de criptografia nos dados obtidos, de forma a codificá-los."
+        ],
+        "gabarito": "extração consiste no processo de obtenção dos dados a partir dos ambientes de origem dos dados."
+    },
+    {
+        "id": 34,
+        "enunciado": "Sistemas de apoio à decisão coletam dados de diversas fontes e precisam realizar diversas operações de limpeza, transformação e integração para carregá-los em um banco de dados analítico pronto para consultas.\nPara realizar as transformações necessárias nos dados oriundos de diversas fontes, os dados devem ser armazenados temporariamente em um(a):",
+        "alternativas": [
+            "dashboard;",
+            "cubo de dados;",
+            "staging area;",
+            "barramento;",
+            "repositório de metadados."
+        ],
+        "gabarito": "staging area;"
+    },
+    {
+        "id": 35,
+        "enunciado": "À medida que as organizações começaram a utilizar múltiplos repositórios ou bancos de dados para armazenar diferentes tipos de informações de negócios, a necessidade de integrar os dados cresceu rapidamente e ETL tornou-se o método padrão utilizado na construção de Data Warehouse (DW). As ferramentas ETL em um Data Warehouse (DW) possuem a função de:",
+        "alternativas": [
+            "definir as regras de negócio para que os filtros sejam aplicados sobre dados heterogêneos.",
+            "fazer a extração, limpeza e reformatação dos dados, para que estes possam ser carregados no DW.",
+            "estabelecer regras de filtragem multidimensional dos dados, gerando visões específicas de acordo com as regras de negócio.",
+            "gerar metadados que poderão alimentar ferramentas de data minning, OLAP e Big Data."
+        ],
+        "gabarito": "fazer a extração, limpeza e reformatação dos dados, para que estes possam ser carregados no DW."
+    },
+    {
+        "id": 36,
+        "enunciado": "A integração de dados desempenha um papel crucial na gestão da informação em organizações. No contexto dos processos de ETL (Extract, Transform, Load), cada etapa desempenha funções específicas.\nAssinale a opção que descreve corretamente o processo de Transformação (T) no ETL.",
+        "alternativas": [
+            "Etapa em que os dados são carregados em um data warehouse para armazenamento.",
+            "Fase em que os dados são extraídos de diferentes fontes de dados.",
+            "Momento em que os dados são preparados para serem apresentados aos usuários finais.",
+            "Parte do processo em que os dados são indexados espacialmente para otimizar consultas futuras.",
+            "Passo no qual os dados são limpos, filtrados, agregados ou modificados de acordo com os requisitos de negócios."
+        ],
+        "gabarito": "Passo no qual os dados são limpos, filtrados, agregados ou modificados de acordo com os requisitos de negócios."
+    },
+    {
+        "id": 37,
+        "enunciado": "Em relação a banco de dados, julgue o próximo item.\nDe forma geral, ETL é normalmente usado para dados totalmente estruturados, enquanto ELT atende bem principalmente dados semiestruturados e(ou) não estruturados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 38,
+        "enunciado": "Julgue o item a seguir, a respeito de ingestão de dados.\nUma ferramenta que suporta CDC (change data capture) é capaz de capturar os dados de uma origem no momento em que estes são criados ou alterados, e os transporta para um destino, com baixa latência.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 39,
+        "enunciado": "Sobre o processo de ingestão de dados, avalie se as afirmativas a seguir são verdadeiras (V) ou falsas (F).\n( ) Dados não estruturados podem incluir arquivos de texto, logs e outras formas de informação não padronizada.\n( ) A ingestão de dados em lote pode ser iniciada mediante agendamento ou quando os dados atingem um limite de tamanho predeterminado.\n( ) Apesar de ser mais simples de implementar, a ingestão de dados incremental ou diferencial é ideal para minimizar o tráfego na rede e o uso do storage.\n( ) É mais comum adicionar etapas adicionais de transformação e limpeza dos dados em dados estruturados do que em não estruturados.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "F – V – V – F.",
+            "V – F – F – V.",
+            "V – F – V – F.",
+            "V – V – F – F.",
+            "F – V – F – V."
+        ],
+        "gabarito": "V – V – F – F."
+    },
+    {
+        "id": 40,
+        "enunciado": "Com base em modelos e integração de dados, julgue o item que se segue.\nUma das técnicas utilizadas em ETL é a separação, conforme a qual um dado do tipo texto pode ser dividido em textos menores.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 41,
+        "enunciado": "Com base em modelos e integração de dados, julgue o item que se segue.\nOs processos de ETL utilizam uma área de preparação, conhecida como zona de pouso, onde os dados extraídos são armazenados temporariamente.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 42,
+        "enunciado": "Com base em modelos e integração de dados, julgue o item que se segue.\nOs processos de ETL e ELT exigem o mesmo grau de definição em todas as suas etapas, não havendo diferenciação entre ambos os processos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 43,
+        "enunciado": "Com base em modelos e integração de dados, julgue o item que se segue.\nUtilizada na transformação de dados, a técnica de derivação vincula dados semelhantes de diferentes fontes de dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 44,
+        "enunciado": "Com base em modelos e integração de dados, julgue o item que se segue.\nEm ETL, o carregamento incremental por transmissão envia de forma contínua alterações em pequenos volumes de dados para o data warehouse de destino.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 45,
+        "enunciado": "Diversos processos são usados para manter a sincronização entre um armazém de dados e outras fontes de dados, como bancos de dados OLTP, por exemplo. Eles, normalmente, envolvem a cópia total de um banco de dados, a transformação dos dados e a carga em um armazém de dados.\nEsses processos são classificados como processos em lote",
+        "alternativas": [
+            "ELT.",
+            "ETL reverso.",
+            "OLAP.",
+            "ETL.",
+            "Big Data."
+        ],
+        "gabarito": "ETL."
+    },
+    {
+        "id": 46,
+        "enunciado": "A implementação de um banco de dados analítico requer a carga de dados extraídos de outros bancos. Cada banco de dados de origem implementa as suas próprias chaves para identificar seus registros.\nPara evitar conflitos com as chaves utilizadas nos bancos de dados de origem dos sistemas transacionais, a rotina ETL de um Data Mart deve gerar uma chave:",
+        "alternativas": [
+            "candidata;",
+            "estrangeira;",
+            "composta;",
+            "surrogada;",
+            "alternativa."
+        ],
+        "gabarito": "surrogada;"
+    },
+    {
+        "id": 47,
+        "enunciado": "Um processo de Extrair, Transformar e Carregar (ETL, sigla em inglês) possui etapas distintas para extração de dados em sua origem, transformações e carga de dados em alguma infraestrutura de persistência. Uma técnica bastante conhecida, utilizada para classificar campos textuais, como, por exemplo, comentários em um site de comércio eletrônico, é a de análise de sentimentos. Considere que a classificação de cada campo textual não existe na origem, mas é incorporada ao conjunto de dados a ser persistido. No processo de ETL, essa adição de novas colunas, conforme exemplificado, é chamada de",
+        "alternativas": [
+            "classificação binária.",
+            "comentários automáticos.",
+            "enriquecimento.",
+            "lematização.",
+            "meta-análise."
+        ],
+        "gabarito": "enriquecimento."
+    },
+    {
+        "id": 48,
+        "enunciado": "Os dados armazenados em um Data Warehouse (DW) são organizados de modo a apoiar a tomada de decisão por parte dos gestores de uma organização. As principais, mas não únicas, fontes de dados para um DW são os bancos de dados transacionais (BDT), utilizados em sistemas de informação que apoiam as operações de uma organização.\nA movimentação de dados dos BDT para um DW previamente definido e configurado é realizada por meio de um processo que realiza ações de",
+        "alternativas": [
+            "criação de um modelo multidimensional de dados.",
+            "definição de um esquema denominado “flocos de neve”.",
+            "extração, transformação e carga de dados.",
+            "mineração de dados.",
+            "projeções realizadas nas dimensões dos dados."
+        ],
+        "gabarito": "extração, transformação e carga de dados."
+    },
+    {
+        "id": 49,
+        "enunciado": "O DTS (Data Transformation Services) é uma ferramenta utilizada para transformar e migrar dados entre diferentes sistemas em um ambiente de Data Warehouse.\nSabendo disso, qual das alternativas abaixo reflete corretamente uma funcionalidade do DTS em um processo de ETL (Extract, Transform, Load)?",
+        "alternativas": [
+            "O DTS realiza apenas a transformação dos dados, sendo necessário o uso de outras ferramentas para extração e carga dos dados no Data Warehouse.",
+            "O DTS permite apenas a extração de dados, não sendo utilizado para o carregamento dos mesmos em um Data Warehouse.",
+            "O DTS é utilizado exclusivamente para a extração de dados de fontes heterogêneas, sem fornecer suporte para a transformação e carga dos dados em um Data Warehouse.",
+            "O DTS não possui a capacidade de realizar transformações complexas, sendo limitado a operações simples de transferência de dados entre sistemas.",
+            "O DTS permite a extração de dados de várias fontes, a transformação desses dados para adequá-los ao formato do Data Warehouse e, finalmente, a carga desses dados no repositório de destino."
+        ],
+        "gabarito": "O DTS permite a extração de dados de várias fontes, a transformação desses dados para adequá-los ao formato do Data Warehouse e, finalmente, a carga desses dados no repositório de destino."
+    },
+    {
+        "id": 50,
+        "enunciado": "Os metadados possuem informações sobre processos de negócio, regras de restrição de acesso e estruturas de dados lógicas e físicas. Os metadados que rastreiam as etapas de manipulação de dados, garante a qualidade e a reprodutibilidade dos dados, documentando como os dados foram derivados e transformados, incluindo a sua origem, são metadados de:",
+        "alternativas": [
+            "Operacionais.",
+            "Legais.",
+            "Técnicos.",
+            "Descritivos.",
+            "Processo."
+        ],
+        "gabarito": "Processo."
+    },
+    {
+        "id": 51,
+        "enunciado": "Em relação à ciência de dados, julgue os itens que se seguem.\nDurante o processo de ETL (extract, transform, load), a etapa de transformação é responsável por mover os dados extraídos para o sistema de destino, onde serão armazenados para análise.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 52,
+        "enunciado": "Julgue o item a seguir, a respeito de técnicas de ingestão de dados, análise de dados e Big Data.\nNa abordagem ETL, os dados são carregados no mesmo estado em que foram extraídos e são transformados no estágio posterior ao carregamento.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 53,
+        "enunciado": "A técnica que é utilizada para carregar dados de um sistema corporativo para um Data Warehouse é denominada",
+        "alternativas": [
+            "OLAP (Online Analytical Processing).",
+            "ETL (Extract, Transform, Load).",
+            "OLTP (Online Transaction Processing).",
+            "Data Mining.",
+            "Data Clearing."
+        ],
+        "gabarito": "ETL (Extract, Transform, Load)."
+    },
+    {
+        "id": 54,
+        "enunciado": "Quanto aos processos de ETL, ao JSON, ao XML e às técnicas para pré‑processamento de dados, julgue o item abaixo:\nA transformação é a fase do processo de ETL na qual os dados são carregados no destino final, como um data warehouse, um data lake ou um banco de dados operacional.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 55,
+        "enunciado": "Quanto aos processos de ETL, ao JSON, ao XML e às técnicas para pré‑processamento de dados, julgue o item abaixo:\nNa extração de dados, as ferramentas de ETL extraem ou copiam dados brutos de diversas fontes e armazenam‑nos em uma área de preparação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 56,
+        "enunciado": "Quanto aos processos de ETL, ao JSON, ao XML e às técnicas para pré‑processamento de dados, julgue o item abaixo:\nA imputação por moda é uma técnica comumente utilizada no pré‑processamento de dados, para se lidar com valores ausentes.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 57,
+        "enunciado": "Acerca da biblioteca ITIL 2011, do banco de dados Oracle, das ferramentas ETL e dos bancos de dados NoSQL, julgue o item a seguir.\nA principal função das ferramentas ETL é monitorar o desempenho de servidores web em tempo real.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 58,
+        "enunciado": "Em um processo ETL (Extract, Transform, Load), assinale a alternativa que apresenta a fase de Transformação.",
+        "alternativas": [
+            "Extrair dados de múltiplas fontes e consolidá-los em um banco de dados relacional.",
+            "Modificar e limpar os dados brutos, aplicando regras de negócio para torná-los adequados à análise.",
+            "Carregar os dados transformados diretamente em um data warehouse, sem realizar ajustes.",
+            "Estabelecer a segurança de acesso aos dados no sistema de origem."
+        ],
+        "gabarito": "Modificar e limpar os dados brutos, aplicando regras de negócio para torná-los adequados à análise."
+    },
+    {
+        "id": 59,
+        "enunciado": "O ETL (extract, transformation, and load) é considerado uma das ferramentas mais importantes para implementação de um Data Warehouse. Diante deste contexto, é INCORRETO afirmar que:",
+        "alternativas": [
+            "a primeira etapa do ETL consiste em obter e compreender os dados de origem para posterior manipulação.",
+            "durante a etapa de transformação, o processo de ETL adiciona valor para os dados com as tarefas de limpeza e conformidade.",
+            "a carga é uma etapa opcional no processo de ETL e pode ser ignorada, em alguns casos específicos.",
+            "os dados de origem de um processo de ETL podem ser obtidos de bancos de dados pertencentes a diversos sistemas.",
+            "é aceitável criar um banco de dados normalizado exclusivo para suporte ao processo de ETL."
+        ],
+        "gabarito": "a carga é uma etapa opcional no processo de ETL e pode ser ignorada, em alguns casos específicos."
+    },
+    {
+        "id": 60,
+        "enunciado": "Qual das alternativas listadas representa adequadamente o padrão de transformação de dados, em um pipeline ETL, que complementa os dados existentes utilizando outras fontes de dados?",
+        "alternativas": [
+            "Junção.",
+            "Filtragem.",
+            "Enriquecimento.",
+            "Agregação.",
+            "Conversão."
+        ],
+        "gabarito": "Enriquecimento."
+    },
+    {
+        "id": 61,
+        "enunciado": "Ana está desenvolvendo um banco de dados analítico a partir da integração de dados do sistema de pagamento com o sistema de gestão de pessoal. No sistema de pagamento, os colaboradores são identificados pelo CPF. No sistema de gestão de pessoal, os colaboradores são identificados pelas iniciais do seu nome concatenadas com sua data de nascimento. Ana sabe que essas chaves primárias naturais apresentam diversas desvantagens e riscos para um ambiente de análise de dados integrados, como seu reuso e alteração de regras de composição, além de questões de desempenho.\nCom isso, para carregar os dados no banco de dados analítico, Ana desenvolveu um ETL que substituiu as chaves naturais dos sistemas por uma chave artificial contendo inteiros simples sequenciais, utilizando uma:",
+        "alternativas": [
+            "Composite key;",
+            "Foreing key;",
+            "Surrogate key;",
+            "Business Key;",
+            "Production key."
+        ],
+        "gabarito": "Surrogate key;"
+    },
+    {
+        "id": 62,
+        "enunciado": "Os processos ELT (Extract, Load, Transform) e ETL (Extract, Transform, Load) lidam com tratamento de dados através da integração de dados de diversas fontes. Sobre os processos ELT e ETL, assinale a afirmativa correta.",
+        "alternativas": [
+            "Assim como no ETL, também para o ELT é na etapa “transformação” que há agregação de valor.",
+            "ETL é usado especificamente em Data Lake (DL), enquanto o ELT é usado em Data Warehouse (DW).",
+            "Na abordagem ELT, a transformação é a única etapa automática, ou seja, não é realizada sob demanda.",
+            "No ELT, o mesmo artefato responsável pela extração não se encarrega da carga dos dados no destino, já que as etapas de Extração e Carga (EL) são distintas.",
+            "Via de regra, sistemas de ETL são pequenos e simples e não demandam grande esforço, tempo e conhecimentos especializados, para construção e manutenção."
+        ],
+        "gabarito": "Assim como no ETL, também para o ELT é na etapa “transformação” que há agregação de valor."
+    },
+    {
+        "id": 63,
+        "enunciado": "Para integrar os dados de diversas fontes, Julia desenvolveu um ETL para executar ações sobre os dados como: extrair, limpar, agregar, transformar e carregar dados em um banco de dados destino visando apoiar análises históricas.\nPara implementar as ações sobre os dados em um ETL, Julia utilizou:",
+        "alternativas": [
+            "steps e fluxos de dados;",
+            "repositório de metadados;",
+            "sequências temporais;",
+            "regras de associação;",
+            "data mining."
+        ],
+        "gabarito": "steps e fluxos de dados;"
+    },
+    {
+        "id": 64,
+        "enunciado": "Julgue o próximo item, relativo a NoSQL, data lake, ETL e governança de dados.\nA fase de carga em um processo de ETL exige que os dados sejam carregados em lotes programados, como forma de garantir a eficiência do sistema como um todo.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 65,
+        "enunciado": "Julgue o próximo item, a respeito de arquitetura de OLAP, data warehousing e dados multidimensionais.\nNa transformação pesquisa difusa, a limpeza de dados utiliza técnicas de álgebra fuzzy para a localização de informações em data warehouse.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 66,
+        "enunciado": "No que se refere à arquitetura e aplicações de data warehouse com ETL e OLAP, julgue o item a seguir.\nExtração, tratamento e carga (ETL) é o processo que coleta dados relevantes dos bancos de dados transacionais, transforma-os em um padrão e os carrega no data warehouse ou no data mart.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 67,
+        "enunciado": "Julgue o item a seguir, relativos a ELT e ETL.\nNo processo de transformação, os dados de cada fonte serão transformados, limpos e agregados, de acordo com os requisitos, para garantir que sejam armazenados em um formato consistente e universal.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 68,
+        "enunciado": "Julgue o item a seguir, relativos a ELT e ETL.\nEm geral, para uma mesma base de dados, o custo de manutenção de um ELT é mais baixo que o de um ETL.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 69,
+        "enunciado": "Julgue o item a seguir, relativos a ELT e ETL.\nPara uma mesma base de dados, um ETL demanda menos espaço de armazenamento do que um ELT.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 70,
+        "enunciado": "O TJSE está construindo um ambiente analítico de dados por meio do desenvolvimento de um Data Warehouse. Para isso, solicitou ao analista de infraestrutura Juca a disponibilização de um banco de dados, acessível apenas pelos desenvolvedores, para armazenar temporariamente os dados que estão sendo extraídos das fontes e transformados para serem carregados no ambiente de consultas analíticas. Para isso, Juca deverá disponibilizar um(a):",
+        "alternativas": [
+            "ETL;",
+            "OLAP;",
+            "Stage Area;",
+            "Cubo de Dados;",
+            "Repositório de Metadados."
+        ],
+        "gabarito": "Stage Area;"
+    },
+    {
+        "id": 71,
+        "enunciado": "Um tipo de transformação usado em processos ETL é denominado deduplication. Ele consiste em",
+        "alternativas": [
+            "eliminar valores duplicados de um conjunto de dados.",
+            "replicar determinados dados propositalmente, duas ou mais vezes, obtendo maior segurança caso algum dispositivo de armazenamento falhe.",
+            "criar novos valores, previamente inexistentes no conjunto de dados, com base na aplicação de fórmulas sobre dados existentes.",
+            "dividir um conjunto de dados muito grande em conjuntos menores, mais facilmente gerenciáveis.",
+            "identificar relacionamentos entre elementos de diferentes conjuntos de dados e criar um mapeamento entre eles."
+        ],
+        "gabarito": "eliminar valores duplicados de um conjunto de dados."
+    },
+    {
+        "id": 72,
+        "enunciado": "Quanto aos conceitos relativos à arquitetura de dados, julgue o item a seguir.\nO ETL (Extract Transform Load) possui uma área de preparação de dados localizada entre as fontes de dados e os destinos de dados, que geralmente são data warehouses, data marts ou outros repositórios de dados; uma staging area é usada para o processamento de dados durante o processo de ETL.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 73,
+        "enunciado": "A respeito de análise de dados, business intelligence (BI), OLAP e data warehouse (DW), julgue o item subsequente.\nA implementação correta dos processos de acesso a dados, federação de dados e captura de mudanças possibilita o acesso a essas informações por meio de um leque de ferramentas ETL.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 74,
+        "enunciado": "Considerando o processamento voltado para ETL (extract, transform, load), julgue o item seguinte.\nTransformação é o processo de gravar os dados no banco de dados de destino.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 75,
+        "enunciado": "Considerando o processamento voltado para ETL (extract, transform, load), julgue o item seguinte.\nA extração converte registros de seu formato de origem operacional em um formato específico de data warehouse.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 76,
+        "enunciado": "Considerando o processamento voltado para ETL (extract, transform, load), julgue o item seguinte.\nExtração pode ser definida como a operação de extrair informações de um sistema de origem para uso posterior em um ambiente de data warehouse.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 77,
+        "enunciado": "Após ter sido privatizada, determinada empresa passou a utilizar novos sistemas administrativos, tais como: folha de pagamento, sistema de pessoal, sistemas de benefícios etc.; porém, constatou-se que os sistemas antigos não poderiam ser descontinuados em um pequeno espaço de tempo. Tais sistemas usavam tecnologias de armazenamento de dados antiquados e dados de baixa qualidade.\nAcerca dessa situação hipotética e considerando aspectos diversos pertinentes à inteligência de negócios - business intelligence (BI) -, julgue o seguinte item.\nNa situação hipotética em questão, para transformar os dados brutos em informações estratégicas para a tomada de decisão, deveriam ser utilizadas ferramentas de BI.\nTais ferramentas podem ser divididas nas seguintes etapas: coleta, análise, visualização de dados e tomada de decisão. Na etapa da coleta, normalmente, usa-se o método de extração, transformação e carregamento.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 78,
+        "enunciado": "Após ter sido privatizada, determinada empresa passou a utilizar novos sistemas administrativos, tais como: folha de pagamento, sistema de pessoal, sistemas de benefícios etc.; porém, constatou-se que os sistemas antigos não poderiam ser descontinuados em um pequeno espaço de tempo. Tais sistemas usavam tecnologias de armazenamento de dados antiquados e dados de baixa qualidade.\nAcerca dessa situação hipotética e considerando aspectos diversos pertinentes à inteligência de negócios - business intelligence (BI) -, julgue o seguinte item.\nEm situações semelhantes àquela em apreço, as técnicas de um sistema de BI objetivam aumentar a agilidade e assertividade na tomada de decisões, com a definição de regras para a formatação adequada dos dados, visando a transformação desses dados em armazéns estruturados de informações, considerando a origem deles.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 79,
+        "enunciado": "Julgue o próximo item, acerca do mapeamento de fontes de a dados e da arquitetura de business inteligence (BI).\nConsiderando que uma organização de grande porte tenha dados sensíveis das suas operações, armazenados em papel (pequena quantidade), arquivos de texto (pequena quantidade), planilhas (grande quantidade), banco de dados (grande quantidade) e na nuvem (pequena quantidade), é correto afirmar que, nessa situação hipotética, a arquitetura de BI, em uma visão moderna de BI em tempo real e orientada a eventos, possibilitaria a extração de dados não somente de um DW, mas sim de dados online e em tempo real, com o auxílio do OLTP (on line transaction processing) e do real time ETL (processo ETL em tempo real).",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 80,
+        "enunciado": "Considerando o processo de ETL (Extração, Transformação e Carga – Load) utilizado para a obtenção de dados, por exemplo, em sistemas de análise dos negócios, é correto afirmar que a etapa de",
+        "alternativas": [
+            "Carga consiste em obter os dados do ambiente de origem dos dados, visando sua transferência para a nuvem.",
+            "Carga consiste em aplicar algoritmos de criptografia aos dados obtidos do ambiente de origem desses dados.",
+            "Extração consiste em eliminar do ambiente de origem dos dados pelo menos metade de seu volume de dados.",
+            "Transformação consiste em informar aos usuários do sistema final as propriedades de desempenho especificadas nos requisitos.",
+            "Extração consiste em obter os dados do ambiente de origem dos dados, visando a execução da etapa de Transformação."
+        ],
+        "gabarito": "Extração consiste em obter os dados do ambiente de origem dos dados, visando a execução da etapa de Transformação."
+    },
+    {
+        "id": 81,
+        "enunciado": "Considere que há múltiplas fontes de dados em uma empresa, armazenadas em planilhas eletrônicas.\nA preparação e a integração desses dados, a serem utilizados para tomada de decisão com apoio de programas de BI, requerem atenção especial para que",
+        "alternativas": [
+            "antes da preparação, seja garantido que não existam dados repetidos em fontes de dados distintas.",
+            "antes da preparação, todas as planilhas utilizem os mesmos nomes de coluna, onde for adequado.",
+            "após a integração, os dados de uma fonte não possam ser relacionados a dados de outra fonte.",
+            "após a integração, haja uniformidade dos domínios de todas as colunas do BI que tenham a mesma natureza (por exemplo, cor, idade, etc).",
+            "após a integração, todos os valores desconhecidos (não preenchidos) oriundos dessas planilhas sejam necessariamente preenchidos com um valor fixo e predeterminado."
+        ],
+        "gabarito": "após a integração, haja uniformidade dos domínios de todas as colunas do BI que tenham a mesma natureza (por exemplo, cor, idade, etc)."
+    },
+    {
+        "id": 82,
+        "enunciado": "Lino precisa preparar um grande volume de dados para minerar realizando operações de limpeza, adequação de formato, exclusão de brancos e inclusão de novos atributos derivados.\nPara realizar o pré-processamento dos dados, Lino deve usar uma ferramenta do tipo:",
+        "alternativas": [
+            "ETL;",
+            "OLAP;",
+            "Apriori;",
+            "Data Mart;",
+            "Data Lake."
+        ],
+        "gabarito": "ETL;"
+    },
+    {
+        "id": 83,
+        "enunciado": "No contexto dos processos ETL (Extract, Transform & Load), analise as afirmativas a seguir.\nI. A Stage Area é comumente usada para a limpeza, consolidação, agregação, alinhamento e outras funções aplicadas aos dados oriundos de múltiplas fontes.\nII. Além de bancos de dados de produção, arquivos avulsos formatados como por exemplo CSV, planilhas, XML, JSON são frequentemente usados no processo de carga (load).\nIII. Na Stage Area são criados bancos de dados próprios com dados temporários apenas, cuja finalidade é aproveitar as facilidades de acesso e manipulação para as tarefas de transformação dos dados.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I e II, somente.",
+            "I e III, somente.",
+            "I, II e III.",
+            "I, somente.",
+            "II e III, somente."
+        ],
+        "gabarito": "I e II, somente."
+    },
+    {
+        "id": 84,
+        "enunciado": "Em projetos de Data Warehouse a missão de integração de dados oriundos de diversas fontes é uma das mais críticas. Essa missão é composta por diversas tarefas, como por exemplo: carga, extração e transformação. As fontes de dados podem ser as mais variadas e vão desde arquivos de planilhas eletrônicas até bancos de dados relacionais com milhões de tuplas.\nA respeito dos desafios existentes na consolidação de dados em projetos Data Warehouse, analise as afirmativas abaixo e marque alternativa correta.\nI. Chamamos de ETL as ferramentas de software que são especializadas no processo de integração de dados. Elas são capazes de se conectar a diferentes fontes para extração de dados, transformar os dados quando necessário, e finalmente carrega-los na base que consolidará todas as informações importantes.\nII. O processo de transformação de dados nos permite a realização de diversas operações. A operação de transposição por exemplo, nos permite transforma linhas em colunas ou vice-versa. Já a operação de derivação ocorre quando, através de uma função de mapeamento, realizamos a mudança dos dados de domínio para um outro domínio.\nIII. Pentaho Data Integration, Oracle Data Integrator e Informatica Power Center são alguns exemplos de ferramentas de integração de dados conhecidas no mercado.",
+        "alternativas": [
+            "Apenas as afirmativas I e II estão corretas.",
+            "Apenas a afirmativa II está correta.",
+            "Apenas as afirmativas I e III estão corretas.",
+            "Apenas a afirmativa I está correta.",
+            "Todas as afirmativas estão corretas."
+        ],
+        "gabarito": "Apenas a afirmativa I está correta."
+    },
+    {
+        "id": 85,
+        "enunciado": "A tomada de decisão organizacional exige uma visão abrangente de todos os aspectos de uma empresa, de modo que muitas organizações criaram Data Warehouses consolidados, que contêm dados extraídos de vários bancos de dados mantidos por diferentes unidades empresariais, com informações históricas e de resumo. Depois de seu esquema ser projetado, o Data Warehouse precisa ser preenchido. A aquisição de dados envolve um sequência de passos.\nAssinale a alternativa que apresenta os passos na sequência CORRETA.",
+        "alternativas": [
+            "Extração, Limpeza, Transformação, Atualização e Carregamento.",
+            "Extração, Limpeza, Transformação, Carregamento e Atualização.",
+            "Limpeza, Extração, Transformação, Carregamento e Atualização.",
+            "Extração, Transformação, Limpeza, Carregamento e Atualização.",
+            "Limpeza, Extração, Transformação, Atualização e Carregamento."
+        ],
+        "gabarito": "Extração, Limpeza, Transformação, Carregamento e Atualização."
+    },
+    {
+        "id": 86,
+        "enunciado": "Com base na definição abaixo, analise o texto a seguir e assinale a alternativa com esta descrição.\n\"São ferramentas de software cuja função é a extração de dados de diversos sistemas, transformação desses dados conforme regras de negócios e por fim o carregamento dos dados geralmente para um Data Mart e/ou Data Warehouse, porém nada impede que também seja para enviar os dados para um determinado sistema da organização\"",
+        "alternativas": [
+            "ERP.",
+            "WAP.",
+            "ETL.",
+            "EPP."
+        ],
+        "gabarito": "ETL."
+    },
+    {
+        "id": 87,
+        "enunciado": "No contexto da implementação de tecnologias para data mining e apresentação de dados, a sigla ETL refere-se",
+        "alternativas": [
+            "ao processamento de transações on line em ambientes de produção.",
+            "ao processo de identificação de dados e relacionamentos numa interface de exploração de dados.",
+            "aos processos de criação de índices full text.",
+            "aos processos de extração, transformação e carga de dados.",
+            "às manobras para visualização de dados sobre cubos dimensionais."
+        ],
+        "gabarito": "aos processos de extração, transformação e carga de dados."
+    },
+    {
+        "id": 88,
+        "enunciado": "Acerca de inteligência de negócios (business intelligence), julgue o item a seguir.\nEntre as preocupações relacionadas à precisão de processos ETL em data warehouse, destaca-se a necessidade de incluir um sistema de alertas sobre eventuais problemas, como, por exemplo, APIs expiradas e erros de conectores.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 89,
+        "enunciado": "A respeito de bancos de dados relacionais e de modelagem dimensional, julgue o item subsequente.\nETL (extract transform load) é uma ferramenta utilizada para extrair informações e realizar análise multidimensional no data warehouse.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 90,
+        "enunciado": "Acerca dos conceitos de ingestão de dados, julgue o item a seguir.\nQuando a ingestão de dados ocorre em lotes, esses dados são movidos em intervalos programados, abordagem que é benéfica para os processos repetíveis.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 91,
+        "enunciado": "Tecnologias que recuperam dados de muitas fontes, limpando-os e carregando-os em data warehouse, e que fazem parte de qualquer projeto centrado em dados denominam-se",
+        "alternativas": [
+            "Depósitos de Dados Operacionais (ODS).",
+            "ETL (Extract, Transform and Load).",
+            "BPM (Business Performance Management).",
+            "OLTP (online transaction processing).",
+            "KPI (Key Performance Indicators)."
+        ],
+        "gabarito": "ETL (Extract, Transform and Load)."
+    },
+    {
+        "id": 92,
+        "enunciado": "No que se refere a técnicas de modelagem e aplicações de data warehousing, julgue o item seguinte.\nETL é um tipo de data integration com capacidades analíticas sofisticadas que permite que os dados sejam analisados a partir de visões multidimensionais complexas e elaboradas. Além disso, esse sistema possibilita alterar e analisar grandes quantidades de dados em várias perspectivas diferentes.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    }
+]

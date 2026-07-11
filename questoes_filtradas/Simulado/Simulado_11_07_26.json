@@ -1,0 +1,422 @@
+[
+    {
+        "id": 1,
+        "enunciado": "Como a Lei 12.527/2011 define 'informação sigilosa'?",
+        "alternativas": [
+            "Informação permanentemente inacessível ao cidadão.",
+            "Aquela submetida temporariamente à restrição de acesso público por segurança.",
+            "Documentos que contenham opiniões políticas de governantes.",
+            "Dados bancários de empresas públicas em processo de licitação."
+        ],
+        "gabarito": "Aquela submetida temporariamente à restrição de acesso público em razão de sua imprescindibilidade para a segurança da sociedade e do Estado.",
+        "assunto": "L12527 (LAI)_Capítulo I"
+    },
+    {
+        "id": 2,
+        "enunciado": "A definição de 'tratamento da informação' inclui a 'eliminação' de dados?",
+        "alternativas": [
+            "Não, pois a LAI visa apenas o acesso.",
+            "Sim, é uma das ações que compõem o conjunto do tratamento.",
+            "Apenas para documentos classificados como secretos.",
+            "Sim, desde que autorizada pelo cidadão interessado."
+        ],
+        "gabarito": "Sim, o tratamento da informação inclui ações referentes à eliminação da informação.",
+        "assunto": "L12527 (LAI)_Capítulo I"
+    },
+    {
+        "id": 3,
+        "enunciado": "O princípio da 'prevenção' foca na adoção de medidas para:",
+        "alternativas": [
+            "Punir os infratores após o vazamento de dados",
+            "Prevenir a ocorrência de danos em virtude do tratamento de dados",
+            "Aumentar a velocidade de processamento das informações",
+            "Evitar a concorrência desleal entre empresas do setor"
+        ],
+        "gabarito": "Adoção de medidas para prevenir a ocorrência de danos em virtude do tratamento de dados pessoais.",
+        "assunto": "L13709 (LGPD)_Capítulo I"
+    },
+    {
+        "id": 4,
+        "enunciado": "Para que os dados sejam considerados 'coletados no território nacional', é necessário que:",
+        "alternativas": [
+            "O servidor de armazenamento esteja no Brasil",
+            "O titular se encontre no Brasil no momento da coleta",
+            "A empresa tenha capital majoritário brasileiro",
+            "O contrato tenha sido assinado em cartório nacional"
+        ],
+        "gabarito": "Consideram-se coletados no território nacional os dados pessoais cujo titular nele se encontre no momento da coleta.",
+        "assunto": "L13709 (LGPD)_Capítulo I"
+    },
+    {
+        "id": 5,
+        "enunciado": "A exclusão de dado ou de conjunto de dados armazenados em banco de dados é denominada:",
+        "alternativas": [
+            "Bloqueio",
+            "Eliminação",
+            "Expurgos periódicos",
+            "Suspensão de tratamento"
+        ],
+        "gabarito": "Eliminação.",
+        "assunto": "L13709 (LGPD)_Capítulo I"
+    },
+    {
+        "id": 6,
+        "enunciado": "Qual é a definição matemática do \\(\\ce{$F_1$}\\)-Score na validação de modelos?<br>Opções:",
+        "alternativas": [
+            "\\(\\ce{$F_1 = \\frac{Precisão + Recall}{2}$}\\)",
+            "\\(\\ce{$F_1 = 2 \\cdot \\frac{Precisão \\cdot Recall}{Precisão + Recall}$}\\)",
+            "\\(\\ce{$F_1 = \\sqrt{Precisão \\cdot Recall}$}\\)",
+            "\\(\\ce{$F_1 = \\frac{Precisão \\cdot Recall}{Precisão + Recall}$}\\)"
+        ],
+        "gabarito": "F_1 = 2 \\cdot \\frac{Precisão \\cdot Recall}{Precisão + Recall}",
+        "assunto": "Banco de Dados_Business Intelligence"
+    },
+    {
+        "id": 7,
+        "enunciado": "O que define um Data Warehouse (DW) em termos de persistência de dados?<br>Opções:",
+        "alternativas": [
+            "Ele armazena dados de forma volátil para atualizações rápidas.",
+            "Ele armazena dados de forma não volátil e orientada por assuntos.",
+            "Ele foca em dados normalizados para garantir transações ACID.",
+            "Ele armazena dados brutos sem qualquer processo de transformação."
+        ],
+        "gabarito": "Ele armazena dados de forma não volátil e orientada por assuntos.",
+        "assunto": "Banco de Dados_Business Intelligence"
+    },
+    {
+        "id": 8,
+        "enunciado": "O BI 3.0 caracteriza-se fundamentalmente pelo acoplamento de quais tecnologias?<br>Opções:",
+        "alternativas": [
+            "Planilhas estáticas e e-mails corporativos.",
+            "Inteligência Artificial e Machine Learning para decisões automatizadas.",
+            "SQL Server e ferramentas de backup físico.",
+            "Relatórios em PDF e reuniões de conselho."
+        ],
+        "gabarito": "Inteligência Artificial e Machine Learning para decisões automatizadas.",
+        "assunto": "Banco de Dados_Business Intelligence"
+    },
+    {
+        "id": 9,
+        "enunciado": "O que o Desvio Padrão (\\(\\ce{$\\sigma$}\\)) mensura em uma análise estatística?<br>Opções:",
+        "alternativas": [
+            "A força da relação linear entre duas variáveis distintas.",
+            "A variabilidade dos pontos de dados em relação à média aritmética.",
+            "A dispersão central isolando os \\(\\ce{$50\\%$}\\) centrais dos dados.",
+            "A probabilidade de um evento futuro ocorrer com base no histórico."
+        ],
+        "gabarito": "A variabilidade dos pontos de dados em relação à média aritmética.",
+        "assunto": "Banco de Dados_Business Intelligence"
+    },
+    {
+        "id": 10,
+        "enunciado": "Qual o benefício de integrar o BI com Sistemas de Gestão de Conteúdo (CMS)?<br>Opções:",
+        "alternativas": [
+            "Reduzir a segurança dos dados estruturados da empresa.",
+            "Cruzar dados estruturados com informações não estruturadas, como e-mails e atas.",
+            "Eliminar a necessidade de processos de ETL.",
+            "Centralizar o processamento de transações financeiras."
+        ],
+        "gabarito": "Cruzar dados estruturados com informações não estruturadas, como e-mails e atas.",
+        "assunto": "Banco de Dados_Business Intelligence"
+    },
+    {
+        "id": 11,
+        "enunciado": "Uma especialização em que uma instância da entidade mãe pode pertencer simultaneamente a duas ou mais subentidades filhas é chamada de:",
+        "alternativas": [
+            "Disjunta",
+            "Total",
+            "Sobreposta",
+            "Parcial"
+        ],
+        "gabarito": "Sobreposta",
+        "assunto": "Banco de Dados_Projeto e Modelagem"
+    },
+    {
+        "id": 12,
+        "enunciado": "A capacidade de alterar o esquema conceitual sem a necessidade de modificar as aplicações existentes ou os esquemas externos define a:",
+        "alternativas": [
+            "Independência Física de Dados",
+            "Integridade Referencial",
+            "Independência Lógica de Dados",
+            "Normalização de Dados"
+        ],
+        "gabarito": "Independência Lógica de Dados",
+        "assunto": "Banco de Dados_Projeto e Modelagem"
+    },
+    {
+        "id": 13,
+        "enunciado": "Qual tipo de cardinalidade indica que uma ocorrência da Entidade A pode estar associada a múltiplas instâncias da Entidade B, mas cada instância de B vincula-se a um elemento de A?",
+        "alternativas": [
+            "\\(\\ce{$1:1$}\\)",
+            "\\(\\ce{$1:N$}\\)",
+            "\\(\\ce{$N:N$}\\)",
+            "\\(\\ce{$M:N$}\\)"
+        ],
+        "gabarito": "\\(\\ce{$1:N$}\\)",
+        "assunto": "Banco de Dados_Projeto e Modelagem"
+    },
+    {
+        "id": 14,
+        "enunciado": "Em sistemas de missão crítica, qual técnica é frequentemente utilizada na modelagem física para garantir tolerância a falhas e alta disponibilidade?",
+        "alternativas": [
+            "Normalização na 5ª Forma Normal",
+            "Redundância Controlada e Replicação",
+            "Eliminação de Índices Secundários",
+            "Centralização em Servidor Único"
+        ],
+        "gabarito": "Redundância Controlada e Replicação",
+        "assunto": "Banco de Dados_Projeto e Modelagem"
+    },
+    {
+        "id": 15,
+        "enunciado": "A especialização classificada como 'Disjunta' implica que uma instância da entidade mãe:",
+        "alternativas": [
+            "Pertence obrigatoriamente a todas as filhas",
+            "Pertence a apenas uma subentidade filha por vez",
+            "Não pode pertencer a nenhuma subentidade filha",
+            "Pode acumular funções de múltiplas filhas"
+        ],
+        "gabarito": "Pertence a apenas uma subentidade filha por vez",
+        "assunto": "Banco de Dados_Projeto e Modelagem"
+    },
+    {
+        "id": 16,
+        "enunciado": "Qual a principal função da Java Virtual Machine (JVM) no modelo de execução da linguagem?",
+        "alternativas": [
+            "Transformar o código-fonte .java em código de máquina",
+            "Interpretar o bytecode em tempo de execução para o sistema operacional hospedeiro",
+            "Compilar o código-fonte em bytecode independente de hardware",
+            "Gerenciar o repositório de bibliotecas externas do projeto"
+        ],
+        "gabarito": "Interpretar o bytecode em tempo de execução para o sistema operacional hospedeiro",
+        "assunto": "Desenvolvimento de Software_Java"
+    },
+    {
+        "id": 17,
+        "enunciado": "Qual o efeito de aplicar o modificador final a uma classe?",
+        "alternativas": [
+            "A classe torna-se abstrata e exige herança",
+            "A classe não pode possuir métodos estáticos",
+            "A classe não pode ser estendida por nenhuma outra classe",
+            "A classe torna-se um tipo enumerado"
+        ],
+        "gabarito": "A classe não pode ser estendida por nenhuma outra classe",
+        "assunto": "Desenvolvimento de Software_Java"
+    },
+    {
+        "id": 18,
+        "enunciado": "Qual característica distingue o HashSet de um ArrayList?",
+        "alternativas": [
+            "O HashSet permite elementos duplicados",
+            "O HashSet mantém a ordem de inserção dos elementos",
+            "O HashSet não permite elementos duplicados e usa tabelas hash",
+            "O ArrayList é mais lento para acesso por índice"
+        ],
+        "gabarito": "O HashSet não permite elementos duplicados e usa tabelas hash",
+        "assunto": "Desenvolvimento de Software_Java"
+    },
+    {
+        "id": 19,
+        "enunciado": "Qual recurso do Java 21 é destacado por otimizar a coleta de lixo de baixa latência focada em gerações de objetos?",
+        "alternativas": [
+            "Serial GC",
+            "Parallel GC",
+            "Generational ZGC",
+            "CMS Collector"
+        ],
+        "gabarito": "Generational ZGC",
+        "assunto": "Desenvolvimento de Software_Java"
+    },
+    {
+        "id": 20,
+        "enunciado": "Nas Sealed Classes do Java 17+, quais modificadores são permitidos para as subclasses autorizadas?",
+        "alternativas": [
+            "Apenas final ou non-sealed",
+            "final, sealed ou non-sealed",
+            "abstract, static ou protected",
+            "public, private ou default"
+        ],
+        "gabarito": "final, sealed ou non-sealed",
+        "assunto": "Desenvolvimento de Software_Java"
+    },
+    {
+        "id": 21,
+        "enunciado": "A área de Qualidade em gerenciamento de projetos foca em quais elementos fundamentais?",
+        "alternativas": [
+            "Aquisição de recursos físicos e equipamentos de infraestrutura.",
+            "Padrões, especificações e métricas para atender aos critérios de aceitação.",
+            "Planejamento das respostas a incertezas e ameaças externas.",
+            "Identificação do poder e interesse das partes interessadas."
+        ],
+        "gabarito": "Padrões, especificações e métricas para atender aos critérios de aceitação.",
+        "assunto": "Governança_Gerenciamento de Projetos"
+    },
+    {
+        "id": 22,
+        "enunciado": "Qual a importância do 'Termo de Encerramento' no ciclo de vida do projeto?",
+        "alternativas": [
+            "Definir a baseline de custos para a fase de execução técnica.",
+            "Formalizar o aceite do cliente, desmobilizar recursos e registrar lições aprendidas.",
+            "Identificar os stakeholders de baixo poder e baixo interesse.",
+            "Emitir a autorização legal para a aplicação de recursos corporativos."
+        ],
+        "gabarito": "Formalizar o aceite do cliente, desmobilizar recursos e registrar lições aprendidas.",
+        "assunto": "Governança_Gerenciamento de Projetos"
+    },
+    {
+        "id": 23,
+        "enunciado": "Qual área garante que o projeto inclua 'apenas o trabalho necessário'?",
+        "alternativas": [
+            "Integração.",
+            "Escopo.",
+            "Qualidade.",
+            "Custos."
+        ],
+        "gabarito": "Escopo.",
+        "assunto": "Governança_Gerenciamento de Projetos"
+    },
+    {
+        "id": 24,
+        "enunciado": "Dentro da hierarquia estratégica, qual é o objetivo principal de um Portfólio?",
+        "alternativas": [
+            "Gerenciar interdependências técnicas entre projetos relacionados.",
+            "Facilitar o alcance de objetivos estratégicos através do agrupamento de iniciativas.",
+            "Garantir que cada tarefa individual seja executada no menor tempo possível.",
+            "Focar na entrega incremental de produtos funcionais ao cliente final."
+        ],
+        "gabarito": "Facilitar o alcance de objetivos estratégicos através do agrupamento de iniciativas.",
+        "assunto": "Governança_Gerenciamento de Projetos"
+    },
+    {
+        "id": 25,
+        "enunciado": "Qual a principal característica de uma abordagem de desenvolvimento Híbrida?",
+        "alternativas": [
+            "A exclusão total de componentes preditivos em favor da agilidade plena.",
+            "A fusão de técnicas tradicionais para blocos fixos e ágeis para componentes incertos.",
+            "O uso de planejamento incremental apenas para contratos jurídicos e normas.",
+            "A aplicação de execução rígida em ambientes de alta inovação e volatilidade."
+        ],
+        "gabarito": "A fusão de técnicas tradicionais para blocos fixos e ágeis para componentes incertos.",
+        "assunto": "Governança_Gerenciamento de Projetos"
+    },
+    {
+        "id": 26,
+        "enunciado": "O fenômeno de 'Overfitting' (Sobreajuste) é caracterizado por qual comportamento?",
+        "alternativas": [
+            "Erro alto tanto nos dados de treinamento quanto nos de teste.",
+            "Erro baixo no treinamento, mas queda drástica de desempenho em dados novos.",
+            "Incapacidade do modelo de aprender qualquer padrão básico inicial.",
+            "Identificação correta de causalidade em vez de simples correlação estatística."
+        ],
+        "gabarito": "Erro baixo no treinamento, mas queda drástica de desempenho em dados novos.",
+        "assunto": "Inteligência Artificial_Conceitos"
+    },
+    {
+        "id": 27,
+        "enunciado": "Qual tipo de estrutura de agente escolhe ações com base em regras de condição-ação (Se-Então), ignorando o histórico de estados?",
+        "alternativas": [
+            "Agente Baseado em Objetivos.",
+            "Agente Reativo Simples.",
+            "Agente Baseado em Utilidade.",
+            "Agente Reativo Baseado em Modelos."
+        ],
+        "gabarito": "Agente Reativo Simples.",
+        "assunto": "Inteligência Artificial_Conceitos"
+    },
+    {
+        "id": 28,
+        "enunciado": "Agentes que utilizam uma função matemática para ponderar trade-offs (ex.: caminho mais rápido vs. mais seguro) são classificados como:",
+        "alternativas": [
+            "Baseados em Objetivos.",
+            "Baseados em Utilidade.",
+            "Reativos Simples.",
+            "Autônomos de Teoria da Mente."
+        ],
+        "gabarito": "Baseados em Utilidade.",
+        "assunto": "Inteligência Artificial_Conceitos"
+    },
+    {
+        "id": 29,
+        "enunciado": "Um saque bancário de valor massivo que diverge totalmente do histórico do cliente é um exemplo de:",
+        "alternativas": [
+            "Anomalia Pontual (Global).",
+            "Anomalia de Teoria da Mente.",
+            "Erro de Underfitting do modelo.",
+            "Regularização excessiva de dados."
+        ],
+        "gabarito": "Anomalia Pontual (Global).",
+        "assunto": "Inteligência Artificial_Conceitos"
+    },
+    {
+        "id": 30,
+        "enunciado": "Por que o Deep Blue é citado como um exemplo de Máquina Reativa?",
+        "alternativas": [
+            "Pois ele utilizava memórias de partidas de anos anteriores para decidir.",
+            "Pois ele reagia ao cenário presente no tabuleiro sem usar experiências passadas.",
+            "Pois ele possuía consciência das jogadas do adversário através da Teoria da Mente.",
+            "Pois ele foi treinado com modelos de difusão para gerar novas jogadas."
+        ],
+        "gabarito": "Pois ele reagia ao cenário presente no tabuleiro sem usar experiências passadas.",
+        "assunto": "Inteligência Artificial_Conceitos"
+    },
+    {
+        "id": 31,
+        "enunciado": "Para qual órgão as instituições no Brasil devem enviar notificações formais após a detecção e contenção de artefatos maliciosos?<br>Opções:",
+        "alternativas": [
+            "Polícia Federal.",
+            "CERT.br.",
+            "Banco Central do Brasil.",
+            "Ministério da Tecnologia."
+        ],
+        "gabarito": "CERT.br.",
+        "assunto": "Segurança da Informação_Políticas de Segurança da Informação"
+    },
+    {
+        "id": 32,
+        "enunciado": "Em qual etapa da elaboração da PSI as ameaças e vulnerabilidades são identificadas para selecionar controles proporcionais?<br>Opções:",
+        "alternativas": [
+            "Mapeamento e Levantamento de Ativos.",
+            "Redação e Aprovação Formal.",
+            "Análise e Gestão Sistemática de Riscos.",
+            "Avaliação da Maturidade Tecnológica."
+        ],
+        "gabarito": "Análise e Gestão Sistemática de Riscos.",
+        "assunto": "Segurança da Informação_Políticas de Segurança da Informação"
+    },
+    {
+        "id": 33,
+        "enunciado": "Quais são os quatro temas centrais para organizar os controles de segurança conforme a ISO/IEC 27002:2022?<br>Opções:",
+        "alternativas": [
+            "Estratégico, Tático, Operacional e Legal.",
+            "Organizacionais, Pessoas, Físicos e Tecnológicos.",
+            "Confidencialidade, Integridade, Disponibilidade e Autenticidade.",
+            "Preventivos, Detetivos, Corretivos e Preditivos."
+        ],
+        "gabarito": "Organizacionais, Pessoas, Físicos e Tecnológicos.",
+        "assunto": "Segurança da Informação_Políticas de Segurança da Informação"
+    },
+    {
+        "id": 34,
+        "enunciado": "Qual é a recomendação para o acesso remoto seguro em regimes de Home Office?<br>Opções:",
+        "alternativas": [
+            "Uso de conexões Wi-Fi públicas sem necessidade de criptografia.",
+            "Uso mandatório de VPN criptografada ou desktops virtuais (VDI).",
+            "Compartilhamento de senhas de acesso entre membros da mesma equipe.",
+            "Armazenamento de dados corporativos em serviços de nuvem pessoais."
+        ],
+        "gabarito": "Uso mandatório de VPN criptografada ou desktops virtuais (VDI).",
+        "assunto": "Segurança da Informação_Políticas de Segurança da Informação"
+    },
+    {
+        "id": 35,
+        "enunciado": "Sobre o propósito da PSI, como ela deve estar alinhada com os objetivos da organização?<br>Opções:",
+        "alternativas": [
+            "Deve focar em requisitos tecnológicos de vanguarda independentemente do custo.",
+            "Deve alinhar-se aos requisitos comerciais, legais, regulamentares e contratuais.",
+            "Deve priorizar a agilidade operacional sobre os controles de proteção de dados.",
+            "Deve ser elaborada isoladamente pela equipe de segurança cibernética."
+        ],
+        "gabarito": "Deve alinhar-se aos requisitos comerciais, legais, regulamentares e contratuais.",
+        "assunto": "Segurança da Informação_Políticas de Segurança da Informação"
+    }
+]

@@ -1,91 +1,103 @@
 [
     {
         "id": 1,
-        "enunciado": "A 'reprodução' da informação é considerada uma forma de:",
+        "enunciado": "A integridade da informação deve ser mantida em quais momentos?",
         "alternativas": [
-            "Violação de direitos autorais.",
-            "Tratamento da informação.",
-            "Sigilo administrativo.",
-            "Autenticidade documental."
+            "Apenas durante a produção.",
+            "Somente durante o armazenamento.",
+            "Na origem, trânsito e destino.",
+            "Apenas quando solicitada por via judicial."
         ],
-        "gabarito": "Tratamento da informação.",
+        "gabarito": "Na origem, trânsito e destino.",
         "assunto": "L12527 (LAI)_Capítulo I"
     },
     {
         "id": 2,
-        "enunciado": "Como a Lei 12.527/2011 define 'informação sigilosa'?",
+        "enunciado": "A utilização de meios de comunicação viabilizados pela tecnologia da informação é considerada:",
         "alternativas": [
-            "Informação permanentemente inacessível ao cidadão.",
-            "Aquela submetida temporariamente à restrição de acesso público por segurança.",
-            "Documentos que contenham opiniões políticas de governantes.",
-            "Dados bancários de empresas públicas em processo de licitação."
+            "Uma faculdade do gestor.",
+            "Uma diretriz da execução da Lei.",
+            "Um custo desnecessário.",
+            "Uma medida de sigilo."
         ],
-        "gabarito": "Aquela submetida temporariamente à restrição de acesso público por segurança.",
+        "gabarito": "Uma diretriz da execução da Lei.",
         "assunto": "L12527 (LAI)_Capítulo I"
     },
     {
         "id": 3,
-        "enunciado": "Se um tratamento de dados é incompatível com a finalidade informada originalmente, ele viola o princípio da:",
+        "enunciado": "A comunicação ou interconexão de dados pessoais por órgãos públicos no cumprimento de competências legais é denominada:",
         "alternativas": [
-            "Qualidade dos dados",
-            "Finalidade",
-            "Segurança",
-            "Prevenção"
+            "Transferência internacional de dados",
+            "Uso compartilhado de dados",
+            "Difusão seletiva de informações",
+            "Cooperação federativa de dados"
         ],
-        "gabarito": "Finalidade",
+        "gabarito": "Uso compartilhado de dados",
         "assunto": "L13709 (LGPD)_Capítulo I"
     },
     {
         "id": 4,
-        "enunciado": "Qual é a restrição imposta a pessoas de direito privado no tratamento de dados para fins de segurança pública ou repressão de infrações penais (Art. 4º, § 2º)?",
+        "enunciado": "O princípio da 'finalidade' (Art. 6º, I) estabelece que o tratamento deve ser realizado para:",
         "alternativas": [
-            "Proibição total de realizar qualquer operação de tratamento",
-            "Vedação do tratamento, salvo em procedimentos sob tutela de pessoa jurídica de direito público",
-            "Necessidade de autorização judicial para cada dado coletado",
-            "Obrigatoriedade de compartilhamento em tempo real com o Ministério Público"
+            "Propósitos genéricos definidos no estatuto social",
+            "Propósitos legítimos, específicos, explícitos e informados ao titular",
+            "Atender a demandas futuras não previstas no momento da coleta",
+            "Fins publicitários de parceiros comerciais do controlador"
         ],
-        "gabarito": "Vedação do tratamento, salvo em procedimentos sob tutela de pessoa jurídica de direito público",
+        "gabarito": "Propósitos legítimos, específicos, explícitos e informados ao titular",
         "assunto": "L13709 (LGPD)_Capítulo I"
     },
     {
         "id": 5,
-        "enunciado": "O tratamento de dados para fins jornalísticos e artísticos é uma exceção à aplicação da LGPD, contudo, o tratamento para fins acadêmicos deve observar obrigatoriamente:",
+        "enunciado": "O tratamento de dados para fins de 'defesa nacional' é regido por:",
         "alternativas": [
-            "O registro prévio na autoridade nacional",
-            "Os artigos 7º e 11 desta Lei",
-            "A contratação de um encarregado certificado",
-            "O pagamento de taxas de licenciamento de dados"
+            "Legislação específica",
+            "Decisão discricionária do Chefe do Executivo",
+            "Normas da Autoridade Nacional de Proteção de Dados",
+            "Tratados internacionais de guerra"
         ],
-        "gabarito": "Fins acadêmicos, aplicando-se a esta hipótese os arts. 7º e 11 desta Lei.",
+        "gabarito": "Legislação específica",
         "assunto": "L13709 (LGPD)_Capítulo I"
     },
     {
         "id": 6,
-        "enunciado": "Por que manter uma granularidade fina (detalhada) é uma excelente prática em BI?<br>Opções:",
+        "enunciado": "Qual é a principal limitação da 'Análise Descritiva' no contexto de Data Analytics?\nOpções:",
         "alternativas": [
-            "Porque reduz o tempo de carregamento dos dashboards.",
-            "Porque permite validar a consistência e veracidade dos resultados agregados.",
-            "Porque ocupa menos espaço de armazenamento no Data Lake.",
-            "Porque dispensa o uso de ferramentas de Business Analytics."
+            "A incapacidade de processar dados passados.",
+            "O foco em prever o futuro utilizando algoritmos de machine learning.",
+            "A restrição ao resumo e organização de dados passados e presentes sem prever o futuro.",
+            "A dependência de inteligência artificial para recomendar planos de ação."
         ],
-        "gabarito": "Porque permite validar a consistência e veracidade dos resultados agregados.",
+        "gabarito": "A restrição ao resumo e organização de dados passados e presentes sem prever o futuro.",
         "assunto": "Banco de Dados_Business Intelligence"
     },
     {
         "id": 7,
-        "enunciado": "Qual a principal mudança trazida pelo BI 2.0 em relação ao BI 1.0?<br>Opções:",
+        "enunciado": "O que representa a 'Granularidade' em uma tabela fato de BI?\nOpções:",
         "alternativas": [
-            "O uso de processamento em lote (batch) centralizado.",
-            "A introdução de ferramentas baseadas na web e cockpits interativos.",
-            "A tomada de decisão totalmente autônoma por robôs.",
-            "A restrição do acesso aos dados para o nível estratégico."
+            "O número de dimensões conectadas à tabela fato.",
+            "O nível de detalhamento físico do menor registro armazenado.",
+            "A velocidade com que os dados são carregados via ETL.",
+            "O tempo total de resposta de uma consulta analítica complexa."
         ],
-        "gabarito": "A introdução de ferramentas baseadas na web e cockpits interativos.",
+        "gabarito": "O nível de detalhamento físico do menor registro armazenado.",
         "assunto": "Banco de Dados_Business Intelligence"
     },
     {
         "id": 8,
-        "enunciado": "Qual a diferença fundamental entre OLTP e bancos de dados de BI (OLAP)?<br>Opções:",
+        "enunciado": "Na arquitetura de BI, o motor servidor do QlikView é responsável por qual função principal?\nOpções:",
+        "alternativas": [
+            "Criar o layout visual e scripts de extração localmente.",
+            "Hospedar aplicações e gerenciar o processamento em memória.",
+            "Realizar o agendamento de backups físicos do servidor de banco de dados.",
+            "Gerenciar a segurança física do data center da empresa."
+        ],
+        "gabarito": "Hospedar aplicações e gerenciar o processamento em memória.",
+        "assunto": "Banco de Dados_Business Intelligence"
+    },
+    {
+        "id": 9,
+        "enunciado": "Qual a diferença fundamental entre OLTP e bancos de dados de BI (OLAP)?\nOpções:",
         "alternativas": [
             "OLTP foca em consultas analíticas pesadas, enquanto OLAP foca em transações.",
             "OLTP foca em transações diárias rápidas, enquanto OLAP foca em análise multidimensional.",
@@ -96,91 +108,115 @@
         "assunto": "Banco de Dados_Business Intelligence"
     },
     {
-        "id": 9,
-        "enunciado": "O que o Desvio Padrão (\\(\\ce{$\\sigma$}\\)) mensura em uma análise estatística?<br>Opções:",
-        "alternativas": [
-            "A força da relação linear entre duas variáveis distintas.",
-            "A variabilidade dos pontos de dados em relação à média aritmética.",
-            "A dispersão central isolando os \\(\\ce{$50\\%$}\\) centrais dos dados.",
-            "A probabilidade de um evento futuro ocorrer com base no histórico."
-        ],
-        "gabarito": "A variabilidade dos pontos de dados em relação à média aritmética.",
-        "assunto": "Banco de Dados_Business Intelligence"
-    },
-    {
         "id": 10,
-        "enunciado": "O BI 3.0 caracteriza-se fundamentalmente pelo acoplamento de quais tecnologias?<br>Opções:",
+        "enunciado": "Em AED, como são classificadas as variáveis que representam contagens de elementos, como 'número de filhos'?\nOpções:",
         "alternativas": [
-            "Planilhas estáticas e e-mails corporativos.",
-            "Inteligência Artificial e Machine Learning para decisões automatizadas.",
-            "SQL Server e ferramentas de backup físico.",
-            "Relatórios em PDF e reuniões de conselho."
+            "Escala Nominal.",
+            "Escala Ordinal.",
+            "Contagens Discretas.",
+            "Escala Dicotômica."
         ],
-        "gabarito": "Inteligência Artificial e Machine Learning para decisões automatizadas.",
+        "gabarito": "Contagens Discretas.",
         "assunto": "Banco de Dados_Business Intelligence"
     },
     {
         "id": 11,
-        "enunciado": "Qual nível da arquitetura ANSI/SPARC trata da compressão de dados e caminhos de acesso físico em disco?",
+        "enunciado": "Uma especialização em que uma instância da entidade mãe pode pertencer simultaneamente a duas ou mais subentidades filhas é chamada de:",
         "alternativas": [
-            "Nível Conceitual",
-            "Nível Externo",
-            "Nível Interno",
-            "Nível Lógico"
+            "Disjunta",
+            "Total",
+            "Sobreposta",
+            "Parcial"
         ],
-        "gabarito": "Nível Interno",
+        "gabarito": "Sobreposta",
         "assunto": "Banco de Dados_Projeto e Modelagem"
     },
     {
         "id": 12,
-        "enunciado": "Qual tipo de cardinalidade indica que uma ocorrência da Entidade A pode estar associada a múltiplas instâncias da Entidade B, mas cada instância de B vincula-se a um elemento de A?",
+        "enunciado": "A alteração de um índice ou da organização de um arquivo em disco sem impactar o esquema conceitual é uma manifestação da:",
         "alternativas": [
-            "\\(\\ce{$1:1$}\\)",
-            "\\(\\ce{$1:N$}\\)",
-            "\\(\\ce{$N:N$}\\)",
-            "\\(\\ce{$M:N$}\\)"
+            "Independência Física de Dados",
+            "Independência Semântica",
+            "Generalização de Dados",
+            "Abstração Externa"
         ],
-        "gabarito": "\\(\\ce{$1:N$}\\)",
+        "gabarito": "Independência Física de Dados",
         "assunto": "Banco de Dados_Projeto e Modelagem"
     },
     {
         "id": 13,
-        "enunciado": "Qual característica do Projeto Lógico o diferencia do Projeto Conceitual?",
+        "enunciado": "No Modelo Entidade-Relacionamento, como se chamam as propriedades ou características que qualificam uma entidade?",
         "alternativas": [
-            "Independência total de paradigma",
-            "Foco no desempenho de hardware",
-            "Adaptação às regras de um paradigma (ex: relacional)",
-            "Documentação em linguagem natural"
+            "Relacionamentos",
+            "Instâncias",
+            "Atributos",
+            "Cardinalidades"
         ],
-        "gabarito": "Adaptação às regras de um paradigma (ex: relacional)",
+        "gabarito": "Atributos",
         "assunto": "Banco de Dados_Projeto e Modelagem"
     },
     {
         "id": 14,
-        "enunciado": "Como é denominado, conceitualmente, o aspecto do mundo real que um banco de dados representa formalmente?",
+        "enunciado": "O conceito de 'dados sobre os dados', que descreve a estrutura e as relações de um banco de dados, é conhecido como:",
         "alternativas": [
             "Metadados",
-            "Esquema Lógico",
-            "Minimundo ou Universo de Discurso",
-            "Dicionário de Dados"
+            "Instâncias",
+            "Tuplas",
+            "Atributos Multivalorados"
         ],
-        "gabarito": "Minimundo ou Universo de Discurso",
+        "gabarito": "Metadados",
         "assunto": "Banco de Dados_Projeto e Modelagem"
     },
     {
         "id": 15,
-        "enunciado": "Qual nível da arquitetura de três esquemas representa a visão global do negócio, ocultando complexidades físicas como blocos de disco e ponteiros?",
+        "enunciado": "O que o Dicionário de Dados armazena, além de estruturas de tabelas e colunas?",
         "alternativas": [
-            "Nível Físico",
-            "Nível Conceitual",
-            "Nível de Visão",
-            "Nível de Mapeamento Interno"
+            "Planos de execução de queries",
+            "Mapeamentos lógicos e físicos",
+            "Dados temporários de sessão",
+            "Backups incrementais"
         ],
-        "gabarito": "Nível Conceitual",
+        "gabarito": "Mapeamentos lógicos e físicos",
         "assunto": "Banco de Dados_Projeto e Modelagem"
     },
     {
         "id": 16,
+        "enunciado": "No desenvolvimento web com Servlets, qual método deve ser sobrescrito para tratar formulários via protocolo POST?",
+        "alternativas": [
+            "void doGet(HttpServletRequest req, HttpServletResponse res)",
+            "void doPost(HttpServletRequest req, HttpServletResponse res)",
+            "void service(HttpServletRequest req, HttpServletResponse res)",
+            "void init(ServletConfig config)"
+        ],
+        "gabarito": "void doPost(HttpServletRequest req, HttpServletResponse res)",
+        "assunto": "Desenvolvimento de Software_Java"
+    },
+    {
+        "id": 17,
+        "enunciado": "Qual o tamanho em bits do tipo primitivo long no Java?",
+        "alternativas": [
+            "16 bits",
+            "32 bits",
+            "64 bits",
+            "128 bits"
+        ],
+        "gabarito": "64 bits",
+        "assunto": "Desenvolvimento de Software_Java"
+    },
+    {
+        "id": 18,
+        "enunciado": "Na hierarquia de erros do Java, qual categoria representa falhas catastróficas da JVM das quais a aplicação não se recupera?",
+        "alternativas": [
+            "Exception",
+            "Error",
+            "RuntimeException",
+            "CheckedException"
+        ],
+        "gabarito": "Error",
+        "assunto": "Desenvolvimento de Software_Java"
+    },
+    {
+        "id": 19,
         "enunciado": "Qual a finalidade da palavra-chave yield introduzida nas Switch Expressions do Java 14+?",
         "alternativas": [
             "Interromper a execução de um loop for",
@@ -192,91 +228,19 @@
         "assunto": "Desenvolvimento de Software_Java"
     },
     {
-        "id": 17,
-        "enunciado": "Qual a diferença entre StringBuilder e StringBuffer?",
-        "alternativas": [
-            "StringBuilder é mutável e StringBuffer é imutável",
-            "StringBuffer possui métodos sincronizados (thread-safe), enquanto StringBuilder não",
-            "StringBuilder é usado para acesso a banco de dados",
-            "StringBuffer é mais rápido por não ser sincronizado"
-        ],
-        "gabarito": "StringBuffer possui métodos sincronizados (thread-safe), enquanto StringBuilder não",
-        "assunto": "Desenvolvimento de Software_Java"
-    },
-    {
-        "id": 18,
-        "enunciado": "Qual o resultado de passar um argumento literal null para um método sobrecarregado entre Integer e double?",
-        "alternativas": [
-            "O compilador escolhe o tipo Integer automaticamente",
-            "O compilador converte null para \\(\\ce{$0.0$}\\)",
-            "Ocorre um erro de compilação por ambiguidade",
-            "O programa executa e lança NullPointerException"
-        ],
-        "gabarito": "Ocorre um erro de compilação por ambiguidade",
-        "assunto": "Desenvolvimento de Software_Java"
-    },
-    {
-        "id": 19,
-        "enunciado": "O que caracteriza a Sobrecarga (Overload) de métodos?",
-        "alternativas": [
-            "Métodos com o mesmo nome e assinaturas diferentes na mesma classe ou subclasses",
-            "Redefinição de um método da superclasse com a mesma assinatura",
-            "Mudança do tipo de retorno de um método herdado sem alterar os parâmetros",
-            "Inclusão da anotação @Override em métodos estáticos"
-        ],
-        "gabarito": "Métodos com o mesmo nome e assinaturas diferentes na mesma classe ou subclasses",
-        "assunto": "Desenvolvimento de Software_Java"
-    },
-    {
         "id": 20,
-        "enunciado": "Qual característica distingue o HashSet de um ArrayList?",
+        "enunciado": "Qual o efeito de aplicar o modificador final a uma classe?",
         "alternativas": [
-            "O HashSet permite elementos duplicados",
-            "O HashSet mantém a ordem de inserção dos elementos",
-            "O HashSet não permite elementos duplicados e usa tabelas hash",
-            "O ArrayList é mais lento para acesso por índice"
+            "A classe torna-se abstrata e exige herança",
+            "A classe não pode possuir métodos estáticos",
+            "A classe não pode ser estendida por nenhuma outra classe",
+            "A classe torna-se um tipo enumerado"
         ],
-        "gabarito": "O HashSet não permite elementos duplicados e usa tabelas hash",
+        "gabarito": "A classe não pode ser estendida por nenhuma outra classe",
         "assunto": "Desenvolvimento de Software_Java"
     },
     {
         "id": 21,
-        "enunciado": "Qual a diferença entre a meta de um Projeto e a meta de uma Operação?",
-        "alternativas": [
-            "O projeto visa metas repetitivas; a operação visa metas únicas.",
-            "O projeto visa atingir uma meta exclusiva e encerrar; a operação visa manter a rotina.",
-            "O projeto visa a eficiência operacional; a operação visa o cumprimento de restrições.",
-            "Não há diferença, ambos visam a sustentabilidade do negócio."
-        ],
-        "gabarito": "O projeto visa atingir uma meta exclusiva e encerrar; a operação visa manter a rotina.",
-        "assunto": "Governança_Gerenciamento de Projetos"
-    },
-    {
-        "id": 22,
-        "enunciado": "Dentro da hierarquia estratégica, qual é o objetivo principal de um Portfólio?",
-        "alternativas": [
-            "Gerenciar interdependências técnicas entre projetos relacionados.",
-            "Facilitar o alcance de objetivos estratégicos através do agrupamento de iniciativas.",
-            "Garantir que cada tarefa individual seja executada no menor tempo possível.",
-            "Focar na entrega incremental de produtos funcionais ao cliente final."
-        ],
-        "gabarito": "Facilitar o alcance de objetivos estratégicos através do agrupamento de iniciativas.",
-        "assunto": "Governança_Gerenciamento de Projetos"
-    },
-    {
-        "id": 23,
-        "enunciado": "O que define o 'Caminho Crítico' de um projeto?",
-        "alternativas": [
-            "A sequência de atividades com a menor duração total planejada.",
-            "O conjunto de tarefas que apresentam os maiores riscos e incertezas.",
-            "A sequência linear de atividades dependentes que determina a duração total mais longa.",
-            "O fluxo de trabalho focado na melhoria contínua da eficiência operacional."
-        ],
-        "gabarito": "A sequência linear de atividades dependentes que determina a duração total mais longa.",
-        "assunto": "Governança_Gerenciamento de Projetos"
-    },
-    {
-        "id": 24,
         "enunciado": "Qual pergunta-chave direciona a tomada de decisão no nível de gerenciamento de Portfólio?",
         "alternativas": [
             "\"Estamos gerenciando as interdependências para maximizar o benefício?\"",
@@ -288,135 +252,171 @@
         "assunto": "Governança_Gerenciamento de Projetos"
     },
     {
-        "id": 25,
-        "enunciado": "No contexto de gerenciamento de projetos, o que caracteriza a 'temporariedade' de uma iniciativa?",
+        "id": 22,
+        "enunciado": "O registro das 'lições aprendidas' é uma atividade crucial de qual fase?",
         "alternativas": [
-            "A necessidade de que o projeto seja concluído em um curto espaço de tempo.",
-            "A existência de uma data de término ou um evento de conclusão claramente definido.",
-            "O caráter efêmero do produto final entregue ao cliente.",
-            "A ausência de uma estrutura organizacional fixa para a equipe."
+            "Iniciação.",
+            "Execução.",
+            "Monitoramento.",
+            "Encerramento."
         ],
-        "gabarito": "A existência de uma data de término ou um evento de conclusão claramente definido.",
+        "gabarito": "Encerramento.",
+        "assunto": "Governança_Gerenciamento de Projetos"
+    },
+    {
+        "id": 23,
+        "enunciado": "Qual área de conhecimento é responsável por definir a sequência das atividades e as estimativas de duração?",
+        "alternativas": [
+            "Custos.",
+            "Integração.",
+            "Cronograma (Tempo).",
+            "Riscos."
+        ],
+        "gabarito": "Cronograma (Tempo).",
+        "assunto": "Governança_Gerenciamento de Projetos"
+    },
+    {
+        "id": 24,
+        "enunciado": "Qual é a função central da área de conhecimento em Integração?",
+        "alternativas": [
+            "Identificar e analisar todos os riscos negativos do cronograma.",
+            "Definir os critérios de qualidade para a aceitação das entregas.",
+            "Coordenar e combinar as várias atividades e planos do projeto.",
+            "Gerenciar a liderança e a aquisição da equipe técnica."
+        ],
+        "gabarito": "Coordenar e combinar as várias atividades e planos do projeto.",
+        "assunto": "Governança_Gerenciamento de Projetos"
+    },
+    {
+        "id": 25,
+        "enunciado": "Qual a tendência das variáveis 'Incerteza e Risco' conforme o projeto progride?",
+        "alternativas": [
+            "São mínimos no início e aumentam conforme as entregas são validadas.",
+            "São máximos no início e caem gradativamente com o progresso do projeto.",
+            "Permanecem em níveis elevados até a entrega única final.",
+            "Flutuam de forma imprevisível sem relação com o tempo decorrido."
+        ],
+        "gabarito": "São máximos no início e caem gradativamente com o progresso do projeto.",
         "assunto": "Governança_Gerenciamento de Projetos"
     },
     {
         "id": 26,
-        "enunciado": "A técnica de 'Poda' (pruning) é comumente aplicada em qual tipo de modelo para evitar o Overfitting?",
+        "enunciado": "Qual a principal diferença técnica entre modelos discriminativos e modelos generativos?",
         "alternativas": [
-            "Redes Neurais Convolucionais.",
-            "Árvores de Decisão.",
-            "Modelos de Difusão de Imagem.",
-            "Agentes Reativos Simples."
+            "Modelos discriminativos criam novos dados, enquanto generativos apenas classificam.",
+            "Modelos discriminativos estimam probabilidades condicionais, e generativos a distribuição conjunta.",
+            "Modelos generativos focam em fronteiras de decisão entre classes conhecidas.",
+            "Modelos discriminativos utilizam mecanismos de atenção, enquanto generativos não."
         ],
-        "gabarito": "Árvores de Decisão.",
+        "gabarito": "Modelos discriminativos estimam probabilidades condicionais, e generativos a distribuição conjunta.",
         "assunto": "Inteligência Artificial_Conceitos"
     },
     {
         "id": 27,
-        "enunciado": "Como é definida uma 'Anomalia Contextual'?",
+        "enunciado": "No Aprendizado Supervisionado, qual é a característica fundamental dos dados utilizados no treinamento?",
         "alternativas": [
-            "Um ponto de dado individual isolado totalmente fora da curva global.",
-            "Um conjunto de dados que quebra o padrão apenas quando ocorre em sequência.",
-            "Um dado que é considerado normal em geral, mas anômalo sob condições específicas.",
-            "Uma falha de hardware que impede o processamento de dados em tempo real."
+            "Os dados são desestruturados e sem qualquer tipo de identificação.",
+            "O modelo recebe dados rotulados, onde a resposta correta é conhecida.",
+            "O sistema deve encontrar agrupamentos naturais sem auxílio de rótulos.",
+            "O aprendizado ocorre por tentativa e erro através de recompensas ambientais."
         ],
-        "gabarito": "Um dado que é considerado normal em geral, mas anômalo sob condições específicas.",
+        "gabarito": "O modelo recebe dados rotulados, onde a resposta correta é conhecida.",
         "assunto": "Inteligência Artificial_Conceitos"
     },
     {
         "id": 28,
-        "enunciado": "Uma ontologia inclui, além de entidades e propriedades, o conjunto de 'Axiomas', que são:",
+        "enunciado": "Para que um computador passe no Teste de Turing clássico (1950), quais capacidades operacionais ele deve demonstrar?",
         "alternativas": [
-            "Instruções de prompt para modelos LLM.",
-            "Regras e restrições que modelam o comportamento válido das instâncias.",
-            "Dados brutos coletados por sensores em cidades inteligentes.",
-            "Pesos sinápticos de uma rede neural profunda."
+            "Processamento de Linguagem Natural, Representação do Conhecimento, Raciocínio Automatizado e Aprendizado de Máquina.",
+            "Visão Computacional, Robótica, Consciência Artificial e Processamento Paralelo.",
+            "Reconhecimento Biométrico, Simulação de Emoções, Autonomia Física e Sensores de Proximidade.",
+            "Big Data, Computação em Nuvem, Estatística Computacional e Redes Neurais."
         ],
-        "gabarito": "Regras e restrições que modelam o comportamento válido das instâncias.",
+        "gabarito": "Processamento de Linguagem Natural, Representação do Conhecimento, Raciocínio Automatizado e Aprendizado de Máquina.",
         "assunto": "Inteligência Artificial_Conceitos"
     },
     {
         "id": 29,
-        "enunciado": "No ramo da Representação do Conhecimento, o que caracteriza uma 'Ontologia'?",
+        "enunciado": "A capacidade de um agente racional de lidar com metas e avaliar caminhos para alcançá-las define o:",
         "alternativas": [
-            "Um sistema que simula o raciocínio de médicos e engenheiros.",
-            "Uma representação formal e explícita de um domínio, definindo entidades e relacionamentos.",
-            "Um algoritmo de aprendizado por reforço para robótica industrial.",
-            "Uma interface de linguagem natural para bancos de dados relacionais."
+            "Agente Reativo Baseado em Modelos.",
+            "Agente Baseado em Objetivos.",
+            "Agente Reativo Simples.",
+            "Agente de Tabela de Decisão."
         ],
-        "gabarito": "Uma representação formal e explícita de um domínio, definindo entidades e relacionamentos.",
+        "gabarito": "Agente Baseado em Objetivos.",
         "assunto": "Inteligência Artificial_Conceitos"
     },
     {
         "id": 30,
-        "enunciado": "O que caracteriza um Agente Racional no campo da Inteligência Artificial?",
+        "enunciado": "A técnica RAG (Geração Aumentada via Recuperação) tem como um de seus principais objetivos:",
         "alternativas": [
-            "A capacidade de possuir sentimentos e consciência semelhantes aos humanos.",
-            "A seleção de ações que maximizam a medida de desempenho esperada.",
-            "O seguimento estrito de regras programadas sem considerar o ambiente.",
-            "A recusa em atuar sobre o ambiente para manter a integridade dos dados."
+            "Aumentar a velocidade de treinamento de modelos Transformer.",
+            "Mitigar alucinações combinando LLMs com sistemas de busca externa.",
+            "Substituir a necessidade de embeddings vetoriais em sistemas de busca.",
+            "Eliminar o uso de arquiteturas generativas em tarefas de texto."
         ],
-        "gabarito": "A seleção de ações que maximizam a medida de desempenho esperada.",
+        "gabarito": "Mitigar alucinações combinando LLMs com sistemas de busca externa.",
         "assunto": "Inteligência Artificial_Conceitos"
     },
     {
         "id": 31,
-        "enunciado": "Qual é a principal função da auditoria interna na gestão da PSI?<br>Opções:",
+        "enunciado": "Qual é o objetivo da 'Política de Classificação da Informação' em um órgão público?\nOpções:",
         "alternativas": [
-            "Definir os objetivos estratégicos da segurança da informação.",
-            "Monitorar a conformidade das operações e reportar desvios à direção.",
-            "Executar as configurações de segurança em servidores de aplicação.",
-            "Redigir o texto final da política para aprovação da diretoria."
+            "Garantir que todas as informações sejam classificadas como ultra-secretas.",
+            "Equalizar a transparência da LAI com a proteção de dados da LGPD.",
+            "Reduzir o número de pedidos de acesso à informação feitos pelos cidadãos.",
+            "Definir quais funcionários recebem os maiores salários no órgão."
         ],
-        "gabarito": "Monitorar a conformidade das operações e reportar desvios à direção.",
+        "gabarito": "Equalizar a transparência da LAI com a proteção de dados da LGPD.",
         "assunto": "Segurança da Informação_Políticas de Segurança da Informação"
     },
     {
         "id": 32,
-        "enunciado": "Qual é a responsabilidade precípua do Gestor da Informação (Proprietário do Dado)?<br>Opções:",
+        "enunciado": "Em qual etapa da elaboração da PSI as ameaças e vulnerabilidades são identificadas para selecionar controles proporcionais?\nOpções:",
         "alternativas": [
-            "Aprovar o orçamento anual de segurança cibernética.",
-            "Classificar o dado e autorizar os perfis de acesso correspondentes.",
-            "Implementar fisicamente os firewalls e servidores de rede.",
-            "Monitorar de forma independente a conformidade das operações."
+            "Mapeamento e Levantamento de Ativos.",
+            "Redação e Aprovação Formal.",
+            "Análise e Gestão Sistemática de Riscos.",
+            "Avaliação da Maturidade Tecnológica."
         ],
-        "gabarito": "Classificar o dado e autorizar os perfis de acesso correspondentes.",
+        "gabarito": "Análise e Gestão Sistemática de Riscos.",
         "assunto": "Segurança da Informação_Políticas de Segurança da Informação"
     },
     {
         "id": 33,
-        "enunciado": "O controle de acesso baseado em multifator (MFA) deve ser imposto prioritariamente em:<br>Opções:",
+        "enunciado": "Sob quais condições uma PSI deve ser obrigatoriamente revisada?\nOpções:",
         "alternativas": [
-            "Sistemas de consulta pública de informações gerais.",
-            "Sistemas críticos e acessos contendo dados sensíveis.",
-            "Computadores de uso comum em bibliotecas da organização.",
-            "Dispositivos de funcionários que não lidam com dados sigilosos."
+            "A cada alteração na equipe técnica de suporte operacional.",
+            "Em intervalos planejados ou diante de mudanças significativas no ecossistema.",
+            "Sempre que um novo funcionário for contratado pela organização.",
+            "Trimestralmente, independentemente da estabilidade do ambiente tecnológico."
         ],
-        "gabarito": "Sistemas críticos e acessos contendo dados sensíveis.",
+        "gabarito": "Em intervalos planejados ou diante de mudanças significativas no ecossistema.",
         "assunto": "Segurança da Informação_Políticas de Segurança da Informação"
     },
     {
         "id": 34,
-        "enunciado": "O que constitui a 'Tríade Fundamental' de segurança da informação segundo as normas ISO?<br>Opções:",
+        "enunciado": "Qual é a natureza fundamental da Política de Segurança da Informação (PSI) no contexto de governança corporativa?\nOpções:",
         "alternativas": [
-            "Autenticidade, Auditabilidade e Legalidade.",
-            "Confidencialidade, Integridade e Disponibilidade.",
-            "Prevenção, Detecção e Correção.",
-            "Estratégia, Tática e Operação."
+            "Um manual técnico restrito à execução do departamento de TI.",
+            "Um instrumento de governança de alto nível que expressa a visão da administração.",
+            "Uma lista de comandos operacionais para configuração de firewalls.",
+            "Um documento facultativo para empresas que não lidam com dados sensíveis."
         ],
-        "gabarito": "Confidencialidade, Integridade e Disponibilidade.",
+        "gabarito": "Um instrumento de governança de alto nível que expressa a visão da administração.",
         "assunto": "Segurança da Informação_Políticas de Segurança da Informação"
     },
     {
         "id": 35,
-        "enunciado": "Qual é a utilidade do 'Keyword Matching' em soluções de DLP?<br>Opções:",
+        "enunciado": "Qual técnica de eliminação de dados envolve a sobrescrita segura de informações em mídias magnéticas?\nOpções:",
         "alternativas": [
-            "Identificar hashes exclusivos de arquivos inteiros de imagem.",
-            "Inspecionar conteúdo textual em busca de padrões como CPFs ou palavras-chave.",
-            "Bloquear o acesso físico de pessoas não autorizadas a áreas seguras.",
-            "Sincronizar os relógios de todos os servidores da rede interna."
+            "Degaussing.",
+            "Trituração física.",
+            "Secure Overwriting.",
+            "Dumpster diving."
         ],
-        "gabarito": "Inspecionar conteúdo textual em busca de padrões como CPFs ou palavras-chave.",
+        "gabarito": "Secure Overwriting.",
         "assunto": "Segurança da Informação_Políticas de Segurança da Informação"
     }
 ]

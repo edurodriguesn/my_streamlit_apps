@@ -11,11 +11,36 @@ from extrator_questoes import processar_pdf
 st.set_page_config(page_title="Simulado de Questões", layout="centered")
 
 # CSS para colorir alternativas
+# CSS para colorir alternativas e garantir texto preto no destaque
 st.markdown("""
 <style>
-.correta { background-color: #d4edda; border: 2px solid #28a745; border-radius: 8px; padding: 8px; margin: 4px 0; font-size: 1.1rem; }
-.errada { background-color: #f8d7da; border: 2px solid #dc3545; border-radius: 8px; padding: 8px; margin: 4px 0; font-size: 1.1rem; }
-.gabarito { background-color: #d4edda; border: 2px solid #28a745; border-radius: 8px; padding: 8px; margin: 4px 0; font-size: 1.1rem; }
+.correta { 
+    background-color: #d4edda; 
+    color: #000000 !important; 
+    border: 2px solid #28a745; 
+    border-radius: 8px; 
+    padding: 8px; 
+    margin: 4px 0; 
+    font-size: 1.1rem; 
+}
+.errada { 
+    background-color: #f8d7da; 
+    color: #000000 !important; 
+    border: 2px solid #dc3545; 
+    border-radius: 8px; 
+    padding: 8px; 
+    margin: 4px 0; 
+    font-size: 1.1rem; 
+}
+.gabarito { 
+    background-color: #d4edda; 
+    color: #000000 !important; 
+    border: 2px solid #28a745; 
+    border-radius: 8px; 
+    padding: 8px; 
+    margin: 4px 0; 
+    font-size: 1.1rem; 
+}
 .stRadio label { font-size: 3rem !important; }
 </style>
 """, unsafe_allow_html=True)

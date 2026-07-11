@@ -162,7 +162,8 @@ qid = q["id"]
 letras = "ABCDE"
 
 def escape_markdown(text):
-    chars = ['\\', '`', '*', '_', '{', '}', '[', ']', '(', ')', '#', '+', '-', '!', '|', '~', '$']
+    #chars = ['\\', '`', '*', '_', '{', '}', '[', ']', '(', ')', '#', '+', '-', '!', '|', '~', '$']
+    chars = ['$']
     for c in chars:
         text = text.replace(c, '\\' + c)
     return text

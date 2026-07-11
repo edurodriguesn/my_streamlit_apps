@@ -29,12 +29,29 @@ arquivo_local_selecionado = None
 # 1. Upload manual por arquivo
 uploaded_file = st.file_uploader("Envie o PDF ou JSON com as questões", type=["pdf", "json"])
 
-# 2. Navegador de arquivos do servidor (questoes_filtradas)
 st.markdown("### 📂 Ou escolha um arquivo do servidor")
+
+# 1. Inicializa a variável para que ela exista no escopo do código
+arquivo_local_selecionado = None
+
 if not os.path.exists(PASTA_RAIZ):
     st.info(f"A pasta `{PASTA_RAIZ}` ainda não existe no diretório raiz. Crie-a para navegar pelos arquivos.")
 else:
-    # Listar subpastas
+    # --- NOVO: Botão "Fazer simulado da Semana" ---
+    caminho_simulado = os.path.join(PASTA_RAIZ, "Simulado")
+    
+    # O botão só aparece se a pasta "Simulado" de fato existir
+    if os.path.exists(caminho_simulado) and os.path.isdir(caminho_simulado):
+        if st.button("📝 Fazer simulado da Semana", use_container_width=True):
+            # Busca o primeiro arquivo .json dentro da pasta Simulado
+            jsons_simulado = [f for f in os.listdir(caminho_simulado) if f.endswith(".json")]
+            if jsons_simulado:
+                st.session_state.arquivo_simulado_ativo = os.path.join(caminho_simulado, jsons_simulado[0])
+                st.success(f"Simulado carregado: `{jsons_simulado[0]}`")
+            else:
+                st.error("Nenhum arquivo `.json` encontrado dentro da pasta Simulado.")
+
+    # --- Código Original Mantido ---
     subpastas = [f for f in os.listdir(PASTA_RAIZ) if os.path.isdir(os.path.join(PASTA_RAIZ, f))]
     
     if not subpastas:
@@ -43,6 +60,10 @@ else:
         subpasta_sel = st.selectbox("Selecione a disciplina/pasta:", ["Selecione..."] + subpastas)
         
         if subpasta_sel != "Selecione...":
+            # Se o usuário mexer no selectbox, limpamos o estado do botão para priorizar a nova escolha
+            if "arquivo_simulado_ativo" in st.session_state:
+                del st.session_state.arquivo_simulado_ativo
+                
             caminho_subpasta = os.path.join(PASTA_RAIZ, subpasta_sel)
             # Listar PDFs e JSONs
             arquivos = [f for f in os.listdir(caminho_subpasta) if f.endswith((".pdf", ".json"))]
@@ -53,6 +74,11 @@ else:
                 arquivo_sel = st.selectbox("Selecione o arquivo de questões:", ["Selecione..."] + arquivos)
                 if arquivo_sel != "Selecione...":
                     arquivo_local_selecionado = os.path.join(caminho_subpasta, arquivo_sel)
+
+    # --- 2. Definição final da variável arquivo_local_selecionado ---
+    # Se o botão do simulado foi clicado, ele assume o valor da variável principal
+    if "arquivo_simulado_ativo" in st.session_state:
+        arquivo_local_selecionado = st.session_state.arquivo_simulado_ativo
 
 # --- LÓGICA DE PROCESSAMENTO (Upload OU Local) ---
 # Define qual arquivo e nome usar na lógica do programa
@@ -161,12 +187,22 @@ q = questoes[idx]
 qid = q["id"]
 letras = "ABCDE"
 
+import re
 def escape_markdown(text):
-    #chars = ['\\', '`', '*', '_', '{', '}', '[', ']', '(', ')', '#', '+', '-', '!', '|', '~', '$']
-    chars = ['$']
-    for c in chars:
-        text = text.replace(c, '\\' + c)
-    return text
+    # Expressão regular:
+    # (?<!\\)(\$.*?(?<!\\)\$) -> Captura blocos de LaTeX válidos (começa e termina com $ sem escape antes)
+    # |                       -> OU
+    # (\$)                    -> Captura um sinal de $ solto
+    pattern = r'(?<!\\)(\$.*?(?<!\\)\$)|\$'
+    
+    def replace_match(match):
+        # Se capturou o primeiro grupo (o bloco LaTeX inteiro), retorna ele intacto
+        if match.group(1):
+            return match.group(1)
+        # Caso contrário, capturou um $ solto, então escapamos
+        return r'\$'
+    
+    return re.sub(pattern, replace_match, text)
 
 st.subheader(f"Questão {q['id']} de {total}")
 if q.get("assunto"):

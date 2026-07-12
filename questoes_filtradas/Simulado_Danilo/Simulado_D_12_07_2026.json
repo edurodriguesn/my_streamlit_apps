@@ -1,0 +1,722 @@
+[
+    {
+        "id": 1,
+        "enunciado": "Qual a fundamentação necessária para que uma informação seja classificada como sigilosa?",
+        "alternativas": [
+            "Conveniência administrativa do gestor público.",
+            "Imprescindibilidade para a segurança da sociedade e do Estado.",
+            "Proteção da imagem de ocupantes de cargos eletivos.",
+            "Sigilo comercial de prestadores de serviço terceirizados."
+        ],
+        "gabarito": "Imprescindibilidade para a segurança da sociedade e do Estado.",
+        "assunto": "L12527 (LAI)_Capítulo I"
+    },
+    {
+        "id": 2,
+        "enunciado": "Qual a característica da linguagem a ser utilizada no acesso à informação franqueado pelo Estado?",
+        "alternativas": [
+            "Linguagem formal e rebuscada.",
+            "Linguagem técnica específica de cada área.",
+            "Linguagem de fácil compreensão.",
+            "Linguagem codificada para segurança."
+        ],
+        "gabarito": "Linguagem de fácil compreensão.",
+        "assunto": "L12527 (LAI)_Capítulo I"
+    },
+    {
+        "id": 3,
+        "enunciado": "Como a LGPD define 'dado pessoal' (Art. 5º, I)?",
+        "alternativas": [
+            "Informação de identificação tributária de empresas",
+            "Informação relacionada a pessoa natural identificada ou identificável",
+            "Conjunto de metadados de navegação anônima",
+            "Registro histórico de transações bancárias de falecidos"
+        ],
+        "gabarito": "Informação relacionada a pessoa natural identificada ou identificável",
+        "assunto": "L13709 (LGPD)_Capítulo I"
+    },
+    {
+        "id": 4,
+        "enunciado": "O fundamento da disciplina da proteção de dados que se refere à capacidade do indivíduo de controlar o fluxo de suas próprias informações é a:",
+        "alternativas": [
+            "Liberdade de iniciativa",
+            "Autodeterminação informativa",
+            "Inviolabilidade da honra",
+            "Defesa do consumidor"
+        ],
+        "gabarito": "Autodeterminação informativa",
+        "assunto": "L13709 (LGPD)_Capítulo I"
+    },
+    {
+        "id": 5,
+        "enunciado": "Dados sobre origem racial, convicção religiosa e opinião política são classificados pela LGPD como:",
+        "alternativas": [
+            "Dados pessoais genéricos",
+            "Dados pessoais sensíveis",
+            "Dados de interesse público",
+            "Dados biométricos secundários"
+        ],
+        "gabarito": "Dados pessoais sensíveis",
+        "assunto": "L13709 (LGPD)_Capítulo I"
+    },
+    {
+        "id": 6,
+        "enunciado": "Sobre as propriedades implícitas de um banco de dados, a 'Coerência Lógica' implica que:",
+        "alternativas": [
+            "Os dados podem ser aglomerados de forma aleatória",
+            "Os dados possuem conexões estruturadas e significado inerente",
+            "O banco de dados deve atender a qualquer tipo de usuário genérico",
+            "A estrutura deve ser obrigatoriamente manual"
+        ],
+        "gabarito": "Os dados possuem conexões estruturadas e significado inerente",
+        "assunto": "Banco de Dados_Conceitos gerais"
+    },
+    {
+        "id": 7,
+        "enunciado": "O nível da arquitetura ANSI/SPARC que define a representação física e a organização dos registros em disco é o:",
+        "alternativas": [
+            "Nível Interno",
+            "Nível de Visão",
+            "Nível Lógico",
+            "Nível de Aplicação"
+        ],
+        "gabarito": "Nível Interno",
+        "assunto": "Banco de Dados_Conceitos gerais"
+    },
+    {
+        "id": 8,
+        "enunciado": "Qual a principal diferença entre 'Esquema' e 'Instância' em um banco de dados?",
+        "alternativas": [
+            "O esquema é dinâmico e a instância é estática",
+            "O esquema define o projeto lógico e a instância são os dados em um dado momento",
+            "A instância refere-se ao hardware e o esquema ao software",
+            "Não há diferença técnica entre os termos"
+        ],
+        "gabarito": "O esquema define o projeto lógico e a instância são os dados em um dado momento",
+        "assunto": "Banco de Dados_Conceitos gerais"
+    },
+    {
+        "id": 9,
+        "enunciado": "As propriedades ACID (Atomicidade, Consistência, Isolamento e Durabilidade) têm como finalidade principal:",
+        "alternativas": [
+            "Aumentar a velocidade de busca em arquivos de áudio",
+            "Assegurar a confiabilidade das transações em cenários de falhas ou concorrência",
+            "Reduzir o custo de hardware do servidor",
+            "Transformar dados estruturados em não estruturados"
+        ],
+        "gabarito": "Assegurar a confiabilidade das transações em cenários de falhas ou concorrência",
+        "assunto": "Banco de Dados_Conceitos gerais"
+    },
+    {
+        "id": 10,
+        "enunciado": "Qual linguagem padrão é utilizada para a manipulação, definição e controle de privilégios de acesso em SGBDs relacionais?",
+        "alternativas": [
+            "XML",
+            "JSON",
+            "SQL",
+            "HTML"
+        ],
+        "gabarito": "SQL",
+        "assunto": "Banco de Dados_Conceitos gerais"
+    },
+    {
+        "id": 11,
+        "enunciado": "Na arquitetura tradicional de ETL, onde ocorrem as transformações pesadas dos dados?",
+        "alternativas": [
+            "No sistema de origem (OLTP)",
+            "Diretamente no Data Warehouse de destino",
+            "Em um servidor intermediário dedicado chamado Staging Area",
+            "No barramento de serviços da rede corporativa"
+        ],
+        "gabarito": "Em um servidor intermediário dedicado chamado Staging Area",
+        "assunto": "Banco de Dados_ETL"
+    },
+    {
+        "id": 12,
+        "enunciado": "Sobre o processamento de dados no ELT, onde é utilizada a infraestrutura de clusters Spark ou engines SQL?",
+        "alternativas": [
+            "No servidor de Staging intermediário",
+            "Diretamente na fonte dos dados operacionais",
+            "No próprio repositório de destino dos dados",
+            "No terminal do usuário que executa a ferramenta de BI"
+        ],
+        "gabarito": "No próprio repositório de destino dos dados",
+        "assunto": "Banco de Dados_ETL"
+    },
+    {
+        "id": 13,
+        "enunciado": "Sobre as capacidades do processo de ETL, qual afirmação reflete a realidade técnica abordada pelas bancas de concurso?",
+        "alternativas": [
+            "O ETL possui ferramentas nativas para visualização sofisticada de dados",
+            "O ETL prepara e integra os dados para que ferramentas analíticas os processem",
+            "O ETL executa análises diretamente a partir de visões multidimensionais",
+            "O ETL substitui o uso de cubos OLAP no processamento de consultas"
+        ],
+        "gabarito": "O ETL prepara e integra os dados para que ferramentas analíticas os processem",
+        "assunto": "Banco de Dados_ETL"
+    },
+    {
+        "id": 14,
+        "enunciado": "Qual o benefício da técnica de Pairwise Deletion no tratamento de nulos?",
+        "alternativas": [
+            "Garante que a amostra de dados permaneça o maior possível",
+            "Elimina inconsistências de integridade referencial automaticamente",
+            "Acelera o tempo de carga no Data Warehouse",
+            "Reduz o volume de dados armazenados na Staging Area"
+        ],
+        "gabarito": "Garante que a amostra de dados permaneça o maior possível",
+        "assunto": "Banco de Dados_ETL"
+    },
+    {
+        "id": 15,
+        "enunciado": "Como se diferencia temporalmente a transformação no ELT em relação ao ETL?",
+        "alternativas": [
+            "A transformação no ELT ocorre durante o trânsito dos dados",
+            "A transformação no ELT ocorre antes da carga no repositório final",
+            "A transformação no ELT ocorre após a carga no repositório de destino",
+            "A transformação no ELT é dispensável devido à natureza dos dados brutos"
+        ],
+        "gabarito": "A transformação no ELT ocorre após a carga no repositório de destino",
+        "assunto": "Banco de Dados_ETL"
+    },
+    {
+        "id": 16,
+        "enunciado": "Qual inovação tecnológica foi introduzida pelo padrão 802.11n (Wi-Fi 4) para aumentar o desempenho?",
+        "alternativas": [
+            "Criptografia AES nativa",
+            "Tecnologia MIMO (Multiple Input, Multiple Output)",
+            "Eliminação total do protocolo CSMA/CA",
+            "Operação em frequência de $60$ GHz"
+        ],
+        "gabarito": "Tecnologia MIMO (Multiple Input, Multiple Output)",
+        "assunto": "Redes e Infra_Introdução a Redes"
+    },
+    {
+        "id": 17,
+        "enunciado": "Sobre o Modelo OSI (Open Systems Interconnection), qual é a sua principal função na arquitetura de redes moderna?",
+        "alternativas": [
+            "Implementação direta de protocolos como IP e TCP",
+            "Organização funcional em 7 níveis para análise e padronização acadêmica",
+            "Gestão de endereçamento físico em redes de longa distância",
+            "Substituição completa do modelo TCP/IP em comunicações globais"
+        ],
+        "gabarito": "Organização funcional em 7 níveis para análise e padronização acadêmica",
+        "assunto": "Redes e Infra_Introdução a Redes"
+    },
+    {
+        "id": 18,
+        "enunciado": "Por que as redes Wi-Fi utilizam a prevenção de colisões em vez da detecção de colisões (CSMA/CD)?",
+        "alternativas": [
+            "O sinal transmitido pela estação sufoca a recepção, impedindo a detenção de conflitos simultâneos",
+            "A velocidade de transmissão no ar é muito superior à dos cabos de cobre",
+            "Os protocolos de rede sem fio não possuem quadros de verificação de erros",
+            "As estações sem fio estão sempre em alcance direto umas das outras"
+        ],
+        "gabarito": "O sinal transmitido pela estação sufoca a recepção, impedindo a detenção de conflitos simultâneos",
+        "assunto": "Redes e Infra_Introdução a Redes"
+    },
+    {
+        "id": 19,
+        "enunciado": "Qual é o mecanismo de acesso ao meio adotado pelo padrão IEEE 802.11 para mitigar colisões?",
+        "alternativas": [
+            "CSMA/CD",
+            "CSMA/CA",
+            "Token Passing",
+            "Polling"
+        ],
+        "gabarito": "CSMA/CA",
+        "assunto": "Redes e Infra_Introdução a Redes"
+    },
+    {
+        "id": 20,
+        "enunciado": "A tecnologia que permite a subdivisão lógica de uma rede física local em múltiplas redes independentes é a:",
+        "alternativas": [
+            "WLAN",
+            "WPAN",
+            "VLAN",
+            "VPN"
+        ],
+        "gabarito": "VLAN",
+        "assunto": "Redes e Infra_Introdução a Redes"
+    },
+    {
+        "id": 21,
+        "enunciado": "Em arquiteturas de alta disponibilidade, por que a replicação síncrona de dados é recomendada entre múltiplas AZs, mas evitada entre regiões distantes?",
+        "alternativas": [
+            "O custo de licenciamento de software impede a replicação entre regiões.",
+            "A replicação entre regiões exige obrigatoriamente intervenção humana manual.",
+            "A baixa latência entre AZs permite o espelhamento sem perda de desempenho, ao contrário da alta latência inter-regional.",
+            "O modelo $RPO$ zero é tecnicamente impossível de ser alcançado dentro de uma única região geográfica."
+        ],
+        "gabarito": "A baixa latência entre AZs permite o espelhamento sem perda de desempenho, ao contrário da alta latência inter-regional.",
+        "assunto": "Computação em Nuvem_Conceitos"
+    },
+    {
+        "id": 22,
+        "enunciado": "Qual é a diferença técnica crucial entre Containers e Máquinas Virtuais (VMs)?",
+        "alternativas": [
+            "VMs são mais leves e não utilizam sistemas operacionais completos.",
+            "Containers compartilham o núcleo (kernel) do sistema operacional hospedeiro, enquanto VMs exigem um Guest OS completo.",
+            "Containers exigem hardware dedicado sem compartilhamento de recursos físicos.",
+            "VMs utilizam Docker para garantir a portabilidade entre diferentes nuvens."
+        ],
+        "gabarito": "Containers compartilham o núcleo (kernel) do sistema operacional hospedeiro, enquanto VMs exigem um Guest OS completo.",
+        "assunto": "Computação em Nuvem_Conceitos"
+    },
+    {
+        "id": 23,
+        "enunciado": "Para garantir a integridade contra desastres regionais, como deve ser estruturada a estratégia de backup em nuvem?",
+        "alternativas": [
+            "Utilizar snapshots manuais esporádicos gravados no mesmo servidor de produção.",
+            "Implementar backups automatizados com versionamento e redundância geográfica.",
+            "Manter cópias de segurança em mídias físicas dentro do próprio datacenter local.",
+            "Delegar a responsabilidade de backup ao usuário final da aplicação SaaS."
+        ],
+        "gabarito": "Implementar backups automatizados com versionamento e redundância geográfica.",
+        "assunto": "Computação em Nuvem_Conceitos"
+    },
+    {
+        "id": 24,
+        "enunciado": "Com a adoção da nuvem, ocorre uma transição de gastos de Capital (CapEx) para Gastos Operacionais (OpEx). Qual disciplina foca no alinhamento desses custos com os objetivos de negócio?",
+        "alternativas": [
+            "DevOps",
+            "FinOps",
+            "SysOps",
+            "SRE"
+        ],
+        "gabarito": "FinOps",
+        "assunto": "Computação em Nuvem_Conceitos"
+    },
+    {
+        "id": 25,
+        "enunciado": "Sobre os modelos de implantação, o que define uma 'Nuvem Pública'?",
+        "alternativas": [
+            "Infraestrutura operada por uma organização para seu uso próprio e isolado.",
+            "Recursos de hardware compartilhados entre múltiplos clientes de forma lógica e isolada via internet.",
+            "Ambiente que proíbe o uso de virtualização para garantir segurança máxima.",
+            "Conjunto de servidores físicos localizados dentro da sede da empresa cliente."
+        ],
+        "gabarito": "Recursos de hardware compartilhados entre múltiplos clientes de forma lógica e isolada via internet.",
+        "assunto": "Computação em Nuvem_Conceitos"
+    },
+    {
+        "id": 26,
+        "enunciado": "Qual é o marco (milestone) que encerra a fase de Concepção no RUP?",
+        "alternativas": [
+            "Arquitetura do Ciclo de Vida",
+            "Capacidade Operacional Inicial",
+            "Objetivos do Ciclo de Vida",
+            "Versão do Produto"
+        ],
+        "gabarito": "Objetivos do Ciclo de Vida",
+        "assunto": "Engenharia de Software_Processo de Desenvolvimento de Software"
+    },
+    {
+        "id": 27,
+        "enunciado": "No DDD, qual componente tático é definido por seus atributos e não possui identidade própria?",
+        "alternativas": [
+            "Entidade (Entity)",
+            "Objeto de Valor (Value Object)",
+            "Repositório (Repository)",
+            "Agregado (Aggregate)"
+        ],
+        "gabarito": "Objeto de Valor (Value Object)",
+        "assunto": "Engenharia de Software_Processo de Desenvolvimento de Software"
+    },
+    {
+        "id": 28,
+        "enunciado": "Qual é a característica definidora do Modelo em Espiral de Boehm?",
+        "alternativas": [
+            "Entrega linear do software ao final do projeto",
+            "Análise de riscos explícita em cada iteração",
+            "Ausência total de documentação formal",
+            "Uso de protótipos descartáveis em todas as fases"
+        ],
+        "gabarito": "Análise de riscos explícita em cada iteração",
+        "assunto": "Engenharia de Software_Processo de Desenvolvimento de Software"
+    },
+    {
+        "id": 29,
+        "enunciado": "Qual é a função dos Repositórios no Domain\n-Driven Design (DD\nD)?",
+        "alternativas": [
+            "Definir a lógica de negócio principal do domínio",
+            "Encapsular a lógica de persistência e recuperação de agregados",
+            "Validar os campos de formulários na interface",
+            "Agrupar múltiplos objetos de valor em uma única classe"
+        ],
+        "gabarito": "Encapsular a lógica de persistência e recuperação de agregados",
+        "assunto": "Engenharia de Software_Processo de Desenvolvimento de Software"
+    },
+    {
+        "id": 30,
+        "enunciado": "Qual é a recomendação do Clean Code para nomes de variáveis?",
+        "alternativas": [
+            "Devem ser curtos, preferencialmente com uma única letra",
+            "Devem ser reveladores de intenção e passíveis de busca",
+            "Devem conter o tipo da variável no prefixo (Ex: iIdade)",
+            "Devem ser genéricos para permitir reutilização em diferentes contextos"
+        ],
+        "gabarito": "Devem ser reveladores de intenção e passíveis de busca",
+        "assunto": "Engenharia de Software_Processo de Desenvolvimento de Software"
+    },
+    {
+        "id": 31,
+        "enunciado": "Qual a função do 'Gerador' em uma arquitetura GAN?",
+        "alternativas": [
+            "Tentar detectar se um dado é real ou falso.",
+            "Criar novas amostras artificiais para tentar enganar o discriminador.",
+            "Classificar imagens em categorias predefinidas com alta precisão.",
+            "Reduzir o ruído de imagens capturadas em ambientes escuros."
+        ],
+        "gabarito": "Criar novas amostras artificiais para tentar enganar o discriminador.",
+        "assunto": "Inteligência Artificial_Conceitos"
+    },
+    {
+        "id": 32,
+        "enunciado": "Qual a principal limitação dos Agentes Reativos Simples?",
+        "alternativas": [
+            "Eles são lentos demais para ambientes em tempo real.",
+            "Eles ignoram o histórico de percepções, agindo apenas com a percepção atual.",
+            "Eles exigem uma função de utilidade complexa para operar.",
+            "Eles não possuem sensores nem atuadores definidos."
+        ],
+        "gabarito": "Eles ignoram o histórico de percepções, agindo apenas com a percepção atual.",
+        "assunto": "Inteligência Artificial_Conceitos"
+    },
+    {
+        "id": 33,
+        "enunciado": "Como é classificada a Inteligência Artificial que executa uma única tarefa específica, como classificar e-mails ou jogar xadrez?",
+        "alternativas": [
+            "Inteligência Artificial Geral (AGI).",
+            "IA Forte (Strong AI).",
+            "IA Fraca (Narrow AI).",
+            "Máquina com Teoria da Mente."
+        ],
+        "gabarito": "IA Fraca (Narrow AI).",
+        "assunto": "Inteligência Artificial_Conceitos"
+    },
+    {
+        "id": 34,
+        "enunciado": "Um saque bancário de valor massivo que diverge totalmente do histórico do cliente é um exemplo de:",
+        "alternativas": [
+            "Anomalia Pontual (Global).",
+            "Anomalia de Teoria da Mente.",
+            "Erro de Underfitting do modelo.",
+            "Regularização excessiva de dados."
+        ],
+        "gabarito": "Anomalia Pontual (Global).",
+        "assunto": "Inteligência Artificial_Conceitos"
+    },
+    {
+        "id": 35,
+        "enunciado": "Qual estrutura de agente mantém um estado interno para lidar com ambientes parcialmente observáveis?",
+        "alternativas": [
+            "Reativo Baseado em Modelos.",
+            "Reativo Simples.",
+            "Agente de Tabela Estática.",
+            "Agente de Lógica Pura."
+        ],
+        "gabarito": "Reativo Baseado em Modelos.",
+        "assunto": "Inteligência Artificial_Conceitos"
+    },
+    {
+        "id": 36,
+        "enunciado": "No GitHub Actions, qual instrução utilitária nativa é empregada para baixar o código do repositório para o ambiente de execução do Runner?",
+        "alternativas": [
+            "1) actions/checkout@v2",
+            "2) git clone --depth 1",
+            "3) setup-python@v1",
+            "4) run: git pull origin main"
+        ],
+        "gabarito": "1) actions/checkout@v2",
+        "assunto": "Redes e Infra_GitLab"
+    },
+    {
+        "id": 37,
+        "enunciado": "Considere um cenário onde o Job D precisa receber especificamente os artefatos gerados pelo Job A e Job B. Qual instrução deve ser usada dentro da definição do Job D para otimizar essa transferência?",
+        "alternativas": [
+            "1) artifacts:paths",
+            "2) dependencies",
+            "3) needs:artifacts",
+            "4) workflow:rules"
+        ],
+        "gabarito": "2) dependencies",
+        "assunto": "Redes e Infra_GitLab"
+    },
+    {
+        "id": 38,
+        "enunciado": "Qual é a principal diferença terminológica entre GitLab e GitHub ao solicitar a mesclagem de uma branch para o repositório principal?",
+        "alternativas": [
+            "1) O GitLab usa Pull Request e o GitHub usa Merge Request.",
+            "2) O GitLab usa Merge Request e o GitHub usa Pull Request.",
+            "3) Ambos utilizam o termo Commit Request como padrão industrial.",
+            "4) O GitLab utiliza Sync Request enquanto o GitHub utiliza Push Request."
+        ],
+        "gabarito": "2) O GitLab usa Merge Request e o GitHub usa Pull Request.",
+        "assunto": "Redes e Infra_GitLab"
+    },
+    {
+        "id": 39,
+        "enunciado": "Sobre a origem e a arquitetura do GitLab, qual afirmação é tecnicamente correta?",
+        "alternativas": [
+            "1) O GitLab é um fork do GitHub desenvolvido para ambientes on-premises.",
+            "2) GitLab e GitHub são produtos independentes que compartilham o Git como ferramenta de controle de versão.",
+            "3) A plataforma exige ferramentas de terceiros para a execução completa do ciclo de Entrega Contínua (CD).",
+            "4) O software funciona como uma solução fragmentada que requer múltiplas interfaces para gerenciar segurança e código."
+        ],
+        "gabarito": "2) GitLab e GitHub são produtos independentes que compartilham o Git como ferramenta de controle de versão.",
+        "assunto": "Redes e Infra_GitLab"
+    },
+    {
+        "id": 40,
+        "enunciado": "O comando 'git log --oneline' é frequentemente cobrado em avaliações técnicas por qual motivo?",
+        "alternativas": [
+            "1) Por permitir a edição de mensagens de commits antigos diretamente no terminal.",
+            "2) Por exibir o histórico de commits de forma compacta, com um commit por linha.",
+            "3) Por listar os arquivos modificados mas que ainda não foram adicionados ao index.",
+            "4) Por mostrar o conteúdo detalhado de cada alteração em formato de diff."
+        ],
+        "gabarito": "2) Por exibir o histórico de commits de forma compacta, com um commit por linha.",
+        "assunto": "Redes e Infra_GitLab"
+    },
+    {
+        "id": 41,
+        "enunciado": "Segundo o Modelo de Von Neumann, quais são os três subsistemas principais que compõem a arquitetura de um computador moderno?",
+        "alternativas": [
+            "Unidade de Controle, Unidade Lógica e Aritmética e Registradores.",
+            "Entrada, Processamento e Saída.",
+            "CPU, Memória Principal e Subsistema de Entrada e Saída.",
+            "Barramento de Dados, Barramento de Endereço e Barramento de Controle."
+        ],
+        "gabarito": "CPU, Memória Principal e Subsistema de Entrada e Saída.",
+        "assunto": "Redes e Infra_Hardware"
+    },
+    {
+        "id": 42,
+        "enunciado": "A interface SATA (Serial ATA) foi desenvolvida para substituir quais padrões de comunicação no transporte de dados de armazenamento?",
+        "alternativas": [
+            "Interfaces paralelas antigas como IDE/PATA.",
+            "Conexões seriais ponto a ponto como PCI Express.",
+            "Barramentos de controle de sinalização analógica.",
+            "Memórias de vídeo do tipo GDDR."
+        ],
+        "gabarito": "Interfaces paralelas antigas como IDE/PATA.",
+        "assunto": "Redes e Infra_Hardware"
+    },
+    {
+        "id": 43,
+        "enunciado": "A tecnologia que permite a substituição de um disco rígido defeituoso sem a necessidade de desligar o servidor é denominada:",
+        "alternativas": [
+            "Cold Boot.",
+            "Hot Swap.",
+            "Plug and Play.",
+            "Overclocking."
+        ],
+        "gabarito": "Hot Swap.",
+        "assunto": "Redes e Infra_Hardware"
+    },
+    {
+        "id": 44,
+        "enunciado": "Sobre o manuseio de componentes eletrônicos e a eletricidade estática (ESD), qual afirmação é tecnicamente correta?",
+        "alternativas": [
+            "Ambientes úmidos eliminam totalmente o risco de descargas eletrostáticas.",
+            "Descargas eletrostáticas ocorrem mesmo em cenários úmidos e podem inutilizar microchips.",
+            "O uso de pulseira antiestática dispensa o aterramento do equipamento de segurança.",
+            "A pasta térmica atua como isolante contra descargas elétricas entre a CPU e o dissipador."
+        ],
+        "gabarito": "Descargas eletrostáticas ocorrem mesmo em cenários úmidos e podem inutilizar microchips.",
+        "assunto": "Redes e Infra_Hardware"
+    },
+    {
+        "id": 45,
+        "enunciado": "Qual a finalidade das linhas que compõem o Barramento de Controle (Control Bus) em um sistema computacional?",
+        "alternativas": [
+            "Transportar os bits de dados entre a memória e os registradores.",
+            "Definir o endereço físico da célula de memória que será acessada.",
+            "Coordenar o acesso às linhas de dados e endereços por meio de sinais de temporização.",
+            "Alimentar eletricamente os componentes internos do gabinete."
+        ],
+        "gabarito": "Coordenar o acesso às linhas de dados e endereços por meio de sinais de temporização.",
+        "assunto": "Redes e Infra_Hardware"
+    },
+    {
+        "id": 46,
+        "enunciado": "Na arquitetura multicamadas do Java EE, qual camada é responsável pela interface de entrada e saída executada na máquina do usuário final?",
+        "alternativas": [
+            "Camada Web",
+            "Camada de Negócio",
+            "Camada Cliente (Client Tier)",
+            "Camada EIS"
+        ],
+        "gabarito": "Camada Cliente (Client Tier)",
+        "assunto": "Desenvolvimento de Software_Java EE"
+    },
+    {
+        "id": 47,
+        "enunciado": "Qual anotação da API JAX-RS é utilizada para mapear uma classe como um recurso e definir o caminho URI de acesso?",
+        "alternativas": [
+            "@GET",
+            "@Produces",
+            "@Path",
+            "@PathParam"
+        ],
+        "gabarito": "@Path",
+        "assunto": "Desenvolvimento de Software_Java EE"
+    },
+    {
+        "id": 48,
+        "enunciado": "Qual padrão de projeto é focado em abstrair a complexidade e melhorar a performance de busca de recursos distribuídos através de cache de objetos?",
+        "alternativas": [
+            "Service Locator",
+            "Front Controller",
+            "Composite Entity",
+            "Transfer Object Assembler"
+        ],
+        "gabarito": "Service Locator",
+        "assunto": "Desenvolvimento de Software_Java EE"
+    },
+    {
+        "id": 49,
+        "enunciado": "Em relação à segurança, a entrada de dados do usuário sem a devida validação é considerada:",
+        "alternativas": [
+            "Uma prática recomendada para performance",
+            "Uma característica do protocolo HTTP",
+            "Uma vulnerabilidade crítica de segurança",
+            "Uma responsabilidade exclusiva do banco de dados"
+        ],
+        "gabarito": "Uma vulnerabilidade crítica de segurança",
+        "assunto": "Desenvolvimento de Software_Java EE"
+    },
+    {
+        "id": 50,
+        "enunciado": "O código fonte Java (.java) é compilado para um formato intermediário independente de plataforma. Qual é o nome desse formato?",
+        "alternativas": [
+            "Código Nativo",
+            "Bytecode (.class)",
+            "Script Interpretado",
+            "Binário de Máquina"
+        ],
+        "gabarito": "Bytecode (.class)",
+        "assunto": "Desenvolvimento de Software_Java EE"
+    },
+    {
+        "id": 51,
+        "enunciado": "Como a ferramenta de IaC se comporta na abordagem declarativa ao ler um arquivo de configuração?",
+        "alternativas": [
+            "Executa todos os comandos de criação independentemente do estado atual.",
+            "Compara o arquivo com a realidade e descobre as ações necessárias para atingir o resultado.",
+            "Solicita que o administrador confirme cada comando de alteração via terminal.",
+            "Deleta toda a infraestrutura existente antes de iniciar o novo provisionamento."
+        ],
+        "gabarito": "Compara o arquivo com a realidade e descobre as ações necessárias para atingir o resultado.",
+        "assunto": "Redes e Infra_Infraestrutura como Código"
+    },
+    {
+        "id": 52,
+        "enunciado": "O conceito de 'Linguagem Compartilhada' na IaC auxilia qual processo corporativo além da operação?",
+        "alternativas": [
+            "Processo de contratação de novos estagiários.",
+            "Processos de auditoria e governança.",
+            "Processo de vendas e marketing direto.",
+            "Processo de logística de transporte de servidores."
+        ],
+        "gabarito": "Processos de auditoria e governança.",
+        "assunto": "Redes e Infra_Infraestrutura como Código"
+    },
+    {
+        "id": 53,
+        "enunciado": "O que ocorre se um técnico altera o tamanho do disco de um servidor diretamente pelo console da AWS em um ambiente gerido por IaC?",
+        "alternativas": [
+            "O código de IaC se atualiza automaticamente para refletir a mudança.",
+            "Ocorre um desvio de configuração (Drift) entre a nuvem e o código.",
+            "A instância é destruída imediatamente por violar a política de segurança.",
+            "O arquivo .tfstate é corrompido permanentemente."
+        ],
+        "gabarito": "Ocorre um desvio de configuração (Drift) entre a nuvem e o código.",
+        "assunto": "Redes e Infra_Infraestrutura como Código"
+    },
+    {
+        "id": 54,
+        "enunciado": "A prática de 'definir tudo como código' visa promover quais benefícios?",
+        "alternativas": [
+            "Aumento da dependência de intervenções manuais para maior controle.",
+            "Consistência, interoperabilidade e auditoria abrangente do ambiente.",
+            "Redução da necessidade de ferramentas de versionamento como o Git.",
+            "Isolamento total das equipes de desenvolvimento e operações."
+        ],
+        "gabarito": "Consistência, interoperabilidade e auditoria abrangente do ambiente.",
+        "assunto": "Redes e Infra_Infraestrutura como Código"
+    },
+    {
+        "id": 55,
+        "enunciado": "Um dos pilares da arquitetura moderna de IaC é a construção modular. Qual o objetivo dessa prática?",
+        "alternativas": [
+            "Centralizar toda a infraestrutura em um único arquivo para facilitar a busca.",
+            "Criar sistemas independentes para mitigar falhas em cascata e facilitar evoluções isoladas.",
+            "Aumentar o acoplamento entre os recursos para garantir consistência total.",
+            "Reduzir o número de arquivos no repositório de configuração."
+        ],
+        "gabarito": "Criar sistemas independentes para mitigar falhas em cascata e facilitar evoluções isoladas.",
+        "assunto": "Redes e Infra_Infraestrutura como Código"
+    },
+    {
+        "id": 56,
+        "enunciado": "Para resolver o problema da seção crítica, o requisito de 'Espera Limitada' ($Bounded Waiting$) estabelece que:",
+        "alternativas": [
+            "1) Nenhum processo pode entrar na seção crítica se outro já estiver lá",
+            "2) A decisão de quem entra na seção crítica deve ser tomada rapidamente",
+            "3) Deve haver um limite para o número de vezes que outros processos passam à frente de um solicitante",
+            "4) O tempo de permanência dentro da seção crítica deve ser inferior a um quantum"
+        ],
+        "gabarito": "3) Deve haver um limite para o número de vezes que outros processos passam à frente de um solicitante",
+        "assunto": "Sistemas Operacionais_Gerência de Processos"
+    },
+    {
+        "id": 57,
+        "enunciado": "Qual técnica é utilizada para mitigar o problema de $Starvation$, aumentando a prioridade de processos que esperam há muito tempo?",
+        "alternativas": [
+            "1) $Preempção$",
+            "2) $Swapping$",
+            "3) $Aging$ (Envelhecimento)",
+            "4) $Pipelining$"
+        ],
+        "gabarito": "3) $Aging$ (Envelhecimento)",
+        "assunto": "Sistemas Operacionais_Gerência de Processos"
+    },
+    {
+        "id": 58,
+        "enunciado": "Em sistemas preemptivos, além do término ou bloqueio por $E/S$, o que pode forçar um processo a deixar a $CPU$?",
+        "alternativas": [
+            "1) A criação de um novo processo filho",
+            "2) A expiração de sua fatia de tempo por interrupção de clock de hardware",
+            "3) A leitura de uma variável global compartilhada com outro processo",
+            "4) O início de uma operação de escrita em sua própria pilha"
+        ],
+        "gabarito": "2) A expiração de sua fatia de tempo por interrupção de clock de hardware",
+        "assunto": "Sistemas Operacionais_Gerência de Processos"
+    },
+    {
+        "id": 59,
+        "enunciado": "Qual é a característica fundamental de um escalonamento Não Preemptivo?",
+        "alternativas": [
+            "1) O sistema operacional pode interromper o processo a qualquer momento via clock",
+            "2) O processo retém a $CPU$ até que a libere voluntariamente ou termine",
+            "3) O escalonador utiliza fatias de tempo para garantir a interatividade",
+            "4) Processos de maior prioridade sempre interrompem processos de menor prioridade"
+        ],
+        "gabarito": "2) O processo retém a $CPU$ até que a libere voluntariamente ou termine",
+        "assunto": "Sistemas Operacionais_Gerência de Processos"
+    },
+    {
+        "id": 60,
+        "enunciado": "No espaço de endereçamento de um processo, qual segmento é responsável por armazenar variáveis locais e endereços de retorno de funções?",
+        "alternativas": [
+            "1) Segmento de Código (Text)",
+            "2) Segmento de Dados",
+            "3) Pilha (Stack)",
+            "4) Heap"
+        ],
+        "gabarito": "3) Pilha (Stack)",
+        "assunto": "Sistemas Operacionais_Gerência de Processos"
+    }
+]

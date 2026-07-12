@@ -1,0 +1,1132 @@
+[
+    {
+        "id": 1,
+        "enunciado": "Em um ambiente de servidor multiusuário e multitarefa, o administrador de sistemas precisa garantir que processos interativos (que exigem resposta rápida ao usuário) tenham prioridade sobre processos em background (que realizam tarefas longas e não urgentes).\nAssinale a opção que apresenta o algoritmo de escalonamento de CPU, ou conceito relacionado, que é mais adequado para atingir esse objetivo de forma eficiente em um sistema operacional moderno.",
+        "alternativas": [
+            "First-Come, First-Served (FCFS).",
+            "Escalonamento por Prioridade Preemptivo com Envelhecimento (Aging).",
+            "Shortest Job Next (SJN).",
+            "Round-Robin com fatia de tempo (timeslice) muito grande.",
+            "Escalonamento Não Preemptivo."
+        ],
+        "gabarito": "Escalonamento por Prioridade Preemptivo com Envelhecimento (Aging)."
+    },
+    {
+        "id": 2,
+        "enunciado": "Assinale a alternativa correta relacionada com processos e threads em sistemas operacionais.",
+        "alternativas": [
+            "A semelhança entre ambos é que eles compartilham um espaço de endereçamento e dados.",
+            "O modelo de programação que emprega processos é mais simples do que o que utiliza threads.",
+            "Os processos podem ser utilizados em sistemas com múltiplas CPUs, ao contrário dos threads.",
+            "Os threads são mais rápidos para serem criados e destruídos do que os processos.",
+            "Um processo pode estar em um dos cinco estados: Em Execução, Bloqueado, Pronto, Aguardando e Eliminado."
+        ],
+        "gabarito": "Os threads são mais rápidos para serem criados e destruídos do que os processos."
+    },
+    {
+        "id": 3,
+        "enunciado": "Julgue o item a seguir, relativo a gerenciamento de memória, conceitos de processo e threads e LDAP.\nCada processo tem um contador de programa, que controla a instrução a ser executada em seguida, e registradores, que armazenam suas variáveis de trabalho atuais.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 4,
+        "enunciado": "Considerando o gerenciamento de processos em sistemas operacionais, são campos fundamentais de uma entrada típica na tabela de processos, EXCETO:",
+        "alternativas": [
+            "ID do usuário.",
+            "Prioridade.",
+            "ID do processo.",
+            "Estado do processo."
+        ],
+        "gabarito": "ID do usuário."
+    },
+    {
+        "id": 5,
+        "enunciado": "Qual é a principal diferença entre um processo e uma thread em sistemas operacionais?",
+        "alternativas": [
+            "Um processo é sempre mais leve e rápido que uma thread.",
+            "Processos compartilham o mesmo espaço de memória, enquanto threads têm espaços de memória separados.",
+            "Threads são unidades de execução dentro de um processo, compartilhando os recursos do processo (como memória), o que as torna mais leves para criar e gerenciar.",
+            "Um processo não pode conter múltiplas threads.",
+            "Apenas threads podem executar em paralelo em sistemas com múltiplos processadores."
+        ],
+        "gabarito": "Threads são unidades de execução dentro de um processo, compartilhando os recursos do processo (como memória), o que as torna mais leves para criar e gerenciar."
+    },
+    {
+        "id": 6,
+        "enunciado": "Acerca das linguagens e tecnologias de programação, julgue o item subsequente.\nUm escalonamento de tarefas preemptivo deixa de ser executado em um processador nos seguintes casos: término, execução de operação de IO ou liberação explícita da tarefa.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 7,
+        "enunciado": "No que se refere às políticas de escalonamento de sistemas operacionais, assinale a opção que corresponde ao tempo decorrido entre a criação e o término de um processo.",
+        "alternativas": [
+            "throughput.",
+            "tempo de espera.",
+            "tempo de turnaround.",
+            "tempo de resposta.",
+            "tempo de processador."
+        ],
+        "gabarito": "tempo de turnaround."
+    },
+    {
+        "id": 8,
+        "enunciado": "Relativamente à administração de servidores Linux, julgue o item seguinte.\nA criação de um processo não garante sua execução imediata, pois processos de menor prioridade podem ser suspensos para que se priorizem processos de maior prioridade, de acordo com o critério de escalonamento definido.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 9,
+        "enunciado": "Em um sistema operacional, o que caracteriza um processo em um sistema operacional é:",
+        "alternativas": [
+            "um arquivo de sistema fundamental para o funcionamento do sistema operacional.",
+            "um conjunto de configurações de hardware essenciais para a operação do sistema.",
+            "um dispositivo de armazenamento utilizado para armazenar informações temporárias.",
+            "uma instância de um programa em execução, incluindo o código e os dados."
+        ],
+        "gabarito": "uma instância de um programa em execução, incluindo o código e os dados."
+    },
+    {
+        "id": 10,
+        "enunciado": "Julgue o item seguinte, relativo a sistemas operacionais.\nUm processo é um programa em execução com uma entrada, uma saída e um estado; vários processos podem ser compartilhados no mesmo processador.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 11,
+        "enunciado": "Julgue o item seguinte, relativo a sistemas operacionais.\nA propriedade essencial de dispositivos de entrada e saída categorizados como dispositivos de blocos é que cada bloco pode ser lido ou escrito independentemente de todos os outros blocos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 12,
+        "enunciado": "Em diversos Sistemas Operacionais, processos que estão trabalhando juntos compartilham recursos, como memória, onde todos podem ler e escrever. Uma das soluções propostas para solucionar problemas com sincronização, e evitar condições de corrida, é a utilização de um tipo específico de variável chamada de semáforo.\nSobre a utilização dos semáforos no controle de acesso a recursos compartilhados, assinale a opção que corretamente descreve a operação down, que também pode ser chamada de wait ou P.",
+        "alternativas": [
+            "Verifica se o valor do semáforo é maior que 0. Quando é maior que 0, o semáforo é decrementado e o processo é posto para dormir até ser despertado novamente. Quando é igual a 0, o processo continua.",
+            "Incrementa o valor do semáforo e interrompe o processo atual. Caso o valor do semáforo seja maior que 2, antes de dormir, o processo deve indicar um dos processos que está dormindo para ser despertado.",
+            "Verifica se o valor do semáforo é maior que 0. Quando é maior que 0, o semáforo é decrementado e o processo continua. Quando é igual a 0, o processo é posto para dormir até ser despertado novamente.",
+            "Incrementa o valor do semáforo. Quando há algum processo dormindo, um deles é escolhido pelo sistema para ser despertado e pode completar seu down. O critério de escolha do processo pode variar, podendo ser escolhido ao acaso."
+        ],
+        "gabarito": "Verifica se o valor do semáforo é maior que 0. Quando é maior que 0, o semáforo é decrementado e o processo continua. Quando é igual a 0, o processo é posto para dormir até ser despertado novamente."
+    },
+    {
+        "id": 13,
+        "enunciado": "A respeito de sistemas operacionais, julgue o próximo item.\nUm processo corresponde a um programa em execução, ao qual está associado um espaço de endereçamento, que é uma lista de posições de memória.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 14,
+        "enunciado": "Após a atualização de uma tabela, observou-se que os dados estavam incorretos. Realizada a depuração do problema, percebeu-se que havia três processos em seção crítica. A solução para o problema de seção crítica consiste em atender aos requisitos:",
+        "alternativas": [
+            "exclusão mútua, progresso e espera limitada.",
+            "throughput, progresso e locking.",
+            "throughput, limitação de buffer e espera circular.",
+            "exclusão mútua, espera circular e preempção."
+        ],
+        "gabarito": "exclusão mútua, progresso e espera limitada."
+    },
+    {
+        "id": 15,
+        "enunciado": "O algoritmo de escalonamento de processos round-robin é um dos mais tradicionais de sua categoria. Seu funcionamento consiste em ser",
+        "alternativas": [
+            "preemptivo e usar a lógica “primeiro que entra é o primeiro que sai” para acessar o tempo de processamento de CPU.",
+            "não preemptivo e atribuir tempo de processamento da CPU ao menor processo da fila a ser executada.",
+            "preemptivo e atribuir um valor uniforme de tempo chamado quantum a todos os processos para rodarem na CPU.",
+            "não preemptivo e atribuir tempo de processamento da CPU ao processo que possua o menor tempo restante."
+        ],
+        "gabarito": "preemptivo e atribuir um valor uniforme de tempo chamado quantum a todos os processos para rodarem na CPU."
+    },
+    {
+        "id": 16,
+        "enunciado": "Como são denominados o método de implementação e a técnica de escalonamento nos quais os processos podem ser executados para diferentes nós durante o tempo de execução, e não se tem, antes do início da execução, todas as informações sobre o escalonamento do processo, ou seja, algumas informações são reconhecidas apenas depois da execução do escalonador?",
+        "alternativas": [
+            "Método Dinâmico e Técnica Não Determinística.",
+            "Método Estático e Técnica Não Determinística.",
+            "Método Dinâmico e Técnica Determinística.",
+            "Método Estático e Técnica Determinística.",
+            "Método Variável e Técnica Determinística."
+        ],
+        "gabarito": "Método Dinâmico e Técnica Não Determinística."
+    },
+    {
+        "id": 17,
+        "enunciado": "Em um sistema operacional multiprogramável, um processo de tempo real é um processo que",
+        "alternativas": [
+            "tem prioridade mais alta do que os outros.",
+            "deve ser executado dentro de um limite de tempo específico.",
+            "deve ser executado antes dos outros.",
+            "deve ser executado em um processador dedicado.",
+            "deve ser executado sem um limite de tempo, para garantir que todos os processos sejam executados."
+        ],
+        "gabarito": "deve ser executado dentro de um limite de tempo específico."
+    },
+    {
+        "id": 18,
+        "enunciado": "Como analista de Suporte Técnico de Redes da Defensoria Pública do Estado de Mato Grosso do Sul, você está envolvido no planejamento, desenvolvimento e execução do processamento automático de informações para aprimorar os procedimentos técnico-administrativos da instituição. No contexto desse trabalho, é importante entender diferentes algoritmos de alocação de CPU para otimizar o desempenho dos sistemas. Nesse sentido, assinale a alternativa que melhor descreve o algoritmo de alocação de CPU conhecido como “Round Robin”.",
+        "alternativas": [
+            "Os processos são escalonados na ordem em que chegam à fila de prontos. O primeiro processo a chegar é o primeiro a receber a CPU.",
+            "Esse algoritmo prioriza a execução do processo com o menor tempo de execução remanescente.",
+            "É um algoritmo de agendamento de tempo compartilhado, em que cada processo recebe um pequeno quantum de tempo da CPU e depois é colocado de volta no final da fila de prontos.",
+            "Cada processo é atribuído a uma prioridade, e o processo com a prioridade mais alta obtém a CPU.",
+            "Cada processo recebe bilhetes, e um processo é escolhido aleatoriamente para obter a CPU com base na quantidade de bilhetes que possui."
+        ],
+        "gabarito": "É um algoritmo de agendamento de tempo compartilhado, em que cada processo recebe um pequeno quantum de tempo da CPU e depois é colocado de volta no final da fila de prontos."
+    },
+    {
+        "id": 19,
+        "enunciado": "O objetivo da multiprogramação é ter processos em execução o tempo todo para maximizar a utilização de CPU.\nO escalonamento de CPU lida com o problema de decidir a quais processos na fila de processos prontos a CPU deverá ser alocada.\nNo escalonamento não preemptivo, depois que a CPU é alocada a um processo, o processo só é removido da CPU quando ele passa para o estado de espera ou quando",
+        "alternativas": [
+            "outro processo mais prioritário fica pronto.",
+            "ele entra em loop infinito.",
+            "ele diminui a sua prioridade no sistema.",
+            "a sua fatia de tempo termina.",
+            "ele termina."
+        ],
+        "gabarito": "ele termina."
+    },
+    {
+        "id": 20,
+        "enunciado": "Considerando os sistemas operacionais modernos, a situação de Starvation ocorre quando",
+        "alternativas": [
+            "um processo é sempre escalonado para executar, pois ele possui prioridade de tempo real.",
+            "um processo nunca é executado, porque fica bloqueado esperando a execução de algum outro processo.",
+            "um processo sempre executa em um determinado núcleo de execução, em virtude da falha de escalonamento no sistema.",
+            "um processo nunca é executado, pois a existência de processos com maior prioridade o impede de entrar em execução."
+        ],
+        "gabarito": "um processo nunca é executado, pois a existência de processos com maior prioridade o impede de entrar em execução."
+    },
+    {
+        "id": 21,
+        "enunciado": "Um sistema considerado escalável apoia a manutenção de uma operação, pois",
+        "alternativas": [
+            "distribui uniformemente o volume de requisições entre os recursos disponíveis.",
+            "impede a descontinuidade de um serviço em caso de falha em um dos dispositivos.",
+            "monitora os serviços e produz alertas em caso de anomalias.",
+            "impede que o sistema seja acessado por pessoas não autorizadas.",
+            "provisiona recursos em resposta às mudanças no volume de trabalho."
+        ],
+        "gabarito": "provisiona recursos em resposta às mudanças no volume de trabalho."
+    },
+    {
+        "id": 22,
+        "enunciado": "Assinale a alternativa abaixo que NÃO corresponde ao nome de um algoritmo de escalonamento de processos.",
+        "alternativas": [
+            "Round Robin.",
+            "Active Failover.",
+            "FCFS (First Come First Served).",
+            "Multilevel Queue.",
+            "Priority."
+        ],
+        "gabarito": "Active Failover."
+    },
+    {
+        "id": 23,
+        "enunciado": "Qual é o método utilizado para garantir a prioridade de processamento em sistemas operacionais de tempo real?",
+        "alternativas": [
+            "FCFS (First Come, First Served).",
+            "Sistema ágil.",
+            "Round Robin.",
+            "Priority Scheduling.",
+            "Sistema flexivel,."
+        ],
+        "gabarito": "Priority Scheduling."
+    },
+    {
+        "id": 24,
+        "enunciado": "Sobre os estados de um processo no escalonamento dos sistemas operacionais, é correto afirmar que:",
+        "alternativas": [
+            "Novo – um programa foi admitido pelo escalonador de alto nível, mas ainda não está pronto para ser executado. O sistema operacional deve inicializar o processo.",
+            "Pronto – a execução do processo está à espera de algum recurso do sistema, por exemplo, entrada/saída.",
+            "Em execução – a execução do processo terminou e ele será destruído pelo sistema operacional.",
+            "Suspenso – o processo está pronto para ser executado e esperando para usar o processador.",
+            "Concluído – o processo está sendo executado pelo processador."
+        ],
+        "gabarito": "Novo – um programa foi admitido pelo escalonador de alto nível, mas ainda não está pronto para ser executado. O sistema operacional deve inicializar o processo."
+    },
+    {
+        "id": 25,
+        "enunciado": "O que é multitarefa em um sistema operacional, e qual é o objetivo do escalonamento de processos?",
+        "alternativas": [
+            "Multitarefa permite que um único programa seja executado em várias cpus, enquanto o escalonamento de processos define a ordem de execução dos programas.",
+            "Multitarefa permite que vários programas sejam executados simultaneamente, enquanto o escalonamento de processos gerencia a alocação de recursos do sistema.",
+            "Multitarefa permite que o sistema operacional execute várias tarefas de manutenção em segundo plano, enquanto o escalonamento de processos garante a segurança do sistema contra ameaças.",
+            "Multitarefa permite que os usuários executem tarefas em diferentes janelas do sistema operacional, enquanto o escalonamento de processos gerencia as configurações de energia.",
+            "Multitarefa permite que o sistema operacional execute tarefas de backup automáticas, enquanto o escalonamento de processos determina a velocidade do processador."
+        ],
+        "gabarito": "Multitarefa permite que vários programas sejam executados simultaneamente, enquanto o escalonamento de processos gerencia a alocação de recursos do sistema."
+    },
+    {
+        "id": 26,
+        "enunciado": "Sistemas Operacionais gerenciam processos em execução por meio de algoritmos de escalonamento. Nesse sentido, tratam-se de técnicas de escalonamento de processos:",
+        "alternativas": [
+            "Deadlock e Pipeline.",
+            "Round-Robin e Multinível.",
+            "Race Conditions e Shortest Remaining Time.",
+            "Shortest Job First e Swap."
+        ],
+        "gabarito": "Round-Robin e Multinível."
+    },
+    {
+        "id": 27,
+        "enunciado": "Em um sistema operacional típico, em um dado instante um processo pode se encontrar em um estado, como o",
+        "alternativas": [
+            "Bloqueado, no qual o processo é incapaz de ser executado até que algum evento externo aconteça.",
+            "Em Execução, no qual o processo se encontra pronto para utilizar a UCP e aguarda o seu carregamento na memória.",
+            "Finalizado, no qual o processo terminou a sua execução e aguarda ser carregado novamente para execução.",
+            "Parado, no qual o processo foi interrompido, aguardando o usuário dar a autorização para a sua execução.",
+            "Pronto, no qual o processo não é executável, pois encontra-se parado para deixar outro processo ser executado."
+        ],
+        "gabarito": "Bloqueado, no qual o processo é incapaz de ser executado até que algum evento externo aconteça."
+    },
+    {
+        "id": 28,
+        "enunciado": "Em um sistema operacional típico, o montante total de memória RAM demandado por todos os processos é, muitas vezes, bem maior do que a memória disponível.\nEm consequência, manter todos os processos na memória o tempo inteiro exige um montante de memória de que o computador não dispõe. Uma das abordagens para lidar com essa situação é a estratégia que consiste em trazer cada processo do disco para a memória, em sua totalidade, executá-lo por um tempo e, então, colocá-lo de volta no disco. Essa abordagem é denominada",
+        "alternativas": [
+            "Memória Expandida.",
+            "Memória Virtual.",
+            "Reentrância.",
+            "Swapping.",
+            "Virtualização de Memória."
+        ],
+        "gabarito": "Swapping."
+    },
+    {
+        "id": 29,
+        "enunciado": "Em um computador com um sistema operacional típico, após um processo ter sido criado, ele começa a ser executado para realizar a sua tarefa. Entretanto, algumas condições voluntárias ou involuntárias são responsáveis por seu término. Assinale a alternativa que apresenta corretamente apenas condições típicas e as respectivas causas para o término de um processo.",
+        "alternativas": [
+            "Erro fatal (involuntário) e Esgotamento do processador (involuntário).",
+            "Saída normal (voluntária) e Erro fatal (involuntário).",
+            "Saturação da memória cache (involuntário) e Saída por erro (voluntária).",
+            "Morto por outro processo (involuntário) e Esgotamento de memória principal (involuntário).",
+            "Término do tempo previsto (involuntário) e Esgotamento de memória secundária (involuntário)."
+        ],
+        "gabarito": "Saída normal (voluntária) e Erro fatal (involuntário)."
+    },
+    {
+        "id": 30,
+        "enunciado": "Segundo Maia e Machado (2, qual é o nome do mecanismo que impede que dois ou mais processos acessem o mesmo recurso simultaneamente, garantindo que o recurso seja acessado por apenas um processo por vez, enquanto os demais processos deverão aguardar o término da utilização do recurso?",
+        "alternativas": [
+            "Programação multithread.",
+            "Condição de corrida.",
+            "Escalonamento de processos.",
+            "Condição de concorrência.",
+            "Exclusão mútua."
+        ],
+        "gabarito": "Exclusão mútua."
+    },
+    {
+        "id": 31,
+        "enunciado": "A partir do contexto de gerenciamento de processos no sistema operacional, identifica-se que um processo possui diferentes estados. Dado esse cenário, assinale a alternativa que se refere ao estado em que o processo está em memória, apta para iniciar ou retomar sua execução, apenas aguardando a disponibilidade do processador.",
+        "alternativas": [
+            "Nova.",
+            "Pronta.",
+            "Executando.",
+            "Suspensa.",
+            "Terminada."
+        ],
+        "gabarito": "Pronta."
+    },
+    {
+        "id": 32,
+        "enunciado": "Diversas são as formas de realizar a comunicação entre processos (IPC, do inglês Inter-Process Communication) quando da execução de um sistema operacional.\nUm exemplo de recurso unidirecional que pode ser utilizado para esse propósito é",
+        "alternativas": [
+            "o fork.",
+            "o evento.",
+            "o pipe.",
+            "o thread.",
+            "a memória compartilhada."
+        ],
+        "gabarito": "o pipe."
+    },
+    {
+        "id": 33,
+        "enunciado": "Durante a execução de processos em um sistema operacional, uma Analista observou que processos de maior prioridade apareciam sempre que um processo de menor prioridade ativo queria chamar o kemel. Nesse caso, estava ocorrendo o",
+        "alternativas": [
+            "starvation, que é o mesmo que thread interference, mas uma forma de correção disso é a utilização da ordem de atendimento dos processos escritoras por meio de uma fila do tipo último que entra, primeiro que sai (LIFO-last in, first out).",
+            "deadlock, que é o mesmo que intervention, pois um processo trava o outro mantendo o impasse. Para evitar isso utiliza-se o thread attempt para análise e correção.",
+            "thread lock interference afetando a prioridade do fluxo de execução. Uma possivel solução para essa interferencia é priorizar as threads utilizando uma fila do tipo último que entra, primeiro que sai (LIFO-last in, first out).",
+            "starvation, mas é possivel evitá-lo mantendo a ordem de atendimento dos processos escritores utilizando uma fila do tipo primeiro que entra, primeiro que sai (FIFO-first in, first out).",
+            "deadlock, que é o mesmo que lock interference, pois um processo trava o outro mantendo o impasse. Para evitar isso utiliza-se o release lock para liberação."
+        ],
+        "gabarito": "starvation, mas é possivel evitá-lo mantendo a ordem de atendimento dos processos escritores utilizando uma fila do tipo primeiro que entra, primeiro que sai (FIFO-first in, first out)."
+    },
+    {
+        "id": 34,
+        "enunciado": "O conceito mais central em qualquer sistema operacional é o processo: uma abstração de um programa em execução. Embora cada processo seja uma entidade independente, com seu próprio contador de programa e estado interno, processos muitas vezes precisam interagir entre si. Um processo pode estar nos estados em execução, bloqueado ou pronto e as transições entre esses estados ocorrem como mostrado na figura abaixo.\nAdaptado de Andrew S. Tanenbaum, Herbert; Bos. Sistemas Operacionais Modernos. 4. ed. São Paulo: Pearson Education do Brasil, 2016.\nQual transição é disparada quando o escalonador decide que o processo em andamento foi executado por tempo suficiente, e é o momento de ceder o lugar na CPU a outro processo?",
+        "alternativas": [
+            "Transição 1.",
+            "Transição 2.",
+            "Transição 3.",
+            "Transição 4.",
+            "Não ocorre nenhuma transição."
+        ],
+        "gabarito": "Transição 2."
+    },
+    {
+        "id": 35,
+        "enunciado": "O escalonamento round-robin foi projetado para intercalar os processos do sistema operacional. Sobre esse algoritmo de agendamento, assinale a alternativa correta.",
+        "alternativas": [
+            "O escalonamento é feito por prioridades entre os processos.",
+            "O escalonamento é feito a partir de uma classificação dos processos em grupos ou categorias.",
+            "O escalonamento é feito por ordem de chegada, sem tempo definido por processo.",
+            "Os processos são alternados após uma janela de tempo pré-definida.",
+            "Os processos são executados por prioridade de chegada, com um intervalo de tempo aleatório para cada um."
+        ],
+        "gabarito": "Os processos são alternados após uma janela de tempo pré-definida."
+    },
+    {
+        "id": 36,
+        "enunciado": "Os algoritmos de escalonamento de processos podem ser preemptivos ou não preemptivos. Considere as políticas de escalonamento de processos:\nI. realiza o escalonamento por alternância circular, em que cada processo ganha um intervalo de tempo para uso contínuo da CPU (quantum); se ao final do quantum o processo ainda está processando, outro processo será escolhido; se houver interrupção ou o processo terminar antes do fim do quantum, outro processo será escolhido.\nII. diversas filas de processos no estado pronto são criadas e cada processo é associado exclusivamente a uma delas; cada fila possui um mecanismo próprio de escalonamento, em função das características dos processos; cada fila possui uma prioridade associada; o sistema só pode escalonar processos de uma fila, se todas as outras de prioridade maior estiverem vazias.\nI se refere ao algoritmo de escalonamento",
+        "alternativas": [
+            "Round Robin e II, ao escalonamento por múltiplas filas, ambos são preemptivos.",
+            "Round Robin, que é preemptivo, e II, ao escalonamento por múltiplas filas, que não é preemptivo.",
+            "FIFO (First In First Out), que não é preemptivo, e II, ao escalonamento por prioridades, que é preemptivo.",
+            "FIFO (First In First Out), que é preemptivo, e II, ao escalonamento por prioridades, que não é preemptivo.",
+            "circular e II, ao escalonamento cooperativo, ambos são não preemptivos."
+        ],
+        "gabarito": "Round Robin e II, ao escalonamento por múltiplas filas, ambos são preemptivos."
+    },
+    {
+        "id": 37,
+        "enunciado": "Sobre o escalonamento de processos, analise as afirmativas abaixo:\nI. O algoritmo Round Robin é preemptivo e baseado em quantum de tempo para cada processo, de forma rotativa.\nII. O escalonamento não preemptivo é o mais indicado para ambientes de tempo compartilhado.\nIII. Em escalonadores não preemptivos, um processo permanece em execução tanto quanto possível, só saindo no caso de término de execução, ou quando executa uma instrução que ocasione uma mudança para um estado de espera.\nEstá correto apenas o que se afirma em",
+        "alternativas": [
+            "I.",
+            "II.",
+            "III.",
+            "I e II.",
+            "I e III."
+        ],
+        "gabarito": "I e III."
+    },
+    {
+        "id": 38,
+        "enunciado": "O modo de gerenciamento do sistema, também conhecido como SMM (System Management Mode), é utilizado quando o processador recebe um pedido de interrupção. Quando esse pedido ocorre, o processador",
+        "alternativas": [
+            "salva o conteúdo de todos os seus registradores, entra no modo de gerenciamento do sistema, executa o pedido de interrupção, restaura o conteúdo dos registradores e volta a executar o programa que havia sido interrompido.",
+            "salva o conteúdo de todos os seus registradores, entra no modo de gerenciamento do sistema, executa o pedido de interrupção, restaura o conteúdo dos registradores e reinicia o computador automaticamente.",
+            "não salva o conteúdo, entra no modo de gerenciamento do sistema, executa o pedido de interrupção e volta a executar o programa que havia sido interrompido.",
+            "salva o conteúdo de todos os seus registradores, volta a executar o programa que havia sido interrompido e reinicia automaticamente."
+        ],
+        "gabarito": "salva o conteúdo de todos os seus registradores, entra no modo de gerenciamento do sistema, executa o pedido de interrupção, restaura o conteúdo dos registradores e volta a executar o programa que havia sido interrompido."
+    },
+    {
+        "id": 39,
+        "enunciado": "Julgue o item que se seguem, a respeito de gestão de processos, padrão IEEE 802.11, serviços em nuvem e sistemas gerenciadores de bancos de dados.\nNa gestão de processos de um sistema operacional, a tabela de processos contém informações importantes sobre o estado de cada um dos processos, entre elas o contador de programa, o ponteiro de pilha, a alocação de memória e o estado dos arquivos abertos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 40,
+        "enunciado": "Em um sistema operacional, processos",
+        "alternativas": [
+            "não podem ser criados durante a inicialização do sistema.",
+            "não podem ser terminados na ocorrência de um erro fatal (involuntário).",
+            "podem ser criados apenas pelo sistema operacional, não podendo ocorrer por solicitação de um usuário.",
+            "podem ser criados por meio da execução de uma chamada de sistema de criação de processo, por um outro processo em execução.",
+            "podem ser criados sempre no final de uma tarefa em lote, mas não podem ser criados no seu início."
+        ],
+        "gabarito": "podem ser criados por meio da execução de uma chamada de sistema de criação de processo, por um outro processo em execução."
+    },
+    {
+        "id": 41,
+        "enunciado": "Em relação a sistema operacional e virtualização, julgue o item a seguir.\nO gerenciamento multitarefa do sistema operacional acessa mais de uma CPU.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 42,
+        "enunciado": "Em relação aos conceitos relacionados a processos em Sistemas Operacionais, considere o seguinte diagrama de estados, mostrando os três estados nos quais um processo pode se encontrar.\nDe acordo com o diagrama, analise as afirmativas a seguir:\nI – Um processo pode estar nos estados “Em execução”, “Bloqueado” e “Pronto”.\nII – A transição de número “2” ocorre quando o escalonador decide que o processo em execução foi executado por tempo suficiente e é o momento de deixar outro processo ter algum tempo de CPU.\nIII – A transição de número “4” ocorre quando o escalonador escolhe o processo que estava bloqueado para chegar à CPU e ser executado novamente.\nEstá CORRETO o que se afirma em:",
+        "alternativas": [
+            "I, apenas.",
+            "I e II, apenas.",
+            "I e III, apenas.",
+            "II e III, apenas.",
+            "I, II e III."
+        ],
+        "gabarito": "I e II, apenas."
+    },
+    {
+        "id": 43,
+        "enunciado": "Com relação a sistemas operacionais, julgue o item seguinte.\nO monitor de referência para controle de acesso contém as regras que definem quando e como os objetos podem ser acessados pelos usuários.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 44,
+        "enunciado": "O planejamento da CPU lida com o problema de decidir qual dos processos na fila pronta deve ser alocado ao núcleo da CPU. Selecione o algoritmo de escalonamento de processos no qual a cada processo, é atribuído um tempo fixo, de forma cíclica.",
+        "alternativas": [
+            "Agendamento baseado em prioridade.",
+            "Primeiro a chegar, primeiro a servir.",
+            "Agendamento de fila multinível.",
+            "Menor tarefa primeiro.",
+            "Round Robin."
+        ],
+        "gabarito": "Round Robin."
+    },
+    {
+        "id": 45,
+        "enunciado": "O término da execução de um processo é uma tarefa normal, geralmente ocorre quando já realizou todo o seu trabalho. Desta forma, indique a opção que não representa uma condição para o término de um processo.",
+        "alternativas": [
+            "Erro fatal.",
+            "Saída normal.",
+            "Saída por erro.",
+            "Cancelamento por outro processo.",
+            "Saída por início de outro processo."
+        ],
+        "gabarito": "Saída por início de outro processo."
+    },
+    {
+        "id": 46,
+        "enunciado": "Na maioria dos sistemas, os processos são executados de forma concorrente e podem ser gerados e destruídos dinamicamente. Com uma chamada de sistema do tipo fork podemos criar um novo processo em UNIX, ou CreateProcess() se for utilizado o Windows, por exemplo. Assim, indique a opção dentro da chamada de sistema de gerenciamento de processos que espera que um processo filho seja concluído.",
+        "alternativas": [
+            "pid = wait(pid, &statloc).",
+            "pid = wait_pid(&statloc, options).",
+            "pid = wait(pid, &statloc, options).",
+            "pid = forkpid(pid, &statloc, options).",
+            "pid = waitpid(pid, &statloc, options)."
+        ],
+        "gabarito": "pid = waitpid(pid, &statloc, options)."
+    },
+    {
+        "id": 47,
+        "enunciado": "A maioria dos sistemas que utilizam memória virtual costuma usar a paginação, assim, o espaço de endereçamento virtual é caracterizado pela divisão em unidades chamadas de páginas (pages), tendo como correspondentes na memória física as nominadas molduras de página (page frames). Desta forma, o que acontece se um programa tenta usar uma página não mapeada?",
+        "alternativas": [
+            "Um desvio da CPU para o sistema operacional, interrupção denominada de Page fault.",
+            "A MMU (memory management unit – unidade de gerenciamento de memória) realiza um desvio da CPU para o sistema operacional, interrupção denominada de Page interrupt.",
+            "A MMU (memory management unit – unidade de gerenciamento de memória) realiza um desvio da CPU para o processo em execução, interrupção denominada de Page interrupt.",
+            "A MMU (memory management unit – unidade de gerenciamento de memória) realiza um desvio da CPU para o sistema operacional que finaliza o processo.",
+            "É realizado um desvio da CPU para o sistema operacional, interrupção denominada de Page frame interrupt."
+        ],
+        "gabarito": "Um desvio da CPU para o sistema operacional, interrupção denominada de Page fault."
+    },
+    {
+        "id": 48,
+        "enunciado": "Quando um processo é executado ele possui alguns estados, novo é o estado no qual está sendo criado e concluído quando terminou sua execução. Existem mais três estados dos processos que são: em execução, bloqueado e pronto. Neste contexto, marque os itens corretos.\nI. Em executando: neste estado as instruções estão sendo executadas pela CPU.\nII. O estado pronto: é quando pode ser executado a qualquer momento, após conclusão de um I/O.\nIII. Em bloqueado: é quando o processo está à espera de um evento externo.\nIV. A transição 4 da figura indica que aconteceu o evento externo e que o processo será executado mesmo tendo um processo em execução.\nEstão corretos apenas os itens:",
+        "alternativas": [
+            "I e II.",
+            "I e III.",
+            "II e III.",
+            "I e IV.",
+            "II e IV."
+        ],
+        "gabarito": "I e III."
+    },
+    {
+        "id": 49,
+        "enunciado": "Uma das grandes responsabilidades de um sistema operacional é o gerenciamento dos recursos. Entre eles, podem-se ser citar os algoritmos de agendamento de unidade central de processamento (CPU). A esse respeito, assinale a alternativa que indica o nome dado ao algoritmo de agendamento preemptivo no qual o trabalho mais próximo de sua conclusão recebe prioridade.",
+        "alternativas": [
+            "SJF.",
+            "SRTF.",
+            "FCFS.",
+            "FIFO.",
+            "LIFO."
+        ],
+        "gabarito": "SRTF."
+    },
+    {
+        "id": 50,
+        "enunciado": "O modelo de processos em um sistema operacional típico prevê estados nos quais um processo possa estar. O estado no qual um processo é considerado executável, mas se encontra temporariamente parado para permitir que outro processo seja executado, é denominado estado",
+        "alternativas": [
+            "bloqueado.",
+            "em espera.",
+            "em execução.",
+            "parado.",
+            "pronto."
+        ],
+        "gabarito": "pronto."
+    },
+    {
+        "id": 51,
+        "enunciado": "Analise as afirmativas abaixo sobre escalonamento de processos em sistemas operacionais e assinale a alternativa correta.\nI. O algoritmo Round-Robin escalona os processos que se encontram na lista de prontos em ordem de prioridade.\nII. O quantum define o tempo máximo em que um processo pode ser executado antes de dar a vez a um outro processo.\nIII. O algoritmo First Come First Served (FCFS) é preemptivo.\nIV. O algoritmo Shortest Job First (SJF), em sua versão não preemptiva, pode gerar postergação indefinida de processos.",
+        "alternativas": [
+            "Somente as afirmativas I e IV estão corretas.",
+            "Somente as afirmativas II e III estão corretas.",
+            "Somente as afirmativas I, II e III estão corretas.",
+            "Somente as afirmativas II e IV estão corretas.",
+            "Somente as afirmativas I, III e IV estão corretas."
+        ],
+        "gabarito": "Somente as afirmativas II e IV estão corretas."
+    },
+    {
+        "id": 52,
+        "enunciado": "Em relação à estrutura do sistema operacional, ao gerenciamento de processos e à memória virtual, julgue o item a seguir.\nDefine-se processo como um programa em execução, acompanhado dos valores atuais do contador de programa, dos registradores e das variáveis.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 53,
+        "enunciado": "Sistema operacional é um programa ou um conjunto de programas cuja função é gerenciar os recursos do sistema: definir qual programa recebe atenção do processador, gerenciar memória, criar um sistema de arquivos etc. Possui alguns componentes centrais, que o ajudam a cumprir a sua função. Assinale o componente central do sistema operacional que determina quando e por quanto tempo um processo é executado em um processador.",
+        "alternativas": [
+            "Gerenciador de E/S.",
+            "Escalonador de processo.",
+            "Gerenciador de memória.",
+            "Gerenciador de Comunicação Interprocessos (IPC)."
+        ],
+        "gabarito": "Escalonador de processo."
+    },
+    {
+        "id": 54,
+        "enunciado": "Em ambientes multiprogramação e de rede é comum que processos se comuniquem uns com os outros. Muitos sistemas operacionais fornecem mecanismos para comunicações interprocessos (Interprocess Communication — IPC). Considerando os sinais, assinale a afirmativa correta.",
+        "alternativas": [
+            "Os sinais permitem que processos especifiquem dados para trocar com outros processos.",
+            "Um processo pode capturar ou ignorar um sinal; contudo, não pode mascará-lo, ou seja, bloqueá-lo.",
+            "Os sinais notificam ao processo que um evento ocorreu; são considerados interrupções de software.",
+            "Via de regra, os sinais de um sistema são independentes do sistema operacional e das interrupções geradas por software suportadas por um processador em particular."
+        ],
+        "gabarito": "Os sinais notificam ao processo que um evento ocorreu; são considerados interrupções de software."
+    },
+    {
+        "id": 55,
+        "enunciado": "Os processadores (CPUs) usam pipeline de instruções para acelerar a execução. Julgue a seguinte afirmação em relação ao CPU: Os Registradores de Controle e Estado são usados pela unidade de controle para controlar a operação do processador e por programas privilegiados do Sistema Operacional para controlar a execução de programas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 56,
+        "enunciado": "A técnica de swapping pode ser usada em sistemas multiprogramados com partições de tamanho variável. Desta forma, de acordo com algum critério, um programa pode ser movido da memória principal para o disco e este mesmo programa pode voltar do disco para a memória principal , como se nada tivesse acontecido.\nA alternativa a seguir que completa, correta e respectivamente, as lacunas é:",
+        "alternativas": [
+            "Swap inicial, Swap final.",
+            "Long Swap, Short Swap.",
+            "Swap out, Swap in.",
+            "Swap, Downapp.",
+            "Entrada, Saída."
+        ],
+        "gabarito": "Swap out, Swap in."
+    },
+    {
+        "id": 57,
+        "enunciado": "“A partir do momento em que vários processos podem estar no estado de pronto, critérios devem ser estabelecidos para determinar qual processo será escolhido para fazer uso do processador. Os critérios usados para a escolha compõem a chamada política de escalonamento, que é a base da gerência do processador e da multi programação em um sistema operacional”. A política de escalonamento de um sistema operacional tem diversas funções básicas, dentre as alternativas a seguir, qual NÃO é uma delas?",
+        "alternativas": [
+            "Oferecer tempos de resposta razoáveis.",
+            "Maximizar o throughput do sistema.",
+            "Manter o processador livre a maior parte do tempo.",
+            "Privilegiar a execução de aplicações críticas.",
+            "Balancear o uso da UCP entre os processos."
+        ],
+        "gabarito": "Manter o processador livre a maior parte do tempo."
+    },
+    {
+        "id": 58,
+        "enunciado": "“Neste escalonamento o processo que chegar primeiro ao estado de pronto é selecionado para execução. Os processos em estado pronto são colocados em uma fila de pronto. Quando o processo em execução é colocado no estado de espera, o primeiro processo da fila pronto é selecionado para execução.” Este tipo de escalonamento é conhecido como:",
+        "alternativas": [
+            "Escalonamento Shortest-Job_First ( SJF ).",
+            "Escalonamento por Prioridades.",
+            "Escalonamento Circular.",
+            "Escalonamento firts-in-first-out ( FIFO ).",
+            "Escalonamento Cooperativo."
+        ],
+        "gabarito": "Escalonamento firts-in-first-out ( FIFO )."
+    },
+    {
+        "id": 59,
+        "enunciado": "Júnior está projetando seu sistema operacional chamado “Tanen Mau” e vai utilizar o algoritmo de escalonamento de disco SSTF (Short Seek Time First). Assinale a alternativa correta sobre essa escolha.",
+        "alternativas": [
+            "Esse algoritmo segue os conceitos de justiça nos acessos.",
+            "Esse algoritmo não apresenta desvantagens que possam ser consideradas prejudiciais para o escalonamento do braço de disco.",
+            "Não há otimização do tempo de deslocamento do braço do disco.",
+            "Esse algoritmo vai proporcionar otimização do tempo de posicionamento.",
+            "É um algoritmo otimizado para um caso com grande quantidade de requisições (com o disco totalmente carregado)."
+        ],
+        "gabarito": "Esse algoritmo vai proporcionar otimização do tempo de posicionamento."
+    },
+    {
+        "id": 60,
+        "enunciado": "Julgue o próximo item, acerca de conhecimentos de informática.\nO gerenciamento de processos é responsável por executar simultaneamente vários processos nos sistemas operacionais Windows e Linux, por meio do compartilhamento de tempo e processadores.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 61,
+        "enunciado": "Com relação aos fundamentos dos sistemas operacionais, julgue o item a seguir.\nO processo é um conjunto de instruções originário de uma chamada. Logo, ele não pode criar um ou mais processos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 62,
+        "enunciado": "O escalador do sistema operacional identificou que o processo P1 não poderia prosseguir em sua execução, mesmo ainda tendo tempo de CPU, assim, efetuou sua transição para o estado E1. Após o recebimento de um evento aguardado, ocorreu uma nova transição para o estado E2. Com base nessa situação hipotética, é correto afirmar que E1 refere-se ao estado",
+        "alternativas": [
+            "bloqueado, pois estava temporariamente parado dando lugar a outro processo, enquanto E2 refere-se ao estado de em execução, pois estava usando a CPU naquele instante.",
+            "em execução, pois estava usando a CPU naquele instante, enquanto E2 refere-se ao estado de pronto, pois estava incapaz de executar enquanto não ocorresse um evento externo.",
+            "em execução, pois estava usando a CPU naquele instante, enquanto E2 refere-se ao estado de pronto, pois estava temporariamente parado dando lugar a outro processo.",
+            "em execução, pois estava usando a CPU naquele instante, enquanto E2 refere-se ao estado bloqueado, pois estava incapaz de executar enquanto não ocorresse um evento externo.",
+            "bloqueado, pois estava incapaz de executar enquanto não ocorresse um evento externo, enquanto E2 refere-se ao estado de pronto, pois estava temporariamente parado dando lugar a outro processo."
+        ],
+        "gabarito": "bloqueado, pois estava incapaz de executar enquanto não ocorresse um evento externo, enquanto E2 refere-se ao estado de pronto, pois estava temporariamente parado dando lugar a outro processo."
+    },
+    {
+        "id": 63,
+        "enunciado": "Segundo Machado e Maia (2, a gerencia do processador tornou-se uma das atividades mais importantes em um sistema operacional, em que são estabelecidos critérios utilizados para escolha do processo que fará uso do processador com base em uma política de escalonamento. Assim, assinale a opção que apresenta um exemplo de escalonamento não-preemptivo.",
+        "alternativas": [
+            "Escalonamento Shortest-Job-First (SJF).",
+            "Escalonamento Shortest remaining time (SRT scheduling).",
+            "Escalonamento por Prioridades.",
+            "Escalonamento Circular (Round Robin).",
+            "Escalonamento por Múltiplas Filas."
+        ],
+        "gabarito": "Escalonamento Shortest-Job-First (SJF)."
+    },
+    {
+        "id": 64,
+        "enunciado": "Em sistemas computacionais, a exclusão mútua impede que dois ou mais processos acessem um mesmo recurso simultaneamente. Diversas soluções foram propostas para garantir a exclusão mútua de processos. Uma delas apresenta a solução para o problema da exclusão mútua entre dois processos que se alternam na execução de suas seções críticas (região crítica) e seções remanescentes, requerendo que dois processos compartilhem dois itens de dados. Nessa solução, além das variáveis de condição (CA e CB), que indicam o desejo de cada processo entrar em sua região crítica, é introduzida outra variável ( chamada Vez) para resolver os conflitos gerados pela concorrência, indicando de quem é a vez de entrar em sua seção crítica (região crítica). Antes de acessar a região crítica, o processo sinaliza esse desejo através da variável de condição, assim, o processo cede o uso do recurso ao outro processo, indicado pela variável \"Vez\". Desse modo, além da garantia da exclusão mútua, o bloqueio indefinido de um dos processos no loop nunca ocorrerá, já que a variável \"Vez\" sempre permitirá a continuidade da execução de um dos processos. Assinale a opção que apresenta a solução descrita.",
+        "alternativas": [
+            "Primeiro algoritmo.",
+            "Instrução test-and-set.",
+            "Algoritmo de Dekker.",
+            "Algoritmo de Peterson.",
+            "Algoritmo do Padeiro de Lamport."
+        ],
+        "gabarito": "Algoritmo de Peterson."
+    },
+    {
+        "id": 65,
+        "enunciado": "O Sistema Operacional XYZ utiliza o algoritmo de alocação circular (Round-Robin) para alocação de processos. O quantum de tempo é de 10 ms. Considere que os P P P processos 1, 2 e 3 entram na fila de processos prontos em t = 0.A tabela mostra a ordem de chegada e a duração de cada processo:\nOrdem de chagada Processo Duração (ms) P 1º 1 20 P 2º 2 4 P 3º 3 6 Desprezando-se o tempo necessário para a troca de contexto, determine o tempo médio de espera:",
+        "alternativas": [
+            "10 ms.",
+            "20 ms.",
+            "11,3 ms.",
+            "13,4 ms.",
+            "15,1 ms."
+        ],
+        "gabarito": "11,3 ms."
+    },
+    {
+        "id": 66,
+        "enunciado": "As interrupções são decorrentes de eventos assíncronos, o que possibilita a ocorrência de múltiplas incidências simultâneas. Algumas interrupções podem ser ignoradas frente à ocorrência de outras. Essa característica corresponde a",
+        "alternativas": [
+            "interrupções de buffer.",
+            "interrupções mascaráveis.",
+            "interrupções spooling.",
+            "interrupções não mascaráveis.",
+            "interrupções prioritárias."
+        ],
+        "gabarito": "interrupções mascaráveis."
+    },
+    {
+        "id": 67,
+        "enunciado": "No contexto do escalonamento de processos:",
+        "alternativas": [
+            "o do tipo circular pressupõe implicitamente que os processos são de importância diferenciada por hierarquia de duração.",
+            "um dos mais simples de todos os algoritmos já projetados é o Fisrt-Come, First-Served − FCFS não preemptivo.",
+            "um dos algoritmos mais modernos é o circular, também denominado round-robin, que, apesar de ser complexo, é justo e amplamente usado.",
+            "em escalonadores preemptivos, a tarefa permanece no processador tanto quanto possível, só se retirando no caso de término de execução, solicitação de uma operação de E/S ou liberação do processador.",
+            "turnaround mede o tempo total perdido pela tarefa na fila de prontos, aguardando o processador."
+        ],
+        "gabarito": "um dos mais simples de todos os algoritmos já projetados é o Fisrt-Come, First-Served − FCFS não preemptivo."
+    },
+    {
+        "id": 68,
+        "enunciado": "Um computador possui um hardware de relógio que fornece interrupções periódicas para que o seu sistema operacional possa tomar uma decisão de escalonamento a cada interrupção. Caso o algoritmo de escalonamento que trata essas interrupções seja não preemptivo, o sistema operacional escolhe um processo para executar e",
+        "alternativas": [
+            "deixa-o em execução até que seja identificado, durante o tratamento da interrupção, um outro processo de maior prioridade que ficou pronto para executar.",
+            "deixa-o em execução até que ele seja bloqueado (à espera de E/S ou de um outro processo) ou até que ele voluntariamente decida liberar o uso do processador.",
+            "deixa-o em execução por um intervalo de tempo pré-definido, após o qual o processador será concedido a outro processo que esteja pronto para ser executado.",
+            "uma decisão de escalonamento é tomada durante a interrupção de relógio, visando conceder o processamento a outro processo que esteja aguardando por muito tempo.",
+            "ao término da interrupção de relógio, não poderá mais continuar a execução do processo que estava executando antes da interrupção, pois este foi abortado."
+        ],
+        "gabarito": "deixa-o em execução até que ele seja bloqueado (à espera de E/S ou de um outro processo) ou até que ele voluntariamente decida liberar o uso do processador."
+    },
+    {
+        "id": 69,
+        "enunciado": "Os semáforos são utilizados em sistemas operacionais e permitem controlar o acesso a recursos compartilhados. Uma das suas características essenciais é a atomicidade, que garante que",
+        "alternativas": [
+            "haja a preservação do valor do semáforo mesmo em casos de reinicialização do sistema.",
+            "o valor máximo que um semáforo possa receber nunca seja ultrapassado.",
+            "uma vez terminado o uso de um semáforo, ele seja restaurado em suas características originais para uso futuro.",
+            "uma vez iniciada uma operação de um semáforo, nenhum outro processo pode ter acesso a ele até que essa operação tenha acabado ou tenha sido bloqueada.",
+            "as operações relacionadas aos semáforos possam ser executadas com segurança, mesmo que tenham que ser interrompidas antes dos respectivos términos."
+        ],
+        "gabarito": "uma vez iniciada uma operação de um semáforo, nenhum outro processo pode ter acesso a ele até que essa operação tenha acabado ou tenha sido bloqueada."
+    },
+    {
+        "id": 70,
+        "enunciado": "Em sistemas operacionais, há o conceito “É uma instância de um programa em execução, incluindo as variáveis”. Assinale a alternativa ao que ele se refere:",
+        "alternativas": [
+            "Thread.",
+            "Sistema operacional.",
+            "Multiprogramação.",
+            "Escalonador.",
+            "Processo."
+        ],
+        "gabarito": "Processo."
+    },
+    {
+        "id": 71,
+        "enunciado": "Os processos inicializados em um sistema operacional podem possuir três estados quanto ao processamento na CPU: i) pronto; ii) em execução; e iii) bloqueado.\nAssinale a alternativa que contém o responsável pelo gerenciamento e o controle dos estados de cada processo.",
+        "alternativas": [
+            "Thread.",
+            "Escalonador.",
+            "Memória.",
+            "Arquivos.",
+            "Dispositivos de Entrada e Saída."
+        ],
+        "gabarito": "Escalonador."
+    },
+    {
+        "id": 72,
+        "enunciado": "Julgue o próximo item, relativo a sistemas operacionais.\nNo sistema operacional, o bloco de controle de processo (BCP) representa e guarda informações associadas a um processo, como, por exemplo, o seu estado pronto ou em execução.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 73,
+        "enunciado": "Julgue o próximo item, relativo a sistemas operacionais.\nConsiderando-se que 73, 5, 84, 8 seja a lista referente aos números de cilindros requeridos a um dispositivo magnético de entrada/saída para blocos nos cilindros e, ainda, que o cabeçote do disco esteja inicialmente no cilindro 7 e se movimente na sequência 7, 8, 5, 73, 84, é correto inferir que um algoritmo do tipo scan ou elevador busca atender a solicitação mais próxima da posição corrente do cabeçote, a cada busca.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 74,
+        "enunciado": "Julgue o item seguinte, a respeito de respostas a incidentes, desenvolvimento de software e configuração de servidores.\nO espaço existente entre os fins lógico e físico de um arquivo é denominado file slack, um tipo de desperdício presente em qualquer sistema de arquivos, com qualquer tamanho de bloco, pois dificilmente os arquivos terão tamanho com um valor múltiplo do tamanho do bloco.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 75,
+        "enunciado": "O processamento de exceção está associado à ocorrência de condições que modificam o processamento de instruções no sistema computacional.\nDessa maneira, avalie algumas definições destas exceções.\nI. uma exceção pode ser assumida como evento não usual.\nII. uma exceção pode ser assumida como evento errôneo ou não.\nIII. uma exceção pode ser assumida como evento indetectável por hardware.\nIV. uma exceção pode ser assumida como evento que possa exigir processamento especial.\nEstá correto apenas o que se afirma em",
+        "alternativas": [
+            "I, II e III.",
+            "I, II e IV.",
+            "I, III e IV.",
+            "II, III e IV."
+        ],
+        "gabarito": "I, II e IV."
+    },
+    {
+        "id": 76,
+        "enunciado": "O scheduling da CPU lida com a escolha de qual processo, ou thread, da fila de prontos deve ser alocado a seguir. Existem vários algoritmos com essa função, sendo que um é comprovadamente ótimo, no quesito de minimizar o tempo médio de espera para determinado conjunto de processos.\nEsse algoritmo ótimo é scheduling",
+        "alternativas": [
+            "“primeiro-a-chegar, primeiro-a-ser-atendido” (FCFS – First-Come First-Served).",
+            "trabalho mais curto primeiro (SJF – Shortest Job First).",
+            "por prioridades.",
+            "round-robin (RR).",
+            "de filas multiníveis."
+        ],
+        "gabarito": "trabalho mais curto primeiro (SJF – Shortest Job First)."
+    },
+    {
+        "id": 77,
+        "enunciado": "Uma preocupação de sistemas de tempo real é a latência de um evento, ou seja, o tempo decorrido do momento de um evento até o respectivo atendimento. Acerca dos diferentes tipos de latência em um sistema operacional, assinale a alternativa correta.",
+        "alternativas": [
+            "O montante de tempo requerido para que o despachante do scheduling interrompa um processo e inicie outro é conhecido como latência de interrupção.",
+            "A latência de interrupção é o período de tempo que vai da chegada de uma interrupção na CPU até o final da rotina que atende à interrupção.",
+            "A técnica mais eficaz para manter a latência de interrupção baixa é o fornecimento de kernels preemptivos.",
+            "O sistema operacional deve salvar o estado do processo corrente antes de atender à interrupção usando a rotina de serviço de interrupção (ISR – interrupt service routine) específica.",
+            "Quando ocorre uma interrupção, o sistema operacional não deve concluir a instrução que está executando e determinar o tipo de interrupção que ocorreu."
+        ],
+        "gabarito": "O sistema operacional deve salvar o estado do processo corrente antes de atender à interrupção usando a rotina de serviço de interrupção (ISR – interrupt service routine) específica."
+    },
+    {
+        "id": 78,
+        "enunciado": "A respeito do gerenciamento de processos e do gerenciamento de memória nos sistemas operacionais, julgue o item.\nDespacho é o ato de designar um processador ao primeiro processo da lista de prontos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 79,
+        "enunciado": "A respeito do gerenciamento de processos e do gerenciamento de memória nos sistemas operacionais, julgue o item.\nO gerenciamento de processos deve ser realizado de forma cuidadosa, com o objetivo de assegurar que não ocorra nenhum erro quando eles forem interrompidos e retomados, já que o sistema operacional intercala a execução de seus processos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 80,
+        "enunciado": "A respeito do gerenciamento de processos e do gerenciamento de memória nos sistemas operacionais, julgue o item.\nEmbora os sistemas operacionais executem diversas operações de processo, como, por exemplo, criar e suspender um processo, eles não são capazes de alterar a prioridade de um processo.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 81,
+        "enunciado": "Considere a afirmação relacionada a dois conceitos típicos associados a sistemas operacionais, aqui denominados A e B:\n“Uma diferença entre A e B é que A faz o uso efetivo do tempo de processamento da UCP do computador, possibilitando que vários programas a utilizem. Já o B efetua o compartilhamento de um computador entre diversos usuários, dando-lhes a ilusão de que estão utilizando esse computador simultaneamente.” Os conceitos A e B são, respectivamente:",
+        "alternativas": [
+            "time-sharing e multiprogramação.",
+            "preempção e não-preempção.",
+            "não-preempção e preempção.",
+            "multiprogramação e time-sharing.",
+            "batch e multiprocessamento."
+        ],
+        "gabarito": "multiprogramação e time-sharing."
+    },
+    {
+        "id": 82,
+        "enunciado": "Em um sistema operacional, existem diversas situações que poderiam acarretar o deadlock. Algumas estratégias podem ser utilizadas no seu tratamento, a exemplo daquela conhecida como “Algoritmo do Avestruz”, que",
+        "alternativas": [
+            "ignora a sua existência.",
+            "detecta o deadlock e recupera o sistema.",
+            "detecta a possibilidade de sua ocorrência e evita que ele ocorra.",
+            "elimina os processos causadores do deadlock, sem afetar os demais.",
+            "reinicia o sistema se o travamento ultrapassar um tempo predefinido."
+        ],
+        "gabarito": "ignora a sua existência."
+    },
+    {
+        "id": 83,
+        "enunciado": "Em um sistema operacional, como é denominada a área de memória que dois ou mais processos utilizam para troca de mensagens entre eles?",
+        "alternativas": [
+            "Região crítica.",
+            "Memória física.",
+            "Condição de disputa.",
+            "Memória real."
+        ],
+        "gabarito": "Região crítica."
+    },
+    {
+        "id": 84,
+        "enunciado": "Com relação a sistemas operacionais, julgue o item a seguir.\nWindows e Linux são classificados como sistemas operacionais de tempo real crítico, porque fornecem garantias absolutas de que todas as suas ações ocorrerão dentro de intervalos de tempo determinados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 85,
+        "enunciado": "Com relação a sistemas operacionais, julgue o item a seguir.\nErro fatal e finalização por outro processo são condições involuntárias usuais que ocasionam o término de processos executados por sistemas operacionais.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 86,
+        "enunciado": "Uma técnica comum em sistemas operacionais para o gerenciamento de periféricos, como impressoras, é chamada de spooling. Essa técnica é caracterizada por:",
+        "alternativas": [
+            "a aplicação que deseja utilizar o periférico requisita acesso direto a ele para um programa chamado spooler. Caso nenhuma outra aplicação esteja usando o periférico, o acesso é liberado e a aplicação envia e recebe dados em comunicação direta com o periférico.",
+            "um programa chamado spooler mantém uma fila de tarefas para o periférico, obtidas de aplicações, e o alimenta com os dados necessários de acordo sua velocidade de trabalho, liberando as aplicações para outras tarefas.",
+            "ser uma técnica bastante geral, adequada para o gerenciamento de qualquer periférico por parte do sistema operacional, e ocorre por meio de um programa chamado spooler.",
+            "fornecer acesso a periféricos para aplicações por meio do mapeamento de endereços memória. A aplicação que deseja acessar um certo periférico passa então a ler/escrever nesses endereços para comunicação direta com o periférico. O spooler é o programa do sistema operacional que efetua e gerencia esse mapeamento.",
+            "quando o periférico precisa receber ou enviar dados, ele gera uma interrupção. O processador entra em uma rotina de processamento da interrupção, comunica o driver do periférico, que gera um evento para aplicação que solicitou o acesso ao periférico."
+        ],
+        "gabarito": "um programa chamado spooler mantém uma fila de tarefas para o periférico, obtidas de aplicações, e o alimenta com os dados necessários de acordo sua velocidade de trabalho, liberando as aplicações para outras tarefas."
+    },
+    {
+        "id": 87,
+        "enunciado": "Um sistema operacional multiprocessador com memória compartilhada caracteriza-se por",
+        "alternativas": [
+            "permitir que dois ou mais processadores assumam simultaneamente o controle de um processo a ser executado.",
+            "impedir a adoção de uma estratégia de processamento mestre-escravo, na qual um processador mantém o domínio sobre os demais processadores.",
+            "manter, necessariamente, um único sistema operacional compartilhado entre os diversos processadores.",
+            "possibilitar que um processador escreva um dado em determinada região de memória e que esse dado esteja diferente logo na leitura em sequência.",
+            "ter independência dos múltiplos processadores em relação à sincronização entre eles mesmos."
+        ],
+        "gabarito": "possibilitar que um processador escreva um dado em determinada região de memória e que esse dado esteja diferente logo na leitura em sequência."
+    },
+    {
+        "id": 88,
+        "enunciado": "Relacione as colunas a seguir indicando as características de cada conceito relacionado aos sistemas operacionais. Cada conceito pode aparecer uma, nenhuma ou várias vezes.\nConceitos Características Principais ( ) Fornece o conceito de diretório 1. Processo como um modo de agrupar arquivos.\n( ) Em muitos computadores são 2. Thread de 32 ou 64 bits e indicam posições da memória principal.\n( ) Lê os comandos de um terminal 3. Espaço de e é uma interface entre o endereçamento usuário e o sistema operacional.\n( ) Confere a capacidade de executar 4. Sistema de programas maiores do Arquivo que a memória física da máquina.\n( ) Fornece a capacidade de entidades 5. E n t ra d a / paralelas compartilharem Saída de um espaço de endereçamento.\n6. Interpretador ( ) Um programa em execução de com os valores do contador de comandos programa, dos registradores e (shell) das variáveis.\n( ) Capacidade de gerenciar dispositivos 7. M e m ó r i a como teclados, monitores virtual e impressoras.\nA sequência correta é",
+        "alternativas": [
+            "4, 3, 5, 3, 1, 1, 5.",
+            "3, 7, 5, 7, 1, 2, 7.",
+            "4, 3, 6, 7, 2, 1, 5.",
+            "4, 7, 6, 3, 2, 1, 6.",
+            "3, 4, 5, 3, 2, 2, 7."
+        ],
+        "gabarito": "4, 3, 6, 7, 2, 1, 5."
+    },
+    {
+        "id": 89,
+        "enunciado": "O jantar dos filósofos, formulado por Dijkstra, é um problema clássico da teoria de Sistemas Operacionais.\nAssinale a alternativa que melhor apresenta o tipo de contexto onde o problema do jantar dos filósofos é empregado.",
+        "alternativas": [
+            "Processos de gestão de thead e de fila.",
+            "Semáforos assíncronos.",
+            "Processos de modularização.",
+            "Processos de gestão de Árvore AVL e pilha.",
+            "Processos que competem por acesso exclusivo a um recurso."
+        ],
+        "gabarito": "Semáforos assíncronos."
+    },
+    {
+        "id": 90,
+        "enunciado": "O escalonador de processos de médio prazo é responsável por:",
+        "alternativas": [
+            "selecionar o processo que irá executar na CPU.",
+            "realizar as operações de swapping.",
+            "selecionar qual thread será executada dentro de um processo.",
+            "controlar a admissão de processos.",
+            "bloquear processos que solicitam informações de entrada/saída."
+        ],
+        "gabarito": "realizar as operações de swapping."
+    },
+    {
+        "id": 91,
+        "enunciado": "Corresponde a uma transição de estados inválida, no gerenciamento de processos, a alternativa:",
+        "alternativas": [
+            "Executando para bloqueado.",
+            "Pronto para executando.",
+            "Executando para finalizado.",
+            "Suspenso para executando.",
+            "Novo para Pronto."
+        ],
+        "gabarito": "Suspenso para executando."
+    },
+    {
+        "id": 92,
+        "enunciado": "O sistema operacional necessita definir quais tarefas e processos serão executados pelo processador em um determinado momento. Este gerenciamento é conhecido por escalonamento. Especificamente no contexto de sistemas Linux:",
+        "alternativas": [
+            "o escalonamento é baseado em threads e não em processos.",
+            "o escalonamento considera como prioridade: primeiro, tipo fila (FIFO); depois, tipo quanta de tempo (round-robin); e, por último, tipo de divisão por tempo (time- sharing).",
+            "o sistema de escalonamento se vale de diversas características daquilo que será executado para otimizar o uso de recursos, como a prioridade da tarefa e se ela requisita o uso de CPU ou de disco.",
+            "de forma a se valer dos benefícios de processadores com múltiplos núcleos, o escalonador de tarefa opera de forma transversal, distribuindo a carga entre os diversos núcleos do processador, de forma contínua.",
+            "algoritmos de escalonamento baseados em árvore rubro-negra foram descontinuados do núcleo Linux por apresentaram baixo desempenho em determinados contextos."
+        ],
+        "gabarito": "o escalonamento é baseado em threads e não em processos."
+    },
+    {
+        "id": 93,
+        "enunciado": "Deadlock, no contexto de um sistema operacional, é uma",
+        "alternativas": [
+            "ação ou função implementada como uma sequência de uma ou mais instruções que são indivisíveis, ou seja, nenhum outro processo pode interromper a operação.",
+            "situação em que dois ou mais processos não podem continuar suas execuções, visto que cada um deles espera pelos recursos alocados entre eles.",
+            "situação em que um processo executável é esquecido indefinidamente pelo escalonador; embora esteja apto a executar, nunca é escolhido.",
+            "seção de código dentro do processo que requisita acesso a recursos compartilhados, e que não deve ser executado se outro processo está na mesma seção de código.",
+            "condição na qual múltiplos threads ou processos leem e gravam em uma área de dados compartilhada, e o resultado final depende do tempo relativo a cada operação executada."
+        ],
+        "gabarito": "situação em que dois ou mais processos não podem continuar suas execuções, visto que cada um deles espera pelos recursos alocados entre eles."
+    },
+    {
+        "id": 94,
+        "enunciado": "Todos os computadores modernos frequentemente realizam várias tarefas ao mesmo tempo. Em qualquer sistema de multiprogramação, a CPU muda de um processo para outro rapidamente, executando cada um por dezenas ou centenas de milissegundos. Um processo pode estar nos estados Em execução, Bloqueado ou Pronto. Sobre este assunto, analisar a imagem abaixo e, após, assinalar a alternativa que apresenta a relação CORRETA entre as transições e os estados, representados por números romanos, e os eventos que produzem as mudanças de estado dos processos:\n(1) A entrada torna-se disponível.\n(2) O escalonador seleciona outro processo para execução.\n(3) O processo é bloqueado, aguardando uma entrada.\n(4) O escalonador seleciona o processo.",
+        "alternativas": [
+            "1 - III; 2 - IV; 3 - I; 4 - II.",
+            "1 - IV; 2 - II; 3 - I; 4 - III.",
+            "1 - II; 2 - III; 3 - I; 4 - IV.",
+            "1 - II; 2 - IV; 3 - III; 4 - I.",
+            "1 - I; 2 - III; 3 - IV; 4 - II."
+        ],
+        "gabarito": "1 - IV; 2 - II; 3 - I; 4 - III."
+    },
+    {
+        "id": 95,
+        "enunciado": "Assinale a alternativa que apresenta alguns eventos que fazem com que processos sejam criados em sistemas de propósito geral.",
+        "alternativas": [
+            "início do sistema e início de uma tarefa em lote (batch job).",
+            "início do sistema e descobrimento de um erro fatal pelo processo.",
+            "uma requisição do usuário para criar um novo processo e erro causado pelo processo.",
+            "início de uma tarefa em lote (batch job) e erro causado pelo processo.",
+            "descobrimento de um erro fatal pelo processo e erro causado pelo processo."
+        ],
+        "gabarito": "início do sistema e início de uma tarefa em lote (batch job)."
+    },
+    {
+        "id": 96,
+        "enunciado": "Um sistema é composto por um número finito de recursos a serem distribuídos entre vários processos competidores. Um processo pode utilizar um recurso obedecendo somente a uma sequência.\nA esse respeito, é correto afirmar que a sequência correta sob condições normais de operação é",
+        "alternativas": [
+            "solicitação / uso / liberação.",
+            "alocação / uso / manipulação.",
+            "alocação / manipulação / liberação.",
+            "solicitação / manipulação / alocação."
+        ],
+        "gabarito": "solicitação / uso / liberação."
+    },
+    {
+        "id": 97,
+        "enunciado": "Em Sistemas Operacionais, é correto afirmar que um método de comunicação entre processos é o",
+        "alternativas": [
+            "Pipe.",
+            "Inode.",
+            "Hard link.",
+            "Swapping."
+        ],
+        "gabarito": "Pipe."
+    },
+    {
+        "id": 98,
+        "enunciado": "Um processo em um Sistema Operacional pode estar em um dos estados: novo, pronto, executando, esperando e terminado. São transições de estados de um processo, EXCETO de",
+        "alternativas": [
+            "esperando para pronto.",
+            "executando para pronto.",
+            "executando para esperando.",
+            "esperando para executando."
+        ],
+        "gabarito": "esperando para executando."
+    },
+    {
+        "id": 99,
+        "enunciado": "Sobre gerência de processos, verifique as afirmativas a seguir:\nI- Para que dois processos sejam considerados em deadlock, devem acatar de forma simultânea a pelo menos 3 das 4 condições: posse e espera, não preempção, exclusão mútua e espera circular.\nII- FCFS é considerada a forma de escalonamento mais elementar e se caracteriza por simplesmente acatar as tarefas na sequência em que surgem, sendo um algoritmo não preemptivo.\nIII- O Round-Robin (RR) é considerado um algoritmo bem adequado para sistemas de tempo compartilhado.\nIV- A JVM (Java Virtual Machine) utiliza um algoritmo de escalonamento de threads não preemptivo e baseado em prioridade que seleciona para execução sempre as threads mais antigas.\nV- O algoritmo SJF é um caso especial do algoritmo geral de escalonamento por prioridade e sua maior dificuldade em seu uso é a estimativa, a priori, da duração de cada tarefa.\nAssinale a alternativa correta:",
+        "alternativas": [
+            "Apenas as afirmativas I, IV e V estão corretas.",
+            "Apenas as afirmativas I, II e III estão corretas.",
+            "Apenas as afirmativas II, III, e V estão corretas.",
+            "Apenas as afirmativas II, IV e V estão corretas.",
+            "Apenas as afirmativas I, II, III e V estão corretas."
+        ],
+        "gabarito": "Apenas as afirmativas II, III, e V estão corretas."
+    },
+    {
+        "id": 100,
+        "enunciado": "Segundo Machado e Maia (2, um processo pode ser criado de diversas maneiras. Assinale a opção que apresenta as três principais formas de criação de processos.",
+        "alternativas": [
+            "Logon Interativo, Via Linguagem de Comandos e Via Rotina do Sistema Operacional.",
+            "Via Linguagem de Comandos, Via Rotina do Sistema Operacional e Via Linha de Comando.",
+            "Via Browser, Logon Interativo e Via Linguagem de Comandos.",
+            "Logon Interativo, Via Linha de Comando e Via Browser.",
+            "Via Linha de Comando, Via Linguagem de Comandos e Logon Interativo."
+        ],
+        "gabarito": "Logon Interativo, Via Linguagem de Comandos e Via Rotina do Sistema Operacional."
+    },
+    {
+        "id": 101,
+        "enunciado": "Dentre as funções de um sistema operacional encontra-se a de gerenciamento de processos e seus algoritmos de escalonamento de CPU. Sendo assim, suponha 5 processos: P1, P2, P3, P4 e P5, com respectivos tempos de processamento em milissegundos iguais a 4, 6, 9, 8, 4; e suas respectivas prioridades: 4, 3, 3, 2, 3. Qual a sequência de atendimento dos processos, em um quantum de tempo igual a 2 milissegundos, e seus respectivos tempos iniciais de atendimento, considerando-se um política de escalonamento mista: por prioridade (para processos com prioridades distintas) e round robin (para processos com mesma prioridade)? OBS: Pi(t) significa que o processo i foi escalonado no tempo t.",
+        "alternativas": [
+            "P4(0),P2(2),P3(4),P5(6),P1(8),P4(1,P2(1,P3( ,P5(1,P1(1,P4(2,P2(2,P3(2,P4(2, P3(2b) P4(0), P2(8), P3(1, P5(1, P2(1, P3(1, P5(1, P2(2, P3(2, P1(2c) P4(0), P2(8), P3(1, P5(2,P1(2d) P4(8), P2(1, P3(1, P5(1, P2(1, P3(1, P5(2, P2(2, P3(2, P1(3e) P4(0), P2(8), P3(1, P5(1, P1(1, P2(1, P3(2, P5(2, P2(2, P3(2."
+        ],
+        "gabarito": "B"
+    }
+]

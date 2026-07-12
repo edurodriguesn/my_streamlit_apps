@@ -1,0 +1,675 @@
+[
+    {
+        "id": 1,
+        "enunciado": "Suponha que, em uma empresa que utiliza arquitetura Java EE para desenvolvimento, a equipe enfrente dificuldades na modelagem dos processos e na criação de interfaces que promovam boa usabilidade, além de lidar com práticas inadequadas na implementação.\nQuanto à modelagem de processos, ao projeto de interfaces, a antipadrões e ferramentas para análise e projeto, julgue (C ou E) o item a seguir.\nO antipadrão Anemic Domain Model em Java EE caracteriza-se pela concentração da lógica de negócio em classes de entidade, tornando o sistema difícil de manter.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 2,
+        "enunciado": "Suponha que uma equipe de desenvolvimento tenha sido designada para construir um sistema corporativo fundamentado na plataforma Java EE, com módulos acessíveis via web e integração com dispositivos Android. O sistema deve ser estruturado segundo as boas práticas de arquitetura e deve utilizar ferramentas de apoio à modelagem.\nTendo em vista as tecnologias citadas e as boas práticas de desenvolvimento de sistemas Java EE e Android, julgue (C ou E) o item a seguir.\nNo contexto Java EE, os containers EJB são responsáveis por gerenciar componentes web como Servlets e JSP, controlando o respectivo ciclo de vida e concorrência.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 3,
+        "enunciado": "Suponha que uma empresa de médio porte esteja migrando um sistema legado para a plataforma Java EE, com o objetivo de adotar uma arquitetura baseada em componentes distribuídos e em boas práticas de engenharia de software.\nCom base na arquitetura Java EE, nos containers que compõem os servidores de aplicação e nos padrões arquiteturais utilizados, julgue (C ou E) o item a seguir.\nA especificação Java EE é composta por diversas API padronizadas que favorecem a interoperabilidade entre componentes e a portabilidade da aplicação entre diferentes servidores compatíveis.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 4,
+        "enunciado": "Suponha que uma empresa de médio porte esteja migrando um sistema legado para a plataforma Java EE, com o objetivo de adotar uma arquitetura baseada em componentes distribuídos e em boas práticas de engenharia de software.\nCom base na arquitetura Java EE, nos containers que compõem os servidores de aplicação e nos padrões arquiteturais utilizados, julgue (C ou E) o item a seguir.\nO Web Container é responsável por oferecer o ambiente de execução para componentes de interface com o usuário, como Servlet e JSP, e também pelo gerenciamento da lógica de negócios implementada por EJB.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 5,
+        "enunciado": "Com relação aos padrões de criação e de estruturação e às tecnologias JME e JEE, julgue o item.\nO JME fornece suporte para ambientes de computação em nuvem, enquanto o JEE não o faz.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 6,
+        "enunciado": "Com relação aos padrões de criação e de estruturação e às tecnologias JME e JEE, julgue o item.\nO JME é voltado para o desenvolvimento de aplicativos móveis, enquanto o JEE é voltado para o desenvolvimento de aplicativos corporativos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 7,
+        "enunciado": "O analista Eric foi designado para compatibilizar um antigo projeto de software Java com o recente Spring Boot 3. A versão atual do projeto utiliza Spring Boot 2.1 com Java 8, além de algumas Application Programming Interfaces (APIs) do Java Enterprise Edition (JEE).\nA fim de atualizar o projeto para o Spring Boot 3 observando estritamente o mínimo necessário, Eric deve atualizar o Java para a versão:",
+        "alternativas": [
+            "11, mantendo o uso das APIs do Java EE;",
+            "17, mantendo o uso das APIs do Java EE;",
+            "21, mantendo o uso das APIs do Java EE;",
+            "17, migrando o uso das APIs do Java EE para o Jakarta EE;",
+            "21, migrando o uso das APIs do Java EE para o Jakarta EE."
+        ],
+        "gabarito": "17, migrando o uso das APIs do Java EE para o Jakarta EE;"
+    },
+    {
+        "id": 8,
+        "enunciado": "Um \"portal\" trata-se de uma coleção de mini aplicações web denominadas \"portlets\". Um portlet, por sua vez, é representado em uma página de portal por uma instância de portlet dentro do \"portlet container\". Neste contexto, o “portlet container”:",
+        "alternativas": [
+            "nada mais é que um \"portal server\".",
+            "não fornece um ambiente de execução.",
+            "envia os pedidos dos usuários recebidos da página do portal.",
+            "agrega as respostas geradas pelos portlets para formar a página do portal.",
+            "invoca métodos do ciclo de vida nas instâncias dos portlets."
+        ],
+        "gabarito": "invoca métodos do ciclo de vida nas instâncias dos portlets."
+    },
+    {
+        "id": 9,
+        "enunciado": "O padrão Business Delegate no contexto do Java EE é uma solução para",
+        "alternativas": [
+            "a delegação de responsabilidades de processamento de uma view para classes ajudantes (helper classes), implementadas como JavaBeans ou custom tags.",
+            "o encapsulamento de dados de negócio em um objeto, que podem ser transferidos em uma única chamada de método.",
+            "a criação de famílias de objetos sem especificar suas classes concretas.",
+            "a redução do acoplamento entre o cliente (camada de apresentação) e o serviço de negócio.",
+            "a notificação de outros objetos quando ocorre uma mudança de estado."
+        ],
+        "gabarito": "a redução do acoplamento entre o cliente (camada de apresentação) e o serviço de negócio."
+    },
+    {
+        "id": 10,
+        "enunciado": "No contexto da plataforma Java EE, um Enterprise Bean pode ser corretamente definido como",
+        "alternativas": [
+            "uma classe Java qualquer.",
+            "um componente que executa no lado do servidor e encapsula lógica de negócio da aplicação.",
+            "uma biblioteca que oferece funções de baixo nível, permitindo acesso direto a recursos do sistema operacional a partir de programas Java.",
+            "uma classe que contém métodos para gerar código SQL e acessar um banco de dados relacional.",
+            "um servidor de aplicação que serve como container para servlets Java."
+        ],
+        "gabarito": "um componente que executa no lado do servidor e encapsula lógica de negócio da aplicação."
+    },
+    {
+        "id": 11,
+        "enunciado": "São antipadrões de projeto Java EE:\n1. Arquivos JAR sem links 2. Indentação inconsistente 3. Duplicação de código 4. Entrada de dados do usuário sem validação Assinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "São corretas apenas as afirmativas 1, 2 e 3.",
+            "São corretas apenas as afirmativas 1, 2 e 4.",
+            "São corretas apenas as afirmativas 1, 3 e 4.",
+            "São corretas apenas as afirmativas 2, 3 e 4.",
+            "São corretas as afirmativas 1, 2, 3 e 4."
+        ],
+        "gabarito": "São corretas as afirmativas 1, 2, 3 e 4."
+    },
+    {
+        "id": 12,
+        "enunciado": "A plataforma Java EE utiliza um modelo de aplicação multicamada distribuído, permitindo dividir a lógica da aplicação em componentes de acordo com sua função. A aplicação Java EE é dividida em quatro camadas: camada cliente; camada web; camada de negócio; e camada EIS (Enterprise Information System). Um exemplo da camada cliente é",
+        "alternativas": [
+            "Java Applet.",
+            "Java Enterprise Bean.",
+            "Java Persistence API.",
+            "Java Servlets."
+        ],
+        "gabarito": "Java Applet."
+    },
+    {
+        "id": 13,
+        "enunciado": "No Contexts and Dependency Injection (CDI) versão 2.0, da plataforma Java EE (Enterprise Edition), existem cinco tipos de escopo padrão, definidos no pacote javax.enterprise.context. Quais são?",
+        "alternativas": [
+            "@RequestScoped, @ApplicationScoped, @SessionScoped, @ConversationScoped e @Dependent.",
+            "@ResponseScoped, @InterfaceScoped, @CookieScoped, @ConversationScoped e @DependentScoped.",
+            "@Request, @Application, @Session, @Conversation e @Dependent.",
+            "@RequestScoped, @ApplicationScoped, @SessionScoped, @ConversationScoped e @DependentScoped.",
+            "@ResponseScoped, @InterfaceScoped, @CookieScoped, @ExchangeScoped e @Dependent."
+        ],
+        "gabarito": "@RequestScoped, @ApplicationScoped, @SessionScoped, @ConversationScoped e @Dependent."
+    },
+    {
+        "id": 14,
+        "enunciado": "Com relação ao desenvolvimento Java EE, a padrões e antipadrões de projeto Java EE, a software de versionamento e guarda de fontes e a conceitos de arquitetura monolítica e microsserviços, julgue o item a seguir.\nAs anotações, no Java EE, geralmente são usadas para incorporar em um programa dados que, de outra forma, seriam fornecidos em um descritor de implantação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 15,
+        "enunciado": "Com relação ao desenvolvimento Java EE, a padrões e antipadrões de projeto Java EE, a software de versionamento e guarda de fontes e a conceitos de arquitetura monolítica e microsserviços, julgue o item a seguir.\nO antipadrão de programação denominado âncora de barco decorre da situação em que os programadores deixam um trecho do código na base de código, com a intenção de utilizá-lo posteriormente, caso precisem.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 16,
+        "enunciado": "Com relação ao desenvolvimento Java EE, a padrões e antipadrões de projeto Java EE, a software de versionamento e guarda de fontes e a conceitos de arquitetura monolítica e microsserviços, julgue o item a seguir.\nÉ uma desvantagem de um sistema de controle de versão centralizado o ponto único de falha incorporado no servidor centralizado, pois, se o servidor remoto falhar, ninguém da equipe de desenvolvimento poderá trabalhar no código ou enviar alterações.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 17,
+        "enunciado": "O Apache Tomcat 10 trouxe consigo algumas mudanças, quando comparado com seu antecessor. Uma das mais significativas foi a mudança do pacote primário para as APIs implementadas.\nEsse novo pacote é o:",
+        "alternativas": [
+            "eclipse.*.",
+            "intellij.*.",
+            "jakarta.*.",
+            "netbeans.*.",
+            "vsc.*."
+        ],
+        "gabarito": "jakarta.*."
+    },
+    {
+        "id": 18,
+        "enunciado": "Na arquitetura Java Enterprise Edition v6, identifique a interface padrão para localização de usuários, máquinas, objetos, redes e serviços.",
+        "alternativas": [
+            "JNDI.",
+            "JAXP.",
+            "JDBC.",
+            "JCA.",
+            "JTA."
+        ],
+        "gabarito": "JNDI."
+    },
+    {
+        "id": 19,
+        "enunciado": "A plataforma J2EE especifica quatro camadas para desenvolvimento de sistemas Web, como mostrado na figura a seguir:\nRegistre V, para verdadeiro, ou F, para falso:\n(__)A camada cliente tem o papel de uma interface de entrada e saída para interação do sistema com usuário e é executada na máquina do cliente.\n(__)A camada de apresentação ou Web é a primeira camada do servidor de aplicação e tem o papel de disponibilizar os serviços da camada de negócio para o ambiente Web, oferecendo conteúdo estático e conteúdo dinâmico gerado pelos componentes Web.\n(__)A camada de negócio é a responsável pelo gerenciamento dos dados do sistema e das regras de negócio.\n(__)A camada de negócios é o coração do sistema e é onde são implementadas todas as regras de negócio da aplicação.\n(__)A camada de dados representa o núcleo do sistema e é nela onde estão implementadas todas as regras de negócio da aplicação.\nA sequência CORRETA é:",
+        "alternativas": [
+            "V, V, V, V, V.",
+            "F, F, V, V, V.",
+            "V, V, V, V, F.",
+            "V, F, F, V, F.",
+            "V, V, F, V, F."
+        ],
+        "gabarito": "V, V, F, V, F."
+    },
+    {
+        "id": 20,
+        "enunciado": "Com relação à programação Java (arquitetura J2EE) e ao RSS (Really Simple Syndication), julgue o item a seguir.\nDe acordo com a criação do conjunto de papéis classificados pelo tipo de tarefa ou atividade relacionado ao desenvolvimento Java/J2EE, o desenvolvedor tem como função principal empacotar e configurar os módulos que serão publicados, seguindo as especificações da J2EE.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 21,
+        "enunciado": "Quanto às tecnologias Java Enterprise Edition (JEE), Java Standard Edition (JSE) e Java Micro Edition (JME), julgue o item a seguir.\nDe acordo com o modelo de tiers, cujas aplicações corporativas do JEE podem ser vistas, a camada cliente contém os Web Browers/Applets, não sendo permitido que, nessa camada, aplicações Java rodem dentro do JEE cliente container.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 22,
+        "enunciado": "Quanto às tecnologias Java Enterprise Edition (JEE), Java Standard Edition (JSE) e Java Micro Edition (JME), julgue o item a seguir.\nO modelo de programação JEE é baseado em containers, que fornecem todos os serviços necessários para a aplicação corporativa.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 23,
+        "enunciado": "Na arquitetura Java EE, o mapeamento do Servlet no Descritor de Implantação (Deployment Descriptor) web.xml permite que",
+        "alternativas": [
+            "as credenciais dos usuários que podem acessar o Servlet sejam definidas.",
+            "os dados da conexão com o banco de dados sejam especificados.",
+            "os protocolos suportados pelo Servlet sejam especificados.",
+            "uma URL seja associada ao Servlet.",
+            "o Servlet seja convertido em JSP na primeira execução."
+        ],
+        "gabarito": "uma URL seja associada ao Servlet."
+    },
+    {
+        "id": 24,
+        "enunciado": "Com relação ao desenvolvimento em Java por meio de frameworks, assinale V para a afirmativa verdadeira e F para a falsa.\n( ) JSF é o framework Java padrão para a construção de aplicações web a partir da versão Java EE 5. É uma especificação para o desenvolvimento de interfaces web utilizando uma arquitetura voltada a componentes.\n( ) Hibernate é o framework Java para mapeamento objeto relacional, cuja principal função é abstrair o mapeamento, economizando esforço e preocupações concernentes a tal tarefa. Com uma arquitetura simples, de fácil configuração, e com funções de fácil entendimento, simplifica bastante a tarefa do desenvolvedor.\n( ) Servlet é um framework, definido como um componente semelhante um servidor, que gera dados HTML e XML para a camada lógica de uma aplicação Web, processando estaticamente requisições e respostas.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "F – V – F.",
+            "F – V – V.",
+            "V – F – F.",
+            "F – F – V.",
+            "V – V – F."
+        ],
+        "gabarito": "V – V – F."
+    },
+    {
+        "id": 25,
+        "enunciado": "Considere o parágrafo abaixo.\nNo Java EE, o _______ fornece a funcionalidade para WebServices ________. Ele é adequado para cenários __________ de integração e geralmente é mais bem integrado ao HTTP do que os serviços baseados em _________, não requer mensagens XML ou definições de API de serviço.\nAssinale a alternativa que completa, correta e respectivamente, as lacunas do parágrafo acima.",
+        "alternativas": [
+            "JAX-WS – REST – básicos – SOAP.",
+            "JAX-WS – SOAP – complexos – REST.",
+            "JAX-WS – REST – complexos – SOAP.",
+            "JAX-RS – REST – básicos – SOAP.",
+            "JAX-RS – SOAP – complexos – REST."
+        ],
+        "gabarito": "JAX-RS – REST – básicos – SOAP."
+    },
+    {
+        "id": 26,
+        "enunciado": "Assinale a alternativa correta:",
+        "alternativas": [
+            "Mapeamento objeto-relacional (ou ORM, do inglês: Object-relational mapping) é uma técnica de desenvolvimento utilizada para reduzir a persistência da programação orientada aos objetos utilizando bancos de dados relacionais. As tabelas do banco de dados são representadas através de classes e os registros de cada tabela são representados como instâncias das classes correspondentes. Com esta técnica, o programador não precisa se preocupar com os comandos em linguagem SQL; ele irá usar uma interface de programação simples que faz todo o trabalho de persistência.",
+            "Mapeamento objeto-relacional (ou ORM, do inglês: Object-relational mapping) é uma técnica de depuração de código fonte utilizada para ampliar a impedância da programação orientada aos objetos utilizando bancos de dados relacionais. As tabelas do banco de dados são representadas através de classes e os registros de cada tabela são representados como instâncias das classes correspondentes. Com esta técnica, o programador não precisa se preocupar com os comandos em linguagem SQL; ele irá usar uma interface de programação simples que faz todo o trabalho de persistência.",
+            "O Mapeamento objeto-relacional (ou ORM, do inglês: Object-relational mapping) consiste em uma técnica de desenvolvimento utilizada que reduzira impedância da programação orientada a objetos utilizando bancos de dados relacionais. As tabelas do banco de dados são representadas através de classes e os registros de cada tabela são representados como instâncias das classes correspondentes. Com esta técnica, o programador não precisa se preocupar com os comandos em linguagem SQL; ele irá usar uma interface de programação simples que faz todo o trabalho de persistência.",
+            "Mapeamento objeto-relacional (ou ORM, do inglês: Object-relational mapping) é uma técnica de desenvolvimento utilizada para reduzir a necessidade de utilização de subclasses em programação orientada aos objetos utilizando bancos de dados relacionais. As tabelas do banco de dados são representadas através de classes e os registros de cada tabela são representados como instâncias das classes correspondentes. Com esta técnica, o programador não precisa se preocupar com os comandos em linguagem SQL; ele irá usar uma interface de programação simples que faz todo o trabalho de persistência."
+        ],
+        "gabarito": "O Mapeamento objeto-relacional (ou ORM, do inglês: Object-relational mapping) consiste em uma técnica de desenvolvimento utilizada que reduzira impedância da programação orientada a objetos utilizando bancos de dados relacionais. As tabelas do banco de dados são representadas através de classes e os registros de cada tabela são representados como instâncias das classes correspondentes. Com esta técnica, o programador não precisa se preocupar com os comandos em linguagem SQL; ele irá usar uma interface de programação simples que faz todo o trabalho de persistência."
+    },
+    {
+        "id": 27,
+        "enunciado": "Sobre o desenvolvimento de software em linguagem de programação Java, é correto afirmar que:",
+        "alternativas": [
+            "A JVM deve estar presente apenas nas aplicativos locais, enquanto aplicativos Web requerem um Web container, dispensando a JVM.",
+            "Na tecnologia Java Server Pages (JSP), o código em Java é inserido no HTML e executado e mostrado no lado cliente.",
+            "A plataforma Java é considerada, ao mesmo tempo, compilada e interpretada.",
+            "Um JavaBean é um componente de software residente no servidor que recebe e executa Servlets."
+        ],
+        "gabarito": "A plataforma Java é considerada, ao mesmo tempo, compilada e interpretada."
+    },
+    {
+        "id": 28,
+        "enunciado": "Qual é a ferramenta indicada para criar visualizações de dados e relatórios customizados em aplicações web baseadas em Java EE?",
+        "alternativas": [
+            "VJBI.",
+            "BIRT.",
+            "VisualJBI.",
+            "Hibernate.",
+            "WildFly JBI."
+        ],
+        "gabarito": "BIRT."
+    },
+    {
+        "id": 29,
+        "enunciado": "Considere o trecho de código abaixo:\npackage javaeetutorial.hello;\nimport javax.ws.rs.*;\n@Path(\"helloworld\") public class HelloWorld { @Context private UriInfo context;\npublic HelloWorld() { } @GET @Produces(\"text/html\") public String getHtml() { return \"<html lang=\\\"en\\\"><body><h1>Hello, World!!</h1></body></html>\";\n} } Em relação às anotações presentes no código, assinale a alternativa que contém uma descrição correta do efeito obtido.",
+        "alternativas": [
+            "A anotação @Path é relativa ao caminho no sistema de arquivos no qual está o código do Web Service.",
+            "A anotação @GET se refere aos métodos get/set, padrão comum para implementar encapsulamento.",
+            "O valor da anotação @Path é relativo ao caminho URI.",
+            "A anotação @GET deveria ser seguida da anotação @SET. A ausência de @SET irá causar um erro de compilação.",
+            "A anotação @GET deveria ser seguida da anotação @SET. A ausência de @SET irá causar um aviso (warning) durante a compilação."
+        ],
+        "gabarito": "O valor da anotação @Path é relativo ao caminho URI."
+    },
+    {
+        "id": 30,
+        "enunciado": "A plataforma Java J2EE (Java 2 Enterprise Edition) surgiu com o objetivo de padronizar e simplificar a criação de aplicações empresariais. Entre os módulos principais de um J2EE, um destina-se a processar componentes web como servlets,JSP's, HTML's e Java Beans, enquanto que outro destina-se a prover a infraestrutura necessária para a execução de componentes de negócio distribuídos. Esses módulos são conhecidos, respectivamente, como:",
+        "alternativas": [
+            "Web Container e EJB Container.",
+            "EJB Container e Client Container.",
+            "Client Container e JDBC Container.",
+            "JDBC Container e Web Container."
+        ],
+        "gabarito": "Web Container e EJB Container."
+    },
+    {
+        "id": 31,
+        "enunciado": "Considere o desenvolvimento Java, analise as afirmativas abaixo e dê valores de Verdadeiro (V) ou Falso (F).\n( ) No ciclo de vida de um servlet, o servidor recebe uma requisição e a repassa para o container, que a delega a um servlet. O container carrega a classe na memória, cria uma instância da classe do servlet e inicia a instância chamando o método init( ).\n( ) As interfaces normalmente utilizadas para executar operações de conexão e manipulação de dados em um banco de dados relacional podem ser encontradas no pacote javax.swing.sql.\n( ) Java é muito utilizado por ter como característica gerar um código independente de plataforma que pode ser executado em qualquer arquitetura e sistema operacional.\nAssinale a alternativa que apresenta a sequência correta de cima para baixo.",
+        "alternativas": [
+            "V, V, V.",
+            "F, F, V.",
+            "V, F, V.",
+            "V, F, F."
+        ],
+        "gabarito": "V, F, V."
+    },
+    {
+        "id": 32,
+        "enunciado": "Baseando-se na Java Collections Framework, escolha a alternativa INCORRETA.",
+        "alternativas": [
+            "O método put da interface Map retorna o valor anterior associado à chave informada ou null caso não haja mapeamento anterior para a chave informada.",
+            "TreeMap implementa a interface NavigableMap.",
+            "A implementação de LinkedList não é sincronizada.",
+            "ArrayList possui melhor desempenho com relação a LinkedList para todos os casos.",
+            "A implementação de Hashtable é sincronizada."
+        ],
+        "gabarito": "ArrayList possui melhor desempenho com relação a LinkedList para todos os casos."
+    },
+    {
+        "id": 33,
+        "enunciado": "Acerca de padrões de projeto, JSE e JME, julgue o item a seguir.\nA JSE é bastante utilizada no desenvolvimento web, especialmente em aplicações que utilizam HTTP; a JEE, por sua vez, é voltada para a criação de interface desktop com o uso de Swing e similares.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 34,
+        "enunciado": "Acerca de padrões de projeto, JSE e JME, julgue o item a seguir.\nA JME oferece um ambiente robusto e flexível para aplicativos executados em dispositivos móveis e integrados cuja capacidade de memória, de vídeo e de processamento são limitados, tais como set-top boxes e reprodutores de discos blu-ray.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 35,
+        "enunciado": "Servidores de aplicação baseados em Java Platform Enterprise Edition possuem vários tipos de API.\nAssinale a opção que indica a API utilizada para fornecer acesso ao servidor de nomes e diretórios.",
+        "alternativas": [
+            "JNDI.",
+            "RMI.",
+            "JMS.",
+            "JTS.",
+            "JDBC."
+        ],
+        "gabarito": "JNDI."
+    },
+    {
+        "id": 36,
+        "enunciado": "Com relação a Java EE 7, identifique como verdadeiras (V) ou falsas (F) as seguintes afirmativas:\n( ) Servlets são scripts Java com um ciclo de vida definido no servidor.\n( ) Facelets é uma linguagem de declaração da apresentação para aplicações JSF.\n( ) CDI permite que as dependências dos objetos sejam recebidas, via parâmetros, de forma simplificada.\n( ) EJBs são componentes server-side que encapsulam a lógica de negócio de uma aplicação.\nAssinale a alternativa que apresenta a sequência correta, de cima para baixo.",
+        "alternativas": [
+            "V – F – F – V.",
+            "V – F – V – V.",
+            "F – V – F – V.",
+            "F – V – V – F.",
+            "V – V – F – F."
+        ],
+        "gabarito": "F – V – F – V."
+    },
+    {
+        "id": 37,
+        "enunciado": "Considere que você é o responsável pela especificação da arquitetura de software de um sistema de computação que está sendo desenvolvido pela empresa em que você trabalha. Considere que existe nesse sistema um requisito que indica que cada requisição do cliente deve ser processada para fins de autenticação e controle de acesso.\nVocê sabe, pela sua experiência como arquiteto de software, que replicar essa lógica em todas as páginas ou em todos os servlets da aplicação não é uma boa solução, sobretudo do ponto de vista de manutenção do sistema.\nUtilizando o conhecimento que você possui sobre o catálogo de padrões J2EE, assinale a opção que indica o padrão de projeto Java que é indicado por esse catálogo para atender ao requisito descrito acima, evitando assim o problema de replicação do código.",
+        "alternativas": [
+            "Front Controller.",
+            "Context Object.",
+            "Service Concentrator.",
+            "Composite View.",
+            "Intercepting Filter."
+        ],
+        "gabarito": "Front Controller."
+    },
+    {
+        "id": 38,
+        "enunciado": "Contexts and Dependency Injection (CDI) é uma das principais especificações da plataforma Java EE que provê a integração da camada web com a camada transacional. Uma das tecnologias presentes no CDI são os Qualificadores, cuja finalidade é",
+        "alternativas": [
+            "associar o ciclo de vida e interações de componentes para contextos de ciclo de vida bem formados e extensíveis.",
+            "indicar que tipo de bean precisa ser injetado em um determinado ponto, dada a possibilidade de existir mais de uma implementação do mesmo tipo.",
+            "gerenciar estados, capturar eventos, validar e converter dados, definir navegação entre páginas, dar suporte à internacionalização e acessibilidade.",
+            "definir componentes que implementam a tecnologia Enterprise JavaBeans (EJB).",
+            "prover um padrão de interoperabilidade entre aplicações que executam em diferentes plataformas e frameworks."
+        ],
+        "gabarito": "indicar que tipo de bean precisa ser injetado em um determinado ponto, dada a possibilidade de existir mais de uma implementação do mesmo tipo."
+    },
+    {
+        "id": 39,
+        "enunciado": "A plataforma JEE define um padrão de arquitetura de três camadas para o desenvolvimento de aplicações. O conjunto de padrões de projeto JEE pode ser organizado em três conjuntos associados às três camadas. A alternativa que contém apenas padrões de projetos da Camada de Camada de Negócio (Business Tier Patterns) é:",
+        "alternativas": [
+            "Data Access Object, Service Activator, Domain Store, Web Service Broker.",
+            "Service Locator, Session Façade, Application Service, Composite Entity, Transfer Object, Transfer Object Assembler, Value List Handler.",
+            "Intercepting Filter, Front Controller, Context Object, Application Controller, View Helper, Composite View, Service to Worker, Dispatcher View.",
+            "Data Access Object, Service Activator, Service Locator, Service to Worker.",
+            "Intercepting Filter, Front Controller, Context Object, Session Façade, Application Service, Composite Entity,."
+        ],
+        "gabarito": "Service Locator, Session Façade, Application Service, Composite Entity, Transfer Object, Transfer Object Assembler, Value List Handler."
+    },
+    {
+        "id": 40,
+        "enunciado": "Assinale a alternativa abaixo que descreve corretamente as características da ferramenta IReport.",
+        "alternativas": [
+            "Ferramenta de designer para relatórios, utiliza a biblioteca Java para relatórios a JasperReports, possibilita fazer layouts sofisticados, contendo gráficos, imagens, sub-relatórios, tabelas de referência cruzada e muito mais. Os dados podem ser acessados via JDBC, TableModels, JavaBeans, XML, Hibernate e CSV. Depois podendo fazer relatórios em PDF, RTF, XML, XLS, CSV, HTML, XHTML, textos, DOCX ou OpenOffice.",
+            "Ferramenta de designer para relatórios, possibilita fazer layouts sofisticados, contendo gráficos, imagens, sub-relatórios, tabelas de referência cruzada e muito mais. Os dados podem ser acessados via JDBC, JavaBeans, XML, Hibernate e CSV. Depois podendo fazer relatórios em PDF, RTF, XML, XLS, CSV, textos, DOCX ou OpenOffice.",
+            "Ferramenta de designer para relatórios, utiliza a biblioteca Java para relatórios a JasperReports, possibilita fazer layouts sofisticados, contendo gráficos, imagens, sub-relatórios, tabelas de referência cruzada e muito mais. Os dados podem ser acessados via JDBC, EXT, TableModels, JavaBeans, XML, e CSV. Depois podendo fazer relatórios em PDF, RTF, XML, PPT, PPTS, XLS, CSV, HTML, XHTML, textos, DOC, DOCX ou OpenOffice.",
+            "Ferramenta de designer para relatórios, utiliza a biblioteca Java para relatórios a JasperReports, possibilita fazer layouts sofisticados, contendo imagens, sub- relatórios, tabelas de referência cruzada e muito mais. Os dados podem ser acessados via JDBC, TableModels, Javascript, XML, Hibernate, VR e CSV e emitir relatórios em PDF, RTF, XML, XLS, CSV, HTML, XHTML.",
+            "N.D.A."
+        ],
+        "gabarito": "Ferramenta de designer para relatórios, utiliza a biblioteca Java para relatórios a JasperReports, possibilita fazer layouts sofisticados, contendo gráficos, imagens, sub-relatórios, tabelas de referência cruzada e muito mais. Os dados podem ser acessados via JDBC, TableModels, JavaBeans, XML, Hibernate e CSV. Depois podendo fazer relatórios em PDF, RTF, XML, XLS, CSV, HTML, XHTML, textos, DOCX ou OpenOffice."
+    },
+    {
+        "id": 41,
+        "enunciado": "Associe a coluna \"FERRAMENTA\" com a coluna \"O QUE É?\" e assinale a alternativa que corretamente representa a correspondência entre as duas colunas.\nFERRAMENTA O QUE E? 1. é um componente da plataforma JEE I. JSF (Java Server Faces) que roda em um container de um servidor de aplicação...\n2. é uma biblioteca de componentes para II. RichFaces aplicações web que utilizam o framework JSF.\n3. é uma especificação Java para a construção de interfaces de usuário III. EJB (Enterprise Java Beans) baseadas em componentes para aplicações web.\n4. é um framework para construção de aplicações web dinâmicas que utiliza as IV. Grails linguagens de programação Java e groovy.",
+        "alternativas": [
+            "(I,; (II, ; (III, ; (IV,.",
+            "(I,; (II, ; (III, ; (IV,.",
+            "(I,; (II, ; (III, ; (IV,.",
+            "(I,; (II, ; (III, ; (IV,.",
+            "(I,; (II, ; (III, ; (IV,."
+        ],
+        "gabarito": "(I,; (II, ; (III, ; (IV,."
+    },
+    {
+        "id": 42,
+        "enunciado": "Os servidores de aplicação fornecem a infraestrutura básica necessária para o desenvolvimento e a distribuição de aplicações. Em relação aos servidores de aplicação da plataforma Java EE, analise as afirmativas a seguir:\nI. GlassFish e Apache Geronimo são servidores de aplicação open source compatível com a especificação J2EE.\nII. O Apache Tomcat não dispõe de um container EJB.\nIII. JBoss é programado em Java, portanto, pode ser usado em qualquer sistema operacional que suporte essa linguagem de programação.\nEstá correto o que se afirma em:",
+        "alternativas": [
+            "somente I;",
+            "somente II;",
+            "somente III;",
+            "somente I e II;",
+            "I, II e III."
+        ],
+        "gabarito": "I, II e III."
+    },
+    {
+        "id": 43,
+        "enunciado": "Adquiriu-se a última versão do Java Platform, Enterprise Edition.\nNessa última versão do Java EE temos containers e API’s tais como:\n(1) JTA (Java Transaction API ).\n(2) JSF (JavaServer Faces).\n(3) JDBC (Java Database Connectivity).\n(4) JPA (Java Persistence API ).",
+        "alternativas": [
+            "da relação apresentada somente são aplicados o 1, 2 e 3.",
+            "da relação apresentada somente são aplicados o 1, 2 e 4.",
+            "da relação apresentada somente são aplicados o 2, 3 e 4.",
+            "da relação apresentada somente são aplicados o 1, 3 e 4.",
+            "da relação apresentada todos podem ser aplicados."
+        ],
+        "gabarito": "da relação apresentada todos podem ser aplicados."
+    },
+    {
+        "id": 44,
+        "enunciado": "Em relação aos servidores de aplicação Java EE, analise as afirmativas a seguir.\nI. Glassfish e Geronimo são servidores de aplicação open source.\nII. O container web fornece toda a infraestrutura necessária para rodar os componentes JSP, JSF e Servlets.\nIII. JBoss é inadequado para aplicações distribuídas porque não implementa um container EJB.\nEstá correto o que se afirma em:",
+        "alternativas": [
+            "somente I;",
+            "somente II;",
+            "somente III;",
+            "somente I e II;",
+            "I, II e III."
+        ],
+        "gabarito": "somente I e II;"
+    },
+    {
+        "id": 45,
+        "enunciado": "Existem padrões JavaEE indicados para cada uma das camadas da aplicação. O padrão de camada de apresentação que se comporta como um controlador tratando todas as requisições vindas de um site e roteando para uma ação é o",
+        "alternativas": [
+            "Transfer Object.",
+            "Delegate Controller.",
+            "Session Façade.",
+            "Control Manager.",
+            "Front Controller."
+        ],
+        "gabarito": "Front Controller."
+    },
+    {
+        "id": 46,
+        "enunciado": "Visto que o protocolo HTTP não mantém estado entre as requisições, um recurso do Java EE supre essa necessidade em aplicações. Qual é o nome desse recurso?",
+        "alternativas": [
+            "Sessões.",
+            "Servlets.",
+            "JSP.",
+            "WebServices.",
+            "Context Root."
+        ],
+        "gabarito": "Sessões."
+    },
+    {
+        "id": 47,
+        "enunciado": "No JavaEE 7, qual é a anotação usada para indicar que uma classe é um Web Service JAX-RS?",
+        "alternativas": [
+            "@WebServlet.",
+            "@Resource.",
+            "@Named.",
+            "@WebService.",
+            "@Path."
+        ],
+        "gabarito": "@Path."
+    },
+    {
+        "id": 48,
+        "enunciado": "Sobre a API JAX-WS do Java EE 7, é correto afirmar:",
+        "alternativas": [
+            "É usada para comunicação entre sistemas Java, não havendo compatibilidade com outras plataformas.",
+            "A comunicação é feita através de mensagens SOAP sobre HTTP.",
+            "Mensagens SOAP são simples e o programador as gera e trata, manualmente, em seu código.",
+            "Usa os métodos do HTTP para manipular recursos.",
+            "Usa WSDL para empacotar mensagens trocadas entre o consumidor e o servidor."
+        ],
+        "gabarito": "A comunicação é feita através de mensagens SOAP sobre HTTP."
+    },
+    {
+        "id": 49,
+        "enunciado": "Seja o seguinte trecho de código Java EE 7 usando JAX-RS para definir um WebServices:\n@Path(\"/clientes/{nome}\") public class ClienteResource { @GET @Produces(MediaType.APPLICATION_JSON) public Response getCliente ( ___________ String x){ // processamento } } Para que o parâmetro passado na URI de acesso ao WebService seja injetado no parâmetro “x” do método getCliente(), deve ser adicionada uma anotação na lacuna apresentada. Qual anotação tem esse propósito?",
+        "alternativas": [
+            "@QueryParam(\"nome\").",
+            "@FormParam(\"nome\").",
+            "@MatrixParam(\"nome\").",
+            "@URIParam(\"nome\").",
+            "@PathParam(\"nome\")."
+        ],
+        "gabarito": "@PathParam(\"nome\")."
+    },
+    {
+        "id": 50,
+        "enunciado": "No Java EE 7, há uma tecnologia padrão de gerenciamento do ciclo de vida de componentes atrelados a escopos bem definidos. Essa tecnologia é:",
+        "alternativas": [
+            "EJB.",
+            "JPA.",
+            "JTA.",
+            "CDI.",
+            "JSF."
+        ],
+        "gabarito": "CDI."
+    },
+    {
+        "id": 51,
+        "enunciado": "Java é uma linguagem de programação que permite o desenvolvimento de aplicações para uma série de plataformas. É possível ter software Java desde em dispositivos pequenos, como telefones celulares, a computadores de grande porte, como os mainframes, por exemplo. Devido a essa característica, a linguagem Java conta com três conhecidos ambientes de desenvolvimento. Qual das seguintes plataformas Java é voltada para redes, internet, intranets e afins, contendo bibliotecas especialmente desenvolvidas para o acesso a servidores, a sistemas de e-mail e a banco de dados?",
+        "alternativas": [
+            "JEE.",
+            "JSE.",
+            "JME.",
+            "JRE.",
+            "JKR."
+        ],
+        "gabarito": "JEE."
+    },
+    {
+        "id": 52,
+        "enunciado": "Analise as afirmativas abaixo sobre a arquitetura Java EE versão 7:\n1. O container WEB pode conter JSP e também Servlets.\n2. O container de aplicação comunica-se com o container WEB via HTTP ou SSL.\n3. Os applets Java são componentes executados exclusivamente em navegadores da internet.\nAssinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "É correta apenas a afirmativa 2.",
+            "São corretas apenas as afirmativas 1 e 2.",
+            "São corretas apenas as afirmativas 1 e 3.",
+            "São corretas apenas as afirmativas 2 e 3.",
+            "São corretas as afirmativas 1, 2 e 3."
+        ],
+        "gabarito": "São corretas apenas as afirmativas 1 e 2."
+    },
+    {
+        "id": 53,
+        "enunciado": "No contexto da especificação java EE v7, quais API’s Java podem ser utilizadas para processamento XML?",
+        "alternativas": [
+            "StAX e JAXP.",
+            "JXML e JParse.",
+            "JXML e XmlList.",
+            "JAXP e Jparse.",
+            "StAX e JAAX."
+        ],
+        "gabarito": "StAX e JAXP."
+    },
+    {
+        "id": 54,
+        "enunciado": "São objetivos da arquitetura de segurança Java EE v7:\n1. Prover garantias de segurança efetiva dos produtos desenvolvidos em Java EE.\n2. Especificar as tecnologias de segurança que podem ser utilizadas: Kerberos, NIS+, PK, ou NTLM.\n3. Prover portabilidade, obedecendo à propriedade de aplicação Write Once, Run Anywhere do Java.\nAssinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "É correta apenas a afirmativa 3.",
+            "São corretas apenas as afirmativas 1 e 2.",
+            "São corretas apenas as afirmativas 1 e 3.",
+            "São corretas apenas as afirmativas 2 e 3.",
+            "São corretas as afirmativas 1, 2 e 3."
+        ],
+        "gabarito": "É correta apenas a afirmativa 3."
+    },
+    {
+        "id": 55,
+        "enunciado": "Assinale a alternativa que indica CORRETAMENTE a tecnologia utilizada para monitorar e gerenciar aplicações Java, através da JVM.",
+        "alternativas": [
+            "JMX.",
+            "SNMP.",
+            "SMTP.",
+            "Hibernate.",
+            "JavaMon."
+        ],
+        "gabarito": "JMX."
+    },
+    {
+        "id": 56,
+        "enunciado": "A arquitetura definida pela especificação J2EE determina quatro camadas básicas no modelo de aplicação que são:",
+        "alternativas": [
+            "Camada de Interface - Camada Controladora - Camada de Comunicação - Camada de Repositório.",
+            "Camada Cliente - Camada Web - Camada de Negócios - Camada de Dados.",
+            "Camada Cliente - Camada Web - Camada de Repositório - Camada de Servidor.",
+            "Camada de Interface - Camada Comunicação - Camada de Negócios - Camada de Dados.",
+            "Camada Cliente - Camada Controladora - Camada de Repositório - Camada de Servidor."
+        ],
+        "gabarito": "Camada Cliente - Camada Web - Camada de Negócios - Camada de Dados."
+    },
+    {
+        "id": 57,
+        "enunciado": "Em relação à especificação do Java EE, assinale a alternativa correta.",
+        "alternativas": [
+            "Por ser uma especificação que contempla a padronização várias APIs, há a possibilidade de mudar a implementação dessa especificação para a de outro fornecedor garantindo que as funcionalidades programadas no sistema não sofram alteração.",
+            "É um subconjunto de APIs da especificação do Java SE, portanto é indicada para quem está começando a programar em Java.",
+            "É um grande framework com várias APIs para desenvolvimento de aplicações para dispositivos móveis que focam na comunicação via webservices REST.",
+            "Não é indicado o uso para criação de aplicações que necessitam de comunicação, com internet, intranet, e-mails e redes em geral, pois não possui padronização APIs para trabalhar com esses recursos.",
+            "Deve ser utilizado junto com a especificação do Java FX, para melhorar e aproveitar os recursos gráficos na web e no desktop."
+        ],
+        "gabarito": "Por ser uma especificação que contempla a padronização várias APIs, há a possibilidade de mudar a implementação dessa especificação para a de outro fornecedor garantindo que as funcionalidades programadas no sistema não sofram alteração."
+    },
+    {
+        "id": 58,
+        "enunciado": "Quais dos conceitos a seguir estão relacionados à especificação Java EE?",
+        "alternativas": [
+            "Ejb e Swing.",
+            "Http e Container Web.",
+            "Container Web e Servidor de Aplicação.",
+            "J2SE e J2ME.",
+            "Hibernate e JPA."
+        ],
+        "gabarito": "Container Web e Servidor de Aplicação."
+    },
+    {
+        "id": 59,
+        "enunciado": "Contexts and Dependency Injection (CDI) é uma das principais especificações da plataforma Java EE, que provê a integração da camada web com a camada transacional. Um dos serviços fundamentais providos por essa tecnologia é a chamada injeção de dependências, definida pela capacidade de",
+        "alternativas": [
+            "associar o ciclo de vida e interações de componentes para contextos de ciclo de vida bem formados e extensíveis.",
+            "injetar componentes em uma aplicação de forma segura, incluindo a possibilidade de escolher em tempo de execução qual implementação de uma dada interface deve ser injetada.",
+            "representar componentes e gerenciar seus estados, capturar eventos, validar e converter dados, definir navegação entre páginas, dar suporte a internacionalização e acessibilidade.",
+            "definir componentes que implementam a tecnologia Enterprise JavaBeans (EJB).",
+            "prover um padrão de interoperabilidade entre aplicações que executam em diferentes plataformas e frameworks."
+        ],
+        "gabarito": "injetar componentes em uma aplicação de forma segura, incluindo a possibilidade de escolher em tempo de execução qual implementação de uma dada interface deve ser injetada."
+    },
+    {
+        "id": 60,
+        "enunciado": "Um dos principais objetivos da plataforma JAVA EE é prover aos desenvolvedores de aplicações corporativas um conjunto amplo de APIs que minimizem o tempo de desenvolvimento, reduzam a complexidade e aumentem a performance das aplicações. Dentre as tecnologias listadas abaixo, a opção que não faz parte da plataforma JAVA EE é:",
+        "alternativas": [
+            "Enterprise JavaBeans (EJB).",
+            "Apache Maven (Maven).",
+            "Java Persistence API (JPA).",
+            "Contexts and Dependency Injection (CDI).",
+            "Java Server Faces (JSF)."
+        ],
+        "gabarito": "Apache Maven (Maven)."
+    }
+]

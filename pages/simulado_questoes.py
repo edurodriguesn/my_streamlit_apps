@@ -245,7 +245,7 @@ def escape_markdown(text):
 st.subheader(f"Questão {q['id']} de {total}")
 if q.get("assunto"):
     st.caption(f"📚 Assunto: {q['assunto']}")
-st.markdown(escape_markdown(q["enunciado"]))
+st.markdown(escape_markdown(q["enunciado"]), unsafe_allow_html=True)
 
 ja_respondida = qid in st.session_state.respondidas
 mostrar_gab = st.session_state.mostrar_gabarito.get(qid, False)
@@ -292,12 +292,12 @@ else:
             elif letra == escolha and not acertou:
                 st.markdown(f'<div class="errada">{texto_alt}</div>', unsafe_allow_html=True)
             else:
-                st.markdown(f"&nbsp;&nbsp;{texto_alt}")
+                st.markdown(f"&nbsp;&nbsp;{texto_alt}", unsafe_allow_html=True)
         elif mostrar_gab:
             if letra == letra_gabarito:
                 st.markdown(f'<div class="gabarito">{texto_alt}</div>', unsafe_allow_html=True)
             else:
-                st.markdown(f"&nbsp;&nbsp;{texto_alt}")
+                st.markdown(f"&nbsp;&nbsp;{texto_alt}", unsafe_allow_html=True)
 
     if ja_respondida and not acertou and not mostrar_gab:
         if st.button("👁️ Mostrar Resposta", key=f"mostrar_{qid}", use_container_width=True):

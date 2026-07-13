@@ -225,8 +225,6 @@ letras = "ABCDE"
 
 import re
 def escape_markdown(text):
-    # Converte ***texto*** em sublinhado
-    text = re.sub(r'\*\*\*(.+?)\*\*\*', r'<u>\1</u>', text)
     # Expressão regular:
     # (?<!\\)(\$.*?(?<!\\)\$) -> Captura blocos de LaTeX válidos (começa e termina com $ sem escape antes)
     # |                       -> OU
@@ -245,7 +243,7 @@ def escape_markdown(text):
 st.subheader(f"Questão {q['id']} de {total}")
 if q.get("assunto"):
     st.caption(f"📚 Assunto: {q['assunto']}")
-st.markdown(escape_markdown(q["enunciado"]), unsafe_allow_html=True)
+st.markdown(escape_markdown(q["enunciado"]))
 
 ja_respondida = qid in st.session_state.respondidas
 mostrar_gab = st.session_state.mostrar_gabarito.get(qid, False)
@@ -292,12 +290,12 @@ else:
             elif letra == escolha and not acertou:
                 st.markdown(f'<div class="errada">{texto_alt}</div>', unsafe_allow_html=True)
             else:
-                st.markdown(f"&nbsp;&nbsp;{texto_alt}", unsafe_allow_html=True)
+                st.markdown(f"&nbsp;&nbsp;{texto_alt}")
         elif mostrar_gab:
             if letra == letra_gabarito:
                 st.markdown(f'<div class="gabarito">{texto_alt}</div>', unsafe_allow_html=True)
             else:
-                st.markdown(f"&nbsp;&nbsp;{texto_alt}", unsafe_allow_html=True)
+                st.markdown(f"&nbsp;&nbsp;{texto_alt}")
 
     if ja_respondida and not acertou and not mostrar_gab:
         if st.button("👁️ Mostrar Resposta", key=f"mostrar_{qid}", use_container_width=True):

@@ -1,0 +1,2288 @@
+[
+    {
+        "id": 1,
+        "enunciado": "A empresa de informática ACME possui uma parede com 300 metros de comprimento. Nesta parede serão instaladas duas TOs a cada 30 metros, totalizando 22 TOs.\nO projetista de cabeamento estruturado decidiu pelo uso da fibra óptica 62,5/125μm multimodo no backbone de edifício (entre BD e FD). Entretanto, há dúvidas quanto à definição de qual mídia será instalada no cabeamento horizontal.\nAnalise os itens a seguir:\nI. Instalar um FD no comprimento 150 metros e, no cabeamento horizontal, utilizar cabos U/UTP para a distribuição dos pontos TOs;\nII. Instalar dois distribuidores de piso, FD1 a 75 metros e FD2 a 225 metros, cada um atendendo a 10 e 12 TOs, respectivamente, com cabo U/UTP no cabeamento horizontal;\nIII. Instalar um FD no comprimento 150 metros e, no cabeamento horizontal, utilizar fibra óptica 62,5/125 μm multimodo para a distribuição dos pontos TOs;\nIV. Instalar dois FDs, o primeiro FD1 a 75 metros com switch SW1 conectado ao switch SW0 localizado no BD e o segundo FD2 a 225 metros, com seu switch SW2 em cascata com SW1. Cada rack atendendo a 10 e 12 TOs, respectivamente, via cabo U/UTP no cabeamento horizontal;\nÉ solução adequada para o problema narrado, considerando todas as medidas a partir do início da parede (0 metro), o que consta em",
+        "alternativas": [
+            "I, apenas.",
+            "II, apenas.",
+            "III, apenas.",
+            "IV, apenas.",
+            "I e II, apenas."
+        ],
+        "gabarito": "II, apenas."
+    },
+    {
+        "id": 2,
+        "enunciado": "Em um projeto de cabeamento estruturado foi especificada a seguinte infraestrutura seca: eletrocalha 75mm x 75mm, com estrutura em perfil “U” e seus acessórios;\neletroduto de aço carbono 3/4” (diâmetro interno 25 mm) e seus acessórios; e cabo de categoria 6 U/UTP com diâmetro externo medido de 4,8 mm (área 18 mm.\nObservando os tipos de caminhos, o cabo selecionado e conhecendo as Normas de cabeamento estruturado, assinale a opção correta sobre o projeto.",
+        "alternativas": [
+            "Como o cabo utilizado é um cabo blindado, a taxa máxima de ocupação nesta eletrocalha será de 124 cabos, e por norma, o eletroduto não poderá conter mais de duas curvas entre caixas de passagens.",
+            "O eletroduto não poderá conter mais de duas curvas 90°; a máxima quantidade de cabos na eletrocalha do projeto será de 124 cabos (40%).",
+            "A taxa de ocupação mínima na eletrocalha será de 187 cabos, equivalendo a 60% da sua capacidade.",
+            "No eletroduto quando forem necessárias curvas em forma de “U” (180°) deve ser feita por meio de caixa de passagem; a taxa máxima de ocupação permitida na eletrocalha será de 312 cabos.",
+            "A quantidade máxima de cabos a ser utilizada na eletrocalha será de 312 cabos, limitando a 124 cabos quando houver curvas."
+        ],
+        "gabarito": "O eletroduto não poderá conter mais de duas curvas 90°; a máxima quantidade de cabos na eletrocalha do projeto será de 124 cabos (40%)."
+    },
+    {
+        "id": 3,
+        "enunciado": "Como analista de infraestrutura, assinale a opção que apresenta sua indicação para um projeto de cabeamento estruturado de um ambiente, em que a flexibilização na realocação de TOs fosse necessária.",
+        "alternativas": [
+            "Uso de patch panels descarregados.",
+            "Uso de rack de parede.",
+            "Uso de eletrocalha na infraestrutura seca.",
+            "Uso de um ponto de consolidação.",
+            "Uso de cabos balanceados para conectar diretamente o switch ao computador."
+        ],
+        "gabarito": "Uso de um ponto de consolidação."
+    },
+    {
+        "id": 4,
+        "enunciado": "De acordo com a norma NBR 14565, assinale a opção que apresenta o comprimento máximo do canal a partir do distribuidor de piso no cabeamento horizontal.",
+        "alternativas": [
+            "Depende do fabricante. O analista deverá verificar nas especificações do equipamento.",
+            "A distância máxima permitida para que não ocorra degradação da informação será de 90 metros.",
+            "A norma NBR 14565 não especifica um valor único para todos os equipamentos. De acordo com a norma, a distância dependerá do tipo de dispositivo intermediário.",
+            "Para o cabeamento horizontal os distribuidores de piso deverão ser posicionados para garantir que o comprimento do canal não exceda 100 m, independente do meio físico utilizado.",
+            "O canal pode ter um comprimento de 100 m mais 10 metros referentes ao cabo reserva nos racks."
+        ],
+        "gabarito": "Para o cabeamento horizontal os distribuidores de piso deverão ser posicionados para garantir que o comprimento do canal não exceda 100 m, independente do meio físico utilizado."
+    },
+    {
+        "id": 5,
+        "enunciado": "Um analista de infraestrutura é responsável por projetar o cabeamento estruturado para o novo datacenter da instituição. O projeto deve suportar velocidades de 10 Gbps e ser dimensionado para uma vida útil de no mínimo 10 anos, seguindo as diretrizes de desempenho, custo e planejamento para cabeamento estruturado. A infraestrutura deve conectar os racks de servidores no datacenter e os pontos de acesso na área de trabalho.\nA solução de cabeamento mais adequada para atender a esses requisitos é:",
+        "alternativas": [
+            "utilizar cabos de cobre de Categoria 6b tanto no backbone do datacenter quanto no cabeamento horizontal para as áreas de trabalho.",
+            "usar cabos de par trançado Categoria 5e para todo o projeto, pois é o tipo mais comum e atende a maioria das necessidades de rede.",
+            "instalar cabos de fibra óptica monomodo (OSem todos os pontos de rede (horizontal e backbone) para garantir a máxima velocidade e distância, inclusive nas áreas de trabalho.",
+            "criar uma rede totalmente sem fio (wireless) do tipo Wi-Fi 6 em todo o prédio, pois a norma prioriza a mobilidade e a redução do cabeamento físico.",
+            "implementar um backbone de fibra óptica multimodo (OM4 ou superior) para a interligação dos racks no datacenter e utilizar cabos de cobre de Categoria 6A. (Cat. 6A) para o cabeamento horizontal até os pontos de trabalho."
+        ],
+        "gabarito": "implementar um backbone de fibra óptica multimodo (OM4 ou superior) para a interligação dos racks no datacenter e utilizar cabos de cobre de Categoria 6A. (Cat. 6A) para o cabeamento horizontal até os pontos de trabalho."
+    },
+    {
+        "id": 6,
+        "enunciado": "No contexto da instalação de redes de computadores, o rol dos principais componentes do cabeamento estruturado NÃO inclui:",
+        "alternativas": [
+            "Cabeamento circular.",
+            "Cabeamento de backbone.",
+            "Sala de equipamentos.",
+            "Área de trabalho.",
+            "Caixas de passagem."
+        ],
+        "gabarito": "Cabeamento circular."
+    },
+    {
+        "id": 7,
+        "enunciado": "Em um projeto de modernização de infraestrutura de rede de uma Agência, o Analista responsável precisa definir a solução de cabeamento horizontal que atenda aos seguintes critérios:\n- Suporte a tráfego de voz e dados em 10 Gbps;\n- Distâncias de até 90 metros do armário de telecomunicações até a tomada de telecomunicações (TO);\n- Conformidade com padrões de mercado para novas instalações de (TO) por área de trabalho (WA).\nConsiderando as opções técnicas disponíveis, a configuração de cabo e tomadas que deve ser especificada pelo analista para atender de forma adequada a esses requisitos consiste em utilizar um cabo",
+        "alternativas": [
+            "par trançado categoria 6A com no mínimo 2 TOs por WA.",
+            "par trançado categoria 5e com no mínimo 1 TO por WA, utilizando adaptadores para separar voz e dados.",
+            "de fibra óptica multimodo com 1 TO óptica por área de trabalho e conversores de mídia do tipo balun.",
+            "par trançado categoria 6 com no mínimo 2 TOs por WA, conectadas diretamente ao switch no armário.",
+            "fibra óptica categoria 7 com 2 TOs por área de trabalho e conectores GG45."
+        ],
+        "gabarito": "par trançado categoria 6A com no mínimo 2 TOs por WA."
+    },
+    {
+        "id": 8,
+        "enunciado": "TIA/EIA 568A e 568B são padrões relacionados às telecomunicações, definidos pela TIA (Telecomminications IndustryAssociation) e pela EIA (Eletronic Industries Alliance), mais especificamente, fazem referência à sequência dos fios dentro do conector RJ-45 quando se configura o conector em um cabo par trançado usado em uma redes de computadores. A figura ilustra o conector RJ-45, empregado na implementação física dessas redes. Os dois padrões em referência definem um sistema de codificação com quatro cores básicas, em combinação com o branco, para os condutores UTP, bem como a ordem dos pares no conector.\nDe acordo com a normalização EIA/TIA 568A a ser empregada na conectorização, a sequência de guias 1-2-3-4-5-6-7-8 corresponde às seguintes cores:",
+        "alternativas": [
+            "BA-AZ-BM-VD-BV-MR-BL-LJ.",
+            "BM-MR-BA-VL-LJ-AZ-BV-VD.",
+            "BL-LJ-BV-AZ-BA-VD-BM-MR.",
+            "BV-VD-BL-AZ-BA-LJ-BM-MR."
+        ],
+        "gabarito": "BV-VD-BL-AZ-BA-LJ-BM-MR."
+    },
+    {
+        "id": 9,
+        "enunciado": "Atualmente, em redes de computadores cabeadas, existem diversas categorias de cabos de par trançado, das quais três são descritas a seguir:\nI. É um cabo que substitui o cabo categoria 5 e por padrão trabalha em redes 10/100/1000Mbps a uma distância de 100m.\nII. É um cabo utilizado para transmissão de dados a uma taxa de 10Gbps. No entanto, caso se trate de um cabo UTP, a distância não deve exceder 55m. Já para as versões STP, esse cabo consegue manter seu desempenho para 100m.\nAs categorias para os cabos descritos em I e em II são denominadas, respectivamente:",
+        "alternativas": [
+            "Cat 5e e Cat 6.",
+            "Cat 5 e Cat 6a.",
+            "Cat 5 e Cat 5e.",
+            "Cat 6 e Cat 6a."
+        ],
+        "gabarito": "Cat 5e e Cat 6."
+    },
+    {
+        "id": 10,
+        "enunciado": "Considerando o planejamento de um projeto de rede FTTx para interligar unidades operacionais do SAAE, marque V para as afirmativas verdadeiras e F para as falsas.\n( ) Redes FTTx utilizam fibra óptica para aproximar o meio físico do usuário final.\n( ) A fibra monomodo é amplamente utilizada em enlaces de longa distância.\n( ) A fibra multimodo é mais indicada para longas distâncias que a monomodo.\n( ) Projetos FTTx podem reduzir interferências eletromagnéticas.\n( ) A infraestrutura FTTx independe de planejamento técnico prévio.\nA sequência está correta em",
+        "alternativas": [
+            "V, V, F, V, F.",
+            "F, F, V, F, V.",
+            "F, V, F, V, V.",
+            "V, F, V, F, F."
+        ],
+        "gabarito": "V, V, F, V, F."
+    },
+    {
+        "id": 11,
+        "enunciado": "As redes de computadores utilizam diferentes tipos de mídia de transmissão, cada uma com características distintas de velocidade, alcance máximo e atenuação do sinal. Um Analista de Sistemas recebeu a tarefa de interligar dois edifícios de um campus universitário separados por aproximadamente 3 km, com requisito de transmissão a 10 Gbps e baixa atenuação do sinal ao longo do percurso. Diante disso, assinale a alternativa que apresenta o tipo de mídia MAIS ADEQUADO para esse cenário.",
+        "alternativas": [
+            "Fibra ótica monomodo, cujo núcleo estreito permite a propagação de um único modo de luz, resultando em baixíssima atenuação e dispersão, sendo o meio mais adequado para transmissões de alta velocidade em distâncias superiores a 1 km.",
+            "Cabo de par trançado Cat 6A (STP), que suporta 10 Gbps e interliga edificações separadas por até 3 km em ambientes externos.",
+            "Fibra ótica multimodo com gradiente de índice, que garante 10 Gbps por até 5 km sem necessidade de regeneração do sinal.",
+            "Fibra ótica multimodo de salto de índice, recomendada para longas distâncias por apresentar menor dispersão que a fibra monomodo.",
+            "Cabo coaxial de banda larga, que combina baixa atenuação e alta taxa em longas distâncias para redes corporativas."
+        ],
+        "gabarito": "Fibra ótica monomodo, cujo núcleo estreito permite a propagação de um único modo de luz, resultando em baixíssima atenuação e dispersão, sendo o meio mais adequado para transmissões de alta velocidade em distâncias superiores a 1 km."
+    },
+    {
+        "id": 12,
+        "enunciado": "Em redes de computadores, existem diversos componentes que fazem parte da infraestrutura física. Alguns desses componentes atuam diretamente na transmissão ou no encaminhamento de sinais, enquanto outros simplesmente permitem a passagem do sinal sem processamento ou alimentação elétrica. Considerando esse contexto, qual alternativa apresenta dois exemplos de ativos de rede passivos?",
+        "alternativas": [
+            "Switch e Roteador.",
+            "Access Point e Firewall.",
+            "UTP (Unshielded Twisted Pair) e fibra óptica.",
+            "Patch panel e Firewall.",
+            "Conectores RJ-45 e Roteador."
+        ],
+        "gabarito": "UTP (Unshielded Twisted Pair) e fibra óptica."
+    },
+    {
+        "id": 13,
+        "enunciado": "Em redes locais, o cabo de par trançado é um dos meios físicos mais utilizados para interconectar dispositivos. Sabendo disso, analise as assertivas abaixo sobre cabeamento de par trançado e julgue-as em Verdadeiras (V) ou Falsas (F):\n( ) O conector padrão para cabos de par trançado (como Cat5e, Caté o RJ45 (Registered Jack.\n( ) Um dos tipos de cabos de par trançado é o UTP (Unshielded Twisted Pair), que não possui blindagem.\n( ) Uma das categorias de cabo de par trançado é a Cat5e, que possui velocidade suportada de até 10 Gbps para longas distâncias.\n( ) Um dos tipos de cabos de par trançado é o STP (Shielded Twisted Pair), que possui blindagem.\nQual alternativa preenche, CORRETAMENTE, de cima para baixo, os parênteses acima?",
+        "alternativas": [
+            "V - V - V - F.",
+            "F - V - F - V.",
+            "V - F - V - F.",
+            "F - F - V - V.",
+            "V - V - F - V."
+        ],
+        "gabarito": "F - V - F - V."
+    },
+    {
+        "id": 14,
+        "enunciado": "Relacione a Coluna 1 à Coluna 2, associando cada termo à sua respectiva definição.\nColuna 1 1. Reflexão total interna.\n2. Fibra monomodo.\n3. Fibra multimodo.\nColuna 2\n( ) Diâmetro de núcleo de aproximadamente 8 µm a 10 µm; a luz propaga-se em linha reta, sem ricochetear no núcleo; apresenta menor dispersão modal e maior alcance.\n( ) Confina a luz no interior do núcleo quando o ângulo de incidência na interface núcleo-revestimento supera o ângulo crítico.\n( ) Diâmetro de núcleo de aproximadamente 50 µm; os raios percorrem o núcleo ricocheteando em diferentes ângulos; opera em distâncias menores em razão da maior dispersão modal.\nA ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+        "alternativas": [
+            "2 – 1 – 3.",
+            "1 – 2 – 3.",
+            "3 – 2 – 1.",
+            "2 – 3 – 1.",
+            "1 – 3 – 2."
+        ],
+        "gabarito": "2 – 1 – 3."
+    },
+    {
+        "id": 15,
+        "enunciado": "A gigabit ethernet admite cabeamento UTP de",
+        "alternativas": [
+            "16 pares.",
+            "14 pares.",
+            "12 pares.",
+            "10 pares.",
+            "8 pares."
+        ],
+        "gabarito": "8 pares."
+    },
+    {
+        "id": 16,
+        "enunciado": "De acordo com o que preconiza a norma EIA/TIA-568 para o padrão de cabos par trançado categoria 5, o comprimento máximo do cabeamento horizontal, da tomada ao patch panel, deve ser de",
+        "alternativas": [
+            "90 m.",
+            "100 m.",
+            "110 m.",
+            "130 m.",
+            "150 m."
+        ],
+        "gabarito": "90 m."
+    },
+    {
+        "id": 17,
+        "enunciado": "O diagrama lógico precedente ilustra uma rede cujos roteadores estão conectados via cabo metálico, com velocidade de transmissão de dados igual a 1 Gbps, e funcionam no nível de rede do modelo OSI. Os serviços de rede (DNS, FTP, SSH, DNS, SMTP, POP, IMAP, HTTP, HTTPS, SSL, DNS, RDP, DHCP) funcionam nos servidores conectados ao Switch 0 e o Ponto de Acesso Sem Fio fornece segurança para os dispositivos que se conectarem de forma sem fio.\nConsiderando o diagrama apresentado, julgue o item a seguir.\nCabos metálicos de par trançado categoria 6 são suficientes para realizar a conexão entre os Roteadores 0, 1 e 2.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 18,
+        "enunciado": "Julgue o item a seguir, considerando os padrões e protocolos das redes de comunicação de dados.\nO padrão 802.3 define redes de comunicação com velocidades de transmissão de até 100 Mbps.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 19,
+        "enunciado": "Uma empresa precisa utilizar uma categoria de cabos de rede que suporta velocidades de até 10 Gbps em distâncias de até 100 metros e que possua uma largura de banda de até 500 MHz. A categoria indicada, nesse caso, é",
+        "alternativas": [
+            "Cat4a.",
+            "Cat5e.",
+            "Cat8.",
+            "Cat5a.",
+            "Cat6a."
+        ],
+        "gabarito": "Cat6a."
+    },
+    {
+        "id": 20,
+        "enunciado": "A respeito dos métodos de avaliação de desempenho de redes para garantir a qualidade e a eficiência dos serviços de rede, bem como sobre as Request for Comments (RFC) 2889 e 2544, julgue os itens a seguir:\nI. A RFC 2544 define métodos para testar e medir o desempenho de switches Ethernet, bem como trata especificamente de controle de qualidade de serviço\n(QoS).\nII. Se um Device Under Test/System Under Test (DUT/SUT) utilizar um algoritmo de hash com aprendizado de endereços, o DUT/SUT pode não aprender os endereços necessários para realizar os testes. O formato dos endereços MAC deve ser ajustável para que o mapeamento de endereços possa ser reorganizado, garantindo que o DUT/SUT aprenda todos os endereços.\nIII. Em testes de desempenho, conforme definido na RFC 2544, os quadros ou pacotes podem ter tamanhos variados. Considerando um quadro Ethernet padrão, o tamanho máximo, incluindo o cabeçalho Ethernet, mas sem contar a tag VLAN, é de 1518 bytes.\nÉ CORRETO o que se afirma em:",
+        "alternativas": [
+            "I e II, apenas.",
+            "I e III, apenas.",
+            "I, II e III.",
+            "II, apenas.",
+            "II e III, apenas."
+        ],
+        "gabarito": "II e III, apenas."
+    },
+    {
+        "id": 21,
+        "enunciado": "Durante a configuração de uma rede local (LAN), foi identificado que os cabos UTP utilizados estão causando interferência em sinais vizinhos. Qualsolução seria mais adequada para reduzir essa interferência?",
+        "alternativas": [
+            "Instalar firewalls físicos entre os dispositivos.",
+            "Alterar as cores dos cabos.",
+            "Substituir os cabos UTP por cabos FTP ou STP.",
+            "Diminuir o comprimento dos cabos existentes.",
+            "Aumentar a potência dos roteadores."
+        ],
+        "gabarito": "Substituir os cabos UTP por cabos FTP ou STP."
+    },
+    {
+        "id": 22,
+        "enunciado": "Em redes WAN, qual meio de transmissão é mais indicado para conexões de alta velocidade e longas distâncias, devido à sua baixa latência e altacapacidade de transmissão?",
+        "alternativas": [
+            "ADSL.",
+            "Par trançado.",
+            "Link de rádio.",
+            "Cabo coaxial.",
+            "Fibra óptica."
+        ],
+        "gabarito": "Fibra óptica."
+    },
+    {
+        "id": 23,
+        "enunciado": "Assinale a opção que corresponde à tecnologia de cabeamento estruturado que é recomendada para conexões de alta velocidade em data centers modernos.",
+        "alternativas": [
+            "CAT5.",
+            "CAT5e.",
+            "CAT6A.",
+            "CAT7.",
+            "COAXIAL."
+        ],
+        "gabarito": "CAT6A."
+    },
+    {
+        "id": 24,
+        "enunciado": "Um Analista de um Tribunal Regional do Trabalho está readequando o cabeamento estruturado para um edifício de cinco pavimentos de acordo com a norma ABNT NBR 14565:2019.\nNesse processo, ele estabeleceu que deve existir",
+        "alternativas": [
+            "uma sala de equipamentos no 1º, 3º e 5º pavimento.",
+            "uma sala de telecomunicações em cada pavimento, onde será localizado o distribuidor de campus.",
+            "um subsistema de cabeamento de backbone de campus, estendendo-se da ER do 1º pavimento até a sala de equipamentos do 5º pavimento.",
+            "um distribuidor de piso para atender a um piso adjacente caso este seja pouco ocupado.",
+            "uma sala de telecomunicações dentro do edifício localizada no pavimento de entrada, para interligar o backbone de campus e os cabos de redes públicas e privadas."
+        ],
+        "gabarito": "um distribuidor de piso para atender a um piso adjacente caso este seja pouco ocupado."
+    },
+    {
+        "id": 25,
+        "enunciado": "O Ministério Público da União (MPU) contratou a empresa J para modernizar as conexões de redes existentes entre seu centro de dados (CD) e sua contingência. O objetivo é melhorar a qualidade e a velocidade de transmissão de informações entre esses CD's implementando um sistema Ethernet de 10 Gigabits. Serão substituídos todos os cabos categoria 5e existentes por fibras óticas exigidas para a comunicação em 10 Gbps.\nSabendo-se que a distância dos segmentos entre esses CD's é maior que 15 km, as fibras utilizadas a serem licitadas nesse processo devem ser especificadas como:",
+        "alternativas": [
+            "10GBase - SR;",
+            "10GBase - LR;",
+            "10GBase - ER;",
+            "10GBase - CX4;",
+            "10GBase - T."
+        ],
+        "gabarito": "10GBase - ER;"
+    },
+    {
+        "id": 26,
+        "enunciado": "Uma empresa de TV a cabo está passando por problemas na transmissão do sinal de TV, feita em micro-ondas, a seus clientes. Sabe-se que a comunicação nessa área não atravessa muito bem a parede dos prédios. Além disso, o feixe de transmissão do sinal, mesmo concentrado no transmissor, ainda possui algumas divergências no espaço. A empresa identificou que o grande problema eram as ondas refratadas nas camadas atmosféricas mais baixas que chegavam atrasadas ao receptor ou fora de fase, podendo cancelar o sinal.\nA empresa relatou o problema como:",
+        "alternativas": [
+            "perda no caminho;",
+            "óptica do espaço livre;",
+            "modulação;",
+            "multiplexação;",
+            "enfraquecimento por múltiplos caminhos."
+        ],
+        "gabarito": "enfraquecimento por múltiplos caminhos."
+    },
+    {
+        "id": 27,
+        "enunciado": "Esse tipo de cabeamento utilizado para transmissão é composto por dois fios de cobre encapados, geralmente com cerca de 1 mm de espessura, enrolados de forma helicoidal. Isso é feito para evitar que dois fios paralelos formem uma antena simples, o que poderia gerar interferência. Ao trançar os fios, as ondas provenientes de diferentes partes dos fios se cancelam mutuamente, resultando em menor interferência. O sinal é transmitido a partir da diferença de potencial (ddp) entre os dois fios, em vez de uma tensão absoluta. Essa abordagem melhora a imunidade ao ruído externo, pois ele tende a afetar igualmente os dois fios, mantendo a ddp inalterada. A descrição acima se refere a qual tipo de cabeamento?",
+        "alternativas": [
+            "Fibra ótica.",
+            "Cabo coaxial.",
+            "Linhas de energia elétrica.",
+            "Par trançado.",
+            "Espectro eletromagnético."
+        ],
+        "gabarito": "Par trançado."
+    },
+    {
+        "id": 28,
+        "enunciado": "Atualmente existem diversos meios de transmissão guiados. Com relação as propriedades e vantagens de utilização dos cabos de fibras óticas em relação a outros meios guiados, analise os itens a seguir.\nI. A fibras óticas tem atenuação baixa. Curiosamente a atenuação foi o principal problema para utilização das fibras óticas, porém atualmente consegue-se atenuações menores de 0.1 dB/Km, que permitem a colocação de repetidores com intervalos de 50 a 100 Km.\nII. As fibras óticas sofrem baixa interferências de ruídos e possuem excelente imunidade termomagnética. Por serem construídas utilizando apenas materiais dielétricos elas não sofrem interferência termomagnética. Além disso, não existe problema de aterramento no interfaceamento dos transceptores. O rompimento de uma fibra ótica não provoca faíscas, permitindo sua utilização em ambientes explosivos, como indústria de petróleo. Como não sofrem as interferências de ruídos não há risco com a proximidade de motores ou sofrer com descargas atmosféricas, possibilitando sua instalação junto às linhas de transmissão de energia elétrica ou leito de ferrovias.\nIII. As fibras possuem peso e larguras reduzidas. A elevada densidade da fibra quando comparada aos equivalentes metálicos e a grande banda passante possibilitam a construção de cabos significativamente menores e mais leves. Apesar, do excelente confinamento do sinal luminoso que permite a construção de cabos com múltiplas fibras, quando aterradas as fibras são inumes às interferências termomagnética.\nEstá correto, o que se afirma em",
+        "alternativas": [
+            "I, apenas.",
+            "II, apenas.",
+            "III, apenas.",
+            "I e II, apenas.",
+            "II e III, apenas."
+        ],
+        "gabarito": "I, apenas."
+    },
+    {
+        "id": 29,
+        "enunciado": "João foi contratado para implementar o cabeamento estruturado de um novo escritório. Ele recebeu a planta baixa do ambiente para auxiliar no planejamento da instalação. Assinale a alternativa correta sobre o uso da planta baixa nesse contexto.",
+        "alternativas": [
+            "Ela é utilizada apenas para escolher os dispositivos de rede, como switches e roteadores.",
+            "Serve para configurar remotamente os equipamentos de rede antes da instalação física.",
+            "Permite identificar a localização dos pontos de acesso e o trajeto dos cabos até a sala de telecomunicações.",
+            "Substitui a necessidade de planejar os caminhos dos cabos e pontos de acesso.",
+            "É usada exclusivamente para definir os tipos de conectores a serem empregados na instalação."
+        ],
+        "gabarito": "Permite identificar a localização dos pontos de acesso e o trajeto dos cabos até a sala de telecomunicações."
+    },
+    {
+        "id": 30,
+        "enunciado": "Julgue o próximo item, relativos ao cabeamento estruturado, às fibras ópticas, às redes locais e aos jumbo frames.\nOs cabos UTP de categorias 5 têm impedância de 100 ohms e permitem comunicações de até 100 Mbps.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 31,
+        "enunciado": "Julgue o próximo item, relativos ao cabeamento estruturado, às fibras ópticas, às redes locais e aos jumbo frames.\nCabos da categoria 6a só devem ser implementados se a distância máxima entre os pontos de rede for de até 55 metros.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 32,
+        "enunciado": "Julgue o próximo item, relativos ao cabeamento estruturado, às fibras ópticas, às redes locais e aos jumbo frames.\nAs fibras monomodo tem custo mais elevado que as do tipo multimodo e são muito utilizadas em longas distâncias, podendo transmitir dados a 100 Gbps por 100 km, sem amplificação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 33,
+        "enunciado": "Assinale a opção em que é citado o nome ou o termo usado para descrever a organização e distribuição padronizada dos cabos empregados em redes de computadores e telefonia.",
+        "alternativas": [
+            "estrutura de rede.",
+            "arquitetura de rede.",
+            "topologia de rede.",
+            "cabeamento estruturado.",
+            "engenharia de redes."
+        ],
+        "gabarito": "cabeamento estruturado."
+    },
+    {
+        "id": 34,
+        "enunciado": "Assinale a opção correta, considerando que as redes cabeadas, como as redes Ethernet, e as redes sem fio padrão IEEE 802.11 apresentam características distintas em termos de desempenho, segurança, mobilidade e confiabilidade.",
+        "alternativas": [
+            "Em comparação às redes sem fio, as redes cabeadas, apesar de terem mobilidade limitada, oferecem maior alcance, maior largura de banda, menor interferência do ambiente e maior confiabilidade para transmissão de dados.",
+            "Em ambientes corporativos, o uso das redes sem fio (Wi-Fi) elimina a necessidade de políticas de segurança, uma vez que os dados são criptografados automaticamente.",
+            "As redes cabeadas são sempre a opção mais barata e mais simples em relação às redes sem fio, qualquer que seja o ambiente físico e geográfico.",
+            "As redes sem fio oferecem maior estabilidade de conexão e menor latência se comparadas às redes cabeadas, sendo preferidas para aplicações críticas em datacenters.",
+            "A mobilidade oferecida pelas redes cabeadas é superior à das redes sem fio, pois as conexões via cabo permitem conectar múltiplos dispositivos simultaneamente."
+        ],
+        "gabarito": "Em comparação às redes sem fio, as redes cabeadas, apesar de terem mobilidade limitada, oferecem maior alcance, maior largura de banda, menor interferência do ambiente e maior confiabilidade para transmissão de dados."
+    },
+    {
+        "id": 35,
+        "enunciado": "Em projetos de cabeamento estruturado, profissionais têm à sua disposição os requisitos definidos pela Norma Brasileira (NBR), n.º 14565, e pela Organização Internacional de Normalização/ Comissão Eletrotécnica Internacional (ISO/IEC), n.º 11801, para assegurar que as infraestruturas de rede sejam confiáveis, escaláveis e compatíveis com as demandas tecnológicas atuais. Acerca desse assunto, avalie as sentenças a seguir:\nA NBR 14565 inclui exigências locais específicas que oferecerem maior adequação à realidade brasileiras.\nPORQUE O NBR 14565 incorpora e adapta os requisitos de elementos para cabeamento metálico e óptico em edifícios comerciais e data centers, baseando-se amplamente na ISO/IEC 11801.\nAcerca dessas sentenças, assinale a alternativa CORRETA.",
+        "alternativas": [
+            "As duas sentenças são verdadeiras, e a segunda é uma justificativa correta da primeira.",
+            "As duas sentenças são verdadeiras, mas a segunda não é uma justificativa correta da primeira.",
+            "A primeira sentença é verdadeira, e a segunda é falsa.",
+            "A primeira sentença é falsa, e a segunda é verdadeira."
+        ],
+        "gabarito": "As duas sentenças são verdadeiras, e a segunda é uma justificativa correta da primeira."
+    },
+    {
+        "id": 36,
+        "enunciado": "Uma analista precisa realizar a montagem de um conector RJ-45 a um cabo par trançado CATG, utilizando o padrão 568-B para ser utilizado como cordão de usuário.\nConsiderando a ABNT NBR 14565:2019, ele conectou o fio laranja no pino 2 do par 2 do conector RJ-45, enquanto conectou o verde no pino",
+        "alternativas": [
+            "5 do par 1.",
+            "7 do par 3.",
+            "6 do par 3.",
+            "2 do par 2.",
+            "8 do par 4."
+        ],
+        "gabarito": "6 do par 3."
+    },
+    {
+        "id": 37,
+        "enunciado": "Um analista de um Tribunal está participando da elaboração de um edital para implantação do cabeamento estruturado seguindo as recomendações da norma ABNT NBR 14565:2019. Ao especificar o desempenho e seleção de mídia para o cabeamento balanceado para pontos de acesso sem fio, o analista recomendou corretamente, no mínimo, a classe",
+        "alternativas": [
+            "EA/Categoria 6A.",
+            "CE/Categoria 7B.",
+            "BA/Categoria 5.",
+            "AF/Categoria 5e.",
+            "EB/Categoria 6."
+        ],
+        "gabarito": "EA/Categoria 6A."
+    },
+    {
+        "id": 38,
+        "enunciado": "Julgue o próximo item, a respeito de meios de transmissão, tipos de cabeamento, tecnologias, modelos de referência e elementos de rede.\nO cabo de categoria 5e suporta até 100 MHz e permite o uso do padrão Ethernet a 1 Gbps.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 39,
+        "enunciado": "Julgue o próximo item, a respeito de meios de transmissão, tipos de cabeamento, tecnologias, modelos de referência e elementos de rede.\nO cabeamento estruturado para backbone de campus estende-se desde os distribuidores de piso até as tomadas de telecomunicação conectadas a ele.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 40,
+        "enunciado": "A norma ABNT NBR 14565:2019 define a estrutura do sistema de cabeamento para edifícios comerciais. Essa estrutura normativa é constituída por até",
+        "alternativas": [
+            "dois subsistemas principais: backbone de edifício e cabeamento horizontal.",
+            "quatro subsistemas principais: backbone de campus, backbone de edifício, cabeamento horizontal e cabeamento de serviços externos.",
+            "três subsistemas principais: backbone de campus, backbone de edifício e cabeamento horizontal.",
+            "cinco subsistemas principais: infraestrutura de entrada, backbone de campus, backbone de edifício, cabeamento horizontal e sala de equipamentos."
+        ],
+        "gabarito": "três subsistemas principais: backbone de campus, backbone de edifício e cabeamento horizontal."
+    },
+    {
+        "id": 41,
+        "enunciado": "Julgue o item a seguir, no que se refere a redes de computadores.\nConsidere que, durante a modernização da infraestrutura de rede de uma instituição pública, opte-se pela substituição de cabos de cobre por fibra ótica para a interligação dos principais servidores. Nesse caso, a decisão tomada visa melhorar a velocidade de transmissão de dados e reduzir interferências eletromagnéticas, características que tornam a fibra ótica uma solução eficiente para ambientes com alta demanda de conectividade.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 42,
+        "enunciado": "Em relação às características do cabeamento gigabit Ethernet padrão IEEE 802.3ab (1000Base-T), analise as assertivas a seguir:\nI. Admite o modo de operação full-duplex.\nII. A distância máxima do segmento é de 200 metros.\nIII. Utiliza até 2 pares de UTP.\nQuais estão corretas?",
+        "alternativas": [
+            "Apenas I.",
+            "Apenas II.",
+            "Apenas III.",
+            "Apenas II e III.",
+            "I, II e III."
+        ],
+        "gabarito": "Apenas I."
+    },
+    {
+        "id": 43,
+        "enunciado": "A Secretaria de Obras de Indaiatuba está ampliando sua infraestrutura de rede e precisa escolher cabos adequados para suportar tráfego em alta velocidade (10 Gbps) com distância até 100 metros. Qual categoria de cabo par trançado atende a essa necessidade?",
+        "alternativas": [
+            "Cat 3.",
+            "Cat 5e.",
+            "Cat 6.",
+            "Cat 6a."
+        ],
+        "gabarito": "Cat 6a."
+    },
+    {
+        "id": 44,
+        "enunciado": "Um Tribunal está modernizando sua infraestrutura de rede LAN e Metropolitana. O projeto inclui:\n• Conexão de longa distância entre a sede (prédio A) e um novo data center (prédio B), distantes 2 km, exigindo alta taxa de transmissão e imunidade a interferências.\n• Conexão LAN em um ambiente com alta interferência eletromagnética, onde os equipamentos devem suportar 1 Gbps em distâncias de até 90 m.\nPara atender os requisitos do projeto, a conexão mais adequada para as duas situações, respectivamente, são:",
+        "alternativas": [
+            "cabo coaxial RG-6 para rede de longa distância e fibra óptica monomodo 9/125 μm para a LAN.",
+            "5G (802.11ax) para a rede de longa distância e 4G (802.11ac) para a rede LAN.",
+            "par trançado CAT-6A blindado (FTP) para a rede de longa distância e fibra óptica multimodo 50/125 μm para conexão LAN.",
+            "fibra óptica monomodo 9/125 μm para a rede de longa distância e cabo par trançado CAT-6A blindado para a LAN.",
+            "fibra óptica multimodo 62,5/125 μm e cabo par trançado CAT-5e não blindado (UTP) para a LAN."
+        ],
+        "gabarito": "fibra óptica monomodo 9/125 μm para a rede de longa distância e cabo par trançado CAT-6A blindado para a LAN."
+    },
+    {
+        "id": 45,
+        "enunciado": "No que diz respeito à implementação de redes de computadores cabeadas padrão Ethernet, devem ser empregadas as especificações de um dos padrões T-568A ou T-568B na correspondência de cores dos fios com os pinos/guias do conector RJ-45. Para fins dessa questão, utilizar os identificadores V para verde, L para laranja, A para azul, M para marrom, BV para branco-do-verde, BL para branco-do-laranja, BA para branco-do-azul e BM para branco-do-marrom.\nSabendo-se que as guias 1-2 são empregadas na transmissão de dados e 3-6 na recepção, de acordo com o padrão T-568A, as cores dos fios que devem ser utilizadas na correspondência com os pinos/guias às guias 1 − 2 − 3 − 6 do conector RJ-45 são, respectivamente:",
+        "alternativas": [
+            "BM − M − BA − A.",
+            "BV − V − BL − L.",
+            "BL − L − BV − V.",
+            "BA − A − BM − M."
+        ],
+        "gabarito": "BV − V − BL − L."
+    },
+    {
+        "id": 46,
+        "enunciado": "Atualmente, a maioria das redes de computadores cabeadas padrão Ethernet têm sido implementadas empregando um tipo de cabo de par trançado não blindado e um padrão de conector, usando uma topologia física na qual os computadores são ligados a um dispositivo central, encarregado do gerenciamento das informações. É a topologia mais comum, que emprega um concentrador como elemento central, que se encarrega de retransmitir todos os dados para todas as estações, mas com a vantagem de tornar mais fácil a localização dos problemas, considerando que se um dos cabos ligado a uma das portas do concentrador ou uma das placas de rede estiver com problemas, apenas o nó ligado ao componente defeituoso ficará fora da rede.\nA referência para o cabo, a denominação para a topologia descrita, a sigla e a figura que identificam o conector são, respectivamente:",
+        "alternativas": [
+            ".",
+            ".",
+            ".",
+            "."
+        ],
+        "gabarito": "."
+    },
+    {
+        "id": 47,
+        "enunciado": "Julgue o próximo item, relativo a conceitos de rede de computadores, elementos de interconexão de redes de computadores e noções dos modelos de referência OSI.\nO cabeamento de par trançado categoria 5 consiste em dois fios isolados e trançados, e quanto maior a quantidade de voltas nesse par, melhor a qualidade do sinal por distâncias maiores.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 48,
+        "enunciado": "Com relação aos meios físicos de transmissão, avalie se as afirmativas a seguir são falsas (F) ou verdadeiras (V).\nI. Os meios físicos de transmissão de dados podem assumir muitas formas e não precisam ser do mesmo tipo para cada par transmissor-receptor ao longo do caminho. Exemplos de meios físicos guiados incluem fio de cobre de par trançado, cabo coaxial cabo, cabo de fibra óptica multimodo e espectro de rádio terrestre.\nII. O par trançado não blindado (UTP) é comumente utilizado para redes de computadores dentro de um edifício, ou seja, para LANs. Taxas de dados para LANs que usam par trançado variam de 10 Mbps a 10 Gbps. As taxas de dados que pode ser alcançado depende da espessura do fio e da distância entre transmissor e receptor.\nIII. Uma única fibra óptica pode suportar elevadas taxas de transferência de bits, variando de dezenas ou mesmo centenas de gigabits por segundo. Eles não são imunes a interferência do eletromagnetismo, mas têm atenuação de sinal muito baixa até 100 quilômetros. Estas características tornaram a fibra óptica a opção preferida para transporte guiado de longa distância. meios de transmissão, especialmente para links internacionais.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "V – V – F.",
+            "V – F – V.",
+            "V – F – F.",
+            "F – V – V.",
+            "F – V – F."
+        ],
+        "gabarito": "F – V – F."
+    },
+    {
+        "id": 49,
+        "enunciado": "Julgue o item a seguir.\nAs redes de computadores são incapazes de realizar a transmissão de dados de forma sem fio, sendo limitadas apenas a conexões físicas como cabos e fios de fibra óptica.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 50,
+        "enunciado": "De acordo com as afirmações abaixo sobre cabeamento estruturado, analise as afirmativas abaixo e dê valores Verdadeiro (V) ou Falso (F).\n( ) Um sistema de cabeamento estruturado bem projetado pode suportar o crescimento da rede ao longo do tempo, proporcionando uma infraestrutura duradoura.\n( ) Cabeamento estruturado não requer planejamento e também não é necessário documentar um projeto de cabeamento estruturado.\n( ) A organização e identificação adequadas dos cabos em um sistema estruturado simplificam a resolução de problemas e a manutenção da rede.\nAssinale a alternativa que apresenta a sequência correta de cima para baixo.",
+        "alternativas": [
+            "F - F - V.",
+            "V - V - F.",
+            "F - V - F.",
+            "V - F - V."
+        ],
+        "gabarito": "V - F - V."
+    },
+    {
+        "id": 51,
+        "enunciado": "Considerando a infraestrutura de redes de computadores apresentada no diagrama precedente, julgue o item a seguir.\nNa topologia apresentada, o meio de transmissão mais adequado para a interconexão entre os roteadores é o cabo de par trançado.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 52,
+        "enunciado": "O analista Itamar foi designado para fazer a instalação de uma fibra óptica no Tribunal de Justiça, durante a noite. Ele e sua equipe foram até o local e verificaram que precisariam passar cabos de fibra por uma tubulação. Estavam escritos no cabo as siglas CFOI e SM.\nItamar explicou a sua equipe que as siglas significam, respectivamente:",
+        "alternativas": [
+            "cabo com baixa emissão de fumaça e multimodo;",
+            "cabo de fibra óptica de acesso e multimodo;",
+            "cabo óptico aéreo dielétrico autossustentável e monomodo;",
+            "cabo de fibra óptica para uso interno e monomodo;",
+            "cabo com alta emissão de fumaça e monomodo."
+        ],
+        "gabarito": "cabo de fibra óptica para uso interno e monomodo;"
+    },
+    {
+        "id": 53,
+        "enunciado": "Em relação às características das fibras ópticas e dos sinais transportados por elas, é correto afirmar que:",
+        "alternativas": [
+            "as fibras ópticas são fabricadas com materiais com alta condutividade e permeabilidade elétrica;",
+            "as fibras são adequadas para transmissão de longa distância, pois podem apresentar atenuações abaixo de 1 dB/km;",
+            "a frequência da portadora do sinal luminoso para comunicações é da ordem de gigahertz (GHz);",
+            "as fibras devem ser manuseadas com cuidado, pois conduzem corrente em seus núcleos, podendo dar choques elétricos;",
+            "os cabos do tipo OPGW (Optical Ground Wire) possuem uma melhoria no aterramento do sinal pelo núcleo da fibra."
+        ],
+        "gabarito": "as fibras são adequadas para transmissão de longa distância, pois podem apresentar atenuações abaixo de 1 dB/km;"
+    },
+    {
+        "id": 54,
+        "enunciado": "Em um sistema de cabeamento estruturado, a conexão entre os equipamentos ativos de rede e o cabeamento horizontal pode ser realizada utilizando-se duas técnicas distintas.\nA técnica em que as portas dos ativos de rede são conectadas diretamente às portas do patch panel do cabeamento horizontal, utilizando patch cords, é conhecida como:",
+        "alternativas": [
+            "interconexão;",
+            "conexão direta;",
+            "conexão cruzada;",
+            "conexão crossover;",
+            "conexão back-to-back."
+        ],
+        "gabarito": "interconexão;"
+    },
+    {
+        "id": 55,
+        "enunciado": "A Seção de Tecnologia da Informação (STI) de uma determinada empresa está instalando novos ramais analógicos de uma central telefônica em uma nova área física.\nO almoxarifado da STI possui em seu inventário diversos conectores e tomadas, conforme descrito na tabela a seguir.\nItem Quantidade Conector RJ-9 5 Tomada para conector RJ-9 3 Conector RJ-11 15 Tomada para conector RJ-11 30 Conector RJ-45 22 Tomada para conector RJ-45 0 Com base nos dados da tabela, o número máximo de novos ramais analógicos que podem ser instalados é igual a:",
+        "alternativas": [
+            "3;",
+            "5;",
+            "6;",
+            "22;",
+            "30."
+        ],
+        "gabarito": "30."
+    },
+    {
+        "id": 56,
+        "enunciado": "Avalie as seguintes afirmações sobre o meio de transmissão em redes mais antigo e mais comum denominado par trançado.\nI. Consiste em dois fios de cobre encapados mm de espessura que s o trançados para evitar interferência elétrica.\nII. Pode transmitir dados por alguns ms sem necessidade de amplifica o.\nIII. Transmissão de dados apenas analógicos.\nEstá(ão) correta(s) a(s) afirmativa(a):",
+        "alternativas": [
+            "I, apenas.",
+            "II, apenas.",
+            "III, apenas.",
+            "I e II, apenas.",
+            "I e III, apenas."
+        ],
+        "gabarito": "I e II, apenas."
+    },
+    {
+        "id": 57,
+        "enunciado": "Assinale a opção que corresponde corretamente ao conceito de “possuem um núcleo de fibra muito fino, geralmente com diâmetro de 9 μm, que permite a transmissão de um único raio de luz em uma única direção. Esse tipo de cabo é utilizado em redes de longa distância, onde é necessário transmitir sinais de alta velocidade em grandes distâncias”.",
+        "alternativas": [
+            "Cabo de Par Trançado Não Blindado (UTP).",
+            "Os cabos de fibra óptica monomodo.",
+            "Cabo de Par Trançado Blindado (STP).",
+            "Cabo Coaxial."
+        ],
+        "gabarito": "Os cabos de fibra óptica monomodo."
+    },
+    {
+        "id": 58,
+        "enunciado": "A norma NBR 14565 trata do procedimento básico para elaboração de projetos de cabeamento de telecomunicações para rede interna estruturada, também conhecida como cabeamento estruturado.\nA respeito do tema, relacione os elementos principais do cabeamento estruturado a suas respectivas definições.\n1. Sala de equipamentos 2. Rede primária de nível 1 3. Rede secundária 4. Armário de telecomunicações\n( ) Espaço destinado à transição entre o caminho primário e o secundário com conexão cruzada, podendo abrigar equipamento ativo.\n( ) Espaço necessário para os equipamentos de telecomunicações.\n( ) Cabo que interliga os distribuidores secundários à área de trabalho.\n( ) Cabo que interliga o distribuidor geral de telecomunicações aos distribuidores secundários ou distribuidores intermediários.\nAssinale a opção que indica a relação correta, segundo a ordem apresentada.",
+        "alternativas": [
+            "1 – 3 – 2 – 4.",
+            "1 – 4 – 3 – 2.",
+            "4 – 2 – 3 – 1.",
+            "2 – 4 – 3 – 1.",
+            "4 – 1 – 3 – 2."
+        ],
+        "gabarito": "4 – 1 – 3 – 2."
+    },
+    {
+        "id": 59,
+        "enunciado": "As fibras ópticas são filamentos finos e flexíveis feitos de vidro ou plástico transparente. A transmissão de dados por fibras ópticas é baseada no princípio de reflexão interna total, onde a luz que viaja pelo núcleo da fibra é refletida nas paredes internas da fibra, permitindo que os sinais ópticos sejam transmitidos sem perda significativa de intensidade ao longo da fibra. Sobre as diferenças entre fibras monomodo e multimodo, é incorreto afirmar que",
+        "alternativas": [
+            "as fibras multimodo suportam múltiplos modos de propagação de luz, enquanto as fibras monomodo suportam apenas um modo.",
+            "as fibras multimodo têm um núcleo de fibra óptica menor em comparação com as fibras monomodo.",
+            "a fibra multimodo em geral tem menor alcance quando comparada à fibra óptica monomodo.",
+            "as fibras monomodo não sofrem dispersão modal.",
+            "a fibra ótica monomodo é normalmente do tipo índice degrau."
+        ],
+        "gabarito": "as fibras multimodo têm um núcleo de fibra óptica menor em comparação com as fibras monomodo."
+    },
+    {
+        "id": 60,
+        "enunciado": "Um projetista de rede, ao justificar a adoção de fibras ópticas em um determinado projeto, expôs algumas características desse meio de transmissão.\nEm relação a essas características, é correto afirmar que:",
+        "alternativas": [
+            "o meio de transmissão gera um pulso elétrico quando a luz incide sobre ele;",
+            "a luz é refratada de volta para a sílica para ângulos de incidência acima de um certo valor crítico;",
+            "um sistema de transmissão óptico tem dois componentes-chave: a fonte de luz e o meio de transmissão;",
+            "a atenuação de luz através do vidro depende da largura de onda da luz. Ela é definida como a razão da potência do sinal de entrada elevado à perda;",
+            "um sistema de transmissão de dados bidirecional se forma através da conexão entre uma fonte de luz em uma ponta de uma fibra óptica e um detector na outra."
+        ],
+        "gabarito": "a luz é refratada de volta para a sílica para ângulos de incidência acima de um certo valor crítico;"
+    },
+    {
+        "id": 61,
+        "enunciado": "Gilberto está trocando os cabos de rede da empresa em que trabalha. Seu objetivo é substituir os cabos coaxiais por cabos com melhores taxas de transmissão.\nInicialmente, Gilberto ficou na dúvida entre cabos ethernet e fibra óptica.\nComo a empresa relatou que não teria problemas quanto a custos, Gilberto optou pela fibra óptica, em virtude de ela:",
+        "alternativas": [
+            "requerer repetidores à distância de 5 km para que consiga propagar o sinal;",
+            "possuir um excelente valor de revenda nas refinarias especializadas;",
+            "ter um peso maior, apesar de ser mais fina, sendo necessários sistemas mecânicos para transporte;",
+            "possuir comunicação unidirecional, caso seja utilizada a mesma banda de frequência;",
+            "ter uma capacidade maior de resistir a quebras em curvaturas com ângulos menores."
+        ],
+        "gabarito": "possuir comunicação unidirecional, caso seja utilizada a mesma banda de frequência;"
+    },
+    {
+        "id": 62,
+        "enunciado": "Cabos em uma rede de computadores podem ser ligados a seus ativos de rede através de conectores. Conectores RJ-45 são típicos de cabeamento do tipo:",
+        "alternativas": [
+            "coaxial.",
+            "par trançado.",
+            "fibra óptica.",
+            "USB."
+        ],
+        "gabarito": "par trançado."
+    },
+    {
+        "id": 63,
+        "enunciado": "No que tange aos tipos de fibra óptica, as características da fibra, cuja fonte de luz é do tipo laser semicondutor que representam vantagens em relação à fibra cuja fonte de luz é do tipo LED, são:",
+        "alternativas": [
+            "possuir uma taxa de dados mais baixa e um custo baixo.",
+            "trabalhar com fibra multimodo ou monomodo e possuir vida útil menor.",
+            "ser mais sensível à temperatura e trabalhar em uma distância mais curta.",
+            "trabalhar com alta taxa de dados e possuir uma vida útil longa."
+        ],
+        "gabarito": "trabalhar com fibra multimodo ou monomodo e possuir vida útil menor."
+    },
+    {
+        "id": 64,
+        "enunciado": "Em cabeamento estruturado horizontal, a restrição geral de comprimento físico máximo de 20 metros aplica-se, por norma, ao",
+        "alternativas": [
+            "cordão de área de trabalho onde uma tomada de telecomunicações multiusuário for utilizada.",
+            "conjunto de patch cords/jumpers ligados ao hardware de conexão.",
+            "conjunto composto por cabo físico horizontal, cordão de equipamento e hardware de conexão.",
+            "cordão para conexão do equipamento ativo ao distribuidor.",
+            "segmento de cabo que conecta o distribuidor de piso ao ponto de consolidação."
+        ],
+        "gabarito": "cordão de área de trabalho onde uma tomada de telecomunicações multiusuário for utilizada."
+    },
+    {
+        "id": 65,
+        "enunciado": "Em relação a redes sem fio e a redes de fibra óptica, julgue os itens seguintes.\nI As redes sem fio oferecem maior largura de banda que as redes de fibra óptica.\nII As redes de fibra óptica são mais vulneráveis a interferências eletromagnéticas que as redes sem fio.\nIII As redes sem fio são mais seguras contra interceptação de dados que as redes de fibra óptica.\nIV As redes sem fio têm menor latência que as redes de fibra óptica.\nAssinale a opção correta.",
+        "alternativas": [
+            "Nenhum item está certo.",
+            "Apenas os itens I e II estão certos.",
+            "Apenas os itens I e IV estão certos.",
+            "Apenas os itens II e III estão certos.",
+            "Apenas os itens III e IV estão certos."
+        ],
+        "gabarito": "Nenhum item está certo."
+    },
+    {
+        "id": 66,
+        "enunciado": "Utilizaram-se em uma rede cabeada de um escritório cabos com a denominação F/UTP, que são cabos que possuem",
+        "alternativas": [
+            "blindagem coletiva com fita aluminizada e blindagem individual dos pares de fio do cabo com fita aluminizada.",
+            "blindagem coletiva com fita aluminizada, sem blindagem individual dos pares de fio do cabo.",
+            "blindagem coletiva com malha metálica e blindagem individual dos pares de fio do cabo com fita aluminizada.",
+            "blindagem coletiva com malha metálica e blindagem individual dos pares de fio do cabo com malha metálica.",
+            "ausência de blindagem coletiva ou individual dos pares de fio do cabo."
+        ],
+        "gabarito": "blindagem coletiva com fita aluminizada, sem blindagem individual dos pares de fio do cabo."
+    },
+    {
+        "id": 67,
+        "enunciado": "Como analista de Suporte Técnico de Redes, você está analisando diferentes categorias de cabeamento estruturado para uma atualização na rede de sua empresa.\nCada categoria de cabeamento tem suas características distintas. Uma dessas categorias é a Categoria 6a. De acordo com a ABNT NBR 14565:2013, a Categoria 6a",
+        "alternativas": [
+            "oferece suporte a velocidades de até 10 Mbps (Ethernet 10BASE-T) e é adequada principalmente para telefonia e redes Ethernet mais antigas.",
+            "é projetada para oferecer suporte a Gigabit Ethernet (1000BASE-T) e reduzir interferências. É amplamente utilizada em redes corporativas.",
+            "é projetada para oferecer suporte a velocidades de até 10 Gbps em distâncias mais curtas. É adequada para redes que requerem altas taxas de transferência de dados e menor diafonia.",
+            "suporta velocidades de até 100 Mbps (Ethernet 100BASE-TX) e é usada em muitas redes Ethernet convencionais.",
+            "suporta velocidades de até 1 Gbps (Gigabit Ethernet) e oferece um melhor desempenho de transmissão em comparação com a Cat 5e. É comumente usada em ambientes que requerem altas taxas de transferência de dados."
+        ],
+        "gabarito": "é projetada para oferecer suporte a velocidades de até 10 Gbps em distâncias mais curtas. É adequada para redes que requerem altas taxas de transferência de dados e menor diafonia."
+    },
+    {
+        "id": 68,
+        "enunciado": "Assinale a alternativa correta relacionada com a Norma ABNT-NBR 14565:2013.",
+        "alternativas": [
+            "O cabo constituído de dois ou mais condutores em um arranjo simétrico (em pares ou quadras trançadas) é denominado cabo de distribuição.",
+            "O cabo que conecta o distribuidor de campus ao(s) distribuidor(es) de edifício é denominado backbone do data center.",
+            "O cabo que conecta o distribuidor de edifício ao distribuidor de piso é denominado backbone de campus.",
+            "O cabo que conecta o distribuidor principal ao distribuidor de zona é denominado backbone do edifício.",
+            "O cabo que conecta o ponto de consolidação à(s) tomada(s) de telecomunicações é denominado cabo do CP."
+        ],
+        "gabarito": "O cabo que conecta o ponto de consolidação à(s) tomada(s) de telecomunicações é denominado cabo do CP."
+    },
+    {
+        "id": 69,
+        "enunciado": "Julgue o item que se segue, relativos a endereçamento e protocolos da família TCP/IP, SNMP (Simple Network Management Protocol) e MIB (Management Information Base) e redes cabeadas.\nOs cabos CAT 6 podem ser usados em substituição aos cabos CAT 5 e CAT 5e, suportando um tráfego de dados com velocidade de até 10 Gbps.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 70,
+        "enunciado": "A técnica de traffic shaping consiste na",
+        "alternativas": [
+            "entrega de pacotes com atrasos idênticos para o envio confiável de arquivos.",
+            "regulação da taxa de transmissão dos dados que entram na rede.",
+            "compressão de arquivos antes do envio e na descompressão após o recebimento, para otimizar o uso da banda.",
+            "reorganização dos pacotes que chegam fora de ordem.",
+            "alocação de recursos de roteamento entre pacotes de fluxos de dados concorrentes."
+        ],
+        "gabarito": "regulação da taxa de transmissão dos dados que entram na rede."
+    },
+    {
+        "id": 71,
+        "enunciado": "Conforme a norma ABNT NBR14565:2019, os sistemas de cabeamento estruturado são especificados pelas suas categorias e classes de desempenho. As categorias e classes especificam a largura de banda de frequências, dentre outros aspectos. Sobre este tema, indique a opção que relaciona corretamente a categoria, classe e largura de banda.",
+        "alternativas": [
+            "Categoria 3 (Cat , classe C, 50 MHz.",
+            "Categoria 5e (Cat 5e), classe D, 100 MHz.",
+            "Categoria 6a (Cat 6a), classe EA, 250 MHz.",
+            "Categoria 7 (Cat , classe F, 500 MHz."
+        ],
+        "gabarito": "Categoria 5e (Cat 5e), classe D, 100 MHz."
+    },
+    {
+        "id": 72,
+        "enunciado": "A norma ABNT NBR 16415:2021 define “Caminhos e espaços para cabeamento estruturado”. Dentre outros temas, ela define as dimensões mínimas recomendadas para a sala de telecomunicações (TR) conforme o número de tomadas de telecomunicações (TO) previstas em um espaço de áreas de trabalho (WA).\nConforme esta norma, as dimensões mínimas de uma sala de telecomunicações, para atender a um espaço de áreas de trabalho com até 500 tomadas de telecomunicações é de",
+        "alternativas": [
+            "3,2 m2.",
+            "4,8 m2.",
+            "9,6 m2.",
+            "12,8 m2."
+        ],
+        "gabarito": "9,6 m2."
+    },
+    {
+        "id": 73,
+        "enunciado": "Um sistema de comunicação por fibras ópticas é composto por uma estação transmissora numa extremidade e uma estação receptora na outra extremidade. Se for utilizada a janela de 1310 nm, a taxa de atenuação na fibra será de 0,4 dB/km; se for utilizada a janela de 1550 nm, a taxa de atenuação na fibra será de 0,2 dB/km. A atenuação total nos conectores, já considerando as duas extremidades, é de 1 dB. A atenuação média devido às fusões de fibras é de 0,2 dB a cada 5 km.\nForam feitas as medições de potência recebida nas duas janelas de transmissão e foi constatado que na janela de 1550 nm a potência recebida é o dobro da potência recebida na janela de 1310 nm.\nConsidere que: log10 (2) = 0,30, log10 (3) = 0,48 e log10 (5) = 0,70.\nNessa situação, a distância total desse enlace de comunicação é de",
+        "alternativas": [
+            "25 km.",
+            "20 km.",
+            "15 km.",
+            "10 km."
+        ],
+        "gabarito": "15 km."
+    },
+    {
+        "id": 74,
+        "enunciado": "A conexão entre fibras ópticas pode ser feita utilizando emendas por fusão, emendas mecânicas ou por conectores ópticos de vários tipos. Sobre o assunto, marque a opção correta.",
+        "alternativas": [
+            "Os conectores ópticos permitem fazer a interconexão de cabos de fibra monomodo com cabos de fibras multimodo com atenuações muito baixas nos dois sentidos de transmissão, utilizando núcleos de cristais puros em seus “ferrules”.",
+            "As emendas por fusão são muito utilizadas nos enlaces ópticos de longa distância pela facilidade de serem feitas manualmente em campo, sem necessidade de equipamentos eletrônicos sofisticados.",
+            "As emendas mecânicas manuais são conexões definitivas, e são utilizadas nas caixas de emendas para conectar as fibras ópticas de um cabo com várias fibras aos cabos de distribuição aos assinantes numa rede PON (passive optical network). Sempre utilizam o acabamento angular na conexão (APC).",
+            "Os conectores ópticos são dispositivos que possibilitam conexões temporárias entre duas fibras ópticas, tendo a fibra colocada no centro de uma peça cilíndrica denominada “ferrule”, que pode ter sua extremidade com polimento reto ou angular."
+        ],
+        "gabarito": "Os conectores ópticos são dispositivos que possibilitam conexões temporárias entre duas fibras ópticas, tendo a fibra colocada no centro de uma peça cilíndrica denominada “ferrule”, que pode ter sua extremidade com polimento reto ou angular."
+    },
+    {
+        "id": 75,
+        "enunciado": "A fibra óptica feita de sílica (vidro) é um meio de transmissão cilíndrico com duas camadas concêntricas e sobrepostas designadas de casca (mais externa) e de núcleo (mais interna); ambas são de sílica (vidro), porém com índices de refração distintos. A propagação da luz pela fibra produz alguns efeitos indesejáveis, como a dispersão e a atenuação. Sobre o assunto, é correto afirmar que",
+        "alternativas": [
+            "o retro espalhamento de Rayleigh é um dos efeitos observados na propagação da luz pela fibra óptica e é o principal causador da dispersão cromática.",
+            "a dispersão modal é o fenômeno de espalhamento do sinal óptico que ocorre nas fibras multimodo, devido aos sinais luminosos em diferentes comprimentos de onda.",
+            "o índice de refração do material do núcleo da fibra óptica é maior que o índice de refração do material da casca que o envolve, para garantir o confinamento da luz.",
+            "a atenuação do sinal luminoso ao se propagar pela fibra varia com o comprimento de onda, porém é praticamente constante entre os comprimentos de onda entre 850 nm e 1550 nm, permitindo sua aplicação em redes DWDM em toda esta faixa."
+        ],
+        "gabarito": "o índice de refração do material do núcleo da fibra óptica é maior que o índice de refração do material da casca que o envolve, para garantir o confinamento da luz."
+    },
+    {
+        "id": 76,
+        "enunciado": "Uma linha de transmissão construída de modo uniforme tem impedância característica de 50 Ohms e alimenta uma carga resistiva pura de 100 Ohms. Considere que as perdas na linha de transmissão podem ser consideradas desprezíveis. Assim, a linha apresenta uma relação de onda estacionária (SWR – Standing Wave Ratio) igual a 2. Nessa situação, analise as afirmativas a seguir.\nI. A impedância vista na entrada da linha de transmissão será de 150 Ohms.\nII. O valor mínimo da impedância vista ao longo da linha de transmissão será de 25 Ohms.\nIII. O valor máximo da impedância vista ao longo da linha de transmissão será igual a 100 Ohms.\nIV. A impedância vista em qualquer ponto ao longo da linha de transmissão sempre será resistiva pura.\nEstão corretas apenas as afirmativas",
+        "alternativas": [
+            "I e II.",
+            "I e IV.",
+            "II e III.",
+            "III e IV."
+        ],
+        "gabarito": "II e III."
+    },
+    {
+        "id": 77,
+        "enunciado": "Um guia de onda retangular com dimensões “a” (maior) e “b” (menor) opera em uma frequência na qual somente é possível a presença do modo de propagação TE10. Nessas condições, as componentes de campo elétrico e de campo magnético que ocorrem dentro do guia de onda podem ser distinguidas como transversais\n(perpendiculares à direção de propagação da onda) e longitudinais (na mesma direção de propagação da onda). Sobre o assunto, informe verdadeiro (V) ou falso (F) para as assertivas abaixo e, em seguida, marque a opção que apresenta a sequência correta.\n( ) Existe a componente de campo elétrico transversal e perpendicular à parede mais larga “a”.\n( ) Existe a componente de campo magnético transversal e paralela à parede menor “b”.\n( ) Existe a componente de campo magnético longitudinal, paralela à parede maior “a”.\n( ) Existe a componente de campo elétrico longitudinal, perpendicular à parede menor “b”.",
+        "alternativas": [
+            "(F); (V); (F); (V).",
+            "(F); (F); (V); (V).",
+            "(V); (V); (F); (F).",
+            "(V); (F); (V); (F)."
+        ],
+        "gabarito": "(V); (F); (V); (F)."
+    },
+    {
+        "id": 78,
+        "enunciado": "Observe as seguintes afirmações e assinale a que está incorreta sobre tipos e meios de transmissão de dados.",
+        "alternativas": [
+            "A fibra óptica é um meio de transmissão de dados que utiliza um fio de vidro ou plástico, conhecido como núcleo, para transmitir sinais de luz de um ponto para outro.",
+            "Os cabos coaxiais são utilizados em várias aplicações, desde áudio até linhas de transmissão de alta frequência.",
+            "O WiFi utiliza ondas sonoras para transmitir dados entre dispositivos, garantindo alta segurança na comunicação.",
+            "A comunicação por satélite é um sistema de transmissão de informações que utiliza satélites artificiais em órbita da Terra para enviar e receber sinais de comunicação."
+        ],
+        "gabarito": "O WiFi utiliza ondas sonoras para transmitir dados entre dispositivos, garantindo alta segurança na comunicação."
+    },
+    {
+        "id": 79,
+        "enunciado": "Assinale a assertiva que não apresenta de forma correta uma das importâncias de um sistema de cabeamento estruturado.",
+        "alternativas": [
+            "Um projeto de cabeamento bem organizado traz menos dores de cabeça e menos despesas para a entidade.",
+            "Permite um aproveitamento deficitário da rede elétrica, de modo também a gerar menos gastos.",
+            "Manutenção em um sistema de cabeamento estruturado é mais precisa, pois os técnicos poderão saber exatamente onde fazer alterações e o que checar diretamente.",
+            "O cabeamento devidamente organizado é capaz de oferecer uma conexão estável e forte."
+        ],
+        "gabarito": "Permite um aproveitamento deficitário da rede elétrica, de modo também a gerar menos gastos."
+    },
+    {
+        "id": 80,
+        "enunciado": "Davi está instalando o cabeamento da rede local da empresa onde trabalha. Ele pegou o relatório de pré-requisitos onde constam os critérios exigidos para a rede local e verificou suas especificações. Após a instalação dos subsistemas, em conformidade com o relatório de pré-requisitos, a especificação de desempenho dos cabos utilizados na execução do serviço nos enlaces (links) resultantes foi de classe D, segundo ABNT NBR 14565:2019.\nLogo, a categoria dos itens instalados por Davi é a:",
+        "alternativas": [
+            "categoria 3: banda passante de até 16 MHz;",
+            "categoria 5e: banda passante de até 100 MHz;",
+            "categoria 6: banda passante de até 250 MHz;",
+            "categoria 6A: banda passante de até 500 MHz;",
+            "categoria 7: banda passante de até 600 MHz."
+        ],
+        "gabarito": "categoria 5e: banda passante de até 100 MHz;"
+    },
+    {
+        "id": 81,
+        "enunciado": "Durante o processo de instalação física de uma rede local de computadores, ao empregar cabos de par trançado, qual precaução específica deve ser observada para assegurar uma conexão estável e de qualidade?",
+        "alternativas": [
+            "Colocar os cabos de rede em dutos de energia visando a economia de espaço.",
+            "Certificar-se de que os cabos estejam instalados em conformidade com os padrões das normas de cabeamento.",
+            "Verificar a polaridade dos conectores para garantir uma conexão adequada.",
+            "Utilizar cabos de par trançado sem blindagem em áreas sujeitas a interferência eletromagnética.",
+            "Optar por conectores RJ-45 de qualidade inferior como forma de reduzir custos."
+        ],
+        "gabarito": "Certificar-se de que os cabos estejam instalados em conformidade com os padrões das normas de cabeamento."
+    },
+    {
+        "id": 82,
+        "enunciado": "No que se refere a comutação de circuitos e de pacotes, modelos OSI e TCP/IP, tecnologias de redes locais, fibras ópticas e redes sem fio, julgue o item a seguir.\nEm comparação às fibras multimodo, as fibras ópticas de modo único normalmente têm diâmetro menor, são mais caras e amplamente usadas para transmissões por longas distâncias.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 83,
+        "enunciado": "Sobre o cabeamento óptico, assinale a opção correta.",
+        "alternativas": [
+            "A fibra multimodo pode transmitir dados a 100 Gbps por 100 km sem amplificação.",
+            "A fibra monomodo tem o núcleo normalmente de 50 micra de diâmetro e permite o uso de equipamento de fibra óptica relativamente mais barato.",
+            "A fibra monomodo disponível no momento pode transmitir dados a 1000 Gbps por 10 km com amplificação.",
+            "A fibra multimodo pode transmitir sInaIs para distâncias aproximadamente de 50 vezes maiores que a fibra monomodo.",
+            "A fibra multimodo pode ser usado para transmissões de até cerca de 15 km e permite o uso de equipamento de fibra óptica relativamente mais barato."
+        ],
+        "gabarito": "A fibra multimodo pode ser usado para transmissões de até cerca de 15 km e permite o uso de equipamento de fibra óptica relativamente mais barato."
+    },
+    {
+        "id": 84,
+        "enunciado": "As fibras ópticas são constituídas de materiais dielétricos, com uma estrutura cilíndrica, composta de uma região central denominada núcleo, por onde trafega a luz e uma região periférica denominada casca.\nAssinale a alternativa que se refere à tecnologia de construção descrita abaixo:\nUtilizado em aplicações externas em que é necessário um número grande de fibras. O cabo apresenta uma estrutura estrelar, sendo que nas ranhuras em forma de \"V\" está acomodada a fibra.\nApresenta um elemento tensor no seu centro que proporciona uma resistência mecânica maior ao cabo.",
+        "alternativas": [
+            "Otdr.",
+            "Groove.",
+            "Tight.",
+            "Loose.",
+            "Ribbon."
+        ],
+        "gabarito": "Groove."
+    },
+    {
+        "id": 85,
+        "enunciado": "Um Sistema de Cabeamento Estruturado é projetado para atender às necessidades de conectividade em ambientes corporativos, comerciais, industriais e residenciais, proporcionando uma rede confiável e de alto desempenho.\nO cabo CAT7A é uma evolução do CAT7, projetado para suportar taxas de transferência de dados de até:",
+        "alternativas": [
+            "10 Gb/s a uma frequência de até 1000 MHz.",
+            "25 Gb/s a uma frequência de até 1000 MHz.",
+            "25 Gb/s a uma frequência de até 2000 MHz.",
+            "1 Gb/s a uma frequência de até 1000 MHz.",
+            "40 Gb/s a uma frequência de até 2000 MHz."
+        ],
+        "gabarito": "10 Gb/s a uma frequência de até 1000 MHz."
+    },
+    {
+        "id": 86,
+        "enunciado": "Os códigos de cores da fibra óptica desempenham um papel crucial na infraestrutura das redes de comunicação modernas. Esses códigos facilitam a identificação das fibras individuais dentro de um cabo e indicam o tipo de cabo utilizado.\nA cor verde indica:",
+        "alternativas": [
+            "A fibra 3.",
+            "A fibra 4.",
+            "A fibra 1.",
+            "A fibra 2.",
+            "A fibra 5."
+        ],
+        "gabarito": "A fibra 1."
+    },
+    {
+        "id": 87,
+        "enunciado": "Acerca de cabeamento estruturado, fibras ópticas, WLAN e jumbo frames, julgue o item a seguir.\nCabos de par trançados são compostos por 4 pares de fios de cobre trançados entre si; cada par de fios utiliza um padrão de entrançamento diferente, com um número diferente de tranças por metro.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 88,
+        "enunciado": "Acerca de cabeamento estruturado, fibras ópticas, WLAN e jumbo frames, julgue o item a seguir.\nOs cabos de categorias 5 e 5e suportam taxas de transmissão de 100 megabits e 1.000 megabits e frequência de até 100 MHz, para extensão de cabo limitada a 100 m de comprimento.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 89,
+        "enunciado": "Acerca de cabeamento estruturado, fibras ópticas, WLAN e jumbo frames, julgue o item a seguir.\nAs fibras ópticas multimodo apresentam núcleo cujo diâmetro mede de 8 a 10 mícrons, e podem interligar pontos distantes em até 80 km no padrão de 10 gigabits.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 90,
+        "enunciado": "A norma ABNT NBR 14565:2013 – Cabeamento estruturado para edifícios comerciais e data centers apresenta a seguinte definição de um cabo híbrido:",
+        "alternativas": [
+            "cabo que conecta, no data center, a interface de rede externa ao distribuidor principal ou ao distribuidor de zona.",
+            "cabo que conecta, no data center, o ponto de distribuição local à tomada do equipamento.",
+            "conjunto de um cabo de fibras ópticas com um cabo de pares metálicos trançados, integrados e montados em um mesmo encapsulamento.",
+            "conjunto de duas ou mais unidades de cabos e/ou cabos de diferentes tipos ou categorias, cobertos por uma capa externa, com ou sem blindagem.",
+            "segmento de cabo que conecta o distribuidor de piso ao ponto de consolidação (opcional) ou às tomadas de telecomunicações."
+        ],
+        "gabarito": "conjunto de duas ou mais unidades de cabos e/ou cabos de diferentes tipos ou categorias, cobertos por uma capa externa, com ou sem blindagem."
+    },
+    {
+        "id": 91,
+        "enunciado": "O meio de transmissão que fornece altas taxas de dados em longas distâncias e que possui alta resistência a interferências eletromagnéticas é o(a)",
+        "alternativas": [
+            "cabo UTP.",
+            "cabo coaxial.",
+            "micro‑ondas.",
+            "infravermelho.",
+            "fibra óptica."
+        ],
+        "gabarito": "fibra óptica."
+    },
+    {
+        "id": 92,
+        "enunciado": "Quanto aos meios de transmissão utilizados em redes de computadores, à VLAN, ao DHCP e aos conceitos de hardware, julgue o item seguinte.\nA fibra óptica multimodo com índice gradual tem várias rotas para os sinais de luz, o que causa maior dispersão modal.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 93,
+        "enunciado": "Com relação à instalação de redes de computadores, analise as afirmativas a seguir.\nI. O cabeamento estruturado é o ativo de rede responsável pela distribuição de dados em uma rede de computadores.\nII. A crimpagem de cabos refere‑se à fixação dos conectores RJ45 nos cabos de rede, garantindo a conexão adequada entre os componentes da rede.\nIII. O switch é o dispositivo responsável pela distribuição de dados em uma rede. Ele conecta os computadores e permite a comunicação entre eles.\nEstão corretas as afirmativas",
+        "alternativas": [
+            "I e II, apenas.",
+            "I e III, apenas.",
+            "II e III, apenas.",
+            "I, II e III."
+        ],
+        "gabarito": "II e III, apenas."
+    },
+    {
+        "id": 94,
+        "enunciado": "No cabeamento estruturado, são restrições gerais ao subsistema de cabeamento horizontal:",
+        "alternativas": [
+            "quando o comprimento total dos patchs de área de trabalho e de equipamentos for igual a 15 m, o comprimento físico do cabo horizontal deve ser de até 95 m.",
+            "o comprimento dos patchs cords e Jumpers pode exceder 10 m quando o comprimento do cabeamento horizontal for igual a 90 m.",
+            "quando uma tomada de telecomunicaçoes multiusuário for utilizada, o comprimento do patch corri de área de trabalho não pode exceder 20 m.",
+            "o comprimento do link permanente e canal é de até 100 me 90 m, respectivamente.",
+            "o ponto de consolidação deve estar localizado a uma distância mínima de 50 m do distribuidor de campus e a uma distância mínima de 40 m da tomada de telecomunicações."
+        ],
+        "gabarito": "quando uma tomada de telecomunicaçoes multiusuário for utilizada, o comprimento do patch corri de área de trabalho não pode exceder 20 m."
+    },
+    {
+        "id": 95,
+        "enunciado": "Um analista precisa selecionar o meio físico para atender os pontos de acesso sem fio de um determinado departamento em reformulação, garantindo o suporte a taxas de transmissão para o padrão Wi-Fi 6 (802.11ax) e uma potência elétrica superior, no caso de cabeamento metálico. É recomendado para essa aplicação, no mínimo, o uso de cabeamento Classe",
+        "alternativas": [
+            "EA/Categoria 7 para cabeamento balanceado e fibras ópticas OM2 para cabeamento óptico.",
+            "E/Calegoria 6 para cabeamento balanceado e fibras ópticas OM4 para cabeamento óptico.",
+            "EA/Categoria 6A para cabeamento balanceado e fibras ópticas OM3 para cabeamento óptico.",
+            "A/Categoria 5e para cabeamento balanceado e fibras ópticas OM2 para cabeamento óptico.",
+            "AE/Categoria 6e para cabeamento balanceado e fibras ópticas OM1 para cabeamento óptico."
+        ],
+        "gabarito": "EA/Categoria 6A para cabeamento balanceado e fibras ópticas OM3 para cabeamento óptico."
+    },
+    {
+        "id": 96,
+        "enunciado": "Os meios de transmissão de dados em rede servem para dar suporte ao fluxo de dados entre dois pontos.\nUm exemplo de meio físico de transmissão de dados é o:",
+        "alternativas": [
+            "Infravermelho.",
+            "Wireless.",
+            "Bluetooth.",
+            "IRDA.",
+            "Cabo de fibra-óptica."
+        ],
+        "gabarito": "Cabo de fibra-óptica."
+    },
+    {
+        "id": 97,
+        "enunciado": "Algumas ferramentas são essenciais na instalação de redes de computadores. Analise a imagem a seguir e assinale a alternativa que descreve corretamente o nome da ferramenta utilizada pelo analista de tecnologia na confecção da cabeamentos de rede:\nFonte: 1 Ficheiros Google",
+        "alternativas": [
+            "Alicate de Cripagem.",
+            "Alicate de Pressão.",
+            "Alicate bomba d’água.",
+            "Testador de Circuito.",
+            "Medidor de dados."
+        ],
+        "gabarito": "Alicate de Cripagem."
+    },
+    {
+        "id": 98,
+        "enunciado": "É uma ferramenta manual empregue para, de forma correta, engatar os fios aos relativos conectores nos módulos RJ45.\nEstes módulos são embutidos na parede ou em caixas de passagem para conexão de computadores e telefones:",
+        "alternativas": [
+            "Medidor de Folga.",
+            "Medidor de Pressão.",
+            "Alicate de Hidráulico.",
+            "Alicate Punch Down.",
+            "Alicate Rebitador."
+        ],
+        "gabarito": "Alicate Punch Down."
+    },
+    {
+        "id": 99,
+        "enunciado": "Os princípios de redes de comunicação envolvem a compreensão dos meios de transmissão e das topologias das redes de computadores. Os meios de transmissão referem-se às formas pelas quais os dados são enviados entre dispositivos, enquanto as topologias definem a disposição física e lógica dos elementos da rede. Sobre o assunto, julgue as seguintes afirmações como verdadeiras (V) ou falsas (F):\n(__)O cabo coaxial é um meio de transmissão que oferece maior largura de banda e menor atenuação em comparação com o cabo de par trançado.\n(__)A topologia em estrela é a mais comum em redes locais, pois permite fácil adição e remoção de dispositivos sem interromper a rede.\n(__)A topologia em barramento é altamente escalável, pois pode facilmente acomodar um número crescente de dispositivos sem necessidade de alterações.\nAssinale a alternativa cuja respectiva ordem de julgamento esteja correta:",
+        "alternativas": [
+            "V, F, F.",
+            "F, F, F.",
+            "F, V, F.",
+            "V, V, V.",
+            "F, F, V."
+        ],
+        "gabarito": "F, V, F."
+    },
+    {
+        "id": 100,
+        "enunciado": "O cabeamento de fibra óptica possibilita uma velocidade de transmissão e largura de banda muito maior quando comparado ao cabeamento metálico. Essa diferença de velocidade se deve ao funcionamento da fibra óptica, que pode ser melhor descrita como:",
+        "alternativas": [
+            "transmissão através da fibra de vidro por pulsos de luz.",
+            "implementação do serviço de Ethernet mais próximo do provedor.",
+            "distância menor percorrida pelo tamanho do cabeamento.",
+            "vinculação com o serviço de nuvem.",
+            "maior suporte ao fluxo de dados."
+        ],
+        "gabarito": "transmissão através da fibra de vidro por pulsos de luz."
+    },
+    {
+        "id": 101,
+        "enunciado": "Os cabos de par trançado das categorias Cat 6 e Cat 6a apresentam algumas características e exigências, segundo as especificações e recomendações de uso normal, como",
+        "alternativas": [
+            "a distância limitada a 1 000 metros para os cabos Cat 6a quando utilizados em redes 10GBASE-T.",
+            "a distância limitada a 550 metros para os cabos Cat 6 quando utilizados em redes 10GBASE-T.",
+            "a menor espessura dos cabos Cat 6a quando comparados com os cabos Cat 6, permitindo a passagem de mais cabos nas canaletas.",
+            "o uso de conectores diferentes dos convencionais RJ-45, destinados especificamente para as categorias Cat 6 e Cat 6a, que possuem dimensões menores, mais pinos e utilizam novos materiais para que suportem frequências mais altas.",
+            "a menor interferência entre os pares do cabo CAT 6a devido às suas características construtivas, tornando- o, porém, mais grosso e menos flexível que o cabo Cat 6."
+        ],
+        "gabarito": "a menor interferência entre os pares do cabo CAT 6a devido às suas características construtivas, tornando- o, porém, mais grosso e menos flexível que o cabo Cat 6."
+    },
+    {
+        "id": 102,
+        "enunciado": "O padrão IEEE 802.11 apresenta diversos tipos. Assinale a alternativa que apresenta tipo(s) que utiliza(m) apenas a banda de frequência de 5 GHz.",
+        "alternativas": [
+            "IEEE 802.11a e IEEE 802.11b.",
+            "IEEE 802.11b.",
+            "IEEE 802.11g.",
+            "IEEE 802.11g e IEEE 802.11n.",
+            "IEEE 802.11ac."
+        ],
+        "gabarito": "IEEE 802.11ac."
+    },
+    {
+        "id": 103,
+        "enunciado": "Dentre os diversos cabos de rede disponíveis para uso, um deles é o cabo de rede CAT5. Esse cabo permite uma velocidade de transmissão de dados da ordem de",
+        "alternativas": [
+            "bps.",
+            "Kbps.",
+            "Mbps.",
+            "Gbps.",
+            "Tbps."
+        ],
+        "gabarito": "Mbps."
+    },
+    {
+        "id": 104,
+        "enunciado": "Responda V para verdadeiro e F para falso sobre redes sem fio.\nI. Você pode mover os dispositivos, facilmente, porque não há cabos.\nII. As redes sem fio são mais caras de instalar do que as redes com fio.\nIII. Geralmente, você pode melhorar o sinal sem fio usando um repetidor sem fio. Os repetidores sem fio selecionam um sinal e, se o sinal estiver degradado, o repetidor poderá retransmiti-lo com força total.\nIV. A tecnologia sem fio, geralmente, é mais lenta do que as tecnologias com fio.\nV. As redes sem fio, frequentemente, ficam em cerca do dobro da velocidade classificada.",
+        "alternativas": [
+            "V – F – V – V – F.",
+            "F – V – F – F – V.",
+            "V – V – V – F – F.",
+            "F – F – V – V – F.",
+            "F – V – V – V – V."
+        ],
+        "gabarito": "V – F – V – V – F."
+    },
+    {
+        "id": 105,
+        "enunciado": "Responda V para verdadeiro e F para falso sobre redes cabeadas.\nI. As redes Ethernet são, altamente, seguras e rápidas.\nII. As redes Ethernet são mais seguras do que as redes sem fio porque estão, totalmente, contidas.\nIII. As redes Ethernet são afetadas pela interferência de objetos ou paredes.\nIV. Você deve operar cabos Ethernet entre cada dispositivo e um hub, comutador ou roteador. Isso pode ser demorado e difícil quando os dispositivos estão em salas diferentes.\nV. O hardware é mais barato.",
+        "alternativas": [
+            "F – F – V – F – V.",
+            "V – V – F – V – F.",
+            "F – V – V – F – V.",
+            "V – F – F – V – F.",
+            "F – V – V – F – F."
+        ],
+        "gabarito": "V – V – F – V – F."
+    },
+    {
+        "id": 106,
+        "enunciado": "Com relação a armazenamento de dados, julgue o item que se segue.\nO zoneamento é uma forma de restringir o acesso a certos nós de uma rede de dispositivos em uma arquitetura fiber channel.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 107,
+        "enunciado": "Com relação a armazenamento de dados, julgue o item que se segue.\nPonto a ponto, laço arbitrado e fabric são exemplos de topologias de transporte para uma arquitetura fiber channel.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 108,
+        "enunciado": "Considere a ilustração a seguir, que apresenta uma configuração válida para cabos de rede Cat5/Cat6.\nDiante do exposto, assinale a alternativa que traz o nome desta configuração de cabo e um exemplo de aplicação prática.",
+        "alternativas": [
+            "Cabo Direto, PC para PC.",
+            "Cabo Crossover, PC para Roteador.",
+            "Cabo Crossover, PC para Comutador.",
+            "Cabo Direto, Comutador para Comutador."
+        ],
+        "gabarito": "Cabo Crossover, PC para Roteador."
+    },
+    {
+        "id": 109,
+        "enunciado": "Nas redes de computadores, uma rede de Circuito Virtual (CV) é responsável por fornecer serviço com conexão da camada de rede, de modo a transportar dados a partir de um aparente enlace. Em um CV existem 3 (três) fases que podem ser identificadas. Uma dessas fases caracteriza-se quando a camada de rede é contactada pela camada de transporte, recebendo o endereço do destino e determinando o caminho entre os hospedeiros. Assinale a alternativa que apresenta o nome desta fase de um Circuito Virtual.",
+        "alternativas": [
+            "Sinalização de CV.",
+            "Estabelecimento de CV.",
+            "Estruturação de CV.",
+            "Encerramento de CV."
+        ],
+        "gabarito": "Estabelecimento de CV."
+    },
+    {
+        "id": 110,
+        "enunciado": "O disco Fibre Channel é uma tecnologia de redes de computadores de alta velocidade usada para armazenamento em rede. Os discos Fibre Channel são a evolução dos discos SCSI e permitem maiores velocidades e um maior número de discos. O nome se deve ao fato de terem sido criados originalmente para operar com canais de fibra óptica, embora também possam trabalhar com cabos metálicos comuns. O Fibre Channel é um protocolo por cinco camadas. A camada que NÃO faz parte dos protocolos Fibre Channel é a camada:",
+        "alternativas": [
+            "De ligação de dados (FC.",
+            "De rede (FC.",
+            "Que implementa funções auxiliares (FC.",
+            "Da aplicação (FC.",
+            "De usuário (FC."
+        ],
+        "gabarito": "De usuário (FC."
+    },
+    {
+        "id": 111,
+        "enunciado": "As fibras ópticas do tipo monomodo",
+        "alternativas": [
+            "apresentam maior dificuldade de alinhamento para a realização de emendas e colocação de conectores em comparação com a fibra multimodo.",
+            "apresentam menor custo em comparação com a fibra multimodo.",
+            "apresentam maior facilidade de instalação em comparação com a fibra multimodo.",
+            "permitem velocidades de transmissão de dados menores quando comparadas com as fibras multimodo.",
+            "possuem um diâmetro maior no núcleo e uma casca mais fina em comparação com a fibra multimodo."
+        ],
+        "gabarito": "apresentam maior dificuldade de alinhamento para a realização de emendas e colocação de conectores em comparação com a fibra multimodo."
+    },
+    {
+        "id": 112,
+        "enunciado": "Qual tipo de cabo ethernet, no contexto de cabeamento estruturado, que contém uma folha metálica, geralmente de alumínio, que envolve o conjunto de pares trançados do cabo, além de uma folha metálica que envolve cada par trançado?",
+        "alternativas": [
+            "S/UTP.",
+            "F/UTP.",
+            "U/STP.",
+            "S/FTP.",
+            "F/FTP."
+        ],
+        "gabarito": "F/FTP."
+    },
+    {
+        "id": 113,
+        "enunciado": "Analise as afirmativas abaixo sobre cabeamento estruturado.\n1. Cabos Cat6A, ao contrário de cabos Cat6, são sempre blindados.\n2. A transmissão de velocidades de até 10 Gbps requer necessariamente cabos com blindagem.\n3. Enquanto cabos Cat5 trabalham com até 100 Mhz, os cabos Cat7A podem alcançar até 1000 Mhz ou 10× mais que um cabo Cat5.\nAssinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "É correta apenas a afirmativa 3.",
+            "São corretas apenas as afirmativas 1 e 2.",
+            "São corretas apenas as afirmativas 1 e 3.",
+            "São corretas apenas as afirmativas 2 e 3.",
+            "São corretas as afirmativas 1, 2 e 3."
+        ],
+        "gabarito": "É correta apenas a afirmativa 3."
+    },
+    {
+        "id": 114,
+        "enunciado": "Qual tipo de cabo ethernet, no contexto de cabeamento estruturado, que contém uma malha metálica que envolve o conjunto de pares trançados do cabo, de acordo com a designação oficial ISO/IEC 11801?",
+        "alternativas": [
+            "S/UTP.",
+            "F/UTP.",
+            "U/UTP.",
+            "F/FTP.",
+            "U/FTP."
+        ],
+        "gabarito": "S/UTP."
+    },
+    {
+        "id": 115,
+        "enunciado": "A DPE/RS, adotante da norma ABNT NBR 14565:2013, expandiu sua infraestrutura de TI e instalou novos cabeamentos em seu prédio. Durante a expansão, o analista Marcus supervisionou a instalação de um novo backbone de edifício no prédio da Defensoria.\nDe acordo com a ABNT NBR 14565:2013, a instalação supervisionada por Marcus conectou o distribuidor de edifício da Defensoria a um:",
+        "alternativas": [
+            "distribuidor de piso;",
+            "backbone de campus;",
+            "distribuidor de edifício;",
+            "ponto de consolidação;",
+            "distribuidor de campus."
+        ],
+        "gabarito": "distribuidor de piso;"
+    },
+    {
+        "id": 116,
+        "enunciado": "A Defensoria Pública do Estado do Rio Grande do Sul (DPE/RS) está trocando os cabos Ethernet categoria 5 da rede interna por fibra óptica, de forma a melhorar o throughput. Durante a definição do modelo de fibra usado, levaram-se em conta os tipos de fontes de luz possíveis. Uma delas é o LED (diodo emissor de luz) e a outra, o laser semicondutor. Ele tem propriedades que definem sua utilização. A DPE/RS definiu fazer uso de fibra com laser semicondutor como fonte de luz.\nComparando as duas fontes de luz, as características que definiram a escolha da DPE/RS foram:",
+        "alternativas": [
+            "possuir uma taxa de dados mais baixa e um custo baixo;",
+            "trabalhar com fibra multimodo ou monomodo e possuir vida útil menor;",
+            "ser mais sensíveis à temperatura e trabalhar em uma distância mais curta;",
+            "trabalhar apenas com fibra multimodo e possuir uma vida útil longa;",
+            "trabalhar com alta taxa de dados e possuir uma vida útil longa."
+        ],
+        "gabarito": "trabalhar com fibra multimodo ou monomodo e possuir vida útil menor;"
+    },
+    {
+        "id": 117,
+        "enunciado": "Durante uma inspeção de segurança, verificou-se que os cabos da rede local da Defensoria Pública do Estado do Rio Grande do Sul (DPE/RS) necessitavam de troca. Um estudo foi realizado de forma a identificar as características necessárias aos cabos que deveriam substituir os existentes. Algumas dessas características são:\npodem trafegar com velocidade de 10 Gbps e à frequência de 500 MHZ. Também são conhecidos como par trançado não blindado (UTP).\nO cabo utilizado na substituição será o par trançado categoria:",
+        "alternativas": [
+            "3;",
+            "5;",
+            "6;",
+            "7;",
+            "8."
+        ],
+        "gabarito": "6;"
+    },
+    {
+        "id": 118,
+        "enunciado": "O projeto físico de uma rede de computadores baseada na abordagem top-down visa, dentre outros, definir qual será o cabeamento utilizado. Duas possíveis topologias de cabeamento para essa finalidade são:",
+        "alternativas": [
+            "Simples e redundante.",
+            "Local e ampliada.",
+            "Convergente e divergente.",
+            "Centralizada e distribuída.",
+            "Esparsa e concentrada."
+        ],
+        "gabarito": "Centralizada e distribuída."
+    },
+    {
+        "id": 119,
+        "enunciado": "A fibra óptica possui diversas vantagens sobre os condutores de cobre, sendo as principais:\nI. Maior distância sem reforço de sinal.\nII. Maior velocidade.\nIII. Imunidade a interferências eletromagnéticas.\nIV. Manutenção simples e rápida.\nQuais estão corretas?",
+        "alternativas": [
+            "Apenas I e III.",
+            "Apenas I e IV.",
+            "Apenas II e IV.",
+            "Apenas I, II e III.",
+            "Apenas II, III e IV."
+        ],
+        "gabarito": "Apenas I, II e III."
+    },
+    {
+        "id": 120,
+        "enunciado": "Em relação aos cabos de __________, existem dois padrões mais utilizados no conector _________, que são o EIA/TIA 568A e o EIA/TIA 568B. Para que um cabo desses seja considerado __________, é necessário que ele possua conectorizado o padrão EIA/TIA 568A em uma extremidade do cabo e o padrão EIA/TIA 568B na outra.\nAssinale a alternativa que preenche, correta e respectivamente, as lacunas do trecho acima.",
+        "alternativas": [
+            "par trançado – RJ45 – crossover.",
+            "par trançado – RJ45 – reto.",
+            "par trançado – SC (Standard Connector) – crossover.",
+            "fibra óptica – SC (Standard Connector) – crossover.",
+            "fibra óptica – SC (Standard Connector) – reto."
+        ],
+        "gabarito": "par trançado – RJ45 – crossover."
+    },
+    {
+        "id": 121,
+        "enunciado": "O cabo coaxial que é menos flexível, mais resistente a interferências eletromagnéticas e usado para redes de banda larga é o",
+        "alternativas": [
+            "5Base5.",
+            "5Base15.",
+            "10Base0.",
+            "10Base5.",
+            "15Base10."
+        ],
+        "gabarito": "10Base5."
+    },
+    {
+        "id": 122,
+        "enunciado": "Em comprimentos de até 30 metros, cabos Ethernet CAT8 podem atingir taxas de transmissão de",
+        "alternativas": [
+            "10Gbps a 1000Mhz.",
+            "20Gbps a 1000Mhz.",
+            "40Gbps a 1000Mhz.",
+            "20Gbps a 2000Mhz.",
+            "40Gbps a 2000Mhz."
+        ],
+        "gabarito": "40Gbps a 2000Mhz."
+    },
+    {
+        "id": 123,
+        "enunciado": "Acerca de fibra óptica multimodo, analise as seguintes assertivas:\nI. mais baratas que as monomodos;\nII. mais fáceis de trabalhar com emendas;\nIII. inadequadas para LANs, por serem muito longas.\nAssinale a alternativa correta.",
+        "alternativas": [
+            "Apenas I é verdadeira.",
+            "Apenas II é verdadeira.",
+            "Apenas I e III são verdadeiras.",
+            "Apenas I e II são falsas.",
+            "Apenas III é falsa."
+        ],
+        "gabarito": "Apenas III é falsa."
+    },
+    {
+        "id": 124,
+        "enunciado": "No Gigabit Ethernet, a transmissão em fibra óptica para distâncias de até 5 km é possível com o uso do padrão",
+        "alternativas": [
+            "1000BASE-LX.",
+            "1000BASE-SX.",
+            "1000BASE-CX.",
+            "1000BASE-TX.",
+            "1000BASE-T."
+        ],
+        "gabarito": "1000BASE-LX."
+    },
+    {
+        "id": 125,
+        "enunciado": "Os cabos de fibra óptica apresentam vantagens e desvantagens quando comparados com os cabos metálicos de cobre.\nAssinale a alternativa correta relacionada a essa comparação.",
+        "alternativas": [
+            "As fibras ópticas apresentam a vantagem em relação aos cabos de cobre por não serem afetadas por picos de tensão. Porém, sofrem mais do que estes em relação à interferência eletromagnética.",
+            "Os cabos de fibras ópticas possibilitam larguras de banda muito mais baixas do que os cabos de cobre.",
+            "Os cabos de cobre possuem baixa atenuação quando comparados com os cabos de fibra óptica.",
+            "Os cabos de fibra óptica são mais leves do que os cabos de cobre, reduzindo de maneira significativa a necessidade de sistemas mecânicos de suporte.",
+            "Para uma mesma distância (por exemplo, alguns quilômetros), os cabos de cobre exigem menos repetidores do que os cabos de fibra óptica."
+        ],
+        "gabarito": "Os cabos de fibra óptica são mais leves do que os cabos de cobre, reduzindo de maneira significativa a necessidade de sistemas mecânicos de suporte."
+    },
+    {
+        "id": 126,
+        "enunciado": "Diversas categorias de cabos são utilizadas em cabeamento estruturado, como os cabos da categoria",
+        "alternativas": [
+            "5, que suportam frequências de até 10 MHz.",
+            "5e, que é uma versão aperfeiçoada da categoria 5 e suportam frequências de até 500 MHz.",
+            "6, cujo alcance nominal é de 1 000 metros.",
+            "6a, que suportam frequências de até 500 MHz.",
+            "6 e da categoria 6a, que são menos espessos (3 mm) que os cabos de categoria 5 (5 mm)."
+        ],
+        "gabarito": "6a, que suportam frequências de até 500 MHz."
+    },
+    {
+        "id": 127,
+        "enunciado": "Assinale a alternativa correta relacionada com a comunicação de dados empregando diversos tipos de meios de comunicação.",
+        "alternativas": [
+            "Em uma fibra óptica, se o diâmetro da fibra for reduzido a alguns comprimentos de onda de luz, a fibra agirá como um guia de onda, e a luz só poderá se propagar em linha reta, sem ricochetear, sendo conhecida como fibra multimodo.",
+            "No tipo de fibra óptica conhecido como fibra monomodo, um raio de luz incidente na fronteira acima do ângulo crítico será refletido internamente, e muitos raios distintos estarão ricocheteando em diferentes ângulos.",
+            "Nos cabos de fibra óptica o seu núcleo é envolvido por um revestimento de vidro com um índice de refração inferior ao do núcleo, para manter toda a luz nele, e há uma cobertura de plástico fino para proteger o revestimento interno.",
+            "Os cabos de fibra óptica são construtivamente semelhantes aos cabos coaxiais, pois ambos possuem uma malha metálica que envolve o seu núcleo para blindagem.",
+            "Os cabos de fibra óptica suportam larguras de banda muito mais baixas do que os cabos de fio de cobre, e requerem mais repetidores em distâncias maiores."
+        ],
+        "gabarito": "Nos cabos de fibra óptica o seu núcleo é envolvido por um revestimento de vidro com um índice de refração inferior ao do núcleo, para manter toda a luz nele, e há uma cobertura de plástico fino para proteger o revestimento interno."
+    },
+    {
+        "id": 128,
+        "enunciado": "Assinale a alternativa que apresenta a afirmação correta quanto à comparação de cabos de redes de diversas categorias.",
+        "alternativas": [
+            "A espessura dos cabos de categoria 5 é menor do que a dos cabos de categoria 6a.",
+            "Em redes de 10 Gbps, os cabos de categoria 5e podem ser utilizados para distâncias de até 100 m, enquanto que os de categoria 6 podem ser utilizados para distâncias de até 1000 m.",
+            "Os cabos de categoria 5 suportam frequências de até 100 MHz, enquanto que os de categoria 5e suportam frequências de até 500 MHz.",
+            "Os cabos de categoria 6 podem ser utilizados para transmissão de até 1 Gbps, enquanto que os de categoria 6a podem ser utilizados para transmissão de 100 Gbps.",
+            "Os cabos de categorias 5e e 6a são equivalentes, exceto pelo fato de os de categoria 6a utilizarem materiais mais leves e finos, tornando-os mais flexíveis e finos do que os de categoria 5e."
+        ],
+        "gabarito": "A espessura dos cabos de categoria 5 é menor do que a dos cabos de categoria 6a."
+    },
+    {
+        "id": 129,
+        "enunciado": "A respeito da tecnologia de redes locais Gigabit Ethernet baseada em par trançado (1000BASE-T), assinale a alternativa correta.",
+        "alternativas": [
+            "Cada par de fios dentro do cabo de rede precisa ser blindado para suportar essa velocidade.",
+            "É suportada por cabos de rede Cat-3 e Cat-5.",
+            "Podem ser usados de 4 a 8 pares de fios do cabo de rede na comunicação.",
+            "São usados exatamente 2 pares de fios do cabo de rede na comunicação.",
+            "São usados exatamente 4 pares de fios do cabo de rede na comunicação."
+        ],
+        "gabarito": "São usados exatamente 4 pares de fios do cabo de rede na comunicação."
+    },
+    {
+        "id": 130,
+        "enunciado": "Segundo Tanenbaum (2, é correto afirmar que a fibra monomodo:",
+        "alternativas": [
+            "é mais barata que a fibra multimodo.",
+            "é amplamente utilizada em distâncias mais longas, alcançando distâncias aproximadas às da fibra multimodo.",
+            "tem diâmetro reduzido a alguns comprimentos de onda de luz (menos de 1 micra).",
+            "pode transmitir sinais para distâncias aproximadamente 500 vezes maiores que a fibra multimodo.",
+            "é amplamente utilizada em distâncias mais longas, e a decisão entre o uso da fibra monomodo ou multimodo depende da aplicação."
+        ],
+        "gabarito": "é amplamente utilizada em distâncias mais longas, e a decisão entre o uso da fibra monomodo ou multimodo depende da aplicação."
+    },
+    {
+        "id": 131,
+        "enunciado": "Nos últimos anos, a utilização da internet vem aumentando e, com isso, o seu acesso vem sendo cada vez mais aperfeiçoado. Com base no conhecimento sobre os tipos de acesso à internet, assinale a alternativa CORRETA.",
+        "alternativas": [
+            "Pode-se dizer que a Digital Subscriber Line (DSL), o cabo e a Fiber To The Home (FTTH) são tipos de acesso doméstico.",
+            "Pode-se dizer que o tipo de acesso Ethernet e Wi-fi não se categorzam com o tipo de acesso empresarial e de residência.",
+            "É verdade afirmar que o 3G e o Long Term Evolution (LTE) não se configuram como o acesso sem fio em longa distância.",
+            "É verdade afirmar que os cabos coaxiais e par traçando vão deixar de existir, pois a fibra óptica está cada vez mais evoluída, dirimindo cada vez mais a presença dos meios físicos nas comunicações.",
+            "Em virtude das muitas doenças oriundas do 4G e 56, recomenda-se a utilização do 2G e 3G, para evitar problemas futuros e garantir a segurança das informações."
+        ],
+        "gabarito": "Pode-se dizer que a Digital Subscriber Line (DSL), o cabo e a Fiber To The Home (FTTH) são tipos de acesso doméstico."
+    },
+    {
+        "id": 132,
+        "enunciado": "São meios de transmissão guiados, EXCETO:",
+        "alternativas": [
+            "Cabo coaxial fino.",
+            "Cabo coaxial de fibra óptica trançado.",
+            "Cabo coaxial grosso.",
+            "Cabo par trançado.",
+            "Cabo fibra óptica."
+        ],
+        "gabarito": "Cabo coaxial de fibra óptica trançado."
+    },
+    {
+        "id": 133,
+        "enunciado": "De acordo com a norma NBR 14.565, o comprimento máximo admitido para o cabeamento metálico é de",
+        "alternativas": [
+            "100m.",
+            "200m.",
+            "400m.",
+            "90m.",
+            "2000m."
+        ],
+        "gabarito": "100m."
+    },
+    {
+        "id": 134,
+        "enunciado": "Os sistemas de transmissão de dados estão sujeitos a interferências eletromagnéticas indesejadas, que ocasionam ruídos nos sinais. Sobre o nível de ruído em uma transmissão, chamado de relação sinal-ruído, é correto afirmar que",
+        "alternativas": [
+            "em uma transmissão em que a potência do sinal é 100 e a potência do ruído é 1, a relação sinal-ruído, em decibéis, é igual a 100 dB.",
+            "quanto maior a relação sinal-ruído, pior é a qualidade do sinal.",
+            "ele é medido como uma relação entre a tensão do sinal e a tensão do ruído.",
+            "a unidade comumente utilizada para medir a relação sinal-ruído é miliampère (mA).",
+            "em uma transmissão em que a potência do sinal é 1 000 e a potência do ruído é 10, a relação sinal-ruído, em decibéis, é igual a 20 dB."
+        ],
+        "gabarito": "em uma transmissão em que a potência do sinal é 1 000 e a potência do ruído é 10, a relação sinal-ruído, em decibéis, é igual a 20 dB."
+    },
+    {
+        "id": 135,
+        "enunciado": "Assinale a alternativa correta associada a técnicas de modulação de sinais utilizadas em sistemas de transmissão de dados.",
+        "alternativas": [
+            "Na técnica de chaveamento por deslocamento de fase, a fase da onda portadora é modulada de forma que os bits 0 e 1 são representados por duas frequências distintas.",
+            "A técnica de chaveamento por deslocamento de frequência é muito utilizada em transmissões sem fio.",
+            "A técnica de chaveamento por deslocamento de fase não pode ser utilizada em modems.",
+            "Uma desvantagem da técnica de chaveamento por deslocamento de amplitude é a menor simplicidade de implementação, quando comparada com as demais técnicas.",
+            "Uma grande vantagem da técnica de chaveamento por deslocamento de amplitude é a menor suscetibilidade a ruídos e interferências do que a técnica de chaveamento por deslocamento de frequência."
+        ],
+        "gabarito": "A técnica de chaveamento por deslocamento de frequência é muito utilizada em transmissões sem fio."
+    },
+    {
+        "id": 136,
+        "enunciado": "Em relação a cabos utilizados em redes de computadores, é correto afirmar que os cabos",
+        "alternativas": [
+            "STP são mais leves por metro quando comparados com os cabos UTP.",
+            "UTP custam mais por metro quando comparados com os cabos STP.",
+            "STP são blindados, enquanto que os cabos UTP não são blindados.",
+            "STP são de fibra óptica, enquanto que os cabos UTP são de pares trançados.",
+            "STP são menos imunes a interferências e ruído do que os cabos UTP."
+        ],
+        "gabarito": "STP são blindados, enquanto que os cabos UTP não são blindados."
+    },
+    {
+        "id": 137,
+        "enunciado": "O tipo de cabo par trançado mais comum, que é usado em redes Ethernet, possui quatro pares de fios e oferece suporte a velocidades de até 1000 Mbps é:",
+        "alternativas": [
+            "UTP (Unshielded Twisted Pair), categoria 5e.",
+            "UTP (Unshielded Twisted Pair), categoria 6.",
+            "STP (Shielded Twisted Pair), categoria 6a.",
+            "UTP (Unshielded Twisted Pair), categoria 7.",
+            "UTP (Unshielded Twisted Pair), categoria 8."
+        ],
+        "gabarito": "UTP (Unshielded Twisted Pair), categoria 5e."
+    },
+    {
+        "id": 138,
+        "enunciado": "A norma EIA/TIA 568 classifica o sistema de cabeamento em categorias levando em consideração aspectos de desempenho, largura de banda, comprimento, atenuação e outros fatores de influência neste tipo de tecnologia. Para velocidades de até 1 Gbps em distâncias de até 100 metros, e ainda, suportar velocidades de 10 Gbps em distâncias de até 55 metros, é utilizado o cabo:",
+        "alternativas": [
+            "Cabo UTP 4.",
+            "Cabo UTP 5.",
+            "Cabo UTP 5e.",
+            "Cabo UTP 6.",
+            "Cabo UTP 6e."
+        ],
+        "gabarito": "Cabo UTP 6."
+    },
+    {
+        "id": 139,
+        "enunciado": "Os cabos de par trançado são um dos principais meios de transmissão de dados em uma rede de computadores. Nesse tipo de cabo, os fios são trançados aos pares para:",
+        "alternativas": [
+            "aumentar a largura da banda;",
+            "aumentar a velocidade de transmissão;",
+            "aumentar o alcance da rede;",
+            "reduzir as interferências eletromagnéticas;",
+            "reduzir a atenuação do sinal."
+        ],
+        "gabarito": "reduzir as interferências eletromagnéticas;"
+    },
+    {
+        "id": 140,
+        "enunciado": "“Comunicação de dados são as trocas de dados entre dois dispositivos por intermédio de algum tipo de meio de transmissão, como um cabo condutor formado por fios. Para que as comunicações de dados ocorram, os dispositivos de comunicação devem fazer parte de um sistema de comunicações, composto por uma combinação de hardware (equipamentos físicos) e software (programas). A eficácia de um sistema de comunicações de dados depende de quatro características fundamentais: entrega, precisão, sincronização e jitter.” FOROUZAN, Behrouz A. Comunicação de dados e Redes de Computadores. Porto Alegre: Grupo A, 2010. p. 4.\nConsiderando as características fundamentais para eficácia de um sistema de comunicação de dados que garante que os dados sejam transmitidos corretamente e em tempo adequado, analise a veracidade das afirmações a seguir.\nI. Entrega é a característica que garante que os dados serão recebidos exclusivamente pelo dispositivo ou pelo usuário destino. O sistema deve entregar dados recebidos no destino correto.\nII. Precisão é a característica que garante inexatidão dos dados recebidos pelo dispositivo ou pelo usuário destino.\nIII. Sincronização é a característica que, por si só, garante a entrega de dados em tempo real.\nIV. Jitter é medida que descreve a flutuação na latência dos pacotes durante a transmissão de dados de um ponto para outro na rede.\nÉ correto o que se afirma apenas em",
+        "alternativas": [
+            "II e IV.",
+            "I e II.",
+            "II e III.",
+            "I e IV.",
+            "II."
+        ],
+        "gabarito": "I e IV."
+    },
+    {
+        "id": 141,
+        "enunciado": "Um Laboratório de Informática em uma universidade privada está conectado por meio de cabos par trançado (CATligados a um switch com 15 portas criando um perímetro de rede utilizado para testes corporativos. Um usuário dessa rede acionou o Suporte Técnico e relatou que havia muita lentidão no acesso ao Servidor de Arquivos Corporativos. O técnico percebeu que facilmente poderia resolver esse problema, então realizou algumas operações:\nI. trocou o conector RJ45 por um BNC;\nII. verificou se o Servidor de Arquivos estava ativo;\nIII. identificou a existência de Loops na rede;\nIV. detectou se o servidor estava excedendo o limite máximo de conexões.\nÉ correto o que se menciona apenas em",
+        "alternativas": [
+            "II.",
+            "I e II.",
+            "II e III.",
+            "I e IV.",
+            "III e IV."
+        ],
+        "gabarito": "III e IV."
+    },
+    {
+        "id": 142,
+        "enunciado": "José e João estão sentados em uma sala de reuniões, discutindo planos para a implantação de uma nova rede de computadores na empresa. José, que é o responsável pela infraestrutura, olha para João e pergunta: “João, estamos prestes a implementar nossa nova rede e estou em dúvida sobre qual tipo de cabo físico seria mais vantajoso para nós. Você acha que devemos optar por cabos de fibra óptica ou cabos elétricos?”.\nJoão, especialista em TI, pondera por um momento antes de responder: “Bem, José, ambas as opções têm suas vantagens. No entanto, dependem das necessidades específicas do projeto”.\nConsiderando o cenário apresentado, classifique as considerações feitas por João a José como V (Verdadeiras) ou F (Falsas).\n( ) Cabo de cobre, embora amplamente utilizado em cabos de rede, possui maior atenuação em comparação com a fibra óptica. Isso significa que a intensidade do sinal diminui mais rapidamente à medida que percorre o cabo, aumentando o número de dados transmitidos e proporcionando menor taxa de erros com distâncias maiores.\n( ) A fibra óptica geralmente possui um custo mais elevado em comparação com o cabo de cobre. Além disso, a instalação da fibra óptica pode ser mais complexa e requer cuidados especiais, principalmente no que diz respeito ao manuseio das fibras delicadas, para evitar quebras ou danos.\n( ) A fibra óptica é, de fato, mais leve e menos suscetível a interferências eletromagnéticas externas que cabos elétricos, o que contribui para transmissão mais segura dos dados.\n( ) A fibra óptica é conhecida por sua baixa atenuação, o que permite que os sinais percorram maiores distâncias sem degradação significativa. Além disso, a fibra óptica é menos suscetível a interferências eletromagnéticas, o que contribui para taxa de erros mais baixa.\nA sequência correta marcada de cima para baixo é",
+        "alternativas": [
+            "F, F, F e F.",
+            "V, V, V e F.",
+            "F, V, V e V.",
+            "F, F, F e V.",
+            "V, V, V e V."
+        ],
+        "gabarito": "F, V, V e V."
+    },
+    {
+        "id": 143,
+        "enunciado": "“Um cabo de fibra óptica não transporta elétrons como os cabos elétricos, mas sinais luminosos (fótons). As fibras ópticas são compostas por fios muito finos de sílica, vidro ou plástico, revestidos por uma casca de material com o índice de refração da luz diferente do miolo da fibra.” MORAES, Alexandre Fernandes de. Redes de Computadores: fundamentos. São Paulo: Saraiva, 2020. p. 36.\nHá duas classificações de fibra óptica de acordo com o diâmetro de seu núcleo, São as fibras",
+        "alternativas": [
+            "multimodo e monomodo.",
+            "unimodo e multimodo.",
+            "OM3 e OM4.",
+            "Twinax e Gbase.",
+            "ER4 e LR4."
+        ],
+        "gabarito": "multimodo e monomodo."
+    },
+    {
+        "id": 144,
+        "enunciado": "De acordo com a norma ABNT NBR 14565:2019, a categoria 05 é relacionada a componentes usados para a transmissão de sinais até",
+        "alternativas": [
+            "1000 MHz.",
+            "50 MHz.",
+            "20 MHz.",
+            "16 MHz.",
+            "100 MHz."
+        ],
+        "gabarito": "100 MHz."
+    },
+    {
+        "id": 145,
+        "enunciado": "Uma estimativa da latência entre uma origem e um destino na Internet, sabendo-se que o Round-Trip Time medido entre esses pontos é de 28 ms, corresponde a",
+        "alternativas": [
+            "14 ms.",
+            "28 ms.",
+            "56 ms.",
+            "112 ms.",
+            "224 ms."
+        ],
+        "gabarito": "14 ms."
+    },
+    {
+        "id": 146,
+        "enunciado": "Assinale a alternativa INCORRETA sobre as características de cabos de fibra ótica.",
+        "alternativas": [
+            "Podem gerenciar larguras de banda muito mais altas do que cabos de fios cobre.",
+            "Têm uma malha metálica semelhante aos cabos coaxiais.",
+            "Uma cobertura de plástico fino protege o revestimento interno de vidro.",
+            "Têm um núcleo de vidro no centro através do qual a luz se propaga.",
+            "O núcleo é envolvido por um revestimento de vidro com um índice de refração inferior ao do núcleo, para manter toda a luz nele."
+        ],
+        "gabarito": "Têm uma malha metálica semelhante aos cabos coaxiais."
+    },
+    {
+        "id": 147,
+        "enunciado": "Uma empresa está planejando a implementação de uma nova rede local (LAN) para interconectar os computadores de seus departamentos. O objetivo é garantir uma transmissão de dados confiável e de alta velocidade. Levando em consideração esse cenário, marque a opção, a seguir, que descreva corretamente um meio físico de transmissão e uma topologia de rede mais adequados para atender às necessidades da empresa.",
+        "alternativas": [
+            "Par Trançado Blindado (STP) / Topologia Barramento.",
+            "Cabo UTP Cat 5e / Topologia Barramento.",
+            "Cabo UTP Cat 6 / Topologia Estrela.",
+            "Wi-Fi / Topologia Mash.",
+            "Cabo Coaxial / Topologia Árvore."
+        ],
+        "gabarito": "Cabo UTP Cat 6 / Topologia Estrela."
+    },
+    {
+        "id": 148,
+        "enunciado": "Considere as seguintes assertivas acerca de padrões de cabeamento.\nI - O cabo de fibra ótica monomodo é insensível à dispersão modal, pois o feixe luminoso se propaga em linha reta sem ter de realizar reflexão, tornando esse tipo ideal para aplicações em longas distâncias;\nII - No padrão T568A os cabos branco/verde e verde ficam contíguos, nos pinos 1 e 2, respectivamente;\nIII - Os cabos CAT6 e CAT6a apresentam vantagem em relação às versões anteriores, por apresentarem 6 pares trançados em vez de 4.\nEstão corretas as alternativas:",
+        "alternativas": [
+            "Apenas I e III.",
+            "Apenas I e II.",
+            "Apenas II e III.",
+            "Apenas I.",
+            "I, II e III."
+        ],
+        "gabarito": "Apenas I e II."
+    },
+    {
+        "id": 149,
+        "enunciado": "A atenuação em fibra ótica, também conhecida como perda de transmissão, é a redução na intensidade do sinal de luz à medida que viaja pelo meio de transmissão. Os coeficientes de atenuação em fibra óptica são geralmente expressos em unidades de dB/km. A atenuação é um fator importante que limita a transmissão de um sinal digital em grandes distâncias. Os valores típicos de atenuação para fibras monomodo que seguem o padrão ITU-T G.652 são apresentados nas tabelas 1 e 2 a seguir, em função de suas janelas de operação.\nTabela 1: Atenuação para o comprimento de onda de 1310nm.\nAtenuação/conector Valor Atenuação/quilômetro(dB/km)Atenuação/emendSai(tduBa)ção óptico (dB) Min 0,3 0,4 0,02 Melhor Médio 0,38 0,6 0,1 Normal Máx. 0,5 1 0,2 Pior Tabela 2: Atenuação para o comprimento de onda de 1550nm.\nAtenuação/conector Valor Atenuação/quilômetro(dB/km)Atenuação/emendSai(tduBa)ção óptico (dB) Min 0,17 0,2 0,01 Melhor Médio 0,22 0,35 0,05 Normal Máx. 0,4 0,7 0,1 Pior O projetista de rede deve realizar uma estimativa de atenuação no link, a fim de identificar se os transceivers óticos modelo IEEE 10GBASE-LR que ele tem disponíveis atendem à demanda de rede. Assinale a alternativa que identifica o valor estimado de atenuação para uma situação normal do enlace apresentado na Figura 1.\nDesconsidere qualquer margem do sistema.\nFigura 1: Visão sistêmica de enlace ótico.",
+        "alternativas": [
+            "3,56 dB.",
+            "7,1 dB.",
+            "4,18 dB.",
+            "4,92 dB.",
+            "1,96 dB."
+        ],
+        "gabarito": "4,92 dB."
+    },
+    {
+        "id": 150,
+        "enunciado": "Para oferecer solução a uma instituição que está enfrentando problemas de desempenho de rede, incluindo lentidão na transferência de dados, interrupção nas chamadas de voz pela internet e instabilidade das conexões, um Analista sugeriu a atualização do cabeamento para a categoria 6a, que",
+        "alternativas": [
+            "é capaz de suportar velocidades de até 10 Gbps em distâncias de até 100 metros.",
+            "suporta aplicações de alta largura de banda, apesar de não ser compatível com equipamentos e dispositivos de categorias anteriores, como 3, 5, 5e e 6.",
+            "é adequada para transferência de grandes volumes de dados, porém, inadequada para streaming de vídeo em 4K e realidade virtual/aumentada.",
+            "utiliza um sistema de blindagem pouco resistente a interferências eletromagnéticas (EMI) e de radiofrequência (RFI), porém, suporta aplicações que necessitam de alta largura de banda.",
+            "é uma versão aprimorada da categoria 5e e oferece o mesmo desempenho e resistência a ruídos elétricos."
+        ],
+        "gabarito": "é capaz de suportar velocidades de até 10 Gbps em distâncias de até 100 metros."
+    },
+    {
+        "id": 151,
+        "enunciado": "Tendo como base a situação-problema informada e os requisitos descritos em seguida, responda a questão.\nA Universidade Estadual do Piauí recebeu do Governo do Estado novo prédio que será compartilhado por dois cursos de um mesmo centro. Você está responsável por projetar o cabeamento estruturado para este novo prédio com várias áreas de trabalho e requisitos específicos de conectividade. Para a nova demanda, basicamente precisará considerar três seguimentos: O setor A compartilhado pelos cursos X e Z, o setor B destinado ao curso X e setor C destinado ao curso Z, cada um com suas próprias necessidades de rede. E os requisitos de cada setor seriam:\n— O setor A precisa de conexões para 20 estações de trabalho da parte administrativa, além de uma sala de reuniões com capacidade para 10 pessoas.\n— O setor B requer 30 estações de trabalho para um laboratório do curso X, além de uma pequena sala de design com 5 estações de trabalho do curso X.\n— O setor C possui um laboratório com 15 estações de trabalho do curso Z, além de uma sala de servidores para hospedar os servidores do prédio.\nCom base nos requisitos apresentados, a opção que melhor atende às necessidades de conectividade e escalabilidade é?",
+        "alternativas": [
+            "Utilizar um cabeamento de fibra óptica para todas as conexões, incluindo estações de trabalho, salas de reuniões, sala de design e sala de servidores.",
+            "Utilizar um cabeamento de par trançado Cat5e para as estações de trabalho e salas de reuniões, e um cabeamento de fibra óptica para a sala de design e sala de servidores.",
+            "Utilizar cabeamento de fibra óptica para as estações de trabalho e salas de reuniões, e um cabeamento de par trançado Cat5e para a sala de design e sala de servidores.",
+            "Utilizar um cabeamento de par trançado Cat6 para todas as conexões, incluindo estações de trabalho, salas de reuniões, sala de design e sala de servidores.",
+            "Utilizar um cabeamento coaxial para as estações de trabalho, um cabeamento de par trançado Cat6 para a sala de reuniões e um cabeamento de fibra óptica para a sala de design e cabeamento Catõe para a sala de servidores."
+        ],
+        "gabarito": "Utilizar um cabeamento de par trançado Cat6 para todas as conexões, incluindo estações de trabalho, salas de reuniões, sala de design e sala de servidores."
+    },
+    {
+        "id": 152,
+        "enunciado": "Até quarenta anos atrás, a implantação e a manutenção de redes de computadores em ambientes corporativos eram tarefas complexas e demoradas. Essa evolução radical só foi possível graças à padronização da comunicação através da criação e evolução de uma tecnologia única para conectar dispositivos padrão Ethernet.\nETHERNET: O que é, como funciona e para que serve. Controle Net. São Paulo, [s. d.] Caderno Rede de Computadores. Disponível em: https:/Awww.controle.net/faq/ethernet--o-que-e--como-funciona- e-para-que-serve. Acesso em: 22 jun. 2023.\nA partir dessa discussão sobre padrão Ethernet, analise as afirmativas a seguir:\nI. Com a tecnologia Fast Ethernet, a velocidade de transmissão dos dados aumentou para 1 Gbps (gigabit por segundo).\nII. A versão do padrão ethernet 1000BASE-T oferece velocidades de 2,5 Gbps.\nIII. 1OGBASE-T aumentou a velocidade para 10.000 Mbps.\nIV. A versão original do padrão Ethernet (10BASE-T) velocidades de até 10 Mbps.\nAssinale a alternativa que contenha APENAS as afirmações CORRETAS.",
+        "alternativas": [
+            "I e IV.",
+            "II e III.",
+            "III e IV.",
+            "I e III.",
+            "II e IV."
+        ],
+        "gabarito": "III e IV."
+    },
+    {
+        "id": 153,
+        "enunciado": "Para atender mais de uma área de trabalho, um Analista utilizou uma tomada de telecomunicações de multiusuário (MUTO) e patch cords do tipo U/UTP 24 AWG.\nDe acordo com a norma ABNT NBR 14565:2019, o comprimento máximo dos patchs cords e a quantidade máxima de áreas de trabalho atendidas pelo MUTO que o Analista pode utilizar, são, respectivamente,",
+        "alternativas": [
+            "30 metros e 24 áreas de trabalho.",
+            "20 metros e 12 áreas de trabalho.",
+            "90 metros e 20 áreas de trabalho.",
+            "10 metros e 48 áreas de trabalho.",
+            "5 metros e 100 áreas de trabalho."
+        ],
+        "gabarito": "20 metros e 12 áreas de trabalho."
+    },
+    {
+        "id": 154,
+        "enunciado": "A fibra óptica é usada em muitas aplicações atualmente para transmissão por longa distância, nos backbones e em redes de alta velocidade. Existem diversos tipos e cabos de fibra óptica, como os que possuem o diâmetro da fibra reduzido a alguns comprimentos de onda de luz, permitindo que a fibra atue como um guia de onda, sendo que a luz só poderá se propagar em linha reta, sem ricochetear.\nSobre esse tipo de fibra é correto afirmar que",
+        "alternativas": [
+            "se trata de uma fibra de modo único ou fibra monomodo.",
+            "as características apresentadas são comuns às fibras monomodo e multimodo.",
+            "é um novo padrão de fibra, que vem sendo testada em aplicações experimentais, não estando disponível comercialmente ainda.",
+            "é um padrão de fibra obsoleto, não mais recomendado em novas aplicações, por ter sido substituído pelo padrão polimodo.",
+            "se trata de uma fibra de modo múltiplo ou fibra multimodo."
+        ],
+        "gabarito": "se trata de uma fibra de modo único ou fibra monomodo."
+    },
+    {
+        "id": 155,
+        "enunciado": "Atualmente, encontram-se no mercado dois tipos de fibra óptica: a monomodo e a multimodo. Assinale a alternativa correta sobre essas fibras.",
+        "alternativas": [
+            "A fibra óptica monomodo apresenta a menor velocidade como desvantagem em relação à fibra óptica multimodo.",
+            "A fibra óptica monomodo apresenta a maior taxa de perda como uma desvantagem em relação à fibra óptica multimodo.",
+            "A fibra óptica monomodo possui um diâmetro maior no núcleo e uma casca mais fina quando comparada com a fibra óptica multimodo.",
+            "Uma das vantagens da fibra óptica monomodo é a maior facilidade de alinhamento em caso de emendas e conectores quando comparada com a fibra óptica multimodo.",
+            "Uma das vantagens da fibra óptica monomodo em relação à fibra óptica multimodo é o maior alcance de sinal."
+        ],
+        "gabarito": "Uma das vantagens da fibra óptica monomodo é a maior facilidade de alinhamento em caso de emendas e conectores quando comparada com a fibra óptica multimodo."
+    },
+    {
+        "id": 156,
+        "enunciado": "Assinale a alternativa correta relacionada com a norma de cabeamento estruturado ABNT NBR 14565:2013.",
+        "alternativas": [
+            "O cordão da área de trabalho é o cordão para a conexão do equipamento ativo ao distribuidor.",
+            "O desvio de perda de inserção é a diferença de atraso de propagação entre o par mais rápido e o mais lento, dentro de um mesmo cabo balanceado de quatro pares.",
+            "O distribuidor principal é o hardware de conexão no data center, a partir do qual origina-se o cabeamento de backbone.",
+            "O enlace permanente é um segmento de cabo que conecta o ponto de consolidação à tomada de telecomunicações.",
+            "O enlace do CP (cabo primário) é um segmento de cabo entre a tomada de telecomunicações e o distribuidor de piso."
+        ],
+        "gabarito": "O distribuidor principal é o hardware de conexão no data center, a partir do qual origina-se o cabeamento de backbone."
+    },
+    {
+        "id": 157,
+        "enunciado": "Hugo é supervisor de pesquisas e observou que os serviços de telecomunicação do IBGE podem ser executados por meio de cabos coaxiais ou fibras óticas. Hugo constatou que, quando se utilizam fibras óticas em vez de cabos coaxiais, ocorre uma:",
+        "alternativas": [
+            "interferência por campo magnético externo.",
+            "largura de banda muito pequena.",
+            "maior simplicidade na instalação.",
+            "menor imunidade ao ruído.",
+            "atenuação mais baixa."
+        ],
+        "gabarito": "atenuação mais baixa."
+    },
+    {
+        "id": 158,
+        "enunciado": "Na implementação de redes cabeadas de computadores, é utilizado o conector RJ45, em conformidade com o padrão Fast Ethernet.\nNesse sentido, a taxa de transferência nominal para esse padrão e a figura que identifica esse conector são, respectivamente,",
+        "alternativas": [
+            "100 Mbps e.",
+            "1 Gbps e.",
+            "10 Mbps e.",
+            "1 Gbps e.",
+            "100 Mbps e."
+        ],
+        "gabarito": "100 Mbps e."
+    },
+    {
+        "id": 159,
+        "enunciado": "TIA/EIA 568A e 568B são padrões relacionados às telecomunicações, definidos pela TIA e pela EIA. Mais especificamente, fazem referência à ordem dos fios dentro do conector RJ-45 quando se coloca esse conector em um cabo par trançado que será usado em uma rede cabeada de computadores. Nesse contexto, observe a figura abaixo:\nGuias do conector RJ45 Sendo as cores AZUL (A), BRANCO-AZUL (BA), LARANJA (L), BRANCO-LARANJA (BL), MARROM (M), BRANCO-MARROM (BM), VERDE (V) e BRANCO-VERDE (BV), a norma 568B especifica para os pinos 1 – 2 – 3 – 4 – 5 – 6 – 7 e 8 a seguinte ordem de cores:",
+        "alternativas": [
+            "BV – V – BL – A – BA – L – BM – M.",
+            "BV – V – BL – M – BM – L – BA – A.",
+            "BA – A – BM – L – BL – M – BV – V.",
+            "BL – L – BV – A – BA – V – BM – M.",
+            "BL – L – BV – M – BM – V – BA – A."
+        ],
+        "gabarito": "BL – L – BV – A – BA – V – BM – M."
+    },
+    {
+        "id": 160,
+        "enunciado": "Com relação aos padrões para a fibra óptica como meio de transmissão em redes de computadores, dois apresentam as características listadas a seguir:\nI. Ambos são padrões de transmissão Ethernet definidos no IEEE 802.3, definem transmissão a 1000 Mb/s (1 Gb/s) em banda base sobre fibra óptica e utilizam 2 fibras (TX e RX) para montar um link.\nII. Enquanto o padrão ALFA utiliza transmissão a 850 nm sobre fibras multimodo, o padrão BETA utiliza transmissão a 1310 nm sobre fibras multimodo ou monomodo.\nIII. Enquanto o alcance máximo do padrão ALFA vai de 220 m a 550 m, e o orçamento de perda vai de 2,6 dB a 3,56 dB, dependendo da categoria de fibra (OM1 a OM, o alcance máximo do padrão BETA é de até 300 m sobre fibras multimodo (ou 550 m com o uso de patch cords especiais – de condicionamento de modo) e de até 5 km sobre fibra monomodo, e o orçamento de perda vai de 2,35 dB a 4,57 dB, dependendo da fibra utilizada.\nOs padrões aqui identificados como ALFA e BETA são conhecidos, respectivamente, como",
+        "alternativas": [
+            "1000BASE-BX e 1000BASE-CX.",
+            "1000BASE-CX e 1000BASE-BX.",
+            "1000BASE-HX e 1000BASE-ZX.",
+            "1000BASE-LX e 1000BASE-SX.",
+            "1000BASE-SX e 1000BASE-LX."
+        ],
+        "gabarito": "1000BASE-SX e 1000BASE-LX."
+    },
+    {
+        "id": 161,
+        "enunciado": "A ABNT NBR 14565:2019 especifica os requisitos para sistemas de cabeamento estruturado para uso em um único edifício, vários edifícios comerciais ou um campus. O anexo C da norma define a nomenclatura dos cabos de telecomunicações de acordo com a sua construção.\nDiante do exposto, assinale a alternativa incorreta quanto à nomenclatura de um cabo de telecomunicação e o seu significado.",
+        "alternativas": [
+            "SF/UTP - Cabo com dupla blindagem geral por malha e folha metálica e pares blindados individualmente.",
+            "F/UTP - Cabo com blindagem geral por folha metálica e pares não blindados.",
+            "S/FTP - Cabo com blindagem geral por malha metálica e pares blindados por folha metálica.",
+            "U/FTP - Cabo sem blindagem e com pares blindados por folha metálica individualmente.",
+            "U/UTP - Cabo sem blindagem geral e com pares não blindados."
+        ],
+        "gabarito": "SF/UTP - Cabo com dupla blindagem geral por malha e folha metálica e pares blindados individualmente."
+    },
+    {
+        "id": 162,
+        "enunciado": "Nas instalações de cabeamento estruturado que utilizam cabos de fibra óptica, devem ser usados conectores para fazer conexões entre as fibras ou entre as fibras e a extremidade do sistema (onde estão localizados os transmissores e receptores ópticos).\nSão modelos válidos para conectores utilizados em cabos de fibra óptica:\n1. LC 2. MTRJ 3. SSC 4. ST 5. TMS Assinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "São corretas apenas as afirmativas 3 e 5.",
+            "São corretas apenas as afirmativas 1, 2 e 3.",
+            "São corretas apenas as afirmativas 1, 2 e 4.",
+            "São corretas apenas as afirmativas 3, 4 e 5.",
+            "São corretas apenas as afirmativas 2, 3, 4 e 5."
+        ],
+        "gabarito": "São corretas apenas as afirmativas 1, 2 e 4."
+    },
+    {
+        "id": 163,
+        "enunciado": "Conforme a ABNT NBR 14565:2007, em cabeamento centralizado, as conexões passivas nos distribuidores podem ser executadas por:\nI. Conexão direta.\nII. Conexão cruzada.\nIII. Conexão paralela.\nIV. Interconexão.\nAssinale a alternativa que apresenta apenas a(s) afirmativa(s) correta(s).",
+        "alternativas": [
+            "Apenas IV.",
+            "I, II, III e IV.",
+            "Apenas I e II.",
+            "Apenas II e IV.",
+            "Apenas II, III e IV."
+        ],
+        "gabarito": "Apenas II e IV."
+    },
+    {
+        "id": 164,
+        "enunciado": "Alice pretende transmitir a um servidor um arquivo de texto com tamanho de 1500 bytes. Para tal transferência, a usuária pode utilizar um enlace de longa distância sem fio ou um enlace cabeado. As taxas de transmissão para os enlaces são de 2 Mbps e 100 Mbps para o sem fio e cabeado, respectivamente. Considere que a velocidade de propagação de sinal no ar é de 3 x 108 m/s, e a velocidade de propagação no cabo é de 2 x 108 m/s. Se Alice encontra-se localizada a 1 km de distância do senvidor, qual é o atraso total (transferência e propagação) resultante quando se utiliza cada um dos dois tipos de enlace (Atraso_semfio, Atraso_cabeado)?",
+        "alternativas": [
+            "O Atraso_semfio é significativamente menor que o Atraso_cabeado.",
+            "Os atrasos Atraso_semfío e Atraso_cabeado são muito parecidos, com valor em tomo de 6 milisegundos.",
+            "O atraso total, ao utilizar-se o enlace sem fio (Atraso_semfio), é significativamente maior que o atraso no enlace cabeado (Atraso_cabeado).",
+            "O Atraso_semfio tem valor menor que 1 milissegundo.",
+            "Os atrasos Atraso_semfio e Atraso_cabeado não podem ser calculados por conta da divergência entre as velocidades de propagação nos enlaces sem fio e cabeado."
+        ],
+        "gabarito": "O Atraso_semfio é significativamente menor que o Atraso_cabeado."
+    },
+    {
+        "id": 165,
+        "enunciado": "Você foi acionado para identificar um problema de comunicação de dados entre dois dispositivos de rede. Durante a transmissão de dados entre esses dispositivos, observou-se que, em algum lugar entre o transmissor e o receptor, alguns sinais indesejáveis têm sido inseridos nessa comunicação. Qual das seguintes alternativas melhor define o problema de comunicação de dados que foi relatado?",
+        "alternativas": [
+            "Atraso.",
+            "Atenuação.",
+            "Envenenamento de enlace.",
+            "Ruído.",
+            "Colisão de pacotes."
+        ],
+        "gabarito": "Ruído."
+    },
+    {
+        "id": 166,
+        "enunciado": "Diversos meios físicos de transmissão de dados são padronizados pelo IEEE (Institute of Electrical and Electronics Engineers). Das alternativas a seguir, qual é a única que apresenta um padrão Gigabit Ethernet e que opera em meios de transmissão do tipo UTP?",
+        "alternativas": [
+            "10BASE-T.",
+            "1000BASE-LX.",
+            "1BASE-GB.",
+            "1000BASE-T.",
+            "10GBASE-SR."
+        ],
+        "gabarito": "1000BASE-T."
+    },
+    {
+        "id": 167,
+        "enunciado": "Ao desenhar a topologia de uma rede local, o analista percebeu que alguns pontos da rede precisariam ser interligados por enlaces superiores a 100 metros. Para esses casos, ele sugeriu que fossem utilizados módulos GBIC. Considerando o uso desses módulos, qual seria uma interpretação correta sobre essa situação?",
+        "alternativas": [
+            "Os módulos GBIC farão a amplificação do sinal elétrico para que ultrapasse a capacidade limite de 100 metros.",
+            "Os módulos serão instalados em algum ponto entre os nós da rede, atuando como um repetidor.",
+            "Foi proposto o uso de tecnologias sem fio para superar as distâncias dos cabos.",
+            "O analista sugeriu o uso de um componente criptográfico.",
+            "Haverá uma conversão entre sinais elétricos e ópticos."
+        ],
+        "gabarito": "Haverá uma conversão entre sinais elétricos e ópticos."
+    },
+    {
+        "id": 168,
+        "enunciado": "Ao verificar o motivo de um computador não se conectar à rede corporativa, o analista de suporte conferiu o conector de rede RJ45 feito por um jovem aprendiz sob a sua supervisão. O esquema de cores do conector, que deveria seguir o padrão EIA/TIA 568A, foi realizado da seguinte forma:\nBranco com verde;\nVerde;\nBranco com laranja;\nBranco com azul;\nAzul;\nLaranja;\nBranco com marrom;\nMarrom.\nQual problema pode ser encontrado no cabeamento realizado?",
+        "alternativas": [
+            "Foi feito um conector no padrão EIA/TIA 568B.",
+            "As cores correspondentes aos pinos 2 e 7 foram invertidas.",
+            "As cores correspondentes aos pinos 4 e 5 foram invertidas.",
+            "As cores laranja e verde estão invertidas.",
+            "A sequência de cores desse cabeamento só funciona com conectores RJ11."
+        ],
+        "gabarito": "As cores correspondentes aos pinos 4 e 5 foram invertidas."
+    },
+    {
+        "id": 169,
+        "enunciado": "O Tribunal de Justiça contratou a empresa Rede X para efetuar a troca dos cabos coaxiais antigos usados no tráfego de rede. A Rede X informou que conseguiria entregar a velocidade de 1 Gigabit por segundo (Gbps) com menor custo utilizando cabos que transmitem a partir da diferença de potencial elétrico e possuem boa imunidade a ruído com um bom desempenho.\nPara entregar o serviço, a empresa fará uso de cabo:",
+        "alternativas": [
+            "de condução pela rede elétrica;",
+            "de fibra óptica monomodo;",
+            "de fibra óptica multimodo;",
+            "coaxial categoria 3;",
+            "par trançado categoria 5."
+        ],
+        "gabarito": "par trançado categoria 5."
+    },
+    {
+        "id": 170,
+        "enunciado": "A equipe de Tecnologia da Informação pretende implementar uma rede sem fio para cobrir as áreas de visitantes em um edifício comercial.\nDe acordo com a norma ABNT NBR 14565, o cabeamento horizontal usado para atender às áreas de cobertura sem fio deve ser configurado em uma topologia:",
+        "alternativas": [
+            "estrela;",
+            "anel;",
+            "de árvore;",
+            "de barramento;",
+            "ponto a ponto."
+        ],
+        "gabarito": "estrela;"
+    },
+    {
+        "id": 171,
+        "enunciado": "Sobre os meios de transmissão guiados, é incorreto afirmar que:",
+        "alternativas": [
+            "Um dos meios de transmissão mais antigo e ainda comum é o par trançado.",
+            "Diferentes padrões LAN podem usar os pares trançados de forma diferentes.",
+            "Para alcançar velocidades mais altas, a Ethernet de 1 Gbps utiliza os quatro pares trançados, dois para cada direção.",
+            "Enlaces full-duplex possibilitam o tráfego nos dois sentidos ao mesmo tempo."
+        ],
+        "gabarito": "Para alcançar velocidades mais altas, a Ethernet de 1 Gbps utiliza os quatro pares trançados, dois para cada direção."
+    },
+    {
+        "id": 172,
+        "enunciado": "Com relação às características das categorias de cabeamento, analise as afirmativas abaixo:\nI. A categoria CAT 6A suporta velocidades até 10 Gbps.\nII. A categoria CAT6 suporta frequências de até no máximo 500 MHz.\nIII. A distancia máxima entre dois equipamentos que se falam a 10Gbps, usando cabo categoria CAT6, é de 75m.\nEstá correto apenas o que se afirma em",
+        "alternativas": [
+            "I.",
+            "II.",
+            "III.",
+            "I e II.",
+            "I e III."
+        ],
+        "gabarito": "I."
+    },
+    {
+        "id": 173,
+        "enunciado": "Quanto às tecnologias de redes locais, julgue o item.\nAs conexões entre os nodos das redes FDDI são, especificamente, de par trançado.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 174,
+        "enunciado": "A equipe de redes da EEAR foi acionada para fazer o cabeamento estruturado entre dois galpões. A única exigência para o serviço era que a conexão fosse de alta velocidade, mesmo que os custos fossem altos para a instalação e a manutenção. Qual o cabeamento adequado a ser utilizado nessa situação?",
+        "alternativas": [
+            "Fibra óptica.",
+            "Cabo coaxial.",
+            "Cabo cross-over.",
+            "Cabo par trançado."
+        ],
+        "gabarito": "Fibra óptica."
+    },
+    {
+        "id": 175,
+        "enunciado": "As especificações dos padrões de rede 1000BASE-SX e 1000BASE-LX estabelecem, respectivamente, os seguintes parâmetros de transmissão sobre fibras ópticas:",
+        "alternativas": [
+            "1310 nm multimodo e 850 nm multi modo ou monomodo.",
+            "850 nm multi modo e 1310 nm multi modo ou monomodo.",
+            "1310 nm monomodo e 850 nm multi modo.",
+            "850 nm monomodo e 1310 nm multi modo."
+        ],
+        "gabarito": "850 nm multi modo e 1310 nm multi modo ou monomodo."
+    },
+    {
+        "id": 176,
+        "enunciado": "No que se refere ao cabeamento de par trançado, a norma EIA/TIA568Adefine um sistema de codificação com quatro cores básicas, em combinação com o branco, para os condutores UTP de 100 ohms, assim como a ordem dos pares no conector RJ-45. Observe a codificação abaixo para as cores:\nCódigo cor A azul BA branco-azul L laranja BL branco-laranja M marrom BM branco-marrom\nV verde BV branco-verde Em conformidade com essa norma, as guias 1 - 2 - 3 - 4 - 5 - 6 - 7 - 8 do conector RJ-45 deve corresponder, respectivamente, à sequência de cores:",
+        "alternativas": [
+            "L-BL-V-BV-M-BM-A-BA.",
+            "V-BV-A-BL-L-BA-M-BM.",
+            "BL-L-BV-V-BM-M-BA-A.",
+            "BV-V-BL-A-BA-L-BM-M."
+        ],
+        "gabarito": "BV-V-BL-A-BA-L-BM-M."
+    },
+    {
+        "id": 177,
+        "enunciado": "Acerca dos elementos de interconexão de redes de computadores, julgue o item.\nEm cada porta de um gateway, é definido um domínio de broadcast.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 178,
+        "enunciado": "Quanto ao cabeamento estruturado empregado na implementação física de redes de computadores padrão Ethernet, é seguida a especificação EIA/TIA 568A que define um sistema de codificação com quatro cores básicas, em combinação com o branco, para os condutores UTP de 100 Ohms, assim como a ordem dos pares no conector RJ-45. Dessa forma, para o cabeamento UTP 100 ohms, de acordo com a norma EIA/TIA 568A, em correspondência aos pinos 1/2/3/4/5/6/7/8, é usada a seguinte sequência de cores:",
+        "alternativas": [
+            "VERDE / BRANCO-VERDE / LARANJA/ BRANCO-AZUL/ AZUL / BRANCO-LARANJA/ MARROM / BRANCO-MARROM.",
+            "BRANCO-VERDE / VERDE / BRANCO-LARANJA / BRANCO-AZUL / LARANJA / BRANCO-MARROM / MARROM.",
+            "BRANCO-LARANJA / LARANJA / BRANCO-VERDE / MARROM / BRANCO-MARROM / VERDE / BRANCO-AZUL / AZUL.",
+            "LARANJA / BRANCO-LARANJA / VERDE / BRANCO-MARROM / MARROM / BRANCO-VERDE / AZUL / BRANCO-AZUL."
+        ],
+        "gabarito": "BRANCO-VERDE / VERDE / BRANCO-LARANJA / BRANCO-AZUL / LARANJA / BRANCO-MARROM / MARROM."
+    },
+    {
+        "id": 179,
+        "enunciado": "Existe uma norma para a representação esquemática dos elementos principais de um sistema estruturado. A norma que descreve as representações esquemáticas é:",
+        "alternativas": [
+            "IEEE 14.565.",
+            "ABNT 14.556.",
+            "ITU-T 14565.",
+            "NBR 14.565."
+        ],
+        "gabarito": "NBR 14.565."
+    },
+    {
+        "id": 180,
+        "enunciado": "Ao acessar um site específico, o usuário na experiência de navegação pode ter uma velocidade muito baixa, mesmo contratando um plano de alta velocidade. Isso ocorre pelo seguinte motivo:",
+        "alternativas": [
+            "Roteador de borda estar com falha de DHCP( Dynamic Host Configuration Protocol).",
+            "Switch estar com problema no conector RJ-45, impedindo a comunicação entre as máquinas.",
+            "Servidor de hospedagem do site estar sobrecarregado ou ter baixa velocidade na conexão à internet.",
+            "Cabeamento estruturado estar com tecnologia CAT-5e, que é lenta em alguns acessos."
+        ],
+        "gabarito": "Servidor de hospedagem do site estar sobrecarregado ou ter baixa velocidade na conexão à internet."
+    },
+    {
+        "id": 181,
+        "enunciado": "A utilização de cabeamento CAT 6a é uma realidade para aplicações de alta velocidade. Sendo assim, o padrão dos conectores dessa tecnologia é:",
+        "alternativas": [
+            "RJ-50.",
+            "SC/APC.",
+            "SC/UPC.",
+            "RJ-45."
+        ],
+        "gabarito": "RJ-45."
+    },
+    {
+        "id": 182,
+        "enunciado": "Em uma pequena empresa, o maior tráfego de dados é através de seu roteador de fibra óptica com a velocidade de 100Mbps. Nesse caso, o cabeamento estruturado interno que suporta essa velocidade deverá ser , no mínimo, de:",
+        "alternativas": [
+            "Fibra óptica monomodo.",
+            "Fibra óptica multimodo.",
+            "Cabos CAT6.",
+            "Cabos CAT-5e."
+        ],
+        "gabarito": "Cabos CAT-5e."
+    },
+    {
+        "id": 183,
+        "enunciado": "Analise as afirmativas abaixo no contexto de cabeamento estruturado.\n1. Cabos STP suportam velocidades duas vezes maiores que os cabos UTP.\n2. Cabos STP oferecem maior resistência a interferências eletromagnéticas que cabos UTP.\n3. Cabos STP suportam distâncias duas vezes maiores que cabos UTP.\nAssinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "É correta apenas a afirmativa 2.",
+            "São corretas apenas as afirmativas 1 e 2.",
+            "São corretas apenas as afirmativas 1 e 3.",
+            "São corretas apenas as afirmativas 2 e 3.",
+            "São corretas as afirmativas 1, 2 e 3."
+        ],
+        "gabarito": "É correta apenas a afirmativa 2."
+    },
+    {
+        "id": 184,
+        "enunciado": "Considere as seguintes características de cabos de rede de computadores:\nI. Fios de cobre isolados dentro de uma capa protetora de alumínio para cancelar qualquer interferência externa. Sua sigla refere-se à quantidade de isolamento em torno de um conjunto de fios e, portanto, à sua imunidade a ruído. É usado em redes de computadores, como Ethernet ou Token Ring. Sua impedância característica é de 150 ohms.\nII. Cabo flexível e fácil de manusear, com cerca de 0,64 cm de espessura. Ele pode ser usado para a maioria dos tipos de redes. Pode suportar um sinal de uma distância aproximada de 185 m, antes que o sinal comece a sofrer atenuação. Está incluído em um grupo chamado RG-58 e possui uma impedância de 50 ohms.\nIII. Permite o envio de grandes quantidades de dados a grandes distâncias, com velocidades semelhantes às do rádio. É imune à interferência eletromagnética. É também usado em redes locais. Seu núcleo possui um índice de refração constante ao longo da seção cilíndrica e possui alta dispersão modal.\nOs itens I, II e III são, correta e respectivamente, definições de:",
+        "alternativas": [
+            "par trançado blindado – coaxial thinnet – fibra óptica multimodo tipo de índice escalonado.",
+            "coaxial thicknet – 100BASE-TX Cat5 – 10GBASE-T.",
+            "10BASE-T – 100BASE-TX Cat5 – 10GBASE-T.",
+            "100BASE-TX Cat5 – coaxial thicknet – fibra óptica multimodo tipo de índice gradual com expansão radial.",
+            "par trançado blindado – coaxial thinnet – fiber channel monomodo com expansão radial."
+        ],
+        "gabarito": "par trançado blindado – coaxial thinnet – fibra óptica multimodo tipo de índice escalonado."
+    },
+    {
+        "id": 185,
+        "enunciado": "No padrão Ethernet, considere os cabos:\nI. De par trançado com taxa de transferência de cerca de 10 Mbps.\nII. Coaxial de grande diâmetro chamado thick Ethernet.\nIII. Com taxa de transferência de 100 Mbps utilizando fibra ótica multimodo.\nOs cabos descritos em I, II e III correspondem, correta e respectivamente, a",
+        "alternativas": [
+            "10Base2 − 100Base-T − 1000BaseTX.",
+            "100Base-T − 10Base2 − 1000BaseTX.",
+            "10Base-T − 10Base5 − 100Base-FX.",
+            "10Base2 − 10Base-T − 1000Base-FX.",
+            "10Base-T − 100Base5 − 1000BaseLX."
+        ],
+        "gabarito": "10Base-T − 10Base5 − 100Base-FX."
+    },
+    {
+        "id": 186,
+        "enunciado": "Nos sistemas GSM, entre os canais de controle, o que permite que cada unidade de assinante sincronize seu padrão do oscilador local para a frequência exata da estação-base é",
+        "alternativas": [
+            "o canal de paginação (PCH).",
+            "o canal de correção de frequência (FCCH).",
+            "o canal de sincronização (SCH).",
+            "o canal de controle de broadcast (BCCH)."
+        ],
+        "gabarito": "o canal de correção de frequência (FCCH)."
+    },
+    {
+        "id": 187,
+        "enunciado": "O cabo de par trançado categoria 6 atende a uma velocidade de até",
+        "alternativas": [
+            "10 Gbps, para uso em redes 10 Gigabit Ethernet.",
+            "1 Gbps, para uso em redes Gigabit Ethernet.",
+            "100 Gbps, para uso em redes Fast Ethernet.",
+            "1 Mbps, para uso em redes Ethernet.",
+            "100 Gbps, para uso em redes Gigabit Ethernet."
+        ],
+        "gabarito": "1 Gbps, para uso em redes Gigabit Ethernet."
+    },
+    {
+        "id": 188,
+        "enunciado": "Uma Analista necessita conectar um cabo UTP em um roteador. Para isso necessita",
+        "alternativas": [
+            "soldar na ponta do cabo um conector do tipo BNC-T.",
+            "crimpar na ponta do cabo um terminador do tipo BNC.",
+            "usar um conector do tipo RT-45 acoplado a um RJ-11.",
+            "soldar na ponta do cabo um conector do tipo RJ-11.",
+            "crimpar na ponta do cabo um conector do tipo RJ-45."
+        ],
+        "gabarito": "crimpar na ponta do cabo um conector do tipo RJ-45."
+    },
+    {
+        "id": 189,
+        "enunciado": "“Um Fibre Channel pode ser configurado a partir de três topologias diferentes. Uma delas é implementada através de um espaço virtual, concebido a partir de um switch ou uma rede de switches, onde todos os nós são capazes de se comunicar em rede.” Trata-se de:",
+        "alternativas": [
+            "Árvore.",
+            "Ponto a ponto.",
+            "Fibre Channel Switched Fabric.",
+            "Fibre Channel Arbitrated Loop."
+        ],
+        "gabarito": "Fibre Channel Switched Fabric."
+    },
+    {
+        "id": 190,
+        "enunciado": "Em relação aos equipamentos de redes, julgue o item que se segue.\nO patch panel é um equipamento que traz como benefício grande flexibilidade para a ativação de pontos de dados ou telefonia, além de possibilitar manobras do cabeamento.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 191,
+        "enunciado": "Acerca de aspectos relativos a redes de computadores, julgue o item a seguir.\nComo possui alta taxa de velocidade, o cabo metálico é o meio de comunicação mais usado para o estabelecimento de conexão em redes de longa distância, entretanto ele apresenta algumas desvantagens em relação à fibra óptica, como o fato de ele ser de difícil manuseio e ter custo elevado.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 192,
+        "enunciado": "Acerca de aspectos relativos a redes de computadores, julgue o item a seguir.\nA função do switch, em uma rede de comutação de circuitos, é ativar ou desativar a conexão, chamada de circuito, uma vez que ela está sempre disponível entre os dois sistemas finais.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 193,
+        "enunciado": "Acerca de aspectos relativos a redes de computadores, julgue o item a seguir.\nPontos de troca de tráfego são sistemas complexos de comutação que permitem a conexão das redes de backbone.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 194,
+        "enunciado": "Acerca de aspectos relativos a redes de computadores, julgue o item a seguir.\nAs características físicas e de enlace das conexões de uma rede, como, por exemplo, sinais elétricos, protocolos de acesso ao meio e velocidade, influenciam na definição dos dispositivos físicos e do cabeamento.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 195,
+        "enunciado": "Assinale a alternativa tecnicamente incorreta quanto a ser especificamente um meio físico de transmissão de dados tradicional.",
+        "alternativas": [
+            "Radiodifusão.",
+            "Cabo coaxial.",
+            "Fibra ótica.",
+            "Token ring."
+        ],
+        "gabarito": "Token ring."
+    },
+    {
+        "id": 196,
+        "enunciado": "Acerca de sistemas de transmissão sem fio, segundo Tanenbaum (2, assinale a opção correta.",
+        "alternativas": [
+            "Nas bandas VLF E MF as ondas de rádio se propagam na ionosfera, podendo ser detectadas num raio de até mil quilômetros, sendo muito utilizada na radiodifusão, especialmente em frequências AM.",
+            "O espectro de dispersão de sequência direta é muito utilizado por redes táticas militares e sua principal característica é a alteração da frequência na ordem de centenas de vezes por segundo.",
+            "O espectro de dispersão por salto de frequência é muito utilizado comercialmente e tem como principal característica a utilização de uma sequência de código para dispersar o sinal de dados por uma banda de frequência mais ampla.",
+            "As ondas de rádio de frequência baixa são mais facilmente absorvidas pela chuva, em comparação com as ondas de alta frequência. Em todas as frequências, as ondas de rádio estão sujeitas à interferência de motores e outros equipamentos elétricos.",
+            "Na banda HF, as ondas eletromagnéticas \"ricocheteiam\" na ionosfera, alcançando grandes distâncias, sendo muito utilizada por militares e radioamadores. Essas ondas tendem a ser absorvidas pela Terra."
+        ],
+        "gabarito": "Na banda HF, as ondas eletromagnéticas \"ricocheteiam\" na ionosfera, alcançando grandes distâncias, sendo muito utilizada por militares e radioamadores. Essas ondas tendem a ser absorvidas pela Terra."
+    },
+    {
+        "id": 197,
+        "enunciado": "Analise as afirmativas abaixo com relação à cabeamento estruturado e à NBR 14.565.\n1. A NBR 14.565 define as especificações de cabeamento estruturado para uso nas dependências de um único edifício ou um conjunto de edifícios, e também data centers.\n2. Cabeamento estruturado da categoria 6e consegue alcançar velocidades de 10 Gigabit Ethernet, mas com redução do comprimento máximo do cabo para 60 metros.\n3. Para alcançar a velocidade de Gigabit Ethernet, o comprimento máximo dos cabos em um cabeamento categoria 5e não pode ultrapassar 50 metros.\nAssinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "É correta apenas a afirmativa 1.",
+            "São corretas apenas as afirmativas 1 e 2.",
+            "São corretas apenas as afirmativas 1 e 3.",
+            "São corretas apenas as afirmativas 2 e 3.",
+            "São corretas as afirmativas 1, 2 e 3."
+        ],
+        "gabarito": "É correta apenas a afirmativa 1."
+    },
+    {
+        "id": 198,
+        "enunciado": "Analise as afirmativas abaixo com relação à norma ABNT NBR 14565 que normatiza o cabeamento estruturado.\n1. Contempla sistemas de cabeamento tanto para um único edifício quanto para múltiplos edifícios como parte de um complexo.\n2. Contempla tanto instalações de área de trabalho quanto a infraestrutura de cabeamento estruturado de data centers.\n3. Contempla cabeamento estruturado de redes Ethernet sobre cabos metálicos, do tipo par trançado, mas não contempla cabos ou redes de fibra óptica.\nAssinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "É correta apenas a afirmativa 1.",
+            "São corretas apenas as afirmativas 1 e 2.",
+            "São corretas apenas as afirmativas 1 e 3.",
+            "São corretas apenas as afirmativas 2 e 3.",
+            "São corretas as afirmativas 1, 2 e 3."
+        ],
+        "gabarito": "São corretas apenas as afirmativas 1 e 2."
+    },
+    {
+        "id": 199,
+        "enunciado": "Assinale a alternativa correta sobre categorias de cabos de par trançado no contexto de cabeamento estruturado.",
+        "alternativas": [
+            "Os cabos CAT6 possuem exatamente a mesma estrutura e espessura de cabo dos cabos CAT5E.",
+            "Cabos CAT6 suportam velocidades de até 10 Gbps a uma frequência de 400 MHz.",
+            "Cabos CAT7 suportam velocidades de até 10 Gbps a uma frequência de 600 MHz, embora essa velocidade possa ser ultrapassada com cabos de comprimentos menores que 50 metros.",
+            "Cabos CAT5E suportam velocidades de até 1 Gbps e frequências de 250 MHz, com comprimento máximo permitido de 80 metros.",
+            "Cabos CAT6A possuem exatamente a mesma estrutura e espessura de cabo dos cabos CAT6."
+        ],
+        "gabarito": "Cabos CAT7 suportam velocidades de até 10 Gbps a uma frequência de 600 MHz, embora essa velocidade possa ser ultrapassada com cabos de comprimentos menores que 50 metros."
+    },
+    {
+        "id": 200,
+        "enunciado": "São subsistemas distintos de cabeamento de acordo com a ABNT NBR 14565.\n1. Backbone de campus 2. Backbone de edifício 3. Cabeamento paralelo 4. Cabeamento horizontal Assinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "São corretas apenas as afirmativas 2 e 4.",
+            "São corretas apenas as afirmativas 1, 2 e 4.",
+            "São corretas apenas as afirmativas 1, 3 e 4.",
+            "São corretas apenas as afirmativas 2, 3 e 4.",
+            "São corretas as afirmativas 1, 2, 3 e 4."
+        ],
+        "gabarito": "São corretas apenas as afirmativas 1, 2 e 4."
+    }
+]

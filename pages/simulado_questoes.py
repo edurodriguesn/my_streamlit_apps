@@ -225,17 +225,13 @@ letras = "ABCDE"
 
 import re
 def escape_markdown(text):
-    # Expressão regular:
-    # (?<!\\)(\$.*?(?<!\\)\$) -> Captura blocos de LaTeX válidos (começa e termina com $ sem escape antes)
-    # |                       -> OU
-    # (\$)                    -> Captura um sinal de $ solto
+    # Converte \n em quebra de linha para markdown (dois espaços + newline)
+    text = text.replace('\n', '  \n')
     pattern = r'(?<!\\)(\$.*?(?<!\\)\$)|\$'
     
     def replace_match(match):
-        # Se capturou o primeiro grupo (o bloco LaTeX inteiro), retorna ele intacto
         if match.group(1):
             return match.group(1)
-        # Caso contrário, capturou um $ solto, então escapamos
         return r'\$'
     
     return re.sub(pattern, replace_match, text)

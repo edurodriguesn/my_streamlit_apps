@@ -225,6 +225,8 @@ letras = "ABCDE"
 
 import re
 def escape_markdown(text):
+    # Converte ***texto*** em sublinhado
+    text = re.sub(r'\*\*\*(.+?)\*\*\*', r'<u>\1</u>', text)
     # Expressão regular:
     # (?<!\\)(\$.*?(?<!\\)\$) -> Captura blocos de LaTeX válidos (começa e termina com $ sem escape antes)
     # |                       -> OU

@@ -1,0 +1,1366 @@
+[
+    {
+        "id": 1,
+        "enunciado": "No que se refere a bancos de dados, julgue os itens a seguir.\nEm um SGBD implementado em três camadas, a camada intermediária é responsável por acessar fisicamente os dados armazenados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 2,
+        "enunciado": "A arquitetura em três esquemas, proposta pelo modelo ANSI/SPARC, define níveis de abstração que separam a visão do usuário final, a estrutura lógica dos dados e a organização física do armazenamento. A respeito dessa arquitetura, assinale a opção correta.",
+        "alternativas": [
+            "O nível interno da arquitetura lida com a representação física dos dados, como estruturas de armazenamento, ordenação e compactação.",
+            "A arquitetura ANSI/SPARC é composta por quatro níveis: externo, conceitual, interno e transacional.",
+            "O nível externo da arquitetura é responsável por definir a estrutura global e lógica dos dados no banco de dados.",
+            "O nível interno representa a estrutura lógica central da arquitetura, compartilhada por todos os usuários do banco de dados.",
+            "O nível conceitual da arquitetura descreve como os dados são fisicamente organizados em dispositivos de armazenamento."
+        ],
+        "gabarito": "O nível interno da arquitetura lida com a representação física dos dados, como estruturas de armazenamento, ordenação e compactação."
+    },
+    {
+        "id": 3,
+        "enunciado": "Na arquitetura de banco de dados relacional, a camada de abstração de dados tem como principal objetivo",
+        "alternativas": [
+            "disponibilizar uma interface amigável ao administrador de dados.",
+            "realizar o balanceamento de carga entre os servidores que são usados pelo banco de dados.",
+            "facilitar a automatização de backups dos dados.",
+            "tornar transparente a camada física, de modo que os usuários possam trabalhar com uma visão lógica dos dados.",
+            "disponibilizar dados de consultas frequentes, armazenando-as de forma temporária."
+        ],
+        "gabarito": "tornar transparente a camada física, de modo que os usuários possam trabalhar com uma visão lógica dos dados."
+    },
+    {
+        "id": 4,
+        "enunciado": "Na arquitetura de banco de dados relacional, composta por vários elementos dispostos em camadas, a camada lógica tem como função",
+        "alternativas": [
+            "definir tabelas, relacionamentos e restrições de integridade, que são estruturas do banco de dados.",
+            "manter o bom nível de desempenho do banco de dados.",
+            "disponibilizar visões específicas de dados para os usuários.",
+            "gerenciar o armazenamento físico dos dados nas unidades de disco.",
+            "efetuar o controle para que transações concorrentes sejam corretamente executadas."
+        ],
+        "gabarito": "definir tabelas, relacionamentos e restrições de integridade, que são estruturas do banco de dados."
+    },
+    {
+        "id": 5,
+        "enunciado": "Durante o projeto de uma solução corporativa, a equipe de dados foi incumbida de revisar a arquitetura do SGBD utilizado, garantindo o isolamento adequado entre as camadas do banco e a aplicação de controles de integridade e concorrência apropriados para o ambiente multiusuário.\nDe acordo com os conceitos da arquitetura de SGBD e com os mecanismos de integridade, proteção e controle de concorrência, julgue (C ou E) o item a seguir.\nA arquitetura de três níveis de um SGBD permite abstrair a implementação física dos dados para os usuários, garantindo independência lógica e física de dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 6,
+        "enunciado": "Durante o projeto de uma solução corporativa, a equipe de dados foi incumbida de revisar a arquitetura do SGBD utilizado, garantindo o isolamento adequado entre as camadas do banco e a aplicação de controles de integridade e concorrência apropriados para o ambiente multiusuário.\nDe acordo com os conceitos da arquitetura de SGBD e com os mecanismos de integridade, proteção e controle de concorrência, julgue (C ou E) o item a seguir.\nO nível externo da arquitetura de um banco de dados corresponde à estrutura física de armazenamento, incluindo blocos de disco e índices.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 7,
+        "enunciado": "Considere a arquitetura de três esquemas de um SGBD. No nível conceitual, o esquema descreve a estrutura completa do Banco de Dados (BD) para a comunidade de usuários. Para que uma aplicação de vendas de sapatos possa acessar os dados de “Cliente”, “Produto” e “Venda”, mantendo a independência de dados lógica e física, qual o nível de esquema seria o mais adequado para essa aplicação?",
+        "alternativas": [
+            "Esquema Interno.",
+            "Esquema de Visão Externa.",
+            "Esquema Conceitual.",
+            "Esquema Global.",
+            "Esquema de Armazenamento."
+        ],
+        "gabarito": "Esquema de Visão Externa."
+    },
+    {
+        "id": 8,
+        "enunciado": "Em um Sistema de Gerenciamento de Bancos de Dados (SGBD), a capacidade de modificar a definição de um esquema físico ou conceitual sem a necessidade de reescrever as aplicações que utilizam o SGBD é conhecida como:",
+        "alternativas": [
+            "Independência de dados.",
+            "Escalabilidade de dados.",
+            "Centralização de dados.",
+            "Integridade referencial de dados.",
+            "Redundância de dados."
+        ],
+        "gabarito": "Independência de dados."
+    },
+    {
+        "id": 9,
+        "enunciado": "Com relação aos níveis da arquitetura ANSI/SPARC dos Sistemas Gerenciadores de Bancos de Dados (SGBD) relacionais, assinale (V) para a afirmativa verdadeira e (F) para a falsa.\nI. O nível interno é o mais próximo do meio de armazenamento físico, é uma representação de baixo nível de todo o banco de dados, ele se ocupa do modo como os dados são fisicamente armazenados dentro do SGBD.\nII. O nível externo, também conhecido como o nível lógico de comunidade, é o mais próximo dos usuários finais ou programadores de aplicação, é aquele que se ocupa do modo como os dados são vistos pelos usuários do sistema.\nIII. O nível conceitual, também conhecido nível lógico de usuário, é um nível indireto entre os outros dois níveis e representa todo o conteúdo do banco de dados de uma forma um tanto abstrata em comparação como os dados são armazenados logicamente.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "F – V – V.",
+            "F – F – V.",
+            "F – V – F.",
+            "V – V – F.",
+            "V – F – F."
+        ],
+        "gabarito": "V – F – F."
+    },
+    {
+        "id": 10,
+        "enunciado": "A arquitetura de sistemas de BD, estabelecida pela ANSI por meio do SPARC, tem por objetivo separar banco de dados físicos das aplicações do usuário através de três níveis diferentes. O primeiro corresponde ao nível mais baixo de abstração, descreve a estrutura física de armazenamento do BD, a organização de arquivos e os métodos de acesso. O segundo nível define quais os dados estão armazenados e qual o relacionamento entre eles, contém descrições de entidade, atributos, relacionamentos, operações e restrições. O terceiro e último corresponde ao nível mais alto da abstração, estabelece as partes do BD que o usuário tem acesso de acordo com a necessidade individual de cada usuário ou grupo de usuários. Os três níveis descritos são conhecidos, respectivamente, como:",
+        "alternativas": [
+            "Interno, gerencial e de processos.",
+            "Físico, gerencial e de processos.",
+            "Interno, conceitual e de visões.",
+            "Físico, conceitual e de visões."
+        ],
+        "gabarito": "Interno, conceitual e de visões."
+    },
+    {
+        "id": 11,
+        "enunciado": "Na abordagem de sistemas de banco de dados, a arquitetura de três esquemas (ou arquitetura ANSI/SPARC) sustenta a abstração entre seus níveis.\nNesse contexto, o conceito que define a capacidade de alteração do esquema conceitual da arquitetura de três esquemas, sem repercussão nos esquemas externos ou nos programas de aplicação é definido como independência de dados",
+        "alternativas": [
+            "conceitual.",
+            "de usuário.",
+            "física.",
+            "lógica.",
+            "visual."
+        ],
+        "gabarito": "lógica."
+    },
+    {
+        "id": 12,
+        "enunciado": "A capacidade de alterar o esquema conceitual sem que seja necessário alterar os esquemas externos ou os programas de aplicação, é denominada independência:",
+        "alternativas": [
+            "física de dados.",
+            "de transparência de dados.",
+            "lógica de dados.",
+            "de fragmentação de dados."
+        ],
+        "gabarito": "lógica de dados."
+    },
+    {
+        "id": 13,
+        "enunciado": "Uma arquitetura de um Sistema Gerenciador de Banco de Dados pode ser composta por duas camadas quando os componentes de software são distribuídos por dois sistemas: cliente e servidor.\nEm um determinado momento, a arquitetura de duas camadas passou a não atender à demanda das aplicações, surgindo a arquitetura de três camadas. Marque a opção que apresenta a causa do surgimento dessa arquitetura.",
+        "alternativas": [
+            "Web.",
+            "Big Data.",
+            "Sistemas distribuídos.",
+            "Dados não-estruturados."
+        ],
+        "gabarito": "Web."
+    },
+    {
+        "id": 14,
+        "enunciado": "A camada de persistência é fundamental para garantir a integridade e eficiência no armazenamento e recuperação de dados em sistemas de banco de dados.\nConsiderando as práticas e arquiteturas relacionadas às camadas de persistência, assinale a alternativa correta.",
+        "alternativas": [
+            "A camada de persistência deve ser acoplada diretamente à interface do usuário para garantir respostas rápidas às interações do usuário.",
+            "Utilizar um mapeamento objeto-relacional (Object Relational Mapping – ORM) elimina a necessidade de SQL e melhora o desempenho de todas as consultas.",
+            "A separação clara entre a camada de persistência e a lógica de negócios ajuda a manter a coesão e facilita a manutenção do sistema.",
+            "A camada de persistência é responsável apenas pela escrita de dados no banco de dados, enquanto a recuperação de dados deve ser feita por uma camada separada.",
+            "A utilização de procedimentos armazenados na camada de persistência sempre simplifica a lógica de negócios e melhora a escalabilidade do sistema."
+        ],
+        "gabarito": "A separação clara entre a camada de persistência e a lógica de negócios ajuda a manter a coesão e facilita a manutenção do sistema."
+    },
+    {
+        "id": 15,
+        "enunciado": "Em relação a bancos de dados, julgue o item subsequente.\nAinda que se use um sistema gerenciador do banco de dados, a melhor opção para que o software possa acompanhar as mudanças na estrutura do arquivo correspondente é embutir os metadados nos programas de aplicação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 16,
+        "enunciado": "Em relação a bancos de dados, julgue o item subsequente.\nNa arquitetura ANSI/SPARC de banco de dados, a visão interna é separada dos registros do nível físico, uma vez que ela não lida com blocos ou páginas, nem com tamanhos de cilindros ou trilhas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 17,
+        "enunciado": "A arquitetura do SGBD é dividida em três níveis que proveem diferentes abstrações da estrutura do sistema de banco de dados, e é conhecida como arquitetura ANSI/SPARC. Essa organização em níveis efetiva a visão abstrata dos dados, reduzindo a complexidade do sistema conforme o nível em que o usuário trabalha. Nesse contexto, analise as assertivas abaixo:\nI. Nível físico: é onde se especifica o acesso aos dados conforme as necessidades de cada usuário ou aplicação.\nII. Nível lógico: é onde se descreve a estrutura completa do banco de dados, que engloba a definição do esquema do banco de dados.\nIII. Nível de visão: relaciona-se com as estruturas de armazenamento dos dados e com o gerenciamento destas.\nQuais estão corretas?",
+        "alternativas": [
+            "Apenas II.",
+            "Apenas I e II.",
+            "Apenas I e III.",
+            "Apenas II e III.",
+            "I, II e III."
+        ],
+        "gabarito": "Apenas II."
+    },
+    {
+        "id": 18,
+        "enunciado": "O princípio de independência de dados é um conceito fundamental no modelo relacional de bancos de dados. A aplicação prática deste princípio permite que os bancos de dados sejam gerenciados, otimizados e modificados eficientemente sem a necessidade de realizar modificações extensivas em cada aplicação ou consulta que utiliza o banco de dados, facilitando a manutenção e a evolução dos sistemas. Na arquitetura de referência ANSI/SPARC, que é composta por três níveis de esquema — externo, conceitual (ou lógico) e interno —, o princípio de independência de dados é expresso por meio da",
+        "alternativas": [
+            "necessidade de alterar o esquema externo quando ocorrem mudanças no esquema interno.",
+            "obrigatoriedade de alterar os programas aplicativos quando há uma modificação no esquema interno.",
+            "incapacidade de realizar mudanças no esquema conceitual sem afetar os esquemas externos.",
+            "dependência entre os esquemas, garantindo que uma modificação em um nível requer alterações em todos os níveis.",
+            "capacidade de modificar o esquema interno sem afetar o esquema conceitual e, portanto, sem afetar os esquemas externos e os programas aplicativos."
+        ],
+        "gabarito": "capacidade de modificar o esquema interno sem afetar o esquema conceitual e, portanto, sem afetar os esquemas externos e os programas aplicativos."
+    },
+    {
+        "id": 19,
+        "enunciado": "A arquitetura de três esquemas de banco de dados, também conhecida como ANSI/SPARC, tem por objetivo separar as aplicações do usuário do banco de dados físico. Os esquemas podem ser definidos em três níveis.\nDe acordo com essa arquitetura, numere a COLUNA II de acordo com a COLUNA I, relacionando o nível a seu respectivo objetivo.\nCOLUNA I\n1. Nível interno\n2. Nível conceitual\n3. Nível externo COLUNA II\n( ) Descrever a estrutura do banco de dados inteiro para uma comunidade de usuários; ocultar os detalhes das estruturas de armazenamento físico; e descrever entidades, tipos de dados, relacionamentos, operações do usuário e restrições.\n( ) Descrever a parte do banco de dados em que um grupo de usuários em particular está interessado e ocultar o restante do banco de dados do grupo de usuários. É comumente implementado usando um modelo de dados representativo, normalmente baseado em um modelo de dados de alto nível.\n( ) Descrever a estrutura do armazenamento físico do banco de dados, utilizar um modelo de dados físico e descrever os detalhes completos do armazenamento de dados e caminhos de acesso para o banco de dados.\nAssinale a sequência correta.",
+        "alternativas": [
+            "1 2 3.",
+            "2 1 3.",
+            "3 1 2.",
+            "2 3 1."
+        ],
+        "gabarito": "2 3 1."
+    },
+    {
+        "id": 20,
+        "enunciado": "A arquitetura ANSI/SPARC para um projeto de banco de dados inclui três esquemas, que têm por objetivo separar as aplicações de usuários da base de dados física.\nNesta arquitetura, esquemas podem ser definidos em três níveis, caracterizados a seguir:\nI. Este nível possui um esquema que descreve a estrutura de armazenamento físico da base de dados, e usa um modelo de dados físico além de descrever todos os detalhes de armazenamento de dados e caminhos de acesso à base de dados.\nII. Este nível possui um esquema que descreve a estrutura de toda a base de dados, mas omite detalhes da estrutura de armazenamento físico e se concentra na descrição de entidades, tipos de dados, relacionamentos e restrições.\nIII. Este nível possui esquemas que representam as visões de usuários, sendo que cada visão descreve, tipicamente, a parte da base de dados que um particular grupo de usuários está interessado e esconde o resto da base de dados do mesmo.\nOs níveis caracterizados em I, II e III são denominados, respectivamente,",
+        "alternativas": [
+            "interno, conceitual e externo.",
+            "interno, externo e conceitual.",
+            "conceitual, interno e externo.",
+            "externo, conceitual e interno.",
+            "externo, interno e conceitual."
+        ],
+        "gabarito": "interno, conceitual e externo."
+    },
+    {
+        "id": 21,
+        "enunciado": "Sobre SQL ANSI 92, assinale a alternativa sintaticamente correta.",
+        "alternativas": [
+            "CREATE NEW DATABASE ALUNOS ON ‘C:\\BANCO\\ALUNOS’.",
+            "ALTER TABLE ALUNOS ADD CONSTRAINT PKALUNOS PRIMARY KEY (Id).",
+            "SELECT ID,NOME FROM TABLE ALUNOS WHERE ANO > 2010 WITH LOCK FOR UPDATE.",
+            "REBUILD INDEX ALUNOSPORNOME ON TABLESPACE INDICES.",
+            "ALTER INDEX ALUNOSPORNOME DROP COLUMN ANO IMMEDIATE."
+        ],
+        "gabarito": "ALTER TABLE ALUNOS ADD CONSTRAINT PKALUNOS PRIMARY KEY (Id)."
+    },
+    {
+        "id": 22,
+        "enunciado": "Informe se é verdadeiro (V) ou falso (F) o que se afirma sobre a arquitetura ANSI/SPARC dos sistemas de bancos de dados.\n( ) Esta arquitetura pode ser dividida em três níveis, sendo que o nível interno é o mais próximo do meio de armazenamento físico (ou seja, é o que trata do modo como os dados são armazenados fisicamente).\n( ) Esta arquitetura pode ser dividida em três níveis, sendo que o nível conceitual é o mais próximo dos usuários (ou seja, é o que trata do modo como os dados são visualizados por usuários individuais).\n( ) Esta arquitetura pode ser dividida em três níveis, sendo que o nível externo é um nível indireto entre os outros dois (ele oferece uma visão comunitária dos dados).\n( ) DBA é responsável pela criação do esquema interno (projeto físico do banco de dados).\nDe acordo com as afirmações, a sequência correta é",
+        "alternativas": [
+            "F, V, V, V.",
+            "V, F, V, V.",
+            "V, V, F, F.",
+            "V, F, F, V.",
+            "V, F, F, F."
+        ],
+        "gabarito": "V, F, F, V."
+    },
+    {
+        "id": 23,
+        "enunciado": "Considerando que a arquitetura ANSI/SPARC se divide em três níveis – interno, externo e conceitual, analise as afirmativas a seguir.\nI. Nível interno: se ocupa do modo como os dados são fisicamente armazenados dentro do sistema.\nII. Nível externo: se ocupa do modo como os dados são vistos por usuários individuais.\nIII. Nível conceitual: é o nível intermediário entre o nível interno e externo; se ocupa de apresentar os dados armazenados dentro do sistema como uma visão vista pelos usuários individuais.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, II e III.",
+            "I e II, apenas.",
+            "I e III, apenas.",
+            "II e III, apenas."
+        ],
+        "gabarito": "I e II, apenas."
+    },
+    {
+        "id": 24,
+        "enunciado": "Considere um banco de dados relacional com as seguintes tabelas para responder à questão.\nEmpregado NumEmp NomeEmp Endereco CodDept ChefeDepto\n1 1 José Silva Rua A 1 NULL\n2 2 Mariana Ana Rua A 2 1\n3 3 Pedro Santos Rua A 3 4\n4 4 Juliana Souza Rua A 2 NULL\n5 5 Carlos Batista Rua A 2 4 6 6 João Cardoso Rua A 3 NULL 7 7 Sandra Rosa Rua A 1 6 8 8 Jorge Cruz Rua A 2 6 Departamento CodDept NomeDepto\n1 1 Informática\n2 2 Administrativo\n3 3 Contabilidade Qual o comando SQL ANSI deverá ser utilizado para obter a seguinte consulta? NomeDepto Quantidade\n1 Administrativo 4\n2 Contabilidade 2\n3 Informática 2",
+        "alternativas": [
+            "Select departamento.NomeDepto, sum(empregado.CodDepto) from empregado join departamento on (empregado.CodDepto = departamento.CodDepto) group by empreago.codDepto.",
+            "Select departamento.NomeDepto, Quantidade from empregado join departamento on (empregado.CodDepto = departamento.CodDepto) group by codDepto.empregado order by nomeDepto.",
+            "Select departamento.NomeDepto, sum(empregado.CodDepto) as Quantidade from empregado join departamento on (empregado.CodDepto = departamento.CodDepto) group by empregado.codDepto order by 1.",
+            "Select departamento.NomeDepto, count(empregado.CodDepto) as Quantidade from empregado join departamento on (empregado.CodDepto = departamento.CodDepto) group by departamento.NomeDepto order by 1."
+        ],
+        "gabarito": "Select departamento.NomeDepto, count(empregado.CodDepto) as Quantidade from empregado join departamento on (empregado.CodDepto = departamento.CodDepto) group by departamento.NomeDepto order by 1."
+    },
+    {
+        "id": 25,
+        "enunciado": "Considere um banco de dados relacional com as seguintes tabelas para responder à questão.\nEmpregado NumEmp NomeEmp Endereco CodDept ChefeDepto\n1 1 José Silva Rua A 1 NULL\n2 2 Mariana Ana Rua A 2 1\n3 3 Pedro Santos Rua A 3 4\n4 4 Juliana Souza Rua A 2 NULL\n5 5 Carlos Batista Rua A 2 4 6 6 João Cardoso Rua A 3 NULL 7 7 Sandra Rosa Rua A 1 6 8 8 Jorge Cruz Rua A 2 6 Departamento CodDept NomeDepto\n1 1 Informática\n2 2 Administrativo\n3 3 Contabilidade As chaves primárias estão representadas pelo # (cerquilha) em cada tabela. A consulta a seguir apresenta o NomeDepto e a Quantidade; observe.\nNomeDepto Quantidade\n1 Administrativo 4\n2 Contabilidade 2\n3 Informática 2 Em cima da mesma consulta, qual o comando SQL ANSI será utilizado para verificar qual departamento possui mais de três empregados?",
+        "alternativas": [
+            "Select departamento.NomeDepto, sum(empregado.CodDepto) from empregado join departamento on (empregado.CodDepto = departamento.CodDepto) group by empregado.codDepto having sum(empregado.codDepto) >3.",
+            "Select departamento.NomeDepto, Quantidade from empregado join departamento on (empregado.CodDepto = departamento.CodDepto) where quantidade > 3 group by empregado.codDepto order by nomeDepto.",
+            "Select departamento.NomeDepto, count(empregado.CodDepto) as Quantidade from empregado join departamento on (empregado.CodDepto = departamento.CodDepto) where count(empregado.CodDepto) > 3 group by empregado.codDepto order by 1.",
+            "Select departamento.NomeDepto, count(empregado.CodDepto) as Quantidade from empregado join departamento on (empregado.CodDepto = departamento.CodDepto) group by departamento.NomeDepto having count(empregado.CodDepto) > 3 order by 1."
+        ],
+        "gabarito": "Select departamento.NomeDepto, count(empregado.CodDepto) as Quantidade from empregado join departamento on (empregado.CodDepto = departamento.CodDepto) group by departamento.NomeDepto having count(empregado.CodDepto) > 3 order by 1."
+    },
+    {
+        "id": 26,
+        "enunciado": "A arquitetura em três níveis ANSI/SPARC para banco de dados permite ter uma independência entre os dados e os tratamentos, definindo níveis de abstração para um sistema de gestão de bases de dados baseado na divisão três níveis, descritos a seguir.\nI. Visão dos usuários individuais - se ocupa do modo como os dados são vistos por usuários individualmente.\nII. Visão do meio de armazenamento - se ocupa do modo como os dados são fisicamente armazenados dentro do sistema.\nIII. Visão da comunidade de usuários - se ocupa da interação entre os outros dois.\nOs níveis I, II e III são de nominados, respectivamente:",
+        "alternativas": [
+            "INTERNO, EXTERNO e CONCEITUAL.",
+            "EXTERNO, INTERNO e CONCEITUAL.",
+            "INTERNO, EXTERNO e FUNCIONAL.",
+            "EXTERNO, INTERNO e FUNCIONAL."
+        ],
+        "gabarito": "EXTERNO, INTERNO e CONCEITUAL."
+    },
+    {
+        "id": 27,
+        "enunciado": "A independência de dados é a capacidade de alterar o esquema em um nível do sistema de banco de dados sem ter que alterar o esquema de nível mais alto. Sobre esse tema, é correto afirmar:",
+        "alternativas": [
+            "Independência conceitual é a capacidade de alterar o esquema do nível externo sem necessitar de uma alteração no esquema conceitual.",
+            "Independência física de dados é a capacidade de alterar o esquema interno sem ter que alterar o esquema conceitual.",
+            "Independência lógica de dados é a capacidade de alterar o esquema conceitual sem ter que alterar o esquema interno do banco de dados.",
+            "Independência de esquema é a capacidade de alterar o esquema de um banco de dados por outro conforme descrito no dicionário de dados."
+        ],
+        "gabarito": "Independência física de dados é a capacidade de alterar o esquema interno sem ter que alterar o esquema conceitual."
+    },
+    {
+        "id": 28,
+        "enunciado": "Os SGBD seguem o modelo estabelecido pela arquitetura ANSI/SPARC ilustrada por meio da figura abaixo.\nO nível 1 é o da Aplicação.\nO nível 2 define as views e consiste em uma janela parcial que é criada sobre a totalidade do banco de dados. Permite trabalhar apenas com uma parte dos dados que seja de interesse de uma determinada aplicação, dando a sensação de que a view funciona como se tivesse trabalhando sobre a totalidade dos dados.\nO nível 3 representa o modelo de dados independente de qualquer usuário ou aplicação. Esta camada esconde os detalhes de implementação física dos arquivos que armazenam dados.\nO nível 4 corresponde ao armazenamento físico dos dados além da definição das estruturas físicas que possibilitam obter um bom nível de desempenho.\nOs níveis 2, 3 e 4 são denominados respectivamente:",
+        "alternativas": [
+            "Externo, Interno e Conceitual.",
+            "Interno, Externo e Conceitual.",
+            "Conceitual, Interno e Externo.",
+            "Interno, Conceitual e Externo.",
+            "Externo, Conceitual e Interno."
+        ],
+        "gabarito": "Externo, Conceitual e Interno."
+    },
+    {
+        "id": 29,
+        "enunciado": "Considere as afirmações abaixo sobre arquiteturas cliente/servidor para sistemas de gerência de banco de dados (SGBD).\nI - Arquiteturas de duas camadas caracterizam-se por um sistema cliente e outro servidor, mas a divisão exata da funcionalidade de cada sistema pode variar de um SGBD para outro.\nII - A arquitetura de três camadas possui, entre o servidor de banco de dados e o cliente, uma camada intermediária denominada servidor de aplicação. Seu objetivo é gerenciar as requisições feitas pelos navegadores web do lado do cliente, e montar dinamicamente as páginas web.\nIII - Em arquiteturas “n camadas”, muito utilizadas por fornecedores de solução ERP (Enterprise Resource Manager) e CRM (Customer Relationship Manager), é possível dividir as camadas entre o usuário e os dados armazenados em outros componentes mais detalhados. Em geral, a camada lógica de negócios é dividida em várias camadas para distribuir a programação e os dados pela rede, de modo que cada camada possa ser executada por um processador ou plataforma de sistema operacional adequado e ser tratada de forma independente.\nQuais estão corretas?",
+        "alternativas": [
+            "Apenas I.",
+            "Apenas II.",
+            "Apenas III.",
+            "Apenas I e II.",
+            "Apenas I e III."
+        ],
+        "gabarito": "Apenas I e III."
+    },
+    {
+        "id": 30,
+        "enunciado": "A arquitetura ANSI/SPARC para banco de dados se divide em três níveis, descritos a seguir.\n(I) É aquele que se ocupa do modo como os dados são fisicamente armazenados dentro do sistema – visão do meio de armazenamento.\n(II) É aquele que se ocupa da interação entre os outros dois – visão da comunidade de usuários.\n(III) É aquele que se ocupa do modo como os dados são vistos por usuários individualmente – visão dos usuários individuais.\nOs níveis (I), (II) e (III) são denominados, respectivamente:",
+        "alternativas": [
+            "interno, conceitual e externo.",
+            "lógico, interno e conceitual.",
+            "externo, lógico e interno.",
+            "conceitual, externo e lógico."
+        ],
+        "gabarito": "interno, conceitual e externo."
+    },
+    {
+        "id": 31,
+        "enunciado": "Date 2014, relata que a arquitetura ANSI/SPARC de um Banco de Dados se divide em três níveis, conhecidos como nível interno, nível externo e nível conceitual. Leia as afirmativas abaixo sobre os níveis de arquitetura.\nI – Nível interno é o mais próximo do meio de armazenamento físico, é aquele que se ocupa do modo como os dados são fisicamente armazenados dentro do sistema.\nII – Nível externo é o mais próximo dos usuários, é aquele que se ocupa do modo como os dados são vistos por usuários individuais.\nIII – Nível conceitual é um nível indireto entre o nível interno e externo.\nMarque a alternativa que apresenta a(s) afirmativa(s) correta(s):",
+        "alternativas": [
+            "I, II e III.",
+            "Apenas a I.",
+            "I e III.",
+            "I e II."
+        ],
+        "gabarito": "I, II e III."
+    },
+    {
+        "id": 32,
+        "enunciado": "Em relação à arquitetura de um banco de dados, está INCORRETA a seguinte afirmação:",
+        "alternativas": [
+            "Um banco de dados com arquitetura de duas camadas possui sua aplicação particionada em duas, em que uma delas reside na máquina cliente e a outra na máquina servidor.",
+            "Num banco de dados com arquitetura três camadas, os acessos diretos ao banco são executados exclusivamente através da máquina cliente, pois seu módulo é preparado para desempenhar tal atividade, utilizando as interfaces do SGBD e seus módulos de restrição de acesso.",
+            "As aplicações de três camadas são mais adequadas a grandes aplicações e as executadas na World Wide Web.",
+            "Um banco de dados com arquitetura de três camadas permite seus acessos através de uma camada intermediária entre o cliente e servidor, normalmente atribuída ao servidor de aplicação.",
+            "Em uma arquitetura cliente/servidor, os programas de interface com o usuário e os de aplicação podem ser executados no lado do cliente e nessa arquitetura, o servidor geralmente é chamado servidor de consulta ou servidor de transação."
+        ],
+        "gabarito": "Num banco de dados com arquitetura três camadas, os acessos diretos ao banco são executados exclusivamente através da máquina cliente, pois seu módulo é preparado para desempenhar tal atividade, utilizando as interfaces do SGBD e seus módulos de restrição de acesso."
+    },
+    {
+        "id": 33,
+        "enunciado": "Considerando os padrões SQL ANSI ( American National Standards Institute), podemos afirmar que os comandos abaixo fazem parte do conjunto de comandos da DML, EXCETO:",
+        "alternativas": [
+            "Insert.",
+            "Update.",
+            "Delete.",
+            "Drop."
+        ],
+        "gabarito": "Drop."
+    },
+    {
+        "id": 34,
+        "enunciado": "Elmasri e Navalhe (2afirmam que a arquitetura de três esquemas no SGBD pode ser usada para explicar melhor o conceito de independência de dados. Sendo assim, é correto afirmar que",
+        "alternativas": [
+            "a independência física de dados é a capacidade de alterar o esquema conceituai sem ter que alterar os esquemas externos ou os programas de aplicação.",
+            "a independência lógica de dados é a capacidade de alterar o esquema interno sem ter que alterar o esquema conceitual.",
+            "a independência lógica de dados é mais difícil de ser alcançada porque permite alterações estruturais e de restrição sem afetar os programas de aplicação.",
+            "a arquitetura de três esquemas pode tornar mais difícil obter a independência de dados tanto lógica quanto física.",
+            "os SGBDs implementam a arquitetura completa de três esquemas por causa da alta eficiência."
+        ],
+        "gabarito": "a independência lógica de dados é mais difícil de ser alcançada porque permite alterações estruturais e de restrição sem afetar os programas de aplicação."
+    },
+    {
+        "id": 35,
+        "enunciado": "Julgue o item subsequente, no que se refere a sistemas de gerenciamento de bancos de dados (SGBD).\nIndependência lógica de dados refere-se à capacidade de alterar o esquema conceitual sem a necessidade de alterar os esquemas externos ou os programas de aplicação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 36,
+        "enunciado": "Considerando a arquitetura de um sistema gerenciador de banco de dados, o nível em que se efetua uma descrição total da estrutura do banco de dados, mas não oferece detalhes dos dados guardados no banco de dados, é o",
+        "alternativas": [
+            "externo.",
+            "conceitual.",
+            "interno.",
+            "físico."
+        ],
+        "gabarito": "conceitual."
+    },
+    {
+        "id": 37,
+        "enunciado": "Há algumas variantes possíveis de arquitetura a serem utilizadas em um sistema de bancos de dados. Sobre essas variantes, é correto afirmar que",
+        "alternativas": [
+            "a camada de apresentação da arquitetura de 2 camadas situa-se, usualmente, no servidor de banco de dados.",
+            "na arquitetura de 3 camadas, a camada de servidor de banco de dados é denominada cliente.",
+            "a arquitetura de 3 camadas é composta pelas camadas cliente, aplicação e servidor de banco de dados.",
+            "na arquitetura de 2 camadas não há necessidade de uso de um sistema gerenciador de bancos de dados.",
+            "na arquitetura de 3 camadas, não há uma camada específica para a aplicação."
+        ],
+        "gabarito": "a arquitetura de 3 camadas é composta pelas camadas cliente, aplicação e servidor de banco de dados."
+    },
+    {
+        "id": 38,
+        "enunciado": "A arquitetura ANSI/SPARC tem por objetivo separar as aplicações da base de dados e é estruturada em três níveis, indicados a seguir:\nI. descreve a estrutura de armazenamento físico da base de dados\nII. descreve a estrutura de toda a base de dados, omite detalhes do armazenamento físico e se concentra na descrição de entidades, tipos de dados, relacionamentos e restrições\nIII. descreve a visão da base de dados de um grupo de usuários da base de dados Os níveis I, II e III são denominados, respectivamente:",
+        "alternativas": [
+            "computacional, organizacional e global.",
+            "estratégico, gerencial e operacional.",
+            "interno, conceitual e externo.",
+            "físico, lógico e híbrido."
+        ],
+        "gabarito": "interno, conceitual e externo."
+    },
+    {
+        "id": 39,
+        "enunciado": "A abstração de um banco de dados pode acontecer em três níveis: visão do usuário; conceitual; e físico. Responda a alternativa INCORRETA sobre abstração e esses níveis.",
+        "alternativas": [
+            "O nível de visão do usuário compreende as partes do banco de dados que o usuário tem acesso.",
+            "O nível conceitual define quais os dados que estão armazenados sem preocupar-se com o relacionamento entre eles.",
+            "O nível físico define efetivamente de que maneira os dados estão armazenados.",
+            "No nível conceitual podemos ter vários níveis de visão do usuário.",
+            "Não importa qual unidade de armazenamento é usada para guardar os dados."
+        ],
+        "gabarito": "O nível conceitual define quais os dados que estão armazenados sem preocupar-se com o relacionamento entre eles."
+    },
+    {
+        "id": 40,
+        "enunciado": "Com relação à arquitetura e ao acesso a banco de dados, julgue o item a seguir.\nO nível interno de um banco de dados é definido como sendo o mais próximo do meio de armazenamento físico. Nesse nível, estão a representação física dos campos e a sequência física em que os registros estão armazenados no sistema.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 41,
+        "enunciado": "Com relação à arquitetura e ao acesso a banco de dados, julgue o item a seguir.\nNo nível externo, pode-se ter uma visão única de todo o banco de dados, incluindo definições de esquemas e restrições de integridade, independentemente do armazenamento físico.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 42,
+        "enunciado": "A arquitetura de um sistema de banco de dados típico é composta por três níveis. O nível (I) é o mais próximo dos usuários e concerne ao modo com que os dados são visualizados. Já o nível (II) é o mais próximo do armazenamento físico e representa a visão de baixo nível de todo o banco de dados. Por fim, o nível (III) reside entre os outros dois níveis e é a representação de todo o conteúdo dos dados “como realmente são”, e não como os usuários são forçados a vê-los devido às restrições, por exemplo, da linguagem ou do hardware utilizados. Os itens (I), (II) e (III) dizem respeito, respectivamente, a:",
+        "alternativas": [
+            "Externo, Conceitual e Interno.",
+            "Externo, Interno e Conceitual.",
+            "Interno, Externo e Conceitual.",
+            "Conceitual, Externo e Interno.",
+            "Conceitual, Interno e Externo."
+        ],
+        "gabarito": "Externo, Interno e Conceitual."
+    },
+    {
+        "id": 43,
+        "enunciado": "Atualmente, os sistemas de bancos de dados utilizam arquiteturas em diversas camadas. Em um sistema de três camadas, é correto afirmar que a lógica de negócios da organização localiza-se na camada na qual se encontra o",
+        "alternativas": [
+            "computador que solicita a informação.",
+            "servidor de banco de dados.",
+            "servidor de aplicação.",
+            "servidor de aplicação ou na camada na qual se encontra o computador que solicita a informação.",
+            "servidor de aplicação ou na camada na qual se encontra o servidor de banco de dados."
+        ],
+        "gabarito": "servidor de aplicação."
+    },
+    {
+        "id": 44,
+        "enunciado": "Na arquitetura ANSI/SPARC de banco de dados, o nível conceitual",
+        "alternativas": [
+            "define a estrutura de armazenamento do banco de dados.",
+            "define a estrutura do banco de dados para uma comunidade de usuários.",
+            "descreve a parte do banco de dados em que um grupo de usuários está interessado, escondendo as outras partes.",
+            "descreve os caminhos de acesso para a base de dados.",
+            "inclui um número de visões de usuário."
+        ],
+        "gabarito": "define a estrutura do banco de dados para uma comunidade de usuários."
+    },
+    {
+        "id": 45,
+        "enunciado": "Um SGBD possui a capacidade de mudar o esquema interno sem ter de alterar o esquema conceitual, consequentemente não havendo necessidade de alteração do esquema externo. As mudanças no esquema interno podem ser necessárias para que alguns arquivos físicos possam ser reorganizados, por exemplo, pela criação de estruturas de acesso adicionais para aperfeiçoar o desempenho da recuperação ou atualização de dados.\nEssa característica de um SGBD é denominada",
+        "alternativas": [
+            "modelo lógico de dados.",
+            "modelo físico de dados.",
+            "independência modular.",
+            "representação conceitual.",
+            "independência física de dados."
+        ],
+        "gabarito": "independência física de dados."
+    },
+    {
+        "id": 46,
+        "enunciado": "Prover independência de dados é um objetivo importante dos sistemas de bancos de dados. É INCORRETO afirmar que:",
+        "alternativas": [
+            "a independência de dados pode ser definida como a imunidade das aplicações a alterações na representação física e na técnica de acesso.",
+            "um registro armazenado corresponde a um conjunto de campos armazenados.",
+            "existe somente um tipo de independência de dados, a física.",
+            "um campo armazenado corresponde à menor unidade de dados armazenados.",
+            "diferentes aplicações exigem diferentes visões dos mesmos dados, o que implica que, em um sistema de banco de dados, as aplicações sejam independentes dos dados."
+        ],
+        "gabarito": "existe somente um tipo de independência de dados, a física."
+    },
+    {
+        "id": 47,
+        "enunciado": "Na arquitetura de esquemas de bancos de dados, a capacidade de mudar o esquema interno sem ter que alterar o esquema conceitual é denominada de independência de dados",
+        "alternativas": [
+            "física.",
+            "lógica.",
+            "conceitual.",
+            "externa.",
+            "interna."
+        ],
+        "gabarito": "física."
+    },
+    {
+        "id": 48,
+        "enunciado": "Na arquitetura de esquemas de bancos de dados, a capacidade de mudar o esquema em um nível do sistema de banco de dados sem que ocorram alterações do esquema no próximo nível mais alto é denominada",
+        "alternativas": [
+            "abstração de dados.",
+            "decomposição de dados.",
+            "estruturação de dados.",
+            "independência de dados.",
+            "não redundância de dados."
+        ],
+        "gabarito": "independência de dados."
+    },
+    {
+        "id": 49,
+        "enunciado": "Quanto à arquitetura de sistema de banco de dados, é correto afirmar que:",
+        "alternativas": [
+            "a arquitetura ANSI/SPARC é dividida em três níveis: interno, externo e conceitual. Os dados percebidos em cada nível são descritos em um ou mais mapeamentos.",
+            "o administrador do banco de dados (DBA) é a pessoa que toma as decisões estratégicas e de normas com relação aos dados da empresa.",
+            "o sistema de gerenciamento de banco de dados (SGBD) deve monitorar requisições de usuários e rejeitar toda tentativa de violar as restrições de segurança definidas pelo DBA.",
+            "o mapeamento conceitual interno define a correspondência entre a visão conceitual e o banco de dados armazenado, e também, especifica o modo como os registros e campos conceituais são representados no nível conceitual.",
+            "na arquitetura cliente/servidor, o cliente e o servidor podem ser executados em máquinas diferentes, fornecendo assim, um tipo simples de processamento híbrido."
+        ],
+        "gabarito": "o sistema de gerenciamento de banco de dados (SGBD) deve monitorar requisições de usuários e rejeitar toda tentativa de violar as restrições de segurança definidas pelo DBA."
+    },
+    {
+        "id": 50,
+        "enunciado": "A Arquitetura de Referência ANSI-SPARC para Bancos de Dados define três níveis de abstração para descrever os dados em um Sistema de Bancos de Dados: nível físico (ou interno), nível lógico (ou conceitual) e nível de visão (ou externo). A capacidade de modificar a definição dos esquemas de dados em determinado nível, sem afetar o esquema do nível superior, é chamada de",
+        "alternativas": [
+            "abstração de dados.",
+            "arquitetura de dados.",
+            "independência de dados.",
+            "mapeamento de dados."
+        ],
+        "gabarito": "independência de dados."
+    },
+    {
+        "id": 51,
+        "enunciado": "Na arquitetura de banco de dados (BD)ANSI/SPARC, o nível no qual se descreve a visão de um grupo de usuários da base de dados do BD é o:",
+        "alternativas": [
+            "conceitual.",
+            "distribuído.",
+            "externo.",
+            "interno.",
+            "lógico."
+        ],
+        "gabarito": "externo."
+    },
+    {
+        "id": 52,
+        "enunciado": "O comando do SQL ANSI para excluir uma visão chamada Prov, de um banco de dados relacional, é",
+        "alternativas": [
+            "DELETE VIEW Prov;",
+            "MAKE NULL VIEW Prov;",
+            "DROP VIEW Prov;",
+            "VIEW Prov = NULL;",
+            "PUT VIEW Prov NULL;"
+        ],
+        "gabarito": "DROP VIEW Prov;"
+    },
+    {
+        "id": 53,
+        "enunciado": "Um modelo de banco de dados é uma descrição dos tipos de informações que estão armazenadas em um banco de dados, ou seja, é a descrição formal da estrutura de DB. No projeto de um banco de dados, geralmente são considerados três modelos.\nSobre eles, pode-se afirmar:\nI – Modelo Conceitual: é a descrição da base de dados conforme é vista pelos usuários do SGBD (programadores e aplicações). É dependente do tipo de SGBD escolhido, mas não contém detalhes da implementação (uma vez que o SGBD oferece abstração e independência de dados).\nII – Modelo Lógico: é uma descrição mais abstrata da base de dados. Não contém detalhes de implementação e é independente do tipo de SGBD usado. É o ponto de partida para o projeto da base de dados.\nIII – Modelo Físico (interno): Descrição de como a base de dados é armazenada internamente. Geralmente só é alterada para ajuste de desempenho. A tendência dos produtos modernos é ocultar cada vez mais os detalhes físicos de implementação.\nDas afirmativas citadas, está incorreta:",
+        "alternativas": [
+            "Nenhuma das afirmativas.",
+            "Somente a I.",
+            "Somente a II.",
+            "Somente a III."
+        ],
+        "gabarito": "Somente a III."
+    },
+    {
+        "id": 54,
+        "enunciado": "No que se refere a arquitetura, modelos lógicos e representação física de banco de dados e implementação de SGBDs relacionais, julgue o item que se segue.\nA arquitetura ANSI de três níveis separa o nível externo dos usuários, o nível conceitual do banco de dados e o nível de armazenamento interno no projeto de um banco de dados. O nível interno tem um esquema interno, que descreve a estrutura do armazenamento físico do banco de dados e descreve os detalhes completos do armazenamento de dados e os caminhos de acesso para o banco de dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 55,
+        "enunciado": "A capacidade de alterar o esquema conceitual, sem que seja necessário alterar os esquemas externos ou os programas de aplicação, é denominada",
+        "alternativas": [
+            "independência lógica de dados.",
+            "independência física de dados.",
+            "independência interna de dados.",
+            "fragmentação de dados.",
+            "transparência de dados."
+        ],
+        "gabarito": "independência lógica de dados."
+    },
+    {
+        "id": 56,
+        "enunciado": "O objetivo da arquitetura em três esquemas é separar a aplicação dos usuários do banco de dados físico. Neste contexto, assinale a alternativa correta.",
+        "alternativas": [
+            "Os três esquemas são chamados de esquema interno, conceitual e externo. Nem todos os sistemas gerenciadores de banco de dados separam completamente os esquemas desta maneira.",
+            "Esta separação é apenas conceitual porque não é possível implementar na prática com a garantia de bom desempenho.",
+            "Esta separação se dá com a implementação dos esquemas conceitual, relacional e transacional. Cada um com o seu dicionário de dados correspondente.",
+            "O esquema interno corresponde a estrutura de toda a base de dados. O esquema conceitual descreve a estrutura física de armazenamento. E o esquema externo é um conjunto de visões dos usuários da base.",
+            "Os três esquemas são chamados de esquema interno, conceitual e externo. Na arquitetura em questão, a independência lógica de dados consiste na capacidade de alterar o “esquema interno” sem mudar o “esquema conceitual”."
+        ],
+        "gabarito": "Os três esquemas são chamados de esquema interno, conceitual e externo. Nem todos os sistemas gerenciadores de banco de dados separam completamente os esquemas desta maneira."
+    },
+    {
+        "id": 57,
+        "enunciado": "A arquitetura ANSI/SPARC, cuja figura é mostrada abaixo, foi definida com o objetivo de permitir que um mesmo SGBD possa ser utilizado por vários tipos de usuários, respeitando as particularidades e necessidades de cada um.\nEm um nível, ocorre a definição de views, permitindo a visualização de apenas uma parte dos dados que seja de interesse de determinada aplicação, enquanto que outro nível esconde os detalhes de implementação física dos arquivos que armazenam o s dados. Esse níveis são denominados, respectivamente:",
+        "alternativas": [
+            "externo e conceitual.",
+            "interno e conceitual.",
+            "conceitual e externo.",
+            "interno e externo.",
+            "externo e interno."
+        ],
+        "gabarito": "externo e conceitual."
+    },
+    {
+        "id": 58,
+        "enunciado": "Considerando a arquitetura de três níveis de Sistemas de Gerência de Bancos de Dados ilustrada na figura a seguir e as afirmações sobre a mesma, marque a alternativa correta.\nFonte: Elmasri, R.; Navathe, S. Fundamentals of Database Systems. Addison-Wesley,1994\nI – O nível físico (ou interno) descreve como os dados estão realmente armazenados, sua estrutura de baixo nível e os detalhes completos do armazenamento de dados e caminho de acesso ao banco de dados.\nII – O nível conceitual concentra-se na descrição global da base de dados, omitindo detalhes da estrutura de armazenamento físico e concentrando-se na descrição de entidades, tipos de dados, relacionamentos e restrições.\nIII – O nível externo descreve a interface visual para cada tipo de usuário, de acordo com as suas necessidades e requisitos de usabilidade do sistema.\nIV – A capacidade de alterar o esquema de um nível sem ter que alterar o esquema no próximo nível superior é definida como a independência de dados.",
+        "alternativas": [
+            "Apenas as afirmativas I e II são verdadeiras.",
+            "As afirmativas III e IV são verdadeiras.",
+            "Apenas a afirmativa IV é verdadeira.",
+            "As afirmativas I, II e IV são verdadeiras."
+        ],
+        "gabarito": "As afirmativas I, II e IV são verdadeiras."
+    },
+    {
+        "id": 59,
+        "enunciado": "A arquitetura ANSI/SPARC define três níveis (ou camadas) que ficam entre o banco de dados em si (disco rígido) e as aplicações do usuário; são eles:",
+        "alternativas": [
+            "físico, tabelas e modelo.",
+            "físico, lógico e conceitual.",
+            "físico, estrutural e externo.",
+            "interno, lógico e conceitual.",
+            "interno, conceitual e externo."
+        ],
+        "gabarito": "interno, conceitual e externo."
+    },
+    {
+        "id": 60,
+        "enunciado": "Julgue o item, acerca de independência dos dados.\nIndependência de dados lógica é a capacidade de modificar o esquema lógico sem que, com isso, qualquer programa de aplicação precise ser reescrito. Modificações no nível lógico são necessárias, ocasionalmente, para aprimorar o desempenho.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 61,
+        "enunciado": "Julgue o item seguinte, a respeito de arquitetura de banco de dados.\nA principal vantagem da arquitetura de dados em duas camadas é a divisão do armazenamento e do processamento de dados em dois sistemas. Mas esse processo tem um custo que se reflete em considerável aumento do tráfego de dados na rede.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 62,
+        "enunciado": "Julgue o item seguinte, a respeito de arquitetura de banco de dados.\nAs funcionalidades de um banco de dados em uma arquitetura dividida em duas camadas podem ser divididas em duas categorias: front-end e back-end. As funcionalidades de front-end são as que permitem gerenciar as estruturas de acesso e realizar o desenvolvimento e a otimização de consultas, além do controle de concorrência e recuperação de dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 63,
+        "enunciado": "Acerca do SQL ANSI, julgue o item.\nPara a criação de uma tabela, a cláusula UNIQUE é obrigatória e, por meio dela, especificam-se chaves primárias.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 64,
+        "enunciado": "Acerca do SQL ANSI, julgue o item.\nConsidere o seguinte script SQL.\nCREATE TABLE cliente\n(nome varchar(6NOT NULL, CPF char(1NOT NULL, sexo char(1) );\nA execução do script SQL descrito acima cria a tabela cliente com 3 colunas, sendo que nenhuma coluna tem a propriedade de chave primária.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 65,
+        "enunciado": "Acerca de interoperabilidade de dados, julgue o item subsecutivo.\nA arquitetura ANSI SPARC é um modelo de interoperabilidade de dados, voltado para o domínio de sistemas de gerenciamento de bases de dados (SGBDs). O modelo em questão é organizado em três níveis, dos quais um é o nível conceitual, mais semântico; e outro é o nível físico ou interno, mais sintático.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 66,
+        "enunciado": "O nível de arquitetura de um banco de dados que contém a representação e organização física dos dados nos dispositivos de armazenamento:",
+        "alternativas": [
+            "Interno.",
+            "Externo.",
+            "Conceitual.",
+            "Datafiles.",
+            "Modelo de entidades."
+        ],
+        "gabarito": "Interno."
+    },
+    {
+        "id": 67,
+        "enunciado": "A arquitetura ANSI/SPARC de um Sistema Gerenciador de Banco de Dados (SGBD) divide-se nos níveis",
+        "alternativas": [
+            "externo, conceitual e interno.",
+            "externo, lógico e recuperador.",
+            "interno, indexador e lógico.",
+            "físico, conceitual e lógico.",
+            "físico, indexador e recuperador."
+        ],
+        "gabarito": "externo, conceitual e interno."
+    },
+    {
+        "id": 68,
+        "enunciado": "Um banco de dados divide-se em três níveis de arquitetura, de acordo com o padrão ANSI/SPARC. Assinale a alternativa que apresenta esses três níveis.",
+        "alternativas": [
+            "relacional, hierárquico e rede.",
+            "plano, tubular e rede.",
+            "atômico, consistente e isolado.",
+            "interno, conceitual e externo.",
+            "relacional, plano e conceitual."
+        ],
+        "gabarito": "interno, conceitual e externo."
+    },
+    {
+        "id": 69,
+        "enunciado": "No padrão ANSI para arquitetura de gerenciadores de bancos de dados, estão presentes três níveis de esquemas: interno, conceitual e externo.\nCom a utilização dessa arquitetura, surge o conceito de independência de dados, que consiste na capacidade de",
+        "alternativas": [
+            "apagar dados do banco de dados e desfazer essas remoções dentro de uma única transação.",
+            "fazer alterações em dados que somente serão visíveis a outros usuários quando do término da transação.",
+            "alterar o esquema de um nível sem ter que necessariamente alterar o esquema de nível mais elevado.",
+            "executar consultas SQL com vários níveis de subconsultas.",
+            "manter a integridade do banco de dados através do uso de chaves estrangeiras."
+        ],
+        "gabarito": "alterar o esquema de um nível sem ter que necessariamente alterar o esquema de nível mais elevado."
+    },
+    {
+        "id": 70,
+        "enunciado": "Acerca de banco de dados, julgue o item subsequente.\nIndependência de dados é a capacidade de modificar a definição dos esquemas de determinado nível, sem afetar o esquema de nível superior. Existem dois níveis de independência de dados: a independência física e a independência lógica.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 71,
+        "enunciado": "Tendo em vista que o SQL, embora padronizado pela ANSI e pela ISO, possui variações e extensões produzidas pelos diferentes fabricantes de sistemas gerenciadores, julgue o item abaixo.\nNo nível de isolamento 1 definido no SQL ANSI-92, nenhum bloqueio é considerado ou honrado ao se lerem dados nesse nível de isolamento.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 72,
+        "enunciado": "Considerando que o conceito de transação é usado dentro do domínio de banco de dados como uma unidade básica de computação consistente e confiável, julgue o próximo item, acerca de controle e processamento de transações.\nOs níveis de isolamento de transações definidos pela SQL ANSI 92 são leitura não consolidada, leitura consolidada, leitura repetível e serializável de anomalia.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 73,
+        "enunciado": "Considerando a figura acima, que ilustra uma arquitetura de banco de dados de três esquemas, julgue o item subsequente.\nEm razão de a independência de dados, provida pela arquitetura em tela, permitir a execução mais eficiente de consultas no sistema gerenciador de banco de dados\n(SGBD), os mais conhecidos SGBDs comerciais implementam a arquitetura de banco de dados de três esquemas por completo.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 74,
+        "enunciado": "Considerando a figura acima, que ilustra uma arquitetura de banco de dados de três esquemas, julgue o item subsequente.\nO acesso do usuário ao banco de dados, que ocorre no nível do “esquema externo”, classifica-se em interativo ou em modo batch. No primeiro caso, ocorre por meio de uma sublinguagem de dados, tal como a SQL; e, no segundo, por meio de um programa aplicativo, escrito em Java, C++ ou C, que contém um subconjunto de comandos que disponibilizam uma sublinguagem de dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 75,
+        "enunciado": "Considerando a figura acima, que ilustra uma arquitetura de banco de dados de três esquemas, julgue o item subsequente.\nNa arquitetura em questão, a independência lógica de dados consiste na capacidade de alterar o “esquema interno” sem mudar o “esquema conceitual”.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 76,
+        "enunciado": "Considerando a figura acima, que ilustra uma arquitetura de banco de dados de três esquemas, julgue o item subsequente.\nDevido à independência de dados, provida pela referida arquitetura, as modificações do “esquema conceitual” — tais como a adição ou a remoção de um tipo de registro\n(ou item) de dados — não causam ou requerem alterações no “esquema externo” ou nos programas de acesso ao banco de dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 77,
+        "enunciado": "Tabela 1: FUNCIONARIO CIDADE - NOME ID SEXODIVISAOID-GERENTE RESIDENCIA Carlos Costa 32567795 M 3 67230854 Campinas Rai Brandao 78943578 M 2 12213294 Rio Regina Peres 65987678 F 2 12213294 Rio Doralice Silva 78543290 F 3 67230854 Brasilia Jose Carvalho12213294 M 2 64798321 Rio Paulo Borges 35380098 M 3 67230854 Brasilia Jose Beltrao 43125457 M 2 12213294 Uberaba Sidney Alves 67230854 M 3 64798321 Brasilia Pamela Land 34234256 F 3 67230854 Recife Barry Smith 45658678 M 2 12213294 Rio Roco Carmo 64798321 M 1 NULL Sao Paulo Marcia Belo 71002359 F 1 64798321 Sao Paulo Tabela 2: DIVISAO NOME NUMEROID-CHEFECIDADE-SEDE Pesquisa 2 67230854 Brasilia Produto 3 12213294 Rio Administração 1 64798321 Sao Paulo Tabela 3: PROJETO REAIS - NOME CODIGOID-LIDERDIVISAO HORA-EXTRAPERMITIDA HORA P1-GUI 2 67230854 2 80.00 1 P1-SW 5 12213294 2 100.00 1 P1-HW 1 12213294 2 50.00 1 Algoritmo-Z 4 67230854 3 210.00 0 Protocolo-X 3 67230854 3 165.00 0 Folha-Pgto 6 64798321 1 120.00 0 Tabela 4: TRABALHO FUNC-IDCODPROJHORAS-NORMAISHORAS-EXTRA 32567795 5 15.00 0.00 78943578 2 210.00 20.00 65987678 1 40.00 0.00 78543290 4 55.00 0.00 12213294 4 72.00 0.00 35380098 3 42.00 0.00 43125457 2 16.00 35.00 67230854 1 65.00 12.00 34234256 5 250.00 15.00 45658678 5 90.00 10.00 64798321 2 120.00 20.00 32567795 1 170.00 50.00 78943578 4 25.00 0.00 65987678 4 330.00 0.00 78543290 3 75.00 0.00 12213294 2 180.00 25.00 35380098 1 75.00 10.00 43125457 5 125.00 5.00 67230854 5 210.00 5.00 34234256 2 55.00 0.00 71002359 6 325.00 0.00 45658678 1 70.00 30.00 Considerando as tabelas acima, que representam o esquema do banco de dados referente aos funcionários, aos projetos e à contabilidade de determinada empresa, julgue o item relativo ao acesso a esse banco de dados utilizando-se ANSI SQL.\nNa tabela 1, o atributo indicado por “SEXO” pode ser removido por meio do comando SQL a seguir.\nALTER TABLE FUNCIONARIO DELETE SEXO;",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 78,
+        "enunciado": "Analise as seguintes sentenças em relação aos bancos de dados:\nI. O modelo conceitual é uma descrição do banco de dados, sendo dependente do tipo de implementação do SGBD.\nII. Os detalhes de armazenamento interno de informações fazem parte do modelo lógico.\nIII. O modelo lógico representa a estrutura de dados de um banco de dados conforme vista pelo usuário do SGBD.\nSão verdadeiras, apenas:",
+        "alternativas": [
+            "I.",
+            "II.",
+            "III.",
+            "I e III.",
+            "II e III."
+        ],
+        "gabarito": "II e III."
+    },
+    {
+        "id": 79,
+        "enunciado": "A figura a seguir faz parte dos conceitos relacionados aos Sistemas Gerenciadores de Banco de Dados – SGBD, em que o principal objetivo da arquitetura “três esquemas” é separar as aplicações do usuário do banco de dados físico.\nOs níveis 1, 2 e 3 são denominados, respectivamente:",
+        "alternativas": [
+            "DESCRITIVO, TÁTICO e FUNCIONAL.",
+            "EXTERNO, CONCEITUAL e INTERNO.",
+            "PRIMÁRIO, SECUNDÁRIO e TERCIÁRIO.",
+            "ESTRATÉGICO, GERENCIAL e OPERACIONAL.",
+            "ADMINISTRATIVO, TECNOLÓGICO e ORGANIZACIONAL."
+        ],
+        "gabarito": "EXTERNO, CONCEITUAL e INTERNO."
+    },
+    {
+        "id": 80,
+        "enunciado": "Acerca de modelos de banco de dados, analise as afirmativas a seguir.\nI. A nível lógico, um banco de dados distribuído é descrito por um esquema conceitual global.\nII. A nível físico, o banco de dados é definido através de uma série de esquemas internos, um para cada nó em que o banco é armazenado.\nIII. O relacionamento entre o esquema conceitual global e os vários esquemas internos, é definido por meio de mapeamentos que indicam como construir um estado físico do banco a partir do estado lógico corrente.\nAssinale:",
+        "alternativas": [
+            "se somente a afirmativa I estiver correta.",
+            "se somente as afirmativas I e II estiverem corretas.",
+            "se somente as afirmativas I e III estiverem corretas.",
+            "se somente as afirmativas II e III estiverem corretas.",
+            "se todas as afirmativas estiverem corretas."
+        ],
+        "gabarito": "se somente as afirmativas I e II estiverem corretas."
+    },
+    {
+        "id": 81,
+        "enunciado": "A arquitetura de um SGBD ou a arquitetura de um sistema de banco de dados, também denominada de arquitetura ANSI/SPARC em três níveis, determina que um SGBD descreva como os dados devem ser armazenados e acessados e conter estes mesmos dados de fato armazenados.\nAs terminologias desta arquitetura que contêm essas descrições e os dados de fato armazenados, são respectivamente:",
+        "alternativas": [
+            "esquema físico e nível físico.",
+            "nível físico e esquema físico.",
+            "nível físico e esquema conceitual.",
+            "nível conceitual e esquema físico.",
+            "nível conceitual e esquema conceitual."
+        ],
+        "gabarito": "esquema físico e nível físico."
+    },
+    {
+        "id": 82,
+        "enunciado": "Considerando a arquitetura para os sistemas de banco de dados ANSI/SPARC, é CORRETO afirmar:\nI. O esquema interno descreve a estrutura lógica do banco de dados.\nII. A independência física de dados refere-se à capacidade de mudar o esquema interno sem alterar o esquema conceitual.\nIII. Os esquemas externos descrevem visões de diferentes grupos de usuários.\nIV. Processos de transformações de solicitações e resultados entre os níveis são denominados mapeamentos.",
+        "alternativas": [
+            "Apenas as assertivas II e III estão corretas.",
+            "Apenas as assertivas II, III e IV estão corretas.",
+            "Apenas a assertiva I está correta.",
+            "Todas as assertivas estão corretas.",
+            "Apenas a assertiva IV está correta."
+        ],
+        "gabarito": "Apenas as assertivas II, III e IV estão corretas."
+    },
+    {
+        "id": 83,
+        "enunciado": "A arquitetura de Três-Esquemas de um banco de dados define que os esquemas podem ser de três níveis: interno, conceitual e externo. O processo de transformação de solicitações e resultados entre os níveis é denominado de:",
+        "alternativas": [
+            "mapeamento.",
+            "tradução.",
+            "representação.",
+            "parametrização.",
+            "manipulação."
+        ],
+        "gabarito": "mapeamento."
+    },
+    {
+        "id": 84,
+        "enunciado": "Relacione os usuários de Sistemas Gerenciadores de Bancos de Dados, apresentados na coluna da esquerda, com seu escopo de atuação respectivo na arquitetura ANSI/ SPARC, listado na coluna da direita.\nUsuários de Sistemas de Bancos Níveis de Arquitetura ANSI/ de Dados SPARC\nI – Usuário Final P – Nível de Visões\nII – Administrador de Banco de Q – Nível Conceitual Dados\nIII – Administrador de Dados R – Nível Interno\nIV – Desenvolvedor de Aplicações Estão corretas as associações",
+        "alternativas": [
+            "I – P , II – R , III – Q.",
+            "I – Q , II – R , IV – P.",
+            "I – R , II – P , III – Q.",
+            "II – P , III – R , IV – Q.",
+            "II – R , III – Q , IV – P."
+        ],
+        "gabarito": "I – P , II – R , III – Q."
+    },
+    {
+        "id": 85,
+        "enunciado": "Acerca da divisão nos níveis interno, conceitual e externo relativos à arquitetura de banco de dados (BD), julgue o item a seguir.\nO nível conceitual é aquele mais próximo do usuário e ocupa-se da forma como os dados são vistos por cada usuário.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 86,
+        "enunciado": "Acerca da divisão nos níveis interno, conceitual e externo relativos à arquitetura de banco de dados (BD), julgue o item a seguir.\nO nível conceitual de dados é um nível de simulação entre os níveis interno e externo.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 87,
+        "enunciado": "Acerca da divisão nos níveis interno, conceitual e externo relativos à arquitetura de banco de dados (BD), julgue o item a seguir.\nSe um sistema de banco de dados provê independência física dos dados, é correto inferir que esse sistema também permite independência lógica de dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 88,
+        "enunciado": "Com base na arquitetura geral de um sistema gerenciador de banco de dados (SGBD) proposta pela ANSI\\SPARC e conforme a figura acima, julgue o item que se segue.\nUm SGBD é essencialmente um conjunto de software cujo objetivo principal é controlar o acesso, a organização, o armazenamento e a recuperação dos dados em um banco de dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 89,
+        "enunciado": "Com base na arquitetura geral de um sistema gerenciador de banco de dados (SGBD) proposta pela ANSI\\SPARC e conforme a figura acima, julgue o item que se segue.\nA administração de usuários e respectivas permissões não é atribuição de um SGBD, já que essa tarefa é realizada pelo sistema operacional.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 90,
+        "enunciado": "Com base na arquitetura geral de um sistema gerenciador de banco de dados (SGBD) proposta pela ANSI\\SPARC e conforme a figura acima, julgue o item que se segue.\nO controle de concorrência pode ser utilizado para garantir a um usuário, por prazo indeterminado, o acesso exclusivo a determinada tabela, mesmo que esse usuário não esteja modificando registros.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 91,
+        "enunciado": "Com base na arquitetura geral de um sistema gerenciador de banco de dados (SGBD) proposta pela ANSI\\SPARC e conforme a figura acima, julgue o item que se segue.\nA DML (data manipulation language) é uma linguagem para manipulação de objetos do banco dados que pode ser utilizada, por exemplo, para alteração de esquemas das tabelas e visões.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 92,
+        "enunciado": "Com base na arquitetura geral de um sistema gerenciador de banco de dados (SGBD) proposta pela ANSI\\SPARC e conforme a figura acima, julgue o item que se segue.\nO catálogo do sistema é um repositório com função de armazenar as definições dos esquemas dos bancos de dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 93,
+        "enunciado": "Com base na arquitetura geral de um sistema gerenciador de banco de dados (SGBD) proposta pela ANSI\\SPARC e conforme a figura acima, julgue o item que se segue.\nA primeira tarefa do pré-processador de consultas é o planejamento da estratégia de execução, visando obter um tempo de resposta otimizado.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 94,
+        "enunciado": "Com base na arquitetura geral de um sistema gerenciador de banco de dados (SGBD) proposta pela ANSI\\SPARC e conforme a figura acima, julgue o item que se segue.\nOs aplicativos e consultas residem no nível externo da arquitetura de banco de dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 95,
+        "enunciado": "Com base na arquitetura geral de um sistema gerenciador de banco de dados (SGBD) proposta pela ANSI\\SPARC e conforme a figura acima, julgue o item que se segue.\nAntes de serem executadas, instruções de criação e alteração de objetos do banco de dados necessitam ser compiladas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 96,
+        "enunciado": "Com base na arquitetura geral de um sistema gerenciador de banco de dados (SGBD) proposta pela ANSI\\SPARC e conforme a figura acima, julgue o item que se segue.\nO formato de sistema de arquivos da unidade de armazenamento do banco de dados não influencia no desempenho do sistema, visto que um SGBD possui gerenciamento de arquivos próprio.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 97,
+        "enunciado": "Com base na arquitetura geral de um sistema gerenciador de banco de dados (SGBD) proposta pela ANSI\\SPARC e conforme a figura acima, julgue o item que se segue.\nO nível conceitual de uma arquitetura de banco de dados descreve quais dados são armazenados e seus relacionamentos de forma mais simples comparada ao nível interno.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 98,
+        "enunciado": "Considere as seguintes tabelas de um sistema bancário:\nA representação em SQL-ANSI 99 da consulta onde são identificados os clientes (utilizando os atributos cod_cliente e cliente da tabela Cliente ) que NÃO pegaram empréstimo no banco é:",
+        "alternativas": [
+            "SELECTC.cod_cliente, C.cliente FROM Cliente AS C WHERE EXISTS (SELECT* FROMA gencia as A WHERE EXISTS (SELECT E.code_agencia FROM Emprestimo as E WHERE C.cod_cliente=E.code_cliente AND A.cod_agencia=E.code_agencia)).",
+            "SELECTC.cod_cliente, C.cliente FROM Cliente AS C WHERE EXISTS (SELECT* FROM Agencia as A WHERE NO TEXISTS (SELECT E.code_agencia FROM Emprestimo as E WHERE C.cod_cliente=E.code_cliente AND A.cod_agencia=E.code_agencia)).",
+            "SELECTC.cod_cliente, C.cliente FROM Cliente ASC WHERE NO TEXISTS (SELECT* FROM Agencia as A WHERE NO TEXISTS (SELECT E.code_agencia FROM Emprestimo as E WHERE C.cod_cliente=E.code_cliente AND A.cod_agencia=E.code_agencia)).",
+            "SELECTC.cod_cliente, C.cliente FROM Cliente AS C WHERE NO TEXISTS (SELECT* FROM Agencia as A WHERE EXISTS (SELECT E.code_agencia FROM Emprestimo as E WHERE C.cod_cliente=E.code_cliente AND A.cod_agencia=E.code_agencia)).",
+            "SELECTC.cod_cliente, C.cliente FROM Cliente ASC WHERE NO TEXISTS (SELECT* FROM Emprestimo as E WHERE NO TEXISTS (SELECT E.code_agencia FROM Agencia as A WHERE C.cod_cliente=E.code_cliente AND A.cod_agencia=E.code_agencia));"
+        ],
+        "gabarito": "SELECTC.cod_cliente, C.cliente FROM Cliente AS C WHERE NO TEXISTS (SELECT* FROM Agencia as A WHERE EXISTS (SELECT E.code_agencia FROM Emprestimo as E WHERE C.cod_cliente=E.code_cliente AND A.cod_agencia=E.code_agencia))."
+    },
+    {
+        "id": 99,
+        "enunciado": "O principal objetivo de um sistema de banco de dados é prover os usuários com uma visão abstrata dos dados, já que em sua arquitetura a complexidade está escondida deles através de diversos níveis de abstração que simplificam a interação do usuário com o sistema. O nível de abstração no qual o banco de dados inteiro é descrito em termos de um pequeno número de estruturas relativamente simples, os dados armazenados de fato no banco de dados e as relações que existem entre eles, corresponde ao nível",
+        "alternativas": [
+            "de Dados.",
+            "Físico.",
+            "de Visões.",
+            "Lógico.",
+            "Conceitual."
+        ],
+        "gabarito": "Conceitual."
+    },
+    {
+        "id": 100,
+        "enunciado": "Sobre a arquitetura Three-Schema (ANSI/SPARC) de sistemas gerenciadores de banco de dados (SGDB), analise as afirmativas.\nI - A meta dessa arquitetura é unir as aplicações de usuários com a base de dados física.\nII - Nessa arquitetura, os esquemas podem ser definidos em três níveis: interno, conceitual e externo.\nIII - Independência física de dados é a capacidade de alterar o esquema conceitual sem ter que mudar os esquemas externos ou programas de aplicação.\nIV - Independência lógica de dados é a capacidade de alterar o esquema interno sem ter que alterar os esquemas externos.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "III e IV, apenas.",
+            "II, III e IV.",
+            "II, apenas.",
+            "I e II, apenas."
+        ],
+        "gabarito": "II, apenas."
+    },
+    {
+        "id": 101,
+        "enunciado": "Considere a seguinte figura sobre arquitetura de banco de dados e referente abstração de dados envolvida:\nEm qual dos níveis o banco de dados é descrito em termos de um pequeno número de estruturas relativamente simples?",
+        "alternativas": [
+            "Físico.",
+            "Externo.",
+            "Conceitual.",
+            "Sistema operacional.",
+            "Sistema de arquivos."
+        ],
+        "gabarito": "Conceitual."
+    },
+    {
+        "id": 102,
+        "enunciado": "Segundo a arquitetura ANSI/SPARC, o nível que permite a visão dos dados para um determinado usuário individual denomina-se:",
+        "alternativas": [
+            "interno.",
+            "interno-individual.",
+            "externo.",
+            "individual.",
+            "isolado."
+        ],
+        "gabarito": "externo."
+    },
+    {
+        "id": 103,
+        "enunciado": "Considere uma tabela de notas fiscais TB_NF e uma tabela de itens da nota fiscal TB_ITENS_NF. Assinale a alternativa que apresenta um possível comando SQL ANSI que realiza um update nos itens da TB_ITENS_NF, considerando a data de expedição da TB_NF.",
+        "alternativas": [
+            "UPDATE TB_ITENS_NF SET VALOR = X WHERE TB_NF.EXPEDICAO > ‘01/10/2008’.",
+            "UPDATE TB_ITENS_NF SET VALOR = X WHERE TB_NF.ID_NF = TB_ITENS_NF.ID_NF AND TB_NF.EXPEDICAO > ‘01/10/2008’.",
+            "UPDATE TB_ITENS_NF SET VALOR = X FROM TB_NF, TB_ITENS_NF WHERE TB_NF.EXPEDICAO > ‘01/10/2008’.",
+            "UPDATE TB_ITENS_NF FROM TB_NF, TB_ITENS_NF WHERE TB_NF.ID_NF = TB_ITENS_NF.ID_NF AND TB_NF.EXPEDICAO > ‘01/10/2008’.",
+            "UPDATE TB_ITENS_NF SET VALOR = X FROM TB_NF, TB_ITENS_NF WHERE TB_NF.ID_NF = TB_ITENS_NF.ID_NF AND TB_NF.EXPEDICAO > ‘01/10/2008’."
+        ],
+        "gabarito": "UPDATE TB_ITENS_NF SET VALOR = X FROM TB_NF, TB_ITENS_NF WHERE TB_NF.ID_NF = TB_ITENS_NF.ID_NF AND TB_NF.EXPEDICAO > ‘01/10/2008’."
+    },
+    {
+        "id": 104,
+        "enunciado": "Precisa-se consultar, em um banco de dados, todas as notas com itens e todos os itens que não possuem nota, utilizando-se SQL ANSI. Assinale a alternativa que contém uma possível consulta correta para realizar essa tarefa.",
+        "alternativas": [
+            "SELECT TB_NF.*, TB_ITENS_NF.* FROM TB_NF, TB_ITENS_NF WHERE TB_NF.ID_NF = TB_ITENS_NF.ID_NF.",
+            "SELECT TB_NF.*, TB_ITENS_NF.* FROM TB_NF, TB_ITENS_NF WHERE TB_NF.ID_NF *=* TB_ITENS_NF.ID_NF.",
+            "SELECT TB_NF.*, TB_ITENS_NF.* FROM TB_NF, TB_ITENS_NF WHERE TB_NF.ID_NF *= TB_ITENS_NF.ID_NF.",
+            "SELECT TB_NF.*, TB_ITENS_NF.* FROM TB_NF, TB_ITENS_NF WHERE TB_NF.ID_NF =* TB_ITENS_NF.ID_NF.",
+            "SELECT TB_NF.*, TB_ITENS_NF.* FROM TB_NF, TB_ITENS_NF WHERE TB_NF.ID_NF <> TB_ITENS_NF.ID_NF."
+        ],
+        "gabarito": "SELECT TB_NF.*, TB_ITENS_NF.* FROM TB_NF, TB_ITENS_NF WHERE TB_NF.ID_NF =* TB_ITENS_NF.ID_NF."
+    },
+    {
+        "id": 105,
+        "enunciado": "O conceito de independência de dados pode ser considerado similar ao conceito de tipo abstrato de dados empregado nas linguagens de programação. Em relação ao conceito de independência de dados, julgue o item a seguir.\nNa literatura de banco de dados podem ser encontrados três níveis de independência de dados: física, lógica e de objetos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 106,
+        "enunciado": "O conceito de independência de dados pode ser considerado similar ao conceito de tipo abstrato de dados empregado nas linguagens de programação. Em relação ao conceito de independência de dados, julgue o item a seguir.\nA independência de dados lógica diz respeito à capacidade de modificar o esquema físico sem que qualquer programa de aplicação precise ser reescrito.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 107,
+        "enunciado": "Internet: <www.ibm.com>.\nConsiderando a figura acima, julgue o item que se segue.\nOs três níveis apresentados nos elementos #1, #2 e #3 correspondem aos três níveis do modelo ANSI/SPARC.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 108,
+        "enunciado": "Julgue o item a seguir, relativo a conceitos de bancos de dados.\nA independência lógica de dado permite se modificar o esquema conceitual de um banco de dados sem a necessidade de se reescrever os programas aplicativos. Esse tipo de independência dos dados é mais fácil de ser alcançada que a independência física, porém os programas são bastante dependentes da estrutura lógica dos dados que eles acessam.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 109,
+        "enunciado": "A ANSI (American National Standars Institute) é uma instituição vinculada a padrões e códigos, alfabetos e esquemas de sinalização. Quanto a essas atividades, pode-se afirmar que:",
+        "alternativas": [
+            "Apenas adota a normalização requerida.",
+            "Apenas publica a normalização requerida.",
+            "Somente desenvolve a normalização requerida.",
+            "Pública e desenvolve a normalização requerida."
+        ],
+        "gabarito": "Pública e desenvolve a normalização requerida."
+    },
+    {
+        "id": 110,
+        "enunciado": "Ao inserir comentários em qualquer lugar de um comando SQL, usamos dois estilos possíveis. Um deles é (/*...*/) e o outro se refere ao Padrão ANSI, sendo representado por:",
+        "alternativas": [
+            "“- -”.",
+            "“__”.",
+            "“//”.",
+            "“**”."
+        ],
+        "gabarito": "“- -”."
+    },
+    {
+        "id": 111,
+        "enunciado": "Considerando os três níveis da arquitetura de sistemas de bancos de dados ANSI/SPARC, a chave para a independência física de dados deverá ser construída e mantida pelo mapeamento",
+        "alternativas": [
+            "conceitual/interno.",
+            "externo/conceitual.",
+            "externo/interno.",
+            "externo/externo.",
+            "interno/interno."
+        ],
+        "gabarito": "conceitual/interno."
+    },
+    {
+        "id": 112,
+        "enunciado": "Internet: <www.ibm.com>.\nO diagrama acima apresenta um relacionamento de mapeamento entre elementos de desenho de bases de dados do SGBD DB2, em que estão destacados dois níveis de organização, chamados N1 e N2. Considerando o diagrama, julgue o item a seguir.\nPode-se estabelecer uma associação entre os níveis N1 e N2 do diagrama, com os níveis conceitual e interno presentes na arquitetura ANSI-SPARC, respectivamente.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 113,
+        "enunciado": "A arquitetura ANSI/SPARC divide um sistema de banco de dados em três níveis, da seguinte forma:\nI. interno que é o que trata do modo como os dados são armazenados fisicamente.\nII. externo que é o que oferece uma visão comunitária dos dados.\nIII. conceitual que é o que trata do modo como os dados são visualizados por usuários individuais.\nÉ correto o que se afirma em",
+        "alternativas": [
+            "I, apenas.",
+            "II, apenas.",
+            "III, apenas.",
+            "I e III, apenas.",
+            "I, II e III."
+        ],
+        "gabarito": "I, apenas."
+    },
+    {
+        "id": 114,
+        "enunciado": "Um sistema de banco de dados relacional, sob a arquitetura ANSI/SPARC, tem correspondência conceitual com",
+        "alternativas": [
+            "o nível conceitual, apenas.",
+            "o nível externo, apenas.",
+            "o nível interno, apenas.",
+            "os níveis conceitual e externo, apenas.",
+            "os níveis conceitual, externo e interno."
+        ],
+        "gabarito": "os níveis conceitual e externo, apenas."
+    },
+    {
+        "id": 115,
+        "enunciado": "Marque a opção que contenha somente comandos da linguagem de definição de dados no contexto SQL ANSY/ISO:",
+        "alternativas": [
+            "Create index, select, drop table.",
+            "Create select, create view, update table.",
+            "Create table, create view, update table.",
+            "Alter table, drop index, create table."
+        ],
+        "gabarito": "Alter table, drop index, create table."
+    },
+    {
+        "id": 116,
+        "enunciado": "Do ponto de vista de organização lógica dos dados, a arquitetura de três-esquemas, também conhecida como arquitetura ANSI/SPARC, é definida por três níveis ou esquemas: o esquema interno, o esquema conceitual e o nível externo. Considerando essa arquitetura de dados, julgue o item a seguir.\nA independência física de dados refere-se à capacidade de poder realizar mudanças no esquema externo sem ter que modificar o esquema conceitual.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 117,
+        "enunciado": "Do ponto de vista de organização lógica dos dados, a arquitetura de três esquemas, também conhecida como arquitetura ANSI/SPARC, é definida por três níveis ou esquemas: o esquema interno, o esquema conceitual e o nível externo.\nConsiderando essa arquitetura de dados, julgue o item a seguir.\nA independência física de dados refere-se à capacidade de poder realizar mudanças no esquema interno sem ter de modificar o esquema conceitual.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 118,
+        "enunciado": "Do ponto de vista de organização lógica dos dados, a arquitetura de três esquemas, também conhecida como arquitetura ANSI/SPARC, é definida por três níveis ou esquemas: o esquema interno, o esquema conceitual e o nível externo.\nConsiderando essa arquitetura de dados, julgue o item a seguir.\nO nível externo é constituído de um conjunto de visões que abrange os esquemas externos ou as visões dos usuários.\nCada visão descreve todo o banco de dados de acordo com um modelo específico de dados suportado pelo sistema de gerência do banco de dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 119,
+        "enunciado": "Do ponto de vista de organização lógica dos dados, a arquitetura de três esquemas, também conhecida como arquitetura ANSI/SPARC, é definida por três níveis ou esquemas: o esquema interno, o esquema conceitual e o nível externo.\nConsiderando essa arquitetura de dados, julgue o item a seguir.\nA arquitetura ANSI/SPARC de três esquemas é uma característica específica de sistemas de bancos de dados de modelo de dados relacionais e objeto/relacionais.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 120,
+        "enunciado": "Segundo a arquitetura ANSI/SPARC, os três níveis de esquema usados para separar o banco de dados físico das aplicações do usuário são:",
+        "alternativas": [
+            "físico, estrutural e externo.",
+            "lógico, físico e interno.",
+            "interno, conceitual e externo.",
+            "interno, lógico e restrito.",
+            "conceitual, estrutural e físico."
+        ],
+        "gabarito": "interno, conceitual e externo."
+    },
+    {
+        "id": 121,
+        "enunciado": "Os três níveis componentes da arquitetura ANSI/SPARC de sistemas de bancos de dados são",
+        "alternativas": [
+            "distribuído, concorrente e paralelo.",
+            "básico, simples e complexo.",
+            "dimensional, relacional e restrito.",
+            "externo, conceitual e interno.",
+            "compacto, estendido e paralelo."
+        ],
+        "gabarito": "externo, conceitual e interno."
+    },
+    {
+        "id": 122,
+        "enunciado": "Considerando a proposta ANSI/X3/SPARC, o esquema de banco de dados",
+        "alternativas": [
+            "interno corresponde ao modelo lógico.",
+            "interno corresponde ao modelo conceitual.",
+            "externo corresponde ao modelo lógico.",
+            "externo corresponde ao modelo conceitual.",
+            "conceitual corresponde ao modelo lógico."
+        ],
+        "gabarito": "interno corresponde ao modelo lógico."
+    },
+    {
+        "id": 123,
+        "enunciado": "Os três níveis componentes de uma arquitetura de bancos de dados são:",
+        "alternativas": [
+            "básico, simples e complexo.",
+            "externo, conceitual e interno.",
+            "distribuído, básico e paralelo.",
+            "compacto, estendido e paralelo.",
+            "dimensional, relacional e complexo."
+        ],
+        "gabarito": "externo, conceitual e interno."
+    },
+    {
+        "id": 124,
+        "enunciado": "O espelhamento “mirror” no Sybase ocorre em que nível?",
+        "alternativas": [
+            "Device.",
+            "Fragmento.",
+            "Banco de Dados.",
+            "Tabela."
+        ],
+        "gabarito": "Device."
+    },
+    {
+        "id": 125,
+        "enunciado": "Uma vantagem da arquitetura de 3 níveis ANSI/ SPARC é prover independência de dados. De acordo com esta arquitetura, é possível prover dois tipos de independência de dados:",
+        "alternativas": [
+            "funcional e lógica;",
+            "cronológica e funcional;",
+            "física e lógica;",
+            "física e referencial;",
+            "cronológica e referencial."
+        ],
+        "gabarito": "física e lógica;"
+    },
+    {
+        "id": 126,
+        "enunciado": "De acordo com a arquitetura ANSI/SPARC um Sistema de Banco de Dados divide-se em três níveis gerais: interno, conceitual e externo. É correto afirmar que:",
+        "alternativas": [
+            "o nível interno é responsável pelo mapeamento entre os níveis externo e conceitual;",
+            "o nível externo é o mais próximo ao armazenamento físico;",
+            "o nível conceitual é o mais próximo ao usuário;",
+            "o nível conceitual esconde os detalhes sobre o armazenamento físico dos dados;",
+            "existe uma única visão externa no nível externo."
+        ],
+        "gabarito": "o nível conceitual esconde os detalhes sobre o armazenamento físico dos dados;"
+    },
+    {
+        "id": 127,
+        "enunciado": "Acerca dos sistemas de banco de dados relacionais, julgue o seguinte item.\nA independência lógica dos dados é mais difícil de se obter que a independência física, uma vez que os programas são muito dependentes da estrutura lógica dos dados que acessam.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    }
+]

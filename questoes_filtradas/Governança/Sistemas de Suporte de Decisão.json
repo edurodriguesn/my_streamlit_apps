@@ -1,0 +1,613 @@
+[
+    {
+        "id": 1,
+        "enunciado": "Julgue o item a seguir, relativos a Business Process Model and Notation (BPMN) e aos indicadores de desempenho, incluindo KPIs (key performance indicators) e BSC\n(balanced scorecard).\nOs KPIs devem basear-se em métricas numéricas, evitando-se o uso de indicadores derivados de avaliações qualitativas ou subjetivas, devido à dificuldade de padronização dessas medidas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 2,
+        "enunciado": "Acerca das ferramentas DokuWiki, GLPI e Zabbix e da metodologia ágil Scrum, julgue o item seguinte.\nUtiliza‑se a integração entre GLPI e Zabbix para automatizar a abertura de chamados a partir de eventos críticos detectados pelo sistema de monitoramento.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 3,
+        "enunciado": "Um analista de sistemas ficou responsável por catalogar o portfólio de softwares usados em sua empresa para permitir um conhecimento maior das capacidades de gerenciar informações. Um dos softwares a serem catalogados é destinado aos gerentes médios e produz relatórios sumários e informações sobre o desempenho atual da empresa.\nO analista de sistemas deve classificar esse software como um sistema de",
+        "alternativas": [
+            "apoio a decisão - SAD.",
+            "apoio executivo - SAE.",
+            "automação de escritório.",
+            "informações gerenciais - SIG.",
+            "processamento de transações - SPT."
+        ],
+        "gabarito": "informações gerenciais - SIG."
+    },
+    {
+        "id": 4,
+        "enunciado": "O gerente de produção de uma grande indústria automobilística precisa avaliar o impacto de diferentes cenários de produção em resposta a flutuações na demanda do mercado. Para isso, ele utiliza um sistema que permite a simulação de diversos cenários, incorporando variáveis como custo de matérias-primas, capacidade de mão de obra e tempo de produção. Esse sistema facilita a visualização de resultados potenciais através de gráficos e relatórios detalhados.\nO tipo de sistema projetado especificamente para esse fim é o",
+        "alternativas": [
+            "Sistema de Planejamento de Recursos Empresariais (ERP).",
+            "Sistema de Processamento de Transações (SPT).",
+            "Sistema de Informações Gerenciais (SIG).",
+            "Sistema de Informações Executivas (SIE).",
+            "Sistema de Apoio à Decisão (SAD)."
+        ],
+        "gabarito": "Sistema de Apoio à Decisão (SAD)."
+    },
+    {
+        "id": 5,
+        "enunciado": "Julgue o próximo item, relativo a conceitos e noções de modelo CRISP-DM, sistemas de suporte a decisão, gestão de conteúdo e aplicações de data warehouse com OLAP.\nOs sistemas de apoio à decisão (DSS) combinam dados e modelos analíticos sofisticados e interface amigável, e estão sob controle do usuário.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 6,
+        "enunciado": "Sistemas de Suporte à Decisão (DSS) são ferramentas utilizadas para auxiliar a tomada de decisão em organizações, agregando e processando dados de múltiplas fontes para gerar insights úteis.\nConsiderando os componentes de um DSS, qual das opções abaixo descreve corretamente uma característica desses sistemas?",
+        "alternativas": [
+            "Um DSS utiliza apenas dados históricos e não tem capacidade de processar dados em tempo real para decisões imediatas.",
+            "Um DSS é utilizado principalmente para operações de rotina e processos transacionais diários.",
+            "Um DSS é projetado exclusivamente para substituir a tomada de decisão humana, eliminando o papel do gestor.",
+            "Um DSS deve operar isoladamente, sem integração com outros sistemas organizacionais para evitar conflito de dados.",
+            "Um DSS geralmente inclui um modelo de dados, um modelo analítico e uma interface para que os gestores explorem cenários e tomem decisões informadas."
+        ],
+        "gabarito": "Um DSS geralmente inclui um modelo de dados, um modelo analítico e uma interface para que os gestores explorem cenários e tomem decisões informadas."
+    },
+    {
+        "id": 7,
+        "enunciado": "Um sistema para inteligência de negócios tem por base ferramentas de suporte à decisão que focam em prover um ambiente voltado para informações analíticas em vez de informações transacionais (transações de negócio).\nAssinale a opção que apresenta apenas exemplos de informações analíticas.",
+        "alternativas": [
+            "Um ingresso de cinema / Projeção de vendas para o próximo trimestre.",
+            "Estatísticas de vendas por estado / Tendências no mercado de seguros.",
+            "Registro de venda de um remédio na farmácia / Um comprovante de compra de remédio.",
+            "Um registro de venda de cerveja e fralda / Relatório de análise de carrinho de vendas.",
+            "Estatísticas de vendas no mesmo carrinho (basket analysis) / Um bilhete de passagem aérea."
+        ],
+        "gabarito": "Estatísticas de vendas por estado / Tendências no mercado de seguros."
+    },
+    {
+        "id": 8,
+        "enunciado": "Acerca dos Sistemas de Suporte à Decisão (SSD), assinale a alternativa correta.",
+        "alternativas": [
+            "Eles combinam dados e modelos analíticos sofisticados.",
+            "A única desvantagem presente em todos os SSDs é que eles não possuem interface amigável para apoiar a tomada de decisão.",
+            "É um software utilizado para automatizar completamente o processo de tomada de decisão.",
+            "Trata-se de um sistema de inteligência artificial que toma decisões autônomas sem a intervenção humana.",
+            "Eles são utilizados, exclusivamente, para coletar e armazenar dados relevantes para a tomada de decisão."
+        ],
+        "gabarito": "Eles combinam dados e modelos analíticos sofisticados."
+    },
+    {
+        "id": 9,
+        "enunciado": "Julgue o item a seguir, a respeito dos sistemas de suporte à decisão e gestão de conteúdo.\nSoluções de sistemas de suporte à decisão baseados em modelos de previsão auxiliam a determinar as consequências ao se alterar alguma decisão.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 10,
+        "enunciado": "Julgue o item a seguir, a respeito dos sistemas de suporte à decisão e gestão de conteúdo.\nUm sistema de apoio à decisão tem como características a manipulação de limitado volume de dados, o processamento de dados de fontes diferentes e orientação textual e gráfica.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 11,
+        "enunciado": "Julgue o item a seguir, a respeito dos sistemas de suporte à decisão e gestão de conteúdo.\nSistemas de apoio à decisão complementam os recursos intelectuais dos indivíduos com as capacidades do computador para melhorar a qualidade das decisões.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 12,
+        "enunciado": "A definição abaixo foi retirada do livro \"Sistemas de Informações Gerenciais\".\n\"O modelo ______ (sigla em inglês) pode ser utilizado para analisar os custos diretos e indiretos, auxiliando as empresas a determinar o custo real de implantação de tecnologias específicas\".\nAssinale a alternativa que preencha corretamente a lacuna.",
+        "alternativas": [
+            "TCO.",
+            "PDI.",
+            "ROI.",
+            "PDTI."
+        ],
+        "gabarito": "TCO."
+    },
+    {
+        "id": 13,
+        "enunciado": "Julgue o item a seguir, referentes à BI (Business Intelligence), aos Sistemas de Apoio à Decisão (DSS) e ao Banco de Dados Distribuído (BDD).\nOs DSS são soluções que auxiliam as organizações no processo decisório, utilizando modelos para resolver problemas não estruturados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 14,
+        "enunciado": "Julgue o item a seguir, referentes à BI (Business Intelligence), aos Sistemas de Apoio à Decisão (DSS) e ao Banco de Dados Distribuído (BDD).\nOs DSS são sistemas simples, os quais não exigem conhecimento técnico e de negócios aprofundado para serem elaborados e utilizados com sucesso.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 15,
+        "enunciado": "Acerca de inteligência de negócios (business intelligence), julgue o item a seguir.\nOs sistemas de suporte à decisão (DSS, do inglês decision support system) são programados para substituir os tomadores de decisão das organizações e podem ser usados rotineiramente em tarefas de tomada de decisão comuns, devendo ser evitados para tarefas de decisões pontuais de alto nível relacionadas às estratégias de negócios.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 16,
+        "enunciado": "Acerca do sistema de suporte à decisão (SSD), julgue o item a seguir.\nA análise de sensibilidade, estudo do impacto que as mudanças em uma ou mais partes de um modelo têm em outras partes ou no resultado, é extremamente valiosa no SSD.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 17,
+        "enunciado": "Acerca do sistema de suporte à decisão (SSD), julgue o item a seguir.\nA principal desvantagem do SSD é que ele não é interativo.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 18,
+        "enunciado": "Acerca do sistema de suporte à decisão (SSD), julgue o item a seguir.\nO sistema de suporte à decisão é uma classe dos sistemas de informação que combina modelos e dados para solucionar problemas semiestruturados, sem qualquer participação do usuário, já que todos os seus processos são automáticos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 19,
+        "enunciado": "Acerca do sistema de suporte à decisão (SSD), julgue o item a seguir.\nOs bancos de dados não podem ser considerados como componentes de um SSD, uma vez que ele é a própria base de conhecimento para tal sistema.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 20,
+        "enunciado": "Acerca do sistema de suporte à decisão (SSD), julgue o item a seguir.\nAs aplicações do SSD são encontradas apenas na área de comércio eletrônico.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 21,
+        "enunciado": "A respeito de bancos de dados relacionais, julgue o item a seguir.\nEm sistemas de suporte à decisão, uma das abordagens da árvore de decisão é a predição, em que são criadas regras com base em eventos já ocorridos para aplicação em eventos futuros similares.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 22,
+        "enunciado": "Determinada empresa de transporte possui uma frota de caminhões que movimenta diversos tipos de carga, tais como eletrônicos, brinquedos e eletrodomésticos.\nUm Sistema de Informações proprietário calcula detalhes financeiros e técnicos das viagens dessa frota. Os cálculos financeiros incluem, entre outros, custos de combustível, mão de obra e valor de frete. Os detalhes técnicos são inúmeros, como tipo e volume da carga, capacidade, consumo e velocidade dos caminhões, restrições dos trajetos, distâncias aos destinos e outros.\nO sistema responde a perguntas, tais como:\ni) dada uma especificação de carga, uma escala de entrega e preços de frete, quais caminhões e motoristas devem ser alocados para maximizar o lucro? ii) qual conjunto (velocidade, trajeto) deve ser utilizado por determinado caminhão para otimizar o lucro e garantir as datas de entrega? A Figura resume a configuração do sistema.\nAdaptado de Laudon and Laudon.\nManagement Information Systems: Managing the digital firm. 13 ed; Pearson 2014.\nCom base na descrição acima, o tipo de Sistema de Informação utilizado por essa empresa é o",
+        "alternativas": [
+            "CRM.",
+            "SIG.",
+            "Sistema Especialista.",
+            "Sistema de Suporte à Decisão.",
+            "Sistema de Processamento de Transações."
+        ],
+        "gabarito": "Sistema de Suporte à Decisão."
+    },
+    {
+        "id": 23,
+        "enunciado": "Os benefícios de um modelo de tomada de decisões com base em dados (DDD, do inglês data-driven decision-making) já foram demonstrados conclusivamente. O economista Erik Brynjolfsson e seus colegas do MIT e Wharton conduziram estudos sobre como DDD afeta a performance de uma empresa.\nPROVOST, F.; FAWCETT, T. Data Science for Business: What you need to know about data mining and data-analytic thinking. O'Reilly Media, 2013, tradução livre.\nCom base nessas informações, é correto afirmar que DDD se refere à pratica de",
+        "alternativas": [
+            "tomar uma decisão e, após, manipular dados artificialmente para servirem como base para ela.",
+            "utilizar inteligência artificial para remover o humano do processo de tomada de decisões, levando a decisões mais racionais.",
+            "olhar para os dados antes de tomar decisões com base puramente em intuições.",
+            "permitir os dados tomarem decisões.",
+            "basear decisões na análise de dados."
+        ],
+        "gabarito": "basear decisões na análise de dados."
+    },
+    {
+        "id": 24,
+        "enunciado": "Quando se faz uma análise de dados, considerando um modelo DDD (data-driven decision-making), é comum treinar modelos de classificadores/regressores para ajudar na tomada de decisões. Acerca desses modelos, assinale a alternativa correta.",
+        "alternativas": [
+            "É uma boa prática testar os modelos nos dados utilizados para treiná-los com o objetivo de avaliar seus resultados.",
+            "Existe um conjunto de métricas que devem ser sempre utilizadas para testar os modelos, independente do problema analisado.",
+            "Precisa-se considerar a quantidade de dados disponíveis e a complexidade do problema para se escolher o melhor modelo.",
+            "É sempre recomendado treinar os modelos em clusters de computadores, pois todos os modelos precisam de muita computação para treinar.",
+            "Um conjunto maior de dados, em geral, não possibilita o treinamento de modelos mais complexos."
+        ],
+        "gabarito": "Precisa-se considerar a quantidade de dados disponíveis e a complexidade do problema para se escolher o melhor modelo."
+    },
+    {
+        "id": 25,
+        "enunciado": "Em relação aos sistemas de Informação, suas características, tipos e benefícios, julgue o item a seguir.\nUm Sistema de Informação do tipo SIG (Sistema de Informação Gerencial) tem como objetivo a gerência dos usuários do SI e de suas competências.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 26,
+        "enunciado": "Em relação aos sistemas de Informação, suas características, tipos e benefícios, julgue o item a seguir.\nAlguns Sistemas de Informação podem fornecer relatórios para ajudar na tomada de decisão. Um dos tipos de relatório é o relatório de exceção que fornece informações específicas para situações inesperadas e excepcionais.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 27,
+        "enunciado": "Julgue o item seguinte quanto a sistemas de suporte à decisão e a banco de dados distribuído.\nOs sistemas de suporte à decisão são sistemas simples que acessam bases de dados específicas de um determinado setor da empresa e auxiliam os desenvolvedores na escolha da tecnologia mais adequada para desenvolver os sistemas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 28,
+        "enunciado": "Analise as afirmativas sobre as tendências em Sistemas de Informação ao longo dos anos, colocando entre parênteses a letra “V”, quando se tratar de afirmativa verdadeira, e a letra “F” quando se tratar de afirmativa falsa. A seguir, assinale a alternativa que apresenta a sequência correta.\n( ) Os Sistemas de Informação Gerencial, baseados em relatórios administrativos, surgiram entre os anos 1990 e 2000 com o advento da internet.\n( ) Os sistemas de apoio à decisão, apoio interativo e ad hoc ao processo de tomada de decisão gerencial, surgiram entre os anos 1970e 1980.\n( ) Até os 1960, o papel dos sistemas de informação era simples processamento de transações, manutenção de registros, contabilidade e outros aplicativos de processamento eletrônico de dados.",
+        "alternativas": [
+            "V -V -V.",
+            "F - V - F.",
+            "V - F - F.",
+            "F - V - V.",
+            "F - F - F."
+        ],
+        "gabarito": "F - V - V."
+    },
+    {
+        "id": 29,
+        "enunciado": "Um sistema de informação é composto por um conjunto de componentes interrelacionados, utilizados para sentir, comunicar, analisar e apresentar informações com o propósito de melhorar nossa capacidade de perceber, compreender, controlar e criar. A respeito desse assunto, julgue, como VERDADEIRO ou FALSO, o item a seguir Os sistemas de informações gerenciais (DSS) alimentam os sistemas tanto de dados de entrada quanto as formas de processamento que são previamente conhecidas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 30,
+        "enunciado": "Um sistema de informação é composto por um conjunto de componentes interrelacionados, utilizados para sentir, comunicar, analisar e apresentar informações com o propósito de melhorar nossa capacidade de perceber, compreender, controlar e criar. A respeito desse assunto, julgue, como VERDADEIRO ou FALSO, o item a seguir Os sistemas de informação são estruturados por níveis, sendo TPS de nível operacional, KWS e OAS nível de conhecimento, MIS e DSS nível gerencial e ESS nível estratégico.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 31,
+        "enunciado": "O EIS (Enterprise Information System) é um sistema de informação que atua no nível estratégico da organização e possui algumas características especiais. Em relação a essas características, analise as assertivas abaixo.\nI. Esse tipo de sistema de informação é feito sob medida para cada usuário (um executivo da organização).\nII. Esse tipo de sistema de informação possui somente relatórios fixos que, para serem modificados, devem ser solicitados ao pessoal de Tecnologia da Informação.\nIII. Esse tipo de sistema de informação apoia decisões com alto grau de incerteza.\nÉ correto o que se afirma em",
+        "alternativas": [
+            "I, apenas.",
+            "II, apenas.",
+            "II e III, apenas.",
+            "I e III, apenas.",
+            "I, II e III."
+        ],
+        "gabarito": "I e III, apenas."
+    },
+    {
+        "id": 32,
+        "enunciado": "Julgue o item subsequente, relativo aos sistemas de processamento transacional.\nNo nível gerencial médio das empresas, encontram-se os sistemas de informações gerenciais, os sistemas de apoio a decisão e os sistemas de apoio aos executivos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 33,
+        "enunciado": "Julgue o item subsequente, relativo aos sistemas de processamento transacional.\nNo nível de conhecimento e execução das empresas, o apoio aos trabalhadores é dado pelos sistemas de trabalho em conhecimento, sistemas de automação de engenharia e sistemas de automação de escritório.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 34,
+        "enunciado": "Acerca dos sistemas de suporte à decisão e inteligência de negócio, julgue o item subsequente.\nPara que seja possível a resolução de problemas semiestruturados e não estruturados, um sistema de suporte à decisão deve incluir, minimamente, um subsistema de gerenciamento dos dados, um subsistema de gerenciamento de modelos, e uma interface com usuários e usuários finais.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 35,
+        "enunciado": "Acerca de business intelligence, julgue o item seguinte.\nUm sistema de suporte à decisão possui, tipicamente, os seguintes subsistemas: gerenciamento de dados, gerenciamento de modelos e gerenciamento de diálogo.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 36,
+        "enunciado": "Em relação a sistemas de suporte à decisão e gestão de conteúdo, julgue o item subsequente.\nSistemas de apoio à decisão são sistemas que, substituindo a intervenção humana, tomam decisão em situações críticas que envolvem o processamento de grande volume de informações em paralelo.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 37,
+        "enunciado": "Analise as afirmativas sobre a teoria de sistemas de informação, colocando entre parênteses a levra V, quando se tratar de afirmativa verdadeira, e a letra F quando se tratar de afirmativa falsa. A seguir, assinale a alternativa que apresenta a sequência correta.\n( ) Os Sistemas de Apoio à Decisão fornecem apoio interativo ad hoc a seus usuários e possibilitam a análise de um grande número de variáveis a fim de um posicionamento sobre determinada questão.\n( ) Os sistemas colaborativos pertencem ao grupo de Sistemas de Apoio Gerencial e possuem a função de monitorar e controlar processos físicos em plantas industriais.\n( ) Os sistemas de Gerenciamento da Cadeia de Suprimentos (SCM) possuem como função a integração e automação dos processos de atendimento ao cliente nas áreas de vendas, marketing e serviços de produto com o intuito de aproximá-los à empresa.",
+        "alternativas": [
+            "V – V – V.",
+            "V – F – F.",
+            "F – V – V.",
+            "V – F – V.",
+            "F – F – F."
+        ],
+        "gabarito": "V – F – F."
+    },
+    {
+        "id": 38,
+        "enunciado": "Dentre os tipos de sistemas de informação, aquele que permite aos administradores controlar, organizar e planejar a organização de modo eficaz e eficiente para que suas metas sejam atingidas é o",
+        "alternativas": [
+            "SSD.",
+            "SIG.",
+            "SPT.",
+            "SE."
+        ],
+        "gabarito": "SIG."
+    },
+    {
+        "id": 39,
+        "enunciado": "O avanço tecnológico influenciou a evolução dos sistemas de informação nas empresas e, concomitantemente, de seus componentes e das tecnologias a eles associadas.\nComo exemplo dessas modificações, identificam-se, sequencialmente no tempo, do mais antigo para o mais atual, os seguintes sistemas, tecnologias e componentes:",
+        "alternativas": [
+            "sistemas de informação executiva, cartões perfurados e sistemas de processamento de transações.",
+            "sistemas de gestão integrada, sistemas de apoio à decisão e memórias de ferrite.",
+            "redes mundiais de computadores, intranet e cartões perfurados.",
+            "intranet, tubos de raio catódicos e sistemas de processamento de transações.",
+            "memória de ferrite, relatórios de informações gerenciais e sistemas baseados em aprendizagem e gestão do conhecimento."
+        ],
+        "gabarito": "memória de ferrite, relatórios de informações gerenciais e sistemas baseados em aprendizagem e gestão do conhecimento."
+    },
+    {
+        "id": 40,
+        "enunciado": "Os Sistemas de Informação que integram todos os dados e processos de uma organização em um único sistema são conhecidos por Sistemas Integrados de Gestão Empresarial (SIGE ou SIG). Assinale a alternativa que se caracteriza como uma desvantagem na implementação de um SIGE numa empresa.",
+        "alternativas": [
+            "Elimina o uso de interfaces manuais.",
+            "Otimiza o fluxo da informação dentro da organização.",
+            "Otimiza o processo de tomada de decisão.",
+            "Torna os módulos dependentes uns dos outros.",
+            "Reduz os limites de tempo de resposta ao mercado."
+        ],
+        "gabarito": "Torna os módulos dependentes uns dos outros."
+    },
+    {
+        "id": 41,
+        "enunciado": "Quanto à estrutura e componentes dos sistemas de apoio à decisão (SAD), é INCORRETO afirmar que:",
+        "alternativas": [
+            "O subsistema de gestão de dados do SAD é semelhante a qualquer outro sistema de gestão de dados.",
+            "O subsistema de modelos do SAD tem diversos elementos: base de modelos, sistema de gestão de base de modelos, linguagem de modelagem, guia de modelos e execução, integração e comando de modelos.",
+            "O SAD possui três grandes categorias de usuários: gerentes seniores, trabalhadores de dados e profissionais especializados.",
+            "O subsistema de interface do usuário pode ser gerenciado por um software chamado sistema de gerenciamento de interface de usuário.",
+            "Os SAD mais avançados estão equipados com um componente chamado subsistema baseado em conhecimento."
+        ],
+        "gabarito": "O SAD possui três grandes categorias de usuários: gerentes seniores, trabalhadores de dados e profissionais especializados."
+    },
+    {
+        "id": 42,
+        "enunciado": "Ajudar uma organização a atingir suas metas, fornecendo aos administradores uma visão das operações regulares da empresa, de modo que possam controlar, organizar e planejar mais eficaz e eficientemente, é a finalidade principal de um.",
+        "alternativas": [
+            "Sistema de Processamento de Transações.",
+            "Sistema de Informações Gerenciais.",
+            "Sistema de Gerenciamento de Banco de Dados.",
+            "Sistema Especialista.",
+            "Projeto Estruturado de Sistema."
+        ],
+        "gabarito": "Sistema de Informações Gerenciais."
+    },
+    {
+        "id": 43,
+        "enunciado": "Os Sistemas de Suporte à Decisão (SSD) e os de Suporte Executivo (SSE) têm características que os tornam mais adequados para algumas aplicações em detrimento de outras.\nResumidamente, os",
+        "alternativas": [
+            "SSD são interativos sob controle do usuário e oferecem dados e modelos para a solução de problemas semiestruturados, e os SSE, geralmente, dão suporte à função de planejamento estratégico de uma empresa, envolvem questões não estruturadas e utilizam informações do ambiente externo.",
+            "SSD incorporam informações resumidas dos sistemas SSE e servem para tomada de decisões em situações estruturadas e os SSE dependem dos dados dos STP. (sistemas de processamento de transações) para resolver problemas operacionais, usando bases de dados construídas com informações do ambiente interno da empresa.",
+            "SSD são sistemas de extração de relatórios periódicos de formato preestabelecido, para apoio a ações de planejamento estratégico e baseiam-se em informações externas para resolver problemas estruturados, e os SSE incorporam informações resumidas dos sistemas SSD e servem para tomada de decisões baseadas em informações estáveis e maduras.",
+            "SSD servem para atender às operações estruturadas e de planejamento da organização, e os SSE geram relatórios predefinidos para serem utilizados diretamente pelo nível operacional.",
+            "SSD dependem dos dados dos STP (sistemas de processamento de transações) para usar em suas bases de dados, e os SSE servem para atender às operações estruturadas e à rotina da organização."
+        ],
+        "gabarito": "SSD são interativos sob controle do usuário e oferecem dados e modelos para a solução de problemas semiestruturados, e os SSE, geralmente, dão suporte à função de planejamento estratégico de uma empresa, envolvem questões não estruturadas e utilizam informações do ambiente externo."
+    },
+    {
+        "id": 44,
+        "enunciado": "Com relação à teoria sobre Sistemas de Informação em um sistema de apoio a decisão, qual das proposições abaixo estaria associada a uma modelagem analítica do tipo Análise de Sensibilidade?",
+        "alternativas": [
+            "A variável “A” é igual à variável “B” ?.",
+            "Qual o melhor valor da variável “A”, considerando os valores de “B” e “C”?.",
+            "E se aumentássemos o valor de “A” em 5 unidades, o que aconteceria com a variável “B”?.",
+            "Experimentemos aumentos sucessivos na variável “A” até que a variável “B” atinja o valor 10.",
+            "Vamos reduzir a variável “A” em 10 unidades repetidamente de forma que possamos entender sua relação com a variável “B”."
+        ],
+        "gabarito": "Vamos reduzir a variável “A” em 10 unidades repetidamente de forma que possamos entender sua relação com a variável “B”."
+    },
+    {
+        "id": 45,
+        "enunciado": "Os Sistemas de Informação, já há algum tempo, se beneficiam de ferramentas de troca eletrônica de documentos, utilizando um padrão de comunicação chamado Intercâmbio Eletrônico de Dados (EDI – Electronic Data Interchange).\nNesse contexto, um cenário que NÃO integra essa abordagem é que",
+        "alternativas": [
+            "a implementação de sistemas EDI tradicionais exigia, antes do surgimento da Internet, a utilização de uma rede de valor agregado (VAN – Value Added Network), que possui um custo alto para ser disponibilizada, o que limitou a popularização de seu uso.",
+            "a utilização da tecnologia Web para sistemas EDI ainda se revela como uma lacuna devido às questões relativas à segurança, confiabilidade e disponibilidade, além de inviabilizar a implantação de funções adicionais, tais como, colaboração e fluxo de trabalho.",
+            "os documentos rotineiros, como, por exemplo, os pedidos de compra, são trocados automaticamente por parceiros de negócio, diminuindo em muito a possibilidade de erros, reduzindo o tempo de ciclo da operação e promovendo parcerias estratégicas.",
+            "um dos importantes componentes de um EDI é o seu tradutor, que converte dados em um formato padrão antes de eles serem transmitidos; em seguida, o formulário padrão é convertido nos dados originais, viabilizando a troca dos documentos.",
+            "um dos requisitos para a implantação dos EDI tradicionais é a necessidade de que os parceiros de negócio que implantarão essa abordagem de troca de documentos utilizem padrões de formatação de dados compatíveis, como, por exemplo, o ANSI X.12."
+        ],
+        "gabarito": "a utilização da tecnologia Web para sistemas EDI ainda se revela como uma lacuna devido às questões relativas à segurança, confiabilidade e disponibilidade, além de inviabilizar a implantação de funções adicionais, tais como, colaboração e fluxo de trabalho."
+    },
+    {
+        "id": 46,
+        "enunciado": "Texto para o item.\nUma equipe de desenvolvimento de software recebeu a incumbência de desenvolver um sistema com as características apresentadas a seguir.\nO sistema deverá ser integrado, interoperável, portável e seguro.\nO sistema deverá apoiar tanto o processamento online, quanto o suporte a decisão e gestão de conteúdos.\nO sistema deverá ser embasado na plataforma JEE (Java enterprise edition) v.6, envolvendo servlets, JSP (Java server pages), Ajax, JSF (Java server faces) 2.0, Hibernate 3.5, SOA e web services.\nO líder da equipe iniciou, então, um extenso processo de coleta de dados com o objetivo de identificar as condições limitantes da solução a ser desenvolvida e tomar decisões arquiteturais e tecnológicas que impactarão várias características funcionais e não funcionais do sistema, ao longo de seu ciclo de vida. A partir dessa coleta, o líder deverá apresentar à equipe um conjunto de informações e de decisões.\nConsiderando que o sistema descrito no texto apresenta características de suporte para a decisão e a gestão de conteúdos, julgue o próximo item.\nTrês das características de suporte para a decisão que um sistema pode ter são: apresentar interface para o usuário final embasada em planilha eletrônica; conter um SGBD com uma tabela central e várias tabelas-satélites ou mesmo com estrutura recursiva (floco de neve); integrar informações oriundas de várias fontes de dados heterogêneas tanto no que concerne ao formato de dados de entrada, quanto à frequência de atualização dos dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 47,
+        "enunciado": "Analise as seguintes afirmativas sobre os tipos de sistemas de informação organizacionais:\nI. Um sistema especialista tem como objetivo principal imitar a experiência humana em determinada área e tomar decisões com base no conhecimento e experiência dentro de um domínio específico.\nII. Um sistema de planejamento de recursos empresariais tem como objetivo principal realizar transações entre organizações (B2B) e entre organizações e clientes\n(B2C).\nIII. Um sistema de informação gerencial tem como objetivo principal produzir relatórios resumidos de dados de transações, geralmente para uma área específica da empresa.\nSão VERDADEIRAS as afirmativas:",
+        "alternativas": [
+            "I, II e III.",
+            "I e III, apenas.",
+            "II e III, apenas.",
+            "I e II, apenas."
+        ],
+        "gabarito": "I e III, apenas."
+    },
+    {
+        "id": 48,
+        "enunciado": "Assinale a alternativa que denomina corretamente as etapas de processamento em nível operacional, que visam ao fornecimento das informações gerenciais, em apoio ao planejamento estratégico:",
+        "alternativas": [
+            "Sistema de informações gerenciais.",
+            "Planejamento estratégico.",
+            "Planejamento tático.",
+            "Atividades de nível básico.",
+            "Coleta de dados e retroalimentação."
+        ],
+        "gabarito": "Sistema de informações gerenciais."
+    },
+    {
+        "id": 49,
+        "enunciado": "Sobre o uso gerencial da informação, analise:\nI. No planejamento estratégico, são criados os planos referentes aos fins a serem atingidos pela empresa, na forma de objetivos, metas e diretrizes.\nII. No planejamento tático, inicia-se o fluxo da coleta de dados.\nIII. O planejamento estratégico faz parte do estágio coleta de dados, e o planejamento tático faz parte do estágio uso gerencial da informação.\nEstá(ão) correta(s) apenas a(s) afirmativa(s):",
+        "alternativas": [
+            "II.",
+            "I.",
+            "III.",
+            "I, II.",
+            "I, II, III."
+        ],
+        "gabarito": "I."
+    },
+    {
+        "id": 50,
+        "enunciado": "Um Sistema de Informação Gerencial (SIG) tem como função",
+        "alternativas": [
+            "atender ao nível estratégico da empresa, por meio da criação de um ambiente genérico de comunicação.",
+            "filtrar dados críticos relacionados a situações de mudanças constantes.",
+            "disponibilizar relatórios ou acesso online aos registros de desempenho da empresa.",
+            "atender às necessidades de informação no nível de conhecimento da empresa.",
+            "auxiliar gerentes em tomadas de decisão não-usuais."
+        ],
+        "gabarito": "disponibilizar relatórios ou acesso online aos registros de desempenho da empresa."
+    },
+    {
+        "id": 51,
+        "enunciado": "Em um Sistema de Apoio a Decisão (SAD), _____________ são elementos formados por informações internas e externas à organização, por conhecimentos e experiências de especialistas e por informações históricas acerca das decisões tomadas.\nEscolha a alternativa que preenche corretamente a lacuna acima.",
+        "alternativas": [
+            "Banco de dados.",
+            "Ambientes aplicativos.",
+            "Ambientes operacionais.",
+            "Interfaces com o usuário.",
+            "Ferramentas analíticas."
+        ],
+        "gabarito": "Banco de dados."
+    },
+    {
+        "id": 52,
+        "enunciado": "Com relação à teoria sobre Sistemas de Informação, a figura abaixo representa os diferentes níveis de tomada de decisão estruturados em uma pirâmide gerencial:\nSobre a pirâmide gerencial é correto afirmar que:",
+        "alternativas": [
+            "a administração operacional monitora o desempenho estratégico de uma organização e envolve um público composto em sua maioria por conselhos de diretores e principais executivos.",
+            "as decisões tomadas no nível de administração operacional tendem a ser mais estruturadas.",
+            "o nível de administração tática envolve um público formado, em sua grande maioria, por gerentes de operações que desenvolvem planos em longo prazo.",
+            "a administração estratégica tende a trabalhar com informações mais estruturadas. O programa denominado “controle de estoque” é um tipo de aplicativo bastante comum ao público deste tipo de administração.",
+            "os tomadores de decisão do nível operacional exigem relatórios resumidos, ad hoc e não programados, previsões e informações externas para apoiar seu planejamento."
+        ],
+        "gabarito": "as decisões tomadas no nível de administração operacional tendem a ser mais estruturadas."
+    },
+    {
+        "id": 53,
+        "enunciado": "Marque V nas afirmativas verdadeiras e F nas afirmativas falsas.\n( ) Informação são dados com significado num contexto específico.\n( ) Todo sistema é um sistema de informação.\n( ) O foco principal de um SIG é a eficiência operacional, enquanto o foco principal de um SAD é a eficácia da tomada de decisão.\n( ) Um SAD é mais adequado para lidar com problemas não-estruturados, enquanto um SIG é mais adequado para lidar com problemas estruturados.\n( ) SIG e SAD podem ser integrados para prover funções complementares.\n( ) SAD são usados exclusivamente para decisões estratégicas de uma organização.\nAssinale a alternativa que apresenta a seqüência CORRETA, de cima para baixo.",
+        "alternativas": [
+            "F– V– V– V– F– F.",
+            "V– V– V– F– V– F.",
+            "F– V– V– F– F– V.",
+            "V– F– F– F– V– V.",
+            "V– F– V– V– V– F."
+        ],
+        "gabarito": "V– F– V– V– V– F."
+    },
+    {
+        "id": 54,
+        "enunciado": "O foco de um Sistema de Informação de Apoio à Decisão é:",
+        "alternativas": [
+            "Explorar o conhecimento de especialistas de um domínio de aplicação.",
+            "Fornecer informação para a alta gerência.",
+            "Ajudar gerentes a identificar e descobrir as causas de um mau resultado de negócio.",
+            "Integrar sistemas de processamento de transações de negócio.",
+            "Nenhuma das opções acima."
+        ],
+        "gabarito": "Ajudar gerentes a identificar e descobrir as causas de um mau resultado de negócio."
+    },
+    {
+        "id": 55,
+        "enunciado": "Com o desenvolvimento das tecnologias da informação foi possível realizar a comunicação multi- plataformas aumentando a complexidade do controle dos dados operacionais. Relativos a arquitetura e tecnologias de sistemas de informação, julgue o item a seguir.\nSistemas de apoio à decisão são aplicações com base em software que utilizam modelos de bancos de dados e técnicas analíticas para responder a problemas pouco estruturados. Utiliza modelos estruturados para resolver problemas complexos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 56,
+        "enunciado": "Com relação à classificação dos sistemas de informação, é INCORRETO afirmar que",
+        "alternativas": [
+            "as planilhas eletrônicas são exemplos de Sistema de Automação de Escritório (SAE).",
+            "as redes neurais artificiais são tipos de Sistema de Informação Transacional (SIT).",
+            "os data warehouses são exemplos de Sistemas de Apoio a Decisão (SAD).",
+            "os ERPs são considerados tipos de Sistema de Informação Empresarial (SIE)."
+        ],
+        "gabarito": "as redes neurais artificiais são tipos de Sistema de Informação Transacional (SIT)."
+    },
+    {
+        "id": 57,
+        "enunciado": "Os tipos Um, Dois e Três dos sistemas de suporte à decisão correspondem, respectivamente, a:",
+        "alternativas": [
+            "Análise, Relatório e Predição do Futuro.",
+            "Análise, Predição do Futuro e Relatório.",
+            "Relatório, Análise e Predição do Futuro.",
+            "Relatório, Predição do Futuro e Análise.",
+            "Predição do Futuro, Relatório e Análise."
+        ],
+        "gabarito": "Relatório, Análise e Predição do Futuro."
+    },
+    {
+        "id": 58,
+        "enunciado": "Os sistemas que fornecem informações integradas e devidamente sumarizadas, a partir de diversos sistemas transacionais, provendo material para análise, planejamento e suporte ao processo decisório e fornece o desempenho do departamento ao gerente de médio porte, são chamados de:",
+        "alternativas": [
+            "SAD – Sistemas de Apoio a Decisão.",
+            "ST – Sistemas Transacionais.",
+            "SE – Sistemas Especialistas.",
+            "SIG – Sistema de Informações Gerenciais.",
+            "SIE – Sistemas de Informação Executivos."
+        ],
+        "gabarito": "SIG – Sistema de Informações Gerenciais."
+    }
+]

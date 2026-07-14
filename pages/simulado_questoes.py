@@ -236,7 +236,14 @@ def escape_markdown(text):
     
     return re.sub(pattern, replace_match, text)
 
-st.subheader(f"Questão {q['id']} de {total}")
+col_titulo, col_ir = st.columns([3, 1])
+with col_titulo:
+    st.subheader(f"Questão {q['id']} de {total}")
+with col_ir:
+    ir_para = st.number_input("Ir para:", min_value=1, max_value=total, value=idx + 1, key="ir_questao", label_visibility="collapsed")
+    if ir_para != idx + 1:
+        st.session_state.idx = ir_para - 1
+        st.rerun()
 if q.get("assunto"):
     st.caption(f"📚 Assunto: {q['assunto']}")
 st.markdown(escape_markdown(q["enunciado"]))

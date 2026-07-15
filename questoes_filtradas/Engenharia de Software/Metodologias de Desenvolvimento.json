@@ -1,0 +1,1783 @@
+[
+    {
+        "id": 1,
+        "enunciado": "No contexto institucional de organizações que buscam maior flexibilidade, eficiência e alinhamento estratégico na condução de projetos, o Manifesto Ágil orienta a adoção de práticas e valores voltados à adaptação contínua e à colaboração. Considerando os princípios do Manifesto ágil, assinale (V) para a afirmativa verdadeira e (F) para a falsa.\n( ) Mudanças nos requisitos são bem-vindas, mesmo em fases avançadas do desenvolvimento, pois os processos ágeis exploram essas mudanças como oportunidades para gerar vantagem competitiva ao cliente.\n( ) A atenção contínua à excelência técnica e a um bom design contribui diretamente para o aumento da agilidade.\n( ) As melhores arquiteturas, requisitos e soluções de design emergem de equipes tradicionais.\n( ) Construa projetos em torno de indivíduos motivados, oferecendo-lhes o ambiente e o suporte necessários e confiando neles para a realização do trabalho.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "V – V – V – V.",
+            "F – F – V – F.",
+            "V – F – V – F.",
+            "F – V – V – F.",
+            "V – V – F – V."
+        ],
+        "gabarito": "V – V – F – V."
+    },
+    {
+        "id": 2,
+        "enunciado": "O departamento de TI de uma escola está desenvolvendo um Sistema de Gestão Escolar usando a metodologia ágil. Depois de definido 90% do escopo do projeto, o diretor da escola solicitou uma mudança significativa no escopo com a alegação de que a nova funcionalidade tinha se tornado prioridade.\nA equipe ágil deve lidar com essa demanda:",
+        "alternativas": [
+            "aceitando a mudança apenas após o término do projeto;",
+            "recusando a mudança, pois ela compromete o planejamento inicial;",
+            "avaliando a solicitação junto ao Product Owner e adaptando o backlog;",
+            "cobrando uma taxa adicional e incluindo a funcionalidade sem discussão;",
+            "suspendendo o projeto até que todas as mudanças sejam definidas."
+        ],
+        "gabarito": "avaliando a solicitação junto ao Product Owner e adaptando o backlog;"
+    },
+    {
+        "id": 3,
+        "enunciado": "Assinale a alternativa que contém uma vantagem de se utilizar métodos ágeis, como Scrum ou Kanban, no desenvolvimento de sistemas em relação ao desenvolvimento seguindo o modelo em cascata.",
+        "alternativas": [
+            "A documentação do produto é bem mais elaborada quando se utiliza métodos ágeis do que no desenvolvimento em cascata.",
+            "Embora o tempo para entrega possa ser elevado, já se conta com o sistema praticamente completo na primeira entrega.",
+            "O processo segue uma sequência bem definida de fases (requisitos, análise, implementação, teste e deploy).",
+            "Métodos ágeis baseiam-se em melhoria contínua, reduzindo o overhead de grandes etapas de planejamento."
+        ],
+        "gabarito": "Métodos ágeis baseiam-se em melhoria contínua, reduzindo o overhead de grandes etapas de planejamento."
+    },
+    {
+        "id": 4,
+        "enunciado": "Em relação à engenharia de requisitos, julgue o item a seguir.\nNos métodos ágeis, os requisitos são definidos de forma incremental, e a elicitação é efetuada continuamente ao longo do projeto pelos membros da equipe.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 5,
+        "enunciado": "Em relação à engenharia de requisitos, julgue o item a seguir.\nA flexibilidade do desenvolvimento ágil permite a evolução dos requisitos ao longo do projeto, porém, requer um processo formal de gerenciamento de mudanças para garantir que o produto entregue valor.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 6,
+        "enunciado": "Com relação às metodologias ágeis e suas aplicações no desenvolvimento de software, julgue o item subsequente.\nDevido à demanda por proteção, segurança e confiança, os métodos ágeis precisam de adaptações significativas para serem aplicados rotineiramente na engenharia de sistemas críticos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 7,
+        "enunciado": "Sobre metodologias ágeis e seus frameworks, analise as afirmações:\nI. O Scrum utiliza sprints com duração fixa (time-boxed) para entregar incrementos de produto potencialmente utilizáveis.\nII. O Kanban foca no fluxo contínuo de trabalho e limita o trabalho em progresso (WIP), diferentemente das iterações fixas do Scrum.\nIII. As reuniões diárias (Daily Scrum) são eventos time-boxed de 15 minutos onde a equipe sincroniza atividades e identifica impedimentos.\nIV. O Product Backlog é uma lista ordenada de tudo que pode ser necessário no produto, sendo a única fonte de requisitos para mudanças.\nEstão corretas as afirmações:",
+        "alternativas": [
+            "I e II apenas.",
+            "I, II e III apenas.",
+            "II, III e IV apenas.",
+            "I, II, III e IV.",
+            "I, III e IV apenas."
+        ],
+        "gabarito": "I, II, III e IV."
+    },
+    {
+        "id": 8,
+        "enunciado": "O chamado Manifesto Ágil tem com uma de suas premissas valorizar mais",
+        "alternativas": [
+            "resposta a modificações em vez de processos e ferramentas.",
+            "software em funcionamento em vez de seguir um plano.",
+            "custos de desenvolvimento em vez de interface facilitada.",
+            "indivíduos e interação em vez de processos e ferramentas.",
+            "colaboração de clientes em vez de seguir um plano."
+        ],
+        "gabarito": "indivíduos e interação em vez de processos e ferramentas."
+    },
+    {
+        "id": 9,
+        "enunciado": "No que diz respeito a métodos ágeis, julgue o item a seguir.\nEm se tratando de inovação aberta, a mensuração de desempenho e resultados, cuja definição se resume ao longo prazo, tem sido um desafio ainda a ser superado em razão da velocidade das mudanças requeridas por métodos ágeis como o Scrum e o Kanban.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 10,
+        "enunciado": "Acerca de métodos ágeis e de economia comportamental, julgue o item a seguir.\nEm métodos ágeis baseados em iteração, a equipe trabalha em iterações fundamentadas na complexidade da tarefa escolhida, cuja duração é dimensionada segundo o critério do menor tempo de entrega, ou seja, a economia comportamental é utilizada para gerenciar as entregas das tarefas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 11,
+        "enunciado": "Acerca de métodos ágeis e de economia comportamental, julgue o item a seguir.\nEm um desenvolvimento ágil baseado em fluxo utilizando o Canvas, a equipe extrai os recursos do backlog, com base em cronograma fixo de execução, ou seja, com base na métrica WIP (Work In Progress).",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 12,
+        "enunciado": "Acerca de métodos ágeis e de economia comportamental, julgue o item a seguir.\nConsidere que um projeto possui vinte itens no backlog a serem desenvolvidos e que a equipe consegue realizar cinco entregas em uma iteração com período de trinta dias. Considere, ainda, que a gestão do projeto seguirá o princípio ágil, com abordagem baseada por iteração. Nessa situação, o correto será a equipe trabalhar no requisito dos vinte itens de uma vez e, após elicitar os requisitos de todos os itens, realizar cinco entregas a cada trinta dias.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 13,
+        "enunciado": "Em relação à abordagem tradicional e ágil de projetos, julgue os itens que se seguem.\nI A abordagem tradicional de gestão de projetos é orientada ao particionamento do escopo e a entregas e pacotes, sendo muito influenciada pela engenharia de sistemas.\nII Em um projeto no qual o escopo não esteja claro, havendo, contudo, uma perspectiva do que se pretende desenvolver, parte-se para uma visão mais participativa dos stakeholders, sendo, nesse caso, mais indicada a gestão ágil.\nIII A abordagem tradicional prima pela entrega de software que funcione frequentemente, na escala de semanas até meses, preferentemente em períodos mais curtos.\nAssinale a opção correta.",
+        "alternativas": [
+            "Apenas o item I está certo.",
+            "Apenas o item III está certo.",
+            "Apenas os itens I e II estão certos.",
+            "Apenas os itens II e III estão certos.",
+            "Todos os itens estão certos."
+        ],
+        "gabarito": "Apenas os itens I e II estão certos."
+    },
+    {
+        "id": 14,
+        "enunciado": "No contexto do user story map, a funcionalidade única “comunicar atualizações” classifica-se como",
+        "alternativas": [
+            "uma iniciativa.",
+            "uma subtask.",
+            "um épico.",
+            "um backbone.",
+            "uma tarefa."
+        ],
+        "gabarito": "uma tarefa."
+    },
+    {
+        "id": 15,
+        "enunciado": "Um Tribunal está desenvolvendo um novo módulo de agendamento on-line para facilitar o acesso dos cidadãos aos serviços de atendimento. A equipe de TI decidiu adotar uma abordagem ágil para o desenvolvimento deste módulo, buscando entregas rápidas e feedback constante dos usuários. Considerando a metodologia ágil, o princípio que melhor descreve a prioridade da equipe em entregar funcionalidades prontas para uso em intervalos curtos e frequentes é:",
+        "alternativas": [
+            "a atenção contínua à excelência técnica e ao bom design aumenta a agilidade.",
+            "entregar software funcionando com frequência, na menor escala de tempo possível, preferivelmente em ciclos mais curtos.",
+            "acomodar mudanças nos requisitos, mesmo que tardias no desenvolvimento. Processos ágeis se valem da mudança para o benefício competitivo do cliente.",
+            "pessoas de negócio e desenvolvedores devem trabalhar juntas diariamente durante todo o projeto.",
+            "construir projetos em torno de indivíduos motivados. Oferecer-lhes o ambiente e o suporte de que precisam e confiar que rarao o trabalho."
+        ],
+        "gabarito": "entregar software funcionando com frequência, na menor escala de tempo possível, preferivelmente em ciclos mais curtos."
+    },
+    {
+        "id": 16,
+        "enunciado": "Uma Secretaria da Fazenda iniciou um projeto ágil para otimizar o sistema de emissão de NF-e. Após a 1ª iteração, que entregou a geração básica de NF-e, a equipe planeja a próxima, focando em usabilidade e validação fiscal com base nas necessidades dos contribuintes. A abordagem mais apropriada para o planejamento da próxima geração é:",
+        "alternativas": [
+            "Planejar com base no feedback, mas sem ajustar recursos, reavaliando a geração de NF-e.",
+            "Planejar a próxima iteração apenas com os requisitos iniciais, ignorando o feedback dos contribuintes.",
+            "Usar o feedback dos usuários para priorizar usabilidade e validação fiscal na 2ª iteração.",
+            "Redefinir todos os requisitos, focando só em validações fiscais, sem usar a 1ª entrega.",
+            "Focar a 2ª iteração em Infraestrutura técnica, sem revisar a 1ª ou considerar o feedback."
+        ],
+        "gabarito": "Usar o feedback dos usuários para priorizar usabilidade e validação fiscal na 2ª iteração."
+    },
+    {
+        "id": 17,
+        "enunciado": "Sobre processos tradicionais para desenvolvimento de software, bem como metodologias ágeis e Kanban, assinale a afirmativa correta.",
+        "alternativas": [
+            "Valorizar processos e ferramentas acima de indivíduos e interações é uma das principais características de metodologias ágeis.",
+            "Metodologias de processo sequenciais, como os modelos cascata e V, são indicados para cenários nos quais os requisitos são bem definidos e estáveis.",
+            "Uma ideia convencional em desenvolvimento de sistemas é que os impactos de mudanças crescem linearmente com o avanço do projeto.",
+            "Enquanto o Scrum tem sua origem na fabricação Lean, o Kanban é mais voltado para desenvolvimento de software.",
+            "Seja em modelos mais tradicionais, como em métodos ágeis, é fácil prever quais requisitos de software vão perdurar e quais serão alterados."
+        ],
+        "gabarito": "Metodologias de processo sequenciais, como os modelos cascata e V, são indicados para cenários nos quais os requisitos são bem definidos e estáveis."
+    },
+    {
+        "id": 18,
+        "enunciado": "O Manifesto Ágil foi lançado em 2001 e representa uma declaração de valores e princípios essenciais para o desenvolvimento de software.\nCom relação ao desenvolvimento ágil de software proposto no Manifesto, avalie se as afirmativas a seguir são verdadeiras (V) ou falsas (F).\n( ) O desenvolvimento ágil valoriza mais os indivíduos e interações do que os processos e ferramentas, bem como atribui mais valor ao software em funcionamento do que à documentação abrangente.\n( ) O movimento ágil valoriza menos a negociação de contratos, dando mais importância à colaboração com o cliente.\n( ) O desenvolvimento ágil valoriza mais seguir um plano do que responder a mudanças.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "V – V – F.",
+            "F – F – V.",
+            "V – F – V.",
+            "V – F – F.",
+            "F – V – V."
+        ],
+        "gabarito": "V – V – F."
+    },
+    {
+        "id": 19,
+        "enunciado": "Julgue o item seguinte, relativo a metodologias ágeis.\nO manifesto ágil é uma das referências para metodologias ágeis de software, em que se valoriza indivíduos e interações em detrimento de processos e ferramentas, assim como o software em funcionamento é mais importante que a documentação abrangente.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 20,
+        "enunciado": "Julgue o item seguinte, relativo a metodologias ágeis.\nNas metodologias adaptativas, incluindo-se a ágil, adota-se um cronograma baseado em fluxo que não utiliza um ciclo de vida ou fases, pois o objetivo dessas metodologias é otimizar o fluxo de entregas com base na capacidade de recursos e materiais.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 21,
+        "enunciado": "Julgue o próximo item, relativo a práticas ágeis de desenvolvimento de software e a processo interativo e incremental.\nUm dos princípios ágeis direciona os clientes do negócio a trabalharem diariamente em conjunto com os desenvolvedores ao longo de todo o projeto.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 22,
+        "enunciado": "Com relação às afirmações sobre a metodologia ágil, assinale (V) para a afirmativa verdadeira e (F) para a falsa.\n( ) A satisfação do cliente é o principal objetivo da metodologia ágil.\n( ) As metodologias ágeis são baseadas no modelo de desenvolvimento em cascata.\n( ) As equipes ágeis são compostas por indivíduos motivados e auto-organizados.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "F – V – V.",
+            "V – V – F.",
+            "V – F – F.",
+            "F – F – V.",
+            "V – F – V."
+        ],
+        "gabarito": "V – F – V."
+    },
+    {
+        "id": 23,
+        "enunciado": "No processo de desenvolvimento de software ágil, uma narrativa que relata, sob a perspectiva do usuário final, como o software irá agregar valor ao negócio é denominada",
+        "alternativas": [
+            "sprint.",
+            "iniciativa.",
+            "história de usuário.",
+            "requisito não funcional.",
+            "épico."
+        ],
+        "gabarito": "história de usuário."
+    },
+    {
+        "id": 24,
+        "enunciado": "A respeito de metodologias e técnicas prescritas pela engenharia de software para o desenvolvimento e para a gestão de produtos, julgue o item que se segue.\nNa gestão do backlog de um produto usando-se uma metodologia ágil, o controle do versionamento dos artefatos é adequado para procurar manter o backlog com a característica de emergente.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 25,
+        "enunciado": "Na década de 1980 e início de 1990, havia uma visão generalizada de que a melhor maneira para conseguir o melhor software era por meio de um planejamento cuidadoso do projeto, qualidade da segurança formalizada, do uso de métodos de análise e projeto apoiado por ferramentas CASE (Computeraided software engineering) e do processo de desenvolvimento de software rigoroso e controlado. Essa percepção veio da unidade de engenharia de software, responsável pelo desenvolvimento de sistemas de software grandes e duradouros, como sistemas aeroespaciais e de governo. Esse software foi desenvolvido por grandes equipes que trabalham para diferentes empresas. Geralmente, as equipes eram dispersas geograficamente e trabalhavam com o software por longos períodos. Um exemplo desse tipo de software é o sistema de controle de uma aeronave moderna, que pode demorar até dez anos, desde a especificação inicial até a implantação.\nTais abordagens dirigidas a planos envolvem um overhead significativo no planejamento, projeto e documentação do sistema. Esse overhead se justifica quando o trabalho de várias equipes de desenvolvimento pode ser coordenado, quando o sistema é um sistema crítico e quando muitas pessoas diferentes estão envolvidas na manutenção do software durante a sua vida. (adaptado).\nRelativo às características fundamentais dos modelos ágeis de desenvolvimento de software, assinale a alternativa INCORRETA.",
+        "alternativas": [
+            "Os processos de especificação, projeto e implementação são intercalados, não tendo especificação detalhada do sistema, e a documentação do projeto é minimizada ou gerada automaticamente pelo ambiente de programação usado para implementar o sistema.",
+            "O sistema é desenvolvido em uma versão única. Os usuários finais e outros stakeholders do sistema são envolvidos na especificação e avaliação dessa única versão.",
+            "Os usuários finais e outros stakeholders do sistema podem, a qualquer momento, propor alterações ao software e novos requisitos, podendo ser implementados em uma versão posterior do sistema.",
+            "As interfaces de usuário do sistema são geralmente desenvolvidas com um sistema interativo de desenvolvimento, que permite a criação rápida do projeto de interface, por meio do desenho e posicionamento de ícones na interface.",
+            "O sistema pode gerar uma interface baseada na Web para um navegador ou uma interface para uma plataforma específica, como o Microsoft Windows."
+        ],
+        "gabarito": "O sistema é desenvolvido em uma versão única. Os usuários finais e outros stakeholders do sistema são envolvidos na especificação e avaliação dessa única versão."
+    },
+    {
+        "id": 26,
+        "enunciado": "Na década de 1980 e início de 1990, havia uma visão generalizada de que a melhor maneira para conseguir o melhor software era por meio de um planejamento cuidadoso do projeto, qualidade da segurança formalizada, do uso de métodos de análise e projeto apoiado por ferramentas CASE (Computeraided software engineering) e do processo de desenvolvimento de software rigoroso e controlado. Essa percepção veio da unidade de engenharia de software, responsável pelo desenvolvimento de sistemas de software grandes e duradouros, como sistemas aeroespaciais e de governo. Esse software foi desenvolvido por grandes equipes que trabalham para diferentes empresas. Geralmente, as equipes eram dispersas geograficamente e trabalhavam com o software por longos períodos. Um exemplo desse tipo de software é o sistema de controle de uma aeronave moderna, que pode demorar até dez anos, desde a especificação inicial até a implantação.\nTais abordagens dirigidas a planos envolvem um overhead significativo no planejamento, projeto e documentação do sistema. Esse overhead se justifica quando o trabalho de várias equipes de desenvolvimento pode ser coordenado, quando o sistema é um sistema crítico e quando muitas pessoas diferentes estão envolvidas na manutenção do software durante a sua vida. (adaptado).\nEm relação aos princípios dos modelos ágeis de desenvolvimento de software, assinale a alternativa INCORRETA.",
+        "alternativas": [
+            "Envolvimento do cliente: Os clientes devem estar intimamente envolvidos no processo de desenvolvimento. Seu papel é fornecer e priorizar novos requisitos do sistema e avaliar suas iterações.",
+            "Entrega incremental: O software é desenvolvido em incrementos com o cliente, especificando os requisitos para serem incluídos em cada um.",
+            "Pessoas, não processos: As habilidades da equipe de desenvolvimento devem ser reconhecidas e exploradas. Membros da equipe devem desenvolver suas próprias maneiras de trabalhar, sem processos prescritivos.",
+            "Não aceitar mudanças: Deve-se considerar que os requisitos do sistema não vão mudar. Por isso, projete o sistema de maneira que não seja necessário efetuar mudanças.",
+            "Manter a simplicidade: Deve-se focalizar a simplicidade, tanto do software a ser desenvolvido quanto do processo de desenvolvimento. Sempre que possível, indica-se trabalhar ativamente para eliminar a complexidade do sistema."
+        ],
+        "gabarito": "Não aceitar mudanças: Deve-se considerar que os requisitos do sistema não vão mudar. Por isso, projete o sistema de maneira que não seja necessário efetuar mudanças."
+    },
+    {
+        "id": 27,
+        "enunciado": "Considerando as características e as práticas comuns às metodologias ágeis, analise as afirmativas a seguir.\nI. O manifesto ágil enfatiza a importância da colaboração com o cliente mais do que a negociação de contratos.\nII. O desenvolvimento iterativo e incremental é um princípio chave, permitindo entregas frequentes de partes funcionais do software.\nIII. A rigidez nos processos de desenvolvimento é essencial para garantir a qualidade e a previsibilidade do produto final.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, apenas.",
+            "I e II, apenas.",
+            "I e III, apenas.",
+            "II e III, apenas.",
+            "I, II e III."
+        ],
+        "gabarito": "I e II, apenas."
+    },
+    {
+        "id": 28,
+        "enunciado": "No desenvolvimento de software por metodologias ágeis têm sido empregadas métricas ágeis para acompanhamento de projetos Scrum. Elas têm sido aplicadas para avaliar se os requisitos de qualidade e as necessidades dos clientes foram atendidos.\nQuanto ao emprego de métricas ágeis baseadas em Scrum, assinale a afirmativa correta.",
+        "alternativas": [
+            "As métricas ágeis são baseadas na análise de funcionalidades.",
+            "Permitem o acompanhamento individual e em tempo real de equipe, software e projeto.",
+            "Elas se concentram no sucesso do projeto e no tamanho funcional do software a partir da visão do gestor.",
+            "Medem diretamente a produtividade por meio de linhas de código, mas possuem limitações em mensurar esforços da equipe."
+        ],
+        "gabarito": "Permitem o acompanhamento individual e em tempo real de equipe, software e projeto."
+    },
+    {
+        "id": 29,
+        "enunciado": "O texto abaixo refere-se ao seguinte artefato utilizado na fase de desenvolvimento de projeto na Metodologia Ágil.\nCartazes que mostram dados e gráficos que destacam focos importantes do projeto são espalhados pelo ambiente de trabalho, tornando mais informativo para a equipe e permitindo também que análises rápidas sejam retiradas a qualquer hora.",
+        "alternativas": [
+            "Cartões de história.",
+            "Sprint Backlog.",
+            "Product Backlog.",
+            "Radiadores de informação.",
+            "Selected Backlog."
+        ],
+        "gabarito": "Radiadores de informação."
+    },
+    {
+        "id": 30,
+        "enunciado": "Dentro do contexto de métricas e estimativas de software, especialmente em metodologias ágeis, qual ferramenta visual é comumente utilizada para representar o progresso do trabalho em relação ao tempo durante uma iteração?",
+        "alternativas": [
+            "Lines of Code (LOC).",
+            "Function Points (FP).",
+            "Defect Density.",
+            "Burndown Chart.",
+            "Earned Value."
+        ],
+        "gabarito": "Burndown Chart."
+    },
+    {
+        "id": 31,
+        "enunciado": "A respeito de governança de TI, julgue o próximo item.\nSegurança e qualidade são princípios fundamentais das metodologias ágeis e estão relacionados ao valor agregado que as entregas devem incluir, com foco nos benefícios e na satisfação dos clientes.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 32,
+        "enunciado": "Sobre as práticas ágeis de desenvolvimento de software, analise as assertivas e assinale a alternativa que aponta as corretas.\nI. A evolução do progresso no projeto é medida pelo valor entregue, uma vez que, mesmo trabalhando e nada sendo entregue, o progresso é zero.\nII. O planejamento é feito de forma sustentável ao longo do tempo.\nIII. O progresso do projeto é medido apenas pelo percentual concluído do projeto.\nIV. As mudanças são muito bem recebidas, possuindo uma alta flexibilidade para alterações.",
+        "alternativas": [
+            "Apenas I, II e III.",
+            "Apenas I, II e IV.",
+            "Apenas II e III.",
+            "Apenas I e IV.",
+            "I, II, III e IV."
+        ],
+        "gabarito": "Apenas I, II e IV."
+    },
+    {
+        "id": 33,
+        "enunciado": "A respeito das práticas e dos processos de elaboração progressiva para o planejamento e desenvolvimento de software, assinale a alternativa INCORRETA.",
+        "alternativas": [
+            "É um processo em que o refinamento das estimativas e do escopo é realizado continuamente ao longo do ciclo de vida do projeto.",
+            "Os requisitos que serão trabalhados em breve são especificados em um nível maior de detalhes, enquanto os requisitos que serão trabalhados em um futuro mais distante são especificados em um nível mais alto.",
+            "É uma etapa de elaboração do projeto que se dá conforme a evolução dos seus processos de gerenciamento, ocorrendo durante a iniciação, a especificação, a programação e o encerramento.",
+            "É um processo de melhoria contínua, no qual o projeto vai sendo planejado e detalhado ao passo que as informações vão se tornando mais conhecidas e especificadas.",
+            "O projeto é desenvolvido por etapas incrementais ao longo do seu ciclo de vida."
+        ],
+        "gabarito": "É uma etapa de elaboração do projeto que se dá conforme a evolução dos seus processos de gerenciamento, ocorrendo durante a iniciação, a especificação, a programação e o encerramento."
+    },
+    {
+        "id": 34,
+        "enunciado": "No desenvolvimento ágil, a lista de tarefas que definem o trabalho necessário para implementar as funcionalidades de um projeto denomina-se",
+        "alternativas": [
+            "pontos de função.",
+            "sprint.",
+            "storyboard.",
+            "requisitos.",
+            "backlog."
+        ],
+        "gabarito": "backlog."
+    },
+    {
+        "id": 35,
+        "enunciado": "Em relação às metodologias ágeis SCRUM e XP (Extreme Programming), assinale a alternativa correta.",
+        "alternativas": [
+            "No SCRUM, o papel do Product Owner (PO) é o de maximizar o valor do produto e do trabalho da equipe de desenvolvimento, enquanto no XP o PO faz parte da equipe de pair programming.",
+            "Para o SCRUM, apesar de ágil, não se prevê que sejam efetuados testes manuais ou automatizados, enquanto no XP os testes automatizados são previstos por meio do TDD.",
+            "As reuniões diárias no SCRUM (Daily Scrum) têm duração máxima de 15 minutos, enquanto no XP essas reuniões são mais curtas e abrangem discussões técnicas detalhadas em 5 minutos.",
+            "No SCRUM, as Sprints são ciclos de desenvolvimento com duração fixa, geralmente de 4 a 8 semanas, enquanto no XP o ciclo de desenvolvimento, chamado de Iteração, pode variar de uma semana a um mês, dependendo das necessidades do projeto.",
+            "O XP enfatiza práticas como pair programming e refatoração contínua, enquanto o SCRUM não especifica práticas e técnicas, tendo enfoque mais no gerenciamento de projetos e na organização do trabalho."
+        ],
+        "gabarito": "O XP enfatiza práticas como pair programming e refatoração contínua, enquanto o SCRUM não especifica práticas e técnicas, tendo enfoque mais no gerenciamento de projetos e na organização do trabalho."
+    },
+    {
+        "id": 36,
+        "enunciado": "Considerando o uso de metodologias ágeis para gerenciar projetos de desenvolvimento de software de forma iterativa e incremental, avalie as afirmativas a seguir.\nI. Em reuniões diárias e de curta duração (Daily Scrums), os membros do time Scrum são incentivados a expor o que fizeram desde a última reunião, o que planejam fazer até a reunião seguinte e a reportar algum impedimento que esteja atrapalhando o desenvolvimento de suas atividades.\nII. O uso do Scrum junto ao método Kanban é uma prática muito comum nas organizações. De forma sucinta, cria-se um sistema em que as histórias de usuário são puxadas sob demanda, de acordo com a capacidade do sistema, como um todo, em identificar, desenvolver e entregar os itens de maior valor.\nIII. A necessidade de agregar maior valor aos processos de desenvolvimento de software propiciou o surgimento de metodologias ágeis tais como o Extreme Programming (XP), com foco em feedback constante e entregas incrementais. Uma prática fundamental do XP é o desenvolvimento orientado a testes (Test Driven Development – TDD). Com testes automatizados aplicados somente ao final do processo de desenvolvimento, o TDD possibilita maior alinhamento aos requisitos e menor risco de falhas.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, apenas.",
+            "II, apenas.",
+            "III, apenas.",
+            "I e II, apenas.",
+            "II e III, apenas."
+        ],
+        "gabarito": "I e II, apenas."
+    },
+    {
+        "id": 37,
+        "enunciado": "Segundo Sommerville (2, no desenvolvimento ágil, uma das características fundamentais é ______. Assinale a alternativa que preencha corretamente a lacuna.",
+        "alternativas": [
+            "A rigidez no cumprimento do planejamento inicial, sem aceitar mudanças nos requisitos.",
+            "A prioridade absoluta à qualidade, mesmo que isso comprometa a agilidade das entregas.",
+            "A aceitação de mudanças nos requisitos, mesmo após a entrega do projeto, devido à natureza imprevisível do mercado.",
+            "A rejeição de novas necessidades do mercado, que são consideradas após o fechamento do escopo."
+        ],
+        "gabarito": "A aceitação de mudanças nos requisitos, mesmo após a entrega do projeto, devido à natureza imprevisível do mercado."
+    },
+    {
+        "id": 38,
+        "enunciado": "Assinale a alternativa que apresenta uma das ações recomendadas para mitigar riscos no desenvolvimento ágil de software na administração pública.",
+        "alternativas": [
+            "Adotar um plano de comunicação que permita menos interação entre a equipe de desenvolvimento e o responsável pela área de negócios.",
+            "Implementar um sistema de pagamento baseado exclusivamente em marcos financeiros e não em entregas funcionais do projeto.",
+            "Evitar a capacitação técnica e a utilização de coaching para gestores de TI e de negócios.",
+            "Fomentar a criação de equipes multifuncionais para promover a troca constante de informações entre os profissionais."
+        ],
+        "gabarito": "Fomentar a criação de equipes multifuncionais para promover a troca constante de informações entre os profissionais."
+    },
+    {
+        "id": 39,
+        "enunciado": "Considerando a aplicação de metodologias ágeis a projetos de desenvolvimento de software, analise as afirmativas a seguir.\nI. Documentação abrangente mais que software em funcionamento é um dos valores propostos pelo manifesto ágil.\nII. A limitação do número de tarefas em execução, conhecida como WIP (Work In Progress), favorece um ritmo sustentável para a equipe de desenvolvimento sem impedir o fluxo de trabalho.\nIII. O tempo transcorrido desde o momento em que uma tarefa entra em um quadro Kanban até ser finalizada é conhecido como lead time.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, apenas.",
+            "II, apenas.",
+            "III, apenas.",
+            "I e II, apenas.",
+            "II e III, apenas."
+        ],
+        "gabarito": "II e III, apenas."
+    },
+    {
+        "id": 40,
+        "enunciado": "A respeito de Kanban e Scrum, julgue os itens a seguir.\nO Kanban e o Scrum utilizam sprints no planejamento e na distribuição de tarefas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 41,
+        "enunciado": "Manifesto para o desenvolvimento ágil de software defende “indivíduos e interações acima de processos e ferramentas, software operacional acima de documentação completa, colaboração dos clientes acima de negociação contratual e respostas a mudanças acima de seguir um plano”.\n(Pressman e Maxim, 2021. P. 37.) Considerando o exposto, analise as afirmativas a seguir.\nI. Os princípios do Scrum são empregados para orientar as atividades de desenvolvimento dentro de um processo que incorpora as seguintes atividades metodológicas: planejar; codificar; construir; testar; e, distribuir.\nII. A Extreme Programming (programação extrema) envolve um conjunto de regras e práticas constantes no contexto de quatro atividades metodológicas:\nplanejamento; projeto; codificação; e, testes.\nIII. O projeto XP segue rigorosamente o princípio KISS (keep it simple, stupid!).\nIV. As reuniões de equipe para o Kanban são semelhantes àquelas realizadas na metodologia XP.\nV. O DevOps combina desenvolvimento (development) e operações (operations) e seu fluxo de trabalho envolve diversas etapas que formam ciclos contínuos até que o produto desejado exista de fato.\nEstá correto o que se afirma apenas em",
+        "alternativas": [
+            "I, II e V.",
+            "I, III e IV.",
+            "II, III e V.",
+            "III, IV e V."
+        ],
+        "gabarito": "II, III e V."
+    },
+    {
+        "id": 42,
+        "enunciado": "O Manifesto Ágil, criado em 2001, é uma declaração de valores e princípios essenciais para o desenvolvimento de software.\nCorrelacione os elementos utilizados para descrever os pilares básicos do Manifesto Ágil:\nElemento\nI. Indivíduos e interações\nII. Software em funcionamento\nIII. Colaboração com o cliente\nIV. Responder a mudanças Descrição\n( ) mais que documentação abrangente.\n( ) mais que seguir um plano.\n( ) mais que processos e ferramentas.\n( ) mais que negociação de contratos.\nEstá CORRETA a seguinte sequência de respostas:",
+        "alternativas": [
+            "I, IV, II, III.",
+            "II, IV, I, III.",
+            "II, IV, III, I.",
+            "IV, III, I, II."
+        ],
+        "gabarito": "II, IV, I, III."
+    },
+    {
+        "id": 43,
+        "enunciado": "Quando se trabalha com metodologias ágeis, uma construção que agrega especificações de requisitos na forma de histórias do usuário é o:",
+        "alternativas": [
+            "Sistema legado.",
+            "Product Backlog.",
+            "User Tasks.",
+            "Manifesto Ágil.",
+            "Primary Planning."
+        ],
+        "gabarito": "Product Backlog."
+    },
+    {
+        "id": 44,
+        "enunciado": "Assinale a alternativa que apresenta corretamente um tipo de metodologia de desenvolvimento ágil.",
+        "alternativas": [
+            "Write-ahead.",
+            "Mock test.",
+            "Extreme programming.",
+            "Concurrent programming.",
+            "Dynamic programming."
+        ],
+        "gabarito": "Extreme programming."
+    },
+    {
+        "id": 45,
+        "enunciado": "O método Lean é um dos principais métodos ágeis utilizados na gestão de projetos. Sobre essa metodologia, assinalar a alternativa CORRETA:",
+        "alternativas": [
+            "É utilizada na gestão de projetos que não tenham prazo de entrega, utilizando intervalos de tempo para desenvolver cada etapa.",
+            "É composta por checklists, oferecendo uma visão global do projeto. É específica para alguns tipos de negócio, pois busca a revolução dos processos.",
+            "É uma boa alternativa para criar objetivos realistas e possíveis para a situação de cada empresa, baseando-se em cinco primórdios, os quais são indicados pelas letras do seu nome.",
+            "É utilizada para projetos mais objetivos ou reduzidos, e identifica eficientemente os desperdícios."
+        ],
+        "gabarito": "É utilizada para projetos mais objetivos ou reduzidos, e identifica eficientemente os desperdícios."
+    },
+    {
+        "id": 46,
+        "enunciado": "Sobre o princípio do envolvimento com o cliente em métodos ágeis, é correto afirmar que:",
+        "alternativas": [
+            "O software é desenvolvido em incrementos com o cliente, especificando os requisitos para serem incluídos em cada um.",
+            "Os clientes devem estar intimamente envolvidos no processo de desenvolvimento. Seu papel é fornecer e priorizar novos requisitos do sistema e avaliar as suas iterações.",
+            "Membros da equipe devem desenvolver suas próprias maneiras de trabalhar, sem processos prescritivos.",
+            "Deve-se ter em mente que os requisitos do sistema vão mudar. Por isso, deve-se projetar o sistema de maneira a acomodar essas mudanças.",
+            "Sempre que possível, deve-se trabalhar ativamente para eliminar a complexidade do sistema."
+        ],
+        "gabarito": "Os clientes devem estar intimamente envolvidos no processo de desenvolvimento. Seu papel é fornecer e priorizar novos requisitos do sistema e avaliar as suas iterações."
+    },
+    {
+        "id": 47,
+        "enunciado": "Os métodos Scrum e eXtreme Programming são dois exemplos de abordagens iterativas para o desenvolvimento de softwares. Eles são métodos ágeis que compartilham algumas características. Analise as assertivas abaixo e assinale a alternativa correta.\nI. Scrum e eXtreme Programming têm ênfase no desenvolvimento e entrega incrementais de software.\nII. Scrum e eXtreme Programming têm ênfase em processos em vez de pessoas.\nIII. Scrum e eXtreme Programming têm dificuldade de atender a contínuas mudanças nos requisitos.",
+        "alternativas": [
+            "Todas estão corretas.",
+            "Todas estão incorretas.",
+            "Apenas I está correta.",
+            "Apenas II está correta.",
+            "Apenas III está correta."
+        ],
+        "gabarito": "Apenas I está correta."
+    },
+    {
+        "id": 48,
+        "enunciado": "As metodologias ágeis de desenvolvimento de software tornaram-se populares em 2001 quando especialistas em desenvolvimento de software estabeleceram princípios comuns considerando vários métodos de desenvolvimento já utilizados que buscavam maneiras mais eficientes de produzir software. Os princípios foram:\n- Indivíduos e interações mais que processos e ferramentas.\n- Software funcionando mais que documentação abrangente.\n- Colaboração com o cliente mais que negociação de contratos.\n- Responder a mudanças mais que seguir um plano.\nComo se chamou esse movimento?",
+        "alternativas": [
+            "Movimento de Agilistas.",
+            "Desenvolvimento em Cascata.",
+            "Trabalho Colaborativo.",
+            "Extreme Program.",
+            "Manifesto Ágil."
+        ],
+        "gabarito": "Manifesto Ágil."
+    },
+    {
+        "id": 49,
+        "enunciado": "Considerando os princípios do desenvolvimento ágil de software, analise as assertivas:\nI. O desenvolvimento ágil de software prioriza processos e ferramentas do que indivíduos e interações.\nII. O desenvolvimento ágil de software prioriza colaboração do cliente do que negociação de contrato III, O desenvolvimento ágil de software prioriza seguir um plano do que respostas a mudanças Está(ão) INCORRETA(S):",
+        "alternativas": [
+            "Apenas I.",
+            "Apenas II.",
+            "Apenas III,.",
+            "Apenas I e II.",
+            "Apenas I e III."
+        ],
+        "gabarito": "Apenas I e III."
+    },
+    {
+        "id": 50,
+        "enunciado": "Em relação à avaliação de modelos de dados, julgue o item a seguir.\nNo desenvolvimento ágil, a etapa de avaliação de modelos se torna dispensável, pois o desenvolvimento de software é feito de forma mais rápida.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 51,
+        "enunciado": "No contexto das metodologias ágeis, o que é o artefato Backlog?",
+        "alternativas": [
+            "Um conjunto de requisitos do projeto a serem definidos.",
+            "Uma lista de atividades planejadas a serem realizadas em uma sprint.",
+            "Um documento que contém todos os testes a serem realizados.",
+            "Uma lista de itens do produto a serem desenvolvidos e priorizados."
+        ],
+        "gabarito": "Uma lista de itens do produto a serem desenvolvidos e priorizados."
+    },
+    {
+        "id": 52,
+        "enunciado": "Os ciclos de vida de um projeto de desenvolvimento de software podem variar entre abordagens preditivas e abordagens adaptativas ou ágeis. Sobre estas abordagens, assinale a alternativa INCORRETA.",
+        "alternativas": [
+            "Os ciclos de vida adaptativos ou ágeis são baseados nos princípios do Manifesto Ágil, que valoriza indivíduos e interações, software funcional, colaboração com o cliente e adaptação a mudanças.",
+            "Em um ciclo de vida preditivo, um planejamento detalhado é elaborado antes do início do projeto, a partir da identificação de fases, atividades, marcos e recursos necessários para o desenvolvimento do projeto.",
+            "Qualquer mudança nos requisitos, escopo ou planejamento do software, em um ciclo de vida preditivo, deve passar por um processo formal de controle de mudanças. Mudanças são aprovadas apenas após serem avaliadas quanto ao impacto no cronograma, custo e recursos do projeto.",
+            "Em abordagens ágeis, a linha de base do escopo a ser seguida para o projeto é a versão aprovada da declaração do escopo do projeto juntamente com a Estrutura Analítica do Projeto (EAP) e seu respectivo dicionário. Com isso, as equipes de desenvolvimento de software ágeis respondem de forma mais eficaz a requisitos em constante evolução.",
+            "Em abordagens adaptativas, o escopo geral de um projeto pode ser decomposto em um conjunto de requisitos e atividades a serem executadas, geralmente chamado de backlog do produto. Uma vez criado o backlog, ao se iniciar uma iteração do projeto, a equipe de desenvolvimento definirá quais os requisitos e atividades são mais prioritários no backlog para serem desenvolvidos e entregues na próxima iteração do projeto."
+        ],
+        "gabarito": "Em abordagens ágeis, a linha de base do escopo a ser seguida para o projeto é a versão aprovada da declaração do escopo do projeto juntamente com a Estrutura Analítica do Projeto (EAP) e seu respectivo dicionário. Com isso, as equipes de desenvolvimento de software ágeis respondem de forma mais eficaz a requisitos em constante evolução."
+    },
+    {
+        "id": 53,
+        "enunciado": "Em ambientes ágeis de gerenciamento de projetos, tanto o Scrum quanto o Kanban têm como objetivo aprimorar a eficiência e a colaboração da equipe. Uma diferença marcante, porém, entre as duas abordagens é que o",
+        "alternativas": [
+            "Scrum utiliza iterações fixas de tempo (sprints), enquanto o Kanban não possui limite de tempo fixo.",
+            "Scrum organiza as tarefas em listas individuais, enquanto o Kanban utiliza burndown charts para rastrear o progresso.",
+            "Scrum prioriza a entrega a partir dos requisitos acordados em contrato, enquanto o Kanban foca em iterações bem definidas para alcançar os objetivos do projeto.",
+            "Kanban enfatiza reuniões diárias (daily stand-ups), enquanto o Scrum não faz uso desse tipo de reunião.",
+            "Kanban requer um Product Owner responsável pela definição das histórias de usuário, enquanto o Scrum não tem essa função."
+        ],
+        "gabarito": "Scrum utiliza iterações fixas de tempo (sprints), enquanto o Kanban não possui limite de tempo fixo."
+    },
+    {
+        "id": 54,
+        "enunciado": "O Manifesto para Desenvolvimento Ágil de Software propõe a exploração de abordagens mais eficazes no desenvolvimento de software.\nNesse contexto, ele destaca e prioriza",
+        "alternativas": [
+            "o processo e a ferramenta mais do que os indivíduos e as interações.",
+            "a documentação abrangente mais do que o software em funcionamento.",
+            "a colaboração com o cliente mais do que a negociação de contratos.",
+            "o seguimento de um plano mais do que a resposta às mudanças."
+        ],
+        "gabarito": "a colaboração com o cliente mais do que a negociação de contratos."
+    },
+    {
+        "id": 55,
+        "enunciado": "Durante a fase de análise de um processo é importante que a equipe de análise dose o foco desprendido para documentar cada elemento do processo, para que a atividade não se torne longa o suficiente a ponto da equipe não conseguir apresentar uma proposta de melhoria ou solução para um problema. Este risco de análise de processo é conhecido como:",
+        "alternativas": [
+            "análise de vídeo.",
+            "benchmark.",
+            "paralisia por análise.",
+            "handoff.",
+            "regras de negócio."
+        ],
+        "gabarito": "paralisia por análise."
+    },
+    {
+        "id": 56,
+        "enunciado": "No contexto dos Métodos Ágeis, diversas práticas e princípios são adotados para promover a entrega contínua de valor com rapidez e flexibilidade. Considerando os princípios do Manifesto Ágil e as práticas comuns em métodos como Scrum e XP (eXtreme Programming), é correto afirmar que, nos Métodos Ágeis,",
+        "alternativas": [
+            "não é necessário adaptar-se a mudanças nos requisitos, já que o foco principal é seguir um plano estrito.",
+            "o desenvolvimento de software é uma atividade isolada, sem interação constante com os stakeholders.",
+            "a entrega contínua de software funcionando é priorizada, permitindo que os stakeholders percebam o valor de forma antecipada.",
+            "o foco está apenas em seguir processos e práticas predefinidos, sem considerar a melhoria contínua.",
+            "não é necessário ter interação face a face entre os membros da equipe, já que a comunicação escrita é mais eficaz."
+        ],
+        "gabarito": "a entrega contínua de software funcionando é priorizada, permitindo que os stakeholders percebam o valor de forma antecipada."
+    },
+    {
+        "id": 57,
+        "enunciado": "Qual das seguintes metodologias de desenvolvimento de software enfatiza a colaboração entre equipes multifuncionais, interações frequentes com o cliente e respostas rápidas às mudanças?",
+        "alternativas": [
+            "Metodologia em cascata.",
+            "Metodologia ágil.",
+            "Metodologia incremental.",
+            "Metodologia espiral."
+        ],
+        "gabarito": "Metodologia ágil."
+    },
+    {
+        "id": 58,
+        "enunciado": "A Engenharia de Software abrange um processo, um conjunto de métodos e um leque de ferramentas que possibilitam aos profissionais desenvolverem softwares de qualidade. A Engenharia de Software Ágil combina filosofia com um conjunto de princípios de desenvolvimento. A filosofia defende a satisfação do cliente e a entrega incremental antecipada, entre outros fatores. O Scrum é uma das metodologias de desenvolvimento ágil e seus princípios são coerentes com o manifesto ágil. Em relação aos Backlog, é correto afirmar:",
+        "alternativas": [
+            "Consistem em unidades de trabalho solicitadas para atingir um requisito estabelecido no registro de trabalho e que precisa ser ajustado dentro de um prazo já fechado.",
+            "Fornecem uma entrega incremental de software ao cliente para que a funcionalidade implementada possa ser demonstrada e avaliada por ele.",
+            "São uma lista de tarefas com descrições que trazem os requisitos de um projeto específico e suas respectivas prioridades, de acordo com as necessidades do cliente.",
+            "São uma entrega total de software ao cliente para que o sistema possa ser implementado e avaliado por ele.",
+            "São classificados como Backlog do produto, Backlog da sprint e Backlog de strike."
+        ],
+        "gabarito": "São uma lista de tarefas com descrições que trazem os requisitos de um projeto específico e suas respectivas prioridades, de acordo com as necessidades do cliente."
+    },
+    {
+        "id": 59,
+        "enunciado": "Um processo de software define um conjunto de passos, tarefas e práticas que devem ser seguidos durante o desenvolvimento.\nSobre os processos de software, marque a alternativa correta.",
+        "alternativas": [
+            "A principal característica de processos ágeis é a adoção de ciclos curtos e iterativos de desenvolvimento.",
+            "Os processos dirigidos por planejamento definem uma entrega incremental e iterativa do software.",
+            "O processo Waterfall (em cascata) propõe uma entrega do software baseada em incrementos e uma menor ênfase em documentação.",
+            "Os processos ágeis são orientados a planos, contendo assim muitas restrições e muita documentação."
+        ],
+        "gabarito": "A principal característica de processos ágeis é a adoção de ciclos curtos e iterativos de desenvolvimento."
+    },
+    {
+        "id": 60,
+        "enunciado": "Com base nos conceitos de computação em nuvem, benefícios e alta disponibilidade, julgue o próximo item.\nEm se tratando de gestão de projetos de software, é correto afirmar que, nos métodos ágeis, a qualificação individual dos membros da equipe não é considerada um fator crítico de sucesso dada a convicção de que a colaboração em grupo ajuda a superar dificuldades individuais.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 61,
+        "enunciado": "Com base nos conceitos de computação em nuvem, benefícios e alta disponibilidade, julgue o próximo item.\nEntre as principais características dos métodos ágeis, destacam-se a maximização da documentação formal e o envolvimento dos clientes.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 62,
+        "enunciado": "Com base nos conceitos de computação em nuvem, benefícios e alta disponibilidade, julgue o próximo item.\nO SAFe é um framework cujo objetivo consiste em expandir o desenvolvimento ágil no âmbito corporativo, permitindo que o Scrum e o XP sejam aplicados a grandes organizações e facilitando o gerenciamento de tarefas em empresas com vários desenvolvedores integrados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 63,
+        "enunciado": "Acerca dos métodos ágeis, analise as assertivas e assinale a alternativa que aponta a(s) correta(s).\nI. Os métodos ágeis foram desenvolvidos para serem utilizados por pequenos times de desenvolvedores.\nII. Empresas pequenas, que não tinham processos formais, foram os primeiros entusiastas dos métodos ágeis.\nIII. Uma das vantagens do desenvolvimento ágil é que ele pode ser utilizado para qualquer tipo de desenvolvimento de software.",
+        "alternativas": [
+            "Apenas I.",
+            "Apenas II.",
+            "Apenas III.",
+            "Apenas I e II.",
+            "Apenas II e III."
+        ],
+        "gabarito": "Apenas I e II."
+    },
+    {
+        "id": 64,
+        "enunciado": "A eXtreme Programming, também conhecida como XP, é um dos precursores dos métodos agéis. Sabendo disso, assinale a alternativa que apresenta corretamente três das boas práticas da XP.",
+        "alternativas": [
+            "Planning Game (Planejando o jogo), Simple Design (Simplicidade de projeto) e Test First Design (Teste primeiro).",
+            "Refactoring (Refatoração), Product Owner (Dono ou responsável pelo Produto) e Metaphor (Metáforas).",
+            "40-hour week (Semana de 40 horas), Sprint (Jornada) e Pair Programming (Programação aos pares).",
+            "Coding Standard (Padronização de código), Backlog (Lista de funcionalidades) e Extreming test (Teste ao extremo).",
+            "Energized Work (Trabalho com energia), Planning Work (Planejamento de trabalho) e Pair Assist (Assistência aos pares)."
+        ],
+        "gabarito": "Planning Game (Planejando o jogo), Simple Design (Simplicidade de projeto) e Test First Design (Teste primeiro)."
+    },
+    {
+        "id": 65,
+        "enunciado": "Sobre os modelos de desenvolvimento de software SCRUM e XP, analise as assertivas e julgue V, para as verdadeiras, ou F, para as falsas.\n( ) Ambos são metodologias ágeis.\n( ) XP vem do inglês Elicitation Programming, tendo foco nos requisitos não funcionais, na regra de negócio e a programação em pares.\n( ) No SCRUM, uma característica marcante são os ciclos de sprint. Pode-se dizer que o termo sprint é uma unidade de planejamento no desenvolvimento de software.\nQual alternativa preenche, CORRETAMENTE, de cima para baixo, os parênteses acima?",
+        "alternativas": [
+            "F - F -V.",
+            "V - V - F.",
+            "V - F - V.",
+            "V - V - V.",
+            "F - V - V."
+        ],
+        "gabarito": "V - F - V."
+    },
+    {
+        "id": 66,
+        "enunciado": "Sobre as fases do modelo de desenvolvimento SCRUM, analise as assertivas e julgue V, para as verdadeiras, ou F, para as falsas.\n( ) A primeira fase se concentra no planejamento geral. Nesta fase estabelece-se os objetivos gerais do projeto e da arquitetura do software.\n( ) Na segunda fase acontece os ciclos de sprint. Em cada ciclo, implementa-se partes do sistema.\n( ) A terceira fase do projeto aplica-se as sugestões de mudanças, aumentando a qualidade do software e retornando o desenvolvimento para a segunda fase, onde esta fase (segunda fase) finaliza a aplicação da metodologia SCRUM.\nQual alternativa preenche, CORRETAMENTE, de cima para baixo, os parênteses acima?",
+        "alternativas": [
+            "F - F - V.",
+            "V - V - F.",
+            "V - F - V.",
+            "V - V - V.",
+            "F - V - V."
+        ],
+        "gabarito": "V - V - F."
+    },
+    {
+        "id": 67,
+        "enunciado": "Conforme SOMMERVILLE (2, tanto o SCRUM, como o XP, com base no manifesto ágil, compartilham de um mesmo conjunto de princípios dos métodos ágeis, tais como:\n(1) Entrega incremental do software para o cliente.\n(2) Documentação antes, desenvolvimento depois.\n(3) Requisitos mudam, mudanças devem ser aceitas.\n(4) Manter a simplicidade, eliminar a complexidade.\nDa relação apresentada, existem somente:",
+        "alternativas": [
+            "1, 2 e 3.",
+            "1, 2 e 4.",
+            "2, 3 e 4.",
+            "1, 3 e 4."
+        ],
+        "gabarito": "1, 3 e 4."
+    },
+    {
+        "id": 68,
+        "enunciado": "Para o desenvolvimento de interfaces que tenham um rápido entendimento pelo usuário, diversos princípios de UX são utilizados. Dentre eles, existe um que é utilizado com bastante recorrência, pois é o responsável por levar o usuário a uma rápida compreensão dos objetos dispostos na tela e a relação entre eles. Assinale a alternativa que corresponde corretamente a esse princípio.",
+        "alternativas": [
+            "Pregnância da forma.",
+            "Harmonia.",
+            "Proximidade.",
+            "Gestalt.",
+            "Alinhamento."
+        ],
+        "gabarito": "Proximidade."
+    },
+    {
+        "id": 69,
+        "enunciado": "Analise as afirmativas a seguir a respeito dos Princípios dos Métodos Ágeis:\nI - Explorar e reconhecer as habilidades das pessoas e auxiliá-las definindo processos prescritivos que orientam sua forma de trabalho.\nII - Projetar sistemas que acomodem mudanças, pois elas acontecerão. Geralmente, os projetos não possuem inicialmente todos os requisitos definidos, de forma que não necessitem de alterações e adaptações durante sua execução.\nIII - Envolver os clientes no processo de desenvolvimento é protelar a solução. Mantenha-os perto o suficiente para definir requisitos no início do processo de análise e, depois, na etapa final de testes do produto. O processo de desenvolvimento é com a equipe de desenvolvimento.\nIV - Devemos ser ativos para eliminar a complexidade do processo e do software. Quanto mais simples, melhor.\nEstão CORRETAS as afirmativas:",
+        "alternativas": [
+            "I, III e IV.",
+            "II, III e IV.",
+            "I, II e III.",
+            "I e IV.",
+            "II e IV."
+        ],
+        "gabarito": "II e IV."
+    },
+    {
+        "id": 70,
+        "enunciado": "Com o foco no cliente e na rápida entrega de valor, as metodologias ágeis se disseminaram rapidamente pois são uma forma de acelerar as entregas em projetos de software.\nElas alcançam tal objetivo estimulando uma gestão de processos que garante rápida reação às mudanças que ocorrem com frequência neste tipo de projeto. Isso é feito com o fracionamento das entregas para o cliente em ciclos menores.\nA respeito de conceitos e práticas das metodologias ágeis, analise as afirmativas abaixo e marque alternativa correta.\nI. Em metodologias ágeis chamamos de sprint o ciclo regular de tempo utilizado para a execução de atividades até que um novo planejamento seja realizado.\nII. O Extreme Programming (XP) prega diferentes práticas em desenvolvimento de software. Uma dessas práticas defende que a semana de trabalho não seja superior a 40 horas.\nIII. Em SCRUM o Product Backlog é a lista de tarefas que devemos realizar em um sprint.",
+        "alternativas": [
+            "Apenas as afirmativas I e II estão corretas.",
+            "Apenas a afirmativa III está correta.",
+            "Apenas as afirmativas I e III estão corretas.",
+            "Apenas a afirmativa I está correta.",
+            "Todas as afirmativas estão corretas."
+        ],
+        "gabarito": "Apenas as afirmativas I e II estão corretas."
+    },
+    {
+        "id": 71,
+        "enunciado": "A partir da figura anterior, que mostra o fluxo temporal de determinado processo com base em métricas ágeis, julgue o item a seguir.\nO lead time está representado por #2 nessa figura.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 72,
+        "enunciado": "A partir da figura anterior, que mostra o fluxo temporal de determinado processo com base em métricas ágeis, julgue o item a seguir.\nEm metodologias ágeis, o cycle time é maior que o lead time.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 73,
+        "enunciado": "A partir da figura anterior, que mostra o fluxo temporal de determinado processo com base em métricas ágeis, julgue o item a seguir.\nLead time é o período de tempo em que determinada equipe ágil planeja o produto, ou seja, o tempo compreendido entre a solicitação do usuário e a entrega do plano de trabalho a ser adotado pela equipe para realizar a entrega do produto.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 74,
+        "enunciado": "Acerca da governança de TI e de aspectos relacionados ao gerenciamento de projetos, julgue o seguinte item.\nOs ciclos de vida ágeis de projetos caracterizam-se pela elaboração progressiva dos requisitos, com base em planejamento iterativo curto e execução de ciclos, o que reduz riscos e custos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 75,
+        "enunciado": "No que se refere à governança de tecnologia da informação (TI) e aos aspectos relacionados à metodologia ágil e ITIL, julgue o item subsequente.\nMetodologias ágeis e práticas de gerenciamento de serviços não possuem pontos em comum e não podem ser combinadas para produção de práticas altamente eficazes.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 76,
+        "enunciado": "Julgue o item a seguir, a respeito de reúso de componentes e modelos de processo.\nO modelo ágil não pode ser aplicado a qualquer processo de software, pois, para tanto, é necessário que o processo seja projetado de modo que suas características sejam modeladas como componentes e, em seguida, construídas dentro do contexto da arquitetura do sistema.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 77,
+        "enunciado": "Em relação às metodologias ágeis de desenvolvimento, julgue o item que se segue.\nA filosofia da modelagem ágil não admite decisões que levem um projeto a sua rejeição e a sua refatoração, pois os profissionais de tecnologia não possuem todas as respostas e outros stakeholders envolvidos no negócio devem ser respeitados e integrados ao processo.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 78,
+        "enunciado": "Analise as seguintes afirmativas sobre o Manifesto Ágil:\nI – Indivíduos e interações são mais importantes que processos e ferramentas.\nII – Negociação de contratos é mais importante que colaboração com o cliente.\nIII – Software em funcionamento é mais importante que documentação abrangente.\nEstá CORRETO o que se afirma em:",
+        "alternativas": [
+            "I, apenas.",
+            "I e II, apenas.",
+            "I e III, apenas.",
+            "II e III, apenas.",
+            "I, II e III."
+        ],
+        "gabarito": "I e III, apenas."
+    },
+    {
+        "id": 79,
+        "enunciado": "Acerca dos princípios norteadores dos métodos de desenvolvimento ágil e as respectivas características, assinale a alternativa correta.",
+        "alternativas": [
+            "Os projetos são inflexíveis a mudanças, pois alterações de escopo causariam retrabalho, aumento de custo e descumprimento de prazos.",
+            "Os projetos são entregues de maneira incremental, o que não necessariamente exige completo conhecimento dos requisitos no início do desenvolvimento.",
+            "Métodos ágeis são típicos em projetos de médio e longo prazo, que culminam em grandes sistemas e documentação detalhada.",
+            "Os membros das equipes de trabalho em programação extrema (XP) possuem alto grau de especialização dentro do escopo de tarefas que lhes são assinaladas.",
+            "Projetos de natureza incremental são altamente escaláveis."
+        ],
+        "gabarito": "Os projetos são entregues de maneira incremental, o que não necessariamente exige completo conhecimento dos requisitos no início do desenvolvimento."
+    },
+    {
+        "id": 80,
+        "enunciado": "Conforme a Extensão Ágil do BABOK, a imagem a seguir se refere especificamente a um:",
+        "alternativas": [
+            "Genérico Ciclo de Vida Ágil.",
+            "Modelo de Extreme Programming.",
+            "Ciclo de Vida Scrum.",
+            "Mapa de Histórias.",
+            "Típico Quadro Kanban."
+        ],
+        "gabarito": "Típico Quadro Kanban."
+    },
+    {
+        "id": 81,
+        "enunciado": "Os métodos ágeis compartilham um conjunto de princípios com base no manifesto ágil (SOMMERVILLE,. São princípios dos métodos ágeis, exceto:",
+        "alternativas": [
+            "Manter a simplicidade: deve-se ter como foco a simplicidade, tanto no software que está sendo desenvolvido quanto no processo de desenvolvimento.",
+            "Envolvimento do cliente: os clientes devem ser envolvidos em todo o processo de desenvolvimento; seu papel é fornecer e priorizar novos requisitos de sistema e avaliar as interações do sistema.",
+            "Acolher as mudanças: é necessário ter em mente que os requisitos do sistema mudam e, portanto, devese projetar o sistema para acomodar as mudanças.",
+            "Entrega sequencial: o software é desenvolvido de forma sequencial."
+        ],
+        "gabarito": "Entrega sequencial: o software é desenvolvido de forma sequencial."
+    },
+    {
+        "id": 82,
+        "enunciado": "A respeito de processo orientado a reúso e ciclos de vida, julgue o item a seguir.\nUm dos princípios da modelagem ágil é a abstração das ferramentas que serão utilizadas para criar os modelos e suas notações particulares.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 83,
+        "enunciado": "Com referência aos valores do The Agile Manifesto, analise as afirmativas a seguir.\nI. Processos e ferramentas mais que indivíduos e interação entre eles.\nII. Software em funcionamento mais que documentação abrangente.\nIII. Colaboração do cliente mais que negociação de contratos.\nIV. Seguir um plano mais que responder a mudanças.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I e II, somente.",
+            "II e III, somente.",
+            "III e IV, somente.",
+            "I e IV, somente.",
+            "II e IV, somente."
+        ],
+        "gabarito": "II e III, somente."
+    },
+    {
+        "id": 84,
+        "enunciado": "De acordo com SOMMERVILLE, considerando-se os princípios do manifesto ágil para o desenvolvimento de softwares, analisar os itens abaixo:\nI. O desenvolvimento incremental é apoiado por lançamentos menores e mais frequentes do sistema. Os requisitos se baseiam em histórias simples dos clientes, utilizados como base para decidir qual funcionalidade deve ser incluída em um determinado incremento.\nII. O envolvimento do cliente é apoiado por seu engajamento contínuo no time de desenvolvimento. O cliente participa do desenvolvimento e é responsável por definir os testes de aceitação do sistema.\nIII. As mudanças são adotadas por meio de lançamentos regulares do sistema aos clientes, desenvolvimento com testes a priori (test-first), refatoração e integração contínua de novas funcionalidades.\nEstá(ão) CORRETO(S):",
+        "alternativas": [
+            "Somente os itens I e II.",
+            "Somente os itens I e III.",
+            "Somente os itens II e III.",
+            "Todos os itens.",
+            "Nenhum dos itens."
+        ],
+        "gabarito": "Todos os itens."
+    },
+    {
+        "id": 85,
+        "enunciado": "Um analista foi designado para assumir a gerência de um projeto de TI que envolve o desenvolvimento de software estratégico parte de um programa de projetos que está sendo gerenciado de maneira tradicional em sua organização. Mesmo a organização utilizando o COBIT 2019 como referência para sua governança de TI, o projeto em destaque já foi cancelado por insucesso em sua condução. Esse insucesso decorre da contínua evolução dos requisitos, o que dificulta o entendimento do escopo do projeto em seu início.\nTendo como referência essa situação hipotética, julgue o item a seguir.\nUma solução para o problema em destaque seria aplicar abordagem ágil de gerenciamento de projetos, de modo que fossem criados protótipos e lançadas versões com o objetivo de refinar os requisitos e, assim, definir e redefinir o escopo em todo o projeto.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 86,
+        "enunciado": "\"Método ágil é uma disciplina que estuda um conjunto de comportamentos, processos, práticas e ferramentas utilizados para a criação de produtos (geralmente de, mas não limitados a, software) e sua subsequente disponibilização para os usuários finais.” Fonte: Manifesto for Agile Software Development. Disponível em http://agilemanifesto.org/ A respeito do Método ágil, analise as afirmativas a seguir:\nI. Uma característica comum dos processos ágeis é a capacidade de funcionar em ambientes muito exigentes que têm um grande número de incertezas e flutuações (mudanças) que podem vir de várias fontes como: equipe em processo de formação que ainda não trabalhou junto em outros projetos, requisitos voláteis, baixo conhecimento do domínio de negócio pela equipe, entre outras.\nII. Na Agile Culture (Cultura Ágil), o profissional tem mais liberdade. Ele recebe um conjunto de métricas, objetivos e orientações para planejar o seu trabalho da melhor forma possível, agregando valor ao negócio e dando mais flexibilidade interna.\nIII. O desenvolvimento ágil tem muito em comum com o modelo em cascata. Na visão de alguns, este modelo é desacreditado, apesar de ser um modelo de uso comum.\nÉ correto o que se afirma",
+        "alternativas": [
+            "apenas em I.",
+            "apenas em II e III.",
+            "apenas em I e II.",
+            "em I, II e III."
+        ],
+        "gabarito": "apenas em I e II."
+    },
+    {
+        "id": 87,
+        "enunciado": "Metodologias ágeis são conjuntos de práticas que proporcionam uma forma de gerenciar projetos mais adaptável às mudanças. Elas são estruturadas em ciclos curtos, sendo que, a cada novo ciclo, é entregue um conjunto de funcionalidades pré-determinado. Portanto, as metodologias ágeis têm como principal restrição o tempo e são caracterizadas por produzirem entregas rápidas e frequentes.\nAssinale a alternativa correta sobre os “Valores do Ágil” descritos no Manifesto Ágil.",
+        "alternativas": [
+            "Valorizar mais respostas às mudanças do que seguir um plano.",
+            "Valorizar mais processos e ferramentas do que indivíduos e interações.",
+            "Valorizar mais documentação abrangente do que software em funcionamento.",
+            "Valorizar mais negociação de contratos do que colaboração com o cliente."
+        ],
+        "gabarito": "Valorizar mais respostas às mudanças do que seguir um plano."
+    },
+    {
+        "id": 88,
+        "enunciado": "Na análise e no projeto de sistemas, os métodos ágeis apareceram como uma alternativa ao desenvolvimento tradicional de software. Um dos mais importantes princípios ou valores da abordagem ágil é o de que",
+        "alternativas": [
+            "o trabalho individual está acima do trabalho em grupo.",
+            "seguir um plano está acima de responder às mudanças.",
+            "indivíduos e interações estão acima de processos e ferramentas.",
+            "uma documentação compreensível está acima de um software funcionando.",
+            "a negociação de contrato está acima da colaboração do cliente."
+        ],
+        "gabarito": "indivíduos e interações estão acima de processos e ferramentas."
+    },
+    {
+        "id": 89,
+        "enunciado": "Um grupo de profissionais publicou, em 2001, o chamado manifesto ágil, que trouxe uma grande mudança ao mundo do desenvolvimento de software, no manifesto estão os princípios do desenvolvimento ágil que são, indivíduos e interações, colaboração com o cliente, responder a mudanças e:",
+        "alternativas": [
+            "Agilidade no processo.",
+            "Software em funcionamento.",
+            "Manutenabilidade fixa.",
+            "Gestão de valor."
+        ],
+        "gabarito": "Software em funcionamento."
+    },
+    {
+        "id": 90,
+        "enunciado": "Assinale a opção que corresponde a um dos princípios da programação ágil, de acordo com o Manifesto para Desenvolvimento Ágil de Software.",
+        "alternativas": [
+            "Mudanças em requisitos devem ser bem recebidas, mesmo em fases mais avançadas do desenvolvimento.",
+            "Os testes de software devem ser conduzidos por pessoas que não produziram o código.",
+            "O controle empírico do processo deve enfatizar as ideias de transparência, inspeção e adaptação.",
+            "Dados produzidos por um processo devem ser passíveis de serem gerados por esse processo.",
+            "O código deve ser permanentemente revisado e passar por reorganizações ao longo do tempo para tornar-se mais claro, mais legível e mais simples."
+        ],
+        "gabarito": "Mudanças em requisitos devem ser bem recebidas, mesmo em fases mais avançadas do desenvolvimento."
+    },
+    {
+        "id": 91,
+        "enunciado": "Com base nas metodologias de desenvolvimento de software, julgue o seguinte item.\nOs métodos ágeis são mais eficazes quando o sistema pode ser desenvolvido com uma pequena equipe colocalizada capaz de se comunicar de maneira informal. Isso pode não ser possível para sistemas de grande porte que exigem equipes de desenvolvimento maiores. Nesse caso, uma abordagem dirigida a planos pode ser usada.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 92,
+        "enunciado": "Com base nas metodologias de desenvolvimento de software, julgue o seguinte item.\nEmbora a ideia de envolvimento do cliente no processo de desenvolvimento seja atraente, seu sucesso depende de um cliente disposto e capaz de passar o tempo com a equipe de desenvolvimento, e que possa representar todos os stakeholders do sistema. Frequentemente, os representantes dos clientes estão sujeitos a diversas pressões e não podem participar plenamente do desenvolvimento de software.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 93,
+        "enunciado": "Com base nos fundamentos da engenharia de software, julgue o item a seguir.\nNo modelo em cascata, alterações relevantes de requisitos tendem a produzir impacto reduzido quando identificadas em fases avançadas, em razão da previsibilidade e da flexibilidade inerentes ao processo.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 94,
+        "enunciado": "Considerando um projeto público com governança formal, assinale a alternativa correta em relação à gestão de requisitos em metodologias ágeis e o modelo cascata (Waterfall).",
+        "alternativas": [
+            "No modelo cascata, é proibida qualquer mudança após a baseline, inexistindo processos formais de controle de mudanças durante o desenvolvimento, mesmo diante de requisitos legais supervenientes.",
+            "Métodos ágeis não possuem documentação, substituindo artefatos por software em funcionamento.",
+            "Em métodos ágeis, requisitos ficam em um backlog priorizado e evolutivo, revisto por iterações; em cascata, busca-se especificação mais estável e acordada upfront.",
+            "Ambos utilizam iterações de escopo fixo e invariável por ciclo.",
+            "Métodos ágeis dispensam validação com stakeholders, pois o time se auto-organiza."
+        ],
+        "gabarito": "Em métodos ágeis, requisitos ficam em um backlog priorizado e evolutivo, revisto por iterações; em cascata, busca-se especificação mais estável e acordada upfront."
+    },
+    {
+        "id": 95,
+        "enunciado": "Quanto ao ciclo de vida do software e aos sistemas orientados a objetos, julgue o item subsequente.\nNo modelo em cascata, o ciclo de vida do software torna o processo de desenvolvimento estruturado.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 96,
+        "enunciado": "Quanto ao ciclo de vida do software e aos sistemas orientados a objetos, julgue o item subsequente.\nUma vantagem do ciclo de vida do software em cascata é que ele permite modificações nos requisitos por meio de atualização das fases anteriores.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 97,
+        "enunciado": "O projeto de software é a primeira atividade técnica voltada à construção de software e deve ser iniciada logo após",
+        "alternativas": [
+            "o teste de software.",
+            "o projeto de dados.",
+            "o projeto arquitetural.",
+            "a análise e a especificação de requisitos.",
+            "a codificação."
+        ],
+        "gabarito": "a análise e a especificação de requisitos."
+    },
+    {
+        "id": 98,
+        "enunciado": "No ciclo de vida do desenvolvimento de sistemas, a fase que envolve o entendimento dos requisitos de negócio é a de",
+        "alternativas": [
+            "implementação.",
+            "projeto.",
+            "planejamento.",
+            "desenvolvimento.",
+            "análise."
+        ],
+        "gabarito": "análise."
+    },
+    {
+        "id": 99,
+        "enunciado": "Em determinado modelo de ciclo de vida de desenvolvimento de software, as fases são executadas de forma sequencial, ou seja, uma nova fase se inicia apenas quando a anterior tiver sido finalizada. Trata-se do modelo",
+        "alternativas": [
+            "iterativo.",
+            "incremental.",
+            "protótipo.",
+            "em cascata.",
+            "em espiral."
+        ],
+        "gabarito": "em cascata."
+    },
+    {
+        "id": 100,
+        "enunciado": "O modelo de desenvolvimento de software que possui ênfase na documentação extensiva e planejamento detalhado que é caracterizado por uma abordagem sequencial e linear, no qual cada fase deve ser concluída antes que a próxima seja iniciada, é conhecido como",
+        "alternativas": [
+            "Modelo Espiral.",
+            "Desenvolvimento Orientado a Testes (TDD).",
+            "Modelo Lean.",
+            "Modelo em Cascata.",
+            "Desenvolvimento Ágil."
+        ],
+        "gabarito": "Modelo em Cascata."
+    },
+    {
+        "id": 101,
+        "enunciado": "Os modelos de processos de software são abordagens sistemáticas e estruturadas para o desenvolvimento, manutenção e evolução de software. Eles descrevem as atividades, tarefas e técnicas que devem ser seguidas para produzir software de alta qualidade de forma consistente. Considere as seguintes características: 1- modelado em função do ciclo da engenharia convencional; 2- cada fase só começa após a conclusão da anterior; 3- requer uma abordagem sistemática, sequencial ao desenvolvimento de software. Essas características dizem respeito a qual modelo de processo de software?",
+        "alternativas": [
+            "Modelo Ágil.",
+            "Modelo de Desenvolvimento Rápido de Aplicações.",
+            "Modelo Espiral.",
+            "Modelo Incremental.",
+            "Modelo em Cascata."
+        ],
+        "gabarito": "Modelo em Cascata."
+    },
+    {
+        "id": 102,
+        "enunciado": "Leia o texto a seguir.\nNa engenharia de software, existem diferentes abordagens para o ciclo de vida nos processos de desenvolvimento de software, sendo as três mais comuns: sequencial, iterativo e incremental. Cada uma dessas abordagens tem suas próprias características e benefícios, adequadas para diferentes tipos de projetos e de requisitos.\nPRESSMAN, Roger S. Engenharia de Software: Uma Abordagem Profissional. 7ª edição. Porto Alegre: AMGH Editora, 2016.\nA diferença entre essas abordagens está descrita em:",
+        "alternativas": [
+            "o sequencial possui etapas de desenvolvimento executadas em sequência, uma após a outra, enquanto nos processos iterativo e incremental, as etapas são executadas em paralelo com entregas incrementais.",
+            "o sequencial é mais flexível e adaptável a mudanças de requisitos do que os processos iterativo e incremental que, por sua vez, possuem mais fases, o que torna sua execução mais pesada e inflexível.",
+            "o sequencial envolve a repetição de ciclos de desenvolvimento, permitindo refinamentos e melhorias incrementais, enquanto os processos iterativo e incremental focam na entrega de funcionalidades completas.",
+            "o sequencial possui etapas executadas em sequência, enquanto no iterativo e no incremental existe repetição de ciclos com refinamentos e melhorias, além da entrega incremental de funcionalidades completas."
+        ],
+        "gabarito": "o sequencial possui etapas executadas em sequência, enquanto no iterativo e no incremental existe repetição de ciclos com refinamentos e melhorias, além da entrega incremental de funcionalidades completas."
+    },
+    {
+        "id": 103,
+        "enunciado": "Julgue o próximo item, a respeito de processos de desenvolvimento de software e de UML.\nNo modelo em cascata, o processo de projeto de sistemas aloca os requisitos tanto para sistemas de hardware como para sistemas de software, incluindo a descrição das abstrações fundamentais do sistema de software e seus relacionamentos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 104,
+        "enunciado": "Engenharia de Software é uma disciplina da ciência da computação que se preocupa com o projeto, desenvolvimento, manutenção e gerenciamento de sistemas de software de alta qualidade. Ela envolve o uso de princípios, métodos e ferramentas para criar softwares de maneira eficiente, com baixo custo e que atendam às necessidades dos usuários e requisitos de negócios.\nCom relação à Engenharia de Software, julgue o item Modelo Espiral e Modelo Cascata são modelos de Processo de Desenvolvimento de Software que não comportam a realidade do software e, por isso, são poucos usados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 105,
+        "enunciado": "Dentre todas as metodologias de desenvolvimento de software, aquela que é considerada a mais tradicional de todas é a metodologia:",
+        "alternativas": [
+            "XP.",
+            "Ágil.",
+            "Devops.",
+            "Scrum.",
+            "Cascata."
+        ],
+        "gabarito": "Cascata."
+    },
+    {
+        "id": 106,
+        "enunciado": "Uma das camadas que compõem a Engenharia de Software é denominada Processo, sendo que são definidos alguns modelos de processos. Um desses modelos, o denominado modelo em cascata, é composto por 5 fases, sendo, especificamente, três dessas fases:",
+        "alternativas": [
+            "planejamento, modelagem e implantação.",
+            "simulação, testes e finalização.",
+            "modelagem, concorrência e requisitos.",
+            "interfaces, transações e criação.",
+            "recuperação, contextualização e fatoração."
+        ],
+        "gabarito": "planejamento, modelagem e implantação."
+    },
+    {
+        "id": 107,
+        "enunciado": "O modelo de ciclo de vida de desenvolvimento de software, que é executado em sequência e sem a possibilidade de retorno de uma etapa posterior para uma etapa anterior, é conhecido como modelo:",
+        "alternativas": [
+            "Prototipação.",
+            "Espiral.",
+            "Incremental.",
+            "Constrói-conserta.",
+            "Cascata."
+        ],
+        "gabarito": "Cascata."
+    },
+    {
+        "id": 108,
+        "enunciado": "Na Engenharia de Software, qual alternativa descreve corretamente o que é o modelo de desenvolvimento de software em cascata?",
+        "alternativas": [
+            "Um modelo de desenvolvimento de software iterativo e incremental, em que o software é construído em pequenas etapas e entregas frequentes.",
+            "Um modelo de desenvolvimento de software baseado em testes, em que os testes são criados antes do código e o desenvolvimento é feito em pequenas iterações.",
+            "Um modelo de desenvolvimento de software em que as atividades de desenvolvimento são organizadas em fases sequenciais, em que uma fase só começa após a conclusão da anterior.",
+            "Um modelo de desenvolvimento de software que enfatiza a interação e colaboração contínua entre desenvolvedores, clientes e usuários finais.",
+            "Nenhuma das alternativas anteriores está correta."
+        ],
+        "gabarito": "Um modelo de desenvolvimento de software em que as atividades de desenvolvimento são organizadas em fases sequenciais, em que uma fase só começa após a conclusão da anterior."
+    },
+    {
+        "id": 109,
+        "enunciado": "Os Métodos Ágeis têm desempenhado um papel fundamental para o desenvolvimento do software moderno. Assim, várias iniciativas ágeis foram surgindo ou sendo aprimoradas, como ferramentas ou frameworks. Assinale a alternativa que NÃO se refere a uma iniciativa ágil.",
+        "alternativas": [
+            "Scrum.",
+            "TDD.",
+            "Modelagem Ágil.",
+            "Cascata.",
+            "Kanban."
+        ],
+        "gabarito": "Cascata."
+    },
+    {
+        "id": 110,
+        "enunciado": "Em gerenciamento de projetos e produtos, os modelos de ciclo de vida descrevem como um projeto ou produto é planejado, desenvolvido, executado e encerrado.\nDentre os modelos de ciclo de vida mais comuns, há o modelo em cascata, em que",
+        "alternativas": [
+            "é adotada a filosofia de que as mudanças nos requisitos são inevitáveis, e que a equipe deve estar preparada para se adaptar a elas.",
+            "é adotada uma abordagem iterativa, e as fases são executadas de forma sequencial, permitindo revisões e ajustes contínuos ao longo do processo.",
+            "é dividido o projeto em uma série de iterações curtas e fixas, chamadas de sprints, e cada iteração resulta em um incremento do produto.",
+            "é realizada a fase de levantamento de requisitos durante todo o projeto, permitindo que as suas definições sejam revisadas e revisitadas constantemente.",
+            "são realizadas fases do projeto de forma sequencial e linear, com cada fase dependendo da conclusão da fase anterior."
+        ],
+        "gabarito": "são realizadas fases do projeto de forma sequencial e linear, com cada fase dependendo da conclusão da fase anterior."
+    },
+    {
+        "id": 111,
+        "enunciado": "O gerente de TI de sua empresa solicitou a implementação de um pequeno sistema para geração da folha salarial. Como será um sistema simples, com regras imutáveis e bem definidas, o analista já definiu os requisitos e efetuou a modelagem do sistema. Após o final da implementação, será iniciada a fase de testes e, por fim, a implantação no setor financeiro. De acordo com esse contexto, o modelo de ciclo de vida adotado foi:",
+        "alternativas": [
+            "RUP;",
+            "modelo incremental;",
+            "prototipagem;",
+            "modelo evolutivo;",
+            "modelo em cascata."
+        ],
+        "gabarito": "modelo em cascata."
+    },
+    {
+        "id": 112,
+        "enunciado": "O modelo em cascata é um modelo de processo de software no qual as fases são executadas em uma ordem específica, cada uma produzindo um conjunto específico de artefatos, antes de passar para a próxima fase. O modelo em cascata é útil em projetos em que os requisitos estão bem definidos e estabelecidos e onde as mudanças durante o processo de desenvolvimento são mínimas. Nesse sentido, pode-se afirmar que a principal característica do modelo em cascata é:",
+        "alternativas": [
+            "ser orientado a objetos.",
+            "ser sequencial e linear.",
+            "ser baseado em prototipação.",
+            "ser iterativo e incremental.",
+            "ser sequencial e incremental."
+        ],
+        "gabarito": "ser sequencial e linear."
+    },
+    {
+        "id": 113,
+        "enunciado": "Julgue o seguinte item, relativo à engenharia de software.\nNo modelo de desenvolvimento Waterfall, a partir da coleta de requisitos e da elaboração do projeto desenvolve-se uma implementação inicial, que é apresentada para a apreciação dos usuários; esse ciclo continua com a criação de várias versões, até que o sistema final seja desenvolvido por meio da execução das etapas de desenvolvimento e testes de forma intercalada.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 114,
+        "enunciado": "Um modelo de processo de software é uma representação simplificada de um processo de software. Referente aos paradigmas de processo, assinale a alternativa que descreve corretamente o que é o modelo em cascata.",
+        "alternativas": [
+            "Essa abordagem considera as atividades fundamentais do processo de especificação, desenvolvimento, validação e evolução, e representa cada uma delas como fases distintas.",
+            "Essa abordagem intercala as atividades de especificação, desenvolvimento e validação. O sistema é desenvolvido como uma série de versões (incrementos), de maneira que cada versão adiciona funcionalidade à anterior.",
+            "Essa abordagem é baseada na existência de um número significativo de componentes reusáveis. O processo de desenvolvimento do sistema concentra-se na integração desses componentes em um sistema já existente em vez de desenvolver um sistema a partir do zero.",
+            "É a abordagem iterativa na qual o software é desenvolvido e entregue aos clientes em incrementos. Ao contrário das abordagens dirigidas a planos, a funcionalidade desses incrementos não é planejada com antecedência, mas decidida durante o desenvolvimento.",
+            "É a abordagem baseada em calendário e mostra quem é responsável por cada atividade, o tempo decorrido previsto e quais atividades estão programadas para começar e terminar."
+        ],
+        "gabarito": "Essa abordagem considera as atividades fundamentais do processo de especificação, desenvolvimento, validação e evolução, e representa cada uma delas como fases distintas."
+    },
+    {
+        "id": 115,
+        "enunciado": "Assinale a afirmação verdadeira.",
+        "alternativas": [
+            "As técnicas modernas de engenharia de software são completamente incompatíveis com a filosofia ágil e/ou com equipes auto-gerenciáveis.",
+            "Arquitetura de software define as técnicas de desenvolvimento para um hardware específico, por exemplo, se o processador é RISC ou CISC, 32 ou 64 bits, quais são os limites de memória (primária e secundária) etc.",
+            "Do ponto de vista da engenharia de software, um bom ambiente de desenvolvimento de software é fisicamente ergonômico, com flexibilidade de turnos/horário de trabalho, e naturalmente gera criatividade através de um grande apelo lúdico para que as melhores soluções sejam encontradas pela equipe.",
+            "Uma efetiva gerência de software consiste em um organograma com vários níveis hierárquicos muito bem definidos, composto por diretores, gerentes, chefes, desenvolvedores, analistas e administradores (de banco de dados, de rede, de servidores de aplicação etc).",
+            "Cascata, incremental, espiral e evolutivo são alguns dos modelos de ciclos de vida adotados no desenvolvimento de um software."
+        ],
+        "gabarito": "Cascata, incremental, espiral e evolutivo são alguns dos modelos de ciclos de vida adotados no desenvolvimento de um software."
+    },
+    {
+        "id": 116,
+        "enunciado": "Na Engenharia de Software existem várias metodologias de desenvolvimento tais como:\n(1) Metodologia Ativa.\n(2) Scrum.\n(3) Desenvolvimento Ágil.\n(4) Modelo Cascata.\nDa relação apresentada, somente são aplicadas:",
+        "alternativas": [
+            "1, 2 e 3.",
+            "1, 2 e 4.",
+            "2, 3 e 4.",
+            "1, 3 e 4.",
+            "1, 2, 3 e 4 podem ser aplicados."
+        ],
+        "gabarito": "2, 3 e 4."
+    },
+    {
+        "id": 117,
+        "enunciado": "Segundo PRESSMAN (2este ciclo de vida é considerado como clássico por ter uma abordagem sequencial e sistemática para o desenvolvimento de software.\nEsse ciclo de vida é especificamente denominado como:",
+        "alternativas": [
+            "modo prototipado.",
+            "modelo cascata.",
+            "processo unificado.",
+            "modelagem espiral."
+        ],
+        "gabarito": "modelo cascata."
+    },
+    {
+        "id": 118,
+        "enunciado": "Em projetos de desenvolvimento de software uma das primeiras importantes decisões que se deve tomar é como gerenciar processos, atividades e tarefas que serão executados durante o ciclo de vida do projeto. O entendimento do funcionamento da interação entre a equipe de desenvolvimento e o cliente é fundamental para o sucesso do projeto. Para definir como devemos gerenciar todas essas questões, existem diversos modelos de clico de vida de software. Cada modelo possui especificidades e pode apresentar vantagens e desvantagens, a depender de características inerentes ao projeto.\nA respeito dos diferentes modelos de ciclo de vida de um software, analise as afirmativas abaixo e marque alternativa correta.\nI. O Modelo cascata tem como principal característica o fato das etapas serem executadas de forma sequencial. Isso demanda, obviamente, um grande planejamento como por exemplo, a definição completa de requisitos antes da implementação.\nII. O Modelo Incremental é uma evolução do modelo Cascata. Aqui o projeto é quebrado em módulos. As etapas também são executadas sequencialmente mas focadas apenas no módulo em desenvolvimento no momento. Dessa forma o processo de planejamento se torna menos desafiador pois o cliente recebe os diversos módulos gradualmente.\nIII. No Modelo Espiral as fases do processo de desenvolvimento representam um volta completa na espiral. Trata-se de um modelo de grande aceitação por parte do cliente dada a sua simplicidade. Recomenda-se fortemente que seja aplicado somente em projetos de pequeno porte, uma vez que o modelo não contempla atividades relacionadas ao gerenciamento de riscos.",
+        "alternativas": [
+            "Apenas as afirmativas II e III estão corretas.",
+            "Apenas a afirmativa III está correta.",
+            "Apenas as afirmativas I e II estão corretas.",
+            "Apenas a afirmativa I está correta.",
+            "Todas as afirmativas estão corretas."
+        ],
+        "gabarito": "Apenas as afirmativas I e II estão corretas."
+    },
+    {
+        "id": 119,
+        "enunciado": "Julgue o próximo item, relativo ao modelo cascata.\nO modelo cascata é frequentemente inadequado para os casos de desenvolvimento de soluções de software em que há ritmo acelerado e volume intenso de mudanças de características, todavia ele pode servir como um modelo de processo útil em situações nas quais os requisitos são fixos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 120,
+        "enunciado": "Julgue o próximo item, relativo ao modelo cascata.\nO modelo do ciclo de vida clássico sugere uma abordagem sequencial para desenvolvimento de software, começando com a especificação dos requisitos do cliente, avançando pelas fases de planejamento e modelagem, e culminando no suporte contínuo do software concluído.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 121,
+        "enunciado": "Julgue o item a seguir, a respeito de reúso de componentes e modelos de processo.\nUm dos problemas da aplicação do modelo cascata no desenvolvimento de um projeto reside no fato de que uma versão operacional do programa não estará disponível antes que o projeto esteja perto do final, por conta do estado de bloqueio que a natureza linear do ciclo de vida clássico produz.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 122,
+        "enunciado": "Conhecido como um dos primeiros modelos de desenvolvimento e derivado de processos mais gerais da engenharia de sistemas o modelo cascata é conhecido assim por causa do encadeamento entre uma fase e outra. É o exemplo de um processo dirigido a planos. Com base nesse modelo, avalie as afirmações a seguir:\nI - Na primeira etapa é feito o levantamento de requisitos com o cliente, para entender suas expectativas e definir quais funcionalidades devem ser implementadas no sistema.\nII - O modelo cascata é inflexível, já que uma vez iniciado, todas as etapas são executadas e o primeiro resultado só é visto no final.\nIII - Outro problema do modelo em cascata é a falta de feedback do cliente, já que a interação dele com a equipe de desenvolvimento geralmente acontece somente no início e no fim do projeto.\nEstão corretas as afirmações:",
+        "alternativas": [
+            "I, II e III.",
+            "I e II, apenas.",
+            "II e III, apenas.",
+            "I e III, apenas.",
+            "I, apenas."
+        ],
+        "gabarito": "I, II e III."
+    },
+    {
+        "id": 123,
+        "enunciado": "Em um modelo de processo prescritivo de desenvolvimento de software, as atividades e tarefas ocorrem sequencialmente, com diretrizes de progresso definidas.\nSelecione a alternativa que mostra o modelo de processo prescritivo e sequencial mais antigo de desenvolvimento de software.",
+        "alternativas": [
+            "Espiral.",
+            "Cascata.",
+            "V.",
+            "Kanban.",
+            "XP."
+        ],
+        "gabarito": "Cascata."
+    },
+    {
+        "id": 124,
+        "enunciado": "A fim de facilitar o entendimento do processo de desenvolvimento de software, vários modelos de ciclo de vida têm sido propostos. Estes modelos são descrições abstratas do processo de desenvolvimento, tipicamente mostrando as principais atividades e dados usados na produção e manutenção de software, bem como a ordem em que as atividades devem ser executadas. Sendo assim, analise a imagem e responda.\nA imagem representa qual modelo de ciclo de vida?",
+        "alternativas": [
+            "Modelo de desenvolvimento evolucionário.",
+            "Modelo cascata.",
+            "Modelo de transformação formal.",
+            "Modelo iterativo.",
+            "Modelo de desenvolvimento baseado em reuso."
+        ],
+        "gabarito": "Modelo cascata."
+    },
+    {
+        "id": 125,
+        "enunciado": "“A análise e a definição de requisitos” e “o planejamento do projeto de desenvolvimento” são etapas de qual modelo de desenvolvimento de software?",
+        "alternativas": [
+            "Cascata.",
+            "Incremental.",
+            "Evolutivo.",
+            "Espiral."
+        ],
+        "gabarito": "Cascata."
+    },
+    {
+        "id": 126,
+        "enunciado": "De acordo com Pressman, o modelo em cascata representa uma abordagem clássica, sistemática e sequencial para o desenvolvimento de softwares, conforme indicado na figura a seguir:\nNesse modelo, as fases 2, 3 e 4 são denominadas, respectivamente,",
+        "alternativas": [
+            "PLANEJAMENTO, MODELAGEM e CONSTRUÇÃO.",
+            "MODELAGEM, CONSTRUÇÃO e VALIDAÇÃO.",
+            "CONSTRUÇÃO, VALIDAÇÃO e PLANEJAMENTO.",
+            "VALIDAÇÃO, PLANEJAMENTO E MODELAGEM."
+        ],
+        "gabarito": "PLANEJAMENTO, MODELAGEM e CONSTRUÇÃO."
+    },
+    {
+        "id": 127,
+        "enunciado": "A figura a seguir ilustra o ciclo de vida clássico ou modelo em cascata, em conformidade com uma abordagem sistemática e sequencial para o desenvolvimento de software:\nNesse contexto, os processos de codificação e testes são desenvolvidos na fase de:",
+        "alternativas": [
+            "planejamento.",
+            "implantação.",
+            "construção.",
+            "modelagem."
+        ],
+        "gabarito": "construção."
+    },
+    {
+        "id": 128,
+        "enunciado": "A respeito de processo orientado a reúso e ciclos de vida, julgue o item a seguir.\nNo modelo em cascata, dada a dificuldade natural para estabelecer todos os requisitos na fase inicial do projeto, os requisitos são definidos ao longo de todas as fases, acomodando-se gradualmente as incertezas e eventuais mudanças do projeto.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 129,
+        "enunciado": "Observe a figura abaixo, que representa os estágios do ciclo de vida em cascata para o projeto, análise e desenvolvimento de sistemas.\nSendo as fases 1 – Comunicação e 5 – Implantação, as demais, 2, 3 e 4, são denominadas, respectivamente,",
+        "alternativas": [
+            "Planejamento, Modelagem e Construção.",
+            "Modelagem, Construção e Especificação.",
+            "Especificação, Validação e Planejamento.",
+            "Construção, Especificação e Validação.",
+            "Validação, Planejamento e Modelagem."
+        ],
+        "gabarito": "Planejamento, Modelagem e Construção."
+    },
+    {
+        "id": 130,
+        "enunciado": "A figura abaixo, associada ao modelo em cascata ou ciclo de vida clássico, apresenta uma abordagem sistemática e sequencial para o desenvolvimento de projetos de software.\nSendo a fase E1 a da COMUNICAÇÃO, as demais E2, E3, E4 e E5 são denominadas, respectivamente:",
+        "alternativas": [
+            "IMPLANTAÇÃO, PLANEJAMENTO, MODELAGEM e CONSTRUÇÃO.",
+            "PLANEJAMENTO, MODELAGEM , CONSTRUÇÃO e IMPLANTAÇÃO.",
+            "MODELAGEM, CONSTRUÇÃO, IMPLANTAÇÃO e PLANEJAMENTO.",
+            "CONSTRUÇÃO, IMPLANTAÇÃO, PLANEJAMENTO e MODELAGEM."
+        ],
+        "gabarito": "PLANEJAMENTO, MODELAGEM , CONSTRUÇÃO e IMPLANTAÇÃO."
+    },
+    {
+        "id": 131,
+        "enunciado": "Sobre o modelo de ciclo de vida de software denominado Cascata, analise as afirmativas abaixo e dê valores Verdadeiro (V) ou Falso (F).\n( ) Organiza as atividades do processo de desenvolvimento sequencialmente.\n( ) Cada fase envolve a elaboração de documentos que devem ser aprovados antes do início da fase seguinte.\n( ) As fases subsequentes podem ser iniciadas em qualquer etapa do ciclo.\nAssinale a alternativa que apresenta a sequência correta de cima para baixo.",
+        "alternativas": [
+            "F, V, V.",
+            "V, V, F.",
+            "F, F, V.",
+            "V, F, F."
+        ],
+        "gabarito": "V, V, F."
+    },
+    {
+        "id": 132,
+        "enunciado": "Em relação à gerenciamento do ciclo de vida do software, julgue o seguinte item.\nNo modelo cascata, existe uma intercalação de atividades de especificação, desenvolvimento e validação. O sistema é desenvolvido como uma série de versões\n(incrementos), de maneira que cada versão adiciona funcionalidade à anterior.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 133,
+        "enunciado": "Em relação à gerenciamento do ciclo de vida do software, julgue o seguinte item.\nO modelo de processo evolucionário é uma variação no modelo cascata. Esse modelo descreve a relação entre as ações de garantia da qualidade e as ações relacionadas à comunicação, à modelagem e às atividades de construção iniciais.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 134,
+        "enunciado": "No contexto da Engenharia de Software, um modelo de processo é visualizado como um ciclo de vida constituído da especificação, do desenvolvimento, da validação e da evolução. Nesse modelo, as fases são representadas separadas umas das outras, tais como especificação de requisitos, projeto de software, implementação e testes. Esse modelo de processo é denominado modelo em",
+        "alternativas": [
+            "cascata.",
+            "espiral.",
+            "eventos.",
+            "módulos."
+        ],
+        "gabarito": "cascata."
+    },
+    {
+        "id": 135,
+        "enunciado": "Com relação aos diversos modelos de ciclo de vida de desenvolvimento de software (SDLC), assinale (V) para a afirmativa verdadeira e (F) para a falsa.\n( ) Os modelos espiral e cascata são os mais adequados para grandes projetos de desenvolvimento de software, pois priorizam análise de riscos.\n( ) Nos modelos iterativo, cascata e ágil são avaliados continuamente os requisitos com objetivo de responder rapidamente às alterações, contudo a dependência exagerada do feedback de clientes pode levar a alterações excessivas no escopo ou ao encerramento prematuro do projeto.\n( ) Os modelos iterativo, espiral e ágil tem repetição de ciclos, sendo bem identificado que no modelo ágil a repetição de ciclos pode levar à alteração do escopo e a subestimação de recursos.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "F – F – V.",
+            "V – V – V.",
+            "F – F – F.",
+            "F – V – F.",
+            "V – V – F."
+        ],
+        "gabarito": "F – F – F."
+    },
+    {
+        "id": 136,
+        "enunciado": "A seleção do modelo de processo de desenvolvimento de software adequado não é trivial, pois cada modelo possui limitações e nem sempre se aplica a todas as situações. Além disso, a escolha do modelo pode ser uma das causas de fracasso nos projetos de software. Para selecionar o modelo apropriado, é preciso entender as necessidades do projeto e analisar os diferentes modelos existentes.\nCaio Ryann Conceição Lima et alli. O modelo incremental no desenvolvimento de software: uma maneira estruturada e interativa de entregar produtos de qualidade. In: Research, Society and Development, v. 12, n.º 4, 2023 (com adaptações).\nNo que diz respeito ao desenvolvimento incremental, que é uma das abordagens mais comuns para a criação de aplicações e produtos de software atualmente, assinale a opção correta.",
+        "alternativas": [
+            "O custo de implementação das mudanças nos requisitos tende a aumentar significativamente em comparação aos custos do modelo cascata.",
+            "Um dos problemas relativos ao desenvolvimento incremental, do ponto de vista da gestão, é a falta de visibilidade, o que impossibilita qualquer controle sobre o processo.",
+            "A estrutura do projeto permanece totalmente estável à medida que novos incrementos são adicionados.",
+            "O feedback do cliente é mais facilmente obtido a partir dos incrementos entregues do que a partir de documentos do projeto.",
+            "Cada incremento desenvolvido deve ser entregue imediatamente ao cliente para implantação."
+        ],
+        "gabarito": "O feedback do cliente é mais facilmente obtido a partir dos incrementos entregues do que a partir de documentos do projeto."
+    },
+    {
+        "id": 137,
+        "enunciado": "No que diz respeito a projetos e processos de software, julgue o item a seguir.\nEnquanto o foco do processo incremental é aprimorar o que já foi entregue, o objetivo do processo iterativo é entregar nova funcionalidade.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 138,
+        "enunciado": "O desenvolvimento incremental é um método utilizado com frequência em abordagens ágeis. Assinale a alternativa que apresenta uma vantagem em se utilizar o desenvolvimento incremental sobre o desenvolvimento em cascata.",
+        "alternativas": [
+            "O software desenvolvido não necessita de uma etapa de testes.",
+            "O cliente já recebe uma versão útil do software, mesmo antes de incluídas todas as funcionalidades.",
+            "Os incrementos entregues nunca precisam de refatoração.",
+            "Cada atividade básica do processo (especificação, desenvolvimento, validação e evolução) é executada apenas uma única vez."
+        ],
+        "gabarito": "O cliente já recebe uma versão útil do software, mesmo antes de incluídas todas as funcionalidades."
+    },
+    {
+        "id": 139,
+        "enunciado": "O ciclo de vida do software engloba todas as etapas necessárias para o desenvolvimento, manutenção e descontinuação de um sistema.\nModelos como o “cascata”, “incremental” e “ágil” são usados para estruturar os processos de um ciclo de vida do software.\nAssinale, a seguir, a alternativa que descreve corretamente uma característica do ciclo de vida do software.",
+        "alternativas": [
+            "Metodologias ágeis não seguem um ciclo de vida estruturado.",
+            "A prototipação elimina a necessidade de documentar requisitos.",
+            "A fase de manutenção ocorre antes da implantação do software.",
+            "O modelo em cascata permite alterações nos requisitos a qualquer momento do projeto.",
+            "O modelo incremental é adequado para projetos com entregas iterativas e feedback contínuo."
+        ],
+        "gabarito": "O modelo incremental é adequado para projetos com entregas iterativas e feedback contínuo."
+    },
+    {
+        "id": 140,
+        "enunciado": "Em relação a BPMN 2.0, engenharia de requisitos e engenharia de usabilidade, julgue o próximo item.\nNo processo de design de interfaces de usuário, o modelo em espiral segue iterativamente quatro etapas: análise e modelagem; design; construção; e validação da interface.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 141,
+        "enunciado": "Com relação ao modelo incremental do ciclo de vida do software, avalie se as afirmativas a seguir são verdadeiras (V) ou falsas (F).\n( ) O ciclo de vida incremental é um modelo de desenvolvimento de software que divide o projeto em incrementos entregues ao usuário de forma sequencial.\n( ) O ciclo de vida incremental é um modelo iterativo, pois cada incremento é desenvolvido e entregue ao usuário, e então o processo é repetido para o próximo incremento.\n( ) O ciclo de vida incremental é um modelo mais eficiente do que o modelo em cascata, pois permite que o software seja entregue ao usuário mais rapidamente.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "V – V – V.",
+            "F – V – V.",
+            "F – V – F.",
+            "V – F – F.",
+            "V – V – F."
+        ],
+        "gabarito": "V – V – F."
+    },
+    {
+        "id": 142,
+        "enunciado": "Julgue o próximo item, relativo a práticas ágeis de desenvolvimento de software e a processo interativo e incremental.\nQuando se utiliza um modelo incremental, frequentemente o primeiro incremento é um produto essencial; após esse primeiro, se libera uma série de incrementos, que oferecem, progressivamente, maior funcionalidade ao cliente à medida que cada incremento é entregue.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 143,
+        "enunciado": "Ao escolher um processo de desenvolvimento de software para um software sob encomenda, um gerente de projeto optou pelo Modelo Espiral, baseado em ciclos iterativos.\nNesse contexto, no primeiro ciclo do processo, o objetivo deve ser desenvolver o(s)",
+        "alternativas": [
+            "conceito de operação.",
+            "projeto de produto de software.",
+            "projeto da validação e verificação.",
+            "protótipo operacional.",
+            "requisitos do software."
+        ],
+        "gabarito": "conceito de operação."
+    },
+    {
+        "id": 144,
+        "enunciado": "No contexto do desenvolvimento de software, o ciclo de vida do software compreende diferentes fases, cada uma com suas características e atividades específicas.\nEm um modelo de ciclo de vida conhecido por permitir a adaptação às mudanças nos requisitos do cliente ao longo do desenvolvimento, destaca-se uma fase em que o software é desenvolvido e entregue em incrementos, com funcionalidades adicionadas a cada iteração.\nDentre as alternativas apresentadas a seguir, aquela que melhor destaca o modelo de ciclo de vida do software destacado no texto do enunciado é",
+        "alternativas": [
+            "Modelo em V.",
+            "Modelo Cascata.",
+            "Modelo Incremental.",
+            "Modelo Espiral."
+        ],
+        "gabarito": "Modelo Incremental."
+    },
+    {
+        "id": 145,
+        "enunciado": "Julgue o item a seguir, referente a conceitos, processos e aplicações da engenharia de software.\nO modelo de processo espiral permite a evolução de um sistema por meio de iterações e prototipação, ao mesmo tempo em que mantém a abordagem sistemática e controlada do modelo cascata durante o desenvolvimento completo desse sistema.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 146,
+        "enunciado": "O modelo em espiral de processo de software de Boehm possui quatro setores: definição de objetivos; avaliação e redução de riscos; desenvolvimento e validação;\ne planejamento. Nesse modelo, a atividade prototipação",
+        "alternativas": [
+            "é executada no setor avaliação e redução de riscos.",
+            "é executada ao final do setor planejamento, caso a iteração tenha sido avaliada como viável em seu risco.",
+            "não é executada, pois o modelo é baseado em riscos, logo não cabe criar protótipos.",
+            "é executada no início do setor definição de objetivos, quando se busca descrever melhor os requisitos propostos.",
+            "é executada no setor desenvolvimento e validação, no momento do desenvolvimento, no qual há reusabilidade do código."
+        ],
+        "gabarito": "é executada no setor avaliação e redução de riscos."
+    },
+    {
+        "id": 147,
+        "enunciado": "Um dos modelos de processo de software é a modelagem incremental, que consiste em",
+        "alternativas": [
+            "ir ampliando, gradativamente, a equipe de desenvolvimento, que começa com poucos profissionais e termina com uma grande equipe.",
+            "começar o desenvolvimento com uma equipe com pequena experiência de desenvolvimento, agregando profissionais mais experientes no decorrer do projeto.",
+            "intercalar as atividades de especificação, desenvolvimento e validação, possibilitando a geração de diversas versões do sistema.",
+            "utilizar, no desenvolvimento inicial do software, computadores com poucos recursos computacionais, somente melhorando a capacidade dos mesmos na entrega do sistema.",
+            "utilizar, durante todo o desenvolvimento do software, valores de entrada fictícios, somente fazendo uso de valores reais na entrega do sistema."
+        ],
+        "gabarito": "intercalar as atividades de especificação, desenvolvimento e validação, possibilitando a geração de diversas versões do sistema."
+    },
+    {
+        "id": 148,
+        "enunciado": "Em relação ao desenvolvimento iterativo e incremental da modelagem Ágil, analise as assertivas abaixo, assinalando V, se verdadeiras, ou F, se falsas.\n( ) As iterações ocorrem dentro dos ciclos, quando são feitos refinamentos para agregar melhorias ao produto. No SCRUM, por exemplo, as interações acontecem por meio das Sprints.\n( ) No processo incremental, o sistema completo é separado em 4 etapas: análise, implementação, verificação e manutenção. Ao final da quarta etapa, tem-se o produto para ser entregue.\n( ) A cada iteração, o incremento deve ser funcional, para que seja possível realizar os testes e a validação pelas partes interessadas.\n( ) O termo iterativo tem o significado de uma ação não repetitiva, isto é, o seu processo é desenvolvido linearmente seguindo o ciclo de vida do projeto.\nA ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+        "alternativas": [
+            "V – F – F – V.",
+            "V – V – F – F.",
+            "V – F – V – F.",
+            "F – V – F – V.",
+            "F – F – V – V."
+        ],
+        "gabarito": "V – F – V – F."
+    },
+    {
+        "id": 149,
+        "enunciado": "Um aspecto importante do processo de software é a organização das atividades metodológicas, bem como as ações e tarefas que ocorrem dentro de cada atividade em relação à sequência e ao tempo. Esse aspecto é chamado de fluxo do processo. A partir da análise da imagem abaixo, assinale a alternativa que identifica o tipo de fluxo de processo que está sendo representado.",
+        "alternativas": [
+            "Linear.",
+            "Evolucionário.",
+            "Iterativo.",
+            "Circular.",
+            "Paralelo."
+        ],
+        "gabarito": "Evolucionário."
+    },
+    {
+        "id": 150,
+        "enunciado": "Um modelo de processo de software é uma representação simplificada de um processo de software. Cada modelo representa uma perspectiva particular de um processo. Há um modelo de processo que possui uma abordagem baseada na existência de um número significativo de componentes que podem ser utilizados várias vezes, em que o processo de desenvolvimento concentra-se na integração desses componentes em um sistema já existente ao invés de desenvolver um sistema a partir do zero. Qual modelo é esse?",
+        "alternativas": [
+            "Desenvolvimento incremental.",
+            "Engenharia de software orientada a reúso.",
+            "Modelo em cascata.",
+            "Desenvolvimento ágil.",
+            "Engenharia de software híbrida."
+        ],
+        "gabarito": "Engenharia de software orientada a reúso."
+    },
+    {
+        "id": 151,
+        "enunciado": "O processo de desenvolvimento de software em espiral combina prevenção e tolerância a mudanças, e cada volta na espiral representa uma fase do processo de software. Assinale a alternativa que NÃO corresponde a um setor do modelo espiral.",
+        "alternativas": [
+            "Integrar incrementos.",
+            "Definição dos objetivos.",
+            "Avaliação e redução de riscos.",
+            "Desenvolvimento e validação.",
+            "Planejamento."
+        ],
+        "gabarito": "Integrar incrementos."
+    },
+    {
+        "id": 152,
+        "enunciado": "Assinale a alternativa que corresponde a um modelo de desenvolvimento de software no qual as atividades de especificação, desenvolvimento e validação são simultâneas, em vez de separadas, com feedback rápido ao longo de todas elas, fazendo o software evoluir através de várias versões, até alcançar o sistema necessário.",
+        "alternativas": [
+            "Prototipação.",
+            "Incremental.",
+            "V.",
+            "Cascata.",
+            "Espiral."
+        ],
+        "gabarito": "Incremental."
+    },
+    {
+        "id": 153,
+        "enunciado": "O modelo de ciclo de vida é a primeira escolha a ser feita no processo de software. A partir desta definição, define-se desde a maneira mais adequada de obter as necessidades do cliente, até quando e como o cliente receberá sua primeira versão operacional do sistema. O modelo espiral caracteriza-se, dentre outras, pela seguinte afirmação:",
+        "alternativas": [
+            "Permite que durante a integração de um sistema em seus diversos níveis, os testes sejam feitos contra os próprios requisitos do componente/interface que está sendo testado, em contraste com os modelos onde o componente era testado contra a especificação do componente.",
+            "Consiste em uma série de pontos âncoras de controle para assegurar o comprometimento de interessados quanto à busca de soluções de sistema que sejam mutuamente satisfatórias e praticáveis. É um gerador de modelos de processos dirigidos a riscos e é utilizado para guiar a engenharia de sistemas intensivos de software, que ocorre de forma concorrente e tem múltiplos envolvidos.",
+            "Os requisitos do cliente são obtidos, e de acordo com as funcionalidades, são agrupados em módulos. Após este agrupamento, a equipe junto ao cliente, define a prioridade em que cada módulo que será desenvolvido, a escolha deve ser baseada na importância daquela funcionalidade ao negócio do cliente.",
+            "É ideal para clientes que buscam lançar soluções pioneiras no mercado. O ciclo de vida é incremental e iterativo, também preferível que os requisitos tenham escopo restrito. os incrementos são desenvolvidos ao mesmo tempo, por equipes diferentes. Além do paralelismo, o baixo tempo de construção é devido a compressão agregada lá na fase de requisitos e na fase de implantação. Isso significa que na obtenção dos requisitos, costumam-se optar por metodologias mais dinâmicas e rápidas, como workshops ao invés de entrevistas.",
+            "Os requisitos são adquiridos em paralelo à evolução do sistema. O modelo inicia-se do princípio de que o cliente desconhece grande parte dos requisitos funcionais, desta forma, a análise é feita em cima dos requisitos conseguidos até então, e aí a primeira versão é entregue ao cliente, logo em seguida."
+        ],
+        "gabarito": "Consiste em uma série de pontos âncoras de controle para assegurar o comprometimento de interessados quanto à busca de soluções de sistema que sejam mutuamente satisfatórias e praticáveis. É um gerador de modelos de processos dirigidos a riscos e é utilizado para guiar a engenharia de sistemas intensivos de software, que ocorre de forma concorrente e tem múltiplos envolvidos."
+    },
+    {
+        "id": 154,
+        "enunciado": "Um analista deve escolher uma metodologia de desenvolvimento para elaborar o planejamento do ciclo de vida de um produto de software de larga escala. O sistema é inédito e o reúso de código semelhante não deve ser considerado como base para o novo desenvolvimento. O analista deve considerar, ainda, a necessidade de reduzir os riscos em todas as fases do projeto, pois é provável que os requisitos sejam aprimorados e mudem ao longo do processo. Entre os riscos a serem mitigados, está o de não ter sido contratado pessoal de software suficiente para construir o produto, além de a equipe contratada não ter experiência suficiente no desenvolvimento de produtos em larga escala. Ainda, há o risco de o fornecedor do hardware necessário ao projeto não entregar todas as estações clientes no prazo do contrato.\nNessa situação hipotética, para a metodologia do processo de software em questão, é mais apropriado o uso do",
+        "alternativas": [
+            "modelo codificar-e-corrigir.",
+            "modelo espiral.",
+            "modelo integração e configuração.",
+            "modelo baseado em protótipos.",
+            "modelo em cascata."
+        ],
+        "gabarito": "modelo espiral."
+    },
+    {
+        "id": 155,
+        "enunciado": "Julgue o seguinte item, relativo à engenharia de software.\nO modelo de desenvolvimento de software prototipação é dirigido a riscos contendo etapas que são executadas na forma de evolução, cada uma contendo planejamento, definição de requisitos, projeto e sistema final, em que cada evolução representa uma versão do software.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 156,
+        "enunciado": "Considerando os modelos de desenvolvimento de software, é correto afirmar que o modelo",
+        "alternativas": [
+            "espiral é considerado um modelo do tipo prescritivo.",
+            "de prototipagem é considerado um modelo do tipo incremental.",
+            "espiral é considerado um modelo do tipo ágil de processo.",
+            "cascata é considerado um modelo do tipo prescritivo.",
+            "extreme programming (XP) é considerado um modelo do tipo prescritivo."
+        ],
+        "gabarito": "cascata é considerado um modelo do tipo prescritivo."
+    },
+    {
+        "id": 157,
+        "enunciado": "O desenvolvimento incremental é baseado na ideia de desenvolver uma implementação inicial, expô-la aos comentários dos usuários e continuar, por meio da criação de várias versões, até que um sistema adequado seja desenvolvido. Assinale a alternativa que NÃO descreve uma vantagem desse processo.",
+        "alternativas": [
+            "Os clientes podem usar os incrementos iniciais como protótipos e ganhar experiência, a qual informa seus requisitos para incrementos posteriores do sistema.",
+            "Como os requisitos não são definidos em detalhes até que um incremento possa ser implementado, pode ser difícil identificar recursos comuns necessários a todos os incrementos.",
+            "Os clientes não necessitam esperar até que todo o sistema seja entregue para obter ganhos a partir dele.",
+            "O processo mantém os benefícios do desenvolvimento incremental, o que deve facilitar a incorporação das mudanças no sistema.",
+            "Quanto maior for a prioridade dos serviços entregues e, em seguida, dos incrementos integrados, os serviços mais importantes recebem a maioria dos testes."
+        ],
+        "gabarito": "Como os requisitos não são definidos em detalhes até que um incremento possa ser implementado, pode ser difícil identificar recursos comuns necessários a todos os incrementos."
+    },
+    {
+        "id": 158,
+        "enunciado": "Um framework de processo de software dirigido a riscos (o modelo em espiral) foi proposto por Boehm. O modelo em espiral combina prevenção e tolerância a mudanças, assume que mudanças são um resultado de riscos de projeto e inclui atividades explícitas de gerenciamento de riscos para sua redução. Assinale a alternativa que NÃO descreve uma etapa desse processo.",
+        "alternativas": [
+            "Concepção e elaboração.",
+            "Definição de objetivos.",
+            "Avaliação e redução de riscos.",
+            "Desenvolvimento e validação.",
+            "Planejamento."
+        ],
+        "gabarito": "Concepção e elaboração."
+    },
+    {
+        "id": 159,
+        "enunciado": "Robson trabalha como implementador de software e recebe a demanda de implementar um software simples que demandará apenas 1 a 2 semanas de trabalho.\nPara isso, o chefe dele solicita que execute a demanda usando uma metodologia de desenvolvimento software tradicional que consiste em produzir pequenas entregas de software em etapas cíclicas considerando principalmente a análise de riscos como uma das etapas de cada iteração. Selecione a alternativa que mostra a metodologia de desenvolvimento software que Robson deve usar no projeto.",
+        "alternativas": [
+            "Modelo iterativo e incremental.",
+            "Modelo eXtreme Programming.",
+            "Modelo cascata.",
+            "Modelo espiral.",
+            "Modelo Scrum."
+        ],
+        "gabarito": "Modelo espiral."
+    },
+    {
+        "id": 160,
+        "enunciado": "Um processo de software é um conjunto de atividades e resultados associados que produzem um produto de software. Portanto, um processo de software se dá pela estruturação de um conjunto de atividades que resultam num produto software. Um processo deve contribuir para a redução de custos, aumento de qualidade e de produção.\nAnalise as afirmativas abaixo em relação ao assunto.\n1. Um modelo de processo prescritivo concentra-se em estruturar e ordenar o desenvolvimento de software. As atividades e tarefas ocorrem sequencialmente, com diretrizes de progresso definidas. Cascata e incremental são exemplos deste tipo de modelo.\n2. Alguns projetos de software definem requisitos iniciais de software razoavelmente bem definidos. Pode ser necessário o rápido fornecimento de um determinado conjunto funcional aos usuários, para que após esse fornecimento, possamos melhorar e expandir suas funcionalidades em versões de software posteriores. Nesses casos, podemos optar por um modelo de processo que desenvolve software de uma forma incremental.\n3. O modelo evolucionário, algumas vezes chamado ciclo de vida clássico, sugere uma abordagem sequencial e sistemática para o desenvolvimento de software, começando com a especificação dos requisitos do cliente, avançando pelas fases de planejamento, modelagem, construção e disponibilização, e culminando no suporte contínuo do software concluído.\nAssinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "É correta apenas a afirmativa 1.",
+            "É correta apenas a afirmativa 3.",
+            "São corretas apenas as afirmativas 1 e 2.",
+            "São corretas apenas as afirmativas 1 e 3.",
+            "São corretas apenas as afirmativas 2 e 3."
+        ],
+        "gabarito": "São corretas apenas as afirmativas 1 e 2."
+    },
+    {
+        "id": 161,
+        "enunciado": "Leia o texto:\n“Os requisitos são levantados de modo paralelo à evolução da aplicação. Ele é útil especialmente nos cenários em que as funcionalidades necessárias para a solução não estão definidas corretamente. Assim como no modelo incremental, há uma comunicação direta com o cliente, permitindo que ele aplique feedbacks e auxilie na melhoria dos recursos de modo contínuo. ” A qual modelo do ciclo de vida do software se refere o texto?",
+        "alternativas": [
+            "Cascata.",
+            "Incremental.",
+            "Espiral.",
+            "Evolutivo."
+        ],
+        "gabarito": "Evolutivo."
+    },
+    {
+        "id": 162,
+        "enunciado": "Um dos vários modelos de ciclo de vida de software diz que “o cliente não expõe todos os requisitos, ou os requisitos não são tão bem conhecidos, ou os requisitos ainda estão sofrendo mudanças. Desta forma, a análise é feita em cima dos requisitos conseguidos até então, e a primeira versão é entregue ao cliente. O cliente usa o software no seu ambiente operacional, e como feedback, esclarece o que não foi bem entendido e dá mais informações sobre o que precisa e sobre o que deseja, gerando assim mais requisitos.” Assinale a alternativa que indica corretamente o modelo de ciclo de vida representado pela afirmação entre aspas.",
+        "alternativas": [
+            "Ciclo de Vida Incremental.",
+            "Modelo Evolutivo.",
+            "Modelo em V.",
+            "Modelo em Cascata."
+        ],
+        "gabarito": "Modelo Evolutivo."
+    }
+]

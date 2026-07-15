@@ -1,0 +1,1135 @@
+[
+    {
+        "id": 1,
+        "enunciado": "Em um ambiente de Tecnologia da Informação, o princípio da Segregação de Funções (SoD - Separation of Duties) é rigorosamente aplicado. Um Analista de Sistemas é designado para desenvolver e testar novas funcionalidades em um sistema de missão crítica. Conforme a política de segurança, esse mesmo analista não possui permissão para realizar a implementação (deployment) do código final no ambiente de produção.\nO seguinte risco ou ameaça de segurança e governança o princípio da Segregação de Funções é projetado primariamente para mitigar o problema nesse cenário específico:",
+        "alternativas": [
+            "Risco de Phishing e engenharia social.",
+            "Risco de ataques de Negação de Serviço (DoS).",
+            "Risco de conluio e fraude interna.",
+            "Risco de indisponibilidade por falha de hardware.",
+            "Risco de exploração de vulnerabilidades de Zero-Day."
+        ],
+        "gabarito": "Risco de conluio e fraude interna."
+    },
+    {
+        "id": 2,
+        "enunciado": "Uma empresa de TI, ao aplicar a norma ISO 27002, está trabalhando no domínio dessa norma que trata sobre os controles organizacionais. Uma das características desse domínio é:",
+        "alternativas": [
+            "controlar a gestão de acesso baseado no cargo.",
+            "monitorar as áreas críticas através de dispositivos.",
+            "monitorar os sistemas de TI através de sistemas de log.",
+            "ter regras para classificação e tratamento da informação."
+        ],
+        "gabarito": "ter regras para classificação e tratamento da informação."
+    },
+    {
+        "id": 3,
+        "enunciado": "Julgue o item a seguir, a respeito de segurança da informação, políticas de segurança, classificação de informações e análise de vulnerabilidades.\nConforme prescreve a NBR ISO/IEC 27002:2022, no contexto organizacional, os analistas de negócios e os analistas de bancos de dados são os responsáveis pela classificação das informações.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 4,
+        "enunciado": "Julgue o item a seguir, referente à continuidade de negócios, às normas NBR ISO/IEC 27001 e NBR ISO/IEC 27002, e à auditoria e conformidade.\nConsiderando um eventual cenário de disrupção nos negócios, a NBR ISO/IEC 27002:2022 propõe que planos de continuidade sejam desenvolvidos, implementados, testados, analisados criticamente e avaliados para manter ou restaurar a segurança das informações de processos críticos de negócios.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 5,
+        "enunciado": "Julgue o item a seguir, referente à continuidade de negócios, às normas NBR ISO/IEC 27001 e NBR ISO/IEC 27002, e à auditoria e conformidade.\nDe acordo com a NBR ISO/IEC 27002:2022, no contexto de segurança da informação para uso de serviços em nuvem, é relevante que a totalidade dos controles de segurança da informação sejam gerenciados pela organização como cliente de serviço em nuvem, podendo outros controles operacionais serem delegados ao provedor de serviços em nuvem.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 6,
+        "enunciado": "Julgue o item a seguir, referente à continuidade de negócios, às normas NBR ISO/IEC 27001 e NBR ISO/IEC 27002, e à auditoria e conformidade.\nDe acordo com a NBR ISO/IEC 27002:2022, com o propósito de minimizar o impacto de atividades de auditoria em processos de negócio, é uma diretriz para a organização executar testes de auditoria que podem afetar a disponibilidade do sistema fora do horário comercial.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 7,
+        "enunciado": "Segundo a Norma ISO/IEC 27002:2013, são controles relacionados à gestão de ativos, EXCETO:",
+        "alternativas": [
+            "Procedimentos para o tratamento dos ativos devem ser desenvolvidos e implementados de acordo com o esquema de classificação da informação adotado pela organização.",
+            "A informação deve ser classificada em termos dos requisitos legais, valor, criticidade e sensibilidade para divulgação ou modificação não autorizada.",
+            "O acesso à informação e às funções de sistemas aplicativos deve ser restrito de acordo com a política de controle de acesso.",
+            "Mídias devem ser descartadas de forma segura, usando procedimentos formais quando não forem mais necessárias."
+        ],
+        "gabarito": "O acesso à informação e às funções de sistemas aplicativos deve ser restrito de acordo com a política de controle de acesso."
+    },
+    {
+        "id": 8,
+        "enunciado": "De acordo com a Norma ABNT NBR ISO/IEC 27002-2022, qual controle tecnológico tem como propósito evitar a exposição desnecessária de informações sensíveis e cumprir com requisitos legais, estatuários, regulatórios e contratuais?",
+        "alternativas": [
+            "Exclusão de informações.",
+            "Gerenciamento de configurações.",
+            "Gerenciamento de vulnerabilidades técnicas.",
+            "Proteção contra malware.",
+            "Registro de logs."
+        ],
+        "gabarito": "Exclusão de informações."
+    },
+    {
+        "id": 9,
+        "enunciado": "O monitoramento contínuo das operações de TI é essencial para garantir a disponibilidade de serviços e a segurança da informação. Nesse contexto, estruturas como NOC e SOC, além de ferramentas como Zabbix e ELK Stack, desempenham papéis fundamentais na detecção e resposta a falhas e incidentes.\nCom base nos fundamentos acerca de centros de operação e de ferramentas de monitoramento de TI, julgue (C ou E) o item a seguir.\nO Network Operations Center (NOC) é responsável pela análise e resposta a incidentes de segurança da informação, como tentativas de invasão, vazamentos de dados e violações de políticas de acesso.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 10,
+        "enunciado": "Uma empresa vai aplicar a parte da norma NBR ISO/ IEC 27002:2022, focando nos Controles Organizacionais. No momento, ela está implantando a parte que assegura o fluxo adequado de informações referentes à segurança da informação entre a organização e as autoridades legais, regulatórias e fiscalizadoras relevantes.\nEssa parte é a de:",
+        "alternativas": [
+            "contato com autoridades.",
+            "responsabilidades da direção.",
+            "inventário de informações e ativos.",
+            "monitoramento e análise crítica e gestão de mudanças."
+        ],
+        "gabarito": "contato com autoridades."
+    },
+    {
+        "id": 11,
+        "enunciado": "De acordo com a NBR ISO/IEC 27002:2022, assinale a opção que indica o controle organizacional cujo propósito é assegurar a identificação e o entendimento das necessidades de proteção das informações de acordo com a sua importância para a organização.",
+        "alternativas": [
+            "rotulagem das informações.",
+            "transferência das informações.",
+            "controle de acesso das informações.",
+            "classificação das informações.",
+            "uso aceitável das informações."
+        ],
+        "gabarito": "classificação das informações."
+    },
+    {
+        "id": 12,
+        "enunciado": "Conforme a NBR ISO/IEC 27002:2022, emitir diretrizes sobre armazenamento, manuseio da cadeia de custódia e descarte de registros é uma medida voltada à proteção dos registros organizacionais ao longo do tempo nos aspectos de",
+        "alternativas": [
+            "criptografia e mitigação de riscos.",
+            "confiabilidade e integridade.",
+            "confidencialidade e privacidade.",
+            "não repúdio e conformidade.",
+            "disponibilidade e legibilidade."
+        ],
+        "gabarito": "confiabilidade e integridade."
+    },
+    {
+        "id": 13,
+        "enunciado": "Em relação à gestão de segurança da informação, julgue o item subsequente.\nConforme a NBR ISO/IEC 27002, os requisitos legais, estatuários, regulamentares e contratuais constituem uma das principais fontes de requisitos de segurança da informação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 14,
+        "enunciado": "Em relação à gestão de segurança da informação, julgue o item subsequente.\nNos controles organizacionais previstos na NBR ISO/IEC 27002, o inventário de informações e outros ativos associados abrangem as seguintes propriedades de segurança da informação: confidencialidade, integridade e disponibilidade.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 15,
+        "enunciado": "Julgue o item a seguir, que tratam de gestão da segurança da informação.\nNa NBR ISO/IEC 27002:2022, no atributo propriedades de segurança da informação incluem-se as visões de controle #Confidencialidade, #Integridade, #Disponibilidade e #Autenticidade.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 16,
+        "enunciado": "A Norma ABNT NBR ISO/IEC 27001:2022 recomenda que as organizações estabeleçam e apliquem um processo de tratamento de riscos de segurança da informação para:",
+        "alternativas": [
+            "preparar um plano diretor de tecnologia da informação;",
+            "obter da alta gestão a aprovação dos riscos do plano de tratamento de riscos;",
+            "elaborar uma declaração de aplicabilidade que contenha os controles avançados de segurança da informação;",
+            "determinar os controles que são necessários para implementar as opções escolhidas do tratamento de riscos de segurança da informação;",
+            "selecionar, de forma apropriada, as opções de tratamento dos riscos da segurança da informação levando em consideração os requisitos da alta gestão."
+        ],
+        "gabarito": "determinar os controles que são necessários para implementar as opções escolhidas do tratamento de riscos de segurança da informação;"
+    },
+    {
+        "id": 17,
+        "enunciado": "A ABNT NBR ISO/IEC 27002:2022 orienta que seja estabelecida uma política sobre cópias de segurança (backup) com o propósito de permitir a recuperação em caso de perda de dados ou sistemas.\nNo que se refere às boas práticas sobre a realização do backup, a política de backup deve considerar:",
+        "alternativas": [
+            "o estabelecimento de testes regulares para garantir a confidencialidade do backup;",
+            "a utilização do tipo de backup incremental para possibilitar a recuperação rápida das informações;",
+            "a padronização da tecnologia de backup utilizada para a organização, mantendo uma solução única;",
+            "o armazenamento do backup em local remoto e seguro, para escapar de qualquer dano causado por um desastre no local principal;",
+            "a utilização do tipo de backup diferencial para salvaguardar os dados novos e modificados desde o último backup incremental e reduzir o espaço de armazenamento."
+        ],
+        "gabarito": "o armazenamento do backup em local remoto e seguro, para escapar de qualquer dano causado por um desastre no local principal;"
+    },
+    {
+        "id": 18,
+        "enunciado": "A fim de tratar os riscos técnicos identificados nos ativos, a equipe de segurança do órgão SICRIT está implementando um processo para gestão das vulnerabilidades técnicas de acordo com a ABNT NBR ISO/IEC 27002:2022.\nPara realizar a identificação das vulnerabilidades, a equipe de segurança deve seguir a orientação de:",
+        "alternativas": [
+            "analisar e verificar relatórios para determinar qual atividade de resposta e remediação é necessária;",
+            "identificar os riscos associados e as ações a serem tomadas após a identificação da vulnerabilidade;",
+            "testar e avaliar as atualizações antes de serem instaladas para assegurar que sejam eficazes;",
+            "blindar sistemas vulneráveis contra ataques por meio da implantação de filtros de tráfego adequados;",
+            "definir e estabelecer os cargos e responsabilidades associados ao processo de avaliação de risco de vulnerabilidade."
+        ],
+        "gabarito": "definir e estabelecer os cargos e responsabilidades associados ao processo de avaliação de risco de vulnerabilidade."
+    },
+    {
+        "id": 19,
+        "enunciado": "Uma empresa de consultoria foi contratada pela empresa X na tentativa de adequar a sua segurança à norma ABNT NBR ISO/IEC 27002:2013. Ao analisar o relatório final da consultoria, a empresa X notou algumas observações sobre o controle de acesso à informação e às funções dos sistemas de aplicações, necessários para que ela siga uma política de controle de acesso.\nComo forma de restrição de acesso à informação, o controle sugerido pela consultoria foi:",
+        "alternativas": [
+            "limitar a informações contidas nas saídas;",
+            "registrar tentativas de acesso ao sistema, incluindo as sem sucesso e as bem-sucedidas;",
+            "obrigar os usuários a mudarem as suas senhas temporárias no primeiro acesso ao sistema;",
+            "mostrar um aviso geral informando que o computador deve ser acessado somente por usuários autorizados;",
+            "permitir que os usuários selecionem e modifiquem suas próprias senhas, incluindo um procedimento de confirmação para evitar erros."
+        ],
+        "gabarito": "limitar a informações contidas nas saídas;"
+    },
+    {
+        "id": 20,
+        "enunciado": "Em relação à segurança da informação, julgue o item a seguir, de acordo com as normas ABNT NBR ISO/IEC 27001:2013 e ABNT NBR ISO/IEC 27002:2022.\nOs controles são classificados em controle de pessoas, controle físico e controle tecnológico e, quando não enquadrados em nenhum desses, devem ser categorizados como organizacionais.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 21,
+        "enunciado": "Conforme definido no Programa de Privacidade e Segurança da Informação (PPSI), a implementação do Framework de Privacidade e Segurança da Informação é de responsabilidade do(a):",
+        "alternativas": [
+            "Gestor de Segurança da Informação.",
+            "Encarregado pelo Tratamento de Dados Pessoais.",
+            "Auditor-chefe.",
+            "Estrutura de Governança.",
+            "Gestor de Tecnologia da Informação."
+        ],
+        "gabarito": "Estrutura de Governança."
+    },
+    {
+        "id": 22,
+        "enunciado": "Segundo a norma NBR ISO/IEC 27002:2013, analise as informações abaixo:\nAvaliação de riscos para a organização, levando-se em conta os objetivos e as estratégias globais de negócio da organização.\nConjuntos particulares de princípios, objetivos e requisitos do negócio para o manuseio, processamento, armazenamento, comunicação e arquivo da informação, que uma organização tem que desenvolver para apoiar suas operações.\nInvestigação de vida pregressa de colaboradores.\nLegislação vigente, estatutos, regulamentação e cláusulas contratuais que a organização, seus parceiros comerciais, contratados e provedores de serviço têm que atender, além do seu ambiente sociocultural.\nQuantas das fontes acima são fontes principais para identificação de requisitos de segurança da informação?",
+        "alternativas": [
+            "0.",
+            "1.",
+            "2.",
+            "3.",
+            "4."
+        ],
+        "gabarito": "3."
+    },
+    {
+        "id": 23,
+        "enunciado": "Com base nas normas ABNT NBR ISO/IEC n.º 27001:2013 e ABNT NBR ISO/IEC n.º 27002:2013, julgue o item a seguir, a respeito da gestão de segurança da informação.\nAo constatar a ocorrência de não conformidades, a organização deve adotar a ação corretiva de retenção de informação documentada como evidência da responsabilização pessoal dos envolvidos e do trâmite disciplinar correcional.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 24,
+        "enunciado": "A respeito da aquisição, do desenvolvimento e da manutenção de sistemas e das responsabilidades e papéis pela segurança da informação, julgue o item subsequente à luz da norma ABNT NBR ISO/IEC n.º 27002:2013.\nMesmo que a organização atribua a um gestor a responsabilidade global por desenvolver e implementar a segurança da informação, é relevante que a responsabilidade por pesquisar e implementar os controles permaneça com os gestores individuais dos ativos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 25,
+        "enunciado": "A respeito da aquisição, do desenvolvimento e da manutenção de sistemas e das responsabilidades e papéis pela segurança da informação, julgue o item subsequente à luz da norma ABNT NBR ISO/IEC n.º 27002:2013.\nA identificação dos requisitos de segurança da informação e integração dos processos associados deve ocorrer nos estágios finais dos projetos de desenvolvimento dos sistemas de informação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 26,
+        "enunciado": "A respeito de segurança da informação, julgue o seguinte item.\nOs procedimentos necessários para o acesso lógico aos bancos de dados e sistemas de informações por pessoas de fora da organização devem fazer parte do gerenciamento de partes externas da organização da segurança da informação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 27,
+        "enunciado": "De acordo com a norma ISO/IEC 27002, o objetivo da classificação da informação é",
+        "alternativas": [
+            "verificar a informação do ponto de vista legal, atribuindo-lhe um valor de acordo com uma escala numérica adequada.",
+            "analisar a qualidade da informação, especificamente quanto à sua veracidade, visando-se à prevenção contra a desinformação.",
+            "assegurar que a informação receba um nível adequado de proteção, de acordo com a sua importância para a organização.",
+            "filtrar o conteúdo da informação acessada pelos colaboradores, com o propósito de manter a produtividade da organização.",
+            "avaliar a utilidade da informação organizacional, descartando-se os conteúdos inúteis à missão corporativa."
+        ],
+        "gabarito": "assegurar que a informação receba um nível adequado de proteção, de acordo com a sua importância para a organização."
+    },
+    {
+        "id": 28,
+        "enunciado": "Com base na norma ISO/IEC 27002, assinale a opção correta a respeito de controles de acesso.",
+        "alternativas": [
+            "Para evitar sobrecarga no processamento de informações, é recomendado evitar a retenção dos registros de acesso, das identidades dos usuários e dos dados de autenticação.",
+            "É fundamental que o controle de acesso a ativos de uma organização seja estabelecido com base em requisitos políticos e de usabilidade dos recursos.",
+            "Por questões de segurança, é crucial que as informações sobre os requisitos do negócio a serem atendidos pelo controle de acesso sejam restritas ao conselho diretivo da organização.",
+            "Uma política de controle de acesso deve estabelecer a concentração das funções de controle de acesso, tais como pedidos, autorizações e administração de acessos.",
+            "Convém que as regras para controle de acesso sejam apoiadas por procedimentos formais e responsabilidades claramente definidas."
+        ],
+        "gabarito": "Convém que as regras para controle de acesso sejam apoiadas por procedimentos formais e responsabilidades claramente definidas."
+    },
+    {
+        "id": 29,
+        "enunciado": "A norma ABNT NBR ISO/IEC 27002 – Segurança da informação, segurança cibernética e proteção à privacidade – Controles de segurança da informação estabelece atributos para categorizar as diversas formas de classificação descritas na norma.\nEm particular,",
+        "alternativas": [
+            "as propriedades de segurança da informação podem assumir os valores identificar, proteger, detectar, responder ou recuperar.",
+            "as capacidades operacionais podem assumir valores como proteção ou resiliência.",
+            "as propriedades de segurança cibernética podem assumir os valores confidencialidade, integridade ou disponibilidade.",
+            "os domínios de segurança podem assumir valores como governança ou continuidade.",
+            "o tipo de controle pode assumir os valores preventivo, detectivo ou corretivo."
+        ],
+        "gabarito": "o tipo de controle pode assumir os valores preventivo, detectivo ou corretivo."
+    },
+    {
+        "id": 30,
+        "enunciado": "A norma ABNT NBR ISO/IEC 27002 – Segurança da informação, segurança cibernética e proteção à privacidade – Controles de segurança da informação apresenta e detalha quatro categorias de controles que devem receber cuidados no aspecto de segurança.\nEssas quatro categorias contidas nessa norma são os controles",
+        "alternativas": [
+            "funcionais, gerais, específicos e corretivos.",
+            "de ameaças, orientativos, proprietários e particulares.",
+            "organizacionais, de pessoas, físicos e tecnológicos.",
+            "informativos, descritivos, físicos e virtuais.",
+            "de autenticação, de protocolo, de fornecedores e de objetos."
+        ],
+        "gabarito": "organizacionais, de pessoas, físicos e tecnológicos."
+    },
+    {
+        "id": 31,
+        "enunciado": "Acerca da gestão de segurança da informação, assinale a opção correta.",
+        "alternativas": [
+            "Pelo princípio da segregação de funções, conforme a norma ABNT NBR ISO/IEC 27001, a organização não deve manter programas de auditoria; contudo, convém estabelecer acordos de transferência de dados com os órgãos de controle externo, sempre que necessário.",
+            "Conforme a norma ABNT NBR ISO/IEC 27001, a organização deve estabelecer e aplicar um processo em que haja critérios para realizar as avaliações de riscos de segurança da informação, prescindindo-se, nesse processo, de critérios de aceitação de riscos.",
+            "Segundo a norma ABNT NBR ISO/IEC 27002, convém que os riscos de segurança da informação sejam abordados como parte do gerenciamento do projeto, o que é aplicável a qualquer tipo de projeto, independentemente de sua complexidade ou área de aplicação.",
+            "Segundo a norma ABNT NBR ISO/IEC 27002, convém que haja gestão da identidade ainda que não seja possível assegurar que uma identidade esteja especificamente vinculada apenas a uma única pessoa.",
+            "Segundo a norma ABNT NBR ISO/IEC 27002, convém que o processo de alocação e gestão de identidade assegure que senhas pessoais não sejam fáceis de adivinhar, com exceção dos números de identificação pessoal (PIN) gerados automaticamente durante os processos de inscrição."
+        ],
+        "gabarito": "Segundo a norma ABNT NBR ISO/IEC 27002, convém que os riscos de segurança da informação sejam abordados como parte do gerenciamento do projeto, o que é aplicável a qualquer tipo de projeto, independentemente de sua complexidade ou área de aplicação."
+    },
+    {
+        "id": 32,
+        "enunciado": "Conforme a norma a ABNT NBR ISO/IEC 27002:2013, um nível adequado de proteção da informação, de acordo com a sua importância para a organização, é assegurado pelo controle",
+        "alternativas": [
+            "requisitos do negócio para controle de acesso.",
+            "contratação de recursos humanos.",
+            "criptográfico.",
+            "dispositivos móveis e trabalho remoto.",
+            "classificação da informação."
+        ],
+        "gabarito": "classificação da informação."
+    },
+    {
+        "id": 33,
+        "enunciado": "Julgue o item a seguir, com base na NBR ISO/IEC 27002.\nProprietários dos ativos são encarregados de proteger e salvaguardar os ativos de informação e processamento, além de serem os responsáveis por treinamentos e pela conscientização dos utilizadores dos ativos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 34,
+        "enunciado": "Julgue o item a seguir, com base na NBR ISO/IEC 27002.\nProjetos de sistemas de informação devem contemplar, em seu estágio inicial, os requisitos de sistemas para a segurança da informação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 35,
+        "enunciado": "Julgue o item a seguir, com base na NBR ISO/IEC 27002.\nSaídas de sistemas que fornecem informações classificadas como críticas devem receber rótulo apropriado na classificação da informação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 36,
+        "enunciado": "Com base na ABNT NBR ISO/IEC 27002:2022, julgue o item a seguir.\nOs direitos concedidos a usuários com acessos privilegiados são restritos e controlados, sendo necessário ter requisitos para expirar esse tipo de acesso.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 37,
+        "enunciado": "Com base na ABNT NBR ISO/IEC 27002:2022, julgue o item a seguir.\nNo gerenciamento de informações, deve ser evitado o uso de mensagens de correio eletrônico de terceiros para o fornecimento de informações temporárias de autenticação secreta de usuários.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 38,
+        "enunciado": "Com base na ABNT NBR ISO/IEC 27002:2022, julgue o item a seguir.\nUma política de gerenciamento de chaves deve estabelecer a forma apropriada de lidar com chaves comprometidas: deve-se manter registro e auditoria das atividades que tenham relação com o gerenciamento de chaves e não se deve jamais destruir chaves comprometidas, as quais devem ser somente arquivadas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 39,
+        "enunciado": "Com base na ABNT NBR ISO/IEC 27002:2022, julgue o item a seguir.\nNo desenvolvimento de uma política para criptografia, o uso de criptografia no transporte de mídias móveis é opcional, desde que, para o transporte, as mídias sejam lacradas e rastreadas durante todo o tempo em que estiverem em trânsito.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 40,
+        "enunciado": "Com base na ABNT NBR ISO/IEC 27002:2022, julgue o item a seguir.\nEm um perímetro de segurança física, as portas corta-fogo devem ser providas de alarme e monitoramentos e devem ser testadas em conjunto com as paredes, a fim de se estabelecer o nível de resistência exigido.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 41,
+        "enunciado": "As organizações podem usar a Norma ABNT ISO 27002 como uma referência para a seleção de controles dentro do processo de um SGSI (Sistema de Gestão de Segurança da Informação). Conforme definido nessa norma, assegurar que as informações e os recursos de processamento da informação estejam protegidos contra malware é um dos objetivos listados para o contexto da segurança",
+        "alternativas": [
+            "nas operações.",
+            "nas comunicações.",
+            "em recursos humanos.",
+            "no controle de acesso.",
+            "física e do ambiente."
+        ],
+        "gabarito": "nas operações."
+    },
+    {
+        "id": 42,
+        "enunciado": "Como parte do gerenciamento de usuários, na NBR ISO 27002:2013, é recomendado o estabelecimento de controles para assegurar acesso de usuário autorizado e para prevenir acesso não autorizado a sistemas e serviços. Dentre esses controles, está o gerenciamento de",
+        "alternativas": [
+            "mudança e capacidade.",
+            "direitos de acesso privilegiado.",
+            "cópias de segurança das informações.",
+            "mudanças em pacotes de software.",
+            "mudanças para serviços com fornecedores."
+        ],
+        "gabarito": "direitos de acesso privilegiado."
+    },
+    {
+        "id": 43,
+        "enunciado": "Na NBR ISO 27002:2013, são listados controles e objetivos de controles que devem ser aplicados de forma alinhada com o tratamento de riscos de segurança da informação. Um desses controles visa assegurar que a segurança da informação está implementada e é operada de acordo com as políticas e com os procedimentos da organização. O objetivo descrito é o do controle de",
+        "alternativas": [
+            "análise crítica da segurança da informação.",
+            "gerenciamento da segurança em redes.",
+            "gestão de incidentes de segurança da informação e melhorias.",
+            "segurança da informação na cadeia de suprimento.",
+            "segurança em processos de desenvolvimento e de suporte."
+        ],
+        "gabarito": "análise crítica da segurança da informação."
+    },
+    {
+        "id": 44,
+        "enunciado": "Paulo está implementando a norma ABNT NBR ISO/IEC 27002:2013 em sua empresa. Essa norma fornece diretrizes para práticas de gestão de Segurança da Informação e normas de Segurança da Informação para as organizações e não determina o que deve ser feito, e sim o que convém que seja feito. De forma a garantir a operação segura e correta dos recursos de processamento da informação, podem ser implementados quatro controles. Um desses controles é a separação dos ambientes de desenvolvimento, teste e produção. Uma das recomendações a ser seguida por Paulo para atender à norma nesse controle é que:",
+        "alternativas": [
+            "os testes não sejam realizados nos sistemas operacionais, exceto em circunstâncias excepcionais;",
+            "os dados sensíveis sejam enviados para o ambiente de teste para ter uma melhor veracidade quanto aos erros;",
+            "os perfis dos usuários em ambientes de teste e produção devem ser os mesmos de forma a garantir a interoperabilidade;",
+            "as mudanças nas aplicações e nos sistemas operacionais sejam testadas em um ambiente de teste e produção simultaneamente;",
+            "compiladores, editores e outras ferramentas de desenvolvimento sejam completamente acessíveis aos sistemas operacionais."
+        ],
+        "gabarito": "os testes não sejam realizados nos sistemas operacionais, exceto em circunstâncias excepcionais;"
+    },
+    {
+        "id": 45,
+        "enunciado": "Dadas as afirmativas sobre a Norma ISO/IEC 27002,\nI. Pode-se dizer que a norma traz consigo princípios para promover a confidencialidade, a integridade e a disponibilidade da informação, também levando em consideração os ambientes de risco da segurança da informação na organização.\nII. Com relação à política de controle de acesso, a norma diz que devem ser considerados tanto o gerenciamento do acesso lógico como também o do acesso físico, de forma conjunta, e que os requisitos a serem atendidos sejam compartilhados entre todos os envolvidos, sejam estes usuários ou provedores de serviços.\nIII. Estabelece que documento de política de segurança da informação deve ser elaborado pela alta direção da organização e que deve ser parte integrante do documento de planejamento estratégico organizacional.\nverifica-se que está/ão correta/s apenas",
+        "alternativas": [
+            "II e III.",
+            "I e III.",
+            "I e II.",
+            "III.",
+            "I."
+        ],
+        "gabarito": "I e II."
+    },
+    {
+        "id": 46,
+        "enunciado": "A ISO 27002 é uma norma que estabelece diretrizes e princípios para a segurança da informação em uma organização.\nCom base nisso, é correto afirmar que um dos princípios fundamentais abordados por ela é o(a)",
+        "alternativas": [
+            "autenticação multifatorial.",
+            "backup semanal de dados.",
+            "atualização periódica do software.",
+            "identificação de vulnerabilidades."
+        ],
+        "gabarito": "identificação de vulnerabilidades."
+    },
+    {
+        "id": 47,
+        "enunciado": "Dentro do contexto da ISO 27002, que estabelece diretrizes e princípios para a segurança da informação, assinale a alternativa que NÃO apresenta uma das áreas de controle relacionadas à segurança física, conforme definidas pela norma.",
+        "alternativas": [
+            "Controle de acesso físico às instalações.",
+            "Proteção contra incêndio e inundação.",
+            "Monitoramento constante da temperatura do data center.",
+            "Realização de backups regulares dos dados."
+        ],
+        "gabarito": "Realização de backups regulares dos dados."
+    },
+    {
+        "id": 48,
+        "enunciado": "Dentre os princípios orientadores da ISO/IEC 27002 para a gestão de segurança da informação, a abordagem mais apropriada para garantir a continuidade do negócio em situações de crise é",
+        "alternativas": [
+            "a implementação extensiva de controles técnicos.",
+            "a ênfase exclusiva na conformidade regulatória.",
+            "o foco prioritário na auditoria interna contínua.",
+            "a adoção de uma abordagem baseada em riscos."
+        ],
+        "gabarito": "a adoção de uma abordagem baseada em riscos."
+    },
+    {
+        "id": 49,
+        "enunciado": "A norma ABNT NBR ISO/IEC 27002:2022 (Segurança da informação cibernética e proteção à privacidade – Controles de segurança da informação) estabelece, em seu capítulo 5, uma seção sobre inteligência de ameaças, na qual preconiza que tal tipo de inteligência seja dividido ou classificado em três camadas para tratamento de ameaças. Essas três camadas são as inteligências de ameaças",
+        "alternativas": [
+            "interna, mista e externa.",
+            "irrelevante, média e grave.",
+            "de sistema, de invasão e de pessoas.",
+            "preliminar, de objetivo e de finalização.",
+            "estratégica, tática e operacional."
+        ],
+        "gabarito": "estratégica, tática e operacional."
+    },
+    {
+        "id": 50,
+        "enunciado": "Para questão, tenha como base o suporte a seguir sobre os conceitos relativos à segurança da informação definidos na norma ISO 27002:\nSegundo a ISO 27002 (2, os controles de segurança atuam em finalidades diferentes, que envolvem a prevenção, a detecção e a resposta. Essas finalidades podem ser alcançadas com o uso de mecanismos de defesa físicos, tecnológicos, processuais ou regulatórios.\nABNT — Associação Brasileira de Normas Técnicas. NBR ISO/EC 27002:2013: Tecnologia da informação — Técnicas de segurança — Código de prática para a gestão da segurança da informação. Rio de Janeiro: ABNT, 2013.\nAnalise as afirmativas:\nI. Controles de acesso incluem mecanismos para autenticação de usuários, autorização de acesso, gerenciamento de privilégios, controle de acesso físico a áreas restritas, firewalls, sistemas de detecção de intrusões e filtragem de pacotes.\nII. A norma ABNT NBR ISO/IEC 27002:2013 define que convém o conjunto de Políticas de Segurança da Informação ser definido, aprovado pela direção, publicado e comunicado para os funcionários e partes externas relevantes.\nIII. O processo de gestão de ativos consiste basicamente na classificação e na proteção adequada dos ativos de informação, como dados e software.\nIV. Em relação à Segurança em Recursos Humanos, ações devem ser iniciadas e realizadas mesmo antes da contratação.\nAssinale a alternativa que contenha APENAS as afirmações CORRETAS.",
+        "alternativas": [
+            "I e IV.",
+            "II e III.",
+            "III e IV.",
+            "I e III.",
+            "II e IV."
+        ],
+        "gabarito": "I e IV."
+    },
+    {
+        "id": 51,
+        "enunciado": "Com relação à autenticação segura, a norma ABNT NBR ISO/IEC 27002:2022 recomenda que o procedimento de entrada em um sistema ou aplicativo seja projetado para minimizar o risco de acesso não autorizado, por meio da implementação de procedimentos e tecnologias de acesso que",
+        "alternativas": [
+            "forneçam mensagens de ajuda durante o procedimento de acesso ao sistema para auxiliar um usuário não autorizado.",
+            "mantêm sessões inativas após um longo período de inatividade, para agilizar as operações dos usuários.",
+            "exibem informações sensíveis do sistema ou do aplicativo, mesmo que o processo de log-on ainda não tenha sido concluído.",
+            "protegem contra tentativas de log-on com força bruta em nomes de usuário e senha por meio, por exemplo, do uso de САРТСНА.",
+            "não validam as informações de log-on no sistema na conclusão de todos os dados de entrada."
+        ],
+        "gabarito": "protegem contra tentativas de log-on com força bruta em nomes de usuário e senha por meio, por exemplo, do uso de САРТСНА."
+    },
+    {
+        "id": 52,
+        "enunciado": "A orientação da ABNT NBR ISO/IEC 27002:2022 sobre controle de acesso recomenda que",
+        "alternativas": [
+            "seja definida uma política especifica por tema, sobre controle de acesso.",
+            "as regras de controle de acesso não sejam implementadas em diferentes granularidades, focando sempre no sistema inteiro.",
+            "as regras de controle de acesso não contenham elementos dinâmicos, como, por exemplo, funções que avaliam acessos passados ou valores específicos do ambiente.",
+            "as formas de controle de acesso sejam detalhadas na Política de Segurança da Informação, sem necessidade de política específica sobre o assunto.",
+            "as regras para controle de acesso físico incluam métodos como validação por senha, autenticação multifator (MFA) e Single Sign-On (SSO)."
+        ],
+        "gabarito": "seja definida uma política especifica por tema, sobre controle de acesso."
+    },
+    {
+        "id": 53,
+        "enunciado": "Acerca de becape, classificação de informações e gestão de riscos, julgue o item a seguir, considerando as normas ISO 27002 e ISO 31000.\nA ISO 27002 recomenda evitar a encriptação de cópias de segurança (becape), em benefício da celeridade em eventuais processos de recuperação, especialmente quando o sistema de becape for um componente chave nos planos de continuidade de negócio.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 54,
+        "enunciado": "Acerca de becape, classificação de informações e gestão de riscos, julgue o item a seguir, considerando as normas ISO 27002 e ISO 31000.\nNa política de desenvolvimento seguro, de acordo com a ISO 27002, é relevante que sejam consideradas a segurança no ambiente de desenvolvimento e a capacidade dos desenvolvedores de evitar, encontrar e corrigir vulnerabilidade.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 55,
+        "enunciado": "Acerca de becape, classificação de informações e gestão de riscos, julgue o item a seguir, considerando as normas ISO 27002 e ISO 31000.\nSegundo a ISO 27002, importa que os resultados de classificação da informação que envolvam controles relacionados a sigilo sejam atualizados em conformidade com as prescrições de prazos previstas na política de classificação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 56,
+        "enunciado": "No que se refere à gestão de identidade e acesso, DLP e gestão de vulnerabilidades, julgue o item a seguir.\nSegundo a ISO 27002, quando uma correção de vulnerabilidade é disponibilizada, convém que sejam avaliados os riscos associados à sua instalação em comparação com os riscos associados à exploração da vulnerabilidade.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 57,
+        "enunciado": "Acerca de gestão de segurança da informação, julgue o item a seguir, considerando a NBR ISO/IEC 27001:2013 e a NBR ISO/IEC 27002:2013.\nO valor de cada ativo de informação classificado na organização deve ser atualizado de acordo com o custo de produção ou aquisição, corrigido por fatores de depreciação propostos em compilações de boas práticas de gestão.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 58,
+        "enunciado": "Julgue o item subsequente, a respeito de aquisição, desenvolvimento e manutenção de sistemas, organização da segurança da informação e segurança em recursos humanos.\nUm processo de manutenção que implique mudanças maiores em um sistema existente inclui uma avaliação de riscos e uma especificação dos controles de segurança requeridos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 59,
+        "enunciado": "Julgue o item subsequente, a respeito de aquisição, desenvolvimento e manutenção de sistemas, organização da segurança da informação e segurança em recursos humanos.\nFuncionário responsável pela segurança da informação de uma organização pode delegar tarefas de segurança da informação a outros funcionários, desde que permaneça responsável e indique se as tarefas delegadas estão sendo corretamente executadas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 60,
+        "enunciado": "Julgue o item subsequente, a respeito de aquisição, desenvolvimento e manutenção de sistemas, organização da segurança da informação e segurança em recursos humanos.\nDiferentemente o que ocorre com os projetos relacionados a processos críticos para o negócio, aos projetos de TI deve ser assegurada a identificação dos riscos por meio da integração da segurança da informação aos métodos de gerenciamento de projeto da organização.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 61,
+        "enunciado": "Com a pandemia da Covid-19, o trabalho remoto se tornou uma alternativa para que as organizações não parassem de oferecer serviços aos seus clientes e usuários.\nAssim, diretrizes de segurança da informação devem ser respeitadas quando o trabalho remoto é amplamente utilizado pelas organizações. A ISO/IEC 27002 regula o trabalho remoto e a proteção de dados. Sabendo disso, assinale a alternativa que apresenta corretamente quatro das diretrizes de segurança da informação para o trabalho remoto.",
+        "alternativas": [
+            "A avaliação dos riscos de segurança da informação deve ser conduzida em estágios iniciais do projeto para identificar os controles que são necessários. Ampliar o conhecimento sobre as melhores práticas e manter-se atualizado com as informações relevantes sobre segurança da informação. Acesso a equipamentos de propriedade particular (para verificar a segurança da máquina ou durante uma investigação), o qual pode ser restringido por lei. Provisão de equipamento de comunicação apropriado, incluindo métodos para acesso remoto seguro.",
+            "Definir as responsabilidades dos funcionários ou partes externas pelo tratamento da informação recebida de outras companhias ou partes interessadas. Cumprir com os termos e as condições de trabalho, que incluam a política de segurança da informação da organização e métodos apropriados de trabalho. Declaração do comprometimento da direção com a segurança da informação em toda a organização. Assegurar que os ativos são adequadamente classificados e protegidos.",
+            "Restrições de acesso para apoiar os requisitos de proteção para cada nível de classificação. Manutenção de um registro formal dos destinatários de ativos autorizados. Registro do descarte de itens sensíveis, sempre que possível, para se manter uma trilha de auditoria. Meio de transporte ou serviço de mensageiros confiáveis.",
+            "Estabelecer procedimento para a verificação da identificação dos transportadores. Remoção de direitos de acesso. Redes e serviços de redes que são permitidos para serem acessados. Atribuir e permitir, ou revogar, um ID de um usuário.",
+            "Segurança física existente no local do trabalho remoto, levando-se em consideração a segurança do ambiente local. Políticas e procedimentos para prevenir disputas relativas a direitos de propriedade intelectual desenvolvidas em equipamentos de propriedade particular. Requisitos de firewall e proteção antivírus. Uso de redes domésticas e requisitos ou restrições na configuração de serviços de rede sem fio."
+        ],
+        "gabarito": "Segurança física existente no local do trabalho remoto, levando-se em consideração a segurança do ambiente local. Políticas e procedimentos para prevenir disputas relativas a direitos de propriedade intelectual desenvolvidas em equipamentos de propriedade particular. Requisitos de firewall e proteção antivírus. Uso de redes domésticas e requisitos ou restrições na configuração de serviços de rede sem fio."
+    },
+    {
+        "id": 62,
+        "enunciado": "A ISO/IEC 27002 estabelece requisitos de segurança que podem ser utilizados por uma organização. Dentro da norma, esses requisitos são chamados",
+        "alternativas": [
+            "controles.",
+            "ferramentas.",
+            "cadeados.",
+            "barreiras.",
+            "fatores."
+        ],
+        "gabarito": "controles."
+    },
+    {
+        "id": 63,
+        "enunciado": "Com relação à aquisição, desenvolvimento e manutenção de sistemas, a Norma ABNT NBR ISO/IEC 27002:2013 recomenda que",
+        "alternativas": [
+            "os requisitos relacionados à segurança da informação sejam incluídos nos requisitos para novos sistemas de informação ou melhorias dos sistemas de informação existentes.",
+            "as mudanças em sistemas sejam controladas utilizando procedimentos informais de controle de mudança.",
+            "modificações em pacotes de software sejam encorajadas e estejam alinhadas às mudanças necessárias em ambiente controlado.",
+            "programas de testes de aceitação e critérios relacionados sejam estabelecidos para novos sistemas de informação, excluindo- se atualizações e novas versões.",
+            "os testes das funcionalidades de segurança sejam realizados somente ao final do processo de desenvolvimento de sistemas."
+        ],
+        "gabarito": "os requisitos relacionados à segurança da informação sejam incluídos nos requisitos para novos sistemas de informação ou melhorias dos sistemas de informação existentes."
+    },
+    {
+        "id": 64,
+        "enunciado": "A norma ISO 27002 – Tecnologia da Informação – Técnicas de segurança – Código de prática para controles de segurança da informação estabelece, em uma de suas seções, a seguinte diretriz:\n“...que todos os funcionários, fornecedores e partes externas que tenham acesso a informações sensíveis assinem um termo de confidencialidade ou de não divulgação, antes de lhes ser dado o acesso aos recursos de processamento da informação” Essa diretriz faz parte do capítulo referente a:",
+        "alternativas": [
+            "gestão de ativos.",
+            "criptografia.",
+            "segurança em recursos humanos.",
+            "segurança nas comunicações.",
+            "controle de acesso."
+        ],
+        "gabarito": "segurança em recursos humanos."
+    },
+    {
+        "id": 65,
+        "enunciado": "A norma ABNT NBR ISO/IEC 27002, tomando a versão de 2013 como referência, aborda o tópico relativo a procedimentos seguros de acesso a sistemas e aplicações\n(log-on). De acordo com a norma, é conveniente que um bom procedimento de entrada (log-on) em um sistema",
+        "alternativas": [
+            "forneça mensagens de ajuda durante o procedimento que possam ajudar um usuário não autorizado a resolver seu problema e conseguir acesso.",
+            "exiba a data e hora da última entrada bem-sucedida no sistema após o procedimento de entrada (log-on) finalizar com sucesso.",
+            "indique qual parte dos dados de entrada estão corretos ou incorretos, caso ocorra uma condição de erro no log-on.",
+            "mostre identificadores do sistema ou da aplicação antes de o processo de log-on ser completado.",
+            "registre as tentativas de acesso ao sistema sem sucesso, não havendo necessidade de registrar as tentativas bem-sucedidas."
+        ],
+        "gabarito": "exiba a data e hora da última entrada bem-sucedida no sistema após o procedimento de entrada (log-on) finalizar com sucesso."
+    },
+    {
+        "id": 66,
+        "enunciado": "Para tratar os riscos da segurança da informação, uma organização deve definir e aplicar um processo contendo controles sobre seus ativos de informação. Nesse sentido, para assegurar que a informação receba um nível adequado de proteção, de acordo com a sua importância para a organização, deve-se implementar o(a):",
+        "alternativas": [
+            "controle de acesso;",
+            "classificação da informação;",
+            "responsabilidade pelos ativos;",
+            "gerenciamento de acesso do usuário;",
+            "conformidade com requisitos legais e contratuais."
+        ],
+        "gabarito": "classificação da informação;"
+    },
+    {
+        "id": 67,
+        "enunciado": "Dentro de uma política de desenvolvimento, a norma ABNT NBR ISO/IEC 27002:2013 recomenda que sejam considerados diversos aspectos, dentre eles: segurança no ambiente de desenvolvimento; capacidade dos desenvolvedores de evitar, encontrar e corrigir vulnerabilidades; orientações sobre a segurança no ciclo de vida do desenvolvimento do software; repositórios seguros; segurança no controle de versões; e",
+        "alternativas": [
+            "requisitos de segurança na fase do projeto.",
+            "manipulação segura de logs.",
+            "controle de cópias de segurança (backup).",
+            "segurança de interface de usuário.",
+            "segregação de funções."
+        ],
+        "gabarito": "requisitos de segurança na fase do projeto."
+    },
+    {
+        "id": 68,
+        "enunciado": "No que se refere à norma ABNT NBR ISO/IEC 27002:2013, julgue o item.\nA norma ABNT NBR ISO/IEC 27002:2013, que tem como propósito servir como referência na implementação e no desenvolvimento de um sistema de gestão de segurança da informação (SGSI), é considerada uma norma completa e ampla que esgota as necessidades de todas as empresas, não sendo necessário que estas realizem adaptações.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 69,
+        "enunciado": "No que se refere à norma ABNT NBR ISO/IEC 27002:2013, julgue o item.\nA norma faz menção aos ativos de informação e aos recursos de processamento desta, os quais devem ser identificados e inventariados, sendo estabelecidos os responsáveis por sua estruturação e manutenção.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 70,
+        "enunciado": "No que se refere à norma ABNT NBR ISO/IEC 27002:2013, julgue o item.\nSegundo a norma, não há necessidade de restringir o acesso físico de pessoas a qualquer ambiente da organização, visto que esse tipo de acesso não provoca danos aos seus ativos de informação; há, no entanto, uma série de procedimentos que devem ser seguidos quanto ao acesso lógico aos sistemas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 71,
+        "enunciado": "Com relação ao plano de backup, a Norma ABNT NBR ISO/IEC 27002:2013 recomenda",
+        "alternativas": [
+            "práticas relativas à abrangência, mas nada relativo à frequência da geração de cópias de segurança.",
+            "e detalha os tipos de backup (completo, incremental e diferencial).",
+            "que as cópias de segurança fiquem próximas do local principal.",
+            "que todas as cópias de segurança sejam sempre protegidas por meio de encriptação.",
+            "que mídias de backup sejam regularmente testadas para garantir que continuem confiáveis."
+        ],
+        "gabarito": "que mídias de backup sejam regularmente testadas para garantir que continuem confiáveis."
+    },
+    {
+        "id": 72,
+        "enunciado": "Com base na NBR ISO/IEC 27002, ao elaborar uma política de becape para se proteger contra a perda de dados, uma organização deve considerar",
+        "alternativas": [
+            "o software de automação dos becapes.",
+            "o tamanho da mídia para armazenamento.",
+            "a proteção com encriptação dos dados.",
+            "a identificação do usuário dono dos dados."
+        ],
+        "gabarito": "a proteção com encriptação dos dados."
+    },
+    {
+        "id": 73,
+        "enunciado": "Sobre as ISO/IEC 27001 e ISO/IEC 27002 para Gestão de Segurança da Informação, analise as afirmações a seguir.\nI - ISO/IEC 27002 é a norma que define os requisitos para um Sistema de Gestão da Segurança da Informação (SGSI). O SGSI inclui estrutura organizacional, políticas, atividades de planejamento, responsabilidades, práticas, procedimentos, processos e recursos, sendo descrito como um sistema parte do sistema de gestão global da organização, com base em uma abordagem de risco do negócio, para estabelecer, implementar, operar, monitorar, revisar, manter e melhorar a segurança da informação.\nII - ISO/IEC 27001 é a norma que define os requisitos para um Sistema de Gestão da Segurança da Informação (SGSI). O SGSI inclui estrutura organizacional, políticas, atividades de planejamento, responsabilidades, práticas, procedimentos, processos e recursos, sendo descrito como um sistema parte do sistema de gestão global da organização, com base em uma abordagem de risco do negócio, para estabelecer, implementar, operar, monitorar, visar, manter e melhorar a segurança da informação.\nIII- ISO/IEC 27001 é um código de práticas com um conjunto completo de controles (técnicos) que auxiliam a aplicação do Sistema de Gestão da Segurança da Informação (SGSI). É recomendável que a norma seja utilizada em conjunto com outras normas da família ISO 27000, mas pode ser também consultada de forma independente, com fins de adoção das boas práticas. Essa é a única norma em gestão da segurança para a qual existem certificações profissionais.\nIV - ISO/IEC 27002 é um código de práticas com um conjunto completo de controles (técnicos) que auxiliam a aplicação do Sistema de Gestão da Segurança da Informação (SGSI). É recomendável que a norma seja utilizada em conjunto com a ISO 27001, mas pode ser também consultada de forma independente, com fins de adoção das boas práticas. Essa é a única norma em gestão da segurança para a qual existem certificações profissionais.\nEstão corretas, apenas, as assertivas:",
+        "alternativas": [
+            "I e ll.",
+            "II e III.",
+            "IlI e IV.",
+            "l e Il.",
+            "II e IV."
+        ],
+        "gabarito": "II e IV."
+    },
+    {
+        "id": 74,
+        "enunciado": "Analise as afirmativas abaixo com relação à Norma ABNT NBR ISSO/IEC 17799:2005.\n1. Uma fonte de requisitos de segurança da informação é a legislação vigente, os estatutos, a regulamentação e as cláusulas contratuais que a organização, seus parceiros comerciais, contratados e provedores de serviço têm que atender, além do seu ambiente sociocultural.\n2. Uma Política de Segurança da Informação tem como objetivo prover uma orientação e apoio da direção para a segurança da informação de acordo com os requisitos do negócio e com as leis e regulamentações relevantes.\n3. Não é conveniente que os acordos de confidencialidade e de não divulgação estejam em conformidade com todas as leis e regulamentações aplicáveis na jurisdição para a qual eles se aplicam devido à característica interna da informação.\nAssinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "É correta apenas a afirmativa 1.",
+            "É correta apenas a afirmativa 2.",
+            "São corretas apenas as afirmativas 1 e 2.",
+            "São corretas apenas as afirmativas 1 e 3.",
+            "São corretas apenas as afirmativas 2 e 3."
+        ],
+        "gabarito": "São corretas apenas as afirmativas 1 e 2."
+    },
+    {
+        "id": 75,
+        "enunciado": "Um agente do TCE deseja implantar o controle “Trabalho Remoto” descrito na ABNT NBR ISO/IEC 27002:2013 e, para isso, verificou os pontos que deveriam ser considerados nas diretrizes dessa norma técnica. De acordo com a norma, o agente deve atentar para",
+        "alternativas": [
+            "a utilização de sistemas operacionais específicos para proteção contra vírus e ataques externos.",
+            "a impossibilidade, mesmo que a legislação permita, do acesso a equipamentos de propriedade particular.",
+            "a ameaça de acesso não autorizado à informação ou aos recursos de processamento da informação por outras pessoas que utilizam o local.",
+            "a proibição do acesso virtual às estações de trabalho dos usuários, para prevenir vulnerabilidades e ataques cibernéticos à rede corporativa.",
+            "a criação de políticas e procedimentos para coordenar e documentar os direitos de propriedade intelectual sobre o que foi desenvolvido em equipamentos de propriedade particular."
+        ],
+        "gabarito": "a ameaça de acesso não autorizado à informação ou aos recursos de processamento da informação por outras pessoas que utilizam o local."
+    },
+    {
+        "id": 76,
+        "enunciado": "A norma ABNT NBR ISO/IEC 27002 (Tecnologia da Informação – Técnicas de segurança – Código de prática para controles de segurança da informação) define, em sua seção de Gestão de Ativos, a questão da classificação da informação. Nesse quesito, a norma estabelece que a informação seja classificada em termos de alguns critérios, sendo, especificamente, dois desses critérios,",
+        "alternativas": [
+            "tempo de existência da informação e valor.",
+            "quantidade de informação e requisitos legais.",
+            "tipo de codificação e tempo de existência da informação.",
+            "valor e requisitos legais.",
+            "proprietário da informação na organização e quantidade de informação."
+        ],
+        "gabarito": "valor e requisitos legais."
+    },
+    {
+        "id": 77,
+        "enunciado": "Identifique, dentre os itens descritos a seguir, aqueles que correspondem a diretrizes e providências que, de acordo com a norma ABNT NBR ISO/IEC 27002:2013, devem ser consideradas para realização de trabalho remoto e assinale a alternativa correta.\nI. Proibição do uso de todo e qualquer equipamento de propriedade particular para realização das atividades de trabalho remoto;\nII. Definição dos sistemas internos que o usuário do trabalho remoto está autorizado a acessar;\nIII. Provisão de equipamento de comunicação apropriado e de métodos para acesso remoto seguro;\nIV. Proibição de acesso de familiares e visitantes aos equipamentos computacionais e à rede de comunicação utilizados para trabalho remoto;\nV. Provisão de suporte e manutenção de hardware e software;\nVI. Revogação de autoridade e direitos de acesso quando do encerramento das atividades de trabalho remoto; e\nVII.Devolução dos equipamentos fornecidos pela organização quando as atividades de trabalho remoto forem finalizadas.",
+        "alternativas": [
+            "Somente os itens I, III, VI e VII.",
+            "Somente os itens II, IV, V e VII.",
+            "Somente os itens II, III, V, VI e VII.",
+            "Somente os itens I, III, IV e VI.",
+            "Somente os itens I, II, IV, V e VI."
+        ],
+        "gabarito": "Somente os itens II, III, V, VI e VII."
+    },
+    {
+        "id": 78,
+        "enunciado": "Luís está implementando a norma ABNT NBR ISO/IEC 27002:2013 em sua organização e está na etapa de gestão de ativos. Considerando as diretrizes da norma, informe se é verdadeiro (V) ou falso (F) o que se afirma a seguir e assinale a alternativa com a sequência correta.\n( ) Não são considerados ativos serviços de utilidades gerais, como iluminação e refrigeração.\n( ) Pessoas, suas habilidades e experiências são consideradas ativos.\n( ) Elementos intangíveis não devem ser classificados como ativos, por exemplo, imagem da organização.\n( ) Os proprietários de cada ativo devem ser identificados e a eles deve ser atribuída a responsabilidade pela manutenção dos controles.",
+        "alternativas": [
+            "V – F – F – V.",
+            "F – V – F – F.",
+            "F – F – V – V.",
+            "F – F – F – V.",
+            "F – V – F – V."
+        ],
+        "gabarito": "F – V – F – V."
+    },
+    {
+        "id": 79,
+        "enunciado": "Com relação à gerência de riscos, às disposições das NBR ISO/IEC 27001 e NBR ISO/IEC 27002 e às políticas de senhas, julgue o item a seguir.\nDe acordo com a NBR ISO/IEC 27002, as ferramentas de gerenciamento de informações de autenticação aumentam a eficácia desse controle e reduzem o impacto de uma eventual revelação de informação de autenticação secreta.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 80,
+        "enunciado": "Com relação à gerência de riscos, às disposições das NBR ISO/IEC 27001 e NBR ISO/IEC 27002 e às políticas de senhas, julgue o item a seguir.\nConforme prescreve a NBR ISO/IEC 27002 a respeito do controle de acesso ao código-fonte de programas, para que se reduza o risco de corrupção de programas de computador na organização, convém que o pessoal de suporte não tenha acesso irrestrito às bibliotecas de programa-fonte.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 81,
+        "enunciado": "De acordo com a NBR ISO/IEC 27002, quando do desenvolvimento de uma política sobre o uso de controles criptográficos, convém considerar",
+        "alternativas": [
+            "a identificação do nível requerido de proteção com base na avaliação de risco, considerando-se o tipo, a força e a qualidade do algoritmo de criptografia.",
+            "a realização de cópias de segurança ou arquivamento das chaves criptográficas.",
+            "a manutenção de registro e auditoria das atividades relacionadas ao gerenciamento de chaves.",
+            "a implementação de um firewall com vistas à melhora do algoritmo de criptografia.",
+            "a manutenção de um registro de auditoria de todos os acessos a código-fonte de programas."
+        ],
+        "gabarito": "a identificação do nível requerido de proteção com base na avaliação de risco, considerando-se o tipo, a força e a qualidade do algoritmo de criptografia."
+    },
+    {
+        "id": 82,
+        "enunciado": "Acerca das NBR ISO/IEC 27001, 27002 e 27005 e plano de continuidade de negócios, julgue o item a seguir.\nO objetivo da classificação da informação é assegurar que todas as informações produzidas pela organização recebam os níveis máximos de proteção e sigilo disponíveis.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 83,
+        "enunciado": "No que se refere à NBR ISO/IEC 27002:2013 e a confiabilidade, integridade e disponibilidade, julgue o item a seguir.\nNo contexto de política de segurança da informação no relacionamento com fornecedores, convém que sejam estabelecidos, quando necessário, acordos de contingência e recuperação para assegurar a disponibilidade da informação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 84,
+        "enunciado": "No que se refere à NBR ISO/IEC 27002:2013 e a confiabilidade, integridade e disponibilidade, julgue o item a seguir.\nControles criptográficos como assinaturas digitais e códigos de autenticação de mensagens são aplicáveis para verificar a integridade de informações sensíveis ou críticas, armazenadas ou transmitidas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 85,
+        "enunciado": "No que se refere à NBR ISO/IEC 27002:2013 e a confiabilidade, integridade e disponibilidade, julgue o item a seguir.\nPolíticas de segurança relacionadas a trabalho remoto devem reafirmar o direito das organizações de realizar acessos intempestivos para verificações de segurança em equipamentos de propriedade particular que se conectem a sua rede para a realização desse tipo de trabalho, sendo tais acessos permitidos independentemente de qualquer legislação vigente sobre privacidade.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 86,
+        "enunciado": "A norma ABNT NBR ISO/IEC 17799:2005 estabelece diretrizes e princípios para iniciar, implementar, manter e melhorar a gestão de segurança da informação em uma organização. De acordo com essa norma, alguns controles assegurarão a redução dos riscos a níveis aceitáveis. Esses controles incluem",
+        "alternativas": [
+            "comprometimento dos níveis operacionais e estabelecimento de um processo de gestão de circulação de pessoas.",
+            "treinamento e educação em segurança da informação e implementação de softwares levantados no processo.",
+            "proteção dos registros organizacionais e documento de política de segurança da informação.",
+            "implementação de um sistema de ponto, que controle a entrada de pessoal, e estabelecimento de um processo de gestão de incidentes de segurança."
+        ],
+        "gabarito": "proteção dos registros organizacionais e documento de política de segurança da informação."
+    },
+    {
+        "id": 87,
+        "enunciado": "A respeito da criptografia, da NBR ISO/IEC n.º 27002:2013 e da ABNT NBR ISO/IEC n.º 27017:2016, julgue o item a seguir.\nEm um projeto de desenvolvimento de software, as questões de segurança da informação são consideradas e analisadas criticamente em estágios iniciais para identificar quais controles são necessários.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 88,
+        "enunciado": "A respeito da criptografia, da NBR ISO/IEC n.º 27002:2013 e da ABNT NBR ISO/IEC n.º 27017:2016, julgue o item a seguir.\nCabe ao provedor de serviço em nuvem disponibilizar informações sobre os países e a localização geográfica onde os dados serão armazenados, para que as entidades regulatórias e as jurisdições possam ser mapeadas pelo cliente.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 89,
+        "enunciado": "No que se refere a trabalho remoto, rotinas de segurança da informação e recuperação de arquivos, aplicativos para segurança e conformidade, julgue o item subsecutivo.\nA verificação da conformidade técnica envolve testes de invasão e avaliações de vulnerabilidades, o que dispensa a avaliação de risco.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 90,
+        "enunciado": "Considerando os conceitos da NBR ISO/IEC 27.002 com relação ao controle, assinale a alternativa correta.",
+        "alternativas": [
+            "Cada controle apresenta uma declaração de escopo e informações adicionais.",
+            "As diretrizes de implementação devem ser definidas de forma que atendam por completo o objetivo de controle da organização.",
+            "A descrição de um controle é dada pelo escopo e pelo objetivo do controle.",
+            "Para se alcançar um objetivo de controle, podem ser aplicados um ou mais controles.",
+            "As diretrizes de implementação são definidas pela declaração específica do controle e pelo objetivo do controle."
+        ],
+        "gabarito": "Para se alcançar um objetivo de controle, podem ser aplicados um ou mais controles."
+    },
+    {
+        "id": 91,
+        "enunciado": "Atualmente, vem crescendo a modalidade de trabalho em acesso remoto. De modo ideal, a Política de Segurança da Informação (PSI) de uma organização deve abordar formas de controle para esse tema. A esse respeito, tendo em vista os conceitos da NBR ISO/IEC 27.002, assinale a alternativa correta.",
+        "alternativas": [
+            "A PSI de uma empresa não pode proibir o acesso remoto utilizando equipamentos particulares.",
+            "A organização pode e deve definir quais softwares não podem ser instalados nas máquinas dos usuários.",
+            "A PSI pode definir diretrizes de acesso para o acesso remoto utilizando equipamentos particulares diferentes do acesso com equipamentos de propriedade da organização.",
+            "A PSI não pode estabelecer critérios de segurança física dos ambientes remotos.",
+            "Por questões legais, uma PSI não pode estabelecer regras quanto ao acesso de familiares ao equipamento ou à informação."
+        ],
+        "gabarito": "A PSI pode definir diretrizes de acesso para o acesso remoto utilizando equipamentos particulares diferentes do acesso com equipamentos de propriedade da organização."
+    },
+    {
+        "id": 92,
+        "enunciado": "De acordo com a NBR ISO/IEC 27.002, o processo de gestão de ativos inclui",
+        "alternativas": [
+            "inventário de ativos, proprietário dos ativos e tratamento dos ativos.",
+            "inventário de ativos e tratamento dos ativos e das mídias.",
+            "responsabilidade pelos ativos, uso aceitável dos ativos e classificação da informação.",
+            "responsabilidade pelos ativos, classificação da Informação e gerenciamento das mídias.",
+            "responsabilidade pelos ativos, classificação da Informação e tratamento das mídias."
+        ],
+        "gabarito": "responsabilidade pelos ativos, classificação da Informação e tratamento das mídias."
+    },
+    {
+        "id": 93,
+        "enunciado": "Considerando-se aspectos de segurança da informação incluídos na ISO/IEC 27002:2013, na aquisição, desenvolvimento e manutenção de sistemas, é importante aplicar determinados tipos de controles, os quais incluem",
+        "alternativas": [
+            "a computação móvel e o trabalho remoto.",
+            "os controles criptográficos.",
+            "a política de segurança da informação.",
+            "a segurança dos equipamentos.",
+            "a classificação das informações."
+        ],
+        "gabarito": "os controles criptográficos."
+    },
+    {
+        "id": 94,
+        "enunciado": "De acordo com a Norma ABNT NBR ISO/IEC 27002:2013, no âmbito do Gerenciamento da segurança em redes, um método de controlar a segurança da informação em grandes redes é",
+        "alternativas": [
+            "definir que os administradores de sistemas não tenham permissão de exclusão ou desativação dos registros (log) de suas próprias atividades.",
+            "definir que as atividades e requisitos de auditoria envolvendo a verificação nos sistemas operacionais sejam cuidadosamente planejados e acordados para minimizar interrupção dos processos do negócio.",
+            "estabelecer e implementar regras definindo critérios para a instalação de software pelos usuários.",
+            "definir que as atualizações do software operacional, aplicativos e bibliotecas de programas sejam executadas por administradores treinados e com autorização gerencial apropriada.",
+            "dividir em diferentes domínios de redes que podem, por exemplo, ser escolhidos com base no nível de confiança."
+        ],
+        "gabarito": "dividir em diferentes domínios de redes que podem, por exemplo, ser escolhidos com base no nível de confiança."
+    },
+    {
+        "id": 95,
+        "enunciado": "Considere:\nManter a confidencialidade da informação de autenticação secreta, garantindo que ela não seja divulgada para quaisquer outras partes, incluindo autoridades e lideranças.\nDe acordo com a Norma ABNT NBR ISO/IEC 27002:2013, essa recomendação é do âmbito de",
+        "alternativas": [
+            "gerenciamento de acesso do usuário.",
+            "responsabilidades dos usuários.",
+            "controle de acesso ao sistema e à aplicação.",
+            "controles criptográficos.",
+            "responsabilidades e procedimentos operacionais."
+        ],
+        "gabarito": "responsabilidades dos usuários."
+    },
+    {
+        "id": 96,
+        "enunciado": "De acordo com a ISO/IEC 27002:2013, o tratamento de mídias visa prevenir a divulgação não autorizada, modificação, remoção ou destruição da informação armazenada em um mídia.\nDe acordo com o gerenciamento de mídias, é correto afirmar:",
+        "alternativas": [
+            "quando não for mais necessário, o conteúdo de qualquer meio magnético reutilizável deve ser preservado caso venha a ser retirado da organização.",
+            "cópias múltiplas de dados valiosos devem ser armazenados na mesma mídia física para reduzir os riscos de perda ou dano nessas mídias.",
+            "toda mídia deve ser guardada de forma segura e em ambiente protegido, mesmo que não esteja de acordo com as especificações do fabricante, pois elas são, geralmente, exageradas.",
+            "quando for necessária a remoção de qualquer mídia da organização, deve ser mantido um registro da remoção como trilha de auditoria.",
+            "não convém migrar dados de mídias antigas, mesmo com a degradação física do meio, para mídias novas, pois isso pode tornar os dados da mídia antiga ilegíveis."
+        ],
+        "gabarito": "quando for necessária a remoção de qualquer mídia da organização, deve ser mantido um registro da remoção como trilha de auditoria."
+    },
+    {
+        "id": 97,
+        "enunciado": "Assinale a opção que apresenta uma recomendação da norma ISO/IEC 27002 no que se refere aos métodos de implementação de controle de segurança da informação no gerenciamento de projetos.",
+        "alternativas": [
+            "A análise crítica de questões de segurança da informação deve ser feita conforme se identifique a necessidade.",
+            "Os objetivos de segurança da informação devem ser contemplados nos do projeto.",
+            "A avaliação dos riscos de segurança da informação deve ser conduzida na fase de testes de projeto.",
+            "A segurança da informação deve estar presente no projeto pelo menos a partir da sua fase de implementação.",
+            "As responsabilidades pela segurança da informação devem ser difundidas por todos os participantes do projeto."
+        ],
+        "gabarito": "Os objetivos de segurança da informação devem ser contemplados nos do projeto."
+    },
+    {
+        "id": 98,
+        "enunciado": "Na norma ISO/IEC 27002, existe um controle cujo escopo é manter a segurança na troca de informações e softwares na organização, de forma interna ou externa, tendo como diretriz de implementação assegurar que o endereçamento e o transporte da mensagem estejam corretos. Essa diretriz de implementação faz parte do controle denominado",
+        "alternativas": [
+            "mídias em trânsito.",
+            "mensagens eletrônicas.",
+            "acordos para troca de informações.",
+            "políticas e procedimentos para troca de informações.",
+            "sistemas de informações do negócio."
+        ],
+        "gabarito": "mensagens eletrônicas."
+    },
+    {
+        "id": 99,
+        "enunciado": "Em conformidade com a ABNT NBR ISO/IEC 27002:2013, no que tange à separação dos ambientes de desenvolvimento e teste, e de produção, assinale a opção correta.",
+        "alternativas": [
+            "É recomendável a realização de testes de sistemas também nos sistemas operacionais.",
+            "As atividades de desenvolvimento e teste podem causar sérios problemas em arquivos ou no ambiente dos sistemas, ou ainda falhas de sistemas.",
+            "O pessoal de desenvolvimento e testes não representa uma ameaça à confidencialidade das informações de produção.",
+            "Convém que os compiladores, editores e outras ferramentas de desenvolvimento ou utilitários de sistemas estejam acessíveis aos sistemas operacionais.",
+            "O software em desenvolvimento e o software em produção devem, sempre que possível, ser executados nos mesmos sistemas ou processadores e domínios ou diretórios."
+        ],
+        "gabarito": "As atividades de desenvolvimento e teste podem causar sérios problemas em arquivos ou no ambiente dos sistemas, ou ainda falhas de sistemas."
+    },
+    {
+        "id": 100,
+        "enunciado": "A NBR ISO/IEC 27002:2013 é uma norma internacional que fornece diretrizes para a implementação de controles de segurança da informação com o objetivo de proteger ativos de informação, garantir a confidencialidade, integridade e disponibilidade dos dados, além de mitigar riscos associados à segurança. Um dos conceitos abordados por essa norma descreve um sistema de comunicação que não requer fios para transportar sinais. Esse conceito é o",
+        "alternativas": [
+            "Sniffer.",
+            "Wireless.",
+            "Logging.",
+            "Need to know.",
+            "Back-up."
+        ],
+        "gabarito": "Wireless."
+    },
+    {
+        "id": 101,
+        "enunciado": "Em relação ao gerenciamento de crises e à gestão de incidentes de segurança da informação, julgue o item seguinte.\nO gerenciamento de crise no setor de TI envolve exclusivamente os incidentes de violação de dados e interrupção de serviços ocasionados por fatores internos ou externos à instituição.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 102,
+        "enunciado": "Em relação ao gerenciamento de crises e à gestão de incidentes de segurança da informação, julgue o item seguinte.\nO monitoramento de mídias sociais e de notícias veiculadas nos meios de comunicação em busca de informações que afetam a imagem de uma organização constitui uma forma proativa de prevenção de crise.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 103,
+        "enunciado": "Segurança cibernética é um assunto amplamente discutido e aplicado por profissionais de segurança da informação. Com o avanço tecnológico, diversas áreas da sociedade vêm aplicando variadas soluções tecnológicas em seu dia a dia, isto é aplicado também em cidades inteligentes, a fim de melhorar os seus serviços ao cidadão por meio da tecnologia. Diante do exposto, assinale a alternativa que apresenta o principal objetivo de uma infraestrutura de comunicação robusta e resiliente em uma cidade inteligente.",
+        "alternativas": [
+            "Reduzir os custos de manutenção dos sistemas de monitoramento.",
+            "Manter todos os serviços da cidade inteligente acessíveis.",
+            "Melhorar a estética urbana da cidade.",
+            "Fornecer pontos de recarga em locais públicos."
+        ],
+        "gabarito": "Manter todos os serviços da cidade inteligente acessíveis."
+    },
+    {
+        "id": 104,
+        "enunciado": "O PFMEA, sigla de uma expressão em inglês que, quando traduzida, significa “análise de modo e efeitos de falha”, é um processo utilizado para analisar e para resolver falhas de processos em empresas. Acerca desse tema, assinale a alternativa que indica o elemento utilizado no PFMEA para medir a chance de um cliente identificar e ser prejudicado pela falha.",
+        "alternativas": [
+            "Detecção da falha.",
+            "Ocorrência de causa.",
+            "Gravidade do efeito.",
+            "Decolagem de erros.",
+            "Reincidência recursiva do efeito."
+        ],
+        "gabarito": "Gravidade do efeito."
+    },
+    {
+        "id": 105,
+        "enunciado": "A métrica das ferramentas de alta disponibilidade que mede por quanto tempo um sistema fica inoperante antes de ser recuperado ou substituído é o",
+        "alternativas": [
+            "tempo médio entre falhas (MTBF).",
+            "objetivo de ponto de recuperação (RPO).",
+            "downtime médio.",
+            "objetivo de tempo de recuperação (RTO).",
+            "gerenciamento proativo do desempenho."
+        ],
+        "gabarito": "downtime médio."
+    },
+    {
+        "id": 106,
+        "enunciado": "Segundo Varella (2, o Data Center tem um importante papel nos cenários atuais de infraestrutura para os negócios de TI das empresas.\nAlguns dos serviços típicos oferecidos pelo Data Center são:\n(1) Desenvolvimento de sistemas\n(2) Recuperação de desastres\n(3) Virtualização\n(4) Alta disponibilidade Da relação apresentada:",
+        "alternativas": [
+            "existem somente o 1, 2 e 3.",
+            "existem somente o 1, 2 e 4.",
+            "existem somente o 2, 3 e 4.",
+            "existem somente o 1, 3 e 4."
+        ],
+        "gabarito": "existem somente o 2, 3 e 4."
+    }
+]

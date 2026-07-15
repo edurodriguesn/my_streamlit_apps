@@ -1,0 +1,1366 @@
+[
+    {
+        "id": 1,
+        "enunciado": "Em um laboratório, há 3 salas (S1, S2 e S. Em cada uma delas, há um sensor de temperatura que é acionado quando a temperatura no interior da sala ultrapassa os 35 °C. De acordo com o protocolo de segurança, se forem acionados simultaneamente o sensor da sala S1 e o sensor de qualquer uma das outras duas salas, o alarme do laboratório é soado e a energia local é desligada.\nConsidere as seguintes proposições simples:\ns1: o sensor da sala S1 é acionado;\ns2: o sensor da sala S2 é acionado;\ns3: o sensor da sala S3 é acionado;\na: o alarme do laboratório é soado;\ne: a energia elétrica local é ligada.\nConsiderando ~p como a negação de uma proposição p qualquer, o protocolo de segurança descrito acima pode ser representado, com exatidão, em linguagem lógica simbólica por",
+        "alternativas": [
+            "s1 ∧ s2 ∧ s3 → a ∧ e.",
+            "s1 ∧ s2 ∧ s3 → a ∧ ~e.",
+            "(s1 ∧ s∨ (s1 ∧ s→ a ∧ e.",
+            "(s1 ∨ s∧ (s1 ∨ s→ a ∧ ~e.",
+            "(s1 ∧ s∨ (s1 ∧ s→ a ∧ ~e."
+        ],
+        "gabarito": "(s1 ∧ s∨ (s1 ∧ s→ a ∧ ~e."
+    },
+    {
+        "id": 2,
+        "enunciado": "Sejam p e q duas proposições. Considere a sentença S dada por: (p→q)↔(~p∨q) e a tabela verdade abaixo.\np q S\nV V\nV F F V F F Construindo a tabela verdade acima, os valores lógicos da sentença S (de cima para baixo) são:",
+        "alternativas": [
+            "V – V – V – V.",
+            "V – F – V – V.",
+            "V – V – V – F.",
+            "V – F – F – V.",
+            "V – F – V – F."
+        ],
+        "gabarito": "V – V – V – V."
+    },
+    {
+        "id": 3,
+        "enunciado": "Sabe-se que a sentença “Se faz sol e o mar está calmo, então vou remar” é FALSA.\nNesse caso, é correto concluir que",
+        "alternativas": [
+            "Não faz sol ou o mar não está calmo.",
+            "Faz sol e o mar não está calmo.",
+            "Não faz sol e o mar está calmo.",
+            "Vou remar ou não faz sol.",
+            "Não vou remar e o mar está calmo."
+        ],
+        "gabarito": "Não vou remar e o mar está calmo."
+    },
+    {
+        "id": 4,
+        "enunciado": "Sabe-se que a sentença “Se a calça é verde e a camisa é rosa, então o sapato é branco ou o cinto é marrom” é FALSA.\nÉ correto concluir que:",
+        "alternativas": [
+            "a camisa não é rosa ou o cinto é marrom;",
+            "a calça é verde e o sapato é branco;",
+            "se o sapato não é branco, então a camisa não é rosa;",
+            "se o cinto não é marrom, então o sapato é branco;",
+            "se a calça não é verde, então o cinto é marrom."
+        ],
+        "gabarito": "se a calça não é verde, então o cinto é marrom."
+    },
+    {
+        "id": 5,
+        "enunciado": "Sabe-se que a sentença “Se Paula é médica, então João é jornalista ou Marli não é enfermeira” é falsa.\nNesse caso é correto concluir que:",
+        "alternativas": [
+            "se João não é jornalista, então Marli não é enfermeira.",
+            "se Marli é enfermeira, então Paula não é médica.",
+            "se Paula não é médica ou Marli é enfermeira, então João é jornalista.",
+            "Paula não é médica e Marli é enfermeira.",
+            "João é jornalista ou Paula é médica."
+        ],
+        "gabarito": "João é jornalista ou Paula é médica."
+    },
+    {
+        "id": 6,
+        "enunciado": "Se a sentença “Se a bola não é vermelha, então a ficha é azul” é falsa, é correto concluir que",
+        "alternativas": [
+            "“Se a ficha não é azul, então a bola é vermelha.”.",
+            "“A bola não é vermelha e a ficha é azul.”.",
+            "“A bola é vermelha e a ficha não é azul.”.",
+            "”A bola não é vermelha ou a ficha é azul.”.",
+            "“A bola é vermelha ou a ficha é azul.”."
+        ],
+        "gabarito": "”A bola não é vermelha ou a ficha é azul.”."
+    },
+    {
+        "id": 7,
+        "enunciado": "Considere a sentença: “Se Emília é capixaba, então ela gosta de moqueca”. Um cenário no qual a sentença dada é falsa é:",
+        "alternativas": [
+            "Emília é carioca e não gosta de moqueca;",
+            "Emília é paulista e gosta de moqueca;",
+            "Emília é capixaba e não gosta de moqueca;",
+            "Emília é capixaba e gosta de moqueca;",
+            "Emília é mineira e gosta de moqueca."
+        ],
+        "gabarito": "Emília é capixaba e não gosta de moqueca;"
+    },
+    {
+        "id": 8,
+        "enunciado": "Em uma biblioteca, a presença de alguma obra rara no salão de leitura é suficiente para garantir que os bibliotecários João e Maria acompanharão a visitação do público.\nPortanto, nessa biblioteca,",
+        "alternativas": [
+            "o fato de João e Maria não acompanharem a visitação do público é necessário para se garantir que não há qualquer obra rara no salão de leitura.",
+            "o fato de João ou Maria não acompanharem a visitação do público é suficiente para se garantir que não há qualquer obra rara no salão de leitura.",
+            "o fato de João ou Maria não acompanharem a visitação do público é necessário para se garantir que não há qualquer obra rara no salão de leitura.",
+            "a ausência de qualquer obra rara no salão de leitura é suficiente para se garantir a dispensa de João e Maria.",
+            "apenas João e Maria trabalham com obras raras."
+        ],
+        "gabarito": "o fato de João ou Maria não acompanharem a visitação do público é suficiente para se garantir que não há qualquer obra rara no salão de leitura."
+    },
+    {
+        "id": 9,
+        "enunciado": "Sem A, não se tem B.\nSem B, não se tem C.\nAssim, conclui-se que:",
+        "alternativas": [
+            "A é suficiente para B e para C;",
+            "B é necessário para A e para C;",
+            "C é suficiente para A e para B;",
+            "A e B são suficientes para C;",
+            "B é necessário para A e suficiente para C."
+        ],
+        "gabarito": "C é suficiente para A e para B;"
+    },
+    {
+        "id": 10,
+        "enunciado": "Com relação à naturalidade dos cidadãos brasileiros, assinale a alternativa logicamente correta:",
+        "alternativas": [
+            "Ser brasileiro é condição necessária e suficiente para ser paulista.",
+            "Ser brasileiro é condição suficiente, mas não necessária para ser paranaense.",
+            "Ser carioca é condição necessária e suficiente para ser brasileiro.",
+            "Ser baiano é condição suficiente, mas não necessária para ser brasileiro.",
+            "Ser maranhense é condição necessária, mas não suficiente para ser brasileiro."
+        ],
+        "gabarito": "Ser baiano é condição suficiente, mas não necessária para ser brasileiro."
+    },
+    {
+        "id": 11,
+        "enunciado": "Na segunda-feira, João fez a seguinte afirmação:\n“Se Maria viajou ontem, então estou de plantão depois de amanhã”.\nSe reposicionada temporalmente para o dia seguinte, terça-feira, então uma afirmação logicamente equivalente à afirmação feita por João na segunda-feira seria",
+        "alternativas": [
+            "Se eu não estou de plantão depois de amanhã, então Maria não viajou ontem.",
+            "Se eu não estou de plantão amanhã, então Maria não viajou anteontem.",
+            "Se eu estou de plantão amanhã, então Maria viajou anteontem.",
+            "Se Maria não viajou anteontem, então não estou de plantão amanhã.",
+            "Se eu estou de plantão depois de amanhã, então Maria viajou ontem."
+        ],
+        "gabarito": "Se eu não estou de plantão amanhã, então Maria não viajou anteontem."
+    },
+    {
+        "id": 12,
+        "enunciado": "Maria fez uma afirmação sobre o carro de João e sobre o número de pessoas que estariam em seu interior. Ela disse: “O carro de João é azul ou verde e há, no máximo, 3 pessoas no carro”.\nVerificou-se, no entanto, que tal afirmação é falsa.\nPortanto, o carro de João",
+        "alternativas": [
+            "não é azul, nem verde, e há, pelo menos, 3 pessoas no carro.",
+            "é azul e verde, ou há, no máximo, 3 pessoas no carro.",
+            "não é azul, nem verde, ou há, pelo menos, 4 pessoas no carro.",
+            "é azul ou verde, mas há mais do que 4 pessoas no carro.",
+            "não é azul ou não é verde, ou há, no mínimo, 3 pessoas no carro."
+        ],
+        "gabarito": "não é azul, nem verde, ou há, pelo menos, 4 pessoas no carro."
+    },
+    {
+        "id": 13,
+        "enunciado": "Considere a afirmação:\n”se tenho febre então não vou trabalhar”.\nA negação dessa afirmação é:",
+        "alternativas": [
+            "se não tenho febre então vou trabalhar.",
+            "tenho febre e vou trabalhar.",
+            "não tenho febre e não vou trabalhar.",
+            "não tenho febre ou não vou trabalhar.",
+            "tenho febre ou vou trabalhar."
+        ],
+        "gabarito": "tenho febre e vou trabalhar."
+    },
+    {
+        "id": 14,
+        "enunciado": "Considere verdadeira a afirmação:\nSe tomo café, não durmo.\nAnalise as afirmações a seguir como consequência lógica da afirmação dada.\nI. Se dormi então não tomei café.\nII. Se não tomo café então durmo\nIII. Se não dormi então tomei café.\nDecorre(m) logicamente da afirmação dada",
+        "alternativas": [
+            "apenas a I.",
+            "apenas a II.",
+            "apenas as II e III.",
+            "apenas as I e III.",
+            "I, II e III."
+        ],
+        "gabarito": "apenas a I."
+    },
+    {
+        "id": 15,
+        "enunciado": "Renato disse: “Eu não passei pelo bar e fui para a academia”. Sua esposa disse: “Eu sei que isso não é verdade”.\nConsiderando que a esposa de Renato está certa, é correto concluir que",
+        "alternativas": [
+            "Renato não passou pelo bar e não foi para a academia.",
+            "Renato passou pelo bar e foi para a academia.",
+            "Renato passou pelo bar e não foi para a academia.",
+            "Renato passou pelo bar ou não foi para a academia.",
+            "Renato passou pelo bar ou foi para a academia."
+        ],
+        "gabarito": "Renato passou pelo bar ou não foi para a academia."
+    },
+    {
+        "id": 16,
+        "enunciado": "Considere como falsa a sentença “Se Maria é alta, então Pedro é alto ou Laura não é alta”.\nÉ correto concluir que",
+        "alternativas": [
+            "se Maria é alta, então Pedro não é alto e Laura é alta.",
+            "se Pedro não é alto, então Maria não é alta.",
+            "se Pedro não é alto e Laura é alta, então Maria não é alta.",
+            "se Laura é alta, então Pedro é alto.",
+            "se Laura é alta, então Maria não é alta."
+        ],
+        "gabarito": "se Maria é alta, então Pedro não é alto e Laura é alta."
+    },
+    {
+        "id": 17,
+        "enunciado": "Suponha que a proposição lógica dada a seguir é falsa:\nSe João trabalha, então Maria toma conta de sua mãe.\nPortanto, é verdadeira a proposição:",
+        "alternativas": [
+            "João trabalha e Maria não toma conta de sua mãe.",
+            "João não trabalha e Maria toma conta de sua mãe.",
+            "João não trabalha ou Maria toma conta de sua mãe.",
+            "João trabalha e Maria toma conta de sua mãe.",
+            "Se Maria não toma conta de sua mãe, então João não trabalha."
+        ],
+        "gabarito": "João trabalha e Maria não toma conta de sua mãe."
+    },
+    {
+        "id": 18,
+        "enunciado": "Considere a sentença:\n“Se X ≤ 6 e Y > 4, então X − Y ≤ 2”.\nUma sentença logicamente equivalente à sentença dada é",
+        "alternativas": [
+            "Se X > 6 e Y ≤ 4, então X − Y > 2.",
+            "Se X − Y ≤ 2, então X ≤ 6 e Y > 4.",
+            "Se X > 6 ou Y ≤ 4, então X − Y > 2.",
+            "X > 6 ou Y ≤ 4 ou X − Y ≤ 2.",
+            "X > 6 e Y ≤ 4 ou X − Y ≤ 2."
+        ],
+        "gabarito": "X > 6 ou Y ≤ 4 ou X − Y ≤ 2."
+    },
+    {
+        "id": 19,
+        "enunciado": "Considere a afirmação:\n“Se tenho namorada então não fico sozinho”.\nUma afirmação logicamente equivalente à afirmação dada é:",
+        "alternativas": [
+            "Se não fico sozinho então tenho namorada.",
+            "Se fico sozinho então não tenho namorada.",
+            "Se não tenho namorada então fico sozinho.",
+            "Tenho namorada e não fico sozinho.",
+            "Tenho namorada ou não fico sozinho."
+        ],
+        "gabarito": "Se fico sozinho então não tenho namorada."
+    },
+    {
+        "id": 20,
+        "enunciado": "A negação da proposição:\ny ≠ 0 x > 2 e x ≤ 5 Se , então é dada por y = 0 x > 2 e x ≤ 5",
+        "alternativas": [
+            "Se , então y = 0 x < 2 e x ≥ 5.",
+            "Se , então y = 0 x ≤ 2 ou x > 5.",
+            "e y ≠ 0 x ≤ 2 ou x > 5.",
+            "e y ≠ 0 x ≤ 2 e x > 5.",
+            "e."
+        ],
+        "gabarito": "e y ≠ 0 x ≤ 2 e x > 5."
+    },
+    {
+        "id": 21,
+        "enunciado": "Considere a frase:\nSe você é cuiabano, então é mato-grossense.\nÉ logicamente equivalente à frase acima, a seguinte proposição:",
+        "alternativas": [
+            "Se você é mato-grossense, então é cuiabano.",
+            "Se você é cuiabano, então não é mato-grossense.",
+            "Se você não é mato-grossense, então não é cuiabano.",
+            "Se você não é cuiabano, então não é mato-grossense."
+        ],
+        "gabarito": "Se você não é mato-grossense, então não é cuiabano."
+    },
+    {
+        "id": 22,
+        "enunciado": "A negação de Paulo gosta de futebol ou João gosta de basquetebol é",
+        "alternativas": [
+            "Paulo gosta de futebol e João não gosta de basquetebol.",
+            "Paulo não gosta de futebol ou João gosta de basquetebol.",
+            "Paulo pode gostar de futebol e João pode não gostar de basquetebol.",
+            "Paulo não gosta de futebol e João gosta de basquetebol.",
+            "Nem Paulo gosta de futebol nem João gosta de basquetebol."
+        ],
+        "gabarito": "Nem Paulo gosta de futebol nem João gosta de basquetebol."
+    },
+    {
+        "id": 23,
+        "enunciado": "Sobre as condições de trabalho em uma empresa, o diretor afirmou:\n“Se o ambiente é calmo, então o resultado não demora.” Considere as três novas afirmações:\nI. Se o resultado não demora, então o ambiente é calmo.\nII. Se o ambiente não é calmo, então o resultado demora.\nIII. Se o resultado demora, então o ambiente não é calmo.\nDessas três novas afirmações, são equivalentes à afirmação do diretor:",
+        "alternativas": [
+            "somente I;",
+            "somente II;",
+            "somente III;",
+            "somente II e III;",
+            "I, II e III."
+        ],
+        "gabarito": "somente III;"
+    },
+    {
+        "id": 24,
+        "enunciado": "Depois de uma festa com churrasco João declarou:\nEu não tomei cerveja e comi salada.\nSabendo que a declaração de João é falsa, é correto concluir que João",
+        "alternativas": [
+            "tomou cerveja e comeu carne.",
+            "não tomou cerveja ou não comeu salada.",
+            "tomou cerveja e não comeu salada.",
+            "tomou cerveja ou não comeu salada."
+        ],
+        "gabarito": "tomou cerveja ou não comeu salada."
+    },
+    {
+        "id": 25,
+        "enunciado": "Considere a frase popular:\n“Quem não deve, não teme” Uma frase logicamente equivalente é",
+        "alternativas": [
+            "Quem não teme não deve.",
+            "Quem deve, teme.",
+            "Quem teme, deve.",
+            "Alguém deve e não teme.",
+            "Alguém teme ou deve."
+        ],
+        "gabarito": "Quem teme, deve."
+    },
+    {
+        "id": 26,
+        "enunciado": "Considere a sentença:\n“Se Pedro é senador e Simone não é deputada federal, então Carlota é vereadora”.\nSabe-se que a sentença dada é FALSA.\nÉ então correto concluir que",
+        "alternativas": [
+            "Pedro é senador, Simone não é deputada federal, Carlota não é vereadora.",
+            "Pedro não é senador, Simone é deputada federal, Carlota é vereadora.",
+            "Pedro é senador, Simone não é deputada federal, Carlota é vereadora.",
+            "Pedro não é senador, Simone é deputada federal, Carlota não é vereadora.",
+            "Pedro não é senador, Simone não é deputada federal, Carlota não é vereadora."
+        ],
+        "gabarito": "Pedro é senador, Simone não é deputada federal, Carlota não é vereadora."
+    },
+    {
+        "id": 27,
+        "enunciado": "Considere os operadores lógicos listados a seguir, apresentados na ordem decrescente de precedência de cada operação.\n~ Negação (not) & Conjunção (and) | Disjunção (or)\nV Disjunção exclusiva (xor) Dado que P e Q são variáveis lógicas, no domínio [True, False], assinale a expressão equivalente a P V Q.",
+        "alternativas": [
+            "( ~P | Q ) & ( P | ~Q).",
+            "( P & Q ) & ( ~P | Q ).",
+            "~( P & ~Q ).",
+            "~( P & Q ) & ( P | Q ).",
+            "~( P & Q ) | ( P & Q )."
+        ],
+        "gabarito": "~( P & Q ) & ( P | Q )."
+    },
+    {
+        "id": 28,
+        "enunciado": "Considere a afirmação:\n“Se o acusado estava no hospital então não é culpado”.\nÉ correto concluir que",
+        "alternativas": [
+            "se o acusado não estava no hospital então é culpado.",
+            "se o acusado é culpado então não estava no hospital.",
+            "se o acusado não é culpado então não estava no hospital.",
+            "o acusado estava no hospital e é culpado.",
+            "o acusado não é culpado e não estava no hospital."
+        ],
+        "gabarito": "se o acusado é culpado então não estava no hospital."
+    },
+    {
+        "id": 29,
+        "enunciado": "Considere a sentença:\n“Paulo é torcedor do Nacional ou Débora não é torcedora do Fast”.\nA negação lógica dessa sentença é",
+        "alternativas": [
+            "Paulo não é torcedor do Nacional ou Débora não é torcedora do Fast.",
+            "Paulo não é torcedor do Nacional ou Débora é torcedora do Fast.",
+            "Paulo não é torcedor do Nacional e Débora não é torcedora do Fast.",
+            "Paulo não é torcedor do Nacional e Débora é torcedora do Fast.",
+            "Paulo é torcedor do Nacional ou Débora é torcedora do Fast."
+        ],
+        "gabarito": "Paulo não é torcedor do Nacional e Débora é torcedora do Fast."
+    },
+    {
+        "id": 30,
+        "enunciado": "Um professor afirmou:\n\"Quem acertar todas as questões de múltipla-escolha vai tirar conceito A.” Alberto é um de seus alunos. Uma consequência lógica da sentença do professor é:",
+        "alternativas": [
+            "se Alberto tirou conceito A, então ele acertou todas as questões de múltipla-escolha.",
+            "se Alberto não tirou conceito A, então ele acertou todas as questões de múltipla-escolha.",
+            "se Alberto não tirou conceito A, então ele errou todas as questões de múltipla-escolha.",
+            "se Alberto não tirou conceito A, então ele errou exatamente uma questão de múltipla-escolha.",
+            "se Alberto não tirou conceito A, então ele errou pelo menos uma questão de múltipla-escolha."
+        ],
+        "gabarito": "se Alberto não tirou conceito A, então ele errou pelo menos uma questão de múltipla-escolha."
+    },
+    {
+        "id": 31,
+        "enunciado": "Considere a sentença:\n“Se a cobra é verde, então ela não morde ou ela é venenosa”.\nA sentença logicamente equivalente à sentença dada é:",
+        "alternativas": [
+            "Se a cobra morde e não é venenosa, então ela não é verde.",
+            "Se a cobra não é verde, então ela morde e não é venenosa.",
+            "Se a cobra não é verde, então ela não morde ou não é venenosa.",
+            "A cobra é verde e não morde ou é venenosa.",
+            "A cobra não é verde e morde e não é venenosa."
+        ],
+        "gabarito": "Se a cobra morde e não é venenosa, então ela não é verde."
+    },
+    {
+        "id": 32,
+        "enunciado": "A frase a seguir é um conhecido ditado popular:\n“Se não tem cão então caça com gato\".\nUma frase logicamente equivalente é:",
+        "alternativas": [
+            "Se tem cão então não caça com gato;",
+            "Se caça com gato então não tem cão;",
+            "Tem cão ou caça com gato;",
+            "Tem cão e caça com gato;",
+            "Tem cão ou não caça com gato."
+        ],
+        "gabarito": "Tem cão ou caça com gato;"
+    },
+    {
+        "id": 33,
+        "enunciado": "Considere a sentença:\n“Apaguei a luz e tranquei a porta.” A negação lógica dessa sentença é",
+        "alternativas": [
+            "Não apaguei a luz e tranquei a porta.",
+            "Apaguei a luz e não tranquei a porta.",
+            "Não apaguei a luz e não tranquei a porta.",
+            "Não apaguei a luz ou não tranquei a porta.",
+            "Se não apaguei a luz então não tranquei a porta."
+        ],
+        "gabarito": "Não apaguei a luz ou não tranquei a porta."
+    },
+    {
+        "id": 34,
+        "enunciado": "Considere a sentença “Se o casaco é de couro, então está frio”.\nUma sentença logicamente equivalente à sentença dada é",
+        "alternativas": [
+            "“Se o casaco não é de couro, então não está frio.”.",
+            "“Se está frio, então o casaco é de couro.”.",
+            "“Se não está frio, então o casaco é de couro.”.",
+            "“O casaco é de couro e não está frio.”.",
+            "“O casaco não é de couro ou está frio.”."
+        ],
+        "gabarito": "“O casaco não é de couro ou está frio.”."
+    },
+    {
+        "id": 35,
+        "enunciado": "A negação lógica da sentença “Paulo torce pelo Vasco ou é carioca” é:",
+        "alternativas": [
+            "Paulo não torce pelo Vasco ou não é carioca;",
+            "Paulo torce pelo Vasco ou não é carioca;",
+            "Se Paulo torce pelo Vasco, então é carioca;",
+            "Paulo não torce pelo Vasco e não é carioca;",
+            "Se Paulo é carioca, então não torce pelo Vasco."
+        ],
+        "gabarito": "Paulo não torce pelo Vasco e não é carioca;"
+    },
+    {
+        "id": 36,
+        "enunciado": "Considere a sentença: “Se Carla gosta de peixe, então Carla sabe nadar”. Uma sentença logicamente equivalente à sentença dada é:",
+        "alternativas": [
+            "Se Carla sabe nadar, então Carla gosta de peixe;",
+            "Se Carla não sabe nadar, então Carla não gosta de peixe;",
+            "Se Carla não gosta de peixe, então Carla não sabe nadar;",
+            "Carla gosta de peixe e sabe nadar;",
+            "Carla gosta de peixe ou não sabe nadar."
+        ],
+        "gabarito": "Se Carla não sabe nadar, então Carla não gosta de peixe;"
+    },
+    {
+        "id": 37,
+        "enunciado": "Considere a sentença “Joana gosta de leite e não gosta de café”.\nSabe-se que a sentença dada é falsa.\nDeduz-se que:",
+        "alternativas": [
+            "Joana não gosta de leite e não gosta de café;",
+            "Se Joana gosta de leite, então ela não gosta de café;",
+            "Joana gosta de leite ou gosta de café;",
+            "Se Joana não gosta de café, então ela não gosta de leite;",
+            "Joana não gosta de leite ou não gosta de café."
+        ],
+        "gabarito": "Se Joana não gosta de café, então ela não gosta de leite;"
+    },
+    {
+        "id": 38,
+        "enunciado": "Utilizando o símbolo “~” para negação, a expressão lógica se A então B é equivalente à expressão",
+        "alternativas": [
+            "A ou B.",
+            "A ou ~B.",
+            "~A and B.",
+            "~A ou B.",
+            "~A ou ~B."
+        ],
+        "gabarito": "~A ou B."
+    },
+    {
+        "id": 39,
+        "enunciado": "A negação lógica da sentença “Se como demais, então passo mal” é",
+        "alternativas": [
+            "“Se não como demais, então não passo mal”.",
+            "“Se não como demais, então passo mal”.",
+            "“Como demais e não passo mal”.",
+            "“Não como demais ou passo mal”.",
+            "“Não como demais e passo mal”."
+        ],
+        "gabarito": "“Como demais e não passo mal”."
+    },
+    {
+        "id": 40,
+        "enunciado": "Considere a sentença a seguir.\n“Se nasci em Rondônia ou Roraima, então sou brasileiro”.\nAssinale a opção que apresenta uma sentença logicamente equivalente à sentença dada.",
+        "alternativas": [
+            "“Se não nasci em Rondônia nem em Roraima, então não sou brasileiro”.",
+            "“Se nasci em Rondônia, então sou brasileiro”.",
+            "“Se não nasci em Roraima, então não sou brasileiro”.",
+            "“Se não sou brasileiro, então não nasci em Rondônia nem em Roraima”.",
+            "“Se sou brasileiro e não nasci em Rondônia, então nasci em Roraima”."
+        ],
+        "gabarito": "“Se não sou brasileiro, então não nasci em Rondônia nem em Roraima”."
+    },
+    {
+        "id": 41,
+        "enunciado": "→ Considere a expressão lógica A B, lida como “se A é verdadeiro então B é verdadeiro”.\nDado que A e B são expressões lógicas, assinale a opção que indica uma expressão lógica equivalente à referida expressão.",
+        "alternativas": [
+            "~A or B.",
+            "~A or ~B.",
+            "~A and B.",
+            "~A and ~B.",
+            "~(A or B)."
+        ],
+        "gabarito": "~A or B."
+    },
+    {
+        "id": 42,
+        "enunciado": "Considere a afirmação: “Se hoje é sábado, amanhã não trabalharei.” A negação dessa afirmação é:",
+        "alternativas": [
+            "Hoje é sábado e amanhã trabalharei.",
+            "Hoje não é sábado e amanhã trabalharei.",
+            "Hoje não é sábado ou amanhã trabalharei.",
+            "Se hoje não é sábado, amanhã trabalharei.",
+            "Se hoje não é sábado, amanhã não trabalharei."
+        ],
+        "gabarito": "Hoje é sábado e amanhã trabalharei."
+    },
+    {
+        "id": 43,
+        "enunciado": "Considere a afirmação:\n“Mato a cobra e mostro o pau” A negação lógica dessa afirmação é:",
+        "alternativas": [
+            "não mato a cobra ou não mostro o pau;",
+            "não mato a cobra e não mostro o pau;",
+            "não mato a cobra e mostro o pau;",
+            "mato a cobra e não mostro o pau;",
+            "mato a cobra ou não mostro o pau."
+        ],
+        "gabarito": "não mato a cobra ou não mostro o pau;"
+    },
+    {
+        "id": 44,
+        "enunciado": "Considere a sentença: “Se gosto de capivara, então gosto de javali”.\nUma sentença logicamente equivalente à sentença dada é:",
+        "alternativas": [
+            "Se não gosto de capivara, então não gosto de javali.",
+            "Gosto de capivara e gosto de javali.",
+            "Não gosto de capivara ou gosto de javali.",
+            "Gosto de capivara ou não gosto de javali.",
+            "Gosto de capivara e não gosto de javali."
+        ],
+        "gabarito": "Não gosto de capivara ou gosto de javali."
+    },
+    {
+        "id": 45,
+        "enunciado": "Considere a sentença: “Se Geraldo foi à academia então Jovelina foi ao cinema.” É correto concluir que",
+        "alternativas": [
+            "se Geraldo não foi à academia então Jovelina não foi ao cinema.",
+            "se Jovelina foi ao cinema então Geraldo foi à academia.",
+            "Geraldo foi à academia ou Jovelina foi ao cinema.",
+            "Geraldo foi à academia e Jovelina foi ao cinema.",
+            "Geraldo não foi à academia ou Jovelina foi ao cinema."
+        ],
+        "gabarito": "Geraldo não foi à academia ou Jovelina foi ao cinema."
+    },
+    {
+        "id": 46,
+        "enunciado": "A expressão lógica not (X and Y) é sempre equivalente a",
+        "alternativas": [
+            "not X or not Y.",
+            "not X and not Y.",
+            "X or Y.",
+            "not (not X or not Y).",
+            "not X or Y."
+        ],
+        "gabarito": "not X or not Y."
+    },
+    {
+        "id": 47,
+        "enunciado": "Considere a sentença “Se como doces, então engordo ou tenho azia.” A negação lógica dessa sentença é",
+        "alternativas": [
+            "se não como doces, então não engordo nem tenho azia.",
+            "se como doces, então não engordo nem tenho azia.",
+            "como doces e não engordo nem tenho azia.",
+            "não como doces e engordo ou tenho azia.",
+            "se não como doces, então engordo ou tenho azia."
+        ],
+        "gabarito": "como doces e não engordo nem tenho azia."
+    },
+    {
+        "id": 48,
+        "enunciado": "Uma sentença logicamente equivalente a \" Se gosto de estudar e pratico esportes, então tenho uma vida saudável\" é",
+        "alternativas": [
+            "Gosto de estudar e pratico esportes, mas não tenho uma vida saudável.",
+            "Não gosto de estudar ou não pratico esportes ou tenho uma vida saudável.",
+            "Se não tenho uma vida saudável, então não gosto de estudar nem pratico esportes.",
+            "Se tenho uma vida saudável, então gosto de estudar e pratico esportes.",
+            "Se não gosto de estudar nem pratico esportes, então não tenho uma vida saudável."
+        ],
+        "gabarito": "Não gosto de estudar ou não pratico esportes ou tenho uma vida saudável."
+    },
+    {
+        "id": 49,
+        "enunciado": "A negação da sentença “Se tenho dinheiro, então sou feliz” é",
+        "alternativas": [
+            "Senão tenho dinheiro, então não sou feliz.",
+            "Senão sou feliz, então não tenho dinheiro.",
+            "Não tenho dinheiro e sou feliz.",
+            "Não tenho dinheiro ou sou feliz.",
+            "Tenho dinheiro, e não sou feliz."
+        ],
+        "gabarito": "Tenho dinheiro, e não sou feliz."
+    },
+    {
+        "id": 50,
+        "enunciado": "Considere verdadeiras as afirmações:\n• Se o cão não ladra, Maria dorme.\n• Se o cão ladra, Joana não sai de casa.\nConsidere também como verdadeira que: Joana sai de casa.\nÉ correto concluir que",
+        "alternativas": [
+            "o cão ladra e Maria dorme.",
+            "o cão ladra e Maria não dorme.",
+            "o cão não ladra e Maria dorme.",
+            "o cão não ladra e Maria não dorme.",
+            "se Joana sai de casa então Maria não dorme."
+        ],
+        "gabarito": "o cão não ladra e Maria dorme."
+    },
+    {
+        "id": 51,
+        "enunciado": "Uma lei penal fictícia estabelece o seguinte:\nÉ crime praticar qualquer ato que gere dano a outra pessoa e ocorra de forma premeditada ou com intenção de lucro.\nCom base no que é estabelecido textualmente por esta lei e de acordo com os fundamentos da lógica proposicional, é correto concluir que",
+        "alternativas": [
+            "um indivíduo que aja premeditadamente e cause dano a outra sem intenção de lucro comete crime.",
+            "um indivíduo que cause a outrem dano não premeditado e sem intenção de lucro não poderá ser criminalizado.",
+            "um indivíduo que cause a outrem dano não premeditado e sem intenção de lucro deverá ser criminalizado.",
+            "apenas atos premeditados e que gerem lucro são considerados crime.",
+            "não há crime se o dano causado a outrem não gerar lucro, independentemente de premeditação."
+        ],
+        "gabarito": "um indivíduo que aja premeditadamente e cause dano a outra sem intenção de lucro comete crime."
+    },
+    {
+        "id": 52,
+        "enunciado": "Um crime financeiro foi cometido em uma empresa, e o perito criminal precisa determinar se o gerente participou do desvio de verba. Os seguintes fatos foram apurados:\n• Se o gerente tivesse aprovado a transação suspeita, então ela deveria ter sido registrada no sistema até o dia 15.\n• A transação não foi registrada no sistema até o dia 15.\n• Se a transação não foi registrada no sistema até o dia 15, então o gerente não a aprovou.\nCom base nessas informações, o perito pode concluir corretamente que",
+        "alternativas": [
+            "o gerente aprovou a transação suspeita, mas alguém falhou em registrá-la.",
+            "a transação suspeita foi registrada após o dia 15.",
+            "não é possível determinar se o gerente aprovou a transação.",
+            "o gerente não aprovou a transação suspeita, mas alguém a registrou em alguma data posterior ao dia 15.",
+            "o gerente não aprovou a transação suspeita,."
+        ],
+        "gabarito": "o gerente não aprovou a transação suspeita,."
+    },
+    {
+        "id": 53,
+        "enunciado": "Considere as seguintes cinco afirmações acerca de Carlos, entre as quais apenas três são falsas.\nAfirmação 1: Carlos não foi ao mercado.\nAfirmação 2: Carlos comprou nada e foi ao cinema.\nAfirmação 3: Carlos foi ao mercado e comprou apenas 5 produtos.\nAfirmação 4: Carlos foi ao mercado e comprou apenas 10 produtos.\nAfirmação 5: Carlos foi ao mercado e comprou apenas 12 produtos.\nPortanto, Carlos",
+        "alternativas": [
+            "não foi ao mercado, mas foi ao cinema.",
+            "não foi ao cinema, mas foi ao mercado.",
+            "não foi ao mercado, nem foi no cinema.",
+            "foi ao mercado, comprou 5 produtos e foi ao cinema.",
+            "foi ao mercado, comprou 12 produtos e foi ao cinema."
+        ],
+        "gabarito": "não foi ao mercado, mas foi ao cinema."
+    },
+    {
+        "id": 54,
+        "enunciado": "Considere como verdadeiras as afirmações:\nTodo carro novo não tem defeitos.\nSe um carro não tem defeitos então é seguro para viajar.\nA partir dessas afirmações é correto concluir que",
+        "alternativas": [
+            "se um carro não é novo, então tem defeitos.",
+            "se um carro tem defeitos, então não é seguro para viajar.",
+            "se um carro não tem defeitos, então é novo.",
+            "se um carro é seguro para viajar, então não tem defeitos.",
+            "se um carro não é seguro para viajar então não é novo."
+        ],
+        "gabarito": "se um carro não é seguro para viajar então não é novo."
+    },
+    {
+        "id": 55,
+        "enunciado": "Considere a sentença:\n“Se André é vascaíno ou Beto é botafoguense, então Cadu é flamenguista e Beto não é botafoguense”.\nSabendo-se que a sentença dada é verdadeira, é correto concluir que",
+        "alternativas": [
+            "André é vascaíno.",
+            "Beto é botafoguense.",
+            "Cadu é flamenguista.",
+            "André não é vascaíno.",
+            "Beto não é botafoguense."
+        ],
+        "gabarito": "Beto não é botafoguense."
+    },
+    {
+        "id": 56,
+        "enunciado": "Considere as seguintes sentenças:\nSe Beto é carioca, então Sofia é mineira.\nSe Solange é cearense, então Sofia não é mineira.\nSolange é cearense ou Artur não é paulista.\nArtur é paulista.\nNesse caso, é correto concluir que:",
+        "alternativas": [
+            "Beto é carioca e Solange não é cearense e Sofia é mineira.",
+            "Beto é carioca e Solange é cearense e Sofia não é mineira.",
+            "Beto é carioca e Solange não é cearense e Sofia não é mineira.",
+            "Beto não é carioca e Solange é cearense e Sofia não é mineira.",
+            "Beto não é carioca e Solange não é cearense e Sofia é mineira."
+        ],
+        "gabarito": "Beto não é carioca e Solange é cearense e Sofia não é mineira."
+    },
+    {
+        "id": 57,
+        "enunciado": "Considere como verdadeiras as sentenças a seguir.\n. Se Priscila é paulista, então Joel é capixaba.\n. Se Gabriela não é carioca, então Joel não é capixaba.\n. Se Gabriela é carioca, então Priscila não é paulista.\nÉ correto deduzir que:",
+        "alternativas": [
+            "Gabriela é carioca;",
+            "Gabriela não é carioca;",
+            "Priscila não é paulista;",
+            "Priscila é paulista;",
+            "Joel não é capixaba."
+        ],
+        "gabarito": "Priscila não é paulista;"
+    },
+    {
+        "id": 58,
+        "enunciado": "Considere como verdadeiras as sentenças:\n1. Se Ana é capixaba, então Bruna é carioca.\n2. Se Carla é paulista, então Bruna não é carioca.\n3. Se Ana não é capixaba, então Carla não é paulista.\n4. Ana é capixaba ou Carla é paulista.\nDeduz-se que:",
+        "alternativas": [
+            "Ana é capixaba, Bruna é carioca e Carla é paulista;",
+            "Ana não é capixaba, Bruna é carioca e Carla é paulista;",
+            "Ana é capixaba, Bruna não é carioca e Carla não é paulista;",
+            "Ana é capixaba, Bruna é carioca e Carla não é paulista;",
+            "Ana não é capixaba, Bruna não é carioca e Carla é paulista."
+        ],
+        "gabarito": "Ana é capixaba, Bruna é carioca e Carla não é paulista;"
+    },
+    {
+        "id": 59,
+        "enunciado": "Sobre os amigos Marcos, Renato e Waldo, sabe-se que:\nI - Se Waldo é flamenguista, então Marcos não é tricolor;\nII - Se Renato não é vascaíno, então Marcos é tricolor;\nIII - Se Renato é vascaíno, então Waldo não é flamenguista.\nLogo, deduz-se que:",
+        "alternativas": [
+            "Marcos é tricolor;",
+            "Marcos não é tricolor;",
+            "Waldo é flamenguista;",
+            "Waldo não é flamenguista;",
+            "Renato é vascaíno."
+        ],
+        "gabarito": "Waldo não é flamenguista;"
+    },
+    {
+        "id": 60,
+        "enunciado": "Renato falou a verdade quando disse:\n• Corro ou faço ginástica.\n• Acordo cedo ou não corro.\n• Como pouco ou não faço ginástica.\nCerto dia, Renato comeu muito.\nÉ correto concluir que, nesse dia, Renato:",
+        "alternativas": [
+            "correu e fez ginástica;",
+            "não fez ginástica e não correu;",
+            "correu e não acordou cedo;",
+            "acordou cedo e correu;",
+            "não fez ginástica e não acordou cedo."
+        ],
+        "gabarito": "acordou cedo e correu;"
+    },
+    {
+        "id": 61,
+        "enunciado": "Analise as premissas a seguir.\nSe o bolo é de laranja, então o refresco é de limão.\nSe o refresco não é de limão, então o sanduíche é de queijo.\nO sanduíche não é de queijo.\nLogo, é correto concluir que",
+        "alternativas": [
+            "o bolo é de laranja.",
+            "o refresco é de limão.",
+            "o bolo não é de laranja.",
+            "o refresco não é de limão.",
+            "o bolo é de laranja e o refresco é de limão."
+        ],
+        "gabarito": "o refresco é de limão."
+    },
+    {
+        "id": 62,
+        "enunciado": "Considere as seguintes afirmativas:\nSe é domingo, não trabalho.\nSe não é domingo, acordo cedo.\nPode‐se concluir logicamente que",
+        "alternativas": [
+            "se trabalho então acordo cedo.",
+            "se acordo cedo então trabalho.",
+            "se não trabalho então acordo cedo.",
+            "se não acordo cedo então trabalho.",
+            "se trabalho então não acordo cedo."
+        ],
+        "gabarito": "se trabalho então acordo cedo."
+    },
+    {
+        "id": 63,
+        "enunciado": "Sabe‐se que\nI. se Mauro não é baiano então Jair é cearense.\nII. se Jair não é cearense então Angélica é pernambucana.\nIII. Mauro não é baiano ou Angélica não é pernambucana.\nÉ necessariamente verdade que",
+        "alternativas": [
+            "Mauro não é baiano.",
+            "Angélica não é pernambucana.",
+            "Jair não é cearense.",
+            "Angélica é pernambucana.",
+            "Jair é cearense."
+        ],
+        "gabarito": "Jair é cearense."
+    },
+    {
+        "id": 64,
+        "enunciado": "Considere verdadeiras as seguintes proposições compostas:\nI. Se João é brasileiro, então Maria não é portuguesa.\nII. Se Pedro não é japonês, então Maria é portuguesa.\nIII. Se João não é brasileiro, então Pedro é japonês.\nLogo, é correto deduzir que",
+        "alternativas": [
+            "Pedro é japonês.",
+            "Maria é portuguesa.",
+            "Pedro não é japonês. P.",
+            "João é brasileiro.",
+            "João não é brasileiro."
+        ],
+        "gabarito": "Pedro é japonês."
+    },
+    {
+        "id": 65,
+        "enunciado": "Em frente à casa onde moram João e Maria, a prefeitura está fazendo uma obra na rua. Se o operário liga a britadeira, João sai de casa e Maria não ouve a televisão.\nCerto dia, depois do almoço, Maria ouve a televisão.\nPode-se concluir, logicamente, que",
+        "alternativas": [
+            "João saiu de casa.",
+            "João não saiu de casa.",
+            "O operário ligou a britadeira.",
+            "O operário não ligou a britadeira.",
+            "O operário ligou a britadeira e João saiu de casa."
+        ],
+        "gabarito": "O operário não ligou a britadeira."
+    },
+    {
+        "id": 66,
+        "enunciado": "Considere a seguinte proposição:\n“Todos os crimes foram sustentados por alguma evidência ou por algum depoimento”.\nA negação dessa proposição é logicamente equivalente a:",
+        "alternativas": [
+            "Algum crime não foi sustentado por qualquer evidência, nem por qualquer depoimento.",
+            "Algum crime não foi sustentado por alguma evidência ou por algum depoimento.",
+            "Nenhum crime foi sustentado por todas as evidências ou por todos os depoimentos.",
+            "Todos os crimes não foram sustentados por alguma evidência ou por algum depoimento.",
+            "Todos os crimes não foram sustentados por alguma evidência, nem por algum depoimento."
+        ],
+        "gabarito": "Algum crime não foi sustentado por qualquer evidência, nem por qualquer depoimento."
+    },
+    {
+        "id": 67,
+        "enunciado": "Considere verdadeiras as afirmações:\n• Todos os sapos são verdes.\n• Nenhum animal verde vive na água.\nÉ correto concluir que",
+        "alternativas": [
+            "alguns sapos vivem na água.",
+            "nenhum sapo vive na água.",
+            "nem todo sapo é verde.",
+            "todos os animais verdes são sapos.",
+            "todos os animais que não vivem na água não são verdes."
+        ],
+        "gabarito": "nenhum sapo vive na água."
+    },
+    {
+        "id": 68,
+        "enunciado": "Considere a afirmação referente aos candidatos de um concurso: “Todo candidato possui curso superior ou 5 anos de experiência”. A negação lógica dessa sentença é:",
+        "alternativas": [
+            "Todo candidato não possui curso superior ou não possui 5 anos de experiência.",
+            "Todo candidato não possui curso superior e não possui 5 anos de experiência.",
+            "Há candidato que não possui curso superior ou não possui 5 anos de experiência.",
+            "Há candidato que possui curso superior, mas não possui 5 anos de experiência.",
+            "Há candidato que não possui curso superior e não possui 5 anos de experiência."
+        ],
+        "gabarito": "Há candidato que não possui curso superior e não possui 5 anos de experiência."
+    },
+    {
+        "id": 69,
+        "enunciado": "Considere a seguinte proposição condicional:\nSe todos os alunos da Escola Aristarco gostam de matemática, então, ao menos um deles ganha medalha na Olimpíada Nacional de Matemática.\nSe essa proposição é verdadeira, é correto afirmar que",
+        "alternativas": [
+            "se nenhum dos alunos da Escola Aristarco gosta de Matemática, então nenhum deles ganha medalha na Olimpíada Nacional de Matemática.",
+            "se todos os alunos da Escola Aristarco ganham medalha na Olimpíada Nacional de Matemática, então, todos esses alunos gostam de Matemática.",
+            "se algum aluno da Escola Aristarco ganha medalha na Olimpíada Nacional de Matemática, então todos esses alunos gostam de Matemática.",
+            "se nenhum aluno da Escola Aristarco ganha medalha na Olimpíada Nacional de Matemática, então nenhum desses alunos gosta de Matemática.",
+            "se nenhum aluno da Escola Aristarco ganha medalha na Olimpíada Nacional de Matemática, então algum desses alunos não gosta de Matemática."
+        ],
+        "gabarito": "se nenhum aluno da Escola Aristarco ganha medalha na Olimpíada Nacional de Matemática, então algum desses alunos não gosta de Matemática."
+    },
+    {
+        "id": 70,
+        "enunciado": "O entrevistador da PNAD (Pesquisa Nacional por Amostra de Domicílios) está fazendo a entrevista com o sr. João:\nEntrevistador: Quantos filhos maiores de 18 anos o senhor tem? Sr. João: Três.\nEntrevistador: Todos trabalham? Sr. João: Não.\nA partir do diálogo acima é correto concluir que:",
+        "alternativas": [
+            "nenhum dos filhos de João trabalha;",
+            "os três filhos de João estudam;",
+            "pelo menos um filho de João estuda;",
+            "pelo menos um filho de João não trabalha;",
+            "apenas um filho de João não trabalha."
+        ],
+        "gabarito": "pelo menos um filho de João não trabalha;"
+    },
+    {
+        "id": 71,
+        "enunciado": "Considere a afirmação:\n“À noite, todos os gatos são pretos.” Se essa frase é falsa, é correto concluir que",
+        "alternativas": [
+            "De dia, todos os gatos são pretos.",
+            "À noite, todos os gatos são brancos.",
+            "De dia há gatos que não são pretos.",
+            "À noite há, pelo menos, um gato que não é preto.",
+            "À noite nenhum gato é preto."
+        ],
+        "gabarito": "À noite há, pelo menos, um gato que não é preto."
+    },
+    {
+        "id": 72,
+        "enunciado": "Considere verdadeira a afirmação:\n“Todos os corredores são magros”.\nObserve, a seguir, três conclusões da afirmação dada:\n1. Se João é magro então é corredor.\n2. Se João não é corredor, então não é magro.\n3. Se João não é magro então não é corredor.\nDenotando por V uma conclusão verdadeira e por F uma conclusão falsa, para as três conclusões dadas, temos, respectivamente,",
+        "alternativas": [
+            "V, V, V.",
+            "F, V, V.",
+            "F, F, V.",
+            "V, V, F.",
+            "V, F, F."
+        ],
+        "gabarito": "F, F, V."
+    },
+    {
+        "id": 73,
+        "enunciado": "A negativa do dito “Quem tudo quer tudo perde” é",
+        "alternativas": [
+            "Quem tudo quer nem tudo perde.",
+            "Quem tudo quer nada perde.",
+            "Quem algo quer nem tudo perde.",
+            "Quem algo quer algo perde.",
+            "Quem algo quer nada perde."
+        ],
+        "gabarito": "Quem tudo quer nem tudo perde."
+    },
+    {
+        "id": 74,
+        "enunciado": "Considere a sentença:\n“Todo urso branco é amigo da onça.” A negação lógica dessa sentença é:",
+        "alternativas": [
+            "Nenhum urso branco é amigo da onça.",
+            "Algum urso branco não é amigo da onça.",
+            "Todo urso marrom é amigo da onça.",
+            "Nenhuma onça é amiga de urso branco.",
+            "Algum urso não é branco e é amigo da onça."
+        ],
+        "gabarito": "Algum urso branco não é amigo da onça."
+    },
+    {
+        "id": 75,
+        "enunciado": "Verifique, em cada um dos casos abaixo, se a conclusão decorre logicamente das duas premissas apresentadas e assinale V quando a conclusão decorre logicamente das duas premissas e F em caso contrário.\nCaso I • Todo adolescente gosta de namorar.\n• Maria é adolescente.\nConclusão: Maria gosta de namorar.\nCaso II • Todo felino gosta de dormir.\n• Gato gosta de dormir.\nConclusão: Gato é um felino.\nCaso III • Todos os professores gostam de cinema.\n• Existem advogados que são professores.\nConclusão: Todos os advogados gostam de cinema.\nAs conclusões são, segundo a ordem dos casos apresentados, respectivamente,",
+        "alternativas": [
+            "V – F – F.",
+            "F – V – F.",
+            "F – F – V.",
+            "V – V – F.",
+            "V – V – V."
+        ],
+        "gabarito": "V – F – F."
+    },
+    {
+        "id": 76,
+        "enunciado": "A negação de “Nenhum analista é magro” é",
+        "alternativas": [
+            "“Há pelo menos um analista magro”.",
+            "“Alguns magros são analistas”.",
+            "“Todos os analistas são magros”.",
+            "“Todos os magros são analistas”.",
+            "“Todos os analistas não são magros”."
+        ],
+        "gabarito": "“Há pelo menos um analista magro”."
+    },
+    {
+        "id": 77,
+        "enunciado": "A negação lógica da sentença “Todo capixaba é torcedor do Vasco e gosta de moqueca” é:",
+        "alternativas": [
+            "Todo capixaba não é torcedor do Vasco e não gosta de moqueca;",
+            "Todo capixaba não é torcedor do Vasco ou não gosta de moqueca;",
+            "Algum capixaba é torcedor do Vasco e não gosta de moqueca;",
+            "Algum capixaba não é torcedor do Vasco ou gosta de moqueca;",
+            "Algum capixaba não é torcedor do Vasco ou não gosta de moqueca."
+        ],
+        "gabarito": "Algum capixaba não é torcedor do Vasco ou não gosta de moqueca."
+    },
+    {
+        "id": 78,
+        "enunciado": "Considere a sentença a seguir.\n“Todo pernambucano gosta de peixe e torce pelo Náutico.” A negação lógica da sentença dada é",
+        "alternativas": [
+            "“Nenhum pernambucano gosta de peixe e torce pelo Náutico.”.",
+            "“Todo pernambucano não gosta de peixe e não torce pelo Náutico.”.",
+            "“Algum pernambucano não gosta de peixe e não torce pelo Náutico.”.",
+            "“Algum pernambucano não gosta de peixe ou não torce pelo Náutico.”.",
+            "“Algum pernambucano gosta de peixe e não torce pelo Náutico.”."
+        ],
+        "gabarito": "“Algum pernambucano não gosta de peixe ou não torce pelo Náutico.”."
+    },
+    {
+        "id": 79,
+        "enunciado": "Considere como verdadeira a seguinte sentença: “Se todas as flores são vermelhas, então o jardim é bonito”.\nÉ correto concluir que:",
+        "alternativas": [
+            "se todas as flores não são vermelhas, então o jardim não é bonito;",
+            "se uma flor é amarela, então o jardim não é bonito;",
+            "se o jardim é bonito, então todas as flores são vermelhas;",
+            "se o jardim não é bonito, então todas as flores não são vermelhas;",
+            "se o jardim não é bonito, então pelo menos uma flor não é vermelha."
+        ],
+        "gabarito": "se o jardim não é bonito, então pelo menos uma flor não é vermelha."
+    },
+    {
+        "id": 80,
+        "enunciado": "Em um jogo há fichas brancas e pretas sendo algumas redondas, outras quadradas e outras triangulares. Não há fichas de outras cores ou de outros formatos.\nConsidere como verdadeira a afirmação:\n“Qualquer ficha branca não é quadrada.” É correto concluir que:",
+        "alternativas": [
+            "toda ficha preta é quadrada;",
+            "toda ficha quadrada é preta;",
+            "uma ficha que não é redonda é certamente branca;",
+            "uma ficha que não é quadrada é certamente preta;",
+            "algumas fichas triangulares são pretas."
+        ],
+        "gabarito": "toda ficha quadrada é preta;"
+    },
+    {
+        "id": 81,
+        "enunciado": "Marcelo foi chamado para uma reunião com seu chefe. Nessa reunião ocorreu o seguinte diálogo:\n- Chefe: Pedro disse que todos os relatórios que ele recebeu foram avaliados.\n- Marcelo: Não é verdade o que Pedro disse.\nSe o chefe considerou que Marcelo falou a verdade, ele pode concluir logicamente que, dos relatórios recebidos por Pedro:",
+        "alternativas": [
+            "pelo menos um relatório não foi avaliado;",
+            "um único relatório não foi avaliado;",
+            "nenhum relatório foi avaliado;",
+            "mais da metade dos relatórios não foram avaliados;",
+            "somente um relatório foi avaliado."
+        ],
+        "gabarito": "pelo menos um relatório não foi avaliado;"
+    },
+    {
+        "id": 82,
+        "enunciado": "Considere verdadeira a afirmação:\nTodo computador bom é caro e todo computador grande é bom.\nÉ correto concluir que:",
+        "alternativas": [
+            "se um computador é caro, então é bom;",
+            "se um computador é bom, então é grande;",
+            "se um computador não é bom, então não é caro;",
+            "se um computador é caro, então é grande;",
+            "se um computador é grande, então é caro."
+        ],
+        "gabarito": "se um computador é grande, então é caro."
+    },
+    {
+        "id": 83,
+        "enunciado": "A negação lógica da sentença “Todo rondoniense gosta de chimarrão ou de pão-de-queijo” é",
+        "alternativas": [
+            "Nenhum rondoniense gosta de chimarrão ou de pão-de-queijo.",
+            "Algum rondoniense não gosta de chimarrão nem de pão-de-queijo.",
+            "Algum rondoniense gosta de chimarrão, mas não gosta de pão-de-queijo.",
+            "Algum rondoniense não gosta de chimarrão, mas gosta de pão-de-queijo.",
+            "Nenhum rondoniense gosta de chimarrão e de pão-de-queijo."
+        ],
+        "gabarito": "Algum rondoniense não gosta de chimarrão nem de pão-de-queijo."
+    },
+    {
+        "id": 84,
+        "enunciado": "Considere verdadeira a frase: “Quem tem amigo é feliz e quem chora não é feliz”.\nAssim, é correto concluir que",
+        "alternativas": [
+            "quem não chora tem amigo.",
+            "quem tem amigo não chora.",
+            "quem não chora é feliz.",
+            "quem é feliz tem amigo.",
+            "quem não tem amigo chora."
+        ],
+        "gabarito": "quem tem amigo não chora."
+    },
+    {
+        "id": 85,
+        "enunciado": "Barbosa afirmou: “Todo cidadão brasileiro tem direito à educação e à saúde”.\nA negação lógica dessa sentença é:",
+        "alternativas": [
+            "Nenhum cidadão brasileiro tem direito à educação e à saúde.",
+            "Nenhum cidadão brasileiro tem direito à educação ou à saúde.",
+            "Todo cidadão brasileiro não tem direito à educação e à saúde.",
+            "Algum cidadão brasileiro não tem direito à educação ou à saúde.",
+            "Algum cidadão brasileiro não tem direito à educação nem à saúde."
+        ],
+        "gabarito": "Algum cidadão brasileiro não tem direito à educação ou à saúde."
+    },
+    {
+        "id": 86,
+        "enunciado": "Considere a sentença “Não é verdade que todo juiz de futebol apita mal os jogos do time para o qual você torce”.\nAssinale a alternativa que indica a sentença logicamente equivalente à sentença dada.",
+        "alternativas": [
+            "Todo juiz apita bem os jogos do time para o qual você torce.",
+            "Nenhum juiz apita bem os jogos do time para o qual você torce.",
+            "Todo juiz apita mal os jogos do time para o qual você torce.",
+            "Algum juiz apita mal os jogos do time para o qual você torce.",
+            "Algum juiz apita bem os jogos do time para o qual você torce."
+        ],
+        "gabarito": "Algum juiz apita bem os jogos do time para o qual você torce."
+    },
+    {
+        "id": 87,
+        "enunciado": "O silogismo é uma forma de raciocínio dedutivo. Na sua forma padronizada, é constituído por três proposições: as duas primeiras denominam-se premissas e a terceira, conclusão.\nAs premissas são juízos que precedem a conclusão. Em um silogismo, a conclusão é consequência necessária das premissas.\nSão dados 3 conjuntos formados por 2 premissas verdadeiras e 1 conclusão não necessariamente verdadeira.\nI- Premissa 1: Nenhuma mulher é tabagista.\nPremissa 2: Algumas mulheres são atletas.\nConclusão: Há atletas não tabagistas.\nII- Premissa 1: Alguns homens são tabagistas.\nPremissa 2: Alguns tabagistas são médicos.\nConclusão: Alguns homens são médicos.\nIII- Premissa 1: Todo engenheiro é atleta.\nPremissa 2: Se alguém é atleta, então é engenheiro.\nConclusão: Não existem atletas que não sejam engenheiros.\nAssinale:",
+        "alternativas": [
+            "se somente o conjunto I for silogismo.",
+            "se somente o conjunto II for silogismo.",
+            "se somente o conjunto III for silogismo.",
+            "se somente os conjuntos I e III forem silogismos.",
+            "se somente os conjuntos II e III forem silogismos."
+        ],
+        "gabarito": "se somente os conjuntos I e III forem silogismos."
+    },
+    {
+        "id": 88,
+        "enunciado": "Se A não é azul, então B é amarelo. Se B não é amarelo, então C é verde. Se A é azul, então C não é verde. Logo, tem-se obrigatoriamente que",
+        "alternativas": [
+            "A é azul.",
+            "B é amarelo.",
+            "C é verde.",
+            "Anão é azul.",
+            "B não é amarelo."
+        ],
+        "gabarito": "B é amarelo."
+    },
+    {
+        "id": 89,
+        "enunciado": "O silogismo é uma forma de raciocínio dedutivo. Na sua forma padronizada, é constituído por três proposições: as duas primeiras denominam-se premissas e a terceira, conclusão. As premissas são juízos que precedem a conclusão. Em um silogismo, a conclusão é conseqüência necessária das premissas.\nSão dados 3 conjuntos formados por 2 premissas verdadeiras e 1 conclusão não necessariamente verdadeira.\nI. Premissa 1: Alguns animais são homens. Premissa 2: Júlio é um animal. Conclusão: Júlio é homem.\nII. Premissa 1: Todo homem é um animal. Premissa 2: João é um animal. Conclusão: João é um homem.\nIII. Premissa 1: Todo homem é um animal. Premissa 2: José é um homem. Conclusão: José é um animal.\nÉ (são) silogismo(s) somente:",
+        "alternativas": [
+            "I.",
+            "II.",
+            "III.",
+            "I e III.",
+            "II e III."
+        ],
+        "gabarito": "III."
+    },
+    {
+        "id": 90,
+        "enunciado": "As pessoas A, B, C e D estão, nessa ordem, em uma fila. Considere as informações:\n• Há 7 pessoas entre A e B.\n• Há 4 pessoas entre B e C.\n• Há tantas pessoas entre A e C quantas entre C e D.\n• A pessoa A ocupa o 5º lugar da fila.\nO lugar na fila ocupado pela pessoa D é o",
+        "alternativas": [
+            "27º.",
+            "28º.",
+            "29º.",
+            "30º.",
+            "31º."
+        ],
+        "gabarito": "31º."
+    },
+    {
+        "id": 91,
+        "enunciado": "Em um Tribunal, está em vigor uma normativa referente ao uso de crachás para identificação dos indivíduos nas suas dependências.\nDentro desse Tribunal:\njuízes podem não portar crachás;\nadvogados devem portar crachás;\nnão-juízes e não-advogados não podem portar crachá.\nQualquer pessoa, para entrar no Tribunal, é associada a uma única categoria entre as três citadas.\nEm certo momento, duas pessoas estão paradas, conversando no corredor interno do Tribunal: uma com crachá e, a outra, sem.\nSobre essas duas pessoas, é correto afirmar que",
+        "alternativas": [
+            "ambas são juízes.",
+            "uma delas não pode ser juiz.",
+            "pelo menos uma é juiz.",
+            "ambas não são juízes.",
+            "uma delas pode não ser juiz."
+        ],
+        "gabarito": "uma delas pode não ser juiz."
+    },
+    {
+        "id": 92,
+        "enunciado": "Considere cinco bolas iguais numeradas de 1 a 5 e duas caixas A e B. Duas bolas estão na caixa A e as outras três, na caixa B. Sabe-se que:\n∙ A bola 5 não está na mesma caixa que as bolas 2 e 4.\n∙ A Bola 1 não está na mesma caixa que as bolas 3 e 4.\nAs bolas da caixa A são as de números:",
+        "alternativas": [
+            "2 e 4.",
+            "2 e 3.",
+            "3 e 5.",
+            "3 e 4.",
+            "1 e 5."
+        ],
+        "gabarito": "1 e 5."
+    },
+    {
+        "id": 93,
+        "enunciado": "A serviço de uma unidade do Sistema Único de Saúde há três veículos: um automóvel, um ônibus e uma van. Um deles tem a cor azul, outro tem a cor amarela e outro tem a cor verde. Das afirmativas a seguir, apenas uma é verdadeira:\nI. O automóvel é verde.\nII. O ônibus não é amarelo.\nIII. A van não é verde.\nAssim, é correto afirmar que",
+        "alternativas": [
+            "o automóvel é amarelo.",
+            "o automóvel é azul.",
+            "o ônibus é verde.",
+            "a van é amarela."
+        ],
+        "gabarito": "o automóvel é amarelo."
+    },
+    {
+        "id": 94,
+        "enunciado": "Sabe-se, sobre as alturas de 5 mulheres, que:\n- Bianca tem 3 cm a menos que Alice;\n- Carla tem 3 cm a mais que Dalva;\n- Alice tem 20 cm a menos que Érica;\n- Bianca tem 1,57 m de altura.\nCom base nessas informações, é correto concluir que, entre as 5 mulheres,",
+        "alternativas": [
+            "Alice é a mais baixa.",
+            "Bianca é mais baixa que Érica.",
+            "Carla é mais alta que Alice.",
+            "Dalva é mais alta que Érica.",
+            "Érica é a mais alta."
+        ],
+        "gabarito": "Bianca é mais baixa que Érica."
+    },
+    {
+        "id": 95,
+        "enunciado": "Entre Xavier, Vladimir e Zilmar, um deles tem cabelos castanhos, o outro tem cabelos ruivos e o terceiro, cabelos loiros. Os olhos também têm cores distintas sendo que um deles tem olhos castanhos, outro tem olhos verdes, e o terceiro, olhos azuis.\nXavier não tem olhos azuis. Quem tem olhos verdes não possui cabelos loiros. Zilmar não tem cabelos e nem olhos castanhos. Quem tem cabelos castanhos também tem olhos azuis. Nesse caso, é correto afirmar que",
+        "alternativas": [
+            "Xavier tem olhos castanhos.",
+            "Xavier tem cabelos ruivos.",
+            "Vladimir tem olhos verdes.",
+            "Vladimir tem cabelos loiros.",
+            "Zilmar tem olhos azuis."
+        ],
+        "gabarito": "Xavier tem olhos castanhos."
+    },
+    {
+        "id": 96,
+        "enunciado": "Três amigos, Gael, Miguel e Gabriel moram em três bairros diferentes de Manaus. Um mora no Centro, outro mora em Flores e outro, em Aleixo.\nConsidere as seguintes informações:\nGael é casado com a irmã de Gabriel e é mais velho do que quem mora em Aleixo.\nQuem mora em Flores é filho único e é o mais novo dos três amigos.\nÉ correto concluir que",
+        "alternativas": [
+            "Gael mora em Flores.",
+            "quem mora no Centro é mais novo que Miguel.",
+            "Gabriel mora em Aleixo.",
+            "quem mora no Centro é mais novo que Gabriel.",
+            "o mais velho não mora no Centro."
+        ],
+        "gabarito": "Gabriel mora em Aleixo."
+    },
+    {
+        "id": 97,
+        "enunciado": "Miguel, Artur e Heitor possuem idades diferentes e nasceram em cidades diferentes; um nasceu em Patos, outro em Cabedelo e outro em Santa Rita.\nAs três afirmações seguintes sobre eles são verdadeiras:\n∙ Miguel é mais velho que o cabedelense.\n∙ Artur nasceu em Patos.\n∙ Heitor não é o mais novo.\nÉ correto concluir que",
+        "alternativas": [
+            "Miguel é mais novo que Artur.",
+            "Heitor nasceu em Santa Rita.",
+            "o santa-ritense é o mais velho.",
+            "o cabedelense é mais velho que Miguel.",
+            "Artur é mais velho que o patoense."
+        ],
+        "gabarito": "o santa-ritense é o mais velho."
+    },
+    {
+        "id": 98,
+        "enunciado": "Milton coordena a equipe de analistas formada por Sérgio, Elisa, Lúcia e Valdo. Para a reunião do fim da tarde de sexta-feira, cada uma dessas cinco pessoas chegou num horário diferente.\nSabe-se que:\n• Milton não foi o último a chegar e Sérgio não foi o primeiro.\n• Quando Lúcia chegou, Sérgio e Elisa já estavam, mas Milton não tinha chegado.\nConsidere as afirmações:\nI. Sérgio foi o segundo a chegar.\nII. Valdo chegou antes de Milton.\nIII. Lúcia foi a quarta pessoa a chegar.\nSão verdadeiras:",
+        "alternativas": [
+            "I, somente.",
+            "II, somente.",
+            "II e III, somente.",
+            "I e III, somente.",
+            "I, II e III."
+        ],
+        "gabarito": "I, somente."
+    },
+    {
+        "id": 99,
+        "enunciado": "Cinco pessoas, chamadas Ali, Ben, Clô, Dil e Ela, estão em uma fila. São dadas as seguintes informações:\nBen tem como vizinhos Ela e Dil.\nAli não é o primeiro e Dil não é o último.\nClô está separada de Dil por duas pessoas.\nExiste uma única pessoa entre Ben e Ali.\nAssim, é correto afirmar que",
+        "alternativas": [
+            "Ben é o segundo da fila.",
+            "Ela está entre Ben e Dil.",
+            "Dil está entre Ali e Ben.",
+            "Ali é o quarto da fila.",
+            "Clô está atrás de Ela."
+        ],
+        "gabarito": "Dil está entre Ali e Ben."
+    },
+    {
+        "id": 100,
+        "enunciado": "Fabio, Guilherme e Hugo são funcionários da AL‐MT. Um deles é arquivista, outro é contador, e outro é segurança.\nAs três afirmações seguintes sobre esses funcionários são verdadeiras:\n• Fabio é mais velho que o contador.\n• Guilherme é arquivista.\n• Hugo não é o mais novo dos três.\nÉ correto concluir que",
+        "alternativas": [
+            "Fabio é mais novo que Guilherme.",
+            "Hugo é o segurança.",
+            "Hugo é o mais novo dos três.",
+            "O segurança é o mais velho dos três.",
+            "Guilherme é mais velho que o contador."
+        ],
+        "gabarito": "O segurança é o mais velho dos três."
+    },
+    {
+        "id": 101,
+        "enunciado": "Abelardo, Benito e Caetano conversam sobre futebol em um bar. Dois deles são irmãos e o outro é filho único. O dono do bar ouviu parte da conversa e ficou sabendo que um deles torce pelo Sampaio Corrêa, outro pelo Maranhão e o outro pelo Moto Club. Prestando mais atenção percebeu ainda que:\n• Abelardo não torce pelo Sampaio Corrêa.\n• Benito não torce pelo Maranhão.\n• O irmão de Caetano torce pelo Moto Club.\n• O que não tem irmão torce pelo Sampaio Corrêa.\nPode-se concluir que:",
+        "alternativas": [
+            "Abelardo é irmão de Benito.",
+            "Benito é irmão de Caetano.",
+            "Benito torce pelo Moto Club.",
+            "Caetano torce pelo Maranhão.",
+            "Abelardo torce pelo Maranhão."
+        ],
+        "gabarito": "Caetano torce pelo Maranhão."
+    },
+    {
+        "id": 102,
+        "enunciado": "Abel, Gabriel e Daniel são amigos. Um deles mora em uma casa branca, o outro, em uma casa azul e o terceiro, em uma casa amarela. Entre eles, um é pintor, o outro, escultor e o terceiro, professor. Abel não mora na casa azul. Gabriel é escultor e não mora na casa branca. O professor mora na casa azul.\nA esse respeito, é correto afirmar que:",
+        "alternativas": [
+            "Abel mora na casa amarela.",
+            "Abel é pintor.",
+            "Daniel não é professor.",
+            "Daniel mora na casa branca.",
+            "Gabriel mora na casa azul."
+        ],
+        "gabarito": "Abel é pintor."
+    },
+    {
+        "id": 103,
+        "enunciado": "No conjunto dos irmãos de Maria, há exatamente o mesmo número de homens e de mulheres. Míriam é irmã de Maria. Elas têm um irmão chamado Marcos. Esse, por sua vez, tem um único irmão homem: Marcelo. Sabendo-se que Maria e seus irmãos são todos filhos de um mesmo casal, o número total de filhos do casal é:",
+        "alternativas": [
+            "2.",
+            "3.",
+            "4.",
+            "5.",
+            "6."
+        ],
+        "gabarito": "5."
+    },
+    {
+        "id": 104,
+        "enunciado": "As amigas Alice, Laura e Catarina foram a um shopping comprar coisas de que necessitavam. Uma delas comprou uma bolsa, outra comprou um par de tênis e a terceira comprou um casaco. Sabe-se que, das afirmações a seguir, apenas uma é verdadeira.\nLaura comprou a bolsa.\nCatarina não comprou o tênis.\nLaura não comprou o casaco.\nNesse caso, é correto afirmar que",
+        "alternativas": [
+            "Catarina comprou a bolsa.",
+            "Laura comprou o par de tênis.",
+            "Alice comprou o casaco.",
+            "Laura comprou a bolsa.",
+            "Alice não comprou o par de tênis."
+        ],
+        "gabarito": "Catarina comprou a bolsa."
+    },
+    {
+        "id": 105,
+        "enunciado": "Na prateleira de uma cozinha há três potes: A, B e C. Um deles contém arroz, outro contém feijão e outro contém farinha.\nDas afirmativas seguintes, somente uma é verdadeira:\nA contém farinha.\nB não contém feijão.\nC não contém farinha.\nNesse caso, é correto afirmar que:",
+        "alternativas": [
+            "o pote A contém feijão.",
+            "o pote B contém farinha.",
+            "o pote C contém feijão.",
+            "o pote A contém arroz.",
+            "o pote B não contém arroz."
+        ],
+        "gabarito": "o pote A contém feijão."
+    },
+    {
+        "id": 106,
+        "enunciado": "Paulo, Ricardo, Sílvio e Tales deram, nessa ordem, as seguintes declarações:\nPaulo: “Eu sou professor”.\nRicardo: “Paulo não é professor”.\nSílvio: “Ricardo está mentindo”.\nTales: “Sílvio falou a verdade”.\nA respeito dessas declarações, é possível que",
+        "alternativas": [
+            "todos estejam mentindo.",
+            "todos estejam falando a verdade.",
+            "Paulo e Ricardo estejam ambos mentindo.",
+            "Ricardo e Sílvio estejam ambos mentindo.",
+            "Silvio e Tales estejam ambos mentindo."
+        ],
+        "gabarito": "Silvio e Tales estejam ambos mentindo."
+    },
+    {
+        "id": 107,
+        "enunciado": "Em uma prateleira há três caixas A, Be C nessa ordem, todas contendo dinheiro, mas em moedas diferentes: uma contém apenas reais, outra contém apenas dólares e, a outra, apenas euros.\nConsidere as afirmativas:\n- os reais estão na caixa A;\n- os dólares não estão na caixa B;\n- os euros estão na caixa C;\n- os reais não estão na caixa A.\nDas quatro afirmativas acima, apenas uma é verdadeira. Assim, é correto concluir que",
+        "alternativas": [
+            "os dólares estão na caixa A.",
+            "os euros estão na caixa B.",
+            "os reais estão na caixa C.",
+            "a caixa que contém reais é vizinha da que contém euros."
+        ],
+        "gabarito": "os reais estão na caixa C."
+    },
+    {
+        "id": 108,
+        "enunciado": "Hugo, Lauro e Mário são funcionários de um escritório de investimentos e trabalham com áreas diferentes: um trabalha com mercado de ações, outro com previdência e outro com multimercado.\nDentre as afirmativas abaixo, somente uma é verdadeira:\nHugo trabalha com previdência.\nLauro não trabalha com previdência.\nMário não trabalha com multimercado.\nAssim, é correto afirmar que:",
+        "alternativas": [
+            "Hugo trabalha com multimercado;",
+            "Hugo trabalha com previdência;",
+            "Lauro trabalha com ações;",
+            "Lauro trabalha com multimercado;",
+            "Mário trabalha com previdência."
+        ],
+        "gabarito": "Hugo trabalha com multimercado;"
+    },
+    {
+        "id": 109,
+        "enunciado": "Entre os amigos Alberto, Rodrigo e Marcelo, um deles é flamenguista, outro é tricolor e, outro, vascaíno.\nEntre as afirmações a seguir, somente uma é verdadeira:\n- Alberto é tricolor.\n- Rodrigo não é vascaíno.\n- O tricolor não é Marcelo.\nÉ correto afirmar que",
+        "alternativas": [
+            "Alberto é vascaíno.",
+            "Rodrigo é tricolor.",
+            "Marcelo é flamenguista.",
+            "Alberto é tricolor.",
+            "Rodrigo não é flamenguista."
+        ],
+        "gabarito": "Alberto é vascaíno."
+    },
+    {
+        "id": 110,
+        "enunciado": "Roberto, Sérgio e Tiago estão com bonés de cores diferentes: azul, vermelho e amarelo, não necessariamente nessa ordem.\nDas afirmativas a seguir, somente uma é verdadeira.\nO boné de Roberto é azul.\nO boné de Sérgio não é azul.\nO boné de Tiago não é vermelho.\nAs cores dos bonés de Roberto, Sérgio e Tiago são, respectivamente,",
+        "alternativas": [
+            "vermelho, amarelo e azul.",
+            "vermelho, azul e amarelo.",
+            "amarelo, vermelho e azul.",
+            "amarelo, azul e vermelho.",
+            "azul, amarelo e vermelho."
+        ],
+        "gabarito": "vermelho, azul e amarelo."
+    },
+    {
+        "id": 111,
+        "enunciado": "Adriano, Benedito e Cláudio são amigos e estão com camisetas de cores diferentes: verde, azul e branca. Dentre as afirmativas a seguir, somente uma é verdadeira:\nAdriano está com camiseta azul.\nBenedito não está com camiseta azul.\nCláudio não está com camiseta branca.\nÉ correto concluir que",
+        "alternativas": [
+            "Adriano está com camiseta branca.",
+            "Adriano está com camiseta azul.",
+            "Benedito está com camiseta verde.",
+            "Benedito está com camiseta branca.",
+            "Cláudio está com camiseta azul."
+        ],
+        "gabarito": "Adriano está com camiseta branca."
+    },
+    {
+        "id": 112,
+        "enunciado": "Em uma oficina há apenas três carros: um Ford, um Chevrolet e um Fiat. As cores são diferentes: um é prata, outro é preto e outro é azul.\nDas afirmativas abaixo, apenas uma é verdadeira:\nO Ford é preto.\nO Chevrolet não é preto.\nO Fiat não é azul.\nAssim, é correto concluir que",
+        "alternativas": [
+            "o Chevrolet é prata.",
+            "o Ford é azul.",
+            "o Fiat é preto.",
+            "o Ford é preto.",
+            "o Chevrolet é azul."
+        ],
+        "gabarito": "o Ford é azul."
+    },
+    {
+        "id": 113,
+        "enunciado": "Certo dia, três amigos fizeram, cada um deles, uma afirmação:\nAluísio: – Hoje não é terça-feira.\nBenedito: – Ontem foi domingo.\nCamilo: – Amanhã será quarta-feira.\nSabe-se que um deles mentiu e que os outros dois falaram a verdade.\nAssinale a alternativa que indique corretamente o dia em que eles fizeram essas afirmações.",
+        "alternativas": [
+            "sábado.",
+            "domingo.",
+            "segunda-feira.",
+            "terça-feira.",
+            "quarta-feira."
+        ],
+        "gabarito": "segunda-feira."
+    },
+    {
+        "id": 114,
+        "enunciado": "Em cada uma de cinco portas A, B, C, D e E, está escrita uma sentença, conforme a seguir:\nPorta A : “Eu sou a porta de saída.” Porta B: “A porta de saída é a porta C.” Porta C: “A sentença escrita na porta A é verdadeira.” Porta D : “Se eu sou a porta de saída, então a porta de saída não é a porta E.” Porta E : “Eu não sou a porta de saída.” Sabe-se que dessas cinco sentenças há uma única verdadeira e que há somente uma porta de saída. A porta de saída é a porta",
+        "alternativas": [
+            "D.",
+            "A.",
+            "B.",
+            "C.",
+            "E."
+        ],
+        "gabarito": "E."
+    }
+]

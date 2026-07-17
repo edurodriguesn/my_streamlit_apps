@@ -104,16 +104,24 @@ def _collapse_blank_lines(code: str) -> str:
 
 
 def _is_numbered_list(code: str) -> bool:
-    """Retorna True se a maioria das linhas não-vazias começa com número sequencial (1. 2. ...)."""
+    """Retorna True se a maioria das linhas não-vazias começa com número seguido de espaço."""
     lines = [l.strip() for l in code.strip().split('\n') if l.strip()]
     if len(lines) < 2:
         return False
-    numbered = sum(1 for l in lines if re.match(r'^\d+[.)\-]', l))
+    numbered = sum(1 for l in lines if re.match(r'^\d+\s', l))
     return numbered / len(lines) >= 0.5
 
 
+def _unescape_block(code: str) -> str:
+    """Converte \\n literais em quebras reais e entidades HTML comuns."""
+    code = code.replace('\\n', '\n')
+    code = code.replace('\\"', '"').replace('&quot;', '"')
+    code = code.replace('\\&quot;', '"')
+    return code
+
+
 def _render_code_block(code: str) -> str:
-    code = code.strip('\n')
+    code = _unescape_block(code.strip('\n'))
     if _is_numbered_list(code):
         return f'<div class="code-block">{_esc(code)}</div>'
     code = _normalize_code(code)

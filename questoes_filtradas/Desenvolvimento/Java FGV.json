@@ -301,7 +301,7 @@
     },
     {
         "id": 26,
-        "enunciado": "Analise o código Java apresentado a seguir.\n>'''public class Main extends Thread { public static void main(String[] args) { Main thread = new Main();\nthread.start();\nfor (int k=1; k<=5; k++) { System.out.println(\"A\" + k);\ntry { Thread.sleep(1; } catch (InterruptedException ex) {} } } public void run() { for (int k=1; k<=5; k++) { try { Thread.sleep(7;} catch (InterruptedException ex) {} System.out.println(\"B\" + k);\n} } }'''<\nQuando esse código é executado num computador com boa capacidade e sem interferência de processos externos, os valores exibidos, na ordem, são:",
+        "enunciado": "Analise o código Java apresentado a seguir.\n>'''public class Main extends Thread { public static void main(String[] args) { Main thread = new Main();\nthread.start();\nfor (int k=1; k<=5; k++) { System.out.println(\"A\" + k);\ntry { Thread.sleep(1100); } catch (InterruptedException ex) {} } } public void run() { for (int k=1; k<=5; k++) { try { Thread.sleep(700);} catch (InterruptedException ex) {} System.out.println(\"B\" + k);\n} } }'''<\nQuando esse código é executado num computador com boa capacidade e sem interferência de processos externos, os valores exibidos, na ordem, são:",
         "alternativas": [
             "A1 A2 A3 A4 A5 B1 B2 B3 B4 B5.",
             "A1 B1 A2 B2 A3 B3 A4 B4 A5 B5.",
@@ -325,7 +325,7 @@
     },
     {
         "id": 28,
-        "enunciado": "Observe o trecho de código a seguir.\n>'''1 import java.io.*;\n2\n3 interface Segunda { public void segunda();}\n4 interface Terca { public void terca();}\n5 interface Quarta extends Segunda, Terca { public void quarta();}\n6\n7 class Quinta implements Segunda {\n8 public void segunda(){System.out.println(\"Segunda\");}\n9 }\n10\n11 class Sexta extends Quinta implements Quarta {\n12 public void segunda(){System.out.println(\"Segunda!\");}\n13 public void terca(){System.out.println(\"Segunda!!\");}\n14 public void quarta(){System.out.println(\"Segunda!!!\");}\n15 }\n16\n17 public class teste\n18 {\n19 public static void main( String[] args )\n20 {\n21 Quinta dia = (Quinta) new Sexta();\n22 dia.segunda();\n23 }\n24 }'''<\nA saída produzida pela execução do código é:",
+        "enunciado": "Observe o trecho de código a seguir.\n>'''\n1 import java.io.*;\n2\n3 interface Segunda { public void segunda();}\n4 interface Terca { public void terca();}\n5 interface Quarta extends Segunda, Terca { public void quarta();}\n6 \n7 class Quinta implements Segunda {\n8 public void segunda(){System.out.println(\"Segunda\");}\n9 }\n10\n11 class Sexta extends Quinta implements Quarta {\n12 public void segunda(){System.out.println(\"Segunda!\");}\n13 public void terca(){System.out.println(\"Segunda!!\");}\n14 public void quarta(){System.out.println(\"Segunda!!!\");}\n15 }\n16\n17 public class teste\n18 {\n19 public static void main( String[] args )\n20 {\n21 Quinta dia = (Quinta) new Sexta();\n22 dia.segunda();\n23 }\n24 }'''<\nA saída produzida pela execução do código é:",
         "alternativas": [
             "Erro de compilação na linha 5.",
             "Segunda.",

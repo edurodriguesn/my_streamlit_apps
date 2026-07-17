@@ -1,0 +1,362 @@
+[
+    {
+        "id": 1,
+        "enunciado": "Java foi uma das linguagens que popularizou o uso de Padrões de Projeto (Design Patterns) no desenvolvimento corporativo, transformando esses conceitos em padrões de mercado para criar sistemas robustos.\nCom relação à Linguagem de desenvolvimento JAVA, analise os itens a seguir:\nI. O desenvolvimento de aplicações empresariais, APIs RESTful e microsserviços, focando em arquitetura e produtividade, pode ser obtido pelo uso de Frameworks\n(Spring Boot, Quarkus).\nII. A partir do Java 8 (JSR 335: Lambda Expressions for the JavaTM Programming Language) houve transição do paradigma puramente imperativo para o paradigma funcional, permitindo que o código Java fosse mais conciso, legível e preparado para processamento paralelo.\nIII. O acesso a dados em Java pode ocorrer pelo uso de frameworks ORM (Object-Relational Mapping), como o Hibernate, sendo viabilizado de forma robusta pela API JDBC que provê a conectividade base, e evolui para uma gestão estruturada através da especificação Jakarta Persistence (JPA).\nEstá correto o que se afirma em",
+        "alternativas": [
+            "III, apenas.",
+            "I e II, apenas.",
+            "II e II, apenas.",
+            "I e III, apenas.",
+            "I, II e III."
+        ],
+        "gabarito": "I, II e III."
+    },
+    {
+        "id": 2,
+        "enunciado": "A Diretoria de Tecnologia da Informação está modernizando seu sistema de gestão de entregas. A equipe de desenvolvimento Java é responsável por implementar regras de negócio que validam, processam e classificam pedidos antes de enviá-los ao módulo de roteirização. No desenvolvimento do novo módulo de pré- processamento de pedidos, a equipe precisa escolher a estrutura de controle mais adequada para executar uma sequência de verificações até que o pedido seja considerado válido.\nAssinale a opção que representa corretamente uma estrutura de controle existente no Java e apropriada para implementar esse tipo de repetição condicional.",
+        "alternativas": [
+            "repeat...until.",
+            "loop...until.",
+            "while.",
+            "forEach(condition).",
+            "switch(condition == true)."
+        ],
+        "gabarito": "while."
+    },
+    {
+        "id": 3,
+        "enunciado": "Considere as características fundamentais da linguagem Java e seus recursos no desenvolvimento de aplicações. Com base nos conceitos básicos de orientação a objetos, em relação ao uso de classes e objetos no Java, assinale a afirmativa correta.",
+        "alternativas": [
+            "Em Java, uma classe pode ser instanciada apenas se tiver um construtor público ou um construtor com especificadores de acesso adequados.",
+            "O modificador public impede que um método ou variável de instância seja acessado fora da sua própria classe.",
+            "Uma classe semi-abstrata não pode ser instanciada diretamente, mas pode conter métodos implementados e não implementados.",
+            "O conceito de polimorfismo permite que um objeto se comporte de forma diferente dependendo do tipo da referência usada para acessá-lo.",
+            "O uso da palavra-chave super é utilizado para acessar membros da classe pai em classes que herdam de outra classe."
+        ],
+        "gabarito": "O uso da palavra-chave super é utilizado para acessar membros da classe pai em classes que herdam de outra classe."
+    },
+    {
+        "id": 4,
+        "enunciado": "Um desenvolvedor está criando um módulo Java para validar se a área de um lote é maior que 1000 m². Ele usa uma variável area do tipo double.\nA opção que representa corretamente o teste condicional em Java é",
+        "alternativas": [
+            "if area > 1000 { }.",
+            "if (area > { }.",
+            "if area >= 1000 then {}.",
+            "if (area >=.",
+            "if area => 1000 { }."
+        ],
+        "gabarito": "if (area > { }."
+    },
+    {
+        "id": 5,
+        "enunciado": "O desenvolvedor José implementou a classe CGEPrincipal em Java 17. A fim de tornar a implementação mais aderente ao modelo de domínio, José restringiu a herança da classe na declaração, especificando que a CGEPrincipal poderia ser herdada apenas pelas classes CGEUm e CGEDois.\nPara restringir a herança na declaração da classe CGEPrincipal, José utilizou a funcionalidade do Java 17:",
+        "alternativas": [
+            "reflection;",
+            "static class;",
+            "sealed class;",
+            "foreign function;",
+            "pattern matching."
+        ],
+        "gabarito": "sealed class;"
+    },
+    {
+        "id": 6,
+        "enunciado": "Considere o seguinte código em Java:\nMap<String, String> cidades = Map.of(\"11\",\"Amapá\",\"13\",\"Itaubal\",\"15\",\"Cutias\");\nString texto = cidades.entrySet().stream().sorted(\n(e1, e-> e1.getKey().compareTo(e2.getKey())).map(e-> Arrays.asList(e.getKey(), e.getValue())).map(e-> String.join(\", \",\ne)).collect(Collectors.joining(\": \"));\nSystem.out.println(texto);\nAo ser executado com as importações necessárias, o código Java acima imprime na saída padrão:",
+        "alternativas": [
+            "Cutias: 15, Amapá: 11, Itaubal: 13.",
+            "Amapá: 11, Cutias: 15, Itaubal: 13.",
+            "11, Amapá: 13, Itaubal: 15, Cutias.",
+            "11: Amapá, 13: Itaubal, 15: Cutias.",
+            "15: Cutias, 13: Itaubal, 11: Amapá."
+        ],
+        "gabarito": "11, Amapá: 13, Itaubal: 15, Cutias."
+    },
+    {
+        "id": 7,
+        "enunciado": "O paradigma funcional, evidenciado na linguagem LISP, criada em 1958, voltou com muita força atualmente, sendo incluído em diversas linguagens, como o Java.\nConsidere o trecho de código apresentado a seguir.\nList<String> lista = Arrays.asList(\"UM\",\"DOIS\",\"TRES\");\nfor(int i=0; i<lista.size(); i++){ System.out.println(lista.get(i));\n} Para utilizar o paradigma funcional, o loop para apresentação dos valores deve ser reescrito da seguinte forma:",
+        "alternativas": [
+            "for(String s: lista){ System.out.println(s); }",
+            "for (Iterator<String> it = lista.iterator(); it.hasNext( );) { System.out.println(it.next()); }",
+            "lista.forEach(s -> { System.out.println(s); });",
+            "Iterator<String> it = lista.iterator(); while(it.hasNext()) { System.out.println(it.next()); }",
+            "for(var s: lista){ System.out.println(s); }"
+        ],
+        "gabarito": "lista.forEach(s -> { System.out.println(s); });"
+    },
+    {
+        "id": 8,
+        "enunciado": "Analise o script Java a seguir.\npublic class HelloJEE { public static void main(String[] args) { System.out.println(\"JEE v8 & JDK 17: \" + sum(5, );\n} static int sum(int a, int\nb) { return a + b;\n} } Ao executar o script acima, a saída no console será",
+        "alternativas": [
+            "JEE v8 & JDK 17: 5.",
+            "JEE v8 & JDK 17: 3.",
+            "JEE v8 & JDK 17: 8.",
+            "JEE v8 & JDK 17.",
+            "Erro de compilação."
+        ],
+        "gabarito": "JEE v8 & JDK 17: 8."
+    },
+    {
+        "id": 9,
+        "enunciado": "O analista Anderson foi incumbido de introduzir o suporte a paralelismo na aplicação Java NetTRF. Conforme documentação do Java Development Kit usado na NetTRF, Anderson pode implementar threads virtuais ou threads de plataforma. Enquanto um tipo de thread é escalonado diretamente pelo sistema operacional (SO), o outro é escalonado pelo próprio Java runtime (JRE). Para fins de simplicidade, o analista deve escolher apenas um tipo de thread. Na NetTRF, cada thread deve ter uma pilha de chamadas de baixa profundidade.\nPara permitir o maior número possível de threads na NetTRF, dadas as condições, Anderson deve implementar threads:",
+        "alternativas": [
+            "virtuais, pois as threads de plataforma não possuem pilha de chamadas própria;",
+            "de plataforma, pois as threads virtuais não possuem pilha de chamadas própria;",
+            "virtuais, pois são escalonadas pelo JRE de forma a permitir um número maior de threads;",
+            "de plataforma, pois são escalonadas pelo JRE de forma a permitir um número maior de threads;",
+            "de plataforma, pois são escalonadas pelo SO de forma a permitir um número maior de threads."
+        ],
+        "gabarito": "virtuais, pois são escalonadas pelo JRE de forma a permitir um número maior de threads;"
+    },
+    {
+        "id": 10,
+        "enunciado": "Marcos está trabalhando em um projeto de sistemas em Java e quer garantir que o atributo de uma classe seja inicializado apenas uma vez e que seu valor não possa ser modificado posteriormente.\nNa linguagem de programação Java, esse atributo deve ser definido com o modificador",
+        "alternativas": [
+            "abstract.",
+            "default.",
+            "final.",
+            "native.",
+            "volatile."
+        ],
+        "gabarito": "final."
+    },
+    {
+        "id": 11,
+        "enunciado": "No contexto da manipulação de strings na linguagem Java, considere as seguintes operações numa hipotética string S.\n- obter o número de caracteres de S;\n- obter o caractere contido numa dada posição de S;\n- obter um trecho (substring) de S.\nOs seguintes métodos aplicáveis a strings podem, respectivamente, ser utilizados diretamente para suprir cada uma dessas operações:",
+        "alternativas": [
+            "len; left; mid.",
+            "len; mid; mid.",
+            "length; charAt; split.",
+            "length; charAt; substring.",
+            "length; pos; substring."
+        ],
+        "gabarito": "length; charAt; substring."
+    },
+    {
+        "id": 12,
+        "enunciado": "Portlets são fragmentos de conteúdo, contendo informações ou serviços, que podem ser combinados para a construção de um portal baseado em tecnologia Java Web. Uma característica da versão 3 dos portlets é que:",
+        "alternativas": [
+            "um portlet no modo VIEW pode ter seu comportamento customizado pelo usuário;",
+            "os portlets são unidades completamente independentes, que não podem atuar de forma colaborativa;",
+            "a anotação @InitMethod define um método para configurar a inicialização do portlet;",
+            "um portlet só aceita a definição de um método anotado com @ActionMethod;",
+            "para definir cabeçalhos do protocolo HTTP é necessário um método anotado com @RenderMethod."
+        ],
+        "gabarito": "a anotação @InitMethod define um método para configurar a inicialização do portlet;"
+    },
+    {
+        "id": 13,
+        "enunciado": "Observe as classes abaixo descritas na linguagem de programação Java.\npublic class DocumentoProcesso extends Object { private String docNumero;\nprivate int classificacao;\npublic DocumentoProcesso (String docNumero, int classificacao){ if (classificacao < throw new IllegalArgumentException ( \"A classificação do documento deve ser no mínimo 1.\");\nthis.docNumero = docNumero;\nthis.classificacao = classificacao;\n} public String getDocNumero() { return docNumero; } public int getClassificacao() { return classificacao; } public void setDocNumero(String docNumero) { this.docNumero = docNumero; } public void setClassificacao(int classificacao) { this.classificacao = classificacao; } public int promove() { return classificacao + 1; } } public class Oficio extends DocumentoProcesso { private int precedencia;\npublic Oficio (String docNumero, int classificacao, int precedencia) {super(docNumero,classificacao);\nthis.precedencia = precedencia; } public int getPrecedencia() { return precedencia; } public void setPrecedencia(int precedencia) { this.precedencia = precedencia; } @Override public int promove() { return precedencia + 1; } } Com base nos conceitos de orientação a objetos, é correto afirmar que:",
+        "alternativas": [
+            "os atributos private de DocumentoProcesso são acessíveis por Oficio;",
+            "a anotação @Override indica que o método promove() é abstrato e polimórfico;",
+            "a classe Oficio representa uma herança múltipla das classes DocumentoProcesso e Object;",
+            "a classe Oficio é composta pela classe DocumentoProcesso, permitindo que uma instância da classe Oficio faça referências a instâncias da classe DocumentoProcesso;",
+            "os métodos getDocNumero() e setDocNumero() da classe DocumentoProcesso encapsulam o atributo docNumero e asseguram que os objetos da classe mantenham estados consistentes."
+        ],
+        "gabarito": "os métodos getDocNumero() e setDocNumero() da classe DocumentoProcesso encapsulam o atributo docNumero e asseguram que os objetos da classe mantenham estados consistentes."
+    },
+    {
+        "id": 14,
+        "enunciado": "Com relação aos operadores bitwise do Java, considere os valores binários a = 00111100 b = 00001101 Os valores resultantes das operações a&b e a|b são, respectivamente,",
+        "alternativas": [
+            "00011100 e 11111101.",
+            "00001100 e 00111101.",
+            "00001111 e 00111111.",
+            "11001110 e 00001100.",
+            "01101100 e 00100101."
+        ],
+        "gabarito": "00001100 e 00111101."
+    },
+    {
+        "id": 15,
+        "enunciado": "No contexto da linguagem Java, considere um array definido como segue.\nString[] nomes = new String[100];\nAssinale a expressão cujo valor corresponde ao índice do último elemento do array nomes.",
+        "alternativas": [
+            "nomes.length.",
+            "nomes.length - 1.",
+            "nomes.size.",
+            "nomes.size + 1.",
+            "nomes.ubound."
+        ],
+        "gabarito": "nomes.length - 1."
+    },
+    {
+        "id": 16,
+        "enunciado": "A API de Streams do Java 8 introduziu uma nova forma de processar coleções de dados de maneira declarativa e, opcionalmente, paralela. Considere o seguinte trecho de código:\nList<Integer> numeros = Arrays.asList(1, 2, 3, 4, 5, ;\nint resultado = numeros.stream().filter(n -> n % 2 ==.mapToInt(n -> n *.sum();\nAssinale a opção que apresenta o valor da variável resultado, após a execução deste código.",
+        "alternativas": [
+            "12.",
+            "24.",
+            "42.",
+            "36.",
+            "18."
+        ],
+        "gabarito": "24."
+    },
+    {
+        "id": 17,
+        "enunciado": "O departamento de TI está desenvolvendo um sistema de gerenciamento de pedidos online. O sistema precisa implementar regras de negócios complexas que determinam o status do pedido com base em diferentes condições, como o valor do pedido, o tipo de cliente e a disponibilidade do produto. Durante uma reunião de planejamento, a equipe discutiu a implementação de estruturas de controle para lidar com essas lógicas.\nAssinale qual das seguintes implementações de estruturas de controle em Java determina corretamente o status de um pedido, considerando que um pedido deve ser considerado \"Aprovado\" se o total for maior que R$ 500,00 e o cliente for um cliente Vip, ou se o total for menor ou igual a R$ 500,00 e o produto estiver disponível.",
+        "alternativas": [
+            "if (total >= 500 && (cliente.isVip() || produto.isDisponivel())) status = \"Aprovado\"; else status = \"Reprovado\";",
+            "if (total < status = \"Reprovado\"; else if (cliente.isVip() && produto.isDisponivel()) status = \"Aprovado\"; else status = \"Reprovado\";",
+            "if (total == 500 && cliente.isVip()) status = \"Aprovado\"; else status = \"Reprovado\";",
+            "if (total <= 500 || cliente.isVip()) status = \"Aprovado\"; else if (produto.isDisponivel()) status = \"Aprovado\"; else status = \"Reprovado\";",
+            "if (total > 500 && cliente.isVip()) status = \"Aprovado\"; else if (total <= 500 && produto.isDisponivel()) status = \"Aprovado\"; else status = \"Reprovado\";"
+        ],
+        "gabarito": "if (total > 500 && cliente.isVip()) status = \"Aprovado\"; else if (total <= 500 && produto.isDisponivel()) status = \"Aprovado\"; else status = \"Reprovado\";"
+    },
+    {
+        "id": 18,
+        "enunciado": "Considere o código em Java a seguir.\npackage com.mpu.questao;\npublic sealed class MPU { } final class MPF extends MPU { } sealed class MPM extends MPU { } final class MPDFT extends MPU { } non-sealed class MPT extends MPU { } O código acima possui um erro, pois a classe:",
+        "alternativas": [
+            "MPU, sendo sealed, omitiu a cláusula permits;",
+            "MPF, sendo final, não pode estender a classe MPU, que é sealed;",
+            "MPM, sendo sealed, não definiu nenhuma subclasse permitida;",
+            "MPT, sendo non-sealed, não pode estender a classe MPU, que é sealed;",
+            "MPDFT, sendo final, não pode ser declarada após a classe MPM, de escopo protected."
+        ],
+        "gabarito": "MPM, sendo sealed, não definiu nenhuma subclasse permitida;"
+    },
+    {
+        "id": 19,
+        "enunciado": "Analise o código JAVA exibido a seguir.\npublic class EV { public static void main(String[] args) { mpR(265.7/;\n} public static void mpR(double points) { if (points >= 265.{ System.out.println(\"A1\");\n} else if (points >= 132.{ System.out.println(\"A2\");\n} else if (points >= 62.{ System.out.println(\"A3\");\n} else if (points >= 30.{ System.out.println(\"A4\");\n} else { System.out.println(\"A5\");\n} } } Ao executar o código, o resultado impresso é",
+        "alternativas": [
+            "A1.",
+            "A2.",
+            "A3.",
+            "A4.",
+            "A5."
+        ],
+        "gabarito": "A3."
+    },
+    {
+        "id": 20,
+        "enunciado": "Observe o seguinte código Java reutilizado em todos os Sistemas de Informação do MPU.\npublic class Main { String orgao = \"MPU\";\npublic static void main(String[] args) { Main myObj = new Main();\nmyObj.orgao = \"MMPPUU\";\nSystem.out.println(myObj.orgao);\n} } No Java, para garantir que nenhum comando altere o valor do atributo orgao da classe Main durante a execução do programa, deve-se declarar o atributo orgao como:",
+        "alternativas": [
+            "final.",
+            "static.",
+            "private.",
+            "abstract.",
+            "protected."
+        ],
+        "gabarito": "final."
+    },
+    {
+        "id": 21,
+        "enunciado": "Analise o código Java a seguir.\npublic class Main { public static void main(String[] args) { System.out.println(x);\nint x = 100;\n} } Quando esse código é executado:",
+        "alternativas": [
+            "“null” é exibido;",
+            "“undefined” é exibido;",
+            "o valor 100 é exibido;",
+            "ocorre um erro de símbolo não encontrado;",
+            "ocorre um erro de variável não inicializada."
+        ],
+        "gabarito": "ocorre um erro de símbolo não encontrado;"
+    },
+    {
+        "id": 22,
+        "enunciado": "Analise o código Java a seguir, no qual foi ocultada a segunda linha de código.\nabstract class X { --- public void exibe() { System.out.println(\"Concluído\");\n} } class Z extends X { public void X1(String P) { System.out.println(P);\n} } class Main { public static void main(String[ ] args) { Z objZ = new Z( );\nobjZ.X1(\"OK\");\nobjZ.exibe( );\n} } O trecho que substitui corretamente a linha tracejada é:",
+        "alternativas": [
+            "public abstract void X1(String P);",
+            "public static void X1(String P);",
+            "public String X1(String P);",
+            "public void X1(String P);",
+            "public X1(String P);"
+        ],
+        "gabarito": "public abstract void X1(String P);"
+    },
+    {
+        "id": 23,
+        "enunciado": "O trecho código a seguir mostra um trecho de um sistema de biblioteca digital feita em JAVA e também o código de testes unitários com JUnit para as funções de inserção e remoção.\npublic class Livro {..\n...\npublic class Biblioteca { private List<Livro> livros = new ArrayList<>();\npublic void adicionarLivro(Livro livro) {..\npublic boolean removerLivro(Livro livro) {..\npublic List<Livro> getLivros() {..\n...\npublic class BibliotecaTest { private Biblioteca biblioteca;\nprivate Livro livro1, livro2;\n@Before public void setUp() { biblioteca = new Biblioteca();\nlivro1 = new Livro(\"Dom Casmurro\");\nlivro2 = new Livro(\"O Pequeno Príncipe\");\n} @Test public void testLista() { biblioteca.adicionarLivro(livro;\nassertEquals(1, biblioteca.getLivros().size());\nbiblioteca.removerLivro(livro;\nassertTrue(biblioteca.getLivros().isEmpty());\n} } Considerando que a lista de livros da biblioteca esteja vazia, o código de execução de testes unitários testLista garante que a lista de livros",
+        "alternativas": [
+            "fica vazia mesmo após inserção.",
+            "volta a ser vazia após inserção e remoção.",
+            "não gera erro ao remover um livro que não existe.",
+            "não remove o livro após ser inserido.",
+            "tem um conteúdo incerto que não pode ser determinado."
+        ],
+        "gabarito": "volta a ser vazia após inserção e remoção."
+    },
+    {
+        "id": 24,
+        "enunciado": "Considere o seguinte código em Java:\npublic static void main(String[] args) throws MalformedURLException { URL url = new URL(“https://bloco13:trib@”+ ”www.tjms.jus.br/ws?id=0#A\");\nString s1 = url.getRef(), s2 = url.getUserInfo(), s3 = url.getQuery(), s4 = url.getFile();\nArrays.asList(s1,s2,s3,s.stream().map(s->s.concat(\";\")).forEach(System.out::print);\n} Ao ser executado com as importações necessárias, o código acima imprime na saída padrão:",
+        "alternativas": [
+            "Exception;",
+            "A;bloco13;id=0;null;",
+            "null;bloco13:trib;id=0#A;null;",
+            "A;bloco13:trib;id=0;/ws?id=0;",
+            "null;bloco13;id=0#A;/ws?id=0#A;"
+        ],
+        "gabarito": "A;bloco13:trib;id=0;/ws?id=0;"
+    },
+    {
+        "id": 25,
+        "enunciado": "Analise o trecho de código Java a seguir.\nint x = 5;\nx <<= 2;\nO valor final da variável x deve ser:",
+        "alternativas": [
+            "0;",
+            "1;",
+            "20;",
+            "25;",
+            "125."
+        ],
+        "gabarito": "20;"
+    },
+    {
+        "id": 26,
+        "enunciado": "Analise o código Java apresentado a seguir.\npublic class Main extends Thread { public static void main(String[] args) { Main thread = new Main();\nthread.start();\nfor (int k=1; k<=5; k++) { System.out.println(\"A\" + k);\ntry { Thread.sleep(1; } catch (InterruptedException ex) {} } } public void run() { for (int k=1; k<=5; k++) { try { Thread.sleep(7;} catch (InterruptedException ex) {} System.out.println(\"B\" + k);\n} } } Quando esse código é executado num computador com boa capacidade e sem interferência de processos externos, os valores exibidos, na ordem, são:",
+        "alternativas": [
+            "A1 A2 A3 A4 A5 B1 B2 B3 B4 B5.",
+            "A1 B1 A2 B2 A3 B3 A4 B4 A5 B5.",
+            "A1 B1 A2 B2 B3 A3 B4 A4 B5 A5.",
+            "B1 A1 B2 A2 B3 A3 B4 A4 B5 A5.",
+            "B1 B2 B3 B4 B5 A1 A2 A3 A4 A5."
+        ],
+        "gabarito": "A1 B1 A2 B2 B3 A3 B4 A4 B5 A5."
+    },
+    {
+        "id": 27,
+        "enunciado": "Analise o código Java a seguir.\npublic class Main { public static void main(String[] args) { for (int i = 0; i <= 10; i++) { if (i == { break;\n} else if (i % 2 == { continue;\n} System.out.println(i);\n} } } A quantidade de valores que são exibidos na execução desse código é igual a",
+        "alternativas": [
+            "0.",
+            "2.",
+            "3.",
+            "5.",
+            "9."
+        ],
+        "gabarito": "2."
+    },
+    {
+        "id": 28,
+        "enunciado": "Observe o trecho de código a seguir.\n1 import java.io.*;\n2\n3 interface Segunda { public void segunda();}\n4 interface Terca { public void terca();}\n5 interface Quarta extends Segunda, Terca { public void quarta();} 6 7 class Quinta implements Segunda { 8 public void segunda(){System.out.println(\"Segunda\");} 9 } 10 11 class Sexta extends Quinta implements Quarta { 12 public void segunda(){System.out.println(\"Segunda!\");} 13 public void terca(){System.out.println(\"Segunda!!\");} 14 public void quarta(){System.out.println(\"Segunda!!!\");} 15 } 16 17 public class teste 18 { 19 public static void main( String[] args ) 20 { 21 Quinta dia = (Quinta) new Sexta();\n22 dia.segunda();\n23 } 24 } A saída produzida pela execução do código é:",
+        "alternativas": [
+            "Erro de compilação na linha 5.",
+            "Segunda.",
+            "Segunda!.",
+            "Segunda!!.",
+            "Segunda!!!."
+        ],
+        "gabarito": "Segunda!."
+    },
+    {
+        "id": 29,
+        "enunciado": "Considere o código Java a seguir.\npublic class Main { public static void main(String[] args) { int k = 0;\nwhile (k < { k++;\nif (k == { break;\n} else if (k % 2 == { continue;\n} System.out.println(k);\n} } } Assinale a lista de números exibidos na execução desse código.",
+        "alternativas": [
+            "1 3.",
+            "1 2 3.",
+            "1 2 3 4.",
+            "1 3 5 7.",
+            "1 3 5 7 9."
+        ],
+        "gabarito": "1 3."
+    },
+    {
+        "id": 30,
+        "enunciado": "Analise o código a seguir em linguagem de programação Java:\nAo executar esse programa em um terminal, será escrito na saída padrão:",
+        "alternativas": [
+            "x = 2.",
+            "x = 3.",
+            "x = 4.",
+            "x = 5.",
+            "x = 6."
+        ],
+        "gabarito": "x = 6."
+    }
+]

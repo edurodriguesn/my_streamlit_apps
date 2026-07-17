@@ -89,29 +89,44 @@ else:
             else:
                 st.error("Nenhum arquivo `.json` encontrado dentro da pasta Simulado.")
 
-    # --- Código Original Mantido ---
-    subpastas = [f for f in os.listdir(PASTA_RAIZ) if os.path.isdir(os.path.join(PASTA_RAIZ, f))]
-    
-    if not subpastas:
-        st.warning(f"Nenhuma subpasta encontrada dentro de `{PASTA_RAIZ}`.")
-    else:
-        subpasta_sel = st.selectbox("Selecione a disciplina/pasta:", ["Selecione..."] + subpastas)
-        
-        if subpasta_sel != "Selecione...":
-            # Se o usuário mexer no selectbox, limpamos o estado do botão para priorizar a nova escolha
+    # --- Coletar todos os arquivos para pesquisa ---
+    todos_arquivos = []
+    for raiz, _, nomes in os.walk(PASTA_RAIZ):
+        for nome in nomes:
+            if nome.endswith((".pdf", ".json")):
+                caminho_completo = os.path.join(raiz, nome)
+                label = os.path.relpath(caminho_completo, PASTA_RAIZ)
+                todos_arquivos.append((label, caminho_completo))
+
+    aba_pastas, aba_busca = st.tabs(["📁 Navegar por pastas", "🔍 Pesquisar"])
+
+    with aba_pastas:
+        subpastas = [f for f in os.listdir(PASTA_RAIZ) if os.path.isdir(os.path.join(PASTA_RAIZ, f))]
+        if not subpastas:
+            st.warning(f"Nenhuma subpasta encontrada dentro de `{PASTA_RAIZ}`.")
+        else:
+            subpasta_sel = st.selectbox("Selecione a disciplina/pasta:", ["Selecione..."] + subpastas)
+            if subpasta_sel != "Selecione...":
+                if "arquivo_simulado_ativo" in st.session_state:
+                    del st.session_state.arquivo_simulado_ativo
+                caminho_subpasta = os.path.join(PASTA_RAIZ, subpasta_sel)
+                arquivos = [f for f in os.listdir(caminho_subpasta) if f.endswith((".pdf", ".json"))]
+                if not arquivos:
+                    st.warning("Nenhum arquivo PDF ou JSON encontrado nesta pasta.")
+                else:
+                    arquivo_sel = st.selectbox("Selecione o arquivo de questões:", ["Selecione..."] + arquivos)
+                    if arquivo_sel != "Selecione...":
+                        arquivo_local_selecionado = os.path.join(caminho_subpasta, arquivo_sel)
+
+    with aba_busca:
+        st.caption("Digite no campo abaixo para filtrar — o seletor já tem busca nativa.")
+        opcoes = ["Selecione..."] + [label for label, _ in todos_arquivos]
+        sel_label = st.selectbox("Simulados disponíveis:", opcoes)
+        if sel_label != "Selecione...":
+            sel_path = next(path for label, path in todos_arquivos if label == sel_label)
             if "arquivo_simulado_ativo" in st.session_state:
                 del st.session_state.arquivo_simulado_ativo
-                
-            caminho_subpasta = os.path.join(PASTA_RAIZ, subpasta_sel)
-            # Listar PDFs e JSONs
-            arquivos = [f for f in os.listdir(caminho_subpasta) if f.endswith((".pdf", ".json"))]
-            
-            if not arquivos:
-                st.warning("Nenhum arquivo PDF ou JSON encontrado nesta pasta.")
-            else:
-                arquivo_sel = st.selectbox("Selecione o arquivo de questões:", ["Selecione..."] + arquivos)
-                if arquivo_sel != "Selecione...":
-                    arquivo_local_selecionado = os.path.join(caminho_subpasta, arquivo_sel)
+            arquivo_local_selecionado = sel_path
 
     # --- 2. Definição final da variável arquivo_local_selecionado ---
     # Se o botão do simulado foi clicado, ele assume o valor da variável principal

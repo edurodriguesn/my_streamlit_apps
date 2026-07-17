@@ -103,8 +103,20 @@ def _collapse_blank_lines(code: str) -> str:
     return re.sub(r'\n{3,}', '\n\n', code)
 
 
+def _is_numbered_list(code: str) -> bool:
+    """Retorna True se a maioria das linhas não-vazias começa com número sequencial (1. 2. ...)."""
+    lines = [l.strip() for l in code.strip().split('\n') if l.strip()]
+    if len(lines) < 2:
+        return False
+    numbered = sum(1 for l in lines if re.match(r'^\d+[.)\-]', l))
+    return numbered / len(lines) >= 0.5
+
+
 def _render_code_block(code: str) -> str:
-    code = _normalize_code(code.strip('\n'))
+    code = code.strip('\n')
+    if _is_numbered_list(code):
+        return f'<div class="code-block">{_esc(code)}</div>'
+    code = _normalize_code(code)
     code = _collapse_blank_lines(code)
     code = _indent_code(code)
     return f'<div class="code-block">{_esc(code)}</div>'

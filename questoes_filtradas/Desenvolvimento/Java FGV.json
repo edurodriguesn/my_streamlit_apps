@@ -313,7 +313,7 @@
     },
     {
         "id": 27,
-        "enunciado": "Analise o código Java a seguir.\n>'''public class Main { public static void main(String[] args) { for (int i = 0; i <= 10; i++) { if (i == { break;\n} else if (i % 2 == { continue;\n} System.out.println(i);\n} } }'''<\nA quantidade de valores que são exibidos na execução desse código é igual a",
+        "enunciado": "Analise o código Java a seguir.\n>'''public class Main { public static void main(String[] args) { for (int i = 0; i <= 10; i++) { if (i == 4) { break;\n} else if (i % 2 == 0) { continue;\n} System.out.println(i);\n} } }'''<\nA quantidade de valores que são exibidos na execução desse código é igual a",
         "alternativas": [
             "0.",
             "2.",
@@ -325,7 +325,7 @@
     },
     {
         "id": 28,
-        "enunciado": "Observe o trecho de código a seguir.\n>'''1 import java.io.*;\n2\n3 interface Segunda { public void segunda();}\n4 interface Terca { public void terca();}\n5 interface Quarta extends Segunda, Terca { public void quarta();} 6 7 class Quinta implements Segunda { 8 public void segunda(){System.out.println(\"Segunda\");} 9 } 10 11 class Sexta extends Quinta implements Quarta { 12 public void segunda(){System.out.println(\"Segunda!\");} 13 public void terca(){System.out.println(\"Segunda!!\");} 14 public void quarta(){System.out.println(\"Segunda!!!\");} 15 } 16 17 public class teste 18 { 19 public static void main( String[] args ) 20 { 21 Quinta dia = (Quinta) new Sexta();\n22 dia.segunda();\n23 } 24 }'''<\nA saída produzida pela execução do código é:",
+        "enunciado": "Observe o trecho de código a seguir.\n>'''1 import java.io.*;\n2\n3 interface Segunda { public void segunda();}\n4 interface Terca { public void terca();}\n5 interface Quarta extends Segunda, Terca { public void quarta();}\n6\n7 class Quinta implements Segunda {\n8 public void segunda(){System.out.println(\"Segunda\");}\n9 }\n10\n11 class Sexta extends Quinta implements Quarta {\n12 public void segunda(){System.out.println(\"Segunda!\");}\n13 public void terca(){System.out.println(\"Segunda!!\");}\n14 public void quarta(){System.out.println(\"Segunda!!!\");}\n15 }\n16\n17 public class teste\n18 {\n19 public static void main( String[] args )\n20 {\n21 Quinta dia = (Quinta) new Sexta();\n22 dia.segunda();\n23 }\n24 }'''<\nA saída produzida pela execução do código é:",
         "alternativas": [
             "Erro de compilação na linha 5.",
             "Segunda.",
@@ -337,7 +337,7 @@
     },
     {
         "id": 29,
-        "enunciado": "Considere o código Java a seguir.\n>'''public class Main { public static void main(String[] args) { int k = 0;\nwhile (k < { k++;\nif (k == { break;\n} else if (k % 2 == { continue;\n} System.out.println(k);\n} } }'''<\nAssinale a lista de números exibidos na execução desse código.",
+        "enunciado": "Considere o código Java a seguir.\n>'''public class Main { public static void main(String[] args) { int k = 0;\nwhile (k < 9) { k++;\nif (k == 4) { break;\n} else if (k % 2 == 0) { continue;\n} System.out.println(k);\n} } }'''<\nAssinale a lista de números exibidos na execução desse código.",
         "alternativas": [
             "1 3.",
             "1 2 3.",

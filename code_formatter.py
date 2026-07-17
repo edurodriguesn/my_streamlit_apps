@@ -34,12 +34,14 @@ def _normalize_code(code: str) -> str:
         ch = code[i]
 
         if ch == '}':
-            # Garante \n antes de }
-            if result and result[-1] != '\n':
+            # Garante \n antes de } (sem duplicar)
+            trailing = ''.join(result).rstrip(' ')
+            if trailing and trailing[-1] != '\n':
                 result.append('\n')
             result.append('}')
-            # Garante \n depois de }
-            if i + 1 < n and code[i + 1] != '\n':
+            # Garante \n depois de } (sem duplicar)
+            rest_after = code[i+1:].lstrip(' ')
+            if rest_after and rest_after[0] != '\n':
                 result.append('\n')
             i += 1
             continue
@@ -96,8 +98,14 @@ def _esc(text: str) -> str:
     return text.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
 
 
+def _collapse_blank_lines(code: str) -> str:
+    """Remove linhas em branco duplicadas consecutivas."""
+    return re.sub(r'\n{3,}', '\n\n', code)
+
+
 def _render_code_block(code: str) -> str:
     code = _normalize_code(code.strip('\n'))
+    code = _collapse_blank_lines(code)
     code = _indent_code(code)
     return f'<div class="code-block">{_esc(code)}</div>'
 

@@ -19,8 +19,10 @@ _CSS = """
 """
 
 
+_NO_BREAK_AFTER = frozenset('"\')]};,&')
+
 def _normalize_code(code: str) -> str:
-    """Insere \n após { ou ; quando não há \n nos próximos 2 caracteres."""
+    """Insere \n após { ou ; apenas quando o próximo char visível não é fechamento/aspas."""
     result = []
     i = 0
     n = len(code)
@@ -28,9 +30,9 @@ def _normalize_code(code: str) -> str:
         ch = code[i]
         result.append(ch)
         if ch in ('{', ';'):
-            # Verifica se há \n nos próximos 2 chars
             lookahead = code[i+1:i+3]
-            if '\n' not in lookahead:
+            next_visible = lookahead.lstrip(' ')
+            if '\n' not in lookahead and (not next_visible or next_visible[0] not in _NO_BREAK_AFTER):
                 result.append('\n')
         i += 1
     return ''.join(result)

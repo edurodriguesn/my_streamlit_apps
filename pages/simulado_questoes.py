@@ -7,8 +7,10 @@ import json
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from extrator_questoes import processar_pdf
+from code_formatter import format_enunciado, get_css
 
 st.set_page_config(page_title="Simulado de Questões", layout="centered")
+st.markdown(get_css(), unsafe_allow_html=True)
 
 # CSS para colorir alternativas
 # CSS para colorir alternativas e garantir texto preto no destaque
@@ -245,7 +247,11 @@ with col_ir:
         st.rerun()
 if q.get("assunto"):
     st.caption(f"📚 Assunto: {q['assunto']}")
-st.markdown(escape_markdown(q["enunciado"]))
+enunciado_html, tem_codigo = format_enunciado(q["enunciado"])
+if tem_codigo:
+    st.markdown(enunciado_html, unsafe_allow_html=True)
+else:
+    st.markdown(escape_markdown(q["enunciado"]))
 
 ja_respondida = qid in st.session_state.respondidas
 mostrar_gab = st.session_state.mostrar_gabarito.get(qid, False)

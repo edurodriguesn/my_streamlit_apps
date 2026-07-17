@@ -61,7 +61,7 @@
     },
     {
         "id": 6,
-        "enunciado": "Considere o seguinte código em Java:\nMap<String, String> cidades = Map.of(\"11\",\"Amapá\",\"13\",\"Itaubal\",\"15\",\"Cutias\");\nString texto = cidades.entrySet().stream().sorted(\n(e1, e-> e1.getKey().compareTo(e2.getKey())).map(e-> Arrays.asList(e.getKey(), e.getValue())).map(e-> String.join(\", \",\ne)).collect(Collectors.joining(\": \"));\nSystem.out.println(texto);\nAo ser executado com as importações necessárias, o código Java acima imprime na saída padrão:",
+        "enunciado": "Considere o seguinte código em Java:\n>'''Map<String, String> cidades = Map.of(\"11\",\"Amapá\",\"13\",\"Itaubal\",\"15\",\"Cutias\");\nString texto = cidades.entrySet().stream().sorted(\n(e1, e-> e1.getKey().compareTo(e2.getKey())).map(e-> Arrays.asList(e.getKey(), e.getValue())).map(e-> String.join(\", \",\ne)).collect(Collectors.joining(\": \"));\nSystem.out.println(texto);'''<\nAo ser executado com as importações necessárias, o código Java acima imprime na saída padrão:",
         "alternativas": [
             "Cutias: 15, Amapá: 11, Itaubal: 13.",
             "Amapá: 11, Cutias: 15, Itaubal: 13.",

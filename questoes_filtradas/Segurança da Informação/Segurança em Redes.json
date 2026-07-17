@@ -1,0 +1,1249 @@
+[
+    {
+        "id": 1,
+        "enunciado": "Há muitos tipos de firewalls que são categorizados de diversas formas. Correlacione os tipos de firewall listados a seguir às respectivas descrições.\n1. Firewall de rede.\n2. Firewall baseado em host.\n3. Firewall de perímetro.\n4. Firewall de próxima geração.\n( ) Este tipo de firewall é um programa que opera em um único dispositivo dentro de uma rede. Ele é instalado diretamente em computadores ou dispositivos individuais, oferecendo uma camada específica de proteção contra possíveis ameaças. Ao examinar o tráfego de entrada e saída desse dispositivo específico, ele filtra efetivamente o conteúdo nocivo, garantindo que malware, vírus e outras atividades mal- intencionadas não se infiltrem no sistema.\n( ) Este tipo de firewall amplia os recursos dos firewalls tradicionais, oferecendo soluções de segurança mais abrangentes. Diferentemente de seus antecessores, que se concentravam principalmente na inspeção de estado, esse tipo de firewall oferece recursos aprimorados para entender e controlar o tráfego de aplicativos, integrar mecanismos de prevenção contra ameaças e utilizar a inteligência de ameaças com base na nuvem. Além do controle de acesso, são capazes de enfrentar desafios modernos, como malware avançado e ataques sofisticados à camada de aplicativos.\n( ) Este tipo de firewall estabelece o limite entre uma rede privada e o domínio público da Internet. Funcionando como a defesa principal, esse tipo de firewall inspeciona meticulosamente cada byte de dados que tenta passar por ele. Isso protege a rede privada de dados injustificados e potencialmente prejudiciais. Uma função importante desse tipo de firewall envolve diferenciar e, posteriormente, permitir ou proibir o tráfego com base em parâmetros predefinidos, garantindo que somente os dados legítimos e seguros tenham acesso.\n( ) Este tipo de firewall está posicionado na junção entre redes confiáveis e não confiáveis, como sistemas internos e a Internet. Sua função principal é monitorar, controlar e decidir sobre a validade do tráfego de entrada e saída com base em um conjunto predefinido de regras. Essas regras foram criadas para impedir o acesso não autorizado e manter a integridade da rede. A função operacional desse tipo de firewall está em sua capacidade de examinar cada pacote de dados. Ao comparar os atributos dos pacotes, como endereços IP de origem e destino, protocolo e números de porta, com as regras estabelecidas, ele bloqueia com eficácia as possíveis ameaças ou o fluxo de dados indesejados.\nAssinale a opção que indica a relação correta, segundo a ordem apresentada.",
+        "alternativas": [
+            "1 – 3 – 2 – 4.",
+            "3 – 1 – 4 – 2.",
+            "2 – 4 – 3 – 1.",
+            "4 – 3 – 1 – 2.",
+            "3 – 2 – 1 – 4."
+        ],
+        "gabarito": "2 – 4 – 3 – 1."
+    },
+    {
+        "id": 2,
+        "enunciado": "Uma equipe de analistas do TJRJ foi encarregada de aumentar o nível de proteção da rede 2 e, se possível, aprimorar sua gestão. Na rede 2, todas as aplicações web são hospedadas em servidores locais. Após uma análise detalhada, a equipe propôs a implementação de uma zona desmilitarizada (DMZ) na rede 2. As aplicações web voltadas ao público externo seriam movidas para a DMZ, enquanto os dados locais usados pelas aplicações permaneceriam fora dessa zona. Em sua análise, a equipe levou em consideração os princípios de defesa em profundidade e do menor privilégio.\nO objetivo da DMZ no cenário apresentado é:",
+        "alternativas": [
+            "diminuir a dependência de firewalls;",
+            "simplificar o nível de segmentação da rede;",
+            "criar uma rede interna segura para as aplicações web;",
+            "isolar completamente os servidores locais da internet;",
+            "atuar como uma camada adicional de segurança da rede."
+        ],
+        "gabarito": "atuar como uma camada adicional de segurança da rede."
+    },
+    {
+        "id": 3,
+        "enunciado": "No contexto da modernização das políticas de segurança da informação, a Assembleia Legislativa estabelece a necessidade de mecanismos capazes de filtrar o tráfego de rede não apenas com base em endereços IP e portas, mas também considerando o conteúdo dos pacotes, a identidade do usuário e o controle de aplicações específicas, como redes sociais e serviços de streaming, especialmente durante o expediente.\nDiante desse cenário, assinale a alternativa que apresenta o tipo de dispositivo de segurança mais indicado para realizar inspeção profunda de pacotes (Deep Packet Inspection – DPI) e o controle de aplicações, atendendo aos requisitos de proteçã{o nas camadas 4 a 7 do modelo OSI.",
+        "alternativas": [
+            "Firewall de Próxima Geração (NGFW).",
+            "Network Address Translation (NAT).",
+            "Intrusion Detection System (IDS) baseado em host.",
+            "Proxy Reverso.",
+            "Web Application Firewall (WAF)."
+        ],
+        "gabarito": "Firewall de Próxima Geração (NGFW)."
+    },
+    {
+        "id": 4,
+        "enunciado": "Com o objetivo de centralizar o controle das conexões de saída da rede, a Assembleia pretende adotar uma solução capaz de intermediar o acesso dos usuários internos à Internet, permitindo a aplicação de políticas detalhadas de filtragem de conteúdo, a otimização do uso de banda por meio do armazenamento em cache de páginas web e, de forma opcional, a preservação do anonimato dos usuários internos.\nNesse contexto, assinale a alternativa que identifica o dispositivo de segurança que atua como intermediário entre o cliente interno e o servidor externo, sendo apto a realizar as funcionalidades descritas.",
+        "alternativas": [
+            "Web Application Firewall (WAF).",
+            "Proxy Server.",
+            "Intrusion Prevention System (IPS).",
+            "Network Address Translation (NAT).",
+            "Gateway padrão."
+        ],
+        "gabarito": "Proxy Server."
+    },
+    {
+        "id": 5,
+        "enunciado": "No contexto de gestão de redes, os firewalls desempenham um papel essencial na segurança, controlando o tráfego de entrada e saída com base em um conjunto de regras de segurança pré- definidas. Os Next-Generation Firewalls (NGFWs), em particular, oferecem funcionalidades avançadas que vão além dos firewalls tradicionais.\nNesse sentido, comparando a um firewall tradicional, assinale a opção que apresenta funcionalidades exclusivas e avançadas de um firewall de próxima geração (NGFW).",
+        "alternativas": [
+            "Monitorar a largura de banda utilizada e limitar a velocidade de conexão para garantir qualidade de serviço.",
+            "Monitorar o tráfego de rede e realizar logging de eventos, permitindo auditoria e análise das atividades de rede.",
+            "Implementar regras de tradução de endereços de rede (NAT) que permitem que múltiplos dispositivos internos acessem a Internet usando um único endereço IP público.",
+            "Fornecer conectividade VPN segura para acesso remoto de usuários externos à rede corporativa, garantindo comunicação segura entre os dispositivos e a rede interna.",
+            "Detectar e bloquear intrusões e ataques direcionados por meio da análise profunda de pacotes e assinatura de ameaças conhecidas, além de aplicar políticas de segurança baseadas em aplicações, usuários e conteúdo."
+        ],
+        "gabarito": "Detectar e bloquear intrusões e ataques direcionados por meio da análise profunda de pacotes e assinatura de ameaças conhecidas, além de aplicar políticas de segurança baseadas em aplicações, usuários e conteúdo."
+    },
+    {
+        "id": 6,
+        "enunciado": "Um dispositivo de segurança de rede (firewall) controla o acesso à internet de uma empresa. Nessa empresa é permitido que os dispositivos de seus funcionários acessem conteúdos disponíveis na internet utilizando os protocolos/sistemas HTTP, HTTPS, DNS e FTP. As regras garantem o trânsito dos pacotes conforme os protocolos e portas permitidos, respeitando o comportamento padrão das comunicações (requisições e respostas).\nNesse sentido, analise as informações de quatro pacotes capturados nesse equipamento apresentadas abaixo.\nPorta Porta Rede de IP/Rede Protocolo Nr de de Origem Destino TCP/UDP Origem Destino\nI Empresa Internet UDP 34564 21\nII Empresa Internet TCP 25468 443\nIII Internet Empresa TCP 80 56735\nIV Internet Empresa UDP 26486 53 Os pacotes que foram autorizados a seguir para o destino de acordo com as regras configuradas neste equipamento de segurança (firewall) foram",
+        "alternativas": [
+            "I e II, apenas.",
+            "II e III, apenas.",
+            "I e IV, apenas.",
+            "I, II e IV, apenas.",
+            "II, III e IV, apenas."
+        ],
+        "gabarito": "II e III, apenas."
+    },
+    {
+        "id": 7,
+        "enunciado": "Associe os controles de segurança relacionados à solução para a segurança da informação com suas respectivas definições.\n1. Firewall\n2. Intrusion Detection Systems (IDS)\n3. Intrusion Prevention Systems (IPS)\n4. Antivírus software\n( ) Previne, detecta e remove malware, incluindo vírus de computador, worms de computador, cavalos de Tróia, spyware e adware.\n( ) É uma ferramenta de monitoramento em tempo integral colocada nos pontos mais vulneráveis ou pontos críticos das redes corporativas para detectar e deter intrusos continuamente.\n( ) É uma ferramenta para monitorar o tráfego de rede e as atividades do sistema para prevenir e bloquear possíveis invasões ou ataques. Esta ferramenta é essencial para identificar e mitigar ameaças em tempo real, melhorando a postura geral de segurança de uma organização.\n( ) Impede que usuários não autorizados acessem redes privadas. É uma combinação de hardware e software que controla o fluxo de tráfego de entrada e saída da rede.\nAssinale a opção que indica a relação correta, na ordem apresentada.",
+        "alternativas": [
+            "1 – 2 – 3 – 4.",
+            "2 – 1 – 3 – 4.",
+            "4 – 2 – 3 – 1.",
+            "3 – 2 – 1 – 4.",
+            "4 – 3 – 2 – 1."
+        ],
+        "gabarito": "4 – 2 – 3 – 1."
+    },
+    {
+        "id": 8,
+        "enunciado": "Relaciones as aplicações de segurança da informação com suas respectivas definições.\n1. Proxy\n2. DMZ\n3. Antivírus\n4. Antispam\n( ) Software que previne, detecta e remove malware, incluindo vírus de computador, worms de computador, cavalos de Tróia, spyware e adware.\n( ) Uma área intermediária entre duas redes projetada para fornecer servidores e filtragem de firewall entre uma rede interna confiável e a rede externa não confiável.\n( ) Software ou a processos de detecção e análise que têm como objetivo bloquear mensagens indesejadas que podem conter golpes, ameaças ou outras informações não solicitadas.\n( ) Intercepta pedidos de informação de usuários externos e fornece a informação solicitada recuperando-a de um servidor interno, protegendo e minimizando a demanda em servidores internos.\nAssinale a opção que indica a relação correta, na ordem apresentada.",
+        "alternativas": [
+            "3 – 2 – 1 – 4.",
+            "2 – 3 – 4 – 1.",
+            "3 – 4 – 2 – 1.",
+            "3 – 2 – 4 – 1.",
+            "4 – 1 – 3 – 2."
+        ],
+        "gabarito": "3 – 2 – 4 – 1."
+    },
+    {
+        "id": 9,
+        "enunciado": "A arquitetura de firewall da empresa APP.TI utiliza uma sub-rede para isolar a rede interna e a internet.\nEssa é uma arquitetura de firewall do tipo:",
+        "alternativas": [
+            "Packet Filter;",
+            "Screened Host;",
+            "Screened Subnet;",
+            "Dual-Homed Host;",
+            "Stateful Inspection."
+        ],
+        "gabarito": "Screened Subnet;"
+    },
+    {
+        "id": 10,
+        "enunciado": "Os firewalls desempenham um papel fundamental na proteção dos dados sigilosos que trafegam na rede corporativa de um órgão público. Há diversos tipos, como firewall filtro de pacotes, firewall em estado de conexão e firewall em nível de aplicação.\nO firewall filtro de pacotes",
+        "alternativas": [
+            "permite detectar diversas ameaças à rede, como por exemplo: spam, phishing e spyware.",
+            "permite distinguir entre os diferentes tipos de tráfego HTTP.",
+            "mapeia todos os pacotes que entram e saem da rede interna, relacionando-os às conexões TCP/IP ativas.",
+            "inspeciona apenas os endereços IP e as portas TCP/UDP dos pacotes que entram e saem de uma rede interna, descartando aqueles que não atendem aos critérios estabelecidos pelo administrador de rede.",
+            "torna possível o envio de tráfego encriptado, garantindo assim a confidencialidade das informações e a privacidade dos dados."
+        ],
+        "gabarito": "inspeciona apenas os endereços IP e as portas TCP/UDP dos pacotes que entram e saem de uma rede interna, descartando aqueles que não atendem aos critérios estabelecidos pelo administrador de rede."
+    },
+    {
+        "id": 11,
+        "enunciado": "Um estagiário recebeu a tarefa de documentar a topologia de uma rede atualmente em operação. Durante essa análise, identificou-se a presença de um único dispositivo de firewall localizado entre um roteador interno e um roteador externo. Esse firewall tem a capacidade de implementar filtros com estado e/ou proxies de aplicação.\nA configuração descrita é chamada de bastião:",
+        "alternativas": [
+            "em sdrop;",
+            "duplo em T;",
+            "único em T;",
+            "duplo em linha;",
+            "único em linha."
+        ],
+        "gabarito": "único em linha."
+    },
+    {
+        "id": 12,
+        "enunciado": "A equipe de tecnologia da informação (TI) de um órgão está enfrentando dificuldades de disponibilidade de seu site de Internet após a divulgação de novos serviços com prazos rígidos para seus clientes. O site de Internet não está suportando o volume de acessos simultâneos. Para incrementar a disponibilidade do site, a equipe de TI replicou os servidores web e contratou uma solução que instalou um equipamento na frente das várias réplicas do site. Esse equipamento recebe as solicitações dos usuários da Internet, direcionando-as para os diversos servidores web internos, balanceando a carga entre eles. O certificado digital foi instalado nele para reduzir o processamento dos servidores web interno.\nO equipamento da solução contratada é um Proxy:",
+        "alternativas": [
+            "de encaminhamento;",
+            "transparente;",
+            "anônimo;",
+            "reverso;",
+            "de distorção."
+        ],
+        "gabarito": "reverso;"
+    },
+    {
+        "id": 13,
+        "enunciado": "Um firewall é uma ferramenta essencial para proteger uma rede de computadores contra acessos não autorizados e ameaças externas. O papel de um firewall em uma rede de computadores é",
+        "alternativas": [
+            "permitir o tráfego de dados sem qualquer restrição, garantindo que a rede esteja sempre disponível para comunicação.",
+            "bloquear todo o tráfego de dados proveniente de redes externas, sem qualquer exceção, para proteger os dados da rede interna.",
+            "monitorar e controlar o tráfego de rede com base em um conjunto de regras de segurança definidas, permitindo ou bloqueando o tráfego conforme a política configurada.",
+            "substituir a necessidade de criptografia em redes, garantindo que todos os dados sejam transmitidos de forma segura.",
+            "impedir que dispositivos internos da rede se comuniquem entre si, restringindo a troca de dados entre os usuários."
+        ],
+        "gabarito": "monitorar e controlar o tráfego de rede com base em um conjunto de regras de segurança definidas, permitindo ou bloqueando o tráfego conforme a política configurada."
+    },
+    {
+        "id": 14,
+        "enunciado": "O sistema DefProc permite o acesso aos processos que ficam armazenados na intranet da DPE/RS e será disponibilizado para o público geral na internet. Para isso, o DefProc será hospedado em um servidor em ambiente de DMZ. O analista Lucas, responsável pela implementação do sistema, verificou que as especificações determinam que devem ser usadas duas placas de rede nesse servidor: uma para acesso à intranet e outra para acesso à internet.\nA utilização dessas duas placas possibilita a:",
+        "alternativas": [
+            "melhoria de performance, pois permite aumento na velocidade da rede;",
+            "preservação de integridade, pois garante a checagem dos dados;",
+            "manutenção de confidencialidade, pois assegura a encriptação dos dados;",
+            "segurança adicional, pois inclui uma separação na camada física das redes;",
+            "garantia de disponibilidade, pois permite redundância no acesso ao servidor."
+        ],
+        "gabarito": "segurança adicional, pois inclui uma separação na camada física das redes;"
+    },
+    {
+        "id": 15,
+        "enunciado": "Amanda trabalha como webdesigner e dá suporte para aplicações WEB em várias empresas. A empresa Y entrou em contato com Amanda informando que está sofrendo muitos ataques de injeção de SQL e quebra de autenticação. Amanda informou à empresa Y que deveria ser instalado um firewall de aplicação web (WAF) com a intenção de identificar e bloquear tais ataques. Amanda implementou um modelo normalmente baseado em hardware e instalado localmente para que seja mais rápido, em contrapartida a um custo maior na sua implementação.\nAmanda está implementando um WAF do tipo:",
+        "alternativas": [
+            "de rede;",
+            "de host;",
+            "on-premise;",
+            "cloud;",
+            "híbrido."
+        ],
+        "gabarito": "de rede;"
+    },
+    {
+        "id": 16,
+        "enunciado": "Um órgão que lida com muitos documentos sigilosos sinalizou para sua equipe de Tecnologia da Informação (TI) sua preocupação quanto a uma invasão cibernética e roubo desses documentos. Para incrementar a segurança da rede desse órgão, a equipe de TI instalou um equipamento capaz de verificar as conexões TCP em andamento antes de permitir a passagem de um determinado pacote.\nO equipamento instalado pela equipe de TI utiliza recursos de:",
+        "alternativas": [
+            "IDS (Intrusion Detection System);",
+            "gateway VPN;",
+            "gateway de aplicação;",
+            "filtro de pacotes tradicionais;",
+            "filtro de estado."
+        ],
+        "gabarito": "filtro de estado."
+    },
+    {
+        "id": 17,
+        "enunciado": "Os firewalls podem ser um meio eficaz de proteger sistemas e redes contra ameaças de segurança. Com relação às suas limitações, analise os itens a seguir.\nI. Não são capazes de proteger contra os ataques que contornam o firewall.\nII. Não protegem contra ameaças internas, como funcionários insatisfeitos ou que cooperam com um atacante externo.\nIII. Não protegem contra a transferência de programas ou arquivos infectados com vírus.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, apenas.",
+            "II, apenas.",
+            "III, apenas.",
+            "I, II e III.",
+            "II e III, apenas."
+        ],
+        "gabarito": "I, II e III."
+    },
+    {
+        "id": 18,
+        "enunciado": "A analista Roberta instalou um novo firewall na infraestrutura de rede do TCE/TO. O firewall instalado por Roberta monitora os handshakes de três vias do TCP\n(Transmission Control Protocol) que envolvam hosts externos à rede, a fim de determinar a legitimidade das sessões de rede requisitadas por estes hosts.\nSendo assim, esse firewall recém-instalado por Roberta é do tipo:",
+        "alternativas": [
+            "cloud;",
+            "application layer;",
+            "web application;",
+            "circuit-level gateway;",
+            "packet filter."
+        ],
+        "gabarito": "circuit-level gateway;"
+    },
+    {
+        "id": 19,
+        "enunciado": "Roberto foi contratado por uma empresa para implementar uma solução de segurança para proteger sua propriedade intelectual armazenada em sua rede interna, considerando os seguintes requisitos:\n- único ponto de entrada e saída para a rede interna, de forma que o tráfego bidirecional possa ser verificado e tenha controle de acesso para a rede interna, autorizando apenas o tráfego permitido;\n- o servidor Web com o site da empresa, instalado na rede interna, deverá ser acessado por clientes oriundos da Internet; e - acesso seguro à rede interna para os funcionários que trabalhem em home office.\nPara atender aos requisitos solicitados pela empresa, Roberto deve implementar um(a):",
+        "alternativas": [
+            "zona desmilitarizada (DMZ) onde ficará o servidor Web da empresa; outra zona desmilitarizada (DMZ) para o banco de dados que o servidor Web da DMZ anterior faz acesso, cada uma possuindo seus firewalls delimitando seus perímetros;",
+            "firewall separando as redes interna e externa; um servidor Web após o firewall, de forma que se permita o controle de acesso e o site da empresa fique disponível aos clientes oriundos da Internet;",
+            "firewall entre a rede interna e a externa, de forma que apenas o tráfego autorizado possa chegar ao site da empresa; antivírus atualizado automaticamente em todos os computadores da rede interna, de forma a protegê-los de malwares quando acessados pelos usuários em home office;",
+            "firewall para separar a rede interna da Internet; um sistema de detecção de intrusão (IDS), como segundo nível de proteção, caso haja alguma violação do firewall; uma rede privada virtual (VPN) para acesso via home office; e instalação do servidor Web após o firewall;",
+            "par de firewalls criando uma zona desmilitarizada (DMZ), um para separar a Internet da zona desmilitarizada (DMZ) e o outro para separar a zona desmilitarizada (DMZ) da rede interna; instalação do servidor Web na zona desmilitarizada (DMZ) para acesso via Internet; e configuração de uma rede privada virtual (VPN) para o acesso via home office."
+        ],
+        "gabarito": "par de firewalls criando uma zona desmilitarizada (DMZ), um para separar a Internet da zona desmilitarizada (DMZ) e o outro para separar a zona desmilitarizada (DMZ) da rede interna; instalação do servidor Web na zona desmilitarizada (DMZ) para acesso via Internet; e configuração de uma rede privada virtual (VPN) para o acesso via home office."
+    },
+    {
+        "id": 20,
+        "enunciado": "Sobre funções de um Proxy Reverso, analise os itens a seguir.\nI. Manter cache de conteúdo estático das requisições originadas na Internet com destino à rede local.\nII. Distribuir a carga de requisições para uma lista rotativa de servidores.\nIII. Autenticar clientes web como uma precondição para encaminhar o tráfego para servidores backend.\nEstá correto o que se afirma em:",
+        "alternativas": [
+            "somente I;",
+            "somente II;",
+            "somente III;",
+            "somente I e II;",
+            "I, II e III."
+        ],
+        "gabarito": "I, II e III."
+    },
+    {
+        "id": 21,
+        "enunciado": "Walace foi contratado pelo Tribunal de Justiça do Amapá (TJAP) para verificar as configurações no firewall existente. Ele recebeu como reclamação que não se conseguia conectar via SSH nas máquinas que passavam pelo firewall. Outra demanda solicitada foi que o servidor do TJAP não deveria responder a ping, não deixando que ele entre, com o objetivo de evitar o ataque de Flooding.\nDe forma a atender à demanda solicitada pelo Tribunal, Walace deverá implementar as regras, respectivamente:",
+        "alternativas": [
+            "<1> # iptables -A INPUT -p tcp --dport 22 -j ACCEPT <2> # iptables -A OUTPUT -p icmp --icmp-type echo-request -j DROP;",
+            "<1> # iptables -A INPUT -p tcp --dport 22 -j ACCEPT <2> # iptables -A INPUT -p icmp --icmp-type echo-request -j DROP;",
+            "<1> # iptables -I INPUT 1 -i lo -j ACCEPT <2> # iptables -A INPUT -m mac --mac-source 00:12:A1:24:BB:0C -j ACCEPT;",
+            "<1> # iptables -A INPUT -m state --state NEW -p tcp --dport 80 -j ACCEPT <2> # iptables -A OUTPUT -p tcp --dport 22 -j ACCEPT;",
+            "<1> # iptables -A INPUT -m state --state NEW -m tcp -p tcp -- dport 5100:5150 -j ACCEPT <2> # iptables -A INPUT -p icmp -- icmp-type echo-request -j DROP."
+        ],
+        "gabarito": "<1> # iptables -A INPUT -p tcp --dport 22 -j ACCEPT <2> # iptables -A INPUT -p icmp --icmp-type echo-request -j DROP;"
+    },
+    {
+        "id": 22,
+        "enunciado": "Há necessidade de se instalar, em uma empresa, um firewall IPTABLE.\nNesse caso, o que se deseja com esse tipo de firewall é que ele",
+        "alternativas": [
+            "trabalhe com um controle relacionado com o conteúdo do tráfego.",
+            "analise o conteúdo do pacote para tomar suas decisões de filtragem.",
+            "Impeça a comunicação direta entre as informações de saída e destino.",
+            "deva tratar de pacotes e combinar a inspeção em nível de aplicativo e uma inspeção com estado.",
+            "trabalhe por meio da comparação de regras para saber se um pacote tem ou não permissão para passar."
+        ],
+        "gabarito": "trabalhe por meio da comparação de regras para saber se um pacote tem ou não permissão para passar."
+    },
+    {
+        "id": 23,
+        "enunciado": "Um servidor Linux IPTables é responsável pela proteção de 2 (duas) redes corporativas, e pelo acesso à internet. Os processos que permitem o encaminhamento de pacotes, tradução de endereços IP e etc. estão habilitados.\nA tabela a seguir descreve como as interfaces desse servidor IPTables estão configuradas e conectadas.\nAs regras de acesso configuradas neste servidor IPTables são apresentadas na tabela a seguir.\nDiante deste cenário, analise as afirmativas a seguir:\nI. As máquinas da rede 192.168.1.0/24 podem acessar todos os serviços disponíveis na rede 192.168.2.0/24.\nII. As máquinas da rede 192.168.1.0/24 podem acessar à internet.\nIII. Os serviços disponíveis na rede 192.168.2.0/24 podem ser acessados por dispositivos na internet.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, apenas.",
+            "I e II, apenas.",
+            "II e III, apenas.",
+            "II, apenas.",
+            "III, apenas."
+        ],
+        "gabarito": "II, apenas."
+    },
+    {
+        "id": 24,
+        "enunciado": "O Ataque “Ping da morte\" é um ataque de negação de serviço (DoS) em que o invasor visa interromper uma máquina alvo enviando um pacote maior que o tamanho máximo permitido, fazendo com que a máquina visada trave ou falhe. De forma a evitar esse ataque, o Departamento de Segurança do Tribunal de Contas do Estado de São Paulo (TCE SP) resolveu bloquear as requisições de PING, impedindo que outro computador utilize esse comando para obter informações sobre o servidor.\nPara isso, efetuará o bloqueio com o Iptables.\nSabendo-se que a interface do servidor é eth0, o comando de aplicação da regra de bloqueio no IPTABLES é:",
+        "alternativas": [
+            "$ iptables -A INPUT -p icmp -i eth0 -j DROP;",
+            "$ iptables -A OUTPUT -p snmp -i eth0 -j DROP;",
+            "# iptables -A INPUT -p icmp -i eth0 -j DROP;",
+            "# iptables -A OUTPUT -p icmp -i eth0 -j DROP;",
+            "# iptables -A INPUT -p snmp -i eth0 -j DROP."
+        ],
+        "gabarito": "# iptables -A INPUT -p icmp -i eth0 -j DROP;"
+    },
+    {
+        "id": 25,
+        "enunciado": "A ferramenta iptables é comumente utilizada para limitar o tráfego de dados como forma de proteção contra a entrada de intrusos e a saída de dados secretos.\nA expressão que inclui uma regra na iptables, definindo o descarte dos pacotes de dados HTTP que chegam na porta 80 em qualquer interface de rede de um dado servidor, é:",
+        "alternativas": [
+            "iptables -A OUTPUT -p all --dport 80 -j REJECT.",
+            "iptables -A INPUT -p tcp --dport 80 -j DROP.",
+            "iptables -A OUTPUT -o eth1 --dport 80 -j DROP.",
+            "iptables -A INPUT -i eth1 --dport 80 -j RETURN.",
+            "iptables -A OUTPUT -p tcp --dport 80 -j REJECT."
+        ],
+        "gabarito": "iptables -A INPUT -p tcp --dport 80 -j DROP."
+    },
+    {
+        "id": 26,
+        "enunciado": "O Portal da Transparência e o sistema de protocolo eletrônico da Assembleia Legislativa constituem aplicações web de caráter crítico, estando continuamente expostos a ataques direcionados à camada de aplicação, como SQL Injection e Cross-Site Scripting (XSS), que exploram vulnerabilidades no código das aplicações.\nDiante desse cenário, assinale a alternativa que identifica o dispositivo de segurança especificamente projetado para proteger servidores web e suas aplicações, por meio da inspeção e filtragem do tráfego HTTP/HTTPS, mitigando ataques típicos da camada de aplicação.",
+        "alternativas": [
+            "Next Generation Firewall (NGFW).",
+            "Intrusion Detection System (IDS).",
+            "Web Application Firewall (WAF).",
+            "Virtual Private Network (VPN) Concentrator.",
+            "Load Balancer."
+        ],
+        "gabarito": "Web Application Firewall (WAF)."
+    },
+    {
+        "id": 27,
+        "enunciado": "Com relação ao proxy reverso, avalie se as afirmativas a seguir são verdadeiras (V) ou falsas (F).\n( ) No proxy reverso, o cliente não tem conhecimento de que a solicitação enviada não vai diretamente para o servidor web, mas sim para o servidor proxy.\n( ) O invasor não consegue ver a localização real do servidor web porque ele está topologicamente fechado pelo proxy reverso.\n( ) O Web Application Firewall (WAF) não pode ser implementado em aplicações web em dispositivos que possuem proxy reverso configurado.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "V – F – V.",
+            "F – V – V.",
+            "F – V – F.",
+            "V – F – F.",
+            "V – V – F."
+        ],
+        "gabarito": "V – V – F."
+    },
+    {
+        "id": 28,
+        "enunciado": "Em um ambiente de rede corporativa, um administrador de segurança implementou um Sistema de Detecção de Intrusão (IDS), baseado em anomalias para identificar ameaças internas e ataques de dia zero.\nAssinale a opção que apresenta a principal desvantagem que esse administrador, provavelmente enfrentará em comparação com um IDS baseado em assinaturas, e o motivo.",
+        "alternativas": [
+            "Alta taxa de falsos positivos (alarmes que não são ameaças reais), devido à natureza de aprendizado de máquina e modelagem do tráfego de referência.",
+            "Dificuldade em detectar ataques conhecidos, uma vez que se concentra em desvios do tráfego normal.",
+            "Maior custo de implementação, pois exige hardware especializado para processamento intensivo.",
+            "Incapacidade de gerar alertas em tempo real, resultando em atrasos na resposta a incidentes.",
+            "Requer atualizações diárias e constantes do banco de dados de assinaturas, similar aos sistemas antivírus tradicionais."
+        ],
+        "gabarito": "Alta taxa de falsos positivos (alarmes que não são ameaças reais), devido à natureza de aprendizado de máquina e modelagem do tráfego de referência."
+    },
+    {
+        "id": 29,
+        "enunciado": "A equipe de segurança da Assembleia busca um dispositivo que possa monitorar o tráfego de rede em tempo real, identificar padrões de ataques conhecidos ou anomalias comportamentais e, especificamente, tomar uma ação imediata, como derrubar a conexão ou bloquear o endereço IP de origem do tráfego malicioso detectado.\nO dispositivo de segurança, responsável pela detecção de intrusão e pela prevenção ou bloqueio ativo do tráfego malicioso, é",
+        "alternativas": [
+            "Network Access Control (NAC).",
+            "Intrusion Detection System (IDS).",
+            "Network Address Translation (NAT).",
+            "Intrusion Prevention System (IPS).",
+            "Web Application Firewall (WAF)."
+        ],
+        "gabarito": "Intrusion Prevention System (IPS)."
+    },
+    {
+        "id": 30,
+        "enunciado": "No cenário atual de ameaças cibernéticas, as ferramentas de segurança desempenham um papel essencial na proteção de redes e sistemas contra ataques e acessos não autorizados.\nDentre as ferramentas mais utilizadas para garantir a segurança, destacam-se o firewall, o sistema de detecção de intrusão (IDS/IPS) e o antivírus.\nA ferramenta que tem como principal função monitorar o tráfego de rede em busca de atividades suspeitas e prevenir possíveis invasões, é denominada",
+        "alternativas": [
+            "Firewall.",
+            "Antivírus.",
+            "Sistema de Detecção de Intrusão (IDS/IPS).",
+            "Roteador.",
+            "Proxy."
+        ],
+        "gabarito": "Sistema de Detecção de Intrusão (IDS/IPS)."
+    },
+    {
+        "id": 31,
+        "enunciado": "O MPF processa milhares de requisições diárias e está preocupado com ataques cibernéticos, como varreduras de porta, ataques de negação de serviço (DoS) e a disseminação de malware.\nPara proteger sua infraestrutura, o MPF decide implementar um sistema IDS que:\n• detecte ataques conhecidos rapidamente;\n• reconheça padrões de tráfego anormais que possam indicar novos tipos de ataques; e • minimize alarmes falsos que possam sobrecarregar a equipe de resposta.\nO tipo mais adequado para atender essas necessidades é um sistema IDS:",
+        "alternativas": [
+            "baseado em anomalias;",
+            "baseado em assinaturas;",
+            "com implementação de controle de acesso baseado em identidade;",
+            "que combine assinaturas e detecção baseada em anomalias;",
+            "baseado em assinaturas, configurado para ignorar alarmes de anomalias."
+        ],
+        "gabarito": "que combine assinaturas e detecção baseada em anomalias;"
+    },
+    {
+        "id": 32,
+        "enunciado": "Diversas tecnologias são empregadas por ferramentas de segurança de rede, como: criptografia, firewalls, sistemas de detecção e prevenção de intrusões e antivírus.\nCom relação às tecnologias dos sistemas de detecção e prevenção de intrusões, analise os itens a seguir:\nI. Sistema de prevenção de intrusão (IPS) tem as mesmas funções de detecção e relatório de ameaças de um Sistema de Detecção de Intrusão (IDS), além de habilidades de bloquear automaticamente ameaças, alertando a equipe de segurança, terminando conexões perigosas, removendo conteúdo malicioso ou acionando outros dispositivos de segurança.\nII. Sistema de prevenção de intrusão baseado em rede (NIPS) é instalado em um endpoint específico e serve para monitorar o tráfego de entrada e saída exclusivamente deste dispositivo.\nIII. Análise de Comportamento de Rede (NBA) normalmente usa métodos de detecção baseados em produção de registros periódicos de arquivos críticos do sistema operacional e realiza comparação destes arquivos ao longo do tempo.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, II e III.",
+            "I, apenas.",
+            "I e II, apenas.",
+            "I e III, apenas.",
+            "II e III, apenas."
+        ],
+        "gabarito": "I, apenas."
+    },
+    {
+        "id": 33,
+        "enunciado": "O administrador de segurança do Tribunal de Justiça do Mato Grosso do Sul está implementando algumas regras no sistema de prevenção de intrusão (IPS) da rede local. Ele definiu um controle de acesso que determina quais usuários e dispositivos podem acessar um determinado host. Assim, se um usuário não autorizado tentar se conectar ao host, o IPS irá interrompê-lo.\nO administrador de segurança está configurando um IPS baseado em:",
+        "alternativas": [
+            "assinatura;",
+            "anomalias;",
+            "políticas;",
+            "reputação;",
+            "análise de protocolo estável."
+        ],
+        "gabarito": "políticas;"
+    },
+    {
+        "id": 34,
+        "enunciado": "Assinale a opção correta sobre a segurança de redes de computadores.",
+        "alternativas": [
+            "Os sistemas de detecção de intrusão (IDS) e os sistemas de prevenção de intrusão (IPS) são ferramentas com a mesma função.",
+            "Gestão de vulnerabilidades é um processo para correção de vulnerabilidades em softwares, não tendo relação direta com o firewall.",
+            "Um sistema de detecção de intrusão (IDS) não funciona numa DMZ (Demilitarized Zone), pois ela necessita de visibilidade completa da rede.",
+            "O uso de NAC (Network Access Control) não contribui para a gestão de vulnerabilidades.",
+            "Os Sistemas de detecção de intrusão (IDS) são projetados para monitorar e alertar sobre possíveis intrusões, enquanto sistemas de prevenção de intrusão (IPS) atuam ativamente para bloquear ataques detectados."
+        ],
+        "gabarito": "Os Sistemas de detecção de intrusão (IDS) são projetados para monitorar e alertar sobre possíveis intrusões, enquanto sistemas de prevenção de intrusão (IPS) atuam ativamente para bloquear ataques detectados."
+    },
+    {
+        "id": 35,
+        "enunciado": "Com relação a tecnologias de segurança de rede, avalie se as afirmativas a seguir são verdadeiras (V) ou falsas (F).\n( ) Um IPS é um sistema que busca detectar ataques em curso, e pode tomar uma ação automática para mitigar ou impedir o ataque.\n( ) Um analisador de tráfego como o WireShark permite visualizar pacotes que trafegam pela rede desde que sua interface de rede não esteja em modo promíscuo.\n( ) O NAT (Network Address Translation) pode ser divido em DNAT que altera o cabeçalho dos pacotes e SNAT que altera o payload dos pacotes.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "V – F – F.",
+            "F – F – F.",
+            "V – V – V.",
+            "V – F – V.",
+            "F – V – V."
+        ],
+        "gabarito": "V – F – F."
+    },
+    {
+        "id": 36,
+        "enunciado": "Para aumentar a segurança em uma rede wireless, é essencial implementar medidas eficazes contra ataques de falsificação de pontos de acesso (Evil Twin Attacks).\nUma das técnicas desse tipo de ataque consiste em criar um ponto de acesso falso com o mesmo SSID (ou similar) de um ponto de acesso legítimo, com o objetivo de interceptar e manipular o tráfego de dados dos usuários que se conectam a ele.\nUma prática que pode ajudar a identificar e mitigar os riscos associados a esse tipo de ataques é",
+        "alternativas": [
+            "desativar o broadcast do SSID.",
+            "usar um protocolo de criptografia forte como AES.",
+            "implementar autenticação WPA2-PSK.",
+            "configurar um sistema de detecção de intrusos (IDS).",
+            "ativar o modo de economia de energia nos dispositivos wireless."
+        ],
+        "gabarito": "configurar um sistema de detecção de intrusos (IDS)."
+    },
+    {
+        "id": 37,
+        "enunciado": "Um IPS identificou pacotes maliciosos por meio de escaneamento em busca de assinaturas de ataque no contexto de um conjunto de tráfego de dados, em vez de considerar apenas pacotes individuais.\nO método empregado denomina-se:",
+        "alternativas": [
+            "bastião duplo em T;",
+            "anomalia de tráfego;",
+            "anomalia estatística;",
+            "correspondência com estado;",
+            "correspondência com padrão."
+        ],
+        "gabarito": "correspondência com estado;"
+    },
+    {
+        "id": 38,
+        "enunciado": "Durante a análise de uma regra no Snort, um sistema de detecção de intrusões, foi identificada uma ação específica que permanece ociosa até ser ativada por uma regra de ativação, quando então age como uma regra de registro.\nA ação descrita é a:",
+        "alternativas": [
+            "pass;",
+            "drop;",
+            "alert;",
+            "activate;",
+            "dynamic."
+        ],
+        "gabarito": "dynamic."
+    },
+    {
+        "id": 39,
+        "enunciado": "Um hacker invadiu a rede interna da Defensoria Pública do Estado do Rio Grande do Sul (DPE/RS) e executou um mapeamento na rede com o objetivo de buscar serviços acessíveis. O Departamento de Segurança verificou que, caso a DPE/RS tivesse um dispositivo que identificasse o padrão de comportamento do intruso, tal fato não teria ocorrido e uma ação de prevenção teria sido tomada rapidamente. A partir desse momento, foi implementado um Sistema de Detecção de Intruso (IDS) / Sistema de Prevenção de Intruso (IPS) na rede local.\nPara que a instalação seja concluída, um dos requisitos que devem ser atendidos pelo Departamento de Segurança é:",
+        "alternativas": [
+            "executar rotineiramente o IPS com supervisão humana;",
+            "ser tolerante a falhas no sentido de ser capaz de se recuperar de quedas e reinicializações de sistema;",
+            "impor um sobrecusto computacional ao sistema no qual está executando;",
+            "não permitir reconfiguração dinâmica, de forma que, caso seja invadido, seja necessário reiniciá-lo;",
+            "após configurado, manter uma rotina de atualizações, de forma a se adaptar a mudanças no comportamento."
+        ],
+        "gabarito": "ser tolerante a falhas no sentido de ser capaz de se recuperar de quedas e reinicializações de sistema;"
+    },
+    {
+        "id": 40,
+        "enunciado": "Para incluir uma barreira de proteção na rede de computadores da empresa X, Leandro implementou no servidor da empresa uma ferramenta capaz de monitorar todo o tráfego da rede em busca de ameaças, enviar um alerta ao plantonista de segurança da empresa e tomar as medidas iniciais contra a ameaça encontrada. A ferramenta implementada é um:",
+        "alternativas": [
+            "HIPS;",
+            "HIDS;",
+            "NIDS;",
+            "NIPS;",
+            "WIPS."
+        ],
+        "gabarito": "NIPS;"
+    },
+    {
+        "id": 41,
+        "enunciado": "A analista Ana instalou o sistema de segurança de rede ASec no TCE/TO. O ASec objetiva interromper automaticamente ataques distribuídos de negação de serviço ao observar o tráfego de toda a rede a fim de detectar e bloquear fluxos de tráfego incomuns.\nSendo assim, ASec é caracterizado como um sistema de segurança de rede do tipo:",
+        "alternativas": [
+            "Network Intrusion Detection System;",
+            "Host Intrusion Detection System;",
+            "Host Intrusion Prevention System;",
+            "Network Behavior Analysis;",
+            "Security Information and Event Management."
+        ],
+        "gabarito": "Network Behavior Analysis;"
+    },
+    {
+        "id": 42,
+        "enunciado": "Os assessores parlamentares da Assembleia Legislativa precisam acessar com segurança os sistemas internos e documentos confidenciais de fora do ambiente físico da Assembleia, utilizando a Internet pública de suas residências.\nA tecnologia essencial para criar um túnel seguro, criptografado e logicamente privado através de uma rede pública, permitindo que usuários remotos se conectem à rede corporativa com confidencialidade e integridade como se estivessem fisicamente presentes, é",
+        "alternativas": [
+            "Proxy Transparente.",
+            "Network Address Translation (NAT).",
+            "Virtual Private Network (VPN).",
+            "Web Application Firewall (WAF).",
+            "Service Set Identifier (SSID)."
+        ],
+        "gabarito": "Virtual Private Network (VPN)."
+    },
+    {
+        "id": 43,
+        "enunciado": "As Redes Privadas Virtuais (VPNs) desempenham um papel fundamental em ambientes corporativos, proporcionando conectividade segura e flexível. Existem diferentes tipos de VPN, cada uma adequada a cenários distintos.\nAssinale a opção que descreve corretamente as características de uma VPN site-to-site em comparação com uma VPN de acesso remoto.",
+        "alternativas": [
+            "Tanto a VPN site-to-site quanto a VPN de acesso remoto requerem que os usuários finais instalem software cliente em seus dispositivos para se conectarem às redes.",
+            "A VPN de acesso remoto é mais apropriada para conectar redes de filiais a uma matriz, enquanto a VPN site-to-site é usada para permitir que usuários individuais acessem remotamente os recursos da empresa.",
+            "A VPN site-to-site exige a instalação de software cliente nos dispositivos dos usuários para que se conectem à rede, enquanto a VPN de acesso remoto não necessita dessa instalação, pois é configurada diretamente nos dispositivos de rede.",
+            "A VPN de acesso remoto permite que usuários individuais se conectem à rede corporativa a partir de uma rede pré- configurada, sem a necessidade de interação desses usuários, enquanto a VPN site-to-site conecta redes corporativas em diferentes localidades, mas requer a autenticação de cada usuário para estabelecer e manter a conexão entre as redes.",
+            "A VPN de acesso remoto permite que usuários individuais se conectem à rede corporativa a partir de qualquer local, geralmente usando um software cliente no dispositivo, enquanto a VPN site-to-site conecta diretamente redes de diferentes locais, sem exigir a interação direta de usuários, sendo gerenciada por dispositivos de rede como roteadores e firewalls."
+        ],
+        "gabarito": "A VPN de acesso remoto permite que usuários individuais se conectem à rede corporativa a partir de qualquer local, geralmente usando um software cliente no dispositivo, enquanto a VPN site-to-site conecta diretamente redes de diferentes locais, sem exigir a interação direta de usuários, sendo gerenciada por dispositivos de rede como roteadores e firewalls."
+    },
+    {
+        "id": 44,
+        "enunciado": "Um empreendimento imobiliário decidiu instalar a sua rede de computadores com características de trabalhar com VPN, utilizando a técnica de tunelamento para encapsular um protocolo dentro de outro. Para esse caso, esse empreendimento precisa instalar na sua rede o protocolo de tunelamento, que vai definir como os pacotes serão encapsulados para serem transmitidos na rede pública.\nUm protocolo adequado, que pode ser utilizado nessa rede, é o",
+        "alternativas": [
+            "IPT.",
+            "PPP.",
+            "SIPT.",
+            "FDDI.",
+            "L2TP."
+        ],
+        "gabarito": "L2TP."
+    },
+    {
+        "id": 45,
+        "enunciado": "O analista Bruno deseja acessar a rede corporativa do Tribunal de Justiça a partir da sua residência. Para isso, ele planeja utilizar a VPN (Rede Virtual Privada) fornecida pelo Tribunal.\nEm relação ao acesso de Bruno, é correto afirmar que:",
+        "alternativas": [
+            "a VPN permite a ocultação do endereço IP do usuário e a criptografia dos seus dados pessoais;",
+            "é necessária uma infraestrutura de fibra óptica até a residência de Bruno;",
+            "a VPN utiliza o IPSec para criptografar seu endereço IP, mas os dados trafegam em claro;",
+            "ele pode acessar a rede corporativa sem autenticação e navegar anonimamente na internet sem deixar rastros de suas atividades;",
+            "é necessário um equipamento de firewall na sua residência para permitir o acesso."
+        ],
+        "gabarito": "a VPN permite a ocultação do endereço IP do usuário e a criptografia dos seus dados pessoais;"
+    },
+    {
+        "id": 46,
+        "enunciado": "Com a necessidade da migração para o trabalho remoto durante a pandemia, a editora EdLex definiu que as funções administrativas seriam realizadas no modelo de home office. Paulo, responsável pelo setor de TI da EdLex, decidiu que o acesso aos sistemas seria realizado por intermédio de VPN e estabeleceu que a VPN deveria: (i) usar criptografia com AES; (ii) oferecer suporte a TCP; e (iii) não ser proprietária.\nO protocolo utilizado por Paulo na VPN da editora EdLex é:",
+        "alternativas": [
+            "OpenVPN;",
+            "L2TP com IPSec;",
+            "PPTP;",
+            "SSTP;",
+            "WireGuard."
+        ],
+        "gabarito": "OpenVPN;"
+    },
+    {
+        "id": 47,
+        "enunciado": "Cláudia, responsável pela TI da empresa ConecTI-SE, produziu um relatório para que seja decidido o tipo de VPN que a empresa adotará. Ela relatou que a VPN-SSL:",
+        "alternativas": [
+            "criptografa diretamente os pacotes IP;",
+            "utiliza chaves configuradas no cliente e no servidor;",
+            "precisa ser configurada no lado do cliente;",
+            "pode ser usada em modo túnel;",
+            "utiliza por padrão o protocolo SSL."
+        ],
+        "gabarito": "pode ser usada em modo túnel;"
+    },
+    {
+        "id": 48,
+        "enunciado": "A implementação correta de redes VPN pode permitir a comunicação segura através de redes públicas inseguras.\nSobre redes VPN, é correto afirmar que:",
+        "alternativas": [
+            "quando usadas por meio de dispositivo móvel, impedem que a operadora de telefonia determine a sua localização;",
+            "protegem as informações em trânsito pela internet e em repouso armazenadas no computador do usuário que a utiliza;",
+            "uma VPN pode ser usada para interconectar duas redes IPv6 a uma rede IPv4;",
+            "VPNs site-to-site são conexões diretas estabelecidas por redes físicas próprias por meio de cabos de fibra ótica;",
+            "são similares a antivírus, pois examinam, detectam e protegem computadores contra softwares maliciosos."
+        ],
+        "gabarito": "uma VPN pode ser usada para interconectar duas redes IPv6 a uma rede IPv4;"
+    },
+    {
+        "id": 49,
+        "enunciado": "A equipe de segurança da informação definiu que os recursos de banco de dados alocados dentro do ambiente de nuvem pública utilizados pela empresa precisam ser isolados em uma subnet de acesso restrito que não esteja conectada à internet.\nPara assegurar esse nível de isolamento, deve ser implementado na nuvem pública o seguinte mecanismo:",
+        "alternativas": [
+            "Content Delivery Network;",
+            "Virtual Private Cloud;",
+            "Cloud Load Balancing;",
+            "Hypervisor;",
+            "Serverless."
+        ],
+        "gabarito": "Virtual Private Cloud;"
+    },
+    {
+        "id": 50,
+        "enunciado": "Um Departamento de Tecnologia da Informação da Assembleia Legislativa do Estado de Goiás (ALEGO) está revisando sua arquitetura de segurança para garantir comunicações seguras entre os sistemas institucionais e as plataformas digitais utilizadas no âmbito do Poder Legislativo. Nesse processo, a equipe de TI avalia como o SSL/TLS realiza a geração e a troca de material de chave durante o handshake, visando assegurar confidencialidade, integridade e conformidade com padrões de segurança. Assinale qual das afirmativas abaixo sobre o processo de geração de material de chave no protocolo SSL/TLS é verdadeira.",
+        "alternativas": [
+            "O processo de geração de material de chave é realizado exclusivamente pelo cliente, e o servidor apenas aceita o resultado.",
+            "O Material de chave gerado no SSL é utilizado apenas uma vez e não é mais necessário em futuras comunicações entre o mesmo cliente e servidor.",
+            "O processo de geração de material de chave envolve o uso de uma Função Pseudorrandom (PRF), que combina várias entradas para produzir a chave.",
+            "O material de chave gerado no SSL não pode ser usado no handshake, pois é gerado após a troca inicial de chaves.",
+            "O SSL/TLS utiliza apenas algoritmos simétricos na geração de material de chave, excluindo qualquer método assimétrico."
+        ],
+        "gabarito": "O processo de geração de material de chave envolve o uso de uma Função Pseudorrandom (PRF), que combina várias entradas para produzir a chave."
+    },
+    {
+        "id": 51,
+        "enunciado": "Ao auditar os ativos de rede de uma prefeitura, o auditor percebe que o portal da transparência não utiliza o protocolo HTTPS, deixando os dados dos cidadãos vulneráveis. Esse protocolo utiliza uma combinação de protocolos para garantir a segurança. A camada adicional de segurança, responsável pela criptografia e autenticação do site, é",
+        "alternativas": [
+            "UDP.",
+            "BGP.",
+            "TLS/SSL.",
+            "ICMP.",
+            "DHCP."
+        ],
+        "gabarito": "TLS/SSL."
+    },
+    {
+        "id": 52,
+        "enunciado": "A proteção de dados em trânsito é uma das principais preocupações em segurança da informação.\nCom relação à criptografia simétrica e assimétrica, assinale a afirmativa correta.",
+        "alternativas": [
+            "O protocolo SSL, predecessor do TLS, utiliza criptografia assimétrica durante toda a conexão e o tráfego de dados.",
+            "O TLS/SSL utiliza criptografia simétrica para garantir a autenticidade e o sigilo na troca da chave de sessão.",
+            "O TLS/SSL utiliza o esquema de chave assimétrica para autenticação dos pares e chave simétrica para tráfego de dados.",
+            "O TLS/SSL utiliza criptografia assimétrica para assegurar a rapidez e a eficiência durante o tráfego de dados.",
+            "A principal vantagem da criptografia simétrica sobre a assimétrica é que ela elimina a necessidade de troca de chaves entre as partes."
+        ],
+        "gabarito": "O TLS/SSL utiliza o esquema de chave assimétrica para autenticação dos pares e chave simétrica para tráfego de dados."
+    },
+    {
+        "id": 53,
+        "enunciado": "HTTPS (Hypertext Transfer Protocol Secure) é essencial para garantir a segurança e a privacidade das comunicações na web, sendo uma extensão do HTTP\n(Hypertext Transfer Protocol) que adiciona uma camada de segurança através da criptografia SSL/TLS.\nRelacione as quatro ações dos protocolos http e https com suas respectivas definições.\n1. POST\n2. GET\n3. PUT\n4. DELETE\n( ) Atualizar o valor de um recurso.\n( ) Ler o valor de um recurso e retorná-lo ao solicitante na representação especificada, que pode ser apresentada em um navegador web.\n( ) Apagar o recurso.\n( ) Criar um recurso Assinale a opção que indica a relação correta na ordem apresentada.",
+        "alternativas": [
+            "2 – 4 – 1 – 3.",
+            "2 – 1 – 4 – 3.",
+            "3 – 2 – 4 – 1.",
+            "4 – 1 – 2 – 3.",
+            "1 – 3 – 4 – 2."
+        ],
+        "gabarito": "3 – 2 – 4 – 1."
+    },
+    {
+        "id": 54,
+        "enunciado": "A demanda por segurança é cada vez maior em sistemas e redes. O protocolo de registro SSL v3 oferece serviços básicos de segurança, confiáveis de ponta a ponta, para vários protocolos de camada superior.\nOs dois conceitos importantes abordados pelo SSL são",
+        "alternativas": [
+            "conexão e sessão.",
+            "rede e transparência.",
+            "integridade e não repúdio.",
+            "tunelamento e criptografia.",
+            "rastreabilidade e autenticação."
+        ],
+        "gabarito": "conexão e sessão."
+    },
+    {
+        "id": 55,
+        "enunciado": "O objetivo principal do protocolo TLS é fornecer um canal seguro entre dois pares que estão se comunicando.\nCom relação ao TSL, avalie se as afirmativas a seguir são verdadeiras (V) ou falsas (F).\n( ) Autenticação – O lado servidor do canal é sempre autenticado; o lado do cliente é opcionalmente autenticado e a autenticação pode acontecer por meio de criptografia simétrica (por exemplo, AES ou RC4 ou IDEA).\n( ) Confidencialidade – Os dados enviados pelo canal após o estabelecimento são visíveis apenas para os endpoints. TLS não esconde o comprimento dos dados que ele transmite, embora os endpoints sejam capazes de preencher TLS, a fim de ocultar comprimentos e melhorar a proteção contra técnicas de análise de tráfego.\n( ) O TLS consiste em dois componentes principais, um protocolo de criptografia e um protocolo de registro que utiliza os parâmetros estabelecidos pelo protocolo de criptografia para proteger o tráfego entre pares que estão se comunicando.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "V – V – F.",
+            "F – V – F.",
+            "V – F – F.",
+            "F – V – V.",
+            "F – F – V."
+        ],
+        "gabarito": "F – V – F."
+    },
+    {
+        "id": 56,
+        "enunciado": "O TCE-PA está implementando medidas de segurança para proteger suas comunicações e dados sensíveis.\nPara assegurar a proteção das comunicações do tribunal por meio da internet, a organização deve utilizar o protocolo",
+        "alternativas": [
+            "AES.",
+            "RSA.",
+            "SSL/TLS.",
+            "DES.",
+            "SSH."
+        ],
+        "gabarito": "SSL/TLS."
+    },
+    {
+        "id": 57,
+        "enunciado": "Cookies de websites podem ser processados e utilizados para treinamento de algoritmos de IA. No entanto, há preocupações éticas com relação à privacidade dos dados armazenados nos cookies. Uma das formas de aumentar a proteção dos dados dos usuários consiste em buscar a configuração mais segura dos atributos opcionais dos cookies.\nDos atributos opcionais de cookies listados abaixo, aquele que deve ser configurado para sinalizar ao navegador que o cookie deve ser enviado apenas por meio de uma conexão encriptada HTTPS é o",
+        "alternativas": [
+            "domain.",
+            "httpOnly.",
+            "signed.",
+            "path.",
+            "secure."
+        ],
+        "gabarito": "secure."
+    },
+    {
+        "id": 58,
+        "enunciado": "Em virtude de uma nova demanda solicitada pela Defensoria Pública do Estado do Rio Grande do Sul (DPE/RS), o Departamento de Infraestrutura deverá configurar uma rede sem fio para uso pelos servidores de acordo com a política de segurança implementada. A rede poderá ser utilizada com dispositivos fornecidos pela DPE/RS ou dispositivos próprios. O Departamento de Infraestrutura implementará as diretrizes de configuração para sistemas operacionais e aplicações criadas pelo Departamento de Segurança.\nUm dos controles de segurança aplicados pelo Departamento de Infraestrutura para a rede sem fio da DPE/RS é:",
+        "alternativas": [
+            "evitar o bloqueio automático em caso de não utilização do dispositivo;",
+            "utilizar o recurso do autocompletar para lembrar de usuários e senhas;",
+            "desabilitar a proteção SSL, pois a conexão não possui um nível de segurança que atende à política da DPE/RS;",
+            "a não alteração da configuração de dispositivos como bluetooth e câmera nos dispositivos móveis corporativos;",
+            "implementar e impor restrições sobre quais dispositivos poderão se sincronizar e sobre o uso do armazenamento baseado na nuvem."
+        ],
+        "gabarito": "implementar e impor restrições sobre quais dispositivos poderão se sincronizar e sobre o uso do armazenamento baseado na nuvem."
+    },
+    {
+        "id": 59,
+        "enunciado": "A analista Débora é responsável por administrar os servidores web da DPE/RS. Débora atualizou a configuração dos servidores a fim de garantir que a comunicação por Hypertext Transfer Protocol Secure (HTTPS) utilize apenas a versão 1.3 do Transport Layer Security (TLS), desativando o suporte a versões anteriores. A atualização feita por Débora visa garantir uma segurança ainda maior nas comunicações por HTTPS, pois Débora sabe que o TLS 1.3 já opera no modo criptografado logo após a mensagem do handshake que determina os parâmetros criptográficos que serão usados na conexão.\nSendo assim, a atualização garante que a comunicação por HTTPS entrará no modo criptografado logo após a mensagem do TLS 1.3:",
+        "alternativas": [
+            "ClientHello;",
+            "ServerHello;",
+            "CertificateVerify;",
+            "CertificateRequest;",
+            "EncryptedExtensions."
+        ],
+        "gabarito": "ServerHello;"
+    },
+    {
+        "id": 60,
+        "enunciado": "Ao estabelecer uma VPN institucional entre o MPT, o MPF e n procuradores com notebooks conectados remotamente, é necessário configurar associações de segurança (SAs) para suportar o tráfego IPsec bidirecional.\nEssas associações são estabelecidas entre:\n• o roteador de borda do MPF e o roteador de borda do MPT;\n• o roteador de borda do MPF e cada notebook dos n procuradores.\nNesse caso, o número total de associações de segurança necessárias para suportar o tráfego IPsec bidirecional é de:",
+        "alternativas": [
+            "2n;",
+            "4n;",
+            "2+n;",
+            "2+2n;",
+            "2+3n."
+        ],
+        "gabarito": "2+2n;"
+    },
+    {
+        "id": 61,
+        "enunciado": "O protocolo IPSEC (Internet Protocol Security) é amplamente utilizado para proteger comunicações IP com autenticação e criptografia.\nO protocolo IPSEC pode operar em dois modos principais: modo transporte e modo túnel. Compreender a diferença entre esses modos é crucial para a implementação eficaz de segurança nas comunicações.\nNesse sentido, assinale a opção que apresenta a principal diferença entre eles.",
+        "alternativas": [
+            "O modo transporte encapsula o pacote IP inteiro, enquanto o modo túnel protege apenas o payload.",
+            "O modo transporte não suporta criptografia, enquanto o modo túnel suporta.",
+            "O modo túnel fornece confidencialidade e integridade, enquanto o modo transporte fornece apenas integridade.",
+            "O modo túnel utiliza AH e ESP para garantir integridade e confidencialidade, enquanto o modo transporte utiliza apenas AH.",
+            "O modo transporte protege apenas o payload do pacote IP, enquanto o modo túnel encapsula o pacote IP inteiro."
+        ],
+        "gabarito": "O modo transporte protege apenas o payload do pacote IP, enquanto o modo túnel encapsula o pacote IP inteiro."
+    },
+    {
+        "id": 62,
+        "enunciado": "Parte de um setor administrativo de um órgão foi transferido fisicamente para outra localidade. Para permitir acesso seguro aos sistemas hospedados em ambos os locais, a equipe de Tecnologia da Informação (TI) configurou uma VPN (Virtual Private Network) baseada em IPsec (Internet Protocol Security). Ao estabelecer uma conexão IPSEC, as associações de segurança (Security Associations - SA) são criadas contendo as especificações de segurança definidas entre os dois dispositivos que participam da VPN.\nO componente IPSEC responsável por criar as SA é:",
+        "alternativas": [
+            "Authentication Header Protocol;",
+            "Encapsulating Security Payload Protocol;",
+            "Internet Key Exchange;",
+            "Security Association Database;",
+            "Security Policy Database."
+        ],
+        "gabarito": "Internet Key Exchange;"
+    },
+    {
+        "id": 63,
+        "enunciado": "Você é um administrador de rede responsável por garantir a segurança das comunicações entre vários escritórios de uma empresa global. Para proteger os dados que trafegam pela internet entre esses escritórios, você decide implementar o IPsec para criar uma VPN.\nDurante uma sessão de treinamento para a equipe de TI, você explica como o IPsec funciona e menciona que, antes de enviar datagramas IPsec entre duas entidades da rede, é necessário estabelecer uma conexão lógica de rede denominada:",
+        "alternativas": [
+            "Conexão Segura;",
+            "Canal de Confiança;",
+            "Associação de Rede;",
+            "Sessão de Segurança;",
+            "Associação de Segurança."
+        ],
+        "gabarito": "Associação de Segurança."
+    },
+    {
+        "id": 64,
+        "enunciado": "As VPNs permitem que empresas utilizem redes de comunicação públicas e não confiáveis para trafegar informações de forma segura.\nA suíte de protocolos utilizada para configurar conexões VPN e que opera na camada de rede do modelo OSI e provê autenticação em nível da rede, verificação da integridade de dados e transmissão com criptografia é",
+        "alternativas": [
+            "atm.",
+            "ppp.",
+            "netbios.",
+            "ipsec.",
+            "tls."
+        ],
+        "gabarito": "ipsec."
+    },
+    {
+        "id": 65,
+        "enunciado": "Sobre técnicas de segurança de tráfego na web, analise as afirmativas a seguir.\nI. IPSec pode ser usado para criptografar dados enviados entre quaisquer sistemas que possam ser identificados por endereços IP.\nII. TLS opera na camada de rede do modelo OSI oferecendo um serviço seguro e confiável de ponta a ponta.\nIII. O protocolo HTTP pode operar em cima do protocolo SSL/TLS para obter conexão criptografada.\nEstá correto o que se afirma em:",
+        "alternativas": [
+            "somente I;",
+            "somente II;",
+            "somente III;",
+            "somente I e III;",
+            "I, II e III."
+        ],
+        "gabarito": "somente I e III;"
+    },
+    {
+        "id": 66,
+        "enunciado": "Uma empresa startup precisa implementar uma conexão segura para apoiar o trabalho remoto (home office) de seus funcionários. Diante das diversas formas de implementação da segurança, o CIO (Chief Information Officer) elencou os seguintes critérios, que devem ser mandatórios:\n- implementar a segurança em camadas mais baixas do modelo TCP (Transmission Control Protocol) / IP (Internet Protocol) de forma a não ter perda relevante de performance da rede;\n- ser transparente aos usuários finais sem afetar suas aplicações;\n- garantir o sigilo, a integridade e a autenticidade; e - reduzir o overhead de gerenciamento de rede.\nBaseado nos critérios definidos pelo CIO, a segurança da rede deve ser implementada por meio do uso do:",
+        "alternativas": [
+            "IPSec (Internet Protocol Security) no formato AH (Authentication Header) no modo transporte instalado em um firewall;",
+            "IPSec (Internet Protocol Security) no formato ESP (Encapsulating Security Payload) completo no modo túnel instalado em um roteador;",
+            "SSL (Secure Socket Layer) rodando sob o HTTP (Hypertext Transfer Protocol) para garantir o tráfego seguro na Web;",
+            "algoritmo de criptografia DES (Data Encryption Standart) antes de enviar pela rede ao destinatário;",
+            "IPSec (Internet Protocol Security) no formato ESP (Encapsulating Security Payload) completo no modo transporte instalado em um switch."
+        ],
+        "gabarito": "IPSec (Internet Protocol Security) no formato ESP (Encapsulating Security Payload) completo no modo túnel instalado em um roteador;"
+    },
+    {
+        "id": 67,
+        "enunciado": "O protocolo de rede criptográfico Secure Shell (SSH) é muito utilizado para realizar o acesso remoto a servidores de forma segura.\nAnalise as afirmativas a seguir relativas ao protocolo SSH.\nI. O protocolo SSH possui uma arquitetura cliente-servidor.\nII. O SSH é um protocolo da camada de aplicação do modelo OSI.\nIII. Por questões de segurança, o protocolo SSH utiliza somente a porta TCP 22.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, apenas.",
+            "I e II, apenas.",
+            "I e III, apenas.",
+            "II e III, apenas.",
+            "I, II e III."
+        ],
+        "gabarito": "I e II, apenas."
+    },
+    {
+        "id": 68,
+        "enunciado": "O analista João trabalha conectado remotamente ao servidor SERV10, através de um cliente Secure Shell (SSH), em sua estação de trabalho ET10. João constatou que, ao deixar de usar o cliente SSH por alguns minutos, ocorre a queda da conexão remota sem, no entanto, ocorrer a queda do link de rede. Ao investigar o motivo da queda, João descobriu que as sessões SSH são encerradas por SERV10 após 5 minutos de ociosidade de tráfego. Para mitigar a queda de conexão por ociosidade, João configurou no cliente SSH o parâmetro que estabelece o envio automático de um pacote criptografado com o objetivo de evitar o encerramento da sessão.\nPortanto, João configurou no cliente SSH da ET10 o parâmetro:",
+        "alternativas": [
+            "TCPKeepAlive;",
+            "ChannelTimeout;",
+            "ClientAliveInterval;",
+            "ServerAliveInterval;",
+            "UnusedConnectionTimeout."
+        ],
+        "gabarito": "ServerAliveInterval;"
+    },
+    {
+        "id": 69,
+        "enunciado": "O acesso remoto SSH permite conexões seguras e criptografadas entre sistemas, permitindo aos usuários controlar e administrar remotamente servidores e dispositivos de rede de forma eficiente e confiável.\nAssinale a opção que indica a finalidade do arquivo “known_hosts” no contexto do SSH.",
+        "alternativas": [
+            "Armazenar as chaves públicas dos servidores remotos que o cliente SSH acessou.",
+            "Registrar os usuários permitidos a se conectar ao servidor ssh.",
+            "Armazenamento dos logs de atividades realizadas através do SSH.",
+            "Manter uma lista dos servidores SSH disponíveis em uma rede local.",
+            "Armazenar as chaves privadas do servidor local."
+        ],
+        "gabarito": "Armazenar as chaves públicas dos servidores remotos que o cliente SSH acessou."
+    },
+    {
+        "id": 70,
+        "enunciado": "A arquitetura TCP/IP é composta por diversas camadas que permitem a comunicação entre computadores em uma rede. Na camada de aplicação são implementados diversos protocolos, como o login remoto seguro.\nNa camada de aplicação, o protocolo de rede que usa criptografia para proteger a conexão entre um cliente e um servidor, permitindo uma administração de rede segura por sobre uma rede insegura, é o:",
+        "alternativas": [
+            "FTP;",
+            "DNS;",
+            "SSH;",
+            "HTTP;",
+            "SMTP."
+        ],
+        "gabarito": "SSH;"
+    },
+    {
+        "id": 71,
+        "enunciado": "A segurança em redes sem fio é um tema essencial para proteger dados e garantir a privacidade de informações em um ambiente conectado. Os protocolos de segurança EAP, WEP, WPA e WPA2 são amplamente utilizados para assegurar a proteção das redes sem fio contra acessos não autorizados. Nesse sentido, assinale a opção que indica o protocolo de segurança para redes sem fio que é considerado o mais seguro e que, atualmente, é amplamente utilizado.",
+        "alternativas": [
+            "WEP.",
+            "WPA.",
+            "WPA2.",
+            "EAP.",
+            "WP3."
+        ],
+        "gabarito": "WPA2."
+    },
+    {
+        "id": 72,
+        "enunciado": "Davi é gerente de segurança em uma multinacional e recebeu a demanda de implementar a segurança na rede Wi-Fi de uma das filiais. Ele buscou por um protocolo que conseguisse ter um bom nível de segurança e não consumisse muitos recursos com criptografia.\nApós alguns estudos, Davi selecionou o WPA2 em virtude de ser um modelo de criptografia mais utilizado em redes sem fio e possuir características voltadas para o uso empresarial e corporativo, além de ter um nível de segurança considerado:",
+        "alternativas": [
+            "médio, protocolo de criptografia TKIP e método de autenticação PSK;",
+            "alto, protocolo de criptografia AES e método de autenticação PSK;",
+            "baixo, protocolo de criptografia RC4 e método de autenticação CRC;",
+            "altíssimo, protocolo de criptografia AES e método de autenticação SAE;",
+            "baixo, protocolo de criptografia EAP-MD5 e método de autenticação RADIUS."
+        ],
+        "gabarito": "alto, protocolo de criptografia AES e método de autenticação PSK;"
+    },
+    {
+        "id": 73,
+        "enunciado": "O administrador de rede de uma empresa deseja realizar a autenticação de dispositivos conectados em um comutador de rede (Switch), elemento da camada enlace de dados do modelo OSI, com auxílio de um servidor de autenticação.\nO protocolo adequado a esse tipo de operação é:",
+        "alternativas": [
+            "IEEE 802.1q;",
+            "IEEE 802.1p;",
+            "IEEE 802.1x;",
+            "IEEE 802.11b;",
+            "IEEE 802.15."
+        ],
+        "gabarito": "IEEE 802.1x;"
+    },
+    {
+        "id": 74,
+        "enunciado": "Considerando os protocolos de segurança EAP, WEP, WPA e WPA2, é correto, para a segurança de uma rede sem fio, que devemos",
+        "alternativas": [
+            "utilizar exclusivamente o protocolo EAP, uma vez que sua antiguidade no mercado o torna amplamente compatível com diversos dispositivos e sistemas operacionais.",
+            "preferir autenticação somente com WPA2 e criptografia WEP, pois ele é criado para garantir a conexão dos dispositivos dos usuários, minimizando obstáculos de acesso.",
+            "implementar o protocolo WPA2 juntamente com EAP para uma camada adicional de autenticação, garantindo assim uma conexão segura e uma defesa robusta contra ataques.",
+            "usar a criptografia WPA para aumentar a velocidade de transmissão de dados, compensando através do uso intensivo de softwares antivírus nos dispositivos conectados.",
+            "configurar a rede para permitir conexões anônimas, facilitando assim o gerenciamento de dispositivos IoT na infraestrutura sem sacrificar a segurança."
+        ],
+        "gabarito": "implementar o protocolo WPA2 juntamente com EAP para uma camada adicional de autenticação, garantindo assim uma conexão segura e uma defesa robusta contra ataques."
+    },
+    {
+        "id": 75,
+        "enunciado": "O administrador de rede deseja realizar a autenticação de usuários que se conectam a uma rede sem fio, do tipo wifi, com o auxílio de um servidor de autenticação.\nO protocolo adequado para essa autenticação é",
+        "alternativas": [
+            "IEEE 802.1q.",
+            "IEEE 802.15.",
+            "IEEE 802.1p.",
+            "IEEE 802.11b.",
+            "IEEE 802.1x."
+        ],
+        "gabarito": "IEEE 802.1x."
+    },
+    {
+        "id": 76,
+        "enunciado": "Considerando a necessidade da EPE em proteger suas redes sem fio contra acessos não autorizados e garantir a integridade das comunicações, ela irá revisar e implementar as melhores práticas de segurança.\nPara assegurar a segurança das redes sem fio, a EPE deve implementar",
+        "alternativas": [
+            "EAP para autenticação, sem nenhuma forma de criptografia adicional.",
+            "WPA2 com algoritmo AES, para fornecer criptografia e proteção contra acessos não autorizados.",
+            "MCHAP-V2, para criptografar todos os dados em trânsito.",
+            "Sistema de Criptografia WEP, sem necessidade de autenticação adicional.",
+            "Sistema Aberto, sem segurança para facilitar o acesso."
+        ],
+        "gabarito": "WPA2 com algoritmo AES, para fornecer criptografia e proteção contra acessos não autorizados."
+    },
+    {
+        "id": 77,
+        "enunciado": "Um técnico está configurando uma rede Wi-Fi em um tribunal e precisa garantir que a autenticação WEP esteja funcionando corretamente entre os dispositivos cliente e o ponto de acesso.\nA sequência que descreve o processo de autenticação WEP é:",
+        "alternativas": [
+            "desafio, resposta, requisição e sucesso;",
+            "requisição, desafio, sucesso e resposta;",
+            "requisição, sucesso, desafio e resposta;",
+            "requisição, desafio, resposta e sucesso;",
+            "desafio, sucesso, resposta e requisição."
+        ],
+        "gabarito": "requisição, desafio, resposta e sucesso;"
+    },
+    {
+        "id": 78,
+        "enunciado": "Um órgão que realiza atendimento presencial ao público implementou três redes sem fio e configurou protocolos de segurança distintos nelas. Os protocolos foram implementados de acordo com os requisitos de segurança necessários para cada rede, conforme descritos abaixo:\n1. rede pública: protocolo com chave criptográfica única e estática de 128 bits que utiliza algoritmo de criptografia RC4;\n2. rede interna: protocolo com chave criptográfica AES, com senhas longas;\n3. rede terceirizada: protocolo com chave criptográfica gerada dinamicamente e alterada regularmente em tempos pré-definidos, com base no algoritmo de criptografia RC4, com senhas curtas.\nOs protocolos de segurança implementados na rede foram, respectivamente:",
+        "alternativas": [
+            "WPA, EAP e WPA3;",
+            "WPA, WEP e WPA2;",
+            "WEP, WPA2 e WPA;",
+            "WEP, WPA3 e EAP;",
+            "EAP, WEP e WPA2."
+        ],
+        "gabarito": "WEP, WPA2 e WPA;"
+    },
+    {
+        "id": 79,
+        "enunciado": "Uma universidade está atualizando sua infraestrutura de rede para melhorar a segurança e a autenticação dos usuários. Eles decidiram implementar o protocolo 802.1X para controlar o acesso à rede local (LAN) em todo o campus. Durante uma reunião de planejamento, a equipe de TI da universidade analisa várias afirmações sobre o protocolo 802.1X para garantir que todos entendam como ele funciona.\nAcerca do 802.1X, é correto afirmar que:",
+        "alternativas": [
+            "uma porta não controlada permite a troca de PDUs entre o solicitante e os outros AS, independentemente do estado de autenticação do solicitante;",
+            "para um IBSS, não há qualquer AP. Para um IBSS, o 802.11i provê uma solução mais complexa, que envolve autenticação par a par entre estação e servidor;",
+            "a estrutura do 802.1X, com um protocolo de autenticação de camada superior, ajusta-se muito bem à arquitetura BSS, que inclui apenas uma estação sem fio e um AP;",
+            "usa o conceito de portas controladas e não controladas. Portas são entidades lógicas definidas dentro do autenticador e referem-se a conexões lógicas de rede;",
+            "para uma WLAN, o autenticador (o AP) pode ter duas portas físicas ou mais, sendo uma a que o conecta ao DS e uma para comunicação sem fio dentro de seu BSS, entre outras possíveis."
+        ],
+        "gabarito": "uma porta não controlada permite a troca de PDUs entre o solicitante e os outros AS, independentemente do estado de autenticação do solicitante;"
+    },
+    {
+        "id": 80,
+        "enunciado": "O Departamento de Segurança do Tribunal Regional Federal da 1ª Região está substituindo a rede local cabeada do Departamento Pessoal por uma rede sem fio por não conseguir passagem para os cabos novos. Para garantir a segurança das informações, o Departamento de Segurança buscou o algoritmo de criptografia que melhor atendesse às questões de confidencialidade e performance da rede.\nAo final da busca, decidiu-se implementar o WPA3, porque ele:",
+        "alternativas": [
+            "criptografa o tráfego usando uma chave de 64 ou 128 bits em hexadecimal e faz uso de uma chave estática;",
+            "é um algoritmo de chave simétrica que utiliza cifra de fluxo para criptografar cada caractere de uma mensagem de forma individual e independente, usando uma chave privada;",
+            "possui proteção mais forte contra ataque de força bruta e criptografia de dados individualizada, além de usar um sistema de protocolo de provisionamento de dispositivo;",
+            "é baseado no algoritmo Advanced Encryption Standard (AES), que fornece a autenticidade da mensagem e verificação de integridade, embora seja vulnerável a ataques de reinstalação de chave;",
+            "usa o protocolo de integridade de chave temporal (TKIP), que altera dinamicamente a chave que os sistemas usam. Isso evita que invasores criem sua própria chave de criptografia para corresponder à usada pela rede segura."
+        ],
+        "gabarito": "possui proteção mais forte contra ataque de força bruta e criptografia de dados individualizada, além de usar um sistema de protocolo de provisionamento de dispositivo;"
+    },
+    {
+        "id": 81,
+        "enunciado": "A analista Cátia foi incumbida de implantar o mais rápido possível, no TCE/TO, a autenticação na rede baseada em porta conforme padrão IEEE (Institute of Electrical and Electronics Engineers) 802.1X. Para tanto, Cátia optou por utilizar a variante básica do EAP (Extensible Authentication Protocol) que não dispõe de autenticação mútua entre suplicante e servidor de autenticação e não permite gerar chaves WEP (Wired Equivalent Privacy) de forma dinâmica.\nLogo, Cátia optou por utilizar a variante EAP:",
+        "alternativas": [
+            "Tunneled Transport Layer Security.",
+            "Transport Layer Security;",
+            "Message Digest 5;",
+            "Flexible Authentication Secure Tunneling;",
+            "Protected Extensible Authentication Protocol."
+        ],
+        "gabarito": "Message Digest 5;"
+    },
+    {
+        "id": 82,
+        "enunciado": "Os protocolos FTPS e SFTP são variações do protocolo FTP, com ênfase na segurança. Sobre esses protocolos, analise as afirmativas a seguir.\nI. Em geral, o FTPS é mais fácil de configurar do que o SFTP, especialmente em relação à gestão de firewalls e portas.\nII. O SFTP pode enfrentar desafios com NAT devido à necessidade de abrir múltiplas portas para a conexão de dados e controle.\nIII. O FTPS emprega certificados SSL para garantir a segurança, enquanto o SFTP trabalha com SSH.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, apenas.",
+            "II, apenas.",
+            "III, apenas.",
+            "II e III, apenas.",
+            "I, II e III."
+        ],
+        "gabarito": "III, apenas."
+    },
+    {
+        "id": 83,
+        "enunciado": "Para assegurar a confidencialidade e a integridade das comunicações da Assembleia, tanto na navegação web quanto no envio e recebimento de mensagens eletrônicas, é indispensável a utilização de protocolos que estabeleçam canais criptografados.\nNesse contexto, assinale a alternativa que apresenta os protocolos ou padrões adotados para prover segurança ao protocolo HTTP, viabilizando o HTTPS, bem como para proteger o conteúdo das mensagens de e-mail.",
+        "alternativas": [
+            "FTP e SNMP.",
+            "TCP e UDP.",
+            "SSH e Telnet.",
+            "SSL/TLS e S/MIME.",
+            "DNS e ICMP."
+        ],
+        "gabarito": "SSL/TLS e S/MIME."
+    },
+    {
+        "id": 84,
+        "enunciado": "Um programador de software deseja configurar um aplicativo de segurança que trabalhe com a porta TCP oficial que trabalha com o protocolo de acesso ao roteador.\nPara isso, o aplicativo vai atuar na porta TCP",
+        "alternativas": [
+            "38.",
+            "42.",
+            "67.",
+            "80.",
+            "101."
+        ],
+        "gabarito": "38."
+    },
+    {
+        "id": 85,
+        "enunciado": "Um dispositivo de segurança de rede controla o acesso à internet de uma rede corporativa de computadores. Nesse controle, todo tráfego de retorno com origem na internet e destino à rede corporativa é permitido.\nAs regras que controlam os pacotes com origem na rede corporativa e destino na internet estão apresentadas na tabela a seguir.\nEm relação aos dispositivos desta rede corporativa e as regras de acesso estabelecidas pelo dispositivo de segurança, analise as seguintes afirmativas:\nI. Os dispositivos desta rede corporativa poderão realizar acessos ao serviço de resolução de nomes (DNS) e páginas web (HTTP e HTTPS) disponíveis na internet.\nII. Os dispositivos desta rede corporativa poderão realizar acessos a outros dispositivos na internet por meio do protocolo Secure Shell (SSH) e Telnet; e\nIII. Os dispositivos desta rede corporativa poderão realizar transferência de arquivos com dispositivos na internet por meio do File Transfer Protocol (FTP).\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, apenas.",
+            "II, apenas.",
+            "III, apenas.",
+            "I e II, apenas.",
+            "II e III, apenas."
+        ],
+        "gabarito": "II, apenas."
+    },
+    {
+        "id": 86,
+        "enunciado": "A DPE/RS utiliza diversos sistemas de informação disponibilizados em sua rede interna. Para aumentar a produtividade da Defensoria, o chefe de TI Pedro contratou uma consultoria que sugeriu a adoção do single sign-on.\nAo adotar o single sign-on, Pedro:",
+        "alternativas": [
+            "aumenta o problema de “fadiga de senha” dos seus usuários;",
+            "reduz as restrições da política de segurança para as senhas;",
+            "utiliza um duplo fator de autenticação;",
+            "reduz os riscos de acesso indevido a partir de um computador compartilhado;",
+            "pode gerenciar de forma centralizada as permissões de acesso de cada usuário."
+        ],
+        "gabarito": "pode gerenciar de forma centralizada as permissões de acesso de cada usuário."
+    },
+    {
+        "id": 87,
+        "enunciado": "Ao efetuar uma investigação de segurança, um analista de segurança do Tribunal de Justiça do Estado do Rio de Janeiro (TJRJ) identificou um processo que tentava se comunicar com um domínio recém-criado, porém não categorizado.\nEm seu relatório para o chefe de TI do TJRJ, o analista explica o que foi encontrado a partir da seguinte técnica de observabilidade:",
+        "alternativas": [
+            "criptografia de tráfego;",
+            "backup de logs em nuvem;",
+            "análise de reputação de domínio;",
+            "monitoramento de CPU e memória;",
+            "controle de acesso baseado em função."
+        ],
+        "gabarito": "análise de reputação de domínio;"
+    },
+    {
+        "id": 88,
+        "enunciado": "Um administrador de rede deseja instalar um servidor Syslog na rede de sua empresa. Esse servidor será protegido por um dispositivo de segurança do tipo firewall.\nDurante a configuração desse servidor, o administrador de rede optou por utilizar o protocolo sem necessidade de conexão dentre os protocolos TCP e UDP disponíveis.\nCom relação ao assunto, avalie as afirmativas a seguir:\nI. O firewall deverá permitir que os pacotes do tipo UDP com porta de destinado 514 acessem o servidor Syslog.\nII. O protocolo Syslog possui níveis de severidade de mensagens, que vão de 0 (Emergency) a 7 (Debug).\nIII. O servidor Syslog poderá armazenar mensagens de diversos ativos de rede da empresa.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, apenas.",
+            "I e II, apenas.",
+            "I e III, apenas.",
+            "II e III, apenas.",
+            "I, II e III."
+        ],
+        "gabarito": "I, II e III."
+    },
+    {
+        "id": 89,
+        "enunciado": "Durante uma auditoria de segurança, uma organização descobriu que seus logs de eventos estavam distribuídos em vários servidores. A organização decidiu implementar um servidor de log centralizado que possa receber logs de servidores Linux via Syslog e de servidores Windows via Microsoft Event Viewer.\nAssinale a opção que melhor descreve a principal vantagem de implementar um servidor de log centralizado.",
+        "alternativas": [
+            "Reduzir o espaço de armazenamento necessário para logs em cada servidor individual.",
+            "Facilitar a correlação e análise de eventos de segurança de toda a infraestrutura.",
+            "Eliminar a necessidade de configuração de logs em servidores individuais.",
+            "Aumentar a segurança dos logs ao mantê-los apenas localmente nos servidores.",
+            "Melhorar o desempenho dos servidores individuais ao desativar a geração de logs."
+        ],
+        "gabarito": "Facilitar a correlação e análise de eventos de segurança de toda a infraestrutura."
+    },
+    {
+        "id": 90,
+        "enunciado": "Um Centro de Operações de Segurança (Security Operations Center – SOC) foi instituído em um órgão para manter o seu ambiente de Tecnologia da Informação (TI) seguro, estável e controlado.\nUma das atribuições do SOC é monitorar os ativos, permitindo:",
+        "alternativas": [
+            "executar ações previamente definidas para a manutenção de sua disponibilidade;",
+            "identificar a causa raiz de lentidão e outros problemas que podem afetar o seu desempenho;",
+            "enviar alertas para os responsáveis pelo tratamento de possíveis incidentes;",
+            "correlacionar os dados coletados, identificando padrões anômalos de comportamento;",
+            "cumprir os requisitos estabelecidos no SLA (Service Level Agreement)."
+        ],
+        "gabarito": "correlacionar os dados coletados, identificando padrões anômalos de comportamento;"
+    },
+    {
+        "id": 91,
+        "enunciado": "O administrador de redes de um órgão público implementou uma ferramenta para registrar os eventos (logs) críticos de seus sistemas e ativos, coletando-os e gerenciando-os de forma centralizada. A ferramenta é baseada no padrão Syslog, em conformidade com a RFC 5424 (The Syslog Protocol).\nConsiderando as especificações técnicas da RFC 5424 para o protocolo Syslog, a ferramenta para registro de logs atende o requisito:",
+        "alternativas": [
+            "arquitetura em 2 camadas: conteúdo e aplicação;",
+            "entrega confiável de mensagens baseada no protocolo de transporte TCP;",
+            "envio de mensagens Syslog dos dispositivos (originator) para mais de um coletor;",
+            "originator, relay e collector não podendo operar no mesmo servidor por questão de segurança;",
+            "as mensagens Syslog são informativas, não possuindo níveis diferentes de severidade."
+        ],
+        "gabarito": "envio de mensagens Syslog dos dispositivos (originator) para mais de um coletor;"
+    },
+    {
+        "id": 92,
+        "enunciado": "Monitorar e auditar o tráfego de informação corporativa é uma prática comumente utilizada por organizações para detectar atividades não autorizadas de processamento da informação.\nA técnica utilizada nas atividades de gerência para capturar e interpretar as informações sobre aquilo que trafega em cada segmento de rede é:",
+        "alternativas": [
+            "NTP;",
+            "SMI;",
+            "Kibana;",
+            "Sniffing;",
+            "Vishing."
+        ],
+        "gabarito": "Sniffing;"
+    },
+    {
+        "id": 93,
+        "enunciado": "A técnica de controle de spams que se propõe a deliberadamente converter endereços de correio eletrônico no formato padrão (por exemplo: pessoa@servidor.com) em outro a princípio não coletável por coletores automáticos de e-mail (no exemplo anterior: pessoa em servidor ponto com) é conhecida como",
+        "alternativas": [
+            "diffmail.",
+            "filtragem de conteúdo.",
+            "filtragem de modelagem (shaping filters).",
+            "greylisting.",
+            "munging."
+        ],
+        "gabarito": "munging."
+    },
+    {
+        "id": 94,
+        "enunciado": "Uma empresa hipotética configurou SPF, DKIM e DMARC para proteger seus domínios de e-mail. Ao revisar as políticas DMARC, o administrador de TI percebe que a política está definida como \"none\". Ele está considerando atualizar as configurações SPF, DKIM e DMARC para aumentar a segurança e confiabilidade dos e-mails.\nConsiderando o cenário descrito acima, assinale a opção que melhor descreve a ação que o administrador de TI deve tomar para configurar a política de tal forma que as mensagens suspeitas continuem sendo entregues, mas sejam marcadas como spam.",
+        "alternativas": [
+            "Manter a política DMARC como \"none\" e monitorar os relatórios.",
+            "Atualizar a política DKIM para \"reject\".",
+            "Atualizar a política DMARC para \"quarantine\" e monitorar os relatórios.",
+            "Desativar DKIM e manter apenas SPF.",
+            "Adicionar mais servidores à política SPF."
+        ],
+        "gabarito": "Atualizar a política DMARC para \"quarantine\" e monitorar os relatórios."
+    },
+    {
+        "id": 95,
+        "enunciado": "Considere o cenário onde uma organização deseja implementar uma solução robusta para garantir que apenas e-mails legítimos, enviados de servidores autorizados, sejam entregues aos destinatários. Esta solução também deve permitir a detecção e prevenção de e-mails falsificados, além de fornecer relatórios detalhados sobre as tentativas de envio de e-mails fraudulentos.\nAssinale a opção que melhor descreve o método de autenticação de e-mails que cumpre todas essas exigências ao integrar SPF e DKIM, fornecendo políticas de autenticação e relatórios.",
+        "alternativas": [
+            "SSL.",
+            "DKIM.",
+            "TLS.",
+            "DMARC.",
+            "VCM."
+        ],
+        "gabarito": "DMARC."
+    },
+    {
+        "id": 96,
+        "enunciado": "Um órgão precisa enviar informações rotineiras para seus usuários por e-mail. Para que os e-mails enviados não sejam caracterizados como SPAM, é necessário que:",
+        "alternativas": [
+            "impeçam a coleta do endereço eletrônico, apresentando cabeçalho incompleto com o campo do remetente vazio;",
+            "contenham caracteres especiais no lugar de algumas letras para validar o domínio do e-mail enviado;",
+            "não permitam a identificação do órgão, o que exige que o campo assunto inclua termos vagos e genéricos, a fim de impedir um ataque de e-mail spoofing;",
+            "sejam usadas listas de divulgação de terceiros ou de fornecedores de mala direta para garantir a validação dos e-mails destinatários;",
+            "sejam usados como contato com o cliente apenas com sua prévia autorização."
+        ],
+        "gabarito": "sejam usados como contato com o cliente apenas com sua prévia autorização."
+    },
+    {
+        "id": 97,
+        "enunciado": "Comunicações via e-mail estão sujeitas a ataques tipo spoofing, phishing e spam. Para diminuir a possibilidade e frequência desses ataques, costuma-se usar um mecanismo para autenticação de e-mail baseado em criptografia de chaves públicas, que ficam armazenadas no DNS no domínio do assinante.\nEsse mecanismo chama-se",
+        "alternativas": [
+            "Greylisting.",
+            "DKIM.",
+            "SPF.",
+            "Blacklisting.",
+            "PGP."
+        ],
+        "gabarito": "DKIM."
+    },
+    {
+        "id": 98,
+        "enunciado": "O NAC (Network Access Control) pode utilizar diferentes métodos de verificação para garantir que dispositivos remotos estejam em conformidade com as políticas de segurança da rede. Esses métodos incluem agentes permanentes, dissolúveis e soluções sem agentes, cada um com vantagens e desvantagens.\nUma limitação operacional das soluções NAC sem agentes",
+        "alternativas": [
+            "é a complexidade de implementação, pois é necessário instalar software adicional nos dispositivos finais.",
+            "é a incapacidade de realizar verificações de conformidade em dispositivos que utilizam sistemas operacionais baseados em Linux.",
+            "é a dificuldade em obter informações detalhadas sobre o estado de segurança dos dispositivos, limitando as verificações a um nível superficial.",
+            "é a incompatibilidade com dispositivos que se conectam à rede via conexões sem fio.",
+            "são dispositivos que não suportam a instalação de agentes ou têm restrições de software não podem ser gerenciados."
+        ],
+        "gabarito": "é a dificuldade em obter informações detalhadas sobre o estado de segurança dos dispositivos, limitando as verificações a um nível superficial."
+    },
+    {
+        "id": 99,
+        "enunciado": "Uma corretora de valores, especializada em serviços financeiros digitais, buscou a implementação do modelo Zero Trust após sofrer um ataque de ransomware que explorou credenciais de um colaborador remoto.\nCom o objetivo de evitar novos ataques nesse sentido e se adequar aos princípios do modelo, a ação alinhada com o processo a ser executado pela corretora é:",
+        "alternativas": [
+            "utilizar firewalls tradicionais para proteger o perímetro da rede;",
+            "permitir acesso irrestrito à rede interna para dispositivos autenticados;",
+            "confiar em VPNs como única camada de segurança para usuários remotos;",
+            "conceder acesso baseado em função, sem considerar contexto ou comportamento;",
+            "implementar microssegmentação para isolar recursos críticos e limitar movimentos laterais."
+        ],
+        "gabarito": "implementar microssegmentação para isolar recursos críticos e limitar movimentos laterais."
+    },
+    {
+        "id": 100,
+        "enunciado": "A equipe de segurança da informação do TJRJ está implementando uma nova rede, alinhada aos princípios do modelo Zero Trust. Para segmentar a nova rede de forma a isolar granularmente diferentes aplicações e ambientes, a equipe deve empregar uma técnica de segmentação avançada, que permita a definição de políticas de segurança específicas para cada carga de trabalho.\nDentre as técnicas de segmentação disponíveis, a mais apropriada para a nova rede do TJRJ é:",
+        "alternativas": [
+            "a segmentação de rede por sub-redes, com firewalls dedicados para cada segmento de carga de trabalho;",
+            "a microssegmentação, implementando políticas de firewall baseadas em identidade e contexto da carga de trabalho;",
+            "a segmentação de rede baseada em VLANs, criando túneis criptografados para isolar o tráfego de diferentes cargas de trabalho;",
+            "a segmentação de rede por sub-redes, utilizando roteadores com listas de controle de acesso para restringir o tráfego de cada carga de trabalho;",
+            "a segmentação de rede baseada em VLANs, utilizando um sistema de gerenciamento centralizado para aplicar políticas de segurança a várias cargas de trabalho."
+        ],
+        "gabarito": "a microssegmentação, implementando políticas de firewall baseadas em identidade e contexto da carga de trabalho;"
+    },
+    {
+        "id": 101,
+        "enunciado": "Sobre os conceitos e tecnologias relacionados à segurança, como OAuth, arquitetura Zero Trust e mTLS, analise as afirmativas a seguir.\nI. Ao contrário de uma Virtual Private Network (VPN), uma Zero Trust Network Access (ZTNA) é baseada em políticas definidas de controle de acesso, negando acesso por padrão e concedendo acesso a usuários somente com autorização explícita.\nII. O padrão OAuth define dois tipos de clientes em função da capacidade de manter a confidencialidade de suas credenciais: confidencial e público.\nIII. Comumente empregado em estruturas Zero Trust, o mTLS assegura que os entes de uma conexão de rede são realmente quem afirmam ser, checando se ambos possuem a chave pública correta.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, apenas.",
+            "I e II, apenas.",
+            "I e III, apenas.",
+            "II e III, apenas.",
+            "I, II e III."
+        ],
+        "gabarito": "I e II, apenas."
+    },
+    {
+        "id": 102,
+        "enunciado": "Com relação à arquitetura de confiança zero, iniciativa estratégica que ajuda as organizações a prevenir violações de dados, analise as afirmativas a seguir e assinale (V) para a verdadeira e (F) para a falsa.\n( ) A rede é sempre considerada hostil e as ameaças externas e internas existem na rede o tempo todo.\n( ) A localidade da rede não é suficiente para decidir sobre a confiança em uma rede e cada dispositivo, usuário e fluxo de rede deve ser autenticado e autorizado.\n( ) As políticas da rede devem ser dinâmicas e calculadas a partir de tantas fontes de dados quanto possíveis e recomenda-se evitar o uso de softwares open- source.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "F – V – V.",
+            "V – V – F.",
+            "V – F – F.",
+            "F – F – V."
+        ],
+        "gabarito": "V – V – F."
+    },
+    {
+        "id": 103,
+        "enunciado": "Arquitetura Zero Trust é o termo utilizado para um conjunto de paradigmas de cibersegurança em evolução que deslocam as defesas de perímetros estáticos baseados em rede, para se concentrarem nos utilizadores, bens e recursos. Logo, a Zero Trust se baseia na premissa de que o ambiente de segurança deve ser construído em torno dos dados e não dos dispositivos.\nDessa forma, mesmo que um dispositivo seja comprometido, o acesso aos dados sensíveis é limitado, reduzindo o impacto de um possível ataque.\nAssim, o aspecto que caracteriza uma vantagem do uso da arquitetura Zero Trust para a segurança da informação é:",
+        "alternativas": [
+            "uso de novas tecnologias de implementação: utiliza microssegmentação, Gerenciamento de Identidade e Acesso (IAM), automação, orquestração, inteligência artificial e machine learning;",
+            "melhor detecção de ataques: a arquitetura Zero Trust possibilita uma melhor detecção de atividades maliciosas, uma vez que todo comportamento é tratado com cautela e investigado prontamente;",
+            "maior proteção contra ameaças externas: ao não presumir confiança cega em nenhum dispositivo ou usuário, a arquitetura Zero Trust reduz o risco de ataques internos acidentais ou intencionais;",
+            "maior superfície de ataque: com a implementação de controles rigorosos de acesso e autenticação, a superfície de ataque é reduzida, tornando mais difícil para os invasores explorarem vulnerabilidades;",
+            "resposta rápida a incidentes: a segmentação da rede e a aplicação de políticas agranulares permitem que as equipes de segurança isolem rapidamente áreas comprometidas, reduzindo o impacto de incidentes."
+        ],
+        "gabarito": "uso de novas tecnologias de implementação: utiliza microssegmentação, Gerenciamento de Identidade e Acesso (IAM), automação, orquestração, inteligência artificial e machine learning;"
+    },
+    {
+        "id": 104,
+        "enunciado": "João foi contratado para implantar uma arquitetura de zero Trust no Tribunal de Contas do Estado de São Paulo (TCE SP). Ele subdividiu as atividades em um mecanismo de política e um algoritmo Trust. Esse algoritmo é o processo usado pelo mecanismo de política para conceder ou negar acesso a um recurso. As entradas para o algoritmo Trust foram divididas em categorias com base no que fornecem ao algoritmo. João está identificando quem solicita acesso a um recurso e se essa solicitação pode ser feita por um conjunto de sujeitos (humanos ou processos) da empresa ou colaboradores. A informação desse conjunto de sujeitos será parte da política de acesso aos recursos.\nTodas essas informações compõem a entrada ao algoritmo de zero Trust implantado por João, que pertence à categoria:",
+        "alternativas": [
+            "access request;",
+            "subject database;",
+            "asset database;",
+            "resource requirements;",
+            "threat intelligence."
+        ],
+        "gabarito": "subject database;"
+    }
+]

@@ -227,6 +227,7 @@ import re
 def escape_markdown(text):
     # Converte \n em quebra de linha para markdown (dois espaços + newline)
     text = text.replace('\n', '  \n')
+    text = text.replace('R$', r'R\$')
     pattern = r'(?<!\\)(\$.*?(?<!\\)\$)|\$'
     
     def replace_match(match):

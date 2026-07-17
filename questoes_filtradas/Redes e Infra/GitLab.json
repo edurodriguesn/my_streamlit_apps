@@ -43,7 +43,7 @@
     },
     {
         "id": 5,
-        "enunciado": "steps:\n- name: Checkout code uses: actions/checkout@v2 Com base na instrução precedente, julgue o item a seguir, considerando o contexto de um arquivo de workflow no GitHub Actions e a função da ação actions/checkout@v2.\nA instrução apresentada tem como objetivo realizar o checkout, ou seja, baixar o código do repositório no runner para a execução de outras tarefas.",
+        "enunciado": "steps:\n>'''- name: Checkout code uses: actions/checkout@v2'''<\nCom base na instrução precedente, julgue o item a seguir, considerando o contexto de um arquivo de workflow no GitHub Actions e a função da ação actions/checkout@v2.\nA instrução apresentada tem como objetivo realizar o checkout, ou seja, baixar o código do repositório no runner para a execução de outras tarefas.",
         "alternativas": [
             "Certo.",
             "Errado."

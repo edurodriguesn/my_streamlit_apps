@@ -298,7 +298,7 @@
     },
     {
         "id": 29,
-        "enunciado": "Considere o trecho de código abaixo:\npackage javaeetutorial.hello;\nimport javax.ws.rs.*;\n@Path(\"helloworld\") public class HelloWorld { @Context private UriInfo context;\npublic HelloWorld() { } @GET @Produces(\"text/html\") public String getHtml() { return \"<html lang=\\\"en\\\"><body><h1>Hello, World!!</h1></body></html>\";\n} } Em relação às anotações presentes no código, assinale a alternativa que contém uma descrição correta do efeito obtido.",
+        "enunciado": "Considere o trecho de código abaixo:\n>'''package javaeetutorial.hello;\nimport javax.ws.rs.*;\n@Path(\"helloworld\") public class HelloWorld { @Context private UriInfo context;\npublic HelloWorld() { } @GET @Produces(\"text/html\") public String getHtml() { return \"<html lang=\\\"en\\\"><body><h1>Hello, World!!</h1></body></html>\";\n} }'''<\nEm relação às anotações presentes no código, assinale a alternativa que contém uma descrição correta do efeito obtido.",
         "alternativas": [
             "A anotação @Path é relativa ao caminho no sistema de arquivos no qual está o código do Web Service.",
             "A anotação @GET se refere aos métodos get/set, padrão comum para implementar encapsulamento.",
@@ -530,7 +530,7 @@
     },
     {
         "id": 49,
-        "enunciado": "Seja o seguinte trecho de código Java EE 7 usando JAX-RS para definir um WebServices:\n@Path(\"/clientes/{nome}\") public class ClienteResource { @GET @Produces(MediaType.APPLICATION_JSON) public Response getCliente ( ___________ String x){ // processamento } } Para que o parâmetro passado na URI de acesso ao WebService seja injetado no parâmetro “x” do método getCliente(), deve ser adicionada uma anotação na lacuna apresentada. Qual anotação tem esse propósito?",
+        "enunciado": "Seja o seguinte trecho de código Java EE 7 usando JAX-RS para definir um WebServices:\n>'''@Path(\"/clientes/{nome}\") public class ClienteResource { @GET @Produces(MediaType.APPLICATION_JSON) public Response getCliente ( ___________ String x){ // processamento } }'''<\nPara que o parâmetro passado na URI de acesso ao WebService seja injetado no parâmetro “x” do método getCliente(), deve ser adicionada uma anotação na lacuna apresentada. Qual anotação tem esse propósito?",
         "alternativas": [
             "@QueryParam(\"nome\").",
             "@FormParam(\"nome\").",

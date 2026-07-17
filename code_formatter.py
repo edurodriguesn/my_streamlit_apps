@@ -22,18 +22,46 @@ _CSS = """
 _NO_BREAK_AFTER = frozenset('"\')]};,&')
 
 def _normalize_code(code: str) -> str:
-    """Insere \n após { ou ; apenas quando o próximo char visível não é fechamento/aspas."""
+    """
+    - { seguido de char visível que não seja fechamento: insere \n
+    - ; seguido de char visível (sem espaço intermediário): insere \n
+    - } sempre fica sozinho: insere \n antes e depois se necessário
+    """
     result = []
     i = 0
     n = len(code)
     while i < n:
         ch = code[i]
+
+        if ch == '}':
+            # Garante \n antes de }
+            if result and result[-1] != '\n':
+                result.append('\n')
+            result.append('}')
+            # Garante \n depois de }
+            if i + 1 < n and code[i + 1] != '\n':
+                result.append('\n')
+            i += 1
+            continue
+
         result.append(ch)
-        if ch in ('{', ';'):
+
+        if ch == '{':
             lookahead = code[i+1:i+3]
             next_visible = lookahead.lstrip(' ')
             if '\n' not in lookahead and (not next_visible or next_visible[0] not in _NO_BREAK_AFTER):
                 result.append('\n')
+
+        elif ch == ';':
+            # Só quebra se o próximo char (sem espaço) for visível
+            rest = code[i+1:]
+            next_visible = rest.lstrip(' ')
+            if next_visible and next_visible[0] != '\n' and next_visible[0] not in _NO_BREAK_AFTER:
+                # Mas não quebra se houver espaço seguido de char visível (já está separado)
+                after = code[i+1:i+2]
+                if after != ' ':
+                    result.append('\n')
+
         i += 1
     return ''.join(result)
 

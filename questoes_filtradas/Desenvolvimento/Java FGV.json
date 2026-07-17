@@ -217,7 +217,7 @@
     },
     {
         "id": 19,
-        "enunciado": "Analise o código JAVA exibido a seguir.\n>'''public class EV { public static void main(String[] args) { mpR(265.7/;\n} public static void mpR(double points) { if (points >= 265.{ System.out.println(\"A1\");\n} else if (points >= 132.{ System.out.println(\"A2\");\n} else if (points >= 62.{ System.out.println(\"A3\");\n} else if (points >= 30.{ System.out.println(\"A4\");\n} else { System.out.println(\"A5\");\n} } }'''<\nAo executar o código, o resultado impresso é",
+        "enunciado": "Analise o código JAVA exibido a seguir.\n>'''public class EV { public static void main(String[] args) { mpR(265.7/3);\n} public static void mpR(double points) { if (points >= 265.7) { System.out.println(\"A1\");\n} else if (points >= 132.85) { System.out.println(\"A2\");\n} else if (points >= 62.85) { System.out.println(\"A3\");\n} else if (points >= 30.43) { System.out.println(\"A4\");\n} else { System.out.println(\"A5\");\n} } }'''<\nAo executar o código, o resultado impresso é",
         "alternativas": [
             "A1.",
             "A2.",

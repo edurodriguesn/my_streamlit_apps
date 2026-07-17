@@ -225,17 +225,15 @@ letras = "ABCDE"
 
 import re
 def escape_markdown(text):
-    # Converte \n em quebra de linha para markdown (dois espaços + newline)
     text = text.replace('\n', '  \n')
-    text = text.replace('R$', r'R\$')
+    text = text.replace('R$', 'R\x00')
     pattern = r'(?<!\\)(\$.*?(?<!\\)\$)|\$'
-    
     def replace_match(match):
         if match.group(1):
             return match.group(1)
         return r'\$'
-    
-    return re.sub(pattern, replace_match, text)
+    text = re.sub(pattern, replace_match, text)
+    return text.replace('R\x00', r'R\$')
 
 col_titulo, col_ir = st.columns([3, 1])
 with col_titulo:

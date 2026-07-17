@@ -349,7 +349,7 @@
     },
     {
         "id": 30,
-        "enunciado": "Analise o código a seguir em linguagem de programação Java:\n>'''\n1 public class Programa {\n2\n3    public static void main(String[] args) {\n4\n5      int a = 9;\n6       int b = 5;\n7\n8       int x= (a ^ b) >>> 1;\n9\n10        System.out.println(\"x = \" + x);\n11   }\n12 }'''< Ao executar esse programa em um terminal, será escrito na saída padrão:",
+        "enunciado": "Analise o código a seguir em linguagem de programação Java:\n>'''\n1 public class Programa {\n2\n3    public static void main(String[] args) {\n4\n5      int a = 9;\n6      int b = 5;\n7\n8      int x= (a ^ b) >>> 1;\n9\n10      System.out.println(\"x = \" + x);\n11   }\n12 }'''< Ao executar esse programa em um terminal, será escrito na saída padrão:",
         "alternativas": [
             "x = 2.",
             "x = 3.",

@@ -73,7 +73,7 @@
     },
     {
         "id": 7,
-        "enunciado": "O paradigma funcional, evidenciado na linguagem LISP, criada em 1958, voltou com muita força atualmente, sendo incluído em diversas linguagens, como o Java.\nConsidere o trecho de código apresentado a seguir.\nList<String> lista = Arrays.asList(\"UM\",\"DOIS\",\"TRES\");\nfor(int i=0; i<lista.size(); i++){ System.out.println(lista.get(i));\n} Para utilizar o paradigma funcional, o loop para apresentação dos valores deve ser reescrito da seguinte forma:",
+        "enunciado": "O paradigma funcional, evidenciado na linguagem LISP, criada em 1958, voltou com muita força atualmente, sendo incluído em diversas linguagens, como o Java.\nConsidere o trecho de código apresentado a seguir.\n>'''List<String> lista = Arrays.asList(\"UM\",\"DOIS\",\"TRES\");\nfor(int i=0; i<lista.size(); i++){ System.out.println(lista.get(i));\n}<''' Para utilizar o paradigma funcional, o loop para apresentação dos valores deve ser reescrito da seguinte forma:",
         "alternativas": [
             "for(String s: lista){ System.out.println(s); }",
             "for (Iterator<String> it = lista.iterator(); it.hasNext( );) { System.out.println(it.next()); }",

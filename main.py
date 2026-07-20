@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config(page_title="App Modular", layout="wide", language="pt")
+st.set_page_config(page_title="App Modular", layout="wide")
 
 st.title("Bem-vindo ao App Modular!")
 

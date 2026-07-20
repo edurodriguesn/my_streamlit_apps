@@ -1,0 +1,367 @@
+[
+    {
+        "id": 1,
+        "enunciado": "A respeito de desenvolvimento de sistemas, julgue o item a seguir.\nA recomendação do princípio timely de clean code visa a que os testes de unidade sejam elaborados antes do próprio código.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 2,
+        "enunciado": "Julgue o item a seguir, referente a clean code e à ferramenta SonarQube.\nNa produção de um código, a adoção dos termos primário e secundário em vez de mestre e escravo, respectivamente, é uma maneira de produzir um código em observância ao atributo da responsabilidade do clean code.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 3,
+        "enunciado": "Acerca das técnicas de Clean Code e de Refactoring, julgue o item a seguir.\nNa declaração de variáveis, de acordo com as técnicas de Clean Code, devem ser utilizados nomes e funções curtos e abstratos, desde que seu significado esteja descrito nos comentários ao lado do código.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 4,
+        "enunciado": "Em relação ao conceito de Clean Code, qual das alternativas abaixo apresenta corretamente uma combinação de princípios fundamentais?",
+        "alternativas": [
+            "O Código deve ser fácil de entender, com nomes claros e descritivos para variáveis, funções e classes.",
+            "O código deve ser otimizado ao máximo, mesmo que isso reduza sua legibilidade, para garantir melhor desempenho.",
+            "O código deve ser escrito de forma que seja fácil de testar, mantendo códigos mortos comentados para auxiliar no entendimento.",
+            "Cada função ou classe deve ter uma única responsabilidade e seus nomes devem refletir claramente o que elas fazem, mesmo que aumente a repetição de código."
+        ],
+        "gabarito": "O Código deve ser fácil de entender, com nomes claros e descritivos para variáveis, funções e classes."
+    },
+    {
+        "id": 5,
+        "enunciado": "A respeito de desenvolvimento de software, julgue o item que se segue.\nA regra do escoteiro é um princípio do clean code que determina que o código precisa estar mais limpo do que estava antes de haver quaisquer alterações no código",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 6,
+        "enunciado": "Na Arquitetura Limpa, que é modelada por meio de um diagrama que contém círculos concêntricos, existe uma regra conhecida como Regra da Dependência. De acordo com essa regra, assinale a alternativa correta.",
+        "alternativas": [
+            "Nomes de classes declaradas em um círculo externo podem ser referenciados pelo código em um círculo interno, desde que esse código no círculo interno corresponda a declarações e implementações de subclasses daquelas declaradas no círculo externo.",
+            "O nome de algo declarado em um círculo interno não deve ser referenciado pelo código em um círculo externo.",
+            "O nome de algo declarado em um círculo externo deve, ao menos uma vez, ser referenciado pelo código em um círculo interno.",
+            "O nome de algo declarado em um círculo externo não deve ser referenciado pelo código em um círculo interno.",
+            "As dependências de código-fonte devem apontar na direção dos mecanismos, partindo das políticas, ou seja, políticas dependem dos mecanismos."
+        ],
+        "gabarito": "O nome de algo declarado em um círculo externo não deve ser referenciado pelo código em um círculo interno."
+    },
+    {
+        "id": 7,
+        "enunciado": "A respeito de criptografia, do clean code e das técnicas de refactoring, julgue o item seguinte.\nUm código limpo ou clean code deve priorizar legibilidade semântica e baixo ruído de manutenção, devendo comentários ser usados apenas quando a intenção da lógica não puder ser claramente expressa pelo código em si.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 8,
+        "enunciado": "Segundo Robert Cecil Martin, proponente da arquitetura de software conhecida como Arquitetura Limpa (Clean Architecture), o uso desse padrão favorece, entre outros fatores:",
+        "alternativas": [
+            "Disponibilidade do software e independência de frameworks.",
+            "Limitação nas entregas e escalabilidade.",
+            "Manutenibilidade do software e segurança da informação.",
+            "Reusabilidade de código e testabilidade.",
+            "Dependência de banco de dados e modularidade do software."
+        ],
+        "gabarito": "Reusabilidade de código e testabilidade."
+    },
+    {
+        "id": 9,
+        "enunciado": "A arquitetura limpa, proposta por Robert C. Martin (2, é um dos conceitos mais recentes em arquitetura de software.\nAssinale a afirmativa incorreta sobre esse conceito.",
+        "alternativas": [
+            "Testabilidade deve fazer parte do design.",
+            "A arquitetura não depende dos testes, mas os testes dependem internamente dos componentes do sistema.",
+            "A função dos testes é apoiar o desenvolvimento e a operação do sistema.",
+            "O problema dos \"Testes Frágeis\" ocorre quando os testes são fortemente acoplados ao sistema.",
+            "As regras de negócio devem ser testadas sem a utilização do Front End da aplicação."
+        ],
+        "gabarito": "A função dos testes é apoiar o desenvolvimento e a operação do sistema."
+    },
+    {
+        "id": 10,
+        "enunciado": "A Clean Architecture (ou arquitetura limpa), criada por Robert C. Martin, considera como objetivo",
+        "alternativas": [
+            "na arquitetura de software, padronizar e organizar o código desenvolvido, favorecer a sua reusabilidade, assim como a dependência de tecnologia.",
+            "fornecer aos desenvolvedores uma maneira de organizar o código de forma que generalize a lógica de negócios, mantendo-o separado do mecanismo de entrega e dependente do agente externo.",
+            "proporcionar independência de interface do usuário e independência de qualquer agente externo, com exceçãoo da dependência de banco de dados específico.",
+            "na arquitetura de software, minimizar os recursos humanos necessários para construir e manter o sistema necessário.",
+            "configurar as dependências de cada camada sempre em direção a periferia, tendo o core totalmente protegido de qualquer interferência externa ou interna."
+        ],
+        "gabarito": "na arquitetura de software, minimizar os recursos humanos necessários para construir e manter o sistema necessário."
+    },
+    {
+        "id": 11,
+        "enunciado": "Determinado desenvolvedor de softwares, com experiência em uma linguagem de programação específica, foi contratado por uma Software House de grande porte para trabalhar com a mesma linguagem de programação do seu domínio. Durante o processo de onboarding, o profissional recebeu diversas orientações sobre os produtos da empresa, as necessidades e também os desafios de cada um dos projetos; na parte técnica, o profissional foi instruído inúmeras vezes que na organização existem diversos códigos legados, que foram produzidos no início desses projetos por desenvolvedores que já não fazem mais parte da organização e que, por norma de um acordo interno, todas as intervenções nesses códigos necessitam passar por um processo de refatoração e adequação de boas práticas de programação. Como material de apoio, o desenvolvedor recebeu toda a documentação interna da empresa onde constam os padrões de código, baseados em técnicas de Clean Code, que devem ser seguidos nas implementações, além de uma indicação de leitura e estudo de livros relacionados a esse tema. Diante do exposto, assinale a afirmativa INCORRETA.",
+        "alternativas": [
+            "É importante aplicar o princípio da responsabilidade exclusiva que afirma que uma classe deve ter um, e apenas um, motivo para mudar.",
+            "Para confirmar se uma função faz apenas uma “única coisa”, pode-se verificar se todas as instruções internas estão no mesmo nível de abstração.",
+            "É recomendável a criação de funções com finalidade específica, pequenas e devidamente aninhadas, facilitando o processo de leitura e compreensão.",
+            "É aconselhável a utilização de nomes de variáveis passíveis de busca, que não possuam apenas uma letra ou números, pois são de difícil localização em um texto longo."
+        ],
+        "gabarito": "É importante aplicar o princípio da responsabilidade exclusiva que afirma que uma classe deve ter um, e apenas um, motivo para mudar."
+    },
+    {
+        "id": 12,
+        "enunciado": "Clean Code (Código Limpo) é um conceito promovido por Robert C. Martin (também conhecido como Uncle Bob) em seu livro \"Clean Code: A Handbook of Agile Software Craftsmanship\". O termo refere-se a um conjunto de práticas e princípios para escrever código que seja legível, compreensível e fácil de manter. Dos princípios elencados a seguir, assinale o que é fundamental para garantir que o código escrito esteja alinhado com os conceitos de código limpo, conforme descrito por Uncle Bob.",
+        "alternativas": [
+            "Duplicar o código quando necessário para evitar complexidade adicional em uma única função.",
+            "Manter todas as funções e métodos em um único arquivo para facilitar a navegação.",
+            "Usar abreviações e siglas em nomes de variáveis para economizar espaço e tempo.",
+            "Escrever funções e métodos pequenos e focados, cada um com uma única responsabilidade clara.",
+            "Permitir que uma função ou método realize múltiplas tarefas para otimizar a performance."
+        ],
+        "gabarito": "Escrever funções e métodos pequenos e focados, cada um com uma única responsabilidade clara."
+    },
+    {
+        "id": 13,
+        "enunciado": "Acerca de criptografia, de clean code, de refactoring e de JUnit, julgue o item seguinte.\nNo clean code, o princípio da responsabilidade única estabelece que uma classe deve ter uma única responsabilidade clara, evitando-se múltiplas razões para mudanças, o que melhora a coesão, a manutenibilidade e a extensibilidade do código.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 14,
+        "enunciado": "Em relação a qualidade de software e análise estática de código-fonte, julgue o item subsequente.\nDe acordo com o princípio de clean code, o uso de polimorfismo deve ser evitado, uma vez que esse método dificulta o entendimento e, consequentemente, a manutenção do código.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 15,
+        "enunciado": "A respeito de clean code, julgue o item que se segue.\nUma das premissas para que um código seja considerado “limpo” é que suas funções sejam pequenas e cada uma execute apenas uma funcionalidade.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 16,
+        "enunciado": "Tipos de teste são grupos de atividades de teste destinados a testar características específicas de um sistema de software, ou parte de um sistema, com base em objetivos de teste específicos. Eles geralmente se dividem em Testes Funcionais e Não Funcionais, Teste de Caixa Branca e Teste de Caixa Preta e se estendem por muitas técnicas. Assinale a alternativa que NÃO se trata de uma técnica de teste.",
+        "alternativas": [
+            "Regressão.",
+            "Desempenho.",
+            "Clean Code.",
+            "Exploratório.",
+            "Smoke test."
+        ],
+        "gabarito": "Clean Code."
+    },
+    {
+        "id": 17,
+        "enunciado": "Julgue o item abaixo, relacionados com JavaScript, Web Services e análise estatística de código-fonte.\nDe acordo com o Clean Code, o programador deve ter o cuidado de declarar todas as variáveis locais em um único ponto, no início do código, como forma de facilitar a compreensão do código escrito.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 18,
+        "enunciado": "Julgue o próximo item, relativo à análise estática de códigofonte.\nA seguir, é apresentado um bom exemplo de código, de acordo com clean code.\nint a = l;\nif ( O == l ) a = O1;\nelse l = 01;",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 19,
+        "enunciado": "A necessidade do uso do código limpo (Clean Code) se dá a partir do momento em que o desenvolvedor compreende que seus padrões de implementação e códigos, sua “arte”, será interpretada por outras pessoas, e deverá ser compreendida apropriadamente para que o funcionamento do código não seja comprometido. Um dos paradigmas da codificação limpa é a nomeação apropriada de objetos. Sobre a nomeação de objetos, utilizando os conceitos de Clean Code, assinale a afirmativa correta.",
+        "alternativas": [
+            "Os nomes de métodos devem ser substantivos.",
+            "De modo geral, as classes devem ser nomeadas com substantivos.",
+            "Os nomes das variáveis devem ser apenas com uma letra como, por exemplo, “e”, “i”, “t” etc.",
+            "Os nomes das funções devem ser grandes, pois facilita a interpretação do código por outros programadores como, por exemplo, pesquisaProcessosEmPrimeiraInstanciaEmSegundaInstanciaEmGrauDeRecurso."
+        ],
+        "gabarito": "De modo geral, as classes devem ser nomeadas com substantivos."
+    },
+    {
+        "id": 20,
+        "enunciado": "O Clean Code deve considerar também o momento de teste do software em desenvolvimento. O Teste Limpo deve",
+        "alternativas": [
+            "ser o mais completo possível, para que não seja necessário repeti-lo muitas vezes.",
+            "ser específico para determinado ambiente.",
+            "ser executado de forma que os testes sejam escritos antes que o código a ser testado esteja no ambiente de produção.",
+            "produzir resultados com respostas o mais abertas possível, para garantir eficiência ao processo.",
+            "contemplar todas as dependências possíveis, para garantir a eficácia do processo de testes."
+        ],
+        "gabarito": "ser executado de forma que os testes sejam escritos antes que o código a ser testado esteja no ambiente de produção."
+    },
+    {
+        "id": 21,
+        "enunciado": "Julgue o seguinte item, relativo a métricas de qualidade de código, clean code e refactoring.\nPela perspectiva do clean code, é recomendado usar exceções (try/catch, por exemplo) em vez de testar vários códigos de erros ou, ainda, retornar null.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 22,
+        "enunciado": "Julgue o item a seguir, referente a clean code e à ferramenta SonarQube.\nO SonarQube tem uma abordagem embasada no princípio de que o código da base em produção deve ser formatado e revisado para garantir que se usem as interfaces de programação e os recursos de linguagem apropriados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 23,
+        "enunciado": "No contexto da Qualidade de Software, diferentes abordagens, estratégias e ferramentas são utilizadas para garantir que o produto atenda aos requisitos funcionais e não funcionais, bem como às expectativas dos usuários. Uma ferramenta utilizada para análise estática de código é a",
+        "alternativas": [
+            "Selenium.",
+            "SonarQube.",
+            "Jmeter.",
+            "Trello.",
+            "Jenkins."
+        ],
+        "gabarito": "SonarQube."
+    },
+    {
+        "id": 24,
+        "enunciado": "No que se refere ao SonarQube, às estruturas de dados e à complexidade de algoritmos, julgue o item subsecutivo.\nNo SonarQube, um QualityGate representa um conjunto de condições que um projeto deve satisfazer a fim de que seu código seja considerado aceitável para prosseguir no pipeline de desenvolvimento ou para ser liberado.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 25,
+        "enunciado": "Acerca das ferramentas Karma e SonarQube, julgue o item que se segue.\nO SonarQube exige que todo código analisado seja compilado antes da execução da análise estática, mesmo para linguagens interpretadas como Python ou JavaScript.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 26,
+        "enunciado": "Em pipeline YAML (YAML Ain’t Markup Language) do Azure DevOps, deseja-se fazer uma análise estática com Quality Gate do SonarQube que falhe o build ao reprovar. O que é suportado oficialmente?",
+        "alternativas": [
+            "SonarQube não é executável em pipelines, limitando-se a execuções locais.",
+            "Tasks de preparação, análise e publicação (Begin/Analyze/End) com verificação de Quality Gate são suportadas e podem marcar o build como falho.",
+            "Pipelines de Release não possuem aprovações/gates, inviabilizando políticas de qualidade por estágio.",
+            "Agentes self-hosted impedem análise, sendo necessária hospedagem Microsoft.",
+            "Sem integração com Git externos, restringindo-se ao Azure Repos."
+        ],
+        "gabarito": "Tasks de preparação, análise e publicação (Begin/Analyze/End) com verificação de Quality Gate são suportadas e podem marcar o build como falho."
+    },
+    {
+        "id": 27,
+        "enunciado": "No que se refere ao processo e à estratégia de teste de aplicações web e à ferramenta SonarQube, julgue os itens subsequentes.\nO SonarQube para IDE, em cenários de falha na identificação da branch local ou na ausência de um repositório Git, utiliza por padrão a branch designada como main no servidor.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 28,
+        "enunciado": "Julgue o item subsequente, relativo a WebServices, SonarQube.\nO sonarQube detecta as vulnerabilidades de segurança no código por meio de DAST (dynamic application security testing), indicando os erros a serem eliminados antes de implantar o aplicativo.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 29,
+        "enunciado": "Tendo em vista que análise estática de código-fonte é uma técnica utilizada para examinar o código de um programa sem executá-lo, e que essa análise pode detectar possíveis erros, vulnerabilidades de segurança, violações de estilo e outras questões de qualidade do código, assinale a opção correta.",
+        "alternativas": [
+            "Ao se utilizar SonarQube, não é possível aplicar os princípios de Clean Code de maneira sistemática.",
+            "No Clean Code, as funções devem ser grandes e simples.",
+            "O SonarQube, que é uma ferramenta pouco popular para análise do código, oferece um processo para gerir a qualidade do código-fonte, analisando-o para apenas sugerir problemas.",
+            "Clean Code é um conjunto de princípios e práticas que visam tornar o código mais legível, compreensível e sustentável.",
+            "Os recursos do SonarQube não incluem suporte às linguagens JavaScript, TypeScript e Python."
+        ],
+        "gabarito": "Clean Code é um conjunto de princípios e práticas que visam tornar o código mais legível, compreensível e sustentável."
+    },
+    {
+        "id": 30,
+        "enunciado": "O SonarQube pode ser descrito como",
+        "alternativas": [
+            "uma ferramenta de testes de unidade para garantir a cobertura de código em projetos Java.",
+            "uma plataforma de análise estática de código.",
+            "um ambiente de desenvolvimento integrado para a programação de aplicativos.",
+            "uma linguagem de programação para desenvolvimento web."
+        ],
+        "gabarito": "uma plataforma de análise estática de código."
+    },
+    {
+        "id": 31,
+        "enunciado": "O analista Jeferson está configurando um projeto no SonarQube. Ao configurar as métricas de código que devem ser monitoradas, Jefferson adicionou ao projeto a métrica que indica o tempo necessário para corrigir todos os code smells presentes no código.\nJefferson adicionou ao projeto no SonarQube a métrica:",
+        "alternativas": [
+            "technical debt;",
+            "quality gate status;",
+            "security remediation;",
+            "maintainability rating;",
+            "reliability remediation."
+        ],
+        "gabarito": "technical debt;"
+    },
+    {
+        "id": 32,
+        "enunciado": "Em relação a qualidade de software e análise estática de código-fonte, julgue o item subsequente.\nUma questão levantada pela ferramenta SonarQube pode ser classificada como wont fix se essa questão resultar de uma avaliação equivocada feita pela ferramenta.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 33,
+        "enunciado": "Julgue o item abaixo, relacionados com JavaScript, Web Services e análise estatística de código-fonte.\nNo SonarQube, a complexidade mede a quantidade de caminhos possíveis na execução do código.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 34,
+        "enunciado": "Julgue o próximo item, relativo à análise estática de códigofonte.\nSonarQube, usando o Jenkins, pode realizar análises em branches de códigos PHP e Java, e o resultado dessa análise pode avaliar problemas de qualidade tais como bug, vulnerabilidade e code smell.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 35,
+        "enunciado": "No que se refere às linguagens JavaScript e HTML5 e à ferramenta SonarQube, julgue o item.\nO SonarQube é uma excelente ferramenta para se inspecionar continuamente a qualidade e a segurança do código. Sua única desvantagem é o seu alto preço de aquisição, já que não dispõe de nenhuma versão gratuita.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 36,
+        "enunciado": "No que se refere às linguagens JavaScript e HTML5 e à ferramenta SonarQube, julgue o item.\nA ferramenta SonarQube, diferentemente de outras ferramentas que contêm diversas funcionalidades, é considerada como uma ferramenta objetiva, pelo fato de possuir uma única função: mostrar apenas o que há de errado no código.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    }
+]

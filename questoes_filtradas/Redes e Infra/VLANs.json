@@ -1,0 +1,887 @@
+[
+    {
+        "id": 1,
+        "enunciado": "A empresa XTAL possui cinco departamentos e utiliza uma única rede com 150 computadores, todos interconectados por switches L3 gerenciáveis. Existe uma reclamação constante dos usuários em relação à lentidão da rede.\nAssinale a opção que pode minimizar este problema.",
+        "alternativas": [
+            "Substituir todos os switches por um único switch de chassis gerenciável.",
+            "Reduzir a largura de banda da rede.",
+            "Dividir a rede em cinco VLANs, uma para cada setor.",
+            "Para esta situação a melhor opção seria o uso de HUB, um para cada setor, interligados por um roteador.",
+            "Utilizar bridges entre os switches."
+        ],
+        "gabarito": "Dividir a rede em cinco VLANs, uma para cada setor."
+    },
+    {
+        "id": 2,
+        "enunciado": "Em um cenário onde várias VLANs estão configuradas, cada switch deve ser capaz de identificar qual das VLAN cada quadro pertence. As informações que identificam um quadro Ethernet como pertencente a uma determinada VLAN estão inseridas em seu cabeçalho e permitem a comunicação via porta configurada do switch, como porta-tronco ou porta de acesso.\nAssinale a opção que está relacionada ao processo de marcação.",
+        "alternativas": [
+            "Padrão IEEE 802.1q insere uma tag de quatro bytes no quadro Ethernet ultrapassando seu tamanho original de 1518 bytes.",
+            "Os switches non-root bridges possuem portas não designadas e se encontram em modo bloqueio. Por estas portas, somente podem receber quadros de controles BPDUs.",
+            "O padrão dot1q insere um cabeçalho ISL, cuja extensão é de 26 bytes no quadro.",
+            "A tag VLAN possui as seguintes informações: VLAN(VID) número de 12 bits que suporta 4096 IDs de VLANs e BRIDGE ID (BID) com 8 bytes de extensão.",
+            "As VLANs são identificadas pelo MAC de origem e porta 554, situado no cabeçalho do quadro."
+        ],
+        "gabarito": "Padrão IEEE 802.1q insere uma tag de quatro bytes no quadro Ethernet ultrapassando seu tamanho original de 1518 bytes."
+    },
+    {
+        "id": 3,
+        "enunciado": "O setor de TI está reestruturando a rede da sede para implementar segmentação de tráfego, telefonia IP e gerenciamento centralizado.\nO projeto requer:\n- Isolamento dos setores administrativo, jurídico e TI.\n- Implementação de telefonia sobre IP com qualidade de serviço.\n- Gerenciamento automático de endereçamento IP.\n- Monitoramento centralizado dos equipamentos de rede.\nConsiderando as especificações dos protocolos e serviços de rede, a configuração técnica mais adequada para atender a todos esses requisitos consiste em:",
+        "alternativas": [
+            "implementar VPN site-to-site entre setores, configurar telefonia H323, usar SLAAC para atribuição de DNS e domínio, e empregar Zabbix para monitoramento centralizado.",
+            "criar sub-redes físicas separadas por meio de roteadores, implementar PABX analógico adaptado, instalar servidor DHCP, e configurar syslog para logs locais e centralizado.",
+            "configurar VLANs usando IEEE 802.1Q, implementar VoIP com codec G.729, instalar servidor DNS recursivo para gerenciamento automático dos endereços IPs, e utilizar ICMP para monitoramento de conectividade.",
+            "configurar VLANs usando IEEE 802.1Q nos switches, implementar VoIP com codec G.711, instalar servidor DHCP para atribuição dinâmica de IPs, e utilizar SNMPv3 para monitoramento.",
+            "configurar switches multicamada para segmentar a rede, implementar VoIP com codec GSM, instalar servidor DHCP para resolução de nomes, e utilizar Nagios para análise de tráfego."
+        ],
+        "gabarito": "configurar VLANs usando IEEE 802.1Q nos switches, implementar VoIP com codec G.711, instalar servidor DHCP para atribuição dinâmica de IPs, e utilizar SNMPv3 para monitoramento."
+    },
+    {
+        "id": 4,
+        "enunciado": "Para montar um ambiente de VLAN dentro de uma rede de computadores de uma empresa, precisou-se adquirir equipamentos no padrão:",
+        "alternativas": [
+            "IEEE 802.1q.",
+            "IEEE 802.15.",
+            "IEEE 802.20.",
+            "IEEE 802.1AR."
+        ],
+        "gabarito": "IEEE 802.1q."
+    },
+    {
+        "id": 5,
+        "enunciado": "O que é uma porta de entroncamento (trunk port) em VLANs?",
+        "alternativas": [
+            "Porta que só transporta tráfego de VLANs com tag.",
+            "Porta que só transporta tráfego de VLANs sem tag.",
+            "Porta que transporta múltiplas VLANs sem tag.",
+            "Porta que transporta múltiplas VLANs."
+        ],
+        "gabarito": "Porta que transporta múltiplas VLANs."
+    },
+    {
+        "id": 6,
+        "enunciado": "No que diz respeito às VLANs, aos roteadores, ao NAT, aos switches gerenciáveis e às VPNs, julgue o item seguinte.\nA implementação de VLANs em switches gerenciáveis permite a segmentação lógica da rede física, reduzindo domínios de broadcast e aumentando a segurança e a organização do tráfego interno.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 7,
+        "enunciado": "No que diz respeito às VLANs, aos roteadores, ao NAT, aos switches gerenciáveis e às VPNs, julgue o item seguinte.\nEm switches gerenciáveis, o protocolo IEEE 802.1Q é utilizado para marcação (tagging) de quadros ethernet, permitindo o transporte de múltiplas VLANs por uma única interface trunk.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 8,
+        "enunciado": "Acerca do CFTV, do monitoramento eletrônico e dos conceitos de firewalls, julgue o item seguinte.\nA segregação de câmeras IP por meio de VLANs permite isolar o tráfego de vídeo, aumentar a segurança da rede e facilitar o gerenciamento do sistema de CFTV.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 9,
+        "enunciado": "“Durante a implantação de um novo segmento de rede no SAAE, o analista em informática – segurança e redes foi responsável pela configuração de um switch gerenciável, a fim de garantir organização lógica, desempenho e segurança da comunicação entre os dispositivos conectados. Inicialmente, foi necessária a criação de __________, permitindo a segmentação lógica da rede em diferentes domínios de broadcast. Em seguida, procedeu-se à associação das portas físicas do equipamento aos(às) __________, conforme a função de cada ponto de rede. Para garantir comunicação adequada entre segmentos distintos, o switch foi configurado para operar com __________ em portas específicas. Como medida de segurança, foram aplicados(as) __________, restringindo o acesso de dispositivos não autorizados às portas do switch. Por fim, para facilitar o monitoramento e a administração do equipamento, foram definidos __________, possibilitando a identificação e o gerenciamento centralizado do switch na rede.” De acordo com práticas usuais de configuração de switches gerenciáveis, assinale a alternativa que completa correta e sequencialmente afirmativa anterior.",
+        "alternativas": [
+            "tabelas ARP / endereços MAC dinâmicos / NAT / regras de firewall / serviços de impressão em rede.",
+            "cabos de rede / placas de interface / protocolos de roteamento / firewalls de borda / gateways padrão.",
+            "VLANs / VLANs / links trunk / políticas de segurança de portas (port security) / endereços IP de gerenciamento.",
+            "endereços IP públicos / rotas estáticas / protocolos de tunelamento / listas de controle de acesso / servidores DNS."
+        ],
+        "gabarito": "VLANs / VLANs / links trunk / políticas de segurança de portas (port security) / endereços IP de gerenciamento."
+    },
+    {
+        "id": 10,
+        "enunciado": "No uso de VLAN com o padrão IEEE 802.1Q, o valor do ID de protocolo de VLAN sempre será de",
+        "alternativas": [
+            "0x8100.",
+            "0x1A00.",
+            "0x0081.",
+            "0x0000.",
+            "0xAA00."
+        ],
+        "gabarito": "0x8100."
+    },
+    {
+        "id": 11,
+        "enunciado": "Julgue o item a seguir, considerando os padrões e protocolos das redes de comunicação de dados.\nO padrão 802.1q permite a execução do STP (spanning tree protocol) em conjunto de redes logicamente independentes que compartilhem o mesmo meio físico.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 12,
+        "enunciado": "As VLANs (Virtual Local Area Networks) são úteis em redes grandes como o de uma Universidade, pois o administrador da rede pode atribuir um dispositivo a uma determinada rede, independentemente do local físico em que ele esteja conectado. A respeito desse tema, e considerando um equipamento de rede com suporte à VLANs, assinale a alternativa CORRETA:",
+        "alternativas": [
+            "IEEE 802.1B é a norma que define o funcionamento das VLANs (Virtual Local Area Networks).",
+            "Conforme a especificação que define as VLANs, existem 24 bits reservados para identificação de uma rede virtual.",
+            "Uma porta de um switch não pode ser vinculada a mais de uma VLAN.",
+            "A comunicação de dispositivos em VLANs diferentes pode ser feita por um switch de camada 1 (L.",
+            "É possível compartilhar VLANs entre switches introduzindo uma TAG com um identificador de VLAN, sendo possível existir até 4094 VLANs distintas."
+        ],
+        "gabarito": "É possível compartilhar VLANs entre switches introduzindo uma TAG com um identificador de VLAN, sendo possível existir até 4094 VLANs distintas."
+    },
+    {
+        "id": 13,
+        "enunciado": "A respeito de VLAN e NAT (Network Address Translation), julgue o próximo item.\nNo padrão IEEE 802.1q, o quadro original da rede Ethernet é encapsulado e modificado, com a inclusão de 16 bytes adicionais, para identificar a VLAN no cabeçalho.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 14,
+        "enunciado": "A respeito de VLAN e NAT (Network Address Translation), julgue o próximo item.\nO padrão IEEE 802.1q não suporta o FCS (frame check sequence).",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 15,
+        "enunciado": "Um banco possui filiais conectadas por uma rede WAN, em diversas localidades, e está enfrentando problemas de segmentação de tráfego entre departamentos sensíveis, como Finanças, TI e Recursos Humanos, além de lentidão na comunicação entre filiais distantes. Para melhorar o desempenho e a segurança da rede, a equipe de suporte técnico está avaliando possíveis soluções para esses problemas como VLANs, MPLS e SD-WAN.\nConsiderando-se as necessidades do banco, a melhor abordagem para resolver os problemas descritos é",
+        "alternativas": [
+            "configurar VLANs, para segmentar o tráfego entre os departamentos sensíveis, e implementar MPLS, para garantir qualidade de serviço entre as filiais.",
+            "utilizar VLANs, pois elas são suficientes para segmentar o tráfego e para garantir comunicação eficiente entre as filiais.",
+            "implementar MPLS apenas para as filiais que apresentem problemas de latência, mantendo, nas demais, VLANs tradicionais.",
+            "configurar SD-WAN para garantir conectividade otimizada e priorização de tráfego, eliminando a necessidade de VLANs e MPLS.",
+            "implementar apenas VLANs para segmentar o tráfego e usar links dedicados para comunicação entre filiais."
+        ],
+        "gabarito": "configurar VLANs, para segmentar o tráfego entre os departamentos sensíveis, e implementar MPLS, para garantir qualidade de serviço entre as filiais."
+    },
+    {
+        "id": 16,
+        "enunciado": "Em um ambiente de Rede Local Virtual (Virtual Local Area Network - VLAN), a função de um dispositivo de rede switch de camada 3 (Switch Layer é",
+        "alternativas": [
+            "reduzir colisões em um segmento de rede.",
+            "configurar endereços IP automaticamente.",
+            "realizar monitoramento da largura de banda.",
+            "gerenciar roteamento entre diferentes VLANs.",
+            "garantir a segurança física da infraestrutura."
+        ],
+        "gabarito": "gerenciar roteamento entre diferentes VLANs."
+    },
+    {
+        "id": 17,
+        "enunciado": "No contexto de redes, qual tecnologia é utilizada para segmentar uma rede física em redes lógicas separadas?",
+        "alternativas": [
+            "VPN.",
+            "VLAN.",
+            "NAT.",
+            "DMZ.",
+            "Subnetting."
+        ],
+        "gabarito": "VLAN."
+    },
+    {
+        "id": 18,
+        "enunciado": "Fernanda, analista de rede, ao analisar a topologia de rede da empresa onde trabalha, constatou os fatos a seguir.\nI. O Switch BT-01, que não realiza roteamento, possui uma VLAN “X” com duas máquinas conectadas:\n• Máquina ALFA com IP 10.0.0.1, máscara 255.255.255.0 e gateway 10.0.0.10; e • Máquina BRAVO com IP 10.0.0.2, máscara 255.255.255.0 e gateway 10.0.0.10.\nII. O Switch BT-01 possui também uma VLAN “Y” com duas máquinas conectadas:\n• Máquina CHARLIE com IP 20.0.0.1, máscara 255.255.255.0 e gateway 20.0.0.254; e • Máquina DELTA com IP 20.0.0.2, máscara 255.255.255.0 e gateway 20.0.0.254.\nIII. O Switch BT-01 está conectado ao roteador RWT_03 por meio da porta Gi1/0/24 do switch.\nIV. O Switch BT-01 está conectado ao roteador RWT_02 por meio da porta Gi1/0/23 do switch.\nV. O roteador RWT_03 está configurado corretamente com o IP 10.0.0.10/24 na porta Gi0/0/1, que é conectada ao Switch BT-01.\nVI. O roteador RWT_02 está configurado corretamente com o IP 20.0.0.254/24 na porta Gi0/0/1, que é conectada ao Switch BT-01.\nVII. O roteador RWT_02 está interligado diretamente ao roteador RWT_03 por meio das portas Gi0/0/2 de cada dispositivo, utilizando os endereços IP 10.30.0.1/29 e 10.30.0.2/29, respectivamente.\nDiante desse cenário, Fernanda concluiu, corretamente, que:",
+        "alternativas": [
+            "mesmo que todas as conexões estejam operacionais, as máquinas BRAVO e DELTA não conseguirão se comunicar, pois pertencem a VLANs distintas e, portanto, não deveriam estar conectadas ao mesmo switch;",
+            "caso todas as conexões estejam operacionais, exceto a conexão entre o switch BT-01 e o roteador RWT_03, as máquinas ALFA e BRAVO não estabelecerão comunicação, uma vez que dependem do gateway para tal;",
+            "caso todas as conexões estejam operacionais, exceto a conexão entre switch BT-01 e o roteador RWT_02, as máquinas CHARLIE e DELTA não poderão se comunicar, uma vez que dependem do gateway para tal;",
+            "caso todas as conexões estejam operacionais, exceto a conexão entre switch BT-01 e o RWT_03, as máquinas ALFA e BRAVO poderão se comunicar normalmente, pois estão conectadas ao mesmo switch e independem do gateway;",
+            "caso todas as conexões estejam operacionais, exceto a conexão entre switch BT-01 e o RWT_03, as máquinas ALFA e CHARLIE poderão se comunicar normalmente, pois estão conectadas ao mesmo switch e independem do gateway."
+        ],
+        "gabarito": "caso todas as conexões estejam operacionais, exceto a conexão entre switch BT-01 e o RWT_03, as máquinas ALFA e BRAVO poderão se comunicar normalmente, pois estão conectadas ao mesmo switch e independem do gateway;"
+    },
+    {
+        "id": 19,
+        "enunciado": "Um Tribunal Regional do Trabalho deseja segmentar sua rede para melhorar a segurança e o desempenho. O administrador de redes decide configurar VLANs para separar o tráfego dos diferentes departamentos. Para que os switches consigam identificar corretamente os pacotes pertencentes a cada VLAN e permitir a segmentação lógica do tráfego, o padrão que deve ser implementado é o IEEE",
+        "alternativas": [
+            "802.1Q.",
+            "802.3af.",
+            "802.3z.",
+            "802.1D.",
+            "802.1X."
+        ],
+        "gabarito": "802.1Q."
+    },
+    {
+        "id": 20,
+        "enunciado": "Quanto ao DHCP, aos equipamentos de rede e às VLANs, julgue o item a seguir.\nA VLAN elimina a necessidade de switches físicos em uma rede, substituindo‑os por uma topologia lógica que realiza a mesma função.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 21,
+        "enunciado": "Quanto ao DHCP, aos equipamentos de rede e às VLANs, julgue o item a seguir.\nAssim como nas redes com fio (ethernet), as VLANs são utilizadas para segmentar tráfego, podendo, também, ser aplicadas em redes sem fio.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 22,
+        "enunciado": "Um administrador de Redes vai implementar, em uma rede LAN, um ambiente compatível com o padrão IEEE 802.1q. No caso, essa implementação vai trabalhar com um link ponto-aponto entre dois dispositivos de rede e ambos devem ser capazes de modificar o cabeçalho da tag, identificando os quadros dessa implementação. Esse tipo conexão, para esse padrão IEEE, é o:",
+        "alternativas": [
+            "access link.",
+            "transfer link.",
+            "trunk link.",
+            "variation link."
+        ],
+        "gabarito": "trunk link."
+    },
+    {
+        "id": 23,
+        "enunciado": "Em um Tribunal com infraestrutura moderna de virtualização e múltiplos sistemas especializados para diferentes áreas, foi necessário segmentar logicamente as redes das máquinas virtuais (VMs) sem comprometer o desempenho da comunicação entre diferentes data centers. Para isso, decidiu-se implementar a tecnologia VXLAN\n(Virtual eXtensible Local-Area Network), que",
+        "alternativas": [
+            "opera na camada 2, substituindo o roteamento tradicional por links ponto-a-ponto, sendo ideal para ligação entre data centers.",
+            "ativa a comunicação entre VMs por meio do mecanismo de multicast, evitando que o broadcast sobrecarregue cada segmento.",
+            "usa endereços MAC de 64 bits por segmento, evitando conflitos, mas exige roteamento para comunicação entre VMs de VNIs diferentes.",
+            "encapsula quadros Ethernet em UDP, criando overlays L2 sobre L3, com isolamento via VNI de 24 bits.",
+            "permite, por meio do VNI de 12 bits, até 4096 redes virtuais, mantendo compatibilidade com switches mais antigos."
+        ],
+        "gabarito": "encapsula quadros Ethernet em UDP, criando overlays L2 sobre L3, com isolamento via VNI de 24 bits."
+    },
+    {
+        "id": 24,
+        "enunciado": "Em ambientes MAN que interligam múltiplos campi de uma instituição, o uso de VLANs estendidas em topologia de anel pode apresentar riscos, como",
+        "alternativas": [
+            "fragmentação de pacotes IP em função da sobreposição de identificadores VLAN em enlaces WAN.",
+            "formação de loops em camada 2, exigindo protocolo STP para evitar tempestades de broadcast.",
+            "limitação de largura de banda efetiva pela necessidade de encapsulamento em cada segmento.",
+            "substituição automática do endereçamento IPv6 para endereços locais de enlace (link-local)."
+        ],
+        "gabarito": "formação de loops em camada 2, exigindo protocolo STP para evitar tempestades de broadcast."
+    },
+    {
+        "id": 25,
+        "enunciado": "Uma empresa de grande porte percebeu que o tráfego de sua rede corporativa estava congestionado, reduzindo o desempenho de aplicações críticas. Além disso, a equipe de segurança detectou que dispositivos de diferentes departamentos estavam se comunicando sem restrições, aumentando os riscos de movimentação lateral de ameaças cibernéticas dentro da infraestrutura de TI.\nPara resolver esses problemas, os administradores de rede decidiram implementar VLANs (Virtual Local Area Networks) para segmentar o tráfego, reduzir o domínio de broadcast e melhorar a segurança.\nDiante desse cenário, assinale a alternativa que apresenta corretamente um benefício da segmentação de rede com VLANs.",
+        "alternativas": [
+            "As VLANs eliminam a necessidade de roteadores e switches gerenciáveis, pois segmentam a rede de forma automática sem necessidade de configuração adicional.",
+            "O uso de VLANs impede completamente qualquer tipo de ataque dentro da rede, pois os dispositivos ficam isolados, tornando impossível a movimentação lateral de ameaças.",
+            "A implementação de VLANs reduz a necessidade de controle de acesso, pois a segmentação por si só já garante que dispositivos não autorizados não consigam acessar recursos restritos.",
+            "VLANs são úteis apenas para organização lógica da rede, sem impacto significativo no desempenho ou na segurança da infraestrutura.",
+            "A segmentação de rede com VLANs reduz o domínio de broadcast, melhora a performance da rede ao minimizar tráfego desnecessário e aumenta a segurança ao isolar dispositivos de diferentes departamentos, dificultando ataques e movimentação lateral de ameaças."
+        ],
+        "gabarito": "A segmentação de rede com VLANs reduz o domínio de broadcast, melhora a performance da rede ao minimizar tráfego desnecessário e aumenta a segurança ao isolar dispositivos de diferentes departamentos, dificultando ataques e movimentação lateral de ameaças."
+    },
+    {
+        "id": 26,
+        "enunciado": "Considerando uma rede local que utiliza VLANs para segmentar o tráfego de diferentes grupos de usuários, um switch de camada 2 (Layer consegue identificar a qual VLAN um quadro Ethernet pertence quando ele é transmitido por uma porta configurada como tronco (trunk port) via:",
+        "alternativas": [
+            "Endereço MAC de origem.",
+            "Endereço IP de destino.",
+            "Mapeamento de porta física.",
+            "Função de roteamento.",
+            "Tag no cabeçalho."
+        ],
+        "gabarito": "Tag no cabeçalho."
+    },
+    {
+        "id": 27,
+        "enunciado": "Acerca do projeto e implementação de redes WAN, do STP (Spanning Tree Protocol) e dos protocolos de roteamento OSPF e BGP, julgue o item a seguir.\nTrunking é um método de encapsulamento que permite que múltiplas VLANs trafeguem por um único link físico entre switches, sendo o protocolo 802.1Q amplamente utilizado para esse fim.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 28,
+        "enunciado": "Sobre as VLANs (Virtual Local Area Networks), analise as assertivas abaixo:\nI. As VLANs permitem segmentar logicamente a rede, reduzindo o domínio de broadcast.\nII. É possível criar múltiplas VLANs em um mesmo switch, isolando o tráfego entre elas.\nIII. Switches de camada 2 conseguem, sozinhos, rotear pacotes entre VLANs diferentes.\nIV. A VLAN 1 é a VLAN padrão em switches Cisco.\nQuais estão corretas?",
+        "alternativas": [
+            "Apenas I, II e III.",
+            "Apenas I, II e IV.",
+            "Apenas I, III e IV.",
+            "Apenas II, III e IV.",
+            "I, II, III e IV."
+        ],
+        "gabarito": "Apenas I, II e IV."
+    },
+    {
+        "id": 29,
+        "enunciado": "Um técnico de um Tribunal está configurando um switch de camada 2 em uma LAN segmentada em VLANs (IEEE 802.1Q).\nAs interfaces do switch estão conectadas aos seguintes dispositivos:\ng0/1: Roteador (que fará o roteamento inter-VLAN usando a técnica router-on-a-stick) g0/2: Dispositivo de usuário final (um computador desktop) g0/3: Switch de camada 2 (com as mesmas VLANs configuradas) Considerando a técnica router-on-a-stick e as boas práticas de configuração de VLANs, os modos de operação das interfaces g0/1, g0/2 e g0/3 devem ser, respectivamente:",
+        "alternativas": [
+            "tronco, tronco e acesso.",
+            "tronco, acesso e tronco.",
+            "tronco, acesso e acesso.",
+            "acesso, acesso e tronco.",
+            "acesso, tronco e acesso."
+        ],
+        "gabarito": "tronco, acesso e tronco."
+    },
+    {
+        "id": 30,
+        "enunciado": "A respeito dos sistemas operacionais Windows Server e Linux, dos conceitos de redes de computadores e da administração e do monitoramento de servidores, julgue o item a seguir.\nEm redes segmentadas com VLANs, dispositivos pertencentes a VLANs diferentes podem se comunicar diretamente sem a necessidade de um roteador ou camada de roteamento configurada.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 31,
+        "enunciado": "Julgue o próximo item, relativo a conceitos de rede de computadores, elementos de interconexão de redes de computadores e noções dos modelos de referência OSI.\nAs VLANs no padrão IEEE 802.1q foram criadas para ajudar no gerenciamento de LANs, permitindo que a topologia física seja dividida em diferentes topologias lógicas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 32,
+        "enunciado": "Com relação aos padrões da família IEEE 802.x, julgue o próximo item.\nO padrão IEEE 802.1q compatibiliza a utilização de VLANs com as redes Ethernet, incluindo a identificação do uso do protocolo VLAN e o identificador de VLAN do quadro no cabeçalho dos quadros Ethernet.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 33,
+        "enunciado": "As tabelas abaixo apresentam o resumo da configuração de dois equipamentos comutadores (Switch): SW1 e SW2. Nelas, é possível identificar as VLAN (Virtual LAN) e as portas dos respectivos comutadores em que os seis Computadores Pessoais (PC 1, PC 2, PC 3, PC 4, PC 5 e PC dessa rede estão conectados. As portas de número 10 interligam os comutadores e estão configuradas em modo de Tronco de VLAN (Protocolo IEEE 802.1q), permitindo a passagem de qualquer pacote deste tipo de protocolo.\nSW1 SW2 SwitchVLAN Porta PC SwitchVLAN Porta PC 10 01 PC 1 10 01 - 10 02 - 10 02 PC 4 10 03 PC 2 10 03 - 20 04 - 20 04 PC 5 20 05 - 20 05 - 01 02 20 06 - 20 06 PC 6 30 07 PC 3 30 07 - 30 08 - 30 08 - 30 09 - 30 09 - TRK 10 SW2 TRK 10 SW1 Os computadores pessoais que irão receber o pacote ARP (Address Resolution Protocol) enviado pelo PC 1 são:",
+        "alternativas": [
+            "PC 2 e PC 3, somente;",
+            "PC 2 e PC 4, somente;",
+            "PC 4 e PC 6, somente;",
+            "PC 2, PC 4 e PC 5, somente;",
+            "PC 2, PC 3, PC 4, PC 5 e PC 6."
+        ],
+        "gabarito": "PC 2 e PC 4, somente;"
+    },
+    {
+        "id": 34,
+        "enunciado": "Considere a tabela abaixo, que apresenta a configuração de VLANs em um switch.\nPorta do Switch VLAN ID Descrição\n1 10 TI\n2 20 Financeiro\n3 10 TI\n4 20 Financeiro\n5 30 RH 6 30 RH 7 40 Visitantes Considerando a tabela apresentada, analise as afirmativas e assinale a afirmativa correta.",
+        "alternativas": [
+            "As portas 1 e 3, configuradas com a VLAN 10, não podem comunicar-se com as portas 2 e 4 da VLAN 20 sem a intervenção de um dispositivo de roteamento.",
+            "A VLAN 40 está configurada incorretamente, pois VLANs destinadas a Visitantes devem ter um ID abaixo de 10 para garantir acesso à internet.",
+            "A configuração permite que todos os departamentos, incluindo Visitantes na VLAN 40, compartilhem recursos como impressoras e servidores de arquivos sem restrições de acesso.",
+            "As VLANS 10 e 20 apresentam uma configuração inválida, já que IDs de VLANS devem ser atribuídas de maneira sequencial em relação às portas.",
+            "A VLAN de RH está configurada de forma a permitir que apenas a porta 5 tenha acesso a recursos compartilhados, enquanto a porta 6 é isolada dentro da mesma VLAN, indicando um erro de configuração."
+        ],
+        "gabarito": "As portas 1 e 3, configuradas com a VLAN 10, não podem comunicar-se com as portas 2 e 4 da VLAN 20 sem a intervenção de um dispositivo de roteamento."
+    },
+    {
+        "id": 35,
+        "enunciado": "Uma empresa precisa instalar um Gateway VPN para acesso dos seus funcionários a sua rede interna. Esse tipo de dispositivo tem como uma das suas características:",
+        "alternativas": [
+            "enviar tráfego de dados criptografados entre a rede virtual da empresa e um site local da internet pública.",
+            "criar uma rede LAN agregada a partir de várias redes de comunicações internas ou vários outros segmentos de rede da empresa.",
+            "ser utilizado para estender a transmissão de redes LAN, usando protocolos do tipo WiMAX ou os associados a técnicas de telefonia móvel.",
+            "ser uma unidade central para conectividade de toda LAN, intermediando o roteador VPN, para que toda transmissão de dados dos computadores seja simultânea, sem distinção sobre qual o endereçamento correto do destino."
+        ],
+        "gabarito": "enviar tráfego de dados criptografados entre a rede virtual da empresa e um site local da internet pública."
+    },
+    {
+        "id": 36,
+        "enunciado": "A segmentação de redes utilizando VLANs (IEEE 802.1q) fornece diversas vantagens em redes corporativas. Com base nas funções e características do IEEE 802.1q, assinale a alternativa que descreve corretamente uma vantagem dessa tecnologia.",
+        "alternativas": [
+            "A segmentação por VLANs permite que dispositivos em diferentes VLANs se comuniquem diretamente sem a necessidade de um roteador.",
+            "A utilização de VLANs pode aumentar a segurança da rede ao isolar segmentos de tráfego entre diferentes grupos de usuários.",
+            "VLANs eliminam a necessidade de qualquer configuração em dispositivos de rede, pois são automaticamente gerenciadas pelo protocolo IEEE 802.1q.",
+            "A implementação de VLANs reduz a necessidade de manutenção e monitoramento da rede, pois uma vez configuradas, não exigem ajustes frequentes.",
+            "Com VLANs, todo o tráfego é tratado como se estivesse em uma única rede de broadcast, facilitando a transmissão de dados entre todos os dispositivos."
+        ],
+        "gabarito": "A utilização de VLANs pode aumentar a segurança da rede ao isolar segmentos de tráfego entre diferentes grupos de usuários."
+    },
+    {
+        "id": 37,
+        "enunciado": "Uma estação é considerada parte de uma rede local (LAN – Local Area Network) se pertencer fisicamente a ela. O critério de participação é geográfico. Muitas vezes precisamos de uma conexão virtual entre duas estações pertencentes a duas LANs físicas diferentes. Assim, utilizamos uma VLAN (Virtual Local Area Network), uma rede local virtual como uma rede local configurada por software em vez de meio físico. Para fornecer o suporte de configuração e funcionamento de uma VLAN (Virtual Local Area Network) foi definido o Padrão IEEE 802.1q.\nDo exposto as seguintes afirmativas estão corretas, à exceção de uma. Assinale-a.",
+        "alternativas": [
+            "As VLANs permitem reduzir problemas de controle de tráfego broadcast (por exemplo, tráfego gerado pelo protocolo ARP - Address Resolution Protocol), uma vez que o alcance dos quadros de difusão fica restrito a domínios reduzidos.",
+            "O padrão IEEE 802.1q introduziu campos de identificação nos quadros Ethernet. Essa informação extra pode ser utilizada no roteamento dos quadros, e serão usados pelos switches (comutadores) para encaminhar ou filtrar o tráfego recebido.",
+            "O padrão IEEE 802.1q introduziu campos de identificação nos quadros Ethernet. Dentre os campos introduzidos, podemos citar VLAN Identifier (bits que identificam a que VLAN o quadro pertence).",
+            "Algumas características podem ser usadas para agrupar estações em uma VLAN. Os fabricantes usam apenas características como números das portas e endereços IP ponto-a-ponto.",
+            "As VLANs trazem benefícios no gerenciamento da rede. Podemos citar a segurança, pois o meio de cada rede virtual permanece isolado das demais estações que estão fora da VLAN em questão, impedindo assim, que os dados trafegados nela fiquem expostos."
+        ],
+        "gabarito": "Algumas características podem ser usadas para agrupar estações em uma VLAN. Os fabricantes usam apenas características como números das portas e endereços IP ponto-a-ponto."
+    },
+    {
+        "id": 38,
+        "enunciado": "Durante uma análise minuciosa do tráfego de rede, um engenheiro de redes observou que um dos switches recebeu um quadro Ethernet 802.1Q. Ao inspecionar o quadro, ele identificou que um dos campos continha o valor hexadecimal 0x8100.\nO campo do quadro Ethernet que invariavelmente possui esse valor é o(a):",
+        "alternativas": [
+            "indicador de formato canônico;",
+            "prioridade que determina as principais VLANs;",
+            "prioridade que não tem nenhuma relação com VLAN;",
+            "ID de protocolo de VLAN, sendo esse valor maior que 1500;",
+            "ID de protocolo de VLAN, sendo esse valor menor que 1500."
+        ],
+        "gabarito": "ID de protocolo de VLAN, sendo esse valor maior que 1500;"
+    },
+    {
+        "id": 39,
+        "enunciado": "Um técnico em informática dispõe de um roteador com uma única interface de rede, e um comutador de rede (Switch) com 24 (vinte e quatro) interfaces para construir uma rede IP conectando 04 (quatro) redes lógicas diferentes. Para atender às demandas desse projeto, o técnico segmentou o switch em quatro redes virtuais para acomodar os dispositivos de cada uma das redes do projeto, e realizou a ligação entre o switch e o roteador por meio de uma ligação do tipo tronco envolvendo uma interface de cada equipamento. A configuração do default gateway de cada uma das quatro redes, e o adequado processo de roteamento entre essas redes foi estabelecido no roteador.\nDiante do cenário apresentado, analise as afirmativas a seguir.\nI. O protocolo IEEE 802.1p é utilizado para estabelecer redes tronco, como a realizada entre o roteador e o switch nesse projeto.\nII. Quando um quadro não marcado (sem TAG) chega a uma porta de tronco, ele é atribuído à rede virtual nativa.\nIII. Uma máquina conectada a uma das redes virtuais existente no switch desse projeto poderá acessar as outras máquinas, conectadas as outras redes virtuais no mesmo switch, sem a necessidade de passar pelo roteador.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, apenas.",
+            "I e II, apenas.",
+            "I, II e III.",
+            "II, apenas.",
+            "III, apenas."
+        ],
+        "gabarito": "II, apenas."
+    },
+    {
+        "id": 40,
+        "enunciado": "Quanto aos sistemas de arquivos, ao modelo OSI, aos equipamentos de rede e à VLAN, julgue o item seguinte.\nA VLAN tem como propósito aumentar a largura de banda da rede. Para isso, ela combina várias conexões físicas em uma única virtual.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 41,
+        "enunciado": "Julgue o próximo item, relativos a roteadores, protocolos LDAP e IMAP, mecanismo NAT e conceitos de VLAN.\nUma VLAN é uma rede lógica que segmenta o fluxo de informações que trafegam por uma rede corporativa, gerando mais controle de tráfego e segurança.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 42,
+        "enunciado": "Para mitigar ataques de marcação dupla ou duplo encapsulamento de VLAN em uma rede com switches de camada 2, um Analista verificou no site do fabricante do switch a recomendação de:\n1. Desativar o entroncamento em todas as portas de acesso.\n2. Desabilitar o entroncamento automático nos links de tronco para que os troncos sejam habilitados manualmente.\n3. Configurar todas as interfaces do switch em uma VLAN diferente da VLAN 1 ou padrão.\nUma outra recomendação, nesse sentido, é",
+        "alternativas": [
+            "configurar a segurança de porta ou port security nas interfaces tronco.",
+            "habilitar BPDU protection e BPDU guard em todas as interfaces de acesso.",
+            "certificar-se de que a VLAN nativa seja usada apenas para links de tronco.",
+            "configurar o protocolo de agregação de link nas interfaces associadas a interfaces tronco.",
+            "usar autenticação IPSec em todas as portas tronco."
+        ],
+        "gabarito": "certificar-se de que a VLAN nativa seja usada apenas para links de tronco."
+    },
+    {
+        "id": 43,
+        "enunciado": "Quanto aos meios de transmissão utilizados em redes de computadores, à VLAN, ao DHCP e aos conceitos de hardware, julgue o item seguinte.\nA VLAN é uma tecnologia que permite a segmentação lógica de uma rede física em diferentes sub‑redes independentes, melhorando a segurança e o gerenciamento de tráfego.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 44,
+        "enunciado": "É uma conexão criptografada pela Internet de um dispositivo a uma rede. A conexão criptografada ajuda a garantir que dados confidenciais sejam transmitidos com segurança. Impede que pessoas não autorizadas escutem o tráfego e permite ao usuário realizar trabalhos remotamente.\nO texto acima faz menção a um tipo específico de redes de computadores, denominado:",
+        "alternativas": [
+            "arquitetura estruturada.",
+            "endpoint.",
+            "rede fibra óptica.",
+            "rede privada virtual.",
+            "conexão SSH."
+        ],
+        "gabarito": "rede privada virtual."
+    },
+    {
+        "id": 45,
+        "enunciado": "Em resposta à solicitação de usuários que desejam maior flexibilidade, os fornecedores de redes começaram a desenvolver um meio de recompor a fiação dos prédios inteiramente via software. O conceito resultante do estudo é chamado LAN virtual, ou VLAN (Virtual LAN), padronizado pelo comitê IEEE 802.\nNo contexto de VLANs, assinale a alternativa correta:",
+        "alternativas": [
+            "Para que as VLANs funcionem corretamente, todos os dispositivos de rede devem suportar o padrão 802.3ba, que permite a agregação de links para balanceamento de carga.",
+            "O padrão IEEE 802.1Q define o uso de tags para identificar VLANs dentro de quadros Ethernet.",
+            "As VLANs permitem que qualquer quadro seja encaminhado para diferentes VLANs através de uma única bridge, sem necessidade de rotulagem ou marcação.",
+            "VLANs eliminam completamente a necessidade de switches nas redes.",
+            "As bridges que reconhecem VLANs também se auto configuram com base na observação das tags que passam por elas, o que torna a configuração manual totalmente desnecessária."
+        ],
+        "gabarito": "O padrão IEEE 802.1Q define o uso de tags para identificar VLANs dentro de quadros Ethernet."
+    },
+    {
+        "id": 46,
+        "enunciado": "Uma __________ é uma tecnologia que permite segmentar uma rede física em várias redes lógicas independentes.\nAssinale a alternativa que preenche corretamente a lacuna do trecho acima.",
+        "alternativas": [
+            "WLAN.",
+            "PAN.",
+            "HAN.",
+            "LLAN.",
+            "VLAN."
+        ],
+        "gabarito": "VLAN."
+    },
+    {
+        "id": 47,
+        "enunciado": "Um comutador que suporta VLANs (Virtual Local Area Network) permite que diversas redes locais virtuais sejam executadas por meio de uma única infraestrutura física de uma rede local virtual.\n(Kurose, pág. 358.) Sobre VLANs, marque V paras as afirmativas verdadeiras e F para as falsas.\n( ) O entrocamento de VLAN é uma abordagem escalável para interconectar os comutadores das VLANs.\n( ) Em VLANs baseada em portas, o gerente de redes não consegue dividir as portas (interfaces) do comutador em grupos.\n( ) Em VLANs baseada em MAC, o gerente de rede especifica o grupo de endereços MAC que pertence a cada VLAN; quando um dispositivo é conectado a uma porta, ela é conectada à VLAN apropriada com base no endereço MAC do dispositivo.\n( ) VLANs não podem ser definidas por protocolos da camada de rede, por exemplo, IPv4 e IPv6.\nA sequência está correta em",
+        "alternativas": [
+            "F, V, F, F.",
+            "V, F, V, F.",
+            "F, F, F, V.",
+            "V, V, V, V."
+        ],
+        "gabarito": "V, F, V, F."
+    },
+    {
+        "id": 48,
+        "enunciado": "Com relação a armazenamento de dados, julgue o item que se segue.\nTrunk é uma forma de usar duas ou mais portas ou conexões físicas para transmitir quadros de múltiplas VLANs.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 49,
+        "enunciado": "Com relação a armazenamento de dados, julgue o item que se segue.\nO ISL é um protocolo de encapsulamento usado para comutar VLANs por meio de switches de qualquer fabricante.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 50,
+        "enunciado": "Para as VLANs, Redes Locais Virtuais, em 1996, o subcomitê IEEE 802.1 aprovou um padrão denominado 802.1Q que define:",
+        "alternativas": [
+            "A padronização de redes Fast-Ethernet.",
+            "O formato para identificação de frames.",
+            "As normas para segurança de redes.",
+            "O controle de enlace lógico.",
+            "Os padrões para redes sem fio corporativas."
+        ],
+        "gabarito": "O formato para identificação de frames."
+    },
+    {
+        "id": 51,
+        "enunciado": "Se um determinado switch suporta VLANs (Virtual Local Area Network), é correto afirmar que, por padrão, antes de qualquer configuração:",
+        "alternativas": [
+            "Todas as suas portas pertencem à mesma vlan.",
+            "As portas pares pertencem à vlan 0 e as ímpares à vlan 1.",
+            "As portas ímpares pertencem à vlan 0 e as pares à vlan 1.",
+            "A metade inicial das portas pertence à vlan 0 e a metade final à vlan 1.",
+            "A metade inicial das portas pertence à vlan 1 e a metade final à vlan 0."
+        ],
+        "gabarito": "Todas as suas portas pertencem à mesma vlan."
+    },
+    {
+        "id": 52,
+        "enunciado": "Sobre VLAN (Virtual Local Area Network), analise as assertivas abaixo:\nI. Segmentam os domínios de broadcast.\nII. São utilizadas para segmentar redes e proporcionar escalabilidade, segurança e facilidade de gerência.\nIII. As VLANs não se comunicam por meio de roteadores ou de switchs L3.\nIV. Os switches são interligados por VLAN trunks, que conduzem o tráfego de diversas VLANs entre eles.\nQuais estão corretas?",
+        "alternativas": [
+            "Apenas I.",
+            "Apenas II e III.",
+            "Apenas I, II e IV.",
+            "Apenas I, III e IV.",
+            "Apenas II, III e IV."
+        ],
+        "gabarito": "Apenas I, II e IV."
+    },
+    {
+        "id": 53,
+        "enunciado": "Sobre o protocolo padrão de trunking nas VLANs, IEEE 802.1Q, analise as assertivas abaixo:\nI. Não garante a interoperabilidade entre switches, roteadores e servidores de diferentes fabricantes.\nII. Insere apenas 4 bytes adicionais no quadro Ethernet.\nIII. O switch remove a Tag 802.1Q antes de enviar o quadro para um enlace que não seja um “trunk link”.\nIV. Permite a utilização de até 8192 VLANs diferentes.\nQuais estão corretas?",
+        "alternativas": [
+            "Apenas I.",
+            "Apenas II e III.",
+            "Apenas I, II e IV.",
+            "Apenas I, III e IV.",
+            "Apenas II, III e IV."
+        ],
+        "gabarito": "Apenas II e III."
+    },
+    {
+        "id": 54,
+        "enunciado": "Com base nos fundamentos de roteamento entre VLANs, julgue o item a seguir.\nO roteamento entre VLANs consiste no processo de confinamento do tráfego de rede de uma VLAN para que este não seja encaminhado para outra VLAN.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 55,
+        "enunciado": "Uma empresa fictícia chamada de Corporações ALTTAB precisa conter gastos e reutilizar equipamentos disponíveis em uma de suas filiais. A filial conta com acesso à Internet de 100Mbps, rede para prover serviços internos com 100Mbps que será chamada de DMZ, rede interna para distribuição do acesso à 100Mbps. A filial possui os seguintes equipamentos disponíveis para ligar em sua rede: computador desktop com uma interface de rede 1Gbps e um switch gerenciável com 20 portas 100Mbps e 4 portas 1Gbps. Respeitando os limites apresentandos e sabendo que há cabos e acessórios disponíveis para interligar tudo conforme for necessário, o analista de redes fictício Cláudio propôs uma solução que causou dúvidas na equipe técnica nas Corporações ALTTAB. Cláudio propôs utilizar VLANs.\nConsiderando as informações apresentadas, analise as asserções a seguir e a relação entre elas:\nI- É possível viabilizar a configuração do computador desktop, com os papéis de firewall e roteador, definindo sua única interface para ter no mínimo três VLANs.\nSegundo a indicação de Cládio, deve-se configurar no switch a rede interna com a VLAN 120 untagged na porta 3 e tagged na porta 24, a conexão com a Internet com a VLAN 100 untagged na porta 1 e tagged na porta 24 e a DMZ com a VLAN 110 untagged na porta 2 e tagged na porta 24. A porta 24 é ligada ao computador desktop. O computador, por sua vez, deve ter as VLANs 100, 110 e 120 configuradas no modo tagged em sua interface para conseguir se comunicar com as três redes, com as devidas configurações.\nPORQUE\nII- VLANs, definidas pelo padrão IEEE 802.1Q, são usadas para segmentar e isolar redes físicas em várias redes virtuais independentes, permitindo que dispositivos em diferentes VLANs se comuniquem como se estivessem em redes físicas separadas.\nA respeito dessas asserções, assinale a alternativa CORRETA:",
+        "alternativas": [
+            "As asserções I e II são proposições verdadeiras, e a II é uma justificativa correta da I.",
+            "As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa correta da I.",
+            "A asserção I é uma proposição verdadeira, e a II é uma proposição falsa.",
+            "A asserção I é uma proposição falsa, e a II é uma proposição verdadeira.",
+            "As asserções I e II são proposições falsas."
+        ],
+        "gabarito": "As asserções I e II são proposições verdadeiras, e a II é uma justificativa correta da I."
+    },
+    {
+        "id": 56,
+        "enunciado": "A empresa X adotou o EAPS como protocolo de controle de looping Ethernet em seu campus de Aracaju. Uma característica desse protocolo é o(a):",
+        "alternativas": [
+            "existência de uma VLAN de controle;",
+            "existência de um nó mestre e um nó auxiliar;",
+            "envio pelo nó mestre da mensagem de link-down;",
+            "proteção a falhas na camada 3 do modelo OSI;",
+            "envio pelo nó de trânsito da mensagem de flush-FDB."
+        ],
+        "gabarito": "existência de uma VLAN de controle;"
+    },
+    {
+        "id": 57,
+        "enunciado": "Observe a topologia na figura a seguir:\nConsidere as seguintes configurações de rede nos hosts A e B no Windows:\nNo prompt de comando do host A foi inserido o comando “ping 192.168.0.20”, que recebeu a resposta de que todos os pacotes foram perdidos. Assinale a alternativa da ação que deve ser realizada antes de repetir o comando para que a resposta seja que nenhum pacote foi perdido.",
+        "alternativas": [
+            "Alterar para VLAN 10 todas as portas do switch SW2.",
+            "Configurar um protocolo de roteamento IGP no roteador RT.",
+            "Configurar os gateways padrão nos hosts A e B com os endereços 192.168.0.1 e 192.168.0.17 respectivamente.",
+            "Criar uma nova conexão entre os switches SW1 e SW2, configurando as respectivas portas como tronco 802.1Q, permitindo a passagem das VLANs 10 e 20.",
+            "Alterar a máscara de sub-rede dos hosts A e B e de todas as portas do roteador RT para 255.255.255.0."
+        ],
+        "gabarito": "Configurar os gateways padrão nos hosts A e B com os endereços 192.168.0.1 e 192.168.0.17 respectivamente."
+    },
+    {
+        "id": 58,
+        "enunciado": "Um host que dispõe de apenas uma interface de rede irá hospedar serviços de dois grupos de pesquisa que dividem o mesmo laboratório. Este host e os computadores dos usuários estão conectados a um mesmo switch. Dispondo apenas desses recursos, indique, entre as opções abaixo, a forma mais recomendada, segundo boas práticas de provisionamento de ambientes de redes locais IP roteadas, para configurar a rede provendo isolamento entre os serviços de cada grupo.",
+        "alternativas": [
+            "Não é possível realizar essa configuração sem um switch layer 3 ou um roteador.",
+            "Separar os grupos em duas sub-redes distintas, indicar o host como gateway de ambas as sub-redes e ativar roteamento no host.",
+            "Configurar uma VLAN para cada grupo, uma porta trunk do switch ligada ao host e configurar as VLANs na interface de rede do host.",
+            "Configurar uma VLAN para cada grupo, uma porta do switch associada às duas VLANs ligada ao host e configurar as VLANs na interface de rede do host.",
+            "Configurar os serviços de cada grupo em bridges individuais no host, conectando cada bridge em uma porta do switch."
+        ],
+        "gabarito": "Configurar uma VLAN para cada grupo, uma porta trunk do switch ligada ao host e configurar as VLANs na interface de rede do host."
+    },
+    {
+        "id": 59,
+        "enunciado": "Numa rede com grande quantidade de equipamentos, a aplicação de VLAN é mandatória para que se possa ter uma rede com baixa latência, pois evita-se o broadcast geral. Sobre o assunto VLAN, analise as afirmativas abaixo e dê valores Verdadeiro (V) ou Falso (F).\n( ) O protocolo de tronco padrão IEEE utilizado 802.1q.\n( ) Para que se tenha uma hierarquia de rede de acordo com as melhores práticas, é necessário escolher o Switch Bridge da rede.\n( ) As portas de um Switch no ambiente de VLAN podem ser configuradas em Trunk ou Access.\nAssinale a alternativa que apresenta a sequência correta de cima para baixo.",
+        "alternativas": [
+            "V - V - V.",
+            "F - V - V.",
+            "V - F - V.",
+            "F - F - V."
+        ],
+        "gabarito": "V - F - V."
+    },
+    {
+        "id": 60,
+        "enunciado": "Julgue o item a seguir.\nO uso de Redes Locais Virtuais (VLANs) para criar segmentos de rede separados, nos quais cada segmento possui seu próprio intervalo de endereços de Protocolo da Internet (IP). No entanto, também ressalta um ponto importante de que a segmentação de rede sozinha não é suficiente para garantir a segurança. Os sistemas dentro de cada segmento ainda devem ser configurados com controles apropriados de acesso à rede, firewalls de software e detecção de malware.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 61,
+        "enunciado": "O protocolo VTP utilizado pelo Cisco IOS é um protocolo",
+        "alternativas": [
+            "de camada 2, que tem como objetivo manter a consistência de configuração de VLANs na rede.",
+            "de camada de transporte, que serve como alternativa ao UDP.",
+            "de camada de transporte, que serve como alternativa ao TCP.",
+            "proprietário da empresa Cisco, especializado na transmissão de voz.",
+            "de roteamento interno, que serve como alternativa ao OSPF."
+        ],
+        "gabarito": "de camada 2, que tem como objetivo manter a consistência de configuração de VLANs na rede."
+    },
+    {
+        "id": 62,
+        "enunciado": "VLAN (Virtual Local Area Network) é uma técnica que consiste em criar uma rede logicamente independente dentro de um equipamento único.\nAnalise as afirmativas abaixo em relação às características das VLANs.\n1. Permitem a segmentação de redes físicas e a comunicação entre hosts em diferentes VLANs deve passar por roteadores ou outros dispositivos com capacidade de roteamento.\n2. Permitem que o switch roteie o tráfego entre as subinterfaces.\n3. A VLAN fornece um método eficaz de conservação de endereços IP.\n4. A largura de banda pode ser utilizada com mais eficiência, permitindo que várias redes lógicas usem a mesma infraestrutura de rede.\nAssinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "São corretas apenas as afirmativas 1 e 3.",
+            "São corretas apenas as afirmativas 1 e 4.",
+            "São corretas apenas as afirmativas 2 e 3.",
+            "São corretas apenas as afirmativas 2 e 4.",
+            "São corretas apenas as afirmativas 3 e 4."
+        ],
+        "gabarito": "São corretas apenas as afirmativas 1 e 4."
+    },
+    {
+        "id": 63,
+        "enunciado": "Os switches usam redes locais virtuais (VLANs) para melhorar o desempenho da rede dividindo grandes domínios de broadcast da Camada 2 em domínios menores.\nNas VLANs, existe um mecanismo denominado entroncamento de VLAN (Trunk VLAN).\nAnalise as afirmativas abaixo em relação à configuração deste mecanismo, em um switch com Cisco IOS.\n1. Por padrão de fábrica todas as portas de um switch são configuradas como TRUNK.\n2. Os switches removem qualquer informação de identificação do quadro antes de encaminhá- lo por uma porta TRUNK.\n3. Uma porta de um switch configurada em modo TRUNK é capaz de enviar e receber quadros de múltiplas VLANs.\n4. O modo TRUNK é a capacidade de roteadores substituírem os switches na troca de informações sobre as configurações da VLAN.\nAssinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "É correta apenas a afirmativa 1.",
+            "É correta apenas a afirmativa 3.",
+            "É correta apenas a afirmativa 4.",
+            "São corretas apenas as afirmativas 1 e 3.",
+            "São corretas apenas as afirmativas 2 e 4."
+        ],
+        "gabarito": "É correta apenas a afirmativa 3."
+    },
+    {
+        "id": 64,
+        "enunciado": "Julgue o próximo item, relativo a armazenamento de dados.\nISL (Inter Switch Link) é um protocolo voltado para a manutenção da informação VLAN, tem capacidade de trunking e utiliza encapsulamento para levar dados de múltiplas VLAN sobre enlaces de tronco.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 65,
+        "enunciado": "Julgue o próximo item, relativo a armazenamento de dados.\nTrunk é uma solução para interligar switches e transmitir informações de VLAN entre eles; nesse caso, o uso do protocolo IEEE 802.1Q permite que as informações de VLAN sejam incluídas em cada quadro, conforme ele trafegue pela linha de tronco.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 66,
+        "enunciado": "Um usuário acionou o suporte, pois sua estação de trabalho não está acessando à rede. Em uma análise inicial, foi constatado que questões de camada física (e.g.\ncabeamento) estão adequadas e, como suporte, você deverá checar questões de camada 2. Das alternativas a seguir, são todas verificações de camada 2, EXCETO",
+        "alternativas": [
+            "verificar se a estação está na VLAN correta.",
+            "verificar se há problemas no entroncamento de VLANs.",
+            "verificar se o switch está funcionando corretamente.",
+            "verificar se o servidor DHCP atribuiu corretamente o endereço IP à estação.",
+            "verificar se a placa de rede está funcionando corretamente."
+        ],
+        "gabarito": "verificar se o servidor DHCP atribuiu corretamente o endereço IP à estação."
+    },
+    {
+        "id": 67,
+        "enunciado": "A equipe de redes de um órgão público precisa segmentar sua rede local para hospedar seus ambientes produtivos e não produtivos, de forma que o tráfego de uma rede não impacte o outro, devido aos seus distintos comportamentos. Para assegurar a comunicação segura e estável entre ambos os ambientes, a equipe decidiu segmentar a rede por meio de VLANs.\nA implementação das VLANs assegura:",
+        "alternativas": [
+            "o roteamento entre diferentes comutadores;",
+            "que os hosts estejam fisicamente separados;",
+            "a segmentação de redes com, no mínimo, dois comutadores;",
+            "a restrição do tráfego do segmento a um único comutador;",
+            "que hosts conectados em portas com VID diferentes em um comutador estejam em domínios de broadcast diferentes."
+        ],
+        "gabarito": "que hosts conectados em portas com VID diferentes em um comutador estejam em domínios de broadcast diferentes."
+    },
+    {
+        "id": 68,
+        "enunciado": "Considerando o protocolo 802.1q que diz respeito às redes locais virtuais (VLANs), assinale a alternativa correta.",
+        "alternativas": [
+            "Hosts em diferentes VLANs podem comunicar-se através da comutação realizada por um switch camada 2.",
+            "Redes locais virtuais costumeiramente são implementadas com o objetivo de dividir um domínio de colisão em dois ou mais domínios de colisão menores.",
+            "Em uma rede com várias VLANs, torna-se necessário que todos os computadores possuam placas de rede com suporte ao protocolo 802.1q.",
+            "Em redes que utilizam VLANs somente os switches são capazes de identificar os quadros no padrão 802.1q, sendo as placas de rede existentes nos hosts incapazes de reconhecer as tags 802.1q.",
+            "Uma porta configurada como trunk ou tronco em um switch pode reconhecer tags de diversas VLANs diferentes."
+        ],
+        "gabarito": "Uma porta configurada como trunk ou tronco em um switch pode reconhecer tags de diversas VLANs diferentes."
+    },
+    {
+        "id": 69,
+        "enunciado": "O IEEE 802.1Q é um padrão que permite a criação de redes virtuais locais – VLANs dentro de uma rede Ethernet. O objetivo principal é adicionar",
+        "alternativas": [
+            "quadros de 56 bytes nos cabeçalhos dos protocolos de trunking ISL e inserir nos frames dos protocolos da camada de rede os endereços dos dispositivos de comutação atualizados na camada de enlace.",
+            "frames de 36 bytes nos quadros dos protocolos internet e instruir os elementos comutadores da camada física a trocarem entre si apenas quadros contendo um mesmo identificador.",
+            "rótulos de 32 bits nos quadros Ethernet e instruir os elementos comutadores da camada de enlace a trocarem entre si apenas quadros contendo um mesmo identificador.",
+            "quadros de 32 bytes nos cabeçalhos RMON e inserir nos frames dos protocolos da camada de rede os endereços dos dispositivos de comutação atualizados na camada de enlace.",
+            "rótulos de 56 bits nos quadros Ethernet e instruir os elementos da camada de rede a trocarem entre si apenas frames contendo um único identificador."
+        ],
+        "gabarito": "rótulos de 32 bits nos quadros Ethernet e instruir os elementos comutadores da camada de enlace a trocarem entre si apenas quadros contendo um mesmo identificador."
+    },
+    {
+        "id": 70,
+        "enunciado": "O uso de VLANs se popularizou, pois ele é capaz de fornecer ambientes de domínios de colisão (broadcast) distintos em um mesmo dispositivo ou mesmo para máquinas fisicamente distantes. Normalmente, ao configurarmos VLANs, atribuímos um identificador que será usado como tag para marcação e configurar quais portas fazem ou não parte dessa VLAN. Sobre os tipos de configurações que uma porta de switch L3 que suporta VLAN pode assumir, é correto o que se afirma na alternativa:",
+        "alternativas": [
+            "portas tronco (trunk) são responsáveis por remover uma tag de VLAN, para encaminhar o pacote para os dispositivos nele conectados e que nem estão cientes que fazem parte de uma VLAN. Só suportam uma tag por vez,.",
+            "portas de acesso (access) são responsáveis por marcar pacotes com as tags de VLAN e fazer a ponte entre múltiplas tags entre dispositivos diferentes para encaminhamento. Geralmente são usadas com tags múltiplas de 2.",
+            "portas tronco (trunk) são responsáveis por marcar pacotes com tags de VLAN e propagá-las entre diferentes dispositivos, desde que esses também | possuam configuração de quais tags vão receber.",
+            "portas de acesso (access) têm o problema de receber todas as tags de VLAN abertas, mesmo que não sejam identificadas para aquela porta na configuração. Nesses casos, o operador deve, obrigatoriamente, determinar um filtro de camada 2.",
+            "Portas tronco (trunk), de acordo com o protocolo, suportam tags de VLAN para uma rede Ethernet com até 8192 tags diferentes por segmento."
+        ],
+        "gabarito": "portas tronco (trunk) são responsáveis por marcar pacotes com tags de VLAN e propagá-las entre diferentes dispositivos, desde que esses também | possuam configuração de quais tags vão receber."
+    },
+    {
+        "id": 71,
+        "enunciado": "Sabendo que o processamento de transações de alto volume e alto rendimento do IBM z15 pode lidar com cargas grandes e contínuas de transações complexas em redes grandes e geograficamente dispersas, julgue o item subsequente, acerca desse benefício.\nA ampliação da função HiperSockets no servidor IBM z15 tornou possível fornecer aos usuários infinitas LANs virtuais de alta velocidade com processador de rede e sistema.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 72,
+        "enunciado": "Conforme Varella (2as VLANs (Redes Locais Virtuais) podem ser, de forma especial, agrupadas por:\n(1) endereço MAC.\n(2) portas.\n(3) endereço IP.\nDa relação apresentada:",
+        "alternativas": [
+            "existem somente o 1 e 2.",
+            "existem somente o 1 e 3.",
+            "existem somente o 2 e 3.",
+            "existem todos."
+        ],
+        "gabarito": "existem todos."
+    },
+    {
+        "id": 73,
+        "enunciado": "Uma rede de uma empresa é composta por 5 VLANs, cada uma atendendo a um departamento específico. Em um determinado momento, ao estudar a troca dos switches que compõem a rede, o gestor da empresa precisa tomar uma decisão.\nAssumindo que o gestor deseja manter o modelo de VLANs existente, assinale a afirmativa incorreta.",
+        "alternativas": [
+            "É possível concentrar as VLANs em um único switch contanto que ele tenha portas suficientes para atender a toda a rede.",
+            "Uma opção recomendável para a implementação de VLANs seriam switches que implementem o protocolo IEEE 802.1q.",
+            "Caso seja necessário, é possível configurar dois switches localizados em salas distintas para operar na mesma VLAN.",
+            "É possível implementar VLANs que levem em consideração os dispositivos ou os usuários que estão autenticados.",
+            "É necessário adquirir um modelo de equipamento que seja capaz de operar na camada 3 do modelo OSI para manter as VLANs funcionando."
+        ],
+        "gabarito": "É necessário adquirir um modelo de equipamento que seja capaz de operar na camada 3 do modelo OSI para manter as VLANs funcionando."
+    },
+    {
+        "id": 74,
+        "enunciado": "De acordo com os padrões 802.1q e 802.1p é possível definir, respectivamente,",
+        "alternativas": [
+            "8 níveis de prioridade na camada 3 − 2048 VLANs diferentes.",
+            "16 bits para VLAN identifier (VID) − 6 bits para prioridade na camada 2.",
+            "3 bits de prioridade − 16 bits para endereçamento MAC.",
+            "48 bits para endereçamento MAC − 2 bits canonical.",
+            "até 4096 VLANs diferentes − 8 níveis de prioridade na camada 2."
+        ],
+        "gabarito": "até 4096 VLANs diferentes − 8 níveis de prioridade na camada 2."
+    },
+    {
+        "id": 75,
+        "enunciado": "Analise as afirmativas abaixo sobre a utilização de Redes Locais Virtuais (VLANs) e assinale a alternativa correta.\nI. Uma mesma rede local pode passar por diferentes VLANs, em diferentes equipamentos.\nII. Teoricamente, a porta de um ativo pode passar por uma VLAN desmarcada (untagged) ou por múltiplas VLANs marcadas (tagged), mas não as duas ao mesmo tempo.\nIII. Múltiplas VLANs podem ser retuneladas, recebendo uma marcação (tag) extra (Q-in-Q).",
+        "alternativas": [
+            "Somente as afirmativas I e II estão corretas.",
+            "Somente as afirmativas I e III estão corretas.",
+            "Somente as afirmativas II e III estão corretas.",
+            "Nenhuma das afirmativas está correta.",
+            "Todas as afirmativas estão corretas."
+        ],
+        "gabarito": "Somente as afirmativas I e III estão corretas."
+    },
+    {
+        "id": 76,
+        "enunciado": "Assinale a alternativa que indica corretamente o ataque em que o invasor seja capaz de enviar tráfego de uma VLAN para outra permitindo a visualização do tráfego, sem que o tráfego passe por um roteador.",
+        "alternativas": [
+            "bombing.",
+            "crashing.",
+            "masquareding.",
+            "hopping.",
+            "hijacking."
+        ],
+        "gabarito": "hopping."
+    },
+    {
+        "id": 77,
+        "enunciado": "Assinale a alternativa que indica corretamente qual o padrão IEEE utilizado para definir as VLANS.",
+        "alternativas": [
+            "802.1p.",
+            "802.1d.",
+            "802.11x.",
+            "8032.",
+            "802.1q."
+        ],
+        "gabarito": "802.1q."
+    },
+    {
+        "id": 78,
+        "enunciado": "Assinale a alternativa que indica corretamente qual o protocolo IEEE 802x que permite utilizarmos apenas um cabo na comunicação entre os Switches, marcando cada Frame (quadro) com o ID de cada VLAN.",
+        "alternativas": [
+            "802.1p.",
+            "802.1d.",
+            "802.11x.",
+            "802.1a.",
+            "802.1q."
+        ],
+        "gabarito": "802.1q."
+    },
+    {
+        "id": 79,
+        "enunciado": "Analise as afirmações a seguir acerca de VLAN´s>\nI – Uma VLAN conecta funcionários remotos à rede da sua empresa e aos recursos dela por meio de conexões criptografadas.\nII - Uma VLAN é uma sub-rede.\nIII - A VLAN, cria uma sub-rede lógica - ou virtual - de endpoints específicos nas LANs separadas ou dispositivos não conectados ao mesmo switch de rede gerenciado.\nEstão corretas as afirmações:",
+        "alternativas": [
+            "I, e II, apenas.",
+            "I e III, apenas.",
+            "II e III, apenas.",
+            "I, II e III.",
+            "III, apenas."
+        ],
+        "gabarito": "II e III, apenas."
+    },
+    {
+        "id": 80,
+        "enunciado": "As VLANs (Virtual Local Area Networks) são utilizadas com vários propósitos, que vão desde a organização administrativa dessas redes até as questões que envolvem a segurança dos dispositivos. Quanto às VLANs e seu funcionamento, é correto afirmar que",
+        "alternativas": [
+            "funcionam com base no endereçamento IP das redes locais.",
+            "são definidas através de uma configuração da camada de enlace.",
+            "a separação em VLANs depende da existência de switches de camada 3 na rede.",
+            "uma rede pode ter um número infinito de VLANs, a critério do administrador.",
+            "a quantidade de VLANs depende do número de roteadores disponíveis na rede."
+        ],
+        "gabarito": "são definidas através de uma configuração da camada de enlace."
+    }
+]

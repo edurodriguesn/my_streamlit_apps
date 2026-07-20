@@ -1,0 +1,560 @@
+[
+    {
+        "id": 1,
+        "enunciado": "No contexto da lógica, o que define uma sentença como 'aberta'?",
+        "alternativas": [
+            "A impossibilidade de determinar um valor lógico único para todos os casos.",
+            "A presença de verbos no infinitivo que não indicam tempo.",
+            "O uso de pontuação variada que altera o sentido da mensagem.",
+            "A inclusão de adjetivos superlativos que geram dúvidas."
+        ],
+        "gabarito": "A impossibilidade de determinar um valor lógico único para todos os casos.",
+        "assunto": "Proposições_Introdução"
+    },
+    {
+        "id": 2,
+        "enunciado": "Quantificadores universais, como \"para todo\" ou \"qualquer que seja\", têm o poder de:",
+        "alternativas": [
+            "Definir o valor lógico de sentenças que possuem variáveis.",
+            "Anular o efeito de paradoxos em orações negativas.",
+            "Transformar expressões sem verbo em orações completas.",
+            "Converter sentenças interrogativas em ordens imperativas."
+        ],
+        "gabarito": "Definir o valor lógico de sentenças que possuem variáveis.",
+        "assunto": "Proposições_Introdução"
+    },
+    {
+        "id": 3,
+        "enunciado": "A frase \"Pelé é o maior jogador de futebol de todos os tempos!\" não é proposição devido ao uso de:",
+        "alternativas": [
+            "Ponto de exclamação, tornando-a uma sentença exclamativa.",
+            "Adjetivo no grau superlativo, tornando-a um paradoxo.",
+            "Verbo de ligação no presente, tornando-a uma sentença aberta.",
+            "Referência a uma personalidade histórica, tornando-a subjetiva."
+        ],
+        "gabarito": "Ponto de exclamação, tornando-a uma sentença exclamativa.",
+        "assunto": "Proposições_Introdução"
+    },
+    {
+        "id": 4,
+        "enunciado": "Acerca do tema Proposições_Introdução, avalie os itens a seguir como Verdadeiro ou Falso (V ou F).\n( ) No diagrama de distinção entre termos, as 'Proposições' estão contidas dentro de qual conjunto maior? Expressões.\n( ) O conceito de \"proposição exclamativa\" é considerado: Inexistente, pois proposições não podem ter natureza exclamativa.\n( ) Por que a sentença \"$x + 9 = 10$\" é classificada como uma sentença aberta? O valor lógico depende da variável $x$ para ser determinado.\n( ) O Princípio da Identidade garante que: Expressões sem verbo sejam ignoradas pela gramática.",
+        "alternativas": [
+            "FFVF",
+            "VVVF",
+            "FVFF",
+            "FVVF",
+            "VVVV"
+        ],
+        "gabarito": "FVVF",
+        "assunto": "Proposições_Introdução"
+    },
+    {
+        "id": 5,
+        "enunciado": "Acerca do tema Proposições_Introdução, avalie os itens a seguir como Verdadeiro ou Falso (V ou F).\n( ) Qual das seguintes variantes é um quantificador existencial mencionado no material? \"Existe um único\"\n( ) Qual das seguintes frases é uma proposição lógica válida, apesar de seu conteúdo matemático? \"$x + y = 20$\"\n( ) Segundo o Princípio da Identidade na lógica clássica, qual afirmação é correta? Duas proposições diferentes podem ter o mesmo sujeito.",
+        "alternativas": [
+            "VVV",
+            "VFF",
+            "FVV",
+            "VVF",
+            "FFV"
+        ],
+        "gabarito": "VFF",
+        "assunto": "Proposições_Introdução"
+    },
+    {
+        "id": 6,
+        "enunciado": "Acerca do tema L12737, avalie os itens a seguir como Verdadeiro ou Falso (V ou F).\n( ) A forma qualificada do crime (art. 154-A, $\\S 3^{\\circ}$) ocorre quando a invasão resulta na obtenção de: Conteúdo de comunicações eletrônicas privadas\n( ) Segundo o $\\S 1^{\\circ}$ do art. 154-A, qual conduta é equiparada à invasão de dispositivo informático quanto à pena? Produzir ou distribuir programa de computador para permitir a invasão\n( ) Qual a pena prevista para a forma qualificada do crime de invasão de dispositivo informático (art. 154-A, $\\S 3^{\\circ}$)? Reclusão, de 1 a 4 anos",
+        "alternativas": [
+            "VVV",
+            "VFV",
+            "FVF",
+            "VVF",
+            "FFV"
+        ],
+        "gabarito": "VVF",
+        "assunto": "L12737"
+    },
+    {
+        "id": 7,
+        "enunciado": "Qual a pena de detenção prevista para o crime de invasão de dispositivo informático em sua forma simples?",
+        "alternativas": [
+            "1 (um) a 6 (seis) meses",
+            "3 (três) meses a 1 (um) ano",
+            "6 (seis) meses a 2 (dois) anos",
+            "2 (dois) a 4 (quatro) anos"
+        ],
+        "gabarito": "3 (três) meses a 1 (um) ano",
+        "assunto": "L12737"
+    },
+    {
+        "id": 8,
+        "enunciado": "O Art. 5º define 'administrador de sistema autônomo' como a pessoa cadastrada no ente nacional responsável pelo registro de:",
+        "alternativas": [
+            "1. Domínios de sites.",
+            "2. Endereços IP geograficamente referentes ao País.",
+            "3. Nomes de usuários de redes sociais.",
+            "4. Hardwares de conexão de rede."
+        ],
+        "gabarito": "2. Endereços IP geograficamente referentes ao País.",
+        "assunto": "L12965_Capítulo I e II"
+    },
+    {
+        "id": 9,
+        "enunciado": "Acerca do tema L12965_Capítulo I e II, avalie os itens a seguir como Verdadeiro ou Falso (V ou F).\n( ) O respeito à liberdade de expressão é considerado, pelo Art. 2º da Lei 12.965/2014, como: 4. Uma diretriz municipal.\n( ) Como deve ocorrer o consentimento expresso sobre a coleta e tratamento de dados pessoais, segundo o Art. 7º, inciso IX? 4. Através de um contrato físico assinado em cartório.\n( ) Qual direito é assegurado ao usuário no Art. 7º, inciso I, em caso de violação de sua intimidade? 2. A proteção e indenização pelo dano material ou moral decorrente.\n( ) Quem é o administrador de sistema autônomo, conforme o Art. 5º, inciso IV? 1. O usuário final da conexão.",
+        "alternativas": [
+            "FVFF",
+            "FFVF",
+            "VVFF",
+            "VFFF",
+            "VVVV"
+        ],
+        "gabarito": "FFVF",
+        "assunto": "L12965_Capítulo I e II"
+    },
+    {
+        "id": 10,
+        "enunciado": "Dentre os fundamentos previstos no Art. 2º, qual abrange a relação entre fornecedores e usuários?",
+        "alternativas": [
+            "1. A livre iniciativa, a livre concorrência e a defesa do consumidor.",
+            "2. A pluralidade e a diversidade cultural.",
+            "3. O reconhecimento da escala mundial da rede.",
+            "4. A abertura e a colaboração internacional."
+        ],
+        "gabarito": "1. A livre iniciativa, a livre concorrência e a defesa do consumidor.",
+        "assunto": "L12965_Capítulo I e II"
+    },
+    {
+        "id": 11,
+        "enunciado": "Acerca do tema Banco de Dados_Business Intelligence, avalie os itens a seguir como Verdadeiro ou Falso (V ou F).\n( ) Qual técnica é utilizada para preencher lacunas em séries temporais com base em registros adjacentes? Amostragem aleatória.\n( ) Por que os 'Wrapper Methods' na seleção de atributos são considerados computacionalmente pesados? Porque utilizam testes estatísticos diretos sem iteração.\n( ) Qual operação OLAP é o inverso do 'Drill-Down', servindo para consolidar dados na hierarquia? Roll-Up.",
+        "alternativas": [
+            "FFV",
+            "VVV",
+            "FFF",
+            "FVF",
+            "VFV"
+        ],
+        "gabarito": "FFV",
+        "assunto": "Banco de Dados_Business Intelligence"
+    },
+    {
+        "id": 12,
+        "enunciado": "Acerca do tema Banco de Dados_Business Intelligence, avalie os itens a seguir como Verdadeiro ou Falso (V ou F).\n( ) Sobre a relação entre tecnologia e julgamento humano, o que a doutrina de BI consolida para concursos? As soluções analíticas servem como apoio e não eliminam o julgamento humano.\n( ) O componente de BPM na arquitetura de BI foca em qual aspecto? Execução de scripts SQL para limpeza de dados.\n( ) Qual a principal mudança trazida pelo BI 2.0 em relação ao BI 1.0? A tomada de decisão totalmente autônoma por robôs.",
+        "alternativas": [
+            "VFF",
+            "VFV",
+            "VVV",
+            "FFF",
+            "VVF"
+        ],
+        "gabarito": "VFF",
+        "assunto": "Banco de Dados_Business Intelligence"
+    },
+    {
+        "id": 13,
+        "enunciado": "Qual o significado de um coeficiente de correlação de Pearson igual a $-1$?\nOpções:",
+        "alternativas": [
+            "Ausência total de relação linear entre as variáveis.",
+            "Correlação positiva perfeita.",
+            "Correlação negativa perfeita.",
+            "Variabilidade extrema em relação à média aritmética."
+        ],
+        "gabarito": "Correlação negativa perfeita.",
+        "assunto": "Banco de Dados_Business Intelligence"
+    },
+    {
+        "id": 14,
+        "enunciado": "Na Análise Exploratória de Dados (AED), como se define uma 'Escala Ordinal'?\nOpções:",
+        "alternativas": [
+            "Categorias que possuem uma ordenação natural e lógica.",
+            "Respostas com estritamente duas possibilidades mutuamente exclusivas.",
+            "Categorias que não possuem uma ordem natural, como cor ou estado civil.",
+            "Números inteiros resultantes de contagens diretas."
+        ],
+        "gabarito": "Categorias que possuem uma ordenação natural e lógica.",
+        "assunto": "Banco de Dados_Business Intelligence"
+    },
+    {
+        "id": 15,
+        "enunciado": "Qual é a principal limitação da 'Análise Descritiva' no contexto de Data Analytics?\nOpções:",
+        "alternativas": [
+            "A incapacidade de processar dados passados.",
+            "O foco em prever o futuro utilizando algoritmos de machine learning.",
+            "A restrição ao resumo e organização de dados passados e presentes sem prever o futuro.",
+            "A dependência de inteligência artificial para recomendar planos de ação."
+        ],
+        "gabarito": "A restrição ao resumo e organização de dados passados e presentes sem prever o futuro.",
+        "assunto": "Banco de Dados_Business Intelligence"
+    },
+    {
+        "id": 16,
+        "enunciado": "Como o protocolo HTTP é stateless, qual recurso do Java EE é utilizado para rastrear usuários e reter dados entre múltiplas requisições?",
+        "alternativas": [
+            "ServletContext",
+            "Cookies persistentes",
+            "Sessões HTTP (HttpSession)",
+            "Variáveis Estáticas"
+        ],
+        "gabarito": "Sessões HTTP (HttpSession)",
+        "assunto": "Desenvolvimento de Software_Java EE"
+    },
+    {
+        "id": 17,
+        "enunciado": "Acerca do tema Desenvolvimento de Software_Java EE, avalie os itens a seguir como Verdadeiro ou Falso (V ou F).\n( ) O WildFly e o GlassFish são exemplos de servidores de aplicação que diferem do Tomcat por possuírem nativamente: Suporte a Containers EJB e servidores de aplicação completos\n( ) O framework JSF (JavaServer Faces) utiliza qual linguagem padrão para a declaração das views e telas da aplicação? Angular\n( ) A partir do Java EE 5, qual recurso foi massificado para embutir metadados no código fonte, reduzindo a necessidade de descritores de implantação XML extensos? Generics",
+        "alternativas": [
+            "VFF",
+            "FFV",
+            "VVF",
+            "VVV",
+            "FVF"
+        ],
+        "gabarito": "VFF",
+        "assunto": "Desenvolvimento de Software_Java EE"
+    },
+    {
+        "id": 18,
+        "enunciado": "Qual padrão de projeto é focado em abstrair a complexidade e melhorar a performance de busca de recursos distribuídos através de cache de objetos?",
+        "alternativas": [
+            "Service Locator",
+            "Front Controller",
+            "Composite Entity",
+            "Transfer Object Assembler"
+        ],
+        "gabarito": "Service Locator",
+        "assunto": "Desenvolvimento de Software_Java EE"
+    },
+    {
+        "id": 19,
+        "enunciado": "Acerca do tema Desenvolvimento de Software_Java EE, avalie os itens a seguir como Verdadeiro ou Falso (V ou F).\n( ) O escopo CDI que é compartilhado por toda a aplicação, funcionando de forma similar a um Singleton, é o: @SessionScoped\n( ) Ferramentas como Apache Maven são classificadas como utilitários de desenvolvimento de terceiros. Elas fazem parte da especificação oficial do Java EE? Não, são ferramentas externas para automação de build e dependências\n( ) As ferramentas iReport e JasperReports são comumente integradas ao ecossistema Java para qual finalidade? Gerenciamento de dependências de build",
+        "alternativas": [
+            "VVV",
+            "FVF",
+            "FFV",
+            "VFV",
+            "FVV"
+        ],
+        "gabarito": "FVF",
+        "assunto": "Desenvolvimento de Software_Java EE"
+    },
+    {
+        "id": 20,
+        "enunciado": "A Camada EIS (Enterprise Information System) em uma arquitetura distribuída Java é primariamente composta por quais elementos?",
+        "alternativas": [
+            "Servlets e JSPs",
+            "Enterprise JavaBeans",
+            "Sistemas de armazenamento e bancos de dados",
+            "Navegadores Web e Applets"
+        ],
+        "gabarito": "Sistemas de armazenamento e bancos de dados",
+        "assunto": "Desenvolvimento de Software_Java EE"
+    },
+    {
+        "id": 21,
+        "enunciado": "Acerca do tema Governança_Processos e Áreas de Conhecimento, avalie os itens a seguir como Verdadeiro ou Falso (V ou F).\n( ) O Gerenciamento da Qualidade garante que o projeto: Utilize os recursos mais caros disponíveis no mercado.\n( ) A definição de escopo detalha: O valor total do salário da equipe técnica.\n( ) A área de Gerenciamento de Aquisições foca em quais processos? Avaliar a qualidade dos processos internos de fabricação.\n( ) O Gerenciamento do Escopo visa garantir que o projeto inclua: Todo o trabalho necessário, e o trabalho necessário, para o sucesso.",
+        "alternativas": [
+            "VFVV",
+            "VVVV",
+            "FFFV",
+            "FFVF",
+            "VVFF"
+        ],
+        "gabarito": "FFFV",
+        "assunto": "Governança_Processos e Áreas de Conhecimento"
+    },
+    {
+        "id": 22,
+        "enunciado": "Por que as chances de sucesso são consideradas baixas durante o planejamento?",
+        "alternativas": [
+            "Por causa da falta de recursos humanos alocados para a equipe.",
+            "Devido ao alto nível de incerteza e riscos presentes no início.",
+            "Pela ausência de um Termo de Abertura formalizado e aprovado.",
+            "Por conta da baixa influência das partes interessadas no projeto."
+        ],
+        "gabarito": "Devido ao alto nível de incerteza e riscos presentes no início.",
+        "assunto": "Governança_Processos e Áreas de Conhecimento"
+    },
+    {
+        "id": 23,
+        "enunciado": "O processo 'Orientar e Gerenciar o Trabalho do Projeto' pertence a qual grupo?",
+        "alternativas": [
+            "Planejamento",
+            "Execução",
+            "Monitoramento e Controle",
+            "Iniciação"
+        ],
+        "gabarito": "Execução",
+        "assunto": "Governança_Processos e Áreas de Conhecimento"
+    },
+    {
+        "id": 24,
+        "enunciado": "Acerca do tema Governança_Processos e Áreas de Conhecimento, avalie os itens a seguir como Verdadeiro ou Falso (V ou F).\n( ) Qual é o objetivo central do Grupo de Processos de Iniciação? Estabelecer o escopo total e definir os objetivos detalhados.\n( ) Qual é a finalidade do processo 'Realizar o Controle Integrado de Mudanças'? Revisar, aprovar e gerenciar mudanças nas entregas e documentos.\n( ) Quais são as entradas comuns para o processo de Desenvolver o Termo de Abertura? Requisitos detalhados e linha de base do escopo.",
+        "alternativas": [
+            "VVV",
+            "FFF",
+            "FVF",
+            "VVF",
+            "FVV"
+        ],
+        "gabarito": "FVF",
+        "assunto": "Governança_Processos e Áreas de Conhecimento"
+    },
+    {
+        "id": 25,
+        "enunciado": "Qual é o papel da área de Gerenciamento da Integração?",
+        "alternativas": [
+            "Garantir a conclusão pontual do cronograma do projeto.",
+            "Unificar e coordenar os vários processos e atividades de gerenciamento.",
+            "Definir o que entra e o que sai do escopo do projeto.",
+            "Realizar a contratação de serviços externos à equipe do projeto."
+        ],
+        "gabarito": "Unificar e coordenar os vários processos e atividades de gerenciamento.",
+        "assunto": "Governança_Processos e Áreas de Conhecimento"
+    },
+    {
+        "id": 26,
+        "enunciado": "No treinamento de classificadores para suporte à decisão, deve-se considerar a quantidade de dados e a:",
+        "alternativas": [
+            "Velocidade de emissão de cupons fiscais",
+            "Complexidade do problema",
+            "Frequência de relatórios mensais do SIG",
+            "Estrutura física da pirâmide organizacional"
+        ],
+        "gabarito": "Complexidade do problema",
+        "assunto": "Governança_Sistemas de Suporte a Decisão"
+    },
+    {
+        "id": 27,
+        "enunciado": "Sobre o controle do usuário no SAD, qual característica é fundamental?",
+        "alternativas": [
+            "O sistema deve ser rígido para evitar erros do gestor",
+            "O sistema deve estar sob controle direto do tomador de decisão para explorações livres",
+            "O sistema deve operar em modo automático sem intervenção humana",
+            "O sistema deve limitar as variáveis que o usuário pode modificar"
+        ],
+        "gabarito": "O sistema deve estar sob controle direto do tomador de decisão para explorações livres",
+        "assunto": "Governança_Sistemas de Suporte a Decisão"
+    },
+    {
+        "id": 28,
+        "enunciado": "Acerca do tema Governança_Sistemas de Suporte a Decisão, avalie os itens a seguir como Verdadeiro ou Falso (V ou F).\n( ) Qual é a principal força de um SAD segundo a literatura de Turban e Laudon? Capacidade de unir dados diversos com modelos analíticos sofisticados\n( ) Qual o papel do SGBD (Sistema Gerenciador de Banco de Dados) dentro da arquitetura de um SAD? Alimentar o Subsistema de Gerenciamento de Dados\n( ) Os Sistemas de Informações Gerenciais (SIG / MIS) trabalham majoritariamente com qual tipo de decisões? Decisões baseadas em intuição pura do gestor",
+        "alternativas": [
+            "VVF",
+            "FFF",
+            "VVV",
+            "VFF",
+            "VFV"
+        ],
+        "gabarito": "VVF",
+        "assunto": "Governança_Sistemas de Suporte a Decisão"
+    },
+    {
+        "id": 29,
+        "enunciado": "Acerca do tema Governança_Sistemas de Suporte a Decisão, avalie os itens a seguir como Verdadeiro ou Falso (V ou F).\n( ) A análise que busca responder: \"Para atingir um lucro líquido de $R\\$ 100 mil$, qual deve ser o nosso preço de venda?\" é a: Análise de Busca de Metas\n( ) Em relação à interação humana, como se comporta um Sistema Especialista (SE)? Depende da inserção manual de fórmulas a cada nova consulta\n( ) Qual o nível de atuação do Sistema Especialista (SE) em comparação com o SAD? Atua no nível de conhecimento ou técnico, em domínios complexos",
+        "alternativas": [
+            "FVF",
+            "VFV",
+            "VVF",
+            "VVV",
+            "VFF"
+        ],
+        "gabarito": "VFV",
+        "assunto": "Governança_Sistemas de Suporte a Decisão"
+    },
+    {
+        "id": 30,
+        "enunciado": "Na pirâmide organizacional, qual nível de gestão é atendido primordialmente pelos Sistemas de Apoio Executivo (SAE / EIS)?",
+        "alternativas": [
+            "Nível Operacional",
+            "Nível Gerencial Médio",
+            "Nível Estratégico",
+            "Nível Técnico de Conhecimento"
+        ],
+        "gabarito": "Nível Estratégico",
+        "assunto": "Governança_Sistemas de Suporte a Decisão"
+    },
+    {
+        "id": 31,
+        "enunciado": "O que o algoritmo PCA (Principal Component Analysis) realiza no pré-processamento?\nOpções:",
+        "alternativas": [
+            "Classificação de textos em múltiplas categorias.",
+            "Redução de dimensionalidade preservando a informação essencial.",
+            "Geração de dados sintéticos para classes minoritárias.",
+            "Cálculo do erro absoluto médio de um modelo de regressão."
+        ],
+        "gabarito": "Redução de dimensionalidade preservando a informação essencial.",
+        "assunto": "Inteligência Artificial_Aprendizado de Máquina"
+    },
+    {
+        "id": 32,
+        "enunciado": "Qual é a característica principal de uma variável quantitativa contínua?\nOpções:",
+        "alternativas": [
+            "Representa valores contáveis e necessariamente inteiros.",
+            "Pode assumir qualquer valor dentro de um intervalo decimal real.",
+            "Define categorias com uma hierarquia implícita clara.",
+            "Funciona como um identificador categórico sem valor numérico real."
+        ],
+        "gabarito": "Pode assumir qualquer valor dentro de um intervalo decimal real.",
+        "assunto": "Inteligência Artificial_Aprendizado de Máquina"
+    },
+    {
+        "id": 33,
+        "enunciado": "Acerca do tema Inteligência Artificial_Aprendizado de Máquina, avalie os itens a seguir como Verdadeiro ou Falso (V ou F).\n( ) Como é definida a métrica RMSE (Raiz do Erro Quadrático Médio)? Representa a taxa de verdadeiros positivos contra falsos positivos.\n( ) A métrica de 'importância de features' (Feature Importance) é comumente extraída de quais tipos de algoritmos? Agrupamento Hierárquico (HCA)\n( ) Modelos de Deep Learning (Redes Neurais Profundas) são geralmente categorizados como: Métodos de imputação estatística básica.\n( ) O que permite ao SVM lidar com dados que não são linearmente separáveis no espaço original? O Truque do Kernel (Kernel Trick)",
+        "alternativas": [
+            "FFFV",
+            "FVVF",
+            "VVVV",
+            "FVVV",
+            "VVFF"
+        ],
+        "gabarito": "FFFV",
+        "assunto": "Inteligência Artificial_Aprendizado de Máquina"
+    },
+    {
+        "id": 34,
+        "enunciado": "No contexto de árvores de decisão, o termo 'Poda' (Pruning) serve para:\nOpções:",
+        "alternativas": [
+            "Aumentar o número de divisões para capturar mais detalhes.",
+            "Simplificar o modelo e reduzir o risco de overfitting.",
+            "Substituir valores ausentes nos nós folha da árvore.",
+            "Garantir que a árvore tenha apenas variáveis quantitativas."
+        ],
+        "gabarito": "Simplificar o modelo e reduzir o risco de overfitting.",
+        "assunto": "Inteligência Artificial_Aprendizado de Máquina"
+    },
+    {
+        "id": 35,
+        "enunciado": "Acerca do tema Inteligência Artificial_Aprendizado de Máquina, avalie os itens a seguir como Verdadeiro ou Falso (V ou F).\n( ) A técnica de pré-processamento que substitui dados ausentes utilizando estatísticas como a média ou mediana é conhecida como: Imputação\n( ) Um modelo de Machine Learning que apresenta alta taxa de erro tanto na base de treinamento quanto na de testes sofre de: Underfitting (Subajuste)\n( ) Variáveis quantitativas discretas são caracterizadas por: Representar valores inteiros e contáveis.\n( ) Qual técnica é recomendada para combater o desbalanceamento de dados gerando amostras sintéticas interpoladas? Redução de Dimensionalidade PCA",
+        "alternativas": [
+            "FFFV",
+            "VVVF",
+            "VFVF",
+            "FVFF",
+            "VVVV"
+        ],
+        "gabarito": "VVVF",
+        "assunto": "Inteligência Artificial_Aprendizado de Máquina"
+    },
+    {
+        "id": 36,
+        "enunciado": "Acerca do tema Modelagem Relacional e Dimensional, avalie os itens a seguir como Verdadeiro ou Falso (V ou F).\n( ) Qual problema é gerado ao criar referências cruzadas bidirecionais (FKs mútuas) em relações 1:N? Travamento de integridade lógica difícil de gerenciar\n( ) No modelo relacional, o que são tuplas? As linhas que compõem a tabela\n( ) Em um Star Schema estrito, as tabelas de dimensão: Nunca devem se conectar diretamente entre si",
+        "alternativas": [
+            "VFV",
+            "FFV",
+            "VFF",
+            "FFF",
+            "VVV"
+        ],
+        "gabarito": "VVV",
+        "assunto": "Modelagem Relacional e Dimensional"
+    },
+    {
+        "id": 37,
+        "enunciado": "A modelagem dimensional é considerada otimizada para:",
+        "alternativas": [
+            "Online Transaction Processing (OLTP)",
+            "Online Analytical Processing (OLAP)",
+            "Armazenamento de dados não estruturados",
+            "Garantia de consistência em tempo real"
+        ],
+        "gabarito": "Online Analytical Processing (OLAP)",
+        "assunto": "Modelagem Relacional e Dimensional"
+    },
+    {
+        "id": 38,
+        "enunciado": "Uma Entidade Associativa no modelo conceitual materializa-se na transposição física como:",
+        "alternativas": [
+            "Uma coluna adicional na entidade forte",
+            "Uma tabela intermediária que gerencia o histórico ou ciclo de vida",
+            "Um gatilho de validação de domínio",
+            "Uma dimensão conformada no Data Warehouse"
+        ],
+        "gabarito": "Uma tabela intermediária que gerencia o histórico ou ciclo de vida",
+        "assunto": "Modelagem Relacional e Dimensional"
+    },
+    {
+        "id": 39,
+        "enunciado": "Acerca do tema Modelagem Relacional e Dimensional, avalie os itens a seguir como Verdadeiro ou Falso (V ou F).\n( ) Qual componente do modelo relacional define tipos de dados físicos, gatilhos (triggers) e alocação em disco? Modelo Lógico\n( ) Integridade de Vazio é a restrição que define: Se o valor de uma PK é único na relação\n( ) As medidas de uma tabela fato que podem ser somadas em todas as dimensões são classificadas como: Aditivas",
+        "alternativas": [
+            "VFV",
+            "FVF",
+            "FFV",
+            "VVF",
+            "VVV"
+        ],
+        "gabarito": "FFV",
+        "assunto": "Modelagem Relacional e Dimensional"
+    },
+    {
+        "id": 40,
+        "enunciado": "A Chave Estrangeira (FK) é um atributo que implementa o vínculo entre relações ao apontar para:",
+        "alternativas": [
+            "Uma Chave Composta na mesma tabela",
+            "A Chave Primária de uma tabela pai",
+            "Um atributo opcional de uma tabela filha",
+            "Um índice clusterizado em disco"
+        ],
+        "gabarito": "A Chave Primária de uma tabela pai",
+        "assunto": "Modelagem Relacional e Dimensional"
+    },
+    {
+        "id": 41,
+        "enunciado": "Acerca do tema Segurança da Informação_Procedimentos e Gerenciamento, avalie os itens a seguir como Verdadeiro ou Falso (V ou F).\n( ) Segundo a ISO 27002:2022, onde se categoriza a 'Classificação da informação'? Controles Tecnológicos\n( ) Sobre os atributos de controles na ISO 27002:2022, qual propriedade NÃO faz parte do atributo 'Propriedades de Segurança da Informação'? Autenticidade\n( ) Qual a responsabilidade primária do Proprietário do Ativo (Asset Owner) segundo as normas de SI? Monitorar o tráfego de rede em tempo real para detectar invasões",
+        "alternativas": [
+            "VVF",
+            "FFV",
+            "VVV",
+            "FVF",
+            "FFF"
+        ],
+        "gabarito": "FVF",
+        "assunto": "Segurança da Informação_Procedimentos e Gerenciamento"
+    },
+    {
+        "id": 42,
+        "enunciado": "Qual o foco principal do NOC (Network Operations Center) em uma organização?",
+        "alternativas": [
+            "Investigação de ataques cibernéticos sofisticados e persistentes",
+            "Disponibilidade, desempenho e integridade da infraestrutura de rede",
+            "Gestão de conformidade legal e auditoria de processos de RH",
+            "Desenvolvimento de políticas de classificação de ativos de informação"
+        ],
+        "gabarito": "Disponibilidade, desempenho e integridade da infraestrutura de rede",
+        "assunto": "Segurança da Informação_Procedimentos e Gerenciamento"
+    },
+    {
+        "id": 43,
+        "enunciado": "Qual a recomendação para o gerenciamento de redes domésticas no trabalho remoto?",
+        "alternativas": [
+            "Utilização exclusiva de cabos de rede blindados de categoria 7",
+            "Configuração de firewall local, antivírus e uso de criptografia WPA3",
+            "Desativação total do acesso à internet durante o horário de almoço",
+            "Contratação de um link de internet dedicado pago pelo funcionário"
+        ],
+        "gabarito": "Configuração de firewall local, antivírus e uso de criptografia WPA3",
+        "assunto": "Segurança da Informação_Procedimentos e Gerenciamento"
+    },
+    {
+        "id": 44,
+        "enunciado": "Acerca do tema Segurança da Informação_Procedimentos e Gerenciamento, avalie os itens a seguir como Verdadeiro ou Falso (V ou F).\n( ) Qual a principal finalidade da norma ISO/IEC 27001 no contexto da segurança da informação? Definir requisitos para estabelecer, implementar e certificar um SGSI\n( ) Qual princípio de governança visa mitigar o risco de conluio e fraude interna ao separar responsabilidades? Segregação de Funções (SoD)\n( ) Na versão 2022 da ISO/IEC 27002, em quais categorias os controles foram reorganizados? Organizacional, Pessoas, Físico e Tecnológico",
+        "alternativas": [
+            "FVF",
+            "VFF",
+            "VVF",
+            "FFV",
+            "VVV"
+        ],
+        "gabarito": "VVV",
+        "assunto": "Segurança da Informação_Procedimentos e Gerenciamento"
+    },
+    {
+        "id": 45,
+        "enunciado": "O atributo de 'Tipo de Controle' classifica as medidas de segurança em quais três categorias?",
+        "alternativas": [
+            "Estratégico, Tático e Operacional",
+            "Preventivo, Detectivo e Corretivo",
+            "Físico, Lógico e Administrativo",
+            "Interno, Externo e Governamental"
+        ],
+        "gabarito": "Preventivo, Detectivo e Corretivo",
+        "assunto": "Segurança da Informação_Procedimentos e Gerenciamento"
+    }
+]

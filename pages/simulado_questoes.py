@@ -213,6 +213,26 @@ if st.session_state.finalizado:
     st.metric("Porcentagem", f"{porcentagem:.1f}%")
     st.metric("Erros", f"{respondidas - acertos}/{respondidas}")
 
+    # Mapa de resultados por questão
+    blocos_html = '<div style="display:flex;flex-wrap:wrap;gap:6px;margin:16px 0">'
+    for i, q in enumerate(questoes):
+        qid = q["id"]
+        resp = st.session_state.respostas.get(qid)
+        if resp is not None:
+            acertou_q = q["alternativas"][ord(resp) - ord('A')] == q["gabarito"]
+            cor = "#28a745" if acertou_q else "#dc3545"
+        else:
+            cor = "#aaaaaa"
+        blocos_html += (
+            f'<div style="width:44px;height:44px;background:{cor};border-radius:6px;'
+            f'display:flex;align-items:center;justify-content:center;'
+            f'color:#fff;font-weight:bold;font-size:0.75rem">{i+1}</div>'
+        )
+        if (i + 1) % 10 == 0:
+            blocos_html += '<div style="width:100%;height:0"></div>'
+    blocos_html += '</div>'
+    st.markdown(blocos_html, unsafe_allow_html=True)
+
     if st.button("🔄 Reiniciar", use_container_width=True):
         st.session_state.idx = 0
         st.session_state.respostas = {}

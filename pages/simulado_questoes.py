@@ -67,6 +67,18 @@ else:
     # --- NOVO: Botão "Fazer simulado da Semana" ---
     caminho_simulado = os.path.join(PASTA_RAIZ, "Simulado")
     caminho_simulado_danilo = os.path.join(PASTA_RAIZ, "Simulado_Danilo")
+    caminho_exercio_ingles=os.path.join(PASTA_RAIZ, "Inglês Texto")
+
+    if os.path.exists(caminho_exercio_ingles) and os.path.isdir(caminho_exercio_ingles):
+        if st.button("📝 Exercício de Inglês", use_container_width=True):
+            # Busca o primeiro arquivo .json dentro da pasta Inglês Texto
+            jsons_exercicio = [f for f in os.listdir(caminho_exercio_ingles) if f.endswith(".json")]
+            if jsons_exercicio:
+                st.session_state.arquivo_simulado_ativo = os.path.join(caminho_exercio_ingles, jsons_exercicio[0])
+                st.success(f"Exercício carregado: `{jsons_exercicio[0]}`")
+            else:
+                st.error("Nenhum arquivo `.json` encontrado dentro da pasta Inglês Texto.")
+
     # O botão só aparece se a pasta "Simulado" de fato existir
     if os.path.exists(caminho_simulado) and os.path.isdir(caminho_simulado):
         if st.button("📝 Fazer simulado da Semana", use_container_width=True):

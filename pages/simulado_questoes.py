@@ -44,6 +44,7 @@ st.markdown("""
     font-size: 1.1rem; 
 }
 .stRadio label { font-size: 3rem !important; }
+[data-testid="stMarkdownContainer"] p { text-align: justify; }
 </style>
 """, unsafe_allow_html=True)
 
@@ -298,7 +299,7 @@ enunciado_html, tem_codigo = format_enunciado(q["enunciado"])
 if tem_codigo:
     st.markdown(enunciado_html, unsafe_allow_html=True)
 else:
-    st.markdown(f'<div style="text-align: justify">{escape_markdown(q["enunciado"])}</div>', unsafe_allow_html=True)
+    st.markdown(escape_markdown(q["enunciado"]))
 
 ja_respondida = qid in st.session_state.respondidas
 mostrar_gab = st.session_state.mostrar_gabarito.get(qid, False)

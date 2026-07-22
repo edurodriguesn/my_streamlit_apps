@@ -1,0 +1,1090 @@
+[
+    {
+        "id": 1,
+        "enunciado": "Paula está desenvolvendo um projeto de Data Warehouse para o TJRJ por meio da implementação de Data Marts, um para cada departamento, de forma sequencial, visto que a sua equipe é reduzida.\nNesse cenário, para que os Data Marts possam compor um Data Warehouse por meio do compartilhamento das dimensões em comum, deve-se implementar um(a):",
+        "alternativas": [
+            "data lake;",
+            "surrogate key;",
+            "cubo de dados;",
+            "esquema estrela;",
+            "barramento de dados."
+        ],
+        "gabarito": "barramento de dados."
+    },
+    {
+        "id": 2,
+        "enunciado": "As plataformas de Business Intelligence (BI) possuem diversos tipos de elementos. Um desse elementos são os Data Warehouse (DW), eles são considerados um dos principais dessa plataformas. Com relação às propriedades dos DW, analise as afirmativas a seguir.\nI. Sofrem muitas operações de atualização de dados e tem alta normalização de dados.\nII. São orientados por assunto e tem baixa volatidades dos dados.\nIII. Apresentam alta agregação de dados e baixa suporte a dados não relacionais.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, II e III.",
+            "I, apenas.",
+            "II, apenas.",
+            "III, apenas.",
+            "II e III, apenas."
+        ],
+        "gabarito": "II, apenas."
+    },
+    {
+        "id": 3,
+        "enunciado": "Julgue o próximo item, relativo às técnicas e aos métodos de BI (business intelligence), aos sistemas de suporte à decisão e gestão de conteúdo e à otimização de bases de dados multidimensionais.\nÍndices bitmap são inadequados para ambientes de data warehouse, pois apresentam baixo desempenho em consultas analíticas que envolvem grandes volumes de dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 4,
+        "enunciado": "Uma equipe de BI está desenvolvendo um Data Warehouse para análise de vendas. O foco é em consultas que agregam grandes volumes de dados históricos, como aqueles associados à pergunta: \"Qual foi o total de vendas por região e ano, comparado ao ano anterior?\".\nUma característica fundamental de um Data Warehouse em comparação com um Banco de Dados Transacional reside no fato de que",
+        "alternativas": [
+            "o DW adota esquemas de dados altamente normalizados para minimizar a redundância e garantir a integridade dos dados, priorizando a velocidade de inserção.",
+            "o DW é otimizado para transações rápidas e de curta duração (ACID), enquanto o OLTP é focado em leituras complexas e de longa duração.",
+            "o DW é caracterizado pela desnormalização (uso de esquemas estrela ou floco de neve) para reduzir o número de JOINS e aumentar a velocidade de consulta.",
+            "as tabelas do DW são estritamente voláteis, com dados sendo frequentemente atualizados e excluídos para refletir o estado operacional atual.",
+            "o DW armazena dados em tempo real, priorizando a latência mínima, diferentemente do OLTP que armazena dados consolidados e históricos."
+        ],
+        "gabarito": "o DW é caracterizado pela desnormalização (uso de esquemas estrela ou floco de neve) para reduzir o número de JOINS e aumentar a velocidade de consulta."
+    },
+    {
+        "id": 5,
+        "enunciado": "Em um Data Warehouse de telecomunicações, a Tabela Fato de chamadas registra bilhões de tuplas. O DBA percebe que certas colunas de dimensão, como PLANO_TARIFA (com poucas centenas de valores distintos) e SINAL_4G (booleanos), são frequentemente usadas em cláusulas WHERE com operadores lógicos (AND, OR).\nO tipo de índice mais adequado para otimizar a performance de consultas que envolvem essas colunas de baixa cardinalidade em um DW é o",
+        "alternativas": [
+            "Índice B+ Tree Clustered.",
+            "Índice Hash Estático.",
+            "Índice de Bitmap.",
+            "Índice Full-Text.",
+            "Índice B+ Tree Não-Clustered."
+        ],
+        "gabarito": "Índice de Bitmap."
+    },
+    {
+        "id": 6,
+        "enunciado": "Em uma grande corporação, o Data Warehouse principal é complexo e atende a diversos departamentos. Para simplificar a análise e prover dados mais focados ao setor de Marketing, foi criado um subconjunto do DW, contendo apenas os dados de vendas e clientes relevantes para o departamento.\nEsse subconjunto de dados focado em um departamento ou função de negócio específico é o(a)",
+        "alternativas": [
+            "Data Lake.",
+            "Staging Area.",
+            "Data Mart.",
+            "OLTP.",
+            "Metadata Repository."
+        ],
+        "gabarito": "Data Mart."
+    },
+    {
+        "id": 7,
+        "enunciado": "Julgue o item a seguir, relativo a Business Intelligence 3.0 e data warehouse.\nA principal característica de um data warehouse é armazenar dados em um ambiente de atualização contínua, no qual as informações são alteradas em tempo real, à medida que novos dados são gerados pelas fontes operacionais.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 8,
+        "enunciado": "Acerca de data mining e data mart, julgue o item a seguir.\nUm data mart é um repositório de dados orientado a um departamento ou a uma função específica dentro de uma organização.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 9,
+        "enunciado": "A respeito de data mart e data mining, julgue o item a seguir.\nUm data mart de vendas oferece dados específicos, como metas, desempenho por região, histórico de clientes e sazonalidade de produtos, informações cruciais para que a equipe de vendas faça análises detalhadas e rápidas, comparando o desempenho entre regiões e ajustando estratégias com base em históricos e tendências específicas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 10,
+        "enunciado": "Acerca dos conceitos relacionados a business intelligence, julgue o item que se segue.\nNa implementação do slowly changing dimension tipo 2, o valor antigo é sobrescrito pelo valor novo.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 11,
+        "enunciado": "Data Warehouses (DW) e Mineração de Dados (MD) são muito difundidos em diversos tipos de organizações. Eles possuem usos consagrados nas áreas de arquiteturas de sistemas de informação e Big Data.\nCom relação ao DW e MD, avalie se as afirmativas a seguir são verdadeiras (V) ou falsas (F).\n( ) O objetivo do DW é dar suporte ao processo de tomada de decisão com dados por intermédio de diversos tipos de algoritmos tais como regras de associação, árvores de classificação. A MD pode ser usado juntamente com o DW para com certos tipos de tomada de decisão em cenários de aplicações de Big Data.\n( ) Para tornar o DM mais eficiente o DW dever ter uma coleção de dados agregada e resumida. A MD ajuda na extração de novos padrões que não podem ser encontrados apenas ao consultar e processar dados e metadados do DW.\n( ) As aplicações de MD devem ser projetadas para facilitar seu uso juntamente com o DW. Para bancos de dados muito grandes (da ordem de grandeza de terabytes até petabytes de dados), o uso bem-sucedido das aplicações de MD dependerá, em primeiro lugar da construção de um DW.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "V – F – V.",
+            "F – V – V.",
+            "V – F – F.",
+            "V – V – F.",
+            "F – F – V."
+        ],
+        "gabarito": "F – V – V."
+    },
+    {
+        "id": 12,
+        "enunciado": "O analista Otávio está avaliando a solução de Business Intelligence do MPU desenvolvida por uma empresa contratada. Ao observar o banco de dados implementado, Otávio verificou que havia um esquema estrela, e que os dados armazenados estavam desnormalizados e alimentavam um cubo de dados para serem acessados e analisados via ferramenta OLAP.\nA partir do observado, Otávio concluiu que o banco de dados era um:",
+        "alternativas": [
+            "ETL;",
+            "ODS;",
+            "Data Mart;",
+            "Dashboad;",
+            "Repositório de Metadados."
+        ],
+        "gabarito": "Data Mart;"
+    },
+    {
+        "id": 13,
+        "enunciado": "O analista Pablo está implementando várias rotinas de carga de dados no Data Warehouse do MPU. Pablo observou que os dados origem, que alimentam as principais dimensões, possuem sua própria chave de identificação.\nPara não comprometer o uso dessas chaves com a sobreposição de chaves oriundas de outras fontes, Pablo deve implementar uma chave artificial por meio de um(a):",
+        "alternativas": [
+            "controle de versões;",
+            "barramento de dados;",
+            "slowly changing dimension;",
+            "gerenciador de hierarquias;",
+            "rotina de geração de chaves surrogadas."
+        ],
+        "gabarito": "rotina de geração de chaves surrogadas."
+    },
+    {
+        "id": 14,
+        "enunciado": "Julgue o item a seguir, relativo a business intelligence.\nData marts são subconjuntos de um data warehouse projetados para atender às necessidades específicas de departamentos ou áreas de negócio dentro de uma organização.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 15,
+        "enunciado": "Julgue o item que se seguem, relativos a ciência de dados e inteligência artificial (IA).\nData marts são bases centralizadas e corporativas que integram dados de diferentes áreas da organização, com foco em armazenamento de longo prazo e governança de dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 16,
+        "enunciado": "A respeito do Snowflake para gestão de grandes volumes de dados, analise as assertivas e assinale a alternativa que aponta as corretas.\nI. O Snowflake processa consultas usando clusters de computação MPP.\nII. Cada warehouse virtual é um cluster de computação independente que não compartilha recursos computacionais com outros warehouses virtuais.\nIII. A autenticação é um serviço que é gerenciado dentro da camada de serviços de nuvem.\nIV. A arquitetura do Snowflake consiste em três camadas principais, sendo elas: armazenamento de banco de dados; dimensionamento de consultas e serviços de nuvem.",
+        "alternativas": [
+            "Apenas I e IV.",
+            "Apenas I, II e IV.",
+            "Apenas I, II e III.",
+            "Apenas II e III.",
+            "I, II, III e IV."
+        ],
+        "gabarito": "Apenas I, II e III."
+    },
+    {
+        "id": 17,
+        "enunciado": "Um Data Warehouse (DW) é um sistema projetado para suporte à decisão, integrando dados de múltiplas fontes, armazenando-os de forma estruturada e otimizando-os para análise histórica. Diante do cenário, avalie as sentenças a seguir:\nInmon propõe uma arquitetura centralizada e normalizada, em que o DW é o repositório corporativo e os data marts derivam dele.\nPORQUE Kimball sugere começar pelos data marts departamentais, construídos com modelagem dimensional, que se integram para formar uma visão unificada.\nAcerca dessas sentenças, assinale a alternativa CORRETA.",
+        "alternativas": [
+            "As duas sentenças são verdadeiras, e a segunda é uma justificativa correta da primeira.",
+            "As duas sentenças são verdadeiras, mas a segunda não é uma justificativa correta da primeira.",
+            "A primeira sentença é verdadeira, e a segunda é falsa.",
+            "A primeira sentença é falsa, e a segunda é verdadeira."
+        ],
+        "gabarito": "As duas sentenças são verdadeiras, mas a segunda não é uma justificativa correta da primeira."
+    },
+    {
+        "id": 18,
+        "enunciado": "O Data Warehouse (DW) é um repositório de dados históricos capaz de produzir indicadores e evolução de valores ao longo de um grande intervalo de tempo. Diante do exposto, assinale a alternativa CORRETA.",
+        "alternativas": [
+            "Em um DW, os dados são organizados de acordo com os campos de interesse para a geração de relatórios operacionais.",
+            "Em um DW, os dados de diferentes fontes são unificados de forma padronizada e consistente, eliminando conflitos de nomenclatura e discrepância entre unidades de medida.",
+            "Em um DW, os dados podem ser alterados ou atualizados, mantendo sempre a versão mais recente e única da verdade.",
+            "Em um DW, os dados históricos são removidos na análise de tendências, variações e relações ao longo do tempo, pois nem todo dado está associado a um ponto no tempo."
+        ],
+        "gabarito": "Em um DW, os dados de diferentes fontes são unificados de forma padronizada e consistente, eliminando conflitos de nomenclatura e discrepância entre unidades de medida."
+    },
+    {
+        "id": 19,
+        "enunciado": "Uma rede varejista precisa analisar tendências de consumo e padrões de vendas ao longo do tempo. No entanto, seu banco de dados operacional não suporta consultas complexas para tomada de decisões estratégicas. A solução que pode consolidar grandes volumes de dados históricos e facilitar análises detalhadas é um:",
+        "alternativas": [
+            "Banco de dados operacional usado para transações diárias.",
+            "Modelo de banco de dados relacional usado para armazenar grandes volumes de dados.",
+            "Software para gerenciar backups de bancos de dados.",
+            "Sistema de gerenciamento de arquivos para armazenamento local.",
+            "Repositório centralizado de dados projetado para análise e tomada de decisões."
+        ],
+        "gabarito": "Repositório centralizado de dados projetado para análise e tomada de decisões."
+    },
+    {
+        "id": 20,
+        "enunciado": "Em relação ao projeto e uso desse Data Warehouse, assinale com V as afirmativas verdadeiras e com F as falsas.\n( ) A separação em tabelas de fatos e dimensões (modelo estrela) é uma prática comum para otimizar consultas analíticas, pois simplifica as junções de tabelas.\n( ) A tabela FATO_VENDAS armazena métricas numéricas e chaves estrangeiras que fazem referência às chaves primárias das tabelas de dimensão.\n( ) A atualização dos dados no Data Warehouse ocorre em tempo real, já que ele é projetado para ser a fonte primária de dados para as operações do dia a dia da empresa.\nAssinale a sequência correta.",
+        "alternativas": [
+            "V F V.",
+            "F V F.",
+            "F F V.",
+            "V V F."
+        ],
+        "gabarito": "V V F."
+    },
+    {
+        "id": 21,
+        "enunciado": "Coloque V (verdadeiro) ou F (falso) nas afirmativas abaixo, em relação à abordagem de Bill Inmon para projetos de Data Warehouse, assinalando a seguir a opção correta.\n( ) Tem como desvantagem a possibilidade de produzir diversos Data Marts, sem uma perfeita coesão entre eles.\n( ) Dá ênfase à construção de um grande depósito central de informações empresariais tratadas, limpas e integradas.\n( ) Oferece uma visão mais próxima dos projetos em espirais, indo ao encontro de abordagens ágeis.\n( ) Centra-se na modelagem dimensional, transformando dados em tabelas fato e dimensão.\n( ) Propõe que o armazenamento no Data Warehouse seja feito de acordo com a idade dos dados.",
+        "alternativas": [
+            "(F) (V) (V) (F) (V).",
+            "(V) (F) (V) (V) (F).",
+            "(F) (F) (V) (F) (F).",
+            "(V) (F) (F) (V) (V).",
+            "(F) (V) (F) (V) (F)."
+        ],
+        "gabarito": "(F) (V) (V) (F) (V)."
+    },
+    {
+        "id": 22,
+        "enunciado": "Os data warehouses, componentes essenciais da arquitetura de Business Intelligence (BI), utilizam a modelagem multidimensional para organizar os dados em diferentes esquemas.\nQuando várias tabelas fato compartilham dimensões, esse tipo de modelagem é denominado esquema",
+        "alternativas": [
+            "drill across.",
+            "estrela.",
+            "floco de neve.",
+            "galáxia.",
+            "top down."
+        ],
+        "gabarito": "galáxia."
+    },
+    {
+        "id": 23,
+        "enunciado": "Com relação ao Data Warehousing e ao Business Intelligence, avalie as afirmativas a seguir e assinale V para a afirmativa verdadeira e F para a falsa.\n( ) Eles têm como meta construir e manter o ambiente técnico e os processos técnicos e de negócios necessários para fornecer dados integrados em apoio às funções operacionais, requisitos de conformidade e atividades de inteligência de negócios.\n( ) Ambos visam apoiar e permitir análises de negócios e tomadas de decisões mais eficazes por parte dos trabalhadores do conhecimento.\n( ) O Data Warehousing concentra-se em permitir um contexto de negócios histórico e integrado em dados operacionais, aplicando regras de negócios e mantendo relacionamentos de dados de negócios apropriados. O armazenamento de dados também inclui processos que interagem com repositórios de metadados.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "F – F – F.",
+            "F – F – V.",
+            "F – V – V.",
+            "V – F – V.",
+            "V – V – V."
+        ],
+        "gabarito": "V – V – V."
+    },
+    {
+        "id": 24,
+        "enunciado": "Atualmente, existem vários modelos arquiteturais de data warehousing, comumente chamados de arquiteturas de n camadas. As mais comuns são as arquiteturas de duas e três camadas.\nCom relação ao modelo arquitetural de três camadas, analise as afirmativas a seguir e assinale (V) para a verdadeira e (F) para a falsa.\n( ) O servidor que executa o sistema operacional e o banco de dados é a terceira camada, que mantém os dados e demais softwares.\n( ) O data warehouse é uma segunda camada; trata-se de um front-end cujo software de ETL computam os dados e metadados de sistemas legados e de fontes externas, consolidando, resumindo e carregando-os no servidor de banco de dados operacional.\n( ) A primeira camada inclui todos os softwares do cliente, os mecanismos do business intelligence, sistemas de suporte a decisão e business analytics do back- end; ela permite que os analistas, por meio de processamento OLAP, analisem os dados históricos consolidados nos data warehouses ou data lakes.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "F – V – F.",
+            "V – F – F.",
+            "F – V – V.",
+            "V – F – V."
+        ],
+        "gabarito": "V – F – F."
+    },
+    {
+        "id": 25,
+        "enunciado": "Analise a afirmativa abaixo e assinale a alternativa que apresenta a qual conceito ela se refere.\nÉ um repositório centralizado de dados que integra informações de várias fontes, transformando e armazenando esses dados de maneira otimizada para análise e geração de relatórios, possibilitando a tomada de decisões estratégicas fundamentadas dentro de uma organização.",
+        "alternativas": [
+            "Planilhas Eletrônicas Distribuidas.",
+            "Matriz Multidimensional.",
+            "Data Warehouse.",
+            "Banco de dados NoSQL."
+        ],
+        "gabarito": "Data Warehouse."
+    },
+    {
+        "id": 26,
+        "enunciado": "Considerando processos de análise e mineração de dados, julgue o item subsecutivo.\nData mart e data warehouse são termos sinônimos que se referem igualmente a um local onde é armazenada uma grande quantidade de dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 27,
+        "enunciado": "Data Warehouses são ferramentas que colecionam dados para dar suporte à tomada de decisões de negócios. Sobre as principais características de um Data Warehouse, podemos afirmar que deve ser",
+        "alternativas": [
+            "capaz de representar o fluxo de dados através do tempo, podendo criar variáveis que agregam informações por intervalos de tempo.",
+            "desvinculado dos sistemas da a organização, coletando dados de outras fontes para garantir independência das informações.",
+            "volátil, buscando manter apenas as informações mais recentes e removendo as informações que for considerado desnecessário.",
+            "focado nos processos da organização, armazenando cada etapa dos processos em execução para permitir auditorias quando necessário."
+        ],
+        "gabarito": "capaz de representar o fluxo de dados através do tempo, podendo criar variáveis que agregam informações por intervalos de tempo."
+    },
+    {
+        "id": 28,
+        "enunciado": "Uma das primeiras etapas da modelagem multidimensional de dados, para o desenvolvimento de um ambiente de Data Warehouse (DW), é a definição do nível de detalhamento dos dados que serão carregados na tabela fato. Quanto mais detalhado ou atômico, maior será o volume de dados armazenados e maior serão as possibilidades de agregação.\nO nível de detalhamento dos dados de um DW é definido pelo(a):",
+        "alternativas": [
+            "surrogate key;",
+            "granularidade;",
+            "conformed facts;",
+            "barramento de dados;",
+            "aditividade das métricas."
+        ],
+        "gabarito": "granularidade;"
+    },
+    {
+        "id": 29,
+        "enunciado": "A principal função de um Data Warehouse é",
+        "alternativas": [
+            "criptografar dados sensíveis de negócios para garantir a segurança da informação.",
+            "integrar e armazenar grandes volumes de dados de diversas fontes de forma organizada para suportar a tomada de decisão.",
+            "processar transações online em tempo real para e-commerce e aplicações web.",
+            "analisar e prever tendências futuras de mercado utilizando algoritmos de inteligência artificial.",
+            "facilitar operações de negócios do dia a dia, como transações financeiras e registros de clientes."
+        ],
+        "gabarito": "integrar e armazenar grandes volumes de dados de diversas fontes de forma organizada para suportar a tomada de decisão."
+    },
+    {
+        "id": 30,
+        "enunciado": "O processo de tomada de decisão conta com ferramentas computacionais que otimizam e auxiliam gestores em diferentes níveis de atuação organizacional. No que se refere ao suporte de dados, os armazéns de dados (ou data warehouses) representam uma importante alternativa para o armazenamento de dados por conta de suas características estruturais.\nAssinale a opção apresenta uma característica que diferencia um data warehouse de uma base de dados com suporte ao processamento OLTP.",
+        "alternativas": [
+            "Dimensões e níveis de agregação ilimitados.",
+            "Operações restritas em dimensões.",
+            "Tratamento estático da matriz esparsa.",
+            "Visão conceitual unidimensional.",
+            "Volatilidade dos dados armazenados."
+        ],
+        "gabarito": "Dimensões e níveis de agregação ilimitados."
+    },
+    {
+        "id": 31,
+        "enunciado": "Acerca de business intelligence, julgue o item a seguir.\nUm data warehouse proporciona, como repositório de dados, uma visão global, comum e integrada dos dados de uma organização de maneira estável, coerente, confiável e com informação histórica.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 32,
+        "enunciado": "O principal objetivo de um data warehousing é permitir a análise de dados para auxiliar na tomada de decisões estratégicas e operacionais nas organizações.\nConsidere as características de data warehousing, marque V para as afirmativas verdadeiras e F para as falsas.\n( ) Metadata: usado para documentar e descrever os dados e processos, incluindo a origem dos dados e transformações aplicadas.\n( ) Cubos OLAP: são conjuntos de dados organizados em um formato multidimensional que dificultam a análise e geração de relatórios.\n( ) Data Marts: são subconjuntos e são projetados para atender às necessidades específicas de uma área funcional ou departamento da organização.\nA sequência está correta em",
+        "alternativas": [
+            "F, F, F.",
+            "F, V, F.",
+            "V, F, V.",
+            "V, V, V."
+        ],
+        "gabarito": "V, F, V."
+    },
+    {
+        "id": 33,
+        "enunciado": "Armazéns de dados (ou data warehouses) são bases de dados que se mostram como uma interessante opção em processos de tomada de decisão. Elas armazenam grandes volumes de dados históricos e agregados para apoiar a tomada de decisões estratégicas e operacionais da organização.\nAssinale a opção que apresenta uma característica correta de um data warehouse.",
+        "alternativas": [
+            "Adequam-se a sistemas OLTP (On Line Transaction Processing).",
+            "Apresentam como característica a dimensão temporal.",
+            "Armazenam especificamente dados de natureza transacional.",
+            "Orientam seu conteúdo à aplicação.",
+            "Possuem dados de natureza volátil."
+        ],
+        "gabarito": "Apresentam como característica a dimensão temporal."
+    },
+    {
+        "id": 34,
+        "enunciado": "A analista Bia está implementando um ambiente de Business Intelligence (BI) para apoiar as decisões dos gestores do TJMS.\nPara isso, Bia está extraindo dados oriundos de diversos sistemas de informação para carregar em um banco de dados.\nNa arquitetura de um ambiente BI, o componente que armazena dados orientado a assunto, integrado, variante no tempo e não volátil que Bia deve implementar é o:",
+        "alternativas": [
+            "OLAP;",
+            "dashboard;",
+            "data warehouse;",
+            "data mining;",
+            "repositório de metadados."
+        ],
+        "gabarito": "data warehouse;"
+    },
+    {
+        "id": 35,
+        "enunciado": "As características inerentes ao Big Data implicam a necessidade de um sistema de armazenamento, gerenciamento e análise que seja flexível, de forma a se adaptar facilmente aos dados sem comprometer o desempenho. Dentre as soluções, o Data Warehouse (DW) tem como características:",
+        "alternativas": [
+            "garantia da redundância de dados, assegurando cópias de segurança e recuperação em tempo real.",
+            "armazenamento e análise de dados oriundos de múltiplas fontes e sob diferentes aspectos ou perspectivas.",
+            "priorização de transações de alta velocidade e operações de atualização, sem suporte a consultas complexas.",
+            "otimização do espaço de armazenamento, por meio da remoção de dados históricos e priorização de dados operacionais de curto prazo."
+        ],
+        "gabarito": "armazenamento e análise de dados oriundos de múltiplas fontes e sob diferentes aspectos ou perspectivas."
+    },
+    {
+        "id": 36,
+        "enunciado": "A ferramenta de projeto utilizada para apoiar a implementação incremental de modelos dimensionais de áreas de negócio distintos compartilhando dimensões padronizadas em um Data Warehouse Corporativo é:",
+        "alternativas": [
+            "Data Lake.",
+            "Pipeline de dados.",
+            "Regras de Associação.",
+            "Matriz de Barramento."
+        ],
+        "gabarito": "Matriz de Barramento."
+    },
+    {
+        "id": 37,
+        "enunciado": "Julgue o item a seguir, a respeito de sistema gerenciador de banco de dados relacional e NoSQL.\nData warehouses são repositórios nos quais os dados podem ser armazenados em formatos variados, incluindo-se registros semiestruturados e formatos de arquivo não estruturados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 38,
+        "enunciado": "Associe os conceitos a seguir às respectivas características.\n1. Data Lake\n2. Data Mart\n( ) Surgiu como uma alternativa aos armazéns de dados tradicionais, permitindo o armazenamento de grandes volumes de dados de qualquer tipo e tamanho.\n( ) São criados para tornar os dados mais facilmente acessíveis para geração de relatórios, além de fornecer um estágio adicional de transformação além das tubulações ETL iniciais.\n( ) Tipo de armazenamento de dados frequentemente usado para suportar camadas de apresentação do ambiente de data warehouse.\n( ) Fornece um local central de armazenamento para dados brutos, com o mínimo de transformação, se houver.\nA associação correta, na ordem dada, é:",
+        "alternativas": [
+            "1 – 2 – 2 – 1.",
+            "1 – 2 – 1 – 2.",
+            "2 – 2 – 1 – 1.",
+            "1 – 1 – 2 – 2.",
+            "2 – 1 – 1 – 2."
+        ],
+        "gabarito": "1 – 2 – 2 – 1."
+    },
+    {
+        "id": 39,
+        "enunciado": "Com o objetivo de atender às necessidades específicas de processamento, acesso e análise de informações, diferentes tecnologias podem ser empregadas para o armazenamento de dados.\nNesse contexto, é correto afirmar que Data Warehouses",
+        "alternativas": [
+            "são ideais para armazenar grandes volumes de dados estruturados e não estruturados.",
+            "separam os dados em zonas, de acordo com o nível de processamento, do mais bruto ao mais refinado.",
+            "empregam o método ELT (Extract, Load, Transform) no processo ingestão de dados.",
+            "são ineficazes para a realização de consultas complexas em grandes volumes de dados estruturados.",
+            "são otimizados para a geração de relatórios de dados estruturados, provenientes de diversas fontes."
+        ],
+        "gabarito": "são otimizados para a geração de relatórios de dados estruturados, provenientes de diversas fontes."
+    },
+    {
+        "id": 40,
+        "enunciado": "Para apoiar a decisão em diversos níveis de gestão, o Departamento de Tecnologia da Informação (DTI) identificou a necessidade de desenvolver um banco de dados centralizado com informações oriundas de diversos outros bancos de dados. Além disso, o banco deve ser orientado a assunto, não volátil e histórico.\nPara isso, a DTI deve implementar um(a):",
+        "alternativas": [
+            "Log;",
+            "Grafo;",
+            "Banco NoSQL;",
+            "Data Warehouse;",
+            "Regra de associação."
+        ],
+        "gabarito": "Data Warehouse;"
+    },
+    {
+        "id": 41,
+        "enunciado": "Diferentemente dos bancos de dados que têm por objetivo gravar e apoiar o monitoramento e as decisões operacionais, assinale a alternativa que apresenta o principal objetivo de um Data Warehouse.",
+        "alternativas": [
+            "Permitir o processamento de transações on-line para sistemas de autoatendimento.",
+            "Projetado para analisar e apoiar as decisões estratégicas e gerenciais.",
+            "Facilitar o acesso de usuários de linha de frente a dados em tempo real.",
+            "Executar transações de banco de dados em tempo real."
+        ],
+        "gabarito": "Projetado para analisar e apoiar as decisões estratégicas e gerenciais."
+    },
+    {
+        "id": 42,
+        "enunciado": "O data warehouse (armazém de dados ou depósito de dados) é um acervo lógico que concentra vários tipos diferentes de bancos de dados, cuja função é consolidar as informações para a análise de negócio e tomada de decisão. Desta forma, assinale a alternativa que apresenta uma característica de um data warehouse.",
+        "alternativas": [
+            "O fator tempo para o data warehouse é relativamente curto se comparado com outros SGBDs (Sistemas de Gerenciamento de Banco de Dados).",
+            "Não é volátil, de modo que os dados anteriores não são apagados quando novas informações são inseridas.",
+            "Seguir a conformidade da propriedade ACID (atomicidade, consistência, isolamento e durabilidade).",
+            "Permitir o isolamento entre programas e dados."
+        ],
+        "gabarito": "Não é volátil, de modo que os dados anteriores não são apagados quando novas informações são inseridas."
+    },
+    {
+        "id": 43,
+        "enunciado": "Em relação a conceitos, fundamentos, características, técnicas e métodos de BI (business intelligence), definição e conceitos de DW (data warehouse) e data mining e arquitetura e aplicações de data warehouse com ETL, julgue o item subsequente.\nDW é um processo que reúne e gerencia várias coleções de dados históricos, indexados e de alto valor, que passam por um processo de limpeza, processamento e transformação com vistas a análises estratégicas e avançadas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 44,
+        "enunciado": "Analise as afirmativas abaixo sobre Armazém de dados (Data Warehouse) e Inteligência de Negócios (Business Intelligence).\nI. O Data Warehouse centraliza dados históricos e integra informações de múltiplas fontes, sendo otimizado para consultas complexas, mas não para atualizações frequentes ou análises em tempo real.\nII. Business Intelligence (BI) é um processo de análise de dados que depende de ferramentas e técnicas para gerar insights acionáveis, utilizando dados armazenados no Data Warehouse e outras fontes.\nIII. A função principal de um Data Warehouse é gerar dashboards e relatórios interativos, enquanto a Business Intelligence realiza o armazenamento e a consolidação dos dados de diferentes departamentos da empresa.\nIV. O uso de Business Intelligence (BI) permite que as empresas monitorem KPIs (Key Performance Indicators) e tomem decisões com base em análises históricas e preditivas, enquanto o Data Warehouse organiza, armazena e disponibiliza os dados de forma eficiente.\nEstão corretas as afirmativas:",
+        "alternativas": [
+            "I e II apenas.",
+            "I e III apenas.",
+            "II e IV apenas.",
+            "I, II e IV apenas."
+        ],
+        "gabarito": "I, II e IV apenas."
+    },
+    {
+        "id": 45,
+        "enunciado": "Data Warehouse (Armazém de Dados) é uma solução de armazenamento de dados projetada para consolidar e gerenciar grandes volumes de dados provenientes de diversas fontes de forma eficiente e estruturada. É uma ferramenta crucial para análise de dados, relatórios e tomada de decisões empresariais. No contexto de um Data Warehouse, uma característica essencial para garantir a consistência dos dados ao longo do tempo, permitindo a realização de análises históricas, é",
+        "alternativas": [
+            "a normalização excessiva das tabelas de dados.",
+            "o armazenamento em um formato relacional tradicional.",
+            "a utilização de ETL (Extract, Transform, Load) para ingestão de dados.",
+            "a estruturação dos dados em um esquema de estrela ou floco de neve.",
+            "a implementação de versionamento e controle de alterações de dados (historical versioning)."
+        ],
+        "gabarito": "a implementação de versionamento e controle de alterações de dados (historical versioning)."
+    },
+    {
+        "id": 46,
+        "enunciado": "Em relação à ciência de dados, julgue os itens que se seguem.\nUm data warehouse é projetado para suportar operações transacionais diárias, como inserções, atualizações e exclusões frequentes de dados, similarmente a um banco de dados operacional.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 47,
+        "enunciado": "A principal função de um Data Warehouse é",
+        "alternativas": [
+            "armazenar dados em tempo real para transações de negócios.",
+            "manter dados atualizados constantemente para sistemas de transações online.",
+            "consolidar dados de múltiplas fontes para análise e relatórios estratégicos.",
+            "substituir os sistemas de bancos de dados transacionais.",
+            "fornecer suporte para operações de rotina e gestão de inventário."
+        ],
+        "gabarito": "consolidar dados de múltiplas fontes para análise e relatórios estratégicos."
+    },
+    {
+        "id": 48,
+        "enunciado": "No que diz respeito ao Modelo Entidade‑Relacionamento (ER), ao Data Warehouse, ao Data Lake e à normalização numérica, julgue o item seguinte.\nUma característica fundamental de um Data Warehouse é que ele permite integrar dados de várias fontes para suportar análises de negócios.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 49,
+        "enunciado": "Assinale a alternativa que descreve corretamente um Datamart:",
+        "alternativas": [
+            "Uma funcionalidade presente em softwares de Business Intelligence que permite excluir colunas e criar novas para organizar visualizações personalizadas.",
+            "Um sistema de armazenamento em nuvem utilizado para consolidar dados de diferentes fontes para análise.",
+            "Uma coleção de dados não estruturados utilizada para análises exploratórias em tempo real.",
+            "Uma técnica de mineração de dados que agrupa dados com base em similaridades para identificar padrões ocultos.",
+            "Um subconjunto de um Data Warehouse focado em uma área de negócios específica, utilizado para suportar processos de decisão."
+        ],
+        "gabarito": "Um subconjunto de um Data Warehouse focado em uma área de negócios específica, utilizado para suportar processos de decisão."
+    },
+    {
+        "id": 50,
+        "enunciado": "Em relação às diferenças de características técnicas entre um banco de dados planejado para lidar com informações transacionais (operações do dia a dia de uma empresa) e um Data Warehouse, é correto afirmar que",
+        "alternativas": [
+            "a normalização é essencial em um Data Warehouse, sobretudo no modelo dimensional estrela, de forma a evitar dados redundantes.",
+            "os processos analíticos normalmente usam uma pequena parcela de dados, reservando grandes porções de dados aos processos transacionais.",
+            "a questão de redundância de dados não é problema para o modelo dimensional (estrela), pois a normalização não é relevante entre fatos e dimensões.",
+            "os dados transacionais são acessados raramente, ao passo que os dados em um Data Warehouse são acessados frequentemente para o funcionamento operacional de uma empresa.",
+            "os dados salvos em um Data Warehouse são constantemente atualizados por meio de operações de UPDATE, ao passo que os dados transacionais recebem apenas novos registros (INSERT) e pedidos de leitura (SELECT)."
+        ],
+        "gabarito": "a questão de redundância de dados não é problema para o modelo dimensional (estrela), pois a normalização não é relevante entre fatos e dimensões."
+    },
+    {
+        "id": 51,
+        "enunciado": "Assinale a opção que apresenta uma diferença funcional entre um banco de dados planejado para lidar com informações transacionais (operações do dia a dia da empresa) e um Data Warehouse.",
+        "alternativas": [
+            "A finalidade de um banco de dados transacional é ser orientado para uma aplicação de negócio, e a de um Data Warehouse é ser orientado para um assunto de análise.",
+            "Um Data Warehouse é usado por todos os tipos de colaboradores em uma empresa, e um banco de dados transacional é usado apenas por gestores.",
+            "Um Data Warehouse deve ser orientado para uma aplicação de negócio, e um banco de dados transacional deve ser orientado para um assunto de análise.",
+            "A finalidade de um banco de dados transacional e de um Data Warehouse é a mesma: ser orientada para um assunto específico de análise.",
+            "Um Data Warehouse e um banco de dados transacional são igualmente utilizados por todos os colaboradores em uma empresa no nível operacional."
+        ],
+        "gabarito": "A finalidade de um banco de dados transacional é ser orientado para uma aplicação de negócio, e a de um Data Warehouse é ser orientado para um assunto de análise."
+    },
+    {
+        "id": 52,
+        "enunciado": "Avalie se os componentes de um Data Warehouse incluem:\nI. Sistemas de origem.\nII. Infraestrutura de ETL (Extraction-transformation-load).\nIII. Data Warehouse.\nIV. Aplicações de Front-end para o usuário final.\nEstão corretos os itens",
+        "alternativas": [
+            "I e II, apenas.",
+            "III e IV, apenas.",
+            "I, II e III, apenas.",
+            "II, III e IV, apenas.",
+            "I, II, III e IV."
+        ],
+        "gabarito": "I, II, III e IV."
+    },
+    {
+        "id": 53,
+        "enunciado": "O CDC (Change Data Capture) é uma forma viável de atualizar informações em um Data Warehouse com pouca latência porque fornece um mecanismo de simples implementação para o rastreamento dos dados, trabalha de forma assíncrona e causa um baixo impacto no servidor transacional. A metodologia utilizada para construir um CDC, que consiste em executar consultas ciclicamente para capturar e identificar as mudanças realizadas, sendo necessário, adicionalmente, utilizar algumas propriedades nas tabelas como, por exemplo, possuir uma coluna chamada “última atualização” ou um inteiro crescente como chave primária, denomina-se:",
+        "alternativas": [
+            "Junção.",
+            "Particionamento.",
+            "Armazenar metadados.",
+            "Triggers no banco de dados.",
+            "Processamento do log de transações."
+        ],
+        "gabarito": "Armazenar metadados."
+    },
+    {
+        "id": 54,
+        "enunciado": "A respeito de data warehouse e data mining, julgue o próximo item.\nFatos, dimensões e medidas são elementos essenciais de um data warehouse.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 55,
+        "enunciado": "A respeito de data warehouse e data mining, julgue o próximo item.\nEm data warehouse, o conceito de granularidade refere-se ao nível de detalhe ou resumo existente em uma unidade de dados, de forma que, quanto mais detalhes, mais alto o nível de granularidade.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 56,
+        "enunciado": "Um Data Warehouse",
+        "alternativas": [
+            "de duas camadas divide as fontes de dados tangíveis em dois segmentos: os dados transacionais, utilizados unicamente por ferramentas analíticas, e os dados operacionais, utilizados exclusivamente por ferramentas de Data Mining.",
+            "trabalha com metadados, que definem níveis de acesso que permitem aos usuários transferir dados, sendo também usados para dividir as informações por departamento ou dentro de visões necessárias para os diferentes usuários.",
+            "cujo schema é baseado no modelo Star, permite a decomposição de uma ou mais dimensões que possuem hierarquias, sendo o mais utilizado por ser de baixa complexidade.",
+            "oferece consultas com nível de granularidade da tabela fato variável, de forma que quanto maior a granularidade, maior o nível de detalhamento e quanto menor a granularidade, menor o nível de detalhamento da informação.",
+            "possui como característica a não volatilidade, ou seja, os dados ficam disponíveis para consulta, não sendo estes alterados quando novas informações são carregadas."
+        ],
+        "gabarito": "possui como característica a não volatilidade, ou seja, os dados ficam disponíveis para consulta, não sendo estes alterados quando novas informações são carregadas."
+    },
+    {
+        "id": 57,
+        "enunciado": "A gestão do TJRN é apoiada por sistemas de informações digitais que estão em produção há mais de dez anos abrangendo diversos contextos, como gestão de pessoal, gestão orçamentária, pedidos de serviço, controle de viaturas etc. Para apoiar a tomada de decisão de alto nível do Tribunal, é necessário o desenvolvimento de um banco de dados analítico que seja orientado a assunto, não volátil e histórico, integrando dados estruturados dos diversos sistemas e contextos.\nO banco de dados a ser desenvolvido é um Data:",
+        "alternativas": [
+            "Lake;",
+            "Mart;",
+            "Graph;",
+            "Mining;",
+            "Warehouse."
+        ],
+        "gabarito": "Warehouse."
+    },
+    {
+        "id": 58,
+        "enunciado": "Uma universidade está no processo de reestruturar seu banco de dados para otimizar o desempenho e a gestão de dados. Um dos conceitos considerados para essa tarefa é a modelagem de datamarts.\nQual das seguintes afirmações descreve corretamente um datamart e sua aplicação neste contexto?",
+        "alternativas": [
+            "Um datamart e uma ferramenta de desenvolvimento de software que auxilia na criação de aplicações web.",
+            "Um datamart é uma versão compacta de um data warehouse, geralmente otimizado para um departamento ou linha de negócios específica.",
+            "Um datamart é um tipo de banco de dados especializado em armazenar grandes volumes de dados não estruturados.",
+            "Um datamart é uma técnica de programação orientada a objetos que se concentra no encapsulamento.",
+            "Um datamart é um hardware especializado usado para aprimorar o desempenho do banco de dados."
+        ],
+        "gabarito": "Um datamart é uma versão compacta de um data warehouse, geralmente otimizado para um departamento ou linha de negócios específica."
+    },
+    {
+        "id": 59,
+        "enunciado": "Um Data Warehouse é projetado para análises de dados, que envolvem a leitura de grandes quantidades de dados para compreender relações e tendências entre eles. A definição correta de Data Warehouse é:",
+        "alternativas": [
+            "Conjunto de dados armazenados em uma planilha do Excel.",
+            "Banco de dados otimizado para consulta e análise de dados históricos.",
+            "Software de gerenciamento de dados usado para criar aplicativos web.",
+            "Sistema de gerenciamento de banco de dados relacional para armazenamento e processamento de dados."
+        ],
+        "gabarito": "Banco de dados otimizado para consulta e análise de dados históricos."
+    },
+    {
+        "id": 60,
+        "enunciado": "Sobre Data Warehouse, assinale a afirmativa correta.",
+        "alternativas": [
+            "É um repositório de dados integrados, consolidados e possivelmente estruturados no tempo (dados históricos).",
+            "É uma coleção de procedimentos e mecanismos para recuperação, armazenamento e manipulação de bancos de dados.",
+            "Trata-se de um depósito de dados designado para a análise de dados em formato parcialmente estruturado ou não estruturado.",
+            "Refere-se a um repositório de dados, devidamente agregados e resumidos, com o objetivo de atender a interesses de uma área de negócios específica de uma organização."
+        ],
+        "gabarito": "É um repositório de dados integrados, consolidados e possivelmente estruturados no tempo (dados históricos)."
+    },
+    {
+        "id": 61,
+        "enunciado": "A principal finalidade de um Data Warehouse é",
+        "alternativas": [
+            "realizar transações financeiras distribuídas e rápidas.",
+            "armazenar dados operacionais offline e em tempo real.",
+            "fornecer uma fonte centralizada de dados para análise e tomada de decisões.",
+            "fazer o processamento de dados em lote em alta velocidade e de forma escalável."
+        ],
+        "gabarito": "fornecer uma fonte centralizada de dados para análise e tomada de decisões."
+    },
+    {
+        "id": 62,
+        "enunciado": "O processo de Data Warehousing consiste na utilização de ferramentas e processos, pelos quais os dados são submetidos até que estejam adequados para análise.\nDe acordo com Machado (2, com relação a essas ferramentas e processos, analise as afirmativas abaixo e assinale a opção correta:\nI- As ferramentas OLAP permitem a análise de dados e a descoberta de informações antes desconhecidas, além de permitirem a visualização de tais dados sob perspectivas diferentes, conforme a necessidade de quem a utiliza.\nII- A Staging Area representa um ambiente intermediário para o armazenamento e processamento de dados oriundos de aplicações OLTP e de outras fontes.\nIII- O Data Warehouse representa um grande repositório de dados recentes, cuja finalidade é apresentar as informações que permitam identificar indicadores e a evolução de valores limitados a uma curta janela de tempo.\nIV- O Data Mart permite o acesso descentralizado, apesar de não serem direcionados a uma área especifica de negócio.",
+        "alternativas": [
+            "Apenas as afirmativas I, II e III são verdadeiras.",
+            "Apenas as afirmativas I e II são verdadeiras.",
+            "Apenas as afirmativas III e IV são verdadeiras.",
+            "Apenas as afirmativas I e III são verdadeiras.",
+            "Apenas as afirmativas I, II e IV são verdadeiras."
+        ],
+        "gabarito": "Apenas as afirmativas I e II são verdadeiras."
+    },
+    {
+        "id": 63,
+        "enunciado": "Os data warehouses e data marts possuem características técnicas próprias.\nEm relação ao tema, analise as afirmativas a seguir:\nI. Data warehouse de nível empresarial: oferecem múltiplas visões sobre bancos operacionais, as visões são materializadas para obter acessos mais seguros aos dados.\nII. Data mart: possuem um foco mais específico, são direcionados para um subconjunto de setores de uma organização, por exemplo, um departamento.\nIII. Data mart virtuais: são imensos projetos complexos que demandam investimentos expressivos de tempo e de recursos computacionais e humanos.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I apenas.",
+            "II apenas.",
+            "III apenas.",
+            "I e II, apenas.",
+            "II e III, apenas."
+        ],
+        "gabarito": "II apenas."
+    },
+    {
+        "id": 64,
+        "enunciado": "De acordo com o que dispõem os conceitos de business intelligence, julgue o item a seguir.\nData warehouse é um repositório de dados históricos e correntes de potencial interesse para gestores de toda a organização.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 65,
+        "enunciado": "No contexto do Data Warehouse, a análise multidimensional é uma das grandes utilidades da tecnologia OLAP, consistindo em ver determinados cubos de informações de diferentes ângulos e de vários níveis de agregação. Os sistemas apresentam, entre outras, a seguinte característica:",
+        "alternativas": [
+            "Dados voláteis, passíveis de modificação e exclusão.",
+            "Operação Típica: atualização.",
+            "Nível de dados: atomizado.",
+            "Frequência baixa de atualizações.",
+            "Os dados são normalmente estruturados em um modelo relacional normalizado."
+        ],
+        "gabarito": "Frequência baixa de atualizações."
+    },
+    {
+        "id": 66,
+        "enunciado": "O TCE SP está implementando um Data Warehouse utilizando uma abordagem incremental, ou seja, constrói um Data Mart para um setor e depois para outro setor, compartilhando Dimensões.\nA ferramenta de projeto, que representa as áreas do negócio e as dimensões associadas, utilizada para apoiar a implementação de modelos dimensionais de áreas de negócio distintos compartilhando dimensões padronizadas em um Data Warehouse Corporativo é o(a):",
+        "alternativas": [
+            "Data Lake;",
+            "Pipeline de dados;",
+            "Regras de Associação;",
+            "Matriz de Barramento;",
+            "Processamento distribuído."
+        ],
+        "gabarito": "Matriz de Barramento;"
+    },
+    {
+        "id": 67,
+        "enunciado": "Nos tempos atuais, o uso massivo de sistemas de informação em praticamente todas as áreas tem como consequência a geração de muitos dados. Nesse contexto de tecnologia da informação, um Data Warehouse é uma estrutura de armazenamento de dados fundamental que possui a característica de",
+        "alternativas": [
+            "armazenar somente dados brutos não processados, sem permitir a criação de relatórios ou análises.",
+            "consolidar dados de diversas fontes em apenas um local, permitindo análises multidimensionais.",
+            "focar exclusivamente dados operacionais de curto prazo, excluindo dados históricos.",
+            "ser otimizado apenas para transações de alta velocidade, sem suportar consultas complexas.",
+            "trabalhar apenas com dados estruturados, não sendo capaz de lidar com dados semi-estruturados ou não estruturados."
+        ],
+        "gabarito": "consolidar dados de diversas fontes em apenas um local, permitindo análises multidimensionais."
+    },
+    {
+        "id": 68,
+        "enunciado": "Um Data Warehouse representa um conjunto de dados baseado em assuntos, integrado, não-volátil, variável em relação ao tempo, e destinado a auxiliar em decisões.\nNo escopo do Data Warehouse, qual o sentido de Data Mart?",
+        "alternativas": [
+            "É um recurso que permite o cruzamento e a visualização dos dados em aplicações.",
+            "É um sistema de informação que utiliza bases de dados transacionais.",
+            "É uma informação que corresponde ao grau de consolidação.",
+            "É uma porção física ou lógica para atender a uma área específica."
+        ],
+        "gabarito": "É uma porção física ou lógica para atender a uma área específica."
+    },
+    {
+        "id": 69,
+        "enunciado": "Considere que o Tribunal de Justiça pretende executar análises em subconjuntos de um grande conjunto de dados armazenados em um data warehouse. Para simplificar e agilizar as análises, um Analista implementou partes ou segmentos menores desse data warehouse, que são chamados de",
+        "alternativas": [
+            "star schemas.",
+            "data lakes.",
+            "snow flakes.",
+            "oltps.",
+            "data marts."
+        ],
+        "gabarito": "data marts."
+    },
+    {
+        "id": 70,
+        "enunciado": "Data Warehouse é uma coleção de informações estruturadas para dar suporte aos processos de tomada de decisão. Diferentemente dos bancos de dados transacionais, eles são otimizados para recuperação de dados, e não para processamento de transação de rotina.\nAdaptado de Ramez Elmasri e Shamkant B. Navathe. Sistemas de Banco de Dados. 6. ed. São Paulo: Pearson Addison Wesley, 2011.\nEm relação aos conceitos de Data Warehouse, avalie as seguintes afirmações:\nI – Em comparação com os bancos de dados transacionais, os Data Warehouses são tidos como voláteis. Isso significa que as informações no Data Warehouse mudam com muito mais frequência e podem ser considerados de tempo real.\nII – Diferentemente dos bancos de dados transacionais, os modelos de dados dos Data Warehouses são formados por 03 (três) elementos básicos: fatos, dimensões e medidas.\nIII – O processo de ETL (Extract, Transform, and, Load) consiste na etapa de manipulação dos dados das fontes de origem para o modelo dimensional construído para o Data Warehouse.\nIV – Os dados nos Data Warehouses são mais detalhados que nos bancos de dados transacionais.\nAssinale a alternativa que apresenta APENAS as afirmações CORRETAS.",
+        "alternativas": [
+            "I e II.",
+            "II e III.",
+            "III e IV.",
+            "I e III.",
+            "II e IV."
+        ],
+        "gabarito": "II e III."
+    },
+    {
+        "id": 71,
+        "enunciado": "Segundo Inmon (2, assinale a alternativa correta com as principais características de um Data Warehouse (DW).",
+        "alternativas": [
+            "Orientado por assunto, integrado, variável no tempo, não volátil.",
+            "Orientado por tópico, centralizado, variável no tempo, volátil.",
+            "Orientado por assunto, integrado, variável no tempo, volátil.",
+            "Orientado por tema, centralizado, variável no tempo, não volátil."
+        ],
+        "gabarito": "Orientado por assunto, integrado, variável no tempo, não volátil."
+    },
+    {
+        "id": 72,
+        "enunciado": "As empresas contam com vários sistemas e tecnologias de armazenamento para suas iniciativas de business intelligence (BI). Tanto o Data Warehouse como o Data Marts são repositórios repositório de dados pré-processados para análise e BI.\nEm relação ao Data Warehouse, o Data Marts apresenta a seguinte característica:",
+        "alternativas": [
+            "tem mais fontes de dados.",
+            "tende a ser maior em tamanho.",
+            "contém dados mais completos e detalhados.",
+            "armazenam dados de várias unidades de negócios.",
+            "atende às necessidades de uma unidade de negócios específica."
+        ],
+        "gabarito": "atende às necessidades de uma unidade de negócios específica."
+    },
+    {
+        "id": 73,
+        "enunciado": "A respeito de análise de dados, business intelligence (BI), OLAP e data warehouse (DW), julgue o item subsequente.\nDW representa um sistema que fornece armazenamento para dados que serão usados para análise, possibilitando embasar e agilizar tomadas de decisões.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 74,
+        "enunciado": "A respeito de inteligência do negócio, julgue o item a seguir.\nOs conceitos de data warehouse (DW) e data mining (DM) são relacionados à inteligência de negócios; a principal diferença entre eles é que o DW atua na análise dos eventos do passado, enquanto o DM limita-se na predição dos eventos futuros.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 75,
+        "enunciado": "Acerca da arquitetura e de aplicações de data warehouse, julgue o item a seguir.\nNormalmente, todas as soluções de data warehouse são iguais em relação a seus dados, mas nem todas são caracterizadas por componentes padronizados, vitais para a exibição de dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 76,
+        "enunciado": "Acerca da arquitetura e de aplicações de data warehouse, julgue o item a seguir.\nAplicativos de data warehouse são projetados para oferecer suporte aos requisitos de dados do usuário.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 77,
+        "enunciado": "Acerca da arquitetura e de aplicações de data warehouse, julgue o item a seguir.\nEm sistemas de produção, um banco de dados de data warehouse é constantemente atualizado a partir dos sistemas de fontes de dados, em horário comercial, em tempo real e com queries diretas aos bancos em produção.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 78,
+        "enunciado": "Com relação a data warehouse e data mining, julgue o item subsequente.\nUm ambiente de data warehouse permite acessos simultâneos ao mesmo registro, para consulta e(ou) atualização, sem a preocupação com bloqueios de deadlock.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 79,
+        "enunciado": "Após ter sido privatizada, determinada empresa passou a utilizar novos sistemas administrativos, tais como: folha de pagamento, sistema de pessoal, sistemas de benefícios etc.; porém, constatou-se que os sistemas antigos não poderiam ser descontinuados em um pequeno espaço de tempo. Tais sistemas usavam tecnologias de armazenamento de dados antiquados e dados de baixa qualidade.\nAcerca dessa situação hipotética e considerando aspectos diversos pertinentes à inteligência de negócios - business intelligence (BI) -, julgue o seguinte item.\nNa situação hipotética em tela, considerando as bases de dados antigas e novas, seria uma ótima prática a utilização dos conceitos de data warehouse e data mining para, por exemplo, automatizar a análise de currículos de acordo com as competências dos empregados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 80,
+        "enunciado": "Os fatos não aditivos de um DW (data warehouse), como, por exemplo, percentuais, são caracterizados por",
+        "alternativas": [
+            "gerarem valores negativos quando são agregados.",
+            "não estarem aderentes aos padrões de dados utilizados em um DW.",
+            "não poderem ser agregados em nenhuma dimensão.",
+            "não serem adequados para visualização de dados em um BI.",
+            "serem dispensáveis na modelagem de um DW."
+        ],
+        "gabarito": "não poderem ser agregados em nenhuma dimensão."
+    },
+    {
+        "id": 81,
+        "enunciado": "Em que níveis organizacionais (operacional, gerencial e estratégico) as ferramentas de BI, que utilizam dados organizados em um DW, são adequadas para apoio à tomada de decisão?",
+        "alternativas": [
+            "Apenas nível gerencial, pois o DW contém dados sumarizados necessários apenas para a gestão de processos de negócio de uma empresa.",
+            "Apenas nível operacional, pois o DW contém dados detalhados necessários apenas para a operação de uma empresa.",
+            "Níveis gerencial e estratégico, pois o DW contém dados sumarizados necessários para a gestão de processos de negócios e para o planejamento de uma empresa.",
+            "Níveis operacional e estratégico, pois o DW contém dados detalhados necessários para a operação e para o planejamento de uma empresa.",
+            "Níveis operacional e gerencial, pois o DW contém dados detalhados necessários para a operação e para a gestão de seus processos de negócio."
+        ],
+        "gabarito": "Níveis gerencial e estratégico, pois o DW contém dados sumarizados necessários para a gestão de processos de negócios e para o planejamento de uma empresa."
+    },
+    {
+        "id": 82,
+        "enunciado": "Para apoio à tomada de decisão, as empresas organizam muitos dos dados necessários em um DW (data warehouse), que é um conjunto de dados",
+        "alternativas": [
+            "integrado, mas não é orientado por assunto, não é volátil e não é variável com o tempo.",
+            "integrado, volátil e variável com o tempo, mas não é orientado por assunto.",
+            "orientado por assunto e variável com o tempo, mas não é integrado e não é volátil.",
+            "orientado por assunto, integrado e variável com o tempo, mas não é volátil.",
+            "orientado por assunto, integrado, volátil, mas não é variável com o tempo."
+        ],
+        "gabarito": "orientado por assunto, integrado e variável com o tempo, mas não é volátil."
+    },
+    {
+        "id": 83,
+        "enunciado": "Considere as afirmativas a seguir:\nI. O processo de BI (Business Intelligence) baseia-se na transformação de dados em informação, depois em decisões e, por fim, em ações.\nII. A análise de dados preditiva visa determinar o que é mais provável de acontecer no futuro.\nIII. DWs (Data Warehouses) são voltados a trabalhar com dados informatizados usados em sistemas de processamento de transações online (OLTP – online transaction processing).\nIV. O Data Warehouse é um repositório de dados que suporta relatórios empresariais e processos decisórios.\nEstá CORRETO o que se afirma, apenas, em:",
+        "alternativas": [
+            "I e III.",
+            "II e IV.",
+            "I, II e IV.",
+            "II, III e IV."
+        ],
+        "gabarito": "I, II e IV."
+    },
+    {
+        "id": 84,
+        "enunciado": "Na tomada de decisão, um termo é definido como uma coleção de dados orientada por assuntos, integrada e variante no tempo. E um banco de dados contendo dados extraídos do ambiente de produção da empresa, que foram selecionados e depurados, tendo sido otimizados para processamento de consulta e não para processamento de transações. Em geral, requer a consolidação de outros recursos de dados além dos armazenados em base de dados relacionais, incluindo informações provenientes de planilhas eletrônicas e documentos textuais.\nEsse termo é conhecido por:",
+        "alternativas": [
+            "Data Mart.",
+            "Data Tools.",
+            "Data Mining.",
+            "Data Warehouse."
+        ],
+        "gabarito": "Data Warehouse."
+    },
+    {
+        "id": 85,
+        "enunciado": "Certa empresa se deparou com o seguinte cenário: seus cientistas de dados reprocessavam toda a base de dados sempre que tinham dados novos disponíveis. Nesse processo, os dados eram apagados de suas bases e eram novamente obtidos de suas fontes originais. Isso gerava um alto custo financeiro para a empresa em razão do grande volume de dados disponíveis para obtenção. Foi desenvolvido, então, um novo processo no qual, uma vez por dia, os novos dados eram carregados para dentro do sistema, de forma a não ser mais necessário realizar a carga total das informações. Esse novo processo é conhecido como ingestão de dados",
+        "alternativas": [
+            "full.",
+            "estruturados.",
+            "em streaming.",
+            "incremental.",
+            "semiestruturados."
+        ],
+        "gabarito": "incremental."
+    },
+    {
+        "id": 86,
+        "enunciado": "A respeito das fontes de informação que servem de base para a construção dos dados operados por um Data Warehouse, marque a alternativa que indica, corretamente, o nome do tipo de sistema conectado a um bancos de dados que armazena informações transacionais, realizadas no dia a dia, em nível operacional.",
+        "alternativas": [
+            "SIG.",
+            "ELT.",
+            "SIE.",
+            "SPT.",
+            "STO."
+        ],
+        "gabarito": "SPT."
+    },
+    {
+        "id": 87,
+        "enunciado": "Armazém de dados, conhecido na língua inglesa pelo nome Data Warehouse, é utilizado para centralizarmos informações de uma organização de forma consolidada.\nIsso torna menos complexo o trabalho de análise de grandes volumes de dados, oferecendo um grande apoio a tomada de decisões dentro da organização.\nA respeito de Data Warehouse e demais conceitos que o circundam, analise as afirmativas abaixo e marque alternativa correta.\nI. Data Warehouse armazena dados em formato de séries históricas. Os dados são armazenados neste formato pois, por definição, são considerados voláteis.\nII. Um Data Mart consulta um subconjunto de dados de um Data Warehouse. Isso ocorre pois um Data Mart é focado em um tipo específico de usuário que não precisa de acesso a todos os dados de um Data Warehouse para conseguir respostas para suas perguntas.\nIII. Ferramentas OLAP permitem ao usuário realizar operações de Drill Up e de Drill Down. Esse tipo de operação é importante pois facilita a análise de dados em diferentes níveis de granularidade.",
+        "alternativas": [
+            "Apenas as afirmativas II e III estão corretas.",
+            "Apenas a afirmativa III está correta.",
+            "Apenas a afirmativa I está correta.",
+            "Apenas a afirmativa II está correta.",
+            "Todas as afirmativas estão corretas."
+        ],
+        "gabarito": "Apenas as afirmativas II e III estão corretas."
+    },
+    {
+        "id": 88,
+        "enunciado": "Considerando um modelo multidimensional de um data warehouse, pode ser implementado o denominado agrupamento de afinidades (ou market basket), em uma tabela fato, representando vendas de produtos, sendo correto que",
+        "alternativas": [
+            "permite obter informações sobre a combinação de pares de produtos vendidos de forma conjunta.",
+            "não necessita que haja chaves estrangeiras na tabela fato, originadas das tabelas dimensão.",
+            "admite apenas valores numéricos, tanto na tabela fato, como nas tabelas dimensão.",
+            "comporta um número limitado de tabelas dimensão em sua composição.",
+            "as chaves primárias das tabelas dimensão não admitem valores literais em sua composição."
+        ],
+        "gabarito": "permite obter informações sobre a combinação de pares de produtos vendidos de forma conjunta."
+    },
+    {
+        "id": 89,
+        "enunciado": "A respeito de bancos de dados relacionais e de modelagem dimensional, julgue o item subsequente.\nA construção de um data mart antecede a criação de um data warehouse.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 90,
+        "enunciado": "A respeito de bancos de dados relacionais e de modelagem dimensional, julgue o item subsequente.\nO data warehouse empresarial, ou EDW (enterprise data warehouse), é uma das aplicações do data warehouse que permite a integração em larga escala de dados oriundos de diversas fontes em formato padronizado, para subsidiar a inteligência de negócios.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 91,
+        "enunciado": "A respeito de bancos de dados relacionais e de modelagem dimensional, julgue o item subsequente.\nEnquanto os depósitos de dados e seus subconjuntos data marts são bancos estáticos, ou seja, não mais sofrem mudanças depois de agrupados, formatados e armazenados seus dados em um repositório, os bancos de dados típicos mudam constantemente, sendo dinâmicos por natureza.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 92,
+        "enunciado": "Acerca de arquitetura e aplicações de data warehousing, ETL e Olap, julgue o item a seguir.\nNo ambiente de data warehouse a atualização de dados em uma arquitetura controlada por destino ocorre quando o data warehouse envia periodicamente solicitações por novos dados às fontes.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 93,
+        "enunciado": "Em DW (data warehouse), conjunto de dados voltado para oferecer suporte à tomada de decisões, os dados",
+        "alternativas": [
+            "devem ser inseridos em seu formato original, cada um com sua unidade de medida, quando forem provenientes de diferentes fontes.",
+            "utilizam, ao mesmo tempo, em um DW em tempo real, as estruturas relacional e multidimensional para proporcionar aos usuários acesso fácil e ativo aos dados.",
+            "devem ser alterados de modo a permanecerem atualizados à medida que as fontes de dados sejam registradas e modificadas.",
+            "detectam tendências e relações de longo prazo para previsão, com uma qualidade temporal para cada DW, sem necessariamente mostrar o status atual."
+        ],
+        "gabarito": "detectam tendências e relações de longo prazo para previsão, com uma qualidade temporal para cada DW, sem necessariamente mostrar o status atual."
+    },
+    {
+        "id": 94,
+        "enunciado": "No que se refere a data warehouse, data mining e sistema de mensageria, julgue o próximo item.\nEm empresas que possuem várias plataformas de hardware e software e que carecem de padronização e integração de dados, o data warehouse pode fornecer um modelo de dados comum para suas diferentes áreas de interesse, independentemente da fonte de dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 95,
+        "enunciado": "Julgue o próximo item, relativo ao business intelligence (BI).\nUm data warehouse (DW), ainda que seja não volátil — ou seja, após os dados serem inseridos nele os usuários não podem alterá-los — é variável no tempo, pois mantém um conjunto de dados históricos que oferecem suporte à tomada de decisões.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 96,
+        "enunciado": "No que se refere a técnicas de modelagem e aplicações de data warehousing, julgue o item seguinte.\nUm data warehousing transforma dados operacionais em informação voltada à tomada de decisão estratégica. As consultas realizadas são executadas e processadas nos provedores de informação originais.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 97,
+        "enunciado": "É um repositório central de informações, normalmente no ambiente de uma corporação, que podem ser analisadas para tomar decisões mais adequadas e cujos dados provêm de sistemas transacionais, bancos de dados relacionais e de outras fontes com uma cadência regular. A definição dada a sentença anterior caracteriza um:",
+        "alternativas": [
+            "sistema de Business Intelligence.",
+            "Big Data.",
+            "Data Warehouse.",
+            "banco de dados transacional."
+        ],
+        "gabarito": "Data Warehouse."
+    },
+    {
+        "id": 98,
+        "enunciado": "Suponha que, ao se fazer a modelagem multidimensional MMD para o data warehouse de um tribunal, tenha-se deparado com duas métricas: quantidade de processos julgados e percentual de processos em segredo de justiça. Essa segunda métrica é classificada como",
+        "alternativas": [
+            "aditiva.",
+            "semiaditiva.",
+            "não aditiva.",
+            "star schema.",
+            "snow flake."
+        ],
+        "gabarito": "não aditiva."
+    },
+    {
+        "id": 99,
+        "enunciado": "Data Warehouse é um depósito de dados orientado por assunto, integrado, não volátil, variável com o tempo, para apoiar as decisões gerenciais. No que diz respeito às arquiteturas de Data Warehouse, dois elementos são caracterizados a seguir:\nConstitui uma área de armazenagem e um conjunto de processos, cuja função é extrair os dados dos sistemas transacionais, proceder a limpeza, a transformação, combinação, de duplicação e preparação dos dados para o uso no Data Warehouse.\nConstitui um subconjunto lógico do Data Warehouse, geralmente dividido por departamento ou visões necessárias para os usuários.\nEsses elementos são conhecidos, respectivamente, como",
+        "alternativas": [
+            "Data Stage e Data Mart.",
+            "Data Source e Data Mart.",
+            "Data Stage e Data Business.",
+            "Data Stage e Data Mining."
+        ],
+        "gabarito": "Data Stage e Data Mart."
+    },
+    {
+        "id": 100,
+        "enunciado": "A imagem representa a arquitetura geral de um data warehouse:\nAssinale a alternativa correspondente.",
+        "alternativas": [
+            "I. BI II. OLAP III. SI.",
+            "I. OLAP II. ETL III. Data Mining.",
+            "I. Data warehouse II. ETL III. BI.",
+            "I. ETL II. Data warehouse III. OLAP.",
+            "I. Data mining II. BI III. Data warehouse."
+        ],
+        "gabarito": "I. ETL II. Data warehouse III. OLAP."
+    }
+]

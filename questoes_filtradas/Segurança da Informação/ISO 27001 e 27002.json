@@ -1,0 +1,1590 @@
+[
+    {
+        "id": 1,
+        "enunciado": "A norma ISO/IEC 27001:2022 introduziu atualizações significativas na estrutura de controles de segurança.\nAcerca dos novos controles introduzidos e da abordagem de gestão de riscos baseada na referida norma, registre V, para as afirmativas verdadeiras, e F, para as falsas:\n(__) O controle de \"Inteligência de Ameaças\" (Threat Intelligence) foi incluído para exigir que as organizações coletem e analisem informações sobre ameaças para fornecer conscientização sobre o ambiente de segurança e facilitar ações preventivas.\n(__) A norma ISO/IEC 27001 exige obrigatoriamente a implementação de todos os controles listados no Anexo A, independentemente do resultado da avaliação de riscos, para que a organização obtenha a certificação de conformidade.\n(__) A \"Segurança em Nuvem\" (Cloud Services) passou a ser um controle específico, tratando da aquisição, uso, gerenciamento e saída de serviços de nuvem em conformidade com as políticas de segurança da informação da organização.\n(__) O conceito de \"Mascaramento de Dados\" (Data Masking) é tratado como um controle técnico para limitar a exposição de dados sensíveis, em alinhamento com legislações de proteção de dados, como a Lei Geral de Proteção de Dados Pessoais (LGPD).\n(__) O Sistema de Gestão de Segurança da Informação (SGSI) foca exclusivamente em ativos tecnológicos e hardware, excluindo processos de recursos humanos e gestão de infraestrutura física da sua estrutura de análise de risco.\nApós análise, assinale a alternativa que apresenta a sequência correta dos itens acima, de cima para baixo:",
+        "alternativas": [
+            "F, F, V, V, F.",
+            "F, V, V, F, F.",
+            "V, F, V, V, F.",
+            "V, F, F, V, V.",
+            "V, V, F, F, V."
+        ],
+        "gabarito": "V, F, V, V, F."
+    },
+    {
+        "id": 2,
+        "enunciado": "Durante a análise de logs, o perito identifica que a organização não possui responsáveis designados para tratamento de incidentes de segurança. Segundo a ISO/IEC 27001:2022, a cláusula que trata da definição formal de papéis, responsabilidades e autoridades dentro do SGSI é a",
+        "alternativas": [
+            "Cláusula 6.",
+            "Cláusula 5.3.",
+            "Cláusula 8.",
+            "Cláusula 7.2.",
+            "Cláusula 5.18."
+        ],
+        "gabarito": "Cláusula 5.3."
+    },
+    {
+        "id": 3,
+        "enunciado": "Sobre a norma ISO/IEC 27001, analise os itens e assinale a alternativa CORRETA:\nI - Refere aos requisitos para assegurar a imparcialidade nas atividades de avaliação de conformidade.\nII - Padrão internacional para a Gestão de Segurança da Informação (SGSI).\nIII - Fornece requisitos para estabelecer, implementar, manter e melhorar continuamente um sistema focando em como as organizações devem gerenciar conflitos de interesse.\nIV - É uma norma desenvolvida pela ISO e pela IEC para criar uma estrutura de políticas, processos e controles para proteger dados sensíveis contra ameaças diversas.",
+        "alternativas": [
+            "Somente I e II estão corretos.",
+            "Somente I e III estão corretos.",
+            "Somente II e III estão corretos.",
+            "Somente I e IV estão corretos.",
+            "Somente II e IV estão corretos."
+        ],
+        "gabarito": "Somente II e IV estão corretos."
+    },
+    {
+        "id": 4,
+        "enunciado": "Padilha é um analista que precisa implementar o controle organizacional denominado “Contato com grupos de interesse específico” presente na norma ISO/IEC 27002:2022. Através desse controle a organização deve estabelecer e manter contato com grupos de interesse específico ou outros fóruns especializados em segurança e associações profissionais.\nConsiderando a ISO/IEC 27002:2022, o atributo do domínio de segurança deste controle a ser implementado pelo analista se denomina",
+        "alternativas": [
+            "defesa.",
+            "resiliência.",
+            "inteligência.",
+            "ecossistema.",
+            "governabilidade."
+        ],
+        "gabarito": "defesa."
+    },
+    {
+        "id": 5,
+        "enunciado": "A Norma ISO/IEC 27002:2022, que provê diretrizes e práticas recomendadas para o gerenciamento de segurança da informação, é um documento essencial no contexto da proteção de dados e ativos organizacionais. Considerando o propósito e a aplicação da ISO/IEC 27002, assinale a afirmativa correta.",
+        "alternativas": [
+            "Os controles recomendados pela norma concentram-se em medidas técnicas de proteção da informação, sendo os aspectos organizacionais e físicos tratados de forma complementar por outras normas.",
+            "A ISO/IEC 27002 apresenta orientações voltadas prioritariamente à verificação de conformidade e auditoria formal, sendo utilizada como base principal para certificação de sistemas de segurança da informação.",
+            "A norma oferece um conjunto abrangente de controles e diretrizes que apoiam a implementação de medidas de segurança focadas nos pilares de Confidencialidade, Integridade e Disponibilidade (CID) da informação.",
+            "A aplicação da ISO/IEC 27002 está associada à definição de controles de segurança da informação com foco predominante em sistemas de tecnologia da informação, com menor ênfase em processos e fatores organizacionais."
+        ],
+        "gabarito": "A norma oferece um conjunto abrangente de controles e diretrizes que apoiam a implementação de medidas de segurança focadas nos pilares de Confidencialidade, Integridade e Disponibilidade (CID) da informação."
+    },
+    {
+        "id": 6,
+        "enunciado": "Considerando as normas que regem o planejamento e a gestão de contratações de soluções de tecnologia da informação e comunicação (TIC) no setor público brasileiro, bem como as diretrizes e frameworks internacionais de cibersegurança, gestão de riscos e continuidade de negócios (ISO/IEC 27001 e , julgue o item a seguir.\nNo contexto da ISO/IEC 27001, os requisitos das partes interessadas podem incluir obrigações legais, regulatórias e contratuais relevantes para o sistema de gestão da segurança da informação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 7,
+        "enunciado": "Considerando as normas que regem o planejamento e a gestão de contratações de soluções de tecnologia da informação e comunicação (TIC) no setor público brasileiro, bem como as diretrizes e frameworks internacionais de cibersegurança, gestão de riscos e continuidade de negócios (ISO/IEC 27001 e , julgue o item a seguir.\nNa ISO/IEC 27002, os temas organizam estruturalmente os controles, sendo cada controle classificado em um único tema principal — pessoas, físico, tecnológico ou organizacional —, de acordo com seu foco principal.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 8,
+        "enunciado": "Considerando as normas que regem o planejamento e a gestão de contratações de soluções de tecnologia da informação e comunicação (TIC) no setor público brasileiro, bem como as diretrizes e frameworks internacionais de cibersegurança, gestão de riscos e continuidade de negócios (ISO/IEC 27001 e , julgue o item a seguir.\nSegundo a ISO/IEC 27002, o controle de gerenciamento de vulnerabilidades técnicas é classificado como corretivo e relaciona-se tecnicamente ao conceito de cibersegurança de recuperação e ao atributo de não repúdio.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 9,
+        "enunciado": "Uma empresa de TI passará a atuar de acordo com a norma ISO 27001. Para isso, a empresa está trabalhando na cláusula que trata de exigir que a organização crie uma consciência efetiva sobre segurança de informação, trabalhando para que os funcionários possam compreender seu papel na manutenção da segurança de TI, proporcionando, também, treinamentos e capacitação. Essa cláusula da ISO 27001 é a de:",
+        "alternativas": [
+            "direção.",
+            "suporte.",
+            "avaliação.",
+            "planejamento."
+        ],
+        "gabarito": "suporte."
+    },
+    {
+        "id": 10,
+        "enunciado": "É importante que um Sistema de Gestão da Segurança da Informação (SGSI) componha, de maneira integrada, os processos da organização e a estrutura de administração global, tal que a segurança da informação seja considerada no projeto dos processos, sistemas de informação e controles. Qual dos itens a seguir apresenta um framework capaz de orientar um Analista na seleção e implementação de controles de segurança?",
+        "alternativas": [
+            "MITRE ATT&CK®.",
+            "ABNT NBR ISO/IEC 27002:2022.",
+            "ABNT NBR ISO/IEC 27005:2023.",
+            "OWASP Top 10 Security Risks 2021."
+        ],
+        "gabarito": "ABNT NBR ISO/IEC 27002:2022."
+    },
+    {
+        "id": 11,
+        "enunciado": "A norma ABNT NBR ISO/IEC 27001:2022 apresenta requisitos para estabelecer, implementar, manter e melhorar continuamente um Sistema de Gestão de Segurança da Informação (SGSI). Além disso, a adoção de um SGSI é uma decisão estratégica para uma organização. Ao implementar um SGSI uma organização busca:",
+        "alternativas": [
+            "proteger e restaurar as condições operacionais normais dos sistemas de informação e as informações armazenadas nele, quando ocorre um ataque ou intrusão.",
+            "iterativamente auxiliar as organizações no estabelecimento de estratégias, no alcance de objetivos e na tomada de decisões fundamentadas.",
+            "preservar a confidencialidade, integridade e disponibilidade da informação através da aplicação de um processo de gestão de riscos, e fornecer confiança às partes interessadas de que os riscos são adequadamente gerenciados.",
+            "através de um processo sistemático, independente e documentado, obter evidências objetivas e avaliá-las objetivamente, para determinar a extensão na qual os critérios de segurança são atendidos."
+        ],
+        "gabarito": "através de um processo sistemático, independente e documentado, obter evidências objetivas e avaliá-las objetivamente, para determinar a extensão na qual os critérios de segurança são atendidos."
+    },
+    {
+        "id": 12,
+        "enunciado": "No âmbito da Segurança da Informação (SI) e sua relação com sistemas de informação, assinale a alternativa que indica corretamente o conjunto de melhores práticas ou a norma cujo propósito central é definir as diretrizes e requisitos para estabelecer, implementar, manter e melhorar um Sistema de Informação de Gestão da Segurança da Informação (SGSI).",
+        "alternativas": [
+            "ITIL.",
+            "COBIT.",
+            "NIST CSF.",
+            "ISO 27001.",
+            "ISO 27002."
+        ],
+        "gabarito": "ISO 27001."
+    },
+    {
+        "id": 13,
+        "enunciado": "Assinale a opção que descreve corretamente uma prática recomendada pela ISO 27002 para segurança da informação.",
+        "alternativas": [
+            "realizar treinamentos apenas no momento da admissão de colaboradores.",
+            "restringir treinamentos a áreas técnicas.",
+            "focar treinamentos apenas caso aconteçam incidentes.",
+            "tratar conscientização como atividade opcional.",
+            "oferecer conscientização contínua em segurança da informação."
+        ],
+        "gabarito": "oferecer conscientização contínua em segurança da informação."
+    },
+    {
+        "id": 14,
+        "enunciado": "Visando proteger dados de consumidores e, ainda, atender às boas práticas de governança, o SAAE de Indaiatuba iniciou um projeto de adequação à Norma ISO/IEC 27001. Sobre a ISO/IEC 27001, é correto afirmar que:",
+        "alternativas": [
+            "Pode ser substituída integralmente pela ISO/IEC 27002.",
+            "Tem como principal objetivo atender aos controles físicos de segurança.",
+            "Restringe a análise de riscos a avaliações pontuais realizadas na fase inicial do SGSI.",
+            "Estabelece requisitos para implantação, manutenção e melhoria contínua de um SGSI."
+        ],
+        "gabarito": "Restringe a análise de riscos a avaliações pontuais realizadas na fase inicial do SGSI."
+    },
+    {
+        "id": 15,
+        "enunciado": "Um órgão da administração pública federal está implementando um Sistema de Gestão de Segurança da Informação (SGSI) com base na ABNT NBR ISO/IEC 27001.\nA equipe precisa selecionar os controles adequados do Anexo A da norma, que são detalhados na ABNT NBR ISO/IEC 27002. Associe os grupos de controles da Coluna A com seus respectivos objetivos na Coluna B.\nColuna A\n1. A.5 - Políticas de segurança da informação\n2. A.8 - Gestão de ativos\n3. A.9 - Controle de acesso\n4. A.12 - Segurança nas operações Coluna B\n( ) Para assegurar a operação correta e segura das instalações de processamento da informação.\n( ) Para prover uma orientação e apoio da direção para a segurança da informação, de acordo com os requisitos do negócio e com as leis e regulamentações pertinentes.\n( ) Para limitar o acesso à informação e às instalações de processamento da informação.\n( ) Para identificar os ativos da organização e definir as responsabilidades apropriadas para a sua proteção.\nA sequência correta de preenchimento dos parênteses, de cima para baixo, é:",
+        "alternativas": [
+            "4, 2, 3, 1.",
+            "4, 3, 1, 2.",
+            "3, 2, 1, 4.",
+            "2, 1, 4, 3.",
+            "4, 1, 3, 2."
+        ],
+        "gabarito": "4, 1, 3, 2."
+    },
+    {
+        "id": 16,
+        "enunciado": "Na estrutura da ISO 27001:2022, as cláusulas principais organizam o Sistema de Gestão de Segurança da Informação (SGSI) em etapas que abrangem desde o entendimento do contexto organizacional até a melhoria contínua dos processos. Considerando isso, assinale a alternativa que apresenta CORRETAMENTE a sequência das cláusulas principais da norma e o foco de cada uma delas.",
+        "alternativas": [
+            "Contexto, Liderança, Planejamento, Suporte, Operação, Avaliação de desempenho, Melhoria; respectivamente: escopo, direção e responsabilidades, riscos, recursos, execução, monitoramento, melhoria contínua.",
+            "Liderança, Contexto, Suporte, Planejamento, Operação, Melhoria, Avaliação de desempenho; respectivamente: direção e responsabilidades, escopo, recursos, riscos, execução, melhoria contínua, monitoramento.",
+            "Contexto, Suporte, Planejamento, Liderança, Operação, Avaliação de desempenho, Melhoria; respectivamente: escopo, recursos, riscos, direção e responsabilidades, execução, monitoramento, melhoria contínua.",
+            "Planejamento, Contexto, Liderança, Suporte, Operação, Avaliação de desempenho, Melhoria; respectivamente: riscos, escopo, direção e responsabilidades, recursos, execução, monitoramento, melhoria contínua.",
+            "Contexto, Liderança, Suporte, Operação, Planejamento, Avaliação de desempenho, Melhoria; respectivamente: escopo, direção e responsabilidades, recursos, execução, riscos, monitoramento, melhoria contínua."
+        ],
+        "gabarito": "Contexto, Liderança, Planejamento, Suporte, Operação, Avaliação de desempenho, Melhoria; respectivamente: escopo, direção e responsabilidades, riscos, recursos, execução, monitoramento, melhoria contínua."
+    },
+    {
+        "id": 17,
+        "enunciado": "Durante uma auditoria técnica semestral, uma equipe de TI do CREFITO‑17 identificou a necessidade urgente de aprimorar as defesas contra ataques cibernéticos modernos, de reestruturar as rotinas de backup do banco de dados relacional e de alinhar as práticas de gestão de segurança do Conselho às diretrizes das normas da família ISO 27000.\nCom base nessa situação hipotética, julgue o item a seguir, acerca das principais ameaças cibernéticas e dos processos de continuidade de negócios e normatização.\nA adoção de controles alinhados à ISO/IEC 27002 pode apoiar a implementação do SGSI, sem dispensar o atendimento aos requisitos auditáveis da ISO/IEC 27001 para fins de certificação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 18,
+        "enunciado": "Durante uma auditoria técnica semestral, uma equipe de TI do CREFITO‑17 identificou a necessidade urgente de aprimorar as defesas contra ataques cibernéticos modernos, de reestruturar as rotinas de backup do banco de dados relacional e de alinhar as práticas de gestão de segurança do Conselho às diretrizes das normas da família ISO 27000.\nCom base nessa situação hipotética, julgue o item a seguir, acerca das principais ameaças cibernéticas e dos processos de continuidade de negócios e normatização.\nA conformidade com a ISO/IEC 27002, por si só, é suficiente para a certificação do sistema de gestão de segurança da informação, independentemente do atendimento aos requisitos da ISO/IEC 27001.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 19,
+        "enunciado": "Assinale a opção correta em relação ao disposto na ABNT NBR ISO/IEC 27002:2022 acerca de itens afetos ao uso de serviços em nuvem, à privacidade e proteção de dados pessoais (personally identifiable information), e ao trabalho remoto.",
+        "alternativas": [
+            "Não há previsão de controles específicos para nenhum dos itens mencionados, em que se pese a existência de tratamento indireto de todos eles, por meio de outros controles.",
+            "Os processos de uso e gestão de serviços em nuvem devem ser estabelecidos de acordo com os requisitos de segurança da informação da organização, não havendo controles específicos para os itens afetos ao uso de serviços em nuvem e à privacidade e proteção de dados pessoais (personally identifiable information).",
+            "São previstos controles específicos para todos os itens mencionados.",
+            "As medidas de segurança devem ser implementadas durante o trabalho remoto para a proteção das informações acessadas ou armazenadas fora das instalações da organização, não sendo previstos controles específicos para os itens afetos ao uso de serviços em nuvem e à privacidade e proteção de dados pessoais. (personally identifiable information).",
+            "A organização deve atender aos requisitos relativos à preservação da privacidade de dados pessoais, não sendo previstos controles específicos para os itens afetos ao uso de serviços em nuvem e ao trabalho remoto."
+        ],
+        "gabarito": "São previstos controles específicos para todos os itens mencionados."
+    },
+    {
+        "id": 20,
+        "enunciado": "Uma autarquia federal decidiu alinhar suas práticas de segurança da informação às normas internacionais, adotando controles técnicos e administrativos descritos em uma norma de referência, sem, contudo, instituir formalmente um sistema de gestão da segurança da informação (SGSI).\nCom base na situação hipotética precedente e nas normas NBR ISO/IEC 27001 e 27002, é correto afirmar que a decisão da autarquia caracteriza",
+        "alternativas": [
+            "implementação exclusiva de requisitos legais, sem relação com boas práticas internacionais.",
+            "implementação parcial da ISO 27001, com possibilidade imediata de certificação.",
+            "adoção de um framework de controles, conforme a ISO 27002, sem gestão sistêmica.",
+            "inconformidade com ambas as normas, por ausência de auditoria externa.",
+            "atendimento integral às exigências de governança da segurança da informação de ambas as normas."
+        ],
+        "gabarito": "adoção de um framework de controles, conforme a ISO 27002, sem gestão sistêmica."
+    },
+    {
+        "id": 21,
+        "enunciado": "Determinada organização tem documentação completa de políticas de segurança, alinhadas às normas ISO e à LGPD, mas não realiza treinamento, monitoramento contínuo nem testes de controles.\nEssa situação hipotética, segundo a abordagem de Sêmola, evidencia",
+        "alternativas": [
+            "eliminação das vulnerabilidades humanas.",
+            "nível elevado de maturidade em segurança da informação.",
+            "abordagem de segurança da informação baseada apenas em conformidade formal.",
+            "atendimento pleno ao princípio da accountability da LGPD.",
+            "redução automática do risco organizacional."
+        ],
+        "gabarito": "abordagem de segurança da informação baseada apenas em conformidade formal."
+    },
+    {
+        "id": 22,
+        "enunciado": "No Brasil, a ABNT (Associação Brasileira de Normas Técnicas) adota normas baseadas em padrões internacionais para orientar a implementação, a gestão e a melhoria contínua da Segurança da Informação nas organizações. Assinale a alternativa correta considerando as normas ABNT NBR ISO/IEC 27001 e ABNT NBR ISO/IEC 27002.",
+        "alternativas": [
+            "A ABNT NBR ISO/IEC 27001 especifica os requisitos para estabelecer, implementar, manter e melhorar continuamente um Sistema de Gestão da Segurança da Informação dentro do contexto da organização.",
+            "A ABNT NBR ISO/IEC 27001 define um conjunto de controles técnicos detalhados que devem ser obrigatoriamente implementados pelas organizações.",
+            "A ABNT NBR ISO/IEC 27002 estabelece os requisitos para certificação de Sistemas de Gestão da Segurança da Informação (SGSI).",
+            "As normas ABNT de segurança da informação aplicam-se exclusivamente a organizações públicas, não sendo recomendadas para o setor privado.",
+            "As normas ABNT de segurança da informação visam proteger informações confidenciais de ameaças, vulnerabilidades e riscos cibernéticos, tratando apenas de controles tecnológicos, não abrangendo aspectos organizacionais ou humanos."
+        ],
+        "gabarito": "A ABNT NBR ISO/IEC 27001 especifica os requisitos para estabelecer, implementar, manter e melhorar continuamente um Sistema de Gestão da Segurança da Informação dentro do contexto da organização."
+    },
+    {
+        "id": 23,
+        "enunciado": "Em uma Assembleia Legislativa, a auditoria interna identificou inconsistências na classificação de informações relacionadas a projetos de lei, pareceres técnicos e documentos preparatórios, resultando simultaneamente em compartilhamento indevido de conteúdos sensíveis e restrições excessivas a documentos de caráter público.\nConsiderando explicitamente as diretrizes de Classificação da Informação da norma ABNT NBR ISO/IEC 27002:2022, e a necessidade de alinhar proteção, valor, sensibilidade e criticidade ao longo do ciclo de vida da informação, a prática correta que deve ser adotada, nesse cenário, é",
+        "alternativas": [
+            "transferir a responsabilidade pela classificação das informações para a área de tecnologia da informação, considerando critérios de armazenamento, processamento e segurança da infraestrutura, que são críticos para o negócio.",
+            "definir níveis de classificação com base no impacto do comprometimento da informação, atribuir a responsabilidade aos proprietários da informação e estabelecer revisões periódicas conforme alterações de valor, sensibilidade e criticidade.",
+            "estabelecer níveis de classificação no momento da criação da informação, mantendo-os constantes ao longo do tempo para assegurar consistência organizacional e rastreabilidade documental para processos de auditoria.",
+            "padronizar um nível de classificação institucional fundamentado em requisitos legais amplos, com o objetivo de reduzir variações operacionais e simplificar a gestão de acesso às informações para favorecer os processos de negócio.",
+            "derivar os níveis de classificação a partir das permissões previamente configuradas nos mecanismos de controle de acesso existentes no ambiente tecnológico institucional para manter consistência com sistemas de autenticação e autorização."
+        ],
+        "gabarito": "definir níveis de classificação com base no impacto do comprometimento da informação, atribuir a responsabilidade aos proprietários da informação e estabelecer revisões periódicas conforme alterações de valor, sensibilidade e criticidade."
+    },
+    {
+        "id": 24,
+        "enunciado": "De acordo com a NBR ISO/IEC 27001:2022, os controles de segurança da informação são agrupados em áreas de controles",
+        "alternativas": [
+            "estruturais, pessoais, químicos e tecnológicos.",
+            "organizacionais, pessoais, físicos e tecnológicos.",
+            "estruturais, de recursos humanos, físicos e técnicos.",
+            "organizacionais, de recursos humanos, físicos e químicos.",
+            "organizacionais, estruturais, de recursos humanos e técnicos."
+        ],
+        "gabarito": "organizacionais, pessoais, físicos e tecnológicos."
+    },
+    {
+        "id": 25,
+        "enunciado": "A NBR ISO/IEC 27001:2022 fornece os requisitos para estabelecer, implementar, manter e melhorar continuamente um sistema de gestão de segurança da informação (SGSI) no contexto da organização. Com relação às cláusulas e aos controles descritos nessa norma, analise as afirmativas a seguir.\nI. A organização deve determinar e fornecer os recursos necessários para o estabelecimento, implementação, manutenção e melhoria contínua de um SGSI.\nII. É obrigatório a implementação de todos os controles listados no Anexo A da norma.\nIII. As cláusulas da referida norma estão divididas em contexto da organização, liderança, planejamento, implementação, suporte, operação, manutenção e conclusão.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, apenas.",
+            "I e II, apenas.",
+            "I e III, apenas.",
+            "II e III, apenas.",
+            "I, II e III."
+        ],
+        "gabarito": "I, apenas."
+    },
+    {
+        "id": 26,
+        "enunciado": "Os processos de gestão de riscos de um eficiente Sistema de Gestão de Segurança da Informação (SGSI) são bem definidos e podem ser enquadrados em uma das quatro fases do ciclo PDCA que são: planejamento, execução, verificação e ação. A fase de execução de um SGSI deve conter o processo de",
+        "alternativas": [
+            "implementação do plano de tratamento de risco.",
+            "monitoramento contínuo e análise crítica de riscos.",
+            "melhoria do processo de gestão de riscos de segurança da informação.",
+            "definição do plano de tratamento do risco.",
+            "análise e execução de riscos."
+        ],
+        "gabarito": "implementação do plano de tratamento de risco."
+    },
+    {
+        "id": 27,
+        "enunciado": "Julgue o item subsequentes em relação aos frameworks de governança e gerenciamento de riscos.\nDe acordo com a NBR ISO 27001:2022, os temas relacionados à restrição de acesso à informação, às políticas para segurança da informação, ao trabalho remoto e às mídias de armazenamento pertencem, respectivamente, aos controles: organizacional, tecnológico, pessoal e físico.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 28,
+        "enunciado": "Julgue o item a seguir, referente à continuidade de negócios, às normas NBR ISO/IEC 27001 e NBR ISO/IEC 27002, e à auditoria e conformidade.\nSegundo a NBR ISO/IEC 27001:2022, é preponderante que pessoas que trabalham sob o controle da organização estejam cientes da política da segurança da informação e das implicações da não conformidade com os requisitos do sistema de gestão da segurança da informação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 29,
+        "enunciado": "Julgue o item a seguir, referente à continuidade de negócios, às normas NBR ISO/IEC 27001 e NBR ISO/IEC 27002, e à auditoria e conformidade.\nConforme a NBR ISO/IEC 27001:2022, riscos e oportunidades são imponderáveis. Desse modo, ao compor o sistema de gestão da segurança da informação, verifica-se que ações de planejamento para abordar riscos e oportunidades são especulativas, e que as situações reais demandarão rápida tomada de decisão por parte dos executores da linha de frente da segurança da informação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 30,
+        "enunciado": "Julgue o item a seguir, acerca de conceitos, políticas e gestão de riscos relacionados à segurança da informação.\nDe acordo com a ABNT NBR ISO/IEC 27001, para assegurar que as contínuas avaliações de riscos de segurança da informação produzam resultados comparáveis, válidos e consistentes, a organização deverá estabelecer e aplicar processos para tratamento desses riscos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 31,
+        "enunciado": "Uma empresa de desenvolvimento de software está aplicando a norma ISO/EIC 27002 para controle de segurança da informação. Na empresa, percebeu-se a necessidade de classificar as informações de acordo com suas necessidades de segurança, de modo a estabelecer critérios claros de confidencialidade. A classificação de informações, segundo a norma, possui um controle do tipo:",
+        "alternativas": [
+            "corretivo.",
+            "detectivo.",
+            "disciplinatório.",
+            "preventivo."
+        ],
+        "gabarito": "preventivo."
+    },
+    {
+        "id": 32,
+        "enunciado": "Qual norma internacional estabelece diretrizes para a implementação de um Sistema de Gestão de Segurança da Informação (SGSI)?",
+        "alternativas": [
+            "ISO 31000.",
+            "ISO 20000.",
+            "ISO 27001.",
+            "ISO 22301.",
+            "ISO 9001."
+        ],
+        "gabarito": "ISO 27001."
+    },
+    {
+        "id": 33,
+        "enunciado": "O analista Tiago foi incumbido de implementar, em determinado setor do MPU, dois controles previstos na NBR ISO/IEC 27001: o controle de trabalho remoto e o controle de mídia de armazenamento. A fim de harmonizar essa implementação com outras determinações do MPU que podem ser aplicáveis ao escopo de determinado controle, o analista deve ter em mente qual é o tipo de controle que está sendo implementado, à luz da norma.\nÀ luz da NBR ISO/IEC 27001, os controles sendo implementados por Tiago pertencem, respectivamente, às categorias:",
+        "alternativas": [
+            "pessoal e físico;",
+            "tecnológico e físico;",
+            "tecnológico e pessoal;",
+            "tecnológico e organizacional;",
+            "organizacional e tecnológico."
+        ],
+        "gabarito": "pessoal e físico;"
+    },
+    {
+        "id": 34,
+        "enunciado": "Karen é funcionária pública do Ministério Público da União (MPU) e foi designada para determinar e implementar controles de acordo com a Norma ABNT NBR ISO/IEC 27002:2022 para tratamento de riscos de segurança da informação em um sistema de gestão de segurança da informação (SGSI) do MPU, baseado na ABNT NBR ISO/IEC 27001. Entretanto, para iniciar esse processo, Karen precisará determinar, junto com a organização, os requisitos de segurança necessários para atender a demanda do MPU.\nPara identificar esses requisitos, as principais fontes de requisitos, segundo a Norma ABNT NBR ISO/IEC 27002:2022, observadas por Karen, são:",
+        "alternativas": [
+            "avaliação de riscos da organização, considerando estratégia e os objetivos globais de negócios e requisitos legais que devem ser cumpridos;",
+            "plano estratégico de Tecnologia da Informação, além de seus requisitos contratuais com as partes interessadas e seu ambiente sociocultural;",
+            "plano de continuidade de negócios e conjunto de princípios, objetivos e requisitos de negócios para as etapas do ciclo de vida da informação do MPU;",
+            "sistema de gestão e continuidade de negócios e avaliação de riscos da organização;",
+            "plano de continuidade de negócios e requisitos regulamentares a serem cumpridos pela organização, assim como suas partes interessadas."
+        ],
+        "gabarito": "avaliação de riscos da organização, considerando estratégia e os objetivos globais de negócios e requisitos legais que devem ser cumpridos;"
+    },
+    {
+        "id": 35,
+        "enunciado": "As contramedidas da ISO/IEC 27001 são ações que visam mitigar os riscos de segurança da informação. Com relação às categorias de contramedidas dispostos na norma, analise as afirmativas a seguir\nI. As contramedidas preditivas visam evitar incidentes futuros enquanto as de redução visam diminuir a probabilidade de uma ameaça ocorrer.\nII. As contramedidas de detecção visam detectar incidentes e as repressivas visam reprimir e punir os causadores de um incidente.\nIII. A aceitação de risco também é uma possibilidade que dependendo do nível dos riscos uma organização pode optar por aceitá-lo.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, apenas.",
+            "II, apenas.",
+            "III, apenas.",
+            "I e II, apenas.",
+            "I e III, apenas."
+        ],
+        "gabarito": "III, apenas."
+    },
+    {
+        "id": 36,
+        "enunciado": "É uma norma internacional que determina as condições necessárias ou requisitos para a implementação, manutenção e melhoria contínua em Sistemas de Gestão da Segurança da Informação (SGSI) dentro de uma organização. A principal finalidade desta norma é assegurar a proteção das informações, considerando os atributos de confidencialidade, integridade e disponibilidade. Qual o nome desta norma?",
+        "alternativas": [
+            "ISO/IEC 22313.",
+            "ISO/IEC 27001.",
+            "ISO/IEC 27002.",
+            "ISO/IEC 22301."
+        ],
+        "gabarito": "ISO/IEC 27001."
+    },
+    {
+        "id": 37,
+        "enunciado": "Certa empresa brasileira de médio porte, que desenvolve soluções de software para o setor financeiro e armazena informações sensíveis de clientes, como dados bancários, documentos pessoais e credenciais de acesso, iniciou um processo de adequação à norma ISO/IEC 27001:2022, implementando um sistema de gestão da segurança da informação (SGSI). A equipe de segurança da empresa criou políticas para garantir confidencialidade, integridade, disponibilidade e autenticidade das informações e adotou criptografia assimétrica, controle de acesso baseado em função, eo NIST Cybersecurity Framework para resposta a incidentes. Foram identificadas vulnerabilidades de injeção SQL e a empresa sofreu um ataque DDoS que afetou a disponibilidade do sistema.\nCom base na situação precedente, julgue o item a seguir.\nNa implementação da ISO/IEC 27001:2022, a empresa em questão pode optar por não realizar avaliação de riscos, desde que adote integralmente todos os controles sugeridos pela norma ISO/IEC 27002:2022, pois o cumprimento completo dos controles é suficiente para demonstrar conformidade com a norma principal.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 38,
+        "enunciado": "Uma empresa de TI, aplicando a norma ISO 27002, focada em controles de segurança da informação, está, no momento, utilizando a diretriz de segurança das operações e das comunicações. Isso significa que ela está trabalhando com:",
+        "alternativas": [
+            "controle da base de requisitos de negócio, assegurando o acesso de usuários autorizados e prevenindo o acesso não autorizado aos sistemas de informação da empresa, para evitar acesso indevido e danos ao processamento da informação.",
+            "definição dos procedimentos e das responsabilidades da gestão e operação dos recursos de processamento das informações, incluindo o gerenciamento de serviços terceirizados e o planejamento dos recursos, de modo a minimizar o risco de falhas.",
+            "identificação dos requisitos de segurança de sistemas de informação, acordando esses requisitos antes de algum desenvolvimento ou implementação de novos sistemas, protegendo a manutenção e integridade desses mesmos sistemas.",
+            "impedimento das violações de qualquer lei criminal ou civil, garantindo que os estatutos, regulamentações, obrigações contratuais ou quaisquer outros requisitos legais de segurança da informação sejam cumpridos."
+        ],
+        "gabarito": "definição dos procedimentos e das responsabilidades da gestão e operação dos recursos de processamento das informações, incluindo o gerenciamento de serviços terceirizados e o planejamento dos recursos, de modo a minimizar o risco de falhas."
+    },
+    {
+        "id": 39,
+        "enunciado": "Uma instituição financeira está revisando seus contratos com fornecedores de nuvem (cloud providers) para garantir conformidade com as normas de segurança da informação. Durante esse processo, a equipe de GRC (Governança, Risco e Compliance) identificou a necessidade de:\n Formalizar requisitos de segurança em contratos.\nAvaliar riscos específicos de terceirização.\nImplementar monitoramento contínuo.\nCom base na NBR ISO/IEC 27001:2022 e 27002:2022, considere as seguintes afirmações a seguir:\nI.O controle A.5.23 (Segurança da informação para uso de serviços em nuvem) da NBR ISO/IEC 27002:2022 fornece diretrizes para mitigar riscos associados a fornecedores, incluindo avaliação de controles de segurança antes da contratação.\nII.A avaliação de fornecedores pode considerar certificações independentes (ex: NBR ISO/IEC 27001 ou SOC como evidência de conformidade com requisitos de segurança.\nIII.A NBR ISO/IEC 27001:2022, por meio do controle A.5.22 (Gestão de segurança da informação nas relações com fornecedores), exige formalmente que contratos com fornecedores incluam cláusulas específicas sobre segurança da informação, especificações no uso de criptografia nos dados em repouso, e métodos de autenticação e autorização.\nÉ correto o que se afirma em:",
+        "alternativas": [
+            "I e II, apenas.",
+            "I, apenas.",
+            "I, II e III.",
+            "II e III, apenas.",
+            "III, apenas."
+        ],
+        "gabarito": "I e II, apenas."
+    },
+    {
+        "id": 40,
+        "enunciado": "Durante a implementação de um Sistema de Gestão de Segurança da Informação (SGSI) em uma empresa de tecnologia, a equipe de segurança foi encarregada de garantir conformidade com a NBR ISO/IEC 27001:2022. Durante o processo, surgiu a necessidade de definir controles técnicos e administrativos adequados. Para isso, os profissionais consultaram também a NBR ISO/IEC 27002:2022. Assinale a alternativa que descreve corretamente a relação entre a NBR ISO/IEC 27001:2022 e a NBR ISO/IEC 27002:2022:",
+        "alternativas": [
+            "A NBR ISO/IEC 27002:2022 fornece orientações detalhadas de como implementar controles de segurança e certificação, enquanto a 27001:2022 estabelece os requisitos de conformidade e como desenvolver guias de Sistema de Gestão de Segurança da Informação (SGSI).",
+            "A NBR ISO/IEC 27001:2022 fornece orientações detalhadas de como implementar os controles e depende da 27002 para definir sua estrutura organizacional e papéis de responsabilidade.",
+            "A NBR ISO/IEC 27001:2022 define os requisitos obrigatórios para um Sistema de Gestão de Segurança da Informação (SGSI) certificável, enquanto a ISO/IEC 27002:2022 oferece diretrizes práticas para a implementação dos controles de segurança listados no Anexo A da 27001.",
+            "A NBR ISO/IEC 27002:2022 é obrigatória para certificação, enquanto a 27001 fornece um guia suplementar que detalha a implementação dos controles de segurança.",
+            "A NBR ISO/IEC 27001:2022 fornece orientações detalhadas de como implementar controles, enquanto a 27002:2022 estabelece os requisitos certificáveis."
+        ],
+        "gabarito": "A NBR ISO/IEC 27001:2022 define os requisitos obrigatórios para um Sistema de Gestão de Segurança da Informação (SGSI) certificável, enquanto a ISO/IEC 27002:2022 oferece diretrizes práticas para a implementação dos controles de segurança listados no Anexo A da 27001."
+    },
+    {
+        "id": 41,
+        "enunciado": "Um tribunal está criando um inventário de seus servidores e computadores, conforme indica o controle 5.9 (inventário de informações e outros ativos associados) presente no anexo A da norma ABNT NBR ISO/IEC 27001:2024. Nesse caso, pode ser considerada uma deficiência no inventário da empresa a",
+        "alternativas": [
+            "falta de atualização semanal do inventário e de definição do formato de armazenamento.",
+            "ausência de informações sobre os dados armazenados nos dispositivos e seus responsáveis.",
+            "não inclusão de dispositivos móveis, como celulares, tablets e notebooks.",
+            "falta de auditoria interna e externa no inventário por terceiros especializados.",
+            "falta de disponibilização do inventário para todos os funcionários, incluindo colaboradores externos."
+        ],
+        "gabarito": "ausência de informações sobre os dados armazenados nos dispositivos e seus responsáveis."
+    },
+    {
+        "id": 42,
+        "enunciado": "A adoção de boas práticas de segurança da informação e gestão de riscos é essencial para garantir a resiliência organizacional. Normas internacionais como as da família ISO/IEC 27000 e 15999 orientam a implementação de controles e políticas que têm por objetivo proteger os ativos de informação e mitigar riscos operacionais.\nDe acordo com as normas e as boas práticas relacionadas à segurança da informação e à gestão de riscos organizacionais, julgue (C ou E) o item a seguir.\nA norma ISO/IEC 27001 estabelece os requisitos para um Sistema de Gestão de Segurança da Informação (SGSI), enquanto a ISO/IEC 27002 oferece diretrizes de boas práticas para a implementação de controles de segurança.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 43,
+        "enunciado": "A adoção de boas práticas de segurança da informação e gestão de riscos é essencial para garantir a resiliência organizacional. Normas internacionais como as da família ISO/IEC 27000 e 15999 orientam a implementação de controles e políticas que têm por objetivo proteger os ativos de informação e mitigar riscos operacionais.\nDe acordo com as normas e as boas práticas relacionadas à segurança da informação e à gestão de riscos organizacionais, julgue (C ou E) o item a seguir.\nA classificação da informação, segundo a ISO/IEC 27002, deve considerar critérios como confidencialidade, integridade e disponibilidade, sendo responsabilidade exclusiva da equipe de segurança da informação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 44,
+        "enunciado": "Considerando as normas da ABNT acerca de gestão da segurança e gestão de riscos de sistemas de informação, julgue o item a seguir.\nA NBR ISO/IEC 27002:2022 apresenta estrutura com dois aspectos complementares de organização: agrupamento de controles em domínios temáticos e aplicação de múltiplos atributos de classificação a cada controle.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 45,
+        "enunciado": "No processo de certificação da norma ABNT NBR ISO/IEC 27001, são exigidos documentos sobre o tratamento de riscos da segurança da informação.\nEspecificamente, deve-se listar e justificar a exclusão e a inclusão de quaisquer controles do Anexo A da norma, bem como indicar quais deles estão implementados. Ao documento gerado nesse processo de certificação, dá-se o nome de",
+        "alternativas": [
+            "Plano de Tratamento de Riscos.",
+            "Política de Segurança da Informação.",
+            "Relatório de Avaliação de Riscos.",
+            "Declaração de Aplicabilidade."
+        ],
+        "gabarito": "Declaração de Aplicabilidade."
+    },
+    {
+        "id": 46,
+        "enunciado": "Considerando a norma ISO/IEC 27002:2022, os atributos dos domínios de segurança do controle “Inventário de informações e outros ativos associados” são:",
+        "alternativas": [
+            "defesa, apenas.",
+            "proteção, apenas.",
+            "resiliência e defesa, apenas.",
+            "governança, ecossistema e proteção, apenas.",
+            "confidencialidade, integridade e disponibilidade, apenas."
+        ],
+        "gabarito": "governança, ecossistema e proteção, apenas."
+    },
+    {
+        "id": 47,
+        "enunciado": "A analista Maria foi incumbida de implementar no TCE-PE um controle previsto na norma ISO/IEC 27002:2022 (trata-se do controle organizacional de contato com as autoridades). Esse controle visa garantir que haja um fluxo adequado de informações em relação à segurança da informação entre a organização e as autoridades legais, regulatórias e de supervisão relevantes.\nConsiderando as diretrizes da ISO/IEC 27002:2022, assinale a opção que apresenta corretamente os atributos dos domínios de segurança associados ao controle que será implementado por Maria.",
+        "alternativas": [
+            "Defesa e resiliência.",
+            "Governança e ecossistema.",
+            "Proteção e cibersegurança.",
+            "Detecção e mitigação de riscos.",
+            "Gestão de riscos e gestão de identidade/acesso."
+        ],
+        "gabarito": "Defesa e resiliência."
+    },
+    {
+        "id": 48,
+        "enunciado": "A norma ISO/IEC 27001 define diversos tipos de controles de segurança da informação, cujas diretrizes são detalhadas na ISO/IEC 27002. No contexto de uma avaliação realizada no TCE-PE, o analista Jorge está avaliando a implementação de controles tecnológicos no TCE-PE.\nCom base nesse cenário, assinale a opção que apresenta apenas controles tecnológicos previstos na norma ISO/IEC 27001.",
+        "alternativas": [
+            "Prevenção contra vazamento de dados e manutenção de equipamentos.",
+            "Regulação do trabalho remoto e condições de uso de bancos de dados.",
+            "Proteção de dados e direitos de propriedade intelectual.",
+            "Acesso ao código fonte e proteção contra malwares.",
+            "Trabalho em área segura e mesas limpas."
+        ],
+        "gabarito": "Acesso ao código fonte e proteção contra malwares."
+    },
+    {
+        "id": 49,
+        "enunciado": "A ISO/IEC 27001:2022, em seu Anexo A, organiza os controles de segurança da informação em categorias funcionais com base no tipo de ameaça e nos mecanismos utilizados para sua mitigação. Cada grupo de controle está relacionado a um conjunto de ferramentas, recursos ou práticas específicas. Com base nisso, relacione os termos da Coluna A com os exemplos da Coluna B.\nColuna A (termos):\n1.Controles Tecnológicos.\n2.Controles de Pessoas.\n3.Controles Físicos.\nColuna B (exemplos):\n(__)Soluções como firewalls, sistemas de detecção de intrusão (IDS), criptografia ponta a ponta, autenticação multifator e políticas de segregação de redes.\n(__)Barreiras estruturais, leitores biométricos em portas de acesso restrito, sensores de movimento, catracas eletrônicas e sistemas de CFTV.\n(__)Cláusulas de confidencialidade em contratos, programas de capacitação sobre engenharia social, campanhas internas de conscientização e diretrizes para comportamento seguro.\nAssinale a alternativa que apresenta a sequência da associação correta dos itens acima, de cima para baixo:",
+        "alternativas": [
+            "2 − 3 − 1.",
+            "3 − 2 − 1.",
+            "1 − 2 − 3.",
+            "1 − 3 − 2."
+        ],
+        "gabarito": "1 − 3 − 2."
+    },
+    {
+        "id": 50,
+        "enunciado": "Uma empresa do setor de tecnologia deseja certificar-se conforme a norma ABNT NBR ISO/IEC 27001:2022 para fortalecer a gestão da segurança da informação e garantir conformidade com boas práticas globais.\nPara isso, a organização precisa implementar um Sistema de Gestão de Segurança da Informação (SGSI), estruturando políticas, processos e controles para proteger a confidencialidade, integridade e disponibilidade dos dados.\nAlém disso, a equipe responsável pelo projeto identificou que a norma ABNT NBR ISO/IEC 27002:2022 fornece diretrizes complementares para a seleção e implementação de controles específicos de segurança.\nDiante desse contexto, assinale a alternativa que descreve corretamente a relação entre a ABNT NBR ISO/IEC 27001:2022 e a ABNT NBR ISO/IEC 27002:2022.",
+        "alternativas": [
+            "A norma ABNT NBR ISO/IEC 27001:2022 define os requisitos para a implementação e certificação de um Sistema de Gestão de Segurança da Informação. (SGSI), enquanto a ABNT NBR ISO/IEC 27002:2022 fornece diretrizes para a seleção e implementação de controles de segurança.",
+            "A norma ABNT NBR ISO/IEC 27002:2022 estabelece os requisitos obrigatórios para certificação em segurança da informação, enquanto a ABNT NBR ISO/IEC 27001:2022 apenas sugere boas práticas sem necessidade de auditoria formal.",
+            "A ABNT NBR ISO/IEC 27001:2022 é um guia técnico de segurança cibernética voltado exclusivamente para proteção contra ataques cibernéticos, enquanto a ABNT NBR ISO/IEC 27002:2022 trata apenas da segurança física dos ativos de TI.",
+            "A certificação em conformidade com a ABNT NBR ISO/IEC 27001:2022 dispensa a necessidade de implementar controles de segurança recomendados pela ABNT NBR ISO/IEC 27002:2022, pois a norma já garante proteção total da informação.",
+            "A norma ABNT NBR ISO/IEC 27002:2022 é responsável pela definição dos requisitos obrigatórios para auditoria e certificação, enquanto a ABNT NBR ISO/IEC 27001:2022 trata exclusivamente de conceitos teóricos sem aplicação prática."
+        ],
+        "gabarito": "A norma ABNT NBR ISO/IEC 27001:2022 define os requisitos para a implementação e certificação de um Sistema de Gestão de Segurança da Informação. (SGSI), enquanto a ABNT NBR ISO/IEC 27002:2022 fornece diretrizes para a seleção e implementação de controles de segurança."
+    },
+    {
+        "id": 51,
+        "enunciado": "Com relação à norma ABNT NBR ISO/IEC 27002:2022, assinale a alternativa correta.",
+        "alternativas": [
+            "A versão 2022 manteve os 114 controles organizados em 14 domínios, com alterações apenas na linguagem dos controles.",
+            "A norma ISO/IEC 27002:2022 não inclui controles relacionados à proteção de dados pessoais, pois esse tema é tratado exclusivamente por legislações nacionais.",
+            "Um dos atributos de classificação introduzidos na versão 2022 é a “localização geográfica do risco”, utilizado para segmentar controles por continente.",
+            "Os controles da ISO/IEC 27002:2022 são organizados em quatro temas: organizacional, pessoas, físico e tecnológico.",
+            "A ISO/IEC 27002:2022 propõe a eliminação da categorização dos controles, recomendando que todas as organizações criem suas próprias taxonomias."
+        ],
+        "gabarito": "Os controles da ISO/IEC 27002:2022 são organizados em quatro temas: organizacional, pessoas, físico e tecnológico."
+    },
+    {
+        "id": 52,
+        "enunciado": "De acordo com a norma ISO/IEC 27002 (International Organization for Standardization / International Electrotechnical Commission), que trata das melhores práticas para a gestão da segurança da informação, qual é a prática usada para impedir que programas não autorizados sejam executados em determinado ambiente?",
+        "alternativas": [
+            "Wireless.",
+            "Tokens.",
+            "Hackers.",
+            "Patches.",
+            "Whitelisting."
+        ],
+        "gabarito": "Whitelisting."
+    },
+    {
+        "id": 53,
+        "enunciado": "Assinale a opção que apresenta, conforme a norma ABNT:NBR ISO/IEC 27001, a medida técnica, física ou administrativa implementada para reduzir riscos.",
+        "alternativas": [
+            "ação corretiva.",
+            "auditoria interna.",
+            "impacto.",
+            "controle.",
+            "política de segurança da informação."
+        ],
+        "gabarito": "controle."
+    },
+    {
+        "id": 54,
+        "enunciado": "Relacione a Coluna 1 à Coluna 2, associando as seguintes normas ISO às suas respectivas definições.\nColuna 1\n1. ISO/IEC 27001.\n2. ISO/IEC 27002.\n3. ISO/IEC 27005.\nColuna 2\n( ) Essa norma oferece às empresas orientações para estabelecer, implementar, manter e melhorar continuamente um sistema de gestão da segurança da informação.\n( ) Essa norma fornece orientações sobre a gestão de riscos de segurança da informação, com o objetivo de apoiar a implementação de um Sistema de Gestão de Segurança da Informação (SGSI) tendo como base outra norma.\n( ) É uma norma internacional que fornece orientações para organizações que desejam estabelecer, implementar e aprimorar um SGSI com foco em cibersegurança.\n( ) Ao seguir as diretrizes desta norma, as empresas podem adotar uma abordagem proativa na gestão de riscos de segurança cibernética e proteger informações críticas contra acessos não autorizados e perdas.\n( ) É a norma mais conhecida no mundo para sistemas de gestão de segurança da informação, determinando os requisitos que os SGSI devem atender.\nA ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+        "alternativas": [
+            "1 – 3 – 2 – 2 – 1.",
+            "2 – 3 – 3 – 1 – 2.",
+            "1 – 2 – 3 – 3 – 1.",
+            "3 – 2 – 1 – 2 – 1.",
+            "3 – 1 – 2 – 3 – 2."
+        ],
+        "gabarito": "1 – 3 – 2 – 2 – 1."
+    },
+    {
+        "id": 55,
+        "enunciado": "No que concerne à Norma ISO/IEC 27002, é incorreto afirmar que:",
+        "alternativas": [
+            "As políticas de segurança da informação devem ser revistas a intervalos planejados ou quando mudanças significativas ocorrerem, para assegurar sua utilidade contínua, adequação e eficácia.",
+            "Todos os empregados da organização e, onde relevante, fornecedores, devem receber conscientização, educação e treinamento apropriado.",
+            "Procedimentos para o tratamento dos ativos devem ser desenvolvidos e implementados de acordo com o esquema de classificação da informação adotado pela organização.",
+            "Uma política sobre o uso, proteção e ciclo de vida das chaves criptográficas deve ser desenvolvida e implementada, no entanto, sem a necessidade de considerar todo o seu ciclo de vida."
+        ],
+        "gabarito": "Uma política sobre o uso, proteção e ciclo de vida das chaves criptográficas deve ser desenvolvida e implementada, no entanto, sem a necessidade de considerar todo o seu ciclo de vida."
+    },
+    {
+        "id": 56,
+        "enunciado": "O tratamento e o compartilhamento de dados da área de saúde demanda relevante preocupação com a proteção e a segurança de informações. Neste contexto, destaca-se a complementaridade e alinhamento necessários das normas ISO/IEC 27001 e 27002, a Lei Geral de Proteção de Dados (LGPD), do Brasil, e o General Data Protection Regulation (GDPR), da União Européia.\nCom relação às normas apontadas e a proteção demandada pela natureza sensível dos dados pessoais de saúde, analise os itens a seguir:\nI. As normas ISO/IEC 27001 e 27002 são padrões internacionais que estabelecem um Sistema de Gestão de Segurança da Informação (SGSI), sendo a primeira voltada para estabelecimento de um código de prática com diretrizes e controles de segurança da informação e a segunda para gestão de riscos de segurança da informação.\nII. Uma forma de demonstração da conformidade com os princípios de segurança exigidos por leis, como a LGPD e o GDPR, é a implementação e adequação institucional às normas ISO/IEC 27001 e 27002.\nIII. A utilização do SGSI proposto pelas normas ISO/IEC 27001 e 27002 promovem uma abordagem de segurança da informação baseada em riscos, que é o que a LGPD e o GDPR exigem na prática, além de promoverem um roteiro prático para as organizações cumprirem as exigências de segurança e privacidade.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, apenas.",
+            "II, apenas.",
+            "I e III, apenas.",
+            "I e II, apenas.",
+            "II e III, apenas."
+        ],
+        "gabarito": "II e III, apenas."
+    },
+    {
+        "id": 57,
+        "enunciado": "Qual é o objetivo da norma ISO 27001?",
+        "alternativas": [
+            "Definir padrões para a criação de certificados digitais.",
+            "Garantir a proteção contra ataques de malware.",
+            "Fornecer diretrizes para a criação de assinaturas digitais.",
+            "Monitorar o tráfego de rede para identificar possíveis invasões.",
+            "Estabelecer requisitos para a implementação de um sistema de gestão de segurança da informação."
+        ],
+        "gabarito": "Estabelecer requisitos para a implementação de um sistema de gestão de segurança da informação."
+    },
+    {
+        "id": 58,
+        "enunciado": "A respeito das normas técnicas ABNT NBR ISO/IEC 27001 e ABNT NBR ISO/IEC 27002, assinale a opção correta.",
+        "alternativas": [
+            "Ambas as normas aplicam-se obrigatoriamente a todas as instituições educacionais brasileiras.",
+            "A ABNT NBR ISO/IEC 27002 substitui a necessidade de outras normas de gestão de riscos em TI; a aplicação da ABNT NBR ISO/IEC 27001 é obrigatória apenas para universidades públicas.",
+            "A ABNT NBR ISO/IEC 27001 trata de criptografia de dados acadêmicos; a ABNT NBR ISO/IEC 27002 foca auditoria financeira.",
+            "A ABNT NBR ISO/IEC 27001 define controles técnicos de segurança da informação; a ABNT NBR ISO/IEC 27002 trata exclusivamente da gestão da qualidade em instituições educacionais.",
+            "A norma ABNT NBR ISO/IEC 27002 fornece diretrizes de boas práticas de proteção de ativos de informação."
+        ],
+        "gabarito": "A norma ABNT NBR ISO/IEC 27002 fornece diretrizes de boas práticas de proteção de ativos de informação."
+    },
+    {
+        "id": 59,
+        "enunciado": "A ABNT NBR ISO/IEC 27001:2022, no item Operação, define ações que a organização deve seguir para planejar, implementar e controlar processos de segurança da informação. São ações referenciadas nesse item:\nI. Planejamento e controle operacionais – estabelecer critérios e implementar controle dos processos.\nII. Avaliação de riscos da segurança da informação – realizar avaliações de riscos em intervalos planejados.\nIII. Tratamento de riscos da segurança da informação – implementar o plano de tratamento de riscos.\nQuais estão corretas?",
+        "alternativas": [
+            "Apenas I.",
+            "Apenas I e II.",
+            "Apenas I e III.",
+            "Apenas II e III.",
+            "I, II e III."
+        ],
+        "gabarito": "I, II e III."
+    },
+    {
+        "id": 60,
+        "enunciado": "As normas ABNT ISO/IEC 27001:2022 e 27002:2022 têm como tema central o compliance e a Tecnologia da Informação. Seu público-alvo são, dentre outros, os diretores e gerentes de TI e os analistas de segurança da informação.\nAcerca das normas ABNT acima, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n( ) A certificação ISO/IEC 27001:2022 é obrigatória para todas as organizações públicas no Brasil.\n( ) No ciclo PDCA (Plan-Do-Check-Act) aplicado à ISO/IEC 27001:2022, a fase Check refere- -se a avaliar desempenho, monitorar e medir o Sistema de Gestão da Segurança da Informação (SGSI).\n( ) Uma característica importante da ISO/IEC 27002:2022 é a de não ser certificável, pois fornece apenas recomendações de controles.\nA sequência correta é",
+        "alternativas": [
+            "V – F – F.",
+            "F – F – V.",
+            "F – V – V.",
+            "V – V – F.",
+            "F – V – F."
+        ],
+        "gabarito": "F – V – V."
+    },
+    {
+        "id": 61,
+        "enunciado": "A ISO 27001 compreende dez cláusulas do sistema de gestão que orientam a implementação, o gerenciamento e a melhoria contínua de um SGSI.\nA opção que não pertence, de forma direta ou indireta, a essa lista de dez cláusulas é",
+        "alternativas": [
+            "contexto da organização.",
+            "liderança.",
+            "avaliação de desempenho.",
+            "suporte.",
+            "políticas de autenticação e autorização."
+        ],
+        "gabarito": "políticas de autenticação e autorização."
+    },
+    {
+        "id": 62,
+        "enunciado": "Em relação às boas práticas de gestão da segurança da informação, é correto afirmar:",
+        "alternativas": [
+            "A confidencialidade é responsabilidade exclusiva do usuário final, sem envolvimento da empresa.",
+            "A ISO/IEC 27001 é voltada apenas para backup e armazenamento em nuvem.",
+            "A integridade pode ser garantida apenas com uso de senhas fortes.",
+            "A ISO/IEC 27001 recomenda a implementação de controles técnicos e organizacionais para garantir CIA dos dados."
+        ],
+        "gabarito": "A ISO/IEC 27001 recomenda a implementação de controles técnicos e organizacionais para garantir CIA dos dados."
+    },
+    {
+        "id": 63,
+        "enunciado": "De acordo com a norma ABNT NBR ISO/IEC 27002:2022, que estabelece diretrizes para a implementação de controles de segurança da informação, as funções básicas que compõem a estrutura da segurança cibernética nas organizações são:",
+        "alternativas": [
+            "identificar, proteger, detectar, responder e recuperar.",
+            "aceitar, mitigar, transferir, evitar e compartilhar.",
+            "transferir, proteger, recuperar, detectar e mitigar.",
+            "prevenir, detectar, corrigir, proteger e compartilhar."
+        ],
+        "gabarito": "identificar, proteger, detectar, responder e recuperar."
+    },
+    {
+        "id": 64,
+        "enunciado": "As normas ABNT NBR ISO IEC 27001 e ABNT NBR ISO IEC 27002 representam padrões internacionais, que fazem referência aos códigos de práticas que tratam, respectivamente, dos seguintes aspectos da segurança da informação:",
+        "alternativas": [
+            "Aceitação e controles.",
+            "Aceitação e testes.",
+            "Gestão e controles.",
+            "Gestão e testes."
+        ],
+        "gabarito": "Gestão e controles."
+    },
+    {
+        "id": 65,
+        "enunciado": "A gestão da segurança da informação (GSI) é cada vez mais demandada em organizações pública e privadas. A ISO 27001 faz parte da família especificações, da qual a ISO/IEC 27000 é a raiz de toda uma série numerada de padrões internacionais para a GSI.\nCom relação à ISO 27001, avalie se as afirmativas a seguir são verdadeiras (V) ou falsas (F).\nI. Como regra geral, as organizações que implementam a ISO 27001 devem estar atentas ao texto dessa norma específica em si, e estarem cientes de quaisquer revisões que nela ocorram. O não cumprimento de revisões ou retificações comprometer uma certificação já existente.\nII. Usa a palavra 'deverá' para indicar um requisito, enquanto os outros padrões no uso familiar ‘deveria’ para indicar boas práticas que não são um requisito.\nIII. Pode ser usada como base para um esquema formal de certificação de sistemas de informação e dispositivos computacionais formando a base para uma avaliação da Segurança da Informação Sistema de Gestão (SGSI) de todo ou parte de uma organização.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "V – F – F.",
+            "V – V – F.",
+            "F – F – F.",
+            "F – V – V.",
+            "F – F – V."
+        ],
+        "gabarito": "V – V – F."
+    },
+    {
+        "id": 66,
+        "enunciado": "A norma ISO 27001 corresponde a padrão publicado pela International Organization for Standardization (ISO) em parceria com a International Electrotechnical Commission (IEC). Ela define os requisitos, processos e normas a serem seguidas para garantir uma gestão de segurança da informação eficaz.\nPara manutenção e melhoria de qualquer sistema são elementos chave as ações de monitoramento e medição, que envolvem diversas práticas, políticas e procedimentos.\nEstas ações de segurança da informação devem observar os seguintes aspectos:",
+        "alternativas": [
+            "Segurança exclusivamente lógica da organização; Segurança de documentos físicos; Análise de aspectos vulneráveis.",
+            "Organização interna e externa da empresa; Cumprimento parcial dos requisitos legais; Técnicas de manipulação de informações.",
+            "Gestão de incidentes exclusivamente em data center; Práticas de controle de acesso (em sistemas e no ambiente físico); Gestão de ativos.",
+            "Ações de segurança no desenvolvimento de sistemas; Foco exclusivo nos equipamentos pessoais utilizados na organização; Tecnologia de criptografia.",
+            "Segurança física da organização; Gestão de incidentes; Análise de aspectos vulneráveis."
+        ],
+        "gabarito": "Segurança física da organização; Gestão de incidentes; Análise de aspectos vulneráveis."
+    },
+    {
+        "id": 67,
+        "enunciado": "O risco de segurança da informação abrange os possíveis eventos ou circunstâncias que podem levar a perturbações dentro de uma organização, prejudicar a sua reputação ou resultar em perdas financeiras devido a falhas nos sistemas de informação.\nAvalie se, para evitar esses eventos, as seguintes ações podem ser executadas:\nI. Identificar riscos potenciais e avaliar a sua gravidade e probabilidade de ocorrência.\nII. Priorizar os riscos identificados e desenvolver estratégias para aceitá-los, transferi-los, mitigá-los ou evitá-los.\nIII. A organização deve verificar os esforços de gestão de riscos ao finalizar o evento.\nEstá correto o que se propõe em",
+        "alternativas": [
+            "I e II, apenas.",
+            "I, II e III.",
+            "II, apenas.",
+            "III, apenas.",
+            "I, apenas."
+        ],
+        "gabarito": "I e II, apenas."
+    },
+    {
+        "id": 68,
+        "enunciado": "Considerando as normas ISO/IEC 27001 e ISO/IEC 27002, julgue o seguinte item.\nA ISO/IEC 27001 apresenta os requisitos necessários para estabelecer, implementar, manter e melhorar continuamente um sistema de gestão da segurança da informação dentro do contexto da organização.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 69,
+        "enunciado": "No que se refere à gestão de segurança da informação, julgue o item subsecutivo.\nO modelo de sistema de gestão de segurança da informação (SGSI) de uma organização é influenciado por fatores como necessidades e objetivos, requisitos de segurança, processos e estrutura organizacional.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 70,
+        "enunciado": "Com pertinência a gestão de segurança da informação, julgue o item subsecutivo.\nO principal objetivo da norma ABNT NBR ISO/IEC 27001, que é a norma de gestão das regras para coleta, armazenamento e tratamento de dados de pessoas físicas e jurídicas, é garantir a privacidade, a dignidade e a intimidade de indivíduos e empresas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 71,
+        "enunciado": "A norma ABNT NBR ISO/IEC 27 002 (Segurança da informação, segurança cibernética e proteção à privacidade – Controles de segurança da informação) apresenta quatro seções de controles (organizacionais, de pessoas, físicos e tecnológicos), estabelecendo os seguintes cinco conceitos de segurança cibernética utilizados para classificar cada subtipo de controle:",
+        "alternativas": [
+            "Identificar, Proteger, Detectar, Responder e Recuperar.",
+            "Corrigir, Prevenir, Detectar, Garantir e Suprir.",
+            "Limitar, Expandir, Gerenciar, Identificar e Resistir.",
+            "Garantir, Capacitar, Continuar, Recuperar e Corrigir.",
+            "Resistir, Suprir, Conter, Prevenir e Limitar."
+        ],
+        "gabarito": "Identificar, Proteger, Detectar, Responder e Recuperar."
+    },
+    {
+        "id": 72,
+        "enunciado": "Assinale a opção que, em uma organização, descreve o objetivo principal dos controles de segregação das funções nos processos de definição, implantação e gestão de políticas de TI.",
+        "alternativas": [
+            "Maximizar a eficiência operacional através da centralização das decisões.",
+            "Minimizar conflitos de interesse e prevenir fraudes.",
+            "Simplificar os processos administrativos reduzindo o número de funcionários envolvidos.",
+            "Aumentar a velocidade de execução de tarefas repetitivas.",
+            "Reduzir custos operacionais ao diminuir a supervisão necessária."
+        ],
+        "gabarito": "Minimizar conflitos de interesse e prevenir fraudes."
+    },
+    {
+        "id": 73,
+        "enunciado": "De acordo com a seção 5.1 da norma ABNT NBR ISO/IEC 27001:2022, a Alta Direção da organização deve demonstrar sua liderança e comprometimento em relação ao sistema de gestão da segurança da informação por alguns meios. Assinale a alternativa que representa um dos meios citados pela norma nesse contexto.",
+        "alternativas": [
+            "Realizar publicidade externa, inclusive em mídias sociais, sobre detalhes do sistema de gestão da segurança da informação, fornecendo transparência para todo o público.",
+            "Realizar auditorias sobre o sistema de gestão da segurança da informação, por meio de envolvimento direto, e demitir os colaboradores que comprovadamente trouxeram riscos à segurança.",
+            "Assegurar que uma equipe internacional, com membros de pelo menos três países, participe do projeto de implantação do sistema de gestão da segurança da informação.",
+            "Assegurar que a equipe envolvida no projeto de implantação do sistema de gestão da segurança da informação receba algum bônus financeiro ou participação nos lucros e resultados conforme o sucesso atingido.",
+            "Assegurar que a política de segurança da informação e os objetivos de segurança da informação estejam estabelecidos e sejam compatíveis com a direção estratégica da organização."
+        ],
+        "gabarito": "Assegurar que a política de segurança da informação e os objetivos de segurança da informação estejam estabelecidos e sejam compatíveis com a direção estratégica da organização."
+    },
+    {
+        "id": 74,
+        "enunciado": "Acerca de gestão de segurança e riscos, julgue o item que se segue.\nA versão atualizada da norma ABNT NBR ISO/IEC 27001 introduziu, em relação a sua versão anterior, novos controles de segurança que atendem às necessidades de proteção para novas tendências e abordagens de cibersegurança; no entanto, mesmo com essa modificação, o número de controles foi reduzido de uma versão para a outra.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 75,
+        "enunciado": "Considere o cenário em que uma empresa está revisando suas políticas de segurança da informação para garantir a proteção abrangente de seus dados. A empresa deseja assegurar que suas práticas estejam alinhadas com os melhores padrões de segurança.\nEm relação ao tema, analise as afirmativas a seguir.\nI. A classificação de informações ajuda a determinar o nível de proteção necessário para diferentes tipos de dados.\nII. A implementação de controles de acesso e autenticação garante que apenas pessoas autorizadas possam acessar informações sensíveis.\nIII. A segurança física é irrelevante para a proteção dos dados digitais, pois a segurança lógica é suficiente para impedir acessos não autorizados.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, apenas.",
+            "II, apenas.",
+            "I e II, apenas.",
+            "II e III, apenas.",
+            "I, II e III."
+        ],
+        "gabarito": "I, apenas."
+    },
+    {
+        "id": 76,
+        "enunciado": "Para assegurar que o SGSI esteja em conformidade com a norma ABNT NBR ISO/IEC 27001:2022, a organização deve",
+        "alternativas": [
+            "focar na tecnologia, sem considerar o contexto da organização.",
+            "envolver a alta administração e definir políticas claras de segurança da informação.",
+            "implementar controles de segurança sem a necessidade de avaliação de riscos.",
+            "evitar o monitoramento contínuo e a avaliação de desempenho do SGSI.",
+            "ignorar a necessidade de melhorias contínuas após a implementação inicial."
+        ],
+        "gabarito": "envolver a alta administração e definir políticas claras de segurança da informação."
+    },
+    {
+        "id": 77,
+        "enunciado": "De acordo com a NBR ISO/IEC 27001:2022, a organização deve conduzir auditorias internas a intervalos planejados, para esclarecer se o sistema de gestão da segurança da informação está em conformidade com",
+        "alternativas": [
+            "as políticas definidas pela alta gestão e pelo conselho de administração relacionadas à organização como um todo.",
+            "os requisitos da organização para o seu sistema de gestão da segurança da informação e os requisitos daquela norma.",
+            "as diretrizes e normas da entidade reguladora da sua atividade negocial.",
+            "os objetivos e as metas da organização para o planejamento estratégico da área de tecnologia da informação.",
+            "os padrões verificados em benchmarks e melhores práticas comumente aceitas no seu segmento de atuação."
+        ],
+        "gabarito": "os requisitos da organização para o seu sistema de gestão da segurança da informação e os requisitos daquela norma."
+    },
+    {
+        "id": 78,
+        "enunciado": "Em uma empresa hipotética, o departamento de TI está realizando uma força tarefa com o objetivo de instalar um programa de criptografia em todos as pastas de documentos dos computadores de seus colaboradores.\nDe modo a informar suas atividades, o departamento de TI coloca em todos os setores da empresa um gráfico de tendência relacionando a proporção de máquinas concluídas.\nDe acordo com a NBR ISO 27004, da ABNT, o descritor da informação empregado pela equipe de TI por meio dos gráficos é",
+        "alternativas": [
+            "o identificador de medida.",
+            "a medida.",
+            "a meta.",
+            "a parte responsável.",
+            "o formato comunicação."
+        ],
+        "gabarito": "o formato comunicação."
+    },
+    {
+        "id": 79,
+        "enunciado": "O Sistema de Gestão de Segurança da Informação (SGSI) é um conjunto de políticas, procedimentos, diretrizes e recursos associados, que são utilizados para proteger a informação dentro de uma organização.\nAssinale, entre as normas da International Organization for Standardization (ISO) e/ou International Electrotechnical Commission (IEC) apresentadas a seguir, aquela que oferece estrutura abrangente para a implantação de um SGSI.",
+        "alternativas": [
+            "9001 (Ano.",
+            "14001 (Ano.",
+            "27001 (Ano.",
+            "45001 (Ano.",
+            "50001 (Ano."
+        ],
+        "gabarito": "27001 (Ano."
+    },
+    {
+        "id": 80,
+        "enunciado": "Em relação à gestão de segurança da informação, julgue o item subsequente.\nDe acordo com a NBR ISO/IEC 27001, quando uma não conformidade acontece, a organização deve, entre outras providências, avaliar a necessidade de realizar ações para a eliminação de sua causa, a fim de evitar que tal evento volte a acontecer.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 81,
+        "enunciado": "De acordo com as normas ISO (lnternational Organization for Standardization)/lEC (lnternational Electrotechnical Commission) 27002, existe uma prática essencial para a segurança da informação que impede a execução de programas não autorizados em um ambiente específico. Trata-se de:",
+        "alternativas": [
+            "Sniffer.",
+            "Logging.",
+            "Gateway.",
+            "Scripts.",
+            "Whitelisting."
+        ],
+        "gabarito": "Whitelisting."
+    },
+    {
+        "id": 82,
+        "enunciado": "A Norma ABNT NBR ISO/IEC 27002:2022 orienta que as informações sejam classificadas de acordo com as necessidades de segurança da informação da organização.\nDe acordo com essa norma, na classificação da informação devem-se considerar os requisitos de:",
+        "alternativas": [
+            "confiabilidade, integridade, disponibilidade e os que sejam relevantes para a alta gestão;",
+            "confidencialidade, integridade, autenticidade e os que sejam relevantes para as partes interessadas;",
+            "confiabilidade, integridade, autenticidade e os que sejam relevantes para as partes interessadas;",
+            "confidencialidade, integridade, disponibilidade e os que sejam relevantes para as partes interessadas;",
+            "confiabilidade, integridade, disponibilidade e os que sejam relevantes para a área de tecnologia da informação."
+        ],
+        "gabarito": "confidencialidade, integridade, disponibilidade e os que sejam relevantes para as partes interessadas;"
+    },
+    {
+        "id": 83,
+        "enunciado": "A Norma ISO/27001:2022 elenca as boas práticas na implantação de um sistema de gestão de segurança da informação (SGSI) para organizações. Essa norma é calcada na estrutura PDCA (Plan, Do, Check, Act) e elenca ações a serem feitas a cada uma das etapas. Com relação ao ciclo PDCA no contexto da implantação de um SGSI, a estrutura adotada é",
+        "alternativas": [
+            "padronizada, com cada etapa sendo executada uma vez, e com maior relevância para a etapa de planejamento.",
+            "única para cada organização, devendo ter apenas etapas consideradas aplicáveis à organização onde está sendo implementada.",
+            "elíptica, com a etapa de atuação baseada nos resultados avaliados na etapa de execução.",
+            "iterativa, com uma etapa de planejamento ocorrendo após cada etapa de atuação.",
+            "quadrada, com cada etapa sendo executada uma vez, e de igual relevância para o sucesso."
+        ],
+        "gabarito": "iterativa, com uma etapa de planejamento ocorrendo após cada etapa de atuação."
+    },
+    {
+        "id": 84,
+        "enunciado": "Um sistema de gestão de Segurança da Informação (SGSI) deve ser estabelecido nas organizações, considerando o escopo definido, os riscos e as oportunidades que precisam ser gerenciadas para o alcance de seu objetivo.\nDe acordo com a NBR ISO/IEC 27001, para realizar o gerenciamento desses riscos e oportunidades, a organização deve planejar ações para:",
+        "alternativas": [
+            "integrar e implementar as ações de tratamento dos riscos e oportunidades dentro dos processos do SGSI;",
+            "aceitar os riscos identificados no SGSI;",
+            "realizar avaliações dos riscos de segurança e das oportunidades identificadas no SGSI;",
+            "aplicar um processo de avaliação dos riscos de segurança do SGSI;",
+            "identificar os proprietários dos riscos e seu envolvimento com as oportunidades identificadas no SGSI."
+        ],
+        "gabarito": "integrar e implementar as ações de tratamento dos riscos e oportunidades dentro dos processos do SGSI;"
+    },
+    {
+        "id": 85,
+        "enunciado": "De acordo com a norma ISO/IEC 27001, a organização precisa definir a aplicabilidade e os limites do sistema de gestão da segurança da informação para estabelecer o seu escopo.\nNo que se refere ao que a organização deve considerar para determinação do escopo descrito, avalie as afirmativas a seguir e assinale (V) para a verdadeira e (F) para a falsa.\n( ) Questões internas e externas importantes para o seu propósito e que afetam sua capacidade para atingir os resultados desejados do seu sistema de gestão da segurança da informação.\n( ) Requisitos das partes interessadas relevantes para a segurança da informação, os quais podem incluir requisitos legais e regulamentares, bem como obrigações contratuais.\n( ) Interfaces e dependências entre as atividades desempenhadas pela organização e aquelas que são executadas por outras instituições.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "V – V – F.",
+            "F – F – V.",
+            "V – V – V.",
+            "F – V – V.",
+            "V – F – F."
+        ],
+        "gabarito": "V – V – V."
+    },
+    {
+        "id": 86,
+        "enunciado": "A Norma ABNT NBR ISO/IEC 27002:2022 categorizou 93 controles em 4 temas: Pessoais, Físicos, Tecnológicos e Organizacionais.\nNesse contexto, assinale a opção que apresenta apenas controles organizacionais.",
+        "alternativas": [
+            "Políticas para Segurança da Informação e Termos e Condições de Contratação.",
+            "Responsabilidades após Término ou Mudança de Contratação e Proteção de Escritórios, Salas e Instalações.",
+            "Trabalho em Áreas Seguras e Gerenciamento de Vulnerabilidades Técnicas.",
+            "Segurança da Informação no Gerenciamento de Projetos e Segurança da Informação em Relacionamentos com Fornecedores.",
+            "Resposta aos Incidentes de Segurança da Informação e Redundância de Recursos de Processamento de Informações."
+        ],
+        "gabarito": "Segurança da Informação no Gerenciamento de Projetos e Segurança da Informação em Relacionamentos com Fornecedores."
+    },
+    {
+        "id": 87,
+        "enunciado": "A NBR ISO/IEC 27002:2022 detalha os controles de Segurança da Informação da NBR ISO/IEC 27001:2022, fornecendo definição, propósito e um guia de como implementá-los.\nA rotulagem das informações tem o propósito de:",
+        "alternativas": [
+            "Manter a segurança das informações transferidas na organização e em qualquer parte interessada externa.",
+            "Garantir acesso autorizado e prever acesso não autorizado às informações e aos outros ativos associados.",
+            "Facilitar as comunicações a respeito da classificação das informações e automação do suporte de processamento e gerenciamento das informações.",
+            "Garantir adequada autenticação na entidade e prevenir falhas no processo.",
+            "Garantir identificação e entendimento das necessidades de proteção da informação, de acordo com sua importância para a organização."
+        ],
+        "gabarito": "Facilitar as comunicações a respeito da classificação das informações e automação do suporte de processamento e gerenciamento das informações."
+    },
+    {
+        "id": 88,
+        "enunciado": "A ISO/IEC 27001 é uma norma internacional que estabelece diretrizes para um Sistema de Gestão da Segurança da Informação (SGSI).\nO principal objetivo da implementação de um SGSI, segundo a ISO/IEC 27001, é",
+        "alternativas": [
+            "gerenciar exclusivamente os riscos financeiros da empresa.",
+            "garantir que os dados estejam sempre disponíveis para todos os colaboradores.",
+            "certificar que todos os processos da empresa sejam automatizados.",
+            "proteger a confidencialidade, integridade e disponibilidade das informações.",
+            "assegurar que apenas softwares certificados sejam utilizados na empresa."
+        ],
+        "gabarito": "proteger a confidencialidade, integridade e disponibilidade das informações."
+    },
+    {
+        "id": 89,
+        "enunciado": "Conforme a ABNT NBR ISO/IEC 27001:2022, a organização deve estabelecer e manter critérios de riscos de segurança da Informação que incluam os critérios",
+        "alternativas": [
+            "de integração e implantação das ações dentro dos processos do seu sistema de gestão da segurança da informação; e critérios de avaliação e eficácia das ações.",
+            "de ação para abordar os riscos e oportunidades, e critérios para prevenir ou reduzir efeitos indesejados da avaliação de risco.",
+            "de identificação dos proprietários do risco; e critérios de análise do risco de segurança da informação.",
+            "de aceitação de risco; e critérios para realizar as avaliações de riscos de segurança da informação.",
+            "para a determinação do nível de risco, e critérios de priorização dos riscos analisados para o tratamento de risco."
+        ],
+        "gabarito": "de aceitação de risco; e critérios para realizar as avaliações de riscos de segurança da informação."
+    },
+    {
+        "id": 90,
+        "enunciado": "A NBR ISO/IEC 27002:2022 detalha os controles de Segurança da Informação da NBR ISO/IEC 27001:2022, fornecendo definição, propósito e um guia de como implementá-los.\nNesse contexto, está correta a seguinte afirmação:",
+        "alternativas": [
+            "Papéis e responsabilidades de Segurança da Informação devem ser definidos e alocados de acordo com o tamanho da organização.",
+            "Requisitos relevantes de Segurança da Informação devem ser estabelecidos e acordados com cada fornecedor, conforme os seus tipos de relacionamento.",
+            "Direitos de acesso a informações e outros ativos associados devem ser provisionados, revisados, modificados e removidos, de acordo com políticas de tópicos específicos do mercado no qual a organização está inserida.",
+            "Informações relacionadas às ameaças de Segurança da Informação devem ser coletadas e analisadas, a fim de produzir um arquivo de ameaças.",
+            "Funções e áreas de responsabilidade conflitantes devem ser agregadas."
+        ],
+        "gabarito": "Requisitos relevantes de Segurança da Informação devem ser estabelecidos e acordados com cada fornecedor, conforme os seus tipos de relacionamento."
+    },
+    {
+        "id": 91,
+        "enunciado": "A Norma ABNT NBR ISO/IEC 27002:2022 recomenda que o processo de gestão de identidades assegure que:",
+        "alternativas": [
+            "identidades sejam mantidas mesmo que não sejam mais necessárias (por exemplo, se suas entidades associadas forem excluídas ou se a pessoa ligada à entidade deixou a organização).",
+            "em um domínio específico, uma única identidade seja mapeada para várias entidades, ou seja, o mapeamento de múltiplas identidades para a mesma entidade dentro do mesmo contexto deve ser incentivado.",
+            "para identidades atribuídas a serviços, uma identidade especifica pode estar vinculada a um ou mais serviços para ser possível responsabilizar o dono do serviço por ações realizadas por essa identidade específica.",
+            "identidades compartilhadas só sejam permitidas quando forem necessárias por razões de negócios ou operacionais e estão sujeitas à aprovação e documentação dedicadas.",
+            "identidades atribuídas a entidades não humanas não estão sujeitas à aprovação segregada e à supervisão independente em curso."
+        ],
+        "gabarito": "identidades compartilhadas só sejam permitidas quando forem necessárias por razões de negócios ou operacionais e estão sujeitas à aprovação e documentação dedicadas."
+    },
+    {
+        "id": 92,
+        "enunciado": "A respeito de segurança da informação, julgue o seguinte item.\nO sistema de gestão da segurança da informação (SGSI) é parte integrante do sistema de gestão global da organização.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 93,
+        "enunciado": "A ABNT ISSO/IEC 27001 define controles para implementação do tratamento de riscos da Segurança da Informação em um sistema de gestão de segurança da informação (SGSI). Uma determinada organização estabeleceu que a equipe de TI responsável pela execução das rotinas de backup deve usar criptografia para proteger os dados/informações sensíveis nas mídias de armazenamento removíveis.\nO controle de segurança da informação implementado pela organização é o controle:",
+        "alternativas": [
+            "físico;",
+            "de pessoas;",
+            "organizacional;",
+            "tecnológico;",
+            "de processos."
+        ],
+        "gabarito": "físico;"
+    },
+    {
+        "id": 94,
+        "enunciado": "Uma empresa de seguros de vida sempre fiscaliza a execução dos reparos em seus equipamentos endpoint realizados pela equipe de manutenção a fim de assegurar a disponibilidade, a integridade e a confidencialidade das informações neles armazenadas.\nDe acordo com a ABNT ISO IEC 27001, o controle de segurança da informação implementado pela empresa é o:",
+        "alternativas": [
+            "de pessoas;",
+            "físico;",
+            "de processos;",
+            "tecnológico;",
+            "organizacional."
+        ],
+        "gabarito": "físico;"
+    },
+    {
+        "id": 95,
+        "enunciado": "A norma ABNT 27001 especifica que a organização deve estabelecer os objetivos da segurança da informação, sendo correto que, especificamente, esses objetivos",
+        "alternativas": [
+            "devem ser limitados pelos recursos financeiros da organização.",
+            "devem ser atualizados conforme seja apropriado.",
+            "devem ser restritos pelos recursos humanos disponíveis na organização.",
+            "não necessitam sofrer um processo de medição.",
+            "não necessitam ser monitorados."
+        ],
+        "gabarito": "devem ser atualizados conforme seja apropriado."
+    },
+    {
+        "id": 96,
+        "enunciado": "Do ponto de vista institucional, a segurança da informação é uma disciplina que se baseia em modelos, normas e padrões bem definidos. Nesse aspecto, a NBR ISO/IEC 27001 define",
+        "alternativas": [
+            "um modelo normatizado para SGSI.",
+            "um algoritmo de criptografia simétrica baseado em AES.",
+            "um sandbox regulatório para desenvolvimento de software seguro.",
+            "uma arquitetura padronizada para testes de penetração em sistemas web."
+        ],
+        "gabarito": "um modelo normatizado para SGSI."
+    },
+    {
+        "id": 97,
+        "enunciado": "A International Organization for Standardization – ISO é uma instituição que reúne as normas de padronização de produtos e empresas na tentativa de manter e garantir a qualidade dos serviços e produtos. Desse modo, as empresas que têm uma certificação ISO apresentam muito mais confiança de que estão seguindo as normas e os requisitos de qualidade. Há uma norma que foi desenvolvida para tratar diretamente de assuntos relacionados à segurança da informação. Que norma é essa?",
+        "alternativas": [
+            "14001.",
+            "45001.",
+            "27001.",
+            "17025.",
+            "50001."
+        ],
+        "gabarito": "27001."
+    },
+    {
+        "id": 98,
+        "enunciado": "Considere as afirmativas relacionadas ao Sistema de Segurança da Informação (SGSI). Registre V, para verdadeiras, e F, para falsas:\n(__)É um sistema de gestão corporativo voltado para a Segurança da Informação, que inclui toda abordagem organização usada para proteger a informação empresarial e seus critérios de Confidencialidade, Integridade e Disponibilidade.\n(__)O SGSI inclui estratégias, planos, políticas, medidas, controles e diversos instrumentos usados para estabelecer, implementar, operar, monitorar, analisar criticamente, manter e melhorar a segurança da informação.\n(__)A norma ISO 27001 é o padrão e a referência internacional para a Gestão da Segurança da Informação.\nAssinale a alternativa com a sequência correta:",
+        "alternativas": [
+            "V - V - F.",
+            "F - V - F.",
+            "V - F - F.",
+            "V - V - V.",
+            "F - V - V."
+        ],
+        "gabarito": "V - V - V."
+    },
+    {
+        "id": 99,
+        "enunciado": "De acordo com a norma ABNT NBR ISO/IEC 27001, a alta direção de uma organização deve demonstrar liderança e comprometimento em relação ao sistema de gestão da segurança da informação (SGSI) por vários meios, entre os quais se inclui",
+        "alternativas": [
+            "a atribuição de responsabilidade e autoridade para assegurar que o SGSI esteja em conformidade com os requisitos normativos.",
+            "a determinação da capacidade da organização para modificar os parâmetros do SGSI e, como consequência, estabelecer as questões externas relevantes aos objetivos de segurança da informação.",
+            "a comunicação sobre a importância de uma gestão eficaz da segurança da informação e da conformidade com os requisitos do SGSI.",
+            "o estabelecimento das partes interessadas que são relevantes para o SGSI e os respectivos requisitos para a segurança da informação.",
+            "a indicação dos limites e da aplicabilidade do SGSI para o estabelecimento do escopo, que deve estar disponível como informação documentada."
+        ],
+        "gabarito": "a comunicação sobre a importância de uma gestão eficaz da segurança da informação e da conformidade com os requisitos do SGSI."
+    },
+    {
+        "id": 100,
+        "enunciado": "Com base na NBR ISO/IEC 27001, julgue o próximo item.\nPessoas que possuam responsabilidades definidas pela segurança da informação não podem delegar as tarefas de segurança da informação para outros usuários.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 101,
+        "enunciado": "Com base na NBR ISO/IEC 27001, julgue o próximo item.\nA conformidade na proteção de registros organizacionais importantes deve considerar riscos de falsificação, perda e destruição.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 102,
+        "enunciado": "Com base na NBR ISO/IEC 27001, julgue o próximo item.\nPara o estabelecimento do escopo e dos limites do sistema de gestão de segurança da informação, devem ser consideradas as características do negócio.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 103,
+        "enunciado": "A norma NBR ISO/IEC 27001:2022 é composta por um conjunto de controles que as organizações interessadas em implementar um sistema de gestão de segurança da informação devem adotar.\nDe acordo com esta norma, um exemplo de controle organizacional é",
+        "alternativas": [
+            "o uso de criptografia.",
+            "a classificação das informações.",
+            "a prevenção de vazamento de dados.",
+            "o acordo de confidencialidade ou não divulgação.",
+            "o descarte seguro ou reutilização de equipamentos."
+        ],
+        "gabarito": "a classificação das informações."
+    },
+    {
+        "id": 104,
+        "enunciado": "A respeito de direito digital, políticas de segurança e regulamentos afins, julgue o item a seguir.\nO ciclo de Deming, modelo de implementação de um sistema de gestão de segurança da informação (SGSI), garante a melhoria contínua e oferece uma abordagem de prevenção e de correção de falhas encontradas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 105,
+        "enunciado": "A ISO 27000 é um conjunto de certificações de segurança da informação e proteção de dados para empresas e órgãos públicos. Elas servem como base para a criação de um Sistema de Gestão de Segurança da Informação (SGSI) em organizações de pequeno, médio e grande porte. Assinale a alternativa que se refere à norma que define métricas de medição para a gestão da segurança da informação:",
+        "alternativas": [
+            "ISO/IEC 27010.",
+            "ISO/IEC 27008.",
+            "ISO/IEC 27004.",
+            "ISO/IEC 27002.",
+            "ISO/IEC 27006."
+        ],
+        "gabarito": "ISO/IEC 27004."
+    },
+    {
+        "id": 106,
+        "enunciado": "Assinale a alternativa que apresenta um requisito obrigatório da norma ISO 27001.",
+        "alternativas": [
+            "Criptografia avançada de dados.",
+            "Política de segurança da informação.",
+            "Backup de dados semanal.",
+            "Treinamento de primeiros socorros."
+        ],
+        "gabarito": "Política de segurança da informação."
+    },
+    {
+        "id": 107,
+        "enunciado": "Sobre a ISO 27001, é correto afirmar que",
+        "alternativas": [
+            "é um padrão internacional para a gestão de qualidade em organizações.",
+            "se concentra principalmente em questões ambientais e sustentabilidade.",
+            "é uma norma específica para a segurança da informação.",
+            "é uma diretriz para o desenvolvimento de produtos de software."
+        ],
+        "gabarito": "é uma norma específica para a segurança da informação."
+    },
+    {
+        "id": 108,
+        "enunciado": "O Sistema de Gestão de Segurança da Informação (SGSI) definido na ISO/IEC 27001 foi projetado para permitir",
+        "alternativas": [
+            "a inserção de funcionalidades relacionadas a outros setores, sem prejuízo de comportamento para o sistema.",
+            "a adição de requisitos específicos do setor, sem a necessidade de desenvolver um novo sistema de gestão.",
+            "o acoplamento com Sistemas de Inteligência Artificial a partir de API desenvolvida em Java.",
+            "a remoção de quaisquer requisitos associados à política de segurança da informação, preservando as características do sistema."
+        ],
+        "gabarito": "a adição de requisitos específicos do setor, sem a necessidade de desenvolver um novo sistema de gestão."
+    },
+    {
+        "id": 109,
+        "enunciado": "A norma ABNT NBR ISO/IEC 27001 – Tecnologia da Informação – Técnicas de segurança – Sistemas de gestão da segurança da informação – Requisitos estabelece, em sua seção sobre Liderança, subseção Política, três requisitos sobre a segurança da informação, sendo um deles,",
+        "alternativas": [
+            "ser disponibilizada exclusivamente a colaboradores do setor de tecnologia da informação.",
+            "ter sido aprovada por um órgão de controle externo à organização.",
+            "estar disponível para as partes interessadas, conforme apropriado.",
+            "estar de acordo com normas estabelecidas por um organismo internacional.",
+            "não afetar o desempenho da operação dos sistemas corporativos."
+        ],
+        "gabarito": "estar disponível para as partes interessadas, conforme apropriado."
+    },
+    {
+        "id": 110,
+        "enunciado": "Qual deve ser a primeira etapa quando da implementação da ISO 27001?",
+        "alternativas": [
+            "Escopo.",
+            "Estratégia e Gestão.",
+            "Avaliação de Riscos.",
+            "Contexto da Organização.",
+            "Segurança da Informação."
+        ],
+        "gabarito": "Contexto da Organização."
+    },
+    {
+        "id": 111,
+        "enunciado": "As normas ISO são regras criadas com o objetivo de realizar a normatização de condutas e processos em organizações e entidades públicas. Ela está relacionada, também, com a ABNT, que normatiza determinadas questões que devem ser seguidas por todas as instituições nacionais. A legislação de segurança da informação é dividida em níveis, de acordo com a figura abaixo:\nOs níveis N1, N2 e N3 são conhecidos, respectivamente, como",
+        "alternativas": [
+            "Estratégico, Operacional e Tático.",
+            "Estratégico, Tático e Operacional.",
+            "Operacional, Tático e Estratégico.",
+            "Tático, Estratégico e Operacional.",
+            "Tático, Operacional e Estratégico."
+        ],
+        "gabarito": "Estratégico, Tático e Operacional."
+    },
+    {
+        "id": 112,
+        "enunciado": "Para uma organização adotar um sistema de gestão de segurança da informação (SGSI), algumas etapas e ações são necessárias; a organização tem a responsabilidade de determinar",
+        "alternativas": [
+            "quais riscos serão avaliados.",
+            "a forma que os controles de proteção ao sigilo de informações deverão serem implementados no SGSI.",
+            "quem deve se comprometer a seguir as normas e políticas criadas.",
+            "o limite e a aplicabilidade do SGSI.",
+            "quais tecnologias deverão fazer parte do projeto de implementação do SGSI."
+        ],
+        "gabarito": "o limite e a aplicabilidade do SGSI."
+    },
+    {
+        "id": 113,
+        "enunciado": "Com base na norma ABNT NBR ISO/IEC 27002, julgue o item subsequente.\nOs logs, registros de atividades dos usuários para fins de auditoria, devem registrar informações relevantes, como uso de privilégios, arquivos acessados e tipo de acesso.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 114,
+        "enunciado": "Qual das opções a seguir é um exemplo de padrão para sistemas de gestão da segurança da informação?",
+        "alternativas": [
+            "ISO/IEC 27001.",
+            "ISO/IEC/IEEE 42010.",
+            "ISO/IEC 17025.",
+            "ISO 14001.",
+            "ISO/IEC 25010."
+        ],
+        "gabarito": "ISO/IEC 27001."
+    },
+    {
+        "id": 115,
+        "enunciado": "Informações confidenciais podem cair em mãos erradas se os laptops de terceiros não forem inspecionados. Nesse contexto, qual é o primeiro passo que deve ser tomado para propor medidas de segurança organizacionais?",
+        "alternativas": [
+            "Estabelecer uma política para a segurança da informação.",
+            "Nomear pessoal de segurança.",
+            "Criptografar pen drives e discos rígidos de laptops.",
+            "Estabelecer uma política de controle de acesso.",
+            "Implementar procedimento de revistas na saída do prédio."
+        ],
+        "gabarito": "Estabelecer uma política para a segurança da informação."
+    },
+    {
+        "id": 116,
+        "enunciado": "Durante uma auditoria externa contratada pelo Tribunal de Justiça ao departamento de segurança da informação, foram avaliados os sistemas existentes seguindo a Norma ABNT NBR ISO/IEC 27001. Durante a avaliação, houve a necessidade de prover um sistema de gerenciamento de senhas interativo e com qualidade.\nPara criar o seu sistema, o departamento de segurança deve fazer uso do objetivo de controle:",
+        "alternativas": [
+            "requisitos do negócio para controle de acesso;",
+            "controle de acesso ao sistema e à aplicação;",
+            "responsabilidade pelos ativos;",
+            "segurança em recursos humanos;",
+            "gerenciamento de acesso do usuário."
+        ],
+        "gabarito": "controle de acesso ao sistema e à aplicação;"
+    },
+    {
+        "id": 117,
+        "enunciado": "Quanto às Normas ISO 27001 e ISO 27002 analise as afirmativas abaixo e assinale a alternativa correta.\nI. a ISO 27002 é muito mais detalhada, e muito mais precisa, do que a ISO 27001.\nII. a ISO 27001 é um guia de implementação baseado em sugestões de melhores práticas.\nIII. a ISO 27002 é um padrão de auditoria baseado em requisitos auditáveis.",
+        "alternativas": [
+            "Apenas a afirmativa I é a tecnicamente verdadeira.",
+            "Apenas as afirmativas I e II são tecnicamente verdadeiras.",
+            "Apenas as afirmativas II e III são tecnicamente verdadeiras.",
+            "Apenas as afirmativas I e III são tecnicamente verdadeiras.",
+            "As afirmativas I, II e III são tecnicamente verdadeiras."
+        ],
+        "gabarito": "Apenas a afirmativa I é a tecnicamente verdadeira."
+    },
+    {
+        "id": 118,
+        "enunciado": "Norma que foi preparada para prover um modelo para estabelecer, implementar, operar, monitorar, analisar criticamente, manter e melhorar um Sistema de Gestão de Segurança da Informação (SGSI) é também conhecida pela sigla:",
+        "alternativas": [
+            "COBIT.",
+            "ISO/IEC 27001.",
+            "ISO/IEC 37001.",
+            "ITIL."
+        ],
+        "gabarito": "ISO/IEC 27001."
+    },
+    {
+        "id": 119,
+        "enunciado": "Analise as seguintes afirmativas a respeito do conjunto de normas ISO 27.000.\nI. A norma ISO 27.000 foi desenvolvida a partir da Lei Geral de Proteção de Dados (brasileira) e da General Data Protection Regulation (GDPR).\nII. Preocupa-se com a garantia da segurança física dos equipamentos e instalações de processamento de dados.\nIII. Busca a melhoria contínua nas organizações, com um processo contínuo que seja estabelecido e mantido mesmo após a obtenção da certificação.\nIV. Desconsidera a avaliação de riscos organizacionais, deixando esse processo sob responsabilidade de implementação por outras normas ISO.\nEstá(ão) correta(s)",
+        "alternativas": [
+            "I, somente.",
+            "I, II e IV, somente.",
+            "II e III, somente.",
+            "I e IV, somente.",
+            "I, II, III e IV."
+        ],
+        "gabarito": "II e III, somente."
+    },
+    {
+        "id": 120,
+        "enunciado": "A norma que direciona organizações a adotarem um modelo adequado de estabelecimento, implementação, operação, monitorização, revisão e gestão de um Sistema de Gestão da Segurança da Informação é",
+        "alternativas": [
+            "ISO 27001.",
+            "ISO 15001-2.",
+            "NBR 15999-4.",
+            "BS 25999-6.",
+            "ISO 37002."
+        ],
+        "gabarito": "ISO 27001."
+    },
+    {
+        "id": 121,
+        "enunciado": "A NBR ISO/IEC 27001 especifica requisitos para um Sistema de Gestão de Segurança da Informação (SGSI), definido como um sistema de gestão desenvolvido para a segurança da informação de uma organização e baseado em uma abordagem de riscos do negócio. Essa norma também adota o ciclo denominado PDCA para estruturar todos os processos envolvidos em um SGSI, conforme ilustrado na figura abaixo.\nSendo o PDCA uma ferramenta gerencial que possibilita a melhoria contínua de processos e a solução de problemas, os indicadores I, II, III e IV são referenciados, respectivamente, como:",
+        "alternativas": [
+            "Do, Plan, Act e Check.",
+            "Plan, Act, Check e Do.",
+            "Act, Check, Do e Plan.",
+            "Check, Do, Plan e Act."
+        ],
+        "gabarito": "Do, Plan, Act e Check."
+    },
+    {
+        "id": 122,
+        "enunciado": "Na abordagem de processo para a gestão da segurança da informação apresentada na NBR ISO/IEC n.º 27001:2006, é enfatizada a seus usuários a importância de",
+        "alternativas": [
+            "identificar e tratar todos os riscos dos projetos da organização.",
+            "implementar a melhoria contínua baseada não somente em resultados financeiros, mas também em medições subjetivas.",
+            "realizar a modelagem de dados de todos os processos em cuja organização seja utilizada tecnologia da informação.",
+            "implementar e operar controles para gerenciar os riscos de segurança da informação no contexto dos riscos de negócio globais da organização.",
+            "desenvolver princípios éticos e respeitar a opinião dos colaboradores da organização quando o assunto for segurança da informação."
+        ],
+        "gabarito": "implementar e operar controles para gerenciar os riscos de segurança da informação no contexto dos riscos de negócio globais da organização."
+    },
+    {
+        "id": 123,
+        "enunciado": "Conforme a NBR ISO/IEC 27001, as organizações devem realizar avaliações de risco de segurança da informação",
+        "alternativas": [
+            "em intervalos planejados ou quando mudanças significativas são propostas para ocorrer.",
+            "mensalmente.",
+            "semestralmente.",
+            "anualmente."
+        ],
+        "gabarito": "em intervalos planejados ou quando mudanças significativas são propostas para ocorrer."
+    },
+    {
+        "id": 124,
+        "enunciado": "A família de normas ISO 27000 contém as definições e diretrizes para a Segurança da Informação em uma organização.\nRelacione as colunas, indicando para cada item da coluna A a descrição correspondente na coluna B. Cada item da coluna A pode aparecer uma ou várias vezes, ou não parecer.\nCOLUNA A\n1 - Conformidade\n2 - Continuidade de negócios\n3 - Gestão de riscos\n4 - Recuperação de desastres\n5 - Confiabilidade 6 - Controle COLUNA B\n( ) Prevenção contra interrupções das atividades, proteção dos processos críticos e garantia de uma rápida recuperação após um desastre.\n( ) Consistência dos comportamentos e resultados desejados.\n( ) Cumprimento da legislação e dos regulamentos internos e/ou externos.\n( ) Meios de gerenciar o risco, incluindo políticas, procedimentos, diretrizes e práticas ou estruturas organizacionais.\nA sequência correta da associação é",
+        "alternativas": [
+            "2, 5, 1, 6.",
+            "4, 6, 5, 3.",
+            "2, 1, 6, 3.",
+            "4, 6, 1, 3.",
+            "4, 1, 5, 6."
+        ],
+        "gabarito": "2, 5, 1, 6."
+    },
+    {
+        "id": 125,
+        "enunciado": "Analise as afirmativas abaixo com relação à norma de segurança ISO 27001.\n1. Uma organização pode certificar-se na ISO 27001, mas não na ISO 27002.\n2. A última atualização da norma altera as cláusulas de 4 a 10 com revisões gerais sobre escopo, gestão de riscos, monitoramento e medição, auditoria interna e outros.\n3. Os objetivos de controle da norma estão dispostos no Anexo A.\nAssinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "É correta apenas a afirmativa 3.",
+            "São corretas apenas as afirmativas 1 e 2.",
+            "São corretas apenas as afirmativas 1 e 3.",
+            "São corretas apenas as afirmativas 2 e 3.",
+            "São corretas as afirmativas 1, 2 e 3."
+        ],
+        "gabarito": "São corretas apenas as afirmativas 1 e 3."
+    },
+    {
+        "id": 126,
+        "enunciado": "Disponha as cláusulas ou seções da norma ISO 27001 listadas a seguir por ordem crescente, conforme dispostas pela norma.\n1. Planejamento\n2. Escopo\n3. Liderança\n4. Contexto da Organização\n5. Referência Normativa Assinale a alternativa que apresenta a ordem correta.",
+        "alternativas": [
+            "2 • 4 • 1 • 3 • 5.",
+            "2 • 5 • 4 • 3 • 1.",
+            "4 • 2 • 1 • 3 • 5.",
+            "4 • 2 • 5 • 1 • 3.",
+            "5 • 4 • 2 • 3 • 1."
+        ],
+        "gabarito": "2 • 5 • 4 • 3 • 1."
+    },
+    {
+        "id": 127,
+        "enunciado": "São categorias ou seções de controles ou objetivos de controle contidos no anexo A da norma ISO 27001:\n1. Gestão de ativos\n2. Políticas de segurança da informação\n3. Aquisição, desenvolvimento e manutenção de sistemas\n4. Funções e responsabilidades\n5. Criptografia Assinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "São corretas apenas as afirmativas 1 e 2.",
+            "São corretas apenas as afirmativas 1, 2 e 3.",
+            "São corretas apenas as afirmativas 1, 3 e 5.",
+            "São corretas apenas as afirmativas 1, 2, 3 e 4.",
+            "São corretas apenas as afirmativas 1, 2, 3 e 5."
+        ],
+        "gabarito": "São corretas apenas as afirmativas 1, 2, 3 e 5."
+    },
+    {
+        "id": 128,
+        "enunciado": "Qual categoria ou seção de controles ou objetivos de controle do anexo A da norma ISO 27001 implementa controles para reportar eventos e possíveis pontos de falha (fraquezas), incluindo sua respectiva comunicação, definição de responsabilidades, procedimentos de resposta e coleta de evidências?",
+        "alternativas": [
+            "Segurança das operações.",
+            "Segurança das comunicações.",
+            "Organização da segurança da informação.",
+            "Gestão de incidentes de segurança da informação.",
+            "Aspectos da segurança da informação na gestão da continuidade do negócio."
+        ],
+        "gabarito": "Gestão de incidentes de segurança da informação."
+    },
+    {
+        "id": 129,
+        "enunciado": "Assinale a alternativa correta com relação à ABNT NBR ISO/IEC 27001.",
+        "alternativas": [
+            "Promove a adoção de uma abordagem baseada em funções para estabelecer e implementar, operar, melhorar, analisar criticamente, manter e melhorar o Sistema de Gestão de Segurança da Informação (SGSI) de uma organização.",
+            "Esta norma adota o modelo conhecido como “Plan-Do-Security-Act” (PDSA), que é aplicado na estruturação dos processos fundamentais do SGSI.",
+            "Esta norma adota o modelo conhecido como “Define-Measure-Act-Improve-Control” (DMAIC), que é aplicado na estruturação dos processos fundamentais do SGSI.",
+            "Os requisitos definidos nesta norma são específicos e é pretendido que sejam aplicáveis em organizações de grande porte, dependendo do tipo e área de atuação.",
+            "Esta norma foi preparada para prover um modelo para estabelecer, implementar, operar, monitorar, analisar criticamente, manter e melhorar um Sistema de Gestão de Segurança da Informação (SGSI)."
+        ],
+        "gabarito": "Esta norma foi preparada para prover um modelo para estabelecer, implementar, operar, monitorar, analisar criticamente, manter e melhorar um Sistema de Gestão de Segurança da Informação (SGSI)."
+    },
+    {
+        "id": 130,
+        "enunciado": "Qual cláusula ou seção da norma ISO 27001 define os requisitos para medições, monitoramento e auditoria interna, dentre outros?",
+        "alternativas": [
+            "Melhoria.",
+            "Avaliação de desempenho.",
+            "Monitoramento e avaliação.",
+            "Monitoramento e auditoria.",
+            "Planejamento."
+        ],
+        "gabarito": "Avaliação de desempenho."
+    },
+    {
+        "id": 131,
+        "enunciado": "Assinale a alternativa que apresenta corretamente a referência adequada da norma ISO 27001.",
+        "alternativas": [
+            "Modelo que define a implementação da Engenharia de Software desde da sua concepção.",
+            "Norma para avaliação da maturidade do Sistema de Gestão de Serviços de TI.",
+            "Modelo que tem como foco a melhoria dos processos de desenvolvimento de software.",
+            "Padrão e a referência Internacional para a gestão da Segurança da informação."
+        ],
+        "gabarito": "Padrão e a referência Internacional para a gestão da Segurança da informação."
+    },
+    {
+        "id": 132,
+        "enunciado": "O modelo Planejar-Executar-Checar-Agir (Plan-Do-Check-Act – PDCA), também chamado de ciclo de qualidade de Deming, forma a base para determinar, implementar, monitorar, controlar e manter o sistema de gerenciamento da segurança da informação (Information Security Management System – ISMS).\nAssocie corretamente as etapas e as descrições do ciclo PDCA.\nETAPAS\n1 - Planejar\n2 - Executar\n3 - Checar\n4 - Agir DESCRIÇÕES\n( ) mais suscetível à realização de auditoria interna.\n( ) quando são tomadas medidas preventivas e o ISMS é atualizado.\n( ) quando é desenvolvida e documentada a política de segurança da informação.\n( ) quando a política de segurança da informação e os procedimentos e medidas subjacentes são implementados. As responsabilidades são alocadas a cada sistema e/ou processo de informação.\nA sequência correta dessa associação é",
+        "alternativas": [
+            "3, 4, 2, 1.",
+            "3, 4, 1, 2.",
+            "4, 3, 1, 2.",
+            "3, 1, 4, 2.",
+            "4, 3, 2, 1."
+        ],
+        "gabarito": "3, 4, 1, 2."
+    },
+    {
+        "id": 133,
+        "enunciado": "Analise as afirmativas abaixo com relação ao Sistema de Gestão da Segurança da Informação (SGSI).\n1. O objetivo do contínuo aperfeiçoamento de um SGSI é aumentar a probabilidade de alcançar os objetivos da organização com relação à preservação da confidencialidade, disponibilidade e integridade da informação.\n2. O tratamento de um risco não deve criar novos riscos.\n3. Um SGSI se aplica somente para empresas de grande porte devido à grande quantidade de controles demandados.\nAssinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "É correta apenas a afirmativa 1.",
+            "É correta apenas a afirmativa 2.",
+            "São corretas apenas as afirmativas 1 e 2.",
+            "São corretas apenas as afirmativas 1 e 3.",
+            "São corretas apenas as afirmativas 2 e 3."
+        ],
+        "gabarito": "É correta apenas a afirmativa 1."
+    },
+    {
+        "id": 134,
+        "enunciado": "Gabriel trabalha como implementador de software e recebe a demanda de verificar na norma ISO relativa à Gestão de Segurança da Informação, as principais recomendações para codificação segura. Selecione a ISO que Gabriel deve estudar.",
+        "alternativas": [
+            "27001.",
+            "27002.",
+            "27005.",
+            "31000.",
+            "31010."
+        ],
+        "gabarito": "27001."
+    },
+    {
+        "id": 135,
+        "enunciado": "Para implementar um SGSI - Sistema de Gestão de Segurança da Informação, com base na norma NBR ISO 27001, aplica-se aos processos do SGSI o modelo:\n\"______ estabelecer o SGSI - ______ implementar e operar o SGSI - ______ monitorar e analisar criticamente o SGSI - ______ manter e melhorar o SGSI\".\nAssinale a alternativa que preencha correta e respectivamente as lacunas.",
+        "alternativas": [
+            "Do (fazer) / Check (checar) / Act (agir) / Plan (planejar).",
+            "Plan (planejar) / Do (fazer) / Check (checar) / Act (agir).",
+            "Check (checar) / Do (fazer) / Plan (planejar) / Act (agir).",
+            "Plan (planejar) / Check (checar) / Act (agir) / Do (fazer).",
+            "Act (agir) / Do (fazer) / Check (checar) / Plan (planejar)."
+        ],
+        "gabarito": "Plan (planejar) / Do (fazer) / Check (checar) / Act (agir)."
+    },
+    {
+        "id": 136,
+        "enunciado": "São temas válidos, que constam no Anexo A da norma ISO 27001.\n1. Segurança de Recursos Humanos\n2. Segurança Perimetral e Contra Terceiros\n3. Segurança de Operações\n4. Gestão de Incidentes de Segurança da Informação\n5. Gestão de Problemas de Segurança da Informação Assinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "São corretas apenas as afirmativas 1, 3 e 4.",
+            "São corretas apenas as afirmativas 2, 3 e 4.",
+            "São corretas apenas as afirmativas 1, 2, 3 e 4.",
+            "São corretas apenas as afirmativas 1, 3, 4 e 5.",
+            "São corretas as afirmativas 1, 2, 3, 4 e 5."
+        ],
+        "gabarito": "São corretas apenas as afirmativas 1, 3 e 4."
+    },
+    {
+        "id": 137,
+        "enunciado": "Quantos controles o Anexo A da norma ISO 27001 contém?",
+        "alternativas": [
+            "14.",
+            "26.",
+            "34.",
+            "114.",
+            "118."
+        ],
+        "gabarito": "114."
+    },
+    {
+        "id": 138,
+        "enunciado": "Com relação à gerência de riscos, às disposições das NBR ISO/IEC 27001 e NBR ISO/IEC 27002 e às políticas de senhas, julgue o item a seguir.\nA contratação de seguros contra sinistros digitais é uma medida de transferência de riscos relacionados a possíveis impactos potencialmente causados por vulnerabilidades e ameaças à segurança da informação organizacional.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 139,
+        "enunciado": "Com relação à gerência de riscos, às disposições das NBR ISO/IEC 27001 e NBR ISO/IEC 27002 e às políticas de senhas, julgue o item a seguir.\nSegundo a NBR ISO/IEC 27001, as informações documentadas como evidências dos programas de auditoria interna devem ser destruídas após a finalização dos programas, desde que os resultados tenham sido aceitos pelas partes de interesse e homologados pelo conselho gestor da organização.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 140,
+        "enunciado": "A ABNT NBR ISO/IEC 27001 prevê um tipo de controle denominado controle de acesso, que engloba os objetivos de controle. Nesse contexto, o sistema de gerenciamento de senha está associado ao objetivo de controle denominado",
+        "alternativas": [
+            "responsabilidades dos usuários.",
+            "requisitos do negócio para controle de acesso.",
+            "gerenciamento de acesso do usuário.",
+            "controle de acesso ao sistema e à aplicação."
+        ],
+        "gabarito": "controle de acesso ao sistema e à aplicação."
+    },
+    {
+        "id": 141,
+        "enunciado": "Considerando as normas que regulam a segurança da informação e o sistema de gestão de segurança da informação (SGSI), julgue o próximo item.\nAo estabelecer o SGSI, a organização deve selecionar e implementar objetivos de controle para atender aos requisitos identificados durante as etapas de análise e avaliação de riscos e de processo de tratamento de riscos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    }
+]

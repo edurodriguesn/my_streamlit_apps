@@ -192,6 +192,7 @@ if arquivo_para_processar:
             st.session_state.respostas = {}
             st.session_state.respondidas = {}
             st.session_state.mostrar_gabarito = {}
+            st.session_state.eliminadas = {}
             st.session_state.finalizado = False
             st.rerun()
         except Exception as e:
@@ -251,6 +252,7 @@ if st.session_state.finalizado:
         st.session_state.respostas = {}
         st.session_state.respondidas = {}
         st.session_state.mostrar_gabarito = {}
+        st.session_state.eliminadas = {}
         st.session_state.finalizado = False
         st.rerun()
     st.stop()
@@ -308,8 +310,28 @@ mostrar_gab = st.session_state.mostrar_gabarito.get(qid, False)
 escolha = st.session_state.respostas.get(qid)
 
 if not ja_respondida and not mostrar_gab:
-    opcoes = [f"{letras[i]}) {escape_markdown(alt)}" for i, alt in enumerate(q["alternativas"])]
-    selecao = st.radio("Alternativas:", opcoes, index=None, key=f"radio_{qid}")
+    if "eliminadas" not in st.session_state:
+        st.session_state.eliminadas = {}
+    elim = st.session_state.eliminadas.get(qid, set())
+
+    opcoes_filtradas = [f"{letras[i]}) {escape_markdown(alt)}" for i, alt in enumerate(q["alternativas"]) if letras[i] not in elim]
+    if not opcoes_filtradas:
+        st.warning("Todas as alternativas foram eliminadas. Clique em 👁️ Restaurar para recuperá-las.")
+        selecao = None
+    else:
+        selecao = st.radio("Alternativas:", opcoes_filtradas, index=None, key=f"radio_{qid}")
+
+    # Botões de eliminação
+    letras_disponiveis = [letras[i] for i in range(len(q["alternativas"])) if letras[i] not in elim]
+    btn_cols = st.columns(len(letras_disponiveis) + (1 if elim else 0))
+    for col, letra in zip(btn_cols, letras_disponiveis):
+        if col.button(f"❌ {letra}", key=f"elim_{qid}_{letra}"):
+            st.session_state.eliminadas.setdefault(qid, set()).add(letra)
+            st.rerun()
+    if elim:
+        if btn_cols[-1].button("👁️ Restaurar", key=f"restaurar_{qid}"):
+            st.session_state.eliminadas[qid] = set()
+            st.rerun()
 
     col_resp, col_gab = st.columns(2)
     with col_resp:

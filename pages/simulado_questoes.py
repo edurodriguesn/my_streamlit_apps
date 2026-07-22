@@ -316,22 +316,20 @@ if not ja_respondida and not mostrar_gab:
 
     opcoes_filtradas = [f"{letras[i]}) {escape_markdown(alt)}" for i, alt in enumerate(q["alternativas"]) if letras[i] not in elim]
     if not opcoes_filtradas:
-        st.warning("Todas as alternativas foram eliminadas. Clique em 👁️ Restaurar para recuperá-las.")
+        st.warning("Todas as alternativas foram eliminadas.")
         selecao = None
     else:
-        selecao = st.radio("Alternativas:", opcoes_filtradas, index=None, key=f"radio_{qid}")
+        selecao = st.radio("Alternativas:", opcoes_filtradas, index=None, key=f"radio_{qid}", label_visibility="collapsed")
 
-    # Botões de eliminação
-    letras_disponiveis = [letras[i] for i in range(len(q["alternativas"])) if letras[i] not in elim]
-    btn_cols = st.columns(len(letras_disponiveis) + (1 if elim else 0))
-    for col, letra in zip(btn_cols, letras_disponiveis):
-        if col.button(f"❌ {letra}", key=f"elim_{qid}_{letra}"):
-            st.session_state.eliminadas.setdefault(qid, set()).add(letra)
-            st.rerun()
-    if elim:
-        if btn_cols[-1].button("👁️ Restaurar", key=f"restaurar_{qid}"):
-            st.session_state.eliminadas[qid] = set()
-            st.rerun()
+    # Pills de eliminação: letras disponíveis + restaurar se houver eliminadas
+    opcoes_pills = [f"❌ {letras[i]}" for i in range(len(q["alternativas"])) if letras[i] not in elim] + (["↩ Restaurar"] if elim else [])
+    eliminada_pill = st.pills("Eliminar letra:", opcoes_pills, key=f"pills_{qid}", label_visibility="collapsed")
+    if eliminada_pill and eliminada_pill != "↩ Restaurar" and eliminada_pill[-1] not in elim:
+        st.session_state.eliminadas.setdefault(qid, set()).add(eliminada_pill[-1])
+        st.rerun()
+    elif eliminada_pill == "↩ Restaurar":
+        st.session_state.eliminadas[qid] = set()
+        st.rerun()
 
     col_resp, col_gab = st.columns(2)
     with col_resp:

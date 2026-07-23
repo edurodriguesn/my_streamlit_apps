@@ -32,6 +32,7 @@ def aplicar_estilos():
     margin: 4px 0; 
     font-size: 1.1rem; 
 }
+.correta p, .errada p, .gabarito p { margin: 0; }
 .stRadio label { font-size: 3rem !important; }
 [data-testid="stMarkdownContainer"] p { text-align: justify; }
 </style>

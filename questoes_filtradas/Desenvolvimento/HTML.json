@@ -1,0 +1,2259 @@
+[
+    {
+        "id": 1,
+        "enunciado": "Assinale a alternativa que corresponde a uma tag da linguagem HTML que é utilizada para inserir códigos de programação em linguagem JavaScript.",
+        "alternativas": [
+            "<js>.",
+            "<htmlscript>.",
+            "<src>.",
+            "<code>.",
+            "<script>."
+        ],
+        "gabarito": "<script>."
+    },
+    {
+        "id": 2,
+        "enunciado": "Há certa instrução que indica para o navegador e para outros programas que podem ler o site que o código ali encontrado é um código HTML. Assinale a opção que corresponde a essa instrução.",
+        "alternativas": [
+            "<!SOURCE html>.",
+            "<!MAIN html>.",
+            "<!FILETAG html>.",
+            "<!DOCTYPE html>.",
+            "<!TAG html>."
+        ],
+        "gabarito": "<!DOCTYPE html>."
+    },
+    {
+        "id": 3,
+        "enunciado": "Elaborou-se o seguinte programa na linguagem HTML, no qual algumas partes foram omitidas e substituídas por (1) e (2):\n<!DOCTYPE html> <html> <body> <p>selecione a opção:</p> <(1) (2)=\"alert('Opção de Compra')\">Compra</(1) > <(1) (2)=\"alert('Opção de Venda')\">Venda</(1) > </body> </html> Ao ser executado por um navegador típico será exibido:\nAo se clicar uma vez no botão Compra, é exibido:\nDessa forma, (1) e (2) são, respectivamente:",
+        "alternativas": [
+            "button e onclick.",
+            "button e click.",
+            "button e ondblclick.",
+            "submit e onclick.",
+            "submit e ondblclick."
+        ],
+        "gabarito": "button e onclick."
+    },
+    {
+        "id": 4,
+        "enunciado": "Durante o desenvolvimento de uma aplicação de streaming em HTML5, a equipe de front-end precisa escolher a melhor forma de fornecer legendas acessíveis e sincronizadas para vídeos hospedados na aplicação.\nDeve ser utilizado, de forma adequada, para atender a esse requisito de acessibilidade, o",
+        "alternativas": [
+            "elemento <source> dentro de <video> com um atributo adicional captions=\"true\" para ativar legendas externas.",
+            "atributo aria-label ao <video> para que os leitores de tela interpretem esse atributo como legendas sincronizadas.",
+            "elemento <track> dentro de <video>, definindo o atributo kind=\"subtitles\" para fornecer legendas sincronizadas.",
+            "atributo alt no elemento <video>, atribuindo nele o texto das legendas que aparecerão em tempo real.",
+            "elemento <caption dentro de <video>, garantindo que o navegador renderize o texto da legenda sincronizado."
+        ],
+        "gabarito": "elemento <track> dentro de <video>, definindo o atributo kind=\"subtitles\" para fornecer legendas sincronizadas."
+    },
+    {
+        "id": 5,
+        "enunciado": "Um desenvolvedor está criando um formulário de cadastro e precisa adicionar um campo para que o usuário insira sua senha. Por segurança, o texto digitado no campo Senha não deve ser visível na tela. Além disso, o campo deve ter um texto de exemplo que desaparece quando o usuário começa a digitar.\nQual trecho de código HTML atinge corretamente esses dois requisitos?",
+        "alternativas": [
+            "<input type=”password” alt=” Digite sua senha”>.",
+            "<input type=”password” placeholder=”Digite sua senha”>.",
+            "<input type=”text” placeholder=”Digite sua senha”>.",
+            "<textarea name=”senha” alt=” Digite sua senha”></textarea>."
+        ],
+        "gabarito": "<input type=”password” placeholder=”Digite sua senha”>."
+    },
+    {
+        "id": 6,
+        "enunciado": "Um sistema web de transporte rodoviário exibe, em um painel HTML5, vídeos curtos com instruções de segurança. O usuário deve ver controles de reprodução\n(play/pause, volume), o vídeo não deve iniciar automaticamente ao carregar a página e o carregamento deve ser eficiente, deixando o navegador decidir quanto pré- carregar.\nConsiderando navegadores modernos, a marcação de <video> que atende melhor a esses requisitos é:",
+        "alternativas": [
+            "<video muted preload=\"auto\"> <source src=\"seguranca.mp4\" type=\"video/mp4\"> Seu navegador não suporta o elemento de vídeo. </video>.",
+            "<video controls preload=\"metadata\"> <source src=\"seguranca.mp4\" type=\"video/mp4\"> Seu navegador não suporta o elemento de vídeo. </video>.",
+            "<video autoplay loop muted> <source src=\"seguranca.mp4\" type=\"video/mp4\"> Seu navegador não suporta o elemento de vídeo. </video>.",
+            "<video controls autoplay preload=\"auto\"> <source src=\"seguranca.mp4\" type=\"video/mp4\"> Seu navegador não suporta o elemento de vídeo. </video>.",
+            "<video loop preload=\"none\"> <source src=\"seguranca.mp4\" type=\"video/mp4\"> Seu navegador não suporta o elemento de vídeo. </video>."
+        ],
+        "gabarito": "<video controls preload=\"metadata\"> <source src=\"seguranca.mp4\" type=\"video/mp4\"> Seu navegador não suporta o elemento de vídeo. </video>."
+    },
+    {
+        "id": 7,
+        "enunciado": "Assinale a opção que corresponde ao elemento HTML que é usado para definir uma lista ordenada.",
+        "alternativas": [
+            "<ol>.",
+            "<ul>.",
+            "<dl>.",
+            "<li>.",
+            "<div>."
+        ],
+        "gabarito": "<ol>."
+    },
+    {
+        "id": 8,
+        "enunciado": "Assinale a opção que corresponde à tag HTML5 que é especificamente usada para representar uma seção de navegação em um documento.",
+        "alternativas": [
+            "<navigation>.",
+            "<menu>.",
+            "<dir>.",
+            "<link>.",
+            "<nav>."
+        ],
+        "gabarito": "<nav>."
+    },
+    {
+        "id": 9,
+        "enunciado": "No HTML5, alguns elementos de versões anteriores foram descontinuados (deprecated) ou tornaram-se obsoletos (obsolete), ou seja, não são mais recomendados para uso e podem não ser reconhecidos pelos navegadores modernos. Assinale a alternativa que apresenta apenas elementos que foram descontinuados ou tornaram-se obsoletos no HTML5.",
+        "alternativas": [
+            "<small> e <big>.",
+            "<strong> e <acronym>.",
+            "<i> e <b>.",
+            "<blink> e <font>.",
+            "<applet> e <p>."
+        ],
+        "gabarito": "<blink> e <font>."
+    },
+    {
+        "id": 10,
+        "enunciado": "<!DOCTYPE html> <html> <body> <p>A data do evento foi alterada:\n<del>10/10/2025</del> <strong>20/10/2025.</strong> </body> </html> Quando esse código for aberto em um navegador moderno, como Chrome ou Edge, exibindo corretamente as formatações das tags HTML, qual das alternativas a seguir representa a aparência correta?",
+        "alternativas": [
+            "A data do evento foi alterada: 20/10/2025 10/10/2025.",
+            "A data do evento foi alterada: 10/10/2025 20/10/2025.",
+            "A data do evento foi alterada: 20/10/2025.",
+            "A data do evento foi alterada: 20/10/2025.",
+            "A data do evento foi alterada: 20/10/2025 10/10/2025."
+        ],
+        "gabarito": "A data do evento foi alterada: 10/10/2025 20/10/2025."
+    },
+    {
+        "id": 11,
+        "enunciado": "HTML5 introduziu uma série de novos recursos, elementos e atributos que ajudam os desenvolvedores na construção de sites mais modernos.\nConsiderando essa nova versão da linguagem HTML, analise as afirmativas a seguir sobre os recursos que ela introduziu.\nI. ServerSockets – trata-se de uma tecnologia de comunicação bidirecional de última geração para o estabelecimento de conexões seguras entre os aplicativos web e o servidor.\nII. Eventos enviados pelo servidor – permite que servidores enviem dados para páginas da web mediante o protocolo HTTP, em que apenas os eventos críticos fluem do servidor web para os navegadores.\nIII. Microdados − possibilita que os desenvolvedores criem seus próprios vocabulários além do HTML5 e estendam as páginas da web com semântica personalizada.\nIV. Geolocalização – viabiliza que visitantes possam optar por compartilhar sua localização física mediante seus aplicativos web.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I e II, apenas.",
+            "II e III, apenas.",
+            "III e IV, apenas.",
+            "I, II e IV, apenas.",
+            "I, II e III, apenas."
+        ],
+        "gabarito": "III e IV, apenas."
+    },
+    {
+        "id": 12,
+        "enunciado": "Sobre a linguagem HTML 5, foram feitas as seguintes afirmações:\nI. Passou a ser considerada uma linguagem de programação, pois já possui controle de fluxo e envergadura para repetição.\nII. A partir do HTML 5, a semântica passou a ter uma forte atuação na estruturação da página Web, otimizando os resultados de motores de buscas.\nIII. É uma linguagem que sua estrutura é baseada em uma árvore, ou seja, há tags pais e tags filhos para estruturar melhor a página web.\nSobre as afirmações acima, pode-se afirmar que:",
+        "alternativas": [
+            "Apenas as afirmações I e II estão corretas.",
+            "Apenas a afirmação I está correta.",
+            "Apenas as afirmações I e III estão corretas.",
+            "Apenas as afirmações II e III estão corretas."
+        ],
+        "gabarito": "Apenas as afirmações II e III estão corretas."
+    },
+    {
+        "id": 13,
+        "enunciado": "Uma equipe de desenvolvedores está criando um site institucional para a PARANAPREVIDÊNCIA onde o layout das páginas precisa ser bem estruturado, com destaque para a clareza nas informações de rodapé, como direitos autorais, links de navegação e contatos, e o desenvolvedor responsável pelo design da página decide utilizar um novo elemento do HTML 5 (Hypertext Markup Language, version para estruturar a área de rodapé do site. Esse elemento será responsável por agrupar todas as informações relevantes, como os direitos autorais e links úteis, garantindo que o conteúdo principal da página não seja sobrecarregado, mas que essas informações permaneçam acessíveis ao usuário.\nCom base no caso apresentado, assinale a alternativa que apresenta o elemento do HTML 5 utilizado pelo desenvolvedor para estruturar a área de rodapé do site institucional.",
+        "alternativas": [
+            "<input>.",
+            "<track>.",
+            "<aside>.",
+            "<main>.",
+            "<footer>."
+        ],
+        "gabarito": "<footer>."
+    },
+    {
+        "id": 14,
+        "enunciado": "Assinale a opção em que é apresentada a tag que, em HTML5, representa um conteúdo independente de um documento.",
+        "alternativas": [
+            "<nav>.",
+            "<dialog>.",
+            "<article>.",
+            "<aside>.",
+            "<section>."
+        ],
+        "gabarito": "<article>."
+    },
+    {
+        "id": 15,
+        "enunciado": "O desenvolvimento de sistemas é uma das principais atividades da área de Tecnologia da Informação e Comunicação (TIC) nas organizações. As metodologias de desenvolvimento compõem o conjunto de conhecimentos essenciais para analistas e programadores. Com base nessas informações, julgue o item a seguir.\nHTML é uma linguagem de programação que permite executar lógicas condicionais no navegador.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 16,
+        "enunciado": "Acerca do HTML5, do jQuery e do ASP.NET, julgue o item seguinte.\nEm HTML5, o comando <input type=”email” name=”email” required> é utilizado para criar um campo de entrada de e‑mail que obrigue o preenchimento antes do envio do formulário.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 17,
+        "enunciado": "Acerca do HTML5, do jQuery e do ASP.NET, julgue o item seguinte.\nPara criar um formulário em HTML5 no qual o campo “Usuário” deve aceitar apenas letras (maiúsculas ou minúsculas), com no mínimo 3 e no máximo 10 caracteres, oferecendo sugestões de nomes de usuário comuns enquanto o usuário digita, deve‑se utilizar o seguinte código:\n<input type=”text” regex=”[a‑zA‑Z]{3,10}” datalist=”sugestoes”> <select id=”sugestoes”> <option>admin</option> <option>usuario</option> <option>guest</option> </select>",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 18,
+        "enunciado": "Você foi designado para trabalhar no desenvolvimento de uma página web para o IFMS, com o objetivo de exibir uma tabela contendo informações sobre os cursos oferecidos pela instituição. Ao organizar a tabela, você percebe que precisa incluir um rodapé para resumir as informações, como o total de cursos e outras estatísticas.\nComo parte do seu trabalho como desenvolvedor Web, você deve utilizar o elemento adequado do HTML5 (HyperText Markup Language version para definir o rodapé dessa tabela. Esse elemento é",
+        "alternativas": [
+            "<th>.",
+            "<tr>.",
+            "<tbody>.",
+            "<tfoot>.",
+            "<thead>."
+        ],
+        "gabarito": "<tfoot>."
+    },
+    {
+        "id": 19,
+        "enunciado": "Uma equipe de tecnologia de uma organização pública estadual está desenvolvendo um portal interativo com fins educativos. Eles decidiram incluir uma funcionalidade em que os usuários possam desenhar formas geométricas simples, como círculos e quadrados, diretamente no navegador. Para isso, foi sugerido o uso do elemento <canvas> da HTML5. Com base nessas informações, é correto afirmar que:",
+        "alternativas": [
+            "o <canvas> só pode ser usado para animações complexas, como jogos, e não é adequado para desenhos simples como formas geométricas básicas.",
+            "o método getContext(\"2d\") é essencial para desenhar no <canvas>, pois ele fornece uma API que permite manipular gráficos bidimensionais.",
+            "o elemento <canvas> pode ser usado sem JavaScript, pois ele possui métodos nativos na HTML5 para desenhar formas como retângulos e círculos diretamente no código HTML.",
+            "o elemento <canvas> substitui completamente o uso de imagens SVG, pois oferece maior controle sobre os gráficos rasterizados diretamente no navegador.",
+            "para o <canvas> funcionar corretamente, é necessário definir os atributos width e height no CSS, já que o elemento não aceita essas propriedades diretamente no HTML."
+        ],
+        "gabarito": "o método getContext(\"2d\") é essencial para desenhar no <canvas>, pois ele fornece uma API que permite manipular gráficos bidimensionais."
+    },
+    {
+        "id": 20,
+        "enunciado": "Uma equipe de auditores desenvolve uma página web para exibir dados de arrecadação de ICMS, com um cabeçalho, uma introdução, um relatório de dados e um rodapé com informações legais. O conteúdo principal inclui um relatório, com uma tabela de dados, que deve ser destacado semanticamente para melhorar a acessibilidade e a indexação por motores de busca. O elemento semântico HTML5 apropriado para envolver o relatório de dados e seu título associado é",
+        "alternativas": [
+            "<rel>.",
+            "<table>.",
+            "<header>.",
+            "<div>.",
+            "<article>."
+        ],
+        "gabarito": "<article>."
+    },
+    {
+        "id": 21,
+        "enunciado": "Na linguagem HTML, ao se incluir <input type= password > em uma página, o navegador",
+        "alternativas": [
+            "verifica o password no banco de dados e senhas.",
+            "criptografa o password digitado.",
+            "exibe o password digitado para que o usuário possa conferi-lo antes de enviá-lo.",
+            "oculta a entrada de texto, substituindo cada caractere por um símbolo (por exemplo, asterisco ( * ) ou um ponto ( • )).",
+            "impõe que o password tenha exatamente quatro caracteres."
+        ],
+        "gabarito": "oculta a entrada de texto, substituindo cada caractere por um símbolo (por exemplo, asterisco ( * ) ou um ponto ( • ))."
+    },
+    {
+        "id": 22,
+        "enunciado": "Em HTML (HyperText Markup Language), existe um elemento específico utilizado para representar uma medida dentro de uma escala conhecida, como o nível de bateria, a força de uma senha ou o uso de espaço em disco. Esse elemento permite indicar visualmente um valor dentro de um intervalo definido (mínimo e máximo).\nO elemento utilizado para esse fim é",
+        "alternativas": [
+            "<aside>.",
+            "<main>.",
+            "<mark>.",
+            "<section>.",
+            "<meter>."
+        ],
+        "gabarito": "<meter>."
+    },
+    {
+        "id": 23,
+        "enunciado": "Considere as seguintes afirmativas sobre HTML5:\nI. No HTML5 há três tags para a criação de listas, uma das quais é a tag <ol>, que é utilizada para criar listas ordenadas.\nII. A declaração <!DOCTYPE html5> é a forma utilizada para indicar que um documento é HTML5.\nIII. A tag <iframe> foi removida no HTML5 para dar lugar a tecnologias alternativas.\nIV. Uma das principais novidades introduzidas pelo HTML5 foram as tags semânticas, que incluem <nav>, <article>, <section>, entre outras.\nEstão corretas",
+        "alternativas": [
+            "apenas as afirmativas I e IV.",
+            "apenas as afirmativas II e IV.",
+            "apenas as afirmativas II, III e IV.",
+            "apenas as afirmativas I e III.",
+            "apenas as afirmativas II e III."
+        ],
+        "gabarito": "apenas as afirmativas I e IV."
+    },
+    {
+        "id": 24,
+        "enunciado": "No HTML5, foi padronizada a declaração para informar ao navegador qual é a versão do documento HTML. Essa declaração informa ao navegador que o documento deve ser renderizado no modo padrão, seguindo as especificações da linguagem. Assinale a alternativa que apresenta a sintaxe correta dessa declaração, considerando que a sintaxe é case insensitive.",
+        "alternativas": [
+            "<DOCTYPE html>.",
+            "<DOCTYPE html5>.",
+            "<DOCTYPE html5x>.",
+            "<!DOCTYPE html>.",
+            "<!DOCTYPE html5>."
+        ],
+        "gabarito": "<!DOCTYPE html>."
+    },
+    {
+        "id": 25,
+        "enunciado": "No HTML5, é possível organizar um documento separando seu conteúdo em partes lógicas. Entre as partes lógicas existentes em um documento, qual representa a seção que aponta/cria links para outras páginas ou áreas da própria página?",
+        "alternativas": [
+            "<address>.",
+            "<article>.",
+            "<aside>.",
+            "<nav>.",
+            "<section>."
+        ],
+        "gabarito": "<nav>."
+    },
+    {
+        "id": 26,
+        "enunciado": "O HTML5 oferece diversos tipos de entrada para campos de formulário. Qual alternativa apresenta tipos de entrada disponíveis no HTML5 para a instrução <input type>?",
+        "alternativas": [
+            "Month, number e select.",
+            "Color, image e range.",
+            "E-mail, time e url.",
+            "E-mail, phone e search.",
+            "Week, reset e datetime."
+        ],
+        "gabarito": "Color, image e range."
+    },
+    {
+        "id": 27,
+        "enunciado": "Em relação a HTML5 e CSS3, XML, JSON, integração de dados e PWA (Progressive Web Apps), julgue o item seguinte.\nNo HTML5, o elemento <section> é apropriado para agrupar conteúdos relacionados e pode conter cabeçalhos, listas, parágrafos e outros elementos semânticos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 28,
+        "enunciado": "Durante a avaliação de acessibilidade de um portal institucional desenvolvido em HTML5, o analista de sistemas constata que o site possui múltiplas seções de navegação, todas marcadas com a tag <nav>, porém sem qualquer rótulo que as diferencie. Considerando as diretrizes WAI-ARIA (Accessible Rich Internet Applications) e o padrão de landmarks semânticos, qual medida deve ser adotada para garantir a acessibilidade adequada aos usuários de leitores de tela?",
+        "alternativas": [
+            "Adicionar o atributo role=\"navigation\" a cada <nav> existente, sem necessidade de rótulo adicional.",
+            "Substituir os elementos <nav> por <section> com títulos visuais.",
+            "Acrescentar o atributo aria-label ou aria-labelledby em cada <nav> para distinguir semanticamente as regiões de navegação.",
+            "Utilizar um único <nav> global e remover todos os outros para evitar redundância.",
+            "Atribuir IDs únicos aos <nav> apenas para controle via JavaScript."
+        ],
+        "gabarito": "Acrescentar o atributo aria-label ou aria-labelledby em cada <nav> para distinguir semanticamente as regiões de navegação."
+    },
+    {
+        "id": 29,
+        "enunciado": "Um desenvolvedor está criando um formulário de inscrição em HTML que envia dados para o servidor via método POST. Durante os testes, percebeu que, mesmo preenchendo todos os campos, o backend não estava recebendo o valor do campo de e-mail. O campo no HTML é:\n<input type=\"email\" placeholder=\"Digite seu e-mail\"> A solução que corrigiria de forma mais adequada o problema, sem prejudicar a funcionalidade atual é",
+        "alternativas": [
+            "Adicionar name=\"email\" ao elemento <input>.",
+            "Alterar o atributo placeholder para label.",
+            "Trocar type=\"email\" para type=\"text\".",
+            "Adicionar id=\"email\" e vincular via JavaScript.",
+            "Usar <textarea> no lugar de <input>."
+        ],
+        "gabarito": "Adicionar name=\"email\" ao elemento <input>."
+    },
+    {
+        "id": 30,
+        "enunciado": "Um técnico está desenvolvendo uma página de perfil de usuários responsiva para um site, utilizando HTML5 para a estrutura e Bootstrap 5 para a responsividade.\nEle desenvolveu o trecho de código abaixo.\n<div class=\"container\"> <div class=\"row\"> <div class=\"col-md-8\">Informações do Usuário</div> <div class=\"col-md-4\">Foto do Usuário</div> </div> </div> Para que a “Foto do Usuário” apareça acima das informações, utilizando apenas classes do Bootstrap 5, o técnico precisa",
+        "alternativas": [
+            "trocar as classes de coluna para col-sm-12 e col-sm-12 respectivamente.",
+            "utilizar d-flex no contêiner principal e reordenar com flex-wrap-reverse.",
+            "adicionar a classe flex-column-reverse ao div com classe row.",
+            "adicionar a classe z-index-1 à div da foto do usuário e z-index-2 à div das informações.",
+            "adicionar a classe order-1 à div da foto do usuário e order-2 à div das informações."
+        ],
+        "gabarito": "adicionar a classe order-1 à div da foto do usuário e order-2 à div das informações."
+    },
+    {
+        "id": 31,
+        "enunciado": "Durante uma revisão técnica de páginas web desenvolvidas por estudantes, um professor de programação identificou o uso inadequado de elementos HTML em estruturas que exigiam semântica acessível, indexação eficiente e possibilidade de reutilização de conteúdo em diferentes contextos. Considerando as recomendações do HTML5 e as boas práticas de acessibilidade, estruturação semântica e organização lógica de documentos web, a construção que define corretamente uma seção de conteúdo independente, autocontida e com título próprio, semanticamente adequada para reuso e indexação, é:",
+        "alternativas": [
+            "a utilização da tag <main> repetida em cada bloco de conteúdo com significância contextual autônoma.",
+            "a utilização da tag <div> com atributo class=”section” como delimitador principal de conteúdo semântico.",
+            "a utilização da tag <article> com elementos internos de título, como <h2>, para representar conteúdo independente e reutilizável.",
+            "a utilização da tag <span> como recipiente semântico de blocos textuais com identificação temática e lógica estrutural.",
+            "a utilização da tag <section> com múltiplos elementos <p> aninhados sem estrutura de cabeçalho explícita."
+        ],
+        "gabarito": "a utilização da tag <article> com elementos internos de título, como <h2>, para representar conteúdo independente e reutilizável."
+    },
+    {
+        "id": 32,
+        "enunciado": "Considerando as características do HTML5 para o desenvolvimento web, registre V, para verdadeiras, e F, para falsas:\n( )A utilização de elementos semânticos como <nav> e <aside> permite que os desenvolvedores indiquem a estrutura e o propósito do conteúdo, mas não influencia na interpretação da página por mecanismos de busca.\n( )O atributo autofocus em elementos de formulário permite que o foco seja direcionado automaticamente para um campo específico ao carregar a página, sem a necessidade de utilizar JavaScript.\n( )Apesar dos avanços do HTML5, a utilização de divs para a estruturação do layout da página ainda é considerada a melhor prática para garantir compatibilidade com navegadores antigos.\nAssinale a alternativa que apresenta a sequência correta:",
+        "alternativas": [
+            "F − V − F.",
+            "F − V − V.",
+            "V − V − F.",
+            "V − F − V.",
+            "V − F − F."
+        ],
+        "gabarito": "F − V − F."
+    },
+    {
+        "id": 33,
+        "enunciado": "A tag HTML de abertura geralmente contém alguns atributos que definem as propriedades do elemento HTML e são usados para controlar a formatação, tamanho, referências de link de página e assim por diante, e é colocada dentro da tag de abertura do elemento.\nAvalie se a estrutura de tag HTML de uma referência de link de página está composta pelas seguintes partes:\nI. Inicializar o elemento âncora <a></a>\nII. O atributo nome é um dos atributos que podem ser inicializados em um elemento HTML. Por exemplo, o elemento âncora <a> contém um atributo chamado “href” (<a href) que indica o endereço da página que se deseja vincular.\nIII. Inicializar o valor do atributo da página HTML a ser vinculada, sempre entre aspas. Por exemplo “sobre.html”.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I e II, apenas.",
+            "I e III, apenas.",
+            "II e III, apenas.",
+            "I, II e III.",
+            "II, apenas."
+        ],
+        "gabarito": "II e III, apenas."
+    },
+    {
+        "id": 34,
+        "enunciado": "Com relação a HTML5, assinale (V) para a afirmativa verdadeira e (F) para a falsa.\n( ) HTML5 permite que o JavaScript forneça funcionalidade dinâmica para páginas da web usando APIs como Canvas 2D, Drag and Drop, Web Storage e Messaging.\n( ) HTML5 foi projetado para garantir a compatibilidade com o código de marcação legado, a fim de evitar quebrar a web.\n( ) HTML5 não suporta integralmente conteúdo de áudio e vídeo incorporado em navegadores.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "V – F – F.",
+            "V – V – F.",
+            "F – V – F.",
+            "F – V – V.",
+            "V – V – V."
+        ],
+        "gabarito": "V – V – F."
+    },
+    {
+        "id": 35,
+        "enunciado": "Julgue o item a seguir.\nHTML5 e XHTML são essencialmente a mesma linguagem, com diferenças apenas no branding e no marketing. Ambas as versões oferecem as mesmas funcionalidades e elementos de marcação, sendo completamente intercambiáveis em desenvolvimento web.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 36,
+        "enunciado": "O HTML – HyperText Markup Language, é uma linguagem de marcação de hipertexto que possibilita a construção de websites e a inserção de novos conteúdos, como imagens e textos, por meio dos hipertextos, que são representados pela junção de palavras, vídeos e conteúdos que, quando conectados, formam uma rede de dados que possibilitam a comunicação, o armazenamento e o compartilhamento de informações. Sobre o HTML, analise as afirmativas a seguir.\nI. A TAG iframe pode ser utilizada para exibir uma página web dentro de outra.\nII. <img src=\"/imagens/concurso.jpg\"> indica que o arquivo concurso.jpg está localizado na pasta de imagens da pasta atual.\nIII. Ao renderizar a página e interpretar o comando <h2>Inserindo o símbolo &copy; em tela</h2>, o navegador exibirá inserindo o símbolo ® em tela.\nEstá correto o que se afirma apenas em",
+        "alternativas": [
+            "I.",
+            "II.",
+            "III.",
+            "I e II."
+        ],
+        "gabarito": "I."
+    },
+    {
+        "id": 37,
+        "enunciado": "<html> <body> <h3>TST</h3> <form action=\"/action.php\"> <label for=\"login\">Login:</label> <input type=\"text\" id=\"login\" name=\"login\" #TST> <input type=\"submit\"> </form> </body> </html> Segundo a versão 3.1 do Modelo de Acessibilidade em Governo Eletrônico (eMAG), no HTML 5, há um atributo que especifica que um campo é obrigatório, informação que é lida pelo leitor de tela.\nO código precedente foi desenvolvido com HTML 5. O arquivo action.php está na mesma pasta do arquivo que contém o código apresentado. O resultado da execução desse código está ilustrado na figura a seguir.\nA partir dessas informações, é correto afirmar que, para fornecer instrução para a entrada de dados obrigatória e obter o mesmo resultado do apresentado na figura precedente quando o usuário clicar no botão sem preencher o campo de Login, o trecho #TST deverá ser substituído por",
+        "alternativas": [
+            "obligatory.",
+            "must.",
+            "required.",
+            "formvalidate.",
+            "mandatory."
+        ],
+        "gabarito": "required."
+    },
+    {
+        "id": 38,
+        "enunciado": "Julgue o próximo item, relativo a HTML5, BootStrap e Python.\nConsidere-se a figura a seguir.\nCaso se pretenda apresentar, por meio de HTML5, o resultado apresentado na figura precedente, deve-se substituir, no código fonte que se segue, o caractere # pela palavra datalist.\n<html> <head> <title>HTML5 INPI </title> </head> <body> <input list=“browsers” /> <# id=“browsers”> <option value=“Chrome”> <option value=“Firefox”> <option value=“Internet Explorer”> <option value=“Opera”> <option value=“Safari”> </#> </body> </html>",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 39,
+        "enunciado": "Assinale a opção em que é indicado atributo HTML usado para especificar o destino de um link.",
+        "alternativas": [
+            "target.",
+            "rel.",
+            "href.",
+            "alt.",
+            "src."
+        ],
+        "gabarito": "href."
+    },
+    {
+        "id": 40,
+        "enunciado": "A tag <abbr>, no HTML 5, define uma abreviatura ou um acrônimo como 'HTML', 'CSS', 'Mr.', 'Dr.', 'ASAP', 'ATM'. Essa tag fornece informações úteis aos navegadores(usuários), sistemas de tradução e motores de busca. Sobre esse tag, a opção que permite mostrar a descrição da abreviatura/acrônimo ao passar o mouse sobre o elemento é",
+        "alternativas": [
+            "<p>The <abbr src=\"World Health Organization\">WHO</abbr> was founded in 1948.</p>.",
+            "<p>The <abbr title=\"World Health Organization\">WHO</abbr> was founded in 1948.</p>.",
+            "<p>The <abbr text=\"World Health Organization\">WHO</abbr> was founded in 1948.</p>.",
+            "<p>The <abbr source=\"World Health Organization\">WHO</abbr> was founded in 1948.</p>."
+        ],
+        "gabarito": "<p>The <abbr title=\"World Health Organization\">WHO</abbr> was founded in 1948.</p>."
+    },
+    {
+        "id": 41,
+        "enunciado": "A linguagem de marcação HTML é constantemente utilizada no desenvolvimento web, e um recurso que é amplamente utilizado é o redirecionamento de páginas ao clicar em um botão. É definido como link para outra página utilizando HTML:",
+        "alternativas": [
+            "<href=\"outra_pagina.html\">Clique aqui</href>.",
+            "<link to=\"outra_pagina.html\">Clique aqui</link>.",
+            "<a href=\"outra_pagina.html\">Clique aqui</a>.",
+            "<link href=\"outra_pagina.html\">Clique aqui</link>."
+        ],
+        "gabarito": "<a href=\"outra_pagina.html\">Clique aqui</a>."
+    },
+    {
+        "id": 42,
+        "enunciado": "Um analista de informática elaborou o seguinte programa na Linguagem HTML:\n<!DOCTYPE html> <html><body> <h1>Site da Empresa XYZ</h1> <p>Veja as nossas ofertas!</p> </body></html> Caso seja inserida a tag <hr> após a quarta linha, quando o programa for executado por um navegador que suporte HTML, como o Chrome ou o Edge,",
+        "alternativas": [
+            "o texto da quarta linha será exibido de forma piscante.",
+            "o texto da quarta linha será exibido em letras maiores.",
+            "será inserida uma linha horizontal antes do texto da quarta linha.",
+            "será inserida uma linha horizontal após o texto da quarta linha.",
+            "uma mensagem de erro será apresentada, pois o fechamento da tag </hr> não foi colocado."
+        ],
+        "gabarito": "será inserida uma linha horizontal após o texto da quarta linha."
+    },
+    {
+        "id": 43,
+        "enunciado": "No HTML5, o elemento especificamente projetado para definir uma área dentro de um documento web que pode ser utilizada para desenhar gráficos bitmap, utilizando linguagens de script como o JavaScript é",
+        "alternativas": [
+            "<figure>.",
+            "<canvas>.",
+            "<picture>.",
+            "<svg>.",
+            "<data>."
+        ],
+        "gabarito": "<canvas>."
+    },
+    {
+        "id": 44,
+        "enunciado": "Relacione as tags semânticas incorporadas à linguagem HTML5 com suas respectivas aplicações.\n1. <article>\n2. <aside>\n3. <header>\n4. <nav>\n( ) Utilizado quando precisamos representar um agrupamento de links de navegação.\n( ) Utilizado quando precisamos declarar um conteúdo que não precisa de outro para fazer sentido em um documento HTML.\n( ) Utilizado para representar o cabeçalho de um documento ou seção declarado no HTML.\n( ) Utilizado quando precisamos criar um conteúdo de apoio/adicional ao conteúdo principal.\nAssinale a opção que indica a relação correta, na ordem apresentada.",
+        "alternativas": [
+            "4 – 3 – 2 – 1.",
+            "1 – 3 – 2 – 4.",
+            "4 – 1 – 3 – 2.",
+            "3 – 2 – 4 – 1.",
+            "2 – 4 – 1 – 3."
+        ],
+        "gabarito": "4 – 1 – 3 – 2."
+    },
+    {
+        "id": 45,
+        "enunciado": "Analise o programa a seguir, elaborado na linguagem HTML.\nUma tag da terceira linha foi substituída por * <!DOCTYPE html> <html><body> <p>A seguir são apresentados documentos <*>importantes</*>.</p> </body></html> Deseja-se que, quando o programa for executado por um navegador que suporte HTML, como o Chrome ou o Edge, a palavra importante seja apresentada marcada\n(highlighted). Para tanto, a tag * deve ser substituída por:",
+        "alternativas": [
+            "mark.",
+            "hallmark.",
+            "high.",
+            "scar.",
+            "highlight."
+        ],
+        "gabarito": "mark."
+    },
+    {
+        "id": 46,
+        "enunciado": "Um programador colocou em seu programa, elaborado na linguagem HTML, a seguinte linha de programa:\n<a h r e f = h t t p s : / / www.EmpresaX.com/ target= _blank >Visite a EmpresaX!</a> Sobre essa linha de programa, é correto afirmar que",
+        "alternativas": [
+            "a página da EmpresaX será aberta com o fundo na cor branca.",
+            "a página da EmpresaX será aberta em uma nova janela ou guia do navegador.",
+            "a página da EmpresaX será aberta na mesma janela ou guia do navegador.",
+            "uma página em branco com o texto “Visite a EmpresaX!” será exibida antes da exibição da página da EmpresaX.",
+            "uma página em branco será exibida antes da exibição da página da EmpresaX."
+        ],
+        "gabarito": "a página da EmpresaX será aberta em uma nova janela ou guia do navegador."
+    },
+    {
+        "id": 47,
+        "enunciado": "Em formulários HTML, o elemento <input type= datetime-local id= m /> tem o propósito de",
+        "alternativas": [
+            "exibir um campo de entrada de dados para data, hora e localização geográfica (latitude e longitude).",
+            "exibir um campo de entrada de dados para data e hora, sem fuso-horário (time zone).",
+            "definir um campo de entrada de dados de data e hora invisível ao usuário, cujo valor é definido pelo programador.",
+            "exibir um mapa para seleção de uma localização geográfica (latitude e longitude) com caixa de diálogo para digitação de uma data e hora.",
+            "exibir a data e hora atuais do computador, em modo somente-leitura, respeitando o fuso-horário configurado no sistema operacional."
+        ],
+        "gabarito": "exibir um campo de entrada de dados para data e hora, sem fuso-horário (time zone)."
+    },
+    {
+        "id": 48,
+        "enunciado": "O HTML5 introduziu uma série de melhorias semânticas e funcionais em relação às versões anteriores, tornando a estruturação e a marcação de conteúdo web mais intuitiva e acessível. O elemento HTML5 mais apropriado para agrupar conteúdo independente, que faz sentido por si só, como um post de blog é o:",
+        "alternativas": [
+            "‘<nav>’.",
+            "‘<article>’.",
+            "‘<section>’.",
+            "‘<aside>’."
+        ],
+        "gabarito": "‘<article>’."
+    },
+    {
+        "id": 49,
+        "enunciado": "No contexto do desenvolvimento de semântica web com HTML5, qual elemento é especificamente recomendado para agrupar independentemente conteúdos que podem ser considerados separados do conteúdo principal da página, como barras laterais ou links de referência?",
+        "alternativas": [
+            "<div>.",
+            "<section>.",
+            "<article>.",
+            "<aside>."
+        ],
+        "gabarito": "<aside>."
+    },
+    {
+        "id": 50,
+        "enunciado": "Para melhorar a acessibilidade para usuários com deficiência visual que utilizam leitores de tela, quais os elementos HTML (tags, atributos) são mais eficazes para dar ênfase na leitura de um trecho do texto em uma página web e para fornecer uma descrição alternativa para uma imagem?",
+        "alternativas": [
+            "emph e figcaption.",
+            "strong e img.",
+            "i e cite.",
+            "em e alt."
+        ],
+        "gabarito": "em e alt."
+    },
+    {
+        "id": 51,
+        "enunciado": "O SGML - Standard Generalized Markup Language é uma metalinguagem que existe fundamentalmente como guia para a criação de outras linguagens constituindo- se como uma coleção de regras de linguagem. O SGML deu origem ao HTML e ao XML. Nesse contexto, qual a relação entre as linguagens HTML e XHTML?",
+        "alternativas": [
+            "HTML e XHTML são duas linguagens diferentes, com sintaxes e regras de marcação distintas.",
+            "XHTML é uma versão mais antiga e obsoleta do HTML, amplamente substituída pelo HTML5.",
+            "XHTML é uma versão do HTML que segue as regras da sintaxe XML e que pode ser validada por ferramentas XML.",
+            "HTML e XHTML podem ser usados de forma intercambiável, pois não há diferenças significativas entre elas em termos de sintaxe e funcionalidades."
+        ],
+        "gabarito": "XHTML é uma versão do HTML que segue as regras da sintaxe XML e que pode ser validada por ferramentas XML."
+    },
+    {
+        "id": 52,
+        "enunciado": "Analise o seguinte programa elaborado na linguagem HTML.\n<!DOCTYPE html> <html><body> <p>avenida<br>rua<br>travessa<br></p> </body></html> Ao ser executado por um navegador como o Chrome ou o Edge, será exibido na tela:",
+        "alternativas": [
+            "avenida rua travessa.",
+            "avenidaruatravessa.",
+            "avenida rua travessa.",
+            "avenida rua travessa.",
+            "avenida rua travessa."
+        ],
+        "gabarito": "avenida rua travessa."
+    },
+    {
+        "id": 53,
+        "enunciado": "No HTML 5, a finalidade da tag <wbr> é",
+        "alternativas": [
+            "forçar uma quebra de página caso o conteúdo renderizado pelo navegador seja enviado para a impressora ou salvo em um arquivo PDF.",
+            "forçar uma quebra de linha.",
+            "especificar uma abreviação, sendo equivalente à tag <abbr>.",
+            "especificar uma URL base para todos os links da página.",
+            "especificar o local de uma oportunidade de quebra de linha, caso o navegador precise exibir palavras ou expressões muito longas."
+        ],
+        "gabarito": "especificar o local de uma oportunidade de quebra de linha, caso o navegador precise exibir palavras ou expressões muito longas."
+    },
+    {
+        "id": 54,
+        "enunciado": "Em relação a frameworks para desenvolvimento web, julgue o item que se segue.\nA tecnologia DHTML é uma evolução do HTML na qual são adicionados recursos dinâmicos às páginas web.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 55,
+        "enunciado": "Em relação a frameworks para desenvolvimento web, julgue o item que se segue.\nConteúdos de páginas web implementadas com DHTML são atualizados somente com a recarga da página inteira.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 56,
+        "enunciado": "Em relação ao desenvolvimento de sistemas web, julgue o próximo item.\nA utilização do HTML 5 impacta significativamente a adaptabilidade responsiva de documentos web, pois os novos elementos e recursos introduzidos nessa versão têm relação direta com a responsividade das páginas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 57,
+        "enunciado": "Julgue o próximo item, relativos aos padrões XML, SOAP, REST e JSON.\nConsidere o código a seguir, escrito em HTML e JavaScript.\n<!DOCTYPE html> <html> <body> <p id=“tceac”></p> <script> const desc = [“Tribunal de”, “Contas do”, “Estado”, “do Acre”];\nlet texto = ““;\nfor (let i = 1; i < desc.length-2; ++i) { texto += desc[i] + “ “;\n} document.getElementById(“tceac”).innerHTML = texto;\n</script> </body> </html> É correto afirmar que a execução desse código gerará a seguinte saída.\nTribunal de Contas do",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 58,
+        "enunciado": "<html> <head> <style> a:after {content: \" (\" attr(href) \")\";} </style> </head> <body> <p><a href=\"https://www.cagepa.pb.gov.br/\">cagepa< /a></p> </body> </html> Considerando o código precedente, desenvolvido em HTML e CSS, assinale a opção que corresponde ao resultado da execução desse código.",
+        "alternativas": [
+            "cagepa (https).",
+            "cagepa (cagepa.pb.gov.br/).",
+            "cagepa (https://www.cagepa.pb.gov.br/).",
+            "cagepa (cagepa:url:www).",
+            "cagepa (www.cagepa.pb.gov.br/)."
+        ],
+        "gabarito": "cagepa (https://www.cagepa.pb.gov.br/)."
+    },
+    {
+        "id": 59,
+        "enunciado": "<body> <form action=\"/cagepa.php\"> <#XPTO for=\"nomec\">Nome:</#XPTO> <input type=\"text\" id=\"nomec\" name=\"nomec\"> </form> </body> </html> No código precedente, desenvolvido em HTML, a substituição dos caracteres #XPTO por uma tag HTML permitirá que se melhore a acessibilidade da página em apreço, tal que leitores de tela leiam em voz alta o rótulo, quando o usuário se concentrar no elemento de entrada, auxiliando aqueles que têm dificuldade de ler textos pequenos ou que não conseguem ler o texto.\nAssinale a opção que correspondente à referida tag.",
+        "alternativas": [
+            "object.",
+            "samp.",
+            "label.",
+            "caption.",
+            "meta."
+        ],
+        "gabarito": "label."
+    },
+    {
+        "id": 60,
+        "enunciado": "No HTML 5 (Hypertext Markup Language, versão , uma série de elementos contribuem para uma estrutura de página web mais semântica, facilitando a compreensão do conteúdo tanto para os desenvolvedores quanto para os usuários finais, além de melhorar a acessibilidade e a indexação por mecanismos de busca.\nEntre esses elementos, está o <keygen>, cuja função é:",
+        "alternativas": [
+            "Definir uma lista de opções pré-definidas para controles de entrada de formulário.",
+            "Isolar um texto que pode ser formatado em diferentes direções do texto ao redor.",
+            "Definir uma única chave para autenticação de cliente em formulários web.",
+            "Definir detalhes adicionais que o usuário pode visualizar ou ocultar.",
+            "Definir um par (público-privado) de chaves criptográficas para formulários."
+        ],
+        "gabarito": "Definir um par (público-privado) de chaves criptográficas para formulários."
+    },
+    {
+        "id": 61,
+        "enunciado": "No HTML5 (Hypertext Markup Language, versão , alguns elementos são usados para estruturar o conteúdo principal de uma página da web de maneira semântica e lógica.\nCom base nisso, identifique a alternativa que apresenta para que serve o elemento <embed>.",
+        "alternativas": [
+            "Usado para incorporar conteúdo externo, como mídia, em uma página da web.",
+            "Define uma caixa de diálogo ou janela modal que pode ser usada para interações com o usuário.",
+            "Permite criar um widget de detalhes/colapso, onde os detalhes estão ocultos até que o usuário clique no resumo.",
+            "Representa um valor escalar dentro de um intervalo conhecido ou fracionário, por exemplo, a taxa de conclusão de uma tarefa."
+        ],
+        "gabarito": "Usado para incorporar conteúdo externo, como mídia, em uma página da web."
+    },
+    {
+        "id": 62,
+        "enunciado": "Com relação à linguagem de marcação HTML 5, o elemento disponibilizado para dividir o conteúdo do documento em seções para conteúdos específicos, é o elemento",
+        "alternativas": [
+            "<mark>.",
+            "<aside>.",
+            "<canvas>.",
+            "<main>.",
+            "<item>."
+        ],
+        "gabarito": "<aside>."
+    },
+    {
+        "id": 63,
+        "enunciado": "Em relação à linguagem de marcação HTML, estão corretas as seguintes afirmações, EXCETO",
+        "alternativas": [
+            "HTML é uma linguagem de programação usada para criar e estruturar conteúdo na web.",
+            "a tag <a> é usada para criar links.",
+            "<br> é uma tag de quebra de linha, que insere uma nova linha no texto sem iniciar um novo parágrafo.",
+            "<img> é utilizada para incorporar imagens em uma página web."
+        ],
+        "gabarito": "HTML é uma linguagem de programação usada para criar e estruturar conteúdo na web."
+    },
+    {
+        "id": 64,
+        "enunciado": "Qual tag HTML tem como objetivo definir uma citação curta?",
+        "alternativas": [
+            "<bdo>.",
+            "<abbr>.",
+            "<cite>.",
+            "<q>.",
+            "<p>."
+        ],
+        "gabarito": "<q>."
+    },
+    {
+        "id": 65,
+        "enunciado": "No HTML, a tag <a> possui o atributo target, que especifica onde o link associado deve ser aberto. Entre os possíveis valores para o atributo target, qual deles especifica que o link deve ser aberto em uma nova janela ou guia?",
+        "alternativas": [
+            "_new.",
+            "_self.",
+            "_parent.",
+            "_top.",
+            "_blank."
+        ],
+        "gabarito": "_blank."
+    },
+    {
+        "id": 66,
+        "enunciado": "A tag <map> do HTML permite a criação de um mapa de imagem, que é basicamente a criação de áreas clicáveis dentro de uma imagem. Qual tag tem o objetivo de criar uma região clicável dentro de um mapa de imagem?",
+        "alternativas": [
+            "<area>.",
+            "<img>.",
+            "<load>.",
+            "<region>.",
+            "<rgn>."
+        ],
+        "gabarito": "<area>."
+    },
+    {
+        "id": 67,
+        "enunciado": "A respeito do HTML5, analise as afirmativas.\nI. É uma linguagem de programação.\nII. Compila o código em um browser.\nIII. Descreve a estrutura de uma página web.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I e III, apenas.",
+            "II e III, apenas.",
+            "I e II, apenas.",
+            "III, apenas."
+        ],
+        "gabarito": "III, apenas."
+    },
+    {
+        "id": 68,
+        "enunciado": "A respeito do HTML5, marque V para as afirmativas verdadeiras e F para as falsas.\n( ) A tag <h1> define o início de um parágrafo.\n( ) Um exemplo do final de uma tag: <\\title>\n( ) O documento HTML inicia com a tag <body> Assinale a sequência correta.",
+        "alternativas": [
+            "F, F, F.",
+            "V, V, F.",
+            "V, F, V.",
+            "F, V, V."
+        ],
+        "gabarito": "F, F, F."
+    },
+    {
+        "id": 69,
+        "enunciado": "Qual é a versão do HTML que introduziu a tag “<canvas>”?",
+        "alternativas": [
+            "HTML 3.2.",
+            "HTML 5.0.",
+            "HTML 5.1.",
+            "HTML 5.2."
+        ],
+        "gabarito": "HTML 5.0."
+    },
+    {
+        "id": 70,
+        "enunciado": "Ao criar um documento em HTML5, a estruturação adequada do conteúdo é fundamenta para garantir acessibilidade, usabilidade e compatibilidade com o acessibilidade, padrões atuais da web. Dentre os elementos introduzido pelo HTM L5, destacam-se aqueles destinados identificar e organizar diferentes seções de documento de forma semântica e significativa. inclusão de uma seção de navegação claramente definir é crucial para orientar os usuários e facilitar a interação com o conteúdo presente na página.\nO elemento usado para definir a seção de navegação um documento HTML5 é apresente CORRETAMENTE na alternativa:",
+        "alternativas": [
+            "'<navigation>'.",
+            "'<nav>'.",
+            "'<navmenu>'.",
+            "'<navigate>'."
+        ],
+        "gabarito": "'<nav>'."
+    },
+    {
+        "id": 71,
+        "enunciado": "No desenvolvimento de formulários web, a escolha correta dos elementos HTML é fundamental para garantir que os dados do usuário sejam coletados de maneira eficaz e segura. Existem diversos tipos de elementos '<input>' que podem ser utilizados para capturar diferentes tipos de dados. O elemento, HTML, que é utilizado para criar uma entrada de formulário para e-mail, é apresentado CORRETAMENTE na alternativa:",
+        "alternativas": [
+            "<input type=\"email\">.",
+            "<input type=\"text\">.",
+            "<input type=\"button\">.",
+            "<input type=\"submit\">."
+        ],
+        "gabarito": "<input type=\"email\">."
+    },
+    {
+        "id": 72,
+        "enunciado": "Quando se desenvolve páginas web, a criação de links é fundamental para a navegação entre diferentes seções do site ou para direcionar o usuário para páginas externas. A capacidade de definir o destino de um link, especificando para onde o usuário será redirecionado ao clicar nele, é uma funcionalidade chave na construção de uma experiência de usuário intuitiva e fluida. Para atribuir um destino a um link em HTML, é essencial entender qual atributo deve ser utilizado para essa finalidade. O atributo HTML usado para definir um link de destino ao clicar em um link é apresentado CORRETAMENTE na alternativa:",
+        "alternativas": [
+            "' href'.",
+            "' name'.",
+            "' id'.",
+            "'class'."
+        ],
+        "gabarito": "' href'."
+    },
+    {
+        "id": 73,
+        "enunciado": "Ao estruturar conteúdo em uma página web, a utilização de listas permite apresentar informações de maneira organizada e facilmente legível. O HTML oferece diferentes elementos para criação de listas, cada um com finalidades específicas. Uma lista numerada, onde os itens estão sequencialmente dispostos com números ou letras, é particularmente útil para guiar o usuário através de um conjunto ordenado de passos ou itens. O elemento HTML usado para criar uma lista numerada é apresentado CORRETAMENTE na alternativa:",
+        "alternativas": [
+            "'<ul>.",
+            "'<ol>.",
+            "'<li>.",
+            "'<dl>."
+        ],
+        "gabarito": "'<ol>."
+    },
+    {
+        "id": 74,
+        "enunciado": "Ao desenvolver documentos em HTML. é essencial adotar uma estrutura semântica clara para garantir que navegadores e tecnologias assistivas compreendam corretamente o conteúdo. O HTML5 introduziu, uma série de novos elementos que ajudam a organizar e dar significado às diferentes partes de uma página web. Um desses elementos é utilizado para definir o rodapé, que pode conter informações como créditos, links adicionais, ou direitos autorais, tanto para um documento inteiro quanto para seções específicas. O elemento HTML usado para definir um rodapé para um documento ou seção é apresentado CORRETAMENTE na alternativa:",
+        "alternativas": [
+            "'<bottom>'.",
+            "'<foot>'.",
+            "'<footer>'.",
+            "'<section>'."
+        ],
+        "gabarito": "'<footer>'."
+    },
+    {
+        "id": 75,
+        "enunciado": "O comando HTML:\n<a href=\"https://example.com\"target=\"_blank\">Link</a> Define que:",
+        "alternativas": [
+            "O documento abra no corpo inteiro da janela.",
+            "O link abra na própria página.",
+            "O documento abra na página padrão.",
+            "O documento abra em um frame pai.",
+            "O documento abra em uma nova janela ou aba."
+        ],
+        "gabarito": "O documento abra em uma nova janela ou aba."
+    },
+    {
+        "id": 76,
+        "enunciado": "Sobre o desenvolvimento usando HTML5, assinale a opção correta.",
+        "alternativas": [
+            "Com o HTML5, novos elementos semânticos foram introduzidos, como <header>, <footer>, <section> e <figurecaption>.",
+            "A tag <encoding charset=\"UTF-8\"> define o conjunto de caracteres utilizado na página HTML.",
+            "LocalStorage e SessionStorage fornecem armazenamento no lado do cliente, mas LocalStorage é temporário e SessionStorage é persistente.",
+            "Eventos tornam as páginas mais interativas e dinâmicas. Exemplos comuns incluem: onclick, oninput e onload."
+        ],
+        "gabarito": "Eventos tornam as páginas mais interativas e dinâmicas. Exemplos comuns incluem: onclick, oninput e onload."
+    },
+    {
+        "id": 77,
+        "enunciado": "Julgue o próximo item, relativo a linguagens e tecnologias de programação.\nO código a seguir, escrito em HTML e JavaScript, ao ser executado, apresentará 2 como resultado.\n<html> <body> <p id=“cpnuje”></p> <script> for (let i = 0; i < 10; ++i) { if (i === { break; } document.getElementById(“cpnuje”).innerHTML = i;\n} </script> </body> </html>",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 78,
+        "enunciado": "Julgue o próximo item, relativo a linguagens e tecnologias de programação.\nConsidere o seguinte código, escrito em HTML.\n<html> <body> <p id=“cpnuje”></p> <script> const cpn = [ “ 03JUSTIÇA”, “ 01CONCURSO”, “ 04ELEITORAL”, “ 02UNIFICADO”];\ncpn.pop();\ndocument.getElementById(“cpnuje”).innerHTML = cpn;\n</script> </body> </html> O código precedente apresentará o resultado a seguir, ao ser executado.\n01CONCURSO, 02UNIFICADO, 03JUSTIÇA, 04ELEITORAL",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 79,
+        "enunciado": "O programa a seguir foi elaborado na linguagem HTML, visando exibir na tela a imagem imagem.jpeg. Um atributo na segunda linha foi substituído por <!DOCTYPE html><html><body> <img = imagem.jpeg > </body></html> O atributo deve ser:",
+        "alternativas": [
+            "archive.",
+            "fig.",
+            "path.",
+            "source.",
+            "src."
+        ],
+        "gabarito": "src."
+    },
+    {
+        "id": 80,
+        "enunciado": "Analise o programa a seguir, que foi elaborado na linguagem HTML.\n<!DOCTYPE html> <html><body> <p title= Termina em 10/07/2024 >Inscrevase no nosso concurso!</p> </body></html> Quando ele for executado por um navegador que suporte HTML, como o Edge ou o Chrome, será(ão) exibido( as)(s) na tela",
+        "alternativas": [
+            "o texto “Inscreva-se no nosso concurso!” e quando o mouse passar sobre esse texto será exibido o texto “Termina em 10/07/2024”.",
+            "o texto “Termina em 10/07/2024” e quando o mouse passar sobre esse texto será exibido o texto “Inscreva-se no nosso concurso!”.",
+            "o texto “Termina em 10/07/2024”.",
+            "uma primeira linha com o texto “Inscreva-se no nosso concurso!” e uma segunda linha com o texto “Termina em 10/07/2024”.",
+            "uma primeira linha em negrito e fonte grande com o texto “Termina em 10/07/2024” e uma segunda linha sem negrito e fonte normal com o texto “Inscreva-se no nosso concurso!”."
+        ],
+        "gabarito": "o texto “Inscreva-se no nosso concurso!” e quando o mouse passar sobre esse texto será exibido o texto “Termina em 10/07/2024”."
+    },
+    {
+        "id": 81,
+        "enunciado": "<section> <h2>Revistas Científicas</h2> <ul> <1i>Ciência</1i> <1i>Natureza</1i> <1i>Célula</1i> <1i>Jornal de Medicina</li> </ul> </section> Com relação ao código HTML5 acima, julgue o item abaixo:\nO elemento <ul> ordenará as revistas científicas declaradas, já que esse elemento é empregado para criar listas ordenadas, nas quais os itens são apresentados com marcadores padrão, como, por exemplo, pontos ou círculos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 82,
+        "enunciado": "<section> <h2>Revistas Científicas</h2> <ul> <1i>Ciência</1i> <1i>Natureza</1i> <1i>Célula</1i> <1i>Jornal de Medicina</li> </ul> </section> Com relação ao código HTML5 acima, julgue o item abaixo:\nO elemento <section> tem como função principal definir uma seção de navegação em uma página web, ou seja, representa uma seção de uma página que aponta para outras páginas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 83,
+        "enunciado": "<section> <h2>Revistas Científicas</h2> <ul> <1i>Ciência</1i> <1i>Natureza</1i> <1i>Célula</1i> <1i>Jornal de Medicina</li> </ul> </section> Com relação ao código HTML5 acima, julgue o item abaixo:\nO elemento <li> é utilizado para criar itens de lista, tanto em listas ordenadas quanto não ordenadas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 84,
+        "enunciado": "<section> <h2>Revistas Científicas</h2> <ul> <1i>Ciência</1i> <1i>Natureza</1i> <1i>Célula</1i> <1i>Jornal de Medicina</li> </ul> </section> Com relação ao código HTML5 acima, julgue o item abaixo:\nO conteúdo de uma tag <H2> pode ser idêntico aos de outras páginas de um mesmo site.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 85,
+        "enunciado": "<section> <h2>Revistas Científicas</h2> <ul> <1i>Ciência</1i> <1i>Natureza</1i> <1i>Célula</1i> <1i>Jornal de Medicina</li> </ul> </section> Com relação ao código HTML5 acima, julgue o item abaixo:\nEsse bloco de programa somente funcionará caso seja inserido um ponto‑e‑vírgula (;) ao final de cada tag </li>.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 86,
+        "enunciado": "No que diz respeito à linguagem de programação Qlik, à HTML5 e ao JSON, julgue o item.\nNa linguagem HTML 5, o elemento <section> é útil para organizar o conteúdo de forma lógica, melhorando a acessibilidade e a estrutura do site.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 87,
+        "enunciado": "Analise o programa a seguir, elaborado na linguagem HTML.\n<!DOCTYPE html> <html><body> <h2>A Lista de Produtos</h2> <dl> <dt>No Estoque:</dt> <dd>-caneta</dd> <dd>-borracha</dd> <dt>Esgotados:</dt> <dd>-tesoura</dd> <dd>-apagador</dd> </dl> </body></html> Quando esse programa é aberto por um navegador que suporte HTML, como o Google ou o Edge, o seguinte é exibido:",
+        "alternativas": [
+            ".",
+            ".",
+            ".",
+            ".",
+            "."
+        ],
+        "gabarito": "."
+    },
+    {
+        "id": 88,
+        "enunciado": "Assinale a alternativa que corresponde a um elemento não semântico do HTML.",
+        "alternativas": [
+            "<div>.",
+            "<article>.",
+            "<aside>.",
+            "<footer>.",
+            "<nav>."
+        ],
+        "gabarito": "<div>."
+    },
+    {
+        "id": 89,
+        "enunciado": "As TAGs em HTML que tem como funcionalidade formatar textos em Negrito, Itálico e Sublinhado estão contidos na alternativa de letra:",
+        "alternativas": [
+            "<n> </n> , <i> </i> e <s> </s>.",
+            "<n> </n> , <u> </u> e <s> </s>.",
+            "<b> </b> , <i> </i> e <u> </u>.",
+            "<b> </b> , <u> </u> e <i> </i>.",
+            "<b> </b> , < i> </i> e <n> </n>."
+        ],
+        "gabarito": "<b> </b> , <i> </i> e <u> </u>."
+    },
+    {
+        "id": 90,
+        "enunciado": "Como analista de informática da Sanepar, você está envolvido no desenvolvimento de um novo sistema web para o órgão. Durante o desenvolvimento, você precisa adicionar um recurso interativo à página para melhorar a experiência do usuário. Para isso, você deseja usar um elemento HTML que permita exibir um resumo visível para um conteúdo adicional. Nesse caso, considerando o HTML 5 (Hypertext Markup Language, versão , qual elemento você deve utilizar para definir esse resumo visível para um elemento <details>?",
+        "alternativas": [
+            "<source>.",
+            "<summary>.",
+            "<dialog>.",
+            "<meta>.",
+            "<area>."
+        ],
+        "gabarito": "<summary>."
+    },
+    {
+        "id": 91,
+        "enunciado": "A criação de uma lista ordenada em Hyper Text Markup Language (HTML) utiliza o elemento",
+        "alternativas": [
+            "<ol>.",
+            "<ul>.",
+            "<ls>.",
+            "<ds>."
+        ],
+        "gabarito": "<ol>."
+    },
+    {
+        "id": 92,
+        "enunciado": "Analise o programa a seguir, elaborado na linguagem HTML. Alguns elementos foram substituídos por (1) e (2).\nQuando esse programa é aberto por um navegador que suporte HTML, como o Google ou o Edge, é exibido:\nOs valores de (1) e (2) são, respectivamente:",
+        "alternativas": [
+            "button e search.",
+            "option e send.",
+            "option e submit.",
+            "select e send.",
+            "select e submit."
+        ],
+        "gabarito": "select e submit."
+    },
+    {
+        "id": 93,
+        "enunciado": "Um dos principais benefícios de se ter páginas web responsivas é melhorar a experiência do usuário em dispositivos móveis.\nAssinale a opção que apresenta o trecho correto de código que deve ser inserido em uma página web para torná-la responsiva.",
+        "alternativas": [
+            "<meta name=\"responsive\" content=\"width=device-width, initial-scale=1.0\">.",
+            "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">.",
+            "<meta name=\"viewport\" content=\"responsive\">.",
+            "<meta name=\"viewport\" content=\"width=device-height, initial-scale=100%\">.",
+            "<meta name=\"responsive\" content=\"width=device-height, initial-scale=100\">."
+        ],
+        "gabarito": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">."
+    },
+    {
+        "id": 94,
+        "enunciado": "Considere o corpo de uma página HTML, conforme a seguir:\n<body> <p id=\"exibir\"></p> <script> const valores = [900, 905, 902, 903, 908];\nlet x = \"\";\nI ;\n......\ndocument.getElementById(\"exibir\").innerHTML = x;\nfunction exibe(v, i, vs) { x += v + \"<br>\";\n} </script> </body> Para que os valores contidos na array valores sejam exibidos, um abaixo do outro, a lacuna I deve ser corretamente preenchida por:",
+        "alternativas": [
+            "call(exibe).",
+            "valores.iterator(exibe).",
+            "valores.forEach(exibe).",
+            "call exibe(valores.value, valores.length, valores).",
+            "exibe(valores.value, valores.length, valores)."
+        ],
+        "gabarito": "valores.forEach(exibe)."
+    },
+    {
+        "id": 95,
+        "enunciado": "Assinale a alternativa que indica a tag HTML5 criada com o intuito de lidar com arquivos de legendas ou de títulos enquanto uma mídia de vídeo é reproduzida.",
+        "alternativas": [
+            "track.",
+            "embed.",
+            "source.",
+            "video.",
+            "audio."
+        ],
+        "gabarito": "track."
+    },
+    {
+        "id": 96,
+        "enunciado": "Assinale a alternativa correspondente à tag que tem o intuito de prover um ambiente para a escrita de expressões matemáticas no HTML 5.",
+        "alternativas": [
+            "body.",
+            "formula.",
+            "head.",
+            "math.",
+            "meta."
+        ],
+        "gabarito": "math."
+    },
+    {
+        "id": 97,
+        "enunciado": "Considere o trecho de código fonte HTML5/CSS3 a seguir:\n<!DOCTYPE html><html><body> <img src=\"imagem.jpg\" width=300px height=150px> </body></html> Assinale a alternativa que pode substituir o trecho “<img src=\"imagem.jpg\" width=300px height=150px>”, produzindo exatamente as mesmas configurações de largura e altura da imagem como definido no trecho de código:",
+        "alternativas": [
+            "<img src=\"imagem.jpg\" attribu-tes=\"width:300px;height:150px;\">.",
+            "<img src=\"imagem.jpg\" css=\"width:300px;height:150px;\">.",
+            "<img src=\"imagem.jpg\" size=\"width:300px;height:150px;\">.",
+            "<img src=\"imagem.jpg\" style=\"width:300px;height:150px;\">."
+        ],
+        "gabarito": "<img src=\"imagem.jpg\" style=\"width:300px;height:150px;\">."
+    },
+    {
+        "id": 98,
+        "enunciado": "Analise as afirmativas a seguir referentes à linguagem XHTML:\nI – XHTML não diferencia maiúsculas de minúsculas.\nII – A ordem de fechamento das tags precisa ser inversa à ordem de abertura.\nIII – As tags <head> e <body> não podem ser omitidas.\nEstá CORRETO apenas o que se afirma em:",
+        "alternativas": [
+            "I e II.",
+            "I e III.",
+            "II e III.",
+            "III."
+        ],
+        "gabarito": "II e III."
+    },
+    {
+        "id": 99,
+        "enunciado": "Considere uma página Web que exibe somente um botão. Quando essa página é carregada, ou o botão é clicado, a data corrente é exibida.\nO trecho de um script que implementa corretamente essa lógica é:",
+        "alternativas": [
+            "<html> <body> <button onclick, onload=\"XPTO()\">Clique aqui...</button> <script> function XPTO() {alert();} </script> </body> </html>.",
+            "<html> <body> <button onclick=\"XPTO()\">Clique aqui...</button> <script> function XPTO() {alert(Date());} </script> </body> </html>.",
+            "<html> <body> <button onload, onclick=\"XPTO()\">Clique aqui...</button> <script> function onload XPTO() {alert();} </script> </body> </html>.",
+            "<html> <body onload=\"XPTO()\"> <button onclick=\"XPTO()\">Clique aqui...</button> <script> function XPTO() {alert(Date());} </script> </body> </html>.",
+            "<html> <body onload=\"XPTO()\" <button onclick=\"XPTO()\">Clique aqui...</button> > <script> function onload XPTO(Date()) {} </script> </body> </html>."
+        ],
+        "gabarito": "<html> <body onload=\"XPTO()\"> <button onclick=\"XPTO()\">Clique aqui...</button> <script> function XPTO() {alert(Date());} </script> </body> </html>."
+    },
+    {
+        "id": 100,
+        "enunciado": "Um bloco de links de um menu de navegação principal em uma página HTML5 deve ser colocado no interior do elemento semântico",
+        "alternativas": [
+            "<nav>.",
+            "<div>.",
+            "<section>.",
+            "<blink>.",
+            "<menus>."
+        ],
+        "gabarito": "<nav>."
+    },
+    {
+        "id": 101,
+        "enunciado": "O HTML DOM é a forma de modelar um objeto a uma interface com páginas HTML. Sendo assim, assinale a alternativa que apresenta sua definição.",
+        "alternativas": [
+            "Criar uma classe construtora em linguagem funcional.",
+            "Padrão de iteração entre HTML, logo, o seu objetivo é obter, alterar, adicionar ou excluir elementos HTML.",
+            "Efetuar uma consulta em um banco de dados não relacional e efetuar uma iteração com páginas em Windows Forms.",
+            "Criar uma api no servidor e efetuar chamdas HTTP Restful."
+        ],
+        "gabarito": "Padrão de iteração entre HTML, logo, o seu objetivo é obter, alterar, adicionar ou excluir elementos HTML."
+    },
+    {
+        "id": 102,
+        "enunciado": "A tag <img>, que permite a colocação de imagens em uma página HTML, necessita de atributos para a exibição da imagem e de um texto que será exibido no lugar da imagem. Esses atributos são, respectivamente:",
+        "alternativas": [
+            "exibition e description.",
+            "image e text.",
+            "im e tx.",
+            "pic e txt.",
+            "src e alt."
+        ],
+        "gabarito": "src e alt."
+    },
+    {
+        "id": 103,
+        "enunciado": "Um desenhista de páginas da Internet elaborou o seguinte programa na linguagem HTML:\n<!DOCTYPE html> <html><body> <p> Casas.\nSol.\nMontanha.\n</p> </body> </html> Quando esse programa for aberto por um navegador típico, que suporte a linguagem HTML, como o Google Chrome ou o Microsoft Edge, será exibido:",
+        "alternativas": [
+            "Casas• Sol • Montanha•.",
+            "Casas• Sol • Montanha•.",
+            "Casas• Sol • Montanha•.",
+            "Casas• Sol • Montanha•.",
+            "Casas• Sol • Montanha•."
+        ],
+        "gabarito": "Casas• Sol • Montanha•."
+    },
+    {
+        "id": 104,
+        "enunciado": "Após a elaboração de um programa, com a linguagem HTML, com o conteúdo de uma página, deseja-se colocar um texto de rodapé, com informações sobre o autor da página e a sua empresa. Uma forma de se inserir essas informações de rodapé nessa página é inserir no programa:",
+        "alternativas": [
+            "<botton> texto desejado para o rodapé </botton>.",
+            "<end page> texto desejado para o rodapé </end page>.",
+            "<end> texto desejado para o rodapé </end>.",
+            "<fin> texto desejado para o rodapé </fin>.",
+            "<footer> texto desejado para o rodapé </footer>."
+        ],
+        "gabarito": "<footer> texto desejado para o rodapé </footer>."
+    },
+    {
+        "id": 105,
+        "enunciado": "O programa a seguir foi elaborado na linguagem HTML, sendo que A e B representam atributos.\n<!DOCTYPE html> <html><body> <ol A> <li>Produtos de Limpeza <ol B> <li>Detergente</li> <li>Alcool</li> </ol> </ol> </body></html> Quando esse programa é executado por um navegador como o Google Chrome ou Edge, é exibido na tela:\nOs valores de A e B para possibilitar essa exibição devem ser, respectivamente:",
+        "alternativas": [
+            "=I e =a.",
+            "bullet=I e bullet=a.",
+            "bullet I e bullet a.",
+            "I e a.",
+            "type=I e type=a."
+        ],
+        "gabarito": "type=I e type=a."
+    },
+    {
+        "id": 106,
+        "enunciado": "Na linguagem HTML, para centralizar uma tabela na página, deve-se colocar um atributo na tag <table>. Esse atributo é:",
+        "alternativas": [
+            "align=center.",
+            "align=middle.",
+            "center.",
+            "middle.",
+            "position=center."
+        ],
+        "gabarito": "align=center."
+    },
+    {
+        "id": 107,
+        "enunciado": "Um programador da linguagem HTML colocou o seguinte comando em seu programa para exibir a imagem de uma casa:\n<img src=”imagem.jpeg”> Para que seja exibida uma mensagem de texto caso o navegador não suporte o formato da imagem, o comando deve ser modificado para:",
+        "alternativas": [
+            "<img src=”imagem.jpeg” ”imagem da casa”>.",
+            "<img src=”imagem.jpeg” alt=”imagem da casa”>.",
+            "<img src=”imagem.jpeg” text=”imagem da casa”>.",
+            "<img src=”imagem.jpeg”><imagem da casa>.",
+            "<img src=”imagem.jpeg”><text=”imagem da casa”>."
+        ],
+        "gabarito": "<img src=”imagem.jpeg” alt=”imagem da casa”>."
+    },
+    {
+        "id": 108,
+        "enunciado": "Um programador utilizou a seguinte linha em um programa elaborado na linguagem HTML:\n<p><strong>texto</strong></p> Quando o programa é executado por um navegador como o Google Chrome ou Edge, a palavra “texto” é exibida na tela",
+        "alternativas": [
+            "com as letras intercaladas com espaços (t e x t o).",
+            "com maior importância (normalmente em negrito).",
+            "em itálico.",
+            "piscante.",
+            "sublinhada."
+        ],
+        "gabarito": "com maior importância (normalmente em negrito)."
+    },
+    {
+        "id": 109,
+        "enunciado": "Um objeto de elemento na DOM HTML possui certos métodos ou propriedades.\nNesse contexto, identifique abaixo os métodos ou propriedades comuns a todos os elementos HTML.\n1. attributes\n2. innerHTML\n3. className\n4. hasAttribute() Assinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "São corretas apenas as afirmativas 1, 2 e 3.",
+            "São corretas apenas as afirmativas 1, 2 e 4.",
+            "São corretas apenas as afirmativas 1, 3 e 4.",
+            "São corretas apenas as afirmativas 2, 3 e 4.",
+            "São corretas as afirmativas 1, 2, 3 e 4."
+        ],
+        "gabarito": "São corretas as afirmativas 1, 2, 3 e 4."
+    },
+    {
+        "id": 110,
+        "enunciado": "Qual método ou propriedade de um documento HTML disponível para utilização via Javascript, retorna uma coleção de todos os elementos <embed> do documento?",
+        "alternativas": [
+            "getElementByEmbed().",
+            "getEmbed().",
+            "embeds.",
+            "embedded().",
+            "documentEmbeds."
+        ],
+        "gabarito": "embeds."
+    },
+    {
+        "id": 111,
+        "enunciado": "São formas ou métodos válidos de encontrar elementos ou coleções de elementos HTML no contexto da DOM Javascript:\n1. Pelo id.\n2. Pelo nome da tag.\n3. Pelo nome da classe.\n4. Pela linha no código.\nAssinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "São corretas apenas as afirmativas 1 e 3.",
+            "São corretas apenas as afirmativas 1, 2 e 3.",
+            "São corretas apenas as afirmativas 1, 2 e 4.",
+            "São corretas apenas as afirmativas 1, 3 e 4.",
+            "São corretas as afirmativas 1, 2, 3 e 4."
+        ],
+        "gabarito": "São corretas apenas as afirmativas 1, 2 e 3."
+    },
+    {
+        "id": 112,
+        "enunciado": "Analise as afirmativas abaixo sobre aplicações e programação web, Javascript e html.\n1. No DOM, todos os elementos HTML são definidos como objetos.\n2. O método ou propriedade DOM activeElement retorna um valor booleano indicando se o elemento corrente no documento está com foco ou não.\n3. É preciso empregar métodos e funções XML para acessar os elementos do DOM, uma vez que sua estrutura é organizada numa arvore XML.\nAssinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "É correta apenas a afirmativa 1.",
+            "São corretas as afirmativas 1, 2 e 3.",
+            "São corretas apenas as afirmativas 1 e 2.",
+            "São corretas apenas as afirmativas 1 e 3.",
+            "São corretas apenas as afirmativas 2 e 3."
+        ],
+        "gabarito": "É correta apenas a afirmativa 1."
+    },
+    {
+        "id": 113,
+        "enunciado": "Dentre as propriedades ou métodos que podem ser utilizados em documentos HTML manipulados em Javascript, assinale a alternativa que indica corretamente o método ou propriedade que retorna o elemento com foco no momento, em um documento HTML.",
+        "alternativas": [
+            "hasFocus.",
+            "hasFocus().",
+            "activeFocus.",
+            "activeElement.",
+            "getElementByFocus()."
+        ],
+        "gabarito": "activeElement."
+    },
+    {
+        "id": 114,
+        "enunciado": "Um objeto de elemento na DOM HTML possui certos métodos ou propriedades.\nNesse contexto, assinale a alternativa que indica corretamente o método ou atributo que atribui ou retorna o conteúdo de um elemento HTML.",
+        "alternativas": [
+            "getElementById().",
+            "HTMLcontent().",
+            "contentHTML.",
+            "innerHTML.",
+            "setHTML()."
+        ],
+        "gabarito": "innerHTML."
+    },
+    {
+        "id": 115,
+        "enunciado": "Assinale a alternativa que apresenta uma linha de comando correta, elaborada na linguagem HTML, e que permita exibir a figura fig.jpg e, apenas na sua ausência, o texto Casa.",
+        "alternativas": [
+            "<img =\"fig.jpg\" alt=\"Casa\">.",
+            "<img src=\"fig.jpg” alt=\"Casa\">.",
+            "<img src=fig.jpg></img>Casa.",
+            "<src=\"fig.jpg\" \"Casa\">.",
+            "<src=fig.jpg><alt=Casa>."
+        ],
+        "gabarito": "<img src=\"fig.jpg” alt=\"Casa\">."
+    },
+    {
+        "id": 116,
+        "enunciado": "Analise a descrição básica de uma tag utilizada no HTML.\n“É um container inline que é usado para aplicar marcações de estilo a de um texto ou documento, e pode facilmente ser manipulado por código JavaScript.” De acordo com essas características, é muito provável que o texto refira-se à tag:",
+        "alternativas": [
+            "<details>.",
+            "<div>.",
+            "<p>.",
+            "<space>.",
+            "<span>."
+        ],
+        "gabarito": "<span>."
+    },
+    {
+        "id": 117,
+        "enunciado": "O trecho HTML que referencia corretamente um arquivo na pasta imagens, localizada na pasta corrente, é:",
+        "alternativas": [
+            "<img src=\"*/imagens/foto.jpg\">.",
+            "<img src=\"../imagens/foto.jpg\">.",
+            "<img src=\"imagens/foto.jpg\">.",
+            "<img src=\"root/..imagens/foto.jpg\">.",
+            "<img src=\"root/imagens/foto.jpg\">."
+        ],
+        "gabarito": "<img src=\"imagens/foto.jpg\">."
+    },
+    {
+        "id": 118,
+        "enunciado": "Analise o código a seguir.\n<!DOCTYPE html> <html> <body> <p id=\"e2\"><span id=\"e1\"></p> <script> let a = 12;\nlet b = 8;\nlet c = a+b;\ntry { let xpto = eval(\"(a+b)*c\");\ndocument.getElementById(\"e1\").innerHTML = xpto;\n} catch(err) { document.getElementById(\"e1\").innerHTML = undefined;\n} finally { document.getElementById(\"e1\").innerHTML = \"O resultado é... \" + document.getElementById(\"e1\").innerHTML;\n} </script> </body> </html> Quando carregada, essa página exibe:",
+        "alternativas": [
+            "O resultado é... 400.",
+            "O resultado é... abc*+.",
+            "O resultado é... false.",
+            "O resultado é... true.",
+            "O resultado é... undefined."
+        ],
+        "gabarito": "O resultado é... 400."
+    },
+    {
+        "id": 119,
+        "enunciado": "Na Linguagem de marcação HTML, o valor deste atributo não pode ser duplicado, ou seja, deve ser único em todo documento. Essa afirmativa diz respeito a:",
+        "alternativas": [
+            "class.",
+            "id.",
+            "name.",
+            "value.",
+            "title."
+        ],
+        "gabarito": "id."
+    },
+    {
+        "id": 120,
+        "enunciado": "A tag que deve ser utilizada no <head> da estrutura HTML e que serve para definir algumas informações do site, como \"author\", \"description\" e \"keywords\", se chama:",
+        "alternativas": [
+            "<meta>.",
+            "<content>.",
+            "<title>.",
+            "<script>.",
+            "<info>."
+        ],
+        "gabarito": "<meta>."
+    },
+    {
+        "id": 121,
+        "enunciado": "Na versão 5 da Linguagem de Marcação HTML, novos valores foram estabelecidos para o atributo \"type\" da tag <input>, aumentando sua versatilidade na construção de elementos de formulários. Sobre esses novos valores, analise as assertivas abaixo:\nI. O valor \"email\" para o atributo \"type\" cria um elemento para inserção de um endereço do e-mail onde a sintaxe do valor digitado será validada.\nII. O valor \"search\" para o atributo \"type\" cria um mecanismo de busca que se integra com o Google.\nIII. O valor \"tel\" para o atributo \"type\" aplica automaticamente uma máscara de formatação e validação para números de telefone.\nIV. O valor \"number\" para o atributo \"type\" cria uma estrutura que aceita apenas números e na qual pode-se estabelecer um escopo de valor mínimo e máximo.\nQuais estão corretas?",
+        "alternativas": [
+            "Apenas I e III.",
+            "Apenas I e IV.",
+            "Apenas II e III.",
+            "Apenas II e IV.",
+            "I, II, III, IV."
+        ],
+        "gabarito": "Apenas I e IV."
+    },
+    {
+        "id": 122,
+        "enunciado": "Tendo em vista as tags semânticas do HTML5 e suas descrições, relacione a Coluna 1 à Coluna 2.\nColuna 1\n1. <header>\n2. <nav>\n3. <aside>\n4. <article>\n5. <figure> Coluna 2\n( ) Define um conteúdo que é relacionado ao conteúdo principal de uma página, mas que pode ser considerado secundário ou complementar a ele.\n( ) Usada para marcar um conteúdo que é autônomo e pode ser considerado uma unidade independente.\n( ) Define uma seção de navegação em uma página, pode incluir links para outras páginas no site, bem como para seções diferentes da página atual.\n( ) Delimita o cabeçalho de uma página ou de uma seção específica de uma página.\n( ) Usada para marcar uma imagem ou outro tipo de conteúdo multimídia que é relevante para o conteúdo principal da página.\nA ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+        "alternativas": [
+            "3 – 4 – 2 – 1 – 5.",
+            "1 – 2 – 3 – 5 – 4.",
+            "2 – 3 – 5 – 4 – 1.",
+            "4 – 3 – 1 – 2 – 5.",
+            "5 – 1 – 4 – 3 – 2."
+        ],
+        "gabarito": "3 – 4 – 2 – 1 – 5."
+    },
+    {
+        "id": 123,
+        "enunciado": "Qual o nome do atributo da Linguagem de Marcação HTML que determina uma expressão regular que deve ser correspondente ao valor de entrada digitado em um elemento de formulário?",
+        "alternativas": [
+            "required.",
+            "placeholder.",
+            "pattern.",
+            "autocomplete.",
+            "accept."
+        ],
+        "gabarito": "pattern."
+    },
+    {
+        "id": 124,
+        "enunciado": "Em relação ao desenvolvimento front-end, analise as assertivas abaixo, assinalando V, se verdadeiras, ou F, se falsas.\n( ) Quando há necessidade de sobreposição de elementos, é possível controlar a ordem de camadas com a propriedade \"z-index\". Sendo assim, os elementos com essa propriedade que têm valores mais altos são exibidos mais à frente e com valores mais baixos são exibidos mais ao fundo.\n( ) Quando se trata da construção de um layout fluido, deve-se definir os elementos da página web com unidades de medida relativas, tais como pixels, ao invés de unidades absolutas como porcentagens.\n( ) A tag <div> foi descontinuada, e não é mais recomendada a sua utilização na construção de estruturas em HTML 5 por conta das tags semânticas.\n( ) Um layout responsivo é aquele que se ajusta para otimizar a exibição em dispositivos específicos através da definição de diferentes breakpoints.\nA ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+        "alternativas": [
+            "F – V – F – V.",
+            "V – V – F – F.",
+            "V – F – V – V.",
+            "V – F – F – V.",
+            "F – F – V – V."
+        ],
+        "gabarito": "V – F – F – V."
+    },
+    {
+        "id": 125,
+        "enunciado": "Avalie os elementos abaixo do HTML5.\nI. input\nII. label\nIII. section\nIV. textarea Em quais deles é possível utilizar o atributo placeholder?",
+        "alternativas": [
+            "Apenas I e II.",
+            "Apenas I e IV.",
+            "Apenas II e III.",
+            "Apenas III e IV.",
+            "I, II, III e IV."
+        ],
+        "gabarito": "Apenas I e IV."
+    },
+    {
+        "id": 126,
+        "enunciado": "Assinale a alternativa que apresenta um código-fonte em HTML5 em que os elementos do formulário não serão validados quando submetidos.",
+        "alternativas": [
+            "<form action=\"\" validate=\"formnovalidate\"> <label>Nome: <input name=\"nome\" required></label> <label>CPF: <input name=\"CPF\" required></label> <input type=\"submit\" value=\"Submeter\"> </form>.",
+            "<form action=\"\"> <label>Nome: <input name=\"nome\" required></label> <label>CPF: <input name=\"CPF\" required></label> <input type=\"submit\" value=\"Submeter\" novalidate> </form>.",
+            "<form action=\"\"> <label>Nome: <input name=\"nome\" required></label> <label>CPF: <input name=\"CPF\" required></label> <input type=\"submit\" value=\"Submeter\"> </form>.",
+            "<form action=\"\" check=\"false\"> <label>Nome: <input name=\"nome\" required></label> <label>CPF: <input name=\"CPF\" required></label> <input type=\"submit\" value=\"Submeter\"> </form>.",
+            "<form action=\"\" novalidate> <label>Nome: <input name=\"nome\" required></label> <label>CPF: <input name=\"CPF\" required></label> <input type=\"submit\" value=\"Submeter\"> </form>."
+        ],
+        "gabarito": "<form action=\"\" novalidate> <label>Nome: <input name=\"nome\" required></label> <label>CPF: <input name=\"CPF\" required></label> <input type=\"submit\" value=\"Submeter\"> </form>."
+    },
+    {
+        "id": 127,
+        "enunciado": "Uma folha de estilo externa é ideal quando o estilo é aplicado a muitas páginas. Com base nessas informações, analise as assertivas abaixo e assinale V, se verdadeiras, ou F, se falsas.\n( ) O arquivo deve conter tags HTML.\n( ) O arquivo de folha de estilo deve ser salvo com a extensão.xml\n( ) Uma folha de estilo externa somente poderá ser escrita em linguagem XHTML.\nA ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+        "alternativas": [
+            "V – V – V.",
+            "V – F – V.",
+            "F – F – F.",
+            "F – V – F.",
+            "V – V – F."
+        ],
+        "gabarito": "F – F – F."
+    },
+    {
+        "id": 128,
+        "enunciado": "Julgue o item subsequente, a respeito de HTML5, CSS3 e JavaScript.\nO elemento HTML <svg> é um contêiner para agráficos SVG (scalable vector graphics), sendo SVG um formato de arquivo vetorial de imagem compatível com aplicações web.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 129,
+        "enunciado": "Julgue o item subsequente, a respeito de HTML5, CSS3 e JavaScript.\nO código HTML/CSS a seguir apresenta Alo Mundo como resultado.\n<html> <p style=“text-transform:capitalize”> alo mundo </p> </html>",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 130,
+        "enunciado": "Elaborou-se o seguinte programa na linguagem HTML para que um som possa ser ouvido pelos usuários de uma página (X1, X2 e X3 correspondem a tags):\n<!DOCTYPE html> <html><body> <p>Clique para ouvir o som:</p> <X1 > <X2 src=”som.mp3” type=”audio/mpeg”> </X3> </body></html> Supondo-se que o navegador que executará esse programa suporte o formato do som (mp, X1, X2 e X3 são, respectivamente:",
+        "alternativas": [
+            "audio... source... audio.",
+            "audio controls... file... audio.",
+            "audio controls... file... audio controls.",
+            "audio controls... source... audio.",
+            "controls... file... controls."
+        ],
+        "gabarito": "audio controls... source... audio."
+    },
+    {
+        "id": 131,
+        "enunciado": "Analise o seguinte comando elaborado na linguagem HTML <img src= /link do arquivo align= ? /> que permite algumas opções no lugar do caractere “?”, dentre as quais:",
+        "alternativas": [
+            "center, left ou right.",
+            "fixed, relative ou absolute.",
+            "inf, sup ou mid.",
+            "start, end ou mean.",
+            "top, botton ou corner."
+        ],
+        "gabarito": "center, left ou right."
+    },
+    {
+        "id": 132,
+        "enunciado": "Elaborou-se um programa na linguagem HTML que, ao ser executado por um navegador que a suporte, exibiu na tela.\nAo se passar o mouse sobre RJ é exibido Rio de Janeiro. A linha de comando que possibilita essa exibição é:",
+        "alternativas": [
+            "<p>O <abbr = Rio de Janeiro RJ></abbr> é um estado do Brasil.</p>.",
+            "<p>O <abbr Rio de Janeiro> title= RJ </abbr> é um estado do Brasil.</p>.",
+            "<p>O <abbr title= RJ >Rio de Janeiro</abbr> é um estado do Brasil.</p>.",
+            "<p>O <abbr title= Rio de Janeiro > title= RJ </abbr> é um estado do Brasil.</p>.",
+            "<p>O <abbr title= Rio de Janeiro >RJ</abbr> é um estado do Brasil.</p>."
+        ],
+        "gabarito": "<p>O <abbr title= Rio de Janeiro >RJ</abbr> é um estado do Brasil.</p>."
+    },
+    {
+        "id": 133,
+        "enunciado": "Assinale a opção em que é apresentada a tag que permite vincular um manifesto web (web app manisfest) em um PWA (Progressive Web App).",
+        "alternativas": [
+            "<meta>.",
+            "<manifest>.",
+            "<json>.",
+            "<link>.",
+            "<a>."
+        ],
+        "gabarito": "<link>."
+    },
+    {
+        "id": 134,
+        "enunciado": "Assinale a opção que apresenta o código correto para gerar uma página HTML com a frase viva a vida, tal que a fonte seja Arial com tamanho 26 px, a frase esteja em itálico e a palavra “vida” em negrito.",
+        "alternativas": [
+            "<html> <body style=\"font-family: Arial\"> <div id=\"vida\"> <br/>viva a <spam name='texto'>vida</spam></br> </div> </body> </html> <script type=\"text/javascript\"> document.getElementById(\"texto\").style.fontSty le= 'italic'; document.getElementsByName(\"vida\")[0].style.fo ntWeight='bold'; document.getElementsByTagName(\"p\")[0].style.fo ntSize='26px'; </script>",
+            "<html> <body style=\"font-family: Arial\"> <div id=\"texto\"> <p>viva a <spam name='vida'>vida</spam></p> </div> </body> </html> <script type=\"text/javascript\"> document.getElementById(\"vida\").style.fontStyl e= 'italic'; document.getElementsByName(\"p\")[0].style.fontW eight='bold'; document.getElementsByTagName(\"texto\")[0].styl e.fontSize='26px'; </script>",
+            "<html> <body style=\"font-family: Arial\"> <div id=\"texto\"> <p>viva a vida</p> </div> </body> </html> <script type=\"text/javascript\"> document.getElementById(\"texto\").style.fontSty le= 'italic'; document.getElementsByName(\"texto\")[0].style.f ontWeight='bold'; document.getElementsByTagName(\"texto\").style.f ontSize='26px'; </script>",
+            "<html> <body style=\"font-family: Arial\"> <div id=\"texto\"> <p>viva a <spam name='vida'>vida</spam></p> </div> </body> </html> <script type=\"text/javascript\"> document.getElementById(\"texto\").style.fontSty le= 'italic'; document.getElementsByName(\"vida\".style.fontWe ight='bold'; document.getElementsByTagName(\"p\").style.fontS ize='26px'; </script>",
+            "<html> <body style=\"font-family: Arial\"> <div id=\"texto\"> <p>viva a <spam name='vida'>vida</spam></p> </div> </body> </html> <script type=\"text/javascript\"> document.getElementById(\"texto\").style.fontSty le= 'italic'; document.getElementsByName(\"vida\")[0].style.fo ntWeight='bold'; document.getElementsByTagName(\"p\")[0].style.fo ntSize='26px'; </script>"
+        ],
+        "gabarito": "<html> <body style=\"font-family: Arial\"> <div id=\"texto\"> <p>viva a <spam name='vida'>vida</spam></p> </div> </body> </html> <script type=\"text/javascript\"> document.getElementById(\"texto\").style.fontSty le= 'italic'; document.getElementsByName(\"vida\")[0].style.fo ntWeight='bold'; document.getElementsByTagName(\"p\")[0].style.fo ntSize='26px'; </script>"
+    },
+    {
+        "id": 135,
+        "enunciado": "São tags ativas da linguagem HTML, EXCETO:",
+        "alternativas": [
+            "<movie>.",
+            "<video>.",
+            "<audio>.",
+            "<img>.",
+            "<source>."
+        ],
+        "gabarito": "<movie>."
+    },
+    {
+        "id": 136,
+        "enunciado": "Na linguagem de programação HTML 5, o atributo que pode ser incluído no elemento <input> para indicar que o usuário não pode editar o conteúdo deste elemento é:",
+        "alternativas": [
+            "autocomplete=“off”.",
+            "placeholder.",
+            "readonly.",
+            "required.",
+            "size=“0”."
+        ],
+        "gabarito": "readonly."
+    },
+    {
+        "id": 137,
+        "enunciado": "Analise o código a seguir de um documento HTML:\nConsiderando as marcações presentes neste documento, é correto afirmar que as palavras Título, Subtítulo e Parágrafo serão apresentadas, respectivamente, nas cores",
+        "alternativas": [
+            "azul, verde e preta.",
+            "azul, vermelha e verde.",
+            "preta, verde e preta.",
+            "vermelha, azul e verde.",
+            "vermelha, azul e preta."
+        ],
+        "gabarito": "azul, verde e preta."
+    },
+    {
+        "id": 138,
+        "enunciado": "No contexto do HTML DOM, assinale a propriedade (property) que pode ser utilizada na programação para recuperar (get) ou alterar (change) qualquer elemento.",
+        "alternativas": [
+            "contents.",
+            "display.",
+            "getElementById.",
+            "innerHTML.",
+            "text."
+        ],
+        "gabarito": "innerHTML."
+    },
+    {
+        "id": 139,
+        "enunciado": "Considerando a versão atual do eMAG, avalie se as afirmativas a seguir são falsas (F) ou verdadeiras (V).\n( ) Os níveis de cabeçalho (elementos HTML H1 ao Hdevem ser utilizados de forma hierarquizada, eles organizam a ordem de importância e a subordinação dos conteúdos, facilitando a leitura e compreensão dos usuários; muitos leitores de tela usam a hierarquia de cabeçalhos como uma forma de navegação na página, pulando de um para outro, agilizando, assim, a navegação.\n( ) Devem ser fornecidas âncoras, disponíveis na barra de acessibilidade, que apontem para links relevantes presentes na mesma página; assim, é possível ir ao bloco de conteúdo desejado. Os links devem ser colocados em lugares estratégicos da página, por exemplo, no início e fim do conteúdo e início de fim do menu. É importante notar que o primeiro link da página deve ser o de ir para o conteúdo.\n( ) O código HTML deve ser organizado de forma semântica, ou seja, apresentando os elementos em uma ordem compreensível e correspondendo ao conteúdo desejado. Cada elemento HTML deve ser utilizado para o fim que ele foi criado.\nAS afirmativas são, respectivamente,",
+        "alternativas": [
+            "F, F e F.",
+            "F, V e F.",
+            "F, V e V.",
+            "V, F e F.",
+            "V, V e V."
+        ],
+        "gabarito": "V, V e V."
+    },
+    {
+        "id": 140,
+        "enunciado": "A linguagem HTML5 tornou obsoletas algumas tags utilizadas em versões anteriores. A tag <object> tornou obsoleta a tag",
+        "alternativas": [
+            "<dir>.",
+            "<basefont>.",
+            "<menu>.",
+            "<applet>.",
+            "<strike>."
+        ],
+        "gabarito": "<applet>."
+    },
+    {
+        "id": 141,
+        "enunciado": "Considere o seguinte trecho de código HTML, o qual utiliza o framework Bootstrap 5.\n<div class= dropdown > <button type=”button” class= btn btn-primary dropdown-toggle data-bs-toggle=”dropdown”> Opcoes </button> <ul class= dropdown-menu > <li> <a class= dropdown-item href= # >A</a> </li> <li> <a class= dropdown-item href= # >B</a> </li> <li> <a class= dropdown-item href= # >C</a> </li> </ul> </div> Pressuponha que as declarações e referências necessárias aos arquivos do Bootstrap estejam corretamente presentes na seção <head> da página.\nA saída produzida por esse trecho na página web corresponde a",
+        "alternativas": [
+            "um menu suspenso que, quando clicado, abre uma lista com três checkboxes: A, B e C.",
+            "três links exibidos diretamente na página, um em cada linha: A, B e C, sem a necessidade de se clicar em nenhum elemento para que sejam exibidos.",
+            "um menu suspenso que, quando clicado, abre uma lista com três links: A, B e C.",
+            "três radio buttons de um mesmo grupo, denominados A, B e C.",
+            "um botão seguido de uma lista com três links: A, B e C, ambos exibidos em sequência, sem a necessidade de se clicar no botão para exibir a lista."
+        ],
+        "gabarito": "um menu suspenso que, quando clicado, abre uma lista com três links: A, B e C."
+    },
+    {
+        "id": 142,
+        "enunciado": "<form> <fieldset> <legend>Login</legend> <p><label>Usuário <input type=”text” name=”usuario” required></label></p> <p><label>Senha <input type=”password” name=”senha” required></label></p> </fieldset> <p><button type=”submit”>Submeter</button></p> </form> Com relação ao código HTML5 acima apresentado, julgue o item.\nO elemento <form> representa uma seção do documento que contém controles interativos que permitem ao usuário submeter informação a um determinado servidor web.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 143,
+        "enunciado": "<form> <fieldset> <legend>Login</legend> <p><label>Usuário <input type=”text” name=”usuario” required></label></p> <p><label>Senha <input type=”password” name=”senha” required></label></p> </fieldset> <p><button type=”submit”>Submeter</button></p> </form> Com relação ao código HTML5 acima apresentado, julgue o item.\nO elemento <fieldset> foi usado no código de modo indevido, pois ele deve ser usado quando se quer um cabeçalho principal com um ou mais subcabeçalhos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 144,
+        "enunciado": "<form> <fieldset> <legend>Login</legend> <p><label>Usuário <input type=”text” name=”usuario” required></label></p> <p><label>Senha <input type=”password” name=”senha” required></label></p> </fieldset> <p><button type=”submit”>Submeter</button></p> </form> Com relação ao código HTML5 acima apresentado, julgue o item.\nNo código apresentado, o elemento <button> representa um botão clicável.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 145,
+        "enunciado": "<form> <fieldset> <legend>Login</legend> <p><label>Usuário <input type=”text” name=”usuario” required></label></p> <p><label>Senha <input type=”password” name=”senha” required></label></p> </fieldset> <p><button type=”submit”>Submeter</button></p> </form> Com relação ao código HTML5 acima apresentado, julgue o item.\nNo código HTML5 apresentado, o elemento <label> foi associado com um elemento de controle, o que não é permitido. Dessa forma, o código não será compilado corretamente.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 146,
+        "enunciado": "<form> <fieldset> <legend>Login</legend> <p><label>Usuário <input type=”text” name=”usuario” required></label></p> <p><label>Senha <input type=”password” name=”senha” required></label></p> </fieldset> <p><button type=”submit”>Submeter</button></p> </form> Com relação ao código HTML5 acima apresentado, julgue o item.\nApós o código ser salvo no arquivo teste.html e aberto por um navegador, o resultado será o seguinte.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 147,
+        "enunciado": "Muitas vezes é necessário adicionar um link, em uma página HTML, de modo a criar um vínculo com outro documento ou recurso. Para adicionar um link com essa finalidade, utiliza-se",
+        "alternativas": [
+            "<h1></h1>.",
+            "<p></p>.",
+            "<a></a>.",
+            "<head></head>.",
+            "<br></br>."
+        ],
+        "gabarito": "<a></a>."
+    },
+    {
+        "id": 148,
+        "enunciado": "Analise o comando a seguir no contexto de uma página Web.\ndocument.getElementById(\"xpto\").style.display = \"none\";\nAlém do caso exemplificado, a propriedade display de um elemento HTML aceita vários outros valores. Dentre eles, estão:",
+        "alternativas": [
+            "“block” e “inline”;",
+            "“header” e “footer”;",
+            "“left” e “right”;",
+            "“paragraph” e “span”;",
+            "“up” e “down”."
+        ],
+        "gabarito": "“block” e “inline”;"
+    },
+    {
+        "id": 149,
+        "enunciado": "No contexto da descrição de paths (caminhos) de arquivos no HTML, a expressão que faz referência a um arquivo numa pasta localizada um nível acima da pasta corrente é:",
+        "alternativas": [
+            "<img src=\"../figura.jpg\">.",
+            "<img src=\"..figura.jpg\">.",
+            "<img src=\"/../figura.jpg\">.",
+            "<img src=\"/figura.jpg\">.",
+            "<img src=\"figura.jpg\">."
+        ],
+        "gabarito": "<img src=\"../figura.jpg\">."
+    },
+    {
+        "id": 150,
+        "enunciado": "Observe a imagem a seguir.\nO código HTML que gera corretamente a visualização da página conforme a imagem acima é:",
+        "alternativas": [
+            ".",
+            ".",
+            ".",
+            "."
+        ],
+        "gabarito": "."
+    },
+    {
+        "id": 151,
+        "enunciado": "1 <!DOCTYPE html>\n2 <html>\n3 <head>\n4 <style>\n5 XPTO 6 </style> 7 </head> 8 <body> 9 <h1>TBG</h1> 10 <div class=“tbg”> 11 Nossa missão é prover as melhores soluções logísticas conectando as ofertas de gás natural aos mercados, agregando valor em benefício do progresso sustentável da indústria, da geração termelétrica e do aquecimento dos lares.\n12 </div> 13 </body> 14 </html> Considerando o código precedente, julgue o item subsequente.\nPara se apresentar corretamente o texto presente na linha 11 em 3 colunas, o comando.tbg { column-count: 3;} deve ser inserido no lugar dos caracteres XPTO, na linha\n5.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 152,
+        "enunciado": "No contexto de um documento HTML, a definição charset=\"UTF-8\" é introduzida em uma tag",
+        "alternativas": [
+            "<collage>.",
+            "<font>.",
+            "<mark>.",
+            "<meta>."
+        ],
+        "gabarito": "<meta>."
+    },
+    {
+        "id": 153,
+        "enunciado": "Considere um trecho de um documento HTML como segue.\nA partir dos elementos acima expostos, corretamente formulados, assinale o efeito completo provocado pelo primeiro clique no botão.",
+        "alternativas": [
+            "A movimentação da caixa preta para a direita e para baixo.",
+            "A movimentação da caixa preta para a direita, e a redução da sua altura.",
+            "A movimentação da caixa preta para a direita, somente.",
+            "A redução da altura da caixa, somente."
+        ],
+        "gabarito": "A movimentação da caixa preta para a direita, e a redução da sua altura."
+    },
+    {
+        "id": 154,
+        "enunciado": "Na linguagem HTML5, o elemento input aceita diversos valores para o atributo type, dentre eles os destinados a datas e horas, como:",
+        "alternativas": [
+            "datetime-local e datetime-Greenwich.",
+            "datetime e date.",
+            "fortnight e week.",
+            "seconds e miliseconds.",
+            "year e month."
+        ],
+        "gabarito": "datetime e date."
+    },
+    {
+        "id": 155,
+        "enunciado": "HTML5 é uma abreviação de Hypertext Markup Language (Linguagem de Marcação de Hipertexto). Ela é uma linguagem de marcação usada para definir a estrutura do seu conteúdo e que consiste em uma série de elementos. Um elemento HTML é separado de outro texto em um documento por “tags”, que consistem no nome do elemento entre “<” e “>”. Assinale a alternativa que apresenta uma forma correta para destacar um texto com negrito.",
+        "alternativas": [
+            "<p><bold>Negrito</bold></p>.",
+            "<p style=”font:bold”>Negrito</p>.",
+            "<p style=”font-style:bold;”>Negrito</p>.",
+            "<p><b>Negrito</b></p>.",
+            "<p><mark>Negrito</mark></p>."
+        ],
+        "gabarito": "<p><b>Negrito</b></p>."
+    },
+    {
+        "id": 156,
+        "enunciado": "Elaborou-se o seguinte programa na Linguagem HTML, no qual corresponde a uma parte omitida:\n<!DOCTYPE html> <html><body> <video width=“320” height=“240” > <source src=“filme.mp4” type=“ video/mp4”> </video> </body></html> Para que o programa, quando executado por um navegador que suporte HTML, como o Chrome ou o Edge, inicie automaticamente o vídeo sem som, deve ser substituído por:",
+        "alternativas": [
+            "autostart without sound.",
+            "autoplay.",
+            "autoplay muted.",
+            "controls.",
+            "play=on sound=off."
+        ],
+        "gabarito": "autoplay muted."
+    },
+    {
+        "id": 157,
+        "enunciado": "O programador elaborou o seguinte programa feito na Linguagem HTML:\n<!DOCTYPE html> <html><body> <strong>Site da Empresa A</strong> </body></html> Quando esse programa for executado por um navegador que suporte o HTML, como o Chrome ou o Edge, o texto “Site da Empresa A” será exibido tipicamente como",
+        "alternativas": [
+            "bold.",
+            "itálico.",
+            "piscante.",
+            "sublinhado.",
+            "tachado."
+        ],
+        "gabarito": "bold."
+    },
+    {
+        "id": 158,
+        "enunciado": "Acerca da linguagem XML, da linguagem HTML e dos conceitos de DMZ e IDS, julgue o item.\nA função do elemento HTML <meta charset=”UTF-8”> em um documento web é definir a cor de fundo da página.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 159,
+        "enunciado": "Uma das técnicas para proteger um campo de uma página HTML de ataque de Cross-Site Scripting (XSS) é executar uma operação de substituição no valor string de entrada para sanitizar os caracteres < e>. Considere o script JavaScript abaixo.\n<script> var sanitizado;\nfunction sanitizar (input) { sanitizado =...I... ;\ndocument.getElementById(\"output\").textContent = sanitizado;\n} </script> Para sanitizar o conteúdo da string input a lacuna I deve ser preenchida pelo comando",
+        "alternativas": [
+            "input.replace(\"<\" || \">\", \"\").",
+            "input.sanitize(/</g, \"&lt;\"). sanitize(/>/g, \"&gt;\").",
+            "input.sanitize (\"<\", \"<\"). sanitize (\">\", \">\").",
+            "input.sanitizeAll(\"<\" || \">\", \"\").",
+            "input.replace(/</g, \"&lt;\").replace(/>/g, \"&gt;\")."
+        ],
+        "gabarito": "input.replace(/</g, \"&lt;\").replace(/>/g, \"&gt;\")."
+    },
+    {
+        "id": 160,
+        "enunciado": "Quando lidamos com desenvolvimento web, é indispensável o conhecimento sobre a linguagem de marcação HTML, isto por que os navegadores são responsáveis por sua interpretação, a fim de, exibir na tela as estruturas que foram definidas. Sobre a linguagem HTML, assinale a alternativa que apresenta qual a principal finalidade da tag meta.",
+        "alternativas": [
+            "Fornecer uma lista ordenada.",
+            "Fornecer o título da página.",
+            "Fornecer dados através de campos para que sejam enviados através do protocolo HTTP.",
+            "Fornecer meta dados sobre a página, como codificação de caracteres, descrição, autor, etc."
+        ],
+        "gabarito": "Fornecer meta dados sobre a página, como codificação de caracteres, descrição, autor, etc."
+    },
+    {
+        "id": 161,
+        "enunciado": "Julgue o item a seguir.\nO HTML é uma linguagem de marcação utilizada para estruturar o conteúdo de uma página web, sendo a versão mais antiga e menos semântica em comparação com o HTML5.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 162,
+        "enunciado": "Um desenvolvedor de HTML precisa construir um código com os requisitos abaixo. Com base nisso, assinalar o código que atende aos requisitos e está com tags e atributos CORRETOS:\nUse as regras CSS do arquivo Estilo.css.\nTenha um formulário que envie os dados para Processa.php por parâmetros na URL.\nTenha uma área de texto com 3 linhas e 5 colunas.\nTenha um link para https://tinyurl.com/j2mx4nt que abra numa nova guia ou janela.\nDefina a codificação dos caracteres da página como UTF-8.",
+        "alternativas": [
+            "<html> <head> <meta charset=\"UTF-8\"> <link rel=\"stylesheet\" type=\"text/css\" href=\"Estilo.css\"> </head> <body> <a href=\"https://tinyurl.com/j2mx4nt\" target=\"_blank\"> Ver Instruções </a> <form action=\"Processa.php\" method=\"GET\"> <textarea rows=\"3\" cols=\"5\" name=\"area_texto\"> </textarea> <input type=\"submit\" value=\"Enviar\"> </form> </body> </html>.",
+            "<html> <head> <char charset=\"UTF-8\"> <code rel=\"stylesheet\" type=\"text/css\" href=\"Estilo.css\"> </head> <body> <a href=\"https://tinyurl.com/j2mx4nt\" target=\"_self\"> Ver Instruções </a> <form action=\"Processa.php\" method=\"POST\"> <textarea rows=\"3\" cols=\"5\" name=\"area_texto\"> </textarea> <input type=\"submit\" value=\"Enviar\"> </form> </body> </html>.",
+            "<html> <head> <meta charset=\"UTF-8\"> <link rel=\"stylesheet\" type=\"text/css\" href=\"Estilo.css\"> </head> <body> <link href=\"https://tinyurl.com/j2mx4nt\" target=\"_blank\"> Ver Instruções </link> <form method=\"Processa.php\" action=\"GET\"> <textarea name=\"area_texto\"> </textarea> <input type=\"submit\" value=\"Enviar\"> </form> </body> </html>.",
+            "<html> <head> <meta charset=\"UTF-8\"> <link rel=\"stylesheet\" type=\"text/css\" href=\"Estilo.css\"> </head> <body> <a link=\"https://tinyurl.com/j2mx4nt\" target=\"_parent\"> Ver Instruções </a> <form action=\"Processa.php\" method=\"GET\"> <textarea rows=\"5\" cols=\"3\" name=\"area_texto\"> </textarea> <input type=\"submit\" value=\"Enviar\"> </form> </body> </html>."
+        ],
+        "gabarito": "<html> <head> <meta charset=\"UTF-8\"> <link rel=\"stylesheet\" type=\"text/css\" href=\"Estilo.css\"> </head> <body> <a href=\"https://tinyurl.com/j2mx4nt\" target=\"_blank\"> Ver Instruções </a> <form action=\"Processa.php\" method=\"GET\"> <textarea rows=\"3\" cols=\"5\" name=\"area_texto\"> </textarea> <input type=\"submit\" value=\"Enviar\"> </form> </body> </html>."
+    },
+    {
+        "id": 163,
+        "enunciado": "Analise o programa a seguir, elaborado na linguagem HTML5. Na terceira linha, um elemento foi omitido e substituído por.\n<!DOCTYPE html> <body> <input name= valuex type= \" \"value= 50 step= 10 min= 0 max= 100 /> </body></html> Ao ser aberto por um navegador que suporte HTML5, como o Chrome ou o Edge, será exibido na tela:\nDessa forma, o elemento é:",
+        "alternativas": [
+            "bar.",
+            "range.",
+            "slide.",
+            "number.",
+            "value."
+        ],
+        "gabarito": "range."
+    },
+    {
+        "id": 164,
+        "enunciado": "Um programador está elaborando um programa na linguagem HTML5 para ser executado por um navegador como o Chrome ou o Edge, e deseja inserir áudio em uma página web. Ele deseja que o controle de áudio com botões de play, pause, volume etc. seja exibido na tela.\nUm comando que possibilita implementar o que foi especificado pelo programador é:",
+        "alternativas": [
+            "<audio src= mus.mp3 barcontrol= start />.",
+            "<audio src= mus.mp3 controlbar= on />.",
+            "<audio src= mus.mp3 controlbar= start />.",
+            "<audio src= mus.mp3 controls= true />.",
+            "<audio src= mus.mp3 oncontrols/>."
+        ],
+        "gabarito": "<audio src= mus.mp3 controls= true />."
+    },
+    {
+        "id": 165,
+        "enunciado": "Um programador elaborou um programa na linguagem HTML para ser executado por um navegador como o Chrome ou o Edge. O programa exibe a imagem “empresax.jpg” em uma página web e, abaixo dela, a legenda “Novo produto da empresa.”. A seguir é exibido o trecho do programa que exibe a figura e a legenda, sendo que A e B substituem tags que o programador utilizou.\n<A> <img src= \"empresax.jpg\" alt= \"empresa x\" style= \"width:10% \"> <B> Novo produto da empresa.</B> </A> Considerando as tags da linguagem HTML especificadas para a finalidade pretendida, as tags A e B são, respectivamente:",
+        "alternativas": [
+            "figure e figcaption.",
+            "form e subtitle.",
+            "image e subimage.",
+            "picture e subpicture.",
+            "print e label."
+        ],
+        "gabarito": "figure e figcaption."
+    },
+    {
+        "id": 166,
+        "enunciado": "Deseja-se elaborar um programa com a linguagem HTML que exiba uma página Web com uma tabela. O programa será executado por um navegador como o Chrome ou o Edge. Para que se permita que essa tabela tenha o título “Tabela 1” antes da sua exibição, um comando que pode ser incorporado na posição apropriada, considerando as tags da linguagem HTML especificadas para a finalidade pretendida, é:",
+        "alternativas": [
+            "<caption>Tabela 1</caption>.",
+            "<head Tabela 1></head>.",
+            "<headline = \"Tabela 1\" >.",
+            "<name=Tabela 1</name>.",
+            "<title>Tabela 1</ title>."
+        ],
+        "gabarito": "<caption>Tabela 1</caption>."
+    },
+    {
+        "id": 167,
+        "enunciado": "Analise o programa a seguir, elaborado na linguagem HTML, sendo que na quarta linha uma tag foi substituída por A.\n<!DOCTYPE html> <html><body> <label for= \"disco\" >Uso do disco:</label> <A id= \"disco\" value= \"5\" min= \"0\" max= \"10\" >5 out of 10</A><br> </body></html> Quando o programa for executado por um navegador como o Chrome ou o Edge, é exibido na tela:\nUso do disco:\nConsiderando a tag da linguagem HTML especificada para a finalidade pretendida, e versões dos navegadores que suportem tal recurso, a tag A é:",
+        "alternativas": [
+            "bar.",
+            "grid.",
+            "meter.",
+            "range.",
+            "slide."
+        ],
+        "gabarito": "meter."
+    },
+    {
+        "id": 168,
+        "enunciado": "Elaborou-se o seguinte programa na linguagem HTML:\n<!DOCTYPE html> <html><body> <address> Mensagens para <a href= mailto:suporte@empresax.com >Antonio Silva</a>.<br> </address> </body></html> Quando ele for executado por um navegador como o Chrome ou o Edge, será exibido na tela:",
+        "alternativas": [
+            "Mensagens para suporte@empresax.com.",
+            "Mensagens para mailto:suporte@empresax.com.",
+            "Mensagens para Antonio Silva suporte@empresax.com.",
+            "Mensagens para suporte@empresax.com Antonio Silva.",
+            "Mensagens para Antonio Silva."
+        ],
+        "gabarito": "Mensagens para Antonio Silva."
+    },
+    {
+        "id": 169,
+        "enunciado": "Assinale a alternativa que apresenta uma tag suportada no HTML 5:",
+        "alternativas": [
+            "<applet>.",
+            "<center>.",
+            "<big>.",
+            "<form>."
+        ],
+        "gabarito": "<form>."
+    },
+    {
+        "id": 170,
+        "enunciado": "O elemento HTML (tag) usado para especificar legendas, arquivos de legenda ou outros arquivos contendo texto, que devem ser visíveis quando uma mídia está sendo reproduzida, é:",
+        "alternativas": [
+            "track.",
+            "summary.",
+            "legend.",
+            "details.",
+            "caption."
+        ],
+        "gabarito": "track."
+    },
+    {
+        "id": 171,
+        "enunciado": "Qual a tag HTML padrão para definir um link?",
+        "alternativas": [
+            "<a>.",
+            "<link>.",
+            "<hyper>.",
+            "<markup>.",
+            "<hyperlink>."
+        ],
+        "gabarito": "<a>."
+    },
+    {
+        "id": 172,
+        "enunciado": "São atributos válidos da tag de imagem <img> HTML:\n1. src\n2. alt\n3. width\n4. res\n5. height Assinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "São corretas apenas as afirmativas 1, 2, 3 e 4.",
+            "São corretas apenas as afirmativas 1, 2, 3 e 5.",
+            "São corretas apenas as afirmativas 1, 2, 4 e 5.",
+            "São corretas apenas as afirmativas 2, 3, 4 e 5.",
+            "São corretas as afirmativas 1, 2, 3, 4 e 5."
+        ],
+        "gabarito": "São corretas apenas as afirmativas 1, 2, 3 e 5."
+    },
+    {
+        "id": 173,
+        "enunciado": "Assinale a alternativa que indica corretamente a tag meta HTML (através do atributo name) que pode ser adicionada a uma página web de modo que o browser ou navegador a trate de modo responsivo.",
+        "alternativas": [
+            "dynamic.",
+            "portable.",
+            "viewport.",
+            "adaptable.",
+            "responsive."
+        ],
+        "gabarito": "viewport."
+    },
+    {
+        "id": 174,
+        "enunciado": "Qual entidade HTML é aquela que denota um espaço em branco sem quebra de linha?",
+        "alternativas": [
+            "&alt;",
+            "&space;",
+            "&nobreak;",
+            "&blank;",
+            "&nbsp;"
+        ],
+        "gabarito": "&nbsp;"
+    },
+    {
+        "id": 175,
+        "enunciado": "Em HTML, a configuração de fundo de uma homepage numa determinada cor é feita por meio do parâmetro bgcolor na tag <body>. Portanto, se um webdesigner escolher a cor amarela ou verde, pode utilizar <body bgcolor=yellow> ou <body bgcolor=green>. Para esse caso, também podem ser utilizadas, respectivamente, as sintaxes",
+        "alternativas": [
+            "<body bgcolor=”#FF00FF”> e <body bgcolor=”0000FF”>.",
+            "<body bgcolor=”#FF00FF”> e <body bgcolor=”00FF00”>.",
+            "<body bgcolor=”#FFFF00”> e <body bgcolor=”0000FF”>.",
+            "<body bgcolor=”#FFFF00”> e <body bgcolor=”00FF00”>.",
+            "<body bgcolor=”#FFFF00”> e <body bgcolor=”FF0000”>."
+        ],
+        "gabarito": "<body bgcolor=”#FFFF00”> e <body bgcolor=”00FF00”>."
+    },
+    {
+        "id": 176,
+        "enunciado": "Um Analista de Sistemas está elaborando um site usando HTML e criou um hiperlink em uma página, de modo que, clicando na citação PREFEITURA DE JATAÍ – GO, o site da prefeitura é exibido numa nova janela do browser.\nPara isso, a tag utilizada na sintaxe HTML para essa situação está indicada na seguinte alternativa:",
+        "alternativas": [
+            ".",
+            ".",
+            ".",
+            ".",
+            "."
+        ],
+        "gabarito": "."
+    },
+    {
+        "id": 177,
+        "enunciado": "A coluna da esquerda apresenta elementos presentes no HTML5 e a da direita, a característica de cada um. Numere a coluna da direita de acordo com a da esquerda.\n1. <div> ( ) Insere quebra de linha.\n2. <br> ( ) Cria uma nova seção.\n3. <h1> ( ) Põe um comentário.\n4. <!-- --> ( ) Define um título.\nMarque a sequência correta.",
+        "alternativas": [
+            "3, 4, 2, 1.",
+            "3, 1, 4, 2.",
+            "2, 1, 3, 4.",
+            "2, 1, 4, 3.",
+            "2, 4, 1, 3."
+        ],
+        "gabarito": "2, 1, 4, 3."
+    },
+    {
+        "id": 178,
+        "enunciado": "Os navegadores (browsers) Web nasceram com a função de recuperação e exibição de informações estáticas e, atualmente, representam um suporte essencial para a criação e distribuição de complexos sistemas de informação baseados na Web. A característica de um sistema baseado na Web de ser capaz de adaptar a disposição e formatação dos componentes de sua interface com usuário aos diversos contextos de navegadores, como tamanho de tela, dispositivos de entrada (mouse, toque, etc.), de modo a aumentar a sua usabilidade, denomina-se:",
+        "alternativas": [
+            "disponibilidade.",
+            "responsividade.",
+            "expansividade.",
+            "abstração."
+        ],
+        "gabarito": "responsividade."
+    },
+    {
+        "id": 179,
+        "enunciado": "Julgue o item seguinte, a respeito da formatação de dados.\nA tag <meta charset=\"UTF-8\"> define o conjunto de caracteres usado na página, nesse caso, o UTF-8, que é o padrão para HTML5.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 180,
+        "enunciado": "Um desenvolvedor front end está implementando uma tela em HTML5 que requer uma imagem. Sobre o uso da imagem em HTML 5, analise as assertivas e assinale a alternativa que aponta a(s) correta(s).\nI. O padrão HTML5 descreve o elemento section como um agrupamento temático próprio para imagens.\nII. A alternância de resolução no HTML 5, conhecida como resolution switching, configura a responsividade automática de uma imagem.\nIII. O padrão HTML5 exige que, para cada elemento img, seja fornecido um atributo alt (para alternativa).",
+        "alternativas": [
+            "Apenas I.",
+            "Apenas II.",
+            "Apenas III.",
+            "Apenas I e II.",
+            "Apenas II e III."
+        ],
+        "gabarito": "Apenas III."
+    },
+    {
+        "id": 181,
+        "enunciado": "Num documento HTML5, assinale o elemento que contém meta informações sobre a página.",
+        "alternativas": [
+            "<!DOCTYPE html>.",
+            "<body> (.",
+            "<head>.",
+            "<html>.",
+            "<script>."
+        ],
+        "gabarito": "<head>."
+    },
+    {
+        "id": 182,
+        "enunciado": "No cabeçalho de uma página HTML deseja-se indicar ao navegador o conjunto de caracteres recomendado pela linguagem HTML5, que abrange a maioria dos caracteres e símbolos utilizados na maior parte dos idiomas, inclusive acentos existentes no Português. Para isso deve-se utilizar a instrução",
+        "alternativas": [
+            "<meta charset=\"UTF-8\">.",
+            "<meta charset=\"ISO-8959-1\">.",
+            "<meta charset=\"Windows-8859\">.",
+            "<meta charset=\"ASC-II\">.",
+            "<meta charset=\"PT-BR\">."
+        ],
+        "gabarito": "<meta charset=\"UTF-8\">."
+    },
+    {
+        "id": 183,
+        "enunciado": "A linguagem HTML é o bloco de construção mais básico da web, servindo para estruturar as páginas web. Em relação à linguagem HTML, assinale a alternativa CORRETA.",
+        "alternativas": [
+            "O HTML é uma linguagem de programação.",
+            "O HTML é uma linguagem de estilização.",
+            "O HTML é uma linguagem de marcação.",
+            "O HTML é uma linguagem de script.",
+            "O HTML é uma linguagem de baixo nível."
+        ],
+        "gabarito": "O HTML é uma linguagem de marcação."
+    },
+    {
+        "id": 184,
+        "enunciado": "Considerando o código da página web abaixo, analise as assertivas seguintes.\n<!DOCTYPE html> <html> <head> <style> div { color: darkblue;\nwidth: 200px;\nborder: 15px solid green;\npadding: 30px;\nmargin: 20px;\ntext-align: center;\n} div p { text-align: justify;\npadding: 0px;\nmargin: 0px;\n} </style> </head> <body> <div> <h2>HTML</h2> <p>Linguagem utilizada para construir a estrutura de uma página web.</p> </div> </body> </html>\nI. O elemento div define uma seção em uma página web e é equivalente ao elemento span.\nII. No CSS, o seletor div p corresponde todos os parágrafos dentro de qualquer elemento div.\nIII. A cor de fundo do elemento div foi definida para darkblue.\nIV. O tamanho da área em volta da borda do elemento div foi definida para 30px e o tamanho da área em volta do conteúdo do elemento div foi definida para 20px.\nV. A largura disponível para o parágrafo dentro do elemento div é de 170px.\nSobre as assertivas acima, é correto afirmar que:",
+        "alternativas": [
+            "Todas as afirmativas são verdadeiras.",
+            "Apenas uma afirmativa é verdadeira.",
+            "Apenas duas afirmativas são verdadeiras.",
+            "Apenas três afirmativas são verdadeiras."
+        ],
+        "gabarito": "Apenas duas afirmativas são verdadeiras."
+    },
+    {
+        "id": 185,
+        "enunciado": "Sobre elementos block-level (nível de bloco) e elementos inline (em linha) no HTML, analise as afirmativas a seguir.\nI. Um elemento block-level sempre começa numa nova linha.\nII. <p> é um elemento inline.\nIII. <div> é um elemento block-level.\nEstá correto somente o que se afirma em:",
+        "alternativas": [
+            "I;",
+            "II;",
+            "I e II;",
+            "I e III;",
+            "II e III."
+        ],
+        "gabarito": "I e III;"
+    },
+    {
+        "id": 186,
+        "enunciado": "Analise as tags abaixo da linguagem HTML:\n<header> <body> <section> <form> <footer> Quantas foram introduzidas no HTML5?",
+        "alternativas": [
+            "1.",
+            "2.",
+            "3.",
+            "4.",
+            "5."
+        ],
+        "gabarito": "3."
+    },
+    {
+        "id": 187,
+        "enunciado": "A respeito dos elementos utilizados na linguagem HTML 5 (HyperText Markup Language), julgue o item.\nEm HTML 5, o elemento aside define um bloco de conteúdo que faz referência ao conteúdo principal que o cerca.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 188,
+        "enunciado": "A respeito dos elementos utilizados na linguagem HTML 5 (HyperText Markup Language), julgue o item.\nQuando se deseja realizar a importação e a incorporação de recursos externos, é obrigatório o uso do elemento article, o qual tem apenas essa finalidade.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 189,
+        "enunciado": "A respeito dos elementos utilizados na linguagem HTML 5 (HyperText Markup Language), julgue o item.\nGeralmente, o elemento embed é considerado como o ponto central do conteúdo do documento, tendo em vista que sua principal função é marcar o conteúdo a ser distribuído via RSS.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 190,
+        "enunciado": "A respeito dos elementos utilizados na linguagem HTML 5 (HyperText Markup Language), julgue o item.\nNo HTML 5, existe a possibilidade de uma ou mais imagens estarem inseridas em um elemento figure.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 191,
+        "enunciado": "A respeito dos elementos utilizados na linguagem HTML 5 (HyperText Markup Language), julgue o item.\nÉ permitido, por meio do elemento canvas, que a informação para a construção de imagens baseadas em pixels seja inserida diretamente no código do documento.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 192,
+        "enunciado": "A figura abaixo mostra o resultado da execução de um código HTML.\nNa programação, foram adotados os procedimentos listados a seguir.\nI. Se, por meio do mouse clicar na imagem , do arquivo IFRJ.JPG, nada acontece.\nII. Se passar o mouse sobre a sigla IFRJ ,aparece uma “mãozinha” sobre ela, significando que há um hiperlink. Ao clicar nela, será mostrada a homepage do IFRJ que corresponde à URL https://portal.ifrj.edu.br/ Nessas condições, o código HTML para essa situação está indicado na seguinte alternativa:",
+        "alternativas": [
+            ".",
+            ".",
+            ".",
+            "."
+        ],
+        "gabarito": "."
+    },
+    {
+        "id": 193,
+        "enunciado": "O elemento HTML, que contém informações de estilo para um documento ou uma parte do documento, é descrito através do elemento",
+        "alternativas": [
+            "style.",
+            "div.",
+            "title.",
+            "table."
+        ],
+        "gabarito": "style."
+    },
+    {
+        "id": 194,
+        "enunciado": "Considere o bloco de código abaixo, presente em uma página HTML.\n<body> <script> var a = 2;\nvar b = 3;\nif (a!=b) document.write(\"M1\");\nelse { document.write(\"M2\");\n} </script> </body> Ao carregar essa página em um navegador web,",
+        "alternativas": [
+            "ocorrerá um erro decorrente do uso de ! na comparação a!=b.",
+            "ocorrerá um erro, pois document.write(\"M1\"); deve estar entre chaves.",
+            "será exibido o valor M1.",
+            "ocorrerá um erro, pois document.write(\"M2\"); não deve estar entre chaves.",
+            "será exibido o valor M2."
+        ],
+        "gabarito": "será exibido o valor M1."
+    },
+    {
+        "id": 195,
+        "enunciado": "Uma Analista deseja escrever no rodapé da página web HTML5 “Copyright ©”, sem aspas, indicando que a página possui direitos autorais. Uma das maneiras corretas de fazer isso é por meio da instrução",
+        "alternativas": [
+            "<p>Copyright &copy;</p>.",
+            "<p>Copyright &szlig;</p>.",
+            "<p>Copyright &circledR;</p>.",
+            "<p>Copyright &copyright;</p>.",
+            "<p>Copyright &cpsymbol;</p>."
+        ],
+        "gabarito": "<p>Copyright &copy;</p>."
+    },
+    {
+        "id": 196,
+        "enunciado": "O HTML5 trouxe novos elementos e atributos e a redefinição de alguns elementos e atributos existentes, dentre outras alterações. O atributo que torna arrastável o elemento em que foi inserido e que admite os valores true, false e auto é:",
+        "alternativas": [
+            "id.",
+            "hidden.",
+            "dropzone.",
+            "draggable."
+        ],
+        "gabarito": "draggable."
+    },
+    {
+        "id": 197,
+        "enunciado": "Na linguagem HTML,",
+        "alternativas": [
+            "as listas podem ser ordenadas, criadas com o par de comandos <UL></UL>, e não ordenadas, criadas com <OL></OL>.",
+            "caso uma página seja extensa, pode-se criar âncoras, que são marcas colocadas dentro do texto e que são utilizadas como endereço de link.",
+            "os comandos para a criação de uma tabela são: <TABLE></TABLE>, que definem a tabela e deve envolver os demais comandos; <TD></TD>, que definem uma linha da tabela; e <TR></TR>, que criam as colunas ou células de cada linha da tabela.",
+            "para dividir uma seção da página, utiliza-se o comando <DV>, que insere no local uma linha divisória na largura da tela.",
+            "um link é criado pelo comando <A LINK=”endereço”> Texto</A>, no qual “endereço” corresponde a um endereço da Internet."
+        ],
+        "gabarito": "caso uma página seja extensa, pode-se criar âncoras, que são marcas colocadas dentro do texto e que são utilizadas como endereço de link."
+    },
+    {
+        "id": 198,
+        "enunciado": "A respeito da linguagem JavaScript, do HTML 5 e do CSS3, julgue o item.\nEm HTML5, o atributo src fornece as especificidades da imagem que o programador deseja incluir.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 199,
+        "enunciado": "A respeito da linguagem JavaScript, do HTML 5 e do CSS3, julgue o item.\nOs atributos globais são aqueles que podem ser usados somente com os elementos novos da HTML 5, e não com todos os seus elementos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 200,
+        "enunciado": "Hyper Text Markup Language (HTML) é linguagem que utilizamos para desenvolver os conteúdos presentes em páginas da Internet. Um arquivo HTML possui tags que auxiliam os navegadores no processo de interpretação e renderização do conteúdo que deve ser visualmente apresentado para o usuário. Duas importantes tags do HTML são as tags <font> e <input>.\nMarque a alternativa que indica, respectivamente, dois nomes de atributos que podem ser usados na tag <font> e dois nomes de atributos que podem ser usados na tag <input>.",
+        "alternativas": [
+            "size, face, type e value.",
+            "blink, opacity, name e type.",
+            "size, color, type, gauge.",
+            "face, blink, value e name.",
+            "color, size, blink e type."
+        ],
+        "gabarito": "size, face, type e value."
+    }
+]

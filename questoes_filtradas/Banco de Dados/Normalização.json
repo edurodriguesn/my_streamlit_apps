@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "enunciado": "Uma organização registra seus colaboradores e os telefones associados no sistema com a seguinte tabela:\nColaboradorID Nome Telefones\n1 Ana Paula (195678-8976; (19887-1267\n2 Carlos Pereira(49789-2234\n3 Joana Silva (19689-3393; (29523-4962 Nesse caso, ColaboradorID é chave primária e a coluna Telefones armazena múltiplos valores (separados por \";\").\nPara garantir que a tabela esteja em 1ª forma normal (1NF), deve-se",
+        "enunciado": "Uma organização registra seus colaboradores e os telefones associados no sistema com a seguinte tabela:\n{image(1)}\nNesse caso, ColaboradorID é chave primária e a coluna Telefones armazena múltiplos valores (separados por \";\").\nPara garantir que a tabela esteja em 1ª forma normal (1NF), deve-se",
         "alternativas": [
             "repetir o registro do colaborador para cada telefone dentro da mesma tabela, resultando em múltiplas linhas com o mesmo ColaboradorID.",
             "colocar os telefones em um campo aninhado (array ou lista) JSON, mantendo ColaboradorID e Nome na tabela atual.",

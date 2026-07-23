@@ -322,7 +322,7 @@ if not ja_respondida and not mostrar_gab:
         selecao = st.radio("Alternativas:", opcoes_filtradas, index=None, key=f"radio_{qid}", label_visibility="collapsed")
 
     # Pills de eliminação: letras disponíveis + restaurar se houver eliminadas
-    opcoes_pills = [f"❌ {letras[i]}" for i in range(len(q["alternativas"])) if letras[i] not in elim] + (["↩ Restaurar"] if elim else [])
+    opcoes_pills = [f"✂️{letras[i]}" for i in range(len(q["alternativas"])) if letras[i] not in elim] + (["↩ Restaurar"] if elim else [])
     eliminada_pill = st.pills("Eliminar letra:", opcoes_pills, key=f"pills_{qid}", label_visibility="collapsed")
     if eliminada_pill and eliminada_pill != "↩ Restaurar" and eliminada_pill[-1] not in elim:
         st.session_state.eliminadas.setdefault(qid, set()).add(eliminada_pill[-1])

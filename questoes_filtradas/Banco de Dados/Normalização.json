@@ -13,7 +13,7 @@
     },
     {
         "id": 2,
-        "enunciado": "Em um Ministério Público, há uma tabela AtuacaoInfracao, que relaciona promotores a infrações que investigam:\nPromotorIDInfracaoIDNomePromotorTipoInfracaoDataInicioInvestigacao 101 301 Mauro Azevedo Ambiental 10/03/2025 101 302 Mauro Azevedo Corrupção 01/04/2025 102 301 Marcelo Costa Ambiental 10/03/2025 A chave primária é composta: (PromotorID, InfracaoID).\nPara garantir que a tabela atenda à 2ª Forma Normal (2NF), a melhor solução é",
+        "enunciado": "Em um Ministério Público, há uma tabela AtuacaoInfracao, que relaciona promotores a infrações que investigam:\n{images(2)}\nA chave primária é composta: (PromotorID, InfracaoID).\nPara garantir que a tabela atenda à 2ª Forma Normal (2NF), a melhor solução é",
         "alternativas": [
             "criar um identificador artificial único chamado AtuacaoID para substituir a chave composta, mantendo todos os atributos (incluindo NomePromotor e TipoInfracao) na mesma tabela.",
             "deixar NomePromotor e TipoInfracao como atributos calculados que são buscados em outras fontes durante a consulta, evitando redundância, mas sem mudar o esquema original.",
@@ -34,7 +34,7 @@
     },
     {
         "id": 4,
-        "enunciado": "Um Analista de Sistemas está avaliando o design de uma tabela chamada PROJETOS_AUTORES em um sistema de controle de proposições legislativas. A tabela armazena o Título do Projeto (Título_PL), o Código do Autor (Cod_Autor), o Nome Completo do Autor (Nome_Autor) e a Data de Apresentação (Dt_Apresentacao).\nA chave primária é composta por (Título_PL, Cod_Autor).\nTítulo_PL Cod_Autor Nome_AutorDt_Apresentacao PL 10/2025 150 Ana Silva 2025-03-10 PL 10/2025 210 Bruno Costa 2025-03-10 PL 10/2025 150 Ana Silva 2025-04-01 Assinale a opção que mostra a Forma Normal (FN) da tabela acima e qual o tipo de anomalia seria observada se fosse necessário alterar o Nome_Autor para todos os projetos de um autor específico.",
+        "enunciado": "Um Analista de Sistemas está avaliando o design de uma tabela chamada PROJETOS_AUTORES em um sistema de controle de proposições legislativas. A tabela armazena o Título do Projeto (Título_PL), o Código do Autor (Cod_Autor), o Nome Completo do Autor (Nome_Autor) e a Data de Apresentação (Dt_Apresentacao).\nA chave primária é composta por (Título_PL, Cod_Autor).\n{image(3)}\nAssinale a opção que mostra a Forma Normal (FN) da tabela acima e qual o tipo de anomalia seria observada se fosse necessário alterar o Nome_Autor para todos os projetos de um autor específico.",
         "alternativas": [
             "1FN (Primeira Forma Normal); a anomalia observada seria a Anomalia de Inserção.",
             "2FN (Segunda Forma Normal); a anomalia observada seria a Anomalia de Exclusão.",
@@ -94,7 +94,7 @@
     },
     {
         "id": 10,
-        "enunciado": "No que se refere à normalização de banco de dados, julgue o próximo item.\nConsidere a tabela abaixo, em que são armazenados dados sobre contribuintes e seus respectivos municípios.\ncpf cod_municipionome_municipio estado renda_mensal 123.456.789-00 001 Acre AC 3.000,00 987.654.321-00 002 São Paulo SP 4.500,00 111.222.333-44 001 Acre AC 2.200,00 444.555.666-77 003 Paraná PR 3.800,00 777.888.999-11 002 São Paulo SP 5.000,00 Sabendo-se que os atributos nome_municipio e estado dependem exclusivamente do cod_municipio, é correto afirmar que a referida tabela está na primeira forma normal (1FN), dada a dependência funcional parcial em relação à chave primária composta (cpf, cod_municipio).",
+        "enunciado": "No que se refere à normalização de banco de dados, julgue o próximo item.\nConsidere a tabela abaixo, em que são armazenados dados sobre contribuintes e seus respectivos municípios.\n{image(4)}\nSabendo-se que os atributos nome_municipio e estado dependem exclusivamente do cod_municipio, é correto afirmar que a referida tabela está na primeira forma normal (1FN), dada a dependência funcional parcial em relação à chave primária composta (cpf, cod_municipio).",
         "alternativas": [
             "Certo.",
             "Errado."
@@ -103,7 +103,7 @@
     },
     {
         "id": 11,
-        "enunciado": "No que se refere à normalização de banco de dados, julgue o próximo item.\nConsiderando-se a tabela a seguir, é correto afirmar que ela está na primeira forma normal.\nid_beneficiarionome_titular dependentes 001 João da Silva Ana, Carlos, Pedro 002 Maria Oliveira Luís 003 José Ferreira Laura, Lucas",
+        "enunciado": "No que se refere à normalização de banco de dados, julgue o próximo item.\nConsiderando-se a tabela a seguir, é correto afirmar que ela está na primeira forma normal.\n{image(5)}",
         "alternativas": [
             "Certo.",
             "Errado."
@@ -175,7 +175,7 @@
     },
     {
         "id": 18,
-        "enunciado": "A tabela TAB, apresentada a seguir, armazena informações sobre agências bancárias:\nNomeAgencia NumAgencia Conta IdCliente Agencia A 100 001 123456789 Agencia A 100 002 987654321 Agencia B 200 001 111222333 Agencia B 200 002 444555666 Considere que (NumAgencia, Conta) é a única chave candidata para TAB e, também, que as seguintes dependências funcionais (DF) são válidas para TAB:\nNumAgencia → NomeAgencia\n(NumAgencia, Conta) → IdCliente No cenário apresentado, a tabela TAB não está na segunda forma normal (2FN), pois",
+        "enunciado": "A tabela TAB, apresentada a seguir, armazena informações sobre agências bancárias:\n{image(6)}\n Considere que (NumAgencia, Conta) é a única chave candidata para TAB e, também, que as seguintes dependências funcionais (DF) são válidas para TAB:\nNumAgencia → NomeAgencia\n(NumAgencia, Conta) → IdCliente No cenário apresentado, a tabela TAB não está na segunda forma normal (2FN), pois",
         "alternativas": [
             "TAB aceita atributos multivalorados.",
             "a chave candidata é composta e deveria conter no máximo um atributo.",

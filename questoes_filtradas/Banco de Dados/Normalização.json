@@ -1,0 +1,2226 @@
+[
+    {
+        "id": 1,
+        "enunciado": "Uma organização registra seus colaboradores e os telefones associados no sistema com a seguinte tabela:\nColaboradorID Nome Telefones\n1 Ana Paula (195678-8976; (19887-1267\n2 Carlos Pereira(49789-2234\n3 Joana Silva (19689-3393; (29523-4962 Nesse caso, ColaboradorID é chave primária e a coluna Telefones armazena múltiplos valores (separados por \";\").\nPara garantir que a tabela esteja em 1ª forma normal (1NF), deve-se",
+        "alternativas": [
+            "repetir o registro do colaborador para cada telefone dentro da mesma tabela, resultando em múltiplas linhas com o mesmo ColaboradorID.",
+            "colocar os telefones em um campo aninhado (array ou lista) JSON, mantendo ColaboradorID e Nome na tabela atual.",
+            "manter a tabela, mas garantir que não haja duplicatas de linha e tornar a coluna Telefones do tipo texto com separador padrão.",
+            "substituir a coluna Telefone por duas colunas fixas Telefone1 e Telefone2, reservado espaço para até 2 telefones por colaborador.",
+            "quebrar a tabela em duas: uma tabela Colaborador (ColaboradorID, Nome) e outra tabela Telefones (ColaboradorID, Telefone), com cada telefone em uma linha."
+        ],
+        "gabarito": "quebrar a tabela em duas: uma tabela Colaborador (ColaboradorID, Nome) e outra tabela Telefones (ColaboradorID, Telefone), com cada telefone em uma linha."
+    },
+    {
+        "id": 2,
+        "enunciado": "Em um Ministério Público, há uma tabela AtuacaoInfracao, que relaciona promotores a infrações que investigam:\nPromotorIDInfracaoIDNomePromotorTipoInfracaoDataInicioInvestigacao 101 301 Mauro Azevedo Ambiental 10/03/2025 101 302 Mauro Azevedo Corrupção 01/04/2025 102 301 Marcelo Costa Ambiental 10/03/2025 A chave primária é composta: (PromotorID, InfracaoID).\nPara garantir que a tabela atenda à 2ª Forma Normal (2NF), a melhor solução é",
+        "alternativas": [
+            "criar um identificador artificial único chamado AtuacaoID para substituir a chave composta, mantendo todos os atributos (incluindo NomePromotor e TipoInfracao) na mesma tabela.",
+            "deixar NomePromotor e TipoInfracao como atributos calculados que são buscados em outras fontes durante a consulta, evitando redundância, mas sem mudar o esquema original.",
+            "criar duas tabelas: Promotor (PromotorID, NomePromotor) e Infracao (InfracaoID, TipoInfracao), mantendo a tabela original.",
+            "dividir em três tabelas: Promotor (PromotorID, NomePromotor), Infracao (InfracaoID, TipoInfracao) e AtuacaoInfracao (PromotorID, InfracaoID, DataInicioInvestigacao).",
+            "eliminar o campo TipoInfracao da tabela principal, registrando apenas o código InfracaoID e recuperando o nome em consultas, sem alterar a estrutura das demais colunas."
+        ],
+        "gabarito": "dividir em três tabelas: Promotor (PromotorID, NomePromotor), Infracao (InfracaoID, TipoInfracao) e AtuacaoInfracao (PromotorID, InfracaoID, DataInicioInvestigacao)."
+    },
+    {
+        "id": 3,
+        "enunciado": "No que se refere a bancos de dados, julgue o item a seguir.\nNa segunda forma normal, as redundâncias são eliminadas, pois cada atributo não-chave deve depender apenas da chave primária.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 4,
+        "enunciado": "Um Analista de Sistemas está avaliando o design de uma tabela chamada PROJETOS_AUTORES em um sistema de controle de proposições legislativas. A tabela armazena o Título do Projeto (Título_PL), o Código do Autor (Cod_Autor), o Nome Completo do Autor (Nome_Autor) e a Data de Apresentação (Dt_Apresentacao).\nA chave primária é composta por (Título_PL, Cod_Autor).\nTítulo_PL Cod_Autor Nome_AutorDt_Apresentacao PL 10/2025 150 Ana Silva 2025-03-10 PL 10/2025 210 Bruno Costa 2025-03-10 PL 10/2025 150 Ana Silva 2025-04-01 Assinale a opção que mostra a Forma Normal (FN) da tabela acima e qual o tipo de anomalia seria observada se fosse necessário alterar o Nome_Autor para todos os projetos de um autor específico.",
+        "alternativas": [
+            "1FN (Primeira Forma Normal); a anomalia observada seria a Anomalia de Inserção.",
+            "2FN (Segunda Forma Normal); a anomalia observada seria a Anomalia de Exclusão.",
+            "2FN (Segunda Forma Normal); a anomalia observada seria a Anomalia de Atualização.",
+            "3FN (Terceira Forma Normal); a anomalia observada seria a Anomalia de Exclusão.",
+            "1FN (Primeira Forma Normal); a anomalia observada seria a Anomalia de Atualização."
+        ],
+        "gabarito": "1FN (Primeira Forma Normal); a anomalia observada seria a Anomalia de Atualização."
+    },
+    {
+        "id": 5,
+        "enunciado": "R(A,B,C,D,E) F = {A → B,BC → DE,D → A} Considere um esquema de relação e o conjunto de dependências funcionais.\nA respeito da chave candidata e da Forma Normal mais alta em que a relação R se encontra, assinale a afirmativa correta.",
+        "alternativas": [
+            "A chave candidata única é {C}, e a relação está na 1º Forma Normal (1NF).",
+            "A chave candidata única é {AC}, e a relação está na 2º Forma Normal (2NF).",
+            "As chaves candidatas são {AC} e {DC}, e a relação está na 3º Forma Normal (3NF) e não na Forma Normal de Boyce-Codd (BCNF).",
+            "A chave candidata única é {AC}, e a relação está na Forma Normal de Boyce-Codd (BCNF).",
+            "A chave candidata única é {C}, e a relação não está na 2º Forma Normal (2NF)."
+        ],
+        "gabarito": "As chaves candidatas são {AC} e {DC}, e a relação está na 3º Forma Normal (3NF) e não na Forma Normal de Boyce-Codd (BCNF)."
+    },
+    {
+        "id": 6,
+        "enunciado": "Julgue o item a seguir, relativo a banco de dados.\nUma tabela estará na primeira forma normal (1FN) se e somente se não houver duplicação de linhas ou colunas e se cada coluna tiver apenas um valor para cada registro na tabela.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 7,
+        "enunciado": "Julgue o item a seguir, que versam sobre a modelagem de dados.\nUma tabela está na 3.ª forma normal (3NF) se todos os atributos dependerem diretamente da chave primária.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 8,
+        "enunciado": "A respeito de banco de dados, julgue o próximo item.\nO processo de normalização de dados tem como objetivo eliminar aqueles que são redundantes e garantir que as dependências entre eles façam sentido, armazenando apenas os logicamente relacionados em uma tabela.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 9,
+        "enunciado": "Julgue o seguinte item, relativo a banco de dados.\nA redundância de dados deve sempre ser evitada a todo custo durante o projeto e manutenção de um banco de dados, pois causa, frequentemente, inconsistência de dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 10,
+        "enunciado": "No que se refere à normalização de banco de dados, julgue o próximo item.\nConsidere a tabela abaixo, em que são armazenados dados sobre contribuintes e seus respectivos municípios.\ncpf cod_municipionome_municipio estado renda_mensal 123.456.789-00 001 Acre AC 3.000,00 987.654.321-00 002 São Paulo SP 4.500,00 111.222.333-44 001 Acre AC 2.200,00 444.555.666-77 003 Paraná PR 3.800,00 777.888.999-11 002 São Paulo SP 5.000,00 Sabendo-se que os atributos nome_municipio e estado dependem exclusivamente do cod_municipio, é correto afirmar que a referida tabela está na primeira forma normal (1FN), dada a dependência funcional parcial em relação à chave primária composta (cpf, cod_municipio).",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 11,
+        "enunciado": "No que se refere à normalização de banco de dados, julgue o próximo item.\nConsiderando-se a tabela a seguir, é correto afirmar que ela está na primeira forma normal.\nid_beneficiarionome_titular dependentes 001 João da Silva Ana, Carlos, Pedro 002 Maria Oliveira Luís 003 José Ferreira Laura, Lucas",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 12,
+        "enunciado": "No que se refere à normalização de banco de dados, julgue o próximo item.\nEm um banco de dados em que são armazenados dados previdenciários, a tabela contribuintes a seguir, que possui os seguintes atributos, não está na terceira forma normal, pois apresenta dependência funcional transitiva entre atributos.\n• cpf (chave primária) • nome • data_nascimento • cod_municipio • aliquota_contribuicao • renda_mensal • contribuicao mensal (calculada como: renda mensal × aliquota contribuicao)",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 13,
+        "enunciado": "Em relação a BI (business intelligence) e à modelagem de dados, julgue o item que se segue.\nQuando todas as colunas não chave de uma tabela dependem de toda a chave composta, essa tabela está na segunda forma normal (2FN).",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 14,
+        "enunciado": "Analise as afirmativas a seguir sobre normalização em bancos de dados:\nI - A normalização é um conceito essencial no design de bancos de dados relacionais, garantindo um armazenamento eficiente e minimizando erros de inserção, atualização e exclusão.\nII - Uma tabela está na Terceira Forma Normal 3FN quando todos os atributos não-chave dependem diretamente da chave primária, eliminando dependências transitivas.\nIII - A Terceira Forma Normal 3FN exige que cada tabela tenha apenas uma chave primária e nenhuma chave estrangeira.\nQual(is) afirmativa(s) está(ão) correta(s)?",
+        "alternativas": [
+            "Somente as afirmativas I e II.",
+            "Todas as três afirmativas estão corretas.",
+            "Somente a afirmativa I.",
+            "Somente as afirmativas II e III.",
+            "Somente as afirmativas I e III."
+        ],
+        "gabarito": "Somente as afirmativas I e II."
+    },
+    {
+        "id": 15,
+        "enunciado": "Em bancos de dados relacionais, a técnica que organiza as tabelas para minimizar redundâncias e inconsistências é conhecida como:",
+        "alternativas": [
+            "normalização.",
+            "backup incremental.",
+            "replicação de dados.",
+            "privatização.",
+            "modelagem dimensional."
+        ],
+        "gabarito": "normalização."
+    },
+    {
+        "id": 16,
+        "enunciado": "Durante a análise de um banco de dados, foi identificado que uma tabela apresenta repetição desnecessária de informações, aumentando o risco deinconsistências.\nQual técnica deve ser aplicada para resolver esse problema?",
+        "alternativas": [
+            "Mineração de dados.",
+            "Backup incremental.",
+            "Criação de índices.",
+            "Replicação de dados.",
+            "Normalização."
+        ],
+        "gabarito": "Normalização."
+    },
+    {
+        "id": 17,
+        "enunciado": "Julgue o próximo item, relativo à normalização de dados, à linguagem de definição de dados (DDL), a sistema gerenciador de banco de dados (SGBD) Oracle 21C e a data lake.\nPara que uma relação esteja na terceira forma normal (3FN), ela deve estar na segunda forma normal (2FN) e todos os seus atributos não chave devem depender diretamente da chave primária, sem dependências transitivas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 18,
+        "enunciado": "A tabela TAB, apresentada a seguir, armazena informações sobre agências bancárias:\nNomeAgencia NumAgencia Conta IdCliente Agencia A 100 001 123456789 Agencia A 100 002 987654321 Agencia B 200 001 111222333 Agencia B 200 002 444555666 Considere que (NumAgencia, Conta) é a única chave candidata para TAB e, também, que as seguintes dependências funcionais (DF) são válidas para TAB:\nNumAgencia → NomeAgencia\n(NumAgencia, Conta) → IdCliente No cenário apresentado, a tabela TAB não está na segunda forma normal (2FN), pois",
+        "alternativas": [
+            "TAB aceita atributos multivalorados.",
+            "a chave candidata é composta e deveria conter no máximo um atributo.",
+            "a DF (NumAgencia, Conta) → NomeAgencia não é válida para TAB.",
+            "a DF (NumAgencia, Conta) → IdCliente demonstra que IdCliente é um número que pode repetir-se em agências diferentes.",
+            "a DF NumAgencia → NomeAgencia demonstra que NomeAgencia depende apenas de parte da chave composta (NumAgencia)."
+        ],
+        "gabarito": "a DF NumAgencia → NomeAgencia demonstra que NomeAgencia depende apenas de parte da chave composta (NumAgencia)."
+    },
+    {
+        "id": 19,
+        "enunciado": "Normalização é o processo de organização de dados em um banco de dados.\nNeste contexto, são feitas as seguintes afirmações:\nI. Se uma tabela está na 3FN, então ela também está na 2FN.\nII. A segunda forma normal (2FN) verifica se os atributos normais dependem apenas da chave primária da tabela.\nIII. Normalizar o banco de dados otimiza o banco reduzindo o número de tabelas.\nÉ correto o que se afirma em",
+        "alternativas": [
+            "I e III apenas.",
+            "II apenas.",
+            "III apenas.",
+            "I e II apenas.",
+            "I, II e III."
+        ],
+        "gabarito": "I e II apenas."
+    },
+    {
+        "id": 20,
+        "enunciado": "Sobre normalização de banco de dados, assinale a afirmação verdadeira.",
+        "alternativas": [
+            "Na 1FN, a tabela não pode ter Dependência Funcional Parcial.",
+            "Se uma tabela está na 1FN, então ela também está na 2FN.",
+            "Deve-se sempre colocar as tabelas na 4FN ou na 5FN.",
+            "Uma relação que está na BCNF não está em 1NF.",
+            "Na 3FN, a tabela não tem Dependência Funcional Transitiva."
+        ],
+        "gabarito": "Na 3FN, a tabela não tem Dependência Funcional Transitiva."
+    },
+    {
+        "id": 21,
+        "enunciado": "A forma normal Boyce-Codd (FNBC) foi inicialmente proposta como um tipo de simplificação de uma determina forma normal (FN). No entanto, descobriu-se que ela era mais rigorosa.\nA FN que a FNBC visava simplificar é a",
+        "alternativas": [
+            "1FN.",
+            "2FN.",
+            "3FN.",
+            "4FN.",
+            "5FN."
+        ],
+        "gabarito": "3FN."
+    },
+    {
+        "id": 22,
+        "enunciado": "Considerando os bancos de dados relacionais utilizados para a montagem dos Serviços Negociais da Plataforma Digital do PDPJ-Br, tem-se como meta normalizar suas tabelas. Dessa forma, sobre a normalização das tabelas, é correto afirmar que um dos objetivos principais dessa tarefa é",
+        "alternativas": [
+            "transformar todos atributos de cada tabela em valores numéricos.",
+            "armazenar todos os dados das tabelas na nuvem.",
+            "armazenar dados sem que haja redundâncias desnecessárias.",
+            "excluir todas as chaves estrangeiras das tabelas.",
+            "criptografar todas as chaves primárias das tabelas."
+        ],
+        "gabarito": "armazenar dados sem que haja redundâncias desnecessárias."
+    },
+    {
+        "id": 23,
+        "enunciado": "Julgue o item a seguir, a respeito de bancos de dados relacionais e não relacionais.\nEm algumas implementações de bancos de dados relacionais, como PostgreSQL, é possível criar atributos do tipo array, o que permite armazenar múltiplos valores em uma única coluna, contradizendo o princípio original do modelo relacional de não permitir atributos multivalorados, pois cada coluna de uma tabela deve armazenar apenas um valor por atributo.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 24,
+        "enunciado": "Normalização de dados é um processo que organiza informações em tabelas e relações entre elas, ela tem como objetivo é reduzir a redundância de dados e melhorar o desempenho. No entanto, esse processo não é livre de problemas.\nCom relação aos problemas da normalização de arquivos, avalie as afirmativas a seguir.\nI. Problemas das chaves primários omitidas ou incorretas - Em arquivos convencionais, diferentemente da abordagem relacional, o conceito de chave primária não é obrigatório. Logo, é possível encontrar arquivos que não possuem chaves primárias. Quando um arquivo não possui chave primária ou quando a chave primária nele usada difere da usual na organização, deve-se proceder como se a chave primária aparecesse no arquivo, isto é, deve-se inserí-la na 1 FN da relação normalizada.\nII. Problemas de atributos relevantes implicitamente representados - Atributos podem aparecer em arquivos convencionais de modo implícito, por exemplo, na forma de ordenação de registros ou de listas ou na forma de ponteiros físicos. Se isso ocorrer, deve-se proceder como se o atributo aparecesse explicitamente no documento.\nIII. Problema dos atributos indexados, redundantes ou derivados - Arquivos convencionais podem conter atributos que são indexados do ponto de vista conceitual e que existem no arquivo por questões técnicas ou de desempenho da implementação. Exemplos desses atributos são campos com o número de ocorrências de listas, tamanho de outros campos, com estampas de tempo. Esses campos devem ser eliminados já quando da passagem da 1FN.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, apenas.",
+            "II, apenas.",
+            "III, apenas.",
+            "I e II, apenas.",
+            "II e III, apenas."
+        ],
+        "gabarito": "II, apenas."
+    },
+    {
+        "id": 25,
+        "enunciado": "Julgue o item a seguir, relativo a sistemas de banco de dados.\nEm um banco de dados relacional, a terceira forma normal (3FN) é alcançada se o banco de dados estiver em segunda forma normal (2FN) e não houver dependências transitivas dos atributos não chave entre si.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 26,
+        "enunciado": "Uma empresa de e-commerce está enfrentando problemas de redundância e inconsistência em seu sistema de gerenciamento de pedidos. O analista de sistemas foi incumbido de analisar a estrutura inicial do banco de dados para identificar possíveis violações às formas normais, visando melhorar a integridade dos dados. A tabela abaixo, denominada Pedidos, representa a estrutura original, sem nenhuma normalização aplicada previamente. Considere que a chave primária dessa tabela é composta pelos atributos (ClienteID, PedidoID, ProdutoID):\nPedidoIDClienteIDNomeClienDtaetaPedidPorodutoIDNomeProdQuutoantidadPereçoUnitáTroitoalPedido João\n1 101 01/03/2025501 Mouse 2 50 100 Silva Maria\n2 102 02/03/2025502 Teclado 1 80 80 Souza João\n3 101 03/03/2025503 Monitor 1 500 500 Silva Considerando esta situação, assinale a alternativa correta sobre a normalização da tabela:",
+        "alternativas": [
+            "A estrutura viola a Segunda Forma Normal (2FN), pois há atributos que dependem apenas parcialmente da chave primária composta.",
+            "A estrutura apresenta violação da Primeira Forma Normal (1FN), devido à presença de atributos compostos ou multivalorados.",
+            "A tabela está devidamente normalizada até a Terceira Forma Normal (3FN), não apresentando redundâncias nem dependências indiretas.",
+            "A estrutura viola a Terceira Forma Normal (3FN), pois há dependências transitivas, como NomeCliente depender de ClienteID, que por sua vez depende de PedidoID."
+        ],
+        "gabarito": "A estrutura viola a Segunda Forma Normal (2FN), pois há atributos que dependem apenas parcialmente da chave primária composta."
+    },
+    {
+        "id": 27,
+        "enunciado": "Julgue o item seguinte, relativos à administração de banco de dados Oracle, à modelagem de dados relacional, à normalização de dados e ao data mining.\nA normalização de dados é a estratégia de criação de índices compostos para melhorar a performance das consultas em grandes volumes de dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 28,
+        "enunciado": "Em um banco de dados que armazena informações sobre pedidos de clientes, uma tabela foi criada inicialmente com as seguintes colunas: PedidoID, ClienteNome, ClienteTelefone, ProdutoID, ProdutoNome, Quantidade e PreçoUnitario. Essa estrutura apresenta redundâncias e possíveis anomalias. Nessa situação, a normalização tem como objetivo",
+        "alternativas": [
+            "garantir que todas as tabelas possuam apenas uma chave primária e nenhuma chave estrangeira.",
+            "duplicar os dados mais acessados em diferentes tabelas para melhorar o desempenho.",
+            "eliminar todos os relacionamentos entre tabelas para reduzir a complexidade da estrutura do banco de dados.",
+            "reduzir a redundância e eliminar anomalias de inserção, atualização e exclusão.",
+            "aumentar a velocidade de consulta por meio da replicação de dados redundantes."
+        ],
+        "gabarito": "reduzir a redundância e eliminar anomalias de inserção, atualização e exclusão."
+    },
+    {
+        "id": 29,
+        "enunciado": "Em um processo de normalização de banco de dados relacional, uma relação estará na terceira forma normal (3FN) se",
+        "alternativas": [
+            "forem eliminadas todas as redundâncias, inclusive as dependências funcionais entre atributos não chave.",
+            "permitir dependências transitivas, desde que envolvam apenas atributos não primos.",
+            "não tiver nenhuma dependência funcional parcial em relação à chave candidata.",
+            "estiver na segunda forma normal (2FN) e todos os atributos não primos forem dependentes transitivamente da chave primária.",
+            "estiver na segunda forma normal (2FN) e todos os atributos não primos forem dependentes diretamente da chave primária."
+        ],
+        "gabarito": "estiver na segunda forma normal (2FN) e todos os atributos não primos forem dependentes diretamente da chave primária."
+    },
+    {
+        "id": 30,
+        "enunciado": "Considerando que as formas normais organizam os dados em estruturas lógicas que favorecem a eficiência e a consistência, é correto afirmar que uma relação está na forma normal de Boyce-Codd (FNBC) se",
+        "alternativas": [
+            "todos os seus determinantes forem chaves primárias candidatas.",
+            "estiver na 3FN e não possuir atributos multivalorados.",
+            "todos os atributos não primos forem dependentes diretamente da chave primária.",
+            "toda dependência funcional nela contida tiver como determinante uma superchave.",
+            "todas as dependências transitivas e parciais forem eliminadas, independentemente das chaves."
+        ],
+        "gabarito": "toda dependência funcional nela contida tiver como determinante uma superchave."
+    },
+    {
+        "id": 31,
+        "enunciado": "Uma empresa financeira armazena os dados de seus empréstimos em uma única tabela, nomeada como Emprestimos, com a seguinte estrutura simplificada:\nEmprestimos (CPF_Cliente, Nome_Cliente, Codigo_Emprestimo, Data_Emprestimo, Valor, Nome_Agente, Email_Agente). Durante as operações do sistema, observou-se que, para atualizar o nome de um agente de crédito, seria preciso modificar várias linhas, o que geraria inconsistência caso alguma linha não fosse atualizada corretamente. Nessa situação hipotética, considerados os conceitos de normalização, o problema descrito está relacionado",
+        "alternativas": [
+            "a atributos não atômicos, sendo resolvido ao se aplicar a 1FN.",
+            "à decomposição sem preservação de dependência, sendo resolvido ao se aplicar a 5FN.",
+            "a uma dependência funcional parcial, sendo resolvido ao se aplicar a 2FN.",
+            "a uma dependência transitiva, sendo resolvido ao se aplicar a 3FN.",
+            "a uma dependência multivalorada, sendo resolvido ao se aplicar a 4FN."
+        ],
+        "gabarito": "a uma dependência transitiva, sendo resolvido ao se aplicar a 3FN."
+    },
+    {
+        "id": 32,
+        "enunciado": "Em uma grande empresa, a prática mais adequada para o balanceamento entre normalização e desempenho em consultas de um banco de dados, considerando-se que o negócio exige leitura intensa e baixa taxa de atualização, seria",
+        "alternativas": [
+            "criar índices para todas as colunas que sejam usadas em qualquer tipo de consulta.",
+            "desconsiderar as formas normais e manter os dados em um único JSON, o que aumentaria a velocidade das operações.",
+            "normalizar todas as tabelas até 5FN.",
+            "permitir desnormalizações controladas, como colunas duplicadas, por exemplo, para obtenção de ganho de desempenho.",
+            "usar somente bancos de dados que sejam mais rápidos para leitura, como o NoSQL."
+        ],
+        "gabarito": "permitir desnormalizações controladas, como colunas duplicadas, por exemplo, para obtenção de ganho de desempenho."
+    },
+    {
+        "id": 33,
+        "enunciado": "Um administrador de banco de dados pretende melhorar o desempenho de relatórios executivos que são lidos com muita frequência e executam joins complexos.\nPara tanto, ele considera desnormalizar algumas tabelas. Nessa situação hipotética,",
+        "alternativas": [
+            "devem ser usadas, no processo de geração dos relatórios, somente tabelas que sejam temporárias e não persistentes.",
+            "devem ser mantidas somente visões materializadas com dados agregados, eliminando-se as tabelas originais.",
+            "a melhor solução é manter as tabelas normalizadas e fazer que os relatórios executem os joins complexos, embora com resultado mais lento.",
+            "alguns dados devem ser duplicados em tabelas de relatório, embora o procedimento crie certo nível de redundância controlada.",
+            "devem ser criados novos índices para todas as tabelas que sejam usadas nos relatórios."
+        ],
+        "gabarito": "alguns dados devem ser duplicados em tabelas de relatório, embora o procedimento crie certo nível de redundância controlada."
+    },
+    {
+        "id": 34,
+        "enunciado": "A normalização de dados é um processo importante no design de bancos de dados relacionais que visa reduzir redundâncias e dependências. Nesse contexto, analise o cenário a seguir e identifique em que nível de normalização (forma normal) o banco de dados se encontra e assinale a alternativa correta. Cenário – uma tabela de \"Pedidos\" contém as colunas: ID do Pedido, Data do Pedido, ID do Cliente, Nome do Cliente e Produto Pedido. Todos os atributos contêm valores atômicos (cada campo armazena apenas um único valor), mas o Nome do Cliente aparece repetidamente para cada pedido feito pelo mesmo cliente.",
+        "alternativas": [
+            "Primeira forma normal.",
+            "Segunda forma normal.",
+            "Terceira forma normal.",
+            "Forma Normal Boyce-Codd."
+        ],
+        "gabarito": "Primeira forma normal."
+    },
+    {
+        "id": 35,
+        "enunciado": "Durante o processo de normalização de um banco de dados é importante organizar os dados de maneira que dependências indesejadas sejam eliminadas. A Segunda Forma Normal (2FN) lida com um tipo específico de dependência presente em tabelas com chaves compostas. Pautando-se nessas informações, assinale a alternativa que descreve corretamente o que ocorre quando uma tabela é normalizada para a Segunda Forma Normal (2FN).",
+        "alternativas": [
+            "A 2FN elimina todas as dependências transitivas de uma tabela.",
+            "A 2FN garante que todos os atributos não chave dependam diretamente da chave primária, eliminando dependências parciais.",
+            "A 2FN permite valores multivalorados em um campo, desde que estejam separados por vírgulas.",
+            "A 2FN garante que todos os campos da tabela contêm valores atômicos, ou seja, sem repetições de grupos de dados."
+        ],
+        "gabarito": "A 2FN garante que todos os atributos não chave dependam diretamente da chave primária, eliminando dependências parciais."
+    },
+    {
+        "id": 36,
+        "enunciado": "Analise o cenário a seguir: uma empresa de venda de automóveis utiliza uma tabela chamada \"Vendas\" para armazenar dados sobre as transações realizadas. A tabela possui as colunas: ID da Venda, ID do Cliente, Nome do Cliente, ID do Vendedor e Endereço da Concessionária. O Nome do Cliente depende diretamente do ID do Cliente e o Endereço da Concessionária depende do ID do Vendedor. No entanto, o Endereço da Concessionária não depende diretamente da chave primária (ID da Venda), criando uma dependência transitiva entre o Endereço da Concessionária e o ID do Vendedor. Com base nesse cenário, qual forma normal resolveria o problema de dependência transitiva presente na tabela \"Vendas\"?",
+        "alternativas": [
+            "Primeira forma normal.",
+            "Segunda forma normal.",
+            "Terceira forma normal.",
+            "Quarta forma normal."
+        ],
+        "gabarito": "Terceira forma normal."
+    },
+    {
+        "id": 37,
+        "enunciado": "Em teoria de bancos de dados relacionais, o processo de normalização visa reduzir a redundância e melhorar a integridade dos dados. Uma das formas normais estabelece um critério específico sobre a dependência dos atributos não-chave em relação à chave primária. Com base nesse contexto, assinale a alternativa que apresenta a forma normal que exige que todo atributo não-chave seja funcionalmente dependente da chave primária completa, e não apenas de uma parte dela:",
+        "alternativas": [
+            "Terceira Forma Normal (3FN).",
+            "Segunda Forma Normal (2FN).",
+            "Primeira Forma Normal (1FN).",
+            "Quarta Forma Normal (4FN).",
+            "Forma Normal de Boyce-Codd (FNBC)."
+        ],
+        "gabarito": "Segunda Forma Normal (2FN)."
+    },
+    {
+        "id": 38,
+        "enunciado": "Uma equipe de TI de um Tribunal do Trabalho está revisando a modelagem lógica de um sistema de controle de intimações judiciais. Inicialmente, havia uma única tabela chamada Intimacoes com os seguintes atributos:\nid_intimacao (chave primária) nome_servidor cargo_servidor data_intimacao tipo_intimacao descricao_intimacao Durante uma auditoria, identificou-se que:\nServidores podem ser intimados várias vezes, mas têm nome e cargo fixos.\nO tipo_intimacao é escolhido de uma lista padronizada.\nHá repetição de dados e dificuldade de atualização nas colunas nome_servidor, cargo_servidor e tipo_intimacao.\nPara resolver o problema, a equipe decide aplicar corretamente a terceira forma normal (3FN) por meio da ação:",
+        "alternativas": [
+            "Agrupar os dados por tipo_intimacao usando uma view e aplicar restrições de chave estrangeira apenas na visualização lógica do banco.",
+            "Normalizar apenas os dados de descricao_intimacao para uma nova tabela, pois ela representa um campo de texto variável, o que reduz o custo de armazenamento.",
+            "Separar os dados em tabelas relacionadas: Servidores, Tipos_Intimacao e Intimacoes, usando chaves estrangeiras para remover dependências transitivas e garantir integridade referencial.",
+            "Manter todos os atributos na mesma tabela, mas criar índices compostos sobre nome_servidor e tipo_intimacao para melhorar o desempenho e evitar redundância lógica.",
+            "Eliminar a coluna cargo_servidor da tabela e normalizar apenas até a segunda forma normal, já que dividir em mais tabelas tornaria o sistema mais lento."
+        ],
+        "gabarito": "Separar os dados em tabelas relacionadas: Servidores, Tipos_Intimacao e Intimacoes, usando chaves estrangeiras para remover dependências transitivas e garantir integridade referencial."
+    },
+    {
+        "id": 39,
+        "enunciado": "Durante o processo de projeto de banco de dados para um sistema de informações hospitalares, a equipe adotou a modelagem Entidade-Relacionamento e realizou o refinamento das tabelas por meio da aplicação de técnicas de normalização.\nCom base nos princípios de modelagem de dados e nas formas normais utilizadas no projeto de bancos relacionais, julgue (C ou E) o itm a seguir.\nUma tabela está na primeira forma normal (1FN) quando não possui atributos multivalorados nem grupos repetitivos, garantindo atomicidade dos dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 40,
+        "enunciado": "Durante o processo de projeto de banco de dados para um sistema de informações hospitalares, a equipe adotou a modelagem Entidade-Relacionamento e realizou o refinamento das tabelas por meio da aplicação de técnicas de normalização.\nCom base nos princípios de modelagem de dados e nas formas normais utilizadas no projeto de bancos relacionais, julgue (C ou E) o itm a seguir.\nA segunda forma normal (2FN) elimina a dependência funcional parcial em relação à chave primária e, por isso, só se aplica a tabelas com chave primária composta.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 41,
+        "enunciado": "Em determinado modelo de banco de dados relacional foram aplicadas técnicas de normalização de dados visando uma melhor prevenção de problemas com repetição e atualização de dados, preservando, assim, a integridade dos dados armazenados na estrutura. A ação de validar se todos os atributos contêm apenas valores atômicos e não repetitivos é necessária para definir que o modelo está normalizado em qual forma normal?",
+        "alternativas": [
+            "Primeira.",
+            "Segunda.",
+            "Terceira.",
+            "Quarta."
+        ],
+        "gabarito": "Primeira."
+    },
+    {
+        "id": 42,
+        "enunciado": "Considerando os bancos de dados relacionais, uma tabela R está na segunda forma normal se",
+        "alternativas": [
+            "a chave primária de R não contenha atributos do tipo numérico.",
+            "cada atributo não chave de R for total e funcionalmente dependente da chave primária de R.",
+            "a chave primária de R for simples (contiver exclusivamente um atributo).",
+            "a chave primária de R for composta por um atributo do tipo autoincremento.",
+            "os atributos não chave de R não contenham registros com valores nulos."
+        ],
+        "gabarito": "cada atributo não chave de R for total e funcionalmente dependente da chave primária de R."
+    },
+    {
+        "id": 43,
+        "enunciado": "Com relação à Normalização de Banco de Dados, analise as afirmativas abaixo.\nI. A propriedade de um ou mais atributos determinarem unicamente o valor de um ou mais outros atributos é chamada unificação de tabelas.\nII. Uma tabela está na 1FN (primeira forma normal) se, e somente se, todas as colunas tiverem apenas valores atômicos, ou seja, cada coluna só pode ter um valor para cada linha da tabela.\nIII. A 3FN (terceira forma normal) elimina a maioria das anomalias conhecidas nos bancos de dados de hoje, é o padrão mais comum nos bancos de dados comerciais e ferramentas CASE.\nEstão corretas as afirmativas:",
+        "alternativas": [
+            "I e II apenas.",
+            "II e III apenas.",
+            "II apenas.",
+            "I, II e III."
+        ],
+        "gabarito": "II e III apenas."
+    },
+    {
+        "id": 44,
+        "enunciado": "Qual é o principal objetivo da normalização de um banco de dados relacional, especialmente até a Terceira Forma Normal (3FN)?",
+        "alternativas": [
+            "Aumentar o desempenho das consultas, permitindo redundância de dados.",
+            "Reduzir a redundância de dados e minimizar anomalias de inserção, atualização e exclusão.",
+            "Simplificar a criação de chaves primárias compostas.",
+            "Facilitar a desnormalização para a construção de um data warehouse.",
+            "Garantir que todas as tabelas tenham uma chave primária numérica."
+        ],
+        "gabarito": "Reduzir a redundância de dados e minimizar anomalias de inserção, atualização e exclusão."
+    },
+    {
+        "id": 45,
+        "enunciado": "O departamento de vendas de uma loja solicitou ao setor de TI um relatório detalhado sobre as transações diárias. O analista de sistemas, ao iniciar o trabalho, percebeu que as informações de clientes e de vendas estavam espalhadas em arquivos diferentes e que o CPF de alguns clientes estava escrito de forma inconsistente.\nAssinale a alternativa que apresenta o tipo de problema de gerenciamento de dados que a inconsistência no formato do CPF exemplifica.",
+        "alternativas": [
+            "Inconsistência de segurança.",
+            "Dificuldade de acesso aos dados.",
+            "Anomalia de atualização.",
+            "Inconsistência e redundância de dados.",
+            "Dificuldade de integridade de dados."
+        ],
+        "gabarito": "Inconsistência e redundância de dados."
+    },
+    {
+        "id": 46,
+        "enunciado": "Um desenvolvedor precisa projetar um esquema relacional para evitar redundância de dados e anomalias de inserção, atualização e exclusão. Assinale a alternativa que apresenta a forma normal mais adequada para a maioria dos projetos de BD relacionais.",
+        "alternativas": [
+            "Primeira Forma Normal.",
+            "Segunda Forma Normal.",
+            "Terceira Forma Normal.",
+            "Forma Normal de Boyce-Codd.",
+            "Quarta Forma Normal."
+        ],
+        "gabarito": "Terceira Forma Normal."
+    },
+    {
+        "id": 47,
+        "enunciado": "Assinale a alternativa que caracteriza a Segunda Forma Normal (2FN).",
+        "alternativas": [
+            "Eliminação de dependências formais.",
+            "Eliminação de dependências transitivas.",
+            "Atributos atômicos.",
+            "Chaves primárias compostas.",
+            "Ausência de repetição de grupos."
+        ],
+        "gabarito": "Eliminação de dependências formais."
+    },
+    {
+        "id": 48,
+        "enunciado": "Observe a tabela não normalizada a seguir:\nTabela: InscricaoEvento InscricaoID Participante Eventos Workshop SQL, Palestra\n1 João Santos Cloud\n2 Maria Costa Palestra Cloud Workshop SQL, Workshop\n3 Pedro Alves Security, Happy Hour Assinale a alternativa que apresenta a transformação necessária para levar essa tabela à Primeira Forma Normal (1FN).",
+        "alternativas": [
+            "Criar uma tabela separada Evento com EventoID e NomeEvento e uma tabela de junção InscricaoEventoDetalhe.",
+            "Alterar a coluna Eventos para o tipo de dados ARRAY.",
+            "Dividir a coluna Eventos em múltiplas colunas: Evento1, Evento2, Evento3 etc.",
+            "Manter a tabela como está, pois a 1FN permite atributos multivalorados.",
+            "Remover a coluna Eventos e criar uma nova tabela com chave estrangeira para Participante."
+        ],
+        "gabarito": "Criar uma tabela separada Evento com EventoID e NomeEvento e uma tabela de junção InscricaoEventoDetalhe."
+    },
+    {
+        "id": 49,
+        "enunciado": "Em um banco de dados do Tribunal de Contas da União (TCU), pretende-se eliminar dependências transitivas de atributos não-chave em relação à chave primária.\nQual forma normal atende completamente ao requisito?",
+        "alternativas": [
+            "Primeira Forma Normal (1FN), pois atomicidade e remoção de repetições resolvem as dependências entre atributos não-chave.",
+            "Segunda Forma Normal (2FN), com chave simples, pois tabelas sem chave composta eliminam relações transitivas automaticamente.",
+            "Terceira Forma Normal (3FN), que exige 2FN e ausência de dependências transitivas de atributos não-chave para a chave primária.",
+            "Forma Normal de Boyce-Codd (BCNF) é menos restritiva que 3FN.",
+            "1FN remove redundâncias, dispensando etapas posteriores."
+        ],
+        "gabarito": "Terceira Forma Normal (3FN), que exige 2FN e ausência de dependências transitivas de atributos não-chave para a chave primária."
+    },
+    {
+        "id": 50,
+        "enunciado": "São problemas causados pela redundância, EXCETO:",
+        "alternativas": [
+            "Algumas informações são armazenadas mais de uma vez.",
+            "Quando uma cópia de um dado redundante é atualizada, todas as cópias precisam ser atualizadas.",
+            "Pode não ser possível excluir uma informação sem perder outras informações não relacionadas.",
+            "Pode não ser possível inserir uma informação sem inserir outras informações não relacionadas.",
+            "Quando mais de duas colunas compartilham a mesma redundância, o sistema não consegue determinar se o banco de dados está em um estado íntegro."
+        ],
+        "gabarito": "Quando mais de duas colunas compartilham a mesma redundância, o sistema não consegue determinar se o banco de dados está em um estado íntegro."
+    },
+    {
+        "id": 51,
+        "enunciado": "Analise as dependências funcionais abaixo em uma relação R(A,B,C,D) e assinale a alternativa correta.\n{A→B,B→C,A→D}",
+        "alternativas": [
+            "R está em 3FN porque todas as dependências têm determinantes que são chave primária.",
+            "A relação está em 3FN porque não há dependência transitiva entre atributos não-chave.",
+            "R está em 3FN porque todos os atributos não chave dependem diretamente da chave primária (A).",
+            "Para alcançar 3FN, basta remover o atributo C.",
+            "R viola a 3FN por possuir uma dependência transitiva, e a decomposição correta é dividir em R1(A,B,D) e R2(B,C), garantindo preservação de dependências e decomposição sem perda."
+        ],
+        "gabarito": "R viola a 3FN por possuir uma dependência transitiva, e a decomposição correta é dividir em R1(A,B,D) e R2(B,C), garantindo preservação de dependências e decomposição sem perda."
+    },
+    {
+        "id": 52,
+        "enunciado": "Analise as afirmativas abaixo quanto à Normalização de Dados.\nI. O Teorema de Heath afirma que: seja R{A,B,C} uma Variável Relacional (RelVar), onde A, B e C são conjuntos de interseção de suas projeções sobre {A,B} e {A,C}.\nII. Uma Variável Relacional (RelVar) está na Primeira Forma Normal (1FN) se e somente se, em todo valor válido dessa RelVar, cada tupla contém exatamente um valor para cada atributo.\nIII. Supondo apenas uma chave candidata, considerada como a chave primária, pode-se afirmar que uma Variável Relacional (RelVar) está em 2FN se e somente se ela está em 1FN e todo atributo não chave é irredutivelmente dependente da chave primária.\nIV. Supondo apenas uma única chave candidata, considerada como a chave primária, pode-se afirmar que uma Variável Relacional (RelVar) está em 3FN se e somente se ela está em 2FN e todo atributo não chave é dependente de forma não transitiva da chave estrangeira.\nV. Uma variável Relacional (RelVar) está na Forma normal de Boyce/Codd se e somente se toda dependência funcional (DF) não trivial e irredutível à esquerda tem uma chave candidata como determinante.\nEstão corretas apenas as afirmativas",
+        "alternativas": [
+            "I e II.",
+            "I, III e IV.",
+            "II, III e V.",
+            "IV e V."
+        ],
+        "gabarito": "II, III e V."
+    },
+    {
+        "id": 53,
+        "enunciado": "Qual é a Forma Normal (FN) cuja ação de normalização é decompor e montar uma relação que contenha o(s) atributo(s) não chave que determina(m) funcionalmente o(s) outro(s) atributo(s)?",
+        "alternativas": [
+            "1FN.",
+            "2FN.",
+            "3FN.",
+            "4FN.",
+            "5FN."
+        ],
+        "gabarito": "3FN."
+    },
+    {
+        "id": 54,
+        "enunciado": "Analise as seguintes assertivas sobre a normalização de dados:\nI. A normalização de dados é recomendável quando os limites de valores de atributos distintos são muito diferentes, para evitar que um atributo predomine sobre outro.\nII. A normalização por padronização define uma nova escala de valores, limites mínimo e máximo, para todos os atributos.\nIII. A normalização por reescala define um valor central e um valor de espelhamento comuns para todos os atributos.\nQuais estão corretas?",
+        "alternativas": [
+            "Apenas I.",
+            "Apenas III.",
+            "Apenas I e II.",
+            "Apenas II e III.",
+            "I, II e III."
+        ],
+        "gabarito": "Apenas I."
+    },
+    {
+        "id": 55,
+        "enunciado": "Quando toda coluna não-chave de uma tabela depende diretamente da chave primária, considera-se que essa tabela está, no mínimo, na",
+        "alternativas": [
+            "1.ª forma normal.",
+            "2.ª forma normal.",
+            "3.ª forma normal.",
+            "4.ª forma normal.",
+            "5.ª forma normal."
+        ],
+        "gabarito": "3.ª forma normal."
+    },
+    {
+        "id": 56,
+        "enunciado": "O principal objetivo da 5.ª forma normal é a",
+        "alternativas": [
+            "eliminação de dependências parciais.",
+            "garantia de que todos os valores em uma tabela sejam atômicos.",
+            "eliminação de dependências multivaloradas.",
+            "eliminação de redundâncias e anomalias de junção em tabelas que registram múltiplos relacionamentos multivalorados.",
+            "garantia de que não haja grupos de valores repetidos em uma única célula."
+        ],
+        "gabarito": "eliminação de redundâncias e anomalias de junção em tabelas que registram múltiplos relacionamentos multivalorados."
+    },
+    {
+        "id": 57,
+        "enunciado": "A modelagem e a normalização de dados são processos fundamentais no projeto de bancos de dados relacionais, garantindo a organização, a integridade e a eficiência das informações.\nSobre as principais características e objetivos desses processos, analise as afirmativas a seguir.\nI. O principal objetivo da normalização é organizar as tabelas para reduzir a redundância de dados, evitando anomalias que possam ocorrer durante a inserção, atualização ou exclusão de registros.\nII. Na modelagem conceitual, a representação da base de dados é feita de forma detalhada, incluindo tabelas, tipos de dados e chaves primárias, pronta para ser implementada em um SGBD (Sistema Gerenciador de Banco de Dados).\nIII. A chave estrangeira é um atributo de uma tabela que se relaciona com a chave primária de outra tabela, sendo utilizada para criar vínculos entre elas e estabelecer a integridade referencial.\nEstão corretas as afirmativas",
+        "alternativas": [
+            "I e II, apenas.",
+            "I e III, apenas.",
+            "II e III, apenas.",
+            "I, II e III."
+        ],
+        "gabarito": "I e III, apenas."
+    },
+    {
+        "id": 58,
+        "enunciado": "Texto para a questão As tabelas Aluno, Curso e Departamento são tabelas de um banco de dados de cadastro de alunos e cursos de uma universidade.\ntabela Aluno aluno_id INT (PK) nome_aluno CHAR (2data_nascimento DATE curso_id INT (FK) tabela Curso curso_id INT (PK) nome_aluno CHAR (2departamento_id INT (FK) tabela Departamento departamento_id INT (PK) nome_departamento CHAR (2Na tabela Aluno, o atributo aluno_id identifica unicamente cada estudante, determinando seu nome, data de nascimento e o curso em que está matriculado (aluno_ id → nome_aluno, data_nascimento, curso_id). Na tabela Curso, o curso_id é o identificador que determina o nome do curso e o departamento ao qual ele pertence (curso_id → nome_curso, departamento_id). Já na tabela Departamento, o departamento_id define unicamente o nome do departamento (departamento_id → nome_departamento).\nCom base nessa situação hipotética e nas informações apresentadas, é correto afirmar que a maior classificação possível de normalização para as tabelas Aluno e Curso são, respectivamente,",
+        "alternativas": [
+            "1FN e 2FN.",
+            "1FN e 3FN.",
+            "2FN e 1FN.",
+            "2FN e 2FN.",
+            "3FN e 3FN."
+        ],
+        "gabarito": "3FN e 3FN."
+    },
+    {
+        "id": 59,
+        "enunciado": "A forma normal de Boyce-Codd (BCNF) é uma forma normal mais estrita que a 3FN. Isso posto, analise as afirmativas a seguir a respeito da BCNF:\nI.Uma relação está na BCNF se, e somente se, toda dependência funcional X → Y tiver X como superchave.\nII.A BCNF garante a eliminação de todas as anomalias de atualização.\nIII.A decomposição de uma relação em BCNF sempre preserva as dependências funcionais originais.\nÉ correto o que se afirma em:",
+        "alternativas": [
+            "I, II e III.",
+            "I e III, apenas.",
+            "III, apenas.",
+            "II, apenas.",
+            "I, apenas."
+        ],
+        "gabarito": "I, apenas."
+    },
+    {
+        "id": 60,
+        "enunciado": "No contexto de normalização de dados, relacione as formas normais apresentadas na primeira coluna com suas características na segunda coluna:\nPrimeira coluna: forma normal\n(1)Primeira Forma Normal (1FN)\n(2)Segunda Forma Normal (2FN)\n(3)Terceira Forma Normal (3FN) Segunda coluna: característica\n( )Elimina dependências transitivas entre atributos não chave.\n( )Elimina atributos multivalorados e compostos.\n( )Elimina dependências parciais de atributos não chave em relação à chave primária.\nAssinale a alternativa que apresenta a relação correta:",
+        "alternativas": [
+            "1 − 3 − 2.",
+            "3 − 1 − 2.",
+            "1 − 2 − 3.",
+            "2 − 1 − 3.",
+            "3 − 2 − 1."
+        ],
+        "gabarito": "3 − 1 − 2."
+    },
+    {
+        "id": 61,
+        "enunciado": "Uma tabela encontra-se em 4FN quando, além de estar em 3FN, não contém",
+        "alternativas": [
+            "tabelas aninhadas.",
+            "dependências transitivas.",
+            "tabelas autorelacionadas.",
+            "dependências intransitivas.",
+            "dependências multivaloradas."
+        ],
+        "gabarito": "dependências multivaloradas."
+    },
+    {
+        "id": 62,
+        "enunciado": "No que se refere a banco de dados, julgue o próximo item.\nPara que uma tabela esteja na terceira forma normal, é suficiente que ela não possua nenhuma coluna não-chave que dependa de outra coluna não-chave.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 63,
+        "enunciado": "Observe o seguinte esquema textual de uma tabela, não necessariamente normalizada, referente a uma base de dados de livros:\nLivro (ISBN,Titulo, AnoPublicacao, IdAutor, NomeAutor, PaísOrigem, IdEditora, NomeEditora) Em que forma normal se encontra esta tabela?",
+        "alternativas": [
+            "Primeira Forma Normal (1NF).",
+            "Segunda Forma Normal (2NF).",
+            "Terceira Forma Normal (3NF).",
+            "Forma Normal de Boyce-Codd (BCNF)."
+        ],
+        "gabarito": "Segunda Forma Normal (2NF)."
+    },
+    {
+        "id": 64,
+        "enunciado": "Em normalização de bancos de dados, a forma em que a tabela não possui atributos transitivamente dependentes da chave primária e em que não há colunas dependentes de outras colunas que não são chaves é denominada",
+        "alternativas": [
+            "primeira forma normal.",
+            "associações.",
+            "segunda forma normal.",
+            "terceira forma normal.",
+            "diagrama de dependências funcionais."
+        ],
+        "gabarito": "terceira forma normal."
+    },
+    {
+        "id": 65,
+        "enunciado": "Num processo de normalização de dados, as regras são chamadas de formas normais e têm como objetivo impedir redundâncias na organização das tabelas e evitar resultados indevidos na atualização de uma tabela. Sobre este tema atribua analise as afirmativas abaixo e dê valores Verdadeiro (V) ou Falso (F).\n( ) A primeira Forma Normal é a mais simples e abrangente exigindo apenas que todos os atributos tenham domínios atômicos, ou seja, valores indivisíveis, e nos remete a entender que em cada tupla deve haver apenas um valor para cada atributo.\n( ) A primeira regra para que uma tabela atenda à 2FN é que atenda também à 1FN. Na sequência verifica-se se a tabela possui chave primária composta, pois a forma normal somente se aplica a tabelas que a possuam. Se isso não ocorrer, devemos desprezá-la e continuar o processo.\n( ) A 3FN tem que atender a 1FN e 2FN, e exige que cada atributo pertencente à chave primária dependa diretamente da chave primária e que os atributos sejam exclusivamente independentes.\nAssinale a alternativa que apresenta a sequência correta de cima para baixo.",
+        "alternativas": [
+            "F - V - V.",
+            "F - V - F.",
+            "V - V - F.",
+            "V - V - V."
+        ],
+        "gabarito": "V - V - F."
+    },
+    {
+        "id": 66,
+        "enunciado": "Julgue o seguinte item, relacionados a modelagem de dados.\nConsidere-se que uma tabela de nome Produto tenha os atributos cod_cliente, cod_produto, nome_produto, preço e quantidade. Nesse caso, se a chave primária for composta de cod_cliente e cod_produto, a tabela estará na segunda forma normal, pois não possui grupos repetitivos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 67,
+        "enunciado": "A respeito da normalização de dados no design de bancos de dados relacionais, julgue o item que se segue.\nUma tabela estará na segunda forma normal (2NF) se estiver na primeira forma normal (1NF) e se cada atributo não chave da tabela depender apenas da chave primária.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 68,
+        "enunciado": "A respeito da normalização de dados no design de bancos de dados relacionais, julgue o item que se segue.\nConsidere a seguinte tabela ItemVenda e seus atributos.\nTabela ItemVenda • CodVenda: chave primária • CodProduto: chave primária • Qtd • PrecoProduto Se a coluna PrecoProduto depender do valor da coluna CodProduto, que é parte da chave primária da tabela ItemVenda, então, haverá dependência funcional total.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 69,
+        "enunciado": "Na Normalização de Dados, analise a alternativa que apresenta a finalidade da primeira forma normal (1FN).",
+        "alternativas": [
+            "Eliminar redundância de dados.",
+            "Garantir a consistência dos dados.",
+            "Organizar os dados em tabelas.",
+            "Estabelecer relacionamentos entre as tabelas.",
+            "Garantir a integridade referencial."
+        ],
+        "gabarito": "Organizar os dados em tabelas."
+    },
+    {
+        "id": 70,
+        "enunciado": "A respeito de banco de dados, julgue o seguinte item.\nEm um banco de dados relacional, uma tabela está na segunda forma normal quando toda coluna não chave depende diretamente da chave primária.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 71,
+        "enunciado": "Considere uma tabela relacional com atributos (colunas) A, B, C, D e E, na qual as dependências funcionais conhecidas são:\nA -> B A -> C A -> D D-> E O comando de criação dessa tabela é mostrado a seguir.\ncreate table X(A int, B int, C int, D int, E int, constraint K1 unique (A), constraint K2 unique (D) ) De acordo com as formas normais Primeira, Segunda, Terceira e Boyce-Codd, a dependência funcional adicional necessária e suficiente para a validade desse esquema é:",
+        "alternativas": [
+            "A -> E;",
+            "A, D -> E;",
+            "D -> A;",
+            "D -> B, C, D;",
+            "E -> A."
+        ],
+        "gabarito": "D -> A;"
+    },
+    {
+        "id": 72,
+        "enunciado": "Considere uma tabela relacional criada a partir do script SQL a seguir.\ncreate table xpto ( a int primary key, b int not null, c int not null, d int not null) De acordo com as formas normais das tabelas relacionais, o conjunto de dependências funcionais que deve necessariamente ser verificado é:",
+        "alternativas": [
+            "a -> b, a -> c, a -> d;",
+            "a -> b, b -> c, c -> d;",
+            "a -> b, c, d;",
+            "b -> a, c -> a, d -> a;",
+            "b, c, d -> a."
+        ],
+        "gabarito": "a -> b, a -> c, a -> d;"
+    },
+    {
+        "id": 73,
+        "enunciado": "Ao eliminar redundâncias e inconsistências, a normalização ajuda a manter a integridade dos dados, garantindo que não haja duplicação ou discrepâncias nos valores armazenados. Sobre os tipos de formas normais da normalização de dados, trata-se da Terceira Forma Normal (3FN) na normalização de dados:",
+        "alternativas": [
+            "Eliminar dependências parciais.",
+            "Eliminar dependências transitivas.",
+            "Garantir que cada coluna em uma tabela contenha valores atômicos.",
+            "Garantir que cada linha em uma tabela tenha uma chave primária única."
+        ],
+        "gabarito": "Eliminar dependências transitivas."
+    },
+    {
+        "id": 74,
+        "enunciado": "É recomendável que bancos de dados relacionais sejam projetados seguindo as chamadas formas normais. Dessa maneira, a condição para que uma tabela esteja na primeira forma normal é que",
+        "alternativas": [
+            "todos atributos da tabela sejam do tipo caractere.",
+            "o número de registros da tabela seja inferior ao número máximo pré-estabelecido.",
+            "nenhum dos atributos da tabela seja do tipo booleano.",
+            "o nome atribuído à tabela esteja de acordo com as normas de nomenclatura pré-definidas.",
+            "os domínios de todos atributos dessa tabela sejam atômicos (cada célula da tabela compreende um único valor)."
+        ],
+        "gabarito": "os domínios de todos atributos dessa tabela sejam atômicos (cada célula da tabela compreende um único valor)."
+    },
+    {
+        "id": 75,
+        "enunciado": "A normalização de dados é o processo de analisar os esquemas de relações com base nas dependências funcionais de seus atributos e chaves primárias, envolvendo uma série de Formas Normais (FN).\nObserve o esquema da tabela \"Andamento_Processo\", a seguir.\nIDANDIDPRC DATA DESCRICAO ADV_RESPONSAVEL\n1 1 2024-01-11 Petição Inicial Maria\n2 1 2024-01-25 Audiência Ana\n3 2 2024-01-30Interrogatório Luiza A tabela \"Andamento_Processo\" possui chave primária composta, atributos com valores atômicos e ausências de dependências transitivas entre os atributos não chave.\nCom base nisso, é correto afirmar que \"Andamento_Processo\" está normalizada na FN:",
+        "alternativas": [
+            "1FN;",
+            "2FN;",
+            "3FN;",
+            "4FN;",
+            "5FN."
+        ],
+        "gabarito": "3FN;"
+    },
+    {
+        "id": 76,
+        "enunciado": "A normalização é o processo de organização de dados em tabelas e o estabelecimento de relações para reduzir as redundâncias, aumentar a integridade dos dados e o desempenho. As formas normais (primeira, segunda e terceira) são uma série de procedimentos aplicados em um banco de dados para garantir que as suas tabelas estejam bem estruturadas e consistentes. Além de estar na primeira forma normal (1FN), qual a evidência de que uma tabela esteja na segunda forma normal (2FN)?",
+        "alternativas": [
+            "Ausência de dependência funcional transitiva entre os atributos não chave, com cada atributo não chave dependendo apenas da chave primária diretamente.",
+            "Ausência de dependências funcionais não triviais entre os atributos não chave.",
+            "Dependência do atributo não chave com a chave primária, não havendo dependência parcial.",
+            "Indivisibilidade de todos os atributos, sendo que cada atributo contém apenas valores atômicos."
+        ],
+        "gabarito": "Dependência do atributo não chave com a chave primária, não havendo dependência parcial."
+    },
+    {
+        "id": 77,
+        "enunciado": "Considere a relação abaixo, na qual o negrito identifica o nome da relação, os parênteses inscrevem um grupo de repetição e os atributos grifados são identificadores\n(chave) de um grupo de repetição. Localização- Continental -Nacionalidade- Servidor refere-se ao continente correspondente à nacionalidade do servidor.\nServidor(Id-Servidor, Nome-Servidor, Endereço-Servidor, Telefone-Servidor,\n(Num-Processo, Data-Processo,\n(Cod-PecaProcessual, Nome-PecaProcessual, Valor-Unitário-PecaProcessual, Quantidade-PecaProcessual-Processo), Valor-Total-Processo), Nacionalidade-Servidor, Localização-Continental-Nacionalidade-Servidor) Após a normalização até a Terceira Forma Normal (3FN), Quantidade Peca Processual- Processo será atributo com dependência funcional de:",
+        "alternativas": [
+            "Cod-PecaProcessual.",
+            "Num-Processo.",
+            "Cod-PecaProcessual + Num-Processo.",
+            "Num-Processo + Id-Servidor."
+        ],
+        "gabarito": "Cod-PecaProcessual + Num-Processo."
+    },
+    {
+        "id": 78,
+        "enunciado": "A normalização de dados é o processo de analisar os esquemas de relações com base nas dependências funcionais de seus atributos e chaves primárias, envolvendo uma série de Formas Normais (FN). Observe o esquema da tabela “Pedido”, a seguir.\nID_PEDIDO ID_CLIENTE DATA NOME_CLIENTE\n1 2 16/04/2024 Luiza\n2 3 16/04/2024 Júlia A tabela \"Pedido\" possui chave primária composta (ID_PEDIDO, ID_CLIENTE), atributos com valores atômicos e dependência parcial de coluna não chave\n(NOME_CLIENTE) com parte da chave primária (ID_CLIENTE).\nCom base nisso, “Pedido” está normalizada na FN:",
+        "alternativas": [
+            "1FN;",
+            "2FN;",
+            "3FN;",
+            "4FN;",
+            "5FN."
+        ],
+        "gabarito": "1FN;"
+    },
+    {
+        "id": 79,
+        "enunciado": "A forma normal que garante a eliminação de atributos (além das chaves primárias e estrangeiras) que se repetem nas tabelas é a",
+        "alternativas": [
+            "primeira forma normal.",
+            "segunda forma normal.",
+            "terceira forma normal.",
+            "quarta forma normal.",
+            "quinta forma normal."
+        ],
+        "gabarito": "quarta forma normal."
+    },
+    {
+        "id": 80,
+        "enunciado": "Existem diversas formas normais que podem ser utilizadas na normalização de esquemas relacionais. A forma normal Boyce- Codd (FNBC) foi proposta para ser uma simplificação, mas descobriu-se que ela é mais rigorosa que a forma normal que ela pretendia simplificar.\nA forma normal que a FNBC pretendia simplificar é a",
+        "alternativas": [
+            "1FN.",
+            "2FN.",
+            "3FN.",
+            "4FN."
+        ],
+        "gabarito": "3FN."
+    },
+    {
+        "id": 81,
+        "enunciado": "Em relação a banco de dados, julgue o próximo item.\nNormalização de banco de dados é um conjunto de regras que visa, principalmente, à organização de um projeto de banco de dados para aumentar tanto a redundância quanto a integridade dos dados, sem interferir no desempenho.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 82,
+        "enunciado": "Uma tabela de um banco de dados relacional que apresenta atributos multivalorados ou compostos",
+        "alternativas": [
+            "está na segunda forma normal.",
+            "está na primeira forma normal.",
+            "não está normalizada.",
+            "está na terceira forma normal.",
+            "está na forma normal de Boyce-Codd."
+        ],
+        "gabarito": "não está normalizada."
+    },
+    {
+        "id": 83,
+        "enunciado": "O banco de dados relacional é um recurso imprescindível para a operacionalização dos sistemas nas organizações; é através dessas estruturas que os dados coletados pelas aplicações de diferentes plataformas são armazenados, possibilitando a sua posterior recuperação e utilização pelos usuários. Para organizar corretamente os dados nessas estruturas, os profissionais aplicam o recurso de normalização, que é focado na prevenção de problemas com repetição e atualização de dados, além do correto tratamento no que diz respeito à integridade. Seguindo os conceitos definidos nessa padronização, é possível afirmar que “eliminar dependências funcionais transitivas” é uma característica da:",
+        "alternativas": [
+            "Primeira forma normal.",
+            "Segunda forma normal.",
+            "Terceira forma normal.",
+            "Quarta forma normal."
+        ],
+        "gabarito": "Terceira forma normal."
+    },
+    {
+        "id": 84,
+        "enunciado": "Julgue o próximo item, a respeito de modelagem de dados.\nUma tabela estará na terceira forma normal (3FN) se e somente se ela estiver na 1FN e na 2FN, e se todos os atributos não chave primária puderem ser obtidos somente por meio da chave primária.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 85,
+        "enunciado": "O modelo conceitual de um banco de dados prevê uma entidade denominada funcionário. Para fins de pagamento, é necessário cadastrar dados dos dependentes, caso haja, sem limite superior de quantidade.\nPara manter o modelo relacional na primeira forma normal, avalie se as seguintes abordagens devem ser propostas:\nI. Replicar, na mesma tabela, o registro do funcionário para cada dependente cadastrado.\nII. Criar uma tabela com os dados de cada dependente, vinculada por um atributo aos dados do funcionário.\nIII. Registrar no campo correspondente um vetor com os dados dos dependentes.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I e II, apenas.",
+            "I e III, apenas.",
+            "II e III, apenas.",
+            "I, apenas.",
+            "II, apenas."
+        ],
+        "gabarito": "II, apenas."
+    },
+    {
+        "id": 86,
+        "enunciado": "Em relação a banco de dados, julgue o item a seguir.\nA primeira forma normal (1FN) em bancos de dados permite que uma tabela contenha atributos multivalorados, desde que esses valores sejam de tipos de dados distintos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 87,
+        "enunciado": "Julgue o item a seguir, relativos ao modelo relacional de banco de dados e à normalização das estruturas de dados.\nConsidere que, em um banco de dados relacional que armazena dados a respeito de licitações, a tabela licitacoes possua os seguintes campos: id_licitacao, id_fornecedor, quantidade, preco_unitario, data_licitacao e valor_total. Considere, ainda, que esse último campo seja o resultado da multiplicação do campo quantidade pelo campo preco_unitario. Nesse caso, a tabela em questão está em conformidade com a terceira forma normal (3FN).",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 88,
+        "enunciado": "Em relação às formas normais em bancos de dados relacionais, a Segunda Forma Normal (2NF) desempenha um papel fundamental na organização e integridade dos dados. Qual das seguintes condições é necessária para que uma tabela esteja na Segunda Forma Normal?",
+        "alternativas": [
+            "Uma tabela está na 2NF se estiver na 1NF e se cada célula contiver um único valor, não havendo campos multivalorados ou repetidos. Além disso, cada coluna deve conter apenas valores atômicos, ou seja, não pode ser subdividida em partes menores.",
+            "Uma tabela está na 2NF se estiver na 1NF e se todos os seus atributos não chave forem totalmente dependentes da chave primária. lsso significa que nenhum atributo não chave deve depender apenas de uma parte da chave primária, mas, sim, de toda a chave primária.",
+            "Uma tabela está na 2NF se estiver na 1NF e se todos os seus atributos não chave forem transitivamente dependentes da chave primária. lsso significa que nenhum atributo não chave deve depender de outro atributo não chave.",
+            "Uma tabela está na 2NF se estiver na 1NF e se, para cada dependência funcional não trivial, X -> Y, X e uma super-chave.",
+            "Uma tabela está na 2NF se estiver na 1NF e se não contiver dependências multivaloradas. lsso significa que não deve haver atributos que dependam de subconjuntos de uma chave candidata."
+        ],
+        "gabarito": "Uma tabela está na 2NF se estiver na 1NF e se todos os seus atributos não chave forem totalmente dependentes da chave primária. lsso significa que nenhum atributo não chave deve depender apenas de uma parte da chave primária, mas, sim, de toda a chave primária."
+    },
+    {
+        "id": 89,
+        "enunciado": "Considere a relação a seguir.\nPRODUCAO (Cod_país, Fonte_energética, Ano, Capacidade_instalada, Fator_eficiência, Produção_anual) Essa relação apresenta a capacidade instalada, o fator de eficiência e a produção anual de uma determinada fonte energética por um determinado país (Cod_país) em um determinado ano.\nA capacidade instalada, o fator de eficiência e a produção anual dependem do país, da fonte energética e do ano considerado.\nConsidere ainda que {Cod_país, Fonte_energética, Ano} é a chave primária, e que a relação apresenta ainda a dependência funcional Capacidade_instalada, Fator_eficiência -> Produção_anual.\nSobre o processo de normalização e as formas normais, assinale a afirmativa correta.",
+        "alternativas": [
+            "A relação está na 2FN.",
+            "Há dependências parciais na relação apresentada.",
+            "A relação está na 3FN.",
+            "Não há dependência transitiva na relação apresentada.",
+            "A relação está na 4FN."
+        ],
+        "gabarito": "A relação está na 2FN."
+    },
+    {
+        "id": 90,
+        "enunciado": "Na teoria do processo de normalização em bancos de dados relacionais, o conceito de chave é definido por “um conjunto de uma ou mais colunas, tal que não possa haver duas linhas, t1, t2, cujos valores presentes nessas colunas sejam idênticos em t1 e t2”.\nNesse contexto, considere uma tabela T, com colunas A, B, C e D, para as quais são válidas as seguintes dependências funcionais:\nA -> B B -> C B -> D C -> B Supondo que, adicionalmente, a dependência funcional C -> A seja válida, é correto concluir que, obrigatoriamente, a tabela T deve ser:",
+        "alternativas": [
+            "declarada com duas chaves distintas;",
+            "declarada com três chaves distintas;",
+            "declarada com uma chave apenas;",
+            "particionada em duas tabelas;",
+            "particionada em três tabelas."
+        ],
+        "gabarito": "declarada com três chaves distintas;"
+    },
+    {
+        "id": 91,
+        "enunciado": "Roberta, funcionária da ORG_A, está utilizando instruções em SQL para fazer inclusões, alterações e exclusões de registros em um banco de dados que contém as informações de funcionários que participaram de determinados treinamentos promovidos pela ORG_A. Roberta notou algumas anomalias de exclusão, pois, ao comandar a instrução SQL para excluir um funcionário desligado da organização, alguns treinamentos desapareceram.\nConsiderando que as instruções em SQL executadas por Roberta estão sintática e semanticamente corretas, a modelagem do banco de dados possui problemas relacionados à existência de:",
+        "alternativas": [
+            "dependências multivaloradas de junção;",
+            "chave primária com mais de um campo não atômico;",
+            "atributos com dependências não funcionais das chaves candidatas;",
+            "dependências funcionais entre as chaves candidatas e a chave primária;",
+            "dependências transitivas de atributos não chaves em relação à chave primária."
+        ],
+        "gabarito": "dependências transitivas de atributos não chaves em relação à chave primária."
+    },
+    {
+        "id": 92,
+        "enunciado": "Tabelas criadas segundo o Modelo Relacional de Dados podem ter a qualidade de seus esquemas avaliada por meio de critérios conhecidos como formas normais.\nCom base nas chaves primárias (PKs) definidas e nas dependências funcionais (DFs) conhecidas, é possível realizar essa avaliação.\nNesse contexto, considere as seguintes tabelas, suas PKs (atributos sublinhados) e suas DFs:\nAgencia (codAgencia, bairro) Cliente (CPF, nome, endereco) ContaCorrente (CPF, codAgencia, codConta, saldo, telefone) CPF → endereco CPF → nome codAgencia → bairro codAgencia → telefone CPF, codAgencia, codConta → saldo Admita como critérios apenas as três formas normais mais simples:\n• primeira forma normal ou 1FN;\n• segunda forma normal ou 2FN; e • terceira forma normal ou 3FN.\nConsiderando-se as tabelas apresentadas e esses três critérios, verifica-se que a tabela",
+        "alternativas": [
+            "Agencia não está na 2FN.",
+            "Agencia não está na 3FN.",
+            "Cliente não está na 1FN.",
+            "ContaCorrente não está na 1FN.",
+            "ContaCorrente não está na 2FN."
+        ],
+        "gabarito": "ContaCorrente não está na 2FN."
+    },
+    {
+        "id": 93,
+        "enunciado": "A normalização de dados permite um melhor relacionamento e performance de dados dentro do próprio Sistema de Gerenciamento de Banco de Dados (SGBD).\nDiante do exposto, analise a citação a seguir:\n“[...] todo atributo da tabela deve depender única e exclusivamente da própria chave primária.” (BARBOZA et al. 2018, p..\nAssinale a alternativa que apresenta a forma normal na citação proposta.",
+        "alternativas": [
+            "Primeira forma normal.",
+            "Segunda forma normal.",
+            "Terceira forma normal.",
+            "Forma normal de Boyce-Codd."
+        ],
+        "gabarito": "Forma normal de Boyce-Codd."
+    },
+    {
+        "id": 94,
+        "enunciado": "Uma loja pretende estruturar as informações de clientes e produtos em um banco de dados relacional. Os dados de clientes incluem ID do cliente, nome, endereço e telefone. Os dados de produtos incluem ID do produto, nome do produto, preço e quantidade em estoque. A empresa quer saber que produtos cada cliente comprou e em que quantidade, e os clientes que compraram determinado produto, em certo período.\nCom base na situação hipotética apresentada, julgue o seguinte item.\nAs chaves primárias de cada tabela a ser criada, após a normalização na 3FN, são: Tabela: Clientes: ID_Cliente; Tabela: Produtos: ID_Produto e Tabela: Compras:\nID_Compra.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 95,
+        "enunciado": "Considere que você está projetando um banco de dados relacional para armazenar informações sobre clientes em uma grande empresa. No entanto, alguns atributos dos clientes (como número de telefone, endereço secundário ou redes sociais) podem não estar presentes para todos os clientes, resultando em muitos campos nulos nas tabelas. Assinale a alternativa que apresenta a melhor abordagem para lidar com dados esparsos em um banco de dados relacional, considerando desempenho e escalabilidade.",
+        "alternativas": [
+            "Normalizar a base de dados criando tabelas separadas para cada tipo de dado opcional, como tabelas para telefones, endereços e redes sociais, ligando-as com chaves estrangeiras.",
+            "Manter uma única tabela com todas as colunas possíveis e aceitar os valores nulos para clientes que não possuem certas informações.",
+            "Usar um banco de dados relacional para armazenar os dados obrigatórios e um banco NoSQL separado para armazenar os dados esparsos.",
+            "Utilizar índices em todas as colunas que contêm dados nulos para melhorar a eficiência das consultas."
+        ],
+        "gabarito": "Normalizar a base de dados criando tabelas separadas para cada tipo de dado opcional, como tabelas para telefones, endereços e redes sociais, ligando-as com chaves estrangeiras."
+    },
+    {
+        "id": 96,
+        "enunciado": "Ao aplicar alguns conceitos de normalização, um Analista verificou que uma das tabelas cuja chave primária era uma composição de identificação de funcionário e identificação de advogado, continha o atributo nome do funcionário e que este não dependia da identificação de advogado, mas somente da identificação de funcionário, então",
+        "alternativas": [
+            "para solucionar essa anomalia, ele deve utilizar e aplicar, corretamente, os conceitos de normalização até a FN Transiente Funcional.",
+            "para solucionar essa anomalia, ele deve utilizar e aplicar, corretamente, os conceitos de normalização até a 2FN.",
+            "conclui-se que ele não necessita aplicar mais nenhuma FN.",
+            "conclui-se que ele não aplicou total e corretamente a 1FN, deixando uma anomalia seguir adiante.",
+            "conclui-se que ele dispensou os conhecimentos da FN de Alan Turing."
+        ],
+        "gabarito": "para solucionar essa anomalia, ele deve utilizar e aplicar, corretamente, os conceitos de normalização até a 2FN."
+    },
+    {
+        "id": 97,
+        "enunciado": "No que diz respeito à normalização das estruturas de dados, à extração de metadados no MySQL, a técnicas de modelagem dimensional e à linguagem de consulta estruturada (SQL – ANSI), julgue o item seguinte.\nA primeira forma normal (1NF) sugere que informações repetitivas, como endereços de clientes, sejam armazenadas em uma tabela separada, para evitar redundâncias e garantir a integridade dos dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 98,
+        "enunciado": "De acordo com Elmasri e Navalhe (2, correlacione as Formas Normais (FN) às suas características e assinale a opção correta.\nFORMAS NORMAIS\nI- 1FN\nII- 2FN\nIII- 3FN\nIV- 4FN\nV- 5FN CARACTERISTICAS\n( ) É fundamentada no conceito de dependência funcional total.\n( ) Os únicos valores de atributo permitidos por esta FN são valores atômicos.\n( ) Esta FN é definida com base no conceito de dependência multivalorada.",
+        "alternativas": [
+            "(II) (I) (IV).",
+            "(I) (II) (V).",
+            "(II) (III) (IV).",
+            "(III) (I) (II).",
+            "(V) (IV) (III)."
+        ],
+        "gabarito": "(II) (I) (IV)."
+    },
+    {
+        "id": 99,
+        "enunciado": "A Normalização em Bancos de Dados é o processo para avaliar e corrigir estruturas e tabelas de modo a minimizar as redundâncias de dados, reduzindo, assim, a probabilidade de anomalias.\nA Terceira forma normal utiliza o princípio da:",
+        "alternativas": [
+            "Relatividade.",
+            "Transitividade.",
+            "Restrição.",
+            "Atomicidade.",
+            "Funcionalidade."
+        ],
+        "gabarito": "Transitividade."
+    },
+    {
+        "id": 100,
+        "enunciado": "Julgue o item seguinte, a respeito de ciência de dados e de modelagem de dados.\nQuando uma tabela está na terceira forma normal (3FN), toda coluna que não é chave depende diretamente da chave primária, sem dependências indiretas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 101,
+        "enunciado": "Sobre normalização de estruturas de dados, analise as seguintes afirmativas e assinale V, para verdadeiro, e F, para falso.\n(__) Uma relação que está na BCNF também está em 1NF.\n(__) Uma relação que está em 3NF também está em 1NF.\n(__) Uma relação que está em 4NF está em 3NF, mas não necessariamente está em BCNF.\nA alternativa que possui a sequência correta é:",
+        "alternativas": [
+            "V, V, V.",
+            "V, V, F.",
+            "V, F, F.",
+            "F, F, F."
+        ],
+        "gabarito": "V, V, F."
+    },
+    {
+        "id": 102,
+        "enunciado": "A respeito de modelagem, normalização de dados e de MySQL, julgue o item seguinte Para que uma tabela de funcionários, que inclua o departamento e o gerente do departamento, esteja na terceira forma normal, é necessário que ela seja dividida para que as informações do gerente estejam armazenadas em uma tabela separada, eliminando-se a dependência transitiva entre funcionário e gerente.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 103,
+        "enunciado": "Julgue o item subsecutivo, a respeito de banco de dados e modelagem de dados.\nEm bancos de dados relacionais, quando uma tabela está na terceira forma normal (3FN), seus atributos dependem inteiramente da chave primária.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 104,
+        "enunciado": "Na relação a seguir, criada para armazenar determinados dados, os atributos sublinhados compõem a chave primária.\nDESIGNA-PROFESSOR-SEMESTRE (matricula-professor, codigo-curso, nome-professor, nome-curso, quantidade-horas, regime-dedicacao, matricula-doprofessor- coordenador) Nesse caso, são aplicadas as seguintes regras:\n• um professor pode ser designado para mais de um curso;\n• um curso tem apenas um professor designado como coordenador;\n• um professor pode ser coordenador de mais de um curso;\n• o regime- dedicação de cada professor é determinado em função da quantidade de horas de trabalho designadas.\nCom base nas informações precedentes, julgue o item que se segue, a respeito das regras de modelagem e normalização de dados.\nPara que a relação apresentada esteja na quarta forma normal (4FN), uma das relações geradas no processo de decomposição deve ser a seguinte.\nDESIGNA-PROFESSOR-COORDENADOR (matricula-professor, matricula-professor-coordenador, codigo-curso)",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 105,
+        "enunciado": "Na relação a seguir, criada para armazenar determinados dados, os atributos sublinhados compõem a chave primária.\nDESIGNA-PROFESSOR-SEMESTRE (matricula-professor, codigo-curso, nome-professor, nome-curso, quantidade-horas, regime-dedicacao, matricula-doprofessor- coordenador) Nesse caso, são aplicadas as seguintes regras:\n• um professor pode ser designado para mais de um curso;\n• um curso tem apenas um professor designado como coordenador;\n• um professor pode ser coordenador de mais de um curso;\n• o regime- dedicação de cada professor é determinado em função da quantidade de horas de trabalho designadas.\nCom base nas informações precedentes, julgue o item que se segue, a respeito das regras de modelagem e normalização de dados.\nPara que esteja na terceira forma normal (3FN), a relação apresentada deve ser decomposta e deve possuir, no fim do processo de normalização, um total de quatro relações.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 106,
+        "enunciado": "A função da normalização em um banco de dados relacional é",
+        "alternativas": [
+            "reduzir a redundância e evitar problemas de atualização por meio da divisão de dados em tabelas relacionadas.",
+            "aumentar a velocidade das consultas ao criar índices adicionais em todas as colunas.",
+            "garantir a segurança dos dados por meio da criptografia em todas as tabelas.",
+            "facilitar a migração de dados para outros sistemas de gerenciamento de banco de dados.",
+            "simplificar a interface de usuário fornecida pelo sistema de banco de dados."
+        ],
+        "gabarito": "reduzir a redundância e evitar problemas de atualização por meio da divisão de dados em tabelas relacionadas."
+    },
+    {
+        "id": 107,
+        "enunciado": "No desenvolvimento de softwares e implementação de sistemas de banco de dados, é crucial entender o conceito de normalização para evitar redundâncias e inconsistências nos dados. Com base nisso, qual das seguintes alternativas sobre a normalização de banco de dados é a mais correta?",
+        "alternativas": [
+            "A primeira forma normal (1NF) exige que todos os valores em uma tabela sejam únicos.",
+            "A segunda forma normal (2NF) elimina dependências parciais, ou seja, dependências de parte de uma chave composta.",
+            "A terceira forma normal (3NF) é alcançada quando não há dependências transitivas, e a tabela ainda pode ter dependências parciais.",
+            "A normalização de banco de dados é um processo irreversível e impede qualquer tipo de desnormalização."
+        ],
+        "gabarito": "A segunda forma normal (2NF) elimina dependências parciais, ou seja, dependências de parte de uma chave composta."
+    },
+    {
+        "id": 108,
+        "enunciado": "Dentre os tipos de formas normais considerados no desenvolvimento de bancos de dados relacionais, há um tipo denominado de Forma Normal de",
+        "alternativas": [
+            "Entidades.",
+            "Boyce-Codd.",
+            "Simulação.",
+            "Árvores B+.",
+            "Fluxo de Dados."
+        ],
+        "gabarito": "Boyce-Codd."
+    },
+    {
+        "id": 109,
+        "enunciado": "A normalização em bancos de dados é um processo de organização das tabelas e suas relações para minimizar a redundância de dados e garantir a integridade dos dados. O objetivo principal é dividir uma grande tabela em tabelas menores e relacionadas, eliminando dados redundantes e garantindo que as dependências entre os dados sejam adequadas. Em relação ao tema, informe se é verdadeiro (V) ou falso (F) o que se afirma a seguir e assinale a alternativa com a sequência correta.\n( ) Para que uma tabela esteja na primeira forma normal, todos os campos devem conter valores atômicos e cada registro deve ser único, o que é garantido por uma chave primária.\n( ) Para que uma tabela esteja na segunda forma normal, ela deve estar na primeira forma normal e lidar com multivalores dependentes. Garantindo que, para cada combinação de valores de chave primária, não existam dependências multivaloradas.\n( ) Para que uma tabela esteja na terceira forma normal, ela deve estar na segunda forma normal e deve haver uma maneira de tratar dados que mudam com o tempo, como adicionar um timestamp para cada fato.",
+        "alternativas": [
+            "V – V – V.",
+            "V – V – F.",
+            "V – F – F.",
+            "F – F – F.",
+            "F – F – V."
+        ],
+        "gabarito": "V – F – F."
+    },
+    {
+        "id": 110,
+        "enunciado": "A normalização é o processo de organizar os dados em um banco de dados, criando tabelas e estabelecendo relacionamentos entre elas, conforme regras.\nPara aplicar a técnica de normalização 3FN, devemos:\nFONTE: https://cm-kls-content.s3.amazonaws.com/201802/ INTERATIVAS_2_0/MODELAGEM_DE_DADOS/U1/LIVRO_ UNICO.pdf",
+        "alternativas": [
+            "Verificar se não há campos multivalorados e não atômicos.",
+            "Criar a chave primária das tabelas.",
+            "Eliminar registros duplicados.",
+            "Inserir a chave primária das tabelas.",
+            "Eliminar todos os campos dependentes."
+        ],
+        "gabarito": "Eliminar todos os campos dependentes."
+    },
+    {
+        "id": 111,
+        "enunciado": "Normalização é o processo de organização de dados em um banco de dados. Uma dependência X→Y em uma relação R é uma dependência transitiva se existir um conjunto de atributos Z que não é um subconjunto de qualquer chave de R, e tanto X→Z quanto Z→Y, indica a seguinte forma normal:",
+        "alternativas": [
+            "Segunda Forma Normal.",
+            "Terceira Forma Normal.",
+            "Quarta Forma Normal.",
+            "Forma Normal de Boyce-Codd."
+        ],
+        "gabarito": "Terceira Forma Normal."
+    },
+    {
+        "id": 112,
+        "enunciado": "Um Sistema de Gerenciamento de Banco de Dados Relacional (SGBDR) permite manipular bancos de dados sobre uma camada de software, dispondo os dados em formato de tabelas ao invés de arquivos em pastas. Para servir à finalidade de aplicações transacionais, as boas práticas apontam o uso do conceito de normalização.\nAssinale a afirmativa incorreta em relação às vantagens da normalização.",
+        "alternativas": [
+            "Melhora a performance de consultas analíticas em um Data Warehouse, pois o modelo dimensional estrela depende da normalização.",
+            "A metodologia em etapas (1FN -> 2FN -> 3FN) facilita o processo de eliminação de dependências funcionais.",
+            "Diminui o esforço computacional de operações de UPDATE, pois as atualizações ocorrem apenas onde necessário.",
+            "Economiza espaço em disco, pois evita repetições de dados.",
+            "Melhora o desempenho geral sistêmico de uma aplicação, sobretudo com grandes volumes de dados, pois as transações ocorrem sob escopos específicos."
+        ],
+        "gabarito": "Melhora a performance de consultas analíticas em um Data Warehouse, pois o modelo dimensional estrela depende da normalização."
+    },
+    {
+        "id": 113,
+        "enunciado": "Sobre banco de dados relacional, considere a tabela:\nprofessor disciplina (cod professor, cod disciplina, nome disciplina, nome_disciplina, data_inicio, data_termino) Após a normalização, temos duas tabelas cujo resultado obtido foi:\nprofessor_disciplina (cod_professor, cod_disciplina, data_inicio, data_termino) disciplina (cod_disciplina, nome_disciplina) Os campos em negrito representam a chave primária. Assinale a alternativa que indica CORRETAMENTE a forma normal aplicada: HEUSER, Carlos Alberto. Projeto de Banco de Dados. 6. ed. Porto Alegre: Bookman, 2009.",
+        "alternativas": [
+            "1 FN.",
+            "2 FN.",
+            "3 FN.",
+            "FNBC.",
+            "5FN."
+        ],
+        "gabarito": "2 FN."
+    },
+    {
+        "id": 114,
+        "enunciado": "Observe a seguinte ficha de inscrição de um determinado aluno para o curso de informática:\nA ficha representa uma tabela com todos os atributos (em negrito) e a chave desta tabela é MATRICULA. (Matricula, Nomealuno, Identidade, CPF, TitulodeEleitor, Celular, Email, CodigoCurso, NomeCurso, CargaHorariaCurso, CodigoTurno, NomeTurno). Podemos afirmar que tabela encontra-se em que forma normal?",
+        "alternativas": [
+            "Normalizada.",
+            "Não-normalizada.",
+            "1ª forma normal.",
+            "2ª forma normal.",
+            "3ª forma normal."
+        ],
+        "gabarito": "2ª forma normal."
+    },
+    {
+        "id": 115,
+        "enunciado": "Uma tabela de banco de dados que não possui dependências funcionais parciais está na",
+        "alternativas": [
+            "primeira forma normal (1FN).",
+            "segunda forma normal (2FN).",
+            "terceira forma normal (3FN).",
+            "forma normal de boyce-codd (BCNF).",
+            "quarta forma normal (4FN)."
+        ],
+        "gabarito": "segunda forma normal (2FN)."
+    },
+    {
+        "id": 116,
+        "enunciado": "O banco de dados de um órgão do Judiciário foi modelado conforme imagem abaixo, utilizando o Modelo Entidade-Relacionamento (MER).\nFoi criado um banco de dados chamado MPEPB123 com as tabelas referentes ao modelo e os dados abaixo foram cadastrados. Considere para todas as questões que o banco de dados está aberto e em condições ideais.\nTabela Processo numeroProc orgaoProc tribunalProc origemProc 0001842672017 5 01 0246 0045613912014 8 19 0004 0056712432022 6 14 0023 0002347652022 8 02 0341 Tabela Advogado numeroOABAdv nomeAdv 28H418 Marcos Vieira Dias 34.443 Fabiana Duque Zanon Tabela Advogado_Processo numeroOABAdv numeroProc papel 28H418 0001842672017 Defesa 34.443 0045613912014 Defesa 28H418 0056712432022 Acusação 28H418 0045613912014 Acusação 34.443 0056712432022 Acusação 34.443 0001842672017 Acusação A afirmação de que o atributo papel identifica a forma como o advogado (numeroOABAdv) atuará em determinado processo (numeroProc), sendo papel dependente da chave primária composta e não somente de parte dela, é requisito básico para indicar que a entidade “Advogado_Processo” está na",
+        "alternativas": [
+            "3ª FN.",
+            "6ª FN.",
+            "4ª FN.",
+            "2ª FN.",
+            "5ª FN."
+        ],
+        "gabarito": "2ª FN."
+    },
+    {
+        "id": 117,
+        "enunciado": "Assinale a alternativa correta quanto à normalização para bancos de dados relacionais.",
+        "alternativas": [
+            "Diz-se que uma coluna C2 depende funcionalmente de uma coluna C1 quando, em todas as linhas da tabela, para cada valor de C2 que aparece na tabela, aparece o valor de C1.",
+            "Normalização é o processo de armazenar a junção de tabelas na forma normal mais alta como uma tabela única, que está em uma forma normal mais baixa.",
+            "Um atributo de uma tabela T é chamado de atributo candidato de T se ele for o membro de alguma chave primária de T.",
+            "Uma tabela encontra-se na primeira forma normal quando, além não conter tabelas aninhadas, não contém dependências parciais.",
+            "Uma tabela na terceira forma normal não contém dependência funcional transitiva que ocorre quando uma coluna, além de depender da chave primária da tabela, depende de outra coluna ou conjunto de colunas da tabela."
+        ],
+        "gabarito": "Uma tabela na terceira forma normal não contém dependência funcional transitiva que ocorre quando uma coluna, além de depender da chave primária da tabela, depende de outra coluna ou conjunto de colunas da tabela."
+    },
+    {
+        "id": 118,
+        "enunciado": "Considere a tabela a seguir, não necessariamente normalizada, referente à base de dados, que lista para cada pesquisador todos os artigos em periódicos publicados:\nTabela (CodPesq, NomePesq,\n(CodArt, TituloArt, PaginaInicial, PaginaFinal, CodPer, TituloPeriodico, Editora)) As dependências funcionais (podendo incluir dependências transitivas) que existem nesta tabela são as seguintes:\nConsiderando o processo de normalização da tabela, marque V para as afirmativas verdadeiras e F para as falsas.\n( ) A normalização irá gerar quatro tabelas até a 3ª Forma Normal.\n( ) A normalização da tabela anterior não possui processo de normalização da 3ª Forma Normal, pois não tem dependência funcional parcial; sendo, assim, 3FN = 2FN.\n( ) A normalização irá gerar três tabelas até a 3ª Forma Normal.\n( ) Uma das tabelas geradas na normalização foi criada pela eliminação da dependência funcional transitiva.\nA sequência está correta em",
+        "alternativas": [
+            "V, F, F, V.",
+            "F, F, V, V.",
+            "V, V, F, F.",
+            "F, V, V, F."
+        ],
+        "gabarito": "V, F, F, V."
+    },
+    {
+        "id": 119,
+        "enunciado": "Com relação às formas normais em bancos de dados relacionais, assinale a alternativa correta no que diz respeito à forma normal de Boyce/Codd, com relação à sua posição na hierarquia das formas normais.",
+        "alternativas": [
+            "Precede a 1ª forma normal e é considerada o patamar mais elementar da normalização.",
+            "Situa-se entre a 1ª forma normal e a 2ª forma normal.",
+            "Situa-se entre a 2ª forma normal e 3ª forma normal.",
+            "Situa-se entre a 3ª forma normal e a 4ª forma normal.",
+            "É considerada a 6ª forma normal."
+        ],
+        "gabarito": "Situa-se entre a 3ª forma normal e a 4ª forma normal."
+    },
+    {
+        "id": 120,
+        "enunciado": "A normalização de dados pode ser considerada um processo de análise de determinados esquemas de relação com base em suas Dependências Funcionais (FDs) e chaves primárias para obter as propriedades desejáveis para minimizar a redundância e as anomalias de inserção, exclusão e atualização. Quantas formas normais foram propostas?",
+        "alternativas": [
+            "No trabalho original de Edgar F. Codd, existem três formas normais que seguem até hoje sem outras.",
+            "Primeira, segunda e terceira forma normal e depois seguiu-se com a 4NF e a 5NF.",
+            "Somente duas: uma estrutura formal e uma série de testes de forma normal.",
+            "A indicação do grau em que a forma foi normalizada não tem limite, vai sempre aumentando.",
+            "A forma normal é considerada isoladamente de outros fatores para um bom projeto."
+        ],
+        "gabarito": "Primeira, segunda e terceira forma normal e depois seguiu-se com a 4NF e a 5NF."
+    },
+    {
+        "id": 121,
+        "enunciado": "Em que consiste a terceira forma normal (3FN) em banco de dados?",
+        "alternativas": [
+            "Dados repetidos são mantidos em várias tabelas diferentes.",
+            "Cada atributo da tabela depende totalmente da chave primária da tabela.",
+            "Dados repetidos são mantidos em uma única tabela,.",
+            "Todos os atributos da tabela dependem apenas parcialmente da chave primária da tabela.",
+            "Atributos não relacionados são mantidos em tabelas separadas."
+        ],
+        "gabarito": "Cada atributo da tabela depende totalmente da chave primária da tabela."
+    },
+    {
+        "id": 122,
+        "enunciado": "No contexto do projeto de bancos de dados, considere uma tabela relacional com três colunas, A, B e C, cuja instância é mostrada a seguir.\nA B C\n1 100 200\n2 102 200\n3 97 300\n4 80 400 Tomando por base apenas essa instância, analise a seguinte lista de eventuais dependências funcionais.\nA -> B A -> B,C B -> A,C C -> B A,C -> B Sobre a validade dessas dependências, é correto concluir que:",
+        "alternativas": [
+            "somente duas delas são válidas;",
+            "são válidas somente as duas primeiras e a quarta;",
+            "são válidas somente as três primeiras;",
+            "somente quatro delas são válidas;",
+            "todas são válidas."
+        ],
+        "gabarito": "somente quatro delas são válidas;"
+    },
+    {
+        "id": 123,
+        "enunciado": "A primeira forma normal, utilizada no processo de normalização de um banco de dados relacional, estabelece que:",
+        "alternativas": [
+            "não haja linhas duplicadas numa tabela;",
+            "não haja colunas idênticas numa tabela;",
+            "em nenhuma das linhas de uma tabela haja valores múltiplos armazenados na mesma coluna;",
+            "em qualquer tabela deve haver uma coluna que possa ser declarada como chave primária;",
+            "não haja transitividade de dependências funcionais entre as colunas."
+        ],
+        "gabarito": "em nenhuma das linhas de uma tabela haja valores múltiplos armazenados na mesma coluna;"
+    },
+    {
+        "id": 124,
+        "enunciado": "Assinale a alternativa que indica uma condição que NÃO precisa ser atendida para que uma tabela seja considerada normalizada na 1FN.",
+        "alternativas": [
+            "Cada célula da tabela deve conter somente valores atômicos, ou seja, cada campo deve ter somente um valor por tupla.",
+            "Cada linha da tabela, ou registro, deve ser única, não podendo ter registros repetidos nem com uma chave primária diferente da outra.",
+            "Não deve conter tabelas aninhadas.",
+            "Os campos devem possuir um tipo definido.",
+            "Os campos devem ser dependentes da chave primária."
+        ],
+        "gabarito": "Cada linha da tabela, ou registro, deve ser única, não podendo ter registros repetidos nem com uma chave primária diferente da outra."
+    },
+    {
+        "id": 125,
+        "enunciado": "Com relação a conceitos de modelos de dados e de modelagem de dados, julgue o item subsecutivo.\nUma relação que esteja na quinta forma normal (5FN) está necessariamente livre de anomalias que sejam passíveis de serem eliminadas a partir de projeções.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 126,
+        "enunciado": "De acordo com Elmasri e Navathe (2, qual é o objetivo da segunda forma normal (2FN) e da terceira forma normal (3FN) em um banco de dados relacional em relação às dependências?",
+        "alternativas": [
+            "Adicionar dependências parciais e dependências transitivas.",
+            "Eliminar dependências parciais e dependências transitivas.",
+            "Adicionar dependências transitivas.",
+            "Eliminar dependências transitivas.",
+            "Adicionar redundância de dados para garantir a consistência e a atualização dos dados armazenados."
+        ],
+        "gabarito": "Eliminar dependências parciais e dependências transitivas."
+    },
+    {
+        "id": 127,
+        "enunciado": "Acerca de bancos de dados relacionais, julgue o item seguinte.\nAs tabelas que estejam na primeira forma normal (1FN) e que possuam apenas uma coluna como chave primária também estão na segunda forma normal (2FN).",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 128,
+        "enunciado": "Considere um extrato de uma tabela pertencente a um banco de dados relacional:\nCPF Nome Formação\n(chave primária) 123 Paulo Engenheiro, Físico 356 Maria Advogado, Jornalista 908 Pedro Arquiteto Observando-se essa tabela, verifica-se que ela não atende à primeira forma normal, visto que",
+        "alternativas": [
+            "tem número ímpar de atributos.",
+            "o domínio do atributo Formação não é atômico.",
+            "possui chave primária simples.",
+            "não possui atributos booleanos.",
+            "o domínio da chave primária é numérico."
+        ],
+        "gabarito": "o domínio do atributo Formação não é atômico."
+    },
+    {
+        "id": 129,
+        "enunciado": "A respeito de modelagem de dados, julgue o item a seguir.\nUm banco de dados que se encontra na terceira forma normal obrigatoriamente está também na segunda e na primeira formas normais.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 130,
+        "enunciado": "Acerca de normalização de dados, julgue o item a seguir.\nUma tabela está na primeira forma normal quando ela não contém tabelas aninhadas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 131,
+        "enunciado": "Acerca de normalização de dados, julgue o item a seguir.\nAs colunas de uma tabela na terceira forma normal devem depender da chave primária, de forma direta ou por meio de dependências transitivas ou indiretas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 132,
+        "enunciado": "Acerca de normalização de dados, julgue o item a seguir.\nPara estar na segunda forma normal, é suficiente que a tabela não contenha nenhuma dependência parcial.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 133,
+        "enunciado": "Na teoria dos bancos de dados, o que é a \"dependência transitiva\" e como ela se relaciona com a normalização?",
+        "alternativas": [
+            "A dependência transitiva ocorre quando uma coluna é determinada por outra coluna através de uma cadeia de dependências funcionais. Isso está relacionado ao processo de normalização, onde a dependência transitiva precisa ser eliminada para alcançar formas normais superiores.",
+            "A dependência transitiva refere-se à capacidade de uma tabela se relacionar com várias outras tabelas, formando uma rede complexa de dependências. Isso é contrário ao objetivo da normalização, que busca simplificar a estrutura do banco de dados.",
+            "A dependência transitiva é um conceito utilizado na modelagem de banco de dados distribuídos, onde os dados são armazenados em locais diferentes. Isso não tem relação direta com o processo de normalização.",
+            "A dependência transitiva ocorre quando uma tabela é dividida em várias tabelas menores durante o processo de normalização. Isso é parte do objetivo da normalização, que visa aumentar a complexidade das tabelas.",
+            "A dependência transitiva refere-se à dependência entre chaves primárias e chaves estrangeiras em uma única tabela. Isso não tem influência na normalização."
+        ],
+        "gabarito": "A dependência transitiva ocorre quando uma coluna é determinada por outra coluna através de uma cadeia de dependências funcionais. Isso está relacionado ao processo de normalização, onde a dependência transitiva precisa ser eliminada para alcançar formas normais superiores."
+    },
+    {
+        "id": 134,
+        "enunciado": "A prática de dividir uma tabela grande em tabelas menores para reduzir a redundância e melhorar o desempenho das consultas é denominada:",
+        "alternativas": [
+            "Fragmentação de Banco de Dados.",
+            "Indexação de Banco de Dados.",
+            "Integridade Referencial.",
+            "Tuning de Banco de Dados.",
+            "Normalização de Banco de Dados."
+        ],
+        "gabarito": "Normalização de Banco de Dados."
+    },
+    {
+        "id": 135,
+        "enunciado": "Para se alcançar maior eficiência e desempenho na execução de consultas em um banco de dados, muitos analistas optam pela aplicação de práticas de normalização na modelagem de esquemas de dados. Seguindo os conceitos de normalização de um modelo relacional básico, a relação abaixo (CURSOS_UEPB) está em qual forma normal? CURSOS_UEPB CUR_NOME CUR_CODIGO MATR_GESTOR CUR_CAMPUS Matemática c104 1357498 Campus I Matemática c104 1357498 Campus VI Matemática c104 1357498 Campus VII Ciências Biológicas c102 5309980 Campus V Direito c133 3927506 Campus III",
+        "alternativas": [
+            "2FN - Segunda Forma Normal.",
+            "1FN - Primeira Forma Normal.",
+            "3FN - Terceira Forma Normal.",
+            "5FN - Quinta Forma Normal.",
+            "4FN - Quarta Forma Normal."
+        ],
+        "gabarito": "1FN - Primeira Forma Normal."
+    },
+    {
+        "id": 136,
+        "enunciado": "A normalização é um processo muito utilizado na organização de bancos de dados. A esse respeito, o objetivo principal da normalização das estruturas de dados em bancos de dados relacionais é",
+        "alternativas": [
+            "eliminar as duplicações de dados e garantir que cada informação seja armazenada em uma única tabela.",
+            "aumentar a redundância dos dados, garantindo que informações essenciais sejam armazenadas em várias tabelas.",
+            "reduzir a quantidade de dados armazenados no banco de dados, resultando em uma economia de espaço de armazenamento.",
+            "simplificar as consultas complexas e otimizar a recuperação de informações do banco de dados, resultando em um melhor desempenho.",
+            "criar uma representação visual da estrutura física dos dados no disco, facilitando o acesso direto e rápido às informações armazenadas."
+        ],
+        "gabarito": "eliminar as duplicações de dados e garantir que cada informação seja armazenada em uma única tabela."
+    },
+    {
+        "id": 137,
+        "enunciado": "A normalização de esquemas de bancos de dados é feita a partir das dependências funcionais existentes entre as colunas de uma tabela. Além disso, é possível combinar dependências e derivar novas dependências a partir de axiomas preestabelecidos. Considerando uma tabela hipotética, com colunas X, Y e Z, o axioma da transitividade é definido como segue:\n→ → →",
+        "alternativas": [
+            "Se X Y e X Z então Z XY; → → →",
+            "Se X Y e Y Z então X Z; → →",
+            "Se X Y então XZ YZ; → →",
+            "Se X Y então X XY; → →",
+            "Se XY Z então X Z."
+        ],
+        "gabarito": "Se X Y e Y Z então X Z; → →"
+    },
+    {
+        "id": 138,
+        "enunciado": "As formas normais em bancos de dados são regras que definem a organização e a estrutura das tabelas para garantir a eficiência na representação e manutenção dos dados, evitando redundâncias e anomalias.\nUma tabela está na segunda forma normal (2FN) se, além de estar na primeira forma normal,",
+        "alternativas": [
+            "todos os seus atributos são indivisíveis e cada atributo contém apenas valores atômicos.",
+            "todos os atributos não-chave são totalmente dependentes da chave primária, não havendo dependência parcial.",
+            "não houver dependência transitiva entre os atributos não-chave, com cada atributo não-chave dependendo apenas da chave primária diretamente.",
+            "não houver dependências funcionais não triviais entre atributos não-chave."
+        ],
+        "gabarito": "todos os atributos não-chave são totalmente dependentes da chave primária, não havendo dependência parcial."
+    },
+    {
+        "id": 139,
+        "enunciado": "As formas normais são uma série de procedimentos aplicados em um banco de dados para garantir que as suas tabelas estejam bem estruturadas e não contenham nenhum tipo de anomalia, seja de inclusão, atualização ou exclusão. Sobre as formas normais em banco de dados, analise as afirmativas a seguir.\nI. A primeira forma normal considera que os únicos valores de atributos permitidos são os valores atômicos (ou indivisíveis).\nII. Se a chave primária de uma relação tiver um único atributo, o teste para a segunda forma normal deve ser aplicado obrigatoriamente.\nIII. De acordo com a terceira forma normal, não deve haver dependência transitiva de um atributo não chave sobre a chave primária.\nEstão corretas as afirmativas",
+        "alternativas": [
+            "I e II, apenas.",
+            "I e III, apenas.",
+            "II e III, apenas.",
+            "I, II e III."
+        ],
+        "gabarito": "I e III, apenas."
+    },
+    {
+        "id": 140,
+        "enunciado": "Na modelagem de um projeto de banco de dados é importante destacar o entendimento que normalização pode ser considerada um processo de analisar os esquemas de relação de dados com base em suas dependências funcionais e chaves primárias para conseguir as propriedades desejadas de minimização de redundância e minimização das anomalias de inserção, exclusão e atualização. No modelo relacional, considerada parte da definição formal de uma relação e afirma que o domínio de um atributo deve incluir apenas valores atômicos (simples, indivisíveis) e que o valor de qualquer atributo em uma tupla deve ser único valor do domínio desse atributo, é conhecida como:",
+        "alternativas": [
+            "quarta forma normal.",
+            "segunda forma normal.",
+            "terceira forma normal.",
+            "primeira forma normal.",
+            "quinta forma normal."
+        ],
+        "gabarito": "primeira forma normal."
+    },
+    {
+        "id": 141,
+        "enunciado": "Uma tabela está na segunda forma normal (2FN) se e somente se",
+        "alternativas": [
+            "não contém atributos multivalorados, mas contém tabelas aninhadas e atributos candidatos que dependem de somente uma parte da chave primária.",
+            "contém atributos multivalorados, mas não contém tabelas aninhadas e nem atributos candidatos que dependem de somente uma parte da chave primária.",
+            "contém tabelas aninhadas, mas não contém atributos multivalorados e nem atributos não chave que dependem de somente uma parte da chave primária.",
+            "não contém tabelas aninhadas e nem atributos multivalorados.",
+            "não contém tabelas aninhadas nem atributos multivalorados e todos seus atributos não chave são dependentes da totalidade da chave primária."
+        ],
+        "gabarito": "não contém tabelas aninhadas nem atributos multivalorados e todos seus atributos não chave são dependentes da totalidade da chave primária."
+    },
+    {
+        "id": 142,
+        "enunciado": "Sistemas que se utilizam da estrutura de um banco de dados relacional, em sua concepção, devem ter o que se chama de normalização. A literatura vigente aponta 1FN, 2FN, 3FN e 4FN. A forma que implementa uma forma de verificação de dependência funcional Multivalorada é a:",
+        "alternativas": [
+            "Quarta Forma Normal.",
+            "Segunda Forma Normal.",
+            "Terceira Forma Normal.",
+            "Primeira Forma Normal."
+        ],
+        "gabarito": "Quarta Forma Normal."
+    },
+    {
+        "id": 143,
+        "enunciado": "Acerca da modelagem de bancos de dados, do gerenciamento de memória e dos sistemas de arquivos, julgue o item.\nNa normalização de dados, a 2.a forma normal trata da remoção de dependências parciais enquanto que a 3.a forma normal remove dependências transitivas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 144,
+        "enunciado": "Em um modelo de dados, quando todas as colunas não chave de uma tabela dependem da chave primária, a tabela está na",
+        "alternativas": [
+            "primeira forma normal (1FN).",
+            "segunda forma normal (2FN).",
+            "terceira forma normal (3FN).",
+            "quarta forma normal (4FN).",
+            "quinta forma normal (5FN)."
+        ],
+        "gabarito": "terceira forma normal (3FN)."
+    },
+    {
+        "id": 145,
+        "enunciado": "Dada a relação JogadorJogo (Jogador, Equipe, Adversário, Data), com as seguintes dependências funcionais (utiliza-se apenas a primeira letra de cada atributo):\n→ J E (cada jogador joga sempre na mesma equipe) → EA D (cada par de equipes só joga uma vez, numa determinada data) → ED A (numa dada data, cada equipe só pode jogar contra uma equipe adversária) → AD E (idem, de forma recíproca) É correto afirmar que:",
+        "alternativas": [
+            "JE é uma possível chave da relação JogadorJogo.",
+            "Todas as dependências funcionais violam a forma normal de Boyce-Codd (BCNF).",
+            "A relação JogadorJogo satisfaz a segunda forma normal (2NF).",
+            "A decomposição R1(J,A,D) e R2 (J,E) preserva as dependências funcionais."
+        ],
+        "gabarito": "Todas as dependências funcionais violam a forma normal de Boyce-Codd (BCNF)."
+    },
+    {
+        "id": 146,
+        "enunciado": "Considere a tabela não normalizada CLIENTE-v1 (CPF, nome, endereço, cidade, UF, telefone, conta-corrente) que possui as seguintes características:\n• a chave primária é o atributo CPF;\n• o atributo conta-corrente é uma chave estrangeira;\n• todos os atributos são determinados funcionalmente pelo CPF;\n• o atributo UF é determinado funcionalmente pelo atributo cidade; e • não há atributos multivalorados.\nQual forma normal foi violada e que tabelas devem ser criadas como consequência dessa violação?",
+        "alternativas": [
+            "A tabela CLIENTE-v1 não está na primeira forma normal (1FN), e, portanto, devem ser criadas as tabelas CLIENTE-v2 (CPF, nome, endereço, cidade, UF, conta- corrente) e CLIENTE_TELEFONE (CPF, telefone).",
+            "A tabela CLIENTE-v1 não está na primeira forma normal (1FN), e, portanto, devem ser criadas as tabelas CLIENTE-v2 (CPF, nome, endereço, cidade, UF, telefone) e CLIENTE_CONTA (CPF, conta-corrente).",
+            "A tabela CLIENTE-v1 não está na terceira forma normal (3FN), e, portanto, devem ser criadas as tabelas CLIENTE-v2 (CPF, nome, endereço, cidade, telefone, conta-corrente) e CIDADE (cidade, UF).",
+            "A tabela CLIENTE-v1 não está na segunda forma normal (2FN), e, portanto, devem ser criadas as tabelas CLIENTE-v2 (CPF, nome, endereço, cidade, UF) e CLIENTE_CONTA_TELEFONE (CPF, conta-corrente, telefone).",
+            "A tabela CLIENTE-v1 não está na terceira forma normal (3FN), e, portanto, devem ser criadas as tabelas CLIENTE-v2 (CPF, nome, telefone, conta-corrente) e CLIENTE_ENDERECO (CPF, endereço, cidade, UF)."
+        ],
+        "gabarito": "A tabela CLIENTE-v1 não está na terceira forma normal (3FN), e, portanto, devem ser criadas as tabelas CLIENTE-v2 (CPF, nome, endereço, cidade, telefone, conta-corrente) e CIDADE (cidade, UF)."
+    },
+    {
+        "id": 147,
+        "enunciado": "Julgue o item a seguir, a respeito de normalização das estruturas de dados e de melhoria de desempenho de banco de dados.\nUma tabela está na segunda forma normal (2FN) se ela estiver na 1FN e se todos os seus atributos não chave forem totalmente dependentes da chave primária.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 148,
+        "enunciado": "Quanto aos conceitos relativos à arquitetura de dados, julgue o item a seguir.\nEm normalização de banco de dados, na terceira forma normal os valores em um registro que não fazem parte da chave desse registro não pertencem à tabela; em geral, sempre que o conteúdo de um grupo de campos se aplica a mais de um único registro na tabela, recomenda-se colocar esses campos em uma tabela separada.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 149,
+        "enunciado": "Julgue o item a seguir, a respeito de modelagem e normalização de dados.\nUm esquema de relação R está na primeira forma normal (1FN) se os domínios de todos os seus atributos forem atômicos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 150,
+        "enunciado": "Julgue o seguinte item, pertinentes a bancos de dados.\nConforme os conceitos de modelagem e normalização de dados, uma tabela estará na primeira forma normal (1FN) se todos os seus atributos forem considerados como unidades indivisíveis.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 151,
+        "enunciado": "As relações 1:N, 1:1, N:N expressam um conceito importante a ser analisado quando se confecciona um Modelo ER, chamado cardinalidade, podendo ser definido como",
+        "alternativas": [
+            "um número inteiro único e incremental responsável pela indexação de uma entidade.",
+            "o relacionamento entre vários bancos de dados, não envolvendo necessariamente uma entidade, somente visualizações (VIEWS).",
+            "a quantidade de ocorrências de uma entidade que podem estar associadas a determinada ocorrência através do relacionamento com outras entidades.",
+            "as ocorrências de uma entidade relacionadas a outras entidades que somente existem no mundo virtual.",
+            "a quantidade de tabelas existentes no modelo de banco de dados."
+        ],
+        "gabarito": "a quantidade de ocorrências de uma entidade que podem estar associadas a determinada ocorrência através do relacionamento com outras entidades."
+    },
+    {
+        "id": 152,
+        "enunciado": "No Campeonato Brasileiro de Futebol, todos os times jogam entre si duas vezes, alternando os papeis de mandante e visitante. Um time não pode jogar mais de uma vez na mesma data.\nNesse contexto, considere uma tabela de bancos de dados que armazene simplificadamente essas informações, com as seguintes colunas:\n- time_mandante - time_visitante - data - gols_mandante - gols_visitante À luz dessas premissas, assinale a lista com todas as combinações de colunas que devem, necessária e exclusivamente, ser estabelecidas como restrições (primary key ou unique) para atender à Forma Normal Boyce-Codd.",
+        "alternativas": [
+            "(time_mandante, time_visitante).",
+            "(time_mandante, data). (time_visitante, data)",
+            "(time_mandante, data, gols_mandante). (time_visitante, data, gols_visitante)",
+            "(time_mandante, time_visitante). (time_visitante, time_mandante)",
+            "(time_mandante, time_visitante). (time_mandante, data) (time_visitante, data)"
+        ],
+        "gabarito": "(time_mandante, time_visitante). (time_mandante, data) (time_visitante, data)"
+    },
+    {
+        "id": 153,
+        "enunciado": "Considere as informações a seguir para responder a questão.\nEm uma organização, um advogado pode estar relacionado a vários processos e cada processo pode estar relacionado a vários advogados. Cada advogado pode dar um parecer diferente em cada processo em que atua. A imagem abaixo mostra a relação entre as tabelas do banco de dados da organização.\nApós o banco de dados e as tabelas serem criadas, foram cadastrados os dados abaixo, nas respectivas tabelas.\nDo ponto de vista do Modelo Entidade Relacionamento,",
+        "alternativas": [
+            "se o parecer de cada advogado fosse o mesmo para todos os processos relacionados a ele, o campo parecerAdvogado deveria ser colocado na tabela Processo.",
+            "o modelo está incorreto, pois o campo parecerAdvogado deve ser colocado na tabela Advogado, já que o advogado pode dar um parecer diferente para processos diferentes.",
+            "o modelo não está adequado a nenhuma forma normal, pois o campo parecerAdvogado está relacionado apenas ao campo oabAdvogado, parte da chave primária.",
+            "o modelo está adequado à segunda forma normal, pois o campo parecerAdvogado é dependente da chave primária completa da tabela Advogado_Processo.",
+            "o campo anoIniProcesso deve ser colocado na tabela Advogado_Processo, pois o ano em que o processo inicia depende também de cada advogado que acompanhará o processo."
+        ],
+        "gabarito": "o modelo está adequado à segunda forma normal, pois o campo parecerAdvogado é dependente da chave primária completa da tabela Advogado_Processo."
+    },
+    {
+        "id": 154,
+        "enunciado": "Você é um analista de gestão governamental e precisa analisar um SGDB existente para realizar a especificação de um novo sistema para o mesmo fim: porém, percebeu que ele não está na Terceira Forma Normal (3FN). A 3FN é uma das etapas do processo de Normalização conhecido dentro da área de Banco de Dados. Assinale a alternativa a seguir que melhor descreve essa etapa.",
+        "alternativas": [
+            "A 3FN deve possuir apenas colunas dependentes de parte de uma chave primária composta.",
+            "A 3FN não contém dependências parciais e deve estar na 1FN.",
+            "A 3FN deve estar na 2FN e não conter tabelas aninhadas.",
+            "A 3FN deve estar na 2FN e não conter dependências transitivas.",
+            "A 3FN deve estar na 4FN e não contém dependências multivaloradas."
+        ],
+        "gabarito": "A 3FN deve estar na 2FN e não conter dependências transitivas."
+    },
+    {
+        "id": 155,
+        "enunciado": "No processo de Normalização de um banco de dados, existem várias etapas a serem executadas para que um modelo possa ser considerado normalizado. Uma dessas etapas é caracterizada por não conter tabelas aninhadas. Qual é o nome dessa etapa?",
+        "alternativas": [
+            "Primeira Forma Normal (1FN).",
+            "Segunda Forma Normal (2FN).",
+            "Terceira Forma Normal (3FN).",
+            "Quarta Forma Normal (4FN).",
+            "Quinta Forma Normal (5FN)."
+        ],
+        "gabarito": "Primeira Forma Normal (1FN)."
+    },
+    {
+        "id": 156,
+        "enunciado": "A descrição de esquemas de bancos de dados relacionais pode ser feita por meio da seguinte notação:\nUma tabela possui um nome e um conjunto de colunas, separadas por vírgulas.\nEm uma linha qualquer, os valores referentes às colunas são atômicos e monovalorados.\nColunas que compõem a chave primária aparecem sublinhadas.\nA notação X → Y indica que Y depende funcionalmente de X (ou X determina Y).\nUm banco de dados possui uma única tabela, cujo esquema é o seguinte:\nQual é o número mínimo de tabelas que esse banco de dados deve ter para que seu esquema atenda à 1FN e à 2FN, apenas?",
+        "alternativas": [
+            "1.",
+            "2.",
+            "3.",
+            "4.",
+            "5."
+        ],
+        "gabarito": "2."
+    },
+    {
+        "id": 157,
+        "enunciado": "Analise as opções abaixo e informe Verdadeiro (V) ou Falso (F). Em seguida, marque a opção que apresenta a sequência correta:\n( ) A Segunda Forma Normal define que, além de estar na Primeira Forma Normal, as relações não devem ter atributos que não pertençam a uma chave, funcionalmente determinados por outro atributo que também não pertença a uma chave.\n( ) A Terceira Forma Normal define que, além de estar na Segunda Forma Normal, para as relações que possuam chaves primárias com vários atributos, nenhum atributo externo à chave deve ser funcionalmente dependente de parte da chave primária.\n( ) A Forma Normal de Boyce-Codd difere-se da Terceira Forma Normal pela ausência da condição que permite que, em uma dependência funcional X--> A, A seja um atributo principal da relação em análise.\n( ) Um atributo do esquema de relação R é chamado de atributo principal de R se ele for membro de qualquer uma das chaves candidatas de R.\n( ) Um conjunto de atributos é considerado chave candidata de uma relação R se for uma superchave mínima.",
+        "alternativas": [
+            "(V); (V;) (V); (F); (F).",
+            "(V); (V); (F); (F); (F).",
+            "(F); (F); (V); (V); (F).",
+            "(F); (F); (V); (V); (V)."
+        ],
+        "gabarito": "(F); (F); (V); (V); (V)."
+    },
+    {
+        "id": 158,
+        "enunciado": "Na teoria do projeto de bancos de dados relacionais, o estabelecimento das dependências funcionais tem um papel importante, pois é a partir dessas relações que é possível proceder à normalização dos bancos. Essas dependências funcionais podem ser manipuladas por meio de um conjunto básico de axiomas.\nCom relação aos atributos X, Y, W e Z, analise as seguintes derivações propostas.\nI. Se X → Y e Y → Z então X → Z.\nII. Se X → Y então XW → ZW.\nIII. Se Y está contido num conjunto qualquer de atributos, como XYZW, por exemplo, então XYZW → Y.\nSobre essas derivações, está correto o que é proposto em:",
+        "alternativas": [
+            "I, somente;",
+            "I e II, somente;",
+            "I e III, somente;",
+            "II e III, somente;",
+            "I, II e III."
+        ],
+        "gabarito": "I e III, somente;"
+    },
+    {
+        "id": 159,
+        "enunciado": "Edgar Frank Codd, definiu três principais formas normais, embora existam hoje outras formas normais geralmente aceitas. A sigla, em português, dessas três principais formas normais, para a normalização em um Banco de Dados, são respectivamente:",
+        "alternativas": [
+            "I-N, II-N e III-N.",
+            "1N - 2N e 3N.",
+            "A-FN, B-FN e C-FN.",
+            "1FN - 2FN e 3FN."
+        ],
+        "gabarito": "1FN - 2FN e 3FN."
+    },
+    {
+        "id": 160,
+        "enunciado": "Suponha a existência dos atributos V, W, X, Y, Z numa tabela de banco de dados relacional, e considere as seguintes assertivas sobre dependências funcionais e seus axiomas.\nI. Se W→X e W→Y então X→Y\nII. Se X→Y então XW→YW\nIII. XY→X\nIV. Se X→Y e Y→Z e Z→V então X→V Estão corretas as afirmativas",
+        "alternativas": [
+            "I, II, III e IV.",
+            "I e III, somente.",
+            "I, II e IV, somente.",
+            "II e IV, somente.",
+            "II, III e IV, somente."
+        ],
+        "gabarito": "II, III e IV, somente."
+    },
+    {
+        "id": 161,
+        "enunciado": "No contexto da teoria relacional para bancos de dados, seja R uma tabela relacional definida pelo conjunto de colunas C = {C1, C2,... , Cn}.\nSendo X e Y subconjuntos de C, a dependência funcional X → Y é verificada, para qualquer par de linhas t1, t2 da relação R, distintas entre si, no seguinte caso:",
+        "alternativas": [
+            "se t1[X] <> t2[X] então t1[Y]<>t2[Y] ], onde t1 <> t2.",
+            "se t1[X] <> t2[X] então t1[Y]=t2[Y] ], onde t1 = t2.",
+            "se t1[X] = t2[X] então t1[Y]<>t2[Y] ], onde t1 <> t2.",
+            "se t1[X] = t2[X] então t1[Y]=t2[Y] ], onde t1 = t2.",
+            "se t1[X] = t2[X] então t1[Y]=t2[Y], onde t1 <> t2."
+        ],
+        "gabarito": "se t1[X] = t2[X] então t1[Y]=t2[Y], onde t1 <> t2."
+    },
+    {
+        "id": 162,
+        "enunciado": "Um sistema de gestão de recursos humanos deve ser capaz de armazenar informações sobre funcionários e seus subordinados. Um modelo de banco de dados para representar este domínio deve conter",
+        "alternativas": [
+            "a entidade Funcionários e o autorrelacionamento subordinação com cardinalidade 1:N.",
+            "as entidades Funcionários e Subordinados com relacionamento de cardinalidade 1:N, respectivamente.",
+            "a entidade Funcionários e um atributo booleano que informe se aquela instância é de um chefe.",
+            "as entidades Funcionários e Subordinados com relacionamento de cardinalidade N:N, respectivamente.",
+            "as entidades Funcionários e Subordinados como subtipos da entidade Servidor Público."
+        ],
+        "gabarito": "a entidade Funcionários e o autorrelacionamento subordinação com cardinalidade 1:N."
+    },
+    {
+        "id": 163,
+        "enunciado": "Considere a tabela de informações apresentada a seguir, com informações sobre alunos e empréstimos realizados em uma biblioteca de uma Instituição de Ensino Superior, com dados fictícios.\nMatrículaAlunoNomeAlunoTelefone1Telefone2 CodLivro DataRetiradaDataDevolução 202081734134 Fulano 999999 999999 LIV2020_00001 05/12/2020 06/12/2020 202081734134 Fulano 999999 999999 LIV2021_20334 10/01/2021 15/01/2021 202188404040 Beltrana 888888 888888 LIV2021_20334 20/01/2021 25/01/2021 202188404040 Beltrana 888888 888888 LIV2021_52934 30/01/2021 17/01/2021 Com base na tabela fornecida e no projeto de banco de dados Relacional, é correto afirmar que",
+        "alternativas": [
+            "a tabela fornecida está em conformidade com a Forma normal de Boyce e Codd.",
+            "não há indicação de atributo que exerça o papel de chave primária. Portanto a tabela está em desacordo com a Primeira Forma Normal.",
+            "a tabela apresenta colunas que possuem dependências parciais da chave primária. Assim, está em desacordo com a Primeira Formal Normal.",
+            "é impossível implementar esta tabela em um banco de dados Relacional porque a data de devolução deve ser sempre posterior à data de retirada. Então, a 4ª. (quarta) linha ocasionaria um erro durante a sua inserção.",
+            "a implementação desta tabela em um banco de dados Relacional levaria à criação de uma entidade forte chamada Aluno, uma entidade fraca chamada Livro e uma entidade reflexiva chamada Empréstimo."
+        ],
+        "gabarito": "não há indicação de atributo que exerça o papel de chave primária. Portanto a tabela está em desacordo com a Primeira Forma Normal."
+    },
+    {
+        "id": 164,
+        "enunciado": "Em uma relação a forma mais alta atendida representa o grau em que ela foi normalizada. Essa condição denomina-se:",
+        "alternativas": [
+            "Boyce-Codd.",
+            "Forma normal.",
+            "Relação aninhada.",
+            "Atributo de esquema."
+        ],
+        "gabarito": "Forma normal."
+    },
+    {
+        "id": 165,
+        "enunciado": "Sobre normalização de dados, marque V para as afirmativas verdadeiras e F para as falsas.\n( ) Em um esquema de relação com múltiplas chaves; cada uma é denominada chave candidata onde uma é arbitrariamente designada para ser a chave primária e as demais são denominadas chaves estrangeiras.\n( ) A 1FN reprova relações dentro de relações ou relações como valores de atributo dentro de tuplas; portanto, permitem apenas valores heterogêneos.\n( ) Um esquema de relação R está na 3FN se ele satisfizer a 2FN e nenhum atributo não principal de R for transitivamente dependente da chave primária.\n( ) A maioria dos esquemas de relação que estão na 3FN também estão na FNBC. Somente se X A se mantiver em um esquema de relação R com X não sendo uma superchave e A sendo um atributo principal é que R estará na 3FN, mas não na FNBC.\nA sequência está correta em",
+        "alternativas": [
+            "V, V, F, F.",
+            "V, F, F, V.",
+            "F, V, V, F.",
+            "F, F, V, V."
+        ],
+        "gabarito": "F, F, V, V."
+    },
+    {
+        "id": 166,
+        "enunciado": "Sobre a quarta forma normal, analise as afirmativas a seguir.\nI. É baseada no conceito de dependências multivaloradas (MVD).\nII. É uma forma normal mais fraca que a FNBC.\nIII. A decomposição não remove a redundância causada pela MVD.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, II e III.",
+            "I, apenas.",
+            "I e II, apenas.",
+            "II e III, apenas."
+        ],
+        "gabarito": "I, apenas."
+    },
+    {
+        "id": 167,
+        "enunciado": "Marque a alternativa que indica, corretamente, o nome da forma normal que exige apenas que os valores dos atributos de uma tabela sejam atômicos.",
+        "alternativas": [
+            "2FN.",
+            "4FN.",
+            "3FN.",
+            "BCNF.",
+            "1FN."
+        ],
+        "gabarito": "1FN."
+    },
+    {
+        "id": 168,
+        "enunciado": "A respeito de banco de dados, julgue o item subsequente.\nTabelas que estão na primeira forma normal permitem exigir atributos atômicos, sem multivaloração e sem relações aninhadas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 169,
+        "enunciado": "Leia a frase a seguir referente a Normalização:\n\"uma tabela estará na ______ se, e somente se, todos os seus atributos forem atômicos, não possuindo grupos repetitivos ou colunas que possuam mais de um valor\" Assinale a alternativa que preencha corretamente a lacuna.",
+        "alternativas": [
+            "Primeira Forma Normal.",
+            "Segunda Forma Normal.",
+            "Terceira Forma Normal.",
+            "Quarta Forma Normal."
+        ],
+        "gabarito": "Primeira Forma Normal."
+    },
+    {
+        "id": 170,
+        "enunciado": "A tabela PUBSTREAM registra os usuários de uma plataforma de streaming de filmes escolhendo seus filmes favoritos. As colunas UsrID e FilmeID compõe a chave primária da tabela.\nCada usuário possui um identificador único UsrID e um nome UsrNome.\nCada filme possui um identificador único FilmeID e um nome FilmeNome.\nCada gênero possui um identificador único GenID e um nome GenNome.\nO dia em que o usuário \"favorita\" o filme é registrado na coluna DTFavorito.\nA tabela apresentada está desnormalizada. Considerando as dependências funcionais, qual das alternativas descreve a passagem à terceira forma normal (3FN)?",
+        "alternativas": [
+            "A tabela está na 1FN. Ao decompor UsrID → UsrNome, FilmeID → FilmeNome, UsrID, FilmeID → DTFavorito e GenID → GenNome chegamos na 2FN e automaticamente na 3FN. (.",
+            "A tabela está na 1FN. Ao decompor UsrID → UsrNome, UsrID, FilmeID → DTFavorito e GenID → GenNome chegamos na 2FN. Ao decompor FilmeID → FilmeNome chegamos na 3FN. (.",
+            "A tabela está na 1FN. Ao decompor UsrID → UsrNome, FilmeID → FilmeNome e UsrID, FilmeID → DTFavorito chegamos na 2FN. Ao decompor GenID → GenNome chegamos na 3FN. (.",
+            "Ao decompor UsrID,FilmeID → DTFavorito chegamos na 1FN. Ao decompor UsrID → UsrNome e GenID → GenNome chegamos na 2FN. Ao decompor FilmeID → FilmeNome chegamos na 3FN.",
+            "Ao decompor UsrID,FilmeID,GenID → DTFavorito chegamos na 1FN. Ao decompor UsrID → UsrNome e GenID → GenNome chegamos na 2FN. Ao decompor FilmeID → FilmeNome chegamos na 3FN."
+        ],
+        "gabarito": "A tabela está na 1FN. Ao decompor UsrID → UsrNome, FilmeID → FilmeNome e UsrID, FilmeID → DTFavorito chegamos na 2FN. Ao decompor GenID → GenNome chegamos na 3FN. (."
+    },
+    {
+        "id": 171,
+        "enunciado": "Considerando uma definição alternativa geral da terceira forma normal (3FN), sabe-se que um esquema de relação R está na 3FN se cada atributo não principal de R atender às seguintes condições:\nI. Ele é total e funcionalmente dependente de cada chave de R.\nII. Ele é dependente não transitivamente de cada chave de R.\nIII. Ele é parcialmente dependente de qualquer chave de R.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, II e III.",
+            "I, apenas.",
+            "I e II, apenas.",
+            "II e III, apenas."
+        ],
+        "gabarito": "I e II, apenas."
+    },
+    {
+        "id": 172,
+        "enunciado": "Analise as afirmativas abaixo com relação ao assunto normalização.\n1. Uma tabela aninhada (também chamada de grupo repetido ou coluna multivalorada ou ainda coluna não atômica) é uma tabela que aparece como valor de campo dentro de outra tabela.\n2. Uma tabela encontra-se na segunda forma normal quando, além de estar na primeira forma normal (1FN), não contém dependências funcionais parciais.\n3. Uma tabela encontra-se na terceira forma normal (3FN) quando, além de estar na primeira forma normal (2FN), não contém dependências não funcionais diretas.\nAssinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "É correta apenas a afirmativa 2.",
+            "São corretas apenas as afirmativas 1 e 2.",
+            "São corretas apenas as afirmativas 1 e 3.",
+            "São corretas apenas as afirmativas 2 e 3.",
+            "São corretas as afirmativas 1, 2 e 3."
+        ],
+        "gabarito": "São corretas apenas as afirmativas 1 e 2."
+    },
+    {
+        "id": 173,
+        "enunciado": "A tabela abaixo apresenta os carros de propriedade de uma empresa. É garantido que não existem dois carros de mesmo Modelo em Marcas diferentes.\nPlaca Modelo Marca Ano de Fabricacao ABC1234 Gol VW 2010 DEF6534 Fiesta Ford 2012 ABC3276 Tiguan VW 2020 XYZ1122 Gol VW 2021 BOM3692 Onix Chevrolet 2020 ARR7012 FIT Honda 2020 DCC7178 Tiguan VW 2021 Assinale a alternativa que apresenta corretamente a forma normal da tabela e o que seria necessário para que a tabela esteja na segunda forma normal (2FN).",
+        "alternativas": [
+            "Está na Segunda Forma Normal (2FN) e não necessitamos realizar qualquer transformação.",
+            "Está na Terceira Forma Normal (3FN) e devemos eliminar as dependências funcionais transitivas existentes.",
+            "Está na Quarta Forma Normal (4FN) e devemos eliminar as dependências funcionais intransitivas existentes.",
+            "Está na Primeira Forma Normal (1FN) e para estar na Segunda Forma Normal (2FN) devemos remover a dependência funcional existente.",
+            "Está na Forma Normal de Boyce e Codd (FNBC) e devemos eliminar as dependências funcionais transitivas existentes."
+        ],
+        "gabarito": "Está na Primeira Forma Normal (1FN) e para estar na Segunda Forma Normal (2FN) devemos remover a dependência funcional existente."
+    },
+    {
+        "id": 174,
+        "enunciado": "No projeto de bancos de dados relacionais, a identificação das dependências funcionais é fundamental no processo de",
+        "alternativas": [
+            "dimensionamento físico do banco de dados.",
+            "estabelecimento dos privilégios de acesso.",
+            "identificação das chaves estrangeiras.",
+            "normalização das tabelas.",
+            "otimização das consultas."
+        ],
+        "gabarito": "normalização das tabelas."
+    },
+    {
+        "id": 175,
+        "enunciado": "Acerca da normalização das estruturas de dados, julgue o item que se segue.\nNa terceira forma normal, devem-se eliminar os campos que podem ser obtidos pela equação de outros campos da mesma tabela.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 176,
+        "enunciado": "Em relação a projeto, modelagem e administração de banco de dados, julgue o item subsequente.\nA tabela de compras, representada a seguir, está na 3.ª forma normal.\nnumero_compra (PK)codigo_produto(PK) (FK)quantidade_produtovalor_unitario_produtovalor_total_produto 527 33 1 29,07 29,07 527 46 5 23,78 118,90 527 81 2 14,06 28,12",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 177,
+        "enunciado": "Com relação à normalização em banco de dados, quando todas as colunas possuem um único valor, e não existem grupos repetitivos (colunas) em uma linha ou atributos compostos, a tabela está na",
+        "alternativas": [
+            "Forma Normal de Boyce-Codd (FNBC).",
+            "Primeira Forma Normal (1FN).",
+            "Segunda Forma Normal (2FN).",
+            "Terceira Forma Normal (3FN).",
+            "Quarta Forma Normal (4FN)."
+        ],
+        "gabarito": "Primeira Forma Normal (1FN)."
+    },
+    {
+        "id": 178,
+        "enunciado": "Analise as afirmativas abaixo com relação ao assunto normalização.\n1. Uma tabela encontra-se na terceira forma normal (3FN) quando, além de estar na segunda forma normal (2FN), não contém dependências funcionais diretas.\n2. Uma dependência funcional direta ocorre quando uma coluna, além de depender da chave primária da tabela, depende de outra coluna ou conjunto de colunas da tabela.\n3. Uma tabela encontra-se na quarta forma normal (4FN) quando, além de estar na #FN, não contém dependências multivaloradas.\nAssinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "É correta apenas a afirmativa 2.",
+            "É correta apenas a afirmativa 3.",
+            "São corretas apenas as afirmativas 1 e 2.",
+            "São corretas apenas as afirmativas 1 e 3.",
+            "São corretas apenas as afirmativas 2 e 3."
+        ],
+        "gabarito": "São corretas apenas as afirmativas 1 e 3."
+    },
+    {
+        "id": 179,
+        "enunciado": "A definição da segunda forma normal estabelece que a tabela (RelVar) está nessa forma normal se e somente se estiver na primeira forma normal e",
+        "alternativas": [
+            "a tabela (RelVar) estiver na terceira forma normal.",
+            "a chave primária da tabela (RelVar) for composta exclusivamente por dois atributos.",
+            "houver número par de atributos na tabela (RelVar).",
+            "todo atributo não chave primária depender de todos atributos componentes da chave primária da tabela (RelVar).",
+            "houver atributos que não contenham valores nulos em seus registros."
+        ],
+        "gabarito": "todo atributo não chave primária depender de todos atributos componentes da chave primária da tabela (RelVar)."
+    },
+    {
+        "id": 180,
+        "enunciado": "A normalização consiste em um processo de refinamento do esquema de banco de dados que busca eliminar possíveis redundâncias de dados entre as entidades.\nAvalie como verdadeiras ou falsas as seguintes afirmações:\nI. A 1FN define que a relação de atributos não deve possuir valores de atributos que sejam multivalorados ou compostos.\nII. A 1FN cumpre com os requisitos da 2FN.\nIII. A 3FN cumpre com os requisitos da 1FN.\nIV. A 3FN requer que uma entidade não possua nenhum atributo dependente de outro que não faça parte da chave primária (dependência transitiva).\nSão verdadeiras somente as seguintes afirmativas:",
+        "alternativas": [
+            "Apenas I, III e IV.",
+            "Apenas I, II e IV.",
+            "Apenas I e II.",
+            "Apenas III e IV.",
+            "Apenas I e IV."
+        ],
+        "gabarito": "Apenas I, III e IV."
+    },
+    {
+        "id": 181,
+        "enunciado": "O método para projetar um banco de dados relacional é usar um processo normalmente conhecido como normalização. Selecione a forma normal que elimina toda redundância que pode ser descoberta com base nas dependências funcionais, porém, podendo restar outros tipos de redundância.",
+        "alternativas": [
+            "Dependências de valores múltiplos.",
+            "Forma normal de Boyce-Codd.",
+            "Preservação de dependência.",
+            "Cobertura canônica.",
+            "Domínios atômicos."
+        ],
+        "gabarito": "Forma normal de Boyce-Codd."
+    },
+    {
+        "id": 182,
+        "enunciado": "A construção dos modelos que formam a documentação de um banco de dados é importante para garantir o acompanhamento de suas mudanças ao longo do tempo. Uma dependência funcional ocorre quando um valor A depende de um valor B, ou seja, uma coluna depende de outra coluna da mesma tabela. Selecione a alternativa que descreve o tipo de dependência que ocorre quando um item da tabela depende de uma parte da chave primária concatenada da tabela, e não da chave toda.",
+        "alternativas": [
+            "Funcional total.",
+            "Funcional parcial.",
+            "Funcional transitiva.",
+            "Funcional lógica.",
+            "Funcional física."
+        ],
+        "gabarito": "Funcional parcial."
+    },
+    {
+        "id": 183,
+        "enunciado": "Uma das boas práticas recomendadas para um projeto lógico de um banco de dados relacional, é verificar o nível de normalização das tabelas do banco de dados. A função da normalização para um banco de dados, é",
+        "alternativas": [
+            "evitar redundâncias de dados nas tabelas.",
+            "transformar todas as chaves primárias das tabelas em chaves estrangeiras.",
+            "criptografar as tabelas do banco de dados.",
+            "verificar a integridade dos arquivos de backup do banco de dados.",
+            "converter todas as tabelas do banco de dados em classes Java."
+        ],
+        "gabarito": "evitar redundâncias de dados nas tabelas."
+    },
+    {
+        "id": 184,
+        "enunciado": "Um analista modelou a entidade Motorista com os seguintes atributos:\nCPF (identificador) Endereco1 Endereco2...\nEnderecoN Categoria DataDeNascimento Considerando que cada motorista pode ter vários endereços, a entidade Motorista",
+        "alternativas": [
+            "não está normalizada.",
+            "está na primeira forma normal.",
+            "é uma primitiva funcional.",
+            "é uma entidade primitiva.",
+            "está potencialmente na segunda forma normal."
+        ],
+        "gabarito": "não está normalizada."
+    },
+    {
+        "id": 185,
+        "enunciado": "O conceito de normalização de tabelas de bancos de dados relacionais desempenha papel de grande importância no projeto dessas estruturas, sendo correto afirmar que a condição para que uma tabela esteja na primeira forma normal é que",
+        "alternativas": [
+            "o número de registros suportados por essa tabela não seja superior a 500.",
+            "todos os seus atributos sejam ou do tipo numérico ou do tipo literal.",
+            "os domínios de todos atributos dessa tabela sejam atômicos (seus valores considerados não divisíveis).",
+            "o número de atributos dessa tabela seja igual ou inferior a 10.",
+            "não haja atributos do tipo inteiro duplo nessa tabela."
+        ],
+        "gabarito": "os domínios de todos atributos dessa tabela sejam atômicos (seus valores considerados não divisíveis)."
+    },
+    {
+        "id": 186,
+        "enunciado": "A normalização é o processo pelo qual os dados são organizados no banco de tal modo que se possa protegê-los estabelecendo relacionamentos sólidos, eliminando redundâncias e valores inconsistentes.\nUma tabela está na Segunda Forma Normal 2FN se:",
+        "alternativas": [
+            "ela estiver na 1FN e todos os atributos não chaves forem totalmente dependentes da chave primária (dependente de toda a chave e não apenas de parte dela).",
+            "todos os atributos não chaves apresentarem dependência funcional parcial com os atributos chaves.",
+            "ela estiver na 1FN e apresentar campos multivalorados.",
+            "ela estiver na 1FN e apresentar tabelas aninhadas.",
+            "todos os atributos não chaves apresentarem dependência funcional parcial e transitiva com os atributos chaves."
+        ],
+        "gabarito": "ela estiver na 1FN e todos os atributos não chaves forem totalmente dependentes da chave primária (dependente de toda a chave e não apenas de parte dela)."
+    },
+    {
+        "id": 187,
+        "enunciado": "Analise as afirmativas abaixo com relação ao processo de normalização.\n1. Uma dependência parcial existe quando há uma dependência funcional na qual o determinante é somente parte da chave primária.\n2. Uma dependência transitiva existe quando há dependências funcionais tais que x→Y, Y→Z, e X é a chave primária. Neste caso, a dependência Y→Z é uma dependência transitiva.\n3. Uma relação está na 3FN se, e somente se, cada atributo não chave for dependente da chave primária inteira, isto é, cada atributo não chave poderá ser dependente de apenas parte da chave.\nAssinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "É correta apenas a afirmativa 1.",
+            "É correta apenas a afirmativa 2.",
+            "É correta apenas a afirmativa 3.",
+            "São corretas apenas as afirmativas 1 e 2.",
+            "São corretas apenas as afirmativas 1 e 3."
+        ],
+        "gabarito": "É correta apenas a afirmativa 1."
+    },
+    {
+        "id": 188,
+        "enunciado": "Observe a tabela abaixo, na qual Cliente e Agência compõem a chave primária:\nCliente Agência Gerente Maria Insular Marcos José Insular Carla Beto Insular Marcos Mario Insular Carla Celso Estreito Beth Jonas Insular José Analise as afirmativas abaixo com relação a esta tabela.\n1. Ela está na 3FN uma vez que: i) todos os atributos são atômicos (1FN); ii) todos os atributos não chave dependem totalmente da chave primária (2FN); iii) existe transitividade em relação à chave primária (3FN).\n2. A tabela está na Forma Normal de Boyce e Codd.\n3. Existe anomalia de atualização, pois a agência está sendo repetida para o mesmo gerente.\nAssinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "É correta apenas a afirmativa 2.",
+            "É correta apenas a afirmativa 3.",
+            "São corretas apenas as afirmativas 1 e 2.",
+            "São corretas apenas as afirmativas 1 e 3.",
+            "São corretas apenas as afirmativas 2 e 3."
+        ],
+        "gabarito": "É correta apenas a afirmativa 3."
+    },
+    {
+        "id": 189,
+        "enunciado": "Sobre normalização de dados, é correto afirmar que:",
+        "alternativas": [
+            "uma tabela, para ser considerada uma tabela relacional válida, deve estar pelo menos na segunda forma normal.",
+            "se uma tabela Ty está na primeira forma normal e todos os campos de Ty fazem parte da chave primária, então Ty também está na segunda forma normal.",
+            "se uma tabela Tx está na segunda forma normal e possui vários campos não pertencentes à chave primária, então Tx também está na terceira forma normal.",
+            "se uma tabela Tz está na primeira forma normal, então Tz não possui dependências funcionais entre campos pertencentes à chave primária e campos não pertencentes à chave primária.",
+            "se uma tabela Tw está na segunda forma normal e os campos não pertencentes à chave primária possuem dependências funcionais entre si, então Tw também está na terceira forma normal."
+        ],
+        "gabarito": "se uma tabela Ty está na primeira forma normal e todos os campos de Ty fazem parte da chave primária, então Ty também está na segunda forma normal."
+    },
+    {
+        "id": 190,
+        "enunciado": "Com relação à normalização de dados, a forma normal que trata do conceito de dependência de junção é a",
+        "alternativas": [
+            "1FN.",
+            "2FN.",
+            "3FN.",
+            "4FN.",
+            "5FN."
+        ],
+        "gabarito": "5FN."
+    },
+    {
+        "id": 191,
+        "enunciado": "A normalização de relações no projeto de um banco de dados (BD) relacional é o processo que corrige deficiências do esquema de BD, adequando-o a determinadas regras chamadas de formas normais. Este processo usa os conceitos de chave e de dependência funcional entre atributos de uma relação para eliminar determinadas redundâncias de dados. Qual tipo de dependência funcional deve ser eliminado no processo de normalização de uma relação com o objetivo de atender à segunda formal normal em um BD relacional?",
+        "alternativas": [
+            "Dependências alternadas de chave.",
+            "Dependências múltiplas de chave.",
+            "Dependências parciais de chave.",
+            "Dependências transitivas de chave."
+        ],
+        "gabarito": "Dependências parciais de chave."
+    },
+    {
+        "id": 192,
+        "enunciado": "Normalização é uma ferramenta usada no projeto lógico que serve para reestruturar tabelas e atributos, reduzindo, assim, redundâncias e permitindo o correto crescimento do banco de dados. O processo de normalização conta com seis formas, sendo uma delas a 2ª forma normal. É possível afirmar que uma tabela se encontra nesta forma se:",
+        "alternativas": [
+            "não possui dependências parciais da chave primária.",
+            "não possui grupos repetitivos.",
+            "possui chave primária.",
+            "todos os seus atributos são atômicos, ou seja, não precisa ser decomposto.",
+            "nenhum dos campos foram determinados transitivamente pela chave primária."
+        ],
+        "gabarito": "não possui dependências parciais da chave primária."
+    },
+    {
+        "id": 193,
+        "enunciado": "Analise as afirmações a seguir sobre a primeira forma normal:\nUma tabela está na primeira forma normal se:\nI – Somente possuir valores atômicos.\nII – Existe uma chave primária.\nIII – Relação não possui atributos multivalorados.\nIV – Não há grupos de atributos repetidos.\nEstão corretas as afirmações:",
+        "alternativas": [
+            "I, II e III, apenas.",
+            "II, III e IV, apenas.",
+            "I, III e IV, apenas.",
+            "I, II e IV, apenas.",
+            "I, II, III e IV."
+        ],
+        "gabarito": "I, II, III e IV."
+    },
+    {
+        "id": 194,
+        "enunciado": "Sobre relacionamentos em bancos de dados. Qual dos exemplos a seguir é um relacionamento de muitos para muitos?",
+        "alternativas": [
+            "1:N.",
+            "1:1.",
+            "N:1.",
+            "N:N.",
+            "0...1."
+        ],
+        "gabarito": "N:N."
+    },
+    {
+        "id": 195,
+        "enunciado": "No contexto dos Bancos de Dados Relacionais existe o Dicionário de Dados. Assinale a alternativa que identifica incorretamente as informações contidas em um Dicionário de Dados.",
+        "alternativas": [
+            "Índices.",
+            "Normalização dos Dados.",
+            "Stored Procedures.",
+            "Perfis de usuários."
+        ],
+        "gabarito": "Normalização dos Dados."
+    },
+    {
+        "id": 196,
+        "enunciado": "Considerando que uma relação está na Terceira Forma Normal (3FN), assinale a alternativa INCORRETA.",
+        "alternativas": [
+            "Essa mesma relação também está na 1FN.",
+            "Essa mesma relação possui dependência transitiva.",
+            "Não existem atributos não chaves que sejam dependentes de outros atributos não chave.",
+            "Todo atributo não chave não deve ser totalmente dependente da chave primária.",
+            "Essa mesma relação também está na 2FN."
+        ],
+        "gabarito": "Todo atributo não chave não deve ser totalmente dependente da chave primária."
+    },
+    {
+        "id": 197,
+        "enunciado": "No processo de Normalização, existe um tipo de dependência em banco de dados que ocorre quando um campo não-chave não depende diretamente da chave primária da tabela (nem mesmo parcialmente), mas depende de um outro campo não-chave na tabela. O enunciado refere-se à",
+        "alternativas": [
+            "Dependência Funcional Transitiva.",
+            "Dependência Funcional Parcial.",
+            "Dependência Funcional Total.",
+            "Dependência Funcional.",
+            "Dependência Multivalorada."
+        ],
+        "gabarito": "Dependência Funcional Transitiva."
+    },
+    {
+        "id": 198,
+        "enunciado": "Julgue o item a seguir, a respeito de banco de dados.\nCom o processo de normalização de tabelas, busca-se armazenar informações com redundância, para garantir o espelhamento e segurança contra a perda de informações.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 199,
+        "enunciado": "Cada uma das próximas assertivas se refere à transição do modelo precedente para o modelo relacional.\nI No modelo resultante, a relação #1 deverá ser transformada em três tabelas associativas que liguem EMPREGADO a cada uma de suas especializações.\nII No modelo resultante, a relação #2 indica que, na transformação, deverá haver uma fusão entre as entidades EMPREGADO e DEPARTAMENTO, pois cardinalidades (1,devem ser normalizadas dessa forma.\nIII No modelo resultante, é opcional a criação de uma tabela para suprir a regra de cardinalidade da relação #3, pois PARTICIPAÇÃO não possui chave própria.\nA respeito dessas assertivas, julgue o item a seguir.\nA assertiva II é errada e a III é correta, pois, em ambos os casos, aplica-se a regra de normalização da primeira forma normal (1.ª FN).",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 200,
+        "enunciado": "Uma tabela estará na segunda forma normal se tiver atendido a todos os requisitos da primeira forma normal e se não houver",
+        "alternativas": [
+            "atributos que não sejam funcionalmente dependentes da chave primária da relação.",
+            "dependências funcionais.",
+            "valores nulos nos campos de chave primária.",
+            "grupos de repetição."
+        ],
+        "gabarito": "atributos que não sejam funcionalmente dependentes da chave primária da relação."
+    }
+]

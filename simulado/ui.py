@@ -12,9 +12,9 @@ def aplicar_estilos():
     font-size: 1.1rem;
 }
 .alt-box p { margin: 0; }
-.correta { background-color: #d4edda; border-color: #28a745; }
-.errada  { background-color: #f8d7da; border-color: #dc3545; }
-.gabarito{ background-color: #d4edda; border-color: #28a745; }
+.correta { color: #000000 !important; background-color: #d4edda; border-color: #28a745; }
+.errada  { color: #000000 !important; background-color: #f8d7da; border-color: #dc3545; }
+.gabarito{ color: #000000 !important; background-color: #d4edda; border-color: #28a745; }
 .stRadio label { font-size: 3rem !important; }
 [data-testid="stMarkdownContainer"] p { text-align: justify; }
 </style>

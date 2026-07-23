@@ -2,6 +2,7 @@ import streamlit as st
 import re
 import os
 import random
+import html as html_lib
 from code_formatter import format_enunciado
 
 
@@ -110,16 +111,17 @@ def secao_questao(questoes, arquivo_local_selecionado):
         for i, alt in enumerate(q["alternativas"]):
             letra = letras[i]
             texto_alt = f"{letra}) {escape_markdown(alt)}"
+            texto_alt_safe = f"{letra}) {html_lib.escape(alt)}"
             if ja_respondida:
                 if mostrar_correta and letra == letra_gabarito:
-                    st.markdown(f'<div class="correta">{texto_alt}</div>', unsafe_allow_html=True)
+                    st.markdown(f'<div class="correta">{texto_alt_safe}</div>', unsafe_allow_html=True)
                 elif letra == escolha and not acertou:
-                    st.markdown(f'<div class="errada">{texto_alt}</div>', unsafe_allow_html=True)
+                    st.markdown(f'<div class="errada">{texto_alt_safe}</div>', unsafe_allow_html=True)
                 else:
                     st.markdown(f"&nbsp;&nbsp;{texto_alt}")
             elif mostrar_gab:
                 if letra == letra_gabarito:
-                    st.markdown(f'<div class="gabarito">{texto_alt}</div>', unsafe_allow_html=True)
+                    st.markdown(f'<div class="gabarito">{texto_alt_safe}</div>', unsafe_allow_html=True)
                 else:
                     st.markdown(f"&nbsp;&nbsp;{texto_alt}")
 

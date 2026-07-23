@@ -1,203 +1,19 @@
 import streamlit as st
-import tempfile
 import os
 import sys
-import random
-import json
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from extrator_questoes import processar_pdf
-from code_formatter import format_enunciado, get_css
+from simulado.ui import aplicar_estilos
+from simulado.carregamento import secao_carregamento, processar_arquivo
+from simulado.resultado import tela_resultado
+from simulado.questao import secao_questao
 
 st.set_page_config(page_title="Simulado de Questões", layout="centered")
-st.markdown(get_css(), unsafe_allow_html=True)
-
-# CSS para colorir alternativas
-# CSS para colorir alternativas e garantir texto preto no destaque
-st.markdown("""
-<style>
-.correta { 
-    background-color: #d4edda; 
-    color: #000000 !important; 
-    border: 2px solid #28a745; 
-    border-radius: 8px; 
-    padding: 8px; 
-    margin: 4px 0; 
-    font-size: 1.1rem; 
-}
-.errada { 
-    background-color: #f8d7da; 
-    color: #000000 !important; 
-    border: 2px solid #dc3545; 
-    border-radius: 8px; 
-    padding: 8px; 
-    margin: 4px 0; 
-    font-size: 1.1rem; 
-}
-.gabarito { 
-    background-color: #d4edda; 
-    color: #000000 !important; 
-    border: 2px solid #28a745; 
-    border-radius: 8px; 
-    padding: 8px; 
-    margin: 4px 0; 
-    font-size: 1.1rem; 
-}
-.stRadio label { font-size: 3rem !important; }
-[data-testid="stMarkdownContainer"] p { text-align: justify; }
-</style>
-""", unsafe_allow_html=True)
-
+aplicar_estilos()
 st.title("📝 Simulado de Questões")
 
-# --- SEÇÃO DE CARREGAMENTO DE ARQUIVOS ---
-PASTA_RAIZ = "questoes_filtradas"
-arquivo_local_selecionado = None
-
-# 1. Upload manual por arquivo
-uploaded_file = st.file_uploader("Envie o PDF ou JSON com as questões", type=["pdf", "json"])
-
-st.markdown("### 📂 Ou escolha um arquivo do servidor")
-
-# 1. Inicializa a variável para que ela exista no escopo do código
-arquivo_local_selecionado = None
-
-if not os.path.exists(PASTA_RAIZ):
-    st.info(f"A pasta `{PASTA_RAIZ}` ainda não existe no diretório raiz. Crie-a para navegar pelos arquivos.")
-else:
-    # --- NOVO: Botão "Fazer simulado da Semana" ---
-    caminho_simulado = os.path.join(PASTA_RAIZ, "Simulado")
-    caminho_simulado_danilo = os.path.join(PASTA_RAIZ, "Simulado_Danilo")
-    caminho_exercio_ingles=os.path.join(PASTA_RAIZ, "Inglês Texto")
-
-    if os.path.exists(caminho_exercio_ingles) and os.path.isdir(caminho_exercio_ingles):
-        if st.button("📝 Exercício de Inglês", use_container_width=True):
-            # Busca o primeiro arquivo .json dentro da pasta Inglês Texto
-            jsons_exercicio = [f for f in os.listdir(caminho_exercio_ingles) if f.endswith(".json")]
-            if jsons_exercicio:
-                st.session_state.arquivo_simulado_ativo = os.path.join(caminho_exercio_ingles, jsons_exercicio[0])
-                st.success(f"Exercício carregado: `{jsons_exercicio[0]}`")
-            else:
-                st.error("Nenhum arquivo `.json` encontrado dentro da pasta Inglês Texto.")
-
-    # O botão só aparece se a pasta "Simulado" de fato existir
-    if os.path.exists(caminho_simulado) and os.path.isdir(caminho_simulado):
-        if st.button("📝 Fazer simulado da Semana", use_container_width=True):
-            # Busca o primeiro arquivo .json dentro da pasta Simulado
-            jsons_simulado = [f for f in os.listdir(caminho_simulado) if f.endswith(".json")]
-            if jsons_simulado:
-                st.session_state.arquivo_simulado_ativo = os.path.join(caminho_simulado, jsons_simulado[0])
-                st.success(f"Simulado carregado: `{jsons_simulado[0]}`")
-            else:
-                st.error("Nenhum arquivo `.json` encontrado dentro da pasta Simulado.")
-
-    # O botão só aparece se a pasta "Simulado" de fato existir
-    if os.path.exists(caminho_simulado_danilo) and os.path.isdir(caminho_simulado_danilo):
-        if st.button("📝 Fazer simulado da Semana (Danilo)", use_container_width=True):
-            # Busca o primeiro arquivo .json dentro da pasta Simulado
-            jsons_simulado = [f for f in os.listdir(caminho_simulado_danilo) if f.endswith(".json")]
-            if jsons_simulado:
-                st.session_state.arquivo_simulado_ativo = os.path.join(caminho_simulado_danilo, jsons_simulado[0])
-                st.success(f"Simulado carregado: `{jsons_simulado[0]}`")
-            else:
-                st.error("Nenhum arquivo `.json` encontrado dentro da pasta Simulado.")
-
-    # --- Coletar todos os arquivos para pesquisa ---
-    todos_arquivos = []
-    for raiz, _, nomes in os.walk(PASTA_RAIZ):
-        for nome in nomes:
-            if nome.endswith((".pdf", ".json")):
-                caminho_completo = os.path.join(raiz, nome)
-                label = os.path.relpath(caminho_completo, PASTA_RAIZ)
-                todos_arquivos.append((label, caminho_completo))
-
-    aba_pastas, aba_busca = st.tabs(["📁 Navegar por pastas", "🔍 Pesquisar"])
-
-    with aba_pastas:
-        subpastas = [f for f in os.listdir(PASTA_RAIZ) if os.path.isdir(os.path.join(PASTA_RAIZ, f))]
-        if not subpastas:
-            st.warning(f"Nenhuma subpasta encontrada dentro de `{PASTA_RAIZ}`.")
-        else:
-            subpasta_sel = st.selectbox("Selecione a disciplina/pasta:", ["Selecione..."] + subpastas)
-            if subpasta_sel != "Selecione...":
-                if "arquivo_simulado_ativo" in st.session_state:
-                    del st.session_state.arquivo_simulado_ativo
-                caminho_subpasta = os.path.join(PASTA_RAIZ, subpasta_sel)
-                arquivos = [f for f in os.listdir(caminho_subpasta) if f.endswith((".pdf", ".json"))]
-                if not arquivos:
-                    st.warning("Nenhum arquivo PDF ou JSON encontrado nesta pasta.")
-                else:
-                    arquivo_sel = st.selectbox("Selecione o arquivo de questões:", ["Selecione..."] + arquivos)
-                    if arquivo_sel != "Selecione...":
-                        arquivo_local_selecionado = os.path.join(caminho_subpasta, arquivo_sel)
-
-    with aba_busca:
-        st.caption("Digite no campo abaixo para filtrar — o seletor já tem busca nativa.")
-        opcoes = ["Selecione..."] + [label for label, _ in todos_arquivos]
-        sel_label = st.selectbox("Simulados disponíveis:", opcoes)
-        if sel_label != "Selecione...":
-            sel_path = next(path for label, path in todos_arquivos if label == sel_label)
-            if "arquivo_simulado_ativo" in st.session_state:
-                del st.session_state.arquivo_simulado_ativo
-            arquivo_local_selecionado = sel_path
-
-    # --- 2. Definição final da variável arquivo_local_selecionado ---
-    # Se o botão do simulado foi clicado, ele assume o valor da variável principal
-    if "arquivo_simulado_ativo" in st.session_state:
-        arquivo_local_selecionado = st.session_state.arquivo_simulado_ativo
-
-# --- LÓGICA DE PROCESSAMENTO (Upload OU Local) ---
-# Define qual arquivo e nome usar na lógica do programa
-arquivo_para_processar = None
-nome_do_arquivo = None
-origem_local = False
-
-if uploaded_file:
-    arquivo_para_processar = uploaded_file
-    nome_do_arquivo = uploaded_file.name
-elif arquivo_local_selecionado:
-    arquivo_para_processar = arquivo_local_selecionado
-    nome_do_arquivo = os.path.basename(arquivo_local_selecionado)
-    origem_local = True
-
-# Processamento do arquivo unificado
-if arquivo_para_processar:
-    if "questoes" not in st.session_state or st.session_state.get("arquivo_nome") != nome_do_arquivo:
-        try:
-            if nome_do_arquivo.endswith(".json"):
-                if origem_local:
-                    with open(arquivo_para_processar, "r", encoding="utf-8") as f:
-                        questoes = json.load(f)
-                else:
-                    questoes = json.loads(arquivo_para_processar.read().decode("utf-8"))
-            else:
-                # Se for PDF
-                if origem_local:
-                    caminho_pdf = arquivo_para_processar
-                    with st.spinner("Gerando seu simulado do servidor, aguarde..."):
-                        questoes = processar_pdf(caminho_pdf)
-                else:
-                    with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as tmp:
-                        tmp.write(arquivo_para_processar.read())
-                        tmp_path = tmp.name
-                    try:
-                        with st.spinner("Gerando seu simulado, por favor aguarde alguns segundos..."):
-                            questoes = processar_pdf(tmp_path)
-                    finally:
-                        os.unlink(tmp_path)
-                        
-            st.session_state.questoes = questoes
-            st.session_state.arquivo_nome = nome_do_arquivo
-            st.session_state.idx = 0
-            st.session_state.respostas = {}
-            st.session_state.respondidas = {}
-            st.session_state.mostrar_gabarito = {}
-            st.session_state.eliminadas = {}
-            st.session_state.finalizado = False
-            st.rerun()
-        except Exception as e:
-            st.error(f"Erro ao processar arquivo: {e}")
-            st.stop()
+uploaded_file, arquivo_local_selecionado = secao_carregamento()
+processar_arquivo(uploaded_file, arquivo_local_selecionado)
 
 if "questoes" not in st.session_state:
     st.info("Envie um PDF ou selecione um arquivo do servidor para começar.")
@@ -210,191 +26,22 @@ if total == 0:
     st.warning("Nenhuma questão encontrada no arquivo.")
     st.stop()
 
-# Garantir que idx está dentro dos limites
 if st.session_state.idx >= total:
     st.session_state.idx = total - 1
 
-# Tela de resultado final
 if st.session_state.finalizado:
-    respondidas = len(st.session_state.respostas)
-    acertos = sum(1 for qid, resp in st.session_state.respostas.items()
-                  if any(q["alternativas"][ord(resp) - ord('A')] == q["gabarito"] for q in questoes if q["id"] == qid))
-    porcentagem = (acertos / respondidas * 100) if respondidas > 0 else 0
+    tela_resultado(questoes)
 
-    st.markdown("---")
-    st.subheader("🏁 Resultado Final")
-    st.metric("Acertos", f"{acertos}/{respondidas}")
-    st.metric("Porcentagem", f"{porcentagem:.1f}%")
-    st.metric("Erros", f"{respondidas - acertos}/{respondidas}")
-
-    # Mapa de resultados por questão
-    blocos_html = '<div style="display:flex;flex-wrap:wrap;gap:6px;margin:16px 0">'
-    for i, q in enumerate(questoes):
-        qid = q["id"]
-        resp = st.session_state.respostas.get(qid)
-        if resp is not None:
-            acertou_q = q["alternativas"][ord(resp) - ord('A')] == q["gabarito"]
-            cor = "#28a745" if acertou_q else "#dc3545"
-        else:
-            cor = "#aaaaaa"
-        blocos_html += (
-            f'<div style="width:44px;height:44px;background:{cor};border-radius:6px;'
-            f'display:flex;align-items:center;justify-content:center;'
-            f'color:#fff;font-weight:bold;font-size:0.75rem">{i+1}</div>'
-        )
-        if (i + 1) % 10 == 0:
-            blocos_html += '<div style="width:100%;height:0"></div>'
-    blocos_html += '</div>'
-    st.markdown(blocos_html, unsafe_allow_html=True)
-
-    if st.button("🔄 Reiniciar", use_container_width=True):
-        st.session_state.idx = 0
-        st.session_state.respostas = {}
-        st.session_state.respondidas = {}
-        st.session_state.mostrar_gabarito = {}
-        st.session_state.eliminadas = {}
-        st.session_state.finalizado = False
-        st.rerun()
-    st.stop()
-
-# Contador de acertos/erros visível
-acertos = sum(1 for qid, resp in st.session_state.respostas.items()
-              if any(q["alternativas"][ord(resp) - ord('A')] == q["gabarito"] for q in questoes if q["id"] == qid))
+acertos = sum(
+    1 for qid, resp in st.session_state.respostas.items()
+    if any(q["alternativas"][ord(resp) - ord('A')] == q["gabarito"] for q in questoes if q["id"] == qid)
+)
 erros = len(st.session_state.respostas) - acertos
 
 col_ac, col_er, col_tot = st.columns(3)
 col_ac.metric("✅ Acertos", acertos)
 col_er.metric("❌ Erros", erros)
 col_tot.metric("📊 Respondidas", f"{len(st.session_state.respostas)}/{total}")
-
 st.markdown("<hr style='margin: 0.5rem 0'>", unsafe_allow_html=True)
 
-# Questão atual
-idx = st.session_state.idx
-q = questoes[idx]
-qid = q["id"]
-letras = "ABCDE"
-
-import re
-def escape_markdown(text):
-    text = text.replace('\n', '  \n')
-    text = text.replace('R$', 'R\x00')
-    pattern = r'(?<!\\)(\$.*?(?<!\\)\$)|\$'
-    def replace_match(match):
-        if match.group(1):
-            return match.group(1)
-        return r'\$'
-    text = re.sub(pattern, replace_match, text)
-    return text.replace('R\x00', r'R\$')
-
-col_titulo, col_ir = st.columns([3, 1])
-with col_titulo:
-    st.subheader(f"Questão {q['id']} de {total}")
-with col_ir:
-    ir_para = st.number_input("Ir para:", min_value=1, max_value=total, value=idx + 1, key=f"ir_questao_{idx}", label_visibility="collapsed")
-    if ir_para != idx + 1:
-        st.session_state.idx = ir_para - 1
-        st.rerun()
-if q.get("assunto"):
-    st.caption(f"📚 Assunto: {q['assunto']}")
-enunciado_html, tem_codigo = format_enunciado(q["enunciado"])
-if tem_codigo:
-    st.markdown(enunciado_html, unsafe_allow_html=True)
-else:
-    st.markdown(escape_markdown(q["enunciado"]))
-
-ja_respondida = qid in st.session_state.respondidas
-mostrar_gab = st.session_state.mostrar_gabarito.get(qid, False)
-
-# Mostrar alternativas
-escolha = st.session_state.respostas.get(qid)
-
-if not ja_respondida and not mostrar_gab:
-    if "eliminadas" not in st.session_state:
-        st.session_state.eliminadas = {}
-    elim = st.session_state.eliminadas.get(qid, set())
-
-    opcoes_filtradas = [f"{letras[i]}) {escape_markdown(alt)}" for i, alt in enumerate(q["alternativas"]) if letras[i] not in elim]
-    if not opcoes_filtradas:
-        st.warning("Todas as alternativas foram eliminadas.")
-        selecao = None
-    else:
-        selecao = st.radio("Alternativas:", opcoes_filtradas, index=None, key=f"radio_{qid}", label_visibility="collapsed")
-
-    # Pills de eliminação: letras disponíveis + restaurar se houver eliminadas
-    opcoes_pills = [f"✂️{letras[i]}" for i in range(len(q["alternativas"])) if letras[i] not in elim] + (["↩ Restaurar"] if elim else [])
-    eliminada_pill = st.pills("Eliminar letra:", opcoes_pills, key=f"pills_{qid}", label_visibility="collapsed")
-    if eliminada_pill and eliminada_pill != "↩ Restaurar" and eliminada_pill[-1] not in elim:
-        st.session_state.eliminadas.setdefault(qid, set()).add(eliminada_pill[-1])
-        st.rerun()
-    elif eliminada_pill == "↩ Restaurar":
-        st.session_state.eliminadas[qid] = set()
-        st.rerun()
-
-    col_resp, col_gab = st.columns(2)
-    with col_resp:
-        if st.button("✔️ Responder", key=f"resp_{qid}", use_container_width=True):
-            if selecao:
-                letra = selecao[0]
-                st.session_state.respostas[qid] = letra
-                st.session_state.respondidas[qid] = True
-                st.rerun()
-            else:
-                st.warning("Selecione uma alternativa.")
-    with col_gab:
-        if st.button("👁️ Mostrar Gabarito", key=f"gab_{qid}", use_container_width=True):
-            st.session_state.mostrar_gabarito[qid] = True
-            st.rerun()
-else:
-    gabarito_texto = q["gabarito"]
-    # Encontrar a letra correta baseado no texto do gabarito
-    letra_gabarito = None
-    for i, alt in enumerate(q["alternativas"]):
-        if alt == gabarito_texto:
-            letra_gabarito = letras[i]
-            break
-    acertou = (escolha == letra_gabarito) if ja_respondida else None
-    mostrar_correta = mostrar_gab or (ja_respondida and acertou)
-
-    for i, alt in enumerate(q["alternativas"]):
-        letra = letras[i]
-        texto_alt = f"{letra}) {escape_markdown(alt)}"
-
-        if ja_respondida:
-            if mostrar_correta and letra == letra_gabarito:
-                st.markdown(f'<div class="correta">{texto_alt}</div>', unsafe_allow_html=True)
-            elif letra == escolha and not acertou:
-                st.markdown(f'<div class="errada">{texto_alt}</div>', unsafe_allow_html=True)
-            else:
-                st.markdown(f"&nbsp;&nbsp;{texto_alt}")
-        elif mostrar_gab:
-            if letra == letra_gabarito:
-                st.markdown(f'<div class="gabarito">{texto_alt}</div>', unsafe_allow_html=True)
-            else:
-                st.markdown(f"&nbsp;&nbsp;{texto_alt}")
-
-    if ja_respondida and not acertou and not mostrar_gab:
-        if st.button("👁️ Mostrar Resposta", key=f"mostrar_{qid}", use_container_width=True):
-            st.session_state.mostrar_gabarito[qid] = True
-            st.rerun()
-
-st.markdown("---")
-
-# Navegação
-col_prev, col_next, col_rand, col_fim = st.columns([1, 1, 1, 1])
-with col_prev:
-    if st.button("⬅️ Anterior", disabled=(idx == 0), use_container_width=True):
-        st.session_state.idx -= 1
-        st.rerun()
-with col_next:
-    if st.button("➡️ Próxima", disabled=(idx == total - 1), use_container_width=True):
-        st.session_state.idx += 1
-        st.rerun()
-with col_rand:
-    if st.button("🎲 Aleatória", use_container_width=True):
-        st.session_state.idx = random.randint(0, total - 1)
-        st.rerun()
-with col_fim:
-    if st.button("🏁 Terminar", use_container_width=True):
-        st.session_state.finalizado = True
-        st.rerun()
+secao_questao(questoes, arquivo_local_selecionado)

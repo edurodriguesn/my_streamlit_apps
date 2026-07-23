@@ -13,7 +13,7 @@
     },
     {
         "id": 2,
-        "enunciado": "Em um Ministério Público, há uma tabela AtuacaoInfracao, que relaciona promotores a infrações que investigam:\n{images(2)}\nA chave primária é composta: (PromotorID, InfracaoID).\nPara garantir que a tabela atenda à 2ª Forma Normal (2NF), a melhor solução é",
+        "enunciado": "Em um Ministério Público, há uma tabela AtuacaoInfracao, que relaciona promotores a infrações que investigam:\n{image(2)}\nA chave primária é composta: (PromotorID, InfracaoID).\nPara garantir que a tabela atenda à 2ª Forma Normal (2NF), a melhor solução é",
         "alternativas": [
             "criar um identificador artificial único chamado AtuacaoID para substituir a chave composta, mantendo todos os atributos (incluindo NomePromotor e TipoInfracao) na mesma tabela.",
             "deixar NomePromotor e TipoInfracao como atributos calculados que são buscados em outras fontes durante a consulta, evitando redundância, mas sem mudar o esquema original.",

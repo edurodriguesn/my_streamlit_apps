@@ -110,20 +110,19 @@ def secao_questao(questoes, arquivo_local_selecionado):
 
         for i, alt in enumerate(q["alternativas"]):
             letra = letras[i]
-            texto_alt = f"{letra}) {escape_markdown(alt)}"
-            texto_alt_safe = f"{letra}) {html_lib.escape(alt)}"
+            texto_safe = f"{letra}) {html_lib.escape(alt)}"
             if ja_respondida:
                 if mostrar_correta and letra == letra_gabarito:
-                    st.markdown(f'<div class="correta">{texto_alt_safe}</div>', unsafe_allow_html=True)
+                    css = "alt-box correta"
                 elif letra == escolha and not acertou:
-                    st.markdown(f'<div class="errada">{texto_alt_safe}</div>', unsafe_allow_html=True)
+                    css = "alt-box errada"
                 else:
-                    st.markdown(f"&nbsp;&nbsp;{texto_alt}")
+                    css = "alt-box"
             elif mostrar_gab:
-                if letra == letra_gabarito:
-                    st.markdown(f'<div class="gabarito">{texto_alt_safe}</div>', unsafe_allow_html=True)
-                else:
-                    st.markdown(f"&nbsp;&nbsp;{texto_alt}")
+                css = "alt-box gabarito" if letra == letra_gabarito else "alt-box"
+            else:
+                css = "alt-box"
+            st.markdown(f'<div class="{css}">{texto_safe}</div>', unsafe_allow_html=True)
 
         if ja_respondida and not acertou and not mostrar_gab:
             if st.button("👁️ Mostrar Resposta", key=f"mostrar_{qid}", use_container_width=True):

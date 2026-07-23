@@ -5,34 +5,16 @@ def aplicar_estilos():
     st.markdown(get_css(), unsafe_allow_html=True)
     st.markdown("""
 <style>
-.correta { 
-    background-color: #d4edda; 
-    color: #000000 !important; 
-    border: 2px solid #28a745; 
-    border-radius: 8px; 
-    padding: 8px; 
-    margin: 4px 0; 
-    font-size: 1.1rem; 
+.alt-box {
+    border: 2px solid transparent;
+    border-radius: 8px;
+    padding: 2px 8px;
+    font-size: 1.1rem;
 }
-.errada { 
-    background-color: #f8d7da; 
-    color: #000000 !important; 
-    border: 2px solid #dc3545; 
-    border-radius: 8px; 
-    padding: 8px; 
-    margin: 4px 0; 
-    font-size: 1.1rem; 
-}
-.gabarito { 
-    background-color: #d4edda; 
-    color: #000000 !important; 
-    border: 2px solid #28a745; 
-    border-radius: 8px; 
-    padding: 8px; 
-    margin: 4px 0; 
-    font-size: 1.1rem; 
-}
-.correta p, .errada p, .gabarito p { margin: 0; }
+.alt-box p { margin: 0; }
+.correta { background-color: #d4edda; border-color: #28a745; }
+.errada  { background-color: #f8d7da; border-color: #dc3545; }
+.gabarito{ background-color: #d4edda; border-color: #28a745; }
 .stRadio label { font-size: 3rem !important; }
 [data-testid="stMarkdownContainer"] p { text-align: justify; }
 </style>

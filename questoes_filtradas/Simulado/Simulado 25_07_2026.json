@@ -184,14 +184,14 @@
     },
     {
         "id": 16,
-        "enunciado": "Qual artigo da LGPD deve ser explicitamente mencionado ao informar os direitos do titular?",
+        "enunciado": "O que deve ser feito se o tratamento de dados for condição para o fornecimento de um produto?",
         "alternativas": [
-            "Artigo 7º",
-            "Artigo 18",
-            "Artigo 52",
-            "Artigo 10"
+            "O titular deve ser informado com destaque sobre esse fato",
+            "O produto deve ter o seu preço reduzido em 50%",
+            "O tratamento deve ser ocultado para evitar desistência",
+            "A venda deve ser obrigatoriamente vinculada a um seguro"
         ],
-        "gabarito": "Artigo 18",
+        "gabarito": "O titular deve ser informado com destaque sobre esse fato",
         "assunto": "L13709 (LGPD)_Capítulo II_Seção I"
     },
     {
@@ -264,11 +264,11 @@
             "Propõe a delegação da lógica para arquivos de configuração externos"
         ],
         "gabarito": "Sugere o uso de polimorfismo para melhorar a manutenibilidade",
-        "assunto": "Engenharia de Software_Análise Estática de Código"
+        "assunto": "Análise Estática de Código"
     },
     {
         "id": 23,
-        "enunciado": "Acerca do tema Engenharia de Software_Análise Estática de Código, julgue os itens a seguir. As afirmações são do modelo pergunta + resposta\nI. A complexidade ciclomática elevada em um método sugere qual tipo de dificuldade técnica? Existem muitos caminhos de execução, tornando o código difícil de testar\nII. No contexto de Clean Code, em qual situação o uso de comentários é considerado aceitável ou necessário? Para documentar decisões de arquitetura impostas por restrições externas\nIII. O que define uma função 'monádica' segundo a terminologia explorada no Módulo de Clean Code? Uma função que aceita exatamente um argumento\nIV. Como deve ser estruturada uma função que realiza o tratamento de erros para manter a limpeza do código? O bloco try deve ser a primeira linha da função e nada deve vir após o catch",
+        "enunciado": "Acerca do tema Análise Estática de Código, julgue os itens a seguir. As afirmações são do modelo pergunta + resposta\nI. A complexidade ciclomática elevada em um método sugere qual tipo de dificuldade técnica? Existem muitos caminhos de execução, tornando o código difícil de testar\nII. No contexto de Clean Code, em qual situação o uso de comentários é considerado aceitável ou necessário? Para documentar decisões de arquitetura impostas por restrições externas\nIII. O que define uma função 'monádica' segundo a terminologia explorada no Módulo de Clean Code? Uma função que aceita exatamente um argumento\nIV. Como deve ser estruturada uma função que realiza o tratamento de erros para manter a limpeza do código? O bloco try deve ser a primeira linha da função e nada deve vir após o catch",
         "alternativas": [
             "Somente I e III estão corretas.",
             "Todas as afirmações estão corretas.",
@@ -277,7 +277,7 @@
             "Somente II e IV estão corretas."
         ],
         "gabarito": "Somente I, III e IV estão corretas.",
-        "assunto": "Engenharia de Software_Análise Estática de Código"
+        "assunto": "Análise Estática de Código"
     },
     {
         "id": 24,
@@ -289,7 +289,7 @@
             "Facilitação da implementação de padrões como Singleton"
         ],
         "gabarito": "Quebra do princípio do Nível de Abstração Único e perda de clareza",
-        "assunto": "Engenharia de Software_Análise Estática de Código"
+        "assunto": "Análise Estática de Código"
     },
     {
         "id": 25,
@@ -341,7 +341,7 @@
     },
     {
         "id": 29,
-        "enunciado": "Acerca do tema Segurança da Informação_Resumo ISO 27001 e 27002, avalie os itens a seguir como Verdadeiro (V) ou Falso (F). As afirmações são do modelo pergunta + resposta\n( ) No contexto de riscos, o termo \"Risk Owner\" (Proprietário do Risco) refere-se a: O cliente final que é afetado pela indisponibilidade do serviço.\n( ) Qual componente da Gestão de Riscos envolve comparar o nível de risco determinado na análise com os critérios de risco da organização? Comunicação do Risco.\n( ) A ISO 27001 exige que a organização determine as \"partes interessadas\" no SGSI. O que isso inclui? Entidades internas e externas que possuam requisitos relevantes para a segurança da informação.\n( ) Considerando o quadro de \"Mitos vs Fatos\", por que a afirmação de que a classificação da informação é tarefa da TI está incorreta? Porque a classificação deve ser feita unicamente pelo departamento jurídico da organização.\n\nAssinale a sequência correta.",
+        "enunciado": "Acerca do tema ISO 27001 e 27002, avalie os itens a seguir como Verdadeiro (V) ou Falso (F). As afirmações são do modelo pergunta + resposta\n( ) No contexto de riscos, o termo \"Risk Owner\" (Proprietário do Risco) refere-se a: O cliente final que é afetado pela indisponibilidade do serviço.\n( ) Qual componente da Gestão de Riscos envolve comparar o nível de risco determinado na análise com os critérios de risco da organização? Comunicação do Risco.\n( ) A ISO 27001 exige que a organização determine as \"partes interessadas\" no SGSI. O que isso inclui? Entidades internas e externas que possuam requisitos relevantes para a segurança da informação.\n( ) Considerando o quadro de \"Mitos vs Fatos\", por que a afirmação de que a classificação da informação é tarefa da TI está incorreta? Porque a classificação deve ser feita unicamente pelo departamento jurídico da organização.\n\nAssinale a sequência correta.",
         "alternativas": [
             "V-V-V-F",
             "V-V-F-F",
@@ -350,7 +350,7 @@
             "V-V-V-V"
         ],
         "gabarito": "F-F-V-F",
-        "assunto": "Segurança da Informação_Resumo ISO 27001 e 27002"
+        "assunto": "ISO 27001 e 27002"
     },
     {
         "id": 30,
@@ -362,7 +362,7 @@
             "Aceitar."
         ],
         "gabarito": "Transferir / Compartilhar.",
-        "assunto": "Segurança da Informação_Resumo ISO 27001 e 27002"
+        "assunto": "ISO 27001 e 27002"
     },
     {
         "id": 31,
@@ -374,7 +374,7 @@
             "Controles Tecnológicos."
         ],
         "gabarito": "Controles Tecnológicos.",
-        "assunto": "Segurança da Informação_Resumo ISO 27001 e 27002"
+        "assunto": "ISO 27001 e 27002"
     },
     {
         "id": 32,
@@ -386,11 +386,11 @@
             "Nomes dos desenvolvedores, horários de trabalho e custos fixos."
         ],
         "gabarito": "Itens selecionados do Product Backlog, plano de entrega e a Meta da Sprint.",
-        "assunto": "Metodologias Ágeis_Scrum"
+        "assunto": "Scrum"
     },
     {
         "id": 33,
-        "enunciado": "Acerca do tema Metodologias Ágeis_Scrum, avalie os itens a seguir como Verdadeiro (V) ou Falso (F). As afirmações são do modelo pergunta + resposta\n( ) No contexto do processo empírico, o que afirma a teoria do empirismo? O sucesso do projeto depende da eliminação total de riscos imprevisíveis.\n( ) Qual o objetivo de identificar melhorias na Sprint Retrospective? Adiar a implementação até que o projeto termine.\n( ) Qual o papel do Scrum Master durante a Sprint Planning? Definir os critérios de aceitação de negócio para o PO.\n( ) No Scrum Guide 2020, o que o compromisso 'Meta da Sprint' traz para o Sprint Backlog? Coerência e foco, explicitando o porquê do ciclo estar sendo executado.\n\nAssinale a sequência correta.",
+        "enunciado": "Acerca do tema Scrum, avalie os itens a seguir como Verdadeiro (V) ou Falso (F). As afirmações são do modelo pergunta + resposta\n( ) No contexto do processo empírico, o que afirma a teoria do empirismo? O sucesso do projeto depende da eliminação total de riscos imprevisíveis.\n( ) Qual o objetivo de identificar melhorias na Sprint Retrospective? Adiar a implementação até que o projeto termine.\n( ) Qual o papel do Scrum Master durante a Sprint Planning? Definir os critérios de aceitação de negócio para o PO.\n( ) No Scrum Guide 2020, o que o compromisso 'Meta da Sprint' traz para o Sprint Backlog? Coerência e foco, explicitando o porquê do ciclo estar sendo executado.\n\nAssinale a sequência correta.",
         "alternativas": [
             "F-F-V-F",
             "V-F-V-F",
@@ -399,7 +399,7 @@
             "V-V-V-V"
         ],
         "gabarito": "F-F-F-V",
-        "assunto": "Metodologias Ágeis_Scrum"
+        "assunto": "Scrum"
     },
     {
         "id": 34,
@@ -411,7 +411,7 @@
             "Os Developers e os usuários finais."
         ],
         "gabarito": "Todo o Scrum Team.",
-        "assunto": "Metodologias Ágeis_Scrum"
+        "assunto": "Scrum"
     },
     {
         "id": 35,
@@ -423,6 +423,6 @@
             "Um período de descanso obrigatório entre duas Sprints."
         ],
         "gabarito": "Uma atividade de pesquisa/prototipação para reduzir incerteza técnica.",
-        "assunto": "Metodologias Ágeis_Scrum"
+        "assunto": "Scrum"
     }
 ]

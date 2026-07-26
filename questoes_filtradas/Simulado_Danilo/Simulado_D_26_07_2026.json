@@ -220,11 +220,11 @@
     },
     {
         "id": 19,
-        "enunciado": "Qual o papel do Pipeline de Dados?\n \nA) Agendar a execução de consultas Ad Hoc mensais\n \nB) Refinar, limpar e transformar dados brutos para consumo",
+        "enunciado": "Qual o papel do Pipeline de Dados?",
         "alternativas": [
-            "",
+            "Agendar a execução de consultas Ad Hoc mensais",
+            "Refinar, limpar e transformar dados brutos para consumo",
             "Substituir a necessidade de um Data Lake central",
-            "",
             "Gerar relatórios de sabedoria automaticamente"
         ],
         "gabarito": "Gerar relatórios de sabedoria automaticamente",
@@ -232,11 +232,11 @@
     },
     {
         "id": 20,
-        "enunciado": "O termo 'Zettabyte' no contexto de volume de Big Data corresponde a qual potência?\n \nA) $10^{15}$\n \nB) $10^{18}$",
+        "enunciado": "O termo 'Zettabyte' no contexto de volume de Big Data corresponde a qual potência?",
         "alternativas": [
-            "",
+            "$10^{15}$",
+            "$10^{18}$",
             "$10^{21}$",
-            "",
             "$10^{24}$"
         ],
         "gabarito": "$10^{21}$",
@@ -244,7 +244,7 @@
     },
     {
         "id": 21,
-        "enunciado": "Acerca do tema Big Data, julgue os itens a seguir. As afirmações são do modelo pergunta + resposta\nI. Qual a principal vantagem do Apache Spark em relação ao processamento tradicional do Hadoop?   A) Armazenamento mais barato em discos magnéticos   B) Uso de memória RAM para computação veloz em cluster Exigência de esquemas rígidos para todos os dados\nII. Na escala de Volume do Big Data, qual valor decimal corresponde a um Petabyte?   A) $10^{12}$ bytes   B) $10^{15}$ bytes $10^{18}$ bytes\nIII. Sobre o Data Lake, é correto afirmar que ele:   A) Exige transformação prévia de todos os dados antes da gravação   B) Armazena dados em seu formato original, sem restrições de esquema Funciona em servidores únicos de alta capacidade vertical\nIV. O termo 'Data in-motion' está associado a qual conceito?   A) Dados persistidos em Data Warehouses   B) Processamento de fluxos em tempo real na memória Dados estruturados em repouso no SQL",
+        "enunciado": "Acerca do tema Big Data, julgue os itens a seguir. As afirmações são do modelo pergunta + resposta.\n\nI. Qual a principal vantagem do Apache Spark em relação ao processamento tradicional do Hadoop? Uso de memória RAM para computação veloz em cluster.\n\nII. Na escala de Volume do Big Data, qual valor decimal corresponde a um Petabyte? 10^15 bytes.\n\nIII. Sobre o Data Lake, é correto afirmar que ele armazena dados em seu formato original, sem restrições de esquema.\n\nIV. O termo 'Data in-motion' está associado ao processamento de fluxos em tempo real na memória.",
         "alternativas": [
             "Somente I está correta.",
             "Somente III e IV estão corretas.",

@@ -23,9 +23,18 @@ def tratar_texto(t):
 
     return t.strip()
 
-if st.button("Tratar texto"):
-    saida = tratar_texto(texto)
-    st.text_area("Texto tratado:", saida, height=300)
-    st.text("Agora basta selecionar e copiar o texto tratado!")
+col1, col2 = st.columns(2)
+
+with col1:
+    if st.button("Tratar texto"):
+        saida = tratar_texto(texto)
+        st.text_area("Texto tratado:", saida, height=300)
+        st.text("Agora basta selecionar e copiar o texto tratado!")
+
+with col2:
+    if st.button("Tratar questão"):
+        saida = re.sub(r'([A-E])\n', r'(\1)', texto)
+        st.text_area("Texto tratado:", saida, height=300)
+        st.text("Agora basta selecionar e copiar o texto tratado!")
 
     

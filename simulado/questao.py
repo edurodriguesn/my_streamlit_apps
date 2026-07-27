@@ -6,6 +6,13 @@ import html as html_lib
 from code_formatter import format_enunciado
 
 
+def highlight_texto(text):
+    highlighted = re.sub(r'\*\*\*(.+?)\*\*\*', r'<span style="background:white;color:black;padding:0 2px">\1</span>', text)
+    if highlighted == text:
+        return text, False
+    return highlighted.replace('\n', '<br>'), True
+
+
 def escape_markdown(text):
     text = text.replace('\n', '  \n')
     text = text.replace('R$', 'R\x00')
@@ -26,7 +33,11 @@ def render_enunciado_com_imagens(enunciado, arquivo_local_selecionado):
             if tem_codigo:
                 st.markdown(enunciado_html, unsafe_allow_html=True)
             elif parte.strip():
-                st.markdown(escape_markdown(parte))
+                highlighted, tem_highlight = highlight_texto(parte)
+                if tem_highlight:
+                    st.markdown(highlighted, unsafe_allow_html=True)
+                else:
+                    st.markdown(escape_markdown(parte))
         else:
             if arquivo_local_selecionado:
                 pasta_json = os.path.basename(os.path.dirname(arquivo_local_selecionado))

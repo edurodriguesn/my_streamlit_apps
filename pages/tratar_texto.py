@@ -33,7 +33,7 @@ with col1:
 
 with col2:
     if st.button("Tratar questão"):
-        saida = re.sub(r'([A-E])\n', r'(\1)', texto)
+        saida = re.sub(r'([A-E])\n', r'(\1) ', texto)
         st.text_area("Texto tratado:", saida, height=300)
         st.text("Agora basta selecionar e copiar o texto tratado!")
 

@@ -35,7 +35,7 @@ with col1:
 
 with col2:
     if st.button("Tratar questão"):
-        st.session_state.saida = re.sub(r'([A-E])\n', r'(\1)', texto)
+        st.session_state.saida = re.sub(r'([A-E])\n', r'(\1) ', texto)
 
 if st.session_state.saida:
     st.text_area("Texto tratado:", st.session_state.saida, height=300)

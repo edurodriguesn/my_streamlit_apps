@@ -1,0 +1,2219 @@
+[
+    {
+        "id": 1,
+        "enunciado": "Os princípios fundamentais da segurança da informação, frequentemente referidos pela sigla CID, expandiram-se para incluir outros pilares essenciais em abordagens modernas, como a autenticidade e o não repúdio. A integridade é um desses pilares cruciais. Assinale a opção que descreve corretamente o conceito de integridade na segurança da informação.",
+        "alternativas": [
+            "Garantir que a informação esteja acessível e utilizável para indivíduos autorizados sempre que necessário.",
+            "Assegurar que os dados sejam acessados apenas por pessoas, entidades ou processos autorizados, prevenindo a divulgação não autorizada.",
+            "Garantir que uma parte envolvida em uma comunicação ou transação não possa negar posteriormente o seu envolvimento.",
+            "Confirmar a identidade de um usuário ou a origem de uma informação para prevenir fraudes de identidade.",
+            "Proteger a precisão e a completude da informação e dos métodos de processamento, garantindo que os dados não sejam alterados ou destruídos de forma não autorizada."
+        ],
+        "gabarito": "Proteger a precisão e a completude da informação e dos métodos de processamento, garantindo que os dados não sejam alterados ou destruídos de forma não autorizada."
+    },
+    {
+        "id": 2,
+        "enunciado": "De acordo com a ISO/IEC 27002, existem três pilares que formam a base para a proteção de dados, garantindo, assim, a proteção da informação, a inviolabilidade e a prontidão de uso.\nA tríade que compõe as propriedades de segurança da informação é",
+        "alternativas": [
+            "Controle, Propósito e Orientação.",
+            "Controle do Acesso às Informações, Segurança Cibernética e Disponibilidade Contínua.",
+            "Aprovação, Auditoria e Controle.",
+            "Confidencialidade, Integridade e Disponibilidade.",
+            "Controle de Acesso, Criptografia e Serviços Online."
+        ],
+        "gabarito": "Confidencialidade, Integridade e Disponibilidade."
+    },
+    {
+        "id": 3,
+        "enunciado": "O Ministério Público está implementando um novo sistema digital para processos judiciais eletrônicos.\nO sistema deve atender aos seguintes requisitos de segurança:\n1. Apenas as partes autorizadas podem acessar os registros e informações sigilosas.\n2. O sistema deve estar sempre operacional e acessível durante o horário judicial.\n3. Os documentos não podem ser alterados, modificados ou excluídos indevidamente após sua inclusão.\n4. Após qualquer ação, o autor não pode negar a autoria (ex.: envio de petição).\n5. Deve ser possível verificar e confirmar a identidade real de quem acessa e assina documentos.\nA correlação correta entre cada requisito e o respectivo princípio de segurança da informação é:",
+        "alternativas": [
+            "Integridade – Disponibilidade – Confidencialidade – Autenticidade – Conformidade.",
+            "Confidencialidade – Conformidade – Disponibilidade – Autenticidade – Irretratabilidade.",
+            "Irretratabilidade – Autenticidade – Integridade – Confidencialidade – Disponibilidade.",
+            "Confidencialidade – Disponibilidade – Integridade – Irretratabilidade – Autenticidade.",
+            "Disponibilidade – Conformidade – Integridade – Confidencialidade – Autenticidade."
+        ],
+        "gabarito": "Confidencialidade – Disponibilidade – Integridade – Irretratabilidade – Autenticidade."
+    },
+    {
+        "id": 4,
+        "enunciado": "A adoção de boas práticas busca preservar os princípios da confidencialidade, integridade e disponibilidade dos dados, conhecidos como tríade CIA. Considerando esses princípios e práticas usuais de proteção da informação, analise as afirmativas a seguir.\nI.A confidencialidade está relacionada à limitação de acesso à informação apenas a usuários, sistemas ou processos autorizados, podendo ser apoiada por mecanismos como controle de acesso e criptografia.\nII.A integridade refere-se à manutenção da exatidão e da consistência das informações ao longo do tempo, sendo favorecida por técnicas como controles de alteração, registros de auditoria e uso de funções hash.\nIII.A disponibilidade envolve garantir que dados e serviços estejam acessíveis quando necessários, podendo ser impactada por falhas de hardware, ataques ou ausência de mecanismos de redundância.\nIV.A aplicação isolada de soluções tecnológicas é suficiente para assegurar a tríade CIA, independentemente de políticas, processos organizacionais ou conscientização dos usuários.\nV.Boas práticas de segurança da informação incluem a combinação de medidas técnicas, administrativas e físicas, buscando reduzir riscos sem eliminar completamente a possibilidade de incidentes.\nAssinale a alternativa correta:",
+        "alternativas": [
+            "Apenas as afirmativas I, II, III e V são verdadeiras.",
+            "Apenas as afirmativas II, III, IV e V são verdadeiras.",
+            "Apenas as afirmativas I, II e IV são verdadeiras.",
+            "As afirmativas I, II, III, IV e V são verdadeiras."
+        ],
+        "gabarito": "Apenas as afirmativas I, II, III e V são verdadeiras."
+    },
+    {
+        "id": 5,
+        "enunciado": "O princípio da confidencialidade na segurança de informação garante que:",
+        "alternativas": [
+            "Dados estejam sempre disponíveis.",
+            "Dados não sejam alterados.",
+            "Dados só sejam acessados por autorizados.",
+            "Dados sejam apagados.",
+            "Dados sejam criptografados."
+        ],
+        "gabarito": "Dados só sejam acessados por autorizados."
+    },
+    {
+        "id": 6,
+        "enunciado": "O Tribunal de Justiça do Estado X utiliza o Sistema de Processo Judicial Eletrônico (PJe) para a tramitação eletrônica de processos judiciais. As regras gerais sobre o PJe exigem que o sistema esteja acessível ininterruptamente, exceto nos períodos de manutenção. As regras específicas estabelecem que a disponibilização do inteiro teor dos documentos juntados ao PJe seja restrita às respectivas partes processuais, aos advogados em geral, ao Ministério Público e aos magistrados.\nOs fundamentos da segurança da informação assegurados, respectivamente, pelas regras gerais e específicas são:",
+        "alternativas": [
+            "autorização e integridade;",
+            "autorização e autenticação;",
+            "disponibilidade e integridade;",
+            "disponibilidade e autenticação;",
+            "disponibilidade e confidencialidade."
+        ],
+        "gabarito": "disponibilidade e confidencialidade."
+    },
+    {
+        "id": 7,
+        "enunciado": "No contexto da segurança da informação, a chamada tríade CIA (Confidentiality, Integrity, Availability) representa três princípios fundamentais que orientam a proteção de ativos de informação nas organizações.\nAssocie cada situação ao principal princípio de segurança afetado.\n1. Confidencialidade\n2. Integridade\n3. Disponibilidade\n( ) Um erro em um processo de atualização de software altera indevidamente parte dos registros de transações financeiras.\n( ) Uma pane em um servidor impede, por horas, o acesso dos usuários a um sistema crítico de emissão de passagens.\n( ) Um funcionário sem autorização consegue visualizar o prontuário médico de um paciente em um sistema hospitalar.\nA sequência correta é:",
+        "alternativas": [
+            "1, 2 e 3;",
+            "2, 1 e 3;",
+            "2, 3 e 1;",
+            "3, 2 e 1;",
+            "3, 1 e 2."
+        ],
+        "gabarito": "2, 3 e 1;"
+    },
+    {
+        "id": 8,
+        "enunciado": "A disponibilidade é um dos elementos críticos no contexto da segurança da informação. Em relação às características do conceito de disponibilidade, avalie as afirmativas a seguir e assinale (V) para a verdadeira e (F) para a falsa.\n( ) Oportunidade, significa que as informações estarão disponíveis quando necessário.\n( ) Continuidade, significa que os usuários conseguem continuar trabalhando no caso da ocorrência de falhas.\n( ) Versatilidade, significa que todos os usuários trabalhem nos sistemas apesar da ocorrência de falhas As afirmativas são, respectivamente,",
+        "alternativas": [
+            "V – V – V.",
+            "F – F – V.",
+            "V – F – V.",
+            "V – V – F.",
+            "F – V – V."
+        ],
+        "gabarito": "V – V – F."
+    },
+    {
+        "id": 9,
+        "enunciado": "Em relação aos princípios da segurança da informação, informe se é verdadeiro (V) ou falso (F) o que se afirma a seguir e assinale a alternativa com a sequência correta.\n( ) Confidencialidade refere-se à garantia de que somente pessoas autorizadas podem acessar determinadas informações.\n( ) Integridade está relacionada à proteção das informações contra modificações não autorizadas, preservando sua exatidão e completude.\n( ) Disponibilidade garante que a informação esteja acessível ao ser requisitada pelas partes autorizadas, sem interrupções indevidas.\n( ) Não repúdio assegura que um usuário possa negar legitimamente ter realizado uma ação ou transação, caso a operação não tenha sido devidamente registrada.",
+        "alternativas": [
+            "V – V – F – V.",
+            "F – V – V – F.",
+            "V – V – V – F.",
+            "V – F – V – V.",
+            "F – F – V – F."
+        ],
+        "gabarito": "V – V – V – F."
+    },
+    {
+        "id": 10,
+        "enunciado": "Texto 6A3 Certa agência de fiscalização submeteu os dados de cada autuação registrada a uma função hash e, em seguida, assinou digitalmente o resultado obtido. Um sistema verificador recebeu os dados, verificou a assinatura digital e recalculou o hash desses dados para comparação. Algum tempo depois, em uma auditoria, um analista observou que, para uma autuação específica, o hash dos dados armazenados no sistema receptor não correspondia ao hash contido no pacote assinado inicialmente, embora a verificação da assinatura digital tivesse sido bem-sucedida.\nA partir da situação hipotética apresentada no texto 6A3, considerando especificamente os resultados de verificação do hash e da assinatura digital pela auditoria, assinale a opção que apresenta, respectivamente, o pilar da segurança da informação que foi comprometido e o pilar que foi garantido.",
+        "alternativas": [
+            "não repúdio e autenticidade.",
+            "não repúdio e disponibilidade.",
+            "autenticidade e integridade.",
+            "integridade e não repúdio.",
+            "disponibilidade e integridade."
+        ],
+        "gabarito": "integridade e não repúdio."
+    },
+    {
+        "id": 11,
+        "enunciado": "Assinale a alternativa correta sobre o princípio da confidencialidade no contexto da segurança da informação aplicada ao uso da Internet em ambientes educacionais:",
+        "alternativas": [
+            "Garante que apenas usuários autenticados e autorizados tenham acesso aos dados transmitidos ou armazenados em serviços de rede.",
+            "Assegura que os dados não sofram alterações durante a transmissão em redes públicas.",
+            "Refere-se à disponibilidade contínua dos serviços online, mesmo diante de falhas técnicas.",
+            "Consiste na rastreabilidade das ações dos usuários em sistemas conectados à Internet.",
+            "Relaciona-se à redundância de enlaces de comunicação para evitar indisponibilidade."
+        ],
+        "gabarito": "Garante que apenas usuários autenticados e autorizados tenham acesso aos dados transmitidos ou armazenados em serviços de rede."
+    },
+    {
+        "id": 12,
+        "enunciado": "Considere um cenário hipotético em que um invasor explorou vulnerabilidades no sistema de informação de um órgão público e obteve acesso não autorizado a dados pessoais. Nenhum dado foi modificado e os registros de log indicam as operações de consulta feitas pelo invasor. Esse cenário evidencia uma violação de qual princípio de segurança da informação?",
+        "alternativas": [
+            "Integridade.",
+            "Disponibilidade.",
+            "Confidencialidade.",
+            "Acurácia."
+        ],
+        "gabarito": "Confidencialidade."
+    },
+    {
+        "id": 13,
+        "enunciado": "Analise as afirmativas abaixo:\n1. Permissões de acesso em sistemas de informação estão relacionadas ao atributo da informação da disponibilidade, uma vez que as permissões certas garantem que as informações estejam disponíveis para quem precisa no tempo certo.\n2. Afirmar que uma informação é íntegra implica em poder dizer que ela é confiável e autêntica, e que não sofreu qualquer tipo de modificação que corrompa sua integridade.\n3. A Confidencialidade visa limitar quem pode visualizar um determinado dado ou informação, preservando a privacidade de dados e informações, e protegendo aqueles que forem sigilosos a pessoas com alçada para tal.\nAssinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "É correta apenas a afirmativa 3.",
+            "São corretas apenas as afirmativas 1 e 2.",
+            "São corretas apenas as afirmativas 1 e 3.",
+            "São corretas apenas as afirmativas 2 e 3.",
+            "São corretas as afirmações 1, 2 e 3."
+        ],
+        "gabarito": "É correta apenas a afirmativa 3."
+    },
+    {
+        "id": 14,
+        "enunciado": "À luz das normas ISO/IEC 27000 e 27001, assinale a afirmativa correta.",
+        "alternativas": [
+            "Segundo a ISO/IEC 27000:2018, a adoção de controles técnicos é suficiente para assegurar a segurança da informação, desde que os sistemas estejam corretamente configurados e atualizados.",
+            "De acordo com a ISO/IEC 27001, a aplicação de práticas de segurança da informação está diretamente relacionada ao grau de exposição externa dos sistemas, sendo menos relevante em ambientes internos isolados.",
+            "Conforme a ISO/IEC 27001, a segurança da informação concentra-se prioritariamente na proteção de dados digitais armazenados em sistemas computacionais, sendo os demais tipos de informação tratados de forma complementar.",
+            "De acordo com a ISO/IEC 27000:2018, a segurança da informação envolve a preservação da confidencialidade, integridade e disponibilidade da informação, podendo também abranger outras propriedades, como autenticidade, responsabilização e não repúdio, conforme o contexto organizacional."
+        ],
+        "gabarito": "De acordo com a ISO/IEC 27000:2018, a segurança da informação envolve a preservação da confidencialidade, integridade e disponibilidade da informação, podendo também abranger outras propriedades, como autenticidade, responsabilização e não repúdio, conforme o contexto organizacional."
+    },
+    {
+        "id": 15,
+        "enunciado": "A segurança da informação é sustentada por um conjunto de propriedades fundamentais que orientam a proteção dos ativos de uma organização. Sobre essas propriedades, assinale a alternativa INCORRETA.",
+        "alternativas": [
+            "A confidencialidade garante que a informação seja acessível apenas por pessoas, entidades ou processos devidamente autorizados, protegendo seu conteúdo contra divulgação não autorizada.",
+            "A integridade assegura que a informação não seja alterada ou destruída de maneira não autorizada, preservando sua exatidão e completude ao longo de todo o seu ciclo de vida.",
+            "A disponibilidade determina que a informação e os recursos associados estejam acessíveis e utilizáveis sob demanda por entidades autorizadas, no momento em que forem necessários.",
+            "A irretratabilidade (não repúdio) garante que o emissor de uma mensagem não possa negar sua autoria, sendo obtida tipicamente por meio de assinaturas digitais baseadas em criptografia simétrica.",
+            "A autenticidade assegura que uma entidade é de fato quem afirma ser, sendo um requisito essencial para o estabelecimento de comunicações seguras e para o controle de acesso baseado em identidade."
+        ],
+        "gabarito": "A irretratabilidade (não repúdio) garante que o emissor de uma mensagem não possa negar sua autoria, sendo obtida tipicamente por meio de assinaturas digitais baseadas em criptografia simétrica."
+    },
+    {
+        "id": 16,
+        "enunciado": "A respeito dos princípios de segurança da informação, julgue o item a seguir.\nA confidencialidade garante que a informação não seja alterada de forma indevida durante seu armazenamento ou sua transmissão.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 17,
+        "enunciado": "Bob envia uma carta física pelos correios para Alice. Ao chegar na casa de Alice, sua irmã, Carol, coloca a carta contra a luz e vê o que tem escrito nela.\nDe acordo com a ABNT NBR ISO/IEC 27000:2018, qual é o princípio de segurança da informação infringido por Carol:",
+        "alternativas": [
+            "Integridade.",
+            "Autenticidade.",
+            "Irretratabilidade.",
+            "Disponibilidade.",
+            "Confidencialidade."
+        ],
+        "gabarito": "Confidencialidade."
+    },
+    {
+        "id": 18,
+        "enunciado": "Acerca dos princípios, das políticas e dos conceitos fundamentais de segurança da informação, julgue o item seguinte.\nA ocorrência de alteração não autorizada em cadastro funcional, ainda que o sistema permaneçaacessível aos usuários, caracteriza comprometimento da disponibilidade da informação, e não de sua integridade.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 19,
+        "enunciado": "Considere um sistema de troca segura de informações em que um usuário utiliza a chave pública do destinatário para cifrar uma mensagem enviada pela rede.\nNesse modelo de criptografia,",
+        "alternativas": [
+            "a confidencialidade é garantida porque apenas o destinatário possui a chave privada correspondente.",
+            "o mesmo par de chaves é utilizado para cifrar grandes volumes de dados.",
+            "a necessidade de algoritmos simétricos é eliminada.",
+            "a chave pública deve ser mantida em sigilo absoluto.",
+            "a integridade da mensagem é assegurada automaticamente pela criptografia."
+        ],
+        "gabarito": "a confidencialidade é garantida porque apenas o destinatário possui a chave privada correspondente."
+    },
+    {
+        "id": 20,
+        "enunciado": "Considere que, em determinado órgão público, tenha-se identificado que os servidores utilizavam senhas fracas, sem que houvesse registro de acesso indevido ou dano às informações.\nEssa situação, segundo os conceitos de segurança da informação, caracteriza",
+        "alternativas": [
+            "um risco inexistente, por ausência de dano.",
+            "um incidente de segurança da informação.",
+            "um impacto operacional já materializado.",
+            "uma ameaça externa concretizada.",
+            "uma vulnerabilidade ainda não explorada."
+        ],
+        "gabarito": "uma vulnerabilidade ainda não explorada."
+    },
+    {
+        "id": 21,
+        "enunciado": "A segurança da informação baseia-se em pilares fundamentais que garantem a proteção dos ativos digitais contra ameaças internas e externas. Considerando as técnicas de criptografia e os planos de contingência, analise as afirmativas a seguir:\nI.A criptografia de chave assimétrica utiliza um par de chaves matematicamente relacionadas, denominadas chave pública e chave privada, para realizar os processos de cifragem e decifragem de dados.\nII.O backup do tipo incremental realiza a cópia exclusivamente de todos os arquivos do sistema de armazenamento, independentemente de terem sido alterados ou não desde a última execução completa.\nIII.O princípio da integridade garante que a informação não seja modificada ou corrompida de forma não autorizada durante o seu armazenamento ou trânsito por redes de comunicação públicas.\nEstá correto o que se afirma em:",
+        "alternativas": [
+            "II apenas.",
+            "I e II apenas.",
+            "I, II e III.",
+            "I e III apenas."
+        ],
+        "gabarito": "I e III apenas."
+    },
+    {
+        "id": 22,
+        "enunciado": "Durante uma auditoria de conformidade em Segurança da Informação, um Auditor analisa os procedimentos de backup e os mecanismos de redundância de hardware de um órgão público. Essas salvaguardas são implementadas para garantir que, mesmo diante de falhas técnicas ou desastres, os dados possam ser acessados pelos usuários autorizados e que seu conteúdo não tenha sofrido modificações indesejadas durante o incidente.\nDe acordo com a norma ISO/IEC 27002, os princípios da segurança da informação que visam assegurar, respectivamente, o acesso oportuno à informação e a preservação da exatidão dos dados são os de",
+        "alternativas": [
+            "confidencialidade e autenticidade.",
+            "disponibilidade e integridade.",
+            "não repúdio e irretratabilidade.",
+            "elasticidade e escalabilidade.",
+            "governança e compliance."
+        ],
+        "gabarito": "disponibilidade e integridade."
+    },
+    {
+        "id": 23,
+        "enunciado": "Durante o período de fechamento da folha de pagamento de uma prefeitura, o servidor principal que hospeda o sistema de Recursos Humanos sofre uma pane de hardware, ficando inoperante por 4 horas. Apesar de os dados não terem sido alterados ou acessados por pessoas indevidas, os servidores da Secretaria de Administração ficaram impossibilitadosde realizar suas tarefas.\nNesse cenário, houve uma violação direta de qual princípio fundamental da segurança da informação?",
+        "alternativas": [
+            "Integridade.",
+            "Autenticidade.",
+            "Disponibilidade.",
+            "Irretratabilidade.",
+            "Confidencialidade."
+        ],
+        "gabarito": "Disponibilidade."
+    },
+    {
+        "id": 24,
+        "enunciado": "Relacione os conceitos de Segurança da Informação às respectivas definições, quando houver.\n1. Confidencialidade\n2. Integridade\n3. Disponibilidade\n4. Autenticação\n5. Autorização\n( ) Propriedade de proteger a exatidão da informação.\n( ) Processo de concessão de permissões.\n( ) Propriedade em que a informação não é disponibilizada ou divulgada para pessoas, entidades ou processos não autorizados.\n( ) Propriedade de ser acessível e utilizável sob demanda por uma entidade autorizada.\nAssinale a opção que indica a relação correta, na ordem apresentada",
+        "alternativas": [
+            "1 – 4 – 5 – 2.",
+            "2 – 4 – 1 – 3.",
+            "4 – 5 – 3 – 1.",
+            "2 – 5 – 1 – 3.",
+            "4 – 2 – 3 – 1."
+        ],
+        "gabarito": "2 – 5 – 1 – 3."
+    },
+    {
+        "id": 25,
+        "enunciado": "A equipe de TI do TCE-PI constatou que um sistema corporativo, durante a hora de maior movimento, tornava-se instável, pois o servidor não processava todas as requisições que recebia naquele período.\nAssinale a opção que indica o principal aspecto de segurança da informação que não está sendo plenamente atendido por esse sistema.",
+        "alternativas": [
+            "Integridade.",
+            "Não repúdio.",
+            "Autenticidade.",
+            "Disponibilidade.",
+            "Confidencialidade."
+        ],
+        "gabarito": "Disponibilidade."
+    },
+    {
+        "id": 26,
+        "enunciado": "Marque a opção que é um exemplo de medida para garantir a disponibilidade de dados.",
+        "alternativas": [
+            "Assinaturas Digitais.",
+            "Criptografia.",
+            "Túnel Seguro.",
+            "RAID (Redundant Array of Independent Disks)."
+        ],
+        "gabarito": "RAID (Redundant Array of Independent Disks)."
+    },
+    {
+        "id": 27,
+        "enunciado": "Julgue o próximo item, no que se refere à segurança da informação e às políticas de segurança.\nConforme o princípio da confidencialidade, deve haver meios de proteger as informações proprietárias, bem como a privacidade de informações pessoais.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 28,
+        "enunciado": "Julgue o próximo item, no que se refere à segurança da informação e às políticas de segurança.\nA integridade dos dados é indiferente à alteração de dados durante o trânsito.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 29,
+        "enunciado": "Qual conceito é um dos fundamentos da segurança da informação e refere-se à garantia de que as informações estejam acessíveis apenas para aqueles autorizados?",
+        "alternativas": [
+            "Disponibilidade.",
+            "Autenticidade.",
+            "Confidencialidade.",
+            "Não repúdio.",
+            "Integridade."
+        ],
+        "gabarito": "Confidencialidade."
+    },
+    {
+        "id": 30,
+        "enunciado": "Julgue o item a seguir, a respeito de atributos da informação, gestão de riscos em segurança da informação, gestão de segurança da informação, controles de segurança cibernética e privacidade.\nO não repúdio pressupõe que os dados sejam acessíveis e alteráveis por qualquer pessoa autorizada.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 31,
+        "enunciado": "Qual dos seguintes conceitos de segurança visa garantir que os usuários tenham acesso apenas aos recursos estritamente necessários para suas funções em ambiente corporativo?",
+        "alternativas": [
+            "Princípio do menor privilégio.",
+            "Acesso irrestrito.",
+            "Firewall redundante.",
+            "Segmentação lógica.",
+            "Autenticação multifator."
+        ],
+        "gabarito": "Princípio do menor privilégio."
+    },
+    {
+        "id": 32,
+        "enunciado": "O fundamento da segurança da informação que assegura que o nível necessário de sigilo seja aplicado em cada elemento de processamento de dados e que impede a divulgação não autorizada de dados se chama:",
+        "alternativas": [
+            "Visibilidade.",
+            "Integralidade.",
+            "Acessibilidade.",
+            "Disponibilidade.",
+            "Confidencialidade."
+        ],
+        "gabarito": "Confidencialidade."
+    },
+    {
+        "id": 33,
+        "enunciado": "A segurança da informação baseia-se em técnicas, conceitos, procedimentos e mapeamentos que visam identificar, organizar e proteger as informações, com o objetivo de garantir sua segurança. Para isso, a segurança da informação é assegurada por meio de diversos princípios. Um desses princípios garante que apenas pessoas autorizadas possam acessar informações sensíveis. A violação desse princípio ocorre quando há o acesso não autorizado a dados privados. O método mais comum para garantir esse princípio é a autenticação, geralmente feita por meio de senhas ou códigos de segurança, que restringem o acesso às informações. O trecho define o conceito do Princípio de:",
+        "alternativas": [
+            "Integridade.",
+            "Confidencialidade.",
+            "Disponibilidade.",
+            "Autenticidade.",
+            "Irrevogabilidade."
+        ],
+        "gabarito": "Confidencialidade."
+    },
+    {
+        "id": 34,
+        "enunciado": "A gestão da segurança da informação e seus riscos envolve uma _________ de gestão de risco, na qual é importante distinguir entre os conceitos de identificar riscos e gerenciar riscos. Nesse contexto, são abordados os incidentes de segurança da informação, que são eventos adversos que podem comprometer a segurança da informação, resultando na _________ de um ou mais dos seus princípios fundamentais: confidencialidade, integridade, ____________ e não repúdio.\nAssinale a alternativa que preenche, correta e respectivamente, as lacunas do trecho acima.",
+        "alternativas": [
+            "meta – aplicação – manutenibilidade.",
+            "meta – perda – legalidade.",
+            "infraestrutura – perda – disponibilidade.",
+            "proposta – prática – cordialidade.",
+            "proposta – efetivação – funcionalidade."
+        ],
+        "gabarito": "infraestrutura – perda – disponibilidade."
+    },
+    {
+        "id": 35,
+        "enunciado": "Característica imprescindível e altamente utilizada na área da Segurança da Informação, responsável por assegurar que os dados, informações e sistemas permaneçam precisos e imutáveis, não sofrendo alterações de forma indevida ou sem autorização. Essa característica garante que as informações se mantenham consistentes, completas e confiáveis, durante todo o seu ciclo de existência, desde sua entrada até o seu armazenamento e transmissão. Qual é essa característica?",
+        "alternativas": [
+            "Imutabilidade.",
+            "Confidencialidade.",
+            "Integridade.",
+            "Acessibilidade."
+        ],
+        "gabarito": "Integridade."
+    },
+    {
+        "id": 36,
+        "enunciado": "É um dos conceitos indispensáveis na área da Segurança da Informação (SI), caracterizando-se pela capacidade de garantir que a informação, sistemas e dados da organização estarão acessíveis e utilizáveis quando necessário, por usuários autorizados, sem interrupções inesperadas ou falhas, permitindo que estes usuários usem os recursos com autorização. Qual é esse conceito?",
+        "alternativas": [
+            "Integridade.",
+            "Disponibilidade.",
+            "Confidencialidade.",
+            "Acessibilidade."
+        ],
+        "gabarito": "Disponibilidade."
+    },
+    {
+        "id": 37,
+        "enunciado": "Dado o avanço das tecnologias no mundo moderno, faz-se necessário investir na área da segurança da informação, pois há constantes ataques virtuais. Desta forma, entende-se por segurança da informação, o conjunto de práticas, políticas, processos e tecnologias utilizadas para proteger os dados e informações contra acessos não autorizados, alterações, destruições ou roubos. O objetivo principal é assegurar que a informação seja protegida em termos de sua integridade, confidencialidade e disponibilidade. O que se entende por integridade?",
+        "alternativas": [
+            "Assegurar que os usuários e sistemas podem ser responsabilizados por suas ações (logs e auditorias) e atitudes.",
+            "Assegurar que as informações não sejam alteradas ou corrompidas de forma indevida, acidental ou maliciosa.",
+            "Garantir que apenas pessoas ou sistemas autorizados possam acessar as informações, mantendo os dados seguros e disponíveis.",
+            "Garantir que a informação e os sistemas estejam acessíveis para uso legítimo sempre que necessário, provendo seus serviços continuamente."
+        ],
+        "gabarito": "Assegurar que as informações não sejam alteradas ou corrompidas de forma indevida, acidental ou maliciosa."
+    },
+    {
+        "id": 38,
+        "enunciado": "Julgue o item a seguir, relativo a segurança da informação.\nConsidere que, ao realizar uma transação financeira online com o seu banco, um cliente teve seus dados divulgados, sem autorização, a um terceiro de má-fé, que obteve o número do cartão de crédito e o CPF do cliente. Nessa situação, foi afetada a confiabilidade da segurança da informação, segundo a qual somente indivíduos aprovados devem poder acessar as informações transacionadas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 39,
+        "enunciado": "O XYZ Digital, sistema nacional de agendamento de serviços públicos, acessado via desktop e dispositivos móveis, que exige autenticação de cidadãos para solicitação de documentos e consultas, passou por auditoria de segurança após tentativas de acesso indevido e um incidente de autenticação indevida. Após o incidente, constatou-se a utilização de single sign-on (SSO – autenticação única), tendo sido providenciadas a autenticação forte com multifator (MFA) e a implementação de OpenID Connect.\nA partir do caso hipotético precedente, julgue o item subsequente.\nA alteração das informações de usuário por atacantes durante o processo de autenticação no XYZ Digital representa uma violação do princípio de confidencialidade.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 40,
+        "enunciado": "Julgue o próximo item, a respeito de princípios de segurança da informação e de criptografia.\nA confidencialidade tem como princípio o uso de técnica criptográfica que garanta que o conteúdo da informação não seja compreensível para quem não esteja autorizado a acessá-la.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 41,
+        "enunciado": "Julgue o próximo item, a respeito de princípios de segurança da informação e de criptografia.\nSegundo o princípio da integridade, uma informação deve sempre estar disponível no momento em que se necessite dela.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 42,
+        "enunciado": "No contexto da segurança da informação, a confidencialidade",
+        "alternativas": [
+            "é garantida no momento em que o remetente cifra a mensagem com uma chave privada da infraestrutura PKI.",
+            "garante que somente pessoas autorizadas tenham acesso ao arquivo cifrado.",
+            "não é suficiente para garantir o não-repúdio.",
+            "é garantida somente por algoritmos de criptografia irreversíveis.",
+            "garante que a informação esteja disponível para as pessoas interessadas."
+        ],
+        "gabarito": "não é suficiente para garantir o não-repúdio."
+    },
+    {
+        "id": 43,
+        "enunciado": "Assinale a opção em que são apresentados os princípios da segurança da informação que foram violados, respectivamente, nas seguintes situações hipotéticas: i) um funcionário de uma agência bancária acessou informações pessoais de clientes, como saldos e dados de contato, sem justificativa profissional, utilizando essas informações para fins pessoais, compartilhandoas com terceiros; ii) durante o processamento de uma transferência bancária, um funcionário mal-intencionado alterou deliberadamente o valor da transação, o que resultou em registros inconsistentes e potencial perda financeira para o banco.",
+        "alternativas": [
+            "autenticidade e irretratabilidade.",
+            "irretratabilidade e autenticidade.",
+            "confidencialidade e integridade.",
+            "integridade e não repúdio.",
+            "não repúdio e confidencialidade."
+        ],
+        "gabarito": "confidencialidade e integridade."
+    },
+    {
+        "id": 44,
+        "enunciado": "No que diz respeito aos conceitos de segurança da informação e aos tipos de ameaças, julgue o item seguinte.\nNo contexto da segurança da informação, o princípio disponibilidade significa que os dados e os sistemas devem estar acessíveis e operacionais quando necessários, minimizando impactos causados por falhas ou por ataques.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 45,
+        "enunciado": "No que diz respeito aos conceitos de segurança da informação e aos tipos de ameaças, julgue o item seguinte.\nIntegridade é o princípio da segurança da informação que se refere à proteção contra acessos não autorizados, garantindo que apenas usuários legítimos possam visualizar os dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 46,
+        "enunciado": "Acerca da elaboração de políticas de segurança de rede e da implementação de diretrizes de segurança de rede, julgue o item seguinte.\nNa implementação de diretrizes de segurança de rede, uma abordagem estratégica para aumentar a resiliência da rede contra ataques sofisticados é utilizar técnicas de microssegmentação para controlar rigorosamente o tráfego lateral na rede e aplicar políticas de acesso fundamentadas no princípio do menor privilégio.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 47,
+        "enunciado": "Qual dos conceitos abaixo está relacionado ao princípio da segurança da informação que garante que os dados não sejam alterados sem autorização?",
+        "alternativas": [
+            "Disponibilidade.",
+            "Confidencialidade.",
+            "Integridade.",
+            "Falsidade.",
+            "Não repúdio."
+        ],
+        "gabarito": "Integridade."
+    },
+    {
+        "id": 48,
+        "enunciado": "A rede de dados interliga equipamentos e permite uma série de recursos para serem aproveitados pelos desenvolvedores de sistemas. Considerando essa informação, julgue o item seguinte.\nA tríade da segurança da informação – confidencialidade, integridade e disponibilidade – orienta a proteção de ativos digitais.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 49,
+        "enunciado": "Como os dados são importantes para as empresas, a segurança deles é fundamental para garantir o sucesso dos negócios. A partir dessa informação, julgue o item seguinte.\nA tríade da segurança da informação – confidencialidade, integridade e disponibilidade – é o alicerce para a definição de políticas e controles de segurança.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 50,
+        "enunciado": "Acerca da segurança da informação, julgue o item seguinte.\nA confidencialidade é o único princípio fundamental da segurança da informação, pois protege os dados contra acessos não autorizados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 51,
+        "enunciado": "Qual das alternativas descreve corretamente o conceito de disponibilidade em segurança da informação?",
+        "alternativas": [
+            "Garantir que as informações sejam protegidas contra roubo e acesso não autorizado.",
+            "Garantir que as informações sejam armazenadas de forma segura, mesmo que o sistema falhe.",
+            "Garantir que todos os dados sejam criptografados antes de serem enviados.",
+            "Garantir que os dados possam ser auditados para detectar acessos indevidos.",
+            "Garantir que as informações e sistemas estejam disponíveis para uso sempre que necessário, sem interrupções."
+        ],
+        "gabarito": "Garantir que as informações e sistemas estejam disponíveis para uso sempre que necessário, sem interrupções."
+    },
+    {
+        "id": 52,
+        "enunciado": "A segurança da informação é uma área fundamental da tecnologia que visa proteger dados e sistemas contra acessos não autorizados, alterações indevidas, perda ou indisponibilidade. Para garantir essa proteção, a segurança da informação se baseia em um conjunto de princípios amplamente reconhecidos. Considerando esse cenário, qual das alternativas abaixo representa corretamente o princípio da confidencialidade?",
+        "alternativas": [
+            "Garantir que as informações sejam acessíveis sempre que necessário.",
+            "Garantir que as informações não possam ser alteradas ou destruídas.",
+            "Garantir que as informações estejam acessíveis apenas a usuários autorizados.",
+            "Garantir que as informações sejam auditadas regularmente.",
+            "Garantir que todas as comunicações sejam criptografadas."
+        ],
+        "gabarito": "Garantir que as informações estejam acessíveis apenas a usuários autorizados."
+    },
+    {
+        "id": 53,
+        "enunciado": "A segurança da informação tem como base os denominados pilares da segurança da informação. A capacidade de um sistema de impedir que usuários não autorizados “vejam” determinada informação que foi delegada somente a usuários autorizados a vê-la é definição de qual pilar:",
+        "alternativas": [
+            "Integridade.",
+            "Disponibilidade.",
+            "Confidencialidade.",
+            "Veracidade.",
+            "Privacidade."
+        ],
+        "gabarito": "Confidencialidade."
+    },
+    {
+        "id": 54,
+        "enunciado": "A segurança da informação é um dos pilares da proteção de dados pessoais, abordada por frameworks internacionais e boas práticas que influenciam diretamente a conformidade de organizações públicas e privadas. Com base nas diretrizes de segurança da informação, assinale a alternativa correta.",
+        "alternativas": [
+            "O modelo conhecido como a tríade CIA estabelece os princípios da confidencialidade, da integridade e da disponibilidade como fundamentos essenciais para a proteção da informação.",
+            "A confidencialidade da informação é garantida exclusivamente por medidas físicas de controle de acesso, como trancas e barreiras estruturais.",
+            "A integridade da informação refere-se à sua proteção contra vazamentos, garantindo que somente usuários autorizados possam acessá-la.",
+            "A disponibilidade de dados é assegurada unicamente por políticas de backup em mídia física, e não se aplicam a ambientes de nuvem.",
+            "A adoção de boas práticas de segurança da informação é obrigatória apenas quando a organização opera com dados sensíveis."
+        ],
+        "gabarito": "O modelo conhecido como a tríade CIA estabelece os princípios da confidencialidade, da integridade e da disponibilidade como fundamentos essenciais para a proteção da informação."
+    },
+    {
+        "id": 55,
+        "enunciado": "São aspectos básicos da Segurança da Informação:\nI. Invencionice.\nII. Preservação da disponibilidade.\nIII. Integridade.\nIV. Confidencialidade da informação.\nV. Autenticidade.\nQuais estão corretos?",
+        "alternativas": [
+            "Apenas I e III.",
+            "Apenas I, II e IV.",
+            "Apenas II, III e V.",
+            "Apenas II, IV e V.",
+            "Apenas II, III, IV e V."
+        ],
+        "gabarito": "Apenas II, III, IV e V."
+    },
+    {
+        "id": 56,
+        "enunciado": "Os princípios da segurança da informação são apresentados na tríade CIA, que representa um modelo amplamente aceito na indústria para a proteção de sistemas, destacando os três principais objetivos da segurança da informação. Assinale a alternativa que apresenta o objetivo responsável por garantir que a informação esteja acessível, sempre que necessário, para os usuários autorizados.",
+        "alternativas": [
+            "Ativação.",
+            "Confidencialidade.",
+            "Disponibilidade.",
+            "Oportunidade.",
+            "Integridade."
+        ],
+        "gabarito": "Disponibilidade."
+    },
+    {
+        "id": 57,
+        "enunciado": "A segurança de redes é um assunto abrangente e inclui inúmeros tipos de problemas. Em sua forma mais simples, preocupa-se em impedir que pessoas mal- intencionadas leiam ou, pior ainda, modifiquem secretamente mensagens enviadas a outros destinatários.\nConsiderando os princípios clássicos da segurança, formulados em 1975 por Jerome Saltzer e Michael Schroeder, é correto afirmar que o princípio",
+        "alternativas": [
+            "da economia de mecanismo costuma ser parafraseado como o princípio da simplicidade e indica que sistemas complexos tendem a ter menos bugs do que sistemas simples.",
+            "da separação de privilégios afirma que é melhor ter o sistema como um único componente com o POLA (Principle Of Least Authority) que muitos componentes com todos os privilégios combinados.",
+            "do projeto aberto afirma, de modo claro e simples, que o projeto deve ser secreto e generaliza o que é conhecido como princípio de Kerckhoffs da criptografia.",
+            "da menor autoridade, frequentemente conhecido como POLA (Principle Of Least Authority), afirma que qualquer (sub) sistema deve ter autoridade (privilégio) suficiente para executar sua tarefa e nada mais."
+        ],
+        "gabarito": "da menor autoridade, frequentemente conhecido como POLA (Principle Of Least Authority), afirma que qualquer (sub) sistema deve ter autoridade (privilégio) suficiente para executar sua tarefa e nada mais."
+    },
+    {
+        "id": 58,
+        "enunciado": "Em um ambiente digital cada vez mais conectado, informações pessoais e empresariais são protegidas contra acessos indevidos e alterações não autorizadas. Ao acessar um banco online ou trocar e-mails com informações sigilosas, dois princípios fundamentais garantem a segurança desses dados: confidencialidade e integridade.\nQual é a diferença entre esses dois conceitos na segurança da informação?",
+        "alternativas": [
+            "Confidencialidade protege contra acessos não autorizados e ataques de interceptação, enquanto integridade impede modificações indevidas e falsificação de dados.",
+            "Confidencialidade garante que os dados estejam disponíveis sempre que necessários, enquanto integridade protege contra perdas acidentais de informações.",
+            "Confidencialidade assegura que as informações sejam criptografadas, enquanto integridade garante que dados sejam armazenados de forma redundante para evitar perdas.",
+            "Confidencialidade protege dados apenas em trânsito, enquanto integridade atua exclusivamente sobre arquivos armazenados.",
+            "Confidencialidade e integridade são conceitos equivalentes e não possuem diferenças práticas."
+        ],
+        "gabarito": "Confidencialidade protege contra acessos não autorizados e ataques de interceptação, enquanto integridade impede modificações indevidas e falsificação de dados."
+    },
+    {
+        "id": 59,
+        "enunciado": "Qual das alternativas abaixo corresponde a um princípio da segurança da informação que pode ser garantido pelo uso de hash criptográfico?",
+        "alternativas": [
+            "Disponibilidade.",
+            "Confidencialidade.",
+            "Visibilidade.",
+            "Rastreabilidade.",
+            "Integridade."
+        ],
+        "gabarito": "Integridade."
+    },
+    {
+        "id": 60,
+        "enunciado": "A segurança da informação é composta por um conjunto de práticas e políticas destinadas a proteger dados e sistemas contra acessos não autorizados, falhas e ataques. Sobre os conceitos fundamentais de segurança da informação e os elementos relacionados a políticas, vulnerabilidades e ameaças, assinale a alternativa correta.",
+        "alternativas": [
+            "Uma ameaça é definida como uma falha interna ou erro de configuração em um sistema, independentemente da existência de um agente malicioso.",
+            "A confidencialidade refere-se à garantia de que os dados estarão sempre disponíveis para todos os usuários autorizados ou não.",
+            "As políticas de segurança da informação são documentos opcionais e informais, geralmente criados por desenvolvedores sem necessidade de aprovação formal.",
+            "Uma vulnerabilidade é uma fraqueza em um sistema que pode ser explorada por uma ameaça para comprometer a segurança da informação.",
+            "A integridade da informação está relacionada exclusivamente à proteção contra ataques de negação de serviço (DoS)."
+        ],
+        "gabarito": "A integridade da informação está relacionada exclusivamente à proteção contra ataques de negação de serviço (DoS)."
+    },
+    {
+        "id": 61,
+        "enunciado": "Sobre proteção de dados pessoais, avalie as seguintes afirmações sobre seus fundamentos:\nI. O respeito à privacidade.\nII. A inviolabilidade da intimidade, da honra e da imagem.\nIII. A autodeterminação informativa.\nIV. Compartilhamento irrestrito de dados.",
+        "alternativas": [
+            "Apenas a IV está correta.",
+            "I e II estão corretas.",
+            "Apenas II está correta.",
+            "I, II e III estão corretas.",
+            "Apenas III está correta."
+        ],
+        "gabarito": "I, II e III estão corretas."
+    },
+    {
+        "id": 62,
+        "enunciado": "Um princípio da segurança de informação é cumprir a tríade CIA, que define critérios para confidencialidade, integridade e disponibilidade de dados. Em relação à tríade CIA, analise as assertivas a seguir:\nI. Confidencialidade – assegura que o nível essencial de sigilo seja aplicado a determinada informação.\nII. Integridade – especifica que quem possui acesso a determinada informação deve ser íntegro e não divulgar dados a outros não autorizados.\nIII. Disponibilidade – define critérios para permitir que os dados sejam acessíveis mesmo em caso de falha.\nQuais estão corretas?",
+        "alternativas": [
+            "Apenas I.",
+            "Apenas I e II.",
+            "Apenas I e III.",
+            "Apenas II e III.",
+            "I, II e III."
+        ],
+        "gabarito": "Apenas I e III."
+    },
+    {
+        "id": 63,
+        "enunciado": "A segurança da informação é sustentada por um conjunto de princípios básicos que formam o alicerce para a proteção de dados e sistemas contra ameaças. Esses pilares orientam a implementação de políticas, processos e tecnologias, e a sua correta compreensão é vital para a criação de um ambiente digital seguro. Qualquer falha em garantir um desses princípios pode comprometer toda a estrutura de segurança de uma organização ou de um indivíduo. Sobre os pilares da segurança da informação, analise as afirmativas a seguir.\nI.O princípio da Integridade assegura que a informação seja mantida em seu estado original e fidedigno, protegida contra alterações não autorizadas, garantindo sua exatidão e completude ao longo de todo o seu ciclo de vida.\nII.O princípio da Confidencialidade tem por objetivo garantir que os sistemas e os dados estejam sempre disponíveis e acessíveis para os usuários autorizados, sendo este o pilar diretamente afetado por um ataque de negação de serviço (DDoS).\nIII.O princípio da Disponibilidade refere-se à capacidade de um sistema de provar a autoria e a ocorrência de uma determinada ação ou transação, de modo que o autor não possa negá-la posteriormente, sendo garantido por meio de assinaturas digitais.\nEstá correto o que se afirma em:",
+        "alternativas": [
+            "II apenas.",
+            "I apenas.",
+            "I, II e III.",
+            "I e III apenas."
+        ],
+        "gabarito": "I apenas."
+    },
+    {
+        "id": 64,
+        "enunciado": "No contexto da segurança da informação na MSGÁS, a disponibilidade como um dos pilares fundamentais, em relação a disponibilidade assinale a alternativa correta:",
+        "alternativas": [
+            "Garantir que os sistemas e dados estejam acessíveis para usuários autorizados quando necessário.",
+            "Manter backups atualizados em localidades geograficamente distantes.",
+            "Proteger a divulgação de dados sensíveis a pessoas ou sistemas não autorizados.",
+            "Assegurar que as informações não sejam alteradas de forma não autorizada."
+        ],
+        "gabarito": "Garantir que os sistemas e dados estejam acessíveis para usuários autorizados quando necessário."
+    },
+    {
+        "id": 65,
+        "enunciado": "Considere as seguintes afirmações sobre integridade, disponibilidade e confidencialidade de dados:\nI. A integridade refere-se à exatidão e consistência da informação ao longo de seu ciclo de vida.\nII. A disponibilidade garante que os dados estejam acessíveis apenas por usuários não autorizados.\nIII. A confidencialidade assegura que informações só sejam acessadas por pessoas autorizadas.\nIV. A tríade CIA (Confidentiality, Integrity, Availability) é um princípio central da segurança da informação.\nAssinale a alternativa correta:",
+        "alternativas": [
+            "Apenas as assertivas I e II estão corretas.",
+            "Apenas as assertivas I, III e IV estão corretas.",
+            "As assertivas I, II, III e IV estão corretas.",
+            "Apenas as assertivas II e IV estão corretas."
+        ],
+        "gabarito": "Apenas as assertivas I, III e IV estão corretas."
+    },
+    {
+        "id": 66,
+        "enunciado": "Em ambientes organizacionais que lidam com dados sensíveis, as políticas de segurança da informação são estruturadas a partir de três propriedades essenciais:\nconfidencialidade, integridade e disponibilidade, que orientam as políticas de proteção de dados. Analise as afirmativas a seguir sobre esses conceitos:\nI.Confidencialidade é a garantia de que a informação só será acessada por pessoas ou sistemas devidamente autorizados.\nII.Integridade refere-se à salvaguarda da exatidão e completude da informação e dos métodos de processamento, garantindo que não houve alteração indevida.\nIII.Disponibilidade significa que a informação deve ser tornada pública na internet para que qualquer pessoa possa acessá-la a qualquer momento.\nEstá correto o que se afirma em:",
+        "alternativas": [
+            "II e III, apenas.",
+            "I e III, apenas.",
+            "III, apenas.",
+            "I e II, apenas.",
+            "I, II e III."
+        ],
+        "gabarito": "I e II, apenas."
+    },
+    {
+        "id": 67,
+        "enunciado": "A segurança da informação é baseada em quatro pilares fundamentais que garantem a proteção dos dados em uma organização, a confidencialidade, integridade, disponibilidade e autenticidade. Marque a alternativa CORRETA que corresponde ao pilar da segurança da informação é violado quando um invasor modifica os dados de um sistema sem autorização.",
+        "alternativas": [
+            "Disponibilidade.",
+            "Autenticidade.",
+            "Integridade.",
+            "Confidencialidade."
+        ],
+        "gabarito": "Integridade."
+    },
+    {
+        "id": 68,
+        "enunciado": "Este princípio da segurança da informação garante que a informação seja acessível e utilizável sob demanda por uma entidade autorizada. A sua violação pode ocorrer através de ataques de negação de serviço (DoS), que visam tornar um sistema ou recurso indisponível para seus usuários legítimos. Marque a alternativa CORRETA que corresponde ao princípio da segurança descrito.",
+        "alternativas": [
+            "Disponibilidade.",
+            "Integridade.",
+            "Confidencialidade.",
+            "Autenticidade."
+        ],
+        "gabarito": "Disponibilidade."
+    },
+    {
+        "id": 69,
+        "enunciado": "Na Segurança da Informação e Comunicação, existe uma propriedade que assegura a proteção da informação nas suas mais variadas formas contra alteração sem a permissão explícita do proprietário daquela informação. Essa propriedade é conhecida por:",
+        "alternativas": [
+            "Confidencialidade.",
+            "Autenticidade.",
+            "Disponibilidade.",
+            "Integridade."
+        ],
+        "gabarito": "Integridade."
+    },
+    {
+        "id": 70,
+        "enunciado": "Nos dias atuais, os dados representam, cada vez mais, uma matéria-prima fundamental aos negócios e ao planejamento estratégico nas empresas. Nesse sentido, a segurança de informação constitui uma série de boas práticas focadas especialmente em garantir a proteção dos dados de instituição, a mitigação dos riscos e a adequação às leis vigentes, com base em pilares. Um desses, está diretamente relacionado ao sigilo dos dados, usando o princípio básico no qual as informações são \"tratadas\" apenas pelas pessoas para as quais o acesso é fornecido. Convém destacar que esse pilar pode ser comprometido, quando é fornecido intencionalmente ou não informações a uma pessoa que não deveria ter acesso, ou quando a informação é roubada durante um ataque.\nEsse pilar da segurança da informação é conhecido por:",
+        "alternativas": [
+            "Confidencialidade.",
+            "Disponibilidade.",
+            "Integridade.",
+            "Autenticidade."
+        ],
+        "gabarito": "Confidencialidade."
+    },
+    {
+        "id": 71,
+        "enunciado": "No contexto da segurança da informação, um termo diz respeito a um dado definido como aquele que, originariamente, era relativo a uma pessoa, mas que passou por etapas que garantiram a desvinculação dele a essa pessoa. Os dados que se encontram nessa situação são essenciais para o crescimento da inteligência artificial, da internet das coisas, do aprendizado das máquinas, das cidades Inteligentes e da análise de comportamentos. Eles indicam ainda que, sempre que possível, uma organização, pública ou privada, aplica a técnica associada a esse termo aos dados pessoais, pois isso aperfeiçoa a segurança da informação na organização e gera, assim, mais confiança em seus serviços e para seus públicos.\nEsse termo é conhecido como:",
+        "alternativas": [
+            "reidentificação.",
+            "generalização.",
+            "anonimização.",
+            "pseudonimização."
+        ],
+        "gabarito": "anonimização."
+    },
+    {
+        "id": 72,
+        "enunciado": "A computação em nuvem é a disponibilidade sob demanda de recursos computacionais, que incluem armazenamento e infraestrutura, como serviços pela Internet, eliminando a necessidade de indivíduos e empresas gerenciarem os próprios recursos físicos enquanto pagam apenas pelo que usarem. Entre os tipos de implantação de computação em nuvem, duas são descritas a seguir.\nI.É definida como aquelas criadas, gerenciadas e pertencentes a uma única organização e hospedadas de modo particular nos data centers dela, geralmente conhecidos como \"no local\". Essas nuvens oferecem maior controle, segurança e gerenciamento de dados, enquanto ainda permitem que usuários internos se beneficiem de um pool compartilhado de recursos de computação, armazenamento e rede.\nII.É definida como aquelas que são executadas por provedores de serviços de nuvem de terceiros. Eles oferecem recursos de computação, armazenamento e rede pela Internet, permitindo que as empresas acessem recursos compartilhados sob demanda com base nos requisitos exclusivos e nas metas de negócios.\nEsses dois tipos de implantação são conhecidos, respectivamente, como nuvens:",
+        "alternativas": [
+            "híbridas e públicas.",
+            "privadas e públicas.",
+            "privadas e compartilhadas.",
+            "híbridas e compartilhadas."
+        ],
+        "gabarito": "privadas e públicas."
+    },
+    {
+        "id": 73,
+        "enunciado": "É responsabilidade do administrador do banco de dados e do administrador de segurança aplicar coletivamente as políticas de segurança em uma organização. Vários fatores devem ser considerados antes de decidir se é seguro revelar os dados.\nOs três fatores mais importantes são",
+        "alternativas": [
+            "independência de dados, regras de integridade e comandos de segurança.",
+            "arquivos de transaction log, gestão de recursos e governança de dados.",
+            "detecção de falhas, antivírus atualizados e monitoramento proativo.",
+            "disponibilidade de dados, aceitabilidade de acesso, e garantia de autenticidade.",
+            "dados criptografados, copias de segurança atualizadas e gestão de privilégios."
+        ],
+        "gabarito": "disponibilidade de dados, aceitabilidade de acesso, e garantia de autenticidade."
+    },
+    {
+        "id": 74,
+        "enunciado": "Uma empresa vai dar ênfase a característica de Segurança de Informação, no qual pretende-se garantir que os dados sejam mantidos em segredo, gerenciando e controlando o acesso às informações, evitando-se o compartilhamento não autorizado de dados.\nEssa caraterística é conhecida como:",
+        "alternativas": [
+            "veracidade.",
+            "integridade.",
+            "disponibilidade.",
+            "confidencialidade."
+        ],
+        "gabarito": "confidencialidade."
+    },
+    {
+        "id": 75,
+        "enunciado": "Julgue o item a seguir.\nA integridade, como um dos pilares da segurança da informação, assegura que os dados mantenham suas características originais, isto é, não sofram alterações indevidas. Ações como controle de versões e backups frequentes são fundamentais para manter a integridade dos dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 76,
+        "enunciado": "Julgue o item a seguir.\nA segurança da informação somente se concentra em proteger dados digitais e sistemas de informação contra ciberataques, não envolvendo a segurança de dados físicos ou medidas contra ameaças internas, como violações por funcionários.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 77,
+        "enunciado": "Julgue o item a seguir.\nUm dos pilares fundamentais da segurança da informação é a confidencialidade, que implica na proteção das informações para garantir que sejam acessadas apenas por pessoas autorizadas. Medidas como a criptografia de dados são exemplos comuns de ações para garantir a confidencialidade.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 78,
+        "enunciado": "Julgue o item a seguir.\nA autenticidade, como um princípio da segurança da informação, não é crucial para sistemas de informação, pois a verificação de identidade dos usuários não influencia significativamente na segurança global do sistema.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 79,
+        "enunciado": "A abordagem de privacidade desde a concepção (Privacy by Design), criada na década de 90 por Ann Cavoukian, enfatiza a importância de considerar a privacidade desde o início de um projeto. Ela enuncia segurança da informação de forma explícita e se diferencia da privacidade por padrão (Privacy by default), que corresponde a apenas um dos princípios que norteiam a abordagem.\nCom relação à Privacy by Design e o princípio de Privacy by default, avalie se as afirmativas a seguir são verdadeiras (V) ou falsas (F).\n( ) A Privacy by Design representa um conjunto de boas práticas que visam garantir a privacidade e proteção dos titulares e suas informações desde a concepção e durante o início do ciclo de vida do projeto, sistema, serviço, produto ou processo.\n( ) A Privacy by Default busca garantir que dados pessoais sejam protegidos automaticamente com grau básico de privacidade, sem qualquer ação por parte do titular, pois ela já estará embutida no sistema, por padrão nos sistemas de TI ou práticas de negócio\n( ) Em atendimento à Lei Geral de Proteção de Dados Pessoais (LGPD) as instituições, públicas e privadas, devem adotar metodologias de implementação de medidas proativas, como Privacy by Design e, como consequência, adotar práticas de proteção de dados pessoais como padrão dos sistemas de TI ou práticas de negócio, conforme o princípio Privacy by Default.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "V – F – F.",
+            "F – V – V.",
+            "V – V – V.",
+            "F – F – V.",
+            "F – F – F."
+        ],
+        "gabarito": "F – F – V."
+    },
+    {
+        "id": 80,
+        "enunciado": "Acerca da segurança da informação, julgue o item que se segue.\nA ocorrência, em uma empresa, da perda de comunicação com um sistema importante, seja pela queda de um servidor, seja pela aplicação crítica de negócio configura exemplo de perda de integridade.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 81,
+        "enunciado": "Acerca da segurança da informação, julgue o item que se segue.\nA confidencialidade da informação garante que, em uma comunicação, a origem e o destino sejam realmente aquilo que alegam ser.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 82,
+        "enunciado": "Com pertinência a gestão de segurança da informação, julgue o item subsecutivo.\nVulnerabilidades são falhas que permitem o surgimento de deficiências na segurança geral do computador ou da rede, e podem ser criadas devido a configurações incorretas no computador ou na segurança.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 83,
+        "enunciado": "Quanto aos procedimentos de segurança e gerenciamento de redes de computadores, julgue o item seguinte.\nNa segurança de redes de computadores, além da preservação da confidencialidade, da integridade e da disponibilidade, deve-se incluir também o não repúdio, que trata do rastreamento do histórico dos fatos de um evento assim como a identificação dos envolvidos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 84,
+        "enunciado": "No que se refere a vulnerabilidades e ataques a sistemas computacionais e criptografia, julgue o próximo item.\nBug é o ataque de negação de serviço realizado de forma distribuída e coordenada.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 85,
+        "enunciado": "Considerando ameaças e ataques à segurança da informação, bem como mecanismos de segurança da informação, julgue o próximo item.\nEntre os serviços previstos pela arquitetura OSI de segurança para avaliação da segurança de uma organização, o serviço de não repúdio é aquele que confirma se é verdadeira a identidade de uma ou mais entidades conectadas a outra(s) entidade(s).",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 86,
+        "enunciado": "Com relação aos princípios fundamentais de segurança de Informação que devem ser assegurados por um gestor de segurança de uma corporação, avalie se as afirmativas a seguir são verdadeiras (V) ou falsas (F).\n( ) Um programa de segurança pode ter diversos objetivos, seus princípios são referenciados sob a forma de um triângulo no qual os vértices representam a completude, a integridade e a disponibilidade de dados.\n( ) A completude se refere ao limite em termos de quem pode obter que tipo de informação do sistema dentre do escopo da organização.\n( ) A integridade se refere a ser correto e consistente com o estado ou informação pretendida, modificação não autorizadas (deliberadas ou acidentais), representam violações de integridade.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "V – F – V.",
+            "F – V – V.",
+            "V – F – F.",
+            "F – F – V.",
+            "V – V – F."
+        ],
+        "gabarito": "F – F – V."
+    },
+    {
+        "id": 87,
+        "enunciado": "Sobre segurança da informação, numere a COLUNA II de acordo com a COLUNA I, relacionando os conceitos às suas descrições correspondentes.\nCOLUNA I\n1. Integridade\n2. Autenticidade COLUNA II\n( ) Garante que os dados permaneçam completos e não sejam alterados indevidamente durante seu armazenamento, trânsito ou processamento.\n( ) Garante que os dados acessados ou recebidos sejam realmente originários de uma fonte confiável.\n( ) Envolve a validação da fonte de dados para garantir que os dados recebidos ou acessados sejam originários de uma fonte confiável.\nAssinale a sequência correta.",
+        "alternativas": [
+            "2 1 2.",
+            "1 2 1.",
+            "2 1 1.",
+            "1 2 2."
+        ],
+        "gabarito": "1 2 2."
+    },
+    {
+        "id": 88,
+        "enunciado": "Segurança da informação refere-se às práticas, tecnologias e políticas adotadas para proteger a confidencialidade, integridade e disponibilidade das informações.\nRelacione corretamente os conceitos com suas definições.\nColuna 1: Conceitos\n1- Confidencialidade\n2- Integridade\n3- Disponibilidade Coluna 2: Definições\n( ) Garantia de que as informações são precisas, completas e confiáveis, e que não foram modificadas ou corrompidas de forma não autorizada\n( ) Garantia de que as informações estarão acessíveis quando necessário para os usuários autorizados, sem interrupções ou atrasos não planejados\n( ) Garantia de que as informações só serão acessadas por pessoas autorizadas e que não serão divulgadas a indivíduos não autorizados Assinale a alternativa que indique a sequência correta, de cima para baixo.",
+        "alternativas": [
+            "1 – 2 – 3.",
+            "2 – 3 – 1.",
+            "2 – 1 – 3.",
+            "3 – 1 – 2.",
+            "3 – 2 – 1."
+        ],
+        "gabarito": "2 – 3 – 1."
+    },
+    {
+        "id": 89,
+        "enunciado": "Um órgão adotou o uso de assinaturas digitais para seus documentos natos digitais. Para evitar a contestação da assinatura digital, estão sendo utilizados certificados digitais padrão ICP-Brasil.\nO pilar da segurança da informação assegurado pelo uso de assinaturas digitais é:",
+        "alternativas": [
+            "autorização;",
+            "integridade;",
+            "confidencialidade;",
+            "não repúdio;",
+            "disponibilidade."
+        ],
+        "gabarito": "não repúdio;"
+    },
+    {
+        "id": 90,
+        "enunciado": "De acordo com o algoritmo RSA, ao assinar um pacote de dados com a chave privada e permitir que o conteúdo seja verificado pela chave pública no receptor, garante-se a propriedade denominada:",
+        "alternativas": [
+            "confidencialidade.",
+            "integridade.",
+            "disponibilidade.",
+            "acessibilidade."
+        ],
+        "gabarito": "integridade."
+    },
+    {
+        "id": 91,
+        "enunciado": "Os princípios básicos da segurança da informação são a confidencialidade, a disponibilidade, a integridade e a irretratabilidade. Quais são técnicas utilizadas para se implementar respectivamente os referidos princípios?",
+        "alternativas": [
+            "Backup, criptografia, assinatura digital e hashing.",
+            "Hashing, assinatura digital, backup e criptografia.",
+            "Criptografia, backup, hashing e assinatura digital.",
+            "Assinatura digital, hashing, criptografia e backup."
+        ],
+        "gabarito": "Criptografia, backup, hashing e assinatura digital."
+    },
+    {
+        "id": 92,
+        "enunciado": "Os princípios de confidencialidade, disponibilidade, integridade, autenticidade e legalidade são fundamentais na área de segurança da informação. Eles servem como diretrizes para garantir que os dados e sistemas de informação sejam protegidos adequadamente contra ameaças e riscos potenciais, promovendo a segurança, confiabilidade e conformidade nas operações de TI. Assim pode-se concluir que a confidencialidade",
+        "alternativas": [
+            "envolve proteger os dados contra alterações não autorizadas, garantindo que não sejam corrompidos, adulterados ou destruídos intencionalmente ou acidentalmente.",
+            "garante que a identidade de um usuário ou de um recurso é autêntica e confiável.",
+            "garante que os sistemas de informação e recursos estarão disponíveis e operacionais quando necessário.",
+            "envolve a proteção dos dados contra acessos não autorizados, garantindo que apenas pessoas ou sistemas autorizados possam visualizar ou manipular as informações."
+        ],
+        "gabarito": "envolve a proteção dos dados contra acessos não autorizados, garantindo que apenas pessoas ou sistemas autorizados possam visualizar ou manipular as informações."
+    },
+    {
+        "id": 93,
+        "enunciado": "O método de autenticação por login único conhecido como SSO (single sign-on) é frequentemente empregado para administrar a autenticação em intranets ou extranets corporativas, portais de estudantes, serviços de nuvem pública, entre outros contextos nos quais os usuários necessitam alternar entre múltiplos aplicativos para desempenhar suas atividades. O método de autenticação em apreço",
+        "alternativas": [
+            "não permite o uso de login social como forma de autenticação.",
+            "aumenta o número de senhas de que o usuário precisa se lembrar.",
+            "não possibilita que o usuário acesse os recursos e(ou) serviços que utilizam esse método como forma de autenticação em caso de indisponibilidade do serviço.",
+            "não possibilita a utilização concomitante com métodos de autenticação de diversos fatores.",
+            "aumenta a complexidade de gerenciamento, provisionamento e remoção/inativação de usuários."
+        ],
+        "gabarito": "não possibilita que o usuário acesse os recursos e(ou) serviços que utilizam esse método como forma de autenticação em caso de indisponibilidade do serviço."
+    },
+    {
+        "id": 94,
+        "enunciado": "Assinale a opção em que é apresenta a característica de uma VPN que está associada à garantia de que a mensagem não poderá ser interpretada por origens não autorizadas.",
+        "alternativas": [
+            "autenticação da mensagem.",
+            "não repúdio do emissor.",
+            "integridade dos dados.",
+            "confidencialidade dos dados.",
+            "conhecimento do destinatário."
+        ],
+        "gabarito": "confidencialidade dos dados."
+    },
+    {
+        "id": 95,
+        "enunciado": "Conforme o documento que detalha os princípios da segurança da informação em relação ao acesso lógico, o responsável pelo gerenciamento das autorizações de acesso é o",
+        "alternativas": [
+            "gestor de processo.",
+            "gestor da informação.",
+            "usuário.",
+            "gestor do usuário.",
+            "custodiante do recurso."
+        ],
+        "gabarito": "gestor da informação."
+    },
+    {
+        "id": 96,
+        "enunciado": "O propósito do gerenciamento da segurança da informação é proteger a informação necessária para que a organização conduza o próprio negócio. Acerca dessa disciplina, assinale a alternativa correta.",
+        "alternativas": [
+            "A detecção e a correção de incidentes de segurança da informação não fazem parte da cadeia de entrega de valor, mas sim do gerenciamento de serviços.",
+            "Processos de segurança da informação extremamente rigorosos sempre devem ser prioridade diante dos objetivos de inovação da organização.",
+            "O time de desenvolvimento pode atuar ativamente no processo de identificação e correção de incidentes de segurança, e, portanto, não deve ser percebido como um potencial ponto de vulnerabilidade.",
+            "O gerenciamento da segurança da informação não deve se estender aos clientes da organização, que não participam do processo de definição de políticas e podem ser um ponto de vulnerabilidade.",
+            "O não repúdio consiste em assegurar a identidade de qualquer agente que executa uma ação dentro da organização."
+        ],
+        "gabarito": "O não repúdio consiste em assegurar a identidade de qualquer agente que executa uma ação dentro da organização."
+    },
+    {
+        "id": 97,
+        "enunciado": "Acerca dos mecanismos de segurança, da gerência de riscos e das políticas de senhas, julgue o item.\nUma vulnerabilidade é uma fraqueza ou uma falha em um sistema, um processo, um procedimento ou um recurso, e essa vulnerabilidade pode ser explorada por uma ameaça para causar danos ou perdas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 98,
+        "enunciado": "Acerca de segurança da informação, julgue o item a seguir.\nUm dos objetivos da integridade é permitir que o destinatário de uma mensagem ou informação seja capaz de verificar que os dados não foram modificados indevidamente.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 99,
+        "enunciado": "Acerca de segurança da informação, julgue o item a seguir.\nAutenticidade é um princípio que visa garantir que o autor não negue ter criado e assinado determinada informação, a qual pode estar materializada em uma mensagem ou em um documento.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 100,
+        "enunciado": "Considerando o envio de um arquivo de um remetente para um receptor, julgue o item a seguir, com base nos princípios de segurança da informação.\nCaso o conteúdo do arquivo enviado seja visualizado não só pelo receptor, mas também por outro usuário que, sem as permissões necessárias, o acesse a partir de computador diferente do computador do receptor, isso implicará violação ao princípio da disponibilidade.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 101,
+        "enunciado": "Considerando o envio de um arquivo de um remetente para um receptor, julgue o item a seguir, com base nos princípios de segurança da informação.\nSe o conteúdo do arquivo enviado for alterado indevidamente antes de sua chegada ao receptor, a integridade do arquivo terá sido violada.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 102,
+        "enunciado": "Um sistema de Segurança da Informação baseia-se em quatro princípios básicos: disponibilidade, integridade, confidencialidade e autenticidade. Se um ou mais desses princípios forem desrespeitados em algum momento, significa que houve um incidente ou quebra de segurança da informação. Nesse contexto, assinale a alternativa que corresponde ao princípio da disponibilidade.",
+        "alternativas": [
+            "O princípio é garantido quando a informação está acessível, por pessoas autorizadas, sempre que necessário.",
+            "O princípio é garantido quando a informação acessada está completa, sem alterações e, portanto, confiável.",
+            "O princípio é garantido quando apenas as pessoas explicitamente autorizadas podem ter acesso à informação.",
+            "O princípio é garantido quando se confia que a entidade que está realizando uma ação é realmente a entidade que diz ser, seja ela pessoa, empresa ou máquina.",
+            "O princípio é garantido quando as fraquezas presentes nos mecanismos de comunicação podem ser exploradas, intencionalmente ou não, resultando na quebra de um ou mais princípios de segurança da informação."
+        ],
+        "gabarito": "O princípio é garantido quando a informação está acessível, por pessoas autorizadas, sempre que necessário."
+    },
+    {
+        "id": 103,
+        "enunciado": "A Defensoria Pública do Estado de Mato Grosso do Sul está migrando seus dados para um banco de dados Oracle. Quais são as medidas de segurança mais importantes a serem tomadas pelo Analista de Defensoria da área Segurança de Tecnologia da Informação durante a migração?",
+        "alternativas": [
+            "Monitoramento de atividades.",
+            "Autenticação de dois fatores.",
+            "Isolamento de dados.",
+            "Criptografia de dados em repouso.",
+            "Auditoria de dados."
+        ],
+        "gabarito": "Criptografia de dados em repouso."
+    },
+    {
+        "id": 104,
+        "enunciado": "Como analista de Suporte Técnico de Redes, você está liderando uma sessão de treinamento para sua equipe de TI sobre os princípios fundamentais da segurança da informação. Durante a sessão, você explica os principais princípios da segurança da informação. Ao explicar o princípio de “Integridade”, você dirá corretamente que",
+        "alternativas": [
+            "se trata da garantia de que informações sensíveis e dados críticos só sejam acessíveis por pessoas autorizadas. Isso envolve implementação de controles de acesso, criptografia e políticas de privacidade para prevenir o acesso não autorizado.",
+            "se trata da garantia de que os recursos de TI e os dados estejam disponíveis e acessíveis quando necessário. Isso inclui medidas para evitar interrupções não planejadas, como falhas de hardware, ataques cibernéticos ou desastres naturais. São comuns práticas como backups regulares e redundância de sistemas.",
+            "se trata da garantia de que as informações não sejam alteradas de forma não autorizada ou acidental. Para garantir esse princípio, são implementados controles de proteção contra modificações não autorizadas, como assinaturas digitais e verificação de hash.",
+            "se refere à capacidade de provar que uma ação foi realizada por uma parte específica e não pode ser negada posteriormente. Isso é importante, por exemplo, em transações financeiras ou contratos eletrônicos. A assinatura digital é um exemplo de mecanismo para garantir esse princípio.",
+            "envolve a garantia de que as informações e ações são genuínas e originárias de fontes legítimas. Isso significa que os dados e as transações não foram falsificados, e as identidades das partes envolvidas são verificadas e confiáveis. É frequentemente alcançada por meio de técnicas de autenticação, como senhas, certificados digitais, tokens de segurança e biometria."
+        ],
+        "gabarito": "se trata da garantia de que as informações não sejam alteradas de forma não autorizada ou acidental. Para garantir esse princípio, são implementados controles de proteção contra modificações não autorizadas, como assinaturas digitais e verificação de hash."
+    },
+    {
+        "id": 105,
+        "enunciado": "Na segurança da informação, qual é o termo relacionado à fragilidade de um ativo, que pode ser explorada por um agente malicioso?",
+        "alternativas": [
+            "Periculosidade.",
+            "Incidente.",
+            "Ameaça.",
+            "Vulnerabilidade.",
+            "Hacker."
+        ],
+        "gabarito": "Vulnerabilidade."
+    },
+    {
+        "id": 106,
+        "enunciado": "As empresas enfrentam desafios ao decidir sobre a adoção de procedimentos relacionados à segurança de computadores. Isso envolve equilibrar a necessidade de proteger dados confidenciais e sistemas contra ameaças cibernéticas, enquanto garante a eficiência operacional e a acessibilidade para os usuários. A sociedade depende cada vez mais de redes de computadores e sistemas de informação disponíveis e seguros. As ameaças são as mais diversas, e alguns princípios de segurança da informação são utilizados pelos desenvolvedores de sistemas e gerentes de TI para minimizá-las.\nDentre esses princípios, um dos mais importantes é o da irretratabilidade, que tem por objetivo",
+        "alternativas": [
+            "alterar a informação ao longo da transmissão.",
+            "criptografar os dados em dispositivos de armazenamento físico.",
+            "evitar a negação da autoria da informação fornecida.",
+            "manter a informação à disposição do usuário sempre que necessário.",
+            "realizar a autenticação de dois fatores para acesso aos sistemas."
+        ],
+        "gabarito": "evitar a negação da autoria da informação fornecida."
+    },
+    {
+        "id": 107,
+        "enunciado": "Acerca de conceitos relativos à segurança da informação, julgue o item a seguir.\nA validação de entrada de dados, quando eles são inseridos na base de dados por fontes e usuários desconhecidos, é uma prática que atende ao conceito de integridade.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 108,
+        "enunciado": "A respeito de técnicas de proteção de aplicações web, julgue o item subsequente.\nO armazenamento de credenciais em texto puro no banco de dados é uma prática segura, desde que o acesso ao banco de dados seja bem controlado.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 109,
+        "enunciado": "Julgue o próximo item, relativos a continuidade do negócio e resposta a incidentes de segurança da informação.\nTrês elementos devem ser considerados em um plano de recuperação de desastres de um sistema de TI: a prevenção, a detecção e a recuperação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 110,
+        "enunciado": "Julgue o próximo item, relativos a continuidade do negócio e resposta a incidentes de segurança da informação.\nO plano de recuperação de desastres é um conjunto de procedimentos documentados que visa recuperar dados e serviços de tecnologia da informação após a ocorrência de um incidente de segurança.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 111,
+        "enunciado": "Segundo a norma ISO/IEC 27000:2018, o conceito de integridade é violado quando",
+        "alternativas": [
+            "o administrador da rede dá permissão para todos os usuários da intranet acessarem uma informação sigilosa.",
+            "um empregado não cumpre o procedimento operacional previsto no manual da empresa.",
+            "um usuário modifica a formatação e corrige a concordância verbal do texto original.",
+            "um usuário tenta acessar um sistema na intranet que está fora do ar e envia uma mensagem ofensiva para o administrador do sistema.",
+            "um usuário envia uma mensagem se passando por outra pessoa."
+        ],
+        "gabarito": "um usuário modifica a formatação e corrige a concordância verbal do texto original."
+    },
+    {
+        "id": 112,
+        "enunciado": "Na área de Segurança da Informação, os princípios fundamentais são diretrizes cruciais para garantir a proteção de dados e sistemas contra ameaças e vulnerabilidades. Esses princípios estabelecem a base para desenvolver estratégias abrangentes de segurança cibernética em organizações de todos os setores. Diante do exposto, assinale a alternativa que corresponde ao princípio que garante que uma parte envolvida em uma transação não possa negar sua participação ou as ações realizadas.",
+        "alternativas": [
+            "Integridade.",
+            "Não repúdio.",
+            "Autenticidade.",
+            "Disponibilidade.",
+            "Privacidade."
+        ],
+        "gabarito": "Não repúdio."
+    },
+    {
+        "id": 113,
+        "enunciado": "A Empresa de Pesquisa Energética (EPE) está fortalecendo suas políticas de segurança da informação para proteger dados sensíveis e garantir a integridade e a disponibilidade dos sistemas.\nConsiderando a importância da segurança da informação, a EPE irá revisar e reforçar suas políticas de segurança. Assim, a EPE, para garantir a proteção abrangente das informações, deve garantir",
+        "alternativas": [
+            "confidencialidade, que assegura que informações estejam acessíveis a qualquer pessoa interessada.",
+            "integridade, que garante que informações possam ser modificadas por qualquer usuário.",
+            "disponibilidade, que assegura que as informações estejam acessíveis apenas em horários específicos.",
+            "a tríade CID, que inclui confidencialidade, integridade e disponibilidade.",
+            "a implementação de senhas fracas para facilitar o acesso dos usuários."
+        ],
+        "gabarito": "a tríade CID, que inclui confidencialidade, integridade e disponibilidade."
+    },
+    {
+        "id": 114,
+        "enunciado": "A Câmara Municipal de Poços de Caldas, através de concurso público, contratou um Analista Legislativo Tecnologia. Após tomar posse, o servidor realizou um onboarding, onde pode compreender quais são os processos existentes no setor a respeito da segurança da informação e a importância de cada um para o tratamento adequado dos dados sigilosos tratados pelo órgão público. Um dos pilares fundamentais na segurança da informação é a autenticidade, que tem como função:",
+        "alternativas": [
+            "Evitar que os dados sejam alterados, danificados ou corrompidos.",
+            "Verificar se os dados estão em conformidade com a legislação vigente.",
+            "Garantir que usuários autorizados possam acessar os dados sempre que necessário.",
+            "Verificar se os dados são legítimos, verdadeiros e sem intervenção de pessoas não autorizadas."
+        ],
+        "gabarito": "Verificar se os dados são legítimos, verdadeiros e sem intervenção de pessoas não autorizadas."
+    },
+    {
+        "id": 115,
+        "enunciado": "NÃO é um conceito de Segurança da Informação:",
+        "alternativas": [
+            "Autenticidade.",
+            "Operabilidade.",
+            "Confidencialidade.",
+            "Disponibilidade."
+        ],
+        "gabarito": "Operabilidade."
+    },
+    {
+        "id": 116,
+        "enunciado": "Assinale a assertiva que não representa um dos pilares da segurança da informação.",
+        "alternativas": [
+            "Confidencialidade.",
+            "Integridade.",
+            "Indisponibilidade.",
+            "Autenticidade."
+        ],
+        "gabarito": "Indisponibilidade."
+    },
+    {
+        "id": 117,
+        "enunciado": "A fim de garantir a segurança da informação, é preciso adotar um conjunto de medidas de proteção para tornar sistemas de informação e sistemas de comunicação resistentes a ataques. Dentre essas medidas de proteção, existe uma que visa fornecer evidências que podem ser armazenadas e, posteriormente, apresentadas a terceiros, para resolver disputas que surgem se e quando uma comunicação é negada por uma das entidades envolvidas. Essa medida de proteção é conhecida como",
+        "alternativas": [
+            "integridade.",
+            "autenticidade.",
+            "irretroatividade.",
+            "irretratabilidade.",
+            "confidencialidade."
+        ],
+        "gabarito": "irretratabilidade."
+    },
+    {
+        "id": 118,
+        "enunciado": "O uso de criptografia na armazenagem ou tráfego de dados visa a garantir os pilares da segurança da informação. As ações a seguir podem ser garantidas com o uso da criptografia:\nI. proteção das informações armazenadas ou transmitidas;\nII. comprovação da ocorrência ou não ocorrência de um evento ou ação;\nIII. verificação da correção da informação;\nIV. validação de usuários nos sistemas.\nAssinale a alternativa que identifica, respectivamente, os pilares da segurança da informação associados a cada uma das ações acima:",
+        "alternativas": [
+            "confidencialidade, não repúdio, integridade e autenticação;",
+            "não repúdio, confidencialidade, autenticidade e integridade;",
+            "integridade, autenticidade, autenticação e disponibilidade;",
+            "autenticidade, integridade, disponibilidade e não repúdio;",
+            "disponibilidade, integridade, autenticidade e confidencialidade."
+        ],
+        "gabarito": "confidencialidade, não repúdio, integridade e autenticação;"
+    },
+    {
+        "id": 119,
+        "enunciado": "Fabrício, delegado de polícia, solicitou a intervenção de um especialista em informática para investigar um incidente ocorrido em uma empresa, no qual João, um ex-funcionário, acessou indevidamente o sistema da empresa, que continha dados confidenciais. Durante essa invasão, João procedeu à modificação dos preços dos produtos, reduzindo-os a valores insignificantes, e distribuiu essas informações para milhares de indivíduos, ocasionando uma interrupção temporária no funcionamento do sistema.\nApós uma minuciosa análise da situação, o perito elaborou um relatório abrangente para o delegado Fabrício, no qual apontou os objetivos fundamentais de segurança que foram violados.\nA alternativa que lista os objetivos fundamentais de segurança que foram violados, na ordem em que as respectivas violações aparecem no texto acima, é:",
+        "alternativas": [
+            "não repúdio, integridade e disponibilidade;",
+            "disponibilidade, integridade e confidencialidade;",
+            "confidencialidade, Integridade e disponibilidade;",
+            "não repúdio, disponibilidade e confidencialidade;",
+            "confidencialidade, disponibilidade e não repúdio."
+        ],
+        "gabarito": "confidencialidade, Integridade e disponibilidade;"
+    },
+    {
+        "id": 120,
+        "enunciado": "Um analista de tecnologia da informação de um órgão público está responsável por revisar e garantir a segurança de um sistema crítico de gerenciamento de processos judiciais. Durante a análise, o profissional identificou situações que impactam dois princípios de segurança: confiabilidade e integridade dos dados. Nesse contexto, qual das alternativas a seguir apresenta uma situação que impacta esses princípios de segurança da informação?",
+        "alternativas": [
+            "Os servidores e backup regulares possuem redundância em caso de falha do sistema.",
+            "Está sendo utilizada criptografia de dados em repouso e em trânsito para proteger a integridade dos dados contra acessos não autorizados.",
+            "Auditorias regulares de segurança são realizadas para identificar possíveis vulnerabilidades.",
+            "Foram concedidas permissões de acesso amplas a todos os usuários para simplificar a administração do sistema, sacrificando um pouco de integridade em prol de usabilidade.",
+            "A política do sistema é de centralização das informações. Essa estratégia garante integridade dos dados, pois toda a informação e processamento estão disponíveis em um único, porém robusto, servidor dentro da empresa."
+        ],
+        "gabarito": "Foram concedidas permissões de acesso amplas a todos os usuários para simplificar a administração do sistema, sacrificando um pouco de integridade em prol de usabilidade."
+    },
+    {
+        "id": 121,
+        "enunciado": "Como o TCP não é um protocolo da camada de transporte seguro, o SSH primeiro utiliza um protocolo que cria um canal seguro sobre o TCP. Essa nova camada é um protocolo independente conhecido como SSH-TRANS. Quando a rotina que implementa esse protocolo é invocada, o cliente e o servidor primeiro usam o protocolo TCP para estabelecer uma conexão insegura. Em seguida, eles trocam diversos parâmetros de segurança para estabelecer um canal seguro sobre o TCP. Assinale a alternativa que apresenta qual dos seguintes serviços fornecidos é responsável por garantir que as mensagens trocadas não sejam alteradas por um intruso.",
+        "alternativas": [
+            "Compressão das mensagens.",
+            "Privacidade ou confidencialidade das mensagens.",
+            "Integridade dos dados.",
+            "Autenticação do servidor."
+        ],
+        "gabarito": "Integridade dos dados."
+    },
+    {
+        "id": 122,
+        "enunciado": "Considere os conceitos de funções hash, criptografia simétrica, criptografia assimétrica e assinatura digital. Essas técnicas são amplamente utilizadas para garantir a integridade, confidencialidade, autenticidade e não repúdio de informações em sistemas de segurança digital. Com base nessa informação, assinale a alternativa que apresenta o uso desses conceitos e suas diferenças.",
+        "alternativas": [
+            "Uma função hash garante a confidencialidade de dados ao cifrar o conteúdo de uma mensagem, enquanto a criptografia simétrica utiliza um par de chaves. (privada e pública) para garantir a autenticidade dos dados",
+            "Na criptografia simétrica, a mesma chave é utilizada tanto para cifrar quanto para decifrar os dados, enquanto na criptografia assimétrica (chave pública) são usadas duas chaves diferentes, uma para cifrar e outra para decifrar os dados.",
+            "A assinatura digital utiliza uma função hash para garantir a confidencialidade dos dados, e a criptografia assimétrica é usada para garantir a integridade da mensagem.",
+            "A criptografia assimétrica garante a confidencialidade dos dados ao cifrar uma mensagem com a chave privada do remetente, enquanto a função hash é utilizada para verificar se a mensagem foi modificada."
+        ],
+        "gabarito": "Na criptografia simétrica, a mesma chave é utilizada tanto para cifrar quanto para decifrar os dados, enquanto na criptografia assimétrica (chave pública) são usadas duas chaves diferentes, uma para cifrar e outra para decifrar os dados."
+    },
+    {
+        "id": 123,
+        "enunciado": "A criptografia é o estudo e a prática de técnicas que envolvem a criação de algoritmos matemáticos para transformar dados em formatos indecifráveis para pessoas não autorizadas e, assim, proteger informações sensíveis durante sua transmissão ou armazenamento.\nNesse caso, a prevenção contra a modificação ou destruição imprópria de informação de forma não autorizada está relacionada ao contexto de",
+        "alternativas": [
+            "autenticidade.",
+            "responsabilização.",
+            "confidencialidade.",
+            "disponibilidade.",
+            "integridade."
+        ],
+        "gabarito": "integridade."
+    },
+    {
+        "id": 124,
+        "enunciado": "Considere as afirmativas abaixo:\nI. A relação da segurança da informação com a integridade é basicamente a garantia de acesso aos dados sempre que necessário. Ou seja, é a possibilidade de os colaboradores e membros da organização acessarem os dados de maneira fluida, segura e eficiente.\nII. Quando empresas lidam com dados, um dos seus grandes deveres é mantê-los intocados, de forma a preservar a sua originalidade e confiabilidade. Nesse contexto, garantir a disponibilidade é, pois, adotar todas as precauções necessárias para que a informação não seja modificada ou eliminada sem autorização.\nIII. A veracidade, no contexto da segurança da informação, nada mais é do que a garantia de que determinada informação, fonte ou sistema é acessível apenas às pessoas previamente autorizadas a terem acesso.\nSão FALSAS as afirmativas:",
+        "alternativas": [
+            "II e III, apenas.",
+            "III, apenas.",
+            "I e III, apenas.",
+            "I e II, apenas.",
+            "I, II e III."
+        ],
+        "gabarito": "I, II e III."
+    },
+    {
+        "id": 125,
+        "enunciado": "Julgue o item seguinte, relativos à gestão de riscos e políticas de segurança da informação.\nNa segurança da informação, a autenticidade é conceituada como a propriedade pela qual se assegura que a informação não foi modificada ou destruída de maneira não autorizada ou acidental.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 126,
+        "enunciado": "Em uma empresa, uma equipe de segurança da informação está implementando medidas para garantir que os dados armazenados não sejam alterados de maneira não autorizada ou acidental, mantendo a precisão e consistência das informações ao longo do tempo.\nEsse princípio de segurança da informação é conhecido como",
+        "alternativas": [
+            "integridade.",
+            "confidencialidade.",
+            "disponibilidade.",
+            "autenticidade.",
+            "não repúdio."
+        ],
+        "gabarito": "integridade."
+    },
+    {
+        "id": 127,
+        "enunciado": "Os princípios de segurança da informação são fundamentais para proteger dados e sistemas de informações contra ameaças e vulnerabilidades. Esses princípios formam a base para o desenvolvimento de políticas e práticas eficazes de segurança da informação.\nCom relação aos princípios da segurança da informação, julgue o item.\nConfidencialidade é a garantia da veracidade da informação, que não pode ser corrompida.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 128,
+        "enunciado": "Os princípios de segurança da informação são fundamentais para proteger dados e sistemas de informações contra ameaças e vulnerabilidades. Esses princípios formam a base para o desenvolvimento de políticas e práticas eficazes de segurança da informação.\nCom relação aos princípios da segurança da informação, julgue o item.\nIntegridade é a proteção da informação compartilhada contra acessos não autorizados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 129,
+        "enunciado": "Os princípios de segurança da informação são fundamentais para proteger dados e sistemas de informações contra ameaças e vulnerabilidades. Esses princípios formam a base para o desenvolvimento de políticas e práticas eficazes de segurança da informação.\nCom relação aos princípios da segurança da informação, julgue o item.\nDisponibilidade é a medida da frequência com que os dados e os aplicativos estão prontos para serem acessados sempre que forem necessários.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 130,
+        "enunciado": "Os princípios de segurança da informação são fundamentais para proteger dados e sistemas de informações contra ameaças e vulnerabilidades. Esses princípios formam a base para o desenvolvimento de políticas e práticas eficazes de segurança da informação.\nCom relação aos princípios da segurança da informação, julgue o item.\nAutenticidade é o que garante a verdadeira autoria da informação, ou seja, que os dados são de fato provenientes de determinada fonte.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 131,
+        "enunciado": "O princípio de segurança da informação que visa garantir, por meio de criptografia, controle de acesso e políticas de segurança, que apenas pessoas autorizadas tenham acesso a recursos e determinadas informações é denominado",
+        "alternativas": [
+            "integridade.",
+            "disponibilidade.",
+            "autenticidade.",
+            "confidencialidade.",
+            "não repúdio."
+        ],
+        "gabarito": "confidencialidade."
+    },
+    {
+        "id": 132,
+        "enunciado": "Uma vulnerabilidade comum na segurança da informação é o(a)",
+        "alternativas": [
+            "uso de senhas fortes e complexas.",
+            "falta de atualizações de segurança e patches.",
+            "implementação de firewalls e IDS/IPS.",
+            "utilização de criptografia forte.",
+            "realização de backups regulares."
+        ],
+        "gabarito": "falta de atualizações de segurança e patches."
+    },
+    {
+        "id": 133,
+        "enunciado": "A segurança da informação é fundamental para proteger dados sensíveis e garantir a integridade, a confidencialidade e a disponibilidade das informações.\nTendo em vista os pilares da segurança da informação, numere a COLUNA II de acordo com a COLUNA I, associando os pilares com as suas características.\nCOLUNA I\n1. Confidencialidade\n2. Integridade COLUNA II\n( ) Criptografia e controle de acesso são medidas que ajudam a manter esse pilar.\n( ) É a garantia de acesso à informação somente por pessoas autorizadas.\n( ) É a garantia que os dados acessados não sejam alterados ou corrompidos durante o armazenamento ou transmissão.\nAssinale a sequência correta.",
+        "alternativas": [
+            "2 1 1.",
+            "1 2 2.",
+            "1 1 2.",
+            "2 1 2."
+        ],
+        "gabarito": "1 1 2."
+    },
+    {
+        "id": 134,
+        "enunciado": "A segurança da informação deve atuar de forma a estabelecer meios que evitem que a organização sofra com:",
+        "alternativas": [
+            "Estabilidade no serviço.",
+            "Processamento de dados.",
+            "Acessos simultâneos.",
+            "Bloqueios de pagamentos.",
+            "Roubo de informações."
+        ],
+        "gabarito": "Roubo de informações."
+    },
+    {
+        "id": 135,
+        "enunciado": "Numere a segunda coluna de acordo com a primeira, relacionando os modelos de ataques de segurança às características básicas de segurança da informação primariamente comprometidas pelo ataque.\n(1) Interrupção\n(2) Interceptação\n(3) Modificação\n(4) Fabricação\n( ) Confidencialidade\n( ) Autenticidade\n( ) Integridade\n( ) Disponibilidade A sequência numérica correta de preenchimento dos parênteses da segunda coluna, de cima para baixo, é",
+        "alternativas": [
+            "4 – 3 – 2 – 1.",
+            "2 – 3 – 4 – 1.",
+            "3 – 2 – 1 – 4.",
+            "2 – 4 – 3 – 1.",
+            "1 – 2 – 3 – 4."
+        ],
+        "gabarito": "2 – 4 – 3 – 1."
+    },
+    {
+        "id": 136,
+        "enunciado": "Para o caso hipotético descrito a seguir, somente informações corretas são consideradas disponíveis.\nUm determinado funcionário atende um pedido por telefone de alguém que se identifica como o cliente A. Essa pessoa explica que seus dados cadastrais estão errados e pede que seja feito um novo cadastro com as informações que ela está passando. O funcionário atende ao pedido e atualiza o sistema da empresa removendo o cadastro antigo e criando um novo.\nDias depois, ao tentar emitir uma fatura, a empresa nota que os dados do cliente A não estão completos e resolve abrir uma investigação. Durante a investigação descobre-se que os dados passados pela pessoa ao telefone eram falsos e que é portanto necessário refazer o cadastro.\nNeste caso, avalie se, durante o processo de atendimento mencionado, ocorreu um incidente com quebra da\nI. Confidencialidade dos dados do cliente A.\nII. Disponibilidade dos dados do cliente A.\nIII. Integridade dos dados do cliente A.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, apenas.",
+            "II, apenas.",
+            "III, apenas.",
+            "I e II, apenas.",
+            "II e III, apenas."
+        ],
+        "gabarito": "II e III, apenas."
+    },
+    {
+        "id": 137,
+        "enunciado": "Os ataques cibernéticos são comuns e um tópico de interesse popular, especialmente quando relatados pelos meios de comunicação. A maioria desses ataques cibernéticos afetou milhares, senão milhões, de pessoas da população em geral. Isso inclui ataques cibernéticos em plataformas de redes sociais, sites que armazenam dados pessoais, dentre outros.\n(Adaptado de Microsoft. O que é um ataque cibernético? Disponível em: https://www.microsoft.com/pt-br/security/business/security- 101/what-is-a-cyberattack. Acesso em: 24/11/2022.) Sobre “ciberataques”, analise as afirmativas a seguir.\nI. A proteção contra ameaças pode se enquadrar em três componentes para garantir a mitigação de ataques cibernéticos: prevenção; identificação; e, correção.\nII. A correção de ataques cibernéticos é a forma como as empresas lidam com ataques cibernéticos – processos, estratégias e como pretendem lidar com ameaças ativas no futuro.\nIII. Ameaças cibernéticas são indivíduos ou empresas que podem ter acesso interno ou externo à rede de uma empresa e abusar voluntariamente desses processos. Os exemplos incluem organizações que promovem o terrorismo cibernético, ex-funcionários ou um concorrente do setor.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, II e III.",
+            "I, apenas.",
+            "I e II, apenas.",
+            "II e III, apenas."
+        ],
+        "gabarito": "I, II e III."
+    },
+    {
+        "id": 138,
+        "enunciado": "Um serviço de segurança é um serviço de processamento ou comunicação fornecido por um sistema para dar um tipo específico de proteção aos recursos do sistema; os serviços de segurança implementam políticas (ou diretrizes) de segurança e são implementados por mecanismos de segurança.\n(STALLINGS, W. Criptografia e Segurança de Redes: princípios e práticas. 6ed. Pearson, 2015. p. 12.) Considerando as divisões de um serviço de segurança, relacione adequadamente as colunas a seguir.\n1. Autenticação de entidade pareada.\n2. Integridade da conexão com recuperação.\n3. Irretratabilidade.\n( ) Providencia a integridade de todos os dados do usuário em uma conexão e detecta qualquer modificação, inserção, exclusão, ou repasse de quaisquer dados dentro de uma sequência inteira, com tentativa de recuperação.\n( ) É usada em associação com uma conexão lógica para fornecer confiança na identidade das entidades conectadas.\n( ) Oferece proteção contra negação, por parte de uma das entidades envolvidas em uma comunicação de ter participado de toda ou parte dela.\nA sequência está correta em",
+        "alternativas": [
+            "1, 2, 3.",
+            "3, 2, 1.",
+            "2, 1, 3.",
+            "3, 1, 2."
+        ],
+        "gabarito": "2, 1, 3."
+    },
+    {
+        "id": 139,
+        "enunciado": "O Princípio do Menor Privilégio (Principle of Least Privilege – PoLP) se caracteriza pelo conceito da segurança da informação em que um usuário deve ter os mínimos níveis de acesso ou permissões necessárias para a realização das suas atividades laborais. Considerando tal princípio, assinale a afirmativa correta.",
+        "alternativas": [
+            "Permite aumentar a segurança contra ataques de malwares.",
+            "Aplicações que implementam o PoLP são totalmente seguras, ou seja, não sofrem qualquer tipo de ataque.",
+            "Refere-se, exclusivamente, à concessão de privilégio para usuários. Logo, ele não se aplica, por exemplo, na concessão de privilégios a comandos e ações.",
+            "Por meio dele, cada privilégio é concedido diretamente a um usuário específico. Por este motivo, ele não permite separar os privilégios de uma aplicação dentro de domínios isolados."
+        ],
+        "gabarito": "Permite aumentar a segurança contra ataques de malwares."
+    },
+    {
+        "id": 140,
+        "enunciado": "Acerca de segurança da informação e com base nas normas da ABNT aplicáveis à temática, julgue o próximo item.\nA confidencialidade trata da proteção de dados contra ataques passivos e envolve mecanismos de controle de acesso e criptografia.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 141,
+        "enunciado": "A Norma ISO/IEC 27.002 especifica quais controles criptográficos podem ser utilizados para alcançar diferentes objetivos de segurança da informação. Assinale a alternativa correspondente ao controle que utiliza técnicas de criptografia para fornecer evidência da ocorrência ou não ocorrência de um evento ou de uma ação.",
+        "alternativas": [
+            "Confidencialidade.",
+            "Não repúdio.",
+            "Integridade.",
+            "Autenticidade.",
+            "Autenticação."
+        ],
+        "gabarito": "Não repúdio."
+    },
+    {
+        "id": 142,
+        "enunciado": "Assinale, abaixo, qual opção não é uma das bases da Segurança da Informação.",
+        "alternativas": [
+            "Confidencialidade.",
+            "Integridade.",
+            "Adaptabilidade.",
+            "Disponibilidade.",
+            "Autenticidade."
+        ],
+        "gabarito": "Adaptabilidade."
+    },
+    {
+        "id": 143,
+        "enunciado": "Qual dos princípios de segurança da informação se refere a proteger a informação contra acesso não autorizado?",
+        "alternativas": [
+            "Confidencialidade.",
+            "Integridade.",
+            "Disponibilidade.",
+            "Autenticidade.",
+            "Não Repúdio."
+        ],
+        "gabarito": "Confidencialidade."
+    },
+    {
+        "id": 144,
+        "enunciado": "Qual dos princípios abaixo não é um princípio de segurança da informação?",
+        "alternativas": [
+            "Integridade.",
+            "Confidencialidade.",
+            "Autenticidade.",
+            "Disponibilidade.",
+            "Taxonomia."
+        ],
+        "gabarito": "Taxonomia."
+    },
+    {
+        "id": 145,
+        "enunciado": "Qual dos Princípios de Segurança da Informação tem como objetivo garantir que informações não sejam alteradas ou modificadas por pessoas não autorizadas?",
+        "alternativas": [
+            "Confidencialidade.",
+            "Disponibilidade.",
+            "Autenticação.",
+            "Integridade.",
+            "Não Repúdio."
+        ],
+        "gabarito": "Integridade."
+    },
+    {
+        "id": 146,
+        "enunciado": "Qual é o Princípio de Segurança da Informação que permite confirmar a identidade de usuários e a especificidade de recursos?",
+        "alternativas": [
+            "Confidencialidade.",
+            "Autenticação.",
+            "Disponibilidade.",
+            "Integridade.",
+            "Anonimato."
+        ],
+        "gabarito": "Autenticação."
+    },
+    {
+        "id": 147,
+        "enunciado": "Funções de hash são muito utilizadas para verificação da propriedade básica da segurança da informação denominada",
+        "alternativas": [
+            "disponibilidade.",
+            "confidencialidade.",
+            "não-repúdio.",
+            "integridade.",
+            "perímetro."
+        ],
+        "gabarito": "integridade."
+    },
+    {
+        "id": 148,
+        "enunciado": "No âmbito da segurança da informação em bancos de dados, as dimensões privacidade de comunicação, armazenamento seguro de dados sensíveis, autenticação de usuários e controle de acesso granular são pertinentes ao aspecto",
+        "alternativas": [
+            "confidencialidade.",
+            "rastreabilidade.",
+            "integridade.",
+            "permissibilidade.",
+            "disponibilidade."
+        ],
+        "gabarito": "confidencialidade."
+    },
+    {
+        "id": 149,
+        "enunciado": "A empresa Progseg foi contratada via processo licitatório para a modernização das aplicações utilizadas no Tribunal de Justiça do Rio Grande do Norte. Aurélio, chefe do Departamento de Tecnologia, conduzirá junto à empresa o retrofit, que terá como foco a melhoria na segurança dos sistemas.\nOs requisitos mandatórios dessa modernização são:\n- Assegurar que informações privadas e confidenciais não estejam disponíveis nem sejam reveladas para indivíduos não autorizados; e - Verificar que os usuários são quem dizem ser.\nO requisito desejável dessa modernização é:\n- Ser capaz de associar uma violação de segurança a uma parte responsável.\nCom base nos requisitos citados, a Progseg deverá implementar, respectivamente:",
+        "alternativas": [
+            "confidencialidade, autenticidade, responsabilização;",
+            "disponibilidade, autenticidade, privacidade;",
+            "não repúdio, integridade de sistemas, confidencialidade;",
+            "integridade, disponibilidade, responsabilização;",
+            "autenticidade, integridade de dados, integridade de sistemas."
+        ],
+        "gabarito": "confidencialidade, autenticidade, responsabilização;"
+    },
+    {
+        "id": 150,
+        "enunciado": "Sobre os conceitos e mecanismos que norteiam a segurança de sistemas, a capacidade de provar que um usuário ou um aplicativo é realmente quem essa pessoa ou o que esse aplicativo afirma ser é denominada de:",
+        "alternativas": [
+            "Comprovação.",
+            "Autenticação.",
+            "Autorização.",
+            "Auditoria.",
+            "Permissão."
+        ],
+        "gabarito": "Autenticação."
+    },
+    {
+        "id": 151,
+        "enunciado": "No contexto da segurança da informação, suponha que um órgão está desenvolvendo um novo sistema de votação eletrônica. O sistema precisa garantir a integridade dos dados, para que os votos uma vez registrados não possam ser alterados.\nQue propriedade da segurança da informação é mais relevante neste caso?",
+        "alternativas": [
+            "Autenticação.",
+            "Integridade.",
+            "Rastreabilidade.",
+            "Aleatoriedade.",
+            "Publicidade."
+        ],
+        "gabarito": "Integridade."
+    },
+    {
+        "id": 152,
+        "enunciado": "Assinale a alternativa que contém uma definição correta do critério de informação de Imutabilidade.",
+        "alternativas": [
+            "É sinônimo de Integridade, uma vez que garante que o dado esteja íntegro e inviolável.",
+            "Diz respeito à garantia de que os dados estejam disponíveis quando forem requisitados por um, por exemplo, sistema de informação.",
+            "É particularmente útil em casos de ataques de ransomware, uma vez que impede a criptografia dos dados.",
+            "Diz respeito à confiabilidade do dado, e é particularmente útil em esquemas de phising visando roubo de dados.",
+            "Impede que ataques de phishing obtenham dados sigilosos, uma vez que está relacionado à confidencialidade do dado."
+        ],
+        "gabarito": "É particularmente útil em casos de ataques de ransomware, uma vez que impede a criptografia dos dados."
+    },
+    {
+        "id": 153,
+        "enunciado": "A consequência de ameaça contra sistemas de informação, caracterizada por circunstância ou evento que interrompe ou impede a operação correta de serviços ou funções do sistema, recebe a nomenclatura de",
+        "alternativas": [
+            "exposição.",
+            "revelação não autorizada.",
+            "fraude.",
+            "disrupção.",
+            "usurpação."
+        ],
+        "gabarito": "disrupção."
+    },
+    {
+        "id": 154,
+        "enunciado": "Assinale a alternativa que apresenta corretamente quais são os três pilares da segurança da informação, também conhecidos como tríade CID.",
+        "alternativas": [
+            "Confidencialidade, integridade e disponibilidade.",
+            "Corretude, interoperabilidade e durabilidade.",
+            "Corretude, integridade e disponibilidade.",
+            "Confidencialidade, integridade e dependabilidade.",
+            "Corretude, interoperabilidade e dependabilidade."
+        ],
+        "gabarito": "Confidencialidade, integridade e disponibilidade."
+    },
+    {
+        "id": 155,
+        "enunciado": "Em relação à segurança da informação, uma ameaça pode ser definida como um possível perigo que pode explorar uma vulnerabilidade do sistema computacional.\nNas alternativas abaixo, citam-se vários exemplos de ameaça para um sistema computacional. Assinale a alternativa que NÃO se enquadra como uma ameaça a um sistema computacional.",
+        "alternativas": [
+            "Divulgação deliberada ou intencional de informação.",
+            "Modificação maliciosa ou negligente ou destruição de dados.",
+            "Tratamento de erros pelos programadores no código.",
+            "Degradação ou impossibilidade de uso de um serviço.",
+            "Falha em verificar a autenticidade de um usuário."
+        ],
+        "gabarito": "Tratamento de erros pelos programadores no código."
+    },
+    {
+        "id": 156,
+        "enunciado": "Quando falamos das ameaças que rondam os pilares da segurança da informação, fazemos referência a diversos tipos entre digitais e humanas. Os Pilares tradicionais de defesa dos sistemas e infraestrutura das corporações que atuam por meio de políticas, senhas, softwares de criptografia, dentre outros processos necessários são:",
+        "alternativas": [
+            "confidencialidade, integridade e probabilidade.",
+            "integridade, confidencialiade e disponibilidade.",
+            "disponibilidade, integridade e formalidade.",
+            "integridade, confidencialidade e retratabilidade."
+        ],
+        "gabarito": "integridade, confidencialiade e disponibilidade."
+    },
+    {
+        "id": 157,
+        "enunciado": "Com base na NBR ISO/IEC 27000, julgue o próximo item, a respeito das definições para confiabilidade e integridade.\nA integridade é uma propriedade que visa aplicar conhecimentos e habilidades para garantir a assinatura digital.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 158,
+        "enunciado": "Com base na NBR ISO/IEC 27000, julgue o próximo item, a respeito das definições para confiabilidade e integridade.\nA confidencialidade é uma propriedade segundo a qual as informações não podem ser disponibilizadas a indivíduos, entidades ou processos que não estejam previamente autorizados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 159,
+        "enunciado": "A segurança da informação é baseada em princípios, cuja garantia é necessária para viabilizar a proteção diante das ameaças externas e internas. São considerados princípios básicos da segurança da informação:",
+        "alternativas": [
+            "confidencialidade, integridade e disponibilidade.",
+            "criptografia, confidencialidade e auditoria.",
+            "firewall, IPS e controle de acesso.",
+            "autenticação de múltiplos fatores, senhas fortes e antivírus."
+        ],
+        "gabarito": "confidencialidade, integridade e disponibilidade."
+    },
+    {
+        "id": 160,
+        "enunciado": "A segurança cibernética constitui-se de um conjunto de práticas preventivas e processos com o objetivo de impedir o comprometimento de sistemas digitais. Nesse contexto, a ação que compromete a segurança cibernética é",
+        "alternativas": [
+            "ameaça.",
+            "vulnerabilidade.",
+            "risco.",
+            "exploits."
+        ],
+        "gabarito": "ameaça."
+    },
+    {
+        "id": 161,
+        "enunciado": "Os princípios centrais, em todo e qualquer programa de segurança da informação, apresentam as seguintes definições: capacidade de garantir que o nível necessário de sigilo seja aplicado em cada junção de dados em processamento; e garantia do rigor e da confiabilidade das informações e dos sistemas e de que não ocorrerão modificações não autorizadas de dados. Conforme os conceitos apresentados, esses princípios denominam-se, respectivamente,",
+        "alternativas": [
+            "confidencialidade e disponibilidade.",
+            "confidencialidade e integridade.",
+            "integridade e confidencialidade.",
+            "integridade e disponibilidade.",
+            "disponibilidade e confidencialidade."
+        ],
+        "gabarito": "confidencialidade e integridade."
+    },
+    {
+        "id": 162,
+        "enunciado": "Tânia trabalha em uma prestadora de serviços de Internet. Equivocadamente, ela enviou ao servidor um comando UPDATE, o qual alterou indevidamente a base de dados, não permitindo mais seu acesso. De forma a ocultar seu erro, Tânia descobriu um post-it sob o teclado com a senha de um dos técnicos que trabalhava com ela.\nEntão, utilizando a senha, entrou no sistema e efetuou novas modificações, de forma que a culpa recaísse sobre o técnico.\nNo incidente relatado, houve a quebra do(a):",
+        "alternativas": [
+            "confidencialidade e autenticidade;",
+            "integridade e autenticidade;",
+            "irretratabilidade e disponibilidade;",
+            "não repúdio e confidencialidade;",
+            "confidencialidade e integridade."
+        ],
+        "gabarito": "integridade e autenticidade;"
+    },
+    {
+        "id": 163,
+        "enunciado": "No campo da segurança da informação, ao gerir riscos, é comum se falar sobre uma tríade de aspectos que se precisa ter em mente ao definir políticas de segurança para a organização. São elas:",
+        "alternativas": [
+            "Invasão, proteção e auditoria.",
+            "Local, nuvem e misto.",
+            "Vulnerabilidade, autorização e autenticação.",
+            "Confidencialidade, integridade e disponibilidade.",
+            "Registro, rede e internet."
+        ],
+        "gabarito": "Confidencialidade, integridade e disponibilidade."
+    },
+    {
+        "id": 164,
+        "enunciado": "Conforme Hintzbergen (2, a tríade CID é um modelo aceito pela indústria, para proteção de sistemas, esse modelo indica os três grandes objetivos da segurança da informação. O objetivo que garante que informações e programas sejam alterados somente de maneira específica e autorizada é:",
+        "alternativas": [
+            "Confidencialidade.",
+            "Disponibilidade.",
+            "Oportunidade.",
+            "Continuidade.",
+            "Integridade."
+        ],
+        "gabarito": "Integridade."
+    },
+    {
+        "id": 165,
+        "enunciado": "Dentre os princípios (pilares) de segurança da informação estão:\nI. Confidencialidade.\nII. Disponibilidade.\nIII. Integridade.\nIV. Irretratabilidade.\nQuais estão corretas?",
+        "alternativas": [
+            "Apenas III.",
+            "Apenas I e II.",
+            "Apenas III e IV.",
+            "Apenas I, II e IV.",
+            "I, II, III e IV."
+        ],
+        "gabarito": "I, II, III e IV."
+    },
+    {
+        "id": 166,
+        "enunciado": "Em segurança, quando se aborda gerência de riscos, é preciso trabalhar com os impactos de ameaças e vulnerabilidades. Uma ameaça pode ser definida como um possível perigo que pode explorar uma vulnerabilidade do sistema computacional. Nesse sentido, são exemplos de ameaça para um sistema computacional:\nI. Comprometimento da informação.\nII. Violação de integridade.\nIII. Negação de serviço.\nIV. Repudiação de uma ação.\nQuais estão corretas?",
+        "alternativas": [
+            "Apenas I.",
+            "Apenas III.",
+            "Apenas II e IV.",
+            "Apenas I, II e III.",
+            "I, II, III e IV."
+        ],
+        "gabarito": "I, II, III e IV."
+    },
+    {
+        "id": 167,
+        "enunciado": "Uma característica importante em muitos sistemas computacionais está em possuírem propriedades que dizem respeito à tolerância a falhas.\nNesse sentido, duas propriedades importantes destacam-se, a confiabilidade e a disponibilidade, sobre as quais é correto afirmar que",
+        "alternativas": [
+            "a confiabilidade representa a probabilidade de o sistema operar sem causar problemas de segurança a seus usuários.",
+            "ambas representam o mesmo conceito, referindo-se ao número de usuários simultâneos comportados pelo sistema.",
+            "a confiabilidade é um conceito que somente é aplicável a produtos de software que tenham sido desenvolvidos por equipes com mais de 10 componentes.",
+            "a disponibilidade representa a probabilidade de o sistema, em determinado momento, estar operacional, sendo capaz de entregar os serviços esperados.",
+            "ambas representam o memo conceito, referindo-se ao tipo de linguagem de programação utilizada no desenvolvimento do sistema."
+        ],
+        "gabarito": "a disponibilidade representa a probabilidade de o sistema, em determinado momento, estar operacional, sendo capaz de entregar os serviços esperados."
+    },
+    {
+        "id": 168,
+        "enunciado": "Em relação à segurança da informação, o princípio da integridade refere-se a:",
+        "alternativas": [
+            "Garantir que a informação seja proveniente da fonte à qual ela é atribuída.",
+            "Proteger a informação de acordo com o grau de sigilo de seu conteúdo.",
+            "Evitar acesso não autorizado à informação.",
+            "Proteger a informação contra alteração não autorizada.",
+            "Garantir que a informação esteja disponível sempre que necessária."
+        ],
+        "gabarito": "Proteger a informação contra alteração não autorizada."
+    },
+    {
+        "id": 169,
+        "enunciado": "Acerca de vulnerabilidades e ataques a sistemas computacionais, julgue o item a seguir.\nA violação do princípio de privilégio mínimo está relacionada a um recurso que deveria estar protegido, mas está disponível para qualquer pessoa.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 170,
+        "enunciado": "Acerca de criptografia, julgue o item subsequente.\nEm uma conexão criptografada, o princípio da disponibilidade é, de fato, atingido.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 171,
+        "enunciado": "De acordo com o que dispõem os conceitos de segurança da informação, julgue o item a seguir.\nEm função de sua codificação mais robusta, os firmwares de IoT são mais sofisticados que os sistemas operacionais executados em computadores e smartphones, o que os torna imunes a falhas consequentes das vulnerabilidades conhecidas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 172,
+        "enunciado": "Lara trabalha no Departamento de Segurança da Informação do Tribunal de Contas do Estado de São Paulo (TCE SP). Durante sua verificação de rotina, identificou que os pacotes que trafegavam pela rede tinham problemas quanto a sua integridade. A integridade é a certeza de que os dados recebidos estão exatamente conforme enviados por uma entidade autorizada. Lara especializou sua busca e identificou que não havia integridade de campos selecionados dentro de um único bloco de dados sem conexão.\nLara repassou ao seu chefe que a transmissão estava com problemas de integridade:",
+        "alternativas": [
+            "da conexão com recuperação;",
+            "da conexão sem recuperação;",
+            "da conexão com campo seletivo;",
+            "sem conexão com campo seletivo;",
+            "sem conexão."
+        ],
+        "gabarito": "sem conexão com campo seletivo;"
+    },
+    {
+        "id": 173,
+        "enunciado": "Para proteger as transações eletrônicas contra fraudes, é importante implantar serviços de segurança da informação adequados. É possível, por exemplo, haver proteção contra um tipo de fraude que consiste na negação falsa de envolvimento em uma associação, mais especificamente, uma associação de comunicação que transfere dados. O serviço de segurança que assegura a proteção contra esse tipo de fraude é a",
+        "alternativas": [
+            "integridade.",
+            "confidencialidade.",
+            "disponibilidade.",
+            "irretroatividade.",
+            "irretratabilidade."
+        ],
+        "gabarito": "irretratabilidade."
+    },
+    {
+        "id": 174,
+        "enunciado": "Eduardo recebeu um documento assinado digitalmente por seu chefe, Fábio, e, ao abri-lo, notou que Fábio havia assinado uma versão anterior do documento. Ao devolver o documento a Fábio, este alegou não ter enviado a versão errada do documento. Contudo, o fato de haver nele a assinatura digital de Fábio permite que Eduardo tenha certeza de que foi o chefe que o enviou, assegurando o princípio da:",
+        "alternativas": [
+            "confidencialidade;",
+            "disponibilidade;",
+            "integridade;",
+            "irretratabilidade;",
+            "responsabilidade."
+        ],
+        "gabarito": "irretratabilidade;"
+    },
+    {
+        "id": 175,
+        "enunciado": "Novos servidores foram apresentados ao Tribunal de Justiça de Sergipe (TJSE). Ao comparecerem ao setor de pessoal, um servidor foi selecionado para efetuar a apresentação das políticas de segurança existentes. Uma dessas políticas define as regras de uso dos recursos computacionais, os direitos e as responsabilidades de quem os utiliza e as situações que são consideradas abusivas. A política apresentada aos novos servidores é a política de:",
+        "alternativas": [
+            "senhas;",
+            "backup;",
+            "privacidade;",
+            "confidencialidade;",
+            "uso aceitável."
+        ],
+        "gabarito": "uso aceitável."
+    },
+    {
+        "id": 176,
+        "enunciado": "Leia o texto a seguir.\nOs sítios de que trata o § 2º deverão, na forma de regulamento, atender, entre outros, aos seguintes requisitos:\nI - conter ferramenta de pesquisa de conteúdo que permita o acesso à informação de forma objetiva, transparente, clara e em linguagem de fácil compreensão.\nO trecho acima refere-se a qual lei?",
+        "alternativas": [
+            "Lei n° 8.112/1990.",
+            "Lei n° 12.527/2011.",
+            "Lei n° 12.207/2014.",
+            "Lei n° 13.709/2018."
+        ],
+        "gabarito": "Lei n° 12.527/2011."
+    },
+    {
+        "id": 177,
+        "enunciado": "Há características fundamentais de sistemas que visam a contemplar segurança da informação. Uma delas diz respeito à probabilidade de uma operação livre de falhas durante um tempo especificado, em determinado ambiente, para uma finalidade específica e é denominada confiabilidade.\nOutra diz respeito à probabilidade de um sistema, em determinado momento, ser operacional e capaz de entregar os serviços solicitados e é denominada",
+        "alternativas": [
+            "confidencialidade.",
+            "disponibilidade.",
+            "portabilidade.",
+            "usabilidade.",
+            "proteção."
+        ],
+        "gabarito": "disponibilidade."
+    },
+    {
+        "id": 178,
+        "enunciado": "Considerando a segurança da informação, assinale a alternativa que indica uma quantidade atribuída a um único evento, que representa a perda potencial de uma empresa, caso determinada ameaça se concretize.",
+        "alternativas": [
+            "ARO.",
+            "ALE.",
+            "EF.",
+            "SLE.",
+            "ML."
+        ],
+        "gabarito": "SLE."
+    },
+    {
+        "id": 179,
+        "enunciado": "Uma empresa que fornece serviços de hospedagem de páginas web está implantando diversas melhorias visando a melhorar a segurança. Entre elas, foram colocados novos no-breaks, um firewall com o objetivo de proteger os serviços fornecidos pela empresa e novos servidores de backup com espelhamento em tempo real.\nAnalisando a situação-problema descrita, o princípio de Segurança da Informação que a empresa visa a garantir com as informações apresentadas é",
+        "alternativas": [
+            "integridade.",
+            "disponibilidade.",
+            "confidencialidade.",
+            "autenticidade.",
+            "não-repúdio."
+        ],
+        "gabarito": "disponibilidade."
+    },
+    {
+        "id": 180,
+        "enunciado": "O indivíduo que acompanha um internauta em sua rede social, verificando todos seus passos, suas fotos, comentários, inclusive de amigos e familiares recebe o nome de:",
+        "alternativas": [
+            "Blackhat.",
+            "Stalker.",
+            "Snooping.",
+            "Redhat."
+        ],
+        "gabarito": "Stalker."
+    },
+    {
+        "id": 181,
+        "enunciado": "Marque a alternativa que corresponde às principais características de uma rede Intranet.",
+        "alternativas": [
+            "Rede feita por comunidades de forma cooperativa, aberta ao público que se conecta por LAN.",
+            "Conjunto de redes locais acessíveis por dispositivos conectados à rede de qualquer lugar do mundo.",
+            "Rede de comunicação privada criada sobre a rede pública para comunicação direta entre o dispositivo e o servidor de forma criptografada e segura.",
+            "Rede privada para uso exclusivo de um determinado local, ou através de esquemas de segurança, aumentando a segurança por restringir o acesso à rede."
+        ],
+        "gabarito": "Rede privada para uso exclusivo de um determinado local, ou através de esquemas de segurança, aumentando a segurança por restringir o acesso à rede."
+    },
+    {
+        "id": 182,
+        "enunciado": "Quais são os princípios de dados da ISO 27001?",
+        "alternativas": [
+            "Eficiência • Eficácia • Confiabilidade.",
+            "Eficiência • Confidencialidade • Integridade.",
+            "Confidencialidade • Integridade • Disponibilidade.",
+            "Integridade • Compatibilidade • Confiabilidade.",
+            "Compatibilidade • Confidencialidade • Disponibilidade."
+        ],
+        "gabarito": "Confidencialidade • Integridade • Disponibilidade."
+    },
+    {
+        "id": 183,
+        "enunciado": "Suponha que a folha de pagamentos de uma empresa devesse ser acessada somente pelos funcionários do setor de recursos humanos. Entretanto, em razão de um erro de sistema, a folha de pagamentos ficou acessível a todos os funcionários da empresa. Nessa situação hipotética, é correto afirmar que o pilar da segurança da informação mais afetado foi a",
+        "alternativas": [
+            "autenticidade.",
+            "integridade.",
+            "confiabilidade.",
+            "disponibilidade.",
+            "confidencialidade."
+        ],
+        "gabarito": "confidencialidade."
+    },
+    {
+        "id": 184,
+        "enunciado": "Determinado empregado do setor financeiro, acidentalmente, deletou todas as informações de pagamentos pendentes em sua empresa. Essa ação foi realizada com seu usuário logado, gerando registros de que ele havia sido o autor das deleções. Sabendo disso, o empregado acessou o servidor que armazena os registros e também apagou todos os registros de atividades daquele dia, tornando impossível que alguém rastreasse suas ações. Nesse cenário hipotético, qual princípio da segurança da informação foi mais violado no momento em que o empregado apagou os registros de atividades?",
+        "alternativas": [
+            "Não repúdio.",
+            "Autenticidade.",
+            "Hardening.",
+            "Tailoring.",
+            "CLASP."
+        ],
+        "gabarito": "Não repúdio."
+    },
+    {
+        "id": 185,
+        "enunciado": "Dentre os conceitos de segurança de computadores, um deles preconiza que se deve preservar restrições autorizadas sobre o acesso e divulgação de informações, incluindo meios para proteger a privacidade de indivíduos e informações privadas. Marque a alternativa que descreve esse conceito CORRETAMENTE:",
+        "alternativas": [
+            "Autenticidade.",
+            "Responsabilização.",
+            "Confidencialidade.",
+            "Integridade.",
+            "Disponibilidade."
+        ],
+        "gabarito": "Confidencialidade."
+    },
+    {
+        "id": 186,
+        "enunciado": "A garantia de que o executor de determinada transação eletrônica não poderá posteriormente negar sua autoria diz respeito a qual atributo da Segurança da Informação?",
+        "alternativas": [
+            "responsabilidade.",
+            "autenticidade.",
+            "não repúdio.",
+            "integridade.",
+            "confidencialidade."
+        ],
+        "gabarito": "não repúdio."
+    },
+    {
+        "id": 187,
+        "enunciado": "De acordo com a Norma NBR/ISO 17799, a segurança da informação é caracterizada pela preservação de alguns pilares de segurança, dos quais dois são descritos a seguir:\nI. Refere-se à garantia de que a informação é acessível somente por pessoas autorizadas a terem acesso.\nII. Refere-se à salvaguarda da exatidão e completeza da informação e dos métodos de processamento.\nOs dois pilares descritos em I e II são conhecidos, respectivamente, como",
+        "alternativas": [
+            "integridade e autenticidade.",
+            "autenticidade e confiabilidade.",
+            "confiabilidade e interatividade.",
+            "confidencialidade e integridade.",
+            "interatividade e confidencialidade."
+        ],
+        "gabarito": "confidencialidade e integridade."
+    },
+    {
+        "id": 188,
+        "enunciado": "Criptografia representa a prática de proteger informações por meio do uso de algoritmos codificados, hashes e assinaturas. As informações podem estar em repouso (como um arquivo em um disco rígido), em trânsito (como comunicação eletrônica trocada entre duas ou mais partes) ou em uso (durante a computação de dados). A criptografia tem quatro objetivos principais, sendo três deles listados a seguir:\nI. Disponibiliza as informações somente para usuários autorizados.\nII. Garante que as informações não tenham sido manipuladas.\nIII. Confirma a autenticidade das informações ou a identidade de um usuário.\nOs objetivos listados em I, II e III são conhecidos, respectivamente, como",
+        "alternativas": [
+            "confidencialidade, integridade e autenticação.",
+            "confidencialidade, autenticação e integridade.",
+            "integridade, autenticação e confidencialidade.",
+            "autenticação, integridade e confidencialidade."
+        ],
+        "gabarito": "confidencialidade, integridade e autenticação."
+    },
+    {
+        "id": 189,
+        "enunciado": "Qual dos pilares de Segurança da Informação busca garantir que a informação esteja disponível sempre quando necessária para quem é de direito?",
+        "alternativas": [
+            "Disponibilidade.",
+            "Confidencialidade.",
+            "Integridade.",
+            "Irretratabilidade."
+        ],
+        "gabarito": "Disponibilidade."
+    },
+    {
+        "id": 190,
+        "enunciado": "Acerca de aspectos diversos pertinentes a objetos de avaliação associados à análise de sistemas, julgue o item que se segue.\nConforme os conceitos de compartilhamento, segurança e integridade de sistemas operacionais, a segurança da integridade dos dados em um sistema operacional significa que usuários não autorizados não devem poder modificar nenhum dado sem a permissão do proprietário.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 191,
+        "enunciado": "Dentro do contexto de Segurança da Informação, o que significa ataque?",
+        "alternativas": [
+            "Tentativa de destruir, expor, alterar, inutilizar, roubar ou obter acesso não autorizado ou fazer uso não autorizado de um ativo.",
+            "Qualquer coisa que tenha valor para a organização.",
+            "Propriedade de uma entidade ser o que afirma que é.",
+            "Propriedade de consistência dos comportamentos e resultados desejados.",
+            "Descrição que esclarece o que e como deve ser feito para alcançar os objetivos definidos nas políticas."
+        ],
+        "gabarito": "Tentativa de destruir, expor, alterar, inutilizar, roubar ou obter acesso não autorizado ou fazer uso não autorizado de um ativo."
+    },
+    {
+        "id": 192,
+        "enunciado": "Lucas é um trader profissional que trabalha em uma corretora de valores. Ele efetua muitas operações durante o período em que a bolsa negocia seus ativos. Após fazer uma revisão em suas operações do dia, não validou, como sendo efetuadas por ele, algumas das operações que obtiveram prejuízo. Lucas, então, entrou em contato com a corretora e esta demonstrou, a partir de registros de auditoria e garantia de identidade, que as operações em questão realmente foram executadas por ele.\nPara que a corretora prove que foi Lucas quem realmente executou as operações, ela deve fazer uso do conceito de segurança chamado:",
+        "alternativas": [
+            "confidencialidade;",
+            "autenticidade;",
+            "integridade;",
+            "disponibilidade;",
+            "irretratabilidade."
+        ],
+        "gabarito": "irretratabilidade."
+    },
+    {
+        "id": 193,
+        "enunciado": "O setor de TI da EEAR está trabalhando para estabelecer uma política de segurança da informação eficiente. Quais os princípios fundamentais da segurança que devem ser observados na definição dessa política?",
+        "alternativas": [
+            "Criptografia, sigilo e deslisura.",
+            "Difusão, probidade e autenticação.",
+            "Conscientização, tecnologia e flexibilidade.",
+            "Confidencialidade, integridade e disponibilidade."
+        ],
+        "gabarito": "Confidencialidade, integridade e disponibilidade."
+    },
+    {
+        "id": 194,
+        "enunciado": "A informação é um ativo e um bem de grande valor para os processos de negócio das empresas. No que diz respeito à segurança da informação, dois aspectos são descritos a seguir.\nI. Está associado à ideia da capacidade de um sistema de permitir que alguns usuários acessem determinadas informações, ao mesmo tempo em que impede que outros, não autorizados, a vejam. Esse princípio é respeitado quando apenas as pessoas explicitamente autorizadas podem ter acesso à informação.\nlI. Está associado à ideia de que a informação deve estar correta, ser verdadeira e não estar corrompida. Esse princípio é respeitado quando a informação acessada está completa, sem alterações e, portanto, confiável.\nOs aspectos descritos em I e II são denominados, respectivamente:",
+        "alternativas": [
+            "integridade e privacidade.",
+            "privacidade e autenticidade.",
+            "confidencialidade e integridade.",
+            "autenticidade e confidencialidade."
+        ],
+        "gabarito": "confidencialidade e integridade."
+    },
+    {
+        "id": 195,
+        "enunciado": "No contexto da Segurança da Informação, encontram-se as seguintes afirmativas:\nI. Garantir que um usuário é de fato quem alega ser.\nII. A informação deve estar correta, ser verdadeira e não estar corrompida.\nAs afirmativas em I e II correspondem, respectivamente, aos seguintes conceitos:",
+        "alternativas": [
+            "validação e privacidade.",
+            "integridade e validação.",
+            "autenticação e integridade.",
+            "privacidade e autenticação."
+        ],
+        "gabarito": "autenticação e integridade."
+    },
+    {
+        "id": 196,
+        "enunciado": "A classificação e controle dos ativos de informação da organização propõe que as informações sejam classificadas de forma a permitir um nível adequado de proteção. Nesse contexto, os ativos podem ser classificados em quatro níveis, descritos a seguir.\nI. Informações que, se forem divulgadas fora da organização, não trarão impactos aos negócios. A integridade dos dados não é vital.\nII. O acesso interno ou externo não autorizado a estas informações é extremamente crítico para a organização. A integridade dos dados é vital.\nIII. O acesso externo às informações deve ser evitado. Entretanto, se estes dados tornarem-se públicos, as consequências não são críticas. Existe seleção de funcionários para o acesso interno. A integridade dos dados é importante, mas não vital.\nIV. As informações devem ser protegidas de acesso externo. Se alguns destes dados forem acessados por pessoas não autorizadas, as operações da organização podem ser comprometidas, causando perdas financeiras e perda de competitividade. A integridade dos dados é vital.\nOs níveis em I, II, III e IV são denominados, respectivamente:",
+        "alternativas": [
+            "público, secreto, interno e confidencial.",
+            "secreto, interno, confidencial e público.",
+            "interno, confidencial, público e secreto.",
+            "confidencial, público, secreto e interno."
+        ],
+        "gabarito": "público, secreto, interno e confidencial."
+    },
+    {
+        "id": 197,
+        "enunciado": "Atualmente, a Segurança da Informação constitui um dos setores fundamentais em uma organização, pois o espaço cibernético está deixando as empresas cada dia mais expostas às vulnerabilidades, ameaças externas e internas, exigindo cada vez mais das equipes de TI que se adaptem ao cenário da Segurança. Nesse contexto, os pilares da Segurança da Informação, descritos a seguir, representam peças vitais na proteção dos dados, tornando-se essenciais para um bom funcionamento das infraestruturas.\nI. Refere-se à acessibilidade que se tem os dados e sistemas da empresa, ou seja, as informações devem estar sempre acessíveis para que aos dados possam ser consultados a qualquer momento para quem é autorizado.\nII. Refere-se aos procedimentos e métodos que garantem o controle de acesso às informações sensíveis, dessa forma restringindo os dados a quem está autorizado.\nIII. Refere-se à preservação da informação, em que as informações não sofram nenhuma alteração sem a devida autorização e, desse modo, é necessário assegurar que as informações não sejam modificadas no tráfego.\nOs pilares descritos em I, II e III são denominados, respectivamente, como:",
+        "alternativas": [
+            "disponibilidade, confidencialidade e integridade.",
+            "autenticidade, disponibilidade e confidencialidade.",
+            "integridade, autenticidade e disponibilidade.",
+            "confidencialidade, integridade e autenticidade."
+        ],
+        "gabarito": "disponibilidade, confidencialidade e integridade."
+    },
+    {
+        "id": 198,
+        "enunciado": "Considere que uma pessoa, detentora de um segredo:\nI. Garante que ele está conforme seu conteúdo original estabelecido e que assim se manterá enquanto existir.\nII. Garante a um grupo de pessoas que elas podem acessá-lo sempre que quiserem, desde que autorizadas por ela.\nIII. Autoriza somente um grupo de pessoas a acessá-lo em um determinado local.\nNo contexto de segurança da informação, as considerações I, II e III são, correta e respectivamente, correspondentes aos princípios de",
+        "alternativas": [
+            "integridade, não repúdio e disponibilidade.",
+            "autenticidade, não repúdio e confidencialidade.",
+            "autenticidade, disponibilidade e autoridade.",
+            "integridade, disponibilidade e confidencialidade.",
+            "não repúdio, autenticidade e autoridade."
+        ],
+        "gabarito": "integridade, disponibilidade e confidencialidade."
+    },
+    {
+        "id": 199,
+        "enunciado": "Segundo Hintzbergen et al. (2, \"Confidencialidade, integridade e disponibilidade são princípios críticos de segurança.\" e \"Todos os controles de segurança, mecanismos e proteções são implementados para prover um ou mais desses princípios, e todos os riscos, ameaças e vulnerabilidades são medidos pela sua capacidade potencial de comprometer um ou todos os princípios do triângulo CIA.\" Observe a imagem a seguir que representa o triângulo CIA:\nO triângulo CIA.\nFonte: HINTZBERGEN et al. (2.\nSobre os princípios de segurança e Gestão de Segurança, é correto afirmar que a",
+        "alternativas": [
+            "integridade pode ser garantida pelo uso de criptografia simétrica.",
+            "disponibilidade não é afetada por ataques Denial of Service (DoS) nem Distributed Denial of Service (DDoS).",
+            "gestão de segurança numa organização é responsável pela segurança lógica dos dados e não física dos ambientes.",
+            "confidencialidade pode ser fornecida pelo uso de criptografia assimétrica, com cifragem usando a chave pública do destinatário.",
+            "integridade do sistema não é comprometida quando um atacante insere um vírus, uma bomba lógica ou um backdoor no sistema, e sim a disponibilidade e a confidencialidade."
+        ],
+        "gabarito": "confidencialidade pode ser fornecida pelo uso de criptografia assimétrica, com cifragem usando a chave pública do destinatário."
+    },
+    {
+        "id": 200,
+        "enunciado": "No dia 10 de dezembro de 2021, a plataforma do ConecteSUS, que contém os registros de vacinação contra COVID-19 no Brasil, ficou fora do ar e acreditou-se na ocorrência de um ataque hacker com ransomware.\nLeia trechos de uma reportagem a seguir.\nAnonymous descobre que “ataque ransomware” ao Ministério da Saúde era outra coisa; PF confirma.\n13/12/2021.\nTudo indica que a ameaça no ataque registrado ao Ministério da Saúde, no qual “50 Terabytes” de dados teriam sido roubados, é uma imensa farsa. Não houve ransomware, mas um mero redirecionamento de DNS.\nA descoberta foi feita por um perfil brasileiro do Anonymous, EterSec:\nO ataque direcionado ao site do SUS não se trata de um ransomware; o fato que realmente aconteceu é que no site ocorreu um redirecionamento de DNS (que é como o seu serviço de internet resolve o caminho dos sites).\nE mais tarde confirmada pela Polícia Federal:\nA Polícia Federal foi acionada na manhã de hoje (10/para atender ocorrência de ataque cibernético aos sistemas do Ministério da Saúde e de modificação do conteúdo exibido em seu site (defacement).\nFoi comunicada a ocorrência de incidente de segurança cibernético no ambiente de nuvem pública (AWS), com comprometimento de sistemas de notificação de casos de Covid do Programa Nacional de Imunização e do ConectSUS.\nEm coletiva de imprensa na tarde de sexta (10 de dezembro), o Ministério da Saúde não mencionou “ransomware”, mas apenas “incidente”. O que aconteceu é imensamente mais simples que uma invasão de ransomware. Alguém simplesmente mudou dados na Amazon Web Services.\nFontes disponíveis em: https://olhardigital.com.br/2021/12/10/seguranca/ anonymous-pf-ransomware-ministerio-saude/ https://twitter.com/EterSec_/status/1469288686533627908 https://twitter.com/policiafederal/status/1469399819416653824 Baseando-se na notícia, na imagem explicando o ataque DNS Spoofing e nas informações que podem ser extraídas, marque a opção que contém a afirmativa correta sobre o incidente.",
+        "alternativas": [
+            "Houve um vazamento de dados dos vacinados no Brasil, tendo em vista que os atacantes roubaram as bases de dados do ConectSUS.",
+            "Esse caso é um exemplo de problema de disponibilidade, tendo em vista que os usuários não conseguiram ver seus dados nem gerar o certificado de vacina na plataforma ConecteSUS.",
+            "A ocorrência mostra que o ataque foi provocado por um agente interno que tinha acesso ao sistema.",
+            "O sistema voltou a funcionar depois que um resgate foi pago e as bases de dados devolvidas.",
+            "A integridade e a confidencialidade dos dados foram comprometidas."
+        ],
+        "gabarito": "Esse caso é um exemplo de problema de disponibilidade, tendo em vista que os usuários não conseguiram ver seus dados nem gerar o certificado de vacina na plataforma ConecteSUS."
+    }
+]

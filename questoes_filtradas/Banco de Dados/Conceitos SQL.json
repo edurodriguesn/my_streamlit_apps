@@ -1,0 +1,1344 @@
+[
+    {
+        "id": 1,
+        "enunciado": "Assinale a alternativa que corresponde a um comando da Linguagem de Transação de Dados (DTL) da linguagem SQL ANSI.",
+        "alternativas": [
+            "SELECT.",
+            "CREATE.",
+            "COMMIT.",
+            "GRANT.",
+            "UPDATE."
+        ],
+        "gabarito": "COMMIT."
+    },
+    {
+        "id": 2,
+        "enunciado": "A respeito de linguagens de bancos de dados e administração de bancos de dados, julgue o item subsequente.\nEm um banco de dados relacional, os comandos SELECT e UPDATE fazem parte da DML (data manipulation language).",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 3,
+        "enunciado": "Referente a comandos SQL, informe se é verdadeiro (V) ou falso (F) o que se afirma a seguir e assinale a alternativa com a sequência correta.\n( ) O comando DELETE remove linhas de uma tabela, podendo ser condicionado por cláusula WHERE.\n( ) O comando TRUNCATE é uma operação DML que remove dados selecionados pela cláusula WHERE.\n( ) O comando JOIN permite combinar registros de duas ou mais tabelas com base em colunas relacionadas.\n( ) O comando GROUP BY agrupa registros e pode ser utilizado em conjunto com funções agregadoras, como SUM e COUNT.",
+        "alternativas": [
+            "V – V – F – V.",
+            "F – F – V – V.",
+            "V – F – F – F.",
+            "F – V – V – F.",
+            "V – F – V – V."
+        ],
+        "gabarito": "V – F – V – V."
+    },
+    {
+        "id": 4,
+        "enunciado": "Assinale a opção que contém apenas comandos da linguagem de criação de dados (DDL – Data Definition Language).",
+        "alternativas": [
+            "INSERT, DROP, ALTER.",
+            "ALTER, CREATE e DROP.",
+            "INSERT, UPDATE e DROP.",
+            "CREATE, ALTER e DELETE.",
+            "ALTER, UPDATE e DELETE."
+        ],
+        "gabarito": "ALTER, CREATE e DROP."
+    },
+    {
+        "id": 5,
+        "enunciado": "O seguinte conjunto de comandos foi dado, nesta sequência, em um bando de dados Oracle. Considere que existe tabela \"escolas\", que exista o usuário \"gestor\" e que o usuário que está executando os comandos tem privilégios para sucesso na execução:\ngrant all privileges on escolas to gestor;\nrevoke insert, update on escolas from gestor;\nQuais privilégios de tabela ficarão mantidos para o usuário gestor?",
+        "alternativas": [
+            "ALTER, DELETE E e SELECT.",
+            "ALTER, DELETE, INDEX, SELECT, REFERENCES e DEBUG.",
+            "ALTER, DELETE, INDEX, SELECT e REFERENCES.",
+            "ALTER, DELETE, INDEX e SELECT.",
+            "ALTER, DELETE, INDEX, SELECT e DEBUG."
+        ],
+        "gabarito": "ALTER, DELETE, INDEX, SELECT e REFERENCES."
+    },
+    {
+        "id": 6,
+        "enunciado": "Os comandos DML (Data Manipulation Language) são um conjunto de comandos da linguagem SQL que permitem a manipulação de dados em bancos de dados. Qual comando não faz parte deste conjunto?",
+        "alternativas": [
+            "CREATE.",
+            "DELETE.",
+            "MERGE.",
+            "INSERT.",
+            "UPDATE."
+        ],
+        "gabarito": "CREATE."
+    },
+    {
+        "id": 7,
+        "enunciado": "Dado que SQL (Structured Query Language) é a linguagem padrão para a manipulação de dados em bancos de dados relacionais, é correto afirmar que o comando",
+        "alternativas": [
+            "UDAPTE é usado para adicionar um novo atributo em uma tabela.",
+            "ADD é usado para adicionar um novo registro em uma tabela.",
+            "DROP é usado para deletar todos os registros de uma tabela, mantendo-a no banco.",
+            "GRANT é usado para conceder permissões a um usuário.",
+            "GET é usado para retornar todos os valores de uma tabela."
+        ],
+        "gabarito": "GRANT é usado para conceder permissões a um usuário."
+    },
+    {
+        "id": 8,
+        "enunciado": "Assinale a opção em que é corretamente apresentado o comando DDL que permite criar a tabela de nome itens_pedido e relacionar cada pedido a seus produtos, de modo que: pedido_id e produto_id sejam chaves estrangeiras que referenciem a tabela; quantidade seja um inteiro maior que zero; preco_unitario seja um decimal maior que zero; e a combinação (pedido_id, produto_id) seja a chave primária, garantindo unicidade e não null.",
+        "alternativas": [
+            "CREATE TABLE itens_pedido ( pedido_id INTEGER REFERENCES pedidos(id), produto_id INTEGER REFERENCES produtos(id), quantidade INTEGER CHECK (quantidade > , preco_unitario DECIMAL(10,CHECK (preco_unitario > , UNIQUE (pedido_id, produto_id) );",
+            "CREATE itens_pedido ( pedido_id INTEGER REFERENCES pedidos(id), produto_id INTEGER REFERENCES produtos(id), quantidade INTEGER CHECK quantidade > 0, preco_unitario DECIMAL(10,CHECK preco_unitario > 0, PRIMARY KEY (pedido_id, produto_id) );",
+            "CREATE TABLE itens_pedido ( pedido_id INTEGER, produto_id INTEGER, quantidade INTEGER CHECK (quantidade > , preco_unitario DECIMAL(10,CHECK (preco_unitario > , FOREIGN KEY (pedido_id) pedidos(id), FOREIGN KEY (produto_id) produtos(id), PRIMARY KEY (pedido_id, produto_id) );",
+            "CREATE TABLE itens_pedido ( pedido_id INTEGER REFERENCES pedidos(id), produto_id INTEGER REFERENCES produtos(id), quantidade INTEGER CHECK (quantidade > , preco_unitario DECIMAL(10,CHECK (preco_unitario > , PRIMARY KEY (pedido_id, produto_id) );",
+            "CREATE TABLE itens_pedido ( item_id INTEGER PRIMARY KEY, pedido_id INTEGER REFERENCES pedidos(id), produto_id INTEGER REFERENCES produtos(id), quantidade INTEGER CHECK (quantidade > , preco_unitario DECIMAL(10,CHECK. (preco_unitario > , UNIQUE (pedido_id, produto_id) );"
+        ],
+        "gabarito": "CREATE TABLE itens_pedido ( pedido_id INTEGER REFERENCES pedidos(id), produto_id INTEGER REFERENCES produtos(id), quantidade INTEGER CHECK (quantidade > , preco_unitario DECIMAL(10,CHECK (preco_unitario > , PRIMARY KEY (pedido_id, produto_id) );"
+    },
+    {
+        "id": 9,
+        "enunciado": "A linguagem SQL é composta por diferentes subconjuntos de linguagens que permitem a definição, manipulação e transação de dados em um banco de dados. Um desses subconjuntos é a DDL (Data Definition Language), que é usada para a definição das estruturas de dados, fornecendo as instruções que permitem a criação, modificação e remoção de objetos de banco de dados. Considerando essas informações, assinale a alternativa em que todos os comandos pertencem exclusivamente à DDL.",
+        "alternativas": [
+            "CREATE, GRANT e REVOKE.",
+            "SELECT, UPDATE e DELETE.",
+            "CREATE, ALTER e DROP.",
+            "BEGIN TRANSACTION, UPDATE e DELETE.",
+            "BEGIN TRANSACTION, REVOKE e ROLLBACK."
+        ],
+        "gabarito": "CREATE, ALTER e DROP."
+    },
+    {
+        "id": 10,
+        "enunciado": "Em um banco de dados relacional, os comandos DDL (Data Definition Language) são usados para definir e gerenciar estruturas de dados, como tabelas, índices e esquemas. Assinale a alternativa que contém apenas comandos DDL usados para definir a estrutura do banco de dados.",
+        "alternativas": [
+            "SELECT, INSERT, UPDATE, DELETE.",
+            "CREATE, ALTER, DROP, TRUNCATE.",
+            "GRANT, REVOKE, COMMIT, ROLLBACK.",
+            "BEGIN, END, SAVEPOINT, ROLLBACK TO.",
+            "SELECT, JOIN, GROUP BY, HAVING."
+        ],
+        "gabarito": "CREATE, ALTER, DROP, TRUNCATE."
+    },
+    {
+        "id": 11,
+        "enunciado": "O SQL é uma linguagem padrão para manipulação de dados em bancos relacionais, amplamente utilizada para criar e manter estruturas em diferentes SGBDs. Após a constituição e a implementação de um banco de dados, uma forma eficiente de realizar a persistência dos dados é através da utilização da linguagem de manipulação de dados, conhecida no mercado como DML. São exemplos de comandos desse tipo de linguagem, EXCETO:",
+        "alternativas": [
+            "Select.",
+            "Insert.",
+            "Update.",
+            "Truncate."
+        ],
+        "gabarito": "Truncate."
+    },
+    {
+        "id": 12,
+        "enunciado": "Considere o script SQL a seguir, desenvolvido para o controle de estoque de estoque de uma loja.\n• (Comando Criação de tabela de produtos CREATE TABLE Produto ( id_produto INT PRIMARY KEY, nome VARCHAR(1NOT NULL, preco NUMERIC(10,NOT NULL, quantidade INT NOT NULL );\n• (Comando Inserção de dado inicial INSERT INTO Produto (id_produto, nome, preco, quantidade) VALUES (1, 'Mouse Óptico', 49.90, ;\n• (Comando View para produtos sem estoque CREATE VIEW vw_produtos_em_falta AS SELECT id_produto, nome FROM Produto WHERE quantidade = 0;\n• (Comando Procedure para atualizar preço CREATE PROCEDURE atualizar_preco(p_id INT, p_preco NUMERIC(10,) BEGIN UPDATE Produto SET preco = p_preco WHERE id_produto = p_id;\nEND;\n• (Comando Trigger para log de mudanças de preço CREATE TRIGGER trg_log_preco AFTER UPDATE OF preco ON Produto FOR EACH ROW BEGIN INSERT INTO LogAlteracoes(id_produto, campo, valor_antigo, valor_novo, dt_evento) VALUES (OLD.id_produto, 'preco', OLD.preco, NEW.preco, CURRENT_TIMESTAMP);\nEND;\n• (Comando Atualização de quantidade UPDATE Produto SET quantidade = quantidade - 1 WHERE id_produto = 1;\n• (Comando Remoção de produtos sem estoque DELETE FROM Produto WHERE quantidade = 0;\n• (Comando Concessão de permissão de leitura GRANT SELECT ON Produto TO analista;\n• (Comando Alteração de esquema da tabela ALTER TABLE Produto ADD COLUMN ativo BOOLEAN DEFAULT TRUE;\n• (Comando Revogação de permissão de inserção REVOKE INSERT ON Produto FROM analista;\nAs instruções do tipo DML são executadas nos comandos:",
+        "alternativas": [
+            "1 – 3 – 4.",
+            "2 – 6 – 7.",
+            "2 – 8 – 10.",
+            "3 – 5 – 9.",
+            "1 – 7 – 10."
+        ],
+        "gabarito": "2 – 6 – 7."
+    },
+    {
+        "id": 13,
+        "enunciado": "SQL é uma linguagem de banco de dados abrangente que inclui comandos para definição de dados (DDL - Data Definition Language), manipulação de dados (DML - Data Manipulation Language), controle (DCL – Data Control Language), dentre outros.\nNeste contexto, avalie as afirmativas a seguir e assinale (V) para verdadeira e (F) para falsa.\n( ) O comando para apagar registros em uma tabela é o DELETE.\n( ) Os comandos REVOKE, UPDATE e TRUNCATE pertencem, respectivamente, aos subconjuntos DCL, DML e DDL.\n( ) O comando SAVEPOINT é um dos comandos do subconjunto DCL.\n( ) O comando DROP pertence ao subconjunto DDL, sendo usado para limpar completamente uma tabela mantendo sua estrutura original.\nAs afirmativas são, respetivamente,",
+        "alternativas": [
+            "V – V – F – F.",
+            "F – V – V – V.",
+            "V – F – F – V.",
+            "F – F – V – F.",
+            "V – V – F – V."
+        ],
+        "gabarito": "V – V – F – F."
+    },
+    {
+        "id": 14,
+        "enunciado": "No tempo em que uma transação em SQL é realizada, os dados alterados por ela são inseridos em um repositório temporário até que seja aplicado um comando que torne definitiva toda e qualquer alteração realizada pela transação. Qual é esse comando?",
+        "alternativas": [
+            "SAVE.",
+            "SAVE DATA.",
+            "ROLLBACK.",
+            "CHECKPOINT.",
+            "COMMIT."
+        ],
+        "gabarito": "COMMIT."
+    },
+    {
+        "id": 15,
+        "enunciado": "SQL é um conjunto de comandos de manipulação de banco de dados utilizado para criar e manter a estrutura desse banco de dados, além de incluir, excluir, modificar e pesquisar informações nas suas tabelas. A linguagem SQL é dividida nos seguintes componentes:\nI. Data Definition Language.\nII. Data Manipulation Language.\nIII. Data Query Language.\nIV. Data Control Language.\nQuais estão corretos?",
+        "alternativas": [
+            "Apenas I e II.",
+            "Apenas I e III.",
+            "Apenas I, II e III.",
+            "Apenas II, III e IV.",
+            "I, II, III e IV."
+        ],
+        "gabarito": "I, II, III e IV."
+    },
+    {
+        "id": 16,
+        "enunciado": "São tipos de comando SQL, EXCETO:",
+        "alternativas": [
+            "DDL (Data Definition Language).",
+            "DML (Data Manipulation Language).",
+            "DCL (Data Control Language).",
+            "TCL (Transaction Control Language).",
+            "DPL (Data Processing Language)."
+        ],
+        "gabarito": "DPL (Data Processing Language)."
+    },
+    {
+        "id": 17,
+        "enunciado": "Um SGDB recebeu um comando DELETE na tabela DEPARTAMENTO para o departamento de ‘Pesquisa’. Se a chave estrangeira Dnr na tabela FUNCIONARIO foi definida com a opção ON DELETE SET NULL, qual seria o resultado da operação de deleção?",
+        "alternativas": [
+            "A deleção seria rejeitada por violar a restrição de integridade referencial.",
+            "O departamento ‘Pesquisa’ seria deletado, e todos os funcionário que trabalham nesse departamento seriam deletados.",
+            "O departamento ‘Pesquisa’ seria deletado, e o valor do atributo Dnr, para todos os funcionários desse departamento, seria alterado para NULL.",
+            "O departamento ‘Pesquisa’ seria deletado, mas os funcionários associados a ele manteriam o valor de Dnr inalterado, fato que geraria uma anomalia no banco de dados.",
+            "A deleção do departamento ‘Pesquisa’ não seria possível, pois a tabela FUNCIONARIO possui registros que o referenciam."
+        ],
+        "gabarito": "O departamento ‘Pesquisa’ seria deletado, e o valor do atributo Dnr, para todos os funcionários desse departamento, seria alterado para NULL."
+    },
+    {
+        "id": 18,
+        "enunciado": "Selecione a alternativa que apresenta CORRETAMENTE um comando da categoria DDL (Data Definition Language):",
+        "alternativas": [
+            "SELECT.",
+            "GRANT.",
+            "DROP.",
+            "REVOKE."
+        ],
+        "gabarito": "DROP."
+    },
+    {
+        "id": 19,
+        "enunciado": "Selecione a alternativa que apresenta CORRETAMENTE um comando da categoria DML (Data Manipulation Language):",
+        "alternativas": [
+            "SELECT.",
+            "GRANT.",
+            "DROP.",
+            "REVOKE."
+        ],
+        "gabarito": "SELECT."
+    },
+    {
+        "id": 20,
+        "enunciado": "Selecione a alternativa que apresenta CORRETAMENTE um comando da categoria TCL (Transaction Control Language):",
+        "alternativas": [
+            "DROP.",
+            "GRANT.",
+            "COMMIT.",
+            "SELECT."
+        ],
+        "gabarito": "COMMIT."
+    },
+    {
+        "id": 21,
+        "enunciado": "Qual é a função do comando COMMIT em SQL?",
+        "alternativas": [
+            "Reverter uma transação.",
+            "Encerrar a conexão com o banco de dados.",
+            "Criar uma nova tabela no banco de dados.",
+            "Confirmar as alterações realizadas em uma transação.",
+            "Excluir permanentemente uma tabela do banco de dados."
+        ],
+        "gabarito": "Confirmar as alterações realizadas em uma transação."
+    },
+    {
+        "id": 22,
+        "enunciado": "Um estagiário recebe a tarefa de documentar os scripts SQL usados na inicialização do sistema. Ele precisa classificar os comandos CREATE TABLE, ALTER TABLE e CREATE INDEX em uma categoria, e os comandos INSERT, UPDATE e DELETE em outra. Esta divisão separa os comandos de definição da estrutura dos dados dos comandos de manipulação dos próprios dados. Qual é a denominação correta para essas duas categorias de linguagem SQL?",
+        "alternativas": [
+            "DDL e DML.",
+            "DCL e DTL.",
+            "DQL e DDL.",
+            "DML e DCL.",
+            "TCL e DQL."
+        ],
+        "gabarito": "DDL e DML."
+    },
+    {
+        "id": 23,
+        "enunciado": "O CRUD, que representa as quatro operações básicas em um SGBD, é um exemplo de",
+        "alternativas": [
+            "data control language.",
+            "not only structured query language.",
+            "data manipulation language.",
+            "data definition language.",
+            "structured query language."
+        ],
+        "gabarito": "data manipulation language."
+    },
+    {
+        "id": 24,
+        "enunciado": "Em um banco de dados, a instrução CREATE TABLE é um exemplo de",
+        "alternativas": [
+            "SQL.",
+            "DML.",
+            "DDL.",
+            "DCL.",
+            "NoSQL."
+        ],
+        "gabarito": "DDL."
+    },
+    {
+        "id": 25,
+        "enunciado": "Um usuário técnico de um ambiente com Sistema Gerenciador de Banco de Dados, baseado no SQL, deseja remover todos os registros de uma tabela, mas mantendo a estrutura da mesma.\nPara isso, ele vai usar o comando da DDL do SQL conhecido como:",
+        "alternativas": [
+            "DROP.",
+            "ALTER.",
+            "DELETE.",
+            "TRUNCATE."
+        ],
+        "gabarito": "TRUNCATE."
+    },
+    {
+        "id": 26,
+        "enunciado": "Acerca de técnicas de modelagem de BI (business intelligence), de big data e de linguagem de manipulação de dados (DML), julgue o item que se segue.\nA DML não procedimental exige que um usuário especifique quais dados são necessários sem especificar como obtê-los.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 27,
+        "enunciado": "Julgue o item a seguir.\nNa linguagem SQL, utilizada para interagir com bancos de dados relacionais, os comandos são divididos em categorias, incluindo DML (Data Manipulation Language) e DDL (Data Definition Language). DML é usado para manipular dados (como INSERT, UPDATE, DELETE) enquanto DDL é usado para definir e gerenciar a estrutura dos objetos do banco de dados (como CREATE, ALTER, DROP).",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 28,
+        "enunciado": "SQL é uma linguagem declarativa baseada em álgebra e cálculo relacional, que permite a manipulação de dados com suporte a estrutura de dados, regras e restrições de integridade. Para que o SQL forneça tantos recursos, seus comandos são divididos em grupos. Considerando os grupos dos comandos SQL, relacione adequadamente as colunas a seguir.\n1. DDL.\n2. DML.\n3. DCL.\n4. DTL.\n5. DQL.\n( ) Permite a manipulação dos dados, ou seja, inclusão, alteração e exclusão de dados.\n( ) Oferece comandos para trabalhar com transações.\n( ) Proporciona consulta de dados.\n( ) Permite determinar o esquema do banco de dados, bem como alterá-lo, exclui-lo e trabalhar com os metadados.\n( ) Permite controlar a licença e a autorização de acesso dos usuários para com os dados.\nA sequência está correta em",
+        "alternativas": [
+            "1, 2, 4, 3, 5.",
+            "2, 4, 5, 1, 3.",
+            "3, 5, 1, 4, 2.",
+            "5, 1, 3, 2, 4."
+        ],
+        "gabarito": "2, 4, 5, 1, 3."
+    },
+    {
+        "id": 29,
+        "enunciado": "João precisa criar um esquema normalizado para a tabela R, que contém cinco colunas, que não admitem valores nulos, como ilustrado no esquema abaixo.\nR (A, B, C, D, E) Sobre essas colunas (ou atributos), João levantou as dependências funcionais seguintes.\nA -> B B -> C C -> D D -> E D -> A Dentre os esquemas SQL esboçados por João, o que melhor representa a tabela R, com suas restrições, é:",
+        "alternativas": [
+            "create table R ( A int not null unique, B int not null unique, C int not null unique, D int not null unique, E int not null ).",
+            "create table R ( A int not null, B int not null, C int not null, D int not null, E int not null, primary key (A, B, C, D)).",
+            "create table R1 ( A int not null, B int not null, C int not null, D int not null, primary key (A, B, C, D)) create table R2 ( D int not null unique, E int not null).",
+            "create table R1 ( A int not null unique, B int not null unique, C int not null unique, D int not null unique) create table R2 ( D int not null unique E int not null).",
+            "create table R1 ( A int not null unique, B int not null unique, C int not null unique) create table R2 ( D int not null unique, E int not null)."
+        ],
+        "gabarito": "create table R ( A int not null unique, B int not null unique, C int not null unique, D int not null unique, E int not null )."
+    },
+    {
+        "id": 30,
+        "enunciado": "Uma linguagem que tem por objetivo servir de interface entre o usuário e o Sistema Gerenciador de Banco de Dados conhecida por SQL (Structured Query Languag).\nA SQL está dividida em partes as quais são apresentadas a seguir:\n( ) A DDL (Data Definition Language), responsável por definir os metadados.\n( ) A DML (Data Manipulation Language), que possibilita a manipulação e consulta dos dados.\n( ) A DCL (Data Control Language), que trabalha com comandos para auxiliar na segurança do banco de dados.\nAssinale a alternativa que apresenta a sequência correta de cima para baixo.",
+        "alternativas": [
+            "V - F - V.",
+            "F - V - V.",
+            "F - V - F.",
+            "V - V - V."
+        ],
+        "gabarito": "V - V - V."
+    },
+    {
+        "id": 31,
+        "enunciado": "ALUNOS(ID,Nome,Endereço,Cidade,UF) DISCIPLINA(Cod_disciplina, Nome_diciplina, Carga_horaria) Considerando que as tabelas precedentes façam parte de um banco de dados relacional, julgue o item subsequente.\nA seguir, é apresentado um exemplo de comando DDL.\nDELETE TABLE DISCIPLINA WHERE Carga_horaria > 3;",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 32,
+        "enunciado": "Considerando as linguagens e os fundamentos de bancos de dados relacionais, julgue o item subsequente.\nNo DML (data manipulation language), a instrução TRUNCATE elimina todas as linhas de uma tabela simultaneamente, enquanto a instrução DELETE oferece a possibilidade de excluir dados específicos ou todos os dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 33,
+        "enunciado": "Considere a criação de um banco de dados relacional para a biblioteca de uma universidade.\nNesse contexto, Data Definition Language, DDL; Data Manipulation Language, DML; e Data Query Language, DQL, são utilizados para",
+        "alternativas": [
+            "DDL: Criar tabelas para armazenar informações sobre livros, autores e editoras. DML: Inserir registros nas tabelas com detalhes específicos de um novo livro. DQL: Recuperar todos os livros de um determinado autor.",
+            "DDL: Criar tabelas para armazenar informações sobre livros, autores e editoras. DML: Atualizar a quantidade disponível de exemplares de um livro. DQL: Inserir registros nas tabelas com detalhes específicos de um novo livro.",
+            "DDL: Atualizar a quantidade disponível de exemplares de um livro. DML: Criar tabelas para armazenar informações sobre livros, autores e editoras. DQL: Recuperar todos os livros emprestados por um usuário específico.",
+            "DDL: Inserir registros nas tabelas com detalhes específicos de um novo livro DML: Criar tabelas para armazenar informações sobre livros, autores e editoras. DQL: Atualizar a quantidade disponível de exemplares de um livro.",
+            "DDL: Recuperar todos os livros de um determinado autor. DML: Criar tabelas para armazenar informações sobre livros, autores e editoras. DQL: Inserir registros nas tabelas com detalhes específicos de um novo livro."
+        ],
+        "gabarito": "DDL: Criar tabelas para armazenar informações sobre livros, autores e editoras. DML: Inserir registros nas tabelas com detalhes específicos de um novo livro. DQL: Recuperar todos os livros de um determinado autor."
+    },
+    {
+        "id": 34,
+        "enunciado": "No contexto das linguagens de manipulação de dados, relacione as linguagens com seus respectivos comandos:\n1. DDL\n2. DML\n3. DQL\n4. DTL\n5. DCL\n( ) GRANT\n( ) TRANSACTION\n( ) SELECT\n( ) INSERT\n( ) DROP Assinale a opção que indica a relação correta na ordem apresentada.",
+        "alternativas": [
+            "1 – 2 – 3 – 4 – 5.",
+            "2 – 1 – 5 – 3 – 4.",
+            "3 – 4 – 1 – 5 – 2.",
+            "4 – 3 – 2 – 1 – 5.",
+            "5 – 4 – 3 – 2 – 1."
+        ],
+        "gabarito": "5 – 4 – 3 – 2 – 1."
+    },
+    {
+        "id": 35,
+        "enunciado": "SQL é uma linguagem declarativa com seus comandos divididos em grupos, permitindo a manipulação de dados com suporte à estrutura de dados, regras e restrições de integridade. Sobre a divisão dos comandos SQL em grupos, assinale a afirmativa INCORRETA.",
+        "alternativas": [
+            "DCL: Proporciona consulta de dados.",
+            "DTL: Oferece comandos para trabalhar com transações.",
+            "DML: Permite inclusão, alteração e exclusão de dados.",
+            "DDL: Permite determinar o esquema do banco de dados e trabalhar com metadados."
+        ],
+        "gabarito": "DCL: Proporciona consulta de dados."
+    },
+    {
+        "id": 36,
+        "enunciado": "SQL é a linguagem padrão para manipulação de registros em bancos de dados relacionais. Apresenta uma organização estrutural bem-definida, dividindo seus comandos em cinco (5) subconjuntos: DML (Data Manipulation Language), DTL (Data Transaction Language), DDL (Data Definition Language), DQL (Data Query Language) e DCL (Data Control Language). São, respectivamente, função e exemplo de comandos do subconjunto DDL:",
+        "alternativas": [
+            "manipulação de dados armazenados, SELECT e UPDATE.",
+            "controle de transações realizadas, COMMIT e ROLLBACK.",
+            "gerenciamento de elementos estruturais, CREATE e DROP.",
+            "controle de acesso, GRANT e REVOKE."
+        ],
+        "gabarito": "gerenciamento de elementos estruturais, CREATE e DROP."
+    },
+    {
+        "id": 37,
+        "enunciado": "A Linguagem de Consulta Estruturada (SQL) é uma linguagem de programação utilizada para gerenciar dados armazenados em sistemas de gerenciamento de banco de dados relacionais. Ela permite realizar diversas operações, como consulta, inserção, atualização e exclusão de dados em tabelas de banco de dados. Além disso, o SQL também oferece recursos para criar e modificar a estrutura do banco de dados. Qual opção descreve a classificação dos comandos em SQL, representando respectivamente comandos DDL, DML e DCL?",
+        "alternativas": [
+            "INSERT, ALTER, ROLLBACK.",
+            "UPDATE, GRANT, ALTER.",
+            "DROP, COMMIT, GRANT.",
+            "ALTER, SELECT, REVOKE."
+        ],
+        "gabarito": "ALTER, SELECT, REVOKE."
+    },
+    {
+        "id": 38,
+        "enunciado": "Linguagem de definição de dados (Data Definition Language – DDL) é uma parte fundamental do SQL, sendo usada para definir a estrutura de bancos de dados e objetos, como tabelas, índices e esquemas. Sobre os comandos DDL, qual comando pode ser utilizado para deletar todas as linhas de uma tabela sem remover a estrutura da tabela?",
+        "alternativas": [
+            "DROP TABLE.",
+            "REMOVE ALL.",
+            "DELETE FROM.",
+            "TRUNCATE TABLE."
+        ],
+        "gabarito": "TRUNCATE TABLE."
+    },
+    {
+        "id": 39,
+        "enunciado": "Associe as duas colunas relacionando as suas respectivas definições:\nSQL é uma linguagem unificada de dados para:\nI. Definição de dados\nII. Acesso a dados\nIII. Manipulação de dados\nIV. Controle de acesso a dados Definições:\n( ) Operações\n( ) Consultas\n( ) Criar tabelas\n( ) Definir controle de um usuário ao Banco de Dados Assinale a alternativa correta.",
+        "alternativas": [
+            "I, IV, II e III.",
+            "II, III, IV e I.",
+            "II, I, III e IV.",
+            "III,II, I e IV.",
+            "III, II, IV e I."
+        ],
+        "gabarito": "III,II, I e IV."
+    },
+    {
+        "id": 40,
+        "enunciado": "Considerando as linguagens Java, CSS e SQL, julgue o item.\nO comando a seguir tem a finalidade de alterar o tamanho da coluna nome na tabela Fisioterapeuta para suportar até 150 caracteres.\nALTER TABLE Fisioterapeuta MODIFY COLUMN nome VARCHAR(1;",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 41,
+        "enunciado": "Com relação à linguagem de consulta estruturada (SQL) padrão ANSI e seus subconjuntos, analise as afirmativas a seguir e assinale (V) para a verdadeira e (F) para a falsa.\n( ) Os comandos GRANT e REVOKE são usados para conceder e revogar privilégios aos usuários e pertencem à DTL.\n( ) O comando para apagar uma tabela é o DELETE.\n( ) Os comandos CREATE, ALTER e DROP pertencem ao subconjunto DDL.\n( ) O comando TRUNCATE é utilizado para limpar completamente uma tabela, mantendo sua estrutura para futuras inserções de dados. Pertence ao subconjunto DDL.\nAs afirmativas são, respetivamente,",
+        "alternativas": [
+            "F – V – V – F.",
+            "V – V – F – F.",
+            "F – F – V – V.",
+            "V – F – F – V.",
+            "F – V – V – V."
+        ],
+        "gabarito": "F – F – V – V."
+    },
+    {
+        "id": 42,
+        "enunciado": "Qual comando SQL tem como objetivo principal permitir que os administradores do sistema removam privilégios e funções de contas de usuários e de outras funções?",
+        "alternativas": [
+            "TAKE.",
+            "DELETE.",
+            "REMOVE.",
+            "UPDATE.",
+            "REVOKE."
+        ],
+        "gabarito": "REVOKE."
+    },
+    {
+        "id": 43,
+        "enunciado": "São dadas a seguir duas tabelas no banco de dados PostgreSQL: orders e customers.\nCREATE TABLE customers ( customer_id SERIAL PRIMARY KEY, customer_name VARCHAR(1);\nCREATE TABLE orders ( order_id SERIAL PRIMARY KEY, order_date DATE, customer_id INT, FOREIGN KEY (customer_id) REFERENCES customers(customer_id );\nQual alternativa altera a definição dessa chave estrangeira de modo que, quando um registro na tabela customers for deletado, a coluna customer_id na tabela orders seja atualizada para NULL?",
+        "alternativas": [
+            "ALTER TABLE orders DROP CONSTRAINT orders_customer_id_fkey, ADD CONSTRAINT orders_customer_id_fkey FOREIGN KEY (customer_id) REFERENCES customers(customer_id) ON DELETE RESTRICT NULL;",
+            "ALTER TABLE orders DROP CONSTRAINT orders_customer_id_fkey, ADD CONSTRAINT orders_customer_id_fkey FOREIGN KEY (customer_id) REFERENCES customers(customer_id) ON DELETE CASCADE NULL;",
+            "ALTER TABLE orders DROP CONSTRAINT orders_customer_id_fkey, ADD CONSTRAINT orders_customer_id_fkey FOREIGN KEY (customer_id) REFERENCES customers(customer_id) ON DELETE SET DEFAULT NULL;",
+            "ALTER TABLE orders DROP CONSTRAINT orders_customer_id_fkey, ADD CONSTRAINT orders_customer_id_fkey FOREIGN KEY (customer_id) REFERENCES customers(customer_id) ON DELETE SET NULL;"
+        ],
+        "gabarito": "ALTER TABLE orders DROP CONSTRAINT orders_customer_id_fkey, ADD CONSTRAINT orders_customer_id_fkey FOREIGN KEY (customer_id) REFERENCES customers(customer_id) ON DELETE SET NULL;"
+    },
+    {
+        "id": 44,
+        "enunciado": "Algumas linguagens são utilizadas na composição da linguagem SQL. Diante do exposto, assinale a alternativa que apresenta a linguagem utilizada na modelagem e no desenvolvimento de bancos de dados para a definição de estruturas de dados, como colunas, tabelas, linhas e índices.",
+        "alternativas": [
+            "Linguagem de definição de dados (DDL).",
+            "Linguagem de manipulação de dados (DML).",
+            "Linguagem de consulta de dados (DQL).",
+            "Linguagem de hiperdados (DHL)."
+        ],
+        "gabarito": "Linguagem de definição de dados (DDL)."
+    },
+    {
+        "id": 45,
+        "enunciado": "As linguagens de banco de dados são classificadas em diferentes tipos, cada uma com um propósito específico no gerenciamento de dados e estruturas de um banco de dados relacional. As linguagens mais comuns são DDL (Data Definition Language), DML (Data Manipulation Language), DCL (Data Control Language) e TCL\n(Transaction Control Language). Assinale a alternativa que apresenta corretamente o uso dessas linguagens.",
+        "alternativas": [
+            "DDL é usada para manipular dados existentes nas tabelas, enquanto DML é usada para definir e alterar a estrutura das tabelas.",
+            "DML é usada para alterar permissões de acesso ao banco de dados, enquanto DDL é usada para definir a estrutura do banco de dados, como a criação de tabelas e índices.",
+            "DDL é usada para definir a estrutura do banco de dados, como criar e modificar tabelas, enquanto DML é usada para inserir, atualizar e deletar dados nas tabelas.",
+            "TCL é usada para definir a estrutura de transações no banco de dados, como criação de tabelas, enquanto DCL é usada para controlar permissões e acesso de usuários."
+        ],
+        "gabarito": "DDL é usada para definir a estrutura do banco de dados, como criar e modificar tabelas, enquanto DML é usada para inserir, atualizar e deletar dados nas tabelas."
+    },
+    {
+        "id": 46,
+        "enunciado": "Um Analista utilizou um comando SQL para eliminar uma tabela supérflua de seu banco de dados. O comando que ele utilizou é categorizado no contexto de linguagem de",
+        "alternativas": [
+            "controle de dados.",
+            "descrição de dados.",
+            "manipulação de dados.",
+            "consulta de dados.",
+            "definição de dados."
+        ],
+        "gabarito": "definição de dados."
+    },
+    {
+        "id": 47,
+        "enunciado": "Considere os seguintes comandos em SQL:\nI. CREATE TABLE Produto (Codigo INT, Desc VARCHAR(5)\nII. INSERT INTO Produto (Codigo, Desc) VALUES (10, ”Monitor”)\nIII. GRANT ALTER ON Produto TO fulano\nIV. DELETE FROM Produto WHERE Cod = 10\nV. DROP TABLE Produto Assinale a alternativa que possui somente exemplos de comandos de Linguagem de Definição de Dados (DDL).",
+        "alternativas": [
+            "I, II e III.",
+            "II, III e IV.",
+            "II e V.",
+            "I e V."
+        ],
+        "gabarito": "I e V."
+    },
+    {
+        "id": 48,
+        "enunciado": "idVendaidClientedataVendavalorVenda\n1 101 10/09/2023 150.00\n2 102 12/09/2023 250.00\n3 101 15/09/2023 200.00\n4 103 20/09/2023 200.00\n5 102 25/09/2023 180.00 Com base na tabela de nome vendas apresentada acima e nos conceitos de SQL, DLL e DML, julgue o próximo item.\nA operação para adicionar uma coluna nova à tabela vendas é realizada por meio de DML",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 49,
+        "enunciado": "Julgue o item seguinte, relativo a linguagem de consulta estruturada (SQL), linguagem de definição de dados (DDL) e linguagem de manipulação de dados (DML).\nOs comandos SQL são instruções ou consultas usadas para interagir com um banco de dados relacional, a exemplo do comando COMMIT disponibilizado na DML para manipular dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 50,
+        "enunciado": "SQL (do inglês, Structured Query Language) é a linguagem utilizada para modelagem de bancos de dados relacionais, cujos comandos são divididos em cinco grupos funcionais: DDL (Data Definition Language), DCL (Data Control Language), DML (Data Manipulation Language), DQL (Data Query Language) e DTL (Data Transaction Language). Os comandos TRUNCATE e INSERT pertencem, respectivamente, aos grupos:",
+        "alternativas": [
+            "DDL e DML.",
+            "DML e DCL.",
+            "DCL e DDL.",
+            "DML e DDL."
+        ],
+        "gabarito": "DDL e DML."
+    },
+    {
+        "id": 51,
+        "enunciado": "1. CREATE TABLE Empresa (\n2. Cod_Empresa INT PRIMARY KEY,\n3. Nome VARCHAR(1NOT NULL,\n4. Endereco VARCHAR(2,\n5. Telefone INT NOT NULL 6. );\n7.\n8. CREATE TABLE Produto_Quimico ( 9. Cod_Produto_Quimico INT PRIMARY KEY, 10. Nome VARCHAR(1NOT NULL, 11. Composicao VARCHAR(312. );\n13.\n14. CREATE TABLE Empresa_Produto_Quimico ( 15. Cod_Empresa INT, 16. Cod_Produto_Quimico INT, 17. PRIMARY KEY (Cod_Empresa, Cod_Produto_Quimico), 18. FOREIGN KEY (Cod_Empresa) REFERENCES Empresa(Cod_Empresa), 19. FOREIGN KEY (Cod_Produto_Quimico) REFERENCES Produto_Quimico(Cod_Produto_Quimico) );\nCom referência ao código SQL (Structured Query Language) acima, julgue o item.\nPara que o script seja executado sem qualquer tipo de erro, é necessário incluir uma vírgula (,) ao final das linhas 5, 11 e 19.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 52,
+        "enunciado": "Suponha-se um banco de dados para uma clínica de fisioterapia com as seguintes tabelas: Paciente; Tratamento; e Fisioterapeuta.\nCada tratamento é realizado por um fisioterapeuta e é registrado na tabela Tratamento com referência ao paciente e ao fisioterapeuta. Com base nessas informações, assinale a alternativa que apresenta o(s) código(s) SQL que garante(m) que cadatratamento registrado tenha um paciente e um fisioterapeuta válidos, assegurando a integridade referencial.",
+        "alternativas": [
+            "ALTER TABLE Tratamento ADD CONSTRAINT fk_paciente FOREIGN KEY (paciente_id) REFERENCES Paciente(id);",
+            "ALTER TABLE Tratamento ADD CONSTRAINT fk_fisioterapeuta FOREIGN KEY (fisioterapeuta_id) REFERENCES Fisioterapeuta(id);",
+            "ALTER TABLE Tratamento ADD CONSTRAINT check_paciente_id CHECK (paciente_id > ;",
+            "ALTER TABLE Tratamento ADD CONSTRAINT unique_tratamento UNIQUE (tratamento_id);",
+            "ALTER TABLE Tratamento ADD CONSTRAINT fk_paciente FOREIGN KEY (paciente_id) REFERENCES Paciente(id); ALTER TABLE Tratamento ADD CONSTRAINT fk_fisioterapeuta FOREIGN KEY (fisioterapeuta_id) REFERENCES Fisioterapeuta(id);"
+        ],
+        "gabarito": "ALTER TABLE Tratamento ADD CONSTRAINT fk_paciente FOREIGN KEY (paciente_id) REFERENCES Paciente(id); ALTER TABLE Tratamento ADD CONSTRAINT fk_fisioterapeuta FOREIGN KEY (fisioterapeuta_id) REFERENCES Fisioterapeuta(id);"
+    },
+    {
+        "id": 53,
+        "enunciado": "Sobre a linguagem padrão para banco de dados relacional SQL, ela é dividida em tipos de acordo com a funcionalidade dos comandos, desta maneira, assinale a alternativa que contém apenas comandos TCL (Transaction Control Language):",
+        "alternativas": [
+            "REVOKE, ORDER BY e UPDATE.",
+            "ORDER BY, UPDATE e SAVEPOINT.",
+            "COMMIT, UPDATE e GRANT.",
+            "GRANT, REVOKE e ROLLBACK.",
+            "COMMIT, ROLLBACK e SAVEPOINT."
+        ],
+        "gabarito": "COMMIT, ROLLBACK e SAVEPOINT."
+    },
+    {
+        "id": 54,
+        "enunciado": "Assinale a opção que contém o comando usado para conceder ou revogar permissões para usuários específicos, definindo o que cada um pode fazer no banco de dados:",
+        "alternativas": [
+            "USE.",
+            "TRUNCATE.",
+            "GRANT.",
+            "INSERT.",
+            "CREATE."
+        ],
+        "gabarito": "GRANT."
+    },
+    {
+        "id": 55,
+        "enunciado": "Com relação às linguagens, analise os itens a seguir e, ao final, assinale a alternativa correta:\nI – A linguagem SQL está dividida em subconjuntos de acordo com as operações que queremos efetuar sobre um banco de dados.\nII – Linguagem de definição de dados (DDL) é um conjunto de comandos dentro da SQL, usada para a definição das estruturas de dados.\nIII – Linguagem de controle de dados (DCL) é o grupo de comandos que permitem ao administrador de banco de dados controlar o acesso aos dados deste banco.",
+        "alternativas": [
+            "Apenas o item I é verdadeiro.",
+            "Apenas o item II é verdadeiro.",
+            "Apenas o item III é verdadeiro.",
+            "Apenas os itens I e II são verdadeiros.",
+            "Todos os itens são verdadeiros."
+        ],
+        "gabarito": "Todos os itens são verdadeiros."
+    },
+    {
+        "id": 56,
+        "enunciado": "O Comando ALTER TABLE pertence a qual grupo de comandos da linguagem SQL?",
+        "alternativas": [
+            "DML.",
+            "DCL.",
+            "DPL.",
+            "DDL.",
+            "DXL."
+        ],
+        "gabarito": "DDL."
+    },
+    {
+        "id": 57,
+        "enunciado": "Analise as afirmativas abaixo:\n1. Uma restrição de integridade de entidade é aquela que postula que nenhuma chave primária pode ser nula em uma relação.\n2. Uma restrição de integridade referencial é aquela que é especificada entre duas relações, necessariamente, de modo a manter a consistência entre os atributos nas duas relações.\n3. Todas as restrições de integridade devem ser especificadas no esquema relacional do banco de dados, como parte da sua definição, via DDL.\nAssinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "É correta apenas a afirmativa 1.",
+            "São corretas apenas as afirmativas 1 e 2.",
+            "São corretas apenas as afirmativas 1 e 3.",
+            "São corretas apenas as afirmativas 2 e 3.",
+            "São corretas as afirmativas 1, 2 e 3."
+        ],
+        "gabarito": "São corretas apenas as afirmativas 1 e 3."
+    },
+    {
+        "id": 58,
+        "enunciado": "Dentro da linguagem SQL, qual instrução NÃO faz parte do subconjunto de comandos DDL?",
+        "alternativas": [
+            "create.",
+            "delete.",
+            "alter.",
+            "drop.",
+            "truncate."
+        ],
+        "gabarito": "delete."
+    },
+    {
+        "id": 59,
+        "enunciado": "Uma vez concluído o projeto de um banco de dados e escolhido um SGDB (Sistema de Gerenciamento de Banco de Dados) para implementá-lo, o primeiro passo é especificar esquemas conceituais e internos para o banco de dados e quaisquer mapeamentos entre os dois. A linguagem de definição para uma verdadeira arquitetura de três esquemas para especificar as visualizações do usuário e seus mapeamentos para o esquema conceitual é a Linguagem de:",
+        "alternativas": [
+            "Definição de dados (DDL).",
+            "Definição de armazenamento (SDL).",
+            "Consulta estruturada (SQL).",
+            "Manipulação de dados (DML).",
+            "Definição de visão (VDL)."
+        ],
+        "gabarito": "Definição de visão (VDL)."
+    },
+    {
+        "id": 60,
+        "enunciado": "A linguagem SQL possui um subconjunto de manipulação de dados, chamado de DML, com comandos para inserir, alterar ou excluir dados do banco de dados. O DML é padronizado pela ANSI (American National Standards Institute ou, em português, Instituto Nacional Americano de Padrões). Contudo, sistemas gerenciadores de bancos de dados podem implementar extensões a essa linguagem. Considerando a implementação do DML no PostgreSQL,",
+        "alternativas": [
+            "é possível inserir mais de uma tupla em uma tabela utilizando apenas um comando INSERT.",
+            "é possível alterar dados de mais de uma tabela no mesmo comando UPDATE, desde que elas estejam no mesmo schema.",
+            "o comando DELETE não pode ser executado sem a cláusula WHERE.",
+            "os comandos INSERT e UPDATE podem ser executados numa mesma transação, enquanto o comando DELETE deve ser executado em transação separada."
+        ],
+        "gabarito": "é possível inserir mais de uma tupla em uma tabela utilizando apenas um comando INSERT."
+    },
+    {
+        "id": 61,
+        "enunciado": "Júlia é a administradora do banco de dados da empresa KASA, onde será implantado o novo sistema estratégico da empresa, para fornecimento de relatórios gerenciais em tempo real. No sistema antigo, o perfil GERENTE permitia acesso aos dados operacionais, para que eles fossem tratados em planilhas, mas agora os relatórios serão gerados a partir de visualizações específicas, diretamente na nova ferramenta.\nPara impedir o acesso aos dados operacionais e permitir o acesso às novas visualizações, Júlia utilizou, respectivamente, os comandos:",
+        "alternativas": [
+            "Drop e Create;",
+            "Delete e Insert;",
+            "Rollback e Commit;",
+            "Revoke e Grant;",
+            "Alter e Use."
+        ],
+        "gabarito": "Revoke e Grant;"
+    },
+    {
+        "id": 62,
+        "enunciado": "Qual das seguintes cláusulas abaixo NÃO representa uma restrição de domínio válida na definição de Data Definition Language (DDL) para impor a integridade de dados?",
+        "alternativas": [
+            "CHECK.",
+            "UNIQUE.",
+            "DEFAULT.",
+            "NOT NULL.",
+            "FOREIGN KEY."
+        ],
+        "gabarito": "FOREIGN KEY."
+    },
+    {
+        "id": 63,
+        "enunciado": "Julgue o item a seguir, a respeito de arquitetura de dados, metadados e linguagens de bancos de dados.\nComandos expressos em linguagem de definição de dados (DDL) são utilizados para criar estruturas de um banco de dados, e o seu processamento irá incluir ou alterar metadados desse mesmo banco de dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 64,
+        "enunciado": "Julgue o item a seguir, a respeito de arquitetura de dados, metadados e linguagens de bancos de dados.\nA manipulação de dados armazenados em um banco de dados é feita por meio de DML (Data Manipulation Language), linguagem na qual é possível apenas descrever os dados que se deseja acessar, sem especificar como obtê-los.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 65,
+        "enunciado": "Em relação às linguagens de banco de dados SQL, DDL e DML, julgue o item a seguir.\nNa DDL, que é uma linguagem declarativa, é descrito o que se deseja fazer, em vez de como fazê-lo, como comandos para definir tabelas e procedures, tal qual exemplificado a seguir.\nCREATE TABLE <tablename> (col1 int, col2 int, col3 int)",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 66,
+        "enunciado": "Em relação às linguagens de banco de dados SQL, DDL e DML, julgue o item a seguir.\nA DML é uma linguagem que interage com os objetos do banco de dados, em vez de interagir com os dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 67,
+        "enunciado": "A respeito de administração de dados e de bancos de dados, julgue o item a seguir.\nA DCL (Data Control Language) é utilizada para controlar quem tem acesso aos objetos do banco de dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 68,
+        "enunciado": "A respeito de administração de dados e de bancos de dados, julgue o item a seguir.\nA DDL (Data Definition Language) é utilizada em bancos de dados para comandos de UPDATE nas tabelas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 69,
+        "enunciado": "A respeito de administração de dados e de bancos de dados, julgue o item abaixo.\nA DDL (Data Definition Language) é utilizada em bancos de dados para comandos de UPDATE nas tabelas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 70,
+        "enunciado": "Qual é a função principal dos comandos DML (Linguagem de Manipulação de Dados) em um sistema de gerenciamento de banco de dados?",
+        "alternativas": [
+            "Definir a estrutura do banco de dados, como tabelas, índices e restrições.",
+            "Monitorar e controlar as transações no banco de dados.",
+            "Conceder permissões de acesso aos usuários do banco de dados.",
+            "Criar procedimentos armazenados para automatizar tarefas.",
+            "Realizar consultas e manipulações nos dados armazenados no banco de dados."
+        ],
+        "gabarito": "Realizar consultas e manipulações nos dados armazenados no banco de dados."
+    },
+    {
+        "id": 71,
+        "enunciado": "Considere o seguinte caso:\nUtilizando comandos SQL, um analista criou uma tabela de cidadão dando permissão de acesso ao usuário Roberto. Posteriormente inseriu dados nessa tabela, mas logo em seguida teve que deletá-los, retirar a permissão de Roberto que estava saindo do tribunal e dar permissão a Carla.\nA sequência de comandos SQL utilizada no caso é, correta e respectivamente, categorizada como",
+        "alternativas": [
+            "DML - DCL - DDL - DDL - DCL - DCL.",
+            "DML - DCL - DML - DDL - DML - DCL.",
+            "DDL - DCL - DML - DML - DCL - DCL.",
+            "DDL - DCL - DDL - DML - DML - DCL.",
+            "DCL - DDL - DML - DML - DCL - DCL."
+        ],
+        "gabarito": "DDL - DCL - DML - DML - DCL - DCL."
+    },
+    {
+        "id": 72,
+        "enunciado": "Considere que tenha sido criado um papel denominado Geral, no sistema gerenciador de banco de dados MS SQL Server 2022. O comando para incluir um membro denominado Geraldo nesse papel é",
+        "alternativas": [
+            "ADD MEMBER Geraldo TO ROLE Geral;",
+            "MODIFY ROLE Geral PLUS Geraldo;",
+            "CHANGE ROLE Geral WITH Geraldo;",
+            "ALTER ROLE Geral ADD MEMBER Geraldo;",
+            "INCLUDE MEMBER Geraldo IN ROLE Geral;"
+        ],
+        "gabarito": "ALTER ROLE Geral ADD MEMBER Geraldo;"
+    },
+    {
+        "id": 73,
+        "enunciado": "ALTER TABLE é um dos comandos universais para uso em bancos de dados. Esse comando está inserido na seguinte categoria de linguagens:",
+        "alternativas": [
+            "Data Transition Language.",
+            "Data Manipulation Language.",
+            "Data Definition Language.",
+            "Data Control Language.",
+            "Data Query Language."
+        ],
+        "gabarito": "Data Definition Language."
+    },
+    {
+        "id": 74,
+        "enunciado": "Com relação a conceitos SQL, julgue os itens abaixo:\nI - O comando SQL SELECT faz parte do grupo de comandos de Definição de Dados (DDL).\nII - O comando SQL INSERT é utilizado para adicionar novos registros a uma tabela e faz parte do grupo de comandos de Manipulação de Dados (DML).\nIII - O comando SQL DROP TABLE é utilizado para excluir uma tabela e faz parte do grupo de comandos de Controle de Dados (DCL).\nIV - O comando SQL UPDATE é utilizado para alterar dados existentes em uma tabela e faz parte do grupo de comandos de Manipulação de Dados (DML).\nMarque a alternativa correta:",
+        "alternativas": [
+            "Apenas as afirmativas, I e II estão corretas.",
+            "Apenas as afirmativas, II e IV estão corretas.",
+            "Apenas as afirmativas, III e IV estão corretas.",
+            "Apenas as afirmativas, I, II e III estão corretas."
+        ],
+        "gabarito": "Apenas as afirmativas, II e IV estão corretas."
+    },
+    {
+        "id": 75,
+        "enunciado": "O estado do banco de dados relacional abaixo é referência para as questões 29 e 30. As colunas que são chave-primária estão destacadas em cada relação.\nALUNO Matricula Nome Cod_curso 1001 Carolina Souza 1 1002 Jorge Andrade 1 1003 Cassio Gomes 2 CURSO Codigo Nome\n1 Ciência da Computação\n2 Análise de Sistemas DISCIPLINA Codigo Nome Cod_curso Carga_horaria Lógica de 2001 1 200 Programação Lógica de 2002 1 180 Programação 2003 Programação 2 240 ALUNO_CURSA Cod_aluno Cod_disciplina 1001 2001 1001 2002 1002 2002 1003 2003 Qual comando SQL cria a relação ALUNO_CURSA, incluindo corretamente a configuração das chaves estrangeiras abaixo? ∙ Cod_aluno é uma chave estrangeira para a relação ALUNO;\n∙ Cod_disciplina é uma chave estrangeira para a relação DISCIPLINA.",
+        "alternativas": [
+            "CREATE TABLE ALUNO_CURSA. (Cod_aluno INT NOT NULL, Cod_disciplina INT NOT NULL, PRIMARY KEY (Cod_aluno, Cod_disciplina), FOREIGN KEY (Cod_aluno) REFERENCES ALUNO(Matricula), FOREIGN KEY (Cod_disciplina) REFERENCES DISCIPLINA(Codigo));",
+            "CREATE RELATION ALUNO_CURSA. (Cod_aluno INT NOT NULL, Cod_disciplina INT NOT NULL, PRIMARY KEY (Cod_aluno, Cod_disciplina), FOREIGN KEY (Cod_aluno) REFERENCES ALUNO(Matricula), FOREIGN KEY (Cod_disciplina) REFERENCES DISCIPLINA(Codigo));",
+            "CREATE TABLE ALUNO_CURSA. (Cod_aluno INT NOT NULL, Cod_disciplina INT NOT NULL, PRIMARY KEY (Cod_aluno, Cod_disciplina), FOREIGN KEY REFERENCES ALUNO(Matricula) Cod_aluno, FOREIGN KEY REFERENCES DISCIPLINA(Codigo) Cod_disciplina);",
+            "CREATE TABLE ALUNO_CURSA. (Cod_aluno INT NOT NULL, Cod_disciplina INT NOT NULL, PRIMARY KEY (Cod_aluno, Cod_disciplina), FOREIGN KEY (Cod_aluno), FOREIGN KEY (Cod_disciplina));",
+            "CREATE TABLE ALUNO_CURSA. (Cod_aluno INT NOT NULL, Cod_disciplina INT NOT NULL, PRIMARY KEY (Cod_aluno, Cod_disciplina), FOREIGN KEY (Cod_aluno) REFERENCES Matricula (ALUNO), FOREIGN KEY (Cod_disciplina) REFERENCES Codigo (DISCIPLINA));"
+        ],
+        "gabarito": "CREATE TABLE ALUNO_CURSA. (Cod_aluno INT NOT NULL, Cod_disciplina INT NOT NULL, PRIMARY KEY (Cod_aluno, Cod_disciplina), FOREIGN KEY (Cod_aluno) REFERENCES ALUNO(Matricula), FOREIGN KEY (Cod_disciplina) REFERENCES DISCIPLINA(Codigo));"
+    },
+    {
+        "id": 76,
+        "enunciado": "Apesar da linguagem SQL ser uma única linguagem, ela é dividida em tipos de acordo com a funcionalidade dos comandos. Das opções abaixo, assinale a que tem o tipo de linguagem SQL com comandos que indicam uma ação para o SGBD executar e são comandos utilizados para recuperar, inserir e modificar um registro no banco de dados:",
+        "alternativas": [
+            "DCL.",
+            "DDL.",
+            "DML.",
+            "DQL."
+        ],
+        "gabarito": "DML."
+    },
+    {
+        "id": 77,
+        "enunciado": "Juca é da área de TI do IBGE e verificou que, nos bancos de dados, existe a Linguagem de manipulação de dados (DML), a Linguagem de Definição de Dados (DDL), a Linguagem de Controle de Dados (DCL), a Linguagem de Transação de Dados (DTL) e a Linguagem de Consulta de Dados (DQL). Você trabalha com Juca e identificou que os comandos DROP e INSERT são, respectivamente, das linguagens:",
+        "alternativas": [
+            "DML e DQL.",
+            "DDL e DCL.",
+            "DDL e DML.",
+            "DCL e DQL.",
+            "DTL e DQL."
+        ],
+        "gabarito": "DDL e DML."
+    },
+    {
+        "id": 78,
+        "enunciado": "A linguagem SQL para bancos de dados é constituída das sublinguagens “Data Manipulation Language – DML”, “Data Definition Language – DDL” e “Data Control Language – DCL”.\nFazem parte da DCL os seguintes comandos:",
+        "alternativas": [
+            "DROP e DELETE.",
+            "DELETE e REVOKE.",
+            "REVOKE e GRANT.",
+            "GRANT e SELECT.",
+            "SELECT e DROP."
+        ],
+        "gabarito": "REVOKE e GRANT."
+    },
+    {
+        "id": 79,
+        "enunciado": "No contexto dos fundamentos de Bancos de dados, SQL é a sigla para linguagem de consulta estruturada utilizada na realização de consultas e no gerenciamento de bancos de dados, englobando três sublinguagens, DML, DDL e DCL. Nesse sentido, dois exemplos de comandos pertencentes à DML são",
+        "alternativas": [
+            "DELETE e SELECT.",
+            "REVOKE e GRANT.",
+            "UPDATE e ALTER.",
+            "CREATE e DROP."
+        ],
+        "gabarito": "DELETE e SELECT."
+    },
+    {
+        "id": 80,
+        "enunciado": "DML (Data Manipulation Language) é o subconjunto da linguagem SQL e seus comandos são:",
+        "alternativas": [
+            "Insert, Update, Drop e Select.",
+            "Insert, Update, Delete e Grant.",
+            "Insert, Update, Delete e Select.",
+            "Insert, Update, Create e Select.",
+            "Update, Create, Select e Drop."
+        ],
+        "gabarito": "Insert, Update, Delete e Select."
+    },
+    {
+        "id": 81,
+        "enunciado": "A respeito de banco de dados, julgue o item a seguir.\nA criação de tabelas e as restrições de integridade são atividades de administração de banco de dados descritas como DDL (data definition language).",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 82,
+        "enunciado": "Analise o seguinte comando SQL-ANSI e assinale a alternativa que apresenta corretamente a qual grupo de linguagem de banco de dados esse comando pertence.\nGRANT ALL PRIVILEGES ON dbcompra.* TO 'Vader';",
+        "alternativas": [
+            "Linguagem de banco de dados.",
+            "Linguagem de estrutura de dados.",
+            "Linguagem de definição de dados.",
+            "Linguagem de manipulação de dados.",
+            "Linguagem de controle de dados."
+        ],
+        "gabarito": "Linguagem de controle de dados."
+    },
+    {
+        "id": 83,
+        "enunciado": "Considerando os comandos DDL e DML, analise as assertivas:\nI. A Data Definition Language (DDL) é um subconjunto do SQL. Exemplos de comandos DDL são UPDATE e INSERT;\nlI. Os comandos CREATE e ALTER pertencem ao DML;\nIlI. DML significa Data Maximum Language.\nEstá(ão) INCORRETA(S):",
+        "alternativas": [
+            "I, lI e IlI.",
+            "Apenas I e II.",
+            "Apenas I e IlI.",
+            "Apenas lI e IlI.",
+            "Apenas IlI."
+        ],
+        "gabarito": "I, lI e IlI."
+    },
+    {
+        "id": 84,
+        "enunciado": "O DML (Data Manipulation Language) é um subconjunto da linguagem SQL (Structured Query Language) que é utilizado para realizar inclusões, consultas, alterações e exclusões de dados presentes em registros. Os principais comandos do DML são, respectivamente:",
+        "alternativas": [
+            "INSERT, UPDATE e DELETE.",
+            "INTRUDE, UPDATE e ERASE.",
+            "INTRUDE, UPTIME e ERASE.",
+            "INSERT, UPTIME e DELETE."
+        ],
+        "gabarito": "INSERT, UPDATE e DELETE."
+    },
+    {
+        "id": 85,
+        "enunciado": "A Linguagem de Definição de Dados (DDL) é usada para definir a estrutura ou esquema do banco de dados. A DDL também é usada para especificar propriedades adicionais dos dados. Relacionados alguns comandos a seguir, indique a alternativa com os comandos CORRETOS.",
+        "alternativas": [
+            "create, alter, drop, rename.",
+            "create, select, delete, rename.",
+            "select, alter, drop, insert.",
+            "insert, update, create, rename."
+        ],
+        "gabarito": "create, alter, drop, rename."
+    },
+    {
+        "id": 86,
+        "enunciado": "A Linguagem de Manipulação de Dados (DML) contém instruções usadas para consultar e modificar dados armazenados em tabelas nos bancos de dados.\nRelacionadas algumas instruções a seguir, indique a alternativa com as instruções CORRETAS.",
+        "alternativas": [
+            "create, update, delete, rename.",
+            "select, insert, update, delete.",
+            "select, alter, update, insert.",
+            "insert, update, create, delete."
+        ],
+        "gabarito": "select, insert, update, delete."
+    },
+    {
+        "id": 87,
+        "enunciado": "A Linguagem de Controle de Dados (DCL) é utilizada para controlar o acesso e gerenciamento de permissões para usuários de banco de dados. É possível permitir ou negar ações para usuários nos registros ou tabelas. Relacionados alguns comandos a seguir, indique a alternativa com os comandos CORRETOS.",
+        "alternativas": [
+            "insert, update, delete.",
+            "select, grant, privileges.",
+            "grant, privileges, deny.",
+            "grant, revoke, deny."
+        ],
+        "gabarito": "grant, revoke, deny."
+    },
+    {
+        "id": 88,
+        "enunciado": "Os valores de dados armazenados no banco de dados devem atender a certas restrições de consistência. A Linguagem de Definição de Dados (DDL) fornece recursos para especificar tais restrições. Há casos em que é preciso garantir que um valor apareça em uma relação para determinado conjunto de atributos. Por exemplo, o departamento listado para cada curso deve ser o que já possui um registro no banco de dados. Indique a alternativa com o conceito exemplificado.",
+        "alternativas": [
+            "Assertiva.",
+            "Restrição de domínio.",
+            "Integridade Referencial.",
+            "Autorização."
+        ],
+        "gabarito": "Integridade Referencial."
+    },
+    {
+        "id": 89,
+        "enunciado": "Assinale abaixo qual alternativa contém apenas um comando do tipo DDL.",
+        "alternativas": [
+            "CREATE TABLE Contato.",
+            "INSERT INTO Cliente (nome, telefone) VALUES ('Suzana', '99999-9999').",
+            "DELETE FROM Cliente WHERE id = 2.",
+            "BEGIN TRAN."
+        ],
+        "gabarito": "CREATE TABLE Contato."
+    },
+    {
+        "id": 90,
+        "enunciado": "Quais das expressões abaixo em linguagem SQL, são respectivamente comandos do tipo DDL e DML:",
+        "alternativas": [
+            "ALTER TABLE e CREATE INDEX.",
+            "ALTER DATABASE e UPDATE.",
+            "UPDATE e DROP INDEX.",
+            "UPDATE e INSERT INTO."
+        ],
+        "gabarito": "ALTER DATABASE e UPDATE."
+    },
+    {
+        "id": 91,
+        "enunciado": "Uma vez que o projeto de um banco de dados é concluído e um SGBD é escolhido para implementar o banco de dados, o primeiro passo é especificar esquemas conceituais e internos para o banco de dados e quaisquer mapeamentos entre os dois. assinale a alternativa que indica corretamente a linguagem que é usada pelo DBA e pelos designers de banco de dados para definir ambos os esquemas.",
+        "alternativas": [
+            "SDL.",
+            "DML.",
+            "DDL.",
+            "VDL."
+        ],
+        "gabarito": "DDL."
+    },
+    {
+        "id": 92,
+        "enunciado": "A linguagem SQL se divide em três grupos básicos: Linguagem de Definição de Dados (DDL), Linguagem de Manipulação de Dados (DML) e Linguagem de Controle de Dados (DCL).\nConsiderando-se os comandos da Linguagem de Definição de Dados (DDL) em SQL, está correto apenas o que se afirma em",
+        "alternativas": [
+            "CREATE e INSERT.",
+            "ALTER e UPDATE.",
+            "CREATE, ALTER e DROP.",
+            "INSERT e UPDATE.",
+            "ALTER e INSERT."
+        ],
+        "gabarito": "CREATE, ALTER e DROP."
+    },
+    {
+        "id": 93,
+        "enunciado": "Com relação aos conceitos de Banco de Dados, a SQL inclui um componente de linguagem de definição de dados (DDL – Data Definition Language) e um componente de linguagem de manipulação de dados (DML – Data Manipulation Language).\nComandos da DML estão exclusivamente listados em",
+        "alternativas": [
+            "DROP TABLE e DELETE.",
+            "ALTER e UPDATE.",
+            "SELECT e INSERT.",
+            "CREATE TABLE e CREATE TYPE.",
+            "DROP TABLE e ALTER."
+        ],
+        "gabarito": "SELECT e INSERT."
+    },
+    {
+        "id": 94,
+        "enunciado": "Structured Query Language (SQL) é a linguagem de consulta padrão para bancos de dados relacionais e seu conhecimento é indispensável para profissionais que desejam trabalhar nesta área. A linguagem possui um grande conjunto de comandos e a literatura definiu nomes e siglas para as diversas categorias de comandos dessa importante linguagem.\nA respeito dessas categorias, analise as afirmativas abaixo e marque alternativa correta.\nI. Quando manipulamos informações relacionadas às permissões de acesso em um banco de dados estamos realizando comandos da categoria DCL. Os comandos grant e revoke são exemplos de comandos dessa categoria.\nII. Os comandos de categoria DDL são aqueles responsáveis pelo gerenciamento das estruturas presentes no banco de dados.\nIII. DML é o nome da categoria de comandos SQL responsável pela manipulação dos dados armazenados nas estruturas do banco de dados. Podemos citar como exemplos de comandos desta categoria os comandos insert, delete e update.",
+        "alternativas": [
+            "Apenas as afirmativas I e II estão corretas.",
+            "Apenas a afirmativa II está correta.",
+            "Apenas a afirmativa III está correta.",
+            "Apenas as afirmativas II e III estão corretas.",
+            "Todas as afirmativas estão corretas."
+        ],
+        "gabarito": "Todas as afirmativas estão corretas."
+    },
+    {
+        "id": 95,
+        "enunciado": "Relacione os comandos a seguir de acordo com a sua categoria na linguagem SQL:\n(1) – DDL – Data Definition Language\n(2) – DML – Data Manipulation Language\n(3) – DCL – Data Control Language Comandos:\n( ) GRANT\n( ) CREATE\n( ) DELETE\n( ) INSERT\n( ) DROP",
+        "alternativas": [
+            "1, 1, 2, 2 e 3.",
+            "3, 1, 2, 2 e 1.",
+            "2, 3, 1, 3 e 1.",
+            "3, 2, 2, 1 e 3.",
+            "2, 1, 3, 1 e 2."
+        ],
+        "gabarito": "3, 1, 2, 2 e 1."
+    },
+    {
+        "id": 96,
+        "enunciado": "No que se refere à álgebra relacional e a SQL, julgue o item a seguir.\nNa linguagem SQL, os comandos GRANT e REVOKE são exemplos do subconjunto DDL (linguagem de definição de dados), pois definem o acesso aos dados do banco.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 97,
+        "enunciado": "No contexto da SQL, os comandos classificados, correta e respectivamente, como DCL, DML e DDL, são:",
+        "alternativas": [
+            "Revoke, Insert e Alter.",
+            "Grant, Drop e Create.",
+            "Update, Select e Insert.",
+            "Revoke, Create e Alter.",
+            "Drop, Grant e Delete."
+        ],
+        "gabarito": "Revoke, Insert e Alter."
+    },
+    {
+        "id": 98,
+        "enunciado": "Em relação a projeto, modelagem e administração de banco de dados, julgue o item subsequente.\nA linguagem de controle de dados (DCL) é um dos componentes da SQL e permite gerenciar as autorizações aos dados constantes do banco de dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 99,
+        "enunciado": "Utilizando um banco de dados relacional, aberto e funcionando em condições ideais, um analista excluiu todos os privilégios de um usuário e, a seguir, atribuiu novos privilégios a outro profissional. Posteriormente, criou uma tabela de controle com nomes de usuários e respectivos privilégios e incluiu dados nessa tabela. Após criada, ele incluiu os nomes e os privilégios nessa tabela.\nConsiderando a ordem das operações realizadas pelo analista, ele utilizou comandos SQL respectivamente correspondentes a",
+        "alternativas": [
+            "DCL − DML − DML − DDL.",
+            "DCL − DCL − DDL − DDL.",
+            "DCL − DCL − DDL − DML.",
+            "DDL − DDL − DML − DML.",
+            "DML − DML − DCL − DCL."
+        ],
+        "gabarito": "DCL − DCL − DDL − DML."
+    },
+    {
+        "id": 100,
+        "enunciado": "Analise as afirmativas abaixo com relação ao assunto banco de dados.\n1. Data Definition Language – DDL apresenta um grupo de comandos dentro da linguagem SQL que é utilizada para criação, alteração e exclusão de objetos em um banco de dados. Seus principais comandos são: CREATE, ALTER, DROP e TRUNCATE.\n2. Data Manipulation Language – DML apresenta um grupo de comandos dentro da linguagem SQL que é utilizada para inclusão, remoção e modificar o conteúdo das tabelas em um banco de dados. Seus principais comandos são: INSERT, UPDATE e DELETE.\n3. A DQL (Data Query Language) apresenta um subconjunto de operações responsáveis por comandos de consulta e alteração dos dados armazenados. Os principais comandos são: SELECT e UPDATE Assinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "É correta apenas a afirmativa 1.",
+            "É correta apenas a afirmativa 2.",
+            "São corretas apenas as afirmativas 1 e 2.",
+            "São corretas apenas as afirmativas 1 e 3.",
+            "São corretas apenas as afirmativas 2 e 3."
+        ],
+        "gabarito": "São corretas apenas as afirmativas 1 e 2."
+    },
+    {
+        "id": 101,
+        "enunciado": "São linguagens de sistemas gerenciadores de banco de dados válidas:\n1. SDL (Storage Definition Language)\n2. VDL (View Definition Language)\n3. DML (Data Manipulation Language de alto nível)\n4. DML (Data Manipulation Language de baixo nível) Assinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "É correta apenas a afirmativa 3.",
+            "São corretas apenas as afirmativas 2 e 3.",
+            "São corretas apenas as afirmativas 3 e 4.",
+            "São corretas apenas as afirmativas 2, 3 e 4.",
+            "São corretas as afirmativas 1, 2, 3 e 4."
+        ],
+        "gabarito": "São corretas as afirmativas 1, 2, 3 e 4."
+    },
+    {
+        "id": 102,
+        "enunciado": "Uma linguagem de definição de dados (DDL) permite aos usuários especificar um esquema de banco de dados através de um conjunto de definições. Ela fornece comandos, permitindo que os usuários criem, alterem e removam estruturas de dados. Para que um usuário insira ou remova uma nova coluna em uma tabela, por exemplo, é necessário que ele utilize o comando:",
+        "alternativas": [
+            "CREATE.",
+            "DROP.",
+            "DELETE.",
+            "ALTER.",
+            "SELECT."
+        ],
+        "gabarito": "ALTER."
+    },
+    {
+        "id": 103,
+        "enunciado": "A linguagem SQL é organizada em subconjuntos, cada um com propósitos bem definidos. O DDL é um desses subconjuntos, e define os comandos utilizados para",
+        "alternativas": [
+            "manipulação de dados no banco.",
+            "controlar o acesso aos dados do banco, adicionando e removendo permissões de acesso.",
+            "gerenciar as transações executadas no banco de dados, como iniciar uma transação, confirmá-la ou desfazê-la.",
+            "consultar os dados armazenados no banco.",
+            "criação de tabelas, views, índices, atualização dessas estruturas, assim como a remoção."
+        ],
+        "gabarito": "criação de tabelas, views, índices, atualização dessas estruturas, assim como a remoção."
+    },
+    {
+        "id": 104,
+        "enunciado": "São comandos utilizados pelo subconjunto DML:",
+        "alternativas": [
+            "Apenas o comando Select.",
+            "Grant e Revoke.",
+            "Create, Alter e Drop.",
+            "Insert, Update e Delete.",
+            "Begin, Commit e Rollback."
+        ],
+        "gabarito": "Insert, Update e Delete."
+    },
+    {
+        "id": 105,
+        "enunciado": "A linguagem SQL é organizada em subconjuntos, como o DQL, responsável por:",
+        "alternativas": [
+            "definir os comandos utilizados para manipulação de dados no banco.",
+            "definir os comandos utilizados para criação de tabelas, views, índices, atualização das estruturas, assim como a remoção.",
+            "definir comandos utilizados para controlar o acesso aos dados do banco.",
+            "definir comandos utilizados para gerenciar as transações executadas no banco de dados.",
+            "definir o comando utilizado para consultar os dados armazenados no banco."
+        ],
+        "gabarito": "definir o comando utilizado para consultar os dados armazenados no banco."
+    },
+    {
+        "id": 106,
+        "enunciado": "Com relação aos subconjuntos do SQL, identifique as afirmações corretas:\nI. DDL - linguagem de definição de dados: Define a estrutura de dados e possui comandos como CREATE, DROP.\nII. DML - linguagem de manipulação de dados: Manipula dados existentes e possui comandos como SELECT, INSERT.\nIII. DCL - Linguagem de controle de dados: Controla o acesso aos dados em um banco de dados e possui comandos como GRANT, REVOKE.",
+        "alternativas": [
+            "Apenas as afirmações II e III são corretas.",
+            "As afirmações I, II e III são corretas.",
+            "Apenas as afirmações I e III são corretas.",
+            "Apenas a afirmação III está correta."
+        ],
+        "gabarito": "As afirmações I, II e III são corretas."
+    },
+    {
+        "id": 107,
+        "enunciado": "Uma linguagem de manipulação de dados permite a criação de esquemas de banco de dados, além de acessar e manipular os dados de um banco de dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 108,
+        "enunciado": "No SQL, os comandos do subconjunto DDL, ou Data Definition Language, são aqueles utilizados para manipular a estrutura de um banco de dados. No sub- comando create table, o tamanho máximo de caracteres que um campo pode conter está expresso na alternativa:",
+        "alternativas": [
+            "CHARSIZE.",
+            "LENGHT.",
+            "VARCHAR.",
+            "CSIZE.",
+            "KEYSIZE."
+        ],
+        "gabarito": "VARCHAR."
+    },
+    {
+        "id": 109,
+        "enunciado": "Considere a seguinte informação sobre uma pessoa:\n{ \"nome\":\"Laura\", \"familia\":{ \"nome\":\"Mateus\", \"outros\":{ \"tio\":\"Pedro\", \"tia\":\"Renata\" } } } Para armazenar este objeto JSON em uma coluna denominada pessoa na tabela pessoas de um banco de dados PostgreSQL, deve-se criar a tabela com a seguinte definição a fim de garantir a validação dos dados:",
+        "alternativas": [
+            "CREATE TABLE pessoas (id serial PRIMARY KEY, pessoa jsonvalidate);",
+            "CREATE TABLE pessoas (id serial PRIMARY KEY, pessoa text);",
+            "CREATE TABLE pessoas (id serial PRIMARY KEY, pessoa varchar(2);",
+            "CREATE TABLE pessoas (id serial PRIMARY KEY, pessoa json);"
+        ],
+        "gabarito": "CREATE TABLE pessoas (id serial PRIMARY KEY, pessoa json);"
+    },
+    {
+        "id": 110,
+        "enunciado": "Considerando a aplicação da arquitetura ANSI/SPARC em Sistemas de Gerenciamento de Bancos de Dados (SGBDs), os comandos de DML serão executados no nível:",
+        "alternativas": [
+            "interno.",
+            "externo.",
+            "conceitual.",
+            "de comunidade."
+        ],
+        "gabarito": "externo."
+    },
+    {
+        "id": 111,
+        "enunciado": "Como se sabe, a linguagem SQL é dividida em subconjuntos, de acordo com a funcionalidade ou aplicabilidade dos comandos que queremos efetuar em um banco de dados. A DCL - Data Control Language - Linguagem de Controle de Dados é um desses subconjuntos. Assinale a alternativa que contém comandos básicos da DCL.",
+        "alternativas": [
+            "CREATE e REVOKE.",
+            "GRANT e REVOKE.",
+            "CREATE e DROP.",
+            "CREATE e GRANT."
+        ],
+        "gabarito": "GRANT e REVOKE."
+    },
+    {
+        "id": 112,
+        "enunciado": "Para realizar operações rotineiras, como inclusão, busca, exclusão e alteração em um banco de dados, os usuários de sistemas SGBD utilizam-se da linguagem específica para isso, chamada de",
+        "alternativas": [
+            "VDL.",
+            "DML.",
+            "DDL.",
+            "SDL."
+        ],
+        "gabarito": "DML."
+    },
+    {
+        "id": 113,
+        "enunciado": "Dos comandos SQL a seguir, qual NÃO faz parte do tipo DDL?",
+        "alternativas": [
+            "SELECT.",
+            "DROP.",
+            "ALTER.",
+            "CREATE."
+        ],
+        "gabarito": "SELECT."
+    },
+    {
+        "id": 114,
+        "enunciado": "Dos comandos SQL a seguir, qual NÃO faz parte do tipo DCL?",
+        "alternativas": [
+            "GRANT.",
+            "REVOKE.",
+            "ROLLBACK.",
+            "DENY."
+        ],
+        "gabarito": "ROLLBACK."
+    },
+    {
+        "id": 115,
+        "enunciado": "O comando TRUNCATE TABLE do SQL se encaixa em qual das linguagens de um banco de dados relacional?",
+        "alternativas": [
+            "TCL.",
+            "DCL.",
+            "DML.",
+            "DDL.",
+            "DTL."
+        ],
+        "gabarito": "DDL."
+    },
+    {
+        "id": 116,
+        "enunciado": "A linguagem SQL se divide em três grupos básicos: Linguagem de Definição de Dados (DDL), Linguagem de Manipulação de Dados (DML) e Linguagem de Controle de Dados (DCL).\nConsiderando os comandos da Linguagem de Manipulação de Dados (DML) em SQL, está correto apenas o que se afirma em",
+        "alternativas": [
+            "CREATE e DROP.",
+            "ALTER e DELETE.",
+            "GRANT e REVOKE.",
+            "INSERT e UPDATE."
+        ],
+        "gabarito": "INSERT e UPDATE."
+    },
+    {
+        "id": 117,
+        "enunciado": "Denis é analista de banco de dados da empresa Dharma e recebeu três tarefas de seu coordenador: remoção de duas tabelas do banco de dados, atribuição de acesso de leitura para o usuário APPS e atualização de dados da tabela CLIENTES.\nAssinale a alternativa correta sobre quais tipos de Linguagem SQL Denis terá que executar respectivamente para cumprir tais tarefas:",
+        "alternativas": [
+            "DDL, DML, DCL.",
+            "DCL, DDL, DML.",
+            "DML, DCL, DDL.",
+            "DDL, DCL, DML."
+        ],
+        "gabarito": "DDL, DCL, DML."
+    },
+    {
+        "id": 118,
+        "enunciado": "A SQL é uma linguagem declarativa orientada a conjuntos e costuma ser organizada em grupos de comandos de acordo com as suas finalidades. Alguns exemplos desses grupos são: DDL, DML, DCL e TCL. Sobre esse assunto, analise as assertivas abaixo:\nI. Para definir restrições com objetivo de evitar dados inconsistentes e incorretos, utilizamos o conjunto de comandos SQL conhecidos como Data Control Language (DCL).\nII. Data Manipulation Language (DML) é utilizada para manipular os dados que residem nas tabelas e inclui os comandos: INSERT, UPDATE e DELETE.\nIII. TRUNCATE é um comando que remove todas as linhas de uma tabela e pertence ao grupo Data Manipulation Language (DML).\nIV. São exemplos de comandos da Data Control Language (DCL): COMMIT e ROLLBACK.\nQuais estão corretas?",
+        "alternativas": [
+            "Apenas II.",
+            "Apenas I, II e III.",
+            "Apenas I, II e IV.",
+            "Apenas I, III e IV.",
+            "I, II, III e IV."
+        ],
+        "gabarito": "Apenas II."
+    },
+    {
+        "id": 119,
+        "enunciado": "Conforme Luís Damas, em sua obra SQL (LTC, SQL é uma linguagem de consulta estruturada, um padrão de gerenciamento de dados que interage com os principais bancos de dados baseados no modelo relacional. Ela é constituída de três sublinguagens, cada uma delas englobando diversos comandos.\nA esse respeito, associe os comandos ao universo a que pertencem:\n1 – create\n2 – select\n3 – grant\n( ) Pertence à DDL.\n( ) Pertence à DML.\n( ) Pertence à DCL.\nAssinale a alternativa que apresente a sequência correta, de cima para baixo.",
+        "alternativas": [
+            "2 – 3 – 1.",
+            "1 – 2 – 3.",
+            "3 – 1 – 2.",
+            "2 – 3 – 1."
+        ],
+        "gabarito": "1 – 2 – 3."
+    },
+    {
+        "id": 120,
+        "enunciado": "Assinale a alternativa que contém apenas instruções SQL do tipo DML (Data Manipulation Language – linguagem de manipulação de dados):",
+        "alternativas": [
+            "CREATE, DROP, ALTER.",
+            "INSERT, UPDATE, DELETE.",
+            "INSERT, ALTER, REVOKE.",
+            "CREATE, UPDATE, DROP.",
+            "SELECT, FROM, CREATE."
+        ],
+        "gabarito": "INSERT, UPDATE, DELETE."
+    }
+]

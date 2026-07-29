@@ -1,0 +1,1486 @@
+[
+    {
+        "id": 1,
+        "enunciado": "A analista de dados Maria está minerando os dados de movimentações processuais para descobrir a frequência de movimentos que ocorrem juntos. Maria obteve o seguinte resultado:\n{Juntada de petição, Conclusos ao juiz} → {Despacho} • Suporte: 32% • Confiança: 81% • Lift: 1,42 Para gerar o resultado apresentado, Maria deve aplicar a técnica de mineração de dados:",
+        "alternativas": [
+            "outliers;",
+            "regressão;",
+            "classificação;",
+            "clusterização;",
+            "regras de associação."
+        ],
+        "gabarito": "regras de associação."
+    },
+    {
+        "id": 2,
+        "enunciado": "No processo de descoberta de conhecimento em bases de dados, a qualidade dos resultados obtidos pelos algoritmos de aprendizado de máquina está diretamente vinculada à qualidade dos dados de entrada. Dados provenientes de fontes heterogêneas, frequentemente, apresentam ruídos, redundâncias e lacunas que podem enviesar as análises estatísticas.\nDentro do fluxo de trabalho de Ciência de Dados, o conjunto de operações que envolve o tratamento de dados faltantes (null/missing values), a normalização de formatos, a remoção de registros redundantes e a correção de erros de digitação ou inconsistências lógicas é tecnicamente denominado",
+        "alternativas": [
+            "limpeza de dados (Data Cleaning).",
+            "mineração de dados (Data Mining).",
+            "análise exploratória de dados (EDA).",
+            "integração de dados (Data Integration).",
+            "engenharia de atributos (Feature Engineering)."
+        ],
+        "gabarito": "limpeza de dados (Data Cleaning)."
+    },
+    {
+        "id": 3,
+        "enunciado": "Mineração de dados compreende um conjunto de técnicas usadas para identificar padrões, correlações, tendências e outras informações valiosas em grandes volumes de dados. Técnicas (métodos) de mineração de dados envolvem diferentes tipos de algoritmos para realizar tarefas sobre os dados, tais como classificação, análise de regressão e agrupamento (clustering). Qual característica é associada a algoritmos relacionados à análise de regressão no contexto de mineração de dados?",
+        "alternativas": [
+            "Algoritmos de regressão estimam relações matemáticas contínuas entre variáveis, podendo modelar tendências e prever valores numéricos.",
+            "Algoritmos de regressão identificam semelhanças em instâncias de dados numéricos, criando classes similares e atribuindo rótulos aos dados.",
+            "Algoritmos de regressão analisam dados passados, identificando padrões numéricos e criando hipóteses para explicar a evolução dos dados.",
+            "Algoritmos de regressão transformam conjuntos de dados em pontos de um espaço de decisão, identificando correlações numéricas entre esses pontos."
+        ],
+        "gabarito": "Algoritmos de regressão estimam relações matemáticas contínuas entre variáveis, podendo modelar tendências e prever valores numéricos."
+    },
+    {
+        "id": 4,
+        "enunciado": "Texto 2A2-I Imagens de satélite e inteligência artificial podem ser aplicadas para determinar os níveis de desmatamento e os detalhes da biodiversidade da Floresta Amazônica, de maneira que culturas agrícolas sejam automaticamente classificadas por um sistema de aprendizado de máquina que usa imagens de satélite nesse mapeamento.\nÉ nesse sentido que a ferramenta LLP-Co (learning from label proportions with prototypical contrastive clustering) organiza grandes conjuntos de dados capturados por drones e satélites, que conseguem sobrevoar a floresta e coletar dados em grande escala, inclusive em áreas de cobertura vegetal mais densa. Esses dados são organizados, identificados (rotulados) e classificados pelo sistema, que tem a capacidade de aprender sozinho a partir da supervisão e validação dos pesquisadores.\nAs aplicações do sistema no monitoramento florestal permitem uma maior acurácia no acompanhamento do avanço do desmatamento, possibilitando uma gestão de políticas públicas mais eficaz. Além disso, a identificação e a classificação das espécies vegetais podem revelar detalhes surpreendentes da biodiversidade local, abrindo novos flancos de pesquisas voltadas para a preservação ambiental.\nInternet: <https://portal.fgv.br> (com adaptações).\nA classificação automática de culturas agrícolas e espécies vegetais, conforme descrita no texto 2A2-I, corresponde, do ponto de vista da mineração de dados, a uma tarefa de classificação porque",
+        "alternativas": [
+            "reduz a dimensionalidade dos dados para a visualização.",
+            "agrupa dados sem rótulos previamente definidos.",
+            "identifica exceções raras em grandes volumes de dados.",
+            "descobre relações frequentes entre atributos independentes.",
+            "associa instâncias a classes previamente definidas a partir de exemplos."
+        ],
+        "gabarito": "associa instâncias a classes previamente definidas a partir de exemplos."
+    },
+    {
+        "id": 5,
+        "enunciado": "Acerca de técnicas para pré-processamento de dados, CRISP-DM, análise de grupamento, detecção de anomalias e regras de associação, julgue o próximo item.\nNo contexto de regras de associação, o conceito de confiança refere-se à expectativa de que um dado, grupo ou banco de dados atue da maneira esperada em dada situação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 6,
+        "enunciado": "Acerca de técnicas para pré-processamento de dados, CRISP-DM, análise de grupamento, detecção de anomalias e regras de associação, julgue o próximo item.\nEm mineração de dados, dado ruidoso é aquele cujo valor está fora do domínio do atributo.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 7,
+        "enunciado": "Acerca de técnicas para pré-processamento de dados, CRISP-DM, análise de grupamento, detecção de anomalias e regras de associação, julgue o próximo item.\nNa metodologia CRISP-DM, a preparação dos dados serve para limpá-los, tratando valores ausentes, outliers e inconsistências.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 8,
+        "enunciado": "Acerca de técnicas para pré-processamento de dados, CRISP-DM, análise de grupamento, detecção de anomalias e regras de associação, julgue o próximo item.\nUma anomalia é um valor discrepante, ou seja, um valor que se localiza significativamente distante dos valores considerados normais.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 9,
+        "enunciado": "Um analista de dados recebeu a tarefa de estimar os consumidores de uma rede de lojas de varejo digital que têm maior probabilidade de voltar a adquirir determinado produto. A empresa disponibilizou tabelas contendo, respectivamente, a lista de consumidores com seus dados demográficos, os resultados de vendas de cada loja e os dados básicos como endereço e área ocupada por cada loja. Para alimentar sua ferramenta de mineração de dados é necessário agregar as tabelas repassadas em um único banco de dados.\nConsiderando o modelo de referência CRISP-DM, esse analista encontra-se na etapa de",
+        "alternativas": [
+            "avaliação.",
+            "modelagem.",
+            "entender os dados.",
+            "entender o negócio.",
+            "preparação dos dados."
+        ],
+        "gabarito": "preparação dos dados."
+    },
+    {
+        "id": 10,
+        "enunciado": "No campo da mineração de dados existem alguns problemas fundamentais que costumam aparecer com frequência em variados cenários de aplicação. O estudo desses problemas fornece ferramentas ao analista de dados que são aplicáveis em diferentes projetos de mineração de dados. Nesse conjunto se encontram os problemas de determinação de padrões, classificação de dados, segmentação de dados (clustering) e detecção de valores discrepantes (outliers). Considerando os problemas citados, analise as afirmativas a seguir.\nI. Em uma tabela binária esparsa, que representa uma base de dados de transações de clientes, em que as colunas representam cada produto e as linhas cada transação, verifica-se que, frequentemente, três das colunas apresentam simultaneamente o valor 1 para vários registros. Este tipo de análise é um problema de detecção de valores discrepantes.\nII. A identificação de consumidores que são similares entre si, para uso no contexto de aplicação de promoções orientadas, constitui um problema de segmentação de dados.\nIII. O problema de classificação de dados pode ser considerado como supervisionado, pelo fato das relações entre as classes definidas e os demais atributos dos dados serem “aprendidas” pelo modelo.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, apenas.",
+            "I e II, apenas.",
+            "I e III, apenas.",
+            "II e III, apenas.",
+            "I, II e III."
+        ],
+        "gabarito": "II e III, apenas."
+    },
+    {
+        "id": 11,
+        "enunciado": "Um sistema de informações deve ser implementado com a finalidade de compilar dados relacionados à opinião dos usuários sobre uma determinada instituição, considerando as publicações de conteúdos na Web.\nA técnica empregada para navegar automaticamente por páginas Web e extrair informações relevantes para o contexto de aplicação recebe o nome de",
+        "alternativas": [
+            "Mineração de Dados.",
+            "Aprendizado de Máquina.",
+            "Raspagem de Dados em Redes.",
+            "Interface de Programação de Aplicações.",
+            "Descoberta de Conhecimento em Bases de Dados."
+        ],
+        "gabarito": "Raspagem de Dados em Redes."
+    },
+    {
+        "id": 12,
+        "enunciado": "Com relação às técnicas de Detecção de Outliers, analise as afirmativas a seguir e assinale (V) para a verdadeira e (F) para a falsa.\n( ) A Distância de Mahalanobis é uma técnica eficaz para detectar outliers em dados multivariados, pois leva em consideração a média e a covariância dos dados, permitindo identificar pontos que são outliers em relação à distribuição conjunta das variáveis.\n( ) Modelos de Misturas Gaussianas (GMM) não devem ser utilizados para detectar outliers com distribuições não normais, pois levam em consideração apenas distribuições Gaussianas.\n( ) A Transformação Logarítmica é uma técnica comum e eficiente para remover outliers de forma definitiva em conjuntos de dados simétricos e assimétricos.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "V – V – V.",
+            "V – V – F.",
+            "V – F – F.",
+            "F – F – F.",
+            "F – V – V."
+        ],
+        "gabarito": "V – V – F."
+    },
+    {
+        "id": 13,
+        "enunciado": "A respeito de data mart e data mining, julgue o item a seguir.\nO uso de data mining permite, por exemplo, que uma empresa de varejo descubra padrões de compra ocultos em grandes volumes de dados, permitindo que a empresa crie promoções direcionadas ou ajuste o leiaute da loja para aumentar as vendas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 14,
+        "enunciado": "Acerca dos algoritmos de mineração de dados, analise as afirmativas a seguir, e assinale (V) para a verdadeira e (F) para a falsa.\n( ) Uma árvore de decisão é um grafo cíclico direcionado em que cada nó é um nó de divisão.\n( ) Em uma rede neural artificial multicamadas os neurônios estão conectados a todos os neurônios da camada anterior.\n( ) As máquinas de vetores de suporte (SVM - Support Vector Machine) são aplicadas em problemas de classificação nos quais busca-se dividir os dados por meio de um hiperplano.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "V – V – F.",
+            "V – F – V.",
+            "F – V – F.",
+            "F – F – V.",
+            "V – V – V."
+        ],
+        "gabarito": "F – F – V."
+    },
+    {
+        "id": 15,
+        "enunciado": "Considere três transações (T1, T2 e Tonde cada transação guarda os itens comprados em um supermercado. A transação T1 é definida por {macarrão, tomate}, T2 por {macarrão, tomate, queijo} e T3 por {tomate, queijo}. Utilizando as noções de regras de associação o suporte e a confiança para {macarrão, tomate} → {queijo} são respectivamente:",
+        "alternativas": [
+            "1/2 e ½.",
+            "1/2 e 1/3.",
+            "1/3 e 1/2.",
+            "1/3 e 1/3."
+        ],
+        "gabarito": "1/3 e 1/2."
+    },
+    {
+        "id": 16,
+        "enunciado": "A regra do cotovelo é uma técnica visual amplamente utilizada para identificar a quantidade ideal de agrupamentos que melhor representam os dados, sendo especialmente aplicada em qual método de clusterização?",
+        "alternativas": [
+            "CNN.",
+            "KNN.",
+            "DBScan.",
+            "K Means."
+        ],
+        "gabarito": "K Means."
+    },
+    {
+        "id": 17,
+        "enunciado": "Julgue o item a seguir, relativo às tecnologias CSV e JSON, à Linguagem SQL e ao modelo CRISP-DM.\nDurante a fase de data preparation (preparação dos dados) do modelo CRISP-DM, é necessário que todos os dados sejam normalizados e transformados em variáveis numéricas, independentemente de sua natureza original, para facilitar a análise posterior",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 18,
+        "enunciado": "Julgue o item a seguir, relativo às tecnologias CSV e JSON, à Linguagem SQL e ao modelo CRISP-DM.\nNo modelo CRISP-DM, durante a fase de evaluation (avaliação), os resultados do modelo são comparados com os objetivos do negócio para determinar sua eficácia e adequação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 19,
+        "enunciado": "A respeito de overfitting e underfitting, de deep learning e de métodos de data mining, julgue o item que se segue.\nPara reconhecer padrões de ocorrência que se repetem em determinados conjuntos de dados, como, por exemplo, padrões de consumo, é usado o método de data mining denominado associação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 20,
+        "enunciado": "A prefeitura de uma metrópole implementou um sistema de análise de dados para monitorar a concessão de subsídios e benefícios sociais. No entanto, o sistema começou a detectar um aumento de solicitações fraudulentas, incluindo a inserção de dados falsos para se qualificar a benefícios indevidos. A equipe de analistas responsável identificou uma oportunidade de utilizar as TICs em favor da sociedade, diante da flagrante violação das questões éticas. Assim, optou-se por usar uma abordagem de mineração de dados para identificar padrões de fraude nos dados, considerando que muitas fraudes envolvem pequenas manipulações difíceis de identificar. A opção escolhida foi",
+        "alternativas": [
+            "adotar métodos de séries temporais utilizando a Média Móvel Simplificada (MMS), que dá maior peso aos dados mais recentes, para observar a evolução das solicitações ao longo do tempo e detectar picos ou comportamentos atípicos que possam indicar fraudes sazonais ou concentradas em certos períodos.",
+            "aplicar a técnica de análise de anomalias para detectar padrões de comportamento discrepantes e encontrar fraudes que não seguem padrões bem definidos, utilizando métodos como isolamento de floresta (isolation forest) para encontrar outliers sutis.",
+            "aplicar algoritmos de clusterização, como o KNN (K-Nearest Neighbours), nos dados históricos de solicitações para identificar padrões de comportamento de grupos distintos de beneficiários, agrupando os fraudadores em clusters específicos.",
+            "utilizar regras de associação negativas para encontrar combinações frequentes de características em solicitações fraudulentas, permitindo que o sistema aplique regras automáticas para marcar possíveis fraudes.",
+            "implementar classificação supervisionada usando o algoritmo DBSCAN, que permite rotular cada solicitação como fraudulenta ou não, com base em exemplos passados de fraudes já detectadas."
+        ],
+        "gabarito": "aplicar a técnica de análise de anomalias para detectar padrões de comportamento discrepantes e encontrar fraudes que não seguem padrões bem definidos, utilizando métodos como isolamento de floresta (isolation forest) para encontrar outliers sutis."
+    },
+    {
+        "id": 21,
+        "enunciado": "Em business intelligence, mineração de dados consiste em",
+        "alternativas": [
+            "processo analógico que cria dados oriundo de padrões inconsistentes entre variáveis, de forma a validá-los com novos subconjuntos de dados.",
+            "processo analítico projetado para explorar grandes quantidades de dados na busca de padrões consistentes e(ou) relacionamentos sistemáticos entre variáveis.",
+            "processo analítico que define o valor e a relação que, por sua vez, vão transformar a informação em peça fundamental para um banco de dados relacional.",
+            "processo analógico que utiliza dados não estruturados para gerar padrões consistentes entre uma ou mais variáveis, de forma a validá-los com novos subconjuntos de dados.",
+            "processo analítico que independe do valor e da relação que é capaz de transformar a informação em peça fundamental para um banco de dados não relacional."
+        ],
+        "gabarito": "processo analítico projetado para explorar grandes quantidades de dados na busca de padrões consistentes e(ou) relacionamentos sistemáticos entre variáveis."
+    },
+    {
+        "id": 22,
+        "enunciado": "Julgue o seguinte item, relativo a técnicas de visualização de dados em business intelligence, a data lakes e a regras de associação em mineração de dados.\nEm mineração de dados, as regras de associação podem ser utilizadas para identificar combinações recorrentes entre argumentos jurídicos e decisões judiciais, revelar padrões entre tipos de ação e desfechos processuais, e auxiliar na recomendação de precedentes com base em casos semelhantes.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 23,
+        "enunciado": "O analista de Business Intelligence Luiz está desenvolvendo uma solução aplicando técnicas de mineração de dados na base de dados de processos judiciais do MPU para descobrir padrões que mostrem resultados como o exemplificado a seguir.\n{Roubo, Antecedentes Criminais, RJ, 2024} \\to {Pena > 5 anos} [Suporte = 50%, Confiança = 80%] Para descobrir esse tipo de padrão, com antecedente e consequente, Luiz deve minerar:",
+        "alternativas": [
+            "clusters;",
+            "outliers;",
+            "anomalias;",
+            "regressões;",
+            "regras de associação."
+        ],
+        "gabarito": "regras de associação."
+    },
+    {
+        "id": 24,
+        "enunciado": "Acerca de técnicas utilizadas na ciência de dados, julgue o item a seguir.\nA PCA (análise de componentes principais) é uma técnica que transforma variáveis correlacionadas em componentes principais ortogonais, o que permite a redução da dimensionalidade dos dados; a seleção dos componentes principais é realizada com base na variância explicada por cada componente.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 25,
+        "enunciado": "Acerca de técnicas utilizadas na ciência de dados, julgue o item a seguir.\nO algoritmo Apriori gera primeiro todos os itemsets individuais (itens) e, em seguida, combina-os para gerar itemsets de tamanho maior. Já o algoritmo FP-growth constrói uma estrutura de dados compacta denominada FP-tree, permitindo a mineração de itemsets frequentes sem gerar candidatos. Quanto à eficiência, o Apriori é mais rápido que o FP-growth devido à simplicidade de sua abordagem.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 26,
+        "enunciado": "Acerca de técnicas utilizadas na ciência de dados, julgue os itens a seguir.\nA métrica lift é usada para medir a dependência entre dois itens em uma regra de associação: se o lift de uma regra de associação entre dois itens A e B for maior que 1, então A e B obrigatoriamente aparecerão em conjunto mais frequentemente do que seria esperado se A e B fossem independentes.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 27,
+        "enunciado": "A respeito do tratamento e análise de grandes volumes de dados, julgue o item a seguir.\nA mineração de dados pode ser aplicada para a identificação de padrões de associação, como a regra “se X, então Y”, frequentemente utilizada em análise de cestas de compras.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 28,
+        "enunciado": "A respeito do tratamento e análise de grandes volumes de dados, julgue o item a seguir.\nA detecção de anomalias é uma técnica de mineração de dados que visa identificar padrões incomuns, ou outliers, sendo útil em aplicações como detecção de fraudes.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 29,
+        "enunciado": "Julgue o item a seguir, a respeito das estruturas de dados e de bancos de dados e da análise de dados.\nNo processo de análise de dados, uma das etapas é a análise exploratória, que visa à identificação de padrões e possíveis tendências.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 30,
+        "enunciado": "Julgue o item a seguir, acerca de modelagem de dados e de planejamento estatístico amostral e experimental.\nA extração de características transforma os dados brutos em informações otimizadas para a construção de modelos preditivos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 31,
+        "enunciado": "Julgue o item a seguir, acerca de modelagem de dados e de planejamento estatístico amostral e experimental.\nA seleção de atributos em um modelo preditivo pode reduzir o over fitting e, ao mesmo tempo, garantir menor variância sem impactar o viés, desde que os atributos removidos não sejam altamente correlacionados com a variável resposta.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 32,
+        "enunciado": "Uma empresa recebe inúmeras solicitações de atendimento referentes à garantia de seus produtos. Cada solicitação descreve o defeito alegado pelo cliente, a data de compra do produto ou serviço e outros detalhes. A empresa deseja implantar um sistema que decida automaticamente se uma solicitação deve ser aprovada ou negada, com base em exemplos históricos de solicitações.\nA partir da situação hipotética precedente, julgue o item a seguir, que versa sobre inteligência artificial e assuntos correlatos.\nNo método CRISP-DM, é na fase de modelagem que se definem as métricas de sucesso do projeto de descoberta de conhecimento.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 33,
+        "enunciado": "Julgue o item a seguir, a respeito de inteligência artificial, Big Data e data warehouse.\nBig Data e data warehouse são técnicas de armazenamento que dispensam a necessidade de descoberta de conhecimento e mineração de dados, e, por isso, a aprendizagem de máquina não se aplica ao contexto de Big Data.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 34,
+        "enunciado": "Julgue o item seguinte, relativos à administração de banco de dados Oracle, à modelagem de dados relacional, à normalização de dados e ao data mining.\nEm data mining, a técnica de regras de associação é usada para prever valores contínuos com base em atributos independentes, utilizando-se árvores de regressão.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 35,
+        "enunciado": "Um órgão de justiça deseja utilizar técnicas de mineração de dados para aprimorar a análise de processos e a tomada de decisões. A aplicação mais adequada de uma técnica de mineração de dados no contexto específico desse órgão é",
+        "alternativas": [
+            "Detecção de Anomalias: O órgão utiliza a detecção de anomalias para identificar processos que seguem o fluxo padrão, a fim de otimizar a alocação de recursos e acelerar a tramitação.",
+            "Regras de Associação: O órgão aplica regras de associação para prever a probabilidade de um processo ser julgado improcedente, com base em atributos como o juiz responsável e o histórico das partes envolvidas, com o objetivo de padronizar decisões judiciais.",
+            "Classificação: O órgão utiliza a classificação para agrupar processos em diferentes categorias com base em seu conteúdo textual, como \"crimes financeiros\", \"disputas de propriedade\" e \"ações trabalhistas\", sem utilizar categorias predefinidas.",
+            "Regras de Associação: O órgão aplica regras de associação para descobrir padrões de correlação entre diferentes variáveis nos processos, como identificar quais crimes são frequentemente cometidos em conjunto, com o objetivo de prever o resultado de um julgamento específico.",
+            "Análise de Agrupamentos (Clusterização): O órgão emprega a clusterização para identificar grupos de processos semelhantes com base em suas características, como partes envolvidas, tipo de crime e histórico de decisões, a fim de descobrir novas relações entre os dados."
+        ],
+        "gabarito": "Análise de Agrupamentos (Clusterização): O órgão emprega a clusterização para identificar grupos de processos semelhantes com base em suas características, como partes envolvidas, tipo de crime e histórico de decisões, a fim de descobrir novas relações entre os dados."
+    },
+    {
+        "id": 36,
+        "enunciado": "A metodologia CRISP-DM (Cross-Industry Standard Process for Data Mining) é um modelo amplamente reconhecido e utilizado mundialmente para a condução de projetos em ciência de dados. Sobre essa metodologia, analise as afirmativas abaixo.\nI É composta por seis fases sequenciais: entendimento do negócio, entendimento dos dados, preparação dos dados, modelagem, avaliação e implantação.\nII A fase de \"entendimento do negócio\" tem como objetivo principal garantir que o projeto esteja alinhado com os objetivos estratégicos da organização.\nIII É uma metodologia rígida, na qual não é possível retornar a fases anteriores após o início de uma nova fase.\nIV A fase de \"avaliação\" é responsável por validar os modelos de machine learning, não incluindo a análise do impacto do projeto no negócio.\nDas afirmativas, estão corretas",
+        "alternativas": [
+            "II e III.",
+            "I e II.",
+            "III e IV.",
+            "I e IV."
+        ],
+        "gabarito": "I e II."
+    },
+    {
+        "id": 37,
+        "enunciado": "A metodologia SEMMA é um processo desenvolvido pelo SAS Institute para a mineração de dados, sendo amplamente utilizada em projetos de ciência de dados.\nSobre essa metodologia, analise as afirmativas abaixo.\nI É composta por cinco etapas sequenciais: Sample (Amostragem), Explore (Exploração), Modify (Modificação), Model (Modelagem) e Assess (Avaliação).\nII A etapa de \"Sample\" tem como objetivo principal selecionar um subconjunto de dados representativo para análise, reduzindo o tempo de processamento.\nIII É uma metodologia que prioriza a implantação de modelos em produção, sendo esta a última fase do processo e a mais relevante.\nIV A etapa de \"Assess\" é responsável apenas pela validação estatística dos modelos, desconsiderando o impacto no negócio.\nDas afirmativas, estão corretas",
+        "alternativas": [
+            "I e II.",
+            "I e III.",
+            "II e IV.",
+            "III e IV."
+        ],
+        "gabarito": "I e II."
+    },
+    {
+        "id": 38,
+        "enunciado": "Julgue o próximo item, a respeito de Big Data, data mining e Oracle Data Integrator (ODI).\nUma das funções de data mining é realizar previsões com base em dados históricos, utilizando algoritmos como regressão, redes neurais e árvores de decisão.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 39,
+        "enunciado": "Julgue o próximo item, a respeito de Big Data, data mining e Oracle Data Integrator (ODI).\nAs técnicas de data mining operam exclusivamente com dados rotulados, utilizando apenas algoritmos supervisionados, uma vez que a descoberta de padrões requer o conhecimento prévio das classes dos dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 40,
+        "enunciado": "Em um estudo técnico baseado em um grande conjunto de dados, foram empregadas técnicas de aprendizado de máquina e análise estatística para identificar padrões e outras informações. Entretanto, os resultados foram questionados, pois, embora tenha sido demonstrada existência de correlação, não foi estabelecida relação de causalidade.\nConsiderando as melhores práticas e os desafios da mineração de dados, analise as afirmativas a seguir.\nI. Foram gerados insights a partir de dados válidos e confiáveis.\nII. A equipe executora contava com especialistas com experiência em programação Python, R e SQL.\nIII. A metodologia empregada atendeu a literatura e outros estudos técnicos semelhantes, descrevendo que foi selecionada apenas uma base de informações de dados não estruturados atualizada para realizar o processamento, em virtude de limitações de capacidade computacional, dos custos envolvidos e dos testes que demonstraram a introdução de incerteza ao se realizar uma coleta ampla e profunda de conjuntos de dados.\nEstá correto o que se afirma em:",
+        "alternativas": [
+            "I, apenas.",
+            "I e II, apenas.",
+            "II e III, apenas.",
+            "I e III, apenas.",
+            "I, II e III."
+        ],
+        "gabarito": "I, II e III."
+    },
+    {
+        "id": 41,
+        "enunciado": "A Mineração de Dados é a etapa do processo de KDD (Knowledge Discovery in Databases) responsável por extrair modelos de conhecimento a partir dos dados disponíveis. Após a construção desses modelos, é fundamental avaliar sua qualidade, o que exige compará-los com dados específicos para mensurar métricas que reflitam seu desempenho. Para garantir uma avaliação imparcial, os dados utilizados na criação do modelo não devem ser os mesmos empregados em sua validação. Assim, o processo de KDD deve utilizar, no mínimo, dois conjuntos distintos de dados: um conjunto de treinamento, para gerar o modelo, e um conjunto de testes, para avaliá-lo.\nSelecione a opção que identifica o método de particionamento de dados em que o “conjunto de treinamento” é gerado por N sorteios aleatórios com reposição a partir do conjunto de dados original (que contém N registros). Já o “conjunto de testes” é composto pelos registros não selecionados para o “conjunto de treinamento”.",
+        "alternativas": [
+            "Holdout.",
+            "Bootstrap.",
+            "Leave-One-Out.",
+            "K-Fold CrossValidation.",
+            "Stratifield K-Fold CrossValidation."
+        ],
+        "gabarito": "Bootstrap."
+    },
+    {
+        "id": 42,
+        "enunciado": "A mineração de dados é um dos principais componentes do processo de descoberta de conhecimento em bases de dados (KDD - Knowledge Discovery in Databases).\nSeu objetivo é extrair padrões relevantes, previamente desconhecidos, e potencialmente úteis a partir de grandes volumes de dados.\nSobre a mineração de dados, assinale a afirmativa correta.",
+        "alternativas": [
+            "A mineração de dados consiste exclusivamente na coleta e no armazenamento de dados em data warehouses, não envolvendo análises ou descobertas de padrões.",
+            "O principal objetivo da mineração de dados é remover informações redundantes antes que elas sejam carregadas em sistemas transacionais.",
+            "A mineração de dados utiliza técnicas estatísticas, de aprendizado de máquina e inteligência artificial para identificar padrões e relacionamentos em grandes volumes de dados.",
+            "A mineração de dados deve ser aplicada somente em bancos de dados estruturados, sendo incompatível com dados não estruturados como texto ou imagens.",
+            "Diferentemente da análise preditiva, a mineração de dados limita-se a gerar relatórios descritivos previamente definidos por especialistas."
+        ],
+        "gabarito": "A mineração de dados utiliza técnicas estatísticas, de aprendizado de máquina e inteligência artificial para identificar padrões e relacionamentos em grandes volumes de dados."
+    },
+    {
+        "id": 43,
+        "enunciado": "O termo Mineração de Dados refere-se à mineração ou à descoberta de novas informações em termos de padrões ou regras com base em grandes quantidades de dados. Preencha as lacunas abaixo considerando as técnicas empregadas na Mineração de Dados.\nAs Regras de ____________ correlacionam a presença de um itemset com outra faixa de valores para um conjunto de variáveis diverso. Já a técnica ____________ tem como objetivo trabalhar partindo de um conjunto existente de eventos ou transações para atribuir rótulos a novos dados com base em um conjunto de treinamento pré- existente. A técnica conhecida como ____________ considera que determinada população de eventos ou itens pode ser particionada (segmentada) em conjuntos de elementos 'semelhantes'.\nA sequência de palavras que preenche corretamente as lacunas é:",
+        "alternativas": [
+            "Classificação / Associação / Agrupamento.",
+            "Associação / Agrupamento / Classificação.",
+            "Associação / Classificação / Agrupamento.",
+            "Agrupamento / Associação / Classificação."
+        ],
+        "gabarito": "Associação / Classificação / Agrupamento."
+    },
+    {
+        "id": 44,
+        "enunciado": "Há múltiplas maneiras de criar sistemas de recomendação. Uma das maneiras, baseada em mineração de dados, é identificar quais itens costumam ocorrer em conjunto e posteriormente programá-las no sistema. Tal problema é solucionado por algoritmos de associação que podem gerar regras ao estilo setA→setB (leia-se, conjunto A implica conjunto B), em que diversas métricas podem ser obtidas para validar a força da regra.\nAssinale a alternativa que, respectivamente, corresponde a um algoritmo de associação e a uma métrica usada para validar a regra.",
+        "alternativas": [
+            "Apriori e Distância Euclidiana.",
+            "Apriori e Confiança.",
+            "Apriori e Backpropagation.",
+            "DBScan e Distância Euclidiana.",
+            "K-Means e Distância Euclidiana."
+        ],
+        "gabarito": "Apriori e Confiança."
+    },
+    {
+        "id": 45,
+        "enunciado": "Julgue o item a seguir, a respeito de mineração de dados, de arquitetura dos dados e de modelagem de dados.\nMineração de dados combina técnicas de descoberta de conhecimento com técnicas de implementação eficientes que permitem seu uso em bancos de dados extremamente grandes.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 46,
+        "enunciado": "Mineração de dados (Data Mining) pode ser definido como o processo de analisar bases de dados de grande porte, a fim de descobrir informações por meio de consultas. Tendo em vista as fases do processo de KDD (Knowlegde Discovery in Databases, descoberta de conhecimento nos bancos de dados) utilizado em Data Mining, marque V para as afirmativas verdadeiras e F para as falsas.\n( ) Mineração de dados: fase responsável pela escolha dos algoritmos a serem aplicados para a descoberta de informações. Essa escolha depende fundamentalmente dos objetivos do processo de KDD.\n( ) Preparação dos dados: nessa fase, os dados necessários para a solução de um problema são selecionados na base de dados. Essa etapa inicia-se a partir do agrupamento organizado de uma grande quantidade de dados de uma ou mais bases de dados, selecionando somente aqueles que são relevantes.\n( ) Limpeza dos dados: essa fase consome grande parte do esforço necessário para todo o processo devido à dificuldade de integrar bases de dados heterogêneas.\n( ) Interpretação: ao final do processo, o sistema de mineração de dados gera um relatório das descobertas, que passa então a ser interpretado por analistas de mineração. Somente após essa interpretação obtém-se o conhecimento.\nA sequência está correta em",
+        "alternativas": [
+            "V, V, V, V.",
+            "V, F, V, F.",
+            "F, V, F, V.",
+            "F, F, F, F."
+        ],
+        "gabarito": "V, V, V, V."
+    },
+    {
+        "id": 47,
+        "enunciado": "A fase do CRISP-DM em que se dá a aplicação das técnicas de mineração de dados propriamente ditas é denominada",
+        "alternativas": [
+            "preparação dos dados.",
+            "entendimento dos dados.",
+            "implantação.",
+            "modelagem.",
+            "avaliação."
+        ],
+        "gabarito": "modelagem."
+    },
+    {
+        "id": 48,
+        "enunciado": "Considerando processos de análise e mineração de dados, julgue o item subsecutivo.\nA técnica da árvore de decisão utiliza, entre outras, a abordagem de predição, na qual grupos diferentes são identificados de acordo com características em comum.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 49,
+        "enunciado": "Considerando processos de análise e mineração de dados, julgue o item subsecutivo.\nÉ na fase de mineração do data mining que são definidos os metadados dos dados manipulados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 50,
+        "enunciado": "Considerando processos de análise e mineração de dados, julgue o item subsecutivo.\nEm data mining, a técnica de associação é uma função que determina o coeficiente de afinidade entre certos eventos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 51,
+        "enunciado": "Considerando processos de análise e mineração de dados, julgue o item subsecutivo.\nA análise de conglomerados tem como objetivo agrupar os elementos de um conjunto de dados que tenham semelhanças entre si.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 52,
+        "enunciado": "Considerando processos de análise e mineração de dados, julgue o item subsecutivo.\nOs dados utilizados como fonte para análise e data mining são considerados semiestruturados quando possuem uma estrutura não homogênea, como arquivos XML e JSON.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 53,
+        "enunciado": "Considerando processos de análise e mineração de dados, julgue o item subsecutivo.\nEm data mining, um mesmo processo de análise de dados pode utilizar bancos de dados relacionais ou NoSQL, mas não simultaneamente.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 54,
+        "enunciado": "Com base em obtenção, limpeza e pré-processamento de dados, julgue o próximo item.\nÉ na etapa de modelagem do processo de análise que ocorrem a seleção dos dados, a definição e a construção do modelo.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 55,
+        "enunciado": "Com base em obtenção, limpeza e pré-processamento de dados, julgue o próximo item.\nA normalização de um conjunto de dados tem como objetivo representar todos os valores desse conjunto em uma escala de 0 a 1.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 56,
+        "enunciado": "Com base em obtenção, limpeza e pré-processamento de dados, julgue o próximo item.\nNo processo de análise, as atividades de limpeza, filtragem e estruturação dos dados estão concentradas na etapa de compreensão dos dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 57,
+        "enunciado": "Julgue o item a seguir que tratam de extração e representação de conhecimento.\nEm mineração de dados, interpretação e explanação consiste em filtrar o conjunto de dados por meio de mecanismo que varia de acordo com a técnica de mineração utilizada.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 58,
+        "enunciado": "Com relação a sistemas computacionais aplicados às ciências da vida, julgue o item seguinte.\nA mineração de dados, ou datamining, consiste em obter informações úteis a partir do estudo dos minérios, como o manganês e o cobalto, geralmente presentes nos resíduos tecnológicos da intervenção em saúde, evitando-se impacto potencial adverso sobre a saúde de pacientes.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 59,
+        "enunciado": "Um dos conceitos e ferramentas bastante utilizados em sistemas de suporte à decisão é o de data mining, que implica na",
+        "alternativas": [
+            "submissão do banco de dados da empresa a uma comissão especial de avaliação da qualidade dos dados.",
+            "aplicação de técnicas de normalização de tabelas contidas em bancos de dados relacionais.",
+            "aplicação de técnicas de melhoria do desempenho em consultas SQL feitas em bancos de dados relacionais.",
+            "utilização de técnicas computadorizadas de exploração de grandes volumes de dados, com a finalidade de descobrir novos padrões e relações, colaborando na tomada de decisões.",
+            "transformação do sistema de banco de dados da empresa em um sistema de tempo real, voltado a aplicações críticas."
+        ],
+        "gabarito": "utilização de técnicas computadorizadas de exploração de grandes volumes de dados, com a finalidade de descobrir novos padrões e relações, colaborando na tomada de decisões."
+    },
+    {
+        "id": 60,
+        "enunciado": "No que se refere a Big Data e analytics, julgue o item a seguir.\nNo CRISP-DM, os modelos de dados são definidos na etapa de preparação de dados, com a utilização de técnicas de machine learning.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 61,
+        "enunciado": "Uma equipe estadual de TI teve acesso a um data lake sobre dados de estradas do estado do Paraná e vai cruzar informações com o objetivo de otimizar o fluxo de veículos. Para isso, o time de Big Data optou por inicialmente descartar as variáveis correlacionadas redundantes. Nessa situação, a técnica que o time de Big Data deve adotar é a(o)",
+        "alternativas": [
+            "associação preliminar.",
+            "análise de predição.",
+            "descarte de resíduos.",
+            "combinação funcional.",
+            "redução de dimensionalidade."
+        ],
+        "gabarito": "redução de dimensionalidade."
+    },
+    {
+        "id": 62,
+        "enunciado": "A descoberta de conhecimento em base de dados é caracterizada como um processo composto por várias etapas operacionais: o pré-processamento, a mineração de dados e o pós- processamento.\nDas listadas a seguir, assinale a que é uma tarefa da etapa de mineração de dados.",
+        "alternativas": [
+            "seleção de dados (ou redução de dados).",
+            "limpeza de dados.",
+            "codificação de dados.",
+            "descoberta de associações.",
+            "enriquecimento de dados."
+        ],
+        "gabarito": "descoberta de associações."
+    },
+    {
+        "id": 63,
+        "enunciado": "Depois de acumular grande volume de dados históricos, os analistas do TRF1 querem descobrir neles padrões que permitam estimar eventos futuros, como quantidade e tipos de novos processos ao longo de intervalos de tempo anuais (por exemplo: pós recesso de final de ano).\nPara isso, os Analistas devem implementar:",
+        "alternativas": [
+            "um data mining;",
+            "chaves primárias;",
+            "índices compostos;",
+            "um modelo multidimensional;",
+            "um banco de dados semiestruturado."
+        ],
+        "gabarito": "um data mining;"
+    },
+    {
+        "id": 64,
+        "enunciado": "O CRISP-DM (Cross-Industry Standard Process for Data Mining) é uma metodologia amplamente utilizada para a análise e mineração de dados. Ela fornece um framework estruturado para realizar projetos de análise de dados, cobrindo desde a compreensão inicial do problema até a implementação das soluções. O ciclo CRISP- DM é composto por seis etapas principais: (i) Compreensão do negócio; (ii) Compreensão dos dados; (iii) Preparação dos dados; (iv) Modelagem; (v) Avaliação; (vi) Desenvolvimento. Na fase de compreensão dos dados, as tarefas desempenhadas são:",
+        "alternativas": [
+            "limpeza dos dados, tratando dados faltantes, corrigindo erros e removendo outliers.",
+            "transformação e integração dos dados, com normalização, agregação e criação de novas variáveis.",
+            "análise e entendimento das características dos dados e de como eles se relacionam com os objetivos do negócio.",
+            "seleção de técnicas de modelagem apropriadas (regressão, classificação, clustering e outras).",
+            "ajuste dos parâmetros dos modelos e validação dos resultados."
+        ],
+        "gabarito": "análise e entendimento das características dos dados e de como eles se relacionam com os objetivos do negócio."
+    },
+    {
+        "id": 65,
+        "enunciado": "Em relação à mineração de dados, assinale a alternativa INCORRETA.",
+        "alternativas": [
+            "A mineração de dados utiliza técnicas de aprendizado de máquina para analisar grandes volumes de dados.",
+            "A análise de agrupamento (clusterização) é uma técnica de mineração de dados que visa dividir um conjunto de dados em grupos homogêneos.",
+            "A mineração de dados analisa dados descritivos para identificar sentimentos em conteúdos específicos.",
+            "A redução de dimensionalidade é uma técnica de mineração de dados usada para reduzir o número de variáveis aleatórias, preservando a variabilidade presente nos dados.",
+            "As regras de associação na mineração de dados são utilizadas para descobrir relações frequentes entre variáveis em grandes bases de dados."
+        ],
+        "gabarito": "A mineração de dados analisa dados descritivos para identificar sentimentos em conteúdos específicos."
+    },
+    {
+        "id": 66,
+        "enunciado": "No que diz respeito ao modelo entidade‑relacionamento (ER), ao Data Lake e à discretização, julgue o próximo item.\nOs métodos bottom‑up iniciam a discretização com uma lista vazia de pontos de corte e, durante a discretização, novos pontos são inseridos dividindo os valores em intervalos menores.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 67,
+        "enunciado": "No que diz respeito ao modelo entidade‑relacionamento (ER), ao Data Lake e à discretização, julgue o próximo item.\nA discretização dos atributos contínuos consiste na divisão desses em intervalos, de forma que cada intervalo seja mapeado para um valor discreto.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 68,
+        "enunciado": "Todos os dias, empresas trabalham com uma enorme quantidade de dados, seja com informações cadastrais, preferências de consumidores, interações em redes sociais e transações com clientes. Quando esses dados são organizados e analisados por metodologias de Data Mining, podem garantir o sucesso das empresas, principalmente na tomada de decisões. Com a utilização das metodologias de mineração, é possível fazer correlações, desvendar tendências e verificara existência de padrões; dessa forma, consegue-se abstrair o conhecimento necessário para alavancar os negócios e tomar as decisões corretas.\nAssinale a alternativa que apresenta corretamente uma metodologia para processos de mineração de dados.",
+        "alternativas": [
+            "CRISP-DM.",
+            "PLN.",
+            "DRIN.",
+            "SOAP-JS."
+        ],
+        "gabarito": "CRISP-DM."
+    },
+    {
+        "id": 69,
+        "enunciado": "Assim como no caso das outras tarefas de mineração de dados, a mineração de regras de associação também pode ser executada por diferentes algoritmos, sendo que muitos deles são variações e melhorias de um algoritmo pioneiro, o processo geral de minerar regras de associação está dividido em quatro passos. Com relação ao passo de pré-processamento da base, assinale a alternativa correta.",
+        "alternativas": [
+            "O pré-processamento envolve etapas como: limpeza, integração, redução, transformação e discretização, a preparação de uma base transacional para a mineração de regras pode exigir que essa base seja transformada em uma base binária ou baseada em frequência.",
+            "O pré-processamento envolve gerar um conjunto de itens frequentes, são aqueles que satisfazem algum critério mínimo de frequência, por exemplo, itens que aparecem ao menos em determinado número de transações.",
+            "O pré-processamento envolve a criação de regras de associação, estas regras são geradas em uma etapa específica usando apenas os itens frequentes da base.",
+            "O pré-processamento envolve a criação de regras de associação, que devem ser avaliadas utilizando-se diferentes medidas de interesse, dependendo do contexto."
+        ],
+        "gabarito": "O pré-processamento envolve etapas como: limpeza, integração, redução, transformação e discretização, a preparação de uma base transacional para a mineração de regras pode exigir que essa base seja transformada em uma base binária ou baseada em frequência."
+    },
+    {
+        "id": 70,
+        "enunciado": "Em relação a conceitos, fundamentos, características, técnicas e métodos de BI (business intelligence), definição e conceitos de DW (data warehouse) e data mining e arquitetura e aplicações de data warehouse com ETL, julgue o item subsequente.\nData mining consiste em um processo analítico projetado para explorar grandes quantidades de dados em busca de padrões consistentes e(ou) relacionamentos sistemáticos entre variáveis.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 71,
+        "enunciado": "Em relação a conceitos, fundamentos, características, técnicas e métodos de BI (business intelligence), definição e conceitos de DW (data warehouse) e data mining e arquitetura e aplicações de data warehouse com ETL, julgue o item subsequente.\nA análise de dados preditiva baseia-se em técnicas de estatística para determinar o que é mais provável de acontecer por meio da utilização da mineração de dados e pode prever se um cliente está propenso a se mudar para um concorrente.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 72,
+        "enunciado": "Julgue o próximo item, relativo a conceitos e noções de modelo CRISP-DM, sistemas de suporte a decisão, gestão de conteúdo e aplicações de data warehouse com OLAP.\nA preparação de dados, que consiste em analisar a qualidade dos dados de acordo com o problema, explorar os dados e formular as hipóteses, faz parte dos estágios do CRISP-DM.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 73,
+        "enunciado": "Data Mining é o processo de explorar grandes conjuntos de dados para identificar padrões, tendências e informações valiosas que não são imediatamente evidentes.\nUtiliza técnicas de estatística, aprendizado de máquina e análise de dados para extrair conhecimento útil a partir de dados brutos. No contexto de Data Mining, a seguinte técnica é mais adequada para descobrir padrões ocultos em grandes conjuntos de dados categóricos sem a necessidade de rótulos de classe:",
+        "alternativas": [
+            "Regressão Linear.",
+            "Análise de Componentes Principais (PCA).",
+            "K-means.",
+            "Apriori.",
+            "Support Vector Machine (SVM)."
+        ],
+        "gabarito": "Apriori."
+    },
+    {
+        "id": 74,
+        "enunciado": "A mineração de dados está inserida no processo de descoberta de conhecimento em bases de dados, empregando diversas técnicas e métodos na execução de diferentes tarefas.\nSelecione a opção que contém apenas tarefas de mineração de dados.",
+        "alternativas": [
+            "Árvore de Decisão e Análise de Associação.",
+            "Classificação e Análise de Associação.",
+            "Classificação e Redes Neurais.",
+            "Floresta Aleatória e k Vizinhos mais Próximos.",
+            "Regressão e k-Médias."
+        ],
+        "gabarito": "Classificação e Análise de Associação."
+    },
+    {
+        "id": 75,
+        "enunciado": "Segundo Barbieri (2, a árvore de decisão é uma técnica utilizada em Data Mining. Assinale a opção que apresenta corretamente a abordagem empregada na utilização dessa técnica correspondente à criação de regras para aplicação em eventos futuros.",
+        "alternativas": [
+            "Estratificação.",
+            "Identificação de Interações.",
+            "Predição.",
+            "Redução de Dados.",
+            "Segmentação."
+        ],
+        "gabarito": "Predição."
+    },
+    {
+        "id": 76,
+        "enunciado": "A associação é uma técnica de mineração de dados que possui como princípio a utilização de algumas regras para encontrar relacionamentos entre variáveis, inclusive em situações em que elas, aparentemente, não possuem nenhuma relação.\nConsiderando a realização de compras por 10 clientes como demonstrado abaixo, pode-se afirmar que o valor do suporte e confiança para a associação \"hambúrguer e pão\" é, respectivamente, de:\nClienteHambúrgPuãeor KetchupMostarda\n1 x x x x\n2 x\n3 x\n4 x x\n5 x 6 x 7 x x 8 x x x x 9 x x x 10 x",
+        "alternativas": [
+            "40% e 60%.",
+            "30% e 50%.",
+            "60% e 40%.",
+            "50% e 60%.",
+            "50% e 50%."
+        ],
+        "gabarito": "30% e 50%."
+    },
+    {
+        "id": 77,
+        "enunciado": "Em relação à ciência de dados, julgue os itens que se seguem.\nData mining é o processo de descobrir padrões e informações valiosas em grandes conjuntos de dados, a partir da utilização de técnicas estatísticas, de aprendizado de máquina e de inteligência artificial.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 78,
+        "enunciado": "Um analista de tecnologia da Prefeitura de Rio Branco recebeu a seguinte demanda da Secretaria de Segurança Pública: identificar comportamentos e características, de um conjunto de dados referente a processos judiciais ligados a ataques maliciosos a servidores de dados. O analista utilizou técnicas de mineração de dados e apresentou o seguinte resultado: 75% dos envolvidos em processos judiciais ligados a ataques maliciosos a servidores de dados também estão envolvidos em processos ligados a roubo de dados sigilosos. Com base no relato, o analista utilizou a técnica de",
+        "alternativas": [
+            "classificação.",
+            "árvores binárias.",
+            "associação.",
+            "previsão."
+        ],
+        "gabarito": "associação."
+    },
+    {
+        "id": 79,
+        "enunciado": "No que diz respeito ao Modelo Entidade‑Relacionamento (ER), ao Data Warehouse, ao Data Lake e à normalização numérica, julgue o item seguinte.\nA normalização numérica desempenha um papel fundamental no tratamento de dados. A razão disso é o fato de não existir perda de informações.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 80,
+        "enunciado": "A respeito do Data Lake, da discretização e do tratamento de outliers, julgue o item a seguir Bins de frequência são utilizados na discretização.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 81,
+        "enunciado": "A respeito do Data Lake, da discretização e do tratamento de outliers, julgue o item a seguir A discretização é o processo de transformar dados categóricos em dados numéricos",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 82,
+        "enunciado": "Como gestor de tecnologia da informação em uma corretora de valores, você busca implementar técnicas matemáticas para melhorar a análise de dados e a eficiência dos sistemas de trading. Qual das seguintes alternativas seria a mais relevante para alcançar esses objetivos?",
+        "alternativas": [
+            "Análise de regressão, para modelar e prever tendências de mercado com base em dados históricos de investimentos.",
+            "Teoria dos números, para desenvolver algoritmos de criptografia avançada para proteger transações financeiras.",
+            "Geometria diferencial, para analisar a variação de taxas de câmbio entre diferentes moedas estrangeiras.",
+            "Teoria dos grafos, para mapear as interações e conexões entre diferentes mercados financeiros globais."
+        ],
+        "gabarito": "Análise de regressão, para modelar e prever tendências de mercado com base em dados históricos de investimentos."
+    },
+    {
+        "id": 83,
+        "enunciado": "Em Business Intelligence, assinale a alternativa que apresenta o nome da técnica utilizada em Data Mining para descobrir padrões ocultos nos dados.",
+        "alternativas": [
+            "Regressão logística.",
+            "Análise de clustering.",
+            "Análise de regressão linear simples.",
+            "Estatísticas descritivas."
+        ],
+        "gabarito": "Análise de clustering."
+    },
+    {
+        "id": 84,
+        "enunciado": "Data Mining ou Mineração de Dados é o processo de descobrir padrões, correlações e informações úteis em grandes volumes de dados. Sobre as cacaracterísticas da Data Mining, marque V para as afirmativas verdadeiras e F para as falsas.\n( ) Uma das principais etapas do processo de Data Mining é a limpeza de dados.\n( ) Data Mining pode ser usado apenas em conjuntos de dados estruturados.\n( ) Árvore de decisão (decision tree) é uma técnica de aprendizado supervisionado.\nA sequência está correta em",
+        "alternativas": [
+            "F, F, F.",
+            "F, V, F.",
+            "V, F, V.",
+            "V, V, V."
+        ],
+        "gabarito": "V, F, V."
+    },
+    {
+        "id": 85,
+        "enunciado": "No contexto da tarefa de aprendizagem nãosupervisionada conhecida como clusterização é correto afirmar que a abordagem:",
+        "alternativas": [
+            "hierárquica requer que especifiquemos antecipadamente o número de clusters K.",
+            "K-means resulta em uma representação na forma de dendrograma.",
+            "hierárquica resulta em uma representação na forma de dendrograma.",
+            "K-means é uma abordagem da clusterização aglomerativa.",
+            "aglomerativa é uma abordagem da clusterização Kmeans."
+        ],
+        "gabarito": "hierárquica resulta em uma representação na forma de dendrograma."
+    },
+    {
+        "id": 86,
+        "enunciado": "No contexto de mineração de dados, exemplos de técnicas de validação cruzada incluem:",
+        "alternativas": [
+            "Mean Squared Error e Ridge.",
+            "k-Fold e Lasso.",
+            "Ridge e k-Fold.",
+            "Leave-One-Out e k-Fold.",
+            "Mean Squared Error e Lasso."
+        ],
+        "gabarito": "Leave-One-Out e k-Fold."
+    },
+    {
+        "id": 87,
+        "enunciado": "A deduplicação objetiva identificar e combinar registros que representam a mesma entidade no mundo real. A etapa da deduplicação que tem por objetivo agregar registros que apresentam semelhança, reduzindo o domínio de pares a serem comparados nas etapas posteriores é:",
+        "alternativas": [
+            "Blocagem.",
+            "Otimização.",
+            "Comparação.",
+            "Classificação.",
+            "Padronização."
+        ],
+        "gabarito": "Blocagem."
+    },
+    {
+        "id": 88,
+        "enunciado": "No que diz respeito ao modelo de referência CRISP-DM (Cross Industry Standard Process for Data Mining), julgue o item.\nO CRISP-DM é uma metodologia abrangente de mineração de dados e um modelo de processo que fornece, para os usuários de data mining (DM), um modelo completo para a realização de um projeto de DM.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 89,
+        "enunciado": "No que diz respeito ao modelo de referência CRISP-DM (Cross Industry Standard Process for Data Mining), julgue o item.\nA única desvantagem que impede o uso em larga escala do CRISP-DM é o seu alto custo, uma vez que os usuários somente podem utilizá-lo após a aquisição da licença.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 90,
+        "enunciado": "No que diz respeito ao modelo de referência CRISP-DM (Cross Industry Standard Process for Data Mining), julgue o item.\nModelagem e avaliação são algumas das fases do ciclo do CRISP-DM.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 91,
+        "enunciado": "No que diz respeito ao modelo de referência CRISP-DM (Cross Industry Standard Process for Data Mining), julgue o item.\nO entendimento do negócio é a fase do ciclo do CRISP-DM que exige mais tempo em mineração de dados, pois estima-se que essa etapa, geralmente, leve entre 50 e 70% do tempo e do esforço de um projeto.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 92,
+        "enunciado": "No que diz respeito ao modelo de referência CRISP-DM (Cross Industry Standard Process for Data Mining), julgue o item.\nNo ciclo do CRISP-DM, a fase de implantação é a mais simples (jamais será um processo complexo), pois se resume à execução de scripts.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 93,
+        "enunciado": "No que se refere ao data mining, assinale a alternativa incorreta:",
+        "alternativas": [
+            "É um processo em que a tecnologia é empregada para localizar conexões, correlações ou anomalias em uma grande quantidade de dados.",
+            "No âmbito empresarial, o data mining gera insights que resultam em vantagens competitivas para a corporação.",
+            "Quanto mais sofisticado um algoritmo, mais ele depende de um usuário humano.",
+            "As decisões tomadas pelos gestores têm maior probabilidade de darem certo.",
+            "Permite encontrar oportunidades de melhoria em diversas áreas do negócio."
+        ],
+        "gabarito": "Quanto mais sofisticado um algoritmo, mais ele depende de um usuário humano."
+    },
+    {
+        "id": 94,
+        "enunciado": "A respeito de data warehouse e data mining, julgue o próximo item.\nO data mining é um processo usado para extrair e analisar informações que revelam padrões ou tendências estratégicas do negócio.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 95,
+        "enunciado": "Qual é a etapa de modelagem da metodologia CRISP-DM na qual são tratados os valores nulos e pode ser necessário fazer fusão com outros dados?",
+        "alternativas": [
+            "Entendimento do Negócio.",
+            "Preparação de Dados.",
+            "Modelagem.",
+            "Avaliação.",
+            "Implementação."
+        ],
+        "gabarito": "Preparação de Dados."
+    },
+    {
+        "id": 96,
+        "enunciado": "No modelo CRISP-DM (cross-industry standard process for data mining), a etapa que consiste em identificar se o modelo escolhido está apto a cumprir os objetivos definidos na primeira etapa, o entendimento do negócio, é denominada",
+        "alternativas": [
+            "entendimento dos dados.",
+            "preparação dos dados.",
+            "avaliação.",
+            "implantação.",
+            "modelagem."
+        ],
+        "gabarito": "avaliação."
+    },
+    {
+        "id": 97,
+        "enunciado": "A fim de modernizar e se adaptar às demandas de um ambiente de negócios cada vez mais digital e competitivo, a secretária de finanças de determinada organização pretende implementar uma área especializada em dados para promover a inovação, melhorar a agilidade e a velocidade de resposta às necessidades interna e externa bem como aumentar a eficiência e a produtividade do setor.\nConsiderando essa situação hipotética, julgue o item a seguir.\nUma das etapas que a referida área especializada em dados precisará desenvolver é a de análise exploratória, que consiste em pesquisar formas de criptografar os dados em big data da Internet e em inteligências artificiais abertas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 98,
+        "enunciado": "De acordo com Barbiere (2, os conceitos de garimpagem ou mineração de dados (data mining) têm sido amplamente utilizados em aplicações comerciais com o objetivo de buscar correlações ocultas em grandes volumes de dados. Essas correlações nem sempre são evidentes durante o tratamento cotidiano dos sistemas de informações, e a técnica de data mining se mostra útil na identificação de padrões e tendências relevantes para a tomada de decisões. Em relação à fase de análise, segundo o autor, quais são as técnicas básicas definidas para o processo de garimpagem de dados?",
+        "alternativas": [
+            "Redes neurais, análise de regressão, classificação e agregação.",
+            "Análise de regressão, árvores de decisão e análise de conglomerados.",
+            "Classificação, associação, padrões sequenciais e árvores de decisão.",
+            "Associação, padrões sequenciais, classificação e agregação.",
+            "Análise de regressão, associação e árvores de decisão."
+        ],
+        "gabarito": "Associação, padrões sequenciais, classificação e agregação."
+    },
+    {
+        "id": 99,
+        "enunciado": "No que se refere a data mining, julgue o próximo item.\nNa fase de análise de um projeto de data mining, uma das técnicas utilizadas é a associação, cuja finalidade é determinar um grau de afinidade entre eventos distintos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 100,
+        "enunciado": "No que se refere a data mining, julgue o próximo item.\nNa etapa de preparação de dados do modelo CRISP-DM, ocorre a identificação dos dados existentes, com suas respectivas características.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 101,
+        "enunciado": "Na Mineração de Dados, qual dos seguintes métodos é usado para identificar padrões sequenciais em conjuntos de dados temporais?",
+        "alternativas": [
+            "Árvores de decisão.",
+            "Algoritmos genéticos.",
+            "Modelos de Markov ocultos.",
+            "Lista duplamente encadeada."
+        ],
+        "gabarito": "Modelos de Markov ocultos."
+    },
+    {
+        "id": 102,
+        "enunciado": "Considere o conjunto de dados da entidade PACIENTE que possui o atributo do tipo contínuo TEMPERATURA com os valores {38.0, 39.5, 36.0, 35.5}. Para alimentar uma tarefa de Mineração de Dados, é necessário transformar os dados do atributo TEMPERATURA em um número finito de intervalos, como: {35-37, 38-40}.\nA tarefa de preparação de dados utilizada no atributo TEMPERATURA é:",
+        "alternativas": [
+            "codificação;",
+            "normalização;",
+            "padronização;",
+            "discretização;",
+            "partição de dados."
+        ],
+        "gabarito": "discretização;"
+    },
+    {
+        "id": 103,
+        "enunciado": "No contexto de Descoberta do Conhecimento em Bancos de Dados - Knowledge Discovery in Database (KDD), o analista de dados João deverá analisar um conjunto de dados preparado e consolidado com dados financeiros sobre transações, saldos de contas e históricos de crédito de clientes ao longo dos últimos anos. O objetivo é identificar possíveis anomalias ou atividades suspeitas que possam indicar fraudes.\nPara isso, a fase do processo KDD que João deverá utilizar é:",
+        "alternativas": [
+            "seleção de dados;",
+            "mineração de dados;",
+            "transformação de dados;",
+            "interpretação de resultados;",
+            "pré-processamento de dados."
+        ],
+        "gabarito": "mineração de dados;"
+    },
+    {
+        "id": 104,
+        "enunciado": "O Data Mining (Mineração de Dados) é uma das etapas da área de Conhecimento em Bases de Dados (Knowledge Discovery in Databases - KDD). Os métodos de Mineração de Dados podem ser considerados operadores definidos a partir de precondições e efeitos.\nMarque a opção que completa corretamente a lacuna da assertiva a seguir.\nFormalmente, uma regra de associação é uma implicação da forma X → Y, onde X e Y são conjuntos de itens tais que X Y = Ø ∩",
+        "alternativas": [
+            "≤.",
+            "≥.",
+            "≠.",
+            "."
+        ],
+        "gabarito": "≤."
+    },
+    {
+        "id": 105,
+        "enunciado": "Uma das etapas mais importantes do processo de Mineração de Dados é o pré-processamento dos dados das fontes que, normalmente, apresentam diversos tipos de heterogeneidade. A operação de pré-processamento que transforma dados quantitativos (contínuos) em dados qualitativos, ou seja, atributos numéricos em atributos discretos ou nominais com um número finito de intervalos, obtendo uma partição não sobreposta de um domínio contínuo, é a:",
+        "alternativas": [
+            "Redução;",
+            "Imputação;",
+            "Overfitting;",
+            "Discretização;",
+            "Undersampling."
+        ],
+        "gabarito": "Discretização;"
+    },
+    {
+        "id": 106,
+        "enunciado": "Durante a Mineração dos Dados sobre a tramitação dos processos eletrônicos do TJSE, o analista Pedro não estava chegando a resultados compreensíveis e resolveu verificar se havia anomalias nos dados. Para isso, o analista Pedro empregou a técnica:",
+        "alternativas": [
+            "clusterização;",
+            "detecção de outlier;",
+            "regras de associação;",
+            "análise de regressão;",
+            "normalização de dados."
+        ],
+        "gabarito": "detecção de outlier;"
+    },
+    {
+        "id": 107,
+        "enunciado": "Suponha que os processos que entram no Tribunal de Justiça variam entre 500 e 800 por mês. Em um dado mês, a entrada de processos ultrapassou os 1.500, sem nenhum fator sazonal óbvio em jogo. Para entender o motivo por trás do aumento nas entradas de processos, a fim de que se possa replicá-lo e obter uma melhor compreensão de sua base de processos, um Analista deve aplicar a técnica de mineração de dados",
+        "alternativas": [
+            "padrões sequenciais.",
+            "rastreamento de padrão.",
+            "análise de regressão.",
+            "detecção de outlier.",
+            "associação."
+        ],
+        "gabarito": "detecção de outlier."
+    },
+    {
+        "id": 108,
+        "enunciado": "Qual termo se refere ao processo de analisar, explorar e extrair padrões a partir de grandes quantidades de dados?",
+        "alternativas": [
+            "Datawarehouse.",
+            "Datamining.",
+            "GRID.",
+            "CPU.",
+            "GPU."
+        ],
+        "gabarito": "Datamining."
+    },
+    {
+        "id": 109,
+        "enunciado": "Quanto a dados estruturados e não estruturados, julgue o item subsecutivo.\nA mineração de dados oferece previsões instantâneas, mas requer uma base de dados dedicada e separada.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 110,
+        "enunciado": "No que se refere à mineração de dados, julgue o item que se segue.\nA mineração de dados tem como objetivos identificar padrões nos dados, classificar dados de partição em classes e otimizar o uso de recursos limitados, como tempo, espaço e materiais.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 111,
+        "enunciado": "No que se refere à mineração de dados, julgue o item que se segue.\nEntre as técnicas de mineração de dados que podem ajudar a criar resultados ideais se inclui a association rule learning, que se refere à observação, em um conjunto de dados, de itens que não correspondem a um padrão ou comportamento esperado.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 112,
+        "enunciado": "Com relação a data warehouse e data mining, julgue o item subsequente.\nA etapa de estratificação da técnica de árvore de decisão é responsável por determinar as regras para a designação dos casos identificados a uma categoria existente mais adequada no data mining.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 113,
+        "enunciado": "Com relação a data warehouse e data mining, julgue o item subsequente.\nA análise de data mining por padrão sequencial visa à identificação de fatos que geram outros fatos, sempre ocorrendo causa e consequência em momentos adjacentes.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 114,
+        "enunciado": "Considere o parágrafo a seguir.\n“Os beija-flores são aves de pequeno porte, que medem em média de 6 a 12 centímetros de comprimento e pesam de 2 a 6 gramas. Maioria dos bicos são normalmente longos, mas o formato preciso varia bastante com a espécie e está adaptado ao formato da flor que constitui a base da alimentação de cada tipo de beija-flor.” E seu sumário, obtido através de um modelo de sumarização automática:\n“Os beija-flores são aves de pequeno porte, com os bicos normalmente longos cujo formato varia com a espécie, dependendo do formato da flor que constitui a base da alimentação de cada tipo de beija-flor.” Com relação à técnica utilizada para essa sumarização, a alternativa que apresenta, respectivamente, o tipo de sumarização realizada e a evidência que nos permite classificá-la é:",
+        "alternativas": [
+            "abstrativa, pois os detalhes exatos, como medidas, foram omitidos no sumário;",
+            "extrativa, pois os substantivos principais foram preservados;",
+            "abstrativa, pois o sumário contém palavras que não aparecem no parágrafo original;",
+            "extrativa, pois os detalhes exatos, como medidas, foram omitidos no sumário;",
+            "extrativa, pois o sumário contém palavras que não aparecem no parágrafo original."
+        ],
+        "gabarito": "abstrativa, pois o sumário contém palavras que não aparecem no parágrafo original;"
+    },
+    {
+        "id": 115,
+        "enunciado": "Maria está explorando a seguinte tabela da base de dados de vendas do mercado HortVega:\nIDvenda ItensComprados\n1 Cacau, castanha, cogumelo, chia\n2 Cacau, chia\n3 Cacau, aveia\n4 Castanha, cogumelo, tâmara Utilizando técnicas de Mineração de Dados, Maria encontrou a seguinte informação:\nSe um cliente compra Cacau, a probabilidade de ele comprar chia é de 50%. Cacau => Chia, suporte = 50% e confiança = 66,7%.\nPara explorar a base de dados do HortVega, Maria utilizou a técnica de Mineração de Dados:",
+        "alternativas": [
+            "normalização;",
+            "classificação;",
+            "regra de associação;",
+            "clusterização;",
+            "redução de dimensionalidade."
+        ],
+        "gabarito": "regra de associação;"
+    },
+    {
+        "id": 116,
+        "enunciado": "Observe a tabela abaixo. Cada linha refere-se a uma compra realizada. A tabela tem duas colunas, uma contendo a identificação da compra e outra contendo a lista de itens adquiridos pela compra.\nIdentificação do CompraLista de Itens 01 A, B, D 02 A,G 03 E, G 04 A, B, D 05 D, F 06 F 07 F, G 08 A, B, C, D 09 C, E 10 A, B Aplicando o algoritmo de Mineração de Item Sets Apriori, com suporte mínimo de 20%, a lista de itens retornada seria:",
+        "alternativas": [
+            "A; B; C; D; E; F; G; (A, B); (A, C); (B, C); (A, B, C).",
+            "A; B; C; D; E; F; G; (A, B); (A, D); (B, D); (A, B, D).",
+            "A; B; C; D; E; F; G; (B, C); (B, D); (C, D); (A, B, C).",
+            "A; B; C; D; E; F; G; (A, B); (A, F); (B, F); (A, B, F)."
+        ],
+        "gabarito": "A; B; C; D; E; F; G; (A, B); (A, D); (B, D); (A, B, D)."
+    },
+    {
+        "id": 117,
+        "enunciado": "A mineração de dados (Data Mining) envolve um conjunto de algoritmos e ferramentas que são utilizados para a exploração de dados.\nAssinale o algoritmo/método usado na extração de regras de associação.",
+        "alternativas": [
+            "Apriori.",
+            "C4.5.",
+            "K-mean.",
+            "Naive Bayes.",
+            "PageRank."
+        ],
+        "gabarito": "Apriori."
+    },
+    {
+        "id": 118,
+        "enunciado": "Julgue o item, referentes à modelagem dimensional, ao modelo de referência CRISP-DM e à mineração de dados.\nO modelo de referência CRISP-DM, composto por quatro fases não cíclicas, permite o fluxo unidirecional, ou seja, pode ir e voltar entre as fases.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 119,
+        "enunciado": "Julgue o item, referentes à modelagem dimensional, ao modelo de referência CRISP-DM e à mineração de dados.\nO uso da mineração de dados permite, por exemplo, que as empresas mais bem planejem a logística de distribuição dos seus produtos, prevendo picos nas vendas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 120,
+        "enunciado": "Quanto à mineração de dados e ao CRISP-DM (Cross-Industry Standard Process for Data Mining), julgue o item.\nA mineração de dados é uma técnica que objetiva adquirir conhecimento a partir dos dados, por meio da detecção de vários tipos de padrões em grandes volumes de dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 121,
+        "enunciado": "Quanto à mineração de dados e ao CRISP-DM (Cross-Industry Standard Process for Data Mining), julgue o item.\nListagens, saídas gráficas, tabelas de resumo ou visualizações são formatos usados na apresentação dos resultados da mineração de dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 122,
+        "enunciado": "Quanto à mineração de dados e ao CRISP-DM (Cross-Industry Standard Process for Data Mining), julgue o item.\nCompreensão dos dados e preparação dos dados são fases do modelo CRISP-DM.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 123,
+        "enunciado": "Quanto à mineração de dados e ao CRISP-DM (Cross-Industry Standard Process for Data Mining), julgue o item.\nO modelo CRISP-DM é bastante utilizado graças à sua rigidez quanto à execução de cada uma de suas fases; ele não permite que um projeto retorne a uma etapa ou fase anterior, pois a sequência de fases é rigorosa e deve ser seguida.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 124,
+        "enunciado": "Quanto à mineração de dados e ao CRISP-DM (Cross-Industry Standard Process for Data Mining), julgue o item.\nNo modelo CRISP-DM, a modelagem é uma das fases mais importantes do processo, consistindo no conhecimento do domínio do negócio, ou seja, no conhecimento e na compreensão dos objetivos do projeto de mineração a partir da perspectiva do negócio.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 125,
+        "enunciado": "Assinale a opção que corresponde a métodos estatísticos que assumem distribuição ou modelo de probabilidade de dados, ou medidas de distância por meio das quais os objetos procurados são substancialmente distantes dos demais utilizados em data mining.",
+        "alternativas": [
+            "associação.",
+            "predição.",
+            "detecção de anomalias.",
+            "agrupamento."
+        ],
+        "gabarito": "detecção de anomalias."
+    },
+    {
+        "id": 126,
+        "enunciado": "Considere que o Tribunal Regional do Trabalho utiliza o modelo de referência CRISP-DM (Cross Industry Standard Process for Data Mining).\nEm um certo momento, uma equipe de Analistas está discutindo as seguintes questões relativas a um projeto:\n− Qual formato de data será utilizado: dd/mm/aaaa ou mm/dd/aaaa? − Os dados advindos das diversas fontes, relativos a um mesmo conteúdo, são compatíveis entre si? − Os campos binários serão formatados com True e False ou terão que ser convertidos para 1 e 0? − Após as análises descritivas, a média, a mediana, a moda e a quantidade dos dados estão de acordo com as categorias definidas? Com base nas questões apresentadas, a equipe está trabalhando na etapa do CRISP-DM denominada",
+        "alternativas": [
+            "modelagem e implantação (Modeling and Deployment).",
+            "avaliação (Evaluation).",
+            "entendimento do negócio (Business Understanding).",
+            "limpeza das bases de dados (Database Cleaning).",
+            "preparação dos dados (Data Preparation)."
+        ],
+        "gabarito": "preparação dos dados (Data Preparation)."
+    },
+    {
+        "id": 127,
+        "enunciado": "Criada na década de 90, a expressão Data Mining serve para definirmos a área de estudo de dados focada na aquisição de conhecimento a partir destes dados.\nEssa área conta com o apoio de outras áreas de estudo, como por exemplo a estatística e a inteligência artificial.\nMarque a alternativa que indica, corretamente, o nome do tipo de problema que Data Mining é capaz de resolver e que é um caso especifico de problemas de classificação.",
+        "alternativas": [
+            "Sequência.",
+            "Permutação.",
+            "Transposição.",
+            "Aglomeração.",
+            "Prognóstico."
+        ],
+        "gabarito": "Aglomeração."
+    },
+    {
+        "id": 128,
+        "enunciado": "Ao analisar um grande volume de dados, João encontrou algumas anomalias, por exemplo: pessoas com mais de 200 anos de idade e salário de engenheiro menor que salário de pedreiro.\nA operação de limpeza da fase de preparação de dados para tratar os pontos extremos existentes em uma série temporal a ser executada por João é:",
+        "alternativas": [
+            "Normalização;",
+            "Discretização;",
+            "Classificação;",
+            "Tratamento de outlier;",
+            "Redução de dimensionalidade."
+        ],
+        "gabarito": "Tratamento de outlier;"
+    },
+    {
+        "id": 129,
+        "enunciado": "O Departamento Secreto X da Marinha do Brasil se deparou com um conjunto de casos nos quais a etapa de pré-processamento foi crucial para o bom funcionamento dos diferentes sistemas que usam algoritmos de Aprendizado de Máquina. Assinale a opção que corresponde ao uso da correta tarefa de preparação de dados, dentre os diferentes contextos ( case) apresentados, segundo o processo KDD descrito por Goldschmidt (2.",
+        "alternativas": [
+            "Picos no sistema interno da Fragata Tango fazem com que os radares detectem distâncias erradas, multiplicadas por altíssimo fator de erro, que faz o valor da distância fugir de um intervalo de valor plausível. Um algoritmo de remoção de outlier foi desenvolvido para remover amostras com ordens de grandeza anômalas. Neste caso, a tarefa de redução de dados vertical foi aplicada.",
+            "O Sistema de Monitoramento de Caças da Aviação Naval registrou um grande conjunto de dados e foi verificada uma elevada quantidade de pares de variáveis com correlações extremamente próximas a 100% (como a observada entre a quantidade de combustível consumido e a distância percorrida). Neste caso, aplicou-se o algoritmo de PGA (Principal Component Analysis).",
+            "O Sistema \"PrevSaude\" foi desenvolvido utilizando algoritmos de Aprendizado de Máquina com o objetivo de prever as condições de saúde de diferentes militares. Foi aplicada uma amostragem sobre a grande população inicial de indivíduos mantendo-se a proporção em relação à faixa etária por meio do método de redução de dados vertical.",
+            "O Sistema \"PrevSaude\" foi desenvolvido utilizando algoritmos de Aprendizado de Máquina com o objetivo de prever as condições de saúde de diferentes militares e uma das tarefas de pré-processamento utilizada foi a codificação que considera militares casados representados por \"0001\", militares solteiros ou divorciados como \"0010\", militares viúvos como \"0100\" e outros como \"1000\". Neste caso, o tipo de codificação aplicado foi binário por temperatura.",
+            "Antes do fornecimento de dados à rede neural profunda para detecção de misseis, foi aplicado o algoritmo no qual cada distância foi subtraída da média amostral e dividida pela variância amostral. Desse modo, a tarefa de pré-processamento utilizada foi de enriquecimento de dados."
+        ],
+        "gabarito": "O Sistema de Monitoramento de Caças da Aviação Naval registrou um grande conjunto de dados e foi verificada uma elevada quantidade de pares de variáveis com correlações extremamente próximas a 100% (como a observada entre a quantidade de combustível consumido e a distância percorrida). Neste caso, aplicou-se o algoritmo de PGA (Principal Component Analysis)."
+    },
+    {
+        "id": 130,
+        "enunciado": "Um data warehouse é um tipo de sistema de gerenciamento de dados projetado para ativar e fornecer suporte às atividades de business intelligence (BI), especialmente a análise avançada. Os data warehouses destinam-se exclusivamente a realizar consultas e análises avançadas e geralmente contêm grandes quantidades de dados históricos. Nesse contexto, qual a ferramenta de análise conhecida como Open-end e que tem como função permitir que o usuário avalie tendências e padrões desconhecidos entre os dados?",
+        "alternativas": [
+            "Star schema.",
+            "ODS.",
+            "Data mining.",
+            "ETL."
+        ],
+        "gabarito": "Data mining."
+    },
+    {
+        "id": 131,
+        "enunciado": "Segundo as definições existentes, podemos dizer que Mineração de Dados é o mesmo que:",
+        "alternativas": [
+            "Utilizar um banco de dados para efetuar consultas visando recuperar informações que possam atender a um critério de pesquisa comum.",
+            "Conjunto de dados criados para uso em mineradoras e sistemas geológicos.",
+            "Extrair padrões, regras de associação ou sequências temporais e detectar os possíveis relacionamentos entre eles.",
+            "Banco de dados específico para a área de gestão de negócios, que se utiliza de BI para a manipulação dos dados."
+        ],
+        "gabarito": "Extrair padrões, regras de associação ou sequências temporais e detectar os possíveis relacionamentos entre eles."
+    },
+    {
+        "id": 132,
+        "enunciado": "Uma das ferramentas mais conhecidas e utilizadas para mineração de dados em Data Warehouses é o:",
+        "alternativas": [
+            "CASE.",
+            "DataMining.",
+            "LDAP.",
+            "Metadados."
+        ],
+        "gabarito": "DataMining."
+    },
+    {
+        "id": 133,
+        "enunciado": "Acerca de inteligência de negócios (business intelligence), julgue o item a seguir.\nEm data mining, enquanto a classificação identifica possíveis agrupamentos dentro de uma massa de dados sem grupos predefinidos, a aglomeração reconhece modelos que identificam o grupo a que um item pertence e os relaciona por meio do exame de itens já categorizados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 134,
+        "enunciado": "A respeito de mineração de dados, julgue o item que se segue.\nO fator de suporte e o fator de confiança são dois índices utilizados para definir o grau de certeza de uma regra de associação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 135,
+        "enunciado": "A respeito de mineração de dados, julgue o item que se segue.\nNo método de mineração de dados por agrupamento (clustering), são utilizados algoritmos com heurísticas para fins de descoberta de agregações naturais entre objetos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 136,
+        "enunciado": "Em uma organização, foram elencadas as necessidades a seguir.\nI Aplicação de modelo de gerenciamento com base no Six Sigma, de modo a gerenciar as etapas da Mineração de Dados do setor responsável.\nII Implantação do processo Sequenciar Atividades, no desenvolvimento do cronograma do projeto, com base no PMBOK.\nIII Implantação de abordagem ágil em relação à criação do backlog do projeto — lista ordenada de todo o trabalho, apresentado em forma de história.\nTendo como referência essa situação hipotética e a gestão de projetos em ciência de dados, julgue o item a seguir.\nPara o atendimento à necessidade I, deve-se implantar a CRISP-DM, cujas etapas são Entendimento do Negócio, Entendimento dos Dados, Preparação dos Dados, Modelagem, Avaliação e Aplicação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 137,
+        "enunciado": "Um data mining revela informações que consultas manuais não poderiam revelar efetivamente. Por exemplo, em data mining, o algoritmo de classificação permite",
+        "alternativas": [
+            "dividir o banco de dados em segmentos cujos membros compartilhem características iguais por meio de redes neurais.",
+            "analisar os dados históricos armazenados em um banco de dados e gerar automaticamente um modelo que possa prever comportamentos futuros.",
+            "mapear dados por meio da técnica estatística e, assim, obter um valor de previsão a partir de técnicas de regressão linear e não linear.",
+            "estabelecer relações entre itens que estejam juntos em determinado registro, o que é conhecido como análise de cesta de compras."
+        ],
+        "gabarito": "analisar os dados históricos armazenados em um banco de dados e gerar automaticamente um modelo que possa prever comportamentos futuros."
+    },
+    {
+        "id": 138,
+        "enunciado": "O processo que emprega técnicas estatísticas, matemáticas e de inteligência artificial, para extrair e identificar informações úteis, conhecimentos e padrões na forma de regra de negócio, a partir de vastos conjuntos de dados, denomina-se",
+        "alternativas": [
+            "DW (data warehouse).",
+            "DM (data mart).",
+            "K-Means.",
+            "ETL (Extract, Transform and Load).",
+            "Data Mining."
+        ],
+        "gabarito": "Data Mining."
+    },
+    {
+        "id": 139,
+        "enunciado": "No que se refere a data warehouse, data mining e sistema de mensageria, julgue o próximo item.\nUma consulta de um sistema gerenciador de banco de dados (SGBD) pode encontrar tendências úteis em um conjunto de dados, ao passo que o data mining fornece operações de análises mais abstratas, em alto nível, com o uso de algoritmos especializados",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 140,
+        "enunciado": "Em um projeto de data mining, a coleta do dado que será garimpado ocorre no processo de",
+        "alternativas": [
+            "preparação.",
+            "associação.",
+            "mineração.",
+            "classificação.",
+            "aplicação."
+        ],
+        "gabarito": "preparação."
+    },
+    {
+        "id": 141,
+        "enunciado": "De acordo com o modelo CRSP-DM, a seleção das técnicas que serão aplicadas nos dados selecionados ocorre na fase de",
+        "alternativas": [
+            "modelagem.",
+            "entendimento dos dados.",
+            "entendimento do negócio.",
+            "avaliação.",
+            "preparação dos dados."
+        ],
+        "gabarito": "modelagem."
+    },
+    {
+        "id": 142,
+        "enunciado": "O enriquecimento de dados da etapa de pré-processamento e preparação do data mining tem como objetivo",
+        "alternativas": [
+            "o acréscimo de dados à base já existente.",
+            "a seleção de amostras.",
+            "a deduplicidade de registros.",
+            "a integração de bases diferentes.",
+            "o tratamento de valores nulos."
+        ],
+        "gabarito": "o acréscimo de dados à base já existente."
+    },
+    {
+        "id": 143,
+        "enunciado": "Como se chama o processo de explorar grandes quantidades de dados à procura de anomalias, padrões e correlações consistentes, tais como regras de associação ou sequências temporais, para detectar relacionamentos sistemáticos entre variáveis, detectando assim novos subconjuntos de dados?",
+        "alternativas": [
+            "Mineração de Dados.",
+            "Inteligência Artificial.",
+            "ETL.",
+            "Computação em Nuvem."
+        ],
+        "gabarito": "Mineração de Dados."
+    }
+]

@@ -21,6 +21,18 @@ _CSS = """
 
 _NO_BREAK_AFTER = frozenset('"\')]};,&')
 
+_HTML_VOID = frozenset([
+    'area','base','br','col','embed','hr','img','input',
+    'link','meta','param','source','track','wbr'
+])
+
+_HTML_INLINE = frozenset([
+    'a','abbr','acronym','b','bdo','big','br','button','cite',
+    'code','dfn','em','i','img','input','kbd','label','map',
+    'object','output','q','samp','select','small','span',
+    'strong','sub','sup','textarea','time','tt','var'
+])
+
 def _normalize_code(code: str) -> str:
     """
     - { seguido de char visível que não seja fechamento: insere \n
@@ -120,13 +132,65 @@ def _unescape_block(code: str) -> str:
     return code
 
 
+def _is_html(code: str) -> bool:
+    return bool(re.search(r'<[a-zA-Z][^>]*>', code))
+
+
+def _normalize_html(code: str) -> str:
+    """Quebra linhas ao redor de tags HTML de bloco."""
+    # Coloca cada tag em sua própria linha
+    code = re.sub(r'(</[^>]+>)', r'\1\n', code)
+    code = re.sub(r'(<(?!/)(?:[^>]+)>)(?!\n)', lambda m: (
+        m.group(1) if re.match(r'<(\w+)', m.group(1)) and
+        re.match(r'<(\w+)', m.group(1)).group(1).lower() in _HTML_INLINE
+        else m.group(1) + '\n'
+    ), code)
+    # Remove linhas em branco extras
+    code = re.sub(r'\n{2,}', '\n', code)
+    return code.strip()
+
+
+def _indent_html(code: str) -> str:
+    lines = code.split('\n')
+    result = []
+    indent = 0
+    indent_size = 4
+
+    for line in lines:
+        stripped = line.strip()
+        if not stripped:
+            result.append('')
+            continue
+
+        close_match = re.match(r'^</(\w+)', stripped)
+        if close_match and close_match.group(1).lower() not in _HTML_INLINE:
+            indent = max(0, indent - indent_size)
+
+        result.append(' ' * indent + stripped)
+
+        open_match = re.match(r'^<(\w+)([^>]*)>', stripped)
+        if open_match:
+            tag = open_match.group(1).lower()
+            attrs = open_match.group(2)
+            self_closing = stripped.endswith('/>') or tag in _HTML_VOID
+            has_close = bool(re.search(rf'</{re.escape(tag)}>', stripped))
+            if not self_closing and not has_close and tag not in _HTML_INLINE:
+                indent += indent_size
+
+    return '\n'.join(result)
+
+
 def _render_code_block(code: str) -> str:
     code = _unescape_block(code.strip('\n'))
     if _is_numbered_list(code):
         return f'<div class="code-block">{_esc(code)}</div>'
-    code = _normalize_code(code)
-    code = _collapse_blank_lines(code)
-    code = _indent_code(code)
+    if _is_html(code):
+        code = _normalize_html(code)
+        code = _indent_html(code)
+    else:
+        code = _normalize_code(code)
+        code = _collapse_blank_lines(code)
+        code = _indent_code(code)
     return f'<div class="code-block">{_esc(code)}</div>'
 
 

@@ -1,0 +1,1890 @@
+[
+    {
+        "id": 1,
+        "enunciado": "<!DOCTYPE html> <html> <head> <style> box { width: 150px;\nheight: 150px;\nbackground-color: pink;\nopacity: 1;\ntransform: translateY(0);\ntransition: all 0.9s ease;\n} </style> </head> <body> <h1>Demo of @starting-style</h1> <div class=“box”>HELLO!</div> </body> </html> Em relação ao código HTML e CSS precedente, julgue o próximo item.\nAo ser executado, o código exibe o texto HELLO! em uma caixa rosa de 150 px, na posição definida e com um efeito de animação do tipo transição suave.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 2,
+        "enunciado": "Durante uma reunião pedagógica, a professora Ana sugeriu a criação de um site para divulgar os projetos realizados pelos alunos na escola. Ela explicou que a estrutura de uma página web básica inclui HTML para o conteúdo, CSS para estilização e JavaScript para funcionalidades interativas. Alguns professores questionaram a importância de cada uma dessas tecnologias.\nNo contexto da criação de um site escolar, a principal função do CSS é",
+        "alternativas": [
+            "definir o conteúdo e a estrutura básica do site.",
+            "garantir que o site seja acessível a diversos dispositivos, como celulares e tablets.",
+            "adicionar funcionalidades interativas, como botões que respondem a cliques.",
+            "estilizar e definir a aparência visual do site, como núcleos e fontes.",
+            "controlar o acesso ao site, protegendo as informações armazenadas."
+        ],
+        "gabarito": "estilizar e definir a aparência visual do site, como núcleos e fontes."
+    },
+    {
+        "id": 3,
+        "enunciado": "Um analista deseja estilizar um elemento <p> apenas se ele for precedido imediatamente por um elemento <h1> na hierarquia do DOM. Qual seletor CSS deve ser usado?",
+        "alternativas": [
+            "h1 p.",
+            "h1 + p.",
+            "h1 > p.",
+            "h1 ~ p."
+        ],
+        "gabarito": "h1 + p."
+    },
+    {
+        "id": 4,
+        "enunciado": "Para aplicar fundo preto com 30% de transparência em um contêiner criado com a tag div na página HTML, uma Analista deve colocar, na configuração CSS desse contêiner, a instrução:",
+        "alternativas": [
+            "background-color: rgba (0, 0, 0, 0.;",
+            "filter: transparency (70%);",
+            "background-color: hsla (100, 100%, 100%, 0.;",
+            "transparency: 0.3;",
+            "background-color: filter(#000000,30%);"
+        ],
+        "gabarito": "background-color: rgba (0, 0, 0, 0.;"
+    },
+    {
+        "id": 5,
+        "enunciado": "Assinale a opção que corresponde ao seletor CSS que pode ser utilizado para selecionar todos os elementos <p> que são filhos diretos de <div>.",
+        "alternativas": [
+            "div p.",
+            "div > p.",
+            "div + p.",
+            "div.p.",
+            "#div p."
+        ],
+        "gabarito": "div > p."
+    },
+    {
+        "id": 6,
+        "enunciado": "A propriedade CSS que é usada para alterar a cor de fundo de um elemento é denominada",
+        "alternativas": [
+            "background-color.",
+            "bgcolor.",
+            "color.",
+            "background-style.",
+            "color-background."
+        ],
+        "gabarito": "background-color."
+    },
+    {
+        "id": 7,
+        "enunciado": "Em CSS, a propriedade que é usada para definir a largura de um elemento é denominada",
+        "alternativas": [
+            "Length.",
+            "Size.",
+            "Breadth.",
+            "Width.",
+            "Measure."
+        ],
+        "gabarito": "Width."
+    },
+    {
+        "id": 8,
+        "enunciado": "Considere o código HTML a seguir.\n<div id=\"composicao\" posicao=\"0\"> <p posicao=\"1\"> MPF </p><br/> <p posicao=\"2\"> MPT </p><br/> <p posicao=\"3\"> MPM </p><br/> <p posicao=\"4\"> MPDFT </p><br/> </div> E o respectivo código CSS:\ndiv { display: flex;\nflex-direction: row-reverse;\n} p[posicao]::after { content: \"|\";\n} #composicao p::before { content: attr(posicao);\n} Após renderizar o código acima, um navegador web padrão exibe a linha:",
+        "alternativas": [
+            "MPF |MPT |MPM |MPDFT.",
+            "0| MPF | MPT | MPM | MPDFT |.",
+            "4 MPDFT |3 MPM|2 MPT|1 MPF |.",
+            "4| MPDFT 3| MPM 2| MPT 1| MPF.",
+            "0| 0 MPDFT |0 MPM|0 MPT|0 MPF |."
+        ],
+        "gabarito": "4 MPDFT |3 MPM|2 MPT|1 MPF |."
+    },
+    {
+        "id": 9,
+        "enunciado": "O Cascading Style Sheets (CSS), que traduzido para o português significa Folhas de Estilo em Cascata, é uma linguagem usada para estilizar e formatar páginas da Web escritas em HTML, dando às páginas webs customizações visuais mais elaboradas, como por exemplo, cor e tamanho da fonte, realce e destaque de pontos nas páginas webs e outros recursos relevantes na interface gráfica e experiência do usuário. São propriedades do CSS usadas em margens, com exceção do(a):",
+        "alternativas": [
+            "margin-bottom.",
+            "margin-sides.",
+            "margin-left.",
+            "margin-top."
+        ],
+        "gabarito": "margin-sides."
+    },
+    {
+        "id": 10,
+        "enunciado": "A respeito das linguagens Python, JavaScript e CSS, e dos conceitos de orientação a objetos, julgue o item a seguir.\nNa linguagem CSS, a propriedade padding, no Box Model, define a distância entre a borda de um elemento e os elementos vizinhos na página.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 11,
+        "enunciado": "O design responsivo é uma abordagem essencial no desenvolvimento web moderno, garantindo que páginas sejam exibidas de forma adequada em dispositivos com diferentes tamanhos de tela, desde smartphones até desktops.\nQual a técnica central utilizada para garantir que uma página web seja exibida adequadamente em dispositivos de diferentes tamanhos de tela?",
+        "alternativas": [
+            "Definição de tamanhos fixos para elementos.",
+            "Implementação de scripts server-side.",
+            "Uso de tabelas para layout.",
+            "Aplicação de CSS responsivo.",
+            "Utilização de imagens fixas."
+        ],
+        "gabarito": "Aplicação de CSS responsivo."
+    },
+    {
+        "id": 12,
+        "enunciado": "A propriedade border-style do CSS possui diversos estilos de bordas, sendo que cada um deles permite que o desenvolvedor desenvolva uma página site que especifique o tipo de borda a ser utilizada no elemento HTML.\nO valor de border-style que define uma borda ranhurada 3D é",
+        "alternativas": [
+            "dotted.",
+            "3dsolid.",
+            "groove.",
+            "3doutset.",
+            "3dinset."
+        ],
+        "gabarito": "groove."
+    },
+    {
+        "id": 13,
+        "enunciado": "Considerando o código CSS3,.flex { display: flex;\n}.flex-wrap { flex-wrap: wrap;\n} é correto afirmar que:",
+        "alternativas": [
+            "display: flex define a direção dos flex itens que por padrão é column.",
+            "flex-wrap: wrap é o valor que define que não é permitida a quebra de linha.",
+            "display: flex torna o elemento um flex container, automaticamente transformando todos os seus filhos diretos em flex itens.",
+            "flex-wrap é a propriedade que define se os itens devem quebrar ou não a linha; por padrão, há quebra de linha.",
+            "display: flex torna o elemento flexível, automaticamente transformando o elemento em colunas, para evitar a sobreposição."
+        ],
+        "gabarito": "display: flex torna o elemento um flex container, automaticamente transformando todos os seus filhos diretos em flex itens."
+    },
+    {
+        "id": 14,
+        "enunciado": "No desenvolvimento do portal institucional da PARANAPREVIDÊNCIA, você está trabalhando na implementação do menu de navegação e, para melhorar a experiência do usuário, decide aplicar um estilo visual distinto nos elementos de navegação que não contêm nenhum conteúdo, como links vazios ou ícones, para torná-los mais visíveis. Para isso, você opta por utilizar uma pseudoclasse do CSS 3 (Cascading Style Sheets, version que permite aplicar um estilo específico a esses elementos.\nCom base no caso exposto, assinale a alternativa que apresenta a pseudoclasse do CSS 3 que você utilizou para aplicar estilos a elementos que não têm filhos (nem texto, nem outros elementos).",
+        "alternativas": [
+            ":target.",
+            ":empty.",
+            ":root.",
+            ":fullscreen.",
+            ":enabled."
+        ],
+        "gabarito": ":empty."
+    },
+    {
+        "id": 15,
+        "enunciado": "Assinale a opção correspondente ao caractere utilizado em CSS3 como seletor universal.",
+        "alternativas": [
+            "*.",
+            ":.",
+            "@.",
+            ".",
+            "#."
+        ],
+        "gabarito": "*."
+    },
+    {
+        "id": 16,
+        "enunciado": "O desenvolvimento de sistemas é uma das principais atividades da área de Tecnologia da Informação e Comunicação (TIC) nas organizações. As metodologias de desenvolvimento compõem o conjunto de conhecimentos essenciais para analistas e programadores. Com base nessas informações, julgue o item a seguir.\nCSS pode ser usado para acessar bancos de dados e para manipular conteúdo dinâmico.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 17,
+        "enunciado": "Considere o seguinte trecho de código em HTML5+CSS3 construído por um desenvolvedor:\n<!DOCTYPE html> <html> <head> <style> div.container > p { color: red;\n}.container p.highlight { color: blue;\n} p { color: green !important;\n} </style> </head> <body> <div class=\"container\"> <p class=\"highlight\">Texto de exemplo</p> </div> </body> </html> Diante do exposto, assinale a alternativa que apresenta a cor final que será aplicada ao texto exibido na tela.",
+        "alternativas": [
+            "Azul.",
+            "Verde.",
+            "Branco.",
+            "Vermelho."
+        ],
+        "gabarito": "Verde."
+    },
+    {
+        "id": 18,
+        "enunciado": "No desenvolvimento web, HTML, CSS e JavaScript desempenham papéis fundamentais na construção e apresentação das páginas. Cada uma dessas tecnologias possui uma função específica na estruturação, estilização e interatividade dos conteúdos. Com base nisso, assinale a alternativa que melhor descreve a relação entre essas três tecnologias.",
+        "alternativas": [
+            "HTML é usado para estruturar o conteúdo; CSS, para adicionar interatividade; JavaScript, para estilizar a página.",
+            "HTML é usado para estilizar a página; CSS, para estruturar o conteúdo; JavaScript, para adicionar interatividade.",
+            "HTML é usado para estruturar o conteúdo; CSS, para estilizar a página; JavaScript, para adicionar interatividade e comportamentos dinâmicos.",
+            "HTML, CSS e JavaScript são usados exclusivamente para estilizar a página, sem impacto na estrutura ou interatividade.",
+            "HTML, CSS e JavaScript são linguagens de programação server-side, sem relação com o front-end."
+        ],
+        "gabarito": "HTML é usado para estruturar o conteúdo; CSS, para estilizar a página; JavaScript, para adicionar interatividade e comportamentos dinâmicos."
+    },
+    {
+        "id": 19,
+        "enunciado": "Em um site de uma organização construído com HTML e CSS, deseja-se aplicar um estilo especial a todos os links externos (com target=\"_blank\") que não pertencem à classe patrocinado. O seletor CSS3 que atende a esse requisito é:",
+        "alternativas": [
+            "a [target=\"_blank\"]:!(.patrocinado).",
+            "a [target=\"_blank\"]:!([class=\"patrocinado\"]).",
+            "a [link{target=\"_blank}]:not(.patrocinado).",
+            "a [target=\"_blank\"]:not(.patrocinado).",
+            "a [target=\"_blank\"]:not([class*=\".patrocinado\"])."
+        ],
+        "gabarito": "a [target=\"_blank\"]:not(.patrocinado)."
+    },
+    {
+        "id": 20,
+        "enunciado": "No desenvolvimento de um formulário eletrônico para cadastro de contribuintes, a equipe de TI precisava garantir que os campos de entrada se ajustassem automaticamente às proporções ideais em telas de diferentes tamanhos, sem depender exclusivamente de media queries. Eles optaram por uma propriedade CSS3 usada atualmente que define a relação entre largura e altura dos elementos, que é a propriedade",
+        "alternativas": [
+            "flex-clamp.",
+            "object-fit.",
+            "flex-grow.",
+            "flex-inset.",
+            "aspect-ratio."
+        ],
+        "gabarito": "aspect-ratio."
+    },
+    {
+        "id": 21,
+        "enunciado": "Em uma folha de estilo CSS, a seguinte regra é definida:\n[class$=\"dados\"] { color: blue;\n} O seletor [class$=\"dados\"] aplica-se a todos os elementos HTML",
+        "alternativas": [
+            "cuja classe é exatamente \"dados\".",
+            "cuja classe começa com \"dados\".",
+            "que não possuam a palavra \"dados\" na classe.",
+            "cuja classe termina com \"dados\".",
+            "que contêm a palavra \"dados\" em qualquer parte da classe."
+        ],
+        "gabarito": "cuja classe termina com \"dados\"."
+    },
+    {
+        "id": 22,
+        "enunciado": "O IFMS está em processo de modernização de seu portal institucional, com foco na criação de uma interface mais interativa e responsiva para os alunos e professores. Como parte desse projeto, o time de Desenvolvimento Web foi responsável por melhorar o design da página de cursos, utilizando CSS3 para criar efeitos dinâmicos e melhorar a experiência do usuário. Durante o desenvolvimento, o time utilizou pseudoclasses do CSS3 para aplicar estilos em elementos de acordo com a interação do usuário. Um dos requisitos era alterar o estilo de elementos de listas de cursos, que não possuíssem subitens, para dar destaque àqueles que são mais simples e diretos.\nCom base na situação exposta, assinale a alternativa que apresenta a pseudoclasse do CSS3 usada para estilizar elementos que não possuem filhos, incluindo nós de texto.",
+        "alternativas": [
+            ":empty.",
+            ":required.",
+            ":visited.",
+            ":focus.",
+            ":hover."
+        ],
+        "gabarito": ":empty."
+    },
+    {
+        "id": 23,
+        "enunciado": "Considere o comando CSS3:\n@media (max-width: 600px){.container {flex-direction: column;}} Esse comando",
+        "alternativas": [
+            "altera a propriedade flex-direction para column sempre que a altura do.container estiver abaixo de 600px, independentemente da largura.",
+            "garante o layout de coluna no.container para qualquer dispositivo móvel, sem levar em conta a largura da tela.",
+            "aplica a propriedade flex-direction: column ao.container, fazendo com que seus elementos sejam alinhados verticalmente quando a largura do dispositivo estiver em até 600px.",
+            "define a largura do.container como exatamente 600px a partir do momento em que a tela atinge ou fica abaixo desse valor, ignorando qualquer modificação posterior de largura.",
+            "altera a direção do flex para column apenas quando a largura do dispositivo exceder 600px, sem afetar resoluções menores."
+        ],
+        "gabarito": "aplica a propriedade flex-direction: column ao.container, fazendo com que seus elementos sejam alinhados verticalmente quando a largura do dispositivo estiver em até 600px."
+    },
+    {
+        "id": 24,
+        "enunciado": "O comando CSS3 que desfoca a imagem na página HTML com nome de classe image em 5px e aumenta seu brilho em 20% é o",
+        "alternativas": [
+            ".image { filter: contrast(5px) brightness(20%); }.",
+            "#image { filter: blur(5px) brightness(20%); }.",
+            ".image { filter: blur(5px) brightness(20%); }.",
+            ".image { filter: blur(5px) brightness(120%); }.",
+            "#image { filter: contrast(5px) brightness(120%); }."
+        ],
+        "gabarito": ".image { filter: blur(5px) brightness(120%); }."
+    },
+    {
+        "id": 25,
+        "enunciado": "Durante o desenvolvimento de um sistema de gestão tributária estadual, a equipe decidiu utilizar CSS Grid para criar um layout responsivo. Na página HTML, há o seguinte bloco de código:\n<div class=\"grid-container\"> <nav>Menu Lateral</nav> <main>Conteúdo Principal</main> </div> No arquivo CSS para a página, há o seguinte bloco de código:\n.grid-container { display: grid;\nI grid-template-rows: auto auto;\ngrid-template-areas:\n\"menu content\";\nheight: 100vh;\n} Para que a área principal de conteúdo (main) ocupe duas vezes o espaço do menu lateral (nav) em telas maiores, a lacuna I deve ser preenchida pela instrução",
+        "alternativas": [
+            "grid-template-columns: 1fr 2fr;",
+            "grid-template-columns: 1x 2x;",
+            "grid-template-columns: 2fr 1fr;",
+            "grid-template-columns: single double;",
+            "grid-template-columns: auto auto;"
+        ],
+        "gabarito": "grid-template-columns: 1fr 2fr;"
+    },
+    {
+        "id": 26,
+        "enunciado": "Considere os seguintes trechos de código HTML5 e CSS3:\nHTML <header> <nav role=\"navigation\"> <ul class=\"main-nav\"> <li><a href=\"/inicio\">Início</a></li> <li><a href=\"/sobre\" class=\"ativo\">Sobre</a></li> </ul> </nav> </header> <main id=\"principal\" role=\"main\"> <article> <h1>Título do Artigo</h1> <p>Conteúdo do artigo...</p> </article> </main> CSS main#principal { border: 1px solid #ccc;\n} nav ul.main-nav > li > a.ativo { font-weight: bold;\ntext-decoration: none;\n} Com base no código apresentado e nos princípios de desenvolvimento web, assinale a alternativa que descreve corretamente a estrutura, a semântica e o estilo aplicados.",
+        "alternativas": [
+            "A estrutura utiliza elementos semânticos do HTML5 para delinear o cabeçalho, a navegação e o conteúdo principal. O atributo role=\"main\" reforça a acessibilidade da seção principal. O CSS aplica um estilo em negrito e remove o sublinhado exclusivamente do link 'Sobre', por meio de um seletor de filho direto (>) que identifica a classe.ativo.",
+            "O código utiliza a tag <main> para agrupar o conteúdo, e o CSS aplica uma borda a ela usando um seletor de ID. O atributo role é um identificador para scripts de automação. A regra de estilo para.ativo aplicará negrito a qualquer link com essa classe que esteja dentro do elemento <nav>, facilitando a reutilização do estilo.",
+            "A estrutura semântica está bem definida, mas o CSS é ineficiente. O uso de main#principal tem baixa especificidade e poderia ser sobrescrito facilmente. A regra de estilo para o link de navegação deveria usar um seletor de descendente (nav a.ativo) para garantir que o estilo seja aplicado, pois seletores de filho direto (>) são menos compatíveis.",
+            "O uso de <header> e <nav> é apropriado para a estrutura. O atributo role=\"main\" é funcionalmente redundante, visto que a tag <main> já possui essa semântica por padrão nos navegadores modernos. O estilo CSS aplicará a formatação em negrito ao item de lista (<li>) que contém o link 'Sobre', mas não diretamente ao elemento de link (<a>).",
+            "Os elementos como <article> e <main> são usados para substituir <div> com o objetivo de facilitar a aplicação de CSS. A regra de estilo nav ul.main-nav > li > a.ativo está sintaticamente correta, mas aplicará o estilo a todos os links da lista de navegação, pois a classe.ativo tem precedência sobre os demais seletores na regra."
+        ],
+        "gabarito": "A estrutura utiliza elementos semânticos do HTML5 para delinear o cabeçalho, a navegação e o conteúdo principal. O atributo role=\"main\" reforça a acessibilidade da seção principal. O CSS aplica um estilo em negrito e remove o sublinhado exclusivamente do link 'Sobre', por meio de um seletor de filho direto (>) que identifica a classe.ativo."
+    },
+    {
+        "id": 27,
+        "enunciado": "Um analista de Tecnologia da Informação, ao realizar a manutenção de um sistema web, depara-se com um componente visual que não exibe o estilo esperado. A tarefa exige uma análise cuidadosa do código HTML e das múltiplas regras CSS aplicadas, demandando um conhecimento aprofundado sobre o modelo de cascata e as regras de especificidade que os navegadores utilizam para resolver conflitos de estilo. Analisando o trecho de código HTML e as regras CSS a seguir, e considerando as regras da cascata e especificidade do CSS, qual será a cor final aplicada ao texto do elemento <h1>? HTML:\n<section id=\"destaques\"> <article class=\"post promocao\"> <h1 class=\"titulo-principal\">Oferta Especial</h1> <p>Descrição da oferta...</p> </article> </section> CSS:\n#destaques h1 { color: red;\n} article.promocao h1 { color: green;\n} h1.titulo-principal { color: purple;\n}.post h1 { color: blue;\n} h1 { color: black;\n}",
+        "alternativas": [
+            "Verde, porque a regra article.promocao h1 é a mais descritiva e combina dois seletores de classe, tornando-a prioritária em relação às demais regras de estilo.",
+            "Vermelho, pois o seletor que utiliza o ID (#destaques) possui a maior especificidade entre as regras conflitantes, sobrepondo-se às definições baseadas em classes e elementos.",
+            "Roxo, pois a classe.titulo-principal está aplicada diretamente no elemento <h1>, fazendo com que esta regra tenha prioridade sobre as que estilizam com base nos elementos pais.",
+            "Azul, pois a regra.post h1 é a última regra baseada em classe a ser declarada para um elemento pai, e a ordem de declaração é um critério de desempate importante.",
+            "Preto, uma vez que a presença de múltiplos seletores conflitantes pode levar o navegador a ignorar as regras complexas e aplicar apenas o estilo mais básico definido para o elemento h1."
+        ],
+        "gabarito": "Vermelho, pois o seletor que utiliza o ID (#destaques) possui a maior especificidade entre as regras conflitantes, sobrepondo-se às definições baseadas em classes e elementos."
+    },
+    {
+        "id": 28,
+        "enunciado": "Considere o seguinte código CSS aplicado a uma página web.\nbody {background-color: green;} @media only screen and (max-width: 800px) { body {background-color: red;} } @media only screen and (max-width: 600px) { body {background-color: blue;} } É correto afirmar que se a largura do navegador for",
+        "alternativas": [
+            "igual a 500 pixels, a cor de fundo da página será verde.",
+            "igual a 700 pixels, a cor de fundo da página será verde.",
+            "igual a 800 pixels, a cor de fundo da página será vermelha.",
+            "maior que 600 pixels, a cor de fundo da página será azul.",
+            "maior que 800 pixels, a cor de fundo da página será branca (default do navegador)."
+        ],
+        "gabarito": "igual a 800 pixels, a cor de fundo da página será vermelha."
+    },
+    {
+        "id": 29,
+        "enunciado": "Considere‑se o código a seguir.\n<!DOCTYPE html> <html lang=”en”> <head> <meta charset=”UTF‑8”> <meta name=”viewport” content=”width=device‑width, initial‑scale=1.0”> <link rel=”stylesheet” href=”styles.css”> <title>Document</title> </head> <body> <div class=”container‑pai”> ← → <div>Conteúdo</div> Sem largura definida </div> </body> </html> Com base no código descrito, assinale a opção que apresenta o conteúdo do arquivo styles.css que, quando aplicado à div cuja classe é container‑pai, fará com que a div filha que não tem largura definida seja centralizada horizontalmente.",
+        "alternativas": [
+            ".container‑pai{ margin: auto; }",
+            ".container‑pai{ text‑align: center; }",
+            ".container‑pai{ position: absolute; left: 50%; }",
+            ".container‑pai{ display: flex; justify‑content: center; }",
+            ".container‑pai{ align‑items: center; }"
+        ],
+        "gabarito": ".container‑pai{ display: flex; justify‑content: center; }"
+    },
+    {
+        "id": 30,
+        "enunciado": "Considere as seguintes afirmativas sobre o Design Responsivo:\nI. O Bootstrap é um framework CSS que fornece diversos componentes prontos e estilizados para o uso com HTML, CSS e JS na criação de aplicações Web responsivas.\nII. Os breakpoints ajudam a tornar sua página responsiva. Ao definir breakpoints, os desenvolvedores ajustam a apresentação do conteúdo para telas pequenas, médias ou grandes, garantindo que o site seja acessível/funcional em diferentes dispositivos.\nIII. As grades fluidas e baseadas em proporção, as imagens flexíveis e as media queries são alguns dos pilares do design responsivo e permitem que as aplicações Web se adaptem automaticamente a diferentes tamanhos de telas e dispositivos, como desktops, tablets e smartphones.\nIV. O CSS Flexbox é mais adequado para layouts unidimensionais, para posicionar elementos em uma única linha ou coluna, enquanto o Grid Layout do CSS é mais adequado para layouts bidimensionais, para criar uma estrutura de grades com várias linhas e colunas.\nEstão corretas",
+        "alternativas": [
+            "apenas as afirmativas I e II.",
+            "apenas as afirmativas III e IV.",
+            "apenas as afirmativas I e IV.",
+            "apenas as afirmativas I, II e III.",
+            "todas as afirmativas."
+        ],
+        "gabarito": "todas as afirmativas."
+    },
+    {
+        "id": 31,
+        "enunciado": "Em páginas HTML com estilização CSS, pode acontecer um problema conhecido como colapso de margem CSS. Sobre esse problema, analise as assertivas abaixo e assinale a alternativa correta.\nI. Margens superior e inferior dos elementos podem ser reduzidas em uma única margem que é igual à maior das duas margens.\nII. Acontece exclusivamente nas margens superior e inferior.\nIII. Pode acontecer em valores de margem negativos.",
+        "alternativas": [
+            "Todas as assertivas estão corretas.",
+            "Todas as assertivas estão incorretas.",
+            "Apenas a assertiva III está correta.",
+            "Apenas as assertivas I e II estão corretas.",
+            "Apenas as assertivas II e III estão corretas."
+        ],
+        "gabarito": "Todas as assertivas estão corretas."
+    },
+    {
+        "id": 32,
+        "enunciado": "Flexbox ou CSS Flex Contêiner é um contêiner flexível em CSS cujo modelo de layout permite organizar os elementos de maneira flexível e eficiente. Com base na sintaxe de um contêiner flexível, qual é a propriedade e o valor que devem ser definidos?",
+        "alternativas": [
+            "display: flex.",
+            "display: flexbox.",
+            "display: flex-box.",
+            "layout: flexbox.",
+            "layout: flex-box."
+        ],
+        "gabarito": "display: flex."
+    },
+    {
+        "id": 33,
+        "enunciado": "Em relação a HTML5 e CSS3, XML, JSON, integração de dados e PWA (Progressive Web Apps), julgue o item seguinte.\nNo CSS3, a propriedade position: fixed; permite que um elemento fique posicionado de forma relativa ao fluxo normal da página, movendo‑se conforme o usuário rola a tela.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 34,
+        "enunciado": "No que diz respeito ao desenvolvimento de sistemas web, julgue o item a seguir.\nOs pseudoelementos no CSS, além de permitirem selecionar algumas áreas internas de um elemento HTML e customizá-las por meio de propriedades, podem ser selecionados com base no estado atual do elemento de origem.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 35,
+        "enunciado": "Durante a implementação de um layout responsivo, o analista identifica que o uso de float e margens fixas está dificultando o comportamento fluido em telas menores. Considerando o estado atual das tecnologias CSS, qual abordagem representa a melhor prática moderna para resolver o problema sem comprometer a semântica?",
+        "alternativas": [
+            "Utilizar display: table para simular colunas responsivas.",
+            "Aplicar position: absolute nos elementos principais.",
+            "Fixar tamanhos em px para garantir alinhamento.",
+            "Empregar hacks com overflow: hidden para ajustar o layout.",
+            "Migrar o layout para flexbox ou grid, com media queries adequadas."
+        ],
+        "gabarito": "Migrar o layout para flexbox ou grid, com media queries adequadas."
+    },
+    {
+        "id": 36,
+        "enunciado": "Durante o desenvolvimento de uma interface web responsiva, um desenvolvedor precisou aplicar estilos que se adaptassem dinamicamente à orientação da tela do dispositivo (modo retrato ou paisagem), de forma a garantir uma apresentação adequada do conteúdo em diferentes contextos de visualização. Considerando os recursos da linguagem CSS, a técnica mais apropriada para lidar com esse requisito é:",
+        "alternativas": [
+            "a substituição de estilos inline por classes CSS genéricas aplicadas em tempo de execução via JavaScript puro.",
+            "a utilização exclusiva de unidades de medida absolutas como px e cm para controle preciso do layout.",
+            "a aplicação de seletores de descendência para modificar a hierarquia visual dos elementos com base na profundidade DOM.",
+            "a implementação de animações com @keyframes para ajustar dinamicamente a largura da tela com base na orientação.",
+            "a definição de media queries utilizando a regra @media com a propriedade orientation para aplicar estilos condicionais."
+        ],
+        "gabarito": "a definição de media queries utilizando a regra @media com a propriedade orientation para aplicar estilos condicionais."
+    },
+    {
+        "id": 37,
+        "enunciado": "São propriedades CSS de fundo (background) válidas:\n1. background-color\n2. background-image\n3. background-video\n4. background-repeat Assinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "São corretas apenas as afirmativas 1 e 2.",
+            "São corretas apenas as afirmativas 1 e 4.",
+            "São corretas apenas as afirmativas 1, 2 e 3.",
+            "São corretas apenas as afirmativas 1, 2 e 4.",
+            "São corretas as afirmativas 1, 2, 3 e 4."
+        ],
+        "gabarito": "São corretas apenas as afirmativas 1, 2 e 4."
+    },
+    {
+        "id": 38,
+        "enunciado": "No desenvolvimento web, é comum o uso de fontes customizadas para enriquecer o design de uma página. Qual regra do CSS permite a importação de fontes personalizadas, possibilitando especificar a localização do arquivo de fonte, além de configurar estilos como peso e estilo da fonte, ampliando as opções tipográficas além das fontes padrão dos navegadores?",
+        "alternativas": [
+            "@font-face.",
+            "@font-family.",
+            "@font-link.",
+            "@font-style.",
+            "@font-import."
+        ],
+        "gabarito": "@font-face."
+    },
+    {
+        "id": 39,
+        "enunciado": "Dado o HTML:\n<p id=\"texto\" class=\"descricao\">Exemplo</p> E o CSS:\np { color: green; }.descricao { color: blue; } #texto { color: red; } Qual será a cor final exibida no parágrafo?",
+        "alternativas": [
+            "Azul.",
+            "Verde.",
+            "Vermelho.",
+            "Depende da ordem de carregamento do CSS."
+        ],
+        "gabarito": "Vermelho."
+    },
+    {
+        "id": 40,
+        "enunciado": "O CSS – Cascading Style Sheets, tem como propósito promover a estilização de elementos escritos em uma linguagem de marcação, como por exemplo o HTML, separando o conteúdo da representação visual do site. Sobre o CSS, analise as afirmativas a seguir.\nI. Um seletor de classe tem peso maior que um seletor de elemento; logo, as propriedades definidas no bloco de estilo do elemento substituirão as definidas no bloco de estilo da classe.\nII. O sinalizador !important pode ser utilizado para tornar uma propriedade individual e um par de valores a regra mais específica, substituindo, assim, as regras normais da cascata.\nIII. A ordem de origem é muito importante para situações de cascata; pois, em um cenário com mais de uma regra, estando todas com o mesmo peso, a que vier primeiro no CSS prevalecerá.\nEstá correto o que se afirma apenas em",
+        "alternativas": [
+            "I.",
+            "II.",
+            "III.",
+            "II e III."
+        ],
+        "gabarito": "II."
+    },
+    {
+        "id": 41,
+        "enunciado": "Considere o seguinte trecho de código de uma página web:\n<div id=\"opcoes\" class=\"vert\"> <div class=\"item\">Contratos</div> <div class=\"item\">Convênios</div> <div class=\"item\">Licitações</div> </div> E o respectivo código de Cascading Style Sheets:\n.vert { display: flex;\nwidth: max-content;\n}.item { flex: auto;\nwidth: 110px;\n} Ao ser renderizado por um navegador web padrão, o elemento com id “opcoes” do código acima exibe três elementos div:",
+        "alternativas": [
+            "dispostos em linha, com largura total igual a 330px;",
+            "dispostos em coluna, com largura total igual a 110px;",
+            "dispostos em linha, com largura total menor ou igual a 330px;",
+            "dispostos em coluna, com largura total menor ou igual a 110px;",
+            "dispostos em coluna, com largura total maior ou igual a 110px."
+        ],
+        "gabarito": "dispostos em linha, com largura total igual a 330px;"
+    },
+    {
+        "id": 42,
+        "enunciado": "A linguagem CSS é extremamente importante para a estilização de páginas web. Diante do exposto, assinale a alternativa que apresenta que propriedade CSS3 é usada para aplicar sombras a elementos.",
+        "alternativas": [
+            "box-shadow.",
+            "shadow-effect.",
+            "element-shadow.",
+            "box-effect."
+        ],
+        "gabarito": "box-shadow."
+    },
+    {
+        "id": 43,
+        "enunciado": "Na linguagem CSS, assinale a alternativa que apresenta a propriedade que é usada para arredondar as bordas de um elemento:",
+        "alternativas": [
+            "corner-radius.",
+            "round-border.",
+            "border-round.",
+            "border-radius."
+        ],
+        "gabarito": "border-radius."
+    },
+    {
+        "id": 44,
+        "enunciado": "A propriedade “display” do CSS é utilizada para especificar exibição de um elemento HTML. Cada elemento HTML tem um valor de exibição padrão dependendo do seu tipo. O valor de exibição padrão para a maioria dos elementos é “block” ou “inline”. Sobre este conceito os elementos HTML que possuem exibição padrão do tipo block são",
+        "alternativas": [
+            "<h1> e <p>.",
+            "<h1> e <span>.",
+            "<p> e <a>.",
+            "<p> e <span>."
+        ],
+        "gabarito": "<h1> e <p>."
+    },
+    {
+        "id": 45,
+        "enunciado": "No desenvolvimento web a linguagem de estilização CSS é constantemente utilizada acoplada ao HTML, para estilizar elementos visuais da página web, desta forma, a propriedade CSS que utilizada para definir a cor de um texto é:",
+        "alternativas": [
+            "color.",
+            "text-color.",
+            "font-color.",
+            "font-colorize."
+        ],
+        "gabarito": "color."
+    },
+    {
+        "id": 46,
+        "enunciado": "Analise o código HTML exibido a seguir, cujas linhas foram numeradas somente para fins de referência.\n1 <!DOCTYPE html>\n2 <html>\n3 <head>\n4 <style>\n5 img { 6 position: absolute;\n7 left: 0px;\n8 top: 0px;\n9 ---- 10 } 11 </style> 12 </head> 13 <body> 14 15 <h1>ATENÇÃO</h1> 16 <img src=\"img_tree.png\"> 17 <p>Essa imagem não deve ser copiada.</p> 18 </body> 19 </html> Para que a imagem seja exibida na página por trás do texto, a linha 9 deve conter:",
+        "alternativas": [
+            "deep-align: 0;",
+            "display: block behind;",
+            "overflow: auto;",
+            "visible: behind;",
+            "z-index: -1;"
+        ],
+        "gabarito": "z-index: -1;"
+    },
+    {
+        "id": 47,
+        "enunciado": "O Box Model CSS é essencialmente uma caixa que envolve cada elemento HTML.\nEle é formado por",
+        "alternativas": [
+            "height, width, border e padding.",
+            "width, border, padding e margin.",
+            "content, padding, borders e margins.",
+            "height, border, content e margin.",
+            "height, width, border e content."
+        ],
+        "gabarito": "content, padding, borders e margins."
+    },
+    {
+        "id": 48,
+        "enunciado": "Considerando o avanço proporcionado pela CSS3 no campo de design de páginas da web, especialmente no que diz respeito à utilização de novos tipos de fontes por meio da regra @font-face, avalie as afirmativas a seguir e selecione a alternativa que apresenta as opções corretas.\nI. Por meio da regra @font-face, é viável incorporar novas fontes nas páginas web, permitindo que o navegador as localize conforme necessário.\nII. A única desvantagem da nova regra, @font-face, é descontinuar as famílias de fontes que não possuíam total suporte pelos navegadores.\nIII. A regra @font-face não manteve o suporte à declaração font-family. Com isso, não é possível indicar uma ou várias fontes alternativas caso a preferencial não esteja disponível.\nIV. A regra @font-face permite que novas fontes sejam criadas e utilizadas em páginas.\nEssa regra informa ao browser o local onde a fonte a ser utilizada se encontra, permitindo ainda que seja verificado se o usuário já possui a fonte em questão.",
+        "alternativas": [
+            "Apenas III e IV.",
+            "Apenas I e II.",
+            "Apenas I e IV.",
+            "I, II, III e IV."
+        ],
+        "gabarito": "Apenas I e IV."
+    },
+    {
+        "id": 49,
+        "enunciado": "Algumas técnicas comuns são usadas para tornar um site responsivo. Marque a alternativa que contém uma técnica.",
+        "alternativas": [
+            "Usar apenas imagens de alta resolução.",
+            "Utilizar layout fixo em todas as páginas do site.",
+            "Utilizar media queries para ajustar o layout e o estilo com base no tamanho da tela.",
+            "Não se preocupar com a compatibilidade do site em dispositivos móveis."
+        ],
+        "gabarito": "Utilizar media queries para ajustar o layout e o estilo com base no tamanho da tela."
+    },
+    {
+        "id": 50,
+        "enunciado": "Observe a seguinte regra CSS.\n@media only screen and (min-width: 100px) { body { background-color: red;\n} } Ela é aplicada quando",
+        "alternativas": [
+            "a largura da área de visualização do navegador for menor ou igual a 100 pixels.",
+            "o tipo de dispositivo utilizado pelo usuário for do tipo desktop.",
+            "a largura da área de visualização do navegador for maior ou igual a 100 pixels.",
+            "o tipo de dispositivo utilizado pelo usuário for do tipo mobile.",
+            "a página HTML possuir a cor de fundo vermelha atribuída ao elemento body."
+        ],
+        "gabarito": "a largura da área de visualização do navegador for maior ou igual a 100 pixels."
+    },
+    {
+        "id": 51,
+        "enunciado": "Em um projeto de web design moderno que explora as funcionalidades do HTML e CSS mais recentes, analise o trecho a seguir.\n<head> <style>.artigo { Background-color: #f0f0f0;\nPadding: 20px;\nMax-width: 300px;\nMargin: 20px auto;\n}.artigo header h1 { Color: #333;\nText-shadow: 0 5 px 10px rgda(26, 6, 59, 0.;\n} </style> </head> <body> <article class=”artigo”> <header> <h1>Tendências em Tecnologia</h1> </header> </article> </body> Assinale a descrição que melhor representa a aparência e a estrutura do trecho acima.",
+        "alternativas": [
+            "Um artigo com fundo cinza claro e conteúdo centralizado. Sombra sutil ao redor do artigo, parágrafos em tamanho regular ou data de publicação em itálico centralizada no rodapé, conforme o código não define esses elementos ou estilos.",
+            "O artigo com texto alinhado à esquerda, sem formatação especial além do texto em itálico para a data de publicação. Não há aplicação de sombras ou bordas arredondadas, conforme especificado no CSS3.",
+            "O artigo apresenta interatividade com elementos que mudam ao passar do mouse, incluindo animações no título e parágrafos, apesar do código CSS3 fornecido não especificar tais efeitos.",
+            "A visualização do artigo é inconsistente entre diferentes navegadores, destacando somente o título, com seções e rodapé potencialmente não renderizados devido a problemas de compatibilidade.",
+            "A página mostra o artigo com formatação padrão do navegador, sugerindo que o arquivo CSS3 não foi corretamente vinculado ou carregado."
+        ],
+        "gabarito": "Um artigo com fundo cinza claro e conteúdo centralizado. Sombra sutil ao redor do artigo, parágrafos em tamanho regular ou data de publicação em itálico centralizada no rodapé, conforme o código não define esses elementos ou estilos."
+    },
+    {
+        "id": 52,
+        "enunciado": "A designer de experiência do usuário Bárbara está envolvida em um projeto para desenvolver um novo layout para o aplicativo móvel do TJMS. Enquanto enfrentava o desafio de organizar os elementos na tela, Bárbara se viu diante de duas abordagens distintas: uma prometendo um alinhamento estruturado e ordenado, outra destacando-se pela sua dinâmica e flexibilidade, especialmente em cenários nos quais a estrutura do layout pudesse variar de forma dinâmica.\nAs abordagens que Bárbara está avaliando são, respectivamente:",
+        "alternativas": [
+            "floats e positioning;",
+            "box model e Grid;",
+            "floats e Tables;",
+            "box Model e Floats;",
+            "grid e Flexbox."
+        ],
+        "gabarito": "grid e Flexbox."
+    },
+    {
+        "id": 53,
+        "enunciado": "Considere o seguinte trecho de um documento em HyperText Markup Language:\n<nav id=\"layout1\" class=\"layout1\"> <a href=\"/tribunal/\">Tribunal</a> | <a href=\"/downloads/\">Downloads</a> </nav> Considere também o respectivo código de Cascading Style Sheets:\n#layout1 { display: flex;\nflex-direction: row-reverse;\n} a { flex-shrink: initial; } Ao ser renderizado por um navegador web padrão, o código HTML com a folha de estilo CSS acima exibe:",
+        "alternativas": [
+            "uma mensagem de erro no console;",
+            "‘Tribunal|Downloads’ alinhado à direita;",
+            "‘Downloads|Tribunal’ alinhado à direita;",
+            "‘Tribunal|Downloads’ alinhado à esquerda;",
+            "‘Downloads|Tribunal’ alinhado à esquerda."
+        ],
+        "gabarito": "‘Downloads|Tribunal’ alinhado à direita;"
+    },
+    {
+        "id": 54,
+        "enunciado": "Explorar o CSS3 nos permite criar designs web ricos e interativos. O CSS3 é a terceira versão das Cascading Style Sheets, permitindo a estilização de páginas web de forma mais eficaz e criativa. Entre suas várias funcionalidades está o recurso Flexbox, ou Flexible Box Layout. No layout de uma página web, flexbox facilita especificamente:",
+        "alternativas": [
+            "a criação de layouts multicolumn com larguras fixas.",
+            "o posicionamento preciso de elementos com ‘position: absolute’.",
+            "a distribuição de espaço e alinhamento de itens dentro de um contêiner.",
+            "a adição de cantos arredondados e sombras aos elementos."
+        ],
+        "gabarito": "a distribuição de espaço e alinhamento de itens dentro de um contêiner."
+    },
+    {
+        "id": 55,
+        "enunciado": "Em CSS3, quando se deseja aplicar estilos a elementos que são especificamente filhos diretos de um elemento pai, qual seletor é apropriado para garantir que os estilos não sejam aplicados a elementos aninhados mais profundamente?",
+        "alternativas": [
+            "Descendente direto (>).",
+            "Irmãos adjacentes (+).",
+            "Classe (.classname).",
+            "ID (#idname)."
+        ],
+        "gabarito": "Descendente direto (>)."
+    },
+    {
+        "id": 56,
+        "enunciado": "No desenvolvimento de um layout web responsivo com CSS3, qual propriedade é crucial para implementar um efeito de parallax em uma seção da página, contribuindo para uma experiência de usuário dinâmica e imersiva?",
+        "alternativas": [
+            "display: flex;",
+            "background-attachment: fixed;",
+            "position: absolute;",
+            "overflow: hidden;"
+        ],
+        "gabarito": "background-attachment: fixed;"
+    },
+    {
+        "id": 57,
+        "enunciado": "No âmbito do desenvolvimento web moderno, a aplicação de recursos especiais através do CSS desempenha um papel fundamental na criação de experiências visuais ricas e interativas. Esses recursos, que incluem, desde a implementação de um CSS de normalização, até a utilização de flexbox para layouts responsivos, permitem aos desenvolvedores transcender as limitações dos estilos tradicionais, oferecendo interfaces mais dinâmicas e acessíveis. Dentro deste espectro de técnicas avançadas, uma propriedade particular do CSS é notória por sua capacidade de adicionar uma dimensão visual aprimorada a elementos da interface, projetando uma sombra que não apenas melhora a distinção visual, mas também contribui para a percepção de profundidade no design. Levando em consideração o arsenal de recursos especiais disponíveis, qual é a prática recomendada para criar um efeito de sombra que destaque elementos na interface sem recorrer diretamente à codificação?",
+        "alternativas": [
+            "Aplicar um estilo de normalização CSS para uniformizar a aparência dos elementos em diferentes navegadores.",
+            "Utilizar técnicas de cantos arredondados para suavizar as bordas dos elementos, promovendo um design mais amigável.",
+            "Empregar um método para gerar sombras, enfatizando a distinção visual dos elementos e enriquecendo a profundidade do layout.",
+            "Implementar animações e transições para adicionar movimento aos elementos, atraindo a atenção do usuário."
+        ],
+        "gabarito": "Empregar um método para gerar sombras, enfatizando a distinção visual dos elementos e enriquecendo a profundidade do layout."
+    },
+    {
+        "id": 58,
+        "enunciado": "Em um arquivo CSS foi encontrado a seguinte linha de código: h1 { font: bold 16pt/18pt Arial }. Considerando que não haja nenhuma outra regra que a sobrescreva, quais serão os respectivos valores das propriedades font-variant, font-style, font-stretch e font-size-adjust?",
+        "alternativas": [
+            "bold, 16pt, 18pt, e Arial.",
+            "normal, normal, normal, e none.",
+            "small-caps, normal, condensed, e no-stretch.",
+            "none, Arial, 16pt, e 18pt."
+        ],
+        "gabarito": "normal, normal, normal, e none."
+    },
+    {
+        "id": 59,
+        "enunciado": "Em um arquivo HTML em que se deseja associar uma mesma regra CSS a diferentes tipos de tags, foi empregado um seletor do tipo classe.\nNesse caso, para a criação dessa regra, no que diz respeito ao nome do seletor no código de formatação da folha de estilo e ao nome do seletor no atributo class da tag a ser formatada na página HTML que utiliza a folha de estilo, coloca-se",
+        "alternativas": [
+            "o sinal # antes do nome do seletor no código CSS e, na página HTML, usa-se o nome do seletor sem o sinal #.",
+            "um ponto antes do nome do seletor no código CSS e, na página HTML, usa-se o nome do seletor também com o ponto.",
+            "o sinal # antes do nome do seletor no código CSS e, na página HTML, usa-se o nome do seletor também com o sinal #.",
+            "um ponto antes do nome do seletor no código CSS e, na página HTML, usa-se o nome do seletor sem o ponto.",
+            "o sinal # antes do nome do seletor no código CSS e, na página HTML, usa-se o nome do seletor antecedido por um ponto."
+        ],
+        "gabarito": "um ponto antes do nome do seletor no código CSS e, na página HTML, usa-se o nome do seletor sem o ponto."
+    },
+    {
+        "id": 60,
+        "enunciado": "Acerca do frontend de um site, notou-se que algumas melhorias poderiam ser feitas de maneira a tornar a visualização da página mais agradável. Uma das sugestões consistia em adicionar sombreados a algumas caixas de texto e criar transições de cores por gradientes. Para alcançar esses objetivos, quais propriedades e (ou) funções do CSS3 poderiam ser corretamente utilizadas?",
+        "alternativas": [
+            "transition e width.",
+            "z-index e bottom.",
+            "flexbox e background.",
+            "box-shadow e linear-gradient.",
+            "animation e justify-content."
+        ],
+        "gabarito": "box-shadow e linear-gradient."
+    },
+    {
+        "id": 61,
+        "enunciado": "Considerando as linguagens Java, CSS e SQL, julgue o item.\nNa linguagem CSS, o símbolo # é utilizado para selecionar elementos por meio de seu ID.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 62,
+        "enunciado": "Considere o seguinte trecho de código HTML e CSS:\n<!DOCTYPE html> <html lang=\"pt-br\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Questão</title> <style>.container { width: 80%;\nmargin: 0 auto;\n}.text { font-size: 20px;\ncolor: blue;\ntext-align: center;\n}.text:hover { color: red;\n} </style> </head> <body> <div class=\"container\"> <p class=\"text\">Tribunal de Justiça do Estado do Maranhão</p> </div> </body> </html> Com base no código apresentado anteriormente, quando o cursor do mouse passa por cima do texto “Tribunal de Justiça do Estado do Maranhão”, o texto:",
+        "alternativas": [
+            "Fica sublinhado.",
+            "Permanece na cor azul.",
+            "Muda para a cor vermelha.",
+            "Muda de tamanho para 20px."
+        ],
+        "gabarito": "Muda para a cor vermelha."
+    },
+    {
+        "id": 63,
+        "enunciado": "Analise o seguinte código CSS e assinale a alternativa correta.\n.container { display: grid;\ngrid-template-columns: repeat(3, 1fr);\ngrid-template-rows: auto;\ngap: 10px;\n}.item { background-color: lightblue;\nborder: 2px solid darkblue;\n}.special-item { grid-column: 1 / 3;\ngrid-row: 1 / 2;\n}",
+        "alternativas": [
+            "O “.special-item” ocupará duas colunas e uma linha dentro do grid.",
+            "O “.container” utiliza o modelo de layout flexbox para distribuir os itens em três colunas.",
+            "O “grid-template-columns: repeat(3, 1fr);” cria três colunas de largura fixa.",
+            "A propriedade “gap: 10px;” adiciona um espaço de 10 pixels apenas entre as colunas.",
+            "O “.item” ocupará a posição definida pelo atributo “grid-area”."
+        ],
+        "gabarito": "O “.special-item” ocupará duas colunas e uma linha dentro do grid."
+    },
+    {
+        "id": 64,
+        "enunciado": "No Cascading Style Sheets (CSS), uma área de um documento que emprega flexbox é chamada de flex container. Para criar um contêiner flexível, é necessário definir uma determinada propriedade como flex ou inline-flex. Dessa forma, os elementos filhos do contêiner tornam-se itens do tipo flex.\nNesse caso, assinale a referida propriedade do CSS.",
+        "alternativas": [
+            "flex-wrap.",
+            "display.",
+            "container.",
+            "flex-flow.",
+            "flex-basis."
+        ],
+        "gabarito": "display."
+    },
+    {
+        "id": 65,
+        "enunciado": "Acerca de desenvolvimento web e mobile, julgue o item seguinte.\nAssim como o HTML, o CSS é uma linguagem de marcação, que define a estrutura do conteúdo da página web.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 66,
+        "enunciado": "Em relação ao desenvolvimento de sistemas web, julgue o próximo item.\nO uso extensivo de pseudoelementos no CSS3 pode melhorar a estrutura semântica de um documento HTML.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 67,
+        "enunciado": "No projeto da interface de uma página web em que se observa o princípio da responsividade, o CSS pode analisar a capacidade de um dispositivo, tal como largura e altura da janela de visualização (viewport) e a resolução. Essa técnica, que pode fornecer uma folha de estilos personalizada, adequada para ajustar visualizações a uma variedade específica de dispositivos de saída, sem mudar o conteúdo, é conhecida como",
+        "alternativas": [
+            "selectors.",
+            "transitions.",
+            "block and inline elements.",
+            "box-sizing.",
+            "media queries."
+        ],
+        "gabarito": "media queries."
+    },
+    {
+        "id": 68,
+        "enunciado": "No CSS3 (Cascading Style Sheet, versão , as pseudoclasses desempenham um papel crucial ao estilizar elementos com base em estados específicos ou relações com o documento. Uma dessas pseudoclasses seleciona elementos que estão em modo de tela cheia. Qual das seguintes pseudoclasses executa essa função?",
+        "alternativas": [
+            ":empty.",
+            ".in-range.",
+            ":root.",
+            ":fullscreen.",
+            ":enabled."
+        ],
+        "gabarito": ":fullscreen."
+    },
+    {
+        "id": 69,
+        "enunciado": "As pseudoclasses no CSS 3 (Cascading Style Sheet, versão são usadas para estilizar elementos em diferentes estados ou posições.\nA função da pseudoclasse “:root” é aplicar estilos:",
+        "alternativas": [
+            "A elementos que são pares.",
+            "A elementos que são ímpares.",
+            "Ao elemento raiz do documento HTML (Hypertext Markup Language).",
+            "A elementos com base no idioma especificado."
+        ],
+        "gabarito": "Ao elemento raiz do documento HTML (Hypertext Markup Language)."
+    },
+    {
+        "id": 70,
+        "enunciado": "Considerar o trecho de uma página HTML:\n<html> <head> <title>Minha página</title> </head> <body> <div id=\"conteudo\"> <h1>Meu título</h1> <p>Meu parágrafo</p> <img src=\"imagem.jpg\" alt=\"Minha imagem\" /> </div> </body> </html> Pedro é um programador frontend, e seu superior pediu para que ele posicionasse a imagem no canto superior direito da tela, com um espaçamento pequeno entre a borda da imagem e a borda da tela, mas somente quando a largura da janela do navegador for inferior à largura de uma tela com resolução HD.\nQual dos trechos de código CSS abaixo soluciona CORRETAMENTE a tarefa de Pedro?",
+        "alternativas": [
+            "@media (max-width: 1280px) { img { position: absolute; top: 0; right: 0; margin: 0.5rem; } }",
+            "@media (max-width: 1280px) { #conteudo { position: relative; } img { position: absolute; top: 0; right: 0; margin: 1rem; } }",
+            "@media (max-width: 720px) { img { position: absolute; top: 0; right: 0; margin: 8px 16px; } }",
+            "@media (max-width: 1080px) { #conteudo { position: absolute; top: 0; right: 0; margin: 0.75rem; } }"
+        ],
+        "gabarito": "@media (max-width: 1280px) { img { position: absolute; top: 0; right: 0; margin: 0.5rem; } }"
+    },
+    {
+        "id": 71,
+        "enunciado": "Considerando um código CSS que apresente o código de cor RGB com o valor #00ff00, assinale a alternativa que possui a cor representada.",
+        "alternativas": [
+            "Vermelho.",
+            "Verde.",
+            "Azul.",
+            "Preto.",
+            "Branco."
+        ],
+        "gabarito": "Verde."
+    },
+    {
+        "id": 72,
+        "enunciado": "A respeito do CSS3, marque V para as afirmativas verdadeiras e F para as falsas.\n( ) Permite configurar estilo de um documento HTML.\n( ) Descreve como elementos HTML devem ser exibidos.\n( ) Exige o uso dos comandos C, PHP ou javascript.\nAssinale a sequência correta.",
+        "alternativas": [
+            "F, V, V.",
+            "V, F, F.",
+            "V, V, F.",
+            "F, F, V."
+        ],
+        "gabarito": "V, V, F."
+    },
+    {
+        "id": 73,
+        "enunciado": "Qual recurso do CSS3 é usado para criar espaço ao redor do conteúdo de um elemento, dentro de bordas definidas?",
+        "alternativas": [
+            "Border.",
+            "Padding.",
+            "Outline.",
+            "Overflow."
+        ],
+        "gabarito": "Padding."
+    },
+    {
+        "id": 74,
+        "enunciado": "A analista Flávia está escrevendo as regras de Cascading Style Sheets (CSS) para uma página web. Flávia precisa que determinada regra seja aplicada aos elementos da página que possuam ambas as classes “redondo” e “sem-borda”.\nPara aplicar a regra através de seletores CSS, a analista deve utilizar o seletor:",
+        "alternativas": [
+            "redondo&sem-borda.",
+            "redondo+sem-borda.",
+            ".redondo.sem-borda.",
+            ".redondo+.sem-borda.",
+            ".redondo&.sem-borda."
+        ],
+        "gabarito": ".redondo.sem-borda."
+    },
+    {
+        "id": 75,
+        "enunciado": "A criação de páginas web responsivas é essencial para oferecer uma experiência de usuário consistente em diferentes dispositivos. O conceito de responsividade envolve o uso de técnicas e padrões que permitem que a página se ajuste de acordo com o tamanho da tela.\nConsiderando essa perspectiva, qual das alternativas abaixo representa uma prática recomendada para desenvolver páginas responsivas?",
+        "alternativas": [
+            "Evitar a utilização de grids, pois eles dificultam a adaptação da página a diferentes resoluções de tela.",
+            "Criar uma versão exclusiva para dispositivos móveis, separada da versão desktop, para melhorar a responsividade.",
+            "Implementar o uso de consultas de mídia (media queries) para aplicar estilos específicos com base no tamanho da tela do dispositivo.",
+            "Utilizar unidades fixas de pixels para elementos de layout, garantindo que a página tenha o mesmo aspecto em todos os dispositivos.",
+            "Manter todas as imagens em alta resolução, independente do dispositivo, para garantir qualidade visual uniforme."
+        ],
+        "gabarito": "Implementar o uso de consultas de mídia (media queries) para aplicar estilos específicos com base no tamanho da tela do dispositivo."
+    },
+    {
+        "id": 76,
+        "enunciado": "Acerca de Angular, CSS3, HTML5, JavaScript, TypeScript e XML, julgue o próximo item.\nUma das funcionalidades da CSS3 é o conjunto de transformações 3D, que visam permitir um melhor dimensionamento bidimensional dos elementos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 77,
+        "enunciado": "Julgue o seguinte item, relativo a tecnologias web.\nO código HTML a seguir apresentará JUSTIÇA ELEITORAL como resultado de sua execução.\n<html> <head> <style> p.upp { text-transform: capitalize;\n} </style> </head> <body> <p class=“upp”>justiça eleitoral</p> </body> </html>",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 78,
+        "enunciado": "Os padrões W3C definem uma plataforma aberta para desenvolvimento de aplicações web, sendo otimizados para interoperabilidade, segurança, privacidade, acessibilidade e internacionalização. No que tange às páginas web, o W3C propõe a utilização do CSS para",
+        "alternativas": [
+            "criar conteúdo interativo e dinâmico.",
+            "definir os elementos e seus atributos.",
+            "customizar a apresentação visual.",
+            "armazenar e transportar dados."
+        ],
+        "gabarito": "customizar a apresentação visual."
+    },
+    {
+        "id": 79,
+        "enunciado": "Como analista de informática da Sanepar, você está envolvido no desenvolvimento de um novo sistema web para o órgão. Parte do seu trabalho inclui a documentação das pseudoclasses do CSS3 que você utilizou no projeto, sendo uma dessas pseudoclasses o :root. Para garantir que a documentação esteja correta, você precisa assinalar a alternativa que descreve corretamente a função da pseudoclasse :root.",
+        "alternativas": [
+            "Aplica estilos ao último elemento do seu tipo dentro de seu pai.",
+            "Aplica estilos a elementos do mesmo tipo com base em sua posição.",
+            "Aplica estilos ao elemento raiz do documento.",
+            "Aplica estilos a links que foram visitados anteriormente.",
+            "Aplica estilos quando o ponteiro do mouse está sobre um elemento."
+        ],
+        "gabarito": "Aplica estilos ao elemento raiz do documento."
+    },
+    {
+        "id": 80,
+        "enunciado": "Assinale a opção que apresenta, se for o caso, a diferença entre os seletores CSS \"div > p\" e \"div p\".",
+        "alternativas": [
+            "\"div > p\" seleciona todos os elementos <p> que são filhos diretos de um elemento <div>, enquanto \"div p\" seleciona todos os elementos <p> que são descendentes de um elemento <div> independentemente do nível de \"nesting\".",
+            "\"div > p\" seleciona todos os elementos <p> que são irmãos de um elemento <div>, enquanto \"div p\" seleciona todos os elementos <p> que são descendentes de um elemento <div> independentemente do nível de \"nesting\".",
+            "\"div > p\" seleciona todos os elementos <p> que são filhos diretos de um elemento <div>, enquanto \"div p\" seleciona todos os elementos <p> que são filhos diretos de um elemento <div> independentemente do nível de \"nesting\".",
+            "\"div > p\" seleciona todos os elementos <p> que são descendentes de um elemento <div>, enquanto \"div p\" seleciona todos os elementos <p> que são filhos diretos de um elemento <div> independentemente do nível de \"nesting\".",
+            "Tanto \"div > p\" quanto \"div p\" selecionam todos os elementos <p> que são descendentes de um elemento <div> independentemente do nível de \"nesting\"."
+        ],
+        "gabarito": "\"div > p\" seleciona todos os elementos <p> que são filhos diretos de um elemento <div>, enquanto \"div p\" seleciona todos os elementos <p> que são descendentes de um elemento <div> independentemente do nível de \"nesting\"."
+    },
+    {
+        "id": 81,
+        "enunciado": "Na configuração CSS3 de um link HTML5, para retirar o sublinhado padrão que aparece nos links utiliza-se a instrução",
+        "alternativas": [
+            "text-decoration: empty.",
+            "underline: no.",
+            "text-decoration: none.",
+            "highlight: none.",
+            "highlight: no-underline."
+        ],
+        "gabarito": "text-decoration: none."
+    },
+    {
+        "id": 82,
+        "enunciado": "Qual propriedade do CSS3 tem como propósito especificar o que deve acontecer com o elemento que está próximo a um elemento float?",
+        "alternativas": [
+            "clear.",
+            "background.",
+            "content.",
+            "mask-type.",
+            "visibility."
+        ],
+        "gabarito": "clear."
+    },
+    {
+        "id": 83,
+        "enunciado": "Assinale a alternativa que apresenta o objetivo da propriedade flex no CSS3.",
+        "alternativas": [
+            "Definir a imagem de fundo da página.",
+            "Especificar a fonte do texto.",
+            "Indicar o tamanho do texto.",
+            "Ser um atalho para as propriedades flex-grow, flex-shrink e flex-basis.",
+            "Criar animações."
+        ],
+        "gabarito": "Ser um atalho para as propriedades flex-grow, flex-shrink e flex-basis."
+    },
+    {
+        "id": 84,
+        "enunciado": "Assinale a alternativa correspondente à propriedade do CSS3 que tem o objetivo de indicar a direção na qual o texto deve seguir em um elemento.",
+        "alternativas": [
+            "empty-cells.",
+            "direction.",
+            "height.",
+            "margin.",
+            "text-align."
+        ],
+        "gabarito": "direction."
+    },
+    {
+        "id": 85,
+        "enunciado": "Julgue o item a seguir, relacionados a desenvolvimento web em Java.\nUtilizando-se o CSS3, é possível criar efeitos animados por meio do atributo transform em conjunto com scripts.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 86,
+        "enunciado": "Considere o trecho de descrição de uma página Web, no qual as referências da terceira linha foram omitidas.\n<html> <head> <link rel=\"...\" href=\"...\"> </head> <style>.xxxxx { font-size: 18px;\ntext-align: center;\ncolor: #fff;\nbackground-color: blue;\n} ---------- </style> <body> <button class=xxxxx id=\"b1\">Clique aqui.</button> <p>Boa tarde.</p> </body> </html> Na linha tracejada, o texto que faz com que o botão mude de cor de fundo quando o mouse é posicionado sobre ele é:",
+        "alternativas": [
+            ".b1:hover { background-color: black; }",
+            ".button:hover { background-color: black; }",
+            ".xxxxx:hover { background-color: black; }",
+            "hover:b1 { background-color: black; }",
+            "hover:button { background-color: black; }"
+        ],
+        "gabarito": ".xxxxx:hover { background-color: black; }"
+    },
+    {
+        "id": 87,
+        "enunciado": "Em um arquivo CSS, as configurações específicas a serem aplicadas somente se a janela do navegador tiver largura de até 600 px devem ser colocadas dentro das chaves da instrução",
+        "alternativas": [
+            "@viewport (width=device-width:600px, initial-scale:1.{ }.",
+            "@viewport with max-width <= 600px { }.",
+            "@screen stretch(max-width <= 600px) { }.",
+            "@viewport (max-width: 600px) { }.",
+            "@media only screen and (max-width: 600px) { }."
+        ],
+        "gabarito": "@media only screen and (max-width: 600px) { }."
+    },
+    {
+        "id": 88,
+        "enunciado": "No script HTML5 com o CSS3 abaixo foi utilizado o elemento de layout chamada flexbox (Flexible Box Module) com o objeto unidimensional para organizar os elementos em uma tela.\nScript exemplo CSS.container { display: flex;\nflex-wrap: wrap-reverse;\nwidth: 100px;\n} p { width: 50px;\n} Scritp exemplo HTML <div class=”container”> <p>Item 1</p> <p>Item 2</p> <p>Item 3</p> <p>Item 4</p> </div> Considerando as informações, assinale a alternativa que apresenta como ficará a ordem do texto mostrado em tela para o usuário.",
+        "alternativas": [
+            "Item 1 Item 2 Item 3 Item 4.",
+            "Item 3 Item 1 Item 4 Item 2.",
+            "Item 3 Item 4 Item 1 Item 2.",
+            "Item 3 Item 2 Item 4 Item 1."
+        ],
+        "gabarito": "Item 3 Item 4 Item 1 Item 2."
+    },
+    {
+        "id": 89,
+        "enunciado": "Considere o seguinte código dentro da seção <head> de uma página HTML:\n<style> body { background-color: red;\n} @media only screen and (min-width: 400px) { body { background-color: green;\n} } @media only screen and (min-width: 500px) { body { background-color: yellow;\n} } @media only screen and (min-width: 600px) { body { background-color: blue;\n} } </style> Quando a largura da janela do navegador for igual a 550 pixels, a cor de fundo da página será",
+        "alternativas": [
+            "vermelha.",
+            "verde.",
+            "amarela.",
+            "azul.",
+            "branca."
+        ],
+        "gabarito": "amarela."
+    },
+    {
+        "id": 90,
+        "enunciado": "A opacidade é uma propriedade CSS que configura a transparência de um elemento. Assinale a alternativa que apresenta um trecho de código CSS que irá alterar a transparência de uma imagem para 50%, quando o cursor estiver posicionado sobre ela.",
+        "alternativas": [
+            "img:hover { opacity: 0.5; }",
+            "img:hover { opacity: 50; }",
+            "img:cursor { opacity: 0.5; }",
+            "img:cursor { opacity: 50; }",
+            "img { opacity: 50; }"
+        ],
+        "gabarito": "img:hover { opacity: 0.5; }"
+    },
+    {
+        "id": 91,
+        "enunciado": "No CSS é possível adicionar propriedade para elementos vazios, por exemplo, um elemento p que não contenha nenhum texto (<p></p>). Isso pode ser feito por meio do seletor:",
+        "alternativas": [
+            "null.",
+            "void.",
+            "zero.",
+            "empty.",
+            "novalue."
+        ],
+        "gabarito": "empty."
+    },
+    {
+        "id": 92,
+        "enunciado": "Analise as afirmativas abaixo sobre tecnologias de programação para a web.\n1. SVG emprega propriedades CSS para estilizar objetos.\n2. Embora pertença a XML, SVG é agora parte também da HTML5.\n3. Retângulos, elipses e círculos estão dentre as formas nativas (built-in) definidas por SVG.\nAssinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "É correta apenas a afirmativa 1.",
+            "São corretas apenas as afirmativas 1 e 2.",
+            "São corretas apenas as afirmativas 1 e 3.",
+            "São corretas apenas as afirmativas 2 e 3.",
+            "São corretas as afirmativas 1, 2 e 3."
+        ],
+        "gabarito": "São corretas as afirmativas 1, 2 e 3."
+    },
+    {
+        "id": 93,
+        "enunciado": "Analise o script abaixo.\n<!DOCTYPE html> <html> <head> <style> div { max-width: 200px;\nborder: 10px solid black;\npadding: 30px;\nmargin: 12px;\nbackground-color: lightgray;\n}.div { background-color: lightgreen;\nborder: 6px solid red;\n} </style> </head> <body> <div> Essa é uma questão sobre CSS.\n<div class=\"div\">Essa é uma questão sobre CSS.</div> </div> </body> </html> Sobre a página apresentada, analise as afirmativas a seguir.\nI. O texto “Essa é uma questão sobre CSS.” é exibido apenas uma vez.\nII. São exibidas duas caixas, ambas com margens pretas.\nIII. Somente uma caixa é exibida, com margem vermelha.\nSobre essas afirmativas, é correto afirmar que:",
+        "alternativas": [
+            "nenhuma está correta;",
+            "somente I está correta;",
+            "somente II está correta;",
+            "somente III está correta;",
+            "todas estão corretas."
+        ],
+        "gabarito": "nenhuma está correta;"
+    },
+    {
+        "id": 94,
+        "enunciado": "As propriedades do CSS (Cascading Style Sheets) são recursos que permitem definir estilos visuais para os elementos HTML em uma página da web. Cada propriedade do CSS corresponde a um aspecto visual específico de elementos HTML. Sobre o assunto, analise as assertivas abaixo, assinalando V, se verdadeiras, ou F, se falsas.\n( ) A propriedade font-color define a cor de um texto.\n( ) A propriedade float permite a utilização dos valores left, center e right.\n( ) A propriedade padding é usada para definir a distância entre o conteúdo e a borda do elemento.\n( ) A propriedade letter-spacing define o espaçamento entre as letras de uma palavra.\n( ) A propriedade background-attachment define uma imagem de fundo para o elemento.\nA ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+        "alternativas": [
+            "V – F – F – V – V.",
+            "V – V – F – F – F.",
+            "V – F – V – F – F.",
+            "F – V – F – V – V.",
+            "F – F – V – V – F."
+        ],
+        "gabarito": "F – F – V – V – F."
+    },
+    {
+        "id": 95,
+        "enunciado": "Analise o trecho de códigos HTML e CSS apresentados abaixo, com o intuito de estruturar um menu de navegação horizontal:\nAssinale a alternativa correta em relação ao restante do código CSS capaz de compor corretamente essa estrutura.",
+        "alternativas": [
+            "nav ul.li { display: inline-block; width: 100px; }.",
+            "nav ul li a { display: block; width: 100px; }.",
+            "nav ul li { display: inline-block; width: 100px; }.",
+            "#nav ul li a { display: inline-block; width: 100px; }.",
+            "#nav ul li { display: block; width: 100px;"
+        ],
+        "gabarito": "nav ul li { display: inline-block; width: 100px; }."
+    },
+    {
+        "id": 96,
+        "enunciado": "Em Linguagem de Estilo CSS, os seletores são padrões usados para selecionar elementos HTML nos quais as regras de estilo devem ser aplicadas. Sobre os seletores, analise as assertivas abaixo e assinale a alternativa correta.\nI. Seletores que estão associados a um id serão aplicados a um único elemento no documento HTML, e os seletores associados a um class no documento HTML devem ser definidos iniciando pelo símbolo # no CSS.\nII. Um seletor que utiliza uma classe tem menor peso do que um seletor que utiliza apenas um tipo associado a uma tag.\nIII. Estilos aplicados a um elemento podem ser herdados pelos seus elementos filhos, a menos que uma regra específica seja aplicada a eles.\nIV. Se duas regras conflitantes são aplicadas a um elemento, a que aparece por último no código CSS é a que será aplicada.",
+        "alternativas": [
+            "Apenas I e II estão corretas.",
+            "Apenas III e IV estão corretas.",
+            "Apenas I, III e IV estão corretas.",
+            "Todas estão corretas.",
+            "Todas estão incorretas."
+        ],
+        "gabarito": "Apenas III e IV estão corretas."
+    },
+    {
+        "id": 97,
+        "enunciado": "Em Linguagem de Estilos CSS, existem os seletores complexos que representam uma forma avançada de selecionar elementos com base em seu relacionamento com outros elementos ou em seu estado atual. Analise a estrutura abaixo:\nx[y=\"z\"] { font-family: arial, sans-serif;\nfont-size: 1.2rem;\ntext-transform: uppercase;\n} Esse seletor complexo está definindo que as propriedades devem ser aplicadas em:",
+        "alternativas": [
+            "Qualquer elemento que tenha o atributo \"y\" com valor \"z\".",
+            "O primeiro elemento \"x” que possui um atributo \"y\" com valor \"z\".",
+            "O primeiro elemento \"x\" que possui valor \"y\" no atributo \"z\".",
+            "Todos os elementos \"y\" que possuam um atributo \"z\".",
+            "Todos os elementos \"x\" que possuam o valor \"z\" para o atributo \"y\"."
+        ],
+        "gabarito": "Todos os elementos \"x\" que possuam o valor \"z\" para o atributo \"y\"."
+    },
+    {
+        "id": 98,
+        "enunciado": "Existem diferentes técnicas e propriedades do CSS no posicionamento de elementos para construção de layouts. Tendo em vista esse assunto, assinale a alternativa INCORRETA.",
+        "alternativas": [
+            "O uso da propriedade \"float\" do CSS é uma técnica mais antiga de estruturação de elementos na página, permitindo que eles se posicionem para a esquerda ou direita da área disponível.",
+            "A propriedade \"position\" permite possibilidades diferentes de comportamento de posicionamento de elementos a partir dos valores: \"static\", \"top\", \"relative\", \"absolute\".",
+            "O CSS Grid é uma técnica de organização de conteúdo em duas dimensões, que estrutura os elementos em linhas e colunas, adequado a layouts mais complexos.",
+            "O Flexbox é mais indicado para layouts simples onde os elementos são distribuídos em uma dimensão, mas de maneira responsiva.",
+            "Uma das bases de construção de layout em CSS é o Box Model (Modelo de Caixa), que é composto por conteúdo, bordas, margens, preenchimento."
+        ],
+        "gabarito": "A propriedade \"position\" permite possibilidades diferentes de comportamento de posicionamento de elementos a partir dos valores: \"static\", \"top\", \"relative\", \"absolute\"."
+    },
+    {
+        "id": 99,
+        "enunciado": "Qual das seguintes opções descreve corretamente o que é Sass?",
+        "alternativas": [
+            "Uma linguagem de programação de servidor utilizada para criar aplicativos web.",
+            "Uma linguagem de marcação utilizada para criar páginas web estáticas.",
+            "Uma biblioteca Javascript utilizada para criar efeitos visuais em páginas web.",
+            "Um pré-processador CSS que adiciona recursos como variáveis, funções e mixins.",
+            "Um framework front-end utilizado para criar layouts responsivos."
+        ],
+        "gabarito": "Um pré-processador CSS que adiciona recursos como variáveis, funções e mixins."
+    },
+    {
+        "id": 100,
+        "enunciado": "As estruturas de media-queries proporcionam o estabelecimento de diferentes conjuntos de regras de estilo CSS, tendo como condições de aplicação algumas características, tais como o tipo de mídia e as dimensões de resolução. Nesse sentido, qual das alternativas abaixo NÃO representa uma construção correta de uma media query?",
+        "alternativas": [
+            "@media only screen and (max-width: 767px) {... }.",
+            "@media only screen and (min-width: 768px) and (max-width: 991px) {... }.",
+            "@media print and (max-width: 599px) {... }.",
+            "@media screen and (device: mobile) {... }.",
+            "@media only screen and (orientation: landscape) {... }."
+        ],
+        "gabarito": "@media screen and (device: mobile) {... }."
+    },
+    {
+        "id": 101,
+        "enunciado": "Analise abaixo o trecho de um documento HTML no qual foi embutido o uso de CSS (Cascading Style Sheets) em um elemento específico.\n<p style=\"color:blue;\">Parágrafo azul</p> Esse método de implementação de CSS é conhecido como:",
+        "alternativas": [
+            "inside.",
+            "embedded.",
+            "internal.",
+            "built-in.",
+            "inline."
+        ],
+        "gabarito": "inline."
+    },
+    {
+        "id": 102,
+        "enunciado": "Comentários são usados para explicar ou documentar um código-fonte. No CSS, um comentário: inicia com _______ e termina com ________.\nAssinale a alternativa que preenche, correta e respectivamente, as lacunas do trecho acima.",
+        "alternativas": [
+            "Inicia com <!-- e termina com -->.",
+            "Inicia com # e termina com /#.",
+            "Inicia com <> e termina com </>.",
+            "Inicia com /* e termina com */.",
+            "Inicia com <? e termina com >."
+        ],
+        "gabarito": "Inicia com /* e termina com */."
+    },
+    {
+        "id": 103,
+        "enunciado": "Assinale a alternativa que apresenta uma característica do desenvolvimento de interfaces web empregando HTML5, CSS e JavaScript.",
+        "alternativas": [
+            "O HTML5 permite a criação de elementos semânticos que melhoram a acessibilidade e a estruturação do conteúdo.",
+            "O CSS é utilizado apenas para definir a aparência visual dos elementos na página.",
+            "O JavaScript é uma linguagem de programação que não pode ser utilizada em conjunto com o HTML e o CSS.",
+            "O HTML5 e o CSS são tecnologias obsoletas que foram substituídas por frameworks de desenvolvimento web.",
+            "O desenvolvimento de interfaces web com HTML5, CSS e JavaScript é restrito a navegadores desktop e não é adequado para dispositivos móveis."
+        ],
+        "gabarito": "O HTML5 permite a criação de elementos semânticos que melhoram a acessibilidade e a estruturação do conteúdo."
+    },
+    {
+        "id": 104,
+        "enunciado": "Sobre o CSS, analise as assertivas abaixo:\nI. CSS é a linguagem para descrever a apresentação das páginas da web, incluindo cores, layout e fontes.\nII. CSS é independente do HTML.\nIII. Pode ser usado com qualquer linguagem de marcação baseada em XML.\nIV. A separação do código HTML CSS faz com que seja mais difícil de manter locais, folhas de estilo entre páginas e páginas personalizadas para diferentes ambientes.\nQuais estão corretas?",
+        "alternativas": [
+            "Apenas I e III.",
+            "Apenas II e IV.",
+            "Apenas I, II e III.",
+            "Apenas II, III e IV.",
+            "I, II, III e IV."
+        ],
+        "gabarito": "Apenas I, II e III."
+    },
+    {
+        "id": 105,
+        "enunciado": "Como os navegadores exibem corretamente páginas da web que possuem diferentes padrões e tecnologias, como HTML, CSS?",
+        "alternativas": [
+            "Os navegadores convertem automaticamente o código das páginas para uma linguagem universal deste tipo de software.",
+            "Os navegadores utilizam mecanismos de renderização para interpretar o código e aplicar as regras de estilo.",
+            "Os navegadores dependem exclusivamente dos servidores web para carregar o conteúdo das páginas e conseguir exibir de forma correta os detalhes de cada página.",
+            "Os navegadores utilizam plugins e extensões adicionais para interpretar todas as tecnologias presentes nas páginas web.",
+            "Para que os diferentes navegadores do mercado possam reconhecer os códigos, os desenvolvedores criam versões específicas de cada página para cada navegador."
+        ],
+        "gabarito": "Os navegadores utilizam mecanismos de renderização para interpretar o código e aplicar as regras de estilo."
+    },
+    {
+        "id": 106,
+        "enunciado": "Em linguagem CSS, a propriedade que alinha o texto é a",
+        "alternativas": [
+            "text-direction.",
+            "paragraph-align.",
+            "text-adjust.",
+            "paragraph-adjust.",
+            "text-align."
+        ],
+        "gabarito": "text-align."
+    },
+    {
+        "id": 107,
+        "enunciado": "O CSS permite realizar uma ampla variedade de customizações em bordas (borders), resultando em diferentes efeitos visuais. Com relação à propriedade border- style do CSS, assinale a alternativa que apresenta um valor inválido.",
+        "alternativas": [
+            "dashed.",
+            "bold.",
+            "solid.",
+            "groove.",
+            "double."
+        ],
+        "gabarito": "bold."
+    },
+    {
+        "id": 108,
+        "enunciado": "Julgue o item a seguir, que tratam de engenharia de requisitos, CSS, PWA e HTTPS.\nUma vantagem no uso de CSS é que, com ele, é possível fazer alteração no design sem afetar o código HTML.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 109,
+        "enunciado": "No âmbito do CSS, considere a declaração a seguir.\ndiv { animation: mymove 5s infinite;\n} A ordem que corresponde corretamente às propriedades que são estabelecidas nessa declaração é:",
+        "alternativas": [
+            "inherit, duration, fill-mode;",
+            "initial, duration, delay;",
+            "name, duration, delay;",
+            "name, duration, timing-function;",
+            "timing-function, direction, initial."
+        ],
+        "gabarito": "name, duration, timing-function;"
+    },
+    {
+        "id": 110,
+        "enunciado": "A seguir é apresentado um pequeno código em CSS.\np { color: #0000FF;\n} Pode-se afirmar corretamente que este código fará com que os parágrafos escritos na página HTML estejam na cor",
+        "alternativas": [
+            "verde.",
+            "preta.",
+            "vermelha.",
+            "azul.",
+            "branca."
+        ],
+        "gabarito": "azul."
+    },
+    {
+        "id": 111,
+        "enunciado": "O propósito da linguagem CSS é",
+        "alternativas": [
+            "criar scripts que executam de forma interpretada no navegador web quando uma página é carregada.",
+            "criar scripts que executam de forma interpretada em um servidor web, gerando conteúdo dinâmico a ser enviado ao navegador web do usuário que efetuou a requisição HTTP.",
+            "descrever consultas a bancos de dados relacionais, tipicamente utilizados no back-end de aplicativos web.",
+            "descrever como os elementos de uma página HTML devem ser apresentados pelo navegador, de forma separada do código HTML que define o conteúdo da página.",
+            "criar shell scripts que sejam executáveis no sistema operacional da máquina onde o servidor web é executado."
+        ],
+        "gabarito": "descrever como os elementos de uma página HTML devem ser apresentados pelo navegador, de forma separada do código HTML que define o conteúdo da página."
+    },
+    {
+        "id": 112,
+        "enunciado": "Um dos seletores disponíveis no CSS é o chamado seletor universal, fazendo com que todos os elementos da página web sigam a customização que ele define. Esse seletor é representado pelo caractere",
+        "alternativas": [
+            ".",
+            "*.",
+            "@.",
+            "#.",
+            "!."
+        ],
+        "gabarito": "*."
+    },
+    {
+        "id": 113,
+        "enunciado": "Para um analista adicionar um ícone de seta antes de todos os links criados com a tag <a> na página, ele deve utilizar a configuração CSS3",
+        "alternativas": [
+            "a:before {add:\"→\"}.",
+            "a::before {content:\"→\";}.",
+            "a:before {text:\"→\"}.",
+            "a[before] (content:\"→\";}.",
+            "a::before {text: \"→\";}."
+        ],
+        "gabarito": "a::before {content:\"→\";}."
+    },
+    {
+        "id": 114,
+        "enunciado": "O uso de seletores no CSS permite customizar múltiplos elementos HTML com mesmas configurações. Dois tipos de seletores são os seletores de ID e os seletores de classe. Estes seletores são iniciados, respectivamente, pelos caracteres",
+        "alternativas": [
+            ". e #.",
+            "# e.",
+            ". e *.",
+            "* e.",
+            "* e #."
+        ],
+        "gabarito": "# e."
+    },
+    {
+        "id": 115,
+        "enunciado": "No CSS, uma das maneiras de fazer com que a cor de fundo da página web seja preta é alterando o elemento body da seguinte forma.\nbody { background-color: black;\n} Porém, é possível também atribuir o valor hexadecimal da cor ao invés do seu nome. Portanto, uma outra alteração que pode ser feita na propriedade background- color do elemento body visando obter o mesmo efeito é:",
+        "alternativas": [
+            "background-color: #000000.",
+            "background-color: #ff00ff.",
+            "background-color: #00bb00.",
+            "background-color: #bbbbbb.",
+            "background-color: #ffffff."
+        ],
+        "gabarito": "background-color: #000000."
+    },
+    {
+        "id": 116,
+        "enunciado": "Um código CSS que modifica o fundo do corpo de uma página HTML para um gradiente de cor branca em cima e cor cinza em baixo é:",
+        "alternativas": [
+            "html { background-color: repeating-linear-gradient(white, gray); }.",
+            "body { background: linear-gradient(white, gray) fixed; }.",
+            "body { background-origin: repeating-linear-gradient(white, gray); }.",
+            "html { background-blend-mode: linear-gradient(white, gray); }.",
+            "html { background-color: white; filter: grayscale(1); }."
+        ],
+        "gabarito": "body { background: linear-gradient(white, gray) fixed; }."
+    },
+    {
+        "id": 117,
+        "enunciado": "HTML representa atualmente uma das principais linguagens de marcação web. Nesse contexto, na execução em um browser como o Google Chrome, a codificação de linhas de código em HTML5/CSS3 mostra as palavras diferentes com fundos em cores variadas, resultado do uso da sintaxe “background-color:rgb(...,...,...)”. Nesse sentido, analise a codificação a seguir:\nDa análise feita, conclui-se que as palavras GUARAÚ, CENTRO e ITAPECERICA são exibidas com fonte na cor preta e fundos, respectivamente, nas cores",
+        "alternativas": [
+            "azul, amarela e verde.",
+            "verde, vermelha e azul.",
+            "vermelha, azul e amarela.",
+            "amarela, verde e vermelha."
+        ],
+        "gabarito": "vermelha, azul e amarela."
+    },
+    {
+        "id": 118,
+        "enunciado": "No contexto de tabela, o código CSS3, que define a largura em 100%, é:",
+        "alternativas": [
+            "table { width 100%}.",
+            "table { width: 100%}.",
+            "table.full { wt: 100%}.",
+            "style = { width= 100%}.",
+            "table.full ={ th: 100%}."
+        ],
+        "gabarito": "table { width: 100%}."
+    },
+    {
+        "id": 119,
+        "enunciado": "Cascading Style Sheets (CSS) ou Folhas de Estilo em Cascata é uma linguagem de estilo usada para descrever como elementos HTML são mostrados na tela. CSS é uma das principais linguagens da Open Web e é padronizada em navegadores Web, de acordo com as especificações da W3C. Marque a alternativa com o código apropriado para apresentar o texto “Bom dia” em vermelho.\nConsidere a seguinte linha de código: <p class=\"p1\">Bom dia</p>",
+        "alternativas": [
+            ".p1 { font-family: \"Times New Roman\", Times, serif; font-color: red; font-variant: normal; }",
+            ".p1 { font: \"Times New Roman\", Times, serif, normal, red; }",
+            ".p1 { font-family: \"Times New Roman\", Times, serif; color: red; }",
+            ".p2 { font: \"Times New Roman\", Times, serif; font-color: red; font-variant: normal; }"
+        ],
+        "gabarito": ".p1 { font-family: \"Times New Roman\", Times, serif; color: red; }"
+    },
+    {
+        "id": 120,
+        "enunciado": "Julgue o próximo item que trata de CSS, JavaScript e Net Core.\nNo código abaixo, escrito na linguagem CSS, red é um valor do tipo palavra-chave, enquanto #f00 é um valor do tipo notação funcional.\np { color: red;\nbackground-color: #f00;\n}",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 121,
+        "enunciado": "Julgue o item a seguir, acerca de CSS3, JMS, JSON e JUnit.\nQuando se utiliza CSS3, para que os flex items sejam apresentados na mesma ordem em que aparecem no HTML, é necessário atribuir o valor 1 à propriedade order.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 122,
+        "enunciado": "Foi solicitado que os parágrafos tenham a margem superior com 10px e a margem inferior com 20px. Decidimos atender à solicitação usando CSS. Qual estilo deve ser aplicado aos elementos para atender à solicitação?",
+        "alternativas": [
+            "margin: 0 10px 0 20px;",
+            "margin: 10px 20px;",
+            "margin-top: 20px; margin-bottom: 10px;",
+            "margin-header: 10px; margin-footer: 20px;",
+            "margin: 10px 0 20px;"
+        ],
+        "gabarito": "margin: 10px 0 20px;"
+    },
+    {
+        "id": 123,
+        "enunciado": "No contexto do CSS, assinale o seletor (selector) que seleciona para aplicação os elementos com o atributo class=xpto.",
+        "alternativas": [
+            "#xpto {... }.",
+            "(xpto) {... }.",
+            "*xpto {... }.",
+            ".xpto {... }.",
+            "xpto {... }."
+        ],
+        "gabarito": ".xpto {... }."
+    },
+    {
+        "id": 124,
+        "enunciado": "Na utilização externa de CSS em páginas HTML, deve-se indicar um arquivo CSS que será usado na definição dos estilos dos elementos da página. Supondo que o arquivo a ser utilizado é o estilos.css, a instrução correta é",
+        "alternativas": [
+            "<@import type=\"style/css\" src=\"estilos.css\">.",
+            "<link rel=\"stylesheet\" href=\"estilos.css\">.",
+            "<style type=\"css\" src=\"estilos.css\"></style>.",
+            "<link type=\"stylesheet\" src=\"estilos.css\">.",
+            "<@require file=\"estilos.css\" type=\"style/css\">."
+        ],
+        "gabarito": "<link rel=\"stylesheet\" href=\"estilos.css\">."
+    },
+    {
+        "id": 125,
+        "enunciado": "O Cascading Style Sheets (CSS) é um recurso utilizado para descrever a apresentação de um documento escrito em HTML, sendo de fundamental importância para dar estilos às páginas web. Com base no exposto sobre o CSS, assinale a alternativa CORRETA.",
+        "alternativas": [
+            "É uma linguagem de programação.",
+            "É uma linguagem de marcação.",
+            "É uma linguagem baseada em recursividade.",
+            "É uma das principais linguagens da open web.",
+            "É uma linguagem usada para definir o conteúdo das páginas da web."
+        ],
+        "gabarito": "É uma das principais linguagens da open web."
+    },
+    {
+        "id": 126,
+        "enunciado": "Considere o conteúdo de uma página web simplificada, exibido a seguir.\n<!DOCTYPE html> <html> <head> <XXXXXXX rel=\"stylesheet\" href=\"mystyle.css\"> </head> <body> <h1>This is a heading</h1> </body> </html> O elemento que deve substituir a string XXXXXXX, na quarta linha, para especificar corretamente a referência a uma folha de estilos externa (external style sheet) é:",
+        "alternativas": [
+            "import.",
+            "include.",
+            "link.",
+            "ref.",
+            "url."
+        ],
+        "gabarito": "link."
+    },
+    {
+        "id": 127,
+        "enunciado": "Em códigos HTML/CSS, as cores podem ser especificadas usando valores RGB, HEX, HSL, RGBA e HSLA, como nas situações abaixo.\nI. Na sintaxe <h1 style=\"background-color: rgb(0,255,\">RJ</h1>\nII. Na sintaxe <h1 style=\"background-color:#HFFFF00;\">MG</h1> Nessas condições, as palavras RJ e MG serão mostradas com fundo, respectivamente, nas seguintes cores:",
+        "alternativas": [
+            "verde e cian.",
+            "magenta e cian.",
+            "verde e amarelo.",
+            "magenta e amarelo."
+        ],
+        "gabarito": "verde e amarelo."
+    },
+    {
+        "id": 128,
+        "enunciado": "Analise o código proposto abaixo, desenvolvido em HTML com folhas de estilo em CSS, para responder à questão.\n<!DOCTYPE html> <html> <head> <title>Santos</title> <style> h1 { color: blue;\n} </style> </head> <h3>Seja bem vindo</h3> </html> Assinale a alternativa que apresenta o que irá ser exibido na tela referente ao código da linha 11.",
+        "alternativas": [
+            "Seja bem vindo em cor preta tamanho h3.",
+            "Seja bem vindo em cor azul tamanho h1.",
+            "Seja bem vindo em cor azul tamanho h3.",
+            "Seja bem vindo em cor preta tamanho h1."
+        ],
+        "gabarito": "Seja bem vindo em cor preta tamanho h3."
+    },
+    {
+        "id": 129,
+        "enunciado": "Para colocar a cor de fundo vermelha apenas dos campos (inputs) do tipo text de um formulário, utiliza-se a instrução CSS",
+        "alternativas": [
+            "input[type=text] {background-color:#00ff00}.",
+            "input.type[text] {background-color:#ff0000}.",
+            "input[type=text] {background-color:#ff0000}.",
+            "input.type[text] {background: rgb(0,255,}}.",
+            "input[type('text')] {background-color:rgb(255,0,}."
+        ],
+        "gabarito": "input[type=text] {background-color:#ff0000}."
+    },
+    {
+        "id": 130,
+        "enunciado": "No CSS3, são utilizadas diretrizes para criar regras de estilo para as propriedades do Box Model, as quais servem para determinar a criação do box de um elemento da marcação. A propriedade que define a espessura do enchimento de um box é:",
+        "alternativas": [
+            "height.",
+            "border.",
+            "margin.",
+            "padding."
+        ],
+        "gabarito": "padding."
+    },
+    {
+        "id": 131,
+        "enunciado": "Considere os atributos da propriedade border-style da linguagem CSS (Cascading Style Sheets) e numere a segunda coluna de acordo com sua correspondência na primeira coluna:\n1 - Dashed\n2 - Double\n3 - Solid\n4 - Dotted\n( ) Linha sólida\n( ) Linha pontilhada\n( ) Linha tracejada\n( ) Linha dupla Assinale a alternativa que apresenta a numeração correta da coluna da direita, de cima para baixo:",
+        "alternativas": [
+            "1 – 4 – 3 – 2.",
+            "1 – 3 – 4 – 2.",
+            "3 – 1 – 4 – 2.",
+            "3 – 4 – 1 – 2.",
+            "3 – 2 – 1 – 4."
+        ],
+        "gabarito": "3 – 4 – 1 – 2."
+    },
+    {
+        "id": 132,
+        "enunciado": "A respeito da linguagem JavaScript, do HTML 5 e do CSS3, julgue o item.\nUma das desvantagens do CSS3 é que ele não permite especificar a quantidade de espaço entre as linhas, o espaçamento entre caracteres ou as margens da página.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 133,
+        "enunciado": "As propriedades padding-top, padding-right, padding- bottom e padding-left do CSS (Cascading Style Sheets) servem para",
+        "alternativas": [
+            "gerar um espaçamento ao redor do conteúdo de um elemento, fora da borda.",
+            "determinar a espessura da borda de um elemento.",
+            "gerar um espaçamento ao redor do conteúdo de um elemento, dentro da borda.",
+            "alinhar o texto dentro de um elemento, respectivamente ao topo, à direita, embaixo e à esquerda.",
+            "determinar o posicionamento fixo de um elemento em relação ao viewport, deixando-o sempre em lugar fixo mesmo quando a página é rolada no navegador."
+        ],
+        "gabarito": "gerar um espaçamento ao redor do conteúdo de um elemento, dentro da borda."
+    },
+    {
+        "id": 134,
+        "enunciado": "Considere o seletor CSS a seguir:\np#h1, span.a { color: blue;\n} De acordo com este seletor, ficarão destacados na cor azul os elementos",
+        "alternativas": [
+            "<h1> cuja classe for “p” e <a> cujo id for “span”.",
+            "<h1> cujo id for “p” e <a> cuja classe for “span”.",
+            "<p> cujo id for “h1” e <span> cuja classe for “a”.",
+            "<p> cuja classe for “h1” e <span> cujo id for “a”.",
+            "<p> cujo id for “h1” e <a> cuja classe for “span”."
+        ],
+        "gabarito": "<p> cujo id for “h1” e <span> cuja classe for “a”."
+    },
+    {
+        "id": 135,
+        "enunciado": "No contexto do HTML e CSS, analise o código a seguir numa página Web.\np.centro { text-align: center;\ncolor: blue;\n} Sobre esse trecho, é correto afirmar que a cor e o alinhamento serão aplicados",
+        "alternativas": [
+            "à classe denominada “p.centro”.",
+            "à classe denominada “p”.",
+            "aos elementos com a tag <p> que tenham a classe “centro”.",
+            "aos elementos com id = “p” que tenham a classe “centro”.",
+            "aos elementos que tenham a classe “p.centro”."
+        ],
+        "gabarito": "aos elementos com a tag <p> que tenham a classe “centro”."
+    },
+    {
+        "id": 136,
+        "enunciado": "Considere a página HTML renderizada por um navegador web e o código fonte HTML5/CSS3 a seguir:\nAssinale a alternativa CORRETA com o código HTML5/CSS3 que irá substituir o trecho “<................>” do código fonte para gerar a página HTML renderizada:",
+        "alternativas": [
+            "<head><style> table, th, td { border: 1px solid black; border-radius: 10px; width: 200px; } </style></head>",
+            "<head><style> table, th, td { border: 1px solid black; border-radius: 10px; } </style></head>",
+            "<head><style> table, th, td { border: 1px solid black; border-radius: 10px; width: 200%; } </style></head>",
+            "<head><style> table, th, td { border: 1px solid black; width: 200%; } </style></head>",
+            "<head><style> table, th, td { border: 1px solid black; border-radius: rounded; } </style></head>"
+        ],
+        "gabarito": "<head><style> table, th, td { border: 1px solid black; border-radius: 10px; width: 200px; } </style></head>"
+    },
+    {
+        "id": 137,
+        "enunciado": "Uma regra CSS é a menor porção de código capaz de produzir efeito de estilização de uma folha de estilo. A parte da regra CSS que determina os parâmetros de estilização é:",
+        "alternativas": [
+            "Valor.",
+            "Seletor.",
+            "Declaração.",
+            "Propriedade."
+        ],
+        "gabarito": "Declaração."
+    },
+    {
+        "id": 138,
+        "enunciado": "No CSS3, considere que a propriedade display define o tipo de box a ser gerado para um elemento. O valor para essa propriedade que define que o box não será criado para o elemento é:",
+        "alternativas": [
+            "none.",
+            "block.",
+            "inline.",
+            "compact."
+        ],
+        "gabarito": "none."
+    },
+    {
+        "id": 139,
+        "enunciado": "Atenção: O código da página web a seguir deve ser utilizado para responder a questão.\n<!DOCTYPE html> <html> <head> <title>Home</title> <meta charset=\"UTF-8\"> <style>...I...\n{ background-color: lightblue;\n}...II...\n{ color: red;\n} </style> </head> <body> <p class=\"p1\">TRIBUNAL REGIONAL DO TRABALHO DA 5a REGIÃO</p> <p id=\"p2\">Estado da Bahia</p> <button onclick=\"trocar()\">Trocar Estado</button> <script> function trocar() {..I.I.I..\nI ;\n} </script> </body> </html> No código apresentado as lacunas I e II, que identificam respectivamente o primeiro e segundo parágrafos aos quais os estilos CSS definidos serão aplicados, devem ser corretamente preenchidas por",
+        "alternativas": [
+            ".p1 e.p2.",
+            "#p1 e.p2.",
+            ".p1 e #p2.",
+            "@p1 e #p2.",
+            "#p1 e #p2."
+        ],
+        "gabarito": ".p1 e #p2."
+    },
+    {
+        "id": 140,
+        "enunciado": "CSS3 pode ser usado para definir estilos para obter uma configuração de margens de texto e alinhamento. Avalie o seguinte código CSS3:\n.titulo_pagina { font-family:times new roman;\nfont-size:30px;\nfont-weight:bold;\ncolor:blue;\ntext-align:center;\nmargin-top:20px;\n} Assinale a alternativa correta.",
+        "alternativas": [
+            "O estilo usa o tamanho de 30 pixels, a letra itálica e a cor azul para caracteres.",
+            "O estilo usa uma distância de 30 pixels com a parte superior da página e o estilo itálico e a cor azul para caracteres.",
+            "O estilo usa o tamanho de 30 pixels, a letra em negrito, a cor azul e alinhamento centralizado para caracteres.",
+            "O estilo usa o tamanho de 30 pixels, a letra em negrito, a cor azul e alinhamento à esquerda para caracteres.",
+            "O estilo usa o tamanho de 30 pixels, a letra em itálico e a cor azul e alinhamento centralizado para caracteres."
+        ],
+        "gabarito": "O estilo usa o tamanho de 30 pixels, a letra em negrito, a cor azul e alinhamento centralizado para caracteres."
+    },
+    {
+        "id": 141,
+        "enunciado": "No CSS, regras podem ser definidas em alguns lugares, como:",
+        "alternativas": [
+            "Desincorporado, que é quando as regras de CSS são especificadas em todas as tags do documento, e as regras incorporadas afetam todas as páginas.",
+            "Externo, que é quando as regras de CSS são colocadas no mesmo arquivo da página HTML.",
+            "Incorporado, que é quando as regras de CSS são especificadas no cabeçalho do documento, e essas regras incorporadas afetam apenas a página atual.",
+            "Inline, que é quando as regras de CSS são especificadas dentro da tag de HTML, e essas regras afetam todas as páginas.",
+            "Offline, que é quando as regras de CSS são especificadas fora da tag de HTML, e essas regras afetam todas as tags da página atual."
+        ],
+        "gabarito": "Incorporado, que é quando as regras de CSS são especificadas no cabeçalho do documento, e essas regras incorporadas afetam apenas a página atual."
+    },
+    {
+        "id": 142,
+        "enunciado": "A linguagem CSS é utilizada para estilizar o conteúdo de uma página web. Diversas mudanças podem ser feitas por meio do uso desta linguagem, como alterar o tamanho de um texto, adicionar sombreamento, mudar a cor de parte da página dentre outras mudanças. Para alterar a cor de um bloco de texto, altera-se a sua propriedade color, onde é possível especificar a cor de diversas formas, por exemplo fornecendo um valor em hexadecimal. Caso o programador queira atribuir a cor verde para um bloco de texto, um possível valor fornecido deverá ser:",
+        "alternativas": [
+            "#000000.",
+            "#0000FF.",
+            "#00FF00.",
+            "#FF0000.",
+            "#FFFFFF."
+        ],
+        "gabarito": "#00FF00."
+    },
+    {
+        "id": 143,
+        "enunciado": "Os seletores, no CSS, são de extrema importância. Eles representam uma estrutura, utilizada como condição para determinar quais elementos de um grupo serão formatados. Posto isto, o padrão elemento:empty, é responsável por:",
+        "alternativas": [
+            "selecionar um elemento de interface que esteja habilitado ou desabilidade, como selects, checkbox, radio button etc.",
+            "selecionar um objeto N de um determinado elemento.",
+            "selecionar elementos que estão checados, como radio buttons e checkboxes.",
+            "selecionar um elemento vazio, sem filhos, incluindo elementos de texto.",
+            "selecionar um elemento F que precede imediatamente o elemento E."
+        ],
+        "gabarito": "selecionar um elemento vazio, sem filhos, incluindo elementos de texto."
+    },
+    {
+        "id": 144,
+        "enunciado": "Composto por camadas e utilizado para definir a apresentação (aparência) em páginas da internet que adotam para o seu desenvolvimento linguagens de marcação. Ele define como serão exibidos os elementos contidos no código de uma página da internet e sua maior vantagem é efetuar a separação entre o formato e o conteúdo de um documento. Estamos falando do:",
+        "alternativas": [
+            "CSS.",
+            "HTML.",
+            "XML.",
+            "JSON.",
+            "JavaScript."
+        ],
+        "gabarito": "CSS."
+    },
+    {
+        "id": 145,
+        "enunciado": "Analise o trecho de código CSS3 a seguir.\np { color: red;\ntext-align: center;\n} Assinale o efeito causado por essa declaração.",
+        "alternativas": [
+            "Estilizar todos os elementos <p>.",
+            "Definir uma classe CSS intitulada p.",
+            "Definir uma variável CSS intitulada p.",
+            "Estilizar todos os elementos com id=p.",
+            "Um erro, pois falta definir o seletor da regra."
+        ],
+        "gabarito": "Estilizar todos os elementos <p>."
+    },
+    {
+        "id": 146,
+        "enunciado": "Um perito está trabalhando em uma causa que foca homepages de um site, no que diz respeito ao uso da tecnologia CSS, que tem por significado Folha de Estilo em Cascata, definido como o código que um web designer usa para dar estilo a uma página Web. O layout CSS é baseado principalmente no modelo de caixas, sendo que cada um dos blocks que ocupam espaço na sua página tem propriedades como as listadas a seguir e ilustradas por meio da figura abaixo.\nI. P1 – o espaço ao redor do conteúdo, ao redor do texto de um parágrafo.\nII. P2 – a linha sólida do lado de fora do padding.\nIII. P3 – o espaço externo a um elemento.\nAs propriedades P1, P2 e P3 descritas em I, em II e em III são denominadas, respectivamente,",
+        "alternativas": [
+            "border, padding e margin.",
+            "border, margin e padding.",
+            "margin, border e padding.",
+            "padding, border e margin.",
+            "padding margin e border."
+        ],
+        "gabarito": "padding, border e margin."
+    },
+    {
+        "id": 147,
+        "enunciado": "A sigla CSS, que tem por significado Cascading Style Sheet, é uma linguagem que cuida da apresentação visual de páginas web por meio de regras de estilos. CSS oferece sintaxes variadas para se definir cor, como descrito a seguir.\nI. A sintaxe RGBA é especificada por rgba(red, green, blue, alpha) e constitui um extensão do RGB, com o uso do parâmetro alpha, que especifica a opacidade de uma cor, um número entre 0.0 para totalmente transparente e 1.0 para totalmente opaca.\nII. A sintaxe HSL é especificada por hsl(hue, saturation, lightness), onde “hue” fornece a cor por meio de valor entre 0 e 360, sendo 0 para vermelho, 120 para verde e 240 para azul. O parâmetro “saturation” é definido por meio de percentagem na qual 100% é cor cheia e “lightness” é também uma percentagem, com 0% para preto e 100% para branco.\nNesse contexto, as figuras demonstram a sintaxe CSS no código em (a) e o resultado do processamento em (b), a seguir.\nNessas condições, as siglas SP e RJ serão mostradas com fonte na cor preta, mas com fundos, respectivamente, nas seguintes cores:",
+        "alternativas": [
+            "vermelho e azul.",
+            "vermelho e verde.",
+            "amarelo e azul.",
+            "amarelo e verde."
+        ],
+        "gabarito": "amarelo e verde."
+    },
+    {
+        "id": 148,
+        "enunciado": "O trecho a seguir corresponde à definição de um(a):\n#principal{ background: gray;\n}",
+        "alternativas": [
+            "Classe CSS.",
+            "Identificador CSS.",
+            "Tag HTML.",
+            "Classe JavaScript.",
+            "Função JavaScript."
+        ],
+        "gabarito": "Identificador CSS."
+    },
+    {
+        "id": 149,
+        "enunciado": "No contexto do CSS, considere os seguintes seletores.\nh1, xxxx.xxxx, #d345 #xxxx xxxx:hover A lista que indica corretamente a natureza do objeto correspondente ao símbolo “xxxx” em cada linha, respectivamente, é:",
+        "alternativas": [
+            "classe xxxx / tag <xxxx> / classe xxxx / classe xxxx.",
+            "classe xxxx / classe xxxx / classe xxxx / tag<xxxx>.",
+            "tag <xxxx> / classe xxxx / id “xxxx” / tag <xxxx>.",
+            "tag <xxxx> / classe xxxx / id “xxxx” / classe xxxx.",
+            "tag <xxxx> / tag <xxxx> / classe xxxx / id “xxxx”."
+        ],
+        "gabarito": "tag <xxxx> / classe xxxx / id “xxxx” / tag <xxxx>."
+    },
+    {
+        "id": 150,
+        "enunciado": "No contexto da formatação de páginas Web, assinale o papel da propriedade padding no CSS em relação a um box.",
+        "alternativas": [
+            "Definir a altura e a largura.",
+            "Definir a espessura da área que separa as bordas do preenchimento.",
+            "Definir a espessura das margens externas.",
+            "Definir a espessura e o estilo da borda.",
+            "Definir a unidade utilizada para estabelecer as dimensões."
+        ],
+        "gabarito": "Definir a espessura da área que separa as bordas do preenchimento."
+    },
+    {
+        "id": 151,
+        "enunciado": "No contexto do CSS3, assinale o script que define corretamente a formatação para todos os elementos h1 de um documento.",
+        "alternativas": [
+            ".h1 { color: white; text-align: center; }",
+            "h1 { color= white, background= yellow }.",
+            "#h1 { background: yellow, family-font: georgia }.",
+            "h1 { background-color: yellow; font-family: verdana; }",
+            "$h1 { text-align= center; background-color= yellow }"
+        ],
+        "gabarito": "h1 { background-color: yellow; font-family: verdana; }"
+    },
+    {
+        "id": 152,
+        "enunciado": "Considere o fragmento de código HTML5, abaixo:\n<body> <div class=\"topo\"> <div class=\"logo\"> </div> <div class=\"slogan\"></div> </div> </body> Considere, também, o fragmento de código CSS, abaixo, para o código HTML5 apresentado.\ndiv.topo{width:100%;height:150px;background-color:yellow;...I... } div.logo{background-color:blue; flex:1} div.slogan{background-color:green; flex:1} Para que as divisões logo e slogan apareçam uma do lado da outra, com tamanhos iguais, preenchendo toda a divisão topo, a lacuna I deve ser corretamente preenchida por",
+        "alternativas": [
+            "display:inline.",
+            "float:left.",
+            "display:flex.",
+            "position:relative.",
+            "display:block."
+        ],
+        "gabarito": "display:flex."
+    },
+    {
+        "id": 153,
+        "enunciado": "No contexto do uso de CSS para aplicar estilos a elementos HTML numa página web, o seletor universal, que referencia todos os elementos, é identificado pelo símbolo:",
+        "alternativas": [
+            "#.",
+            "%.",
+            "&.",
+            "*.",
+            "@."
+        ],
+        "gabarito": "*."
+    },
+    {
+        "id": 154,
+        "enunciado": "Quanto ao desenvolvimento web, julgue o seguinte item.\nO Box model é como as propriedades de CSS compõem as dimensões, em que, além do width e do height, as propriedades border e padding também influenciam no resultado final.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 155,
+        "enunciado": "No formulário de contato de uma página web do site do Governo de XX, um desenvolvedor de software precisa especificar que todos os campos do tipo texto (text) devem ser mostrados com fonte azul. Para estabelecer este estilo usando a linguagem CSS, deve-se utilizar o comando",
+        "alternativas": [
+            "input.text{color:blue}.",
+            "input!text{color:#0000ff}.",
+            "input#text{color:#blue}.",
+            "input[type=text]{color:blue}.",
+            "input type='text'{color:blue}."
+        ],
+        "gabarito": "input[type=text]{color:blue}."
+    },
+    {
+        "id": 156,
+        "enunciado": "No contexto do CSS numa página Web, assinale o script que estabelece que todos os elementos com id=”p” serão exibidos de acordo com os atributos especificados.",
+        "alternativas": [
+            "p { font-size: 20px; color: blue}.",
+            ".p { font-size: 20px; color: blue}.",
+            "#p { font-size: 20px; color: blue}.",
+            "<p> { font-size: 20px; color: blue}.",
+            ":p { font-size: 20px; color: blue}."
+        ],
+        "gabarito": "#p { font-size: 20px; color: blue}."
+    },
+    {
+        "id": 157,
+        "enunciado": "No contexto do CSS numa página Web, assinale o script que estabelece que todos os elementos <p> serão exibidos de acordo com a definição dos estilos.",
+        "alternativas": [
+            "p { font-size: 20px; color: blue}.",
+            ".p { font-size: 20px; color: blue}.",
+            "#p { font-size: 20px; color: blue}.",
+            "<p> { font-size: 20px; color: blue}.",
+            ":p { font-size: 20px; color: blue}."
+        ],
+        "gabarito": "p { font-size: 20px; color: blue}."
+    },
+    {
+        "id": 158,
+        "enunciado": "No CSS, para selecionar os elementos X que sejam descendentes diretos do elemento Y, deve-se utilizar o seletor:",
+        "alternativas": [
+            "Y X.",
+            "Y ~ X.",
+            "Y > X.",
+            "Y + X.",
+            "Y, X."
+        ],
+        "gabarito": "Y > X."
+    },
+    {
+        "id": 159,
+        "enunciado": "O trecho de código abaixo está representando uma construção de um(a):\nh2{ margin: 0px; }",
+        "alternativas": [
+            "Seletor CSS.",
+            "Classe Bootstrap.",
+            "Função JavaScript.",
+            "Classe CSS.",
+            "Identificador JavaScript."
+        ],
+        "gabarito": "Seletor CSS."
+    },
+    {
+        "id": 160,
+        "enunciado": "O trecho de código a seguir está representando uma construção de um(a):\n#container{ background: #FFF;\nwidth: 800px;\nmargin: 10px auto;\npadding: 10px;\n}",
+        "alternativas": [
+            "Seletor CSS.",
+            "Classe CSS.",
+            "ID CSS.",
+            "Função JavasSript.",
+            "Seletor JavaScript."
+        ],
+        "gabarito": "ID CSS."
+    },
+    {
+        "id": 161,
+        "enunciado": "O CSS (Cascading Style Sheets) é usado para estilizar e definir o layout de páginas da web. As suas regras são compostas por um seletor e um bloco de declaração.\nNo bloco de declaração, as declarações são separadas por:",
+        "alternativas": [
+            ",.",
+            ":.",
+            ".",
+            ";",
+            "\\."
+        ],
+        "gabarito": ";"
+    },
+    {
+        "id": 162,
+        "enunciado": "No CSS um seletor seleciona o(s) elemento(s) HTML que se deseja estilizar. Esse seletor pode ser de diversos tipos, dentre eles, o caractere que representa o seletor de id é o:",
+        "alternativas": [
+            ".",
+            "#.",
+            "$.",
+            "&.",
+            "@."
+        ],
+        "gabarito": "#."
+    },
+    {
+        "id": 163,
+        "enunciado": "A linguagem de estilo Cascading Style Sheets (CSS) descreve o estilo de um elemento HTML ou XML. Sobre sua versão 3, para que se aplique na classe margin uma margem de 5px nos lados esquerdo e direito, e 2px nos lados superior e inferior, assinale a alternativa que apresenta o código a ser implementado.",
+        "alternativas": [
+            ".margin { margin: 2px 5px; }",
+            ".margin { margin: 5px 2px; }",
+            ".margin { margin: 2px 5px 5px; }",
+            ".margin { margin: 2px; }"
+        ],
+        "gabarito": ".margin { margin: 2px 5px; }"
+    },
+    {
+        "id": 164,
+        "enunciado": "No CSS, a propriedade outline é uma linha desenhada",
+        "alternativas": [
+            "quando o objeto não possui borda.",
+            "por cima do objeto.",
+            "por trás do objeto.",
+            "dentro da borda do objeto.",
+            "fora da borda do objeto."
+        ],
+        "gabarito": "fora da borda do objeto."
+    }
+]

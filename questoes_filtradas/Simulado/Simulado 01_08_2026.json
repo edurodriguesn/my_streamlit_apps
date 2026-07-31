@@ -367,7 +367,7 @@
     },
     {
         "id": 31,
-        "enunciado": "Conforme o diagrama {image(1)}, a Integridade de Domínio é responsável por quais validações?",
+        "enunciado": "Conforme o diagrama a seguir:{image(1)}A Integridade de Domínio é responsável por quais validações?",
         "alternativas": [
             "Garantir que a validade da PK seja única e nunca nula.",
             "Validar tipos de dados, limites e restrições de nulidade ($CHECK$).",

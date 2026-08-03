@@ -48,16 +48,16 @@
         "assunto": "Verbo no Modo Indicativo"
     },
     {
-        "id": 5,
-        "enunciado": "Acerca do tema Verbo no Modo Indicativo, julgue os itens a seguir. As afirmações são do modelo pergunta + resposta\nI. Qual a diferença entre a letra D (termina no presente) e o gabarito (continua no presente) para o Pretérito Perfeito Composto? O tempo composto indica ação 'não concluída'\nII. Na frase \"Ele está ranzinza hoje\", o Presente do Indicativo assume o sentido de: Fato pontual ou momentâneo\nIII. Em \"Nunca entendi contabilidade\", o uso do Pretérito Perfeito Simples indica: Uma ação que vai começar",
-        "alternativas": [
-            "Todas as afirmações estão incorretas.",
-            "Somente III está correta.",
-            "Somente I e II estão corretas.",
-            "Somente I está correta."
-        ],
-        "gabarito": "Somente I e II estão corretas.",
-        "assunto": "Verbo no Modo Indicativo"
+  "id": 5,
+  "enunciado": "Acerca do tema Verbo no Modo Indicativo, julgue os itens a seguir. As afirmações são do modelo pergunta + resposta\nI. No Pretérito Perfeito Composto, a ação expressa pelo verbo é: Iniciada no passado e que se prolonga ou se repete até o presente\nII. Na frase \"Ele está ranzinza hoje\", o Presente do Indicativo assume o sentido de: Fato pontual ou momentâneo\nIII. Em \"Nunca entendi contabilidade\", o uso do Pretérito Perfeito Simples indica: Uma ação que vai começar",
+  "alternativas": [
+    "Todas as afirmações estão incorretas.",
+    "Somente III está correta.",
+    "Somente I e II estão corretas.",
+    "Somente I está correta."
+  ],
+  "gabarito": "Somente I e II estão corretas.",
+  "assunto": "Verbo no Modo Indicativo"
     },
     {
         "id": 6,
@@ -200,12 +200,12 @@
         "enunciado": "Acerca do tema L13709 (LGPD)_Capítulo II_Seção II, julgue os itens a seguir. As afirmações são do modelo pergunta + resposta\nI. De acordo com o Art. 11 da LGPD, qual o requisito para que o consentimento do titular seja válido no tratamento de dados pessoais sensíveis? Deve ser coletado obrigatoriamente por meio de escritura pública.\nII. O ambiente em que os dados de pesquisa em saúde pública são mantidos deve ser: Acessível a qualquer interessado via internet.\nIII. A tutela da saúde como hipótese de tratamento de dados sensíveis sem consentimento é restrita a quais profissionais? Profissionais de saúde, serviços de saúde ou autoridade sanitária.\nIV. Qual órgão deve ser ouvido pela autoridade nacional antes de dispor sobre padrões de anonimização (Art. 12, § 3º)? O Conselho Nacional de Proteção de Dados Pessoais.",
         "alternativas": [
             "Somente I, II e IV estão corretas.",
-            "Somente IV está correta.",
+            "Somente III e IV estão corretas.",
             "Somente III está correta.",
             "Somente I e III estão corretas.",
             "Somente I, II e III estão corretas."
         ],
-        "gabarito": "Somente III está correta.",
+        "gabarito": "Somente III e IV estão corretas.",
         "assunto": "L13709 (LGPD)_Capítulo II_Seção II"
     },
     {
@@ -306,7 +306,7 @@
     },
     {
         "id": 26,
-        "enunciado": "Acerca do tema Arquiteturas_Cliente-Servidor, avalie os itens a seguir como Verdadeiro (V) ou Falso (F). As afirmações são do modelo pergunta + resposta\n( ) Qual o foco principal da Arquitetura Publisher -Subscriber (Pub -Sub)? Fornecer recursos de armazenamento massivo e descentralizado.\n( ) Quais recursos de segurança são aplicados na Camada de Acesso de uma rede LAN? Configuração da Java Virtual Machine em clusters remotos.\n( ) Como o JavaScript é utilizado no lado do servidor na arquitetura moderna? Gerenciando a camada física de switches em redes locais.\n\nAssinale a sequência correta.",
+        "enunciado": "Acerca do tema Arquiteturas_Cliente-Servidor, avalie os itens a seguir como Verdadeiro (V) ou Falso (F). As afirmações são do modelo pergunta + resposta\n( ) Qual o foco principal da Arquitetura Publisher-Subscriber (Pub-Sub)? Fornecer recursos de armazenamento massivo e descentralizado.\n( ) Quais recursos de segurança são aplicados na Camada de Acesso de uma rede LAN? Configuração da Java Virtual Machine em clusters remotos.\n( ) Como o JavaScript é utilizado no lado do servidor na arquitetura moderna? Gerenciando a camada física de switches em redes locais.\n\nAssinale a sequência correta.",
         "alternativas": [
             "V-V-V",
             "V-F-F",
@@ -330,7 +330,7 @@
     },
     {
         "id": 28,
-        "enunciado": "No modelo de gerenciamento, qual a vantagem da arquitetura Cliente\n-Servidor?",
+        "enunciado": "No modelo de gerenciamento, qual a vantagem da arquitetura Cliente-Servidor?",
         "alternativas": [
             "Facilita o controle de acessos e políticas de segurança.",
             "Elimina a possibilidade de pontos únicos de falha no sistema.",
@@ -362,7 +362,7 @@
             "Somente I e II estão corretas.",
             "Somente I, II e III estão corretas."
         ],
-        "gabarito": "Somente I está correta.",
+        "gabarito": "Somente I, II e III estão corretas.",
         "assunto": "Banco de Dados_Integridade Referencial"
     },
     {
@@ -396,10 +396,10 @@
             "Somente III e IV estão corretas.",
             "Somente I e IV estão corretas.",
             "Somente I, II e IV estão corretas.",
-            "Somente II e IV estão corretas.",
+            "Somente II e III estão corretas.",
             "Somente II está correta."
         ],
-        "gabarito": "Somente II está correta.",
+        "gabarito": "Somente II e III estão corretas.",
         "assunto": "Kanban"
     },
     {

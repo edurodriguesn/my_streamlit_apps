@@ -49,16 +49,15 @@
     },
     {
         "id": 5,
-        "enunciado": "Em uma biblioteca, a presença de alguma obra rara no salão de leitura é suficiente para garantir que os bibliotecários João e Maria acompanharão a visitação do público.\nPortanto, nessa biblioteca,",
+        "enunciado": "Considere como verdadeiras as afirmações:\nTodo carro novo não tem defeitos.\nSe um carro não tem defeitos então é seguro para viajar.\nA partir dessas afirmações é correto concluir que",
         "alternativas": [
-            "o fato de João e Maria não acompanharem a visitação do público é necessário para se garantir que não há qualquer obra rara no salão de leitura.",
-            "o fato de João ou Maria não acompanharem a visitação do público é suficiente para se garantir que não há qualquer obra rara no salão de leitura.",
-            "o fato de João ou Maria não acompanharem a visitação do público é necessário para se garantir que não há qualquer obra rara no salão de leitura.",
-            "a ausência de qualquer obra rara no salão de leitura é suficiente para se garantir a dispensa de João e Maria.",
-            "apenas João e Maria trabalham com obras raras."
+            "se um carro não é novo, então tem defeitos.",
+            "se um carro tem defeitos, então não é seguro para viajar.",
+            "se um carro não tem defeitos, então é novo.",
+            "se um carro é seguro para viajar, então não tem defeitos.",
+            "se um carro não é seguro para viajar então não é novo."
         ],
-        "gabarito": "o fato de João ou Maria não acompanharem a visitação do público é suficiente para se garantir que não há qualquer obra rara no salão de leitura."
-    },
+        "gabarito": "se um carro não é seguro para viajar então não é novo."    },
     {
         "id": 6,
         "enunciado": "A negação lógica da sentença “Todo capixaba é torcedor do Vasco e gosta de moqueca” é:",

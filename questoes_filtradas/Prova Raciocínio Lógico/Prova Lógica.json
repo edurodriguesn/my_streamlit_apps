@@ -61,27 +61,27 @@
     },
     {
         "id": 6,
-        "enunciado": "Sem A, não se tem B.\nSem B, não se tem C.\nAssim, conclui-se que:",
+        "enunciado": "A negação lógica da sentença “Todo capixaba é torcedor do Vasco e gosta de moqueca” é:",
         "alternativas": [
-            "A é suficiente para B e para C;",
-            "B é necessário para A e para C;",
-            "C é suficiente para A e para B;",
-            "A e B são suficientes para C;",
-            "B é necessário para A e suficiente para C."
+            "Todo capixaba não é torcedor do Vasco e não gosta de moqueca;",
+            "Todo capixaba não é torcedor do Vasco ou não gosta de moqueca;",
+            "Algum capixaba é torcedor do Vasco e não gosta de moqueca;",
+            "Algum capixaba não é torcedor do Vasco ou gosta de moqueca;",
+            "Algum capixaba não é torcedor do Vasco ou não gosta de moqueca."
         ],
-        "gabarito": "C é suficiente para A e para B;"
+        "gabarito": "Algum capixaba não é torcedor do Vasco ou não gosta de moqueca."
     },
     {
         "id": 7,
-        "enunciado": "Com relação à naturalidade dos cidadãos brasileiros, assinale a alternativa logicamente correta:",
+        "enunciado": "Abelardo, Benito e Caetano conversam sobre futebol em um bar. Dois deles são irmãos e o outro é filho único. O dono do bar ouviu parte da conversa e ficou sabendo que um deles torce pelo Sampaio Corrêa, outro pelo Maranhão e o outro pelo Moto Club. Prestando mais atenção percebeu ainda que:\n• Abelardo não torce pelo Sampaio Corrêa.\n• Benito não torce pelo Maranhão.\n• O irmão de Caetano torce pelo Moto Club.\n• O que não tem irmão torce pelo Sampaio Corrêa.\nPode-se concluir que:",
         "alternativas": [
-            "Ser brasileiro é condição necessária e suficiente para ser paulista.",
-            "Ser brasileiro é condição suficiente, mas não necessária para ser paranaense.",
-            "Ser carioca é condição necessária e suficiente para ser brasileiro.",
-            "Ser baiano é condição suficiente, mas não necessária para ser brasileiro.",
-            "Ser maranhense é condição necessária, mas não suficiente para ser brasileiro."
+            "Abelardo é irmão de Benito.",
+            "Benito é irmão de Caetano.",
+            "Benito torce pelo Moto Club.",
+            "Caetano torce pelo Maranhão.",
+            "Abelardo torce pelo Maranhão."
         ],
-        "gabarito": "Ser baiano é condição suficiente, mas não necessária para ser brasileiro."
+        "gabarito": "Caetano torce pelo Maranhão."
     },
     {
         "id": 8,

@@ -30,6 +30,7 @@ def secao_carregamento():
 
     _botao_atalho("📝 Exercício de Inglês", os.path.join(PASTA_RAIZ, "Inglês Texto"))
     _botao_atalho("📝 Fazer simulado da Semana", os.path.join(PASTA_RAIZ, "Simulado"))
+    _botao_atalho("📝 Fazer prova de Lógica", os.path.join(PASTA_RAIZ, "Prova Raciocínio Lógico"))
     _botao_atalho("📝 Fazer simulado da Semana (Danilo)", os.path.join(PASTA_RAIZ, "Simulado_Danilo"))
 
     todos_arquivos = []

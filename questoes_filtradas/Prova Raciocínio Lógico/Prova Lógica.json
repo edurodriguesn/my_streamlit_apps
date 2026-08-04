@@ -1,0 +1,193 @@
+[
+    {
+        "id": 1,
+        "enunciado": "Sabe-se que a sentença “Se faz sol e o mar está calmo, então vou remar” é FALSA.\nNesse caso, é correto concluir que",
+        "alternativas": [
+            "Não faz sol ou o mar não está calmo.",
+            "Faz sol e o mar não está calmo.",
+            "Não faz sol e o mar está calmo.",
+            "Vou remar ou não faz sol.",
+            "Não vou remar e o mar está calmo."
+        ],
+        "gabarito": "Não vou remar e o mar está calmo."
+    },
+    {
+        "id": 2,
+        "enunciado": "Sabe-se que a sentença “Se a calça é verde e a camisa é rosa, então o sapato é branco ou o cinto é marrom” é FALSA.\nÉ correto concluir que:",
+        "alternativas": [
+            "a camisa não é rosa ou o cinto é marrom;",
+            "a calça é verde e o sapato é branco;",
+            "se o sapato não é branco, então a camisa não é rosa;",
+            "se o cinto não é marrom, então o sapato é branco;",
+            "se a calça não é verde, então o cinto é marrom."
+        ],
+        "gabarito": "se a calça não é verde, então o cinto é marrom."
+    },
+    {
+        "id": 3,
+        "enunciado": "Sabe-se que a sentença “Se Paula é médica, então João é jornalista ou Marli não é enfermeira” é falsa.\nNesse caso é correto concluir que:",
+        "alternativas": [
+            "se João não é jornalista, então Marli não é enfermeira.",
+            "se Marli é enfermeira, então Paula não é médica.",
+            "se Paula não é médica ou Marli é enfermeira, então João é jornalista.",
+            "Paula não é médica e Marli é enfermeira.",
+            "João é jornalista ou Paula é médica."
+        ],
+        "gabarito": "João é jornalista ou Paula é médica."
+    },
+    {
+        "id": 4,
+        "enunciado": "Considere a sentença: “Se Emília é capixaba, então ela gosta de moqueca”. Um cenário no qual a sentença dada é falsa é:",
+        "alternativas": [
+            "Emília é carioca e não gosta de moqueca;",
+            "Emília é paulista e gosta de moqueca;",
+            "Emília é capixaba e não gosta de moqueca;",
+            "Emília é capixaba e gosta de moqueca;",
+            "Emília é mineira e gosta de moqueca."
+        ],
+        "gabarito": "Emília é capixaba e não gosta de moqueca;"
+    },
+    {
+        "id": 5,
+        "enunciado": "Em uma biblioteca, a presença de alguma obra rara no salão de leitura é suficiente para garantir que os bibliotecários João e Maria acompanharão a visitação do público.\nPortanto, nessa biblioteca,",
+        "alternativas": [
+            "o fato de João e Maria não acompanharem a visitação do público é necessário para se garantir que não há qualquer obra rara no salão de leitura.",
+            "o fato de João ou Maria não acompanharem a visitação do público é suficiente para se garantir que não há qualquer obra rara no salão de leitura.",
+            "o fato de João ou Maria não acompanharem a visitação do público é necessário para se garantir que não há qualquer obra rara no salão de leitura.",
+            "a ausência de qualquer obra rara no salão de leitura é suficiente para se garantir a dispensa de João e Maria.",
+            "apenas João e Maria trabalham com obras raras."
+        ],
+        "gabarito": "o fato de João ou Maria não acompanharem a visitação do público é suficiente para se garantir que não há qualquer obra rara no salão de leitura."
+    },
+    {
+        "id": 6,
+        "enunciado": "Sem A, não se tem B.\nSem B, não se tem C.\nAssim, conclui-se que:",
+        "alternativas": [
+            "A é suficiente para B e para C;",
+            "B é necessário para A e para C;",
+            "C é suficiente para A e para B;",
+            "A e B são suficientes para C;",
+            "B é necessário para A e suficiente para C."
+        ],
+        "gabarito": "C é suficiente para A e para B;"
+    },
+    {
+        "id": 7,
+        "enunciado": "Com relação à naturalidade dos cidadãos brasileiros, assinale a alternativa logicamente correta:",
+        "alternativas": [
+            "Ser brasileiro é condição necessária e suficiente para ser paulista.",
+            "Ser brasileiro é condição suficiente, mas não necessária para ser paranaense.",
+            "Ser carioca é condição necessária e suficiente para ser brasileiro.",
+            "Ser baiano é condição suficiente, mas não necessária para ser brasileiro.",
+            "Ser maranhense é condição necessária, mas não suficiente para ser brasileiro."
+        ],
+        "gabarito": "Ser baiano é condição suficiente, mas não necessária para ser brasileiro."
+    },
+    {
+        "id": 8,
+        "enunciado": "Na segunda-feira, João fez a seguinte afirmação:\n“Se Maria viajou ontem, então estou de plantão depois de amanhã”.\nSe reposicionada temporalmente para o dia seguinte, terça-feira, então uma afirmação logicamente equivalente à afirmação feita por João na segunda-feira seria",
+        "alternativas": [
+            "Se eu não estou de plantão depois de amanhã, então Maria não viajou ontem.",
+            "Se eu não estou de plantão amanhã, então Maria não viajou anteontem.",
+            "Se eu estou de plantão amanhã, então Maria viajou anteontem.",
+            "Se Maria não viajou anteontem, então não estou de plantão amanhã.",
+            "Se eu estou de plantão depois de amanhã, então Maria viajou ontem."
+        ],
+        "gabarito": "Se eu não estou de plantão amanhã, então Maria não viajou anteontem."
+    },
+    {
+        "id": 9,
+        "enunciado": "Maria fez uma afirmação sobre o carro de João e sobre o número de pessoas que estariam em seu interior. Ela disse: “O carro de João é azul ou verde e há, no máximo, 3 pessoas no carro”.\nVerificou-se, no entanto, que tal afirmação é falsa.\nPortanto, o carro de João",
+        "alternativas": [
+            "não é azul, nem verde, e há, pelo menos, 3 pessoas no carro.",
+            "é azul e verde, ou há, no máximo, 3 pessoas no carro.",
+            "não é azul, nem verde, ou há, pelo menos, 4 pessoas no carro.",
+            "é azul ou verde, mas há mais do que 4 pessoas no carro.",
+            "não é azul ou não é verde, ou há, no mínimo, 3 pessoas no carro."
+        ],
+        "gabarito": "não é azul, nem verde, ou há, pelo menos, 4 pessoas no carro."
+    },
+    {
+        "id": 10,
+        "enunciado": "Considere verdadeira a afirmação:\nSe tomo café, não durmo.\nAnalise as afirmações a seguir como consequência lógica da afirmação dada.\nI. Se dormi então não tomei café.\nII. Se não tomo café então durmo\nIII. Se não dormi então tomei café.\nDecorre(m) logicamente da afirmação dada",
+        "alternativas": [
+            "apenas a I.",
+            "apenas a II.",
+            "apenas as II e III.",
+            "apenas as I e III.",
+            "I, II e III."
+        ],
+        "gabarito": "apenas a I."
+    },
+    {
+        "id": 11,
+        "enunciado": "Renato disse: “Eu não passei pelo bar e fui para a academia”. Sua esposa disse: “Eu sei que isso não é verdade”.\nConsiderando que a esposa de Renato está certa, é correto concluir que",
+        "alternativas": [
+            "Renato não passou pelo bar e não foi para a academia.",
+            "Renato passou pelo bar e foi para a academia.",
+            "Renato passou pelo bar e não foi para a academia.",
+            "Renato passou pelo bar ou não foi para a academia.",
+            "Renato passou pelo bar ou foi para a academia."
+        ],
+        "gabarito": "Renato passou pelo bar ou não foi para a academia."
+    },
+    {
+        "id": 12,
+        "enunciado": "Considere a sentença:\n“Se X ≤ 6 e Y > 4, então X − Y ≤ 2”.\nUma sentença logicamente equivalente à sentença dada é",
+        "alternativas": [
+            "Se X > 6 e Y ≤ 4, então X − Y > 2.",
+            "Se X − Y ≤ 2, então X ≤ 6 e Y > 4.",
+            "Se X > 6 ou Y ≤ 4, então X − Y > 2.",
+            "X > 6 ou Y ≤ 4 ou X − Y ≤ 2.",
+            "X > 6 e Y ≤ 4 ou X − Y ≤ 2."
+        ],
+        "gabarito": "X > 6 ou Y ≤ 4 ou X − Y ≤ 2."
+    },
+    {
+        "id": 13,
+        "enunciado": "Sobre as condições de trabalho em uma empresa, o diretor afirmou:\n“Se o ambiente é calmo, então o resultado não demora.” Considere as três novas afirmações:\nI. Se o resultado não demora, então o ambiente é calmo.\nII. Se o ambiente não é calmo, então o resultado demora.\nIII. Se o resultado demora, então o ambiente não é calmo.\nDessas três novas afirmações, são equivalentes à afirmação do diretor:",
+        "alternativas": [
+            "somente I;",
+            "somente II;",
+            "somente III;",
+            "somente II e III;",
+            "I, II e III."
+        ],
+        "gabarito": "somente III;"
+    },
+    {
+        "id": 14,
+        "enunciado": "Depois de uma festa com churrasco João declarou:\nEu não tomei cerveja e comi salada.\nSabendo que a declaração de João é falsa, é correto concluir que João",
+        "alternativas": [
+            "tomou cerveja e comeu carne.",
+            "não tomou cerveja ou não comeu salada.",
+            "tomou cerveja e não comeu salada.",
+            "tomou cerveja ou não comeu salada."
+        ],
+        "gabarito": "tomou cerveja ou não comeu salada."
+    },
+    {
+        "id": 15,
+        "enunciado": "Considere a frase popular:\n“Quem não deve, não teme” Uma frase logicamente equivalente é",
+        "alternativas": [
+            "Quem não teme não deve.",
+            "Quem deve, teme.",
+            "Quem teme, deve.",
+            "Alguém deve e não teme.",
+            "Alguém teme ou deve."
+        ],
+        "gabarito": "Quem teme, deve."
+    },
+    {
+        "id": 16,
+        "enunciado": "Considere os operadores lógicos listados a seguir, apresentados na ordem decrescente de precedência de cada operação.\n~ Negação (not) & Conjunção (and) | Disjunção (or)\nV Disjunção exclusiva (xor) Dado que P e Q são variáveis lógicas, no domínio [True, False], assinale a expressão equivalente a P V Q.",
+        "alternativas": [
+            "( ~P | Q ) & ( P | ~Q).",
+            "( P & Q ) & ( ~P | Q ).",
+            "~( P & ~Q ).",
+            "~( P & Q ) & ( P | Q ).",
+            "~( P & Q ) | ( P & Q )."
+        ],
+        "gabarito": "~( P & Q ) & ( P | Q )."
+    }
+]

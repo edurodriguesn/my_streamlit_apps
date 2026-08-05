@@ -1,0 +1,748 @@
+[
+    {
+        "id": 1,
+        "enunciado": "Julgue o item a seguir.\nA Internet é uma rede mundial de computadores baseada na Pilha de Protocolos TCP/IP, possibilitando a troca de dados e informações entre dispositivos através de uma variedade de serviços, como email, redes sociais, armazenamento em rede, entre outros. Ela é acessível publicamente e permite que conteúdos sejam visualizados globalmente.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 2,
+        "enunciado": "A Internet consiste em uma rede global que congrega redes de hosts distribuídas por diversas localidades.\nSobre sua estrutura, é correto afirmar que a Internet",
+        "alternativas": [
+            "garante a entrega de pacotes via camada de enlace utilizando o protocolo H.323.",
+            "implementa o serviço de correio eletrônico utilizando protocolos como o MIME.",
+            "oferece o serviço de terminal remoto utilizando o protocolo DNS, com o emulador putty.",
+            "possui um modelo de cinco camadas, que estabelece a entrega de pacotes por circuito.",
+            "utiliza o protocolo ICMP como base para a transferência de arquivos."
+        ],
+        "gabarito": "implementa o serviço de correio eletrônico utilizando protocolos como o MIME."
+    },
+    {
+        "id": 3,
+        "enunciado": "É uma parte fundamental da internet, sendo um sistema de hipertexto, que permite que documentos sejam interligados por meio de links. Baseia-se na arquitetura cliente-servidor, em que o cliente é responsável por enviar solicitações para o servidor e receber as respostas. Trata-se do conceito de:",
+        "alternativas": [
+            "WWW (World Wide Web).",
+            "URL (Uniform Resource Locator).",
+            "DNS (Domain Name System).",
+            "RDF (Resource Description Framework).",
+            "SMTP (Simple Mail Transfer Protocol)."
+        ],
+        "gabarito": "WWW (World Wide Web)."
+    },
+    {
+        "id": 4,
+        "enunciado": "Sobre Web Semântica, analise as assertivas abaixo:\nI. Utiliza padrões e tecnologias como RDF e OWL para descrever e integrar dados e informações de diferentes fontes e domínios.\nII. É externo a World Wide Web com o objetivo de tornar a informação mais acessível e utilizável por humanos e máquinas.\nIII. Oferece a possibilidade de fazer buscas mais precisas e relevantes, através de consultas que consideram o significado e o contexto dos dados.\nIV. Tem ênfase na gestão de conhecimento, tornando mais fácil a integração de informações em diferentes domínios de aplicação.\nQuais estão corretas?",
+        "alternativas": [
+            "Apenas II.",
+            "Apenas III.",
+            "Apenas I e II.",
+            "Apenas I, III e IV.",
+            "I, II, III e IV."
+        ],
+        "gabarito": "Apenas I, III e IV."
+    },
+    {
+        "id": 5,
+        "enunciado": "Acerca dos conceitos de internet e web, assinale a alternativa correta.",
+        "alternativas": [
+            "As páginas estão localizadas e disponibilizadas em computadores pessoais e podem ser acessadas através da web.",
+            "O principal protocolo de acesso às páginas é o World Wide Acess Granting Protocol – o W2AGP.",
+            "Para navegar na internet, é necessário um sinal de DHCP para encaminhamento dinâmico.",
+            "A internet pretendia, inicialmente, organizar eficientemente a informação científica, criando ligações entre os vários documentos e os respetivos conteúdo.",
+            "A World Wide Web é uma rede de páginas ligadas entre si que usa a Internet para as disponibilizar aos utilizadores da rede."
+        ],
+        "gabarito": "A World Wide Web é uma rede de páginas ligadas entre si que usa a Internet para as disponibilizar aos utilizadores da rede."
+    },
+    {
+        "id": 6,
+        "enunciado": "A web 2.0 é conhecida por representar o avanço se comparado a sua antecessora, por possibilitar a geração de serviços de internet com uma maior velocidade e sites mais elaborados. Sobre a web 2.0, analise as afirmativas a seguir.\nI. Nessa versão, os dados dos usuários são os produtos que as redes sociais vendem para outras empresas que pagam para anunciar nessas plataformas.\nII. Uma maior interatividade entre os usuários e a possibilidade da exploração de dados são características exploradas por essa versão.\nIII. As ferramentas dessa versão têm por objetivo tornar públicas as informações pessoais dos usuários levando-as para grupos e comunidades.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, II e III.",
+            "I, apenas.",
+            "II, apenas.",
+            "III, apenas."
+        ],
+        "gabarito": "I, II e III."
+    },
+    {
+        "id": 7,
+        "enunciado": "Considere as seguintes assertivas acerca de conceitos básicos da Internet, navegadores Web, e correio eletrônico:\nI - Cookies são arquivos de extensão executáveis utilizados no navegador Microsoft Edge para adicionar recursos ao navegador.\nII - No protocolo padrão de envio de mensagens eletrônicas, o Simple Mail Transfer Protocol, o comando ‘RCPT TO’ especifica o remetente da mensagem.\nIII - Os modos de navegação chamados de janela Privativa no navegador Firefox, janela Anônima no navegador Chrome, e janela InPrivate no navegador Edge, não armazenam o histórico de navegação.\nEstão corretas as assertivas:",
+        "alternativas": [
+            "Apenas I e III.",
+            "Apenas I e II.",
+            "Apenas II.",
+            "Apenas III.",
+            "I, II e III."
+        ],
+        "gabarito": "Apenas III."
+    },
+    {
+        "id": 8,
+        "enunciado": "Considerando o funcionamento da internet e os sistemas web, analise as assertivas e assinale a alternativa que aponta a(s) INCORRETA(S).\nI. A internet utiliza predominantemente o protocolo TCP/IP para as comunicações, dividindo a informação em pacotes que podem seguir rotas distintas entre o remetente e o destinatário.\nII. O HTTPS é uma variação do protocolo HTTP que não oferece qualquer tipo de segurança adicional em relação à privacidade dos dados transmitidos.\nIII. Os cookies, em sistemas web, são pequenos arquivos armazenados no cliente para manter informações entre sessões, como preferências do usuário ou dados de autenticação.\nIV. A arquitetura RESTful se refere a uma estruturação das URIs em sistemas web de forma hierárquica, mas não implica em padrões de estado ou comunicação.",
+        "alternativas": [
+            "Apenas I.",
+            "Apenas II e III.",
+            "Apenas IV.",
+            "Apenas II e IV.",
+            "Apenas III e IV."
+        ],
+        "gabarito": "Apenas II e IV."
+    },
+    {
+        "id": 9,
+        "enunciado": "Considerando os sistemas de gerenciamento de banco de dados (SGBD) e o Comitê Gestor da Internet no Brasil (CGIbr), julgue o item seguinte.\nCabe ao CGIbr estabelecer diretrizes na execução do registro de nomes de domínio, bem como na alocação de endereço IP.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 10,
+        "enunciado": "Que tipo de informação pode ser obtida consultando um “servidor de WHOIS”?",
+        "alternativas": [
+            "Identificar a validade de uma notícia.",
+            "Identificar endereços de e-mail confirmados.",
+            "Identificar computadores dentro de uma rede LAN.",
+            "Identificar números de telefone suspeitos.",
+            "Identificar responsáveis por cada bloco de números IP existentes."
+        ],
+        "gabarito": "Identificar responsáveis por cada bloco de números IP existentes."
+    },
+    {
+        "id": 11,
+        "enunciado": "Uma empresa deseja bloquear o acesso dos seus usuários a determinados sites, como redes sociais e streamings. Nesse caso, assinale a alternativa que corresponde ao tipo de servidor cuja instalação e configuração são recomendadas e que tem a função primária de atuar como um intermediário entre os dispositivos dos usuários e a internet.",
+        "alternativas": [
+            "Proxy.",
+            "DHCP.",
+            "Web.",
+            "DNS.",
+            "Arquivos."
+        ],
+        "gabarito": "Proxy."
+    },
+    {
+        "id": 12,
+        "enunciado": "A Assembleia Legislativa do Estado Goiás está revisando sua arquitetura de comunicação e precisa avaliar as diferenças entre internet, intranet, extranet e o portal institucional, considerando finalidades, características físicas e lógicas, além dos serviços e aplicações mais adequados para cada ambiente, a fim de orientar decisões de infraestrutura e governança digital.\nAssim, pode-se afirmar que",
+        "alternativas": [
+            "a Extranet é uma rede global que conecta computadores e dispositivos, permitindo a troca de informações e comunicação em larga escala.",
+            "a Internet é uma extensão da Extranet que permite o acesso a partes específicas dos dados para usuários externos, geralmente parceiros de negócios ou fornecedores.",
+            "a Internet é uma rede que fornece acesso a informações corporativas, ferramentas e serviços, sem acesso ao público externo.",
+            "portal: Interface que fornece acesso a informações e recursos de uma ou mais fontes, servindo como um ponto de entrada para aplicação e serviços.",
+            "a Internet é uma vasta rede de servidores e dispositivos conectados em toda a corporação, permitindo a troca de dados através de cabos, satélites e conexões sem fio."
+        ],
+        "gabarito": "portal: Interface que fornece acesso a informações e recursos de uma ou mais fontes, servindo como um ponto de entrada para aplicação e serviços."
+    },
+    {
+        "id": 13,
+        "enunciado": "A Assembleia Legislativa precisa compartilhar informações de forma segura com parceiros externos e, ao avaliar a implementação ou melhoria de seu ambiente corporativo, deve compreender claramente suas características para garantir acesso controlado, integração adequada e proteção dos dados. Algumas características são:\n• Deve permitir acesso apenas a usuários autorizados, utilizando autenticação e permissões de acesso para proteger informações sensíveis.\n• Integrado a sistemas internos da empresa, como ERP ou CRM, para fornecer dados em tempo real.\n• Medidas de segurança, incluindo criptografia e firewalls, são implementadas para proteger as informações transmitidas e armazenadas.\n• Proporciona um ambiente onde as partes externas podem acessar documentos, compartilhar informações e realizar atividades colaborativas, como gestão de projetos.\n• Pode ser ajustada e expandida conforme necessário para atender às necessidades de diferentes parceiras ou modificar o acesso.\n• Interfaces amigáveis são comuns, permitindo que usuários não técnicos acessem informações sem dificuldades, o que é importante para a adoção desse ambiente.\nEstas características descrevem um ambiente:",
+        "alternativas": [
+            "Internet.",
+            "Redes sem Fio (Wireless).",
+            "Extranet.",
+            "Intranet.",
+            "Redes Locais (LAN)."
+        ],
+        "gabarito": "Extranet."
+    },
+    {
+        "id": 14,
+        "enunciado": "Em um ambiente corporativo que utiliza uma cadeia de proxies para inspeção, filtragem e anonimização do tráfego, foi identificado que determinadas requisições HTTP enviadas pelos usuários estão sendo manipuladas por um mecanismo que ajusta dinamicamente o cabeçalho Via, altera o Request-Line conforme a política interna e, adicionalmente, realiza caching seletivo baseado em heurísticas de comportamento. Considerando esses elementos, assinale a alternativa que contém o tipo de arquitetura ou mecanismo de proxy que está mais alinhado com esse cenário.",
+        "alternativas": [
+            "Proxy encadeado (proxy chaining).",
+            "Proxy transparente.",
+            "Proxy reverso.",
+            "Proxy aberto (open proxy).",
+            "Proxy SOCKS básico."
+        ],
+        "gabarito": "Proxy encadeado (proxy chaining)."
+    },
+    {
+        "id": 15,
+        "enunciado": "Quando parte do sistema de informação de uma empresa é liberado por meio da internet para alguns usuários externos, de forma restrita, tem-se uma:",
+        "alternativas": [
+            "Extranet.",
+            "Intranet.",
+            "BAN (Body Area Network – Rede Corporal).",
+            "PAN (Personal Area Network – Rede Pessoal).",
+            "Rede Wi-fi."
+        ],
+        "gabarito": "Extranet."
+    },
+    {
+        "id": 16,
+        "enunciado": "Um Web Proxy permite melhorar o desempenho do acesso à Internet pelos computadores em sua rede por meio de",
+        "alternativas": [
+            "aplicação de regras de controle de acesso para bloqueio de certos websites.",
+            "uso de várias rotas de rede para distribuição do tráfego de páginas web.",
+            "compactação de páginas web para reduzir seu tempo de transmissão desde o servidor.",
+            "caching de páginas e outros tipos de conteúdo web provenientes da Internet."
+        ],
+        "gabarito": "caching de páginas e outros tipos de conteúdo web provenientes da Internet."
+    },
+    {
+        "id": 17,
+        "enunciado": "Uma empresa instalou e configurou adequadamente um moderno software de antivírus em todas as estações de trabalho, notebooks e servidores de sua rede.\nApesar da eficácia dessa importante medida de segurança, medidas adicionais ainda se fazem necessárias para proteção contra a ameaça de",
+        "alternativas": [
+            "introdução de malware e spyware por meio de pop-ups em websites suspeitos.",
+            "roubo de senhas ou outras credenciais de acesso com o uso de phishing.",
+            "acesso a websites utilizados para executar ataques de scam (golpes).",
+            "contaminação por malware contido em dispositivos de armazenamento externo."
+        ],
+        "gabarito": "roubo de senhas ou outras credenciais de acesso com o uso de phishing."
+    },
+    {
+        "id": 18,
+        "enunciado": "Um analista de segurança de um tribunal está configurando as regras de um firewall e precisa decidir qual tipo de firewall é mais adequado para inspecionar o tráfego em camadas mais altas do modelo OSI. Julgue os itens a seguir como Verdadeiro (V) ou Falso (F) com base nos tipos e funcionalidades de firewalls.\n( ) Um Firewall de Filtragem de Pacotes (Stateless) toma decisões de bloqueio ou permissão com base em informações das camadas 3 e 4 (endereços IP e portas), sem manter o estado das conexões.\n( ) Um Firewall de Inspeção de Estado (Stateful) monitora o estado das conexões ativas e usa essas informações para tomar decisões mais inteligentes, permitindo, por exemplo, o tráfego de resposta a uma solicitação que foi iniciada de dentro da rede.\n( ) Um Firewall de Próxima Geração (NGFW) integra funcionalidades tradicionais de firewall com recursos mais avançados, como inspeção profunda de pacotes\n(DPI), reconhecimento de aplicações (camada , prevenção de intrusão (IPS) e filtragem de URL.\n( ) Um Proxy Firewall opera exclusivamente na Camada de Rede (Camada , analisando apenas cabeçalhos de pacotes IP para tomar decisões de filtragem, sem qualquer capacidade de interpretar protocolos de aplicação como HTTP ou FTP.\nMarque a alternativa CORRETA que corresponde à sequência de cima para baixo das lacunas acima:",
+        "alternativas": [
+            "F, V, V, V.",
+            "V, F, V, F.",
+            "V, V, V, F.",
+            "F, V, V, F.",
+            "V, V, F, F."
+        ],
+        "gabarito": "V, V, V, F."
+    },
+    {
+        "id": 19,
+        "enunciado": "A respeito de redes de computadores, julgue o item a seguir.\nNo firewall, os servidores proxies de aplicação atuam de forma transparente, sem que a aplicação tenha conhecimento de sua existência.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 20,
+        "enunciado": "Sobre o proxy reverso, é correto afirmar que",
+        "alternativas": [
+            "está localizado entre o cliente e a internet, atuando como uma barreira de segurança, filtrando o tráfego e impedindo acessos não autorizados.",
+            "está localizado entre a internet e os servidores, podendo garantir que as requisições de um mesmo usuário sejam direcionadas para o mesmo servidor.",
+            "está localizado entre o cliente e a internet, impedindo que usuários consumam uma quantidade excessiva de banda, garantindo a qualidade do serviço.",
+            "está localizado entre a internet e os servidores, escondendo o endereço IP real do usuário, proporcionando um maior grau de anonimato.",
+            "está localizado entre o cliente e a internet, atuando na distribuição do tráfego entre os servidores."
+        ],
+        "gabarito": "está localizado entre a internet e os servidores, podendo garantir que as requisições de um mesmo usuário sejam direcionadas para o mesmo servidor."
+    },
+    {
+        "id": 21,
+        "enunciado": "Os servidores proxy desempenham um papel fundamental na arquitetura de sistemas distribuídos, atuando como intermediários entre clientes e servidores para otimizar o desempenho, garantir segurança e fornecer anonimato. Um dos tipos de servidor proxy caracteriza-se por proteger servidores web contra acessos diretos de clientes, atuando como intermediário para distribuir carga, melhorar a segurança e otimizar o desempenho de aplicações hospedadas. Diante do exposto, o nome desse tipo de servidor proxy é:",
+        "alternativas": [
+            "Cache.",
+            "SOCKS.",
+            "Reverso.",
+            "Transparente."
+        ],
+        "gabarito": "Reverso."
+    },
+    {
+        "id": 22,
+        "enunciado": "Tanto a infraestrutura de servidores quanto a governança de TI são fundamentais para garantir a entrega de serviços digitais com qualidade, segurança e alinhamento aos objetivos estratégicos organizacionais.\nNo que diz respeito a servidores, redes e gestão estratégica de TI, julgue (C ou E) o item a seguir.\nIntranets são redes internas organizacionais que, por definição, não utilizam os protocolos da internet para comunicação entre seus dispositivos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 23,
+        "enunciado": "Julgue o item a seguir.\nA Intranet é uma rede de computadores semelhante à Internet, mas restrita aos limites internos de uma instituição. É usada para a comunicação interna de uma corporação, permitindo compartilhamento de informações e utilização de sistemas operativos dentro de uma mesma rede, com protocolos e programas idênticos aos utilizados na Internet.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 24,
+        "enunciado": "Um proxy é um servidor intermediário que atua como um intermediário entre os usuários e os servidores de destino na internet. Ele recebe solicitações dos clientes\n(como navegadores da web) e encaminha essas solicitações para os servidores de destino. Sobre o proxy, analise as afirmativas a seguir:\nI. Um proxy reverso é um servidor proxy que opera do lado do cliente, em vez do lado do servidor.\nII. O proxy reverso pode ocultar os endereços IP dos servidores backend, o que pode dificultar o ataque a eles.\nIII. O proxy cache melhora os tempos de resposta e economiza largura de banda.\nÉ correto o que se afirma em",
+        "alternativas": [
+            "II, apenas.",
+            "III, apenas.",
+            "I e II, apenas.",
+            "I e III, apenas.",
+            "II e III, apenas."
+        ],
+        "gabarito": "II e III, apenas."
+    },
+    {
+        "id": 25,
+        "enunciado": "Para proteger o acesso a um computador conectado a uma rede, podem ser utilizados diversos dispositivos. Você, como responsável pela infraestrutura de tecnologia, deve escolher uma opção para impedir que o tráfego com origem na internet faça conexão com seu computador pessoal. Qual tecnologia deve ser utilizada nessa situação?",
+        "alternativas": [
+            "Multicast.",
+            "Instant message.",
+            "Ipv6.",
+            "Firewall."
+        ],
+        "gabarito": "Firewall."
+    },
+    {
+        "id": 26,
+        "enunciado": "Qual é o tipo de rede que permite que os usuários de uma instituição tenham acesso a recursos de informática compartilhados, como arquivos, impressoras e softwares?",
+        "alternativas": [
+            "Internet.",
+            "Intranet.",
+            "Extranet.",
+            "WAN.",
+            "LEN."
+        ],
+        "gabarito": "Intranet."
+    },
+    {
+        "id": 27,
+        "enunciado": "Em relação às tecnologias de segurança de rede e protocolos de comunicação segura, analise as afirmações abaixo:\nI. VPN (Virtual Private Network) e VPN-SSL (Virtual Private Network - Secure Sockets Layer) são tecnologias que permitem a criação de conexões seguras e criptografadas através de redes públicas, mas VPN-SSL especificamente utiliza o protocolo SSL;\nII. SSL (Secure Sockets Layer) é um protocolo criptográfico projetado exclusivamente para navegação web não funcionando com VPNs;\nIII. A renegociação segura durante o handshake no protocolo TLS é um processo que permite que as partes já conectadas concordem em novos parâmetros de segurança sem necessidade de encerrar a conexão existente.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, apenas.",
+            "II, apenas.",
+            "I e III, apenas.",
+            "II e III, apenas.",
+            "I, II e III."
+        ],
+        "gabarito": "I e III, apenas."
+    },
+    {
+        "id": 28,
+        "enunciado": "Assinale o tipo de recurso em rede que age como um intermediário entre o usuário e a internet, recebe e repassa as suas requisições ao destino que um usuário está acessando.",
+        "alternativas": [
+            "Gateway.",
+            "Firewall.",
+            "Switch.",
+            "Proxy."
+        ],
+        "gabarito": "Proxy."
+    },
+    {
+        "id": 29,
+        "enunciado": "Acerca dos ambientes de Internet, extranet, intranet e portal de uma organização, assinale a opção correta.",
+        "alternativas": [
+            "Extranet é uma rede acessível apenas internamente e que oferece serviços de comunicação e colaboração para os empregados da empresa.",
+            "A Internet, que é uma rede global de redes que permite a comunicação e troca de informações entre computadores em todo o mundo, utiliza recursos como VPNs (Virtual Private Networks) para acesso remoto seguro.",
+            "Em uma extranet, que é uma extensão de uma intranet que permite o acesso controlado a usuários externos, como parceiros de negócios, fornecedores ou clientes, podem-se utilizar VPNs e firewalls para proteger o acesso externo.",
+            "Email interno e serviços de mensagens geralmente estão ligados a um portal.",
+            "Um portal é uma interface de multientradas que fornece acesso a diversos serviços e informações, geralmente através da intranet, que utiliza a infraestrutura de servidores web e que se caracteriza por uma navegação intuitiva mas pouco amigável."
+        ],
+        "gabarito": "Em uma extranet, que é uma extensão de uma intranet que permite o acesso controlado a usuários externos, como parceiros de negócios, fornecedores ou clientes, podem-se utilizar VPNs e firewalls para proteger o acesso externo."
+    },
+    {
+        "id": 30,
+        "enunciado": "HAProxy é um software projetado para balancear o tráfego de rede entre vários servidores de forma equilibrada e atua como intermediário entre clientes e servidores. Sobre HAProxy, marque V para as afirmativas verdadeiras e F para as falsas.\n( ) Pode ser usado apenas como um balanceador de carga e não como um proxy reverso.\n( ) Utilizado para melhorar a disponibilidade, escalabilidade e desempenho de aplicativos da Web.\n( ) Não oferece recursos de métricas e monitoramento do sistema.\nA sequência está correta em",
+        "alternativas": [
+            "V, V, V.",
+            "F, V, F.",
+            "V, F, V.",
+            "F, F, F."
+        ],
+        "gabarito": "F, V, F."
+    },
+    {
+        "id": 31,
+        "enunciado": "O Analista Legislativo Tecnologia implementou um servidor que reside na frente dos servidores web, onde se hospeda o site da organização, com a função de interceptar a solicitação dos clientes antes que elas cheguem nesses servidores. A justificativa dessa implementação, por parte do profissional, foi a busca de um melhor desempenho do site, visando maior segurança, velocidade de navegação e facilidade de manutenção. Para apresentar o projeto, o profissional elaborou o seguinte diagrama:\nConsiderando a descrição do recurso implementado e o item selecionado no diagrama elaborado, pode-se afirmar que o recurso em questão é:",
+        "alternativas": [
+            "IPSEC.",
+            "SSL Decript.",
+            "Proxy reverso.",
+            "Firewall de aplicação."
+        ],
+        "gabarito": "Proxy reverso."
+    },
+    {
+        "id": 32,
+        "enunciado": "Julgue o item a seguir, em relação a dispositivos de segurança e a softwares maliciosos.\nProxies de rede são elementos de controle de fluxo de dados e normalmente operam nas camadas física e de enlace nas redes.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 33,
+        "enunciado": "Em relação a extranet e intranet, bem como à arquitetura orientada a serviços, julgue o item a seguir.\nUma extranet funciona como extensão de determinada intranet a computadores que estejam fora dos domínios físicos da intranet, podendo o acesso a esses computadores ocorrer por uma rede privada virtual, que cria uma conexão segura via tunelamento entre o dispositivo fora da intranet e a intranet propriamente dita",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 34,
+        "enunciado": "Assinale a alternativa que apresenta a descrição da principal função de uma VPN em uma rede de computadores.",
+        "alternativas": [
+            "aumentar a velocidade de conexão da Internet.",
+            "estabelecer uma conexão direta entre dois dispositivos sem utilizar a Internet.",
+            "criptografar o tráfego de rede para proteger a privacidade e permitir o acesso seguro a recursos remotos.",
+            "monitorar o tráfego de rede em tempo real.",
+            "substituir um firewall para proteger a rede interna."
+        ],
+        "gabarito": "criptografar o tráfego de rede para proteger a privacidade e permitir o acesso seguro a recursos remotos."
+    },
+    {
+        "id": 35,
+        "enunciado": "A uma rede local de computadores, localizada nos limites internos de uma instituição, na qual são usados os mesmos programas e protocolos de comunicação empregados na Internet é denominada:",
+        "alternativas": [
+            "Fullnet.",
+            "Lownet.",
+            "Intranet.",
+            "Localnet.",
+            "Smallnet."
+        ],
+        "gabarito": "Intranet."
+    },
+    {
+        "id": 36,
+        "enunciado": "A respeito de redes de comunicação de dados e assuntos correlatos, julgue o item que se segue.\nO servidor proxy atribui a cada sub-rede um único endereço IP para tráfego de internet, e dentro da sub-rede todo computador obtém um endereço TCP/IP, que é usado para roteamento do tráfego interno.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 37,
+        "enunciado": "O proxy é um servidor que atua como intermediário entre um cliente e outro servidor. Quando mal configurado, pode ser abusado por atacantes e utilizado como uma forma de tornar anônimas algumas ações na Internet, como atacar outras redes ou enviar spam. Quando sua configuração não é realizada de forma correta, ele também é conhecido como proxy:",
+        "alternativas": [
+            "Básico.",
+            "Regenerativo.",
+            "Avançado.",
+            "Aberto.",
+            "Fechado."
+        ],
+        "gabarito": "Aberto."
+    },
+    {
+        "id": 38,
+        "enunciado": "No contexto do HAProxy, qual é o método eficiente de distribuição de carga entre servidores back-end?",
+        "alternativas": [
+            "Distribuição de carga ponderada por conexões (Weighted Connection).",
+            "Distribuição de carga ponderada por recursos (Weighted Resource).",
+            "Distribuição de carga ponderada por localização geográfica (Geo-Weighted).",
+            "Distribuição de carga ponderada por menor tempo de resposta (Least Response Time).",
+            "Distribuição de carga ponderada por sistema operacional (OS-Weighted)."
+        ],
+        "gabarito": "Distribuição de carga ponderada por menor tempo de resposta (Least Response Time)."
+    },
+    {
+        "id": 39,
+        "enunciado": "A Internet das Coisas diz respeito à interconectividade de objetos do cotidiano com a Internet. Para que um objeto esteja conectado à Internet, é essencial que ele implemente uma parte da arquitetura TCP/IP, especificamente a camada de Rede. No entanto, quando os dispositivos não têm a capacidade de implementar essa camada, o mecanismo utilizado para contornar esse problema é o",
+        "alternativas": [
+            "Proxy.",
+            "DNS.",
+            "Gateway.",
+            "Firewall."
+        ],
+        "gabarito": "Gateway."
+    },
+    {
+        "id": 40,
+        "enunciado": "A respeito de Internet e intranet, assinale a opção correta.",
+        "alternativas": [
+            "O dynamic HTML permite interatividade rápida, mas não permite modificação do conteúdo na página sem precisar recarregá-la.",
+            "Navegadores web permitem, nativamente, a leitura de vários tipos de arquivo; em alguns casos, por meio de plug-ins, permitem também a leitura de arquivos que não são suportados nativamente.",
+            "Os navegadores web se comunicam, geralmente, com servidores web usando o FTP.",
+            "A principal diferença entre páginas da Internet e da intranet é o protocolo de acesso aos dados.",
+            "A maioria dos navegadores web necessita de plug-ins para que o HTTPS seja suportado."
+        ],
+        "gabarito": "Navegadores web permitem, nativamente, a leitura de vários tipos de arquivo; em alguns casos, por meio de plug-ins, permitem também a leitura de arquivos que não são suportados nativamente."
+    },
+    {
+        "id": 41,
+        "enunciado": "A internet é uma ferramenta amplamente utilizada para diversas finalidades, de um simples envio de mensagem de texto a uma transferência bancária de milhões de dólares. Com base no conhecimento sobre a internet, assinale a alternativa CORRETA.",
+        "alternativas": [
+            "A intranet é uma parte da internet, sendo a intranet uma rede pública, com algumas limitações, dentre elas a restrição que apenas administradores podem utilizá-la.",
+            "São importantes protocolos usados na internet: HTTP, RBF3, SMTP, 2-KNN, POP3, FTP, TELNET, IMAP, WPA e DMC.",
+            "A internet é uma rede de computadores de alcance mundial, que estabelece uma comunicação usando um conjunto de regras técnicas para viabilizar a troca de informação aos seus usuários.",
+            "Pode-se dizer que não existe mais necessidade de utilizar Virtual Private Network (VPN) em intranets, sendo ainda necessário em redes do tipo extranet, por isso a utilização de VPN vem crescendo em números acentuados nos últimos anos.",
+            "A partir da utilização da internet, pode-se ter muitos serviços bem conhecidos, como, por exemplo: telefonia via DNS, correio eletrônico via e-mail, resolução de nomes de dominio via FTP e transferência de arquivos via VolP."
+        ],
+        "gabarito": "A internet é uma rede de computadores de alcance mundial, que estabelece uma comunicação usando um conjunto de regras técnicas para viabilizar a troca de informação aos seus usuários."
+    },
+    {
+        "id": 42,
+        "enunciado": "Julgue o item a seguir acerca de intranet, extranet, UDDI, XSLT e DevOps.\nA principal diferença entre uma intranet e uma extranet é que a primeira é uma rede de uso restrito, enquanto a segunda é uma rede de uso público.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 43,
+        "enunciado": "No que diz respeito ao servidor Proxy, assinale a alternativa CORRETA.",
+        "alternativas": [
+            "É uma unidade de armazenamento exclusiva para guardar e compartilhar arquivos de diversos computadores através de uma rede local.",
+            "É um tipo de servidor que fornece serviços para executar aplicações e disponibilizar conteúdo via internet (nuvem).",
+            "É voltado para armazenamento e troca de arquivos, permitindo o controle das transferências realizadas e autenticação por login e senha, proporcionando um ambiente seguro para troca de informações entre computadores.",
+            "É um tipo de servidor que filtra as solicitações e determina como as mesmas devem ser manejadas, atuando como mediador entre as requisições dos computadores clientes que buscam recursos de outros servidores, como arquivos, páginas web e outros serviços.",
+            "É um tipo de equipamento que combina as tecnologias de hardware e software para possibilitar a cópia segura e fornecer serviços para a recuperação de dados de outros dispositivos computacionais."
+        ],
+        "gabarito": "É um tipo de servidor que filtra as solicitações e determina como as mesmas devem ser manejadas, atuando como mediador entre as requisições dos computadores clientes que buscam recursos de outros servidores, como arquivos, páginas web e outros serviços."
+    },
+    {
+        "id": 44,
+        "enunciado": "Sobre a intranet, é CORRETO afirmar que:",
+        "alternativas": [
+            "É a rede de uma empresa que pode ser acessada pelas pessoas autorizadas de forma remota, a partir de outros locais.",
+            "É uma rede de comunicação privada que utiliza o conjunto de protocolos TCP/IP para compartilhar dados, prover comunicação e serviços dentro de uma empresa, ou seja, só permite que pessoas autorizadas tenham acesso às informações.",
+            "É um protocolo de conexão que gerencia como os dispositivos e computadores se comunicam em uma rede local (LAN).",
+            "É um grande conjunto de redes de computadores interligadas pelo mundo inteiro; de forma integrada viabilizando a conectividade independentemente do tipo de máquina que esteja sendo utilizada.",
+            "Foi a primeira rede de computadores, construída em 1969 como um meio robusto para transmitir dados militares sigilosos e para interligar os departamentos de pesquisa por todo os Estados Unidos."
+        ],
+        "gabarito": "É uma rede de comunicação privada que utiliza o conjunto de protocolos TCP/IP para compartilhar dados, prover comunicação e serviços dentro de uma empresa, ou seja, só permite que pessoas autorizadas tenham acesso às informações."
+    },
+    {
+        "id": 45,
+        "enunciado": "A figura a seguir exibe uma topologia típica de rede local (LAN) de uma instituição:\nAcerca da configuração empregada nessa rede, podemos afirmar que:",
+        "alternativas": [
+            "os dois proxies atuam em conjunto, balanceando a carga da rede e evitando que o firewall seja o gargalo da rede.",
+            "o proxy reverso tem como principal função realizar o caching das páginas web acessadas pelos usuários da rede interna.",
+            "nessa configuração, o proxy reverso pode ser uma ameaça à segurança do servidor web, pois está exposto pela DMZ, fazendo bypass do firewall.",
+            "o proxy de encaminhamento garante que o tráfego da rede interna não seja rastreável por um agente interno.",
+            "todo o tráfego da rede interna será filtrado e encaminhado de maneira anônima pelo proxy de encaminhamento."
+        ],
+        "gabarito": "todo o tráfego da rede interna será filtrado e encaminhado de maneira anônima pelo proxy de encaminhamento."
+    },
+    {
+        "id": 46,
+        "enunciado": "Em uma rede privada, os recursos e sistemas compartilhados ficam restritos à organização e podem estar estruturados das seguintes formas:\nI. Intranet: compreende uma rede privada que utiliza em sua estrutura física e lógica o modelo de internet. Porém, os serviços de rede, como servidores de arquivos e impressão, servidor web e as aplicações, são de uso interno.\nII. Extranet: conhecida popularmente como internet, tem como diferença o fato de que os recursos só podem ser acessados com autorização de um administrador da rede de uma companhia.\nIII. Por meio das técnicas de endereçamento, é possível acessar serviços e dispositivos em qualquer lugar mesmo sem internet.\nEstá(ão) CORRETO(S):",
+        "alternativas": [
+            "Somente os itens I e II.",
+            "Somente os itens I e III.",
+            "Somente o item II.",
+            "Todos os itens."
+        ],
+        "gabarito": "Somente os itens I e II."
+    },
+    {
+        "id": 47,
+        "enunciado": "Os navegadores de internet, atualmente, executam diversas funções além do acesso à World Wide Web (WWW). Qual das funções abaixo NÃO está habilitada por padrão dos navegadores: Internet Explorer e Google Chrome?",
+        "alternativas": [
+            "Ocultar o tráfego de rede do provedor de internet.",
+            "Armazenar cookies e histórico de navegação.",
+            "Possibilidade de abrir arquivos HTML locais.",
+            "Enviar requisições HTTP como POST e GET para sites acessados."
+        ],
+        "gabarito": "Ocultar o tráfego de rede do provedor de internet."
+    },
+    {
+        "id": 48,
+        "enunciado": "Igor trabalha em parceria com o setor de TI do IBGE que pretende criar ambiente seguro para simplificar a comunicação e a troca de informações do IBGE com outras empresas parceiras de outras cidades. Nesse caso, é conveniente a utilização de:",
+        "alternativas": [
+            "uma rede wireless.",
+            "um site de busca.",
+            "uma rede local.",
+            "uma extranet.",
+            "uma ethernet."
+        ],
+        "gabarito": "uma extranet."
+    },
+    {
+        "id": 49,
+        "enunciado": "Julgue o próximo item, a respeito de proxy reverso para aplicações dinâmicas.\nUm proxy reverso não é adequado para ofertar conteúdo estático, mas, sim, dinâmico.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 50,
+        "enunciado": "Julgue o próximo item, a respeito de proxy reverso para aplicações dinâmicas.\nNormalmente, um proxy reverso não gera ou hospeda os dados, sendo o conteúdo obtido por um ou vários servidores backend relacionados com a aplicação web.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 51,
+        "enunciado": "Julgue o próximo item, a respeito de proxy reverso para aplicações dinâmicas.\nSegurança, alta disponibilidade, balanceamento de carga e autenticação/autorização centralizada são alguns motivos para a utilização de proxy reverso.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 52,
+        "enunciado": "Com relação à figura acima, que representa parte da tela de configuração do proxy do programa de navegação Google Chrome, em sua versão mais recente, e às informações nela apresentadas, julgue o item.\nEssa tela pode ser acessada por meio da inserção da url chrome://settings/system/proxy na barra de endereços do navegador Google Chrome.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 53,
+        "enunciado": "Com relação à figura acima, que representa parte da tela de configuração do proxy do programa de navegação Google Chrome, em sua versão mais recente, e às informações nela apresentadas, julgue o item.\nApós a realização da configuração de proxy automática, é obrigatório que o computador seja reiniciado para que as novas alterações sejam implementadas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 54,
+        "enunciado": "Com relação à figura acima, que representa parte da tela de configuração do proxy do programa de navegação Google Chrome, em sua versão mais recente, e às informações nela apresentadas, julgue o item.\nUma das formas de se realizar a configuração de proxy automática é ativar a opção “Usar script de instalação” e, em “Endereço de script”, digitar, por exemplo, a url correspondente à localização do arquivo proxy.pac e, por último, clicar em “Salvar”.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 55,
+        "enunciado": "Com relação à figura acima, que representa parte da tela de configuração do proxy do programa de navegação Google Chrome, em sua versão mais recente, e às informações nela apresentadas, julgue o item.\nAs configurações de proxy são importantes, pois são usadas em redes compartilhadas de órgãos/empresas que necessitam supervisionar o tráfego de dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 56,
+        "enunciado": "Com relação à figura acima, que representa parte da tela de configuração do proxy do programa de navegação Google Chrome, em sua versão mais recente, e às informações nela apresentadas, julgue o item.\nO Google Chrome desabilitou a configuração de proxy manual, em função de diversos bugs identificados no preenchimento do campo Porta.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 57,
+        "enunciado": "Atualmente, uma rede de computadores semelhante à internet é de uso exclusivo de uma determinada organização, ou seja, somente os computadores da empresa podem acessá-la. Constitui uma tecnologia que permite a comunicação de um departamento com todos os outros colaboradores da empresa. São exemplos desse tipo de rede:\nDepartamento de Tecnologia - disponibiliza aos colaboradores um sistema de abertura de Chamado Técnico.\nDepartamento de Marketing - divulga informações sobre as promoções da empresa e uso da marca.\nDepartamento de Pessoal - disponibiliza formulários de alteração de endereço e alteração de vale-transporte.\nDepartamento de RH - anuncia vagas internas disponíveis e informações de interesse do efetivo da empresa.\nEssa rede é conhecida por:",
+        "alternativas": [
+            "bitnet.",
+            "telnet.",
+            "infonet.",
+            "intranet."
+        ],
+        "gabarito": "intranet."
+    },
+    {
+        "id": 58,
+        "enunciado": "Em uma rede de computadores, dois tipos de proxy funcionam com base nas seguintes características listadas a seguir:\nO tipo I atua em nome de um cliente e é usado para proteger os clientes dentro de uma determinada rede interna, por meio da filtragem dos pacotes oriundos de redes externas. Uma de suas vantagens é ocultar o endereço IP domiciliar, o que garante ao usuário da rede privacidade e segurança. Em síntese, atua como um intermediário entre o cliente e o servidor de sua escolha, encaminha uma conexão para o cliente, repassa as solicitações e recebe as respostas dos sites e serviços que ele está usando e as envia para o cliente.\nO tipo II atua em nome de um servidor e é usado para proteger servidores dos clientes, filtrando os pacotes vindos da rede interna para a externa. Opera entre um grupo de servidores e os clientes que desejam usá-los, recebendo todos os pedidos dos clientes e repassando aos servidores e entregando todas as respostas e os serviços dos servidores aos clientes. Os benefícios mais importantes que fornecem são segurança, balanceamento de carga e facilidade de manutenção. Em síntese, recebe solicitações de um cliente em outra rede, passa para um servidor interno, recebe o resultado e o retransmite de volta para o cliente.\nOs tipos l e II são conhecidos, respectivamente, como proxy:",
+        "alternativas": [
+            "reverso e direto.",
+            "direto e reverso.",
+            "síncrono e assíncrono.",
+            "assíncrono e síncrono."
+        ],
+        "gabarito": "direto e reverso."
+    },
+    {
+        "id": 59,
+        "enunciado": "As redes de computadores são normalmente gerenciadas pelas organizações que as possuem. As redes podem usar uma combinação de modelos. Por exemplo, um conjunto de redes que estão sob o controle de uma única entidade administrativa usa o protocolo IP e ferramentas baseadas em IP, como navegadores Web e aplicativos de transferência de arquivos. Normalmente, tem pelo menos um servidor web para fornecer aos usuários informações organizacionais. Indique a alternativa que contém o nome do modelo de rede descrita acima.",
+        "alternativas": [
+            "Internet.",
+            "Intranet.",
+            "Extranet.",
+            "Darknet."
+        ],
+        "gabarito": "Intranet."
+    },
+    {
+        "id": 60,
+        "enunciado": "Sobre as funções de um Proxy Reverso, está CORRETO afirmar que:",
+        "alternativas": [
+            "Mantém cache de conteúdo estático das requisições originadas na Internet com destino à rede local.",
+            "Distribue a carga de requisições para uma lista rotativa de servidores.",
+            "Autentica clientes web como uma precondição para encaminhar o tráfego para servidores backend.",
+            "É responsável por coletar solicitações de diferentes URLs e destiná-las aos servidores que possuem a informação buscada.",
+            "Todas as alternativas anteriores estão corretas."
+        ],
+        "gabarito": "Todas as alternativas anteriores estão corretas."
+    },
+    {
+        "id": 61,
+        "enunciado": "Assinale a alternativa que NÃO contenha uma característica de Intranets:",
+        "alternativas": [
+            "Rede privada que usa os mesmos protocolos da internet.",
+            "De uso exclusivo de um determinado local, como uma empresa.",
+            "Só pode ser acessada pelos seus utilizadores ou colaboradores internos.",
+            "Permite o acesso externo às bases corporativas.",
+            "Funciona mesmo não conectada à internet."
+        ],
+        "gabarito": "Permite o acesso externo às bases corporativas."
+    },
+    {
+        "id": 62,
+        "enunciado": "Assinale a opção que corresponde ao ambiente de rede de comunicação que oferece conectividade adicional para que diferentes processos de negócios da organização sejam coordenados em colaboração com fabricantes, fornecedores, revendedores, prestadores de serviços externos e clientes, tendo como exemplos típicos o gerenciamento de cadeia de suprimentos, o desenvolvimento de produtos e os programas de treinamento.",
+        "alternativas": [
+            "portal.",
+            "extranet.",
+            "Internet.",
+            "intranet."
+        ],
+        "gabarito": "extranet."
+    },
+    {
+        "id": 63,
+        "enunciado": "A respeito dos equipamentos de redes de computadores, do sistema de nomes de domínios (DNS) e do proxy, julgue o item.\nO proxy é um software que realiza, de forma geral, suas ações sobre todos os protocolos de aplicação. Por isso, não existem ainda aplicações proxy específicas para cada protocolo de aplicação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 64,
+        "enunciado": "Assinale a alternativa que apresenta uma funcionalidade de um servidor proxy reverso.",
+        "alternativas": [
+            "Balancear carga para servidores web.",
+            "Rotear pacotes na camada 3.",
+            "Prover serviços de monitoramento e gerenciamento de rede por SNMP.",
+            "Prover resolução de nomes de domínios em endereços IP.",
+            "Obter o endereço físico de rede (MAC address) a partir de um endereço IP."
+        ],
+        "gabarito": "Balancear carga para servidores web."
+    },
+    {
+        "id": 65,
+        "enunciado": "Analise as afirmações abaixo sobre o tema Internet, Intranet e suas funções e assinale a alternativa correta.\nI. CAPTCHA é um procedimento de segurança adotado por diversos sites que consiste em testar se o usuário é humano, geralmente por meio de imagens distorcidas, buscando evitar acessos realizados de forma automática.\nII. Cookies são pequenos arquivos criados por sites visitados e que são salvos no computador do usuário, por meio do navegador. Esses arquivos contêm informações que servem para identificar o visitante, seja para personalizar a página de acordo com o perfil ou para facilitar o transporte de dados entre as páginas de um mesmo site. Cookies são também comumente relacionados a casos de violação de privacidade na web.\nIII. DNS significa Domain Name System. Os servidores DNS convertem os endereços da web em seus endereços IP para que os usuários não precisem lembrar as sequências de números de todos os sites que desejam visitar.\nIV. Site inseguro são aqueles que tem a sua página inicial criptografada através de um protocolo, como o SSL e o TLS garantindo assim ao usuário a segurança no momento do acesso.",
+        "alternativas": [
+            "Apenas I, II e IV estão corretas.",
+            "Apenas II, III e IV estão corretas.",
+            "Apenas I, II e III estão corretas.",
+            "Todas estão corretas."
+        ],
+        "gabarito": "Apenas I, II e III estão corretas."
+    },
+    {
+        "id": 66,
+        "enunciado": "Qual das opções abaixo apresenta a definição mais habitual para intranet?",
+        "alternativas": [
+            "Rede de computadores que utiliza tecnologia proprietária, portanto exclusivamente do mesmo fabricante.",
+            "Rede local de computadores, circunscrita aos limites internos de uma instituição, na qual são utilizados os mesmos programas e protocolos de comunicação empregados na Internet.",
+            "Redes com baixa segurança, contrastando com redes de longo alcance geográfico.",
+            "Redes de computadores que estão geograficamente distantes entre si. A distância geográfica entre os computadores é o que caracteriza esse tipo de rede.",
+            "Redes de fibra ótica entre diferentes instituições que firmam um contrato de serviço entre si."
+        ],
+        "gabarito": "Rede local de computadores, circunscrita aos limites internos de uma instituição, na qual são utilizados os mesmos programas e protocolos de comunicação empregados na Internet."
+    },
+    {
+        "id": 67,
+        "enunciado": "O proxy reverso é um proxy que funciona no lado do servidor, agindo como um intermediário entre o servidor e a rede externa. A respeito desse tipo de proxy, assinale a alternativa correta.",
+        "alternativas": [
+            "Não possui recursos para manter um cache de dados e agilizar a exibição de páginas.",
+            "Realiza a auditoria das conexões de usuários, mas não da atividade de navegação deles.",
+            "Permite controlar que página pode ser exibida.",
+            "É ineficaz no tocante ao controle de acesso a aplicativos.",
+            "Sua maior vantagem é que ele não é vulnerável a certos tipos de ataques, como, por exemplo, os de negação de serviço, tendo em vista que seu endereço IP não é exposto."
+        ],
+        "gabarito": "Permite controlar que página pode ser exibida."
+    },
+    {
+        "id": 68,
+        "enunciado": "No que diz respeito ao servidor proxy, considere os seguintes os passos:\no cache Web verifica se tem uma cópia do objeto armazenada localmente e, se tiver, envia o objeto ao navegador do cliente, dentro de uma mensagem de resposta HTTP;\nse não tiver o objeto, o cache Web abre uma conexão TCP com o servidor de origem. Então, envia uma requisição HTTP do objeto para a conexão TCP. Após recebê-la, o servidor de origem envia o objeto ao cache Web, dentro de uma resposta HTTP;\no navegador estabelece uma conexão TCP com o cache Web e envia a ele uma requisição HTTP para o objeto;\nquando recebe o objeto, o cache Web guarda uma cópia em seu armazenamento local e envia outra, dentro de uma mensagem de resposta HTTP, ao navegador do cliente (pela conexão TCP existente entre o navegador do cliente e o cache Web).\nA alternativa que corresponde à sequência de passos, de cima para baixo, para acessar uma página web, considerando que o navegador foi devidamente configurado, é:",
+        "alternativas": [
+            "3, 1, 2 e 4.",
+            "1, 2, 3 e 4.",
+            "1, 2, 4 e 3.",
+            "4, 1, 2 e 3.",
+            "4, 3, 1 e 2."
+        ],
+        "gabarito": "3, 1, 2 e 4."
+    }
+]

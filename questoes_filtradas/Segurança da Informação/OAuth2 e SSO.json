@@ -1,0 +1,834 @@
+[
+    {
+        "id": 1,
+        "enunciado": "No complexo e conectado ambiente de serviços disponíveis na rede mundial, garantir a autenticidade de um usuário para que possa acessar apenas os conteúdos a ele disponíveis é um processo fundamental. Com a proliferação da necessidade de se autenticar a cada interação, surgiu a tecnologia de Single-Sign on (SSO).\nAssim sendo, o SSO é",
+        "alternativas": [
+            "uma solução integradora, que permite que um servidor autentique diversos usuários para acessá-lo simultaneamente.",
+            "uma instanciação do Keycloak, protocolo de autenticação remota padronizada pela RFC 6749.",
+            "um serviço que reduz o número de autenticações em múltiplos sistemas.",
+            "um processo que garante autenticação segura com apenas um fator.",
+            "uma tecnologia que deve ser instalada em um servidor singular da rede, para acesso remoto de vários sistemas a esse servidor."
+        ],
+        "gabarito": "um serviço que reduz o número de autenticações em múltiplos sistemas."
+    },
+    {
+        "id": 2,
+        "enunciado": "Como é conhecido o conceito (ou mecanismo) de autenticação que permite que os usuários façam login uma vez usando um único conjunto de credenciais e acessem várias aplicações durante a mesma sessão?",
+        "alternativas": [
+            "Kerberos.",
+            "OIDC (Open ID Connect).",
+            "SSO (Single Sign-On).",
+            "SAML (Security Assertion Markup Language).",
+            "OAuth2."
+        ],
+        "gabarito": "SSO (Single Sign-On)."
+    },
+    {
+        "id": 3,
+        "enunciado": "Em relação a APIs, serviços de autenticação, webhook, PostgreSQL e microsserviços, julgue o item a seguir.\nO single sign-on do tipo adaptável gera um token físico, como um pendrive ou cartão magnético, para garantir a relação de confiança digital.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 4,
+        "enunciado": "Julgue o item a seguir, relativo a segurança da informação.\nConsidere que, com o intuito de melhorar a gestão de segurança na autenticação dos usuários dos sistemas de uma empresa, foi solicitado a um colaborador que verificasse a funcionalidade de exigir-se um login — usuário e senha — para obter acesso a todas as contas da empresa, a partir de uma gestão de identidade única.\nNesse cenário, a referida funcionalidade pode ser obtida com a implantação de MFA, que permite o gerenciamento de identidade com a utilização de uma única credencial de autenticação para acessar vários sistemas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 5,
+        "enunciado": "Uma empresa implementou o Single Sign On (SSO) para simplificar o acesso dos funcionários a diversos sistemas internos e serviços de nuvem. Assinale a alternativa que apresenta a principal vantagem do uso do SSO.",
+        "alternativas": [
+            "Elimina a necessidade de autenticação multifatorial.",
+            "Garante a segurança total, eliminando ataques de phishing.",
+            "Melhora a experiência do usuário ao permitir o acesso com um único login.",
+            "Permite usar uma única senha fraca para todos os sistemas.",
+            "Não é afetado por falhas de segurança em sistemas de terceiros."
+        ],
+        "gabarito": "Melhora a experiência do usuário ao permitir o acesso com um único login."
+    },
+    {
+        "id": 6,
+        "enunciado": "No que se refere a single sign‐on, Git e Keycloak, julgue o item subsequente.\nSingle sign-on é uma solução de autenticação que permite que os usuários façam login uma vez utilizando um único conjunto de credenciais e acessem várias aplicações durante a mesma sessão.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 7,
+        "enunciado": "O XYZ Digital, sistema nacional de agendamento de serviços públicos, acessado via desktop e dispositivos móveis, que exige autenticação de cidadãos para solicitação de documentos e consultas, passou por auditoria de segurança após tentativas de acesso indevido e um incidente de autenticação indevida. Após o incidente, constatou- se a utilização de single sign-on (SSO – autenticação única), tendo sido providenciadas a autenticação forte com multifator (MFA) e a implementação de OpenID Connect.\nA partir do caso hipotético precedente, julgue o item subsequente.\nO uso de SSO pode representar um risco à segurança se não for acompanhado por mecanismos adicionais de segurança, como logout global e MFA.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 8,
+        "enunciado": "Julgue o item subsequente, com relação a ferramentas de DevOps, gestão de ativos e autenticação única (single sing-on).\nUma das vantagens do single sign-on é garantir a privacidade das informações do usuário, por meio do uso da identidade federada.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 9,
+        "enunciado": "Julgue o item subsequente, com relação a ferramentas de DevOps, gestão de ativos e autenticação única (single sing-on).\nUma premissa do processo de autenticação do modelo single sign-on é garantir a revelação mínima de dados para um contexto.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 10,
+        "enunciado": "Single Sign-On é uma identidade federada que fornece um serviço de token de segurança por meio do",
+        "alternativas": [
+            "ponto de contato.",
+            "serviço de identidade.",
+            "provisionamento.",
+            "serviço de protocolo.",
+            "serviço de chave."
+        ],
+        "gabarito": "serviço de protocolo."
+    },
+    {
+        "id": 11,
+        "enunciado": "Assinale a alternativa que preencha corretamente a lacuna.\n______ é um método que permite aos usuários acessarem várias aplicações ou sistemas com uma única autenticação, simplificando o processo de login e proporcionando uma experiência de usuário mais eficiente.",
+        "alternativas": [
+            "SSN (Single Sign-Now).",
+            "SSU (Single Sign-Unique).",
+            "SSM (Single Sign-Me).",
+            "SSO (Single Sign-On)."
+        ],
+        "gabarito": "SSO (Single Sign-On)."
+    },
+    {
+        "id": 12,
+        "enunciado": "Como analista de Suporte Técnico de Redes da Defensoria Pública do Estado de Mato Grosso do Sul, você está envolvido na implementação de técnicas de controle de acesso para melhorar a segurança e a eficiência dos sistemas de informação da instituição. Um dos métodos que você está considerando é o Single Sign-On (SSO), que oferece benefícios significativos aos usuários e à administração de sistemas. Nesse sentido, assinale a alternativa que descreve corretamente o que significa SSO no contexto de controle de acesso.",
+        "alternativas": [
+            "É o processo de verificar a identidade de um usuário ou dispositivo que tenta acessar um sistema ou recurso. Isso geralmente é feito por meio de credenciais, como nome de usuário e senha.",
+            "Ocorre após a autenticação e envolve determinar quais ações e recursos um usuário ou dispositivo tem permissão para acessar. Baseia-se em políticas de segurança predefinidas que atribuem permissões específicas aos usuários ou grupos de usuários.",
+            "Envolve a coleta e o registro de eventos e atividades de acesso, incluindo tentativas de autenticação bem-sucedidas ou malsucedidas, ações realizadas por usuários autorizados e outros eventos de segurança. Os logs são essenciais para monitorar a segurança e investigar incidentes.",
+            "É um modelo de controle de acesso que atribui permissões aos usuários com base em suas funções organizacionais. Os usuários são atribuídos a funções e, em seguida, as funções têm permissões associadas a elas. Isso simplifica a administração de controle de acesso, pois as permissões são atribuídas a funções em vez de indivíduos.",
+            "É uma técnica que permite que os usuários acessem várias aplicações ou sistemas com uma única autenticação bem-sucedida. Isso melhora a experiência do usuário e simplifica a administração de senhas, mas requer um mecanismo de autenticação centralizado, como um diretório LDAP ou um provedor de identidade."
+        ],
+        "gabarito": "É uma técnica que permite que os usuários acessem várias aplicações ou sistemas com uma única autenticação bem-sucedida. Isso melhora a experiência do usuário e simplifica a administração de senhas, mas requer um mecanismo de autenticação centralizado, como um diretório LDAP ou um provedor de identidade."
+    },
+    {
+        "id": 13,
+        "enunciado": "Com relação à autenticação de usuário, assinale a alternativa que apresenta corretamente o conceito de Single Sign On (SSO).",
+        "alternativas": [
+            "O SSO determina que os usuários façam login várias vezes para acessar diferentes aplicações durante uma única sessão.",
+            "O SSO melhora a experiência do usuário ao exigir um conjunto de credenciais diferentes para cada aplicação acessada durante a sessão.",
+            "O SSO permite que os usuários façam login uma vez, usando um único conjunto de credenciais, e acessem múltiplas aplicações durante a mesma sessão, facilitando a autenticação e melhorando a segurança.",
+            "O SSO é utilizado apenas em sites voltados para o cliente, como bancos e comércio eletrônico, e não pode ser aplicado em ambientes corporativos."
+        ],
+        "gabarito": "O SSO permite que os usuários façam login uma vez, usando um único conjunto de credenciais, e acessem múltiplas aplicações durante a mesma sessão, facilitando a autenticação e melhorando a segurança."
+    },
+    {
+        "id": 14,
+        "enunciado": "No Single Sign-On, a funcionalidade em que as informações de login e senha permitem um melhor controle da equipe de TI é",
+        "alternativas": [
+            "a autenticação multifator.",
+            "o gerenciamento interno de credenciais.",
+            "a velocidade na recuperação de senhas.",
+            "o ponto único para reinserir senha.",
+            "a melhor aplicação da política de senha."
+        ],
+        "gabarito": "o gerenciamento interno de credenciais."
+    },
+    {
+        "id": 15,
+        "enunciado": "Em um ambiente corporativo, o SSO (Single Sign-On) é frequentemente implementado para melhorar a experiência do usuário e aumentar a segurança. Sobre o SSO, assinale a alternativa correta.",
+        "alternativas": [
+            "SSO é uma técnica de autenticação que exige que os usuários façam login separadamente em cada sistema ou aplicativo.",
+            "SSO reduz a segurança, uma vez que um único conjunto de credenciais é usado para acessar vários sistemas.",
+            "SSO é útil apenas para organizações de pequeno porte com poucos sistemas e aplicativos.",
+            "SSO pode ser implementado por meio de protocolos como o OAuth e o OpenID Connect.",
+            "SSO não afeta a experiência do usuário, já que os usuários ainda precisam lembrar múltiplas senhas."
+        ],
+        "gabarito": "SSO pode ser implementado por meio de protocolos como o OAuth e o OpenID Connect."
+    },
+    {
+        "id": 16,
+        "enunciado": "No contexto de autenticação de usuários em sistemas, uma desvantagem do conceito Single Sign-On (SSO) é:",
+        "alternativas": [
+            "requer que o usuário possua uma conta em alguma rede social, tal como Facebook ou LinkedIn.",
+            "não permite autenticação por dois ou mais fatores.",
+            "oferece múltiplas possibilidades de acesso indevido, caso as credenciais de um usuário sejam vazadas.",
+            "só pode ser usado em sistemas corporativos, requerendo um servidor LDAP.",
+            "requer o uso de tokens físicos do tipo Smart Card, sujeitos a perda e roubo."
+        ],
+        "gabarito": "oferece múltiplas possibilidades de acesso indevido, caso as credenciais de um usuário sejam vazadas."
+    },
+    {
+        "id": 17,
+        "enunciado": "Quanto ao significado de SSO (Single Sign-On), assinale a alternativa correta.",
+        "alternativas": [
+            "É um típico Sistema de Informação Transacional que possibilita acesso a um SGBD único.",
+            "A sigla que representa \"Sistema de Segurança Operacional\" permite tomadas de decisões únicas.",
+            "É uma funcionalidade de controle de acesso único a vários sistemas, ainda que independentes.",
+            "Possibilidade de gerir uma grande base de dados por meio de uma única tela de controle.",
+            "É um sistema simples de entradas únicas para consolidação de Sistemas de Informação."
+        ],
+        "gabarito": "É uma funcionalidade de controle de acesso único a vários sistemas, ainda que independentes."
+    },
+    {
+        "id": 18,
+        "enunciado": "Em um mundo cada vez mais conectado, nós utilizamos cada vez mais aplicativos diferentes. Esses aplicativos podem estar dentro da empresa em que trabalhamos, podem estar em provedores na nuvem (como Google, Salesforce, Office 365, etc), dentro de nossos celulares e instalados em nossos computadores. Tipicamente, cada um desses aplicativos possui uma forma de identificar você e de autenticar que é você mesmo que está utilizando o sistema. E isso é feito, na maioria das vezes, usando um identificador de usuário e uma senha. Hoje em dia, a maioria dos sistemas exige uma senha própria, diferente das outras e você tem que armazenar essas senhas em algum lugar seguro, pois memorizar todas as senhas é impossível.\nFonte: e-trust - https://www.e-trust.com.br/o-que-e-sso-ou-single-sign-on/ Sobre SSO ou Single Sign-On, analise as afirmativas a seguir:\nI - O SSO é uma solução tecnológica que permite que os aplicativos usem a mesma senha para todos os acessos de forma segura e transparente.\nII - Com o SSO, o usuário digita apenas uma senha quando faz o primeiro acesso e depois vai abrindo os demais aplicativos sem necessidade de digitar novamente a senha.\nIII – O SSO funciona tanto para aplicativos que estão dentro da empresa quanto para aplicativos que estão na nuvem.\nSão verdadeiras o que se afirma em:",
+        "alternativas": [
+            "I somente.",
+            "II somente.",
+            "I e II somente.",
+            "I, II e III somente."
+        ],
+        "gabarito": "I, II e III somente."
+    },
+    {
+        "id": 19,
+        "enunciado": "Atendendo a um pedido de parlamentares de uma Assembleia Legislativa, que reclamam das várias senhas de acesso aos sistemas de informação e serviços em rede de computadores que precisam usar, a área de TI implementou um sistema no qual o usuário terá que informar só uma identificação e senha para que esse sistema, trabalhando de forma integrada com LDAP (Lightweight Directory Access Protocol), libere o acesso às diversas aplicações e serviços em rede a que o usuário tem direito.\nTal solução é denominada de",
+        "alternativas": [
+            "Key logging e não requer configuração de perfis de acesso por usuário ou grupo de usuário.",
+            "Single sign on e requer configuração de perfis de acesso por usuário ou grupo de usuário.",
+            "Phishing scam e não requer configuração de perfis de acesso por usuário ou grupo de usuário.",
+            "Flood e requer configuração de perfis de acesso por usuário ou grupo de usuário.",
+            "Role Based Access Control – RBAC e não requer configuração de perfis de acesso por usuário ou grupo de usuário."
+        ],
+        "gabarito": "Single sign on e requer configuração de perfis de acesso por usuário ou grupo de usuário."
+    },
+    {
+        "id": 20,
+        "enunciado": "A analista Renata está implementando o fluxo Authorization Code Grant com Proof Key for Code Exchange (PKCE), do OAuth 2.0, em um aplicativo mobile, a fim de acessar uma API protegida. Conforme as especificações do OAuth 2.0 para esse fluxo, o servidor de autenticação deve efetuar certas validações na fase de troca do código de autorização pelo token de acesso. A passagem de parâmetros para o servidor de autenticação foi implementada pela analista de forma correta, ao longo de todo o fluxo.\nCabe ao servidor de autorização verificar, na referida fase, se:",
+        "alternativas": [
+            "o code e o challenge recebidos são válidos e se o challenge foi derivado do respectivo verifier;",
+            "o code e o verifier recebidos são válidos e se o challenge foi derivado do respectivo verifier;",
+            "o challenge e o verifier recebidos são válidos e se o challenge foi derivado do respectivo code;",
+            "o code e o verifier recebidos são válidos e se o verifier foi derivado do respectivo challenge;",
+            "o challenge e o verifier recebidos são válidos e se o code foi derivado do respectivo challenge."
+        ],
+        "gabarito": "o code e o verifier recebidos são válidos e se o challenge foi derivado do respectivo verifier;"
+    },
+    {
+        "id": 21,
+        "enunciado": "O OAuth 2.0 é um protocolo amplamente utilizado para delegação de autorização, permitindo que aplicações acessem recursos protegidos em nome de um usuário sem que este revele suas credenciais. Com relação aos conceitos fundamentais desse protocolo, assinale a alternativa que contém o papel do Authorization Code no fluxo de autorização.",
+        "alternativas": [
+            "Token utilizado para acessar diretamente o recurso protegido.",
+            "Identificador permanente associado ao usuário.",
+            "Código temporário trocado por um Access Token.",
+            "Token utilizado exclusivamente para renovar sessões expiradas.",
+            "Chave secreta compartilhada entre cliente e servidor de recursos."
+        ],
+        "gabarito": "Código temporário trocado por um Access Token."
+    },
+    {
+        "id": 22,
+        "enunciado": "No que diz respeito ao Oauth 2.0 e ao JSON Web Tokens (JWT), julgue o item subsequente.\nA utilização do JWT e de um processo de comunicação implica a autenticação e a autorização dentro de qualquer sessão.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 23,
+        "enunciado": "No que diz respeito ao Oauth 2.0 e ao JSON Web Tokens (JWT), julgue o item subsequente.\nO Oauth 2.0 baseia-se em tokens de acesso e depende do TLS para garantir segurança no transporte de dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 24,
+        "enunciado": "Uma empresa municipal de transporte está expondo uma API de mobilidade para integração com aplicativos de terceiros (rotas, recarga de créditos, emissão de recibos) e para quiosques de autoatendimento em estações de metrô. A arquitetura de segurança foi redesenhada com base em OAuth 2.1. A equipe de segurança da informação precisa definir uma estratégia de emissão e uso de access tokens e refresh tokens para minimizar o impacto de roubo de dispositivos (celulares dos passageiros) e comprometimento de quiosques, mantendo boa experiência de uso.\nA configuração de tokens e controles de segurança que está mais alinhada às recomendações de OAuth 2.1 e às melhores práticas de proteção de APIs, nesse contexto, é:",
+        "alternativas": [
+            "Emitir tokens de acesso no formato JWT com validade de 24 horas e tratá-los como chaves de API, dispensando assim mecanismos adicionais de revogação ou detecção de uso indevido.",
+            "Configurar tokens de acesso com vida curta, utilizar refresh tokens com rotação a cada uso e revogação automática em caso de reutilização, aplicar escopos específicos por tipo de cliente e, para clientes de alto risco, vincular tokens ao cliente por mTLS ou DPoP.",
+            "Emitir tokens de acesso com validade de um ano para os aplicativos móveis, não utilizando refresh tokens, com o objetivo de reduzir a carga sobre o Authorization Server e evitar renovações frequentes.",
+            "Fornecer refresh tokens de longa duração, reutilizáveis e compartilhados entre múltiplos dispositivos do passageiro, permitindo acesso offline prolongado às APIs de bilhetagem, independentemente do dispositivo, e vincular os tokens por mTLS ou DPoP.",
+            "Permitir o uso de refresh tokens nos quiosques, armazenando-os em texto claro em banco de dados local, confiando na segmentação de rede e em controles físicos dos terminais para impedir abuso."
+        ],
+        "gabarito": "Configurar tokens de acesso com vida curta, utilizar refresh tokens com rotação a cada uso e revogação automática em caso de reutilização, aplicar escopos específicos por tipo de cliente e, para clientes de alto risco, vincular tokens ao cliente por mTLS ou DPoP."
+    },
+    {
+        "id": 25,
+        "enunciado": "Em aplicações modernas baseadas em APIs, especialmente aquelas que atendem clientes web e mobile, a separação entre autenticação e autorização é essencial para segurança e escalabilidade. O framework OAuth 2.0 define fluxos de autorização que permitem a delegação de acesso a recursos protegidos sem o compartilhamento direto de credenciais, sendo amplamente adotado em arquiteturas distribuídas.\nConsidere uma aplicação web que consome uma API backend protegida e utiliza um servidor de autorização externo. A aplicação precisa autenticar usuários finais e obter permissões de acesso de forma segura, minimizando exposição de tokens sensíveis no navegador e atendendo às boas práticas atuais de segurança.\nNesse contexto, assinale a alternativa que descreve corretamente o fluxo de autorização do OAuth 2.0 mais adequado para esse cenário e sua principal justificativa técnica.",
+        "alternativas": [
+            "O fluxo Implicit, pois elimina a necessidade de troca de códigos e simplifica o processo ao retornar o token diretamente ao navegador.",
+            "O fluxo Resource Owner Password Credentials, pois permite que a aplicação colete diretamente as credenciais do usuário e reduza etapas intermediárias.",
+            "O fluxo Authorization Code (com PKCE), pois reduz a exposição de tokens no cliente e oferece maior segurança em aplicações web e single-page applications.",
+            "O fluxo Client Credentials, pois é indicado para autenticação direta de usuários finais em aplicações que interagem com APIs protegidas."
+        ],
+        "gabarito": "O fluxo Authorization Code (com PKCE), pois reduz a exposição de tokens no cliente e oferece maior segurança em aplicações web e single-page applications."
+    },
+    {
+        "id": 26,
+        "enunciado": "O protocolo Oauth2.0, descrito pela RFC 6749 e proposto pela Internet Engineering Task Force (IETF), busca reduzir a necessidade de compartilhamento de credenciais de autenticação (como senhas ou biometria) do detentor de um recurso (chamados de resource owner) diretamente com os sistemas que precisam do credenciamento (chamados de clients). Nesse protocolo, é utilizado um servidor de autorização (chamado authorization server) que emite tokens de acesso aos clients, mediante autorização dos resource owners. Dessa forma, as credenciais são apresentadas apenas ao servidor de autorização e não a cada client.\nCom relação ao protocolo Oauth2.0, como definido pelo RFC 6749, é correto afirmar que",
+        "alternativas": [
+            "a authorization grant é entregue pelo resource owner para o client e representa a autorização do detentor para que o client possa acessar o recurso protegido. No Oauth2.0, são definidos 2 tipos de grant: explicit e authorization code.",
+            "os tokens de acesso (access token) devem garantir acesso por tempo limitado ao recurso protegido. Um refresh token serve para solicitar nova autenticação pelo client após expiração do token de acesso.",
+            "o acesso ao recurso protegido é concedido pelo servidor do recurso (resource server) ao client, apenas se esse apresentar um token de acesso válido, não expirado e de acesso irrestrito aos recursos presente no servidor.",
+            "o servidor de recursos (resource server) é o responsável por manter as credenciais do resource owner secretas e íntegras, devendo armazená-las em forma de salted hash.",
+            "ao emitir um token de acesso, o servidor deve descrever no mesmo o limite de acesso ao recurso, incluindo escopo e tempo, além de poder emitir tokens de refresh para novas autorizações sem necessidade de nova autenticação."
+        ],
+        "gabarito": "ao emitir um token de acesso, o servidor deve descrever no mesmo o limite de acesso ao recurso, incluindo escopo e tempo, além de poder emitir tokens de refresh para novas autorizações sem necessidade de nova autenticação."
+    },
+    {
+        "id": 27,
+        "enunciado": "Julgue o item a seguir, relativo ao protocolo de autenticação OAuth 2.0.\nConforme o OAuth 2.0, o single sign-on é possível mediante a implementação de sessões, entretanto o single logout deve ser realizado individualmente.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 28,
+        "enunciado": "Julgue o item a seguir, relativo ao protocolo de autenticação OAuth 2.0.\nSegundo o OAuth 2.0, o SSO (single sign-on) ocorre quando um usuário, ao fazer login em um aplicativo, automaticamente faz login em outros aplicativos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 29,
+        "enunciado": "Julgue o item a seguir, relativo aos serviços de autenticação Keycloak e OAuth 2.0.\nDe acordo com a especificação OAuth 2.0, o token de acesso, credencial utilizada para acessar recursos protegidos, é uma string que representa uma autorização emitida para o cliente.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 30,
+        "enunciado": "Julgue o item a seguir, relativo aos serviços de autenticação Keycloak e OAuth 2.0.\nA estrutura de autorização do OAuth 2.0 permite que uma aplicação obtenha acesso ilimitado a um serviço HTTP se houver token válido, mas não permite que uma aplicação de terceiros obtenha acesso por conta própria.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 31,
+        "enunciado": "O OAuth 2.0 é um protocolo de autorização que foi projetado para conceder um acesso a um conjunto de recursos. No desenvolvimento de sistemas esse recurso é muito útil, pois permite que um usuário faça login em uma aplicação sem a necessidade de compartilhar sua senha diretamente com o serviço. Utilizando esse protocolo o usuário autoriza a aplicação a acessar seus dados, através de um token de acesso gerado durante o processo de autorização, facilitando a integração com serviços de terceiros sem comprometer a segurança dos dados do usuário.\nSobre o OAuth 2.0, assinale a afirmativa correta.",
+        "alternativas": [
+            "O valor do tipo de concessão do código do dispositivo é urn:ietf:params:oauth:grant-type:device_code.",
+            "Clientes especiais são aplicativos que conseguem se autenticar com segurança no servidor de autorização.",
+            "MTLS é uma extensão do fluxo do código de autorização para evitar ataques de CSRF e injeção de código de autorização.",
+            "A extensão Token Reverse define um mecanismo para clientes indicarem ao servidor de autorização que um token de acesso não é mais necessário.",
+            "Os JWTs podem ser usados como tokens de portador do OAuth 2.0 para codificar algumas partes relevantes de um token de acesso desde que não seja no próprio token de acesso."
+        ],
+        "gabarito": "O valor do tipo de concessão do código do dispositivo é urn:ietf:params:oauth:grant-type:device_code."
+    },
+    {
+        "id": 32,
+        "enunciado": "A RFC do protocolo de autenticação OAuth 2.0 é",
+        "alternativas": [
+            "RFC 2616.",
+            "RFC 3986.",
+            "RFC 6749.",
+            "RFC 7231.",
+            "RFC 7540."
+        ],
+        "gabarito": "RFC 6749."
+    },
+    {
+        "id": 33,
+        "enunciado": "Acerca de segurança da informação, segurança de datacenter, segurança de dispositivos e disponibilidade, julgue o item a seguir.\nOAuth 2 é um protocolo que permite a autorização segura, sem revelar credenciais, enquanto JWT é um formato de token, que pode ser usado com OAuth 2 para transmitir informações de forma segura entre partes.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 34,
+        "enunciado": "No contexto do framework de autorização OAuth 2.0, de acordo com a RFC 6749, assinale a alternativa correta.",
+        "alternativas": [
+            "Access tokens e authorization grants podem ser usados de modo intercambiável.",
+            "Refresh tokens e access tokens podem ser usados de modo intercambiável.",
+            "A emissão de um refresh token é opcional a critério do servidor de autorização (authorization server).",
+            "Refresh tokens são usados para obter novos authorization grants.",
+            "O cliente deve apresentar um refresh token ao servidor de recursos (resource server) para obter um recurso protegido."
+        ],
+        "gabarito": "A emissão de um refresh token é opcional a critério do servidor de autorização (authorization server)."
+    },
+    {
+        "id": 35,
+        "enunciado": "A RFC 6749 define a estrutura do protocolo OAuth 2.0.\nOs dois tipos de clientes desse protocolo são conhecidos como clientes",
+        "alternativas": [
+            "agent-based e tokenless.",
+            "aberto e criptografado.",
+            "confidencial e público.",
+            "fechado e seguro.",
+            "tsl e ssl."
+        ],
+        "gabarito": "confidencial e público."
+    },
+    {
+        "id": 36,
+        "enunciado": "No que concerne a OAuth2, JSON e Hibernate Envers, julgue o item subsequente.\nOAuth2 é um padrão aberto que permite que aplicações obtenham acesso seguro às informações do usuário de outros sites, em que os tokens de acesso são credenciais usadas para acessar recursos protegidos com escopo e durações de acesso específicos, concedidos pelo proprietário do recurso e aplicados pelo servidor de recursos e pelo servidor de autorização.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 37,
+        "enunciado": "No protocolo OAuth 2.0, qual é o ator responsável por verificar a identidade do usuário final e obter seu consentimento antes de emitir um código de autorização?",
+        "alternativas": [
+            "Servidor de Recurso (Resource Server).",
+            "Usuário Final (Resource Owner).",
+            "Cliente (Client Application).",
+            "Servidor de Metadados (Metadata Server).",
+            "Servidor de Autorização (Authorization Server)."
+        ],
+        "gabarito": "Servidor de Autorização (Authorization Server)."
+    },
+    {
+        "id": 38,
+        "enunciado": "A respeito do OAuth 2.0 e do OpenId Connect (OIDC), julgue o item subsequente.\nO OIDC é uma camada de autorização construída sobre o OAuth 2.0 que permite que os clientes usem a identidade do usuário final com base na autorização realizada pelo servidor de autenticação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 39,
+        "enunciado": "A respeito do OAuth 2.0 e do OpenId Connect (OIDC), julgue o item subsequente.\nOAuth 2.0 permite que serviços de terceiros acessem os dados de um usuário em determinado serviço, mas essa ação expõe a senha do usuário.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 40,
+        "enunciado": "Uma equipe de desenvolvimento está criando um aplicativo web que permitirá aos usuários acessar seus dados de uma conta de serviço de terceiros, como Google ou Facebook, sem precisar fornecer suas credenciais diretamente ao aplicativo. Para isso, os desenvolvedores optaram por usar o protocolo OAuth 2.0. Com base no funcionamento do OAuth 2.0, assinale a alternativa que descreve corretamente o papel do Authorization Code Grant nesse contexto.",
+        "alternativas": [
+            "Permite que o aplicativo acesse os dados do usuário apenas uma vez, sem necessidade de consentimento ou autenticação.",
+            "Gera um access token diretamente, sem intermediar o servidor de autorização.",
+            "Redireciona o usuário para o servidor de autorização, onde ele consente o acesso, e então o aplicativo troca um código de autorização por um token de acesso.",
+            "Utiliza diretamente as credenciais do usuário (login e senha) no aplicativo cliente para obter o token.",
+            "É utilizado exclusivamente para comunicação entre servidores, sem intervenção do usuário final."
+        ],
+        "gabarito": "Redireciona o usuário para o servidor de autorização, onde ele consente o acesso, e então o aplicativo troca um código de autorização por um token de acesso."
+    },
+    {
+        "id": 41,
+        "enunciado": "O protocolo OAuth 2.0 é amplamente utilizado em sistemas modernos para autorizar o acesso a recursos protegidos, como APIs e dados de usuário, sem expor diretamente credenciais sensíveis. Esse modelo de autorização delegada é um pilar na segurança de aplicativos web e móveis.\nCom base nas especificações do OAuth 2.0 e nas boas práticas associadas à sua implementação, assinale a alternativa correta.",
+        "alternativas": [
+            "O OAuth 2.0 é um protocolo de autenticação e criptografia ponta a ponta baseado em certificados X.509.",
+            "A principal função do OAuth 2.0 é validar a identidade do usuário em sistemas federados, substituindo protocolos como OpenID Connect.",
+            "No fluxo de credenciais do cliente, o usuário final fornece diretamente sua senha para o aplicativo cliente, que a envia ao servidor de autorização.",
+            "O OAuth 2.0 permite que aplicações de terceiros acessem recursos em nome do usuário, utilizando um token de acesso obtido com o consentimento deste.",
+            "O token de acesso emitido pelo servidor de autorização deve conter a senha do usuário codificada em Base64 para garantir a autenticação."
+        ],
+        "gabarito": "O OAuth 2.0 permite que aplicações de terceiros acessem recursos em nome do usuário, utilizando um token de acesso obtido com o consentimento deste."
+    },
+    {
+        "id": 42,
+        "enunciado": "Um Tribunal de Justiça (TJ) brasileiro está desenvolvendo um novo portal de serviços judiciais que permitirá integração com sistemas de terceiros, como escritórios de advocacia e outras instituições, para acesso a dados específicos de processos em nome de seus usuários. Para viabilizar essa integração, optou-se pela implementação de um mecanismo de Single Sign-On (SSO) utilizando o Keycloak como provedor de identidade (IdP) e o protocolo OAuth 2.0. Assinale a alternativa que apresenta o fluxo do OAuth 2.0 mais adequado para um cenário em que uma aplicação cliente precisa acessar recursos protegidos do TJ em nome do usuário, sem ter acesso direto às credenciais, considerando que a aplicação cliente é uma aplicação web do lado do servidor.",
+        "alternativas": [
+            "Implicit Flow, pois é simplificado para aplicações JavaScript executadas no navegador.",
+            "Client Credentials Flow, pois é utilizado para autenticação de máquina para máquina, sem envolvimento do usuário.",
+            "Authorization Code Flow com PKCE (Proof Key for Code Exchange), pois é o fluxo mais seguro e recomendado para aplicações web server-side e até mesmo para clientes públicos.",
+            "Resource Owner Password Credentials Flow, pois permite que a aplicação cliente colete diretamente as credenciais do usuário e as envie para o servidor de autorização."
+        ],
+        "gabarito": "Authorization Code Flow com PKCE (Proof Key for Code Exchange), pois é o fluxo mais seguro e recomendado para aplicações web server-side e até mesmo para clientes públicos."
+    },
+    {
+        "id": 43,
+        "enunciado": "É um protocolo de padrão aberto que permite que aplicativos acessem recursos hospedados por outros aplicativos ou sites sem que seja necessário compartilhar as credenciais do usuário:",
+        "alternativas": [
+            "IPSec.",
+            "SSL.",
+            "TLS.",
+            "OAuth.",
+            "SSH."
+        ],
+        "gabarito": "OAuth."
+    },
+    {
+        "id": 44,
+        "enunciado": "Sobre o protocolo de autorização OAuth 2.0, assinale a alternativa INCORRETA.",
+        "alternativas": [
+            "Permite que uma aplicação de terceiros possa obter acesso limitado a um serviço HTTP.",
+            "A autorização para acessar recursos em nome do usuário final é realizada por meio de um token de acesso.",
+            "Está diretamente relacionado ao OIDC (OpenID Connect), uma camada de autenticação que estende o protocolo de autorização OAuth 2.0.",
+            "Uma vez criados, os tokens de acesso nunca expiram, mas podem ser trocados utilizando tokens de atualização.",
+            "O usuário autoriza um aplicativo a acessar dados específicos sem precisar compartilhar suas credenciais (usuário e senha)."
+        ],
+        "gabarito": "Uma vez criados, os tokens de acesso nunca expiram, mas podem ser trocados utilizando tokens de atualização."
+    },
+    {
+        "id": 45,
+        "enunciado": "Uma equipe de desenvolvimento está criando um aplicativo móvel, que permite aos usuários publicar fotos diretamente no seu perfil de uma rede social, sem precisar fornecer login e senha da conta. O time opta por utilizar OAuth 2.0. Nesse cenário, a principal vantagem dessa abordagem é",
+        "alternativas": [
+            "permitir que o aplicativo armazene as credenciais do usuário para reutilização posterior, evitando novas autenticações.",
+            "prover um canal de comunicação criptografado ponto a ponto entre o aplicativo e a rede social.",
+            "garantir que o aplicativo tenha acesso apenas aos recursos autorizados pelo usuário, sem conhecer suas credenciais.",
+            "substituir o protocolo HTTPS para reduzir o custo de transmissão de dados.",
+            "impedir que a rede social armazene qualquer informação do usuário, durante o uso do aplicativo."
+        ],
+        "gabarito": "garantir que o aplicativo tenha acesso apenas aos recursos autorizados pelo usuário, sem conhecer suas credenciais."
+    },
+    {
+        "id": 46,
+        "enunciado": "Um usuário desejou permitir que uma aplicação de terceiros, chamada AppCalendario, acessasse seus eventos no Google Calendar em seu nome, sem informar sua senha do Google a essa aplicação. Nesse cenário, o provedor (Google) emitiu para o AppCalendario um token de acesso temporário, com escopo restrito, apenas leitura dos eventos.\nCom base nessa situação hipotética, assinale a opção que apresenta o padrão de autorização projetado especificamente para esse tipo de delegação de autorização.",
+        "alternativas": [
+            "JWT.",
+            "autenticação básica.",
+            "OAuth 2.0.",
+            "API Key.",
+            "TLS."
+        ],
+        "gabarito": "OAuth 2.0."
+    },
+    {
+        "id": 47,
+        "enunciado": "Com relação ao protocolo OAuth e segurança de código, avalie se as afirmativas a seguir são verdadeiras (V) ou falsas (F).\n( ) A parte de “auth” da “OAuth” se refere a autorização, não a autenticação.\n( ) Dentre as práticas recomendadas para criar um aplicativo OAuth, podem ser citadas: usar escopos mínimos, criptografar os tokens de acesso do usuário e proteger as credenciais do aplicativo.\n( ) Dentre os riscos de segurança mais comuns associados às Application Programming Interfaces (APIs, ou Interfaces de Programação de Aplicação) listados no API Security Top 10 da Open Worldwide Application Security Project (OWASP) consta como vulnerabilidade a implementação incorreta de mecanismos de autenticação, que é responsável pela exposição do fluxo de negócios por comprometer o sistema de identificar dos equipamentos de origem do incidente de segurança.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "F – V – F.",
+            "F – V – V.",
+            "V – F – F.",
+            "F – F – V.",
+            "V – V – F."
+        ],
+        "gabarito": "V – V – F."
+    },
+    {
+        "id": 48,
+        "enunciado": "A analista Joana implementou o sistema de autorização da aplicação TJApp utilizando o protocolo OAuth2. Joana decidiu por implementar o fluxo do OAuth2 de concessão por código de autorização. A fim de indicar ao servidor de autorização o fluxo de concessão escolhido, Joana atribuiu ao parâmetro response_type da requisição de autorização de TJApp o valor associado ao fluxo implementado, conforme a especificação do OAuth2.\nJoana atribuiu ao response_type o valor:",
+        "alternativas": [
+            "code;",
+            "token;",
+            "auth-code;",
+            "access-token;",
+            "client-credentials."
+        ],
+        "gabarito": "code;"
+    },
+    {
+        "id": 49,
+        "enunciado": "OAuth2 é um protocolo padrão que autoriza aplicativos a obter acesso limitado às informações de usuários por meio do HTTP. Assinale a opção que apresenta um conceito que não corresponde a um papel (role) definido no OAuth2.",
+        "alternativas": [
+            "public.",
+            "client.",
+            "authorization server.",
+            "resource owner.",
+            "resource server."
+        ],
+        "gabarito": "public."
+    },
+    {
+        "id": 50,
+        "enunciado": "No fluxo do protocolo OAuth2, a interação em que a aplicação cliente apresenta um token de acesso válido e, consequentemente, recebe o recurso protegido ocorre entre",
+        "alternativas": [
+            "servidor de autorização e servidor de recurso.",
+            "aplicação e servidor de recurso.",
+            "aplicação e usuário.",
+            "aplicação e servidor de autorização.",
+            "usuário e aplicação."
+        ],
+        "gabarito": "aplicação e servidor de recurso."
+    },
+    {
+        "id": 51,
+        "enunciado": "O time de desenvolvimento da PRODABEL S/A estava trabalhando ativamente na construção de uma API para atender a uma demanda específica da organização. Ao avançar no processo de desenvolvimento, o gestor do projeto detectou a necessidade da implementação de um mecanismo de autorização de acesso, para um maior controle da aplicação; ao avaliar as possibilidades, optou por implementar o protocolo OAuth 2.0, facilitando o processo de desenvolvimento e, consequentemente, acelerando o prazo de entrega da API. Sobre o protocolo selecionado pelo gestor, está correto o que se afirma em, EXCETO:",
+        "alternativas": [
+            "A PKCE é uma extensão do fluxo do código de autorização para evitar ataques CSRF e injeção de código de autorização.",
+            "A especificação OAuth permite que o servidor de autorização ou usuário modifique os escopos concedidos à aplicação em comparação com o que é solicitado.",
+            "Alguns servidores podem emitir tokens que são uma sequência curta de caracteres hexadecimais, enquanto outros podem usar tokens estruturados, como JSON Web Tokens.",
+            "O tipo de concessão Update Token é utilizado pelos clientes para trocar um token complementar por um token de acesso quando esse expirar, sem interação adicional com o usuário."
+        ],
+        "gabarito": "O tipo de concessão Update Token é utilizado pelos clientes para trocar um token complementar por um token de acesso quando esse expirar, sem interação adicional com o usuário."
+    },
+    {
+        "id": 52,
+        "enunciado": "Acerca de gerenciamento de API, de RESTful e de ITIL 4, julgue o item subsequente.\nOAuth é um protocolo de autorização utilizado na API RESTful que permite que aplicativos obtenham acesso limitado a recursos, por meio da inserção do nome e da senha do usuário no cabeçalho da solicitação a ser enviada.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 53,
+        "enunciado": "Em relação aos métodos de autenticação e seus principais protocolos, julgue o próximo item.\nO OAuth é um protocolo que fornece aos aplicativos a capacidade de acesso designado seguro por transmitir dados de autenticação entre consumidores e provedores de serviços.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 54,
+        "enunciado": "A analista Ana implementou o fluxo Authorization Code do OAuth2, conforme a RFC 6749. Ela está realizando sessões de debug na execução do fluxo, a fim de constatar inconsistências. Durante a sessão de debug 31, Ana pausou a execução do fluxo logo após o servidor retornar um código de autorização.\nCom base na RFC 6749, Ana sabe que o próximo passo esperado no fluxo da sessão 31 é:",
+        "alternativas": [
+            "o servidor autenticar o cliente;",
+            "o cliente solicitar um token de acesso;",
+            "o servidor autenticar o dono do recurso;",
+            "o cliente direcionar o dono do recurso ao endpoint de autorização;",
+            "o servidor solicitar ao dono do recurso a concessão de acesso do cliente ao recurso."
+        ],
+        "gabarito": "o cliente solicitar um token de acesso;"
+    },
+    {
+        "id": 55,
+        "enunciado": "Com base no funcionamento do OAuth 2.0 para obter autorização de acesso, assinale a alternativa correta.",
+        "alternativas": [
+            "O OAuth 2.0 exige que o usuário forneça login e senha diretamente à aplicação para acessar recursos em um servidor.",
+            "O OAuth 2.0 é um protocolo que permite a autorização de acesso a recursos em um servidor sem necessidade de autenticação externa.",
+            "No OAuth 2.0, um servidor externo à aplicação é responsável por autenticar o usuário e obter permissão para liberar os dados para a aplicação.",
+            "O OAuth 2.0 utiliza apenas dois papéis principais no processo de autorização e autenticação, conforme definido pela RFC 6749."
+        ],
+        "gabarito": "No OAuth 2.0, um servidor externo à aplicação é responsável por autenticar o usuário e obter permissão para liberar os dados para a aplicação."
+    },
+    {
+        "id": 56,
+        "enunciado": "Disponibilizado inicialmente em 2012, o OAuth2 é um protocolo de autorização cujo objetivo é permitir que os usuários deem acesso aos seus recursos hospedados por um provedor de serviços, sem apresentar credenciais.\nA respeito do OAuth2, assinale a afirmativa correta.",
+        "alternativas": [
+            "Ao contrário dos tokens de acesso, os tokens de atualização são destinados ao uso somente com servidores de autorização e nunca são enviados aos servidores de recursos.",
+            "Os clientes não precisam registrar seus redirecionamentos de URI antes de usá-los em um fluxo de autorização.",
+            "O servidor de recursos emite tokens de acesso ao cliente após autenticar o proprietário do recurso com sucesso e obter autorização.",
+            "Os tokens de atualização devem ser enviados diretamente ao cliente para autenticação, sem necessidade de proteção adicional.",
+            "Só existe um tipo de cliente, o confidencial, aquele capaz de manter a confidencialidade de suas credenciais."
+        ],
+        "gabarito": "Ao contrário dos tokens de acesso, os tokens de atualização são destinados ao uso somente com servidores de autorização e nunca são enviados aos servidores de recursos."
+    },
+    {
+        "id": 57,
+        "enunciado": "Acerca do uso do framework de autenticação OAuth 2.0, julgue o item subsequente.\nO OAuth 2.0 utiliza refresh tokens para obter novos tokens de acesso, sem pedir ao usuário para fazer login novamente, e serve de base para o OpenID Connect, que adiciona uma camada de autenticação sobre o protocolo de autorização.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 58,
+        "enunciado": "O protocolo de autorização amplamente adotado para permitir que os usuários concedam acesso a suas informações sem compartilhar suas credenciais diretamente com os serviços de terceiros é chamado de",
+        "alternativas": [
+            "CriptoAuth.",
+            "WEP.",
+            "OAuth 2.0.",
+            "PubliKey.",
+            "Tokenizer."
+        ],
+        "gabarito": "OAuth 2.0."
+    },
+    {
+        "id": 59,
+        "enunciado": "Um Analista está utilizando o protocolo OAuth2 (RFC e, após realizar todos os passos para obtenção e geração de um access token em condições ideais, recebeu o seguinte retorno:\n{ \"access_token\": \"57f10f0e-3d2e-311f-a797-4011f66e1cbf\", \" I \": \"ca81cb16-43e4-3e96-aaea-4861e7791dc7\", \"token_type\": \"access_token\", \"expires_in\": 3600 } Considerando que a lacuna I se refere ao campo que poderá ser utilizado para atualizar um access token que tenha expirado, esta é corretamente denominada:",
+        "alternativas": [
+            "refresh_token.",
+            "redirect_uri.",
+            "extraInfo.",
+            "expired_token.",
+            "redirect_token."
+        ],
+        "gabarito": "refresh_token."
+    },
+    {
+        "id": 60,
+        "enunciado": "O analista Kléber desenvolveu o web service JusRest, que é protegido por autenticação OAuth2 através do client JusClient, registrado no servidor Keycloak do TJRN.\nSendo o JusRest um web service, o administrador do Keycloak desabilitou os fluxos de autenticação OAuth2 para o JusClient. Dessa forma, para consumir o JusRest, o usuário deve fornecer um token já emitido. Para simplificar a integração com o Keycloak, Kléber utilizou no JusRest um adaptador de client do Keycloak. A fim de refletir a configuração do JusClient, Kléber ativou no adaptador a opção que desabilita a tentativa de autenticação do usuário, esperando que seja fornecido um token preexistente.\nLogo, Kléber ativou no adaptador Keycloak do JusRest a opção:",
+        "alternativas": [
+            "bearer-only;",
+            "expose-token;",
+            "enable-basic-auth;",
+            "verify-token-audience;",
+            "disable-trust-manager."
+        ],
+        "gabarito": "bearer-only;"
+    },
+    {
+        "id": 61,
+        "enunciado": "Julgue o item subsequente, a respeito da interoperabilidade entre aplicações.\nOAuth, que é um protocolo utilizado para autorizar aplicações web, desktop, mobile e dispositivos em geral, não separa o papel do cliente do papel do proprietário do recurso.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 62,
+        "enunciado": "O analista João administra o AuthServer, o servidor de autorização OAuth 2.0 do TJSE. João determinou que todos os clientes utilizem o parâmetro state nas requisições de autorização feitas ao AuthServer. Os clientes devem atribuir ao state um valor não adivinhável a cada nova requisição de autorização. Os clientes devem ainda validar se o state retornado pelo servidor após a autenticação condiz com o state enviado na requisição. De acordo com as especificações do protocolo OAuth 2.0, João estará mitigando diretamente o ataque malicioso:",
+        "alternativas": [
+            "phishing;",
+            "clickjacking;",
+            "code injection;",
+            "credentials guessing;",
+            "cross-site request forgery."
+        ],
+        "gabarito": "cross-site request forgery."
+    },
+    {
+        "id": 63,
+        "enunciado": "OAuth2 foi construído com base em quatro papéis (ou atores) principais, cada um com responsabilidades específicas no processo de autorização. Esses papéis são:",
+        "alternativas": [
+            "End User, Client, Resource Provider e Authentication Server.",
+            "Resource Owner, Client, Resource Server e Authorization Server.",
+            "Authorization Agent, Client, Authentication Server e End User.",
+            "Identity Provider. Client. Authorization Agent e Authentication Server.",
+            "Protected Resource Server, Resource Agent, Identity Provider e Authentication Server."
+        ],
+        "gabarito": "Resource Owner, Client, Resource Server e Authorization Server."
+    },
+    {
+        "id": 64,
+        "enunciado": "Em um ataque contra o OAuth 2, um usuário malicioso tentou interceptar as solicitações e os tokens de atualização, por meio da disponibilização de um servidor de autorização falso.\nPara mitigar um ataque dessa natureza, é correto",
+        "alternativas": [
+            "adotar as melhores práticas de proteção para o armazenamento de credenciais do servidor de autorização.",
+            "proteger os servidores que mantêm as configurações sensíveis e as bases de dados de autorizações.",
+            "aplicar criptografia para as credenciais e tokens armazenados pela máquina cliente.",
+            "implementar criptografia sobre o tráfego das requisições enviadas ao servidor de autorização.",
+            "utilizar um servidor de autenticação para certificar a identidade do servidor de autorização."
+        ],
+        "gabarito": "utilizar um servidor de autenticação para certificar a identidade do servidor de autorização."
+    },
+    {
+        "id": 65,
+        "enunciado": "O protocolo OAuth 2.0 permite que serviços de terceiros troquem informações sem que seja necessário fornecer uma senha. No OAuth 2.0",
+        "alternativas": [
+            "há total compatibilidade com as versões anteriores deste protocolo.",
+            "um único servidor de autorização pode emitir tokens de acesso aceitos por vários servidores de recursos.",
+            "o servidor de autorização não pode ser o mesmo que o servidor de recursos.",
+            "há cinco funções: proprietário do recurso, servidor de recursos, cliente, servidor de logs e repositório de credenciais.",
+            "os refresh tokens são emitidos para o cliente pelo servidor de recursos e são usados para obter um novo access token quando o atual expira."
+        ],
+        "gabarito": "um único servidor de autorização pode emitir tokens de acesso aceitos por vários servidores de recursos."
+    },
+    {
+        "id": 66,
+        "enunciado": "Considere a situação abaixo.\nCarlos abre um aplicativo no qual são oferecidas 3 formas de acesso à plataforma: com Google, com Facebook e com E-mail.\nCarlos clica no opção “Acessar com Google”. O aplicativo faz uma requisição ao Google Accounts, pedindo uma chave de acesso para consumir um recurso protegido.\nQuando o Google Accounts recebe o pedido de autorização para acessar um recurso protegido, inicia-se o processo de identificação e autenticação.\nSurge a tela do Google para Carlos digitar seu e-mail (@gmail.com), seguida da tela (do Google) para Carlos digitar a senha. Nesse passo, Carlos identifica-se, autentica- se e consente que o aplicativo acesse os recursos protegidos em seu nome. Então, o Google Accounts emite um access token (chave de acesso) para o aplicativo, que poderá acessar os recursos protegidos.\nNessa situação, que ilustra o funcionamento inicial do OAuth2 (RFC , o Google Accounts é o..I.., Carlos é o..II.. e o aplicativo é o..III....\nOs roles que preenchem, correta e respectivamente, as lacunas I, II e III são:",
+        "alternativas": [
+            "Resource Server − Grant Owner − Protected Resource.",
+            "Authorization Server − Client − Protected Resource.",
+            "Resource Server − Grant Owner − Client.",
+            "Request Server − Client − Resource Owner.",
+            "Authorization Server − Resource Owner − Client."
+        ],
+        "gabarito": "Authorization Server − Resource Owner − Client."
+    },
+    {
+        "id": 67,
+        "enunciado": "Quando falamos em segurança da informação, o princípio da confidencialidade é sempre lembrando pois a privacidade das informações está atrelada a ele. Anos de experiências, práticas e muitas horas ele estudo ele grupos de trabalho levaram ao amadurecimento de conceitos e o desenvolvimento de frameworks focados na questão da proteção dos dados. Um bom exemplo disso é a RFC 6749.\nEla descreve o OAuth 2, um padrão amplamente adotado em todo o mundo. OAuth 2 tem caracteristicas importantes como: interoperabilidade e fácil Implementação, questões que auxiliaram na sua popularização. A respeito do OAuth 2, analise as afirmativas abaixo e marque alternativa correta.\nI. OAuth 2 suporta os conceitos de Identificação, Autenticação e Autorização. O primeiro serve para identificar quem é você, o segundo confirma sua identidade e o terceiro lhe concede o acesso aos recursos permitidos após o sucesso da autenticação.\nII. Access Token é o nome dado ao dispositivo que garante o conceito de Autorização em OAuth 2. A RFC 6749 determina que ele deve possuir tamanho de pelo menos 64 bytes, por questões de segurança.\nIII. Authorization Sever é o nome dado para o servidor que gera o Access Token. Esse servidor é responsável por um dos quatro papeis presentes no OAuth 2. Os outros três são: Resource Owner, Resource Sever e Client.",
+        "alternativas": [
+            "Apenas as afirmativas I e II estão corretas.",
+            "Apenas a afirmativa II está correta.",
+            "Apenas as afirmativas II e III estão corretas.",
+            "Apenas as afirmativas I e III estão corretas.",
+            "Todas as afirmativas estão corretas."
+        ],
+        "gabarito": "Apenas as afirmativas I e III estão corretas."
+    },
+    {
+        "id": 68,
+        "enunciado": "No que se refere a OAuth, julgue o seguinte item.\nA parte com capacidade de conceder acesso aos recursos protegidos é o servidor de recurso.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 69,
+        "enunciado": "No que se refere a OAuth, julgue o seguinte item.\nConsideradas as etapas do fluxo de autenticação do protocolo, é correto afirmar que, sendo o token válido, a primeira etapa ocorre com a solicitação, pelo cliente, de autorização para o acesso aos recursos e a última, com o servidor de recursos servindo o recurso solicitado.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 70,
+        "enunciado": "No que se refere a OAuth, julgue o seguinte item.\nO servidor de autenticação tem como função autenticar o usuário, ao passo que o dono do recurso é responsável pela emissão dos tokens.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 71,
+        "enunciado": "O protocolo de autorização OAuth 2.0 permite que aplicativos obtenham acesso limitado aos serviços HTTP.\nAs quatro funções (roles) descritas na RFC 6749 para esse protocolo são",
+        "alternativas": [
+            "protected resource, resource user, client e token server.",
+            "access token, HTTP server, client credential e authorization broker.",
+            "resource owner, resource server, client e authorization server.",
+            "authorization resource, authorization code, client e token server.",
+            "resource owner, password credential, access token e refresh token."
+        ],
+        "gabarito": "resource owner, resource server, client e authorization server."
+    },
+    {
+        "id": 72,
+        "enunciado": "Após os microsserviços estarem rodando de forma correta, as APIs que expõem o serviço devem ser bem gerenciadas. Para que o controle de acesso dos consumidores esteja sob controle, pode-se utilizar padrões de mercado como JSON Web Tokens ou",
+        "alternativas": [
+            "Rancher.",
+            "Spring Authy.",
+            "OAuth2.",
+            "Webhooks.",
+            "RabbitMQ."
+        ],
+        "gabarito": "OAuth2."
+    },
+    {
+        "id": 73,
+        "enunciado": "No protocolo OAuth2, a concessão de autorização que é obtida por meio de um servidor intermediário entre o cliente e o proprietário do recurso é do tipo",
+        "alternativas": [
+            "access token.",
+            "authorization code.",
+            "resource owner password credentials.",
+            "client credentials.",
+            "implicit."
+        ],
+        "gabarito": "authorization code."
+    },
+    {
+        "id": 74,
+        "enunciado": "OAuth 2 é um protocolo de autorização que permite que uma aplicação se autentique em outra. Para que isso aconteça, uma aplicação pede permissão de acesso para um usuário, sem que para isso ela tenha acesso a alguma senha dele. O usuário pode conceder ou não o acesso à aplicação. Depois da permissão ser aceita, caso o usuário precise alterar a senha de acesso, a permissão continuará válida para a aplicação e, caso necessário, a permissão dada à aplicação pode ser revogada a qualquer momento também.\nFonte: https://www.treinaweb.com.br/blog/o-que-e-oauth-2 OAuth 2 foi construído em cima de 4 papéis, marque a alternativa que correta que mostra os quatro papéis",
+        "alternativas": [
+            "Resource Owner - Client - Resource Server - Authorization Server.",
+            "Implicit - Authorization Code – Resource Owner – Client Credentials.",
+            "Resource Owener – Implicit – Client Credentials – Authorization Code.",
+            "Implicit – Client – Resource Server – Confidential."
+        ],
+        "gabarito": "Resource Owner - Client - Resource Server - Authorization Server."
+    },
+    {
+        "id": 75,
+        "enunciado": "No que se refere a autenticação e riscos de segurança, julgue o item a seguir.\nNo contexto de OAuth 2, o servidor de autorização deve obrigar a autenticação explícita do proprietário do recurso e prover a ele informações sobre o cliente, o escopo e a vida útil da autorização solicitada.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 76,
+        "enunciado": "SAML (Security Assertion Markup Language) e OAuth 2 são frameworks utilizados para controlar o acesso a aplicações Web.\nPara controlar o acesso às aplicações:",
+        "alternativas": [
+            "SAML utiliza tokens JWT (JSON Web Token) para autenticação e autorização do acesso;",
+            "OAuth 2 possibilita o uso de refresh tokens para obtenção de novos access tokens;",
+            "SAML e OAuth 2 requerem o uso do certificado digital do servidor de autorização para gerar tokens;",
+            "SAML e OAuth 2 utilizam provedores de identificação e autorização que geram tokens do tipo JWT (JSON Web Token) Assertion;",
+            "SAML e OAuth 2 requerem o uso do Single Sign-On (SSO) no servidor de autorização."
+        ],
+        "gabarito": "OAuth 2 possibilita o uso de refresh tokens para obtenção de novos access tokens;"
+    }
+]

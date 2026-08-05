@@ -1,0 +1,670 @@
+[
+    {
+        "id": 1,
+        "enunciado": "O método Kanban estabelece dois princípios fundamentais voltados para a gestão do fluxo de trabalho em projetos. Dessa forma, é correto afirmar que esses dois princípios são os Princípios",
+        "alternativas": [
+            "do Custo Mínimo e do Tempo Mínimo.",
+            "do Trabalho em Progresso e do Gerenciamento de Fluxo.",
+            "da Gestão de Mudanças e da Entrega de Serviços.",
+            "da Visualização e do Ciclo de Feedback.",
+            "da Comunicação Total e da Segurança Máxima."
+        ],
+        "gabarito": "da Gestão de Mudanças e da Entrega de Serviços."
+    },
+    {
+        "id": 2,
+        "enunciado": "Lucas precisa implementar uma metodologia ágil para que as atividades dos membros da sua equipe de desenvolvimento de projetos possam estar visíveis, especialmente, para controlar as tarefas em andamento, além das atividades a serem feitas e as concluídas.\nPara implementar um quadro visual com a situação das atividades do seu projeto, Lucas deve utilizar um:",
+        "alternativas": [
+            "Sprint;",
+            "Kanban;",
+            "Checklist;",
+            "Daily Scrum;",
+            "Product Backlog."
+        ],
+        "gabarito": "Kanban;"
+    },
+    {
+        "id": 3,
+        "enunciado": "Em uma empresa de desenvolvimento de aplicativos para celulares, a equipe de desenvolvimento está trabalhando em um novo aplicativo e faz uso de um quadro Kanban para visualizar o fluxo de trabalho. O responsável pela equipe de desenvolvimento notou que um dos cartões permanecia na coluna \"em andamento\" por vários dias sem nenhum progresso.\nEm relação a essa situação, é correto afirmar que:",
+        "alternativas": [
+            "o cartão está aguardando aprovação do cliente;",
+            "o cartão representa uma tarefa concluída;",
+            "o processo tem um gargalo ou um impedimento;",
+            "o cartão está aguardando a aprovação da equipe;",
+            "o cartão está em fase de testes automatizados."
+        ],
+        "gabarito": "o processo tem um gargalo ou um impedimento;"
+    },
+    {
+        "id": 4,
+        "enunciado": "Julgue o item a seguir, a respeito de governança de TI.\nDiferentemente do Scrum, que utiliza iterações de tempo fixo chamadas Sprints, o método Kanban foca na visualização do fluxo de trabalho e na limitação do trabalho em progresso (work in progress) para evitar sobrecarga na equipe e identificar gargalos no processo de entrega de serviços de tecnologia.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 5,
+        "enunciado": "No que se refere a práticas ágeis e a licitação e gerenciamento de requisitos de desenvolvimento, julgue o próximo item.\nUm dos objetivos do método Kanban é colocar a maior quantidade possível de itens em andamento, aumentando a capacidade de entrega do time de desenvolvimento.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 6,
+        "enunciado": "Com base nos fundamentos da engenharia de software, julgue o item a seguir.\nNo método Kanban, a limitação do trabalho em andamento (WIP) constitui mecanismo central para evidenciar gargalos e favorecer a melhoria do fluxo de trabalho.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 7,
+        "enunciado": "No que se refere a processos ágeis, julgue o item a seguir.\nNo Kanban, a implementação de limites de trabalho em progresso visa reduzir o tempo de entrega dos itens, sem impactar outros aspectos, como a identificação de gargalos e a melhoria contínua do fluxo de trabalho.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 8,
+        "enunciado": "Uma equipe de desenvolvimento está implementando o método Kanban para gerenciar seu fluxo de trabalho. Após a adoção, os membros da equipe identificaram que o processo estava sobrecarregado em determinadas etapas, enquanto outras permaneciam subutilizadas. Para resolver essa situação, o que a equipe deve fazer conforme os princípios do Kanban?",
+        "alternativas": [
+            "Dividir as tarefas em subtarefas menores para aumentar a quantidade de trabalho em cada etapa e maximizar a produtividade.",
+            "Priorizar a automatização de etapas subutilizadas para garantir que o tempo ocioso seja reduzido ao mínimo, aumentando a eficiência geral.",
+            "Implementar um limite de trabalho em progresso (WIP) para cada etapa do fluxo, equilibrando a capacidade de trabalho e melhorando o fluxo de entrega.",
+            "Aumentar o número de membros da equipe para reduzir a sobrecarga das etapas mais problemáticas e garantir que todas as tarefas sejam concluídas rapidamente."
+        ],
+        "gabarito": "Implementar um limite de trabalho em progresso (WIP) para cada etapa do fluxo, equilibrando a capacidade de trabalho e melhorando o fluxo de entrega."
+    },
+    {
+        "id": 9,
+        "enunciado": "Acerca das metodologias ágeis para o desenvolvimento de software, julgue o item subsecutivo.\nCycle time, no Kanban, corresponde ao tempo decorrido desde o início de um item de trabalho até o momento atual, aplicando-se apenas aos itens que ainda estejam em WIP (work in progress).",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 10,
+        "enunciado": "No que se refere a ferramentas e técnicas de gerenciamento de projetos, aquela que ajuda a melhorar a eficiência e a produtividade do projeto; baseia-se na limitação do trabalho em andamento e na colaboração em tempo real; e utiliza cartões organizados em colunas, os quais representam os diferentes estágios do fluxo de trabalho, é denominada",
+        "alternativas": [
+            "Kanban.",
+            "Scrum.",
+            "diagrama de Ishikawa.",
+            "gráfico de Gantt.",
+            "Design Thinking."
+        ],
+        "gabarito": "Kanban."
+    },
+    {
+        "id": 11,
+        "enunciado": "A mensuração da métrica lead time no desenvolvimento de software ganhou notoriedade quando David Anderson, criador do Kanban destacou a importância de coletá-la. Com relação à utilidade de medir o lead time durante o processo de desenvolvimento de software, analise os itens a seguir\nI. Analisar a saúde do processo de desenvolvimento considerando que altas dispersões representam algum tipo de gargalo ou aumento no tempo de passagem em alguma das etapas do fluxo de desenvolvimento, por exemplo, nas últimas semanas, o lead time das histórias de desenvolvimento cresceram, pois o ambiente de homologação estava com problemas e os testes eram mais complexos.\nII. Identificar casos extremos (outliers) e aprender com o ocorrido, por exemplo, se um bug levou muito mais tempo do que o normal para ser corrigido em decorrência da ausência de clareza sobre o que era de fato o problema a ser resolvido.\nIII. Para compreender os efeitos que as incertezas e as complexidades não mapeadas podem causar, na forma de variabilidade, no tempo necessário para a conclusão dos trabalhos de um time de desenvolvimento de software.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, II e III.",
+            "II e III, apenas.",
+            "I e III, apenas.",
+            "I e II, apenas.",
+            "III, apenas."
+        ],
+        "gabarito": "I, II e III."
+    },
+    {
+        "id": 12,
+        "enunciado": "Em relação às metodologias de desenvolvimento de software Scrum e Kanban, à arquitetura de software e à notação BPMN, julgue o item a seguir.\nUm dos princípios fundamentais do método Kanban é limitar o trabalho em progresso (WIP) para melhorar o fluxo de trabalho.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 13,
+        "enunciado": "Com relação a práticas ágeis e ao sistema de gestão Kanban, julgue o item subsequente.\nA limitação do WIP (work in progress) é uma prática fundamental no Kanban para apoiar a implementação do sistema puxado, no qual um novo item só é iniciado quando há capacidade disponível na equipe.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 14,
+        "enunciado": "Com relação a práticas ágeis e ao sistema de gestão Kanban, julgue o item subsequente.\nA daily scrum baseada em fluxo altera o foco tradicional da reunião, o qual passa a ser as pessoas e a resolução de impedimentos dos itens de trabalho no quadro Kanban.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 15,
+        "enunciado": "Um dos principais objetivos de uma equipe que utiliza o Kanban como abordagem ágil de desenvolvimento é otimizar o fluxo de trabalho e reduzir gargalos no processo. Nesse caso, para atingir essa meta, a equipe poderá utilizar como estratégia",
+        "alternativas": [
+            "a revisão periódica de código como método principal de otimização do fluxo de desenvolvimento.",
+            "a organização das tarefas de acordo com uma hierarquia fixa, em que cada atividade precisa seguir um fluxo predefinido sem desvios.",
+            "a limitação do trabalho em progresso (WIP), para evitar sobrecarga e garantir que as tarefas fluam de forma eficiente.",
+            "a definição rígida de requisitos antes do início do projeto, de forma a minimizar alterações ao longo do desenvolvimento.",
+            "a adoção de sprints com duração fixa, que permite entregas incrementais e constantes ao final de cada ciclo."
+        ],
+        "gabarito": "a limitação do trabalho em progresso (WIP), para evitar sobrecarga e garantir que as tarefas fluam de forma eficiente."
+    },
+    {
+        "id": 16,
+        "enunciado": "A equipe de analistas de tecnologia da informação de uma empresa está enfrentando dificuldades com atrasos nas entregas e falta de visibilidade do fluxo de trabalho. O gerente sugere a adoção de uma metodologia ágil para melhorar a produtividade da equipe. Considerando as características do Scrum, Kanban e Lean, qual é a melhor abordagem para esse cenário?",
+        "alternativas": [
+            "Implementar o Kanban, pois ele permite visualizar o fluxo de trabalho em um quadro e limitar o trabalho em progresso, reduzindo gargalos e melhorando a previsibilidade das entregas.",
+            "Adotar o Scrum, pois ele foca a redução do desperdício e a otimização contínua do fluxo de trabalho, eliminando tarefas que não agregam valor ao cliente.",
+            "Utilizar Lean exclusivamente, pois essa abordagem determina Sprints fixos, reuniões diárias e um Product Owner para garantir que as entregas sejam feitas no prazo.",
+            "Aplicar o Scrum, pois ele permite um fluxo de trabalho flexível e contínuo, sem a necessidade de definir ciclos fixos ou eventos estruturados.",
+            "Aplicar apenas o Lean, pois ele define um conjunto de papéis e eventos fixos que garantem que o trabalho seja executado de maneira incremental e iterativa."
+        ],
+        "gabarito": "Implementar o Kanban, pois ele permite visualizar o fluxo de trabalho em um quadro e limitar o trabalho em progresso, reduzindo gargalos e melhorando a previsibilidade das entregas."
+    },
+    {
+        "id": 17,
+        "enunciado": "O método Kanban define três princípios de gestão de mudanças e três princípios de entrega de serviços, sendo correto afirmar que um dos princípios da",
+        "alternativas": [
+            "entrega de serviços é “concordar em procurar melhorias por meio de mudanças evolutivas”.",
+            "entrega de serviços é “encorajar atos de liderança em todos os níveis”.",
+            "gestão de mudanças é “comece com o que você faz agora”.",
+            "gestão de mudanças é “desenvolver políticas para melhorar os resultados”.",
+            "gestão de mudanças é “compreender e focar nas necessidades e expectativas dos clientes”."
+        ],
+        "gabarito": "gestão de mudanças é “comece com o que você faz agora”."
+    },
+    {
+        "id": 18,
+        "enunciado": "Diversas empresas têm adotado o Kanban como ferramenta de aumento do fluxo e da produtividade no desenvolvimento de software.\nConsiderando que esta tecnologia requer a adesão a algumas práticas fundamentais, avalie se as afirmativas a seguir são verdadeiras (V) ou falsas (F).\n( ) Os quadros Kanban incorporam o princípio da visualização do trabalho que se baseia na exibição de cartões que correspondem a itens da lista de pendências do produto.\n( ) Empregando o modelo de Pull a equipe puxa para seu fluxo de trabalho as pendências da lista conforme a sua capacidade se torna disponível.\n( ) A imposição de limite para o número de tarefas que um time possui atualmente corresponde ao WIP (Work In Progress), e traz o benefício de aumentar o foco e, ao mesmo tempo, reduzir a mudança de contexto.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "F – V – F.",
+            "V – F – F.",
+            "F – F – V.",
+            "V – V – F.",
+            "V – V – V."
+        ],
+        "gabarito": "V – V – V."
+    },
+    {
+        "id": 19,
+        "enunciado": "Julgue o item subsequente, relativo a Kanban e Scrum.\nA figura a seguir descreve um Kanban de forma visual, mostrando a produtividade da equipe esforço (eixo-y) até oúltimo dia da sprint (eixo-x), ou seja, esse Kanban liga os dias da sprint com o trabalho restante.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 20,
+        "enunciado": "Com relação ao Kanban, avalie se as afirmativas a seguir são verdadeiras (V) ou falsas (F).\n( ) Kanban é um método para definir, gerenciar e melhorar serviços que entregam trabalhos de conhecimento, tais como serviços profissionais, atividades criativas e design de softwares.\n( ) O sistema Kanban utiliza um sistema de fluxo de entregas que limita a quantidade de trabalho em progresso (WiP) usando sinais visuais.\n( ) Os quatro planos de uma agenda Kanban são: sustentabilidade, orientação ao serviço, colaboração e sobrevivência.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "V – F – V.",
+            "F – V – V.",
+            "V – F – F.",
+            "F – F – V.",
+            "V – V – F."
+        ],
+        "gabarito": "V – V – F."
+    },
+    {
+        "id": 21,
+        "enunciado": "Existem seis princípios fundamentais no Kanban, reunidos em dois grupos de princípios conhecidos por",
+        "alternativas": [
+            "gestão do tempo e entrega de tangíveis.",
+            "gestão de mudança e entrega de serviços.",
+            "gestão de conteúdos e entrega de produtos.",
+            "gestão da qualidade total e entrega de bens.",
+            "gestão dos processos e entrega de resultados."
+        ],
+        "gabarito": "gestão de mudança e entrega de serviços."
+    },
+    {
+        "id": 22,
+        "enunciado": "O método Kanban estabelece dois grupos de princípios, cada um abrangendo três princípios embutidos.\nOs dois grupos citados denominam-se Princípios de",
+        "alternativas": [
+            "Gestão de Agilização de Serviços e de Gestão de Manutenção.",
+            "Avaliação de Custos e de Entrega de Serviços.",
+            "Ampliação de Escopo e de Gestão de Mudanças.",
+            "Gestão de Mudanças e de Entrega de Serviços.",
+            "Formação de Equipe e de Gestão de Manutenção."
+        ],
+        "gabarito": "Gestão de Mudanças e de Entrega de Serviços."
+    },
+    {
+        "id": 23,
+        "enunciado": "As metodologias ágeis são abordagens de desenvolvimento de software que priorizam a entrega contínua de valor ao cliente, a colaboração entre os membros da equipe e a capacidade de resposta a mudanças nos requisitos. Elas se baseiam em princípios e valores estabelecidos no Manifesto Ágil e são amplamente adotadas na indústria de tecnologia. Considere uma metodologia que enfatiza a visualização do trabalho, a limitação do trabalho em progresso ou Work In Progress (WIP) e a melhoria contínua do processo. Ele utiliza um quadro, no qual as tarefas são representadas em cartões e movidas pelas diferentes etapas do fluxo de trabalho (\"a fazer\", \"em progresso\" e \"concluído\"). Essa metodologia é conhecida como?",
+        "alternativas": [
+            "Scrum.",
+            "Lean.",
+            "Kanban.",
+            "XP.",
+            "Crystal."
+        ],
+        "gabarito": "Kanban."
+    },
+    {
+        "id": 24,
+        "enunciado": "Pedro trabalha em uma empresa onde o desenvolvimento dos processos é acompanhado de forma gráfica, por meio de cartões coloridos, que indicam o nível de urgência ou completude de cada tarefa.\nA empresa de Pedro utiliza a metodologia:",
+        "alternativas": [
+            "Extreme Programming;",
+            "Rational Unified Process;",
+            "Scrum;",
+            "Cascade Development;",
+            "Kanban."
+        ],
+        "gabarito": "Kanban."
+    },
+    {
+        "id": 25,
+        "enunciado": "Em relação ao gerenciamento de projetos com base na metodologia ágil Kanban, julgue o item seguinte.\nO Kanban busca impactos positivos em grande escala, com foco na melhoria contínua e na busca por grandes mudanças consideradas ousadas em grandes projetos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 26,
+        "enunciado": "Em relação ao gerenciamento de projetos com base na metodologia ágil Kanban, julgue o item seguinte.\nAs tarefas em andamento devem ser concluídas antes de se iniciarem novas tarefas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 27,
+        "enunciado": "O Time de Soluções Inovadoras (TISI) de uma organização está utilizando práticas do Kanban no processo de desenvolvimento de soluções de software.\nCom o uso do Kanban, o TISI visa a:",
+        "alternativas": [
+            "manter um workflow padrão para o processo de inovação;",
+            "gerenciar e melhorar o desempenho dos indivíduos do time;",
+            "estabelecer uma metodologia de desenvolvimento de soluções de software de modo iterativo;",
+            "aplicar um processo para definição de incrementos para desenvolvimento de soluções de software;",
+            "utilizar uma abordagem de mudança evolutiva, baseada em feedbacks, para o processo de desenvolvimento de soluções de software."
+        ],
+        "gabarito": "utilizar uma abordagem de mudança evolutiva, baseada em feedbacks, para o processo de desenvolvimento de soluções de software."
+    },
+    {
+        "id": 28,
+        "enunciado": "O Departamento de Capacitação (DECAP) é responsável pela gestão do aprimoramento profissional dos colaboradores de uma determinada organização. O DECAP, que planeja, coordena e executa treinamentos, está aplicando Kanban como método de gerenciamento de seu processo de trabalho.\nO DECAP estabeleceu um Work in Progress Limit (WIP Limit) na gestão de seu processo de negócio visando a:",
+        "alternativas": [
+            "associá-lo a práticas ágeis de entrega contínua;",
+            "planejar e iniciar mais treinamentos em menos tempo;",
+            "criar um equilíbrio entre demanda e capacidade ao longo do tempo;",
+            "identificar os treinamentos que ultrapassam o limite estabelecido;",
+            "definir o período máximo de tempo que uma etapa do processo deve durar."
+        ],
+        "gabarito": "criar um equilíbrio entre demanda e capacidade ao longo do tempo;"
+    },
+    {
+        "id": 29,
+        "enunciado": "Uma empresa de desenvolvimento de software adotou uma metodologia ágil que trabalha com uso de cartões, ou post-its, associados a três tipos de murais: tarefas que devem ser feitas, tarefas sendo executadas e tarefas concluídas. Nessa metodologia, para cada situação da tarefa do software a ser desenvolvido, os cartões ou os post-its mudam de posição nos murais. Para esse caso, essa metodologia ágil é identificada como",
+        "alternativas": [
+            "Controle em Cascata.",
+            "Kanban de Movimentação.",
+            "Kanban de Produção.",
+            "Método Lean.",
+            "Rational Process."
+        ],
+        "gabarito": "Kanban de Produção."
+    },
+    {
+        "id": 30,
+        "enunciado": "Você é um analista de tecnologia da informação do Ministério Público do Estado do Paraná e está implementando um sistema de gerenciamento de fluxo de trabalho utilizando Kanban. Sua equipe está enfrentando dificuldades para gerenciar as tarefas e melhorar a eficiência. Com base nos princípios e práticas do Kanban, o que você e sua equipe podem fazer para resolver esse problema?",
+        "alternativas": [
+            "Aumentar o número de tarefas permitidas em cada coluna para acelerar a conclusão das atividades.",
+            "Estabelecer limites explícitos para o trabalho em progresso (Work In Progress – WIP) em cada coluna para identificar gargalos no fluxo de trabalho.",
+            "Priorizar todas as tarefas igualmente para garantir que cada membro da equipe tenha sempre algo a fazer.",
+            "Utilizar apenas reuniões diárias para revisar o andamento das tarefas e resolver problemas.",
+            "Focar tarefas individuais sem considerar o impacto no fluxo geral de trabalho para maximizar a eficiência individual."
+        ],
+        "gabarito": "Estabelecer limites explícitos para o trabalho em progresso (Work In Progress – WIP) em cada coluna para identificar gargalos no fluxo de trabalho."
+    },
+    {
+        "id": 31,
+        "enunciado": "As metodologias ágeis fornecem uma estrutura flexível e iterativa para o desenvolvimento de software, cada uma com práticas e objetivos específicos. Enquanto Scrum enfatiza a organização em sprints e reuniões regulares, XP foca em práticas técnicas rigorosas, Kanban no controle visual do fluxo de trabalho, e TDD no desenvolvimento orientado a testes.\nQual das alternativas abaixo descreve corretamente uma característica do Kanban em relação ao Scrum?",
+        "alternativas": [
+            "No Kanban, o trabalho é organizado em incrementos fixos, que são chamados de releases.",
+            "A principal diferença entre Kanban e Scrum é que o Kanban não permite revisões e melhorias contínuas do processo.",
+            "Kanban limita explicitamente a quantidade de trabalho em progresso (WIP) em cada etapa, visando otimizar o fluxo e reduzir gargalos.",
+            "Kanban é estruturado em sprints, e cada sprint possui um backlog previamente definido, semelhante ao Scrum.",
+            "Kanban e Scrum compartilham a mesma estrutura de papéis, incluindo Scrum Master e Product Owner."
+        ],
+        "gabarito": "Kanban limita explicitamente a quantidade de trabalho em progresso (WIP) em cada etapa, visando otimizar o fluxo e reduzir gargalos."
+    },
+    {
+        "id": 32,
+        "enunciado": "A respeito de Kanban e Scrum, julgue os itens a seguir.\nUm dos princípios do Kanban é limitar o trabalho em progresso para evitar sobrecargas de tarefas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 33,
+        "enunciado": "No método Kanban, uma das práticas centrais ajuda a identificar gargalos e promover a eficiência ao limitar a quantidade de trabalho em progresso. O texto acima se refere à seguinte prática do Kanban:",
+        "alternativas": [
+            "dividir o trabalho em iterações fixas.",
+            "estabelecer metas rígidas de entrega.",
+            "realizar reuniões diárias de acompanhamento.",
+            "aumentar o número de colunas no quadro Kanban.",
+            "limitar o WIP (Work in Progress)."
+        ],
+        "gabarito": "limitar o WIP (Work in Progress)."
+    },
+    {
+        "id": 34,
+        "enunciado": "Na metodologia Kanban, uma técnica de melhoria de processo incremental e evolutiva, o trabalho das equipes gira em torno de um quadro Kanban – uma ferramenta empregada para visualizar o trabalho e otimizar o fluxo do trabalho. Assinale, a seguir, os nomes de colunas de um quadro Kanban.",
+        "alternativas": [
+            "A fazer; fazendo; e, feito.",
+            "Planejado; implementado; e, testado.",
+            "Em execução; finalizado; e, verificado.",
+            "Analisando; coletando requisitos; e, codificando."
+        ],
+        "gabarito": "A fazer; fazendo; e, feito."
+    },
+    {
+        "id": 35,
+        "enunciado": "Kanban foi criado pela Toyota na década de 60 para abastecimento e controle de estoque. Por sua eficiência, ele foi adaptado pela Kanban Univesity para o desenvolvimento de software, sendo um método usado para definir, gerenciar e melhorar serviços que entregam trabalho de conhecimento, tais como serviços profissionais, atividades criativas e design de produtos físicos e de software. Kanban é considerado um catalisador de mudanças rápidas e focadas nas organizações reduzindo a resistência a mudanças.\n(ANDERSON, D. J.; CARMICHAEL, A.. Kanban Essencial Condensado: princípios e práticas. LeanKanban University Press, 2016.) Sobre Kanban e Scrum, marque V para as afirmativas verdadeiras e F para as falsas.\n( ) WIP se refere aos itens de trabalho que o time iniciou e que ainda não terminou, uma prática para reduzir excesso de trabalhos paralelos.\n( ) O plano de sustentabilidade tem como objetivo construir serviços que não estão sobrecarregados com trabalho, mas que equilibram a demanda com a capacidade, melhorando, assim, o desempenho dos serviços com relação à satisfação do cliente; engajamento de pessoal e colaboração; e, custo.\n( ) Kanban é uma forma simples de visualizar a organização de tarefas da equipe no decorrer de uma sprint de Scrum. Nessa técnica, as tarefas são representadas por meio de post-its que indicam o que está por fazer, em andamento e finalizado. Assim, toda a equipe tem uma visão dos gargalos podendo se organizar melhor, principalmente quando o projeto envolve ciclos maiores de desenvolvimentos.\n( ) Scrum é mais adequado que Kanban para situações em que se deve controlar o atendimento de demandas contínuas. Para isso, ele adota algumas métricas como velocidade e vazão.\nA sequência está correta em",
+        "alternativas": [
+            "V, F, F, V.",
+            "V, V, V, F.",
+            "F, V, F, V.",
+            "F, F, V, F."
+        ],
+        "gabarito": "V, V, V, F."
+    },
+    {
+        "id": 36,
+        "enunciado": "Quando da utilização de quadros Kanban, é possível visualizar a quantidade de trabalhos em andamento em determinado momento, que é conhecido pelo acrônimo",
+        "alternativas": [
+            "CMM.",
+            "XP.",
+            "UML.",
+            "WIP.",
+            "CBSE."
+        ],
+        "gabarito": "WIP."
+    },
+    {
+        "id": 37,
+        "enunciado": "O quadro que apresenta a movimentação em fluxo dos itens de trabalho, representados por fichas, que atravessam as colunas desse quadro, da esquerda para direita, em um movimento linear, indo da primeira para a última coluna, é denominado:",
+        "alternativas": [
+            "UML.",
+            "URL.",
+            "Scrum.",
+            "Quadro de processos.",
+            "Kanban."
+        ],
+        "gabarito": "Kanban."
+    },
+    {
+        "id": 38,
+        "enunciado": "Você está gerenciando um projeto de desenvolvimento de software e decide utilizar o método Kanban para melhorar a eficiência e a comunicação da equipe. Depois de implementar o Kanban, você percebe que a equipe está entregando funcionalidades com maior rapidez e qualidade. Assinale a alternativa que apresenta o motivo pelo qual o método Kanban teve esse impacto positivo.",
+        "alternativas": [
+            "Kanban limita a quantidade de trabalho em andamento, permitindo que a equipe se concentre em tarefas específicas e reduza o tempo de espera.",
+            "Kanban incentiva a adoção de práticas de desenvolvimento orientado a testes, aumentando a qualidade do software produzido.",
+            "Kanban introduz uma abordagem com base em sprints, permitindo que a equipe entregue funcionalidades de forma iterativa e incremental.",
+            "Kanban promove a comunicação síncrona entre os membros da equipe, eliminando a necessidade de reuniões e documentação.",
+            "Kanban elimina a necessidade de estimativas de tempo e esforço, permitindo que a equipe se concentre apenas na execução das tarefas."
+        ],
+        "gabarito": "Kanban limita a quantidade de trabalho em andamento, permitindo que a equipe se concentre em tarefas específicas e reduza o tempo de espera."
+    },
+    {
+        "id": 39,
+        "enunciado": "Julgue o seguinte item, a respeito dos métodos e das práticas ágeis para desenvolvimento de software.\nTo do, doing e done são três estágios básicos do método Kanbam usados para caracterizar o andamento das atividades de um projeto de desenvolvimento de software.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 40,
+        "enunciado": "Julgue o item a seguir, que tratam de testes ágeis, metodologias ágeis de desenvolvimento e reuso de software e metodologia de pontos de função.\nNa aplicação do Kanban, é necessário que se estabeleça limites de trabalhos em andamento.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 41,
+        "enunciado": "Julgue o próximo item, relativo ao Kanban.\nEm linhas gerais, o Kanban permite gerenciar os passos no desenvolvimento de um produto por meio do método de controle visual, em que é possível visualizar o trabalho em progresso.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 42,
+        "enunciado": "Scrum e Kanban são metodologias ágeis amplamente utilizadas no desenvolvimento de software. Scrum pode ser visto como um arcabouço que enfatiza a colaboração, a comunicação e a entrega incremental de valor, enquanto Kanban é um sistema visual de gerenciamento do fluxo de trabalho. Assinale a alternativa que apresenta, corretamente, outra diferença entre as metodologias Scrum e Kanban.",
+        "alternativas": [
+            "Scrum utiliza um fluxo iterativo, enquanto Kanban é baseado em fluxo contínuo.",
+            "Scrum utiliza sprints de curta duração, enquanto Kanban utiliza sprints de longa duração.",
+            "Apesar de, tanto no Scrum quanto no Kanban, ser necessário ter bem definido o papel do “dono do produto”, no Kanban não há o papel do “líder de equipe”.",
+            "Kanban é mais adequado a projetos com requisitos bem definidos, enquanto o Scrum é mais adequado a projetos com requisitos em constante mudança.",
+            "Scrum enfatiza a colaboração da equipe de desenvolvimento, enquanto Kanban valoriza a pessoa do líder, deixando a comunicação da equipe em segundo plano."
+        ],
+        "gabarito": "Scrum utiliza um fluxo iterativo, enquanto Kanban é baseado em fluxo contínuo."
+    },
+    {
+        "id": 43,
+        "enunciado": "Considere que os Analistas do Tribunal de Justiça utilizam o método Kanban e dividiram o quadro nas seguintes colunas, nesta ordem:\nBacklog Em Análise Fazendo Em Teste (subdi vidi do em Aguardando e Testando) Finalizado Os Analistas decidiram utilizar uma métrica para verificar quanto tempo se gasta para que um item do Backlog que atingiu o Ponto de Compromisso chegue até a coluna Finalizado. O Ponto de Compromisso é a coluna Em Analise e a política de medição é - Unidade de medida: dia útil (OU);\n- Data inicial: data de início de Em Análise;\n- Data final: data de Finalizado;\n- Tempo mínimo medido: um dia útil (1 OU), horas nem frações são consideradas;\n- Indicadores: os seguintes ciclos de tempo são considerados:\n- Desenvolvimento: começa na data inicial de Em Análise e termina na data inicial de Em Teste/ Aguar dando;\n- Teste: começa na data inicial de Em Teste/ Aguardando e termina na data final de Em Teste/ Testando.\nCom base nessas informações, a métrica utilizada pelos Analistas é denominada",
+        "alternativas": [
+            "Cycle Time.",
+            "Compromise Point Time (CPT).",
+            "Lead Time.",
+            "Throughput.",
+            "Work-in-Progress (WIP)."
+        ],
+        "gabarito": "Lead Time."
+    },
+    {
+        "id": 44,
+        "enunciado": "David J. Anderson em 2010, adaptou um modelo para desenvolvimento de software, que combina o lean mindset com a teoria das restrições, transformando-o em uma abordagem enxuta para o desenvolvimento ágil de software. Este método é conhecido por:",
+        "alternativas": [
+            "Scrum.",
+            "Kanban.",
+            "Lean.",
+            "FDD.",
+            "XP."
+        ],
+        "gabarito": "Kanban."
+    },
+    {
+        "id": 45,
+        "enunciado": "Assinale a alternativa que apresenta uma metodologia ágil de desenvolvimento de software.",
+        "alternativas": [
+            "Kanban.",
+            "RAD.",
+            "Incremental.",
+            "Espiral.",
+            "Prototipação."
+        ],
+        "gabarito": "Kanban."
+    },
+    {
+        "id": 46,
+        "enunciado": "Analise as afirmativas abaixo com relação à metodologia ágil Kanban.\n1. Não apresenta papéis e responsabilidades bem definidas entre os membros do time de desenvolvimento.\n2. Privilegia a visualização do processo em um ou mais quadros.\n3. Trabalha fortemente voltada à iteração, com tantos ciclos quanto forem necessários.\nAssinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "É correta apenas a afirmativa 2.",
+            "São corretas apenas as afirmativas 1 e 2.",
+            "São corretas apenas as afirmativas 1 e 3.",
+            "São corretas apenas as afirmativas 2 e 3.",
+            "São corretas as afirmativas 1, 2 e 3."
+        ],
+        "gabarito": "São corretas apenas as afirmativas 1 e 2."
+    },
+    {
+        "id": 47,
+        "enunciado": "A respeito de escopo em projetos ágeis, Scrum e Kanban, julgue o próximo item.\nOs gargalos podem surgir em uma ou mais etapas do fluxo, por isso, uma das práticas do Kanban é o constante gerenciamento do fluxo.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 48,
+        "enunciado": "A respeito de escopo em projetos ágeis, Scrum e Kanban, julgue o próximo item.\nKanban é uma metodologia ágil para desenvolvimento de software.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 49,
+        "enunciado": "A Equipe de Gestão de Dados (EGD) de um órgão público optou por aplicar práticas ágeis em seus projetos.\nUma das propostas da EGD é utilizar o sistema de gestão Kanban para observar de forma contínua o fluxo do trabalho, de modo a:",
+        "alternativas": [
+            "fixar a duração de um ciclo de entrega;",
+            "identificar possíveis obstáculos entre as tarefas;",
+            "eliminar os Epics com User Stories complexas do Backlog;",
+            "garantir que o quadro Kanban apresente os Backlogs dos projetos em andamento;",
+            "permitir que os membros da equipe executem mais de uma tarefa por vez (WIP - work in progress)."
+        ],
+        "gabarito": "identificar possíveis obstáculos entre as tarefas;"
+    },
+    {
+        "id": 50,
+        "enunciado": "Indica o número de itens de trabalho em progresso em determinado momento temporal. Por meio do Kanban, é possível descobrir que sistemas eficazes se concentram mais no fluxo de trabalho e menos na utilização dos trabalhadores. Assinale a alternativa que apresenta esse item.",
+        "alternativas": [
+            "Gerenciamento de fluxo de trabalho.",
+            "Limite de trabalho em paralelo.",
+            "Princípios da entrega de serviços.",
+            "Ciclos de feedback.",
+            "Limite de trabalho em progresso."
+        ],
+        "gabarito": "Limite de trabalho em progresso."
+    },
+    {
+        "id": 51,
+        "enunciado": "Considerando a metodologia Lean e o método Kanban, julgue o seguinte item.\nO Kanban é um método de gestão de mudanças que dá ênfase à visualização do trabalho em andamento.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 52,
+        "enunciado": "Considerando a metodologia Lean e o método Kanban, julgue o seguinte item.\nO WIP descreve o total de trabalho que está em progresso no Kanban, podendo incluir todos os itens ou apenas aqueles selecionados para implementação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 53,
+        "enunciado": "Considerando a metodologia Lean e o método Kanban, julgue o seguinte item.\nO Kanban, devido à adoção dos princípios Lean, é um método ideal para utilização em projetos que adotam o Scrum; por outro lado, não se aplica a projetos tradicionais do tipo cascata.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 54,
+        "enunciado": "Considerando a metodologia Lean e o método Kanban, julgue o seguinte item.\nAs equipes que utilizam o método Kanban não utilizam timeboxes, embora a maioria das equipes pratique uma cadência fixa de planejamento, revisão e entregas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 55,
+        "enunciado": "Em relação às metodologias ágeis de desenvolvimento, julgue o item que se segue.\nO método Kanban pode ser utilizado em substituição à metodologia Scrum, mas também ambos podem ser combinados para o alcance de resultados mais eficazes.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 56,
+        "enunciado": "Acerca dos conceitos de engenharia de softwares, métodos ágeis, teste de software e estimativas, julgue o item subsequente.\nDiferentemente do Scrum, o Kanban não prescreve interações com metas pré-definidas e de mesmo tamanho para a execução de atividades, como, por exemplo, as de planejamento, de desenvolvimento e de liberação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 57,
+        "enunciado": "Máximo trabalha como pesquisador implementador de software na empresa Sansungui e recebe a demanda de ser líder técnico de um novo projeto de pesquisa para demonstrar vulnerabilidades de software publicadas em uma revista científica. Máximo decide trabalhar com uma metodologia ágil flexível a resultados inesperados (até porque o projeto é de pesquisa), baseado em quadros com uso de cartões atribuídos a tarefas que ficam classificadas em colunas de acordo com o status correspondente e limitação do trabalho em andamento. Selecione a alternativa que mostra a metodologia ágil que Máximo está usando no projeto.",
+        "alternativas": [
+            "Scrum.",
+            "Espiral.",
+            "Kanban.",
+            "Iterativo e incremental.",
+            "Extreme Programming."
+        ],
+        "gabarito": "Kanban."
+    },
+    {
+        "id": 58,
+        "enunciado": "Sobre a metodologia Kanban, assinale a alternativa correta.",
+        "alternativas": [
+            "Kanban não requer que as políticas do processo sejam explicitamente definidas.",
+            "Paredes de cartão comuns no desenvolvimento ágil de software são sistemas kanban.",
+            "No trabalho de TI geralmente se usa um sistema de kanban virtual já que nenhum cartão físico de fato circula para definir o limite de trabalho-em-progresso.",
+            "A quantidade de cartões de sinalização “kanban” em circulação não limita o trabalho-em-progresso."
+        ],
+        "gabarito": "No trabalho de TI geralmente se usa um sistema de kanban virtual já que nenhum cartão físico de fato circula para definir o limite de trabalho-em-progresso."
+    },
+    {
+        "id": 59,
+        "enunciado": "Na Assembleia Legislativa do Rio Grande do Norte, o analista legislativo iniciou um projeto de software e instituiu, para desenvolvimento desse projeto, a utilização do Kanban. Considerando o cenário, uma ferramenta simples e intuitiva que pode ser utilizada na implementação do kanban é o",
+        "alternativas": [
+            "Canvane.",
+            "Escopo.",
+            "MFA.",
+            "Trello.",
+            "Netscape."
+        ],
+        "gabarito": "Trello."
+    },
+    {
+        "id": 60,
+        "enunciado": "Para acelerar os resultados e as entregas do desenvolvimento de um sistema, optou-se pelo uso de metodologias ágeis e pelo emprego de um quadro Kanban (lista de atividades para fazer, fazendo e prontas). Para a modelagem visual do sistema, optou-se pela linguagem de modelagemunificada (UML 2.como apoio à análise e ao projeto orientado a objetos. O gerente do projeto deseja adotar o padrão de arquitetura modelo-visão-controle (MVC), buscando um baixo acoplamento entre os componentes da aplicação.\nConsiderando desenvolvimento do sistema descrito nessa situação hipotética bem como os conceitos de engenharia de software, julgue o item que se segue.\nPara medir o tempo de condução (lead time) de uma das Sprints do sistema, deve ser selecionada no quadro Kanban uma Sprint da situação Fazendo.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 61,
+        "enunciado": "Considere que um projeto da SANASA esteja em andamento e a equipe esteja utilizando o método Kanban. Em um certo momento do projeto, o quadro Kanban está como o apresentado abaixo.\nDe acordo com o quadro,",
+        "alternativas": [
+            "Implantar é um buffer da coluna Teste.",
+            "existe uma priorização de itens nas colunas. Os defeitos ficam acima, pois encadeiam uma maior prioridade. A priorização faz com que a equipe saiba em que trabalhar primeiro, agregando mais valor ao processo.",
+            "a 7a tarefa que entrará na coluna Fazer deverá receber mais 2 recursos.",
+            "as 3 tarefas da coluna Fazer chegarão ao mesmo tempo na coluna Teste.",
+            "a inexistência de linhas horizontais ou raias, cortando as colunas, é uma exigência do Kanban, pois isso atrapalharia o controle da demanda, já que o fluxo deve ser único."
+        ],
+        "gabarito": "existe uma priorização de itens nas colunas. Os defeitos ficam acima, pois encadeiam uma maior prioridade. A priorização faz com que a equipe saiba em que trabalhar primeiro, agregando mais valor ao processo."
+    },
+    {
+        "id": 62,
+        "enunciado": "A equipe de desenvolvimento de software do IBGE resolveu utilizar o Kanban para organizar as suas demandas.\nSabendo disso, assinale a alternativa correta a respeito do Kanban.",
+        "alternativas": [
+            "Tem as suas raízes no desenvolvimento de software baseado na metodologia ágil.",
+            "Clientes, parceiros e gerentes facilitam para melhorar as ferramentas e a automação da equipe de denvolvimento de software.",
+            "Foi concebido para realizar mudanças suaves e entrega continuada de valores a clientes.",
+            "Os backlogs colocados no Kanban não são complexos, o que evita que o analista de sistemas necessite de tempo extra para especificá-lo.",
+            "Um dos problemas enfrentados com o uso do Kanban é que ele impede o controle tanto do fluxo quanto da qualidade do trabalho executado."
+        ],
+        "gabarito": "Foi concebido para realizar mudanças suaves e entrega continuada de valores a clientes."
+    }
+]

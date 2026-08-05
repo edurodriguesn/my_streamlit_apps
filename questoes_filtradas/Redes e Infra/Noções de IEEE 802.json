@@ -1,0 +1,2213 @@
+[
+    {
+        "id": 1,
+        "enunciado": "O Instituto de Engenheiros Eletricistas e Eletrônicos (IEEE) é uma organização profissional que define diversos protocolos utilizados na área de tecnologia. Qual o padrão da IEEE tipicamente utilizado para redes de computadores?",
+        "alternativas": [
+            "IEEE 1800.",
+            "IEEE 754.",
+            "IEEE 802.",
+            "IEEE P1363."
+        ],
+        "gabarito": "IEEE 802."
+    },
+    {
+        "id": 2,
+        "enunciado": "A RFC 7494 especifica padrões que descrevem tecnologias de enlaces físicos sem fio. Escolha a alternativa abaixo que é descrita nesse documento.",
+        "alternativas": [
+            "IEEE 802.1.",
+            "IEEE 802.3.",
+            "IEEE 802.1 e lEEE802.11.",
+            "IEEE 802.2.",
+            "IEEE 802.11."
+        ],
+        "gabarito": "IEEE 802.11."
+    },
+    {
+        "id": 3,
+        "enunciado": "As redes IEEE 802.5 são um exemplo de qual topologia lógica de redes de computadores?",
+        "alternativas": [
+            "Anel.",
+            "Árvore.",
+            "Barramento.",
+            "Estrela."
+        ],
+        "gabarito": "Anel."
+    },
+    {
+        "id": 4,
+        "enunciado": "O Modelo de Referência OSI (Open Systems Interconnection) foi criado pela ______ em _____ para manter uma maior interoperabilidade e compatibilidade entre as diversas tecnologias de rede existentes.\nA alternativa que completa as lacunas, respectivamente, são:",
+        "alternativas": [
+            "IEEE, 1991.",
+            "ISO, 2002.",
+            "ANR, 1992.",
+            "IEEE, 1998.",
+            "ISO, 1984."
+        ],
+        "gabarito": "ISO, 1984."
+    },
+    {
+        "id": 5,
+        "enunciado": "O modelo de referência que define as camadas de um sistema de comunicação em redes é o modelo:",
+        "alternativas": [
+            "CSMA/CD.",
+            "Ethernet.",
+            "IEEE 802.11.",
+            "OSI/ISO.",
+            "TCP/IP."
+        ],
+        "gabarito": "OSI/ISO."
+    },
+    {
+        "id": 6,
+        "enunciado": "A camada de enlace IEEE Ethernet assegura que os dados sejam transmitidos ao equipamento apropriado e faz a ponte entre a camada de rede e a camada física.\nEssa camada possui as subcamadas:",
+        "alternativas": [
+            "Logical Link Control − LLC e Media Access Control − MAC.",
+            "Integrated Service Digital − ISD e Digital Subscriber Line − DSL.",
+            "Network Address Translation − NAT e Logical Link Control − LLC.",
+            "Synchronous Optical Control − SOC e Media Access Control − MAC.",
+            "Synchronous Digital Hierarchy − SDH e Fiber Distributed Data Interface − FDDI."
+        ],
+        "gabarito": "Logical Link Control − LLC e Media Access Control − MAC."
+    },
+    {
+        "id": 7,
+        "enunciado": "Acerca de ataques a roteadores e switches, julgue o item subsequente.\nAtaques aos protocolos IEEE 802.1q e IEEE 802.1x ocorrem na camada 2 do modelo OSI.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 8,
+        "enunciado": "Redes Locais têm características específicas, que motivaram o grupo IEEE 802 a publicar uma arquitetura própria, porém compatível com a arquitetura proposta pelo modelo de referência OSI, na qual uma camada do modelo OSI foi particionada em duas subcamadas.\nA camada do modelo OSI que foi particionada e as duas subcamadas, inferior e superior (nessa ordem), da arquitetura IEEE 802 são, respectivamente,",
+        "alternativas": [
+            "Enlace, LLC e MAC.",
+            "Enlace, MAC e LLC.",
+            "Física, PMD e MDI.",
+            "Física, MAC e LLC.",
+            "MAC, LLC e PMD."
+        ],
+        "gabarito": "Enlace, MAC e LLC."
+    },
+    {
+        "id": 9,
+        "enunciado": "Julgue o item subsequente, relacionado a noções dos modelos de referência OSI, noções dos padrões IEEE 802.1, IEEE 802.3, IEEE 802.11 a/b/g/n/ac e arquitetura e pilhas de protocolo TCP/IP.\nServiços como controle de diálogo, gerenciamento de tokens, sincronização e o protocolo HTTP são ofertados na camada de aplicação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 10,
+        "enunciado": "Nas redes sem fio IEEE 802.11, o desempenho da comunicação é significativamente afetado por fenômenos como atenuação, interferência e degradação do sinal.\nAcerca desse assunto, avalie as sentenças a seguir:\nA atenuação de sinais em redes 802.11 pode ocorrer devido à propagação e obstrução por barreiras físicas, além da perda natural da propagação.\nPORQUE A interferência pode ser atenuada pelo uso de canais sobrepostos e pela presença de outras fontes atuantes na faixa de 2,4 GHz.\nAcerca dessas sentenças, assinale a alternativa CORRETA.",
+        "alternativas": [
+            "As duas sentenças são verdadeiras, e a segunda é uma justificativa correta da primeira.",
+            "As duas sentenças são verdadeiras, mas a segunda não é uma justificativa correta da primeira.",
+            "A primeira sentença é verdadeira, e a segunda é falsa.",
+            "A primeira sentença é falsa, e a segunda é verdadeira."
+        ],
+        "gabarito": "A primeira sentença é verdadeira, e a segunda é falsa."
+    },
+    {
+        "id": 11,
+        "enunciado": "Wi-Fi 6, também conhecido como padrão IEEE 802.11ax, tem como taxa de transferência máxima em vários canais o valor nominal de até",
+        "alternativas": [
+            "2.4 Gbps.",
+            "3.5 Gbps.",
+            "5.0 Gbps.",
+            "9.6 Gbps.",
+            "19.2 Gbps."
+        ],
+        "gabarito": "9.6 Gbps."
+    },
+    {
+        "id": 12,
+        "enunciado": "Sobre a técnica OFDMA (Orthogonal Frequency-Division Multiple Access), é correto afirmar que",
+        "alternativas": [
+            "foi introduzida no protocolo IEEE 802.11ac e aprimora a velocidade quando comparada com a técnica FHSS (Frequency-Hopping Spread Spectrum).",
+            "é a técnica utilizada pelo IEEE 802.11ax, juntamente com o MRU (Multiple Resource Unit).",
+            "permite que um dispositivo utilize as bandas de 2.4 GHz, 5 GHz e 6 GHz simultaneamente para agregar a largura de banda.",
+            "foi aprimorado pelo OFDM (Orthogonal Frequency- -Division Multiplexing), sendo o padrão utilizado pelo 802.11be.",
+            "permite a utilização de subcanais para a transmissão de dados por clientes diferentes, possibilitando uma alocação de espectro mais granular e eficiente."
+        ],
+        "gabarito": "permite a utilização de subcanais para a transmissão de dados por clientes diferentes, possibilitando uma alocação de espectro mais granular e eficiente."
+    },
+    {
+        "id": 13,
+        "enunciado": "Considere o padrão IEEE 802.11, que define especificações para redes locais sem fio (WLAN).\nO método de acesso ao meio empregado nesse padrão é o:",
+        "alternativas": [
+            "CSMA/CD;",
+            "FDMA;",
+            "TDMA;",
+            "CSMA/CA;",
+            "CDMA."
+        ],
+        "gabarito": "CSMA/CA;"
+    },
+    {
+        "id": 14,
+        "enunciado": "Acerca de cabeamento estruturado, fibras ópticas, WLAN e jumbo frames, julgue o item a seguir.\nO padrão IEEE 802.11 (WLAN) possui o protocolo CSMA/CA no nível MAC, que faz a encriptação dos dados entre o cliente e o ponto de acesso.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 15,
+        "enunciado": "Acerca das características fundamentais do protocolo IEEE 802.3, julgue o item a seguir.\nO IEEE 802.3 define o método de acesso à rede local usando o CSMA/CD (carrier-sense multiple access with collision detection).",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 16,
+        "enunciado": "O protocolo básico utilizado na subcamada MAC (Media Access Control) dos padrões IEEE 802.11 para acesso ao meio de transmissão é o",
+        "alternativas": [
+            "CSMA/CA (Carrier Sense Multiple Access With Collision Avoidance).",
+            "WPA (Wi-Fi Protected Access).",
+            "CSMA/CD (Carrier Sense Multiple Access With Collision Detection).",
+            "WEP (Wired Equivalent Privacy).",
+            "TCP/IP (Transmission Control Protocol/Internet Protocol)."
+        ],
+        "gabarito": "CSMA/CA (Carrier Sense Multiple Access With Collision Avoidance)."
+    },
+    {
+        "id": 17,
+        "enunciado": "O padrão IEEE 802.11 para redes locais sem fio estabelece duas subcamadas MAC: a DCF (Distributed Coordination Function) e a PCF (Point Coordination Function).\nOs métodos de acesso ao meio usados, respectivamente, nas duas subcamadas são:",
+        "alternativas": [
+            "CSMA/CD e CSMA/CA.",
+            "CSMA/CA e CSMA/CD.",
+            "Polling (varredura) e CSMA/CD.",
+            "CSMA/CA e CSMA/CA.",
+            "CSMA/CA e Polling (varredura)."
+        ],
+        "gabarito": "CSMA/CA e Polling (varredura)."
+    },
+    {
+        "id": 18,
+        "enunciado": "Os cabos de rede de Categoria 5e/Classe D, em Cabeamento Estruturado, têm como largura de banda 100 MHz e teve seu surgimento a partir de 1994, com a aplicação ATM LAN 155,52 Mb/s e referência de especificação: ATM Fórum af-phy- 0015.000. São referências de especificação dos cabos de Categoria 5e/Classe D, EXCETO:",
+        "alternativas": [
+            "IEEE 1394b.",
+            "IEEE 802.3 af.",
+            "ITU-T Rec. X.21.",
+            "ISO/IEC 14165-115."
+        ],
+        "gabarito": "ITU-T Rec. X.21."
+    },
+    {
+        "id": 19,
+        "enunciado": "O padrão do Internet Protocol version 6 (IPvdefine diferentes tipos de endereçamento para diferentes finalidades. O endereço link-local é um endereço unicast IPv6 que pode ser configurado automaticamente em qualquer interface de rede usando o prefixo de link-local FE80::/10 e o identificador de interface no formato modificado EUI-64 (64-bit Extended Unique Identifier).\nConsiderando-se uma interface de rede que possui o identificador de interface IEEE 48-bit MAC com o valor FC:99:47:40:FF:10, o endereço link-local IPv6 no formato modificado EUI-64 é o",
+        "alternativas": [
+            "FE80::FC99:47FF:FE40:FF10.",
+            "FE80::FE99:47FF:FE40:FF10.",
+            "FE80::40FF:10FF:FEFC:9947.",
+            "FE80::FFFE:FC99:4740:FF10.",
+            "FE80::FFFE:FE99:4740:FF10."
+        ],
+        "gabarito": "FE80::FE99:47FF:FE40:FF10."
+    },
+    {
+        "id": 20,
+        "enunciado": "No que se refere a comutação de circuitos e de pacotes, modelos OSI e TCP/IP, tecnologias de redes locais, fibras ópticas e redes sem fio, julgue o item a seguir.\nO quadro do padrão IEEE 802.11 acomoda até quatro campos para endereços de 6 bytes estruturados à semelhança dos endereços MAC do padrão Ethernet, contudo o quarto campo somente estará presente quando múltiplos access points estiverem em uso em uma rede com infraestrutura estendida.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 21,
+        "enunciado": "Julgue o item subsequente, relacionado a noções dos modelos de referência OSI, noções dos padrões IEEE 802.1, IEEE 802.3, IEEE 802.11 a/b/g/n/ac e arquitetura e pilhas de protocolo TCP/IP.\nAs conexões TCP são do tipo fluxo de mensagens, full-duplex e ponto a ponto, sendo nelas admitidos processos de multicasting ou broadcasting.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 22,
+        "enunciado": "Julgue o item subsequente, relacionado a noções dos modelos de referência OSI, noções dos padrões IEEE 802.1, IEEE 802.3, IEEE 802.11 a/b/g/n/ac e arquitetura e pilhas de protocolo TCP/IP.\nO protocolo de datagrama do usuário (UDP), não orientado a conexão, fornece uma interface para o protocolo IP com recurso adicional de demultiplexação de vários processos que utilizam as portas e detecção opcional de erro fim a fim.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 23,
+        "enunciado": "Em uma rede corporativa que utiliza IEEE 802.3z, um administrador de rede está configurando um servidor DHCP para gerenciar a distribuição de endereços IP.\nNesse contexto, a configuração essencial para garantir que o servidor DHCP funcione corretamente na rede IEEE 802.3z é",
+        "alternativas": [
+            "definir um escopo de endereços IP que não conflite com endereços IP estáticos.",
+            "ajustar o servidor DHCP para operar em modo de alta disponibilidade.",
+            "ativar a autenticação 802.1X para todos os dispositivos.",
+            "ajustar VLANs para segmentar o tráfego de rede.",
+            "implementar QoS (Quality of Service) para priorizar o tráfego DHCP."
+        ],
+        "gabarito": "definir um escopo de endereços IP que não conflite com endereços IP estáticos."
+    },
+    {
+        "id": 24,
+        "enunciado": "O Tribunal de Justiça do Estado de Roraima está modernizando sua infraestrutura de rede para melhorar a segurança e a eficiência na comunicação de dados. A equipe de Tecnologia da Informação está implementando mecanismos de Network Address Translation (NAT) e Port Address Translation (PAT) para otimizar o uso de endereços IP públicos e proteger a rede interna. Além disso, estão avaliando quais protocolos e padrões de segurança sem fio devem ser adotados para garantir a confidencialidade e integridade das informações transmitidas. Entre as opções consideradas estão os protocolos WEP, WPA, WPA2, WPA3 e a implementação do padrão IEEE 802.1X em conjunto com o EAP (Extensible Authentication Protocol).\nConsiderando o cenário apresentado, a equipe de TI precisa entender o funcionamento do PAT na rede e selecionar o protocolo de segurança sem fio mais adequado para proteger as comunicações sem comprometer a eficiência.\nCom base nas informações fornecidas, assinale a opção que interpreta corretamente o papel do PAT na rede e identifica o protocolo de segurança sem fio mais adequado para garantir a confidencialidade e integridade dos dados transmitidos.",
+        "alternativas": [
+            "O PAT permite que cada dispositivo interno tenha um endereço IP público exclusivo; o protocolo WEP deve ser implementado para proteger a rede sem fio.",
+            "O PAT traduz múltiplos endereços IP privados em um único endereço IP público usando números de porta para diferenciar as saídas; o protocolo WPA3 é o mais adequado para proteger a rede sem fio.",
+            "O PAT mapeia cada endereço IP privado para um endereço IP público diferente; o protocolo WPA deve ser utilizado para a segurança da rede sem fio.",
+            "O PAT não é necessário quando o NAT está em uso; o protocolo EAP é suficiente para proteger a rede sem fio.",
+            "O PAT converte endereços IPv4 em IPv6; o padrão IEEE 802.1X deve ser aplicado para garantir a segurança da rede sem fio."
+        ],
+        "gabarito": "O PAT traduz múltiplos endereços IP privados em um único endereço IP público usando números de porta para diferenciar as saídas; o protocolo WPA3 é o mais adequado para proteger a rede sem fio."
+    },
+    {
+        "id": 25,
+        "enunciado": "Para que todos os computadores e roteadores de uma rede interna da topologia se comuniquem corretamente, é necessário configurar rotas entre eles.\nConsiderando a imagem abaixo, assinale a alternativa que indica como implementar esse roteamento corretamente.",
+        "alternativas": [
+            "Configuração de rotas estáticas utilizando exclusivamente BGP.",
+            "Implementação do protocolo IEEE 802.11, baseado em estado de enlace.",
+            "Utilização do protocolo RIP (Routing Information Protocol), baseado em vetor de distância.",
+            "Configuração do protocolo EIGRP, proprietário da Cisco.",
+            "Implementação do protocolo IS-IS, usado em grandes provedores de backbone."
+        ],
+        "gabarito": "Utilização do protocolo RIP (Routing Information Protocol), baseado em vetor de distância."
+    },
+    {
+        "id": 26,
+        "enunciado": "No que se refere a redes de computadores, seus componentes, protocolos, camadas de comunicação e ao uso de computação em nuvem, analise as assertivas a seguir e assinale V para as verdadeiras e F para as falsas.\n(__)Redes locais costumam empregar tecnologias como Ethernet e padrões IEEE 802.11, enquanto redes de maior abrangência podem envolver equipamentos e enlaces com características distintas, de acordo com o alcance e a finalidade da comunicação.\n(__)O protocolo TCP atua na camada de transporte oferecendo mecanismos como controle de fluxo e retransmissão, ao passo que o UDP prioriza menor sobrecarga, sendo adotado em aplicações que toleram perdas eventuais.\n(__)Protocolos como HTTP, SMTP e DNS pertencem à camada de aplicação e são utilizados para finalidades distintas, como acesso a conteúdos web, troca de mensagens eletrônicas e resolução de nomes.\n(__)O IPv6 surgiu como uma alternativa complementar ao IPv4, sem relação direta com o esgotamento de endereços, e manteve basicamente os mesmos mecanismos de autoconfiguração e de tratamento de pacotes.\n(__)A identificação de falhas em redes pode envolver a análise de cabos, dispositivos, configurações e protocolos, sendo comum o uso de ferramentas de diagnóstico em diferentes camadas do modelo de comunicação.\n(__)Na computação em nuvem, recursos de processamento, armazenamento e rede podem ser provisionados sob demanda, com diferentes modelos de serviço, o que impacta a forma de instalação e manutenção das infraestruturas de rede.\nAssinale a alternativa que apresenta a sequência correta de V (verdadeiro) e F (falso) de cima para baixo:",
+        "alternativas": [
+            "V, V, F, F, V, V.",
+            "V, V, V, V, F, V.",
+            "V, V, V, F, V, V.",
+            "V, F, V, F, V, V."
+        ],
+        "gabarito": "V, V, V, F, V, V."
+    },
+    {
+        "id": 27,
+        "enunciado": "A camada de enlace de dados tem como principal tarefa converter um canal de transmissão bruta em uma linha que pareça livre de erros não detectados de transmissão para a camada de rede.\nAssinale a alternativa que contém todos os protocolos que operam nessa camada.",
+        "alternativas": [
+            "RTP • SSH • FTP.",
+            "TCP • RIP • NetBIOS.",
+            "IMAP • HDLC • ATM.",
+            "ICMP • NAT • RS-232.",
+            "Ethernet • IEEE 802.11Q • PPP."
+        ],
+        "gabarito": "Ethernet • IEEE 802.11Q • PPP."
+    },
+    {
+        "id": 28,
+        "enunciado": "Em relação ao padrão IEEE 802.3af, assinale a alternativa correta.",
+        "alternativas": [
+            "Esse é o padrão para controle de acesso à rede (NAC – Network Access Control). Ele define como os dispositivos se autenticam na rede, permitindo ou negando o acesso com base na autenticação do usuário ou do dispositivo.",
+            "Esse é o padrão Power over Ethernet (PoE), que permite a transmissão de energia elétrica juntamente com os dados por meio de cabos Ethernet. Isso é usado para alimentar dispositivos como telefones IP e câmeras de vigilância diretamente pela rede.",
+            "Também conhecido como Multiple Spanning Tree Protocol (MSTP), esse padrão permite a configuração de várias instâncias de Spanning Tree Protocol (STP) em uma rede, o que é útil em redes maiores e complexas.",
+            "Esse é o padrão para o Rapid Spanning Tree Protocol (RSTP), uma melhoria em relação ao STP (IEEE 802.1D) que permite uma convergência mais rápida em redes comutadas.",
+            "Esse padrão é uma extensão do IEEE 802.1Q, que define a marcação de VLAN (Virtual LAN) em quadros Ethernet. O “p” refere-se à priorização de tráfego (QoS) dentro de uma VLAN usando o campo de prioridade IEEE 802.1p em quadros Ethernet."
+        ],
+        "gabarito": "Esse é o padrão Power over Ethernet (PoE), que permite a transmissão de energia elétrica juntamente com os dados por meio de cabos Ethernet. Isso é usado para alimentar dispositivos como telefones IP e câmeras de vigilância diretamente pela rede."
+    },
+    {
+        "id": 29,
+        "enunciado": "Ao pesquisar sobre os padrões IEEE, um Analista observou, corretamente, que bridges que usam LANs virtuais (VLANs)",
+        "alternativas": [
+            "nunca fizeram parte do padrão IEEE 802.1D, mas foram especificadas em um padrão separado, o padrão IEEE 802.1Q.",
+            "fazem parte do padrão IEEE 802.3.",
+            "são especificadas no padrão IEEE 802.1s.",
+            "nunca fizeram parte do padrão IEEE 802.1Q, mas foram especificadas em um padrão separado, o padrão IEEE 802.1D.",
+            "são especificadas no padrão IEEE 802.1w."
+        ],
+        "gabarito": "nunca fizeram parte do padrão IEEE 802.1D, mas foram especificadas em um padrão separado, o padrão IEEE 802.1Q."
+    },
+    {
+        "id": 30,
+        "enunciado": "Um analista precisa selecionar um switch que seja capaz de fornecer alimentação elétrica para telefones, câmeras e sensores IPs. O analista deve selecionar o switch que suporte o padrão IEEE",
+        "alternativas": [
+            "802.3u.",
+            "802.3ae.",
+            "802.1s.",
+            "802.3af.",
+            "802.3."
+        ],
+        "gabarito": "802.3af."
+    },
+    {
+        "id": 31,
+        "enunciado": "Os switches são semelhantes a pontes, uma vez que ambos baseiam o roteamento em endereços de quadro. Assinale a alternativa correta acerca de um switch.",
+        "alternativas": [
+            "Como cada porta é seu próprio domínio de colisão, os switches nunca perdem quadros devido à colisão.",
+            "Store-and-forward consiste em começar a transmitir os quadros logo que recebem o campo de cabeçalho de destino.",
+            "Um switch Layer 2 opera na camada de rede.",
+            "O Padrão IEEE 802.1p especifica o padrão para VLANs em switches.",
+            "Um switch inteiro representa um único domínio de colisão."
+        ],
+        "gabarito": "Como cada porta é seu próprio domínio de colisão, os switches nunca perdem quadros devido à colisão."
+    },
+    {
+        "id": 32,
+        "enunciado": "Assinale a opção correta, considerando que as redes cabeadas, como as redes Ethernet, e as redes sem fio padrão IEEE 802.11 apresentam características distintas em termos de desempenho, segurança, mobilidade e confiabilidade.",
+        "alternativas": [
+            "Em comparação às redes sem fio, as redes cabeadas, apesar de terem mobilidade limitada, oferecem maior alcance, maior largura de banda, menor interferência do ambiente e maior confiabilidade para transmissão de dados.",
+            "Em ambientes corporativos, o uso das redes sem fio (Wi-Fi) elimina a necessidade de políticas de segurança, uma vez que os dados são criptografados automaticamente.",
+            "As redes cabeadas são sempre a opção mais barata e mais simples em relação às redes sem fio, qualquer que seja o ambiente físico e geográfico.",
+            "As redes sem fio oferecem maior estabilidade de conexão e menor latência se comparadas às redes cabeadas, sendo preferidas para aplicações críticas em datacenters.",
+            "A mobilidade oferecida pelas redes cabeadas é superior à das redes sem fio, pois as conexões via cabo permitem conectar múltiplos dispositivos simultaneamente."
+        ],
+        "gabarito": "Em comparação às redes sem fio, as redes cabeadas, apesar de terem mobilidade limitada, oferecem maior alcance, maior largura de banda, menor interferência do ambiente e maior confiabilidade para transmissão de dados."
+    },
+    {
+        "id": 33,
+        "enunciado": "Em relação às características do cabeamento gigabit Ethernet padrão IEEE 802.3ab (1000Base-T), analise as assertivas a seguir:\nI. Admite o modo de operação full-duplex.\nII. A distância máxima do segmento é de 200 metros.\nIII. Utiliza até 2 pares de UTP.\nQuais estão corretas?",
+        "alternativas": [
+            "Apenas I.",
+            "Apenas II.",
+            "Apenas III.",
+            "Apenas II e III.",
+            "I, II e III."
+        ],
+        "gabarito": "Apenas I."
+    },
+    {
+        "id": 34,
+        "enunciado": "O padrão IEEE 802.11 apresenta diversos tipos. Assinale a alternativa que apresenta tipo(s) que utiliza(m) apenas a banda de frequência de 5 GHz.",
+        "alternativas": [
+            "IEEE 802.11a e IEEE 802.11b.",
+            "IEEE 802.11b.",
+            "IEEE 802.11g.",
+            "IEEE 802.11g e IEEE 802.11n.",
+            "IEEE 802.11ac."
+        ],
+        "gabarito": "IEEE 802.11ac."
+    },
+    {
+        "id": 35,
+        "enunciado": "A atenuação em fibra ótica, também conhecida como perda de transmissão, é a redução na intensidade do sinal de luz à medida que viaja pelo meio de transmissão.\nOs coeficientes de atenuação em fibra óptica são geralmente expressos em unidades de dB/km. A atenuação é um fator importante que limita a transmissão de um sinal digital em grandes distâncias. Os valores típicos de atenuação para fibras monomodo que seguem o padrão ITU-T G.652 são apresentados nas tabelas 1 e 2 a seguir, em função de suas janelas de operação.\nTabela 1: Atenuação para o comprimento de onda de 1310nm.\nAtenuação/conector Valor Atenuação/quilômetro(dB/km)Atenuação/emendSai(tduBa)ção óptico (dB) Min 0,3 0,4 0,02 Melhor Médio 0,38 0,6 0,1 Normal Máx. 0,5 1 0,2 Pior Tabela 2: Atenuação para o comprimento de onda de 1550nm.\nAtenuação/conector Valor Atenuação/quilômetro(dB/km)Atenuação/emendSai(tduBa)ção óptico (dB) Min 0,17 0,2 0,01 Melhor Médio 0,22 0,35 0,05 Normal Máx. 0,4 0,7 0,1 Pior O projetista de rede deve realizar uma estimativa de atenuação no link, a fim de identificar se os transceivers óticos modelo IEEE 10GBASE-LR que ele tem disponíveis atendem à demanda de rede. Assinale a alternativa que identifica o valor estimado de atenuação para uma situação normal do enlace apresentado na Figura 1.\nDesconsidere qualquer margem do sistema.\nFigura 1: Visão sistêmica de enlace ótico.",
+        "alternativas": [
+            "3,56 dB.",
+            "7,1 dB.",
+            "4,18 dB.",
+            "4,92 dB.",
+            "1,96 dB."
+        ],
+        "gabarito": "4,92 dB."
+    },
+    {
+        "id": 36,
+        "enunciado": "Com relação aos padrões para a fibra óptica como meio de transmissão em redes de computadores, dois apresentam as características listadas a seguir:\nI. Ambos são padrões de transmissão Ethernet definidos no IEEE 802.3, definem transmissão a 1000 Mb/s (1 Gb/s) em banda base sobre fibra óptica e utilizam 2 fibras (TX e RX) para montar um link.\nII. Enquanto o padrão ALFA utiliza transmissão a 850 nm sobre fibras multimodo, o padrão BETA utiliza transmissão a 1310 nm sobre fibras multimodo ou monomodo.\nIII. Enquanto o alcance máximo do padrão ALFA vai de 220 m a 550 m, e o orçamento de perda vai de 2,6 dB a 3,56 dB, dependendo da categoria de fibra (OM1 a OM, o alcance máximo do padrão BETA é de até 300 m sobre fibras multimodo (ou 550 m com o uso de patch cords especiais – de condicionamento de modo) e de até 5 km sobre fibra monomodo, e o orçamento de perda vai de 2,35 dB a 4,57 dB, dependendo da fibra utilizada.\nOs padrões aqui identificados como ALFA e BETA são conhecidos, respectivamente, como",
+        "alternativas": [
+            "1000BASE-BX e 1000BASE-CX.",
+            "1000BASE-CX e 1000BASE-BX.",
+            "1000BASE-HX e 1000BASE-ZX.",
+            "1000BASE-LX e 1000BASE-SX.",
+            "1000BASE-SX e 1000BASE-LX."
+        ],
+        "gabarito": "1000BASE-SX e 1000BASE-LX."
+    },
+    {
+        "id": 37,
+        "enunciado": "Diversos meios físicos de transmissão de dados são padronizados pelo IEEE (Institute of Electrical and Electronics Engineers). Das alternativas a seguir, qual é a única que apresenta um padrão Gigabit Ethernet e que opera em meios de transmissão do tipo UTP?",
+        "alternativas": [
+            "10BASE-T.",
+            "1000BASE-LX.",
+            "1BASE-GB.",
+            "1000BASE-T.",
+            "10GBASE-SR."
+        ],
+        "gabarito": "1000BASE-T."
+    },
+    {
+        "id": 38,
+        "enunciado": "Existe uma norma para a representação esquemática dos elementos principais de um sistema estruturado. A norma que descreve as representações esquemáticas é:",
+        "alternativas": [
+            "IEEE 14.565.",
+            "ABNT 14.556.",
+            "ITU-T 14565.",
+            "NBR 14.565."
+        ],
+        "gabarito": "NBR 14.565."
+    },
+    {
+        "id": 39,
+        "enunciado": "Cada aparelho sem fio trabalha em uma frequência de rádio específica. Julgue a seguinte afirmação: o padrão IEEE 802.11ac somente trabalha na frequência de 5GHz e suporta canais entre 80MHz e 160MHz.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 40,
+        "enunciado": "Considere as seguintes afirmativas sobre os padrões para redes locais Ethernet e suas evoluções:\n( ) O padrão IEEE 802.3 define o CSMA/CD 1-persistent como o método de acesso da primeira geração de Ethernet 10 Mbps.\n( ) O Fast Ethernet tem uma taxa de dados de 100 Mbps.\n( ) O Gigabit Ethernet possui uma taxa de dados de 1000 Mbps.\n( ) As implementações mais comuns de Gigabit Ethernet são 1000Base-SX (dois cabos de fibra óptica e uma fonte de laser de ondas curtas), 1000Base-LX (dois cabos de fibra ótica e uma fonte laser de ondas longas) e 1000Base-T (quatro pares trançados).\n( ) O padrão Ethernet mais recente é o 10 Gigabit Ethernet que opera a 1000 Gbps.\n( ) As três implementações mais comuns do Gigabit Ethernet são 10GBase-SX, 10GBase-LX e 10GBase-EX. Essas implementações usam cabos coaxiais no modo full- duplex.\nAssinale a alternativa que apresenta a sequência CORRETA de V para verdadeiro e F para falso, de cima para baixo:",
+        "alternativas": [
+            "V – F – V – F – F – F.",
+            "F – V – V – V – V – F.",
+            "V – V – F – F – V – V.",
+            "F – F – F – V – F – V.",
+            "V – V – V – V – F – F."
+        ],
+        "gabarito": "V – V – V – V – F – F."
+    },
+    {
+        "id": 41,
+        "enunciado": "Em redes locais modernas, os padrões do IEEE 802.3 definem diversas velocidades de transmissão Ethernet ao longo do tempo, desde os primeiros 10 Mbps até padrões mais avançados que suportam velocidades muito maiores. Dentro dessa evolução, o padrão IEEE 802.3ae foi criado para atender segmentos de rede que exigem maior capacidade de transmissão. Diante disso, qual é a velocidade teórica de transmissão associada ao padrão IEEE 802.3ae?",
+        "alternativas": [
+            "100 Mbps.",
+            "1 Gbps.",
+            "2,5 Gbps.",
+            "10 Gbps.",
+            "40 Gbps."
+        ],
+        "gabarito": "10 Gbps."
+    },
+    {
+        "id": 42,
+        "enunciado": "No estudo das redes de computadores, diversos padrões da família Ethernet foram definidos pelo IEEE (Institute of Electrical and Electronics Engineers) para atender a diferentes taxas de transmissão e requisitos de desempenho. Um desses padrões surgiu para fornecer uma velocidade de transmissão superior à da Ethernet original\n(que operava a 10 Mbps). Assim, qual padrão IEEE define oficialmente a tecnologia conhecida como Fast Ethernet?",
+        "alternativas": [
+            "IEEE 802.3u.",
+            "IEEE 802.3ab.",
+            "IEEE 802.3z.",
+            "IEEE 802.3an.",
+            "IEEE 802.3x."
+        ],
+        "gabarito": "IEEE 802.3u."
+    },
+    {
+        "id": 43,
+        "enunciado": "O padrão IEEE 802.3 (LAN)",
+        "alternativas": [
+            "utiliza o método de acesso CSMA/CD em redes modernas com switch.",
+            "suporta velocidade de até 600 Mbps.",
+            "funciona em frequência de 2,4 GHz e de 5 GHz.",
+            "opera na velocidade de até 1 Gbps no padrão 802.3ab.",
+            "controla e organiza a rede, tornando-a mais segura."
+        ],
+        "gabarito": "opera na velocidade de até 1 Gbps no padrão 802.3ab."
+    },
+    {
+        "id": 44,
+        "enunciado": "Questão 69 Em uma rede Ethernet, um administrador está configurando dispositivos de interconexão para otimizar o desempenho. Ele considera o uso de hubs e switches, conforme especificado na RFC 894 e na IEEE 802.3. Analise as seguintes afirmações:\nI.Um hub Ethernet opera na camada física (Le retransmite todos os quadros recebidos para todas as portas, exceto a porta de origem.\nII.Um switch Ethernet, que está operando na camada de enlace (L, e usa endereços MAC para encaminhar quadros apenas para a porta correspondente ao destino.\nIII.Hubs e switches podem operar simultaneamente na mesma rede sem causar colisões, desde que configurados em modo full-duplex.\nÉ correto o que se afirma em:",
+        "alternativas": [
+            "I e II, apenas.",
+            "I, II e III.",
+            "II, apenas.",
+            "III, apenas.",
+            "I e III, apenas."
+        ],
+        "gabarito": "I e II, apenas."
+    },
+    {
+        "id": 45,
+        "enunciado": "Julgue o item subsequente, relacionado a noções dos modelos de referência OSI, noções dos padrões IEEE 802.1, IEEE 802.3, IEEE 802.11 a/b/g/n/ac e arquitetura e pilhas de protocolo TCP/IP.\nO campo Tamanho nos quadros Ethernet informa ao sistema operacional o momento que o processo deve receber um pacote IPv4.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 46,
+        "enunciado": "Com relação aos padrões da família IEEE 802.x, julgue o próximo item.\nO padrão IEEE 802.3u permitiu a configuração de redes locais com velocidades próximas a 1 Gbps.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 47,
+        "enunciado": "Um técnico de rede está trabalhando para instalar fibra ótica em um ambiente de rede de computadores. Para esse caso, esse tipo de cabo precisa trabalhar com fibra monomodo e ser baseado no IEEE 802.3z.\nO cabo que ele precisa trabalhar é o",
+        "alternativas": [
+            "10BASE5.",
+            "100BASE-T4.",
+            "100BASEVG.",
+            "1000BASE-T.",
+            "1000BASE-LX."
+        ],
+        "gabarito": "1000BASE-LX."
+    },
+    {
+        "id": 48,
+        "enunciado": "No padrão Ethernet IEEE 802.3 é definido um período de tempo entre os quadros ethernet com o objetivo de prover um tempo de recuperação interquadros para outras subcamadas ethernet e para o meio físico. Esse período de tempo é referido como interpacketgap – IPG. Sobre o assunto, analise as assertivas a seguir.\nI. Para a taxa de transmissão do quadro ethernet a 1 Gbps o valor do IPD é de 50 ps.\nII. Para a taxa de transmissão do quadro ethernet a 10 Gbps o valor do IPD é de 100 ps.\nIII. O valor para o IPG é padronizado para todas as interfaces físicas ethernet em quantidade de tempos de bit.\nIV. As regras para adiamento da transmissão de quadros são as mesmas nos modos Half-duplex e Full-duplex.\nEstão corretas apenas as assertivas",
+        "alternativas": [
+            "I e II.",
+            "I e III.",
+            "II e IV.",
+            "III e IV."
+        ],
+        "gabarito": "III e IV."
+    },
+    {
+        "id": 49,
+        "enunciado": "Acerca das características fundamentais do protocolo IEEE 802.3, julgue o item a seguir.\nO IEEE 802.3 define como deve ser o controle de acesso da camada física e da camada de enlace de dados do padrão Ethernet com fio.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 50,
+        "enunciado": "Em uma rede sem fio que utiliza o protocolo IEEE 802.11, no modo de infraestrutura, os quadros de envio de dados na camada de enlace utilizam quantos endereços?",
+        "alternativas": [
+            "1.",
+            "2.",
+            "3.",
+            "4.",
+            "5."
+        ],
+        "gabarito": "3."
+    },
+    {
+        "id": 51,
+        "enunciado": "Um analista deseja interligar dois prédios de sua empresa que estão à 3 Km de distância um do outro, a uma taxa de transmissão de 1 Gbps. O padrão de rede ethernet IEEE 802.3z mais apropriado a ser utilizado é:",
+        "alternativas": [
+            "1000Base-CX.",
+            "1000Base-SX.",
+            "1000Base-LX.",
+            "1000Base-ZX.",
+            "1000Base-TX."
+        ],
+        "gabarito": "1000Base-LX."
+    },
+    {
+        "id": 52,
+        "enunciado": "No protocolo IEEE 802.3ad o balanceamento de carga não é necessariamente distribuído igualmente em todos os links individuais do Etherchannel. Em vez disso, um hash é calculado e os pacotes são consistentemente encaminhados através de um link com base nesse hash. Assinale a alternativa que NÃO compõe o algoritmo deste hash.",
+        "alternativas": [
+            "Porta TCP/UDP de destino.",
+            "Endereço MAC de origem.",
+            "Endereço MAC de destino.",
+            "Endereço IP de origem e de destino.",
+            "IP precedence (precedência de IP)."
+        ],
+        "gabarito": "IP precedence (precedência de IP)."
+    },
+    {
+        "id": 53,
+        "enunciado": "De acordo com o padrão IEEE 802.3af, o qual define questões de alimentação elétrica via cabo de rede ethernet, considere as seguintes afirmações:\nI - O número de pares do cabo energizados e aptos à alimentar um dispositivo de rede são 4.\nII - O padrão IEEE 802.3af possui um mecanismo de teste para proteger dispositivos que são energizados incompatíveis com dispositivos que os energizam.\nIII - A potência de tensão fornecida pelo dispositivo que fornece energia elétrica e o consumo do dispositivo que é alimentado é dividido em duas classes.\nIV - O modo de alimentação MIDSPAN é aquele em que um dispositivo externo à rede adiciona energia em um cabo ethernet para alimentar outros ativos de rede.\nAssinale a alternativa que contém APENAS as afirmações verdadeiras sobre este padrão:",
+        "alternativas": [
+            "I, II e IV.",
+            "II e IV.",
+            "III e IV.",
+            "II e III.",
+            "Todas as afirmações são verdadeiras."
+        ],
+        "gabarito": "II e IV."
+    },
+    {
+        "id": 54,
+        "enunciado": "A equipe de TI da universidade é responsável por projetar a infraestrutura de telecomunicações necessária para compor a sua rede metropolitana (MAN) que interconecta seus campi. Em função dos recursos orçamentários disponíveis, a equipe optou pela construção de um backbone metropolitano com capacidade de 1 Gbps, apenas. O backbone deverá interconectar os campi A, B, C e D da universidade, que distam 8 km, 12 km, 45 km e 65 km nos trechos A-B, B-C, C-D e D-A, respectivamente. Deverão ser utilizados transceivers óticos para fibras óticas do tipo monomodo, privilegiando sempre o menor custo, isto é, sempre utilizando o transceiver que tenha a menor diferença entre a distância do enlace e a distância máxima suportada pelo transceiver. Identifique o número de transceivers óticos necessários, conforme os tipos identificados a seguir e marque a alternativa correta.\nA. 1000BASE-SX (padrão IEEE 802.3z) B. 1000BASE-LX (padrão IEEE 802.3z) C. 1000BASE-LX10 (padrão IEEE 802.3ah) D. 1000BASE-EX (padrão proprietário - não IEEE) E. 1000BASE-ZX / -EZX (padrão proprietário - não IEEE)",
+        "alternativas": [
+            "A = 0; B = 2; C = 2; D = 2; E = 2.",
+            "A = 0; B = 0; C = 2; D = 2; E = 4.",
+            "A = 2; B = 0; C = 2; D = 2; E = 2.",
+            "A = 0; B = 2; C = 2; D = 4; E = 0.",
+            "A = 0; B = 4; C = 0; D = 4; E = 0."
+        ],
+        "gabarito": "A = 0; B = 0; C = 2; D = 2; E = 4."
+    },
+    {
+        "id": 55,
+        "enunciado": "A rede Ethernet é um protocolo para redes locais e foi desenvolvido na década de 1970. O padrão 1000BASE-X, IEEE 802.3z, traz a seguinte especificação:",
+        "alternativas": [
+            "1 Gbps full-duplex sobre fibra ótica.",
+            "Cabo de par trançado balanceado categoria 5, ou maior.",
+            "Distâncias de 240m a 300m através das fibras multimodo já instaladas, e 10km através de fibras monomodo.",
+            "Curtas distâncias através de fibras multimodo já instaladas, suportando uma distância entre 26m e 82m."
+        ],
+        "gabarito": "1 Gbps full-duplex sobre fibra ótica."
+    },
+    {
+        "id": 56,
+        "enunciado": "Considerando o padrão Ethernet, usado para rede de computadores, assinale a alternativa correta sobre a camada física, definida pelo Instituto de Engenheiros Eletricistas e Eletrônicos (IEEE).",
+        "alternativas": [
+            "Um dos aspectos importantes na criação de novos padrões para Ethernet é a compatibilidade com padrões antigos, por isso a Ethernet Gigabit e 10 Gigabit, em geral, conseguem recuar para a velocidade mais baixa admitida pelas duas extremidades da rede.",
+            "Os primeiros padrões para Ethernet “10BASE5” e “10BASE2” tinham o cabo de par trançado como principal meio de transmissão de dados, seus sucessores como o “100BASE-T” e posteriormente o “1000BASE-T” migraram para uma alternativa mais barata: o cabo coaxial, esse sendo usado, principalmente, para conexões de alta velocidade por grandes distâncias.",
+            "Não existem diferenças significativas de distância máxima de transmissão de dados nas variações do padrão Gigabit. A criação de subcategorias como “1000BASE-T” e “1000BASE-X” dão-se apenas pela necessidade de cabos com resistências a tipos diferentes de interferência.",
+            "A qualidade e velocidade máxima de transmissão dos dados depende apenas dos dispositivos emissores e receptores da rede. Cabos de tipos diferentes como coaxiais, par trançado e fibra óptica, afetam apenas a distância máxima de transmissão dos dados, o que possibilita a troca, ou até a mistura de tipos diferentes de cabos, em qualquer rede pequena como a doméstica, sem qualquer tipo de perda, ou alteração de funcionamento."
+        ],
+        "gabarito": "Um dos aspectos importantes na criação de novos padrões para Ethernet é a compatibilidade com padrões antigos, por isso a Ethernet Gigabit e 10 Gigabit, em geral, conseguem recuar para a velocidade mais baixa admitida pelas duas extremidades da rede."
+    },
+    {
+        "id": 57,
+        "enunciado": "Quanto às tecnologias de redes locais, julgue o item.\nA Ethernet, padrão IEEE 802.3, é uma tecnologia barata, mas incompatível com outros segmentos de redes maiores, como, por exemplo, a Fast Ethernet (100 Mbit/s), no que se refere à capacidade de migração.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 58,
+        "enunciado": "O padrão IEEE 802.11 estabelece duas subcamadas MAC: a DCF (Distributed Coordination Function) e a PCF (Point Coordination Function). Com relação a essas subcamadas ou modos de coordenação, assinale a opção correta abaixo.",
+        "alternativas": [
+            "PCF é um método de acesso não opcional e mais complexo, que pode ser implementado em redes de infra-estrutura e também em uma rede ad hoc. Ele é implementado sobre o DCF e usado, em grande parte, para transmissão de dados sensíveis a atrasos.",
+            "No modo PCF é implementado um método de acesso descentralizado e com contenção, geralmente usa-se o protocolo CSMA/CA para controle de acesso aleatório ao meio.",
+            "O modo DCF é opcionalmente suportado pelo PCF e controla os quadros durante o período livre de contenção CFP (Contention Free Period), que é seguido por um período de contenção.",
+            "Para dar prioridade ao PCF em relação ao DCF, um conjunto adicional de temporizadores entre frames foi definido: PIFS e SIFS. O SIFS é o mesmo que o do DCF, mas o PIFS (PCF IFS) é mais curto que o DIFS.",
+            "No modo DCF as estações precisam colocar, como valor de NAV (Network Allocation Vector), a duração total de CFP (Contention Free Period), a fim de evitar que alguma estação tome o controle do meio durante este período."
+        ],
+        "gabarito": "Para dar prioridade ao PCF em relação ao DCF, um conjunto adicional de temporizadores entre frames foi definido: PIFS e SIFS. O SIFS é o mesmo que o do DCF, mas o PIFS (PCF IFS) é mais curto que o DIFS."
+    },
+    {
+        "id": 59,
+        "enunciado": "Em uma rede Wireless padrão IEEE 802.11, uma das funções do protocolo IEEE 802. 1x é",
+        "alternativas": [
+            "criptografia de chave simétrica durante a negociação entre o AP e um dispositivo cliente.",
+            "um mecanismo de segurança para o SSID divulgado em Broadcast.",
+            "recursos de autenticação dos usuários não cadastrados na WLAN.",
+            "um mecanismo de autenticação de dispositivos que desejam juntar-se à LAN.",
+            "uma maior banda de transmissão adicionando uma extensão aos canais de transmissão."
+        ],
+        "gabarito": "um mecanismo de segurança para o SSID divulgado em Broadcast."
+    },
+    {
+        "id": 60,
+        "enunciado": "O IEEE reuniu o comitê de 802.3 em 1992, com instruções para produzir uma LAN mais rápida.\nA principal razão pela qual o comitê 802.3 decidiu continuar uma rede Ethernet aperfeiçoada foi a/o",
+        "alternativas": [
+            "desejo de continuar o trabalho devido à redução de espaço em infraestrutura.",
+            "certeza de que um novo protocolo seria a solução dos problemas e imprevistos.",
+            "necessidade de manter a compatibilidade retroativa com as LANs Ethernet existentes.",
+            "possibilidade de que o tráfego em tempo real e a voz digitalizada não fossem compatíveis."
+        ],
+        "gabarito": "necessidade de manter a compatibilidade retroativa com as LANs Ethernet existentes."
+    },
+    {
+        "id": 61,
+        "enunciado": "A tecnologia Ethernet, inicialmente padronizada pela IEEE 802.3, é atualmente a infraestrutura de rede local mais utilizada no mundo. Sobre esta tecnologia, é correto afirmar que:",
+        "alternativas": [
+            "o Ethernet cabeado adota por padrão o método de acesso ao meio Carrier Sense Multiple Access/Collision Avoidance (CSMA/CA).",
+            "o Ethernet é caracterizado pela ausência de colisões.",
+            "o endereço MAC, do Ethernet, tem tamanho de 24 bits, expresso em quatro octetos.",
+            "o Ethernet opera na subcamada Logical Link Control (LLC) da Camada de Enlace do Modelo ISO/OSI."
+        ],
+        "gabarito": "o Ethernet opera na subcamada Logical Link Control (LLC) da Camada de Enlace do Modelo ISO/OSI."
+    },
+    {
+        "id": 62,
+        "enunciado": "A família de protocolos IEEE 802.3 refere-se à(ao):",
+        "alternativas": [
+            "Redes Ethernet cabeadas.",
+            "Implementação de VLANs camada 2.",
+            "Roteamento IP em switches camada 3.",
+            "Qualidade do Serviço (QoS) em redes Wi-Fi.",
+            "Interconexão de equipamentos de fabricantes distintos em Redes Wi-Fi."
+        ],
+        "gabarito": "Redes Ethernet cabeadas."
+    },
+    {
+        "id": 63,
+        "enunciado": "O administrador de uma rede recebeu um equipamento para implantar uma rede local de sua empresa. Ao inspecioná-lo, percebeu que se tratava de um switch para uma rede Ethernet, no qual as interfaces podem funcionar no modo half-duplex ou full-duplex, podem ser configuradas para operar com taxas de 10 Mbps ou 100 Mbps e permitem a ligação das estações usando par trançado.\nPela descrição, esse switch possui interfaces que obedecem ao padrão",
+        "alternativas": [
+            "IEEE 802.3 10BASE-T.",
+            "IEEE 802.3 100BASE-F.",
+            "IEEE 802.3 100BASE-T.",
+            "IEEE 802.5 100BASE-F.",
+            "IEEE 802.11 10BASE-T."
+        ],
+        "gabarito": "IEEE 802.3 100BASE-T."
+    },
+    {
+        "id": 64,
+        "enunciado": "Com base no grupo de normas IEEE 802, marque a alternativa correta.",
+        "alternativas": [
+            "O padrão IEEE 802.3af-2003 permite que até 130W de potência de alimentação seja gerada por porta.",
+            "O padrão IEEE 802.3af-2003 é uma evolução do IEEE802.3ae-2002, e ambos tratam de dispositivos Power over Ethernet.",
+            "O padrão IEEE 802.3z estabelece Gigabit Ethernet para transceivers 1000BASE-CX, 1000BASE-LX, 1000BASE-SX e 1000BASE-ZX.",
+            "O padrão IEEE 802.3z não oferece com as tecnologias 10Base-T e 100Base-T.",
+            "O padrão IEEE 802.3z prevê enlace de fibra óptica monomodo com comprimento máximo de 30 km."
+        ],
+        "gabarito": "O padrão IEEE 802.3z estabelece Gigabit Ethernet para transceivers 1000BASE-CX, 1000BASE-LX, 1000BASE-SX e 1000BASE-ZX."
+    },
+    {
+        "id": 65,
+        "enunciado": "Relacione a Coluna 1 à Coluna 2, associando os padrões IEEE aos respectivos assuntos de que tratam.\nColuna 1\n1. 802.1\n2. 802.3\n3. 802.11 Coluna 2\n( ) Avaliação e arquitetura de LANs.\n( ) LANs sem fio.\n( ) Ethernet.\nA ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+        "alternativas": [
+            "1 – 2 – 3.",
+            "1 – 3 – 2.",
+            "2 – 1 – 3.",
+            "2 – 3 – 1.",
+            "3 – 1 – 2."
+        ],
+        "gabarito": "1 – 3 – 2."
+    },
+    {
+        "id": 66,
+        "enunciado": "Ao analisar o padrão IEEE 802.11, um Analista observou que ele define três tipos de estação, dependendo de sua capacidade de mobilidade em uma rede Wireless LAN (WLAN), que são",
+        "alternativas": [
+            "sem transição, transição inter-BSS e transição inter-ESS.",
+            "transição inter-KPM, transição inter-BSS e transição inter-ESS.",
+            "escalar simples, escalar dupla e transição inter-BSS.",
+            "transição-KPM, transição inter-BSS e genérica-KSS.",
+            "sem transição, escalonada-ESS e transição inter-ESS."
+        ],
+        "gabarito": "sem transição, transição inter-BSS e transição inter-ESS."
+    },
+    {
+        "id": 67,
+        "enunciado": "O instituto responsável pelo desenvolvimento de um padrão de redes é o:",
+        "alternativas": [
+            "FDB.",
+            "IEEE.",
+            "802.hge.",
+            "Cada.",
+            "RESS."
+        ],
+        "gabarito": "IEEE."
+    },
+    {
+        "id": 68,
+        "enunciado": "O comitê da IEEE número 802 (ou comitê tem a tarefa de padronizar comunicações de rede. O 802.11 se refere a um grupo de trabalho dentro desse comitê que padroniza qual tipo de protocolo?",
+        "alternativas": [
+            "Avaliação e Arquitetura de LANs.",
+            "Wireless Personal Area Network.",
+            "Ethernet.",
+            "LANs sem fios.",
+            "BroadBand Wireless Access."
+        ],
+        "gabarito": "LANs sem fios."
+    },
+    {
+        "id": 69,
+        "enunciado": "Em um cenário onde várias VLANs estão configuradas, cada switch deve ser capaz de identificar qual das VLAN cada quadro pertence. As informações que identificam um quadro Ethernet como pertencente a uma determinada VLAN estão inseridas em seu cabeçalho e permitem a comunicação via porta configurada do switch, como porta-tronco ou porta de acesso.\nAssinale a opção que está relacionada ao processo de marcação.",
+        "alternativas": [
+            "Padrão IEEE 802.1q insere uma tag de quatro bytes no quadro Ethernet ultrapassando seu tamanho original de 1518 bytes.",
+            "Os switches non-root bridges possuem portas não designadas e se encontram em modo bloqueio. Por estas portas, somente podem receber quadros de controles BPDUs.",
+            "O padrão dot1q insere um cabeçalho ISL, cuja extensão é de 26 bytes no quadro.",
+            "A tag VLAN possui as seguintes informações: VLAN(VID) número de 12 bits que suporta 4096 IDs de VLANs e BRIDGE ID (BID) com 8 bytes de extensão.",
+            "As VLANs são identificadas pelo MAC de origem e porta 554, situado no cabeçalho do quadro."
+        ],
+        "gabarito": "Padrão IEEE 802.1q insere uma tag de quatro bytes no quadro Ethernet ultrapassando seu tamanho original de 1518 bytes."
+    },
+    {
+        "id": 70,
+        "enunciado": "O setor de TI está reestruturando a rede da sede para implementar segmentação de tráfego, telefonia IP e gerenciamento centralizado.\nO projeto requer:\n- Isolamento dos setores administrativo, jurídico e TI.\n- Implementação de telefonia sobre IP com qualidade de serviço.\n- Gerenciamento automático de endereçamento IP.\n- Monitoramento centralizado dos equipamentos de rede.\nConsiderando as especificações dos protocolos e serviços de rede, a configuração técnica mais adequada para atender a todos esses requisitos consiste em:",
+        "alternativas": [
+            "implementar VPN site-to-site entre setores, configurar telefonia H323, usar SLAAC para atribuição de DNS e domínio, e empregar Zabbix para monitoramento centralizado.",
+            "criar sub-redes físicas separadas por meio de roteadores, implementar PABX analógico adaptado, instalar servidor DHCP, e configurar syslog para logs locais e centralizado.",
+            "configurar VLANs usando IEEE 802.1Q, implementar VoIP com codec G.729, instalar servidor DNS recursivo para gerenciamento automático dos endereços IPs, e utilizar ICMP para monitoramento de conectividade.",
+            "configurar VLANs usando IEEE 802.1Q nos switches, implementar VoIP com codec G.711, instalar servidor DHCP para atribuição dinâmica de IPs, e utilizar SNMPv3 para monitoramento.",
+            "configurar switches multicamada para segmentar a rede, implementar VoIP com codec GSM, instalar servidor DHCP para resolução de nomes, e utilizar Nagios para análise de tráfego."
+        ],
+        "gabarito": "configurar VLANs usando IEEE 802.1Q nos switches, implementar VoIP com codec G.711, instalar servidor DHCP para atribuição dinâmica de IPs, e utilizar SNMPv3 para monitoramento."
+    },
+    {
+        "id": 71,
+        "enunciado": "Para montar um ambiente de VLAN dentro de uma rede de computadores de uma empresa, precisou-se adquirir equipamentos no padrão:",
+        "alternativas": [
+            "IEEE 802.1q.",
+            "IEEE 802.15.",
+            "IEEE 802.20.",
+            "IEEE 802.1AR."
+        ],
+        "gabarito": "IEEE 802.1q."
+    },
+    {
+        "id": 72,
+        "enunciado": "No que diz respeito às VLANs, aos roteadores, ao NAT, aos switches gerenciáveis e às VPNs, julgue o item seguinte.\nEm switches gerenciáveis, o protocolo IEEE 802.1Q é utilizado para marcação (tagging) de quadros ethernet, permitindo o transporte de múltiplas VLANs por uma única interface trunk.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 73,
+        "enunciado": "No uso de VLAN com o padrão IEEE 802.1Q, o valor do ID de protocolo de VLAN sempre será de",
+        "alternativas": [
+            "0x8100.",
+            "0x1A00.",
+            "0x0081.",
+            "0x0000.",
+            "0xAA00."
+        ],
+        "gabarito": "0x8100."
+    },
+    {
+        "id": 74,
+        "enunciado": "As VLANs (Virtual Local Area Networks) são úteis em redes grandes como o de uma Universidade, pois o administrador da rede pode atribuir um dispositivo a uma determinada rede, independentemente do local físico em que ele esteja conectado. A respeito desse tema, e considerando um equipamento de rede com suporte à VLANs, assinale a alternativa CORRETA:",
+        "alternativas": [
+            "IEEE 802.1B é a norma que define o funcionamento das VLANs (Virtual Local Area Networks).",
+            "Conforme a especificação que define as VLANs, existem 24 bits reservados para identificação de uma rede virtual.",
+            "Uma porta de um switch não pode ser vinculada a mais de uma VLAN.",
+            "A comunicação de dispositivos em VLANs diferentes pode ser feita por um switch de camada 1 (L.",
+            "É possível compartilhar VLANs entre switches introduzindo uma TAG com um identificador de VLAN, sendo possível existir até 4094 VLANs distintas."
+        ],
+        "gabarito": "É possível compartilhar VLANs entre switches introduzindo uma TAG com um identificador de VLAN, sendo possível existir até 4094 VLANs distintas."
+    },
+    {
+        "id": 75,
+        "enunciado": "A respeito de VLAN e NAT (Network Address Translation), julgue o próximo item.\nNo padrão IEEE 802.1q, o quadro original da rede Ethernet é encapsulado e modificado, com a inclusão de 16 bytes adicionais, para identificar a VLAN no cabeçalho.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 76,
+        "enunciado": "A respeito de VLAN e NAT (Network Address Translation), julgue o próximo item.\nO padrão IEEE 802.1q não suporta o FCS (frame check sequence).",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 77,
+        "enunciado": "Um Tribunal Regional do Trabalho deseja segmentar sua rede para melhorar a segurança e o desempenho. O administrador de redes decide configurar VLANs para separar o tráfego dos diferentes departamentos. Para que os switches consigam identificar corretamente os pacotes pertencentes a cada VLAN e permitir a segmentação lógica do tráfego, o padrão que deve ser implementado é o IEEE",
+        "alternativas": [
+            "802.1Q.",
+            "802.3af.",
+            "802.3z.",
+            "802.1D.",
+            "802.1X."
+        ],
+        "gabarito": "802.1Q."
+    },
+    {
+        "id": 78,
+        "enunciado": "Um administrador de Redes vai implementar, em uma rede LAN, um ambiente compatível com o padrão IEEE 802.1q. No caso, essa implementação vai trabalhar com um link ponto-aponto entre dois dispositivos de rede e ambos devem ser capazes de modificar o cabeçalho da tag, identificando os quadros dessa implementação. Esse tipo conexão, para esse padrão IEEE, é o:",
+        "alternativas": [
+            "access link.",
+            "transfer link.",
+            "trunk link.",
+            "variation link."
+        ],
+        "gabarito": "trunk link."
+    },
+    {
+        "id": 79,
+        "enunciado": "Um técnico de um Tribunal está configurando um switch de camada 2 em uma LAN segmentada em VLANs (IEEE 802.1Q).\nAs interfaces do switch estão conectadas aos seguintes dispositivos:\ng0/1: Roteador (que fará o roteamento inter-VLAN usando a técnica router-on-a-stick) g0/2: Dispositivo de usuário final (um computador desktop) g0/3: Switch de camada 2 (com as mesmas VLANs configuradas) Considerando a técnica router-on-a-stick e as boas práticas de configuração de VLANs, os modos de operação das interfaces g0/1, g0/2 e g0/3 devem ser, respectivamente:",
+        "alternativas": [
+            "tronco, tronco e acesso.",
+            "tronco, acesso e tronco.",
+            "tronco, acesso e acesso.",
+            "acesso, acesso e tronco.",
+            "acesso, tronco e acesso."
+        ],
+        "gabarito": "tronco, acesso e tronco."
+    },
+    {
+        "id": 80,
+        "enunciado": "Julgue o próximo item, relativo a conceitos de rede de computadores, elementos de interconexão de redes de computadores e noções dos modelos de referência OSI.\nAs VLANs no padrão IEEE 802.1q foram criadas para ajudar no gerenciamento de LANs, permitindo que a topologia física seja dividida em diferentes topologias lógicas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 81,
+        "enunciado": "Com relação aos padrões da família IEEE 802.x, julgue o próximo item.\nO padrão IEEE 802.1q compatibiliza a utilização de VLANs com as redes Ethernet, incluindo a identificação do uso do protocolo VLAN e o identificador de VLAN do quadro no cabeçalho dos quadros Ethernet.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 82,
+        "enunciado": "As tabelas abaixo apresentam o resumo da configuração de dois equipamentos comutadores (Switch): SW1 e SW2. Nelas, é possível identificar as VLAN (Virtual LAN) e as portas dos respectivos comutadores em que os seis Computadores Pessoais (PC 1, PC 2, PC 3, PC 4, PC 5 e PC dessa rede estão conectados. As portas de número 10 interligam os comutadores e estão configuradas em modo de Tronco de VLAN (Protocolo IEEE 802.1q), permitindo a passagem de qualquer pacote deste tipo de protocolo.\nSW1 SW2 SwitchVLAN Porta PC SwitchVLAN Porta PC 10 01 PC 1 10 01 - 10 02 - 10 02 PC 4 10 03 PC 2 10 03 - 20 04 - 20 04 PC 5 20 05 - 20 05 - 01 02 20 06 - 20 06 PC 6 30 07 PC 3 30 07 - 30 08 - 30 08 - 30 09 - 30 09 - TRK 10 SW2 TRK 10 SW1 Os computadores pessoais que irão receber o pacote ARP (Address Resolution Protocol) enviado pelo PC 1 são:",
+        "alternativas": [
+            "PC 2 e PC 3, somente;",
+            "PC 2 e PC 4, somente;",
+            "PC 4 e PC 6, somente;",
+            "PC 2, PC 4 e PC 5, somente;",
+            "PC 2, PC 3, PC 4, PC 5 e PC 6."
+        ],
+        "gabarito": "PC 2 e PC 4, somente;"
+    },
+    {
+        "id": 83,
+        "enunciado": "A segmentação de redes utilizando VLANs (IEEE 802.1q) fornece diversas vantagens em redes corporativas. Com base nas funções e características do IEEE 802.1q, assinale a alternativa que descreve corretamente uma vantagem dessa tecnologia.",
+        "alternativas": [
+            "A segmentação por VLANs permite que dispositivos em diferentes VLANs se comuniquem diretamente sem a necessidade de um roteador.",
+            "A utilização de VLANs pode aumentar a segurança da rede ao isolar segmentos de tráfego entre diferentes grupos de usuários.",
+            "VLANs eliminam a necessidade de qualquer configuração em dispositivos de rede, pois são automaticamente gerenciadas pelo protocolo IEEE 802.1q.",
+            "A implementação de VLANs reduz a necessidade de manutenção e monitoramento da rede, pois uma vez configuradas, não exigem ajustes frequentes.",
+            "Com VLANs, todo o tráfego é tratado como se estivesse em uma única rede de broadcast, facilitando a transmissão de dados entre todos os dispositivos."
+        ],
+        "gabarito": "A utilização de VLANs pode aumentar a segurança da rede ao isolar segmentos de tráfego entre diferentes grupos de usuários."
+    },
+    {
+        "id": 84,
+        "enunciado": "Uma estação é considerada parte de uma rede local (LAN – Local Area Network) se pertencer fisicamente a ela. O critério de participação é geográfico. Muitas vezes precisamos de uma conexão virtual entre duas estações pertencentes a duas LANs físicas diferentes. Assim, utilizamos uma VLAN (Virtual Local Area Network), uma rede local virtual como uma rede local configurada por software em vez de meio físico. Para fornecer o suporte de configuração e funcionamento de uma VLAN (Virtual Local Area Network) foi definido o Padrão IEEE 802.1q.\nDo exposto as seguintes afirmativas estão corretas, à exceção de uma. Assinale-a.",
+        "alternativas": [
+            "As VLANs permitem reduzir problemas de controle de tráfego broadcast (por exemplo, tráfego gerado pelo protocolo ARP - Address Resolution Protocol), uma vez que o alcance dos quadros de difusão fica restrito a domínios reduzidos.",
+            "O padrão IEEE 802.1q introduziu campos de identificação nos quadros Ethernet. Essa informação extra pode ser utilizada no roteamento dos quadros, e serão usados pelos switches (comutadores) para encaminhar ou filtrar o tráfego recebido.",
+            "O padrão IEEE 802.1q introduziu campos de identificação nos quadros Ethernet. Dentre os campos introduzidos, podemos citar VLAN Identifier (bits que identificam a que VLAN o quadro pertence).",
+            "Algumas características podem ser usadas para agrupar estações em uma VLAN. Os fabricantes usam apenas características como números das portas e endereços IP ponto-a-ponto.",
+            "As VLANs trazem benefícios no gerenciamento da rede. Podemos citar a segurança, pois o meio de cada rede virtual permanece isolado das demais estações que estão fora da VLAN em questão, impedindo assim, que os dados trafegados nela fiquem expostos."
+        ],
+        "gabarito": "Algumas características podem ser usadas para agrupar estações em uma VLAN. Os fabricantes usam apenas características como números das portas e endereços IP ponto-a-ponto."
+    },
+    {
+        "id": 85,
+        "enunciado": "Um técnico em informática dispõe de um roteador com uma única interface de rede, e um comutador de rede (Switch) com 24 (vinte e quatro) interfaces para construir uma rede IP conectando 04 (quatro) redes lógicas diferentes. Para atender às demandas desse projeto, o técnico segmentou o switch em quatro redes virtuais para acomodar os dispositivos de cada uma das redes do projeto, e realizou a ligação entre o switch e o roteador por meio de uma ligação do tipo tronco envolvendo uma interface de cada equipamento. A configuração do default gateway de cada uma das quatro redes, e o adequado processo de roteamento entre essas redes foi estabelecido no roteador.\nDiante do cenário apresentado, analise as afirmativas a seguir.\nI. O protocolo IEEE 802.1p é utilizado para estabelecer redes tronco, como a realizada entre o roteador e o switch nesse projeto.\nII. Quando um quadro não marcado (sem TAG) chega a uma porta de tronco, ele é atribuído à rede virtual nativa.\nIII. Uma máquina conectada a uma das redes virtuais existente no switch desse projeto poderá acessar as outras máquinas, conectadas as outras redes virtuais no mesmo switch, sem a necessidade de passar pelo roteador.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, apenas.",
+            "I e II, apenas.",
+            "I, II e III.",
+            "II, apenas.",
+            "III, apenas."
+        ],
+        "gabarito": "II, apenas."
+    },
+    {
+        "id": 86,
+        "enunciado": "Em resposta à solicitação de usuários que desejam maior flexibilidade, os fornecedores de redes começaram a desenvolver um meio de recompor a fiação dos prédios inteiramente via software. O conceito resultante do estudo é chamado LAN virtual, ou VLAN (Virtual LAN), padronizado pelo comitê IEEE 802.\nNo contexto de VLANs, assinale a alternativa correta:",
+        "alternativas": [
+            "Para que as VLANs funcionem corretamente, todos os dispositivos de rede devem suportar o padrão 802.3ba, que permite a agregação de links para balanceamento de carga.",
+            "O padrão IEEE 802.1Q define o uso de tags para identificar VLANs dentro de quadros Ethernet.",
+            "As VLANs permitem que qualquer quadro seja encaminhado para diferentes VLANs através de uma única bridge, sem necessidade de rotulagem ou marcação.",
+            "VLANs eliminam completamente a necessidade de switches nas redes.",
+            "As bridges que reconhecem VLANs também se auto configuram com base na observação das tags que passam por elas, o que torna a configuração manual totalmente desnecessária."
+        ],
+        "gabarito": "O padrão IEEE 802.1Q define o uso de tags para identificar VLANs dentro de quadros Ethernet."
+    },
+    {
+        "id": 87,
+        "enunciado": "Para as VLANs, Redes Locais Virtuais, em 1996, o subcomitê IEEE 802.1 aprovou um padrão denominado 802.1Q que define:",
+        "alternativas": [
+            "A padronização de redes Fast-Ethernet.",
+            "O formato para identificação de frames.",
+            "As normas para segurança de redes.",
+            "O controle de enlace lógico.",
+            "Os padrões para redes sem fio corporativas."
+        ],
+        "gabarito": "O formato para identificação de frames."
+    },
+    {
+        "id": 88,
+        "enunciado": "Sobre o protocolo padrão de trunking nas VLANs, IEEE 802.1Q, analise as assertivas abaixo:\nI. Não garante a interoperabilidade entre switches, roteadores e servidores de diferentes fabricantes.\nII. Insere apenas 4 bytes adicionais no quadro Ethernet.\nIII. O switch remove a Tag 802.1Q antes de enviar o quadro para um enlace que não seja um “trunk link”.\nIV. Permite a utilização de até 8192 VLANs diferentes.\nQuais estão corretas?",
+        "alternativas": [
+            "Apenas I.",
+            "Apenas II e III.",
+            "Apenas I, II e IV.",
+            "Apenas I, III e IV.",
+            "Apenas II, III e IV."
+        ],
+        "gabarito": "Apenas II e III."
+    },
+    {
+        "id": 89,
+        "enunciado": "Uma empresa fictícia chamada de Corporações ALTTAB precisa conter gastos e reutilizar equipamentos disponíveis em uma de suas filiais. A filial conta com acesso à Internet de 100Mbps, rede para prover serviços internos com 100Mbps que será chamada de DMZ, rede interna para distribuição do acesso à 100Mbps. A filial possui os seguintes equipamentos disponíveis para ligar em sua rede: computador desktop com uma interface de rede 1Gbps e um switch gerenciável com 20 portas 100Mbps e 4 portas 1Gbps. Respeitando os limites apresentandos e sabendo que há cabos e acessórios disponíveis para interligar tudo conforme for necessário, o analista de redes fictício Cláudio propôs uma solução que causou dúvidas na equipe técnica nas Corporações ALTTAB. Cláudio propôs utilizar VLANs.\nConsiderando as informações apresentadas, analise as asserções a seguir e a relação entre elas:\nI- É possível viabilizar a configuração do computador desktop, com os papéis de firewall e roteador, definindo sua única interface para ter no mínimo três VLANs.\nSegundo a indicação de Cládio, deve-se configurar no switch a rede interna com a VLAN 120 untagged na porta 3 e tagged na porta 24, a conexão com a Internet com a VLAN 100 untagged na porta 1 e tagged na porta 24 e a DMZ com a VLAN 110 untagged na porta 2 e tagged na porta 24. A porta 24 é ligada ao computador desktop. O computador, por sua vez, deve ter as VLANs 100, 110 e 120 configuradas no modo tagged em sua interface para conseguir se comunicar com as três redes, com as devidas configurações.\nPORQUE\nII- VLANs, definidas pelo padrão IEEE 802.1Q, são usadas para segmentar e isolar redes físicas em várias redes virtuais independentes, permitindo que dispositivos em diferentes VLANs se comuniquem como se estivessem em redes físicas separadas.\nA respeito dessas asserções, assinale a alternativa CORRETA:",
+        "alternativas": [
+            "As asserções I e II são proposições verdadeiras, e a II é uma justificativa correta da I.",
+            "As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa correta da I.",
+            "A asserção I é uma proposição verdadeira, e a II é uma proposição falsa.",
+            "A asserção I é uma proposição falsa, e a II é uma proposição verdadeira.",
+            "As asserções I e II são proposições falsas."
+        ],
+        "gabarito": "As asserções I e II são proposições verdadeiras, e a II é uma justificativa correta da I."
+    },
+    {
+        "id": 90,
+        "enunciado": "Numa rede com grande quantidade de equipamentos, a aplicação de VLAN é mandatória para que se possa ter uma rede com baixa latência, pois evita-se o broadcast geral. Sobre o assunto VLAN, analise as afirmativas abaixo e dê valores Verdadeiro (V) ou Falso (F).\n( ) O protocolo de tronco padrão IEEE utilizado 802.1q.\n( ) Para que se tenha uma hierarquia de rede de acordo com as melhores práticas, é necessário escolher o Switch Bridge da rede.\n( ) As portas de um Switch no ambiente de VLAN podem ser configuradas em Trunk ou Access.\nAssinale a alternativa que apresenta a sequência correta de cima para baixo.",
+        "alternativas": [
+            "V - V - V.",
+            "F - V - V.",
+            "V - F - V.",
+            "F - F - V."
+        ],
+        "gabarito": "V - F - V."
+    },
+    {
+        "id": 91,
+        "enunciado": "Julgue o próximo item, relativo a armazenamento de dados.\nTrunk é uma solução para interligar switches e transmitir informações de VLAN entre eles; nesse caso, o uso do protocolo IEEE 802.1Q permite que as informações de VLAN sejam incluídas em cada quadro, conforme ele trafegue pela linha de tronco.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 92,
+        "enunciado": "O IEEE 802.1Q é um padrão que permite a criação de redes virtuais locais – VLANs dentro de uma rede Ethernet. O objetivo principal é adicionar",
+        "alternativas": [
+            "quadros de 56 bytes nos cabeçalhos dos protocolos de trunking ISL e inserir nos frames dos protocolos da camada de rede os endereços dos dispositivos de comutação atualizados na camada de enlace.",
+            "frames de 36 bytes nos quadros dos protocolos internet e instruir os elementos comutadores da camada física a trocarem entre si apenas quadros contendo um mesmo identificador.",
+            "rótulos de 32 bits nos quadros Ethernet e instruir os elementos comutadores da camada de enlace a trocarem entre si apenas quadros contendo um mesmo identificador.",
+            "quadros de 32 bytes nos cabeçalhos RMON e inserir nos frames dos protocolos da camada de rede os endereços dos dispositivos de comutação atualizados na camada de enlace.",
+            "rótulos de 56 bits nos quadros Ethernet e instruir os elementos da camada de rede a trocarem entre si apenas frames contendo um único identificador."
+        ],
+        "gabarito": "rótulos de 32 bits nos quadros Ethernet e instruir os elementos comutadores da camada de enlace a trocarem entre si apenas quadros contendo um mesmo identificador."
+    },
+    {
+        "id": 93,
+        "enunciado": "Uma rede de uma empresa é composta por 5 VLANs, cada uma atendendo a um departamento específico. Em um determinado momento, ao estudar a troca dos switches que compõem a rede, o gestor da empresa precisa tomar uma decisão.\nAssumindo que o gestor deseja manter o modelo de VLANs existente, assinale a afirmativa incorreta.",
+        "alternativas": [
+            "É possível concentrar as VLANs em um único switch contanto que ele tenha portas suficientes para atender a toda a rede.",
+            "Uma opção recomendável para a implementação de VLANs seriam switches que implementem o protocolo IEEE 802.1q.",
+            "Caso seja necessário, é possível configurar dois switches localizados em salas distintas para operar na mesma VLAN.",
+            "É possível implementar VLANs que levem em consideração os dispositivos ou os usuários que estão autenticados.",
+            "É necessário adquirir um modelo de equipamento que seja capaz de operar na camada 3 do modelo OSI para manter as VLANs funcionando."
+        ],
+        "gabarito": "É necessário adquirir um modelo de equipamento que seja capaz de operar na camada 3 do modelo OSI para manter as VLANs funcionando."
+    },
+    {
+        "id": 94,
+        "enunciado": "Assinale a alternativa que indica corretamente qual o padrão IEEE utilizado para definir as VLANS.",
+        "alternativas": [
+            "802.1p.",
+            "802.1d.",
+            "802.11x.",
+            "8032.",
+            "802.1q."
+        ],
+        "gabarito": "802.1q."
+    },
+    {
+        "id": 95,
+        "enunciado": "Assinale a alternativa que indica corretamente qual o protocolo IEEE 802x que permite utilizarmos apenas um cabo na comunicação entre os Switches, marcando cada Frame (quadro) com o ID de cada VLAN.",
+        "alternativas": [
+            "802.1p.",
+            "802.1d.",
+            "802.11x.",
+            "802.1a.",
+            "802.1q."
+        ],
+        "gabarito": "802.1q."
+    },
+    {
+        "id": 96,
+        "enunciado": "A IEEE 802 é um grupo de normas visando padronizar redes locais e metropolitanas nas camadas física e de enlace do modelo OSI. Assinale a alternativa que apresenta a norma que trata especificamente a VLAN (Virtual Local Area Network), ou seja, as redes locais virtuais.",
+        "alternativas": [
+            "IEEE 802.1W.",
+            "IEEE 802.1D.",
+            "IEEE 802.1Q.",
+            "IEEE 802.11."
+        ],
+        "gabarito": "IEEE 802.1Q."
+    },
+    {
+        "id": 97,
+        "enunciado": "As LANs virtuais (VLANs) permitem que uma única LAN estendida seja particionada em várias LANs aparentemente separadas. Sobre esse tipo de rede, é correto afirmar que",
+        "alternativas": [
+            "pacotes podem trafegar entre segmentos que tenham identificadores de VLAN diferentes.",
+            "é possível mudar a topologia lógica de uma VLAN sem mover quaisquer fios ou alterar quaisquer endereços.",
+            "entroncamento de VLANs é uma abordagem que piora a escalabilidade de interconexão dos comutadores das VLANs.",
+            "o formato dos pacotes em redes VLAN é definido pelo padrão IEEE 802.1AB.",
+            "o endereço MAC não pode ser usado como parâmetro de configuração em VLANs."
+        ],
+        "gabarito": "é possível mudar a topologia lógica de uma VLAN sem mover quaisquer fios ou alterar quaisquer endereços."
+    },
+    {
+        "id": 98,
+        "enunciado": "O Engenheiro está implantando um novo ponto de acesso Wi-Fi para aumentar a capacidade da rede de gabinetes da Assembleia Legislativa. É responsabilidade dele escolher o padrão que ofereça a melhor combinação de alta velocidade e baixa interferência.\nAssinale a alternativa que identifica o padrão Wi-Fi que utiliza primariamente a faixa de frequência de 5 GHz e oferece canais mais amplos.",
+        "alternativas": [
+            "IEEE 802.11b e IEEE 802.11c.",
+            "IEEE 802.11g.",
+            "IEEE 802.11n.",
+            "IEEE 802.11ac e IEEE 802.11ax.",
+            "IEEE 802.3."
+        ],
+        "gabarito": "IEEE 802.11ac e IEEE 802.11ax."
+    },
+    {
+        "id": 99,
+        "enunciado": "Uma empresa vai adquirir equipamentos para montar uma rede wi-fi interna. Esses equipamentos precisam ter as características de funcionar nas frequências de 2,4 GHz e 5 GHz, com velocidades nominais de até 600 Mb/s, utilizando a modulação OFDM com tecnologia MIMO. Para isso, a empresa precisa comprar equipamentos do padrão:",
+        "alternativas": [
+            "IEEE 802.11a.",
+            "IEEE 802.11b.",
+            "IEEE 802.11g.",
+            "IEEE 802.11n."
+        ],
+        "gabarito": "IEEE 802.11n."
+    },
+    {
+        "id": 100,
+        "enunciado": "Um Analista de Sistemas está responsável por implantar uma rede sem fio de alto desempenho em um setor que atende a muitos usuários simultâneos e aplicações de grande largura de banda (como videoconferências 4K e transferência de grandes volumes de dados). Ao escolher o equipamento sem fio, o Analista averigua os padrões IEEE 802.11 disponíveis para Wi-Fi e observa que um deles oferece melhora significativa de desempenho, com capacidade teórica de até 9,6 Gbps, suporte à largura de canal de até 160 MHz, utilização de modulação 1024-QAM e recursos avançados de múltiplas antenas e eficiência de espectro. Com base nas características técnicas e no desempenho esperado, qual padrão IEEE 802.11 corresponde a esse tipo de tecnologia Wi-Fi?",
+        "alternativas": [
+            "802.11a.",
+            "802.11b.",
+            "802.11g.",
+            "802.11n.",
+            "802.11ax."
+        ],
+        "gabarito": "802.11ax."
+    },
+    {
+        "id": 101,
+        "enunciado": "O Wi-Fi tornou-se parte integrante de rotina diária, permitindo a conectividade perfeita com a internet em casa, no trabalho e em outros lugares. No entanto, a tecnologia por trás do Wi-Fi pode ser complexa. Os padrões de Wi-Fi são defi nidos pelo IEEE sob o protocolo 802.11. Esses determinam como os dispositivos sem fi o se comunicam e se conectam à internet. A evolução desses padrões levou a uma melhoria signifi cativa na velocidade, no alcance e na confi abilidade.\nEntre esses padrões, dois são descritos a seguir.\nI. conhecido como Wi-Fi 5, opera principalmente na banda de 5 GHz com velocidades superiores a 1 Gbps;\nII. conhecido como Wi-Fi 6, esse padrão foi desenvolvido para frequências mais altas e pode atingir velocidades de até 10 Gbps, além de oferecer suporte a vários dispositivos simultaneamente.\nOs padrões wi-fi descritos em I e II são conhecidos, respectivamente, como:",
+        "alternativas": [
+            "IEEE-802.11ax e IEEE-802.11be.",
+            "IEEE-802.11ax e IEEE-802.11ac.",
+            "IEEE-802.11be e IEEE-802.11ax.",
+            "IEEE-802.11ac e IEEE-802.11be.",
+            "IEEE-802.11ac e IEEE-802.11ax."
+        ],
+        "gabarito": "IEEE-802.11ac e IEEE-802.11ax."
+    },
+    {
+        "id": 102,
+        "enunciado": "Assinale a opção correta no que se refere às bandas de operação dos padrões IEEE 802.11.",
+        "alternativas": [
+            "O padrão 802.11n opera apenas na banda de 2,4 GHz.",
+            "O padrão 802.11ac funciona em uma faixa de frequências que não sofre interferências por micro-ondas.",
+            "O padrão 802.11g funciona em uma faixa de frequências que não sofre interferências por micro-ondas.",
+            "Os padrões 802.11b e 802.11g operam na banda de 5 GHz.",
+            "Os padrões 802.11a e 802.11ac operam apenas na banda de 5 GHz."
+        ],
+        "gabarito": "Os padrões 802.11a e 802.11ac operam apenas na banda de 5 GHz."
+    },
+    {
+        "id": 103,
+        "enunciado": "Em relação a redes de computadores, julgue o item a seguir.\nNo padrão IEEE 802.11g, a rede opera em 5 GHz e suporta taxas de até 100 Mbps.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 104,
+        "enunciado": "As redes sem fio (Wi-Fi) operam com base em padrões desenvolvidos pelo Institute of Electrical and Electronics Engineers (IEEE), dentro da família 802.11. Nessa família de padrões, o IEEE 802.11ax",
+        "alternativas": [
+            "continua vulnerável à interferência, pois ainda opera na faixa de 2,4 GHz, atingindo velocidade máxima de até 6,9 Gbps.",
+            "introduz Multiple Input Multiple Output (MIMO), Dual-band (2,4 GHz e 5 GHz) e Multiple Amplitude Modulation (MAM).",
+            "introduz Orthogonal Frequency Division Multiple Access (OFDMA), Multi-User MIMO (MU-MIMO) aprimorado e Target Wake Time (TWT).",
+            "opera na frequência de 2,4 GHz e 5 GHz, com velocidade máxima de 600 Mbps.",
+            "é conhecido como Wi-Fi 5 e utiliza modulação Orthogonal Frequency Division Multiplexing (OFDM) com 256-QAM (Quadrature Amplitude Modulation)."
+        ],
+        "gabarito": "introduz Orthogonal Frequency Division Multiple Access (OFDMA), Multi-User MIMO (MU-MIMO) aprimorado e Target Wake Time (TWT)."
+    },
+    {
+        "id": 105,
+        "enunciado": "Uma empresa com grande tráfego de dados precisa adquirir um equipamento WiFi, no padrão IEEE, que deve operar na frequência de 5 GHz, com uma velocidade máxima de 54 Mbps, que sofre menos interferências que outros padrões e que vai trabalhar com um alcance reduzido, por conta de questões de segurança. Esse padrão WiFi é o IEEE 802.11:",
+        "alternativas": [
+            "a.",
+            "b.",
+            "g.",
+            "n."
+        ],
+        "gabarito": "a."
+    },
+    {
+        "id": 106,
+        "enunciado": "O avanço da tecnologia de redes sem fio tem sido um fator determinante para o crescimento da conectividade em residências, empresas e ambientes urbanos inteligentes. O novo padrão Wi-Fi 7 (IEEE 802.11be) promete uma revolução no desempenho das redes sem fio, com melhorias importantes em relação aos padrões anteriores. Nesse contexto, analise as inovações tecnológicas do Wi-Fi 7 apresentadas a seguir:\nI.Permite a agregação simultânea de múltiplos links em diferentes bandas de frequência, otimizando a latência e a confiabilidade da conexão.\nII.Limita a largura de canal a 160 MHz para garantir maior compatibilidade com equipamentos legados. III.Adota modulação 4096-QAM que amplia a taxa de transmissão de dados.\nIV.Elimina o uso das bandas de 2,4 GHz e 5 GHz, operando exclusivamente em 6 GHz.\nÉ inovação introduzida pelo padrão Wi-Fi 7 o que está indicado em:",
+        "alternativas": [
+            "I e III, apenas.",
+            "I e IV, apenas.",
+            "II e IV, apenas.",
+            "II, apenas.",
+            "III, apenas."
+        ],
+        "gabarito": "I e III, apenas."
+    },
+    {
+        "id": 107,
+        "enunciado": "Nas Redes sem Fio (WLAN), as faixas específicas de frequência de rádio, dentro de uma banda de frequência maior, são usadas para transmitir e receber dados.\nDiante do exposto, assinale a alternativa que traz os padrões IEEE que possuem 3 (três) canais não sobrepostos para evitar interferências nas Redes sem Fio.",
+        "alternativas": [
+            "802.11b (2.4 GHz) e 802.11g (2.4 GHz).",
+            "802.11b (2.4 GHz) e 802.11a (5 GHz).",
+            "802.11g (2.4 GHz) e 802.11n (5 GHz).",
+            "802.11n (5 GHz) e 802.11n (5 GHz)."
+        ],
+        "gabarito": "802.11g (2.4 GHz) e 802.11n (5 GHz)."
+    },
+    {
+        "id": 108,
+        "enunciado": "As redes sem fio (wireless) têm se tornado cada vez mais essenciais devido à conveniência que oferecem e à crescente demanda por conectividade sem a limitação de cabos. A evolução dos padrões IEEE 802.11, conhecidos como Wi-Fi, tem sido fundamental para atender às necessidades de maior largura de banda, velocidades mais rápidas e maior eficiência em ambientes domésticos, corporativos e públicos. Considerando essa evolução, assinale a alternativa que corresponde à versão correta do Wi- Fi representado pelo padrão 802.11ac.",
+        "alternativas": [
+            "Wi-Fi 3.",
+            "Wi-Fi 4.",
+            "Wi-Fi 5.",
+            "Wi-Fi 6.",
+            "Wi-Fi 7."
+        ],
+        "gabarito": "Wi-Fi 5."
+    },
+    {
+        "id": 109,
+        "enunciado": "Um Auditor de uma Secretaria da Fazenda está avaliando um edital para implementação do Wi-Fi 6 na rede corporativa. Com base nas características técnicas descritas no edital, conclui corretamente que",
+        "alternativas": [
+            "a tecnologia CSMA/CD do Wi-Fi 6 substitui a necessidade de operar em múltiplas frequências, concentrando todo o tráfego em uma única banda.",
+            "a utilização simultânea nas bandas de 2,4 GHz e 5 GHz pelo Wi-Fi 6 e velocidades teóricas, em condições ideais, podem chegar a 9,6 Gbps.",
+            "o Wi-Fi 6 opera exclusivamente na frequência de 5 GHz, abandonando completamente a banda de 2,4 GHz para evitar interferências.",
+            "a inovação trazida pelo Wi-Fi 6 está no aumento da velocidade máxima teórica para 6 Gbps e a incorporada do Target Wake Time (TWT) aumenta a potência das antenas.",
+            "o Wi-Fi 6, também conhecido como 802.11n do IEEE, introduziu uma nova banda de 6 GHz além das tradicionais 2,4 GHz e 5 GHz."
+        ],
+        "gabarito": "a utilização simultânea nas bandas de 2,4 GHz e 5 GHz pelo Wi-Fi 6 e velocidades teóricas, em condições ideais, podem chegar a 9,6 Gbps."
+    },
+    {
+        "id": 110,
+        "enunciado": "O domínio das tecnologias de rede é essencial para o correto funcionamento da infraestrutura de TI, garantindo conectividade, desempenho e segurança na comunicação entre sistemas.\nQuanto às redes de computadores e suas tecnologias associadas, julgue (C ou E) o item a seguir.\nO padrão IEEE 802.11n opera exclusivamente na faixa de frequência de 2,4 GHz, o que o torna incompatível com dispositivos que operam em 5 GHz.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 111,
+        "enunciado": "Julgue o próximo item, a respeito de meios de transmissão, tipos de cabeamento, tecnologias, modelos de referência e elementos de rede.\nNo padrão IEEE 802.11, utilizado em WLAN, as transmissões são feitas por meio de rádios de curto alcance nas bandas de 2,4 GHz (maior alcance) e 5 GHz (menor interferência).",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 112,
+        "enunciado": "Sobre a tecnologia Bluetooth, é INCORRETO afirmar que:",
+        "alternativas": [
+            "É uma tecnologia para redes LANs sem fio (WLANs) desenvolvida para conectar diversos tipos de dispositivos de diferentes funções, como telefones, notebooks, computadores (desktop e laptop), câmeras, impressoras etc.",
+            "É uma rede ad hoc, ou seja, é formada espontaneamente; os dispositivos, algumas vezes chamados de gadgets, localizam-se e criam uma rede chamada piconet.",
+            "Uma LAN bluetooth pode ser conectada à internet se um dos gadgets tiver essa capacidade.",
+            "Por natureza, uma LAN bluetooth pode ser grande.",
+            "Está baseada na implementação de um protocolo especificado pelo padrão IEEE 802.15, que define uma PAN (Personal-Area Network) sem fio operável em uma área do tamanho de uma sala ou de um hall."
+        ],
+        "gabarito": "Por natureza, uma LAN bluetooth pode ser grande."
+    },
+    {
+        "id": 113,
+        "enunciado": "O IEEE 802.15.1 é o padrão para a tecnologia:",
+        "alternativas": [
+            "Bluetooth.",
+            "Logical Link Control (LLC).",
+            "Wi-Fi.",
+            "Token Ring.",
+            "WiMAX."
+        ],
+        "gabarito": "Bluetooth."
+    },
+    {
+        "id": 114,
+        "enunciado": "Assinale a opção que apresenta o padrão de wi‑fi cuja taxa máxima de dados (teórica) é de 9,6 Gbps e que pode operar nas bandas de frequência de 2,4 GHz e 5 GHz.",
+        "alternativas": [
+            "wi‑fi 3 (IEEE 802.11g).",
+            "wi‑fi 4 (IEEE 802.11n).",
+            "wi‑fi 5 (IEEE 802.11ac).",
+            "wi‑fi 6 (IEEE 802.11ax).",
+            "wi‑fi 7 (IEEE 802.11be)."
+        ],
+        "gabarito": "wi‑fi 6 (IEEE 802.11ax)."
+    },
+    {
+        "id": 115,
+        "enunciado": "No universo das redes de computadores, a Wi-Fi Alliance criou as referências Wi-Fi 6 e Wi-Fi 6E como nomes comerciais inclusos no padrão IEEE 802.11/ax de redes sem fio. Entre as especificações desses padrões, três são listadas a seguir:\nI.O Wi-Fi 6 utiliza as frequências de 2,4 GHz e de 5 GHz, ao passo que o Wi-Fi 6E suporta também uma terceira frequência, permitindo maiores velocidades e menos interferências.\nII.Suportam uma velocidade máxima de transferência de dados.\nIII.Operam com uma tecnologia que divide os canais de frequência de redes sem fio em pequenas subportadoras, permitindo que pacotes de dados sejam transmitidos em conjunto para otimizar a entrega.\nNesse contexto, os valores da terceira frequência e da velocidade teórica máxima e a sigla pela qual é conhecida a tecnologia, são, respectivamente:",
+        "alternativas": [
+            "9 GHz, 15,2 Gb/s e OFDMA.",
+            "6 GHz, 15,2 Gb/s e MU-MIMO.",
+            "6 GHz, 9,6 Gb/s e OFDMA.",
+            "9 GHz, 9,6 Gb/s e MU-MIMO."
+        ],
+        "gabarito": "6 GHz, 9,6 Gb/s e OFDMA."
+    },
+    {
+        "id": 116,
+        "enunciado": "Entre os padrões IEEE 802.11, um é também conhecido por Wi-Fi5, sendo amplamente utilizado, suporta velocidades máximas de transferência de dados de até 6,93 Gb/s nominais, largura de canal mínimo de 80 MHz, podendo chegar a até 160 MHz, frequência de operação exclusivamente em 5 GHz, modulação 256 QAM, suporte MIMO para transmissões simultâneas entre um mesmo dispositivo e protocolos de segurança WEP, WPA e WPA2.\nEsse padrão é conhecido como:",
+        "alternativas": [
+            "IEEE 802.11/n.",
+            "IEEE 802.11/ax.",
+            "IEEE 802.11/ac.",
+            "IEEE 802.11/b."
+        ],
+        "gabarito": "IEEE 802.11/ac."
+    },
+    {
+        "id": 117,
+        "enunciado": "Julgue o próximo item, relativo a conceitos de rede de computadores, elementos de interconexão de redes de computadores e noções dos modelos de referência OSI.\nEm uma rede local LAN com fio, o padrão (Ethernet) é o IEEE 802.11 e, em uma rede local sem fios (wi-fi), o padrão é o IEEE 802.3.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 118,
+        "enunciado": "Julgue o item subsequente, relacionado a noções dos modelos de referência OSI, noções dos padrões IEEE 802.1, IEEE 802.3, IEEE 802.11 a/b/g/n/ac e arquitetura e pilhas de protocolo TCP/IP.\nPara que o método de transmissão sem fio 802.11n alcançasse velocidade mínima de 100 Mbps, o comitê IEEE dobrou os canais de 20 MHz para 40 MHz.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 119,
+        "enunciado": "A especificação IEEE 802.11 é usualmente utilizada em redes sem fio e seu quadro é composto por diversos campos.\nO tamanho em bits do campo de verificação de redundância cíclica é",
+        "alternativas": [
+            "8.",
+            "16.",
+            "32.",
+            "64.",
+            "128."
+        ],
+        "gabarito": "32."
+    },
+    {
+        "id": 120,
+        "enunciado": "A respeito de redes de computadores, julgue item subsequente.\nOs padrões IEEE 802.11n e IEEE 802.11ac operam nas faixas de 2,4 GHz e 5 GHz e suportam a funcionalidade de beamforming.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 121,
+        "enunciado": "Com base no padrão IEEE 802.11ax, também conhecido como WIFI 6, julgue o item seguinte.\nO padrão IEEE 802.11ax não prevê compatibilidade com o padrão IEEE 802.11ac.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 122,
+        "enunciado": "Com base no padrão IEEE 802.11ax, também conhecido como WIFI 6, julgue o item seguinte.\nO referido padrão prevê o uso de OFDMA (Orthogonal Frequency Division Multiple Access) ao custo de aumentar a sobrecarga e reduzir a latência.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 123,
+        "enunciado": "Com relação ao padrão IEEE 802.11n utilizado em redes sem fio, julgue o item a seguir.\nNo padrão IEEE 802.11n, a largura de canal pode ser de 20 MHz ou de 40 MHz",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 124,
+        "enunciado": "Com relação ao padrão IEEE 802.11n utilizado em redes sem fio, julgue o item a seguir.\nEsse padrão, que utiliza o espectro na banda de 2,4 GHz, não é compatível com a banda de 5 GHz.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 125,
+        "enunciado": "Com relação aos padrões da família IEEE 802.x, julgue o próximo item.\nO padrão IEEE 802.11ac utiliza o OFDM (Orthogonal Frequency Division Multiplexing) com até 52 portadoras e modulação QAM (Quadrature Amplitude Modulation) com 64 canais, no máximo.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 126,
+        "enunciado": "Com relação aos padrões da família IEEE 802.x, julgue o próximo item.\nOs padrões IEEE 802.11a/b/g/n/ac para redes sem fio diferem-se quanto às bandas de frequências, às técnicas de multiplexação e às técnicas de modulação do canal de comunicação, o que permite velocidades maiores nos padrões mais modernos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 127,
+        "enunciado": "Redes de Computadores podem ser classificadas de diversas formas, como de acordo com o tamanho da área geográfica que elas abrangem.\nQuanto à abrangência, a rede que ocupa o espaço de uma sala, escritório ou mesmo um prédio inteiro, porém sem o uso de cabos, usando transmissões em radiofrequência, chama-se:",
+        "alternativas": [
+            "PAN (Personal Area Network);",
+            "WAN (Wide Area Network);",
+            "LAN (Local Area Network);",
+            "IEEE 802.11;",
+            "IEEE 802.3."
+        ],
+        "gabarito": "IEEE 802.11;"
+    },
+    {
+        "id": 128,
+        "enunciado": "Em contraste com as redes conectadas fisicamente, as redes sem fio são ruidosas e pouco confiáveis. Um dos padrões mais famosos para redes sem fio é o IEEE 802.11.\nDentre as características das redes que usam o protocolo IEEE 802.11, é correto afirmar que:",
+        "alternativas": [
+            "o protocolo IEEE 802.11 tenta resolver os problemas das estações expostas, ocultas ou transparentes;",
+            "em ambientes abertos e sem obstáculos, quanto maior a frequência do sinal, menor a atenuação do sinal;",
+            "o IEEE 802.11, para o acesso ao meio, procura detectar as colisões, escutando o canal durante as transmissões;",
+            "a probabilidade de um quadro trafegar por essas redes com sucesso aumenta com o aumento do tamanho do quadro;",
+            "o IEEE 802.11, para o acesso ao meio, procura evitar as colisões, enviando quadros de aviso antes das transmissões."
+        ],
+        "gabarito": "o IEEE 802.11, para o acesso ao meio, procura evitar as colisões, enviando quadros de aviso antes das transmissões."
+    },
+    {
+        "id": 129,
+        "enunciado": "Leia o texto a seguir.\nA tecnologia IEEE 802.11, comumente conhecida como Wi-Fi, é amplamente utilizada para redes sem fio em ambientes domésticos, empresariais e públicos. Esta tecnologia define os padrões para comunicação sem fio entre dispositivos, incluindo laptops, smartphones, tablets e dispositivos de Internet das Coisas (IoT). O padrão IEEE 802.11 define várias especificações, como velocidades de transmissão, faixas de frequência e protocolos de segurança, para garantir uma comunicação eficiente e segura.\nDisponível em: https://www.ieee802.org/11/. Acesso em 20 fev. 2024.\nNo contexto das redes sem fio, a diferença entre as versões 802.11ac e 802.11n do padrão IEEE 802.11 está descrita em:",
+        "alternativas": [
+            "o padrão 802.11ac oferece velocidades de transmissão mais rápidas do que o 802.11n, mas opera na faixa de frequência de 5 GHz, enquanto o 802.11n opera em ambas as faixas de frequência de 2,4 GHz e 5 GHz.",
+            "o padrão 802.11ac é mais antigo que o 802.11n e oferece velocidades de transmissão mais lentas em comparação com o 802.11n, mas tem uma melhor capacidade de alcance.",
+            "o padrão 802.11ac oferece velocidades de transmissão mais rápidas do que o 802.11n e opera em ambas as faixas de frequência de 2,4 GHz e 5 GHz, proporcionando uma melhor largura de banda e desempenho.",
+            "o padrão 802.11ac opera na faixa de frequência de 2,4 GHz, enquanto o 802.11n opera em ambas as faixas de frequência de 2,4 GHz e 5 GHz, oferecendo velocidades de transmissão semelhantes."
+        ],
+        "gabarito": "o padrão 802.11ac oferece velocidades de transmissão mais rápidas do que o 802.11n e opera em ambas as faixas de frequência de 2,4 GHz e 5 GHz, proporcionando uma melhor largura de banda e desempenho."
+    },
+    {
+        "id": 130,
+        "enunciado": "Na atualidade, é muito comum encontrar conectividade a redes sem fio. Elas existem em diversas versões do padrão IEEE 802.11. Qual das opções a seguir opera na frequência de 2.4 GHz?",
+        "alternativas": [
+            "802.11a e 802.11b.",
+            "802.11a e 802.11g.",
+            "802.11b e 802.11g.",
+            "802.11n e 802.11a."
+        ],
+        "gabarito": "802.11b e 802.11g."
+    },
+    {
+        "id": 131,
+        "enunciado": "Quanto às características e ao funcionamento das redes locais sem fio padrão IEEE 802.11 (Wi-Fi), é correto afirmar que",
+        "alternativas": [
+            "ao se utilizar a topologia AdHoc é obrigatório instalar pontos de acesso (AP – Access Point) para prover comunicações entre as estações.",
+            "em uma rede infraestruturada, um ESS (Extended Service Set) é um conjunto estendido de serviços que representam um conjunto de estações formado pela união de vários conjuntos básicos de serviços conectados por um sistema de distribuição.",
+            "o padrão de comunicação IEEE 802.11a é compatível como o padrão de comunicação IEEE 802.11g.",
+            "uma estação que utiliza a faixa de frequência de 2,4 a 2,485 GHz faz uma varredura nos 14 canais para se associar a um ponto de acesso (AP – Acess Point).",
+            "o padrão IEEE 802.11 emprega o método de acesso chamado CSMA/CD (Carrier-Sense Multiple Access with Collision Detection)."
+        ],
+        "gabarito": "em uma rede infraestruturada, um ESS (Extended Service Set) é um conjunto estendido de serviços que representam um conjunto de estações formado pela união de vários conjuntos básicos de serviços conectados por um sistema de distribuição."
+    },
+    {
+        "id": 132,
+        "enunciado": "Julgue o item a seguir, a respeito de segurança de redes sem fio e de segurança de ativos de redes.\nConforme o padrão IEEE 802.11ax, é irrelevante o uso de MFP (Management Frame Protection) para manter a resiliência de redes de missão crítica, já que o MFP usa tecnologia insegura.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 133,
+        "enunciado": "Márcia recebeu a demanda de desenvolver um projeto de rede sem fio para um ambiente interno com uma área de 20 metros quadrados.\nConsiderando as características dos padrões IEEE 802.11, é correto afirmar que Márcia projetou a rede utilizando o padrão:",
+        "alternativas": [
+            "802.11b alcançando 200Mbits/s;",
+            "802.11g alcançando 108Mbits/s;",
+            "802.11n alcançando 200Mbits/s;",
+            "802.11b alcançando 54Mbits/s;",
+            "802.11g alcançando 108Mbits/s."
+        ],
+        "gabarito": "802.11n alcançando 200Mbits/s;"
+    },
+    {
+        "id": 134,
+        "enunciado": "Qual é o padrão de especificação para o Wi-Fi?",
+        "alternativas": [
+            "IEEE 802.3.",
+            "EEE 802.11.",
+            "IEEE 802.15.",
+            "IEEE 802.16."
+        ],
+        "gabarito": "EEE 802.11."
+    },
+    {
+        "id": 135,
+        "enunciado": "Os padrões IEEE 802.11n e IEEE 802.11ac apresentam algumas características, como:",
+        "alternativas": [
+            "o IEEE 802.11ac apresenta velocidade inferior à do IEEE 802.11n.",
+            "o IEEE 802.11ac utiliza apenas a frequência de 5 GHz.",
+            "o IEEE 802.11n pode operar em 2.4 GHz, 5 GHz ou 6 GHz.",
+            "os roteadores do padrão IEEE 802.11ac podem utilizar até quatro antenas.",
+            "os roteadores do padrão IEEE 802.11n podem utilizar até duas antenas."
+        ],
+        "gabarito": "o IEEE 802.11ac utiliza apenas a frequência de 5 GHz."
+    },
+    {
+        "id": 136,
+        "enunciado": "Existem diversos padrões de redes sem fio baseados no padrão IEEE 802.11, como o",
+        "alternativas": [
+            "IEEE 802.11a, que admite taxas de até 54 Mbps na banda ISM de 2,4 GHz.",
+            "IEEE 802.11b, que tem um alcance significativamente menor que o do 802.11a.",
+            "IEEE 802.11g, que opera na banda ISM de 5 GHz.",
+            "IEEE 802.11n, que usa, no máximo, duas antenas para transmitir até dois fluxos de informação ao mesmo tempo.",
+            "IEEE 802.11ac, que pode operar com até oito antenas simultaneamente."
+        ],
+        "gabarito": "IEEE 802.11ac, que pode operar com até oito antenas simultaneamente."
+    },
+    {
+        "id": 137,
+        "enunciado": "Acerca de rede de computadores e de protocolos de comunicação, julgue o item a seguir.\nEm uma rede local que possui acesso sem fio no padrão IEEE 802.11g, é possível atingir taxas de transmissão de até 54 Mbps entre computadores da rede.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 138,
+        "enunciado": "O padrão IEEE 802.11 de redes sem fio apresenta diversas opções, como o",
+        "alternativas": [
+            "802.11g, que introduziu melhorias para alcançar taxas elevadas de transmissão, como MIMO (Multiple-Input Multiple-Output), agregação de quadros e mudanças no protocolo de acesso ao meio.",
+            "802.11n, que foi desenvolvido para oferecer uma taxa de transmissão igual à do 802.11a, mas mantendo compatibilidade com o 802.11b.",
+            "802.11n, que utiliza a banda ISM de 2,4 ou 5 GHz, taxa de transmissão de 100 Mbps a 600 Mbps e o esquema HR-DSSS.",
+            "802.11b, que utiliza a banda ISM de 2,4 GHz, taxa de transmissão de 5 Mbps a 11 Mbps e o esquema HR-DSSS.",
+            "802.11a, que utiliza a banda ISM de 5 GHz, taxa de transmissão de 5 Mbps a 54 Mbps e o esquema HR-DSSS."
+        ],
+        "gabarito": "802.11b, que utiliza a banda ISM de 2,4 GHz, taxa de transmissão de 5 Mbps a 11 Mbps e o esquema HR-DSSS."
+    },
+    {
+        "id": 139,
+        "enunciado": "Diversas versões do padrão IEEE 802.11 são utilizadas atualmente. A(s) versão(ões) que utiliza(m) o método de transmissão MIMO-OFDM e possibilita(m) taxas de transferência de até 450 Mbps é(são):",
+        "alternativas": [
+            "IEEE 802.11g.",
+            "IEEE 802.11b, IEEE 802.11g e IEEE 802.11n.",
+            "IEEE 802.11n.",
+            "IEEE 802.11g e IEEE 802.11n.",
+            "IEEE 802.11b."
+        ],
+        "gabarito": "IEEE 802.11n."
+    },
+    {
+        "id": 140,
+        "enunciado": "A arquitetura IEEE 802 define um conjunto de normas e tecnologias para redes no escopo das camadas física (PHY) e de enlace. O padrão IEEE 802.3, apresenta a seguinte característica:",
+        "alternativas": [
+            "Tecnologia Power over Ethernet - PoE que permite transmissão de energia elétrica juntamente com os dados para um dispositivo remoto.",
+            "CSMA/CD, especifica a sintaxe e semântica MAC e também a camada Física.",
+            "Especificações do método de acesso Dual Bus e de fila distribuída da camada física.",
+            "Definição dos padrões para funcionamento de redes sem fios por meio de radiofrequência.",
+            "Protocolo para provimento de segurança em uma MAN."
+        ],
+        "gabarito": "CSMA/CD, especifica a sintaxe e semântica MAC e também a camada Física."
+    },
+    {
+        "id": 141,
+        "enunciado": "Assinale a alternativa correta relacionada com os padrões de redes sem fio IEEE 802.11b/g/n.",
+        "alternativas": [
+            "O padrão IEEE 802.11g não aceita a autenticação WEP estática.",
+            "O padrão IEEE 802.11n utiliza o método de transmissão MIMO-OFDM.",
+            "Uma semelhança entre os padrões IEEE 802.11b e IEEE 802.11g é que ambos operam na velocidade 65 Mbps.",
+            "O padrão IEEE 802.11b opera na faixa de frequência 5,8 GHz.",
+            "Os padrões IEEE 802.11b, IEEE 802.11g e IEEE 802.11n apresentam algumas semelhanças, como operarem nas faixas de frequência 2,4 GHz e/ou 5 GHz."
+        ],
+        "gabarito": "O padrão IEEE 802.11n utiliza o método de transmissão MIMO-OFDM."
+    },
+    {
+        "id": 142,
+        "enunciado": "Acerca de redes sem fio, analise as seguintes afirmações:\nI - A solução para o problema de acesso à mídia com WLANs é usar o algoritmo CSMA/CD.\nII - O 802.11b utiliza a modulação DSSS, enquanto o 802.11g e o 802.11n utilizam a OFDM.\nIII - Na frequência de 2.4 GHz, os canais 1, 6 e 11 são considerados não sobrepostos.\nIV - O WPA permite o uso de autenticação do usuário IEEE 802.1X ou então uma autenticação simples, usando chaves pré-compartilhadas.\nEstão corretas apenas as afirmativas:",
+        "alternativas": [
+            "I e IV.",
+            "III e IV.",
+            "I e II.",
+            "I, II e III.",
+            "II, III e IV."
+        ],
+        "gabarito": "II, III e IV."
+    },
+    {
+        "id": 143,
+        "enunciado": "Sobre a transmissão de dados em rede sem fio (WLAN), marque a alternativa correta.",
+        "alternativas": [
+            "A rede WLAN usa diversos protocolos definidos anteriormente para redes LAN, com algumas especificidades, como a diferença nos tamanhos de frames enviados por WLAN, que precisam ser convertidos em frames de Ethernet e vice-versa.",
+            "Na transmissão de dados sem fio conhecida como Wi-Fi, o sinal transmitido conta apenas com um canal, que pode ser conectado por diversos dispositivos por conta da diferença dos endereços IP de cada aparelho.",
+            "O Instituto de Engenheiros Eletricistas e Eletrônicos (IEEE) não conta com padrões e protocolos específicos para redes sem fio, mas os mesmos já definidos para redes com fio podem ser utilizados.",
+            "As redes WLAN são usadas, exclusivamente, para acesso à internet, sendo necessário cabos de rede LAN para conexão local entre as máquinas."
+        ],
+        "gabarito": "A rede WLAN usa diversos protocolos definidos anteriormente para redes LAN, com algumas especificidades, como a diferença nos tamanhos de frames enviados por WLAN, que precisam ser convertidos em frames de Ethernet e vice-versa."
+    },
+    {
+        "id": 144,
+        "enunciado": "O padrão IEEE 802.11g apresenta como uma de suas características",
+        "alternativas": [
+            "a velocidade de 54 Mbps.",
+            "utilizar a autenticação WEP (Wired Equivalent Privacy) estática, não aceitando o tipo de autenticação WPA (Wireless Protect Access).",
+            "operar em duas faixas: 2,4 GHz e 5 GHz.",
+            "a compatibilidade com os dispositivos dos demais padrões IEEE 802.11, como: a, b, ac e n.",
+            "operar em uma única faixa: 5 GHz."
+        ],
+        "gabarito": "a velocidade de 54 Mbps."
+    },
+    {
+        "id": 145,
+        "enunciado": "Quanto às tecnologias de redes locais, julgue o item.\nA tecnologia de redes locais sem fio (WLANs) é baseada no padrão IEEE 802.11.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 146,
+        "enunciado": "Um padrão IEEE para redes wireless possui as características listadas a seguir.\nI. Utiliza largura de banda com valores de 80 a 160 MHz.\nlI. Utiliza eficiência espectral com emprego das tecnologias OFDM, modulação QAM256 e MIMO 8x8.\nIlI. Utiliza a faixa de 5 GHz, por padrão, que é menos congestionada de dispositivos e, portanto, menos poluída de fontes interferentes.\nEsse padrão é conhecido como:",
+        "alternativas": [
+            "IEEE_802.11/g.",
+            "IEEE_802.11/n.",
+            "IEEE 802.11/ab.",
+            "IEEE 802.11/ac."
+        ],
+        "gabarito": "IEEE 802.11/ac."
+    },
+    {
+        "id": 147,
+        "enunciado": "Em relação aos tipos de redes de acordo com a arquitetura IEEE 802, as redes pessoais sem fio utilizadas por dispositivos que suportam Bluetooth são representadas pelo padrão:",
+        "alternativas": [
+            "802.3.",
+            "802.11.",
+            "802.15.",
+            "802.16."
+        ],
+        "gabarito": "802.15."
+    },
+    {
+        "id": 148,
+        "enunciado": "Julgue o item que se seguem, a respeito de gestão de processos, padrão IEEE 802.11, serviços em nuvem e sistemas gerenciadores de bancos de dados.\nNa camada de enlace do padrão IEEE 802.11, a subcamada LLC é responsável por determinar como e para qual solicitante o canal de transmissão será alocado em determinado instante.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 149,
+        "enunciado": "Quanto aos padrões da rede Wi-Fi, relacione os tipos IEEE 802.11 da coluna da esquerda com as suas respectivas frequências da coluna da direita:\n(A) IEEE 802.11ac (1) 2,4 GHz\n(B) IEEE 802.11g (2) 5,0 GHz\n(C) IEEE 802.11n Assinale a alternativa com a correlação correta de cima para baixo.",
+        "alternativas": [
+            "A2 - B1 - C12.",
+            "A1 - B2 - C12.",
+            "A12 - B1 - C2.",
+            "A2 - B12 - C1."
+        ],
+        "gabarito": "A2 - B1 - C12."
+    },
+    {
+        "id": 150,
+        "enunciado": "Uma rede sem fio (Wireless Local Address Network – WLAN) é uma rede que permite dispositivos se comunicarem através de um meio de transmissão sem fio, utilizando o padrão 802.11. Em relação às características de redes sem fio IEEE 802.11, assinale a afirmativa INCORRETA.",
+        "alternativas": [
+            "Redes sem fio 802.11b têm uma taxa de dados de até 11 Mbits/s e operam na faixa de frequência de 2,4 a 2,485 GHz, competindo por espectros de frequência com telefones e micro-ondas de 2.4 GHz.",
+            "O IEEE 802.11n utiliza antenas de entrada múltipla e saída múltipla (MIMO), podendo transmitir e receber pacotes utilizando sinais diferentes. Essa característica contribui para a melhora no aumento do throughput de dados.",
+            "O quadro do IEEE 802.11 em relação ao quadro Ethernet contém quatro campos de endereço; cada campo contendo um endereço MAC de 6 bytes. Esses campos são utilizados para interconexão em rede e também pelos pontos de acesso para encaminhar quadros um para os outros em modo ad hoc.",
+            "Redes sem fio 802.11a podem funcionar com uma taxa de dados mais altas; porém, em frequências altas (5,1 a 5.8 GHz). Como operam em uma frequência mais alta, a distância de transmissão desse tipo de rede é maior para determinado nível de potência, sofrendo mais com a propagação multivias."
+        ],
+        "gabarito": "Redes sem fio 802.11a podem funcionar com uma taxa de dados mais altas; porém, em frequências altas (5,1 a 5.8 GHz). Como operam em uma frequência mais alta, a distância de transmissão desse tipo de rede é maior para determinado nível de potência, sofrendo mais com a propagação multivias."
+    },
+    {
+        "id": 151,
+        "enunciado": "As afirmações que seguem tratam do assunto “Redes Sem Fio”. Avalie as afirmações abaixo.\nI. Numa rede WIFI que utiliza o WPA2, a melhor opção é a utilização da criptografia AES.\nII. O Sistema de criptografia AES é mais recente que o TKIP.\nIII. O padrão IEEE 802.11g trabalha com taxas de 54 GHz.\nDas afirmações apresentadas, estão corretas:",
+        "alternativas": [
+            "I e III, apenas.",
+            "I e II, apenas.",
+            "II e III, apenas.",
+            "I, II e III."
+        ],
+        "gabarito": "I, II e III."
+    },
+    {
+        "id": 152,
+        "enunciado": "As duas bandas de frequências mais utilizadas com o padrão wi-fi IEEE 802.11x são, respectivamente:",
+        "alternativas": [
+            "1,5 GHz e 3 GHz.",
+            "2,4 GHz e 5 GHz.",
+            "3,4 GHz e 7 GHz.",
+            "5 GHz e 9 GHz."
+        ],
+        "gabarito": "2,4 GHz e 5 GHz."
+    },
+    {
+        "id": 153,
+        "enunciado": "Presentes no local de trabalho, em casa, em instituições educacionais, em cafés, aeroportos e esquinas, as redes locais sem fio, ou LANs sem fio, são uma das mais importantes tecnologias de rede de acesso na Internet. Embora muitas tecnologias e padrões para LANs sem fio tenham sido desenvolvidos na década de 1990, uma classe particular de padrões surgiu claramente como a vencedora, a LAN sem fio IEEE 802.11. Considerando os padrões 802.11 existentes, todas as opções abaixo estão corretas, exceto.",
+        "alternativas": [
+            "O padrão IEEE 802.11a, com a utilização de multiplexação por divisão de frequências ortogonais (OFDM), possibilita taxas de dados de até 54Mb/s na frequência de 5Ghz.",
+            "O padrão IEEE 802.11g aplicou os benefícios do OFDM, introduzido anteriormente somente para a banda de 5GHz, também para a frequência de 2,4GHz, utilizando uma largura de banda de 20Mhz.",
+            "O padrão IEEE 802.11b foi lançado oficialmente em setembro de 1999 e conseguiu aumentar a taxa de dados da camada física DSSS para 11Mb/s na frequência de 2,4Ghz.",
+            "O padrão IEEE 802.11ac apesar de conseguir operar em altas taxas de dados, não oferece compatibilidade com a tecnologia Multiple Input Multiple Output. (MIMO).",
+            "O padrão IEEE 802.11n foi o primeiro a adotar a tecnologia Multiple Input Multiple Output (MIMO), utilizando até 4 antenas diferentes no mesmo ponto de acesso e possibilitando a multiplexação espacial e formação de beams."
+        ],
+        "gabarito": "O padrão IEEE 802.11ac apesar de conseguir operar em altas taxas de dados, não oferece compatibilidade com a tecnologia Multiple Input Multiple Output. (MIMO)."
+    },
+    {
+        "id": 154,
+        "enunciado": "As redes sem fio seguem alguns padrões, como o IEEE 802.11",
+        "alternativas": [
+            "a, que utiliza a frequência de 2,4 GHz.",
+            "b, que utiliza a frequência de 5 GHz.",
+            "g, que da mesma forma que o padrão n, utiliza a frequência 2,4 GHz e/ou 5 GHz.",
+            "g, que oferece as mesmas taxas do 802.11a e a compatibilidade com dispositivos 802.11b.",
+            "n, usa até 24 antenas para transmitir até 12 fluxos de informação ao mesmo tempo."
+        ],
+        "gabarito": "g, que oferece as mesmas taxas do 802.11a e a compatibilidade com dispositivos 802.11b."
+    },
+    {
+        "id": 155,
+        "enunciado": "“Protocolo de rede local, sem fio, capaz de dar suporte à velocidade teórica de transmissão de 54 Mbps, dentro da faixa de frequência de 2,4 Ghz.” Considerando os padrões de redes sem fio (wireless), a informação se refere a:",
+        "alternativas": [
+            "IEEE 802.11a.",
+            "IEEE 802.11b.",
+            "IEEE 802.11g.",
+            "IEEE 802.11n."
+        ],
+        "gabarito": "IEEE 802.11g."
+    },
+    {
+        "id": 156,
+        "enunciado": "Um Analista de Tecnologia da Informação usa um programa de análise de Wi-fi e percebe que os canais da frequência 2,4GHz estão muito usados. Julgue a seguinte afirmação: para usar uma frequência e canais diferentes da analisada, o analista poderá optar pelo uso da tecnologia IEEE 802.11n.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 157,
+        "enunciado": "Em redes locais sem fio, o padrão de origem é o IEEE 802.11. Para o padrão na versão IEEE 802.11b, assinale a alternativa que indica corretamente qual a largura de banda para transmissão de dados que pode ser alcançada.",
+        "alternativas": [
+            "até 11 Mbps.",
+            "até 20 Mbps.",
+            "até 54 Mbps.",
+            "até 100 Mbps.",
+            "até 150 Mbps."
+        ],
+        "gabarito": "até 11 Mbps."
+    },
+    {
+        "id": 158,
+        "enunciado": "Com relação a redes sem fio, julgue o próximo item.\nConsiderando-se o framework EAP, o PEAP (protected extensible authentication protocol) fornece um método para transportar dados de autenticação em redes Wi-fi padrão IEEE 802.11 por meio de tunelamento entre clientes PEAP e um servidor de autenticação, de modo que os clientes são autenticados por meio de certificados somente do lado do servidor.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 159,
+        "enunciado": "Uma rede sem fio (Wi-Fi) permite que dispositivos estejam interconectados sem uma interligação física através de cabos. Oferece maior conveniência, mobilidade e expansibilidade em relação à rede cabeada. Sobre o IEEE 802.11, um padrão consolidado e que implementa a maioria das redes sem fio domésticas e empresariais, analise as afirmativas a seguir.\nI. O sub-padrão 802.11b tem taxa de transferência superior ao sub-padrão 802.11a com alcance de sinal inferior; opera em frequências de 5 Ghz.\nII. O WEP (Wired Equivalent Privacy) é um tipo de autenticação mais segura, pois utiliza chaves criptográficas dinâmicas.\nIII. O modo de transmissão OFDM (Orthogonal Frequency Division Multiplexing) é capaz de identificar interferências e alterar a frequência ou a velocidade de transmissão dos dados.\nEstá correto o que se afirma apenas em",
+        "alternativas": [
+            "I.",
+            "III.",
+            "I e II.",
+            "I e III.",
+            "II e III."
+        ],
+        "gabarito": "III."
+    },
+    {
+        "id": 160,
+        "enunciado": "O padrão de rede 802.11 é padronizado por qual órgão internacional?",
+        "alternativas": [
+            "ISO (International Organization for Standardization).",
+            "ANSI (American National Standards Institute).",
+            "NIST (National Institute of Standards and Technology).",
+            "ASTM (American Society for Testing and Materials).",
+            "IEEE (Institute of Electrical and Electronics Engineers)."
+        ],
+        "gabarito": "IEEE (Institute of Electrical and Electronics Engineers)."
+    },
+    {
+        "id": 161,
+        "enunciado": "O padrão IEEE 802.11n, mediante sua publicação, teve como objetivo aumentar a velocidade obtida com os padrões 802.11g, 802.11a, que eram de 54 Mbps para até 600 Mbps, sendo que, para isso, eram utilizados quatro canais de dados com espaçamento de 40 MHz entre eles. A publicação deste padrão foi realizada em:",
+        "alternativas": [
+            "2005.",
+            "2007.",
+            "2009.",
+            "2011."
+        ],
+        "gabarito": "2009."
+    },
+    {
+        "id": 162,
+        "enunciado": "O padrão IEEE 802.11 é um conjunto de especificações para",
+        "alternativas": [
+            "Cabeamento.",
+            "LAN.",
+            "TCP.",
+            "Wi-Fi."
+        ],
+        "gabarito": "Wi-Fi."
+    },
+    {
+        "id": 163,
+        "enunciado": "Wireless Local Area Network − WLAN são redes locais que conectam suas estações através de radiofrequência de modo que as estações se comunicam por meio de antenas situadas em placas wireless, transmitindo e recebendo dados sob forma de sinais de rádio. Uma WLAN que utiliza o padrão IEEE 802.11g como padrão de transmissão tem frequência de operação de",
+        "alternativas": [
+            "5 GHz.",
+            "2.1 GHz.",
+            "2.4 GHz.",
+            "5.4 GHz.",
+            "2.6 GHz."
+        ],
+        "gabarito": "2.4 GHz."
+    },
+    {
+        "id": 164,
+        "enunciado": "Com relação aos padrões IEEE 802.1D, IEEE 802.1w, IEEE 802.1s e IEEE 802.1Q, marque a alternativa INCORRETA.",
+        "alternativas": [
+            "O protocolo Rapid Spanning Tree foi introduzido no padrão IEEE 802.1w.",
+            "O protocolo Multiple Spanning Tree foi introduzido no padrão IEEE 802.1s.",
+            "Muitas funcionalidades do padrão 802.1D foram incorporadas no padrão 802.1Q.",
+            "802.1Q é o padrão de rede que suporta LANs virtuais (VLANs) em uma rede Ethernet IEEE 802.3.",
+            "O VLAN Identifier (VID) é um campo de 10 bits que identifica a VLAN ao qual o quadro pertence."
+        ],
+        "gabarito": "O VLAN Identifier (VID) é um campo de 10 bits que identifica a VLAN ao qual o quadro pertence."
+    },
+    {
+        "id": 165,
+        "enunciado": "Considere as afirmativas abaixo, sobre segurança em Redes Sem Fio:\nI – O Protocolo IEEE 802.11 WEP tem como propósito fornecer um nível de segurança semelhante ao que é encontrado em redes cabeadas.\nII – O Protocolo WEP especifica um algoritmo de gerenciamento de chaves entre o hospedeiro e o ponto de acesso sem fio que permite a autenticação de forma mais eficiente, quando comparado com o WPA original.\nIII – Com o WPA2, os pontos de acesso podem falar com um servidor de autenticação, que tipicamente possuiu um banco de dados de nomes de usuários e senhas, determinando assim se a estação tem permissão para acessar a rede.\nÉ CORRETO o que se afirma em:",
+        "alternativas": [
+            "I, II e III.",
+            "I e II, apenas.",
+            "I e III, apenas.",
+            "II e III, apenas.",
+            "Nenhuma das afirmativas está correta."
+        ],
+        "gabarito": "I e III, apenas."
+    },
+    {
+        "id": 166,
+        "enunciado": "Assinale a alternativa que apresenta uma tecnologia de rede sem fio de longa distância.",
+        "alternativas": [
+            "WiMAX.",
+            "ZigBee.",
+            "IEEE 802.11a.",
+            "IEEE 802.11g.",
+            "Bluetooth."
+        ],
+        "gabarito": "WiMAX."
+    },
+    {
+        "id": 167,
+        "enunciado": "O padrão IEEE 802.11 (wi-fi) utiliza bandas de frequência não licenciadas e técnicas específicas para lidar com as limitações do meio sem fio.\nO motivo para o uso de técnicas de diversidade de caminhos nas redes 802.11 é",
+        "alternativas": [
+            "reduzir o consumo de energia dos pontos de acesso e dos clientes.",
+            "evitar completamente colisões de pacotes no meio sem fio.",
+            "eliminar a necessidade de protocolos de controle de acesso ao meio (CSMA).",
+            "contornar os efeitos do enfraquecimento por múltiplos caminhos (multipath fading).",
+            "aumentar a potência de transmissão dos dispositivos para superar interferências."
+        ],
+        "gabarito": "contornar os efeitos do enfraquecimento por múltiplos caminhos (multipath fading)."
+    },
+    {
+        "id": 168,
+        "enunciado": "A especificação IEEE 802.11x define uma série de padrões de transmissão e codificação para comunicações sem fio. A técnica de modulação OFDM introduzida pela 802.11a consiste em",
+        "alternativas": [
+            "dividir os bits em diversos stream de taxa menor que serão transmitidos por subcanais paralelos.",
+            "mudar constantemente a portadora por meio de vários canais de frequência usando uma sequência aleatória.",
+            "separar a largura de banda uniformemente em dois canais e fixar um canal para enviar bits e outro para receber hits.",
+            "codificar a informação em múltiplas portadoras e impedir que o espaçamento entre elas seja ortogonal."
+        ],
+        "gabarito": "dividir os bits em diversos stream de taxa menor que serão transmitidos por subcanais paralelos."
+    },
+    {
+        "id": 169,
+        "enunciado": "A transmissão de dados da camada física em redes LANs sem fio (WLANs) IEEE 802.11 FHSS utiliza o método de espalhamento espectral por saltos de frequência\n(Frequency Hopping Spread Spectrum). É um tipo de modulação utilizada no FHSS:",
+        "alternativas": [
+            "PSK.",
+            "FSK.",
+            "QAM.",
+            "OFDM.",
+            "QPSK."
+        ],
+        "gabarito": "FSK."
+    },
+    {
+        "id": 170,
+        "enunciado": "O padrão IEEE 802.11 define a tecnologia das redes locais sem fio (WLAN).\nAnalise as afirmativas abaixo em relação ao padrão IEEE 802.11n.\n1. Aumenta a taxa de transferência de dados combinando várias vias de transmissão.\n2. É capaz de estabelecer comunicação com taxas de transmissões teoricamente superiores a 400 Mbps.\n3. Usa exclusivamente a frequência de 2.4 GHz para seus canais sendo, portanto, incompatível com o padrão 802.11a.\n4. Usa a modulação OFDM em sua técnica de transmissão de dados.\nAssinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "É correta apenas a afirmativa 3.",
+            "É correta apenas a afirmativa 4.",
+            "São corretas apenas as afirmativas 2 e 3.",
+            "São corretas apenas as afirmativas 3 e 4.",
+            "São corretas apenas as afirmativas 1, 2 e 4."
+        ],
+        "gabarito": "São corretas apenas as afirmativas 1, 2 e 4."
+    },
+    {
+        "id": 171,
+        "enunciado": "O padrão IEEE 802.1p acrescenta um campo aos quadros Ethernet. O objetivo principal desse recurso é",
+        "alternativas": [
+            "aumentar a largura de banda disponível nos enlaces físicos.",
+            "realizar a diferenciação de tráfego por classes de serviço.",
+            "definir tamanhos máximos para os quadros Ethernet.",
+            "ajustar a potência de transmissão dos dispositivos sem fio."
+        ],
+        "gabarito": "realizar a diferenciação de tráfego por classes de serviço."
+    },
+    {
+        "id": 172,
+        "enunciado": "A Qualidade de serviço (QoS – Quality of Service) é fundamental para garantir o trânsito de dados de alta prioridade de tráfego numa rede de capacidade limitada.\nCom relação ao assunto, analise os itens a seguir.\nI. O cabeçalho IEEE 802.1q possui 03 (três) bits relacionados à prioridade de pacotes (PCP – Priority Code Point).\nII. O campo Priority Code Point (PCP) do protocolo IEEE 802.1q pode assumir valores de 0 até 7, sendo os pacotes classificados com 0 os de maior prioridade e os classificados com 7 os de menor prioridade.\nIII. Em conexões de rede do tipo Tronco de VLAN (Virtual Local Area Network) é possível realizar a prioridade de tráfego entre as VLAN existentes por meio do campo Priority Code Point (PCP) do protocolo IEEE 802.1q.\nEstá correto o que se afirma em:",
+        "alternativas": [
+            "somente I;",
+            "somente I e II;",
+            "somente I e III;",
+            "somente II e III;",
+            "I, II e III."
+        ],
+        "gabarito": "somente I e III;"
+    },
+    {
+        "id": 173,
+        "enunciado": "Em engenharia de tráfego, existe tecnologia de rede de computadores que permite a um operador suplantar o roteamento IP normal e obrigar que uma parte do tráfego dirigido a um dado destino siga por um caminho, e que outra parte do tráfego dirigido ao mesmo destino siga por outro, por critérios de desempenho. Trata-se",
+        "alternativas": [
+            "da MPLS.",
+            "dos padrões IEEE 802.11.",
+            "do WPA2.",
+            "do WEP.",
+            "do WPA."
+        ],
+        "gabarito": "da MPLS."
+    },
+    {
+        "id": 174,
+        "enunciado": "Sobre o padrão Wi-Fi 6 e a gestão de dispositivos móveis (MDM), é correto afirmar:",
+        "alternativas": [
+            "No Wi-Fi 6, o MDM substitui o beamforming, subdividindo canais em subportadoras e permitindo a transmissão para vários pontos de extremidade (dispositivos) ao mesmo tempo.",
+            "O Wi-Fi 6, padrão IEEE 802.11ax, apesar de suportar modos infraestrutura e ad hoc, não substitui a necessidade de MDM, pois este último gerencia políticas de segurança e conformidade independentemente do modo de operação da rede.",
+            "A segurança WPA3 do Wi-Fi 6 atua na camada de rede e transporte (autenticação e criptografia), enquanto o MDM opera na camada de aplicação (gestão de dispositivos e dados), sendo tecnologias complementares sem redundância.",
+            "O CSMA/CD do Wi-Fi 6 melhora a eficiência espectral para múltiplos dispositivos, mas não oferece funcionalidades de gestão de dispositivos (como inventário de hardware ou distribuição de aplicativos), mantendo a necessidade crítica do MDM.",
+            "A combinação entre os mecanismos de segurança do Wi-Fi 6, como WPA3 e Enterprise, e as políticas de controle de acesso do MDM reforça a proteção dos dados corporativos de forma complementar."
+        ],
+        "gabarito": "A combinação entre os mecanismos de segurança do Wi-Fi 6, como WPA3 e Enterprise, e as políticas de controle de acesso do MDM reforça a proteção dos dados corporativos de forma complementar."
+    },
+    {
+        "id": 175,
+        "enunciado": "As redes locais (LANs) frequentemente utilizam diversos switches interligados por links redundantes para aumentar a disponibilidade da rede. No entanto, tal arranjo pode provocar links cíclicos (loops) na camada de enlace, gerando tempestades de broadcast que prejudicam o funcionamento da rede. O protocolo STP\n(Spanning Tree Protocol) atua para prevenir loops em uma LAN.\nAssinale a alternativa CORRETA quanto à sua especificação IEEE:",
+        "alternativas": [
+            "802.1a.",
+            "802.1b.",
+            "802.1d.",
+            "802.1x.",
+            "802.1q."
+        ],
+        "gabarito": "802.1d."
+    },
+    {
+        "id": 176,
+        "enunciado": "A principal função do protocolo IEEE 802.1d (spanning tree protocol) é",
+        "alternativas": [
+            "evitar que o CRC na camada física seja modificado.",
+            "evitar loops.",
+            "permitir o roteamento de pacotes.",
+            "evitar pacotes duplicados.",
+            "permitir a configuração do atraso do envio do datagrama."
+        ],
+        "gabarito": "evitar loops."
+    },
+    {
+        "id": 177,
+        "enunciado": "As configurações de redes de acesso (Camada empregam diferentes tecnologias (equipamentos, protocolos e padrões). Dentre estas tecnologias, o STP\n(Spanning Tree Protocol)",
+        "alternativas": [
+            "possui operação transparente para as estações finais, que detectam se estão conectadas a um único segmento de LAN ou a uma LAN de vários segmentos.",
+            "é um protocolo de rede que se fundamenta nas especificações IEEE 802.1d, 802.1q e 802.1s, e que cria uma topologia de árvore, desativando portas redundantes para garantir que não haja loops,.",
+            "define uma árvore com um dispositivo raiz e um caminho sem loop da raiz somente para os dispositivos routers na rede de Camada 2.",
+            "troca mensagens BPDU (Bridge Protocol Data Units) com outros switches para detectar loops e, em seguida, adiciona o loop ao alterar o status de interfaces de ponte selecionadas.",
+            "garante em seu algoritmo que haja múltiplos caminhos ativos entre dois dispositivos de rede."
+        ],
+        "gabarito": "é um protocolo de rede que se fundamenta nas especificações IEEE 802.1d, 802.1q e 802.1s, e que cria uma topologia de árvore, desativando portas redundantes para garantir que não haja loops,."
+    },
+    {
+        "id": 178,
+        "enunciado": "O protocolo Rapid Spanning Tree Protocol (RSTP) IEEE 802.1w pode ser visto mais como uma evolução do IEEE 802.1d.\nCom relação aos protocolos supracitados, avalie se as afirmativas a seguir são falsas (F) ou verdadeiras (V).\nI. Na configuração de formatos da BPDU do 802.1d, o identificador do protocolo é codificado no octeto 3 e possui o valor 0000 0001.\nII. O algoritmo do protocolo 802.1w é do tipo distribuído que seleciona uma bridge para ser a raiz de uma estrutura do tipo árvore, e atribui Port Rolles para as portas individuais em cada Bridge de uma LAN.\nIII. A operação do RSTP prevê recuperação rápida após a ocorrência de falhas em Bridges, Bridge Ports ou LANs.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "V – F – V.",
+            "V – V – F.",
+            "V – F – F.",
+            "F – V – V.",
+            "F – V – F."
+        ],
+        "gabarito": "F – V – V."
+    },
+    {
+        "id": 179,
+        "enunciado": "Em relação aos protocolos Rapid Spanning Tree (IEEE 802.1w) e o Protocolo Spanning Tree (IEEE 802.1d), é correto afirmar que",
+        "alternativas": [
+            "o Rapid Spannning Tree é mais eficiente em termos de utilização da largura de banda, enquanto o Spanning Tree não.",
+            "o Rapid Spanning Tree converge em menos de 1 segundo, enquanto o Spanning Tree converge em torno de 30 a 50 segundos em caso de falha de link.",
+            "o Rapid Spanning Tree é um protocolo de camada 3, enquanto o Spanning Tree é um protocolo de camada 2.",
+            "o Rapid Spanning Tree automatiza a otimização da topologia, enquanto o Spanning Tree requer intervenção manual.",
+            "o Rapid Spanning Tree permite a criação de links redundantes, mas o Spanning Tree não."
+        ],
+        "gabarito": "o Rapid Spanning Tree converge em menos de 1 segundo, enquanto o Spanning Tree converge em torno de 30 a 50 segundos em caso de falha de link."
+    },
+    {
+        "id": 180,
+        "enunciado": "Um analista foi designado para reconfigurar o protocolo Spanning Tree (STP), versão IEEE 802 1D_ em uma rede que consiste em quatro switches interligados em uma topologia em anel. Sabendo que os smitches SW-1, SW-2 e SW-3 estão configurados com a prioridade padrão do STP, para garantir que o switch SW-4 seja eleito como a root bridge, o valor da prioridade configurada no SW4, imediatamente inferior ao valor padrão, é",
+        "alternativas": [
+            "8192.",
+            "0.",
+            "32769.",
+            "24768.",
+            "28672."
+        ],
+        "gabarito": "28672."
+    },
+    {
+        "id": 181,
+        "enunciado": "Sobre o padrão IEEE 802.1w (RSTP), analise as seguintes definições sobre as funções das portas:\nI - Única porta em cada switch não-raiz (non root) na qual o switch recebe o melhor BPDU entre todos os BPDUs recebidos.\nII - De todas as portas do switch em todos os switches ligados ao mesmo segmento ou domínio de colisão, a porta que anuncia o BPDU Hello de menor custo.\nIII - Porta que está recebendo um BPDU Hello inferior no momento, fazendo com que ela seja uma possível substituta para a porta raiz.\nIV - Porta não-designada de um switch que está ligado ao mesmo segmento ou domínio de colisão com outra porta do mesmo switch, possível substituta para a porta designada.\nAssinale a opção que contém a sequência de portas adequadas para representar as definições de I a IV, respectivamente:",
+        "alternativas": [
+            "porta raiz (root port), porta designada (designated port), porta alternativa (alternate port) e porta backup.",
+            "porta raiz (root port), porta designada (designated port), porta backup e porta alternativa (alternate port).",
+            "porta designada (designated port), porta raiz (root port), porta alternativa (alternate port) e porta backup.",
+            "porta designada (designated port), porta raiz (root port), porta backup e porta alternativa (alternate port).",
+            "porta backup, porta alternativa (alternate port), porta designada (designated port) e porta raiz (root port)."
+        ],
+        "gabarito": "porta raiz (root port), porta designada (designated port), porta alternativa (alternate port) e porta backup."
+    },
+    {
+        "id": 182,
+        "enunciado": "Definido pelo padrão IEEE 802.1d, O Spanning Tree Protocol (STP) é um protocolo que opera ao nível da camada 2 do modelo de referência OSI.\nSobre esse protocolo, é correto afirmar que.",
+        "alternativas": [
+            "Segmenta a rede em vários domínios de colisão.",
+            "Impede loops em uma rede comutada com caminhos redundantes.",
+            "Restringe pacotes de broadcast a uma única VLAN.",
+            "Segmenta a rede em vários domínios de broadcast.",
+            "Propaga configurações de VLAN para outros switches."
+        ],
+        "gabarito": "Impede loops em uma rede comutada com caminhos redundantes."
+    },
+    {
+        "id": 183,
+        "enunciado": "O padrão IEEE 802.1w é uma evolução em relação ao padrão IEEE 802.1D original, introduzindo novas e melhores funcionalidades. Uma dessas melhorias foi a introdução do conceito de Edge Port. A configuração da interface de um switch como Edge Port fará com que",
+        "alternativas": [
+            "a interface do switch receba e processe BPDUs para eleição da root bridge.",
+            "a interface funcione em modo half-duplex para manter a compatibilidade com switches legados.",
+            "o switch envie e estabeleça o processo de proposta e acordo com switch conectado na outra extremidade.",
+            "a interface do switch realize a transição imediata para o estado de encaminhamento.",
+            "o switch defina a interface como porta de backup."
+        ],
+        "gabarito": "a interface do switch realize a transição imediata para o estado de encaminhamento."
+    },
+    {
+        "id": 184,
+        "enunciado": "O protocolo STP (Spanning Tree Protocol) é um protocolo de camada 2 utilizado principalmente para evitar o Broadcast Storm em uma rede de computadores. O principal propósito do STP é que não existam loops na rede de computadores quando existirem links redundantes. Com essas informações, qual a especificação padrão para o STP na IEEE (Institute of Electrical and Electronics Engineers)?",
+        "alternativas": [
+            "802.1d.",
+            "802.1q.",
+            "802.3ab.",
+            "802.3.",
+            "802.1b."
+        ],
+        "gabarito": "802.1d."
+    },
+    {
+        "id": 185,
+        "enunciado": "Uma Analista deseja configurar o LACP (IEEE 802.3ad) para interfaces gigabit. A título de exemplo, considere o trecho de configuração a seguir, que mostra como configurar portas gigabit Ethernet 2/0 na port channel 1 com parâmetros LACP:\nRouter> enable Router# configure terminal Router(config)# lacp....I.... 65535 Router(config)# interface port-channel 1 Router(config-if)# lacp max-bundle 2 Router(config-if)#....II.... 10.1.1.1 255.255.255.0 Router(config)# interface g2/0/0 Router(config-if)# no ip address Router(config-if)# lacp port-priority 100 Router(config-if)#....III.... 1 mode passive Router(config-if)# end Preenchem, correta e respectivamente, as lacunas I, II e III:",
+        "alternativas": [
+            "system-address-priority – port address – group.",
+            "port-link-priority – lacp ip address – group-port.",
+            "priority-system – frame ip address – group-channel.",
+            "priority-port – port-channel address – channel-port.",
+            "system-priority – ip address – channel-group."
+        ],
+        "gabarito": "system-priority – ip address – channel-group."
+    },
+    {
+        "id": 186,
+        "enunciado": "Julgue o item que se seguem, a respeito de gestão de processos, padrão IEEE 802.11, serviços em nuvem e sistemas gerenciadores de bancos de dados.\nNo modelo de serviço em nuvem PaaS, são responsabilidades do provedor o fornecimento e o gerenciamento do processamento físico, o armazenamento e o ambiente de hospedagem.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 187,
+        "enunciado": "No projeto de sistemas que exigem alta precisão aritmética e manipulação de estados lógicos complexos, a escolha do tipo de dado influencia diretamente o comportamento da aplicação em situações de erro. Acerca da representação interna de tipos estruturados e tipos de ponto flutuante conforme o padrão IEEE 754\n(Instituto de Engenheiros Eletricistas e Eletrônicos , registre V, para as afirmativas verdadeiras, e F, para as falsas:\n( ) A representação de NaN (Not a Number − Não é um Número) permite que o sistema identifique operações matematicamente indefinidas sem interromper obrigatoriamente a execução do fluxo principal do algoritmo.\n( ) Em tipos estruturados como Unions (Uniões), o compilador aloca espaço de memória suficiente para armazenar todos os membros simultaneamente, de forma análoga ao funcionamento de uma Struct (Estrutura).\n( ) O erro de arredondamento em variáveis do tipo Float (Ponto Flutuante de Precisão Simples) é cumulativo em laços de repetição extensos, podendo ser mitigado pelo uso de tipos Decimais baseados em inteiros.\n( ) Variáveis do tipo Booleano (Lógico) em linguagens de baixo nível ocupam sempre apenas um bit de memória física, independentemente da arquitetura de endereçamento do barramento de dados do sistema.\nApós análise, assinale a alternativa que apresenta a sequência correta dos itens acima, de cima para baixo:",
+        "alternativas": [
+            "V, F, F, V.",
+            "F, V, V, F.",
+            "V, F, V, F.",
+            "V, V, F, V."
+        ],
+        "gabarito": "V, F, V, F."
+    },
+    {
+        "id": 188,
+        "enunciado": "Com relação ao padrão IEEE 802.11ax, também conhecido como WiFi 6, avalie se as afirmativas a seguir são verdadeiras (V) ou falsas (F).\n( ) Admite que a empresas e provedores de serviços ofereçam suporte a aplicações novas e emergentes na mesma WLAN, ao mesmo tempo que proporcionam uma qualidade de serviço superior para aplicações mais antigas.\n( ) Permite que os pontos de acesso suportem mais clientes em ambientes densos e ofereçam uma usabilidade melhor para redes LAN sem fio típicas. Proporciona um desempenho mais previsível para aplicações avançadas, como por exemplo, vídeo 4K e IoT.\n( ) Adota a tecnologia OFDMA que permite que até mesmo os pontos de acesso 802.11ax de primeira geração suportem oito fluxos espaciais e ofereçam até 4800 Mbps na camada física, dependendo da implementação do fornecedor.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "F – F – F.",
+            "F – V – F.",
+            "V – V – F.",
+            "V – F – V.",
+            "V – V – V."
+        ],
+        "gabarito": "V – V – V."
+    },
+    {
+        "id": 189,
+        "enunciado": "Sobre os termos, siglas e nomenclaturas utilizados no contexto dos equipamentos de redes de computadores, assinale a opção INCORRETA.",
+        "alternativas": [
+            "A sigla Gb/s se refere à velocidade de transferência de dados medida em gigabytes por segundos.",
+            "Uma Rede Mesh é composta de vários nós (roteadores), comportam como uma rede única, permitindo que o cliente se conecte em qualquer um destes nós.",
+            "Rede sem fio IEEE 802.11 e suas variações, também é conhecida como redes local sem fio (Wi-Fi).",
+            "Redes de longa distância (WAN) são redes de computadores que geralmente abrangem uma grande área geográfica.",
+            "O protocolo TCP/IP é um conjunto de protocolos de comunicação que viabiliza a comunicação da Internet trabalhando exclusivamente sobre as redes wireless."
+        ],
+        "gabarito": "O protocolo TCP/IP é um conjunto de protocolos de comunicação que viabiliza a comunicação da Internet trabalhando exclusivamente sobre as redes wireless."
+    },
+    {
+        "id": 190,
+        "enunciado": "No padrão IEEE 802.11ax (Wi-Fi , foram introduzidas importantes melhorias para aumentar a eficiência espectral e permitir o acesso simultâneo de múltiplos dispositivos ao meio sem fio. Uma das principais inovações foi a capacidade de dividir o canal em subunidades menores para compartilhamento entre vários usuários.\nAssinale a alternativa que identifica corretamente a técnica que divide o canal em subportadoras organizadas em unidades de recurso (Resource Units − RUs), possibilitando que múltiplos usuários transmitam dados simultaneamente no mesmo canal:",
+        "alternativas": [
+            "OFDM (Orthogonal Frequency Division Multiplexing), que divide o canal em subportadoras, mas transmite dados para apenas um usuário por intervalo de tempo.",
+            "OFDMA (Orthogonal Frequency Division Multiple Access), que divide o canal em múltiplas subportadoras organizadas em unidades de recurso (RUs), permitindo a alocação dinâmica para diferentes usuários no mesmo intervalo de tempo.",
+            "QAM-256 (Quadrature Amplitude Modulation), que aumenta a densidade de bits por símbolo transmitido.",
+            "DSSS (Direct Sequence Spread Spectrum), técnica de espalhamento espectral utilizada em padrões Wi-Fi mais antigos.",
+            "MU-MIMO (Multi-User Multiple Input Multiple Output), que utiliza múltiplas antenas para transmitir fluxos de dados paralelos para diferentes usuários."
+        ],
+        "gabarito": "OFDMA (Orthogonal Frequency Division Multiple Access), que divide o canal em múltiplas subportadoras organizadas em unidades de recurso (RUs), permitindo a alocação dinâmica para diferentes usuários no mesmo intervalo de tempo."
+    },
+    {
+        "id": 191,
+        "enunciado": "Uma equipe de infraestrutura está revisando a arquitetura de rede. O ambiente possui rede local cabeada, pontos de acesso Wi-Fi, servidores internos de arquivos e autenticação, além de acesso à internet por meio de roteador com NAT (tradução de endereços IP). Durante a análise técnica, surgiram discussões sobre conceitos fundamentais de redes. Com base nesse cenário, analise as assertivas a seguir e assinale V (verdadeiro) ou F (falso):\n(__) No modelo TCP/IP, o protocolo IP integra a camada de Internet, enquanto o TCP pertence à camada de Transporte, exercendo funções distintas relacionadas ao endereçamento lógico e ao controle confiável da comunicação.\n(__) Em uma rede local (LAN), o uso de endereços IP privados, como os definidos nas faixas 10.0.0.0/8, 172.16.0.0/12 e 192.168.0.0/16, pode exigir a utilização de NAT para acesso à internet pública.\n(__) O protocolo DNS é usualmente empregado para a tradução de nomes de domínio em endereços IP, operando, em geral, sobre a camada de aplicação.\n(__) Redes do tipo MAN caracterizam-se por abrangerem, tipicamente, áreas geográficas limitadas a uma única residência ou pequeno escritório.\n(__) O protocolo DHCP pode ser utilizado para atribuir automaticamente configurações como endereço IP, máscara de rede e gateway padrão aos dispositivos conectados.\n(__) Em redes sem fio baseadas no padrão IEEE 802.11, mecanismos de criptografia como WPA2 ou WPA3 contribuem para reduzir riscos associados à interceptação de tráfego.\nAssinale a alternativa que apresenta a sequência correta de V (verdadeiro) e F (falso) de cima para baixo.",
+        "alternativas": [
+            "V, V, F, F, V, V.",
+            "V, V, V, F, V, V.",
+            "V, F, V, F, V, V.",
+            "F, V, V, F, F, V.",
+            "V, V, V, V, F, F."
+        ],
+        "gabarito": "V, V, V, F, V, V."
+    },
+    {
+        "id": 192,
+        "enunciado": "O protocolo STP (Spanning Tree Protocol), padronizado pelo IEEE 802.1D, é fundamental para o funcionamento de redes locais (LANs) que possuem redundância física. Sua operação baseia-se na construção de uma topologia lógica livre de ciclos. Analise as afirmativas a seguir sobre as finalidades e o funcionamento do STP.\nI- O principal objetivo do STP é prevenir a ocorrência de loops de camada 2 em redes com caminhos redundantes.\nII- O STP desativa logicamente portas específicas para garantir que haja apenas um caminho ativo entre dois dispositivos.\nIII- O protocolo aumenta a largura de banda total da rede ao somar as velocidades de todos os enlaces físicos disponíveis.\nIV- Em caso de falha de um link ativo, o STP é capaz de recalcular a topologia e ativar um link de reserva.\nV- O STP opera na camada de rede (camada para substituir a necessidade de protocolos de roteamento.\nÉ CORRETO o que se afirma em:",
+        "alternativas": [
+            "III, IV e V, apenas.",
+            "I e III, apenas.",
+            "II, III e V, apenas.",
+            "I, II e IV, apenas.",
+            "I, II, III, IV e V."
+        ],
+        "gabarito": "I, II e IV, apenas."
+    },
+    {
+        "id": 193,
+        "enunciado": "O campus de determinado instituto de educação possui uma infraestrutura de rede com switches gerenciáveis conectando laboratórios de informática, salas administrativas, biblioteca e bloco de servidores. Toda a infraestrutura opera em uma única VLAN, causando domínio de broadcast excessivo e risco de segurança, pois alunos e servidores compartilham o mesmo segmento. O analista de TI foi incumbido de implementar a segmentação da rede em VLANs distintas: VLAN 10\n(Laboratórios), VLAN 20 (Administrativo), VLAN 30 (Servidores). Após a criação das VLANs, o administrador precisa permitir que hosts da VLAN 20 (Administrativo) acessem servidores na VLAN 30 (Servidores) sem alterar a separação das demais VLANs. Qual recurso de camada 3 deve ser configurado para viabilizar essa comunicação de forma específica entre esses dois segmentos?",
+        "alternativas": [
+            "Para permitir comunicação entre VLANs distintas, é necessário um dispositivo de camada 3 – roteador com subinterfaces (router-on-a-stick) ou switch layer 3 com roteamento inter-VLAN habilitado –, que irá encaminhar o tráfego entre os segmentos.",
+            "Basta configurar as VLANs nos switches gerenciáveis para que a comunicação entre elas ocorra automaticamente, pois switches gerenciáveis modernos realizam roteamento inter-VLAN de forma nativa sem necessidade de equipamento adicional.",
+            "A comunicação entre VLANs distintas é habilitada configurando trunk ports nos switches de acesso, pois as portas trunk permitem que quadros de múltiplas VLANs trafeguem no mesmo enlace físico, incluindo comunicação cruzada entre VLANs.",
+            "O padrão IEEE 802.1Q limita o número máximo de VLANs a 256 por switch, pois utiliza um campo de 8 bits para identificação de VLANs no cabeçalho do quadro Ethernet, o que pode ser uma restrição para redes grandes.",
+            "O isolamento provido pelas VLANs torna dispensável qualquer controle de firewall ou ACL para o tráfego roteado entre a VLAN 20 e a VLAN 30, pois a segmentação por VLAN garante por si mesma a segurança completa do tráfego inter-VLAN."
+        ],
+        "gabarito": "Para permitir comunicação entre VLANs distintas, é necessário um dispositivo de camada 3 – roteador com subinterfaces (router-on-a-stick) ou switch layer 3 com roteamento inter-VLAN habilitado –, que irá encaminhar o tráfego entre os segmentos."
+    },
+    {
+        "id": 194,
+        "enunciado": "Um departamento de uma Assembleia Legislativa possui os seguintes equipamentos e configurações:\nUm switch gerenciável com suporte a IEEE 802.1Q está conectado a um Access Point (AP) que também suporta 802.1Q. O AP transmite dois SSIDs: SSID Servidores e Deputados, associados respectivamente às VLAN 10 e VLAN 20.\nO AP está conectado à porta 1 do switch (trunk).\nO switch possui as seguintes portas configuradas:\nPorta Modo VLANs permitidas\n1 Trunk Todas (10, 2 Acesso VLAN 10\n3 Acesso VLAN 20\n4 Trunk Apenas VLAN 10 Um notebook que está conectado à SSID Deputados tenta se comunicar com uma impressora conectada à porta 3 do switch. A comunicação",
+        "alternativas": [
+            "funciona, pois a porta 3 está na VLAN 20 e o AP envia os pacotes do SSID Deputados com tag 20 pelo trunk.",
+            "funciona, mas o switch precisa converter a tag 20 para 10 antes de enviar à impressora.",
+            "não funciona, pois a porta 1 está em modo trunk, mas o AP não consegue gerar tags 802.1Q.",
+            "não funciona, pois a porta 3 está na VLAN 10, não na VLAN 20.",
+            "funciona se o switch desabilitar o 802.1Q na porta 1."
+        ],
+        "gabarito": "não funciona, pois a porta 3 está na VLAN 10, não na VLAN 20."
+    },
+    {
+        "id": 195,
+        "enunciado": "Um analista de TI de uma Assembleia Legislativa Estadual está configurando dois switches gerenciáveis para interligar os departamentos administrativo, jurídico e de tecnologia em um novo anexo funcional. Cada departamento deve permanecer em sua própria VLAN para isolamento de tráfego. O analista precisa configurar a conexão entre os dois switches para transportar as VLANs 10 (Administrativo), 20 (Jurídico) e 30 (Tecnologia), permitindo que dispositivos do mesmo departamento em switches diferentes se comuniquem. O analista decide utilizar o protocolo IEEE 802.1Q. Considerando que as VLANs não são configuradas como VLAN nativa, sobre a configuração e administração ele deve saber que",
+        "alternativas": [
+            "a porta de interligação entre os switches deve ser configurada no modo acesso (access) na VLAN 10, pois isso permite que todas as VLANs sejam transportadas automaticamente pela porta.",
+            "a configuração do protocolo 802.1Q insere um cabeçalho adicional de 8 bytes no quadro Ethernet, sendo 4 bytes para o campo TPID e 4 bytes para o campo TCI com o identificador da VLAN.",
+            "a porta de interligação entre os switches deve ser configurada no modo trunk, com as VLANs 10, 20 e 30 permitidas, e tais quadros trafegarão no link trunk com uma tag de 4 bytes contendo o identificador da VLAN.",
+            "ao configurar as portas no modo trunk, os quadros das VLANs 10, 20 e 30 trafegam sem tag (untagged), e o switch de destino identifica a VLAN pelo endereço MAC de origem do quadro.",
+            "deve configurar uma porta em modo trunk para cada VLAN separadamente, ou seja, uma porta física para a VLAN 10, outra porta física para a VLAN 20 e outra para a VLAN 30."
+        ],
+        "gabarito": "a porta de interligação entre os switches deve ser configurada no modo trunk, com as VLANs 10, 20 e 30 permitidas, e tais quadros trafegarão no link trunk com uma tag de 4 bytes contendo o identificador da VLAN."
+    },
+    {
+        "id": 196,
+        "enunciado": "Quanto aos modelos OSI, TCP/IP e ao access point, julgue o item a seguir.\nNo modelo OSI, um access point opera, primordialmente, na camada de enlace, atuando como uma ponte de dados (bridge) que converte os quadros de redes sem fio\n(padrão IEEE 802.em quadros de redes cabeadas (padrão IEEE 802., e vice-versa.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 197,
+        "enunciado": "A respeito das noções de sistemas operacionais de rede, de Microsoft Active Directory e de arquitetura cliente-servidor, julgue o item a seguir.\nEm redes IEEE 802.11, no contexto da subcamada MAC de LANs sem fio, utiliza-se mecanismo de detecção de colisões, como o CSMA/CD, em vez de prevenção de colisões, como o CSMA/CA, pois estações sem fio conseguem detectar colisões de modo confiável durante a própria transmissão.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    }
+]

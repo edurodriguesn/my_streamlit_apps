@@ -1,0 +1,1275 @@
+[
+    {
+        "id": 1,
+        "enunciado": "São programas, normalmente recebidos de forma aparentemente inofensiva, onde se passam por entidades confiáveis (bancos, governo, empresas) por e-mail, SMS ou mensagens para enganar vítimas e roubar dados confidenciais:",
+        "alternativas": [
+            "Hijackers.",
+            "Hniffers.",
+            "Ransomware.",
+            "Phishing.",
+            "Cavalo de troia."
+        ],
+        "gabarito": "Phishing."
+    },
+    {
+        "id": 2,
+        "enunciado": "Engenharia Social é:",
+        "alternativas": [
+            "É a arte de manipular pessoas para que revelem informações confidenciais.",
+            "Protocolo de envio de e-mails.",
+            "Problema em firewall.",
+            "Configuração de DNS.",
+            "Rotina de backup."
+        ],
+        "gabarito": "É a arte de manipular pessoas para que revelem informações confidenciais."
+    },
+    {
+        "id": 3,
+        "enunciado": "A engenharia social é um método usado para enganar, manipular ou explorar a confiança das pessoas. A engenharia social pode impactar os profissionais da ALEGO por meio de ataques a dispositivos móveis ou de mesa. No entanto, eles também podem sofrer ameaças pessoalmente. Esses ataques podem se sobrepor e se acumular uns aos outros para criar golpes.\nCorrelacione os métodos engenharia social que usam os golpistas às respectivas descrições.\n1. Phishing.\n2. Baiting.\n3. Tailgating.\n4. Scareware.\n( ) Esse tipo de golpe abusa da curiosidade natural dos usuários para o convencer a se expor a um agressor. Tipicamente, o potencial de receber algo gratuito ou exclusivo é usado para manipular e explorar o usuário. O golpe normalmente consiste em infectar o dispositivo do usuário com malwares. Os métodos populares podem incluir desde Pen drives deixados em espaços públicos até anexos de e-mail incluindo detalhes sobre uma oferta gratuita ou software gratuito fraudulento.\n( ) é o ato de seguir um membro autorizado da equipe em uma área de acesso restrito. Os agressores podem se aproveitar da cortesia social para fazer com que se segure a porta para conceder acesso físico ou convencimento de que eles também estão autorizados a estar na área.\n( ) É uma forma de malware usada para assustar e fazer o usuário agir. Esse recurso enganador utiliza advertências alarmantes que relatam infecções falsas por malware ou afirmam que uma de suas contas foi comprometida. Esse ataque induz o usuário a comprar softwares fraudulentos de cibersegurança ou divulgar detalhes privados como suas credenciais de conta.\n( ) Os golpistas desse tipo de ataque fingem ser uma instituição ou um indivíduo confiável na tentativa de persuadi-lo a expor dados pessoais e outros bens valiosos. Esse tipo de ataque pode ser generalizado dirigido a muitos usuários ou utilizar informações personalizadas para direcionar usuários específicos.\nAssinale a opção que indica a relação correta, segundo a ordem apresentada.",
+        "alternativas": [
+            "1 – 4 – 3 – 2.",
+            "2 – 3 – 4 – 1.",
+            "3 – 4 – 2 – 1.",
+            "4 – 1 – 3 – 2.",
+            "4 – 2 – 1 – 3."
+        ],
+        "gabarito": "2 – 3 – 4 – 1."
+    },
+    {
+        "id": 4,
+        "enunciado": "Um servidor da Assembleia foi comprometido após um funcionário do setor administrativo clicar em um link malicioso contido em um e-mail. O e-mail simulava ser da equipe de TI da Assembleia, solicitando a atualização urgente de credenciais em uma página que imitava o portal de login interno.\nO ataque que se utiliza de engenharia social, se passando por uma entidade confiável para induzir vítimas a fornecerem dados sensíveis, é conhecido como",
+        "alternativas": [
+            "Cavalo de Tróia.",
+            "Backdoor.",
+            "Phishing.",
+            "Ransomware.",
+            "Flood."
+        ],
+        "gabarito": "Phishing."
+    },
+    {
+        "id": 5,
+        "enunciado": "Sobre segurança da informação, analise a situação a seguir:\nO setor de segurança da informação de um órgão registrou uma ocorrência em que servidores receberam um e-mail aparentemente enviado pela área de TI, solicitando que acessassem um link para atualizar suas credenciais no sistema corporativo. A página aberta pelo link era visualmente idêntica ao portal legítimo da organização, mas estava hospedada em um domínio falso criado para capturar os dados inseridos pelos usuários.\nConsiderando o caso acima, assinale a alternativa que identifica CORRETAMENTE o tipo de golpe descrito.",
+        "alternativas": [
+            "Pharming, que redireciona o usuário a um site falso por meio de envenenamento de cache DNS ou modificação do arquivo hosts, sem que a vítima precise interagir com um link malicioso.",
+            "Phishing, que utiliza mensagens fraudulentas para induzir a vítima a clicar em um link e fornecer dados pessoais ou credenciais em uma página falsa que imita um serviço legítimo.",
+            "Spam, que consiste no envio em massa de mensagens não solicitadas com finalidade publicitária ou maliciosa, sem o objetivo específico de capturar credenciais por meio de páginas falsas.",
+            "Defacement, que consiste na modificação não autorizada do conteúdo de páginas web hospedadas em servidores vulneráveis, geralmente com fins de protesto ou demonstração de comprometimento.",
+            "Man-in-the-Middle, que intercepta ativamente a comunicação entre dois hosts para ler, modificar ou injetar dados no fluxo sem o conhecimento das partes envolvidas."
+        ],
+        "gabarito": "Phishing, que utiliza mensagens fraudulentas para induzir a vítima a clicar em um link e fornecer dados pessoais ou credenciais em uma página falsa que imita um serviço legítimo."
+    },
+    {
+        "id": 6,
+        "enunciado": "O setor de TI de uma faculdade identifica que vários docentes receberam e-mails contendo nome completo, departamento e ramal de cada destinatário, aparentemente enviados pelo diretor, solicitando atualização de credenciais em um link fraudulento. Qual é a classificação desse tipo de ataque?",
+        "alternativas": [
+            "Phishing, pois utiliza e-mail fraudulento e página falsa para induzir o usuário a fornecer suas credenciais.",
+            "Spear phishing, pois o ataque utilizou informações com contexto personalizado para aumentar a credibilidade.",
+            "Pharming, pois os usuários foram redirecionados para uma página falsa ao clicar no link recebido por e-mail.",
+            "Pretexting, pois o atacante se passou por uma figura de autoridade para manipular psicologicamente os usuários a fornecerem suas credenciais.",
+            "Man-in-the-middle, pois o atacante interceptou a comunicação entre os docentes e o servidor legítimo para capturar as credenciais inseridas."
+        ],
+        "gabarito": "Spear phishing, pois o ataque utilizou informações com contexto personalizado para aumentar a credibilidade."
+    },
+    {
+        "id": 7,
+        "enunciado": "Um analista de segurança da informação de certa organização identificou um ataque em que um indivíduo enviou mensagens eletrônicas em massa para colaboradores da organização. Tais mensagens direcionavam os colaboradores a um sítio eletrônico fraudulento que simulava o portal corporativo, com o intuito de capturar suas credenciais de acesso.\nA técnica maliciosa descrita na situação hipotética precedente é classificada, quanto ao seu tipo, como",
+        "alternativas": [
+            "brute force.",
+            "eavesdropping.",
+            "phishing.",
+            "port scanning.",
+            "DNS spoofing."
+        ],
+        "gabarito": "phishing."
+    },
+    {
+        "id": 8,
+        "enunciado": "Entre as técnicas de Engenharia Social, destaca-se:",
+        "alternativas": [
+            "buffer overflow.",
+            "exploração de race condition.",
+            "injeção de SQL.",
+            "dumpster diving.",
+            "escalonamento de privilégios."
+        ],
+        "gabarito": "dumpster diving."
+    },
+    {
+        "id": 9,
+        "enunciado": "“Detran alerta para golpes por mensagens SMS: Unidades dos departamentos estaduais de Trânsito (Detrans) em todo o Brasil têm chamado a atenção para tentativas de golpe envolvendo mensagens de texto. Essas mensagens direcionam para sites falsos que solicitam dados pessoais, alegando suspensão ou cassação da Carteira Nacional de Habilitação (CNH).”\n(Fonte:https://www.opovo.com.br/noticias/brasil/2024/11/19/detran-alerta-para-golpes-por-mensagens-sms.html).\nAtaques de engenharia social utilizando esse vetor de ataque são conhecidos como:",
+        "alternativas": [
+            "vishing.",
+            "whaling.",
+            "phishing.",
+            "smishing."
+        ],
+        "gabarito": "smishing."
+    },
+    {
+        "id": 10,
+        "enunciado": "Como é conhecido o ataque em que um invasor, por meio de comunicações falsas que parecem ser de fontes confiáveis, se passa por outra entidade com objetivo de enganar usuários e obter informações sensíveis?",
+        "alternativas": [
+            "Phishing.",
+            "SQL lnjection.",
+            "DoS.",
+            "Ransomware.",
+            "DDoS."
+        ],
+        "gabarito": "Phishing."
+    },
+    {
+        "id": 11,
+        "enunciado": "A engenharia social é uma ação maliciosa que usa técnicas de manipulação de pessoas para ganhar a confiança delas e persuadi-las a cometer erros, fornecer informações sensíveis ou burlar uma política de segurança. Um exemplo dessa ação maliciosa é quando o agente de ameaça faz falsas promessas para atrair a vítima para uma armadilha com o intuito de convencê-la a revelar informações pessoais ou instalar software infectado com código malicioso. Em geral, essa ação é realizada através de propagandas tentadoras ou promoções on-line, como jogos grátis ou download de filmes, streaming de músicas ou atualizações de smartphones.\nEsse exemplo de engenharia social é conhecido como",
+        "alternativas": [
+            "BEC.",
+            "baiting.",
+            "diversion theft.",
+            "scareware.",
+            "tailgating."
+        ],
+        "gabarito": "baiting."
+    },
+    {
+        "id": 12,
+        "enunciado": "Em segurança de computadores, a engenharia social é um conjunto de técnicas usados por indivíduos que assumem falsas identidades com o objetivo de obter informações sigilosas e confidenciais, explorando a confiança de pessoas. Para alcançar seus objetivos, a engenharia social se aproveita dos seguintes comportamentos naturais e vulnerabilidades humanas, utilizando-os para conseguir as informações desejadas, EXCETO:",
+        "alternativas": [
+            "Roubo de dados do seu computador, através se softwares maliciosos que fazem cópias.",
+            "Exposição da imagem por meio de fotos.",
+            "Relatos sobre costumes cotidianos, principalmente aqueles que a pessoa acredita fazer bem.",
+            "Informações sobre a profissão e o local em que trabalha, buscando valorizar suas habilidades.",
+            "Revelação de informações pessoais e confidenciais para pessoas desconhecidas."
+        ],
+        "gabarito": "Roubo de dados do seu computador, através se softwares maliciosos que fazem cópias."
+    },
+    {
+        "id": 13,
+        "enunciado": "No mundo digital, a segurança online tornou-se uma preocupação central, especialmente com o aumento dos ataques cibernéticos. Dentre as ameaças mais comuns, destaca-se o Phishing.\nQual das alternativas abaixo descreve corretamente um ataque de Phishing?",
+        "alternativas": [
+            "Um tipo de ataque cibernético onde o invasor tenta enganar as vítimas, fazendo com que revelem informações pessoais, como senhas ou dados bancários, geralmente por meio de e-mails ou mensagens falsas que imitam fontes confiáveis.",
+            "Um ataque que visa sobrecarregar um servidor com um grande volume de tráfego, interrompendo o funcionamento normal do serviço e causando sua indisponibilidade.",
+            "Um ataque em que o invasor se passa por um servidor legítimo para interceptar dados sensíveis e comprometer a privacidade da comunicação.",
+            "Um ataque realizado com o objetivo de modificar, excluir ou corromper arquivos armazenados em um sistema de computador de uma vítima.",
+            "Um ataque que utiliza um software malicioso (cavalo de tróia) para obter acesso e controle remoto sobre o sistema de uma vítima."
+        ],
+        "gabarito": "Um tipo de ataque cibernético onde o invasor tenta enganar as vítimas, fazendo com que revelem informações pessoais, como senhas ou dados bancários, geralmente por meio de e-mails ou mensagens falsas que imitam fontes confiáveis."
+    },
+    {
+        "id": 14,
+        "enunciado": "Ao navegar na internet, um usuário recebe um e-mail informando que ganhou um prêmio e precisa clicar em um link para confirmar seus dados bancários. Essa prática é conhecida como:",
+        "alternativas": [
+            "Phishing.",
+            "Malware.",
+            "Ransomware.",
+            "Spyware."
+        ],
+        "gabarito": "Phishing."
+    },
+    {
+        "id": 15,
+        "enunciado": "Sobre Engenharia Social, analise as assertivas abaixo e assinale V, se verdadeiras, ou F, se falsas.\n( ) A engenharia social é uma técnica efetiva, pois explora fragilidades dos procedimentos de segurança das empresas.\n( ) O engenheiro social pode explorar a empatia das pessoas, criando uma narrativa na qual a recusa provoque sentimento de culpa.\n( ) A entrevista é uma técnica de engenharia social que busca obter informações que normalmente não seriam reveladas voluntariamente.\n( ) A engenharia social pode ser praticada por qualquer pessoa interessada em obter informações alheias, independentemente do nível de sofisticação das técnicas utilizadas.\nA ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+        "alternativas": [
+            "F – V – F – F.",
+            "F – F – V – V.",
+            "V – F – F – V.",
+            "V – V – F – F.",
+            "F – V – V – V."
+        ],
+        "gabarito": "F – V – V – V."
+    },
+    {
+        "id": 16,
+        "enunciado": "Ataques phishing crescem diariamente e ainda conseguem elevado percentual de êxito. Considerando as medidas que os trabalhadores da AGSUS podem desenvolver para combater phishing, analise as afirmativas a seguir.\nI. Proteção das credenciais - se uma pessoa está pedindo informações confidenciais, o trabalhador não dever ter medo de perguntar o porquê; geralmente as empresas não solicitam informações confidenciais por e-mail, mensagem de texto ou telefone.\nII. Cuidado com arquivos anexados e links - esses recursos são comumente usados para enviar software mal-intencionado. Quando o trabalhador receber uma mensagem com um anexo ou link, ele deverá verificar a legitimidade antes de clicar.\nIII. Pare e reveja - O trabalhador deverá olhar o e-mail antes de responde-lo. É inesperado? O pedido faz sentido? Em caso de dúvida, contatar com o remetente, separadamente, por telefone ou por e-mail, mas não se deve responder aos e-mails suspeitos.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, apenas.",
+            "II, apenas.",
+            "III, apenas.",
+            "II e III, apenas.",
+            "I, II e III."
+        ],
+        "gabarito": "I, II e III."
+    },
+    {
+        "id": 17,
+        "enunciado": "No que se refere a phishing, pharming e hoax, assinale a opção correta.",
+        "alternativas": [
+            "O phishing caracteriza-se pelo envio de mensagens enganosas que simulam comunicações legítimas para a obtenção de dados confidenciais do usuário.",
+            "O pharming é um golpe baseado em correntes de email que disseminam boatos ou informações falsas para enganar o usuário.",
+            "O hoax consiste na captura de senhas e dados bancários por meio de formulários fraudulentos em sites clonados.",
+            "No furto de identidade, criminosos criam sites falsos que redirecionam o usuário para páginas aparentemente legítimas a fim de capturar credenciais de acesso.",
+            "Na fraude de antecipação de recursos, a vítima é induzida a fornecer informações pessoais em troca de supostos prêmios inexistentes."
+        ],
+        "gabarito": "O phishing caracteriza-se pelo envio de mensagens enganosas que simulam comunicações legítimas para a obtenção de dados confidenciais do usuário."
+    },
+    {
+        "id": 18,
+        "enunciado": "Um funcionário de uma empresa recebeu um e-mail de uma fonte aparentemente confiável solicitando a confirmação de suas credenciais de acesso a um sistema corporativo. Esse tipo de ataque, que utiliza a engenharia social para enganar o usuário e obter informações confidenciais, é classificado como:",
+        "alternativas": [
+            "Phishing.",
+            "Ransomware.",
+            "Man-in-the-Middle.",
+            "Spyware.",
+            "Trojan."
+        ],
+        "gabarito": "Phishing."
+    },
+    {
+        "id": 19,
+        "enunciado": "Um tipo de ataque que preocupa os administradores de redes caracteriza-se pelo envio direcionado e personalizado de mensagens falsas a uma vítima ou grupo restrito, com a finalidade de induzir o fornecimento de informações confidenciais, o clique em links maliciosos ou o download de malware.\nO ataque que apresenta essas características é chamado",
+        "alternativas": [
+            "Man-in-the-Middle (MitM).",
+            "Replay attack.",
+            "Session hikacking.",
+            "Spam.",
+            "Spear phishing."
+        ],
+        "gabarito": "Spear phishing."
+    },
+    {
+        "id": 20,
+        "enunciado": "O phishing é uma técnica de fraude online que utiliza engenharia social para enganar usuários e obter informações confidenciais, como senhas e números de cartão de crédito. A característica que melhor define a atuação de um ataque de phishing é apresentada abaixo.",
+        "alternativas": [
+            "Instalação de um software que criptografa todos os arquivos do computador e exige pagamento de resgate em criptomoedas.",
+            "Interceptação física dos cabos de rede para escutar o tráfego de dados que passa pela infraestrutura da empresa.",
+            "Sobrecarga de um servidor web com tráfego excessivo para torná-lo indisponível para os usuários legítimos (DDoS).",
+            "Utilização de força bruta para testar todas as combinações possíveis de senhas até encontrar a correta para acessar o sistema.",
+            "Envio de mensagens falsas, geralmente por e-mail, que se passam por instituições legítimas (como bancos), induzindo o usuário a clicar em links maliciosos."
+        ],
+        "gabarito": "Envio de mensagens falsas, geralmente por e-mail, que se passam por instituições legítimas (como bancos), induzindo o usuário a clicar em links maliciosos."
+    },
+    {
+        "id": 21,
+        "enunciado": "A engenharia social, no contexto da segurança da informação, refere-se à manipulação psicológica de pessoas para a execução de ações ou a divulgação de informações confidenciais. A ação que exemplifica um ataque de engenharia social focado na exploração da confiança humana é descrita a seguir:",
+        "alternativas": [
+            "Um hacker utiliza um software automatizado para explorar uma falha de buffer overflow no sistema operacional do servidor.",
+            "Um atacante telefona para um funcionário fingindo ser do suporte técnico e solicita a senha da rede para \"resolver um problema urgente\".",
+            "Um vírus se replica automaticamente através da rede explorando uma vulnerabilidade no serviço de compartilhamento de arquivos.",
+            "Um keylogger é instalado fisicamente no teclado para capturar as teclas digitadas pelo usuário sem que ele perceba.",
+            "Um script varre a rede em busca de portas abertas para identificar serviços vulneráveis sem interagir com nenhum humano."
+        ],
+        "gabarito": "Um atacante telefona para um funcionário fingindo ser do suporte técnico e solicita a senha da rede para \"resolver um problema urgente\"."
+    },
+    {
+        "id": 22,
+        "enunciado": "A empresa de consultoria de segurança Y emitiu um comunicado aos seus clientes sobre um golpe na Internet.\nO golpe consistia no seguinte:\n- Os clientes recebem mensagens por e-mail com links maliciosos, abordando temas como aproveitar ofertas de um determinado produto;\n- O link redireciona para uma página falsa, semelhante ao site da instituição dona do produto, e solicita dados (agência, conta, nº do cartão, celular e senhas) para efetuar a compra;\n- O impostor liga para a vítima;\n- Durante a ligação, o impostor solicita que o cliente execute uma atualização de segurança que será enviada;\n- Após a atualização, o criminoso realiza transações em nome da vítima.\nO golpe descrito pela empresa Y aos seus clientes é:",
+        "alternativas": [
+            "hoax;",
+            "email spoofing;",
+            "interceptação de tráfego;",
+            "site de comércio eletrônico fraudulento;",
+            "phishing."
+        ],
+        "gabarito": "phishing."
+    },
+    {
+        "id": 23,
+        "enunciado": "A equipe de resposta e tratamento de incidentes (ETIR) de um órgão público detectou, por meio de suas ferramentas de monitoramento da rede, um aumento no número de acessos a um determinado domínio de internet. Como resultado do processo de investigação de um possível incidente de segurança, a ETIR identificou que os usuários que acessaram o determinado domínio haviam recebido e-mails com orientação para trocarem suas senhas no sistema de Single Sign-On (SSO) do órgão. O domínio acessado continha uma página de internet, com características similares à página do SSO do órgão, porém, com domínio diferente, cujo objetivo era capturar as credenciais de acesso dos usuários.\nA ETIR identificou que o órgão sofreu um ataque do tipo:",
+        "alternativas": [
+            "advanced fee fraud;",
+            "phishing;",
+            "email spoofing;",
+            "scanning;",
+            "snifing."
+        ],
+        "gabarito": "phishing;"
+    },
+    {
+        "id": 24,
+        "enunciado": "A fraude na Internet que usa softwares maliciosos nos quais as vítimas recebem e-mails ou mensagens eletrônicas instantâneas pedindo para verificar ou confirmar uma conta junto a um banco ou provedor de serviços se denomina",
+        "alternativas": [
+            "hoax.",
+            "spam.",
+            "trojan.",
+            "phishing.",
+            "ranzomware."
+        ],
+        "gabarito": "phishing."
+    },
+    {
+        "id": 25,
+        "enunciado": "Marque a alternativa que corresponde corretamente a um ataque de engenharia social?",
+        "alternativas": [
+            "Um ataque que utiliza técnicas de manipulação psicológica para enganar os usuários e obter acesso não autorizado a sistemas ou informações confi- denciais.",
+            "Um ataque que explora vulnerabilidades em aplicativos de mensagens instantâneas para disseminar malware.",
+            "Um ataque que intercepta e decifra comunicações criptografadas entre um cliente e um servidor.",
+            "Um ataque que utiliza redes de dispositivos IoT comprometidos para enviar spam em massa."
+        ],
+        "gabarito": "Um ataque que utiliza técnicas de manipulação psicológica para enganar os usuários e obter acesso não autorizado a sistemas ou informações confi- denciais."
+    },
+    {
+        "id": 26,
+        "enunciado": "Na era digital, a segurança on-line tornou-se uma preocupação primordial para indivíduos e organizações, dada a crescente sofisticação e frequência de ataques cibernéticos. Phishing, roubo de identidade, e outras formas de ataques exploram vulnerabilidades nas práticas de segurança dos usuários para acessar informações pessoais sensíveis. Qual prática de segurança é recomendada para proteger informações pessoais e reduzir o risco de phishing e outras formas de ataques on-line ao usar serviços de Internet?",
+        "alternativas": [
+            "Utilizar a mesma senha forte em todas as contas on-line.",
+            "Abrir anexos de e-mail de remetentes desconhecidos para verificar o conteúdo.",
+            "Navegar na Internet exclusivamente em modo de navegação privada.",
+            "Habilitar a autenticação de dois fatores (2FA) para serviços online."
+        ],
+        "gabarito": "Habilitar a autenticação de dois fatores (2FA) para serviços online."
+    },
+    {
+        "id": 27,
+        "enunciado": "Considerando que você seja um profissional de tecnologia da informação no âmbito do Poder Executivo do Estado do Paraná, uma de suas responsabilidades consiste em identificar ataques à segurança da informação e implementar medidas de proteção. Recentemente, a organização tem enfrentado um tipo de ataque que se vale de aspectos psicológicos para manipular os funcionários e obter informações confidenciais. Nesse contexto, qual modalidade de ataque à segurança da informação você consegue identificar?",
+        "alternativas": [
+            "Ataques de força bruta.",
+            "Engenharia social.",
+            "Ataques de negação de serviço (DoS/DDoS).",
+            "Ataque Man-in-the-Middle (MitM).",
+            "Cross-Site Scripting (XSS)."
+        ],
+        "gabarito": "Engenharia social."
+    },
+    {
+        "id": 28,
+        "enunciado": "Assinale a alternativa que apresenta o fator mais importante para a eficácia de um ataque de engenharia social.",
+        "alternativas": [
+            "A habilidade do atacante de se comunicar de forma convincente.",
+            "A disponibilidade de ferramentas e recursos de engenharia social.",
+            "A capacidade do atacante de se passar por uma fonte confiável.",
+            "A falta de conhecimento da vítima sobre segurança da informação.",
+            "A vulnerabilidade da vítima às técnicas de manipulação."
+        ],
+        "gabarito": "A vulnerabilidade da vítima às técnicas de manipulação."
+    },
+    {
+        "id": 29,
+        "enunciado": "Em uma empresa ocorreu um incidente de segurança no qual uma das contas de e-mail de seus funcionários foi comprometida e começou a enviar diversos e-mails de SPAM para todos os endereços cadastrados na sua lista de contatos.\nDurante a análise do ocorrido, um analista de segurança concluiu que a conta não foi comprometida por infecção de malware na máquina, mas sim que o próprio usuário havia inadvertidamente disponibilizado sua senha para o atacante após clicar em um link malicioso que havia recebido.\nAssinale a opção que indica a técnica usada nesse ataque e um exemplo de seu uso.",
+        "alternativas": [
+            "Engodo eletrônico e spoofing.",
+            "Vírus e macro.",
+            "Worm e ransomware.",
+            "Botnet e zumbi.",
+            "Engenharia social e phishing."
+        ],
+        "gabarito": "Engenharia social e phishing."
+    },
+    {
+        "id": 30,
+        "enunciado": "Muitos ataques cibernéticos não exploram vulnerabilidades de sites, aplicações ou serviços, mas na verdade exploram a dimensão humana, realizando a chamada engenharia social, para enganar o usuário visando roubar credenciais de acesso, coletar informações, injetar malwares, etc. Um desses ataques utiliza e- mail, SMS ou chamadas telefônicas para atacar uma lista restrita de alvos sobre os quais os criminosos realizaram pesquisa específica para a elaboração do ataque.\nO ataque supramencionado é chamado de",
+        "alternativas": [
+            "port scan.",
+            "Advanced Persistent Threat (APT).",
+            "ataques de dicionário.",
+            "DDoS.",
+            "spear phishing."
+        ],
+        "gabarito": "spear phishing."
+    },
+    {
+        "id": 31,
+        "enunciado": "Uma grande empresa que recentemente migrou suas operações para um ambiente de nuvem está preocupada com a integridade, confidencialidade e disponibilidade dos seus dados, especialmente devido a incidentes recentes de segurança que ocorreram em outras organizações do mesmo setor de negócios. Essa empresa utiliza serviços de IaaS (Infrastructure as a Service) e está sob constante ameaça de ataques como modificação de dados, espionagem na rede, phishing, DDoS, ransomware, entre outros. Com isso, a área de segurança digital solicitou uma análise detalhada das possíveis vulnerabilidades e das medidas necessárias para mitigá-las.\nA partir da situação hipotética precedente, julgue o seguinte item, em relação à segurança da informação.\nPhishing é um ataque que compromete apenas a confidencialidade das informações.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 32,
+        "enunciado": "Um usuário recebeu um email, aparentemente vindo do departamento de TI da sua empresa, no qual lhe era solicitada a validação urgente de suas credenciais em um link incluído na mensagem, sob pena de um possível bloqueio das credenciais caso a solicitação não fosse atendida. Sem desconfiar da mensagem, o usuário clicou no link e preencheu um formulário com seu nome de usuário e senha. Posteriormente, descobriu-se que as informações prestadas pelo usuário foram usadas por terceiro para acessar dados confidenciais e realizar atividades não autorizadas, em um ataque de phishing.\nConsiderando essa situação hipotética, julgue o item seguinte.\nA melhor contramedida contra o phishing seria usar algoritmos de criptografia mais robustos nas comunicações de email efetuadas na empresa.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 33,
+        "enunciado": "Sobre phishing, analise as afirmativas.\nI. Muda os protocolos da camada física.\nII. Pode ser um link em um e-mail malicioso.\nIII. É um tipo de criptografia de dois fatores.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I e III, apenas.",
+            "I e II, apenas.",
+            "II, apenas.",
+            "II e III, apenas."
+        ],
+        "gabarito": "II, apenas."
+    },
+    {
+        "id": 34,
+        "enunciado": "O ataque é um ato intencional no qual um adversário procura evadir serviços de segurança e violar a política de segurança de um sistema. Os ataques passivos são muito difíceis de detectar, pois não envolvem alteração dos dados trafegados na rede. Por outro lado, os ataques ativos envolvem alguma modificação do fluxo de dados ou a criação de um fluxo falso. Dentre os exemplos de ataques, há o ataque de disfarce, cujo objetivo é o de",
+        "alternativas": [
+            "coletar informações, com base na escuta do fluxo de dados transmitido na linha de comunicação.",
+            "ganhar conhecimento por inferência, com base nas características observáveis do fluxo de dados.",
+            "provocar a sobrecarga da rede como um tipo de obstrução, com a finalidade de causar uma interrupção.",
+            "consumir e esgotar os recursos do sistema da vítima, como ciclos de CPU, memória e espaço em disco.",
+            "ganhar acesso a um sistema ou desempenhar uma ação maliciosa, por posar ilegitimamente como uma entidade autorizada."
+        ],
+        "gabarito": "ganhar acesso a um sistema ou desempenhar uma ação maliciosa, por posar ilegitimamente como uma entidade autorizada."
+    },
+    {
+        "id": 35,
+        "enunciado": "A engenharia social é uma técnica de manipulação que visa persuadir pessoas a cometerem erros ou burlar políticas de segurança, de forma que o adversário tenha êxito em ações maliciosas que não seriam viáveis sem a participação da vítima. Dentre os métodos mais comuns de engenharia social, existe um que tem como objetivo seguir um membro autorizado da equipe em uma área de acesso restrito e se aproveitar da cortesia social para fazer com que a pessoa segure a porta para o atacante ou para convencer a pessoa de que o atacante também está autorizado a ficar na área de acesso restrito. Esse método de engenharia social é conhecido como",
+        "alternativas": [
+            "baiting.",
+            "phishing.",
+            "smishing.",
+            "tailgating.",
+            "honeytrap."
+        ],
+        "gabarito": "tailgating."
+    },
+    {
+        "id": 36,
+        "enunciado": "Um órgão contratou um profissional especialista em ethical hacking para identificar os riscos de ataques aos quais está sujeito. O profissional coletou inúmeras informações sobre os sistemas e ativos, utilizando ferramentas e engenharia social, para realizar testes de segurança e identificar as vulnerabilidades existentes.\nEsse procedimento de coleta de informação é conhecido como:",
+        "alternativas": [
+            "footprinting;",
+            "pen test;",
+            "scanning;",
+            "exploitation;",
+            "forense digital."
+        ],
+        "gabarito": "footprinting;"
+    },
+    {
+        "id": 37,
+        "enunciado": "A respeito dos conceitos de segurança da informação, das vulnerabilidades e ameaças, da biblioteca ITIL e do guia PMBOK, julgue o item subsequente.\nUm ataque de phishing tenta obter informações sensíveis fingindo ser uma entidade confiável em uma comunicação eletrônica.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 38,
+        "enunciado": "No que se refere à segurança da informação, julgue o item subsecutivo.\nNos golpes cibernéticos promovidos com base em engenharia social, em geral, os invasores têm como objetivos a interrupção ou corrupção de dados para causar danos ou incômodos e obtenção de algum valor, tal como dinheiro ou acesso a informações ou a dados pessoais ou sigilosos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 39,
+        "enunciado": "Julgue o item seguinte, relativos a ameaças, ataques e protocolos de segurança de email.\nO spear phishing tem como alvo um grupo específico ou tipo de indivíduo, como os administradores de sistema de uma empresa; já o whaling é um tipo de phishing ainda mais direcionado e geralmente tem como alvo um CEO ou CFO de um setor ou negócio específico.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 40,
+        "enunciado": "Spear phishing é um(a):",
+        "alternativas": [
+            "tipo de ataque de phishing altamente direcionado.",
+            "ato de falsificar a identidade da fonte de uma comunicação ou interação.",
+            "forma de ataque de phishing que ocorre em VoIP.",
+            "técnica maliciosa em que uma vítima é induzida a clicar em URL, botão ou outro objeto de tela que ela não tenha percebido e nem pretendido clicar.",
+            "tipo específico de phishing que visa membros de alto escalação de organizações."
+        ],
+        "gabarito": "tipo de ataque de phishing altamente direcionado."
+    },
+    {
+        "id": 41,
+        "enunciado": "No contexto das ameaças cibernéticas e segurança da informação, ataques cujo objetivo é subtrair recursos financeiros ou obter informações pessoais, levando a revelações indevidas de dados sensíveis, são denominados",
+        "alternativas": [
+            "Zero Trust.",
+            "Malware.",
+            "Backdoors.",
+            "Phishing."
+        ],
+        "gabarito": "Phishing."
+    },
+    {
+        "id": 42,
+        "enunciado": "Microsoft Azure defende que planejar-se antecipadamente contra ataques de phishing comuns, incluindo spear phishing, whaling, smishing e vishing é a melhor proteção. Sendo assim, o ataque de é um método que criminosos virtuais usam para se disfarçar como se fossem participantes de alto escalão de uma organização e atingir diretamente outras pessoas importantes, visando roubar dinheiro e informações sigilosas ou obter acesso a seus sistemas de computadores para fins criminosos. Também conhecido como fraude do CEO, esse ataque usa métodos como a falsificação de e-mails e sites para enganar um alvo e fazê-lo realizar ações específicas, como revelar dados confidenciais ou transferir dinheiro.\nAssinale a alternativa que preenche corretamente a lacuna do trecho acima.",
+        "alternativas": [
+            "phishing.",
+            "whaling.",
+            "smishing.",
+            "vishing.",
+            "spear phishing."
+        ],
+        "gabarito": "whaling."
+    },
+    {
+        "id": 43,
+        "enunciado": "Engenharia social é uma técnica usada para manipular pessoas, a fim de obter informações confidenciais, acesso a sistemas ou outros objetivos mal-intencionados.\nSelecione a alternativa que mostra a técnica que consiste na prática de procurar informações sensíveis em lixo ou lixeiras.",
+        "alternativas": [
+            "Tailgating.",
+            "Spear phishing.",
+            "Vishing.",
+            "Social engineering pretexting.",
+            "Dumpster diving."
+        ],
+        "gabarito": "Dumpster diving."
+    },
+    {
+        "id": 44,
+        "enunciado": "Assinale a opção que indica um ataque em que um golpista visa obter dados pessoais e financeiros de um usuário pela utilização combinada de meios técnicos e engenharia social.",
+        "alternativas": [
+            "DDoS (distributed denial of service).",
+            "brute force.",
+            "eavesdropping.",
+            "phishing.",
+            "port scanning."
+        ],
+        "gabarito": "phishing."
+    },
+    {
+        "id": 45,
+        "enunciado": "João recebeu uma ligação telefônica de um suposto funcionário de um banco onde ele tem conta-corrente. Esse funcionário informou que o motivo da referida ligação era a confirmação de uma transferência bancária de alto valor que o cliente em questão teria realizado. Após João negar a autoria da transferência, a qual não havia feito, o suposto funcionário pediu que ele digitasse, no teclado do telefone, os seus dados pessoais, como CPF, agência, conta e senha, para que o sistema do banco processasse o cancelamento da transferência. Preocupado, João atendeu ao pedido do suposto funcionário do banco. A referida transferência bancária nunca ocorreu.\nNessa situação hipotética, João foi vítima de um ataque baseado em",
+        "alternativas": [
+            "engenharia social.",
+            "exploração de vulnerabilidade.",
+            "força bruta.",
+            "negação de serviço.",
+            "código malicioso."
+        ],
+        "gabarito": "engenharia social."
+    },
+    {
+        "id": 46,
+        "enunciado": "Considerando conceitos e padrões criptográficos, conceitos de blockchain e detecção, resposta, tratamento e recuperação de incidentes cibernéticos, julgue o item a seguir.\nDenomina-se phishing a ação de o agente do ataque colocar-se entre a comunicação de dois usuários válidos, interceptar as mensagens enviadas, passando-se por uma das partes, e poder alterá-las ou bloqueá-las.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 47,
+        "enunciado": "O tipo de ataque que tem como objetivo enganar os usuários para que forneçam informações confidenciais, como senhas e informações bancárias, através de sites falsos e e-mails fraudulentos, é:",
+        "alternativas": [
+            "DDoS (Distributed Denial of Service).",
+            "DoS (Denial of Service).",
+            "Malware.",
+            "Phishing.",
+            "Spoofing."
+        ],
+        "gabarito": "Phishing."
+    },
+    {
+        "id": 48,
+        "enunciado": "Os usuários de um sistema estão sujeitos a ataques de engenharia social. Um vetor comum nesses ataques é o e-mail, usado para atrair alvos a visitarem sites maliciosos ou a fazerem o download de anexos maliciosos, entre outras atividades maliciosas. Um meio de realizar esse tipo de ataque é utilizando uma ferramenta de código aberto, concebida para ajudar na realização dos ataques de engenharia social, permitindo fazer um ataque de spear-phishing. A ferramenta descrita é o",
+        "alternativas": [
+            "msfvenom.",
+            "setoolkit.",
+            "iptables.",
+            "burp.",
+            "ettercap."
+        ],
+        "gabarito": "setoolkit."
+    },
+    {
+        "id": 49,
+        "enunciado": "Na internet, o golpe caracterizado pela ação de um golpista tentando induzir uma pessoa a fornecer informações confidenciais ou a realizar um pagamento adiantado, com a promessa de futuramente receber algum tipo de benefício, é conhecido como:",
+        "alternativas": [
+            "Fraude de antecipação de recursos.",
+            "Falsificação de e-mail.",
+            "Desfiguração de página.",
+            "Furto de identidade.",
+            "Boato (hoax)."
+        ],
+        "gabarito": "Fraude de antecipação de recursos."
+    },
+    {
+        "id": 50,
+        "enunciado": "No que diz respeito aos ataques a redes de computadores e aos conceitos de VPN, julgue o item.\nUm ataque de phishing é caracterizado pela interceptação de comunicações entre usuários e servidores para obter informações sensíveis.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 51,
+        "enunciado": "Ensine as crianças a serem mais cuidadosas e menos curiosas ao receberem mensagens ou e-mails com links e anexos, mesmo que tenham sido enviados por amigos. Mensagens sobre \"ganhar\" ou conseguir algo \"grátis\" que pareçam boas demais devem ser evitadas...\" Fonte: Banco do Brasil.\nAssocie a segunda coluna de acordo com a primeira que relaciona conceitos de segurança da informação:\nPrimeira coluna: Conceitos de segurança\n1.Pishing\n2.Engenharia Social\n3.Privacidade Segunda coluna: Características\n( ) Diversos sites com jogos online, mesmo aqueles dedicados exclusivamente ao público infantil, mantém redes sociais. É importante acompanhar quem são os amigos virtuais da criança.\n( ) Neste tipo de golpe, alguém finge ser um contato confiável e usa um e-mail, uma mensagem de texto ou outra forma de comunicação online para roubar informações.\n( ) Informações pessoais e detalhes da rotina devem ser protegidos. Uma simples foto em uma rede social, colocando \"meu lar\" e ligando a localização, por exemplo, já deixa pública uma informação valiosa para criminosos virtuais.\nAssinale a alternativa que apresenta a correta associação entre as colunas:",
+        "alternativas": [
+            "1 − 3 − 2.",
+            "2 − 1 − 3.",
+            "3 − 1 − 2.",
+            "2 − 3 − 1.",
+            "1 − 2 − 3."
+        ],
+        "gabarito": "2 − 1 − 3."
+    },
+    {
+        "id": 52,
+        "enunciado": "No tocante à segurança da informação, o Banco Brasil fez um comunicado aos seus clientes sobre um golpe na internet, descrito a seguir:\n• Tudo começa com um golpista enviando aos alvos mensagens com links maliciosos, abordando temas como ofertas imperdíveis, pontos de fidelidade a expirar ou alertas financeiros a título de iscas enviadas por SMS, WhatsApp ou e-mail.\n• A pessoa clica no link da mensagem que leva a uma página falsa, muito parecida com o site das instituições, solicitando dados confidenciais, como agência, conta, número do cartão e senhas.\n• Já com essas informações, o golpista envia um SMS solicitando o retorno do cliente pelo 0800 ou ele mesmo liga para a vítima. • Na ligação, o golpista fala de uma movimentação estranha na conta, como compras suspeitas, ou atualizações de segurança no aplicativo. Em seguida, o criminoso convence a vítima a realizar as transações que ele deseja.\nEsse golpe é conhecido como",
+        "alternativas": [
+            "sniffing.",
+            "phishing.",
+            "wireshark.",
+            "minecraft."
+        ],
+        "gabarito": "phishing."
+    },
+    {
+        "id": 53,
+        "enunciado": "Julgue o item subsequente, a respeito de políticas para o uso de dispositivo móvel.\nA ameaça em segurança dos dispositivos móveis da empresa denominada ataques de engenharia social é caracterizada pelo mau uso dos recursos de rede, dispositivo ou identidade, como, por exemplo, ataques de negação de serviço.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 54,
+        "enunciado": "O ataque digital que tem como objetivo capturar informações sensíveis por meio de fraudes eletrônicas e que se utiliza de pretextos falsos, com o intuito de receber informações sensíveis dos usuários, e que ocorre com mais frequência por meio do envio de e-mails e páginas web falsas, denomina-se",
+        "alternativas": [
+            "IP spoofing.",
+            "pharming.",
+            "fakenews.",
+            "phishing.",
+            "tootkit."
+        ],
+        "gabarito": "phishing."
+    },
+    {
+        "id": 55,
+        "enunciado": "Marina recebeu uma ligação de um suposto funcionário que dizia estar fazendo uma pesquisa sanitária sobre uma pandemia.\nMarina passou suas informações pessoais e profissionais, que permitiram ao falso funcionário acessar um sistema com suas credenciais.\nA técnica empregada pelo falso funcionário para conseguir as informações de Marina é:",
+        "alternativas": [
+            "poisoning;",
+            "flooding;",
+            "engenharia social;",
+            "suborno;",
+            "sniffer."
+        ],
+        "gabarito": "engenharia social;"
+    },
+    {
+        "id": 56,
+        "enunciado": "Um invasor pode ser uma pessoa que, mesmo sem conhecimento técnico, busca roubar informações, geralmente seguindo um processo. Nos ataques de engenharia social, o invasor segue, sucessivamente, as etapas de",
+        "alternativas": [
+            "pesquisa, seleção do alvo, relacionamento e exploração.",
+            "representação, conversação, relacionamento e exploração.",
+            "pesquisa, seleção do alvo, construção do aplicativo e relacionamento.",
+            "representação, seleção do alvo, construção do aplicativo e exploração."
+        ],
+        "gabarito": "pesquisa, seleção do alvo, relacionamento e exploração."
+    },
+    {
+        "id": 57,
+        "enunciado": "Com relação aos tipos de malwares, julgue o item que se segue.\nO phishing é uma técnica explorada por um invasor que tenta obter o endereço IP do usuário para enviar uma quantidade volumosa de requisições e aumentar o consumo da banda.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 58,
+        "enunciado": "A respeito de segurança em redes de computadores e criptografia, julgue o item seguinte.\nOs ataques de phishing caracterizam-se pelo envio de mensagens eletrônicas que despertam a atenção de usuários por meio da sugestão de vantagens ou ameaças de prejuízos e também por induzirem os usuários a fornecer dados pessoais e(ou) financeiros.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 59,
+        "enunciado": "De acordo com a Cartilha de Segurança para Internet, assinalar a alternativa que preenche a lacuna abaixo CORRETAMENTE:\nO pharming é um tipo específico de __________ que envolve a redireção da navegação do usuário para sites falsos, por meio de alterações no serviço de DNS (Domain Name System).",
+        "alternativas": [
+            "phishing.",
+            "hash.",
+            "worm.",
+            "cookie.",
+            "pop-up."
+        ],
+        "gabarito": "phishing."
+    },
+    {
+        "id": 60,
+        "enunciado": "Um perito em computação está investigando a denúncia de um ataque direcionado, que se caracteriza pela prática de estelionato, visando enganar a vítima com com o objetivo de comprometer a segurança do seu computador ou causar-lhe prejuízos financeiros. Qual é o tipo de ataque que o perito está investigando?",
+        "alternativas": [
+            "Tokenização.",
+            "IP spoofing.",
+            "Man-in-the-middle.",
+            "Spear phishing.",
+            "DDoS."
+        ],
+        "gabarito": "Spear phishing."
+    },
+    {
+        "id": 61,
+        "enunciado": "Antônio recebeu uma mensagem SMS supostamente enviada pela segurança corporativa, orientando-o a clicar em um link para atualizar um cadastro. Ao fazê-lo, Antônio cai em um site falso, mas bastante parecido com o da sua empresa, e fornece dados sigilosos como nome de usuário e senha.\nEsse tipo de técnica de engenharia social que se aproveita da confiança depositada por um usuário para roubar dados é denominado:",
+        "alternativas": [
+            "trojan;",
+            "phishing;",
+            "spoofing;",
+            "backdoor;",
+            "ransomware."
+        ],
+        "gabarito": "phishing;"
+    },
+    {
+        "id": 62,
+        "enunciado": "No contexto de ataques em redes locais, um agente malicioso presente na infraestrutura da Assembleia passa a transmitir pacotes utilizando endereços MAC ou IP de origem falsificados, com o objetivo de se fazer passar por um equipamento legítimo — como um gateway ou outro host autorizado — a fim de interceptar comunicações ou burlar mecanismos de controle de acesso.\nEssa prática de mascarar ou falsificar a identidade de um dispositivo para enganar sistemas, usuários ou componentes da rede é genericamente denominada",
+        "alternativas": [
+            "Flooding.",
+            "Spoofing.",
+            "Tuning.",
+            "Clipping.",
+            "Phreaking."
+        ],
+        "gabarito": "Spoofing."
+    },
+    {
+        "id": 63,
+        "enunciado": "Analise as afirmativas abaixo com relação ao ARP spoofing.\n1. ARP spoofing, também conhecido como envenenamento ARP, é a forma mais comum de ataque cibernético na qual um remetente malicioso envia mensagens ARP falsas para uma rede local. O principal objetivo disso é associar o endereço lógico do atacante ao endereço IP de um host original.\n2. O protocolo ARP traduz endereços IP em endereços MAC para que os dispositivos em uma LAN possam se comunicar entre si.\n3. O protocolo ARP não foi projetado para segurança, portanto, ele não verifica se uma resposta a uma solicitação ARP realmente vem de uma parte autorizada.\nEle também permite que hosts aceitem respostas ARP mesmo que nunca tenham enviado uma solicitação. Esse é um ponto fraco do protocolo ARP, que abre a porta para ataques de ARP spoofing.\nAssinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "É correta apenas a afirmativa 1.",
+            "É correta apenas a afirmativa 2.",
+            "São corretas apenas as afirmativas 1 e 2.",
+            "São corretas apenas as afirmativas 2 e 3.",
+            "São corretas as afirmativas 1, 2 e 3."
+        ],
+        "gabarito": "São corretas apenas as afirmativas 2 e 3."
+    },
+    {
+        "id": 64,
+        "enunciado": "Durante uma análise de incidentes, o time de resposta a segurança identificou que um atacante externo estava falsificando o endereço IP de origem dos pacotes enviados à rede da organização, fazendo com que o tráfego malicioso aparentasse ser originado por um servidor interno confiável e, assim, contornasse as regras do firewall. Nesse caso, assinale a alternativa que identifica CORRETAMENTE o tipo de ataque descrito.",
+        "alternativas": [
+            "Sniffing, que consiste na captura e monitoramento passivo dos pacotes que trafegam na rede com o objetivo de interceptar informações, incluindo endereços IP e dados transmitidos, sem interferir no tráfego.",
+            "Man-in-the-Middle, que consiste na interceptação ativa da comunicação entre dois hosts, permitindo ao atacante visualizar e manipular os endereços IP de origem e destino dos pacotes para ler, modificar ou injetar dados no fluxo sem o conhecimento das partes.",
+            "Defacement, que consiste na alteração não autorizada do conteúdo de páginas ou aplicações web após o atacante identificar o endereço IP do servidor-alvo, geralmente com fins de protesto ou demonstração de comprometimento do servidor.",
+            "Spoofing, que consiste na falsificação do endereço IP de origem dos pacotes para que o tráfego aparente ser proveniente de um host legítimo ou confiável da rede.",
+            "Força bruta, que consiste em tentativas automáticas e sistemáticas direcionadas a um endereço IP específico para descobrir credenciais por meio de teste exaustivo de combinações de usuário e senha."
+        ],
+        "gabarito": "Spoofing, que consiste na falsificação do endereço IP de origem dos pacotes para que o tráfego aparente ser proveniente de um host legítimo ou confiável da rede."
+    },
+    {
+        "id": 65,
+        "enunciado": "Julgue o item seguinte, a respeito da arquitetura de gerenciamento MIB, redes sem fio, ataques do tipo spoofing, conceito de criptografia, gestão de memória em sistemas operacionais e serviço de diretório LDAP.\nA falsificação de registros no DNS apresenta menor complexidade técnica do que o spoofing de email (SMTP), uma vez que a natureza do protocolo UDP dispensa a necessidade de o invasor prever ou adivinhar identificadores numéricos para que a resposta maliciosa seja aceita pelo servidor de destino.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 66,
+        "enunciado": "DDoS (Distributed Denial of Service) é um ataque malicioso em que múltiplos dispositivos comprometidos, conhecidos como botnets, são usados para sobrecarregar um servidor, rede ou serviço, tornando-o inacessível para os usuários legítimos. Sobre as características do ataque DDoS, o procedimento realizado por esse ataque para esconder a origem do tráfego malicioso é a utilização",
+        "alternativas": [
+            "do tráfego legítimo para esconder a origem do ataque.",
+            "de servidores proxy ocultos para esconder a origem do ataque.",
+            "da técnica de IP spoofing para mascarar o endereço de origem dos pacotes.",
+            "de criptografia de ponta a ponta para garantir que o tráfego não seja detectado."
+        ],
+        "gabarito": "da técnica de IP spoofing para mascarar o endereço de origem dos pacotes."
+    },
+    {
+        "id": 67,
+        "enunciado": "Um ataque bem-sucedido de disfarce pode fazer com que uma entidade não autorizada ganhe acesso a um sistema ou desempenhe uma ação maliciosa por posar ilegitimamente como uma entidade autorizada. Uma das técnicas de disfarce falsifica o endereço IP (Internet Protocol) de envio de uma transmissão para obter entrada ilegal em um sistema seguro.\nEssa técnica é conhecida como IP",
+        "alternativas": [
+            "exploiting.",
+            "flooding.",
+            "misleading.",
+            "screening.",
+            "spoofing."
+        ],
+        "gabarito": "spoofing."
+    },
+    {
+        "id": 68,
+        "enunciado": "É uma técnica utilizada em redes de computadores, em que o ataque realizado pelo criminoso virtual se disfarça ou finge ser outra entidade para enganar sistemas ou usuários, com a finalidade de obter acesso não autorizado, roubar informações ou causar danos ao alvo dos ataques:",
+        "alternativas": [
+            "Flood.",
+            "Ransomware.",
+            "Spoofing.",
+            "DDoS."
+        ],
+        "gabarito": "Spoofing."
+    },
+    {
+        "id": 69,
+        "enunciado": "Um dos ataques mais perigosos à integridade das comunicações na internet é o DNS Spoofing, capaz de redirecionar usuários para sites maliciosos mesmo quando digitam o endereço correto. Com relação à essa técnica, assinale a alternativa correta.",
+        "alternativas": [
+            "Uma técnica maliciosa que insere dados falsos no cache de um servidor DNS, fazendo com que ele responda com endereços IP incorretos para domínios legítimos.",
+            "Uma técnica utilizada para criptografar as consultas DNS a fim de protegê-las contra interceptação.",
+            "Um método de autenticação do servidor DNS por meio de certificados digitais válidos.",
+            "Um recurso legítimo do protocolo DNS para balancear a carga entre múltiplos servidores de conteúdo.",
+            "Uma funcionalidade de segurança que impede a resolução de domínios não autorizados."
+        ],
+        "gabarito": "Uma técnica maliciosa que insere dados falsos no cache de um servidor DNS, fazendo com que ele responda com endereços IP incorretos para domínios legítimos."
+    },
+    {
+        "id": 70,
+        "enunciado": "No que tange ao DNS Spoofing, assinale a alternativa correta.",
+        "alternativas": [
+            "O DNS Spoofing pode ser mitigado por meio do uso de DNSSEC, que adiciona assinaturas criptográficas para validar a autenticidade das respostas DNS.",
+            "O DNS Spoofing só pode ocorrer se o invasor tiver acesso físico ao roteador do usuário ou da empresa, o que limita bastante sua ocorrência.",
+            "O DNS Spoofing é um ataque de negação de serviço (DoS) que visa tornar os servidores DNS inoperantes temporariamente.",
+            "A autenticação por dois fatores (2FA) é suficiente para evitar completamente os impactos de ataques DNS Spoofing.",
+            "O DNS Spoofing ocorre quando o atacante explora uma vulnerabilidade em switches de camada 3 para manipular o roteamento do tráfego DNS."
+        ],
+        "gabarito": "O DNS Spoofing pode ser mitigado por meio do uso de DNSSEC, que adiciona assinaturas criptográficas para validar a autenticidade das respostas DNS."
+    },
+    {
+        "id": 71,
+        "enunciado": "No que concerne aos tipos de ataque, julgue o seguinte item.\nConsidere que um email malicioso tenha sido recebido por uma pessoa, que identificou alterações no cabeçalho do email e, portanto, percebeu que o email havia sido enviado a partir de uma origem diferente daquela que supostamente o teria enviado. Nesse caso, a situação descrita configura um ataque de spoofing.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 72,
+        "enunciado": "Um usuário de um computador recebeu um e-mail no qual um hacker se fez passar por uma pessoa conhecida, com dados verdadeiros sobre o mesmo, inclusive o endereço de e-mail, e usou esse e-mail para induzir a vítima a fornecer alguma vantagem monetária. Esse tipo de ataque também é conhecido como:",
+        "alternativas": [
+            "dialer.",
+            "brutal.",
+            "spoofing.",
+            "keylogger."
+        ],
+        "gabarito": "spoofing."
+    },
+    {
+        "id": 73,
+        "enunciado": "Um analista da área de Segurança de Tecnologia da Informação implementou um recurso de inspeção de ARP para proteger a rede da Defensoria Pública do Estado de Mato Grosso do Sul contra ataques de ARP spoofing. Qual é o resultado esperado desse recurso?",
+        "alternativas": [
+            "O recurso de inspeção de ARP irá alterar o endereço MAC do computador malicioso para o endereço MAC do servidor.",
+            "O recurso de inspeção de ARP irá alertar o administrador da rede sobre tentativas de ARP spoofing.",
+            "O recurso de inspeção de ARP irá permitir que o atacante malicioso continue executando o ataque de ARP spoofing.",
+            "O recurso de inspeção de ARP irá bloquear todas as mensagens de ARP falsificadas.",
+            "O recurso de inspeção de ARP irá alterar o endereço IP do computador malicioso para o endereço IP do servidor."
+        ],
+        "gabarito": "O recurso de inspeção de ARP irá bloquear todas as mensagens de ARP falsificadas."
+    },
+    {
+        "id": 74,
+        "enunciado": "Dentro do contexto dos ataques a redes de computadores, e importante reconhecer a diversidade de abordagens, cada uma apresentando características e métodos únicos de execução. Em um dos tipos de ataque mais notáveis, o atacante falsifica ou manipula informações de identificação para ocultar sua identidade ou para que a comunicação pareça confiável. Essa estratégia pode incluir a falsificação de endereços lP (lnternet Protocol), MAC (Media Access Control), e-mails ou outras formas de identificação, com o intuito de ludibriar os sistemas de segurança e obter acesso não autorizado. Trata-se de:",
+        "alternativas": [
+            "Spoofing.",
+            "Flooding.",
+            "Man-inthe-Middle.",
+            "Ransomware.",
+            "Trojan."
+        ],
+        "gabarito": "Spoofing."
+    },
+    {
+        "id": 75,
+        "enunciado": "Em relação à segurança da informação, assinalar a alternativa que descreve a prática em que um sistema de computador emite comandos para outro, fingindo ser um terceiro, com o objetivo de mascarar sua verdadeira identidade:",
+        "alternativas": [
+            "Defacement.",
+            "Spoofing.",
+            "Brute Force.",
+            "Distributed Denial of Service (DDoS)."
+        ],
+        "gabarito": "Spoofing."
+    },
+    {
+        "id": 76,
+        "enunciado": "Em um ambiente computacional, a segurança da informação e o gerenciamento de riscos são fatores essenciais para a proteção e segurança dos dados sigilosos produzidos nas operações diárias. O spoofing é um tipo de ataque no qual o criminoso virtual se disfarça de usuário ou dispositivo confiável para convencer o usuário a realizar uma ação prejudicial ou algo que gere benefício ao criminoso. Sobre esse tipo de ataque, analise as afirmativas a seguir.\nI. No spoofing de ARP, os invasores falsificam números de telefone para que as ligações pareçam vir de um código de área local ou se pareçam de uma organização confiável.\nII. No spoofing de e-mail, os invasores alteram endereços, arquivos de assinatura, logotipos e outros elementos visuais de um e-mail para ocultar a origem ou o propósito verdadeiro.\nIII. No spoofing de IP, o invasor tenta obter acesso não autorizado a um sistema enviando mensagens de um endereço IP falso para parecer que a mensagem foi originada de uma fonte confiável.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, II e III.",
+            "I e II, apenas.",
+            "I e III, apenas.",
+            "II e III, apenas."
+        ],
+        "gabarito": "II e III, apenas."
+    },
+    {
+        "id": 77,
+        "enunciado": "Um atacante presente numa rede local quer realizar um ataque para atuar como man-in-the-middle entre uma estação vítima e o default gateway da rede. Para executar esse ataque, o atacante quer fazer com que a estação da vítima associe o endereço MAC usado pelo atacante ao endereço IP do default gateway da rede. Além disso, quer fazer com que o default gateway da rede associe o endereço MAC usado pelo atacante ao endereço IP da estação da vítima. Para conseguir realizar essas associações, o atacante deve usar a técnica de",
+        "alternativas": [
+            "IP Spoofing.",
+            "ARP Spoofing.",
+            "ICMP Spoofing.",
+            "TCP Flooding.",
+            "TCP Hijacking."
+        ],
+        "gabarito": "ARP Spoofing."
+    },
+    {
+        "id": 78,
+        "enunciado": "A técnica de spoofing é muito empregada em testes de penetração e ataques cibernéticos. Ao usar spoofing pode-se escolher entre diversas possibilidades. Por exemplo, a aplicação apenas da técnica de IP spoofing permite",
+        "alternativas": [
+            "criar um malware capaz de permitir acesso remoto à um dispositivo infectado.",
+            "comprometer uma conta ignorando o processo de autenticação.",
+            "redirecionar o tráfego para um domínio distinto.",
+            "substituir uma interface de rede por outra controlada pelo atacante.",
+            "falsificar o cabeçalho de datagramas para ocultar seu remetente."
+        ],
+        "gabarito": "falsificar o cabeçalho de datagramas para ocultar seu remetente."
+    },
+    {
+        "id": 79,
+        "enunciado": "No que se refere a ataques em redes de computadores e redes wireless, julgue o item subsecutivo.\nNos ataques do tipo access point spoofing, os invasores circulam fisicamente por regiões onde desejam realizar os ataques e descobrem as redes que existem por ali, bem como os equipamentos físicos através dos quais poderão realizar as invasões posteriormente.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 80,
+        "enunciado": "Durante uma auditoria de segurança, uma grande empresa de e-commerce descobriu uma série de incidentes suspeitos em seu sistema de processamento de transações. Análises preliminares indicaram que os atacantes utilizaram técnicas de spoofing para enganar o sistema, fazendo-se passar por usuários legítimos. Os invasores conseguiram alterar endereços de entrega e realizar compras fraudulentas, causando prejuízos significativos. A empresa, que utiliza protocolos robustos de autenticação e criptografia, foi surpreendida pela sofisticação e especificidade do ataque. Considerando o contexto apresentado, NÃO descreve corretamente um cenário adicional relacionado ao spoofing descrito:",
+        "alternativas": [
+            "Além do spoofing de identidade, é possível que os atacantes tenham empregado técnicas de interceptação de tráfego de rede para obter mais dados de acesso.",
+            "Os atacantes podem ter usado técnicas de e-mail spoofing para enviar comunicações fraudulentas em nome da empresa, solicitando informações confidenciais dos clientes.",
+            "Os atacantes também poderiam ter utilizado ARP spoofing para redirecionar o tráfego em uma rede local, interceptando dados sensíveis entre terminais de pagamento e servidores.",
+            "Os atacantes podem ter explorado vulnerabilidades no protocolo DNS para redirecionar os usuários a sites fraudulentos que imitam a aparência do site legítimo da empresa, coletando suas credenciais.",
+            "Além das técnicas de spoofing já utilizadas, os atacantes podem ter empregado a estratégia de “pharmin”, direcionando os usuários para uma versão maliciosa do website através de alterações sutis na configuração do servidor DNS da empresa, sem necessidade de comprometimento de dispositivos individuais dos usuários."
+        ],
+        "gabarito": "Além das técnicas de spoofing já utilizadas, os atacantes podem ter empregado a estratégia de “pharmin”, direcionando os usuários para uma versão maliciosa do website através de alterações sutis na configuração do servidor DNS da empresa, sem necessidade de comprometimento de dispositivos individuais dos usuários."
+    },
+    {
+        "id": 81,
+        "enunciado": "A Segurança da Informação é essencial para proteger sistemas e dados contra acessos não autorizados, danos, modificações e interrupções. Ela cobre uma ampla gama de componentes, incluindo hardware, software, sistemas operacionais, aplicações, bancos de dados, redes, pessoas e o ambiente físico. Considerando isso, assinale a alternativa que apresenta o tipo de ataque a redes de computadores caracterizado pela falsificação de identidade para enganar sistemas e usuários.",
+        "alternativas": [
+            "Cross-Site Scripting (XSS).",
+            "Cross-Site Request Forgery (CSRF).",
+            "Man-in-the-Middle (MitM).",
+            "Spoofing.",
+            "Distributed Denial of Service (DDoS)."
+        ],
+        "gabarito": "Spoofing."
+    },
+    {
+        "id": 82,
+        "enunciado": "A segurança e precaução contra ameaças, isto é, malwares, spywares e outros softwares maliciosos nos sistemas, é um tema cada vez mais abordado atualmente. O DNS spoofing, uma medida de invasão, constitui:",
+        "alternativas": [
+            "uma técnica de hacking que utiliza de realocação de endereços IP de provedoras.",
+            "um software que coleta secretamente o endereço IP.",
+            "a manipulação de um servidor DNS para instalar um endereço IP falso.",
+            "uma brecha no servidor DNS, permitindo a exploração dos endereços expostos.",
+            "uma falha de endereçamento no sistema operacional que permite a execução de um código malicioso."
+        ],
+        "gabarito": "a manipulação de um servidor DNS para instalar um endereço IP falso."
+    },
+    {
+        "id": 83,
+        "enunciado": "Uma prática de ataque em redes de computadores é o envio de datagramas para um computador usando um endereço IP de origem diferente do real, simulando outra fonte. Tal prática é conhecida como",
+        "alternativas": [
+            "spyware.",
+            "DoS.",
+            "sniffing.",
+            "spoofing.",
+            "DDoS."
+        ],
+        "gabarito": "spoofing."
+    },
+    {
+        "id": 84,
+        "enunciado": "Qual a técnica mais empregada por ataques de phishing no que diz respeito ao atacante fingir ser quem não é, personificando uma fonte confiável?",
+        "alternativas": [
+            "DDoS.",
+            "rootkit.",
+            "sniffing.",
+            "spoofing.",
+            "ransomware."
+        ],
+        "gabarito": "spoofing."
+    },
+    {
+        "id": 85,
+        "enunciado": "Um administrador de rede observou uma situação atípica em várias estações da rede local. Nessas estações, o endereço IP do roteador padrão da rede local encontra- -se associado, de forma dinâmica, ao endereço físico da interface de rede (MAC Address) de uma estação de trabalho presente na rede local e que está operando como man-in-the-middle. Ele concluiu que a rede estava sendo atacada e que a associação maliciosa descrita estava sendo realizada. Nesse caso, a técnica de ataque utilizada foi a de",
+        "alternativas": [
+            "phishing.",
+            "cryptojacking.",
+            "eavesdropping.",
+            "session hijacking.",
+            "ARP spoofing."
+        ],
+        "gabarito": "ARP spoofing."
+    },
+    {
+        "id": 86,
+        "enunciado": "A varredura de portas é o processo de enviar mensagens para as portas de comunicação dos serviços de rede para identificar quais estão ativos. Há um método de varredura furtiva de porta TCP que usa um zumbi para determinar os serviços ativos no computador alvo, sem deixar rastros, pois o alvo conhecerá apenas o endereço IP desse zumbi. Esse método é conhecido como TCP",
+        "alternativas": [
+            "SYN scan.",
+            "ACK scan.",
+            "NULL scan.",
+            "FIN scan.",
+            "IDLE scan."
+        ],
+        "gabarito": "IDLE scan."
+    },
+    {
+        "id": 87,
+        "enunciado": "No que diz respeito aos ataques a redes de computadores e aos conceitos de VPN, julgue o item.\nA característica principal dos ataques de spoofing é a falsificação do endereço IP de origem para esconder a identidade do atacante.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 88,
+        "enunciado": "É correto afirmar o que tipo de ataque em redes de computadores conhecido como DNS spoofing, de forma resumida, consiste em",
+        "alternativas": [
+            "manipular registros relacionados ao sistema de nomes de domínio para que usuários sejam direcionados a websites fraudulentos.",
+            "injetar queries de consultas a bancos de dados relacionais em formulários de páginas web.",
+            "enviar uma grande quantidade de pacotes para um servidor na Internet, sobrecarregando sua capacidade de comunicação e processamento, evitando que ele responda a requisições legítimas.",
+            "enviar pacotes na Internet com endereço IP de origem falso.",
+            "enviar e-mails falsos para enganar usuários, induzindo- os a inserir informações pessoais ou senhas em websites fraudulentos."
+        ],
+        "gabarito": "manipular registros relacionados ao sistema de nomes de domínio para que usuários sejam direcionados a websites fraudulentos."
+    },
+    {
+        "id": 89,
+        "enunciado": "No campo dos ataques cibernéticos, um envolve a falsificação de identidade, ou seja, os invasores mascaram sua verdadeira identidade e fingem ser uma pessoa ou entidade confiável, sendo muito comum a utilização de e-mails, chamadas telefônicas ou sites falsos para dissimular o ataque e enganar as vítimas, com o objetivo de roubar dados.\nEsse tipo de ataque cibernético é conhecido por",
+        "alternativas": [
+            "hoaxing.",
+            "spooling.",
+            "spamming.",
+            "spoofing.",
+            "flooding."
+        ],
+        "gabarito": "spoofing."
+    },
+    {
+        "id": 90,
+        "enunciado": "O analista em TI Pedro constatou que o site principal do MPSC www.mpsc.mp.br está direcionando os usuários a uma página que apresenta o aspecto visual correto, mas que possui um endereço IP desconhecido pela equipe de infraestrutura de TI do MPSC.\nPedro logo concluiu que a infraestrutura de TI do MPSC está sofrendo um ataque do tipo:",
+        "alternativas": [
+            "backdoor;",
+            "negação de serviço;",
+            "ransonware;",
+            "cavalo de troia;",
+            "spoofing."
+        ],
+        "gabarito": "spoofing."
+    },
+    {
+        "id": 91,
+        "enunciado": "Julgue o item subsequente, a respeito de ataques a redes de computadores.\nConsidere-se que um usuário tenha recebido uma mensagem de email em que os campos do cabeçalho tenham sido alterados de forma a aparentar que o email tivesse sido enviado por um remetente diferente do remetente real. Nesse caso, foi usada a técnica de falsificação denominada spoofing.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 92,
+        "enunciado": "Acerca dos tipos de ataques a redes de computadores, julgue o item subsecutivo.\nNo ataque de spoofing, é feita uma verificação do fluxo da rede por meio da análise do envio e recebimento de pacotes de dados, de forma que se obtém um mapa dos dispositivos existentes na rede.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 93,
+        "enunciado": "Acerca dos tipos de ataques a redes de computadores, julgue o item subsecutivo.\nChama-se spoofing o tipo de ataque em que se tenta autenticar uma máquina externa desconhecida como sendo uma máquina da rede interna.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 94,
+        "enunciado": "Em um tipo de ataque contra redes locais, o atacante configura um servidor DHCP falso na rede para distribuir configurações de IP para os dispositivos e computadores de forma indevida. Um possível interesse, caso o ataque seja bem-sucedido, seria forçar que os clientes utilizem um servidor DNS ou gateway padrão falso.\nEsse ataque é conhecido como",
+        "alternativas": [
+            "DHCP starvation.",
+            "DHCP spoofing.",
+            "MAC address flooding.",
+            "DHCP brute force password attack.",
+            "Telnet DoS attack."
+        ],
+        "gabarito": "DHCP spoofing."
+    },
+    {
+        "id": 95,
+        "enunciado": "Analise as seguintes situações relacionadas à segurança de rede de computadores que ocorrem com frequência:\na: O usuário recebeu respostas de e-mails que ele nunca enviou.\nb: O usuário recebeu e-mails aparentemente enviados por ele mesmo, sem que ele tenha feito isto.\nc: O usuário recebeu um e-mail do administrador do serviço de e-mail que ele utiliza, solicitando informações pessoais e ameaçando bloquear a sua conta caso ele não as envie.\nd: O usuário recebeu um e-mail supostamente de alguém conhecido, solicitando que ele clique em um link ou execute um arquivo anexo.\nEm relação a essas situações, é correto afirmar que",
+        "alternativas": [
+            "as situações a e b são compatíveis com a técnica conhecida como vírus de macro, enquanto que as situações c e d são compatíveis com a técnica conhecida como spoofing.",
+            "as situações a, b e c são compatíveis com a técnica conhecida como worm, enquanto que a situação d é compatível com a técnica conhecida como cavalo de troia.",
+            "as situações a, c e d são compatíveis com a técnica conhecida como spoofing, enquanto que a situação b é compatível com a técnica conhecida como worm.",
+            "todas as situações são compatíveis com a técnica conhecida como spoofing.",
+            "todas as situações são compatíveis com a técnica conhecida como worm."
+        ],
+        "gabarito": "todas as situações são compatíveis com a técnica conhecida como spoofing."
+    },
+    {
+        "id": 96,
+        "enunciado": "Qual é o tipo de ataque cibernético que consiste na falsificação de endereços IP, DNS e/ou e-mail, no qual os hackers se passam pela instituição hackeada para roubar informações dos usuários?",
+        "alternativas": [
+            "Man-in-the-middle (MitM).",
+            "DoS.",
+            "Spoofing.",
+            "DMA.",
+            "Phishing."
+        ],
+        "gabarito": "Spoofing."
+    },
+    {
+        "id": 97,
+        "enunciado": "Uma técnica usada para a preparação de um ataque “man-in-the-middle” é a “ARP poising”. Assinale a alternativa que representa uma contramedida para esta técnica.",
+        "alternativas": [
+            "Entradas ARP estáticas.",
+            "Desabilitar o protocolo ARP.",
+            "Substituir o protocolo ARP pelo RARP.",
+            "Habilitar a funcionalidade de 3-way handshake do protocolo ARP.",
+            "Desabilitar o uso de Proxy ARP."
+        ],
+        "gabarito": "Entradas ARP estáticas."
+    },
+    {
+        "id": 98,
+        "enunciado": "Ataques costumam ocorrer na Internet com diversos objetivos, visando diferentes alvos e usando variadas técnicas. O ataque às redes de computadores conhecido por spoofing é um ataque no qual:",
+        "alternativas": [
+            "o invasor altera o conteúdo da página Web de um site.",
+            "o usuário malicioso falsifica as informações referentes à origem dos pacotes para obter acesso indevido, forjar informações ou prejudicar conexões confiáveis.",
+            "o invasor utiliza programas como dicionários de palavras conhecidas e suas combinações para obter as senhas de acesso.",
+            "o intruso coleta e armazena pacotes que estão em transações constantes pela rede para a análise posterior e identificação das senhas.",
+            "o atacante utiliza um computador para tirar de operação um serviço, um computador ou uma rede conectada à internet, com o objetivo de exaurir recursos e causar indisponibilidades ao alvo."
+        ],
+        "gabarito": "o usuário malicioso falsifica as informações referentes à origem dos pacotes para obter acesso indevido, forjar informações ou prejudicar conexões confiáveis."
+    },
+    {
+        "id": 99,
+        "enunciado": "O analista Rafael implementou com sucesso uma função hash, que denominou H, para armazenar as senhas em um sistema. A fim de mitigar eventuais ataques de tabela arco-íris, Rafael implementou nas senhas a técnica padrão de salting, antes de aplicar a função H.\nA técnica de salting implementada por Rafael mitiga o ataque de tabela arco-íris na medida em que:",
+        "alternativas": [
+            "armazena parte da senha original juntamente com o hash, tornando a tabela arco-íris maior e mais custosa;",
+            "resulta em um hashing de menor custo computacional, aumentando as chances de colisão na tabela arco-íris;",
+            "introduz um valor aleatório único em cada senha antes do hashing, dificultando a pré-computação de tabelas arco-íris;",
+            "troca caracteres da senha original por outros aleatórios antes do hashing, tornando a tabela arco-íris maior e mais custosa;",
+            "adiciona um valor aleatório único entre blocos de senhas antes do hashing, aumentando as chances de colisão na tabela arco-íris."
+        ],
+        "gabarito": "introduz um valor aleatório único em cada senha antes do hashing, dificultando a pré-computação de tabelas arco-íris;"
+    },
+    {
+        "id": 100,
+        "enunciado": "Para proteger as senhas armazenadas contra ataques de pré-computados, sistemas Unix-like aplicam uma função de sentido único à concatenação da senha com um número aleatório chamado. O resultado é registrado em um arquivo , acessível apenas ao superusuário. Na transmissão pela rede, senhas enviadas em ficam expostas à captura por qualquer observador do tráfego.\nAssinale a alternativa que preenche, correta e respectivamente, as lacunas do trecho acima.",
+        "alternativas": [
+            "força bruta – salt – shadow – cifrado.",
+            "dicionário – hash – primário – texto aberto (plaintext).",
+            "força bruta – salt – primário – texto aberto (plaintext).",
+            "dicionário – nonce – shadow – cifrado.",
+            "dicionário – salt – shadow – texto aberto (plaintext)."
+        ],
+        "gabarito": "dicionário – salt – shadow – texto aberto (plaintext)."
+    },
+    {
+        "id": 101,
+        "enunciado": "Em uma Assembleia Legislativa, o sistema de acesso interno permite autenticação de servidores via endpoint POST /graphql, com limitação de 3 requisições por minuto por IP. Durante uma auditoria, verificou-se que um agente malicioso utilizou batching de queries GraphQL para submeter múltiplas combinações de credenciais em uma única requisição, contornando o controle existente. Considerando esse cenário e a necessidade de mitigar ataques de força bruta e credential stuffing, o controle que deve ser utilizado é",
+        "alternativas": [
+            "adotar assinatura criptográfica robusta nos JSON Web Tokens e ampliar seu tempo de expiração para o tempo de duração da sessão, reduzindo assim a frequência de autenticação.",
+            "registrar eventos de autenticação malsucedida, implementar mecanismo de cache para respostas de autenticação inválida e acionar alertas automáticos para o SOC após volume elevado de tentativas oriundas de um mesmo endereço IP.",
+            "aplicar limitação de tentativas de autenticação no nível lógico da operação de login, contabilizando individualmente cada par usuário-senha processado dentro de requisições compostas.",
+            "reduzir o tamanho máximo permitido das requisições GraphQL para menos de 256 bytes, limitando a quantidade de operações incluídas em um único payload para menos de 3 requisições.",
+            "exigir uso obrigatório de canal criptografado TLS para todas as requisições de autenticação realizadas pelos sistemas internos e usar criptografia AES para as transações internas."
+        ],
+        "gabarito": "aplicar limitação de tentativas de autenticação no nível lógico da operação de login, contabilizando individualmente cada par usuário-senha processado dentro de requisições compostas."
+    },
+    {
+        "id": 102,
+        "enunciado": "Ataques de roubo de credenciais ocorrem quando o invasor obtém acesso privilegiado a um computador em uma rede por meio de ferramentas para extrair credenciais de sessões de contas que estão conectadas. Normalmente os invasores procuram contas específicas que já têm privilégios elevados. São tipos de contas-alvo, EXCETO:",
+        "alternativas": [
+            "Kerberos.",
+            "Do Active Directory com privilégios.",
+            "Controladores de domínio.",
+            "VIP.",
+            "Com privilégios permanentes."
+        ],
+        "gabarito": "Kerberos."
+    },
+    {
+        "id": 103,
+        "enunciado": "Qual das alternativas representa uma senha de fácil identificação e, portanto, não recomendada para uso em sistemas escolares?",
+        "alternativas": [
+            "qwertyui123.",
+            "jdJ8#kLs92!.",
+            "Mx$72Pn#lQ.",
+            "W@v29Lp*B1.",
+            "kfL!82oxQp8."
+        ],
+        "gabarito": "qwertyui123."
+    },
+    {
+        "id": 104,
+        "enunciado": "Considerando ameaças e ataques à segurança da informação, bem como mecanismos de segurança da informação, julgue o próximo item.\nNos ataques de força bruta, hackers utilizam uma metodologia que identifica senhas disponíveis online e, depois, as testam, pesquisando nomes de usuários, até encontrarem uma correspondência.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 105,
+        "enunciado": "Marque a alternativa que contem corretamente do conceito do ataque que “tenta adivinhar senhas repetidamente até encontrar a correta”.",
+        "alternativas": [
+            "injeção de SQL.",
+            "phishing.",
+            "ransomware.",
+            "força bruta."
+        ],
+        "gabarito": "força bruta."
+    },
+    {
+        "id": 106,
+        "enunciado": "Assinale a alternativa que apresenta uma ameaça à autenticação que ocorre quando um sistema não invalida adequadamente os IDs de sessão após o logout ou um período de inatividade.",
+        "alternativas": [
+            "Autenticação multifator.",
+            "Uso de senhas-padrão.",
+            "Recuperação de credenciais fraca.",
+            "Armazenamento de senhas com hash.",
+            "Reutilização do identificador de sessão após login bem-sucedido."
+        ],
+        "gabarito": "Reutilização do identificador de sessão após login bem-sucedido."
+    },
+    {
+        "id": 107,
+        "enunciado": "Uma prática comum no armazenamento de senhas de usuários em bancos de dados é a adição de um salt na senha. O conjunto senha + salt é então utilizado como entrada para uma função de hash criptográfica. Em vez de se armazenar a senha original, armazena-se o hash resultante desse processo. A respeito dessa prática, assinale a alternativa correta.",
+        "alternativas": [
+            "Pode-se utilizar o mesmo salt, fixo e geral, em todas as senhas, sem riscos à segurança. Desse modo, não é necessário armazenar o salt no banco de dados.",
+            "Se gerado um salt aleatório único para cada senha, ele também precisa ser armazenado no banco de dados, além do hash resultante desse processo.",
+            "Por questões de desempenho no cálculo do hash criptográfico, recomenda-se utilizar salts curtos de até 3 caracteres.",
+            "Essa prática ajuda a mitigar ataques do tipo man-in-the-middle, quando um usuário está efetuando login em um sistema via rede, mas não ataques baseados em tabelas de hashes pré-computados, quando o atacante possui acesso ao banco de dados de senhas.",
+            "O uso de salts impede que a senha original seja obtida do banco de dados via cálculo da função de hash criptográfica inversa, utilizando o hash armazenado como entrada. Esse impedimento não existe quando salts não são utilizados. Por isso, a segurança é ampliada com o uso de salts."
+        ],
+        "gabarito": "Se gerado um salt aleatório único para cada senha, ele também precisa ser armazenado no banco de dados, além do hash resultante desse processo."
+    },
+    {
+        "id": 108,
+        "enunciado": "Na segurança de aplicativos web, é crucial estar ciente a respeito dos diversos tipos de ataques cibernéticos, cada um com seus próprios métodos e características.\nUm desses ataques envolve o invasor tentando adivinhar a senha de contas digitais por meio de uma lista de palavras, frases e números comumente usados. Diante disso, assinale a alternativa que apresenta, CORRETAMENTE, o nome dado a esse tipo de ataque.",
+        "alternativas": [
+            "Estratégia de Glossário.",
+            "lnvestida de Lexicografia.",
+            "Ofensiva de Listagem de Palavras.",
+            "Ataque de Dicionário.",
+            "Ataque de Escrutínio de Palavras-Chave."
+        ],
+        "gabarito": "Ataque de Dicionário."
+    },
+    {
+        "id": 109,
+        "enunciado": "As organizações estão cada vez mais conscientes sobre os riscos do uso de uma autenticação de usuários com base em um único fator, como, por exemplo, uma senha. Tipicamente, usuários escolhem péssimas senhas para facilitar a sua lembrança no futuro. Comumente, são utilizadas palavras de dicionários combinadas com números ou símbolos, o que facilita os ataques on-line de força bruta. Os hackers utilizam amplamente uma ferramenta que estabelece a comunicação com um serviço de rede e testa a autenticação de usuários usando listas de nomes de login e senhas em busca de uma combinação válida no sistema alvo. A ferramenta descrita é a",
+        "alternativas": [
+            "crunch.",
+            "cewl.",
+            "samdump2.",
+            "hydra.",
+            "bkhive."
+        ],
+        "gabarito": "hydra."
+    },
+    {
+        "id": 110,
+        "enunciado": "Marcelo está elaborando a política de segurança em seu órgão e incluiu orientações sobre criação de senhas fortes para acesso aos sistemas, principalmente aqueles acessados pela internet. A orientação do Marcelo visa proteger seus usuários contra ataques de hackers que utilizam software automático para descobrir senhas fracas.\nA técnica para obtenção de senhas da qual Marcelo está tentando proteger seus usuários é:",
+        "alternativas": [
+            "man-in-the-middle;",
+            "brute force;",
+            "backdoors;",
+            "session hijacking;",
+            "XSS."
+        ],
+        "gabarito": "brute force;"
+    },
+    {
+        "id": 111,
+        "enunciado": "Julgue o item subsequente, a respeito de ataques a redes de computadores.\nUm ataque de brute force consiste em adivinhar, por tentativa e erro, um nome de usuário e sua senha, para obter acesso a determinado sistema.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 112,
+        "enunciado": "É uma forma de ataque na internet, que se utiliza do método de tentativa e erro para descobrir nomes de usuários e senhas e que pode resultar em negação de serviço, quando a quantidade de tentativas realizadas em um curto período de tempo é grande. Trata-se de",
+        "alternativas": [
+            "strong attempt.",
+            "identity theft.",
+            "hoax.",
+            "brute force.",
+            "strong punch."
+        ],
+        "gabarito": "brute force."
+    }
+]

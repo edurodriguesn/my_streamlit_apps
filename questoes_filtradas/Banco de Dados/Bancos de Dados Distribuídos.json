@@ -1,0 +1,600 @@
+[
+    {
+        "id": 1,
+        "enunciado": "Considerando as demandas típicas de um tribunal por sistemas confiáveis e previsíveis, e à luz do teorema CAP, um banco de dados distribuído que prioriza consistência e tolerância a partições (CP), sacrificando temporariamente a disponibilidade durante partições de rede, é a escolha mais adequada para um:",
+        "alternativas": [
+            "sistema de rede social interna do tribunal, onde eventuais inconsistências temporárias nos posts são aceitáveis, desde que o sistema esteja sempre disponível;",
+            "sistema de analytics em tempo real de acessos ao portal, onde é mais importante processar todos os eventos continuamente do que garantir consistência imediata entre réplicas;",
+            "cache distribuído de consultas públicas de processos, onde a prioridade é velocidade de resposta e disponibilidade, sendo aceitável que diferentes nós tenham dados ligeiramente desatualizados;",
+            "sistema de recomendação de jurisprudência, onde é mais importante que o sistema esteja sempre responsivo, mesmo que diferentes usuários vejam resultados ligeiramente diferentes temporariamente;",
+            "sistema de registro de sentenças judiciais, onde é crítico que todos os juízes vejam exatamente a mesma versão do documento e que não haja divergências, mesmo que isso signifique indisponibilidade temporária durante falhas de rede."
+        ],
+        "gabarito": "sistema de registro de sentenças judiciais, onde é crítico que todos os juízes vejam exatamente a mesma versão do documento e que não haja divergências, mesmo que isso signifique indisponibilidade temporária durante falhas de rede."
+    },
+    {
+        "id": 2,
+        "enunciado": "Um banco de dados da Assembleia, responsável pelo armazenamento de informações legislativas, apresentou crescimento significativo, tornando inviável sua administração e processamento em um único servidor. Para aprimorar o desempenho das consultas e a escalabilidade do sistema, tornou-se necessária a distribuição dos dados entre múltiplos servidores independentes.\nNesse contexto, assinale a alternativa que identifica o processo de particionamento de um banco de dados ou conjunto de dados em partes menores e gerenciáveis, passíveis de serem distribuídas e armazenadas em diferentes nós de um cluster ou sistema distribuído.",
+        "alternativas": [
+            "Normalização.",
+            "Indexação.",
+            "Balanceamento de Carga.",
+            "Sharding.",
+            "Alta Disponibilidade."
+        ],
+        "gabarito": "Sharding."
+    },
+    {
+        "id": 3,
+        "enunciado": "Uma empresa de e-commerce utiliza um sistema de banco de dados distribuído para gerenciar seu inventário e as informações financeiras. Para garantir a atomicidade de transações críticas como a compra de um produto que envolve a baixa no inventário em um nó e o débito na conta em outro nó, o SGBD utiliza o protocolo Two-Phase Commit.\nAssinale a opção que descreve corretamente o fluxo de comunicação entre o Coordenador e os Participantes durante a primeira fase do protocolo 2PC.",
+        "alternativas": [
+            "O Coordenador envia a mensagem COMMIT para todos os Participantes, e estes respondem com ACK se a transação foi concluída com sucesso localmente.",
+            "O Coordenador envia a mensagem VOTE-REQUEST para todos os Participantes, e estes respondem com VOTE-COMMIT se puderem completar a transação ou VOTE-ABORT se não puderem.",
+            "O Coordenador envia a mensagem GLOBAL-COMMIT para os Participantes que votaram VOTE-COMMIT e GLOBAL-ABORT para os demais.",
+            "Os Participantes enviam periodicamente mensagens de HEARTBEAT ao Coordenador para sinalizar que estão prontos para receber a decisão final.",
+            "O Coordenador notifica o cliente sobre o sucesso ou falha da transação e aguarda a confirmação do cliente antes de iniciar a segunda fase."
+        ],
+        "gabarito": "O Coordenador envia a mensagem VOTE-REQUEST para todos os Participantes, e estes respondem com VOTE-COMMIT se puderem completar a transação ou VOTE-ABORT se não puderem."
+    },
+    {
+        "id": 4,
+        "enunciado": "Acerca de linguagens de consulta e de banco de dados distribuídos, julgue o item a seguir.\nEm um sistema de banco de dados distribuído, a técnica de replicação síncrona garante que todas as cópias dos dados em diferentes locais estejam sempre atualizadas simultaneamente, eliminando qualquer possibilidade de inconsistência.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 5,
+        "enunciado": "Acerca de linguagens de consulta e de banco de dados distribuídos, julgue o item a seguir.\nEm um banco de dados distribuído, a replicação de dados garante que todas as réplicas permaneçam sincronizadas automaticamente, eliminando a necessidade de mecanismos adicionais de controle de consistência.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 6,
+        "enunciado": "A respeito da arquitetura de sistemas distribuídos, julgue o item que se segue.\nEm sistemas distribuídos, técnicas de análise de desempenho e otimização de consultas (tuning) envolvem particionamento de dados entre nós, uso de cache distribuído, ajuste de parâmetros de redes, avaliação de latência e análise de balanceamento de carga, com o objetivo de melhorar a eficiência geral do sistema, assegurar sua consistência e reduzir o tempo de resposta das consultas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 7,
+        "enunciado": "Uma multinacional está implementando um banco de dados distribuído com a intenção de disponibilizar o acesso às suas filiais. Após o sistema entrar em produção, foi identificado um percurso dos dados que violam a política de segurança da empresa. Tal fato permite a redução da classificação por meios impróprios, de forma que uma informação que possui um grau de sigilo maior consegue ser tramitada por um caminho com nível de classificação mais baixo.\nA multinacional precisou tomar, como medida, o controle:",
+        "alternativas": [
+            "de acesso;",
+            "de inferência;",
+            "da atribuição do nível de segurança;",
+            "da concessão de privilégios;",
+            "de fluxo."
+        ],
+        "gabarito": "de fluxo."
+    },
+    {
+        "id": 8,
+        "enunciado": "Julgue o item a seguir, a respeito de bancos de dados relacionais e não relacionais.\nBancos de dados do tipo colunar oferecem alta escalabilidade devido à sua capacidade de particionar dados verticalmente, o que permite a distribuição eficiente das colunas em múltiplos nós em ambientes distribuídos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 9,
+        "enunciado": "Os sistemas gerenciadores de bancos de dados (SGBD) podem ser classificados de várias maneiras. Os SGBDs heterogêneos cujos participantes são fracamente acoplados e possuem um certo grau de autonomia local são classificados como",
+        "alternativas": [
+            "cliente-servidor.",
+            "multiusuário.",
+            "relacionais.",
+            "federados.",
+            "nuvem."
+        ],
+        "gabarito": "federados."
+    },
+    {
+        "id": 10,
+        "enunciado": "A replicação em bancos de dados em ambientes distribuídos é um tema de grande importância na atualidade.\nEm relação aos problemas relacionados à replicação de dados, avalie as afirmativas a seguir e assinale (V) para a verdadeira e (F) para a falsa.\n( ) Existem três principais problemas relacionados à consistência de um banco de dados replicado. O primeiro é a consistência mútua de dados, ela trata da convergência dos valores de itens de dados físicos correspondentes a um item de dados lógicos. O segundo é consistência da transação, que é um critério de consistência que precisa ser estudado caso a caso em bancos de dados replicados. O terceiro é a consistência de segurança pois envolve a dificuldade de alinhas o conjunto de permissões e atributos que asseguram a confidencialidade, integridade e disponibilidade dos dados em ambientes heterogêneos e distribuídos.\n( ) A consistência mútua em bancos de dados replicados podem ser de dois tipos, onde cada tipo é adequado para diferentes classes de aplicações com diferentes requisitos de consistência. O primeiro tipo é a consistência mútua do tipo forte exige que todas as cópias de um item de dados tenham o mesmo valor no final da execução de uma transação de atualização de dados. Isto é alcançado por uma variedade de meios, mas a execução de 2PC no ponto de confirmação de uma transação de atualização é uma maneira comum de alcançar esse tipo de consistência mútua.\n( ) O outro tipo de consistência mútua em bancos de dados replicados é do tipo fraca, ela não requer os valores das réplicas de um item de dado precisa ser idêntico a outro ao término de uma transação de atualização de dados. O que é necessário é que, ao cessar a atividade de atualização, os dados eventualmente se tornarão idênticos ao longo do tempo.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "V – V – V.",
+            "V – F – V.",
+            "F – F – V.",
+            "F – V – F.",
+            "F – V – V."
+        ],
+        "gabarito": "F – V – V."
+    },
+    {
+        "id": 11,
+        "enunciado": "Sobre replicação em bancos de dados distribuídos, analise as assertivas a seguir:\nI. A replicação aumenta a disponibilidade e o paralelismo em consultas, mas gera sobrecarga nas atualizações.\nII. A replicação aumenta a disponibilidade pois, em caso de falha de um servidor, os dados podem ser acessados em outro.\nIII. Na replicação multimaster (update-anywhere), atualizações podem ser feitas em qualquer réplica, podendo demandar resolução de conflitos que desfaça/compense alterações já aplicadas em alguma réplica.\nIV. A propagação preguiçosa (lazy propagation) garante consistência forte, pois todas as réplicas são atualizadas imediatamente.\nQuais estão corretas?",
+        "alternativas": [
+            "Apenas I e II.",
+            "Apenas I e III.",
+            "Apenas I, II e III.",
+            "Apenas II, III e IV.",
+            "I, II, III e IV."
+        ],
+        "gabarito": "Apenas I, II e III."
+    },
+    {
+        "id": 12,
+        "enunciado": "Relacione a Coluna 1 à Coluna 2, associando categorias de falhas em sistemas de bancos de dados distribuídos às suas descrições.\nColuna 1\n1. Falha de Crash.\n2. Falha de Omissão.\n3. Falha de Temporização.\n4. Falha Bizantina.\nColuna 2\n( ) O componente para (falha abruptamente) e permanece indisponível.\n( ) O componente responde muito cedo ou muito tarde.\n( ) O componente não responde a algumas entradas.\n( ) O componente se comporta de forma arbitrária.\nA ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+        "alternativas": [
+            "1 – 2 – 3 – 4.",
+            "1 – 3 – 2 – 4.",
+            "2 – 3 – 1 – 4.",
+            "4 – 2 – 3 – 1.",
+            "4 – 3 – 2 – 1."
+        ],
+        "gabarito": "1 – 3 – 2 – 4."
+    },
+    {
+        "id": 13,
+        "enunciado": "Analise as assertivas abaixo sobre replicação de dados em sistemas distribuídos:\nI. Na replicação síncrona, toda gravação é considerada completa apenas após confirmação de todas as réplicas, garantindo forte consistência, mas prejudicando a latência da escrita.\nII. Na replicação assíncrona, a transação é confirmada assim que chega na réplica primária, sem esperar pelas demais, o que melhora o desempenho, mas pode levar a perdas de dados em caso de falhas.\nIII. A replicação assíncrona elimina completamente o risco de inconsistência entre réplicas, já que as atualizações são aplicadas em momentos diferentes.\nIV. A replicação síncrona exige coordenação mais complexa, com estratégias como votações ou bloqueios distribuídos, tornando o protocolo de commit mais lento e custoso.\nQuais estão corretas?",
+        "alternativas": [
+            "Apenas I e II.",
+            "Apenas II e IV.",
+            "Apenas III e IV.",
+            "Apenas I, II e IV.",
+            "I, II, III e IV."
+        ],
+        "gabarito": "Apenas I, II e IV."
+    },
+    {
+        "id": 14,
+        "enunciado": "Ao não realizar o mapeamento direto do esquema conceitual global para os esquemas internos locais em um banco de dados distribuído, busca-se evitar",
+        "alternativas": [
+            "a junção, em um único passo, dos critérios de distribuição e da estratégia de armazenamento.",
+            "a necessidade de duplicar os mesmos dados em todos os nós do sistema.",
+            "a sobrecarga do diretório de dados global com funções de mapeamento.",
+            "a ausência de autonomia dos nós na definição de sua estrutura interna.",
+            "a duplicidade de funções entre o nível externo e o nível interno."
+        ],
+        "gabarito": "a junção, em um único passo, dos critérios de distribuição e da estratégia de armazenamento."
+    },
+    {
+        "id": 15,
+        "enunciado": "Assinale a opção que apresenta o conjunto de dimensões aos quais os modelos arquiteturais dos SGBD distribuídos são classificados.",
+        "alternativas": [
+            "horizontal, vertical e mista.",
+            "fragmentação, transação e segurança.",
+            "ponto-a-ponto, cliente-servidor e nuvem.",
+            "autonomia, distribuição e heterogeneidade.",
+            "controle de concorrência, replicação e integração de dados."
+        ],
+        "gabarito": "autonomia, distribuição e heterogeneidade."
+    },
+    {
+        "id": 16,
+        "enunciado": "Com relação a bancos de dados distribuídos, julgue o item que se segue.\nBancos de dados distribuídos trabalham com escalabilidade horizontal, na qual ocorre a expansão da capacidade de armazenamento de um nó específico.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 17,
+        "enunciado": "Com relação a bancos de dados distribuídos, julgue o item que se segue.\nOs nós de um banco de dados distribuído podem estar em uma mesma rede local ou separados geograficamente por grandes distâncias, desde que estejam conectados por uma rede remota.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 18,
+        "enunciado": "Com relação a bancos de dados distribuídos, julgue o item que se segue.\nUma das condições para que um banco de dados seja considerado distribuído é a necessidade de homogeneidade entre os nós conectados, no que diz respeito a hardware e software.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 19,
+        "enunciado": "Considere o esquema de banco de dados relacional a seguir:\nLOCALIDADE ( id_loc <PK>, nome_localidade, cidade, estado ) COORDENADOR ( id_coord <PK>, nome_coord, id_loc <FK> ) Restrições de integridade:\n≠ ≠ Tabela LOCALIDADE: id_loc é chave primária; nome_localidade NULO; cidade NULO; estado = {‘PR’ ou ‘SC’ ou ‘RS’}.\n≠ Tabela COORDENADOR: id_coord é chave primária; nome_coord NULO; id_loc é chave estrangeira e referencia LOCALIDADE(id_loc).\nA equipe que administra o banco de dados em tela decidiu convertê-lo de uma versão centralizada para uma distribuída. Para isso, decidiu que a divisão dos dados será guiada pelo critério do estado ao qual a localidade pertence. Ou seja, após distribuir os registros de localidade por fragmentos, os dados da tabela COORDENADOR serão distribuídos em função do critério de localidade apresentado.\nNo que concerne à divisão a ser realizada na tabela COORDENADOR, a fragmentação de suas tuplas (linhas) dever ser classificada como",
+        "alternativas": [
+            "híbrida.",
+            "horizontal derivada.",
+            "horizontal primária.",
+            "vertical.",
+            "replicação."
+        ],
+        "gabarito": "horizontal derivada."
+    },
+    {
+        "id": 20,
+        "enunciado": "A regra de SGBD distribuído que define que a probabilidade de o sistema funcionar sem queda em qualquer momento dado’’, porque, por ser distribuído, pode continuar a funcionar, mesmo diante da falha de algum componente individual, tal como um site isolado, é designada:",
+        "alternativas": [
+            "confiabilidade.",
+            "independência de localização.",
+            "dependência de replicação.",
+            "durabilidade."
+        ],
+        "gabarito": "confiabilidade."
+    },
+    {
+        "id": 21,
+        "enunciado": "Um Banco de Dados Distribuído (BDD) é uma coleção de múltiplos bancos de dados logicamente interrelacionados e distribuídos por uma rede de computadores. O controle de concorrência se baseia no bloqueio, exatamente como na maioria dos sistemas não distribuídos. Todavia, requisições para testar, impor e liberar bloqueios se tornam mensagens e, por essa razão, o controle de concorrência em BDD tem como premissa o tratamento da:",
+        "alternativas": [
+            "sobrecarga.",
+            "atualização de regras.",
+            "autonomia local.",
+            "independência de localização."
+        ],
+        "gabarito": "sobrecarga."
+    },
+    {
+        "id": 22,
+        "enunciado": "A Sincronização de Dados SQL é um serviço baseado no Azure SQL Database que permite a interação entre diversos bancos de dados.\nEntre as indicações deste serviço, é correto citar",
+        "alternativas": [
+            "banco de dados de aplicativos distribuídos.",
+            "sistemas que envolvem grandes volumes de dados em tempo real.",
+            "sincronização de processos ETL (Extract, Transform, Load).",
+            "sharding visando escalabilidade de leitura.",
+            "backup visando recuperação em caso de desastres."
+        ],
+        "gabarito": "banco de dados de aplicativos distribuídos."
+    },
+    {
+        "id": 23,
+        "enunciado": "O departamento de Tecnologia da Informação de um Tribunal de Contas estadual detectou uma lentidão nas consultas aos registros de casos judiciais. Após uma análise detalhada, constatou-se que alguns servidores de banco de dados estavam sobrecarregados, enquanto outros permaneciam subutilizados.\nUma solução viável para corrigir esse desequilíbrio seria",
+        "alternativas": [
+            "particionar tabelas por lista para dividir os casos por tipo.",
+            "particionar tabelas por intervalo para dividir os casos por ano.",
+            "particionar tabelas por intervalo para dividir os casos por identificador único de cada caso.",
+            "particionar tabelas por lista para dividir casos por localização geográfica.",
+            "particionar tabelas por hash com base no identificador único de cada caso."
+        ],
+        "gabarito": "particionar tabelas por hash com base no identificador único de cada caso."
+    },
+    {
+        "id": 24,
+        "enunciado": "Replicação é o processo de criação de uma cópia exata dos dados, cujo objetivo principal é permitir que os usuários tenham dados designados no local certo, em um estado apropriado à necessidade de recuperação.\nSobre estratégias para replicação local de dados, assinale a afirmativa correta.",
+        "alternativas": [
+            "No Full-volume Mirroring, o destino fica acessível durante o processo de sincronização.",
+            "Pointer-based Virtual Replication não necessita de acesso à fonte de dados para restauração.",
+            "Pointer-based Full-volume Mirroring pode ser ativada tanto no modo Copy on First Access (CoFA) quanto no modo Full Copy.",
+            "Full-volume Mirroring requer acesso à fonte de dados para restauração.",
+            "No Pointer-based Virtual Replication, a capacidade física necessária para o destino é, pelo menos, igual à fonte."
+        ],
+        "gabarito": "Pointer-based Full-volume Mirroring pode ser ativada tanto no modo Copy on First Access (CoFA) quanto no modo Full Copy."
+    },
+    {
+        "id": 25,
+        "enunciado": "Em relação a banco de dados, julgue o item a seguir.\nEm um banco de dados federado, cada banco de dados mantém sua estrutura e gerenciamento próprios, enquanto a federação permite que os bancos sejam acessados e consultados de maneira centralizada.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 26,
+        "enunciado": "A alta disponibilidade refere-se à capacidade de um sistema de permanecer operacional e acessível, mesmo diante de falhas de hardware ou software. Existem várias abordagens e mecanismos que podem ser implementados para garantir que um sistema continue a funcionar de forma eficaz, mesmo se ocorrerem erros.\nUm exemplo destas abordagens e mecanismos é a replicação de dados. Em uma das abordagens de replicação de dados, os clientes enviam gravações para vários nós, que aceitam gravações diretamente. A leitura também ocorre a partir de vários nós, permitindo a detecção e correção de dados desatualizados. Isso traz flexibilidade e resistência a falhas, embora a lógica de operação seja mais complexa e envolva a necessidade de resolver conflitos devido a gravações simultâneas.\nO método de replicação de dados discutido é o",
+        "alternativas": [
+            "multi-líder.",
+            "sem líder.",
+            "de líder indireto.",
+            "de líder único.",
+            "espelho completo."
+        ],
+        "gabarito": "sem líder."
+    },
+    {
+        "id": 27,
+        "enunciado": "Um ambiente de metadados gerenciado deve isolar o usuário final das várias e diferentes fontes de metadados. A arquitetura deve fornecer um único ponto de acesso, mediante adoção de um dos três modelos para implementação de um repositório comum de metadados.\nO modelo híbrido se diferencia dos outros, pela seguinte característica:",
+        "alternativas": [
+            "Nessa arquitetura, o ambiente de gerenciamento de metadados mantém os catálogos do sistema de origem e as informações de pesquisa necessárias para processar efetivamente as consultas e pesquisas do usuário.",
+            "Um broker de solicitação de objeto comum ou protocolo de middleware semelhante acessa os sistemas de origem.",
+            "Consiste em um único repositório que contém cópias dos metadados das várias fontes. As organizações que buscam um alto grau de consistência no repositório comum de metadados podem se beneficiar desse tipo de arquitetura.",
+            "O mecanismo de recuperação de metadados responde às solicitações do usuário, recuperando dados dos sistemas de origem em tempo real. Não há repositório persistente.",
+            "Os metadados transitam diretamente dos sistemas de origem para um repositório centralizado. No entanto, o design do repositório considera apenas os metadados adicionados pelo usuário, que podem ser itens padronizados e/ou críticos."
+        ],
+        "gabarito": "Os metadados transitam diretamente dos sistemas de origem para um repositório centralizado. No entanto, o design do repositório considera apenas os metadados adicionados pelo usuário, que podem ser itens padronizados e/ou críticos."
+    },
+    {
+        "id": 28,
+        "enunciado": "A clusterização de banco de dados é um requisito obrigatório para aplicativos de produção altamente carregados para garantir a disponibilidade de dados e o alto desempenho.\nNesse contexto, assinale a alternativa incorreta:",
+        "alternativas": [
+            "Para obter o máximo de vantagens do clustering, tanto em termos de disponibilidade como de baixo custo, você deve esperar colocar diversos bancos de dados em cada cluster.",
+            "O clustering isola a empresa dos possíveis resultados de falha de banco de dados, tornando possível gerenciar um conjunto cada vez maior de bancos de dados sem o acúmulo administrativo.",
+            "Uma solução em cluster deve balancear a carga entre os diversos nós no cluster com ou sem configuração manual, garantindo, desta forma, a mais eficaz operação sem esforço adicional.",
+            "É necessário definir limites sobre a quantidade de recursos disponíveis no cluster que cada aplicação poderá consumir.",
+            "O clustering pode ser incremental. Comece pequeno e adicione mais nós e clusters conforme necessário."
+        ],
+        "gabarito": "Para obter o máximo de vantagens do clustering, tanto em termos de disponibilidade como de baixo custo, você deve esperar colocar diversos bancos de dados em cada cluster."
+    },
+    {
+        "id": 29,
+        "enunciado": "Há uma característica básica que distingue um banco de dados centralizado de um banco de dados distribuído. Tal característica está no fato de que, em um banco de dados distribuído,",
+        "alternativas": [
+            "há um número muito maior de usuários do que em bancos de dados centralizados.",
+            "os dados são distribuídos entre dois ou mais locais ou servidores que compõem o ambiente distribuído.",
+            "o desempenho para a obtenção de resultados de consultas é sempre muito superior ao de bancos de dados centralizados.",
+            "não se admite a utilização de senhas de acesso ao banco de dados.",
+            "o número de tabelas é, necessariamente, inferior ao de bancos de dados centralizados."
+        ],
+        "gabarito": "os dados são distribuídos entre dois ou mais locais ou servidores que compõem o ambiente distribuído."
+    },
+    {
+        "id": 30,
+        "enunciado": "Julgue o item subsecutivo, que se referem a conceitos de programação e banco de dados.\nReplicação e duplicação são processos de manutenção e atualização de bancos de dados distribuídos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 31,
+        "enunciado": "Em bancos de dados, especialmente quando distribuídos, surge o problema de garantir que uma certa transação seja processada corretamente quando tem efeitos em diferentes sistemas, ou nós.\nUm dos algoritmos utilizados nesse tipo de transação é conhecido originalmente como:",
+        "alternativas": [
+            "Common knowledge;",
+            "Lock/unlock;",
+            "Mutual exclusion;",
+            "Transaction Logs;",
+            "Two-phase commit."
+        ],
+        "gabarito": "Two-phase commit."
+    },
+    {
+        "id": 32,
+        "enunciado": "Analise as assertivas abaixo sobre controle concorrência em sistemas de bancos de dados relacionais:\nI. Sistemas de bancos de dados distribuídos precisam garantir que dados existam em um único servidor, já que eventuais cópias em servidores diferentes podem assumir estados inconsistentes.\nII. Caso uma transação precise fazer uma operação de leitura em uma tabela, o mecanismo de bloqueio pode permitir que outras transações façam leituras simultaneamente, mas não gravações.\nIII. A detecção de deadlocks não é possível em bancos de dados que permite transações concorrentes, o que exige sistemas de prevenção de deadlocks.\nQuais estão corretas?",
+        "alternativas": [
+            "Apenas II.",
+            "Apenas III.",
+            "Apenas I e II.",
+            "Apenas I e III.",
+            "I, II e III."
+        ],
+        "gabarito": "Apenas II."
+    },
+    {
+        "id": 33,
+        "enunciado": "Analise as assertivas abaixo sobre sistemas de bancos de dados distribuídos:\nI. É necessário que um nodo desempenhe o papel de coordenador e gerencie os bloqueios entre transações concorrentes.\nII. O sistema não pode se recuperar de uma falha em um link de comunicação que conecta sites caso haja um particionamento da rede.\nIII. Em um esquema que usa um site primário sem site de backup, caso o nodo primário falhe, todas as transações em execução precisam ser abortadas.\nQuais estão corretas?",
+        "alternativas": [
+            "Apenas III.",
+            "Apenas I e II.",
+            "Apenas I e III.",
+            "Apenas II e III.",
+            "I, II e III."
+        ],
+        "gabarito": "Apenas III."
+    },
+    {
+        "id": 34,
+        "enunciado": "Com relação aos bancos de dados distribuídos, assinale a opção correta.",
+        "alternativas": [
+            "Fragmentação e replicação são técnicas de armazenamento de dados distribuídos que não podem ser combinadas, ou seja, deve-se escolher uma das duas técnicas para ser implementada.",
+            "Em um banco de dados distribuído heterogêneo, diferentes sites podem usar diferentes softwares de sistema de gerenciamento de banco de dados (SGBD).",
+            "Os bancos de dados distribuídos são adequados apenas para pequenas organizações.",
+            "Os bancos de dados distribuídos são utilizados exclusivamente para armazenar dados não relacionais.",
+            "Nos bancos de dados distribuídos, a latência na transmissão de dados entre os nós do banco está ausente."
+        ],
+        "gabarito": "Em um banco de dados distribuído heterogêneo, diferentes sites podem usar diferentes softwares de sistema de gerenciamento de banco de dados (SGBD)."
+    },
+    {
+        "id": 35,
+        "enunciado": "Acerca de técnicas de análise de desempenho e otimização de consultas, balanceamento de carga, failover e replicação de estado, julgue o item a seguir.\nEm um banco de dados distribuídos, a replicação aumenta o desempenho das operações de leitura e, também, a disponibilidade dos dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 36,
+        "enunciado": "No contexto de sistemas distribuídos, o modelo de consistência que não retorna valores desatualizados em operações de leitura, considerando que a última operação de escrita foi confirmada, é:",
+        "alternativas": [
+            "BASE.",
+            "Eventual.",
+            "NoSQL.",
+            "Estrita (strict).",
+            "DNS."
+        ],
+        "gabarito": "Estrita (strict)."
+    },
+    {
+        "id": 37,
+        "enunciado": "Um exemplo relacionado à escalabilidade horizontal de um sistema gerenciador de banco de dados distribuído é",
+        "alternativas": [
+            "o incremento do espaço de armazenamento não volátil do servidor.",
+            "a substituição de um disco do tipo HDD (Hard Disk Drive) por SSD (Solid-State Drive) no servidor.",
+            "a introdução de mais nós (nodes) no cluster.",
+            "o incremento de memória RAM do servidor.",
+            "a troca do processador do servidor por um melhor."
+        ],
+        "gabarito": "a introdução de mais nós (nodes) no cluster."
+    },
+    {
+        "id": 38,
+        "enunciado": "Assinale a alternativa que NÃO apresenta uma vantagem da clusterização de bancos de dados.",
+        "alternativas": [
+            "Facilidade na configuração e no gerenciamento de um cluster de banco de dados, mesmo quando se lida com tarefas, como configuração inicial, sincronização de dados, monitoramento, gerenciamento de nós e resolução de problemas, permitindo que a carga de trabalho administrativa do sistema seja reduzida.",
+            "Replicação dos dados em vários servidores do cluster garante a disponibilidade contínua do sistema, mesmo em caso de falhas em um ou mais servidores.",
+            "Adição de novos servidores ao cluster, à medida que a carga de trabalho e o volume de dados aumentam, permitindo que o dimensionamento do sistema ocorra horizontalmente, a partir da distribuição de carga de trabalho entre os servidores, e promovendo a melhoria no desempenho geral do sistema.",
+            "Distribuição da carga de trabalho de forma equilibrada entre os servidores, evitando gargalo de desempenho, resulta em uma utilização mais eficiente dos recursos do sistema e melhora a capacidade de resposta para atender às demandas das aplicações.",
+            "Melhor desempenho na execução de tarefas intensivas em dados, como consultas complexas, em um banco de dados com milhares de dados armazenados, tendo em vista que as tarefas são executadas de maneira distribuída."
+        ],
+        "gabarito": "Facilidade na configuração e no gerenciamento de um cluster de banco de dados, mesmo quando se lida com tarefas, como configuração inicial, sincronização de dados, monitoramento, gerenciamento de nós e resolução de problemas, permitindo que a carga de trabalho administrativa do sistema seja reduzida."
+    },
+    {
+        "id": 39,
+        "enunciado": "Acerca de ambientes de replicação, balanceamento de carga e failover, julgue o item que se segue.\nEm um ambiente distribuído, a replicação de dados busca, entre outros objetivos, melhorar o desempenho de um serviço e aumentar sua disponibilidade.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 40,
+        "enunciado": "Acerca de ambientes de replicação, balanceamento de carga e failover, julgue o item que se segue.\nA principal vantagem do modelo de replicação passiva ou backup primário é a ausência de sobrecargas no sistema: se o gerenciador primário falhar, o servidor secundário é promovido automaticamente para atuar como primário.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 41,
+        "enunciado": "A respeito de banco de dados, julgue o item a seguir.\nEm uma arquitetura do tipo banco de dados distribuídos, quando um servidor de banco de dados não tem os dados solicitados em uma consulta, ele obtém esses dados em outro servidor e devolve o resultado de forma transparente.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 42,
+        "enunciado": "Um banco de dados distribuído é basicamente um banco de dados que não se limita a um sistema, está distribuído em diferentes sites, ou seja, em vários computadores ou em uma rede de computadores. Existem 2 (duas) maneiras de armazenar dados em diferentes sites. Indique a alternativa com as maneiras CORRETAS.",
+        "alternativas": [
+            "replicação e fragmentação.",
+            "replicação e distribuição.",
+            "fragmentação e centralização.",
+            "centralização e distribuição."
+        ],
+        "gabarito": "replicação e fragmentação."
+    },
+    {
+        "id": 43,
+        "enunciado": "O Sistema Gerenciador de Banco de Dados Distribuído (SGBDD) tem diversas características, algumas estão relacionadas a seguir. Indique a alternativa com as características CORRETAS.\nI - Uma coleção de dados compartilhados logicamente relacionados.\nII - Os dados são divididos em vários fragmentos.\nIII - Os fragmentos podem ser duplicados e alocados aos sites.",
+        "alternativas": [
+            "Apenas I e II estão corretas.",
+            "Apenas I e III estão corretas.",
+            "Apenas II e III estão corretas.",
+            "Todas estão corretas."
+        ],
+        "gabarito": "Todas estão corretas."
+    },
+    {
+        "id": 44,
+        "enunciado": "Considerando as características de uma arquitetura de objetos distribuídos,",
+        "alternativas": [
+            "o modelo cliente-servidor é, por si só, um impeditivo para seu uso.",
+            "um objeto pode ser cliente e servidor no mesmo momento.",
+            "são necessários apenas protocolos de baixo nível para a interação entre os objetos.",
+            "a referência ao objeto não necessita do endereço de rede.",
+            "apenas a interface do objeto é visível."
+        ],
+        "gabarito": "apenas a interface do objeto é visível."
+    },
+    {
+        "id": 45,
+        "enunciado": "Bancos de dados distribuídos representam uma das formas de implementação de um sistema de banco de dados, sendo que um banco de dados distribuído do tipo homogêneo indica que todos os locais desse sistema de banco de dados",
+        "alternativas": [
+            "são controlados pelo mesmo DBA (Administrador de Banco de Dados).",
+            "têm seu backup feito simultaneamente.",
+            "têm o mesmo horário de funcionamento.",
+            "têm o mesmo número de usuários.",
+            "utilizam o mesmo sistema gerenciador de banco de dados."
+        ],
+        "gabarito": "utilizam o mesmo sistema gerenciador de banco de dados."
+    },
+    {
+        "id": 46,
+        "enunciado": "Sistemas gerenciadores de bancos de dados (SGBD) podem ser desenvolvidos de diferentes maneiras. Existe uma arquitetura na qual as informações não ficam armazenadas em uma única máquina, mas são divididas em múltiplos servidores. O próprio sistema fica responsável por alocar e realocar as frações dos dados, sempre que necessário, entre servidores. Dessa forma, o consumidor das informações não tem visibilidade dessa divisão, bastando apenas requisitar ao sistema as informações desejadas. Esse tipo de arquitetura de SGBD denomina-se banco de dados",
+        "alternativas": [
+            "quântico.",
+            "geográfico.",
+            "distribuído.",
+            "cliente-servidor.",
+            "centralizado."
+        ],
+        "gabarito": "distribuído."
+    },
+    {
+        "id": 47,
+        "enunciado": "De acordo com Elmasri (2, em projetos de bancos de dados distribuídos, é possível dividir os dados em unidades lógicas de acordo com as técnicas de:",
+        "alternativas": [
+            "disjunção inclusiva ou shardíng, na qual as tuplas são separadas de acordo com suas semelhanças de chave primária; disjunção exclusiva, na qual a condição de separação se dá por meio das colunas da relação; disjunção condicional, na qual as tuplas são separadas por meio de uma condição definida de acordo com um ou mais atributos da relação; e disjunção mista, que integra os demais tipos de disjunção.",
+            "disjunção exclusiva, na qual as tuplas são separadas de acordo com suas semelhanças de chave primária; disjunção inclusiva ou shardíng, onde a condição de separação se dá por meio das colunas da relação; disjunção condicional, na qual as tuplas são separadas por meio de uma condição definida de acordo com um ou mais atributos da relação; e disjunção mista, que integra os demais tipos de disjunção.",
+            "fragmentação inclusiva ou shardíng, na qual as tuplas são separadas de acordo com suas semelhanças de chave primária; fragmentação exclusiva, na qual a condição de separação se dá por meio das colunas da relação; fragmentação condicional, na qual as tuplas são separadas por meio de uma condição definida de acordo com um ou mais atributos da relação; e fragmentação mista, que integra os demais tipos de fragmentação.",
+            "fragmentação vertical ou shardíng, na qual uma relação é um subconjunto das tuplas nessa relação; fragmentação horizontal, na qual o fragmento é gerado a partir das colunas da relação; fragmentação híbrida, que integra os outros dois tipos; alocação geral, que compreende a cópia de todos os dados; alocação não redundante, que significa não ter replicação e replicação parcial de dados, na qual apenas alguns fragmentos são replicados.",
+            "fragmentação horizontal ou shardíng, na qual o fragmento de uma relação é um subconjunto das tuplas nessa relação; fragmentação vertical, na qual o fragmento é gerado a partir das colunas da relação; e fragmentação híbrida, que mistura os outros dois tipos."
+        ],
+        "gabarito": "fragmentação horizontal ou shardíng, na qual o fragmento de uma relação é um subconjunto das tuplas nessa relação; fragmentação vertical, na qual o fragmento é gerado a partir das colunas da relação; e fragmentação híbrida, que mistura os outros dois tipos."
+    },
+    {
+        "id": 48,
+        "enunciado": "O conceito de transparência pode ser aplicado de diferentes aspectos de sistemas distribuídos.\nAssinale a alternativa que indica corretamente o conceito de transparência que esconde diferenças na representação dos dados e a forma pela qual recursos podem ser acessados pelo usuário.",
+        "alternativas": [
+            "Transparência de Acesso.",
+            "Transparência de Aplicação.",
+            "Transparência de Relocação.",
+            "Transparência de Localização.",
+            "Transparência de Apresentação."
+        ],
+        "gabarito": "Transparência de Acesso."
+    },
+    {
+        "id": 49,
+        "enunciado": "Assinale a alternativa referente a arquiteturas de gerenciamento de objetos e a chamadas de procedimento remotas em sistemas distribuídos.",
+        "alternativas": [
+            "Um Object Request Broker (ORB) permite que um cliente invoque um método em um objeto remoto.",
+            "Módulos disponibilizados para acesso remoto precisam expor detalhes da respectiva implementação para que clientes possam acessá-los.",
+            "A interface de serviço deve permitir acesso direto aos respectivos atributos, uma vez que um módulo cliente em execução de um processo pode acessar variáveis de outro processo.",
+            "É possível utilizar passagem de parâmetros por referência.",
+            "A heterogeneidade entre os sistemas exige que o código cliente seja implementado na mesma linguagem conhecida pelo servidor."
+        ],
+        "gabarito": "Um Object Request Broker (ORB) permite que um cliente invoque um método em um objeto remoto."
+    },
+    {
+        "id": 50,
+        "enunciado": "Uma das formas de se projetar um banco de dados é considerar sua distribuição em mais de um site ou local, formando um banco de dados distribuído. Nesse caso, pode-se ter um banco de dados distribuído homogêneo, sobre o qual é correto afirmar que",
+        "alternativas": [
+            "o número de usuários de cada local ou site deve ser o mesmo.",
+            "não há necessidade de ser ter um DBA (DataBase Administrator).",
+            "a fragmentação das tabelas deve seguir tanto o modelo vertical, quanto o horizontal.",
+            "os locais ou sites devem se situar, fisicamente, em um mesmo edifício.",
+            "todos os sites ou locais utilizam o mesmo sistema de gerenciamento de banco de dados."
+        ],
+        "gabarito": "todos os sites ou locais utilizam o mesmo sistema de gerenciamento de banco de dados."
+    },
+    {
+        "id": 51,
+        "enunciado": "Julgue o item a seguir, referentes à BI (Business Intelligence), aos Sistemas de Apoio à Decisão (DSS) e ao Banco de Dados Distribuído (BDD).\nUm BDD constitui-se de um banco de dados integrado, construído sobre uma rede de computadores, em que os dados que formam o banco de dados estão armazenados em locais diferentes da rede de computadores.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 52,
+        "enunciado": "Considere os Sistemas de Gerenciamento de Banco de Dados e os bancos de dados distribuídos para julgar a seguinte afirmação: em um sistema de banco de dados distribuído, os nós compartilham memória principal ou discos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 53,
+        "enunciado": "Em relação aos conceitos de bancos de dados em uma arquitetura distribuída, é correto afirmar que:",
+        "alternativas": [
+            "cada site possui seu próprio software de gerenciamento de transações.",
+            "uma transação não pode envolver a execução de código de vários sites.",
+            "a manipulação de dados por DML (data manipulation language) é limitada ao site de trabalho do usuário.",
+            "as operações de definição de dados executadas através de DDL (data definition language) não exigem extensão."
+        ],
+        "gabarito": "uma transação não pode envolver a execução de código de vários sites."
+    },
+    {
+        "id": 54,
+        "enunciado": "Consistência, Disponibilidade e Tolerância à Partição são as três características envolvidas no Teorema CAP, também conhecido como Teorema de Brewer. Ele estabelece que existe uma relação de interdependência entre essas características que faz com que, para aumentar uma delas, seja necessário sacrificar um pouco de alguma outra. Os bancos de dados relacionais tradicionais, em sua maioria, tendem a priorizar quais características?",
+        "alternativas": [
+            "Consistência e Disponibilidade.",
+            "Consistência e Tolerância à Partição.",
+            "Disponibilidade e Tolerância à Partição.",
+            "Disponibilidade somente.",
+            "Tolerância à Partição somente."
+        ],
+        "gabarito": "Consistência e Disponibilidade."
+    }
+]

@@ -1,0 +1,617 @@
+[
+    {
+        "id": 1,
+        "enunciado": "No que diz respeito à orquestração e automação de infraestrutura de TI, assinale a alternativa correta.",
+        "alternativas": [
+            "Orquestração refere-se à automação manual de processos por meio de scripts independentes executados separadamente em cada servidor.",
+            "A orquestração de infraestrutura permite coordenar múltiplas tarefas automatizadas em sequência ou paralelamente, garantindo integração entre processos.",
+            "Ferramentas de orquestração, como Puppet e Ansible, não são recomendadas em ambientes de nuvem devido à sua complexidade.",
+            "A automação de infraestrutura dispensa a necessidade de versionamento de configurações, pois os estados são aplicados diretamente sem controle.",
+            "Em um ambiente DevOps, a orquestração automatiza o deploy de aplicações, mas não é capaz de gerenciar dependências entre serviços."
+        ],
+        "gabarito": "A orquestração de infraestrutura permite coordenar múltiplas tarefas automatizadas em sequência ou paralelamente, garantindo integração entre processos."
+    },
+    {
+        "id": 2,
+        "enunciado": "O Ansible oferece suporte a várias fontes para configurar seu comportamento. AO configurá-lo, a ferramenta segue uma ordem específica para localizar e usar o arquivo de configuração. Por padrão, o Ansible procura primeiro",
+        "alternativas": [
+            "o arquivo /etc/ansible/ansible.ofg, o arquivo ansible.ofg no diretório atual, -/.ansible.ofg no diretório home e, por último, a variável de ambiete ANSIBLE_CONFIG.",
+            "no diretório /etc/ansible, depois no arquivo inicial -/.ansible.ofg, em seguida no diretório atual ansible.ofg e, por último, verifica a variável de ambiente ANSIBLE_CONFIG.",
+            "a variável de ambiente ANSIBLE_CONFIG, depois o arquivo ansible.ofg no diretório atual, depois o arquivo -/- ansible.ofg no diretório home, e finalmente /etc/ansible e/ansible.ofg.",
+            "no diretório home -/, a variável de ambiente ANSIBLE_CONFIG, o diretório atual ansible.ofg e, por último, /etc/ansible/ansible.ofg.",
+            "o arquivo ansible.ofg no diretório atual, a variável de ambiente ANSIBLE_CONFIG, o arquivo -/.ansible.ofg no diretório home, e por último /etc/ansible/ansible.ofg."
+        ],
+        "gabarito": "a variável de ambiente ANSIBLE_CONFIG, depois o arquivo ansible.ofg no diretório atual, depois o arquivo -/- ansible.ofg no diretório home, e finalmente /etc/ansible e/ansible.ofg."
+    },
+    {
+        "id": 3,
+        "enunciado": "Qual das seguintes ferramentas é especializada em automação de infraestrutura como código (IaC)?",
+        "alternativas": [
+            "Jenkins.",
+            "Ansible.",
+            "Docker.",
+            "Kubernetes.",
+            "Terraform."
+        ],
+        "gabarito": "Terraform."
+    },
+    {
+        "id": 4,
+        "enunciado": "DevOps integra desenvolvimento e operações, promovendo a automação e a colaboração contínua para acelerar a entrega de software e melhorar sua qualidade.\nEssa cultura visa otimizar todo o ciclo de vida do desenvolvimento, desde o planejamento até a produção e monitoramento, garantindo maior agilidade e confiabilidade.\nConsiderando esse cenário, assinale a opção que apresenta ferramentas mais direcionadas para a etapa de build.",
+        "alternativas": [
+            "Gradle, Maven e Make.",
+            "Grafana, Trello e Vagrant.",
+            "Eclipse, NetBeans e git.",
+            "Nagios, kubernetes e Selenium.",
+            "Jira, Puppet e VS Code."
+        ],
+        "gabarito": "Gradle, Maven e Make."
+    },
+    {
+        "id": 5,
+        "enunciado": "De acordo com as práticas e ferramentas utilizadas no contexto do DevOps, assinale a alternativa INCORRETA em relação à automação de processos e gerenciamento de infraestrutura:",
+        "alternativas": [
+            "Infraestrutura imutável: refere-se à prática de criar e gerenciar, por exemplo, as infraestruturas dos ambientes de produção, desenvolvimento e teste, de forma que elas sejam consideradas estáticas e não suscetíveis a alterações após serem provisionadas. Isso aumenta a estabilidade e confiabilidade do ambiente, uma vez que cada ambiente possui sua versão com fontes de configuração diferentes e podem ser facilmente recuperadas.",
+            "Conteinerização: A utilização de contêineres, através de ferramentas como Docker, facilita a criação, distribuição e execução de aplicações em ambientes isolados. Isso contribui para a padronização e escalabilidade da infraestrutura, além de permitir uma rápida implantação e rollbacks.",
+            "Telemetria: No DevOps, é fundamental ter uma visibilidade contínua do desempenho e disponibilidade dos sistemas. Com ferramentas de monitoramento, como Prometheus, é possível coletar métricas em tempo real, identificar problemas e tomar ações corretivas proativamente.",
+            "Infraestrutura como código (IaC): A prática de IaC envolve a descrição da infraestrutura em forma de código, permitindo a automatização e o versionamento do ambiente. Com ferramentas como Terraform e Ansible, é possível definir, provisionar e gerenciar a infraestrutura de forma consistente e reprodutível.",
+            "Entrega contínua: A entrega contínua é uma abordagem que visa automatizar e acelerar o processo de implantação do software em ambientes de produção. Com a integração contínua, testes automatizados e pipelines de implantação, é possível garantir que as alterações sejam entregues de forma confiável e com baixo risco, permitindo a liberação frequente de novas funcionalidades aos usuários."
+        ],
+        "gabarito": "Infraestrutura imutável: refere-se à prática de criar e gerenciar, por exemplo, as infraestruturas dos ambientes de produção, desenvolvimento e teste, de forma que elas sejam consideradas estáticas e não suscetíveis a alterações após serem provisionadas. Isso aumenta a estabilidade e confiabilidade do ambiente, uma vez que cada ambiente possui sua versão com fontes de configuração diferentes e podem ser facilmente recuperadas."
+    },
+    {
+        "id": 6,
+        "enunciado": "Em um cenário de implementação de DevOps, uma organização busca melhorar o fluxo de trabalho entre desenvolvedores e operadores, automatizando pipelines de integração e entrega contínua. Qual das seguintes ferramentas NÃO é tipicamente associada à prática de DevOps para atender a esses objetivos?",
+        "alternativas": [
+            "Jenkins.",
+            "Docker.",
+            "Ansible.",
+            "Kubernetes.",
+            "Adobe Photoshop."
+        ],
+        "gabarito": "Adobe Photoshop."
+    },
+    {
+        "id": 7,
+        "enunciado": "A respeito de DevOps, julgue o item subsequente.\nA ferramenta puppet permite escrever e executar um conjunto de diretivas para gerenciar a configuração de um sistema, seja o operacional, seja uma aplicação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 8,
+        "enunciado": "Considerando a figura a seguir, julgue o próximo item, acerca dos conceitos de DevOps.\nSituação hipotética: Alguns funcionários de determinada organização foram encarregados de selecionar uma ferramenta para auxiliar os gestores na execução das atividades relacionadas à fase build dos projetos da empresa. Após se reunirem para debater o assunto, os funcionários optaram pela ferramenta puppet.\nAssertiva: Nessa situação, os funcionários da empresa escolheram a ferramenta mais adequada, uma vez que o puppet é utilizado para realizar, de forma padronizada, a automação e construção de código, verificando-se as dependências necessárias durante o processo de compilação das aplicações.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 9,
+        "enunciado": "Uma equipe de desenvolvimento de software está trabalhando em uma aplicação web e necessita adotar uma ferramenta de integração de código e criação de pipelines de implantação, a fim de automatizar o processo de integração e entrega contínua.\nNessa situação, a ferramenta mais indicada para o atendimento da necessidade da equipe é o",
+        "alternativas": [
+            "Vagrant.",
+            "Docker.",
+            "Ansible.",
+            "Kubernetes.",
+            "GitLab CI."
+        ],
+        "gabarito": "GitLab CI."
+    },
+    {
+        "id": 10,
+        "enunciado": "Existem diversas ferramentas que permitem a automação de código, incluindo a execução de tarefas como criação, teste e entrega/implantação de software. A ferramenta no paradigma DevOps que permite realizar tais atividades é",
+        "alternativas": [
+            "maven.",
+            "ansible.",
+            "jenkins.",
+            "docker."
+        ],
+        "gabarito": "jenkins."
+    },
+    {
+        "id": 11,
+        "enunciado": "Assinale a opção que apresenta exemplo de ferramenta que permite realizar automação de código — incluindo a execução de tarefas relacionadas à criação, ao teste e à entrega ou implantação de software — e, assim, realizar, no DevOps, integração contínua e entrega contínua (CI/CD).",
+        "alternativas": [
+            "jenkins.",
+            "maven.",
+            "ansible.",
+            "puppet.",
+            "docker."
+        ],
+        "gabarito": "jenkins."
+    },
+    {
+        "id": 12,
+        "enunciado": "A partir de uma ferramenta de automatização e gerenciamento de configuração, aberta e funcionando em condições ideais, um analista criou um arquivo com o seguinte conteúdo:\npackage { 'apache2':\nensure => ' installed', } service { 'apache2':\nensure => 'running', enable => true, } file { ' /var/www/html/index.html' , ensure => 'file ' , content => 'Hello, PIAUI! ' , } Sobre o conteúdo desse arquivo, trata-se de um",
+        "alternativas": [
+            "facter do Ansible para automatizar a configuração do Apache, criar um diretório para o site e uma página HTML de boasvindas.",
+            "manifesto Puppet que instala o Apache, garante que o serviço esteja em execução e cria uma página inicial.",
+            "facterdo Jenkins que instala o Apache, cria um diretório para o site e uma página HTML de boas-vindas.",
+            "pipeline do Puppet usado para gerenciar a instalação do Apache, garantir que ele esteja rodando e configurar um arquivo de página inicial.",
+            "playbook do Jenkins que gerencia o estado do pacote Apache, assegura que o serviço esteja ativo e configura um arquivo HTML de boas-vindas."
+        ],
+        "gabarito": "manifesto Puppet que instala o Apache, garante que o serviço esteja em execução e cria uma página inicial."
+    },
+    {
+        "id": 13,
+        "enunciado": "Quanto as ferramentas de infraestrutura ágil, automatização e gerenciamento de configuração (Puppet, Jenkins, GIT), analise as afirmativas abaixo, dê valores Verdadeiro (V) ou Falso (F).\n( ) Jenkins facilita a adoção das práticas de DevOps.\n( ) Git é um sistema de controle de versões distribuído.\n( ) Puppet roda tanto em ambientes Linux como no Windows.\nAssinale a alternativa que apresenta a sequência correta de cima para baixo.",
+        "alternativas": [
+            "V - V - V.",
+            "V - V - F.",
+            "V - F - V.",
+            "F - F - V.",
+            "F - F - F."
+        ],
+        "gabarito": "V - V - V."
+    },
+    {
+        "id": 14,
+        "enunciado": "O Analista de Negócios desempenha um papel fundamental na ponte entre as áreas de negócio e a equipe de tecnologia. Assinale a alternativa que indica corretamente uma competência considerada essencial para esse profissional.",
+        "alternativas": [
+            "A capacidade de elicitar, analisar, especificar, validar e gerenciar requisitos das partes interessadas (stakeholders).",
+            "O conhecimento profundo e especializado em linguagens de programação de baixo nível, como Assembly e C, voltado à manipulação direta de memória e ao desenvolvimento de sistemas de base.",
+            "A habilidade de administrar servidores de banco de dados, incluindo atividades técnicas, como otimização de consultas, configuração de rotinas de backup e recuperação de dados.",
+            "A experiência em configuração e gerenciamento de redes de computadores, abrangendo a administração de roteadores, switches e políticas de segurança de rede.",
+            "O domínio de ferramentas de automação de infraestrutura, como Ansible e Puppet, com foco na orquestração e manutenção de ambientes computacionais."
+        ],
+        "gabarito": "A capacidade de elicitar, analisar, especificar, validar e gerenciar requisitos das partes interessadas (stakeholders)."
+    },
+    {
+        "id": 15,
+        "enunciado": "Uma equipe de desenvolvimento de um órgão público está adotando a cultura DevOps para agilizar a entrega de software com qualidade. Um dos pilares dessa cultura é a implementação de um pipeline de Integração Contínua (CI) e Entrega Contínua (CD). Marque a alternativa CORRETA que define o conceito de Integração Contínua (CI) no contexto de DevOps.",
+        "alternativas": [
+            "É a prática de entregar manualmente o software em produção após um longo ciclo de desenvolvimento, garantindo que todas as funcionalidades sejam liberadas de uma só vez para o usuário final.",
+            "É o processo de realizar testes de segurança e análise estática de código apenas no final do projeto, antes da implantação em produção, para garantir que todas as vulnerabilidades sejam encontradas de uma vez.",
+            "É a prática de integrar o código novo ao repositório principal várias vezes ao dia, onde cada integração dispara um processo automatizado de compilação (build) e testes, permitindo identificar problemas de integração rapidamente.",
+            "A Integração Contínua (CI) é uma metodologia focada em adiar a integração do código para o final do projeto, permitindo que os desenvolvedores trabalhem de forma isolada por mais tempo e só combinem suas alterações na fase de pré-produção, minimizando interrupções diárias.",
+            "Refere-se exclusivamente à automação da infraestrutura, utilizando ferramentas como Ansible ou Terraform para provisionar servidores, sem qualquer relação com o ciclo de vida do código-fonte da aplicação."
+        ],
+        "gabarito": "É a prática de integrar o código novo ao repositório principal várias vezes ao dia, onde cada integração dispara um processo automatizado de compilação (build) e testes, permitindo identificar problemas de integração rapidamente."
+    },
+    {
+        "id": 16,
+        "enunciado": "Puppet (versão 8.10.é uma ferramenta de automação que possui código-aberto que ajuda tanto administradores quanto os DevOps no gerenciamento e automatização das configurações de servidores.\nCom relação ao Puppet, avalie afirmativas a seguir.\nI. É configurado em uma arquitetura agente-servidor, onde um nó primário (sistema) controla informações de configuração para um ou mais nós (agentes) gerenciados.\nII. Servidores e agentes se comunicam por intermédio do protocolo HTTPS usando certificados SSL. Ele utiliza uma autoridade de certificação oferecida por terceiros para gerenciar seus certificados.\nIII. Todos as configurações e dados gerados pelo Puppet são armazenados no seu repositório de dados e metadados (que pode ser instanciado em qualquer tipo de banco NoSQL). Armazenar os dados e metadados permite que o Puppet opere mais rapidamente e fornece uma API para que outros aplicativos acessarem o repositório com mais segurança.\nEstá correto apenas o que se afirma em",
+        "alternativas": [
+            "I e II.",
+            "I e III.",
+            "II e III.",
+            "II.",
+            "I."
+        ],
+        "gabarito": "I."
+    },
+    {
+        "id": 17,
+        "enunciado": "Com o avanço da abordagem DevOps nas organizações e com o aumento da colaboração entre administradores de sistema e desenvolvedores, diversas ferramentas têm evoluído para tentar padronizar o gerenciamento automatizado de infraestrutura e suas configurações.\nSelecione a alternativa que indica ferramentas usadas exclusivamente no gerenciamento de configurações.",
+        "alternativas": [
+            "Ansible e go2.",
+            "Salt e pepper.",
+            "Nagios e chief.",
+            "Puppet e pallet.",
+            "Confops e bamboo."
+        ],
+        "gabarito": "Puppet e pallet."
+    },
+    {
+        "id": 18,
+        "enunciado": "Durante o fortalecimento das práticas de automação e monitoramento no ambiente de TI de um tribunal, a equipe técnica passou a aplicar soluções de DevOps e DevSecOps que envolvem gestão de configurações com Ansible e AWX, integração contínua de aplicações e implementação de plataformas de observabilidade baseadas em Prometheus, Grafana e a ELK Stack. No planejamento dessas atividades, a construção de uma infraestrutura confiável e segura deve adotar práticas que",
+        "alternativas": [
+            "priorizem a coleta estruturada de logs e a análise pontual de eventos críticos em ferramentas específicas, mesmo que a integração com dados de métricas operacionais ainda não esteja contemplada nos painéis de observabilidade.",
+            "utilizem ferramentas de automação de infraestrutura, como Ansible e AWX, para padronizar tarefas recorrentes em servidores, mantendo o controle manual de processos relacionados à segurança e conformidade.",
+            "promovam a criação de dashboards dinâmicos e interativos integrados a sistemas de alerta, permitindo o acompanhamento em tempo real de métricas, logs e eventos de servidores e aplicações, contribuindo para a segurança e confiabilidade da infraestrutura.",
+            "configurem pipelines de CI/CD voltados às fases de teste e homologação, adotando o deploy manual no ambiente de produção como medida de controle e rastreabilidade para evitar automações críticas em etapas finais.",
+            "implementem soluções de monitoramento orientadas à coleta de dados históricos e análise pós-incidente, com alertas configurados para períodos específicos e foco na redução de falsos positivos fora do horário comercial."
+        ],
+        "gabarito": "promovam a criação de dashboards dinâmicos e interativos integrados a sistemas de alerta, permitindo o acompanhamento em tempo real de métricas, logs e eventos de servidores e aplicações, contribuindo para a segurança e confiabilidade da infraestrutura."
+    },
+    {
+        "id": 19,
+        "enunciado": "O gerenciamento de configuração é um processo de engenharia de sistemas para estabelecer a consistência dos atributos de um produto ao longo da vida, sendo que no mundo da tecnologia, constitui um processo de gerenciamento de TI que monitora itens de configuração individuais de um sistema de TI. Entre as ferramentas utilizadas nesse tipo de gerenciamento, uma constitui o sistema de controle de versão líder do setor para rastrear alterações de código. Nesse sentido, adicionar dados de gerenciamento de configuração ao lado de código em um repositório dessa ferramenta, possibilita uma visualização holística de controle de versão de um projeto inteiro.\nEssa ferramenta de configuração é conhecida como:",
+        "alternativas": [
+            "Terraform.",
+            "Git.",
+            "SaltStack.",
+            "Puppet."
+        ],
+        "gabarito": "Git."
+    },
+    {
+        "id": 20,
+        "enunciado": "No uso das ferramentas Terraform e Ansible em conjunto para provisionamento de infraestrutura, qual é a abordagem mais comum, tendo em vista a consonância com as melhores práticas de uso dessas ferramentas?",
+        "alternativas": [
+            "Ambos são usados de forma intercambiável, sem distinção clara de funções.",
+            "O Terraform é usado para instalar pacotes de software, e o Ansible para criar recursos na nuvem.",
+            "O Terraform provisiona a infraestrutura de base, enquanto o Ansible configura os sistemas operacionais e serviços.",
+            "O Ansible gerencia o estado da infraestrutura, enquanto o Terraform realiza as configurações dos servidores."
+        ],
+        "gabarito": "O Terraform provisiona a infraestrutura de base, enquanto o Ansible configura os sistemas operacionais e serviços."
+    },
+    {
+        "id": 21,
+        "enunciado": "No contexto da ferramenta de configuração Ansible, o que é um playbook?",
+        "alternativas": [
+            "Um arquivo binário que executa comandos diretamente em servidores.",
+            "Um repositório de inventário com os hosts gerenciados pela ferramenta.",
+            "Um conjunto de configurações declarativas para gerenciar redes de contêineres.",
+            "Uma coleção de tarefas descritas em YAML que automatizam processos em infraestrutura."
+        ],
+        "gabarito": "Uma coleção de tarefas descritas em YAML que automatizam processos em infraestrutura."
+    },
+    {
+        "id": 22,
+        "enunciado": "Julgue o item seguinte, relativo a virtualização e orquestração de infraestrutura.\nAo ser executado o playbook Ansible a seguir, serão classificados todos os hosts do servidor com base no sistema operacional de cada um, e, se houver um host cujo sistema operacional seja o Ubuntu, ele será automaticamente adicionado ao grupo os_Ubuntu.\n- name: Talk to all hosts just so we can learn about them hosts: all tasks:\n- name: Classify hosts depending on their OS distribution ansible.builtin.group_by:\nkey: os_{{ ansible_facts['distribution'] }}",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 23,
+        "enunciado": "Um Analista de um Tribunal Regional do Trabalho deseja automatizar a instalação de pacotes e a configuração de serviços em um grupo de servidores usando o Ansible. Para isso, ele planeja criar um arquivo com extensão YAML que contenha uma sequência de ações para configurar os servidores Nginx, chamado de",
+        "alternativas": [
+            "Módulos.",
+            "Playbook.",
+            "Roles.",
+            "Play.",
+            "Inventário."
+        ],
+        "gabarito": "Playbook."
+    },
+    {
+        "id": 24,
+        "enunciado": "Considere o seguinte trecho de um arquivo de inventário da ferramenta Ansible, em formato YAML.\nmydc:\nchildren:\nnetwork:\nwebservers:\nO nome mydc refere-se a",
+        "alternativas": [
+            "uma variável.",
+            "um plugin.",
+            "um control node.",
+            "um managed node.",
+            "um metagrupo."
+        ],
+        "gabarito": "um metagrupo."
+    },
+    {
+        "id": 25,
+        "enunciado": "Acerca das linguagens de programação, das linguagens de script e dos diferentes padrões de representação de dados, julgue o item a seguir.\nO Terraform e o Ansible possuem funcionalidades diferentes e, por esse motivo, não podem ser usados em conjunto para criar uma solução completa de automação de infraestrutura.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 26,
+        "enunciado": "Considere um profissional que está utilizando o Ansible para gerenciamento de configuração, implantação de aplicações, e orquestração de tarefas em um ambiente corporativo. Em determinado momento, ele constrói o seguinte playbook:\n```yaml - name: PlayConfig hosts: webservers, wanservers tasks:\n- name: ActiveHosts debug:\nmsg: \"Hosts Ativos: {{ ansible_play_hosts | map('extract', hostvars, 'inventory_hostname') | list }}\" O inventário de servidores é o seguinte:\n[wanservers] wan1 ansible_host=192.168.1.10 wan2 ansible_host=192.168.1.11 [webservers] web1 ansible_host=192.168.1.20 web2 ansible_host=192.168.1.21 web3 ansible_host=192.168.1.22 Diante do exposto, assinale a alternativa que traz o valor de “{{ ansible_play_hosts }}” durante a execução da tarefa \"ActiveHosts” , quando o playbook é executado com “--limit='w*[1-2]'”.",
+        "alternativas": [
+            "['web1', 'web2'].",
+            "['wan1', 'wan2'].",
+            "['web1', 'web2', 'wan1', 'wan2'].",
+            "['wan1', 'wan2', 'web1', 'web2']."
+        ],
+        "gabarito": "['wan1', 'wan2', 'web1', 'web2']."
+    },
+    {
+        "id": 27,
+        "enunciado": "A equipe técnica de um Tribunal Regional do Trabalho, visando o processo de modernização da infraestrutura, decidiu automatizar o provisionamento e a configuração dos servidores utilizados para hospedar sistemas como, por exemplo, o PJe, o DataJud e o Balcão Virtual. O Ansible foi adotado como ferramenta padrão para garantir consistência, repetibilidade e controle de mudanças.\nUma das tarefas mais críticas era configurar, com segurança e precisão, todos os serviços relacionados à aplicação do PJe, mantendo o mesmo padrão para ambientes de homologação, produção e contingência.\nConsiderando as boas práticas de uso do Ansible e a necessidade de gestão automatizada no ambiente judiciário, a abordagem mais adequada e correta é:",
+        "alternativas": [
+            "Evitar o uso de handlers e templates no Ansible, já que essas funcionalidades são mais úteis em pipelines DevOps comerciais, e não em sistemas do Judiciário com requisitos fixos.",
+            "Utilizar playbooks YAML declarativos com roles reutilizáveis, variáveis seguras com Ansible Vault e inventários organizados por ambiente (produção, homologação).",
+            "Utilizar scripts shell manuais versionados com Git para configurar os servidores, pois o Ansible é mais indicado apenas para ambientes em nuvem pública, como AWS ou Azure.",
+            "Aplicar o Ansible apenas para tarefas ad hoc via linha de comando (ansible), sem necessidade de playbooks, garantindo maior agilidade e flexibilidade nas alterações.",
+            "Centralizar todas as configurações no ansible.cfg e executar comandos com privilégios de root diretamente nos nós, sem controle de inventário, para facilitar atualizações rápidas."
+        ],
+        "gabarito": "Utilizar playbooks YAML declarativos com roles reutilizáveis, variáveis seguras com Ansible Vault e inventários organizados por ambiente (produção, homologação)."
+    },
+    {
+        "id": 28,
+        "enunciado": "A adoção de infraestruturas modernas em TI passa pelo uso da computação em nuvem, virtualização, automação e pela adequação a normas de segurança física e lógica de ambientes de missão crítica. Esses elementos integram o contexto de eficiência e resiliência exigido em datacenters modernos.\nConsoante os fundamentos da computação em nuvem, da virtualização, da automação e de ambientes de datacenter, julgue (C ou E) o item a seguir.\nO Ansible é uma ferramenta de orquestração de containers que permite a definição declarativa de pods, serviços e deployments em clusters Kubernetes.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 29,
+        "enunciado": "Julgue o item subsequente, a respeito das ferramentas de DevOps e das soluções mobile.\nO Ansible é uma ferramenta de gerenciamento de configuração que requer um agente instalado nos nós gerenciados, enquanto o Puppet e o Chef não requerem uma gente em cada nó.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 30,
+        "enunciado": "O ansible é uma ferramenta amplamente utilizada na automação de infraestrutura de TI.\nOs ansible playbooks são usados para orquestrar processos de TI e são descritos em linguagem",
+        "alternativas": [
+            "AWK.",
+            "PERL.",
+            "YAML.",
+            "BASH.",
+            "PYTHON."
+        ],
+        "gabarito": "YAML."
+    },
+    {
+        "id": 31,
+        "enunciado": "Rubens está implementando uma arquitetura DevOps em sua empresa e sabe que precisa de ferramentas adequadas para cada fase do ciclo de vida do software, dentro do fluxo CI/CD.\nPara automatizar a implantação das aplicações desenvolvidas, Rubens utilizou na fase de entrega:",
+        "alternativas": [
+            "Maven;",
+            "Docker;",
+            "GitHub;",
+            "Ansible;",
+            "Selenium."
+        ],
+        "gabarito": "Ansible;"
+    },
+    {
+        "id": 32,
+        "enunciado": "A plataforma TI Ansible AWX é um projeto de código aberto mantido pela comunidade e baseado um popular software de automação chamado Ansible. O projeto AWX é desenvolvido e mantido pela comunidade de código aberto, com contribuições de desenvolvedores e de empresas de todo o mundo. As principais funcionalidades da plataforma de automação de TI Ansible AWX são:",
+        "alternativas": [
+            "automação de processos de implantação e configuração de servidores e aplicativos.",
+            "gerenciamento e monitoramento da segurança da rede e dos servidores.",
+            "realização de análise de dados e geração de relatórios analíticos e preditivos.",
+            "fornecimento de serviços de cloud para controle de segurança em tempo real."
+        ],
+        "gabarito": "automação de processos de implantação e configuração de servidores e aplicativos."
+    },
+    {
+        "id": 33,
+        "enunciado": "Em relação a DevOps e DevSecOps, julgue o item que se segue.\nAnsible é uma ferramenta escrita em Java e que usa JSON para descrever o estado desejado dos dispositivos e da configuração.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 34,
+        "enunciado": "Em uma instalação do Red Hat Ansible Automation Platform, o administrador fez configurações através do Automation Controller, criando os modelos de trabalhos.\nEsses modelos de trabalhos servem para",
+        "alternativas": [
+            "agrupar logicamente endpoints de destino, usando servidores, instâncias de nuvem e dispositivos de segurança através de plugins nativos e personalizados que dividem outros grupos de endpoints.",
+            "autenticar com recursos externos, repositórios ou endpoints de destino, permitindo que usuários ou equipes possam usar credenciais por meio de controles RBAC, sem acesso à credencial real.",
+            "configurar coleções lógicas de playbooks contendo códigos fontes de conteúdo de automação, de modo que se permita adicionar conteúdo de automação ao controlador de automação.",
+            "definir como uma automação é executada, através da combinação de Ansible Playbooks com objetos do controlador, incluindo ambientes de execução, projetos, inventários e credenciais.",
+            "dimensionar e gerenciar a automação de processos, usando APIs navegáveis, que permitem integração com outras ferramentas de monitoramento, e de orquestração, tais como um pipeline de CI/CD."
+        ],
+        "gabarito": "definir como uma automação é executada, através da combinação de Ansible Playbooks com objetos do controlador, incluindo ambientes de execução, projetos, inventários e credenciais."
+    },
+    {
+        "id": 35,
+        "enunciado": "Em relação às tecnologias de virtualização e às ferramentas de automação, julgue o próximo item.\nNo Ansible, o componente Playbook é responsável por definir a lista de tarefas que devem ser executadas em um ou mais hosts.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 36,
+        "enunciado": "Em relação às tecnologias de virtualização e às ferramentas de automação, julgue o próximo item.\nO Inventory no Ansible, unidade de trabalho que pode ser chamada por um Ad‐Hoc Command, é um comando de linha que é executado diretamente no terminal para realizar tarefas rápidas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 37,
+        "enunciado": "Julgue o item a seguir, relativo à linguagem de script Ansible, considerando que uma operação será idempotente se o resultado ao executá-la uma vez for exatamente igual ao resultado ao executá-la repetidamente sem nenhuma ação interveniente.\nPara a sua automatização no Windows, o Ansible se conecta a nós de controle, e o usuário executa comandos escritos para manipular recursos do estado desejado do sistema, sendo esses comandos projetados para serem idempotentes quanto possível.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 38,
+        "enunciado": "Com relação à virtualização e às ferramentas de automação de processos, julgue o item seguinte.\nAnsíble não suporta a automação de redes e de dispositivos de armazenamento.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 39,
+        "enunciado": "Com relação à virtualização e às ferramentas de automação de processos, julgue o item seguinte.\nAnsible é escrito em Python e não requer um agente para ser instalado nos nós gerenciados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 40,
+        "enunciado": "Analise as afirmativas abaixo com relação à automação de scripts com Ansible.\n1. Requer a instalação de agentes Ansible nas máquinas que se deseja gerenciar e automatizar.\n2. Trabalha com RBAC para a atribuição de permissões, privilégios e papéis.\n3. O catálogo de serviços de automação permite que usuários gerenciem suas próprias requisições, sendo especialmente útil para requisições de serviços comuns.\nAssinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "É correta apenas a afirmativa 3.",
+            "São corretas apenas as afirmativas 1 e 2.",
+            "São corretas apenas as afirmativas 1 e 3.",
+            "São corretas apenas as afirmativas 2 e 3.",
+            "São corretas as afirmativas 1, 2 e 3."
+        ],
+        "gabarito": "São corretas apenas as afirmativas 2 e 3."
+    },
+    {
+        "id": 41,
+        "enunciado": "Tendo em vista que, no atual cenário de desenvolvimento de aplicações web, é essencial considerar princípios, como consistência e escalabilidade, e práticas, como automação do processo de implantação e integração do código-fonte, julgue o item subsequente.\nO Ansible é uma ferramenta de integração contínua que permite automatizar o processo de construção, teste e implantação de software e pode ser integrado a outras ferramentas DevOps, como Git, Docker e Kubernetes.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 42,
+        "enunciado": "Julgue o item subsequente, relativo aos conceitos de conformidade e automação de TI: Puppet, Ansible.\nO Ansible é uma solução de software que permite controlar um dispositivo, através de agentes nele instalados, a partir de um local diferente, sendo que a comunicação entre o servidor e o dispositivo ocorre por meio dos referidos agentes.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 43,
+        "enunciado": "O Ansible é uma ferramenta de automação de TI que permite a orquestração, provisionamento e gerenciamento de configurações de sistemas. Ele utiliza uma abordagem declarativa, em que você define o estado desejado do sistema e o Ansible se encarrega de aplicar as alterações necessárias para alcançar esse estado.\nCom o Ansible, é possível automatizar tarefas repetitivas, como a instalação de pacotes, a configuração de servidores e a implantação de aplicativos. Também é idempotente, onde uma operação pode ser aplicada várias vezes mas o resultado final será o mesmo, independentemente do número de vezes que a operação seja executada. Ele utiliza uma linguagem simples, baseada em YAML (Yet Another Markup Language), para descrever as tarefas a serem executadas.\nConsiderando as informações apresentadas, analise as asserções a seguir e a relação entre elas:\nI- Priorizar o uso de módulos específicos para as diversas atividades como o módulo package, evitando os módulos shell e command, quando há necessidade de instalação de programas, facilita a idempotência com Ansible.\nPORQUE\nII- Mesmo seguindo as boas práticas, nem sempre é possível ter a idempotência proposta pelo Ansible, visto situações dinâmicas no host que o mesmo está atuando, ou por não fazer as devidas checagens de sistema operacional ou de presença de programas específicos para alcançar o estado desejado nos clientes Ansible, havendo execuções repetidas de atividades de execução única pelo servidor Ansible.\nA respeito dessas asserções, assinale a opção CORRETA:",
+        "alternativas": [
+            "A asserção I é uma proposição verdadeira, e a II é uma proposição falsa.",
+            "As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa correta da I.",
+            "As asserções I e II são proposições verdadeiras, e a II é uma justificativa correta da I.",
+            "A asserção I é uma proposição falsa, e a II é uma proposição verdadeira.",
+            "As asserções I e II são proposições falsas."
+        ],
+        "gabarito": "A asserção I é uma proposição verdadeira, e a II é uma proposição falsa."
+    },
+    {
+        "id": 44,
+        "enunciado": "Onde é feita configuração da lista de nós (hosts) que serão utilizados no Ansible?",
+        "alternativas": [
+            "Core.",
+            "Inventory.",
+            "Nodes.",
+            "Roles.",
+            "Modules."
+        ],
+        "gabarito": "Inventory."
+    },
+    {
+        "id": 45,
+        "enunciado": "Com o objetivo de automatizar processos de instalação de servidores, a equipe de TI de uma universidade decidiu adotar a ferramenta Ansible. A equipe deseja que seja possível atuar em cada campus e executar cada tarefa de instalação individualmente, se necessário, para as diferentes aplicações (web, base de dados, etc).\nConsiderando essas restrições e as boas práticas de uso da ferramenta Ansible, assinale a alternativa que apresenta a forma mais correta de descrever esse processo de automação.",
+        "alternativas": [
+            "Definir um inventário para cada campus, separando por aplicação e importando-os em um inventário principal, e escrever playbooks contendo blocos ou tags de tarefa.",
+            "Definir um inventário para cada campus, separando- os por aplicação e importando-os em um inventário principal, e escrever playbooks individualizando cada tarefa.",
+            "Definir um inventário para todos os campi, especificando os hosts e cada aplicação diretamente no comando Ansible, e escrever playbooks individualizando cada tarefa.",
+            "Definir um inventário com grupos baseados no campus e aplicação, e escrever playbooks especificando os hosts alvos em cada bloco ou tag de tarefa.",
+            "Definir um inventário com grupos baseados no campus e aplicação, e escrever playbooks contendo blocos ou tags de tarefa."
+        ],
+        "gabarito": "Definir um inventário com grupos baseados no campus e aplicação, e escrever playbooks contendo blocos ou tags de tarefa."
+    },
+    {
+        "id": 46,
+        "enunciado": "Com relação ao Ansible da Red Hat, analise os itens a seguir.\nI. É uma ferramenta de automação que permite configurar sistemas, implantar softwares e orquestrar tarefas avançadas de TI, tais como implantações contínuas ou atualizações contínuas com tempo de inatividade zero.\nII. Ele é centralizado e pode se conectar facilmente com Kerberos, LDAP e outros sistemas de gerenciamento de autenticação descentralizada.\nIII. Sua exposição à segurança é bastante reduzida pois usa a ferramenta OpenSSH para efetuar login remoto com o protocolo SSH.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, apenas.",
+            "II, apenas.",
+            "III, apenas.",
+            "I e II, apenas.",
+            "I e III, apenas."
+        ],
+        "gabarito": "I e III, apenas."
+    },
+    {
+        "id": 47,
+        "enunciado": "Considerando a figura a seguir, julgue o próximo item, acerca dos conceitos de DevOps.\nA ferramenta RedHat Ansible está mais relacionada à etapa deploy do que à etapa plan",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 48,
+        "enunciado": "Para assegurar a padronização, a confiabilidade e a manutenção eficiente do ambiente de TI de um tribunal, a equipe de Suporte em TI adota práticas que envolvem o uso de ferramentas de backup, inventário de hardware e software, soluções de monitoramento de infraestrutura, Ansible e Git. Considerando essas práticas integradas, a gestão eficaz do ambiente deve ser realizada de modo que",
+        "alternativas": [
+            "o versionamento das configuraçoes seja gerenciado em repositórios Git, e a padronização de instalações e atualizações seja automatizada com Ansible.",
+            "o inventário de ativos seja atualizado manualmente por cada técnico ao final de cada intervenção, evitando a integração com ferramentas de varredura automática.",
+            "a estratégia de backup seja definida conforme o tipo de dado utilizado por cada setor, com execução manual agendada pelos usuários responsáveis.",
+            "a aplicação de configurações nos ambientes seja documentada por meio de arquivos compartilhados em rede, dispensando sistemas de versionamento estruturado.",
+            "a padronização de ambientes seja obtida com scripts personalizados e de uso local, adaptados conforme as prererências individuais de cada técnioo."
+        ],
+        "gabarito": "o versionamento das configuraçoes seja gerenciado em repositórios Git, e a padronização de instalações e atualizações seja automatizada com Ansible."
+    },
+    {
+        "id": 49,
+        "enunciado": "Sobre a automação de infraestrutura de TI, avalie se as afirmativas a seguir são verdadeiras (V) ou falsas (F).\n( ) A automação de infraestrutura de TI pode reduzir significativamente o tempo necessário para realizar tarefas de rotina, como provisionamento e configuração de servidores.\n( ) A automação de infraestrutura de TI elimina completamente a necessidade de intervenção humana em todos os aspectos da gestão de TI.\n( ) Ferramentas de automação de infraestrutura de TI, como o Ansible e o Terraform, permitem que as equipes de TI gerenciem e configurem recursos de TI de maneira programática e padronizada.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "F – V – V.",
+            "F – V – F.",
+            "F – F – V.",
+            "V – F – V.",
+            "V – V – V."
+        ],
+        "gabarito": "V – F – V."
+    },
+    {
+        "id": 50,
+        "enunciado": "Em relação às tecnologias de virtualização e às ferramentas de automação, julgue o próximo item.\nUm Manifest no Puppet é responsável por definir o estado desejado de recursos em um nó, especificando como os recursos devem ser configurados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 51,
+        "enunciado": "Considere o seguinte trecho de um arquivo de automação:\n- name: Configurar servidor web hosts: webservers become: yes tasks:\n- name: Instalar pacote nginx apt:\nname: nginx state: present - name: Iniciar serviço nginx service:\nname: nginx state: started enabled: yes Esse modelo declarativo, baseado em playbooks com módulos idempotentes e execução via agenteless, corresponde à ferramenta:",
+        "alternativas": [
+            "Ansible.",
+            "Puppet.",
+            "Chef.",
+            "Vagrant."
+        ],
+        "gabarito": "Ansible."
+    },
+    {
+        "id": 52,
+        "enunciado": "Qual das seguintes tecnologias é amplamente utilizada para a virtualização de hardware e execução de múltiplas máquinas virtuais em um único host físico?",
+        "alternativas": [
+            "Hypervisor.",
+            "Kubernetes.",
+            "Ansible.",
+            "Docker."
+        ],
+        "gabarito": "Hypervisor."
+    },
+    {
+        "id": 53,
+        "enunciado": "Qual a melhor alternativa para um gestor de tecnologia da informação utilizar a virtualização de servidores para otimizar a infraestrutura de TI de uma empresa?",
+        "alternativas": [
+            "Implementando contêineres Docker para isolamento de aplicações críticas.",
+            "Orquestrando clusters de contêineres com o Kubernetes para escalabilidade dinâmica.",
+            "Automatizando o provisionamento de máquinas virtuais com o Ansible.",
+            "Utilizando VMware vSphere para consolidar servidores físicos e aumentar a eficiência de recursos."
+        ],
+        "gabarito": "Utilizando VMware vSphere para consolidar servidores físicos e aumentar a eficiência de recursos."
+    },
+    {
+        "id": 54,
+        "enunciado": "Um órgão público precisa garantir que as configurações de kernel, parâmetros do postgresql.conf e patches de segurança sejam idênticos em 50 servidores de banco de dados. A solução deve permitir a aplicação de mudanças em escala, garantir a idempotência das configurações e evitar a instalação de agentes proprietários em cada nó gerenciado. Atende a esses requisitos de padronização por meio da estratégia técnica de orquestração e conformidade:",
+        "alternativas": [
+            "o uso do SaltStack em modo Masterless, em que cada servidor de banco de dados busca suas próprias atualizações de configuração em um repositório Git central, executando comandos Python locais para validar a integridade dos logs.",
+            "a implementação do Puppet para gerenciamento de estados, utilizando o protocolo SSH para comunicação direta com os nós e execução de manifestos Ruby que garantem a conformidade e idempotência das instâncias sem necessidade de um servidor mestre.",
+            "a utilização do Chef Infra para automação baseada em receitas, configurando o modo push via WinRM para servidores Linux e Windows, que elimina a instalação de pacotes nos nós, garante a idempotência e centraliza o inventário no servidor de banco de dados.",
+            "a configuração do Terraform para gerenciar as rotinas internas dos bancos de dados, aplicando o estado desejado através de scripts bash injetados via Cloud- init, o que garante a padronização das instâncias em ambientes on-premises e cloud.",
+            "a adoção do Ansible para orquestração agentless, utilizando Playbooks em YAML para definir o estado desejado das instâncias e assegurar a idempotência das rotinas administrativas em múltiplos servidores via conexão SSH ou WinRM."
+        ],
+        "gabarito": "a adoção do Ansible para orquestração agentless, utilizando Playbooks em YAML para definir o estado desejado das instâncias e assegurar a idempotência das rotinas administrativas em múltiplos servidores via conexão SSH ou WinRM."
+    },
+    {
+        "id": 55,
+        "enunciado": "Um instituto federal possui 15 campi distribuídos pelo estado. A área de TI da reitoria identificou que o provisionamento de novos servidores Linux em cada campus é um processo manual demorado e propenso a inconsistências de configuração – em um campus, o NTP não está configurado; em outro, o agente de monitoramento está ausente; em um terceiro, as políticas de firewall diferem do padrão institucional. O analista de TI foi designado para implementar automação utilizando Ansible para gerenciamento de configuração, garantindo que todos os servidores dos campi mantenham um estado de configuração padronizado e auditável. Qual alternativa descreve corretamente o funcionamento do Ansible para esse cenário?",
+        "alternativas": [
+            "O Ansible requer a instalação de um agente proprietário em cada servidor gerenciado dos campi, que se comunica com o nó de controle por meio de um protocolo exclusivo da ferramenta e mantém o estado de configuração local.",
+            "Os playbooks do Ansible são arquivos binários compilados que precisam ser gerados por uma ferramenta específica da Ansible Inc. e transferidos para cada servidor gerenciado antes da execução das tarefas de configuração.",
+            "O Ansible é uma ferramenta indicada para provisionar infraestrutura em nuvem pública (criar VMs, redes e buckets), mas não é recomendada para gerenciar configuração de servidores físicos ou virtuais em ambientes on-premises.",
+            "O Ansible utiliza SSH para conexão com os servidores gerenciados (sem necessidade de agente instalado nos hosts), e os playbooks são arquivos YAML que descrevem o estado desejado de forma idempotente – podem ser aplicados múltiplas vezes sem efeitos colaterais indesejados.",
+            "No Ansible, cada playbook deve ser escrito em uma linguagem de programação diferente conforme o sistema operacional do servidor gerenciado, sendo Python para Linux e PowerShell para Windows."
+        ],
+        "gabarito": "O Ansible utiliza SSH para conexão com os servidores gerenciados (sem necessidade de agente instalado nos hosts), e os playbooks são arquivos YAML que descrevem o estado desejado de forma idempotente – podem ser aplicados múltiplas vezes sem efeitos colaterais indesejados."
+    },
+    {
+        "id": 56,
+        "enunciado": "A ferramenta que é amplamente utilizada para orquestração de containers em ambientes de computação em nuvem é denominada",
+        "alternativas": [
+            "PostgreSQL.",
+            "Ansible.",
+            "ElasticSearch.",
+            "Terraform.",
+            "Kubernetes."
+        ],
+        "gabarito": "Kubernetes."
+    }
+]

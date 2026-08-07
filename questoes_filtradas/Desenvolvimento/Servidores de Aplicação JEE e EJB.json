@@ -1,0 +1,695 @@
+[
+    {
+        "id": 1,
+        "enunciado": "Uma equipe de desenvolvimento está criando uma aplicação de gerenciamento processual baseada na web, usando a linguagem Java. A aplicação precisa ser implantada em ambiente corporativo, com controle de sessões, segurança, integração com banco de dados e suporte a múltiplos usuários simultâneos. Para isso, a equipe discute as diferenças e complementaridades entre servidores de aplicação e servidores web. Nesse contexto, assinale a alternativa que apresenta uma afirmação correta feita por um dos integrantes da equipe acerca desses servidores.",
+        "alternativas": [
+            "Servidores web Java, como Apache Tomcat, são responsáveis por executar arquivos.jar e serviços RESTful, mas não suportam aplicações web baseadas em servlet ou JSF.",
+            "Servidores de aplicação Java, como GlassFish ou WildFly, estendem os servidores web ao incluir suporte a tecnologias corporativas como Enterprise Java Beans (EJB), Java Message Service (JMS) e Java Persistence API (JPA).",
+            "Servidores web e servidores de aplicação são equivalentes e intercambiáveis, já que ambos executam código Java da mesma forma e não há distinção entre suas responsabilidades.",
+            "O uso de um servidor de aplicação elimina a necessidade de containers de servlet, pois esse tipo de aplicação é limitado ao terminal de linha de comando.",
+            "Aplicações Java web não conseguem ser hospedadas em servidores de aplicação, sendo restritas ao uso em navegadores locais com Java Applets."
+        ],
+        "gabarito": "Servidores de aplicação Java, como GlassFish ou WildFly, estendem os servidores web ao incluir suporte a tecnologias corporativas como Enterprise Java Beans (EJB), Java Message Service (JMS) e Java Persistence API (JPA)."
+    },
+    {
+        "id": 2,
+        "enunciado": "“Esta arquitetura é um conjunto de especificações, padrões e tecnologias da linguagem de programação Java voltado para o desenvolvimento de aplicativos empresariais distribuídos e escaláveis. Ela fornece uma infraestrutura robusta e modular para o design, implementação e gerenciamento de sistemas corporativos complexos. Oferece uma abordagem baseada em componentes, onde os aplicativos são construídos usando módulos independentes, como Enterprise JavaBeans\n(EJB), Servlets, JSP (JavaServer Pages) e outros componentes que colaboram para criar soluções empresariais.” Assinale a alternativa correta para qual arquitetura Java a definição acima está se referindo.",
+        "alternativas": [
+            "JVM.",
+            "J2EE.",
+            "JRE.",
+            "JISO."
+        ],
+        "gabarito": "J2EE."
+    },
+    {
+        "id": 3,
+        "enunciado": "Os aplicativos Java EE v8 são constituídos de diversos componentes. Um componente é uma unidade de software funcional independente que é montada em um aplicativo com suas classes e arquivos relacionados e que se comunica com outros componentes.\nEm relação ao temas, analise as afirmativas a seguir:\nI. Um aplicativo cliente fornece uma maneira para os usuários lidarem com tarefas que requerem interface mais rica do que aquela que pode ser fornecida por uma linguagem de marcação. Um aplicativo cliente geralmente tem uma interface gráfica do usuário criada a partir da API Swing ou da API Abstract Window Toolkit.\nII. Os componentes de tecnologia Java Servlet, JavaServer Faces e JavaServer Pages são componentes executados no servidor Web, enquanto os componentes EJB são executados no servidor de regras de negócios.\nIII. Os componentes Java EE são interpretados da mesma forma que qualquer programa na linguagem Java. As semelhanças entre os componentes Java EE e as classes Java \"padrão\" são que eles são montados e são verificados como bem formados e se estão em conformidade com a especificação Java EE, são executados e gerenciados pelo aplicativo cliente.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, apenas.",
+            "II, apenas.",
+            "III, apenas.",
+            "I e II, apenas.",
+            "II e III, apenas."
+        ],
+        "gabarito": "I e II, apenas."
+    },
+    {
+        "id": 4,
+        "enunciado": "A arquitetura Java EE é uma plataforma de programação para servidores. Suas funcionalidades contam com uma série de especificações que fazem da Java EE uma plataforma completa para o desenvolvimento web. Algumas delas são:",
+        "alternativas": [
+            "ODBC, EJB e Servlet.",
+            "JDBC, EJB e Servlet.",
+            "JDBC, Entidade e Trait.",
+            "ODBC, Entidade e Trait."
+        ],
+        "gabarito": "JDBC, EJB e Servlet."
+    },
+    {
+        "id": 5,
+        "enunciado": "No que diz respeito aos frameworks, plataformas e tecnologias Java, assinale V para a afirmativa verdadeira e F para a falsa.\n( ) O Java EE é uma plataforma que contém um conjunto de tecnologias coordenadas que reduz significativamente o custo e a complexidade do desenvolvimento, implantação e gerenciamento de aplicações de várias camadas centradas no servidor, que oferece um conjunto de interfaces de programação de aplicações – APIs para desenvolvimento e execução de aplicações portáteis, robustas, escaláveis, confiáveis e seguras no lado do servidor.\n( ) EJB (Enterprise JavaBeans) é uma tecnologia que ajuda os desenvolvedores de software a criarem páginas web geradas dinamicamente baseadas em HTML, XML ou outros tipos de documentos. Lançada em 1999 pela Sun Microsystems, JSP é similar ao PHP, mas usa a linguagem de programação Java.\n( ) JPA (Java Persistence API) é um framework que permite aos desenvolvedores gerenciar os dados utilizando o mapeamento relacional de objetos em aplicações construídas na plataforma Java.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "F – V – F.",
+            "V – F – V.",
+            "F – F – V.",
+            "V – V – F."
+        ],
+        "gabarito": "V – F – V."
+    },
+    {
+        "id": 6,
+        "enunciado": "Os servidores de aplicação Java EE completos geralmente possuem contêiner web e contêiner EJB. Porém, alguns servidores, em relação a estes dois, possuem apenas contêiner web, como é o caso do",
+        "alternativas": [
+            "WebLogic.",
+            "GlassFish.",
+            "WebSphere.",
+            "Jetty.",
+            "JBoss."
+        ],
+        "gabarito": "Jetty."
+    },
+    {
+        "id": 7,
+        "enunciado": "Considerando o servidor de aplicação JBoss, qual das alternativas abaixo está correta em relação ao seu funcionamento e características?",
+        "alternativas": [
+            "O JBoss suporta clusters e balanceamento de carga, mas não possui recursos automáticos para gerenciar a distribuição de tráfego.",
+            "O JBoss utiliza apenas balanceamento de carga manual e não oferece suporte a clusters, o que limita a escalabilidade em ambientes de alta demanda.",
+            "O JBoss é um servidor de aplicações que suporta EJB (Enterprise JavaBeans), JSP, servlets, e integrações com outros frameworks Java, como Spring.",
+            "A utilização de clusters no JBoss permite distribuir as requisições entre múltiplos servidores, mas o balanceamento de carga deve ser configurado exclusivamente pelo sistema operacional."
+        ],
+        "gabarito": "O JBoss é um servidor de aplicações que suporta EJB (Enterprise JavaBeans), JSP, servlets, e integrações com outros frameworks Java, como Spring."
+    },
+    {
+        "id": 8,
+        "enunciado": "Em relação ao servidor de aplicação JBoss (atualmente conhecido como WildFly), assinale a alternativa correta sobre seu funcionamento e recursos:",
+        "alternativas": [
+            "O JBoss/WildFly é um servidor de aplicação leve, dedicado apenas à execução de Servlets e JSPs, sem suporte a outras especificações Java EE, como EJB ou JMS.",
+            "O JBoss/WildFly não é compatível com ambientes de cluster, sendo limitado a apenas uma instância de servidor de aplicação para processamento de requisições.",
+            "O JBoss/WildFly é configurado exclusivamente por meio de arquivos XML, não permitindo a configuração por meio de uma interface gráfica ou CLI (interface de linha de comando).",
+            "O JBoss/WildFly é um servidor de aplicação que implementa completamente as especificações Java EE, incluindo EJB, JMS, JPA, CDI, entre outras, tornando-o uma solução robusta para aplicações corporativas de grande porte.",
+            "O JBoss/WildFly é um servidor de aplicação focado exclusivamente em ambientes corporativos de microserviços, não sendo adequado para aplicações monolíticas."
+        ],
+        "gabarito": "O JBoss/WildFly é um servidor de aplicação que implementa completamente as especificações Java EE, incluindo EJB, JMS, JPA, CDI, entre outras, tornando-o uma solução robusta para aplicações corporativas de grande porte."
+    },
+    {
+        "id": 9,
+        "enunciado": "Fernando estava configurando um Web Server Tomcat para que pudesse hospedar o novo sistema de controle de estoque na rede interna da empresa. Porém, descobriu que o sistema utiliza componentes MDB, e foi obrigado a trocar o Tomcat pelo Application Server JBoss, porque o Tomcat:",
+        "alternativas": [
+            "restringe a gerência de sessões de usuário ao timeout de dez minutos;",
+            "transforma as páginas JSP em Servlets;",
+            "permite apenas o protocolo HTTP, sem suporte ao HTTPS;",
+            "oferece apenas o contêiner de Servlets, sem apresentar um contêiner para componentes EJB;",
+            "inviabiliza o uso de JMS (Java Message Service)."
+        ],
+        "gabarito": "oferece apenas o contêiner de Servlets, sem apresentar um contêiner para componentes EJB;"
+    },
+    {
+        "id": 10,
+        "enunciado": "As decisões relacionadas a infraestrutura e serviços de software envolvem a escolha adequada de servidores, tecnologias e plataformas, considerando aspectos como desempenho, escalabilidade, interoperabilidade e facilidade de manutenção.\nNo que se refere a infraestrutura, serviços e plataformas de software, julgue (C ou E) o item a seguir.\nO servidor de aplicação Tomcat, por seguir a especificação Java EE completa, é capaz de executar Enterprise JavaBeans (EJB) de forma nativa.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 11,
+        "enunciado": "J está gerenciando uma aplicação web em uma empresa que utiliza o Spring Boot para o backend e o Apache HTTP Server para o frontend. Recentemente, os usuários relataram lentidão ao acessar a aplicação. Após verificar os logs, J percebeu que o Apache HTTP Server está recebendo as solicitações, mas a comunicação com a aplicação Spring Boot está demorando. Para esse problema de performance, J deve",
+        "alternativas": [
+            "configurar o Apache HTTP Server para atuar como proxy reverso, redirecionando as requisições para o Spring Boot, de forma a otimizar o tempo de resposta.",
+            "substituir o Apache HTTP Server por um servidor de aplicação dedicado, como o Tomcat, para gerenciar melhor o tráfego.",
+            "aumentar o número de threads no Apache HTTP Server para lidar com mais requisições simultâneas.",
+            "realizar a configuração do Spring Boot para rodar diretamente no Apache HTTP Server, sem usar proxy.",
+            "configurar a aplicação Spring Boot para ser executada diretamente no navegador do usuário, evitando o tráfego para o servidor."
+        ],
+        "gabarito": "configurar o Apache HTTP Server para atuar como proxy reverso, redirecionando as requisições para o Spring Boot, de forma a otimizar o tempo de resposta."
+    },
+    {
+        "id": 12,
+        "enunciado": "O papel de um servidor de aplicação, componente responsável por processar requisições HTTP e HTTPS e que conecta as camadas na arquitetura em três camadas, é",
+        "alternativas": [
+            "hospedar a lógica de negócios e intermediar a comunicação com o banco de dados.",
+            "armazenar e distribuir arquivos estáticos como HTML e imagens.",
+            "controlar dispositivos de rede e rotear pacotes entre sub-redes.",
+            "oferecer serviços de autenticação via LDAP.",
+            "gerenciar o acesso aos discos físicos do sistema operacional."
+        ],
+        "gabarito": "hospedar a lógica de negócios e intermediar a comunicação com o banco de dados."
+    },
+    {
+        "id": 13,
+        "enunciado": "Uma prática comum de alta disponibilidade em servidores de aplicação consiste em",
+        "alternativas": [
+            "utilizar múltiplas instâncias de servidores de aplicação atrás de um balanceador de carga.",
+            "utilizar um servidor com alta capacidade de processamento para evitar redundância.",
+            "executar a aplicação em modo standalone, sem dependências externas.",
+            "adotar logs síncronos no banco de dados para rastreabilidade total.",
+            "implementar sessões de usuários em arquivos locais temporários."
+        ],
+        "gabarito": "utilizar múltiplas instâncias de servidores de aplicação atrás de um balanceador de carga."
+    },
+    {
+        "id": 14,
+        "enunciado": "Assinale a opção em que é apresentada uma técnica de balanceamento de carga em servidores de aplicação.",
+        "alternativas": [
+            "compactação de pacotes de rede para a redução do tempo de resposta.",
+            "uso exclusivo de round-robin no DNS, sem avaliação do estado de disponibilidade de instâncias.",
+            "aplicação do algoritmo LRU (least recentrly used) ao gerenciamento de memória do sistema.",
+            "balanceamento na camada de aplicação com a utilização de algoritmos como round-robin ou least connections.",
+            "análise de logs do sistema operacional para a redistribuição de conexões."
+        ],
+        "gabarito": "balanceamento na camada de aplicação com a utilização de algoritmos como round-robin ou least connections."
+    },
+    {
+        "id": 15,
+        "enunciado": "Assinale a opção em que é citado o procedimento que, em ambientes distribuídos, permite a replicação de sessão entre múltiplos servidores de aplicação.",
+        "alternativas": [
+            "registro da sessão em arquivos de log.",
+            "inclusão de todas as informações de sessão em cookies do cliente.",
+            "armazenamento de sessões na RAM local de cada instância.",
+            "clusterização com replicação de sessão via middleware ou engine do servidor.",
+            "encaminhamento de todas as requisições do usuário ao mesmo servidor."
+        ],
+        "gabarito": "clusterização com replicação de sessão via middleware ou engine do servidor."
+    },
+    {
+        "id": 16,
+        "enunciado": "No Linux Red Hat, aberto e funcionando em condições ideais, um analista precisa definir os caminhos para os logs de erro (ErrorLog) e acesso (CustomLog) do virtual Host do Apache HTTP Server. Para isso, ele precisa editar o arquivo padrão disponível em",
+        "alternativas": [
+            "/var/httpd/conf/httpd.conf.",
+            "/etc/httpd/conf/httpd.conf.",
+            "/etc/apache2/config/httpd.conf.",
+            "/var/http/config.conf.",
+            "/etc/http/conf/apache2.conf."
+        ],
+        "gabarito": "/etc/httpd/conf/httpd.conf."
+    },
+    {
+        "id": 17,
+        "enunciado": "As decisões relacionadas a infraestrutura e serviços de software envolvem a escolha adequada de servidores, tecnologias e plataformas, considerando aspectos como desempenho, escalabilidade, interoperabilidade e facilidade de manutenção.\nNo que se refere a infraestrutura, serviços e plataformas de software, julgue (C ou E) o item a seguir.\nO MinIO é um servidor de armazenamento de objetos compatível com o protocolo S3 da Amazon, o que o torna uma opção viável para ambientes on-premises que buscam interoperabilidade com soluções com base em S3.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 18,
+        "enunciado": "Julgue o item a seguir, a respeito de servidores de aplicação e ferramentas de versionamento.\nO comando git-cherry-pick aplica as alterações introduzidas por alguns commits existentes, sendo necessário, nesse caso, que a árvore de trabalho esteja limpa.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 19,
+        "enunciado": "Em servidores web, diversas técnicas são empregadas, com intuito de melhorar a disponibilidade do serviço, otimizar acessos entre outras propostas, uma destas técnicas é o Load Balance, desta forma, o que representa o termo Load Balance é:",
+        "alternativas": [
+            "a implementação de firewalls para proteger servidores contra ataques.",
+            "a configuração de proxies reversos para acelerar o carregamento de páginas.",
+            "a distribuição equitativa do tráfego entre vários servidores para evitar sobrecarga.",
+            "a prática de otimizar o código fonte de uma aplicação web."
+        ],
+        "gabarito": "a distribuição equitativa do tráfego entre vários servidores para evitar sobrecarga."
+    },
+    {
+        "id": 20,
+        "enunciado": "Acerca de servidores de aplicação, julgue o próximo item.\nOs servidores de aplicações web são considerados stateless, pois não armazenam os dados de sua execução, ainda que na mesma sessão.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 21,
+        "enunciado": "Acerca de servidores de aplicação, julgue o próximo item.\nOs servidores de aplicação podem ser executados nos lados do cliente ou do servidor de uma aplicação do tipo cliente/servidor.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 22,
+        "enunciado": "A utilização de sistemas é uma ação fundamental para a operação das organizações, colaborando ativamente com toda a cadeia produtiva, nos níveis operacional, tático e estratégico. Durante muitos anos, a maioria das organizações utilizavam seus sistemas internos em um formato conhecido como desktop, onde os aplicativos são instalados de forma local em cada computador. Com o avanço tecnológico e a necessidade frequente de mobilidade, as organizações foram migrando para aplicações web que podem ser acessadas, por meio de autenticação, de qualquer navegador de internet e, principalmente, de qualquer local onde exista internet disponível para carregar a aplicação. Sobre aplicações web, analise as afirmativas a seguir.\nI. Em uma arquitetura web geralmente o lado do cliente é responsável pelas funcionalidades de interface do usuário e também do processamento de dados.\nII. A principal tarefa de um servidor de aplicações web é processar as solicitações do cliente para devolver uma resposta.\nIII. Em uma aplicação web, a acessibilidade busca garantir que a aplicação permaneça estável à medida que novos usuários são adicionados, aumentando o fluxo de processamento.\nEstá correto o que se afirma apenas em",
+        "alternativas": [
+            "I.",
+            "II.",
+            "III.",
+            "II e III."
+        ],
+        "gabarito": "II."
+    },
+    {
+        "id": 23,
+        "enunciado": "Acerca de servidores de aplicação, julgue o próximo item.\nServidores de aplicação têm acesso limitado a sistemas de bancos de dados e, por isso, não são indicados para serviços corporativos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 24,
+        "enunciado": "Acerca de servidores de aplicação, julgue o próximo item.\nOs servidores de aplicação são também conhecidos como softwares de backend, pois abstraem algumas complexidades do sistema operacional para o desenvolvedor.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 25,
+        "enunciado": "Acerca de servidores de aplicação, julgue o próximo item.\nDiferentemente dos servidores web, os servidores de aplicação fornecem conteúdo estático para atender ao usuário.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 26,
+        "enunciado": "Acerca de servidores de aplicação, julgue o próximo item.\nA utilização de servidores de aplicação é incompatível com os servidores web, pois se trata de tecnologias distintas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 27,
+        "enunciado": "Acerca de servidores de aplicação, julgue o próximo item.\nOs servidores de aplicação utilizam multithreading de forma nativa, para garantir alta escalabilidade e eficiência para seus processos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 28,
+        "enunciado": "O Protocolo de Transferência de Arquivos (FTP) usado para executar a transferência de arquivos usa duas portas padrões, uma para transferência de dados e outra para controle.\nSendo assim, assinale a alternativa que contém essas duas portas usadas pelo protocolo FTP:",
+        "alternativas": [
+            "80 e 8080.",
+            "50 e 53.",
+            "25 e 587.",
+            "20 e 21.",
+            "2525 e 8080."
+        ],
+        "gabarito": "20 e 21."
+    },
+    {
+        "id": 29,
+        "enunciado": "No que se refere a servidores web e de aplicações, julgue os itens subsecutivos.\nO console de administração do Wildfly é uma interface baseada na web que permite gerenciar o servidor Wildfly e os aplicativos implantados; para que o usuário acesse o console de administração ao digitar a respectiva URL, é necessário configurar o arquivo standalone.xml com as credenciais de administração.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 30,
+        "enunciado": "Acerca da linguagem XML, da linguagem HTML e dos conceitos de DMZ e IDS, julgue o item.\nUma DMZ representa, em termos de segurança de rede, uma zona intermediária entre a rede interna e a externa, em que servidores web são colocados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 31,
+        "enunciado": "Em relação aos servidores web e de aplicação, analise as afirmativas abaixo e dê valores Verdadeiro (V) ou Falso (F).\nI. httpd.conf é o arquivo principal de configuração do Apache.\nII. A partir da versão 8 o JBoss passou a se chamar WildFly.\nIII. O servidor IIS da Oracle é o mais adotado em todos os domínios da Internet.\nAssinale a alternativa que apresenta a sequência correta de cima para baixo.",
+        "alternativas": [
+            "V - F - F.",
+            "V - F - V.",
+            "F - V - V.",
+            "V - V - F.",
+            "F - F - V."
+        ],
+        "gabarito": "V - V - F."
+    },
+    {
+        "id": 32,
+        "enunciado": "O analista em TI Tomé implantou a aplicação MPWebApp no servidor web HServer. Para controlar o acesso à MPWebApp, Tomé habilitou em HServer um esquema de autenticação do HTTP (Hypertext Transfer Protocol). O esquema habilitado por Tomé exige que o cliente envie o usuário e a senha de acesso codificados em Base64 diretamente no cabeçalho Authorization da mensagem de requisição.\nLogo, Tomé habilitou em HServer o esquema de autenticação HTTP:",
+        "alternativas": [
+            "Digest;",
+            "Bearer Token;",
+            "Hawk;",
+            "OAuth 1.0;",
+            "Basic."
+        ],
+        "gabarito": "Basic."
+    },
+    {
+        "id": 33,
+        "enunciado": "Com relação a servidores de aplicação e seus serviços e a teoria de becapes, julgue o item a seguir.\nO Apache HTTP Server é configurado por meio da adição de diretivas no arquivo http.conf, não sendo possível a adição de outros arquivos de configuração.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 34,
+        "enunciado": "Com relação a servidores de aplicação e seus serviços e a teoria de becapes, julgue o item a seguir.\nApenas uma única instância do Tomcat pode existir em uma única JVM (Java virtual machine); no entanto, é possível ter múltiplas instâncias em uma mesma máquina virtual, desde que em processos Java separados, em execução em portas separadas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 35,
+        "enunciado": "Assinale a alternativa que NÃO apresenta uma atribuição de um Servidor de Aplicação.",
+        "alternativas": [
+            "Gerenciamento de transações.",
+            "Balanceamento de carga.",
+            "Execução de aplicações.",
+            "Segurança de aplicações.",
+            "Integração contínua."
+        ],
+        "gabarito": "Integração contínua."
+    },
+    {
+        "id": 36,
+        "enunciado": "Uma arquitetura para expor uma aplicação conteinerizada acessível pela Internet deverá dispor, inicialmente, de seis contêineres simultaneamente e ser escalável para até cinquenta contêineres simultâneos, para o caso de ocorrer aumento de carga do uso da aplicação. Nessa arquitetura, a fim de que a aplicação seja acessível por todos os contêineres pelo usuário final, é correto acrescentar",
+        "alternativas": [
+            "um serviço de balanceador de carga.",
+            "um serviço de firewall capaz de suportar o aumento de carga.",
+            "uma rede dedicada para os contêineres.",
+            "novos servidores virtuais ou físicos.",
+            "uma unidade de armazenamento dedicada (storage)."
+        ],
+        "gabarito": "um serviço de balanceador de carga."
+    },
+    {
+        "id": 37,
+        "enunciado": "Qual alternativa abaixo define o que é contido em uma distribuição XAMPP?",
+        "alternativas": [
+            "É uma distribuição de servidor Linux, que traz um servidor web Apache, uma base de dados MongoDB e os interpretadores para linguagens PHP e Perl.",
+            "É uma distribuição de servidor Linux, que traz um servidor web Apache, uma base de dados MySQL e os interpretadores para linguagens Python e Perl.",
+            "É uma distribuição de servidor disponível para várias plataformas que traz um servidor web Apache, uma base de dados MariaDB e os interpretadores para linguagens PHP e Perl.",
+            "É uma distribuição de servidor disponível para várias plataformas que traz um servidor web Apache, uma base de dados MongoDB e os interpretadores para linguagens Python e PHP.",
+            "É uma distribuição de servidor Unix, que traz um servidor web Apache, uma base de dados MariaDB e os interpretadores para linguagens Python e Perl."
+        ],
+        "gabarito": "É uma distribuição de servidor disponível para várias plataformas que traz um servidor web Apache, uma base de dados MariaDB e os interpretadores para linguagens PHP e Perl."
+    },
+    {
+        "id": 38,
+        "enunciado": "Uma equipe de desenvolvimento está criando uma aplicação de gerenciamento processual baseada na web, usando a linguagem Java. A aplicação precisa ser implantada em ambiente corporativo, com controle de sessões, segurança, integração com banco de dados e suporte a múltiplos usuários simultâneos. Para isso, a equipe discute as diferenças e complementaridades entre servidores de aplicação e servidores web. Nesse contexto, assinale a alternativa que apresenta uma afirmação correta feita por um dos integrantes da equipe acerca desses servidores.",
+        "alternativas": [
+            "Servidores web Java, como Apache Tomcat, são responsáveis por executar arquivos.jar e serviços RESTful, mas não suportam aplicações web baseadas em servlet ou JSF.",
+            "Servidores de aplicação Java, como GlassFish ou WildFly, estendem os servidores web ao incluir suporte a tecnologias corporativas como Enterprise Java Beans (EJB), Java Message Service (JMS) e Java Persistence API (JPA).",
+            "Servidores web e servidores de aplicação são equivalentes e intercambiáveis, já que ambos executam código Java da mesma forma e não há distinção entre suas responsabilidades.",
+            "O uso de um servidor de aplicação elimina a necessidade de containers de servlet, pois esse tipo de aplicação é limitado ao terminal de linha de comando.",
+            "Aplicações Java web não conseguem ser hospedadas em servidores de aplicação, sendo restritas ao uso em navegadores locais com Java Applets."
+        ],
+        "gabarito": "Servidores de aplicação Java, como GlassFish ou WildFly, estendem os servidores web ao incluir suporte a tecnologias corporativas como Enterprise Java Beans (EJB), Java Message Service (JMS) e Java Persistence API (JPA)."
+    },
+    {
+        "id": 39,
+        "enunciado": "Associe as características aos seguintes servidores de aplicação:\n1. Apache Tomcat\n2. WildFly (antigo JBoss AS)\n3. GlassFish\n4. IBM WebSphere Application Server\n( ) É um servidor open-source com suporte completo ao Jakarta EE e arquitetura modular.\n( ) Implementa as especificações Jakarta Servlet, Jakarta Expression Language e Jakarta WebSocket oficialmente.\n( ) Oferece recursos corporativos robustos como alta disponibilidade, gestão em clusters e suporte a células (cells) para administração centralizada.\n( ) É a implementação de referência oficial do Jakarta EE usado na plataforma Eclipse.\nA sequência correta, na ordem apresentada é",
+        "alternativas": [
+            "2 – 1 – 4 – 3.",
+            "3 – 4 – 1 – 2.",
+            "4 – 3 – 1 – 2.",
+            "2 – 4 – 1 – 3.",
+            "3 – 1 – 4 – 2."
+        ],
+        "gabarito": "2 – 1 – 4 – 3."
+    },
+    {
+        "id": 40,
+        "enunciado": "Quando utilizamos o framework JEE no desenvolvimento de aplicações Web, Servlets, páginas JSP e o Padrão MVC são conhecimentos imprescindíveis.\nEm relação a esse framework, é incorreto afirmar que",
+        "alternativas": [
+            "no framework JEE usando o padrão MVC em 3 camadas as Servlets desempenham o papel de controle para receber requisição de clientes.",
+            "no framework JEE usando o padrão MVC em 3 camadas a tecnologia de páginas JSP sempre desempenham o papel de acesso ao banco de dados.",
+            "o Ciclo de Vida de uma página JSP, no framework JEE, no servidor de aplicação, começa traduzindo a página JSP para uma Servlet e posteriormente compila e executa a Servlet.",
+            "a inicialização da JSP é feita após a execução da Servlet traduzida.",
+            "o método \"service\" da JSP nunca precisa ser implementado ou personalizado."
+        ],
+        "gabarito": "no framework JEE usando o padrão MVC em 3 camadas a tecnologia de páginas JSP sempre desempenham o papel de acesso ao banco de dados."
+    },
+    {
+        "id": 41,
+        "enunciado": "Sobre o modelo de execução de servlets em um servidor de aplicação Java EE, considere as afirmativas:\nI. Cada requisição HTTP pode ser atendida por uma nova thread gerenciada pelo container, enquanto a instância do servlet é única por padrão.\nII. Os servlets são thread-safe por padrão, não sendo necessário gerenciar concorrência manualmente.\nIII. Recursos compartilhados entre requisições, como variáveis de instância, podem gerar condições de corrida se não forem tratados corretamente.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I e III, apenas.",
+            "II, apenas.",
+            "I, apenas.",
+            "II e III, apenas.",
+            "I, II e III."
+        ],
+        "gabarito": "I e III, apenas."
+    },
+    {
+        "id": 42,
+        "enunciado": "Sobre o uso de frameworks Java em aplicações web modernas, julgue os itens abaixo:\n( ) Spring Boot facilita a configuração de aplicações por meio de convention over configuration e arquivos application.properties ou application.yml.\n( ) JSF (JavaServer Faces) é mais adequado que React para aplicações altamente dinâmicas e com manipulação de DOM complexa no lado cliente.\n( ) Hibernate fornece um mapeamento objeto-relacional (ORM) que permite executar operações em banco de dados utilizando a linguagem HQL (Hibernate Query Language).\nA sequência correta de preenchimento dos parênteses, de cima para baixo, é",
+        "alternativas": [
+            "V – V – V.",
+            "V – F – V.",
+            "F – V – V.",
+            "V – F – F.",
+            "F – F – V."
+        ],
+        "gabarito": "V – F – V."
+    },
+    {
+        "id": 43,
+        "enunciado": "“Esta arquitetura é um conjunto de especificações, padrões e tecnologias da linguagem de programação Java voltado para o desenvolvimento de aplicativos empresariais distribuídos e escaláveis. Ela fornece uma infraestrutura robusta e modular para o design, implementação e gerenciamento de sistemas corporativos complexos. Oferece uma abordagem baseada em componentes, onde os aplicativos são construídos usando módulos independentes, como Enterprise JavaBeans\n(EJB), Servlets, JSP (JavaServer Pages) e outros componentes que colaboram para criar soluções empresariais.” Assinale a alternativa correta para qual arquitetura Java a definição acima está se referindo.",
+        "alternativas": [
+            "JVM.",
+            "J2EE.",
+            "JRE.",
+            "JISO."
+        ],
+        "gabarito": "J2EE."
+    },
+    {
+        "id": 44,
+        "enunciado": "Assinale a alternativa que apresenta os servidores de aplicação utilizados para hospedar e executar aplicações baseadas no Java Enterprise Edition (JEE).",
+        "alternativas": [
+            "Nginx, Node.Js, Apache Tomcat.",
+            "JBoss EAP, Oracle WebLogic e Node.js.",
+            "IBM WebSphere, Flask e Django.",
+            "Apache Tomcat, GlassFish, IBM WebSphere."
+        ],
+        "gabarito": "Apache Tomcat, GlassFish, IBM WebSphere."
+    },
+    {
+        "id": 45,
+        "enunciado": "A plataforma Java Enterprise Edition (JEE) é uma plataforma de programação para servidores, consistindo de uma série de especificações detalhadas. Trata-se de característica da plataforma JEE:",
+        "alternativas": [
+            "Não permite a utilização de serviços de nuvem.",
+            "Não permite a utilização de bancos de dados relacionais.",
+            "É voltada apenas para o desenvolvimento de aplicações desktop.",
+            "Inclui um conjunto de APIs para o desenvolvimento de aplicações web e corporativas."
+        ],
+        "gabarito": "Inclui um conjunto de APIs para o desenvolvimento de aplicações web e corporativas."
+    },
+    {
+        "id": 46,
+        "enunciado": "Os aplicativos Java EE v8 são constituídos de diversos componentes. Um componente é uma unidade de software funcional independente que é montada em um aplicativo com suas classes e arquivos relacionados e que se comunica com outros componentes.\nEm relação ao temas, analise as afirmativas a seguir:\nI. Um aplicativo cliente fornece uma maneira para os usuários lidarem com tarefas que requerem interface mais rica do que aquela que pode ser fornecida por uma linguagem de marcação. Um aplicativo cliente geralmente tem uma interface gráfica do usuário criada a partir da API Swing ou da API Abstract Window Toolkit.\nII. Os componentes de tecnologia Java Servlet, JavaServer Faces e JavaServer Pages são componentes executados no servidor Web, enquanto os componentes EJB são executados no servidor de regras de negócios.\nIII. Os componentes Java EE são interpretados da mesma forma que qualquer programa na linguagem Java. As semelhanças entre os componentes Java EE e as classes Java \"padrão\" são que eles são montados e são verificados como bem formados e se estão em conformidade com a especificação Java EE, são executados e gerenciados pelo aplicativo cliente.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, apenas.",
+            "II, apenas.",
+            "III, apenas.",
+            "I e II, apenas.",
+            "II e III, apenas."
+        ],
+        "gabarito": "I e II, apenas."
+    },
+    {
+        "id": 47,
+        "enunciado": "Os servidores de aplicação estenderam o raio de abrangência dos servidores Web para permitir o desenvolvimento de aplicações do lado do servidor (back-end scripting).\nSobre servidores Web e de aplicação, e sobre as linguagens de programação e plataformas comumente usadas para back-end e para front-end, é correto afirmar que:",
+        "alternativas": [
+            "o servidor Web Apache oferece suporte nativo a aplicações J2EE.",
+            "o Python3 não oferece suporte à persistência de dados, sem que seja utilizado um conector.",
+            "a linguagem Javascript pode ser utilizada também para o desenvolvimento de front-end, além de back-end.",
+            "o JQuery é uma biblioteca para front-end que permite que o browser tenha acesso direto a consultas no banco de dados do back-end."
+        ],
+        "gabarito": "a linguagem Javascript pode ser utilizada também para o desenvolvimento de front-end, além de back-end."
+    },
+    {
+        "id": 48,
+        "enunciado": "A arquitetura Java EE é uma plataforma de programação para servidores. Suas funcionalidades contam com uma série de especificações que fazem da Java EE uma plataforma completa para o desenvolvimento web. Algumas delas são:",
+        "alternativas": [
+            "ODBC, EJB e Servlet.",
+            "JDBC, EJB e Servlet.",
+            "JDBC, Entidade e Trait.",
+            "ODBC, Entidade e Trait."
+        ],
+        "gabarito": "JDBC, EJB e Servlet."
+    },
+    {
+        "id": 49,
+        "enunciado": "A linguagem de programação Java é amplamente usada para o desenvolvimento de software, por ser uma linguagem robusta, de fácil adaptação em qualquer plataforma e orientada a objeto. Assinale qual alternativa registra corretamente uma das plataformas que usa a linguagem Java.",
+        "alternativas": [
+            "Java BE.",
+            "Java GE.",
+            "Java ME.",
+            "JavaJB.",
+            "Java CO."
+        ],
+        "gabarito": "Java ME."
+    },
+    {
+        "id": 50,
+        "enunciado": "Com relação à programação Java (arquitetura J2EE) e ao RSS (Really Simple Syndication), julgue o item a seguir.\nOs componentes embasados em JavaServlets, JavaServer Pages e JavaBeans, no web container J2EE, possuem, cada um, uma forma de construção, publicação e execução distintas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 51,
+        "enunciado": "Quanto às tecnologias: ASP, JSP e JSF, analise as afirmativas abaixo e assinale a alternativa correta.\nI. ASP é uma estrutura de bibliotecas básicas para o processamento de linguagens de script.\nII. Como o JSF foi desenvolvido em PHP, ele não faz parte dos componentes existentes no Java EE.\nIII. JSP é uma tecnologia JAVA que é utilizada para desenvolvimento de aplicações voltadas a WEB.\nSobre as afirmativas:",
+        "alternativas": [
+            "I e II são tecnicamente verdadeiras.",
+            "II e III são tecnicamente verdadeiras.",
+            "I e III são tecnicamente verdadeiras.",
+            "I, II e III são tecnicamente verdadeiras."
+        ],
+        "gabarito": "I e III são tecnicamente verdadeiras."
+    },
+    {
+        "id": 52,
+        "enunciado": "Assinale a alternativa que NÃO apresenta um exemplo de servidor de aplicação Java:",
+        "alternativas": [
+            "Apache Tomcat.",
+            "JBoss.",
+            "GlassFish.",
+            "Websphere.",
+            "Wildfl y."
+        ],
+        "gabarito": "Apache Tomcat."
+    },
+    {
+        "id": 53,
+        "enunciado": "No que diz respeito aos frameworks, plataformas e tecnologias Java, assinale V para a afirmativa verdadeira e F para a falsa.\n( ) O Java EE é uma plataforma que contém um conjunto de tecnologias coordenadas que reduz significativamente o custo e a complexidade do desenvolvimento, implantação e gerenciamento de aplicações de várias camadas centradas no servidor, que oferece um conjunto de interfaces de programação de aplicações – APIs para desenvolvimento e execução de aplicações portáteis, robustas, escaláveis, confiáveis e seguras no lado do servidor.\n( ) EJB (Enterprise JavaBeans) é uma tecnologia que ajuda os desenvolvedores de software a criarem páginas web geradas dinamicamente baseadas em HTML, XML ou outros tipos de documentos. Lançada em 1999 pela Sun Microsystems, JSP é similar ao PHP, mas usa a linguagem de programação Java.\n( ) JPA (Java Persistence API) é um framework que permite aos desenvolvedores gerenciar os dados utilizando o mapeamento relacional de objetos em aplicações construídas na plataforma Java.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "F – V – F.",
+            "V – F – V.",
+            "F – F – V.",
+            "V – V – F."
+        ],
+        "gabarito": "V – F – V."
+    },
+    {
+        "id": 54,
+        "enunciado": "Para compartilhar dados com outras aplicações e melhorar a experiência do usuário, os desenvolvedores de uma aplicação Java EE optaram por persistir o estado da sessão de seus usuários em banco de dados. Apesar dos resultados positivos, esse procedimento afetou negativamente o desempenho da aplicação. Com o intuito de contornar tal efeito negativo, pode-se",
+        "alternativas": [
+            "utilizar a sessão também para o compartilhamento de recursos, como conexões JDBC, incentivando seu reuso.",
+            "adotar técnicas de replicação do estado da sessão em memória, alternativamente à persistência em banco de dados.",
+            "aumentar o volume de informações compartilhadas entre as aplicações.",
+            "evitar a utilização de cookies para armazenar informações que devem ser válidas a longo prazo.",
+            "restringir que as aplicações possam trocar informações entre si, fomentando a independência entre elas."
+        ],
+        "gabarito": "adotar técnicas de replicação do estado da sessão em memória, alternativamente à persistência em banco de dados."
+    },
+    {
+        "id": 55,
+        "enunciado": "Analise as afirmativas abaixo sobre servidores de aplicação Java EE.\n1. A plataforma JBOSS de aplicações Enterprise (JBOSS EAP) pode trabalhar com Java EE 8.\n2. O Microsoft IIS versão 7 e posterior é também um servidor de aplicações Java EE nativo.\n3. Apache Tomcat é um servidor de aplicações Java EE completo.\nAssinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "É correta apenas a afirmativa 1.",
+            "É correta apenas a afirmativa 3.",
+            "São corretas apenas as afirmativas 1 e 2.",
+            "São corretas apenas as afirmativas 1 e 3.",
+            "São corretas as afirmativas 1, 2 e 3."
+        ],
+        "gabarito": "É correta apenas a afirmativa 1."
+    },
+    {
+        "id": 56,
+        "enunciado": "Com quais servidores de aplicações Java EE Weld, que implementa CDI (Context and Dependency Injection) para a plataforma Java EE, pode ser integrado?\n1.WildFly\n2.Oracle Weblogic Server\n3.Websphere Application Server Assinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "É correta apenas a afirmativa 3.",
+            "São corretas apenas as afirmativas 1 e 2.",
+            "São corretas apenas as afirmativas 1 e 3.",
+            "São corretas apenas as afirmativas 2 e 3.",
+            "São corretas as afirmativas 1, 2 e 3."
+        ],
+        "gabarito": "São corretas as afirmativas 1, 2 e 3."
+    },
+    {
+        "id": 57,
+        "enunciado": "Os servidores de aplicação Java EE completos geralmente possuem contêiner web e contêiner EJB. Porém, alguns servidores, em relação a estes dois, possuem apenas contêiner web, como é o caso do",
+        "alternativas": [
+            "WebLogic.",
+            "GlassFish.",
+            "WebSphere.",
+            "Jetty.",
+            "JBoss."
+        ],
+        "gabarito": "Jetty."
+    },
+    {
+        "id": 58,
+        "enunciado": "O GlassFish Server, release 4.0, fornece alta disponibilidade de solicitações HTTP e dados de sessão. A respeito desse assunto, julgue o item que se segue.\nSe a instância do GlassFish Server que hospeda uma sessão falhar, essa sessão poderá ser recuperada e continuar em outro servidor, sem perda de informação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 59,
+        "enunciado": "O GlassFish Server, release 4.0, fornece alta disponibilidade de solicitações HTTP e dados de sessão. A respeito desse assunto, julgue o item que se segue.\nSe uma sessão falhar, quaisquer referências a conexões de rede serão mantidas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 60,
+        "enunciado": "O GlassFish Server, release 4.0, fornece alta disponibilidade de solicitações HTTP e dados de sessão. A respeito desse assunto, julgue o item que se segue.\nGlassFish Server 4.0 não suporta configurações high availability database (HADB).",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 61,
+        "enunciado": "No GlassFish release 4.0, quando um broker do Message Queue fica indisponível, o método de restauração depende da natureza da falha. A esse respeito, julgue o item a seguir.\nO GlassFish 4.0 suporta o tipo de broker definido como Enhanced Cluster.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 62,
+        "enunciado": "No GlassFish release 4.0, quando um broker do Message Queue fica indisponível, o método de restauração depende da natureza da falha. A esse respeito, julgue o item a seguir.\nNo caso de servidor com standalone broker, se este ficar indisponível, o serviço de disponibilidade é interrompido enquanto o serviço de dados continua ativo.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 63,
+        "enunciado": "Analise as funcionalidades abaixo e assinale a alternativa correta.\nI. JBoss é um servidor de aplicações baseado em Java, que pode ser utilizado em Windows, Linux e outros sistemas operacionais, como Unix e Mac.\nII. Uma das formas de se iniciar o servidor Apache é por meio do comando apache inic.\nIII. A manutenção dos módulos do servidor Apache pode ser feita, na maioria das vezes, pelos próprios usuários, de acordo com suas necessidades. Sendo possível adicionar novas funções ou efetuar adaptações.\nIV. Tomcat é container Web de código fonte aberto, baseado em Java, criado para executar aplicações Web que utilizam tecnologias Servlets e JSPs (Java Server Pages), que é uma linguagem de script com especificação aberta com o objetivo de gerar conteúdo dinâmico para páginas da Internet.",
+        "alternativas": [
+            "Apenas I, III e IV estão corretas.",
+            "Apenas II, III e IV estão corretas.",
+            "Apenas I, II e III estão corretas.",
+            "Todas estão corretas."
+        ],
+        "gabarito": "Apenas I, III e IV estão corretas."
+    },
+    {
+        "id": 64,
+        "enunciado": "Servidores de aplicação são utilizados para desenvolvimento de soluções web, que nada mais é que a conversão de modelos específicos para padrões dos navegadores mais comuns. Sobre servidores de aplicação, assinale a alternativa correta.",
+        "alternativas": [
+            "Apache é um servidor JSP gratuito.",
+            "Jboss é container, assim como o TomCat; porém, pago.",
+            "O endereço inicial do TomCat é: http://localhost:1010.",
+            "TomCat é um software livre, cuja aplicação é um container para servlets."
+        ],
+        "gabarito": "TomCat é um software livre, cuja aplicação é um container para servlets."
+    }
+]

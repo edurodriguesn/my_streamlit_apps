@@ -1,0 +1,612 @@
+[
+    {
+        "id": 1,
+        "enunciado": "Ordenação: Por Matéria e Assunto A analista Maria está avaliando a compra do computador VN para o MPU. O hardware do VN implementa a arquitetura de Von Neumann, trazendo preocupação quanto ao impacto do gargalo de Von Neumann no desempenho do computador.\nPorém, Maria se tranquilizou após lembrar que esse gargalo tem sido mitigado pela indústria, de forma direta, por meio do(a):",
+        "alternativas": [
+            "implementação de memória cache;",
+            "implementação de coprocessadores;",
+            "aumento da velocidade do processador;",
+            "redução do barramento entre o processador e a memória principal;",
+            "aumento da capacidade de armazenamento da memória principal."
+        ],
+        "gabarito": "implementação de memória cache;"
+    },
+    {
+        "id": 2,
+        "enunciado": "Acerca das memórias de computador, da arquitetura de processadores e dos barramentos de entrada e saída, julgue o item a seguir.\nA arquitetura Harvard utiliza uma única via para instruções e dados, o que permite que as operações de leitura de dados e instruções ocorram simultaneamente.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 3,
+        "enunciado": "Na busca de otimizar o desempenho dos microcontroladores, novas arquiteturas foram propostas.\nNesse contexto, é correto afirmar:",
+        "alternativas": [
+            "a arquitetura de Von Neumann é a preferida atualmente para microcontroladores, pois todas as instruções executam em apenas um ciclo de relógio.",
+            "a arquitetura de Von Neumann foi idealizada para permitir a leitura de instruções e execução simultaneamente, aumentando a eficiência se comparada a arquitetura Harvard.",
+            "a arquitetura Harvard utiliza instruções mais complexas (CISC) em relação à Von Neumann, reduzindo a quantidade de instruções necessárias para executar a mesma tarefa mesmo utilizando apenas um barramento.",
+            "a arquitetura Harvard possui barramentos distintos para dados e instruções, permitindo que o processador acesse as duas simultaneamente e evite gargalos no barramento.",
+            "a arquitetura Harvard foi superada pela arquitetura de Von Neumann, sendo esta última a única utilizada em microcontroladores modernos."
+        ],
+        "gabarito": "a arquitetura Harvard possui barramentos distintos para dados e instruções, permitindo que o processador acesse as duas simultaneamente e evite gargalos no barramento."
+    },
+    {
+        "id": 4,
+        "enunciado": "Modernamente, grande proporção de projetos de computadores tem se baseado em conceitos desenvolvidos por John von Neumann no Institute for Advanced Studies, em Princeton.\nConsiderando os conceitos principais da arquitetura de von Neumann, avalie os itens a seguir e assinale (V) para a afirmativa verdadeira e (F) para a falsa.\n( ) Uma única memória de leitura e escrita é empregada para armazenar informação de dados e instruções.\n( ) Conforme o tipo de dado armazenado na memória se processa o endereçamento para localização do conteúdo dessa memória.\n( ) De forma única e uniforme, sempre é realizada a execução em um padrão sequencial, de uma instrução para a seguinte.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "V – V – V.",
+            "V – V – F.",
+            "V – F – V.",
+            "V – F – F.",
+            "F – F – F."
+        ],
+        "gabarito": "V – F – F."
+    },
+    {
+        "id": 5,
+        "enunciado": "A influência da arquitetura de von Neumann é vasta, afetando não apenas o design e a construção de computadores, mas também a forma como pensamos sobre programação e processamento de dados. Embora alternativas como a arquitetura de Harvard tenham sido exploradas, especialmente em aplicações que exigem processamento de alta velocidade e de eficiência energética, o modelo de von Neumann continua a ser um pilar fundamental da ciência da computação. Uma característica da arquitetura von Neumann é:",
+        "alternativas": [
+            "execução paralela de instruções.",
+            "separação entre memória de programa e dados.",
+            "uso de pipeline no processador para aumentar a execução de instruções.",
+            "unidade de armazenamento e processamento combinadas. https://www.tecconcursos.com.br/questoes/cadernos/83046771/imprimir 1/9 01/08/2026, 19:43 Caderno Caderno de Questões"
+        ],
+        "gabarito": "unidade de armazenamento e processamento combinadas. https://www.tecconcursos.com.br/questoes/cadernos/83046771/imprimir 1/9 01/08/2026, 19:43 Caderno Caderno de Questões"
+    },
+    {
+        "id": 6,
+        "enunciado": "A maioria dos projetos de computadores modernos baseia-se em conceitos desenvolvidos por John Von Neumann. Para a execução de uma instrução, diversos componentes do sistema computacional são envolvidos, tais como processadores, barramentos, operadores lógicos e memórias. O ciclo de execução de uma instrução pode abranger várias operações, dependendo da natureza da instrução. A seguir, são apresentadas quatro etapas do ciclo de execução de uma instrução.\nI. A busca do código de operação na memória principal, localizado no endereço indicado pelo Ciclo de Instrução, e seu armazenamento no Registrador de Instrução.\nII. A Unidade de Controle comanda a execução da instrução e, se necessário, processa os dados disponíveis nos registradores.\nIII. Caso a instrução exija, a Unidade de Controle busca o(s) dado(s) na memória e os armazena nos registradores. Esta fase se repete até que todos os dados necessários à execução sejam transferidos.\nIV. O Decodificador de Instrução decodifica o código de operação contido no Registrador de Instrução.\nA sequência correta dessas etapas, desde o início até a execução da instrução, é dada por",
+        "alternativas": [
+            "III, I, IV e II.",
+            "I, III, IV e II.",
+            "I, IV, III e II.",
+            "III, I, II e IV.",
+            "III, IV, I e II."
+        ],
+        "gabarito": "I, IV, III e II."
+    },
+    {
+        "id": 7,
+        "enunciado": "O microprocessador é a própria razão de ser do microcomputador. A miniaturização da CPU fez surgir aquele tipo de equipamento que revolucionou toda a filosofia dos computadores tanto em nível pessoal como empresarial. Neste sentido, uma das principais arquiteturas de microprocessadores é a arquitetura de Von Neumann, que se caracteriza por:\nI) integrar-se à respectiva BIOS através do sistema embarcado padrão;\nII) um só barramento externo, compartilhado entre dados e endereços;\nIII) servir como operador presente em cada operação dos registradores.\nSão apresentadas características válidas da arquitetura de Von Neumann em:",
+        "alternativas": [
+            "apenas I e II.",
+            "apenas I e III.",
+            "apenas I, II e III.",
+            "apenas II.",
+            "apenas III."
+        ],
+        "gabarito": "apenas II."
+    },
+    {
+        "id": 8,
+        "enunciado": "Qual é a principal diferença entre uma microarquitetura Harvard e uma microarquitetura Von Neumann?",
+        "alternativas": [
+            "A microarquitetura Harvard tem mais memória do que a microarquitetura Von Neumann.",
+            "A microarquitetura Harvard possui mais unidades funcionais do que a microarquitetura Von Neumann.",
+            "A microarquitetura Harvard separa o processador de memória de dados e instruções, enquanto a microarquitetura Von Neumann não.",
+            "A microarquitetura Harvard possibilita o acesso simultâneo a dados e instruções, enquanto a microarquitetura Von Neumann não.",
+            "A microarquitetura Harvard é mais rápida do que a microarquitetura Von Neumann."
+        ],
+        "gabarito": "A microarquitetura Harvard separa o processador de memória de dados e instruções, enquanto a microarquitetura Von Neumann não."
+    },
+    {
+        "id": 9,
+        "enunciado": "Um tipo de arquitetura de computadores, caracterizada pelo fato de poder armazenar programas e dados em um mesmo espaço de endereçamento de memória, é conhecido como Arquitetura",
+        "alternativas": [
+            "Cache.",
+            "Harvard 2.",
+            "Pipeline.",
+            "Client-Server.",
+            "de von Neumann."
+        ],
+        "gabarito": "de von Neumann."
+    },
+    {
+        "id": 10,
+        "enunciado": "Na arquitetura de Von Neumann, quando a execução de uma instrução é terminada, o contador de instruções é atualizado para o endereço de memória:",
+        "alternativas": [
+            "Da próxima instrução.",
+            "Do próximo operando.",
+            "Seguinte ao endereço apontado pelo contador de instruções.",
+            "Disponível, ou seja, que não tenha sido alocado para nenhum operador ou operando.",
+            "Do dispositivo que atendeu à chamada de sistema."
+        ],
+        "gabarito": "Da próxima instrução."
+    },
+    {
+        "id": 11,
+        "enunciado": "Em 1946, von Neumann e seus colegas começaram o projeto de um computador de programa armazenado, conhecido como computador IAS, no Princeton Institute for Advanced Studies. O computador IAS foi concluído em 1952 e é o protótipo de todos os computadores de uso geral. A unidade de controle opera o IAS, buscando instruções da memória e executando-as. A Unidade de Controle e a Unidade Lógico-Aritmética do IAS possuem alguns locais de armazenamento denominados registradores. Relacione a Coluna 1 à Coluna 2 associando cada registrador com sua função.\nhttps://www.tecconcursos.com.br/questoes/cadernos/83046771/imprimir 2/9 01/08/2026, 19:43 Caderno Caderno de Questões Coluna 1\n1. MBR (Memory Buffer Register).\n2. MAR (Memory Address Register).\n3. IR (Instruction Register).\n4. IBR (Instruction Buffer Register).\n5. PC (Program Counter).\nColuna 2\n( ) Contém o endereço do próximo par de instruções a ser apanhado da memória.\n( ) Contém o opcode de 8 bits da instrução que está sendo executada.\n( ) Contém uma palavra a ser armazenada na memória ou enviada à unidade de e/s, ou é usada para receber uma palavra da memória ou de uma unidade de e/s.\n( ) Empregado para manter temporariamente a próxima instrução a ser executada.\n( ) Especifica o endereço na memória da palavra a ser escrita ou lida no MBR.\nA ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+        "alternativas": [
+            "5 – 1 – 3 – 2 – 4.",
+            "5 – 3 – 1 – 4 – 2.",
+            "2 – 1 – 4 – 3 – 5.",
+            "4 – 2 – 3 – 5 – 1.",
+            "4 – 3 – 2 – 1 – 5."
+        ],
+        "gabarito": "5 – 3 – 1 – 4 – 2."
+    },
+    {
+        "id": 12,
+        "enunciado": "Considere um computador implementado segundo a arquitetura de John von Neumann. No processador, um dos componentes desse tipo de arquitetura é a Unidade de Controle, que tem como sua principal função",
+        "alternativas": [
+            "armazenar a instrução que está sendo executada pelo processador no momento.",
+            "armazenar resultados temporários de operações realizadas pelo processador.",
+            "buscar instruções na memória principal do computador e determinar o tipo dessas instruções.",
+            "efetuar operações de naturezas aritméticas e lógicas.",
+            "indicar a próxima instrução a ser buscada pela Unidade Central de Processamento."
+        ],
+        "gabarito": "buscar instruções na memória principal do computador e determinar o tipo dessas instruções."
+    },
+    {
+        "id": 13,
+        "enunciado": "Por volta de 1944-1955, John von Neumann propôs que, se o programa e os dados são logicamente os mesmos, os programas também deveriam ser armazenados na memória de um computador. Qual é o principal desafio associado ao modelo de von Neumann?",
+        "alternativas": [
+            "Limitação na capacidade de armazenamento de dados.",
+            "Limitação na velocidade de processamento de dados.",
+            "Dificuldade em programar e executar tarefas complexas.",
+            "Dificuldade em lidar com múltiplas tarefas simultâneas.",
+            "Dificuldade de alocação de recursos de memória auxiliar."
+        ],
+        "gabarito": "Dificuldade em lidar com múltiplas tarefas simultâneas."
+    },
+    {
+        "id": 14,
+        "enunciado": "A maioria dos computadores atuais têm sua arquitetura como evolução do/da:",
+        "alternativas": [
+            "Modelo Harvard.",
+            "Modelo de Moore.",
+            "Modelo de Von Neumann.",
+            "Microsoft DOS.",
+            "Arquitetura Babbage."
+        ],
+        "gabarito": "Modelo de Von Neumann."
+    },
+    {
+        "id": 15,
+        "enunciado": "Grande parte dos computadores atuais adotam arquiteturas derivadas da Arquitetura de Programa Armazenado.\nAssinale o nome pelo qual essa arquitetura também é conhecida.",
+        "alternativas": [
+            "Babbage.",
+            "INTEL.",
+            "Ponto flutuante.",
+            "Turing.",
+            "von Neumann."
+        ],
+        "gabarito": "von Neumann."
+    },
+    {
+        "id": 16,
+        "enunciado": "A arquitetura básica de von Neumann consiste em CPU e memória principal, interconectadas por uma estrutura chamada",
+        "alternativas": [
+            "registrador.",
+            "unidade lógico-aritmética.",
+            "barramento.",
+            "memória cache.",
+            "placa-mãe."
+        ],
+        "gabarito": "barramento."
+    },
+    {
+        "id": 17,
+        "enunciado": "https://www.tecconcursos.com.br/questoes/cadernos/83046771/imprimir 3/9 01/08/2026, 19:43 Caderno Caderno de Questões Em relação à arquitetura de Von Neumann, informe se é verdadeiro (V) ou falso (F) o que se afirma a seguir e assinale a alternativa com a sequência correta.\n( ) O gargalo dessa arquitetura está no canal de transmissão entre a CPU e a memória.\n( ) Os registradores são memórias de baixa velocidade com grande capacidade de armazenamento.\n( ) A memória principal troca dados e instruções para serem executadas com a Unidade Central de Processamento (UCP).",
+        "alternativas": [
+            "V – F – V.",
+            "V – V – V.",
+            "V – F – F.",
+            "F – V – V.",
+            "F – F – V."
+        ],
+        "gabarito": "V – F – V."
+    },
+    {
+        "id": 18,
+        "enunciado": "Os computadores atuais utilizam a Arquitetura de von Neumann, na qual dados e instruções são alocadas na mesma memória durante a execução dos programas.\nAssinale a alternativa que não representa um dos elementos usados nesta arquitetura.",
+        "alternativas": [
+            "Central aritmética.",
+            "Central de controle.",
+            "Memória.",
+            "Dispositivo cooler."
+        ],
+        "gabarito": "Dispositivo cooler."
+    },
+    {
+        "id": 19,
+        "enunciado": "Em arquitetura e organização de computadores, a máquina de Von Neumann tinha 5 partes básicas: a memória, unidade lógica e aritmética, a unidade de controle e o equipamento de entrada e saída. Com base neste assunto, assinale a alternativa INCORRETA:",
+        "alternativas": [
+            "Por meio de barramentos, é possível interligar os dispositivos como memória, CPU (Central Processing Unit – unidade central de processamento) e outros dispositivos. O barramento não é utilizado apenas pelos controladores dos equipamentos de entrada e saída, mas também pela CPU para buscar instruções e dados.",
+            "Em computadores modernos, a unidade de controle e a unidade lógica e aritmética são combinadas em um único chip, denominado CPU (Central Processing Unit – unidade central de processamento).",
+            "Numa CPU (Central Processing Unit – unidade central de processamento), a unidade lógica e aritmética vai coordenar as ações a serem executadas pela unidade de controle. Uma vez que essas ações são executadas, a unidade de controle executa operações básicas como adição e AND (E) booleano e são enviadas de volta para a memória principal.",
+            "A memória é a parte do computador onde são armazenados programas e dados. A unidade básica de memória é o digito binário, denominado bit. Um bit, pode conter um 0 ou um 1 e é a unidade mais simples possível.",
+            "A função da CPU (Central Processing Unit – unidade central de processamento) é executar programas armazenados na memória principal buscando suas instruções, examinando-as e então executando-as uma após a outra."
+        ],
+        "gabarito": "Numa CPU (Central Processing Unit – unidade central de processamento), a unidade lógica e aritmética vai coordenar as ações a serem executadas pela unidade de controle. Uma vez que essas ações são executadas, a unidade de controle executa operações básicas como adição e AND (E) booleano e são enviadas de volta para a memória principal."
+    },
+    {
+        "id": 20,
+        "enunciado": "Dois tipos de arquitetura destacam-se no contexto dos computadores modernos, como a Arquitetura de von Neumann e a Arquitetura Harvard. Uma característica presente na Arquitetura Harvard mas que não é característica da Arquitetura de von Neumann é:",
+        "alternativas": [
+            "as instruções de acesso à memória só admitem endereçamento indireto.",
+            "os barramentos de instruções e dados são separados.",
+            "os dados e as instruções são armazenados em uma única memória.",
+            "existe apenas um registrador, denominado Acumulador.",
+            "todas as instruções de máquina possuem três operandos."
+        ],
+        "gabarito": "os barramentos de instruções e dados são separados."
+    },
+    {
+        "id": 21,
+        "enunciado": "A arquitetura de Von Neumann propõe um modelo de arquitetura de computadores organizado em componentes em que cada componente executa uma única tarefa e de forma organizada. Sobre os componentes da arquitetura de Von Neumann, é correto afirmar que",
+        "alternativas": [
+            "a Unidade de Controle é responsável pela decodificação das instruções.",
+            "a memória principal é responsável somente por armazenar os programas a serem executados.",
+            "a Unidade Lógica e Aritmética (ULA) é responsável pela comunicação com os periféricos do computador.",
+            "a Unidade de Entrada e Saída agrupa a Unidade Lógica Aritmética e a Unidade de Controle.",
+            "os registradores são responsáveis pela interligação entre dispositivos, como a CPU, a memória e outros periféricos."
+        ],
+        "gabarito": "a Unidade de Controle é responsável pela decodificação das instruções."
+    },
+    {
+        "id": 22,
+        "enunciado": "Sobre arquitetura e organização de computadores, analise as assertivas.\nI - A arquitetura de Harvard caracteriza-se por apresentar um barramento externo compartilhado entre dados e endereço.\nII - Na arquitetura de von Neumann, existem duas memórias independentes, uma de dados e outra de instruções.\nIII - A arquitetura de computadores refere-se aos atributos que possuem um impacto direto sobre a execução lógica de um programa. Um exemplo de atributo arquitetural é o conjunto de instruções.\nIV - A organização de computadores refere-se às unidades operacionais e suas interconexões que realizam as especificações arquiteturais. Um exemplo de atributo organizacional é a tecnologia de memória utilizada.\nEstão corretas as assertivas",
+        "alternativas": [
+            "III e IV, apenas.",
+            "I e II, apenas.",
+            "I, II e IV, apenas.",
+            "II, III e IV, apenas. https://www.tecconcursos.com.br/questoes/cadernos/83046771/imprimir 4/9 01/08/2026, 19:43 Caderno Caderno de Questões"
+        ],
+        "gabarito": "III e IV, apenas."
+    },
+    {
+        "id": 23,
+        "enunciado": "A classificação de Flynn de arquiteturas paralelas composta por instruções únicas (single instruction) e fluxo de dados únicos (single data) é a",
+        "alternativas": [
+            "Multicomputadores.",
+            "Multiprocessadores.",
+            "Máquina Von-Neumann convencional.",
+            "Máquinas Array (CM-2, MasPar)."
+        ],
+        "gabarito": "Máquina Von-Neumann convencional."
+    },
+    {
+        "id": 24,
+        "enunciado": "Os sistemas multiprocessados assimétricos são da família dos sistemas",
+        "alternativas": [
+            "fortemente acoplados.",
+            "fracamente acoplados.",
+            "operacionais de rede.",
+            "operacionais distribuídos."
+        ],
+        "gabarito": "fortemente acoplados."
+    },
+    {
+        "id": 25,
+        "enunciado": "A analista Zudinha está engajada na tarefa de otimizar um sistema operacional para aprimorar seu desempenho global. Com o intuito de alcançar esse objetivo, ela opta pela implementação de estratégias de multiprocessamento. Apoiada em seu profundo conhecimento sobre multiprocessamento simétrico (SMP) e assimétrico\n(AMP), Zudinha elabora uma proposta que prevê a alocação equânime de cargas de trabalho entre os processadores disponíveis no sistema.\nConsiderando a abordagem de Zudinha, o multiprocessamento utilizado é o:",
+        "alternativas": [
+            "assimétrico, pois distribui tarefas de forma desigual entre os processadores;",
+            "simétrico, pois divide tarefas igualmente entre todos os processadores;",
+            "assimétrico, pois utiliza um processador mestre para controlar os processadores escravos;",
+            "simétrico, pois utiliza um único processador para todas as tarefas;",
+            "assimétrico, pois promove a utilização de múltiplos processadores operando de forma cooperativa, sem designar um processador mestre."
+        ],
+        "gabarito": "simétrico, pois divide tarefas igualmente entre todos os processadores;"
+    },
+    {
+        "id": 26,
+        "enunciado": "Segundo Tanenmbaum (2, qual método está diretamente associado à arquitetura de computadores paralela?",
+        "alternativas": [
+            "Processador SIMD.",
+            "Máquina de Turing.",
+            "Algoritmo de Ordenação Bubble Sort.",
+            "Multiprogramação.",
+            "Máquina de Von Neumann."
+        ],
+        "gabarito": "Processador SIMD."
+    },
+    {
+        "id": 27,
+        "enunciado": "Qual é o tipo de arquitetura para processamento em paralelo em que a mesma instrução é aplicada a muitos fluxos de dados, assim como em um processador de vetor?",
+        "alternativas": [
+            "SPMD.",
+            "MIMD.",
+            "SISD.",
+            "SIMD."
+        ],
+        "gabarito": "SIMD."
+    },
+    {
+        "id": 28,
+        "enunciado": "Acerca de armazenamento e processamento de dados, julgue o item a seguir.\nEm um processamento paralelo, o uso de P processadores aumenta a velocidade de processamento de uma aplicação em um fator de P.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 29,
+        "enunciado": "Um empresa está desenvolvendo um sistema de computação paralela. No caso, o sistema desenvolvido vai conter uma arquitetura com vários contadores de programa, diferentes tipos de dados e estruturas e vai operar com diversos computadores paralelos e distribuídos atuais. Esse tipo de sistema, na categoria proposta por Flynn, é conhecido pela sigla:",
+        "alternativas": [
+            "MIMD.",
+            "MISD.",
+            "SIMD.",
+            "SISD."
+        ],
+        "gabarito": "MIMD."
+    },
+    {
+        "id": 30,
+        "enunciado": "https://www.tecconcursos.com.br/questoes/cadernos/83046771/imprimir 5/9 01/08/2026, 19:43 Caderno Caderno de Questões Considerando os conhecimentos práticos e teóricos relacionados à computação paralela, analise as afirmativas abaixo e em seguida assinale a opção correta.",
+        "alternativas": [
+            "Um algoritmo paralelo é ótimo se o seu custo estiver na mesma classe de complexidade do algoritmo sequencial ótimo.",
+            "O speedup de um algoritmo paralelo é dado pela razão entre o tempo do algoritmo sequencial correspondente, utilizando apenas um processador, pelo tempo do algoritmo paralelo, utilizando P processadores. A eficiência é calculada pela razão entre o número de processadores e o speedup.",
+            "Considerando a Taxonomia de Flynn para arquiteturas (SISD- Single Instruction Single Data; SIMD - Single Instruction Multiple Data; MISD - Multiple Instruction Single Data; e MIMD Multiple Instruction Multiple Data), pode-se afirmar que as Graphics processing units (GPUs) podem ser consideradas MISD.",
+            "A Lei de Amdhal estabelece que pequenas frações de código sequencial em um algoritmo paralelo limitam pouco seu speedup."
+        ],
+        "gabarito": "Um algoritmo paralelo é ótimo se o seu custo estiver na mesma classe de complexidade do algoritmo sequencial ótimo."
+    },
+    {
+        "id": 31,
+        "enunciado": "Acerca da introdução ao hardware do PC e dos barramentos, julgue o item a seguir.\nNa transmissão paralela, para verificar se os dados chegaram íntegros ao destino, são usados sistemas de correção de erros como o CRC (Cyclic Redundancy Check).",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 32,
+        "enunciado": "Segundo a taxonomia introduzida por Flynn, a categoria de Sistemas Computacionais onde um conjunto de processadores executam diferentes sequências de instruções simultaneamente em diferentes conjuntos de dados tem a sua sigla representada por:",
+        "alternativas": [
+            "SISD.",
+            "SIMD.",
+            "MISD.",
+            "MIMD.",
+            "MSMI."
+        ],
+        "gabarito": "MIMD."
+    },
+    {
+        "id": 33,
+        "enunciado": "O processamento SIMD, utilizado em GPUs modernas, é apropriado para processamento gráfico porque",
+        "alternativas": [
+            "a maioria dos algoritmos é altamente regular, com operações repetidas sobre os elementos gráficos, tais como pixels e arestas.",
+            "é capaz de executar diferentes sequências de instruções sobre diferentes conjuntos de dados em paralelo.",
+            "é capaz de executar diferentes sequências de instruções em paralelo, mas sobre um único conjunto de dados.",
+            "embora opere com um único e pequeno conjunto de dados por vez, com a mesma sequência de instruções, pode atingir taxas de clock maiores.",
+            "utiliza paralelismo no nível de instrução, isto é, dentro de instruções individuais, para obter mais instruções por segundo."
+        ],
+        "gabarito": "a maioria dos algoritmos é altamente regular, com operações repetidas sobre os elementos gráficos, tais como pixels e arestas."
+    },
+    {
+        "id": 34,
+        "enunciado": "Um sistema de computação pode ser organizado de várias maneiras diferentes que, grosso modo, podemos categorizar de acordo com o número de processadores de uso geral utilizados.\nSILBERSCHATZ, A.; GALVIN, P.B.; GAGNE, G. Fundamentos de Sistemas Operacionais. Rio de Janeiro: Ed. LTC, 2015.\nAcerca das formas de organização de um sistema computacional, é correto afirmar que",
+        "alternativas": [
+            "os sistemas multiprocessadores mais comuns utilizam multiprocessamento simétrico, em que cada processador executa todas as tarefas do sistema operacional.",
+            "uma das vantagens de sistemas multiprocessadores é o aumento da performance, sendo a taxa de aumento de velocidade com N processadores igual a N.",
+            "sistemas uniprocessadores possuem uma CPU principal capaz de executar um conjunto de instruções de uso geral e não têm outros processadores de uso específico.",
+            "a diferença entre multiprocessamento simétrico e assimétrico é definida em nível de software.",
+            "todos os sistemas multiprocessadores são multicore."
+        ],
+        "gabarito": "os sistemas multiprocessadores mais comuns utilizam multiprocessamento simétrico, em que cada processador executa todas as tarefas do sistema operacional."
+    },
+    {
+        "id": 35,
+        "enunciado": "Analise as afirmativas a seguir sobre a técnica de paralelismo:\nI. Em sistema com porta única para memória de dados e de instrução, se duas (ou mais) instruções acessam dados e/ou instruções da memória, temos um exemplo de hazard de controle no nosso pipeline.\nII. Em um pipeline, quando uma instrução depende do resultado da instrução anterior que ainda não foi concluída, dizemos que temos um exemplo de hazard de dados.\nIII. Uma maneira de evitar um hazard estrutural é a duplicação de um recurso para permitir todas as combinações de instruções que queremos executar em um mesmo ciclo de clock.\nIV. O adiantamento (Bypassing ou Forwarding) de dados é uma técnica para resolver alguns tipos de hazard de dados que consiste em utilizar o elemento de dado a partir dos buffers internos em vez de esperar que chegue nos registradores visíveis ao programador ou na memória.\nAssinale",
+        "alternativas": [
+            "se somente as afirmativas I, II e IV estiverem corretas.",
+            "se somente as afirmativas I, III e IV estiverem corretas.",
+            "se somente as afirmativas II, III e IV estiverem corretas.",
+            "se somente as afirmativas II e III estiverem corretas.",
+            "se somente as afirmativas I e IV estiverem corretas."
+        ],
+        "gabarito": "se somente as afirmativas II, III e IV estiverem corretas."
+    },
+    {
+        "id": 36,
+        "enunciado": "https://www.tecconcursos.com.br/questoes/cadernos/83046771/imprimir 6/9 01/08/2026, 19:43 Caderno Caderno de Questões Computadores com vários processadores ou com um processador de vários núcleos são uma tendência que se fortaleceu nas duas últimas décadas para o projeto de sistemas. Para tirar proveito desses sistemas, o desenvolvedor de aplicações e o projetista de sistemas operacionais precisam considerar o paralelismo. Assinale a alternativa correta sobre o paralelismo inerente a sistemas muliprocessados:",
+        "alternativas": [
+            "O paralelismo MISD tem vários casos de usos práticos na indústria, ao contrário do SIMD.",
+            "A técnica SMT garante que uma dada arquitetura aloca núcleos de processamento para cada thread, garantido a execução simultânea de threads.",
+            "Arquiteturas SMP apresentam vários núcleos em uma organização hierárquica, enquanto as redes de interconexão existem apenas nos clusters.",
+            "Uma arquitetura de memória compartilhada pode permite a execução de programas escritos em um modelo de troca de mensagens.",
+            "A adição de núcleos ao um processador não traz alterações à hierarquia de memória."
+        ],
+        "gabarito": "Uma arquitetura de memória compartilhada pode permite a execução de programas escritos em um modelo de troca de mensagens."
+    },
+    {
+        "id": 37,
+        "enunciado": "Analise as afirmativas abaixo:\n1. Os conceitos de computação concorrente e paralela são sinônimos, uma vez que um dado processo leva o mesmo tempo para ser executado em ambos.\n2. A computação paralela ocorre no nível físico; isto é, o processamento ocorre em um mesmo instante em processadores distintos em uma máquina com múltiplos processadores, por exemplo.\n3. Um sistema concorrente é aquele no qual o processamento pode avançar sem esperar eventuais outros processamentos completarem sua execução.\nAssinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "É correta apenas a afirmativa 1.",
+            "São corretas apenas as afirmativas 1 e 2.",
+            "São corretas apenas as afirmativas 1 e 3.",
+            "São corretas apenas as afirmativas 2 e 3.",
+            "São corretas as afirmativas 1, 2 e 3."
+        ],
+        "gabarito": "São corretas apenas as afirmativas 2 e 3."
+    },
+    {
+        "id": 38,
+        "enunciado": "Uma das maneiras mais comuns de categorizar sistemas de capacidade de processamento paralelo é a taxonomia introduzida por Flynn em 1972, que propõe a categorização de sistemas computacionais levando-se em conta instruções computacionais e dados. Assinale a alternativa que possua a categoria em que uma sequência de dados é transmitida para um conjunto de processadores, onde cada um executa uma sequência de instruções diferentes.",
+        "alternativas": [
+            "MISD.",
+            "SIMD.",
+            "MIMD.",
+            "SISD.",
+            "NUMA."
+        ],
+        "gabarito": "MISD."
+    },
+    {
+        "id": 39,
+        "enunciado": "Os sistemas com mais de um processador podem ser divididos em sistemas com multiprocessamento simétrico e assimétrico. Marque a alternativa abaixo que contém somente informações corretas.",
+        "alternativas": [
+            "Em sistemas com multiprocessamento assimétrico, os processadores se comunicam utilizando a memória principal.",
+            "Em sistemas com multiprocessamento simétrico, somente o processador master executa tarefas do sistema operacional.",
+            "Em ambos os tipos de multiprocessamento, há uma relação master-slave entre os processadores.",
+            "Não há necessidade de memória compartilhada para o multiprocessamento simétrico.",
+            "Em sistemas com multiprocessamento assimétrico, os processadores podem possuir diferentes arquiteturas."
+        ],
+        "gabarito": "Em sistemas com multiprocessamento assimétrico, os processadores podem possuir diferentes arquiteturas."
+    },
+    {
+        "id": 40,
+        "enunciado": "No contexto da arquitetura de um computador, a exceção, muitas vezes também chamada de trap, é",
+        "alternativas": [
+            "um tipo de parada do processador, causada por uma condição de erro que impede que o processador possa continuar a executar instruções.",
+            "um tipo de parada do processador, causada por um evento externo, fazendo que o processador só continue a executar instruções após um reset.",
+            "um tipo de chamada de procedimento automática, iniciada por alguma condição normalmente importante e rara causada pelo programa.",
+            "uma alteração no fluxo de controle de programa, causada por um evento externo, como uma operação de Entrada e Saída.",
+            "uma alteração no fluxo de controle de programa, causada por um evento corriqueiro, tipicamente relacionado à busca de uma instrução na memória."
+        ],
+        "gabarito": "um tipo de chamada de procedimento automática, iniciada por alguma condição normalmente importante e rara causada pelo programa."
+    },
+    {
+        "id": 41,
+        "enunciado": "A respeito das arquiteturas de computadores, julgue o item a seguir.\nUma abstração é a descrição simplificada ou seletiva de um sistema computacional.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 42,
+        "enunciado": "A respeito das arquiteturas de computadores, julgue o item a seguir.\nUma das principais características da arquitetura de computadores é o estabelecimento da conexão entre software e hardware.\nCerto Errado https://www.tecconcursos.com.br/questoes/cadernos/83046771/imprimir 7/9 01/08/2026, 19:43 Caderno Caderno de Questões \nGabarito: C.erto No que se refere ao conceito e às características de um sistema multimídia, assinale a alternativa correta.",
+        "alternativas": [
+            "Sistemas multimídia independem de elevadas taxas de transmissão de dados.",
+            "O uso de computadores não é considerado relevante para sistemas multimídia.",
+            "Dados multimídia têm características e requisitos similares aos dados alfanuméricos.",
+            "Entre as classes básicas de serviços multimídia, estão os serviços de self storage, de mensagem e de recuperação/consulta.",
+            "Sistemas multimídia demandam codificação, armazenamento e manipulação de objetos longos não convencionais."
+        ],
+        "gabarito": "Sistemas multimídia demandam codificação, armazenamento e manipulação de objetos longos não convencionais."
+    },
+    {
+        "id": 43,
+        "enunciado": "Segundo (Stallings,. A arquitetura de computadores refere-se:",
+        "alternativas": [
+            "A construção do gabinete do computador, seu formato e cor.",
+            "Ao comportamento de um sistema computacional visível para o programador, ou seja, aos aspectos relacionados com a execução lógica de um programa.",
+            "A quantidade de componentes elétricos presentes na fonte de energia.",
+            "Ao quão eficiente é a energia fornecida ao computador.",
+            "A qualidade do software usado no processador."
+        ],
+        "gabarito": "Ao comportamento de um sistema computacional visível para o programador, ou seja, aos aspectos relacionados com a execução lógica de um programa."
+    },
+    {
+        "id": 44,
+        "enunciado": "Computadores podem ser classificados em dois tipos principais, que são:",
+        "alternativas": [
+            "Analógicos e magnéticos.",
+            "Eletrônicos e digitais.",
+            "Analógicos e digitais.",
+            "Magnéticos e eletrônicos.",
+            "Funcionais e repetitivos."
+        ],
+        "gabarito": "Analógicos e digitais."
+    },
+    {
+        "id": 45,
+        "enunciado": "Em qual das gerações de computadores surgiram os circuitos integrados?",
+        "alternativas": [
+            "Primeira geração.",
+            "Quarta geração.",
+            "Segunda geração.",
+            "Quinta geração.",
+            "Terceira geração."
+        ],
+        "gabarito": "Terceira geração."
+    },
+    {
+        "id": 46,
+        "enunciado": "Dada uma arquitetura multinível e suas características, assinale a alternativa correta.",
+        "alternativas": [
+            "No nível mais baixo, há as linguagens Assembly.",
+            "Circuitos digitais não são considerados uma camada.",
+            "Assembly é considerada uma linguagem orientada a problemas.",
+            "C é considerada uma linguagem de baixo nível, porém C++ não.",
+            "Acima do nível de circuitos, tem-se o nível no qual se define o conjunto de instruções que determinada CPU é capaz de reconhecer."
+        ],
+        "gabarito": "Acima do nível de circuitos, tem-se o nível no qual se define o conjunto de instruções que determinada CPU é capaz de reconhecer."
+    },
+    {
+        "id": 47,
+        "enunciado": "Spolling é uma técnica",
+        "alternativas": [
+            "usada na comunicação entre dispositivos que acessam dados com as mesmas velocidades, a exemplo da comunicação entre o computador e a impressora.",
+            "de escrever dados para que eles possam ser acessados no futuro, a exemplo do armazenamento de arquivos em uma biblioteca de fitas.",
+            "utilizada quando dois dispositivos possuem grande diferença de velocidades de leitura/escrita, a exemplo da comunicação entre um servidor e uma biblioteca de fitas.",
+            "que utiliza buffer de memória para expandir a capacidade de armazenamento de dispositivos e facilitar a comunicação entre sistema operacional e usuário.",
+            "concebida incialmente para compatibilizar a comunicação entre a leitura/escrita de jobs da memória principal para o disco rígido, aumentando o desempenho do sistema."
+        ],
+        "gabarito": "utilizada quando dois dispositivos possuem grande diferença de velocidades de leitura/escrita, a exemplo da comunicação entre um servidor e uma biblioteca de fitas."
+    },
+    {
+        "id": 48,
+        "enunciado": "Considere a Arquitetura do Conjunto de Instruções do MIPS para uma máquina de 64 bits, cujas operações possuem, geralmente, 3 operandos. Avalie o código a seguir e marque a alternativa que melhor descreve a expressão do valor armazenado no registrador $t7 ao final da execução.\nadd $t1, $t2, $t3 sub $t4, $t5, $t6 div $t7, $t4, $t1",
+        "alternativas": [
+            "( $t2+$t3 ) / ( $t5-$t6 ).",
+            "$t4 / $t3.",
+            "$t7 / ( $t4 + $t1 ).",
+            "( $t5-$t6 ) / ( $t2+$t3 ) https://www.tecconcursos.com.br/questoes/cadernos/83046771/imprimir 8/9 01/08/2026, 19:43 Caderno Caderno de Questões.",
+            "($t1 + $t2 + $t3 ) / ( $t4 - $t5 - $t."
+        ],
+        "gabarito": "( $t5-$t6 ) / ( $t2+$t3 ) https://www.tecconcursos.com.br/questoes/cadernos/83046771/imprimir 8/9 01/08/2026, 19:43 Caderno Caderno de Questões."
+    },
+    {
+        "id": 49,
+        "enunciado": "Marque a opção em que estão listadas as principais funções de um computador.",
+        "alternativas": [
+            "Processamento de Dados, Integridade dos Dados, Movimentação de Dados e Controle.",
+            "Integridade dos Dados, Armazenamento de Dados, Movimentação de Dados e Controle.",
+            "Processamento de Dados, Armazenamento de Dados, Movimentação de Dados e Controle.",
+            "Processamento de Dados, Armazenamento de Dados, Movimentação de Dados e Integridade dos Dados.",
+            "Processamento de Dados, Armazenamento de Dados, Integridade dos Dados e Controle."
+        ],
+        "gabarito": "Processamento de Dados, Armazenamento de Dados, Movimentação de Dados e Controle."
+    },
+    {
+        "id": 50,
+        "enunciado": "Julgue o próximo item, a respeito de arquitetura de TI.\nA arquitetura de TI trata, geralmente, das arquiteturas dos processos de negócio, dos dados, das aplicações e da infraestrutura.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 51,
+        "enunciado": "Julgue o próximo item, a respeito de arquitetura de TI.\nA principal desvantagem da arquitetura de TI do tipo computação em nuvem é que, ao se realizar a otimização do uso dos recursos, há perda considerável de flexibilidade.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 52,
+        "enunciado": "Em relação ao ciclo de busca e instrução, analise as afirmativas abaixo.\nI- O processador busca na memória principal a instrução armazenada no endereço indicado pela CI e armazena no RI.\nlI- O processador executa a instrução decodificada.\nIlI- O processador busca os operandos na memória, se houver.\nIV- O processador decodifica a instrução armazenada no RI.\nV- O processador incrementa o CI para que o registrado contenha o endereço da próxima instrução.\nAssinale a opção que apresenta a sequência correta dos passos do ciclo de busca e instrução.",
+        "alternativas": [
+            "(I) (V) (IlI) (IV) (lI).",
+            "(IlI) (V) (IV) (lI) (I).",
+            "(IlI) (lI) (V) (IV) (I).",
+            "(I) (V) (IV) (IlI) (lI).",
+            "(IlI) (I) (V) (IV) (lI)."
+        ],
+        "gabarito": "(I) (V) (IV) (IlI) (lI)."
+    },
+    {
+        "id": 53,
+        "enunciado": "Com relação à arquitetura, tratamos a organização interna de um computador, dividindo-o em vários níveis, que vão desde o mais próximo ao que a máquina entende (sistema binário), aumentando a abstração, até chegar próximo ao entendimento humano (linguagem natural). Assinale a alternativa abaixo que NÃO corresponde a um desses níveis computacionais:",
+        "alternativas": [
+            "Sistema Operacional.",
+            "Transporte.",
+            "Montagem.",
+            "Microprogramação.",
+            "Lógica Digital."
+        ],
+        "gabarito": "Transporte."
+    }
+]

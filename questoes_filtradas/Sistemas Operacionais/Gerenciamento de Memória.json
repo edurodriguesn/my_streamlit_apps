@@ -1,0 +1,900 @@
+[
+    {
+        "id": 1,
+        "enunciado": "No contexto de sistemas operacionais modernos, a memória virtual é uma técnica crucial que permite a execução de programas maiores do que a memória física\n(RAM) disponível, utilizando parte do espaço do disco rígido como extensão da RAM.\nAssinale a opção que descreve corretamente o principal objetivo ou uma característica fundamental da memória virtual.",
+        "alternativas": [
+            "Eliminar completamente a necessidade de memória RAM, utilizando apenas o disco rígido para armazenamento primário.",
+            "Acelerar o acesso aos dados em relação à memória RAM física, devido à maior velocidade dos discos rígidos modernos.",
+            "Proporcionar um espaço de endereçamento lógico maior do que o espaço de endereçamento físico, de forma transparente para o programador.",
+            "Garantir que todos os processos residentes na memória física tenham uma cópia idêntica e permanente no disco (área de swap).",
+            "Otimizar o desempenho da memória cache de nível 1 e 2, gerenciando a troca de dados entre elas e a RAM."
+        ],
+        "gabarito": "Proporcionar um espaço de endereçamento lógico maior do que o espaço de endereçamento físico, de forma transparente para o programador."
+    },
+    {
+        "id": 2,
+        "enunciado": "O sistema operacional S está executando um processo P. Em determinado momento, P tenta realizar uma operação de entrada/saída (E/S). Estando o dispositivo de E/S solicitado por P indisponível no momento, S coloca P em estado de espera. Para evitar que o processador fique ocioso durante essa espera, S, sendo um sistema operacional moderno, emprega um mecanismo específico que viabiliza o uso da CPU por outro processo ao mesmo tempo em que P aguarda a conclusão da operação de E/S.\nNesse cenário, o sistema operacional S emprega, especificamente, o mecanismo de:",
+        "alternativas": [
+            "troca de contexto;",
+            "alocação de memória virtual;",
+            "escalonamento por prioridade;",
+            "multiprocessamento simétrico;",
+            "gerenciamento de interrupções."
+        ],
+        "gabarito": "troca de contexto;"
+    },
+    {
+        "id": 3,
+        "enunciado": "O sistema operacional Moderno implementa a alocação de memória virtual baseada em paginação, combinando técnicas e estruturas de dados encontrados em outros sistemas operacionais. A tabela de páginas de memória do Moderno foi implementada nos mesmos moldes do Linux.\nSendo assim, é correto afirmar que a tabela de páginas de memória do Moderno:",
+        "alternativas": [
+            "armazena informações sobre o estado de cada página, sem realizar mapeamento de endereços;",
+            "mapeia endereços virtuais para endereços físicos, sendo incapaz de influenciar a proteção de memória;",
+            "mapeia endereços virtuais para endereços físicos e é capaz de influenciar a proteção de memória;",
+            "não realiza mapeamento de endereços, sendo incapaz de influenciar a proteção de memória;",
+            "armazena informações sobre o estado de cada página, sendo incapaz de influenciar a proteção de memória."
+        ],
+        "gabarito": "mapeia endereços virtuais para endereços físicos e é capaz de influenciar a proteção de memória;"
+    },
+    {
+        "id": 4,
+        "enunciado": "Julgue o item a seguir, relativo a gerenciamento de memória, conceitos de processo e threads e LDAP.\nNo gerenciamento de memória swap, cada programa tem seu próprio espaço de endereçamento, o qual é dividido em blocos denominados páginas, com uma série de endereços adjacentes.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 5,
+        "enunciado": "Julgue o item a seguir, relativo a gerenciamento de memória, conceitos de processo e threads e LDAP.\nQuando um computador usa a memória virtual, os endereços virtuais não vão diretamente para o barramento da memória, mas para uma unidade de gerenciamento de memória, que mapeia os endereços virtuais em endereços de memória física.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 6,
+        "enunciado": "Uma das funções básicas realizadas por um computador é o armazenamento de dados.\nAcerca dos sistemas de memória do computador, avalie as afirmativas a seguir.\nI. O SSD (Solid State Drive) contém um controlador que executa correção de erros.\nII. A memória cache contém uma cópia de partes da memória principal.\nIII. A memória flash é apagada quando não há energia.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "II, apenas.",
+            "III, apenas.",
+            "I e II, apenas.",
+            "II e III, apenas.",
+            "I, II e III."
+        ],
+        "gabarito": "I e II, apenas."
+    },
+    {
+        "id": 7,
+        "enunciado": "Acerca do gerenciamento de memória em sistemas de memória virtual, no contexto dos sistemas operacionais, avalie as afirmativas a seguir.\nI. Na paginação por demanda, o sistema traz para a memória principal somente as páginas de que o processo precisa.\nII. A estratégia de paginação antecipada (ou pré-paginação) pode ser combinada com a paginação por demanda.\nIII. Tanto na paginação por demanda quanto na antecipada, o sistema aguarda o processo referenciar uma página antes de carregá-lo na memória principal.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, apenas.",
+            "II, apenas.",
+            "I e II, apenas.",
+            "I e III, apenas.",
+            "II e III, apenas."
+        ],
+        "gabarito": "I e II, apenas."
+    },
+    {
+        "id": 8,
+        "enunciado": "Assinale a opção em que está apresentado o método de gerenciamento de memória no qual cada processo recebe um único bloco contínuo de memória, o que faz com que todos os dados de um processo sejam armazenados em locais de memória adjacentes.",
+        "alternativas": [
+            "fragmentation.",
+            "partition table.",
+            "contiguous memory allocation.",
+            "dynamic partition allocation.",
+            "swapping."
+        ],
+        "gabarito": "contiguous memory allocation."
+    },
+    {
+        "id": 9,
+        "enunciado": "Em sistemas operacionais, quando entra-se em gerência de memória, há um conceito que, ao executar múltiplos programas simultaneamente sem abstração de memória, o sistema operacional salva o conteúdo completo da memória em um arquivo de disco e, em seguida, introduz e executa o próximo programa. Não há conflitos se houver apenas um programa por vez na memória. O trecho refere-se ao conceito de:",
+        "alternativas": [
+            "Cache.",
+            "Registradores internos da CPU.",
+            "Memória secundária.",
+            "Swapping.",
+            "Bibliotecas."
+        ],
+        "gabarito": "Swapping."
+    },
+    {
+        "id": 10,
+        "enunciado": "Julgue o item a seguir, a respeito de organização e arquitetura de computadores, gerenciamento de memórias e de arquivos, bem como de tecnologias de virtualização.\nNo modelo de paginação, o espaço de endereçamento lógico de um processo é dividido em páginas (blocos de tamanhofixo) e o espaço de memória físico é dividido em molduras (frames) de tamanhos iguais.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 11,
+        "enunciado": "Um desenvolvedor de sistemas básicos está construindo um módulo de gerenciamento de memória para um novo sistema operacional.\nNeste caso, ele deseja usar um algoritmo de swapping, que escolhe para sair a página que entrou na memória há mais tempo.\nEsse tipo de algoritmo é conhecido como:",
+        "alternativas": [
+            "FIFO.",
+            "Optimal.",
+            "FINUFO.",
+            "Worst-Fit."
+        ],
+        "gabarito": "FIFO."
+    },
+    {
+        "id": 12,
+        "enunciado": "Mesmo a gerência de memória garantindo a proteção de áreas da memória, mecanismos de compartilhamento são oferecidos para que diferentes processos possam trocar dados de forma protegida. Um destes mecanismos é conhecido por eliminar o conceito de partições de tamanho fixo, evitando que o problema da fragmentação interna da memória. No entanto, neste mecanismo acontece um outro problema, conhecido como fragmentação externa.\nNo texto acima, o mecanismo de compartilhamento descrito é conhecido como alocação",
+        "alternativas": [
+            "contígua.",
+            "contígua simples.",
+            "contígua simples com overlay.",
+            "particionada dinâmica.",
+            "particionada estática."
+        ],
+        "gabarito": "particionada dinâmica."
+    },
+    {
+        "id": 13,
+        "enunciado": "Na consolidação de servidores, podem ser utilizadas heurísticas para realizar, com algoritmos, a otimização dos recursos computacionais. Assinale a opção correspondente à holística usada quando é escolhido um algoritmo para encontrar o host que, ao receber a requisição da máquina virtual, utilize a menor quantidade possível de seus recursos em relação aos demais hosts.",
+        "alternativas": [
+            "XEN-Fit.",
+            "Best-Fit.",
+            "First-Fit.",
+            "Worst-Fit.",
+            "Random-Fit."
+        ],
+        "gabarito": "Worst-Fit."
+    },
+    {
+        "id": 14,
+        "enunciado": "Julgue o item seguinte, relativo a sistemas operacionais.\nNa implementação do gerenciamento de memória na plataforma x86, o gerenciador de memória seleciona individualmente os threads para executar, deixando os processos a cargo do escalonador.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 15,
+        "enunciado": "Julgue o item seguinte, relativo a sistemas operacionais.\nO algoritmo de substituição de páginas FIFO (first-in first-out) controla a ordem pela qual as páginas são carregadas na memória, mantendo-as em uma lista encadeada, removendo a página mais antiga.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 16,
+        "enunciado": "Assinale a alternativa que apresenta a responsabilidade da gestão de memória em sistemas operacionais.",
+        "alternativas": [
+            "Gerenciar o uso do processador.",
+            "Gerenciar o acesso aos dispositivos de entrada e Saída.",
+            "Controlar o acesso à rede.",
+            "Gerenciar o espaço disponível na memória RAM.",
+            "Realizar a instalação de softwares."
+        ],
+        "gabarito": "Gerenciar o espaço disponível na memória RAM."
+    },
+    {
+        "id": 17,
+        "enunciado": "A respeito de sistemas operacionais, julgue o próximo item.\nO sistema operacional pode usar DMA (direct access memory), independentemente da existência de um controlador DMA no hardware.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 18,
+        "enunciado": "Em um mundo cada vez mais dependente da tecnologia, os sistemas operacionais desempenham um papel crucial na garantia de um desempenho eficiente dos dispositivos eletrônicos. Como parte desse papel, os sistemas operacionais modernos empregam uma variedade de técnicas sofisticadas para otimizar o gerenciamento de memória, garantindo que os recursos sejam alocados e utilizados de forma eficaz. Marque a opção que contem corretamente essas técnicas.",
+        "alternativas": [
+            "Paginação, memória cache e memória virtual.",
+            "Paginação, segmentação e memória virtual.",
+            "Memória de massa, memória principal e memória virtual.",
+            "SSD, Memória de massa, memória dinâmica."
+        ],
+        "gabarito": "Paginação, segmentação e memória virtual."
+    },
+    {
+        "id": 19,
+        "enunciado": "Alguns sistemas operacionais mapeiam os registradores de controle de dispositivos de entrada e saída no espaço da memória no qual nenhuma memória é instalada.\nEssa técnica é conhecida como",
+        "alternativas": [
+            "acesso direto à memória.",
+            "acesso direto à entrada e saída.",
+            "entrada e saída mapeada na memória.",
+            "entrada e saída independente de dispositivo.",
+            "modelo híbrido de entrada e saída."
+        ],
+        "gabarito": "entrada e saída mapeada na memória."
+    },
+    {
+        "id": 20,
+        "enunciado": "Durante o uso da técnica de memória virtual, a parte do processador cuja função é transformar o endereço virtual em físico é:",
+        "alternativas": [
+            "a ULA.",
+            "a MMU.",
+            "o Registrador.",
+            "o Decoder."
+        ],
+        "gabarito": "a MMU."
+    },
+    {
+        "id": 21,
+        "enunciado": "Marcos, um analista do TJ contratado para otimizar o desempenho de um servidor de alta capacidade, enfrenta desafios com lentidão durante períodos de alta demanda. Uma investigação minuciosa revelou que a raiz do problema reside na gestão ineficaz da memória cache. Para abordar isso, Marcos sugere a adoção de um algoritmo de substituição de cache mais eficiente.\nConsiderando os algoritmos de substituição de cache mais comuns, Marcos resolverá o problema de desempenho do servidor com o algoritmo:",
+        "alternativas": [
+            "Least Recently Used (LRU);",
+            "First-In, First-Out (FIFO);",
+            "Random Replacement (RR);",
+            "Least Frequently Used (LFU);",
+            "Most Recently Used (MRU)."
+        ],
+        "gabarito": "Least Recently Used (LRU);"
+    },
+    {
+        "id": 22,
+        "enunciado": "Considerando uma máquina com palavra de endereçamento de 32 bits e que a mesma faz uso de esquema de paginação multinível para o gerenciamento da memória, o tamanho do espaço de endereçamento virtual da máquina é:",
+        "alternativas": [
+            "4GB.",
+            "8GB.",
+            "16GB.",
+            "32GB."
+        ],
+        "gabarito": "4GB."
+    },
+    {
+        "id": 23,
+        "enunciado": "A paginação desempenha um papel fundamental em sistemas operacionais. Nesse contexto, o conceito de paginação consiste na:",
+        "alternativas": [
+            "divisão de processos em várias páginas de tamanho fixo na memória principal.",
+            "permissão para que um processo execute em múltiplos núcleos de CPU simultaneamente.",
+            "troca de processos inteiros entre a memória principal e o disco.",
+            "técnica para gerenciar a memória virtual, permitindo que um processo acesse partes de sua memória não contíguas de forma eficiente."
+        ],
+        "gabarito": "técnica para gerenciar a memória virtual, permitindo que um processo acesse partes de sua memória não contíguas de forma eficiente."
+    },
+    {
+        "id": 24,
+        "enunciado": "Assinale a alternativa que melhor expressa a condição de substituição de páginas em memória, baseada na ideia de que as páginas não usadas recentemente deverão ser liberadas antes das demais.",
+        "alternativas": [
+            "Algoritmo NRU.",
+            "Algoritmo do relógio.",
+            "Algoritmo FIFO.",
+            "Segunda chance."
+        ],
+        "gabarito": "Algoritmo NRU."
+    },
+    {
+        "id": 25,
+        "enunciado": "Na Defensoria Pública do Estado de Mato Grosso do Sul, o analista da área de Segurança de Tecnologia da Informação trabalha com um sistema operacional que utiliza um algoritmo de alocação de memória dinâmica para alocar memória para os processos. O algoritmo aloca memória em blocos de tamanho fixo. Um processo é iniciado e solicita 100 bytes de memória. O sistema operacional não possui blocos de tamanhos de 100 bytes disponíveis. Diante disso, o próximo passo do algoritmo de alocação de memória é",
+        "alternativas": [
+            "alocar memória em dois blocos de tamanho de 50 bytes cada.",
+            "alocar memória em um bloco de tamanho de 100 bytes e fragmentar a memória.",
+            "alocar memória em um bloco de tamanho de 200 bytes e fragmentar a memória.",
+            "alocar memória em um bloco de tamanho de 100 bytes e esperar que um processo finalize para liberar a memória.",
+            "alocar memória em um bloco de tamanho de 200 bytes e esperar que o processo finalize."
+        ],
+        "gabarito": "alocar memória em um bloco de tamanho de 200 bytes e fragmentar a memória."
+    },
+    {
+        "id": 26,
+        "enunciado": "A Defensoria Pública do Estado de Mato Grosso do Sul está executando várias máquinas virtuais em um servidor físico para atender às necessidades de diferentes departamentos. Cada máquina virtual tem suas próprias aplicações e serviços em execução. Como o espaço de memória é limitado no servidor físico, a Defensoria precisa escolher um algoritmo de troca de páginas eficiente para garantir que as máquinas virtuais funcionem sem problemas. Nesse sentido, a organização está planejando implementar o algoritmo de troca de páginas LRU como parte de suas práticas de gerenciamento de memória para otimizar o desempenho de seus servidores. Você, como analista de Suporte Técnico de Redes da Defensoria, é responsável por implementar o algoritmo de troca de páginas LRU. A respeito desse algoritmo, assinale a alternativa correta.",
+        "alternativas": [
+            "É um algoritmo que escolhe para sair a página que entrou na memória há mais tempo.",
+            "É um algoritmo de pilha em que o critério de escolha da página indica que a página excluída será aquela que não é referenciada há mais tempo.",
+            "É um algoritmo de pilha, mas escolhe para sair a página que levará mais tempo para ser novamente necessária.",
+            "É um algoritmo que remove a página que foi menos frequentemente referenciada no passado.",
+            "É um algoritmo que escolhe aleatoriamente uma página para remoção. Embora seja simples, não leva em conta o histórico de uso das páginas e pode levar a um desempenho imprevisível."
+        ],
+        "gabarito": "É um algoritmo de pilha em que o critério de escolha da página indica que a página excluída será aquela que não é referenciada há mais tempo."
+    },
+    {
+        "id": 27,
+        "enunciado": "O gerenciamento de memória em computadores envolve a coordenação e a supervisão do uso da memória. Sobre o gerenciamento de memória em computadores, marque V para as afirmativas verdadeiras e F para as falsas.\n( ) A segmentação de memória permite que diferentes segmentos de um programa tenham tamanhos variados.\n( ) A memória virtual permite que um programa use mais memória do que a fisicamente disponível no sistema.\n( ) A segmentação de memória sempre resulta em menos fragmentação do que a paginação.\nA sequência está correta em",
+        "alternativas": [
+            "F, F, V.",
+            "V, V, F.",
+            "V, F, V.",
+            "V, V, V."
+        ],
+        "gabarito": "V, V, F."
+    },
+    {
+        "id": 28,
+        "enunciado": "Considerando o esquema de memória virtual utilizado pelo Windows, o arquivo usado para a sua implementação é o",
+        "alternativas": [
+            "hiberfil.sys.",
+            "ntfs.sys.",
+            "pagefile.sys.",
+            "config.sys."
+        ],
+        "gabarito": "pagefile.sys."
+    },
+    {
+        "id": 29,
+        "enunciado": "Com relação aos componentes de um computador, aos barramentos de E/S, à aritmética computacional e à linguagem SQL, julgue o próximo item.\nA memória cache é considerada de alto desempenho, sendo responsável por manter a ligação entre a memória RAM e o disco rígido.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 30,
+        "enunciado": "A respeito de sistemas operacionais, julgue o item subsecutivo.\nA memória virtual é indicada para processamento sem multiprogramação, já que o sistema operacional não consegue gerenciar as múltiplas partes do mesmo programa.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 31,
+        "enunciado": "A respeito de sistemas operacionais, julgue o item subsecutivo.\nRegistro lógico e registro físico são expressões sinonímicas que representam um conjunto de informações armazenadas em um arquivo no computador.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 32,
+        "enunciado": "Sobre as estratégias de substituição de páginas dos sistemas operacionais, assinale com V as afirmativas verdadeiras e com F as falsas.\n( ) Na estratégia de substituição de páginas FIFO, substitui-se a página que está no sistema há menos tempo.\n( ) Na estratégia de página menos frequentemente usada, toma-se decisões de substituição com base na intensidade com que cada página está sendo usada.\n( ) Na estratégia de substituição de páginas não usadas recentemente, a ideia é baseada em que uma página não usada recentemente provavelmente será usada no futuro próximo.\nAssinale a sequência correta.",
+        "alternativas": [
+            "V V F.",
+            "F V F.",
+            "V F V.",
+            "F F V."
+        ],
+        "gabarito": "F V F."
+    },
+    {
+        "id": 33,
+        "enunciado": "Qual das seguintes é uma técnica de gerenciamento de memória?",
+        "alternativas": [
+            "Clustering.",
+            "Particionamento.",
+            "Segmentação.",
+            "Fragmentação.",
+            "Otimização."
+        ],
+        "gabarito": "Segmentação."
+    },
+    {
+        "id": 34,
+        "enunciado": "Em relação à gerência de memória em sistemas operacionais, quais das seguintes técnicas é baseada na divisão da memória física em blocos de tamanho fixo?",
+        "alternativas": [
+            "Escalonamento de processos.",
+            "Segmentação.",
+            "Paginação.",
+            "Memória virtual.",
+            "Alocação dinâmica."
+        ],
+        "gabarito": "Paginação."
+    },
+    {
+        "id": 35,
+        "enunciado": "Virgínia é analista de qualidade de software da DPE/RS e está verificando qual o melhor algoritmo de substituição de páginas para as aplicações da Defensoria. Os dados usados são:\nNúmero da página Bit referência Bit modificação\n1 (início) 1 0\n2 1 1\n3 0 0\n4 0 1\n5 0 0 6 1 0 Virgínia usou o Algoritmo de Segunda Chance Aperfeiçoado.\nConsiderando que não ocorrerá nenhuma nova execução ou modificação e que a partir desse momento só haverá a remoção das páginas, a sequência de remoção de páginas da memória principal identificada por Virgínia será:",
+        "alternativas": [
+            "3, 5, 1, 6, 2, 4;",
+            "3, 5, 2, 4, 6, 1;",
+            "3, 4, 5, 1, 2, 6;",
+            "3, 4, 6, 5, 1, 2;",
+            "3, 4, 5, 6, 1, 2."
+        ],
+        "gabarito": "3, 5, 1, 6, 2, 4;"
+    },
+    {
+        "id": 36,
+        "enunciado": "O que é fragmentação de memória e como ela pode impactar o desempenho de um sistema computacional?",
+        "alternativas": [
+            "fragmentação de memória refere-se à divisão lógica da memória em partições para diferentes usuários.",
+            "fragmentação de memória ocorre quando a memória física é dividida em blocos de tamanho fixo.",
+            "fragmentação de memória é o processo de copiar dados entre diferentes níveis de cache.",
+            "fragmentação de memória é a quebra da memória em pequenos pedaços não contíguos, resultando em espaço desperdiçado.",
+            "fragmentação de memória é um processo de compactação da memória para otimizar o espaço disponível."
+        ],
+        "gabarito": "fragmentação de memória é a quebra da memória em pequenos pedaços não contíguos, resultando em espaço desperdiçado."
+    },
+    {
+        "id": 37,
+        "enunciado": "Qual é o objetivo principal do gerenciamento de memória em um sistema operacional?",
+        "alternativas": [
+            "Alocar recursos de memória de forma eficiente.",
+            "Controlar o acesso e segurança dos arquivos.",
+            "Gerenciar a velocidade de processamento do computador.",
+            "Estabelecer comunicação entre dispositivos de entrada e saída.",
+            "Facilitar a transferência de dados entre diferentes dispositivos."
+        ],
+        "gabarito": "Alocar recursos de memória de forma eficiente."
+    },
+    {
+        "id": 38,
+        "enunciado": "Quanto ao gerenciamento de memória, o processo em que cada software em execução tem seu próprio espaço de endereçamento é o de",
+        "alternativas": [
+            "paginação.",
+            "segmentação.",
+            "sobreposição.",
+            "alocação.",
+            "virtualização."
+        ],
+        "gabarito": "virtualização."
+    },
+    {
+        "id": 39,
+        "enunciado": "Nos sistemas operacionais, manter todos os processos na memória o tempo inteiro exige um montante de memória que o computador nem sempre dispõe. Uma abordagem para lidar com esse tipo de sobrecarga de memória, que consiste em trazer cada processo para a memória em sua totalidade, executá-lo por um tempo e então colocá-lo de volta no disco, é denominada",
+        "alternativas": [
+            "memória expandida.",
+            "memória virtual.",
+            "paginação.",
+            "segmentação de memória.",
+            "swapping."
+        ],
+        "gabarito": "swapping."
+    },
+    {
+        "id": 40,
+        "enunciado": "A partir do contexto de gerenciamento de memória do sistema operacional, identifica-se diferentes técnicas de alocação de memória. Assinale a alternativa que se refere à técnica em que cada programa aloca uma partição com o tamanho exato de que precisa e não existe a fragmentação interna.",
+        "alternativas": [
+            "Alocação Particionada Dinâmica.",
+            "Alocação Particionada Estática Absoluta.",
+            "Alocação Particionada Estática.",
+            "Alocação Contígua Simples.",
+            "Alocação Particionada Estática Relocável."
+        ],
+        "gabarito": "Alocação Particionada Dinâmica."
+    },
+    {
+        "id": 41,
+        "enunciado": "Considerando conceitos básicos de Sistemas Operacionais (SO), analise as partes que seguem: Processo é um conjunto de instruções estáticas de software, não necessariamente precisa estar em execução (1º parte). Pode-se dizer que o diretório tem a finalidade de agrupar arquivos, o que permite que cada diretório possa ter pastas ou outros arquivos (2º parte). A memória RAM é considerada memória volátil, enquanto a memória ROM é categorizada como memória não volátil (3º parte).\nDas partes, pode-se afirmar que está(ão) CORRETA(S):",
+        "alternativas": [
+            "A 1ª, a 2ª e e a 3ª partes.",
+            "Somente a 1º parte.",
+            "Somente a 1º e a 2º partes.",
+            "Somente a 1º e a 3º partes.",
+            "Somente a 2º e a 3º partes."
+        ],
+        "gabarito": "Somente a 2º e a 3º partes."
+    },
+    {
+        "id": 42,
+        "enunciado": "Um analista de suporte realiza a instalação do sistema operacional Windows ou superior, exceto a 11, em um computador com um processador de 64bits e 8Gb de memória RAM; ao fim da instalação notou-se que aproximadamente 4Gb de memória RAM foram reconhecidos pelo sistema operacional, considerando que não há nenhum problema de hardware.\nAssinale a opção que indica o procedimento que o analista de suporte deverá fazer para que o sistema operacional reconheça os 8Gb de memória RAM.",
+        "alternativas": [
+            "Instalar novamente o sistema operacional Windows na versão 64 bits.",
+            "Realizar uma atualização do sistema operacional no Windows Update.",
+            "Realizar uma mudança de configuração no BIOS do computador.",
+            "Após uma mudança configuração no BIOS, reinstalar o sistema operacional.",
+            "Retirar a memória excedente para evitar problemas no funcionamento do Windows."
+        ],
+        "gabarito": "Instalar novamente o sistema operacional Windows na versão 64 bits."
+    },
+    {
+        "id": 43,
+        "enunciado": "Um problema antigo associado a sistemas operacionais é o tratamento de programas maiores do que a memória principal do computador. Sobre esse problema é correto afirmar que no método conhecido como Memória Virtual, empregado para superar esse problema,",
+        "alternativas": [
+            "o programa é armazenado completamente em memória na nuvem, a partir da qual é executado, superando-se a limitação de memória do computador.",
+            "cada programa possui o seu próprio espaço de endereçamento, que é dividido em blocos chamados de páginas.",
+            "o programa é carregado completamente na memória cache do computador, no qual permanece até a sua execução ser completada.",
+            "o programa fica carregado em um disco com capacidade adequada e nele é diretamente executado.",
+            "todas as páginas associadas a um programa precisam estar carregadas na memória física para que ele possa ser executado."
+        ],
+        "gabarito": "cada programa possui o seu próprio espaço de endereçamento, que é dividido em blocos chamados de páginas."
+    },
+    {
+        "id": 44,
+        "enunciado": "Acerca da gerência de memória, do sistema de entrada e saída (E/S) e dos sistemas de arquivos, julgue o item.\nA paginação visa a reduzir o tempo de acesso à memória principal, por meio do uso da memória secundária.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 45,
+        "enunciado": "Acerca da gerência de memória, do sistema de entrada e saída (E/S) e dos sistemas de arquivos, julgue o item.\nA técnica de gerenciamento de memória conhecida como segmentação divide o espaço de endereçamento de um processo em segmentos físicos, e todos eles são alocados, de forma conjunta, na memória física.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 46,
+        "enunciado": "Julgue o item a seguir, relativo a arquitetura de sistemas operacionais e a servidores físicos.\nEntre as diversas políticas de substituição do bloco/registro em memórias associativas, uma das mais utilizadas é a baseada em algoritmos LRU (least recently used), que visam a descartar os dados há mais tempo sem uso.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 47,
+        "enunciado": "No que se refere a mainframe, julgue o item a seguir, relativo a sistemas operacionais, gerenciamento de memória virtual, gerenciamento de dispositivos de entrada e saída e gerenciamento de sistemas de arquivos.\nAs abordagens de comunicação e sincronização de processos em sistemas operacionais modernos podem ser realizadas utilizando-se o método baseado em memória compartilhada.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 48,
+        "enunciado": "No que se refere a mainframe, julgue o item a seguir, relativo a sistemas operacionais, gerenciamento de memória virtual, gerenciamento de dispositivos de entrada e saída e gerenciamento de sistemas de arquivos.\nO impacto negativo causado no desempenho de sistemas computacionais é maior nas falhas de páginas de memórias virtuais do que nas falhas causadas por memórias caches multiníveis.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 49,
+        "enunciado": "A paginação de memória é feita pelo sistema operacional quando ocorre o esgotamento da memória",
+        "alternativas": [
+            "Principal.",
+            "Secundária.",
+            "ROM.",
+            "Cache.",
+            "SSD."
+        ],
+        "gabarito": "Principal."
+    },
+    {
+        "id": 50,
+        "enunciado": "Nos sistemas iOS, o mecanismo de gerenciamento de memória responsável pela liberação do espaço de memória ocupado por objetos de dados descartados é denominado",
+        "alternativas": [
+            "automatic reference counting.",
+            "memory management unit.",
+            "extended memory manager.",
+            "garbage collector.",
+            "smart drive."
+        ],
+        "gabarito": "automatic reference counting."
+    },
+    {
+        "id": 51,
+        "enunciado": "Assinale a alternativa correta com relação às funcionalidades e características de sistemas operacionais (SO).",
+        "alternativas": [
+            "Gerenciam a memória RAM e também a memória virtual.",
+            "Gerenciam o hardware, com exceção dos discos rígidos.",
+            "Microsoft e Linux constituem exemplos de sistemas operacionais.",
+            "Firmware, kernel e drivers de dispositivos são sempre componentes do sistema operacional.",
+            "Smartphones dispensam o uso de SO."
+        ],
+        "gabarito": "Gerenciam a memória RAM e também a memória virtual."
+    },
+    {
+        "id": 52,
+        "enunciado": "Na função de escalonamento de processos, um sistema operacional realiza o movimento de processos do disco (área de hospedagem de páginas) para a memória e vice-versa, denominado",
+        "alternativas": [
+            "snnaping-shot.",
+            "swinging-shot.",
+            "swapping.",
+            "swinging.",
+            "swapping-shout."
+        ],
+        "gabarito": "swapping."
+    },
+    {
+        "id": 53,
+        "enunciado": "No contexto do gerenciamento de memória e paginação sob demanda, o princípio de localidade espacial",
+        "alternativas": [
+            "supõe que o programa que está sendo processado no momento é o que veio de uma fila localizada na última posição do espaço de strap no disco.",
+            "é o que rege a localização, na memória principal, do endereço de início e fim de uma página pouco referenciada no tempo.",
+            "supõe que um programa sempre efetua acessos não estruturados no seu espaço de endereçamento.",
+            "é o que rege a localização, na memória principal, do endereço de início e fim de uma página altamente referenciada no tempo.",
+            "é a tendência do processador referenciar instruções e dados na memória principal localizados em endereços próximos."
+        ],
+        "gabarito": "é a tendência do processador referenciar instruções e dados na memória principal localizados em endereços próximos."
+    },
+    {
+        "id": 54,
+        "enunciado": "Ao estudar sobre gerenciamento de memória, uma Analista verificou que a memória é particionada em tamanhos fixos (não necessariamente iguais). Quando um processo é trazido para dentro da memória, é colocado na menor partição que é suficiente para acomodá-lo.\nCom o tempo, a memória pode ficar fragmentada ao deixar pequenos buracos. Para resolver esse problema usa-se um processo em que o sistema operacional",
+        "alternativas": [
+            "separa os processos afins em áreas contíguas, denominado fragmentação.",
+            "divide os processos maiores em blocos adjacentes, denominado racionalização.",
+            "executa e deleta primeiro os processos em fase de conclusão, libera a memória e realiza a compactação dirigida.",
+            "junta todos os processos em um mesmo bloco contíguo, denominado compactação.",
+            "junta todos os processos em blocos adjacentes, denominado fragmentação dirigida."
+        ],
+        "gabarito": "junta todos os processos em um mesmo bloco contíguo, denominado compactação."
+    },
+    {
+        "id": 55,
+        "enunciado": "Em relação a sistema operacional e virtualização, julgue o item a seguir.\nO objetivo da tabela de páginas é mapear as páginas virtuais em molduras de página física.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 56,
+        "enunciado": "Em relação a sistema operacional e virtualização, julgue o item a seguir.\nDe modo a não interromper o processamento e a execução dos programas no computador, a memória virtual será utilizada pelo sistema operacional quando a memória RAM já estiver preenchida.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 57,
+        "enunciado": "Em relação a sistema operacional e virtualização, julgue o item a seguir.\nA paginação é uma forma de gerenciamento da memória virtual em que esta é dividida em pequenas partes, que atuam como páginas da memória física.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 58,
+        "enunciado": "Em relação a sistema operacional e virtualização, julgue o item a seguir.\nNa memória física, as páginas e as molduras de páginas (page frames) possuem o mesmo tamanho; assim, se houver 16 molduras de página física, 16 páginas virtuais poderão ser mapeadas na memória física.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 59,
+        "enunciado": "Sobre a função de gerenciamento de memória do sistema operacional é correto afirmar que:",
+        "alternativas": [
+            "O gerenciador de memória deve balancear o uso da CPU entre os processos;",
+            "O gerenciador deve Maximizar o throughput do sistema.",
+            "É função dessa parte do SO conhecer quais regiões da memória estão em uso e quais não estão sendo usadas.",
+            "O gerenciador de memória também cuida da segurança no acesso aos arquivos.",
+            "O gerenciador de memória é responsável pelo boot do sistema."
+        ],
+        "gabarito": "É função dessa parte do SO conhecer quais regiões da memória estão em uso e quais não estão sendo usadas."
+    },
+    {
+        "id": 60,
+        "enunciado": "O movimento de processos da memória principal para o disco e vice-versa é denominado:",
+        "alternativas": [
+            "Swapping.",
+            "Overload.",
+            "Changging.",
+            "Clock.",
+            "Paginação."
+        ],
+        "gabarito": "Swapping."
+    },
+    {
+        "id": 61,
+        "enunciado": "A paginação é uma técnica que possibilita o gerenciamento dos espaços de endereçamentos virtuais e reais, dividindo a memória física em blocos de tamanho fixo denominados molduras de páginas (frames); a memória lógica é dividida em blocos de tamanho fixo conhecidos como páginas, auxiliando o Sistema Operacional na recuperação de dados do armazenamento secundário, permitindo, assim, que os programas excedam o tamanho da memória física disponível. Diante do exposto, analise as afirmativas a seguir.\nI. A estrutura de tabelas de paginação hierárquica quebra o espaço de endereço físico em múltiplas tabelas de página.\nII. A tabela de página invertida possui uma entrada por moldura na memória física em vez de uma entrada por página no espaço virtual.\nIII. No endereçamento em dois níveis, a tabela de página é paginada e o número de página é dividido em PT1 (10 bits) com o deslocamento da tabela mais externa e PT2 (12 bits) com o índice da tabela mais externa.\nEstá correto o que se afirma apenas em",
+        "alternativas": [
+            "I.",
+            "II.",
+            "III.",
+            "II e III."
+        ],
+        "gabarito": "II."
+    },
+    {
+        "id": 62,
+        "enunciado": "Com relação a sistemas operacionais, julgue o item seguinte.\nA técnica de swap efetua o intercâmbio de informações da memória RAM para um disco, e vice-versa, de acordo com a execução dos processos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 63,
+        "enunciado": "Quando os processos são executados, precisam ocupar espaço na memória para que o computador possa ler e carregá-los rapidamente. Selecione a alternativa que mostra um mecanismo em que um processo pode ser movido temporariamente da memória principal para o armazenamento secundário e disponibilizar essa memória para outros processos.",
+        "alternativas": [
+            "Paginação.",
+            "FIFO.",
+            "Fragmentação.",
+            "Segmentação.",
+            "Swapping."
+        ],
+        "gabarito": "Swapping."
+    },
+    {
+        "id": 64,
+        "enunciado": "O status da atividade atual de um processo é representado pelo valor do contador do programa e pelo conteúdo dos registradores do processador. Selecione a seção do layout de memória de um processo que representa a memória alocada dinamicamente durante o tempo de execução do programa.",
+        "alternativas": [
+            "Seção de texto.",
+            "Seção heap.",
+            "Seção de dados.",
+            "Seção pilha (Stack).",
+            "Seção de controle."
+        ],
+        "gabarito": "Seção heap."
+    },
+    {
+        "id": 65,
+        "enunciado": "O espaço de endereçamento é o conjunto de endereços que um processo pode usar para endereçar uma memória. Assim, o programa do usuário lida com endereços lógicos, enquanto o hardware converte os endereços lógicos em físicos. Indique as opções corretas sobre o assunto.\nI. Os endereços físicos são bytes de memória física do computador que não podem ser definidos pela quantidade disponível pela máquina.\nII. O mapeamento de endereços virtuais para endereços físicos é realizado por um hardware denominado de MMU (memory-management unit – Unidade de gerenciamento da memória) em tempo de execução.\nIII. Todo endereço lógico pode ser convertido em endereço físico.\nIV. Para o funcionamento correto da MMU é necessário a interceptação do acesso do processador ao barramento de endereços para realizar a conversão.\nEstão corretos apenas os itens:",
+        "alternativas": [
+            "I e II.",
+            "I e III.",
+            "II e III.",
+            "II e IV.",
+            "III e IV."
+        ],
+        "gabarito": "II e IV."
+    },
+    {
+        "id": 66,
+        "enunciado": "Durante a inicialização dos sistemas operacionais modernos muitos processos são inicializados juntos. Processos secundários como o verificador de atualizações geralmente consomem entre 5 a 10 MB de memória. Assim, para a manutenção de muitos processos na memória é necessário ter uma quantidade enorme, caso contrário as atualizações não podem ser realizadas. Existem duas técnicas para lidar com a sobrecarga de memória, são elas:",
+        "alternativas": [
+            "Swapping e espaço de endereçamento.",
+            "Troca de memória e compactação de memória.",
+            "Sobreposição e troca de contexto.",
+            "Memória virtual e espaço de endereçamento real.",
+            "Permuta entre processos e memória virtual."
+        ],
+        "gabarito": "Permuta entre processos e memória virtual."
+    },
+    {
+        "id": 67,
+        "enunciado": "Quando segmentos de memória que estão sendo usados e segmentos livres são ordenados por uma lista de endereços é viável utilizar diversos tipos de algoritmos de alocação de memória a um processo. O algoritmo que sempre varre a memória e escolhe o maior segmento disponível é o:",
+        "alternativas": [
+            "Fifo fit.",
+            "First fit.",
+            "Next fit.",
+            "Best fit.",
+            "Worst fit."
+        ],
+        "gabarito": "Worst fit."
+    },
+    {
+        "id": 68,
+        "enunciado": "A parte de um sistema operacional que gerencia a hierarquia de memórias, que controla quais partes estão sendo usadas, que aloca memória para processos e as liberar após o uso, é denominada",
+        "alternativas": [
+            "Controlador de Acesso Direto à Memória.",
+            "Escalonador.",
+            "Gerenciador de Memória.",
+            "Paginador.",
+            "Virtualizador de Memória."
+        ],
+        "gabarito": "Gerenciador de Memória."
+    },
+    {
+        "id": 69,
+        "enunciado": "As técnicas de paginação e segmentação utilizadas em memória virtual apresentam algumas características, como:",
+        "alternativas": [
+            "na segmentação, o espaço de endereçamento virtual consiste em unidades de tamanho fixo chamadas de páginas.",
+            "na paginação, o espaço de endereçamento virtual consiste em unidades de tamanho variável, chamadas de páginas.",
+            "na paginação, a troca de páginas é chamada de spinning.",
+            "os segmentos de memória utilizados na segmentação podem ter tamanhos diferentes.",
+            "uma das diferenças entre segmentação e paginação é que a segunda não utiliza memória secundária."
+        ],
+        "gabarito": "os segmentos de memória utilizados na segmentação podem ter tamanhos diferentes."
+    },
+    {
+        "id": 70,
+        "enunciado": "Há circunstâncias em que um computador não possui memória suficiente para manter os programas demandados ao mesmo tempo pelo usuário. Nessas situações, a maioria dos sistemas operacionais utiliza parte da memória secundária para aumentar os recursos disponíveis. Essa técnica denomina-se",
+        "alternativas": [
+            "Memória virtual.",
+            "Kernel.",
+            "Thread.",
+            "Reboot.",
+            "Load."
+        ],
+        "gabarito": "Memória virtual."
+    },
+    {
+        "id": 71,
+        "enunciado": "Quando um sistema operacional atinge ou se aproxima de seu limite de memória, é comum que haja excesso no consumo de recursos para lidar com operações de paginação. É como se o sistema estivesse utilizando seus recursos para gerenciar as alocações para os respectivos trabalhos, de forma que os próprios trabalhos em si perdem prioridade. Nessas situações, o sistema se torna lento e, por vezes, simplesmente trava.\nA essa condição problemática dá-se o nome de",
+        "alternativas": [
+            "SMP.",
+            "Socket.",
+            "Overlay.",
+            "Clusterização.",
+            "Thrashing."
+        ],
+        "gabarito": "Thrashing."
+    },
+    {
+        "id": 72,
+        "enunciado": "No gerenciamento de memória de sistemas operacionais, tem-se o conceito de memória virtual, que considera que cada programa tem o seu próprio espaço de endereçamento, o qual é dividido em blocos chamados de páginas,",
+        "alternativas": [
+            "e quando um programa referencia uma parte do espaço de endereçamento que está na memória física, ocorrerá um erro e a execução do programa será abortada.",
+            "mas a memória virtual funcionará bem apenas em sistemas que não utilizam multiprogramação.",
+            "o que impossibilita que uma aplicação possa utilizar mais memória do que a que existe fisicamente.",
+            "que apresenta como efeito colateral possibilitar que um processo utilize um endereço de memória que não lhe pertença.",
+            "que são mapeadas na memória física, mas nem todas precisam estar na memória física ao mesmo tempo para se executar o programa."
+        ],
+        "gabarito": "que são mapeadas na memória física, mas nem todas precisam estar na memória física ao mesmo tempo para se executar o programa."
+    },
+    {
+        "id": 73,
+        "enunciado": "Analise as afirmativas abaixo sobre gerenciamento de memória em sistemas operacionais e assinale a alternativa correta.\nI. Na técnica de paginação, o espaço de endereçamento virtual dos processos é dividido em unidades de armazenamento de tamanho fixo denominadas molduras de páginas.\nII. Se um endereço virtual possui 15 bits e o sistema de paginação utiliza páginas de 4KB, então a tabela de páginas de um processo deverá ter no máximo 8 entradas.\nIII. O Translation Lookaside Buffer (TLB) é uma memória cache em hardware que serve para traduzir endereços físicos em endereços virtuais.\nIV. Em sistemas que utilizam tabelas de páginas multinível, cada página virtual pode possuir dois ou mais níveis.",
+        "alternativas": [
+            "Somente as afirmativas I e III estão corretas.",
+            "Somente as afirmativas III e IV estão corretas.",
+            "Somente as afirmativas II e IV estão corretas.",
+            "Somente a afirmativa I está correta.",
+            "Somente a afirmativa II está correta."
+        ],
+        "gabarito": "Somente a afirmativa II está correta."
+    },
+    {
+        "id": 74,
+        "enunciado": "No gerenciamento de memória, por meio de determinada técnica, todos os espaços vazios na memória deixados pelas trocas de processos podem ser combinados em um único espaço contíguo de memória, sendo movidos, o máximo possível, para os endereços mais baixos. Trata-se da técnica de",
+        "alternativas": [
+            "compactação de memória.",
+            "swapping.",
+            "expansão de memória.",
+            "mapa de bits.",
+            "sobreposição."
+        ],
+        "gabarito": "compactação de memória."
+    },
+    {
+        "id": 75,
+        "enunciado": "A maioria dos sistemas com memória virtual utiliza uma técnica denominada paginação – uma das técnicas mais comuns de alocação não contígua de memória. No que se refere a tal técnica, assinale a afirmativa correta.",
+        "alternativas": [
+            "As páginas e as molduras de página possuem tamanhos diferentes.",
+            "As transferências entre memória e disco podem ser realizadas em páginas incompletas.",
+            "O objetivo da tabela de páginas é mapear molduras de página física em páginas virtuais.",
+            "A MMU (Memory Management Unit) tem a função de mapear endereços virtuais em endereços físicos."
+        ],
+        "gabarito": "A MMU (Memory Management Unit) tem a função de mapear endereços virtuais em endereços físicos."
+    },
+    {
+        "id": 76,
+        "enunciado": "“Mapeia o espaço de endereçamento de cada processo em uma parte diferente da memória física de uma maneira simples.” Considerando o gerenciamento de memória em sistemas operacionais, a informação apresentada se refere a:",
+        "alternativas": [
+            "Swapping.",
+            "Memória virtual.",
+            "Realocação dinâmica.",
+            "Compactação de memória."
+        ],
+        "gabarito": "Realocação dinâmica."
+    },
+    {
+        "id": 77,
+        "enunciado": "Julgue o item subsecutivo, a respeito de balanceamento de carga e conceitos de falhas e recuperação.\nPara a recuperação de falhas, é utilizada a técnica de paginação em sombra, que consiste em fazer uma cópia das operações realizadas no banco de dados em outro esquema igual ao utilizado no banco corrente.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 78,
+        "enunciado": "Segundo TANENBAUM, a memória é um recurso limitado de um computador. Ao utilizar muitos programas pesados ao mesmo tempo, o computador pode não ter memória disponível o suficiente para todos os programas. Existem algumas técnicas para lidar com a sobrecarga de memória de um computador. Considerando-se a descrição a seguir, sobre um tipo de técnica utilizada, assinalar a alternativa que preenche a lacuna abaixo CORRETAMENTE:\nA estratégia mais simples, chamada de ______________ (troca de processos), consiste em trazer cada processo em sua totalidade, executá-lo por um tempo e então colocá-lo de volta no disco.",
+        "alternativas": [
+            "Swapping.",
+            "Memória virtual.",
+            "Boot loader.",
+            "BitLocker.",
+            "Hyper-Threading."
+        ],
+        "gabarito": "Swapping."
+    },
+    {
+        "id": 79,
+        "enunciado": "Sobre os conceitos de gerenciamento de memória em sistemas operacionais, assinale a alternativa correta.",
+        "alternativas": [
+            "Em sistemas sem memória virtual, o gerenciamento de memória não é necessário.",
+            "Memória virtual é incompatível com o conceito de Paginação.",
+            "Técnicas podem ser aplicadas para permitir que a memória física seja estendida por outros espaços de armazenamento, como o disco.",
+            "Sem memória virtual não se pode realizar troca de páginas.",
+            "Alocação de memória dinamicamente (heap) não é permitida sem memória virtual."
+        ],
+        "gabarito": "Técnicas podem ser aplicadas para permitir que a memória física seja estendida por outros espaços de armazenamento, como o disco."
+    },
+    {
+        "id": 80,
+        "enunciado": "A memória virtual expande a memória total disponível em um sistema adicionando à memória real um espaço em disco (memória secundária). Essa área em disco corresponde ao que se denomina área de swap.\nA esse respeito, preencha corretamente as lacunas do texto.\nA área de swap pode ser implementada por intermédio de um arquivo específico, como nos sistemas operacionais da família ou em partições de disco dedicadas à finalidade, como na família.\nA sequência que preenche corretamente as lacunas é",
+        "alternativas": [
+            "Unix / Mac OS.",
+            "Microsoft / Unix.",
+            "Linux / Windows.",
+            "Mac OS / Microsoft."
+        ],
+        "gabarito": "Microsoft / Unix."
+    },
+    {
+        "id": 81,
+        "enunciado": "Com relação à gerência de memória por parte dos sistemas operacionais, analise as afirmativas a seguir e marque a alternativa correta.\nI - Na técnica de alocação particionada dinâmica, como cada partição da memória tem tamanho variável, evita-se, em definitivo, o problema de fragmentação.\nII - Na segmentação, o endereço de memória possui duas partes: o segmento (ou base) e o deslocamento (posição no segmento).",
+        "alternativas": [
+            "Ambas as afirmativas estão corretas.",
+            "Somente a afirmativa I está correta.",
+            "Somente a afirmativa II está correta.",
+            "Nenhuma das afirmativas está correta."
+        ],
+        "gabarito": "Somente a afirmativa II está correta."
+    }
+]

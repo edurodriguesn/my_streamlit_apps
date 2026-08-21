@@ -1,0 +1,549 @@
+[
+    {
+        "id": 1,
+        "enunciado": "Julgue o item subsequente, relativo ao desenvolvimento de sistemas de computação.\nUDDI é uma linguagem usada para a formatação de documentos JSON para comunicação entre serviços web.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "assunto": "TI - Desenvolvimento de Sistemas - UDDI",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 2,
+        "enunciado": "UDDI normalmente é usado com outros padrões nos serviços web. Para descrever interfaces para os serviços web, o UDDI é utilizado com",
+        "alternativas": [
+            "WSDL.",
+            "JSON.",
+            "XML.",
+            "SOAP.",
+            "REST."
+        ],
+        "gabarito": "WSDL.",
+        "assunto": "TI - Desenvolvimento de Sistemas - UDDI",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 3,
+        "enunciado": "O padrão UDDI define",
+        "alternativas": [
+            "uma forma padrão de publicar, catalogar e descobrir web services.",
+            "uma forma padrão de converter chamadas baseadas no protocolo SOAP para REST.",
+            "uma linguagem de programação para implementar web services.",
+            "um protocolo de transporte para comunicação encriptada em requisições e respostas de web services.",
+            "um mecanismo de autenticação por múltiplos fatores para ser utilizado em chamadas de web services."
+        ],
+        "gabarito": "uma forma padrão de publicar, catalogar e descobrir web services.",
+        "assunto": "TI - Desenvolvimento de Sistemas - UDDI",
+        "banca": "VUNESP"
+    },
+    {
+        "id": 4,
+        "enunciado": "Analise as afirmativas a seguir:\nI. UDDI, Universal Description, Discovery and Integration, pode ser definida como uma das tecnologias que possibilitam o uso de web services. Uma implementação de UDDI corresponde a um Web Service registry, que provê um mecanismo para busca e publicação web services.\nII. Um UDDI registry possui informações categorizadas sobre os serviços e as funcionalidades que eles oferecem, e permite a associação desses serviços com suas informações técnicas, geralmente definidas usando WSDL.\nIII. O arquivo de descrição em WSDL descreve as funcionalidades do web service, a forma de comunicação, mas não consegue descrever sua localização.\nMarque a alternativa CORRETA:",
+        "alternativas": [
+            "Todas as afirmativas estão corretas.",
+            "Nenhuma afirmativa está correta.",
+            "Apenas uma afirmativa está correta.",
+            "Apenas duas afirmativas estão corretas."
+        ],
+        "gabarito": "Apenas duas afirmativas estão corretas.",
+        "assunto": "TI - Desenvolvimento de Sistemas - UDDI",
+        "banca": "ADM&TEC"
+    },
+    {
+        "id": 5,
+        "enunciado": "Julgue o item a seguir acerca de intranet, extranet, UDDI, XSLT e DevOps.\nOs registros UDDI podem estar disponíveis de forma pública ou privada.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "assunto": "TI - Desenvolvimento de Sistemas - UDDI",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 6,
+        "enunciado": "O Modelo de Informação do UDDI é formado por vários elementos XML relacionados entre si. O elemento-raiz que encapsula todas as informações referentes a uma “empresa” é:",
+        "alternativas": [
+            "tModel.",
+            "businessEntity.",
+            "businessService.",
+            "bindingTemplate."
+        ],
+        "gabarito": "businessEntity.",
+        "assunto": "TI - Desenvolvimento de Sistemas - UDDI",
+        "banca": "CONSULPLAN"
+    },
+    {
+        "id": 7,
+        "enunciado": "A respeito dos padrões XML, SOAP e WSDL, julgue o item que se segue.\nUm provedor de UDDI pode ser considerado repositório, uma vez que ele armazena recursos XML como WSDL.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "assunto": "TI - Desenvolvimento de Sistemas - UDDI",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 8,
+        "enunciado": "Acerca dos padrões UDDI, SOAP e REST, julgue o item a seguir.\nA seguir, é apresentado um exemplo de UDDI para um serviço hipotético de nome OperationX.\n<binding name=\"MyBinding\" type=\"tns:abc\" > <soap:binding style=\"rpc\" transport=\"http:// schemas.xmlsoap.org/soap/http\"/> <operation name=\"OperationX\"> <soap:operation soapAction=\"\"/> <input> <mime:multipartRelated> <mime:part> <soap:body parts=\"part1 part2...\" use=\"encoded\" namespace=\"http://mynamespace\" encodingStyle=\"http://schemas.xmlsoap.org/ soap/encoding\"/> </mime:part> <mime:part> <mime:content part=\"attch\" type=\" text/html\"/> </mime:part> </mime:multipartRelated> </input> </operation> </binding>",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "assunto": "TI - Desenvolvimento de Sistemas - UDDI",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 9,
+        "enunciado": "Considere uma organização que disponibiliza Web Services para clientes e colaboradores na sua rede corporativa. Visando facilitar o acesso, um serviço de busca de diretórios e serviços é implantado usando a especificação UDDI (Universal Directory and Discovery Integration). Sobre o acesso das aplicações clientes a esse serviço, podemos afirmar que",
+        "alternativas": [
+            "precisam formatar as mensagens de consulta no formato SOAPXDDI.",
+            "os clientes recuperam o ponto de acesso ou endpoint de um serviço registrado através da estrutura businessServices e sua operação correspondente get_ServiceDetail.",
+            "os clientes recuperam o ponto de acesso ou endpoint de um serviço registrado através da estrutura bindingTemplate e sua operação correspondente get_bindingDetail.",
+            "ao contrário do acesso aos serviços funcionais, o acesso ao UDDI não deve envolver o processamento de especificações WSDL por questões de desempenho.",
+            "ao contrário do acesso aos serviços funcionais, o acesso ao UDDI não deve envolver o processamento de mensagens SOAP por questões de desempenho."
+        ],
+        "gabarito": "os clientes recuperam o ponto de acesso ou endpoint de um serviço registrado através da estrutura bindingTemplate e sua operação correspondente get_bindingDetail.",
+        "assunto": "TI - Desenvolvimento de Sistemas - UDDI",
+        "banca": "IDECAN"
+    },
+    {
+        "id": 10,
+        "enunciado": "A reutilização de serviços web é um princípio essencial da Arquitetura Orientada a Serviços (SOA).\nUma forma padronizada de publicar e descobrir informações sobre os serviços web em SOA é por meio do serviço de diretório:",
+        "alternativas": [
+            "UDDI;",
+            "SOAP;",
+            "XML;",
+            "ESB;",
+            "BPEL."
+        ],
+        "gabarito": "UDDI;",
+        "assunto": "TI - Desenvolvimento de Sistemas - UDDI",
+        "banca": "FGV"
+    },
+    {
+        "id": 11,
+        "enunciado": "Assinale a alternativa que apresenta o serviço de diretório onde empresas podem registrar (publicar) e buscar (descobrir) por Serviços Web (Web Services):",
+        "alternativas": [
+            "UDDI.",
+            "NIS.",
+            "WSDL.",
+            "X.500.",
+            "LDAP."
+        ],
+        "gabarito": "UDDI.",
+        "assunto": "TI - Desenvolvimento de Sistemas - UDDI",
+        "banca": "IBFC"
+    },
+    {
+        "id": 12,
+        "enunciado": "Julgue o próximo item, relativo aos padrões XML, XSLT, UDDI, WSDL, SOAP e JSON/REST.\nUm nó UDDI é membro de um único registro UDDI.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "assunto": "TI - Desenvolvimento de Sistemas - UDDI",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 13,
+        "enunciado": "Com relação à interoperabilidade de sistemas, julgue o item subsequente.\nOs documentos técnicos e de suporte necessários a desenvolvedores que utilizem web services não são armazenados no registro do UDDI.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "assunto": "TI - Desenvolvimento de Sistemas - UDDI",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 14,
+        "enunciado": "O Web service, arquitetura de serviços desenvolvido pelo W3C, possibilita que serviços sejam registrados, disponibilizados e utilizados na Web. Nessa arquitetura, um Web service que gerencia informações sobre provedores, implementações e metadados de serviços em uma estrutura de diretório é denominado",
+        "alternativas": [
+            "UDDI.",
+            "WSDL.",
+            "XML.",
+            "SOA.",
+            "SOAP."
+        ],
+        "gabarito": "UDDI.",
+        "assunto": "TI - Desenvolvimento de Sistemas - UDDI",
+        "banca": "VUNESP"
+    },
+    {
+        "id": 15,
+        "enunciado": "Qual das seguintes especificações apresenta um padrão que define exclusivamente mecanismos para publicar e descobrir web services?",
+        "alternativas": [
+            "X.509.",
+            "WSDL.",
+            "SOAP.",
+            "UDDI.",
+            "XMLDIR."
+        ],
+        "gabarito": "UDDI.",
+        "assunto": "TI - Desenvolvimento de Sistemas - UDDI",
+        "banca": "FEPESE"
+    },
+    {
+        "id": 16,
+        "enunciado": "Um web service deve ser visto como a convergência de um conjunto de tecnologias, dentre elas o UDDI, que é um padrão para publicação e localização de web services por meio de consultas (queries) baseadas em mensagens SOAP e documentos XML. O UDDI é responsável por armazenar informações sobre o responsável pelo web service, o que o web service faz, a localização do web service e sobre como acessar seus serviços. Estas informações são divididas e organizadas em grupos semânticos conhecidos como páginas (pages). As páginas que contêm informações técnicas que descrevem o comportamento e as operações suportadas pelo serviço hospedado (incluindo indicadores para a localização do serviço) são conhecidas como",
+        "alternativas": [
+            "green pages.",
+            "yellow pages.",
+            "white pages.",
+            "black pages.",
+            "red pages."
+        ],
+        "gabarito": "green pages.",
+        "assunto": "TI - Desenvolvimento de Sistemas - UDDI",
+        "banca": "FCC"
+    },
+    {
+        "id": 17,
+        "enunciado": "Na Arquitetura Orientada a Serviços (SOA), o serviço de diretórios onde uma organização publica e busca por serviços web é denominado:",
+        "alternativas": [
+            "UDDI;",
+            "WSDL;",
+            "SOAP;",
+            "REST;",
+            "AOS."
+        ],
+        "gabarito": "UDDI;",
+        "assunto": "TI - Desenvolvimento de Sistemas - UDDI",
+        "banca": "FGV"
+    },
+    {
+        "id": 18,
+        "enunciado": "Considere a implementação de serviços web (web services), empregando uma arquitetura baseada em serviços (Services Oriented Architecture – SOA).\nAssinale a alternativa que permite publicar e descobrir informações sobre um determinado serviço web.",
+        "alternativas": [
+            "JSON.",
+            "XML.",
+            "UDDI.",
+            "WSDL.",
+            "SOAP."
+        ],
+        "gabarito": "UDDI.",
+        "assunto": "TI - Desenvolvimento de Sistemas - UDDI",
+        "banca": "FAURGS"
+    },
+    {
+        "id": 19,
+        "enunciado": "Acerca de interoperabilidade de sistemas, julgue o item subsequente.\nNos registros de negócio UDDI, a descrição da forma de acesso aos web services é um procedimento contido nas páginas verdes (green pages).",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "assunto": "TI - Desenvolvimento de Sistemas - UDDI",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 20,
+        "enunciado": "Em relação ao UDDI (Universal Description Discover and Integration), marque V para verdadeiro ou F para falso e, em seguida, assinale a alternativa que apresenta a sequência correta.\n( ) Padrão desenvolvido para fornecer um diretório de busca para os negócios e seus serviços, com o objetivo de ser um mediador do serviço, permitindo aos clientes requisitantes encontrar um fornecedor do serviço apropriado.\n( ) Baseado em PHP, com uma plataforma neutra de dados que permite descrever as relações hierárquicas de forma simplificada.\n( ) Os dados em um registro UDDI só podem ser conceitualmente divididos nas categorias Modelos Técnicos, Negócios e Serviços do Negócio.\n( ) O elemento businessEntity é um elemento filho do businessService e descreve a função de negócio de um serviço.",
+        "alternativas": [
+            "F/ V/ V/ V.",
+            "V/ V/ F/ F.",
+            "F/ F/ F/ F.",
+            "V/ V/ F/ V.",
+            "V/ F/ F/ F."
+        ],
+        "gabarito": "V/ F/ F/ F.",
+        "assunto": "TI - Desenvolvimento de Sistemas - UDDI",
+        "banca": "CETRO"
+    },
+    {
+        "id": 21,
+        "enunciado": "Que tecnologia independente de plataforma é usada como mecanismo de registro e publicação de serviços Web?",
+        "alternativas": [
+            "UDDI.",
+            "SOAP.",
+            "REST.",
+            "WADL.",
+            "JSP."
+        ],
+        "gabarito": "UDDI.",
+        "assunto": "TI - Desenvolvimento de Sistemas - UDDI",
+        "banca": "CESGRANRIO"
+    },
+    {
+        "id": 22,
+        "enunciado": "UDDI (Universal Description, Discovery and Integration) é um dos componentes da Arquitetura Orientada a Serviços (SOA), e sua função nessa arquitetura é:",
+        "alternativas": [
+            "prover a descrição dos serviços;",
+            "prover a publicação e descoberta de serviços;",
+            "prover comunicação entre serviços;",
+            "atuar como o protocolo padrão de comunicação;",
+            "atuar como uma linguagem de marcação para descrição, publicação e descoberta de serviços."
+        ],
+        "gabarito": "prover a publicação e descoberta de serviços;",
+        "assunto": "TI - Desenvolvimento de Sistemas - UDDI",
+        "banca": "FEMPERJ"
+    },
+    {
+        "id": 23,
+        "enunciado": "Uma empresa pode registrar 3 tipos de informação em um UDDI, quais a saber:",
+        "alternativas": [
+            "Páginas brancas, amarelas e verdes.",
+            "Páginas brancas, pretas e vermelhas.",
+            "Páginas vermelhas, amarelas e verdes.",
+            "Páginas pretas, azuis e laranjas.",
+            "Páginas azuis, vermelhas e amarelas."
+        ],
+        "gabarito": "Páginas brancas, amarelas e verdes.",
+        "assunto": "TI - Desenvolvimento de Sistemas - UDDI",
+        "banca": "PUC PR"
+    },
+    {
+        "id": 24,
+        "enunciado": "No que se refere a interoperabilidade de sistemas e web services, julgue o item seguinte.\nA UDDI, que usa a linguagem XML Schema e sua terminologia, como “sequence” e “choice” para descrever formalmente suas estruturas de dados, tem como um de seus objetivos a definição de um conjunto de métodos para descrição e descoberta de serviços e provedores de Web Services.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "assunto": "TI - Desenvolvimento de Sistemas - UDDI",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 25,
+        "enunciado": "Qualquer organização que pretenda basear suas aplicações em serviços web achará mais conveniente usar um serviço de diretório para tornar esses serviços disponíveis para os clientes. Esse é o objetivo do:",
+        "alternativas": [
+            "UDI.",
+            "UDDI.",
+            "UDDS.",
+            "UPD.",
+            "SDC."
+        ],
+        "gabarito": "UDDI.",
+        "assunto": "TI - Desenvolvimento de Sistemas - UDDI",
+        "banca": "Com. Org. (IFSP)"
+    },
+    {
+        "id": 26,
+        "enunciado": "No contexto de serviços Web, o padrão UDDI define o conceito de página. A finalidade das páginas",
+        "alternativas": [
+            "amarelas é descrever como acessar um serviço, com informações sobre os meios de ligação (binding) a esse serviço.",
+            "azuis é descrever os servidores que dão suporte à especificação UDDI e que pertencem a um registro UDDI.",
+            "brancas é dar informações sobre a instituição (corporação) que fornece um serviço a ser consumido.",
+            "verdes é fornecer uma classificação do serviço ou de negócios, com base em taxonomias padronizadas.",
+            "vermelhas é informar sobre os mecanismos de tratamento de exceções fornecidos por um serviço a ser consumido."
+        ],
+        "gabarito": "brancas é dar informações sobre a instituição (corporação) que fornece um serviço a ser consumido.",
+        "assunto": "TI - Desenvolvimento de Sistemas - UDDI",
+        "banca": "CESGRANRIO"
+    },
+    {
+        "id": 27,
+        "enunciado": "De acordo com a OASIS, é um elemento central do grupo de padrões que compõem a pilha de componentes dos serviços web e que têm como objetivo descrever, descobrir e integrar tais serviços. Trata-se de",
+        "alternativas": [
+            "WSDL.",
+            "SOAP.",
+            "UDDI.",
+            "DHCP.",
+            "XSL."
+        ],
+        "gabarito": "UDDI.",
+        "assunto": "TI - Desenvolvimento de Sistemas - UDDI",
+        "banca": "FCC"
+    },
+    {
+        "id": 28,
+        "enunciado": "Acerca de interoperabilidade de sistemas, julgue o item a seguir.\nEm web services, o UDDI (universal description, discovery and integration) permite que os clientes requisitantes encontrem um fornecedor para o serviço desejado.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "assunto": "TI - Desenvolvimento de Sistemas - UDDI",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 29,
+        "enunciado": "Acerca de web services, e-ping, XML e XSLT, julgue o item a seguir.\nWeb service é uma solução lógica que oferece a possibilidade de recuperar informações remotamente por meio de cloud computing. Esse serviço utiliza a definição WSDL em um ou mais XML Schemas, que são armazenados na UDDI.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "assunto": "TI - Desenvolvimento de Sistemas - UDDI",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 30,
+        "enunciado": "O formato específico para definição e troca de processo de negócio entre WfMS (ou entre a engine de um WfMS e uma ferramenta de especificação), que seguem o padrão de referência da WfMC (Workflow Management Coalition) e a gramática usada para sua descrição é",
+        "alternativas": [
+            "SOAP.",
+            "UDDI.",
+            "WSDL.",
+            "WPDL.",
+            "XML."
+        ],
+        "gabarito": "WPDL.",
+        "assunto": "TI - Desenvolvimento de Sistemas - UDDI",
+        "banca": "FCC"
+    },
+    {
+        "id": 31,
+        "enunciado": "Em relação à arquitetura de aplicações para o ambiente Internet, considere:\nI. Na UDDI a estrutura de dados é composta por businessEntity, contendo informação sobre a organização; businessService, com a descrição do serviço;\nbindingTemplate, contendo a informação de como invocar o serviço; e tModel, que contem informação sobre especificações técnicas do serviço.\nII. Na UDDI a informação de categoria Green Pages contém informação técnica sobre um Web service, geralmente incluindo um ponteiro para uma especificação externa e um endereço para invocar o serviço, que pode ser baseado em SOAP e outros.\nIII. WSDL define o endereço para invocar determinado Web service, por meio da identificação, da URL de acesso e da ligação com o binding já definido.\nIV. O SOAP pode ser facilmente implementado em virtualmente qualquer ambiente de programação. É simples de implementar, testar e usar; é independente do sistema operacional e CPU; tanto os dados como as funções são descritas em XML, o que torna o protocolo não apenas fácil de usar como também muito robusto;\natravessa firewall e roteadores, que “pensam” que é uma comunicação HTTP.\nÉ correto o que se afirma em",
+        "alternativas": [
+            "I, II, III e IV.",
+            "I, II e III, apenas.",
+            "I, II e IV, apenas.",
+            "I e II, apenas.",
+            "III e IV, apenas."
+        ],
+        "gabarito": "I, II, III e IV.",
+        "assunto": "TI - Desenvolvimento de Sistemas - UDDI",
+        "banca": "FCC"
+    },
+    {
+        "id": 32,
+        "enunciado": "Em relação aos serviços e aplicações web, julgue o item a seguir.\nUm componente importante da arquitetura de serviços web é formado por um serviço de diretório que armazena descrições de serviços. Esse serviço deve obedecer ao padrão UDDI (universal description, discovery and integration).",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "assunto": "TI - Desenvolvimento de Sistemas - UDDI",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 33,
+        "enunciado": "Podemos afirmar sobre os “Web Services”:",
+        "alternativas": [
+            "Trata-se de uma tecnologia desenvolvida pela Microsoft que permite a descoberta e utilização de serviços Web.",
+            "SOAP é um protocolo para troca de informações estruturadas utilizando tecnologias baseadas em XHTML.",
+            "O Web Services Description Language (WSDL) é uma linguagem baseada em XHTML utilizada para descrever “Web Services”.",
+            "UDDI é uma especificação técnica, que tem como objetivo a implementação de “web services” independentes de plataforma.",
+            "O WS-Security (Web Services Security) é uma iniciativa destinada ao uso da XML-Signature e da XML-Encryption para fornecer segurança às mensagens SOAP."
+        ],
+        "gabarito": "O WS-Security (Web Services Security) é uma iniciativa destinada ao uso da XML-Signature e da XML-Encryption para fornecer segurança às mensagens SOAP.",
+        "assunto": "TI - Desenvolvimento de Sistemas - UDDI",
+        "banca": "CCC IFCE"
+    },
+    {
+        "id": 34,
+        "enunciado": "Quando uma aplicação-cliente não detém, em princípio, a localização de um serviço na Web, ela utiliza uma técnica para descobrir e integrar esses serviços e possibilitar aos usuários descobrir serviços que lhes interessem. Esse mecanismo para os fornecedores anunciarem a existência de seus serviços e para os consumidores localizarem os serviços de seu interesse é proporcionado pelo protocolo",
+        "alternativas": [
+            "MathML.",
+            "SOAP.",
+            "WSDL.",
+            "SGML.",
+            "UDDI."
+        ],
+        "gabarito": "UDDI.",
+        "assunto": "TI - Desenvolvimento de Sistemas - UDDI",
+        "banca": "FCC"
+    },
+    {
+        "id": 35,
+        "enunciado": "Na arquitetura de Web Services, o componente que compreende um serviço de diretórios para armazenamento de descrições de serviços é",
+        "alternativas": [
+            "o Protocolo de Acesso a Objetos Simples (SOAP).",
+            "a Descrição, Descoberta e Integração Universal (UDDI).",
+            "a Linguagem de Definição de Web Services (WSDL).",
+            "a Linguagem de Marcação Hiper-Texto (HTML).",
+            "a Arquitetura TCP/IP."
+        ],
+        "gabarito": "a Descrição, Descoberta e Integração Universal (UDDI).",
+        "assunto": "TI - Desenvolvimento de Sistemas - UDDI",
+        "banca": "ESAF"
+    },
+    {
+        "id": 36,
+        "enunciado": "No âmbito dos Web services, é um padrão que define como as informações de descrição de serviços usadas para descobrí-los podem ser organizadas. Trata-se de",
+        "alternativas": [
+            "UDDI.",
+            "SOA.",
+            "WebApp.",
+            "Javascript.",
+            "DML."
+        ],
+        "gabarito": "UDDI.",
+        "assunto": "TI - Desenvolvimento de Sistemas - UDDI",
+        "banca": "FCC"
+    },
+    {
+        "id": 37,
+        "enunciado": "Com respeito a Web services, os serviços são implementados em uma linguagem chamada...I.... As informações de acesso a esses serviços são disponibilizadas por meio de um padrão que é o...II.... Um solicitante de serviço usa esse padrão para descobrir e localizar um provedor e então comunicar-se com ele por intermédio do protocolo...III... e usar o serviço em sua aplicação.\nCompletam correta e respectivamente as lacunas I, II e III acima:",
+        "alternativas": [
+            "WSDL, SOAP e HTTP.",
+            "HTML, UDDI e DOM.",
+            "XML, SOAP e DOM.",
+            "XML, WSDL e HTML.",
+            "WSDL, UDDI e SOAP."
+        ],
+        "gabarito": "WSDL, UDDI e SOAP.",
+        "assunto": "TI - Desenvolvimento de Sistemas - UDDI",
+        "banca": "FCC"
+    },
+    {
+        "id": 38,
+        "enunciado": "Considere as assertivas a seguir sobre as relações entre SOAP, WSDL e UDDI:\nI. UDDI é um diretório de serviços web descrito por WSDL.\nII. WSDL pode ser usado para descrever serviços SOAP.\nIII. O UDDI é um diretório de descrições SOAP.\nAs assertivas corretas são:",
+        "alternativas": [
+            "somente I.",
+            "somente I e II.",
+            "somente I e III.",
+            "somente II e III.",
+            "I, II e III."
+        ],
+        "gabarito": "somente I.",
+        "assunto": "TI - Desenvolvimento de Sistemas - UDDI",
+        "banca": "FGV"
+    },
+    {
+        "id": 39,
+        "enunciado": "Com relação a SOA, web services, UDDI, WSDL, SOAP, XML, XSLT, e-ping, SGC, W3C e e-MAG, julgue o próximo item.\nO UDDI é uma especificação técnica que tem como objetivo descrever, descobrir e integrar web services; é embasado na tecnologia XML, que fornece uma plataforma neutra de dados e permite descrever relações hierárquicas de modo natural.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "assunto": "TI - Desenvolvimento de Sistemas - UDDI",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 40,
+        "enunciado": "Acerca de SOA e serviços web, julgue o próximo item.\nO serviço UDDI fornece uma interface para publicar e atualizar informações acerca de serviços web; possibilita pesquisar descrições WSDL pelo nome; provê uma interface que possibilita executar consultas de modo a recuperar uma entidade que corresponda a uma chave ou recuperar entidades que correspondam a um conjunto de critérios de busca.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "assunto": "TI - Desenvolvimento de Sistemas - UDDI",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 41,
+        "enunciado": "UDDI é um framework independente de plataforma utilizado para a descrição, busca e integração de serviços através da Internet. É falso afirmar sobre o UDDI:",
+        "alternativas": [
+            "representa a expressão Universal Description, Discovery and Integration.",
+            "é um diretório para armazenamento de informações sobre web services.",
+            "é um repositório de interfaces de web services descritas em WSDL.",
+            "se comunica via o protocolo SOAP.",
+            "não utiliza padrões de Internet aceitos pelo W3C."
+        ],
+        "gabarito": "não utiliza padrões de Internet aceitos pelo W3C.",
+        "assunto": "TI - Desenvolvimento de Sistemas - UDDI",
+        "banca": "CCC IFCE"
+    },
+    {
+        "id": 42,
+        "enunciado": "Analise o conjunto de definições abaixo:\n− Um padrão desenvolvido para prover informações em forma de diretório de negócios e Web Services;\n− Uma especificação técnica para descrever, descobrir e integrar Web Services;\n− Um modo dinâmico para descobrir a localização de um serviço web;\n− Uma parte crítica da pilha de protocolos Web Services, habilitando os usuários dos serviços a publicarem e descobrirem esses serviços.\nEsse conjunto de definições se refere ao protocolo Web Service denominado",
+        "alternativas": [
+            "WSDL.",
+            "SOAP.",
+            "UDDI.",
+            "HTML.",
+            "HTTP."
+        ],
+        "gabarito": "UDDI.",
+        "assunto": "TI - Desenvolvimento de Sistemas - UDDI",
+        "banca": "FCC"
+    }
+]

@@ -1,0 +1,234 @@
+[
+    {
+        "id": 1,
+        "enunciado": "Testes envolvem processos de comparação do estado de um sistema ou aplicação e um conjunto de critérios. Frequentemente, testes de segurança são executados com base em critérios que não estão bem definidos ou completos. Assinale o item que apresenta uma boa prática relacionada à melhoria da qualidade dos testes de segurança de aplicações.",
+        "alternativas": [
+            "A realização de análise dinâmica em toda a base de código.",
+            "A identificação de ferramentas e tecnologias aprovadas para uso no projeto.",
+            "A adoção de inspeções e revisões manuais baseadas em um modelo de confiança com verificação prévia.",
+            "A identificação de requisitos funcionais, não-funcionais e de segurança ainda durante as fases iniciais do projeto."
+        ],
+        "gabarito": "A identificação de requisitos funcionais, não-funcionais e de segurança ainda durante as fases iniciais do projeto.",
+        "assunto": "www.tecconcursos.com.br/questoes/3947235",
+        "banca": "1) No desenvolvimento de um novo sistema de denúncias eletrônicas, a equipe decide seguir o Security Development Lifecycle (SDL) da Microsoft. Na fase de Design, o"
+    },
+    {
+        "id": 2,
+        "enunciado": "Um desenvolvedor está avaliando diferentes metodologias de desenvolvimento seguro para adotar em projeto de um Ministério Público. Durante a pesquisa, ele encontra referências sobre o CLASP e suas características. Sobre uma característica deste processo de desenvolvimento seguro, o desenvolvedor conclui que o CLASP é um",
+        "alternativas": [
+            "método sistemático e detalhado para execução das atividades, com especificações passo a passo e forte ênfase em métricas de progresso e qualidade.",
+            "modelo teórico sem documentação pública e sem recursos práticos, utilizado como ferramenta de apoio para implementação pelas equipes de desenvolvimento.",
+            "framework que concentra suas atividades nas fases de teste e validação de software, com foco na identificação de vulnerabilidades ao final do desenvolvimento.",
+            "conjunto de princípios organizado em cinco \"Visões\" (Views) que permitem visualizar as atividades de segurança sob diferentes perspectivas organizacionais e técnicas.",
+            "processo rigoroso e altamente estruturado, recomendado para grandes corporações, com 5 atividades que devem ser executadas obrigatoriamente em ordem predefinida."
+        ],
+        "gabarito": "conjunto de princípios organizado em cinco \"Visões\" (Views) que permitem visualizar as atividades de segurança sob diferentes perspectivas organizacionais e técnicas.",
+        "assunto": "www.tecconcursos.com.br/questoes/4018792",
+        "banca": "3) O ciclo de vida dos dados ou da informação descreve todas as etapas pelas quais os dados passam dentro de uma organização, desde a sua obtenção até o descarte."
+    },
+    {
+        "id": 3,
+        "enunciado": "Sobre o Ciclo de Vida de Desenvolvimento Seguro (SDL – Security Development Lifecycle), qual das alternativas abaixo descreve corretamente o processo do SDL?",
+        "alternativas": [
+            "O SDL divide-se em quatro fases principais (requisitos, design, implementação e lançamento).",
+            "O SDL divide-se em cinco fases principais (requisitos, design, implementação, testes e lançamento).",
+            "O SDL divide-se em cinco fases principais (requisitos, design, implementação, verificação e lançamento).",
+            "O SDL divide-se em seis fases principais (requisitos, design, implementação, verificação, testes e lançamento)."
+        ],
+        "gabarito": "O SDL divide-se em cinco fases principais (requisitos, design, implementação, verificação e lançamento).",
+        "assunto": "www.tecconcursos.com.br/questoes/3284891",
+        "banca": "5) Acerca do processo de implementação do CLASP, julgue o próximo item."
+    },
+    {
+        "id": 4,
+        "enunciado": "Uma empresa especializada no desenvolvimento de aplicações empresariais escaláveis enfrenta dificuldades na manutenção do seu código devido ao alto acoplamento entre classes. Os desenvolvedores perceberam que muitas classes criam instâncias de seus próprios objetos dependentes, dificultando os testes unitários, a reutilização de código e a troca de implementações sem afetar outras partes do sistema. Para resolver esse problema, o arquiteto de software sugere o uso do padrão Injeção de Dependências (Dependency Injection – DI). A sugestão do arquiteto sobre o uso de Injeção de Dependências (DI) considera que esse padrão",
+        "alternativas": [
+            "cria manualmente todas as instâncias de objetos dentro das classes para garantir total controle sobre suas dependências.",
+            "elimina demandas por composição de objetos e por extensibilidade das aplicações, facilitando o gerenciamento do ciclo de vida.",
+            "injeta dependências estáveis, que ainda estão em desenvolvimento e que têm comportamento não determinístico, no construtor das classes.",
+            "permite que dependências sejam passadas externamente para um objeto, reduzindo o acoplamento e facilitando a testabilidade.",
+            "utiliza verificações de erro em tempo de execução para capturar falhas de comunicação entre objetos dependentes."
+        ],
+        "gabarito": "permite que dependências sejam passadas externamente para um objeto, reduzindo o acoplamento e facilitando a testabilidade.",
+        "assunto": "www.tecconcursos.com.br/questoes/3347069",
+        "banca": "7) Uma empresa especializada em desenvolvimento de software para gestão bancária enfrenta problemas frequentes com erros inesperados em seu sistema de"
+    },
+    {
+        "id": 5,
+        "enunciado": "A definição de requisitos de segurança no início do ciclo de vida do software, como preconiza o SDL (Security Development Lifecycle), reduz o custo e o impacto das vulnerabilidades. Analise as afirmações a seguir:\nI.A modelagem de ameaças no SDL ocorre antes da codificação e ajuda a identificar vetores de ataque.\nII.SDL recomenda que as práticas de segurança sejam implementadas somente após a codificação.\nIII.O SDL substitui totalmente a necessidade de testes de penetração.\nÉ correto o que se afirma em:",
+        "alternativas": [
+            "II e III, apenas.",
+            "I, II e III.",
+            "I e II, apenas.",
+            "III, apenas.",
+            "I, apenas."
+        ],
+        "gabarito": "I, apenas.",
+        "assunto": "www.tecconcursos.com.br/questoes/3517976",
+        "banca": "9) Um projeto de software seguro deve ser concebido desde o princípio tendo"
+    },
+    {
+        "id": 6,
+        "enunciado": "A respeito do desenvolvimento seguro de aplicações, frameworks OWASP e testes dinâmicos de aplicações, julgue o item a seguir.\nNo desenvolvimento seguro de aplicações, o emprego de frameworks e bibliotecas que realizem validações contra a injeção de código malicioso nas aplicações dispensa a adoção de simuladores e de testes automatizados e manuais, conferindo ao processo maior produtividade.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "assunto": "www.tecconcursos.com.br/questoes/2876870",
+        "banca": "11) Durante o desenvolvimento de um sistema de controle de audiências para um Tribunal do Trabalho, a equipe de analistas foi orientada a adotar práticas de"
+    },
+    {
+        "id": 7,
+        "enunciado": "Em relação a técnicas de desenvolvimento seguro voltadas para o SSDLC (secure software development cycle), julgue o item a seguir.\nNem todas as fases do processo de desenvolvimento de software são afetadas pela implementação de um SSDLC.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "assunto": "www.tecconcursos.com.br/questoes/2877544",
+        "banca": "13) Em relação a técnicas de desenvolvimento seguro voltadas para o SSDLC (secure software development cycle), julgue o item a seguir."
+    },
+    {
+        "id": 8,
+        "enunciado": "A implementação de um programa de gestão de vulnerabilidades envolve várias etapas e práticas para garantir a eficácia do processo. Assinale a alternativa que apresenta uma prática recomendada na implementação desse tipo de programa.",
+        "alternativas": [
+            "Realizar varreduras de vulnerabilidades uma vez ao ano.",
+            "Utilizar uma abordagem manual e estatística para identificar vulnerabilidades em grandes redes, analisando pequenos trechos de logs.",
+            "Priorizar todas as vulnerabilidades de acordo com a facilidade de correção, independentemente do impacto.",
+            "Integrar a gestão de vulnerabilidades ao ciclo de vida de desenvolvimento de software (SDLC).",
+            "Tratar todas as vulnerabilidades com a mesma urgência, aumentando a equipe de acordo com a quantidade de vulnerabilidade encontrada."
+        ],
+        "gabarito": "Integrar a gestão de vulnerabilidades ao ciclo de vida de desenvolvimento de software (SDLC).",
+        "assunto": "www.tecconcursos.com.br/questoes/2982909",
+        "banca": "15) O projeto Application Security Verification Standard (ASVS), da Open Web Application Security Project (OWASP), fornece um padrão de segurança de aplicativo"
+    },
+    {
+        "id": 9,
+        "enunciado": "Um determinado órgão público tem requisitos extremamente críticos no que se refere a segurança dos seus sistemas.\nIndique a opção que descreve, dentro de uma metodologia de desenvolvimento de software, a forma correta de mitigar os riscos relativos à segurança no desenvolvimento do sistema.",
+        "alternativas": [
+            "Aplicar correção das vulnerabilidades durante a fase de implementação enquanto o código é escrito.",
+            "Detectar todas as vulnerabilidades na fase de teste antes do lançamento.",
+            "Criar um documento de análise de riscos relativos à segurança na fase de requisitos.",
+            "Responder as vulnerabilidades conforme são descobertas em uso na fase de manutenção.",
+            "Desenvolver um protótipo robusto que minimize riscos de segurança na fase de design do sistema."
+        ],
+        "gabarito": "Criar um documento de análise de riscos relativos à segurança na fase de requisitos.",
+        "assunto": "www.tecconcursos.com.br/questoes/3092863",
+        "banca": "17) Considerando os preceitos de Segurança da Informação, as ferramentas e tendo como premissa as técnicas de desenvolvimento de software seguro, assinale a"
+    },
+    {
+        "id": 10,
+        "enunciado": "A respeito de desenvolvimento de software seguro, julgue os itens que se seguem.\nNo SDL (Security Development Lifecycle), a modelagem de ameaças é uma prática que ajuda a identificar e avaliar possíveis ameaças ao sistema durante a fase de design do software.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "assunto": "www.tecconcursos.com.br/questoes/3186945",
+        "banca": "19) O site OWASP top 10 classifica os maiores riscos no desenvolvimento de aplicações. Na versão atual de seu relatório, o risco de segurança conhecido como Injection"
+    },
+    {
+        "id": 11,
+        "enunciado": "Julgue o próximo item, relativo a desenvolvimento seguro.\nA autenticação multifatorial, um dos controles listados no Microsoft SDL (security development lifecycle), adiciona uma segunda camada crítica de segurança aos logins, a fim de proteger todos os usuários, especialmente os administradores.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "assunto": "www.tecconcursos.com.br/questoes/3206225",
+        "banca": "21) O Ciclo de Vida de Desenvolvimento de Segurança (SDL) da Microsoft consiste em sete componentes, incluindo cinco fases principais e duas atividades de segurança"
+    },
+    {
+        "id": 12,
+        "enunciado": "Analise as seguintes asserções e a relação proposta entre elas:\nI. O SCP consiste em um plano detalhado que define o processo que as organizações usam para construir aplicativos seguros.\nPORQUE\nII. Atividades como teste de penetração, revisão de código e análise de arquitetura são aplicadas em todas as etapas do processo do desenvolvimento de softwares seguros.\nA respeito dessas asserções, assinale a alternativa correta.",
+        "alternativas": [
+            "As asserções I e II são proposições verdadeiras, e a II é uma justificativa da I.",
+            "As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa da I.",
+            "A asserção I é uma proposição verdadeira, e a II é uma proposição falsa.",
+            "A asserção I é uma proposição falsa, e a II é uma proposição verdadeira.",
+            "As asserções I e II são proposições falsas."
+        ],
+        "gabarito": "A asserção I é uma proposição falsa, e a II é uma proposição verdadeira.",
+        "assunto": "www.tecconcursos.com.br/questoes/2557552",
+        "banca": "23) As licenças de software são acordos legais que determinam como um programa pode ser utilizado, modificado e distribuído. Existem vários tipos de licenças, cada"
+    },
+    {
+        "id": 13,
+        "enunciado": "A respeito de ciclo de vida de desenvolvimento seguro, julgue os item a seguir.\nDurante a fase de implementação, são aplicados padrões de codificação e testes.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "assunto": "www.tecconcursos.com.br/questoes/2638679",
+        "banca": "25) A respeito de ciclo de vida de desenvolvimento seguro, julgue os item a seguir."
+    },
+    {
+        "id": 14,
+        "enunciado": "A respeito de ciclo de vida de desenvolvimento seguro, julgue os item a seguir.\nA fase de design prevê a definição da estrutura geral do software relacionado à segurança e a realização de revisões de código.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "assunto": "www.tecconcursos.com.br/questoes/2638681",
+        "banca": "27) A respeito de ciclo de vida de desenvolvimento seguro, julgue os item a seguir."
+    },
+    {
+        "id": 15,
+        "enunciado": "As práticas de SDL (Security Development Lifecycle) recomendam ações importantes que devem ser adotadas por projetistas, arquitetos e programadores durante o processo de desenvolvimento de um software. Um teste muito utilizado é a análise em tempo de execução do software totalmente compilado, permitindo a verificação das funcionalidades que podem apenas ser testadas quando todos os componentes estão integrados e em execução. Esse tipo de teste é conhecido como",
+        "alternativas": [
+            "SAST.",
+            "DAST.",
+            "VAST.",
+            "DREAD.",
+            "STRIDE."
+        ],
+        "gabarito": "DAST.",
+        "assunto": "www.tecconcursos.com.br/questoes/2695297",
+        "banca": "29) A respeito de ciclo de vida de desenvolvimento seguro, julgue os item a seguir."
+    },
+    {
+        "id": 16,
+        "enunciado": "Um Técnico está em um grupo de discussão sobre as atividades de segurança individuais que devem ser realizadas para haver conformidade com os processos do Security Development Lifecycle (SDL). Como no ambiente de desenvolvimento há um risco de segurança significativo, o grupo está discutindo a atividade de Threat Modeling, que faz parte da fase de",
+        "alternativas": [
+            "Implementation.",
+            "Verification.",
+            "Design.",
+            "Requirements.",
+            "Release."
+        ],
+        "gabarito": "Design.",
+        "assunto": "www.tecconcursos.com.br/questoes/2858537",
+        "banca": "31) As ameaças aos sistemas de controle e automação industrial provocaram várias iniciativas de padronização de processos mais seguros para a implantação de"
+    },
+    {
+        "id": 17,
+        "enunciado": "Sobre o ciclo de desenvolvimento seguro de aplicações, assinale V para a afirmativa verdadeira e F para a falsa.\n( ) Uma das práticas definidas pelo modelo SDL da Microsoft é a modelagem de ameaças.\n( ) Uma análise estática de segurança (SAST) exige que a aplicação já esteja em funcionamento.\n( ) O conserto de vulnerabilidades descobertas por meio de análise dinâmica de segurança (DAST) costuma custar mais caro do que aquelas descobertas no início do ciclo de desenvolvimento.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "F, F, V.",
+            "F, V, V.",
+            "V, F, V.",
+            "V, V, F.",
+            "F, V, F."
+        ],
+        "gabarito": "V, F, V.",
+        "assunto": "www.tecconcursos.com.br/questoes/1978811",
+        "banca": "33) É correto afirmar que a introdução de shadow code no código"
+    },
+    {
+        "id": 18,
+        "enunciado": "Em relação ao tema de desenvolvimento seguro de aplicações, analise as afirmativas a seguir:\nI. Uma das metodologias usadas para o desenvolvimento seguro de sistemas é o SDL, proposto pela Microsoft;\nII. No caso de desenvolvimento Web, a comunidade OWASP tem um framework aberto chamado OpenSAMM, visando implementar uma estratégia para segurança de software;\nIII. A norma internacional para definir técnicas de segurança para desenvolvimento de software é a ISO 27001.\nEstá(ão) correta(s) a(s) afirmativa(s):",
+        "alternativas": [
+            "I e II.",
+            "I.",
+            "II.",
+            "III.",
+            "II e III."
+        ],
+        "gabarito": "I e II.",
+        "assunto": "www.tecconcursos.com.br/questoes/1955255",
+        "banca": "35) Assinale a alternativa que apresenta em que fase do ciclo de vida de desenvolvimento do software deve ser realizado o processo de Certificação de Segurança do"
+    }
+]

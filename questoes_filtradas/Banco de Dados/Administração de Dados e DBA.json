@@ -1,0 +1,350 @@
+[
+    {
+        "id": 1,
+        "enunciado": "O papel do Administrador de Banco de Dados (DBA) evoluiu de um foco reativo para um foco preditivo e proativo, com o objetivo de garantir a disponibilidade e performance contínuas.\nUma tarefa de manutenção preditiva e proativa essencial do DBA é a(o)",
+        "alternativas": [
+            "restauração de um backup de emergência após uma falha de hardware grave.",
+            "otimização imediata de uma consulta SQL reportada pelo usuário como lenta, conhecida como “troubleshooting reativo”.",
+            "monitoramento contínuo de métricas de performance e análise de tendências para prever e mitigar problemas de gargalo antes que afetem os usuários.",
+            "execução da rotina semanal de backup completo.",
+            "desativação de uma instância de banco de dados que atingiu o limite de licenças."
+        ],
+        "gabarito": "monitoramento contínuo de métricas de performance e análise de tendências para prever e mitigar problemas de gargalo antes que afetem os usuários."
+    },
+    {
+        "id": 2,
+        "enunciado": "Ao configurar um SGBD, o DBA cria e gerencia Tablespaces ou seus equivalentes.\nO principal benefício operacional e de manutenção da utilização de múltiplos Tablespaces é",
+        "alternativas": [
+            "aumentar a velocidade da CPU para processamento de consultas.",
+            "permitir o armazenamento de todos os dados do SGBD em um único arquivo, simplificando o backup.",
+            "aumentar a segurança, pois apenas o Tablespace de metadados é criptografado.",
+            "permitir a separação física de diferentes tipos de dados ou de diferentes esquemas, facilitando a manutenção e o backup parcial.",
+            "garantir que todas as transações sejam executadas no nível de isolamento SERIALIZABLE."
+        ],
+        "gabarito": "permitir a separação física de diferentes tipos de dados ou de diferentes esquemas, facilitando a manutenção e o backup parcial."
+    },
+    {
+        "id": 3,
+        "enunciado": "O administrador de banco de dados Pedro criou o papel dadosadm para cadastrar os funcionários do MPU que desempenham a função de Administrador de Dados usando o seguinte comando SQL no PostgreSQL:\nCREATE ROLE dadosadm WITH LOGIN PASSWORD 'admin';\nPara que o papel dadosadm possa alterar a estrutura, bem como adicionar e remover linhas e colunas da tabela processo com controle total, Pedro deve usar o seguinte comando SQL:",
+        "alternativas": [
+            "GRANT SELECT, INSERT, UPDATE, DELETE, TRUNCATE ON processo TO dadosadm;",
+            "REVOKE SELECT, INSERT, UPDATE, DELETE, TRUNCATE ON processo FROM dadosadm;",
+            "ALTER DEFAULT PRIVILEGES ON processo GRANT SELECT, INSERT, UPDATE, DELETE, TRUNCATE ON TABLES TO dadosadm;",
+            "SET TRANSACTION READ WRITE ON processo TO dadosadm;",
+            "ALTER TABLE processo OWNER TO dadosadm;"
+        ],
+        "gabarito": "ALTER TABLE processo OWNER TO dadosadm;"
+    },
+    {
+        "id": 4,
+        "enunciado": "O analista Juca precisa criar um esquema no banco de dados processos e atribuir direitos para o perfil ad1. Para isso, com o perfil dadosadm, Juca definiu os seguintes passos:\n1. criar o esquema processos; e\n2. atribuir ao perfil ad1 o direito de apagar os registros das tabelas do esquema processos, criados por dadosadm, podendo usar alguma condição.\nNo PostgreSQL, para implementar os passos definidos, Juca deve executar os comandos:",
+        "alternativas": [
+            "CREATE SCHEMA processos; CREATE PRIVILEGES FOR ROLE dadosadm IN SCHEMA processos GRANT TRUNCATE ON TABLES TO ad1;",
+            "SET SCHEMA processos; SET DEFAULT PRIVILEGES FOR ROLE dadosadm IN SCHEMA processos GRANT USAGE ON TABLES TO ad1;",
+            "INSERT SCHEMA processos GRANTED BY dadosadm; GRANT UPDATE FOR ROLE dadosadm IN SCHEMA processos;",
+            "CREATE SCHEMA processos AUTHORIZATION dadosadm; ALTER DEFAULT PRIVILEGES FOR ROLE dadosadm IN SCHEMA processos GRANT DELETE ON TABLES TO ad1;",
+            "BEGIN SCHEMA processos; SET PRIVILEGES FOR ROLE dadosadm IN SCHEMA processos REVOKE TRUNCATE ON TABLES TO ad1;"
+        ],
+        "gabarito": "CREATE SCHEMA processos AUTHORIZATION dadosadm; ALTER DEFAULT PRIVILEGES FOR ROLE dadosadm IN SCHEMA processos GRANT DELETE ON TABLES TO ad1;"
+    },
+    {
+        "id": 5,
+        "enunciado": "Considere que um administrador de banco de dados (DBA) esteja ajustando a configuração do servidor para otimizar o desempenho do sistema e para aplicar boas práticas de segurança em bancos PostgreSQL e MySQL utilizados pela empresa.\nConsiderando as práticas de administração, tuning e segurança em bancos de dados relacionais, julgue (C ou E) o item a seguir.\nNo PostgreSQL e MySQL, o uso de roles e usuários permite definir privilégios finos para controlar o acesso a objetos do banco de dados, garantindo a segurança das informações.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 6,
+        "enunciado": "Considere que um administrador de banco de dados (DBA) esteja ajustando a configuração do servidor para otimizar o desempenho do sistema e para aplicar boas práticas de segurança em bancos PostgreSQL e MySQL utilizados pela empresa.\nConsiderando as práticas de administração, tuning e segurança em bancos de dados relacionais, julgue (C ou E) o item a seguir.\nO comando ANALYZE em bancos PostgreSQL e MySQL é utilizado para atualizar estatísticas de distribuição dos dados, auxiliando o otimizador a escolher planos eficientes de execução.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 7,
+        "enunciado": "O analista Júnior, recém-chegado ao time de DBAs, recebeu a tarefa de criar um usuário no banco de dados para a estagiária Carla. Carla precisará apenas de permissão para executar consultas SELECT em duas tabelas específicas do esquema de Vendas. Preocupado com a segurança, Júnior deve seguir um princípio fundamental que determina que usuários devem ter apenas os privilégios estritamente necessários para realizar suas tarefas. Qual é esse princípio?",
+        "alternativas": [
+            "Princípio do menor privilégio.",
+            "Verificação de integridade referencial.",
+            "Criptografia de dados em repouso.",
+            "Autenticação de dois fatores.",
+            "Isolamento de transação."
+        ],
+        "gabarito": "Princípio do menor privilégio."
+    },
+    {
+        "id": 8,
+        "enunciado": "A política de segurança de uma empresa exige que todos os desenvolvedores tenham permissão para ler dados de todas as tabelas de um esquema específico, mas nenhum deles pode modificar a estrutura dessas tabelas. O DBA decide agrupar esse privilégio de leitura em um único objeto de segurança e depois concedê-lo a todos os usuários do grupo \"Desenvolvedores\". Qual objeto do SGBD é o mais adequado para implementar essa política de forma eficiente e centralizada?",
+        "alternativas": [
+            "Profile.",
+            "Schema.",
+            "Role.",
+            "Trigger.",
+            "Synonym."
+        ],
+        "gabarito": "Role."
+    },
+    {
+        "id": 9,
+        "enunciado": "Um DBA precisa identificar o gargalo de uma query complexa que apresenta desempenho ruim. Qual ferramenta ou comando nativo da maioria dos SGBDs relacionais fornece uma descrição detalhada do plano de execução escolhido pelo otimizador, mostrando a ordem das operações e seus custos estimados?",
+        "alternativas": [
+            "TRACE.",
+            "EXPLAIN.",
+            "DEBUG.",
+            "PROFILE.",
+            "MONITOR."
+        ],
+        "gabarito": "EXPLAIN."
+    },
+    {
+        "id": 10,
+        "enunciado": "Uma etapa fundamental na administração de bancos de dados se refere à implementação e monitoramento de segurança.\nCom relação às ameaças e desafios comuns, analise os itens a seguir.\nI. Os erros humanos continuam sendo uma das mais importantes causas de todas as violações de dados relatadas, em especial devidos a acidentes, senhas fracas, compartilhamento de senhas e outros comportamentos de usuários imprudentes ou desinformados.\nII. As vulnerabilidades do software de banco de dados tem sua exposição reduzida pela aplicação dos patches fornecidos pelas empresas comerciais e plataformas de gerenciamento de banco de dados de software livre.\nIII. São ameaças permanentes em bancos de dados os ataques de injeção SQL/NoSQL e as invasões por estouro de buffer.\nEstá correto o que se afirma em:",
+        "alternativas": [
+            "I, apenas.",
+            "I e II, apenas.",
+            "I e III, apenas.",
+            "II e III, apenas.",
+            "I, II e III."
+        ],
+        "gabarito": "I, II e III."
+    },
+    {
+        "id": 11,
+        "enunciado": "Em Administração de Dados, os dados de Referência possuem elevada importância organizacional pois são utilizados para classificar ou categorizar outros dados, incluindo os dados Mestre.\nSão administrados como dados de Referência os:",
+        "alternativas": [
+            "índices de busca;",
+            "dados transacionais;",
+            "códigos das unidades federativas e dos países;",
+            "cadastros de cidadãos do estado;",
+            "registros de entrada e saída de funcionários."
+        ],
+        "gabarito": "códigos das unidades federativas e dos países;"
+    },
+    {
+        "id": 12,
+        "enunciado": "Quanto aos bancos de dados relacionais em plataforma baixa (Oracle, PostgreSQL e MySQL), julgue o item seguinte.\nNo Oracle, o pacote dbms_stats fornece vários procedimentos para a coleta das estatísticas mais recentes.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 13,
+        "enunciado": "Em relação a bancos de dados, julgue o item subsequente.\nAs atribuições do DBA (database administrator) incluem escrever os esquemas externos necessários e assegurar que os dados de que os usuários necessitam estejam disponíveis.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 14,
+        "enunciado": "A elaboração de um projeto de banco de dados é uma das etapas mais importantes no processo de desenvolvimento de um sistema de software. Bancos de dados mal desenhados impactam negativamente na performance futura do sistema. Com base nessa informação, julgue o item.\nApós a construção do projeto do banco de dados, são incorporadas as regras de segurança do banco e dos usuários, bem como os gatilhos que poderão ser úteis para o acompanhamento do sucesso do projeto de banco de dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 15,
+        "enunciado": "O elemento de banco de dados cujo objetivo principal é agrupar permissões (privilégios) para facilitar a administração de segurança é denominado",
+        "alternativas": [
+            "tabela.",
+            "índice.",
+            "role.",
+            "sequence.",
+            "schema."
+        ],
+        "gabarito": "role."
+    },
+    {
+        "id": 16,
+        "enunciado": "Ao considerar os critérios para análise de custo-benefício na escolha de um banco de dados e aspectos relacionados à sua administração, normalização, manutenção, operações e segurança, assinale a alternativa incorreta.",
+        "alternativas": [
+            "A escolha de um banco de dados deve levar em consideração o custo inicial de aquisição e implementação do sistema, sem considerar os custos de treinamento de pessoal, já que não é necessário pessoal para seu funcionamento.",
+            "A administração de banco de dados envolve atividades como instalação, configuração, monitoramento de desempenho, ajuste de parâmetros e aplicação de políticas de segurança, visando garantir a disponibilidade e a confiabilidade do sistema.",
+            "A manutenção de banco de dados inclui a realização de backups regulares, a aplicação de patches e atualizações de segurança, e a otimização de consultas, visando garantir a integridade e a disponibilidade dos dados.",
+            "A normalização de banco de dados é um processo que visa organizar os dados em tabelas de forma a minimizar a redundância e a dependência, facilitando a manutenção e garantindo a integridade dos dados."
+        ],
+        "gabarito": "A escolha de um banco de dados deve levar em consideração o custo inicial de aquisição e implementação do sistema, sem considerar os custos de treinamento de pessoal, já que não é necessário pessoal para seu funcionamento."
+    },
+    {
+        "id": 17,
+        "enunciado": "As decisões de projeto sobre programação e armazenagem de dados são tratadas, respectivamente, nos documentos do projeto do programa e do projeto de armazenagem de dados. Esses assuntos normalmente são tratados pelo Administrador de Dados (AD) dentro das organizações. Assinale a alternativa correta quanto ao papel do AD nas organizações.",
+        "alternativas": [
+            "Limita-se apenas a controlar padrões.",
+            "Somente documenta e homologa os modelos.",
+            "Deve garantir a integridade entre os modelos de dados.",
+            "Trabalha na criação da matriz de CRUD.",
+            "Atua no gerenciamento de configuração durante o desenvolvimento."
+        ],
+        "gabarito": "Deve garantir a integridade entre os modelos de dados."
+    },
+    {
+        "id": 18,
+        "enunciado": "Assinale a opção que apresenta, respectivamente, uma função da administração de dados e uma função da administração de banco de dados.",
+        "alternativas": [
+            "projetar o banco de dados; otimizar o banco de dados para melhorar o seu desempenho.",
+            "garantir a segurança e a privacidade dos dados; viabilizar a recuperação e o backup dos dados.",
+            "criar scripts SQL e fazer a manutenção delas; executar a modelagem conceitual do sistema.",
+            "gerenciar as transações e a concorrência dos dados; definir e manipular os dados.",
+            "administrar o hardware e os servidores do banco de dados; realizar a definição e a manutenção dos requisitos de negócio."
+        ],
+        "gabarito": "projetar o banco de dados; otimizar o banco de dados para melhorar o seu desempenho."
+    },
+    {
+        "id": 19,
+        "enunciado": "A gerência de desempenho requer uma combinação de práticas proativas e reativas para evitar gargalos de desempenho, garantindo que o SGBD possa escalar efetivamente para acomodar o crescimento tanto na quantidade de dados como na quantidade de usuários. Um Administrador de Banco de Dados (DBA) experiente utiliza diversas ferramentas de monitoramento e atua efetivamente para manter o sistema de banco de dados operando da melhor maneira possível, com disponibilidade e eficiência. Uma das atividades que o DBA realiza é o tuning (sintonia fina), que envolve a criação e a manutenção de índices, visando otimizar o acesso aos dados.\nDentre outras atividades do DBA estão a reescrita de consultas SQL e a desnormalização, que",
+        "alternativas": [
+            "eliminam a necessidade de outras formas de otimização de consultas.",
+            "são estratégias que sempre reduzem a necessidade de tuning de índices.",
+            "garantem que a integridade dos dados será mantida em todas as circunstâncias.",
+            "podem introduzir complexidade adicional ao sistema de banco de dados e precisam ser feitas com cautela.",
+            "não têm impacto nas operações de leitura ou de escrita no banco de dados."
+        ],
+        "gabarito": "podem introduzir complexidade adicional ao sistema de banco de dados e precisam ser feitas com cautela."
+    },
+    {
+        "id": 20,
+        "enunciado": "João é um administrador de banco de dados MySQL e precisa realizar o backup lógico completo do banco de dados \"tjse_db\". Para isso, João deverá utilizar o comando:",
+        "alternativas": [
+            "backup -u root -p tjse_db > backup.sql.",
+            "mybackup -u root -p tjse_db > backup.sql.",
+            "mysqldump -u root -p tjse_db > backup.sql.",
+            "dump database -u root -p tjse_db > backup.sql.",
+            "select * from tjse_db into outfile backup.sql."
+        ],
+        "gabarito": "mysqldump -u root -p tjse_db > backup.sql."
+    },
+    {
+        "id": 21,
+        "enunciado": "Em um sistema de banco de dados multiusuário, o sistema gerenciador de banco de dados (SGBD) precisa oferecer técnicas para permitir que certos usuários ou grupos de usuários acessem partes selecionadas de um banco de dados sem que obtenham acesso ao restante dele.\nA autoridade central responsável por conceder privilégios aos usuários é o",
+        "alternativas": [
+            "usuário final.",
+            "projetista do banco de dados.",
+            "administrador do banco de dados.",
+            "analista de sistema."
+        ],
+        "gabarito": "administrador do banco de dados."
+    },
+    {
+        "id": 22,
+        "enunciado": "O administrador de Banco de Dados denominado DBA (Database Administrator) é o profissional responsável por realizar a gestão dos bancos que armazenam dados sobre pessoas, lugares ou coisas de uma forma organizada e relacionada entre si, facilitando o processo de recuperação de elementos em uma pesquisa. São consideradas tarefas típicas do cotidiano desse profissional, EXCETO:",
+        "alternativas": [
+            "Promover a instalação e a atualização dos sistemas de gerenciamento de Banco de Dados.",
+            "Auditar as atividades e investigar as ações efetuadas pelos usuários em um Banco de Dados.",
+            "Realizar análise de impacto antes de efetuar as modificações solicitadas pela equipe de desenvolvimento.",
+            "Delegar para as equipes de infraestrutura/desenvolvimento as tarefas de criação/manutenção de usuários e perfis de acesso em um Banco de Dados."
+        ],
+        "gabarito": "Delegar para as equipes de infraestrutura/desenvolvimento as tarefas de criação/manutenção de usuários e perfis de acesso em um Banco de Dados."
+    },
+    {
+        "id": 23,
+        "enunciado": "Acerca da administração de dados e da administração de banco de dados, assinale a alternativa correta.",
+        "alternativas": [
+            "É tarefa exclusiva da administração de dados a restauração do banco de dados, em caso de falha.",
+            "A administração de banco de dados é a área responsável pela padronização dos dados, tarefa que compreende o registro do significado e da descrição de um item de dados.",
+            "Não é tarefa da administração de banco de dados criar usuários e conceder os privilégios necessários.",
+            "São tarefas da administração de banco de dados o fornecimento de treinamento técnico e a solução de problemas.",
+            "A administração de dados é a área responsável por fazer tuning no banco de dados."
+        ],
+        "gabarito": "São tarefas da administração de banco de dados o fornecimento de treinamento técnico e a solução de problemas."
+    },
+    {
+        "id": 24,
+        "enunciado": "Além de diagnosticar problemas de desempenho no Oracle 12c, o Automatic Database Diagnostic Monitor (ADDM) recomenda possíveis soluções a serem adotadas pelo usuário.\nCom relação a esse tema, considere os itens abaixo.\nI - Modificações de hardware.\nII - Alterações de parâmetros de inicialização de bancos de dados.\nIII - Particionamento de tabelas e índices.\nQuais soluções acima listadas são recomendadas?",
+        "alternativas": [
+            "Apenas I.",
+            "Apenas II.",
+            "Apenas III.",
+            "Apenas I e II.",
+            "I, II e III."
+        ],
+        "gabarito": "I, II e III."
+    },
+    {
+        "id": 25,
+        "enunciado": "Qual a periodicidade padrão do intervalo em que o ADDM analisa os snapshots produzidos pelo AWR, no banco de dados Oracle 12c?",
+        "alternativas": [
+            "15 minutos.",
+            "30 minutos.",
+            "60 minutos.",
+            "120 minutos.",
+            "180 minutos."
+        ],
+        "gabarito": "60 minutos."
+    },
+    {
+        "id": 26,
+        "enunciado": "Com o advento da computação, diversas novas profissões ganharam destaque, entre elas, os administradores de banco de dados, também chamados de DBA\n(database administrator). É extremamente importante que uma organização possua um administrador central para supervisionar e gerenciar recursos.\nSobre as responsabilidades de um administrador de banco de dados, analise as assertivas e assinale a alternativa que aponta as corretas.\nI. Autorizar acesso ao banco de dados.\nII. Identificar os dados a serem armazenados.\nIII. Adquirir recursos de software e hardware necessários.\nIV. Resolver problemas de desempenho e segurança.\nV. Coordenar e monitorar o uso do banco de dados.",
+        "alternativas": [
+            "Apenas I, II e III.",
+            "Apenas I, III, IV e V.",
+            "Apenas I e III.",
+            "Apenas I, II, III e IV.",
+            "Apenas III, IV e V."
+        ],
+        "gabarito": "Apenas I, III, IV e V."
+    },
+    {
+        "id": 27,
+        "enunciado": "Na administração de um banco de dados, o DBA ( DataBase Administrator) e a equipe devem ter como uma de suas atividades principais",
+        "alternativas": [
+            "definir os responsáveis pela validação dos dados do banco de dados.",
+            "definir os responsáveis pelo fornecimento dos dados do banco de dados.",
+            "definir quais serão os dados a serem contemplados no modelo do banco de dados.",
+            "definir quem serão os usuários e suas permissões no banco de dados da empresa.",
+            "instalar, manter e otimizar o uso do sistema gerenciador de bancos de dados empregado."
+        ],
+        "gabarito": "instalar, manter e otimizar o uso do sistema gerenciador de bancos de dados empregado."
+    },
+    {
+        "id": 28,
+        "enunciado": "Com relação a banco de dados, julgue o item seguinte.\nApós um banco de dados ser criado, o administrador executa uma série de tarefas para dar permissão de acesso aos usuários que necessitam ler e gravar informações na base de dados. A responsabilidade de gerir os acessos ao banco de dados é do sistema gerenciador de banco de dados (SGBD).",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 29,
+        "enunciado": "Antes mesmo de se construir um Banco de Dados usual, devem ser definidos os atores que irão pertencer a este Banco, o que chamamos de Perfis de Usuários.\nPortanto, em relação aos Perfis de Usuários, pode-se afirmar:",
+        "alternativas": [
+            "O Administrador de banco de dados tem como função primária a criação e execução do Banco da Dados, geralmente voltado para seu desempenho profissional e pessoal.",
+            "O Usuário final tem a obrigatoriedade em monitorar e coordenar o uso de seu Banco de Dados que está sendo organizado.",
+            "Dada a criação dos perfis de Banco Dados, temos que todos poderão acessar o Banco de Dados, contudo, apenas o Administrador poderá alterá-los.",
+            "Os Administradores de Banco de Dados ditam a definição dos perfis sem a preocupação com os aspectos físicos do Banco de dados.",
+            "A Função de Administrador de Banco de dados é a de definir os perfis de usuários, seus métodos de acesso e a estrutura de armazenamento para o bom desempenho de seu Banco."
+        ],
+        "gabarito": "A Função de Administrador de Banco de dados é a de definir os perfis de usuários, seus métodos de acesso e a estrutura de armazenamento para o bom desempenho de seu Banco."
+    },
+    {
+        "id": 30,
+        "enunciado": "Em uma organização, é atribuição da administração de dados",
+        "alternativas": [
+            "definir e criar tabelas, índices e outros objetos.",
+            "monitorar e ajustar a performance do banco de dados.",
+            "manter o tempo de resposta do SGBD adequado às expectativas dos usuários.",
+            "conhecer as características de funcionamento e operação do SGBD adotado.",
+            "identificar, documentar e modelar os dados que serão armazenados e gerenciados."
+        ],
+        "gabarito": "identificar, documentar e modelar os dados que serão armazenados e gerenciados."
+    },
+    {
+        "id": 31,
+        "enunciado": "A linguagem SQL pode ter vários enfoques e é através de comandos SQL que os usuários podem montar consultas poderosas, sem a necessidade da criação de um programa, podendo utilizar ferramentas front-end para a montagem de relatórios. Sobre as características da linguagem SQL, julgue, como VERDADEIRO ou FALSO, o item a seguir.\nO responsável pela administração do banco de dados é o usuário MASTER, que pode utilizar comandos SQL para realizar tarefas relacionadas com a manutenção dos esquemas do banco de dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    }
+]

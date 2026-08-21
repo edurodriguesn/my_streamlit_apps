@@ -1,0 +1,842 @@
+[
+    {
+        "id": 1,
+        "enunciado": "Instituto AOCP - Ana TI (UNIRIO)/UNIRIO/\"Sem Área\"/2026 TI - Desenvolvimento de Sistemas - Arquitetura Orientada a Eventos Uma equipe de TI está avaliando dois servidores web amplamente utilizados no mercado: Apache HTTP Server e NGINX. Durante a análise, a equipe buscou identificar características básicas de cada um para auxiliar na escolha da tecnologia mais adequada para hospedar aplicações institucionais. Considerando conceitos sobre Apache e NGINX, assinale a alternativa que apresenta uma característica correta sobre esses servidores.",
+        "alternativas": [
+            "O NGINX utiliza arquitetura orientada a eventos, permitindo lidar com muitas conexões simultâneas com uso reduzido de recursos.",
+            "O Apache exige que cada conexão estabelecida com o servidor crie um novo processo exclusivo, independentemente do modo de operação.",
+            "O NGINX funciona como servidor web estático, não podendo atuar como proxy reverso.",
+            "O Apache opera no modo multiprocessos, não oferecendo módulos configuráveis de funcionamento.",
+            "O NGINX e o Apache podem ser executados em sistemas UNIX-like, não havendo suporte nativo para sistemas Windows."
+        ],
+        "gabarito": "O NGINX utiliza arquitetura orientada a eventos, permitindo lidar com muitas conexões simultâneas com uso reduzido de recursos."
+    },
+    {
+        "id": 2,
+        "enunciado": "CEBRASPE (CESPE) - AudCE (TCE RN)/TCE RN/Tecnologia da Informação/2026 TI - Desenvolvimento de Sistemas - Arquitetura Orientada a Eventos Acerca de arquiteturas serverless e event-driven, de balanceamento de cargas e de autoescalonamento, julgue o item a seguir.\nEm arquiteturas event-driven serverless, a execução de funções é interrompida por eventos publicados por serviços produtores e modificada por consumidores de forma desacoplada, sendo incomum a utilização de mecanismos de mensageria ou de streams para intermediar a entrega desses eventos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 3,
+        "enunciado": "CETAP - Tec Info (BANPARÁ)/BANPARÁ/Desenvolvimento de Sistema e Acompanhamento de Projetos/2025 TI - Desenvolvimento de Sistemas - Arquitetura Orientada a Eventos Na Arquitetura Orientada a Eventos (Event-Driven Architecture - EDA), qual componente é responsável por capturar eventos gerados por diferentes fontes, armazená- los temporariamente e garantindo a entrega aos consumidores, mesmo em caso de falhas, permitindo que os sistemas sejam desacoplados e escaláveis?",
+        "alternativas": [
+            "Sistema de persistência.",
+            "Produtor de eventos.",
+            "Broker de eventos.",
+            "Log de eventos.",
+            "Consumidor de eventos."
+        ],
+        "gabarito": "Broker de eventos."
+    },
+    {
+        "id": 4,
+        "enunciado": "CETAP - Tec Info (BANPARÁ)/BANPARÁ/Desenvolvimento de Sistema e Acompanhamento de Projetos/2025 TI - Desenvolvimento de Sistemas - Arquitetura Orientada a Eventos Analise o código em Phyton a seguir e marque a alternativa correta.\nimport asyncio #uma fila fila_de_eventos = asyncio.Queue() #Prod async def produtor(nome):\nfor i in range(3):\nevento = f\"Evento {i} de {nome}\" print(f\"[Produtor {nome}] Publicando: {evento}\") await fila_de_eventos.put(evento) await asyncio.sleep(1) #Cons async def consumidor(nome):\nwhile True:\nevento = await fila_de_eventos.get() print(f\"[Consumidor {nome}] Processando: {evento}\") await asyncio.sleep(2) fila_de_eventos.task_done() # Função principal async def main():\nconsumidores = [asyncio.create_task(consumidor(f\"Consumidor {i}\")) for i in range(2)] produtores = [asyncio.create_task(produtor(f\"Produtor {i}\")) for i in range(2)] await asyncio.gather(*produtores) await fila_de_eventos.join() for c in consumidores:\nc.cancel() asyncio.run(main())",
+        "alternativas": [
+            "O código é um exemplo (simulado) de programa desenvolvido no conceito de arquitetura orientada a evento (EDA), onde a fila (asyncio.Queue) funciona como broker de eventos.",
+            "O código é um exemplo (simulado) de programa desenvolvido no conceito de arquitetura orientada a evento (EDA), onde a fila (asyncio.Queue) funciona como evento produtor.",
+            "O código é um exemplo (simulado) de programa desenvolvido no conceito de arquitetura orientada a evento (EDA), onde a fila (asyncio.Queue) funciona como evento consumidor.",
+            "O código não é um exemplo de programa desenvolvido no conceito de arquitetura orientada a evento (EDA), nem um exemplo de programação assíncrona, uma vez que o Python não suporta nenhum dos dois.",
+            "O código não é um exemplo (sem sequer simulado) de programa desenvolvido no conceito de arquitetura orientada a evento (EDA), é simplesmente um exemplo de programação assíncrona, sem ter os conceitos de eventos consumidor, produtor e broker de eventos."
+        ],
+        "gabarito": "O código é um exemplo (simulado) de programa desenvolvido no conceito de arquitetura orientada a evento (EDA), onde a fila (asyncio.Queue) funciona como broker de eventos."
+    },
+    {
+        "id": 5,
+        "enunciado": "FCC - Ana (Pref SP)/Pref SP/Planejamento e Desenvolvimento Organizacional/Tecnologia da Informação e Comunicação/2025 TI - Desenvolvimento de Sistemas - Arquitetura Orientada a Eventos A equipe de TI de uma prefeitura está implementando uma arquitetura orientada a eventos (event-driven) para um sistema de notificação em tempo real. Nesse contexto, a prática fundamental de arquiteturas event-driven relacionada a como os componentes devem se comunicar e processar os eventos, garantindo maior resiliência e escalabilidade, é",
+        "alternativas": [
+            "garantir que apenas um consumidor possa receber e processar cada evento, para evitar inconsistências nos dados.",
+            "adotar a entrega de eventos no modo \"fire-and-forget\" sem qualquer mecanismo de confirmação ou retry.",
+            "estabelecer comunicação síncrona entre produtores e consumidores para garantir a entrega imediata de eventos.",
+            "utilizar uma fila intermediária (message broker) para desacoplar produtores e consumidores.",
+            "configurar consumidores para processar eventos duplicados exatamente uma vez, sem suporte a idempotência."
+        ],
+        "gabarito": "utilizar uma fila intermediária (message broker) para desacoplar produtores e consumidores."
+    },
+    {
+        "id": 6,
+        "enunciado": "CEBRASPE (CESPE) - Tec TI (BANRISUL)/BANRISUL/Desenvolvimento de Software/2025 TI - Desenvolvimento de Sistemas - Arquitetura Orientada a Eventos A respeito da arquitetura orientada a eventos, julgue os próximos itens.\nI Na topologia do mediador da arquitetura orientada, o fluxo de mensagens é distribuído nos componentes do processador do evento em uma transmissão em cadeia.\nII Uma boa prática na topologia broke consiste em enviar cada evento iniciador para uma fila de eventos iniciadores, que é aceita pelo mediador do evento.\nIII O aumento da capacidade de resposta do sistema e a dificuldade de lidar com as condições de erro constituem, respectivamente, uma vantagem e uma desvantagem da comunicação assíncrona.\nIV Características como desempenho, escalabilidade e tolerância a falhas orientam o uso da arquitetura.\nEstão certos apenas os itens",
+        "alternativas": [
+            "I e II.",
+            "I e IV.",
+            "III e IV.",
+            "I, II e III.",
+            "II, III e IV."
+        ],
+        "gabarito": "III e IV."
+    },
+    {
+        "id": 7,
+        "enunciado": "IADES - Ana (CFMV)/CFMV/Análise de Sistema/Desenvolvimento de Sistemas/2025 TI - Desenvolvimento de Sistemas - Arquitetura Orientada a Eventos Suponha que, durante o desenvolvimento de um sistema de atendimento ao cliente, a equipe tenha adotado o paradigma orientado a objetos, integrando eventos e estruturação em camadas conforme o padrão MVC, com partes do código escritas em Java e Python.\nAcerca de orientação a objetos, de padrões de arquitetura e de linguagens de programação, julgue (C ou E) o item a seguir.\nA programação por eventos é fundamentada na execução sequencial de instruções, em que o fluxo do programa é rigidamente determinado no início da execução.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 8,
+        "enunciado": "FUNCERN - PEBTT (IF RN)/IF RN/Sistemas de Informação/2025 TI - Desenvolvimento de Sistemas - Arquitetura Orientada a Eventos No contexto de Arquitetura de Software, os estilos arquiteturais definem padrões de organização e interação entre componentes, influenciando diretamente atributos de qualidade como modularidade, escalabilidade e desempenho. Na descrição correta de um aspecto fundamental do estilo arquitetural Baseado em Eventos (Event- Driven), define-se que",
+        "alternativas": [
+            "a arquitetura é rigidamente estruturada em camadas, onde cada nível só pode se comunicar com a camada imediatamente inferior ou superior.",
+            "o sistema é projetado para reagir a eventos assíncronos, com componentes comunicando-se por meio de mensagens ou publicações/assinaturas, promovendo baixo acoplamento.",
+            "os seus componentes compartilham um estado global único, e as alterações são propagadas de forma síncrona e centralizada.",
+            "a comunicação entre módulos é estritamente bilateral e baseada em chamadas diretas (requisição-resposta), exigindo alta coordenação temporal."
+        ],
+        "gabarito": "o sistema é projetado para reagir a eventos assíncronos, com componentes comunicando-se por meio de mensagens ou publicações/assinaturas, promovendo baixo acoplamento."
+    },
+    {
+        "id": 9,
+        "enunciado": "Instituto AOCP - Ana Def (DPE MS)/DPE MS/Desenvolvimento de Sistemas/2024 TI - Desenvolvimento de Sistemas - Arquitetura Orientada a Eventos Assinale a alternativa que apresenta a arquitetura que pode ser compreendida como uma máquina de estados, na qual, em cada iteração, o servidor realiza um select() para determinar se alguma operação de E/S foi concluída.",
+        "alternativas": [
+            "Arquitetura de Maslow.",
+            "Padrão Arquitetural Model-View-Controller (MVC).",
+            "Arquitetura de Consulta Estruturada.",
+            "Arquitetura Orientada a Eventos.",
+            "Arquitetura SAST."
+        ],
+        "gabarito": "Arquitetura Orientada a Eventos."
+    },
+    {
+        "id": 10,
+        "enunciado": "VUNESP - Ana (SAAE Aparecida)/SAAE Aparecida/Tecnologia da Informação/2024 TI - Desenvolvimento de Sistemas - Arquitetura Orientada a Eventos O seguinte trecho de código, escrito na forma de pseudo-código, é parte de uma implementação característica de programas orientados a eventos.\nNesse contexto, pode-se afirmar que",
+        "alternativas": [
+            "msg corresponde a uma mensagem de e-mail.",
+            "processar_mensagem, internamente, inicia uma nova thread para tratar o evento recebido.",
+            "processar_mensagem, internamente, dispara event handlers adequados.",
+            "obter_proxima_mensagem é uma rotina conhecida como event handler.",
+            "processar_mensagem, internamente, realiza um fork no processo em execução para tratar o evento recebido."
+        ],
+        "gabarito": "processar_mensagem, internamente, dispara event handlers adequados."
+    },
+    {
+        "id": 11,
+        "enunciado": "CEBRASPE (CESPE) - AFM (Pref Fortaleza)/Pref Fortaleza/Ciência da Computação, Informática, Processamento de Dados/2023 TI - Desenvolvimento de Sistemas - Arquitetura Orientada a Eventos A respeito de arquitetura de software, julgue o item a seguir.\nA arquitetura orientada a eventos aborda diferentes tópicos, como modelagem de eventos, fluxo de eventos, gerenciamento de estado, integração de sistemas e operações, e é frequentemente utilizada em sistemas centralizados e em aplicações em tempo real.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 12,
+        "enunciado": "Instituto AOCP - Ana Por (CODEBA)/CODEBA/Analista de Tecnologia da Informação/2023 TI - Desenvolvimento de Sistemas - Arquitetura Orientada a Eventos A empresa \"TechSolutions\" está desenvolvendo um sistema de e-commerce e a equipe decidiu adotar uma arquitetura orientada a eventos para notificar os usuários sobre o status de seus pedidos. Assim, sempre que um pedido é despachado, um evento \"pedidoDespachado\" é gerado e, quando um pedido é entregue, um evento \"pedidoEntregue\" é emitido.\nQual das seguintes abordagens é mais característica de uma arquitetura orientada a eventos nesse cenário?",
+        "alternativas": [
+            "Sempre que um pedido é despachado, o sistema consulta um banco de dados para obter a lista de todos os pedidos e verifica o status de cada um.",
+            "Quando um pedido é entregue, o sistema atualiza imediatamente a interface do usuário sem a necessidade de qualquer evento.",
+            "Um serviço de notificação é ativado quando o evento \"pedidoDespachado\" é detectado, enviando um e-mail ao cliente sobre o status do pedido.",
+            "O sistema espera que os usuários verifiquem manualmente o status do pedido sem qualquer notificação automática.",
+            "Os eventos são irrelevantes, pois o sistema só notifica os usuários uma vez por mês sobre o status de seus pedidos."
+        ],
+        "gabarito": "Um serviço de notificação é ativado quando o evento \"pedidoDespachado\" é detectado, enviando um e-mail ao cliente sobre o status do pedido."
+    },
+    {
+        "id": 13,
+        "enunciado": "CEBRASPE (CESPE) - ET (BNB)/BNB/Analista de Sistemas/Desenvolvimento de Sistemas/2022 TI - Desenvolvimento de Sistemas - Arquitetura Orientada a Eventos Com relação à arquitetura de software, julgue o próximo item.\nEm uma arquitetura orientada a eventos, o produtor identifica um evento que chega ao consumidor de forma assíncrona.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 14,
+        "enunciado": "VUNESP - Ana Prg (Piracicaba)/Pref Piracicaba/2022 TI - Desenvolvimento de Sistemas - Arquitetura Orientada a Eventos Assinale a alternativa relacionada ao paradigma de programação orientada a eventos.",
+        "alternativas": [
+            "Um programa define regras de inferência e uma máquina de inferência, provida pela linguagem de programação, deriva novas sentenças lógicas a partir de sentenças lógicas conhecidas.",
+            "Baseia-se no paralelismo, utilizando múltiplas threads ou múltiplos processos em diferentes CPUs para obter bom desempenho na execução de um programa.",
+            "Um programa é baseado no uso de uma ou mais pilhas como estruturas de dados, cada uma com um propósito. Argumentos para um comando são retirados de uma pilha e o valor de retorno é colocado no topo da pilha.",
+            "Um programa é capaz de automodificar seu código em tempo de execução, em resposta a estímulos externos específicos.",
+            "Um laço (loop) principal no programa detecta acontecimentos específicos, que podem ter diferentes origens, e chama sub-rotinas tratadoras conforme o acontecimento."
+        ],
+        "gabarito": "Um laço (loop) principal no programa detecta acontecimentos específicos, que podem ter diferentes origens, e chama sub-rotinas tratadoras conforme o acontecimento."
+    },
+    {
+        "id": 15,
+        "enunciado": "IBADE - EPGS (SES MG)/SES MG/Tecnologia da Informação/2022 TI - Desenvolvimento de Sistemas - Arquitetura Orientada a Eventos Há uma arquitetura de sistemas na qual os componentes de captura, comunicação, processamento e persistência de recebimento de informações, formam a estrutura básica da solução, diferente do modelo tradicional orientado a solicitações. A esta arquitetura de sistema chamamos:",
+        "alternativas": [
+            "programação por eventos.",
+            "programação linear.",
+            "programação modular.",
+            "programação estruturada.",
+            "programação sistêmica."
+        ],
+        "gabarito": "programação por eventos."
+    },
+    {
+        "id": 16,
+        "enunciado": "IBFC - ATI (Pref Cuiabá)/Pref Cuiabá/Analista de Sistemas/2019 TI - Desenvolvimento de Sistemas - Arquitetura Orientada a Eventos Programação Orientada a Eventos é um paradigma de programação onde a execução do código é determinada pelo disparo de eventos, e rotinas responsáveis por capturar estes eventos. Sobre os programas que utilizam a programação orientada a eventos, assinale a alternativa correta.",
+        "alternativas": [
+            "Sistemas operacionais.",
+            "Sistemas de crédito e cobrança.",
+            "Sistemas de varejos.",
+            "Sistemas de indústrias."
+        ],
+        "gabarito": "Sistemas operacionais."
+    },
+    {
+        "id": 17,
+        "enunciado": "FGV - AC (IBGE)/IBGE/Análise de Sistemas/Desenvolvimento de Aplicações Web Mobile/2017 TI - Desenvolvimento de Sistemas - Arquitetura Orientada a Eventos A programação orientada a eventos é um paradigma de programação no qual o fluxo do programa é determinado por eventos.\nO código a seguir exemplifica o uso desse paradigma em uma página ASPx e seu respectivo código fonte.\nPagina.aspx <%@ Page src=\"Pagina.cs\" %> <html> <head> <title> Exemplo Orientação por Eventos </title> </head> <body> <form runat=\"server\"> <asp:Label runat=\"server\" id=\"msg\">Clicar no botão!</asp:Label> <asp:Button runat=\"server\" id=\"botao\" Text=\"Clicar!\" onClick=\"ButtonClick\"/> </form> </body> </html> Pagina.cs public class Pagina: Page { protected Label msg;\nprotected void ButtonClick(Object sender, EventArgs\ne) { msg.Text = \"Clicou no botão!\";\n} } Considerando a programação orientada a eventos, a página ASPx e o código fonte apresentados, a alternativa correta é:",
+        "alternativas": [
+            "o controle Label indica que o clique no botão foi efetuado logo após carga da página;",
+            "a programação orientada a eventos é uma tecnologia que hoje foi substituída pela programação procedural;",
+            "onClick é o evento e ButtonClick é o método que manipula este evento, uma vez disparado;",
+            "a programação orientada a eventos concentra-se na modelagem de uma aplicação orientada a objetos de forma que seu uso na interface gráfica destas aplicações é restrito;",
+            "uma vez disparado o evento implementado na página, o controle Label \"msg\" será preenchido com o texto associado ao controle Button \"botao\"."
+        ],
+        "gabarito": "onClick é o evento e ButtonClick é o método que manipula este evento, uma vez disparado;"
+    },
+    {
+        "id": 18,
+        "enunciado": "Instituto AOCP - Ana Sis (CASAN)/CASAN/Desenvolvimento de Sistemas/2016 TI - Desenvolvimento de Sistemas - Arquitetura Orientada a Eventos Preencha a lacuna e assinale a alternativa correta. O paradigma de programação __________ tem uma grande aplicação no desenvolvimento de sistemas, diferindo dos programas tradicionais que seguem um fluxo padronizado. Nesse paradigma o sistema não aguarda o comando para processar informações, mas fica em um laço de repetição de eventos que recebem repetidamente informações para processar, disparando então a função de resposta.",
+        "alternativas": [
+            "orientado à interface.",
+            "orientado a eventos.",
+            "orientado a objetos.",
+            "orientado a conceitos.",
+            "orientado a aspectos."
+        ],
+        "gabarito": "orientado a eventos."
+    },
+    {
+        "id": 19,
+        "enunciado": "COPS UEL - AgUniProf (UEL)/UEL/Analista de Informática/Desenvolvimento de Sistemas/2015 TI - Desenvolvimento de Sistemas - Arquitetura Orientada a Eventos Considere as tabelas e as TRIGGERS escritas na notação do Oracle a seguir e responda à questão.\nFUNCIONARIO Nome Cpf Salario Dnr Cpf_Supervisor DEPARTAMENTO Dnome Dnr Sal_total Cpf_gerente R1:\nCREATE TRIGGER Sal_total1 AFTER INSERT ON FUNCIONARIO FOR EACH ROW WHEN (NEW.Dnr IS NOT NULL) UPDATE DEPARTAMENTO SET Sal_total = Sal_total + NEW.Salario WHERE Dnr = NEW.Dnr;\nR2:\nCREATE TRIGGER Sal_total2 AFTER UPDATE OF Salario ON FUNCIONARIO FOR EACH ROW WHEN (NEW.Dnr IS NOT NULL) UPDATE DEPARTAMENTO SET Sal_total = Sal_total + NEW.Salario - OLD.Salario WHERE Dnr = NEW.Dnr;\nR3:\nCREATE TRIGGER Sal_total3 AFTER UPDATE OF Dnr ON FUNCIONARIO FOR EACH ROW BEGIN UPDATE DEPARTAMENTO SET Sal_total = Sal_total + NEW.Salario WHERE Dnr = New.Dnr;\nUPDATE DEPARTAMENTO SET Sal_total = Sal_total - OLD.Salario WHERE Dnr = OLD.Dnr;\nEND;\nR4:\nCREATE TRIGGER Sal_total4 AFTER DELETE ON FUNCIONARIO FOR EACH ROW WHEN (OLD.Dnr IS NOT NULL) UPDATE DEPARTAMENTO SET Sal_total = Sal_total - OLD.Salario WHERE Dnr = OLD.Dnr;\nR5:\nCREATE TRIGGER Informar_supervisor1 BEFORE INSERT OR UPDATE OF Salario,Cpf_supervisor ON FUNCIONARIO FOR EACH ROW WHEN (NEW.Salario> (SELECT Salario FROM FUNCIONARIO) WHERE Cpf = NEW.Cpf_supervisor)) informar_supervisor(NEW.Cpf_supervisor,NEW.Cpf);\nAssinale a alternativa que apresenta, corretamente, a regra que será ativada quando um funcionário mudar de departamento.",
+        "alternativas": [
+            "R1.",
+            "R2.",
+            "R3.",
+            "R4.",
+            "R5."
+        ],
+        "gabarito": "R3."
+    },
+    {
+        "id": 20,
+        "enunciado": "COPS UEL - AgUniProf (UEL)/UEL/Analista de Informática/Desenvolvimento de Sistemas/2015 TI - Desenvolvimento de Sistemas - Arquitetura Orientada a Eventos Considere as tabelas e as TRIGGERS escritas na notação do Oracle a seguir e responda à questão.\nFUNCIONARIO Nome Cpf Salario Dnr Cpf_Supervisor DEPARTAMENTO Dnome Dnr Sal_total Cpf_gerente R1:\nCREATE TRIGGER Sal_total1 AFTER INSERT ON FUNCIONARIO FOR EACH ROW WHEN (NEW.Dnr IS NOT NULL) UPDATE DEPARTAMENTO SET Sal_total = Sal_total + NEW.Salario WHERE Dnr = NEW.Dnr;\nR2:\nCREATE TRIGGER Sal_total2 AFTER UPDATE OF Salario ON FUNCIONARIO FOR EACH ROW WHEN (NEW.Dnr IS NOT NULL) UPDATE DEPARTAMENTO SET Sal_total = Sal_total + NEW.Salario - OLD.Salario WHERE Dnr = NEW.Dnr;\nR3:\nCREATE TRIGGER Sal_total3 AFTER UPDATE OF Dnr ON FUNCIONARIO FOR EACH ROW BEGIN UPDATE DEPARTAMENTO SET Sal_total = Sal_total + NEW.Salario WHERE Dnr = New.Dnr;\nUPDATE DEPARTAMENTO SET Sal_total = Sal_total - OLD.Salario WHERE Dnr = OLD.Dnr;\nEND;\nR4:\nCREATE TRIGGER Sal_total4 AFTER DELETE ON FUNCIONARIO FOR EACH ROW WHEN (OLD.Dnr IS NOT NULL) UPDATE DEPARTAMENTO SET Sal_total = Sal_total - OLD.Salario WHERE Dnr = OLD.Dnr;\nR5:\nCREATE TRIGGER Informar_supervisor1 BEFORE INSERT OR UPDATE OF Salario,Cpf_supervisor ON FUNCIONARIO FOR EACH ROW WHEN (NEW.Salario> (SELECT Salario FROM FUNCIONARIO) WHERE Cpf = NEW.Cpf_supervisor)) informar_supervisor(NEW.Cpf_supervisor,NEW.Cpf);\nAssinale a alternativa que apresenta, corretamente, as regras que serão ativadas quando um funcionário de um departamento tiver o seu salário alterado.",
+        "alternativas": [
+            "R1, R2.",
+            "R1, R5.",
+            "R2, R5.",
+            "R2, R4.",
+            "R3, R4."
+        ],
+        "gabarito": "R2, R5."
+    },
+    {
+        "id": 21,
+        "enunciado": "FUNCERN - PEBTT (IF RN)/IF RN/Desenvolvimento de Jogos Digitais/2015 TI - Desenvolvimento de Sistemas - Arquitetura Orientada a Eventos Assim como as BluePrints do Unreal Engine, o Construct 2 também utiliza programação visual baseada em eventos para desenvolver seus jogos.\nNo contexto do Construct 2, eventos são",
+        "alternativas": [
+            "um sistema de grafos de nós que simula códigos de programação, conectando funções e variáveis.",
+            "ações executadas sobre determinados objetos, a partir de uma condição.",
+            "ações executadas a partir de um trecho de código fornecido pelo usuário.",
+            "um sistema de máquinas de estado que muda o comportamento dos objetos a partir de componentes."
+        ],
+        "gabarito": "ações executadas sobre determinados objetos, a partir de uma condição."
+    },
+    {
+        "id": 22,
+        "enunciado": "CEBRASPE (CESPE) - Ana (Pref Boa Vista)/Pref Boa Vista/Analista de Sistemas/2004 TI - Desenvolvimento de Sistemas - Arquitetura Orientada a Eventos Deseja-se desenvolver um sistema de informação para uma empresa que possui uma frota de navios mercantes. Tal sistema deve ser composto de um módulo capaz de acompanhar o posicionamento de cada navio em tempo real e de receber e disponibilizar dados sobre as condições operacionais de cada navio. Um sistema gerenciador de banco de dados deve armazenar e disponibilizar informações sobre a rota, carga, tripulação e condições logísticas de cada navio. Considerando essas informações, julgue o item seguinte, acerca de desenvolvimento de aplicações e banco de dados.\nUm sistema de tempo real como o proposto exige programação orientada por eventos. Entre os ambientes integrados de desenvolvimento que oferecem recursos de programação orientados a eventos, incluem-se o Kylix e o Visual Basic.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 23,
+        "enunciado": "FGV - Ana TIC (PRODAM SP)/PRODAM SP/Programador/VB-ASP/2002 TI - Desenvolvimento de Sistemas - Arquitetura Orientada a Eventos Suponha que um Form contenha somente um controle TextBox chamado TextA. A única indicação no evento Load do Form é:\nTextA.Text = “Test” Quais eventos do Form serão invocados se um usuário abrir o Form?",
+        "alternativas": [
+            "Somente o Inicialize.",
+            "Somente Inicialize e Load.",
+            "Somente Inicialize, Load e Activate.",
+            "Inicialize, Load, Activate e Validate."
+        ],
+        "gabarito": "Somente Inicialize, Load e Activate."
+    },
+    {
+        "id": 24,
+        "enunciado": "FGV - Ana TIC (PRODAM SP)/PRODAM SP/Programador/VB-ASP/2002 TI - Desenvolvimento de Sistemas - Arquitetura Orientada a Eventos Quando o evento de KeyPress é ativado?",
+        "alternativas": [
+            "Quando a letra “A” é pressionada.",
+            "Quando a tecla ESC é pressionada.",
+            "Quando a tecla F6 é pressionada.",
+            "Quando a tecla Page Up é pressionada."
+        ],
+        "gabarito": "Quando a letra “A” é pressionada."
+    },
+    {
+        "id": 25,
+        "enunciado": "FGV - Ana TIC (PRODAM SP)/PRODAM SP/Programador/VB-ASP/2002 TI - Desenvolvimento de Sistemas - Arquitetura Orientada a Eventos Você quer monitorar em quais células o usuário “clica”. Neste caso que evento você usaria?",
+        "alternativas": [
+            "Evento Row Change.",
+            "Evento Col Change.",
+            "Evento Colrow Change.",
+            "Evento Rowcol Change."
+        ],
+        "gabarito": "Evento Rowcol Change."
+    },
+    {
+        "id": 26,
+        "enunciado": "FCC - Ana (MPE SE)/MPE SE/Tecnologia da Informação/Desenvolvimento/2026 TI - Desenvolvimento de Sistemas - Tópicos Mesclados de Arquitetura de Sistemas Um Ministério Público decidiu modernizar seu sistema de acompanhamento processual, que antes era totalmente manual. No novo cenário, os promotores e funcionários utilizam um aplicativo desktop (desenvolvido em C#) instalado em seus computadores para consultar processos, registrar manifestações e emitir relatórios.\nEsse aplicativo cliente conecta-se diretamente a um servidor de aplicação no back-end, por meio de chamadas remotas (REST), para executar operações como “consultar andamento processual”, “protocolar manifestação” e “emitir relatórios estatísticos”. O servidor de aplicação, por sua vez, organiza suas funções em camadas internas\n(serviços, regras de negócio e acesso a dados) e conecta-se a um banco de dados centralizado, que armazena todos os processos sob responsabilidade da instituição.\nNesse cenário,",
+        "alternativas": [
+            "se futuramente parte das funcionalidades (por exemplo, gestão de manifestações ou relatórios estatísticos) for extraída para serviços independentes, a arquitetura migrará necessariamente para um modelo de microsserviços.",
+            "por se tratar de uma arquitetura distribuída, os desenvolvedores não podem aplicar conceitos de orientação a objetos como encapsulamento, herança ou polimorfismo no código do servidor ou do cliente.",
+            "esse desenho arquitetural caracteriza um modelo de cliente gordo em duas camadas, pois grande parte da lógica processual está implementada diretamente no aplicativo desktop utilizado pelos promotores.",
+            "devido ao fato de o servidor de aplicação já possuir camadas internas de serviços, regras de negócio e acesso a dados, essa arquitetura já deve ser considerada totalmente orientada a serviços (SOA).",
+            "uma desvantagem da arquitetura é que os aplicativos dos promotores e funcionários precisam ser atualizados sempre que houver mudanças relevantes nas operações do servidor, para manter compatibilidade."
+        ],
+        "gabarito": "uma desvantagem da arquitetura é que os aplicativos dos promotores e funcionários precisam ser atualizados sempre que houver mudanças relevantes nas operações do servidor, para manter compatibilidade."
+    },
+    {
+        "id": 27,
+        "enunciado": "FGV - Ana Leg (ALEGO)/ALEGO/Desenvolvedor de Sistemas/2026 TI - Desenvolvimento de Sistemas - Tópicos Mesclados de Arquitetura de Sistemas Com o aumento das integrações entre sistemas internos e aplicações externas, a instituição está revisando sua estratégia de comunicação entre serviços. A equipe de TI precisa garantir que as novas soluções ofereçam interoperabilidade, padronização e facilidade de manutenção. Para isso, durante a definição da arquitetura de integração, surge a necessidade de avaliar as características essenciais que uma API deve apresentar para garantir segurança, consistência e eficiência no acesso a dados e funcionalidades corporativas.\nNesse sentido é válido afirmar que",
+        "alternativas": [
+            "há oportunidades de gerar receita e benefícios através do uso de APIs, que podem ser gerenciadas e monetizadas de forma estratégica.",
+            "uma API mantém informações sobre o estado da interação entre o cliente e o servidor ao longo do tempo, para permitir comunicações dependentes de um contexto previamente estabelecido.",
+            "a API permite comunicação baseada em HTTP e dependem de estados definidos, simplificando a integração entre aplicações.",
+            "as interfaces gráficas de uma API se comunicam através de chamadas e respostas de código.",
+            "as APIs são protocolos exclusivos que especificam e descrevem sistemas pertencentes ao mesmo ecossistema se comunicam."
+        ],
+        "gabarito": "há oportunidades de gerar receita e benefícios através do uso de APIs, que podem ser gerenciadas e monetizadas de forma estratégica."
+    },
+    {
+        "id": 28,
+        "enunciado": "FCC - Esp RT (ARTESP)/ARTESP/Tecnologia da Informação/2026 TI - Desenvolvimento de Sistemas - Tópicos Mesclados de Arquitetura de Sistemas Uma prefeitura quer permitir que o passageiro filtre linhas por bairro na tela principal do app Android em Jetpack Compose. O estado do filtro deve sobreviver a recomposições e ser fácil de testar.\nNesse caso, a abordagem mais adequada é",
+        "alternativas": [
+            "atualizar o filtro via setState em uma Activity herdada de AppCompatActivity.",
+            "manter o filtro em um ViewModel com StateFlow e coletar com collectAsState() na tela.",
+            "usar uma variável global var filtro no arquivo Kotlin e ler em todos os composables.",
+            "criar remember { mutableStateOf(...) } dentro de cada item da LazyColumn.",
+            "guardar o filtro apenas em SharedPreferences, ler direto e não expor estado para Compose."
+        ],
+        "gabarito": "manter o filtro em um ViewModel com StateFlow e coletar com collectAsState() na tela."
+    },
+    {
+        "id": 29,
+        "enunciado": "FCC - Esp RT (ARTESP)/ARTESP/Tecnologia da Informação/2026 TI - Desenvolvimento de Sistemas - Tópicos Mesclados de Arquitetura de Sistemas Um app Flutter permite que o usuário marque linhas de ônibus favoritas para acesso rápido O estado deve ser compartilhado entre várias telas e reagir a mudanças.\nNesse cenário, a abordagem mais adequada é",
+        "alternativas": [
+            "criar uma classe que estende ChangeNotifier e expô-la no topo do app com ChangeNotifierProvider.",
+            "passar a lista mutável entre telas apenas via Navigator.push e modificá-la em cada tela.",
+            "guardar as favoritas em uma variável global e ler direto de todas as telas.",
+            "salvar as favoritas em SharedPreferences e ler manualmente em cada build() sem notificação.",
+            "duplicar a lista de favoritas em cada StatefulWidget, mantendo tudo separado."
+        ],
+        "gabarito": "criar uma classe que estende ChangeNotifier e expô-la no topo do app com ChangeNotifierProvider."
+    },
+    {
+        "id": 30,
+        "enunciado": "CEBRASPE (CESPE) - AudCE (TCE RN)/TCE RN/Tecnologia da Informação/2026 TI - Desenvolvimento de Sistemas - Tópicos Mesclados de Arquitetura de Sistemas Acerca de arquiteturas serverless e event-driven, de balanceamento de cargas e de autoescalonamento, julgue o item a seguir.\nEm infraestruturas com balanceadores de carga, o autoescalonamento horizontal consiste em aumentar dinamicamente a capacidade computacional de uma instância já existente, enquanto o balanceador distribui requisições entre múltiplas instâncias dessa mesma máquina virtual.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 31,
+        "enunciado": "CEBRASPE (CESPE) - AJ TRF6/TRF 6/Apoio Especializado/Análise de Sistemas de Informação/2025 TI - Desenvolvimento de Sistemas - Tópicos Mesclados de Arquitetura de Sistemas Acerca da arquitetura de aplicações para ambiente web e de arquitetura em camadas, julgue o item a seguir.\nNa arquitetura de aplicações para ambiente web, a arquitetura cliente-servidor é um modelo de design que separa as responsabilidades de processamento entre clientes, que solicitam serviços ou recursos, e servidores, que fornecem e gerenciam esses serviços.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 32,
+        "enunciado": "CEBRASPE (CESPE) - Ana (EMBRAPA)/EMBRAPA/Ciências Exatas e da Terra/Sistemas de informação/2025 TI - Desenvolvimento de Sistemas - Tópicos Mesclados de Arquitetura de Sistemas Julgue o item a seguir, relacionado a arquitetura de software escalável e manutenível ao longo do tempo.\nUma arquitetura de software bem projetada deve permitir que o sistema cresça e evolua de maneira eficiente, sem necessidade de grandes reestruturações.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 33,
+        "enunciado": "FCC - AJ TRT1/TRT 1/Apoio Especializado/Tecnologia da Informação/2025 TI - Desenvolvimento de Sistemas - Tópicos Mesclados de Arquitetura de Sistemas Um Tribunal Regional do Trabalho está modernizando seu sistema de gestão processual para melhorar a escalabilidade, segurança e manutenibilidade. A equipe de TI está avaliando diferentes arquiteturas para a nova solução e chegou à conclusão correta que",
+        "alternativas": [
+            "uma arquitetura peer-to-peer (P2P) é ideal, pois designa um host como servidor e as outras máquinas como clientes. Como o servidor precisa estar online o tempo todo, oferece boa conectividade, garantindo a escalabilidade necessária aos sistemas judiciais.",
+            "a melhor abordagem é utilizar arquitetura baseada em objetos distribuídos, pois permite que componentes remotos compartilhem diretamente seus estados e métodos, sem a necessidade de protocolos intermediários, através de objetos do tipo trapper, garantindo eficiência dos sistemas judiciais.",
+            "uma arquitetura monolítica é a melhor escolha, pois centraliza toda a lógica do sistema judicial em um único código-fonte, facilitando a escalabilidade, a evolução modular e a manutenção ao evitar complexidades associadas à comunicação entre serviços.",
+            "uma arquitetura orientada a serviços (SOA) é a mais indicada, pois permite a criação de módulos independentes que podem se comunicar por web services ou mensageria assíncrona, facilitando a reutilização, a escalabilidade e a integração com outros sistemas judiciais.",
+            "o modelo cliente-servidor tradicional é o mais indicado, pois separa interface e processamento de dados, garantindo que a aplicação possa crescer sem necessidade de modificação na infraestrutura, além de oferecer desacoplamento adequado e modularidade necessária para integração com múltiplos serviços judiciais a sistemas externos usando o REST."
+        ],
+        "gabarito": "uma arquitetura orientada a serviços (SOA) é a mais indicada, pois permite a criação de módulos independentes que podem se comunicar por web services ou mensageria assíncrona, facilitando a reutilização, a escalabilidade e a integração com outros sistemas judiciais."
+    },
+    {
+        "id": 34,
+        "enunciado": "Unifil - Ger (Pref Alvorada do Sul)/Pref Alvorada do Sul/Tecnologia da Informação/2025 TI - Desenvolvimento de Sistemas - Tópicos Mesclados de Arquitetura de Sistemas Em sistemas de software modernos, diferentes arquiteturas são utilizadas para garantir modularidade, escalabilidade e facilidade de manutenção. Duas abordagens comuns são a Arquitetura em Três Camadas e a Arquitetura Orientada a Serviços. A primeira é conhecida por separar as responsabilidades do sistema em camadas distintas, enquanto a segunda promove a criação de serviços independentes e reutilizáveis. Com base nessas informações, analise as assertivas sobre as características dessas arquiteturas e assinale a alternativa correta.\nI. Na Arquitetura em Três Camadas, as camadas são comumente divididas em: camada de apresentação, camada de negócios e camada de dados.\nII. A Arquitetura Orientada a Serviços é focada em criar serviços independentes, que podem ser acessados por diversas aplicações, promovendo a reutilização e a interoperabilidade.\nIII. Em uma Arquitetura em Três Camadas, os serviços são desenvolvidos como componentes independentes que podem ser facilmente reutilizados por outras aplicações, como na SOA.\nIV. Uma das vantagens da SOA é permitir que sistemas desenvolvidos em diferentes plataformas e linguagens de programação possam se comunicar por meio de protocolos padronizados, como o SOAP ou REST.",
+        "alternativas": [
+            "Apenas I e II estão corretas.",
+            "Apenas I, II e IV estão corretas.",
+            "Apenas II, III e IV estão corretas.",
+            "Todas estão corretas."
+        ],
+        "gabarito": "Apenas I, II e IV estão corretas."
+    },
+    {
+        "id": 35,
+        "enunciado": "QUADRIX - Ana Sist (CREMESE)/CREMESE/2025 TI - Desenvolvimento de Sistemas - Tópicos Mesclados de Arquitetura de Sistemas O desenvolvimento de sistemas é uma das principais atividades da área de Tecnologia da Informação e Comunicação (TIC) nas organizações. As metodologias de desenvolvimento compõem o conjunto de conhecimentos essenciais para analistas e programadores. Com base nessas informações, julgue o item a seguir.\nA arquitetura de sistemas define os componentes principais de um sistema, suas interações e as tecnologias utilizadas, influenciando diretamente na escalabilidade e na manutenção da aplicação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 36,
+        "enunciado": "Instituto AOCP - PEBTT (IF MS)/IF MS/Informática/Desenvolvimento Web/2025 TI - Desenvolvimento de Sistemas - Tópicos Mesclados de Arquitetura de Sistemas Arquiteturas de software referem-se à estrutura e organização de sistemas de software, determinando como seus componentes interagem e se comunicam entre si.\nElas definem a forma como os dados são processados, armazenados e transmitidos, além de estabelecerem padrões de modularização e reutilização de código. Existem diversas abordagens para a construção dessas arquiteturas, cada uma com características particulares que atendem a diferentes necessidades de desempenho, escalabilidade, segurança e manutenibilidade dos sistemas. Assinale a alternativa que apresenta a arquitetura de software em que o processamento dos dados em um sistema está organizado de modo que cada componente de processamento seja discreto e realize um tipo de transformação de dados, na qual os dados fluem de um componente para outro para processamento.",
+        "alternativas": [
+            "Arquitetura de Dados em Rede.",
+            "Arquitetura de Conexões Não Lineares.",
+            "Arquitetura de Processo Intermitente.",
+            "Arquitetura de Repositório.",
+            "Arquitetura Duto e Filtro."
+        ],
+        "gabarito": "Arquitetura Duto e Filtro."
+    },
+    {
+        "id": 37,
+        "enunciado": "FGV - Ana Geo (CPRM)/CPRM/Análise e Desenvolvimento de Sistemas/2025 TI - Desenvolvimento de Sistemas - Tópicos Mesclados de Arquitetura de Sistemas Considere as seguintes arquiteturas:\nI. Arquitetura de Microsserviços;\nII. Framework JEE;\nIII. Arquiteturas Centradas em Dados.\nÉ considerada arquitetura de camada o que consta em",
+        "alternativas": [
+            "II e III, somente.",
+            "I, somente.",
+            "II, somente.",
+            "III, somente.",
+            "I e II, somente."
+        ],
+        "gabarito": "I e II, somente."
+    },
+    {
+        "id": 38,
+        "enunciado": "IDCAP - Tecno (JBRJ)/JBRJ/Tecnologia da Informação Aplicada a Conservação da Biodiversidade/2025 TI - Desenvolvimento de Sistemas - Tópicos Mesclados de Arquitetura de Sistemas Acerca da organização de componentes em uma arquitetura de software, analise as afirmativas a seguir:\nI.A coesão de componentes é um conceito simples que se resume a agrupar classes e módulos, que realizam a mesma função em um único componente.\nII.O Princípio de Reutilização Comum (CRP) sugere que classes e módulos, que tendem a ser reutilizados em conjunto, devem ser agrupados no mesmo componente.\nIII.O Princípio de Fechamento Comum (CCP) defende que classes e módulos, que mudam pelas mesmas razões devem ser agrupados no mesmo componente, facilitando a manutenção e reduzindo o impacto de alterações.\nÉ correto o que se afirma em:",
+        "alternativas": [
+            "II e III, apenas.",
+            "I, apenas.",
+            "III, apenas.",
+            "II, apenas.",
+            "I, II e III."
+        ],
+        "gabarito": "II e III, apenas."
+    },
+    {
+        "id": 39,
+        "enunciado": "CEBRASPE (CESPE) - Ana CT I (CNPq)/CNPq/Desenvolvimento e Arquitetura de Software/2024 TI - Desenvolvimento de Sistemas - Tópicos Mesclados de Arquitetura de Sistemas Julgue o próximo item, no que se refere à arquitetura de sistemas.\nAs diversas visões da descrição arquitetural de um sistema representam as necessidades específicas de um grupo específico de envolvidos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 40,
+        "enunciado": "FUNDEP - CTL (CM Betim)/CM Betim/Analista de Desenvolvimento de Tecnologia/2024 TI - Desenvolvimento de Sistemas - Tópicos Mesclados de Arquitetura de Sistemas Considere um sistema de e-commerce que precisa processar os pedidos dos clientes e notificar tanto os clientes quanto os administradores sobre o status dos pedidos. O sistema é projetado para ser altamente escalável e resiliente. Os pedidos são recebidos por meio de uma interface web e enviados para um serviço intermediário, que irá controlar o processamento dos pedidos. De forma assíncrona, esse intermediário irá encaminhar os pedidos para o servidor para que sejam processados um a um. Uma notificação é enviada aos clientes por e-mail após finalização de cada pedido.\nAssinale a alternativa que apresenta o modelo arquitetural adequado para esse sistema.",
+        "alternativas": [
+            "Microsserviços.",
+            "Fila de Mensagens.",
+            "Cliente-Servidor.",
+            "Arquitetura MVC."
+        ],
+        "gabarito": "Fila de Mensagens."
+    },
+    {
+        "id": 41,
+        "enunciado": "CEBRASPE (CESPE) - Tecno (LNA)/LNA/Desenvolvimento e Arquitetura de Software/2024 TI - Desenvolvimento de Sistemas - Tópicos Mesclados de Arquitetura de Sistemas Uma instituição de ensino superior tem um sistema de resultados escolares e outros sistemas relacionados como apoio à colocação profissional, pós-graduação e de controle de egressos. Quando o sistema de resultados escolares registra uma conclusão de um curso de graduação, todos os sistemas relacionados devem ser notificados assim que o registro da conclusão ocorra, ainda que de forma assíncrona.\nCom base nessa situação, assinale a opção em que é apresentada a arquitetura de software mais apropriada para resolver especificamente a demanda citada desses sistemas.",
+        "alternativas": [
+            "microsserviços.",
+            "peer-to-peer.",
+            "monolítica.",
+            "MVC (model-view-controller).",
+            "publish/subscribe."
+        ],
+        "gabarito": "publish/subscribe."
+    },
+    {
+        "id": 42,
+        "enunciado": "Instituto AOCP - Ag Prof (SEAP PR)/SEAP PR/Profissional de Tecnologia da Informação/2024 TI - Desenvolvimento de Sistemas - Tópicos Mesclados de Arquitetura de Sistemas O profissional de TI no Poder Executivo do Estado do Paraná está encarregado de planejar a arquitetura para um novo software que atenderá às necessidades do governo estadual. A arquitetura escolhida organiza a funcionalidade do sistema em serviços, cada um prestado por um servidor. Os clientes, representados pelos usuários, acessam esses servidores para fazer uso dos serviços. Com base nessa descrição, a arquitetura selecionada foi a",
+        "alternativas": [
+            "arquitetura duto e filtro.",
+            "arquitetura repositório.",
+            "arquitetura cliente-servidor.",
+            "arquitetura cliente-duto.",
+            "arquitetura cliente-filtro."
+        ],
+        "gabarito": "arquitetura cliente-servidor."
+    },
+    {
+        "id": 43,
+        "enunciado": "CEBRASPE (CESPE) - TJ TSE/TSE/Apoio Especializado/Programação de Sistemas/2024 TI - Desenvolvimento de Sistemas - Tópicos Mesclados de Arquitetura de Sistemas Julgue o próximo item, no que diz respeito à arquitetura cliente-servidor multicamadas.\nNa arquitetura cliente-servidor multicamadas, os controles do sistema operacional e do hardware estão contidos na camada de serviços do sistema, que é a camada intermediária do modelo.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 44,
+        "enunciado": "ADM&TEC - Ana (Pref Timbaúba)/Pref Timbaúba/Sistema/2023 TI - Desenvolvimento de Sistemas - Tópicos Mesclados de Arquitetura de Sistemas Analise as afirmativas a seguir:\nI. A arquitetura de um sistema descreve a estrutura, comportamento e relações entre as entidades a ele pertencentes, sendo assim uma descrição, sistematização ou formalização das interações entre as unidades e seu comportamento.\nII. Há diferentes tipos de arquiteturas, devido aos diferentes tipos de sistemas. São exemplos: Arquitetura de software, Arquitetura de sistemas colaborativos, Arquitetura de hardware e Arquitetura de sistemas estratégicos.\nIII. Layers (camadas) podem ser classificados como um tipo de arquitetura de software. Os módulos e componentes do software são organizados em camadas de funcionalidades, que podem ser desconstruídas em diferentes serviços. Esse padrão não é indicado em programas de e-commerce.\nMarque a alternativa CORRETA:",
+        "alternativas": [
+            "Todas as afirmativas estão corretas.",
+            "Nenhuma afirmativa está correta.",
+            "Apenas uma afirmativa está correta.",
+            "Apenas duas afirmativas estão corretas."
+        ],
+        "gabarito": "Apenas duas afirmativas estão corretas."
+    },
+    {
+        "id": 45,
+        "enunciado": "Instituto Consulplan - Ana (CRC RJ)/CRC RJ/Sistemas/2023 TI - Desenvolvimento de Sistemas - Tópicos Mesclados de Arquitetura de Sistemas Considerando os princípios e elementos essenciais de arquitetura e desenvolvimento de software e suas respectivas definições, relacione adequadamente as colunas a seguir.\n1. Modelo cliente/servidor em 2, 3 e N camadas.\n2. Sincronismo e filas de mensagens.\n3. MVC (Model-View-Controller).\n4. Model-Driven Architecture.\n5. Model-Driven Development.\n( ) Arquitetura que separa uma aplicação em três componentes principais: modelo; visão; e, controlador.\n( ) Abordagem de desenvolvimento de software que enfatiza a criação de modelos abstratos que definem a estrutura e o comportamento do sistema.\n( ) Separação de uma aplicação em camadas distintas para modularidade e gerenciamento simplificado.\n( ) Abordagem de desenvolvimento que coloca modelos no centro do processo, gerando, automaticamente, código a partir destes modelos.\n( ) Utilização de mensagens para comunicação assíncrona entre componentes, frequentemente empregando uma fila para gerenciar as mensagens.\nA sequência está correta em",
+        "alternativas": [
+            "4, 3, 2, 1, 5.",
+            "2, 1, 5, 4, 3.",
+            "3, 4, 1, 5, 2.",
+            "1, 5, 3, 2, 4."
+        ],
+        "gabarito": "3, 4, 1, 5, 2."
+    },
+    {
+        "id": 46,
+        "enunciado": "CEBRASPE (CESPE) - Esp GT (TELEBRAS)/TELEBRAS/Analista de Tecnologia da Informação/2022 TI - Desenvolvimento de Sistemas - Tópicos Mesclados de Arquitetura de Sistemas Acerca de aspectos diversos pertinentes a objetos de avaliação associados à análise de sistemas, julgue o item que se segue.\nNa arquitetura de software, a arquitetura cliente/servidor tem como vantagem uma maior facilidade de manutenção e segurança dos dados, e como desvantagens possíveis bloqueios no tráfego da rede, além de problemas de atualização da interface de aplicação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 47,
+        "enunciado": "Legalle - Ana TI (CM POA)/CM POA/2022 TI - Desenvolvimento de Sistemas - Tópicos Mesclados de Arquitetura de Sistemas São exemplos de Arquiteturas de sistemas, EXCETO:",
+        "alternativas": [
+            "Multicamadas.",
+            "Hub.",
+            "Webserver.",
+            "SOA.",
+            "ObserverHTTP."
+        ],
+        "gabarito": "ObserverHTTP."
+    },
+    {
+        "id": 48,
+        "enunciado": "CEBRASPE (CESPE) - Tec Ban III (BANESE)/BANESE/Informática/Desenvolvimento/2021 TI - Desenvolvimento de Sistemas - Tópicos Mesclados de Arquitetura de Sistemas A respeito de análise estática de código e interoperabilidade de sistemas, julgue o item seguinte.\nA arquitetura de software tem como objetivo apresentar a estrutura dos componentes lógicos do sistema, ficando a análise de dados para a disciplina de AD (Active Directory).",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 49,
+        "enunciado": "CEBRASPE (CESPE) - AJ (TJ RJ)/TJ RJ/Tecnologia da Informação/Analista de Sistemas/2021 TI - Desenvolvimento de Sistemas - Tópicos Mesclados de Arquitetura de Sistemas Em um ambiente cliente/servidor, a arquitetura que permite a mesma aplicação assumir tanto o papel de cliente quanto o de servidor é conhecida como arquitetura C/S",
+        "alternativas": [
+            "simples.",
+            "de dois níveis.",
+            "multinível.",
+            "de três camadas.",
+            "par-par."
+        ],
+        "gabarito": "multinível."
+    },
+    {
+        "id": 50,
+        "enunciado": "CEBRASPE (CESPE) - ProTI (ME)/ME/Atividades Técnicas de Complexidade Gerencial, de Tecnologia da Informação e de Engenharia Sênior/Experiência do Usuário (UX)/2020 TI - Desenvolvimento de Sistemas - Tópicos Mesclados de Arquitetura de Sistemas No que tange à arquitetura e tecnologias de sistemas de informação, julgue o item seguinte.\nA arquitetura distribuída apresenta algumas desvantagens em comparação ao modelo centralizado no que se refere a complexidade, segurança, capacidade de gerenciamento e imprevisibilidade.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 51,
+        "enunciado": "FAURGS - Ana (HCPA)/HCPA/Tecnologia da Informação/Desenvolvimento/2020 TI - Desenvolvimento de Sistemas - Tópicos Mesclados de Arquitetura de Sistemas Considere o parágrafo abaixo.\nA arquitetura predominante na plataforma Java EE é composta de três camadas, porque os componentes desta arquitetura são distribuídos em: _____________, ____________ e máquinas de _____________.\nAssinale a alternativa que completa, correta e respectivamente, as lacunas do parágrafo acima.",
+        "alternativas": [
+            "funções – servidor Apache – balanceamento de carga.",
+            "clientes – servidor de Aplicação – banco de dados.",
+            "métodos – servidor Nginx – firewall.",
+            "objetos – servidor Apache – banco de dados.",
+            "clientes – servidor Nginx – monitoramento."
+        ],
+        "gabarito": "clientes – servidor de Aplicação – banco de dados."
+    },
+    {
+        "id": 52,
+        "enunciado": "IESES - Prof (FUNDESJ)/FUNDESJ/Análise e Desenvolvimento de Sistemas/2019 TI - Desenvolvimento de Sistemas - Tópicos Mesclados de Arquitetura de Sistemas Assinale a alternativa que contenha corretamente os padrões de arquitetura para sistemas distribuídos:",
+        "alternativas": [
+            "Arquitetura de Fluxo de dados, Arquitetura de Sequência, Arquitetura de Middleware.",
+            "Arquitetura de mestre-escravo. Arquitetura cliente-servidor de duas camadas, Arquitetura cliente-servidor multicamadas, Arquitetura distribuída de componentes, Arquitetura ponto-a-ponto.",
+            "Arquitetura de mestre-escravo. Arquitetura cliente-servidor de duas camadas, Arquitetura cliente-servidor multicamadas Arquitetura de Fluxo de dados, Arquitetura de Sequência.",
+            "Arquitetura de mestre-escravo, Arquitetura distribuída de componentes, Arquitetura de Sequência, Arquitetura de Middleware."
+        ],
+        "gabarito": "Arquitetura de mestre-escravo. Arquitetura cliente-servidor de duas camadas, Arquitetura cliente-servidor multicamadas, Arquitetura distribuída de componentes, Arquitetura ponto-a-ponto."
+    },
+    {
+        "id": 53,
+        "enunciado": "FAURGS - Ana TI (UFRGS)/UFRGS/Sistemas de Informação/2018 TI - Desenvolvimento de Sistemas - Tópicos Mesclados de Arquitetura de Sistemas Considere os textos abaixo, sobre estilos arquiteturais de software.\nO estilo _________ é largamente utilizado por scripts Unix e aplicações de processamento de sinal. Consiste em uma série de processos conectados, de maneira que a saída de um processo serve como entrada do próximo; assim, um processo não precisa esperar que outro termine para iniciar sua execução, podendo fazê-lo assim que uma entrada esteja disponível.\nBibliotecas de interface gráfica e os programas que as utilizam estão organizados dentro do estilo ________, que é utilizado por muitos sistemas distribuídos, pois permite o baixo acoplamento dos componentes e uma fácil reorganização do sistema.\nNo estilo _________, os componentes interagem através de protocolos de rede básicos ou através de chamadas de procedimentos remotos (RPCs – remote procedure calls); usualmente há vários componentes acessando um único componente central.\nO estilo _________ é uma maneira popular de organizar software com interfaces gráficas que precisam mostrar diferentes visões dos dados; a ideia principal é separar os dados e sua visualização.\nNo estilo _________, os componentes focam em tarefas específicas, facilitando a detecção de problemas. Por outro lado, problemas de desempenho podem ocorrer dependendo do número de níveis que uma mensagem precisa percorrer até ser processada.\nAssinale a alternativa que completa, correta e respectivamente, as lacunas do texto acima.",
+        "alternativas": [
+            "baseado em eventos – model-view-controller – cliente-servidor – pipes-and-filters – orientado a serviços.",
+            "pipes-and-filters – baseado em eventos – cliente-servidor – model-view-controller – camadas.",
+            "pipes-and-filters – peer-to-peer – data-centric – model-view-controller – microserviços.",
+            "peer-to-peer – model-view-controller – cliente-servidor – baseado em eventos – camadas.",
+            "data-centric – baseado em eventos – orientado a serviços – cliente-servidor – model-view-controller."
+        ],
+        "gabarito": "pipes-and-filters – baseado em eventos – cliente-servidor – model-view-controller – camadas."
+    },
+    {
+        "id": 54,
+        "enunciado": "Instituto Excelência - Ana TI (São Carlos)/Pref São Carlos/2018 TI - Desenvolvimento de Sistemas - Tópicos Mesclados de Arquitetura de Sistemas Atualmente diversos modelos de arquitetura de software, a necessidade final do software e sua relação entre desenvolvedor, infraestrutura e cliente final acaba definindo a arquitetura a ser utilizada, a seguir algumas definições de arquitetura.\nI) Estrutura de aplicação distribuída que distribui as tarefas e cargas de trabalho entre os fornecedores de um recurso ou serviço, e os requerentes dos serviços.\nII) É uma arquitetura de software onde cada um dos pontos funciona tanto como cliente quanto como servidor, permitindo compartilhamentos de serviços e dados sem a necessidade de um ponto central.\nIII) Composto por uma cadeia de elementos de processamento, dispostos de forma tal que a saída de cada elemento é a entrada do próximo. É considerado como uma rede pela qual os dados fluem de uma extremidade (origem) à outra (destino). O fluxo de dados se dá através de ligações e os dados sofrem transformações quando processados nos filtros.",
+        "alternativas": [
+            "I. Apresentação-Abstração-Controle. II. Quadro-negro III Pipes e Filtros",
+            "I. Cliente Servidor. II. Peer- to - Peer III Pipes e Filtros",
+            "I. Quadro-negro. II. Modelo-Visão-Controlador III Reflexo",
+            "I. Modelo em três camadas. II. Peer-to-Peer III Broker",
+            "Nenhuma das alternativas."
+        ],
+        "gabarito": "I. Cliente Servidor. II. Peer- to - Peer III Pipes e Filtros"
+    },
+    {
+        "id": 55,
+        "enunciado": "CEBRASPE (CESPE) - Ana TI (FUB)/FUB/2015 TI - Desenvolvimento de Sistemas - Tópicos Mesclados de Arquitetura de Sistemas Acerca dos estilos de arquitetura de software, julgue o item que se segue.\nO Message-Bus possibilita a comunicação entre sistemas de software sem o conhecimento do destinatário atual das informações.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 56,
+        "enunciado": "CEBRASPE (CESPE) - AJ STJ/STJ/Apoio Especializado/Análise de Sistemas de Informação/2015 TI - Desenvolvimento de Sistemas - Tópicos Mesclados de Arquitetura de Sistemas Em relação à arquitetura de software, julgue o seguinte item.\nA arquitetura duto e filtro para aplicações em ambientes web provê interatividade, pois prescinde do processamento de fluxo de dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 57,
+        "enunciado": "CEBRASPE (CESPE) - ATI (MPOG)/MPO/2015 TI - Desenvolvimento de Sistemas - Tópicos Mesclados de Arquitetura de Sistemas Julgue o próximo item, relativo aos conceitos de arquitetura de sistemas.\nEmbora normalmente os sistemas desenvolvidos se baseiem em padrões de arquitetura, cada um deles tem arquitetura totalmente específica, em consequência dos seus requisitos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 58,
+        "enunciado": "ProGPe UFSCAR - Ana (UFSCAR)/UFSCAR/Tecnologia da Informação/2015 TI - Desenvolvimento de Sistemas - Tópicos Mesclados de Arquitetura de Sistemas Imagine que você foi contratado por uma empresa que desenvolve um equipamento computadorizado para controle de veículos. O equipamento dispõe de diversas portas de entrada e saída para permitir o acoplamento de outros módulos, como sensores de temperatura, velocidade, atuadores para travamento das portas, corte do combustível, entre outros exemplos. O equipamento também possui uma tela touchscreen, para exibir informações e realizar a interação com o usuário. Sua função é desenvolver o sistema de software que opera o equipamento. Ele deve possibilitar o desenvolvimento de diversos aplicativos (Ex: um tocador de música que aumenta a intensidade do som à medida que a velocidade do carro aumenta), assim como a fácil incorporação de novos módulos externos (Ex: um comunicador de rádio-frequência, vendido separadamente). Qual dos seguintes estilos arquiteturais é o mais adequado para o projeto desse sistema?",
+        "alternativas": [
+            "Uma arquitetura onde existe um servidor, responsável por oferecer os serviços de acesso aos módulos externos e à tela, um conjunto de clientes, que são as aplicações, e um canal padronizado de comunicação, implementado, por exemplo, com inspiração no protocolo HTTP (Serviços REST).",
+            "Uma arquitetura onde existe um núcleo de classes que implementa as funcionalidades básicas do dispositivo, de acesso às portas de entrada e saída e funções de exibição de informações e captura de eventos de toque na tela. O suporte a módulos externos é feito por meio de “drivers” que estendem o conjunto de funções do núcleo, e as aplicações são desenvolvidas por meio de chamadas às funções básicas do núcleo e às funções estendidas providas pelos “drivers”.",
+            "Uma arquitetura em três camadas, onde a camada inferior implementa o acesso aos módulos externos, a camada superior implementa as aplicações, e a camada intermediária é composta de adaptadores e mediadores que realizam a comunicação entre as outras camadas.",
+            "Uma arquitetura composta de um modelo conceitual que representa as informações coletadas dos módulos externos, um conjunto de classes responsáveis somente pela visualização das informações na tela e interação com o usuário, e um conjunto de classes que controlam o fluxo das informações entre o modelo e as visões.",
+            "Uma arquitetura ponto-a-ponto, onde cada pedaço de hardware do dispositivo (como a tela, as entradas e saídas, e os módulos externos) é independente e tem seu próprio software, e se comunica somente com os outros pontos quando necessário."
+        ],
+        "gabarito": "Uma arquitetura onde existe um núcleo de classes que implementa as funcionalidades básicas do dispositivo, de acesso às portas de entrada e saída e funções de exibição de informações e captura de eventos de toque na tela. O suporte a módulos externos é feito por meio de “drivers” que estendem o conjunto de funções do núcleo, e as aplicações são desenvolvidas por meio de chamadas às funções básicas do núcleo e às funções estendidas providas pelos “drivers”."
+    },
+    {
+        "id": 59,
+        "enunciado": "CC INPE - Tecno Jr (INPE)/INPE/Tecnologia da Informação/2014 TI - Desenvolvimento de Sistemas - Tópicos Mesclados de Arquitetura de Sistemas Marque a alternativa que contém em ordem de dependência da esquerda para direita (esquerda depende da direita) os níveis de serviços em uma arquitetura de sistemas.",
+        "alternativas": [
+            "aplicações, middleware, sistema operacional, hardware.",
+            "hardware, middleware, software.",
+            "linguagens, sistema operacional, hardware.",
+            "redes sociais, internet, windows, computador.",
+            "aplicativo, compilador, assembly, sistema operacional, hardware."
+        ],
+        "gabarito": "aplicações, middleware, sistema operacional, hardware."
+    },
+    {
+        "id": 60,
+        "enunciado": "CESGRANRIO - Ana (BNDES)/BNDES/Análise de Sistemas - Desenvolvimento/2013 TI - Desenvolvimento de Sistemas - Tópicos Mesclados de Arquitetura de Sistemas Uma empresa precisa de uma aplicação para processar ordens de compra na forma de mensagens de texto. As mensagens chegam criptografadas, além de conterem informações que permitem garantir que elas foram enviadas por clientes confiáveis.\nA aplicação deve ainda levar em conta os seguintes requisitos arquiteturais:\nMelhorias futuras no sistema deverão ser possíveis através da troca ou recombinação dos componentes responsáveis pelas diversas etapas do processamento.\nCada componente deve ser o mais especializado possível, para que possa ser empregado em diferentes contextos.\nComponentes responsáveis por etapas de processamento não adjacentes não devem trocar informações.\nAs fontes de dados podem variar, podendo ser uma conexão socket, uma conexão http ou um arquivo.\nOs resultados do processamento podem ser apresentados ou armazenados de diversas formas.\nQual padrão arquitetural é o indicado para essa aplicação, por atender a todos os requisitos arquiteturais listados acima?",
+        "alternativas": [
+            "Pipes and Filters.",
+            "Camadas.",
+            "Blackboard.",
+            "Broker.",
+            "MVC."
+        ],
+        "gabarito": "Pipes and Filters."
+    },
+    {
+        "id": 61,
+        "enunciado": "CEBRASPE (CESPE) - Ana TI (FUB)/FUB/2013 TI - Desenvolvimento de Sistemas - Tópicos Mesclados de Arquitetura de Sistemas Julgue o item que se segue, a respeito da arquitetura de software e de ambientes computacionais.\nUm modelo dinâmico de arquitetura de software tem como objetivo demonstrar os relacionamentos que existem entre os subsistemas, por meio de desenhos de fluxo de dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 62,
+        "enunciado": "CEBRASPE (CESPE) - Ana (SERPRO)/SERPRO/Negócios em Tecnologia da Informação/2013 TI - Desenvolvimento de Sistemas - Tópicos Mesclados de Arquitetura de Sistemas Julgue o item que se segue, relativo a arquitetura e tecnologias de sistemas de informação.\nA arquitetura de sistemas de informação possibilita o mapeamento dos elementos atinentes ao processo de desenvolvimento e implantação de sistemas de informação em uma organização.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 63,
+        "enunciado": "CEBRASPE (CESPE) - Per Crim (POLC AL)/POLC AL/Análise de Sistemas, Ciências da Computação, Informática. Processamento de Dados ou Sistemas da Informação/2013 TI - Desenvolvimento de Sistemas - Tópicos Mesclados de Arquitetura de Sistemas No que se refere ao planejamento de sistemas de informação e aos métodos de planejamento, julgue o seguinte item.\nA arquitetura de sistemas de informação descreve um conjunto de habilidades especializadas que se relaciona à interpretação da informação e expressão de distinções entre processos e sistemas eletrônicos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 64,
+        "enunciado": "CEBRASPE (CESPE) - Per Crim (PEFOCE)/PEFOCE/Ciências da Computação/2012 TI - Desenvolvimento de Sistemas - Tópicos Mesclados de Arquitetura de Sistemas Com relação a arquiteturas de sistemas de informação, julgue o próximo item.\nUma arquitetura de sistema de informação possibilita o alcance dos objetivos estratégicos, servindo para balizar as atividades e os processos relacionados ao desenvolvimento dos sistemas de informação, da evolução e racionalização dos processos e da estruturação, da obtenção e do uso das informações essenciais para uma gestão orientada a resultados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 65,
+        "enunciado": "FUMARC - Ana (PRODABEL)/PRODABEL/Tecnologia da Informação/Desenvolvimento/2012 TI - Desenvolvimento de Sistemas - Tópicos Mesclados de Arquitetura de Sistemas Analise as seguintes afirmativas sobre modelos de arquitetura de sistemas.\nI. Um “Modelo Estático” mostra subsistemas ou componentes desenvolvidos como unidades separadas.\nII. Um “Modelo Dinâmico” mostra como o sistema está organizado em processos em tempo de execução.\nIII. Um “Modelo de Interface” mostra características de usabilidade e como os usuários interagem com o sistema.\nAssinale a alternativa CORRETA:",
+        "alternativas": [
+            "A afirmativa III está errada e as afirmativas I, II estão corretas.",
+            "A afirmativa II está errada e as afirmativas I, III estão corretas.",
+            "A afirmativa I está errada e as afirmativas II, III estão corretas.",
+            "As afirmativas I, II e III estão corretas."
+        ],
+        "gabarito": "A afirmativa III está errada e as afirmativas I, II estão corretas."
+    },
+    {
+        "id": 66,
+        "enunciado": "PUC PR - Ana Sist Jr (COHAPAR/COHAPAR/2011 TI - Desenvolvimento de Sistemas - Tópicos Mesclados de Arquitetura de Sistemas Assinale a opção CORRETA em relação às assertivas abaixo:\nI. Uma aplicação monolítica, no contexto da engenharia de software, é uma solução de software na qual todas as camadas (como a user interface [interface com o usuário], a lógica de negócio, a camada de persistência) são combinadas em um único programa, baseada em uma única plataforma.\nII. Na arquitetura em três camadas, a camada de apresentação é responsável pela interação com o usuário; na camada de negócio são codificadas, na linguagem de programação optada, as regras de negócio; e são delegadas à camada de persistência as atividades de recuperação e manutenção de dados (com base na tecnologia de persistência selecionada para a solução).\nIII. No modelo em 4 camadas, além das tradicionais camadas de apresentação, negócio e persistência, precisa-se de uma adicional, a de cross-validation, definida através da metalinguagem AOP, que trata das validações cruzadas definidas, por sua vez, através das pré e pós-condições advindas da necessidade de separação entre regras de negócio voláteis e não voláteis.\nIV. Na arquitetura orientada a serviços, do inglês Service-Oriented Architecture (SOA), os programas são disponibilizados em plataformas baseadas em nuvem e têm como pré-requisito estrutural a comunicação baseada em IP v8.\nV. Do ponto de vista da arquitetura SOA, um serviço pode ser entendido como uma função de uma solução computacional que é acessível por outro sistema.",
+        "alternativas": [
+            "Apenas as assertivas I, II e IV são falsas.",
+            "Todas as assertivas são verdadeiras.",
+            "Apenas as assertivas I, II e V são verdadeiras.",
+            "Todas as assertivas são falsas.",
+            "Apenas as assertivas III, IV e V são falsas."
+        ],
+        "gabarito": "Apenas as assertivas I, II e V são verdadeiras."
+    },
+    {
+        "id": 67,
+        "enunciado": "CEBRASPE (CESPE) - ATCG (MEC)/MEC/Arquiteto de Sistema/2011 TI - Desenvolvimento de Sistemas - Tópicos Mesclados de Arquitetura de Sistemas Acerca de métricas e arquiteturas de sistemas, julgue o item que se segue.\nA arquitetura de software abrange, entre outros aspectos, questões estruturais como estrutura de controle, protocolos de comunicação, sincronização e acesso a dados, composição de elementos de design, além de escalonamento e desempenho do sistema.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 68,
+        "enunciado": "FCC - Ana (COPERGÁS)/COPERGÁS/Sistemas/2011 TI - Desenvolvimento de Sistemas - Tópicos Mesclados de Arquitetura de Sistemas Em uma arquitetura de sistema na qual os dados de entrada são transformados em dados de saída, por meio de uma série de componentes, indica que foi utilizado um",
+        "alternativas": [
+            "estilo em camadas.",
+            "estilo de fluxo de dados.",
+            "estilo de chamada de retorno.",
+            "padrão de concorrência.",
+            "padrão de distribuição."
+        ],
+        "gabarito": "estilo de fluxo de dados."
+    },
+    {
+        "id": 69,
+        "enunciado": "FGV - TFC (BADESC)/BADESC/Analista de Sistemas/Desenvolvimento de Sistemas/2010 TI - Desenvolvimento de Sistemas - Tópicos Mesclados de Arquitetura de Sistemas Com relação à arquitetura de objetos distribuídos, é correto afirmar que:",
+        "alternativas": [
+            "não existe a distinção entre clientes e servidores.",
+            "por meio da rede, torna um componente reusável disponível e acessível.",
+            "o fornecimento dos serviços independe da aplicação que usa o objeto.",
+            "os objetos se comunicam por meio de um sistema de middleware chamado servidor de objetos.",
+            "cada cliente distribuível fornece serviços para outros clientes e recebe serviços de outros clientes."
+        ],
+        "gabarito": "não existe a distinção entre clientes e servidores."
+    },
+    {
+        "id": 70,
+        "enunciado": "FCC - AS-III (INFRAERO)/INFRAERO/Analista de Sistemas/Arquitetura de Software/2009 TI - Desenvolvimento de Sistemas - Tópicos Mesclados de Arquitetura de Sistemas NÃO compõe o modelo 4+1 da arquitetura de um sistema a Visão",
+        "alternativas": [
+            "da implementação.",
+            "da implantação.",
+            "de gestão do projeto.",
+            "de caso de uso.",
+            "do processo."
+        ],
+        "gabarito": "de gestão do projeto."
+    },
+    {
+        "id": 71,
+        "enunciado": "FCC - AS-III (INFRAERO)/INFRAERO/Analista de Sistemas/Arquitetura de Software/2009 TI - Desenvolvimento de Sistemas - Tópicos Mesclados de Arquitetura de Sistemas Considere dois sistemas distintos: um deles indica a necessidade de alto desempenho e o outro muita facilidade de manutenção.\nCom respeito aos respectivos projetos de arquitetura (considere o estilo, a estrutura e a necessidade de comunicação entre os subsistemas pertinentes ao âmbito de cada sistema), o adequado uso de componentes em cada um deles deve ser de",
+        "alternativas": [
+            "baixa coesão e alta granularidade.",
+            "alto acoplamento e alta granularidade.",
+            "baixa e alta granularidade.",
+            "baixa coesão e alto acoplamento.",
+            "alta e baixa granularidade."
+        ],
+        "gabarito": "alta e baixa granularidade."
+    },
+    {
+        "id": 72,
+        "enunciado": "CEBRASPE (CESPE) - AJ STJ/STJ/Apoio Especializado/Análise de Sistemas de Informação/2008 TI - Desenvolvimento de Sistemas - Tópicos Mesclados de Arquitetura de Sistemas Acerca de arquiteturas de aplicações cliente-servidor e para a Internet, julgue o próximo item.\nNa arquitetura cliente-servidor com três camadas (three tier), a camada de apresentação, a camada de aplicação e o gerenciamento de dados ocorrem em diferentes máquinas. A camada de apresentação provê a interface do usuário e interage com o usuário, sendo máquinas clientes responsáveis pela sua execução. A camada de aplicação é responsável pela lógica da aplicação, sendo executada em servidores de aplicação. Essa camada pode interagir com um ou mais bancos de dados ou fontes de dados. Finalmente, o gerenciamento de dados ocorre em servidores de banco de dados, que processam as consultas da camada de aplicação e enviam os resultados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 73,
+        "enunciado": "FUNDEPES COPEVE-UFAL - Ana TI (UFAL)/UFAL/2008 TI - Desenvolvimento de Sistemas - Tópicos Mesclados de Arquitetura de Sistemas Dada as seguintes proposições,\nI. As arquiteturas de duas camadas dos Sistemas Gerenciadores de Banco de Dados caracterizam-se por ter os componentes de software distribuídos em dois sistemas: cliente e servidor.\nII. Em uma arquitetura cliente/servidor os programas de interface com o usuário e aplicação podem ser executados do lado cliente.\nIII. A arquitetura de três camadas é definida a partir da inclusão de um servidor de aplicação ou web entre o cliente e o servidor de banco de dados.\nIV. Um padrão denominado Open Database Conectivity(ODBC) fornece interface para o programa de aplicação(API), o qual permite que os programas do lado cliente se conectem ao Sistema Gerenciador de Banco de Dados, desde que ambas as máquinas cliente e servidor tenham os programas adequados instalados.\nverifica-se que estão corretas",
+        "alternativas": [
+            "I e II, somente.",
+            "I e III, somente.",
+            "II e III, somente.",
+            "I, II, III, somente.",
+            "I, II, III e IV."
+        ],
+        "gabarito": "I, II, III e IV."
+    },
+    {
+        "id": 74,
+        "enunciado": "CEBRASPE (CESPE) - Ana SDARH (IEMA ES)/IEMA ES/Analista de Sistemas/2007 TI - Desenvolvimento de Sistemas - Tópicos Mesclados de Arquitetura de Sistemas Atualmente, observa-se o crescimento no desenvolvimento de aplicações web em detrimento a aplicações conhecidas como do tipo Desktop. Com relação ao desenvolvimento de aplicações web, julgue o item a seguir.\nNo desenvolvimento de uma página web é obrigatório que o sistema de banco de dados seja instalado e configurado na mesma máquina do servidor web no qual a página desenvolvida é exportada.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 75,
+        "enunciado": "CEBRASPE (CESPE) - AA (ANS)/ANS/Engenharia da Computação, Ciências da Computação ou Processamento de Dados/Rede e Suporte/2005 TI - Desenvolvimento de Sistemas - Tópicos Mesclados de Arquitetura de Sistemas O planejamento e a escolha de arquitetura de sistemas de informação são atividades cruciais para a utilização desses sistemas de forma produtiva e a custos controlados. Acerca dos processos, métodos de trabalho e elementos tecnológicos associados a essas atividades, julgue o item seguinte.\nA identificação das necessidades de informação de uma organização decorre da modelagem dos dados dessa organização.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 76,
+        "enunciado": "CEBRASPE (CESPE) - PPNS (PETROBRAS)/PETROBRAS/Análise de Sistemas/Engenharia de Software/2004 TI - Desenvolvimento de Sistemas - Tópicos Mesclados de Arquitetura de Sistemas A figura acima ilustra a arquitetura R/3. Acerca dessa arquitetura, julgue o item que se segue.\nUma arquitetura R/3 descentralizada não deve ser implementada em sistemas altamente complexos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 77,
+        "enunciado": "CEBRASPE (CESPE) - PCF/PF/Área 3/2002 TI - Desenvolvimento de Sistemas - Tópicos Mesclados de Arquitetura de Sistemas Os ambientes de computação e de comunicação da informação vêm-se caracterizando por aportar a flexibilidade e as funcionalidades necessárias a um bom desempenho e à obtenção da qualidade nas empresas no ambiente de negócios e nas organizações em geral, exigindo assim abordagens próprias de planejamento, projeto, implementação e suporte, abordagens essas ligadas às características negociais e organizacionais. Acerca dessas abordagens e da correlação entre sistemas de tratamento e comunicação da informação com os processos negociais e organizacionais, julgue o item que se segue.\nUma arquitetura de dados que provê o contexto para atendimento às necessidades de informação de um determinado negócio deve identificar os objetos de dados usados nesse negócio e delimitar os atributos desses objetos, bem como as relações entre objetos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 78,
+        "enunciado": "CEBRASPE (CESPE) - PCF/PF/Área 3/2002 TI - Desenvolvimento de Sistemas - Tópicos Mesclados de Arquitetura de Sistemas Os ambientes de computação e de comunicação da informação vêm-se caracterizando por aportar a flexibilidade e as funcionalidades necessárias a um bom desempenho e à obtenção da qualidade nas empresas no ambiente de negócios e nas organizações em geral, exigindo assim abordagens próprias de planejamento, projeto, implementação e suporte, abordagens essas ligadas às características negociais e organizacionais. Acerca dessas abordagens e da correlação entre sistemas de tratamento e comunicação da informação com os processos negociais e organizacionais, julgue o item que se segue.\nUma arquitetura de aplicações apropriada para um negócio deve limitar-se aos elementos de software e de tecnologias da informação e das comunicações necessários para o tratamento das informações da arquitetura de dados, de modo a atender aos propósitos do negócio em questão.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    }
+]

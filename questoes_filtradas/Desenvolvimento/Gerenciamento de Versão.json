@@ -1,0 +1,593 @@
+[
+    {
+        "id": 1,
+        "enunciado": "No que diz respeito a projetos e processos de software, julgue o item a seguir.\nA primeira etapa de um projeto de software consiste na definição do time que irá trabalhar no desenvolvimento técnico.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 2,
+        "enunciado": "Complete as lacunas no texto a seguir:\nDurante a fase de _______________ de um sistema, a equipe de desenvolvimento pode optar por utilizar containers para facilitar a implantação e o gerenciamento da aplicação. Os containers são _______________ que empacotam o código da aplicação e suas dependências, permitindo que sejam executados de forma consistente em diferentes ambientes. Essa tecnologia contribui para a _______________ do sistema, facilitando sua adaptação a diferentes infraestruturas e a _______________, permitindo que a aplicação seja facilmente replicada para atender a demandas variáveis.",
+        "alternativas": [
+            "análise de sistemas - ambientes isolados - portabilidade - escalabilidade.",
+            "gerenciamento de projetos - linguagens de programação - eficiência - modularidade.",
+            "modelagem de dados - servidores web - confiabilidade - acessibilidade.",
+            "projeto de interface - máquinas virtuais - segurança - interoperabilidade.",
+            "teste de software - ferramentas de automação - usabilidade - manutenibilidade."
+        ],
+        "gabarito": "análise de sistemas - ambientes isolados - portabilidade - escalabilidade."
+    },
+    {
+        "id": 3,
+        "enunciado": "A segurança e o gerenciamento de projetos têm como objetivo o melhor aproveitamento dos recursos disponibilizados no projeto. Com base nessa informação, julgue o item a seguir.\nEm projetos de TI, não é necessário que se avalie o custo de recursos humanos, pois estes são fixos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 4,
+        "enunciado": "O projeto de software é uma parte crucial na engenharia de software, que envolve concepção e organização de soluções para problemas complexos por meio da aplicação de conceitos como modularidade, abstração e arquitetura. Analise as afirmativas a seguir em relação ao projeto de software.\nI. Modularidade é a capacidade de representar a estrutura geral do software e as interações entre seus componentes.\nII. A refatoração é um processo que altera o comportamento externo do código para melhorar sua eficiência.\nIII. A independência funcional é atingida desenvolvendo módulos com interfaces simples e evitando interações excessivas entre eles.\nIV. A abstração no projeto de software permite representar uma solução em diferentes níveis de detalhe, desde uma visão abrangente do problema até uma descrição técnica detalhada para implementação.\nEstá correto o que se afirma apenas em",
+        "alternativas": [
+            "I e II.",
+            "III e IV.",
+            "I, II e IV.",
+            "II, III e IV."
+        ],
+        "gabarito": "III e IV."
+    },
+    {
+        "id": 5,
+        "enunciado": "Considere realizar um levantamento de requisitos para um importante e novo sistema de informação. Foi questionado ao usuário-chave sobre os atributos da interface gráfica, que respondeu: “O que eu realmente gostaria é de um sistema que leia minha mente. Ele saberia o que quero fazer antes mesmo de eu ter de fazê-lo; isso me facilitaria tremendamente a vida. Isso é tudo, apenas isso”. Ao analisar tal resposta, verificou que não havia nada de inadequado com a solicitação, pois se tratava de um sistema que reagisse às suas necessidades e o ajudasse a concretizar suas tarefas.\nTrata-se de querer controlar o computador, e não que o computador o controle. Considerando que deixar o usuário no comando; reduzir a sua carga de memória; bem como tornar a interface consistente (regras de ouro) formam a base para um conjunto de princípios para o projeto de interfaces do usuário, analise as afirmativas a seguir.\nI. Possibilitar que a interação de usuário possa ser interrompida e desfeita, ou seja, o usuário deve ser capaz de interromper a sequência de trabalho para fazer alguma outra coisa (sem perder o trabalho que já havia feito).\nII. Aumentar a complexidade da interação à medida que os níveis de competência avançam e permitir que a interação possa ser personalizada. O usuário cria níveis de competência que permitem trabalhar com interações mais complexas.\nIII. Se modelos interativos anteriores criarem expectativa nos usuários, não será necessário fazer alterações a menos que haja uma forte razão para isso. Uma vez que determinada sequência interativa tenha se tornado um padrão de fato (como o uso de alt-S para salvar um arquivo), o usuário pressupõe que poderá ocorrer em qualquer aplicação que vá utilizar. Uma mudança poderá causar confusão.\nIV. O layout visual da interface deverá se basear na metáfora do mundo real, pois permite ao usuário se apoiar em indicações visuais bem compreensíveis, em vez de memorizar uma sequência de interações misteriosa.\nEstá correto o que se afirma apenas em",
+        "alternativas": [
+            "I e II.",
+            "II e III.",
+            "I, III e IV.",
+            "II, III e IV."
+        ],
+        "gabarito": "I, III e IV."
+    },
+    {
+        "id": 6,
+        "enunciado": "Considerando a utilização do modelo comportamental no projeto de software, é correto afirmar que, para um software em desenvolvimento, ele",
+        "alternativas": [
+            "aplica-se exclusivamente a sistemas científicos, que não necessitem coletar dados do ambiente.",
+            "não se aplica a sistemas de informação com grande quantidade de dados.",
+            "não se aplica a sistemas que exijam respostas rápidas no tempo.",
+            "deve descrever respostas a estímulos ou eventos internos ou externos ao software.",
+            "visa representar unicamente o comportamento estático do software."
+        ],
+        "gabarito": "deve descrever respostas a estímulos ou eventos internos ou externos ao software."
+    },
+    {
+        "id": 7,
+        "enunciado": "Há diferentes processos de software, mas todos devem possuir quatro atividades indispensáveis para a área da engenharia de software, EXCETO:",
+        "alternativas": [
+            "Especificação de software.",
+            "Projeto e implementação de software.",
+            "Administração e gerência do software,.",
+            "Validação de software.",
+            "Evolução de software."
+        ],
+        "gabarito": "Administração e gerência do software,."
+    },
+    {
+        "id": 8,
+        "enunciado": "Assinale a alternativa que apresenta um modo para se analisar a diferença de desempenho entre o cronograma planejado e o cronograma executado de um projeto de software.",
+        "alternativas": [
+            "Análise de cronograma.",
+            "Regressão linear.",
+            "Análise de variação.",
+            "Pontos de caso de uso.",
+            "Análise de tendência."
+        ],
+        "gabarito": "Análise de variação."
+    },
+    {
+        "id": 9,
+        "enunciado": "A gestão de projetos representa a primeira camada do processo de engenharia de software, ou seja, abrange todo o processo de seu desenvolvimento. A atividade compreendida pelo gerenciamento de projeto de desenvolvimento de software, a qual representa a definição das tarefas que devem ser executadas ao longo do desenvolvimento do software, é:",
+        "alternativas": [
+            "Medição.",
+            "Estimativa.",
+            "Análise de riscos.",
+            "Programação de atividades."
+        ],
+        "gabarito": "Programação de atividades."
+    },
+    {
+        "id": 10,
+        "enunciado": "Atualmente, o gerenciamento de riscos é reconhecido como uma das mais importantes tarefas de gerenciamento de projetos e envolve a identificação e a avaliação dos importantes riscos do projeto para estabelecer a probabilidade de que eles aconteçam e as consequências para o projeto caso esses riscos ocorram. Neste contexto, Sommerville (SOMMERVILLE, Ian. Engenharia de Software. 9. ed. São Paulo: Pearson Prentice Hall, afirma que o gestor de projetos de software deve:",
+        "alternativas": [
+            "Durante o processo de análise de riscos, considerar cada risco identificado e fazer um julgamento sobre a probabilidade e a gravidade desses riscos. É necessário que confie em seu próprio julgamento, na experiência advinda de projetos anteriores e de problemas que surgiram neles, pois não é possível fazer uma avaliação precisa e numérica da probabilidade e gravidade de cada risco.",
+            "Impedir que haja riscos dentro de um projeto e estar preparado para as situações que tragam algum nível de suscetibilidade a impedimentos à conclusão de suas atividades ou ainda que as atrasem.",
+            "Estar ciente de que não é possível pensar em ações que possam ser tomadas para cada um dos riscos identificados. Deve-se então procurar minimizar a interrupção do projeto, caso ocorra o problema que foi escolhido para ser sanado. Isso simplifica o processo de planejamento de contingência.",
+            "O número certo de riscos a serem monitorados deve depender do projeto, no entanto o número de riscos escolhidos para monitoração precisa ser igual ao número de riscos identificados na tarefa de análise, sob pena de inviabilizar o projeto com os efeitos nocivos de sua concretização.",
+            "Ter a certeza da existência de riscos e a certeza da impossibilidade de tratá-los. Na gestão de riscos em projetos de softwares, a atividade de identificação é a única saída para não sofrermos os efeitos de tais incidentes e as ações de contenção estão limitadas à sua remediação graças à sua imprevisibilidade."
+        ],
+        "gabarito": "Durante o processo de análise de riscos, considerar cada risco identificado e fazer um julgamento sobre a probabilidade e a gravidade desses riscos. É necessário que confie em seu próprio julgamento, na experiência advinda de projetos anteriores e de problemas que surgiram neles, pois não é possível fazer uma avaliação precisa e numérica da probabilidade e gravidade de cada risco."
+    },
+    {
+        "id": 11,
+        "enunciado": "Acerca de conceitos e técnicas do projeto de software, desenvolvimento orientado por comportamento (BDD) e desenvolvimento guiado por testes (TDD), julgue o item subsequente.\nDurante um projeto de um software, caso haja algum eventual atraso no desenvolvimento do produto, a solução com efeitos mais imediatos será a contratação, com urgência, de mais programadores, a fim de que o cronograma de execução do projeto mantenha-se em dia.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 12,
+        "enunciado": "Na engenharia de software, o ciclo de vida do desenvolvimento de software tem seis etapas principais, as quais estão contidas no modelo cascata. Assinale a alternativa que apresenta a primeira etapa do núcleo técnico no processo de desenvolvimento do software, a qual se caracteriza como um processo composto de várias atividades e na qual são elaboradas as especificações da solução proposta e definida na etapa de análise.",
+        "alternativas": [
+            "manutenção.",
+            "implantação.",
+            "testes.",
+            "construção.",
+            "projeto."
+        ],
+        "gabarito": "projeto."
+    },
+    {
+        "id": 13,
+        "enunciado": "Apesar de existirem diferentes processos de software, todos devem incluir quatro atividades fundamentais: Especificação de software; Projeto e implementação de software; Validação de software; Evolução de software.\nJulgue a seguinte afirmação: o “Projeto e implementação de software” tem a intenção de mostrar que um software se adequa às suas especificações ao mesmo tempo em que satisfaz as especificações do cliente do sistema.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 14,
+        "enunciado": "Em um projeto modular de software existem módulos que dependem de outros para funcionar. O resultado advindo é denominado:",
+        "alternativas": [
+            "coesão.",
+            "união.",
+            "acoplamento.",
+            "linkedição.",
+            "compilação."
+        ],
+        "gabarito": "acoplamento."
+    },
+    {
+        "id": 15,
+        "enunciado": "Com base nos fundamentos da Engenharia de Software, julgue o item a seguir relativos às decisões adequadas que devem ser tomadas pelas equipes de analistas quando do planejamento para o desenvolvimento de um novo sistema.\nSe, no projeto, for identificado que dois programas trocam dados temporários entre si — um que gere dados e outro que utilize esses dados —, pode-se realizar a implementação de um buffer compartilhado entre os dois programas, por meio de uma estrutura de dados do tipo fila circular, para apoiar essa troca.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 16,
+        "enunciado": "O projeto deve ser um guia legível e compreensível para aqueles que geram código e para aqueles que testam e, subsequentemente, dão suporte ao software. É correto afirmar que esse conceito sugere uma característica que serve como guia para a/o",
+        "alternativas": [
+            "avaliação de um bom projeto.",
+            "tratamento de domínio de dados.",
+            "implementação de requisitos explícitos.",
+            "desenvolvimento de técnicas de revisão."
+        ],
+        "gabarito": "avaliação de um bom projeto."
+    },
+    {
+        "id": 17,
+        "enunciado": "Em uma empresa de desenvolvimento de software, o arquiteto de solução é único e compartilhado entre todos os projetos que ela faz. Com isso, considerando que todos os projetos necessitam do arquiteto para auxiliar na validação dos modelos de dados e de software projetados, as atividades desse arquiteto devem ser planejadas conforme a disponibilidade desse recurso, sem exceder a carga horária da jornada de trabalho, podendo alterar o caminho crítico inicialmente traçado. Essa técnica é conhecida como",
+        "alternativas": [
+            "nivelamento de recursos.",
+            "estabilização de recursos.",
+            "sobrecarga de recursos.",
+            "espera.",
+            "antecipação."
+        ],
+        "gabarito": "nivelamento de recursos."
+    },
+    {
+        "id": 18,
+        "enunciado": "Com relação à engenharia de software, julgue o item subsequente.\nEm um projeto de desenvolvimento de software, a única entrega importante é fornecer ao usuário um software que esteja funcionando.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 19,
+        "enunciado": "É muito importante que o analista tenha uma justificativa para todas as alterações propostas nos trabalhos de melhoria e de desenho de processos. Nada pode ser deixado ao acaso e tudo deverá ter uma razão de ser.\nNesse sentido, os produtos resultantes da fase de desenho do novo processo são",
+        "alternativas": [
+            "escopo e recriação do desenho.",
+            "documento de análise e gerenciamento.",
+            "documentação e geração de fluxograma.",
+            "ação de planejamento e formatação do desenho."
+        ],
+        "gabarito": "documentação e geração de fluxograma."
+    },
+    {
+        "id": 20,
+        "enunciado": "Em um projeto de software, quem são as pessoas interessadas na gestão do projeto?",
+        "alternativas": [
+            "Milestones.",
+            "Stakeholders.",
+            "Sponsor.",
+            "Product Owner.",
+            "Customer."
+        ],
+        "gabarito": "Stakeholders."
+    },
+    {
+        "id": 21,
+        "enunciado": "No que se refere a serviços de integração, julgue o item que se segue.\nNa gestão de configuração de software, os elementos de processos representam ações e tarefas para um controle eficaz das alterações no software.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 22,
+        "enunciado": "No que se refere a serviços de integração, julgue o item que se segue.\nA existência de um repositório de versões é fundamental para o controle das alterações nos artefatos individuais.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 23,
+        "enunciado": "Acerca de controle de versão, julgue o próximo item.\nPara se implantar um gerenciamento efetivo de alterações do tipo “codifique e vá em frente”, recomenda-se modificar o processo convencional de controle de alterações de software, criando-se classes de alterações que terão fluxos de tratamentos diferenciados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 24,
+        "enunciado": "Acerca de controle de versão de software, julgue o item seguinte.\nO controle de versão de software pode ser isolado ou integrado, dependendo da forma como os repositórios de versões são organizados e acessados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 25,
+        "enunciado": "Acerca de controle de versão de software, julgue o item seguinte.\nO controle de versão de software visa gerar as diferentes versões de um software que são criadas durante o seu desenvolvimento e manutenção.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 26,
+        "enunciado": "Assinale a única alternativa que preenche corretamente a lacuna em branco.\n______________________é um processo na Engenharia de Software responsável por identificar e controlar o acesso, as vers es e as mudan as nos itens de configura o com o objetivo de garantir sua integridade.",
+        "alternativas": [
+            "Manutenção de Software.",
+            "Gerenciamento de Configuração.",
+            "Concurrent Versions System (CVS).",
+            "Subversion (CVN).",
+            "Git."
+        ],
+        "gabarito": "Gerenciamento de Configuração."
+    },
+    {
+        "id": 27,
+        "enunciado": "Avalie as seguintes afirmações sobre o processo de Gerenciamento de Configuração de Software.\nI. Gerenciamento de configura o de Soft are consiste do conjunto de atividades que devem ser desenvolvidas para administrar as alterações durante o ciclo de vida do software.\nII. Alguns conceitos fundamentais sobre o gerenciamento de configuração são: (i) Linhas-base referencial, padrão de referência: (ii) Release ou Entrega; (iii) Repositório dos Itens de configuração; (iv) Check-in / Check-out; and (v) Rastreabilidade.\nIII. ma desvantagem do uso de sistemas de controle de versão consiste no fato que os releases atuais ou anteriores não podem ser geradas a qualquer momento a partir das baselines e das mudanças armazenadas por elas.\nEstá(ão) correta(s) a(s) afirmativa(a):",
+        "alternativas": [
+            "I, apenas.",
+            "II, apenas.",
+            "III, apenas.",
+            "I e II, apenas.",
+            "I e III, apenas."
+        ],
+        "gabarito": "I e II, apenas."
+    },
+    {
+        "id": 28,
+        "enunciado": "O desenvolvimento de um software geralmente envolve grandes equipes de desenvolvimento que trabalham colaborativamente em um ambiente distribuído cujas mudanças são naturais e precisam ser gerenciadas. este contexto, o gerenciamento de configuração de Software cobre todo o ciclo de vida do software. É correto afirmar que NÃO é um dos objetivos do gerenciamento de configuração de software:",
+        "alternativas": [
+            "melhoraria da qualidade.",
+            "reduzir/controlar erros.",
+            "identificar, organizar, controlar e comunicar mudanças.",
+            "controle de usuários.",
+            "controle de versões."
+        ],
+        "gabarito": "controle de usuários."
+    },
+    {
+        "id": 29,
+        "enunciado": "São exemplos de ferramentas para Gerenciamento de Configuração, EXCETO:",
+        "alternativas": [
+            "TensorFlow.",
+            "Concurrent Versions System (CVS).",
+            "Subversion (SVN).",
+            "Git.",
+            "Tortoise."
+        ],
+        "gabarito": "TensorFlow."
+    },
+    {
+        "id": 30,
+        "enunciado": "Uma das ferramentas mais importantes no processo de desenvolvimento de software é o repositório de gestão de configuração de software utilizado. Ele oferece um conjunto de estruturas e mecanismos que auxiliam a equipe de desenvolvimento a gerenciar as modificações experimentadas por um software.\nEm termos de características, em um repositório de gestão de configuração é fundamental",
+        "alternativas": [
+            "acompanhar e manter as dependências entre os elementos de dados sob sua guarda.",
+            "compatibilizar as estruturas de padrões de projetos GoF e GRASP ao longo do desenvolvimento do software.",
+            "demandar um sistema de banco de dados externo para salvar documentos relacionados ao software.",
+            "implantar métodos ágeis de levantamento de requisitos, como o QFD (Quality Function Deployement).",
+            "reprogramar o software baseado no histórico de mudanças a partir da última versão salva."
+        ],
+        "gabarito": "acompanhar e manter as dependências entre os elementos de dados sob sua guarda."
+    },
+    {
+        "id": 31,
+        "enunciado": "O profissional de Tecnologia da Informação precisa ser mais flexível e aberto para entender as necessidades reais da empresa como um todo. Entender bem sobre Gerenciamento de projetos torna a entrega dos resultados mais eficiente. O gerente de demanda é responsável por",
+        "alternativas": [
+            "realizar acordos de nível de serviço.",
+            "prover a resolução e restauração de um incidente.",
+            "realizar a demanda, partindo do gerente do projeto.",
+            "utilizar técnicas para gerenciar a demanda de forma eficiente, garantindo que o requisitos de negócio e do cliente sejam satisfeitos."
+        ],
+        "gabarito": "utilizar técnicas para gerenciar a demanda de forma eficiente, garantindo que o requisitos de negócio e do cliente sejam satisfeitos."
+    },
+    {
+        "id": 32,
+        "enunciado": "As alternativas a seguir são exemplos de boas práticas de gerência de configuração de software. Diante do exposto, assinale a alternativa incorreta.",
+        "alternativas": [
+            "Utilizar um sistema de controle de versão, como Git, para rastrear alterações no código.",
+            "Manter as configurações de ambiente junto com o código-fonte, sem separação por ambientes de desenvolvimento, teste e produção.",
+            "Adotar versionamento semântico para indicar mudanças de forma clara, como MAJOR.MINOR.PATCH.",
+            "Automatizar o processo de build e testes com ferramentas de Integração Contínua (CI), como Jenkins ou GitLab CI."
+        ],
+        "gabarito": "Manter as configurações de ambiente junto com o código-fonte, sem separação por ambientes de desenvolvimento, teste e produção."
+    },
+    {
+        "id": 33,
+        "enunciado": "Considerando a gestão de configurações e as mudanças de sistemas/softwares e a gestão de bases de conhecimento, julgue o item seguinte.\nLimitar o acesso à base de conhecimento apenas aos gerentes e aos líderes de equipe constitui uma das práticas mais importantes para a efetiva gestão de bases de conhecimento em uma organização.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 34,
+        "enunciado": "Considerando a gestão de configurações e as mudanças de sistemas/softwares e a gestão de bases de conhecimento, julgue o item seguinte.\nNo contexto da gestão de bases de conhecimento, uma prática considerada eficaz para o treinamento e para a capacitação de usuários em uma organização é realizar workshops interativos e práticos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 35,
+        "enunciado": "A Gestão de Configuração de Software não fornece um método de projeto, um modelo de ciclo de vida e tampouco define como a qualidade dos itens deve ser julgada. Ela fornece um fundamento sólido para todas as outras atividades de engenharia de software, estabelecendo funções da gestão de configuração. Relativamente às funções e suas descrições, relacione a Coluna 1 à Coluna 2.\nColuna 1\n1. Identificação de configuração.\n2. Controle de configuração.\n3. Auditoria de configuração.\n4. Contabilização da situação de configuração.\nColuna 2\n( ) Passos no processo de alteração que afetam uma configuração.\n( ) Diferenças entre as versões.\n( ) Modificações feitas por determinado programador.\n( ) Itens que constituem uma configuração.\nA ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+        "alternativas": [
+            "1 – 2 – 3 – 4.",
+            "2 – 3 – 4 – 1.",
+            "3 – 4 – 1 – 2.",
+            "4 – 1 – 2 – 3.",
+            "3 – 2 – 1 – 4."
+        ],
+        "gabarito": "2 – 3 – 4 – 1."
+    },
+    {
+        "id": 36,
+        "enunciado": "A gestão de defeitos faz o gerenciamento de defeitos no processo de teste de software. Os elementos chave desse processo de gestão estão listados nas alternativas abaixo e são paralelos ao Relatórios de Gestão que está presente em todos os elementos. Assinale a alternativa que NÃO se trata de um elemento de gestão de defeitos.",
+        "alternativas": [
+            "Prevenção de defeitos.",
+            "Linha-de-base a ser entregue.",
+            "Identificação do defeito.",
+            "Melhoria do processo.",
+            "Gerenciamento de configuração."
+        ],
+        "gabarito": "Gerenciamento de configuração."
+    },
+    {
+        "id": 37,
+        "enunciado": "Quanto a aspectos associados ao processo de gerenciamento de configurações de softwares, julgue o item a seguir.\nNa criação de um release de um sistema, o código executável de programas e todos os arquivos de dados associados devem ser coletados e identificados, e as descrições de configuração podem ter que ser escritas para hardwares diferentes e para instruções e sistemas operacionais preparados para clientes que necessitem configurar os próprios sistemas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 38,
+        "enunciado": "O controle de versão de software é uma prática fundamental no desenvolvimento colaborativo. Assinale a alternativa que explica o conceito de controle de versão, destacando sua importância e os principais objetivos e como o controle de versão contribui para a organização do desenvolvimento de software, o gerenciamento de mudanças e a colaboração entre equipes.",
+        "alternativas": [
+            "O controle de versão de software é uma abordagem para rastrear e gerenciar alterações em arquivos de código-fonte ao longo do tempo. Ele permite o controle preciso de alterações, o trabalho em equipe eficiente e a recuperação de versões anteriores.",
+            "O controle de versão refere-se à identificação de erros em código-fonte e sua correção imediata. Isso garante que o software seja sempre livre de erros e pronto para implantação.",
+            "O controle de versão é a gestão de configurações de hardware em um ambiente de desenvolvimento. Ele permite manter o hardware atualizado para melhorar o desempenho do software.",
+            "O controle de versão envolve a otimização de desempenho de um aplicativo, garantindo que ele funcione de maneira eficiente em diferentes sistemas operacionais. Isso é alcançado por meio da reescrita frequente do código-fonte.",
+            "O controle de versão é a criação de backups regulares de um projeto de software. Ele garante a segurança dos dados e impede a perda de informações críticas."
+        ],
+        "gabarito": "O controle de versão de software é uma abordagem para rastrear e gerenciar alterações em arquivos de código-fonte ao longo do tempo. Ele permite o controle preciso de alterações, o trabalho em equipe eficiente e a recuperação de versões anteriores."
+    },
+    {
+        "id": 39,
+        "enunciado": "O gerenciamento de configurações de um produto de software lida com um grande volume de informações e inclui atividades de:",
+        "alternativas": [
+            "versionamento de baselines para controle de Branching e Merging;",
+            "gerenciamento de versões das áreas de trabalho privadas de cada desenvolvedor;",
+            "controle de releases para gestão dos itens de configuração agrupados em uma Branching;",
+            "gerenciamento de mudanças para manter o acompanhamento das solicitações dos clientes e desenvolvedores por mudanças no software, definir custos e impactos de tais mudanças;",
+            "registro de Tags para manter o acompanhamento do sistema e assegurar que as mudanças nos componentes, realizadas por diferentes desenvolvedores, não interfiram umas nas outras."
+        ],
+        "gabarito": "gerenciamento de mudanças para manter o acompanhamento das solicitações dos clientes e desenvolvedores por mudanças no software, definir custos e impactos de tais mudanças;"
+    },
+    {
+        "id": 40,
+        "enunciado": "O gerenciamento de versão é o processo de acompanhamento de diferentes versões de componentes de software ou itens de configuração. No modelo em cascata, são contidos estágios que refletem as atividades do desenvolvimento. Sobre os estágios do modelo de cascata, informe verdadeiro (V) ou falso (F) em relação aos estágios do modelo em cascata e, em seguida, marque a opção que apresenta a sequência correta.\n( ) Uma consequência do desenvolvimento independente do mesmo componente é que codelines podem se ramificar.\n( ) Os recursos de gerenciamento de armazenamento em um sistema de controle de versões aumentam o espaço requerido em disco.\n( ) Sistemas de gerenciamento de versões usam o conceito de um repositório público e um espaço de trabalho privado.\n( ) Pode ser necessário fundir ramificações de codelines para criar uma nova versão de um componente que inclui todas as mudanças realizadas.\n( ) Quando uma versão mais recente de um componente é usada, os sistemas armazenam a versão na íntegra.",
+        "alternativas": [
+            "(F); (F); (V); (F); (V).",
+            "(F); (V); (F); (V); (F).",
+            "(V); (V); (F); (F); (V).",
+            "(V); (F); (V); (V); (V)."
+        ],
+        "gabarito": "(V); (F); (V); (V); (V)."
+    },
+    {
+        "id": 41,
+        "enunciado": "Considere o texto a seguir:\nTer os dados de configuração organizados e adicionados a um repositório permite a colaboração e a visibilidade da configuração do sistema. O fluxo de trabalho de solicitação pull que as equipes de software usam para revisar e editar código pode ser aplicado aos arquivos de dados de configuração. Assim, fica mais fácil construir um sistema de rastreio. Quaisquer alterações aplicadas à configuração devem ser revisadas e aceitas pela equipe. Assim, as mudanças de configuração ganham responsabilidade e visibilidade.\nDentre os passos do processo de gerenciamento que monitora itens de configuração individuais de um sistema de TI, o texto trata da implementação do gerenciamento de configuração em ambientes Deves e correlatos e se refere à atividade de",
+        "alternativas": [
+            "balanceamento de carga.",
+            "linha de base.",
+            "implantação.",
+            "auditoria.",
+            "renderização."
+        ],
+        "gabarito": "auditoria."
+    },
+    {
+        "id": 42,
+        "enunciado": "Pode-se conceituar Gerência de Configuração de Software (GCS) como sendo um conjunto de atividades de apoio que permite a absorção ordenada das mudanças inerentes ao desenvolvimento de software, mantendo a integridade e a estabilidade durante a evolução do projeto. Os níveis da GCS são controlar e acompanhar mudanças (Controle de Mudança), registrar a evolução do projeto (Controle de Versão) e estabelecer a integridade do sistema (Integração Contínua).\nEm relação à gerência de configuração, é correto afirmar que:",
+        "alternativas": [
+            "as mudanças aparecem exclusivamente em etapas pré-definidas pelo analista no processo de desenvolvimento e devem ser registradas, avaliadas e agrupadas de acordo com sua prioridade.",
+            "durante o processo de desenvolvimento da mudança, não é aconselhável acompanhar o estado da solicitação da mudança até sua implementação e nem até o lançamento de uma versão em produção.",
+            "o controle de versão identifica os usuários do sistema e visa testar as mudanças assim que as mesmas são realizadas.",
+            "o objetivo da integração é testar as mudanças, verificando se a construção do sistema a partir dos itens registrados em uma configuração é bem sucedida."
+        ],
+        "gabarito": "o objetivo da integração é testar as mudanças, verificando se a construção do sistema a partir dos itens registrados em uma configuração é bem sucedida."
+    },
+    {
+        "id": 43,
+        "enunciado": "Acerca de qualidade de software, julgue o item subsequente.\nOs elementos de processo da gestão de configuração de software formam uma coleção de ferramentas acopladas que permitem acesso à gestão de cada item da configuração de software.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 44,
+        "enunciado": "A área relacionada à engenharia de software que visa rastrear versões e gerir fluxos em um sistema em desenvolvimento, de modo a não permitir a inclusão de versões erradas dos componentes no software a ser entregue ao usuário, refere-se ao gerenciamento de",
+        "alternativas": [
+            "requisitos.",
+            "configuração.",
+            "mudança.",
+            "projeto."
+        ],
+        "gabarito": "configuração."
+    },
+    {
+        "id": 45,
+        "enunciado": "Acerca dos conceitos de gestão de configuração, julgue o item que se segue.\nOs principais recursos de um sistema de controle de versão incluem um repositório de dados que armazena todos os objetos de configuração relevantes e um recurso de gestão de versão que armazena todas as versões de um objeto de configuração.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 46,
+        "enunciado": "Preencha corretamente as lacunas do texto a seguir.\nEm uma empresa, os papéis representam o conjunto de responsabilidades, atividades e autoridades concedias a. Um papel deve ser sempre definido em. Os papéis de gerente de configuração e de gerente de mudança podem ser realizados por.\nA sequência que preenche corretamente as lacunas do texto é",
+        "alternativas": [
+            "qualquer pessoa / uma função / um grupo.",
+            "um grupo / um processo / uma pessoa ou grupo.",
+            "uma única pessoa / uma função / qualquer pessoa.",
+            "uma pessoa ou grupo / um processo / uma única pessoa."
+        ],
+        "gabarito": "uma pessoa ou grupo / um processo / uma única pessoa."
+    },
+    {
+        "id": 47,
+        "enunciado": "Acerca dos modelos de versionamento semântico e dos padrões de branches, julgue o item a seguir.\nO incremento do número MAJOR é obrigatório apenas quando há mudanças que quebram a compatibilidade com versõesanteriores, mesmo que a alteração inclua novos recursos sem impacto na API existente.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 48,
+        "enunciado": "Um analista de tecnologia da informação de uma organização está responsável por configurar um pipeline de CI/CD (Continuous Integration/Continuous Delivery – Integração Contínua/Entrega Contínua) que automatize o build, teste e deploy de uma aplicação baseada em microsserviços. A aplicação será empacotada em contêineres Docker, armazenada em um repositório Git e orquestrada em um cluster Kubernetes. Durante o processo, o analista precisa garantir que o pipeline seja capaz de gerenciar atualizações frequentes no código-fonte, realizar deploys automáticos e monitorar o estado dos microsserviços. Qual das seguintes abordagens é a mais adequada para atingir esses objetivos?",
+        "alternativas": [
+            "Configurar o pipeline para realizar o build dos contêineres Docker diretamente no repositório Git, garantindo que cada commit seja automaticamente convertido em uma nova imagem Docker e implantado no cluster Kubernetes.",
+            "Utilizar Docker Compose para definir o pipeline de CI/CD, em que cada serviço é definido em um arquivo YAML e gerenciado diretamente pelo Kubernetes, com suporte ao versionamento através do Git.",
+            "Configurar o pipeline para usar apenas Docker Swarm para orquestração, integrando com Git para controle de versão e utilizando Kubernetes apenas para monitoramento de saúde dos contêineres.",
+            "Implementar um sistema de deploy contínuo diretamente no GitHub, utilizando ações do GitHub (GitHub Actions) para orquestrar os contêineres Docker e gerenciar o ciclo de vida dos microsserviços no Kubernetes.",
+            "Implementar o GitLab CI como ferramenta de CI/CD, integrando-o com Git para versionamento, Docker para empacotamento e Kubernetes para orquestração e gerenciamento dos microsserviços."
+        ],
+        "gabarito": "Implementar o GitLab CI como ferramenta de CI/CD, integrando-o com Git para versionamento, Docker para empacotamento e Kubernetes para orquestração e gerenciamento dos microsserviços."
+    },
+    {
+        "id": 49,
+        "enunciado": "A partir de uma ferramenta de automatização e gerenciamento de configuração, aberta e funcionando em condições ideais, um analista criou um arquivo com o seguinte conteúdo:\npackage { 'apache2':\nensure => ' installed', } service { 'apache2':\nensure => 'running', enable => true, } file { ' /var/www/html/index.html' , ensure => 'file ' , content => 'Hello, PIAUI! ' , } Sobre o conteúdo desse arquivo, trata-se de um",
+        "alternativas": [
+            "facter do Ansible para automatizar a configuração do Apache, criar um diretório para o site e uma página HTML de boasvindas.",
+            "manifesto Puppet que instala o Apache, garante que o serviço esteja em execução e cria uma página inicial.",
+            "facterdo Jenkins que instala o Apache, cria um diretório para o site e uma página HTML de boas-vindas.",
+            "pipeline do Puppet usado para gerenciar a instalação do Apache, garantir que ele esteja rodando e configurar um arquivo de página inicial.",
+            "playbook do Jenkins que gerencia o estado do pacote Apache, assegura que o serviço esteja ativo e configura um arquivo HTML de boas-vindas."
+        ],
+        "gabarito": "manifesto Puppet que instala o Apache, garante que o serviço esteja em execução e cria uma página inicial."
+    },
+    {
+        "id": 50,
+        "enunciado": "Quanto a aspectos associados ao processo de gerenciamento de configurações de softwares, julgue o item a seguir.\nAs ferramentas de workbenches abertas fornecem recursos integrados para controlar versões de software, a construção de sistemas e o rastreamento de mudanças, facilitando e simplificando a troca de dados, incluindo um banco de dados integrado de controle de mudanças.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 51,
+        "enunciado": "Assinale a alternativa que apresenta ferramentas de controle de versão de software:",
+        "alternativas": [
+            "Mercurial,Git Trello.",
+            "Subversion, Git, Trello.",
+            "Subversion, CVS, Trello.",
+            "Subversion, Git, Mercurial."
+        ],
+        "gabarito": "Subversion, Git, Mercurial."
+    },
+    {
+        "id": 52,
+        "enunciado": "Quanto as ferramentas de infraestrutura ágil, automatização e gerenciamento de configuração (Puppet, Jenkins, GIT), analise as afirmativas abaixo, dê valores Verdadeiro (V) ou Falso (F).\n( ) Jenkins facilita a adoção das práticas de DevOps.\n( ) Git é um sistema de controle de versões distribuído.\n( ) Puppet roda tanto em ambientes Linux como no Windows.\nAssinale a alternativa que apresenta a sequência correta de cima para baixo.",
+        "alternativas": [
+            "V - V - V.",
+            "V - V - F.",
+            "V - F - V.",
+            "F - F - V.",
+            "F - F - F."
+        ],
+        "gabarito": "V - V - V."
+    },
+    {
+        "id": 53,
+        "enunciado": "Considere duas ferramentas 1 e 2 que permitem a criação de workflows e criam, testam, publicam, fazem o release e implantam código automaticamente.\n– Similaridades entre as ferramentas 1 e 2 para a configuração de workflow: os arquivos são escritos em YAML e armazenados no repositório; workflows incluem um ou mais jobs; jobs incluem um ou mais passos ou comandos individuais; passos ou atividades podem ser reutilizados ou compartilhados com a comunidade.\n– Diferenças principais ao se fazer a migração da ferramenta 1 para a ferramenta 2: o paralelismo de teste automático da ferramenta 1 agrupa automaticamente os testes de acordo com as regras especificadas pelo usuário ou informações históricas de tempo e essa funcionalidade não está incorporada na ferramenta 2.\n– Ao fazer a migração de workflows: a ferramenta 1 define workflows no arquivo config.yml, que permite configurar mais de um workflow. A ferramenta 2 requer um arquivo de workflow para cada workflow e será necessário criar um novo arquivo de workflow para cada workflow configurado em config.yml.\nPelas características apresentadas, as ferramentas 1 e 2 correspondem, correta e respectivamente, a",
+        "alternativas": [
+            "Docker e Jenkins.",
+            "CircleCI e GitHub Actions.",
+            "Maven e Kubernets.",
+            "Docker e Selenium.",
+            "CircleCI e Jenkins."
+        ],
+        "gabarito": "CircleCI e GitHub Actions."
+    },
+    {
+        "id": 54,
+        "enunciado": "Com relação à arquitetura de software, julgue o próximo item.\nNos sistemas de versionamento de software, o repositório de artefatos deverá manter as duas últimas versões para backup, o que, por conseguinte, leva à exclusão das demais versões.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 55,
+        "enunciado": "Assinale a alternativa que apresenta a variável de ambiente que, no CVS (Concurrent Version System), indica o caminho absoluto do repositório.",
+        "alternativas": [
+            "$TMPDIR.",
+            "$CVSROOT.",
+            "$CVSEDITOR.",
+            "$EDITOR.",
+            "$CVSDATABASE."
+        ],
+        "gabarito": "$CVSROOT."
+    }
+]

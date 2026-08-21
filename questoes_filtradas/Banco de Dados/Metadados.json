@@ -1,0 +1,468 @@
+[
+    {
+        "id": 1,
+        "enunciado": "Em um sistema de gerenciamento de banco de dados, qual conceito descreve informações sobre a estrutura de tabelas, como nomes de colunas, tipos de dados e restrições, sendo fundamental para a definição e organização dos dados?",
+        "alternativas": [
+            "Metadados.",
+            "Transações.",
+            "Tuplas.",
+            "Índices.",
+            "Esquema."
+        ],
+        "gabarito": "Metadados."
+    },
+    {
+        "id": 2,
+        "enunciado": "No âmbito de modelagem de dados, marque a alternativa que completa corretamente e em ordem a seguinte sentença:\nA e a são fundamentais para definir a estrutura, as relações e as restrições dos dados em um banco de dados, essas definições são armazenadas como , que descrevem como os dados são organizados e gerenciados.",
+        "alternativas": [
+            "modelagem, abstração e metadados.",
+            "modelagem, abstração e índices de chaves primárias.",
+            "indexação, abstração e metadados.",
+            "modelagem, normatização e metadados.",
+            "abstração, normatização e tabelas verdade."
+        ],
+        "gabarito": "modelagem, abstração e metadados."
+    },
+    {
+        "id": 3,
+        "enunciado": "Segundo Rêgo (2, os papéis técnicos envolvidos na gestão de dados estão geralmente situados na área de tecnologia da informação, mais próximos das pessoas que desenvolvem soluções de tecnologia. Entre esses papéis, qual é aquele cuja responsabilidade é construir, ajustar e refinar o modelo de dados de acordo com a técnica de desenvolvimento adotada e trabalhar em parceria com o arquiteto de integração de dados para definir e representar os mecanismos de integração utilizados em um projeto?",
+        "alternativas": [
+            "Gestor técnico de dados.",
+            "Administrador dos repositórios de metadados.",
+            "DBA de aplicação.",
+            "DBA de infraestrutura.",
+            "Projetista de dados."
+        ],
+        "gabarito": "Projetista de dados."
+    },
+    {
+        "id": 4,
+        "enunciado": "Quanto aos conceitos utilizados no tratamento de dados e na análise de dados e informações, julgue o item.\nDe acordo com o modelo de ciclo de vida dos dados (CVD), na fase de coleta, ocorre o planejamento inicial dos dados, bem como sua descrição por meio de metadados, sua avaliação e sua seleção.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 5,
+        "enunciado": "A integridade semântica deve garantir que um dado inserido em uma linha da tabela tenha um valor válido. E para que este valor seja válido ele",
+        "alternativas": [
+            "não pode estar em branco.",
+            "deve ser do mesmo tamanho que o especificado nos metadados, desde que tenha sido especificado como tamanho fixo.",
+            "não pode ser nulo.",
+            "deve ter sido especificado nos metadados como um tipo de dado numérico inteiro.",
+            "deve ser do mesmo tipo de dado definido na especificação da coluna na tabela."
+        ],
+        "gabarito": "deve ser do mesmo tipo de dado definido na especificação da coluna na tabela."
+    },
+    {
+        "id": 6,
+        "enunciado": "Julgue o item a seguir, a respeito de arquitetura de dados, metadados e linguagens de bancos de dados.\nOs metadados possibilitam uma visão integrada do ambiente de dados, pois explicitam os inter-relacionamentos existentes entre os dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 7,
+        "enunciado": "Em relação a bancos de dados, julgue o item subsequente.\nAinda que se use um sistema gerenciador do banco de dados, a melhor opção para que o software possa acompanhar as mudanças na estrutura do arquivo correspondente é embutir os metadados nos programas de aplicação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 8,
+        "enunciado": "Mediana é o valor que separa a metade maior e a metade menor de uma amostra. Em termos mais simples, mediana pode ser o valor do meio de um conjunto de dados. No sistema gerenciador de banco de dados Postgres, é possível utilizar uma função de agregação para calcular a mediana de um conjunto de dados em SQL.\nCom base nas informações apresentadas, a função de agregação que deve ser utilizada para calcular a mediana de um conjunto de dados é a",
+        "alternativas": [
+            "MEDIAN().",
+            "PERCENTILE_CONT(0..",
+            "AVERAGE().",
+            "MEDIAN_VALUE(0.."
+        ],
+        "gabarito": "PERCENTILE_CONT(0.."
+    },
+    {
+        "id": 9,
+        "enunciado": "SQL é uma linguagem declarativa baseada em álgebra e cálculo relacional, que permite a manipulação de dados com suporte a estrutura de dados, regras e restrições de integridade. Para que o SQL forneça tantos recursos, seus comandos são divididos em grupos. Considerando os grupos dos comandos SQL, relacione adequadamente as colunas a seguir.\n1. DDL.\n2. DML.\n3. DCL.\n4. DTL.\n5. DQL.\n( ) Permite a manipulação dos dados, ou seja, inclusão, alteração e exclusão de dados.\n( ) Oferece comandos para trabalhar com transações.\n( ) Proporciona consulta de dados.\n( ) Permite determinar o esquema do banco de dados, bem como alterá-lo, exclui-lo e trabalhar com os metadados.\n( ) Permite controlar a licença e a autorização de acesso dos usuários para com os dados.\nA sequência está correta em",
+        "alternativas": [
+            "1, 2, 4, 3, 5.",
+            "2, 4, 5, 1, 3.",
+            "3, 5, 1, 4, 2.",
+            "5, 1, 3, 2, 4."
+        ],
+        "gabarito": "2, 4, 5, 1, 3."
+    },
+    {
+        "id": 10,
+        "enunciado": "Uma linguagem que tem por objetivo servir de interface entre o usuário e o Sistema Gerenciador de Banco de Dados conhecida por SQL (Structured Query Languag).\nA SQL está dividida em partes as quais são apresentadas a seguir:\n( ) A DDL (Data Definition Language), responsável por definir os metadados.\n( ) A DML (Data Manipulation Language), que possibilita a manipulação e consulta dos dados.\n( ) A DCL (Data Control Language), que trabalha com comandos para auxiliar na segurança do banco de dados.\nAssinale a alternativa que apresenta a sequência correta de cima para baixo.",
+        "alternativas": [
+            "V - F - V.",
+            "F - V - V.",
+            "F - V - F.",
+            "V - V - V."
+        ],
+        "gabarito": "V - V - V."
+    },
+    {
+        "id": 11,
+        "enunciado": "SQL é uma linguagem declarativa com seus comandos divididos em grupos, permitindo a manipulação de dados com suporte à estrutura de dados, regras e restrições de integridade. Sobre a divisão dos comandos SQL em grupos, assinale a afirmativa INCORRETA.",
+        "alternativas": [
+            "DCL: Proporciona consulta de dados.",
+            "DTL: Oferece comandos para trabalhar com transações.",
+            "DML: Permite inclusão, alteração e exclusão de dados.",
+            "DDL: Permite determinar o esquema do banco de dados e trabalhar com metadados."
+        ],
+        "gabarito": "DCL: Proporciona consulta de dados."
+    },
+    {
+        "id": 12,
+        "enunciado": "Julgue o item a seguir, a respeito de arquitetura de dados, metadados e linguagens de bancos de dados.\nComandos expressos em linguagem de definição de dados (DDL) são utilizados para criar estruturas de um banco de dados, e o seu processamento irá incluir ou alterar metadados desse mesmo banco de dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 13,
+        "enunciado": "Um ambiente de Sistema de Banco de Dados, é composto por componentes que facilitam a utilização do Banco de Dados pelos usuários e aplicações. Sobre os Metadados, é correto afirmar que",
+        "alternativas": [
+            "Realizam o processamento das consultas, incluindo a otimização quando necessário.",
+            "Contém as informações descritivas sobre o Banco de Dados Armazenado.",
+            "Possuem um cache com dados temporários que aceleram consultas frequentes.",
+            "Protegem o Banco de Dados Armazenado contra acesso não autorizado ou malicioso."
+        ],
+        "gabarito": "Contém as informações descritivas sobre o Banco de Dados Armazenado."
+    },
+    {
+        "id": 14,
+        "enunciado": "De modo geral, um sistema de gerenciamento de banco de dados organiza e estrutura o banco de dados e disponibiliza as informações para usuários e aplicativos na forma desejada. De posse dessas informações, informe se é verdadeiro (V) ou falso (F) para o que se afirma e assinale a alternativa com a sequência correta.\n( ) O SGBD controla o acesso de leitura e gravação ao banco de dados. Em um banco de dados relacional os dados podem ser gerenciados, armazenados e recuperados por meio de uma linguagem de consulta estruturada.\n( ) O SGBD gerencia os metadados, organiza os dados de acordo com o modelo de dados, define tipos de dados e atributos, garante a segurança e a proteção de dados, garante a integridade dos dados e otimiza o banco de dados para alto desempenho do sistema de banco de dados.\n( ) Os sistemas de gerenciamento de banco de dados são implementados como software e instalados em um computador ou servidor.\n( ) O SGBD não afeta as funcionalidades e desempenho do banco de dados. Os sistemas de gerenciamento de banco de dados têm a tarefa de garantir o armazenamento persistente e consistente dos dados.",
+        "alternativas": [
+            "V – V – V – V.",
+            "V – V – V – F.",
+            "V – V – F – F.",
+            "V – F – V – F."
+        ],
+        "gabarito": "V – V – V – F."
+    },
+    {
+        "id": 15,
+        "enunciado": "Em um Sistema de Gerenciamento de Banco de Dados (SGBD) relacional, um banco de metadados é um repositório especializado que armazena informações sobre os dados que estão armazenados no banco de dados propriamente dito. Em geral, os metadados ajudam os desenvolvedores, os administradores de banco de dados e outras partes interessadas a entender, a gerenciar e a trabalhar eficientemente com o banco de dados. Dentre as informações típicas que são encontradas nos metadados de um banco de dados relacional, está(ão)",
+        "alternativas": [
+            "a quantidade total de vendas realizadas, registrada pelas transações.",
+            "as senhas de usuários e suas permissões de sistema operacional.",
+            "o código-fonte dos aplicativos que acessam o banco de dados.",
+            "os backups dos dados armazenados nas tabelas.",
+            "os esquemas de tabelas, incluindo os tipos de dados e as restrições de colunas."
+        ],
+        "gabarito": "os esquemas de tabelas, incluindo os tipos de dados e as restrições de colunas."
+    },
+    {
+        "id": 16,
+        "enunciado": "Com relação aos conceitos de banco de dados relacionais, analise as afirmativas a seguir.\nI. Instância do banco se refere à supressão de detalhes da organização e do armazenamento de dados, descartando para um melhor conhecimento desses dados os recursos essenciais.\nII. Modelo de dados se refere a uma coleção de conceitos que podem ser utilizados para descrever a estrutura de um banco de dados, oferecendo os meios necessários para alcançar essa abstração.\nIII. Abstração de dados refere aos conjuntos de dados e metadados e usuários presentes no servidor de dados em um determinado instante.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, somente.",
+            "II, somente.",
+            "III, somente.",
+            "I e II, somente.",
+            "I e III, somente."
+        ],
+        "gabarito": "II, somente."
+    },
+    {
+        "id": 17,
+        "enunciado": "Em um modelo de dados uma importante definição é o esquema de dados, que é especificado durante o projeto de construção do banco, possuindo uma baixa expectativa de alterações frequentes. Durante o funcionamento, o SGBD é parcialmente responsável por garantir que todo estado do Banco de Dados seja estado válido, além de armazenar as descrições das construções e restrições do esquema, que são assim denominadas:",
+        "alternativas": [
+            "Interfaces.",
+            "Diagramas.",
+            "Dicionários.",
+            "Metadados."
+        ],
+        "gabarito": "Metadados."
+    },
+    {
+        "id": 18,
+        "enunciado": "Na área de Computação, um Banco de Dados (BD) é uma coleção organizada de dados e metadados em formato digital que podem ser armazenados, acessados e manipulados por software. Qual das seguintes definições corresponde ao conceito de esquema de BD?",
+        "alternativas": [
+            "Um conjunto de metadados e de restrições de integridade sobre dados que define as instâncias válidas de um BD.",
+            "Uma implementação de dados que armazena os dados que representam o estado do BD em um dado instante.",
+            "Uma instância de BD que contém um estado válido de dados armazenados de acordo com os metadados definidos.",
+            "Um modelo de dados que serve de base para a definição dos metadados que devem ser armazenados no BD."
+        ],
+        "gabarito": "Um conjunto de metadados e de restrições de integridade sobre dados que define as instâncias válidas de um BD."
+    },
+    {
+        "id": 19,
+        "enunciado": "A Administração de Dados é uma função essencial que lida com a gestão do ciclo de vida dos dados, incluindo a manutenção dos metadados. O Dicionário de Dados é um componente vital que suporta essa função.\nAssinale a afirmativa correta sobre o papel dos metadados e do Dicionário de Dados no ambiente de SGBD.",
+        "alternativas": [
+            "O Dicionário de Dados armazena exclusivamente os dados do usuário final, sendo atualizado apenas quando a aplicação realiza um INSERT ou UPDATE.",
+            "Metadados são apenas dados de auditoria, usados unicamente para fins de segurança e conformidade.",
+            "O Dicionário de Dados ou Catálogo do Sistema, armazena informações sobre o esquema do banco de dados e as estatísticas de otimização, sendo fundamental para o Otimizador de Consultas e o DBA.",
+            "A coleta e gestão de metadados são tarefas exclusivas do DBA e não têm relevância para o Otimizador de Consultas ou para os usuários de data discovery.",
+            "O Dicionário de Dados é um sistema de arquivo externo ao SGBD, utilizado apenas para documentação do projeto conceitual."
+        ],
+        "gabarito": "O Dicionário de Dados ou Catálogo do Sistema, armazena informações sobre o esquema do banco de dados e as estatísticas de otimização, sendo fundamental para o Otimizador de Consultas e o DBA."
+    },
+    {
+        "id": 20,
+        "enunciado": "Julgue o item a seguir, relativo a banco de dados.\nMetadados são informações estruturadas adicionais, relativas a certo conjunto de dados, que podem ser utilizadas para descrevê-lo e manipulá-lo da forma mais eficiente possível.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 21,
+        "enunciado": "Assinale a alternativa que apresenta o propósito principal do Dicionário de Dados (catálogo) em um Sistema de Gerenciamento de Banco de Dados (SGBD).",
+        "alternativas": [
+            "Armazenar os dados dos usuários.",
+            "Manter metadados sobre a estrutura do banco de dados.",
+            "Executar Stored Procedures.",
+            "Fazer backup dos dados.",
+            "Indexar tabelas grandes."
+        ],
+        "gabarito": "Manter metadados sobre a estrutura do banco de dados."
+    },
+    {
+        "id": 22,
+        "enunciado": "Julgue o item seguinte, referentes a integridade referencial, metadados e modelagem multidimensional.\nMetadados e dicionário de dados têm a mesma função: fornecem informações detalhadas sobre os dados armazenados em um banco de dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 23,
+        "enunciado": "Julgue o próximo item, a respeito de conceitos básicos e noções de administração de banco de dados.\nNo catálogo denominado metadados, podem ser encontradas informações sobre uma tabela ou algum outro objeto que faça parte da estrutura do banco de dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 24,
+        "enunciado": "A principal utilidade de um Dicionário de Dados é",
+        "alternativas": [
+            "armazenar os valores de dados, desde que textuais (não numéricos) em uma base de dados operacional.",
+            "controlar os parâmetros que são recebidos e enviados a uma base de dados por um processo qualquer.",
+            "armazenar metadados ou seja, dados sobre os dados, tais como restrições de uso de um dado, suas nomenclaturas, sua semântica, suas características, os valores que podem assumir, dentre outros.",
+            "controlar o tamanho e/ou o valor de um dado de acordo com definições previamente estabelecidas, desde que estes estejam registrados em modo não estruturado.",
+            "controlar os metadados organizacionais, ou seja, dados sobre os dados de negócio, e somente estes, tais como restrições de uso, nomenclaturas, semântica, características, valores que podem assumir, dentre outros."
+        ],
+        "gabarito": "armazenar metadados ou seja, dados sobre os dados, tais como restrições de uso de um dado, suas nomenclaturas, sua semântica, suas características, os valores que podem assumir, dentre outros."
+    },
+    {
+        "id": 25,
+        "enunciado": "Metadados constituem uma estrutura indispensável em bancos de dados, sendo correto afirmar que",
+        "alternativas": [
+            "são automaticamente movidos para a memória principal do servidor a cada nova iniciação do sistema gerenciador de banco de dados.",
+            "são excluídos do banco de dados a cada encerramento do sistema gerenciador de banco de dados.",
+            "armazenam todo o histórico de movimentações ocorridas no banco de dados (inserções, modificações e exclusões de registros).",
+            "não são necessários em bancos de dados que contenham número pequeno de tabelas (até dez tabelas).",
+            "devem conter informações sobre as estruturas componentes do banco de dados (por exemplo, as tabelas)."
+        ],
+        "gabarito": "devem conter informações sobre as estruturas componentes do banco de dados (por exemplo, as tabelas)."
+    },
+    {
+        "id": 26,
+        "enunciado": "O tipo de metadado que é utilizado para permitir que um profissional gerencie melhor o ciclo de vida de determinadas informações como por exemplo, a data de criação, tipo de arquivo, utilidade, entre outros dados que podem ser essenciais em processos de análise de Big Data, é",
+        "alternativas": [
+            "de preservação.",
+            "descritivo.",
+            "administrativo.",
+            "técnico.",
+            "de uso."
+        ],
+        "gabarito": "administrativo."
+    },
+    {
+        "id": 27,
+        "enunciado": "As transações em um banco de dados devem respeitar quatro propriedades básicas, a saber: atomicidade, preservação da consistência, isolamento e durabilidade.\nA propriedade da durabilidade estabelece que",
+        "alternativas": [
+            "transações que sejam completadas com sucesso devem ter seu efeito tornado permanente no banco de dados, não sendo perdidas em função de falhas no sistema de banco de dados.",
+            "as tabelas do banco de dados devem ser armazenadas de forma triplicada, em meios de armazenamento distintos entre si.",
+            "todos os dados presentes nas tabelas de um banco de dados devem ser criptografadas antes de seu armazenamento.",
+            "as chaves primárias das tabelas devem ser validadas externamente ao sistema de banco de dados.",
+            "o número máximo de usuários simultâneos em um sistema de banco de dados não pode ser superior à metade do número de usuários cadastrados no sistema."
+        ],
+        "gabarito": "transações que sejam completadas com sucesso devem ter seu efeito tornado permanente no banco de dados, não sendo perdidas em função de falhas no sistema de banco de dados."
+    },
+    {
+        "id": 28,
+        "enunciado": "Considere o seguinte comando do sistema gerenciador de bancos de dados Microsoft SQL Server:\nTRUNCATE TABLE Hand;\nO resultado da execução desse comando é",
+        "alternativas": [
+            "excluir metade das tabelas do banco de dados Hand.",
+            "excluir todos os registros da tabela Hand.",
+            "excluir metade dos registros da tabela Hand.",
+            "limitar o tamanho de todos os registros da tabela Hard.",
+            "limitar o número de tabelas do banco de dados Hand."
+        ],
+        "gabarito": "excluir todos os registros da tabela Hand."
+    },
+    {
+        "id": 29,
+        "enunciado": "Ao criar ou modificar um banco de dados no SQL Server é possível configurar a cláusula COLLATE da instrução CREATE DATABASE ou ALTER DATABASE.\nA configuração de COLLATE para um banco de dados:",
+        "alternativas": [
+            "afeta todos os metadados no banco de dados;",
+            "limita as opções de collation para expressões;",
+            "determina a definição de collation do servidor;",
+            "altera a definição de COLLATE no nível de coluna;",
+            "influencia a apresentação de dados dos tipos float e real."
+        ],
+        "gabarito": "afeta todos os metadados no banco de dados;"
+    },
+    {
+        "id": 30,
+        "enunciado": "Joana trabalha com extração e consolidação de dados e precisa ter acesso aos metadados de um banco de dados SQL Server para compreender melhor o modelo e as estruturas utilizadas.\nPara começar, Joana resolveu criar uma consulta SQL que produza uma lista das tabelas, com as respectivas colunas com seus tipos de dados e outras propriedades.\nO comando que Joana deve usar é:",
+        "alternativas": [
+            "select s1.name tabela, s2.name coluna, s3.name tipo, s2.iscomputed, s2.isnullable from sysobjects s1, syscolumns s2, systypes s3 where s1.xtype='T' and s1.xid=s2.xid and s2.xtype=s3.xtype and s2.xusertype=s3.xusertype order by s1.name, s2.name.",
+            "select s1.name tabela, s2.name coluna, s3.name tipo, s2.iscomputed, s2.isnullable from systables s1, syscolumns s2, systypes s3 where s1.xcode=s2.xcode and s2.xtype=s3.xtype and s2.xusertype=s3.xusertype order by s1.name, s2.name.",
+            "select s1.name tabela, s2.name coluna, s3.name tipo, s3.iscomputed, s3.isnullable from systables s1, syscolumns s2, systypes s3 where s1.tableid=s2.tableid and s2.xtype=s3.xtype and s2.xusertype=s3.xusertype order by s1.name, s2.name.",
+            "select s1.name tabela, s2.name coluna, s3.name tipo, s2.iscomputed, s2.isnullable from sysobjects s1, syscolumns s2, systypes s3 where s1.xtype='U' and s1.id=s2.id and s2.xtype=s3.xtype and s2.xusertype=s3.xusertype order by s1.name, s2.name.",
+            "select s1.name tabela, s2.name coluna, s3.name tipo, s2.iscomputed, s2.isnullable from systables s1, syscolumns s2, sysobjects s3 where s1.xid=s2.xid and s2.xtype=s3.xtype and s2.xusertype=s3.xusertype order by s1.name, s2.name."
+        ],
+        "gabarito": "select s1.name tabela, s2.name coluna, s3.name tipo, s2.iscomputed, s2.isnullable from sysobjects s1, syscolumns s2, systypes s3 where s1.xtype='U' and s1.id=s2.id and s2.xtype=s3.xtype and s2.xusertype=s3.xusertype order by s1.name, s2.name."
+    },
+    {
+        "id": 31,
+        "enunciado": "Referente a bancos de dados relacionais e NoSQL, julgue o seguinte item.\nAs visões de sistema, ou System Views, permitem acesso aos metadados dos objetos que são criados no SQL server 2012.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 32,
+        "enunciado": "Assinale a alternativa que corresponde a um metadado não estruturado.",
+        "alternativas": [
+            "Data.",
+            "CPF.",
+            "Texto livre descritivo de uma foto em rede social.",
+            "Sistema de classificação de arquivos.",
+            "Dicionário de dados de um SGBD."
+        ],
+        "gabarito": "Texto livre descritivo de uma foto em rede social."
+    },
+    {
+        "id": 33,
+        "enunciado": "O armazenamento de objetos é projetado para guardar grandes volumes de dados de maneira eficiente.\nUma de suas características principais é",
+        "alternativas": [
+            "utilizar hierarquia de diretórios.",
+            "empregar blocos de tamanho fixo.",
+            "organizar os dados de acordo com o sistema NTFS.",
+            "usar uma estrutura específica de dados.",
+            "armazenar dados com metadados detalhados."
+        ],
+        "gabarito": "armazenar dados com metadados detalhados."
+    },
+    {
+        "id": 34,
+        "enunciado": "O armazenamento de dados do tipo orientado a objetos é aquele que",
+        "alternativas": [
+            "divide os volumes de armazenamento em instâncias individuais conhecidas como blocos, de maneira independente, oferecendo aos usuários uma autonomia de configuração completa.",
+            "organiza os dados em um local que pode ser acessado por qualquer usuário da Internet que tenha as permissões necessárias.",
+            "usa um software de gerenciamento de abstração para desacoplar os dados do hardware antes de reformatá-los e organizá-los para o uso na rede.",
+            "divide os dados em unidades discretas, acessíveis em grande escala, e os alinha com metadados para fornecer contexto sobre seu conteúdo.",
+            "torna os dados mais acessíveis para redes internas, ao instalar um sistema operacional leve em um servidor que o transforma em algo chamado caixa, unidade ou cabeçote NAS."
+        ],
+        "gabarito": "divide os dados em unidades discretas, acessíveis em grande escala, e os alinha com metadados para fornecer contexto sobre seu conteúdo."
+    },
+    {
+        "id": 35,
+        "enunciado": "Um ambiente de metadados gerenciado deve isolar o usuário final das várias e diferentes fontes de metadados. A arquitetura deve fornecer um único ponto de acesso, mediante adoção de um dos três modelos para implementação de um repositório comum de metadados.\nO modelo híbrido se diferencia dos outros, pela seguinte característica:",
+        "alternativas": [
+            "Nessa arquitetura, o ambiente de gerenciamento de metadados mantém os catálogos do sistema de origem e as informações de pesquisa necessárias para processar efetivamente as consultas e pesquisas do usuário.",
+            "Um broker de solicitação de objeto comum ou protocolo de middleware semelhante acessa os sistemas de origem.",
+            "Consiste em um único repositório que contém cópias dos metadados das várias fontes. As organizações que buscam um alto grau de consistência no repositório comum de metadados podem se beneficiar desse tipo de arquitetura.",
+            "O mecanismo de recuperação de metadados responde às solicitações do usuário, recuperando dados dos sistemas de origem em tempo real. Não há repositório persistente.",
+            "Os metadados transitam diretamente dos sistemas de origem para um repositório centralizado. No entanto, o design do repositório considera apenas os metadados adicionados pelo usuário, que podem ser itens padronizados e/ou críticos."
+        ],
+        "gabarito": "Os metadados transitam diretamente dos sistemas de origem para um repositório centralizado. No entanto, o design do repositório considera apenas os metadados adicionados pelo usuário, que podem ser itens padronizados e/ou críticos."
+    },
+    {
+        "id": 36,
+        "enunciado": "Um administrador de banco de dados precisa definir metadados semi-estruturados para trabalhar na exportação de tabelas de um banco de dados de imagens. Um meio de confeccionar esses metadados é através do uso de:",
+        "alternativas": [
+            "GLP.",
+            "OLTP.",
+            "SQL.",
+            "XML."
+        ],
+        "gabarito": "XML."
+    },
+    {
+        "id": 37,
+        "enunciado": "Os casos concretos originados da aplicação dos conceitos: ACID, Metadados, Forma Normal e Constraint, podem ser representados, respectivamente, pelos seguintes termos:",
+        "alternativas": [
+            "CURSOR / otimizador / chave estrangeira / desempenho.",
+            "ROLLBACK / catálogo / chave primária / flexibilidade.",
+            "TRIGGER / esquema / relacionamento / analisador.",
+            "COMMIT / otimizador / chave candidata / restrição."
+        ],
+        "gabarito": "COMMIT / otimizador / chave candidata / restrição."
+    },
+    {
+        "id": 38,
+        "enunciado": "A arquitetura de sistemas de gerência de bases de dados fundamenta-se em princípios de independência que garantem a evolução das estruturas sem impactar as camadas superiores. Considerando as 12 regras de Codd (Regras de Integridade para Sistemas Relacionais) e os conceitos de abstração, analise as afirmativas a seguir.\nI.A Regra da Independência Lógica de Dados estabelece que as aplicações de usuário e as atividades de terminal devem permanecer funcionalmente intactas quando alterações são feitas nas tabelas base.\nII.O conceito de Independência Física de Dados garante que o esquema conceitual do banco de dados não sofra alterações quando o método de armazenamento em disco ou as estruturas de índices são modificados.\nIII.De acordo com a Regra do Catálogo Dinâmico, as informações sobre a estrutura do banco de dados (metadados) devem ser armazenadas em tabelas comuns, acessíveis apenas via chamadas de sistema proprietárias.\nEstá correto o que se afirma em:",
+        "alternativas": [
+            "I, II e III.",
+            "II apenas.",
+            "I e II apenas.",
+            "I e III apenas."
+        ],
+        "gabarito": "I e II apenas."
+    },
+    {
+        "id": 39,
+        "enunciado": "No contexto interno de um sistema de gerenciamento de banco de dados (SGBD), os metadados",
+        "alternativas": [
+            "executam controle transacional e bloqueio de concorrência.",
+            "garantem normalização automática dos esquemas relacionais.",
+            "replicam dados entre instâncias distribuídas do banco.",
+            "definem as estruturas lógica e física dos objetos do banco.",
+            "armazenam registros de usuários finais permanentemente."
+        ],
+        "gabarito": "definem as estruturas lógica e física dos objetos do banco."
+    },
+    {
+        "id": 40,
+        "enunciado": "Em bancos de dados relacionais, o comando RENAME TABLE (ou equivalente, como ALTER TABLE... RENAME) é utilizado para alterar o nome de uma tabela existente. Nesse contexto, é correto afirmar que:",
+        "alternativas": [
+            "A operação de renomear uma tabela atua predominantemente sobre metadados, não implicando movimentação física dos dados na maioria dos SGBDs.",
+            "O comando RENAME é classificado como DML.",
+            "O comando RENAME exige que a tabela esteja vazia.",
+            "O renomeio de uma tabela atualiza automaticamente todas as referências em objetos dependentes, independentemente do SGBD.",
+            "Renomear uma tabela implica a remoção automática de índices associados."
+        ],
+        "gabarito": "A operação de renomear uma tabela atua predominantemente sobre metadados, não implicando movimentação física dos dados na maioria dos SGBDs."
+    },
+    {
+        "id": 41,
+        "enunciado": "Em um Sistema de Gerenciamento de Banco de Dados (SGBD), as consultas SQL (Structured Query Language) dependem de um repositório interno que armazena metadados sobre tabelas, colunas, índices, restrições, usuários e privilégios. O componente responsável por armazenar e fornecer essas informações é denominado",
+        "alternativas": [
+            "Gerenciador de Buffer.",
+            "Dicionário de Dados.",
+            "Gerenciador de Transações.",
+            "Gerenciador de Logs.",
+            "Otimizador de Consultas."
+        ],
+        "gabarito": "Dicionário de Dados."
+    },
+    {
+        "id": 42,
+        "enunciado": "A respeito da arquitetura cliente-servidor aplicada aos sistemas gerenciadores de bancos de dados (SGBD) em três camadas, bem como da arquitetura, das ferramentas e dos padrões de persistência de dados do ecossistema Microsoft.NET, julgue o item seguinte.\nNo desenvolvimento de aplicações corporativas com o ecossistema.NET, a utilização do Entity Framework Core elimina a necessidade de definição de mapeamentos entre as entidades da aplicação e as tabelas do banco de dados, uma vez que o framework obtém essas informações por meio de consultas aos metadados do SGBD durante a execução da aplicação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    }
+]

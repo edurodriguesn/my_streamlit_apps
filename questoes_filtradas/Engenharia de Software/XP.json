@@ -1,0 +1,639 @@
+[
+    {
+        "id": 1,
+        "enunciado": "Julgue o item a seguir, no que se refere a metodologias ágeis para o desenvolvimento de software.\nA metodologia XP é explicitamente orientada às pessoas, de modo que evita a troca dos desenvolvedores durante o desenvolvimento de um projeto.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "assunto": "www.tecconcursos.com.br/questoes/3259720",
+        "banca": "1) Julgue o item a seguir, no que se refere à engenharia de software e à análise de requisitos."
+    },
+    {
+        "id": 2,
+        "enunciado": "Julgue o próximo item, relativo a metodologias ágeis.\nNa metodologia XP, os releases devem ser tão grandes quanto possível, de maneira a conter a maior quantidade de requisitos importantes implementados e entregues para o cliente.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "assunto": "www.tecconcursos.com.br/questoes/3340534",
+        "banca": "3) Com relação às metodologias ágeis e suas aplicações no desenvolvimento de software, julgue o item subsequente."
+    },
+    {
+        "id": 3,
+        "enunciado": "Julgue o próximo item, relativo a metodologias ágeis.\nNa metodologia XP, os programadores estimam cada estória e predizem a quantidade de estórias que podem ser implementadas no final do release.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "assunto": "www.tecconcursos.com.br/questoes/3340539",
+        "banca": "5) Julgue o próximo item, relativo a metodologias ágeis."
+    },
+    {
+        "id": 4,
+        "enunciado": "Julgue o próximo item, relativo a práticas ágeis de desenvolvimento de software e a processo interativo e incremental.\nA XP (Extreme Programming) estimula o uso de cartões classe-responsabilidade-colaborador (CRC) para identificar e organizar como deve ser realizada a refatoração com vistas a melhorar o software.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "assunto": "www.tecconcursos.com.br/questoes/2780349",
+        "banca": "7) Julgue o item subsecutivo, relativo a práticas adotas na implementação e na manutenção de software, gerência de configuração, lógica de programação e paradigmas"
+    },
+    {
+        "id": 5,
+        "enunciado": "Um dos métodos ágeis bastante utilizados para implementação de softwares é o XP (Extreme Programming), que contempla um elevado nível de envolvimento do cliente durante o processo de implementação. Uma prática característica do XP consiste",
+        "alternativas": [
+            "no ritmo acelerado com elevada quantidade de horas extras.",
+            "nas grandes releases.",
+            "no modelo em cascata.",
+            "nas ilhas de conhecimento especializado.",
+            "na integração contínua."
+        ],
+        "gabarito": "na integração contínua.",
+        "assunto": "www.tecconcursos.com.br/questoes/2797702",
+        "banca": "9) Julgue o próximo item, relativo a práticas ágeis de desenvolvimento de software e a processo interativo e incremental."
+    },
+    {
+        "id": 6,
+        "enunciado": "O departamento de Ciência da Computação da Universidade Federal de Sergipe (UFS) decide iniciar um projeto de desenvolvimento de um novo sistema para gerenciamento acadêmico usando a metodologia ágil XP (eXtreme Programming). O time de desenvolvimento é composto por programadores seniores e juniores. Eles enfrentam um dilema sobre como incorporar práticas de programação em pares e integração contínua efetivamente. Qual das alternativas a seguir seria a abordagem mais apropriada de acordo com os princípios XP?",
+        "alternativas": [
+            "Incentivar que programadores juniores formem pares apenas entre si, para não retardar o progresso dos programadores seniores.",
+            "Empregar uma abordagem de programação em pares misturando programadores seniores e juniores e aplicar integração contínua desde o início.",
+            "Implementar integração contínua apenas nas fases finais do projeto para economizar tempo.",
+            "Desconsiderar programação em pares e focar unicamente em revisões de código após a implementação.",
+            "Limitar a programação em pares aos programadores seniores e deixar os juniores trabalharem de forma independente."
+        ],
+        "gabarito": "Empregar uma abordagem de programação em pares misturando programadores seniores e juniores e aplicar integração contínua desde o início.",
+        "assunto": "www.tecconcursos.com.br/questoes/2852622",
+        "banca": "11) Entre as metodologias de desenvolvimento de software, a Extreme Programming"
+    },
+    {
+        "id": 7,
+        "enunciado": "São práticas de programação adotadas pelo método XP, exceto:",
+        "alternativas": [
+            "Design Incremental.",
+            "Programação pareada.",
+            "Integração contínua.",
+            "Levantamento arquitetural."
+        ],
+        "gabarito": "Levantamento arquitetural.",
+        "assunto": "www.tecconcursos.com.br/questoes/2901451",
+        "banca": "13) Dentre as metodologias ágeis amplamente utilizadas no desenvolvimento de software, destaca"
+    },
+    {
+        "id": 8,
+        "enunciado": "A Extreme Programming (Programação Extrema) envolve um conjunto de regras e práticas constantes no contexto de quatro atividades metodológicas:",
+        "alternativas": [
+            "requisitos, projeto, codificação e testes.",
+            "planejamento, projeto, codificação e testes.",
+            "requisitos, testes, codificação e implantação.",
+            "planejamento, codificação, revisão de código e implantação."
+        ],
+        "gabarito": "planejamento, projeto, codificação e testes.",
+        "assunto": "www.tecconcursos.com.br/questoes/2944634",
+        "banca": "15) Na XP Extreme Programming, a prática usada para escrever os testes para uma nova funcionalidade antes que a funcionalidade em si seja implementada é"
+    },
+    {
+        "id": 9,
+        "enunciado": "As metodologias ágeis surgiram com o intuito de oferecer com maior rapidez produtos consistentes e que agregam valor, por meio de entregas parciais em períodos curtos. Em termos de Scrum e XP, existem diversas regras e eventos que objetivam essa otimização de entregas, como:",
+        "alternativas": [
+            "as reuniões diárias do Scrum, com duração média de uma hora, onde é analisado o avanço das tarefas na Sprint;",
+            "o uso de programação em pares no XP, aliado ao rodízio de colaboradores durante o desenvolvimento;",
+            "as reuniões de planejamento da Sprint, com duração máxima de quinze minutos, para definir as funcionalidades que serão desenvolvidas pela equipe na Sprint;",
+            "a definição de um prazo médio de dois meses para completar cada Sprint e entregar as funcionalidades previstas;",
+            "a priorização do desenvolvimento frente aos testes no XP, de forma a entregar mais rapidamente os produtos."
+        ],
+        "gabarito": "o uso de programação em pares no XP, aliado ao rodízio de colaboradores durante o desenvolvimento;",
+        "assunto": "www.tecconcursos.com.br/questoes/2966595",
+        "banca": "17) Considerando o método ágil de desenvolvimento XP (Extreme Progamming), utilizam"
+    },
+    {
+        "id": 10,
+        "enunciado": "A respeito da metodologia XP, do RUP, do Scrum, do PMBOK e da análise de pontos de função, julgue o item.\nSimplicidade e coragem são valores fundamentais da metodologia XP.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "assunto": "www.tecconcursos.com.br/questoes/2986765",
+        "banca": "19) A fase de testes de software em processos ágeis se caracteriza pela elaboração dos testes antes da implementação do código, permitindo a execução do teste"
+    },
+    {
+        "id": 11,
+        "enunciado": "As chamadas metodologias ágeis, apesar de compartilharem os mesmos fundamentos, possuem procedimentos particulares.\nAssinale a opção que indica a metodologia ágil que se caracteriza por organizar programadores em pares e focar na refatoração frequente.",
+        "alternativas": [
+            "Scrum.",
+            "LSD.",
+            "Extreme programming.",
+            "Kanban.",
+            "FDD."
+        ],
+        "gabarito": "Extreme programming.",
+        "assunto": "www.tecconcursos.com.br/questoes/3060639",
+        "banca": "21) Acerca de metodologias ágeis, assinale a afirmativa correta."
+    },
+    {
+        "id": 12,
+        "enunciado": "Os analistas do Time de Desenvolvimento de Software (TDS) estão utilizando User Story (História de Usuário) do Extreme Programming (XP) para todos os novos projetos, em substituição aos Casos de Uso em UML.\nNa escrita das User Stories, os analistas devem:",
+        "alternativas": [
+            "considerar que histórias podem ser construídas em mais de uma iteração;",
+            "ordenar a escrita das histórias, visto que há uma dependência entre elas;",
+            "detalhar os critérios de testes a serem executados com base na história;",
+            "considerar que uma história pode ser um ou mais cenários em um caso de uso;",
+            "focar nos objetivos do usuário e em como a interação com o sistema satisfaz esses objetivos."
+        ],
+        "gabarito": "considerar que uma história pode ser um ou mais cenários em um caso de uso;",
+        "assunto": "www.tecconcursos.com.br/questoes/3112572",
+        "banca": "23) Assinale a alternativa que corresponde à metodologia de desenvolvimento ágil que tem a programação em pares como uma de suas características."
+    },
+    {
+        "id": 13,
+        "enunciado": "Leia o caso a seguir.\nUma equipe de desenvolvimento está implementando um novo sistema de banco de dados para uma aplicação de alta demanda e precisa escolher uma metodologia ágil, que permita uma abordagem iterativa e incremental, focando a eficiência de consumo e de consultas, além de escalabilidade.\nElaborado pelo(a) autor(a).\nPara atender a tais necessidades mencionadas, optaram pela metodologia",
+        "alternativas": [
+            "Scrum.",
+            "Kanban.",
+            "XP (Extreme Programming).",
+            "5W2H."
+        ],
+        "gabarito": "XP (Extreme Programming).",
+        "assunto": "www.tecconcursos.com.br/questoes/3218858",
+        "banca": "25) O método ágil de desenvolvimento XP apresenta diversas características peculiares, dentre as quais é correto citar:"
+    },
+    {
+        "id": 14,
+        "enunciado": "As metodologias ágeis revelam-se cada vez mais importantes dentro do gerenciamento de projetos, proporcionando entregas com conceito de maior benefício para o cliente. No âmbito dos projetos de desenvolvimento de software, a prática utilizada na metodologia ágil XP (do inglês, Extreme Programming) para reduzir o custo das alterações é conhecida como",
+        "alternativas": [
+            "incremental design.",
+            "slack.",
+            "pair programming.",
+            "test-fast programming."
+        ],
+        "gabarito": "incremental design.",
+        "assunto": "www.tecconcursos.com.br/questoes/3219479",
+        "banca": "27) No eXtreme Programming (XP), uma metodologia ágil de desenvolvimento de software, a qualidade do código e a produtividade da equipe são prioridades"
+    },
+    {
+        "id": 15,
+        "enunciado": "Metodologia ágil é uma forma de construir software através de conjuntos de práticas para atender às especificações de um projeto, como agir e realizar o desenvolvimento com eficiência, agilidade e entrega do produto final com rapidez e qualidade. Das metodologias ágeis, o processo de desenvolvimento de software XP\n(Extreme Programming) é considerado o mais radical e que possui característica específica para a construção do projeto; uma dessas características trata sobre as necessidades de melhoria no projeto e que para isso deverá ser realizada através de um tipo de processo específico; assinale-a.",
+        "alternativas": [
+            "Testes de aceitação.",
+            "Refatoração (refactoring).",
+            "Reuniões de planejamento (planning game).",
+            "Entregas frequentes ao cliente (small releases)."
+        ],
+        "gabarito": "Refatoração (refactoring).",
+        "assunto": "www.tecconcursos.com.br/questoes/2494524",
+        "banca": "29) Assinale a alternativa que apresenta uma característica da metodologia ágil Extreme Programming (XP)."
+    },
+    {
+        "id": 16,
+        "enunciado": "Na área de estudo da engenharia de software, as metodologias de desenvolvimento utilizam diferentes abordagens. Sendo assim, o SCRUM e o XP (Extreme Programming), que são práticas ágeis para o desenvolvimento de software, se enquadram em qual modelo de desenvolvimento de software?",
+        "alternativas": [
+            "Em cascata.",
+            "Engenharia orientada a reúso.",
+            "Dirigido a planos.",
+            "Incremental.",
+            "Sistemas dinâmicos."
+        ],
+        "gabarito": "Incremental.",
+        "assunto": "www.tecconcursos.com.br/questoes/2500484",
+        "banca": "31) Sobre os Métodos ágeis (XP – Extreme Programming e SCRUM), analise as afirmativas a seguir."
+    },
+    {
+        "id": 17,
+        "enunciado": "Julgue o próximo item, relativo às metodologias Scrum e XP e à biblioteca ITIL v4.\nEnquanto a metodologia Scrum traz uma abordagem mais voltada para a gestão, com maior foco nas reuniões, no planejamento e na melhoria contínua, a metodologia XP tem maior enfoque nas práticas técnicas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "assunto": "www.tecconcursos.com.br/questoes/2535947",
+        "banca": "33) A metodologia Extreme Programming (XP) é uma abordagem ágil de desenvolvimento de software que se concentra em valores como comunicação, feedback,"
+    },
+    {
+        "id": 18,
+        "enunciado": "Julgue o item que se segue, tendo em vista que a qualidade de software pode ser avaliada por meio de testes, revisões, inspeções e outras técnicas.\nA técnica de revisão e programação por pares é útil para melhorar a qualidade do código e aumentar a compreensão do projeto, mas requer habilidades de comunicação e colaboração entre os membros da equipe.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "assunto": "www.tecconcursos.com.br/questoes/2536027",
+        "banca": "35) Julgue o próximo item, relativo às metodologias Scrum e XP e à biblioteca ITIL v4."
+    },
+    {
+        "id": 19,
+        "enunciado": "Julgue o seguinte item, a respeito dos métodos e das práticas ágeis para desenvolvimento de software.\nO just in time e o poka yoke são duas ferramentas utilizadas no método ágil XP para desenvolvimento de software.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "assunto": "www.tecconcursos.com.br/questoes/2589480",
+        "banca": "37) A metodologia XP (Extreme Programming) é definida como uma"
+    },
+    {
+        "id": 20,
+        "enunciado": "Assinale a alternativa que NÃO corresponde aos princípios da metodologia ágil Extreme Programming (XP)",
+        "alternativas": [
+            "Planejamento incremental.",
+            "Refatoração.",
+            "Propriedade individual.",
+            "Integração continua.",
+            "Programação em pares."
+        ],
+        "gabarito": "Propriedade individual.",
+        "assunto": "www.tecconcursos.com.br/questoes/2612102",
+        "banca": "39) De acordo com Sommerville (2019), em Programação Extrema (XP), assinale a opção que apresenta a prática que adota a seguinte orientação: \"Assim que o trabalho"
+    },
+    {
+        "id": 21,
+        "enunciado": "Na produção de software, pode-se decidir por utilizar um método ágil de desenvolvimento. Dessa forma, assinale a alternativa que contém um desses métodos ágeis.",
+        "alternativas": [
+            "SWOT – Strenghts, Weaknesses, Opportunities, Threats.",
+            "JSON – Java Script Object Notation.",
+            "XP – Extreme Programming.",
+            "Python.",
+            "OLAP – OnLine Analytical Processing."
+        ],
+        "gabarito": "XP – Extreme Programming.",
+        "assunto": "www.tecconcursos.com.br/questoes/2623287",
+        "banca": "41) A Extreme Programming (XP) emprega uma abordagem orientada a objetos, e envolve um conjunto de regras e práticas constantes no contexto das atividades"
+    },
+    {
+        "id": 22,
+        "enunciado": "Acerca da metodologia XP (Extreme Programming), julgue o item.\nPara garantir uma comunicação eficiente, a metodologia XP recomenda o uso de equipes grandes e uma hierarquia rigorosa.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "assunto": "www.tecconcursos.com.br/questoes/2631471",
+        "banca": "43) Acerca da metodologia XP (Extreme Programming), julgue o item."
+    },
+    {
+        "id": 23,
+        "enunciado": "Leia o caso a seguir.\nEm uma equipe de desenvolvimento de software, o projeto está seguindo a metodologia Extreme Programming (XP). Durante uma iteração, a equipe recebeu feedback do cliente solicitando uma alteração significativa no sistema já implementado.\nDe acordo com os princípios do XP, como a equipe deveria reagir a essa situação?",
+        "alternativas": [
+            "A equipe deve rejeitar a solicitação do cliente, pois o XP prioriza a entrega rápida e não permite alterações significativas durante uma iteração em andamento.",
+            "A equipe deve parar o trabalho atual, realizar uma análise de impacto completa e, em seguida, iniciar uma nova iteração para atender à solicitação do cliente.",
+            "A equipe deve colaborar com o cliente para entender completamente a solicitação e negociar a inclusão da alteração na iteração atual, garantindo que todas as funcionalidades sejam testadas e entregues.",
+            "A equipe deve adiar a solicitação do cliente para a próxima iteração, pois o XP enfatiza a entrega incremental e as alterações significativas devem ser planejadas com antecedência."
+        ],
+        "gabarito": "A equipe deve colaborar com o cliente para entender completamente a solicitação e negociar a inclusão da alteração na iteração atual, garantindo que todas as funcionalidades sejam testadas e entregues.",
+        "assunto": "www.tecconcursos.com.br/questoes/2655686",
+        "banca": "45) Acerca da metodologia XP (Extreme Programming), julgue o item."
+    },
+    {
+        "id": 24,
+        "enunciado": "O desenvolvimento ágil é uma prática muito comum na indústria. Ele permite entregar software com qualidade e de forma ágil sem se ater demasiadamente à documentação excessiva dos processos de engenharia de software mais rigorosos. Extreme Programming (XP) é uma das técnicas mais conhecidas dentre aquelas utilizadas para desenvolvimento ágil. Dentre seus valores, pode-se destacar a comunicação, a simplicidade e o feedback.\nOs outros dois valores são",
+        "alternativas": [
+            "programação por pares e entrega contínua.",
+            "coragem e respeito.",
+            "agilidade e responsabilidade.",
+            "abraçar mudanças e qualidade."
+        ],
+        "gabarito": "coragem e respeito.",
+        "assunto": "www.tecconcursos.com.br/questoes/2757609",
+        "banca": "47) Uma das práticas de eXtreme Programming (XP) é a programação em pares. Um dos objetivos dessa prática é"
+    },
+    {
+        "id": 25,
+        "enunciado": "Considerando os métodos ágeis de projeto, o método XP (Extreme Programming) exerce papel importante na fase de planejamento, utilizando um item denominado histórias de usuário, que, especificamente, têm a função de",
+        "alternativas": [
+            "determinar o conjunto de ferramentas computacionais a serem utilizadas para o desenvolvimento do software em questão.",
+            "descrever características e funcionalidades requeridas para o software em desenvolvimento.",
+            "determinar como a verificação e validação do software deve ser realizada.",
+            "especificar as técnicas de teste a serem aplicadas no software em desenvolvimento.",
+            "especificar o tempo e quantidade de homens-hora requeridos para o software em desenvolvimento."
+        ],
+        "gabarito": "descrever características e funcionalidades requeridas para o software em desenvolvimento.",
+        "assunto": "www.tecconcursos.com.br/questoes/2900510",
+        "banca": "49) A metodologia de desenvolvimento XP (Extreme Programming) apresenta diversas peculiaridades, sendo correto afirmar que"
+    },
+    {
+        "id": 26,
+        "enunciado": "O processo de desenvolvimento de software especificado pela Programação Extrema (eXtreme Programming – XP) começa com uma fase de planejamento, na qual são levantados e descritos requisitos para o software na forma de. O projeto e desenvolvimento dos requisitos busca focar nas necessidades imediatas.\nNecessidades de melhoria no projeto são realizadas através de processos de. Além disso, se recomenda que a atividade de codificação ocorra em e seja guiada por.\nAssinale a alternativa que preenche, correta e respectivamente, as lacunas do trecho acima.",
+        "alternativas": [
+            "histórias de usuários – refatoração – quartetos – testes.",
+            "histórias de usuários – testes – pares – casos de uso.",
+            "histórias de usuários – refatoração – pares – testes.",
+            "modelos de domínio – refatoração – pares – testes.",
+            "modelos de domínio – testes – quartetos – casos de uso."
+        ],
+        "gabarito": "histórias de usuários – refatoração – pares – testes.",
+        "assunto": "www.tecconcursos.com.br/questoes/1903626",
+        "banca": "51) A Extreme Programming (Programação Extrema) emprega uma metodologia orientada a objetos como seu paradigma de desenvolvimento e envolve um conjunto de"
+    },
+    {
+        "id": 27,
+        "enunciado": "Julgue o próximo item, relativo a metodologias ágeis para a gestão de projetos e o desenvolvimento de software.\nA metodologia XP define que a programação seja feita em pares: dois desenvolvedores codificam o mesmo programa, ao mesmo tempo e no mesmo computador.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "assunto": "www.tecconcursos.com.br/questoes/1990867",
+        "banca": "53) A metodologia Extreme Programming (XP) define uma série de práticas para desenvolvimento de software."
+    },
+    {
+        "id": 28,
+        "enunciado": "Acerca de RUP (rational unified process) e XP (extreme programming), julgue o seguinte item.\nNa XP, as histórias dos usuários (casos de uso) devem descrever os detalhes dos requisitos da solução, tais como a tecnologia a ser utilizada e a modelagem do banco de dados; isso irá permitir planejar melhor a interface do usuário na release planning e, consequentemente, o desenvolvimento da solução.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "assunto": "www.tecconcursos.com.br/questoes/2013476",
+        "banca": "55) Acerca de RUP (rational unified process) e XP (extreme programming), julgue o seguinte item."
+    },
+    {
+        "id": 29,
+        "enunciado": "A utilização da chamada História de Usuário é uma técnica utilizada no seguinte método de desenvolvimento de software:",
+        "alternativas": [
+            "Modelagem Ágil.",
+            "Crystal.",
+            "Desenvolvimento Adaptativo de Software (DAS).",
+            "Extreme Programming (XP).",
+            "Rapid Application Development (RAD)."
+        ],
+        "gabarito": "Extreme Programming (XP).",
+        "assunto": "www.tecconcursos.com.br/questoes/2027329",
+        "banca": "57) Um engenheiro de software, trabalhando em um projeto baseado na metodologia ágil XP, utiliza a prática"
+    },
+    {
+        "id": 30,
+        "enunciado": "Assinale a alternativa que apresenta as atividades-chave da metodologia ágil XP (eXtreme Programming).",
+        "alternativas": [
+            "Análise, desenvolvimento e implantação.",
+            "Planejamento, projeto, codificação e testes.",
+            "Organização, feedback diário, revisão e encerramento.",
+            "Geração de modelos e geração de código.",
+            "Entrada, tarefa, verificação e saída."
+        ],
+        "gabarito": "Planejamento, projeto, codificação e testes.",
+        "assunto": "www.tecconcursos.com.br/questoes/2071878",
+        "banca": "59) Com relação à programação por pares, analise as afirmativas a seguir e assinale (V) para a verdadeira e (F) para a falsa."
+    },
+    {
+        "id": 31,
+        "enunciado": "O método ágil de desenvolvimento de software Extreme Programming (XP) é composto por quatro atividades, executadas em loop, sendo certo que, especificamente,",
+        "alternativas": [
+            "as histórias de usuário são criadas na atividade de planejamento.",
+            "a programação em pares é realizada na atividade de teste.",
+            "um eventual protótipo do Sistema denomina-se master plan.",
+            "testes de aceitação são também chamados de testes de aprendizado.",
+            "o processo admite uma única história de usuário, fixa durante todo o desenvolvimento de software."
+        ],
+        "gabarito": "as histórias de usuário são criadas na atividade de planejamento.",
+        "assunto": "www.tecconcursos.com.br/questoes/2176860",
+        "banca": "61) Em relação à metodologia XP e seus valores fundamentais, assinale a opção que apresenta aquele que permite ao cliente conduzir diariamente o desenvolvimento e"
+    },
+    {
+        "id": 32,
+        "enunciado": "Existem diferentes papéis sugeridos pela metodologia XP para diferentes fases, práticas e ferramentas necessárias ao longo do projeto. O papel representado pela pessoa responsável pelo processo como um todo, que guiará os outros envolvidos no projeto a executar o processo de forma adequada é:",
+        "alternativas": [
+            "Chefe.",
+            "Monitor.",
+            "Consultor.",
+            "Treinador."
+        ],
+        "gabarito": "Treinador.",
+        "assunto": "www.tecconcursos.com.br/questoes/2180825",
+        "banca": "63) A metodologia Extreme Programming (XP) surgiu como uma tentativa para solucionar os problemas causados pelos ciclos de desenvolvimento"
+    },
+    {
+        "id": 33,
+        "enunciado": "Acerca da BPMN (Business Process Model and Notation) e das metodologias ágeis Scrum e XP, julgue o item.\nPara a metodologia XP, as user stories não contêm todos os detalhes sobre a funcionalidade, mas devem ser capazes de transmitir um pouco sobre a necessidade do negócio.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "assunto": "www.tecconcursos.com.br/questoes/2192653",
+        "banca": "65) Assinale a alternativa correspondente ao processo de desenvolvimento de software, cujos valores centrais são comunicação, simplicidade, feedback, coragem e"
+    },
+    {
+        "id": 34,
+        "enunciado": "Uma metodologia ágil de desenvolvimento de software bastante praticada por empresas mundo a fora é o Extreme Programming (XP). Ela valoriza, dentre outras coisas, abordagem incremental no desenvolvimento das atividades, bem como a comunicação intensa entre a equipe e o feedback constante. Além disso, XP possui um conjunto de práticas que são altamente recomendadas para o dia a dia de um time de desenvolvimento.\nMarque a alternativa que indica, corretamente, somente práticas de XP.",
+        "alternativas": [
+            "Testes de Aceitação, TDD e Respeito.",
+            "Integração Contínua, Programação Pareada e Jogo do Planejamento.",
+            "Feedback, Comunicação e Padronização de Código.",
+            "Integração Contínua, Simplicidade e Coragem.",
+            "Jogo do Planejamento, Programação Pareada e Respeito."
+        ],
+        "gabarito": "Integração Contínua, Programação Pareada e Jogo do Planejamento.",
+        "assunto": "www.tecconcursos.com.br/questoes/2196693",
+        "banca": "67) Extreme Porgramming (XP) é uma metodologia ágil de desenvolvimento de software com grande aceitação por parte da comunidade, principalmente quando falamos"
+    },
+    {
+        "id": 35,
+        "enunciado": "Em relação a metodologias ágeis de desenvolvimento de software, julgue o seguinte item.\nUm aspecto central na XP é o fato de que a elaboração do projeto ocorre tanto antes quanto depois de se ter iniciado a codificação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "assunto": "www.tecconcursos.com.br/questoes/2216487",
+        "banca": "69) Em relação a metodologias ágeis de desenvolvimento de software, julgue o seguinte item."
+    },
+    {
+        "id": 36,
+        "enunciado": "No método de desenvolvimento ágil XP, o conjunto de valores servem como um critério que norteiam as pessoas envolvidas no desenvolvimento do software, além de se complementarem. Das alternativas abaixo, qual NÃO é um dos valores do desenvolvimento XP?",
+        "alternativas": [
+            "Planejamento.",
+            "Simplicidade.",
+            "Comunicação.",
+            "Feedback.",
+            "Respeito."
+        ],
+        "gabarito": "Planejamento.",
+        "assunto": "www.tecconcursos.com.br/questoes/2218804",
+        "banca": "71) Quanto aos conceitos fundamentais sobre XP (Extreme Programming), explicitados em Sommerville (2011), analise as afirmativas a seguir e dê valores Verdadeiro"
+    },
+    {
+        "id": 37,
+        "enunciado": "“No desenvolvimento XP é utilizado o. Primeiro são criados os testes unitários e depois o código para que os testes funcionem essa abordagem é complexa no início, mas os testes unitários são essenciais para que a qualidade do projeto seja mantida.” A alternativa que completa corretamente a lacuna é:",
+        "alternativas": [
+            "Desenvolvimento orientado código.",
+            "Desenvolvimento orientado a qualidade.",
+            "Desenvolvimento orientado a resultados.",
+            "Desenvolvimento orientado a histórias.",
+            "Desenvolvimento orientado a testes."
+        ],
+        "gabarito": "Desenvolvimento orientado a testes.",
+        "assunto": "www.tecconcursos.com.br/questoes/2218807",
+        "banca": "73) Já as práticas do modelo XP consistem no núcleo principal do processo. Evidenciando os valores que ajudarão a ter sucesso no projeto. Analise as afirmações abaixo"
+    },
+    {
+        "id": 38,
+        "enunciado": "Extreme Programming (XP) é um processo iterativo de desenvolvimento ágil que proporciona a entrega rápida de sistemas completos e suficientemente flexíveis para aceitar mudanças. Considerando essa característica, assinale a alternativa correta.",
+        "alternativas": [
+            "XP é uma metodologia de desenvolvimento adequada apenas a projetos de grande complexidade.",
+            "A interação entre o time de desenvolvimento e o cliente é mínima, para evitar ruídos na definição dos requisitos.",
+            "XP deve ser empregado apenas em projetos de curta duração que possuem previsão de uma única entrega ao cliente, que é o produto finalizado.",
+            "A abordagem tradicional de XP envolve o trabalho de apenas um desenvolvedor por funcionalidade.",
+            "XP propõe entregar e validar de maneira rápida o maior volume possível de requisitos em uma sprint. Assim, requisitos confusos não obstam a evolução do produto."
+        ],
+        "gabarito": "XP propõe entregar e validar de maneira rápida o maior volume possível de requisitos em uma sprint. Assim, requisitos confusos não obstam a evolução do produto.",
+        "assunto": "www.tecconcursos.com.br/questoes/2330958",
+        "banca": "75) Richarlison e Neymar trabalham como implementadores de software e recebem a demanda de trabalhar em um projeto no qual, por requisito fundamental da"
+    },
+    {
+        "id": 39,
+        "enunciado": "Julgue o item a seguir, referentes à metodologia XP (Extreme Programming) e ao Scrum.\nPara a metodologia XP (Extreme Programming), as releases devem ser entregues em curtos períodos de tempo para obter feedback.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "assunto": "www.tecconcursos.com.br/questoes/2390866",
+        "banca": "77) Julgue o item a seguir, referentes à metodologia XP (Extreme Programming) e ao Scrum."
+    },
+    {
+        "id": 40,
+        "enunciado": "Analise o texto abaixo e responda.\nÉ um método leve, voltado exclusivamente para projetos de desenvolvimento de software. Sendo um método ágil, possui as seguintes características: adota ciclos curtos e iterativos de desenvolvimentos, concede menos ênfase para documentação e para planos detalhados, e propõe que o design de um sistema também seja definido de forma incremental. Além disso, defende que esse desenvolvimento, seja norteado por três valores principais, comunicação, simplicidade e feedback. O texto se refere a um dos métodos ágeis utilizados nos processos de desenvolvimento de software. Qual?",
+        "alternativas": [
+            "Smart.",
+            "Extreme Programming.",
+            "Kanban.",
+            "Scrum.",
+            "Lean."
+        ],
+        "gabarito": "Extreme Programming.",
+        "assunto": "www.tecconcursos.com.br/questoes/2393700",
+        "banca": "79) Assinale a alternativa que apresenta a prática de XP (Extreme Programming) que é definida como uma técnica disciplinada para reestruturar um corpo de código"
+    },
+    {
+        "id": 41,
+        "enunciado": "Acerca de metodologias ágeis de desenvolvimento, julgue o item a seguir.\nEm XP, a estruturação do valor feedback pode ser alcançada de forma rápida por meio de testes automatizados de software, que validam ou não um código produzido ou alterado.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "assunto": "www.tecconcursos.com.br/questoes/1628767",
+        "banca": "81) Para descobrir, o mais cedo possível, possíveis problemas técnicos e explorar soluções em potencial, reduzindo o risco, utiliza"
+    },
+    {
+        "id": 42,
+        "enunciado": "O XP (Extreme Programming) é um método ágil para o desenvolvimento de sistemas.\nAssinale a alternativa correta em relação a esse método.",
+        "alternativas": [
+            "É recomendado para qualquer tipo de projeto, produto ou situação.",
+            "Busca agilidade na entrega do software e, portanto, não exige uma etapa de planejamento para não perder tempo.",
+            "A entrega do software é feita de maneira incremental, ou seja, através de “releases” menores.",
+            "Recomenda o desenvolvimento de forma individual, ou seja, cada desenvolvedor cuida sozinho do desenvolvimento de código para uma história.",
+            "Tenta prever, de modo antecipado, tudo o que o cliente pode querer solicitar futuramente, adiantando o desenvolvimento desses módulos previstos e facilitando a entrega final."
+        ],
+        "gabarito": "A entrega do software é feita de maneira incremental, ou seja, através de “releases” menores.",
+        "assunto": "www.tecconcursos.com.br/questoes/1719901",
+        "banca": "83) A metodologia Extreme Programming, ou simplesmente XP, propõe um conjunto de práticas para aumentar sua eficácia. Considerando essas práticas, assinale a"
+    },
+    {
+        "id": 43,
+        "enunciado": "O XP (Extreme Programming), uma metodologia ágil de desenvolvimento, foi empregado, pela primeira vez, em 1996, em um projeto da Chrysler, chamado de C3\n(Chrysler Comprehensive Compensation).\nConsiderando que são apresentados cinco principais valores, assinale, a seguir, dois desses valores.",
+        "alternativas": [
+            "Revisão e Respeito.",
+            "Coragem e Respeito.",
+            "Simplicidade e Revisão.",
+            "Feedback e Informação."
+        ],
+        "gabarito": "Coragem e Respeito.",
+        "assunto": "www.tecconcursos.com.br/questoes/1867146",
+        "banca": "85) O Extreme Programmin (XP) é um método de desenvolvimento ágil. Analise as afirmações, a seguir, acerca do desenvolvimento XP."
+    },
+    {
+        "id": 44,
+        "enunciado": "José está implantando a metodologia de desenvolvimento ágil denominada Extreme Programming (XP) dentro do seu time de desenvolvimento de software.\nCom isso, ele compartilhou com sua equipe que são princípios do XP, EXCETO",
+        "alternativas": [
+            "feedback rápido.",
+            "mudança disruptiva.",
+            "assumir simplicidade.",
+            "trabalho de qualidade.",
+            "abraçar mudanças."
+        ],
+        "gabarito": "mudança disruptiva.",
+        "assunto": "www.tecconcursos.com.br/questoes/1931857",
+        "banca": "87) Com base nas metodologias de desenvolvimento de software, julgue o seguinte item."
+    },
+    {
+        "id": 45,
+        "enunciado": "Julgue o item seguinte, a respeito de programação ágil com XP (extreme programming).\nO XP possui planejamento incremental com requisitos registrados em histórias.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "assunto": "www.tecconcursos.com.br/questoes/1390558",
+        "banca": "89) Para aplicar valores e princípios do XP (Extreme Programming), durante os processos e práticas ágeis de desenvolvimento de software, se propõe uma série"
+    },
+    {
+        "id": 46,
+        "enunciado": "Julgue o item seguinte, a respeito de programação ágil com XP (extreme programming).\nComo forma de agilizar as implantações de novas releases nesse modelo, são acumulados grandes grupos de funcionalidades e implantadas grandes releases.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "assunto": "www.tecconcursos.com.br/questoes/1390562",
+        "banca": "91) Julgue o item seguinte, a respeito de programação ágil com XP (extreme programming)."
+    },
+    {
+        "id": 47,
+        "enunciado": "Julgue o item seguinte, a respeito de programação ágil com XP (extreme programming).\nOs programadores trabalham em pares para que um possa verificar e apoiar o trabalho do outro e, assim, realizem um bom trabalho.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "assunto": "www.tecconcursos.com.br/questoes/1390564",
+        "banca": "93) Julgue o item seguinte, a respeito de programação ágil com XP (extreme programming)."
+    },
+    {
+        "id": 48,
+        "enunciado": "No contexto de desenvolvimento ágil de software, sobre a prática de programação em pares em Extreme Programming (XP), é correto afirmar que:",
+        "alternativas": [
+            "garante aceleração no processo de desenvolvimento.",
+            "cada indivíduo é responsabilizado pelos erros em seu código.",
+            "aumenta os riscos de um projeto a partir da saída de um membro da equipe.",
+            "a equipe tem responsabilidade coletiva sobre o código.",
+            "cada linha de código é revisada por apenas uma pessoa."
+        ],
+        "gabarito": "a equipe tem responsabilidade coletiva sobre o código.",
+        "assunto": "www.tecconcursos.com.br/questoes/1727201",
+        "banca": "95) O método ágil Extreme Programming ou XP é um dos métodos ágeis mais conhecidos. Sobre as características desse método, é correto afirmar:"
+    },
+    {
+        "id": 49,
+        "enunciado": "Qual prática de Extreme Programming (XP) que se refere à rejeição de grandes quantidades de horas-extras?",
+        "alternativas": [
+            "Integração contínua.",
+            "Refatoração.",
+            "Projeto simples.",
+            "Planejamento incremental.",
+            "Ritmo sustentável."
+        ],
+        "gabarito": "Ritmo sustentável.",
+        "assunto": "www.tecconcursos.com.br/questoes/1727218",
+        "banca": "97) Sobre desenvolvimento ágil, é correto afirmar que:"
+    },
+    {
+        "id": 50,
+        "enunciado": "Assinale a alternativa que apresenta apenas práticas da metodologia ágil Extreme Programming:",
+        "alternativas": [
+            "Modelagem Orientada a Objetos do Domínio; Desenvolvimento por Funcionalidade; Gerenciamento de Configuração.",
+            "Classe Proprietária; Integração Contínua; Refatoração.",
+            "Programação em Pares; Classe Proprietária; Modelagem Orientada a Objetos do Domínio.",
+            "Desenvolvimento por Funcionalidade; Gerenciamento de Configuração; Programação em Pares.",
+            "Desenvolvimento test-first; Refatoração; Integração Contínua."
+        ],
+        "gabarito": "Desenvolvimento test-first; Refatoração; Integração Contínua.",
+        "assunto": "www.tecconcursos.com.br/questoes/2165553",
+        "banca": "99) Em.desenvolvimento ágil de software, a abordagem Extreme Programming (XP) enfatiza a importância dos testes. Sobre os testes em XP, é correto afirmar que:"
+    }
+]

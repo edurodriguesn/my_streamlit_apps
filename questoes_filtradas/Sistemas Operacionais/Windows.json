@@ -1,0 +1,1897 @@
+[
+    {
+        "id": 1,
+        "enunciado": "Julgue o próximo item, acerca do Windows 10 e de programas e aplicações do Microsoft Office 365.\nO Windows 10 tem uma função nativa para renomear arquivos em lote que permite que o usuário defina novo padrão de nomes.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 2,
+        "enunciado": "Considere que um analista do Ministério Público, que usa o sistema operacional Windows 10 (versão em português), navega por vários sistemas ao longo de um único dia de trabalho e acaba de utilizar as seguintes teclas de atalho: Shift+F10\n(Obs.: o caractere “+” foi utilizado apenas para interpretação.) Nesse caso, é correto afirmar que, com esse comando, o seu computador",
+        "alternativas": [
+            "excluirá a próxima palavra.",
+            "mostrará o menu de atalho atual.",
+            "retornará ao início da página.",
+            "exibirá dicas de tecla.",
+            "moverá uma página para cima."
+        ],
+        "gabarito": "mostrará o menu de atalho atual."
+    },
+    {
+        "id": 3,
+        "enunciado": "Analise as afirmativas abaixo e dê valores Verdadeiro (V) ou Falso (F).\n( ) O Windows utiliza uma interface gráfica de usuário (GUI) que inclui a área de trabalho, ícones, barras de tarefas e menus para facilitar a interação do usuário com o sistema.\n( ) O Windows é um sistema operacional de código aberto, o que significa que seu código-fonte é acessível e modificável por qualquer pessoa.\n( ) O Windows Update é um serviço que permite aos usuários manter seus sistemas operacionais atualizados com as últimas correções de segurança e atualizações de software.\nAssinale a alternativa que apresenta a sequência correta de cima para baixo:",
+        "alternativas": [
+            "V - V - V.",
+            "F - F - F.",
+            "V - F - V.",
+            "F - V - F.",
+            "V - V - F."
+        ],
+        "gabarito": "V - F - V."
+    },
+    {
+        "id": 4,
+        "enunciado": "No Windows 10, a execução do comando “mrt” na barra de pesquisa abre a janela com descrição",
+        "alternativas": [
+            "Ferramenta de remoção de software mal-intencionado.",
+            "Ferramentas administrativas.",
+            "Mapa de caracteres.",
+            "Limpeza de Disco."
+        ],
+        "gabarito": "Ferramenta de remoção de software mal-intencionado."
+    },
+    {
+        "id": 5,
+        "enunciado": "O sistema operacional Windows 10, em sua configuração padrão, permite que se analise o seu desempenho por meio de recursos nele presentes.\nUm desses recursos é denominado Monitor de Recursos, que é destinado à análise",
+        "alternativas": [
+            "do HD, do vídeo e da memória.",
+            "da CPU e da memória, apenas.",
+            "da CPU, da memória, do HD e da rede.",
+            "do HD e da memória, apenas.",
+            "da CPU, apenas."
+        ],
+        "gabarito": "da CPU, da memória, do HD e da rede."
+    },
+    {
+        "id": 6,
+        "enunciado": "Ao realizar a manutenção em um computador com sistema operacional Windows 10 em um ambiente corporativo, o técnico de suporte precisa acessar algumas configurações básicas.\nAnalise os itens a seguir sobre as configurações básicas e assinale aquele que não pode ser acessado por meio do “Painel de Controle”.",
+        "alternativas": [
+            "Configuração de rede e internet para ajustar as configurações de conexão da empresa.",
+            "Configuração de atualizações automáticas do antivírus instalado nos computadores da empresa.",
+            "Gerenciamento de contas de usuário para criar ou modificar contas de funcionários.",
+            "Personalização da área de trabalho para aplicar um plano de fundo corporativo e esquemas de cores."
+        ],
+        "gabarito": "Configuração de atualizações automáticas do antivírus instalado nos computadores da empresa."
+    },
+    {
+        "id": 7,
+        "enunciado": "Em um computador com o sistema operacional Windows 10, em sua configuração padrão, um usuário instalou um programa aplicativo e deseja configurá-lo para iniciar quando o logon for efetuado. Para que essa ação possa ser feita, deve-se",
+        "alternativas": [
+            "colocar o computador no Modo de Segurança, selecionar o ícone do programa aplicativo, clicando-se com o botão esquerdo do mouse (em sua configuração padrão), e selecionar a opção de Inicialização após logon.",
+            "desinstalar o aplicativo e reinstalá-lo, selecionando a opção Iniciar na janela de instalação do programa que surge na tela.",
+            "selecionar como Administrador do Windows, no Painel de Controle, o ícone Inicialização, e selecionar o programa que deve iniciar quando o logon for efetuado.",
+            "selecionar Configurações > Aplicativos > Aplicativos e recursos > Inicialização, localizar o programa aplicativo e colocar o botão que aparece ao lado do seu nome na posição Ativado.",
+            "selecionar Configurações > Aplicativos > Inicialização, localizar o programa aplicativo e colocar o botão que aparece ao lado do seu nome na posição Ativado."
+        ],
+        "gabarito": "selecionar Configurações > Aplicativos > Inicialização, localizar o programa aplicativo e colocar o botão que aparece ao lado do seu nome na posição Ativado."
+    },
+    {
+        "id": 8,
+        "enunciado": "Um administrador de um computador, com sistema operacional MS Windows, precisa acessar a ferramenta gráfica que permite ver e monitorar o registro do sistema operacional Windows e editá-lo. Nesse caso, ele deve acessar, de forma direta, a ferramenta:",
+        "alternativas": [
+            "calc.",
+            "ntpad.",
+            "regedit.",
+            "powershell."
+        ],
+        "gabarito": "regedit."
+    },
+    {
+        "id": 9,
+        "enunciado": "Você é um analista de Suporte Técnico de Redes da Defensoria Pública do Estado de Mato Grosso do Sul e está avaliando as funcionalidades do sistema operacional Windows 10 para decidir se ele deve ser utilizado ou não. A respeito desse sistema, informe se é verdadeiro (V) ou falso (F) o que se afirma a seguir e assinale a alternativa com a sequência correta.\n( ) No Windows, um arquivo é um conjunto de informações nomeadas, armazenadas e organizadas em uma mídia de armazenamento de dados. O arquivo está disponível para um ou mais programas de computador, sendo essa relação estabelecida pelo tipo de arquivo, identificado pela extensão recebida no ato de sua criação ou alteração.\n( ) Windows Flip é uma forma de apresentar conteúdo publicitário, como anúncios de apps, sugestões de imagens e dicas na tela de bloqueio do Windows 10.\n( ) No Windows 10, a funcionalidade conexão discada permite o acesso à criação e à conexão com a internet via conexão discada, ou seja, através de uma rede de telefone.\n( ) A função Proxy do Windows 10 desempenha a função de conectar um computador de uma rede local a outra rede local.",
+        "alternativas": [
+            "V – V – V – V.",
+            "V – V – F – F.",
+            "V – F – V – F.",
+            "F – F – V – V.",
+            "F – V – F – V."
+        ],
+        "gabarito": "V – F – V – F."
+    },
+    {
+        "id": 10,
+        "enunciado": "Como analista de Suporte Técnico de Redes na Defensoria Pública do Estado de Mato Grosso do Sul, você está utilizando o prompt de comandos no Windows 10 para gerenciar tarefas agendadas. Um dos comandos que você utilizou foi o SCHTASKS. Assinale a alternativa que descreve corretamente esse comando.",
+        "alternativas": [
+            "Mostra configurações de usuários e de diretivas de grupos.",
+            "Permite a recuperação de arquivos em disco danificado.",
+            "É um comando para exportar chaves do registro, copiar, restaurar, comparar etc.",
+            "Permite que um administrador crie, exclua, consulte, altere, execute e termine tarefas agendadas em um sistema local ou remoto.",
+            "Permite desligar ou reiniciar o computador de forma imediata ou agendada."
+        ],
+        "gabarito": "Permite que um administrador crie, exclua, consulte, altere, execute e termine tarefas agendadas em um sistema local ou remoto."
+    },
+    {
+        "id": 11,
+        "enunciado": "Qual é o protocolo utilizado nativamente pelo Windows 10 a fim de permitir o acesso remoto a um computador?",
+        "alternativas": [
+            "NFS.",
+            "NTLM.",
+            "SMB.",
+            "RDP."
+        ],
+        "gabarito": "RDP."
+    },
+    {
+        "id": 12,
+        "enunciado": "Considere o fragmento da janela de propriedades de um serviço padrão do Windows 10, versão português, com a guia “Recuperação” aberta.\nSão opções possíveis de serem executadas, além da ação padrão “Não executar nenhuma ação”, nas configurações de falha “Primeira falha”, “Segunda falha” e “Falhas posteriores” de um serviço, EXCETO:",
+        "alternativas": [
+            "Enviar uma notificação.",
+            "Executar um programa.",
+            "Reiniciar o computador.",
+            "Reiniciar o serviço."
+        ],
+        "gabarito": "Enviar uma notificação."
+    },
+    {
+        "id": 13,
+        "enunciado": "Em relação ao visualizador de eventos do Windows 10, versão português, é possível criar um modo de exibição personalizado a partir do menu “Ação”.\nSão opções de filtro de “Nível do evento” disponíveis na janela “Criar Modo de Exibição Personalizado”, EXCETO:",
+        "alternativas": [
+            "Erro.",
+            "Modo detalhado.",
+            "Nível crítico.",
+            "Sucesso."
+        ],
+        "gabarito": "Sucesso."
+    },
+    {
+        "id": 14,
+        "enunciado": "Sabe-se que a Microsoft lançou em 1985 de forma oficial o Windows 1.0, ao longo dos anos conviveu com SOs aclamados e fracassos. Assinale abaixo o único fracasso da lista.",
+        "alternativas": [
+            "Windows XP.",
+            "Windows Me.",
+            "Windows 98se.",
+            "Windows 10.",
+            "Windows 95."
+        ],
+        "gabarito": "Windows Me."
+    },
+    {
+        "id": 15,
+        "enunciado": "Complete a lacuna do texto abaixo.\n“O ___________ é até hoje o sistema operacional mais usado em computadores ao redor do mundo, sendo um dos principais casos de sucesso da Microsoft. O que poucos sabem é que o programa foi batizado como “Interface Manager” pela sua equipe de desenvolvedores. Graças ao departamento de marketing da empresa, o programa foi renomeado.",
+        "alternativas": [
+            "Office.",
+            "Word.",
+            "Excel.",
+            "PowerPoint.",
+            "Windows."
+        ],
+        "gabarito": "Windows."
+    },
+    {
+        "id": 16,
+        "enunciado": "Em 2019, aproximadamente 78% da fatia de mercado de Sistemas Operacionais estava sob controle da detentora de direitos de um Sistema operacional de computadores. Assinale abaixo o SO em questão.",
+        "alternativas": [
+            "Ubuntu.",
+            "macOS.",
+            "Windows.",
+            "Kali Linux.",
+            "Fedora."
+        ],
+        "gabarito": "Windows."
+    },
+    {
+        "id": 17,
+        "enunciado": "Em uma unidade instituição de ensino, o laboratório de informática é equipado com computadores que possuem o sistema operacional Windows 10. O administrador do laboratório está preocupado com a segurança e deseja garantir que apenas os usuários autorizados tenham acesso aos computadores.\nQual recurso do Windows 10 ele pode usar para configurar e gerenciar o acesso dos usuários ao sistema?",
+        "alternativas": [
+            "Gerenciador de Tarefas.",
+            "Log de Eventos do Windows.",
+            "Painel de Controle.",
+            "Configurações de Rede.",
+            "Controle de Contas de Usuário (UAC)."
+        ],
+        "gabarito": "Controle de Contas de Usuário (UAC)."
+    },
+    {
+        "id": 18,
+        "enunciado": "Em uma instituição de ensino que utiliza tanto o sistema operacional Windows 10 quanto o GNU/Linux em diferentes laboratórios, o administrador de TI precisa monitorar e analisar eventos do sistema em tempo real para identificar possíveis problemas e ameaças de segurança.\nQual recurso ele pode utilizar no Windows 10 para acessar o log de eventos do sistema?",
+        "alternativas": [
+            "Gerenciador de Tarefas.",
+            "Prompt de Comando.",
+            "Windows Explorer.",
+            "Painel de Controle.",
+            "Visualizador de Eventos do Windows."
+        ],
+        "gabarito": "Visualizador de Eventos do Windows."
+    },
+    {
+        "id": 19,
+        "enunciado": "O Windows Remote Desktop, ou Conexão de Área de Trabalho Remota, é uma ferramenta poderosa que permite que você tenha total controle sobre uma máquina Windows sem estar fisicamente sentado diante dela. Uma vez devidamente configurado e conectado, você passa a ter controle total sobre o computador remoto. Apesar das atividades possíveis de serem realizadas em um computador remoto serem similares à utilização de um computador físico, as teclas de atalho para a troca de senha em um computador remoto são diferentes das teclas utilizadas para trocar a senha em um computador físico.\nAssinale a alternativa que contém a sequência correta de passos a serem realizados para acessar a função de troca de senha, em um computador remoto, utilizando o Windows Remote Desktop.",
+        "alternativas": [
+            "Pressione as teclas CTRL + ALT + DEL simultaneamente. Na janela que se abre, clique no botão de Opções…, acesse a aba Alterar uma Senha….",
+            "Pressione as teclas CTRL + ALT + DEL simultaneamente. Na janela que se abre, clique no botão de Segurança…, Clique no botão Alterar uma Senha….",
+            "Pressione as teclas CTRL + ALT + S simultaneamente. No menu de Segurança que aparece, escolher a opção Alterar Senha….",
+            "Pressione as teclas CTRL + ALT + SHIFT simultaneamente. No menu de Segurança que aparece, escolher a opção Alterar Senha….",
+            "Pressione as teclas CTRL + ALT + END simultaneamente. No menu de Segurança que aparece, escolha a opção Alterar uma Senha…."
+        ],
+        "gabarito": "Pressione as teclas CTRL + ALT + END simultaneamente. No menu de Segurança que aparece, escolha a opção Alterar uma Senha…."
+    },
+    {
+        "id": 20,
+        "enunciado": "A Barra de Tarefas do sistema operacional Windows 10 permite algumas configurações, como:",
+        "alternativas": [
+            "pode ser colocada na borda superior ou inferior, mas não pode ser colocada nas bordas laterais da tela.",
+            "pode ser mostrada em todos os monitores instalados no computador.",
+            "pode ser mudada para piscante.",
+            "pode ser mudada para transparente.",
+            "podem ser usados nela botões pequenos, médios ou grandes."
+        ],
+        "gabarito": "pode ser mostrada em todos os monitores instalados no computador."
+    },
+    {
+        "id": 21,
+        "enunciado": "Um usuário de um computador com o sistema operacional Windows 10 deseja que, quando um disco de instalação de programas for inserido, a execução seja iniciada automaticamente. Sobre esse desejo, é correto afirmar que",
+        "alternativas": [
+            "ao inserir o disco, o usuário deve pressionar a tecla Win.",
+            "ao inserir o disco, o usuário deve pressionar as teclas Crtl + Alt + Shift.",
+            "ele deve ativar a Reprodução automática para todas as mídias e dispositivos, em Configurações > Dispositivos > Reprodução Automática.",
+            "ele deve copiar o arquivo Install.exe na pasta do Windows.",
+            "esse recurso foi removido do Windows 10, por razões de segurança."
+        ],
+        "gabarito": "ele deve ativar a Reprodução automática para todas as mídias e dispositivos, em Configurações > Dispositivos > Reprodução Automática."
+    },
+    {
+        "id": 22,
+        "enunciado": "Em um computador com o sistema operacional Windows 10, um usuário ativou, em Configurações > Privacidade > Sistemas de Arquivos, a opção “Permitir que os apps acessem seu sistema de arquivos”. Essa ativação permitirá",
+        "alternativas": [
+            "a todos os aplicativos acessarem, automaticamente, o sistema de arquivos, permitindo que todos eles acessem os mesmos arquivos e pastas a que o usuário tem acesso.",
+            "que os aplicativos compactem os arquivos e pastas que utilizam.",
+            "que o usuário selecione, individualmente, cada aplicativo que deseja que acesse o sistema de arquivos, permitindo que esse aplicativo acesse os mesmos arquivos e pastas a que o usuário tem acesso.",
+            "que os aplicativos escolham que sistema de arquivos irão utilizar, como FAT, NTFS, etc.",
+            "que os aplicativos utilizem criptografia nos arquivos que utilizam."
+        ],
+        "gabarito": "que o usuário selecione, individualmente, cada aplicativo que deseja que acesse o sistema de arquivos, permitindo que esse aplicativo acesse os mesmos arquivos e pastas a que o usuário tem acesso."
+    },
+    {
+        "id": 23,
+        "enunciado": "Quando se abre uma pasta, arquivo ou programa no Windows 10, ele fica aberto em forma de janelas em tela. A respeito dessas janelas, marcar C para as afirmativas Certas, E para as Erradas e, após, assinalar a alternativa que apresenta a sequência CORRETA:\n( ) A barra de títulos exibe o nome do programa que se encontra aberto e o nome do arquivo quando disponível.\n( ) As bordas da janela determinam que o conteúdo do programa é exibido dentro dessas bordas. O tamanho delas determina o tamanho em que o programa é exibido, podendo ser exibido na tela inteira ou ajustado conforme necessário.\n( ) O botão “fechar” pode ser utilizado para minimizar a janela sem sair do programa.",
+        "alternativas": [
+            "C - C - E.",
+            "E - E - C.",
+            "C - E - E.",
+            "E - C - C."
+        ],
+        "gabarito": "C - C - E."
+    },
+    {
+        "id": 24,
+        "enunciado": "No Windows 10, caso o computador possua um adaptador de rede ativado, um ícone de conexão aparece na área de notificação, na extremidade direita da barra de tarefas. Ao clicar nesse ícone, aparecem informações sobre:",
+        "alternativas": [
+            "O dispositivo de rede do seu computador.",
+            "O status da conexão da rede conectada e de quaisquer outras redes disponíveis.",
+            "O canal e a frequência utilizados na conexão.",
+            "A velocidade da conexão na rede conectada.",
+            "O mapa de calor da rede conectada, com cores no ícone de conexão que expressam a intensidade do sinal."
+        ],
+        "gabarito": "O status da conexão da rede conectada e de quaisquer outras redes disponíveis."
+    },
+    {
+        "id": 25,
+        "enunciado": "No sistema operacional Windows 10, um recurso interessante são as áreas de trabalho virtuais. Elas permitem que o usuário abra outras áreas de trabalho e assim organize melhor suas atividades. Assinale a alternativa que indica corretamente um passo a passo que permita ao usuário utilizar essa funcionalidade.",
+        "alternativas": [
+            "Na barra de tarefas, clique em Visão de Tarefas e Nova área de trabalho +.",
+            "Na barra de tarefas, clique em Visão de Atividades e Área virtual +.",
+            "Pressione as teclas win + pause/break para abrir o painel de áreas virtuais.",
+            "Pressione as teclas ctrl + alt + del para ativar o recurso.",
+            "No menu iniciar, clique em Tarefas e selecione Novas Tarefas."
+        ],
+        "gabarito": "Na barra de tarefas, clique em Visão de Tarefas e Nova área de trabalho +."
+    },
+    {
+        "id": 26,
+        "enunciado": "No sistema operacional Windows 10, há um recurso que permite a definição de um layout de tela inicial e barra de tarefas personalizado para os usuários de um domínio de uma organização. Com esse recurso, não é necessária a recriação de imagens ou reinstalação do sistema, e o layout pode ser modificado com a simples substituição de um arquivo.xml de configuração. Qual é esse recurso?",
+        "alternativas": [
+            "Facilidade de Acesso.",
+            "MSTSC.",
+            "Painel de Controle.",
+            "Objeto de Política de Grupo (GPO).",
+            "Segurança do Windows."
+        ],
+        "gabarito": "Objeto de Política de Grupo (GPO)."
+    },
+    {
+        "id": 27,
+        "enunciado": "Das alternativas abaixo, qual é a principal ferramenta nativa do Windows 10 para identificar problemas no sistema operacional?",
+        "alternativas": [
+            "Windows Defender.",
+            "Gerenciador de Dispositivos.",
+            "Painel de Controle.",
+            "Prompt de Comando.",
+            "Gerenciador de Tarefas."
+        ],
+        "gabarito": "Gerenciador de Tarefas."
+    },
+    {
+        "id": 28,
+        "enunciado": "No Windows 10, no que se refere a Restaurar arquivos com o Histórico de Arquivos que você der falta de uma pasta ou um arquivo do qual fez backup, analise as assertivas abaixo e assinale V, se verdadeiras, ou F, se falsas, sobre como recuperar esses arquivos.\n( ) Na caixa de pesquisa do menu iniciar, digite restaurar arquivos e selecione Restaurar arquivos com o Histórico de Arquivos.\n( ) Procure o arquivo de que você precisa e use as setas para ver todas as suas versões.\n( ) Quando encontrar a versão desejada, selecione Restaurar para salvá-la em seu local original. Para salvá-lo em um local diferente, clique com botão direito em Restaurar, selecione Restaurar para e escolha um novo local.\nA ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+        "alternativas": [
+            "V – F – V.",
+            "V – F – F.",
+            "F – V – F.",
+            "F – V – V.",
+            "V – V – F."
+        ],
+        "gabarito": "V – V – F."
+    },
+    {
+        "id": 29,
+        "enunciado": "O sistema operacional Windows 10, em sua configuração padrão, dispõe da Ferramenta de Captura, que",
+        "alternativas": [
+            "identifica e bloqueia usuários não autorizados no computador.",
+            "permite que vírus sejam identificados, capturados e colocados em quarentena.",
+            "pode ser ativada pressionando-se simultaneamente no teclado as teclas Windows + P.",
+            "possui o recurso Atraso, que possibilita a definição de um período de tempo entre 1 e 5 segundos antes que uma captura seja realizada.",
+            "atua como um sniffer de rede, capturando mensagens que são trocadas com o computador."
+        ],
+        "gabarito": "possui o recurso Atraso, que possibilita a definição de um período de tempo entre 1 e 5 segundos antes que uma captura seja realizada."
+    },
+    {
+        "id": 30,
+        "enunciado": "Hyper-V é um hipervisor embutido em algumas versões do sistema operacional Windows, por exemplo o Windows 10 Pro. Uma das maneiras de habilitar o Hyper-V é pelo menu de Configurações do Windows. Dentro do menu de Configurações, o usuário deverá selecionar a opção:",
+        "alternativas": [
+            "Aplicativos.",
+            "Contas.",
+            "Dispositivos.",
+            "Personalização.",
+            "Privacidade."
+        ],
+        "gabarito": "Aplicativos."
+    },
+    {
+        "id": 31,
+        "enunciado": "O sistema operacional Windows 10 apresenta algumas restrições em relação ao nome dos arquivos que podem ser utilizados. Assinale a alternativa correta relacionada com nomes de arquivos nesse sistema operacional.",
+        "alternativas": [
+            "Arquivos com os nomes ?teste.docx e *teste.xlsx podem ser utilizados.",
+            "Arquivos com os nomes CON e <Teste>.txt podem ser utilizados.",
+            "O usuário não pode utilizar o nome AUX para um arquivo.",
+            "O usuário não pode utilizar o nome DOC para um arquivo.",
+            "Os arquivos podem ter extensões com até 4 caracteres."
+        ],
+        "gabarito": "O usuário não pode utilizar o nome AUX para um arquivo."
+    },
+    {
+        "id": 32,
+        "enunciado": "No sistema operacional Windows 10, em sua configuração padrão, o recurso Visão de Tarefas",
+        "alternativas": [
+            "permite a apresentação, na forma de uma lista na tela, de todas as tarefas internas do sistema operacional que estão sendo utilizadas em um dado momento.",
+            "permite exibir todos os recursos que uma data tarefa está utilizando em um dado instante, como uso da CPU, memória e rede.",
+            "permite que diversas Áreas de Trabalho possam funcionar simultaneamente por meio de terminais remotos no Windows 10.",
+            "pode ser acessado por meio do atalho tecla Windows + Tab.",
+            "se destina a usuários com dificuldades visuais, ampliando trechos selecionados da tela."
+        ],
+        "gabarito": "pode ser acessado por meio do atalho tecla Windows + Tab."
+    },
+    {
+        "id": 33,
+        "enunciado": "Considerando fundamentos, operações e configurações de sistemas operacionais, julgue o item a seguir.\nOs sistemas operacionais como o Windows nas versões 10 e 11 possuem três versões do Modo de Segurança, a saber: Modo de Segurança, Modo de Segurança com Rede e Modo de Segurança com Prompt de comando.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 34,
+        "enunciado": "Um administrador identificou um problema no serviço de impressão no sistema operacional Microsoft Windows 10. A recomendação, nesse caso, é fazer a parada do serviço e, em seguida, fazer a sua inicialização. Na janela Serviços desse sistema operacional, o serviço de impressão é identificado como",
+        "alternativas": [
+            "Gerente de Impressão.",
+            "Controlador de Impressão.",
+            "Driver de Impressão.",
+            "Spooler de Impressão.",
+            "Daemon de Impressão."
+        ],
+        "gabarito": "Spooler de Impressão."
+    },
+    {
+        "id": 35,
+        "enunciado": "Utilizando o prompt do sistema operacional Windows 10 (Command) em condições ideais, um Analista obteve, dentre outras, as seguintes informações:\nO comando utilizado foi o",
+        "alternativas": [
+            "Systeminfo.",
+            "QSystem.",
+            "Systemlist.",
+            "Taskinfo.",
+            "Foinfo."
+        ],
+        "gabarito": "Systeminfo."
+    },
+    {
+        "id": 36,
+        "enunciado": "O Windows 10 é o sistema operacional da Microsoft. Ele pode ser instalado em aparelhos diferentes como desktops, laptops, videogames e dispositivos móveis para ter a mesma experiência deste sistema operacional e se adapta para que você possa usá-lo mais facilmente.\nCARACTERISTICAS e novidades do Windows 10. GCFGlobal. [s. /.], [s. d.] Disponível em: https://edu.gcfglobal.org/pt/'tudosobre- o-windows-10/caracteristicas-e-novidades-do-windows-10/1/. Acesso em: 19 jun. 2023. (Adaptado).\nNo sistema operacional Windows 10 descrito, qual recurso permite que o usuário economize tempo e execute tarefas, como criar e gerenciar listas personalizadas, manter sua agenda atualizada, gerenciar calendário, participar de uma reunião no Microsoft Teams?",
+        "alternativas": [
+            "OneDrive.",
+            "Windows Explorer.",
+            "Cortana.",
+            "Microsoft Edge.",
+            "Windows Hello."
+        ],
+        "gabarito": "Cortana."
+    },
+    {
+        "id": 37,
+        "enunciado": "Um usuário com uma máquina usando Windows 10 contatou o setor de suporte, avisando que o sistema parou de funcionar e não inicializa mais, depois de ter instalado uma atualização.\nConsiderando a situação-problema informada, qual das opções é mais adequada para tentar reparar rapidamente a inicialização do Windows 10?",
+        "alternativas": [
+            "Usar a função de reparo de inicialização Ambiente de Recuperação do Windows 10 (winRE) > Ir na opção “Solucionar problemas” > “Redefinir esse computador” > “Reparo de Inicialização” > “Reiniciar”.",
+            "Desinstalar a atualização acessando > “Inicia” > selecionando “Configurações” > “Atualização e Segurança” > “Windows Update” > “Exibir histórico de atualização” > “Desinstalar atualizações”.",
+            "Usar a função de reparo de inicialização Ambiente de Recuperação do Windows 10 (winRE) > Ir na opção “Solucionar problemas” > “Opções avançadas “ > “Reparo de Inicialização” > “Reiniciar”.",
+            "Restaurar a partir de um ponto de restauração do sistema indo na caixa de pesquisa do Painel de Controle > digitando “recuperação” > selecione “Recuperação” > “Abrir Restauração do Sistema” e “Restaurar arquivos e configuração do sistema” > selecione “Avançar” e escolha o ponto de restauração que você deseja usar.",
+            "Desinstalar a atualização iniciando o Ambiente de Recuperação do Windows 10 (winRE) > ir à opção “Configurações” > “Atualização e Segurança” > “Windows Update” > “Exibir histórico de atualização” > “Desinstalar atualizações”."
+        ],
+        "gabarito": "Usar a função de reparo de inicialização Ambiente de Recuperação do Windows 10 (winRE) > Ir na opção “Solucionar problemas” > “Opções avançadas “ > “Reparo de Inicialização” > “Reiniciar”."
+    },
+    {
+        "id": 38,
+        "enunciado": "Um usuário de um computador com o sistema operacional Windows 10 deseja executar um programa que foi criado para versões anteriores do Windows 10. Sobre essa situação é correto afirmar que",
+        "alternativas": [
+            "exclusivamente programas elaborados para versões a partir do Windows 8 podem ser executados no Windows 10.",
+            "deve-se buscar no site da Microsoft o programa conv10.exe, que converte programas criados para versões anteriores para a versão Windows 10.",
+            "uma tentativa de resolver o problema seria selecionar Propriedades do programa e, em seguida, selecionar a guia Compatibilidade, na qual um botão está disponível para executar o recurso de solução de problemas de compatibilidade de programas.",
+            "deve-se, no Painel de Controle do Windows 10, selecionar Conversor de Versões, que permitirá converter o programa para o Windows 10.",
+            "não será possível executar o programa, pois apenas a partir da versão Windows 11 aplicativos desse tipo poderão ser executados."
+        ],
+        "gabarito": "uma tentativa de resolver o problema seria selecionar Propriedades do programa e, em seguida, selecionar a guia Compatibilidade, na qual um botão está disponível para executar o recurso de solução de problemas de compatibilidade de programas."
+    },
+    {
+        "id": 39,
+        "enunciado": "Na escolha de um sistema (Conjunto de Hardware e Software), algumas características devem ser analisadas com muito cuidado, mediante ao que a aplicação que será utilizada exigirá. Por exemplo, uma máquina que executará uma aplicação gráfica, uma placa de vídeo poderosa deve ser considerada, uma vez que esta colaborará no tempo de processamento, pois placas específicas possuem processamento e memória próprias. Mas vamos apenas considerar o Sistema operacional. Este tem exigências mínimas para instalação e utilização. No caso do Microsoft Windows 10 a fabricante apresenta um requisito de memória RAM de:",
+        "alternativas": [
+            "4 gigabytes (GB) para 32 bits ou 4 GB para 64 bits.",
+            "1 gigabytes (GB) para 32 bits ou 2 GB para 64 bits.",
+            "2 gigabytes (GB) para 32 bits ou 4 GB para 64 bits.",
+            "4 gigabytes (GB) para 32 bits ou 8 GB para 64 bits."
+        ],
+        "gabarito": "1 gigabytes (GB) para 32 bits ou 2 GB para 64 bits."
+    },
+    {
+        "id": 40,
+        "enunciado": "É a ferramenta de criptografia da empresa Microsoft, disponível para várias versões do Sistema Operacional Windows. Uma vez utilizada, fornece recursos que permite encriptar o disco rígido do computador, protegendo os documentos e arquivos contra o acesso não autorizado. Esta ferramenta é conhecida por ______.\nAssinale a alternativa que preencha corretamente a lacuna.",
+        "alternativas": [
+            "Bitlocker.",
+            "DefenseGen.",
+            "Cryptogen.",
+            "Patchslim."
+        ],
+        "gabarito": "Bitlocker."
+    },
+    {
+        "id": 41,
+        "enunciado": "Uma das ferramentas administrativas do sistema operacional Windows 10, em sua configuração padrão, permite criar e gerenciar tarefas comuns que o computador executará automaticamente nos horários especificados. Essa ferramenta é denominada",
+        "alternativas": [
+            "Agendador de Tarefas.",
+            "Agendador de Atividades.",
+            "Automatizador de Ações.",
+            "Gerenciador da Eventos.",
+            "Gerenciador de Tarefas."
+        ],
+        "gabarito": "Agendador de Tarefas."
+    },
+    {
+        "id": 42,
+        "enunciado": "No sistema operacional Windows 10, em sua configuração padrão, ao se acessar Central de Facilidade de Acesso, pode-se realizar algumas configurações, dentre elas:",
+        "alternativas": [
+            "Facilitar a visualização no computador e Transformar texto e símbolos em sons.",
+            "Facilitar o uso do mouse e Traduzir automaticamente textos para a língua utilizada no computador.",
+            "Salvar experiência do usuário para sons e Facilitar o uso do teclado.",
+            "Usar o computador sem vídeo e Usar o computador sem mouse ou teclado.",
+            "Usar recursos na Internet para leitura de textos e Usar alternativas visuais ou de texto para sons."
+        ],
+        "gabarito": "Usar o computador sem vídeo e Usar o computador sem mouse ou teclado."
+    },
+    {
+        "id": 43,
+        "enunciado": "A respeito do Windows 10, julgue o item seguinte.\nNo Windows 10, é possível disponibilizar acesso por meio do recurso de área de trabalho remota, que é suportado exclusivamente na versão Professional.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 44,
+        "enunciado": "Para tentar esconder evidências de um comprometimento de um sistema Windows 10, o invasor apagou alguns arquivos que estavam no disco C, que foram para a lixeira do Windows. Posteriormente, na análise forense desse sistema, o perito procurou verificar o caminho original desses arquivos e a data em que foram removidos.\nO perito pode conseguir essas informações",
+        "alternativas": [
+            "nos arquivos do diretório C:\\Windows\\RECYCLE.",
+            "no arquivo com o nome C:\\$Recycle.BIN\\INFO2, contendo todos os metadados dos arquivos que estão na lixeira.",
+            "nos arquivos com nomes iniciados com I$, localizados abaixo do diretório C:\\$Recycle.BIN\\*.",
+            "no arquivo com o nome C:\\NTUSER.DAT, contendo todos os metadados dos arquivos que estão na lixeira.",
+            "no Registry do Windows."
+        ],
+        "gabarito": "nos arquivos com nomes iniciados com I$, localizados abaixo do diretório C:\\$Recycle.BIN\\*."
+    },
+    {
+        "id": 45,
+        "enunciado": "Considere as seguintes afirmativas a respeito do caminho para editar o “Registro” (Registry) do Windows 10.\nI. Pesquisar regedit e selecionar Editor de Registro.\nII. Usar o botão direito do mouse em Iniciar, selecionar Executar e digitar “powershell”.\nIII. Abrir o Gerenciador de Tarefas e, na guia Serviços, ativar o serviço RemoteRegistry.\nEstá correto somente o que se afirma em",
+        "alternativas": [
+            "I e II.",
+            "I.",
+            "II e III.",
+            "II.",
+            "III."
+        ],
+        "gabarito": "I."
+    },
+    {
+        "id": 46,
+        "enunciado": "Um Técnico em Gestão Procuratorial precisa acessar o Prompt de Comando como administrador em um computador com o sistema operacional Windows 10, em português, funcionando em condições ideais. Considere as formas de realizar este acesso elencadas a seguir:\nI. Digitar cmd na barra de pesquisa do Windows e, na janela que se abre, clicar em Executar como administrador.\nII. Pressionar as teclas Windows + E, digitar cmd e pressionar a tecla Enter. Na janela que se abre, digitar run as administrator.\nIII. Abrir o Gerenciador de Tarefas com mais detalhes. Abrir o menu Arquivo e escolher Executar nova tarefa. Digitar cmd e clicar em OK para abrir o prompt de comando. Marcar a opção Criar esta tarefa com privilégios administrativos.\nIV. Abrir o Explorador de Arquivos, digitar na barra de pesquisas C:WindowsSystem32. Clicar duas vezes no arquivo cmd.exe ou clicar com o botão esquerdo neste arquivo e escolher Executar como administrador.\nPara realizar o que pretende de forma correta, o Técnico deve escolher as opções",
+        "alternativas": [
+            "I e III, apenas.",
+            "I, II e III, apenas.",
+            "III e IV, apenas.",
+            "II e IV, apenas.",
+            "I, II, III e IV."
+        ],
+        "gabarito": "I e III, apenas."
+    },
+    {
+        "id": 47,
+        "enunciado": "O sistema operacional Windows 10 possui muitos recursos interessantes, dentre estes, pode-se citar o Windows SIM. Com base no exposto sobre o recurso Windows SIM, assinale a alternativa CORRETA.",
+        "alternativas": [
+            "A sigla SIM significa Software lnteraction Manager, um software de controle de gerenciamento.",
+            "Este recurso permite criar arquivos de resposta de instalação para utilização em implantações automatizadas.",
+            "O Windows Software lmplementation Manager controla e gerencia as dependências do Firewa/1.",
+            "O Windows System lmplementation Manager gerencia e controla as permissões de build.",
+            "Este recurso está associado diretamente à mineração de dados, que se pode realizar somente no Windows 10."
+        ],
+        "gabarito": "Este recurso permite criar arquivos de resposta de instalação para utilização em implantações automatizadas."
+    },
+    {
+        "id": 48,
+        "enunciado": "O sistema operacional Windows 10 permite realizar muitas operações via linha de comando, podendo utilizar a ferramenta DISM para executar alguns comandos.\nCom base na ferramenta DISM, assinale a alternativa CORRETA.",
+        "alternativas": [
+            "A sigla DISM significa Dinamic lmage Servicing and Manager.",
+            "É uma ferramenta amplamente utilizada para fazer pull requests no jira, a partir do Windows 10.",
+            "É uma ferramenta que autoriza capturar, implantar e gerenciar imagens do Windows.",
+            "A sigla DISM significa Development lmage Saving and Manager.",
+            "É uma ferramenta open source, tendo como seu principal objetivo o desenvolvimento de software para desktop."
+        ],
+        "gabarito": "É uma ferramenta que autoriza capturar, implantar e gerenciar imagens do Windows."
+    },
+    {
+        "id": 49,
+        "enunciado": "São exemplos de recursos ou ferramentas do Windows 10, EXCETO:",
+        "alternativas": [
+            "WINDOWS ADK.",
+            "Bitlocker.",
+            "Client Hyper-V.",
+            "Advanced Packaging Tool.",
+            "Windows To Go Creator."
+        ],
+        "gabarito": "Advanced Packaging Tool."
+    },
+    {
+        "id": 50,
+        "enunciado": "São exemplos de requisitos de hardware mínimos para o Windows 10, EXCETO:",
+        "alternativas": [
+            "Processador de 1 gigahertz (GHz) ou mais rápido e resolução de tela 800x600 pixeis.",
+            "Resolução de tela 800x600 pixeis e Placa gráfica DirectX 9 ou posterior, com um driver WDDM (Windows Display Driver Model) 1.0.",
+            "Espaço em disco rígido 16 GB para as versões de 32 bits e 20 GB para as versões de 64 bits.",
+            "Memória de 3 gigabyte (GB) de RAM nas versões de 32 bits e 4 GB para as versões de 64 bits.",
+            "Resolução de tela 800x600 pixeis ou espaço em disco rígido 16 GB para as versões de 32 bits."
+        ],
+        "gabarito": "Memória de 3 gigabyte (GB) de RAM nas versões de 32 bits e 4 GB para as versões de 64 bits."
+    },
+    {
+        "id": 51,
+        "enunciado": "Após comprar um headset bluetooth para usar em videoconferências, um usuário de um computador com sistema operacional Windows 10 ligou o headset, mas este não se conectou automaticamente ao computador.\nO caminho mais simples que esse usuário pode usar para configurar esse dispositivo é:",
+        "alternativas": [
+            "Botão Iniciar → Configurações → Dispositivos → Bluetooth & outros dispositivos;",
+            "Botão Iniciar → Configurações → Sistema → Som → Bluetooth;",
+            "Botão Iniciar → Configurações → Som → Bluetooth & outros dispositivos;",
+            "Botão Iniciar → Painel de controle → Dispositivos → Comunicação sem fio;",
+            "Botão Iniciar → Painel de controle → Dispositivos → Som → Bluetooth."
+        ],
+        "gabarito": "Botão Iniciar → Configurações → Dispositivos → Bluetooth & outros dispositivos;"
+    },
+    {
+        "id": 52,
+        "enunciado": "O sistema operacional Windows 10, em português, possui vários recursos que possibilitam oferecer e receber assistência remota. Assinale a alternativa que apresenta a única que identifica incorretamente um desses nomes de recursos de assistência remota.",
+        "alternativas": [
+            "Conexão Fácil.",
+            "Conexão Intermediária.",
+            "Assistência Remota.",
+            "Assistência Rápida."
+        ],
+        "gabarito": "Conexão Intermediária."
+    },
+    {
+        "id": 53,
+        "enunciado": "Sobre o Visualizador de Eventos do Microsoft Windows 10, versão em português, assinale a alternativa que apresenta somente categorias de logs do Windows.",
+        "alternativas": [
+            "Aplicativo, Segurança e Sistema.",
+            "Aplicativo, Hardware e Instalação.",
+            "Hardware, Segurança e Software.",
+            "Instalação, Internet e Sistema.",
+            "Internet, Segurança e Software."
+        ],
+        "gabarito": "Aplicativo, Segurança e Sistema."
+    },
+    {
+        "id": 54,
+        "enunciado": "No sistema operacional Windows 10 BR, a execução do atalho de teclado Alt + Tab tem por finalidade alternar o acesso:",
+        "alternativas": [
+            "ao Gerenciador de Dispositivos e à Calculadora do Windows.",
+            "ao Painel de Controle e ao Windows Update.",
+            "aos aplicativos em execução na modalidade multitarefa preemptiva.",
+            "aos navegadores instalados no sistema em regime de multi programação."
+        ],
+        "gabarito": "aos aplicativos em execução na modalidade multitarefa preemptiva."
+    },
+    {
+        "id": 55,
+        "enunciado": "A figura abaixo mostra quatro arquivos classificados em ordem alfabética, armazenados na pasta no Explorador de Arquivos em um microcomputador com sistema operacional Windows 10, versão em português.\nNessa figura, observa-se que todos os arquivos estão selecionados, o que pode ser obtido através da realização de dois procedimentos descritos a seguir.\nI. Selecionar o primeiro arquivo e, em seguida, clicar sobre o último arquivo , utilizando o cursor do mouse ao mesmo tempo em que se pressiona uma determinada tecla.\nII. Por meio da execução de um atalho de teclado.\nNessas condições, a tecla e o atalho de teclado são, respectivamente:",
+        "alternativas": [
+            "Alt e Ctrl + T.",
+            "Alt e Ctrl + A.",
+            "Shift e Ctrl + T.",
+            "Shift e Ctrl + A."
+        ],
+        "gabarito": "Shift e Ctrl + A."
+    },
+    {
+        "id": 56,
+        "enunciado": "O arquivo setupact.log do sistema operacional Windows",
+        "alternativas": [
+            "possui informações sobre ações de instalação durante a fase da versão anterior e sobre todas as falhas de nível inferior, e ponto de partida para investigações de reversão.",
+            "contém a comunicação de informações entre setup.exe e Windows Update para que seja possível uma forma de recuperar a situação anterior à instalação.",
+            "possui informações sobre a estrutura de diretório do usuário, incluindo-se identificadores de segurança, tais como proprietário e perfil.",
+            "é criado quando o service pack é removido e pode ser usado para solucionar problemas de instalações.",
+            "contém informações sobre ações de instalação do service pack de atualização, podendo ser usado para solucionar problemas de instalações."
+        ],
+        "gabarito": "possui informações sobre ações de instalação durante a fase da versão anterior e sobre todas as falhas de nível inferior, e ponto de partida para investigações de reversão."
+    },
+    {
+        "id": 57,
+        "enunciado": "Assinale a opção em que é apresentado o registro do Windows em que a chave de registro localizada corresponde a um usuário no sistema e é nomeada com o identificador de segurança desse usuário.",
+        "alternativas": [
+            "HKEY_USERS.",
+            "HKEY_LOCAL_MACHINE.",
+            "HKEY_CURRENT_CONFIG.",
+            "HKEY_CLASSES_ROOT.",
+            "HKEY_CURRENT_USER."
+        ],
+        "gabarito": "HKEY_USERS."
+    },
+    {
+        "id": 58,
+        "enunciado": "No painel de controle do Windows 10, em que categoria ficam as “Opções de Energia”?",
+        "alternativas": [
+            "Hardware e Sons.",
+            "Rede e Internet.",
+            "Sistema e Segurança.",
+            "Relógio e Região.",
+            "Facilidade de acesso."
+        ],
+        "gabarito": "Hardware e Sons."
+    },
+    {
+        "id": 59,
+        "enunciado": "No Windows 10, por padrão, ao clicar com botão direito do mouse em um espaço vazio da área de trabalho e parar o cursor sobre “Classificar por”, qual das alternativas a seguir NÃO é uma das opções?",
+        "alternativas": [
+            "Tipo de item.",
+            "Data de modificação.",
+            "Tamanho.",
+            "Nome.",
+            "Correspondência."
+        ],
+        "gabarito": "Correspondência."
+    },
+    {
+        "id": 60,
+        "enunciado": "No Windows 10, ao digitar “msconfig” e apertar a tecla ENTER na barra de pesquisa, será aberto:",
+        "alternativas": [
+            "Configuração do Microsoft Office.",
+            "Configuração do Word.",
+            "Configuração do Editor de vídeo.",
+            "Configuração do Sistema.",
+            "Configuração do relógio."
+        ],
+        "gabarito": "Configuração do Sistema."
+    },
+    {
+        "id": 61,
+        "enunciado": "Qual atalho do Windows é utilizado para fechar um programa, janela ou pasta ativa?",
+        "alternativas": [
+            "Ctrl + Alt + F.",
+            "Alt + F4.",
+            "Ctrl + Del.",
+            "Alt + Tab + H.",
+            "Shift + Alt + C."
+        ],
+        "gabarito": "Alt + F4."
+    },
+    {
+        "id": 62,
+        "enunciado": "Um Analista necessitou fazer um backup do registro do Windows 10.\nAssim, acessou corretamente o editor do registro por meio das teclas de atalho:",
+        "alternativas": [
+            "windows + r, digitou editreg, clicou com o botão direito do mouse em Arquivo e escolheu a opção Exportar.",
+            "windows + b, digitou regedit, clicou com o botão direito do mouse em Computador (ou Meu computador) e escolheu a opção Exportar.",
+            "windows + r, digitou regedit, clicou com o botão direito do mouse em Computador (ou Meu computador) e escolheu a opção Exportar.",
+            "alt + r, digitou editreg, clicou com o botão direito do mouse em Arquivo e escolheu a opção Importar.",
+            "ctrl + w, digitou regedit, clicou com o botão direito do mouse em Computador (ou Meu computador) e escolheu a opção Importar."
+        ],
+        "gabarito": "windows + r, digitou regedit, clicou com o botão direito do mouse em Computador (ou Meu computador) e escolheu a opção Exportar."
+    },
+    {
+        "id": 63,
+        "enunciado": "No Sistema Operacional Windows 10, Configuração Local, Idioma Português-Brasil, para alterar o brilho da tela, sem afetar as configurações de energia, deve-se abrir o painel Central de Ações, que também pode ser feito com o uso de atalho do teclado; assinale-o.",
+        "alternativas": [
+            "Tecla Win + J.",
+            "Tecla Win + S.",
+            "Tecla Win + T.",
+            "Tecla Win + A."
+        ],
+        "gabarito": "Tecla Win + A."
+    },
+    {
+        "id": 64,
+        "enunciado": "Em se tratando do gerenciamento de memória, o sistema operacional Microsoft Windows 10 Pro permite um intercâmbio de dados da memória RAM com outros dispositivos de memória. O tamanho deste intercâmbio pode ser configurado através do arquivo pagefil.sys. Trata-se de um recurso interessante para sistemas onde a quantidade de memória RAM não é abundante.\nMarque a alternativa que indica, corretamente, o nome que é comumente dado a este recurso.",
+        "alternativas": [
+            "Swap.",
+            "Training.",
+            "Overload.",
+            "Escalonamento.",
+            "Fragmentação."
+        ],
+        "gabarito": "Swap."
+    },
+    {
+        "id": 65,
+        "enunciado": "O sistema operacional Windows 10 Pro da empresa Microsoft permite acesso à tela de prompt de comando através do aplicativo CMD. Ao acessarmos essa tela nos deparamos com uma interface em modo texto onde podemos realizar diversas operações através da digitação de comandos.\nMarque a alternativa que indica, corretamente, o nome do comando que permite ao usuário do Windows 10 Pro visualizar na tela de prompt de comando o conteúdo de um arquivo de texto.",
+        "alternativas": [
+            "find.",
+            "chkfile.",
+            "verify.",
+            "type.",
+            "cipher."
+        ],
+        "gabarito": "type."
+    },
+    {
+        "id": 66,
+        "enunciado": "Assim como em sistemas operacionais Linux, no Microsoft Windows 10 Pro é possível realizarmos funções básicas através de linha de comando. A respeito de comandos de texto que podemos utilizar no prompt de comandos no Microsoft Windows 10 Pro, analise as afirmativas abaixo e, em seguida, marque alternativa correta.\nI. Os comandos date e time permitem a visualização, respectivamente, da data e da hora configuradas atualmente no sistema operacional. Caso desejemos realizar o ajuste delas, podemos usar os comandos set date e set time.\nII. O comando systeminfo permite a visualização de um grande conjunto de informações do sistema. Alguns exemplos de informações listadas através deste comando são: nome do host, versão do sistema operacional e informações de hardware, como a quantidade de memória disponível e a identificação do processador presente no sistema.\nIII. Taskkill é o nome do comando que utilizamos para encerrar aplicações. Para indicar a aplicação que será encerrada, informamos seu nome através de um parâmetro. É possível identificarmos o nome correto da aplicação que desejamos encerrar através do comando tasks que nos permite visualizar a lista completa das aplicações em execução no momento.",
+        "alternativas": [
+            "Apenas a afirmativa I está correta.",
+            "Apenas a afirmativa III está correta.",
+            "Apenas as afirmativas I e II estão corretas.",
+            "Apenas a afirmativa II está correta.",
+            "Todas as afirmativas estão corretas."
+        ],
+        "gabarito": "Apenas a afirmativa II está correta."
+    },
+    {
+        "id": 67,
+        "enunciado": "No sistema operacional Windows 10, em português e em sua configuração padrão, considere a barra de tarefas do sistema, visível e localizada no canto inferior da tela. Um usuário clicou com o botão esquerdo do mouse (em sua configuração padrão) sobre ela (mas não em cima de algum ícone da barra) e, com esse botão do mouse ainda pressionado, arrastou cursor do mouse até o canto superior da tela.\nAssinale a alternativa correta a respeito.",
+        "alternativas": [
+            "A barra de tarefas será com certeza movida para o canto superior da tela e ficará no modo “oculto”.",
+            "A barra de tarefas será movida para o canto superior da tela, independentemente de qualquer outra configuração existente referente a ela.",
+            "A barra de tarefas será movida para o canto superior da tela desde que ela não esteja com o status “bloqueada”.",
+            "Nada ocorrerá, pois não é possível mudar a localização da barra de tarefas, caso ela esteja visível.",
+            "Nada ocorrerá, pois não é possível mudar a localização da barra de tarefas, em nenhuma hipótese, na versão 10 do sistema operacional."
+        ],
+        "gabarito": "A barra de tarefas será movida para o canto superior da tela desde que ela não esteja com o status “bloqueada”."
+    },
+    {
+        "id": 68,
+        "enunciado": "No sistema operacional Windows 10, em português e em sua configuração padrão, pode-se configurar para que novos arquivos sejam armazenados automaticamente em outra unidade de armazenamento, diferente da unidade padrão.\nPor meio do clique no botão Iniciar, e depois selecionando- se Configurações > Sistema > Armazenamento e, posteriormente, em Mais configurações de armazenamento, selecionando Alterar onde o novo conteúdo é salvo, pode-se definir diretamente a nova unidade de armazenamento de",
+        "alternativas": [
+            "Novos aplicativos e Novos spams.",
+            "Novos aplicativos e Novos e-mails.",
+            "Novos documentos e Novos spams.",
+            "Novos vídeos e fotos e Novos aplicativos.",
+            "Novos vídeos e fotos e Novos e-mails."
+        ],
+        "gabarito": "Novos vídeos e fotos e Novos aplicativos."
+    },
+    {
+        "id": 69,
+        "enunciado": "O Windows 10 oferece a facilidade de Reconhecimento de fala. Em qual item do Painel do Controle é possível iniciar o processo e configurar o microfone?",
+        "alternativas": [
+            "Aparência e Personalização.",
+            "Hardware e sons.",
+            "Sistema e Segurança.",
+            "Facilidade de Acesso.",
+            "Programas."
+        ],
+        "gabarito": "Facilidade de Acesso."
+    },
+    {
+        "id": 70,
+        "enunciado": "Baseando-se no Sistema operacional Windows 10, analise a imagem a seguir retirada da barra de tarefas:\nO ícone em destaque na barra de tarefas é o:",
+        "alternativas": [
+            "Cortana.",
+            "Visão de tarefas.",
+            "Área de trabalho.",
+            "Central de ações.",
+            "Painel de controle."
+        ],
+        "gabarito": "Visão de tarefas."
+    },
+    {
+        "id": 71,
+        "enunciado": "Os comandos para adicionar o usuário analista e listar os usuários do Windows 10, por meio da linha de comando, são, respectivamente,",
+        "alternativas": [
+            "adduser analista e show users.",
+            "net user analista /add e net user.",
+            "useradd analista e list users.",
+            "create user analista e net-user.",
+            "user -a analista e show net user."
+        ],
+        "gabarito": "net user analista /add e net user."
+    },
+    {
+        "id": 72,
+        "enunciado": "Analise as afirmativas abaixo sobre a área restrita do Windows do Windows 10 Pro.\n1. É um ambiente virtual, mas que dispensa a instalação de software de virtualização pois a virtualização é baseada em hardware para o isolamento do Kernel.\n2. Quando uma instância for fechada, todos os softwares e arquivos e o estado da área restrita são excluídos.\n3. É um ambiente de configuração que requer privilégios de administrator, uma vez que a partir dele é possível modificar parâmetros de funcionamento do próprio Windows.\nAssinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "É correta apenas a afirmativa 2.",
+            "É correta apenas a afirmativa 3.",
+            "São corretas apenas as afirmativas 1 e 2.",
+            "São corretas apenas as afirmativas 1 e 3.",
+            "São corretas apenas as afirmativas 2 e 3."
+        ],
+        "gabarito": "São corretas apenas as afirmativas 1 e 2."
+    },
+    {
+        "id": 73,
+        "enunciado": "Um administrador de sistemas necessita exibir o estado dos adaptadores de rede em um sistema Microsoft Windows 10.\nAssinale a alternativa que indica corretamente o comando que permite que esta tarefa seja realizada.",
+        "alternativas": [
+            "ifconfig interface.",
+            "netshow interfaces.",
+            "netstat -ia interfaces.",
+            "netsh show interfaces.",
+            "netsh interface show interface."
+        ],
+        "gabarito": "netsh interface show interface."
+    },
+    {
+        "id": 74,
+        "enunciado": "O sistema operacional Windows é compatível com alguns sistemas de arquivos diferentes. Selecione o sistema de arquivos usado no Windows que conta com as seguintes características:\nTamanho da Unidade Básica de Informação: 4 KB.\nTamanho Máximo do nome do arquivo: 255 letras (Unicode).\nMaior data dos arquivos: 28/05/60056 (60 mil anos).",
+        "alternativas": [
+            "HPFS.",
+            "Ext3.",
+            "Ext4.",
+            "NTFS.",
+            "FAT32."
+        ],
+        "gabarito": "NTFS."
+    },
+    {
+        "id": 75,
+        "enunciado": "Um administrador de um computador com o sistema operacional Windows 10 deseja gerenciar contas de usuários desse computador. Assinale a alternativa correta sobre esse gerenciamento.",
+        "alternativas": [
+            "Caso se deseje alterar o tipo de conta atribuída a um usuário, deve-se sempre remover a conta desse usuário e os arquivos correspondentes e, posteriormente, criar uma nova conta com um novo tipo e novo e-mail.",
+            "Dentre os tipos de contas disponíveis para escolha, tem-se a conta Padrão, a conta Privilegiada e a conta Administrador.",
+            "O administrador deve selecionar Contas de Usuário no Painel de Controle para gerenciar contas de usuários.",
+            "O gerenciamento de contas é realizado apenas no Modo de Segurança do Windows 10.",
+            "Existe o tipo de conta denominada Temporária, que é automaticamente cancelada e removida após às 23h59min do dia da sua criação."
+        ],
+        "gabarito": "O administrador deve selecionar Contas de Usuário no Painel de Controle para gerenciar contas de usuários."
+    },
+    {
+        "id": 76,
+        "enunciado": "Qual alternativa contém somente opções de configurações disponíveis em “Iniciar”>“Configurações” > “Rede e Internet” no Windows 10?",
+        "alternativas": [
+            "Ethernet, Wi-Fi e Proxy.",
+            "Windows Update, Modo avião e Hotspot móvel.",
+            "Proxy, VPN e Sincronizar configurações.",
+            "Proxy, VPN e Firewall.",
+            "Ethernet, Bluetooth e Status."
+        ],
+        "gabarito": "Ethernet, Wi-Fi e Proxy."
+    },
+    {
+        "id": 77,
+        "enunciado": "O Windows 10 disponibiliza o recurso chamado ______________, que utiliza o sistema de arquivos ______ e permite oferecer redundância de armazenamento por meio de _________________.\nAssinale a alternativa que preenche, correta e respectivamente, as lacunas do trecho acima.",
+        "alternativas": [
+            "Espaços de Armazenamento – ReFS – um pool de discos.",
+            "Espaços de Armazenamento – NTFS – uma SAN.",
+            "LUN – NFS – um array de discos.",
+            "LUN – ReFS – uma interface iSCI.",
+            "Discos dinâmicos – NFS – discos SSD."
+        ],
+        "gabarito": "Espaços de Armazenamento – ReFS – um pool de discos."
+    },
+    {
+        "id": 78,
+        "enunciado": "Qual alternativa menciona somente ferramentas que permitem o gerenciamento remoto do Windows 10?",
+        "alternativas": [
+            "Remote Desktop, Windows Update e Windows Firewall.",
+            "Remote Desktop, Windows Advanced Security e Active Directory.",
+            "Remote Desktop, Windows PowerShell remoto e Microsoft Management Console.",
+            "Active Directory, Microsoft Management Console e Windows Dial Up.",
+            "Active Directory, Centro de Mobilidade do Windows e Visualizador de Eventos."
+        ],
+        "gabarito": "Remote Desktop, Windows PowerShell remoto e Microsoft Management Console."
+    },
+    {
+        "id": 79,
+        "enunciado": "Para executar um serviço em um determinado setor da empresa, tornou-se necessário localizar um computador na rede local, utilizando uma máquina com o Sistema Operacional Microsoft Windows 10, Configuração Local, Idioma Português-Brasil. Uma das formas de realizar tal tarefa, é empregar as teclas de atalho que irão abrir a caixa de diálogo “encontrar computadores”. Assinale-as.",
+        "alternativas": [
+            "Win + Ctrl + D.",
+            "Win + Ctrl + F.",
+            "Win + Ctrl + T.",
+            "Win + Ctrl + W."
+        ],
+        "gabarito": "Win + Ctrl + F."
+    },
+    {
+        "id": 80,
+        "enunciado": "No Windows 10, ao usarmos a combinação de teclas de atalho tecla Windows + R, será aberto:",
+        "alternativas": [
+            "O Windows Explorer.",
+            "O gerenciador de tarefas.",
+            "O chrome.",
+            "A janela do aplicativo executar.",
+            "A cortana."
+        ],
+        "gabarito": "A janela do aplicativo executar."
+    },
+    {
+        "id": 81,
+        "enunciado": "Nas configurações do Windows 10, em qual das categorias é possível alterar o plano de fundo da área de trabalho?",
+        "alternativas": [
+            "Sistema.",
+            "Contas.",
+            "Dispositivos.",
+            "Aplicativos.",
+            "Personalização."
+        ],
+        "gabarito": "Personalização."
+    },
+    {
+        "id": 82,
+        "enunciado": "Marcelo possui dentro da prefeitura um ambiente com Windows Server 2016 e 150 estações de trabalho, contendo o sistema operacional Microsoft Windows 7. Para realizar um rollout de forma automatizada e formatar todas as estações para o Microsoft Windows 10, utilizando a rede, Marcelo deve criar uma ISO do sistema operacional, acessar o Server Manager e utilizar o serviço",
+        "alternativas": [
+            "SSO (Sign-On único).",
+            "PXE (Preboot eXecution Environment).",
+            "Windows Server Evaluation.",
+            "WDS (Windows Deployment Services)."
+        ],
+        "gabarito": "WDS (Windows Deployment Services)."
+    },
+    {
+        "id": 83,
+        "enunciado": "O sistema operacional Windows 10 possui o Gerenciador de Tarefas, o qual permite, em tempo real, por exemplo,",
+        "alternativas": [
+            "alterar as configurações de segurança e de manutenção do computador.",
+            "atualizar o driver de um dispositivo do computador.",
+            "executar a limpeza de um disco selecionado.",
+            "fazer alterações no Registro do Windows 10.",
+            "visualizar o desempenho do computador, como o uso da CPU, da memória, do disco e da rede."
+        ],
+        "gabarito": "visualizar o desempenho do computador, como o uso da CPU, da memória, do disco e da rede."
+    },
+    {
+        "id": 84,
+        "enunciado": "As características da Barra de Tarefas do sistema operacional Windows 10 podem ser configuradas por meio das Configurações do Windows. Uma das características que pode ser configurada é:",
+        "alternativas": [
+            "abrir a Barra de Tarefas mediante o fornecimento de uma senha.",
+            "eliminar permanentemente a Barra de Tarefas.",
+            "tornar a Barra de Tarefas piscante.",
+            "tornar a Barra de Tarefas um ícone na Área de Trabalho.",
+            "usar botões pequenos na Barra de Tarefas."
+        ],
+        "gabarito": "usar botões pequenos na Barra de Tarefas."
+    },
+    {
+        "id": 85,
+        "enunciado": "O sistema operacional Windows 10 permite várias opções de recuperação do computador, como a opção Restaurar o PC, que",
+        "alternativas": [
+            "desinstala os programas do computador que não estiverem respondendo corretamente ou que não são executados há mais de um ano e reinicia o computador apenas com o Windows 10.",
+            "inicializa o computador a partir de um outro dispositivo em vez do disco rígido (como uma unidade USB ou de DVD).",
+            "permite voltar à versão anterior do Windows 10 que operava antes da última atualização, desde que essa tenha sido realizada em um prazo de até um ano.",
+            "pode ser empregada se o computador não estiver funcionando bem, permitindo que o usuário do computador escolha entre manter ou remover arquivos pessoais e, em seguida, reinstalar o Windows.",
+            "recupera a instalação do sistema operacional Windows 10 no computador a partir de uma versão confiável desse sistema armazenada na nuvem, em um site da Microsoft."
+        ],
+        "gabarito": "pode ser empregada se o computador não estiver funcionando bem, permitindo que o usuário do computador escolha entre manter ou remover arquivos pessoais e, em seguida, reinstalar o Windows."
+    },
+    {
+        "id": 86,
+        "enunciado": "No sistema operacional Windows 10, o UAC (User Account Control) tem por objetivo",
+        "alternativas": [
+            "prover uma interface amigável para cadastrar usuários e senhas no sistema, evitando que essa tarefa precise ser feita pelo prompt de comandos.",
+            "permitir centralizar o cadastro de usuários, senhas e permissões de acesso de uma organização em um servidor Windows Server na rede, evitando que esta configuração precise ser repetida em vários computadores.",
+            "registrar em um arquivo de log todos os logins efetuados no computador, permitindo a realização de auditorias.",
+            "notificar por e-mail o administrador da rede quando ocorrer uma tentativa de login mal sucedida.",
+            "limitar os privilégios de uma aplicação para os privilégios de usuário padrão até que um administrador autorize a elevação, se necessário."
+        ],
+        "gabarito": "limitar os privilégios de uma aplicação para os privilégios de usuário padrão até que um administrador autorize a elevação, se necessário."
+    },
+    {
+        "id": 87,
+        "enunciado": "Quando se apaga um arquivo no sistema operacional Windows (por exemplo, o Windows da forma mais tradicional, os arquivos deletados do microcomputador do tipo IBM-PC acabam indo para a lixeira, a menos que se utilize teclas de atalho específicas. Assinale a alternativa que apresenta as teclas de atalho utilizadas para que se exclua um arquivo previamente selecionado, do disco rígido, sem que ele vá para a lixeira.",
+        "alternativas": [
+            "Alt + Delete.",
+            "AltGr + Delete.",
+            "Ctrl + Delete.",
+            "Fn + Delete.",
+            "Shift + Delete."
+        ],
+        "gabarito": "Shift + Delete."
+    },
+    {
+        "id": 88,
+        "enunciado": "O ponteiro do mouse pode ser personalizado no sistema operacional Windows 10 para a sua melhor visualização selecionando-se, na sequência: Iniciar, Configurações, Facilidade de Acesso e Ponteiro do mouse. Assinale a alternativa que contém a afirmação correta sobre as personalizações que são permitidas.",
+        "alternativas": [
+            "A seta pode ter diversas orientações: inclinada para a esquerda, inclinada para a direita, apontando para cima ou apontando para baixo.",
+            "Uma das opções que pode ser habilitada é “Mostrar comentários visuais ao redor dos pontos de toque ao tocar a tela”.",
+            "É permitida a escolha de apenas uma dentre as seguintes cores para o ponteiro: branca, preta ou vermelha.",
+            "Pode-se selecionar para que o ponteiro seja estático ou piscante, sendo que, nesta segunda opção, pode-se ajustar o intervalo de piscagem.",
+            "São três as opções de tamanho de ponteiro que podem ser escolhidas: pequeno, médio e grande."
+        ],
+        "gabarito": "Uma das opções que pode ser habilitada é “Mostrar comentários visuais ao redor dos pontos de toque ao tocar a tela”."
+    },
+    {
+        "id": 89,
+        "enunciado": "No sistema operacional Windows 10, o local da Barra de Tarefas pode ser configurado para não ficar somente na parte inferior da tela. Ela pode ser deslocada apenas para",
+        "alternativas": [
+            "a parte superior da tela.",
+            "a parte superior da tela, ou para a parte central da tela.",
+            "a parte superior da tela, ou para o lado direito da tela, ou para o lado esquerdo da tela.",
+            "a parte superior da tela, ou para o lado direito da tela, ou para o lado esquerdo da tela ou para a parte central da tela.",
+            "o lado direito da tela, ou para o lado esquerdo da tela."
+        ],
+        "gabarito": "a parte superior da tela, ou para o lado direito da tela, ou para o lado esquerdo da tela."
+    },
+    {
+        "id": 90,
+        "enunciado": "Analise as assertivas abaixo sobre o Agendador de Tarefas do Microsoft Windows 10, em sua configuração padrão e versão em português:\nI. Permite configurar uma tarefa para executar um programa diariamente em um mesmo horário.\nII. Proporciona criar ou gerenciar tarefas em um computador remoto.\nIII. Possibilita agendar a execução de um script uma única vez ao efetuar o próximo logon no computador.\nQuais estão corretas?",
+        "alternativas": [
+            "Apenas I.",
+            "Apenas III.",
+            "Apenas I e II.",
+            "Apenas II e III.",
+            "I, II e III."
+        ],
+        "gabarito": "Apenas I e II."
+    },
+    {
+        "id": 91,
+        "enunciado": "No Windows 10, depois de um tempo de uso, o computador começa a apresentar lentidão devido à instalação e desinstalação de diversos softwares e usos do dia a dia. Uma solução para melhorar o desempenho do computador é otimizar as unidades de disco, isso faz com que o computador possa funcionar melhor e iniciar mais rapidamente. O Windows possui uma ferramenta nativa para essa tarefa denominada",
+        "alternativas": [
+            "Limpeza de Disco.",
+            "Backup.",
+            "Antivírus.",
+            "Windows Defender.",
+            "Desfragmentador de Disco."
+        ],
+        "gabarito": "Desfragmentador de Disco."
+    },
+    {
+        "id": 92,
+        "enunciado": "Acerca da configuração e do gerenciamento dos sistemas Linux e Windows, julgue o seguinte item.\nNo Windows, o comando ipconfig é utilizado para exibir e configurar informações relacionadas à rede.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 93,
+        "enunciado": "No que se refere ao Microsoft PowerShell, julgue o item a seguir.\nAo ser executado o comando PowerShell a seguir, serão reiniciados os serviços cujo nome de exibição começa com sql, exceto o serviço SQL Server Agent.\nRestart-Service -DisplayName “sql*” -Exclude “SQL Server Agent”",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 94,
+        "enunciado": "Julgue o item seguinte, relativo a virtualização e orquestração de infraestrutura.\nO comando Hyper-V a seguir será executado diretamente se a sessão remota do servidor remoto já estiver ativa.\nInvoke-Command -ScriptBlock { Install-WindowsFeature -Name Hyper-V - IncludeManagementTools -Restart }",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 95,
+        "enunciado": "No PowerShell, os comandos compilados são conhecidos como cmdlets. Qual das alternativas abaixo apresenta somente cmdlets utilizados para descobrir e entender comandos no PowerShell?",
+        "alternativas": [
+            "Get-Content e Get-Verb.",
+            "Get-Command e Get-Help.",
+            "Get-Help e Get-Verb.",
+            "Get-Command e Get-Content."
+        ],
+        "gabarito": "Get-Command e Get-Help."
+    },
+    {
+        "id": 96,
+        "enunciado": "Considere o seguinte comando PowerShell que será executado em um ambiente Microsoft Windows Server, com as devidas permissões, em condições ideais.\nGet-WsusClassification | Where-Object -FilterScript {$_.Classification.Title -Eq \"Drivers\"} | Set-WsusClassification -Disable Esse comando configura o WSUS (Windows Server Update Services) para",
+        "alternativas": [
+            "remover todas as atualizações de drivers já baixadas no WSUS, liberando espaço em disco e impedindo futuras sincronizações desses pacotes.",
+            "aplicar automaticamente atualizações de drivers apenas para dispositivos que já possuem versões anteriores instaladas.",
+            "ativar a sincronização de atualizações de drivers, garantindo que drivers de dispositivos sejam distribuídos para os clientes automaticamente.",
+            "excluir permanentemente a categoria de atualizações de drivers do WSUS, impedindo qualquer possibilidade de ativação futura sem reinstalar o serviço.",
+            "desabilitar as atualizações de drivers, de forma que novos drivers não sejam baixados e distribuídos pelo WSUS, mas sem afetar outras categorias de atualizações."
+        ],
+        "gabarito": "desabilitar as atualizações de drivers, de forma que novos drivers não sejam baixados e distribuídos pelo WSUS, mas sem afetar outras categorias de atualizações."
+    },
+    {
+        "id": 97,
+        "enunciado": "Julgue o item subsequente, a respeito de ambientes virtualizados, computação em nuvem, Active Directory, autenticação Radius, Nagios e SMTP.\nÀ execução do comando a seguir no Windows PowerShell, é criada uma conta de usuário User1 e, por padrão, concedida a associação ao grupo usuários do domínio.\nAdd-ADPrincipalGroupMembership -Identity “CN=User1,CN=Users,DC=corp,DC=contoso,DC=com” - MemberOf “CN=Enterprise Admins,CN=Users,DC=corp,DC=contoso,DC=com”,” CN=Domain Admins,CN=Users,DC=corp,DC=contoso,DC=com”",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 98,
+        "enunciado": "Um técnico em informática está verificando os processos que estão consumindo muitos recursos do sistema operacional Windows a fim de identificar aplicativos que possam estar travando ou operando de forma suspeita. Para isso, ele decide utilizar o PowerShell, que permite listar, filtrar e manipular os processos em tempo real. Qual comando do PowerShell deve ser utilizado nessa situação?",
+        "alternativas": [
+            "List-Process.",
+            "Process-Viewer.",
+            "Show-Tasks.",
+            "Get-Process.",
+            "Run-Processes."
+        ],
+        "gabarito": "Get-Process."
+    },
+    {
+        "id": 99,
+        "enunciado": "Ao gerenciar usuários no Windows através do prompt de comando ou PowerShell, qual comando é comumente utilizado para adicionar um novo usuário ao sistema?",
+        "alternativas": [
+            "useradd.",
+            "adduser.",
+            "new-user.",
+            "net user [username] /add.",
+            "mkuser."
+        ],
+        "gabarito": "net user [username] /add."
+    },
+    {
+        "id": 100,
+        "enunciado": "Um administrador de um sistema operacional Windows Server precisa escrever um script em Powershell para verificar se as pastas Contatos, Desktop, Documentos e Download existem ou não na pasta onde o script será executado.\nUm script em Powershell que atende essa especificação é o",
+        "alternativas": [
+            "$folder_list = \"Contatos\", \"Desktop\", \"Documentos\", \"Download\" $folder_list | ForEach-Object { $folder = $_ if (Test-Path $folder) { echo \"$folder existe.\" } else { echo \"$folder nao existe.\" } }.",
+            "$folder_list = \"Contatos\", \"Desktop\", \"Documentos\", \"Download\" $folder_list | ForEach-Object { $folder = $* if (Test-Path $folder) { echo \"$folder existe.\" } else { echo \"$folder nao existe.\" } }.",
+            "$folder_list = \"Contatos\", \"Desktop\", \"Documentos\", \"Download\" $folder_list | ForEach-Object { $folder = $@ if (Test-Path $folder) { echo \"$folder existe.\" } else { echo \"$folder nao existe.\" } }.",
+            "$folder_list = \"Contatos\", \"Desktop\", \"Documentos\", \"Download\" $folder_list | ForEach-Object { $folder = $Object if (Test-Folder $folder) { echo \"$folder existe.\" } else { echo \"$folder nao existe.\" } }.",
+            "$folder_list = \"Contatos\", \"Desktop\", \"Documentos\", \"Download\" $folder_list | ForEach-Object { $folder = $@ if (Test-Folder $folder) { echo \"$folder existe.\" } else { echo \"$folder nao existe.\" } }."
+        ],
+        "gabarito": "$folder_list = \"Contatos\", \"Desktop\", \"Documentos\", \"Download\" $folder_list | ForEach-Object { $folder = $_ if (Test-Path $folder) { echo \"$folder existe.\" } else { echo \"$folder nao existe.\" } }."
+    },
+    {
+        "id": 101,
+        "enunciado": "Na versão 7.4 do Windows PowerShell, o nome binário do PowerShell foi alterado para",
+        "alternativas": [
+            "newpowershell.exe.",
+            "powershell.exe.",
+            "powers.exe.",
+            "pwrsh.exe.",
+            "pwsh.exe."
+        ],
+        "gabarito": "pwsh.exe."
+    },
+    {
+        "id": 102,
+        "enunciado": "powershell -WindowStyle hidden -Command \"& {[System.Reflection.Assembly]::\nLoadWithPartialName('System.Windows.Forms');\n[System.Windows.Forms.MessageBox]::\nShow('Automatic logoff after 1 hour of inactivity','WARNING')}\" O comando powershell precedente, considerando presentes todas as condições para executar a ação, tem a finalidade de",
+        "alternativas": [
+            "publicar um pop-up com uma mensagem na tela do computador do usuário.",
+            "exibir na tela um balão de notificação contendo a mensagem.",
+            "mostrar e retirar todos os arquivos da estação de trabalho com 1 hora de inatividade.",
+            "desligar a estação de trabalho automática após 1 hora inativa."
+        ],
+        "gabarito": "publicar um pop-up com uma mensagem na tela do computador do usuário."
+    },
+    {
+        "id": 103,
+        "enunciado": "S: é uma unidade de rede que deverá ser mapeada. Apex2024 é um compartilhamento de rede e Apex é uma estação de trabalho.\nCom base nas informações precedentes, assinale a opção em que é apresentado corretamente o comando utilizado para mapear a referida unidade de rede.",
+        "alternativas": [
+            "# PowerShell Get - Command RangeClear-Host Get-Command $ Net.MapNetworkDrive [ “S:” –R \\\\Apex2024\\Apex]*.",
+            "# PowerShell Map Network Drive $ Net = $ ( New - Object – ComObject Wscript.Network ) $ Net.MapNetworkDrive( \"S:\", \\\\Apex2024\\Apex ).",
+            "# PowerShell Get - Command RangeClear-HostGet- MapNetworkDriver [ “S:” –R \\\\Apex2024\\Apex]*.",
+            "# PowerShell Get - Command RangeClear-HostGet- Command [ “S:” –R \\\\Apex2024\\Apex]*."
+        ],
+        "gabarito": "# PowerShell Map Network Drive $ Net = $ ( New - Object – ComObject Wscript.Network ) $ Net.MapNetworkDrive( \"S:\", \\\\Apex2024\\Apex )."
+    },
+    {
+        "id": 104,
+        "enunciado": "Em PowerShell, os comandos Get-Member e Get-Process, quando executados, retornam, respectivamente,",
+        "alternativas": [
+            "a listagem de todos os membros que estão vinculados aos processos e a listagem de todos os processos em execução no sistema.",
+            "os grupos aos quais os logins de usuário informados por parâmetro estão relacionados e a listagem de todos os logs de processos em execução no sistema.",
+            "todos os usuários relacionados aos grupos aos quais o usuário pertence e quais objetos, processos e propriedades estão disponíveis para comando.",
+            "quais objetos, propriedades e métodos estão disponíveis para o comando e a listagem de todos os processos em execução no sistema."
+        ],
+        "gabarito": "quais objetos, propriedades e métodos estão disponíveis para o comando e a listagem de todos os processos em execução no sistema."
+    },
+    {
+        "id": 105,
+        "enunciado": "Dado o arquivo meuarquivo.txt, é desejado que ele tenha as seguintes permissões:\n- leitura, escrita e execução para o usuário - apenas leitura e escrita para o grupo - apenas leitura para outros Qual comando deve ser usado no Linux?",
+        "alternativas": [
+            "Sudo chmod 7666 a.txt;",
+            "Sudo chown usuario:usuario a.txt;",
+            "Sudo chown usuario a.txt;",
+            "Sudo chmod 764 a.txt;",
+            "Sudo chmod 464 a.txt."
+        ],
+        "gabarito": "Sudo chmod 764 a.txt;"
+    },
+    {
+        "id": 106,
+        "enunciado": "Maria está trabalhando em um contador de desempenho para sua empresa de forma que ele gere relatórios de desempenho e informe caso se chegue a valores limites. Ela está executando essa atividade a partir de um aplicativo de Serviço Windows que escuta os dados do contador de desempenho, implanta o aplicativo e começa a coleta e a análise de dados. Maria fez uma configuração indicando o que deve acontecer quando o serviço continua o funcionamento normal depois de ter sido colocado em pausa. Para executar essa etapa, Maria fez uso do método:",
+        "alternativas": [
+            "OnContinue;",
+            "OnCustomCommand;",
+            "OnPowerEvent;",
+            "OnPause;",
+            "OnStart."
+        ],
+        "gabarito": "OnContinue;"
+    },
+    {
+        "id": 107,
+        "enunciado": "O seguinte comando foi escrito no terminal de um sistema operacional Linux.\nchmod gu+xr runlog.sh Considerando que originalmente o arquivo runlog.sh não tinha nenhuma permissão habilitada, é correto afirmar que as permissões do arquivo após a execução do comando serão:",
+        "alternativas": [
+            "– – – – – – – – –.",
+            "– – – r – x r – x.",
+            "r – x r – x – – –.",
+            "r – x – – – r – x.",
+            "r – x – – – – – –."
+        ],
+        "gabarito": "r – x r – x – – –."
+    },
+    {
+        "id": 108,
+        "enunciado": "Assinale o comando em Linux que deverá ser utilizado quando for necessário alterar as permissões de um arquivo.",
+        "alternativas": [
+            "ls.",
+            "md.",
+            "chmod.",
+            "sudo."
+        ],
+        "gabarito": "chmod."
+    },
+    {
+        "id": 109,
+        "enunciado": "O PowerShell é uma solução de automação de tarefas multiplataforma que consiste em um shell de linha de comando, em uma linguagem de script e uma estrutura de gerenciamento de configuração. Sobre as características do PowerShell, assinale a afirmativa correta.",
+        "alternativas": [
+            "Não tem histórico de linha de comando.",
+            "Pode ser executado apenas no Sistema Operacional Windows.",
+            "Sistema de ajuda no console semelhante a páginas man UNIX.",
+            "Não tem suporte integrado para formatos de dados como CSV, JSON e XML."
+        ],
+        "gabarito": "Sistema de ajuda no console semelhante a páginas man UNIX."
+    },
+    {
+        "id": 110,
+        "enunciado": "Assinale a alternativa que apresenta uma afirmação correta sobre o Microsoft DISM.",
+        "alternativas": [
+            "A localização do Microsoft DISM é o diretório C:\\ProgramData.",
+            "É necessário estar com uma mídia externa plugada no computador (ex: pendrive), para utilizar o Microsoft DISM.",
+            "Não é possível utilizar o Microsoft DISM no Windows 11.",
+            "Para utilizar o Microsoft DISM no prompt de comando, é necessário executar o prompt como administrador.",
+            "Para habilitar o Microsoft DISM no Windows, é necessário alterar o Editor de Registros (regedit)."
+        ],
+        "gabarito": "Para utilizar o Microsoft DISM no prompt de comando, é necessário executar o prompt como administrador."
+    },
+    {
+        "id": 111,
+        "enunciado": "O seguinte comando do PowerShell do Windows Server 2019 tem por objetivo habilitar o serviço de RDP (Remote Desktop Protocol) no computador.\nTodo o comando deve ser digitado em uma única linha, estando aqui segmentado em múltiplas linhas por limitações de espaço.\nO valor da opção -Path indicado nesse comando representa",
+        "alternativas": [
+            "uma regra no firewall do Windows.",
+            "um arquivo no disco.",
+            "um diretório no disco.",
+            "um diretório compartilhado na rede.",
+            "um diretório na registry do Windows."
+        ],
+        "gabarito": "um diretório na registry do Windows."
+    },
+    {
+        "id": 112,
+        "enunciado": "A analista Fabiana está realizando configurações avançadas em uma estação de trabalho Windows. Em determinado momento, Fabiana precisou listar as variáveis de ambiente em um terminal Powershell. A analista não utilizou nenhum alias ou versão alternativa dos comandos básicos do Powershell.\nPara listar as variáveis de ambiente em um terminal Powershell, Fabiana executou o comando:",
+        "alternativas": [
+            "Set.",
+            "Env.",
+            "Echo $Env.",
+            "Get-ChildItem Env:.",
+            "Get-ChildItem $Env."
+        ],
+        "gabarito": "Get-ChildItem Env:."
+    },
+    {
+        "id": 113,
+        "enunciado": "O analista Russão está trabalhando em um servidor Windows. Ele precisa instalar um pacote de software, usando PowerShell, que não está disponível nos repositórios padrão configurados no sistema. Para completar essa tarefa com sucesso, ele deve utilizar um comando que permita a instalação de um pacote baixado diretamente da Internet, sem adicionar um novo repositório ao sistema.\nPara instalar o pacote diretamente, Russão deve utilizar o comando:",
+        "alternativas": [
+            "Find-Package -Name package;",
+            "Install-Package -Name package;",
+            "Update-Package -Name package;",
+            "Install-Package -Source \"http://example.com/package\";",
+            "Invoke-WebRequest -Uri \"http://example.com/package\" -OutFile \"package.exe\" && Start-Process -FilePath \"package.exe\" -ArgumentList \"/quiet\" -Wait."
+        ],
+        "gabarito": "Invoke-WebRequest -Uri \"http://example.com/package\" -OutFile \"package.exe\" && Start-Process -FilePath \"package.exe\" -ArgumentList \"/quiet\" -Wait."
+    },
+    {
+        "id": 114,
+        "enunciado": "O comando do PowerShell por meio do qual um usuário pode visualizar uma lista completa dos programas e processos em execução, e, ainda, converter posteriormente essa lista para HTML é o",
+        "alternativas": [
+            "Get-Command.",
+            "Get-service.",
+            "Get-Help.",
+            "Get-Process."
+        ],
+        "gabarito": "Get-service."
+    },
+    {
+        "id": 115,
+        "enunciado": "Um Analista está utilizando uma máquina com o sistema operacional Windows 10 instalado e funcionando em condições ideais. Estando no prompt de comandos, com as devidas permissões, utilizou o comando",
+        "alternativas": [
+            "Get-Process --Name Spooler | Stop-Service para exibir informações sobre o Spooler e em seguida pausar serviço de impressão.",
+            "New-Item -Path \"C: Backup” -TypeItem File para criar um novo arquivo chamado Backup no diretório C:\\.",
+            "Set- Process | Stop-Process para exibir todos os processos em execução no sistema e finalizar todos eles.",
+            "Get-Content --Path C\\ Users\\trt20.txt para alterar o conteúdo do arquivo trt20.txt no diretório C:\\Users\\.",
+            "Start-Process Powershell -verb runAs para confirmar e acessar o PowerSheil como Administrador."
+        ],
+        "gabarito": "Start-Process Powershell -verb runAs para confirmar e acessar o PowerSheil como Administrador."
+    },
+    {
+        "id": 116,
+        "enunciado": "O Windows tem dois shells de linha de comando: o shell de comando e o PowerShell. Cada shell é um programa de software que fornece comunicação direta entre o usuário e o sistema operacional ou o aplicativo, fornecendo um ambiente para automatizar operações de TI. Um recurso útil do Windows PowerShell é a padronização da sintaxe ao trabalhar com um conjunto de parâmetros comuns adicionados aos cmdlets pelo runtime PowerShell e que não podem ser declarados pelo cmdlet.\n(Disponível em: https://learn.microsoft.com/pt-br/powershell/ scripting/developer/cmdlet/cmdlet-parameters?view=powershell-7.3. Acesso em: 20/11/2022. Adaptado.) Considerando o conjunto de parâmetros comuns, assinale a afirmativa correta.",
+        "alternativas": [
+            "Confirmar e whatIf são parâmentos de mitigação de risco.",
+            "UseTransaction e ErrorAction são parâmentos comuns gerais.",
+            "WarningAction é um parâmetro comum geral; o WhatIf é de mitigação de risco.",
+            "OutBuffer especifica a variável na qual coloca todos os objetos de saída gerados pelo cmdlet."
+        ],
+        "gabarito": "WarningAction é um parâmetro comum geral; o WhatIf é de mitigação de risco."
+    },
+    {
+        "id": 117,
+        "enunciado": "Considere o script abaixo executado no PowerShell, em condições ideais:\nI $data =......\nII if ($data.DayOfWeek (Get-Date).DayOfWeek) {Write-Output \"O dia armazenado na variável é o mesmo dia da data de hoje\"}......\nPara que a saída seja mostrada corretamente na tela, as lacunas I e II devem ser preenchidas, correta e respectivamente, por:",
+        "alternativas": [
+            "Set-Location e -match.",
+            "timedatectl e -like.",
+            "Get-ChildItem e -eq.",
+            "Get-Time e -like.",
+            "Get-Date e -eq."
+        ],
+        "gabarito": "Get-Date e -eq."
+    },
+    {
+        "id": 118,
+        "enunciado": "Analise o script a seguir escrito em Windows PowerShell Host 01: InitialSessionState iss = initialSessionState.CreateDe-fault();\n02: Runspace rs = RunspaceFactory.CreateRunspace(iss);\n03: rs.Open();\n04: PowerShell ps = PowerShell.Create();\n05: ps.Runspace = rs;\n06: ps.AddCommand(\"Get-Command\");\n07: ps.Invoke();\nEm relação ao script, analise as seguintes afirmativas.\nI. A linha 04 cria um objeto do tipo System.Management.Automation.PowerShell.\nII. A linha 06 importa e executa o script externo \"Get-Command\".\nIII. A linha 02 cria um Runspace personalizado depois de criar um objeto InitialSessionState padrão na linha 01.\nEstá CORRETO apenas o que se afirma em:",
+        "alternativas": [
+            "I.",
+            "I e II.",
+            "I e III.",
+            "II e III."
+        ],
+        "gabarito": "I e III."
+    },
+    {
+        "id": 119,
+        "enunciado": "O comando do Windows PowerShell para desabilitar um usuário local com o nome Administrador é:",
+        "alternativas": [
+            "Disable -LocalUser \"Administrador\".",
+            "Disable-LocalUser = \"Administrador\".",
+            "Disable-LocalUser -Name \"Administrador\".",
+            "Disable-LocalUser -Name(Administrador)."
+        ],
+        "gabarito": "Disable-LocalUser -Name \"Administrador\"."
+    },
+    {
+        "id": 120,
+        "enunciado": "O comando de prompt abaixo foi executado no Windows PowerShell versão 5.1:\nipconfig /renew Considerando que todos os adaptadores de rede do sistema operacional foram configurados para obter um endereço IP automaticamente, qual o resultado esperado após a execução do comando?",
+        "alternativas": [
+            "Exibirá a configuração TCP/IP básica do adaptador principal.",
+            "Abrirá o aplicativo de configuração manual do DHCP.",
+            "Limpará o cache DNS do sistema operacional.",
+            "Renovará a configuração do DHCP de todos os adaptadores.",
+            "Desativará o TCP/IP de todos os adaptadores."
+        ],
+        "gabarito": "Renovará a configuração do DHCP de todos os adaptadores."
+    },
+    {
+        "id": 121,
+        "enunciado": "Em todo primeiro programa que se escreve, imprime-se a clássica mensagem “Hello World” para testar comandos básicos. Analise as assertivas abaixo, assinalando V, se verdadeiras, ou F, se falsas, em relação aos códigos que retornarão a mensagem “Hello World” para o usuário no PowerShell.\n( ) Write-host ‘Hello World’\n( ) Write-output ‘Hello World’\n( ) $Var = ‘Hello World’, seguido de Get-variable Var\n( ) Print = ‘Hello World’\n( ) Show(‘Hello World’) A ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+        "alternativas": [
+            "V – V – V – F – F.",
+            "V – V – F – F – V.",
+            "F – F – F – V – F.",
+            "F – V – V – F – V.",
+            "F – F – V – V – V."
+        ],
+        "gabarito": "V – V – V – F – F."
+    },
+    {
+        "id": 122,
+        "enunciado": "Nos sistemas operacionais Windows e distribuições Linux, os usuários interagem diretamente por meio de uma camada que faz a intermediação de comandos e/ou serviços do sistema operacional e o usuário, podendo ser baseada em linha de comandos ou em uma interface gráfica com ícones, para que os mesmos comandos não precisem ser digitados. Os termos para os quais são conhecidas a camada e as interfaces baseadas em linha de comando ou gráfica em ícones são, respectivamente,",
+        "alternativas": [
+            "Shell, TLI (Text Line Interface) e PUI (Program User Interface).",
+            "Post, TLI (Text Line Interface) e PUI (Program User Interface).",
+            "Bios, CLI (Command Line Interface) e GUI (Guide User Interface).",
+            "Post, CLI (Command Line Interface) e GUI (Guide User Interface).",
+            "Shell, CLI (Command Line Interface) e GUI (Guide User Interface)."
+        ],
+        "gabarito": "Shell, CLI (Command Line Interface) e GUI (Guide User Interface)."
+    },
+    {
+        "id": 123,
+        "enunciado": "Assinale a alternativa que apresenta o comando do Windows utilizado para listar o conteúdo de um diretório.",
+        "alternativas": [
+            "cd.",
+            "ls.",
+            "dir.",
+            "pwd.",
+            "mkdir."
+        ],
+        "gabarito": "dir."
+    },
+    {
+        "id": 124,
+        "enunciado": "Sobre o Power Shell, analise as assertivas abaixo e assinale V, se verdadeiras, ou F, se falsas.\n( ) É uma solução que consiste em um shell de linhas de comandos em uma linguagem de script.\n( ) É uma solução especificamente para Windows.\n( ) Aceita e retorna objetos.NET.\n( ) O XML é o único formato de dados suportado.\nA ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+        "alternativas": [
+            "F – V – F – V.",
+            "V – F – V – F.",
+            "V – V – V – F.",
+            "F – F – F – V.",
+            "V – V – V – V."
+        ],
+        "gabarito": "V – F – V – F."
+    },
+    {
+        "id": 125,
+        "enunciado": "Analise as seguintes asserções e a relação proposta entre elas:\nI. O PowerShell além de possuir comandos internos é uma linguagem de script do tipo dinâmica, em que não é necessário declarar o tipo de variável que será utilizada.\nPORQUE\nII. Por se tratar de uma linguagem de script, o PowerShell suporta o uso de variáveis, constantes, funções, estruturas de verificações como “if-then-else”, estruturas de repetição “while, do, for e foreach”, tratamentos de erros/exceções e interação com Framework.\nA respeito dessas asserções, assinale a alternativa correta.",
+        "alternativas": [
+            "As asserções I e II são proposições verdadeiras, e a II é uma justificativa da I.",
+            "As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa da I.",
+            "A asserção I é uma proposição verdadeira, e a II é uma proposição falsa.",
+            "A asserção I é uma proposição falsa, e a II é uma proposição verdadeira.",
+            "As asserções I e II são proposições falsas."
+        ],
+        "gabarito": "As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa da I."
+    },
+    {
+        "id": 126,
+        "enunciado": "Na linguagem de script Powershell, qual é o comando utilizado para listar os processos em execução no sistema?",
+        "alternativas": [
+            "Get-ChildItem.",
+            "Get-EventLog.",
+            "Get-Process.",
+            "Get-Service.",
+            "Get-Variable."
+        ],
+        "gabarito": "Get-Process."
+    },
+    {
+        "id": 127,
+        "enunciado": "Na linguagem Powershell, o comando Get-Member exibe:",
+        "alternativas": [
+            "Os grupos ao qual o login de usuário informado por parâmetro está relacionado.",
+            "Todos os usuários relacionados aos grupos aos quais o usuário logado pertence.",
+            "Quais objetos, propriedades e métodos estão disponíveis para comandos.",
+            "Uma lista de todos os comandos do sistema.",
+            "Os objetos em grupos com base no valor de uma propriedade especificada."
+        ],
+        "gabarito": "Quais objetos, propriedades e métodos estão disponíveis para comandos."
+    },
+    {
+        "id": 128,
+        "enunciado": "São comandos do Prompt de comandos do Windows 10, EXCETO:",
+        "alternativas": [
+            "sfc.",
+            "Ipconfig.",
+            "cls.",
+            "who.",
+            "netstat."
+        ],
+        "gabarito": "who."
+    },
+    {
+        "id": 129,
+        "enunciado": "O prompt de comando (cmd.exe) no sistema operacional Windows (ou superior) é o meio pelo qual podemos executar tarefas sem o uso da interface gráfica.\nAssinale o comando utilizado para visualizar as configurações de rede.",
+        "alternativas": [
+            "ifconfig.",
+            "netconfig.",
+            "format.",
+            "systeminfo.",
+            "ipconfig."
+        ],
+        "gabarito": "ipconfig."
+    },
+    {
+        "id": 130,
+        "enunciado": "O comando ping 8.8.8.8 -n 1 foi emitido em um prompt de comandos do sistema operacional Windows, tendo sido obtida a seguinte saída (parcial):\nDisparando 8.8.8.8 com 32 bytes de dados:\nResposta de 8.8.8.8: bytes=32 tempo=14ms TTL=58 O tempo, em milissegundos, indicado na segunda linha, corresponde à métrica conhecida como",
+        "alternativas": [
+            "Time to live.",
+            "Round-Trip Time.",
+            "MOS Score.",
+            "Throughput.",
+            "Jitter."
+        ],
+        "gabarito": "Round-Trip Time."
+    },
+    {
+        "id": 131,
+        "enunciado": "Em um computador com MS Windows 10, um usuário, utilizando Power-Shell, acionou o seguinte comando:\nInvoke-Item “C:\\usuario\\usr1\\documentos\\teste.ppt” Ao acionar esse comando, o usuário produz como resultado que o arquivo teste.ppt seja:",
+        "alternativas": [
+            "marcado como lido.",
+            "aberto no Writer do BROffice.",
+            "apagado do diretório indicado.",
+            "aberto no MS PowerPoint do MS Office.",
+            "copiado direto para o diretório raiz do disco C."
+        ],
+        "gabarito": "aberto no MS PowerPoint do MS Office."
+    },
+    {
+        "id": 132,
+        "enunciado": "Como uma linguagem de script, o PowerShell é normalmente usado para automatizar o gerenciamento de sistemas, em ambientes Microsoft Windows. O cmdlet incluído no PowerShell usado para listar todos os cmdlets, funções e aliases instalados no computador é o:",
+        "alternativas": [
+            "Get-Job.",
+            "Get-Command.",
+            "Get-PSHostProcessInfo.",
+            "Get-ExperimentalFeature.",
+            "Get-PSSessionConfiguration."
+        ],
+        "gabarito": "Get-Command."
+    },
+    {
+        "id": 133,
+        "enunciado": "Um administrador identificou um problema na resolução de nomes realizada em um sistema operacional Microsoft Windows 10 e precisa consultar o conteúdo da cache do DNS Resolver. Para executar essa consulta, o administrador deve abrir um terminal de comandos e executar o seguinte comando:",
+        "alternativas": [
+            "ipconfig /displaycache.",
+            "ipconfig /displaydns.",
+            "ipconfig /showcache.",
+            "net display dnscache.",
+            "net view dnscache."
+        ],
+        "gabarito": "ipconfig /displaydns."
+    },
+    {
+        "id": 134,
+        "enunciado": "Assinale a opção que apresenta a sintaxe correta do comando Power Shell que exibe o valor do parâmetro WindowsProductId no Windows 10.",
+        "alternativas": [
+            "Get-ComputerInfo | -filter \"*ProductId*\".",
+            "Get-ComputerInfo | Out-String | include Product.",
+            "Get-ComputerInfo include \"Product\".",
+            "Get-ComputerInfo -Property WindowsProductId.",
+            "Get-ComputerInfo Where-Object \"*WindosProductId*\"."
+        ],
+        "gabarito": "Get-ComputerInfo -Property WindowsProductId."
+    },
+    {
+        "id": 135,
+        "enunciado": "Quando um administrador de uma rede de computadores, baseada no sistema operacional Linux, deseja criar uma nova rota ou exibir as rotas ativas, ele deve utilizar o comando:",
+        "alternativas": [
+            "ethtool.",
+            "netstat.",
+            "route.",
+            "ping."
+        ],
+        "gabarito": "route."
+    },
+    {
+        "id": 136,
+        "enunciado": "Um administrador de uma máquina Linux deseja ativar uma interface de rede do seu computador, de modo que ela fique disponível para transmissão e recepção de dados. O comando associado a essa função é o:",
+        "alternativas": [
+            "ss.",
+            "ifup.",
+            "ping.",
+            "route."
+        ],
+        "gabarito": "ifup."
+    },
+    {
+        "id": 137,
+        "enunciado": "Um administrador de um computador com sistema operacional MS Windows 8.1 digitou no prompt de comando netstat –n. Nesse caso, ele deseja:",
+        "alternativas": [
+            "verificar os dispositivos que estão ligados à rede, apresentando os seus endereços de IP, os serviços ativos em toda rede e quais dispositivos são disponibilizados.",
+            "ativar as rotas de comunicação na rede, direcionando as requisições para os outros dispositivos ativos, que estão disponíveis na LAN.",
+            "verificar as interfaces de rede ativas no computador, mostrando seus endereços de IP e o número das portas associadas.",
+            "alterar a tabela de roteamento para se comunicar com outros dispositivos ou hosts e com seus serviços."
+        ],
+        "gabarito": "verificar as interfaces de rede ativas no computador, mostrando seus endereços de IP e o número das portas associadas."
+    },
+    {
+        "id": 138,
+        "enunciado": "Em um computador com sistema operacional Linux, um administrador deseja verificar quanto de espaço em disco um determinado diretório ocupa. Para esse caso, ele deve digitar o comando:",
+        "alternativas": [
+            "cp.",
+            "du.",
+            "tar.",
+            "more."
+        ],
+        "gabarito": "du."
+    },
+    {
+        "id": 139,
+        "enunciado": "O _____ é uma solução ligada a automação de tarefas multiplataforma (Linux, Windows ou MacOS) que consiste em um shell de linha de comando, em uma linguagem de script e uma estrutura de gerenciamento de configuração Assinale a alternativa que preencha corretamente a lacuna.",
+        "alternativas": [
+            "Powershell.",
+            "Prompts.",
+            "Powerdos.",
+            "ScrShw."
+        ],
+        "gabarito": "Powershell."
+    },
+    {
+        "id": 140,
+        "enunciado": "O Gerenciamento e a Manutenção de Imagens de Implantação (DISM) é uma ferramenta de linha de comando desenvolvida pela Microsoft para sistemas operacionais Windows. Uma das opções globais que esse comando suporta é o /Loglevel, que define o nível máximo de saída apresentado nos logs. O nível 1 determina que serão apresentados",
+        "alternativas": [
+            "somente erros.",
+            "somente avisos.",
+            "somente informativos.",
+            "erros e avisos.",
+            "avisos e informativos."
+        ],
+        "gabarito": "somente erros."
+    },
+    {
+        "id": 141,
+        "enunciado": "Joana está usando o Windows 10 num ambiente corporativo e não sabe se está logada numa máquina física ou virtual.\nO comando da Power Shell que pode prover essa informação é",
+        "alternativas": [
+            "get-command.",
+            "get-vhistory.",
+            "get-installedmodule.",
+            "get-machinev.",
+            "get-wmiobject."
+        ],
+        "gabarito": "get-wmiobject."
+    },
+    {
+        "id": 142,
+        "enunciado": "Você administra um sistema operacional Windows Server 2016 ou superior. Embora seja da equipe de suporte, a sua conta de usuário não possui privilégios administrativos no servidor e você possui a senha do usuário ‘administrador’. Através do Windows PowerShell, qual dos seguintes comandos seria apropriado para você usar a fim de abrir a janela de gerenciamento do servidor com os privilégios de administrador? Obs.: Considere as quebras de linha das alternativas como um espaçamento entre os parâmetros e valores de entrada.",
+        "alternativas": [
+            "runas ServerManager.exe -u administrador.",
+            "runas administrador ServerManager.exe.",
+            "sudo ServerManager.exe.",
+            "run ServerManager.exe as administrador.",
+            "runas /usuário:administrador ServerManager.exe."
+        ],
+        "gabarito": "runas /usuário:administrador ServerManager.exe."
+    },
+    {
+        "id": 143,
+        "enunciado": "Em um arquivo em lotes no Windows (Batch), a inclusão de um sinal de arroba (@) antes de um comando tem a função de",
+        "alternativas": [
+            "identificar a linha para que o fluxo do programa seja desviado por meio da instrução “GOTO”.",
+            "indicar um arquivo externo para ser executado em segundo plano.",
+            "salvar o resultado/saída do comando em uma variável.",
+            "declarar uma variável.",
+            "fazer com que o comando não seja impresso no terminal antes de ser executado."
+        ],
+        "gabarito": "fazer com que o comando não seja impresso no terminal antes de ser executado."
+    },
+    {
+        "id": 144,
+        "enunciado": "No prompt de comandos do Windows 10, um Analista executou o comando shutdown -s -t 300 que",
+        "alternativas": [
+            "reinicia o computador em 3 horas.",
+            "programa o computador para desligar em 5 minutos.",
+            "desliga imediatamente o computador e reinicia após 5 minutos.",
+            "programa o computador para desligar em 300 minutos.",
+            "reinicia o computador imediatamente."
+        ],
+        "gabarito": "programa o computador para desligar em 5 minutos."
+    },
+    {
+        "id": 145,
+        "enunciado": "Assinale a opção que mostra a extensão que contém propriedades e snap-ins registrados usados pelo console atual do PowerShell e que também é utilizada para salvar e carregar configurações específicas do shell.",
+        "alternativas": [
+            ".clixml.",
+            ".psc1.",
+            ".pscs.",
+            ".cdxml."
+        ],
+        "gabarito": ".psc1."
+    },
+    {
+        "id": 146,
+        "enunciado": "Desktop Experience e Server Core são duas das opções de instalações presentes na maioria das edições do Windows Server 2016. Entretanto, há uma terceira opção, que requer um footprint de recursos ainda menor. No entanto, tal opção não aparece no assistente de instalação inicial, uma vez que é implantada posteriormente através do Windows PowerShell. Trata-se de:",
+        "alternativas": [
+            "Nano Server.",
+            "MicroServer.",
+            "Small Server.",
+            "Single Server."
+        ],
+        "gabarito": "Nano Server."
+    },
+    {
+        "id": 147,
+        "enunciado": "No sistema operacional Windows, o comando fc tem por objetivo",
+        "alternativas": [
+            "desfragmentar uma unidade de disco.",
+            "checar o sistema de arquivos de uma determinada unidade, reportando os defeitos encontrados.",
+            "formatar um disco.",
+            "copiar arquivos via rede.",
+            "comparar arquivos, identificando diferenças entre eles."
+        ],
+        "gabarito": "comparar arquivos, identificando diferenças entre eles."
+    },
+    {
+        "id": 148,
+        "enunciado": "O cmdlet do Powershell no Windows 10 capaz de exibir o modelo e o fabricante de uma máquina é o",
+        "alternativas": [
+            "Get-CimInstance - ClassName Win32_QuickFixEngineering -Property HotFixID.",
+            "Get-CimInstance - ClassName Win32_LogonSession.",
+            "Get-CimInstance - ClassName Win32_ComputerSystem.",
+            "Get-CimInstance - ClassName Win32_OperatingSystem | Select-Object - Property BuildNumber, BuildType, OSType, ServicePackMajorVersion, ServicePackMinorVersion.",
+            "Get-CimInstance - ClassName Win32_BIOS."
+        ],
+        "gabarito": "Get-CimInstance - ClassName Win32_ComputerSystem."
+    },
+    {
+        "id": 149,
+        "enunciado": "Quanto aos conceitos sobre Sistemas Operacionais conforme Varella (2, analise as afirmativas a seguir e assinale a alternativa correta.\n(1) O Shell é o responsável por gerenciar os processos e a memória.\n(2) No Kernel é processado tanto as execuções como as interrupções.",
+        "alternativas": [
+            "As afirmativas (1) e (2) são verdadeiras.",
+            "A afirmativa (1) é verdadeira, e a (2) é falsa.",
+            "A afirmativa (2) é verdadeira, e a (1) é falsa.",
+            "As afirmativas (1) e (2) são falsas."
+        ],
+        "gabarito": "A afirmativa (2) é verdadeira, e a (1) é falsa."
+    },
+    {
+        "id": 150,
+        "enunciado": "Analise as afirmativas abaixo sobre o shell terminal bash operando em modo restrito.\n1. Pode-se invocar o bash em modo restrito utilizando bash -r ou bash --restricted.\n2. Não é possível modificar o diretório quando se está no modo restrito.\n3. Não é possível invocar o terminal de modo não restrito quando se está no modo restrito.\nAssinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "É correta apenas a afirmativa 2.",
+            "São corretas apenas as afirmativas 1 e 2.",
+            "São corretas apenas as afirmativas 1 e 3.",
+            "São corretas apenas as afirmativas 2 e 3.",
+            "São corretas as afirmativas 1, 2 e 3."
+        ],
+        "gabarito": "São corretas apenas as afirmativas 1 e 2."
+    },
+    {
+        "id": 151,
+        "enunciado": "Analise as seguintes afirmativas sobre serviços e funcionalidades do sistema operacional Microsoft Windows:\nI – O serviço WSUS tem como objetivo permitir que um conjunto de computadores independentes trabalhem em conjunto para aumentar a disponibili-dade e a escalabilidade por meio de um cluster.\nII – O Windows PowerShell permite que os administradores de sistema automatizem as suas operações do dia a dia por meio de linhas comando.\nIII – O Active Directory usa um armazenamento de dados estruturado como base para uma organização lógica e hierárquica de informações de diretório.\nEstá CORRETO o que se afirma em:",
+        "alternativas": [
+            "I e II, apenas.",
+            "I e III, apenas.",
+            "II, apenas.",
+            "II e III, apenas.",
+            "I, II e III."
+        ],
+        "gabarito": "II e III, apenas."
+    },
+    {
+        "id": 152,
+        "enunciado": "Qual o nome da ferramenta de linha de comando de backup do Windows?",
+        "alternativas": [
+            "backupadmin.",
+            "backup.",
+            "wincopy.",
+            "winbackup.",
+            "wbadmin."
+        ],
+        "gabarito": "wbadmin."
+    },
+    {
+        "id": 153,
+        "enunciado": "A respeito de conceitos de Power Shell, julgue o item subsecutivo.\nConsidere-se o código Power Shell a seguir.\n$x = 30 $y = 10 if($x -eq { if($y -eq { write-host(“X = 30 and Y = 10”) } } A execução do código Power Shell precedente terá o seguinte resultado.\nX = 30 and Y = 10",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 154,
+        "enunciado": "O comando para força encerramento de um processo com ID igual a 6100, por meio do Powershell, é",
+        "alternativas": [
+            "Stop-Process -ID 6100 -Force.",
+            "killall -ID 6100 -Force.",
+            "Pkill-Process -ID 6100 -Force.",
+            "Stp -f ID 6100 stop.",
+            "Stop-force ID 6100."
+        ],
+        "gabarito": "Stop-Process -ID 6100 -Force."
+    },
+    {
+        "id": 155,
+        "enunciado": "No prompt de comando do Windows, qual das opções deve ser executada para que o computador inicie o processo de desligamento em duas horas após a execução do comando?",
+        "alternativas": [
+            "shutdown.",
+            "shutdown -s -t 120.",
+            "shutdown -a -t 7200.",
+            "shutdown -r -t 120.",
+            "shutdown -s -t 7200."
+        ],
+        "gabarito": "shutdown -s -t 7200."
+    },
+    {
+        "id": 156,
+        "enunciado": "No prompt de comando do Windows, qual comando deve ser utilizado para visualizar a versão do Windows em execução?",
+        "alternativas": [
+            "ver.",
+            "version.",
+            "getversion.",
+            "ipconfig.",
+            "--version."
+        ],
+        "gabarito": "ver."
+    },
+    {
+        "id": 157,
+        "enunciado": "PowerShell é uma solução da Microsoft que implementa um ambiente moderno de shell para a automação de tarefas. No Windows 10, a versão padrão do PowerShell é a 5.1, que possui uma série de comandos que podem ser utilizados para auxiliar no gerenciamento do sistema. Um comando que pode ser utilizado no PowerShell 5.1 para apresentar a lista de usuários do sistema é o",
+        "alternativas": [
+            "Get-LocalUser.",
+            "Get-LocalGroup.",
+            "Set-LocalUser.",
+            "Set-LocalGroup.",
+            "Find-User."
+        ],
+        "gabarito": "Get-LocalUser."
+    },
+    {
+        "id": 158,
+        "enunciado": "No sistema operacional Windows Server, o pacote RSAT (Remote Server Administration Tools) instala um módulo relacionado ao Active Directory (AD) no PowerShell. O comando disponibilizado por esse módulo que permite criar uma conta de usuário no AD é:",
+        "alternativas": [
+            "Add-ADUser.",
+            "Insert-ADUser.",
+            "Create-ADUser.",
+            "Get-ADUser.",
+            "New-ADUser."
+        ],
+        "gabarito": "New-ADUser."
+    },
+    {
+        "id": 159,
+        "enunciado": "Analise as afirmativas abaixo sobre o Windows Admin Center.\n1. Permite a aplicação de updates e patches a múltiplos servidores, mesmo remotamente e até em cloud.\n2. Além de possibilitar o gerenciamento de servidores Windows, gerencia também as versões desktop do sistema operacional Windows 10 e Windows 7.\n3. O recurso System Insights possibilita o planejamento das necessidades em termos de capacidade dos servidores Windows Server.\nAssinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "É correta apenas a afirmativa 2.",
+            "São corretas apenas as afirmativas 1 e 2.",
+            "São corretas apenas as afirmativas 1 e 3.",
+            "São corretas apenas as afirmativas 2 e 3.",
+            "São corretas as afirmativas 1, 2 e 3."
+        ],
+        "gabarito": "São corretas apenas as afirmativas 1 e 3."
+    },
+    {
+        "id": 160,
+        "enunciado": "Assinale a alternativa que apresenta o comando que o administrador deve usar para alterar a senha de logon de um usuário no sistema operacional Windows 10, via linha de comando (cmd).",
+        "alternativas": [
+            "alter user.",
+            "pwd user.",
+            "net user.",
+            "useradd.",
+            "adduser."
+        ],
+        "gabarito": "net user."
+    },
+    {
+        "id": 161,
+        "enunciado": "No Windows CSCRIPT, para executar um job de um WSF identificado pelo nome “xpto”, deve-se utilizar o parâmetro",
+        "alternativas": [
+            "/run=xpto.",
+            "/job:xpto.",
+            "/id xpto.",
+            "/e:xpto.",
+            "/name xpto."
+        ],
+        "gabarito": "/job:xpto."
+    },
+    {
+        "id": 162,
+        "enunciado": "O PowerShell é o sistema de script desenvolvido em.NET pela Microsoft e lida com objetos em vez de interfaces de linha de comando.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 163,
+        "enunciado": "O Linux permite o uso de comandos na modalidade prompt. Um determinado comando possibilita a obtenção da quantidade de espaço de disco usado no seu sistema. Outro comando, por sua vez, possibilita criar um novo diretório. Esses comandos são, respectivamente:",
+        "alternativas": [
+            "tar e mkdir.",
+            "df e mkdir.",
+            "tar e grep.",
+            "df e grep."
+        ],
+        "gabarito": "df e mkdir."
+    }
+]

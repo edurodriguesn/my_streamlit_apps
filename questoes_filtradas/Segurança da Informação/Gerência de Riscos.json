@@ -1,0 +1,2138 @@
+[
+    {
+        "id": 1,
+        "enunciado": "Durante a análise de riscos de segurança da informação em um Órgão público, um Analista de Tl é responsável por aplicar os princípios da ABNT NBR ISO/IEC 27005 para definir controles e priorizar ações preventivas. Ao elaborar a matriz de riscos do ambiente de infraestrutura crítica, ele deve assegurar que o processo seja coerente com a metodologia da norma. Nesse contexto, a ação mais alinhada às boas práticas é:",
+        "alternativas": [
+            "Elaborar a matriz de riscos com foco nos eventos que causaram incidentes em períodos anteriores, pois esses representam o histórico mais confiável para priorização de controles.",
+            "Tratar os riscos de maior severidade por meio de penalidades contratuais e garantias financeiras aplicáveis aos fornecedores, antes da implementação de medidas técnicas preventivas.",
+            "Mapear vulnerabilidades técnicas e aplicar controles de segurança genéricos previamente definidos pela política institucional, garantindo uniformidade entre os setores da organização.",
+            "Centralizar a análise de riscos na equipe de segurança da informação, priorizando riscos que tenham maior impacto financeiro sobre o orçamento de Tl.",
+            "Identificar ativos, ameaças, vulnerabilidades e impactos, estimando a probabilidade e as consequências de cada evento, de forma a calcular o nível de risco e subsidiar o tratamento conforme critérios definidos pela organização."
+        ],
+        "gabarito": "Identificar ativos, ameaças, vulnerabilidades e impactos, estimando a probabilidade e as consequências de cada evento, de forma a calcular o nível de risco e subsidiar o tratamento conforme critérios definidos pela organização."
+    },
+    {
+        "id": 2,
+        "enunciado": "Durante uma auditoria de conformidade com a ABNT NBR ISO/IEC 27001:2013 em um hospital, foi identificado que o armazenamento de prontuários na nuvem foi terceirizado, mas não foi realizada uma avaliação formal de riscos nem foram estabelecidas cláusulas contratuais sobre segurança da informação com o provedor. Além disso, nesse processo, os dados estavam sendo transmitidos sem a criptografia adequada.\nDe forma a estar em conformidade com a norma e mitigar os riscos encontrados, o hospital deverá:",
+        "alternativas": [
+            "encerrar imediatamente o contrato com o provedor de nuvem e migrar os dados para servidores locais da organização;",
+            "adotar uma política interna de confidencialidade para os colaboradores e selecionar as opções de tratamento dos riscos de segurança da informação;",
+            "solicitar ao provedor um relatório de conformidade genérico e manter o contrato vigente sem alterações;",
+            "realizar backup local dos dados e manter a operação em nuvem sem alterações contratuais, desde que haja redundância;",
+            "formalizar contrato com o provedor contendo cláusulas de segurança, realizar avaliação de riscos e implementar criptografia nos dados em trânsito e em repouso."
+        ],
+        "gabarito": "formalizar contrato com o provedor contendo cláusulas de segurança, realizar avaliação de riscos e implementar criptografia nos dados em trânsito e em repouso."
+    },
+    {
+        "id": 3,
+        "enunciado": "Uma empresa multinacional está migrando seus sistemas críticos para o ambiente de nuvem. Nesse processo, a equipe de auditoria identificou que os contratos com os provedores do serviço de nuvem não especificavam claramente as responsabilidades sobre a segurança da informação.\nPara que a multinacional fique em conformidade com a norma ABNT NBR ISO/IEC 27002:2013, o controle a ser aplicado para mitigar o risco é:",
+        "alternativas": [
+            "a gestão de continuidade de negócios;",
+            "a política de uso aceitável de recursos de TI;",
+            "o monitoramento contínuo de logs de acesso;",
+            "a implementação de criptografia ponta a ponta nos sistemas internos;",
+            "a gestão de segurança da informação em relacionamentos com fornecedores."
+        ],
+        "gabarito": "a gestão de segurança da informação em relacionamentos com fornecedores."
+    },
+    {
+        "id": 4,
+        "enunciado": "A empresa Delta está desenvolvendo uma aplicação de consultas remotas para atender a um hospital. Após uma reunião com a direção do hospital, surgiu a necessidade de avaliação dos riscos com relação à confidencialidade das informações dos prontuários dos pacientes para que não se tornem públicos.\nA direção aplicará a metodologia da ABNT NBR ISO/IEC 27005:2019 para essa avaliação e, para isso, começará com:",
+        "alternativas": [
+            "a avaliação qualitativa de riscos baseada em impacto e probabilidade;",
+            "a implementação imediata de firewall de perímetro;",
+            "a criação de política de uso de e-mail corporativo;",
+            "a criação de backup diário dos registros médicos;",
+            "a auditoria financeira dos contratos de TI."
+        ],
+        "gabarito": "a avaliação qualitativa de riscos baseada em impacto e probabilidade;"
+    },
+    {
+        "id": 5,
+        "enunciado": "Julgue o item a seguir, a respeito de governança de TI.\nNo âmbito da convergência normativa para a resiliência cibernética, a ISO/IEC 27001 estabelece a obrigatoriedade de controles de continuidade, os quais são detalhados na ISO/IEC 27002 como diretrizes de implementação (como o controle de prontidão da TIC); entretanto, ao alinhar essas normas ao NIST CSF e à ISO 22301, a determinação do ponto de recuperação objetivo (RPO) é definida tecnicamente como o tempo máximo necessário para a restauração da capacidade operacional total de um serviço após a declaração de uma crise, diferenciando-se do tempo de recuperação objetivo (RTO), que foca exclusivamente a integridade dos dados replicados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 6,
+        "enunciado": "Julgue o item a seguir, a respeito de governança de TI.\nDe acordo com o processo de gestão de riscos estabelecido pela norma ISO 31000, a etapa de tratamento de riscos envolve um ciclo iterativo de formulação e seleção de opções para modificar o risco, que pode incluir desde a remoção da fonte do risco até a aceitação do risco residual por meio de uma decisão fundamentada, sendo essencial que essas ações sejam compatíveis com o apetite ao risco da organização conforme preconizado também pelo framework COSO.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 7,
+        "enunciado": "Leia os fragmentos de textos a seguir.\nTEXTO I O Departamento de Segurança da Informação e Comunicações, do Governo Federal do Brasil, estabelece o processo de GRSIC (Gestão de Riscos de Segurança da Informação e Comunicações) nos órgãos ou entidades da Administração Pública Federa. Assim sendo, o processo GRSIC baseia-se no ciclo PDCA (PlanDo-Check-Act / Planejar-Fazer-Verificar-Agir), uma sequência de passos utilizada para controlar qualquer processo definido. O uso dos ciclos pode ser assim relatado: 1 – planejar envolve definir como será feito (quem, o que, quando, onde, como) e as metas e os métodos para atingir o objetivo; 2 – fazer significa tomar a iniciativa, educar, treinar, implementar e executar o planejado conforme as metas e os métodos definidos; 3 – checar consiste em verificar os resultados que estão sendo obtidos e de forma contínua, para garantir a execução dos trabalhos programados; 4 – agir determina fazer as correções necessárias através de ações corretivas ou melhorias.\nFonte: MASCARENHAS NETO, P. T.; ARAÚJO, W. J. Segurança da informação: uma versão sistêmica para a implantação em organizações. João Pessoa: Editora da UFPB, 2019. p. 69-70. (adaptado).\nTEXTO II Fonte: MASCARENHAS NETO, P. T.; ARAÚJO, W. J. Segurança da informação: uma versão sistêmica para a implantação em organizações. João Pessoa: Editora da UFPB, 2019. p. 69-70. (adaptado).\nConsiderando as informações apresentadas no texto bem como as etapas que integram processo de Gestão de Riscos de Segurança da Informação e Comunicações\n(GRSIC), marque a alternativa em que os números estão CORRETAMENTE relacionados às respectivas etapas desse processo, numeradas de 1 a 6, conforme apresentado na imagem (Texto II).",
+        "alternativas": [
+            "1 – Definições preliminares; 2 – Análise/avaliação dos riscos; 3 – Aceitação dos riscos; 4 – Plano de tratamento dos riscos; 5 – Implementação do Plano de Tratamento dos Riscos; 6 – Monitoramento e análise crítica.",
+            "1 – Análise/avaliação dos riscos; 2 – Definições preliminares; 3 – Aceitação dos riscos; 4 – Plano de tratamento dos riscos; 5 – Implementação do Plano de Tratamento dos Riscos; 6 – Monitoramento e análise crítica.",
+            "1 – Definições preliminares; 2 – Análise/avaliação dos riscos; 3 – Plano de tratamento dos riscos; 4 – Monitoramento e análise crítica; 5 – Implementação do Plano de Tratamento dos Riscos; 6 – Aceitação dos riscos.",
+            "1 – Análise/avaliação dos riscos; 2 – Definições preliminares; 3 – Plano de tratamento dos riscos; 4 – Monitoramento e análise crítica; 5 – Implementação do Plano de Tratamento dos Riscos; 6 – Aceitação dos riscos.",
+            "1 – Definições preliminares; 2 – Análise/avaliação dos riscos; 3 – Plano de tratamento dos riscos; 4 – Aceitação dos riscos; 5 – Implementação do Plano de Tratamento dos Riscos; 6 – Monitoramento e análise crítica."
+        ],
+        "gabarito": "1 – Definições preliminares; 2 – Análise/avaliação dos riscos; 3 – Plano de tratamento dos riscos; 4 – Aceitação dos riscos; 5 – Implementação do Plano de Tratamento dos Riscos; 6 – Monitoramento e análise crítica."
+    },
+    {
+        "id": 8,
+        "enunciado": "Leia o fragmento do texto a seguir.\nSegundo Peltier (2, o FRAAP é um processo de análise e avaliação de riscos qualitativos que tem sido utilizado mundialmente durante os últimos quinze anos. É uma metodologia eficiente e disciplinada para garantir que os riscos sejam identificados, examinados e documentados. As conclusões dos participantes do FRAAP sobre a existência de ameaças, o nível de risco e controles necessários são documentadas por meio de seus instrumentos de coleta que serviram para elaborar o plano de ação a ser executado pela organização.\nFonte: MASCARENHAS NETO, P. T.; ARAÚJO, W. J. Segurança da informação: uma versão sistêmica para a implantação em organizações. João Pessoa: Editora da UFPB, 2019. p. 62.\nEm relação à abordagem metodológica Facilitated Risk Analysis Process (FRAAP) para a análise e a avaliação de riscos, avalie as asserções a seguir e a relação proposta entre elas.\nI. O FRAAP se caracteriza como um processo estruturado de análise e de avaliação de riscos e que é implementado em três etapas, quais sejam: (1) Pré-FRAAP;\n(2) Sessão FRAAP; e (3) Pós-FRAAP.\nPORQUE\nII. A etapa (1) Pré-FRAAP, é o momento em que os membros do FRAAP analisam e avaliam os riscos e identificam os controles para sua mitigação, a partir de requisitos e de atributos definidos.\nA respeito dessas asserções, assinale a opção CORRETA.",
+        "alternativas": [
+            "As asserções I e II são proposições verdadeiras, e a II é uma justificativa correta da I.",
+            "As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa correta da I.",
+            "A asserção I é uma proposição verdadeira, e a II é uma proposição falsa.",
+            "A asserção I é uma proposição falsa, e a II é uma proposição verdadeira.",
+            "As asserções I e II são proposições falsas."
+        ],
+        "gabarito": "A asserção I é uma proposição verdadeira, e a II é uma proposição falsa."
+    },
+    {
+        "id": 9,
+        "enunciado": "No contexto da segurança da informação, é correto afirmar que a principal razão para o crescimento constante dos investimentos nessa área está relacionada",
+        "alternativas": [
+            "à diminuição do número de usuários de sistemas computacionais.",
+            "ao aumento da quantidade e da diversidade de ataques explorando vulnerabilidades.",
+            "à necessidade de substituir softwares antigos por novos.",
+            "à exigência exclusiva de órgãos reguladores.",
+            "ao crescimento do uso de dispositivos móveis."
+        ],
+        "gabarito": "ao aumento da quantidade e da diversidade de ataques explorando vulnerabilidades."
+    },
+    {
+        "id": 10,
+        "enunciado": "Certa empresa de tecnologia que presta serviços em nuvem identificou que a indisponibilidade de um de seus data centers por falha elétrica causaria paralisação de operações críticas por mais de 24 horas, o que comprometeria acordos de nível de serviço e resultaria em perdas financeiras significativas. Durante o processo de gestão de riscos de segurança da informação, conduzido conforme as principais normas internacionais, concluiu-se que o risco residual associado à indisponibilidade ainda é superior ao apetite de risco estabelecido pela organização.\nConsiderando as práticas recomendadas pelas principais normas internacionais, assinale a opção que apresenta ação adequada a ser adotada pela organização no cenário apresentado na situação hipotética precedente.",
+        "alternativas": [
+            "transferir o risco por meio de seguro, para reduzir o impacto financeiro e eventuais prejuízos, o que, na prática, é o cerne do problema causado pelo risco efetivo de indisponibilidade durante o tempo projetado.",
+            "tratar o risco com medidas adicionais, que podem incluir implementação de novos controles técnicos, administrativos ou físicos destinados a reduzir a probabilidade ou o impacto dos eventos de indisponibilidade.",
+            "reavaliar a probabilidade de ocorrência de indisponibilidade, flexibilizar e propor mais elasticidade aos parâmetros que definem o risco residual e o apetite de risco, equalizando-os em configurações compatíveis com o estado atual da empresa.",
+            "aceitar o risco residual a partir da confiança no plano de continuidade de negócios estabelecido, o qual absorverá o impacto de eventual indisponibilidade e anulará o nível de risco indicado como acima do apetite definido.",
+            "registrar formalmente o risco, sem tomar outras ações complementares, dada a possibilidade de redirecionar os serviços afetados pela indisponibilidade para outros data centers da empresa após as 24 horas críticas."
+        ],
+        "gabarito": "tratar o risco com medidas adicionais, que podem incluir implementação de novos controles técnicos, administrativos ou físicos destinados a reduzir a probabilidade ou o impacto dos eventos de indisponibilidade."
+    },
+    {
+        "id": 11,
+        "enunciado": "A alta administração de um órgão público determinou que o risco de vazamento de dados de um novo sistema deve ser reduzido a um nível aceitável, mas que ainda assim permitirá a continuidade da operação. Após a avaliação, o risco residual foi considerado alto, exigindo a implementação de novos controles.\nO tratamento de risco decidido pela alta administração do órgão é",
+        "alternativas": [
+            "Aceitar o Risco.",
+            "Reter o Risco.",
+            "Evitar o Risco.",
+            "Compartilhar o Risco.",
+            "Modificar o Risco."
+        ],
+        "gabarito": "Modificar o Risco."
+    },
+    {
+        "id": 12,
+        "enunciado": "Ao realizar uma análise de riscos, um analista identificou que a vulnerabilidade de Cross-Site Scripting em um portal de serviços tem uma probabilidade de ocorrência classificada como média e um impacto potencial classificado como Alto. A organização utiliza uma matriz de riscos 5X5 (Muito Baixa, Baixa, Média, Alta, Muito Alta). Para tratar este risco, foi implementado um WAF, que reduz a probabilidade de exploração de Média para Baixa.\nConsiderando a abordagem da ISO/IEC 27005, o termo técnico para o risco após a implementação do WAF e antes da decisão final de aceitação ou tratamento adicional é",
+        "alternativas": [
+            "Risco Inerente.",
+            "Risco Bruto.",
+            "Risco Aceitável.",
+            "Risco Residual.",
+            "Risco Mitigado."
+        ],
+        "gabarito": "Risco Residual."
+    },
+    {
+        "id": 13,
+        "enunciado": "Uma área do Poder Judiciário decide migrar um sistema eletrônico para um ambiente de nuvem. A equipe de segurança da informação é encarregada de garantir a proteção dos dados sensíveis. Ao analisar as responsabilidades e os desafios de segurança em nuvem, um analista precisa identificar a abordagem correta para mitigar riscos, considerando o modelo de responsabilidade compartilhada, e afirma que a estratégia de segurança alinhada a esse modelo é aquela em que",
+        "alternativas": [
+            "o modelo de responsabilidade compartilhada não se aplica a órgãos do Poder Judiciário devido à natureza sensível dos dados, exigindo que toda a segurança seja gerenciada internamente.",
+            "a responsabilidade pela segurança na nuvem é compartilhada, onde o provedor de nuvem (como a AWS ou Azure) garante a segurança da nuvem (da infraestrutura física, hardware e datacenters), enquanto o órgão público é responsável pela segurança na nuvem (dos dados, sistemas operacionais, acessos e configurações).",
+            "o provedor de nuvem assume toda a responsabilidade pela segurança, sendo desnecessário que o Tribunal implemente qualquer controle adicional de proteção de dados.",
+            "a segurança na nuvem é de responsabilidade exclusiva do órgão público, cabendo a ele proteger tanto a infraestrutura física quanto os dados armazenados na plataforma.",
+            "a criptografia de dados em trânsito e em repouso é de responsabilidade total do provedor de nuvem, não sendo uma preocupação para o órgão público."
+        ],
+        "gabarito": "a responsabilidade pela segurança na nuvem é compartilhada, onde o provedor de nuvem (como a AWS ou Azure) garante a segurança da nuvem (da infraestrutura física, hardware e datacenters), enquanto o órgão público é responsável pela segurança na nuvem (dos dados, sistemas operacionais, acessos e configurações)."
+    },
+    {
+        "id": 14,
+        "enunciado": "“Os ataques à cadeia de suprimentos são projetados para explorar relações de confiança entre uma organização e partes externas. Esses relacionamentos podem incluir parcerias, relacionamentos com fornecedores ou o uso de software de terceiros. Os atores das ameaças cibernéticas comprometerão uma organização e depois subirão na cadeia de abastecimento, aproveitando estas relações de confiança para obter acesso aos ambientes de outras organizações.” (Fonte: CHECK POINT. O que é um ataque à cadeia de suprimentos?. Cyber Hub. [S.l.], c2026. Disponível em: https://www.checkpoint.com/pt/cyber-hub/threat-prevention/what-is-a-supply-chain- attack/.Acesso em: 28 jan..\nAssinale o item que apresenta uma condição que favorece ataques à cadeia de suprimentos.",
+        "alternativas": [
+            "A propagação dos requisitos de segurança da organização e seus fornecedores.",
+            "A equiparação das práticas de segurança adotadas pela organização e seus fornecedores.",
+            "O compartilhamento de informações sobre os serviços contratados e a segurança dos mesmos.",
+            "A ausência de disposições relevantes para a subcontratação, incluindo os controles que precisam ser implementados, como acordo sobre o uso de subfornecedores."
+        ],
+        "gabarito": "A ausência de disposições relevantes para a subcontratação, incluindo os controles que precisam ser implementados, como acordo sobre o uso de subfornecedores."
+    },
+    {
+        "id": 15,
+        "enunciado": "Para uma organização, suas informações são consideradas um ativo que possui valor e portanto, requer níveis de proteção adequados. Além disso, essas informações e demais ativos associados estão sujeitos a diversas fontes de ameaças, sejam estas naturais, acidentais ou deliberadas. Convém que a seleção de contramedidas para tais ameaças esteja apoiada em uma avaliação de riscos adequada ao cenário organizacional. Assinale o item que define risco no contexto de Segurança da Informação.",
+        "alternativas": [
+            "Potencial de que as ameaças explorem vulnerabilidades de um ativo de informação ou grupo de ativos de informação e, assim, causem danos a uma organização.",
+            "Um único ou uma série de eventos indesejados ou inesperados que têm uma probabilidade significativa de comprometer as operações do negócio.",
+            "Fraqueza de um ativo ou controle que pode ser explorada e então pode ocorrer um evento com uma consequência negativa.",
+            "Causa potencial de um incidente de segurança da informação que pode resultar em danos a um sistema ou prejuízos a uma organização."
+        ],
+        "gabarito": "Potencial de que as ameaças explorem vulnerabilidades de um ativo de informação ou grupo de ativos de informação e, assim, causem danos a uma organização."
+    },
+    {
+        "id": 16,
+        "enunciado": "“PF deflagra a Operação Decrypt contra organização criminosa especializada em ataques cibernéticos — [...] A investigação tem como objetivo esclarecer a participação de um cidadão brasileiro em uma organização criminosa transnacional especializada em ataques cibernéticos do tipo ransomware — modalidade em que sistemas são invadidos, os dados são criptografados e, em seguida, é exigido o pagamento de resgate, geralmente em criptomoedas, para a liberação das informações.\n[...]” (Fonte: COORDENAÇÃO-GERAL DE COMUNICAÇÃO SOCIAL DA POLÍCIA FEDERAL. PF deflagra a Operação Decrypt contra organização criminosa especializada em ataques cibernéticos. [S.l.], 2025. Disponível em: https://www.gov.br/pf/pt-br/assuntos/noticias/2025/10/pf-deflagra-operacao-contra-grupo-internacional-de-crimes- ciberneticos. Acesso em: 03 fev..\nConsiderando o cenário descrito no enunciado, o ataque do tipo ransomware pode ser avaliado como uma ameaça:",
+        "alternativas": [
+            "crítica, levando ao comprometimento de funções ou serviços.",
+            "decorrente do acesso não autorizado a informações sensíveis.",
+            "operacional resultante de deficiência nos controles preventivos.",
+            "associada à exploração de vulnerabilidades técnicas em ativos de informação."
+        ],
+        "gabarito": "crítica, levando ao comprometimento de funções ou serviços."
+    },
+    {
+        "id": 17,
+        "enunciado": "Durante uma auditoria de segurança, o Analista de Sistemas identificou que alguns servidores tentaram executar softwares não autorizados nas estações de trabalho utilizadas para manipulação de dados financeiros e informações estratégicas. Essa prática representa risco de instalação de malwares, vazamento de informações sigilosas e comprometimento de sistemas críticos. Considerando as boas práticas da ISO/IEC 27002, qual medida seria a MAIS ADEQUADA para impedir que programas não autorizados sejam executados nesse ambiente?",
+        "alternativas": [
+            "Wireless.",
+            "Sniffer.",
+            "Logging.",
+            "Sign On.",
+            "Whitelisting."
+        ],
+        "gabarito": "Whitelisting."
+    },
+    {
+        "id": 18,
+        "enunciado": "Durante uma auditoria técnica semestral, uma equipe de TI do CREFITO‑17 identificou a necessidade urgente de aprimorar as defesas contra ataques cibernéticos modernos, de reestruturar as rotinas de backup do banco de dados relacional e de alinhar as práticas de gestão de segurança do Conselho às diretrizes das normas da família ISO 27000.\nCom base nessa situação hipotética, julgue o item a seguir, acerca das principais ameaças cibernéticas e dos processos de continuidade de negócios e normatização.\nA existência de correção pública disponibilizada pelo fabricante para determinada falha tende a afastar a sua caracterização como vulnerabilidade zero‑day, mesmo que a atualização ainda não tenha sido aplicada pelo administrador do sistema.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 19,
+        "enunciado": "De acordo com a ABNT NBR ISO/IEC 27001:2022, ao planejar o sistema de gestão da segurança da informação (SGSI) a organização deve",
+        "alternativas": [
+            "fazer apenas o levantamento de riscos, sem avaliações ou tratamento, pois, no caso de um SGSI, a gestão de riscos é executada assim que o sistema é aprovado pela alta direção.",
+            "manter critérios para avaliação de riscos, mas não de tratamento nem de aceitação de riscos.",
+            "estabelecer critérios de aceitação de riscos para as avaliações de riscos, assim como estabelecer e aplicar processo de tratamento de riscos.",
+            "manter critérios para tratamento de riscos, mas não sobre avaliação de riscos.",
+            "utilizar norma complementar, pois a norma 27001:2022 não sugere ações afetas a riscos na fase de planejamento."
+        ],
+        "gabarito": "estabelecer critérios de aceitação de riscos para as avaliações de riscos, assim como estabelecer e aplicar processo de tratamento de riscos."
+    },
+    {
+        "id": 20,
+        "enunciado": "Com base na norma ABNT NBR ISO/IEC 27005, assinale a opção na qual é corretamente apresentada a atividade de gestão de segurança da informação em que, a partir de uma lista de riscos com níveis de valores designados, o nível dos riscos é comparado com os critérios de avaliação e de aceitação do risco.",
+        "alternativas": [
+            "monitoramento de riscos.",
+            "identificação de riscos.",
+            "avaliação de riscos.",
+            "tratamento de riscos.",
+            "estimativa de riscos."
+        ],
+        "gabarito": "avaliação de riscos."
+    },
+    {
+        "id": 21,
+        "enunciado": "O IFCE está estruturando um Sistema de Gestão de Segurança da Informação (SGSI) para adequação às normas vigentes. O analista de tecnologia da informação foi designado para apoiar a alta direção na definição do escopo, avaliação de riscos e implementação de controles conforme a ABNT NBR ISO/IEC 27001:2022. Durante a fase de planejamento, identificou-se a necessidade de documentar critérios de avaliação e tratamento de riscos.\nConsiderando os requisitos da ABNT NBR ISO/IEC 27001:2022, é correto afirmar que a ação adequada nesse contexto é",
+        "alternativas": [
+            "implementar todos os controles do Anexo A automaticamente, independentemente da análise de riscos realizada.",
+            "definir os critérios de risco e manter informação documentada sobre o processo de avaliação e tratamento de riscos do SGSI.",
+            "limitar a análise de riscos aos ativos tecnológicos, excluindo pessoas e processos organizacionais.",
+            "delegar integralmente a gestão de riscos ao fornecedor de tecnologia contratado pelo IFCE.",
+            "realizar auditoria externa antes da definição do escopo do SGSI."
+        ],
+        "gabarito": "definir os critérios de risco e manter informação documentada sobre o processo de avaliação e tratamento de riscos do SGSI."
+    },
+    {
+        "id": 22,
+        "enunciado": "No contexto da gerência de riscos em segurança da informação, assinale a alternativa que apresenta corretamente a relação entre ameaça, vulnerabilidade e impacto.",
+        "alternativas": [
+            "Ameaça é a fraqueza de um ativo que pode ser explorada; vulnerabilidade é o agente que causa dano; impacto é a probabilidade de ocorrência do evento.",
+            "Ameaça é o efeito financeiro do incidente; vulnerabilidade é o dano causado; impacto é o agente externo envolvido.",
+            "Ameaça corresponde à probabilidade de ocorrência; vulnerabilidade é o prejuízo gerado; impacto é o mecanismo de ataque utilizado.",
+            "Ameaça é um evento ou agente com potencial de causar dano; vulnerabilidade é uma fragilidade que pode ser explorada por uma ameaça; impacto é a consequência resultante da materialização do risco.",
+            "Ameaça é sinônimo de risco; vulnerabilidade é o controle aplicado; impacto é a medida de prevenção adotada."
+        ],
+        "gabarito": "Ameaça é um evento ou agente com potencial de causar dano; vulnerabilidade é uma fragilidade que pode ser explorada por uma ameaça; impacto é a consequência resultante da materialização do risco."
+    },
+    {
+        "id": 23,
+        "enunciado": "Uma Assembleia Legislativa conduz um processo formal de gestão de riscos conforme a norma ABNT NBR ISO/IEC 27005:2023, na qual foram identificados riscos relacionados à indisponibilidade de sistemas legislativos críticos onde existem controles previamente implementados sem avaliação recente de efetividade. Diante da necessidade de determinar quais controles devem compor o plano de tratamento de riscos, o critério técnico que fundamenta corretamente essa determinação é a",
+        "alternativas": [
+            "definição de controles com base na categorização dos riscos, com menor ênfase nas condições operacionais e organizacionais.",
+            "manutenção de controles alinhados a práticas consolidadas, ainda que não estejam diretamente associados aos riscos priorizados.",
+            "inclusão de controles previamente existentes focando em sua formalização documental e viabilidade de implementação.",
+            "seleção de controles cuja aplicação produza impacto relevante na probabilidade ou nas consequências dos riscos identificados.",
+            "priorização de controles classificados como preventivos, com o objetivo de reduzir a necessidade de monitoramento e resposta operacional."
+        ],
+        "gabarito": "seleção de controles cuja aplicação produza impacto relevante na probabilidade ou nas consequências dos riscos identificados."
+    },
+    {
+        "id": 24,
+        "enunciado": "Uma Assembleia Legislativa implementa um SGSI conforme a norma ABNT NBR ISO/IEC 27001:2024, com múltiplas unidades administrativas conduzindo avaliações de riscos. Diante da necessidade de assegurar aplicação uniforme de critérios, rastreabilidade decisória e comparabilidade direta dos resultados entre ciclos, a prática que atende integralmente aos requisitos normativos de definição e aplicação do processo de avaliação de riscos, de acordo com a seção da norma que trata de riscos e oportunidades, é a",
+        "alternativas": [
+            "revisão periódica dos riscos com base em indicadores institucionais e eventos relevantes para os processos de negócio da organização.",
+            "documentação dos riscos avaliados com registro das decisões adotadas pelas unidades responsáveis.",
+            "definição e aplicação uniforme de critérios de risco, incluindo aceitação e avaliação, garantindo comparabilidade direta dos resultados.",
+            "consolidação dos resultados das avaliações com harmonização posterior conduzida por instância de governança institucional.",
+            "condução das avaliações com adaptação de critérios entre unidades, resultando em variações consistentes nos resultados obtidos."
+        ],
+        "gabarito": "definição e aplicação uniforme de critérios de risco, incluindo aceitação e avaliação, garantindo comparabilidade direta dos resultados."
+    },
+    {
+        "id": 25,
+        "enunciado": "Uma organização mantém um sistema legado crítico, mas com forte dependência de tecnologia obsoleta. Foi identificado um risco relacionado tanto ao comprometimento da segurança quanto à futura indisponibilidade do sistema.\nPara tratar esse risco, foram propostas as seguintes ações:\nP1: migrar as funcionalidades para uma plataforma SaaS moderna, desativando o servidor antigo;\nP2: terceirizar a gestão do legado para um parceiro especializado, com foco em cláusulas de responsabilidade civil em contrato, sem alteração dos controles técnicos ou operacionais do sistema;\nP3: isolar o sistema em uma VLAN sem acesso à internet e exigir VPN com MFA para qualquer acesso; e P4: manter a operação do sistema legado, estabelecendo um fundo de reserva financeira para cobrir eventuais multas e definindo um plano de resposta a incidentes para recuperação manual, em caso de falha catastrófica.\nAssinale a opção que associa corretamente cada proposta a uma estratégia de tratamento de risco.",
+        "alternativas": [
+            "P1: evitar; P2: transferir; P3: mitigar; P4: aceitar.",
+            "P1: evitar; P2: mitigar; P3: mitigar; P4: aceitar.",
+            "P1: mitigar; P2: transferir; P3: mitigar; P4: transferir.",
+            "P1: evitar; P2: transferir; P3: mitigar; P4: transferir.",
+            "P1: mitigar; P2: mitigar; P3: mitigar; P4: aceitar."
+        ],
+        "gabarito": "P1: evitar; P2: transferir; P3: mitigar; P4: aceitar."
+    },
+    {
+        "id": 26,
+        "enunciado": "De acordo com a norma ABNT NBR ISO/IEC 27005, julgue o item, relativos à gestão de riscos e continuidade de negócios.\nNo processo de tratamento de riscos, a decisão organizacional de reter o risco por meio de uma escolha consciente fundamenta-se na constatação de que o nível de risco calculado se encontra dentro dos critérios de aceitação previamente definidos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 27,
+        "enunciado": "De acordo com a norma ABNT NBR ISO/IEC 27005, julgue o item, relativos à gestão de riscos e continuidade de negócios.\nDe acordo com o processo estruturado pela ABNT NBR ISO/IEC 27005, a atividade de avaliação de riscos precede a fase de identificação de riscos, pois é necessário determinar os critérios de aceitação e a matriz de probabilidade e impacto antes de mapear as ameaças reais associadas aos ativos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 28,
+        "enunciado": "De acordo com a NBR ISO/IEC 27005:2023, o processo de avaliação de risco e o tratamento de riscos devem ser atualizados regularmente e fundamentados em mudanças.\nAssinale a opção que indica os dois ciclos de gestão de riscos em que as atualizações podem ser divididas.",
+        "alternativas": [
+            "Organizacional e operacional.",
+            "Organizacional e estratégico.",
+            "Estratégico e operacional.",
+            "Estratégico e tecnológico.",
+            "Estrutural e tecnológico."
+        ],
+        "gabarito": "Estratégico e operacional."
+    },
+    {
+        "id": 29,
+        "enunciado": "Julgue o item a seguir, relativo à certificação digital, à gestão de riscos e ao disposto na Lei n.º 13.709/2018 (Lei Geral de Proteção de Dados Pessoais − LGPD).\nDe acordo com a NBR ISO/IEC 27005, um propósito viável para a gestão de riscos de segurança da informação é definir a execução de políticas e procedimentos, incluindo-se a implementação dos controles selecionados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 30,
+        "enunciado": "A norma ABNT NBR ISO/IEC 27002:2022 fornece diretrizes para a implementação de controles de segurança da informação. Qual das alternativas a seguir descreve corretamente a relação entre vulnerabilidades, impactos e os controles propostos pela norma?",
+        "alternativas": [
+            "Vulnerabilidades são características inerentes aos sistemas de TI que, quando exploradas por ameaças, geram impactos restritos ao ambiente técnico, demandando controles específicos e isolados.",
+            "Vulnerabilidades são fraquezas em ativos organizacionais que podem ser exploradas por ameaças e gerar impactos financeiros, operacionais ou reputacionais, exigindo controles adequados baseados em análise de risco.",
+            "Impactos organizacionais são definidos como perdas financeiras diretas, e a mitigação de vulnerabilidades se dá por controles genéricos, independentemente do tipo de ativo ou do nível de risco identificado.",
+            "Vulnerabilidades e impactos são tratados exclusivamente em relação a ameaças cibernéticas, e os controles propostos na norma se limitam à proteção de dados armazenados e transferidos por meio de criptografia."
+        ],
+        "gabarito": "Vulnerabilidades são fraquezas em ativos organizacionais que podem ser exploradas por ameaças e gerar impactos financeiros, operacionais ou reputacionais, exigindo controles adequados baseados em análise de risco."
+    },
+    {
+        "id": 31,
+        "enunciado": "No gerenciamento de riscos, qual das opções abaixo exemplifica uma estratégia de mitigação de risco?",
+        "alternativas": [
+            "Aceitar o risco e criar um plano para lidar com ele, caso ocorra.",
+            "Ignorar um risco porque ele possui baixa probabilidade de ocorrer.",
+            "Implementar medidas para reduzir a probabilidade ou impacto de um risco.",
+            "Transferir a responsabilidade por um risco a uma terceira parte, como um seguro."
+        ],
+        "gabarito": "Implementar medidas para reduzir a probabilidade ou impacto de um risco."
+    },
+    {
+        "id": 32,
+        "enunciado": "Para a ABNT NBR ISO/IEC 27005:2023, “os riscos de segurança da informação podem estar associados ao potencial de que as ameaças explorem vulnerabilidades de um ativo de informação ou grupo de ativos de informação e, assim, causem danos a uma organização.” Ao optar por não coletar certas informações de indivíduos para que não seja necessário gerenciá-las, armazená-las e transmiti-las em seus sistemas de informação, qual opção de tratamento de risco está sendo selecionada pela organização?",
+        "alternativas": [
+            "Evitar riscos.",
+            "Retenção de riscos.",
+            "Modificação de riscos.",
+            "Compartilhamento de riscos."
+        ],
+        "gabarito": "Evitar riscos."
+    },
+    {
+        "id": 33,
+        "enunciado": "De acordo com a ABNT NBR ISO/IEC 27005:2023, “a utilidade de categorizar controles como preventivos, detectivos e corretivos reside em seu uso, para assegurar que a construção de planos de tratamento de riscos sejam resilientes a falhas nos controles.” Considerando uma seleção apropriada de controles preventivos, detectivos e corretivos, assinale a alternativa correta.",
+        "alternativas": [
+            "Convém que os controles corretivos reduzam a probabilidade de que os controles detectivos tenham que ser usados.",
+            "Convém que os controles preventivos reduzam a probabilidade de que os controles corretivos tenham que ser usados.",
+            "Convém que os controles detectivos mitiguem o risco se os controles corretivos falharem.",
+            "Convém que os controles preventivos mitiguem o risco se os controles detectivos falharem."
+        ],
+        "gabarito": "Convém que os controles preventivos reduzam a probabilidade de que os controles corretivos tenham que ser usados."
+    },
+    {
+        "id": 34,
+        "enunciado": "Julgue o item a seguir, acerca de conceitos, políticas e gestão de riscos relacionados à segurança da informação.\nConforme a ABNT NBR ISO/IEC 27005, na avaliação de probabilidade de análise de riscos de segurança da informação, a fonte de incerteza de avaliação sistêmica é aquela que deriva do uso de ferramentas que inevitavelmente modelam eventos de forma simples.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 35,
+        "enunciado": "Julgue o próximo item, a respeito de ataques de negação de serviço, controles CIS, gerenciamento de incidentes de segurança da informação e gestão de riscos e continuidade de negócio.\nConsiderando que os riscos, em sua maior parte, são estáticos, o monitoramento permanente de cenários de eventos, valores de ativos, ameaças e vulnerabilidades é desnecessário, podendo ser realizado essencialmente em ciclos periódicos de dois a três anos, conforme o tipo de negócio da organização.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 36,
+        "enunciado": "Análise as afirmativas sobre a gestão de vulnerabilidade no âmbito de segurança da informação.\nI - Um plano de gestão de vulnerabilidades busca reduzir riscos e aumentar a segurança de seus ativos, buscando identificar, priorizar e mitigar vulnerabilidades em sistemas e redes.\nII - Um plano de gestão de vulnerabilidades bem elaborado elimina a necessidade de implantação de firewalls e anti-malwares.\nIII - A gestão de vulnerabilidades deve ser delegada exclusivamente ao time de segurança (dentro da equipe de TI), sem envolver outras áreas da empresa, pois estas podem trazer insegurança.\nQual(is) afirmativa(s) está(ão) correta(s)?",
+        "alternativas": [
+            "Somente as afirmativas II e III.",
+            "Somente a afirmativa I.",
+            "Todas as afirmativas estão corretas.",
+            "Somente as afirmativas I e II.",
+            "Somente as afirmativas I e III."
+        ],
+        "gabarito": "Somente a afirmativa I."
+    },
+    {
+        "id": 37,
+        "enunciado": "Julgue o item a seguir, a respeito de atributos da informação, gestão de riscos em segurança da informação, gestão de segurança da informação, controles de segurança cibernética e privacidade.\nA implementação de um processo de gestão de riscos de segurança da informação conforme as normas ISO 31000, 31010 e 27005 garante que todas as vulnerabilidades de um sistema sejam eliminadas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 38,
+        "enunciado": "A ISO 27001 (2é a norma que define requisitos para a gestão da segurança da informação, sendo que o tratamento de riscos possui um grande destaque. Uma decisão de tratamento de risco dever ser tomada para cada risco identificados após sua avaliação.\nAvalie se são possíveis controles para o tratamento de riscos dispostos na ISO 27001:\nI. mitigar de forma consciente e objetiva os riscos considerados mais baixos, desde que satisfaçam claramente a política de custos e os critérios de aceitação de risco da organização;\nII. evitar riscos, não permitindo ações que possam causar sua ocorrência;\nIII. aplicar os controles adequados para reduzir os riscos, transferir os riscos associados a outras partes, por exemplo, para seguradoras ou fornecedores.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I e III, apenas.",
+            "I e II, apenas.",
+            "II e III, apenas.",
+            "I, II e III.",
+            "II, apenas."
+        ],
+        "gabarito": "II e III, apenas."
+    },
+    {
+        "id": 39,
+        "enunciado": "A analista Juliana deve promover, no MPU, a realização de certas atividades previstas na norma NBR ISO/IEC 27001. Ela deve se certificar de que o MPU realize, de forma periódica, a avaliação de riscos da segurança da informação. A analista deve promover ainda a realização efetiva de auditorias internas, de forma recorrente.\nAs atividades que Juliana deve promover são, de fato, exigidas pela norma, nas seções principais de:",
+        "alternativas": [
+            "Planejamento e Melhoria;",
+            "Planejamento e Operação;",
+            "Operação e Contexto da Organização;",
+            "Avaliação de Desempenho e Melhoria;",
+            "Operação e Avaliação de Desempenho."
+        ],
+        "gabarito": "Operação e Avaliação de Desempenho."
+    },
+    {
+        "id": 40,
+        "enunciado": "Referente às normas de segurança NBR-ISO/IEC 27001, 27002 e 27005, analise as assertivas abaixo, assinalando V, se verdadeiras, ou F, se falsas.\n( ) O padrão 27005 é o mais conhecido do mundo para sistemas de gerenciamento de segurança da informação (ISMS). Ele define os requisitos que um ISMS deve atender.\n( ) O padrão 27002 é um modelo teórico para organizações que buscam proteger efetivamente seus funcionários contra ameaças internas. As empresas podem adotar uma abordagem reativa para o gerenciamento de riscos de segurança.\n( ) O padrão ISO/IEC 27001 fornece às empresas de qualquer tamanho, e de todos os setores de atividade, orientação para estabelecer, implementar, manter e melhorar continuamente um sistema de gerenciamento de segurança da informação.\n( ) O padrão 27002 é um padrão internacional que fornece orientação para organizações que buscam estabelecer, implementar e melhorar um sistema de gestão de segurança da informação (SGSI) focado em segurança cibernética.\nA ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+        "alternativas": [
+            "V – F – F – V.",
+            "F – V – F – V.",
+            "V – F – V – F.",
+            "F – F – V – V.",
+            "V – V – F – F."
+        ],
+        "gabarito": "F – F – V – V."
+    },
+    {
+        "id": 41,
+        "enunciado": "As Normas Brasileiras Relacionadas (NBR) às normas internacionais ISO/IEC possuem um papel relevante na melhoria da gestão de processos, segurança da informação e outros aspectos fundamentais presentes nas organizações de todo mundo. Diante disso, esta NBR ISO/IEC trata da implementação de práticas e processos focados na identificação, avaliação, tratamento e monitoramento de riscos em sistemas de segurança da informação. Desta forma, fala-se da NBR ISO/IEC:",
+        "alternativas": [
+            "27.003:2016.",
+            "27.005:2019.",
+            "27.001:2017.",
+            "27.007:2018."
+        ],
+        "gabarito": "27.005:2019."
+    },
+    {
+        "id": 42,
+        "enunciado": "Etapa da gestão de riscos em que os riscos identificados passam por uma avaliação pormenorizadamente, para compreender sua origem e natureza, probabilidade de ocorrência e impacto potencial, assim como é realizada a priorização dos riscos com base nas consequências do seu impacto e na probabilidade de ocorrência. O texto fala de qual etapa da gestão de riscos?",
+        "alternativas": [
+            "Definição de riscos.",
+            "Monitoramento de riscos.",
+            "Identificação de riscos.",
+            "Análise de riscos."
+        ],
+        "gabarito": "Análise de riscos."
+    },
+    {
+        "id": 43,
+        "enunciado": "Esta etapa da gestão de riscos envolve a definição de uma abordagem estruturada e sistematizada para gerenciar os riscos. Acontece nesta etapa, a determinação dos objetivos, o escopo e os recursos indispensáveis para o processo de gestão de riscos, assim como a definição do processo que será seguido para identificar, avaliar e tratar os riscos, bem como as metodologias e critérios a serem aplicados. O texto fala de qual etapa da gestão de riscos?",
+        "alternativas": [
+            "Caracterização dos riscos.",
+            "Controle dos riscos.",
+            "Gerenciamento dos riscos.",
+            "Planejamento dos riscos."
+        ],
+        "gabarito": "Planejamento dos riscos."
+    },
+    {
+        "id": 44,
+        "enunciado": "Ação adotada na Gestão de Segurança da Informação (GSI) que visa identificar, avaliar e mitigar os riscos relacionados à segurança da informação. Esta ação pode adotar a análise de vulnerabilidades e ameaças internas e externas, buscando evitar problemas previamente para não reverberar em problemas mais graves no futuro.\nQual o nome desta ação adotada na GSI?",
+        "alternativas": [
+            "Análise de Riscos.",
+            "Otimização de acertos.",
+            "Controle de acesso.",
+            "Gestão de riscos."
+        ],
+        "gabarito": "Gestão de riscos."
+    },
+    {
+        "id": 45,
+        "enunciado": "Julgue o item a seguir, relativo a segurança da informação.\nSegundo a NBR ISO 27002:2022, um sistema de gerenciamento de chaves deve ser embasado em um conjunto de padrões e procedimentos acordados no órgão, logo, convém que o processo para gerar, armazenar e distribuir as chaves criptográficas fortes e idênticas para sistemas criptográficos distintos e diferentes aplicações seja unificado pelo órgão.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 46,
+        "enunciado": "Julgue o item a seguir, relativo a segurança da informação.\nConforme o princípio da unificação de regras de segurança corporativa descrito na NBR ISO 27002:2022, convém que o acesso sem fio seja considerado como conexão externa, e que este acesso seja unificado com as redes internas, de modo que sejam utilizadas as mesmas regras no gateway de controles de rede.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 47,
+        "enunciado": "Acerca da gestão de riscos de TIC, julgue o seguinte item.\nA gestão de riscos de TIC deve focar exclusivamente a mitigação de ameaças externas, como ataques cibernéticos e falhas de segurança, sem necessidade de considerar riscos internos, como erros operacionais, falhas de infraestrutura ou problemas de conformidade regulatória.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 48,
+        "enunciado": "Julgue o item subsequente, a respeito de gerenciamento de projetos, governança e gestão de riscos de TIC.\nAs opções de tratamento de riscos de TIC incluem a transferência do risco, que busca compartilhar o risco com terceiros, por meio, por exemplo, de seguros ou terceirização, e a ação de evitar o risco, que consiste em decidir não iniciar ou descontinuar a atividade que origina o risco.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 49,
+        "enunciado": "De acordo com a ISO 27005, um risco pode ser entendido como a combinação das consequências advindas da ocorrência de um evento indesejado e da probabilidade da ocorrência deste. Nesse contexto, há o processo de avalição dos riscos, que quantifica ou descreve o risco qualitativamente e capacita os gestores a priorizar os riscos de acordo com a gravidade percebida. Esse processo de avaliação dos riscos é composto pelas seguintes atividades:",
+        "alternativas": [
+            "identificação dos riscos; impacto dos riscos; tratamento dos riscos.",
+            "probabilidade dos riscos; ocorrência dos riscos; exclusão dos riscos.",
+            "probabilidade dos riscos; análise de riscos; execução dos riscos.",
+            "identificação de riscos; análise de riscos; avaliação de riscos.",
+            "avaliação de riscos; impacto dos riscos; aplicação dos riscos."
+        ],
+        "gabarito": "identificação de riscos; análise de riscos; avaliação de riscos."
+    },
+    {
+        "id": 50,
+        "enunciado": "Durante a definição do Sistema de Gestão da Segurança da lnformação (SGSI), uma organização avalia o cenário externo, riscos e determina que cada unidade de negócio deve identificar seus próprios requisitos legais, normativos e contratuais. Nesse cenário, a prática coerente com o estabelecimento de contexto da gestão de riscos, segundo a norma ABNT NBR ISO/IEC 27005:2023, é",
+        "alternativas": [
+            "definir critérios de aceitação de risco com base prioritária na probabilidade, sem considerar outros fatores.",
+            "atribuir à alta direção a responsabilidade geral pela gestão de todos os riscos identificados.",
+            "estabelecer critérios únicos para todas as unidades da organização, sem distinção.",
+            "considerar apetite ao risco, requisitos das partes interessadas e normas específicas do setor.",
+            "excluir documentos contratuais como fonte de controles."
+        ],
+        "gabarito": "considerar apetite ao risco, requisitos das partes interessadas e normas específicas do setor."
+    },
+    {
+        "id": 51,
+        "enunciado": "Uma Secretaria da Fazenda Estadual identificou, em sua avaliação de riscos, que um ataque ransomware poderia comprometer o sistema de arrecadação tributária por 72 horas. A equipe de TI realizou uma Análise de Impacto no Negócio (BIA) e constatou que o tempo máximo tolerável de interrupção (MTPD) é de 24 horas, com um ponto de recuperação objetivo (RPO) de 4 horas. Diante desse cenário, a abordagem mais moderna e adequada para mitigar esse risco no contexto fiscal estadual é",
+        "alternativas": [
+            "adotar uma solução de replicação síncrona em tempo real para um site secundário, garantindo RPO próximo de zero.",
+            "implementar um backup incremental diário com restauração em 48 horas.",
+            "realizar treinamentos semanais da equipe sem alterar a infraestrutura de TI para não impactar no negócio.",
+            "contratar um seguro cibernético para cobrir perdas financeiras, sem ajustes no BIA.",
+            "aumentar o MTPD para 72 horas para alinhar com o tempo de interrupção identificado."
+        ],
+        "gabarito": "adotar uma solução de replicação síncrona em tempo real para um site secundário, garantindo RPO próximo de zero."
+    },
+    {
+        "id": 52,
+        "enunciado": "Um determinado Ministério Público está implementando a ABNT NBR ISO 31000:2018 para melhorar a gestão de riscos e determina ao Analista responsável descrever sua aplicação, o qual, por sua vez, a utiliza para",
+        "alternativas": [
+            "criar um banco de dados de configuração (CMDB) que documenta todos os ativos de TI do órgão de justiça, facilitando a gestão e a auditoria dos recursos de TI.",
+            "definir os processos de desenvolvimento de software, garantindo a conformidade com as normas de qualidade e segurança.",
+            "identificar, analisar e avaliar os riscos associados aos processos judiciais, estabelecendo um plano de tratamento de riscos que inclui medidas preventivas e corretivas para minimizar impactos negativos.",
+            "definir os requisitos de segurança da informação, garantindo a proteção dos dados judiciais contra acessos não autorizados.",
+            "monitorar o desempenho dos servidores e redes do órgão de justiça, garantindo a disponibilidade contínua dos serviços de TI."
+        ],
+        "gabarito": "identificar, analisar e avaliar os riscos associados aos processos judiciais, estabelecendo um plano de tratamento de riscos que inclui medidas preventivas e corretivas para minimizar impactos negativos."
+    },
+    {
+        "id": 53,
+        "enunciado": "A ISO/IEC 27002 é uma norma internacional desenvolvida pela International Organization for Standardization (ISO) e pela International Electrotechnical Commission\n(IEC), a qual estabelece diretrizes e boas práticas para a implementação de controles de segurança da informação. Essa norma define medidas para proteger dados, sistemas e infraestruturas contra ameaças, garantindo a confidencialidade, a integridade e a disponibilidade das informações. Dentro desse contexto, assinale a alternativa que corresponde ao termo utilizado para descrever uma correção temporária aplicada a um software, geralmente disponibilizada pelo fabricante, para corrigir vulnerabilidades ou falhas identificadas.",
+        "alternativas": [
+            "Firewall.",
+            "Gateway.",
+            "Logging.",
+            "Need to Know.",
+            "Patches."
+        ],
+        "gabarito": "Patches."
+    },
+    {
+        "id": 54,
+        "enunciado": "A adoção de boas práticas de segurança da informação e gestão de riscos é essencial para garantir a resiliência organizacional. Normas internacionais como as da família ISO/IEC 27000 e 15999 orientam a implementação de controles e políticas que têm por objetivo proteger os ativos de informação e mitigar riscos operacionais.\nDe acordo com as normas e as boas práticas relacionadas à segurança da informação e à gestão de riscos organizacionais, julgue (C ou E) o item a seguir.\nSegundo a norma ISO/IEC 27005, o processo de gestão de riscos de segurança da informação inicia-se com a definição do contexto, seguido por identificação, análise e avaliação dos riscos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 55,
+        "enunciado": "Considerando as normas da ABNT acerca de gestão da segurança e gestão de riscos de sistemas de informação, julgue o item a seguir.\nO processo iterativo de monitoramento e análise crítica de riscos descrito na ABNT NBR ISO/IEC 27005:2022 fornece subsídios para o atendimento aos requisitos de melhoria contínua e análise crítica pela direção previstos na ABNT NBR ISO/IEC 27001:2013.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 56,
+        "enunciado": "Considerando as normas da ABNT acerca de gestão da segurança e gestão de riscos de sistemas de informação, julgue o item a seguir.\nNo escopo da ABNT NBR ISO/IEC 27005:2022, os aspectos da gestão da continuidade do negócio são abordados em dois grupos principais de controles: continuidade da segurança da informação e redundâncias suficientes para o atendimento aos requisitos de disponibilidade.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 57,
+        "enunciado": "Uma empresa de tecnologia estava planejando lançar um novo serviço de transferência de arquivos em nuvem que envolvia o processamento de dados altamente sensíveis de clientes. Durante a fase de avaliação de segurança deste novo serviço, a equipe identificou uma vulnerabilidade crítica inerente à arquitetura proposta, que não poderia ser mitigada de forma eficaz com as tecnologias atuais e representava um risco inaceitável de vazamento de dados em larga escala. Diante disso, a diretoria decidiu cancelar o desenvolvimento e o lançamento desse serviço específico.\nCom base no relato, assinale a opção que identifica corretamente a estratégia de tratamento de risco adotada pela diretoria dessa empresa de tecnologia.",
+        "alternativas": [
+            "Transferência do risco.",
+            "Mitigação do risco.",
+            "Aceitação do risco.",
+            "Evitar o risco.",
+            "Compartilhamento do risco."
+        ],
+        "gabarito": "Evitar o risco."
+    },
+    {
+        "id": 58,
+        "enunciado": "São situações que motivam a implementação do método de Gestão de Risco e Conformidade, EXCETO:",
+        "alternativas": [
+            "A conectividade com a Internet introduz riscos cibernéticos que podem comprometer a segurança no armazenamento de dados.",
+            "Empresas que precisam cumprir requisitos regulatórios já estabelecidos e consolidados.",
+            "Empresas que precisam garantir privacidade e proteção de dados.",
+            "Empresas que enfrentam mais incertezas no cenário moderno de negócios.",
+            "Custos de gerenciamento de riscos que aumentam a uma taxa sem precedentes."
+        ],
+        "gabarito": "Empresas que precisam cumprir requisitos regulatórios já estabelecidos e consolidados."
+    },
+    {
+        "id": 59,
+        "enunciado": "De acordo com a norma ISO/NBR 27005:2023, em qual categoria de ameaça é classificado um incidente relacionado a serviços de condicionamento de ar?",
+        "alternativas": [
+            "Falhas técnicas.",
+            "Ameaças organizacionais.",
+            "Comprometimento de funções ou serviços.",
+            "Ameaças físicas.",
+            "Falhas na infraestrutura."
+        ],
+        "gabarito": "Falhas na infraestrutura."
+    },
+    {
+        "id": 60,
+        "enunciado": "A norma ISO/IEC 27005:2019 apresenta um processo de gestão de riscos de segurança da informação.\nCom base nessa norma, considere as afirmativas a seguir.\nI → O processo de avaliação de riscos compreende a identificação, a análise e a avaliação de riscos.\nII → O ciclo de vida da gestão de riscos de segurança da informação é iterativo, desenvolvendo-se a gestão de maneira incremental, através de uma sucessão de iterações, e cada iteração libera uma entrega (saída) para a seguinte, minimizando tempo e esforço.\nIII → A análise quantitativa utiliza uma escala de valores numéricos com o objetivo de tentar calcular valores numéricos para cada um dos componentes coletados durante as atividades de identificação de riscos. Devido à sua importância, deve ser realizada antes da análise qualitativa.\nIV → Ameaça é qualquer fraqueza que possa ser explorada para comprometer a segurança de sistemas ou informações.\nEstão corretas",
+        "alternativas": [
+            "apenas I e II.",
+            "apenas I e IV.",
+            "apenas II e III.",
+            "apenas III e IV.",
+            "apenas I, II e III."
+        ],
+        "gabarito": "apenas I e II."
+    },
+    {
+        "id": 61,
+        "enunciado": "Em um programa de gestão de riscos, o risco de indisponibilidade do datacenter por falha de energia foi tratado com a implementação de um gerador redundante.\nCom base nessa situação hipotética, assinale a opção que apresenta, segundo a ISO/IEC 27001, a ação de tratamento de risco adotada.",
+        "alternativas": [
+            "modificar o risco por meio da implementação de controles.",
+            "eliminar o risco por descontinuação do ativo/processo.",
+            "reter o risco sem implementação de controles adicionais.",
+            "transferir o risco por meio de contrato/seguro.",
+            "apenas monitorar o risco sem propor controles."
+        ],
+        "gabarito": "modificar o risco por meio da implementação de controles."
+    },
+    {
+        "id": 62,
+        "enunciado": "A Gestão de Riscos Cibernéticos tem um novo referencial técnico em português - a norma internacional e brasileira NBR ISO/IEC 27005, baseada no Processo de Gestão de Riscos estabelecido na ISO 31000. A NBR ISO/IEC 27005 visa traçar ações para lidar com os riscos de Segurança da Informação, além de realizar atividades de gerenciamento na área, especificamente avaliação e tratamento de riscos, podendo ser aplicada a todas as organizações, independente de tipo, tamanho ou setor. As ações para tratamento de risco, são denominadas respostas ao risco, havendo quatro possibilidades, das quais três são caracterizadas a seguir.\nI.Consiste em alterar a probabilidade de ocorrência de um evento ou alterar a gravidade da consequência. O risco fica mais difícil de ocorrer ou menos impactante.\nII.Consiste em reconhecer o risco e não tomar nenhuma ação. É uma estratégia muito adotada quando o custo para atuar sobre o risco ultrapassa a consequência que ele traria.\nIII.Consiste em dividir responsabilidades com outras partes, interna ou externamente. O exemplo clássico é contratar um seguro.\nAs três respostas ao risco descritas em I, em II e em III são conhecidas, respectivamente, como:",
+        "alternativas": [
+            "Mitigar/Modificar, Aceitar/Reter e Transferir/Compartilhar.",
+            "Aceitar/Reter, Transferir/Compartilhar e Evitar/Eliminar.",
+            "Evitar/Eliminar, Mitigar/Modificar e Aceitar/Reter.",
+            "Transferir/Compartilhar, Evitar/Eliminar e Mitigar/Modificar."
+        ],
+        "gabarito": "Mitigar/Modificar, Aceitar/Reter e Transferir/Compartilhar."
+    },
+    {
+        "id": 63,
+        "enunciado": "No que tange à prevenção de riscos na segurança da informação, os controles têm por objetivo neutralizar eventos potencialmente negativos que venham a ocorrer numa organização. Nesse sentido, existem três tipos de controles de segurança para um sistema de informação, descritos a seguir.\nI.Foca a gestão do risco e a gestão da segurança do sistema de informação.\nII.É primariamente implementado e executado por pessoas, em oposição a sistemas.\nIII.É primariamente executado e implementado pelo sistema de informação, através de mecanismos contidos nos componentes de hardware, software ou firmware presentes no sistema.\nEsses controles de segurança são conhecidos, respectivamente, como:",
+        "alternativas": [
+            "Gerencial, operacional e técnico.",
+            "Gerencial, técnico e operacional.",
+            "Operacional, gerencial e técnico.",
+            "Operacional, técnico e gerencial."
+        ],
+        "gabarito": "Gerencial, operacional e técnico."
+    },
+    {
+        "id": 64,
+        "enunciado": "A norma ABNT NBR ISO/IEC 27005:2023 é uma ferramenta fundamental para que as organizações possam identificar, analisar e mitigar os riscos relacionados à segurança da informação.\nEm relação ao que estabelece essa norma, assinale a afirmativa correta.",
+        "alternativas": [
+            "A norma foi alinhada à ISO 35000, que se refere a norma internacional para gerenciamento de riscos.",
+            "A norma manteve o foco no contexto organizacional, no entanto, ainda não incluiu para a identificação e avaliação dos riscos a análise dos objetivos de segurança da informação e as necessidades das partes interessadas.",
+            "Houve incentivo à implementação de controles e à avaliação do desempenho, promovendo integração com a gestão de segurança da informação.",
+            "As análises de cenários de risco (ACR) são substituídas por Projeções de Gestão de Risco (PGR), permitindo que as organizações considerem possíveis eventos futuros e suas consequências.",
+            "A norma incentiva a realização das avaliações periódicas e emergenciais, respectivamente, para prevenção de incidentes de média gravidade e para atuação em eventos pontuais e individualizados de elevada gravidade."
+        ],
+        "gabarito": "Houve incentivo à implementação de controles e à avaliação do desempenho, promovendo integração com a gestão de segurança da informação."
+    },
+    {
+        "id": 65,
+        "enunciado": "Julgue o próximo item, relativo à gestão e ao gerenciamento de riscos.\nSe uma organização passar a responsabilidade de uma ameaça a terceiros para gerenciar o risco e suportar o impacto, então, caso ocorra outra ameaça, esse cenário pode ser classificado como mitigação de risco, uma das estratégias da gestão de riscos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 66,
+        "enunciado": "Julgue o próximo item, relativo à gestão e ao gerenciamento de riscos.\nNa gestão de riscos, as ameaças são as fraquezas de um ativo ou controle que podem ser exploradas e, então, ocasionar um evento indesejado.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 67,
+        "enunciado": "A gestão de risco de segurança da informação busca mapear o risco de ocorrências dos incidentes de segurança da informação. Para classificá-las, pode-se utilizar o conceito de Disponibilidade, Integridade, Confidencialidade e Autenticidade (DICA).\nA ameaça classificada como uma vulnerabilidade de integridade é:",
+        "alternativas": [
+            "erro humano que afeta qualquer sistema da organização, permitindo acesso não autorizado a informações;",
+            "falha no fornecimento de energia elétrica, que afeta parte do hardware da organização. Com o hardware danificado, os serviços tornam-se indisponíveis;",
+            "ameaça programada, como vírus e bombas lógicas, que afetam softwares. Com isso, códigos não autorizados podem revelar ao mundo externo informações sensíveis;",
+            "o ataque “man-in-the-middle” de um funcionário “Insider” da organização em que os dados são interceptados, registrados e possivelmente trocados pelo atacante sem que as vítimas percebam;",
+            "falha de hardware, corrompendo o dado. Com isso, o equipamento comprometido pode ser enviado para manutenção sem o cuidado prévio de apagar informações sensíveis nele contidas."
+        ],
+        "gabarito": "o ataque “man-in-the-middle” de um funcionário “Insider” da organização em que os dados são interceptados, registrados e possivelmente trocados pelo atacante sem que as vítimas percebam;"
+    },
+    {
+        "id": 68,
+        "enunciado": "Julgue o item a seguir, a respeito de gerência de riscos e sistema de gestão de continuidade de negócios (SGCN).\nNo gerenciamento de riscos, devem ser considerados os contextos externo e interno da organização, incluindo-se o comportamento humano e os fatores culturais locais.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 69,
+        "enunciado": "Julgue o item a seguir, a respeito de gerência de riscos e sistema de gestão de continuidade de negócios (SGCN).\nEm uma organização, as mudanças no contexto interno organizacional são os fatores responsáveis pela eliminação completa dos riscos ou alteração de sua configuração.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 70,
+        "enunciado": "Julgue o item a seguir, a respeito de gerência de riscos e sistema de gestão de continuidade de negócios (SGCN).\nNa etapa de identificação de riscos, devem ser incluídos todos os riscos, com exceção dos das fontes que não estão sob seu controle, apontando-se as fontes de risco, áreas de impacto, as causas e possíveis consequências tangíveis ou intangíveis.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 71,
+        "enunciado": "Julgue o seguinte item, com base no que dispõe a NBR ISO/IEC 27001:2022.\nA organização deve realizar avaliações de riscos da segurança da informação, bem como implementar o plano de tratamento de riscos da segurança da informação, retendo informação documentada dos resultados tanto das avaliações quanto do tratamento de riscos da segurança da informação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 72,
+        "enunciado": "Com base na norma ISO/IEC 27001:2022, julgue os itens a seguir.\nI As organizações devem estabelecer e manter critérios de risco de segurança da informação que incluam critérios de aceitação de risco.\nII As organizações, qualquer que seja seu tamanho, devem utilizar um processo de avaliação de risco.\nIII O processo de identificar os proprietários de um risco deve ser separado do processo de avaliação de risco, com a finalidade de simplificar o entendimento do risco.\nAssinale a opção correta.",
+        "alternativas": [
+            "Apenas o item I está certo.",
+            "Apenas o item III está certo.",
+            "Apenas os itens I e II estão certos.",
+            "Apenas os itens II e III estão certos.",
+            "Todos os itens estão certos."
+        ],
+        "gabarito": "Apenas os itens I e II estão certos."
+    },
+    {
+        "id": 73,
+        "enunciado": "Julgue o próximo item, a respeito da gestão de segurança da informação.\nPara a identificação de ameaças à segurança da informação, recomenda-se a realização de avaliações de risco regularmente.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 74,
+        "enunciado": "Com pertinência a gestão de segurança da informação, julgue o item subsecutivo.\nSegundo a ABNT NBR ISO/IEC 27005 de segurança da informação, no processo de gestão de riscos a eficácia do tratamento do risco depende dos resultados do processo de avaliação de riscos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 75,
+        "enunciado": "A ISO 27002:2022 reorganiza e atualiza os controles em grupos de classificações, estabelecendo as medidas adotadas para tratar riscos. Os controles podem ser de três tipos, que tem a ver com o momento de atuação, em relação à ocorrência de incidentes. O primeiro se destina a evitar a ocorrência de um incidente de segurança da informação, o segundo age quando ocorre um incidente de segurança da informação e o terceiro age após um incidente de segurança da informação ter ocorrido. Esses três tipos de controles são conhecidos, respectivamente, como:",
+        "alternativas": [
+            "Preventivo, corretivo e detectivo.",
+            "Preventivo, detectivo e corretivo.",
+            "Corretivo, detectivo e preventivo.",
+            "Corretivo, preventivo e detectivo."
+        ],
+        "gabarito": "Preventivo, detectivo e corretivo."
+    },
+    {
+        "id": 76,
+        "enunciado": "Em relação à segurança da informação conforme o disposto nas normas ISO 27001, 27002 e 27005, julgue o item subsecutivo.\nO processo de avaliação de riscos de segurança da informação, conforme prevê a ISO 27005, é uma atividade na qual a equipe de análise deve mensurar o nível de risco mediante o uso de resultados obtidos nas etapas anteriores da gestão de riscos, atribuindo valores para a probabilidade e a consequência de cada risco.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 77,
+        "enunciado": "Fábio pertence ao departamento de segurança da empresa K e está verificando os controles existentes para a Gestão de Riscos de Segurança da Informação. Ele faz uso da norma ABNT NBR ISO/IEC 27005:2011 para efetuar sua verificação. Fábio está examinando o correto funcionamento dos controles existentes.\nEle identificou alguns controles obsoletos, que foram descartados, e outros que foram substituídos por controles melhores ou mais modernos.\nNesse momento, Fábio está fazendo uso da tarefa dentro de identificação de riscos:",
+        "alternativas": [
+            "dos ativos;",
+            "das ameaças;",
+            "de controles existentes;",
+            "das vulnerabilidades;",
+            "de consequências."
+        ],
+        "gabarito": "de controles existentes;"
+    },
+    {
+        "id": 78,
+        "enunciado": "Uma empresa de consultoria X foi contratada para verificar os riscos quanto à segurança da informação no Tribunal de Justiça do Amapá (TJAP). Para atender ao requisito licitatório, a consultoria fez uso da norma ABNT NBR ISO/IEC 27005:2011. Em seu relatório de segurança, a consultoria identificou riscos causados por fenômenos naturais, de forma que a melhor alternativa era mover fisicamente as instalações para um local onde tal risco não exista ou esteja sob controle.\nA empresa de consultoria X se baseou no tópico de tratamento de riscos de:",
+        "alternativas": [
+            "reter o risco;",
+            "modificar o risco;",
+            "evitar o risco;",
+            "compartilhar o risco;",
+            "aceitar o risco."
+        ],
+        "gabarito": "evitar o risco;"
+    },
+    {
+        "id": 79,
+        "enunciado": "A equipe de gestão de riscos de um órgão público está atualizando seu Plano de Gestão de Riscos (PGR). Na atual fase de trabalho, a equipe está executando o processo de avaliação de riscos das atividades constantes do escopo do PGR, descrevendo, analisando e avaliando os riscos identificados.\nDurante a identificação dos riscos, a equipe deve considerar o fator:",
+        "alternativas": [
+            "mudanças nos contextos externo e interno do órgão;",
+            "natureza e magnitude das consequências;",
+            "probabilidade de eventos e consequências;",
+            "opções existentes para tratamento de riscos;",
+            "recursos requeridos, incluindo contingências."
+        ],
+        "gabarito": "mudanças nos contextos externo e interno do órgão;"
+    },
+    {
+        "id": 80,
+        "enunciado": "O diretor do órgão público X instaurou o processo de auditoria interna visando verificar a conformidade de seus processos e atividades com os requisitos legais e regulatórios definidos para os órgãos públicos, bem como com sua própria política interna de segurança da informação.\nA equipe de auditoria foi formalmente estabelecida para dar legalidade a essa tarefa. Durante a auditoria, a equipe identificou algumas vulnerabilidades nos processos e controles de segurança, atividade constante da etapa de:",
+        "alternativas": [
+            "testes e procedimentos de auditoria;",
+            "scanner de redes;",
+            "teste de penetração;",
+            "coleta de informações;",
+            "avaliação de riscos."
+        ],
+        "gabarito": "avaliação de riscos."
+    },
+    {
+        "id": 81,
+        "enunciado": "Davi é o coordenador de TI da empresa X e está efetuando uma prova de conceito (POC) para a computação em nuvem de alguns serviços e informações. Durante esse processo, Davi identificou alguns riscos de segurança que são específicos aos ambientes de nuvem. Dentre eles, há as questões tecnológicas partilhadas, que consistem na entrega dos serviços de forma escalável através da partilha de infraestrutura. Muitas vezes, essa infraestrutura não foi projetada para oferecer o isolamento necessário para uma arquitetura multilocatária.\nAlgumas contramedidas que devem ser implementadas por Davi para evitar os riscos da partilha são:",
+        "alternativas": [
+            "especificação dos requisitos de recursos humanos como parte de contrato legal e determinação dos processos de notificação de violação de segurança;",
+            "análise do modelo de interfaces de segurança do provedor de nuvem e compreensão da cadeia de dependência associada à API;",
+            "implantação de técnicas de autenticação fortes de dois fatores, sempre que possível, e monitoramento proativo para detectar atividades não autorizadas;",
+            "monitoramento do ambiente para atividades não autorizadas e a promoção de forte autenticação para o controle de acesso administrativo e de operações;",
+            "implementação de uma forte API de controle de acesso e encriptação e proteção da integridade dos dados em trânsito."
+        ],
+        "gabarito": "monitoramento do ambiente para atividades não autorizadas e a promoção de forte autenticação para o controle de acesso administrativo e de operações;"
+    },
+    {
+        "id": 82,
+        "enunciado": "No contexto da gerência de riscos, avalie se as afirmativas a seguir são verdadeiras (V) ou falsas (F).\n( ) Vulnerabilidade refere-se a qualquer fraqueza em um sistema que possa ser explorada por uma ameaça para causar dano ou acesso não autorizado, independentemente da intenção da fonte de ameaça.\n( ) Uma ameaça precisa ser ativa e intencional para que um risco seja considerado válido; fenômenos naturais ou falhas sistêmicas não são categorizados como ameaças na gerência de riscos.\n( ) O risco é considerado irrelevante se a organização possuir um plano de resposta a incidentes, pois a existência do plano elimina a necessidade de avaliação ou mitigação de riscos futuros.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "V – F – F.",
+            "V – V – F.",
+            "F – V – V.",
+            "F – F – V.",
+            "V – V – V."
+        ],
+        "gabarito": "V – F – F."
+    },
+    {
+        "id": 83,
+        "enunciado": "Julgue o item subsequente referente a conceitos de segurança da informação, segurança de redes sem fio e gestão de riscos em tecnologia da informação.\nQuando um incidente que envolve a segurança da informação provém de violação de obrigações estatutárias ou regulatórias, fica caracterizado o impacto imediato\n(operacional) direto, de acordo com a ABNT NBR ISO/IEC 27005:2019.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 84,
+        "enunciado": "Julgue o item subsequente referente a conceitos de segurança da informação, segurança de redes sem fio e gestão de riscos em tecnologia da informação.\nA primeira etapa da fase de análise de risco consiste na identificação de riscos, realizada para que se possam conhecer e determinar eventos que podem causar perdas, assim como a forma como esses eventos podem ocorrer.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 85,
+        "enunciado": "A respeito da gestão de riscos, julgue o seguinte item.\nRisco residual é o risco resultante de uma ação de tratamento de riscos e não pode ser eliminado, no entanto deve ser gerenciado.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 86,
+        "enunciado": "A respeito da gestão de riscos, julgue o seguinte item.\nA comunicação dos riscos a todos da organização deve ser evitada, para que não cause alardes ou situações de insegurança, por isso todos os riscos devem ser classificados como restritos à área responsável pela gestão de riscos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 87,
+        "enunciado": "A respeito da gestão de riscos, julgue o seguinte item.\nO processo de avaliação de riscos é realizado por meio das atividades de identificação, análise e avaliação de riscos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 88,
+        "enunciado": "O TJMS está implementando um sistema de gestão de segurança da informação aderente aos requisitos da ABNT NBR ISO/IEC 27001:2013, por meio do qual aplica um processo de tratamento dos riscos de segurança da informação para:",
+        "alternativas": [
+            "assegurar que as contínuas avaliações de risco de segurança da informação produzam resultados compatíveis, válidos e consistentes;",
+            "determinar todos os controles que são necessários para implementar as opções escolhidas do tratamento do risco da segurança da informação;",
+            "obter a aprovação da alta direção em relação aos riscos do plano de tratamento dos riscos de segurança da informação e a aceitação dos riscos residuais de segurança da informação;",
+            "selecionar, de forma apropriada, as opções de tratamento de riscos de segurança da informação, levando em consideração os resultados do sistema de gestão de segurança da informação;",
+            "avaliar as consequências potenciais que podem resultar se os riscos identificados forem materializados."
+        ],
+        "gabarito": "determinar todos os controles que são necessários para implementar as opções escolhidas do tratamento do risco da segurança da informação;"
+    },
+    {
+        "id": 89,
+        "enunciado": "A área de segurança do TJMS utilizou uma ferramenta automatizada para procurar vulnerabilidades nos ativos de rede do Tribunal. A ferramenta gerou um relatório que foi entregue para a área de infraestrutura e redes. Esta, após analisar o teor do relatório, agradeceu a atitude proativa da área de segurança, mas decidiu não adotar nenhuma ação, no momento, por estar atuando em outras atividades prioritárias.\nA decisão da área de infraestrutura e redes estaria correta se as vulnerabilidades registradas:",
+        "alternativas": [
+            "estivessem presentes na avaliação e testes de segurança (ATS) realizados durante o processo de avaliação de riscos e ressurgissem;",
+            "representassem zero day, razão pela qual não precisariam ser tratados com prioridade;",
+            "representassem uma falha de configuração crítica que a equipe repararia assim que possível;",
+            "representassem falsos positivos em decorrência de uma configuração requerida por seu ambiente;",
+            "representassem propriedades extrínsecas do ativo, razão pela qual não precisariam ser consideradas."
+        ],
+        "gabarito": "representassem falsos positivos em decorrência de uma configuração requerida por seu ambiente;"
+    },
+    {
+        "id": 90,
+        "enunciado": "A equipe de infraestrutura e redes do TJMS constatou que a quantidade de spams recebidos por meio do serviço de correio eletrônico aumentou recentemente. Para reduzir o recebimento de spam, a equipe implementou novos filtros de verificação na ferramenta antispam existente.\nDe acordo com o previsto no processo de tratamento de riscos, estabelecido na Norma ISO 27005, a opção de tratamento do risco escolhido pela equipe de infraestrutura e redes foi:",
+        "alternativas": [
+            "modificação do risco;",
+            "retenção do risco;",
+            "ação de evitar o risco;",
+            "compartilhamento do risco;",
+            "aceitação do risco."
+        ],
+        "gabarito": "modificação do risco;"
+    },
+    {
+        "id": 91,
+        "enunciado": "Durante o processo de identificação de riscos, a organização deve identificar os riscos associados à perda de confidencialidade, integridade e disponibilidade de suas informações.\nUma organização adotou, em seu processo, a abordagem para identificação de riscos com base em eventos.\nEssa abordagem consiste em:",
+        "alternativas": [
+            "refletir uma avaliação das consequências herdadas diretamente dos eventos envolvidos;",
+            "identificar cenários operacionais, detalhados em termos de ativos, ameaças e vulnerabilidades;",
+            "identificar cenários estratégicos, considerando as fontes de riscos e seus impactos no alcance dos riscos;",
+            "construir, com base na análise de diferentes caminhos, cenários operacionais que as fontes de risco podem usar para alcançar seu objetivo;",
+            "monitorar eventos relacionados ao risco, identificando fatores que podem influenciar um cenário de risco de segurança da informação."
+        ],
+        "gabarito": "identificar cenários estratégicos, considerando as fontes de riscos e seus impactos no alcance dos riscos;"
+    },
+    {
+        "id": 92,
+        "enunciado": "A Equipe de Gestão de Riscos (EGR) de uma organização está realizando a análise de riscos a fim de determinar o nível dos riscos identificados para definir seu tratamento. A EGR adotou a técnica de análise baseada em consequências e probabilidades que utiliza escalas qualitativas com valores atribuídos.\nA técnica utilizada é a:",
+        "alternativas": [
+            "híbrida;",
+            "qualitativa;",
+            "quantitativa;",
+            "semiquantitativa;",
+            "semiqualitativa."
+        ],
+        "gabarito": "semiquantitativa;"
+    },
+    {
+        "id": 93,
+        "enunciado": "A norma ABNT NBR ISO/IEC 27005 oferece:",
+        "alternativas": [
+            "diretrizes e princípios gerais para iniciar, implementar, manter e melhorar a gestão de segurança da informação.",
+            "orientações para desenvolvimento de medidas e métricas para avaliação da eficácia de um sistema de gestão de segurança da informação.",
+            "instruções para a implementação aderente aos objetivos organizacionais de um sistema de gestão de segurança da informação.",
+            "diretrizes para o processo de gestão de riscos de segurança da informação de uma organização."
+        ],
+        "gabarito": "diretrizes para o processo de gestão de riscos de segurança da informação de uma organização."
+    },
+    {
+        "id": 94,
+        "enunciado": "Gerir riscos constitui uma etapa vital no contexto da segurança da informação, implicando na identificação, avaliação e mitigação dos potenciais riscos que possam impactar a confidencialidade, integridade e disponibilidade dos dados e sistemas organizacionais.\nCom relação à gerência de risco, assinale (V) para a afirmativa verdadeira e (F) para falsa.\n( ) Processos, atividades do negócio e informações são ativos primários de uma organização.\n( ) As ameaças podem ter origem humana ou ambiental\n( ) Salvaguardas referem-se a medidas de proteção prescritas com o intuito de cumprir os requisitos de segurança, tais como confidencialidade, integridade e disponibilidade, previamente estabelecidos para um sistema de informação.\n( ) Reduzir riscos de segurança é um processo iterativo que envolve identificar os riscos, implementar controles para mitigá-los e reavaliar constantemente diante das mudanças.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "F – F – F – F.",
+            "V – V – V – V.",
+            "F – F – V – V.",
+            "V – V – F – F."
+        ],
+        "gabarito": "V – V – V – V."
+    },
+    {
+        "id": 95,
+        "enunciado": "A ABNT NBR ISO/IEC 27005:2011 fornece diretrizes para o processo de Gestão de Riscos de Segurança da Informação de uma organização, atendendo particularmente aos requisitos de um Sistema de Gestão de Segurança da Informação (SGSI) Com relação à Gestão de Risco, em conformidade com a norma ABNT NBR ISO/IEC 27005:2011, analise os itens a seguir.\nI. O risco é o efeito da incerteza nos objetivos, sendo muitas vezes caracterizado pela referência aos eventos potenciais e às consequências, ou uma combinação destes.\nII. O risco residual (ou \"risco retido\") se refere ao risco remanescente após o tratamento de eventos sucessivos.\nIII. O nível de risco se relaciona a magnitude de um risco, expressa em termos da combinação das consequências e de suas probabilidades (likelihood) Está correto o que se afirma em",
+        "alternativas": [
+            "I e II, apenas.",
+            "I e III, apenas.",
+            "II e III, apenas.",
+            "I, II e III."
+        ],
+        "gabarito": "I e III, apenas."
+    },
+    {
+        "id": 96,
+        "enunciado": "Acerca dos mecanismos de segurança, da gerência de riscos e das políticas de senhas, julgue o item.\nO impacto pode ser definido como a medida dos efeitos adversos que uma ameaça, explorando uma vulnerabilidade, pode ter sobre os ativos de uma organização.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 97,
+        "enunciado": "Dentro do contexto da ISO 27005, que fornece diretrizes para a gestão de riscos de segurança da informação, qual das seguintes alternativas NÃO é considerada uma forma válida de tratamento de riscos?",
+        "alternativas": [
+            "Modificação do risco.",
+            "Retenção do risco.",
+            "Ação de evitar o risco.",
+            "Compartilhamento do risco.",
+            "Desenvolver o risco."
+        ],
+        "gabarito": "Desenvolver o risco."
+    },
+    {
+        "id": 98,
+        "enunciado": "Para uma organização determinar o escopo dos Sistemas de Gestão da Segurança da Informação, a diretoria deve determinar os limites e a aplicabilidade desse sistema. A respeito da definição dos limites e da aplicabilidade do Sistema de Gestão da Segurança quando da determinação do escopo, analise as assertivas e assinale a alternativa que aponta a(s) correta(s).\nI. A organização deve determinar as questões internas e externas que são relevantes para o seu propósito e que afetam sua capacidade para alcançar os resultados pretendidos do seu Sistema de Gestão da Segurança da Informação.\nII. A organização deve determinar as partes interessadas que são relevantes para o Sistema de Gestão da Segurança da Informação e os requisitos dessas partes interessadas relevantes para a segurança da informação.\nIII. A organização deve determinar as interfaces e independências entre as atividades desempenhadas por ela e aquelas que são desempenhadas por outras organizações, e o escopo deve estar disponível como informação documentada.",
+        "alternativas": [
+            "Apenas I.",
+            "Apenas II.",
+            "Apenas III.",
+            "Apenas I e II.",
+            "Apenas II e III."
+        ],
+        "gabarito": "Apenas I e II."
+    },
+    {
+        "id": 99,
+        "enunciado": "A respeito da avaliação de riscos de segurança da informação, assinale a alternativa correta.",
+        "alternativas": [
+            "É um processo de identificação, análise e tratamento de riscos de segurança da informação.",
+            "É um processo de identificação, análise e avaliação de custo do controle de segurança.",
+            "É um processo de identificação, análise e avaliação de riscos de segurança da informação.",
+            "É um processo de identificação, análise, avaliação e tratamento de riscos de segurança da informação.",
+            "É um processo de identificação, análise, avaliação e implementação de controles de segurança."
+        ],
+        "gabarito": "É um processo de identificação, análise, avaliação e tratamento de riscos de segurança da informação."
+    },
+    {
+        "id": 100,
+        "enunciado": "Sobre tratamento de riscos de segurança da informação constante em ABNT NBR ISO/IEC 27001:2013, assinale a afirmativa INCORRETA.",
+        "alternativas": [
+            "A declaração de aplicabilidade deve conter os controles necessários e a justificativa para inclusões.",
+            "Todos os riscos devem ser completamente eliminados após a implementação de controles adequados.",
+            "As organizações devem definir e aplicar um processo de tratamento dos riscos de segurança da informação.",
+            "As organizações podem projetar os controles conforme requerido ou identificá-los de qualquer outra fonte."
+        ],
+        "gabarito": "Todos os riscos devem ser completamente eliminados após a implementação de controles adequados."
+    },
+    {
+        "id": 101,
+        "enunciado": "Acerca de gestão de segurança e riscos, julgue o item que se segue.\nConforme a norma ABNT NBR ISO/IEC 27005:2023, apesar de o tratamento de riscos envolver um processo iterativo que abrange formulação e seleção, planejamento e implementação e avaliação da eficácia, é possível que ele não leve imediatamente a um nível aceitável de riscos residuais e, nesse caso, deve ser feita outra tentativa para se encontrar mais tratamentos de riscos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 102,
+        "enunciado": "Uma empresa está se preparando para uma licitação e por isso, todos os seus empregados estão trabalhando para elaborar a proposta a ser apresentada.\nAo iniciar mais um dia de trabalho, os empregados constataram que os servidores estavam inacessíveis, impossibilitando-os de trabalhar na proposta.\nApós ser notificada do fato, a equipe de TI analisou a situação e chegou à conclusão que a empresa sofreu um ataque do tipo Distributed Denial of Service (DDoS).\nDe acordo a NBR ISO/IEC 27005, da ABNT, o objetivo alvo dos atacantes era",
+        "alternativas": [
+            "espionagem.",
+            "pré-posicionamento estratégico.",
+            "Influência.",
+            "desafio.",
+            "obstáculo ao funcionamento."
+        ],
+        "gabarito": "obstáculo ao funcionamento."
+    },
+    {
+        "id": 103,
+        "enunciado": "Em relação à gestão de segurança da informação, julgue o item subsequente.\nSegundo a NBR ISO/IEC 27001, um processo de avaliação de riscos de segurança da informação deve estabelecer e manter critérios de risco que incluam a eliminação e a avaliação dos riscos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 104,
+        "enunciado": "Com base na NBR ISO/IEC 27005, julgue o item seguinte.\nNa organização deve existir treinamento de gestores e de pessoal sobre riscos e ações de mitigação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 105,
+        "enunciado": "Com base na NBR ISO/IEC 27005, julgue o item seguinte.\nO processo de gestão de riscos deve contribuir para a identificação dos riscos de segurança da informação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 106,
+        "enunciado": "A respeito do processo de gestão de riscos estabelecido pela NBR ISO/IEC 27005, julgue o seguinte item.\nO encerramento do processo de gestão de risco inclui decisões sobre a aceitação do risco e consequente comunicação às partes envolvidas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 107,
+        "enunciado": "A respeito do processo de gestão de riscos estabelecido pela NBR ISO/IEC 27005, julgue o seguinte item.\nUma das etapas do processo de gestão de risco consiste em definir o contexto.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 108,
+        "enunciado": "Em relação à gestão de riscos, julgue o item subsequente.\nA eliminação das ameaças é uma das formas de gerenciar os riscos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 109,
+        "enunciado": "Em relação à gestão de riscos, julgue o item subsequente.\nO processo de avaliação de riscos é composto pelas atividades de identificação, tratamento e eliminação dos riscos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 110,
+        "enunciado": "Em relação à gestão de riscos, julgue o item subsequente.\nA gestão de riscos compreende um conjunto de atividades coordenadas para reduzir as incertezas no alcance dos objetivos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 111,
+        "enunciado": "Julgue o item a seguir, que tratam de gestão da segurança da informação.\nConforme a NBR ISO/IEC 27001:2022, as ações para abordar riscos e oportunidades devem conter um planejamento do sistema de gestão da segurança da informação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 112,
+        "enunciado": "Conforme as diretrizes das normas ISO (lnternational Organization for Standardization)/lEC (lnternational Electrotechnical Commission) 27005, é recomendado que as organizações definam o escopo e os limites da gestão de riscos de segurança da informação. Ao fazer isso, é essencial considerar diversos fatores para garantir uma abordagem abrangente. Entre as alternativas a seguir, qual NAO é uma consideração recomendada ao definir o escopo e os limites de acordo com essas normas?",
+        "alternativas": [
+            "Processos de negocio.",
+            "Ativos de informação.",
+            "Ambiente industrial.",
+            "Ambiente sociocultural.",
+            "Funções e estrutura da organização."
+        ],
+        "gabarito": "Ambiente industrial."
+    },
+    {
+        "id": 113,
+        "enunciado": "Segundo a ISO 27005: Gestão de riscos em TI, considerando-se a identificação de riscos, no que se refere especificamente às áreas onde as vulnerabilidades podem ser identificadas, analisar os itens.\nI. Processos e procedimentos.\nII. Configuração do sistema de informação.\nIII. Hardware, software ou equipamentos de comunicação.\nIV. Dependência de entidades externas.\nEstá CORRETO o que se afirma:",
+        "alternativas": [
+            "Apenas no item IV.",
+            "Apenas nos itens I e II.",
+            "Apenas nos itens I e III.",
+            "Em todos os itens."
+        ],
+        "gabarito": "Em todos os itens."
+    },
+    {
+        "id": 114,
+        "enunciado": "Durante o processo de tratamento de riscos de segurança da informação, na lista de riscos priorizados, identificou-se a possibilidade de entrada de dados de fonte não confiável nos computadores conectados à rede computacional do TRF1.\nA partir da lista de ameaças identificadas, decidiu-se que a utilização de dispositivos móveis seria bloqueada nos computadores do TRF1.\nSegundo a norma ABNT NBR ISO/IEC 27005:2023, a opção de tratamento desse risco foi:",
+        "alternativas": [
+            "reter o risco;",
+            "evitar o risco;",
+            "aceitar o risco;",
+            "modificar o risco;",
+            "compartilhar o risco."
+        ],
+        "gabarito": "evitar o risco;"
+    },
+    {
+        "id": 115,
+        "enunciado": "A ABNT NBR ISO/IEC 27005:2023 é uma norma com orientações para ajudar as organizações na realização de atividades de gestão de riscos de segurança da informação. Essa norma apresenta termos e definições importantes, com o propósito de facilitar a compreensão do documento da norma e de evitar ambiguidades que possam provocar uma interpretação errônea do seu texto. De acordo com essa norma, vulnerabilidade é a(o)",
+        "alternativas": [
+            "causa potencial de um incidente de segurança da informação que pode resultar em danos a um sistema ou prejuízos a uma organização.",
+            "fraqueza de um ativo ou controle que pode ser explorada e então pode ocorrer um evento com uma consequência negativa.",
+            "ocorrência ou mudança de um conjunto específico de circunstâncias.",
+            "elemento que, individualmente ou combinado, tem o potencial para dar origem ao risco.",
+            "evento de segurança da informação indesejado ou inesperado que tem probabilidade significativa de comprometer as operações do negócio."
+        ],
+        "gabarito": "fraqueza de um ativo ou controle que pode ser explorada e então pode ocorrer um evento com uma consequência negativa."
+    },
+    {
+        "id": 116,
+        "enunciado": "A equipe de gestão de riscos de um órgão está adequando o seu processo de tratamento de riscos à norma ABNT NBR ISO/IEC 27005:2023. Para tal, foi estabelecido um processo interativo que engloba as seguintes atividades:\nI. formular e selecionar opções de tratamento de riscos;\nII. avaliar se os riscos estão de acordo com o contexto do SGSI;\nIII. decidir sobre a aceitabilidade do risco residual;\nIV. identificar os riscos da organização;\nV. avaliar os riscos identificados.\nDentre as atividades acima, fazem parte do processo interativo de tratamento de riscos, segundo a ABNT NBR ISO/IEC 27005:2023, somente as atividades:",
+        "alternativas": [
+            "I e III;",
+            "II e IV;",
+            "III e V;",
+            "IV e V;",
+            "I e IV."
+        ],
+        "gabarito": "I e III;"
+    },
+    {
+        "id": 117,
+        "enunciado": "Julgue o próximo item, referente à certificação digital e à gestão de risco.\nDe acordo com a ABNT NBR ISO/IEC 27005, um risco é a fonte de um potencial dano, ou uma situação com a capacidade potencial para causar uma perda.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 118,
+        "enunciado": "Com base nas normas ABNT referentes à segurança da informação, avalie as afirmativas a seguir.\nI. A Norma ABNT NBR ISO/IEC 27001:2022 estabelece requisitos genéricos e aplicáveis a todas as instituições, de qualquer tipo, tamanho ou natureza.\nII. A Norma ABNT NBR ISO/IEC 27002:2022 fornece orientações para ajudar as organizações a cumprirem os requisitos da ABNT NBR ISO/IEC 27005 em relação às ações para abordar riscos de segurança da informação.\nIII. A Norma ABNT NBR ISO/IEC 27005:2022 determina os requisitos para estabelecer, implementar, manter e melhorar continuamente um sistema de gestão da segurança da informação dentro do contexto da organização.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, apenas.",
+            "I e II, apenas.",
+            "I e III, apenas.",
+            "II e III, apenas.",
+            "I, II e III."
+        ],
+        "gabarito": "I, apenas."
+    },
+    {
+        "id": 119,
+        "enunciado": "A NBR ISO/IEC 27005:2023 visa traçar ações para lidar com os riscos de Segurança da Informação, além de realizar atividades de gerenciamento na área, especificamente avaliação e tratamento de riscos. As ações para tratamento de risco denominam-se Respostas ao Risco.\nContratar um seguro, é um exemplo de:",
+        "alternativas": [
+            "Aceitação do risco.",
+            "Modificação do risco.",
+            "Ponderação do risco.",
+            "Mitigação do risco.",
+            "Transferência de risco."
+        ],
+        "gabarito": "Transferência de risco."
+    },
+    {
+        "id": 120,
+        "enunciado": "Acerca do planejamento e da execução de atividades de manutenção preventiva, da identificação e da correção de falhas e das ações corretivas para garantir a integridade e a disponibilidade dos sistemas, julgue o item a seguir.\nA execução de atividades de manutenção preventiva deve ser realizada apenas por um único técnico, para evitar confusões e garantir a consistência do trabalho.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 121,
+        "enunciado": "Para a ABNT NBR ISOMEC 27005:2023, o processo de gestão de riscos de segurança da informação pode ser iterativo para atividades dos processos de",
+        "alternativas": [
+            "identificação de riscos e tratamento de riscos.",
+            "avaliação de riscos e análise de risco.",
+            "análise de riscos e Estabelecimento de contexto.",
+            "avaliação de riscos e/ou tratamento de riscos.",
+            "estabelecimento de contexto e Identificação de riscos."
+        ],
+        "gabarito": "avaliação de riscos e/ou tratamento de riscos."
+    },
+    {
+        "id": 122,
+        "enunciado": "Acerca da gestão de riscos da segurança da informação, julgue o próximo item, com base na ISO 31010.\nA técnica Delphi é utilizada para realizar o tratamento de riscos após a mensuração da probabilidade e após as consequências dos riscos terem sido obtidas, sendo aplicada no nível operacional.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 123,
+        "enunciado": "Leia o enunciado a seguir e julgue o item. As organizações que estão preparadas para lidar com a segurança da informação tendem a ser menos vulneráveis às ameaças e aos impactos causados pelos eventos negativos que afetam seus sistemas e ativos de informação. Estes são um dos recursos mais importantes para uma organização, e por isso é crucial que sejam classificados e controlados adequadamente. A gestão de riscos de segurança da informação surge como uma importante disciplina para tratar o risco de acordo com a norma ABNT NBR ISO/IEC 27002.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 124,
+        "enunciado": "Leia o enunciado a seguir e julgue o item. As organizações que estão preparadas para lidar com a segurança da informação tendem a ser menos vulneráveis às ameaças e aos impactos causados pelos eventos negativos que afetam seus sistemas e ativos de informação. Estes são um dos recursos mais importantes para uma organização, e por isso é crucial que sejam classificados e controlados adequadamente. A gestão de riscos de segurança da informação surge como uma importante disciplina para estimar o nível de riscos com ênfase nos insumos de produção de uma organização.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 125,
+        "enunciado": "Leia o enunciado a seguir e julgue o item. As organizações que estão preparadas para lidar com a segurança da informação tendem a ser menos vulneráveis às ameaças e aos impactos causados pelos eventos negativos que afetam seus sistemas e ativos de informação. Estes são um dos recursos mais importantes para uma organização, e por isso é crucial que sejam classificados e controlados adequadamente. A gestão de riscos de segurança da informação surge como uma importante disciplina para lidar com riscos que afetam exclusivamente os ativos de tecnologia da informação, conforme consta na norma ABNT NBR ISO/IEC 27005.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 126,
+        "enunciado": "Leia o enunciado a seguir e julgue o item. As organizações que estão preparadas para lidar com a segurança da informação tendem a ser menos vulneráveis às ameaças e aos impactos causados pelos eventos negativos que afetam seus sistemas e ativos de informação. Estes são um dos recursos mais importantes para uma organização, e por isso é crucial que sejam classificados e controlados adequadamente. A gestão de riscos de segurança da informação surge como uma importante disciplina para implementar ações para evitar, transferir ou aceitar o risco.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 127,
+        "enunciado": "Leia o enunciado a seguir e julgue o item. As organizações que estão preparadas para lidar com a segurança da informação tendem a ser menos vulneráveis às ameaças e aos impactos causados pelos eventos negativos que afetam seus sistemas e ativos de informação. Estes são um dos recursos mais importantes para uma organização, e por isso é crucial que sejam classificados e controlados adequadamente. A gestão de riscos de segurança da informação surge como uma importante disciplina para assegurar a identificação, estimativa e avaliação de riscos de acordo com a norma ABNT NBR ISO/IEC 27005.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 128,
+        "enunciado": "Gestão de riscos é o processo de identificação, avaliação e mitigação dos riscos que uma organização enfrenta em suas atividades. Envolve a análise sistemática de ameaças potenciais, oportunidades e incertezas que podem afetar negativamente ou positivamente os objetivos estratégicos e operacionais de uma empresa. O objetivo principal da gestão de riscos é minimizar os impactos negativos e maximizar os benefícios esperados, através de estratégias de prevenção, transferência, mitigação ou aceitação dos riscos identificados. Quanto à gestão de riscos sem segurança da informação, julgue o item.\nO processo de gestão de riscos prevê o tratamento do risco e assume que a aceitação deste ocorrerá desde que o tratamento seja satisfatório, conforme preconizado na norma ABNT NBR ISO/IEC 27005.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 129,
+        "enunciado": "Gestão de riscos é o processo de identificação, avaliação e mitigação dos riscos que uma organização enfrenta em suas atividades. Envolve a análise sistemática de ameaças potenciais, oportunidades e incertezas que podem afetar negativamente ou positivamente os objetivos estratégicos e operacionais de uma empresa. O objetivo principal da gestão de riscos é minimizar os impactos negativos e maximizar os benefícios esperados, através de estratégias de prevenção, transferência, mitigação ou aceitação dos riscos identificados. Quanto à gestão de riscos sem segurança da informação, julgue o item.\nPara realizar o gerenciamento de riscos, deve-se analisar e valorar os riscos antes mesmo de se estabelecer o contexto e o escopo e de se identificar os eventos indesejáveis.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 130,
+        "enunciado": "Gestão de riscos é o processo de identificação, avaliação e mitigação dos riscos que uma organização enfrenta em suas atividades. Envolve a análise sistemática de ameaças potenciais, oportunidades e incertezas que podem afetar negativamente ou positivamente os objetivos estratégicos e operacionais de uma empresa. O objetivo principal da gestão de riscos é minimizar os impactos negativos e maximizar os benefícios esperados, através de estratégias de prevenção, transferência, mitigação ou aceitação dos riscos identificados. Quanto à gestão de riscos sem segurança da informação, julgue o item.\nOs riscos de segurança da informação podem ser comparados com outros riscos organizacionais e não apenas considerados isoladamente.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 131,
+        "enunciado": "Gestão de riscos é o processo de identificação, avaliação e mitigação dos riscos que uma organização enfrenta em suas atividades. Envolve a análise sistemática de ameaças potenciais, oportunidades e incertezas que podem afetar negativamente ou positivamente os objetivos estratégicos e operacionais de uma empresa. O objetivo principal da gestão de riscos é minimizar os impactos negativos e maximizar os benefícios esperados, através de estratégias de prevenção, transferência, mitigação ou aceitação dos riscos identificados. Quanto à gestão de riscos sem segurança da informação, julgue o item.\nA norma ABNT NBR ISO/IEC 27005 não aborda de que forma devem-se priorizar os riscos analisados e selecionar as opções de tratamento.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 132,
+        "enunciado": "Gestão de riscos é o processo de identificação, avaliação e mitigação dos riscos que uma organização enfrenta em suas atividades. Envolve a análise sistemática de ameaças potenciais, oportunidades e incertezas que podem afetar negativamente ou positivamente os objetivos estratégicos e operacionais de uma empresa. O objetivo principal da gestão de riscos é minimizar os impactos negativos e maximizar os benefícios esperados, através de estratégias de prevenção, transferência, mitigação ou aceitação dos riscos identificados. Quanto à gestão de riscos sem segurança da informação, julgue o item.\nA organização deve definir e aplicar um processo de avaliação de riscos associados com a perda de confidencialidade, integridade e disponibilidade da informação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 133,
+        "enunciado": "Em um processo de gestão de riscos de TIC, um risco pode ser tratado de diversas formas. São duas formas de tratamento de riscos:",
+        "alternativas": [
+            "mitigar: a organização decide encerrar a atividade que está introduzindo o risco; e, transferir: a organização delega a responsabilidade para um terceiro, como uma seguradora.",
+            "transferir: a organização delega a responsabilidade para um terceiro, como uma seguradora; e, aceitar: a organização decide encerrar a atividade que está introduzindo o risco.",
+            "aceitar: costuma ser usado quando o custo para implementação de contramedidas supera o valor de perda potencial; e, mitigar: a organização decide encerrar a atividade que está introduzindo o risco.",
+            "mitigar: o risco é reduzido até um nível considerado aceitável para a continuidade do negócio; e, aceitar: a organização decide encerrar a atividade que está introduzindo o risco.",
+            "evitar: a organização decide encerrar a atividade que está introduzindo o risco; e, mitigar: o risco é reduzido até um nível considerado aceitável para a continuidade do negócio."
+        ],
+        "gabarito": "evitar: a organização decide encerrar a atividade que está introduzindo o risco; e, mitigar: o risco é reduzido até um nível considerado aceitável para a continuidade do negócio."
+    },
+    {
+        "id": 134,
+        "enunciado": "A norma ABNT NBR ISO/IEC 27.005 tem papel fundamental na Gestão de Riscos de Segurança de Informação, pois seu passo a passo, fornece condições de geral implementação em uma organização que tem como core a Tecnologia da Informação, e até mesmo para um nível departamental relacionado a TI.\nTrabalhar com o risco existente por ele estar dentro de um nível de criticidade registrado e aceito conforme política da organização, é o conceito da seguinte opção no tratamento de riscos de segurança da informação:",
+        "alternativas": [
+            "Cálculo do risco.",
+            "Evitar o risco.",
+            "Transferência do risco.",
+            "Retenção do risco.",
+            "Mitigação do risco."
+        ],
+        "gabarito": "Retenção do risco."
+    },
+    {
+        "id": 135,
+        "enunciado": "Na Gestão de Riscos, as organizações identificam, avaliam e priorizam riscos para minimizar o impacto de eventos adversos em seus objetivos e operações. Uma das principais estratégias utilizadas é a “mitigação de riscos”. Neste contexto marque a alternativa que corretamente contém, o que significa “mitigação de riscos”:",
+        "alternativas": [
+            "Aceitar o risco sem tomar qualquer ação.",
+            "Tomar decisões que fáceis e sem riscos.",
+            "Tomar ações para reduzir a probabilidade ou impacto do risco.",
+            "Iniciar sempre pela atividade que gera o risco."
+        ],
+        "gabarito": "Tomar ações para reduzir a probabilidade ou impacto do risco."
+    },
+    {
+        "id": 136,
+        "enunciado": "No que se refere à disciplina de segurança da informação no gerenciamento de projetos, assinale a alternativa correta.",
+        "alternativas": [
+            "A segurança da informação integrada ao gerenciamento de projetos tem caráter de controle corretivo.",
+            "Os riscos de segurança da informação como parte do gerenciamento do projeto são restritos a projetos de tecnologia da informação.",
+            "A abordagem selecionada para o desenvolvimento de projetos pode ser adaptada para se adequar à gravidade avaliada dos riscos de segurança da informação.",
+            "Requisitos para o cumprimento dos direitos de propriedade intelectual devem ser preferencialmente abordados nas fases de conclusão e entrega dos projetos.",
+            "Os requisitos derivados de processos de negócios são dissociados dos requisitos de segurança da informação."
+        ],
+        "gabarito": "A abordagem selecionada para o desenvolvimento de projetos pode ser adaptada para se adequar à gravidade avaliada dos riscos de segurança da informação."
+    },
+    {
+        "id": 137,
+        "enunciado": "Tendo em vista o processo de identificação de riscos de segurança da informação, assinale a alternativa correta.",
+        "alternativas": [
+            "Todos os riscos identificados devem ser tratados com a mesma severidade.",
+            "A avaliação de risco é o processo de comparação de resultados da análise de risco com certos critérios para se determinar como o risco será aceito ou tratado.",
+            "As informações acerca de riscos de segurança da informação devem ser consideradas atomicamente, ou seja, de maneira isolada, dentro da organização.",
+            "O proprietário do risco é definido como a parte interessada que sofrerá a consequência direta no caso da ocorrência do evento adverso.",
+            "A identificação de riscos com base em eventos identifica ameaças e vulnerabilidades específicas de ativos e permite o tratamento de riscos específicos em um nível detalhado."
+        ],
+        "gabarito": "A avaliação de risco é o processo de comparação de resultados da análise de risco com certos critérios para se determinar como o risco será aceito ou tratado."
+    },
+    {
+        "id": 138,
+        "enunciado": "Analise as assertivas abaixo sobre Análise de Vulnerabilidade e Gestão de Riscos.\nI. A Análise de Vulnerabilidade é o processo de identificar, quantificar e priorizar as fraquezas em um sistema de informação.\nII. A Gestão de Riscos envolve apenas a identificação e a avaliação dos riscos.\nIII. Uma vulnerabilidade pode ser definida como uma ameaça potencial que explora uma falha de segurança no sistema, podendo resultar em danos ou perdas.\nÉ correto o que se afirma em",
+        "alternativas": [
+            "I e II, apenas.",
+            "I e III, apenas.",
+            "II e III, apenas.",
+            "I, apenas.",
+            "II, apenas."
+        ],
+        "gabarito": "I e III, apenas."
+    },
+    {
+        "id": 139,
+        "enunciado": "A norma NBR ISO 27002:2022 fornece diretrizes detalhadas para a implementação de controles de segurança da informação, baseadas nas melhores práticas internacionais. Um aspecto crítico dessa norma é a gestão de riscos, que inclui a identificação, avaliação e tratamento de riscos de segurança da informação.\nConsiderando uma organização que está revisando seus processos de gestão de riscos de segurança da informação para garantir conformidade com a NBR ISO 27002:2022, assinale a alternativa correta sobre a aplicação prática dessas diretrizes.",
+        "alternativas": [
+            "O registro e a documentação dos riscos identificados não são requisitos obrigatórios, sendo opcionais para organizações com baixo perfil de risco.",
+            "A avaliação de riscos deve ser realizada apenas uma vez durante a implementação inicial para definir os controles necessários.",
+            "O tratamento de riscos deve priorizar a aceitação de todos os riscos identificados como baixos, sem a necessidade de ações adicionais.",
+            "A gestão de riscos deve incluir a análise contínua de ameaças e vulnerabilidades para adaptar os controles de segurança conforme necessário.",
+            "A comunicação de riscos deve ser restrita exclusivamente à equipe de segurança da informação, sem envolver outras partes interessadas."
+        ],
+        "gabarito": "A gestão de riscos deve incluir a análise contínua de ameaças e vulnerabilidades para adaptar os controles de segurança conforme necessário."
+    },
+    {
+        "id": 140,
+        "enunciado": "Uma grande corporação internacional de serviços financeiros, que opera em diversos países e manipula volumes massivos de dados sensíveis diariamente, está em processo de atualização de seu Sistema de Gestão de Segurança da Informação (SGSI) para alinhar-se com a norma NBR ISO/IEC 27001:2022. Essa norma é reconhecida globalmente por fornecer um framework abrangente para gerenciar e proteger informações sensíveis, garantindo a confidencialidade, integridade e disponibilidade dos dados.\nDurante uma reunião de planejamento estratégico, o Chief Information Security Officer (CISO) destacou a importância de um processo baseado em riscos para identificar e implementar controles de segurança apropriados. Além disso, a norma requer que a organização não apenas adote esses controles, mas também demonstre conformidade contínua através de monitoramento e auditoria rigorosos.\nAssinale a alternativa a seguir que apresenta a abordagem correta e alinhada com os princípios e requisitos estabelecidos pela norma NBR ISO/IEC 27001:2022 para a implementação e manutenção de um SGSI eficaz.",
+        "alternativas": [
+            "Centralizar todas as responsabilidades de segurança da informação no departamento de TI, garantindo que eles implementem todos os controles e procedimentos necessários.",
+            "Focar exclusivamente na implementação de controles técnicos avançados, como criptografia e firewalls, para proteger os dados sensíveis contra ameaças externas.",
+            "Adotar uma política de troca de senhas obrigatória a cada 30 dias, garantindo que os usuários sigam práticas rigorosas de gestão de senhas.",
+            "Realizar auditorias de segurança periódicas apenas em resposta a incidentes de segurança significativos, para garantir que as medidas corretivas sejam implementadas imediatamente.",
+            "Desenvolver um processo contínuo de avaliação de riscos que inclua a identificação, análise e tratamento dos riscos de segurança da informação, alinhado aos objetivos estratégicos da organização."
+        ],
+        "gabarito": "Desenvolver um processo contínuo de avaliação de riscos que inclua a identificação, análise e tratamento dos riscos de segurança da informação, alinhado aos objetivos estratégicos da organização."
+    },
+    {
+        "id": 141,
+        "enunciado": "Em um ambiente corporativo onde a proteção contra ameaças cibernéticas é crítica, a análise de vulnerabilidades se destaca como uma prática fundamental para identificar, avaliar e mitigar riscos potenciais nos sistemas de informação. Considere uma grande instituição financeira que recentemente passou por um incidente de segurança significativo, resultando na exposição de dados sensíveis de clientes. Para prevenir futuros incidentes, a instituição decidiu implementar um processo robusto de análise de vulnerabilidades, integrando ferramentas e técnicas avançadas.\nA instituição contratou um time de especialistas em segurança da informação para conduzir uma análise abrangente, que inclui a identificação de vulnerabilidades em seus sistemas, avaliação do impacto potencial dessas vulnerabilidades e a implementação de medidas de mitigação apropriadas. Durante as discussões sobre a metodologia a ser adotada, os especialistas debateram várias abordagens e ferramentas disponíveis no mercado.\nTendo em vista as melhores práticas e frameworks internacionais para análise de vulnerabilidades, assinale a alternativa que corretamente apresenta a abordagem considerada a mais abrangente e eficaz para garantir uma proteção proativa contra ameaças cibernéticas.",
+        "alternativas": [
+            "Integração de um sistema de gerenciamento de patches automatizado, garantindo que todas as vulnerabilidades conhecidas sejam corrigidas rapidamente.",
+            "Realização de varreduras periódicas de vulnerabilidades utilizando ferramentas automatizadas, complementadas por testes de penetração realizados por especialistas.",
+            "Implementação de um programa de bounty de vulnerabilidades, incentivando pesquisadores de segurança externos a identificar e reportar falhas de segurança.",
+            "Adoção de frameworks de segurança, como o CIS Controls, para garantir a conformidade com as melhores práticas de segurança e reduzir a superfície de ataque.",
+            "Realização de auditorias regulares de segurança por terceiros, com foco em avaliar a conformidade com normas e regulamentações específicas da indústria."
+        ],
+        "gabarito": "Realização de varreduras periódicas de vulnerabilidades utilizando ferramentas automatizadas, complementadas por testes de penetração realizados por especialistas."
+    },
+    {
+        "id": 142,
+        "enunciado": "A norma NBR-ISSO-IEC 27005:2019 ilustra o processo de gestão de riscos de segurança da informação com a figura abaixo.\nEntendendo o diagrama acima como um processo, devemos esperar como saída da atividade DEFINIÇÃO DO CONTEXTO, de acordo com a norma NBR-ISSO-IEC 27005:2019,",
+        "alternativas": [
+            "o escopo do levantamento de processos, incluindo atividades auto normativas.",
+            "uma lista de ameaças com a identificação do tipo e da fonte das ameaças.",
+            "uma lista de ativos com riscos a serem gerenciados e uma lista dos processos de negócio relacionados aos ativos e suas relevâncias.",
+            "uma lista de riscos avaliados, ordenados por prioridade de acordo com os critérios de avaliação de riscos.",
+            "a especificação dos critérios básicos, o escopo e os limites do processo de gestão de riscos de segurança da informação e a organização responsável pelo processo."
+        ],
+        "gabarito": "a especificação dos critérios básicos, o escopo e os limites do processo de gestão de riscos de segurança da informação e a organização responsável pelo processo."
+    },
+    {
+        "id": 143,
+        "enunciado": "Gerenciamento de riscos é o processo de planejar, organizar, conduzir e controlar as atividades de uma organização visando minimizar os efeitos do risco sobre o capital e o lucro de uma organização. Riscos podem surgir da incerteza do mercado financeiro, de falhas de projeto, de responsabilidades legais, de risco de crédito, de acidentes, de causas naturais e desastres, bem como de ataques deliberados de adversários.\n(HINTZBERGEN, J.; HINTZBERGEN, K.; SMULDERS, A.; BAARS, H. Fundamentos de Segurança da Informação: com base na ISO 27001 e na ISO 27002. Brasport, 2018.) De acordo com os conceitos relacionados à identificação, análise e tratamento de riscos, assim como o seu gerenciamento, assinale a afirmativa INCORRETA.",
+        "alternativas": [
+            "Quando riscos são identificados, após a sua avaliação, uma decisão de tratamento deve ser tomada para cada um dos riscos.",
+            "Em grandes organizações, ISO ou CISO são pessoas responsáveis pelo processo de gerenciamento de risco, sendo considerado um processo contínuo.",
+            "É possível realizar uma análise de riscos puramente quantitativa com o objetivo de calcular, com base no impacto do risco, o nível do prejuízo financeiro e a probabilidade de uma ameaça se tornar um incidente.",
+            "A avaliação do risco deve incluir uma abordagem sistemática para estimar a magnitude dos riscos (análise do risco) e o processo de comparar o risco estimado em relação a um critério, a fim de determinar a importância do risco (estimativa do risco)."
+        ],
+        "gabarito": "É possível realizar uma análise de riscos puramente quantitativa com o objetivo de calcular, com base no impacto do risco, o nível do prejuízo financeiro e a probabilidade de uma ameaça se tornar um incidente."
+    },
+    {
+        "id": 144,
+        "enunciado": "O processo de gestão de riscos de segurança da informação da equipe de TI do TCE/ES, denominado ProcessoR, foi elaborado em plena observância à norma NBR ISO/IEC 27005:2019.\nSendo assim, durante a execução do ProcessoR, a equipe de TI do TCE/ES deve julgar se o risco residual é ou não satisfatório logo após a atividade do ProcessoR de:",
+        "alternativas": [
+            "análise de riscos;",
+            "aceitação do risco;",
+            "avaliação de riscos;",
+            "tratamento do risco;",
+            "identificação de riscos."
+        ],
+        "gabarito": "tratamento do risco;"
+    },
+    {
+        "id": 145,
+        "enunciado": "Acerca de segurança da informação e com base nas normas da ABNT aplicáveis à temática, julgue o próximo item.\nA análise qualitativa de riscos utiliza a valoração financeira dos ativos, para gerar a escala de probabilidade de ocorrência de determinado risco.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 146,
+        "enunciado": "Acerca de segurança da informação e com base nas normas da ABNT aplicáveis à temática, julgue o próximo item.\nAs decisões acerca da retenção do risco são tomadas com base na inclusão, na exclusão ou na alteração de controles, para se reduzir o risco, conforme a norma aplicável.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 147,
+        "enunciado": "Acerca de segurança da informação e com base nas normas da ABNT aplicáveis à temática, julgue o próximo item.\nNo contexto da prevenção de incidentes relacionados a vulnerabilidades e ataques a sistemas computacionais, é na etapa de avaliação de riscos que são tomadas as decisões para gerenciamento do risco, mediante controles de prevenção e detecção.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 148,
+        "enunciado": "Com relação à gestão de riscos, abordada pela Norma NBR ISO/IEC n.o 27005:2011, julgue o item.\nO processo de gestão de riscos é contínuo, mas não pode interagir com a avaliação de riscos e com a atividade de tratamento do risco.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 149,
+        "enunciado": "Com relação à gestão de riscos, abordada pela Norma NBR ISO/IEC n.o 27005:2011, julgue o item.\nQuanto aos critérios para a aceitação dos riscos, é importante que a organização defina sua própria escala de níveis de aceitação do risco e que itens, como, por exemplo, operações, tecnologia, finanças, entre outros, serão considerados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 150,
+        "enunciado": "Com relação à gestão de riscos, abordada pela Norma NBR ISO/IEC n.o 27005:2011, julgue o item.\nO processo de avaliação de riscos é composto por quatro atividades: identificação dos riscos; análise dos riscos; avaliação dos riscos; e eliminação dos riscos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 151,
+        "enunciado": "Com relação à gestão de riscos, abordada pela Norma NBR ISO/IEC n.o 27005:2011, julgue o item.\nUma das opções para o tratamento do risco é realizar a sua retenção. Entretanto, sua escolha não deve ser feita com base na avaliação de riscos, mas sim com base na identificação dos riscos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 152,
+        "enunciado": "Com relação à gestão de riscos, abordada pela Norma NBR ISO/IEC n.o 27005:2011, julgue o item.\nA fim de dar suporte ao processo decisório, convém que a comunicação do risco seja realizada.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 153,
+        "enunciado": "Com base na norma NBR ISO/IEC n.º 27005:2011, julgue o item seguinte, a respeito de gestão de riscos e continuidade de negócio.\nConforme a norma em apreço, um controle implementado que funcione mal ou que seja usado incorretamente é incapaz de representar por si só uma vulnerabilidade, o que ocorrerá somente se houver uma ameaça associada.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 154,
+        "enunciado": "A respeito de segurança da informação, julgue o seguinte item.\nA análise de riscos é a atividade do processo de gestão de riscos que permite comparar o risco estimado com os critérios de riscos predefinidos, para determinar a importância do risco.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 155,
+        "enunciado": "A norma ABNT 27005 estabelece, em sua seção sobre Tratamento do Risco de Segurança da Informação, quatro opções desse tratamento, sendo, especificamente, duas dessas opções:",
+        "alternativas": [
+            "Modificação do Risco e Minimização do Risco.",
+            "Ação de Evitar o Risco e Perpetuação do Risco.",
+            "Desvio do Risco e Retenção do Risco.",
+            "Minimização do Risco e Desvio do Risco.",
+            "Retenção do Risco e Compartilhamento do Risco."
+        ],
+        "gabarito": "Retenção do Risco e Compartilhamento do Risco."
+    },
+    {
+        "id": 156,
+        "enunciado": "A Norma ABNT 27005 estabelece alguns itens que devem ser considerados quando da definição dos critérios para a aceitação de riscos, sendo dois desses itens",
+        "alternativas": [
+            "tecnologia e finanças.",
+            "operações e equipe técnica.",
+            "fatores sociais e tempo de funcionamento.",
+            "equipe técnica e tecnologia.",
+            "tempo de funcionamento e finanças."
+        ],
+        "gabarito": "tecnologia e finanças."
+    },
+    {
+        "id": 157,
+        "enunciado": "A norma ISO/IEC 27005 define uma estrutura de atividades para gestão de riscos. Cada atividade possui diretrizes que servem de guia, instruindo o que deve ser alcançado ao final de cada interação. No contexto da gestão de riscos de segurança da informação e de acordo com a norma ABNT NBR 27005, o Processo de Avaliação de Riscos inclui as etapas de",
+        "alternativas": [
+            "identificação de riscos, análise de riscos e avaliação de riscos.",
+            "análise de riscos, avaliação de riscos e mitigação de riscos.",
+            "análise de riscos, tratamento dos riscos e avaliação de riscos residuais.",
+            "identificação de riscos, mitigação de riscos e tratamento de riscos."
+        ],
+        "gabarito": "identificação de riscos, análise de riscos e avaliação de riscos."
+    },
+    {
+        "id": 158,
+        "enunciado": "Assinale a alternativa que apresenta a relação correta entre ameaça, vulnerabilidade e impacto na gerência de riscos.",
+        "alternativas": [
+            "Ameaça é a probabilidade de um evento ocorrer, vulnerabilidade é a capacidade de um sistema resistir a ataques e impacto é o resultado negativo de uma ameaça bem-sucedida.",
+            "Ameaça é o resultado negativo de uma vulnerabilidade, vulnerabilidade é a probabilidade de um evento ocorrer e impacto é a capacidade de um sistema resistir a ataques.",
+            "Ameaça é a capacidade de um sistema resistir a ataques, vulnerabilidade é o resultado negativo de uma ameaça e impacto é a probabilidade de um evento ocorrer.",
+            "Ameaça é a capacidade de um sistema resistir a ataques, vulnerabilidade é a probabilidade de um evento ocorrer e impacto é o resultado negativo de uma ameaça bem-sucedida.",
+            "Ameaça é o resultado negativo de uma vulnerabilidade, vulnerabilidade é a capacidade de um sistema resistir a ataques e impacto é a probabilidade de um evento ocorrer."
+        ],
+        "gabarito": "Ameaça é a probabilidade de um evento ocorrer, vulnerabilidade é a capacidade de um sistema resistir a ataques e impacto é o resultado negativo de uma ameaça bem-sucedida."
+    },
+    {
+        "id": 159,
+        "enunciado": "João recebeu a tarefa de adequar a gestão de riscos de segurança da informação da DPE/RS à norma ABNT NBR ISO/IEC 27005:2019.\nPara isso, ele deve:",
+        "alternativas": [
+            "remover ou substituir os controles considerados insuficientes;",
+            "determinar o valor dos ativos de informação durante a definição do contexto;",
+            "assegurar que os riscos residuais sejam aceitos pelos gestores;",
+            "determinar os riscos residuais antes de definir o plano de tratamento do risco;",
+            "iniciar o processo de gestão de riscos com a identificação dos riscos."
+        ],
+        "gabarito": "assegurar que os riscos residuais sejam aceitos pelos gestores;"
+    },
+    {
+        "id": 160,
+        "enunciado": "A norma NBR ISO/IEC 27005 é uma norma internacional que aborda a gestão de riscos em segurança da informação. Qual etapa é parte fundamental do processo de gestão de riscos conforme a NBR ISO/IEC 27005?",
+        "alternativas": [
+            "Estabelecer objetivos de vendas.",
+            "Identificar e analisar riscos.",
+            "Implementar estratégias de marketing.",
+            "Definir políticas de recursos humanos.",
+            "Estabelecer metas de produção."
+        ],
+        "gabarito": "Identificar e analisar riscos."
+    },
+    {
+        "id": 161,
+        "enunciado": "Conforme a norma ABNT NBR ISO/IEC 27005, no contexto da análise de riscos da organização, a partir da identificação de cenários de incidentes relevantes, de ameaças, de ativos afetados, de vulnerabilidades exploradas e de efeitos para os ativos e processos do negócio, convém que ocorra a",
+        "alternativas": [
+            "avaliação da probabilidade dos incidentes.",
+            "determinação do nível de risco.",
+            "descrição geral do processo de tratamento do risco.",
+            "análise qualitativa de riscos.",
+            "análise quantitativa de riscos."
+        ],
+        "gabarito": "avaliação da probabilidade dos incidentes."
+    },
+    {
+        "id": 162,
+        "enunciado": "A norma ABNT NBR ISO/IEC 27005 – Tecnologia da Informação – Técnicas de segurança – Gestão de Riscos de segurança da informação – estabelece quatro opções para o tratamento de riscos em um sistema de informação, sendo duas dessas opções:",
+        "alternativas": [
+            "replicação e divisão do risco.",
+            "modificação e retenção do risco.",
+            "absorção e participação do risco.",
+            "substituição e compactação do risco.",
+            "internalização e implementação do risco."
+        ],
+        "gabarito": "modificação e retenção do risco."
+    },
+    {
+        "id": 163,
+        "enunciado": "De acordo com a norma ABNT NBR ISO/IEC 27005:2019, em uma organização, o compartilhamento de determinado risco",
+        "alternativas": [
+            "tem potencial para criar novos riscos ou modificar riscos existentes e identificados.",
+            "tem potencial para evitar que ocorra a atividade ou condição que dá origem aos riscos.",
+            "permite à organização decidir sobre a retenção dos riscos com base em sua avaliação.",
+            "permite à organização deliberar sobre a aceitação dos riscos a partir de seu tratamento adequado.",
+            "permite à organização gerenciar o risco por meio de controles para reduzir o risco residual."
+        ],
+        "gabarito": "tem potencial para criar novos riscos ou modificar riscos existentes e identificados."
+    },
+    {
+        "id": 164,
+        "enunciado": "A respeito de gestão de riscos e continuidade do negócio, julgue o item a seguir, com base na NBR ISO/IEC 27005.\nÉ apropriado que ações relacionadas à retenção do risco, sem outras ações adicionais, sejam tomadas independentemente da execução da avaliação dos riscos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 165,
+        "enunciado": "A respeito de gestão de riscos e continuidade do negócio, julgue o item a seguir, com base na NBR ISO/IEC 27005.\nCritérios para a aceitação do risco devem instituir exclusivamente um único limite, não sendo aceitável mais de um limite.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 166,
+        "enunciado": "A norma NBR ISO/IEC 27005:2019 fornece diretrizes para a gestão de riscos de segurança da informação em uma organização. De acordo com esta norma, é conveniente que",
+        "alternativas": [
+            "o nível de risco seja determinado para todos os cenários de incidentes relevantes.",
+            "seja dada atenção unicamente a incidentes que causem consequências de natureza permanente.",
+            "o valor do impacto ao negócio seja sempre expresso de forma quantitativa.",
+            "controles para modificar, reter ou compartilhar os riscos sejam prontamente evitados.",
+            "sejam identificados somente os riscos cujas fontes estejam sob controle da organização."
+        ],
+        "gabarito": "o nível de risco seja determinado para todos os cenários de incidentes relevantes."
+    },
+    {
+        "id": 167,
+        "enunciado": "Algumas políticas de senhas requerem que os usuários alterem sua senha periodicamente, por exemplo, a cada 90 dias. Uma desvantagem dessa prática é que",
+        "alternativas": [
+            "a troca de uma senha em um banco de dados de uma aplicação consome muitos recursos computacionais devido ao cálculo de seu hash.",
+            "ela encoraja o usuário a anotar a nova senha em papéis ou notas do tipo post-it, podendo deixá-la exposta.",
+            "ela não é compatível com o uso de autenticação por múltiplos fatores.",
+            "ela impõe que a senha seja armazenada no banco de dados da aplicação em texto claro, sem uso de hash ou encriptação.",
+            "ela não é compatível com a imposição de um número mínimo de caracteres na senha, o que poderia garantir um certo nível de segurança."
+        ],
+        "gabarito": "ela encoraja o usuário a anotar a nova senha em papéis ou notas do tipo post-it, podendo deixá-la exposta."
+    },
+    {
+        "id": 168,
+        "enunciado": "A respeito de proteção contra softwares maliciosos, sistemas de detecção de intrusão, segurança de servidores e sistemas operacionais, certificação digital, assinatura digital e gestão de riscos, julgue o item a seguir.\nGerenciamento de riscos é um processo contínuo que se aplica a todas as fases operacionais em que consequências de um risco específico são aceitas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 169,
+        "enunciado": "Considerando a ABNT NBR ISO/IEC 27005 e a NBR ISO 22301, julgue o item a seguir.\nA ABNT NBR ISO/IEC 27005 provê metodologia específica para o gerenciamento de riscos em segurança da informação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 170,
+        "enunciado": "Considerando a ABNT NBR ISO/IEC 27005 e a NBR ISO 22301, julgue o item a seguir.\nNa avaliação de desempenho, em desempenho deficitário, não devem ser incluídos não conformidades, quase acidentes e alarmes falsos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 171,
+        "enunciado": "Considerando a ABNT NBR ISO/IEC 27005 e a NBR ISO 22301, julgue o item a seguir.\nDiante de riscos identificados que necessitam de tratamento, a organização deve tomar medidas proativas que reduzam a probabilidade de interrupção dos serviços ou diminuam o tempo de interrupção.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 172,
+        "enunciado": "Na NBR ISO 27005:2019, é estabelecido que a análise de riscos pode ser empreendida com diferentes graus de detalhamento, dependendo da criticidade dos ativos, da extensão das vulnerabilidades conhecidas e dos incidentes anteriores envolvendo a organização. Há uma metodologia de análise de riscos que utiliza uma escala com atributos que descrevem a magnitude das consequências potenciais (por exemplo, pequena, média e grande) e a probabilidade de essas consequências ocorrerem (por exemplo, alta, média e baixa). Essa metodologia de análise de riscos é classificada como",
+        "alternativas": [
+            "combinada.",
+            "geométrica.",
+            "ponderada.",
+            "qualitativa.",
+            "quantitativa."
+        ],
+        "gabarito": "qualitativa."
+    },
+    {
+        "id": 173,
+        "enunciado": "Na NBR ISO 29134:2020, é recomendada a elaboração de um instrumento para avaliar os potenciais impactos de um processo, de um sistema de informação, de um programa, de um módulo de software, de um dispositivo ou de outra iniciativa que trate dados pessoais na privacidade. Além disso, é recomendada, também, a consulta às partes interessadas, para tomar ações necessárias para tratar os riscos à privacidade. A partir desse instrumento, é possível elaborar um relatório incluindo uma documentação sobre medidas tomadas para o tratamento de riscos. De acordo com essa norma, esse relatório é o de",
+        "alternativas": [
+            "DP.",
+            "PIA.",
+            "P&D.",
+            "R&D.",
+            "SGSI."
+        ],
+        "gabarito": "PIA."
+    },
+    {
+        "id": 174,
+        "enunciado": "As opções previstas para o tratamento do risco em segurança da informação segundo a Norma NBR ISO/IEC nº 27005:2011, que define uma estrutura de atividades para gestão de risco, inclui",
+        "alternativas": [
+            "retenção do risco.",
+            "prevenção do risco.",
+            "mitigação do risco.",
+            "avaliação do risco."
+        ],
+        "gabarito": "retenção do risco."
+    },
+    {
+        "id": 175,
+        "enunciado": "A análise e o gerenciamento de riscos na área de tecnologia são práticas essenciais para identificar e mitigar ameaças que podem afetar projetos, operações e ativos de uma organização. Assinale a alternativa que melhor descreve o processo de gerenciamento de riscos de tecnologia.",
+        "alternativas": [
+            "O processo de gerenciamento de riscos de tecnologia se concentra principalmente na eliminação completa de todos os riscos, garantindo assim que a organização opere sem ameaças.",
+            "O processo de gerenciamento de riscos de tecnologia é uma atividade única, que não requer revisão contínua ou adaptação ao longo do tempo.",
+            "O processo de gerenciamento de riscos de tecnologia envolve a identificação de riscos, a avaliação de sua probabilidade e impacto e a implementação de estratégias para mitigá-los ou aceitá-los.",
+            "O processo de gerenciamento de riscos de tecnologia não deve ser usado para pequenas e médias empresas."
+        ],
+        "gabarito": "O processo de gerenciamento de riscos de tecnologia envolve a identificação de riscos, a avaliação de sua probabilidade e impacto e a implementação de estratégias para mitigá-los ou aceitá-los."
+    },
+    {
+        "id": 176,
+        "enunciado": "Diretrizes para o processo de gestão de riscos de segurança da informação são estabelecidas pela Norma NBR ISO/IEC 27005:2019. De acordo com esta norma, assinale a afirmativa correta.",
+        "alternativas": [
+            "Convém que a atividade ou condição que dá origem a um determinado risco seja incentivada.",
+            "Convém que a identificação de riscos exclua aqueles cujas fontes estão além do controle da organização.",
+            "Convém que a responsabilidade pelos ativos seja institucional sem promover responsabilização individualizada.",
+            "Convém que o nível dos riscos seja comparado com os critérios de avaliação e com os critérios para a aceitação do risco."
+        ],
+        "gabarito": "Convém que o nível dos riscos seja comparado com os critérios de avaliação e com os critérios para a aceitação do risco."
+    },
+    {
+        "id": 177,
+        "enunciado": "De acordo com as entradas e saídas do processo de gerenciamento de risco da NBR ISO/IEC 27005: 2011, numere a COLUNA II de acordo com a COLUNA I, relacionando a fase do processo à entrada necessária.\nCOLUNA I\n1. Definição do contexto\n2. Avaliação de riscos\n3. Tratamento de riscos\n4. Aceitação do risco COLUNA II\n( ) Critérios básicos, escopo e limites, organização para gerência de risco.\n( ) Lista dos riscos priorizados conforme os critérios de avaliação.\n( ) Todas as informações relevantes sobre a organização.\n( ) Plano de treinamento de riscos, avaliação de riscos residuais.\nAssinale a sequência correta.",
+        "alternativas": [
+            "3 4 2 1.",
+            "1 2 4 3.",
+            "2 3 1 4.",
+            "4 1 3 2."
+        ],
+        "gabarito": "2 3 1 4."
+    },
+    {
+        "id": 178,
+        "enunciado": "O Processo de Gestão dos Riscos é um processo contínuo e iterativo constituído de fases e atividades, possibilitando a segurança efetiva em sistemas de Tecnologia da Informação e Comunicação no que tange ao processamento, ao armazenamento e à transmissão de informações. Nesse contexto, a fase que envolve a decisão entre reter, evitar, transferir ou reduzir os riscos é",
+        "alternativas": [
+            "aceitação do risco.",
+            "apreciação do risco.",
+            "definição do contexto.",
+            "tratamento do risco.",
+            "comunicação do risco."
+        ],
+        "gabarito": "tratamento do risco."
+    },
+    {
+        "id": 179,
+        "enunciado": "Se um firewall tem diversas portas abertas, há uma maior probabilidade de um invasor usar uma delas para acessar a rede de forma não autorizada. Se os usuários não forem treinados nos processos e procedimentos, haverá uma maior probabilidade de um funcionário cometer um erro, intencional ou não, que possa destruir dados.\nSe um sistema de detecção de intrusão não for implementado na rede, haverá maior probabilidade de um ataque não ser percebido até que seja tarde demais. Consiste na amarração da vulnerabilidade, da ameaça e da probabilidade de exploração ao impacto resultante nos negócios.\nBAARS, Hans et al. Fundamentos de segurança da informação. Editora Brasport, 2017, com adaptações.\nNo contexto da segurança da informação, assinale a alternativa correspondente ao termo definido no texto apresentado.",
+        "alternativas": [
+            "Risco.",
+            "Salvaguarda.",
+            "Contramedida.",
+            "Hexagrama parkeriano.",
+            "Disponibilidade."
+        ],
+        "gabarito": "Risco."
+    },
+    {
+        "id": 180,
+        "enunciado": "Considere a situação hipotética em que um restaurante acomoda os clientes sempre em espaço aberto, sem teto nem qualquer tipo de cobertura, ficando sujeito a situações de chuva e, consequentemente, a frequentes fechamentos temporários para reparos. De acordo com os conceitos de segurança da informação, diz-se que a ausência de teto e de cobertura é um(a)",
+        "alternativas": [
+            "ameaça.",
+            "vulnerabilidade.",
+            "impacto.",
+            "identificação.",
+            "legalidade."
+        ],
+        "gabarito": "vulnerabilidade."
+    },
+    {
+        "id": 181,
+        "enunciado": "Rita e sua equipe estão trabalhando com gestão de riscos e constataram que, segundo Sommerville (2, o processo de gerenciamento de riscos pode ser definido em quatro etapas: identificação de riscos, análise de riscos, planejamento de riscos e monitoração de riscos. A lista priorizada de riscos e os planos de contingência são elaborados, respectivamente, nas etapas de:",
+        "alternativas": [
+            "análise de riscos e monitoração de riscos.",
+            "análise de riscos e planejamento de riscos.",
+            "identificação de riscos e monitoração de riscos.",
+            "identificação de riscos e planejamento de riscos.",
+            "planejamento de riscos e monitoração de riscos."
+        ],
+        "gabarito": "análise de riscos e planejamento de riscos."
+    },
+    {
+        "id": 182,
+        "enunciado": "De acordo com a Norma NBR/ISO 17799, um termo está relacionado aos riscos e é definido como o processo de identificação, controle e minimização ou eliminação dos riscos de segurança que podem afetar os sistemas de informação, a um custo aceitável.\nEsse termo é denominado",
+        "alternativas": [
+            "gerenciamento de risco.",
+            "planejamento de risco.",
+            "avalição de risco.",
+            "homologação de risco.",
+            "especificação de risco."
+        ],
+        "gabarito": "gerenciamento de risco."
+    },
+    {
+        "id": 183,
+        "enunciado": "Na gestão de riscos e continuidade de negócio à luz da NBR ISO/IEC n.o 27005:2011, o processo de avaliação de riscos inclui",
+        "alternativas": [
+            "identificação de riscos e análise de riscos.",
+            "aceitação de riscos e tratamento de riscos.",
+            "tratamento de riscos e transferência do risco.",
+            "estabelecimento do contexto e tratamento de riscos.",
+            "identificação de riscos e mitigação de riscos."
+        ],
+        "gabarito": "identificação de riscos e análise de riscos."
+    },
+    {
+        "id": 184,
+        "enunciado": "Segundo a Norma NBR ISO/IEC 27005, no que diz respeito ao monitoramento e análise crítica dos fatores de riscos de segurança da informação, é necessária uma análise crítica periódica sobre",
+        "alternativas": [
+            "os novos ativos incluídos no escopo da gestão de riscos.",
+            "as opções selecionadas para o tratamento de riscos.",
+            "os incidentes relacionados à segurança da informação.",
+            "a exposição de vulnerabilidades já identificadas a ameaças novas.",
+            "as novas ameaças ainda não avaliadas e que podem estar ativas."
+        ],
+        "gabarito": "as opções selecionadas para o tratamento de riscos."
+    },
+    {
+        "id": 185,
+        "enunciado": "De acordo com a Norma NBR ISO/IEC 27005, na avaliação das consequências da análise de riscos, para que a avaliação de impacto permita um processo de tomada de decisão mais eficiente, é indicado",
+        "alternativas": [
+            "expressar as consequências e o impacto de forma factual e realista para a organização.",
+            "elaborar uma escala com atributos descritores das consequências potenciais e do impacto.",
+            "utilizar um método para designar valores monetários para o impacto.",
+            "empregar análise qualitativa capaz de dimensionar com precisão a extensão do impacto.",
+            "apropriar dados estatísticos históricos para quantificar a dimensão do impacto."
+        ],
+        "gabarito": "utilizar um método para designar valores monetários para o impacto."
+    },
+    {
+        "id": 186,
+        "enunciado": "João foi contratado para fazer a gestão de risco em um órgão público de acordo com as diretrizes para o processo de gestão de riscos de segurança da informação estabelecidas na norma ABNT NBR ISO/IEC 27005:2019. João está trabalhando em sua tarefa incluindo, excluindo e alterando alguns controles. Com isso poderá avaliar os riscos residuais e considerá-los aceitáveis ou não.\nA etapa do processo de gestão de riscos de segurança da informação em que João está trabalhando é:",
+        "alternativas": [
+            "definição do contexto;",
+            "processo de avaliação de riscos;",
+            "tratamento de riscos;",
+            "aceitação de riscos;",
+            "monitoramento e análise crítica dos riscos."
+        ],
+        "gabarito": "tratamento de riscos;"
+    },
+    {
+        "id": 187,
+        "enunciado": "No que tange a gestão de riscos e continuidade do negócio, julgue o próximo item.\nSegundo a NBR n.º 27005:2019, a abordagem da gestão de riscos de segurança da informação define que se deve adotar um método de fazer a gestão da segurança para todos os processos existentes para facilitar o treinamento dos colaboradores.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 188,
+        "enunciado": "Julgue o próximo item, a respeito da conformidade e gestão de riscos.\nO risco é o efeito da incerteza sobre os objetivos, muitas vezes identificado a partir a análise da probabilidade e do impacto de um evento ocorrer.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 189,
+        "enunciado": "Julgue o próximo item, a respeito da conformidade e gestão de riscos.\nA análise de riscos consiste na atividade de cálculo de probabilidade por meio apenas de avaliações quantitativas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 190,
+        "enunciado": "Acerca de aspectos diversos pertinentes a objetos de avaliação associados a segurança da informação, julgue o item seguinte.\nTendo em vista que organizações de telecomunicações enfrentam influências e fatores externos e internos que tornam incerto o alcance de seus objetivos, e que a estrutura e o processo de gestão de riscos devem ser personalizados e proporcionais aos contextos externo e interno dessas organizações, bem como aos seus objetivos, é correto afirmar que, em uma organização de telecomunicação, um modelo de gestão de riscos deverá ser adotado quando houver necessidade de implementar controles não previstos nos projetos. Nesse sentido, deve-se considerar que, para ocorrer, o risco tem de ser conhecido ou já haver sido tratado mediante a adoção de controles internos simples ou complexos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 191,
+        "enunciado": "Dentre as opções de tratamento de riscos, identifique a ação que NÃO é uma das quatro abordagens principais.",
+        "alternativas": [
+            "Aceitar o risco.",
+            "Transferir o risco.",
+            "Comunicar o risco.",
+            "Evitar o risco.",
+            "Mitigar o risco."
+        ],
+        "gabarito": "Comunicar o risco."
+    },
+    {
+        "id": 192,
+        "enunciado": "Durante um processo de análise de risco, uma organização detectou que o uso de laptops fora da organização trazia um risco inaceitável de acesso não autorizado a sistemas internos. Por esse motivo, resolveu adotar uma ação de evitar esse risco. Para isso, a organização decidiu",
+        "alternativas": [
+            "implementar uma autenticação de dois fatores nos laptops.",
+            "distribuir laptops apenas para diretoria executiva.",
+            "contratar um seguro para o caso de furto/roubo dos laptops.",
+            "Só permitir o uso de laptops fora da organização com criptografia de disco e uso de VPN.",
+            "proibir o uso dos laptops fora da organização."
+        ],
+        "gabarito": "proibir o uso dos laptops fora da organização."
+    },
+    {
+        "id": 193,
+        "enunciado": "Em relação à segurança em recursos humanos, à gestão de incidentes de segurança da informação, à gestão de riscos e continuidade de negócio e à norma NBR ISO/IEC n.º 27005:2011, julgue o item.\nUm dos objetivos do controle “gestão de incidentes de segurança da informação” é assegurar que fragilidades e eventos de segurança da informação associados com sistemas de informação sejam comunicados, de forma a permitir a tomada de ação corretiva em tempo hábil.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 194,
+        "enunciado": "Em relação à segurança em recursos humanos, à gestão de incidentes de segurança da informação, à gestão de riscos e continuidade de negócio e à norma NBR ISO/IEC n.º 27005:2011, julgue o item.\nA norma NBR ISO/IEC n.º 27005:2011 aborda a gestão de riscos, podendo ser aplicada a todos os tipos de organizações (grandes, pequenas ou médias), desde que tenham a pretensão de gerir os riscos que poderiam comprometer sua segurança da informação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 195,
+        "enunciado": "Em relação à segurança em recursos humanos, à gestão de incidentes de segurança da informação, à gestão de riscos e continuidade de negócio e à norma NBR ISO/IEC n.º 27005:2011, julgue o item.\nDe acordo com a norma NBR ISO/IEC n.º 27005:2011, apenas os riscos com probabilidade de provocar mais impactos nas empresas é que devem ser analisados, para que se saiba o quanto eles afetarão a empresa, ajudando-a a tomar decisões sobre ações futuras.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 196,
+        "enunciado": "Segundo a Norma ISO 27002, “para cada um dos riscos identificados, seguindo a análise/avaliação de riscos, uma decisão sobre o tratamento do risco precisa ser tomada. Possíveis opções para o tratamento do risco, incluem”\nI. aplicar controles apropriados para reduzir os riscos.\nII. conhecer e objetivamente aceitar os riscos, sabendo que eles atendem claramente à política da organização e aos critérios para a aceitação de risco.\nIII. conhecer os riscos, permitindo ações que possam causar a ocorrência de riscos.\nIV. transferir os riscos associados para outras partes, por exemplo, seguradoras ou fornecedores.\nAssinale",
+        "alternativas": [
+            "se somente os itens II e III estiverem corretos.",
+            "se somente os itens I e III estiverem corretos.",
+            "se somente os itens I, II e IV estiverem corretos.",
+            "se todos os itens estiverem corretos."
+        ],
+        "gabarito": "se somente os itens I, II e IV estiverem corretos."
+    },
+    {
+        "id": 197,
+        "enunciado": "Julgue o item a seguir, com relação a sistemas de proteção antispam, a normas da NBR ISO/IEC 27005, aos planos de continuidade de negócios e a disposições da Lei Geral de Proteção de Dados Pessoais (LGPD).\nDe acordo com a NBR ISO/IEC 27005, na avaliação das consequências da análise de riscos, o valor do impacto de um ativo de informação afetado por uma violação de segurança é integralmente determinado pelo custo da recuperação e da reposição da informação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 198,
+        "enunciado": "A avaliação do risco em uma organização deve contemplar a identificação, quantificação e priorização do risco em relação ao critério de aceitação do risco. Os riscos que não puderem ser aceitos pela organização deverão ser tratados. Nesse sentido, uma opção adequada de resposta ao risco é",
+        "alternativas": [
+            "compartilhar o risco, implementando ações e aplicando o correto controle para reduzir o nível de aceitação do risco.",
+            "evitar o risco, aplicando-se os controles apropriados para reduzir os impactos do risco.",
+            "mitigar o risco, transferindo-o para outros parceiros — por exemplo, fornecedores ou seguradoras.",
+            "aceitar o risco, conhecendo-o, e não implementar ações, pois o risco atende os critérios de aceitação."
+        ],
+        "gabarito": "aceitar o risco, conhecendo-o, e não implementar ações, pois o risco atende os critérios de aceitação."
+    },
+    {
+        "id": 199,
+        "enunciado": "Para uma efetiva gestão de riscos, é preciso, inicialmente, fazer o levantamento das ameaças e seus impactos, da probabilidade de concretização das ameaças e dos riscos potenciais. Para a implementação da gestão de riscos, devem ser considerados três níveis, cujas respectivas finalidades são\nI garantir a adequação técnica necessária ao tratamento adequado dos riscos;\nII assegurar que as atividades que compreendem a gestão de riscos sejam consideradas de forma sistemática; e\nIII permitir que os funcionários e dirigentes identifiquem suas responsabilidades, conheçam os riscos e possam ajudar a reduzi-los e controlá-los.\nNo texto precedente, os itens I, II e III apresentam as funções, respectivamente, dos níveis",
+        "alternativas": [
+            "ativos, ameaças e impactos.",
+            "hardwares, softwares e dados.",
+            "tecnologias, processos e pessoas.",
+            "de importância, grau de severidade das perdas e custos envolvidos."
+        ],
+        "gabarito": "tecnologias, processos e pessoas."
+    },
+    {
+        "id": 200,
+        "enunciado": "Na avaliação de riscos, procura-se uma base que sirva para efeitos de comparação, como a análise e a avaliação de riscos efetuadas em épocas anteriores. O conhecimento prévio de impactos e probabilidades de riscos é sempre relevante para uma avaliação adequada e completa. Por outro lado, há basicamente dois modos de realizar a avaliação de riscos, os quais se baseiam",
+        "alternativas": [
+            "no controle e na classificação de recursos computacionais.",
+            "nas estimativas quantitativa e qualitativa.",
+            "no custo e benefício.",
+            "nos níveis de tecnologia e processos."
+        ],
+        "gabarito": "nas estimativas quantitativa e qualitativa."
+    }
+]

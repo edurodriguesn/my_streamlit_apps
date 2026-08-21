@@ -1,0 +1,840 @@
+[
+    {
+        "id": 1,
+        "enunciado": "Em uma página web com JavaScript suspeito, o perito observa que um invasor inseriu um break dentro do loop responsável pela validação dos dados.\nO efeito dessa instrução dentro do loop é de",
+        "alternativas": [
+            "pausar temporariamente a execução do script.",
+            "pular diretamente para a próxima iteração.",
+            "encerrar imediatamente o loop e prosseguir a execução após ele.",
+            "gerar exceções durante o processo de validação.",
+            "suspender atividades do garbage collector do navegador."
+        ],
+        "gabarito": "encerrar imediatamente o loop e prosseguir a execução após ele."
+    },
+    {
+        "id": 2,
+        "enunciado": "No contexto do desenvolvimento de aplicações web, o JavaScript é uma linguagem amplamente utilizada para implementar comportamentos dinâmicos e interativos.\nAssinale a opção que apresenta a sintaxe correta para uma declaração condicional if que verifica se a variável x é maior que 10 e, caso verdadeiro, imprime \"Maior que 10\"",
+        "alternativas": [
+            "if x > 10 { console.log(\"Maior que 10\"); }.",
+            "if (x >= console.log(\"Maior que 10\").",
+            "if (x > { console.log(\"Maior que 10\"); } else { console.log(\"Menor ou igual a 10\"); }.",
+            "if [x > 10] { console.log(\"Maior que 10\"); }.",
+            "if (x > : { console.log(\"Maior que 10\"); }."
+        ],
+        "gabarito": "if (x > { console.log(\"Maior que 10\"); } else { console.log(\"Menor ou igual a 10\"); }."
+    },
+    {
+        "id": 3,
+        "enunciado": "No ecossistema JavaScript existe uma ferramenta que atua como um compilador, permitindo utilizar funcionalidades recentes da linguagem (ex: async/await, classes, arrow functions e JSX), convertendo código ECMAScript 2015+ em uma versão compatível com navegadores mais antigos.\nTal ferramenta é denominada",
+        "alternativas": [
+            "Express.js.",
+            "npm.",
+            "Gulp.",
+            "webpack.",
+            "Babel."
+        ],
+        "gabarito": "Babel."
+    },
+    {
+        "id": 4,
+        "enunciado": "A partir do lançamento do PHP 7 e do ECMAScript 2021 foram introduzidos novos recursos que impactaram a forma como os desenvolvedores escrevem e mantêm código.\nCom relação ao lançamento destas novas versões, analise os itens a seguir:\nI. ECMAScript 2021 introduziu o operador de encadeamento opcional, representado pelo codificador “ ?. “.\nII. ECMAScript 2021 removeu o suporte para funções assíncronas.\nIII. PHP 7 introduziu o operador de coalescência nula, representado pelo codificador “ ?? “.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, apenas.",
+            "I e II, apenas.",
+            "I e III, apenas.",
+            "III, apenas.",
+            "I, II e III."
+        ],
+        "gabarito": "III, apenas."
+    },
+    {
+        "id": 5,
+        "enunciado": "Analise o código a seguir.\n<!DOCTYPE html> <html> <body> <p id=\"demo\"></p> <script> document.getElementById(\"demo\").innerHTML = ~ 5;\n</script> </body> </html> Ao executar o código, o resultado do processamento do Javascript compatível com o ECMAS 2021 é:",
+        "alternativas": [
+            "6.",
+            "~5.",
+            "-6.",
+            "-5.",
+            "NaN."
+        ],
+        "gabarito": "~5."
+    },
+    {
+        "id": 6,
+        "enunciado": "Na linguagem Javascript, valores podem ser convertidos para o tipo boolean, o qual possui as opções true e false.\nAssim, marque (T) para a opção que resulta em true quando convertida para boolean e (F) para aquela que resulta em false.\n( ) string vazia (“”)\n( ) null\n( ) undefined As opções são, respectivamente,",
+        "alternativas": [
+            "T – F – T.",
+            "T – T – F.",
+            "F – F – T.",
+            "F – T – F.",
+            "F – F – F."
+        ],
+        "gabarito": "F – F – F."
+    },
+    {
+        "id": 7,
+        "enunciado": "O trecho de código em linguagem JavaScript a seguir solicita a inserção do nome de cinco produtos, que são ordenados e então exibidos.\n(() => { const produtos = [];\nfor (let i = 0; i < 5; i++) { let nome;\ndo { nome = prompt(`Digite o nome do produto: ${i + 1}:`).trim();\n} while (!nome);\nprodutos.push(nome);\n} produtos.sort((a,\nb) => b.localeCompare(a, 'pt-BR', { sensitivity: 'base' }));\nconst ul = document.getElementById('lista');\nprodutos.forEach(p => { const li = document.createElement('li');\nli.textContent = p;\nul.appendChild(li);\n});\n})();\nSupondo que todos os nomes inseridos sejam diferentes entre si, indique qual será a ordem exibida ao final das cinco inserções.",
+        "alternativas": [
+            "Independentemente da ordem de inserção, será exibida a saída dos nomes em ordem alfabética/numérica crescente.",
+            "Independentemente da ordem de inserção, será exibida a saída dos nomes em ordem alfabética/numérica crescente e, logo após, em ordem decrescente.",
+            "Independentemente da ordem de inserção, será exibida a saída dos nomes em ordem alfabética/numérica decrescente.",
+            "Independentemente da ordem de inserção, será exibida a saída dos nomes em ordem alfabética/numérica decrescente e, logo após, em ordem crescente.",
+            "Independentemente da ordem de inserção, será exibida a saída dos nomes em ordem alfabética/numérica aleatória."
+        ],
+        "gabarito": "Independentemente da ordem de inserção, será exibida a saída dos nomes em ordem alfabética/numérica decrescente."
+    },
+    {
+        "id": 8,
+        "enunciado": "Embora a linguagem JavaScript não possua instruções SQL nativas, ela pode enviar comandos SQL a sistemas gerenciadores de banco de dados (SGBDs) por meio de drivers, APIs ou bibliotecas.\nTendo isso como base, avalie se as afirmativas a seguir são verdadeiras (V) ou falsas (F).\n( ) A linguagem JavaScript de servidor Node.js pode executar comandos SQL enviando strings a bibliotecas como pg, mysql2 ou better-sqlite3.\n( ) A especificação da linguagem JavaScript define palavras-chave SQL reservadas (como INSERT e DELETE) que o motor executa diretamente, sem bibliotecas externas.\n( ) Drivers SQL modernos para a linguagem JavaScript não permitem iniciar e controlar transações (como COMMIT e ROLLBACK) diretamente no código.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "V – F – F.",
+            "V – V – F.",
+            "F – V – V.",
+            "V – V – V.",
+            "F – F – V."
+        ],
+        "gabarito": "V – F – F."
+    },
+    {
+        "id": 9,
+        "enunciado": "Analise o código Javascript, a seguir.\nclass Ave { constructor(nome) { this.nome = nome;\n} som() { throw new Error(\"Implementar\");\n} } class Pato extends Ave { constructor(nome) { super(nome);\n} som() { return \"Quá quá!\";\n} } class Galinha extends Ave { constructor(nome) { super(nome);\n} som() { return \" Cocorocoo!\";\n} } Sobre o código Javascript apresentado, analise as afirmativas a seguir e assinale (V) para a verdadeira e (F) para a falsa.\n( ) A classe Ave é uma classe abstrata que fornece uma interface para outras classes de aves.\n( ) A classe Pato e a classe Galinha são exemplos de polimorfismo, pois ambas sobrescrevem o método som() da classe Ave.\n( ) O método som() na classe Ave pode ser chamado diretamente para fazer o som da ave.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "F – V – F.",
+            "V – F – F.",
+            "V – V – F.",
+            "V – F – V."
+        ],
+        "gabarito": "V – F – V."
+    },
+    {
+        "id": 10,
+        "enunciado": "Considere o seguinte código em ECMAScript 2021:\nconst num = 1_2_3_4_5+1_0;\nconsole.log(num) Ao ser executado, o código acima exibe o seguinte texto no console:",
+        "alternativas": [
+            "NaN;",
+            "12355;",
+            "undefined;",
+            "1_2_3_4_6_0;",
+            "1_2_3_4_5+1_0."
+        ],
+        "gabarito": "12355;"
+    },
+    {
+        "id": 11,
+        "enunciado": "No contexto do JavaScript, analise o quadro a seguir sob a ótica das diferenças sintáticas utilizadas nas declarações de variáveis, e as respectivas possibilidades de redeclarar e/ou alterar o valor de uma variável ao longo do código.\nTipo de Permite Permite alterar declaração redeclarar valor ? Sim Sim ? Não Sim ? Não Não De cima para baixo, a ordem de preenchimento da primeira coluna, de acordo com as possibilidades de cada tipo de declaração, é:",
+        "alternativas": [
+            "const, let, var;",
+            "let, const, var;",
+            "let, var, const;",
+            "var, const, let;",
+            "var, let, const."
+        ],
+        "gabarito": "var, let, const."
+    },
+    {
+        "id": 12,
+        "enunciado": "No contexto do JavaScript, analise a função a seguir.\nfunction f(t) { return t.replace(\"A\",\"X\").slice(1,.trim( );\n} A expressão f(\" ABCDEF AE AAA \") retorna:",
+        "alternativas": [
+            "ABCDEF AE AAA.",
+            "ABCDEFAEAAA.",
+            "ABCDEFXE.",
+            "XBCDEF AE.",
+            "XBCDEF XE."
+        ],
+        "gabarito": "XBCDEF AE."
+    },
+    {
+        "id": 13,
+        "enunciado": "Analise o conteúdo de uma página Web, com o código JavaScript, exibido a seguir.\n<!DOCTYPE html> <html> <body> <p>Exemplo.</p> <p>Aguarde um pouco...</p> <p id=\"xpto\"></p> <script> ---- </script> </body> </html> Quando essa página for carregada:\n-- as linhas Exemplo.\nAguarde um pouco...\nserão exibidas;\n-- alguns segundos depois, a linha Obrigado.\nserá exibida.\nPara que isso aconteça, o bloco tracejado no código deve ser substituído por:",
+        "alternativas": [
+            "document.getElementById(\"xpto\").innerHTML = setTimeout(\"Obrigado.\", ;",
+            "function f(p) { setTimeout(function() { f(\"Obrigado.\"); }, ; document.getElementById(\"xpto\").innerHTML = f(p); }",
+            "setTimeout(5, \"s\"); document.getElementById(\"xpto\").innerHTML = \"Obrigado.\";",
+            "setTimeout(5; document.getElementById(\"xpto\").innerHTML = \"Obrigado.\";",
+            "setTimeout(function() { f(\"Obrigado.\"); }, ; function f(p) { document.getElementById(\"xpto\").innerHTML = p; }"
+        ],
+        "gabarito": "setTimeout(function() { f(\"Obrigado.\"); }, ; function f(p) { document.getElementById(\"xpto\").innerHTML = p; }"
+    },
+    {
+        "id": 14,
+        "enunciado": "Os arquitetos de um projeto precisam decidir entre usar JavaScript puro ou JQuery no cliente.\nAssinale a opção que compara corretamente as características de cada um.",
+        "alternativas": [
+            "O jQuery pode ser mais acessível para iniciantes devido à sua sintaxe simplificada, além disso o JavaScript já é obsoleto frente ao JQuery.",
+            "O JavaScript puro, embora menos mais performático, tem uma diferença de desempenho que pode ser insignificante em pequenas interações. No entanto, o jQuery é a unica forma para garantir compatibilidade entre diferentes navegadores.",
+            "O jQuery simplifica muitas tarefas comuns de JavaScript, como manipulação de DOM e eventos, com uma sintaxe mais curta e fácil de entender. No entanto, animações complexas só podem ser feitas com JavaScript.",
+            "O uso de JavaScript elimina a dependência de bibliotecas externas pois todas as suas funcionalidades fazem parte da linguagem reduzindo a complexidade do projeto. Porém o jQuery sempre adiciona mais complexidade do que simplificação.",
+            "Aprender JavaScript puro pode ser mais vantajoso a longo prazo, pois aprofunda o entendimento da linguagem, mas com o jQuery, geralmente é possível escrever menos código para alcançar os mesmos objetivos."
+        ],
+        "gabarito": "Aprender JavaScript puro pode ser mais vantajoso a longo prazo, pois aprofunda o entendimento da linguagem, mas com o jQuery, geralmente é possível escrever menos código para alcançar os mesmos objetivos."
+    },
+    {
+        "id": 15,
+        "enunciado": "Analise o código Javascript a seguir.\n<!DOCTYPE html> <html> <body> <p id=\"demo\"></p> <script> let text = '{\"Funcionarios\":[' + '{\"Nome\":\"J.\",\"Sobrenome\":\"Junior\" },' + '{\"Nome\":\"A.\",\"Sobrenome\":\"Filho\" },' + '{\"Nome\":\"P.\",\"Sobrenome\":\"Neto\" },'+ '{\"Nome\":\"L.\",\"Sobrenome\":\"Bisneto\" },'+ '{\"Nome\":\"P.\",\"Sobrenome\":\"Filha\" }]}';\nconst obj = JSON.parse(text);\ndocument.getElementById(\"demo\").innerHTML = obj.Funcionarios[2].Nome+\" \"+obj.Funcionarios[2].Sobrenome;\n</script> </body> </html> O resultado exibido ao rodar esse código será",
+        "alternativas": [
+            "A. Filho.",
+            "P. Filha.",
+            "L. Bisneto.",
+            "P. Neto.",
+            "J. Junior."
+        ],
+        "gabarito": "P. Neto."
+    },
+    {
+        "id": 16,
+        "enunciado": "Observe o seguinte script em JavaScript:\nconst vetor = [ [2, 0], [2, 4] ];\nconst saida = vetor.reduceRight((acc, v) => acc.join(v), );\nconsole.log(saida);\nAo ser executado, o script acima imprime no console:",
+        "alternativas": [
+            "04,22;",
+            "20,24;",
+            "22,04;",
+            "24,20;",
+            "42,02."
+        ],
+        "gabarito": "22,04;"
+    },
+    {
+        "id": 17,
+        "enunciado": "A analista Camila executou o seguinte script em JavaScript:\nconst map1 = new WeakMap();\nconst e1 = {};\nmap1.set(e1, e;\nconsole.log(map1.get(e) Logo após, Camila executou outro script em JavaScript:\nconst map2 = new WeakMap();\nconst e2 = \"dois\";\nmap2.set(e2, e;\nconsole.log(map2.get(e) O interpretador JavaScript usado por Camila suporta a estrutura de dados WeakMap do JavaScript.\nOs scripts executados por Camila imprimiram no console, respectivamente:",
+        "alternativas": [
+            "TypeError e TypeError;",
+            "TypeError e a string “dois”;",
+            "SyntaxError e a string “dois”;",
+            "um objeto vazio e TypeError;",
+            "um objeto vazio e a string “dois”."
+        ],
+        "gabarito": "um objeto vazio e TypeError;"
+    },
+    {
+        "id": 18,
+        "enunciado": "Ao implementar algumas funcionalidades em sua página pessoal, Lucas fez um teste, com base no código Java Script apresentado a seguir, em um trecho do HTML.\n<script> const f = function(...v){ a = v.length>0?v.length*v[0]:0;\nv.splice(0,;\nreturn a==0?a:a+f(...v);\n} console.log(f(...[1,2,3,...[0,1],3,2]));\n</script> Quando Lucas abriu a página, o valor impresso no console foi:",
+        "alternativas": [
+            "6;",
+            "12;",
+            "34;",
+            "36;",
+            "45."
+        ],
+        "gabarito": "34;"
+    },
+    {
+        "id": 19,
+        "enunciado": "O Lazy Loading está entre as técnicas de otimização de desempenho mais importantes no desenvolvimento mobile, e consiste em encurtar o caminho crítico de renderização",
+        "alternativas": [
+            "fazendo que todas as imagens e vídeos sejam considerados não-críticos.",
+            "considerando parte da execução de códigos JavaScript não- crítica.",
+            "removendo todos os recursos não-críticos do site.",
+            "carregando todas as fontes assim que o usuário acessa o site.",
+            "considerando parte da construção do CSS Object Model não-crítica."
+        ],
+        "gabarito": "considerando parte da execução de códigos JavaScript não- crítica."
+    },
+    {
+        "id": 20,
+        "enunciado": "Combinar funções e métodos JavaScript é uma opção para criar experiências responsivas em diferentes dispositivos.\nNesse contexto, considerando as limitações de processamento de dispositivos móveis, para monitorar mudanças no tamanho da janela, poderíamos",
+        "alternativas": [
+            "verificar o tamanho da janela no evento 'DOMContentLoaded'.",
+            "usar o método “window.addEventListener('load')”.",
+            "usar “window.matchMedia” para criar uma Media Query e adicionar um listener.",
+            "usar o método “window.resize” juntamente com um listener.",
+            "usar o método “window.addEventListener('resize')”."
+        ],
+        "gabarito": "usar “window.matchMedia” para criar uma Media Query e adicionar um listener."
+    },
+    {
+        "id": 21,
+        "enunciado": "A biblioteca Leaflet é um recurso bastante popular entre os desenvolvedores de ferramentas de visualização de dados geoespaciais na Web.\nA implementação das funcionalidades disponibilizadas por esta biblioteca implica a instanciação de um mapa",
+        "alternativas": [
+            "código em linguagem HTML.",
+            "bitmap obtido por meio de requisição a serviço WMS.",
+            "script HTML em uma página escrita na linguagem JavaScript.",
+            "script JavaScript em uma página escrita na linguagem HTML.",
+            "script PHP em uma página escrita na linguagem HTML."
+        ],
+        "gabarito": "script JavaScript em uma página escrita na linguagem HTML."
+    },
+    {
+        "id": 22,
+        "enunciado": "Com relação à linguagem de programação JavaScript, analise as afirmativas a seguir.\nI. Set é uma coleção de valores que não permite elementos repetidos.\nII. Todos os objetos são criados por meio do construtor JSON (JavaScript Object Notation).\nIII. A sintaxe para uma declaração de função com dois parâmetros (p0 e pé:\nfunction nome_da_função(p0, p{ corpo_da_função } Está correto o que se afirma em",
+        "alternativas": [
+            "I, apenas.",
+            "III, apenas.",
+            "I e II, apenas.",
+            "I e III, apenas.",
+            "II e III, apenas."
+        ],
+        "gabarito": "I e III, apenas."
+    },
+    {
+        "id": 23,
+        "enunciado": "Em JavaScript, a palavra-chave ____________ é usada para declarar variáveis cujo valor pode mudar no escopo do bloco em que foram definidas, enquanto a palavra-chave ____________ é usada para variáveis imutáveis. Já o método ____________ adiciona elementos ao final de um array e a estrutura ____________ permite a repetição de um bloco de código enquanto uma condição for verdadeira, já o objeto ____________ fornece métodos para manipulação de números e cálculos matemáticos.\nEm sequência, as palavras-chave que completam corretamente essas lacunas são:",
+        "alternativas": [
+            "const, let, while, push, Math.",
+            "while, push, Math, const, let.",
+            "let, const, push, while, Math.",
+            "Math, const, let, while, push.",
+            "while, Math, const, push, let."
+        ],
+        "gabarito": "let, const, push, while, Math."
+    },
+    {
+        "id": 24,
+        "enunciado": "Considere o seguinte código em JavaScript:\nconst regexp = /(f+)(\\d?)(t*)/g;\nconst str = 'trf1trf2trf3trf4trf5';\nconst array = [...str.matchAll(regexp)];\nconsole.log(array.length) Ao ser executado, o código acima imprime na saída padrão do console:",
+        "alternativas": [
+            "1.",
+            "2.",
+            "3.",
+            "4.",
+            "5."
+        ],
+        "gabarito": "5."
+    },
+    {
+        "id": 25,
+        "enunciado": "Considere o seguinte código em JavaScript:\nconst array = [\"T\", \"R\", \"F\", 1] array.splice(0, 0, '>') console.log(array.filter(v=>!!v)) Ao ser executado, o código acima exibirá na saída do console:",
+        "alternativas": [
+            "um erro de violação de constante;",
+            "o array [\">\", \"T\", \"R\", \"F\", 1];",
+            "o array [\"T\", \"R\", \"F\", 1];",
+            "um erro de sintaxe;",
+            "o array []."
+        ],
+        "gabarito": "o array [\">\", \"T\", \"R\", \"F\", 1];"
+    },
+    {
+        "id": 26,
+        "enunciado": "Em muitas linguagens de programação, o bloco try-catch é uma estrutura fundamental para o tratamento de exceções.\nNo Javascript, para tratar múltiplas exceções dentro de um mesmo bloco try-catch, podemos",
+        "alternativas": [
+            "utilizar múltiplos blocos catch após o mesmo bloco try, cada um para uma exceção específica.",
+            "especificar os diferentes tipos de exceção na cláusula catch, separados por vírgulas.",
+            "utilizar o bloco finally para capturar exceções adicionais não tratadas pelo bloco catch.",
+            "usar um único bloco catch e, dentro dele, diferenciar as exceções usando estruturas condicionais como if ou switch.",
+            "declarar os tipos de exceção diretamente no bloco try usando parâmetros específicos."
+        ],
+        "gabarito": "usar um único bloco catch e, dentro dele, diferenciar as exceções usando estruturas condicionais como if ou switch."
+    },
+    {
+        "id": 27,
+        "enunciado": "Assinale a opção que indica o tipo de vulnerabilidade que é geralmente associada à função javascript eval()",
+        "alternativas": [
+            "Cross-origin resource sharing (CORS).",
+            "Cross-site request forgery (CSRF).",
+            "Cross-site scripting (XSS).",
+            "Server-side request forgery (SSRF).",
+            "Cross Site History Manipulation (XSHM)."
+        ],
+        "gabarito": "Cross-site scripting (XSS)."
+    },
+    {
+        "id": 28,
+        "enunciado": "Considere as seguintes expressões usando a linguagem javascript:\n1 == '1' e 1 === '1' Os resultados são, respectivamente,",
+        "alternativas": [
+            "1 e 1.",
+            "true e true.",
+            "'1' e '1'.",
+            "false e false.",
+            "true e false."
+        ],
+        "gabarito": "true e false."
+    },
+    {
+        "id": 29,
+        "enunciado": "Analise o código Javascritp a seguir.\nlet a = {x: 1};\nlet b = {x: 2};\nlet c = {x: 3};\nlet arr = [a, b, c];\narr.forEach((obj) => { obj.x += 1;\n});\nconsole.log(a.x, b.x, c.x);\nO resultado exibido ao rodar esse código será",
+        "alternativas": [
+            "1 2 3.",
+            "2 3 4.",
+            "4 5 6.",
+            "[1, 2, 3].",
+            "[2, 3, 4]."
+        ],
+        "gabarito": "2 3 4."
+    },
+    {
+        "id": 30,
+        "enunciado": "Analise o pretenso código JavaScript a seguir.\nconst xpto = (a,\nb) => a + b;\nSobre esse trecho, é correto afirmar que esse código:",
+        "alternativas": [
+            "é válido, porque define uma função que retorna a soma de dois números fornecidos como parâmetros;",
+            "não compila devido à ausência de um par dos delimitadores “{“ e “}”;",
+            "não compila porque o símbolo “=>” não é permitido na definição de uma função JavaScript;",
+            "não compila porque o símbolo “=>” não é permitido numa declaração const;",
+            "pode ser compilado, mas gera erro em tempo de execução quando xpto for invocada."
+        ],
+        "gabarito": "é válido, porque define uma função que retorna a soma de dois números fornecidos como parâmetros;"
+    },
+    {
+        "id": 31,
+        "enunciado": "No contexto da linguagem JavaScript, analise as afirmativas sobre variáveis declaradas como const.\nI. Devem ter seus valores atribuídos na declaração.\nII. Podem ter seus valores alterados depois de declaradas.\nIII. Têm sempre escopo global.\nEstá correto o que se afirma em:",
+        "alternativas": [
+            "somente II e III;",
+            "somente I;",
+            "somente II;",
+            "somente III;",
+            "I, II e III."
+        ],
+        "gabarito": "somente I;"
+    },
+    {
+        "id": 32,
+        "enunciado": "No contexto de um script JavaScript numa página Web, considere o trecho a seguir.\n<script> function teste(x) { return (x / ;\n} alert (teste);\n</script> É correto afirmar sobre esse script que:",
+        "alternativas": [
+            "há um erro de sintaxe que impede sua execução;",
+            "quando executado, exibe a definição da função teste;",
+            "quando executado, exibe o valor 0;",
+            "quando executado, exibe o valor undefined;",
+            "quando executado, o comando alert não é acionado."
+        ],
+        "gabarito": "quando executado, exibe a definição da função teste;"
+    },
+    {
+        "id": 33,
+        "enunciado": "Os tipos de dados suportados pela linguagem ECMAScript (versão são",
+        "alternativas": [
+            "Null, Boolean, Binary, Symbol, Real e Integers.",
+            "Null, Boolean, Varchar, Symbol, Real, Integers e Object.",
+            "Undefined, Null, Boolean, String, Symbol, Number, BigInt e Object.",
+            "Undefined, Null, Boolean, Varchar, Symbol, BigInt, Real, Money e Polimorphic.",
+            "Complex, Null, Boolean, Binary, Varchar, LongInt, Real, Money, Object e Polimorphic."
+        ],
+        "gabarito": "Undefined, Null, Boolean, String, Symbol, Number, BigInt e Object."
+    },
+    {
+        "id": 34,
+        "enunciado": "O analista José criou a função CalcObjs em JavaScript. A CalcObjs recebe uma coleção de objetos e realiza determinado cálculo em cada objeto da coleção. No caso de existirem objetos repetidos, a CalcObjs considera apenas a primeira ocorrência do objeto na coleção. A fim de rastrear os objetos já processados, José utilizou uma estrutura de dados disponível no JavaScript, do tipo keyed collection, cujos valores são únicos entre si e passíveis de remoção pelo coletor de lixo.\nPara rastrear os objetos processados, José utilizou a estrutura de dados do JavaScript:",
+        "alternativas": [
+            "Map;",
+            "Symbol;",
+            "WeakSet;",
+            "SharedArrayBuffer;",
+            "Uint8ClampedArray."
+        ],
+        "gabarito": "WeakSet;"
+    },
+    {
+        "id": 35,
+        "enunciado": "Assinale o método JavaScript que retorna o número de caracteres em uma string.",
+        "alternativas": [
+            "charAt().",
+            "count.",
+            "len().",
+            "length.",
+            "size."
+        ],
+        "gabarito": "length."
+    },
+    {
+        "id": 36,
+        "enunciado": "Analise as operações bitwise do JavaScript, exibidas a seguir.\n4 & 1 7 | 2 ~ -5 9 >> 2 9 >>> 1 Os valores de cada uma dessas expressões, na ordem, são:",
+        "alternativas": [
+            "0; 7; 5; 1; 2.",
+            "1; 9; 5; 1; 2.",
+            "0; 7; 4; 2; 4.",
+            "0; 9; 4; 0; 4.",
+            "1; 1; -5; 4; 2."
+        ],
+        "gabarito": "0; 7; 4; 2; 4."
+    },
+    {
+        "id": 37,
+        "enunciado": "Considere o script JavaScript a seguir.\nfunction f(f) { return (f*f); } let value1 = f;\nalert(value;\nlet value2 = f(1;\nalert(value;\nlet value3 = f;\nalert(value3(1);\nAssinale os valores exibidos na execução do script acima, na ordem.",
+        "alternativas": [
+            "function f(f) { return (f*f); } 10000 10000.",
+            "function f(f) { return (f*f); } 10000 undefined.",
+            "undefined 10000 undefined.",
+            "10000.",
+            "undefined undefined undefined."
+        ],
+        "gabarito": "function f(f) { return (f*f); } 10000 10000."
+    },
+    {
+        "id": 38,
+        "enunciado": "Considere o trecho a seguir quando utilizado numa página Web.\n<body onload=\"alert('xxxxxxx')\"> O efeito desse trecho é",
+        "alternativas": [
+            "a exibição automática da mensagem xxxxxxx imediatamente antes que a página seja carregada.",
+            "a exibição automática da mensagem xxxxxxx imediatamente antes que um formulário seja carregado.",
+            "a exibição automática da mensagem xxxxxxx imediatamente depois que a página foi carregada.",
+            "o início imediato de uma operação de upload.",
+            "um erro, pois o script contém incompatibilidades."
+        ],
+        "gabarito": "a exibição automática da mensagem xxxxxxx imediatamente depois que a página foi carregada."
+    },
+    {
+        "id": 39,
+        "enunciado": "Considere o código JavaScript nas duas questões a seguir.\nfunction numeros(L, N) { x1 = 0;\nx2 = L.length-1;\nwhile (x1 < x{ if (L[x2] >= N) { x2 = x2 - 1;\n} else if (L[x1] + L[x2] != N) { x1 = x1 + 1;\n} else if (L[x1] + L[x2] == N) { return true;\n} else { return false;\n} } return false;\n} O parâmetro L deve ter como valor um array com números inteiros, maiores que zero, dispostos em ordem crescente.\nQuanto à função numeros, apresentada anteriormente, é correto afirmar que o principal propósito do algoritmo é localizar um par de números em L:",
+        "alternativas": [
+            "cuja soma seja diferente de N;",
+            "cuja soma seja igual a N;",
+            "cuja soma seja igual ao dobro de N;",
+            "cujo módulo da diferença seja igual a N;",
+            "cujo produto seja igual a N."
+        ],
+        "gabarito": "cuja soma seja igual a N;"
+    },
+    {
+        "id": 40,
+        "enunciado": "Considere o script JavaScript a seguir.\nlet x = 16;\nlet y = [];\ny[2] = x;\ny[2] %= 3;\ny[0] = x<<2;\ny[1] = x <<= 5; alert(y);\nA execução desse script exibe:",
+        "alternativas": [
+            "0,128,1.",
+            "2,512,32.",
+            "64,true,1.",
+            "64,512,1.",
+            "128,64,2."
+        ],
+        "gabarito": "64,512,1."
+    },
+    {
+        "id": 41,
+        "enunciado": "Analise o código JavaScript a seguir.\nconst valores = [4, 3, 2, 1, 0];\nlet xpto = \"\";\nvalores.forEach(fF);\nalert (xpto);\nfunction fF(value, index) { xpto += index + \":\" + value + \">\";\n} A execução desse código exibe:",
+        "alternativas": [
+            "4:4>.",
+            "4:0>3:1>2:2>1:3>0:4>.",
+            "0:4>1:3>2:2>3:1>4:0>.",
+            "0:0>.",
+            "0:0>1:1>2:2>3:3>4:4>."
+        ],
+        "gabarito": "0:4>1:3>2:2>3:1>4:0>."
+    },
+    {
+        "id": 42,
+        "enunciado": "Observe o código JavaScript a seguir.\nlet x=\"\";\nlet i=0;\nx=\" 0 \";\nwhile (i < f x += i;\nx = 10-i + x;\ni++;\nx Assinale o valor da variável x ao final do loop.",
+        "alternativas": [
+            "10987654321 0 0123456789.",
+            "1234567891 0 9876543210.",
+            "12345678910 0 0123456789.",
+            "12345678910 0 012345678910."
+        ],
+        "gabarito": "12345678910 0 0123456789."
+    },
+    {
+        "id": 43,
+        "enunciado": "Considere o trecho JavaScript exibido a seguir.\nconst a = [1,2,3,4,5];\nconst b = a.map(xpto);\nalert(b);\nfunction xpto (x, y) { return x * y;\n} Assinale o conteúdo exibido na execução do script acima.",
+        "alternativas": [
+            "0,2,6,12,20.",
+            "1,2,3,4,5.",
+            "1,3,5,7,9.",
+            "1,4,9,16,25.",
+            "2,4,6,8,10."
+        ],
+        "gabarito": "0,2,6,12,20."
+    },
+    {
+        "id": 44,
+        "enunciado": "Arrays são estruturas de dados que armazenam uma coleção de elementos.\nA maneira apropriada para criar um array de elementos em JavaScript é",
+        "alternativas": [
+            "const meuarray = new Array [\"maçã\", \"laranja\", \"2\"].",
+            "const meuarray = {\"maçã\", \"laranja\", \"2\"}.",
+            "const meuarray = [\"maçã\", \"laranja\", 2].",
+            "const meuarray = (\"maçã\", \"laranja\",.",
+            "const meuarray := [2]string{\"maçã\", \"laranja\"}."
+        ],
+        "gabarito": "const meuarray = [\"maçã\", \"laranja\", 2]."
+    },
+    {
+        "id": 45,
+        "enunciado": "No contexto do JavaScript, considere as seguintes afirmativas sobre a declaração de variáveis com let ou var.\nI. Variáveis declaradas com let não podem ser redeclaradas no mesmo { } bloco.\nII. Variáveis declaradas com let podem ser utilizadas em qualquer trecho do código (escopo global).\nIII. Variáveis declaradas com var no interior de um { } bloco podem ser utilizadas fora do bloco de origem.\nEstá correto o que se afirma apenas em",
+        "alternativas": [
+            "I.",
+            "II.",
+            "I e II.",
+            "I e III.",
+            "II e III."
+        ],
+        "gabarito": "I e III."
+    },
+    {
+        "id": 46,
+        "enunciado": "Assinale o trecho de código JavaScript que define e ordena corretamente um array.",
+        "alternativas": [
+            "const fruits = [\"Casa\"; \"Apartamento\"; \"Sítio\"]; fruits.sort();",
+            "const fruits = [\"Casa\", \"Apartamento\", \"Sítio\"]; fruits.sort();",
+            "const fruits = {\"Casa\"; \"Apartamento\"; \"Sítio\"}; fruits.sort();",
+            "const fruits = [\"Casa\", \"Apartamento\", \"Sítio\"]; array.sort(fruits);",
+            "const fruits = [\"Casa\", \"Apartamento\", \"Sítio\"]; array.sort(fruits);"
+        ],
+        "gabarito": "const fruits = [\"Casa\", \"Apartamento\", \"Sítio\"]; fruits.sort();"
+    },
+    {
+        "id": 47,
+        "enunciado": "Na página web que Maria está desenvolvendo, há um botão que, quando clicado, exibe data e hora correntes.\nO código que implementa essa característica corretamente é:",
+        "alternativas": [
+            "<button id=\"xpto\" onclick= get(\"xpto\").innerHTML=Date()\">…</button>.",
+            "<button onclick=\"button.innerHTML=Date()\">…</button>.",
+            "<button onclick=\"this.innerHTML=Date()\">…</button>.",
+            "<button onclick=exhibit Date()>…</button>.",
+            "<button onclick=\"function() return Date()\">…</button>."
+        ],
+        "gabarito": "<button onclick=\"this.innerHTML=Date()\">…</button>."
+    },
+    {
+        "id": 48,
+        "enunciado": "No contexto do JavaScript, analise as afirmativas a seguir a respeito do comportamento do JS de mover declarações para o top (em inglês, Hoisting).\nI. Variáveis declaradas por meio de var podem ser utilizadas antes de declaradas.\nII. Variáveis declaradas com let e const são movidas para o topo do bloco somente quando inicializadas na declaração.\nIII. Usar uma constante (const) antes de declarada gera um erro de sintaxe.\nEstá correto o que se afirma em:",
+        "alternativas": [
+            "somente I;",
+            "somente I e II;",
+            "somente I e III;",
+            "somente II e III;",
+            "I, II e III."
+        ],
+        "gabarito": "somente I e III;"
+    },
+    {
+        "id": 49,
+        "enunciado": "No JavaScript, as três funções nativas que permitem uma rápida comunicação com o usuário de uma página web são:",
+        "alternativas": [
+            "alert, confirm, input;",
+            "alert, input, output;",
+            "exhibit, read, write;",
+            "input, msgbox, print;",
+            "read, ring, output."
+        ],
+        "gabarito": "alert, confirm, input;"
+    },
+    {
+        "id": 50,
+        "enunciado": "Analise o código JavaScript exibido a seguir.\nvar numeros = [4,9,16];\nvar xpto = numeros.map(function(num) { return num << 2;\n});\nApós a execução desse trecho de código, os valores de numeros e xpto são, respectivamente:",
+        "alternativas": [
+            "undefined [16,36,64].",
+            "[4,9,16] [16,36,64].",
+            "null [0,1,4].",
+            "[4,9,16] Null.",
+            "[16,36,64] Undefined."
+        ],
+        "gabarito": "[4,9,16] [16,36,64]."
+    },
+    {
+        "id": 51,
+        "enunciado": "No contexto do JavaScript, analise um trecho do HTML de uma página web.\n<div id=\"xpto\"> <p>Texto de teste 1</p> <p id=\"234\">Texto de teste 2</p> </div> A linha de código que altera o tamanho da fonte do segundo parágrafo acima é:",
+        "alternativas": [
+            "document.getElementById(\"234\").style.fontSize=\"48px\";",
+            "document.getElementById(\"xpto.234\").style.fontSize=\"48px\";",
+            "document.getElementById(p<\"234\">).style.fontSize=\"48px\";",
+            "document.getElementsById(\"div.p\").style.fontSize=\"48px\";",
+            "xpto.getElementById(\"234\").style.fontSize=\"48px\";"
+        ],
+        "gabarito": "document.getElementById(\"234\").style.fontSize=\"48px\";"
+    },
+    {
+        "id": 52,
+        "enunciado": "Considere o trecho abaixo.\n<h1 id=\"teste\"></h1> <script> ----- const x = JSON.parse(xpto);\ndocument.getElementById(\"teste\").innerHTML = x.alunos[1].nome + \" \" + x.alunos[1].sobreNome;\n</script> Para que o nome Maria Bueno seja exibido no elemento da primeira linha (tag h, o trecho tracejado deve ser substituído por:",
+        "alternativas": [
+            "let '{\"alunos\":[' + '{\"nome\":\"Maria\",\"sobreNome\":\"Bueno\" },' + '{\"nome\":\"Edson\",\"sobreNome\":\"Arantes\" }]}';",
+            "let '{\"xpto\":[' + '{\"nome\":\"Edson\",\"sobreNome\":\"Arantes\" },' + '{\"nome\":\"Maria\",\"sobreNome\":\"Bueno\" }]}';",
+            "let alunos = '{\"xpto\":[' + '{\"nome\":\"Edson\",\"sobreNome\":\"Arantes\" },' + '{\"nome\":\"Maria\",\"sobreNome\":\"Bueno\" }]}';",
+            "let xpto = '{\"alunos\":[' + '{\"nome\":\"Edson\",\"sobreNome\":\"Arantes\" },' + '{\"nome\":\"Maria\",\"sobreNome\":\"Bueno\" }]}';",
+            "let xpto = alunos '{[' + '{nome:\"Edson\",sobreNome:\"Arantes\" },' + '{nome:\"Maria\",sobreNome:\"Bueno\" }]}';"
+        ],
+        "gabarito": "let xpto = '{\"alunos\":[' + '{\"nome\":\"Edson\",\"sobreNome\":\"Arantes\" },' + '{\"nome\":\"Maria\",\"sobreNome\":\"Bueno\" }]}';"
+    },
+    {
+        "id": 53,
+        "enunciado": "Analise o trecho de código JavaScript a seguir.\nconst xxxxx =...\nlet texto = \"\";\nfor (const x of xxxxx) { texto += x;\n} Assinale a definição de xxxxx que não funciona para o código acima.",
+        "alternativas": [
+            "const xxxxx = \"abcdefghijklmnopqrstuvwxyz\";",
+            "const xxxxx = [undefined, null];",
+            "const xxxxx = {10,12,14};",
+            "const xxxxx = new Set([\"a\",\"b\",\"c\"]);",
+            "const xxxxx = new Map([[\"Um\", 1], [\"Dois\", 2]]);"
+        ],
+        "gabarito": "const xxxxx = {10,12,14};"
+    },
+    {
+        "id": 54,
+        "enunciado": "Observe os dois comandos de atribuição do JavaScript.\nlet X = -100;\nX <<= 5;\nAssinale o valor de X após a execução desses comandos.",
+        "alternativas": [
+            "0.",
+            "3.",
+            "-100.",
+            "-200.",
+            "-3200."
+        ],
+        "gabarito": "-3200."
+    },
+    {
+        "id": 55,
+        "enunciado": "Analise o trecho de página Web a seguir.\n<body> <button onclick=\"xpto(1,2,;xpto(0);xpto();\">?</button> <script> function xpto() { if (arguments.length == { text = \"ERRO\";\n} else { text = \"OK\";\n} alert(text);\n} </script> </body> Tomando como referência apenas esse trecho, um clique no botão com a página carregada provoca a exibição de:",
+        "alternativas": [
+            "três alertas, com as mensagens “OK”, “OK” e “ERRO”;",
+            "três alertas, com as mensagens “undefined”, “undefined” e “ERRO”;",
+            "um alerta apenas, com a mensagem “ERRO”;",
+            "um alerta apenas, com a mensagem “OK”;",
+            "um alerta apenas, com a mensagem “undefined”."
+        ],
+        "gabarito": "três alertas, com as mensagens “OK”, “OK” e “ERRO”;"
+    },
+    {
+        "id": 56,
+        "enunciado": "No contexto de HTML e JavaScript, na construção function myFunction() { document.getElementById(\"xxxx\").submit();\n} o elemento xxxx deve identificar:",
+        "alternativas": [
+            "o path completo de um arquivo;",
+            "um elemento da classe EntryData;",
+            "um Form object;",
+            "um link externo;",
+            "uma página Web."
+        ],
+        "gabarito": "um Form object;"
+    },
+    {
+        "id": 57,
+        "enunciado": "Analise o script JavaScript a seguir.\n<script>........\nlet s = \"\";\nx.forEach(f);\nalert(s);\nfunction f(value, index, array) { s += index + \" \" + value;\n} </script> Dado que, na execução desse script, o comando alert exibiu os valores 0 451 42 93 164 25 é correto afirmar que o trecho pontilhado foi substituído por:",
+        "alternativas": [
+            "const x = [1, 451, 42, 93, 164, 25];",
+            "const x = [45, 4, 9, 16, 25];",
+            "let x = [45, 1, 42, 93, 16, 42, 5];",
+            "var x = [451, 42, 93, 164, 25];",
+            "var x = [451, 4293, 93, 425];"
+        ],
+        "gabarito": "const x = [45, 4, 9, 16, 25];"
+    },
+    {
+        "id": 58,
+        "enunciado": "No contexto do TensorFlow.js, a linha que exibe [[1, 2, 3, 4], [5, 6, 7, 8]] é:",
+        "alternativas": [
+            "tf.sequential([1..8]).print();",
+            "tf.layers([1..4],[5..8]).print();",
+            "tf.tensor([1, 2, 3, 4, 5, 6, 7, 8],[2,4]).print();",
+            "tf.initiate([1, 2, 3, 4, 5, 6, 7, 8]).print();",
+            "tf.array([[1,2,3,4],[5,6,7,8]]).print();"
+        ],
+        "gabarito": "tf.tensor([1, 2, 3, 4, 5, 6, 7, 8],[2,4]).print();"
+    },
+    {
+        "id": 59,
+        "enunciado": "Considere uma página Web que contém o código JavaScript a seguir.\n<script> let text = \"\";\nfor (let i = 0; i < 5; i++) { text += \" \" + i ;\n} alert(text);\n</script> O valor exibido pela execução desse script é",
+        "alternativas": [
+            "0 0 0 0.",
+            "4.",
+            "0 4.",
+            "1 1 1 1 1.",
+            "0 1 2 3 4."
+        ],
+        "gabarito": "0 1 2 3 4."
+    },
+    {
+        "id": 60,
+        "enunciado": "Analise o código JavaScript a seguir.\nconst cidades = [\"Natal\", \"Manaus\", \"Recife\", \"Brasília\"];\ncidades.reverse();\nalert (cidades);\nAssinale o que é exibido na execução do trecho acima.",
+        "alternativas": [
+            "Brasília,Manaus,Natal,Recife.",
+            "Brasília,Natal,Manaus,Recife.",
+            "Brasília,Recife,Manaus,Natal.",
+            "Manaus,Recife,Brasília,Natal.",
+            "Recife,Natal,Manaus,Brasília."
+        ],
+        "gabarito": "Brasília,Recife,Manaus,Natal."
+    },
+    {
+        "id": 61,
+        "enunciado": "Analise o código JavaScript exibido a seguir.\nfunction xpto (n) { var text = \"\";\nvar i = 1;\nwhile (i <= n) { text += i + ';';\ni++;\n} return text;\n} Num comando JS, a expressão xpto(5) retorna",
+        "alternativas": [
+            "54321.",
+            "12345.",
+            "1;2;3;4;5;",
+            "5;4;3;2;1;",
+            "1;2;3;4;5;4;3;2;1;"
+        ],
+        "gabarito": "1;2;3;4;5;"
+    },
+    {
+        "id": 62,
+        "enunciado": "Analise o código JavaScript exibido a seguir.\nfunction f1 (n) { if (n % 2 == { return --n; } else { return ++n; } } Em um comando JS, a expressão f1(8) retorna",
+        "alternativas": [
+            "-8.",
+            "-7.",
+            "7.",
+            "8.",
+            "9."
+        ],
+        "gabarito": "7."
+    },
+    {
+        "id": 63,
+        "enunciado": "Considere o código JavaScript exibido logo abaixo.\nvar x1 = 16;\nvar x2 = \"16\";\nvar x3 = [1,2,3];\nUsando as definições acima, analise as expressões a seguir.\nx3[0] == 1 x1 == x2 x1 === x2 true == x1 true == x3[0] Respectivamente, os valores retornados pelas expressões acima são:",
+        "alternativas": [
+            "false, false, false, true, true;",
+            "false, true, false, false, false;",
+            "false, true, true, true, false;",
+            "true, true, false, false, true;",
+            "true, true, true, false, true."
+        ],
+        "gabarito": "true, true, false, false, true;"
+    },
+    {
+        "id": 64,
+        "enunciado": "Considere a função xpto em código JavaScript.\nfunction xpto (s) { let text = \"\" for (const x of s) { text = x + text;\n} return text;\n} A expressão xpto(\"banana\" + \"laranja\") retorna:",
+        "alternativas": [
+            "lbaarnaannjaa.",
+            "banalaranja.",
+            "laranjabanana.",
+            "ajnaralananab.",
+            "ananabajnaral."
+        ],
+        "gabarito": "ajnaralananab."
+    },
+    {
+        "id": 65,
+        "enunciado": "Considere o código JavaScript exibido a seguir.\nstr = \"Banana Laranja Morango\";\nalert(str.split(\" \")[1]);\nAssinale o que é exibido quando esse trecho é executado.",
+        "alternativas": [
+            "B.",
+            "Banana Laranja Morango.",
+            "L.",
+            "Laranja.",
+            "Morango."
+        ],
+        "gabarito": "Laranja."
+    },
+    {
+        "id": 66,
+        "enunciado": "Considere o comando JavaScript a seguir.\ndocument.getElementById('demo').innerHTML = Date() Numa página web na qual esse código seja aplicado, o elemento que é compatível com a estrutura do comando para receber a data corrente é:",
+        "alternativas": [
+            "<p \"demo\">H</p>.",
+            "<p class=\"demo\">H</p>.",
+            "<p id=\"demo\">H</p>.",
+            "<p js=\"demo\">H</p>.",
+            "<p onclick=\"demo\">H</p>."
+        ],
+        "gabarito": "<p id=\"demo\">H</p>."
+    },
+    {
+        "id": 67,
+        "enunciado": "Analise o script JS a seguir.\n<script> function xpto() { let n = 0;\nreturn {next:\nfunction() { if (n < { n += 2;\nreturn {value:n/2, done:false}} else { return {value: -1, done: true}} } } } saida = \"\" const n = xpto();\nx = n.next();\nwhile (x.done == false) { saida += x.value + \"/\";\nx = n.next();\n} alert(saida);\n</script> O resultado da execução desse código é:",
+        "alternativas": [
+            "-1/-2/-3/-4/-5/.",
+            "0/1/2/3/4/5/.",
+            "1/2/3/4/5/.",
+            "5/4/3/2/1/.",
+            "5/4/3/2/1/0."
+        ],
+        "gabarito": "1/2/3/4/5/."
+    },
+    {
+        "id": 68,
+        "enunciado": "Considere o código JavaScript a seguir.\nlet txt = \"\";\nfunction funcao(value, index, array) { if (index % 2 == {txt += value};\n} function xpto (x) { x.forEach(funcao);\nreturn txt;\n} alert (xpto([0, 1, 1, 2, 3, 5]));\nA execução desse código provoca a exibição de:",
+        "alternativas": [
+            "011235.",
+            "013.",
+            "125.",
+            "532110.",
+            "null."
+        ],
+        "gabarito": "013."
+    },
+    {
+        "id": 69,
+        "enunciado": "Analise os extratos de uma página Web incluindo o código JS exibido a seguir.\n...\n<p id=\"box\">Valores</p>...\n<script> function XPTO(quantos) { const x = [\"AB\", \"BC\", \"CD\", \"DE\"];\nstr = \"\";\nfor (i = quantos -1; i >= 0; i--) { str += \" \" + x[i]; } return str;\n}...\ndocument.getElementById(\"box\").innerHTML += XPTO(4);\n</script> Assinale o texto exibido no parágrafo após a execução do código.",
+        "alternativas": [
+            "AB.",
+            "Valores AB.",
+            "Valores DE.",
+            "Valores AB BC CD DE.",
+            "Valores DE CD BC AB."
+        ],
+        "gabarito": "Valores DE CD BC AB."
+    },
+    {
+        "id": 70,
+        "enunciado": "A instrução JavaScript alert(“xxxxxxxxx”);\ntem por efeito",
+        "alternativas": [
+            "a exibição de uma caixa contendo o texto usado como parâmetro e um botão “OK”.",
+            "a exibição de uma imagem, escolhida de acordo com o parâmetro e um botão “OK”.",
+            "a valorização das cores de um elemento HTML, identificado de acordo com o parâmetro.",
+            "a emissão de um aviso sonoro de alerta, escolhido de acordo com o parâmetro.",
+            "a exibição de um erro, pois essa instrução não é reconhecida no JavaScript."
+        ],
+        "gabarito": "a exibição de uma caixa contendo o texto usado como parâmetro e um botão “OK”."
+    }
+]

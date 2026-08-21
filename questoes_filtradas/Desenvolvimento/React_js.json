@@ -1,0 +1,560 @@
+[
+    {
+        "id": 1,
+        "enunciado": "Um técnico está criando um botão que, ao ser clicado, deve exibir uma mensagem de alerta. O evento deve ser tratado corretamente para evitar execução imediata.\nA alternativa que representa corretamente a manipulação do evento onClick em React é",
+        "alternativas": [
+            "<button onClick={alert(\"Olá!\")}>Clique</button>.",
+            "<button onClick=\"alert('Olá!')\">Clique</button>.",
+            "<button onClick={alert}>Clique</button>.",
+            "<button onClick={handleClick()}>Clique</button>.",
+            "<button onClick={handleClick}>Clique</button>."
+        ],
+        "gabarito": "<button onClick={handleClick}>Clique</button>."
+    },
+    {
+        "id": 2,
+        "enunciado": "Em condições ideais, um técnico desenvolveu uma Single Page Application (SPA) em React com Create React App e precisa disponibilizá-la em um servidor como GitHub Pages. O cliente pede que o site seja entregue otimizado, carregando rápido e sem arquivos desnecessários.\nNesse caso, o procedimento correto é",
+        "alternativas": [
+            "usar o comando npm run build para gerar a pasta /build e enviar ao servidor estático.",
+            "subir diretamente a pasta /src esperando que o servidor compile a aplicação.",
+            "rodar npm run build --prod para criar a build de produção e implantação.",
+            "gerar a build, que resulta em código não minificado cheio de mensagens de log.",
+            "apagar todos os arquivos.js após a build por não serem necessários no deploy."
+        ],
+        "gabarito": "usar o comando npm run build para gerar a pasta /build e enviar ao servidor estático."
+    },
+    {
+        "id": 3,
+        "enunciado": "return ( <img className=“avatar” src=“user.imageUrl” /> );\nConsiderando o código precedente, desenvolvido em React, julgue o item que se segue.\nApós ser renderizado, o componente <img/> irá exibir uma imagem dinâmica, usando o valor da propriedade user.imageUrl como o caminho do atributo src.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 4,
+        "enunciado": "Em uma aplicação desenvolvida com React, um analista está enfrentando problemas de desempenho devido à renderização desnecessária de múltiplos componentes que dependem do mesmo estado global. Qual abordagem é mais indicada para otimizar o desempenho e reduzir renderizações desnecessárias em aplicações?",
+        "alternativas": [
+            "Colocar todo o estado global em um único Context API e propagar para todos os componentes.",
+            "Implementar hooks customizados para manipulação do estado global, revomendo a necessidade de utilização do Context API.",
+            "Dividir o estado global em múltiplos contextos específicos e utilizar React.memo para evitar renderizações desnecessárias.",
+            "Usar setState diretamente no componente e evitar dependências externas, simplificando o gerenciamento do estado global."
+        ],
+        "gabarito": "Dividir o estado global em múltiplos contextos específicos e utilizar React.memo para evitar renderizações desnecessárias."
+    },
+    {
+        "id": 5,
+        "enunciado": "Analise as afirmativas a seguir sobre JavaScript.\nI - React é uma biblioteca JavaScript que permite criar interfaces de utilizador (UI) interativas, ideal para o desenvolvimento front-end que permite combinar estruturas do HTML e do JavaScript num mesmo código.\nII - O React utiliza uma representação virtual do DOM para otimizar as atualizações na interface, melhorando o desempenho da aplicação.\nIII - Uma vantagem do React é que este se comunica diretamente com o Back-end.\nQual(is) afirmativa(s) está(ão) correta(s)?",
+        "alternativas": [
+            "Somente a afirmativa III.",
+            "Todas as três afirmativas estão corretas.",
+            "Somente a afirmativa I.",
+            "Somente a afirmativa II.",
+            "Somente as afirmativas I e II."
+        ],
+        "gabarito": "Somente as afirmativas I e II."
+    },
+    {
+        "id": 6,
+        "enunciado": "Em uma aplicação web moderna, qual é a melhor prática para implementar navegação entre páginas considerando SEO e performance?",
+        "alternativas": [
+            "Usar window.location para redirecionamento.",
+            "Implementar React Router com componentes Link.",
+            "Utilizar tags com atributo target=\"_blank\".",
+            "Realizar redirecionamento via JavaScript puro.",
+            "Usar frames para separar o conteúdo das páginas."
+        ],
+        "gabarito": "Implementar React Router com componentes Link."
+    },
+    {
+        "id": 7,
+        "enunciado": "Em uma aplicação que utiliza CSS-in-JS com styled-components, qual abordagem é mais adequada para implementar temas dinâmicos?",
+        "alternativas": [
+            "Usar variáveis CSS globais.",
+            "Implementar ThemeProvider com contexto React.",
+            "Definir estilos inline.",
+            "Criar múltiplos arquivos CSS.",
+            "Aplicar classes CSS diretamente no JSX."
+        ],
+        "gabarito": "Implementar ThemeProvider com contexto React."
+    },
+    {
+        "id": 8,
+        "enunciado": "O analista José está implementando um frontend web utilizando React. Em determinada tela do frontend, José precisa que o componente A seja renderizado pelo navegador em um nó do Document Object Model (DOM) que se encontra fora da hierarquia normal de renderização. Sabendo que o React oferece uma função que cumpre o propósito de orientar a renderização de componentes em partes inesperadas do DOM, José optou por utilizar essa função.\nPara orientar a renderização do componente A no nó desejado, o analista José utilizou a seguinte função do React:",
+        "alternativas": [
+            "flushSync;",
+            "preRender;",
+            "createPortal;",
+            "preinitModule;",
+            "preloadModule."
+        ],
+        "gabarito": "createPortal;"
+    },
+    {
+        "id": 9,
+        "enunciado": "A área fiscal estadual criou um formulário complexo para cadastro de contribuintes, com campos que precisam responder rapidamente às interações do usuário, mas também realizar atualizações em segundo plano (como cálculos de impostos) sem travar a interface. A equipe utilizou um recurso do React 18 que permite priorizar atualizações urgentes enquanto adia as menos críticas. Tal recurso é o",
+        "alternativas": [
+            "useState.",
+            "useDeferredValue.",
+            "startTransition.",
+            "useLayoutEffect.",
+            "useImperativeHandle."
+        ],
+        "gabarito": "startTransition."
+    },
+    {
+        "id": 10,
+        "enunciado": "O desenvolvimento através de ReactJS considera a utilização de componentes para melhorar a modularização e manutenção das aplicações Frontend. Os componentes ReactJS podem ser reutilizados, facilitando a construção da aplicação.\nConsiderando o desenvolvimento de uma aplicação para gerenciar Produtos em um sistema de ponto de venda, o código de um componente react para renderizar os produtos em uma tabela é:",
+        "alternativas": [
+            ".",
+            ".",
+            ".",
+            "."
+        ],
+        "gabarito": "."
+    },
+    {
+        "id": 11,
+        "enunciado": "Com base nos princípios fundamentais da arquitetura de componentes em React, considerando um cenário em uma aplicação React onde um componente pai precisa passar dados de configuração para um componente filho, e este componente filho também precisa gerenciar seus próprios dados internos que mudam ao longo do tempo devido à interação do usuário, qual é a abordagem correta para gerenciar esses dois tipos de dados?",
+        "alternativas": [
+            "Os dados de configuração do pai devem ser recebidos como props, que são tratadas como imutáveis dentro do componente filho, enquanto os dados internos e mutáveis devem ser gerenciados como state e atualizados exclusivamente através do método setState().",
+            "Tanto os dados de configuração do pai quanto os dados internos devem ser combinados e gerenciados como state no componente filho para centralizar o manuseio dos dados e simplificar as atualizações através do método setState().",
+            "Os dados de configuração devem ser recebidos como props, que podem ser modificadas diretamente pelo componente filho para refletir as interações do usuário, enquanto o state deve ser utilizado para dados estáticos que não sofrem alterações durante o ciclo de vida.",
+            "Todos os dados, sejam eles provenientes do componente pai ou internos do filho, devem ser gerenciados através de props para garantir um fluxo de dados unidirecional, com o componente filho emitindo eventos para o pai a fim de solicitar alterações nos dados.",
+            "Os dados do pai são passados via props, e os dados internos são gerenciados como state. As atualizações nos dados internos devem ser feitas modificando diretamente o objeto this.state para otimizar o desempenho e evitar re-renderizações desnecessárias."
+        ],
+        "gabarito": "Os dados de configuração do pai devem ser recebidos como props, que são tratadas como imutáveis dentro do componente filho, enquanto os dados internos e mutáveis devem ser gerenciados como state e atualizados exclusivamente através do método setState()."
+    },
+    {
+        "id": 12,
+        "enunciado": "Um sistema web em React usa roteamento no cliente (sem recarregamento completo). Na revisão de desempenho, observou-se que as transições entre páginas parecem “congelar” quando o usuário navega para áreas pouco usadas da aplicação. Considerando as características de uma Single Page Application (SPA), qual abordagem tende a melhorar a fluidez da experiência sem abandonar o modelo SPA?",
+        "alternativas": [
+            "Trocar o roteamento no cliente por links convencionais com recarregamento completo para aproveitar o cache do navegador em cada navegação.",
+            "Implementar carregamento sob demanda dos componentes de rota, dividindo o bundle para baixar apenas o código necessário a cada página.",
+            "Ativar StrictMode do React para que o framework otimize renderizações e evite travamentos nas transições.",
+            "Introduzir manipulação direta da DOM com jQuery para “bypassar” o reconciliation do React e reduzir o uso de hooks.",
+            "Converter a aplicação de SPA para MPA (várias páginas com recarregamento completo) para reduzir o bundle inicial e, assim, acelerar as transições."
+        ],
+        "gabarito": "Implementar carregamento sob demanda dos componentes de rota, dividindo o bundle para baixar apenas o código necessário a cada página."
+    },
+    {
+        "id": 13,
+        "enunciado": "Acerca do desenvolvimento nativo para iOS, do desenvolvimento multiplataforma e da persistência de dados em dispositivos móveis, julgue o item seguinte.\nO React Native permite o desenvolvimento de aplicativos móveis multiplataforma, utilizando Java como linguagem principal para codificação da interface e lógica.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 14,
+        "enunciado": "Texto para a questão Uma empresa está desenvolvendo um sistema de gestão para certo representante comercial. O projeto adota práticas ágeis e utiliza o framework React no front‑end, integrando‑se a uma API construída em Node.js. Durante o desenvolvimento, um dos desenvolvedores do time de front‑end alterou componentes da interface diretamente no código principal do repositório remoto. As modificações causaram conflitos e comprometeram partes da aplicação que estavam sendo testadas por outros membros da equipe. Além disso, esse desenvolvedor teve dificuldades para entender a estrutura do React, tentando manipular o DOM diretamente, em vez de adotar outras estratégias.\nCom base nessa situação hipotética, o desenvolvedor não deveria manipular o DOM diretamente uma aplicação React, pois esse framework",
+        "alternativas": [
+            "utiliza o virtual DOM, que otimiza atualizações e evita manipulações diretas no DOM real.",
+            "proíbe qualquer interação com elementos HTML.",
+            "exige que todo o DOM seja recriado a cada renderização.",
+            "suporta a criação de componentes reutilizáveis apenas em aplicações de multithreading.",
+            "executa o código apenas no servidor e não no navegador."
+        ],
+        "gabarito": "suporta a criação de componentes reutilizáveis apenas em aplicações de multithreading."
+    },
+    {
+        "id": 15,
+        "enunciado": "Durante o desenvolvimento de um dashboard complexo em React, percebe-se que a renderização de múltiplos componentes está sendo afetada por re-renderizações desnecessárias. O operador decide aplicar React.memo combinado com useCallback em alguns componentes.\nA alternativa que melhor explica a razão técnica para essa escolha é que o",
+        "alternativas": [
+            "React.memo impede a propagação de props, tornando o componente completamente estático.",
+            "useCallback previne a criação de novas referências de função, otimizando a comparação superficial do React.memo.",
+            "React.memo força renderizações profundas com reconciliação de todos os filhos do componente.",
+            "useCallback serializa funções para evitar vazamento de memória no ciclo de vida dos hooks.",
+            "React.memo e useCallback são usados apenas em componentes de classe."
+        ],
+        "gabarito": "useCallback previne a criação de novas referências de função, otimizando a comparação superficial do React.memo."
+    },
+    {
+        "id": 16,
+        "enunciado": "Em relação aos efeitos colaterais e ao ciclo de vida dos componentes funcionais no React, considere as afirmativas:\nI. O hook useEffect pode simular os métodos componentDidMount, componentDidUpdate e componentWillUnmount dependendo da forma como é configurado.\nII. Hooks como useMemo e useCallback são utilizados para memoização de valores e funções, ajudando a otimizar o re-render.\nIII. Ao utilizar useEffect sem um array de dependências, o efeito será executado uma única vez após a montagem do componente.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I e II, apenas.",
+            "II e III, apenas.",
+            "I e III, apenas.",
+            "I, II e III.",
+            "I, apenas."
+        ],
+        "gabarito": "I e II, apenas."
+    },
+    {
+        "id": 17,
+        "enunciado": "Sobre o uso de React e React Native no desenvolvimento de interfaces modernas, analise os itens a seguir:\n( ) Em React, Hooks como useEffect e useState substituem a necessidade de classes para manipulação de ciclo de vida e estado de componentes.\n( ) Em React Native, o componente View funciona como o equivalente direto de div no HTML, mas possui propriedades específicas para layout em dispositivos móveis.\n( ) É recomendável utilizar o DOM virtual do React Native para otimizar o desempenho de renderizações complexas na interface.\nA sequência correta de preenchimento dos parênteses, de cima para baixo, é",
+        "alternativas": [
+            "V – V – F.",
+            "V – F – V.",
+            "F – V – V.",
+            "V – V – V.",
+            "F – F – F."
+        ],
+        "gabarito": "V – V – F."
+    },
+    {
+        "id": 18,
+        "enunciado": "No contexto do React, JSX é uma extensão de sintaxe amplamente utilizada para descrever a interface do usuário. Avalie as seguintes afirmativas sobre o JSX:\nI.Permite misturar código HTML-like com JavaScript, mas é necessário transpilar o código JSX em JavaScript puro para que o navegador possa interpretá-lo.\nII.Torna o código mais declarativo, legível e fácil de depurar, mas também adiciona uma dependência no processo de build.\nIII.Embora seja possível usar React sem JSX, seu uso é obrigatório para suportar a API moderna de hooks.\nÉ correto o que se afirma em:",
+        "alternativas": [
+            "I, II e III.",
+            "III, apenas.",
+            "II, apenas.",
+            "I, apenas.",
+            "I e II, apenas."
+        ],
+        "gabarito": "I e II, apenas."
+    },
+    {
+        "id": 19,
+        "enunciado": "No desenvolvimento de aplicações web modernas, o conceito de Virtual DOM é amplamente utilizado para melhorar o desempenho, permitindo que apenas as mudanças necessárias sejam aplicadas à interface do usuário. Isso posto, qual dos frameworks a seguir adota essa abordagem para otimização?",
+        "alternativas": [
+            "React.",
+            "Node.js.",
+            "Svelte.",
+            "Angular.",
+            "jQuery."
+        ],
+        "gabarito": "React."
+    },
+    {
+        "id": 20,
+        "enunciado": "Acerca do gerenciamento de eventos no React, analise as afirmativas a seguir e registre V, para verdadeiras, e F, para falsas:\n( )React utiliza eventos sintéticos para garantir um comportamento consistente entre diferentes navegadores.\n( )É necessário utilizar métodos como addEventListener e attachEvent para registrar ouvintes de eventos no React.\n( )A sintaxe para registrar ouvintes de eventos no React é similar à sintaxe de atributos de eventos no HTML, como onClick e onChange.\n( )No React, eventos seguem o fluxo nativo, sem implementar métodos adicionais para gerenciar a propagação.\nAssinale a alternativa que apresenta a sequência correta:",
+        "alternativas": [
+            "F − V − F − V.",
+            "V − V − F − F.",
+            "V − F − V − F.",
+            "V − F − F − F.",
+            "F − F − V − V."
+        ],
+        "gabarito": "V − F − V − F."
+    },
+    {
+        "id": 21,
+        "enunciado": "Considere o seguinte código em JavaScript com React:\nimport React from 'react';\nfunction Number() { let x = 5, y = 5;\nconst [n, setN] = React.useState(x);\nReact.useEffect(() => { setN(x => x + n);\nsetN(y => x + y);\n}, []) return n;\n} Ao se utilizar o componente funcional Number, o valor retornado por Number após a renderização final será:",
+        "alternativas": [
+            "5;",
+            "10;",
+            "15;",
+            "20;",
+            "55."
+        ],
+        "gabarito": "15;"
+    },
+    {
+        "id": 22,
+        "enunciado": "Com relação ao React Native, assinale a alternativa que apresenta como deve ser usado o AsyncStorage em React Native para armazenar dados localmente.",
+        "alternativas": [
+            "AsyncStorage.store('chave', 'valor').",
+            "AsyncStorage.setItem('chave', 'valor').",
+            "AsyncStorage.save({ chave: 'valor' }).",
+            "storeData('chave', 'valor')."
+        ],
+        "gabarito": "AsyncStorage.setItem('chave', 'valor')."
+    },
+    {
+        "id": 23,
+        "enunciado": "No React Native, o componente “Image” pode exibir diferentes tipos de imagens, incluindo imagens da rede, recursos estáticos e disco local. No que se refere ao componente “Image”, da versão 0.72 do React Native, é possível adicionar uma imagem estática ao seu aplicativo, denominada “my-icon.png”, que se encontra na mesma pasta do componente que o requer, usando o comando",
+        "alternativas": [
+            "<Image require= {'./my-icon.png'} />.",
+            "<Image require ={('./my-icon.png')} />.",
+            "<Image src={require('./my-icon.png')} />.",
+            "<Image source={require('./my-icon.png')} />."
+        ],
+        "gabarito": "<Image source={require('./my-icon.png')} />."
+    },
+    {
+        "id": 24,
+        "enunciado": "Sobre a biblioteca de Javascript React, assinale a afirmativa incorreta.",
+        "alternativas": [
+            "React permite que a interface do usuário seja construída por meio de componentes reutilizáveis.",
+            "React manipula os objetos DOM reais do navegador diretamente, melhorando o desempenho das atualizações na interface do usuário.",
+            "React Props são como argumentos de função em JavaScript e atributos em HTML.",
+            "JSX facilita a escrita e a adição de HTML no React.",
+            "o React renderiza HTML para a página da web usando uma função chamada createRoot() e seu método render()."
+        ],
+        "gabarito": "React manipula os objetos DOM reais do navegador diretamente, melhorando o desempenho das atualizações na interface do usuário."
+    },
+    {
+        "id": 25,
+        "enunciado": "Roberto está desenvolvendo uma aplicação web usando React, e decidiu utilizar o Bootstrap para que a aplicação seja responsiva. Analise o trecho do código a seguir como parte da aplicação:\nimport React from 'react':\nfunction App ( ){ return ( <div className=\"container\"> <h1 className= \"text-center mt- 5\"> Bem-vindo ao Meu App </h1> <button className=\"btn btn -primary\"> Clique Aqui < button> </div> );\n} Marque a opção que aponta problemas para a implementação correta deste projeto.",
+        "alternativas": [
+            "O código não necessita da importação do React pois a exportação já vai incorporar no projeto o React.",
+            "É necessário acrescentar a importação do CSS do Bootstrap.",
+            "O uso de classes como \"container\", \"text-center\", e \"btn btn-primary\" precisa ser mudado pois não funciona no React.",
+            "O Bootstrap não pode ser utilizado em projetos React devido a incompatibilidades entre as bibliotecas.",
+            "A tag `<div>` utilizada não é suportada pelo HTML5."
+        ],
+        "gabarito": "É necessário acrescentar a importação do CSS do Bootstrap."
+    },
+    {
+        "id": 26,
+        "enunciado": "A equipe de desenvolvimento do Tribunal de Justiça do Estado do Maranhão, após reunião técnica dos gestores, decidiu pela utilização do ReactJS em um projeto. O motivo dessa decisão foi por entender que se trata de uma das bibliotecas de JavaScript mais populares para o desenvolvimento de aplicativos web ou até mesmo para dispositivos móveis. Esse projeto foi criado originalmente pelo Facebook, que, posteriormente, foi amplamente utilizado no mercado corporativo. Sobre o ReactJS, analise as afirmativas a seguir.\nI. É possível a criação de componentes personalizados que permitem a combinação de tags HTML, CSS e JavaScript.\nII. Para adicionar uma variável de estado é necessário importar addState do React no topo do arquivo.\nIII. O ciclo de vida de um effect consiste em montar, atualizar ou desmontar.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, II e III.",
+            "I, apenas.",
+            "I e II, apenas.",
+            "II e III, apenas."
+        ],
+        "gabarito": "I, apenas."
+    },
+    {
+        "id": 27,
+        "enunciado": "O analista Francisco está considerando o uso do React para implementar um software de exibição de análise de dados. Ele sabe que o React possui uma variante voltada a aplicativos móveis chamada React Native. Analisando a documentação na página oficial do React Native, Francisco descobriu que a comunidade de código- aberto e algumas empresas parceiras estenderam seu suporte para outras plataformas, além do Android e do iOS.\nDessa forma, Francisco descobriu que é possível executar nativamente uma aplicação feita com o React Native:",
+        "alternativas": [
+            "na Web, no Windows e no MacOS;",
+            "no Windows e no MacOS, mas não na Web;",
+            "na Web e no Windows, mas não no MacOS;",
+            "no MacOS, mas não no Windows nem na Web;",
+            "na Web, mas não no Windows nem no MacOS."
+        ],
+        "gabarito": "na Web, no Windows e no MacOS;"
+    },
+    {
+        "id": 28,
+        "enunciado": "Considere feitas as importações necessárias.\nfunction printTheme(props) { const theme = useState(props?.index?0:;\ntry { console.log(theme); } catch (e) { console.log(e); } return <Text>{theme}</Text>;\n} Ao ser utilizado em uma aplicação React Native, o componente acima apresentará:",
+        "alternativas": [
+            "o valor do state theme;",
+            "falha, pois há uma ou mais falhas de sintaxe no interior do componente;",
+            "falha, pois o argumento passado ao hook useState não pode conter expressões;",
+            "falha, pois o nome de um componente funcional deve ser iniciado com letra maiúscula;",
+            "falha, pois o fluxo principal de um componente funcional não deve conter um bloco try-catch."
+        ],
+        "gabarito": "falha, pois o nome de um componente funcional deve ser iniciado com letra maiúscula;"
+    },
+    {
+        "id": 29,
+        "enunciado": "Um desenvolvedor está criando um aplicativo móvel usando React Native 0.59. Durante o desenvolvimento, ele precisa gerenciar o estado do aplicativo de forma eficiente e decide utilizar o Context API para passar dados entre componentes sem a necessidade de prop drilling. Ele precisa criar um contexto para compartilhar dados entre vários componentes do aplicativo.\nConsiderando-se o contexto descrito, qual das seguintes opções descreve corretamente o processo de criação e uso de um contexto em React Native 0.59?",
+        "alternativas": [
+            "Importar o Context API do módulo ‘react-native’ e usar o método createContext().",
+            "Utilizar o método createContext() da biblioteca ‘react’ para criar um contexto, e envolver os componentes com o provedor do contexto.",
+            "Utilizar a classe Component da biblioteca ‘react-manager’ para definir um contexto e passar dados entre os componentes.",
+            "Utilizar a função useState() da biblioteca ‘react-native’ para criar um contexto e compartilhar o estado entre os componentes.",
+            "Utilizar o módulo ‘react-navigation’ para criar e gerenciar o contexto global do aplicativo."
+        ],
+        "gabarito": "Utilizar o método createContext() da biblioteca ‘react’ para criar um contexto, e envolver os componentes com o provedor do contexto."
+    },
+    {
+        "id": 30,
+        "enunciado": "O desenvolvimento de aplicações modernas tornou-se uma tarefa complexa e multifacetada, especialmente quando se trata de criar soluções para ambientes web e mobile.\nO React Nativa caracteriza-se por utilizar:",
+        "alternativas": [
+            "CSS.",
+            "StyleSheet.",
+            "O DOM (Document Object Model).",
+            "HTML.",
+            "Uma abordagem baseada em componentes."
+        ],
+        "gabarito": "StyleSheet."
+    },
+    {
+        "id": 31,
+        "enunciado": "Considere o seguinte código-fonte de um aplicativo React.\nimport { useState } from ‘react’;\nexport default function MyApp() { const [sT, setST] = useState(null);\nconst [n, setN] = useState(null);\nfunction handleStart() { setST(Date.now());\nsetN(Date.now());\nsetInterval(() => {setN(Date.now());}, ;\n} let sP = 0;\nif ((sT != null) && (n != null)) { sP = (n - sT) / 1000;\n} return ( <div> <h1>{sP.toFixed(3)}</h1> <button onClick={handleStart}> Clique Aqui </button> </div> );\n} Assinale a alternativa que descreve o que esse código faz.",
+        "alternativas": [
+            "É exibido o horário corrente no instante do início da execução do aplicativo, de forma estática, o qual é atualizado apenas quando o usuário aciona o botão “Clique Aqui”.",
+            "É exibido um relógio com o horário corrente, o qual é atualizado em tempo real, a cada segundo, após o usuário acionar uma vez o botão “Clique Aqui”.",
+            "É exibido um relógio com o horário corrente, o qual é atualizado em tempo real, a cada minuto, após o usuário acionar uma vez o botão “Clique Aqui”.",
+            "É exibido um cronômetro que inicia uma contagem em segundos assim que o aplicativo é carregado. A contagem para após o usuário acionar o botão “Clique Aqui”.",
+            "É exibido um cronômetro que inicia uma contagem em segundos após o usuário acionar o botão “Clique Aqui”."
+        ],
+        "gabarito": "É exibido um cronômetro que inicia uma contagem em segundos após o usuário acionar o botão “Clique Aqui”."
+    },
+    {
+        "id": 32,
+        "enunciado": "Um arquivo React é conhecido por ser um aplicativo de página única é uma aplicação web ou site que consiste de uma única página web (só tem um html), essa característica é conhecida como:",
+        "alternativas": [
+            "FDA.",
+            "SPA.",
+            "APE.",
+            "PUN.",
+            "UPG."
+        ],
+        "gabarito": "SPA."
+    },
+    {
+        "id": 33,
+        "enunciado": "Para criar um projeto padrão em react, chamado projetoteste, a linha de comando correta é",
+        "alternativas": [
+            "npx-create-app-projetoteste.",
+            "projetoteste-npx-create.",
+            "npm create-projetoteste.",
+            "npx create-react-app projetoteste.",
+            "npx -app-projetoteste."
+        ],
+        "gabarito": "npx create-react-app projetoteste."
+    },
+    {
+        "id": 34,
+        "enunciado": "No React um conceito de programação onde uma representação ideal, ou “virtual”, da interface do usuário é mantida em memória e sincronizada com o DOM “real” por uma biblioteca como o ReactDOM é conhecido como:",
+        "alternativas": [
+            "DOMReact.",
+            "ReactDOM.",
+            "DOM.",
+            "DOMPrincipal.",
+            "VirtualDOM."
+        ],
+        "gabarito": "VirtualDOM."
+    },
+    {
+        "id": 35,
+        "enunciado": "O React é compatível com outras bibliotecas e frameworks, como o Redux e o AngularJS, e pode ser integrado a essas tecnologias. Em relação aos procedimentos necessários para realizar uma integração do React com o AngularJS, julgue o item subsequente.\nPara permitir a integração entre os frameworks React e AngularJS, um passo a ser executado é criar um componente React e renderizá-lo dentro desse elemento, usando-se o método ReactDOM.render().",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 36,
+        "enunciado": "A analista Ana está desenvolvendo a interface gráfica da aplicação web TCEDash, utilizando React com componentes funcionais. Ana precisa que o componente TelaUm, do TCEDash, execute determinada sequência de instruções a cada nova renderização. Porém, a sequência de instruções deve ser garantidamente executada antes de o navegador web atualizar visualmente a tela.\nPara garantir a execução antes da atualização visual da tela, Ana deve implementar a sequência de instruções dentro do hook do React:",
+        "alternativas": [
+            "useEffect;",
+            "useTransition;",
+            "useLayoutEffect;",
+            "useDeferredValue;",
+            "useImperativeHandle."
+        ],
+        "gabarito": "useLayoutEffect;"
+    },
+    {
+        "id": 37,
+        "enunciado": "O analista José está implementando a interface gráfica da aplicação web JusticaSE, utilizando a biblioteca JavaScript React. A JusticaSE possui uma tela de dashboard, implementada pelo componente TelaD, que demanda alto custo computacional para ser renderizada. A fim de reduzir o custo de renderização da tela de dashboard, José encapsulou determinadas functions de TelaD em um Hook nativo da biblioteca React. O Hook utilizado por José memoriza a definição de uma function ao longo de várias renderizações de um componente. José utilizou o React Hook:",
+        "alternativas": [
+            "useState;",
+            "useEffect;",
+            "useMemo;",
+            "useCallback;",
+            "useContext. 63."
+        ],
+        "gabarito": "useCallback;"
+    },
+    {
+        "id": 38,
+        "enunciado": "Um Analista deseja realizar mudanças nos dados de um componente e atualizar a interface do usuário de acordo com essas mudanças. No React, a sintaxe correta do método usado para atualizar o estado de um componente é:",
+        "alternativas": [
+            "this.componentState( novo estado: novo valor });",
+            "this.updateState(( novo estado: novo valor });",
+            "this.setState({ novo estado: novo valor });",
+            "this.changeState({ novo estado: novo valor });",
+            "this.modifyState({ novo estado: novo valor });"
+        ],
+        "gabarito": "this.setState({ novo estado: novo valor });"
+    },
+    {
+        "id": 39,
+        "enunciado": "Considere que um desenvolvedor está criando um aplicativo usando React e React Native e deseja criar um elemento h1 contendo o título Amazonas, aplicando a classe de estilo CSS de nome tit e armazenando em uma constante chamada elemento. Para realizar esta tarefa, ele terá que utilizar a instrução",
+        "alternativas": [
+            "let elemento = ReactNative.createElement('h1',{className:'tit'},'Amazonas');",
+            "let const elemento = React.createElement('h1'.'tit'},'Amazonas');",
+            "const elemento = ReactNative.createElement('h1',{className:'tit'},'Amazonas');",
+            "const elemento = React.createElement('h1',{className:'tit'},'Amazonas');",
+            "const elemento = React.createElement('h1'.tit,'Amazonas');"
+        ],
+        "gabarito": "const elemento = React.createElement('h1',{className:'tit'},'Amazonas');"
+    },
+    {
+        "id": 40,
+        "enunciado": "Sobre a biblioteca React, analise as afirmativas abaixo:\nI. O React a quebra em pequenos pedaços, chamados de componentes, e os isola, sendo cada um deles independentes entre si perante a tecnologia.\nII. Os componentes são reutilizáveis e, uma vez categorizados, podem ser reaproveitados em quaisquer páginas de um site ou aplicativo.\nIII. Dentro dos estados (states) estão as propriedades, ou props. Estas props são objetos com várias informações que podem ser de variados tipos, como função, número ou string.\nIV. Assim como as propriedades, os states são imutáveis, como por exemplo variáveis declaradas dentro de uma função.\nAssinale",
+        "alternativas": [
+            "se apenas as afirmativas I e II estiverem corretas.",
+            "se apenas as afirmativas II e III estiverem corretas.",
+            "se apenas as afirmativas I e IV estiverem corretas.",
+            "se apenas as afirmativas II e IV estiverem corretas."
+        ],
+        "gabarito": "se apenas as afirmativas I e II estiverem corretas."
+    },
+    {
+        "id": 41,
+        "enunciado": "Para criar um componente React chamado App, uma Analista usou o código abaixo.\nclass App extends React.Component { } O único método necessário dentro desta classe, que recebe os dados de entrada e retorna o que deve ser exibido, é o componente",
+        "alternativas": [
+            "showApp().",
+            "root().",
+            "createApp().",
+            "handler().",
+            "render()."
+        ],
+        "gabarito": "render()."
+    },
+    {
+        "id": 42,
+        "enunciado": "Considere que foi criado um projeto padrão em react utilizando o create-react-app. Onde, por padrão, ficarão armazenadas todas as dependências de bibliotecas utilizadas?",
+        "alternativas": [
+            "Na pasta src.",
+            "No arquivo.gitignore.",
+            "No arquivo package.json.",
+            "No arquivo index.",
+            "Na pasta node_modules."
+        ],
+        "gabarito": "Na pasta node_modules."
+    },
+    {
+        "id": 43,
+        "enunciado": "React é uma biblioteca JavaScript que simplifica e agiliza a tarefa de desenvolvimento de interfaces de usuário interativas e de alto desempenho. Sobre tal biblioteca, assinale a afirmativa correta.",
+        "alternativas": [
+            "Pelo fato de ser uma biblioteca robusta, React é indicado somente para projetos de grande porte.",
+            "Em geral, para usar uma funcionalidade React em um script, não é necessário importá-la para dentro do script.",
+            "Pelo fato do objeto props ser do tipo somente leitura, não é possível alterar os valores passados aos componentesfilho com uso de props.",
+            "Router e Route são componentes que possuem funcionalidades idênticas. Ambos fazem parte da blibioteca React Router e são usados em um projeto de rotas. (links)."
+        ],
+        "gabarito": "Pelo fato do objeto props ser do tipo somente leitura, não é possível alterar os valores passados aos componentesfilho com uso de props."
+    },
+    {
+        "id": 44,
+        "enunciado": "O React Native é uma plataforma baseada no React que possibilita o desenvolvimento de aplicativos mobile híbridos, ou seja, que rodam tanto no iOS quanto no Android. Assinale, a seguir, a funcionalidade do React Native que permite fazer com que o programa fique rodando constantemente em background e, a cada vez que o código é alterado, ele é interpretado, seu build é feito e as suas alterações são mostradas rapidamente na tela.",
+        "alternativas": [
+            "Expo.",
+            "Snack.",
+            "Hot Reloading.",
+            "Desenvolvimento paralelo."
+        ],
+        "gabarito": "Hot Reloading."
+    },
+    {
+        "id": 45,
+        "enunciado": "Observe o código JSX abaixo. Os dados advindos da url serão requisitados quantas vezes? import React, { useState, useEffect } from \"react\";\nexport default function Usuarios() { const [usuarios, setUsuarios] = useState([]);\nconst url = \"https://jsonplaceholder.typicode.com/users\";\nuseEffect(() => { fetch(url).then((resp) => resp.json()).then((resp) => setUsuarios(resp)).catch((err) => console.log(err));\n}, [url]);\nreturn ( <div> {usuarios.map((item) => { return ( <div key={item.id}> <span>{item.name} -- </span> <span>{item.email} </span> </div> );\n})} </div> );\n}",
+        "alternativas": [
+            "Todas as vezes que o estado da variável usuarios mudar.",
+            "Uma vez.",
+            "O número de vezes que o map iterar sobre o array usuarios.",
+            "Nenhuma vez."
+        ],
+        "gabarito": "Uma vez."
+    },
+    {
+        "id": 46,
+        "enunciado": "Considere o seguinte trecho de código Reactjs:\nclass HelloMessage extends React.Component { render() { return ( <div> Hello {this.props.name} </div> );\n} } ReactDOM.render( <HelloMessage name=\"Taylor\" />, document.getElementById('hello-example') );\nComponentes React implementam um método render() que recebe dados de entrada e retorna o que se quer mostrar. Baseado nisso, o resultado da execução do código acima é",
+        "alternativas": [
+            "Taylor.",
+            "Hello Taylor.",
+            "name=Taylor.",
+            "hello-example.",
+            "Hello name."
+        ],
+        "gabarito": "Hello Taylor."
+    },
+    {
+        "id": 47,
+        "enunciado": "Considere o seguinte trecho de código React:\n01:class Square extends React.Component { 02: constructor(props) { 03:\n04: this.state = { 05: value: null, 06: };\n07: } 08: render() { 09: return ( 10: <button className=\"square\" onClick={() => alert('click')}> 11: {this.props.value} 12: </button> 13: );\n14: } 15:} O trecho de código da linha 03 foi intencionalmente omitido. Todas as classes componentes React que possuem um construtor devem começar com uma chamada que deveria estar na linha 03. Esta chamada é",
+        "alternativas": [
+            "render().",
+            "this(props).",
+            "return true.",
+            "React.createElement(object).",
+            "super(props)."
+        ],
+        "gabarito": "super(props)."
+    },
+    {
+        "id": 48,
+        "enunciado": "Sobre React, considere as afirmações abaixo:\nI- Utiliza DOM virtual ao invés de DOM real.\nII- Utiliza renderização do lado do servidor.\nIII- É apenas uma biblioteca e não um framework avançado.\nEstá CORRETO o que se afirma em",
+        "alternativas": [
+            "II e III, apenas.",
+            "I e III, apenas.",
+            "I, II e III.",
+            "I e II, apenas.",
+            "II, apenas."
+        ],
+        "gabarito": "I, II e III."
+    }
+]

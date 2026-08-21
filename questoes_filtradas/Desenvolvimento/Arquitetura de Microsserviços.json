@@ -1,0 +1,974 @@
+[
+    {
+        "id": 1,
+        "enunciado": "Um Ministério Público (MP) está desenvolvendo um sistema de atendimento eletrônico que reúne microsserviços de protocolo, consultas processuais e denúncias. A equipe técnica deseja oferecer um único ponto de acesso para cidadãos e membros do MP, com autenticação baseada em JWT. Também é prioridade reduzir o número de requisições feitas pelos clientes e manter as propriedades da arquitetura REST sempre que adequado, como ausência de sessões de servidor e uso de cache.\nNesse cenário, a decisão que traz o maior alinhamento arquitetural com esses objetivos é",
+        "alternativas": [
+            "desabilitar totalmente o uso de cache HTTP, assumindo que em sistemas do MP não há vantagem em reaproveitar respostas já conhecidas.",
+            "migrar todos os serviços para WebSockets no lugar de HTTP, já que a tecnologia é mais atual e funcionará melhor para qualquer tipo de operação.",
+            "colocar um API Gateway na borda que valida JWT, agrega as respostas de diferentes microsserviços em uma só requisição e expõe APIs adaptadas a cada tipo de cliente (cidadão, membro do MP).",
+            "determinar que cada microsserviço valide JWT e mantenha uma sessão no servidor para cada usuário autenticado, armazenando dados de sessão em memória.",
+            "armazenar JWT no localStorage do navegador para simplificar o uso em múltiplas abas, deixando o token acessível a scripts do lado cliente."
+        ],
+        "gabarito": "colocar um API Gateway na borda que valida JWT, agrega as respostas de diferentes microsserviços em uma só requisição e expõe APIs adaptadas a cada tipo de cliente (cidadão, membro do MP)."
+    },
+    {
+        "id": 2,
+        "enunciado": "Uma aplicação baseada em microsserviços, hospedada em uma nuvem privada de um órgão, tem apresentado picos de latência em transações que atravessam vários serviços.\nCom base no conceito de observabilidade, a correlação correta de itens a ser adotada para acelerar a investigação da causa raiz do problema é:",
+        "alternativas": [
+            "thresholds distribuídos + métricas + logs distribuídos;",
+            "traces distribuídos + métricas + logs correlacionados;",
+            "thresholds locais + métricas agregadas + logs centralizados;",
+            "traces locais + métricas agregadas + thresholds distribuídos;",
+            "traces locais + thresholds distribuídos + logs correlacionados."
+        ],
+        "gabarito": "traces distribuídos + métricas + logs correlacionados;"
+    },
+    {
+        "id": 3,
+        "enunciado": "Uma instituição financeira está redesenhando sua arquitetura de TI, migrando de uma arquitetura monolítica para microsserviços executados em contêineres sobre Kubernetes. Em um segundo momento, alguns componentes pontuais (por exemplo, funções de validação de CPF, cálculo de score ou envio de notificações) foram implementados em modelo serverless (Functions as a Service), disparados sob demanda.\nPara lidar com a complexidade crescente da comunicação entre microsserviços (observabilidade, tracing, retry, circuit breaking e políticas de segurança mTLS), a equipe está avaliando a adoção de um service mesh (como Istio ou Linkerd).\nCom base nesse cenário, é correto afirmar que:",
+        "alternativas": [
+            "a adoção de serverless torna desnecessária a arquitetura de microsserviços, pois funções serverless substituem, por definição, serviços implantados em contêineres em qualquer cenário;",
+            "em uma arquitetura com service mesh, a comunicação entre serviços passa a ocorrer sem uso da rede, por meio de chamadas diretas em memória entre sidecars, eliminando latência e falhas de transporte;",
+            "a principal função de um service mesh é substituir o orquestrador de contêineres, assumindo responsabilidades de agendamento de pods, distribuição de carga entre nós físicos e detecção de falhas de hardware;",
+            "microsserviços e serverless são abordagens mutuamente excludentes, de forma que uma aplicação que utiliza funções serverless não pode, ao mesmo tempo, empregar serviços em contêineres para o mesmo domínio de negócio;",
+            "o uso de um service mesh busca externalizar, para a infraestrutura, diversas preocupações transversais, como roteamento de tráfego, telemetria, autenticação mútua (mTLS) e políticas de resiliência, reduzindo a necessidade de implementar essas funcionalidades no código de cada microsserviço."
+        ],
+        "gabarito": "o uso de um service mesh busca externalizar, para a infraestrutura, diversas preocupações transversais, como roteamento de tráfego, telemetria, autenticação mútua (mTLS) e políticas de resiliência, reduzindo a necessidade de implementar essas funcionalidades no código de cada microsserviço."
+    },
+    {
+        "id": 4,
+        "enunciado": "Uma equipe de analistas do TJRJ está implementando microsserviços com o apoio do Spring Cloud. Para garantir a descoberta e a comunicação entre os microsserviços, a equipe optou por implementar um servidor Eureka. Durante a configuração do Eureka, o analista Silva percebeu que é crucial configurar o atributo que controla o tempo máximo que o servidor irá considerar uma instância como ativa, antes de marcá-la como desconectada.\nÉ correto afirmar que o nome do atributo do Eureka, percebido como crucial por Silva, contém a string:",
+        "alternativas": [
+            "wait-time;",
+            "update-interval;",
+            "lease-expiration;",
+            "renewal-interval;",
+            "heartbeat-interval."
+        ],
+        "gabarito": "lease-expiration;"
+    },
+    {
+        "id": 5,
+        "enunciado": "Acerca de arquitetura de aplicações, julgue o próximo item.\nUm microsserviço pode ter diversas finalidades, desde que sejam escritas na mesma linguagem e estejam no mesmo servidor.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 6,
+        "enunciado": "Uma agência reguladora de transporte está desenvolvendo um sistema para gerenciar permissões intermunicipais e fiscalizar infrações. O sistema precisa ser escalável, permitir integração com múltiplos serviços externos e possibilitar a evolução modular sem comprometer o núcleo de regulação.\nConsiderando os estilos arquiteturais de software, a abordagem que melhor atende esse sistema é:",
+        "alternativas": [
+            "Configurar arquiteturahíbrida com elementos monolíticos e serviços externos encapsulados, mantendo parte das funcionalidades centrais em um núcleo único e delegando integrações a componentes externos especializados.",
+            "Adotar arquitetura monolítica, centralizando todas as funcionalidades em um único artefato executável, o que facilita a implantação inicial e concentra o gerenciamento em um ponto único de controle.",
+            "Implementar arquitetura em camadas, separando responsabilidades como apresentação, lógica de negócio e persistência, garantindo organização estrutural e maior clareza na manutenção dos módulos internos.",
+            "Utilizar arquitetura orientada a serviços (SOA), estruturando o sistema em serviços independentes que compartilham contratos bem definidos, permitindo interoperabilidade entre diferentes plataformas de transporte e órgãos reguladores.",
+            "Projetar arquitetura baseada em microsserviços, dividindo o sistema em serviços pequenos e independentes, cada um responsável por funcionalidades específicas como cadastro de permissões, integração com bases externas e análise de infrações, favorecendo escalabilidade e evolução modular."
+        ],
+        "gabarito": "Projetar arquitetura baseada em microsserviços, dividindo o sistema em serviços pequenos e independentes, cada um responsável por funcionalidades específicas como cadastro de permissões, integração com bases externas e análise de infrações, favorecendo escalabilidade e evolução modular."
+    },
+    {
+        "id": 7,
+        "enunciado": "Julgue o item subsequente, relativo a padrões arquiteturais e padrões de projeto.\nDiferentemente das arquiteturas tradicionais de N camadas, a arquitetura de microsserviços se baseia na descentralização da gestão de dados, em que cada serviço deve, idealmente, possuir sua própria base de dados, de forma a garantir a independência de implantação e o baixo acoplamento.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 8,
+        "enunciado": "Sobre o conceito de microsserviços, analise as afirmações abaixo e marque a opção correta.\nI. Filas de mensagens permitem comunicação assíncrona entre microsserviços, desacoplando a comunicação e melhorando a resiliência do sistema.\nII. Microsserviços são autossuficientes, permitindo que cada um funcione independentemente e tenha seu próprio ciclo de desenvolvimento, implantação e escalabilidade.",
+        "alternativas": [
+            "I é verdadeira e II é falsa.",
+            "I é falsa e II é verdadeira.",
+            "As duas afirmações são verdadeiras.",
+            "As duas afirmações são falsas."
+        ],
+        "gabarito": "As duas afirmações são verdadeiras."
+    },
+    {
+        "id": 9,
+        "enunciado": "Considerando os conceitos e melhores práticas no design de microsserviços, assinale a alternativa correta.",
+        "alternativas": [
+            "A comunicação entre microsserviços deve ser feita de forma síncrona para garantir a independência dos serviços.",
+            "A resiliência dos microsserviços é garantida apenas pelo uso de APIs REST, independentemente de como falhas são tratadas.",
+            "Cada microsserviço pode ser escalado de maneira independente, permitindo maior flexibilidade e eficiência no uso dos recursos.",
+            "Microsserviços devem compartilhar um banco de dados centralizado para garantir a consistência e evitar a duplicação de dados entre os serviços."
+        ],
+        "gabarito": "Cada microsserviço pode ser escalado de maneira independente, permitindo maior flexibilidade e eficiência no uso dos recursos."
+    },
+    {
+        "id": 10,
+        "enunciado": "Os microsserviços são uma abordagem arquitetural que visa a construção de aplicações modulares, resilientes e escaláveis. Sobre essa arquitetura, analise as afirmações a seguir.\nI. Os microsserviços representam componentes de software independentes, com responsabilidades bem definidas e que se comunicam através de interfaces leves, como APIs REST ou mensagens.\nII. A adoção de microsserviços permite a escalabilidade individual dos componentes, facilitando a implantação contínua e o gerenciamento de atualizações.\nIII. Os microsserviços são desenvolvidos e implantados de forma monolítica, compartilhando recursos como banco de dados e sistema de arquivos.\nIV. A orquestração de múltiplos microsserviços é uma tarefa que exige maior complexidade, geralmente realizada por plataformas como Kubernetes ou Docker Swarm.\nAssinale a alternativa que contém, exclusivamente, afirmações corretas.",
+        "alternativas": [
+            "I e II apenas.",
+            "II e III apenas.",
+            "I, II e IV apenas.",
+            "I, II, III e IV."
+        ],
+        "gabarito": "I, II e IV apenas."
+    },
+    {
+        "id": 11,
+        "enunciado": "Em relação a APIs, serviços de autenticação, webhook, PostgreSQL e micros serviços, julgue o item a seguir.\nA implementação de micros serviços tem como objetivo a divisão de uma aplicação em partes que sejam menores e dependentes uma das outras e que se comuniquem por meio de APIs.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 12,
+        "enunciado": "A equipe de suporte bancário foi designada para realizar o Teste de Integração entre os diferentes microsserviços que compõem um sistema bancário distribuído, como o gerenciamento de contas, o processamento de pagamentos e a autenticação de usuários. A comunicação entre os módulos do sistema é realizada por meio de APIs RESTful. Nesse contexto, o Teste de Integração",
+        "alternativas": [
+            "envolve testar a interação entre os microsserviços, verificando se as APIs entre eles estão funcionando corretamente e se os dados estão sendo trocados corretamente entre os módulos.",
+            "concentra-se apenas em testar as funcionalidades internas de cada microsserviço de forma isolada, não avaliando a comunicação entre os módulos ou a troca de dados entre eles.",
+            "tem como objetivo verificar se os microsserviços estão funcionando corretamente em ambiente de produção, sem a necessidade de testes em ambientes de desenvolvimento ou de testes intermediários.",
+            "serve para garantir que as interações entre os serviços sejam verificadas no final do desenvolvimento do sistema e, por isso, só é realizado após a implementação de todos os testes de unidade.",
+            "verifica se os microsserviços estão trocando dados corretamente, não considerando as dependências externas do sistema, como banco de dados, filas de mensagens ou outros sistemas externos aos microsserviços."
+        ],
+        "gabarito": "envolve testar a interação entre os microsserviços, verificando se as APIs entre eles estão funcionando corretamente e se os dados estão sendo trocados corretamente entre os módulos."
+    },
+    {
+        "id": 13,
+        "enunciado": "Em uma startup bancária que utiliza uma arquitetura de microsserviços para a integração entre diferentes sistemas, deseja-se melhorar o gerenciamento e o monitoramento das APIs, bem como otimizar a comunicação entre os microsserviços. Para isso, está sendo considerada a implementação de um API Manager e do Apache Kafka. Nesse contexto, essas tecnologias podem ser utilizadas do seguinte modo:",
+        "alternativas": [
+            "API Manager: criar tópicos no Apache Kafka; Apache Kafka: gerenciar a comunicação entre microsserviços e sistemas externos.",
+            "API Manager: autenticar usuários diretamente nas APIs; Apache Kafka: armazenar logs de atividades da aplicação para análise futura.",
+            "API Manager: centralizar toda a comunicação entre os microsserviços e o tráfego de dados; Apache Kafka: gerir e controlar as APIs.",
+            "API Manager: gerenciar a comunicação entre sistemas externos; Apache Kafka: gerenciar e rotear APIs.",
+            "API Manager: gerenciar o ciclo de vida das APIs, aplicar políticas de segurança e monitorar o tráfego de dados; Apache Kafka: garantir a comunicação assíncrona e em tempo real entre os microsserviços."
+        ],
+        "gabarito": "API Manager: gerenciar o ciclo de vida das APIs, aplicar políticas de segurança e monitorar o tráfego de dados; Apache Kafka: garantir a comunicação assíncrona e em tempo real entre os microsserviços."
+    },
+    {
+        "id": 14,
+        "enunciado": "No que diz respeito à arquitetura de microsserviços, assinale a afirmação verdadeira.",
+        "alternativas": [
+            "A arquitetura de microsserviços é mais complexa do que uma arquitetura monolítica.",
+            "Esse tipo de arquitetura não lida bem com escalabilidade, visto que os serviços estão distribuídos.",
+            "NesSe tipo de arquitetura, todas as funcionalidades da aplicação estão integradas em um único código-fonte.",
+            "Os serviços ficam acoplados uns aos outros de modo a facilitar a comunicação e manter a dependência entre eles.",
+            "Para a consistência, todos os serviços de um mesmo sistema são implementados usando as mesmas tecnologias."
+        ],
+        "gabarito": "A arquitetura de microsserviços é mais complexa do que uma arquitetura monolítica."
+    },
+    {
+        "id": 15,
+        "enunciado": "Em uma arquitetura de microsserviços, o sistema de software é desenvolvido como um conjunto de",
+        "alternativas": [
+            "pequenos serviços dependentes que fazem uma determinada funcionalidade.",
+            "serviços que compartilham o mesmo banco de dados por questões de segurança.",
+            "serviços independentes e coesos que podem ter fluxos de liberação de releases diferentes.",
+            "serviços que devem ter no máximo 1 KLOC de código fonte.",
+            "serviços que usam a mesma linguagem de programação e são responsáveis por múltiplas funcionalidades para redundância."
+        ],
+        "gabarito": "serviços independentes e coesos que podem ter fluxos de liberação de releases diferentes."
+    },
+    {
+        "id": 16,
+        "enunciado": "Uma prefeitura está modernizando sua arquitetura de TI para implementar projetos baseados em Machine Learning (ML). Foi decidido que as soluções utilizarão uma arquitetura de microsserviços para melhor escalabilidade e manutenção. Para a implementação flexível e eficiente de microsserviços para modelos de ML, considerando padrões de design e tecnologias modernas,",
+        "alternativas": [
+            "os modelos de ML devem ser desacoplados em microsserviços independentes que executem inferências, enquanto pipelines de treinamento permanecem centralizados.",
+            "é necessário criar microsserviços independentes apenas para serviços de logging e monitoramento, mantendo os modelos acoplados ao backend principal.",
+            "cada microsserviço deve conter um pipeline completo de treinamento e inferência, garantindo que modelos sejam recalibrados em tempo real.",
+            "todos os microsserviços devem ser configurados para compartilhar estados por meio de sistemas de cache em memória como Redis, garantindo que os modelos de ML sejam consistentes.",
+            "os microsserviços devem ser projetados exclusivamente para ingestão de dados, enquanto modelos de ML devem ser centralizados em um servidor de alto desempenho."
+        ],
+        "gabarito": "os modelos de ML devem ser desacoplados em microsserviços independentes que executem inferências, enquanto pipelines de treinamento permanecem centralizados."
+    },
+    {
+        "id": 17,
+        "enunciado": "A arquitetura baseada em microsserviços tem sido muito utilizada em detrimento da arquitetura monolítica.\nAssinale a alternativa que apresenta CORRETAMENTE o principal benefício do uso de microsserviços em comparação a uma arquitetura monolítica:",
+        "alternativas": [
+            "Facilidade de depuração.",
+            "Melhor integração com APIs externas.",
+            "Melhor desempenho em consultas SQL.",
+            "Escalabilidade independente dos serviços."
+        ],
+        "gabarito": "Escalabilidade independente dos serviços."
+    },
+    {
+        "id": 18,
+        "enunciado": "Julgue o item a seguir, referente a ferramentas de integração assíncrona, microsserviços, arquitetura orientada a serviços e gerenciamento de serviços.\nNo NATS CLI, um contexto é uma configuração nomeada que guarda definições como URLs de servidores, credenciais e certificados, o que facilita a alternância entre diferentes ambientes de conexão.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 19,
+        "enunciado": "No contexto da arquitetura de microsserviços, um determinado padrão arquitetural é chamado de Database per Service. Assinale a alternativa correta sobre esse padrão.",
+        "alternativas": [
+            "Determina o uso de bancos de dados NoSQL em substituição aos tradicionais bancos de dados relacionais.",
+            "Propõe que os diversos microsserviços que compõem uma aplicação sejam executados na mesma máquina, virtual ou real, onde o servidor de banco de dados que atende a essa aplicação é executado.",
+            "Determina que microsserviços devem usar arquivos XML e JSON para persistência de dados, sem utilizar servidores de bancos de dados relacionais ou NoSQL.",
+            "Propõe que microsserviços sejam implementados por meio de stored procedures dentro de servidores de bancos de dados relacionais, e não em linguagens convencionais (Java, Python etc.).",
+            "Promove gerenciamento de dados descentralizado, propondo que cada microsserviço tenha seu próprio banco de dados, sem que um acesse o banco de dados do outro."
+        ],
+        "gabarito": "Promove gerenciamento de dados descentralizado, propondo que cada microsserviço tenha seu próprio banco de dados, sem que um acesse o banco de dados do outro."
+    },
+    {
+        "id": 20,
+        "enunciado": "Sistemas que usam arquitetura REST frequentemente sofrem aumento exponencial de requisições. Assinale a alternativa correta relacionada ao uso de cache, versionamento e balanceamento de serviços sob alta carga.",
+        "alternativas": [
+            "Reduzir o cache a um único servidor, confiando na aplicação para refazer todas as leituras.",
+            "Desativar o balanceador assim que o volume ultrapassar a capacidade nominal do servidor principal.",
+            "Criar versões de API com formatações diferentes, sem padronização entre os endpoints.",
+            "Empregar caches distribuídos, versionamento explícito e escalonamento horizontal para absorver picos de acesso.",
+            "Consolidar todas as requisições em um método HTTP genérico, ignorando parâmetros."
+        ],
+        "gabarito": "Empregar caches distribuídos, versionamento explícito e escalonamento horizontal para absorver picos de acesso."
+    },
+    {
+        "id": 21,
+        "enunciado": "Julgue o item a seguir, a respeito de programação web.\nEm uma arquitetura de microsserviços, cada serviço é implementado e escalado de maneira independente, e a comunicação entre os serviços pode ser realizada por meio de protocolos leves, como HTTP/REST, e mensagens assíncronas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 22,
+        "enunciado": "Julgue o item a seguir, relativo a arquitetura de aplicações de software.\nEntre outras vantagens, a arquitetura de microsserviços facilita a escalabilidade e manutenção de componentes individuais da aplicação, sem afetar o restante do sistema.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 23,
+        "enunciado": "Julgue o item a seguir, relacionado a arquitetura de software escalável e manutenível ao longo do tempo.\nNa arquitetura de microsserviços, a comunicação entre os serviços é sempre realizada de forma síncrona, o que garante a consistência dos dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 24,
+        "enunciado": "Julgue o próximo item, relativos a Spring Eureka, Zuul, Map Struct, service discovery e Swagger.\nZuul é um gateway de aplicativos L7 que fornece recursos para roteamento dinâmico e monitoramento, além de permitir avaliar os limites de desempenho e capacidade de sistemas, com vistas a ajustar políticas de escalonamento automático.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 25,
+        "enunciado": "Em relação à arquitetura de microsserviços, julgue os itens a seguir.\nI Os microsserviços formam uma arquitetura distribuída, na qual cada serviço roda em seu próprio processo.\nII A finalidade, as transações e a coreografia são diretrizes que os arquitetos podem usar para encontrar os limites certos de serviços nos microsserviços.\nIII No estilo de comunicação de orquestração, não há nenhum coordenador central para controlar a sequência de chamadas entre microsserviços, sendo a comunicação geralmente assíncrona.\nAssinale a opção correta.",
+        "alternativas": [
+            "Apenas o item I está certo.",
+            "Apenas o item III está certo.",
+            "Apenas os itens I e II estão certos.",
+            "Apenas os itens II e III estão certos.",
+            "Todos os itens estão certos."
+        ],
+        "gabarito": "Apenas os itens I e II estão certos."
+    },
+    {
+        "id": 26,
+        "enunciado": "A respeito da arquitetura cloud native, de técnicas de componentização de software e da arquitetura orientada a serviços (SOA), assinale a opção correta.",
+        "alternativas": [
+            "Na arquitetura cloud native, os aplicativos são divididos em serviços pequenos fracamente acoplados que se comunicam entre si.",
+            "No desenvolvimento de serviços, o projeto de mensagem tem como objetivo a definição das operações, entradas, saídas e exceções associadas às operações.",
+            "Um serviço é um componente de software reutilizável e de alto acoplamento que encapsula funcionalidades acessíveis e distribuídas por programas.",
+            "Na arquitetura cloud native, os aplicativos podem ser dimensionados horizontalmente, aumentando o tamanho das máquinas virtuais.",
+            "O uso de componentes exige necessariamente a implementação de interface e o conhecimento do código-fonte para referenciá-lo diretamente em um programa."
+        ],
+        "gabarito": "Na arquitetura cloud native, os aplicativos são divididos em serviços pequenos fracamente acoplados que se comunicam entre si."
+    },
+    {
+        "id": 27,
+        "enunciado": "A arquitetura de software trata da forma como os componentes de software são construídos e organizados no sistema. Considerando essa informação, julgue o item seguinte.\nMicrosserviços compartilham o mesmo banco de dados relacional para facilitar a integração.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 28,
+        "enunciado": "A arquitetura de software trata da forma como os componentes de software são construídos e organizados no sistema. Considerando essa informação, julgue o item seguinte.\nA arquitetura de microsserviços organiza o sistema como um conjunto de serviços independentes, com responsabilidades bem definidas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 29,
+        "enunciado": "Um desenvolvedor está criando uma aplicação web escalável e resiliente e, nesse sentido, ele analisa algumas arquiteturas que podem ser empregadas nessa solução. Acerca desse assunto, avalie as sentenças a seguir:\nObjetivando reduzir a latência e simplificar a segurança, a arquitetura cliente-servidor elimina a necessidade de APIs ou gateways e fornece ao cliente acesso diretamente aos dados do banco.\nPORQUE A arquitetura baseada em microsserviços difere consideravelmente da cliente-servidor, pois fragmenta a aplicação em serviços independentes, cada um responsável por uma funcionalidade específica, permitindo escalabilidade horizontal, uso de tecnologias distintas e implantação autônoma.\nAcerca dessas sentenças, assinale a alternativa CORRETA.",
+        "alternativas": [
+            "As duas sentenças são verdadeiras, e a segunda é uma justificativa correta da primeira.",
+            "As duas sentenças são verdadeiras, mas a segunda não é uma justificativa correta da primeira.",
+            "A primeira sentença é verdadeira, e a segunda é falsa.",
+            "A primeira sentença é falsa, e a segunda é verdadeira."
+        ],
+        "gabarito": "A primeira sentença é falsa, e a segunda é verdadeira."
+    },
+    {
+        "id": 30,
+        "enunciado": "No contexto do Poder Judiciário, uma aplicação web foi construída com base em uma arquitetura distribuída do tipo cliente-servidor, na qual múltiplas camadas estão separadas por responsabilidades. A interface com o usuário é executada no cliente, enquanto os serviços de negócio e acesso a dados estão implementados em microsserviços baseados em Spring Boot, comunicando-se via REST/HTTP com dados representados em JSON. A plataforma utiliza ainda Spring Eureka para descoberta de serviços e Spring Gateway para roteamento. Considerando essa arquitetura, assinale a alternativa correta.",
+        "alternativas": [
+            "A arquitetura cliente-servidor pode ser complementada com mecanismos de descoberta de serviços e balanceamento de carga, mantendo a separação de responsabilidades entre cliente e servidor.",
+            "O uso de API Gateway, como o Spring Cloud Gateway, viola os princípios do modelo cliente-servidor por introduzir uma camada intermediária entre cliente e servidor.",
+            "A representação de dados em JSON é incompatível com aplicações Java EE e requer bibliotecas externas específicas para serialização e desserialização em ambientes Spring Boot.",
+            "A adoção de uma arquitetura cliente-servidor impede o uso de Service Discovery como o Spring Eureka, uma vez que os endereços dos serviços precisam ser definidos estaticamente no cliente.",
+            "A presença de múltiplos microsserviços torna desnecessária a utilização de protocolos formais como HTTP, podendo ser substituídos por comunicação direta via métodos internos."
+        ],
+        "gabarito": "A arquitetura cliente-servidor pode ser complementada com mecanismos de descoberta de serviços e balanceamento de carga, mantendo a separação de responsabilidades entre cliente e servidor."
+    },
+    {
+        "id": 31,
+        "enunciado": "Uma equipe de desenvolvimento está projetando uma aplicação baseada em arquitetura de microsserviços, com foco em alta escalabilidade, resiliência e facilidade de manutenção. O sistema utiliza Spring Boot, Spring Cloud e adota boas práticas como uso de Swagger para documentação, MapStruct para mapeamento de DTO (Data Transfer Object), além de Spring Eureka para descoberta de serviços e Zuul como API Gateway. Durante uma revisão de arquitetura, foi levantada a necessidade de garantir baixo acoplamento, descoberta dinâmica de serviços e balanceamento de carga transparente entre instâncias. A partir desse cenário, assinale a alternativa correta.",
+        "alternativas": [
+            "A utilização de Spring Boot elimina a necessidade de um gateway de entrada como o Zuul, pois o framework já oferece roteamento nativo entre serviços por meio de anotações REST.",
+            "A ferramenta MapStruct é utilizada para balanceamento de carga entre microsserviços registrados no Eureka Server, substituindo a necessidade do uso de Ribbon ou LoadBalancer.",
+            "O Spring Eureka permite o registro e a descoberta automática de serviços em tempo de execução, promovendo escalabilidade horizontal ao permitir múltiplas instâncias de serviços sob um mesmo identificador lógico.",
+            "O Swagger atua como mecanismo de autenticação centralizada entre microsserviços, implementando OAuth2 integrado ao Spring Security.",
+            "O Zuul, quando integrado ao Eureka, impede o roteamento dinâmico entre microsserviços, exigindo configurações estáticas e manuais para cada endpoint do sistema."
+        ],
+        "gabarito": "O Spring Eureka permite o registro e a descoberta automática de serviços em tempo de execução, promovendo escalabilidade horizontal ao permitir múltiplas instâncias de serviços sob um mesmo identificador lógico."
+    },
+    {
+        "id": 32,
+        "enunciado": "O que caracteriza a containerização de aplicações no contexto de ambientes de desenvolvimento e operações (DevOps)?",
+        "alternativas": [
+            "Um método para executar várias instâncias de uma aplicação no mesmo servidor sem o uso de virtualização ou isolamento de recursos.",
+            "Um processo que empacota uma aplicação e suas dependências em um ambiente isolado, proporcionando consistência na execução da aplicação em diferentes ambientes, como desenvolvimento, teste e produção.",
+            "Uma técnica que utiliza máquinas virtuais para criar ambientes isolados onde as aplicações podem ser executadas de forma independente.",
+            "O processo de empacotar uma aplicação em uma única máquina física, visando otimizar a utilização de recursos e aumentar a eficiência.",
+            "Um processo no qual uma aplicação é executada diretamente no sistema operacional sem quaisquer dependências externas, garantindo total independência de ambiente."
+        ],
+        "gabarito": "Um processo que empacota uma aplicação e suas dependências em um ambiente isolado, proporcionando consistência na execução da aplicação em diferentes ambientes, como desenvolvimento, teste e produção."
+    },
+    {
+        "id": 33,
+        "enunciado": "Durante a modemização de sistemas de um tribunal, uma equipe técnica adotou arquiteturas distribuídas com microsserviços, utilizando APls para comunicação entre componentes. Para garantir escalabilidade, segurança e gerenciamento eficiente das comunicações, o ambiente de produção também incorpora API Gateway, autenticação, Service Discovery (Eureka) e proxy reverso (Nginx ou HAProxy). Considerando essas práticas de arquitetura, a estruturação adequada da solução deve garantir que",
+        "alternativas": [
+            "a comunicação entre microsserviços seja realizada por meio de rotas fixas e predefinidas, simplificando a topologia da rede em ambientes estáticos.",
+            "as APls REST utilizem tokens JWT para autenticação e autorização, fortalecendo a segurança na troca de mensagens.",
+            "o API Gateway concentre o controle de entrada, isentando da necessidade de acoplar funções de autenticação, roteamento dinâmico ou controle de taxa de requisições.",
+            "a arquitetura cliente-servidor seja mantida em serviços intermediários como padrão de comunicação entre microsserviços, garantindo isolamento lógico.",
+            "o proxy reverso atue prioritariamente na camada de encaminhamento de requisições HTTP, sem interferência direta no balanceamento de carga ou caching de respostas."
+        ],
+        "gabarito": "as APls REST utilizem tokens JWT para autenticação e autorização, fortalecendo a segurança na troca de mensagens."
+    },
+    {
+        "id": 34,
+        "enunciado": "A equipe de uma Secretaria da Fazenda, que tinha um sistema monolítico o qual evoluiu para uma arquitetura SOA, enfrenta dificuldades para escalar e manter a agilidade no desenvolvimento de novas funcionalidades. Por tal razão, os arquitetos de sistemas estão considerando realizar a migração para uma arquitetura de microsserviços. Um dos integrantes da equipe questionou aos demais sobre qual seria o principal benefício da transição de SOA para microsserviços, cuja resposta unânime foi:",
+        "alternativas": [
+            "redução da granularidade dos serviços para diminuir a complexidade do sistema.",
+            "descentralização dos serviços em componentes independentes para permitir escalabilidade e implantações independentes.",
+            "aumento do acoplamento entre os serviços para garantir a consistência dos dados.",
+            "centralização do barramento de serviços (ESB) para facilitar a comunicação entre os serviços.",
+            "padronização rígida das tecnologias utilizadas em todos os serviços para simplificar a manutenção."
+        ],
+        "gabarito": "descentralização dos serviços em componentes independentes para permitir escalabilidade e implantações independentes."
+    },
+    {
+        "id": 35,
+        "enunciado": "Um órgão do Poder Judiciário está desenvolvendo um novo serviço para consulta de processos judiciais. A equipe precisa garantir que esse serviço seja acessível dentro da Plataforma Digital do Poder Judiciário (PDPJ-Br), sem que os usuários precisem conhecer seu endereço exato. Após consultar a documentação da PDPJ-Br, a equipe optou por registrar o serviço no Service Discovery e disponibilizá-lo por meio do API Gateway. Nesse cenário.",
+        "alternativas": [
+            "o Service Discovery tem a função principal de garantir que o serviço seja acessível diretamente a qualquer cliente, independente de estar ou não no API Gateway.",
+            "o serviço será acessível somente se a equipe configurar manualmente seu endereço no API Gateway antes de cada requisição.",
+            "o serviço poderá ser acessado diretamente pelo seu endereço IP e porta, independentemente de estar ou não no API Gateway.",
+            "ao registrar o serviço no Service Discovery, ele automaticamente se torna acessível ao público sem a necessidade de um ponto intermediário.",
+            "o API Gateway permitirá que o serviço seja acessado de maneira padronizada, sem expor diretamente seu endereço real."
+        ],
+        "gabarito": "o API Gateway permitirá que o serviço seja acessado de maneira padronizada, sem expor diretamente seu endereço real."
+    },
+    {
+        "id": 36,
+        "enunciado": "Uma Secretaria da Fazenda iniciou a modernização de seu sistema legado, originalmente estruturado em uma Arquitetura Orientada a Serviços (SOA), buscando migrar gradualmente para um modelo baseado em microsserviços. Nesse cenário, a",
+        "alternativas": [
+            "latência pode aumentar à medida que os microsserviços escalam, já que compartilham recursos de comunicação entre si, o que não ocorre com SOA, que mantém desempenho consistente mesmo com muitos serviços, já que não há competição por recursos.",
+            "transição de SOA para microsserviços envolve, entre outros desafios, a redistribuição da lógica de negócio em serviços menores e autônomos, favorecendo deploys independentes e maior resiliência a falhas.",
+            "granularidade dos serviços na arquitetura SOA tende a ser maior do que em microsserviços, o que favorece o reuso, mas limita a automação de testes e o versionamento independente.",
+            "transição de SOA para microsserviços requer o desacoplamento do Establishment Service Bus (ESB), substituindo-o por gateways centralizados que concentram a lógica de orquestração entre os serviços.",
+            "adoção de microsserviços torna dispensável o uso de API Gateways, visto que cada serviço deve expor sua interface conforme sua lógica local e estas aumentam a exposição a vetores de ataque."
+        ],
+        "gabarito": "transição de SOA para microsserviços envolve, entre outros desafios, a redistribuição da lógica de negócio em serviços menores e autônomos, favorecendo deploys independentes e maior resiliência a falhas."
+    },
+    {
+        "id": 37,
+        "enunciado": "A respeito de arquiteturas de microsserviços, julgue o item que se segue.\nDurante a inicialização, microsserviços configurados como clientes Eureka registram-se automaticamente no servidor Eureka, fornecendo metadados, como nome do serviço, endereço IP ou hostname, e porta.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 38,
+        "enunciado": "Em arquiteturas baseadas em microserviços na nuvem, a utilização de contêineres oferece vantagens, como",
+        "alternativas": [
+            "substituição integral de hipervisores tradicionais em nível de hardware.",
+            "execução exclusiva de serviços RESTful sob protocolos de comunicação síncronos.",
+            "eliminação da necessidade de balanceadores de carga em ambientes distribuídos.",
+            "isolamento leve de processos, portabilidade e rápida escalabilidade horizontal."
+        ],
+        "gabarito": "isolamento leve de processos, portabilidade e rápida escalabilidade horizontal."
+    },
+    {
+        "id": 39,
+        "enunciado": "De acordo com Newman (2, a arquitetura de microsserviços traz uma abordagem que busca facilitar a evolução contínua dos sistemas e reduzir os impactos de mudanças locais sobre o todo, desde que princípios como autonomia, desacoplamento e coesão sejam respeitados. Com base nesses fundamentos, assinale a alternativa correta.",
+        "alternativas": [
+            "Microsserviços são componentes dependentes que compartilham banco de dados para garantir consistência transacional entre domínios.",
+            "A principal vantagem dos microsserviços está na capacidade de centralizar decisões de negócio em um único serviço, reduzindo a redundância de regras.",
+            "Microsserviços bem definidos devem manter alta coesão e baixo acoplamento, favorecendo mudanças locais sem impactar o restante do sistema.",
+            "Para garantir integridade, é ideal que todos os microsserviços compartilhem um único ponto de autenticação e autorização, codificado dentro de cada serviço.",
+            "A adoção de microsserviços reduz automaticamente a complexidade do sistema ao eliminar a necessidade de integração entre componentes."
+        ],
+        "gabarito": "Microsserviços bem definidos devem manter alta coesão e baixo acoplamento, favorecendo mudanças locais sem impactar o restante do sistema."
+    },
+    {
+        "id": 40,
+        "enunciado": "A adoção de uma arquitetura baseada em microsserviços, para um novo sistema de gestão de processos no Tribunal de Justiça de um estado da federação, promete maior ______ e ______, permitindo que equipes pequenas trabalhem de forma independente. No entanto, introduz complexidade na ______ e no ______ distribuído, exigindo estratégias robustas para gerenciar comunicação e falhas entre os serviços. Assinale a alternativa que preencha correta e respectivamente as lacunas.",
+        "alternativas": [
+            "resiliência / monolitismo / orquestração / monitoramento.",
+            "acoplamento / modularidade / integração / armazenamento.",
+            "flexibilidade / escalabilidade / orquestração / rastreamento.",
+            "estabilidade / acoplamento / segurança / monitoramento."
+        ],
+        "gabarito": "flexibilidade / escalabilidade / orquestração / rastreamento."
+    },
+    {
+        "id": 41,
+        "enunciado": "Um certo órgão público está modernizando sua infraestrutura de TI com a adoção de microsserviços utilizando o ecossistema Spring Cloud para Java. A equipe de arquitetura está avaliando como os componentes do Spring Cloud podem endereçar os desafios de comunicação, resiliência e descoberta em um ambiente distribuído.\nReferente ao uso de componentes Spring Cloud em arquiteturas de microsserviços, analise as afirmativas abaixo e dê valores Verdadeiro (V) ou Falso (F).\n( ) O Spring Cloud Eureka atua como um servidor de Service Discovery, permitindo que os microsserviços se registrem e descubram uns aos outros dinamicamente, evitando a necessidade de configurar endereços IP estáticos.\n( ) O Spring Cloud Zuul é primariamente um servidor de configuração distribuída, usado para centralizar e gerenciar as propriedades de configuração de todos os microsserviços de forma dinâmica.\n( ) O Ribbon, integrado ao Spring Cloud, é uma biblioteca de balanceamento de carga client-side, que trabalha em conjunto com o Eureka para distribuir requisições entre as instâncias de um serviço.\n( ) O Spring Boot é essencial para o Spring Cloud, pois simplifica a criação de aplicações Spring autônomas e executáveis, facilitando o empacotamento e a implantação de microsserviços.\nAssinale a alternativa que apresenta a sequência correta de cima para baixo.",
+        "alternativas": [
+            "V - V - F - V.",
+            "V - F - V - F.",
+            "V - F - V - V.",
+            "F - V - F - V."
+        ],
+        "gabarito": "V - F - V - V."
+    },
+    {
+        "id": 42,
+        "enunciado": "Assinale a alternativa que indica um dos principais desafios que precisa ser tratado em uma arquitetura de microsserviços.",
+        "alternativas": [
+            "Redução do acoplamento entre camadas internas de um único sistema monolítico.",
+            "Eliminação da integração contínua, pois cada serviço é independente.",
+            "Aumento da complexidade de gerenciamento e monitoramento.",
+            "Diminuição da latência de comunicação, pois as chamadas de serviços ocorrem sempre localmente.",
+            "Eliminação do versionamento de APIs."
+        ],
+        "gabarito": "Aumento da complexidade de gerenciamento e monitoramento."
+    },
+    {
+        "id": 43,
+        "enunciado": "Sobre os conceitos de microsserviços e contêineres Docker, analise as assertivas abaixo e assinale a alternativa correta.\nI. Microsserviços são um padrão de design no qual os aplicativos são compostos por módulos normalmente pequenos e independentes que se comunicam entre si.\nII. Os microsserviços facilitam desenvolver, testar e implantar partes isoladas dos aplicativos, podendo escalá-los de maneira independente.\nIII. Contêineres são uma abstração na camada de aplicativo que permite agrupar código e dependências virtualizando o hardware.",
+        "alternativas": [
+            "Todas as assertivas estão corretas.",
+            "Todas as assertivas estão incorretas.",
+            "Apenas a assertiva I está correta.",
+            "Apenas as assertivas I e II estão corretas.",
+            "Apenas as assertivas II e III estão corretas."
+        ],
+        "gabarito": "Apenas as assertivas I e II estão corretas."
+    },
+    {
+        "id": 44,
+        "enunciado": "A arquitetura de microsserviços é um estilo de desenvolvimento de software que estrutura uma aplicação como uma coleção de serviços pequenos, autônomos e fracamente acoplados. Essa abordagem contrasta com a arquitetura monolítica, trazendo novas vantagens e desafios.\nSobre a arquitetura distribuída de microsserviços, analise as afirmativas a seguir.\nI. Cada microsserviço é desenvolvido, implantado e mantido de forma independente, o que permite que equipes diferentes trabalhem em partes distintas da aplicação sem afetar o todo.\nII. Os microsserviços podem ser escritos em diferentes linguagens de programação e utilizar tecnologias de armazenamento distintas, o que permite a escolha da melhor tecnologia para cada funcionalidade.\nIII. A arquitetura de microsserviços reduz significativamente a complexidade operacional, pois a gestão de um grande número de serviços distribuídos é mais simples do que a de uma única aplicação monolítica.\nEstão corretas as afirmativas",
+        "alternativas": [
+            "I e II, apenas.",
+            "I e III, apenas.",
+            "II e III, apenas.",
+            "I, II e III."
+        ],
+        "gabarito": "I e II, apenas."
+    },
+    {
+        "id": 45,
+        "enunciado": "Com uma arquitetura de microsserviços, um aplicativo pode ser criado por meio de componentes independentes que executam cada processo como um serviço. São benefícios da arquitetura de microsserviços, EXCETO:",
+        "alternativas": [
+            "Diversidade tecnológica.",
+            "Forte acoplamento.",
+            "Escalabilidade flexível.",
+            "Maior agilidade.",
+            "Resiliência aprimorada."
+        ],
+        "gabarito": "Forte acoplamento."
+    },
+    {
+        "id": 46,
+        "enunciado": "Na arquitetura de microsserviços, cada camada possui uma função específica.\nA camada em que é implementada a descoberta de serviços é a camada de",
+        "alternativas": [
+            "hardware.",
+            "comunicação.",
+            "aplicação.",
+            "microsserviços.",
+            "arquitetura."
+        ],
+        "gabarito": "comunicação."
+    },
+    {
+        "id": 47,
+        "enunciado": "Considere as afirmativas relacionadas a microsserviços apresentadas a seguir. Registre V, para verdadeiras, e F, para falsas:\n( )A arquitetura de microsserviços, ao dividir o sistema em serviços independentes, pode aumentar a complexidade do sistema, exigindo mecanismos de comunicação e coordenação entre os serviços.\n( )Um dos benefícios da arquitetura de microsserviços é a possibilidade de utilizar diferentes tecnologias e linguagens de programação para cada serviço, adaptando a escolha à necessidade específica de cada componente.\n( )A arquitetura de microsserviços garante um baixo acoplamento entre os serviços, eliminando completamente a necessidade de coordenação entre as equipes de desenvolvimento.\nAssinale a alternativa que apresenta a sequência correta:",
+        "alternativas": [
+            "V − F − F.",
+            "V − V − F.",
+            "F − V − V.",
+            "F − V − F.",
+            "F − F − V."
+        ],
+        "gabarito": "V − V − F."
+    },
+    {
+        "id": 48,
+        "enunciado": "Relaciones as desvantagens dos microsserviços com seus respectivos conceitos.\n1. Complexidade do projeto\n2. Complexidade da rede\n3. Persistência de dados\n4. Testes de integração\n( ) Desenvolver aplicativos com arquitetura de microsserviços pode atrasar o processo de obtenção de feedback, pois nem todos os serviços podem ser testados completamente antes de serem implantados em um servidor de teste ou de produção\n( ) Microsserviços precisam acompanhar onde os serviços são implantados e o número total de instâncias implantadas, para que, quando uma nova instância de um serviço específico for criada, o tráfego possa ser redirecionado de forma adequada. Isolar o estado de um serviço específico para que ele não seja compartilhado ou duplicado é extremamente difícil.\n( ) Com um monólito, tudo acontece em um único processo, então não se precisa fazer muitas chamadas para outros serviços. Ao dividir partes do seu aplicativo em microsserviços, se precisará fazer uma chamada de rede, o que pode causar problemas, especialmente se vários serviços precisarem se comunicar entre si, resultando em efeitos semelhantes aos do pingue-pongue em termos de solicitações de rede.\n( ) Refatorar um módulo separado dentro do monólito geral é uma opção mais fácil do que dividir uma parte do seu aplicativo em um microsserviço, pois não há como voltar atrás depois de dividir um serviço.\nAssinale a opção que indica a relação correta, na ordem apresentada.",
+        "alternativas": [
+            "1 – 2 – 4 – 3.",
+            "3 – 2 – 4 – 1.",
+            "4 – 1 – 2 – 3.",
+            "4 – 3 – 2 – 1.",
+            "4 – 3 – 1 – 2."
+        ],
+        "gabarito": "4 – 3 – 2 – 1."
+    },
+    {
+        "id": 49,
+        "enunciado": "Julgue o item subsequente, a respeito das ferramentas de DevOps e das soluções mobile.\nA arquitetura de microfrontends é uma abordagem arquitetural que permite integrar diferentes aplicações web ou mobile em uma única interface, compartilhando as mesmas tecnologia e equipe de desenvolvimento.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 50,
+        "enunciado": "Acerca de microsserviços, avalie se as afirmativas a seguir são verdadeiras (V) ou falsas (F).\n( ) A camada de orquestração é responsável por monitorar o desempenho dos microsserviços, identificar gargalos e gerenciar a execução dos microsserviços.\n( ) O particionamento inteligente pode ser usado para categorizar microsserviços com base em seu uso e dependência de outros microsserviços, garantindo uma alocação eficiente de recursos.\n( ) A orquestração de microsserviços se concentra principalmente no gerenciamento da implantação e execução de aplicativos monolíticos, em vez de microsserviços.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "V – V – F.",
+            "V – F – F.",
+            "F – V – F.",
+            "F – F – V.",
+            "V – V – V."
+        ],
+        "gabarito": "V – V – F."
+    },
+    {
+        "id": 51,
+        "enunciado": "A Figura mostra como um Gateway de API personalizado pode se encaixar em uma arquitetura simplificada baseada em microsserviço com apenas alguns microsserviços. Um Gateway de API pode oferecer vários recursos. Dependendo do produto, ele pode oferecer recursos mais avançados ou mais simples, no entanto, os recursos. Marque a alternativa que apresenta corretamente, uma das mais importantes e fundamentais para qualquer Gateway de API padrões de design.",
+        "alternativas": [
+            "Proxy reverso ou roteamento de gateway.",
+            "Porta TCP diferente para cada microsserviço.",
+            "Balanceador de carga e ADC.",
+            "Hosts descarregando terminação SSL."
+        ],
+        "gabarito": "Proxy reverso ou roteamento de gateway."
+    },
+    {
+        "id": 52,
+        "enunciado": "Considerando o desenvolvimento de aplicações Web modernas, qual abordagem arquitetônica facilita a separação de responsabilidades entre o cliente (front-end) e o servidor (back-end), promovendo melhor escalabilidade e manutenção do sistema?",
+        "alternativas": [
+            "Monolítica, em que tanto a lógica de apresentação quanto a de negócios são implementadas juntas.",
+            "Baseada em microserviços, que divide a aplicação em pequenos serviços independentes que se comunicam por meio de APIs.",
+            "SPA (Single Page Application), que se refere exclusivamente à construção do front-end.",
+            "MVC (Model-View-Controller), que é um padrão de projeto exclusivo para a interface de usuário."
+        ],
+        "gabarito": "Baseada em microserviços, que divide a aplicação em pequenos serviços independentes que se comunicam por meio de APIs."
+    },
+    {
+        "id": 53,
+        "enunciado": "Qual é o impacto da adoção da arquitetura de microsserviços na relação entre arquitetura backend e frontend, juntamente com a arquitetura de API, dentro da Engenharia de Software moderna?",
+        "alternativas": [
+            "A arquitetura de microsserviços centraliza todas as funcionalidades tanto do backend quanto do frontend, reduzindo a necessidade de arquitetura de API.",
+            "Sob a influência da arquitetura de microsserviços, a arquitetura de API se torna obsoleta, pois não há mais necessidade de comunicação entre os diferentes componentes do sistema.",
+            "Com a arquitetura de microsserviços, o frontend torna-se responsável por toda a lógica de negócios, enquanto o backend foca apenas no armazenamento de dados, eliminando a necessidade de uma arquitetura de API.",
+            "A arquitetura de microsserviços incentiva a separação clara entre backend e frontend, com o backend responsável pela lógica de negócios e processamento de dados, enquanto o frontend cuida da interface do usuário. A arquitetura de API é essencial para a comunicação entre essas camadas."
+        ],
+        "gabarito": "A arquitetura de microsserviços incentiva a separação clara entre backend e frontend, com o backend responsável pela lógica de negócios e processamento de dados, enquanto o frontend cuida da interface do usuário. A arquitetura de API é essencial para a comunicação entre essas camadas."
+    },
+    {
+        "id": 54,
+        "enunciado": "Acerca das tecnologias que atendem a PDPJ-Br, julgue o próximo item.\nUma das premissas da arquitetura de microsserviços é que cada microsserviço seja independente, autônomo e autossuficiente.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 55,
+        "enunciado": "Considere que o Tribunal de Justiça do Maranhão se depara regularmente com dificuldades para lidar com picos de tráfego em seu site durante períodos sazonais.\nSua equipe de tecnologia da informação considera adotar uma arquitetura distribuída de microsserviços para melhorar a escalabilidade e a disponibilidade de sua plataforma. Trata-se de característica comum associada à implantação de uma arquitetura distribuída de microsserviços:",
+        "alternativas": [
+            "Dificuldade na comunicação entre os microsserviços devido à baixa latência.",
+            "Dependência de um único ponto de falha devido à descentralização dos serviços.",
+            "Coordenação de transações distribuídas e consistência de dados entre os microsserviços.",
+            "Necessidade de hardware de alta capacidade para suportar a escalabilidade vertical dos microsserviços."
+        ],
+        "gabarito": "Coordenação de transações distribuídas e consistência de dados entre os microsserviços."
+    },
+    {
+        "id": 56,
+        "enunciado": "Uma instituição pública do Poder Legislativo está considerando a migração de uma arquitetura monolítica para uma arquitetura distribuída de microsserviços para atualizar sua infraestrutura de tecnologia da informação. Essa mudança é contemplada para melhor atender às demandas por serviços on-line e possibilitar ajustes de escalabilidade e flexibilidade nos sistemas. Qual alternativa a seguir descreve corretamente um benefício da arquitetura de microsserviços em comparação com a arquitetura monolítica?",
+        "alternativas": [
+            "Maior acoplamento entre os componentes, facilitando a manutenção do sistema.",
+            "Redução da sobrecarga de comunicação entre os serviços devido à comunicação síncrona.",
+            "Melhor utilização de recursos de hardware devido à dependência de um único servidor de aplicação.",
+            "Isolamento de falhas, permitindo que problemas em um microsserviço não afetem o funcionamento dos outros."
+        ],
+        "gabarito": "Isolamento de falhas, permitindo que problemas em um microsserviço não afetem o funcionamento dos outros."
+    },
+    {
+        "id": 57,
+        "enunciado": "Em um ambiente de microsserviços, o Service Discovery é essencial para a comunicação eficiente entre serviços.\nAnalise as seguintes práticas de implementação:\nI. Utilizar um sistema de Service Discovery centralizado com registros dinâmicos e consultas via DNS ou API.\nII. Codificar os endereços IP dos serviços nos arquivos de configuração dos consumidores para reduzir a latência de busca.\nIII. Utilizar um balanceador de carga junto com Service Discovery para distribuir o tráfego entre instâncias de serviço.\nCom o objetivo de garantir uma descoberta de serviços robusta e resiliente, é(são) prática(s) correta(s):",
+        "alternativas": [
+            "I, apenas.",
+            "II, apenas.",
+            "III, apenas.",
+            "I e III, apenas.",
+            "II e III, apenas."
+        ],
+        "gabarito": "I e III, apenas."
+    },
+    {
+        "id": 58,
+        "enunciado": "A respeito de arquitetura orientada a microsserviços, é correto afirmar que",
+        "alternativas": [
+            "microsserviços são unidades grandes de código que englobam múltiplas funcionalidades, agrupadas para facilitar a manutenção e a implementação de novas features.",
+            "cada microsserviço deve ter seu próprio banco de dados, permitindo a independência de desenvolvimento, implementação e escalabilidade, mas aumentando a complexidade da gestão de dados.",
+            "o padrão de comunicação mais comum entre microsserviços é o uso de Chamada de Procedimento Remoto (Remote Procedure Call – RPC) síncrona, que garante maior confiabilidade na comunicação entre serviços.",
+            "a arquitetura de microsserviços se caracteriza por serviços fortemente acoplados, o que permite a rápida integração de novas funcionalidades em um único deploy.",
+            "na arquitetura de microsserviços, a falha em um único serviço geralmente resulta na indisponibilidade de todo o sistema, devido à alta interdependência entre os serviços."
+        ],
+        "gabarito": "cada microsserviço deve ter seu próprio banco de dados, permitindo a independência de desenvolvimento, implementação e escalabilidade, mas aumentando a complexidade da gestão de dados."
+    },
+    {
+        "id": 59,
+        "enunciado": "Sobre a arquitetura de microsserviços, assinale a alternativa que apresenta a ideia desta arquitetura.",
+        "alternativas": [
+            "Microsserviços são agrupados em um único serviço monolítico para garantir que todos os elementos de funcionalidade sejam gerenciados de forma centralizada e com menor sobrecarga.",
+            "Microsserviços compartilham recursos e dependências para evitar redundância, garantindo que os serviços não sejam completamente autônomos ou independentes.",
+            "A arquitetura de microsserviços se baseia na centralização de todos os elementos de funcionalidade em um serviço principal, com serviços adicionais subordinados a este serviço principal.",
+            "Cada microsserviço é projetado para ser autônomo e independente, permitindo que funcione de forma isolada dos outros serviços, o que facilita a escalabilidade e a manutenção."
+        ],
+        "gabarito": "Cada microsserviço é projetado para ser autônomo e independente, permitindo que funcione de forma isolada dos outros serviços, o que facilita a escalabilidade e a manutenção."
+    },
+    {
+        "id": 60,
+        "enunciado": "O termo microsserviços refere-se a um estilo de arquitetura para criar aplicações, uma maneira de decompor aplicações monolíticas em componentes diferentes e independentes. Assinale a alternativa correta em relação à arquitetura de microsserviços.",
+        "alternativas": [
+            "Os microsserviços podem acelerar o desenvolvimento de sistemas ao permitir que pequenas equipes trabalhem de forma independente em funcionalidades específicas da aplicação.",
+            "Devido a sua característica modular, um erro em um microsserviço pode afetar outros serviços, o que diminui consideravelmente a tolerância a falhas das aplicações que utilizam este tipo de arquitetura.",
+            "Para garantir a compatibilidade entre os diferentes componentes de uma arquitetura de microsserviços, todos os componentes precisam ser escritos na mesma linguagem de programação.",
+            "O microsserviços são aplicações independentes entre si, que possuem os seus próprios bancos de dados, o que elimina a necessidade de comunicação entre os diferentes serviços uma vez que todos possuem as informações necessárias para executar as suas operações."
+        ],
+        "gabarito": "Os microsserviços podem acelerar o desenvolvimento de sistemas ao permitir que pequenas equipes trabalhem de forma independente em funcionalidades específicas da aplicação."
+    },
+    {
+        "id": 61,
+        "enunciado": "Containers são uma tecnologia que permite empacotar e isolar aplicações e seus ambientes em unidades consistentes e portáteis. Eles são usados para desenvolver, implantar e executar aplicações de maneira eficiente e previsível, independentemente do ambiente em que estejam sendo executados.\nUma boa prática para o desenvolvimento e gerenciamento de containers em um ambiente de produção é",
+        "alternativas": [
+            "incluir todas as ferramentas e utilitários necessários para o desenvolvimento e a produção dentro do mesmo container para garantir que tudo esteja disponível em um único local.",
+            "manter containers grandes e genéricos que possam ser usados para vários aplicativos para simplificar a gestão e a configuração.",
+            "utilizar imagens base pequenas e específicas para cada container, garantindo que cada container tenha apenas as dependências necessárias para sua funcionalidade.",
+            "desenvolver containers que executem múltiplos serviços para otimizar o uso dos recursos do sistema e reduzir o número total de containers.",
+            "armazenar dados persistentes dentro do próprio container para garantir que os dados estejam sempre disponíveis junto com o container."
+        ],
+        "gabarito": "utilizar imagens base pequenas e específicas para cada container, garantindo que cada container tenha apenas as dependências necessárias para sua funcionalidade."
+    },
+    {
+        "id": 62,
+        "enunciado": "Arquitetura de microsserviços é um estilo de arquitetura de software em que uma aplicação é dividida em uma série de serviços pequenos e independentes, cada um com uma função específica e executado de forma autônoma.\nAssinale a opção que descreve corretamente um princípio fundamental da arquitetura de microsserviços.",
+        "alternativas": [
+            "Cada microsserviço deve ter seu próprio banco de dados para garantir a independência e escalabilidade dos serviços.",
+            "Todos os microsserviços devem compartilhar o mesmo banco de dados para garantir a consistência e facilitar a comunicação entre eles.",
+            "Os microsserviços devem ser desenvolvidos e implantados como uma única unidade para garantir a consistência do sistema.",
+            "Cada microsserviço deve ter uma dependência rígida em uma biblioteca de terceiros para garantir funcionalidades comuns em todos os serviços.",
+            "Microsserviços devem ser implementados em uma arquitetura monolítica para facilitar a comunicação entre os serviços."
+        ],
+        "gabarito": "Cada microsserviço deve ter seu próprio banco de dados para garantir a independência e escalabilidade dos serviços."
+    },
+    {
+        "id": 63,
+        "enunciado": "Qual é o padrão de software usado em microsserviços que evita falhas em cascata e interrompe chamadas subsequentes para evitar sobrecarga?",
+        "alternativas": [
+            "Retry.",
+            "Strangler.",
+            "Circuit Breaker.",
+            "Bulkhead."
+        ],
+        "gabarito": "Circuit Breaker."
+    },
+    {
+        "id": 64,
+        "enunciado": "Em uma arquitetura de microserviços, assinale a alternativa que apresenta o que a abordagem de \"Circuit Breaker\" visa solucionar.",
+        "alternativas": [
+            "Reduz a latência das comunicações entre microserviços em redes com alta carga.",
+            "Monitora e reconfigura automaticamente o balanceamento de carga de acordo com a demanda dos serviços.",
+            "Previne que falhas em um serviço propaguem e causem falhas em cascata em toda a arquitetura, interrompendo as chamadas quando um serviço estiver sobrecarregado ou fora do ar.",
+            "Realiza backups automáticos e em tempo real das transações realizadas entre microserviços."
+        ],
+        "gabarito": "Previne que falhas em um serviço propaguem e causem falhas em cascata em toda a arquitetura, interrompendo as chamadas quando um serviço estiver sobrecarregado ou fora do ar."
+    },
+    {
+        "id": 65,
+        "enunciado": "Sobre a implementação de comunicação assíncrona na arquitetura de microserviços, assinale a alternativa correta.",
+        "alternativas": [
+            "A comunicação assíncrona garante a entrega instantânea de mensagens entre serviços, independentemente da capacidade dos serviços receptores.",
+            "Filas de mensagens e sistemas de publicação/assinatura (pub/sub) são comumente usados para implementar comunicação assíncrona, permitindo que os serviços funcionem de forma desacoplada.",
+            "Comunicação assíncrona só é adequada para cenários em que a consistência forte é necessária em tempo real.",
+            "A comunicação assíncrona elimina a necessidade de garantir a resiliência dos microserviços, pois sempre há backups automáticos."
+        ],
+        "gabarito": "Filas de mensagens e sistemas de publicação/assinatura (pub/sub) são comumente usados para implementar comunicação assíncrona, permitindo que os serviços funcionem de forma desacoplada."
+    },
+    {
+        "id": 66,
+        "enunciado": "Suponha que uma prefeitura solicitou o desenvolvimento de um sistema para gerenciar o estacionamento rotativo da cidade, com emissão de tickets por meio de um aplicativo, por qualquer pessoa, e verificação do ticket realizada por funcionários específicos a partir de outro aplicativo interno. O sistema deve ser escalável para lidar com um volume significativo e variado de acessos, enquanto mantém robustez em situações de falha, garantindo a continuidade do serviço. Por exemplo, é essencial que, em caso de inatividade no módulo dos funcionários, o módulo dos clientes continue operando normalmente.\nCom base nas informações fornecidas, assinale o modelo arquitetural adequado para implementação desse sistema.",
+        "alternativas": [
+            "Modelo MVC.",
+            "Modelo Microsserviços.",
+            "Modelo Monolítico.",
+            "Modelo em Camadas."
+        ],
+        "gabarito": "Modelo Microsserviços."
+    },
+    {
+        "id": 67,
+        "enunciado": "Uma arquitetura de microsserviços é um dos tipos mais comuns de arquiteturas de sistemas. Constitui uma abordagem para criar um aplicativo para servidores como um conjunto de:",
+        "alternativas": [
+            "implantação de protocolos através de uma abordagem monolítica.",
+            "dimensionamento em vários servidores e VMs.",
+            "pequenos serviços independentes e autocontidos, com cada um implementando uma única funcionalidade.",
+            "terceirização de processos a máquinas virtuais a nuvem.",
+            "programas administrativos para melhor gerenciamento e acompanhamento macro do sistema a ser desenvolvido."
+        ],
+        "gabarito": "pequenos serviços independentes e autocontidos, com cada um implementando uma única funcionalidade."
+    },
+    {
+        "id": 68,
+        "enunciado": "Microsserviços não é um conceito exato; trata-se de uma forma de projetar uma aplicação de modo a dividir o código completo em divisões menores e serviços. Não há uma definição exata de microsserviços; no entanto, quase todos têm as mesmas características. Trata-se da principal característica dos microsserviços:",
+        "alternativas": [
+            "Utilização de uma única base de dados.",
+            "Sistema projetado para ter uma evolução contínua ao longo do tempo de vida do produto.",
+            "Divisão do sistema em serviços menores em que cada serviço é insubstituível, atualizável e dependente uns dos outros.",
+            "Criação de equipes bem definidas que se dedicam apenas ao trabalho em uma área como, por exemplo, uma equipe para tratar da base de dados."
+        ],
+        "gabarito": "Sistema projetado para ter uma evolução contínua ao longo do tempo de vida do produto."
+    },
+    {
+        "id": 69,
+        "enunciado": "A arquitetura de microsserviços",
+        "alternativas": [
+            "é uma estrutura em que um aplicativo é separado em serviços menores e cada um desses serviços pode executar um processo exclusivo e, ainda, gerenciar seu próprio banco de dados.",
+            "é um estilo arquitetônico em que todos os componentes fazem parte de uma única unidade, sendo todos desenvolvidos e implantados em conjunto para que formem barramentos de serviços.",
+            "é uma estrutura que não necessita de clientes, pois os aplicativos se conectam à estrutura por meio de application programming interface (API) aos barramentos de serviços.",
+            "possui como vantagem a alta disponibilidade, pois o barramento de serviços une todos os componentes, tornando-os uma única unidade, contudo, os aplicativos executados nessa arquitetura são menos eficientes, no que se refere à velocidade, do que a monolítica.",
+            "é formada por componentes, acessados por meio de mensagens, que podem ser desenvolvidos separadamente, contudo, por serem stateless, ao serem reimplantados, ou se houver a necessidade de alteração de um serviço na arquitetura, é cogente reimplantar um aplicativo inteiro."
+        ],
+        "gabarito": "é uma estrutura em que um aplicativo é separado em serviços menores e cada um desses serviços pode executar um processo exclusivo e, ainda, gerenciar seu próprio banco de dados."
+    },
+    {
+        "id": 70,
+        "enunciado": "Com relação a design de software, julgue o item a seguir.\nOs padrões SAGA e CQRS têm como objetivo manter a consistência transacional de uma arquitetura de microsserviços.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 71,
+        "enunciado": "A respeito de arquitetura de software, julgue o item a seguir.\nAs arquiteturas voltadas para o desenvolvimento de microsserviços apresentam uma lógica simétrica, em que o uso de contêineres é considerado chave para tornar um processo mais eficiente.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 72,
+        "enunciado": "Com relação ao desenvolvimento Java EE, a padrões e antipadrões de projeto Java EE, a software de versionamento e guarda de fontes e a conceitos de arquitetura monolítica e microsserviços, julgue o item a seguir.\nMicrosserviços são uma abordagem arquitetônica que compõe o software em pequenos componentes ou serviços independentes, de forma que, no desenvolvimento e nas modificações do código, podem ser implantados serviços específicos de forma independente.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 73,
+        "enunciado": "Com base nos conceitos de microsserviços, julgue o item que se segue.\nNa arquitetura baseada em microsserviços, a aplicação é estruturada em um único componente para implantação, e a troca de informações entre os módulos internos do sistema ocorre dentro de um mesmo processo, o que torna a comunicação rápida e eficiente.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 74,
+        "enunciado": "Com base nos conceitos de microsserviços, julgue o item que se segue.\nMicrosserviços é uma maneira de se desenvolver uma aplicação facilmente escalável, desacoplada e independente; e cada serviço pode ser escrito em uma linguagem de programação diferente.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 75,
+        "enunciado": "Acerca de microsserviços, julgue o item subsecutivo.\nA arquitetura de microsserviços estrutura um aplicativo como uma coleção de serviços que são fracamente acoplados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 76,
+        "enunciado": "Acerca de microsserviços, julgue o item subsecutivo.\nOs microsserviços criam vários serviços, cada qual executando em seu próprio processo, mas que não podem ser implantados de forma independente.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 77,
+        "enunciado": "Acerca de microsserviços, julgue o item subsecutivo.\nConsiderando-se a estrutura de microsserviços, os serviços podem ser escritos em diferentes linguagens de programação, mas devem usar a mesma técnica de armazenamento de dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 78,
+        "enunciado": "Os microsserviços são uma abordagem de arquitetura no desenvolvimento de software que defende a quebra da aplicação em pequenos serviços independentes que se comunicam através de APls. É portanto uma abordagem bem diferente da tradicional arquitetura monolítica.\nA respeito dos conceitos que envolvem os microsserviços, analise as afirmativas abaixo e marque alternativa correta.\nI. Os microsserviços não são uma novidade. Service-Oriented Architecture (SOA) já defendia nos anos 90 conceitos nos quais os microsserviços se baseiam, como por exemplo o baixo acoplamento entre as partes de um sistema.\nII. A arquitetura de microsserviços possui diversas vantagens, elas estão relacionadas tanto ao desenvolvimento da aplicação como também ao seu deploy. Essa arquitetura traz no entanto desafios, como por exemplo, nos desapegarmos do uso constante de transações atômicas.\nIII. Quando falamos em microsserviços o Service Mesh pode ser entendido como uma camada que lida com o volume de tráfego entre os serviços, também chamado de tráfego nortesul. Essa camada abstrai serviços compartilhados como por exemplo: novas tentativas (retry), balanceamento de carga e tempo limíte\n(timeout).",
+        "alternativas": [
+            "Todas as afirmativas estão corretas.",
+            "Apenas as afirmativas I e II estão corretas.",
+            "Apenas a afirmativa II está correta.",
+            "Apenas as afirmativas I e III estão corretas.",
+            "Apenas as afirmativas II e III estão corretas."
+        ],
+        "gabarito": "Apenas as afirmativas I e III estão corretas."
+    },
+    {
+        "id": 79,
+        "enunciado": "A respeito de tecnologias de integração, julgue o próximo item.\nMicrosserviços representam a fragmentação de uma API em operações menores, o que facilita a comunicação e otimiza o desenvolvimento de interfaces.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 80,
+        "enunciado": "A abordagem de arquitetura de software na qual os elementos estão distribuídos e são fracamente acoplados, de tal forma que alterações pontuais não tenham a capacidade de corromper toda a aplicação, denomina-se",
+        "alternativas": [
+            "programação funcional.",
+            "orientação a objetos.",
+            "microsserviços.",
+            "CI/CD.",
+            "Waterfall."
+        ],
+        "gabarito": "microsserviços."
+    },
+    {
+        "id": 81,
+        "enunciado": "A arquitetura de software é importante, pois ela é responsável pelo desempenho, a robustez e a capacidade de distribuição e manutenção de um sistema. Selecione a arquitetura que usa uma abordagem para criar um aplicativo para servidores como um conjunto de serviços pequenos.",
+        "alternativas": [
+            "Extreme Programming.",
+            "Microserviços.",
+            "Monolítica.",
+            "TCP/IP.",
+            "Ethernet."
+        ],
+        "gabarito": "Microserviços."
+    },
+    {
+        "id": 82,
+        "enunciado": "O desenvolvimento de software deve visar ao atendimento de algum problema, ou seja, deve prover a solução para alguma necessidade que possa ser resolvida por meio do processamento de informações digitais. Selecione a alternativa que descreve um processo de software que não implementa todas as funções de um software, e sim apenas um conjunto pequeno dessas funções, formado por funções que estejam intimamente ligadas e agrupadas de modo lógico em um mesmo processo.",
+        "alternativas": [
+            "Componentes.",
+            "Thread.",
+            "Contêiner.",
+            "Arquitetura monolítica.",
+            "Microsserviços."
+        ],
+        "gabarito": "Microsserviços."
+    },
+    {
+        "id": 83,
+        "enunciado": "Microsserviços são uma abordagem de arquitetura para a criação de aplicações. Como um framework de arquitetura, microsserviços são distribuídos e levemente acoplados para que as mudanças de uma equipe não corrompam toda a aplicação. É correto afirmar que a arquitetura de microsserviços",
+        "alternativas": [
+            "se limita a apenas uma linguagem, uma vez que não faz uso de APIs poliglotas.",
+            "possui ciclos de desenvolvimentos mais lentos.",
+            "não é compatível com implantações e atualizações mais ágeis.",
+            "é altamente escalável, ou seja, à medida que a demanda por determinados serviços aumenta, o usuário pode fazer implantações em vários servidores e infraestruturas para atender às suas necessidades.",
+            "não garante que se um dos elementos da aplicação falhar, o restante permanecerá em funcionamento."
+        ],
+        "gabarito": "é altamente escalável, ou seja, à medida que a demanda por determinados serviços aumenta, o usuário pode fazer implantações em vários servidores e infraestruturas para atender às suas necessidades."
+    },
+    {
+        "id": 84,
+        "enunciado": "Serviços de escopo rígido e pouco acoplados que controlam todo o acesso a dados, em que os aplicativos são compostos por pequenos processos implantáveis de forma independente comunicando-se por APIs e protocolos independentes de idioma, são características da",
+        "alternativas": [
+            "arquitetura de microsserviços (MSA).",
+            "arquitetura de serviço Model-View-Controller (MVC).",
+            "plataforma como serviço (PaaS).",
+            "infraestrutura como serviço (IaaS).",
+            "arquitetura de serviços monolítica com suporte a ACID."
+        ],
+        "gabarito": "arquitetura de microsserviços (MSA)."
+    },
+    {
+        "id": 85,
+        "enunciado": "Na abordagem de arquitetura microsserviços para a criação de aplicações,",
+        "alternativas": [
+            "o código-fonte de toda a aplicação é incorporado em um único contêiner como.war.",
+            "os microsserviços podem se comunicar entre si, normalmente de maneira stateless, sendo, assim, mais tolerantes a falhas e menos dependentes de um único Enterprise Service Bus (ESB).",
+            "os serviços são dependentes entre si e interligados por meio de Enterprise Service Bus (ESB).",
+            "os testes de integração assim como os testes end-to-end são mais simples e fáceis de serem realizados quando comparados à arquitetura monolítica, pois são realizados por meio de serviços de mensageria.",
+            "a integração entre os microsserviços é limitada ao Enterprise Service Bus (ESB), centralizado por meio de serviços de mensageria."
+        ],
+        "gabarito": "os microsserviços podem se comunicar entre si, normalmente de maneira stateless, sendo, assim, mais tolerantes a falhas e menos dependentes de um único Enterprise Service Bus (ESB)."
+    },
+    {
+        "id": 86,
+        "enunciado": "No que se refere à arquitetura de microsserviços, julgue o item a seguir.\nUma arquitetura de microsserviços incide em um conjunto de pequenos serviços autônomos; cada serviço é independente e deve implementar uma única funcionalidade.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 87,
+        "enunciado": "No que se refere à arquitetura de microsserviços, julgue o item a seguir.\nNa arquitetura de microsserviços, os serviços comunicam-se entre si por meio de API, e as características da implementação interna de cada serviço ficam privadas de outros serviços.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 88,
+        "enunciado": "No que se refere à arquitetura de microsserviços, julgue o item a seguir.\nUm aplicativo de microsserviços tem mais elementos que o aplicativo monolítico equivalente e seus serviços são mais simplificados, o que torna o sistema, como um todo, mais simples.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 89,
+        "enunciado": "Dentro de uma solução estruturada numa arquitetura de microsserviços e implementada utilizando Spring Cloud, qual o principal papel do Spring Cloud Netflix Zuul?",
+        "alternativas": [
+            "Fornecer a configuração dos demais componentes da arquitetura.",
+            "Permitir que o front-end chame os serviços do back-end.",
+            "Depurar a comunicação entre microsserviços.",
+            "Permitir comunicação assíncrona entre os microsserviços.",
+            "Permitir que o back-end execute consultas na camada de persistência."
+        ],
+        "gabarito": "Permitir que o front-end chame os serviços do back-end."
+    }
+]

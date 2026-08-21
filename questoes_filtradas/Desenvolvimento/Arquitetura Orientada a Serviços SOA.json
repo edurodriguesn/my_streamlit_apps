@@ -1,0 +1,932 @@
+[
+    {
+        "id": 1,
+        "enunciado": "A ALEGO, em processo de transformação digital e integração de sistemas legados, decide adotar uma arquitetura SOA para melhorar interoperabilidade e agilidade. No entanto enfrenta alguns desafios ao implementar a arquitetura. Foram levantados pela equipe alguns desafios:\nI. A integração de diferentes serviços, quando esses serviços são desenvolvidos em diferentes plataformas ou linguagens.\nII. A comunicação entre serviços, quando são necessárias múltiplas chamadas para completar uma única operação de negócio.\nIII. A reutilização de serviços existentes, para permitir que diferentes aplicações acessem os mesmos serviços de negócio.\nIV. Enfoque em práticas de compartilhamento, onde os serviços são projetados para serem reutilizados em várias aplicações dentro de uma organização.\nCom base nos desafios levantados, está correto o que se afirma em",
+        "alternativas": [
+            "I e II apenas.",
+            "III e IV apenas.",
+            "I, II e III apenas.",
+            "II apenas.",
+            "I, II, III e IV."
+        ],
+        "gabarito": "I e II apenas."
+    },
+    {
+        "id": 2,
+        "enunciado": "Uma instituição federal está modernizando seus sistemas internos para permitir que diferentes departamentos possam acessar funcionalidades comuns — como consulta de dados cadastrais, verificação de regularidade e geração de relatórios — sem necessidade de duplicar código ou criar soluções isoladas. A equipe de TI decidiu adotar uma arquitetura orientada a serviços (SOA) para facilitar o compartilhamento desses componentes de forma padronizada e interoperável. Considerando os conceitos de SOA, assinale a alternativa que apresenta uma característica compatível com o objetivo descrito.",
+        "alternativas": [
+            "Implantar serviços totalmente acoplados à aplicação consumidora, garantindo que cada sistema tenha sua própria implementação interna.",
+            "Disponibilizar serviços com contratos bem definidos, permitindo que diferentes sistemas utilizem funcionalidades comuns de forma padronizada e independente da tecnologia utilizada.",
+            "Exigir que todos os sistemas do órgão utilizem a mesma linguagem de programação para consumir serviços expostos na arquitetura.",
+            "Criar integrações diretas ponto a ponto entre cada departamento e os serviços necessários, favorecendo interdependências explícitas.",
+            "Centralizar todo o processamento apenas em um único servidor, tornando desnecessário o uso de camadas de serviço."
+        ],
+        "gabarito": "Disponibilizar serviços com contratos bem definidos, permitindo que diferentes sistemas utilizem funcionalidades comuns de forma padronizada e independente da tecnologia utilizada."
+    },
+    {
+        "id": 3,
+        "enunciado": "Julgue o item subsecutivo, relativo à arquitetura orientada a serviços (SOA), à arquitetura distribuída, à especificação de web services e a dispositivos móveis.\nNa SOA, a baixa abstração reduz as dependências entre serviços, permitindo alterações independentes, isto é, sem impactos significativos em clientes ou outros serviços.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 4,
+        "enunciado": "Em relação a arquiteturas e tecnologias de sistemas de informação, julgue o item subsecutivo.\nNa arquitetura orientada a serviço, estabelecem-se interfaces bem definidas entre os componentes do sistema, criando-se um acoplamento forte na camada de contrato de serviço enquanto se mantém um acoplamento fraco na implementação interna dos serviços.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 5,
+        "enunciado": "Em relação a arquiteturas e tecnologias de sistemas de informação, julgue o item subsecutivo.\nNa arquitetura orientada a serviço, promove-se geralmente a criação de serviços altamente especializados, com granularidade fina e com a maximização da reutilização para a maior eficiência do sistema.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 6,
+        "enunciado": "Em uma arquitetura orientada a serviços (SOA), qual é o principal benefício de se utilizar Web Services?",
+        "alternativas": [
+            "Utilizar em modelo offline.",
+            "Criação de uma infraestrutura de rede mais simples.",
+            "Reutilização de funcionalidades em diferentes aplicações.",
+            "Redução da complexidade no acesso direto ao banco de dados.",
+            "Melhoria na interface gráfica dos sistemas."
+        ],
+        "gabarito": "Reutilização de funcionalidades em diferentes aplicações."
+    },
+    {
+        "id": 7,
+        "enunciado": "A respeito de arquitetura de software, julgue o item que se segue.\nEm SOA, o princípio de granularidade define que os serviços devem ter baixo acoplamento e devem ser stateless.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 8,
+        "enunciado": "Analise as afirmativas a seguir sobre os conceitos de SOA (Service-Oriented Architecture) e Web Services:\nI.SOA é um estilo de arquitetura de software que define a utilização de serviços para expor funcionalidades de aplicações a outras aplicações, promovendo a reutilização e a interoperabilidade.\nII.Web Services são componentes de software que podem ser acessados remotamente por meio de protocolos de rede, como HTTP, e utilizam padrões como XML para troca de informações.\nIII.Um dos princípios da SOA é a granularidade dos serviços, o que significa que cada serviço deve ser responsável por uma tarefa específica e bem definida.\nIV.Web Services podem ser implementados utilizando diferentes tecnologias, como SOAP (Simple Object Access Protocol) e REST (Representational State Transfer).\nV.A utilização de Web Services em uma arquitetura SOA garante a independência entre os sistemas, permitindo que aplicações desenvolvidas em diferentes plataformas e linguagens de programação se comuniquem.\nAssinale a alternativa que indica todas as afirmativas corretas:",
+        "alternativas": [
+            "I, II, III, IV e V.",
+            "II, III, IV e V apenas.",
+            "II, III e IV apenas.",
+            "I, II e III apenas.",
+            "I, III, IV e V apenas."
+        ],
+        "gabarito": "I, II, III, IV e V."
+    },
+    {
+        "id": 9,
+        "enunciado": "Um arquiteto de software está projetando um sistema complexo para uma instituição financeira, que precisa integrar diversos serviços e aplicações, como sistemas de contas correntes, investimentos, empréstimos e cartões de crédito. Ele está considerando a utilização de um framework de arquitetura para facilitar o desenvolvimento e garantir a qualidade do sistema.\nAnalise as afirmativas a seguir sobre frameworks de arquitetura e SOA:\nI.Um framework de arquitetura fornece um conjunto de componentes, padrões e diretrizes que podem ser reutilizados para o desenvolvimento de diferentes aplicações, garantindo a consistência e a qualidade do Analista de software.\nII.A arquitetura SOA (Service-Oriented Architecture) define que as funcionalidades do sistema devem ser expostas como serviços independentes e interoperáveis, que podem ser acessados e reutilizados por diferentes aplicações.\nIII.A utilização de um framework de arquitetura compatível com SOA facilita a implementação de serviços, o gerenciamento de transações, a segurança e o monitoramento do sistema.\nIV.O Spring é um framework mais abrangente, que oferece suporte a diversos estilos de arquitetura, incluindo SOA, e fornece recursos para a criação e o consumo de serviços web. O Struts, por outro lado, é mais focado no desenvolvimento de aplicações web MVC e não possui um foco específico em SOA.\nEstá correto o que se afirma em:",
+        "alternativas": [
+            "II e III apenas.",
+            "I e II apenas.",
+            "II, III e IV apenas.",
+            "I, II e III apenas.",
+            "I, II, III e IV."
+        ],
+        "gabarito": "I, II, III e IV."
+    },
+    {
+        "id": 10,
+        "enunciado": "A respeito de virtualização, consolidação de servidores e integração de plataforma alta com plataforma baixa, julgue o próximo item.\nO barramento de serviço corporativo (ESB) é um padrão arquitetônico de software que oferece suporte ao intercâmbiode dado entre plataforma alta e plataforma baixa, no qual o componente endpoints converte mensagens entre diferentes formatos, protocolos e recursos de logs de mensagens.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 11,
+        "enunciado": "Um problema conhecido no contexto de APIs RESTful é chamado de “problema N+1”.\nTrata-se de uma situação que se manifesta quando:",
+        "alternativas": [
+            "o conjunto de servidores que responde pela API atinge carga máxima e sinaliza ao sistema automatizado de alocação de infraestrutura que a instanciação de um servidor extra é necessária.",
+            "devido à má configuração de balanceamento de carga, de um total de N+1 servidores disponíveis, N servidores são utilizados para processar requisições à API, mas um servidor fica sempre ocioso sem receber solicitações.",
+            "devido à má configuração de balanceamento de carga, de um total de N+1 requisições recebidas, N requisições recebem resposta, mas uma delas não é respondida, ocasionando um timeout na aplicação cliente.",
+            "uma aplicação cliente chama o servidor para obter uma lista de recursos e, então, efetua uma nova requisição para cada item da lista com o objetivo de obter dados mais detalhados sobre aquele item.",
+            "uma aplicação cliente gera uma nova requisição ao servidor da API para cada resposta recebida, usualmente por um bug, causando um loop infinito de requisições e respostas que sobrecarrega o servidor e a rede, além de “travar” a aplicação cliente."
+        ],
+        "gabarito": "uma aplicação cliente chama o servidor para obter uma lista de recursos e, então, efetua uma nova requisição para cada item da lista com o objetivo de obter dados mais detalhados sobre aquele item."
+    },
+    {
+        "id": 12,
+        "enunciado": "A arquitetura orientada a serviços é uma abordagem de design de software que se concentra na construção de sistemas de software funcionais, modulares e escaláveis a partir de componentes individuais.\nCom relação às vantagens dessa arquitetura em comparação com a abordagem monolítica de desenvolvimento de software, analise os itens a seguir.\nI. Manutenção simplificada - A baixa integração e reutilização de serviços faz com que seja mais seguro desenvolver novas aplicações. Os desenvolvedores precisam sempre criar serviços do zero assim como nas aplicações monolíticas.\nII. Adaptabilidade - Preserva a compatibilidade de antigas versões dos serviços e facilita o planejamento serviços futuros. Os desenvolvedores podem trazer serviços mais antigos para um ambiente operacional mais novo, até mesmo substituir serviços desatualizados por versões mais recentes que aproveitam hardwares atualizados.\nIII. Escalabilidade - Como os serviços são autossuficientes e independentes podem ser monitorados pela camada de gerenciamento do SOA, se o desempenho de um serviço cair devido ao aumento da demanda, novas instâncias poderão ser iniciadas. As aplicações que utilizam o serviço não saberão sobre as novas instâncias, apenas perceberão que os SLA permanecem aceitáveis.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, apenas.",
+            "II, apenas.",
+            "I e II, apenas.",
+            "I e III, apenas.",
+            "II e III, apenas."
+        ],
+        "gabarito": "II e III, apenas."
+    },
+    {
+        "id": 13,
+        "enunciado": "De acordo com os conceitos, características e técnicas da arquitetura SOA (Service Oriented Architecture), analise as assertivas e assinale a alternativa que aponta as corretas.\nI. Umas de suas características é que os serviços podem ser descobertos e executados de forma dinâmica.\nII. Dentro dessa arquitetura, os serviços possuem baixo acoplamento e favorecem, de certa forma, a interoperabilidade.\nIII. Os componentes de serviços podem ser compostos para gerar novas aplicações.\nIV. A arquitetura SOA proporciona maior extensibilidade, uma vez que um único serviço pode suportar diversas interfaces.",
+        "alternativas": [
+            "Apenas I, II e IV.",
+            "Apenas I, II e III.",
+            "Apenas II e III.",
+            "Apenas I e IV.",
+            "I, II, III e IV."
+        ],
+        "gabarito": "I, II, III e IV."
+    },
+    {
+        "id": 14,
+        "enunciado": "Constitui característica fundamental da comunicação assíncrona entre serviços",
+        "alternativas": [
+            "a capacidade de enviar e processar mensagens de forma independente, sem que o emissor precise aguardar uma resposta imediata.",
+            "a imposição de tempos de espera fixos para cada mensagem enviada, que garante que todas as mensagens sejam processadas no mesmo intervalo de tempo.",
+            "o bloqueio do fluxo principal da aplicação, que impede que outras tarefas sejam executadas enquanto a resposta é processada.",
+            "o acoplamento rígido entre os serviços, que garante que todas as mensagens sejam entregues de forma síncrona.",
+            "o processamento imediato da resposta dentro da mesma execução do cliente que enviou a requisição."
+        ],
+        "gabarito": "a capacidade de enviar e processar mensagens de forma independente, sem que o emissor precise aguardar uma resposta imediata."
+    },
+    {
+        "id": 15,
+        "enunciado": "A Arquitetura Orientada a Serviços é uma abordagem utilizada no desenvolvimento de software, com foco na criação de serviços que podem ser integrados e reutilizados em diferentes aplicações e sistemas. Esse modelo busca atender a diversos princípios para garantir flexibilidade e eficiência no desenvolvimento de sistemas distribuídos. Considerando essas informações, assinale a alternativa que apresenta um princípio fundamental da SOA.",
+        "alternativas": [
+            "Serviços em SOA são sempre executados dentro da mesma aplicação, garantindo maior controle sobre o código.",
+            "A reutilização de serviços em SOA é limitada a um único projeto ou sistema, pois o uso em diferentes contextos pode gerar incompatibilidades.",
+            "A principal característica da SOA é que todos os serviços devem ser desenvolvidos na mesma linguagem de programação.",
+            "A SOA é baseada em componentes independentes, que se comunicam por meio de protocolos padronizados."
+        ],
+        "gabarito": "A SOA é baseada em componentes independentes, que se comunicam por meio de protocolos padronizados."
+    },
+    {
+        "id": 16,
+        "enunciado": "Um empreendimento de desenvolvimento de softwares está trabalhando com ambiente de Arquitetura Orientada aos Serviços (SOA). Nesse caso, ele vai utilizar uma arquitetura de software para auxiliar na comunicação com um outro sistema, que vai trabalhar com vários outros serviços, estabelecendo a comunicação entre esses serviços e seus consumidores, sem depender da tecnologia por trás. O tipo de arquitetura SOA a ser utilizada, nesse caso, é a de:",
+        "alternativas": [
+            "aplicação baseada em push.",
+            "barramento de serviço corporativo.",
+            "monitoramento de ciclo de vida.",
+            "microsserviços de aplicações."
+        ],
+        "gabarito": "barramento de serviço corporativo."
+    },
+    {
+        "id": 17,
+        "enunciado": "Para que diferentes sistemas (com linguagens, plataformas e tecnologias distintas) interoperem, é necessário um conjunto de padrões abertos e bem definidos. Um deles é a Arquitetura Orientada a Serviços (SOA), que usa",
+        "alternativas": [
+            "microserviços, para garantir escalabilidade, agilidade e independência entre componentes do sistema, e integração com práticas DevOps.",
+            "Simple Object Access Protocol (SOAP) para trocar mensagens estruturadas entre sistemas via HTTP (ou outros protocolos), definindo a estrutura da mensagem, não o conteúdo em si.",
+            "JavaScript Object Notation (JSON) para troca de informações utilizando protocolos HTTP GET, POST, PUT e DELETE.",
+            "eXtensible Markup Language (XML) para troca de informações entre sistemas, validada com esquemas (CSS), para garantir integridade.",
+            "o padrão REST ou gRPC para trocar mensagens estruturadas entre sistemas via Mensageria ou handshake entre serviços."
+        ],
+        "gabarito": "Simple Object Access Protocol (SOAP) para trocar mensagens estruturadas entre sistemas via HTTP (ou outros protocolos), definindo a estrutura da mensagem, não o conteúdo em si."
+    },
+    {
+        "id": 18,
+        "enunciado": "Uma empresa de logística utiliza uma arquitetura SOA para gerenciar operações fiscais relacionadas ao ICMS. O sistema precisa integrar um ERP legado com serviços de cálculo de alíquotas interestaduais e validação de notas fiscais eletrônicas (NF-e). Durante o pico de emissão de NF-e no final do mês, o ESB apresenta atrasos e a equipe considera a Descoberta Dinâmica para localizar serviços rapidamente. Nesse cenário SOA, a melhor abordagem para implementar a Descoberta Dinâmica é:",
+        "alternativas": [
+            "Registrar serviços no UDDI, configurar o ESB para balanceamento de carga automático e usar gRPC como protocolo para acelerar a comunicação.",
+            "Configurar o ESB como um repositório centralizado, eliminando o UDDI, e usar SOAP para localizar serviços automaticamente com base em metadados internos.",
+            "Implantar um UDDI para registrar serviços, usar REST em vez de SOAP para comunicação e permitir que o ERP consulte diretamente o UDDI sem passar pelo ESB.",
+            "Utilizar o MuleSoft como ESB para auto registrar serviços em tempo real, evitando o UDDI, e integrar o ERP via chamadas assíncronas com WSDL.",
+            "Registrar os serviços de cálculo de ICMS e validação de NF-e no UDDI, usar WSDL para definir contratos e configurar o ESB para consultar o UDDI dinamicamente em tempo de execução."
+        ],
+        "gabarito": "Registrar os serviços de cálculo de ICMS e validação de NF-e no UDDI, usar WSDL para definir contratos e configurar o ESB para consultar o UDDI dinamicamente em tempo de execução."
+    },
+    {
+        "id": 19,
+        "enunciado": "Sobre as interfaces de serviço na arquitetura orientada a serviços (SOA), analise as assertivas abaixo, assinalando V, se verdadeiras, ou F, se falsas.\n( ) São contratos entre o provedor do serviço e o consumidor do serviço, permitindo que se comuniquem sem dependerem dos detalhes de implementação um do outro.\n( ) Permitem que o serviço seja alterado ou substituído sem afetar os aplicativos que o consomem, desde que a interface permaneça a mesma.\n( ) São descritas utilizando linguagens de formatação de dados como, por exemplo, o JSON (JavaScript Object Notation).\nA ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+        "alternativas": [
+            "V – F – F.",
+            "V – V – F.",
+            "F – F – V.",
+            "F – V – F.",
+            "F – V – V."
+        ],
+        "gabarito": "V – V – F."
+    },
+    {
+        "id": 20,
+        "enunciado": "Segundo Sommerville (2, assinale a opção correta relacionada à arquitetura orientada a serviços (SOA).",
+        "alternativas": [
+            "É um método mais simples do que a arquitetura REST para implementar interfaces de web services.",
+            "Os serviços baseados em SOAP podem especificar a representação utilizada entre XML e JSON.",
+            "Os padrões fundamentais para as arquiteturas orientadas a serviços são: SOAP, WSDL e WS-Security.",
+            "Ao usar serviços baseados em SOAP, deve-se implementar a própria infraestrutura para monitorar e gerenciar a qualidade e a confiabilidade do serviço.",
+            "Os principais padrões são apoiados por uma gama de padrões de suporte focados em aspectos mais especializados dessa arquitetura, tais como WS-Reliable Messaging e WS-Addressing."
+        ],
+        "gabarito": "Os principais padrões são apoiados por uma gama de padrões de suporte focados em aspectos mais especializados dessa arquitetura, tais como WS-Reliable Messaging e WS-Addressing."
+    },
+    {
+        "id": 21,
+        "enunciado": "Considerando a Arquitetura Orientada a Serviços (SOA), seus componentes e características, assinale a afirmação correta.",
+        "alternativas": [
+            "WSDL é um formato JSON que especifica como acessar qualquer tipo de serviço.",
+            "UDDI é um formato XML que inclui os dados que serão transmitidos ou recebidos de um serviço Web.",
+            "Os 3 principais elementos do formato SOAP são o Cabeçalho, Corpo e Envelope, sendo exclusivamente neste último, onde estão os dados.",
+            "A independência de outros sistemas da Arquitetura Orientada a Serviços é provida, em grande parte, pelo fraco (baixo) acoplamento.",
+            "A Arquitetura Orientada a Serviços possui padrões proprietários definidos pelos seus respectivos provedores de serviços de forma a garantir a segurança."
+        ],
+        "gabarito": "A independência de outros sistemas da Arquitetura Orientada a Serviços é provida, em grande parte, pelo fraco (baixo) acoplamento."
+    },
+    {
+        "id": 22,
+        "enunciado": "Julgue o item a seguir, em relação ao desenvolvimento de software.\nSOA (service oriented architecture) é uma arquitetura empregada para reutilizar serviços em sistemas diferentes ou combinar vários serviços independentes para realizar tarefas complexas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 23,
+        "enunciado": "Julgue o item seguinte relativo a UDDI (universal description discovery and integration), a modelagem de dados e a BI (business intelligence).\nNa arquitetura SOA, um padrão de arquitetura de software de baixo acoplamento, o UDDI define um padrão para renderização de documentos XML em navegadores web.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 24,
+        "enunciado": "A respeito da Arquitetura Orientada a Serviços (SOA), analise as afirmativas a seguir.\nI. Dentro de uma arquitetura orientada a serviços (SOA), a transferência bancária usando PIX estimula que cada instituição financeira desenvolva seu próprio protocolo de comunicação.\nII. O pagamento de boletos utilizando o PIX, inserido em uma SOA, exige mecanismos de segurança robustos.\nIII. Um problema relevante na implementação de SOA é a gestão de serviços, que pode se tornar complexa necessitando de ferramentas eficientes de governança.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "II e III, apenas.",
+            "I e III, apenas.",
+            "I e II, apenas.",
+            "III, apenas.",
+            "II, apenas."
+        ],
+        "gabarito": "II e III, apenas."
+    },
+    {
+        "id": 25,
+        "enunciado": "A Arquitetura Orientada a Serviços (SOA) é um estilo arquitetural que visa organizar sistemas de software como um conjunto de serviços interconectados. Cada serviço representa uma unidade lógica de funcionalidade, geralmente autocontida e acessível por meio de uma interface padronizada. Como é conhecida a prática de organizar a arquitetura de uma Service-Oriented Architecture (SOA), para promover a reutilização e a interoperabilidade dos serviços?",
+        "alternativas": [
+            "Centralização.",
+            "Desacoplamento.",
+            "Encapsulamento.",
+            "Modularidade."
+        ],
+        "gabarito": "Desacoplamento."
+    },
+    {
+        "id": 26,
+        "enunciado": "O estilo arquitetural que organiza sistemas de software como coleções de serviços interconectados, promovendo a reutilização de funcionalidades e facilitando a integração entre sistemas heterogêneos é o",
+        "alternativas": [
+            "SOA.",
+            "REST.",
+            "RPC.",
+            "SOAP."
+        ],
+        "gabarito": "SOA."
+    },
+    {
+        "id": 27,
+        "enunciado": "Observe a figura a seguir, que representa a estrutura básica do SOA e assinale (V) para a afirmativa verdadeira e (F) para falsa\n( ) Consumidor de Serviço são as aplicações que consultam o Provedor de serviços para invocar os serviços do Registro de Serviços.\n( ) O Provedor de Serviço implementa e disponibiliza serviços, publicando suas descrições para que possam ser descobertas e consumidas pelas aplicações.\n( ) O Registro de Serviços armazena e disponibiliza as descrições dos serviços publicados.\n( ) Na SOA, a separação de assuntos envolve dividir problemas grandes em partes menores, facilitando a decomposição da solução em diferentes componentes específicos.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "F – V – V – V.",
+            "V – F – V – F.",
+            "F – V – F – V.",
+            "V – F – F – F."
+        ],
+        "gabarito": "F – V – V – V."
+    },
+    {
+        "id": 28,
+        "enunciado": "Considerando um sistema de mensageria que utiliza APIs reversas, assinale a alternativa correta.",
+        "alternativas": [
+            "APIs reversas são usadas para criar interfaces gráficas amigáveis ao usuário final.",
+            "APIs reversas permitem que um serviço chame outro serviço, mesmo que o segundo serviço esteja protegido por firewall.",
+            "APIs reversas são utilizadas principalmente para otimizar o desempenho de bancos de dados relacionais.",
+            "APIs reversas são projetadas para facilitar a integração de serviços de terceiros em uma aplicação.",
+            "APIs reversas permitem que clientes façam solicitações diretamente a um banco de dados, sem a necessidade de um servidor intermediário."
+        ],
+        "gabarito": "APIs reversas permitem que um serviço chame outro serviço, mesmo que o segundo serviço esteja protegido por firewall."
+    },
+    {
+        "id": 29,
+        "enunciado": "Julgue o próximo item, relativos a arquitetura de software.\nNa arquitetura orientada a serviços (SOA), os serviços devem possuir acoplamento forte, de modo a se obter maior segurança na comunicação entre os serviços, promovendo uma maior dependência entre os recursos externos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 30,
+        "enunciado": "Julgue o próximo item, relativos a arquitetura de software.\nO barramento de serviço corporativo (ESB) é um padrão de arquitetura em que há integrações entre aplicativos de forma centralizada, oferecendo suporte ao intercâmbio de dados inclusive entre aplicações distintas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 31,
+        "enunciado": "Em uma arquitetura orientada a serviços (SOA), o componente responsável pela comunicação de outros serviços ou sistemas com um serviço é chamado de:",
+        "alternativas": [
+            "Conexão de serviço.",
+            "Registro de serviço.",
+            "Interface de serviço.",
+            "Link de serviço.",
+            "Contrato de serviço."
+        ],
+        "gabarito": "Interface de serviço."
+    },
+    {
+        "id": 32,
+        "enunciado": "Um arquiteto de software está projetando uma solução baseada em Arquitetura Orientada a Serviços (SOA, sigla em inglês) para integrar vários sistemas de uma grande empresa. Ele explicou que, para facilitar a descoberta e a comunicação entre os serviços, será utilizado um registro de serviços.\nDiante desse contexto, um registro de serviços em SOA é usado para",
+        "alternativas": [
+            "armazenar os dados persistentes de cada serviço.",
+            "garantir a execução sequencial de transações entre serviços.",
+            "garantir que todos os serviços utilizem a mesma linguagem de programação.",
+            "monitorar a performance dos serviços em tempo real.",
+            "registrar, descobrir e permitir o consumo dinâmico de serviços."
+        ],
+        "gabarito": "registrar, descobrir e permitir o consumo dinâmico de serviços."
+    },
+    {
+        "id": 33,
+        "enunciado": "Considere que um Tribunal Regional do Trabalho possui um setor que disponibiliza um sistema de consulta ao cadastro de pessoas, que por sua vez utiliza o modelo de dados recebido do órgão da Receita Federal do Brasil. Se porventura esse sistema ficar inoperante, a consulta se torna inútil até que o sistema da Receita Federal do Brasil volte à atividade. Este é um exemplo simples e representa o conceito SOA de",
+        "alternativas": [
+            "acoplamento.",
+            "responsabilidade.",
+            "visibilidade.",
+            "bi direcionamento.",
+            "empacotamento."
+        ],
+        "gabarito": "acoplamento."
+    },
+    {
+        "id": 34,
+        "enunciado": "A interoperabilidade de sistemas em um ambiente corporativo é essencial para garantir que diferentes sistemas e plataformas possam se comunicar e trocar informações de forma eficaz. A arquitetura orientada a serviços (SOA) e os web services são frequentemente utilizados para facilitar essa integração.\nQual das alternativas abaixo descreve corretamente uma característica da arquitetura SOA em termos de interoperabilidade?",
+        "alternativas": [
+            "SOA depende exclusivamente de um ambiente homogêneo de tecnologia para garantir a interoperabilidade entre sistemas.",
+            "A arquitetura SOA permite a interoperabilidade ao utilizar protocolos de comunicação padronizados, como HTTP e SOAP, para que sistemas heterogêneos possam se comunicar.",
+            "Em SOA, a comunicação entre serviços é realizada de maneira síncrona, o que impede a execução de tarefas em segundo plano.",
+            "SOA elimina a necessidade de documentação e padronização de serviços, uma vez que os serviços são autossuficientes e autoexplicativos.",
+            "A arquitetura SOA é limitada à comunicação entre sistemas que compartilham a mesma linguagem de programação."
+        ],
+        "gabarito": "A arquitetura SOA permite a interoperabilidade ao utilizar protocolos de comunicação padronizados, como HTTP e SOAP, para que sistemas heterogêneos possam se comunicar."
+    },
+    {
+        "id": 35,
+        "enunciado": "A integração entre sistemas é um desafio em ambientes corporativos, pois envolve a comunicação entre diferentes plataformas, tecnologias e protocolos. Entre as técnicas de integração, o uso de APIs, ESBs (Enterprise Service Bus) e Web Services são comuns.\nQual das alternativas abaixo descreve corretamente uma função do ESB (Enterprise Service Bus) em uma arquitetura corporativa?",
+        "alternativas": [
+            "O ESB se encarrega exclusivamente do balanceamento de carga entre servidores em uma arquitetura corporativa.",
+            "O ESB elimina a necessidade de APIs ao centralizar toda a comunicação entre serviços em uma única camada de apresentação.",
+            "O ESB atua como um intermediário entre sistemas, facilitando a comunicação e transformando dados conforme necessário entre aplicativos e serviços.",
+            "Um ESB permite o armazenamento de dados em cache para melhorar o desempenho das consultas a bancos de dados.",
+            "O ESB é um padrão de design utilizado para melhorar a interface gráfica dos sistemas integrados."
+        ],
+        "gabarito": "O ESB atua como um intermediário entre sistemas, facilitando a comunicação e transformando dados conforme necessário entre aplicativos e serviços."
+    },
+    {
+        "id": 36,
+        "enunciado": "Um dos estilos de arquitetura de software mais usados nos últimos anos, dadas as suas vantagens em relação aos demais existentes, é a arquitetura orientada a serviços (Service-Oriented Architecture - SOA). A arquitetura orientada a serviços (SOA)",
+        "alternativas": [
+            "organiza a estrutura de um sistema como um conjunto de serviços independentes que se comunicam por meio de protocolos padrão, como HTTP e SOAP.",
+            "utiliza uma abordagem na qual os serviços são acoplados de forma estreita para garantir maior controle e interdependência entre as partes do sistema.",
+            "é uma arquitetura em que todos os serviços são integrados em um sistema monolítico, garantindo alta coesão entre os módulos.",
+            "exige que todos os serviços sejam implementados na mesma linguagem de programação para garantir consistência no sistema.",
+            "utiliza a comunicação síncrona entre serviços para manter a consistência e a segurança dos dados transmitidos no sistema."
+        ],
+        "gabarito": "organiza a estrutura de um sistema como um conjunto de serviços independentes que se comunicam por meio de protocolos padrão, como HTTP e SOAP."
+    },
+    {
+        "id": 37,
+        "enunciado": "Em relação a extranet e intranet, bem como à arquitetura orientada a serviços, julgue o item a seguir.\nNa arquitetura orientada a serviços, um barramento de serviço corporativo é uma arquitetura formada por componentes de software muito pequenos e completamente independentes, que se especializam e se concentram em uma única tarefa, sendo seu estilo de arquitetura mais adequado para ambientes modernos de computação em nuvem.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 38,
+        "enunciado": "No contexto de SOA (Service Oriented Architecture), o princípio conhecido como “abstração de serviço” estabelece que",
+        "alternativas": [
+            "a dependência entre diferentes serviços deve ser a maior possível, desde que isso promova um alto desempenho, mesmo que mudanças em um serviço cause quebra de funcionamento em outro serviço.",
+            "os serviços devem ser criados em linguagens de programação interpretadas, facilitando sua depuração.",
+            "os serviços encapsulam sua lógica interna sem expor como sua funcionalidade é executada, expondo aos clientes o que eles fazem, mas não como fazem.",
+            "os serviços não devem armazenar e manter informações de estado de sessões.",
+            "não se deve embutir toda a funcionalidade de uma aplicação em um único serviço."
+        ],
+        "gabarito": "os serviços encapsulam sua lógica interna sem expor como sua funcionalidade é executada, expondo aos clientes o que eles fazem, mas não como fazem."
+    },
+    {
+        "id": 39,
+        "enunciado": "Arquitetura orientada a serviços (Service-Oriented Architecture – SOA) é um tipo de design de software que torna os componentes reutilizáveis usando interfaces de serviços com uma linguagem de comunicação comum na rede. Sobre as funções da arquitetura SOA, marque V para as afirmativas verdadeiras e F para as falsas.\n( ) Um provedor de serviços cria serviços web e os oferece para um registro de serviços.\n( ) Um provedor de serviços não é responsável pelos termos de uso do serviço.\n( ) Um broker de serviços ou registro de serviços é responsável por oferecer informações solicitadas sobre o serviço; ele não pode ser público, apenas privado.\n( ) Um solicitante de serviços encontra um serviço no registro de serviços. Então, conecta-se ao provedor de serviços para recebê-lo.\nA sequência está correta em",
+        "alternativas": [
+            "F, F, F, F.",
+            "F, V, F, V.",
+            "F, V, V, F.",
+            "V, F, F, V.",
+            "V, V, V, V."
+        ],
+        "gabarito": "V, F, F, V."
+    },
+    {
+        "id": 40,
+        "enunciado": "Julgue o item a seguir, a respeito de desenvolvimento web em Java e de interoperabilidade de sistemas.\nA possibilidade de um aumento de interdependências é uma limitação que deve ser considerada em sistemas de arquitetura orientada a serviços.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 41,
+        "enunciado": "Assinale a alternativa que apresenta um componente essencial da Arquitetura Orientada a Serviços (SOA – Service Oriented Architecture), cujo principal objetivo é simplificar integrações e unir sistemas heterogêneos.",
+        "alternativas": [
+            "COA (Control Oriented Architecture).",
+            "UDDI (Universal Description Discovery and Integration).",
+            "WADL (Web Application Description Language).",
+            "RPA (Robotic Process Automation).",
+            "ESB (Enterprise Service Bus)."
+        ],
+        "gabarito": "ESB (Enterprise Service Bus)."
+    },
+    {
+        "id": 42,
+        "enunciado": "É uma característica da Arquitetura Orientada a Serviços (SOA – Service Oriented Architecture):",
+        "alternativas": [
+            "Não utilização de padrões.",
+            "Alta disponibilidade.",
+            "Alto índice de redundância de serviços.",
+            "Baixa interoperabilidade.",
+            "Baixo acoplamento."
+        ],
+        "gabarito": "Baixo acoplamento."
+    },
+    {
+        "id": 43,
+        "enunciado": "A SOA (Service Oriented Architecture) estabelece um modelo arquitetônico que visa aprimorar eficiência, agilidade e produtividade de uma empresa, posicionando os serviços como os principais meios, para que a solução lógica seja representada no suporte à realização dos objetivos estratégicos associados à computação orientada a serviços. Em relação à SOA, assinale a afirmativa correta.",
+        "alternativas": [
+            "A plataforma de tecnologia mais associada à realização da SOA, atualmente no mercado, é a de banco de dados relacionais (SGBDR).",
+            "Na SOA, os serviços existem como programas de software fisicamente dependentes uns dos outros, com características de design exatamente iguais.",
+            "Uma implementação da SOA pode consistir em uma combinação de tecnologias, produtos, APIs, extensões da infraestrutura de suporte e várias outras partes.",
+            "A única desvantagem da SOA é que ela é uma forma de arquitetura de tecnologia não-otimizada para o suporte a serviços, o que gera, na prática, algumas inconsistências."
+        ],
+        "gabarito": "Uma implementação da SOA pode consistir em uma combinação de tecnologias, produtos, APIs, extensões da infraestrutura de suporte e várias outras partes."
+    },
+    {
+        "id": 44,
+        "enunciado": "Uma arquitetura orientada a serviços (SOA) permite que os serviços hospedados nela se comuniquem entre diferentes plataformas e linguagens. Sendo assim, é correto afirmar que são características de uma arquitetura orientada a serviços:",
+        "alternativas": [
+            "microsserviços e alta acoplagem.",
+            "arquitetura única e contígua.",
+            "adaptabilidade e flexibilidade.",
+            "sistema único e monolítico."
+        ],
+        "gabarito": "adaptabilidade e flexibilidade."
+    },
+    {
+        "id": 45,
+        "enunciado": "A arquitetura orientada a serviços na qual a composição é feita por meio de uma ordem explícita de execução dos serviços compostos em serviços web é denominada",
+        "alternativas": [
+            "coordenação.",
+            "composição.",
+            "disponibilização.",
+            "coreografia.",
+            "orquestração."
+        ],
+        "gabarito": "orquestração."
+    },
+    {
+        "id": 46,
+        "enunciado": "Acerca da UML, de padrões de projeto e de arquitetura, julgue o item seguinte.\nNas arquiteturas orientadas a serviços (SOA), os componentes de sistema são serviços autônomos na forma distribuída e os clientes de serviço que desejam usar um serviço descobrem a especificação desse serviço e localizam o provedor de serviço, para, então, ligar sua aplicação a esse serviço específico e comunicar-se com ele usando protocolos de serviço padrão.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 47,
+        "enunciado": "A Service Orientated Architecture (SOA), em português, arquitetura orientada a serviços, é uma estratégia para desenvolver sistemas por meio de componentes de softwares chamados de serviços. Com base no conhecimento sobre a SOA, assinale a alternativa CORRETA.",
+        "alternativas": [
+            "Por ser um método de desenvolver serviços, a SOA não fornece recursos para prover interoperabilidade entre os sistemas.",
+            "Este método de desenvolvimento de software possui uma manutenção eficiente, o que torna mais fácil criar, atualizar e pormenorizar pequenos serviços, ao invés de se trabalhar com grandes códigos de sistemas legados ou aplicações monolíticas.",
+            "Embora a principal característica da SOA seja a modularização, este método de desenvolvimento de software possui forte acoplamento, tendo muita dependência entre os módulos nativos.",
+            "Por ser uma estratégia interessante para a escalabilidade, este modelo de desenvolvimento de software falha em contemplar a granularidade de sistemas, sendo a ausência de granularidade uma de suas principais desvantagens.",
+            "Por ser um método para desenvolvimento de software, este dispõe de poucos recursos de abstração, o que na maioria das vezes, exige que o seu usuário conheça a lógica e implementação interna dos serviços nativos."
+        ],
+        "gabarito": "Este método de desenvolvimento de software possui uma manutenção eficiente, o que torna mais fácil criar, atualizar e pormenorizar pequenos serviços, ao invés de se trabalhar com grandes códigos de sistemas legados ou aplicações monolíticas."
+    },
+    {
+        "id": 48,
+        "enunciado": "Analise as afirmativas a seguir:\nI. Arquitetura Orientada a Serviços, SOA, pode ser entendida como uma arquitetura que define como funções de negócios distintas, implementadas por sistemas autônomos, devem operar conjuntamente para executar um processo de negócio.\nII. Utiliza-se a SOA para desenvolver um sistema com um alto índice de reaproveitamento, alta redundância de funcionalidades e consequentes aumentos de custo de produção e de tempo de desenvolvimento.\nMarque a alternativa CORRETA:",
+        "alternativas": [
+            "As duas afirmativas são verdadeiras.",
+            "A afirmativa I é verdadeira, e a II é falsa.",
+            "A afirmativa II é verdadeira, e a I é a falsa.",
+            "As duas afirmativas são falsas."
+        ],
+        "gabarito": "A afirmativa I é verdadeira, e a II é falsa."
+    },
+    {
+        "id": 49,
+        "enunciado": "Quanto aos web services, à arquitetura orientada a serviços (SOA) e à UML (Unified Modeling Language), julgue o item.\nA SOA oferece à organização a oportunidade de acompanhar as mudanças exigidas por seu contexto de negócio, sem que isso sobrecarregue o uso dos recursos da tecnologia da informação (TI).",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 50,
+        "enunciado": "Quanto aos web services, à arquitetura orientada a serviços (SOA) e à UML (Unified Modeling Language), julgue o item.\nO modelo operacional triangular, o qual representa a interação entre os três elementos da SOA, determina que os provedores de serviços registrem suas informações em um registro central.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 51,
+        "enunciado": "Quanto aos web services, à arquitetura orientada a serviços (SOA) e à UML (Unified Modeling Language), julgue o item.\nO diagrama de colaboração é usado, exclusivamente, para capturar as interações entre os atores externos, como, por exemplo, os usuários e o sistema em análise.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 52,
+        "enunciado": "No contexto da criação de aplicações distribuídas usando web services, a arquitetura de software orientada a serviços (SOA, do inglês Service-Oriented Architecture) é uma opção no desenvolvimento de sistemas distribuídos em que os componentes de sistema são serviços autônomos, sendo executados em computadores geograficamente distribuídos. Dentre os principais padrões para SOA, NÃO é correto afirmar que:",
+        "alternativas": [
+            "WS-Reliable Messaging é um padrão para troca de mensagens que garante que elas serão entregues uma vez e apenas uma vez.",
+            "um padrão para uma linguagem de workflow, que é usada para definir programas de processo que envolvem vários serviços diferentes, dentro da arquitetura monolítica, é conhecido como WS-BPEL.",
+            "um conjunto de padrões que apoiam a proteção de web services, incluindo padrões que especificam a definição de políticas de proteção e padrões que cobrem o uso de assinaturas digitais, é conceito de WS-Security.",
+            "WS-Addressing define como as informações de endereço devem ser representadas em uma mensagem SOAP.",
+            "o conceito que define como as transações através de serviços distribuídos devem ser coordenadas está relacionado ao padrão WS-Transactions."
+        ],
+        "gabarito": "um padrão para uma linguagem de workflow, que é usada para definir programas de processo que envolvem vários serviços diferentes, dentro da arquitetura monolítica, é conhecido como WS-BPEL."
+    },
+    {
+        "id": 53,
+        "enunciado": "SOA é um paradigma de design arquitetônico, utilizado em diversos sistemas de software, que",
+        "alternativas": [
+            "promove a separação das preocupações (SOC-separation of concerns) lógicas e funcionais, facilitando o gerenciamento e a manutenção dos sistemas.",
+            "não suporta a integração com tecnologias legadas, tornando-se inviável para sistemas mais antigos.",
+            "toma dificil a adaptação a mudanças nos requisitos devido à sua rigidez estrutural.",
+            "requer configuração manual de descoberta de serviços, não suportando configuração dinamica.",
+            "não suporta a reutilização de serviços, o que acarreta maior esforço de desenvolvimento."
+        ],
+        "gabarito": "promove a separação das preocupações (SOC-separation of concerns) lógicas e funcionais, facilitando o gerenciamento e a manutenção dos sistemas."
+    },
+    {
+        "id": 54,
+        "enunciado": "Assinale a alternativa que apresenta um dos princípios básicos da arquitetura orientada a serviços.",
+        "alternativas": [
+            "Menor adaptabilidade.",
+            "Acoplamento forte.",
+            "Pouca granularidade.",
+            "Interoperabilidade reduzida.",
+            "Abstração."
+        ],
+        "gabarito": "Abstração."
+    },
+    {
+        "id": 55,
+        "enunciado": "Assinale a alternativa que corresponde a uma linguagem de consulta para APIs que permite que clientes (clients) interajam com um único endpoint para obter os dados exatos que precisam, sem a necessidade de encadear múltiplas requisições.",
+        "alternativas": [
+            "NoSQL.",
+            "SOAP.",
+            "GraphQL.",
+            "JSON.",
+            "OCL."
+        ],
+        "gabarito": "GraphQL."
+    },
+    {
+        "id": 56,
+        "enunciado": "Acerca dos conceitos referentes à arquitetura de aplicações, julgue o item a seguir.\nCom a SOA é mais fácil escalar ou ampliar o uso de uma funcionalidade para plataformas ou ambientes novos, o que resulta em maior agilidade e eficiência no desenvolvimento, por outro lado, em geral, acaba por promover aumento nos custos da solução.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 57,
+        "enunciado": "Acerca de arquitetura orientada a serviços (SOA), julgue o item seguinte.\nO barramento de serviços corporativos (ESB) é o componente que implementa a arquitetura estabelecida pelo padrão SOA.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 58,
+        "enunciado": "Acerca de arquitetura orientada a serviços (SOA), julgue o item seguinte.\nGeralmente, SOA lida com requisitos de baixo acoplamento e desenvolvimento baseado em padrões, além de considerar computação distribuída independente de protocolo e integração de aplicações.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 59,
+        "enunciado": "Acerca de arquitetura orientada a serviços (SOA), julgue o item seguinte.\nA principal característica das interfaces no padrão SOA consiste em disponibilizar os recursos quando a implementação do serviço é amplamente conhecida.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 60,
+        "enunciado": "Considere que um sistema deva ser desenvolvido com os seguintes requisitos:\nI arquitetura distribuída;\nII componentes de sistema como serviços autônomos;\nIII plataforma e implementação independentes de linguagem;\nIV mecanismos básicos para a troca de informações baseados em XML.\nA partir dessa situação hipotética, julgue o item a seguir, relativo a arquitetura orientada a serviços (SOA) e web services.\nA criação de serviços por meio de web services atende os requisitos II e III, desde que esses serviços não sejam realizados por meio de REST, uma vez que, no RESTful, as transações são inter-relacionadas, ou seja, não pode haver serviços autônomos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 61,
+        "enunciado": "Considere que um sistema deva ser desenvolvido com os seguintes requisitos:\nI arquitetura distribuída;\nII componentes de sistema como serviços autônomos;\nIII plataforma e implementação independentes de linguagem;\nIV mecanismos básicos para a troca de informações baseados em XML.\nA partir dessa situação hipotética, julgue o item a seguir, relativo a arquitetura orientada a serviços (SOA) e web services.\nPara atender os requisitos I e IV, é correto utilizar SOA, que, além de ser uma forma de desenvolvimento de sistemas distribuídos por meio de protocolos de web services, possui mecanismos básicos para a troca de informações de serviço (SOAP) e padrões de linguagem da programação (WSBPEL) baseados em XML.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 62,
+        "enunciado": "Ao expor serviços usando protocolos de rede padrão, como SOAP, JSON, ActiveMQ ou Apache Thrift, para enviar solicitações ou acessar dados, a SOA facilita a vida dos desenvolvedores, pois estes não precisam fazer a integração do zero. Em vez disso, podem usar padrões chamados",
+        "alternativas": [
+            "Businness Serverless Accoplations (BSAs), que definem o padrão de interação entre o front e o back-end e depois os tornam acessíveis como interfaces de serviços.",
+            "Enterprise Service Buses (ESBs), que realizam a integração entre um componente central e sistemas de back-end e depois os tornam acessíveis como interfaces de serviços.",
+            "active-x SOAP modules, que substituem os padrões SOAP tradicionais por componentes genéricos acopláveis a quaisquer serviços Web.",
+            "Unique Service Businesses (USBs), que realizam a integração entre um componente central e sistemas de back-end e depois os tornam acessíveis como interfaces de serviços.",
+            "Service Business Accoplations (SBAs) que definem o padrão de interação entre o front e o back-end e depois os tornam acessíveis como interfaces de serviços Web."
+        ],
+        "gabarito": "Enterprise Service Buses (ESBs), que realizam a integração entre um componente central e sistemas de back-end e depois os tornam acessíveis como interfaces de serviços."
+    },
+    {
+        "id": 63,
+        "enunciado": "No âmbito dos protocolos e padrões SOA para serviços web, que fazem o intermédio da comunicação entre as aplicações, considere:\nI. Utiliza o XML para o envio de mensagens e faz o uso do protocolo HTTP para realizar a transferência das informações. No documento WSDL, que está relacionado ao protocolo, estão descritas as operações e a localização do Web Service.\nII. Utiliza o protocolo HTTP como base e pode utilizar muitas formas para representar as informações (ex. JSON, RSS). Dessa forma, ele não restringe os formatos de representação de dados, sendo, portanto, flexível.\nOs itens I e II descrevem, correta e respectivamente,",
+        "alternativas": [
+            "MOAP e ESB.",
+            "XSL e SOAP.",
+            "REST e XLM.",
+            "SOAP e REST.",
+            "ESB e XSL."
+        ],
+        "gabarito": "SOAP e REST."
+    },
+    {
+        "id": 64,
+        "enunciado": "A adoção da Arquitetura Orientada a Serviços (Service Oriented Architecture - SOA) viabiliza a utilização de vários recursos que proporcionam benefícios aos softwares que suportam as operações de negócios das organizações.\nA detecção de ataques de segurança, como ataques de negação de serviço, é um benefício proporcionado pelo recurso de SOA denominado:",
+        "alternativas": [
+            "Orquestração de Serviços;",
+            "Coreografia de Serviços;",
+            "Monitoramento de Mensagens;",
+            "Virtualização de Serviços;",
+            "Processamento de Eventos Complexos."
+        ],
+        "gabarito": "Monitoramento de Mensagens;"
+    },
+    {
+        "id": 65,
+        "enunciado": "Ao pesquisar a Arquitetura Orientada a Serviços, um Analista observou que ela deve ter, como características-chave, para seu adequado funcionamento,",
+        "alternativas": [
+            "a necessidade de uso de linguagens idênticas entre aplicações.",
+            "o fraco acoplamento dos serviços.",
+            "a dependência de tecnologias e protocolos entre aplicações.",
+            "a não necessidade de padronizações.",
+            "o reuso de ativos apenas em serviços disponibilizados em redes locais."
+        ],
+        "gabarito": "o fraco acoplamento dos serviços."
+    },
+    {
+        "id": 66,
+        "enunciado": "Em SOA (service oriented architecture), o compartilhamento de dados e recursos entre dois ou mais sistemas computacionais é denominado",
+        "alternativas": [
+            "agregabilidade.",
+            "serviço.",
+            "acoplamento.",
+            "interoperabilidade."
+        ],
+        "gabarito": "interoperabilidade."
+    },
+    {
+        "id": 67,
+        "enunciado": "Na arquitetura orientada a serviços, o componente central que realiza a integração entre os sistemas back-end e disponibiliza tais integrações como interface de serviços é chamado de",
+        "alternativas": [
+            "orquestração.",
+            "barramento.",
+            "provedor.",
+            "consumidor."
+        ],
+        "gabarito": "barramento."
+    },
+    {
+        "id": 68,
+        "enunciado": "A Arquitetura Orientada a Serviços (SOA) significa pensar em termos de serviços e de aplicações baseadas em serviços e, em seu nível mais abstrato, é composto de três elementos que representam papéis distintos de interação; assinale-os.",
+        "alternativas": [
+            "O consumidor do serviço; o prestador de serviço; e, o registro do serviço.",
+            "O prestador de serviço; o registro do serviço; e, o monitoramento do serviço.",
+            "O consumidor do serviço; o prestador de serviço; e, o monitoramento do serviço.",
+            "O monitoramento do serviço; a validação do serviço; e, o consumidor do serviço."
+        ],
+        "gabarito": "O consumidor do serviço; o prestador de serviço; e, o registro do serviço."
+    },
+    {
+        "id": 69,
+        "enunciado": "Uma arquitetura define uma maneira de tornar os componentes de software reutilizáveis por meio de interfaces que utilizam padrões de comunicação comuns, podendo ser incorporados a novos aplicativos sem a necessidade de realizar complicadas integrações. Cada programa incorpora o código e as integrações de dados necessários para executar uma função de negócios completa, e são publicados de forma a possibilitar que os desenvolvedores os encontrem rapidamente e os reutilizem para montar novos aplicativos. Trata-se da arquitetura:",
+        "alternativas": [
+            "CUBO.",
+            "SOAP.",
+            "SOA.",
+            "XML.",
+            "LINKING."
+        ],
+        "gabarito": "SOA."
+    },
+    {
+        "id": 70,
+        "enunciado": "A respeito das tecnologias que oferecem suporte à Arquitetura Orientada a Serviços (SOA), segundo Fugita e Hirama (2, é correto afirmar que:",
+        "alternativas": [
+            "UDDI é um protocolo de comunicação baseado na troca de mensagens em formato XML transmitidas via HTTP ou outros protocolos.",
+            "SOAP são documentos JSON em um formato compacto, de padrão aberto e independente.",
+            "WSDL é a linguagem baseada em XML para definição formal de interfaces de serviços.",
+            "WS-Notification é o protocolo utilizado para assegurar a entrega de mensagens SOAP com tolerância a falhas de comunicação.",
+            "WS-Addressing possibilita implementar soluções orientadas a eventos, através da notificação de eventos entre Web Services."
+        ],
+        "gabarito": "WSDL é a linguagem baseada em XML para definição formal de interfaces de serviços."
+    },
+    {
+        "id": 71,
+        "enunciado": "Com relação a gerenciamento de filas, SOA, mensageria e barramento de serviços, julgue o item a seguir.\nO forte acoplamento de serviços e a especificidade de plataformas e tecnologias de infraestrutura compatíveis são características fundamentais de SOA.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 72,
+        "enunciado": "Com relação a gerenciamento de filas, SOA, mensageria e barramento de serviços, julgue o item a seguir.\nEntre as possibilidades funcionais de um barramento de serviços estão transformações de modelos de dados, manuseio de conectividade e mensagens, execução de roteamento, conversão de protocolos de comunicação e gerenciamento de requisições variadas relacionadas aos serviços.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 73,
+        "enunciado": "Com relação a gerenciamento de filas, SOA, mensageria e barramento de serviços, julgue o item a seguir.\nImplementações de SOA por meio de um barramento de serviços implicam a criação de um ponto único de falha, uma vez que clientes e serviços da organização não poderão se comunicar se o barramento de serviços se tornar inoperante.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 74,
+        "enunciado": "Quanto ao MVC (Model View Controller) e à SOA (Service Oriented Architecture), julgue o item.\nO princípio da SOA é o de que a face real de uma arquitetura orientada a serviços implementada não é exclusiva para cada empresa, ou seja, é um modelo que pode ser replicado, de forma idêntica, para várias empresas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 75,
+        "enunciado": "Quanto ao MVC (Model View Controller) e à SOA (Service Oriented Architecture), julgue o item.\nDe acordo com os fundamentos da SOA, a unidade mais fundamental da lógica orientada a serviços é a empresa.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 76,
+        "enunciado": "Quanto ao MVC (Model View Controller) e à SOA (Service Oriented Architecture), julgue o item.\nA SOA é composta de três elementos, que representam papéis distintos de interação, sendo o registro do serviço um desses elementos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 77,
+        "enunciado": "Assinale a alternativa que indica corretamente qual a arquitetura que integra os componentes de software que foram implantados e são mantidos separadamente, permitindo que eles se comuniquem e trabalhem juntos para formar aplicações que funcionam em sistemas diferentes.",
+        "alternativas": [
+            "REST.",
+            "SOA.",
+            "SaaS.",
+            "Lead.",
+            "Kanban."
+        ],
+        "gabarito": "SOA."
+    },
+    {
+        "id": 78,
+        "enunciado": "Sobre os conceitos e características de SOA (Arquitetura Orientada a Serviços), assinale a alternativa correta.",
+        "alternativas": [
+            "Uma diferença entre Web Services e SOA é que o SOA é voltado para dentro da empresa, fornecendo informações ou recursos para toda organização; um pouco mais abrangente podemos falar dos Web Services, que são sites privados para empresas fazer consumo do serviço disponível.",
+            "O SOA trabalha de forma descentralizada, sendo sempre vários líderes tomando partido e conhecimento da situação, levando soluções e propostas para o conselho, onde escolhe-se a melhor e mais propícia decisão para a organização.",
+            "A arquitetura orientada a serviços não se insere em um processo de reorganização dos departamentos de tecnologia da informação das organizações, não permitindo um melhor relacionamento entre as áreas que dão suporte tecnológico à empresa e as áreas responsáveis pelo negócio.",
+            "A arquitetura orientada a serviços também se relaciona com determinadas políticas e conjuntos de \"boas práticas\" que pretendem criar um processo para facilitar a tarefa de encontrar, definir e gerenciar os serviços disponibilizados.",
+            "Um serviço deve funcionar de forma dependente do estado de outros serviços, exceto nos casos de serviços compostos (composite services), e deve possuir uma interface bem definida."
+        ],
+        "gabarito": "Um serviço deve funcionar de forma dependente do estado de outros serviços, exceto nos casos de serviços compostos (composite services), e deve possuir uma interface bem definida."
+    },
+    {
+        "id": 79,
+        "enunciado": "Não depende de nenhuma condição pré-existente. Os serviços não devem depender de condições de outros serviços. Eles recebem todas as informações necessárias para prover uma resposta consistente” O texto citado descreve qual definição em SOA?",
+        "alternativas": [
+            "Serviço.",
+            "Orquestração.",
+            "Stateless.",
+            "Provedor.",
+            "Consumidor."
+        ],
+        "gabarito": "Stateless."
+    },
+    {
+        "id": 80,
+        "enunciado": "Acerca da arquitetura orientada a serviço e de web services, julgue o item a seguir.\nEm uma arquitetura orientada a serviço básica, o bloco registro de serviço é responsável pela criação e publicação do WSDL.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 81,
+        "enunciado": "REST e SOAP são duas formas de prover serviços via protocolo HTTP.\nAo comparar essas duas opções para implementar um sistema, um desenvolvedor poderá encontrar algumas características que as distinguem e outras que são implementadas por ambas, tais como:",
+        "alternativas": [
+            "SOAP e REST permitem o uso de HTML+CSS como formato das respostas.",
+            "SOAP e REST exigem o uso de JSON como formato das respostas.",
+            "REST inclui o tratamento de erro por meio de códigos padronizados, enquanto SOAP usa verbos HTTP 1.1, como GET, PUT, POST e DELETE, para fazer o mesmo.",
+            "SOAP pode ser usado apenas com o protocolo HTTP, enquanto REST permite usar outros protocolos como SMTP.",
+            "SOAP exige o uso de XML para fornecer a resposta, enquanto REST pode ser usado com vários formatos, como JSON, RSS ou mesmo XML."
+        ],
+        "gabarito": "SOAP exige o uso de XML para fornecer a resposta, enquanto REST pode ser usado com vários formatos, como JSON, RSS ou mesmo XML."
+    },
+    {
+        "id": 82,
+        "enunciado": "Assinale a opção que apresenta uma vantagem da adoção da SOA (service-oriented architecture).",
+        "alternativas": [
+            "performance.",
+            "disponibilidade.",
+            "robustez.",
+            "interoperabilidade.",
+            "segurança."
+        ],
+        "gabarito": "interoperabilidade."
+    },
+    {
+        "id": 83,
+        "enunciado": "Em relação a soluções de integração entre sistemas e Interoperabilidade de sistemas, julgue o seguinte item.\nXML e WSDL são padrões comumente utilizados para viabilizar a comunicação entre Web Services em uma abordagem SOA.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 84,
+        "enunciado": "Em relação a soluções de integração entre sistemas e Interoperabilidade de sistemas, julgue o seguinte item.\nO foco central da arquitetura SOA são as definições de serviços. As tarefas ou as funções de negócio são orquestradas para prover automatização do processo após a definição dos serviços.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 85,
+        "enunciado": "As arquiteturas orientadas a serviços são uma forma de desenvolvimento de sistemas distribuídos em que os componentes de sistema são serviços autônomos. A esse respeito, assinale a opção correta.",
+        "alternativas": [
+            "WS-BPEL é um padrão para uma linguagem de workflow, usada para definir programas de processo que envolvem vários serviços diferentes.",
+            "UDDI é um padrão de trocas de mensagens que oferece suporte à comunicação entre os serviços.",
+            "SOAP é a linguagem de definição para a definição de interface de serviço.",
+            "A abordagem RESTful oferece suporte a recursos a WS-Reliability, WS-Addressing e WS-Transactions.",
+            "Os sistemas de software podem ser construídos utilizando-se XML, desde que os serviços externos sejam dos mesmos provedores e desenvolvidos na mesma linguagem de programação."
+        ],
+        "gabarito": "WS-BPEL é um padrão para uma linguagem de workflow, usada para definir programas de processo que envolvem vários serviços diferentes."
+    },
+    {
+        "id": 86,
+        "enunciado": "Arquitetura Orientada a Serviços (SOA) /Service Oriented Architecture é um estilo arquitetural que promove reusabilidade, flexibilidade e escalabilidade para os sistemas de software. Tem sido utilizada especialmente em design de aplicações complexas e distribuídas. Sobre a SOA, é correto afirmar que:",
+        "alternativas": [
+            "No estilo SOA, um processo de serviço é um sistema provedor de serviços, um consumidor de serviços ou ambos.",
+            "SOA é um estilo arquitetural; porém, não permite usar competências de sistemas de software para o desenvolvimento de novos aplicativos.",
+            "SOA permite a integração de heterogêneos softwares por fornecer interoperabilidade por meio de linguagem independente e protocolo padronizado.",
+            "A composição do serviço é uma das características mais promissoras de SOA, que são realizadas por meio de coordenação de serviços usados por duas abordagens: orquestração e coreografia. Na orquestração, não existe nenhum coordenador central que controla a execução do processo de negócios; na coreografia, o coordenador central controla a execução de todas as funcionalidades fornecidas pelos parceiros de serviço de acordo com os requisitos especificados."
+        ],
+        "gabarito": "SOA permite a integração de heterogêneos softwares por fornecer interoperabilidade por meio de linguagem independente e protocolo padronizado."
+    }
+]

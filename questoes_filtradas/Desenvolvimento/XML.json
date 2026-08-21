@@ -1,0 +1,1176 @@
+[
+    {
+        "id": 1,
+        "enunciado": "A ALEGO está passando por um processo de padronização na troca de informações entre seus diversos sistemas internos e aplicações de parceiros externos. Para garantir interoperabilidade, estruturação consistente dos dados e integração com soluções legadas, a equipe de TI precisa definir um formato de representação de dados.\nNesse cenário, surge a necessidade de avaliar o uso de XML (Extensible Markup Language).\nAssinale a alternativa relativa a este formato de representação de dados.",
+        "alternativas": [
+            "É um padrão que fornece um diretório para serviços web, permitindo que empresas publiquem e descubram serviços online. Facilita a integração entre diferentes sistemas.",
+            "É um estilo arquitetônico para o desenvolvimento de serviços web que utiliza princípios do protocolo HTTP. É amplamente utilizado para construir APIs pela sua simplicidade e eficiência.",
+            "Formato leve de troca de dados utilizado para armazenamento e intercâmbio de informações, que é de fácil compreensão e pode ser manipulado com a sintaxe do JavaScript.",
+            "Linguagem de marcação projetada para descrever o conteúdo das páginas da web de forma estruturada, permitindo o armazenamento e a transmissão de dados.",
+            "Uma linguagem de transformação que permite converter documentos de um determinado tipo em outros formatos, como HTML ou texto plano. É útil para modificar a apresentação de dados."
+        ],
+        "gabarito": "Linguagem de marcação projetada para descrever o conteúdo das páginas da web de forma estruturada, permitindo o armazenamento e a transmissão de dados.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "FGV"
+    },
+    {
+        "id": 2,
+        "enunciado": "A respeito de desenvolvimento de sistemas, julgue o item a seguir.\nDe acordo com as regras de formatação do padrão XML, os dados de um cliente podem ser representados da seguinte maneira.\n<cliente Nome=\"João da Silva\" Idade=\"42\"/>",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 3,
+        "enunciado": "Sobre XML e JSON, informe se é verdadeiro (V) ou falso (F) o que se afirma a seguir e assinale a alternativa com a sequência correta.\n( ) JSON utiliza estruturas baseadas em pares chave–valor, enquanto XML utiliza marcações hierárquicas definidas por elementos e atributos.\n( ) JSON permite comentários nativamente, seguindo padrão semelhante ao de linguagens como JavaScript.\n( ) XML possui suporte à validação por meio de esquemas como XML Schema (XSD), permitindo verificar estrutura e tipos de dados.\n( ) JSON não exige aspas para identificar nomes de chaves, desde que não contenham caracteres especiais.",
+        "alternativas": [
+            "V – F – F – V.",
+            "F – V – V – V.",
+            "F – F – V – F.",
+            "V – V – V – F.",
+            "V – F – V – F."
+        ],
+        "gabarito": "V – F – V – F.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "Instituto AOCP"
+    },
+    {
+        "id": 4,
+        "enunciado": "Em relação à programação web, julgue o item a seguir.\nO criador de um arquivo XML pode escolher diversos nomes para as tags, sem a necessidade de utilizar uma biblioteca limitada de nomes.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 5,
+        "enunciado": "A web é composta de um conjunto de linguagens padronizadas que permitem seu funcionamento. Entre elas, aquela que permite a definição de tags personalizadas é a",
+        "alternativas": [
+            "HTML.",
+            "XHTML.",
+            "CSS.",
+            "JavaScript.",
+            "XML."
+        ],
+        "gabarito": "XML.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "Instituto Verbena"
+    },
+    {
+        "id": 6,
+        "enunciado": "O eXtensible Markup Language (XML) é uma linguagem utilizada para realizar a marcação, sendo criada com a finalidade de armazenar, organizar e transportar dados de forma estruturada, legível por humanos e máquinas. O XML Foi criado pelo World Wide Web Consortium (W3C) como um padrão flexível para a troca de informações entre diferentes sistemas e plataformas, buscando prover interoperabilidade e integração. São características do XML, com exceção da característica:",
+        "alternativas": [
+            "A linguagem XML permite que o programador faça a especificação do idioma a ser utilizado.",
+            "A linguagem XML possui tags predefinidas, facilitando o trabalho do programador.",
+            "A linguagem XML tem sua estrutura baseada em árvore, tendo tags pais e tags filhos.",
+            "Na linguagem XML, os atributos são projetados para conter dados relacionados a um elemento específico."
+        ],
+        "gabarito": "A linguagem XML possui tags predefinidas, facilitando o trabalho do programador.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "IDESG"
+    },
+    {
+        "id": 7,
+        "enunciado": "XSLT 2.0 é uma linguagem baseada em folhas de estilo capazes de transformar documentos XML em outros documentos XML. Os modelos de dados usados pelo XSLT\n2.0 são",
+        "alternativas": [
+            "CSS, XML e JSON.",
+            "XHTML 5.0 e SVG 3.0.",
+            "SQL, NewSQL e NoSQL.",
+            "XPath 2.0 e XQuery 1.0.",
+            "CSS 2.0 e XMLSchema 1.0."
+        ],
+        "gabarito": "XPath 2.0 e XQuery 1.0.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "FGV"
+    },
+    {
+        "id": 8,
+        "enunciado": "Quanto ao XML, ao design responsivo e à otimização para mecanismos de busca (SEO), julgue o item a seguir.\nXML define um conjunto fixo de tags para estruturar dados específicos da Internet.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "QUADRIX"
+    },
+    {
+        "id": 9,
+        "enunciado": "Quanto ao XML, ao design responsivo e à otimização para mecanismos de busca (SEO), julgue o item a seguir.\nXML é uma linguagem de marcação que define regras para codificar documentos de forma legível por humanos e máquinas, facilitando o compartilhamento de dados entre sistemas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "QUADRIX"
+    },
+    {
+        "id": 10,
+        "enunciado": "Durante a integração entre dois sistemas de diferentes órgãos públicos, um Analista de Tecnologia da Informação detecta que o consumo de dados deve ocorrer via XML, com a necessidade de extrair informações específicas de forma estruturada. Assinale a alternativa correta que corresponde qual tecnologia é adequada para essa tarefa.",
+        "alternativas": [
+            "YAML oferece sintaxe leve, mas não permite expressões condicionais.",
+            "XSLT transforma XML em HTML, mas não executa consultas específicas.",
+            "SOAP fornece o esquema XML, mas não executa expressões de extração.",
+            "XPath oferece linguagem de consulta estruturada para navegar em nós XML.",
+            "JSONPath permite consultar documentos XML com base em hierarquia e índice."
+        ],
+        "gabarito": "XPath oferece linguagem de consulta estruturada para navegar em nós XML.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "Instituto ACCESS"
+    },
+    {
+        "id": 11,
+        "enunciado": "Em relação a HTML5 e CSS3, XML, JSON, integração de dados e PWA (Progressive Web Apps), julgue o item seguinte.\nXML é uma linguagem de marcação que permite representar dados com estrutura hierárquica, sendo amplamente utilizada em integração entre sistema heterogêneos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "QUADRIX"
+    },
+    {
+        "id": 12,
+        "enunciado": "XML Schema e uma nova proposta do W3C que fornece uma maneira mais poderosa de descrever a estrutura do documento do que DTDs.\nFonte: RAMAKRISHNAN, Raghu; GEHRKE, Johannes. Sistemas de Gerenciamento de Banco de Dados. 3. ed. Rio de Janeiro: LTC, 2008 Considerando as características do XML Schema citadas por Ramakrishnan (2008), analise as afirmativas a seguir.\nI. XML Schema é um superconjunto de DTDs, permitindo que dados legados sejam facilmente tratados.\nII. Um aspecto interessante e que XML Schema suporta as restrições de unicidade e de chave estrangeira.\nIII. No XML Schema os elementos sao sempre ordenados, nao permitindo uma ordem flexível.\nEstá CORRETO o que se afirma em:",
+        "alternativas": [
+            "Nenhuma das afirmativas.",
+            "I e II, apenas.",
+            "II e III, apenas.",
+            "I e III, apenas.",
+            "Todas as afirmativas."
+        ],
+        "gabarito": "I e II, apenas.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "COCP IFMT"
+    },
+    {
+        "id": 13,
+        "enunciado": "XML é considerado(a)",
+        "alternativas": [
+            "uma linguagem de programação.",
+            "uma IDE para desenvolvimento.",
+            "uma linguagem de marcação.",
+            "um protocolo para comunicação mobile.",
+            "um padrão para interface web."
+        ],
+        "gabarito": "uma linguagem de marcação.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 14,
+        "enunciado": "Sobre definição de Schema XML, analise as afirmativas abaixo e dê valores Verdadeiro (V) ou Falso (F).\n( ) XML Schema Definition (XSD) é uma linguagem utilizada para definir a estrutura e o conteúdo de documentos XML.\n( ) Elementos em um schema XML não podem ter atributos associados a eles.\n( ) Schemas XML fornecem uma maneira formal de definir a hierarquia e a cardinalidade dos elementos em um documento XML.\nAssinale a alternativa que apresenta a sequência correta de cima para baixo.",
+        "alternativas": [
+            "F - F - F.",
+            "V - F - V.",
+            "F - V - F.",
+            "V - V - V."
+        ],
+        "gabarito": "V - F - V.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "IBFC"
+    },
+    {
+        "id": 15,
+        "enunciado": "De acordo com as afirmações abaixo sobre programação orientada a objetos, analise as afirmativas abaixo e dê valores Verdadeiro (V) ou Falso (F).\nI. XML é uma linguagem de marcação que permite a representação estruturada de dados.\nII. Pode-se criar documentos XML personalizados usando tags específicas, tornando-o uma linguagem extensível.\nIII. Tags em XML são case-sensitive, ou seja, <Tag> e <tag> são consideradas diferentes.\nAssinale a alternativa que apresenta a sequência correta de cima para baixo.",
+        "alternativas": [
+            "V - V - V.",
+            "V - V - F.",
+            "F - V - V.",
+            "V - F - F."
+        ],
+        "gabarito": "V - V - V.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "IBFC"
+    },
+    {
+        "id": 16,
+        "enunciado": "Assinale a alternativa que apresenta o significado da abreviatura XML.",
+        "alternativas": [
+            "Extensible Markup Language.",
+            "Extra Multi-Level.",
+            "Extended Machine Language.",
+            "Exponential Markup Logic.",
+            "Exceptional Machine Learning."
+        ],
+        "gabarito": "Extensible Markup Language.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "IBFC"
+    },
+    {
+        "id": 17,
+        "enunciado": "Considere o seguinte documento XML.\n<?xml version=\"1.0\" encoding=\"UTF-8\"?> <itens> <livro> <titulo>Cartilha LGPD</titulo> <preco>10</preco> </livro> <celular> <nome>Celular B</nome> <manual> <livro> <titulo>Manual Celular</titulo> </livro> </manual> </celular> </itens> Para recuperar o título de todos os livros, deve-se usar a expressão xPath:",
+        "alternativas": [
+            "/titulo.",
+            "/livro//titulo.",
+            "/itens/livro/titulo.",
+            "//livro/../titulo.",
+            "/itens/..//titulo."
+        ],
+        "gabarito": "/itens/..//titulo.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "FGV"
+    },
+    {
+        "id": 18,
+        "enunciado": "Um documento XML é estruturado como uma árvore rotulada ordenada. Cada nó da árvore é um elemento XML. O elemento mais alto da árvore por onde se inicia a formação do documento XML é o:",
+        "alternativas": [
+            "sibling;",
+            "schema;",
+            "attribute;",
+            "leaf node;",
+            "root node."
+        ],
+        "gabarito": "root node.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "FGV"
+    },
+    {
+        "id": 19,
+        "enunciado": "Observe os seguintes fragmentos de um documento XML.\nFragmento 1:\n<table> <tr> <td>Fruta</td> <td>Quantidade</td> </tr> </table> Fragmento 2:\n<table> <name>Manga</name> <quantidade>10</quantidade> </table> Ambos os fragmentos possuem o elemento <table>. Para evitar conflito entre os nomes dos elementos no mesmo documento XML, deve-se usar um:",
+        "alternativas": [
+            "XSLT;",
+            "Parser;",
+            "Tag;",
+            "Comments;",
+            "Namespace."
+        ],
+        "gabarito": "Namespace.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "FGV"
+    },
+    {
+        "id": 20,
+        "enunciado": "<message name=“getTermRequest”> <part name=“term” type=“xs:string”/> </message> <message name=“getTermResponse”> <part name=“value” type=“xs:string”/> </message> <portType name=“glossaryTerms”> <operation name=“getTerm”> <input message=“getTermRequest”/> <output message=“getTermResponse”/> </operation> </portType> <binding type=“glossaryTerms” name=“b1”> <soap:binding style=“document” transport=“http://schemas.xmlsoap.org/soap/http” /> <operation> <soap:operation soapAction=“http://example.com/getTerm”/> <input><soap:body use=“literal”/></input> <output><soap:body use=“literal”/></output> </operation> </binding> Com base no código XML precedente, julgue o próximo item.\nNo código apresentado, o termo name é um elemento e o termo message é uma tag.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 21,
+        "enunciado": "A estrutura de documentos XML é formada por diversos tipos de itens. Observe o documento XML a seguir.\n<?xml version=\"1.0\" encoding=\"UTF-8\"?> <processos> <processo category=\"contratos\"> <titulo lang=\"pr-br\">ServicoTI</titulo> <autor>José Maria</autor> <ano>2024</ano> </processo> </processos> No documento XML apresentado, o item 2024 é do tipo:",
+        "alternativas": [
+            "Text;",
+            "Schema;",
+            "Attribute;",
+            "Namespace;",
+            "Root Element."
+        ],
+        "gabarito": "Text;",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "FGV"
+    },
+    {
+        "id": 22,
+        "enunciado": "Um grande banco estabeleceu um novo canal de comunicação com os clientes via um app de mensagens instantâneas para smartphone. Esse app irá interagir com um software de resposta automática já existente por mensagens em XML.\nCada mensagem enviada ao software já existente terá o formato do seguinte exemplo:\n<MENSAGEM> <NOME>Nome do Cliente</NOME> <AGENCIA>9999-9</AGENCIA> <CONTA>9999-9</CONTA> <CPF>999.999.999-99</CPF> <TEXTO>Esse é um exemplo de mensagem</TEXTO> </MENSAGEM> Qual esquema XSD define corretamente a estrutura dessa mensagem?",
+        "alternativas": [
+            "<!ELEMENT MENSAGEM (NOME, AGENCIA, CONTA, CPF, TEXTO)> <!ELEMENT NOME (#PCDATA)> <!ELEMENT AGENCIA (#PCDATA)> <!ELEMENT CONTA (#PCDATA)> <!ELEMENT CPF (#PCDATA)> <!ELEMENT TEXTO (#PCDATA)>.",
+            "<!DOCTYPE MENSAGEM [ <!ELEMENT MENSAGEM (NOME, AGENCIA, CONTA, CPF, TEXTO)> <!ELEMENT NOME (#PCDATA)> <!ELEMENT AGENCIA (#PCDATA)> <!ELEMENT CONTA (#PCDATA)> <!ELEMENT CPF (#PCDATA)> <!ELEMENT TEXTO (#PCDATA)>.",
+            "<xsd:schema xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"> <xsd:element name=\"MENSAGEM\"> <xsd:complexType> <xsd:sequence> <xsd:element name=\"NOME\" type=\"xsd:string\"/> <xsd:element name=\"AGENCIA\" type=\"xsd:string\"/> <xsd:element name=\"CONTA\" type=\"xsd:string\"/> <xsd:element name=\"CPF\" type=\"xsd:string\"/> <xsd:element name=\"TEXTO\" type=\"xsd:string\"/> </xsd:sequence> </xsd:complexType> </xsd:element> </xsd:schema>.",
+            "<xsd:schema xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"> <xsd:element name=\"MENSAGEM\"> <xsd:complexType> <xsd:sequence> <xsd:element name=\"NOME\" type=\"xsd:string\"/> <xsd:element name=\"AGENCIA\" type=\"xsd:integer\"/> <xsd:element name=\"CONTA\" type=\"xsd:integer\"/> <xsd:element name=\"CPF\" type=\"xsd:integer\"/> <xsd:element name=\"TEXTO\" type=\"xsd:string\"/> </xsd:sequence> </xsd:complexType> </xsd:element> </xsd:schema>.",
+            "<xsd:schema xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"> <xsd:element name=\"MENSAGEM\"> <xsd:sequence> <xsd:element name=\"NOME\" type=\"xsd:string\"/> <xsd:element name=\"AGENCIA\" type=\"xsd:integer\"/> <xsd:element name=\"CONTA\" type=\"xsd:integer\"/> <xsd:element name=\"CPF\" type=\"xsd:integer\"/> <xsd:element name=\"TEXTO\" type=\"xsd:string\"/> </xsd:sequence> </xsd:element> </xsd:schema>."
+        ],
+        "gabarito": "<xsd:schema xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"> <xsd:element name=\"MENSAGEM\"> <xsd:complexType> <xsd:sequence> <xsd:element name=\"NOME\" type=\"xsd:string\"/> <xsd:element name=\"AGENCIA\" type=\"xsd:string\"/> <xsd:element name=\"CONTA\" type=\"xsd:string\"/> <xsd:element name=\"CPF\" type=\"xsd:string\"/> <xsd:element name=\"TEXTO\" type=\"xsd:string\"/> </xsd:sequence> </xsd:complexType> </xsd:element> </xsd:schema>.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "CESGRANRIO"
+    },
+    {
+        "id": 23,
+        "enunciado": "Considere o seguinte fragmento de código XML:\n<livro xmlns:ficcao=\"http://exemplo.com/ficcao\" xmlns:didatico=\"http://exemplo.com/didatico\"> <ficcao:titulo>O Conto Fantástico</ficcao:titulo> <didatico:titulo>Guia de Estudos</didatico:titulo> </livro> No exemplo acima, ficcao e didatico são exemplos de",
+        "alternativas": [
+            "elementos XML.",
+            "atributos XML.",
+            "prefixos de namespace.",
+            "entidades XML.",
+            "instruções de processamento."
+        ],
+        "gabarito": "prefixos de namespace.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "FGV"
+    },
+    {
+        "id": 24,
+        "enunciado": "Um Analista criou o XML Schema abaixo para registrar as informações de um funcionário público.\n<xs :element name=\"Funcionario\"> <xs:complexType> <xs:sequence> <xs:element name=\"Nome\" type=\"xs:string\"/> <xs:element name=\"Salario\" type=\"xs:decimaql\"/> </xs: sequence> </xs:complexTypes> </xs:element> O XML que é validado corretamente por este esquema é",
+        "alternativas": [
+            "<Funcionario> <AppData> <Nome>Maria Ana</Nome> <Salario>1500.00</Salario> </AppData> </Funcionario>.",
+            "<Funcionario> <Nome>Marcos Paulo</Nome> <Salario>R$5500,00</Salario> </Funcionario>.",
+            "<Funcionario> <xmldata> <Nome>Carlos Eduardo</Nome> <Salario>3500,00</Salario> <xmldata> </Funcionario>.",
+            "<Funcionario> <Nome>Paula Maria</Nome> <Salario>$4500.00</Salario> </Funcionario>.",
+            "<Funcionario> <Nome>Pedro Henrique</Nome> <Salario>2500.00</Salario> </Funcionario>."
+        ],
+        "gabarito": "<Funcionario> <Nome>Pedro Henrique</Nome> <Salario>2500.00</Salario> </Funcionario>.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "FCC"
+    },
+    {
+        "id": 25,
+        "enunciado": "O XML (Extensible Markup Language) é amplamente utilizado para estruturar dados de maneira independente de plataforma, enquanto o XSLT (Extensible Stylesheet Language Transformations) permite transformar documentos XML em outros formatos, como HTML.\nConsiderando a aplicação de XSLT e XML em sistemas que necessitam de interoperabilidade, qual das alternativas abaixo está correta?",
+        "alternativas": [
+            "O XSLT é um protocolo de comunicação entre sistemas e não está relacionado à transformação de documentos XML.",
+            "A função principal do XML é armazenar e manipular dados exclusivamente em sistemas Java, uma vez que ele não é compatível com outras linguagens.",
+            "O XML Schema define regras e restrições para os dados armazenados em XML, permitindo validar a estrutura do documento XML antes de sua utilização.",
+            "O XSLT permite que dados XML sejam convertidos diretamente para JSON, sem a necessidade de regras específicas de transformação.",
+            "A estrutura do XML exige que todos os elementos sejam codificados em UTF-8, independentemente da aplicação ou plataforma."
+        ],
+        "gabarito": "O XML Schema define regras e restrições para os dados armazenados em XML, permitindo validar a estrutura do documento XML antes de sua utilização.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "INSTITUTO ACESSO"
+    },
+    {
+        "id": 26,
+        "enunciado": "A manipulação de documentos XML é essencial para a integração e transformação de dados em sistemas modernos. O uso de tecnologias como XPath e XQuery facilita a consulta e o processamento de informações dentro de documentos XML.\nQual das alternativas abaixo descreve corretamente uma função do XPath?",
+        "alternativas": [
+            "XPath é uma linguagem de estruturação que define a sintaxe de documentos XML e HTML.",
+            "XPath é utilizado para validar documentos XML, garantindo que estejam de acordo com um schema predefinido.",
+            "XPath é usado para navegar em documentos XML, permitindo selecionar nós específicos com base em expressões.",
+            "XPath permite converter dados XML em JSON para facilitar a integração com APIs modernas.",
+            "XPath permite realizar transformações em documentos XML, convertendo-os em outros formatos, como HTML."
+        ],
+        "gabarito": "XPath é usado para navegar em documentos XML, permitindo selecionar nós específicos com base em expressões.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "INSTITUTO ACESSO"
+    },
+    {
+        "id": 27,
+        "enunciado": "Acerca de Angular, CSS3, HTML5, JavaScript, TypeScript e XML, julgue o próximo item.\nXML é uma linguagem de programação voltada para a transferência de dados entre aplicações web e sistemas de outras plataformas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 28,
+        "enunciado": "Julgue o seguinte item, relativo a tecnologias web.\nEm XML, o trecho de código </element /> permite criar um elemento vazio.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 29,
+        "enunciado": "Quanto aos processos de ETL, ao JSON, ao XML e às técnicas para pré‑processamento de dados, julgue o item abaixo:\nA finalidade principal do XML é criar uma interface automatizada para a execução de operações matemáticas complexas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "QUADRIX"
+    },
+    {
+        "id": 30,
+        "enunciado": "XML (Extensible Markup Language) é uma linguagem de marcação amplamente utilizada para representar dados estruturados de forma legível tanto por humanos quanto por máquinas, a qual é frequentemente empregada em contextos como web services, configuração de aplicativos e troca de dados entre sistemas. Comentários em XML são importantes para fornecer contexto e explicações adicionais sobre o conteúdo e a estrutura dos dados sem interferir na sua interpretação. Qual é a estrutura correta para um comentário em XML?",
+        "alternativas": [
+            "Comentários começam com <#-- e terminam com --!>.",
+            "Comentários começam com $= e terminam com =$.",
+            "Comentários começam com <!-- e terminam com -->.",
+            "Comentários começam com <** e terminam com **>.",
+            "Comentários começam com // e terminam com \\\\."
+        ],
+        "gabarito": "Comentários começam com <!-- e terminam com -->.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "Instituto AOCP"
+    },
+    {
+        "id": 31,
+        "enunciado": "Um gerente de conteúdo de um site educacional precisa utilizar uma linguagem multimídia, baseada no XML, que permite que os autores de páginas web com multimídia possam escrever essas páginas com apresentações interativas. Essa linguagem tem o acrônimo:",
+        "alternativas": [
+            "ASP.",
+            "JVS.",
+            "RUST.",
+            "SMIL."
+        ],
+        "gabarito": "SMIL.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "SELECON"
+    },
+    {
+        "id": 32,
+        "enunciado": "Sobre XML, assinale a alternativa INCORRETA:\nXMLStandard. https://www.w3.org/standards/xml/core.html, acessado em 14/09.",
+        "alternativas": [
+            "A Extensible Markup Language (XML) é um formato simples baseado em texto para representar informações estruturadas.",
+            "Em XML, todos os elementos precisam ser fechados ou marcados como vazio.",
+            "Em XML, os valores dos atributos precisam estar entre aspas (“”).",
+            "Em XML, não é permitido utilizar caracteres de entidade, como &lt; ou &gt;.",
+            "Apesar da liberdade de criação e definição de elementos em XML, é possível utilizar XML Schema para expressar restrições sobre o documento XML."
+        ],
+        "gabarito": "Em XML, não é permitido utilizar caracteres de entidade, como &lt; ou &gt;.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "COCP IFMT"
+    },
+    {
+        "id": 33,
+        "enunciado": "Quando um arquivo de mapeamento XML é utilizado com o framework Hibernate para prover informações de mapeamento objeto-relacional, o elemento XML que especifica uma propriedade usada para identificar linhas unicamente em uma tabela é:",
+        "alternativas": [
+            "class.",
+            "id.",
+            "property.",
+            "primary-key.",
+            "generator."
+        ],
+        "gabarito": "id.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "VUNESP"
+    },
+    {
+        "id": 34,
+        "enunciado": "Considere o código XSD abaixo.\n<xs:schema xmlns:xs=\"http://www.w3.org/2001/XMLSchema\"> <xs:element name=\"organization\"> <xs:complexType> <xs:simpleContent> <xs:extension base=\"xs:string\"> <xs:attribute name=\"category\" type=\"xs:string\"/> </xs:extension> </xs:simpleContent> </xs:complexType> </xs:element> </xs:schema> Uma representação correta deste código em XML é",
+        "alternativas": [
+            "<element:organization attribute:category value:justice>MPEPB123</element:organization>.",
+            "<organization category=\"justice\">MPEPB123</organization>.",
+            "<organization category{\"justice\"}>MPEPB123</organization>.",
+            "<organization>MPEPB123</organization><category>Justice</category>.",
+            "<xml:organization category=\"justice\">MPEPB123</xml:organization>."
+        ],
+        "gabarito": "<organization category=\"justice\">MPEPB123</organization>.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "FCC"
+    },
+    {
+        "id": 35,
+        "enunciado": "O gestor de tecnologia solicitou a criação de um XML Schema com múltiplas escolhas sendo uma lista com mínimo uma e máximo de cinco dados complexoS dentro da tag “conta-detalhe”. Os elementos complexos que serão adicionados já existem com nomes “credito” e “debito”. Dessa forma, precisam ser adicionados neste novo XML Schema de múltiplas escolhas em sua estrutura. Assim, assinale a alternativa que apresenta qual XML Schema é o válido.",
+        "alternativas": [
+            "<xsd:schema xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" elementFormDefault=\"qualified\"> <xsd:complexType name=\"conta-detalhe\"> <xsd:choice min=\"1\" \"> <xsd:element type=\"debito or credito\" minOccurs=\"0\" max=\"5/> </xsd:choice> </xsd:complexType> </xsd:schema>.",
+            "<xsd:schema> <xsd:complexType name=\"conta-detalhe\"> <xsd:choice> <xsd:element name=\"Debito\" type=\"debito\" minOccurs=\"1\" /> <xsd:element name=\"Credito\" type=\"credito\" minOccurs=\"5\" /> </xsd:choice> </xsd:complexType> </xsd:schema>.",
+            "<xsd:schema xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" elementFormDefault=\"qualified\"> <xsd:complexType name=\"conta-detalhe\"> <xsd:element name=\"Debito\" type=\"debito\" minOccurs=\"0\" /> <xsd:element name=\"Credito\" type=\"credito\" minOccurs=\"0\" /> </xsd:choice> </xsd:complexType> </xsd:schema>.",
+            "<xsd:schema xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" elementFormDefault=\"qualified\"> <xsd:complexType name=\"conta-detalhe\"> <xsd:choice minOccurs=\"1\" maxOccurs=\"5\"> <xsd:element name=\"Debito\" type=\"debito\" minOccurs=\"0\" /> <xsd:element name=\"Credito\" type=\"credito\" minOccurs=\"0\" /> </xsd:choice> </xsd:complexType> </xsd:schema>."
+        ],
+        "gabarito": "<xsd:schema xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" elementFormDefault=\"qualified\"> <xsd:complexType name=\"conta-detalhe\"> <xsd:choice minOccurs=\"1\" maxOccurs=\"5\"> <xsd:element name=\"Debito\" type=\"debito\" minOccurs=\"0\" /> <xsd:element name=\"Credito\" type=\"credito\" minOccurs=\"0\" /> </xsd:choice> </xsd:complexType> </xsd:schema>.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "INSTITUTO MAIS"
+    },
+    {
+        "id": 36,
+        "enunciado": "XML constitui uma forma de representar documentos baseada em texto, que é normalmente representada como uma árvore.\nSão métodos padrões de representar e acessar os documentos XML:\n1. DOM\n2. XDM\n3. PSVI Assinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "É correta apenas a afirmativa 1.",
+            "São corretas apenas as afirmativas 1 e 2.",
+            "São corretas apenas as afirmativas 1 e 3.",
+            "São corretas apenas as afirmativas 2 e 3.",
+            "São corretas as afirmativas 1, 2 e 3."
+        ],
+        "gabarito": "São corretas as afirmativas 1, 2 e 3.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "FEPESE"
+    },
+    {
+        "id": 37,
+        "enunciado": "Analise as afirmativas abaixo sobre esquemas XML (XML schema) e DTDs (Definições de Tipo de Documento).\n1. Ambas são criadas utilizando-se XML básico.\n2. Esquemas XML facilitam a criação de modelos de conteúdo mais complexos e reutilizáveis.\n3. Ambas suportam namespaces e as recomendações da namespace.\nAssinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "É correta apenas a afirmativa 2.",
+            "São corretas apenas as afirmativas 1 e 2.",
+            "São corretas apenas as afirmativas 1 e 3.",
+            "São corretas apenas as afirmativas 2 e 3.",
+            "São corretas as afirmativas 1, 2 e 3."
+        ],
+        "gabarito": "É correta apenas a afirmativa 2.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "FEPESE"
+    },
+    {
+        "id": 38,
+        "enunciado": "De acordo com o trecho de código Extensible Markup Language (XML) citado anteriormente, representa corretamente o caminho completo (XPath) para acessar o valor “Belém”:",
+        "alternativas": [
+            "/endereco/pessoa/cidade.",
+            "/endereco/cidade/pessoa.",
+            "/pessoa/endereco/cidade.",
+            "/pessoa/endereco/rua/cidade."
+        ],
+        "gabarito": "/pessoa/endereco/cidade.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "Instituto Consulplan"
+    },
+    {
+        "id": 39,
+        "enunciado": "Uma das regras sintáticas a ser cumprida para que um arquivo XML seja considerado bem formado (well-formed) é:",
+        "alternativas": [
+            "Não pode haver elementos vazios, ou seja, que não contenham um valor.",
+            "Todos os elementos presentes no arquivo devem ser abertos e fechados, ainda que sejam utilizadas tags com auto-fechamento.",
+            "Todos os elementos presentes no arquivo devem possuir pelo menos um atributo.",
+            "O valor contido em cada elemento deve estar entre aspas.",
+            "A primeira linha do arquivo XML deve conter um comentário, que indica a versão do XML e a codificação de caracteres utilizada."
+        ],
+        "gabarito": "Todos os elementos presentes no arquivo devem ser abertos e fechados, ainda que sejam utilizadas tags com auto-fechamento.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "VUNESP"
+    },
+    {
+        "id": 40,
+        "enunciado": "<Cliente Nome=\"JOAO DA SILVA\" Identificacao=\"123456\"> <Endereco Logradouro=\"Rua Ativa, 123\" Municipio=\"Recife\" UF=\"PE\"/> </Cliente> O trecho de código precedente está escrito em",
+        "alternativas": [
+            "XSLT.",
+            "WDSL.",
+            "RMI.",
+            "XML.",
+            "UDDI."
+        ],
+        "gabarito": "XML.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 41,
+        "enunciado": "Em XML, a linguagem de marcação que define a estrutura e os elementos que vão compor um documento, além de suportar tipos de dados e namespaces, é chamada de",
+        "alternativas": [
+            "XML Schema.",
+            "XPATH (XML Path Language).",
+            "DOM (Document Object Model).",
+            "XSLT (eXtensible Stylesheet Language Transformations).",
+            "DTD (Document Type Definition)."
+        ],
+        "gabarito": "XML Schema.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 42,
+        "enunciado": "XML é utilizado para um compartilhamento de informações de maneira padronizada na Internet. Geralmente arquivos XML iniciam-se com uma linha de código conhecida como “Prólogo XML”. Um exemplo de linha de código deste tipo com a sintaxe correta é",
+        "alternativas": [
+            "<?xml version= 1.0 encoding= UTF-8 ?>.",
+            "<?xml version=1.0 encoding=UTF-8?>.",
+            "<xml version= 1.0 encoding= UTF-8 >.",
+            "<xml version= 1.0 encoding= UTF-8 />.",
+            "<xml version=1.0 encoding=UTF-8>."
+        ],
+        "gabarito": "<?xml version= 1.0 encoding= UTF-8 ?>.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "VUNESP"
+    },
+    {
+        "id": 43,
+        "enunciado": "A XML (Extensible Markup Language) é um tipo de linguagem de marcação que representa informações no formato texto. Sua gramática permite que comentários sejam adicionados para ajudar na compreensão dos documentos XML.\nO fragmento que representa um comentário permitido pela gramática XML é",
+        "alternativas": [
+            "/* comentário */.",
+            "// comentário.",
+            "''' comentário '''.",
+            "(* comentário *).",
+            "<!-- comentário -->."
+        ],
+        "gabarito": "<!-- comentário -->.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "FGV"
+    },
+    {
+        "id": 44,
+        "enunciado": "Avalie as afirmativas a seguir no contexto da estrutura de documentos XML.\nI. Os elementos estão dispostos numa organização de árvore, iniciando com o elemento root.\nII. Um elemento XML pode possuir um ou mais elementos filhos (childs).\nIII. Somente elementos que possuam filhos podem possuir atributos (attributes).\nEstá correto somente o que se afirma em",
+        "alternativas": [
+            "I.",
+            "II.",
+            "III.",
+            "I e II.",
+            "II e III."
+        ],
+        "gabarito": "I e II.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "FGV"
+    },
+    {
+        "id": 45,
+        "enunciado": "No ambiente de busca em documentos XML do XPath, por meio de uma Location Path Expression, assinale a expressão que seleciona todos os nós (nodes) “<livro>”que são filhos (children) do nó corrente.",
+        "alternativas": [
+            "all [livro] descendant.",
+            "child::livro.",
+            "children[“livro”].",
+            "descendant-or-self livro.",
+            "namescace [livro] children."
+        ],
+        "gabarito": "child::livro.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "FGV"
+    },
+    {
+        "id": 46,
+        "enunciado": "O seguinte trecho de um XML Schema define um tipo chamado mytype, em que xs representa o namespace http://www.w3.org/2001/XMLSchema.\n<xs:simpleType name=\"mytype\"> <xs:restriction base=\"xs:string\"> <xs:pattern value=\"[0-9]{7}\" /> </xs:restriction> </xs:simpleType> Assinale a alternativa que descreve o valor aceito por esse tipo.",
+        "alternativas": [
+            "Uma string com até 7 caracteres, sendo que cada caractere pode ser um dígito de 0 a 9.",
+            "Uma string com exatamente 7 caracteres, sendo que cada caractere pode ser um dígito de 0 a 9.",
+            "Uma string com um número arbitrário de caracteres, sendo que cada caractere pode ser um dígito de 0 a 9, seguida por um caractere 7 no final.",
+            "Uma string com um número arbitrário de caracteres, sendo que cada caractere pode ser o dígito 0 ou o dígito 9, seguida por um caractere 7 no final.",
+            "Uma string iniciada por um caractere que pode ser um dígito de 0 a 9, seguida por um número arbitrário de caracteres 7 no final."
+        ],
+        "gabarito": "Uma string com exatamente 7 caracteres, sendo que cada caractere pode ser um dígito de 0 a 9.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "VUNESP"
+    },
+    {
+        "id": 47,
+        "enunciado": "Acerca da linguagem XML, da linguagem HTML e dos conceitos de DMZ e IDS, julgue o item.\nNa linguagem XML, o comando CDATA é utilizado para declarar uma entidade externa.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "QUADRIX"
+    },
+    {
+        "id": 48,
+        "enunciado": "Acerca da linguagem XML, da linguagem HTML e dos conceitos de DMZ e IDS, julgue o item.\nO comando <?xml version=”1.0” encoding=”UTF-8”?> é um exemplo de comando XML utilizado para definir a declaração de um documento XML, incluindo a versão e a codificação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "QUADRIX"
+    },
+    {
+        "id": 49,
+        "enunciado": "Considerando as linguagens de marcação, transformação e apresentação, analise as assertivas e assinale a alternativa que aponta as corretas.\nI. XML (Extensible Markup Language) é utilizado principalmente para a apresentação visual de conteúdo na web.\nII. XSLT (Extensible Stylesheet Language Transformations) permite transformar documentos XML em outros formatos, como XML, HTML e texto simples.\nIII. CSS (Cascading Style Sheets) é utilizado para descrever a aparência e a formatação de um documento escrito em uma linguagem de marcação.\nIV. XPath é uma linguagem que permite navegar através de elementos e atributos em um documento XML.",
+        "alternativas": [
+            "Apenas I e III.",
+            "Apenas II, III e IV.",
+            "Apenas II e III.",
+            "Apenas III e IV.",
+            "I, II, III e IV."
+        ],
+        "gabarito": "Apenas III e IV.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "Instituto AOCP"
+    },
+    {
+        "id": 50,
+        "enunciado": "Assinale a opção cujo trecho de código em XML representa corretamente uma pessoa, com seu nome e idade.",
+        "alternativas": [
+            "<Pessoa Nome=\"Fulano\" Idade=\"50\" >.",
+            "<Pessoa Nome=\"Fulano\" Idade=50 />.",
+            "<Pessoa Nome=Fulano Idade=50 Pessoa/>.",
+            "<Pessoa Nome=\"Fulano\" Idade=\"50\" />.",
+            "<Pessoa Nome=Fulano Idade=50 />."
+        ],
+        "gabarito": "<Pessoa Nome=\"Fulano\" Idade=\"50\" />.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 51,
+        "enunciado": "Ao desenvolver um sistema de notícias, a empresa X decidiu manter as notícias em um formato XML, como o do exemplo a seguir:\n<?xml version=\"1.0\"?> <news> <heading>Reminder</heading> <body>Don’t forget me this weekend!</body> </news> Mais tarde, entendeu que, para esse formato exemplificado acima, seria melhor definir um esquema em XSD. Que fragmento de código XSD deve conter esse esquema para permitir que o exemplo apresentado seja validado corretamente, quando nele for incluída a referência ao esquema completo?",
+        "alternativas": [
+            "<xs:element name=\"news\"> <xs:complexType> <xs:sequence> <xs:element name=\"heading\" type=\"xs:string\"/> <xs:element name=\"body\" type=\"xs:string\"/> </xs:sequence> </xs:complexType> </xs:element>.",
+            "<xs:element name=\"news\"> <xs:sequence> <xs:element name=\"heading\" type=\"xs:string\"/> <xs:element name=\"body\" type=\"xs:string\"/> </xs:sequence> </xs:element>.",
+            "<xs:element name=\"news\"> <xs:element name=\"heading\" type=\"xs:string\"/> <xs:element name=\"body\" type=\"xs:string\"/> </xs:element>.",
+            "<!ELEMENT news (heading, body)> <!ELEMENT heading (#PCDATA)> <!ELEMENT body (#PCDATA)>.",
+            "<!ELEMENT news (heading, body)> <!ELEMENT heading (text)> <!ELEMENT body (text)>."
+        ],
+        "gabarito": "<xs:element name=\"news\"> <xs:complexType> <xs:sequence> <xs:element name=\"heading\" type=\"xs:string\"/> <xs:element name=\"body\" type=\"xs:string\"/> </xs:sequence> </xs:complexType> </xs:element>.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "CESGRANRIO"
+    },
+    {
+        "id": 52,
+        "enunciado": "Julgue o item a seguir, relativo a WSDL, JSON, XML e XSLT.\nO código a seguir está correto de acordo com os padrões da sintaxe do XML.\n<?xml version=\"1.0\" encoding=\"UTF-8\"?> <menu> <bebida> <nome>Água<nome> <preco>R$2,50<preco> </bebida> <bebida> <nome>Vinho<nome> <preco>R$32,50<preco> </bebida> </menu>",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 53,
+        "enunciado": "Julgue o item seguinte, a respeito da formatação de dados.\nNos códigos em XML a seguir, sexo é um atributo no código A e um elemento no código B, mas ambos os códigos fornecem as mesmas informações.\ncódigo A <pessoa sexo=\"fem\"> <nome>Maria</nome> <sobrenome>Silva</sobrenome> </pessoa> código B <pessoa> <sexo>fem</sexo> <nome>Maria</nome> <sobrenome>Silva</sobrenome> </pessoa>",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 54,
+        "enunciado": "Com relação a desenvolvimento para dispositivos móveis, interoperabilidade de sistemas, qualidade de software e XML, julgue o item a seguir.\nDefine-se como processador XML um módulo de software usado para ler documentos XML e fornecer acesso ao seu conteúdo e à sua estrutura.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 55,
+        "enunciado": "Um documento XML possui o elemento raiz chamado aviso e, dentro deste, os elementos para, de, cabecalho e corpo. Neste documento XML, para indicar a existência de um documento chamado dados.dtd para definir a estrutura e os elementos e atributos legais do documento XML, utiliza-se, antes do elemento raiz, a instrução",
+        "alternativas": [
+            "<@import \"dados.dtd\">.",
+            "<!DOCTYPE aviso SYSTEM \"dados.dtd\">.",
+            "<link rel=\"DTD\" type=\"xml\" href=\"dados.dtd\">.",
+            "<!DOCTYPE language=\"xml\" file=\"dados.dtd\">.",
+            "<?xml version=\"1.0\" file=\"dados.dtd\"?>."
+        ],
+        "gabarito": "<!DOCTYPE aviso SYSTEM \"dados.dtd\">.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "FCC"
+    },
+    {
+        "id": 56,
+        "enunciado": "O <schema> é o elemento raiz de todo XML Schema e pode conter alguns atributos, como",
+        "alternativas": [
+            "lang, namespace e type.",
+            "xmlnsType, defaultNamespace e defaultLanguage.",
+            "name, type e value.",
+            "base, value e namespace.",
+            "targetNamespace, xmlns e elementFormDefault."
+        ],
+        "gabarito": "targetNamespace, xmlns e elementFormDefault.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "FCC"
+    },
+    {
+        "id": 57,
+        "enunciado": "A linguagem XML propicia um padrão extensível e poderoso para descrever dados que podem ser usados dentro e compartilhados entre aplicativos. Sobre a linguagem XML, assinale a afirmativa correta.",
+        "alternativas": [
+            "Todos os valores de atributos precisam ser colocados entre parênteses.",
+            "Um dos princípios desta linguagem é que um documento XML pode conter somente um elemento-raiz.",
+            "Os elementos XML não podem conter elementos filhos, uma vez que o padrão XML não é uma padrão hierárquico.",
+            "Nem todos os elementos XML necessitam ter uma tag de fechamento. Contudo, em elementos que estão “embutidos” dentro de outras linguagens, como HTML, a inserção da tag é obrigatória."
+        ],
+        "gabarito": "Um dos princípios desta linguagem é que um documento XML pode conter somente um elemento-raiz.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "CONSULPLAN"
+    },
+    {
+        "id": 58,
+        "enunciado": "XML Schema é uma linguagem que tem o objetivo de descrever como deve se comportar a estrutura de um arquivo XML. Serve portanto para classificar, de acordo com um modelo, se um arquivo XML é válido ou não.\nA respeito dessa linguagem, analise as afirmativas abaixo e marque alternativa correta.\nI. Arquivos com extensão XSD são aqueles que possuem conteúdo XML Schema, sendo portanto os arquivos capazes de validar arquivos XML.\nII. Definir o tipo de dado do conteúdo de um elemento, bem como seu tamanho mínimo e máximo de caracteres, são alguns exemplos de possibilidades de validação disponíveis no XML Scherna.\nIII. Um arquivo XSD é um arquivo XML.",
+        "alternativas": [
+            "Apenas a afirmativa I está correta.",
+            "Apenas a afirmativa II está correta.",
+            "Apenas as afirmativas II e III estão corretas.",
+            "Apenas as afirmativas I e III estão corretas.",
+            "Todas as afirmativas estão corretas."
+        ],
+        "gabarito": "Todas as afirmativas estão corretas.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "IDECAN"
+    },
+    {
+        "id": 59,
+        "enunciado": "XML é o nome dado para uma linguagem de marcação que possui sintaxe básica e é recomendada pelo World Wide Web Consortium (W3C) como padrão para compartilhamento de informações. Um arquivo XML deve seguir um conjunto de regras para que seja considerado um arquivo bem formado. A respeito dos conceitos e nomenclaturas que envolvem a estrutura de um arquivo XML, analise o código abaixo e marque a alternativa que indica, respectivamente, os termos usados para definir os conteúdos identificados por \"data\", \"candidato\" e ''vestibular\".\n<?xml version=\"1.0\" ?> <vestibular data=\"26/06/2022\"> <candidato>Marcelo Paiva <notas> <portugues>7</portugues> <redacao> 7</redacao> <matematica>8</matematica> </notas> </candidato> <candidato>Jorge Henrique <notas> <portugues> 1 0</portugues> <redacao>5</redacao> <matematica>6</matematica> </notas> </candidato> </vestibular>",
+        "alternativas": [
+            "Elemento, Atributo de Conteúdo Misto e Atributo Raiz.",
+            "Atributo, Elemento Raiz e Elemento de Conteúdo Misto.",
+            "Tag, Atributo Simples e Atributo Raiz.",
+            "Atributo Raiz, Elemento de Conteúdo Misto e Atributo Simples.",
+            "Atributo, Elemento de Conteúdo Misto e Elemento Raiz."
+        ],
+        "gabarito": "Atributo, Elemento de Conteúdo Misto e Elemento Raiz.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "IDECAN"
+    },
+    {
+        "id": 60,
+        "enunciado": "XQuery é o nome da linguagem de consulta projetada com o intuito de realizar consulta sobre coleções de dados representadas no formato Extensible Markup Language (XML). Essa linguagem permite a criação de expressões de consultas onde podemos definir, por exemplo, critérios de filtro, ordenação e projeção. Considere os códigos apresentados abaixo que representam, respectivamente, o conteúdo do arquivo XML que será consultado e a expressão de consulta que será realizada. Marque a alternativa que indica, corretamente, o nome dado para esse tipo de expressão de consulta.\nArquivo ufs.xml.\n<?xml version=\"1.0\" encoding=\"UTF-8\"?> <ufs> <uf regiao=\"NORDESTE\"> <nome>Ceara<lnome> <populacao> 1000000</populacao> </uf> <uf regiao=\"NORDESTE\"> <nome>Bahia<lnome> <populacao> 1200000</populacao> </uf> <uf regiao=\"NORTE\"> <nome>Acre</nome> <populacao> 300000</popu lacao> </uf> <uf regiao=\"SUL\"> <nome>Parana</nome> <populacao>850000</populacao> </uf> </ufs> Expressão de consulta.\nfor $x in doc(\"ufs.xml\")/ufs/uf where $xi população>850000 order by $x/nome return $x/nome",
+        "alternativas": [
+            "LINQ.",
+            "FLWOR.",
+            "SQL.",
+            "XSQL.",
+            "QXML."
+        ],
+        "gabarito": "FLWOR.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "IDECAN"
+    },
+    {
+        "id": 61,
+        "enunciado": "Extensible Markup Language (XML) é uma linguagens de marcação utilizada para estruturar e compartilhar dados. Trata-se de uma recomendação da W3C e é bastante difundida no mundo da computação pois facilita o trabalho de troca de informações entre sistemas distintos.\nA respeito de características do XML, marque a alternativa incorreta.",
+        "alternativas": [
+            "Um arquivo XML é baseado em texto simples e tem suporte ao Unicode.",
+            "XML é um sucessor do formato SVG pois foi inspirado nele.",
+            "Arquivos XML permite a organização dos dados de forma hierárquica.",
+            "XML é considerado auto documentado pois arquivos que validam regras em um arquivo XML também são escritos em XML.",
+            "As tags XML são case sensitive."
+        ],
+        "gabarito": "XML é um sucessor do formato SVG pois foi inspirado nele.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "IDECAN"
+    },
+    {
+        "id": 62,
+        "enunciado": "No Brasil a utilização do formato XML para troca de informações está bastante presente em serviços governamentais, quer seja em nível federal, estadual ou municipal. A emissão de notas fiscais eletrônicas de produto e de serviço, conhecimentos eletrônicos de transporte e a transmissão de informações trabalhistas e tributárias são apenas alguns dos exemplos de serviços governamentais que fazem uso desse tipo de formato. Além de operar com arquivos XML, estes serviços especificam também arquivos XML Schema que são representados pela extensão “.XSD”.\nMarque a alternativa que indica, corretamente, a finalidade deste tipo de arquivo.",
+        "alternativas": [
+            "Permitir o fracionamento do arquivo XML em partes menores, quando este exceder o tamanho máximo estabelecido pelo World Wide Web Consortium (W3C).",
+            "Verificar se o conteúdo de um arquivo XML está em acordo com a uma especificação previamente estabelecida.",
+            "Validar se a criptografia aplicada ao arquivo XML permanece íntegra.",
+            "Possibilitar a conversão do arquivo XML para outros formatos, como por exemplo o XLS, CSV e até mesmo PDF.",
+            "Garantir a identidade do responsável pela emissão do arquivo XML."
+        ],
+        "gabarito": "Verificar se o conteúdo de um arquivo XML está em acordo com a uma especificação previamente estabelecida.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "IDECAN"
+    },
+    {
+        "id": 63,
+        "enunciado": "XQuery é uma linguagem de consulta criada para operar dados armazenados em formato XML. A respeito das características e recursos dessa linguagem, analise as afirmações abaixo e marque a alternativa correta.\nI. XQuery não é case sensitive.\nII. A linguagem XQuery é uma recomendação do W3C. É baseada em expressões XPath.\nIII. As expressões FLWOR permitem a iteração em cima de dados, com a opção de realizarmos filtragem, ordenação e projeção dos mesmos.",
+        "alternativas": [
+            "Apenas as afirmativas I e II estão corretas.",
+            "Apenas a afirmativa II está correta.",
+            "Apenas as afirmativas II e III estão corretas.",
+            "Apenas a afirmativa III está correta.",
+            "Todas as afirmativas estão corretas."
+        ],
+        "gabarito": "Apenas as afirmativas II e III estão corretas.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "IDECAN"
+    },
+    {
+        "id": 64,
+        "enunciado": "Assinale a alternativa que apresenta uma característica necessária para que um documento XML seja considerado bem formado (well formed).",
+        "alternativas": [
+            "Existência de definição de pelo menos um namespace por meio do atributo xmlns nas tags raiz ou de abertura dos elementos.",
+            "Presença de mais de uma tag raiz.",
+            "Possuir codificação UTF-8.",
+            "Existência de tags de fechamento para todos os elementos, ou autofechamento em tags de elementos vazios.",
+            "Presença de pelo menos um atributo em cada elemento."
+        ],
+        "gabarito": "Existência de tags de fechamento para todos os elementos, ou autofechamento em tags de elementos vazios.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "VUNESP"
+    },
+    {
+        "id": 65,
+        "enunciado": "Um documento XML é considerado bem formado quando segue as regras de sintaxe estabelecidas na especificação da linguagem. A alternativa que apresenta um documento XML bem formado é:",
+        "alternativas": [
+            "<Letra> eh uma tag igual a </letra>.",
+            "<p>Este eh um paragrafo comum.</p>.",
+            "<!--Este eh um -- comentario padrao -->.",
+            "<mensagem>salario < 1000</mensagem>.",
+            "<b><i>Este texto eh negrito e italico</b></i>."
+        ],
+        "gabarito": "<p>Este eh um paragrafo comum.</p>.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "FGV"
+    },
+    {
+        "id": 66,
+        "enunciado": "Em um documento XML Schema, para definir um elemento chamado cidade com valor Vilhena, e não permitir a alteração, utiliza-se a instrução",
+        "alternativas": [
+            "<xs:element name=\"cidade\" type=\"xs:string\" fixed=\"Vilhena\"/>.",
+            "<xs:element name=\"cidade\" type=\"xs:text\" value=\"Vilhena\" fixed/>.",
+            "<xml:element name=\"cidade\" type=\"xml:text\" fix=\"Vilhena\"/>.",
+            "<xs:element name=\"cidade\" type=\"xs:string\" default=\"Vilhena\"/>.",
+            "<xml:element name=\"cidade\" type=\"xml:string\" value=\"Vilhena\"/>."
+        ],
+        "gabarito": "<xs:element name=\"cidade\" type=\"xs:string\" fixed=\"Vilhena\"/>.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "FCC"
+    },
+    {
+        "id": 67,
+        "enunciado": "Considere o arquivo XML abaixo.\nPara que a Document Type Definition (DTD) esteja adequada para que o bloco XML esteja bem formatado e válido, a lacuna I deve ser corretamente preenchida com",
+        "alternativas": [
+            "<!ELEMENT tribunal as root>.",
+            "<!ROOTELEMENT tribunal (nome,local)>.",
+            "<!ELEMENTS (tribunal*,nome,local)>.",
+            "<!ELEMENT tribunal (nome,local)>.",
+            "<!ELEMENT tribunal (nome*,local!)>."
+        ],
+        "gabarito": "<!ELEMENT tribunal (nome,local)>.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "FCC"
+    },
+    {
+        "id": 68,
+        "enunciado": "Quanto ao modelo MVC, ao padrão XML e à UML, julgue o item a seguir.\nUm dos princípios básicos do padrão XML é que um arquivo eletrônico XML não pode conter, simultaneamente, dados e a descrição da estrutura do documento.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "QUADRIX"
+    },
+    {
+        "id": 69,
+        "enunciado": "O XML é suportado por um rico ecossistema que inclui uma variedade de padrões e ferramentas para auxiliar na criação, validação, pesquisa e transformação de documentos XML. Assinale a alternativa que indica o tipo especial de documento XML que descreve os elementos que podem estar presentes em uma classe especificada de documentos XML.",
+        "alternativas": [
+            "DOM (Document Object Model).",
+            "XSLT (Extensible Stylesheet Language Transformations).",
+            "XQuery.",
+            "XML schema.",
+            "XPath."
+        ],
+        "gabarito": "XML schema.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "IDECAN"
+    },
+    {
+        "id": 70,
+        "enunciado": "Indique o tipo especial de documento XML que descreve os elementos que podem estar presentes em uma classe especificada de documentos XML. Pode ser usado para validar se um documento está no formato correto ou para auxiliar programas que desejam interrogar documentos XML que estejam em conformidade com esse formato. Assinale a alternativa correta.",
+        "alternativas": [
+            "XPath.",
+            "XQuery.",
+            "XSLT.",
+            "XML xchema.",
+            "DOM."
+        ],
+        "gabarito": "XML xchema.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "IDECAN"
+    },
+    {
+        "id": 71,
+        "enunciado": "Considere o bloco de código XML Schema abaixo.\n<xs:element name=\"categoria\"> <xs:simpleType> <xs:restriction base=\"xs:string\">\nI </xs:restriction> </xs:simpleType> </xs:element> Para que os únicos valores aceitáveis no elemento categoria sejam hatch ou sedan, a lacuna I deve ser corretamente preenchida com",
+        "alternativas": [
+            "<xs:enumetate value=\"hatch|sedan\"/>.",
+            "<xs:constraint value=\"hatch|sedan\"/>.",
+            "<xs:pattern value=\"hatch|sedan\"/>.",
+            "<xs:valid value=\"hatch|sedan\"/>.",
+            "<xs:accept value=\"hatch|sedan\"/>."
+        ],
+        "gabarito": "<xs:pattern value=\"hatch|sedan\"/>.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "FCC"
+    },
+    {
+        "id": 72,
+        "enunciado": "Uma especificação em XML Schema sempre inicia com a tag <____________> e termina com a tag </____________>.",
+        "alternativas": [
+            "style; end.",
+            "schema; end.",
+            "xml; schema.",
+            "schema; schema.",
+            "html; head."
+        ],
+        "gabarito": "schema; schema.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "SUSTENTE"
+    },
+    {
+        "id": 73,
+        "enunciado": "XML, do inglês Extensible Markup Language, é uma linguagem usada para representar dados como uma string de texto que inclui uma “marcação” intercalada a fim de descrever as propriedades dos dados. Sobre a linguagem XML, assinale a alternativa falsa.",
+        "alternativas": [
+            "Os atributos XML não podem ser utilizados de maneira similar a como são usados em HTML, isto é, para descrever propriedades e características dos elementos. (tags) dentro dos quais eles aparecem.",
+            "A linguagem de esquema XML é um padrão para especificar a estrutura de documentos XML e usa as mesmas regras de sintaxe de documentos XML comuns, de forma que os mesmos processadores podem ser usados para ambos.",
+            "A XML pode ser usada para transferir dados na Web entre aplicativos.",
+            "A XML Query (XQuery) fornece recursos flexíveis de consulta para extrair dados de documentos já existentes e gerados dinamicamente na Web."
+        ],
+        "gabarito": "Os atributos XML não podem ser utilizados de maneira similar a como são usados em HTML, isto é, para descrever propriedades e características dos elementos. (tags) dentro dos quais eles aparecem.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "PRGP UNIFEI"
+    },
+    {
+        "id": 74,
+        "enunciado": "Em relação ao XML, analise as afirmativas a seguir:\nI. O XML é uma linguagem de marcação como o HTML.\nII. O XML é uma linguagem de programação para ser compilada.\nIII. O XML é utilizado para armazenar e transportar dados.\nÉ correto o que se afirma",
+        "alternativas": [
+            "apenas em I e II.",
+            "apenas em II e III.",
+            "apenas em I.",
+            "apenas em I e III."
+        ],
+        "gabarito": "apenas em I e III.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "IDIB"
+    },
+    {
+        "id": 75,
+        "enunciado": "O uso do XML é bastante difundido no Brasil para troca de dados em aplicações, como notas fiscais, procedimentos médicos e várias outras. Assinale a utilidade de um Schema XML em aplicações dessa natureza.",
+        "alternativas": [
+            "Direciona os aplicativos que leem arquivos no formato XML.",
+            "Permite a conversão automática de arquivos XML para o formato CSV.",
+            "Estabelece precisamente a versão do XML em uso num arquivo no formato XML.",
+            "Permite que um Web Service interprete corretamente um arquivo de dados no formato XML.",
+            "Permite a verificação da estrutura e regras de preenchimento de um arquivo contendo dados no formato XML."
+        ],
+        "gabarito": "Permite a verificação da estrutura e regras de preenchimento de um arquivo contendo dados no formato XML.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "FGV"
+    },
+    {
+        "id": 76,
+        "enunciado": "A respeito dos padrões XML, SOAP e WSDL, julgue o item que se segue.\nXML é a tecnologia que torna possível a interoperacionalidade caracterizada na situação em que o usuário informa o seu código de endereçamento postal (CEP) em determinado site e outra plataforma de serviços retorna com o endereço correspondente a esse CEP.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 77,
+        "enunciado": "Acerca de linguagens de marcação utilizadas para formatação de dados, julgue o item a seguir.\nXML é uma linguagem de marcação que armazena e descreve dados, permitindo que eles sejam transferidos entre diferentes aplicativos e(ou) sistemas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 78,
+        "enunciado": "Ao participar de uma equipe para desenvolvimento de um website para a intranet do banco em que trabalhava, um programador teve como missão criar uma tabela HTML a partir de um arquivo XML que indicava clientes e seus saldos.\nO fragmento de XML a seguir é um exemplo da estrutura do XML do arquivo que conterá os dados <?xml version=\"1.0\" encoding=\"UTF-8\"?> <clientes> <cliente> <nome>Ana Zurique</nome> <saldo>3000</saldo> </cliente> <cliente> <nome>Bernardo Washington</nome> <saldo>4500</saldo> </cliente> <cliente> <nome>Carlos York</nome> <saldo>12345</saldo> </cliente> </cliente> Para esse arquivo, a tabela gerada deve ter a seguinte aparência:\nCliente Saldo Ana Zurique 3000 Bernardo 4500 Washington Carlos York 12345 Inicialmente, o programador construiu o seguinte arquivo em XSLT:\n<?xml version=\"1.0\" encoding=\"UTF-8\"?> <xsl:stylesheet version=\"1.0\" xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\"> <xsl:template match=\"/\"> <html> <body> <table border=\"1\"> <tr> <th>Cliente</th> <th>Saldo</th> </tr> <!-- Código Para os Dados --> </table> </body> </html> </xsl:template> </xsl:stylesheet> Que sequência de instruções deve substituir o comentário , de forma a gerar a tabela no formato apresentado?",
+        "alternativas": [
+            "<xsl:for-each select=\"clientes/cliente/\"> <tr> <td><xsl:value-of select=\"nome\"/></td> <td><xsl:value-of select=\"saldo\"/></td> </tr> </xsl:for-each>.",
+            "<xsl:for-each select=\"clientes/cliente\"> <tr> <td><xsl:value-of select=\"clientes/cliente/nome\"/></td> <td><xsl:value-of select=\"clientes/cliente/saldo\"/></td> </tr> </xsl:for-each>.",
+            "<xsl:for-each select=\"clientes/cliente\"> <tr> <td><xsl:value-of select=\"nome\"/></td> <td><xsl:value-of select=\"saldo\"/></td> </tr> </xsl:for-each>.",
+            "<xsl:for-each select=\"clientes/\"> <tr> <td><xsl:value-of select=\"cliente/nome\"/></td> <td><xsl:value-of select=\"cliente/saldo\"/></td> </tr> </xsl:for-each>.",
+            "<xsl:for-each select=\"clientes\"> <tr> <td><xsl:value-of select=\"cliente/nome\"/></td> <td><xsl:value-of select=\"cliente/saldo\"/></td> </tr> </xsl:for-each>."
+        ],
+        "gabarito": "<xsl:for-each select=\"clientes/cliente\"> <tr> <td><xsl:value-of select=\"nome\"/></td> <td><xsl:value-of select=\"saldo\"/></td> </tr> </xsl:for-each>.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "CESGRANRIO"
+    },
+    {
+        "id": 79,
+        "enunciado": "Maria está editando um arquivo XML por meio do bloco de notas do Windows, e deve tomar cuidado com certos caracteres que têm funções especiais.\nAssinale a lista que contém apenas caracteres especiais do XML.",
+        "alternativas": [
+            "< > & #.",
+            "< > & \".",
+            "> & \" /.",
+            "@ \" / \\.",
+            "/ \\ @ \"."
+        ],
+        "gabarito": "< > & \".",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "FGV"
+    },
+    {
+        "id": 80,
+        "enunciado": "Com referência à sintaxe do formato XML, um elemento (XML element) pode conter:",
+        "alternativas": [
+            "atributos, texto e formato;",
+            "atributos, texto e outros elementos XML;",
+            "atributos, texto, outros elementos XML e arrays;",
+            "texto, formato e outros elementos XML;",
+            "texto, outros elementos XML e arrays."
+        ],
+        "gabarito": "atributos, texto e outros elementos XML;",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "FGV"
+    },
+    {
+        "id": 81,
+        "enunciado": "Com referência à sintaxe do formato XML, um elemento (XML element) pode conter:",
+        "alternativas": [
+            "atributos, texto e formato;",
+            "atributos, texto e outros elementos XML;",
+            "atributos, texto, outros elementos XML e arrays;",
+            "texto, formato e outros elementos XML;",
+            "texto, outros elementos XML e arrays."
+        ],
+        "gabarito": "atributos, texto e outros elementos XML;",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "FGV"
+    },
+    {
+        "id": 82,
+        "enunciado": "Em relação a soluções de integração entre sistemas e Interoperabilidade de sistemas, julgue o seguinte item.\n<colaborador> <nome>Ciclano de tal</nome> <matricula>935672</matricula> <funçao>Professor</funcao> <departamento> <e- mail>ciclano.tal@ies.edu.br</e- mail> <ramal>8483</ramal> </departamento> </colaborador> Considerando esse conteúdo presente em um arquivo Colaborador.xml e sendo executado em um navegador, esse arquivo apresentará erro de formatação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "Instituto AOCP"
+    },
+    {
+        "id": 83,
+        "enunciado": "1 <?xml version=\"1.0\" encoding=\"UTF-8\"?> 2 <!-- This is a comment --> 3 <CATALOG> 4 <CD> 5 <TITLE>Pulse</TITLE> 6 <ARTIST>Pink Floyd</ARTIST> 7 </CD> 8 <CD> 9 <TITLE>Black Ice</Title> 10 <ARTIST>ACDC</ARTIST> 11 </CD> 12 <CD> 13 <TITLE>And Justice for All</title> 14 <ARTIST>Metallica</ARTIST> 15 </CD> 16 </CATALOG> No código XML apresentado,",
+        "alternativas": [
+            "a linha 2 está errada; no XML, comentários possuem a sintaxe <// This is a comment>.",
+            "a linha 1 é obrigatória.",
+            "as linhas 9 e 13 estão erradas porque os nomes das tags são case sensitive; a seguir, estão as escritas corretas para essas linhas, respectivamente. <TITLE>Black Ice</TITLE> <TITLE>And Justice for All</TITLE>",
+            "há três elementos-raiz, descritos pela tag <CD>, e cada root tem um filho descrito pelas tags e <TITLE> e <ARTIST>.",
+            "as linhas 3 e 16 poderiam ser eliminadas sem prejuízo, pois são somente agrupadoras."
+        ],
+        "gabarito": "as linhas 9 e 13 estão erradas porque os nomes das tags são case sensitive; a seguir, estão as escritas corretas para essas linhas, respectivamente. <TITLE>Black Ice</TITLE> <TITLE>And Justice for All</TITLE>",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 84,
+        "enunciado": "Analise a estrutura de um script XML, com 14 linhas, exibido a seguir.\nAssinale a opção que indica a linha em que ocorre um erro de sintaxe.",
+        "alternativas": [
+            "1.",
+            "6.",
+            "9.",
+            "11.",
+            "14."
+        ],
+        "gabarito": "9.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "FGV"
+    },
+    {
+        "id": 85,
+        "enunciado": "Considerando-se o XML abaixo, assinalar a alternativa CORRETA:",
+        "alternativas": [
+            "Formato (dentro da marcação “data”) é um elemento.",
+            "“Dia”, “mês” e “ano” são atributos de data.",
+            "A marcação “texto” é o elemento raiz.",
+            "As marcações “para” e “de” não podem ser vazias.",
+            "O XML apresenta um erro de fechamento de marcações."
+        ],
+        "gabarito": "O XML apresenta um erro de fechamento de marcações.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "OBJETIVA CONCURSOS"
+    },
+    {
+        "id": 86,
+        "enunciado": "A seguir, são apresentados dois arquivos, um escrito em XML e outro escrito em XSLT. Nesses arquivos, foram inseridos números seguidos de ponto (.) apenas para indicar as suas linhas.\nA tabela a seguir ilustra o resultado esperado quando se utilizam esses arquivos.\narquivo XML\n1. <?xml version=\"1.0\" encoding=\"UTF-8\"?>\n2. <garagem>\n3. <carro>\n4. <modelo>ModeloA</modelo>\n5. <marca>MarcaA</marca> 6. </carro> 7. <carro> 8. <modelo>ModeloB</modelo> 9. <marca>MarcaB</marca> 10. </carro> 11. </garagem> arquivo XSLT\n1. <?xml version=\"1.0\" encoding=\"UTF-8\"?>\n2. <xsl:stylesheet version=\"1.0\" xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\">\n3. <xsl:template match=\"/\">\n4. <html>\n5. <body> 6. <table border=\"1\"> 7. <tr> 8. <th>Modelo</th> 9. <th>Marca</th> 10. </tr> 11. <xsl:ABCD select=\"garagem/carro\"> 12. <tr> 13. <td><xsl:value-of select=\"modelo\"/></td> 14. <td><xsl:value-of select=\"marca\"/></td> 15. </tr> 16. </xsl:ABCD> 17. </table> 18. </body> 19. </html> 20. </xsl:template> 21. </xsl:stylesheet> resultado esperado modelo marca ModeloAMarcaA ModeloBMarcaB Tendo como referência as informações precedentes, julgue o item seguinte, a respeito de XML e XSLT.\nO arquivo XML continuaria sintaticamente correto mesmo se fossem excluídas as linhas 2 e 11.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 87,
+        "enunciado": "A seguir, são apresentados dois arquivos, um escrito em XML e outro escrito em XSLT. Nesses arquivos, foram inseridos números seguidos de ponto (.) apenas para indicar as suas linhas.\nA tabela a seguir ilustra o resultado esperado quando se utilizam esses arquivos.\narquivo XML\n1. <?xml version=\"1.0\" encoding=\"UTF-8\"?>\n2. <garagem>\n3. <carro>\n4. <modelo>ModeloA</modelo>\n5. <marca>MarcaA</marca> 6. </carro> 7. <carro> 8. <modelo>ModeloB</modelo> 9. <marca>MarcaB</marca> 10. </carro> 11. </garagem> arquivo XSLT\n1. <?xml version=\"1.0\" encoding=\"UTF-8\"?>\n2. <xsl:stylesheet version=\"1.0\" xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\">\n3. <xsl:template match=\"/\">\n4. <html>\n5. <body> 6. <table border=\"1\"> 7. <tr> 8. <th>Modelo</th> 9. <th>Marca</th> 10. </tr> 11. <xsl:ABCD select=\"garagem/carro\"> 12. <tr> 13. <td><xsl:value-of select=\"modelo\"/></td> 14. <td><xsl:value-of select=\"marca\"/></td> 15. </tr> 16. </xsl:ABCD> 17. </table> 18. </body> 19. </html> 20. </xsl:template> 21. </xsl:stylesheet> resultado esperado modelo marca ModeloAMarcaA ModeloBMarcaB Tendo como referência as informações precedentes, julgue o item seguinte, a respeito de XML e XSLT.\nPara que o arquivo XSLT fique sintaticamente correto, os caracteres ABCD devem ser substituídos por get-value nas linhas 11 e 16.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 88,
+        "enunciado": "A seguir, são apresentados dois arquivos, um escrito em XML e outro escrito em XSLT. Nesses arquivos, foram inseridos números seguidos de ponto (.) apenas para indicar as suas linhas.\nA tabela a seguir ilustra o resultado esperado quando se utilizam esses arquivos.\narquivo XML\n1. <?xml version=\"1.0\" encoding=\"UTF-8\"?>\n2. <garagem>\n3. <carro>\n4. <modelo>ModeloA</modelo>\n5. <marca>MarcaA</marca> 6. </carro> 7. <carro> 8. <modelo>ModeloB</modelo> 9. <marca>MarcaB</marca> 10. </carro> 11. </garagem> arquivo XSLT\n1. <?xml version=\"1.0\" encoding=\"UTF-8\"?>\n2. <xsl:stylesheet version=\"1.0\" xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\">\n3. <xsl:template match=\"/\">\n4. <html>\n5. <body> 6. <table border=\"1\"> 7. <tr> 8. <th>Modelo</th> 9. <th>Marca</th> 10. </tr> 11. <xsl:ABCD select=\"garagem/carro\"> 12. <tr> 13. <td><xsl:value-of select=\"modelo\"/></td> 14. <td><xsl:value-of select=\"marca\"/></td> 15. </tr> 16. </xsl:ABCD> 17. </table> 18. </body> 19. </html> 20. </xsl:template> 21. </xsl:stylesheet> resultado esperado modelo marca ModeloAMarcaA ModeloBMarcaB Tendo como referência as informações precedentes, julgue o item seguinte, a respeito de XML e XSLT.\nPara a obtenção do resultado esperado, a linha 3 do arquivo XSLT deve ser substituída pela linha a seguir, pois o atributo match deve conter o elemento garagem do arquivo XML. <xsl:template match=\"garagem\">",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 89,
+        "enunciado": "Em relação às linguagens de manipulação de dados da XML, assinale a opção INCORRETA.",
+        "alternativas": [
+            "A linguagem XQuery é definida para operar em termos de documentos XML convertidos para uma forma \"analisada\".",
+            "Na linguagem XPath, uma barra dupla significa que a navegação deve começar pela raiz (a raiz é o nó de origem).",
+            "A linguagem Xpath é apenas um mecanismo de endereçamento.",
+            "A linguagem XQuery possui suporte explícito para união, interseção e diferença (\"exceto\").",
+            "A linguagem XQuery possui suporte explícito para os quantificadores existencial e universal."
+        ],
+        "gabarito": "Na linguagem XPath, uma barra dupla significa que a navegação deve começar pela raiz (a raiz é o nó de origem).",
+        "assunto": "TI - Desenvolvimento de Sistemas - XML",
+        "banca": "Marinha"
+    }
+]

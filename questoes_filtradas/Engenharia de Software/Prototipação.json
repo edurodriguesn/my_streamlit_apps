@@ -1,0 +1,1100 @@
+[
+    {
+        "id": 1,
+        "enunciado": "A equipe de TI está desenvolvendo um módulo de consulta de histórico de votações, um sistema de alta complexidade em termos de interface e volume de dados. Os usuários finais (assessores parlamentares e jornalistas) têm dificuldade em articular suas necessidades de interface exata, e o ambiente legislativo exige validação rápida, porém o custo de desenvolver uma solução completa do zero é muito alto.\nConsiderando a necessidade de obter feedback rápido sobre a interface em um ambiente de alto custo de desenvolvimento, assinale a opção que apresenta o tipo de prototipação mais adequado e seu principal objetivo estratégico nesse cenário.",
+        "alternativas": [
+            "Prototipação Evolutiva: O objetivo é construir o protótipo como a primeira versão do sistema final, garantindo que o investimento inicial seja mantido e evoluído após a validação do usuário.",
+            "Prototipação Descartável: O objetivo é definir e refinar os requisitos de interface e usabilidade (RNF), sendo o código posteriormente descartado para que a implementação final seja feita sobre uma arquitetura robusta.",
+            "Modelagem de Casos de Uso: Não é uma forma de prototipação, mas é o método mais eficaz para capturar os requisitos de interface e interação sem a necessidade de construir um modelo visual.",
+            "Prototipação de Baixa Fidelidade: O objetivo é construir um modelo interativo completo usando código de produção para validar o desempenho do sistema e a velocidade de carregamento dos dados.",
+            "Prototipação Vertical: Foca na validação da arquitetura e das camadas mais profundas (banco de dados e backend), ignorando a interface e a interação com o usuário, que não são críticas para este projeto."
+        ],
+        "gabarito": "Prototipação Descartável: O objetivo é definir e refinar os requisitos de interface e usabilidade (RNF), sendo o código posteriormente descartado para que a implementação final seja feita sobre uma arquitetura robusta."
+    },
+    {
+        "id": 2,
+        "enunciado": "A respeito de prototipação e de práticas ágeis de desenvolvimento de software, julgue o item a seguir.\nNo contexto de processos de desenvolvimento ágeis, a utilização da prototipação é considerada incompatível com o desenvolvimento incremental, fundamentando-se no fato de que protótipos representam versões necessariamente descartáveis que não agregam valor direto ao incremento do produto final.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 3,
+        "enunciado": "Considerando o modelo de processo de prototipação, julgue o próximo item.\nO envolvimento do cliente, o uso do protótipo em produção parcial, o rápido planejamento e o fácil gerenciamento são vantagens da prototipação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 4,
+        "enunciado": "Considerando o modelo de processo de prototipação, julgue o próximo item.\nApós a definição dos objetivos gerais, o protótipo, nessa modelagem, atua como um mecanismo para identificar os requisitos do software.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 5,
+        "enunciado": "A respeito de metodologias e técnicas prescritas pela engenharia de software para o desenvolvimento e para a gestão de produtos, julgue o item que se segue.\nNo processo de desenvolvimento utilizando um produto mínimo viável (MVP), entre as etapas do ciclo build, measure e learn (construir, medir e aprender), a etapa build\n(construir) é a mais aderente ao objetivo central do MVP.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 6,
+        "enunciado": "Um desenvolvedor escolheu desenhar em papel as telas de um sistema que estava sendo especificado para investigar, junto ao usuário final, o detalhamento dos elementos lógicos que seriam necessários em cada passo de um caso de uso desse sistema.\nEsse protótipo pode ser classificado como",
+        "alternativas": [
+            "horizontal, evolutivo e de alta fidelidade.",
+            "horizontal, evolutivo e de baixa fidelidade.",
+            "vertical, descartável e de alta fidelidade.",
+            "vertical, descartável e de baixa fidelidade.",
+            "vertical, evolutivo e de baixa fidelidade."
+        ],
+        "gabarito": "vertical, descartável e de baixa fidelidade."
+    },
+    {
+        "id": 7,
+        "enunciado": "No contexto do desenvolvimento de software, a prototipação é uma abordagem valiosa para entender e validar os requisitos com os stakeholders. Dentre as estratégias de prototipação, destaca-se uma que envolve a criação de protótipos com o objetivo de explorar e aprimorar a usabilidade do sistema, permitindo a identificação precoce de problemas de interação. Assinale dentre as alternativas a seguir aquela que representa a técnica de prototipação que está sendo destacada no enunciado.",
+        "alternativas": [
+            "Prototipagem Evolutiva.",
+            "Prototipagem Rápida.",
+            "Prototipagem Descartável.",
+            "Prototipagem Incremental."
+        ],
+        "gabarito": "Prototipagem Rápida."
+    },
+    {
+        "id": 8,
+        "enunciado": "Analise a seguinte figura que descreve o paradigma de prototipação para obtenção dos requisitos de software, bem como as afirmações seguintes.\nFonte: https://edisciplinas.usp.br/\nI. Na OBTENÇÃO DOS REQUISITOS, o desenvolvedor e cliente definem os objetivos gerais do software, identificam quais requisitos são conhecidos e as áreas que necessitam de definições adicionais.\nII. Na ELABORAÇÃO DE PROJETO RÁPIDO realiza-se a representação dos aspectos do software que são visíveis ao usuário (abordagens de entrada e formatos de saída).\nIII. Na CONSTRUÇÃO do PROTÓTIPO é realizada a definição da estrutura do protótipo e definidas questões de análise de confiabilidade e acessibilidade.\nIV. Na AVALIAÇÃO DO PROTÓTIPO apenas o cliente avalia o protótipo.\nEstá(ão) correta(s) a(s) afirmativa(s):",
+        "alternativas": [
+            "I, apenas.",
+            "II. apenas.",
+            "III, apenas.",
+            "I e II, apenas.",
+            "III e IV, apenas."
+        ],
+        "gabarito": "I e II, apenas."
+    },
+    {
+        "id": 9,
+        "enunciado": "A prototipação melhora a comunicação entre desenvolvedores e stakeholders, pois permite que os usuários visualizem e interajam com um modelo funcional do sistema. Isso leva a uma melhor compreensão dos requisitos e reduz o risco de mal-entendidos. Na construção dos protótipos o profissional de TI, enfrenta diversas dificuldades. Marque a alternativa que representa corretamente uma dificuldade para implantar a prototipação.",
+        "alternativas": [
+            "Dificuldade em desenvolver protótipos que sejam representativos o suficiente do sistema final.",
+            "Aumento dos custos de desenvolvimento devido à necessidade de criar múltiplos protótipos.",
+            "Falta de suporte da equipe de TI, durante o processo de prototipação.",
+            "Limitações nas linguagens de programação para capturar requisitos não funcionais por meio de protótipos."
+        ],
+        "gabarito": "Dificuldade em desenvolver protótipos que sejam representativos o suficiente do sistema final."
+    },
+    {
+        "id": 10,
+        "enunciado": "A engenharia de software tem empregado prototipação para gerar modelos representativos simulados para validação dos requisitos dos usuários.\nCom relação à prototipação, analise os itens a seguir.\nI. É o processo de criação de um protótipo, que dependendo das necessidades do projeto, podem empregar, entre outros: protótipos de papel, wireframes, mockups ou protótipos interativos.\nII. No processo de engenharia de requisitos, as fases de elicitação e validação dos requisitos do sistema podem ser auxiliadas por um protótipo.\nIII. Um protótipo desenvolvido no processo de projeto do sistema pode auxiliar na exploração de soluções de software e no desenvolvimento de uma interface com o usuário para o sistema.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, II e III.",
+            "I e II, apenas.",
+            "I e III, apenas.",
+            "II e III, apenas."
+        ],
+        "gabarito": "I, II e III."
+    },
+    {
+        "id": 11,
+        "enunciado": "Um protótipo é uma manifestação de um design que permite que as partes interessadas interajam com ele e explorem sua adequação. É limitado porque um protótipo geralmente enfatiza um conjunto específico de características do produto ou serviço. Um protótipo pode ser de baixa, meia ou de alta fidelidade.\n(Sharp, H.; Rogers, Y.; Preece, J.; Interaction Design: beyond humancomputer interaction. John Wiley & Sons, Inc., 5 ed, 2019. P. 421.) Em relação à prototipação, assinale a afirmativa INCORRETA.",
+        "alternativas": [
+            "Index cards: são uma maneira simples e bem-sucedida de prototipar uma interação; são usados para desenvolver uma variedade de produtos interativos, incluindo sites e aplicativos para smartphones.",
+            "Storyboard: é um exemplo de prototipagem de baixa fidelidade, que consiste em uma série de esboços que mostram como um usuário pode progredir em uma tarefa usando o produto em desenvolvimento. Eles podem ser uma série de esboços de tela ou uma série de cenas, mostrando como um usuário poderá executar uma tarefa usando um dispositivo interativo.",
+            "Card-based prototypes: são comumente usados para capturar e explorar elementos de uma interação, como trocas de diálogo entre o usuário e o produto. O valor desse tipo de protótipo reside no fato de que os elementos de interação podem ser manipulados e movidos para simular a interação com um usuário ou para explorar a experiência de ponta a ponta do usuário.",
+            "Mockups: são desenhos de interface utilizados para identificar os elementos que serão exibidos na página ou na tela. Conhecido como fase de retângulo, uma vez que os esboços subdividem cada exibição em rígidas áreas retangulares correspondentes a painéis e componentes de controle (como barras de ferramentas). São geralmente pretos e brancos ou escala de cinza e não usam seleções de designs como escolha de fontes."
+        ],
+        "gabarito": "Mockups: são desenhos de interface utilizados para identificar os elementos que serão exibidos na página ou na tela. Conhecido como fase de retângulo, uma vez que os esboços subdividem cada exibição em rígidas áreas retangulares correspondentes a painéis e componentes de controle (como barras de ferramentas). São geralmente pretos e brancos ou escala de cinza e não usam seleções de designs como escolha de fontes."
+    },
+    {
+        "id": 12,
+        "enunciado": "Construir um protótipo é uma das formas mais rápidas, e com menor custo, para validar uma ideia, um conceito ou uma funcionalidade de um produto digital. Assim, é possível interagir, avaliar, alterar e aprovar as principais características de uma interface antes do desenvolvimento. Nesse sentido, analise as assertivas abaixo em relação à prototipagem de produtos digitais.\nI. No caso da criação de produtos ou serviços digitais, as ferramentas de wireframe e as ferramentas UX são altamente recomendadas por permitirem avançar com o desenho e a usabilidade do protótipo.\nII. Se antes havia muitas restrições sobre como fazer um protótipo, hoje a trajetória de inovação está mais acessível para qualquer empreendedor que esteja disposto a lançar um produto exclusivo.\nIII. Plataformas de desenvolvimento low-code e softwares design de apps podem ser usados para desenhar protótipos mais simples, sem necessidade de programação mais complexa.\nIV. O protótipo pode ser parcial (normalmente utilizado para vender uma ideia, ou fazer prova de conceito), ou com um fluxo completo (utilizado para testes com usuários ou testes de lógica), e não necessariamente precisa ter um refinamento visual inicialmente.\nQuais estão corretas?",
+        "alternativas": [
+            "Apenas I e III.",
+            "Apenas I e IV.",
+            "Apenas II e IV.",
+            "Apenas II, III e IV.",
+            "I, II, III e IV."
+        ],
+        "gabarito": "I, II, III e IV."
+    },
+    {
+        "id": 13,
+        "enunciado": "O protótipo pode ser considerado",
+        "alternativas": [
+            "uma representação da funcionalidade.",
+            "um desenho básico da interface.",
+            "o conceito criativo do produto.",
+            "a disposição das informações na tela.",
+            "uma interface navegável."
+        ],
+        "gabarito": "uma interface navegável."
+    },
+    {
+        "id": 14,
+        "enunciado": "Acerca de engenharia de requisitos, prototipação e engenharia de usabilidade, julgue o item subsequente.\nUm protótipo pode demonstrar conceitos, validar opções de projeto e, ainda, ajudar na elicitação e validação de requisitos de um sistema.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 15,
+        "enunciado": "Uma equipe de uma empresa de jogos composta por seis membros precisava decidir qual seria o novo diferencial a ser incluído no jogo mais rentável da empresa. A fim de pensar em novas ideias, um dos membros da equipe propôs usarem uma técnica de criatividade dividida em rodadas (p.ex. cinco minutos por rodada). Na primeira rodada, cada membro da equipe deve escrever em um papel, que cada um deles deve ter recebido, novas ideias para o jogo. Ao terminar o tempo da primeira rodada, cada um deve passar para seu colega localizado ao lado o papel em que escreveu. Com a troca realizada, cada membro da equipe estará com outro papel, que já possui algumas ideias escritas. Na nova rodada, eles poderão lê-las e escrever novas ideias. Ao final da segunda rodada, repete-se a mesma abordagem de trocar o papel e iniciar uma nova rodada para a escrita de novas ideias, até que o dono do papel da primeira rodada volte a tê-lo. Por fim, os papéis são recolhidos e as ideias são apresentadas ao grupo, que irá classificá-las em boas ou impraticáveis.\nQual a técnica de criatividade descrita?",
+        "alternativas": [
+            "Brainstorm.",
+            "Brainwriting.",
+            "Lotus Blossom.",
+            "Mapa mental.",
+            "5 Porquês."
+        ],
+        "gabarito": "Brainwriting."
+    },
+    {
+        "id": 16,
+        "enunciado": "A respeito de requisitos e experiência do usuário, julgue o item subsecutivo.\nUma das limitações da prototipação relacionada ao design da solução ocorre quando as partes interessadas se concentram mais nas especificações do design do que nos requisitos e os desenvolvedores acreditam que é necessário fornecer ao usuário uma interface fielmente precisa ao protótipo, mesmo que existam tecnologias e abordagens de interface mais interessantes.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 17,
+        "enunciado": "A respeito de requisitos e experiência do usuário, julgue o item subsecutivo.\nDo ponto de vista de design e de usabilidade, o produto mínimo viável dispensa padrões de qualidade comercial, sendo suficiente que a funcionalidade parcial proposta tenha um nível básico de confiabilidade.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 18,
+        "enunciado": "Um Time de Desenvolvimento de Sistemas de Software (TDSS) decidiu adotar um modelo de processo de software prescritivo como padrão para novos desenvolvimentos de sistemas. O modelo de processo adotado visa à redução do impacto de mudanças em requisitos, no qual a qualidade da documentação não é uma prioridade.\nO TDSS adotou o modelo de processo:",
+        "alternativas": [
+            "espiral;",
+            "cascata;",
+            "unificado;",
+            "evolutivo;",
+            "prototipagem."
+        ],
+        "gabarito": "prototipagem."
+    },
+    {
+        "id": 19,
+        "enunciado": "As versões incompletas de programas de softwares que estão sendo desenvolvidas utilizadas para testes iniciais são conhecidas como:",
+        "alternativas": [
+            "robot.",
+            "protótipos.",
+            "subset.",
+            "preview.",
+            "cópia."
+        ],
+        "gabarito": "protótipos."
+    },
+    {
+        "id": 20,
+        "enunciado": "Acerca dos conceitos de engenharia de softwares, métodos ágeis, teste de software e estimativas, julgue o item subsequente.\nMVP (mínimo produto viável) é um protótipo do sistema que é simples o suficiente para testar as características técnicas de um produto bem como é o conceito de uma solução utilizável e valiosa para o negócio.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 21,
+        "enunciado": "Julgue o item que se segue a respeito da prototipação relacionada ao desenvolvimento de software.\nEntre as atividades de prototipação de software, está o desenvolvimento rápido de software para validar requisitos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 22,
+        "enunciado": "Julgue o item que se segue a respeito da prototipação relacionada ao desenvolvimento de software.\nA prototipação pode ser considerada como uma atividade que reduz riscos de desenvolvimento relacionados aosrequisitos de um software.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 23,
+        "enunciado": "Acerca da engenharia de requisitos no desenvolvimento de software, julgue o item a seguir.\nProtótipos descartáveis são os que não são utilizados posteriormente; protótipos evolutivos são aqueles que podem ser utilizados como base de parte ou de todo o software a ser desenvolvido.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 24,
+        "enunciado": "“Um protótipo de projeto de interface é uma composição ou simulação de uma tela, um formulário ou relatório de computador. Um protótipo é preparado para cada interface do sistema, a fim de mostrar aos usuários e aos programadores como o sistema se comportará.” São conhecidas três abordagens mais comuns para a prototipação de interface, EXCETO:",
+        "alternativas": [
+            "Esboço sequencial.",
+            "Protótipo em HTML.",
+            "Simbolismo da Interface.",
+            "Protótipo em Linguagem."
+        ],
+        "gabarito": "Simbolismo da Interface."
+    },
+    {
+        "id": 25,
+        "enunciado": "A equipe de desenvolvimento de um aplicativo já fechou o escopo do projeto e o levantamento dos requisitos. Agora irá validar os requisitos com o cliente e demonstrar conceitos, experimentar opções de projeto, conhecer mais sobre o problema e suas possíveis soluções, e talvez descobrir erros e omissões nos requisitos propostos. A equipe está discutindo com o gerente qual a técnica de validação mais adequada a ser utilizada.\nA técnica recomendada para esse caso é a seguinte:",
+        "alternativas": [
+            "Casos de Uso, pois fará o detalhamento dos requisitos reduzindo os riscos.",
+            "Prototipação das principais funcionalidades ou as mais críticas para checar com o usuário.",
+            "Cenário, pois vai dar uma descrição total do comportamento da aplicação.",
+            "Join Application Development (JAD), sem a dinâmica de grupo, pois vai analisar os pontos de vista dos usuários sobre o sistema.",
+            "Regras de negócio, pois podem restringir os requisitos funcionais existentes."
+        ],
+        "gabarito": "Prototipação das principais funcionalidades ou as mais críticas para checar com o usuário."
+    },
+    {
+        "id": 26,
+        "enunciado": "Um paradigma de engenharia de software é escolhido tendo como base a natureza do projeto e da aplicação, os métodos e as ferramentas a serem usados, os controles e os produtos que precisam ser entregues. Sobre o ciclo de vida e desenvolvimento de um software produto, é correto afirmar que",
+        "alternativas": [
+            "a prototipação é um processo que capacita o desenvolvedor a criar um modelo do software que será implementado. Uma de suas formas é um protótipo em papelou modelo baseado em PC que retrata a interação homem-máquina de uma forma que capacita o usuário a entender quanta interação ocorrerá.",
+            "na etapa de codificação, do ciclo de vida clássico, o código é executado para entrega do software ao cliente em que o software sofrerá as etapas de manutenção e mudanças no sistema.",
+            "as cinco importantes atividades do modelo espiral são: Planejamento; Execução; Análise dos riscos; Engenharia; Avaliação feita pelo cliente.",
+            "a prototipação é um processo que capacita o desenvolvedor a criar um modelo do software que será implementado. Uma de suas formas é um código em papel ou análise baseada em PC que retrata a interação homem-máquina de uma forma que capacita o usuário a entender quanta interação ocorrerá.",
+            "as cinco importantes atividades do modelo cascata são: Planejamento; Execução; Análise dos riscos; Engenharia; Avaliação feita pelo cliente."
+        ],
+        "gabarito": "a prototipação é um processo que capacita o desenvolvedor a criar um modelo do software que será implementado. Uma de suas formas é um protótipo em papelou modelo baseado em PC que retrata a interação homem-máquina de uma forma que capacita o usuário a entender quanta interação ocorrerá."
+    },
+    {
+        "id": 27,
+        "enunciado": "Considere as seguintes afirmações sobre prototipação.\nI - A prototipação é comumente utilizada como uma técnica que auxilia os interessados, quando os requisitos estão obscuros, a compreender melhor o que está para ser construído, embora possa também ser utilizada como um modelo de processo isolado.\nII - Um protótipo é uma versão inicial de um sistema de software, usado para demonstrar conceitos, experimentar opções de projeto e descobrir mais sobre o problema e suas possíveis soluções.\nIII - Protótipos devem ser executáveis para serem úteis. Deve-se evitar o desenvolvimento de maquetes em papel de interface de usuário, embora sejam baratas e possam ser construídas em poucos dias.\nQuais estão corretas?",
+        "alternativas": [
+            "Apenas I.",
+            "Apenas I e II.",
+            "Apenas I e III.",
+            "Apenas II e III.",
+            "I, II e III."
+        ],
+        "gabarito": "Apenas I e II."
+    },
+    {
+        "id": 28,
+        "enunciado": "Julgue o seguinte item, a respeito da identificação e delimitação de processos de negócios.\nPrototipação é caracterizada como uma forma rápida e direta de identificar os requisitos com o gestor, mesmo que ele já saiba como será o resultado final do produto e conheça a plataforma de desenvolvimento desse produto.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 29,
+        "enunciado": "A respeito de engenharia de requisitos, julgue o item a seguir.\nO protótipo operacional serve para aprimorar o entendimento de como o sistema deve funcionar, por meio da elucidação dos requisitos do usuário e da compreensão de suas necessidades.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 30,
+        "enunciado": "Sobre a prototipação de sistemas, assinale a alternativa CORRETA:",
+        "alternativas": [
+            "É usada para identificar os requisitos e pode ser a melhor escolha quando o cliente definiu apenas objetivos gerais para o software, sem requisitos detalhados de entrada, processamento ou saída, ou o desenvolvedor pode não ter certeza daquilo que precisa ser desenvolvido.",
+            "Finaliza com a coleta dos requisitos, em que o desenvolvedor e o cliente definem os objetivos gerais do software. Um projeto é elaborado e a partir dele é construído um protótipo para avaliação, proporcionando ao cliente e ao desenvolvedor a compreensão daquilo que precisa ser feito.",
+            "Tem como vantagem a facilidade para se determinar os requisitos iniciais e a garantia de atingir as necessidades do cliente, enquanto que as desvantagens são a implementação demorada do protótipo comprometido, a determinação do fim do desenvolvimento e a tendência em utilizar o protótipo como produto inicial.",
+            "É um ciclo de vida eficiente quando as regras entre cliente e desenvolvedor são definidas no meio do processo e há concordância em que o protótipo, por ser um protótipo, deve ser utilizado."
+        ],
+        "gabarito": "É usada para identificar os requisitos e pode ser a melhor escolha quando o cliente definiu apenas objetivos gerais para o software, sem requisitos detalhados de entrada, processamento ou saída, ou o desenvolvedor pode não ter certeza daquilo que precisa ser desenvolvido."
+    },
+    {
+        "id": 31,
+        "enunciado": "“Tem por objetivo explorar aspectos críticos dos requisitos de um produto, implementando de forma rápida um pequeno subconjunto de funcionalidades desse produto.” Essa definição é de uma das técnicas de levantamento de requisitos. Assinale-a.",
+        "alternativas": [
+            "Workshops.",
+            "Prototipagem.",
+            "Estudo e Etnográfico.",
+            "Levantamento orientado a pontos de vista."
+        ],
+        "gabarito": "Prototipagem."
+    },
+    {
+        "id": 32,
+        "enunciado": "Analise as afirmativas a seguir, relacionadas ao paradigma da prototipação em engenharia de software.\nI. Na etapa inicial, faz-se uma reunião com os envolvidos para definir os objetivos gerais do software;\nII. O projeto rápido leva à construção de um diagrama com as necessidades do cliente;\nIII. O protótipo na grande maioria das vezes é projetado sem a preocupação com a qualidade e com o funcionamento a longo prazo;\nIV. Assim como no ciclo de vida clássico, a prototipação objetiva a funcionalidade do produto e não a qualidade.\nEstá CORRETA a opção:",
+        "alternativas": [
+            "Somente I está correta.",
+            "Somente I e III estão corretas.",
+            "Somente II e IV estão corretas.",
+            "Somente III e IV estão corretas.",
+            "Somente I, III e IV estão corretas."
+        ],
+        "gabarito": "Somente I e III estão corretas."
+    },
+    {
+        "id": 33,
+        "enunciado": "Julgue o próximo item acerca de análise de requisitos de usabilidade, teste de usabilidade e de interfaces web.\nÉ desnecessária a elaboração de protótipos para desenvolvimento de interface web.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 34,
+        "enunciado": "O analista Joaquim foi designado para realizar o levantamento de requisitos de um novo sistema de controle da produção de peças de automóveis que irá substituir o sistema legado ainda em utilização, desenvolvido em C.\nJoaquim, após realizar algumas entrevistas, percebe que os usuários estão muito preocupados com a interface do novo sistema, visto que diversos problemas na linha de produção ocorriam devido às dificuldades dos usuários com a interface do sistema legado.\nNesse caso, a técnica de levantamento de requisitos mais adequada, para garantir que o novo sistema não incorra nos mesmos erros de interface do sistema legado, é",
+        "alternativas": [
+            "o JAD.",
+            "o questionário.",
+            "a brainstorming.",
+            "a prototipação.",
+            "o grupo de foco."
+        ],
+        "gabarito": "a prototipação."
+    },
+    {
+        "id": 35,
+        "enunciado": "Com relação ao modelo de Prototipação, um dos modelos utilizados em processos de desenvolvimento evolucionários, é INCORRETO afirmar que",
+        "alternativas": [
+            "embora possa ser utilizada como um modelo de processo, a prototipação é também uma técnica que pode ser usada no contexto de quaisquer dos processos evolucionários comumente utilizados.",
+            "o paradigma da Prototipação é realizado em ciclos que envolvem as atividades de comunicação, nas quais são feitas reuniões para definições de objetivos e de requisitos; modelagem na forma de um projeto rápido; construção de um protótipo; e sua utilização e avaliação que servirá como realimentação para aprimorar os requisitos.",
+            "na maioria dos projetos, o primeiro sistema dificilmente é utilizável, podendo estar muito lento, muito grande, ou com problemas de utilização e, então, não há alternativa, a não ser, desenvolver uma versão redesenhada com os problemas resolvidos.",
+            "não é necessário definir logo de início se um protótipo vai ser usado somente para validação de requisitos, e, portanto, descartado, ou se vai evoluir para uma solução de desenho. Essa decisão pode ser tomada mais adiante, com mais elementos, dependendo da qualidade do protótipo como produto final."
+        ],
+        "gabarito": "não é necessário definir logo de início se um protótipo vai ser usado somente para validação de requisitos, e, portanto, descartado, ou se vai evoluir para uma solução de desenho. Essa decisão pode ser tomada mais adiante, com mais elementos, dependendo da qualidade do protótipo como produto final."
+    },
+    {
+        "id": 36,
+        "enunciado": "A prototipação é um processo que tem como objetivo facilitar o entendimento dos requisitos, apresentar conceitos e funcionalidades do software. Qual categoria de prototipação pode ser considerada completa e representativa, por possuir, além da parte visual, uma série de detalhes de estética e efeitos de interação, proporcionando uma experiência rica e realista?",
+        "alternativas": [
+            "Protótipos Interativos.",
+            "Protótipos Visuais.",
+            "Wireframes.",
+            "Rascunhos.",
+            "Protótipos Requisitantes."
+        ],
+        "gabarito": "Protótipos Interativos."
+    },
+    {
+        "id": 37,
+        "enunciado": "A Prototipação é um paradigma da Engenharia de Software que faz uso de protótipos durante o processo de desenvolvimento de software. Não representa uma afirmação verdadeira acerca da Prototipação:",
+        "alternativas": [
+            "Requisitos podem ser derivados dos protótipos.",
+            "Os protótipos podem apontar funcionalidades que não foram contempladas.",
+            "O cliente é apresentado ao produto nos estágios iniciais do desenvolvimento.",
+            "A arquitetura de um protótipo descartável favorece a evolução do protótipo para o produto final."
+        ],
+        "gabarito": "A arquitetura de um protótipo descartável favorece a evolução do protótipo para o produto final."
+    },
+    {
+        "id": 38,
+        "enunciado": "Sobre a prototipação, considere:\nI. Auxilia o engenheiro de software e o cliente a entenderem melhor o que deve ser construído quando os requisitos estão confusos.\nII. Tem como vantagem a construção rápida de um protótipo que, não podendo ser descartado, passa a ser o núcleo do sistema que será construído.\nIII. Pode ser usada como um modelo de processo independente.\nIV. Apresenta ao cliente uma versão executável do software, sempre utilizando os algoritmos mais eficientes para demonstrar a capacidade do sistema a ser criado.\nV. É indicada para estudar as alternativas de interface do usuário e a viabilidade de atendimento dos requisitos de desempenho, dentre outras possibilidades.\nEstá correto o que consta APENAS em",
+        "alternativas": [
+            "II, III e IV.",
+            "I, III e V.",
+            "III, IV e V.",
+            "I e V.",
+            "I, II e IV."
+        ],
+        "gabarito": "I, III e V."
+    },
+    {
+        "id": 39,
+        "enunciado": "Deve-se propor um modelo e processo(s) de software adequado(s) para o desenvolvimento de sistemas com as seguintes características:\nI. Os requisitos do negócio e do produto mudam frequentemente à medida que o desenvolvimento prossegue. Prazos reduzidos impossibilitam criar uma versão completa e abrangente do software, mas é desejável a produção de uma versão reduzida para fazer face às pressões do negócio. Há um conjunto básico de requisitos bem determinado, mas os detalhes e extensões do produto precisam ser definidos.\nII. Os requisitos iniciais estão bem definidos, mas o escopo global do esforço de desenvolvimento não é linear. Há necessidade de se fornecer rapidamente um conjunto limitado de funcionalidades do software aos usuários e depois refinar e expandir aquelas funcionalidades em versões subsequentes do sistema.\nOs modelos corretos propostos em I e II, são, respectivamente,",
+        "alternativas": [
+            "Espiral, que inclui o processo Baseado em Componentes e o Ágil, que inclui o Processo Unificado.",
+            "Evolucionário, que inclui os processos Espiral e Concorrente e o Incremental, que inclui o processo RAD.",
+            "Prototipagem, que inclui o Processo Unificado e o Incremental, que inclui o processo Concorrente.",
+            "Incremental, que inclui o processo RAD e o Sequencial, que inclui o processo em Cascata.",
+            "Baseado em Componentes, que inclui a Prototipagem e o Evolucionário, que inclui o Processo Unificado."
+        ],
+        "gabarito": "Evolucionário, que inclui os processos Espiral e Concorrente e o Incremental, que inclui o processo RAD."
+    },
+    {
+        "id": 40,
+        "enunciado": "No que se refere a engenharia de software, aos modelos de ciclo de vida e aos requisitos funcionais e não funcionais, julgue o item a seguir.\nA prototipagem, técnica que serve de complemento à análise de requisitos, é a construção de protótipos considerados um esboço de parte do sistema.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 41,
+        "enunciado": "Para responder a esta questão, sobre prototipação em engenharia de software, leia cuidadosamente as afirmações a seguir.\nI. Prototipação é uma versão inicial de um sistema para experimentação. Permite aos utilizadores identificar os pontos fortes e fracos do sistema por ser algo concreto que pode ser criticado.\nII. Os Protótipos Descartáveis ajudam o levantamento e desenvolvimento dos requisitos e suportam os requisitos mais difíceis de perceber.\nIII. Os Protótipos Evolutivos ajudam o desenvolvimento rápido de uma versão inicial do sistema e suportam os requisitos bem definidos e conhecidos.\nEstá correto o que se afirma em:",
+        "alternativas": [
+            "I e II, somente.",
+            "II e III, somente.",
+            "I e III, somente.",
+            "todas.",
+            "nenhuma."
+        ],
+        "gabarito": "todas."
+    },
+    {
+        "id": 42,
+        "enunciado": "Assinale a alternativa que não exibe um benefício esperado ao usar protótipos descartáveis.",
+        "alternativas": [
+            "Redução dos riscos na Construção.",
+            "Aumento da manutenibilidade.",
+            "Aumento da estabilidade dos requisitos.",
+            "Oportunidade para treinamento dos programadores menos experientes, trabalhando como codificadores.",
+            "O prazo de construção e uso dos protótipos descartáveis é extremamente flexível, podendo ser curto, médio ou longo."
+        ],
+        "gabarito": "O prazo de construção e uso dos protótipos descartáveis é extremamente flexível, podendo ser curto, médio ou longo."
+    },
+    {
+        "id": 43,
+        "enunciado": "Julgue o item seguinte, a respeito de prototipação, processo que permite ao desenvolvedor criar um modelo do software que será implementado.\nPor acrescentar mais uma etapa no desenvolvimento, a prototipação aumenta, ou na melhor das hipóteses não altera, o custo total do software.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 44,
+        "enunciado": "Julgue o item seguinte, a respeito de prototipação, processo que permite ao desenvolvedor criar um modelo do software que será implementado.\nO protótipo funciona como uma maquete, devendo ser descartado para dar lugar ao sistema propriamente dito, que será desenvolvido utilizando ferramentas específicas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 45,
+        "enunciado": "Julgue o item seguinte, a respeito de prototipação, processo que permite ao desenvolvedor criar um modelo do software que será implementado.\nAs fases da prototipação, com a indicação do início e fim de todo processo, estão corretamente representadas na figura seguinte.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 46,
+        "enunciado": "Julgue o item seguinte, a respeito de prototipação, processo que permite ao desenvolvedor criar um modelo do software que será implementado.\nUm dos objetivos da prototipação é fornecer, de forma rápida, um sistema completo, ou apenas com parte de suas funcionalidades, para atender à expectativa de prazo do usuário.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 47,
+        "enunciado": "Julgue o item subsecutivo, acerca de análise de requisitos.\nA prototipação deve ser realizada na fase final de um projeto, no momento em que o programa passou da fase de testes finais e já se encontra devidamente em produção.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 48,
+        "enunciado": "Considerando os modelos de processo de software e as características apresentadas baixo, numere a 2ª coluna de acordo com a 1ª.\nModelo de Processo\n1. Cascata\n2. Prototipação\n3. Entrega incremental\n4. Espiral Característica do Modelo\n( ) É um modelo de processo de software dirigido a análise de riscos\n( ) O estágio seguinte não deve ser iniciado até que a fase anterior seja concluída.\n( ) Pode ser usado para ajudar a antecipar as mudanças que podem ser requisitadas.\n( ) O software como um todo é dividido em partes. Cada parte é desenvolvida e implantada para uso em um ambiente operacional.\n( ) Os requisitos mais críticos podem ser atendidos mais cedo, de maneira que o cliente obtenha ganhos mais rapidamente.\n( ) Uma versão do sistema, ou parte dele, é desenvolvida rapidamente, a qual é usada para demonstrar conceitos e descobrir mais sobre o problema.\nA sequência correta é",
+        "alternativas": [
+            "1, 3, 4, 4, 2, 3.",
+            "2, 4, 3, 1, 4, 4.",
+            "3, 2, 1, 3, 3, 4.",
+            "4, 1, 2, 3, 3, 2.",
+            "4, 1, 3, 2, 1, 4."
+        ],
+        "gabarito": "4, 1, 2, 3, 3, 2."
+    },
+    {
+        "id": 49,
+        "enunciado": "Acerca de engenharia de software, julgue o item a seguir.\nA prototipação pode ser utilizada para a verificabilidade de requisitos a partir da construção de um modelo do sistema a ser desenvolvido, bem como pode ser utilizada de forma combinada com a etnografia para compreender e obter requisitos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 50,
+        "enunciado": "O desenvolvimento evolucionário baseia-se na ideia de desenvolvimento de uma implementação inicial, expondo o resultado aos comentários do usuário e refinando- o em novas versões até que seja desenvolvido um sistema adequado. As atividades de especificação, desenvolvimento e validação são intercaladas ao invés de separadas, com rápido feedback entre elas. Sommerville define dois tipos fundamentais de desenvolvimento evolucionário. Considere:\nI. Descrever todos os requisitos não funcionais antes de fazer o protótipo. Descrever os requisitos funcionais e técnicos. Implementar todos requisitos e desenvolver novo protótipo.\nII. Trabalhar com o cliente para explorar os requisitos e entregar um sistema final. O desenvolvimento começa com as partes do sistema compreendidas. O sistema evolui por meio da adição de novas características propostas pelo cliente.\nIII. Incorporar e implementar todas as mudanças do software no primeiro estágio do desenvolvimento, definindo todos os requisitos técnicos. Formar um protótipo a partir daí. O sistema evolui por meio da adição de novas características propostas pelo cliente.\nIV. Compreender os requisitos do cliente e, a partir disso, desenvolver melhor definição de requisitos para o sistema. O protótipo se concentra na experimentação dos requisitos mal compreendidos do cliente.\nDe acordo com Sommerville",
+        "alternativas": [
+            "I é Prototipação throwaway; III é Prototipação incremental.",
+            "I é Prototipação incremental; IV é Desenvolvimento exploratório.",
+            "II é Desenvolvimento exploratório; IV é Prototipação throwaway.",
+            "III é Desenvolvimento exploratório; IV é Prototipação revisional.",
+            "II é Prototipação exploratória; III é Prototipação throwaway."
+        ],
+        "gabarito": "II é Desenvolvimento exploratório; IV é Prototipação throwaway."
+    },
+    {
+        "id": 51,
+        "enunciado": "Em alguns casos durante o desenvolvimento de um software o cliente consegue descrever os objetivos gerais do produto final, mas não consegue dar detalhes mais úteis para a modelagem. Em outros casos, o desenvolvedor pode ficar inseguro com o funcionamento de um algoritmo que deseja utilizar na implementação.\nEm situações como essas, a técnica da prototipação pode ser uma boa solução, mas deve‐se considerar que ela possui a seguinte desvantagem:",
+        "alternativas": [
+            "não pode ser utilizada como um mecanismo de levantamento de requisitos.",
+            "os interessados no produto podem não considerar a qualidade global do protótipo e impor ajustes para que, em curto prazo, o protótipo se torne um produto operacional, gerando um produto ruim.",
+            "a sua utilização não é recomendada no modelo de processo evolucionário.",
+            "ao utilizá‐la, a etapa da modelagem torna‐se bem mais lenta.",
+            "o protótipo não pode ser descartado ao longo do desenvolvimento do software operacional, em virtude do investimento realizado nele."
+        ],
+        "gabarito": "os interessados no produto podem não considerar a qualidade global do protótipo e impor ajustes para que, em curto prazo, o protótipo se torne um produto operacional, gerando um produto ruim."
+    },
+    {
+        "id": 52,
+        "enunciado": "Identifique o modelo de ciclo de vida em engenharia de software que tem como característica típica as seguintes vantagens:\n- Os usuários conseguem ver constantemente os progressos.\n- É útil quando os requisitos mudam rapidamente e o cliente está relutante em aceitar um conjunto fixo de requisitos.\nAssinale a alternativa correta:",
+        "alternativas": [
+            "Cascata.",
+            "Espiral.",
+            "Incremental.",
+            "Prototipagem Evolucionária."
+        ],
+        "gabarito": "Prototipagem Evolucionária."
+    },
+    {
+        "id": 53,
+        "enunciado": "Dentre os modelos de processo utilizados na engenharia de software, a Prototipação Evolucionária",
+        "alternativas": [
+            "é indicada em situações em que a equipe de desenvolvimento e o cliente conhecem bem os requisitos do sistema e já se tem uma previsão de que esses requisitos pouco mudarão no decorrer do processo de desenvolvimento.",
+            "utiliza uma abordagem sequencial e sistemática (não iterativa) para o desenvolvimento do protótipo, começando com o levantamento de requisitos, avançando para as fases de planejamento, modelagem, construção e implantação, até se obter um software funcional.",
+            "é muito boa em relação à previsão de tempo para o desenvolvimento e em relação à gerência do projeto, já que permite avaliar facilmente quando cada fase foi realizada.",
+            "pode ser interessante quando está sendo difícil fazer o cliente comunicar os requisitos, pois o analista pode usar o protótipo como ferramenta para se comunicar com o cliente e chegar a um acordo sobre o que deve ser desenvolvido.",
+            "descarta intencionalmente todo o código gerado assim que o objetivo do protótipo for alcançado, da mesma forma como ocorre nos demais modelos de processo iterativos."
+        ],
+        "gabarito": "pode ser interessante quando está sendo difícil fazer o cliente comunicar os requisitos, pois o analista pode usar o protótipo como ferramenta para se comunicar com o cliente e chegar a um acordo sobre o que deve ser desenvolvido."
+    },
+    {
+        "id": 54,
+        "enunciado": "A prototipagem é uma prática cada vez mais comum entre os desenvolvedores. Na prototipagem de sistemas",
+        "alternativas": [
+            "validam-se os requisitos, abordam-se questões de interface e avalia-se a viabilidade do sistema, porém, não se pode verificar (ou avaliar) a sua complexidade.",
+            "normalmente há pouco contato entre usuários e desenvolvedores, o que dificulta as alterações nas funcionalidades do sistema e o levantamento e modificação de requisitos.",
+            "os protótipos de baixa fidelidade geralmente são utilizados após a fase de documentação, podendo ser aprimorados de forma a permitir que se possa pensar nos detalhes do produto bem mais a fundo do que com especificações no papel.",
+            "os protótipos de alta fidelidade não servem para o teste de componentes e a solução de problemas técnicos. São úteis apenas na compreensão dos requisitos e na avaliação da complexidade do sistema.",
+            "utilizando a prototipação Throw-Away, o objetivo é identificar e validar requisitos. Na prototipação Evolutiva, o objetivo é minimizar o tempo de desenvolvimento do sistema."
+        ],
+        "gabarito": "utilizando a prototipação Throw-Away, o objetivo é identificar e validar requisitos. Na prototipação Evolutiva, o objetivo é minimizar o tempo de desenvolvimento do sistema."
+    },
+    {
+        "id": 55,
+        "enunciado": "Existe uma técnica que produz código, baseada em requisitos não detalhados em toda a sua extensão, utilizada para contribuir com a especificação de requisitos.\nEssa técnica é denominada",
+        "alternativas": [
+            "entrevista.",
+            "produção de cenários.",
+            "estudo etnográfico.",
+            "prototipagem."
+        ],
+        "gabarito": "prototipagem."
+    },
+    {
+        "id": 56,
+        "enunciado": "Protótipos auxiliam na elicitação e na validação dos requisitos de sistemas computacionais. Duas das técnicas muito utilizadas durante uma prototipação são:",
+        "alternativas": [
+            "prototipação em papel e etnografia;",
+            "etnografia e wireframes;",
+            "prototipação em papel e wireframes;",
+            "mockups e pesquisa de mercado;",
+            "entrevistas e pesquisa de mercado."
+        ],
+        "gabarito": "prototipação em papel e wireframes;"
+    },
+    {
+        "id": 57,
+        "enunciado": "Acerca das metodologias de desenvolvimento de software, julgue o item subsecutivo.\nUm protótipo de sistema auxilia na validação de requisitos, no projeto de interface com o usuário, podendo, ainda, ser usado para a realização de testes.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 58,
+        "enunciado": "O ciclo de vida de um software descreve as fases de desenvolvimento desde sua concepção ao seu desuso, compreendendo diversas atividades. As atividades envolvidas no desenvolvimento e a forma como se relacionam dependem da escolha do modelo de ciclo de vida do software. Referente a esse tema, assinale a opção INCORRETA.",
+        "alternativas": [
+            "O modelo em cascata, normalmente conhecido como ciclo de vida clássico, sugere uma abordagem sistemática e sequencial, apesar do modelo inicialmente proposto prever alguns ciclos de realimentação.",
+            "O modelo espiral é um modelo evolucionário que combina aspectos da prototipagem e do modelo em cascata.",
+            "No modelo incremental, o desenvolvimento é dividido em incrementos (etapas), e cada etapa produz um sistema completamente funcional.",
+            "O modelo RAD (Rapid Application Development) é um modelo incremental que enfatiza um ciclo de desenvolvimento curto, sendo construído baseado em componentes.",
+            "O paradigma de prototipagem é comumente utilizado quando o desenvolvedor está seguro das especificações e requisitos fornecidos pelo cliente, tendo como principal vantagem o baixo custo."
+        ],
+        "gabarito": "O paradigma de prototipagem é comumente utilizado quando o desenvolvedor está seguro das especificações e requisitos fornecidos pelo cliente, tendo como principal vantagem o baixo custo."
+    },
+    {
+        "id": 59,
+        "enunciado": "Esse método de desenvolvimento e uso de sistema de informação resume-se na construção de um modelo do sistema, podendo ser experimental completo ou parte dele. Trata-se do conceito de:",
+        "alternativas": [
+            "Implantação.",
+            "Prototipação.",
+            "Ramificação.",
+            "Orientação a Objeto (OO).",
+            "Utilização de pacotes prontos."
+        ],
+        "gabarito": "Prototipação."
+    },
+    {
+        "id": 60,
+        "enunciado": "Sobre Prototipação, assinale a alternativa INCORRETA.",
+        "alternativas": [
+            "Uma das vantagens de um protótipo descartável é a facilidade de ajustar o mesmo para atender aos requisitos não funcionais, requisitos que foram ignorados durante o desenvolvimento do protótipo.",
+            "No processo de engenharia de requisitos, um protótipo pode ajudar na elicitação e validação de requisitos de sistema.",
+            "Um protótipo de software pode ser usado em um processo de desenvolvimento de software para ajudar a antecipar mudanças que podem ser requisitadas.",
+            "O desenvolvimento rápido e iterativo do protótipo é essencial para que os custos sejam controlados e os stakeholders do sistema possam experimentá-lo no início do processo de software.",
+            "Um protótipo é uma versão inicial de um sistema de software, usado para demonstrar conceitos, experimentar opções de projeto e descobrir mais sobre o problema e suas possíveis soluções."
+        ],
+        "gabarito": "Uma das vantagens de um protótipo descartável é a facilidade de ajustar o mesmo para atender aos requisitos não funcionais, requisitos que foram ignorados durante o desenvolvimento do protótipo."
+    },
+    {
+        "id": 61,
+        "enunciado": "Segundo Ian Sommerville (2, a mudança aumenta os custos de desenvolvimento do software. Com o objetivo de prevenir mudanças, uma versão do sistema ou parte dele é desenvolvida rapidamente para verificar as necessidades do cliente e a viabilidade de algumas decisões do projeto. Este processo é denominado:",
+        "alternativas": [
+            "entrega incremental.",
+            "prototipação.",
+            "modelo espiral de BOEHM.",
+            "RATIONAL UNIFIED PROCESS (RUP).",
+            "modelo em cascata."
+        ],
+        "gabarito": "prototipação."
+    },
+    {
+        "id": 62,
+        "enunciado": "Tendo em vista que o desenvolvimento de um software compreende várias fases, que vão desde a definição básica até o uso do software, e que, nesse processo, diversos modelos, métodos e procedimentos de construção podem ser utilizados, julgue o item subsecutivo.\nNo modelo prototipação, a construção de software tem várias atividades que são executadas de forma sistemática e sequencial.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 63,
+        "enunciado": "A prototipação representa uma técnica poderosa para o desenvolvimento de sistemas, mais especificamente do software desses sistemas. Sobre as funções desempenhadas por um protótipo, é correto afirmar que ele",
+        "alternativas": [
+            "permite avaliar o desempenho geral da equipe de desenvolvimento de software.",
+            "não permite que sejam realizados testes, visando verificar o funcionamento do sistema final, ainda que sejam testes parciais.",
+            "é inteiramente descartado, não sendo aproveitada nenhuma parte do código de software no sistema final entregue ao cliente.",
+            "não possibilita avaliar a qualidade do software produzido.",
+            "pode auxiliar na validação de requisitos do sistema, bem como propiciar a inserção de novos requisitos ainda não identificados."
+        ],
+        "gabarito": "pode auxiliar na validação de requisitos do sistema, bem como propiciar a inserção de novos requisitos ainda não identificados."
+    },
+    {
+        "id": 64,
+        "enunciado": "Um desenvolvedor de software atua com um usuário ouvindo suas idéias e pedidos e criando, imediatamente, um esboço do produto desejado por esse usuário. O usuário, então, utiliza esse esboço e fornece novas informações ao desenvolvedor para que este possa atualizar, adaptar e implementar, nesse mesmo produto e em tempo de projeto e desenvolvimento, os dados obtidos.\nA situação descrita constitui uma prototipação, modelo de ciclo de vida do software que deve",
+        "alternativas": [
+            "ordenar, de forma sequencial, as etapas a serem realizadas e obter uma visão geral do projeto para definir com precisão os requisitos iniciais do sistema a ser desenvolvido.",
+            "dividir o processo de desenvolvimento do software em macroatividades que devem ser executadas de maneira sequencial, especificando, de forma detalhada, a documentação que será gerada nesse processo.",
+            "dividir o processo de desenvolvimento do software em fases, apresentar uma visão de custo de desenvolvimento para cada fase do projeto e, por conseguinte, o custo total desse projeto.",
+            "destacar, de forma especial, as diversas fontes de demanda por software, os pontos de decisão durante o processo de desenvolvimento e incorporar características do produto real.",
+            "ocupar-se, principalmente, em tratar exceções, responder corretamente às entradas inválidas e interromper o processamento, em caso de erro não recuperável, de forma controlada."
+        ],
+        "gabarito": "destacar, de forma especial, as diversas fontes de demanda por software, os pontos de decisão durante o processo de desenvolvimento e incorporar características do produto real."
+    },
+    {
+        "id": 65,
+        "enunciado": "Assinale a alternativa que apresenta um dos benefícios de um protótipo de software.",
+        "alternativas": [
+            "Conversão de código-fonte.",
+            "Middleware.",
+            "Adequação maior do sistema às necessidades do usuário.",
+            "Renegociação de stakeholders.",
+            "Remoção de métodos específicos da aplicação."
+        ],
+        "gabarito": "Adequação maior do sistema às necessidades do usuário."
+    },
+    {
+        "id": 66,
+        "enunciado": "Em relação à prototipação, é uma característica que pode ser prejudicial ao desenvolvimento do software:",
+        "alternativas": [
+            "suportar a utilização de frameworks para criação dos protótipos.",
+            "apresentar telas gráficas e exemplos de relatórios.",
+            "permitir que mudanças sejam feitas antes mesmo da programação de várias linhas de código.",
+            "apresentar algumas potenciais funcionalidades do sistema.",
+            "permitir que o cliente conheça o produto antes mesmo da sua real codificação."
+        ],
+        "gabarito": "permitir que o cliente conheça o produto antes mesmo da sua real codificação."
+    },
+    {
+        "id": 67,
+        "enunciado": "Julgue o item seguinte, acerca de prototipação, especificação e técnicas de validação de requisitos.\nA prototipação começa com a apresentação de um modelo de projeto rápido, etapa em que se representam as necessidades conhecidas e identificam-se as áreas que necessitam de maior definição, de modo a tornar claros os requisitos de um software.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 68,
+        "enunciado": "Com relação ao uso de projetos de prototipação, sugeridos por Sommerville, analise as afirmativas a seguir.\nI. Por conta da exibição da apresentação dos requisitos iniciais, a prototipação geralmente inicia com custos reduzidos nos estágios iniciais aumentando nos estágios avançados do processo de desenvolvimento, mas isso é compensado pelo ganho no produto final.\nII. Particularmente quando há atrasos na entrega da versão final do software, os desenvolvedores são pressionados pelos gerentes a entregarem protótipos throw‐away, pois estes consideram que entregar um sistema incompleto é melhor do que nada, apesar de, por várias razões, isto não ser sensato\nIII. Os principais benefícios no uso da prototipação são a usabilidade aprimorada do sistema, a adequação maior do sistema às necessidades do usuário, a qualidade do projeto aprimorada, a facilidade de manutenção aprimorada e o esforço de desenvolvimento reduzido.\nAssinale:",
+        "alternativas": [
+            "se somente a afirmativas I e II estiverem corretas.",
+            "se somente a afirmativa III estiver correta.",
+            "se somente as afirmativas I e III estiverem corretas.",
+            "se somente as afirmativas II e III estiverem corretas.",
+            "se todas as afirmativas estiverem corretas."
+        ],
+        "gabarito": "se somente as afirmativas II e III estiverem corretas."
+    },
+    {
+        "id": 69,
+        "enunciado": "A prototipação é uma técnica que pode ser usada para a investigação e descoberta de requisitos durante os projetos de software. Também pode ser usada para esclarecer requisitos obscuros. Sobre prototipação, veja as afirmativas apresentadas a seguir.\nI. Protótipos Mágico de Oz são aqueles em que a interface do sistema é desenvolvida e um ser humano simula o comportamento funcional, processando a resposta a ser dada diante das entradas do usuário.\nII. Protótipos evolutivos são aqueles desenvolvidos quando o sistema já foi liberado para que usuários o utilizem. Novas evoluções do sistema já em uso, como novas funcionalidades ou adaptações para novas plataformas, são incorporadas ao protótipo evolutivo, que é usado para avaliar a viabilidade das evoluções e para esclarecer dúvidas em requisitos a elas associadas.\nIII. Protótipos descartáveis são aqueles que envolvem o desenvolvimento de um sistema completo e que, logo após ser utilizado pelos usuários durante um curto período de tempo, são descartados, uma vez que o sistema em questão deixa de ser necessário.\nIV. Uma técnica de prototipação é a prototipagem em papel, que pode ser usada de maneira eficiente para avaliações de usabilidade de interfaces. Tal técnica mescla a criação de interfaces em papel com o desenvolvimento de funcionalidades a serem implementadas no sistema real.\nAssinale a alternativa correta.",
+        "alternativas": [
+            "Apenas a afirmativa I está correta.",
+            "Apenas a afirmativa II está correta.",
+            "Apenas as afirmativas I e II estão corretas.",
+            "Apenas as afirmativas II e IV estão corretas.",
+            "Apenas as afirmativas III e IV estão corretas."
+        ],
+        "gabarito": "Apenas a afirmativa I está correta."
+    },
+    {
+        "id": 70,
+        "enunciado": "Em relação aos conceitos de engenharia de software e ciclo de vida de um software, julgue o item a seguir.\nO desenvolvimento de produto de software por meio da utilização da técnica de prototipação consiste na execução das atividades de desenvolvimento de software em uma sequência ordenada, sendo as principais atividades do modelo requisitos de sistema; requisitos de software; análise; projeto de programa; codificação; teste; e operação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 71,
+        "enunciado": "Apesar de os usuários poderem ter uma ideia prévia do software final por meio de um protótipo, uma desvantagem da técnica de prototipação é a",
+        "alternativas": [
+            "exigência de que todos os requisitos do software precisam estar explicitamente descritos.",
+            "crença do cliente de que o protótipo produzido é uma versão operacional do software contratado.",
+            "dificuldade de acomodar alterações no protótipo em função do fluxo sequencial que a técnica propõe.",
+            "necessidade constante de se analisar riscos na medida em que cada ciclo de desenvolvimento é realizado."
+        ],
+        "gabarito": "crença do cliente de que o protótipo produzido é uma versão operacional do software contratado."
+    },
+    {
+        "id": 72,
+        "enunciado": "Assinale a alternativa verdadeira sobre a técnica de prototipagem de software.",
+        "alternativas": [
+            "Deve ser implementada por equipes de, no máximo, três pessoas.",
+            "Deve ser projetada, exclusivamente, por meio da orientação a objeto.",
+            "Serve apenas para avaliar a correção da interface humano -computador.",
+            "Pode ajudar a detectar erros e omissões nos requisitos de software.",
+            "Não permite a realização de testes no software."
+        ],
+        "gabarito": "Pode ajudar a detectar erros e omissões nos requisitos de software."
+    },
+    {
+        "id": 73,
+        "enunciado": "Uma técnica que serve de complemento à análise de requisitos é a construção de protótipos. Em relação à prototipagem, marque a alternativa INCORRETA:",
+        "alternativas": [
+            "No contexto do desenvolvimento de software, um protótipo é um esboço de alguma parte do sistema.",
+            "O protótipo pode ser usado como substituto à construção de modelos do sistema.",
+            "Os protótipos são construídos para serem usados na validação do sistema pelos usuários.",
+            "Após a aceitação, o protótipo (ou parte dele) pode ser descartado ou utilizado como uma versão inicial do sistema."
+        ],
+        "gabarito": "O protótipo pode ser usado como substituto à construção de modelos do sistema."
+    },
+    {
+        "id": 74,
+        "enunciado": "Na Prototipagem dos Requisitos, o protótipo descartável pode ser construído por meio de diversos tipos de ferramentas. A área tratável por protótipo, onde o ambiente de prototipagem é um pequeno programa de teste no ambiente alvo é a área de",
+        "alternativas": [
+            "partes de tempo de resposta crítico, em sistemas de tempo real.",
+            "cálculos e algoritmos complexos.",
+            "funções e interfaces de usuário.",
+            "organização e desempenho de bancos de dados."
+        ],
+        "gabarito": "partes de tempo de resposta crítico, em sistemas de tempo real."
+    },
+    {
+        "id": 75,
+        "enunciado": "O processo que determina se as especificações dos requisitos são consistentes com suas definições é chamado de Validação dos Requisitos.\nDentre as técnicas automatizadas usadas nesse processo, citam-se os(as)",
+        "alternativas": [
+            "cenários.",
+            "revisões.",
+            "entrevistas.",
+            "prototipações.",
+            "provas matemáticas."
+        ],
+        "gabarito": "prototipações."
+    },
+    {
+        "id": 76,
+        "enunciado": "Analise as seguintes afirmativas concernentes ao uso da prototipação de software.\nI. Em um processo de engenharia de requisitos, pode ajudar na identificação de requisitos do sistema.\nII. Permite realizar testes completos com o sistema que será entregue ao cliente.\nIII. Não é indicado para os projetos de interface com o usuário.\nA partir dessa análise, é possível concluir que estão CORRETAS",
+        "alternativas": [
+            "apenas as afirmativas I e II.",
+            "apenas as afirmativas I e III.",
+            "apenas as afirmativas II e III.",
+            "as três afirmativas."
+        ],
+        "gabarito": "apenas as afirmativas I e II."
+    },
+    {
+        "id": 77,
+        "enunciado": "Analise estas afirmativas referentes à prototipação e assinale com V as verdadeiras e com F as falsas.\n( ) Protótipos de sistema antecipam aos usuários como o sistema apoiará seu trabalho.\n( ) O desenvolvimento de um protótipo pode revelar problemas com os requisitos propostos.\n( ) Os protótipos permitem verificar a viabilidade de um sistema proposto enquanto ainda está sendo projetado.\nAssinale a alternativa que apresenta a sequência de letras CORRETA.",
+        "alternativas": [
+            "(F) (F) (V).",
+            "(F) (V) (F).",
+            "(V) (F) (V).",
+            "(V) (V) (V)."
+        ],
+        "gabarito": "(V) (V) (V)."
+    },
+    {
+        "id": 78,
+        "enunciado": "Suponha que seu cliente tenha solicitado o desenvolvimento de um novo software. O modelo mais adequado para o gerenciamento deste processo de desenvolvimento de software, levando em conta as informações abaixo, é:\no cliente não possui uma visão clara de todos os requisitos da aplicação.\no cliente quer avaliar a viabilidade de desenvolvimento da aplicação.\no cliente alocará um usuário-chave no projeto, em tempo integral, a fim de que este possa participar ativamente de todas as fases do projeto.\no cliente gostaria de ter uma versão preliminar do sistema, com base em uma versão inicial dos requisitos, ainda que isto demande um investimento inicial.",
+        "alternativas": [
+            "Cascata.",
+            "Cíclico.",
+            "Desenvolvimento Iterativo e Incremental.",
+            "Prototipação.",
+            "Formal."
+        ],
+        "gabarito": "Prototipação."
+    },
+    {
+        "id": 79,
+        "enunciado": "Na Engenharia de Software, há diversos modelos de ciclo de vida, definidos com variados níveis de formalidade. O modelo",
+        "alternativas": [
+            "cascata (ou clássico) é adequado para controlar riscos e requisitos voláteis durante o desenvolvimento do sistema.",
+            "codificação e correção (code and fix) é adequado para alcançar um bom nível de manutenibilidade do sistema.",
+            "prototipagem descartável é adequado para descartar a fase de levantamento de requisitos do sistema a ser desenvolvido.",
+            "prototipagem evolutiva entrega uma versão inicial do sistema, que considera requisitos já definidos com o cliente.",
+            "espiral é inadequado quando são necessários o uso de protótipos durante a validação do sistema e o reúso de software."
+        ],
+        "gabarito": "prototipagem evolutiva entrega uma versão inicial do sistema, que considera requisitos já definidos com o cliente."
+    },
+    {
+        "id": 80,
+        "enunciado": "A respeito de engenharia de software, julgue o item a seguir.\nNo modelo de prototipação, o processo de desenvolvimento de software é modelado como uma sequência linear de fases, enfatizando um ciclo de desenvolvimento de breve duração.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 81,
+        "enunciado": "Considerando que a validação de requisitos permite demonstrar que os requisitos refletem o sistema que se deseja construir, julgue o item subsequente.\nNa prototipação, um modelo executável do sistema é apresentado aos usuários e clientes finais, que podem verificar se o modelo atende as suas necessidades reais.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 82,
+        "enunciado": "Para responder a questão, considere que os programas mencionados estão com a comfiguração padrão em português, e que possuem licença de uso, e que o mouse está configurado para destros, e ainda que um clique ou duplo clique correspondem ao botão esquerdo do mouse. Logo, os menus submenus e teclas de atalho, possuem também a configuração padrão.\nUm modelo de processo de desenvolvimento de software, ou simplesmente modelo de processo, pode ser visto cmo uma representação, ou abstração dos objetos e atividades envolvidas no processo de software. Além disso, oferece uma forma mais abrangente e fácil de representar o gerenciamento de processo de software e consequentemente o progresso do projeto. São exemplos de alguns modelos de processo de software:",
+        "alternativas": [
+            "RAD, Espiral e Prototipação.",
+            "Sexta Geração, RAD e Linear.",
+            "Quarta geração, V-Model e Linked.",
+            "Ágil, Cascata e Stardard.",
+            "Prototipação, Formal e Informal."
+        ],
+        "gabarito": "RAD, Espiral e Prototipação."
+    },
+    {
+        "id": 83,
+        "enunciado": "Um protótipo de software pode ser usado em um processo de desenvolvimento de software para:\nI. Ajudar na descoberta e validação dos requisitos do sistema, durante a engenharia de requisitos.\nII. Explorar soluções específicas de software e apoiar o projeto de interface com o usuário, durante o projeto do sistema.\nIII. Realizar testes completos com o sistema que será entregue para o cliente, durante o processo de teste.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, II e III.",
+            "II e III, apenas.",
+            "I e II, apenas.",
+            "II, apenas.",
+            "I, apenas."
+        ],
+        "gabarito": "I, II e III."
+    },
+    {
+        "id": 84,
+        "enunciado": "Os Modelos prescritivos de processo de software determinam quais serão as atividades realizadas durante o desenvolvimento do software. Aponte a alternativa FALSA quanto à descrição dos modelos.",
+        "alternativas": [
+            "O Ciclo de vida clássico sugere a abordagem sequencial e sistemática para o desenvolvimento do software, contendo as fases de comunicação, planejamento, modelagem, construção, implantação.",
+            "O Modelo Incremental combina elementos do modelo em cascata aplicados de maneira interativa.",
+            "O Modelo Rad – Rapid Application Development - abrange três fases: modelagem de negócio, modelagem de dados, modelagem de processo.",
+            "A Prototipagem é um modelo evolucionário que auxilia o engenheiro de software e o cliente a entenderem melhor o que deve ser construído quando os requisitos são confusos."
+        ],
+        "gabarito": "O Modelo Incremental combina elementos do modelo em cascata aplicados de maneira interativa."
+    },
+    {
+        "id": 85,
+        "enunciado": "O termo Modelo de Ciclo de Vida é utilizado para descrever um grupo de atividades e a forma como elas se relacionam. Considerando o Modelo de Ciclo de Vida de Sistemas por Prototipagem Evolucionária, afirma-se que",
+        "alternativas": [
+            "os clientes não têm acesso a uma visualização dos progressos do desenvolvimento.",
+            "é possível determinar com exatidão o tempo que o projeto irá demorar.",
+            "não deve ser utilizado quando os requisitos mudam rapidamente e o cliente está relutante em aceitar um conjunto de requisitos.",
+            "não há uma forma de saber de antemão o número de iterações que serão necessárias.",
+            "apenas a fase final gera um produto que não é um documento."
+        ],
+        "gabarito": "não há uma forma de saber de antemão o número de iterações que serão necessárias."
+    },
+    {
+        "id": 86,
+        "enunciado": "Em relação à prototipação, são exemplos de ferramentas utilizadas para essa finalidade:",
+        "alternativas": [
+            "frameworks e IDEs;",
+            "workflow;",
+            "diagramas de contexto;",
+            "modelo espiral;",
+            "fluxogramas."
+        ],
+        "gabarito": "frameworks e IDEs;"
+    },
+    {
+        "id": 87,
+        "enunciado": "Acerca das metodologias de desenvolvimento de software, julgue o item a seguir.\nNo modelo de desenvolvimento prototipagem, um protótipo é desenvolvido para ajudar no entendimento dos requisitos do sistema.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 88,
+        "enunciado": "Dentro do ciclo de vida clássico da engenharia de software muitas vezes dúvidas do cliente e do programador criam insegurança no desenvolvimento de um software, por esse motivo foi criada uma técnica conhecida como:",
+        "alternativas": [
+            "diagrama de classes.",
+            "análise de testes.",
+            "prototipação.",
+            "UML.",
+            "Rational Rose."
+        ],
+        "gabarito": "prototipação."
+    },
+    {
+        "id": 89,
+        "enunciado": "Sobre prototipação, assinale a afirmativa INCORRETA.",
+        "alternativas": [
+            "A abordagem dirigida a scripts e a prototipação baseada na Internet são algumas das abordagens que podem ser usadas para a prototipação de interface com o usuário.",
+            "Um protótipo de sistema pode ser usado enquanto o sistema proposto está sendo projetado para realizar experimentos e verificar sua viabilidade.",
+            "Na prototipação throwaway, o protótipo se concentra inicialmente na experimentação e validação dos requisitos do sistema mais bem compreendidos.",
+            "A prototipação também é usada como uma técnica de validação de requisitos, em que um modelo executável do sistema é apresentado ao cliente e aos usuários finais."
+        ],
+        "gabarito": "Na prototipação throwaway, o protótipo se concentra inicialmente na experimentação e validação dos requisitos do sistema mais bem compreendidos."
+    },
+    {
+        "id": 90,
+        "enunciado": "Na engenharia de software, a engenharia de requisitos é o processo de descobrir, analisar, documentar e verificar os serviços prestados por um sistema e suas restrições operacionais.\nA respeito dos conceitos de requisitos, julgue o seguinte item.\nA utilização da técnica de prototipação no processo de requisitos consiste da criação de um modelo do sistema a ser apresentado para usuários finais e clientes com a finalidade de validação dos requisitos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 91,
+        "enunciado": "Julgue o item que se segue considerando as metodologias de desenvolvimento de sistemas.\nNo modelo de prototipação, a especificação de requisitos tem pouca importância, pois o software é continuamente adaptado em função dos desejos do usuário.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 92,
+        "enunciado": "No processo de software, a premissa que o desenvolvimento de sistema pode começar com informação incompleta e que requisitos completos são obtidos através de um processo cíclico e dialético de reações do usuário e que o importante nesta abordagem é que o ponto de vista orientado a projeto é enriquecido com o aumento de interesse da participação do usuário final,",
+        "alternativas": [
+            "explica a abordagem bottom-up.",
+            "conduz ao caos e à desestruturação do sistema.",
+            "é uma definição da engenharia reversa.",
+            "define o component-based development.",
+            "justifica a abordagem por prototipação."
+        ],
+        "gabarito": "justifica a abordagem por prototipação."
+    },
+    {
+        "id": 93,
+        "enunciado": "Considere as seguintes afirmativas.\nI. Modelo de software em papel ou baseado em PC que retrata a interação homem-máquina de uma forma que capacita o usuário a entender quanta interação ocorrerá.\nII. Modelo de trabalho que implementa algum subconjunto da função exigida do software desejado.\nIII. Um programa existente que executa parte ou toda a função desejada, mas que tem outras características que serão melhoradas em um novo esforço de desenvolvimento.\nSão corretamente aplicáveis ao processo de prototipação o que consta em",
+        "alternativas": [
+            "I e III, apenas.",
+            "II, apenas.",
+            "II e III, apenas.",
+            "III, apenas.",
+            "I, II, e III."
+        ],
+        "gabarito": "I, II, e III."
+    },
+    {
+        "id": 94,
+        "enunciado": "Considerando as diversas técnicas de desenvolvimento de sistemas, podemos associar como uma características marcante da Prototipação",
+        "alternativas": [
+            "processo rápido, informal e iterativo.",
+            "processo formal.",
+            "especificações escritas e aprovadas.",
+            "processo seqüencial.",
+            "necessário em sistemas grandes e complexos."
+        ],
+        "gabarito": "processo rápido, informal e iterativo."
+    },
+    {
+        "id": 95,
+        "enunciado": "Dentre os modelos de desenvolvimento de software, destaca-se a prototipagem. Sabe-se que existem dois tipos de prototipagem: a exploratória e a descartável. Essa classificação se dá segundo a compreensão dos requisitos do software que está sendo desenvolvido. Considerando essas informações, Pode-se afirmar que:\nI. A prototipagem exploratória deve ser utilizada quando os requisitos do software estão bem compreendidos.\nII. A prototipagem descartável deve ser utilizada quando os requisitos do software não estão bem compreendidos.\nIII. A especificação dos requisitos é de responsabilidade única do desenvolvedor,. na prototipagem exploratória e na prototipagem descartável.\nEstá(ão) correta(s) apenas:",
+        "alternativas": [
+            "I e III.",
+            "I e IV II.",
+            "II.",
+            "II e IV III.",
+            "I."
+        ],
+        "gabarito": "I e IV II."
+    },
+    {
+        "id": 96,
+        "enunciado": "Considere as afirmações sobre a prototipação no desenvolvimento de software:\nI. idealmente o protótipo serve como mecanismo para identificar requisitos;\nII. a prototipação implica no desenvolvimento de uma versão de trabalho, operacional, do software final;\nIII. o ideal é que o protótipo seja descartado, uma vez que aspectos de qualidade e manutenibilidade podem não ter sido considerados.\nSobre as afirmações, pode-se dizer que está correto o contido em",
+        "alternativas": [
+            "I, apenas.",
+            "III, apenas.",
+            "I e II, apenas.",
+            "I e III, apenas.",
+            "I, II e III."
+        ],
+        "gabarito": "I e III, apenas."
+    },
+    {
+        "id": 97,
+        "enunciado": "Texto para o item.\nA figura a seguir propõe um modelo conceitual para gestão da unidade de tecnologia da informação de uma organização responsável pelo fomento, regulação e fiscalização das indústrias cinematográfica e videofonográfica brasileiras.\nInternet:<www.ancine.gov.br>.\nJulgue o item a seguir, no referente aos processos, métodos, técnicas e ferramentas de engenharia de software e sistemas de informação, aplicáveis ao desenvolvimento de sistemas para a organização referida no diagrama da figura incluída no texto, atendendo áreas finalísticas de negócios como registro de projetos e produtos audiovisuais, controle e arrecadação de tributos e taxas, sistemas de informação gerenciais que emitem relatórios de monitoramento de desempenho, de gestão eletrônica de documentos e de fluxo de trabalho.\nA fim de desenvolver, durante uma reunião de trabalho, um desenho de interface web para acesso aos sistemas mencionados na figura em uma intranet, deve-se empregar técnicas de prototipação em papel devido ao baixo custo e rapidez.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 98,
+        "enunciado": "Vários ciclos de desenvolvimento de software vêm sendo utilizados e avaliados pela comunidade de engenharia de software. Acerca das características desses ciclos, assinale a opção correta.",
+        "alternativas": [
+            "O ciclo de vida linear seqüencial caracteriza-se por permitir uma fácil modificação dos requisitos durante o próprio desenvolvimento.",
+            "O modelo rapid application development (RAD) é apropriado para projetos que envolvem grandes riscos técnicos.",
+            "O modelo de desenvolvimento em espiral evita a análise de riscos, pois visa a produção rápida de um protótipo funcional, mas sem a qualidade de um produto comercial.",
+            "O modelo incremental de desenvolvimento de software visa o desenvolvimento de um protótipo cujas partes vão sendo integradas à medida que atividades de desenvolvimento seqüenciais vão sendo desenvolvidas em paralelo.",
+            "O modelo de prototipação, graças à possibilidade de realização rápida de um protótipo, permite esclarecer dúvidas acerca dos requisitos dos usuários."
+        ],
+        "gabarito": "O modelo de prototipação, graças à possibilidade de realização rápida de um protótipo, permite esclarecer dúvidas acerca dos requisitos dos usuários."
+    },
+    {
+        "id": 99,
+        "enunciado": "A análise e o projeto de sistemas de informação são atividades para as quais existem várias metodologias, técnicas e ferramentas de apoio.\nAcerca dessas atividades e dos meios para realizá-las, julgue o item subseqüente.\nUm dos riscos do modelo de desenvolvimento por prototipação é a possibilidade de que uma solução escolhida com o objetivo de realizar rapidamente o protótipo venha a se tornar permanente dentro do sistema mesmo que apresente características inadequadas com relação ao problema a ser resolvido.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 100,
+        "enunciado": "Considere as seguintes afirmações sobre os paradigmas de ciclo de vida de engenharia de software.\nI. No paradigma de prototipação, o protótipo idealmente serve como mecanismo para identificar os requisitos de software.\nII. No paradigma de prototipação, o protótipo será descartado (no todo ou em parte) e o software real será reprojetado.\nIII. O modelo espiral define quatro atividades, que são executadas nesta ordem: planejamento, análise de riscos, engenharia, avaliação pelo cliente.\nSobre as afirmações, pode-se dizer que",
+        "alternativas": [
+            "apenas I está correta.",
+            "apenas I e II estão correta.",
+            "apenas I e III estão correta.",
+            "apenas II e III estão correta.",
+            "I, II e III estão corretas."
+        ],
+        "gabarito": "I, II e III estão corretas."
+    },
+    {
+        "id": 101,
+        "enunciado": "Considere as seguintes assertivas sobre modelos teóricos de processo de desenvolvimento de software:\nI- O modelo em cascata especifica que a definição do comportamento externo do sistema deve preceder projeto de sua arquitetura.\nII- O modelo incremental requer que na primeira fase seja feito primeiro o levantamento de todos os requisitos do sistema\nIII- O modelo de prototipação de requisitos consiste na criação de implementações parciais do sistema com o objetivo de conhecer os requisitos do sistema.\nEstão corretas somente:",
+        "alternativas": [
+            "I e II.",
+            "I e III.",
+            "II e III.",
+            "I, II e III.",
+            "nenhuma."
+        ],
+        "gabarito": "I, II e III."
+    }
+]

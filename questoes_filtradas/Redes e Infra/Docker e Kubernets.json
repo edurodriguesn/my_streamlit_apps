@@ -1,0 +1,2164 @@
+[
+    {
+        "id": 1,
+        "enunciado": "Assinale a opção que apresenta a ferramenta que executa a orquestração de contêineres, gerencia a implantação, automatizando a implantação e o escalonamento de aplicativos em contêineres.",
+        "alternativas": [
+            "Docker.",
+            "KVM.",
+            "IaaS.",
+            "VMware.",
+            "Kubernetes."
+        ],
+        "gabarito": "Kubernetes."
+    },
+    {
+        "id": 2,
+        "enunciado": "No contexto da ferramenta Docker, o conceito de registro de imagens (image registry) corresponde a",
+        "alternativas": [
+            "um arquivo de log de erros e eventos que ocorrem durante a execução de um container.",
+            "um runtime de container, ou seja, um componente da ferramenta, na forma de um arquivo executável, que tem como propósito exclusivo executar um cointainer.",
+            "um arquivo de configuração específico, relacionado a uma imagem, com parâmetros para inicialização de um container.",
+            "uma pasta específica dentro de um container que serve para armazenar arquivos de imagens com extensões.jpg,.png, etc., usados como recursos para a aplicação que é executada no container.",
+            "uma localização centralizada para armazenar e compartilhar imagens de containers."
+        ],
+        "gabarito": "uma localização centralizada para armazenar e compartilhar imagens de containers."
+    },
+    {
+        "id": 3,
+        "enunciado": "No contexto dos conceitos de Docker e Kubernetes, é correto afirmar que:",
+        "alternativas": [
+            "o Kubernetes é utilizado exclusivamente na etapa de desenvolvimento para a construção das imagens, cabendo ao Docker a responsabilidade pelo balanceamento de carga em produção;",
+            "eles são tecnologias mutuamente excludentes, uma vez que a adoção do orquestrador Kubernetes elimina, por definição, a necessidade de qualquer mecanismo de empacotamento de contêineres;",
+            "o Docker atua como um hipervisor de tipo 1 para virtualizar o hardware físico, enquanto o Kubernetes opera como o sistema operacional convidado responsável pela execução das aplicações;",
+            "o Docker provê os mecanismos para criação e execução de contêineres individuais, enquanto o Kubernetes gerencia a orquestração, o escalonamento e a resiliência desses contêineres em cluster;",
+            "o Kubernetes substitui integralmente a necessidade de um container runtime subjacente, executando os processos da aplicação diretamente sobre o processador do servidor sem camadas intermediárias."
+        ],
+        "gabarito": "o Docker provê os mecanismos para criação e execução de contêineres individuais, enquanto o Kubernetes gerencia a orquestração, o escalonamento e a resiliência desses contêineres em cluster;"
+    },
+    {
+        "id": 4,
+        "enunciado": "Um tribunal está padronizando o deploy do serviço api-judicial em Kubernetes. O time de infraestrutura propõe o seguinte manifesto:\napiVersion: apps/v1 kind: Deployment metadata:\nname: api-judicial spec:\nreplicas: 3 selector:\nmatchLabels:\napp: api-judicial template:\nmetadata:\nlabels:\napp: api-judicial spec:\ncontainers:\n- name: api-judicial image: registro.interno.local/api-judicial:2.0 ports:\n- containerPort: 8080 readinessProbe:\nhttpGet:\npath: /health port: 8080 initialDelaySeconds: 5 periodSeconds: 10 Com base nesse manifesto e em conceitos de Kubernetes (contêineres, pods e orquestração), analise as afirmativas a seguir.\nI. O objeto Deployment gerenciará ReplicaSets e pods de modo que, em condições normais, haja até 3 pods prontos (readiness OK) associados ao rótulo app: api- judicial.\nII. A readinessProbe evita que o Service associado (caso exista) encaminhe tráfego para pods cujo endpoint /health em 8080 ainda não esteja respondendo adequadamente, mesmo que o contêiner já esteja em execução.\nIII. Se o time alterar apenas o campo image para uma nova versão e aplicar o manifesto com kubectl apply -f, o Deployment poderá realizar um rolling update, substituindo gradualmente os pods antigos pelos novos, desde que não haja alteração no seletor (selector.matchLabels).\nEstá correto o que se afirma em:",
+        "alternativas": [
+            "I, apenas;",
+            "II, apenas;",
+            "III, apenas;",
+            "II e III, apenas;",
+            "I, II e III."
+        ],
+        "gabarito": "I, II e III."
+    },
+    {
+        "id": 5,
+        "enunciado": "O analista Kevin administra o cluster Kubernetes K. A fim de garantir que certos serviços críticos rodem apenas em nós dedicados de K, Kevin utilizou uma combinação de funcionalidades do Kubernetes. A funcionalidade A foi usada para orientar os nós dedicados de K a repelir o agendamento de pods que não apresentem determinada combinação de chave e efeito. A funcionalidade B foi usada para descrever a necessária combinação de chave e efeito na especificação dos pods dos serviços críticos em K.\nAs funcionalidades A e B do Kubernetes, utilizadas por Kevin em K, são, respectivamente:",
+        "alternativas": [
+            "taints e tolerations;",
+            "tolerations e taints;",
+            "node affinity e taints;",
+            "tolerations e node affinity;",
+            "node affinity e tolerations."
+        ],
+        "gabarito": "taints e tolerations;"
+    },
+    {
+        "id": 6,
+        "enunciado": "Identifique os 4Cs que representam as camadas essenciais de segurança do Kubernetes.\n1. Caution\n2. Creation\n3. Cluster\n4. Credentials\n5. Cloud 6. Container 7. Code Assinale a alternativa que indica todos os itens corretos.",
+        "alternativas": [
+            "São corretos apenas os itens 1, 2, 4 e 6.",
+            "São corretos apenas os itens 1, 3, 5 e 7.",
+            "São corretos apenas os itens 1, 4, 5 e 7.",
+            "São corretos apenas os itens 3, 4, 6 e 7.",
+            "São corretos apenas os itens 3, 5, 6 e 7."
+        ],
+        "gabarito": "São corretos apenas os itens 3, 5, 6 e 7."
+    },
+    {
+        "id": 7,
+        "enunciado": "A respeito de testes e métricas de software e de DevOps, julgue o item subsequente.\nSob o mesmo namespace, diversos contêineres Docker podem ser executados e interagir entre si, com compartilhamento local de dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 8,
+        "enunciado": "Kubernetes é uma ferramenta de código aberto projetada para automatizar a implantação, escalonamento e gerenciamento de aplicações containerizadas. No universo do DevOps, o Kubernetes se destaca por sua capacidade de integrar de forma contínua e eficiente desenvolvimento (Dev) e operações (Ops), permitindo que equipes entreguem software mais rapidamente e com maior confiabilidade. Sobre o Kubernetes, marque a opção correta.",
+        "alternativas": [
+            "Quando um Service é criado no Kubernetes, ele automaticamente cria e gerencia um ReplicaSet.",
+            "O Deployment é uma camada de abstração que oferece funcionalidades adicionais e mais controle sobre o ReplicaSet.",
+            "O Kubelet balanceia o tráfego entre Pods.",
+            "O ConfigMap organiza objetos em espaços para melhor gestão."
+        ],
+        "gabarito": "O Deployment é uma camada de abstração que oferece funcionalidades adicionais e mais controle sobre o ReplicaSet."
+    },
+    {
+        "id": 9,
+        "enunciado": "Julgue o item a seguir, relativo a práticas e ferramentas de DevOps e integração contínua de código.\nEm Kubernetes, a política padrão de pull é IfNotPresent, mas pode ser configurada como Always para forçar o pull da imagem, ajustando a imagePullPolicy ou usando a tag latest.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 10,
+        "enunciado": "Julgue o item a seguir, a respeito de ambientes de clusters, Kubernetes, ferramenta de orquestração de contêineres e Rancher.\nA ferramenta Kubeadm é responsável por criar e gerenciar diretamente todos os pods e contêineres no cluster, enquanto a ferramenta Kubelet executa comandos administrativos no cluster.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 11,
+        "enunciado": "Julgue o item a seguir, a respeito de ambientes de clusters, Kubernetes, ferramenta de orquestração de contêineres e Rancher.\nO servidor de API do Rancher pode provisionar Kubernetes em nós existentes ou realizar atualizações do Kubernetes.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 12,
+        "enunciado": "Julgue o item a seguir, relativo a RabbitMQ, Rancher e GIT.\nO Rancher pode provisionar o Kubernetes de um provedor hospedado ou importar clusters do Kubernetes existente em execução em qualquer lugar, permitindo, ainda, o monitoramento e a emissão de alerta para clusters e seus recursos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 13,
+        "enunciado": "O setor de Tecnologia da Informação (TI) do Tribunal de Justiça do Estado de Rondônia (TJRO) realizou um estudo técnico, focado nas necessidades de um projeto específico, e decidiu implementar e utilizar o Docker, que é uma plataforma de software que permite criar, implantar e executar aplicativos em ambientes isolados por meio de containers. Como se trata de um recurso novo no projeto em questão, a equipe tomou como referência a documentação oficial disponibilizada pelo fabricante.\nSobre o Docker, analise as afirmativas a seguir.\nI. O Buildx suporta o driver remote que cria um container BuildKit dedicado usando o Docker.\nII. Na execução do Docker, no Linux, o comando tmpfs mount é utilizado para armazenar arquivos na memória do sistema do host.\nIII. O Docker Compose é uma ferramenta para definir e executar aplicativos de vários containers, proporcionando uma melhor experiência de desenvolvimento e implantação simplificada.\nEstá correto o que se afirma apenas em",
+        "alternativas": [
+            "I.",
+            "II.",
+            "III.",
+            "I e II.",
+            "II e III."
+        ],
+        "gabarito": "II e III."
+    },
+    {
+        "id": 14,
+        "enunciado": "Julgue o próximo item, referente à computação em nuvem, virtualização e conteinerização de aplicações.\nA conteinerização de aplicações no contexto DevOps permite a criação de ambientes de desenvolvimento isolados que, de forma inerente, reproduzem o comportamento do usuário final e as interações com sistemas externos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 15,
+        "enunciado": "Julgue o item seguinte, relativo a virtualização e orquestração de infraestrutura.\nNo dockerfile mostrado a seguir, com a execução do comando RUN pip install -r requirements.txt, serão instaladas as dependências listadas no requirements.txt, sem o armazenamento de caches, o que ajuda a reduzir o tamanho final da imagem.\nFROM python:3.12 WORKDIR /usr/local/app COPY requirements.txt./ RUN pip install -r requirements.txt COPY src./src EXPOSE 5000 RUN useradd app USER app CMD [\"uvicorn\", \"app.main:app\", \"--host\", \"0.0.0.0\", \"--port\", \"8080\"]\"0.0.0.0\", \"-- port\", \"8080\"]",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 16,
+        "enunciado": "A equipe de TI de uma prefeitura está desenvolvendo um sistema de gestão urbana utilizando microsserviços e deseja implementar pipelines CI/CD para automatizar o processo de integração e entrega contínua. Para garantir uma pipeline funcional que minimize erros e facilite a implantação, deve-se",
+        "alternativas": [
+            "configurar apenas o controle de versão, deixando os pipelines CI/CD para uma etapa futura após o lançamento.",
+            "utilizar apenas shell scripts para automatizar todas as etapas, sem ferramentas dedicadas de CI/CD.",
+            "configurar Kubernetes diretamente como a ferramenta principal de integração contínua.",
+            "implantar manualmente os builds de cada microsserviço para garantir controle absoluto sobre o processo.",
+            "utilizar Docker para criar contêineres padronizados, integrando o pipeline com Jenkins para orquestrar os builds e os deploys."
+        ],
+        "gabarito": "utilizar Docker para criar contêineres padronizados, integrando o pipeline com Jenkins para orquestrar os builds e os deploys."
+    },
+    {
+        "id": 17,
+        "enunciado": "Na configuração de um ambiente de desenvolvimento para um novo projeto, é necessário definir variáveis de ambiente específicas a fim de garantir que a aplicação funcione corretamente em diferentes ambientes (desenvolvimento, teste e produção). Para isso, decidiu-se, utilizando o Docker, criar um contêiner e definir as variáveis de ambiente necessárias.\nCom base na situação hipotética apresentada, julgue o item a seguir, relativo às práticas DevOps.\nNa situação apresentada, é necessário adicionar uma nova dependência à aplicação e, então, modificar diretamente a imagem Docker já criada.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 18,
+        "enunciado": "Na configuração de um ambiente de desenvolvimento para um novo projeto, é necessário definir variáveis de ambiente específicas a fim de garantir que a aplicação funcione corretamente em diferentes ambientes (desenvolvimento, teste e produção). Para isso, decidiu-se, utilizando o Docker, criar um contêiner e definir as variáveis de ambiente necessárias.\nCom base na situação hipotética apresentada, julgue o item a seguir, relativo às práticas DevOps.\nA configuração de variáveis de ambiente específicas em um contêiner Docker utilizando o comando docker create permite que essas variáveis sejam definidas antes da inicialização do contêiner, o que garante maior controle sobre o ambiente de execução.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 19,
+        "enunciado": "A respeito de gerência de contêineres e segurança com Docker, julgue o item a seguir.\nPara executar duas instâncias do PostgreSQL em contêineres separados, é correto utilizar os seguintes comandos, mapeando-se portas diferentes do host para a porta padrão do PostgreSQL (5no contêiner.\ndocker run -d -p 5433:5432 --name postgres_dev postgres docker run -d -p 5434:5432 --name postgres_test postgres",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 20,
+        "enunciado": "A respeito de gerência de contêineres e segurança com Docker, julgue o item a seguir.\nO Registry Access Management permite controlar quais registries os desenvolvedores podem acessar usando o Docker Desktop; esse recurso opera no nível de DNS e garante suporte a registries somente locais.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 21,
+        "enunciado": "A respeito de gerência de contêineres e segurança com Docker, julgue o item a seguir.\nNo trecho de código a seguir, a opção -p mapeia uma porta específica do host para uma porta correspondente no contêiner, o que permite o acesso aos serviços em execução dentro do contêiner a partir do host.\ndocker run -d -p HOST_PORT:CONTAINER_PORT postgres",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 22,
+        "enunciado": "Amanda trabalha em uma empresa de desenvolvimento de aplicações que faz uso de Docker na elaboração de seus projetos. Ela identificou alguns erros na aplicação e precisará executar alguns comandos para corrigir o problema. Inicialmente deverá listar os dockers em execução. Após isso, deverá executar alguns comandos em um Docker listado e reiniciá-lo.\nA alternativa que indica os comandos Docker a serem executados por Amanda na ordem correta é:",
+        "alternativas": [
+            "ps, exec, stop, start;",
+            "ps, pull, pause, init;",
+            "network, ls, exec, restart;",
+            "ls, pull, stop, restart;",
+            "ps, exec, pause, start."
+        ],
+        "gabarito": "ps, exec, stop, start;"
+    },
+    {
+        "id": 23,
+        "enunciado": "Julgue o item a seguir, a respeito de design system, de frameworks para o desenvolvimento de APIs e de orquestração de contêineres.\nO Docker Swarm é uma alternativa ao Kubernetes que oferece as mesmas funcionalidades, mas com uma curva de aprendizado mais íngreme e menos recursos avançados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 24,
+        "enunciado": "A orquestração de serviços é usada para gerenciar e automatizar a implantação, o dimensionamento e a operação de aplicações em containers. Os containers são uma forma de empacotar uma aplicação e suas dependências de maneira que ela possa ser executada de forma consistente em qualquer ambiente.\nCom relação a orquestração de serviços e o uso de containers, assinale (V) para a afirmativa verdadeira e (F) para a falsa.\n( ) Ferramentas como Kubernetes e Docker Swarm são populares para orquestração de serviços, pois permitem gerenciar, coordenar e programar contêineres em grande escala.\n( ) Um API Gateway atua como um proxy reverso, ficando entre os aplicativos cliente e os microsserviços, fornecendo um único ponto de entrada para todas as requisições de clientes a um conjunto de serviços.\n( ) Nos microsserviços o software consiste em pequenos serviços integrados e dependentes, que se comunicam usando APIs bem definidas, onde cada serviço realiza uma única função.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "V – F – F.",
+            "V – V – F.",
+            "F – F – V.",
+            "F – V – V.",
+            "V – F – V."
+        ],
+        "gabarito": "V – V – F."
+    },
+    {
+        "id": 25,
+        "enunciado": "No que se refere ao desenvolvimento web e mobile, bem como ao desenvolvimento com contêineres, julgue o próximo item.\nKubernetes é um software de orquestração que fornece uma API para controlar como e onde os contêineres serão executados; o uso desse software com o Docker pode tornar a infraestrutura mais robusta e fazer com que o aplicativo que os utiliza esteja mais disponível e mais escalonável.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 26,
+        "enunciado": "Considere que o seguinte arquivo YAML tenha sido utilizado para criar um deployment no Kubernetes:\napiVersion: apps/v1 kind: Deployment metadata:\nname: nginx-deployment spec:\nselector:\nmatchLabels:\napp: nginx replicas: 2 template:\nmetadata:\nlabels:\napp: nginx spec:\ncontainers:\n- name: nginx image: nginx:1.14.2 ports:\n- containerPort: 80 A partir das informações da situação hipotética precedente, julgue o item a seguir.\nNo código em questão, o campo replicas: 2 no bloco spec indica que dois contêineres serão executados dentro de um único pod de nome nginx, que será ouvido na porta 80.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 27,
+        "enunciado": "Acerca do Rancher, julgue o seguinte item.\nNo arquivo project.yaml a seguir, utilizado para criar projetos dentro de um cluster Kubernetes gerenciado pelo Rancher, o campo namespace no bloco metadata deve ter o mesmo valor que o campo clusterName do bloco spec para que o recurso criado seja associado a um cluster específico.\napiVersion: management.cattle.io/v3 kind: Project metadata:\nname: p-abc123 namespace: local spec:\nclusterName: local description: Example Project displayName: Example",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 28,
+        "enunciado": "Preencha a lacuna e assinale a alternativa correta. Em relação ao gerenciamento de contêineres, o ______________ é uma ferramenta nativa de orquestração do docker que permite que contêineres executem de forma distribuída em um cluster, controlando a sua quantidade de contêineres, registro, deploy e update de serviços.",
+        "alternativas": [
+            "Docker Fusion.",
+            "Docker Swarm.",
+            "Docker Hub.",
+            "Docker File.",
+            "Docker Hypervisor."
+        ],
+        "gabarito": "Docker Swarm."
+    },
+    {
+        "id": 29,
+        "enunciado": "Um analista de tecnologia da informação de uma empresa está utilizando Kubernetes para auxiliar no gerenciamento de contêineres. Nesse sentido, a string gerada pelos sistemas do Kubernetes para identificar objetos de forma única, fazendo com que cada objeto criado durante o ciclo de vida do cluster do Kubernetes seja único, tendo como objetivo distinguir ocorrências históricas de entidades semelhantes, é denominada",
+        "alternativas": [
+            "UID.",
+            "LAN.",
+            "PRTG.",
+            "WAN.",
+            "NAS."
+        ],
+        "gabarito": "UID."
+    },
+    {
+        "id": 30,
+        "enunciado": "Durante o deploy de uma aplicação com Docker, os logs mostram que o contêiner não inicia devido à falta de permissões no sistema de arquivos. Nesse caso, a solução mais apropriada é",
+        "alternativas": [
+            "reiniciar o Docker Daemon no servidor.",
+            "configurar permissões adequadas no host para o volume montado.",
+            "reconstruir a imagem Docker com um novo usuário root.",
+            "alterar o diretório de logs para uma pasta temporária.",
+            "usar o comando docker exec para corrigir permissões dentro do contêiner."
+        ],
+        "gabarito": "configurar permissões adequadas no host para o volume montado."
+    },
+    {
+        "id": 31,
+        "enunciado": "Na computação em nuvem, a coordenação automatizada de contêineres é um processo essencial para gerenciá-los em larga escala. Uma das ferramentas mais utilizadas para essa finalidade é o",
+        "alternativas": [
+            "Kubernetes, que administra e orquestra múltiplos contêineres em ambientes distribuídos.",
+            "Terraform, que automatiza a criação de infraestrutura em nuvem.",
+            "Jenkins, que facilita a integração contínua de aplicações conteinerizadas.",
+            "VirtualBox, que permite a criação de máquinas virtuais para rodar contêineres.",
+            "Apache Kafka, que gerencia fluxos de dados entre aplicações conteinerizadas."
+        ],
+        "gabarito": "Kubernetes, que administra e orquestra múltiplos contêineres em ambientes distribuídos."
+    },
+    {
+        "id": 32,
+        "enunciado": "O setor de TI de uma Secretaria da Fazenda deseja modernizar sua infraestrutura, migrando de máquinas virtuais (VMs) para uma arquitetura baseada em containers e orquestração na nuvem. Considerando o processo de migração e as ferramentas utilizadas, um dos Analistas afirmou corretamente que:",
+        "alternativas": [
+            "Docker e Kubernetes são tecnologias concorrentes: Docker foca em virtualização leve, necessitando de um hypervisor, enquanto Kubernetes é um tipo de serviço em nuvem para gerenciar VMs tradicionais instaladas em servidores.",
+            "Virtualização com hypervisors se tornou obsoleta em ambientes de nuvem, pois containers Kubernetes eliminam completamente a necessidade de isolamento de recursos.",
+            "Kubernetes é um tipo de hypervisor que cria máquinas virtuais leves, permitindo que containers Docker interajam diretamente com o kernel do hypervisor em ambientes de nuvem pública.",
+            "Containers Docker fornecem isolamento mais leve que VMs (compartilhando o kernel do host), enquanto o Kubernetes orquestra esses containers na nuvem.",
+            "A computação em nuvem utiliza geralmente a virtualização do tipo bare metal, eliminando os containers Docker e oferecendo todos os benefícios de isolamento de VMs via Kubernetes."
+        ],
+        "gabarito": "Containers Docker fornecem isolamento mais leve que VMs (compartilhando o kernel do host), enquanto o Kubernetes orquestra esses containers na nuvem."
+    },
+    {
+        "id": 33,
+        "enunciado": "Tanto o Kubernetes quanto o Docker são tecnologias de container de código aberto. No entanto, eles são fundamentalmente diferentes na forma como funcionam e no papel que desempenham na distribuição de aplicações em containers. Dessa forma, é correto afirmar:",
+        "alternativas": [
+            "Docker é utilizado para executar aplicações de nível de produção em nuvem, enquanto o Kubernetes é utilizado na edição e gerenciamento de imagens de containers.",
+            "Kubernetes é utilizado para gerenciar vários microsserviços em grande escala. Cada microsserviço é composto individualmente por vários containers.",
+            "Kubernetes builds e Compose podem ser utilizados em conjunto para criar imagens de container e definir e executar aplicações com vários containers, respectivamente.",
+            "Docker funciona gerenciando um cluster de instâncias de computação. Ele programa a execução de containers no cluster com base nos recursos computacionais disponíveis e nos requisitos de recursos de cada container.",
+            "Docker é uma ferramenta de orquestração de containers, enquanto o Kubernetes é uma pilha de tecnologias de containers para criar e executar containers."
+        ],
+        "gabarito": "Kubernetes é utilizado para gerenciar vários microsserviços em grande escala. Cada microsserviço é composto individualmente por vários containers."
+    },
+    {
+        "id": 34,
+        "enunciado": "Atualmente, grande parte das aplicações em nuvem é feita de vários microsserviços. Alguns deles podem ser escalados para milhares de microsserviços executados em diferentes servidores, apresentando uma série de novos desafios de gerenciamento, tais como coordenar, programar, agrupar e catalogar vários contêineres. Os desenvolvedores resolvem tais desafios usando",
+        "alternativas": [
+            "scripts Docker Build para encontrar e compartilhar imagens de container.",
+            "scripts personalizados aplicados via CLI para gerenciar os containers.",
+            "soluções monolíticas centralizadas para reduzir a complexidade como o Docker Build.",
+            "uma plataforma gerenciando cada container individualmente via CLI em servidores físicos.",
+            "uma plataforma de orquestração de containers como o Kubernetes."
+        ],
+        "gabarito": "uma plataforma de orquestração de containers como o Kubernetes."
+    },
+    {
+        "id": 35,
+        "enunciado": "Um Auditor de uma Secretaria da Fazenda discutiu com um Analista o emprego de uma arquitetura de aplicação baseada em microsserviços utilizando Docker e/ou Kubernetes. Sobre esse tema, o Analista afirmou corretamente que",
+        "alternativas": [
+            "Docker Compose cria imagens de container, além de encontrar e compartilhar imagens de container.",
+            "Docker fornece recursos completos de orquestração de clusters, tais como balanceadores de carga, tornando o Kubernetes desnecessário para qualquer implantação em produção.",
+            "Kubernetes são uma tecnologia de código fechado, exigindo uma licença anual para sua integração com o Docker.",
+            "Docker é ideal para empacotar aplicações em containers, enquanto o Kubernetes é melhor para orquestrar esses containers em ambientes distribuídos.",
+            "Kubernetes e Docker são tecnologias concorrentes que não podem ser usadas juntas em nenhum cenário de implantação."
+        ],
+        "gabarito": "Docker é ideal para empacotar aplicações em containers, enquanto o Kubernetes é melhor para orquestrar esses containers em ambientes distribuídos."
+    },
+    {
+        "id": 36,
+        "enunciado": "Julgue o próximo item, relativo a Keycloak, RabbitMQ, GitHub e Kubernetes.\nKubernetes é uma plataforma unificada nativa que, ainda que não ofereça autenticação centralizada, permite a implantação de bare metal e de nuvens públicas com a utilização de contêineres.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 37,
+        "enunciado": "Julgue o próximo item, em relação a cuDNN, gerenciamento de GPU com NVIDIA SMI, e infraestrutura e operação de ambientes com GPU.\nA virtualização de GPU com NVIDIA vGPU permite o compartilhamento de uma única GPU física entre múltiplas máquinas virtuais ou contêineres; no caso do uso com contêiner Docker, é necessário que o host tenha os drivers NVIDIA instalados, além do NVIDIA Container Toolkit, para que os contêineres consigam acessar a GPU corretamente.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 38,
+        "enunciado": "Em um ambiente educacional moderno, a agilidade na implantação de sistemas e laboratórios virtuais é crucial para apoiar tanto o corpo docente quanto o discente.\nUm analista de Tecnologia da Informação atuando nesse cenário precisa dominar ferramentas que otimizem a criação de ambientes de desenvolvimento, testes e produção de forma padronizada e eficiente. O Docker se apresenta como uma solução robusta para esses desafios, permitindo o empacotamento de aplicações e suas dependências em containers. Sobre essa tecnologia, analise as perguntas abaixo:\nQual característica fundamental do Docker permite que os containers sejam mais leves e rápidos em comparação com as máquinas virtuais tradicionais? Ao administrar containers, qual comando é utilizado para listar todos os containers, incluindo aqueles que estão em execução e os que foram parados ou finalizados? Qual comando é utilizado para construir uma nova imagem a partir das instruções definidas em um arquivo Dockerfile? Assinale a alternativa que indica, correta e respectivamente, as respostas para as perguntas acima.",
+        "alternativas": [
+            "A utilização de Cgroups para isolamento de hardware – docker images – docker commit.",
+            "O isolamento de processos através de Namespaces – docker run -it – docker save.",
+            "A implementação de Union file systems para camadas de arquivos – docker stats – docker create.",
+            "A sua base no sistema de virtualização LXC – docker inspect -a – docker push.",
+            "O compartilhamento do kernel do sistema operacional do host – docker ps -a – docker build."
+        ],
+        "gabarito": "O compartilhamento do kernel do sistema operacional do host – docker ps -a – docker build."
+    },
+    {
+        "id": 39,
+        "enunciado": "No Kubernetes, o propósito de um ReplicaSet é",
+        "alternativas": [
+            "manter um número de réplicas de um Pod executando no cluster.",
+            "executar ações repetitivas (denominadas réplicas) em horários agendados.",
+            "servir como o runtime de contêiner subjacente, já que o Kubernetes por si só é um orquestrador.",
+            "efetuar a limpeza do ambiente (cleanup) de Jobs encerrados.",
+            "servir como um registro de imagens de contêineres em ambiente local, replicando um registro (registry) remoto."
+        ],
+        "gabarito": "manter um número de réplicas de um Pod executando no cluster."
+    },
+    {
+        "id": 40,
+        "enunciado": "Ao planejar a implantação de novas aplicações, a equipe de infraestrutura compara o uso de contêineres (como Docker) com máquinas virtuais tradicionais. Qual é a principal vantagem dos contêineres em termos de eficiência de recursos e velocidade de inicialização, em comparação com as VMs?",
+        "alternativas": [
+            "Contêineres usam hypervisor tipo 1.",
+            "Contêineres compartilham o kernel do host.",
+            "VMs são mais leves.",
+            "Contêineres virtualizam hardware.",
+            "Isolamento de segurança em contêineres é mais robusto."
+        ],
+        "gabarito": "Contêineres compartilham o kernel do host."
+    },
+    {
+        "id": 41,
+        "enunciado": "Julgue o item seguinte, no que se refere a contêineres e gerência de configuração de softwares.\nContêineres são instâncias de imagens do Docker que podem ser executadas usando o comando docker run.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 42,
+        "enunciado": "Um arquiteto de sistemas deseja garantir que os containers Docker da aplicação tenham a menor superfície de ataque possível, reduzindo riscos de exploração por vulnerabilidades conhecidas.\nA alternativa que representa uma prática avançada e recomendada para esse objetivo é",
+        "alternativas": [
+            "construir as imagens com base em distros mínimas como distroless ou Alpine.",
+            "utilizar imagens com interface gráfica para facilitar debugging visual.",
+            "rodar containers com flag --privileged para acesso completo ao host.",
+            "manter os containers sempre em execução com restart=always.",
+            "utilizar volumes compartilhados entre containers sem restrições de permissão."
+        ],
+        "gabarito": "construir as imagens com base em distros mínimas como distroless ou Alpine."
+    },
+    {
+        "id": 43,
+        "enunciado": "Com relação aos benefícios do uso de Docker, avalie se as afirmativas a seguir são verdadeiras (V) ou falsas (F).\n( ) O Docker torna os aplicativos mais portáteis.\n( ) O Docker torna os ambientes de desenvolvimento mais consistentes.\n( ) O Docker torna os aplicativos mais seguros.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "V – F – F.",
+            "V – V – F.",
+            "F – F – V.",
+            "V – V – V.",
+            "F – V – V."
+        ],
+        "gabarito": "V – V – F."
+    },
+    {
+        "id": 44,
+        "enunciado": "Com relação a Kubernetes, avalie se as afirmativas a seguir são verdadeiras (V) ou falsas (F).\n( ) O Kubernetes é uma plataforma portátil, não extensível e de código aberto para gerenciar cargas de trabalho e serviços em contêineres, fornecendo configuração e automação declarativas.\n( ) O Kubernetes tem um ecossistema pequeno e em rápido crescimento, com uma ampla disponibilidade de serviços, suporte e ferramentas.\n( ) O Kubernetes permite alocação e gerenciamento eficientes de recursos, evitando problemas como um aplicativo ocupando a maior parte dos recursos e causando baixo desempenho em outros aplicativos.\nAs afirmações são, respectivamente,",
+        "alternativas": [
+            "V – V – F.",
+            "V – F – V.",
+            "F – V – V.",
+            "F – F – V.",
+            "F – F – F."
+        ],
+        "gabarito": "F – F – V."
+    },
+    {
+        "id": 45,
+        "enunciado": "As tecnologias de contêiner têm sido amplamente empregadas em ambientes de nuvem, em especial para implantação de microsserviços em diferentes plataformas.\nCom relação às tecnologias de contêiner, assinale V para a afirmativa verdadeira e F para a falsa.\n( ) O Docker é uma tecnologia de tempo de execução de contêineres que empacota o software em unidades dinâmicas e flexíveis.\n( ) Kubernetes é uma ferramenta de orquestração de contêineres para executar aplicações de nível de produção, sendo exclusiva para operação em grande escala por datacenters de nuvem.\n( ) O Docker pode executar e escalar um ou vários contêineres ao mesmo tempo, sendo a ferramenta mais adequada para gerenciando de um cluster de instâncias de computação realizando a programação da execução de contêineres no cluster com base nos recursos computacionais disponíveis e nos requisitos de recursos de cada contêiner.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "V – V – F.",
+            "V – F – V.",
+            "V – V – V.",
+            "F – V – F.",
+            "F – F – F."
+        ],
+        "gabarito": "F – F – F."
+    },
+    {
+        "id": 46,
+        "enunciado": "A respeito de contêineres, julgue o item seguinte.\nPara facilitar o intercâmbio de dados, arquivos e diretórios de um contêiner específico estão disponíveis para outros contêineres.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 47,
+        "enunciado": "A respeito de contêineres, julgue o item seguinte.\nA utilização de contêineres garante que o mesmo pacote seja instalado nos diversos ambientes de uma organização, como, por exemplo, ambientes de desenvolvimento, homologação e produção de TI.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 48,
+        "enunciado": "A respeito de contêineres, julgue o item seguinte.\nDevido a conflitos de implementação, aplicações com microsserviços não podem ser construídas com a utilização de contêineres.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 49,
+        "enunciado": "No que diz respeito a refatoração e modernização de software, julgue o item subsequente.\nAo se aplicar um patch em um container, outro container pode ser gerado, o que permite a verificação do impacto do patch sobre as aplicações.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 50,
+        "enunciado": "No que diz respeito a refatoração e modernização de software, julgue o item subsequente.\nQuando instalados em um mesmo host, containers diferentes devem executar o mesmo sistema operacional.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 51,
+        "enunciado": "O analista João está instalando um novo cluster de computação em nuvem na CGE/PB, utilizando Kubernetes. Para orquestrar o armazenamento do cluster, João recorreu ao recurso do Kubernetes que adiciona armazenamentos provisionados pelo administrador na forma de volumes que possuem tempo de vida próprio, independente dos pods associados. Os volumes adicionados por João podem ser usados pelos pods do cluster mediante arquivo de solicitação de armazenamento.\nJoão recorreu ao recurso do Kubernetes:",
+        "alternativas": [
+            "DynamicVolume;",
+            "VolumeSnapshot;",
+            "ProjectedVolume;",
+            "PersistentVolume;",
+            "EphemeralVolume."
+        ],
+        "gabarito": "PersistentVolume;"
+    },
+    {
+        "id": 52,
+        "enunciado": "Com relação ao docker, avalie se as afirmativas a seguir são verdadeiras (V) ou falsas (F).\n( ) Docker é uma ferramenta exclusiva para sistemas operacionais Windows.\n( ) Docker é uma ferramenta de código aberto utilizada para criação e gerenciamento de containers.\n( ) Docker é capaz de melhorar a portabilidade e organização de aplicativos.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "F – V – F.",
+            "F – V – V.",
+            "F – F – V.",
+            "V – F – V.",
+            "V – V – F."
+        ],
+        "gabarito": "F – V – V."
+    },
+    {
+        "id": 53,
+        "enunciado": "Docker é uma plataforma de código aberto que automatiza a implantação, o dimensionamento e a gestão de aplicativos em contêineres. Contêineres são unidades leves e autossuficientes que encapsulam todo o software e suas dependências, permitindo a execução consistente em diferentes ambientes, sobre Docker. Assinale a alternativa que apresenta o comando utilizado para parar todos os containers em execução no sistema.",
+        "alternativas": [
+            "docker stop $(docker ps -q).",
+            "docker pause.",
+            "docker end-all.",
+            "docker break."
+        ],
+        "gabarito": "docker stop $(docker ps -q)."
+    },
+    {
+        "id": 54,
+        "enunciado": "Considerando a utilização de contêineres com Docker, em um projeto, assinale a alternativa que apresenta o comando utilizado para remover um contêiner.",
+        "alternativas": [
+            "docker stop <container>.",
+            "docker rt <container>.",
+            "docker rg <container>.",
+            "docker rm <container>."
+        ],
+        "gabarito": "docker rm <container>."
+    },
+    {
+        "id": 55,
+        "enunciado": "O ______ gerencia vários microserviços (vários contêiners) em uma larga escala, e o ______ é utilizado para criar e manipular imagens de contêiners.\nAssinale a alternativa que preencha correta e respectivamente as lacunas.",
+        "alternativas": [
+            "Kubernet / Docker.",
+            "Docker / Kubernet.",
+            "Docker / Swarm.",
+            "CTLJson / Docker."
+        ],
+        "gabarito": "Kubernet / Docker."
+    },
+    {
+        "id": 56,
+        "enunciado": "Atualmente as empresas estão buscando alternativas de arquiteturas de sistemas e a estruturação em contêiner é uma boa opção por oferecer os benefícios a seguir, exceção feita ao descrito na alternativa:",
+        "alternativas": [
+            "Segurança.",
+            "Escalabilidade.",
+            "Portabilidade.",
+            "Agilidade."
+        ],
+        "gabarito": "Segurança."
+    },
+    {
+        "id": 57,
+        "enunciado": "Julgue o seguinte item, relativo DevOps, CI/CD, contêiner e arquitetura de banco de dados.\nKubernetes é uma ferramenta de orquestração de contêineres capaz de oferecer suporte às equipes de DevOps e que pode ser integrada aos fluxos de trabalho de CI/CD;\na orquestração de contêineres permite automatizar a implantação, o gerenciamento, o dimensionamento e a rede de contêineres.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 58,
+        "enunciado": "A respeito de contêineres, máquinas virtuais e DevOps, julgue o item a seguir.\nContêineres e máquinas virtuais são equivalentes, sendo ambos uma cópia digital de uma máquina física; os contêineres, além de serem uma cópia digital, contêm o código de uma aplicação, suas bibliotecas e outras dependências.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 59,
+        "enunciado": "Acerca do desenvolvimento de pipelines e do processamento distribuído para aprendizado de máquina, julgue o seguinte item.\nUm dos propósitos da ferramenta Docker, no contexto de desenvolvimento de pipelines para aprendizado de máquina, é facilitar a criação e distribuição de ambientes isolados, proporcionando uma melhoria na segurança do ambiente de desenvolvimento.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 60,
+        "enunciado": "Compose é uma ferramenta do Docker utilizada para definir e executar “multi-containers”. Para tal, ela faz uso de um arquivo no formato YAML, como o exemplo abaixo.\nSobre o arquivo YAML descrito no exemplo, é correto afirmar:",
+        "alternativas": [
+            "no serviço “web”, a configuração “volumes” garante que deverá ser criado um volume cujo nome é “/code”, e que armazenará o conteúdo da pasta “/data”.",
+            "no serviço “web”, a configuração “depends_on” informa ao container criado pelo serviço “db” que este deverá subir somente após o container do serviço “web” estar em execução.",
+            "o container de banco de dados deverá utilizar uma imagem denominada “postgres:latest”, armazenada no repositório local de imagens.",
+            "ao executar esse conjunto de serviços com a ferramenta docker-compose, serão executados 3 containers no sistema: um container denominado db, outro container denominado web e um terceiro container denominado “compose-service”."
+        ],
+        "gabarito": "o container de banco de dados deverá utilizar uma imagem denominada “postgres:latest”, armazenada no repositório local de imagens."
+    },
+    {
+        "id": 61,
+        "enunciado": "Julgue o item seguinte, no que se refere a arquiteturas de contêiner e orquestradores.\nImagem de contêiner no Kubernetes é uma representação em formato binário que engloba uma aplicação e suas dependências, pronta para ser executada em um contêiner.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 62,
+        "enunciado": "Julgue o item seguinte, no que se refere a arquiteturas de contêiner e orquestradores.\nNas versões atuais do Kubernetes, o comando a seguir somente liberará o nome do pod no apiserver com o encerramento adequado do contêiner.\nkubectl delete pods <pod> --grace-period=0 – force",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 63,
+        "enunciado": "Julgue o item seguinte, no que se refere a arquiteturas de contêiner e orquestradores.\nO comando a seguir clona o repositório especificado e o utiliza como contexto para criar uma imagem Docker de acordo com as instruções contidas no Dockerfile localizado na raiz desse repositório.\ndocker build github.com/creack/docker-firefox",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 64,
+        "enunciado": "Julgue o item seguinte, no que se refere a arquiteturas de contêiner e orquestradores.\nNo comando a seguir, o arquivo compose.yml especifica as configurações ou personalizações adicionais a serem utilizadas para orquestrar o serviço Docker.\ndocker compose -f compose.yml -f compose.admin.yml",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 65,
+        "enunciado": "Considere o seguinte comando da interface de linha de comandos (CLI) da ferramenta Docker.\ndocker cp id:/var/logs/log.txt /tmp/app_logs Esse comando tem por objetivo copiar um arquivo",
+        "alternativas": [
+            "do container identificado por id para um caminho local do host Docker, sem excluir o arquivo original.",
+            "de um caminho local do host Docker para o container identificado por id, sem excluir o arquivo original.",
+            "do container identificado por id para um caminho local do host Docker, excluindo o arquivo original.",
+            "de um caminho local do host Docker para o container identificado por id, excluindo o arquivo original.",
+            "do container identificado por id para outro caminho dentro do próprio container, excluindo o arquivo original."
+        ],
+        "gabarito": "do container identificado por id para um caminho local do host Docker, sem excluir o arquivo original."
+    },
+    {
+        "id": 66,
+        "enunciado": "Em ambientes de desenvolvimento de software escalável, a utilização de containers desempenha um papel crucial. Dentre as ferramentas fundamentais para criar, distribuir e executar containers de forma eficiente, destaca-se uma tecnologia que se tornou sinônimo dessa abordagem. Esta tecnologia proporciona uma forma padronizada de empacotar e distribuir aplicações, garantindo consistência entre diferentes ambientes. Levando em consideração a descrição apresentada no texto, assinale a alternativa que apresenta a tecnologia mais apropriada para criar e distribuir containers:",
+        "alternativas": [
+            "Docker Compose.",
+            "Kubernetes.",
+            "Apache Mesos.",
+            "Docker."
+        ],
+        "gabarito": "Docker."
+    },
+    {
+        "id": 67,
+        "enunciado": "A respeito de conteinerização e DevOps, julgue o item que se segue.\nA comunicação entre os servidores docker e os repositórios de registros deve ocorrer com uso de chaves criptográficas, para garantir a confidencialidade das informações.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 68,
+        "enunciado": "A analista Ana administra o cluster Kubernetes do TJAP. Ana percebeu que o nó ANode do cluster está recusando a criação de containers de forma indevida. Para mitigar o problema, Ana deve verificar no ANode o status do agente do Kubernetes que é executado em cada nó, sendo responsável pela garantia da execução dos containers em um pod do Kubernetes.\nAna deve verificar no ANode o status do:",
+        "alternativas": [
+            "kubectl;",
+            "kubelet;",
+            "kadvisor;",
+            "kube-apiserver;",
+            "kube-scheduler."
+        ],
+        "gabarito": "kubelet;"
+    },
+    {
+        "id": 69,
+        "enunciado": "A tecnologia Kubernetes suporta diversos tipos diferentes de volumes, um pod pode usar qualquer tipo de volume.\nOs volumes que possuem a mesma vida útil de um pod denominam-se",
+        "alternativas": [
+            "temporários.",
+            "transitórios.",
+            "transientes.",
+            "efêmeros.",
+            "voláteis."
+        ],
+        "gabarito": "efêmeros."
+    },
+    {
+        "id": 70,
+        "enunciado": "Julgue o item que se segue, relativo às arquiteturas de container e orquestradores.\nNa plataforma Kubernetes, os containers do mesmo pod possuem um único endereço IP.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 71,
+        "enunciado": "Em um contexto avançado de desenvolvimento, como a harmonização estratégica entre a Computação em Nuvem, as metodologias DevOps e as abordagens modernas de infraestrutura podem ser aprimoradas para otimizar a eficiência operacional e o ciclo de vida de software?",
+        "alternativas": [
+            "Utilizando apenas armazenamento S3 para simplificar o gerenciamento de dados.",
+            "Priorizando exclusivamente block storage para garantir alta disponibilidade de dados.",
+            "Ignorando CI/CD, já que Infraestrutura como Código (IaC) é suficiente para automação.",
+            "Adotando contêineres Docker para facilitar implantação e escalabilidade de aplicações."
+        ],
+        "gabarito": "Adotando contêineres Docker para facilitar implantação e escalabilidade de aplicações."
+    },
+    {
+        "id": 72,
+        "enunciado": "No contexto do Kubernetes, um pod é",
+        "alternativas": [
+            "uma máquina virtual ou computador físico que serve como máquina de trabalho (worker machine) em um cluster.",
+            "o elemento responsável por gerenciar o cluster, coordenando todas as atividades, agendando aplicações e mantendo-as no estado desejado.",
+            "um software responsável por executar contêineres.",
+            "a menor unidade de execução, que encapsula uma ou mais aplicações.",
+            "um conjunto de mecanismos utilizados para liberar recursos no cluster automaticamente, tais como jobs terminados e objetos não referenciados."
+        ],
+        "gabarito": "a menor unidade de execução, que encapsula uma ou mais aplicações."
+    },
+    {
+        "id": 73,
+        "enunciado": "O analista José administra o Docker Swarm do TJMS. José adicionou ao Swarm um novo elemento, do tipo declarativo, que especifica uma determinada imagem de container e os comandos que devem ser executados ao instanciar a imagem.\nJosé adicionou ao Swarm um novo:",
+        "alternativas": [
+            "env;",
+            "task;",
+            "node;",
+            "replica;",
+            "service."
+        ],
+        "gabarito": "service."
+    },
+    {
+        "id": 74,
+        "enunciado": "O Docker é uma tecnologia de containers bem estabelecida e disseminada no mercado. No Docker, o comando que lista todos os containers que estão rodando é o:",
+        "alternativas": [
+            "docker dir.",
+            "docker ls.",
+            "docker inspect.",
+            "docker ps."
+        ],
+        "gabarito": "docker ps."
+    },
+    {
+        "id": 75,
+        "enunciado": "Leia o texto a seguir:\nA questão do aplicativo que não funciona adequadamente ao ser transferido de um ambiente para outro é tão antiga quanto a própria história do desenvolvimento de software. Geralmente, essas dificuldades ocorrem devido a disparidades na configuração dos requisitos da biblioteca principal e outras necessidades de suporte.\nDisponível em: <https://azure.microsoft.com/>. Acesso em 24 fev. 2024. [Adaptado].\nA tecnologia que possibilita contornar o problema mencionado no texto é",
+        "alternativas": [
+            "o container.",
+            "a thread.",
+            "o deadlock.",
+            "o pooling."
+        ],
+        "gabarito": "o container."
+    },
+    {
+        "id": 76,
+        "enunciado": "O Docker é uma plataforma de software que permite a criação, implantação e execução de aplicativos em contêineres. Qual comando do Docker é utilizado para listar todos os containers em execução no sistema Docker?",
+        "alternativas": [
+            "docker ls.",
+            "docker containers.",
+            "docker list.",
+            "docker ps."
+        ],
+        "gabarito": "docker ps."
+    },
+    {
+        "id": 77,
+        "enunciado": "Qual é o benefício da utilização de namespaces no contexto de containers Docker?",
+        "alternativas": [
+            "Isolamento de recursos.",
+            "Execução de binários não seguros.",
+            "Compartilhamento direto de memória.",
+            "Virtualização completa do sistema operacional.",
+            "Integração exclusiva com o Kubernetes."
+        ],
+        "gabarito": "Isolamento de recursos."
+    },
+    {
+        "id": 78,
+        "enunciado": "Assinale a opção em que é apresentado o componente que funciona como um template para o Docker e que pode até ser usado para criação de novas instâncias de si mesmo.",
+        "alternativas": [
+            "contêiner Docker.",
+            "cliente Docker.",
+            "registro Docker.",
+            "serviço Docker.",
+            "imagem Docker."
+        ],
+        "gabarito": "imagem Docker."
+    },
+    {
+        "id": 79,
+        "enunciado": "Em Kubernetes, a funcionalidade Kube-apiserver é responsável por",
+        "alternativas": [
+            "permitir o balanceamento de carga e tráfego entre as instâncias.",
+            "viabilizar a comunicação em rede dos pods.",
+            "atribuir os nós para executar os pods.",
+            "armazenar dados relacionados ao cluster.",
+            "executar os processos do controlador."
+        ],
+        "gabarito": "permitir o balanceamento de carga e tráfego entre as instâncias."
+    },
+    {
+        "id": 80,
+        "enunciado": "Acerca de conteinerização e orquestração com Docker e Kubernetes, assinale a opção correta.",
+        "alternativas": [
+            "A orquestração de contêineres usa o kernel do Linux e recursos do kernel, como cgroups e namespaces, para segregar processos, assim eles podem ser executados de maneira independente.",
+            "Contêineres são plataformas de código aberto (open source) que controlam como e onde eles serão executados.",
+            "A orquestração de contêineres é um processo de gerenciamento automatizado que inclui o provisionamento, a implantação, o escalonamento e o monitoramento de vários contêineres.",
+            "A principal diferença entre Docker e Kubernetes está no fato de que o Docker deve ser executado em um cluster, enquanto o Kubernetes é executado em um único nó.",
+            "Kubernetes é um ambiente isolado, disposto em um servidor, que divide um único host de controle onde cada contêiner possui uma função e responsabilidade."
+        ],
+        "gabarito": "A orquestração de contêineres é um processo de gerenciamento automatizado que inclui o provisionamento, a implantação, o escalonamento e o monitoramento de vários contêineres."
+    },
+    {
+        "id": 81,
+        "enunciado": "A respeito da tecnologia Docker, assinale a opção correta.",
+        "alternativas": [
+            "Docker é um software proprietário e automatiza a implantação da aplicação (ou de conjuntos de processos que constituem uma aplicação) dentro do ambiente de contêiner.",
+            "Docker facilita a limpeza de processos-netos (grandchild) após o encerramento dos processos-filhos (child), algo que é processado de forma limitada nos contêineres Linux tradicionais.",
+            "Docker fornece as mesmas funcionalidades parecidas com UNIX que os contêineres Linux tradicionais oferecem, incluindo a capacidade de usar processos como cron ou syslog dentro do contêiner, junto à aplicação.",
+            "Os contêineres Docker facilitam a colocação rápida de novas versões de software, com novos recursos de negócios, e a rápida reversão para uma versão anterior, se necessária.",
+            "As instâncias de aplicativos em contêiner usam mais memória do que as máquinas virtuais, que são inicializadas e interrompidas mais rapidamente."
+        ],
+        "gabarito": "Os contêineres Docker facilitam a colocação rápida de novas versões de software, com novos recursos de negócios, e a rápida reversão para uma versão anterior, se necessária."
+    },
+    {
+        "id": 82,
+        "enunciado": "Um desenvolvedor de sistemas, voltado para o ambiente Linux, está desenvolvendo um aplicativo como unidades executáveis de software, em que o código do aplicativo vai ser empacotado com suas respectivas bibliotecas e dependências, usando métodos comuns para poder ser executado em qualquer lugar. Esse modelo é denominado de:",
+        "alternativas": [
+            "Integrated Environments.",
+            "WebViewers.",
+            "Contêineres.",
+            "Black Boxs."
+        ],
+        "gabarito": "Contêineres."
+    },
+    {
+        "id": 83,
+        "enunciado": "A respeito de contêineres Docker, é correto afirmar que",
+        "alternativas": [
+            "cada contêiner é executado em sua própria máquina virtual com seu próprio sistema operacional convidado.",
+            "restringem-se ao ambiente Linux, não sendo possível utilizar o Docker em ambientes Windows.",
+            "são executados por hipervisores tipo 1, os quais possuem melhor desempenho que hipervisores tipo 2.",
+            "os aplicativos baseados em contêiner, durante sua execução, compartilham o mesmo kernel do sistema operacional do host.",
+            "por segurança, ainda que múltiplos contêineres sejam executados no mesmo host Docker, eles não podem se comunicar entre si via TCP/IP."
+        ],
+        "gabarito": "os aplicativos baseados em contêiner, durante sua execução, compartilham o mesmo kernel do sistema operacional do host."
+    },
+    {
+        "id": 84,
+        "enunciado": "Kubernetes, também conhecido como k8s, é um sistema de orquestração de contêineres de código aberto que automatiza a implantação, o escalonamento e a gestão de aplicações em contêineres. Sobre os conceitos fundamentais do Kubernetes, qual alternativa define corretamente etcd do Kuberbetes?",
+        "alternativas": [
+            "Sistema de mensagens.",
+            "Tipo de recurso de rede.",
+            "Ferramenta de integração contínua.",
+            "Banco de dados de configuração distribuída."
+        ],
+        "gabarito": "Banco de dados de configuração distribuída."
+    },
+    {
+        "id": 85,
+        "enunciado": "Docker é um framework para a construção e gestão de contêineres (máquinas virtuais de sistema operacional). Para exibir os processos rodando em um container, deve-se executar o comando:",
+        "alternativas": [
+            "docker servisse;",
+            "docker tag;",
+            "docker volume;",
+            "docker top;",
+            "docker commit."
+        ],
+        "gabarito": "docker top;"
+    },
+    {
+        "id": 86,
+        "enunciado": "Acerca das tecnologias que atendem a PDPJ-Br, julgue o próximo item.\nPara facilitar a integração com o Windows, o Kubernetes utiliza armazenamento do tipo NTFS.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 87,
+        "enunciado": "Acerca das tecnologias que atendem a PDPJ-Br, julgue o próximo item.\nO Kubernetes tem como objetivo gerenciar os contêineres de aplicação, sendo de responsabilidade de outra ferramenta o encapsulamento de tudo o que a aplicação exige.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 88,
+        "enunciado": "Julgue o item seguinte, referente a virtualização e contêineres e storage.\nCgroups em contêineres corresponde à política de estruturação de grupos em um único contêiner, com o objetivo de compartilhar todos os recursos disponíveis.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 89,
+        "enunciado": "Julgue o próximo item, relativo ao DevOps.\nNo Kubernetes, o comando kubectl get nodes permite que se crie um pod, com configuração padrão, no nó em que está conectado, sem a necessidade de se atribuir um rótulo para esse nó.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 90,
+        "enunciado": "Julgue o próximo item, relativo ao DevOps.\nOs contêineres são padronizáveis, o que permite a inclusão das dependências necessárias para sua execução, na qual, por exemplo, cada nó em um cluster Kubernetes executa os contêineres.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 91,
+        "enunciado": "Com relação à conteinerização de software, assinale a alternativa correta.",
+        "alternativas": [
+            "Contêineres funcionam como máquinas virtuais, por virtualizarem o hardware de um computador.",
+            "A conteinerização torna o software portável para execução multiplataforma por empacotar, em uma unidade isolada, todo o código necessário ao funcionamento do programa.",
+            "A publicação de um contêiner em diferentes sistemas operacionais exige reescrita de código.do programa.",
+            "Contêineres isolados não compartilham o, núcleo do sistema operacional da máquina hospedeirá.",
+            "Microsserviços em contêineres operam em um mesmo espaço de usuário."
+        ],
+        "gabarito": "A conteinerização torna o software portável para execução multiplataforma por empacotar, em uma unidade isolada, todo o código necessário ao funcionamento do programa."
+    },
+    {
+        "id": 92,
+        "enunciado": "Considerando a orquestração de contêineres utilizando Kubernetes, Docker e Rancher, sabe-se que uma empresa necessita gerenciar múltiplos clusters Kubernetes de forma centralizada e com alta disponibilidade. Assinale a alternativa que apresenta corretamente uma funcionalidade do Rancher que atenderia tal necessidade.",
+        "alternativas": [
+            "Apresenta uma interface gráfica que permite gerenciar múltiplos clusters Kubernetes, incluindo clusters não criados inicialmente via Rancher.",
+            "Não permite a gestão de clusters criados por ele mesmo e sem suporte a clusters Kubernetes preexistentes.",
+            "Gerencia as cargas de requisição a arquivos dentro de uma infraestrutura de redes baseada em Kubernetes.",
+            "Permite gerenciar testes automatizados virtualizando múltiplos clusters em um cluster único.",
+            "É um substituto direto para o Docker, operando como uma plataforma de criptografia nos contêineres de capacidades de orquestração."
+        ],
+        "gabarito": "Apresenta uma interface gráfica que permite gerenciar múltiplos clusters Kubernetes, incluindo clusters não criados inicialmente via Rancher."
+    },
+    {
+        "id": 93,
+        "enunciado": "A Assessoria de Tecnologia da Informação de uma organização está usando Kubernetes como plataforma de orquestração de containers. O Kubernetes foi configurado para escalar automaticamente workloads no modo HorizontalPodAutoscaler (HPA).\nSendo assim, o Kubernetes irá:",
+        "alternativas": [
+            "ajustar periodicamente o número de réplicas em um workload para corresponder a determinada utilização de recursos;",
+            "dimensionar workloads com base no número de eventos a serem processados, como a quantidade de mensagens em uma fila;",
+            "escalar workloads no horário especificado pelo usuário, viabilizando a redução do consumo de recursos fora dos horários de pico;",
+            "observar as configurações personalizadas para os workloads que definem como e quando dimensionar os recursos das réplicas gerenciadas;",
+            "observar as solicitações de recursos na criação e atualização dos pods, descartando-os quando os recursos solicitados forem diferentes da configuração ajustada."
+        ],
+        "gabarito": "ajustar periodicamente o número de réplicas em um workload para corresponder a determinada utilização de recursos;"
+    },
+    {
+        "id": 94,
+        "enunciado": "O analista Carlos está configurando o modo rootless do Docker em um servidor Linux. Carlos sabe que, para operar no modo rootless, o Docker exige a presença de determinados utilitários do sistema operacional que possibilitam o uso de múltiplos identificadores de usuário e de grupo no namespace de um usuário.\nLogo, antes de configurar o modo rootless do Docker no servidor Linux, Carlos verificou a presença dos utilitários:",
+        "alternativas": [
+            "subuid e subgid;",
+            "subuid e newgidmap;",
+            "newuidmap e subgid;",
+            "newuidmap e subuid;",
+            "newuidmap e newgidmap."
+        ],
+        "gabarito": "newuidmap e newgidmap."
+    },
+    {
+        "id": 95,
+        "enunciado": "A analista Dalva administra o cluster de Kubernetes do TRF1. Dalva precisa adicionar ao Kubernetes novas condições de prontidão customizadas para o Pod A. As novas condições devem ser atendidas para o Kubernetes elevar a condição do Pod A ao status Ready.\nDalva deve adicionar as novas condições de prontidão ao manifesto do Pod A, especificamente no elemento:",
+        "alternativas": [
+            "lifecycleConfig;",
+            "readinessGates;",
+            "containerStatuses;",
+            "lifecycleConditions;",
+            "readinessConditions."
+        ],
+        "gabarito": "readinessGates;"
+    },
+    {
+        "id": 96,
+        "enunciado": "Uma empresa de tecnologia está desenvolvendo uma nova aplicação que será baseada em microsserviços e distribuída em vários servidores na nuvem. Os líderes do projeto decidiram usar uma solução com orquestração de contêineres e precisam explicar como essa solução funciona para a equipe e para os clientes. Considerando-se esse contexto, como descrever as funcionalidades que caracterizam as ferramentas de conteinerização e de orquestração?",
+        "alternativas": [
+            "Ferramentas de conteinerização, como Docker, são responsáveis por criar e empacotar aplicações e suas dependências em contêineres isolados, enquanto ferramentas de orquestração, como Kubernetes, gerenciam a distribuição, o escalonamento automático e a resiliência desses contêineres em um cluster de servidores.",
+            "Ferramentas de orquestração, como Docker, permitem criar e empacotar aplicações em contêineres isolados, enquanto ferramentas de conteinerização, como Kubernetes, gerenciam a distribuição e escalonamento desses contêineres em um ambiente de produção.",
+            "Ferramentas de conteinerização, como Kubernetes, são responsáveis por gerenciar a distribuição e escalonamento dos contêineres em um cluster, enquanto ferramentas de orquestração, como Podman, criam e empacotam as aplicações em contêineres isolados.",
+            "Ferramentas de orquestração, como Podman, criam e empacotam contêineres isolados, enquanto ferramentas de conteinerização, como Docker, gerenciam a escalabilidade e a resiliência dos contêineres em um ambiente distribuído.",
+            "Ferramentas de conteinerização, como Docker, são usadas para criar uma rede de contêineres interligados, enquanto ferramentas de orquestração, como Kubernetes, servem apenas para monitorar o desempenho dos contêineres em um cluster."
+        ],
+        "gabarito": "Ferramentas de conteinerização, como Docker, são responsáveis por criar e empacotar aplicações e suas dependências em contêineres isolados, enquanto ferramentas de orquestração, como Kubernetes, gerenciam a distribuição, o escalonamento automático e a resiliência desses contêineres em um cluster de servidores."
+    },
+    {
+        "id": 97,
+        "enunciado": "Um administrador de uma rede de computadores instalará o Docker Swarm na rede de sua empresa. Para isso, os dois primeiros passos para que seja possível ter uma instalação e uma configuração bem-sucedidas implicam",
+        "alternativas": [
+            "usar o comando “docker node is” para instalar o módulo de configuração do Docker Swarm e usar o comando “docker service create” no principal servidor para criar e iniciar o serviço.",
+            "usar o comando “docker node is” para instalar o módulo de configuração do Docker Swarm e iniciar um nó de gerenciamento executando o comando “docker swarm init” em uma das máquinas.",
+            "instalar o Docker Engine em todas as máquinas que serão adicionadas ao cluster do Docker Swarm e usar o comando “docker service create” no principal servidor para criar e iniciar o serviço.",
+            "instalar o Docker Engine em todas as máquinas que serão adicionadas ao cluster do Docker Swarm e usar o comando “docker node is” para instalar o módulo de configuração do Docker Swarm.",
+            "instalar o Docker Engine em todas as máquinas que serão adicionadas ao cluster do Docker Swarm e iniciar um nó de gerenciamento executando o comando “docker swarm init” em uma das máquinas."
+        ],
+        "gabarito": "instalar o Docker Engine em todas as máquinas que serão adicionadas ao cluster do Docker Swarm e iniciar um nó de gerenciamento executando o comando “docker swarm init” em uma das máquinas."
+    },
+    {
+        "id": 98,
+        "enunciado": "Uma rede de computadores de uma grande empresa, que utiliza contêineres, precisa instalar contêineres do Docker. Nesse caso, esses contêineres do Docker funcionarão como um(a)",
+        "alternativas": [
+            "arquivo reutilizável e compartilhável usado para criar outros contêineres ou imagens de sistemas operacionais.",
+            "software diretamente criado de um Dockerfile.",
+            "software criado a partir de streamings de outros contêineres.",
+            "instância de runtime de um software independente, podendo executá-lo de qualquer lugar.",
+            "instância imutável e hermética do Docker."
+        ],
+        "gabarito": "instância de runtime de um software independente, podendo executá-lo de qualquer lugar."
+    },
+    {
+        "id": 99,
+        "enunciado": "Assinale a alternativa que apresenta uma das principais funcionalidades do Kubernetes.",
+        "alternativas": [
+            "O Kubernetes não oferece agilidade para escalar aplicações em contêineres e recursos relacionados.",
+            "O Kubernetes gerencia contêineres apenas em nuvem pública, sem suporte para ambientes híbridos.",
+            "O Kubernetes orquestra contêineres em múltiplos hosts, otimizando o uso do hardware e garantindo a integridade das aplicações.",
+            "O Kubermetes limita o uso de linguagens específicas na configuração dos sistemas."
+        ],
+        "gabarito": "O Kubernetes orquestra contêineres em múltiplos hosts, otimizando o uso do hardware e garantindo a integridade das aplicações."
+    },
+    {
+        "id": 100,
+        "enunciado": "Assinale a alternativa que apresenta uma das vantagens de utilizar o Kubemetes no gerenciamento de aplicações em contêineres.",
+        "alternativas": [
+            "Requer configurações manuais complexas para implantações e atualizações de aplicações.",
+            "Facilita a distribuição de aplicações em contêineres e permite escalabilidade ágil dos recursos.",
+            "Garante que as aplicações sejam compatíveis apenas com determinadas linguagens de programação.",
+            "Impede a coleta de métricas e dados das aplicações gerenciadas."
+        ],
+        "gabarito": "Facilita a distribuição de aplicações em contêineres e permite escalabilidade ágil dos recursos."
+    },
+    {
+        "id": 101,
+        "enunciado": "Um contêiner é um ambiente de software onde é possível instalar uma aplicação ou microsserviço e contém todas as dependências da biblioteca, os binários e uma configuração básica, necessária para a sua execução. Assinale a alternativa que apresenta uma das principais funções dos orquestradores de contêineres.",
+        "alternativas": [
+            "Manter a compatibilidade com versões antigas de sistemas operacionais.",
+            "Gerenciar a criação e remoção de contêineres, além de facilitar a implantação contínua.",
+            "Realizar a instalação manual de patches de segurança e atualizações de software.",
+            "Substituir contêineres de forma manual e coordenar apenas a execução de scripts de configuração."
+        ],
+        "gabarito": "Gerenciar a criação e remoção de contêineres, além de facilitar a implantação contínua."
+    },
+    {
+        "id": 102,
+        "enunciado": "Ao utilizar contêineres, é possível prover o isolamento da aplicação, dependências e recursos de maneira similar a uma máquina virtual (VM, virtual machine), mas de maneira mais leve, em virtude de os contêineres compartilharem o kernel com o sistema hospedeiro. Assinale a alternativa que apresenta qual é o papel das ferramentas de orquestração de contêineres no gerenciamento de aplicações.",
+        "alternativas": [
+            "Desenvolver novas linguagens de programação para contêineres.",
+            "Realizar a configuração manual de redes e servidores físicos.",
+            "Automatizar a manutenção das aplicações, substituindo contêineres com falha e gerenciando atualizações.",
+            "Garantir a compatibilidade dos contêineres com sistemas de arquivos antigos."
+        ],
+        "gabarito": "Automatizar a manutenção das aplicações, substituindo contêineres com falha e gerenciando atualizações."
+    },
+    {
+        "id": 103,
+        "enunciado": "A função principal do Kubernetes, sistema Open Source desenvolvida por engenheiros do Google, é gerenciar a orquestração de contêineres. Isso significa garantir que os contêineres responsáveis por diferentes cargas de trabalho sejam devidamente alocados para execução em máquinas físicas ou virtuais. Assinale a alternativa que apresenta a importância de utilizar uma plataforma de orquestração Kubernetes, em um ambiente de produção.",
+        "alternativas": [
+            "A orquestração de contêineres é essencial para a implantação e o gerenciamento de sistemas distribuídos em uma ampla variedade de ambientes e provedores de nuvem. Operações, como gerenciar a escalabilidade e balanceamento de carga, por outro lado, são melhor controladas manualmente uma vez que são de difícil orquestração.",
+            "Plataformas de orquestração de contêineres, como Kubernetes, são usadas principalmente para garantir que os contêineres permaneçam isolados, impedindo comunicação entre eles, o que reduz os riscos de segurança em produção.",
+            "A orquestração de contêineres automatiza tarefas como escalabilidade, balanceamento de carga, recuperação de falhas e gerenciamento de rede, garantindo que as aplicações rodem de forma eficiente, escalável e resiliente em um ambiente distribuído.",
+            "O principal benefício de uma plataforma de orquestração de contêineres é reduzir o consumo de memória e CPU dos contêineres, colocando funcionalidades como gerenciamento de estado e redes complexas para serem executadas em segundo plano."
+        ],
+        "gabarito": "A orquestração de contêineres automatiza tarefas como escalabilidade, balanceamento de carga, recuperação de falhas e gerenciamento de rede, garantindo que as aplicações rodem de forma eficiente, escalável e resiliente em um ambiente distribuído."
+    },
+    {
+        "id": 104,
+        "enunciado": "No Kubernetes, há duas formas de aplicar mudanças na configuração de uma aplicação: imperativa e declarativa. Considere os dois comandos a seguir.\n1:\nkubectl create -f exemplo.yaml 2:\nkubectl apply -f exemplo-deployment.yaml Nesse caso, é correto afirmar que",
+        "alternativas": [
+            "1 é um exemplo de comando declarativo, em que o kubectl especifica a operação que se deseja aplicar.",
+            "2 é um exemplo de comando imperativo, em que o kubectl especifica a operação que se deseja aplicar.",
+            "2 é um exemplo de comando imperativo, em que o usuário não define que operações serão executadas.",
+            "1 é um exemplo de comando declarativo, em que o sistema do Kubernetes decidirá a melhor forma de aplicá-lo.",
+            "2 é um exemplo de comando declarativo, em que o sistema do Kubernetes decidirá a melhor forma de aplicá-lo."
+        ],
+        "gabarito": "2 é um exemplo de comando declarativo, em que o sistema do Kubernetes decidirá a melhor forma de aplicá-lo."
+    },
+    {
+        "id": 105,
+        "enunciado": "Julgue o próximo item, relativos a DevOps e Kubernetes.\nO CRI (container runtime interface) é o principal protocolo para a comunicação entre o kubelet e o container runtime.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 106,
+        "enunciado": "Julgue o próximo item, relativos a DevOps e Kubernetes.\nUm statefulset define os pods que fornecem instalações e serviços com armazenamento não persistente, de forma que a operação do cluster seja executada sem acoplamento; assim, cada pod pode executar suas funções sem a necessidade de fazer parte de um complemento.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 107,
+        "enunciado": "Julgue o próximo item, relativos a DevOps e Kubernetes.\nUm configmap é um objeto de API usado para armazenar dados confidenciais em pares de chave-valor e apresenta como vantagem a criptografia nativa e leve para pods.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 108,
+        "enunciado": "Julgue o próximo item, relativos a DevOps e Kubernetes.\nPod, por padrão, executa um container (unique container image), assim, caso seja necessário encapsular uma aplicação composta de vários containers fortemente acoplados, faz-se necessário criar vários pods correlacionados no registry.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 109,
+        "enunciado": "Julgue o próximo item, relativos a DevOps e Kubernetes.\nO comando kubeadm init inicializa um Kubernetes worker e o conecta ao cluster existente.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 110,
+        "enunciado": "Julgue o próximo item, relativos a DevOps e Kubernetes.\nNo ingress, os caminhos que não incluem um pathType explícito falharão na validação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 111,
+        "enunciado": "Julgue o próximo item, relativos a DevOps e Kubernetes.\nA execução do comando kubectl get services lista todos os serviços que estão no namespace, descrevendo os nomes dos pods e nodes associados ao cluster conectado.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 112,
+        "enunciado": "Julgue o próximo item, relativos a DevOps e Kubernetes.\nO ingress permite o gerenciamento de rotas HTTPS de fora do cluster para um serviço dentro do cluster, sendo o roteamento do tráfego controlado por regras definidas no próprio ingress.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 113,
+        "enunciado": "Julgue o próximo item, relativos a DevOps e Kubernetes.\nHelm permite que se instalem e(ou) se atualizem aplicativos do Kubernetes.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 114,
+        "enunciado": "Acerca de Kubernetes, julgue os itens que se seguem.\nA menor unidade de gerenciamento no cluster é o pod, que pode conter um ou mais contêineres.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 115,
+        "enunciado": "Acerca de Kubernetes, julgue os itens que se seguem.\nWorker nodes têm a função de coordenar tarefas dos pods e manter a saúde do cluster, sendo o master node o local onde os pods são executados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 116,
+        "enunciado": "Acerca de Kubernetes, julgue os itens que se seguem.\nO armazenamento dos dados de configurações e estados de um cluster é mantido no etcd, que é um banco de dados distribuído de chave-valor.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 117,
+        "enunciado": "Considere o uso de Docker e Kubemetes e seus respectivos papeis em um ambiente de desenvolvimento e produção. Nesse contexto, o Docker",
+        "alternativas": [
+            "Build ê a ferramenta para definir e executar aplicações com vários contêineres dentro de um cluster.",
+            "Hub pode ser usado pelo Kubemetes para definir e executar aplicações com vários contêineres, e o Docker Engine para escalar automaticamente os contêineres com base na utilização.",
+            "é usado para orquestrar múltiplos contêineres em um cluster, enquanto o Kubemetes é usado principalmente para construir e compartilhar imagens de contêiner.",
+            "Engíne permite a criação e execução de contêineres individualmente, enquanto o Kubernetes gerencia e escalona múltiplos contêineres em pods em um cluster.",
+            "pode ser substituído pelo Kubemetes Hub como ferramenta de criação de imagens, oferecendo uma solução completa para construir e distribuir contêineres de aplicação."
+        ],
+        "gabarito": "Engíne permite a criação e execução de contêineres individualmente, enquanto o Kubernetes gerencia e escalona múltiplos contêineres em pods em um cluster."
+    },
+    {
+        "id": 118,
+        "enunciado": "A analista Ana configurou o pipeline MainPipe no GitLab CI/CD da PGM de Niterói. O MainPipe possui um único job, o BuildJob, que automatiza o processo de build da aplicação PGMApp. O build de PGMApp é realizado em um container Docker e demanda a execução de um banco de dados em outro container Docker. A fim de aproveitar os recursos de integração do GitLab CI/CD com o Docker, Ana especificou as imagens Docker necessárias ao build diretamente no arquivo.gitlab-ci.yml do MainPipe, no trecho associado ao BuildJob.\nLogo, Ana especificou a imagem Docker para o build e a imagem Docker para o banco de dados, respectivamente, nas subseções do.gitlab-ci.yml:",
+        "alternativas": [
+            "image e services;",
+            "image e artifacts;",
+            "workflow e services;",
+            "workflow e artifacts;",
+            "artifacts e workflow."
+        ],
+        "gabarito": "image e services;"
+    },
+    {
+        "id": 119,
+        "enunciado": "Considere que a equipe de TI do Ministério Público utiliza o Kubernetes como ferramenta de controle de clusters e neste ambiente também encontra-se o Kubectl, uma ferramenta de linha de comando para gerenciar objetos e clusters Kubernetes, instalados e funcionando em condições ideais. Um Analista foi solicitado a apresentar os comandos para as seguintes questões relativas ao Kubectl:\nI. Verificar se o Kubectl pode autenticar e acessar o cluster Kubernetes de um usuário.\nII. Visualizar como está a configuração do Kubectl.\nIII. Buscar a lista de clusters definidos no kubeconfig.\nOs comandos para realizar as tarefas I, II e III são, correta e respectivamente,",
+        "alternativas": [
+            "$ kubectl kubernetes-info / $ kubectl config_view / $ kubectl get-clusters.",
+            "$ kubectl cluster-info / $ kubectl view_config / $ kubectl config list-clusters.",
+            "$ kubectl kubectl-info / $ kubectl config view / $ kubectl list-clusters.",
+            "$ kubectl kubernetes-info / $ kubectl view_config / $ kubectl get-clusters.",
+            "$ kubectl cluster-info / $ kubectl config view / $ kubectl config get-clusters."
+        ],
+        "gabarito": "$ kubectl cluster-info / $ kubectl config view / $ kubectl config get-clusters."
+    },
+    {
+        "id": 120,
+        "enunciado": "É uma ferramenta de gerenciamento do Kubernetes para implantar e executar clusters em qualquer lugar e em qualquer provedor. Acrescenta ao Kubernetes a autenticação centralizada e o controle de acesso baseado em função (RBAC) para todos os clusters, oferecendo aos administradores globais a capacidade de controlar o acesso ao cluster de um local. Ainda permite o monitoramento e alerta detalhados para os clusters e seus recursos, envia logs para provedores externos e se integra diretamente ao Helm por meio do Catálogo de Aplicativos. Também permite que um sistema CI/CD externo possa ser conectado à ferramenta.\nO texto se refere ao",
+        "alternativas": [
+            "Fleet.",
+            "RabbitMQ.",
+            "Rancher.",
+            "Istio.",
+            "Reverse API."
+        ],
+        "gabarito": "Rancher."
+    },
+    {
+        "id": 121,
+        "enunciado": "Um dos principais recursos que o Rancher adiciona ao Kubernetes é a autenticação centralizada do usuário, que é realizada usando o proxy de autenticação do Rancher, que é instalado junto com o Rancher. Esse proxy autentica os usuários e encaminha suas solicitações para seus clusters Kubernetes usando uma conta de serviço. Dentre os serviços de autenticação externa aos quais o proxy de autenticação do Rancher (versão 2.se integra, estão:",
+        "alternativas": [
+            "AaaS, MFA, FIDOL, PIN.",
+            "Google Active Directory, GitHub, Microsoft Azure AZZ.",
+            "FeeIPA, Microsoft OpenLDAP, Linux AD FS.",
+            "PongIdentity, Okta, Shiboleth, Oracle YLOM.",
+            "Keycloak (OIDC), Keycloak (SAML), Google OAuth, Auth Service."
+        ],
+        "gabarito": "Keycloak (OIDC), Keycloak (SAML), Google OAuth, Auth Service."
+    },
+    {
+        "id": 122,
+        "enunciado": "Considere um ambiente em que o Docker esteja instalado e funcionando em condições ideais. Uma Analista digitou os seguintes comandos:\n$ docker container create -i -t --name mppbcontainer alpine $ docker container start --attach -i mppbcontainer O comando que seria equivalente aos dois comandos acima é:",
+        "alternativas": [
+            "$ docker run -rm --name mppbcontainer/alpine.",
+            "$ docker run -it --name mppbcontainer alpine.",
+            "$ docker container create && start --name mppbcontainer alpine.",
+            "$ docker exec -i -t --name mppbcontainer//alpine.",
+            "$ docker exec container --name mppbcontainer alpine."
+        ],
+        "gabarito": "$ docker run -it --name mppbcontainer alpine."
+    },
+    {
+        "id": 123,
+        "enunciado": "A analista Maria gerencia a aplicação WebJus. A WebJus requer a execução de dois containers Docker que necessitam de comunicação entre si. No entanto, para fins de balanceamento de carga, cada container da WebJus foi alocado em um servidor diferente. A fim de configurar a comunicação entre os containers da WebJus de forma simples, Maria criou a rede Docker NetJus, que é capaz de conectar containers rodando em servidores diferentes.\nA NetJus utiliza o driver de rede Docker:",
+        "alternativas": [
+            "host;",
+            "ipvlan;",
+            "bridge;",
+            "overlay;",
+            "macvlan."
+        ],
+        "gabarito": "overlay;"
+    },
+    {
+        "id": 124,
+        "enunciado": "Assinale a alternativa que descreve corretamente o conceito de Serviço do Kubernetes.",
+        "alternativas": [
+            "A entrega de pods como instâncias de processos à aplicação.",
+            "A orquestração de containers ao longo de todo o cluster, com gerenciamento automatizado.",
+            "Uma forma de expor uma aplicação rodando sobre um conjunto de pods como um serviço de rede.",
+            "A distribuição de pods pelos nós do cluster, implementando um balanceamento de carga pró-ativo.",
+            "É o componente que monitora a existência de Pods recentemente criados sem nó designado, e lhes atribui um nó para que sejam executados."
+        ],
+        "gabarito": "Uma forma de expor uma aplicação rodando sobre um conjunto de pods como um serviço de rede."
+    },
+    {
+        "id": 125,
+        "enunciado": "Analise as afirmativas abaixo sobre Kubernetes.\n1. O Controle Plane é responsável por gerenciar os principais componentes e garantir que o funcionamento esteja de acordo com o estado almejado da aplicação.\n2. O etcd é um repositório de chave-valor consistente e de alta disponibilidade.\n3. O servidor de APIs do Kubernetes é denominado kube-container.\nAssinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "É correta apenas a afirmativa 1.",
+            "São corretas apenas as afirmativas 1 e 2.",
+            "São corretas apenas as afirmativas 1 e 3.",
+            "São corretas apenas as afirmativas 2 e 3.",
+            "São corretas as afirmativas 1, 2 e 3."
+        ],
+        "gabarito": "São corretas apenas as afirmativas 1 e 2."
+    },
+    {
+        "id": 126,
+        "enunciado": "Julgue o item subsequente, referente a ferramentas de integração assíncrona e contêineres.\nO Kubernetes permite agrupar hosts executados em contêineres Linux (LXC) em clusters Kubernetes, os quais podem conter um kubelet, que é um grupo de um ou mais contêineres implantados em um nó, suportando aplicações que realizam, por exemplo, a transmissão de dados em tempo real pelo Apache Kafka.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 127,
+        "enunciado": "Qual a finalidade do Docker no desenvolvimento com.NET 5 e.NET Core, utilizando Kubernetes?",
+        "alternativas": [
+            "Fornecer um ambiente de desenvolvimento isolado para aplicativos.NET.",
+            "Facilitar o gerenciamento de contêineres em um ambiente Kubernetes.",
+            "Automatizar a implantação e dimensionamento de aplicativos.NET.",
+            "Gerar arquivos de manifesto para implantação de aplicativos.NET em Kubernetes.",
+            "Monitorar a saúde e desempenho de aplicativos.NET em tempo real."
+        ],
+        "gabarito": "Facilitar o gerenciamento de contêineres em um ambiente Kubernetes."
+    },
+    {
+        "id": 128,
+        "enunciado": "Qual a vantagem de utilizar o Kubernetes no desenvolvimento com.NET 5 e.NET Core utilizando Docker?",
+        "alternativas": [
+            "Permitir a execução de aplicativos.NET em diferentes sistemas operacionais.",
+            "Possibilitar a distribuição de cargas de trabalho de aplicativos.NET entre diferentes clusters Kubernetes.",
+            "Garantir a escalabilidade automática de aplicativos.NET de acordo com a demanda.",
+            "Simplificar o processo de implantação de aplicativos.NET em contêineres Docker.",
+            "Oferecer um ambiente de desenvolvimento padronizado para aplicativos.NET."
+        ],
+        "gabarito": "Garantir a escalabilidade automática de aplicativos.NET de acordo com a demanda."
+    },
+    {
+        "id": 129,
+        "enunciado": "Assinale a alternativa que descreve corretamente o Docker, uma plataforma de conteinerização amplamente utilizada.",
+        "alternativas": [
+            "Docker é um sistema de gerenciamento de pacotes que permite a instalação e atualização de software em sistemas operacionais baseados em Linux.",
+            "Docker é uma ferramenta de virtualização que permite a criação de máquinas virtuais completas com seus próprios sistemas operacionais.",
+            "Docker é uma plataforma de infraestrutura como serviço (IaaS) que fornece recursos computacionais e de armazenamento na nuvem.",
+            "Docker é uma plataforma de orquestração de contêineres que gerencia o ciclo de vida e a implantação de contêineres em clusters.",
+            "Docker é uma plataforma de conteinerização que permite empacotar, distribuir e executar aplicações em contêineres isolados."
+        ],
+        "gabarito": "Docker é uma plataforma de conteinerização que permite empacotar, distribuir e executar aplicações em contêineres isolados."
+    },
+    {
+        "id": 130,
+        "enunciado": "Suponha que você seja um analista de infraestrutura em uma empresa de tecnologia e esteja trabalhando em um projeto que envolve o uso de Docker para executar aplicativos em contêineres. Sua equipe busca garantir a segurança dos contêineres, sem comprometer a escalabilidade e a portabilidade. Nesse cenário, qual é a maneira eficaz de melhorar a segurança ao executar aplicativos em contêineres com Docker?",
+        "alternativas": [
+            "Executar todos os contêineres com privilégios de root.",
+            "Utilizar imagens de base não oficiais para contêineres.",
+            "Implementar políticas de segurança usando Docker Secrets e Docker Content Trust.",
+            "Executar várias instâncias de aplicativos diferentes em um único contêiner.",
+            "Ignorar as práticas de isolamento de recursos do Docker."
+        ],
+        "gabarito": "Implementar políticas de segurança usando Docker Secrets e Docker Content Trust."
+    },
+    {
+        "id": 131,
+        "enunciado": "No Kubernetes, qual é a abordagem correta para implementar comunicação segura entre os componentes do cluster e garantir autenticação e autorização adequadas?",
+        "alternativas": [
+            "Desabilitar o controle de acesso baseado em função (RBAC) e permitir o acesso a todos os usuários e serviços.",
+            "Utilizar certificados autoassinados para todos os componentes do cluster e ignorar a validação de certificados.",
+            "Implementar políticas de segurança usando o etcd como armazenamento centralizado de credenciais e chaves de criptografia.",
+            "Configurar o Kubernetes para utilizar criptografia TLS, certificados válidos e controle de acesso baseado em função (RBAC).",
+            "Utilizar somente redes não criptografadas entre os componentes do cluster para melhorar o desempenho."
+        ],
+        "gabarito": "Configurar o Kubernetes para utilizar criptografia TLS, certificados válidos e controle de acesso baseado em função (RBAC)."
+    },
+    {
+        "id": 132,
+        "enunciado": "Na virtualização por contêineres, o mecanismo que engloba recursos do sistema em uma abstração é conhecido como",
+        "alternativas": [
+            "control groups.",
+            "union file systems.",
+            "bare metal.",
+            "namespace.",
+            "inter process communication."
+        ],
+        "gabarito": "namespace."
+    },
+    {
+        "id": 133,
+        "enunciado": "Deseja-se executar um container Docker no qual um diretório específico dentro do container seja mapeado em um diretório específico da máquina host. Esse diretório do host deve ser especificado pelo usuário do Docker por meio de seu caminho absoluto no comando de execução do container.\nA solução para esse problema consiste em utilizar",
+        "alternativas": [
+            "uma imagem.",
+            "um volume.",
+            "um bind mount.",
+            "um tmpfs mount.",
+            "uma rede virtual."
+        ],
+        "gabarito": "um bind mount."
+    },
+    {
+        "id": 134,
+        "enunciado": "O seguinte comando do Kubernetes kubectl create ns conf tem por objetivo",
+        "alternativas": [
+            "aplicar no cluster as configurações contidas no arquivo conf, após sua atualização.",
+            "criar um job chamado conf com base na imagem ns.",
+            "criar um cronjob chamado conf com base na imagem ns.",
+            "criar um namespace chamado conf.",
+            "criar uma priority class chamada conf com a descrição ns."
+        ],
+        "gabarito": "criar um namespace chamado conf."
+    },
+    {
+        "id": 135,
+        "enunciado": "O seguinte comando da ferramenta Docker serve para remover todos os volumes locais não usados.\ndocker volume prune --all Nesse contexto, os volumes “não usados” são aqueles que",
+        "alternativas": [
+            "estão vazios.",
+            "não são referenciados por nenhum container.",
+            "não são usados há um determinado período de tempo, cujo valor default depende das configurações do Docker.",
+            "são anônimos.",
+            "não contêm nenhum arquivo de imagem."
+        ],
+        "gabarito": "não são referenciados por nenhum container."
+    },
+    {
+        "id": 136,
+        "enunciado": "Um arquivo YAML de configuração de um serviço Kubernetes possui o seguinte conteúdo:\napiVersion: v1 kind: Service metadata:\nname: my-service spec:\nselector:\napp.kubernetes.io/name: MyApp ports:\n- protocol: TCP port: 80 targetPort: 9376 Os pods que devem ser incluídos no serviço são",
+        "alternativas": [
+            "aqueles que escutam (listen) em alguma porta do protocolo TCP, em qualquer porta.",
+            "aqueles que escutam (listen) na porta 80 do protocolo TCP.",
+            "aqueles que possuem a label spec.",
+            "aqueles que possuem a label my-service.",
+            "aqueles que possuem a label app.kubernetes.io/ name: MyApp."
+        ],
+        "gabarito": "aqueles que possuem a label app.kubernetes.io/ name: MyApp."
+    },
+    {
+        "id": 137,
+        "enunciado": "Tendo em vista que, no atual cenário de desenvolvimento de aplicações web, é essencial considerar princípios, como consistência e escalabilidade, e práticas, como automação do processo de implantação e integração do código-fonte, julgue o item subsequente.\nUm exemplo prático de conteinerização de aplicação é a utilização do Docker para criar um ambiente consistente; nesse caso, é correto criar um arquivo Dockerfile por meio do comando docker build.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 138,
+        "enunciado": "Tendo em vista que, no atual cenário de desenvolvimento de aplicações web, é essencial considerar princípios, como consistência e escalabilidade, e práticas, como automação do processo de implantação e integração do código-fonte, julgue o item subsequente.\nA adoção de tecnologias de conteinerização, como o Docker, permite à equipe orquestrar vários contêineres em conjunto, por exemplo, um contêiner para a aplicação Node.js e outro, para o banco de dados MongoDB.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 139,
+        "enunciado": "A seguir, é apresentado um arquivo Dockerfile para a criação de um contêiner.\nFROM node:18-alpine WORKDIR /app COPY..\nRUN yarn install --production CMD [\"node\", \"src/index.js\"] EXPOSE 3000 A partir das informações precedentes e considerando que se esteja no mesmo diretório onde se encontra o arquivo Dockerfile, assinale a opção que apresenta o comando a ser executado para criar uma imagem do contêiner com o nome node-js.",
+        "alternativas": [
+            "docker cp -t node-js.",
+            "docker build -t node-js.",
+            "docker push -t node-js.",
+            "docker image -t node-js.",
+            "docker pull -t node-js."
+        ],
+        "gabarito": "docker build -t node-js."
+    },
+    {
+        "id": 140,
+        "enunciado": "Assinale a opção correspondente ao comando, em Docker, que permite ao usuário fazer o download de uma imagem específica ou um conjunto de imagens do Docker Hub.",
+        "alternativas": [
+            "docker attach.",
+            "docker node ls.",
+            "docker pull.",
+            "docker rmi.",
+            "docker rm /redis."
+        ],
+        "gabarito": "docker pull."
+    },
+    {
+        "id": 141,
+        "enunciado": "Considere o seguinte comando da ferramenta Docker:\ndocker run -v $(pwd):/content -w / content -i -t ubuntu ls Trata-se de uma única linha, aqui dividida em duas por questões de espaço.\nQuando executado em um ambiente Linux, esse comando tem por objetivo:",
+        "alternativas": [
+            "criar uma variável de ambiente chamada pwd em um container baseado na imagem ubuntu, atribuir-lhe o valor /content e executar o comando ls no diretório /content desse container.",
+            "criar um container baseado na imagem ubuntu e executar os comandos pwd e ls dentro desse container, na sequência, dentro da pasta /content.",
+            "criar uma nova imagem de container com base na imagem ubuntu, já existente, adicionando o diretório /content nessa imagem. Gerar o arquivo de imagem no diretório corrente do host, dado pela execução do comando pwd.",
+            "montar o diretório corrente do host no diretório /content de um container baseado na imagem ubuntu, determinar /content como diretório de trabalho e executar o comando ls dentro desse container.",
+            "listar os containers em execução pelo Docker no host, filtrando apenas aqueles que se baseiam na imagem ubuntu e possuam o diretório /content."
+        ],
+        "gabarito": "montar o diretório corrente do host no diretório /content de um container baseado na imagem ubuntu, determinar /content como diretório de trabalho e executar o comando ls dentro desse container."
+    },
+    {
+        "id": 142,
+        "enunciado": "Assinale a opção em que é apresentado o comando que permite listar todos os nós que o gerenciador do Docker Swarm conhece.",
+        "alternativas": [
+            "docker attach.",
+            "docker node ls.",
+            "docker pull.",
+            "docker rmi.",
+            "docker rm /redis."
+        ],
+        "gabarito": "docker node ls."
+    },
+    {
+        "id": 143,
+        "enunciado": "Considerando os conceitos de linguagem de programação e conceitos de contêineres, julgue o item a seguir.\nUm aplicativo conteinerizado pode ser testado como uma unidade e implantado como instância de uma imagem de contêiner no sistema operacional hospedeiro.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 144,
+        "enunciado": "No que se refere a contêineres e à orquestração de contêineres, julgue o item seguinte.\nKubernetes é uma plataforma utilizada para manter e implantar um grupo de contêineres em tempo de execução, além de ser comumente utilizada junto com a ferramenta Docker, para melhor controle e implementação de aplicativos em contêineres.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 145,
+        "enunciado": "O conceito que descreve a prática de empacotar uma aplicação juntamente com suas dependências e configurações em um único conjunto, permitindo que ela seja executada de forma consistente em diferentes ambientes, é:",
+        "alternativas": [
+            "Computação em Nuvem.",
+            "Clusterização.",
+            "Conteinerização.",
+            "Versionamento.",
+            "Virtualização."
+        ],
+        "gabarito": "Conteinerização."
+    },
+    {
+        "id": 146,
+        "enunciado": "A remoção de containers Docker é uma tarefa essencial para liberar recursos e manter um ambiente limpo. Com o devido comando, é possível remover containers específicos, evitando o acúmulo desnecessário de instâncias. A remoção adequada ajuda a otimizar o uso dos recursos e manter a organização do sistema. Qual dos seguintes comandos é usado para remover um container Docker chamado \"nome_do_container\"?",
+        "alternativas": [
+            "docker rm nome_do_container.",
+            "docker remove nome_do_container.",
+            "docker delete nome_do_container.",
+            "docker stop nome_do_container.",
+            "docker destroy nome_do_container."
+        ],
+        "gabarito": "docker rm nome_do_container."
+    },
+    {
+        "id": 147,
+        "enunciado": "O Kubernetes é uma plataforma de orquestração de contêineres que visa facilitar o desenvolvimento e a implantação de aplicações. Uma implantação do Kubernetes em funcionamento é chamada de cluster. O plano de controle do cluster Kubernetes é formado pelos componentes que controlam o cluster e os dados sobre o estado e a configuração do cluster. Esse plano de controle fornece uma API pela qual o usuário interage com o cluster. Essa interação pode ser realizada a partir da linha de comando com a seguinte ferramenta nativa do Kubernetes:",
+        "alternativas": [
+            "kubeapi.",
+            "kube-api-cmd.",
+            "kube-cmd.",
+            "kubeget.",
+            "kubectl."
+        ],
+        "gabarito": "kubectl."
+    },
+    {
+        "id": 148,
+        "enunciado": "Julgue o item seguinte, a respeito de contêineres e virtualização.\nContêineres são similares a máquinas virtuais, mas estas são mais leves e mais integradas ao sistema operacional da máquina host.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 149,
+        "enunciado": "Um Analista esta trabalhando em um projeto de microsserviços que inclui um serviço de autenticação de nome server-authentication, marcado com a tag v2.o. que está armazenado em um repositório no Docker Hub com o nome tjuba. Em condições ideais, para baixar a imagem do contêiner do serviço de autenticação, ele deve executar o comando:",
+        "alternativas": [
+            "docker get-p 8080:80 repository:tjuba service:server- authentication version:2.0.",
+            "docker pull tjuba/server- authentication:v2.0.",
+            "docker push-p:8080 tjuba/server-authentication:v2.0.",
+            "docker download repository:tjuba service:server- authentication version: 2.0.",
+            "docker download -p 8080:80 tjuba/server- authentication:v2.0."
+        ],
+        "gabarito": "docker pull tjuba/server- authentication:v2.0."
+    },
+    {
+        "id": 150,
+        "enunciado": "Em uma pipeline de CI/CD, é correto afirmar que a principal característica de um contêiner é o (a)",
+        "alternativas": [
+            "segurança de dados.",
+            "automação de testes.",
+            "versionamento de código.",
+            "isolamento de recursos.",
+            "baixa tolerância a falhas."
+        ],
+        "gabarito": "isolamento de recursos."
+    },
+    {
+        "id": 151,
+        "enunciado": "Com relação à tecnologia Kubernetes para orquestração de contêineres, assinale a alternativa correta.",
+        "alternativas": [
+            "Por padrão, Kubernetes armazena Secrets de modo não encriptado.",
+            "Kubernetes é um sistema PaaS completo.",
+            "A plataforma não é capaz de expor contêineres utilizando o nome DNS.",
+            "Kubernetes proporciona o balanceamento de carga entre os contêineres de um grupo denominado cluster.",
+            "O contêiner é a unidade atômica na plataforma Kubernetes."
+        ],
+        "gabarito": "Por padrão, Kubernetes armazena Secrets de modo não encriptado."
+    },
+    {
+        "id": 152,
+        "enunciado": "O Kubernetes é utilizado para automatizar o gerenciamento de aplicativos em contêiner. A respeito do Kubernetes, marque V para as afirmativas verdadeiras e F para as falsas.\n( ) Utiliza pod para criar um ambiente de teste local.\n( ) Usa volumes como máquinas de processamento.\n( ) Tem kubectl como interface de linha de comando.\n( ) Trata-se de produto comercial, de código fechado.\nAssinale a sequência correta.",
+        "alternativas": [
+            "V, F, V, F.",
+            "F, V, V, V.",
+            "V, V, F, V.",
+            "V, F, F, F.",
+            "F, F, V, F."
+        ],
+        "gabarito": "F, F, V, F."
+    },
+    {
+        "id": 153,
+        "enunciado": "Sobre Docker, analise as afirmativas.\nI- O Docker Dashboard está disponível para Windows e Mac.\nII- Docker Hub torna possível o compartilhamento de imagens docker.\nIII- Docker Compose é um serviço para registrar aplicações na nuvem.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I e III, apenas.",
+            "II, apenas.",
+            "I e II, apenas.",
+            "III, apenas.",
+            "I, apenas."
+        ],
+        "gabarito": "I e II, apenas."
+    },
+    {
+        "id": 154,
+        "enunciado": "Em programação, os contêineres são utilizados em larga escala no desenvolvimento, testes e, principalmente, na produção de softwares, permitindo rodar múltiplos sistemas isolados dentro de um sistema operacional real.\nA esse respeito, julgue os itens a seguir.\nI. Em um contêiner, é possível utilizar diversos recursos e ferramentas, porém tudo roda em um mesmo sistema operacional; em caso de pane, todas as funcionalidades serão afetadas.\nII. Ferramentas embasadas nos contêineres Linux oferecem aos usuários acesso sem precedentes a aplicações, além da habilidade de implementar com rapidez e de ter total controle sobre as versões e distribuição.\nIII. As ferramentas de contêiner, incluindo o Docker, fornecem um modelo de implantação com base em imagens, facilitando o compartilhamento de uma aplicação ou conjunto de serviços, incluindo todas as dependências deles em vários ambientes.\nAssinale a opção correta.",
+        "alternativas": [
+            "Apenas o item I está certo.",
+            "Apenas o item II está certo.",
+            "Apenas os itens I e III estão certos.",
+            "Apenas os itens II e III estão certos.",
+            "Todos os itens estão certos."
+        ],
+        "gabarito": "Apenas os itens II e III estão certos."
+    },
+    {
+        "id": 155,
+        "enunciado": "A orquestração automatiza a implantação, o gerenciamento, a escala e a rede dos contêineres. As ferramentas de orquestração de contêineres fornecem um framework para gerenciar arquiteturas de microsserviços e contêineres em escala, e muitas delas são usadas no gerenciamento do ciclo de vida dos contêineres; entre elas, o Docker Swarm é uma plataforma",
+        "alternativas": [
+            "que permite utilizar diversos recursos e ferramentas, como Apache e PHP, porém tudo rodando em um mesmo sistema operacional.",
+            "de código aberto criada pelo Google para operações de implantação de contêiner, aumento e redução e automação em clusters de hosts.",
+            "de orquestração de contêiner de código aberto, sendo o mecanismo de clusterização nativo para e pelo Docker, utilizando sua mesma linha de comando.",
+            "que roda sobre o Kubernetes instalado em sistema operacional na versão Enterprise da Red Hat, agregando opções de monitoramento, integração e entrega contínua.",
+            "usada pela Amazon para fornecer outros serviços aos clientes, como DNS, balanceamento, segurança e monitoramento, se integrando nativamente."
+        ],
+        "gabarito": "de orquestração de contêiner de código aberto, sendo o mecanismo de clusterização nativo para e pelo Docker, utilizando sua mesma linha de comando."
+    },
+    {
+        "id": 156,
+        "enunciado": "A tecnologia Docker usa o kernel do Linux e recursos do kernel para segregar processos; as ferramentas baseadas nos contêineres Linux oferecem aos usuários acesso sem precedentes a aplicações, além da habilidade de implantar com rapidez e de ter total controle sobre as versões e distribuição.\nA respeito da tecnologia Docker, assinale a opção correta.",
+        "alternativas": [
+            "O Docker é uma tecnologia proprietária que automatiza a implantação da aplicação dentro do ambiente de contêiner.",
+            "O Docker oferece vantagem em questões como a limpeza de processos netos (grandchild) após o encerramento dos processos filhos (child).",
+            "O Docker fornece as mesmas funcionalidades oferecidas pelos contêineres Linux tradicionais, incluindo a capacidade de usar processos como cron ou syslog dentro do contêiner, junto à aplicação.",
+            "As instâncias de aplicativos em contêiner Docker usam mais memória do que as máquinas virtuais, sendo inicializadas e interrompidas mais lentamente.",
+            "Os contêineres Docker facilitam a colocação rápida de novas versões de software, com novos recursos de negócios, e a rápida reversão para uma versão anterior, se necessário."
+        ],
+        "gabarito": "Os contêineres Docker facilitam a colocação rápida de novas versões de software, com novos recursos de negócios, e a rápida reversão para uma versão anterior, se necessário."
+    },
+    {
+        "id": 157,
+        "enunciado": "Um arquivo do tipo Dockerfile contém as configurações de um contêiner; para que seja possível, no final, executar esse contêiner, deve ser usado o comando",
+        "alternativas": [
+            "docker os.",
+            "docker exec.",
+            "docker build.",
+            "docker volume.",
+            "docker image."
+        ],
+        "gabarito": "docker build."
+    },
+    {
+        "id": 158,
+        "enunciado": "Uma das estratégias para reduzir o tamanho de imagens Docker consiste em:",
+        "alternativas": [
+            "combinar comandos RUN em um único comando;",
+            "substituir a imagem base por uma versão mais recente;",
+            "separar comandos RUN complexos em comandos menores;",
+            "reordenar os comandos de forma que o cache seja utilizado com maior frequência;",
+            "compactar arquivos a serem copiados para a imagem e descompactá-los durante a sua geração."
+        ],
+        "gabarito": "combinar comandos RUN em um único comando;"
+    },
+    {
+        "id": 159,
+        "enunciado": "Considerando que a figura anterior mostra o layout de um container, julgue o próximo item.\nNa figura em tela, o container se encontra no retângulo (d).",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 160,
+        "enunciado": "Considerando que a figura anterior mostra o layout de um container, julgue o próximo item.\nNa situação em tela, a cultura DevOps permite simplificar a implantação e o gerenciamento eficiente de containers.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 161,
+        "enunciado": "Sobre Docker, marque a alternativa CORRETA:",
+        "alternativas": [
+            "É uma plataforma de software livre que permite que os desenvolvedores empacotem aplicativos em contêineres, que consistem em componentes executáveis e padronizados que combinam o código-fonte do aplicativo com as bibliotecas e dependências do sistema operacional (S.O.) que são necessárias para executar esse código em qualquer ambiente.",
+            "É projetado para ser flexível, ele estabelece um padrão para a construção de interfaces com o usuário do lado do servidor. A arquitetura define claramente uma separação entre a lógica da aplicação e a apresentação, enquanto torna mais fácil ligar a camada de apresentação ao código do aplicativo.",
+            "É uma plataforma que estende a plataforma SE do Java e é o padrão para desenvolvimento de aplicativos empresariais entre a comunidade Java. Em outras palavras, trata-se de framework web MVC para a construção de interfaces de usuário baseadas em componentes.",
+            "Para começar a codificar o Docker, não é necessária nenhuma configuração especial ao servidor Glassfish. Basta instalar o Netbeans com suporte à tecnologia Java EE, que por padrão já será instalado o servidor Glassfish pré configurado.",
+            "É um popular framework para projetos JSF que pode ser usado para desenvolver rapidamente aplicações sofisticadas para empresas ou no desenvolvimento de sites padrão. Tecnicamente, é uma biblioteca de componentes de interface gráfica para as aplicações web baseadas em JSF."
+        ],
+        "gabarito": "É uma plataforma de software livre que permite que os desenvolvedores empacotem aplicativos em contêineres, que consistem em componentes executáveis e padronizados que combinam o código-fonte do aplicativo com as bibliotecas e dependências do sistema operacional (S.O.) que são necessárias para executar esse código em qualquer ambiente."
+    },
+    {
+        "id": 162,
+        "enunciado": "Quanto à instalação e à preparação de um ambiente Docker, é possível afirmar:\nI. O Docker Compose não está incluído como parte da instalação do Docker Desktop para Mac e Windows.\nII. Em sistemas Linux, é possível realizar o download do Docker Compose com o comando curl.\nIII. O comando pip é uma alternativa para realizar a instalação do Docker Compose em sistemas Linux.\nIV. Um usuário Linux não root e pertencente ao grupo de usuários docker pode executar comandos do Docker sem utilizar o comando sudo.\nAssinale a alternativa que apresenta apenas a(s) afirmativa(s) correta(s).",
+        "alternativas": [
+            "Apenas IV.",
+            "Apenas I.",
+            "Apenas II, III e IV.",
+            "I, II, III e IV.",
+            "Apenas II e III."
+        ],
+        "gabarito": "Apenas II, III e IV."
+    },
+    {
+        "id": 163,
+        "enunciado": "São agentes de execução de contêineres suportados pelo Kubernetes:\nI. CRI-O\nII. Containerd\nIII. JVM\nIV. Docker Assinale a alternativa que apresenta apena a(s) afirmativa(s) correta(s).",
+        "alternativas": [
+            "Apenas II e IV.",
+            "Apenas III.",
+            "I, II, III e IV.",
+            "Apenas I.",
+            "Apenas I, II e IV."
+        ],
+        "gabarito": "Apenas I, II e IV."
+    },
+    {
+        "id": 164,
+        "enunciado": "No Docker, uma das formas de fazer contêineres se comunicarem é utilizando",
+        "alternativas": [
+            "o comando --public para que os contêineres tenham endereços IP públicos e se comuniquem.",
+            "apenas o comando --port para especificar as portas de cada contêiner.",
+            "os comandos --connect para conectar os contêineres e o --port para especificar as portas de cada contêiner.",
+            "o comando --internal para que os contêineres entrem em uma rede interna se comunicando.",
+            "os comandos --link para conectar os contêineres e o --port para especificar as portas de cada contêiner."
+        ],
+        "gabarito": "os comandos --link para conectar os contêineres e o --port para especificar as portas de cada contêiner."
+    },
+    {
+        "id": 165,
+        "enunciado": "A equipe de analistas de sistemas do TJDFT desenvolveu o Operator COperator para o servidor OpenShift OSServer do Tribunal a fim de automatizar o gerenciamento da aplicação Kubernetes AppK.\nPara implantar o COperator no formato Bundle através do OLM (Operator Lifecycle Manager) do OSServer, a equipe precisou definir os metadados referentes a nome e mantenedor do COperator no seu respectivo:",
+        "alternativas": [
+            "install plan;",
+            "cluster service version;",
+            "registry;",
+            "operator groups;",
+            "operator conditions."
+        ],
+        "gabarito": "cluster service version;"
+    },
+    {
+        "id": 166,
+        "enunciado": "A analista Ana precisa implantar o pod LogPod no cluster de Kubernetes KCluster do TJDFT de forma que todos os nós elegíveis do KCluster executem uma cópia do LogPod.\nPara que o KCluster apresente uma cópia do LogPod em cada nó elegível, de forma automática, Ana deve implantar o LogPod utilizando o recurso do Kubernetes:",
+        "alternativas": [
+            "ReplicationController;",
+            "ReplicaSet;",
+            "StatefulSet;",
+            "DaemonSet;",
+            "EndpointSlice."
+        ],
+        "gabarito": "DaemonSet;"
+    },
+    {
+        "id": 167,
+        "enunciado": "A analista Sara modificou alguns arquivos do container Docker TJSiteContainer que se encontra em execução. Para criar uma imagem Docker a partir do estado atual de TJSiteContainer, a fim de persistirem as modificações efetuadas em seus arquivos, Sara deve utilizar o comando:",
+        "alternativas": [
+            "docker create.",
+            "docker diff.",
+            "docker export.",
+            "docker image save.",
+            "docker commit."
+        ],
+        "gabarito": "docker commit."
+    },
+    {
+        "id": 168,
+        "enunciado": "Compreender como o Kubernetes gerencia os recursos é fundamental para criar e executar seu cluster corretamente. Analise as afirmativas a seguir sobre Kubernets:\nI. O Kubernetes aloca recursos de CPU e memória para contêineres com base em solicitações e limites.\nII. As solicitações de um contêiner são as quantidades mínimas de recursos que ele precisa para executar. Seus limites especificam a quantidade máxima que pode ser usada.\nIII. Imagens de contêiner mínimas são mais rápidas de construir, enviar, implantar e iniciar. Quanto maior o contêiner, menores são as vulnerabilidades de segurança em potencial.\nAssinale",
+        "alternativas": [
+            "se somente o item I estiver correto.",
+            "se somente o itens I e II estiverem corretos.",
+            "se somente o itens II e III estiverem corretos.",
+            "se todos os itens estiverem corretos."
+        ],
+        "gabarito": "se somente o itens I e II estiverem corretos."
+    },
+    {
+        "id": 169,
+        "enunciado": "Sobre Kubernets, assinale a alternativa correta a seguir:",
+        "alternativas": [
+            "As sondagens de prontidão informam ao Kubernetes que o contêiner está pronto e capaz de atender a solicitações. Se a sondagem de prontidão falhar, o contêiner continuará em funcionamento em qualquer serviço que faça referência a ele, mantendo o tráfego do usuário.",
+            "Os PodDisruptionBudgets permitem limitar o número de Pods que podem ser interrompidos de uma vez durante as remoções, preservando a alta disponibilidade do seu aplicativo.",
+            "Os namespaces são uma forma de particionar logicamente seu cluster. Você pode criar um namespace apenas para grupos de aplicativos relacionados.",
+            "Para fazer referência a um serviço em outro namespace, você pode usar um endereço DNS como este: SERVICE.NAMESPACE."
+        ],
+        "gabarito": "Para fazer referência a um serviço em outro namespace, você pode usar um endereço DNS como este: SERVICE.NAMESPACE."
+    },
+    {
+        "id": 170,
+        "enunciado": "No Linux, em condições ideais, o Docker é disponibilizado com três redes por padrão. Essas redes oferecem configurações específicas para o gerenciamento do tráfego de dados e",
+        "alternativas": [
+            "deve-se, para visualizar as redes no Docker, utilizar o comando: docker network -show.",
+            "todos os containers que estão na rede None poderão se comunicar via protocolo TCP/IP. Se uma pessoa souber qual é o endereço IP do container que deseja conectar, é possível enviar tráfego para ele, pois estão todos na mesma rede IP (172.17.0.0/.",
+            "a rede Host tem como objetivo isolar o container para comunicações externas. A rede não recebe qualquer interface para comunicação externa. A única interface de rede IP será a localhost. Essa rede, normalmente, é utilizada para containers que manipulam apenas arquivos de backup, sem necessidade de enviá-los via rede para outro local.",
+            "a rede None tem como objetivo entregar para o container todas as interfaces existentes no docker none. Isso agiliza a entrega dos pacotes, uma vez que não há host no caminho das mensagens. Mas o uso de um host pode ser importante para a segurança e a gerência do tráfego.",
+            "Bridge é a rede padrão para qualquer container iniciado no Docker, a menos que seja, explicitamente, associada outra rede a ele. Os containers da rede default bridge podem acessar uns aos outros somente através de seus endereços IP, a menos que se utilize a opção --link."
+        ],
+        "gabarito": "Bridge é a rede padrão para qualquer container iniciado no Docker, a menos que seja, explicitamente, associada outra rede a ele. Os containers da rede default bridge podem acessar uns aos outros somente através de seus endereços IP, a menos que se utilize a opção --link."
+    },
+    {
+        "id": 171,
+        "enunciado": "Sobre os conceitos de virtualização e conteinerização, analise as assertivas a seguir.\nI- Na virtualização, cria-se uma nova camada de computação, na qual uma máquina virtual permite a virtualização de toda a infraestrutura de TI (rede, servidores e storage) através de um sistema operacional próprio (hipervisor).\nII - Conteinerização (contêiner) é um processo de computação que utiliza uma pequena fração do recurso de hardware para viabilizar a execução de aplicativos de forma mais eficiente e isolada. No caso do contêiner, permite a virtualização de aplicativos de software, utilizando o sistema operacional do host em um Kernel compartilhado.\nIII -As máquinas virtuais são medidas em megabyte. Elas contêm, no máximo, a aplicação e os arquivos necessários para executá-la. Além disso, elas costumam ser utilizadas para empacotar funções individuais que realizam tarefas específicas, os famosos microsserviços. Como são leves e possuem um sistema operacional compartilhado, as VMs são muito fáceis de migrar entre vários ambientes.\nIV -Os contêineres são medidos em gigabyte. Eles costumam ter seu próprio sistema operacional, o que possibilita a execução simultânea de várias funções com uso intenso de recursos. Por terem um número maior de recursos à disposição, contêineres são capazes de abstrair, dividir, duplicar e emular por inteiro servidores, sistemas operacionais, desktops, bancos de dados e redes.\nEstão corretas, apenas, as assertivas:",
+        "alternativas": [
+            "I e ll.",
+            "II e III.",
+            "lII e IV.",
+            "I e III.",
+            "II e lV."
+        ],
+        "gabarito": "I e ll."
+    },
+    {
+        "id": 172,
+        "enunciado": "No Dockerfile, a diretiva que permite indicar a porta que o contêiner escuta por requisições em tempo de execução é a:",
+        "alternativas": [
+            "EXPOSE.",
+            "PORT.",
+            "ENV.",
+            "ENTRYPOINT.",
+            "RUN."
+        ],
+        "gabarito": "EXPOSE."
+    },
+    {
+        "id": 173,
+        "enunciado": "Um conjunto de processos isolados executados a partir de uma imagem, imagem esta que fornece todos os arquivos necessários, compartilham o mesmo kernel e isolam os processos da aplicação do restante do sistema operacional denomina-se:",
+        "alternativas": [
+            "métricas.",
+            "metodologia.",
+            "workflow.",
+            "container.",
+            "flowchart."
+        ],
+        "gabarito": "container."
+    },
+    {
+        "id": 174,
+        "enunciado": "Em relação a contêineres em aplicações, julgue o item a seguir.\nUm contêiner deve fornecer um ambiente de hospedagem do lado do servidor gerenciado e um middleware que intercepte as chamadas recebidas e, em seguida, execute as ações apropriadas para garantir que as propriedades desejadas do aplicativo distribuído sejam mantidas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 175,
+        "enunciado": "Em relação a contêineres em aplicações, julgue o item a seguir.\nO Kubernetes faz o escalonamento e a recuperação no caso de falha de uma aplicação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 176,
+        "enunciado": "Em relação a contêineres em aplicações, julgue o item a seguir.\nDeployment descriptors (em português, descritores de implantação) são escritos em JSON e fornecem informações sobre API e drives necessários para o funcionamento do serviço de Internet.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 177,
+        "enunciado": "Uma instituição acadêmica está desenvolvendo um ambiente de laboratório virtual em kubernetes, com alta disponibilidade. O sistema provisiona automaticamente um novo pod quando um aluno se autentica.\nUm dos pré-requisitos do projeto é isolar os pods dos alunos em um pool de nodes exclusivo em alta disponibilidade.\nAssinale a opção que indica a funcionalidade do kubernetes adequada a esse pré-requisito.",
+        "alternativas": [
+            "Ingress.",
+            "Node affinity.",
+            "Limit Ranges.",
+            "Pod Overhead.",
+            "Node-pressure Eviction."
+        ],
+        "gabarito": "Node affinity."
+    },
+    {
+        "id": 178,
+        "enunciado": "Quais são os requisitos mínimos para instalação do Docker Desktop em sistemas Windows?\n1. 16 GB de memória RAM\n2. Qualquer processador de 64bits\n3. Suporte à virtualização de hardware habilitado no nível da BIOS Assinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "É correta apenas a afirmativa 3.",
+            "São corretas apenas as afirmativas 1 e 2.",
+            "São corretas apenas as afirmativas 1 e 3.",
+            "São corretas apenas as afirmativas 2 e 3.",
+            "São corretas as afirmativas 1, 2 e 3."
+        ],
+        "gabarito": "É correta apenas a afirmativa 3."
+    },
+    {
+        "id": 179,
+        "enunciado": "Para coordenar e agendar vários contêineres, habilitar comunicações entre eles e escalar instâncias de contêiner, um analista pode utilizar o",
+        "alternativas": [
+            "Kubernetes, solução utilizada para vários tipos de contêiner, incluindo Docker.",
+            "Swagger, solução exclusiva para contêineres Docker.",
+            "Kubernetes, solução exclusiva para contêineres Docker.",
+            "Swagger, solução exclusiva para contêineres Zuul.",
+            "Keycloak, solução utilizada para qualquer tipo de contêiner."
+        ],
+        "gabarito": "Kubernetes, solução utilizada para vários tipos de contêiner, incluindo Docker."
+    },
+    {
+        "id": 180,
+        "enunciado": "Acerca de contêineres, microsserviços e APIs, julgue o item a seguir.\nOs contêineres de software virtualizam o hardware físico da máquina em que estão instalados para melhorar o seu desempenho de execução.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 181,
+        "enunciado": "Acerca de contêineres, microsserviços e APIs, julgue o item a seguir.\nAo conteinerizar uma aplicação, ela passa a ser executada de forma independente do sistema operacional e isolada de outras aplicações, o que aumenta a sua eficiência.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 182,
+        "enunciado": "Julgue o seguinte item, relativo a containers de aplicação.\nCada container contém seu próprio kernel do sistema operacional (SO), de modo que não há compartilhamento com o kernel do SO hospedeiro, o que gera mais segurança e independência.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 183,
+        "enunciado": "Julgue o seguinte item, relativo a containers de aplicação.\nQuando se executa um container de aplicação.NET, o sistema operacional (SO) contido no container é executado como S O convidado, ou seja, sob o SO host, com acesso ao hardware subjacente.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 184,
+        "enunciado": "Julgue o seguinte item, relativo a containers de aplicação.\nOs containers oferecem um mecanismo de empacotamento lógico em que os aplicativos podem ser abstraídos pelo ambiente em que são efetivamente executados, mesmo se esse ambiente for uma nuvem pública.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 185,
+        "enunciado": "Julgue o seguinte item, relativo a containers de aplicação.\nCaso seja necessário informar ao Docker que um container deve escutar na porta de rede 80 do TCP, o comando correto no DockerFile é o seguinte.\nEXPOSE 80/tcp",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 186,
+        "enunciado": "Julgue o seguinte item, relativo a containers de aplicação.\nPara construir uma imagem e fazer o deploy de Dockerfile corretamente escrito de uma aplicação JAVA chamado example-java-df, o comando correto é o seguinte.\ndocker commit -f example-java-df",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 187,
+        "enunciado": "Julgue o seguinte item, relativo a containers de aplicação.\nConsidere o seguinte Dockerfile para uma aplicação.NET.\nFROM mcr.microsoft.com/dotnet/aspnet:6.0 WORKDIR /App COPY --from=build-env /App/out.\nENTRYPOINT [“dotnet”, “DotNet.Docker.dll”] Nesse caso, o comando ENTRYPOINT solicita ao Docker que configure o container para que ele seja executado como um executável; desse modo, quando o container é iniciado, esse comando ENTRYPOINT é executado.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 188,
+        "enunciado": "Em Kubernets, o componente que gerencia os pods que foram criados e que está sem nenhum nó atribuído é o",
+        "alternativas": [
+            "kube-scheduler.",
+            "kube-apiserver.",
+            "etcd.",
+            "kube-controller-manager.",
+            "cloud-controller-manager."
+        ],
+        "gabarito": "kube-scheduler."
+    },
+    {
+        "id": 189,
+        "enunciado": "Os Containers são uma tecnologia usada para reunir um aplicativo e todos os seus arquivos necessários em um ambiente de tempo de execução.\nAnalise as afirmativas abaixo com relação ao assunto Containers.\n1. A instrução EXPOSE expõe uma porta específica, com um protocolo especificado, dentro de um Container Docker.\n2. Para serviços web os containers deixam a infraestrutura muito mais intercambiável, eficiente e flexível. Eles isolam um único aplicativo e suas dependências – todas as bibliotecas externas de software que o aplicativo precisa executar – tanto do sistema operacional subjacentequanto de outros containers. Ele utiliza somente o protocolo TCP para expor a porta.\n3. Um aspecto do uso de Containers é a sua capacidade de modularização e que tem total relação com uma arquitetura de microserviços. Permitir trabalhar com partes separadas de um sistema, e entregar em diferentes ambientes, permite que o processo de desenvolvimento em si seja mais ágil e eficiente.\nAssinale a alternativa que contenha todas as alternativas corretas:",
+        "alternativas": [
+            "É correta apenas a afirmativa 2.",
+            "É correta apenas a afirmativa 3.",
+            "São corretas apenas as afirmativas 1 e 2.",
+            "São corretas apenas as afirmativas 1 e 3.",
+            "São corretas apenas as afirmativas 2 e 3."
+        ],
+        "gabarito": "São corretas apenas as afirmativas 1 e 3."
+    },
+    {
+        "id": 190,
+        "enunciado": "A utilização de Kubernetes no gerenciamento de aplicações está sendo amplamente difundida.\nCom relação ao Kubernetes, é correto afirmar:",
+        "alternativas": [
+            "O Kubernetes não realiza o escalonamento e a recuperação no caso de falhas.",
+            "Os fluxos de trabalho de integração contínua, entrega e implantação (CI/CD) são determinados pelo Kubernetes.",
+            "Fornece serviços em nível de aplicação, tais como middlewares, bancos de dados e caches.",
+            "Limita o tipo de aplicações executadas a aplicações statefull.",
+            "Se o tráfego para um contêiner gerenciado pelo Kubernetes for alto, ele pode balancear a carga e distribuir o tráfego de rede para que a implantação seja estável."
+        ],
+        "gabarito": "Se o tráfego para um contêiner gerenciado pelo Kubernetes for alto, ele pode balancear a carga e distribuir o tráfego de rede para que a implantação seja estável."
+    },
+    {
+        "id": 191,
+        "enunciado": "O Docker tende a utilizar menos recursos que uma VM tradicional. Selecione a alternativa que se refere a segregação de processos no mesmo kernel, de forma que o processo seja isolado o máximo possível de todo o resto do ambiente.",
+        "alternativas": [
+            "Hypervisor.",
+            "Imagem.",
+            "Microsserviço.",
+            "Container.",
+            "VDI."
+        ],
+        "gabarito": "Container."
+    },
+    {
+        "id": 192,
+        "enunciado": "Um dos recursos utilizados para o gerenciamento de contêineres Docker são os comandos inseridos por meio da interface de linha de comando (Docker CLI).\nO comando utilizado para listar os contêineres que estão sendo executados e informações relacionadas a estes é o:",
+        "alternativas": [
+            "docker ps.",
+            "docker rm.",
+            "docker node.",
+            "docker inspect.",
+            "docker search."
+        ],
+        "gabarito": "docker ps."
+    },
+    {
+        "id": 193,
+        "enunciado": "Docker é uma plataforma que trabalha com virtualização de contêineres, possuindo uma série de recursos. O nome do recurso Docker utilizado para orquestrar múltiplos contêineres Dockers ao mesmo tempo é:",
+        "alternativas": [
+            "modo swarm.",
+            "modo admin.",
+            "modo Kubernets.",
+            "modo Hypervisor.",
+            "load balancing."
+        ],
+        "gabarito": "modo swarm."
+    },
+    {
+        "id": 194,
+        "enunciado": "A menor unidade de computação implantável que se pode criar e gerenciar no Kubernetes são denominados tecnicamente como sendo:",
+        "alternativas": [
+            "bean.",
+            "shell.",
+            "kernel.",
+            "pod.",
+            "hem."
+        ],
+        "gabarito": "pod."
+    },
+    {
+        "id": 195,
+        "enunciado": "“ são filesystems que o Docker daemon irá usar para gerenciar os containers e as imagens. O Docker aceita nativamente alguns.” Sobre o Docker, assinale a alternativa que completa correta e sequencialmente a afirmativa anterior.",
+        "alternativas": [
+            "Namespaces / storage drivers.",
+            "Storage drivers / namespaces.",
+            "Device mapper / device mapper.",
+            "Storage drivers / storage drivers."
+        ],
+        "gabarito": "Storage drivers / storage drivers."
+    },
+    {
+        "id": 196,
+        "enunciado": "Sobre o container, analise as afirmativas a seguir.\nI. Pode ser criado, mas não precisa ser executado imediatamente.\nII. Para que um container recém-criado possa ser executado, basta utilizar “docker run”.\nIII. Para sair do container, mantendo-o em execução, utiliza-se o atalho Ctrl + S + E.\nEstá correto o que se afirma apenas em",
+        "alternativas": [
+            "I.",
+            "II.",
+            "III.",
+            "I e II."
+        ],
+        "gabarito": "I e II."
+    },
+    {
+        "id": 197,
+        "enunciado": "Considere o seguinte conteúdo de um dockerfile.\nFROM rhel7:latest USER root MAINTAINER Joao RUN yum -y install deltarpm yum-utils -- disablerepo=*-eus-* --disablerepo=*-htb-* *- sjis-*\\ --disablerepo=*-ha-* --disablerepo=*-rt-* -- disablerepo=*-lb-* --disablerepo=*-rs-* -- disablerepo=*-sap-* RUN yum-config-manager --disable *-eus-* *-htb-* *-ha-* *-rt-* *-lb-* *-rs-* *-sap-* *-sjis* > /dev/null RUN yum install httpd procps-ng MySQL-python -y ADD action /var/www/cgi-bin/action RUN echo \"PassEnv DB_SERVICE_SERVICE_HOST\" >> /etc/httpd/conf/httpd.conf RUN chown root:apache /var/www/cgi-bin/action RUN chmod 755 /var/www/cgi-bin/action RUN echo \"Pagina Inicial\" > /var/www/html/index.html EXPOSE 80 CMD mkdir /run/httpd ; /usr/sbin/httpd -D FOREGROUND Tendo como referência essas informações, julgue o item a seguir.\nA imagem base do container é um Red Hat Linux.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 198,
+        "enunciado": "Considere o seguinte conteúdo de um dockerfile.\nFROM rhel7:latest USER root MAINTAINER Joao RUN yum -y install deltarpm yum-utils -- disablerepo=*-eus-* --disablerepo=*-htb-* *- sjis-*\\ --disablerepo=*-ha-* --disablerepo=*-rt-* -- disablerepo=*-lb-* --disablerepo=*-rs-* -- disablerepo=*-sap-* RUN yum-config-manager --disable *-eus-* *-htb-* *-ha-* *-rt-* *-lb-* *-rs-* *-sap-* *-sjis* > /dev/null RUN yum install httpd procps-ng MySQL-python -y ADD action /var/www/cgi-bin/action RUN echo \"PassEnv DB_SERVICE_SERVICE_HOST\" >> /etc/httpd/conf/httpd.conf RUN chown root:apache /var/www/cgi-bin/action RUN chmod 755 /var/www/cgi-bin/action RUN echo \"Pagina Inicial\" > /var/www/html/index.html EXPOSE 80 CMD mkdir /run/httpd ; /usr/sbin/httpd -D FOREGROUND Tendo como referência essas informações, julgue o item a seguir.\nO comando a seguir é capaz de fazer o build e iniciar a execução do container, respectivamente.\ndocker run -d -p 80:80 –name=Dockerfile",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 199,
+        "enunciado": "A respeito do Kubernetes, julgue o item a seguir.\nA camada de gerenciamento possui o componente etcd, cuja função é observar pods que foram criados sem nenhum node atribuído e selecionar um node para execução.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 200,
+        "enunciado": "O Docker é uma plataforma aberta para desenvolvimento, entrega e execução de aplicações. A respeito da funcionalidade tmpfs mounts, assinale a alternativa correta.",
+        "alternativas": [
+            "Assim como os volumes e bind mounts, é possível compartilhar o tmpfs mounts entre diversos containers.",
+            "Essa funcionalidade está presente apenas quando se executa o Docker no Linux.",
+            "O tmpfs mounts pode ser armazenado em unidade de armazenamento do tipo SSD do servidor que hospeda o Docker.",
+            "O tmpfs mounts permanece persistente após a parada do container.",
+            "Não é possível limitar o seu tamanho; por padrão, ele é ilimitado."
+        ],
+        "gabarito": "Essa funcionalidade está presente apenas quando se executa o Docker no Linux."
+    }
+]

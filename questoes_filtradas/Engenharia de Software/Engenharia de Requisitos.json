@@ -1,0 +1,2161 @@
+[
+    {
+        "id": 1,
+        "enunciado": "O analista Fábio está trabalhando na modernização do e-SUPRIMENTS, software para gestão das entradas e saídas do almoxarifado. Fábio está em uma entrevista para elicitação de requisitos com Lúcio, representante do almoxarifado.\nPerguntado sobre quais relatórios seriam importantes na modernização do e-SUPRIMENTS, Lúcio respondeu:\n“Eu quero ter a liberdade de montar relatórios dinamicamente. Assim, poderei selecionar filtros e informar os dados de pesquisa para cada um dos filtros para o sistema apresentar os resultados. Queria também exportar os resultados em um formato não proprietário, para abri-la em software de edição externo, porque posso precisar trabalhar nesses dados fora do sistema. Além disso, tenho interesse em, pelo menos, dois gráficos: um que apresente os quantitativos por item que entraram no almoxarifado e outro com o quantitativo dos itens que saíram do almoxarifado no mês corrente. Seria muito legal se eu pudesse exportar esses gráficos como imagem JPEG para usar em apresentações para nosso gestor”.\nCom base nas solicitações do cliente, o analista Fábio identificou:",
+        "alternativas": [
+            "6 requisitos funcionais e 2 requisitos não funcionais;",
+            "5 requisitos funcionais e 3 requisitos não funcionais;",
+            "4 requisitos funcionais e 1 requisito não funcional;",
+            "3 requisitos funcionais e nenhum requisito não funcional;",
+            "2 requisitos funcionais e 2 requisitos não funcionais."
+        ],
+        "gabarito": "5 requisitos funcionais e 3 requisitos não funcionais;"
+    },
+    {
+        "id": 2,
+        "enunciado": "Julgue o item a seguir, relativo à engenharia de requisitos.\nRequisitos não funcionais são indiferentes sobre o comportamento ou restrições de funcionalidade de um sistema.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 3,
+        "enunciado": "Julgue o item a seguir, relativo à engenharia de requisitos.\nRequisitos não funcionais descrevem o que o sistema deve fazer, como a permissão de cadastro de usuários.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 4,
+        "enunciado": "No que se refere às tarefas da engenharia de requisitos, julgue os seguintes itens.\nI A atividade de elicitação de requisitos é um processo simples e direto de obtenção de informações acerca das necessidades do cliente.\nII A etapa de elaboração tem como objetivo refinar o modelo de requisitos, identificando aspectos relacionados à função, comportamento e informação do software, com base nos cenários de uso obtidos na elicitação.\nIII A validação de requisitos busca verificar a consistência, a completude e a ausência de ambiguidades, sendo a revisão técnica formal o principal mecanismo utilizado nesse processo.\nIV A negociação de requisitos tem como objetivo a eliminação de requisitos conflitantes, garantindo que apenas um dos lados tenha suas demandas atendidas.\nEstão certos apenas os itens",
+        "alternativas": [
+            "I e II.",
+            "I e IV.",
+            "II e III.",
+            "I, III e IV.",
+            "II, III e IV."
+        ],
+        "gabarito": "II e III."
+    },
+    {
+        "id": 5,
+        "enunciado": "No que diz respeito a projetos e processos de software, julgue o item a seguir.\nNa fase de levantamento de requisitos de um projeto, as motivações informais da organização devem ser consideradas pelo gerente do projeto.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 6,
+        "enunciado": "No que se refere a práticas ágeis e a licitação e gerenciamento de requisitos de desenvolvimento, julgue o próximo item.\nDe acordo com o conceito INVEST, as histórias de usuário devem ser independentes, negociáveis, pequenas e testáveis.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 7,
+        "enunciado": "No que se refere a práticas ágeis e a licitação e gerenciamento de requisitos de desenvolvimento, julgue o próximo item.\nNa estrutura de um storytelling, o clímax e o desfecho ocorrem no mesmo momento, ao final da narrativa.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 8,
+        "enunciado": "Acerca da elicitação e validação de requisitos, ao utilizar a técnica de casos de uso, assinale a opção que indica a prática que pode comprometer principalmente a rastreabilidade dos requisitos.",
+        "alternativas": [
+            "A construção dos casos de uso baseados somente em entrevistas com os usuários chave.",
+            "A ausência de detalhamento de cenários alternativos e exceções nos diagramas de casos de uso.",
+            "A falta de revisão contínua dos casos de uso pelos desenvolvedores após cada iteração do projeto.",
+            "A utilização de uma linguagem de modelagem que seja amplamente compreendida pelos usuários finais.",
+            "A inclusão de detalhes técnicos no fluxograma de casos de uso, visando a implementação direta pelos desenvolvedores."
+        ],
+        "gabarito": "A ausência de detalhamento de cenários alternativos e exceções nos diagramas de casos de uso."
+    },
+    {
+        "id": 9,
+        "enunciado": "Julgue o item a seguir a respeito do uso de cenários como técnica de elicitação de requisitos.\nUm cenário começa com um esboço da interação, sendo este detalhado na elicitação de requisitos para incluir expectativas iniciais, fluxo normal, possíveis erros, atividades paralelas e o estado final do sistema.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 10,
+        "enunciado": "A respeito de arquitetura de aplicações, julgue o item a seguir.\nOs requisitos funcionais definem as funcionalidades de certa aplicação e os não funcionais definem a maneira pela qual a aplicação executa tais funcionalidades.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 11,
+        "enunciado": "Julgue o item a seguir, no que se refere à engenharia de software e à análise de requisitos.\nRequisitos de domínio podem introduzir novos requisitos funcionais, limitar requisitos funcionais existentes ou estabelecer como certas operações devem ser executadas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 12,
+        "enunciado": "Julgue o item a seguir, no que se refere à engenharia de software e à análise de requisitos.\nA etnografia é útil para entender o uso atual dos sistemas e identificar detalhes que outras técnicas não capturam, sendo eficaz também para descobrir requisitos empresariais amplos e impulsionar inovações.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 13,
+        "enunciado": "A professora Gabriela, em um curso de formação continuada para professores de informática, utilizou um exemplo prático de desenvolvimento de um aplicativo educacional para explicar as etapas de um modelo de processo de software. Durante a aula, ela destacou a importância da análise de requisitos para evitar problemas no futuro, como a criação de funcionalidades desnecessárias ou incompatíveis com o público-alvo.\nCom base nos fundamentos da Engenharia de Software, o principal objetivo da análise de requisitos em um projeto de software educacional é",
+        "alternativas": [
+            "identificar e corrigir erros de correção antes da correção.",
+            "compreender as necessidades dos usuários e definir o que o sistema deve fazer.",
+            "garantir que o software seja entregue dentro do prazo, mesmo com funcionalidades reduzidas.",
+            "criar diagramas técnicos detalhados para orientar os desenvolvedores.",
+            "automatizar o processo de desenvolvimento com ferramentas específicas."
+        ],
+        "gabarito": "compreender as necessidades dos usuários e definir o que o sistema deve fazer."
+    },
+    {
+        "id": 14,
+        "enunciado": "Durante o processo de levantamento de requisitos para um novo sistema de gerenciamento financeiro, a equipe de análise identificou uma série de requisitos. Um dos requisitos especifica que \"o sistema deve permitir que o usuário cadastre novas transações financeiras e as categorize como despesas ou receitas\". Como esse requisito específico deve ser classificado?",
+        "alternativas": [
+            "Requisito funcional, pois descreve uma funcionalidade que o sistema deve realizar para atender a uma necessidade do usuário.",
+            "Requisito não funcional, pois trata de uma qualidade do sistema em relação à usabilidade.",
+            "Requisito de negócio, pois descreve um objetivo organizacional que o sistema deve alcançar.",
+            "Requisito de restrição, pois impõe uma limitação ao desenvolvimento da funcionalidade no sistema."
+        ],
+        "gabarito": "Requisito funcional, pois descreve uma funcionalidade que o sistema deve realizar para atender a uma necessidade do usuário."
+    },
+    {
+        "id": 15,
+        "enunciado": "Em um projeto de desenvolvimento de software para um cliente do setor público, o analista enfrenta dificuldades para entender os requisitos funcionais e não funcionais dos usuários. Qual abordagem seria mais eficaz para identificar e esclarecer os requisitos, minimizando o risco de retrabalho e desalinhamento com as expectativas?",
+        "alternativas": [
+            "Solicitar ao cliente um documento detalhado com todos os requisitos esperados para o sistema.",
+            "Revisar documentações de sistemas similares para levantar requisitos com base em comparações.",
+            "Realizar workshops de elicitação com as principais partes interessadas para clarificar e priorizar os requisitos.",
+            "Delegar a definição de requisitos para o gerente de projeto, que possui um melhor entendimento do contexto organizacional."
+        ],
+        "gabarito": "Realizar workshops de elicitação com as principais partes interessadas para clarificar e priorizar os requisitos."
+    },
+    {
+        "id": 16,
+        "enunciado": "Em relação à engenharia de requisitos, julgue o item a seguir.\nEm regra, a verificação de completude envolve a criação de um conjunto de testes que comprovem que o sistema atende a todos os requisitos especificados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 17,
+        "enunciado": "Em relação à engenharia de requisitos, julgue o item a seguir.\nNa validação de requisitos por prototipação, um modelo executável é apresentado aos usuários para verificar se ele atende às suas necessidades.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 18,
+        "enunciado": "Considerando os conceitos, fases e técnicas da engenharia de requisitos, julgue o item subsequente.\nO propósito dos Walkthroughs é garantir consistência e completude na revisão de requisitos em diferentes projetos ou equipes.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 19,
+        "enunciado": "Considerando os conceitos, fases e técnicas da engenharia de requisitos, julgue o item subsequente.\nA análise de domínio é uma técnica apropriada para revelar requisitos não funcionais importantes que frequentemente permanecem ocultos em abordagens tradicionais de elicitação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 20,
+        "enunciado": "Considerando os conceitos, fases e técnicas da engenharia de requisitos, julgue o item subsequente.\nA decomposição funcional é corretamente utilizada como parte do processo de elicitação de requisitos em sistemas complexos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 21,
+        "enunciado": "Considerando os conceitos, fases e técnicas da engenharia de requisitos, julgue o item subsequente.\nA especificação de requisitos não funcionais em termos quantitativos e mensuráveis tem o potencial de reduzir a flexibilidade arquitetural e limitar as opções de design do sistema.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 22,
+        "enunciado": "Considerando os conceitos, fases e técnicas da engenharia de requisitos, julgue o item subsequente.\nO versionamento semântico e a análise de impacto baseada em grafos são técnicas de gerenciamento de requisitos que substituem as revisões manuais.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 23,
+        "enunciado": "A respeito de engenharia de requisitos, julgue o item a seguir.\nA especificação de requisitos realizada a partir da utilização de modelos gráficos é incapaz de representar aspectos não funcionais e interdependências entre requisitos não funcionais em projetos de software.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 24,
+        "enunciado": "A respeito de engenharia de requisitos, julgue o item a seguir.\nO walkthrough é uma técnica de validação de requisitos que envolve a apresentação sistemática dos requisitos aos stakeholders, promovendo discussões detalhadas e buscando identificar problemas como inconsistências, ambiguidades e omissões.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 25,
+        "enunciado": "A respeito de engenharia de requisitos, julgue o item a seguir.\nA análise de um requisito funcional resulta na identificação de múltiplos requisitos não funcionais associados, porém um requisito não funcional não é fonte de requisitos funcionais.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 26,
+        "enunciado": "A respeito de engenharia de requisitos, julgue o item a seguir.\nEm elicitação de requisitos, a técnica mudança de perspectiva fragmenta temporariamente a percepção holística do sistema ao enfocar visões individuais, entretanto a compreensão obtida pode ser utilizada para uma visão sistêmica mais robusta e integrada do artefato de software em desenvolvimento.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 27,
+        "enunciado": "A respeito de engenharia de requisitos, julgue o item a seguir.\nA leitura baseada em perspectiva de documentação já existente sobre o sistema é uma técnica que pode ser apropriada para revelar requisitos funcionais implícitos, que não foram inicialmente considerados no projeto",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 28,
+        "enunciado": "Considere que uma agência espacial esteja desenvolvendo um software de controle de missão para um satélite de observação da Terra. Nesse contexto, assinale a opção que corresponde à técnica de elicitação de requisitos mais eficaz para garantir que a interface do usuário atenda às necessidades críticas de precisão, confiabilidade e usabilidade, especialmente em situações de alta pressão.",
+        "alternativas": [
+            "sessões de brainstorming com a equipe de desenvolvimento e especialistas em controle de missão para gerar ideias inovadoras sobre funcionalidades e design da interface.",
+            "análise de extensos documentos de requisitos de softwares de controle de missão de satélites anteriores, priorizando-se a reutilização de funcionalidades comprovadas.",
+            "aplicação de questionários detalhados, com perguntas técnicas sobre as preferências de leiaute e de organização de dados dos cientistas e engenheiros.",
+            "criação de protótipos interativos de alta fidelidade da interface do usuário, que permitem que os cientistas e engenheiros simulem cenários de missão críticos e forneçam feedback detalhado a respeito da usabilidade e da precisão dos dados.",
+            "realização de entrevistas formais com cientistas e engenheiros, focadas em suas experiências passadas com softwares de controle de missão e nos desafios enfrentados."
+        ],
+        "gabarito": "criação de protótipos interativos de alta fidelidade da interface do usuário, que permitem que os cientistas e engenheiros simulem cenários de missão críticos e forneçam feedback detalhado a respeito da usabilidade e da precisão dos dados."
+    },
+    {
+        "id": 29,
+        "enunciado": "Suponha que seja necessário proceder à elicitação de requisitos de um dos Serviços Estruturantes da plataforma digital do PDPJ-Br. Nesse sentido, a elicitação de requisitos constitui-se em uma importante atividade quando se considera o desenvolvimento de software.\nEntre as técnicas que podem ser empregadas para a elicitação de requisitos, encontram-se:",
+        "alternativas": [
+            "normalização e padronização.",
+            "codificação e testes.",
+            "entrevistas e etnografia.",
+            "personificação e manutenção.",
+            "criptografia e lançamento."
+        ],
+        "gabarito": "entrevistas e etnografia."
+    },
+    {
+        "id": 30,
+        "enunciado": "A Engenharia de Requisitos garante que o produto final atenda às necessidades dos usuários e stakeholders, correspondendo a uma disciplina fundamental no desenvolvimento de software, focada na definição, documentação e manutenção dos requisitos de um sistema. Existem dois tipos fundamentais de requisitos: os Requisitos Funcionais e os Requisitos Não Funcionais.\nCom relação aos requisitos, assinale (V) para a afirmativa verdadeira e (F) para a falsa.\n( ) Requisitos Funcionais permitem que as equipes de projeto compreendam o que precisa ser implementado e validado, servindo como orientação clara para o desenvolvimento e teste do sistema.\n( ) Os Requisitos Funcionais geralmente têm um grau de criticidade maior do que os Requisitos Não Funcionais isolados.\n( ) Enquanto os Requisitos Não Funcionais especificam o modo como essas funções devem ser executadas, os Requisitos Funcionais delineiam as ações que um sistema de software deve realizar.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "F – V – F.",
+            "V – V – F.",
+            "F – F – F.",
+            "V – F – V.",
+            "F – V – V."
+        ],
+        "gabarito": "V – F – V."
+    },
+    {
+        "id": 31,
+        "enunciado": "Quanto à engenharia de requisitos, analise as assertivas e assinale a alternativa que aponta as corretas.\nI. Os requisitos de compatibilidade são requisitos dependentes de outros sistemas e/ou processos de negócios específicos dentro da organização.\nII. Os requisitos voláteis são aqueles que podem se modificar durante o desenvolvimento ou durante a utilização do sistema.\nIII. A técnica de prototipação pode ser entendida como o uso de um modelo executável do sistema para checar a usabilidade e validade dos requisitos especificados.\nIV. Os requisitos mutáveis são requisitos que surgem conforme a compreensão do cliente sobre o sistema vai se desenvolvendo.",
+        "alternativas": [
+            "Apenas I, II e III.",
+            "Apenas I, II e IV.",
+            "Apenas II e III.",
+            "Apenas I e IV.",
+            "I, II, III e IV."
+        ],
+        "gabarito": "Apenas I, II e III."
+    },
+    {
+        "id": 32,
+        "enunciado": "Uma instituição financeira está modernizando seu sistema de atendimento ao cliente e deve identificar requisitos críticos, como preferências de clientes sobre notificações de transações e necessidades de acessibilidade para idosos. Com base na situação hipotética precedente, assinale a opção em que é corretamente citada a técnica de levantamento de requisitos mais adequada para a descoberta de necessidades não óbvias de clientes e funcionários da instituição.",
+        "alternativas": [
+            "observação in loco de caixas e gerentes durante atendimentos.",
+            "questionários online com perguntas fechadas para clientes.",
+            "benchmarking de aplicativos de instituições concorrentes.",
+            "workshop com a equipe de TI da instituição para identificar requisitos técnicos.",
+            "entrevista com perguntas fechadas para os funcionários da instituição."
+        ],
+        "gabarito": "observação in loco de caixas e gerentes durante atendimentos."
+    },
+    {
+        "id": 33,
+        "enunciado": "No que se refere a histórias de usuário, assinale a opção correta.",
+        "alternativas": [
+            "Nas histórias de usuário, há apenas um artefato de requisitos vinculados à história.",
+            "A história de usuário deve ser escrita em uma linguagem técnica e formal.",
+            "A história de usuário é a maior unidade de trabalho baseada na necessidade do cliente final.",
+            "O objetivo da história de usuário é expressar, de forma clara e leve, as angústias e necessidades do cliente final.",
+            "Histórias equivalem a casos de uso, já que ambos descrevem requisitos e cumprem o mesmo papel."
+        ],
+        "gabarito": "O objetivo da história de usuário é expressar, de forma clara e leve, as angústias e necessidades do cliente final."
+    },
+    {
+        "id": 34,
+        "enunciado": "Considere um desenvolvedor que está atuando na fase de Engenharia de Requisitos de um sistema crítico para o setor público. Para isso, ele e sua equipe estão empregando múltiplas técnicas de elicitação para garantir a completude e a consistência dos requisitos. Diante do exposto, assinale a alternativa CORRETA.",
+        "alternativas": [
+            "A elicitação deve priorizar técnicas baseadas em observação e análise documental, pois métodos interativos, como entrevistas e workshops, tendem a introduzir subjetividade e dificultam a padronização dos requisitos coletados.",
+            "A combinação de entrevistas com as partes interessadas, análise de sistemas existentes, observação direta e prototipação, permite capturar diferentes tipos de requisitos, bem como facilita a identificação de conflitos entre diferentes pontos de vista.",
+            "A utilização de prototipação e brainstorming é recomendada apenas em projetos com requisitos altamente voláteis, sendo desnecessária em sistemas com escopo bem definido, em que a análise de sistemas legados é suficiente para capturar as necessidades do usuário.",
+            "Em projetos com múltiplos perfis de usuários, recomenda-se focar a elicitação nos usuários finais, evitando a inclusão de patrocinadores e gestores, já que esses raramente interagem diretamente com o sistema e tendem a distorcer os requisitos com base em expectativas estratégicas."
+        ],
+        "gabarito": "A combinação de entrevistas com as partes interessadas, análise de sistemas existentes, observação direta e prototipação, permite capturar diferentes tipos de requisitos, bem como facilita a identificação de conflitos entre diferentes pontos de vista."
+    },
+    {
+        "id": 35,
+        "enunciado": "Quando falamos sobre tipos de documentos de teste, estamos nos referindo a um conjunto de artefatos essenciais no processo de Garantia da Qualidade (QA), que ajudam a planejar, organizar, executar e registrar as atividades de teste de software. Um desses documentos é",
+        "alternativas": [
+            "a Matriz de Rastreabilidade, que liga os requisitos aos casos de teste correspondentes sendo, de certa forma, um “mapa” que garante que nada do que foi pedido fique sem teste.",
+            "a Matriz de Riscos, que organiza os requisitos de negócio e os relaciona com os defeitos encontrados durante os testes, permitindo priorizar os casos de uso mais críticos para o usuário final.",
+            "o Plano de Teste, que descreve os passos detalhados de execução dos testes e define os critérios de aceitação de cada caso, sendo usado somente durante a execução manual das funcionalidades.",
+            "o Caso de Teste, que é utilizado para documentar os defeitos encontrados, associando cada erro a uma falha de requisito, servindo como base para priorização de correções.",
+            "o Relatório de Defeitos, que lista todos os testes planejados para um ciclo, vinculando-os aos objetivos do projeto e aos critérios de entrada e saída definidos no planejamento."
+        ],
+        "gabarito": "a Matriz de Rastreabilidade, que liga os requisitos aos casos de teste correspondentes sendo, de certa forma, um “mapa” que garante que nada do que foi pedido fique sem teste."
+    },
+    {
+        "id": 36,
+        "enunciado": "Um Tribunal do Trabalho está modernizando seu sistema de solicitação de carteiras profissionais para trabalhadores de diversas categorias. Durante a fase inicial de levantamento de requisitos, a equipe de analistas elencou alguns requisitos a serem atendidos pela nova solução. O sistema deve:\n1. permitir que os trabalhadores cadastrem suas solicitações on-line, anexando documentos digitalizados obrigatórios.\n2. garantir tempo de resposta inferior a 2 segundos para consultas de status de solicitações.\n3. possibilitar que funcionários analisem e aprovem as solicitações, registrando pareceres eletrônicos.\n4. gerar notificações automáticas via e-mail para o trabalhador sobre atualizações do pedido.\n5. estar disponível para acesso ao público por, no mínimo, 99.5% do tempo mensal.\nEm relação aos requisitos apresentados,",
+        "alternativas": [
+            "existem dois requisitos não funcionais.",
+            "existem três requisitos não funcionais e dois requisitos funcionais.",
+            "todos os requisitos são funcionais.",
+            "há apenas um requisito não funcional.",
+            "todos os requisitos são não funcionais."
+        ],
+        "gabarito": "existem dois requisitos não funcionais."
+    },
+    {
+        "id": 37,
+        "enunciado": "Julgue o item subsecutivo, com relação a requisitos e componentes de software.\nNo desenvolvimento de um sistema, arquitetura e design são considerados como sinônimos, possuindo os mesmos objetivos de qualidade e comportamento.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 38,
+        "enunciado": "Julgue o item subsecutivo, com relação a requisitos e componentes de software.\nO design de software pode ser aplicado como produto, em uma abstração do mundo real, ou como processo, orientado aos objetivos do software.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 39,
+        "enunciado": "Julgue o item subsecutivo, com relação a requisitos e componentes de software.\nAlém dos requisitos funcionais, o designer de software deve considerar os requisitos não funcionais, que representam as expectativas dos clientes e usuários.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 40,
+        "enunciado": "Julgue o item subsecutivo, com relação a requisitos e componentes de software.\nO projeto de componentes de um software detalha a estrutura de cada componente em um nível de abstração próximo à linguagem de máquina.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 41,
+        "enunciado": "No contexto da engenharia de requisitos e de metodologias de desenvolvimento de software, julgue o próximo item.\nO modelo lógico, em engenharia de requisitos, é responsável por realizar o tratamento de características dependentes de um determinado tipo de plataforma computacional, porém independente de produtos específicos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 42,
+        "enunciado": "No contexto da engenharia de requisitos e de metodologias de desenvolvimento de software, julgue o próximo item.\nEm engenharia de requisitos, o modelo conceitual é construído na fase de projeto do sistema de informação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 43,
+        "enunciado": "No que diz respeito a refatoração e modernização de software, julgue o item subsequente.\nAo se especificar a nova versão de um software, devem ser mapeados os requisitos não funcionais, que definem o que o sistema deve fazer para atender as expectativas do cliente.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 44,
+        "enunciado": "Relacione as decisões que devem ser tomadas durante o estágio de gerenciamento de requisitos de software com seus respectivos conceitos.\n1. Identificação de requisitos\n2. Gerenciamento de mudanças.\n3. Políticas de rastreabilidade.\n4. Ferramentas de apoio.\n( ) O gerenciamento de requisitos envolve o processamento de grandes quantidades de informações sobre os requisitos.\n( ) Conjunto de atividades que avaliam o impacto e o custo das mudanças.\n( ) Definem os relacionamentos entre cada requisito e entre os requisitos e o projeto de sistema que deve ser registrado.\n( ) Cada requisito deve ser identificado de forma única para que possa ser comparado com outros requisitos e usado em avaliações de rastreabilidade.\nAssinale a opção que indica a relação correta, na ordem apresentada.",
+        "alternativas": [
+            "1 – 2 – 4 – 3.",
+            "4 – 3 – 2 – 1.",
+            "4 – 2 – 3 – 1.",
+            "2 – 4 – 3 – 1.",
+            "2 – 1 – 4 – 3."
+        ],
+        "gabarito": "4 – 2 – 3 – 1."
+    },
+    {
+        "id": 45,
+        "enunciado": "Na investigação de requisitos para a construção de um software, os cenários dos usuários são criados e refinados na fase de",
+        "alternativas": [
+            "concepção.",
+            "levantamento.",
+            "elaboração.",
+            "especificação.",
+            "negociação."
+        ],
+        "gabarito": "elaboração."
+    },
+    {
+        "id": 46,
+        "enunciado": "Na elaboração de histórias de usuários, são utilizadas as premissas definidas pela técnica",
+        "alternativas": [
+            "PDCA (Plan, Do, Check, Act).",
+            "INVEST (Independent, Negotiable, Valuable, Estimable, Small, Testable).",
+            "SMART (Specific, Measurable, Achievable, Realistic, Timebound).",
+            "ERP (Enterprise Resource Planning).",
+            "ITIL (Information Technology Infrastructure Library)."
+        ],
+        "gabarito": "INVEST (Independent, Negotiable, Valuable, Estimable, Small, Testable)."
+    },
+    {
+        "id": 47,
+        "enunciado": "Sempre que um novo software é disponibilizado, o fabricante comumente disponibiliza uma lista de requisitos, ou seja, as características mínimas necessárias para a instalação do software. Dito isso, assinale a alternativa correta que justifica a verificação desses requisitos.",
+        "alternativas": [
+            "Para determinar a compatibilidade com outros softwares instalados.",
+            "Para reduzir o consumo de energia durante a instalação.",
+            "Para assegurar que o sistema atenda aos pré-requisitos necessários para o correto funcionamento do software.",
+            "Para garantir que o software seja executado com a máxima velocidade."
+        ],
+        "gabarito": "Para assegurar que o sistema atenda aos pré-requisitos necessários para o correto funcionamento do software."
+    },
+    {
+        "id": 48,
+        "enunciado": "Considerando os requisitos funcionais e não funcionais, informe se é verdadeiro (V) ou falso (F) o que se afirma a seguir e assinale a alternativa com a sequência correta.\n( ) Requisitos funcionais descrevem o que o sistema deve fazer.\n( ) Requisitos não funcionais estão relacionados à experiência do usuário.\n( ) Requisitos funcionais podem ser testados diretamente.\n( ) Requisitos não funcionais são sempre fáceis de medir.\n( ) Requisitos funcionais e não funcionais são mutuamente exclusivos.",
+        "alternativas": [
+            "V – V – F – V – F.",
+            "F – V – F – V – F.",
+            "F – F – F – V – V.",
+            "V – F – F – V – F.",
+            "V – V – V – F – F."
+        ],
+        "gabarito": "V – V – V – F – F."
+    },
+    {
+        "id": 49,
+        "enunciado": "Assinale a alternativa que melhor diferencia \"Validação\" e \"Verificação\" no contexto de desenvolvimento de software.",
+        "alternativas": [
+            "Validação e Verificação são termos intercambiáveis que significam garantir que o software está livre de defeitos.",
+            "Verificação refere-se a assegurar que o software atende aos requisitos funcionais, enquanto Validação foca nos requisitos não funcionais.",
+            "Validação é o processo de garantir que o software atende às necessidades e requisitos do usuário, enquanto Verificação é o processo de assegurar que o software foi implementado corretamente.",
+            "Verificação é o processo de testar o produto final, enquanto Validação é o processo de revisar o código-fonte.",
+            "Validação refere-se apenas aos testes de unidade, enquanto Verificação foca nos testes de integração."
+        ],
+        "gabarito": "Validação é o processo de garantir que o software atende às necessidades e requisitos do usuário, enquanto Verificação é o processo de assegurar que o software foi implementado corretamente."
+    },
+    {
+        "id": 50,
+        "enunciado": "Ao conduzir o processo de elicitação de requisitos em um projeto de desenvolvimento de software, a escolha adequada de técnicas é crucial para garantir a captura eficiente e precisa das necessidades dos stakeholders. Dentre as opções de técnicas de licitação de requisitos, destaca-se uma abordagem que visa obter informações sobre o sistema por meio da observação direta e participação ativa dos usuários no ambiente em que o software será utilizado. Considerando essa descrição, assinale a alternativa que contém a técnica de elicitação de requisitos que está sendo destacada no enunciado.",
+        "alternativas": [
+            "Brainstorming.",
+            "Entrevistas.",
+            "Prototipagem.",
+            "Observação contextual."
+        ],
+        "gabarito": "Observação contextual."
+    },
+    {
+        "id": 51,
+        "enunciado": "Na fase de validação de requisitos, os analistas de sistemas utilizam diversas técnicas para garantir a qualidade e a adequação das especificações. Uma dessas técnicas é especialmente eficaz na identificação de inconsistências e ambiguidades nos requisitos. Nesse contexto, uma técnica de validação é destacada pela realização de questionamentos sistemáticos e estruturados sobre cada requisito. Assinale a alternativa que representa essa técnica.",
+        "alternativas": [
+            "Inspeção.",
+            "Análise de impacto.",
+            "Testes de sistema.",
+            "Entrevistas."
+        ],
+        "gabarito": "Inspeção."
+    },
+    {
+        "id": 52,
+        "enunciado": "A validação de requisitos é uma etapa crucial no processo de desenvolvimento de software, garantindo que as necessidades dos stakeholders sejam corretamente interpretadas e implementadas. Dentre as técnicas de validação de requisitos, destaca-se uma abordagem que se concentra na verificação formal da consistência, completude e conformidade dos requisitos, permitindo identificar possíveis falhas antes da implementação. Considerando essa descrição, e dentre as técnicas exibidas nas alternativas a seguir, assinale a que representa a técnica de validação de requisitos destacada no texto do enunciado.",
+        "alternativas": [
+            "Prototipagem.",
+            "Revisão de requisitos.",
+            "Testes de sistema.",
+            "Análise de impacto."
+        ],
+        "gabarito": "Revisão de requisitos."
+    },
+    {
+        "id": 53,
+        "enunciado": "Em relação ao desenvolvimento e à sustentação de software e ao gerenciamento de produtos de software, julgue o item a seguir.\nA entrevista com o usuário, a condição de uma sessão de brainstorming e o estudo de sistemas semelhantes são exemplos de técnicas para obtenção de requisitos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 54,
+        "enunciado": "No contexto de requisitos de software, analise os itens a seguir.\nI. “O sistema deve cadastrar um usuário” é um tipo de Requisito Funcional.\nII. “O sistema deve ficar no ar em 99,9% do tempo” é um tipo de Requisito Funcional de Desempenho.\nIII. “O sistema deve ser capaz de armazenar dados de 100 mil clientes” é um tipo de Requisito Não-Funcional de Escalabilidade.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, apenas.",
+            "I e II, apenas.",
+            "I e III, apenas.",
+            "II e III, apenas.",
+            "I, II e III."
+        ],
+        "gabarito": "I e III, apenas."
+    },
+    {
+        "id": 55,
+        "enunciado": "Julgue o item a seguir, referente a conceitos, processos e aplicações da engenharia de software.\nEm levantamento de requisitos baseado em cenários, um ator de casos de uso equivale tipicamente a um usuário que exerça papéis diferentes na operação do sistema a ser construído.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 56,
+        "enunciado": "Considerando a importância da engenharia de requisitos para o desenvolvimento de sistemas, marque a alternativa que associa corretamente com atividade de “Validação” com seu respectivo objetivo:",
+        "alternativas": [
+            "Levantar as necessidades para eliminar os requisitos do sistema.",
+            "Refere-se a garantir que o sistema atenda às necessidades do cliente e às expectativas do usuário.",
+            "Validação: comparar a implementação o código desenvolvido.",
+            "Garantir recursos humanos do projeto."
+        ],
+        "gabarito": "Refere-se a garantir que o sistema atenda às necessidades do cliente e às expectativas do usuário."
+    },
+    {
+        "id": 57,
+        "enunciado": "Qual das seguintes técnicas de elicitação de requisitos, marque a alternativa mais apropriada para capturar requisitos não funcionais, como requisitos de desempenho, segurança e usabilidade.",
+        "alternativas": [
+            "Análise de documentos.",
+            "Entrevistas.",
+            "Questionários.",
+            "Workshops colaborativos."
+        ],
+        "gabarito": "Workshops colaborativos."
+    },
+    {
+        "id": 58,
+        "enunciado": "Utilizar de estratégias como cenários, histórias de uso, aproxima o profissional de TI, com seu cliente e facilita a tarefa de elicitação de requisitos. Marque a alternativa que corresponde corretamente a técnicas de elicitação de requisitos descrita.",
+        "alternativas": [
+            "Entrevistas.",
+            "Observação.",
+            "Prototipação.",
+            "Casos de uso."
+        ],
+        "gabarito": "Casos de uso."
+    },
+    {
+        "id": 59,
+        "enunciado": "A Matriz de Rastreabilidade de Requisitos (MRR) é amplamente utilizada no gerenciamento de requisitos de software. Assinale a alternativa que representa corretamente seu significado.",
+        "alternativas": [
+            "A MRR é uma ferramenta para gerenciar os custos associados aos requisitos do projeto.",
+            "A MRR é uma técnica para priorizar requisitos com base em sua importância para o sucesso do projeto.",
+            "A MRR é uma estrutura para rastrear a relação entre requisitos, desde sua origem até sua implementação e teste.",
+            "A MRR é uma metodologia para identificar e corrigir inconsistências entre os requisitos do sistema."
+        ],
+        "gabarito": "A MRR é uma estrutura para rastrear a relação entre requisitos, desde sua origem até sua implementação e teste."
+    },
+    {
+        "id": 60,
+        "enunciado": "No desenvolvimento de Sistemas, os \"Requisitos\" definem o que um sistema deverá fazer. As atividades relacionadas com a descoberta e entendimento dos requisitos de um sistema são chamadas de?",
+        "alternativas": [
+            "Elicitação de Requisitos.",
+            "Engenharia de Requisitos.",
+            "Requisitos Funcionais.",
+            "Requisitos Não-Funcionais."
+        ],
+        "gabarito": "Elicitação de Requisitos."
+    },
+    {
+        "id": 61,
+        "enunciado": "Sobre Engenharia de Requisitos, analise as afirmativas a seguir.\nI. A validação de requisitos é um processo que visa assegurar que os requisitos atendem às necessidades e expectativas dos stakeholders.\nII. As técnicas de elicitação de requisitos, como brainstorming, entrevistas e prototipagem, são utilizadas para coletar requisitos de forma passiva, sem interação com os stakeholders.\nIII. A priorização de requisitos ajuda a definir a ordem de importância para o projeto.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "II, apenas.",
+            "I e III, apenas.",
+            "II e III, apenas.",
+            "I e II, apenas.",
+            "I, II e III."
+        ],
+        "gabarito": "I e III, apenas."
+    },
+    {
+        "id": 62,
+        "enunciado": "Durante o desenvolvimento de um software de gerenciamento de estoque, a equipe focou nas funcionalidades sem considerar a escalabilidade necessária para o rápido crescimento do varejista. A falta de comunicação com stakeholders e o pouco engajamento dos usuários finais não revelou esse problema. Após a implementação, o software apresentou problemas de desempenho, causando atrasos e insatisfação.\nPara evitar esse problema é necessário",
+        "alternativas": [
+            "focar exclusivamente no desenvolvimento de funcionalidades adicionais para aumentar a satisfação do cliente no curto prazo.",
+            "limitar o envolvimento dos usuários finais no processo de validação dos requisitos, mas aumentar o envolvimento dos stakeholders para acelerar o desenvolvimento.",
+            "aumentar a dependência em ferramentas automatizadas de validação de requisitos para reduzir a necessidade de feedback direto dos usuários finais.",
+            "utilizar uma abordagem de desenvolvimento waterfall, garantindo que todas as etapas sejam completadas sequencialmente com interação do usuário apenas antes do lançamento.",
+            "implementar um processo de comunicação mais eficaz que inclua revisões frequentes dos requisitos com stakeholders e sessões de feedback com usuários finais para garantir que todos os requisitos sejam devidamente entendidos e documentados."
+        ],
+        "gabarito": "implementar um processo de comunicação mais eficaz que inclua revisões frequentes dos requisitos com stakeholders e sessões de feedback com usuários finais para garantir que todos os requisitos sejam devidamente entendidos e documentados."
+    },
+    {
+        "id": 63,
+        "enunciado": "Assinale a ação mais apropriada para realizar uma análise de requisitos de usabilidade eficaz.",
+        "alternativas": [
+            "Limitar a análise aos requisitos funcionais do sistema para acelerar o desenvolvimento.",
+            "Consultar apenas a equipe de desenvolvimento para definir os requisitos de usabilidade, evitando influências externas.",
+            "Realizar testes de usabilidade apenas nas fases finais de desenvolvimento para ajustes finos.",
+            "Envolver usuários finais e stakeholders no processo de definição de requisitos desde o início do projeto.",
+            "Ignorar as diferenças culturais e de idioma dos usuários finais, focando unicamente na funcionalidade."
+        ],
+        "gabarito": "Envolver usuários finais e stakeholders no processo de definição de requisitos desde o início do projeto."
+    },
+    {
+        "id": 64,
+        "enunciado": "A prefeitura de uma cidade deseja criar um portal de serviços públicos online para integrar diversos sistemas (como IPTU, iluminação pública etc.) e ser acessível.\nA esse respeito, analise as afirmativas a seguir e assinale (F) para os requisitos funcionais e (N) para os não-funcionais.\n( ) Deve permitir o cadastro de usuários, utilizando documentos pessoais e um método de verificação, além de suportar a autenticação segura para acesso aos serviços personalizados.\n( ) O portal deve apresentar tempos de carregamento rápidos e ser capaz de lidar com um grande número de usuários simultâneos sem degradação\n( ) O sistema deve permitir o uso por pessoas com diferentes tipos de deficiência, incluindo leitores de tela e navegação por teclado.\nAs afirmativas são, segundo a ordem apresentada, corretamente classificadas como",
+        "alternativas": [
+            "F – N – N.",
+            "F – F – N.",
+            "F – N – F.",
+            "N – F – N.",
+            "N – N – N."
+        ],
+        "gabarito": "F – N – N."
+    },
+    {
+        "id": 65,
+        "enunciado": "Leia o texto a seguir.\nNa engenharia de requisitos, um dos desafios mais significativos é a identificação e a compreensão das necessidades dos usuários e stakeholders, a fim de definir corretamente os requisitos do sistema que está sendo desenvolvido. Neste contexto, destacam-se duas categorias de dificuldades: essenciais e acidentais.\nDisponível em: <https://ieeexplore.ieee.org/document/1663532>. Acesso em: 15 fev. 2024.\nA diferença entre essas categorias está descrita em:",
+        "alternativas": [
+            "as dificuldades essenciais referem-se a problemas intrínsecos à natureza da engenharia de software, enquanto as dificuldades acidentais são aquelas que surgem de restrições externas, como prazos apertados e orçamento limitado.",
+            "as dificuldades essenciais são relacionadas à falta de ferramentas e às tecnologias adequadas, enquanto as dificuldades acidentais estão relacionadas a problemas na comunicação entre desenvolvedores e clientes.",
+            "as dificuldades essenciais estão relacionadas a erros cometidos pelos desenvolvedores durante o processo de desenvolvimento, enquanto as dificuldades acidentais são inerentes à complexidade do sistema a ser desenvolvido.",
+            "as dificuldades essenciais referem-se a problemas de desempenho e a segurança do sistema, enquanto as dificuldades acidentais estão relacionadas a problemas de compatibilidade com diferentes plataformas e dispositivos."
+        ],
+        "gabarito": "as dificuldades essenciais referem-se a problemas intrínsecos à natureza da engenharia de software, enquanto as dificuldades acidentais são aquelas que surgem de restrições externas, como prazos apertados e orçamento limitado."
+    },
+    {
+        "id": 66,
+        "enunciado": "Na engenharia de software, compreender as diferentes categorias de requisitos é fundamental para o sucesso do projeto. Considerando as diferentes categorias de requisitos, os requisitos funcionais são:",
+        "alternativas": [
+            "descrições do comportamento do sistema sob condições específicas.",
+            "condições ou capacidades que um sistema deve ter para ser operado.",
+            "requisitos relacionados à segurança, à confiabilidade e ao desempenho do sistema.",
+            "normas que regulam o desenvolvimento do sistema em um nível organizacional."
+        ],
+        "gabarito": "descrições do comportamento do sistema sob condições específicas."
+    },
+    {
+        "id": 67,
+        "enunciado": "A figura precedente ilustra um processo de elicitação e análise de requisitos. Em relação a esse processo, a técnica casos de uso",
+        "alternativas": [
+            "poderia ser utilizada na Priorização e negociação de requisitos, mas somente se o sistema for orientado a objetos, pois, nesse caso, haveria a especificação de cada caso de uso.",
+            "seria uma atividade do processo Descoberta de requisitos.",
+            "não estaria relacionada ao referido processo, pois, como o processo é um diagrama da UML, a técnica seria utilizada somente ao final do processo para a documentação do projeto.",
+            "está mais relacionada à Especificação de requisitos, uma vez que nela podem ser detalhadas as iterações do sistema.",
+            "seria melhor classificada, por envolver a descrição de quem são os atores do sistema, como uma atividade da Priorização e negociação de requisitos, uma vez que envolve a definição de papéis."
+        ],
+        "gabarito": "seria uma atividade do processo Descoberta de requisitos."
+    },
+    {
+        "id": 68,
+        "enunciado": "Relacione as técnicas de elicitação e especificação de requisitos às suas respectivas definições:\n1. Entrevistas\n2. Etnografia\n3. Histórias e Cenários\n4. Casos de Uso\n( ) Identifica os atores envolvidos, as funcionalidades principais, bem como a interação entre atores e funcionalidades do sistema\n( ) Identifica características sobre o sistema (ou processo) atual e sobre o sistema que será desenvolvido a partir de questionamento aos stakeholders\n( ) Descreve situação de uso do sistema, com informações como: ator(es); pré-condição; fluxo normal; fluxos alternativos; e pós-condição.\n( ) Técnica de observação onde o analista (engenheiro de requisitos) se insere na organização do cliente, observa o trabalho no dia a dia e anota as tarefas dos funcionários Assinale a opção que indica a relação correta, segundo a ordem apresentada.",
+        "alternativas": [
+            "2, 4, 1 e 3.",
+            "3, 2, 4 e 1.",
+            "1, 3, 2 e 4.",
+            "4, 1, 3 e 2."
+        ],
+        "gabarito": "4, 1, 3 e 2."
+    },
+    {
+        "id": 69,
+        "enunciado": "Com relação à Engenharia de Requisitos, analise as afirmativas a seguir e assinale (V) para a verdadeira e (F) para a falsa.\n( ) A Engenharia de Requisitos inclui três atividades fundamentais: elicitação (e análise); especificação; e, validação.\n( ) Na etapa de classificação e organização, no processo de elicitação e análise de requisitos, o conjunto não estruturado de requisitos é agrupado pelos requisitos relacionados e organizado em grupos coerentes.\n( ) Na prática, a Engenharia de Requisitos é um processo iterativo, no qual as atividades são intercaladas As afirmativas são, respectivamente:",
+        "alternativas": [
+            "V, F e F.",
+            "F, V e F.",
+            "F, F e V.",
+            "V, V e V."
+        ],
+        "gabarito": "V, V e V."
+    },
+    {
+        "id": 70,
+        "enunciado": "Os requisitos não funcionais são caracterizados pelos requisitos que não estão diretamente relacionados com os serviços específicos oferecidos pelo sistema a seus usuários; geralmente, esses requisitos estão relacionados às propriedades emergentes da aplicação. Considerando que a PRODABEL S/A possui uma equipe específica e dedicada para as tarefas de engenharia de sistemas, que trabalha com diversas etapas e tarefas como, por exemplo, a coleta de requisitos não funcionais, marque V para as afirmativas verdadeiras e F para as falsas.\n( ) A propriedade velocidade aborda transações processadas/segundo, tempo de resposta de usuário/evento e tempo de atualização de tela.\n( ) O tempo de reinício após falha, o percentual de eventos que causam falhas e a probabilidade de corrupção de dados em caso de falhas são abordadas pela propriedade robustez.\n( ) A propriedade portabilidade pode avaliar o percentual de declarações dependentes do sistema-alvo e a disponibilidade.\n( ) Abordar o tempo de treinamento, o número de frames de ajuda e o número de chip de memória ROM está relacionada à propriedade facilidade de uso.\nA sequência está correta em",
+        "alternativas": [
+            "V, V, F, F.",
+            "V, F, V, F.",
+            "F, V, F, V.",
+            "F, F, V, V."
+        ],
+        "gabarito": "V, V, F, F."
+    },
+    {
+        "id": 71,
+        "enunciado": "É o seu pior pesadelo. Um cliente entra em seu escritório, senta-se, olha diretamente nos seus olhos e diz: “Eu sei que você pensa que entendeu o que eu disse, mas o que você não entende é que aquilo que eu disse não era o que eu quis dizer”. Invariavelmente, isso acontece no final do projeto, após compromissos de prazos de entrega terem sido estabelecidos, reputações estarem em risco e muito dinheiro estar em jogo.\nQuem trabalhou na área de software e sistemas por mais do que alguns poucos anos já viveu esse pesadelo; mesmo assim, poucos aprenderam a livrar-se dele.\nPassamos por muitas dificuldades ao tentar extrair os requisitos de nossos clientes. Temos dificuldades para entender as informações obtidas. Normalmente, registramos os requisitos de forma desorganizada e investimos pouco tempo verificando aquilo que registramos. Deixamos que as mudanças nos controlem, em vez de estabelecermos mecanismos para controlar as mudanças. Em suma, não conseguimos estabelecer uma base sólida para o sistema ou software. Todos esses problemas são desafiadores. Quando combinados, o panorama é assustador até mesmo para os gerentes e profissionais mais experientes. Mas soluções existem.\n(PRESSMAN, 2021, p. 103. Adaptado.) Sobre a Engenharia de Requisitos, marque V para as afirmativas verdadeiras e F para as falsas.\n( ) Recomenda-se iniciar a engenharia de requisitos desde o início de um projeto de software para garantir que o software atenda às necessidades do cliente.\n( ) Durante a tarefa de elaboração na engenharia de requisitos, são identificados e analisados os cenários de usuário.\n( ) A principal finalidade da negociação durante a engenharia de requisitos é eliminar completamente os requisitos conflitantes.\n( ) A especificação de requisitos no contexto da engenharia de requisitos é um processo iterativo de captura e documentação dos requisitos.\n( ) A rastreabilidade é importante na engenharia de requisitos para garantir que todos os requisitos estejam alinhados com as diretrizes de engenharia de software.\nA sequência está correta em",
+        "alternativas": [
+            "V, V, F, V, V.",
+            "V, F, V, F, V.",
+            "V, V, F, V, F.",
+            "V, F, V, F, F."
+        ],
+        "gabarito": "V, V, F, V, V."
+    },
+    {
+        "id": 72,
+        "enunciado": "Na engenharia de software, entre as técnicas para elicitação de requisitos, o brainstorming caracteriza-se por:",
+        "alternativas": [
+            "ser útil na geração de uma ampla variedade de pontos de vista sobre o problema e na sua formulação de diferentes maneiras;",
+            "ser uma ferramenta para extrair modelos e informações referentes a um sistema legado;",
+            "coletar dados ricos e detalhados que nos permitem obter uma visão holística do processo ou do domínio;",
+            "por ser uma série de perguntas organizadas com o objetivo de levantar dados para uma pesquisa ou estudo, cujas respostas são fornecidas pelo informante sem a orientação direta do pesquisador;",
+            "procurar entender o comportamento natural do usuário final no contexto do seu próprio ambiente de atuação."
+        ],
+        "gabarito": "ser útil na geração de uma ampla variedade de pontos de vista sobre o problema e na sua formulação de diferentes maneiras;"
+    },
+    {
+        "id": 73,
+        "enunciado": "No que se refere à disciplina de engenharia de requisitos, assinale a alternativa correta.",
+        "alternativas": [
+            "A limitação do tempo de resposta a uma requisição feita a um serviço provido por uma API é tipicamente definida em um requisito funcional.",
+            "O escopo inicialmente contratado pode ser negociado nas primeiras etapas da construção do sistema, porém deve se manter inalterado até a entrega final.",
+            "Os cenários ou casos de uso são criados no momento da concepção dos testes, a fim de validar a correta implementação e entrega de um requisito funcional.",
+            "Requisitos não funcionais apresentam restrições ao modo como os serviços do sistema devem ser oferecidos.",
+            "Um documento de requisitos deve refletir a expectativa do cliente a respeito de quais funcionalidades serão oferecidas, porém compete somente ao time de desenvolvimento a definição de quais tecnologias serão utilizadas para isso."
+        ],
+        "gabarito": "Requisitos não funcionais apresentam restrições ao modo como os serviços do sistema devem ser oferecidos."
+    },
+    {
+        "id": 74,
+        "enunciado": "Como profissional de TI do Poder Executivo do Estado do Paraná, você está envolvido em um projeto de desenvolvimento de um novo software para a organização.\nSua responsabilidade inclui a engenharia de requisitos, e, durante o processo de validação de requisitos, diferentes tipos de verificação devem ser efetuados no documento de requisitos. O líder do projeto solicita que você verifique se o documento de requisitos inclui requisitos que definam todas as funções e restrições pretendidas pelo usuário do sistema. Essa é uma verificação do tipo",
+        "alternativas": [
+            "verificação de consistência.",
+            "verificação de validade.",
+            "verificação de completude.",
+            "verificabilidade.",
+            "verificação de prototipação."
+        ],
+        "gabarito": "verificação de completude."
+    },
+    {
+        "id": 75,
+        "enunciado": "Danilo é analista de Desenvolvimento de Sistemas da Defensoria Pública do Estado de Mato Grosso do Sul e está trabalhando na análise de um projeto, em relação ao qual recebeu um documento que contém as Histórias do Usuário. Esse documento corresponde",
+        "alternativas": [
+            "a uma forma muito utilizada para descrever requisitos.",
+            "à visão de alto nível do produto.",
+            "ao conjunto de uma ou mais sprints de trabalho.",
+            "à primeira versão utilizável de um produto.",
+            "a uma técnica para priorização de requisitos."
+        ],
+        "gabarito": "a uma forma muito utilizada para descrever requisitos."
+    },
+    {
+        "id": 76,
+        "enunciado": "A engenharia de requisitos abrange as tarefas de levantamento, especificação, concepção, validação, elaboração, negociação e gestão. A tarefa de elaboração concentra-se",
+        "alternativas": [
+            "no desenvolvimento de regras de legitimação de requisitos, com vistas a garantir que todos os requisitos de software tenham sido declarados de forma não ambígua e que não haja inconsistências com os padrões estabelecidos para o projeto.",
+            "em estabelecer uma abordagem iterativa que priorize os requisitos, avaliando-se seus custos e riscos, de modo que cada parte atinja certo nível de satisfação.",
+            "no desenvolvimento de um modelo de requisitos refinado que identifique os diversos aspectos da função, do comportamento e das informações do software.",
+            "em estabelecer mecanismo de atribuição de prioridades que atenda às metas dos envolvidos e à arquitetura do projeto, por meio do estabelecimento de metas de negócios.",
+            "em estabelecer entendimento básico do problema, definindo-se os interessados em sua solução, a natureza da solução desejada e a eficácia da comunicação e da colaboração preliminares entre os demais envolvidos e a equipe de software."
+        ],
+        "gabarito": "no desenvolvimento de um modelo de requisitos refinado que identifique os diversos aspectos da função, do comportamento e das informações do software."
+    },
+    {
+        "id": 77,
+        "enunciado": "Assinale a opção em que é apresentada a técnica de elicitação de requisitos que pode ser usada para compreender os processos operacionais e na qual o analista de requisitos faz uma imersão no ambiente de trabalho em que o sistema será usado.",
+        "alternativas": [
+            "prototipação.",
+            "casos de uso.",
+            "entrevistas informais internas.",
+            "cenários.",
+            "etnografia."
+        ],
+        "gabarito": "etnografia."
+    },
+    {
+        "id": 78,
+        "enunciado": "Julgue o item subsequente, a respeito de técnicas de elicitação de requisitos funcionais e não funcionais e de modelagem de processos em BPMN.\nA técnica de entrevistas é suficiente para elicitar todos os requisitos funcionais e não funcionais de um sistema, garantindo que todas as necessidades dos stakeholders sejam completamente atendidas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 79,
+        "enunciado": "O projeto de software está no núcleo técnico da engenharia de software, e é aplicado em qualquer modelo de processos de software a ser utilizado. Para a transformação do modelo de requisitos para o modelo de projeto são considerados vários diagramas que pertencem aos elementos baseados em cenário, comportamento e projetos de dados/classe. Marque a opção que apresenta o diagrama que pertence aos elementos baseados em cenários.",
+        "alternativas": [
+            "Classes.",
+            "Estados.",
+            "Atividade.",
+            "Sequência."
+        ],
+        "gabarito": "Atividade."
+    },
+    {
+        "id": 80,
+        "enunciado": "Um analista de requisitos está conduzindo a especificação de requisitos para um novo sistema de informações para atender às necessidades criadas por uma nova prática de negócio que envolve diversos departamentos da organização, com diferentes expectativas e valores.\nConsiderando-se o contexto descrito, qual das seguintes práticas é recomendada para melhorar a qualidade da especificação de requisitos?",
+        "alternativas": [
+            "Definir requisitos de maneira genérica para que possam ser reutilizados em outros projetos.",
+            "Especificar critérios de aceitação para cada requisito.",
+            "Evitar a participação de stakeholders no processo de especificação para reduzir conflitos.",
+            "Priorizar os requisitos com base na ordem de chegada das solicitações.",
+            "Utilizar linguagem ambígua para permitir flexibilidade na implementação."
+        ],
+        "gabarito": "Especificar critérios de aceitação para cada requisito."
+    },
+    {
+        "id": 81,
+        "enunciado": "A Engenharia de Requisitos é uma disciplina essencial no desenvolvimento de sistemas de software, englobando atividades de elicitação, análise, especificação e validação de requisitos. A respeito das práticas e dos conceitos de Engenharia de Requisitos, assinale a alternativa correta.",
+        "alternativas": [
+            "A técnica de prototipação é utilizada principalmente para documentar requisitos não funcionais, como desempenho e segurança.",
+            "A matriz de rastreabilidade de requisitos é uma ferramenta usada para garantir que cada requisito funcional está associado a pelo menos um requisito não funcional.",
+            "A elicitação de requisitos é uma atividade que ocorre apenas no início do projeto, durante a fase de levantamento de necessidades dos stakeholders.",
+            "O documento de especificação de requisitos de software deve incluir exclusivamente requisitos funcionais, deixando os requisitos não funcionais para outros documentos técnicos.",
+            "A análise de requisitos envolve a identificação de conflitos entre requisitos, priorização e negociação com os stakeholders para resolver tais conflitos."
+        ],
+        "gabarito": "A análise de requisitos envolve a identificação de conflitos entre requisitos, priorização e negociação com os stakeholders para resolver tais conflitos."
+    },
+    {
+        "id": 82,
+        "enunciado": "Segundo Wiegers e Beatty (2, assinale a alternativa correta que apresenta as categorias essenciais para o gerenciamento de requisitos durante o ciclo de vida de um projeto.",
+        "alternativas": [
+            "Controle de mudanças, rastreabilidade, controle de versão e acompanhamento de status.",
+            "Controle de qualidade, rastreabilidade, priorização de requisitos e controle de mudanças.",
+            "Controle de versão, análise de impacto, rastreabilidade e acompanhamento de stakeholders.",
+            "Controle de versão, rastreabilidade, planejamento de iteração e controle de riscos."
+        ],
+        "gabarito": "Controle de mudanças, rastreabilidade, controle de versão e acompanhamento de status."
+    },
+    {
+        "id": 83,
+        "enunciado": "Com base na diferença entre requisitos funcionais e não funcionais, assinale a alternativa correta.",
+        "alternativas": [
+            "Requisitos funcionais definem como o software deve operar em termos de desempenho e usabilidade.",
+            "Requisitos não funcionais geralmente não impactam a arquitetura do sistema e podem ser facilmente corrigidos no final do projeto.",
+            "Requisitos funcionais especificam as funcionalidades que o sistema deve fornecer para atender às necessidades dos usuários.",
+            "Requisitos não funcionais são aqueles que definem o comportamento específico do sistema em relação à lógica de negócio."
+        ],
+        "gabarito": "Requisitos funcionais especificam as funcionalidades que o sistema deve fornecer para atender às necessidades dos usuários."
+    },
+    {
+        "id": 84,
+        "enunciado": "De acordo com a Norma Internacional ISO/IEC/IEEE 29148 que define os processos de engenharia de registros necessários para sistemas, assinale a alternativa que apresenta uma característica de um requisito bem especificado.",
+        "alternativas": [
+            "Não precisa ser qualificado por condições mensuráveis, desde que atenda ao objetivo do projeto.",
+            "Um requisito bem especificado deve ser verificável, ou seja, sua realização no sistema deve ser demonstrável.",
+            "Define o desempenho de um sistema quando usado por um stakeholder específico, ou seja, refere-se diretamente à capacidade do usuário ou operador.",
+            "Pode ser flexível quanto às restrições, dependendo da necessidade de mudança durante o desenvolvimento do projeto."
+        ],
+        "gabarito": "Um requisito bem especificado deve ser verificável, ou seja, sua realização no sistema deve ser demonstrável."
+    },
+    {
+        "id": 85,
+        "enunciado": "Com base nas considerações sobre o nível de detalhamento dos requisitos segundo Wiegers e Beatty (2, assinale a alternativa que apresenta a situação na qual é possível descrever menos detalhes sobre os requisitos.",
+        "alternativas": [
+            "Quando desenvolvimento será terceirizado e os membros da equipe estão geograficamente dispersos.",
+            "Quando o trabalho está sendo realizado para um cliente externo que exige rastreabilidade entre os requisitos.",
+            "Quando os desenvolvedores possuem uma vasta experiência no domínio e os clientes estão bastante envolvidos no projeto.",
+            "Quando estimativas precisas são necessárias para o sucesso do projeto e os testes de sistema serão baseados nos requisitos detalhados."
+        ],
+        "gabarito": "Quando os desenvolvedores possuem uma vasta experiência no domínio e os clientes estão bastante envolvidos no projeto."
+    },
+    {
+        "id": 86,
+        "enunciado": "No ciclo de vida do desenvolvimento de software é crucial identificar defeitos nos requisitos o mais cedo possível. Assinale a alternativa correta quanto à necessidade de identificação nos defeitos dos requisitos.",
+        "alternativas": [
+            "Para evitar que requisitos incorretos resultem em desdobramentos incorretos nas fases subsequentes, como codificação e testes.",
+            "Porque os defeitos nas fases iniciais são inevitáveis e fazem parte do processo natural de desenvolvimento.",
+            "Porque defeitos nas fases posteriores não afetam significativamente o custo do projeto.",
+            "Para garantir que a fase de testes será suficiente para corrigir qualquer defeito nos requisitos."
+        ],
+        "gabarito": "Para evitar que requisitos incorretos resultem em desdobramentos incorretos nas fases subsequentes, como codificação e testes."
+    },
+    {
+        "id": 87,
+        "enunciado": "Assinale a alternativa que apresenta as três principais atividades envolvidas no processo de validação de requisitos.",
+        "alternativas": [
+            "Preparação, execução da validação e gerenciamento dos resultados da validação.",
+            "Planejamento, testes de aceitação e documentação dos resultados.",
+            "Definição de critérios, execução de testes de unidade e análise de requisitos.",
+            "Identificação de requisitos, codificação e análise de desempenho."
+        ],
+        "gabarito": "Preparação, execução da validação e gerenciamento dos resultados da validação."
+    },
+    {
+        "id": 88,
+        "enunciado": "Engenharia de Requisitos é uma disciplina fundamental na Engenharia de Software. Ela envolve a identificação, a análise, a documentação e o gerenciamento dos requisitos de um sistema de software. Esses requisitos definem o que o sistema deve fazer e quais são as suas funcionalidades e restrições. O objetivo principal da engenharia de requisitos é assegurar que o software desenvolvido atenda às necessidades e expectativas dos stakeholders (partes interessadas). Diante do contexto apresentado, a seguinte etapa da Engenharia de Requisitos é essencial para garantir que as necessidades e expectativas dos stakeholders sejam corretamente compreendidas e documentadas:",
+        "alternativas": [
+            "Implementação de testes automatizados.",
+            "Análise de viabilidade técnica.",
+            "Elicitação de requisitos.",
+            "Design da arquitetura do sistema.",
+            "Implementação do código-fonte."
+        ],
+        "gabarito": "Elicitação de requisitos."
+    },
+    {
+        "id": 89,
+        "enunciado": "No que diz respeito à engenharia de software, julgue os itens subsequentes.\nAs arquiteturas de referência fornecem um modelo para avaliar projetos e informar a respeito das características arquiteturais em um domínio específico, embora nem todas as suas características sejam usadas em uma única aplicação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 90,
+        "enunciado": "No que diz respeito à engenharia de software, julgue os itens subsequentes.\nQuando o desempenho é um requisito crítico, a arquitetura do sistema deve ser projetada com componentes pequenos, autocontidos e coesos, a fim de permitir que o sistema seja replicado e executado em diferentes processadores.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 91,
+        "enunciado": "No que diz respeito à engenharia de software, julgue os itens subsequentes.\nOs requisitos de domínio podem ser novos requisitos funcionais, podem limitar requisitos funcionais existentes ou podem indicar como determinadas computações devem ser realizadas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 92,
+        "enunciado": "A respeito da arquitetura de aplicações para ambiente web e da arquitetura em camadas, julgue o próximo item.\nConsidere que um time de desenvolvimento de software, enquanto apurava os requisitos a serem apresentados por certa aplicação web de um sistema de vendas, tenha definido os seguintes requisitos: i) o sistema deve possuir a função cadastro de clientes; ii) o tempo de processamento do cadastro de um cliente não deve ser maior que 100 milissegundos. Nesse caso, o primeiro requisito mencionado é funcional e o segundo, não funcional.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 93,
+        "enunciado": "A engenharia de requisitos, no contexto do desenvolvimento de software, tem como objetivos elicitar, modelar, especificar e gerenciar as principais funcionalidades e restrições do sistema. Qual modelo é responsável por realizar o tratamento de características dependentes de um determinado tipo de plataforma computacional, porém independente de produtos específicos?",
+        "alternativas": [
+            "Conceitual.",
+            "Lógico.",
+            "Protótipo.",
+            "Estrutural."
+        ],
+        "gabarito": "Lógico."
+    },
+    {
+        "id": 94,
+        "enunciado": "A respeito do requisito não funcional, assinale V para a afirmativa verdadeira e F para a falsa.\n( ) O sistema deve permitir que os usuários criem e editem seus perfis.\n( ) O sistema deve estar disponível na Web e em dispositivos Android.\n( ) O sistema deve ter um recurso de pesquisa que permita aos usuários encontrar informações sobre vendas.\n( ) O sistema deve estar disponível 99,99% do tempo.\n( ) O sistema deve exibir dados de vendas em tempo real.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "V – F – V – F – V.",
+            "V – V – V – F – V.",
+            "F – V – F – V – F.",
+            "V – F – V – V – V.",
+            "V – F – F – F – V."
+        ],
+        "gabarito": "F – V – F – V – F."
+    },
+    {
+        "id": 95,
+        "enunciado": "A engenharia de requisitos pode incluir quatro atividades de alto nível, que visam avaliar se o sistema é útil para a empresa, descobrindo requisitos, convertendo-os em alguma forma- -padrão, e verificar se os requisitos realmente definem o sistema que o cliente quer. Sobre requisitos, analise as afirmativas a seguir.\nI. Etnografia: técnica de observação que pode ser usada para compreender os processos operacionais e ajudar a extrair os requisitos de apoio para tais processos.\nII. Gerenciamento de requisitos: processo de reunir informações sobre o sistema requerido e os sistemas existentes e separar as informações, os requisitos de usuário e de sistema.\nIII. Elicitação de requisitos: processo pelo qual verifica se os requisitos definem o sistema que o cliente realmente quer.\nIV. Entrevistas formais ou informais com os stakeholders do sistema: parte da maioria dos processos de engenharia de requisitos.\nEstá correto o que se afirma apenas em",
+        "alternativas": [
+            "I e II.",
+            "I e IV.",
+            "II e III.",
+            "III e IV."
+        ],
+        "gabarito": "I e IV."
+    },
+    {
+        "id": 96,
+        "enunciado": "Entender os requisitos de um problema está entre as tarefas mais difíceis enfrentadas por um analista de tecnologia de informação. Do ponto de vista do processo de software, a engenharia de requisitos é uma atividade que se inicia em tempo de projeto e pode ocorrer de forma contínua ao longo do ciclo de desenvolvimento e em tempo de execução.\n(Adaptado de: Pressmam, R. S.; Maxin, B. R. Engenharia de Software: uma abordagem tradicional; 9ª ed. Porto Alegre: AMGH, 2021.) Considerando as atividades de levantamento, análise, gerenciamento de requisitos e histórias de usuários, analise as afirmativas a seguir.\nI. Uma importante atividade em engenharia de requisitos é entender as metas de negócios de longo prazo que devem ser atendidas pelo sistema de software.\nEssas metas podem ser funcionais ou não funcionais e são, frequentemente, uma boa maneira de explicar os requisitos aos envolvidos e, uma vez estabelecidas, podem ser usadas para gerenciar conflitos entre eles.\nII. No processo de verificação de requisitos, diferentes processos de conferências podem ser realizados para garantir que a especificação do sistema, produto ou serviço atenda às necessidades do cliente e de outras partes envolvidas. Entre esses processos pode-se encontrar a geração de casos de teste, inspeção, rastreabilidade, conferência de consistência, de completude e de realismo.\nIII. Os modelos comportamentais representam os elementos funcionais do sistema e como eles transformam dados à medida que se movem pelo sistema. Entre os modelos UML pode-se encontrar o diagrama de estados.\nIV. Histórias de usuários descrevem funcionalidades e são compostas de três partes: cartão onde uma funcionalidade é escrita e é usada no planejamento do sistema de software; conversas entre equipe de desenvolvimento e cliente, por meio das quais o cliente explica e detalha o que escreveu no cartão; e, confirmação que é um teste escrito pelo cliente, em alto nível, que ajuda a identificar que a história foi implementada como esperado. Para escrever uma boa história ela precisa focar em seis atributos, conhecidos pelo acrônimo INVEST.\nEstá correto o que se afirma apenas em",
+        "alternativas": [
+            "I e II.",
+            "I e IV.",
+            "II e III.",
+            "II, III e IV."
+        ],
+        "gabarito": "I e IV."
+    },
+    {
+        "id": 97,
+        "enunciado": "O estudo de viabilidade constitui-se na fase inicial do desenvolvimento da especificação de requisitos do software e o resultado desse estudo deve, prioritariamente, compreender",
+        "alternativas": [
+            "uma planilha de custos detalhada de todos as atividades e compras a serem feitas no decorrer do desenvolvimento do software.",
+            "a recomendação para prosseguir, ou não, com os demais processos componentes da engenharia de requisitos.",
+            "uma classificação detalhada dos requisitos levantados, por ordem de prioridade e de tempo necessários para o desenvolvimento.",
+            "a definição de quais deverão ser os módulos de software desenvolvidos internamente e quais deverão ser adquiridos de terceiros.",
+            "a definição da equipe de desenvolvimento do software, bem como sua seleção, segundo critérios estabelecidos nesse estudo."
+        ],
+        "gabarito": "a recomendação para prosseguir, ou não, com os demais processos componentes da engenharia de requisitos."
+    },
+    {
+        "id": 98,
+        "enunciado": "Na engenharia de requisitos constitui uma atividade importante a elicitação de requisitos, cujas técnicas de obtenção compreendem",
+        "alternativas": [
+            "obter informações sobre o sistema a ser desenvolvido, bem como outros sistemas existentes, visando destacar os requisitos de usuário e do sistema em desenvolvimento.",
+            "realizar um estudo detalhado de várias ferramentas de desenvolvimento de sistemas, gerando um relatório da operação de cada uma dessas ferramentas.",
+            "comparar todas as possibilidades de utilização de linguagens de programação, visando a codificação do sistema final.",
+            "preparar um ambiente de simulação e testes que deverá acomodar todo o desenvolvimento do sistema a ser entregue.",
+            "analisar e decidir qual ou quais grupos de usuários poderão utilizar o sistema sob desenvolvimento."
+        ],
+        "gabarito": "obter informações sobre o sistema a ser desenvolvido, bem como outros sistemas existentes, visando destacar os requisitos de usuário e do sistema em desenvolvimento."
+    },
+    {
+        "id": 99,
+        "enunciado": "Com relação à Engenharia de Software, analise as afirmativas a seguir.\nI. Requisitos funcionais podem ser descritos como um atributo de qualidade, de desempenho, de segurança ou como uma restrição geral em um sistema.\nII. Rastreabilidade é o termo que se refere ao mapeamento documentado entre os artefatos de Engenharia de Software, como os requisitos e casos de teste.\nIII. A elicitação de requisitos combina elementos de solução de problemas, elaboração, negociação e especificação.\nEstão corretas as afirmativas",
+        "alternativas": [
+            "I e II, apenas.",
+            "I e III, apenas.",
+            "II e III, apenas.",
+            "I, II e III."
+        ],
+        "gabarito": "II e III, apenas."
+    },
+    {
+        "id": 100,
+        "enunciado": "A primeira etapa na produção de um sistema de software é decidir exatamente o que se supõe que o sistema faça. Essa etapa é conhecida como análise de requisitos ou especificações. Considerando as características da análise de requisitos, marque V para as afirmativas verdadeiras e F para as falsas.\n( ) A fase de especificação requer, em geral, a comunicação entre os programadores e os futuros usuários do sistema, bem como iterar a especificação até que tanto o especificador quanto os usuários estejam satisfeitos com as especificações.\n( ) Na etapa de especificações para melhorar a comunicação entre os programadores e usuários é obrigatório construir um protótipo ou modelo simples do sistema final que simule o comportamento das partes do software desejado.\n( ) O modelo de dados é uma ferramenta muito importante na etapa de definição do problema, sendo muito utilizado no projeto e na construção de bases de dados.\n( ) O resultado final da fase de análise é um documento de especificação dos requisitos do software que descreve explicitamente a funcionalidade do software, e lista qualquer restrição que ele deva cumprir.\nA sequência está correta em",
+        "alternativas": [
+            "F, F, F, F.",
+            "V, F, V, V.",
+            "F, V, V, F.",
+            "V, F, F, V.",
+            "V, V, V, V."
+        ],
+        "gabarito": "V, F, V, V."
+    },
+    {
+        "id": 101,
+        "enunciado": "Analise as afirmações, a seguir, sobre o que são os requisitos de um sistema:\nI – As descrições do que o sistema deve fazer;\nII – Os serviços que oferece;\nIII – O desenvolvimento do produto;\nIV – As restrições a seu funcionamento.\nSão requisitos de um sistema, as afirmações:",
+        "alternativas": [
+            "II, III e IV apenas.",
+            "I, II e III apenas.",
+            "I, III e IV.",
+            "I, II e IV.",
+            "I, II, III e IV."
+        ],
+        "gabarito": "I, II e IV."
+    },
+    {
+        "id": 102,
+        "enunciado": "Segundo Sommerville, alguns dos problemas que surgem, durante o processo de engenharia de requisitos, são as falhas em não fazer uma clara separação entre os níveis de descrição dos requisitos de usuário e de requisitos do sistema. Assinale, abaixo, a alternativa que contenha um requisito de usuário.",
+        "alternativas": [
+            "O sistema deve gerar relatórios gerenciais mensais que mostrem o custo dos produtos prescritos por cada clínica durante o mês.",
+            "Após as 17:30h do último dia útil do mês, o sistema deve gerar, automaticamente, o relatório para impressão.",
+            "Um relatório será criado para cada clínica listando os nomes dos medicamentos, o número total de prescrições, o número de doses prescritas e o custo total dos medicamentos prescritos.",
+            "No último dia útil de cada mês deve ser gerado um resumo dos medicamentos prescritos, seus custos e as prescrições de cada clínica.",
+            "O acesso aos relatórios de custos deve ser restrito a usuários autorizados por uma lista de controle de gerenciamento de acesso."
+        ],
+        "gabarito": "O sistema deve gerar relatórios gerenciais mensais que mostrem o custo dos produtos prescritos por cada clínica durante o mês."
+    },
+    {
+        "id": 103,
+        "enunciado": "Uma das métricas utilizadas para especificar requisitos não funcionais é a confiabilidade. Das alternativas, abaixo, qual delas não está ligada a métrica de confiabilidade?",
+        "alternativas": [
+            "Tempo médio para falha.",
+            "Probabilidade de indisponibilidade.",
+            "Número de chips de memória ROM.",
+            "Taxa de ocorrência de falhas.",
+            "Disponibilidade."
+        ],
+        "gabarito": "Número de chips de memória ROM."
+    },
+    {
+        "id": 104,
+        "enunciado": "Um critério de qualidade para orientar a elaboração de Histórias do Usuário é o modelo 3 C´s, proposto por Ron Jeffreis (2.\nAnalise as afirmativas abaixo sobre o modelo 3 C’s:\nI. Cartão: a história do usuário é pequena o suficiente para caber em um cartão.\nII. Criação: a história do usuário propõe hipóteses que podem ou não ser validadas pelo usuário em um processo de criação conjunta.\nIII. Conversação: a história do usuário consegue promover a comunicação entre o usuário e a equipe, proporcionando um entendimento comum da funcionalidade a ser entregue.\nEstá CORRETO apenas o que se afirma em:",
+        "alternativas": [
+            "I.",
+            "I e II.",
+            "I e III.",
+            "II e III."
+        ],
+        "gabarito": "I e III."
+    },
+    {
+        "id": 105,
+        "enunciado": "Técnica de observação que pode ser usada na elicitação de requisitos, na qual o analista ou engenheiro de requisitos imerge no ambiente dos usuários e observa os hábitos de seu trabalho diário para que os requisitos de software possam ser identificados a partir dessas observações:",
+        "alternativas": [
+            "Decomposição funcional.",
+            "Entrevista.",
+            "Etnografia.",
+            "Questionário."
+        ],
+        "gabarito": "Etnografia."
+    },
+    {
+        "id": 106,
+        "enunciado": "Um Requisito é uma capacidade do sistema ou a descrição de algo que o sistema é capaz de realizar, para resolver um problema ou atingir um objetivo do usuário.\nSobre este assunto, considere as seguintes afirmações:\nI- Usuário deve ser capaz de pesquisar as listas de agendamentos para todas as clínicas.\nII- O sistema deve estar disponível para uso durante o horário comercial, de segunda a sexta.\nIII- Usuário deve se autenticar no sistema com seu crachá de identificação.\nIV- O sistema deve gerar a lista de clientes para visitação daquele dia.\nAssinale a alternativa que traz os requisitos que são classificados como Funcionais.",
+        "alternativas": [
+            "I e II.",
+            "I e III.",
+            "I e IV.",
+            "II e III."
+        ],
+        "gabarito": "I e IV."
+    },
+    {
+        "id": 107,
+        "enunciado": "Considere a seguinte lista de requisitos.\nI. O sistema deve funcionar nos principais navegadores web e também em ambiente off-line.\nII. O sistema deve permitir o cadastro de novos usuários, realizando a validação através de e-mail e código de confirmação.\nIII. O sistema deve emitir NFe com base no padrão regional.\nIV. Deve ser possível ao usuário solicitar a redefinição de sua senha, informando o e-mail cadastrado e um código.\nV. O sistema deve funcionar em ambiente desktop (Windows e Linux) e em smartphones (Android e iOS).\nNa lista acima,",
+        "alternativas": [
+            "II e III são requisitos não funcionais.",
+            "há requisitos funcionais, apenas.",
+            "há requisitos não funcionais, apenas.",
+            "I, III e V são requisitos não funcionais.",
+            "I, IV e V são requisitos funcionais."
+        ],
+        "gabarito": "I, III e V são requisitos não funcionais."
+    },
+    {
+        "id": 108,
+        "enunciado": "Considere um projeto de software para um sistema de concessão e controle de linhas de crédito para pessoas físicas e jurídicas. Abaixo estão elencados alguns dos requisitos levantados:\nI. Adequação à LGPD (Lei Geral de Proteção de Dados Pessoais).\nII. Desenvolvimento em linguagem C#.\nIII. Multiplataforma: macOS, Linux e Windows.\nIV. Transações via PIX.\nV. Cópia diária de todos os dados.\nQuais identificam um requisito do tipo funcional?",
+        "alternativas": [
+            "Apenas I.",
+            "Apenas II.",
+            "Apenas IV.",
+            "Apenas II e III.",
+            "Apenas I, III e V."
+        ],
+        "gabarito": "Apenas IV."
+    },
+    {
+        "id": 109,
+        "enunciado": "Sobre a técnica de prototipação na Engenharia de Requisitos, quanto ao ciclo de vida, um protótipo pode ser classificado em:",
+        "alternativas": [
+            "Descartável ou evolutivo.",
+            "Horizontal ou vertical.",
+            "Global ou local.",
+            "Alta fidelidade ou baixa fidelidade.",
+            "Prévio ou final."
+        ],
+        "gabarito": "Descartável ou evolutivo."
+    },
+    {
+        "id": 110,
+        "enunciado": "Qual das tarefas abaixo NÃO pertence à Engenharia de Requisitos?",
+        "alternativas": [
+            "Especificação.",
+            "Concepção.",
+            "Implantação.",
+            "Negociação.",
+            "Validação."
+        ],
+        "gabarito": "Implantação."
+    },
+    {
+        "id": 111,
+        "enunciado": "Assinale a alternativa que apresenta somente artefatos que podem ser gerados a partir do levantamento de requisitos de software.",
+        "alternativas": [
+            "Manuais de usuário e plano de treinamento.",
+            "Cronograma de implantação e declaração do escopo.",
+            "Lista de interessados e planos de testes.",
+            "Protótipos e projeto de desenvolvimento.",
+            "Cenários de uso e lista de requisitos."
+        ],
+        "gabarito": "Cenários de uso e lista de requisitos."
+    },
+    {
+        "id": 112,
+        "enunciado": "Quando da especificação de requisitos de software, considerando a especificação de requisitos não funcionais, é correto afirmar que esses tipos de requisitos",
+        "alternativas": [
+            "incluem restrições no processo de desenvolvimento de software.",
+            "não incluem restrições de temporização.",
+            "não incluem restrições impostas por normas regulamentadoras.",
+            "aplicam-se somente a características parciais do sistema.",
+            "aplicam-se exclusivamente a sistemas monousuário."
+        ],
+        "gabarito": "incluem restrições no processo de desenvolvimento de software."
+    },
+    {
+        "id": 113,
+        "enunciado": "Quando se faz a especificação de requisitos funcionais de software, é correto afirmar que, nessa especificação,",
+        "alternativas": [
+            "não deve descrever reações do sistema a entradas particulares.",
+            "pode ser especificado o que o sistema não deve ou não pode fazer.",
+            "não se aplica a sistemas distribuídos.",
+            "aplica-se exclusivamente a sistemas com grandes bancos de dados.",
+            "não se aplica a sistemas com equipes de desenvolvimento com menos de 10 participantes."
+        ],
+        "gabarito": "pode ser especificado o que o sistema não deve ou não pode fazer."
+    },
+    {
+        "id": 114,
+        "enunciado": "Qual das seguintes alternativas não é considerada uma etapa na Engenharia de Requisitos?",
+        "alternativas": [
+            "Análise de Requisitos.",
+            "Validação de Requisitos.",
+            "Prototipação de Requisitos.",
+            "Especificação de Requisitos.",
+            "Implementação de Requisitos."
+        ],
+        "gabarito": "Implementação de Requisitos."
+    },
+    {
+        "id": 115,
+        "enunciado": "Qual das seguintes alternativas é a melhor técnica para a realização de Engenharia de Requisitos?",
+        "alternativas": [
+            "Estimativa de Tamanho.",
+            "Análise de Prototipagem.",
+            "Modelagem de Casos de Uso.",
+            "Análise de Requisitos Funcionais.",
+            "Análise de Diagrama de Classes."
+        ],
+        "gabarito": "Modelagem de Casos de Uso."
+    },
+    {
+        "id": 116,
+        "enunciado": "No desenvolvimento de um projeto de software, pode ocorrer estudo da viabilidade desse produto para a empresa. Sobre o estudo de viabilidade, marque V para as afirmativas verdadeiras e F para as falsas.\n( ) Consiste de um conjunto preliminar de requisitos de negócios, um esboço da descrição do sistema e como o sistema pretende apoiar os processos de negócios.\n( ) Após o estudo da viabilidade, é produzido um relatório recomendando se o desenvolvimento do sistema deve ou não prosseguir, podendo, também, propor mudanças no escopo, orçamento e prazo e sugerir requisitos de alto nível adicionais para o sistema.\n( ) Considera se o sistema proposto terá custo adequado do ponto de vista comercial e se pode ser desenvolvido dentro das restrições de orçamento existentes.\n( ) Um dos estudos da viabilidade é a viabilidade técnica que consiste em um estudo da função, do desempenho e das restrições que possam afetar a capacidade de se conseguir um sistema aceitável.\nA sequência está correta em",
+        "alternativas": [
+            "F, F, F, F.",
+            "V, V, V, F.",
+            "F, F, F, V.",
+            "V, V, V, V."
+        ],
+        "gabarito": "V, V, V, V."
+    },
+    {
+        "id": 117,
+        "enunciado": "A engenharia de requisitos é uma etapa crítica no desenvolvimento de software, pois ajuda a garantir que o produto final atenda às necessidades do cliente e aos objetivos do projeto. Acerca da engenharia de requisitos, julgue o item subsequente.\nOs itens de backlog épicos não devem ser adicionados ao backlog do produto, por serem muito amplos e de difícil gestão pelo dono do produto e pelo time de desenvolvimento.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 118,
+        "enunciado": "A engenharia de requisitos é uma etapa crítica no desenvolvimento de software, pois ajuda a garantir que o produto final atenda às necessidades do cliente e aos objetivos do projeto. Acerca da engenharia de requisitos, julgue o item subsequente.\nO produto mínimo viável (MVP) é uma ferramenta fundamental no processo de validação de uma ideia de negócio, por meio da coleta de problemas, oportunidades e feedbacks.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 119,
+        "enunciado": "No processo de engenharia de requisitos, a atividade na qual se busca entender quais são as necessidades do usuário que devem ser atendidas pelo software que será desenvolvido é a",
+        "alternativas": [
+            "fase de teste.",
+            "codificação.",
+            "elaboração.",
+            "elicitação de requisitos.",
+            "negociação."
+        ],
+        "gabarito": "elicitação de requisitos."
+    },
+    {
+        "id": 120,
+        "enunciado": "Na engenharia de software, o usuário de um documento de engenharia de requisitos que especifica e lê os requisitos do sistema para verificar se eles atendem às suas necessidades, especificando, inclusive, as mudanças nos requisitos, é o:",
+        "alternativas": [
+            "Gerente.",
+            "Engenheiro de manutenção.",
+            "Engenheiro de testes.",
+            "Engenheiro de sistema.",
+            "Cliente de sistemas."
+        ],
+        "gabarito": "Cliente de sistemas."
+    },
+    {
+        "id": 121,
+        "enunciado": "Em relação aos exemplos de requisitos funcionais, analise as assertivas abaixo, assinalando V, se verdadeiras, ou F, se falsas.\n( ) Um usuário deve ser capaz de pesquisar as listas de agendamentos para todas as clínicas.\n( ) O sistema deve gerar, a cada dia e para cada clínica, a lista dos pacientes para as consultas daquele dia.\n( ) Cada membro da equipe que usa o sistema deve ser identificado apenas por seu número de oito dígitos.\nA ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+        "alternativas": [
+            "F – F – V.",
+            "F – V – F.",
+            "V – V – V.",
+            "V – F – F.",
+            "V – V – F."
+        ],
+        "gabarito": "V – V – V."
+    },
+    {
+        "id": 122,
+        "enunciado": "Analise as assertivas abaixo sobre as diretrizes básicas da coleta colaborativa de requisitos:\nI. Um facilitador, que pode ser um cliente, um desenvolvedor ou uma pessoa de fora, controla a reunião.\nII. As reuniões são assistidas somente por engenheiros de software que seguem uma agenda formal para cobrir todos os pontos importantes e registrar o fluxo de ideias.\nIII. Meta é identificar o problema, propor elementos da solução, negociar diferentes abordagens e especificar um conjunto preliminar de requisitos da solução em uma atmosfera que propicie que a meta seja alcançada.\nQuais estão corretas?",
+        "alternativas": [
+            "Apenas I.",
+            "Apenas I e II.",
+            "Apenas I e III.",
+            "Apenas II e III.",
+            "I, II e III."
+        ],
+        "gabarito": "Apenas I e III."
+    },
+    {
+        "id": 123,
+        "enunciado": "elacione a Coluna 1 à Coluna 2, associando as etapas do ADML (Application Development Lifecycle Management) às suas respectivas definições.\nColuna 1\n1. Gerenciamento de Requisitos.\n2. Gerenciamento de Construção.\n3. Gestão de Operação e Mudança.\n4. Experiência do Usuário.\nColuna 2\n( ) O aplicativo é monitorado e os bugs são identificados e resolvidos.\n( ) Testadores e desenvolvedores verificam todo o aplicativo e compartilham os seus comentários antes do aplicativo ser lançado ou entregue.\n( ) Os arquivos de código-fonte são convertidos em componentes de software independentes.\n( ) Os requisitos são identificados, documentados, analisados, rastreados e priorizados.\nA ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+        "alternativas": [
+            "3 – 1 – 4 – 2.",
+            "1 – 2 – 3 – 4.",
+            "4 – 3 – 2 – 1.",
+            "2 – 1 – 4 – 3.",
+            "3 – 4 – 2 – 1."
+        ],
+        "gabarito": "3 – 4 – 2 – 1."
+    },
+    {
+        "id": 124,
+        "enunciado": "Considerando a engenharia de requisitos, há algumas métricas que podem ser utilizadas na especificação de requisitos não funcionais, sendo certo que a medida do",
+        "alternativas": [
+            "número de transações processadas por segundo presta-se a mensurar a propriedade da robustez.",
+            "número de chips de memória RAM utilizados no sistema presta-se a mensurar a propriedade da confiabilidade.",
+            "tempo de reinício após uma falha presta-se a mensurar a propriedade da facilidade de uso.",
+            "tempo de treinamento no sistema presta-se a mensurar a propriedade do tamanho.",
+            "tempo médio para uma falha presta-se a mensurar a propriedade da confiabilidade."
+        ],
+        "gabarito": "tempo médio para uma falha presta-se a mensurar a propriedade da confiabilidade."
+    },
+    {
+        "id": 125,
+        "enunciado": "Sobre as notações utilizadas para escrever requisitos de sistemas, analise as assertivas abaixo, assinalando V, se verdadeiras, ou F, se falsas.\n( ) Na especificação em linguagem natural, cada sentença deve expressar um requisito.\n( ) Especificações em linguagem natural estruturada utilizam modelos gráficos, suplementados por anotações em texto.\n( ) Os casos de uso são uma maneira de descrever as interações entre usuários e um sistema usando um modelo gráfico e um texto estruturado.\nA ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+        "alternativas": [
+            "V – V – F.",
+            "V – F – V.",
+            "V – F – F.",
+            "F – F – V.",
+            "F – V – F."
+        ],
+        "gabarito": "V – F – V."
+    },
+    {
+        "id": 126,
+        "enunciado": "Entrevistas são utilizadas para a realização do levantamento de requisitos como parte do processo da engenharia de requisitos. Analise as assertivas abaixo e assinale a alternativa correta.\nI. Nas entrevistas fechadas, elabora-se um determinado e predefinido conjunto de perguntas.\nII. As entrevistas abertas são realizadas de maneira menos estruturada que as fechadas e permitem que os envolvidos falem abertamente sobre determinadas questões.\nIII. Na prática, a equipe de engenharia de requisitos costuma realizar uma mistura entre entrevistas abertas e fechadas por serem mais eficazes para obter a resposta de determinadas questões.",
+        "alternativas": [
+            "Todas estão corretas.",
+            "Todas estão incorretas.",
+            "Apenas I e II estão corretas.",
+            "Apenas I e III estão corretas.",
+            "Apenas II e III estão corretas."
+        ],
+        "gabarito": "Todas estão corretas."
+    },
+    {
+        "id": 127,
+        "enunciado": "No processo de validação de requisitos, diferentes tipos de verificação podem ser realizados nos requisitos que foram identificados. Analise as assertivas abaixo e assinale a alternativa correta em relação aos tipos de verificação de requisitos que existem.\nI. Validade: verifica se os requisitos são válidos.\nII. Consistência: verifica se os requisitos estão consistentes.\nIII. Completude: verifica se os requisitos estão completos.\nIV. Vencimento: verifica se os requisitos estão vencidos.\nV. Resistência: verifica se os requisitos são resistentes à mudança.",
+        "alternativas": [
+            "Todas estão corretas.",
+            "Todas estão incorretas.",
+            "Apenas I, II e III estão corretas.",
+            "Apenas I, IV e V estão corretas.",
+            "Apenas II, III e IV estão corretas."
+        ],
+        "gabarito": "Apenas I, II e III estão corretas."
+    },
+    {
+        "id": 128,
+        "enunciado": "Para realizar o levantamento de requisitos, a equipe de engenharia de requisitos utiliza técnicas para adquirir conhecimento sobre determinado negócio. A técnica que realiza o estudo da documentação disponível, visando a obter informações relevantes para o desenvolvimento de um sistema de software, é:",
+        "alternativas": [
+            "Análise de documentos.",
+            "Entrevista.",
+            "Observação (etnografia).",
+            "Pesquisa/questionário.",
+            "Reunião."
+        ],
+        "gabarito": "Análise de documentos."
+    },
+    {
+        "id": 129,
+        "enunciado": "Qual é a diferença entre as técnicas de especificação de requisitos utilizadas em ciclos de vida tradicionais e ágeis de desenvolvimento de sistemas?",
+        "alternativas": [
+            "As técnicas utilizadas em ciclos de vida tradicionais são mais detalhadas e documentadas, enquanto as técnicas utilizadas em ciclos de vida ágeis são mais flexíveis e adaptáveis.",
+            "As técnicas utilizadas em ciclos de vida tradicionais são baseadas em modelos matemáticos e estatísticos, enquanto as técnicas utilizadas em ciclos de vida ágeis são baseadas em experiência prática e conhecimento dos usuários.",
+            "As técnicas utilizadas em ciclos de vida tradicionais são orientadas para processos, enquanto as técnicas utilizadas em ciclos de vida ágeis são orientadas para pessoas e colaboração.",
+            "As técnicas utilizadas em ciclos de vida tradicionais são mais focadas em documentação e análise de requisitos detalhados, enquanto as técnicas utilizadas em ciclos de vida ágeis são mais focadas em conversas com os usuários e prototipagem rápida.",
+            "As técnicas utilizadas em ciclos de vida tradicionais são mais lentas e demoradas, enquanto as técnicas utilizadas em ciclos de vida ágeis são mais rápidas e eficientes."
+        ],
+        "gabarito": "As técnicas utilizadas em ciclos de vida tradicionais são mais focadas em documentação e análise de requisitos detalhados, enquanto as técnicas utilizadas em ciclos de vida ágeis são mais focadas em conversas com os usuários e prototipagem rápida."
+    },
+    {
+        "id": 130,
+        "enunciado": "Na elicitação e no gerenciamento de requisitos de um software, a abordagem que tem o potencial de oferecer explicações prováveis para contextualizar ou explicar uma necessidade que se apresenta como uma afirmação desconfortável e que se contrapõe às crenças e aos entendimentos iniciais da equipe de desenvolvimento é a",
+        "alternativas": [
+            "da análise heurística de interface.",
+            "de histórias de usuário.",
+            "de teste de usabilidade.",
+            "da prototipação.",
+            "de storytelling."
+        ],
+        "gabarito": "de storytelling."
+    },
+    {
+        "id": 131,
+        "enunciado": "A engenharia de requisitos desempenha papel fundamental no desenvolvimento de software, sendo correto afirmar que requisitos",
+        "alternativas": [
+            "funcionais devem descrever funções ou serviços que o sistema sob desenvolvimento deve prover.",
+            "não funcionais se aplicam exclusivamente a softwares voltados ao armazenamento de dados.",
+            "funcionais não se aplicam a sistemas que serão programados com software orientado a objetos.",
+            "não funcionais não abrangem requisitos de desempenho do sistema.",
+            "funcionais não são utilizados em softwares com previsão de pequeno tempo de desenvolvimento."
+        ],
+        "gabarito": "funcionais devem descrever funções ou serviços que o sistema sob desenvolvimento deve prover."
+    },
+    {
+        "id": 132,
+        "enunciado": "No que concerne à elicitação e ao gerenciamento de requisitos, julgue o item subsequente.\nUm requisito funcional pode ser expresso em termos de segurança e desempenho de um software.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 133,
+        "enunciado": "No que concerne à elicitação e ao gerenciamento de requisitos, julgue o item subsequente.\nA seguinte frase representa a sintaxe de uma história de usuário: como [persona], eu [quero], [para que].",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 134,
+        "enunciado": "No que concerne à elicitação e ao gerenciamento de requisitos, julgue o item subsequente.\nAs histórias de usuários podem ser divididas em partes menores chamadas de épicos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 135,
+        "enunciado": "No que concerne à elicitação e ao gerenciamento de requisitos, julgue o item subsequente.\nUm critério de aceitação, depois de testado, significa que um requisito foi implementado corretamente.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 136,
+        "enunciado": "No que concerne à elicitação e ao gerenciamento de requisitos, julgue o item subsequente.\nRequisito é uma condição necessária que o sistema deverá realizar para atender a uma necessidade do usuário.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 137,
+        "enunciado": "Em engenharia de requisitos, os usuários respondem quais são os objetivos do software na fase de",
+        "alternativas": [
+            "levantamento.",
+            "concepção.",
+            "negociação.",
+            "elaboração.",
+            "especificação."
+        ],
+        "gabarito": "levantamento."
+    },
+    {
+        "id": 138,
+        "enunciado": "Acerca de engenharia de requisitos, prototipação e engenharia de usabilidade, julgue o item subsequente.\nEtnografia é uma técnica de elicitação de requisitos que pode ser usada para compreender processos operacionais por meio da imersão no ambiente de trabalho em que o sistema será usado, porém é ineficaz em descobrir requisitos derivados da cooperação e do conhecimento das atividades das pessoas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 139,
+        "enunciado": "Com base no conhecimento sobre a engenharia de requisitos, assinale a alternativa CORRETA.",
+        "alternativas": [
+            "Entende-se como requisitos do sistema, as versões de cada entrega incremental do sistema, ou seja, requisito é a compilação de entregas do final de uma sprint, o que exclui as restrições das características do sistema.",
+            "Entende-se como requisitos funcionais, as características do sistema, por exemplo: interoperabilidade, integridade, confiabilidade, política dos dados, escalabilidade, segurança e desempenho, portabilidade, interface humano computador e responsividade.",
+            "Entende-se como requisitos não funcionais, as funcionalidades do sistema, por exemplo: cadastrar um novo usuário, editar as informações de um usuário, excluir um usuário e listar as informações do(s) usuário(s).",
+            "A partir da engenharia de requisitos tem-se os requisitos funcionais e não funcionais, em que os requisitos não funcionais estão divididos em reguisitos de produtos, reguisitos éticos e requisitos de espaço.",
+            "Os requisitos não funcionais são partes pertinentes no desenvolvimento de software de qualidade, sendo um tipo de requisito não funcional, o requisito organizacional. Pode-se categorizar o requisito organizacional em: requisitos ambientais, requisitos operacionais e requisitos de desenvolvimento."
+        ],
+        "gabarito": "Os requisitos não funcionais são partes pertinentes no desenvolvimento de software de qualidade, sendo um tipo de requisito não funcional, o requisito organizacional. Pode-se categorizar o requisito organizacional em: requisitos ambientais, requisitos operacionais e requisitos de desenvolvimento."
+    },
+    {
+        "id": 140,
+        "enunciado": "Compreende-se que a área de Engenharia de Requisitos busca estabelecer o processo de definição de requisitos como um processo o que deve ser realizado por meio da elicitação, modelagem e análise do sistema. Dessa forma, a partir da conceitualização de diferentes tipos de requisitos, assinale a alternativa que designa as declarações de serviços que o sistema deve fornecer, de como o sistema deve reagir a entradas específicas e de como o sistema deve se comportar em determinadas situações.",
+        "alternativas": [
+            "Requisitos não funcionais.",
+            "Requisitos de usuário.",
+            "Requisitos de software.",
+            "Requisitos funcionais.",
+            "Requisitos de sistema."
+        ],
+        "gabarito": "Requisitos funcionais."
+    },
+    {
+        "id": 141,
+        "enunciado": "A elicitação de requisitos é uma atividade central da engenharia de requisitos. Assinale a técnica de elicitação que extrai informações necessárias para construir um novo sistema a partir do código fonte de um sistema legado.",
+        "alternativas": [
+            "arqueologia de sistemas.",
+            "entrevista dos stakeholders.",
+            "leitura baseada em perspectiva.",
+            "mapas mentais.",
+            "observação de campo."
+        ],
+        "gabarito": "arqueologia de sistemas."
+    },
+    {
+        "id": 142,
+        "enunciado": "A Engenharia de Requisitos considera duas grandes vertentes: requisitos funcionais e requisitos não funcionais. Considerando os requisitos não funcionais, há uma classificação que os divide nas categorias de produto, organizacionais e externos, sendo certo que requisitos",
+        "alternativas": [
+            "operacionais inserem-se na categoria de requisitos de produto.",
+            "legais inserem-se na categoria de requisitos organizacionais.",
+            "ambientais inserem-se na categoria de requisitos externos.",
+            "de eficiência inserem-se na categoria de requisitos de produto.",
+            "éticos inserem-se na categoria de requisitos de produto."
+        ],
+        "gabarito": "de eficiência inserem-se na categoria de requisitos de produto."
+    },
+    {
+        "id": 143,
+        "enunciado": "No que se refere à engenharia de requisitos, julgue o item a seguir.\nUma das características fundamentais da UML são os casos de uso, os quais constituem uma técnica baseada em elicitação de requisitos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 144,
+        "enunciado": "No que se refere à engenharia de requisitos, julgue o item a seguir.\nA linguagem natural estruturada é uma forma de escrever os requisitos de sistema na qual a liberdade do elaborador de requisitos é limitada e todos os requisitos são redigidos de maneira padronizada.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 145,
+        "enunciado": "No que se refere à engenharia de requisitos, julgue o item a seguir.\nOs requisitos de usuário de um sistema devem descrever os requisitos funcionais, de modo que eles sejam compreensíveis pelos usuários do sistema que não possuem conhecimento técnico detalhado, abstendo-se de inserir requisitos não funcionais.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 146,
+        "enunciado": "Julgue o item a seguir, que tratam de engenharia de requisitos, CSS, PWA e HTTPS.\nOs requisitos funcionais de um software descrevem o que o software deve fazer, considerando critérios de desempenho das funcionalidades.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 147,
+        "enunciado": "Uma empresa está desenvolvendo um software, utilizando uma metodologia formal. Na fase de Análise de Requisitos, foram identificados os requisitos que definem as necessidades do sistema, que permitem a implementação do produto e que servem para apoiar as atividades organizacionais. O tipo de requisito que precisa ser bem definido para não prejudicar o funcionamento do sistema é chamado de:",
+        "alternativas": [
+            "Técnico.",
+            "Funcional.",
+            "Operacional.",
+            "Transacional.",
+            "Considerativo."
+        ],
+        "gabarito": "Transacional."
+    },
+    {
+        "id": 148,
+        "enunciado": "Das alternativas abaixo, qual NÃO é considerada um exemplo de requisito funcional?",
+        "alternativas": [
+            "O sistema deve imprimir o relatório em até 5 segundos.",
+            "O Sistema deve emitir um relatório de clientes (saída).",
+            "O cliente pode consultar seus dados no sistema.",
+            "O Sistema deve cadastrar médicos profissionais (entrada).",
+            "O Sistema deve passar um cliente da situação \"em consulta\" para \"consultado\" quando o cliente terminar de ser atendido (mudança de estado)."
+        ],
+        "gabarito": "O sistema deve imprimir o relatório em até 5 segundos."
+    },
+    {
+        "id": 149,
+        "enunciado": "Durante o processo de análise de requisitos, é importante distinguir entre requisitos funcionais e requisitos não funcionais. A diferença entre eles é representada no fato de que",
+        "alternativas": [
+            "requisitos funcionais descrevem as características técnicas do sistema, enquanto requisitos não funcionais descrevem as funcionalidades específicas que o sistema deve oferecer.",
+            "requisitos funcionais descrevem as ações específicas que o sistema deve executar, enquanto requisitos não funcionais descrevem características ou qualidades do sistema.",
+            "requisitos funcionais referem-se aos requisitos de desempenho do sistema, enquanto requisitos não funcionais referem-se aos requisitos de segurança do sistema.",
+            "requisitos funcionais são específicos para um domínio de negócio, seja aplicação ou serviço, enquanto requisitos não funcionais são comuns aos sistemas generalistas."
+        ],
+        "gabarito": "requisitos funcionais descrevem as ações específicas que o sistema deve executar, enquanto requisitos não funcionais descrevem características ou qualidades do sistema."
+    },
+    {
+        "id": 150,
+        "enunciado": "O sistema SisBRAVO foi desenvolvido aderente ao preconizado na Lei nº 13.709/2018 – Lei Geral de Proteção de Dados (LGPD). O SisBRAVO solicita autorização para coleta de dados pessoais inseridos pelos usuários.\nSendo assim, o SisBRAVO atende requisitos tipificados como:",
+        "alternativas": [
+            "externos;",
+            "organizacionais;",
+            "de confiança;",
+            "de confidencialidade;",
+            "de adequação funcional."
+        ],
+        "gabarito": "externos;"
+    },
+    {
+        "id": 151,
+        "enunciado": "A Equipe de Sistemas (ES) de um tribunal está trabalhando na especificação de requisitos para o Sistema de Protocolos (SisProt). O representante do cliente solicitou que o SisProt funcione 24 horas por dia, durante todo o ano, e explicou que será tolerada a interrupção do serviço prestado pelo SisProt por, no máximo, 1 hora por mês, seja para manutenções, seja por motivos extra sistema.\nO requisito solicitado pelo representante do cliente é categorizado como um requisito de:",
+        "alternativas": [
+            "instabilidade;",
+            "confiabilidade;",
+            "manutenibilidade;",
+            "tempo de resposta;",
+            "responsabilidade (“accountability”)."
+        ],
+        "gabarito": "confiabilidade;"
+    },
+    {
+        "id": 152,
+        "enunciado": "Uma empresa está desenvolvendo um software para lançar mísseis de plataformas móveis e rastreá-los até os alvos. A equipe que irá desenvolver esse software criou uma lista contendo vários requisitos que foram obtidos durante um encontro com técnicos da área militar. Dentre os requisitos funcionais dessa lista, está o de que",
+        "alternativas": [
+            "a velocidade planejada de um míssil deve ser calculada segundo a equação v(t) = vo + at.",
+            "a interface com os operadores do centro de controle deve fornecer imagens por meio de câmeras de alta resolução e de infravermelho.",
+            "as novas versões do software não poderão ser carregadas nas plataformas de lançamento enquanto houver mísseis no ar.",
+            "o atraso máximo no envio de um comando tem de ser de um milésimo de segundo.",
+            "os dados devem trafegar de forma criptografada no padrão AES com 256 bits."
+        ],
+        "gabarito": "a velocidade planejada de um míssil deve ser calculada segundo a equação v(t) = vo + at."
+    },
+    {
+        "id": 153,
+        "enunciado": "A elicitação de requisitos visa identificar, especificar, classificar e priorizar.\nSobre as fases da elicitação, informe verdadeiro (V) ou falso (F) para as assertivas abaixo e, em seguida, marque a opção que apresenta a sequência correta.\n( ) Especificação de requisitos é a fase de elaboração e escrita dos requisitos funcionais, não funcionais e regras de negócio, para criar o documento de Análise de Sistema, que vai reunir as definições.\n( ) Negociação dos requisitos é uma técnica muito utilizada na engenharia de software, para levantamento de informações, com o objetivo de abstrair a maior quantidade possível de requisitos de software.\n( ) Identificação dos requisitos é a fase em que pode ser aplicada a técnica de brainstorming, na qual o cliente deseja expor todas as suas necessidades e problemas dentro da empresa, ou de seu departamento.\n( ) Priorização dos requisitos: caso tenha problema em definir prioridades junto ao cliente, por exemplo, se ele quer definir tudo como prioritário, cabe aplicar uma técnica mais eficaz de classificação de prioridades, como a de MoSCoW (framework de priorização da gestão de projetos).",
+        "alternativas": [
+            "(V); (F); (V); (V).",
+            "(F); (F); (V); (F).",
+            "(F); (V); (F); (F).",
+            "(F); (V); (F); (V)."
+        ],
+        "gabarito": "(V); (F); (V); (V)."
+    },
+    {
+        "id": 154,
+        "enunciado": "Leia o texto a seguir.\n[…] é a técnica de elicitação de requisitos que recomenda que o desenvolvedor se integre ao ambiente de trabalho dos stakeholders e observe — normalmente, por alguns dias — como ele desenvolve suas atividades. Veja que essa observação é silenciosa, isto é, o desenvolvedor não interfere e opina sobre as tarefas e eventos que estão sendo observados.\nVALENTE, Marco Tulio. Engenharia de software moderna. Princípios e Práticas para Desenvolvimento de Software com Produtividade. 1° ed. Editora Independente: 2022.\nA técnica de elicitação de requisitos a que se refere o texto é a",
+        "alternativas": [
+            "Planning Poker.",
+            "Brainstorming.",
+            "Workshop.",
+            "Etnografia."
+        ],
+        "gabarito": "Etnografia."
+    },
+    {
+        "id": 155,
+        "enunciado": "No que diz respeito à gestão de requisitos de negócio, julgue o item seguinte.\nPara fins de modelagem de requisitos, o cliente e o usuário final são a mesma pessoa, com os mesmos objetivos e características.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 156,
+        "enunciado": "No que diz respeito à gestão de requisitos de negócio, julgue o item seguinte.\nRequisito funcional especifica o que o software deve fazer, enquanto requisito não funcional especifica como o sistema deve se comportar.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 157,
+        "enunciado": "Sobre os requisitos de software, assinale a alternativa correta.",
+        "alternativas": [
+            "Usabilidade, portabilidade e robustez são exemplos de requisitos funcionais.",
+            "“Histórias de usuários” é um documento de requisitos simplificado adotado na metodologia Waterfall de desenvolvimento.",
+            "Pode-se criar um Produto Mínimo Viável (MVP) antes do levantamento completo de requisitos para testar a viabilidade de um sistema.",
+            "Testes A/B não interferem na seleção dos requisitos de um sistema, sendo utilizados para monitorar os requisitos implementados."
+        ],
+        "gabarito": "Pode-se criar um Produto Mínimo Viável (MVP) antes do levantamento completo de requisitos para testar a viabilidade de um sistema."
+    },
+    {
+        "id": 158,
+        "enunciado": "Considere que duas equipes de Analistas do Tribunal de Justiça utilizaram duas técnicas diferentes para levantamento de requisitos de um mesmo projeto. As características de cada uma das duas técnicas são apresentadas a seguir:\nI. Na condução das sessões, o facilitador mantém-se neutro: ele não opina nos assuntos discutidos, mas pode direcionar os assuntos conforme o planejamento inicial. O anotador fica dedicado a registrar os assuntos discutidos e as decisões tomadas. O gerenciador de tempo busca evitar que determinadas discussões demorem demasiadamente, evitando que outros assuntos importantes não sejam abordados. O quadro do projeto é utilizado para lembrar os assuntos em foco e os que estão fora do foco, impedindo discussões infrutíferas.\nII. Ao se inserir no ambiente no qual o projeto será utilizado, busca -se descobrir dois tipos de requisitos: os requisitos derivados da maneira como as pessoas realmente trabalham, ao invés da maneira pelas quais as definições de processo dizem como elas deveriam trabalhar e os requisitos derivados da cooperação e conscientização das atividades de outras pessoas. Para consolidar o levantamento, os resultados são revistos com as pessoas observadas e/ou com seus superiores.\nDe acordo com as características, as técnicas I e II utilizadas são, correta e respectivamente:",
+        "alternativas": [
+            "Workshops - Etnografia.",
+            "Viewpoint-Oriented Requirements Definition (VORD) - Prototipagem.",
+            "Joint Application Design (JAD) - Viewpoint-Oriented Requirements Definition (VORD).",
+            "Viewpoint-Oriented Requirements Definition (VORD) - Joint Application Definition (JAD).",
+            "Joint Application Design (JAD) - Etnografia."
+        ],
+        "gabarito": "Joint Application Design (JAD) - Etnografia."
+    },
+    {
+        "id": 159,
+        "enunciado": "Tentativas de lidar com a complexidade e de minimizar os problemas envolvidos no desenvolvimento de software envolvem a definição de processos de desenvolvimento de software (PDS). Um PDS compreende todas as atividades necessárias para definir, desenvolver, testar e manter um produto de software.\nAdaptado de Eduardo Bezerra. Princípios de Análise e Projeto de Sistemas Com UML. 2 ed. Rio de Janeiro: Elsevier, 2007.\nNeste cenário, qual atividade típica de um PDS tem como principal objetivo que os usuários e desenvolvedores do software tenham a mesma visão do problema a ser resolvido?",
+        "alternativas": [
+            "Análise de Requisitos.",
+            "Projeto.",
+            "Levantamento de Requisitos.",
+            "Implementação.",
+            "Testes."
+        ],
+        "gabarito": "Levantamento de Requisitos."
+    },
+    {
+        "id": 160,
+        "enunciado": "No processo de análise de sistemas de software, qual é o primeiro passo essencial para compreender as necessidades do sistema?",
+        "alternativas": [
+            "Desenvolver uma ideia sólida da visão comercial.",
+            "Ter uma forte ligação com o dinheiro e status profissional.",
+            "Começar a desenvolver personalidade de ligação com o projeto.",
+            "Realizar uma pesquisa de mercado para ter uma real noção daquilo que é, ou possa ser requisitado, em seu sistema."
+        ],
+        "gabarito": "Realizar uma pesquisa de mercado para ter uma real noção daquilo que é, ou possa ser requisitado, em seu sistema."
+    },
+    {
+        "id": 161,
+        "enunciado": "Os requisitos não funcionais podem ser divididos em três categorias. Kíssila, da área de TI, solicitou que você fizesse um levantamento de requisitos para um novo produto e apontasse quais deles seriam requisitos de produtos, requisitos organizacionais e requisitos externos. Como resposta, identificaram-se, respectivamente, os requisitos:",
+        "alternativas": [
+            "legais, de proteção e ambientais.",
+            "de desempenho, reguladores e éticos.",
+            "do processo operacional, de usabilidade e éticos.",
+            "de confiabilidade, do processo de desenvolvimento e ambientais.",
+            "de proteção, do processo de desenvolvimento e reguladores."
+        ],
+        "gabarito": "de proteção, do processo de desenvolvimento e reguladores."
+    },
+    {
+        "id": 162,
+        "enunciado": "Suponha que, para se constatar a existência de eventuais erros ou omissões nos artefatos e nas especificações da engenharia de requisitos, decidiu-se utilizar a técnica de leitura baseada em perspectiva.\nAssinale a opção que apresenta procedimento que faz parte, total ou parcialmente, da proposta da técnica selecionada e que contribui para os seus objetivos.",
+        "alternativas": [
+            "Os inspetores devem examinar todos os aspectos da especificação, sem receber um roteiro sistematizado, procurando, no documento inspecionado, o seu ponto de vista diante de cenários do sistema.",
+            "Os revisores são especialistas em áreas da aplicação e devem gerar, a partir da especificação dos requisitos, questões de inspeção do documento.",
+            "Revisores com experiência em cada tipo de erro possível examinam aspectos específicos, sem receber um roteiro sistematizado, procurando, no documento inspecionado, o seu ponto de vista diante de cenários do sistema.",
+            "A partir de questões desenvolvidas especificamente para cada passo do procedimento, o documento é inspecionado do ponto de vista de stakeholders diante de cenários do sistema.",
+            "A partir de questões desenvolvidas especificamente para cada passo do procedimento, o documento é inspecionado do ponto de vista de revisores com experiência em cada tipo de erro possível."
+        ],
+        "gabarito": "A partir de questões desenvolvidas especificamente para cada passo do procedimento, o documento é inspecionado do ponto de vista de stakeholders diante de cenários do sistema."
+    },
+    {
+        "id": 163,
+        "enunciado": "Os requisitos de um sistema de software definem o que ele deve fazer e sob quais restrições.\nNesse contexto, marque a alternativa correta.",
+        "alternativas": [
+            "Requisitos funcionais, como o uso de memória, definem as restrições sob as quais o software deve operar.",
+            "Problemas na especificação de requisitos tem baixo custo no produto final e, com isso, a definição dos requisitos pode ser sempre postergada.",
+            "Os requisitos podem ser classificados em requisitos do usuário, que são mais técnicos e precisos, e requisitos do sistema, os quais geralmente são escritos em linguagem natural e sem detalhes técnicos.",
+            "Durante a elicitação dos requisitos, diferentes técnicas podem ser usadas como, por exemplo, entrevistas, aplicação de questionários e uso de protótipos."
+        ],
+        "gabarito": "Durante a elicitação dos requisitos, diferentes técnicas podem ser usadas como, por exemplo, entrevistas, aplicação de questionários e uso de protótipos."
+    },
+    {
+        "id": 164,
+        "enunciado": "A respeito de requisitos e experiência do usuário, julgue o item subsecutivo.\nFerramentas automatizadas para armazenamento de requisitos, gerenciamento de mudanças e gerenciamento de rastreabilidade são indicadas para apoio ao processo de gerenciamento de requisitos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 165,
+        "enunciado": "A respeito de requisitos e experiência do usuário, julgue o item subsecutivo.\nHistórias de usuário são ferramentas para a definição de escopo de produtos de software voltadas a fornecer uma análise detalhada sobre a atividade do usuário e a viabilizar a retenção de conhecimento em longo prazo.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 166,
+        "enunciado": "A respeito de requisitos e experiência do usuário, julgue o item subsecutivo.\nOs critérios de aceitação descrevem um conjunto mínimo de requisitos que precisam ser atendidos para que valha a pena implementar uma solução específica.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 167,
+        "enunciado": "Julgue o seguinte item, relativo à engenharia de software.\nNa técnica etnografia utiliza-se um conjunto predefinido de questões; a equipe de engenharia de requisitos explora essa série de questões com os stakeholders do sistema, de modo a obter a compreensão de suas necessidades.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 168,
+        "enunciado": "Julgue o próximo item, com relação à engenharia de software.\nNa análise de requisitos se software, os funcionais devem ser restritos ao que o sistema deve fazer; os não funcionais não devem abordar restrições que se apliquem ao sistema como um todo e sim aos detalhes específicos, tais como segurança e desempenho.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 169,
+        "enunciado": "Julgue o próximo item, que se refere a desenvolvimento e manutenção de sistemas.\nMudanças em sistemas dentro do ciclo de vida de desenvolvimento devem ser controladas utilizando-se procedimentos formais de controle de mudanças.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 170,
+        "enunciado": "Acerca de aspectos diversos pertinentes a objetos de avaliação associados à análise de sistemas, julgue o item que se segue.\nNo âmbito da engenharia de software, o principal produto da engenharia de requisitos é o documento de especificação de requisitos de software.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 171,
+        "enunciado": "Os engenheiros de software trabalham com os usuários (stakeholders) para saber mais sobre o domínio da aplicação e os detalhes do sistema a ser desenvolvido.\nEssa etapa da Engenharia de Requisitos é conhecida como",
+        "alternativas": [
+            "especificação de requisitos.",
+            "prototipação de requisitos.",
+            "estudo de viabilidade.",
+            "elicitação de requisitos.",
+            "documentação dos requisitos."
+        ],
+        "gabarito": "elicitação de requisitos."
+    },
+    {
+        "id": 172,
+        "enunciado": "Para a especificação de requisitos, considera-se quatro possíveis notações. Assinale a alternativa que apresenta a especificação em que os requisitos são escritos em um template ou formulário utilizando a linguagem natural.",
+        "alternativas": [
+            "Especificações matemáticas.",
+            "Sentença em linguagem natural.",
+            "Notações gráficas.",
+            "Histórias.",
+            "Linguagem natural estruturada."
+        ],
+        "gabarito": "Linguagem natural estruturada."
+    },
+    {
+        "id": 173,
+        "enunciado": "Um colega seu, que também é analista de gestão governamental, precisa realizar um levantamento de requisitos para um novo sistema que será desenvolvido na Secretaria de Estado da Administração de Goiás e solicita sua ajuda para definir a melhor abordagem para esse processo. Assinale a alternativa que NÃO descreve um processo utilizado para descoberta de requisitos.",
+        "alternativas": [
+            "Entrevista.",
+            "Etnografia.",
+            "Definição do cronograma.",
+            "Cenário.",
+            "Casos de estudo."
+        ],
+        "gabarito": "Definição do cronograma."
+    },
+    {
+        "id": 174,
+        "enunciado": "Requisitos de software do sistema podem ser derivados ou restringidos desse contexto. Geralmente, satisfazer a esses requisitos sociais e organizacionais é crítico para o sucesso do sistema. Uma razão pela qual muitos sistemas de software são entregues, mas nunca são usados, é que seus requisitos não levam devidamente em conta a forma como o contexto social e organizacional afeta o funcionamento prático do sistema. Existe uma técnica de observação que pode ser usada para compreender os processos operacionais e ajudar a extrair os requisitos de apoio para esses processos. Qual o nome dessa técnica?",
+        "alternativas": [
+            "Cenário.",
+            "Entrevista.",
+            "Etnografia.",
+            "Especificação de casos de estudo.",
+            "Brainstorming."
+        ],
+        "gabarito": "Etnografia."
+    },
+    {
+        "id": 175,
+        "enunciado": "Analise as afirmativas abaixo com base na engenharia de requisitos do processo de desenvolvimento de software.\nI. Um requisito ou caso de uso representa uma ação realizada pelo software e que atende a uma necessidade de um usuário.\nII. Todos os requisitos de um software devem ser levantados antes que a sua construção/implementação inicie.\nIII. Requisitos de usuário referem-se à especificação técnica e detalhada das ações, condições e restrições operacionais do software.\nIV. Na definição dos casos de uso do software, um ator é o mesmo que um usuário do sistema.\nV. Uma das técnicas de levantamento de requisitos é a realização de entrevistas com os stakeholders, sendo que essas entrevistas podem ser feitas com um conjunto de perguntas fechadas ou abertas.\nSobre as afirmativas acima, é correto afirmar que",
+        "alternativas": [
+            "todas são falsas.",
+            "apenas uma é verdadeira.",
+            "apenas duas são verdadeiras.",
+            "apenas três são verdadeiras."
+        ],
+        "gabarito": "apenas uma é verdadeira."
+    },
+    {
+        "id": 176,
+        "enunciado": "Um Grupo de Desenvolvimento de Software (GDS) está trabalhando na especificação de requisitos de um novo aplicativo para dispositivos móveis. Como requisitos não funcionais, o cliente solicitou que o aplicativo atenda às cláusulas de proteção e privacidade de dados em consonância com legislações federais em vigor.\nOs requisitos não funcionais solicitados pelo cliente devem ser classificados pelo GDS como requisitos:",
+        "alternativas": [
+            "externos;",
+            "de produto;",
+            "de proteção;",
+            "de confiança;",
+            "organizacionais."
+        ],
+        "gabarito": "externos;"
+    },
+    {
+        "id": 177,
+        "enunciado": "Considere as afirmativas a seguir em relação à Engenharia de Software:\nI. Requisitos funcionais são as declarações de serviços que o sistema deve fornecer e requisitos nãofuncionais referem-se às propriedades emergentes, bem como às restrições sobre tal sistema.\nII. O estudo de viabilidade é uma atividade que integra o processo de engenharia de requisitos.\nIII. As políticas de rastreabilidade são fundamentais no gerenciamento de requisitos.\nIV. Os requisitos do sistema não são afetados por fatores organizacionais.\nEstá CORRETO o que se afirma, apenas, em:",
+        "alternativas": [
+            "I e II.",
+            "III e IV.",
+            "I, II e III.",
+            "II, III e IV."
+        ],
+        "gabarito": "I, II e III."
+    },
+    {
+        "id": 178,
+        "enunciado": "O objetivo do processo de engenharia de requisitos é criar e manter um documento de requisitos do sistema, e inclui quatro subprocessos de alto nível. Em um desses, os engenheiros de software trabalham com os clientes e os usuários finais do sistema para aprender sobre o domínio da aplicação, quais serviços o sistema deve fornecer, o desempenho esperado do sistema, além das restrições de hardware. Esse subprocesso é denominado:",
+        "alternativas": [
+            "validação de requisitos.",
+            "especificação de requisitos.",
+            "homologação de requisitos.",
+            "elicitação e análise de requisitos."
+        ],
+        "gabarito": "elicitação e análise de requisitos."
+    },
+    {
+        "id": 179,
+        "enunciado": "No processo de levantamento de requisitos de software, está correto afirmar que:",
+        "alternativas": [
+            "os requisitos podem ser verificados a qualquer momento para concluir que estão completos e consistentes, em concordância com o que os sponsors desejam do sistema.",
+            "quando múltiplos stakeholders estão envolvidos, os requisitos não apresentarão conflitos.",
+            "a coleta de requisito é o processo de interagir com os stakeholders do sistema para descobrir seus requisitos.",
+            "em qualquer conjunto de requisitos, todos os requisitos terão o mesmo grau de importância para o sucesso da empreitada."
+        ],
+        "gabarito": "a coleta de requisito é o processo de interagir com os stakeholders do sistema para descobrir seus requisitos."
+    },
+    {
+        "id": 180,
+        "enunciado": "Assinale a opção que apresenta a técnica de levantamento de requisitos sociais e organizacionais, por meio da qual o analista é inserido no ambiente de trabalho que será analisado, sendo feitas observações do trabalho diário.",
+        "alternativas": [
+            "workshop.",
+            "etnografia.",
+            "entrevista.",
+            "prototipagem."
+        ],
+        "gabarito": "etnografia."
+    },
+    {
+        "id": 181,
+        "enunciado": "Considerando o processo de especificação de requisitos para o desenvolvimento de um software, assinale a alternativa correta.",
+        "alternativas": [
+            "As entrevistas com stakeholders, apesar de fornecerem informações sobre como o processo envolvido ocorre, são dispensáveis e de pouco utilidade para a compreensão dos requisitos necessários.",
+            "As entrevistas com stakeholders são importantes para compreender exatamente como os eles interagem com o processo, sendo a técnica mais importante do processo de levantamento de requisitos.",
+            "O Documento de Requisitos de Software é um acordo formal, assinado entre os engenheiros de software e os desenvolvedores, que permite aos envolvidos desenvolver o software exatamente como solicitado pelo cliente.",
+            "Na fase de levantamento de requisitos, os stakeholders devem enviar aos desenvolvedores uma lista de requisitos necessários para o desenvolvimento do software, cabendo aos desenvolvedores transformarem esse artefato em histórias de usuários e devolvê-las para validação dos stakeholders.",
+            "O documento de requisitos do usuário apenas define as características mais importantes do sistema."
+        ],
+        "gabarito": "O documento de requisitos do usuário apenas define as características mais importantes do sistema."
+    },
+    {
+        "id": 182,
+        "enunciado": "Sobre o processo de engenharia de requisitos é correto afirmar que:",
+        "alternativas": [
+            "o principal mecanismo de validação de requisitos é a revisão técnica.",
+            "o Principal mecanismo de validação de requisitos é a revisão com o cliente.",
+            "em metodologias ágeis (Extreme Programming, Scrum), escrever requisitos é uma prática desaconselhada.",
+            "sob a ótica das metodologias ágeis, uma vez realizado o processo de levantamento de requisitos, estes são imutáveis, sob risco de inviabilizar todo o processo.",
+            "quando existem requisitos conflitantes, o Engenheiro de Software é o responsável pela decisão sobre quais requisitos devem ser ignorados e comunicar sua decisão ao cliente."
+        ],
+        "gabarito": "o principal mecanismo de validação de requisitos é a revisão técnica."
+    },
+    {
+        "id": 183,
+        "enunciado": "De acordo com Sommerville (2007, p. , a engenharia de requisitos nada mais é do que, antes de se iniciar o desenvolvimento de um software, a existência de uma comunicação entre o cliente e o analista responsável pela equipe de desenvolvimento, definindo o que esse sistema vai fazer, quais serão suas necessidades primordiais e quais restrições deve contemplar. A proposta de Sommerville define quatro atividades principais dentro do processo de engenharia de requisitos. Assinale a alternativa que indica corretamente essas atividades.",
+        "alternativas": [
+            "Elaboração de questionário, estudo de viabilidade, resultados e análise de pesquisa.",
+            "Estudo de viabilidade, entrevista com cliente, levantamento de informações e elaboração de pesquisa.",
+            "Pesquisa de mercado, análise de resultados, levantamento de requisitos e análise de requisitos.",
+            "Análise de requisitos, viabilidade de projeto, validação de requisitos e protótipo para análise.",
+            "Estudo de viabilidade, levantamento e análise de requisitos, documentação dos requisitos e validação dos requisitos."
+        ],
+        "gabarito": "Estudo de viabilidade, levantamento e análise de requisitos, documentação dos requisitos e validação dos requisitos."
+    },
+    {
+        "id": 184,
+        "enunciado": "O gerenciamento de requisitos auxilia a equipe de projeto a identificar, controlar e rastrear os requisitos, bem como nas mudanças que eles venham a sofrer no andamento do projeto. Qual alternativa contém um requisito não funcional?",
+        "alternativas": [
+            "Cadastro de usuário.",
+            "Cálculo de uma soma.",
+            "Geração de relatório.",
+            "Tempo de resposta.",
+            "Busca por lista."
+        ],
+        "gabarito": "Tempo de resposta."
+    },
+    {
+        "id": 185,
+        "enunciado": "Os requisitos de software são frequentemente classificados como requisitos funcionais e requisitos não funcionais. Em relação aos requisitos não funcionais, assinale a afirmativa correta.",
+        "alternativas": [
+            "Esses requisitos afetam apenas componentes individuais e não à arquitetura geral de um sistema.",
+            "Os requisitos não funcionais devem ser sempre escritos qualitativamente, para que possam ser objetivamente testados.",
+            "Os requisitos não funcionais podem estar relacionados às propriedades emergentes do sistema como confiabilidade; tempo de resposta; e, ocupação de área.",
+            "A característica principal dos requisitos organizacionais, um dos tipos de requisitos não funcionais, é que eles especificam ou restringem o comportamento do software."
+        ],
+        "gabarito": "Os requisitos não funcionais podem estar relacionados às propriedades emergentes do sistema como confiabilidade; tempo de resposta; e, ocupação de área."
+    },
+    {
+        "id": 186,
+        "enunciado": "Os requisitos de um sistema são as descrições do que o sistema deve fazer, os serviços que ele oferece e as restrições a seu funcionamento.\nEsses requisitos refletem as necessidades dos clientes para um sistema que serve a uma finalidade determinada, como controlar um dispositivo, colocar um pedido, ou encontrar informações. Em relação aos requisitos de software funcionais, assinale a afirmativa correta.",
+        "alternativas": [
+            "Não dependem do tipo de software a ser desenvolvido, mas de quem são seus possíveis usuários.",
+            "Os requisitos funcionais não podem explicitar o que o sistema não deve fazer, somente o que ele deve fazer, ou seja, seus objetivos.",
+            "Eles são geralmente descritos de forma objetiva, quando expressos como requisitos de usuário, para serem compreendidos pelos usuários do sistema.",
+            "De forma geral, a especificação dos requisitos funcionais de um sistema deve ser completa e consistente. Todavia, na prática, para sistemas grandes e complexos, é praticamente impossível alcançar completude e consistência dos requisitos."
+        ],
+        "gabarito": "De forma geral, a especificação dos requisitos funcionais de um sistema deve ser completa e consistente. Todavia, na prática, para sistemas grandes e complexos, é praticamente impossível alcançar completude e consistência dos requisitos."
+    },
+    {
+        "id": 187,
+        "enunciado": "Considerando a engenharia de requisitos, há algumas métricas que podem ser utilizadas para mensurar requisitos não funcionais, sendo certo que",
+        "alternativas": [
+            "a portabilidade pode ser mensurada pelo número de transações processadas por segundo.",
+            "a facilidade de utilização pode ser mensurada pelo tempo para reinício do sistema após uma falha.",
+            "a robustez pode ser mensurada pelo tempo de atualização do monitor.",
+            "a confiabilidade pode ser mensurada pelo tempo médio para o sistema falhar (mean time to failure).",
+            "o tamanho do software pode ser mensurado pelo tempo exigido para seu treinamento de uso."
+        ],
+        "gabarito": "a confiabilidade pode ser mensurada pelo tempo médio para o sistema falhar (mean time to failure)."
+    },
+    {
+        "id": 188,
+        "enunciado": "Analise as sentenças abaixo a respeito da atividade de análise de requisitos e selecione a alternativa INCORRETA:",
+        "alternativas": [
+            "A análise de domínio (ou de negócio) é uma fase da análise de requisitos em que é possível verificar se os objetos que estão sendo definidos pelos analistas fazem sentido aos especialistas do domínio.",
+            "A atividade de validação dos modelos gerados na análise de requisitos permite que o analista corrija eventuais interpretações ambíguas ou contraditórias dos requisitos retratados com o auxílio de usuários e/ou especialistas do negócio.",
+            "Diagramas de atividade são muito úteis na fase de análise de domínio, já que a atividade de modelagem dos processos do negócio, feita com esses diagramas, permite ao analista um entendimento melhor de determinado problema e do comportamento do sistema no decorrer de diversos casos de uso.",
+            "A fase de análise de requisitos não leva em conta o ambiente tecnológico a ser utilizado. Esta fase tem como foco construir uma estratégia de solução, buscando saber o que o sistema proposto deve fazer.",
+            "A análise de aplicação é a fase da análise de requisitos em que o profissional detalha a implementação dos objetos que não fazem sentido aos especialistas mas são necessários para a aplicação, informando como o sistema funcionará para atender tais requisitos."
+        ],
+        "gabarito": "A análise de aplicação é a fase da análise de requisitos em que o profissional detalha a implementação dos objetos que não fazem sentido aos especialistas mas são necessários para a aplicação, informando como o sistema funcionará para atender tais requisitos."
+    },
+    {
+        "id": 189,
+        "enunciado": "Uma das principais causas de fracasso no desenvolvimento de projetos de software está relacionada com a especificação de requisitos. Isso pode ocorrer por falha no levantamento destes em etapas Iniciais do projeto, mas também na fase de manutenção, por conta da mudança constantes dos mesmos.\nA respeito dos conceitos que envolvem requisitos e dos procedimentos de levantamento deles, analise as afirmativas abaixo e marque alternativa correta.\nI. Observação in-loco, estudo de documentos de processos da área de domínio do produto, entrevistas com colaboradores envolvidos na operação da área de domínio do produto, são apenas alguns exemplos de meios se levantar requisitos.\nII. Os requisitos podem ser de dois tipos: requisitos funcionais e requisitos não funcionais.\nIII. São exemplos de requisitos não funcionais: Definição do Sistema Operacional (SO) e do Sistema de Gerenciamento de Banco de Dados (SGBD) compatíveis com o produto.",
+        "alternativas": [
+            "Apenas as afirmativas II e III estão corretas.",
+            "Apenas as afirmativas I e III estão corretas.",
+            "Apenas as afirmativas I e II estão corretas.",
+            "Apenas a afirmativa II está correta.",
+            "Todas as afirmativas estão corretas."
+        ],
+        "gabarito": "Todas as afirmativas estão corretas."
+    },
+    {
+        "id": 190,
+        "enunciado": "O levantamento de requisito é ponto de partida para atividade de desenvolvimento de sistemas de software. Resolução de conflitos, definição de prioridades, compreensão do domínio, são apenas alguns dos desafios enfrentados no levantamento de requisitos. A literatura da área define diversas técnicas que podem ser utilizadas para facilitar a execução dessa tarefa. Marque a alternativa que indica, corretamente, o nome da metodologia, criada pela lnternational Business Machines Corporation (IBM). Essa metodologia facilita o trabalho de levantamento de requisitos através do uso de dinâmicas de grupo, com o objetivo de captar o ponto de vista dos usuários sobre o sistema que será desenvolvido.\nAlém disso, ela é composta por fases como: adaptação, sessão e finalização.",
+        "alternativas": [
+            "Workshop.",
+            "Entrevistas.",
+            "JAD.",
+            "Prototipação.",
+            "Etnografia."
+        ],
+        "gabarito": "JAD."
+    },
+    {
+        "id": 191,
+        "enunciado": "O processo de documentação, análise, rastreamento, priorização e concordância sobre as necessidades, o controle de mudanças e comunicação às partes envolvidas relevantes é chamado de:",
+        "alternativas": [
+            "stakeholders.",
+            "cronograma.",
+            "gerenciamento de processos de negócio.",
+            "gerenciamento de requisitos.",
+            "mapeamento e modelagem de processos."
+        ],
+        "gabarito": "gerenciamento de requisitos."
+    },
+    {
+        "id": 192,
+        "enunciado": "Com referência às técnicas de levantamento de requisitos, julgue o seguinte item.\nA arqueologia é uma técnica apropriada quando se busca preservar todas as funcionalidades de um sistema legado em um novo sistema que reutilize as soluções e experiências existentes.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 193,
+        "enunciado": "Com referência às técnicas de levantamento de requisitos, julgue o seguinte item.\nO levantamento de requisitos com casos de uso é muito eficaz para a elicitação de requisitos não funcionais.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 194,
+        "enunciado": "Com referência às técnicas de levantamento de requisitos, julgue o seguinte item.\nA analogia é uma técnica pouco recomendada quando é necessário identificar requisitos novos, inovadores ou atrativos, em um ambiente cujo objetivo é encontrar soluções criativas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 195,
+        "enunciado": "Com referência às técnicas de levantamento de requisitos, julgue o seguinte item.\nEm situações em que alguma das partes interessadas não consiga expressar de forma oral as suas necessidades com clareza, recomenda-se o emprego da técnica da etnografia para o levantamento de requisitos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 196,
+        "enunciado": "Com referência às técnicas de levantamento de requisitos, julgue o seguinte item.\nNa execução da técnica de apprenticing (aprendizado), o engenheiro de requisitos deve questionar procedimentos operacionais complexos e pouco claros do domínio do sistema que os stakeholders desejam preservar.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 197,
+        "enunciado": "Com referência às técnicas de levantamento de requisitos, julgue o seguinte item.\nNo momento da coleta de dados, os questionários oferecem ao pesquisador uma percepção imediata sobre erros de formulação e esquecimento de perguntas-chave.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 198,
+        "enunciado": "Julgue o item subsequente, a respeito de especificação de requisitos.\nO objetivo principal da especificação é documentar todas as necessidades dos clientes e obter um aceite quanto às entregas de produto propostas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 199,
+        "enunciado": "Julgue o item subsequente, a respeito de especificação de requisitos.\nA especificação de requisitos é frequentemente composta de vários tipos de documentos e não raro abrange: visão geral; glossário; modelos do sistema; lista de requisitos funcionais e lista de requisitos não funcionais; especificação detalhada de requisitos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 200,
+        "enunciado": "Julgue o item subsequente, a respeito de especificação de requisitos.\nOs requisitos do sistema devem descrever os comportamentos interno e externo do sistema, devendo-se preocupar com a forma como ele deve ser projetado ou implementado.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    }
+]

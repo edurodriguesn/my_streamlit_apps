@@ -1,0 +1,2016 @@
+[
+    {
+        "id": 1,
+        "enunciado": "Julgue o item a seguir, a respeito de gerenciamento de sistema de arquivos, gerenciamento de dispositivos de entrada/saída e de administração e suporte do sistema operacional Linux.\nNos sistemas operacionais como o Unix, todos os dispositivos de entrada e saída são tratados como arquivos e podem ser lidos e escritos como arquivos comuns.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 2,
+        "enunciado": "Invocação Remota de Métodos (RMI) é uma forma de efetuar processamento distribuído utilizando objetos ou componentes remotos. O RMI abstrai a camada de transporte e permite a comunicação entre sistemas operacionais, máquinas virtuais e/ou hardwares distintos. Acerca do RMI identifique a opção incorreta:",
+        "alternativas": [
+            "O RMI permite a execução de chamadas remotas desenvolvidas em Java.",
+            "A arquitetura utilizada pelo RMI é a cliente-servidor.",
+            "O RMI necessita de compilador da linguagem C++ e ambiente UNIX para poder ser implementado.",
+            "O RMI utiliza o mecanismo de stub e skeleton para se comunicar com objetos remotos.",
+            "A utilização do stub e skeleton é transparente ao desenvolvedor."
+        ],
+        "gabarito": "O RMI necessita de compilador da linguagem C++ e ambiente UNIX para poder ser implementado."
+    },
+    {
+        "id": 3,
+        "enunciado": "Acerca dos princípios fundamentais do sistema operacional Linux, entre os quais estão a filosofia Unix, o uso intensivo de permissões, a estrutura de diretórios padronizada e o conceito de que tudo é tratado como arquivo, assinale a opção correta.",
+        "alternativas": [
+            "A estrutura de diretórios do Linux segue o padrão FHS (filesystem hierarchy standard), que define regras para organização de diretórios como /bin, /usr e /var.",
+            "A troca de permissões de arquivos no Linux (como leitura, escrita e execução) só pode ser feita pelo kernel, de modo que é impossível para administradores do sistema a alteração de tais permissões.",
+            "O escalonador de processos do Linux funciona exclusivamente com filas de prioridade estáticas, não permitindo ajustes dinâmicos baseados no comportamento dos processos.",
+            "O Linux permite que qualquer usuário altere arquivos do diretório /etc sem necessidade de permissões administrativas, desde que esteja autenticado no sistema.",
+            "No Linux, o princípio de que tudo é um arquivo aplica-se somente aos arquivos de texto, de modo que não é válido para dispositivos de hardware."
+        ],
+        "gabarito": "A estrutura de diretórios do Linux segue o padrão FHS (filesystem hierarchy standard), que define regras para organização de diretórios como /bin, /usr e /var."
+    },
+    {
+        "id": 4,
+        "enunciado": "Em um ambiente Linux, o administrador de sistemas precisa iniciar um processo de backup de dados de grande volume, mas deseja garantir que ele não consuma recursos de CPU excessivamente e não prejudique o desempenho de outras aplicações críticas em execução.\nAssinale a opção que apresenta corretamente o comando, ou combinação de comandos, que devem ser utilizados para iniciar o processo backup_script.sh, com a menor prioridade de execução possível.",
+        "alternativas": [
+            "nice -n -20./backup_script.sh.",
+            "nice -n 19./backup_script.sh.",
+            "renice +20 $(pgrep backup_script.sh).",
+            "nohup./backup_script.sh &.",
+            "ionice -c 3./backup_script.sh."
+        ],
+        "gabarito": "nice -n 19./backup_script.sh."
+    },
+    {
+        "id": 5,
+        "enunciado": "A analista Suelen está configurando um servidor Linux que hospeda aplicações web de alta demanda. A fim de evitar gargalos na aplicação TJWeb, a analista utilizou o comando renice, dando prioridade máxima, no acesso à CPU, ao processo de identificador 100.\nÉ correto afirmar que Suelen utilizou o comando renice com os argumentos:",
+        "alternativas": [
+            "-n -20 –p 100.",
+            "-n +99 –p 100.",
+            "-n +100 –p 100.",
+            "-n 0 –p TJWeb:100.",
+            "-n -1 –p TJWeb:100."
+        ],
+        "gabarito": "-n -20 –p 100."
+    },
+    {
+        "id": 6,
+        "enunciado": "Em relação a configurações básicas de MS Windows Server e Linux, julgue o item a seguir.\nProcessos do Linux são identificados por seus respectivos identificadores únicos denominados PID, sendo o canal de comunicação entre dois processos conhecido como pipe.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 7,
+        "enunciado": "Em relação a sistemas operacionais, programas do Microsoft Office, navegadores e Microsoft Outlook, julgue o item a seguir.\nNos sistemas operacionais Linux, os processos podem comunicar-se uns com os outros por meio de canais para trocas de mensagens denominados pipes.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 8,
+        "enunciado": "Em um prompt de comandos de um sistema operacional Linux, qual das alternativas abaixo apresenta um comando que, ao ser executado, criará um arquivo de texto contendo a data atual do sistema operacional? Considere que o arquivo a ser criado não existe no momento da execução do comando.",
+        "alternativas": [
+            "now >> arquivo.txt.",
+            "now > arquivo.txt.",
+            "date > arquivo.txt.",
+            "date << arquivo.txt."
+        ],
+        "gabarito": "date > arquivo.txt."
+    },
+    {
+        "id": 9,
+        "enunciado": "Julgue o item a seguir, referente a gerenciamento de servidores Windows e Linux.\nEm servidores Linux, caso seja necessária a execução de reparação de partições com estruturas danificadas, deve-se executar, como root, o comando fdisk –l.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 10,
+        "enunciado": "Julgue o item a seguir, pertinente ao uso das ferramentas da informática nas pesquisas científicas em biotecnologia.\nA vantagem do Linux como sistema operacional de escolha para análises bioinformáticas é a disponibilidade de diversos programas executáveis via linha de comando em um terminal de texto. Em um arquivo FASTA (seq.fas) com milhões de sequências, pode-se contar o número único de sequências com o encadeamento dos seguintes comandos de shell BASH no terminal: 'grep \" > \" seq.fas | sort | uniq | wc -l'.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 11,
+        "enunciado": "No que se refere aos protocolos DHCP e IMAP, aos sistemas de segurança IPS, aos modelos de nuvem, ao ambiente Linux e ao Microsoft Windows Server, julgue o item a seguir.\nNo Linux, a execução do comando a seguir irá atualizar o pacote samba, se este já estiver instalado no sistema operacional.\nyum update samba",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 12,
+        "enunciado": "Um analista de tecnologia da informação de uma empresa está, atualmente, trabalhando com o sistema operacional Linux para a configuração de alguns servidores e precisa exibir o conteúdo de um arquivo que está nas últimas linhas. Nessa situação, o comando via terminal que pode auxiliar o analista nessa análise é",
+        "alternativas": [
+            "head.",
+            "cat.",
+            "tail.",
+            "yum list.",
+            "cp."
+        ],
+        "gabarito": "tail."
+    },
+    {
+        "id": 13,
+        "enunciado": "Considere três situações comuns em ambientes Linux relacionados à instalação, configuração e administração de pacotes e serviços.\nI. Instalar um pacote específico chamado nginx e garantir que ele seja iniciado automaticamente na inicialização do sistema.\nII. Verificar o status de um serviço chamado firewalld e reiniciá-lo.\nIII. Monitorar o arquivo de log do sistema /var/log/messages, filtrando apenas as linhas que contêm a palavra \"error\" (independentemente de maiúsculas ou minúsculas).\nEm condições ideais e com as devidas permissões, uma Analista criou a sequência correta de comandos que resolvem as tarefas I, II e III, que é:",
+        "alternativas": [
+            "dnf install nginx systemctl enable nginx systemctl status firewalld systemctl restart firewalld tail -f /var/log/messages | grep -i error.",
+            "rpm -ivh nginx.rpm systemctl nginx start service status firewalld service restart firewalld egrep 'error|ERROR' /var/log/messages.",
+            "yum install nginx chkconfig nginx on systemctl check firewalld systemctl restart firewalld egrep 'error|ERROR' /var/log/messages.",
+            "dnf install nginx systemctl enable nginx systemctl status firewalld service restart firewalld tail -f /var/log/messages | grep --all-match error.",
+            "apt-get install nginx systemctl enable nginx chkconfig status firewalld systemctl restart firewalld grep -f /var/log/messages error."
+        ],
+        "gabarito": "dnf install nginx systemctl enable nginx systemctl status firewalld systemctl restart firewalld tail -f /var/log/messages | grep -i error."
+    },
+    {
+        "id": 14,
+        "enunciado": "O Linux trata dispositivos de entrada e saída como arquivos, sendo comum o uso de arquivos especiais em /dev para interagir com esses dispositivos. Nesse contexto, assinale a opção em que é apresentado comando utilizado para verificar estatísticas de discos e operações de entrada e saída no Linux.",
+        "alternativas": [
+            "journalctl.",
+            "ifconfig.",
+            "lsblk.",
+            "iostat.",
+            "traceroute."
+        ],
+        "gabarito": "iostat."
+    },
+    {
+        "id": 15,
+        "enunciado": "Sobre o sistema operacional GNU Linux, analise as assertivas abaixo, assinalando V, se verdadeiras, ou F, se falsas.\n( ) O principal objetivo do GNU é ser software livre. Possui uma vantagem social, permitindo que os usuários cooperem, e uma vantagem ética, respeitando a liberdade dos usuários.\n( ) O GNU Linux é um software privado fechado, que contém inúmeras evoluções permitindo que os usuários se cadastrem em uma base a cada licença.\n( ) A biblioteca C GNU usa um tipo especial de copyleft chamado Licença Pública Geral Menor GNU, que dá permissão para ligar software privativo à biblioteca.\nA ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+        "alternativas": [
+            "V – F – F.",
+            "F – F – V.",
+            "V – F – V.",
+            "F – V – F.",
+            "V – V – F."
+        ],
+        "gabarito": "V – F – V."
+    },
+    {
+        "id": 16,
+        "enunciado": "No que diz respeito ao sistema operacional Linux, julgue o seguinte item.\nNo Linux, os arquivos de log do sistema contêm informações sobre as atividades do sistema operacional (SO); como exemplo, o arquivo /var/log/dmesg contém mensagens internas do SO, inclusive notificações de serviços do sistema e erros de aplicativos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 17,
+        "enunciado": "No que diz respeito ao sistema operacional Linux, julgue o seguinte item.\nConsidere que a sequência de comandos a seguir tenha sido executada no Linux por certo usuário com permissão de root no arquivo em comento.\ntouch testepf chmod 664 testepf chmod o+x testepf Nesse caso, é correto afirmar que o arquivo testepf terá as permissões -rwx-rw-r-- se o comando ls –la testepf for executado.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 18,
+        "enunciado": "No que diz respeito ao sistema operacional Linux, julgue o seguinte item.\nNo Linux, systemd é um sistema de registro centralizado que coleta e armazena dados de log de várias fontes,incluindo serviços do sistema, eventos do kernel e aplicativos do usuário, e cujo conteúdo pode ser consultado com o uso do comando journalctl.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 19,
+        "enunciado": "No sistema de arquivos Linux, qual comando é usado para alterar as permissões de um arquivo ou diretório?",
+        "alternativas": [
+            "chmod.",
+            "chown.",
+            "chgrp.",
+            "ls -l.",
+            "passwd."
+        ],
+        "gabarito": "chmod."
+    },
+    {
+        "id": 20,
+        "enunciado": "Um usuário executa o comando chmod 755 meu_script.sh em um terminal Linux. O que essa permissão significa?",
+        "alternativas": [
+            "O dono, o grupo e outros têm permissão total (leitura, escrita e execução).",
+            "O dono tem permissão de leitura e escrita; o grupo e outros têm apenas permissão de leitura.",
+            "O dono tem permissão total (leitura, escrita e execução); o grupo e outros têm permissão de leitura e execução.",
+            "Apenas o dono pode ler e executar o arquivo.",
+            "Todos os usuários têm permissão apenas para ler o arquivo."
+        ],
+        "gabarito": "O dono tem permissão total (leitura, escrita e execução); o grupo e outros têm permissão de leitura e execução."
+    },
+    {
+        "id": 21,
+        "enunciado": "Em servidores Linux de uma empresa privada, um arquivo foi configurado com modo octal 0640 conforme Portable Operating System Interface (POSIX). Quais são as permissões resultantes (dono/grupo/outros)?",
+        "alternativas": [
+            "rw- / r-- / --- (leitura/escrita ao dono, leitura ao grupo, nenhum acesso a outros).",
+            "r-x / r-- / r-- (executável para dono e leitura geral).",
+            "rwx / r-- / --- (acesso total ao dono, leitura ao grupo).",
+            "rw- / rw- / --- (leitura/escrita para dono e grupo).",
+            "r-- / rw- / --- (leitura ao dono, leitura/escrita ao grupo)."
+        ],
+        "gabarito": "rw- / r-- / --- (leitura/escrita ao dono, leitura ao grupo, nenhum acesso a outros)."
+    },
+    {
+        "id": 22,
+        "enunciado": "Um profissional da computação acessa um Linux e precisa executar diretamente (como programa) o script backup.sh que está no diretório atual, ainda sem permissões adequadas. Qual é o procedimento mínimo para execução?",
+        "alternativas": [
+            "Dar permissão de leitura ao arquivo e executar com sh./backup.sh para usar o shebang automaticamente.",
+            "Dar permissão de escrita e executar./backup.sh, pois escrita habilita a execução do arquivo.",
+            "Executar o comando chmod +x backup.sh e rodar o script como./backup.sh, usando o interpretador do shebang.",
+            "Remover permissão de leitura e executar bash backup.sh, pois a execução não depende de ler o arquivo.",
+            "Marcar o diretório como executável com o comando chmod -x backup.sh e rodar backup.sh sem./, porque a execução é resolvida pela herança do diretório."
+        ],
+        "gabarito": "Executar o comando chmod +x backup.sh e rodar o script como./backup.sh, usando o interpretador do shebang."
+    },
+    {
+        "id": 23,
+        "enunciado": "Um analista de suporte precisa localizar rapidamente todos os arquivos de log (.log) que foram modificados recentemente (nas últimas 24 horas) em um servidor Linux, dentro de um diretório específico e seus subdiretórios. Qual comando de linha de comando é o mais adequado para essa tarefa, permitindo filtros por nome e tempo de modificação?",
+        "alternativas": [
+            "find.",
+            "ls.",
+            "grep.",
+            "locate.",
+            "stat."
+        ],
+        "gabarito": "find."
+    },
+    {
+        "id": 24,
+        "enunciado": "Um desenvolvedor está analisando um arquivo de log extenso em um servidor Linux e precisa extrair apenas as linhas que contêm uma palavra-chave específica, exibindo um número limitado de resultados para uma análise inicial. Qual combinação de comandos de linha de comando é a mais eficiente para filtrar e limitar a saída de um arquivo grande?",
+        "alternativas": [
+            "cat | grep | head.",
+            "tail | grep.",
+            "head | grep.",
+            "grep | head.",
+            "sort | uniq."
+        ],
+        "gabarito": "grep | head."
+    },
+    {
+        "id": 25,
+        "enunciado": "Em um Sistema Operacional (SO) Linux, a execução do comando \"chmod 646 /etc/shadow\" pelo usuário \"root\" resultará na:",
+        "alternativas": [
+            "possibilidade de exploração de uma falha de segurança no sistema.",
+            "codificação do arquivo usando o algoritmo 646.",
+            "impossibilidade de sua leitura pelo grupo dono do arquivo.",
+            "geração de um hash criptográfico do arquivo.",
+            "alteração do arquivo para o modo append-only."
+        ],
+        "gabarito": "possibilidade de exploração de uma falha de segurança no sistema."
+    },
+    {
+        "id": 26,
+        "enunciado": "Um usuário de um computador com sistema operacional Linux formatou e separou em partições o seu disco.\nNeste caso, seguindo o padrão Linux para identificar dispositivos de armazenamento e suas partições, a nomenclatura /dev/hda1 significa:",
+        "alternativas": [
+            "primeira partição do primeiro disco rígido IDE.",
+            "segunda partição do primeiro disco rígido IDE.",
+            "primeira partição do primeiro disco rígido SATA.",
+            "segunda partição do primeiro disco rígido SCSI."
+        ],
+        "gabarito": "primeira partição do primeiro disco rígido IDE."
+    },
+    {
+        "id": 27,
+        "enunciado": "Com relação ao gerenciamento de sistemas Linux/posix, avalie os itens a seguir e assinale (V) para a afirmativa verdadeira e (F) para a falsa.\n( ) O comando grep procura padrões em um arquivo, realizando a leitura das linhas do arquivo de entrada padrão e a gravação de todas as linhas que contenham a ocorrência no arquivo de saída padrão.\n( ) A inclusão do símbolo & no início da linha de comando que chama o processo a ser iniciado resulta em execução em segundo plano.\n( ) O uso de pipeline é frequente em sistemas Linux/posix e serve para direcionar os dados processados por dois ou mais programas em sucessão.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "V – F – V.",
+            "F – V – F.",
+            "V – V – V.",
+            "F – V – V.",
+            "V – V – F."
+        ],
+        "gabarito": "V – F – V."
+    },
+    {
+        "id": 28,
+        "enunciado": "O administrador de um servidor web configurado com sistema operacional Linux necessita economizar espaço em disco para ler arquivos que foram previamente compactados com gzip, sem descompactá-los.\nO comando que ele deverá utilizar é o",
+        "alternativas": [
+            "tar.",
+            "grep.",
+            "zcat.",
+            "touch.",
+            "expnd."
+        ],
+        "gabarito": "zcat."
+    },
+    {
+        "id": 29,
+        "enunciado": "No Linux existem diferentes opções de ambientes de desktop que podem ser utilizadas em conjunto com o X. Alguns dos ambientes de desktop mais populares estão descritos a seguir; exceto uma. Assinale alternativa incorreta.",
+        "alternativas": [
+            "O SfxTERM é a continuação do GNOME 2, porém exige menos recursos que o GNOME 3, e apesar de manter estética baseada no GNOME 2, suas versões mais recentes foram aprimoradas.",
+            "O GNOME é um dos ambientes de desktop mais populares, sendo o ambiente padrão em distribuições como Fedora, Debian e Ubuntu.",
+            "O Xfce é um ambiente de desktop que tem por objetivo ser esteticamente agradável e ao mesmo tempo não consumir muitos recursos da máquina.",
+            "O KDE constitui um grande ecossistema de aplicativos e plataformas de desenvolvimento."
+        ],
+        "gabarito": "O SfxTERM é a continuação do GNOME 2, porém exige menos recursos que o GNOME 3, e apesar de manter estética baseada no GNOME 2, suas versões mais recentes foram aprimoradas."
+    },
+    {
+        "id": 30,
+        "enunciado": "No Linux o comando useradd é empregado pelo usuário root do sistema para criar uma nova conta. O comando apenas solicita que seja fornecido o nome de login do usuário como argumento, mas outros argumentos podem ser definidos. Como exemplo o argumento ______ cria o diretório pessoal em /home. Assinale a alternativa que preencha corretamente a lacuna.",
+        "alternativas": [
+            "-l.",
+            "-u.",
+            "-m.",
+            "-s."
+        ],
+        "gabarito": "-m."
+    },
+    {
+        "id": 31,
+        "enunciado": "Com relação a ambiente Linux e integração com ambiente Windows, julgue o próximo item.\nUm computador com Linux pode ser integrado a uma rede Windows por meio do Active Directory, o que permite que os usuários acessem recursos em ambos os sistemas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 32,
+        "enunciado": "Com relação a ambiente Linux e integração com ambiente Windows, julgue o próximo item.\nEm um computador com Linux instalado, se o resultado da busca das permissões de um arquivo for -rw-rw-r--, então todos os usuários do computador poderão ler e escrever nesse arquivo.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 33,
+        "enunciado": "Com relação a ambiente Linux e integração com ambiente Windows, julgue o próximo item.\nOs aplicativos necessários para a configuração do ambiente Linux ficam instalados no diretório /root, o qual não pode ser deletado por qualquer tipo de usuário.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 34,
+        "enunciado": "nmcli con add type ethernet con-name finep ifname ens9 ip4 10.10.10.10/24 gw4 10.10.10.254 O comando precedente, quando executado no Red Hat Enterprise Linux com direitos de root, permite",
+        "alternativas": [
+            "adicionar o gateway 10.10.10.254 a rede de modo que o DHCP seja o 10.10.10.10.",
+            "criar uma conexão Ethernet estática apenas com endereço e gateway IPv4.",
+            "adicionar o IP 10.10.10.10 ao gateway 10.10.10.254, dividindo a rede em sub-redes de acordo com o /24.",
+            "criar uma conexão Ethernet dinâmica usando o IP 10.10.10.10/24 como DHCP.",
+            "adicionar uma rota default para o gateway 10.10.10.254."
+        ],
+        "gabarito": "criar uma conexão Ethernet estática apenas com endereço e gateway IPv4."
+    },
+    {
+        "id": 35,
+        "enunciado": "Cada sistema operacional possui seu conjunto de comandos para gerenciamento de processos. Existem comandos para criar, listar e remover processos. Neste contexto, o comando fork, no LINUX, é usado para",
+        "alternativas": [
+            "criar uma cópia de um arquivo.",
+            "encerrar um processo em execução.",
+            "listar todos os processos em execução.",
+            "iniciar um novo processo filho idêntico ao processo pai."
+        ],
+        "gabarito": "iniciar um novo processo filho idêntico ao processo pai."
+    },
+    {
+        "id": 36,
+        "enunciado": "Relativamente à administração de servidores Linux, julgue o item seguinte.\nO comando ls -la é usado para listar detalhes dos arquivos e diretórios no diretório atual, incluindo-se arquivos ocultos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 37,
+        "enunciado": "Relativamente à administração de servidores Linux, julgue o item seguinte.\nNa estrutura de diretórios padrão no Linux, o /usr é utilizado para armazenar os arquivos pessoais de cada usuário, como, por exemplo, documentos, fotografias, músicas e vídeos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 38,
+        "enunciado": "Relativamente à administração de servidores Linux, julgue o item seguinte.\nNo sistema operacional Linux, quando um processo está em estado “parado”, significa que o processo está aguardando algum recurso para ser executado.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 39,
+        "enunciado": "Um administrador de sistemas está usando um servidor com o sistema operacional Linux e precisa ajustar as permissões de um script chamado backup.sh para garantir a segurança e a funcionalidade adequadas. O administrador é o dono do arquivo e precisa ter todas as permissões, mas todos os outros usuários só podem ler ou executar o arquivo.\nNesse contexto, o seguinte comando é adequado para ajustar as permissões desse script:",
+        "alternativas": [
+            "chmod 644 backup.sh.",
+            "chmod 755 backup.sh.",
+            "chmod 777 backup.sh.",
+            "chmod 600 backup.sh.",
+            "chmod 744 backup.sh."
+        ],
+        "gabarito": "chmod 755 backup.sh."
+    },
+    {
+        "id": 40,
+        "enunciado": "O sistema operacional Linux fornece diversos comandos para opera-los através da linha de comando, assinale a alternativa que apresenta o comando utilizado para renomear um arquivo.",
+        "alternativas": [
+            "rm.",
+            "mv.",
+            "rename.",
+            "renamefile."
+        ],
+        "gabarito": "mv."
+    },
+    {
+        "id": 41,
+        "enunciado": "No contexto de sistemas operacionais Linux, assinale a alternativa que apresenta o comando utilizado para agendar tarefas recorrentes, como backups automáticos, atualizações de sistema ou até mesmo a execução de um determinado serviço desejado.",
+        "alternativas": [
+            "Timer.",
+            "Cron.",
+            "Schedule.",
+            "Tasker."
+        ],
+        "gabarito": "Cron."
+    },
+    {
+        "id": 42,
+        "enunciado": "Na administração de sistemas operacionais Linux, diversos comandos são extremamente importantes, um destes é para verificar os recursos do sistema, incluindo CPU, memória e swap. Assinale a alternativa que apresenta o comando utilizado para exibir estas informações.",
+        "alternativas": [
+            "services.msc.",
+            "df.",
+            "ps.",
+            "top."
+        ],
+        "gabarito": "top."
+    },
+    {
+        "id": 43,
+        "enunciado": "Assinale a alternativa que descreve o comando em Linux: cat a.txt > b.txt",
+        "alternativas": [
+            "Escreve o conteúdo do arquivo a.txt no arquivo b.txt.",
+            "Concatena o conteúdo do arquivo a.txt antes o início do conteúdo do arquivo b.txt.",
+            "Concatena o conteúdo do arquivo a.txt após o final do conteúdo do arquivo b.txt.",
+            "Concatena o conteúdo do arquivo a.txt no meio do conteúdo do arquivo b.txt."
+        ],
+        "gabarito": "Escreve o conteúdo do arquivo a.txt no arquivo b.txt."
+    },
+    {
+        "id": 44,
+        "enunciado": "O comando sudo permite executar programas com privilégios de segurança de outro usuário (por padrão, como superusuário). Ele solicita sua senha pessoal e confirma sua solicitação para executar um comando verificando um arquivo, chamado sudoers, que o administrador do sistema configura. É CORRETO afirmar sobre o comando sudoedit:",
+        "alternativas": [
+            "O comando sudoedit é utilizado se um usuário que não tem acesso root quiser adicionar outro usuário.",
+            "O comando sudoedit é útil para editar arquivos com as permissões de outro usuário, especialmente o root. Com esse comando você pode editar o arquivo, salvar uma cópia temporária, e só então copiar a cópia temporária para o arquivo original.",
+            "O comando sudoedit é usado para ver quais usuários estão no grupo sudo.",
+            "O comando sudoedit é usado para executar o editor de textos “vi” como root, e editar o arquivo.",
+            "O comando sudoedit é útil para especificar um usuário para executar o shell."
+        ],
+        "gabarito": "O comando sudoedit é útil para editar arquivos com as permissões de outro usuário, especialmente o root. Com esse comando você pode editar o arquivo, salvar uma cópia temporária, e só então copiar a cópia temporária para o arquivo original."
+    },
+    {
+        "id": 45,
+        "enunciado": "No contexto da criação de usuários em Sistemas Operacionais Linux, há dois comandos possíveis: adduser e useradd.\nEscolha a alternativa que corretamente representa a diferença entre os dois comandos.",
+        "alternativas": [
+            "adduser é uma interface interativa que simplifica a criação de usuários, enquanto useradd é um comando de linha de comando usado para criar usuários diretamente, exigindo opções adicionais.",
+            "adduser e useradd têm a mesma função, mas são usados em diferentes distribuições Linux por questões de preferência de nomenclatura.",
+            "adduser é exclusivamente usado para criar usuários comuns, enquanto useradd é destinado a criar usuários com privilégios de administrador.",
+            "adduser é um comando mais antigo e obsoleto, enquanto useradd é a opção mais moderna e preferida para a criação de usuários em ambientes Linux.",
+            "adduser e useradd são sinônimos e podem ser usados de forma intercambiável para criar usuários em sistemas Linux."
+        ],
+        "gabarito": "adduser é uma interface interativa que simplifica a criação de usuários, enquanto useradd é um comando de linha de comando usado para criar usuários diretamente, exigindo opções adicionais."
+    },
+    {
+        "id": 46,
+        "enunciado": "Assinale a opção que apresenta o comando utilizado em sistemas Linux para verificar os registros de logs de forma contínua e em tempo real.",
+        "alternativas": [
+            "tail -f.",
+            "grep -r.",
+            "ls -l.",
+            "cat /var/log.",
+            "ps -ax."
+        ],
+        "gabarito": "tail -f."
+    },
+    {
+        "id": 47,
+        "enunciado": "Um administrador de uma máquina Linux digitou um comando para saber quais sete arquivos ou diretórios, a partir de onde ele está localizado, foram alterados.\nEsse comando é",
+        "alternativas": [
+            "tail *.*.",
+            "tail –f8 *.*.",
+            "ls –l | tail –n8.",
+            "ls –l | tail –c*8 *.*.",
+            "tail –n* *.* | sort –r | ls 8."
+        ],
+        "gabarito": "ls –l | tail –n8."
+    },
+    {
+        "id": 48,
+        "enunciado": "Com relação ao sistema operacional Linux, julgue o item subsequente.\nConsidere que, a partir do diretório atual, seja necessário criar uma estrutura de 3 subdiretórios com o formato dir2/dir3/dir4.\nNesse caso, o comando utilizado deve ser o apresentado a seguir.\nmkdir -p dir2/dir3/dir4",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 49,
+        "enunciado": "Com relação ao redirecionamento da saída de um comando, em ambientes operacionais GNU/Linux, analise as afirmativas a seguir e assinale (V) para a verdadeira e\n(F) para a falsa.\n( ) Ao executar \"comando 1> /dev/null\", a saída do comando é exibida no terminal e todos os possíveis erros são ignorados.\n( ) Ao executar \"comando > file 1> file2\", a saída do comando é enviada para um arquivo e os possíveis erros para um arquivo diferente.\n( ) Ao executar \"comando &> file\", tanto a saída quanto os possíveis erros do comando são acrescentados ao conteúdo existente de um mesmo arquivo.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "V – V – V.",
+            "F – V – F.",
+            "F – F – F.",
+            "F – F – V.",
+            "V – V – F."
+        ],
+        "gabarito": "F – F – F."
+    },
+    {
+        "id": 50,
+        "enunciado": "A respeito de permissões do sistema de arquivos GNU/Linux, analise as afirmativas a seguir.\nI. O comando \"[user@host ~]$ chmod a+x file2\" indica que as permissões configuradas para file2 são de leitura, gravação e execução para todos os usuários.\nII. Somente o usuário root pode alterar o usuário proprietário de um arquivo. No entanto, a propriedade do grupo pode ser definida pelo root ou pelo proprietário do arquivo.\nIII. O comando \"[user@host ~]# chmod 750 file\" indica que as permissões configuradas para file são de leitura, gravação e execução para user; gravação e execução para o grupo; e nenhuma permissão para os outros usuários.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, II e III.",
+            "II e III, apenas.",
+            "I e III, apenas.",
+            "I e II, apenas.",
+            "II, apenas."
+        ],
+        "gabarito": "II, apenas."
+    },
+    {
+        "id": 51,
+        "enunciado": "Analise a saída do comando \"[root@host ~]# systemctl status sshd.service\", listada a seguir.\n● sshd.service - OpenSSH server daemon Loaded: loaded (/usr/lib/systemd/system/sshd.service; enabled; vendor preset:enabled) Active: active (running) since Thu 2024-02-14 12:07:45 IST; 7h ago Main PID: 1073 (sshd) CGroup: /system.slice/sshd.service └─1073 /usr/sbin/sshd -D...\nFeb 14 11:51:39 host.example.com systemd[1]: Started OpenSSH server daemon.\nFeb 14 11:51:39 host.example.com sshd[1073]: Could not load host key: /et...y Feb 14 11:51:39 host.example.com sshd[1073]: Server listening on 0.0.0.0....\nFeb 14 11:51:39 host.example.com sshd[1073]: Server listening on :: port 22.\nFeb 14 11:53:21 host.example.com sshd[1270]: error: Could not load host k...y Feb 14 11:53:22 host.example.com sshd[1270]: Accepted password for root f...\nCom base na saída do comando, assinale a afirmativa correta.",
+        "alternativas": [
+            "O serviço não está em execução.",
+            "O serviço não está carregado na memória.",
+            "O ID do processo principal do serviço é 1270.",
+            "O serviço foi iniciado no momento da inicialização do sistema.",
+            "A porta na qual o serviço está atendendo as requisições é 1073."
+        ],
+        "gabarito": "O serviço foi iniciado no momento da inicialização do sistema."
+    },
+    {
+        "id": 52,
+        "enunciado": "A partir do shell script:\n#!/bin/bash # Diretório que será verificado dir_mpe_ro=\"/backup/mpe/arquivos\" # Rotina a ser executada find \"$dir_mpe_ro \" -type f -mtime +15 -exec rm {} \\;\nE considerando que todos os arquivos estão localizados no diretório /backup/mpe/arquivos, o resultado será:",
+        "alternativas": [
+            "exibir na tela os arquivos que tenham sido alterados nos últimos 15 dias.",
+            "exibir na tela os arquivos que tenham sido criados há 15 dias.",
+            "excluir os arquivos cuja última modificação tenha sido realizada há 15 dias.",
+            "excluir os arquivos que tenham sido criados há 15 dias."
+        ],
+        "gabarito": "excluir os arquivos cuja última modificação tenha sido realizada há 15 dias."
+    },
+    {
+        "id": 53,
+        "enunciado": "Com relação à criação de links entre arquivos, em ambientes operacionais Linux, assinale V para afirmativa verdadeira e F para a falsa.\n( ) Não é possível criar links físicos para um diretório ou arquivo especial, apenas para arquivos regulares.\n( ) Links simbólicos só podem ser usados se ambos os arquivos estiverem no mesmo sistema de arquivos.\n( ) Mesmo que o arquivo original seja excluído, o conteúdo do arquivo ainda estará disponível, desde que pelo menos um link físico exista.\nAs afirmativas são, respectivamente:",
+        "alternativas": [
+            "V, V e V.",
+            "F, V e F.",
+            "V, F e F.",
+            "V, F e V.",
+            "F, V e V."
+        ],
+        "gabarito": "V, F e V."
+    },
+    {
+        "id": 54,
+        "enunciado": "Nos sistemas operacionais baseados em Linux, o objetivo do comando \"which\" é exibir",
+        "alternativas": [
+            "o total de espaço em disco usado pelo sistema.",
+            "o caminho completo do diretório atual de trabalho.",
+            "uma interface para os manuais de referência do sistema.",
+            "a localização de um arquivo executável (comando) no sistema."
+        ],
+        "gabarito": "a localização de um arquivo executável (comando) no sistema."
+    },
+    {
+        "id": 55,
+        "enunciado": "O comando chmod é utilizado em um sistema operacional Linux para alterar as permissões de um arquivo. Considere o seguinte comando.\nchmod a=wx file.txt Assinale a alternativa que apresenta um comando chmod equivalente ao apresentado.",
+        "alternativas": [
+            "chmod 000 file.txt.",
+            "chmod 111 file.txt.",
+            "chmod 333 file.txt.",
+            "chmod 555 file.txt.",
+            "chmod 777 file.txt."
+        ],
+        "gabarito": "chmod 333 file.txt."
+    },
+    {
+        "id": 56,
+        "enunciado": "O uso do comando grep no terminal de um sistema Linux tem como um de seus objetivos apresentar as linhas de um arquivo que contenham a string buscada.\nAssinale a alternativa que contém o comando grep juntamente com o parâmetro necessário para realizar uma busca inversa, ou seja, retornando todas as linhas que não contenham a string buscada.",
+        "alternativas": [
+            "grep -v.",
+            "grep -q.",
+            "grep -i.",
+            "grep -h.",
+            "grep -c."
+        ],
+        "gabarito": "grep -v."
+    },
+    {
+        "id": 57,
+        "enunciado": "Em um computador com o sistema operacional Linux, o seguinte comando foi executado em um terminal:\nls -ls /dev Como parte do resultado, foi obtida a seguinte linha na saída.\ncrw------- 1 root root 5, 1 Feb 1 05:09 console Assinale a alternativa correta.",
+        "alternativas": [
+            "O diretório console é o diretório home do usuário root.",
+            "O arquivo console representa um dispositivo do tipo socket.",
+            "O arquivo console é um link simbólico.",
+            "O arquivo console representa um dispositivo do tipo caractere (character).",
+            "O arquivo console representa um dispositivo do tipo bloco (block)."
+        ],
+        "gabarito": "O arquivo console representa um dispositivo do tipo caractere (character)."
+    },
+    {
+        "id": 58,
+        "enunciado": "Uma recomendação de segurança no sistema operacional Linux consiste em desabilitar a permissão especial SUID em arquivos executáveis onde ela não é desejada ou necessária.\nA razão para isso é que, com essa permissão, esses arquivos",
+        "alternativas": [
+            "podem ser executados por um comando diretamente a partir do prompt de login do sistema, sem que seja necessário um usuário válido se logar.",
+            "executam como root, e não como o usuário que disparou o comando, permitindo que eventuais vulnerabilidades do executável sejam exploradas pelo fato de ele executar com mais permissões.",
+            "executam como o usuário dono do arquivo, e não como o usuário que disparou o comando, permitindo que eventuais vulnerabilidades do executável sejam exploradas pelo fato de ele executar possivelmente com mais permissões.",
+            "transformam o usuário que disparou o comando de execução, independentemente de quem seja, em um sudoer, ou seja, passa a ser permitido de forma definitiva que esse usuário execute qualquer outro arquivo executável do sistema como root.",
+            "passam a ser carregados e executados durante a inicialização (boot) do sistema operacional, podendo interferir nesse processo indevidamente."
+        ],
+        "gabarito": "executam como o usuário dono do arquivo, e não como o usuário que disparou o comando, permitindo que eventuais vulnerabilidades do executável sejam exploradas pelo fato de ele executar possivelmente com mais permissões."
+    },
+    {
+        "id": 59,
+        "enunciado": "Um administrador de um servidor Linux de uma rede precisa verificar o uso da memória desse servidor. Para isso, usando linha de comando, aplicou o comando:",
+        "alternativas": [
+            "df.",
+            "top.",
+            "talk.",
+            "write."
+        ],
+        "gabarito": "top."
+    },
+    {
+        "id": 60,
+        "enunciado": "O comando rm é usado no Linux para excluir arquivos em um diretório. Para solicitar a confirmação do sistema antes de excluir um arquivo, deve-se utilizar a opção:",
+        "alternativas": [
+            "-r;",
+            "-i;",
+            "-f;",
+            "-m;",
+            "-d."
+        ],
+        "gabarito": "-i;"
+    },
+    {
+        "id": 61,
+        "enunciado": "Em um sistema Linux, considere que foi recém-criado o usuário “pedro” e, logo em seguida, foi utilizado o comando “passwd” para definir a senha dele. Assumindo que o comando “sudo” já esteja em vigor, para que essa senha se torne temporária e para requisitar, logo após o primeiro acesso, que o usuário crie uma nova senha, deve ser utilizado determinado comando. Assinale a alternativa que indica esse comando.",
+        "alternativas": [
+            "chmod 777.",
+            "adduser pedro.",
+            "usermod -a O.",
+            "chown-R pedro.",
+            "chage -d O pedro."
+        ],
+        "gabarito": "chage -d O pedro."
+    },
+    {
+        "id": 62,
+        "enunciado": "Considere a árvore de diretórios descrita a seguir, obtida de um sistema Linux.\nA partir do diretório “Documentos”, assinale a alternativa que permite ao usuário navegar para dentro do diretório “Python”.",
+        "alternativas": [
+            "cd./Código/Python.",
+            "cd ~/Código/Python.",
+            "cd */Python.",
+            "cd../Código/Python."
+        ],
+        "gabarito": "cd../Código/Python."
+    },
+    {
+        "id": 63,
+        "enunciado": "Considere a saída descrita a seguir, a partir da execução do comando “top” no terminal Linux.\nAssinale a alternativa que contém o comando correto para encerrar o processo de nome “firefox”.",
+        "alternativas": [
+            "stop firefox.",
+            "kill firefox.",
+            "kill -9 1485.",
+            "stop 1485."
+        ],
+        "gabarito": "kill -9 1485."
+    },
+    {
+        "id": 64,
+        "enunciado": "Em um sistema operacional Linux, o administrador do sistema digitou no terminal o seguinte comado:\nawk -F: `{print $3}´ /etc/group O retorno desse comando no terminal será(ão)",
+        "alternativas": [
+            "as senhas dos grupos cadastrados no sistema.",
+            "o número de membros dos grupos cadastrados no sistema.",
+            "os “ids” dos grupos cadastrados no sistema.",
+            "os nomes dos grupos cadastrados no sistema.",
+            "os nomes dos membros dos grupos cadastrados no sistema."
+        ],
+        "gabarito": "os “ids” dos grupos cadastrados no sistema."
+    },
+    {
+        "id": 65,
+        "enunciado": "Considere o seguinte comando:\nusermod -a -G abc xyz No sistema operacional Linux, ele tem como efeito:",
+        "alternativas": [
+            "modificar o nome do usuário abc para xyz.",
+            "modificar o nome do grupo abc para xyz.",
+            "adicionar o usuário xyz ao grupo abc.",
+            "substituir o grupo primário do usuário xyz para abc, removendo-o do grupo anterior.",
+            "modificar a senha do usuário xyz para abc."
+        ],
+        "gabarito": "adicionar o usuário xyz ao grupo abc."
+    },
+    {
+        "id": 66,
+        "enunciado": "Em relação à gestão de processos e à administração de sistemas operacionais, julgue o item que se segue.\nO Linux impede que dois usuários diferentes tenham o mesmo UID, com exceção do usuário root.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 67,
+        "enunciado": "Em relação à gestão de processos e à administração de sistemas operacionais, julgue o item que se segue.\nQualquer novo usuário criado no Linux, por padrão, recebe um identificador de usuário (UID), que é utilizado quando um processo é criado pelo usuário em seu espaço de usuário (user space).",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 68,
+        "enunciado": "Ao implementar uma política de backup de sua empresa, João está definindo com a chefia a configuração de horários nos quais os backups rodarão. Em virtude de o ambiente computacional da empresa não ter muitas modificações, foi solicitado a João que agendasse o crontab para rodar o script todos os dias do mês às 19h10.\nConsiderando que o script está no caminho /var/log/script.txt, a crontab configurada corretamente por João é:",
+        "alternativas": [
+            "10 19 * * * /var/log/script.txt;",
+            "10 19 * * 2 * /var/log/script.txt;",
+            "* * * 1,9,10 * /var/log/script.txt;",
+            "0 * 19 10 * /var/log/script.txt;",
+            "0 10,19 * * * /var/log/script.txt."
+        ],
+        "gabarito": "10 19 * * * /var/log/script.txt;"
+    },
+    {
+        "id": 69,
+        "enunciado": "O comando a ser digitado no shell do Ubuntu Linux para exibir informações da CPU do computador é o",
+        "alternativas": [
+            "“ls /proc/cpuinfo”.",
+            "“pwd /proc/cpuinfo”.",
+            "“/proc/cpuinfo”.",
+            "“cat /proc/cpuinfo”."
+        ],
+        "gabarito": "“cat /proc/cpuinfo”."
+    },
+    {
+        "id": 70,
+        "enunciado": "Um administrador de um servidor de redes, configurado com uma das principais distribuições disponíveis para o sistema operacional Linux, precisa monitorar, de forma interativa, os recursos do sistema e os processos do servidor em tempo real.\nPara essa operação, utiliza-se o comando",
+        "alternativas": [
+            "du.",
+            "ps.",
+            "diff.",
+            "htop.",
+            "nano."
+        ],
+        "gabarito": "htop."
+    },
+    {
+        "id": 71,
+        "enunciado": "Uma Analista (com as devidas permissões) está responsável por administrar um servidor Red Hat Linux no ambiente do Tribunal Regional do Trabalho, instalado e funcionando em condições ideais. Recentemente, recebeu um alerta sobre o espaço em disco próximo de atingir o limite máximo. Para verificar a situação geral de espaço em discos de todo o sistema, a Analista utilizou o comando:",
+        "alternativas": [
+            "df -h.",
+            "df -t ext4.",
+            "du -sh /var/log.",
+            "lsblk.",
+            "free.m."
+        ],
+        "gabarito": "df -h."
+    },
+    {
+        "id": 72,
+        "enunciado": "A respeito do DHCP, dos processadores e dos conceitos de partição e formatação, julgue o item a seguir.\nA partição de swap no Linux serve como uma extensão da memória RAM, sendo utilizada quando a memória física do sistema é insuficiente.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 73,
+        "enunciado": "A respeito do DHCP, dos processadores e dos conceitos de partição e formatação, julgue o item a seguir.\nNo Linux, a partição /home contém arquivos essenciais do sistema, como drivers de hardware e bibliotecas compartilhadas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 74,
+        "enunciado": "A respeito do DHCP, dos processadores e dos conceitos de partição e formatação, julgue o item a seguir.\nApós uma partição ter sido criada no Linux, pode‑se utilizar o comando mkfs.ext4 para realizar a formatação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 75,
+        "enunciado": "A respeito de sistemas operacionais, julgue o item subsecutivo.\nO sistema Linux possibilita atribuir permissões de acesso diferentes em um mesmo diretório para distintas categorias: usuário dono, grupo dono do arquivo e demais usuários.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 76,
+        "enunciado": "Analise o comando de prompt abaixo, o qual foi executado em um sistema operacional Linux:\nkill -9 50 Qual o resultado do comando, considerando a existência de um processo cujo PID (Process ID) é 50?",
+        "alternativas": [
+            "Exibe informações do ciclo de vida do processo.",
+            "Interrompe, por 9 segundos, a execução do processo.",
+            "Retoma a execução do processo.",
+            "Suspende a execução do processo, podendo ser retomado posteriormente.",
+            "Encerra a execução do processo."
+        ],
+        "gabarito": "Encerra a execução do processo."
+    },
+    {
+        "id": 77,
+        "enunciado": "Responda V para verdadeiro e F para falso sobre as informações abaixo.\nI. A primeira versão do Kernel Linux foi escrita por um jovem de 21 anos por um universitário finlandês, Linus Benedict Torvalds.\nII. Existem mais de 300 distribuições Linux ativas, atualmente, sendo que o Debian (Fedora) é o \"pai\" da maioria.\nIII. Uma versão não modificada do Kernel Linux é chamada de \"Vanilla\".\nIV. A Google é responsável por 0,1% do código do Linux.\nV. Os submarinos militares dos EUA usam Linux.",
+        "alternativas": [
+            "V – F – V – F – V.",
+            "F – V – F – V – F.",
+            "V – V – F – F – V.",
+            "F – V – F – V – V.",
+            "V – V – F – F – F."
+        ],
+        "gabarito": "V – F – V – F – V."
+    },
+    {
+        "id": 78,
+        "enunciado": "O utilitário disponível no sistema operacional GNU/Linux que permite criar um sistema de arquivos ext3 em um dispositivo, geralmente uma partição do disco, é:",
+        "alternativas": [
+            "mkdir.",
+            "mkdisk.",
+            "mkfs.",
+            "mountfs."
+        ],
+        "gabarito": "mkfs."
+    },
+    {
+        "id": 79,
+        "enunciado": "Um usuário deseja agendar uma rotina diária de backup de arquivos no sistema operacional Linux. Qual comando de prompt ele pode utilizar para agendar uma tarefa repetitiva de backup?",
+        "alternativas": [
+            "chmod.",
+            "time.",
+            "jobs.",
+            "crontab.",
+            "man."
+        ],
+        "gabarito": "crontab."
+    },
+    {
+        "id": 80,
+        "enunciado": "A ferramenta tcpdump do sistema operacional Linux é adequada para",
+        "alternativas": [
+            "efetuar configurações de rede relativas ao protocolo TCP no computador.",
+            "traçar a rota entre o computador e um endereço IP de destino na Internet, informando os endereços de todos os roteadores intermediários.",
+            "acessar remotamente outro computador na rede por um terminal com comunicação encriptada.",
+            "monitorar os pacotes que trafegam pela interface de rede do computador.",
+            "converter datagramas UDP em conexões TCP, permitindo maior confiabilidade de entrega para aplicações que utilizam o UDP."
+        ],
+        "gabarito": "monitorar os pacotes que trafegam pela interface de rede do computador."
+    },
+    {
+        "id": 81,
+        "enunciado": "O comando find pode ser utilizado no bash no sistema operacional Linux para localizar arquivos.\nAssinale a alternativa que apresenta corretamente o comando find sendo utilizado para localizar todos os arquivos executáveis do sistema.",
+        "alternativas": [
+            "find / -perm /a=x.",
+            "find exe.",
+            "find *.exe.",
+            "find / -perm / exe.",
+            "find ~ / a=x."
+        ],
+        "gabarito": "find / -perm /a=x."
+    },
+    {
+        "id": 82,
+        "enunciado": "Diversas são as opções de comandos que podem ser utilizados no bash do sistema operacional Linux para obter informações relacionadas ao uso do Sistema. O comando que fornece um snapshot dos processos ativos do sistema é o:",
+        "alternativas": [
+            "cat.",
+            "awk.",
+            "w.",
+            "lscpu.",
+            "ps."
+        ],
+        "gabarito": "ps."
+    },
+    {
+        "id": 83,
+        "enunciado": "No firewall IPFW, disponível nos sistemas operacionais Linux e FreeBSD, a operação conhecida como stateful representa",
+        "alternativas": [
+            "o bloqueio completo do uso do protocolo UDP, permitindo apenas o uso do TCP na camada de transporte.",
+            "o uso de conjuntos de regras (rulesets) expandidos, ou seja, com mais de 65535 regras, necessários em infraestruturas complexas.",
+            "uma forma do firewall criar regras dinamicamente para fluxos específicos quando pacotes que seguem um determinado padrão são detectados.",
+            "um modo de trabalho em que o administrador de rede é notificado imediatamente, em geral por e-mail, quando pacotes que seguem um determinado padrão são detectados.",
+            "o bloqueio do envio e recepção de determinados pacotes de acordo com a data e hora do sistema."
+        ],
+        "gabarito": "uma forma do firewall criar regras dinamicamente para fluxos específicos quando pacotes que seguem um determinado padrão são detectados."
+    },
+    {
+        "id": 84,
+        "enunciado": "Assinale a alternativa que corresponde a um arquivo de log do sistema operacional Linux relacionado a logins realizados, usado tipicamente em distribuições baseadas em Red Hat.",
+        "alternativas": [
+            "/etc/shadow.",
+            "/etc/passwd.",
+            "/var/log/secure.",
+            "/var/log/kernel.log.",
+            "/var/log/cron."
+        ],
+        "gabarito": "/var/log/secure."
+    },
+    {
+        "id": 85,
+        "enunciado": "Uma boa prática de segurança no sistema operacional Linux é tornar o diretório que contém arquivos do kernel como somente leitura, evitando, assim, que ocorram alterações indesejadas. Esse diretório, por padrão, é:",
+        "alternativas": [
+            "/root.",
+            "/home.",
+            "/grub.",
+            "/kern.",
+            "/boot."
+        ],
+        "gabarito": "/boot."
+    },
+    {
+        "id": 86,
+        "enunciado": "Scripts shell costumam ser iniciados por um conjunto de caracteres denominado shebang, que tem como função definir qual interpretador será utilizado pelo script. É correto afirmar que o conjunto de caracteres shebang é:",
+        "alternativas": [
+            "&&.",
+            "$$.",
+            "#!.",
+            "&$.",
+            "/*."
+        ],
+        "gabarito": "#!."
+    },
+    {
+        "id": 87,
+        "enunciado": "O uso do seguinte comando no sistema operacional Linux tcpdump not port 22 tem como efeito pretendido",
+        "alternativas": [
+            "encerrar imediatamente todas as conexões TCP estabelecidas no computador, exceto aquelas cuja porta de destino é igual a 22.",
+            "encerrar a aplicação servidora que estiver escutando na porta TCP 22, se houver.",
+            "configurar o firewall que estiver em execução para descartar pacotes enviados para a porta TCP 22.",
+            "configurar o firewall que estiver em execução para descartar pacotes recebidos na porta TCP 22.",
+            "realizar monitoramento de tráfego, ignorando aquele relativo à porta TCP 22."
+        ],
+        "gabarito": "realizar monitoramento de tráfego, ignorando aquele relativo à porta TCP 22."
+    },
+    {
+        "id": 88,
+        "enunciado": "Um administrador de um sistema operacional Linux deseja obter uma lista de usuários que realizaram login no sistema. Para obter esta lista, ele pode utilizar o comando:",
+        "alternativas": [
+            "ps.",
+            "last.",
+            "top.",
+            "pwd.",
+            "man."
+        ],
+        "gabarito": "last."
+    },
+    {
+        "id": 89,
+        "enunciado": "Uma maneira de descobrir quais grupos estão cadastrados em um sistema operacional Linux e os seus respectivos usuários é observando o conteúdo do arquivo group. Esse arquivo está localizado no diretório:",
+        "alternativas": [
+            "/dev.",
+            "/etc.",
+            "/home.",
+            "/root.",
+            "/srv."
+        ],
+        "gabarito": "/etc."
+    },
+    {
+        "id": 90,
+        "enunciado": "O download e a instalação de pacotes em um sistema operacional Linux podem ser realizados por meio de um comando no terminal. O nome do comando é:",
+        "alternativas": [
+            "cat.",
+            "sudo.",
+            "apt-get.",
+            "find.",
+            "download."
+        ],
+        "gabarito": "apt-get."
+    },
+    {
+        "id": 91,
+        "enunciado": "Um usuário que está administrando um sistema operacional Linux suspeita que um processo está consumindo uma quantidade anormal de recursos do sistema. Uma maneira de ele observar o consumo de recursos do sistema por cada processo de maneira interativa é utilizando o comando:",
+        "alternativas": [
+            "df.",
+            "grep.",
+            "find.",
+            "cat.",
+            "top."
+        ],
+        "gabarito": "top."
+    },
+    {
+        "id": 92,
+        "enunciado": "Pode-se utilizar o comando cat para obter o conteúdo de um arquivo. Caso um usuário possua um arquivo texto.txt e deseje, além de obter seu conteúdo, numerar suas linhas, deverá digitar o comando:",
+        "alternativas": [
+            "cat -l texto.txt.",
+            "cat -li texto.txt.",
+            "cat -h texto.txt.",
+            "cat -n texto.txt.",
+            "cat -t texto.txt."
+        ],
+        "gabarito": "cat -n texto.txt."
+    },
+    {
+        "id": 93,
+        "enunciado": "Considere um arquivo com o nome dados.txt. Nesse arquivo foi utilizado o seguinte comando:\ngrep -v data dados.txt O resultado apresentado por esse comando serão as linhas do arquivo que",
+        "alternativas": [
+            "possuem a substring DATA, somente.",
+            "possuem a substring data, somente.",
+            "possuem a substring data ou DATA.",
+            "não possuem a substring DATA.",
+            "não possuem a substring data."
+        ],
+        "gabarito": "não possuem a substring data."
+    },
+    {
+        "id": 94,
+        "enunciado": "No sistema operacional Linux, o serviço syslog tem como finalidade",
+        "alternativas": [
+            "prover módulos de autenticação “plugáveis” que podem ser associados a aplicativos.",
+            "receber e processar mensagens de log padronizadas de aplicações interessadas em registrar eventos, centralizando o gerenciamento de logs.",
+            "inicializar o sistema operacional, sendo o primeiro processo executado no boot do computador.",
+            "registrar todas as teclas digitadas pelos usuários, permitindo auditorias bastante profundas.",
+            "exibir e realizar buscas em registros de logs do journald, que é o serviço de logs do systemd."
+        ],
+        "gabarito": "receber e processar mensagens de log padronizadas de aplicações interessadas em registrar eventos, centralizando o gerenciamento de logs."
+    },
+    {
+        "id": 95,
+        "enunciado": "Em um computador com sistema operacional Linux, um atacante que consegue alterar o arquivo /etc/hosts tem o potencial de",
+        "alternativas": [
+            "alterar o endereço IP da interface de rede do computador.",
+            "alterar o endereço IP de outros computadores na rede local.",
+            "alterar a lista de hosts confiáveis que podem acessar o computador por SSH, passando a permitir o acesso de hosts não confiáveis.",
+            "habilitar ou desabilitar serviços (daemons) em execução no computador.",
+            "associar um endereço IP a um nome de domínio de forma estática, em substituição ao DNS, podendo levar o usuário a acessar um site falso."
+        ],
+        "gabarito": "associar um endereço IP a um nome de domínio de forma estática, em substituição ao DNS, podendo levar o usuário a acessar um site falso."
+    },
+    {
+        "id": 96,
+        "enunciado": "Um usuário criou um arquivo shell script e deseja configurá- lo de tal forma que apenas ele tenha as permissões de leitura, escrita e execução daquele arquivo.\nUtilizando o chmod, ele pode fazer isso com o comando:",
+        "alternativas": [
+            "chmod a+x.",
+            "chmod a-x.",
+            "chmod 700.",
+            "chmod 070.",
+            "chmod 007."
+        ],
+        "gabarito": "chmod 700."
+    },
+    {
+        "id": 97,
+        "enunciado": "Qual o nome da implementação da API do Windows para rodar sobre X e OpenGL presente no Linux Fedora de modo a possibilitar a execução de aplicações Windows no Linux?",
+        "alternativas": [
+            "Beer.",
+            "Walrus.",
+            "SeaLion.",
+            "Whale.",
+            "Wine."
+        ],
+        "gabarito": "Wine."
+    },
+    {
+        "id": 98,
+        "enunciado": "São componentes ou serviços que compõem a solução de backup e restauração do Linux Bacula Enterprise Edition:\n1. Bacula Directory\n2. Bacula Director\n3. Database Server\n4. Bacula Storage Server\n5. Bacula Client Assinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "São corretas apenas as afirmativas 1, 3 e 4.",
+            "São corretas apenas as afirmativas 2, 3 e 4.",
+            "São corretas apenas as afirmativas 1, 3, 4 e 5.",
+            "São corretas apenas as afirmativas 2, 3, 4 e 5.",
+            "São corretas as afirmativas 1, 2, 3, 4 e 5."
+        ],
+        "gabarito": "São corretas apenas as afirmativas 2, 3, 4 e 5."
+    },
+    {
+        "id": 99,
+        "enunciado": "Em abordagens de segurança baseadas na defesa em profundidade, é fundamental assegurar a proteção dos endpoints. Algumas ferramentas voltadas para essa finalidade visam limitar o acesso da aplicação, mesmo que comprometida, a recursos fora do seu contexto, incluindo aqueles fornecidos por outras aplicações ou pelo sistema operacional. Nesse cenário, o SELinux e o AppArmor",
+        "alternativas": [
+            "implementam o controle de acesso mandatório em sistemas operacionais baseados em Linux.",
+            "ativam o controle de acesso discricionário no kernel do Linux.",
+            "realizam varredura de vulnerabilidades em bibliotecas de ambientes Linux.",
+            "protegem aplicações contra ataques de negação de serviço em servidores Linux."
+        ],
+        "gabarito": "implementam o controle de acesso mandatório em sistemas operacionais baseados em Linux."
+    },
+    {
+        "id": 100,
+        "enunciado": "No sistema operacional Linux, a coluna PID, que aparece na listagem do comando ps, indica:",
+        "alternativas": [
+            "O número da prioridade do processo.",
+            "O tempo que o processo está executando.",
+            "A identificação do usuário do processo.",
+            "A identificação do processo.",
+            "A prioridade do usuário na execução do processos."
+        ],
+        "gabarito": "A identificação do processo."
+    },
+    {
+        "id": 101,
+        "enunciado": "Analise as assertivas abaixo sobre shell scripts no sistema operacional Linux:\nI. Uma maneira de criar um literal em um shell script e fazer com que o shell deixe a string intocada é colocar a string toda entre aspas simples.\nII. Um shell script deve sempre iniciar pela sequência de caracteres \"barra\" e \"asterisco\".\nIII. Um caractere \"cifrão\" no início de uma linha indica que a linha é um comentário, ou seja, o shell script irá ignorar tudo o que estiver na linha após o caractere.\nQuais estão corretas?",
+        "alternativas": [
+            "Apenas I.",
+            "Apenas I e II.",
+            "Apenas I e III.",
+            "Apenas II e III.",
+            "I, II e III."
+        ],
+        "gabarito": "Apenas I."
+    },
+    {
+        "id": 102,
+        "enunciado": "Suponha que você está em um sistema Linux e precisa criar o diretório \"fotos\". Considere que você já está no local raiz para o novo diretório. Qual alternativa apresenta o comando a ser executado para criar o diretório \"fotos\"?",
+        "alternativas": [
+            "cd fotos.",
+            "cp fotos.",
+            "file fotos.",
+            "mkdir fotos.",
+            "rmdir fotos."
+        ],
+        "gabarito": "mkdir fotos."
+    },
+    {
+        "id": 103,
+        "enunciado": "Maria é responsável pela área de aquisições em um departamento de Tecnologia e precisa elaborar um edital para a compra de um novo servidor. Com o objetivo de garantir o gerenciamento adequado dos servidores Linux, qual software que permite o gerenciamento remoto de servidores Linux por meio de uma interface web Maria deve usar?",
+        "alternativas": [
+            "OpenSSH.",
+            "Webmin.",
+            "SELinux.",
+            "CUPS.",
+            "Samba."
+        ],
+        "gabarito": "Webmin."
+    },
+    {
+        "id": 104,
+        "enunciado": "Sistemas Linux possuem um conjunto de permissões de acesso de arquivos que podem ser configuradas para diferentes usuários.\nSão elas:",
+        "alternativas": [
+            "leitura, escrita e execução.",
+            "criação, remoção e execução.",
+            "criação, remoção e edição.",
+            "leitura, edição e remoção.",
+            "escrita, criação e remoção."
+        ],
+        "gabarito": "leitura, escrita e execução."
+    },
+    {
+        "id": 105,
+        "enunciado": "Um administrador de servidor Linux deseja verificar quais foram os usuários que realizaram recentemente alguma conexão com o sistema. Um comando que pode ser utilizado no terminal para fornecer essa informação para o administrador é o",
+        "alternativas": [
+            "last.",
+            "who.",
+            "whoami.",
+            "users.",
+            "ps aux."
+        ],
+        "gabarito": "last."
+    },
+    {
+        "id": 106,
+        "enunciado": "Foi digitado no terminal de um servidor Linux o seguinte comando.\ngrep 1 * É correto afirmar que o retorno desse comando será",
+        "alternativas": [
+            "a primeira linha de todos os arquivos do diretório.",
+            "a primeira linha que contenha o caractere * de todos os arquivos do diretório.",
+            "toda linha que contenha o caractere * do primeiro arquivo do diretório.",
+            "toda linha que contenha o caractere 1 de todos os arquivos do diretório.",
+            "todas as linhas do primeiro arquivo do diretório."
+        ],
+        "gabarito": "toda linha que contenha o caractere 1 de todos os arquivos do diretório."
+    },
+    {
+        "id": 107,
+        "enunciado": "Nos sistemas operacionais modernos, como o Windows e o GNU/Linux, múltiplos processos podem ser executados simultaneamente, por meio de compartilhamento de tempo de uso do processador. Nesse caso, os sistemas utilizam o conceito de",
+        "alternativas": [
+            "multitarefa.",
+            "multiusuário.",
+            "monousuário.",
+            "monoprogramação.",
+            "processamento em batch."
+        ],
+        "gabarito": "multitarefa."
+    },
+    {
+        "id": 108,
+        "enunciado": "Considere que um administrador de um servidor Linux precise configurar as permissões de um arquivo chamado prova, definindo o acesso do dono como leitura, gravação e execução, o acesso do grupo como leitura e execução e, o acesso dos outros usuários como somente execução. Desse modo, qual comando que deve ser utilizado?",
+        "alternativas": [
+            "chmod 764 prova.",
+            "chmod 641 prova.",
+            "chmod 751 prova.",
+            "chmod 750 prova.",
+            "chmod 651 prova."
+        ],
+        "gabarito": "chmod 751 prova."
+    },
+    {
+        "id": 109,
+        "enunciado": "A respeito de segurança de redes de computadores, julgue o item subsecutivo.\nEm um computador com sistema operacional Linux, é possível implantar mecanismo de segurança do tipo MAC (Mandatory Access Control), o qual é capaz de determinar regras para arquivos e processos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 110,
+        "enunciado": "Considerando o Sistema Operacional (SO) Linux, analise as partes que seguem: Um dos seus princípios é a cultura open source (1º parte). São exemplos de distribuições do SO linux: Ubuntu, Mint, Kalilinux e Windows Vista (2º parte) O comando clear quando aplicado ao terminal, limpa as informações da tela do terminal (3º parte).\nDas partes, pode-se afirmar que está(ã) CORRETA(S);",
+        "alternativas": [
+            "A 1º, a 2º e a 3º partes.",
+            "Somente a 1º parte.",
+            "Somente a 1º e a 2º partes.",
+            "Somente a 1º e a 3º partes.",
+            "Somente a 2º e a 3º partes."
+        ],
+        "gabarito": "Somente a 1º e a 3º partes."
+    },
+    {
+        "id": 111,
+        "enunciado": "Assinale a alternativa que NÃO é considerada uma característica do sistema operacional GNU Linux.",
+        "alternativas": [
+            "Consoles virtuais.",
+            "Multitarefa.",
+            "Monousuário.",
+            "Sistemas de arquivos.",
+            "Multiplataforma."
+        ],
+        "gabarito": "Monousuário."
+    },
+    {
+        "id": 112,
+        "enunciado": "Um usuário utiliza o Sistema Operacional (S.GNU/Linux para realizar o seu trabalho na empresa de tecnologia e executou no terminal o seguinte comando: mkdir exemplo. Assinale a alternativa que descreve a função deste comando.",
+        "alternativas": [
+            "Apaga um arquivo.",
+            "Exibe o caminho do diretório atual.",
+            "Atualiza o arquivo.",
+            "Cria um diretório especificado.",
+            "Copia o arquivo."
+        ],
+        "gabarito": "Cria um diretório especificado."
+    },
+    {
+        "id": 113,
+        "enunciado": "Assinale a alternativa, considerando o sistema operacional GNU Linux, que permite mostrar o conteúdo de um arquivo, por meio da execução no | terminal de comando.",
+        "alternativas": [
+            "Chattr.",
+            "Chown.",
+            "Cat arquivo.",
+            "Cd pasta.",
+            "Cron."
+        ],
+        "gabarito": "Cat arquivo."
+    },
+    {
+        "id": 114,
+        "enunciado": "Os sistemas de arquivos são recursos extremamente importantes nos Sistemas Operacionais (SO), pois cada SO tem sua maneira de implementar, como, por exemplo, o Linux, que utiliza o Extended File System (Ext). Com base no conhecimento sobre o sistema de arquivo do Linux, assinale a alternativa CORRETA.",
+        "alternativas": [
+            "O Linux não conta com a estratégia de sistemas de arquivo com diário, pois este recurso serve para redes do Linux e não para sistemas de arquivos.",
+            "São exemplos de sistemas de arquivos utilizados no Linux: Ext2, Ext4, Ext6, Unit e DMCS.",
+            "Entende-se como diário no sistema de arquivo do Linux um arquivo gerenciado por um cluster automatizado pelo daemon, selecionado via algoritmo de escalonamento LIFO.",
+            "O Linux utiliza o Journaling Block Device (JBD) no sistema de arquivo Ext4, para implementar operações de leitura/escrita do diário.",
+            "O JBD auxilia quatro estruturas principais, a saber: registro de diário, tratamento de operações atômicas, escolha do algoritmo de escalonamento apropriado e transação dos ponteiros da pilha de arquivos."
+        ],
+        "gabarito": "O Linux utiliza o Journaling Block Device (JBD) no sistema de arquivo Ext4, para implementar operações de leitura/escrita do diário."
+    },
+    {
+        "id": 115,
+        "enunciado": "No sistema operacional GNU/Linux, a ferramenta de linha de comando que exibe os processos em execução e o uso de recursos do sistema é denominada",
+        "alternativas": [
+            "cal.",
+            "cat.",
+            "df.",
+            "job.",
+            "top."
+        ],
+        "gabarito": "top."
+    },
+    {
+        "id": 116,
+        "enunciado": "Em um ambiente computacional com o sistema operacional Linux em funcionamento, a opção que caracteriza corretamente a função do comando sudo é",
+        "alternativas": [
+            "realizar o gerenciamento de permissões de contas de usuário.",
+            "efetuar elevação de privilégios para execução de comandos como super usuário, ou outro usuário.",
+            "remover arquivos de softwares após sua instalação.",
+            "configurar idiomas do teclado após a instalação do sistema operacional.",
+            "buscar atualizações do sistema operacional no repositório de softwares."
+        ],
+        "gabarito": "efetuar elevação de privilégios para execução de comandos como super usuário, ou outro usuário."
+    },
+    {
+        "id": 117,
+        "enunciado": "Assinale a opção que representa o comando mais adequado para conceder permissão de execução às permissões existentes do arquivo “teste.sh” em um ambiente Linux.",
+        "alternativas": [
+            "chmod +x teste.sh.",
+            "chmod 644 teste.sh.",
+            "chmod +e teste.sh.",
+            "chmod 664 teste.sh.",
+            "chmod -c teste.sh."
+        ],
+        "gabarito": "chmod +x teste.sh."
+    },
+    {
+        "id": 118,
+        "enunciado": "O permite que os desenvolvedores executem um ambiente GNU/Linux, incluindo a maioria das ferramentas de linha de comando, utilitários e aplicativos, diretamente no Microsoft Windows Server 2019 e versões superiores, sem modificações e sem a sobrecarga de uma máquina virtual tradicional ou instalação dualboot.\nAssinale a alternativa que preenche corretamente a lacuna do trecho acima.",
+        "alternativas": [
+            "MSL (Microsoft Smart for Linux).",
+            "VML (Virtual Monitor for Linux).",
+            "OSL (Operating System for Linux).",
+            "TML (Task Manager for Linux).",
+            "WSL (Windows Subsystem for Linux)."
+        ],
+        "gabarito": "WSL (Windows Subsystem for Linux)."
+    },
+    {
+        "id": 119,
+        "enunciado": "Analise a figura abaixo sobre permissões do modo de um arquivo no Linux.\nNa Figura, os números 1, 2 e 3 representam, respectivamente, permissões:",
+        "alternativas": [
+            "De outros usuários, do grupo dono do arquivo e do usuário dono do arquivo.",
+            "Do usuário dono do arquivo, do grupo dono do arquivo e de outros usuários.",
+            "Do usuário administrador, de outros usuários e do usuário dono do arquivo.",
+            "De outros usuários, do usuário dono do arquivo e do usuário administrador.",
+            "Do grupo dono do arquivo, do usuário dono do arquivo e de outros usuários."
+        ],
+        "gabarito": "Do usuário dono do arquivo, do grupo dono do arquivo e de outros usuários."
+    },
+    {
+        "id": 120,
+        "enunciado": "O seguinte comando do sistema operacional Linux chmod -R 764 /teste altera recursivamente as permissões do diretório /teste e todo o seu conteúdo para:",
+        "alternativas": [
+            "rwxrwxrwx.",
+            "r–rw-rwx.",
+            "rwxr--rw-.",
+            "rw-r--rwx.",
+            "rwxrw-r--."
+        ],
+        "gabarito": "rwxrw-r--."
+    },
+    {
+        "id": 121,
+        "enunciado": "No sistema operacional Linux, o comando patch tem a finalidade de",
+        "alternativas": [
+            "aplicar, geralmente em arquivos de código-fonte, instruções de modificação de conteúdo, as quais estão contidas em arquivos gerados pelo comando diff.",
+            "alterar a configuração que instrui o sistema em quais diretórios buscar por arquivos executáveis, quando um comando é digitado no terminal.",
+            "mostrar a estrutura hierárquica de arquivos e diretórios, em formato de árvore, a partir do ponto especificado.",
+            "atualizar o MACtime de um arquivo ou diretório para a data e hora atuais ou para valores especificados.",
+            "efetuar uma requisição HTTP a uma URL utilizando o verbo PATCH."
+        ],
+        "gabarito": "aplicar, geralmente em arquivos de código-fonte, instruções de modificação de conteúdo, as quais estão contidas em arquivos gerados pelo comando diff."
+    },
+    {
+        "id": 122,
+        "enunciado": "Sobre a criação de threads em sistemas operacionais Linux, assinale a alternativa correta.",
+        "alternativas": [
+            "A criação de threads ocorre por meio de uma chamada de sistema fork.",
+            "Dado um processo com PID x, após a criação de um thread, é atribuído a este o PID x + 1.",
+            "Para criar um thread, é necessário que o sistema operacional esteja configurado em modo batch.",
+            "Não é permitido a um thread criar outros threads.",
+            "Threads, por padrão, compartilham do mesmo espaço de memória."
+        ],
+        "gabarito": "Threads, por padrão, compartilham do mesmo espaço de memória."
+    },
+    {
+        "id": 123,
+        "enunciado": "Wallace, servidor público no Tribunal de Contas do Estado de São Paulo (TCE SP), está implementando um sistema de controle de acesso baseado em políticas. No Linux, o módulo que faz essa implementação é o SELinux. Wallace está atribuindo rótulos de segurança a cada processo e recursos do sistema. Após a aplicação das diretrizes de segurança, Wallace elaborou um relatório com o conteúdo das políticas implementadas e com seus benefícios para a segurança do sistema operacional.\nDentre os benefícios, tem-se que:",
+        "alternativas": [
+            "reduz o risco de comprometimento do sistema por meio de ataques de escalonamento de privilégios, que exploram vulnerabilidades nos processos para obter acesso a recursos públicos;",
+            "mantém os processos no mesmo domínio, limitando o impacto de uma invasão ou falha em um processo específico;",
+            "impede a execução de código malicioso ou não autorizado no sistema, como rootkits, backdoors ou scripts;",
+            "foi configurado para trabalhar em modo Permissive, analisando e aplicando as regras vindas do servidor;",
+            "isola a auditoria e a conformidade do sistema, registrando as tentativas de violação das regras do SELinux."
+        ],
+        "gabarito": "impede a execução de código malicioso ou não autorizado no sistema, como rootkits, backdoors ou scripts;"
+    },
+    {
+        "id": 124,
+        "enunciado": "O Linux é um sistema operacional de código aberto, conhecido por sua estabilidade, sua segurança e sua flexibilidade, sendo amplamente utilizado em servidores, dispositivos embarcados e computadores pessoais. O terminal shell desempenha um papel crucial na grande adoção do Linux em servidores, oferecendo aos usuários um poderoso ambiente de linha de comando, permitindo a automação de tarefas e de gerenciamento avançado do sistema.\nAssinale a alternativa que apresenta o comando utilizado no terminal do Linux para encontrar e substituir um determinado padrão em arquivos.",
+        "alternativas": [
+            "sed.",
+            "grep.",
+            "find.",
+            "awk.",
+            "replace-str."
+        ],
+        "gabarito": "sed."
+    },
+    {
+        "id": 125,
+        "enunciado": "No contexto da infraestrutura de tecnologia, os servidores Linux desempenham um papel essencial.\nConsiderando suas características e funcionalidades, assinale a alternativa que melhor descreve um servidor Linux.",
+        "alternativas": [
+            "É um dispositivo de hardware exclusivo, projetado especificamente para jogos online e streaming de mídia.",
+            "É uma plataforma de armazenamento em nuvem que oferece recursos de compartilhamento de arquivos e sincronização em vários dispositivos.",
+            "É um sistema operacional de código aberto baseado no kernel Linux, que oferece estabilidade, segurança e flexibilidade para hospedar serviços e aplicativos em uma rede.",
+            "É um software especializado usado para automatizar tarefas de escritório e gerenciar projetos colaborativos em equipe."
+        ],
+        "gabarito": "É um sistema operacional de código aberto baseado no kernel Linux, que oferece estabilidade, segurança e flexibilidade para hospedar serviços e aplicativos em uma rede."
+    },
+    {
+        "id": 126,
+        "enunciado": "No contexto da administração de servidores, é correto afirmar que uma das vantagens de utilizar um servidor Linux é por",
+        "alternativas": [
+            "oferecer suporte exclusivo para aplicativos de produtividade da Microsoft.",
+            "ser conhecido por sua incompatibilidade com redes de alta velocidade.",
+            "ser altamente personalizável e possuir uma vasta gama de softwares gratuitos e de código aberto disponíveis.",
+            "ser restrito a ambientes de desenvolvimento e não é adequado para implementações de produção."
+        ],
+        "gabarito": "ser altamente personalizável e possuir uma vasta gama de softwares gratuitos e de código aberto disponíveis."
+    },
+    {
+        "id": 127,
+        "enunciado": "Considere que, em um trabalho realizado no terminal do sistema Linux, é preciso selecionar todos os arquivos com extensão “.txt” presentes no diretório “relatorios” e compactá-los em um único arquivo zip chamado “relatorios.zip”.\nAssinale a alternativa que apresenta o comando correto para realizar a tarefa.",
+        "alternativas": [
+            "tar -cvzf relatorios.tar.gz relatorios/*.txt.",
+            "gzip -d relatorios/*.txt relatorios.zip.",
+            "zip -r relatorios.zip relatorios/*.txt.",
+            "cp relatorios/*.txt relatorios.zip."
+        ],
+        "gabarito": "zip -r relatorios.zip relatorios/*.txt."
+    },
+    {
+        "id": 128,
+        "enunciado": "Em um ambiente Linux configurado em condições ideais, utiliza-se o comando nmap 192.168.246.142 para realizar uma varredura de portas no host 192.168.246.142 e verificar quais estão abertas. Para tentar identificar os serviços e suas versões nessas portas, deve-se acrescentar a esse comando, no lugar correto, o parâmetro",
+        "alternativas": [
+            "-sV.",
+            "-s --version.",
+            "-sS.",
+            "-V.",
+            "-sP."
+        ],
+        "gabarito": "-sV."
+    },
+    {
+        "id": 129,
+        "enunciado": "Quanto ao sistema operacional Linux e aos meios de transmissão utilizados em redes de computadores, julgue o item.\nAo executar o comando touch crea_go.txt no ambiente Linux, o timestamp do arquivo crea_go.txt será atualizado, caso esse arquivo exista.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 130,
+        "enunciado": "Você está acessando uma máquina Linux e necessita saber qual lista dos módulos do Kernel foram carregados. Para tanto, você fez login com o root e deverá aplicar o comando:",
+        "alternativas": [
+            "probe -l.",
+            "lsmod.",
+            "depsys.",
+            "kshow."
+        ],
+        "gabarito": "lsmod."
+    },
+    {
+        "id": 131,
+        "enunciado": "Você deve configurar seu servidor Linux com o fuso horário adequado, inclusive prever o horário de verão do hemisfério sul, caso este seja utilizado novamente.\nPara tanto, você tem que acessar o arquivo:",
+        "alternativas": [
+            "/var/timeconf.",
+            "/usr/zoneinfo.",
+            "/etc/localtime.",
+            "/usr/timeconf."
+        ],
+        "gabarito": "/etc/localtime."
+    },
+    {
+        "id": 132,
+        "enunciado": "Considere o seguinte comando digitado no terminal de um sistema operacional Linux.\necho $PWD Pode-se afirmar corretamente que o retorno do comando será",
+        "alternativas": [
+            "a versão do shell do terminal.",
+            "o diretório sendo observado no terminal.",
+            "o id do processo do terminal.",
+            "o horário atual do sistema.",
+            "o nome do usuário."
+        ],
+        "gabarito": "o diretório sendo observado no terminal."
+    },
+    {
+        "id": 133,
+        "enunciado": "O arquivo cpuinfo, presente em sistemas operacionais Linux, contém informações do processador, como o tamanho do seu cache. Esse arquivo está localizado dentro do diretório:",
+        "alternativas": [
+            "/bin.",
+            "/etc.",
+            "/proc.",
+            "/boot.",
+            "/root."
+        ],
+        "gabarito": "/proc."
+    },
+    {
+        "id": 134,
+        "enunciado": "João chegou ao IBGE e o supervisor de pesquisas pediu para ele indicar um sistema operacional de código aberto para uso desktop, multitarefa e multiusuário. João prontamente indicou o:",
+        "alternativas": [
+            "Linux.",
+            "Firefox.",
+            "LibreOffice.",
+            "Windows 11.",
+            "Windows Server 2016."
+        ],
+        "gabarito": "Linux."
+    },
+    {
+        "id": 135,
+        "enunciado": "O sistema de arquivos do Linux é responsável não somente por armazenar e gerenciar os arquivos virtuais do sistema operacional, mas também utilizar arquivos especiais para realizar a interface com drivers e periféricos de hardware. Como exemplo, é possível utilizar a plataforma Raspberry Pi 3, cujos pinos de GPIO (General Purpose Input/Output ou Entradas e Saídas de Propósito Geral) podem ser manipulados através dos arquivos presentes na pasta gpio, que é encontrada no caminho:\n/sys/class/gpio. GPIO significa General Purpose Input Output e refere-se ao fato de que os pinos podem suportar as funcionalidades de entrada e saída. Olhando fisicamente para qualquer microcontrolador, você pode facilmente ver filas de pinos que permitem ao microcontrolador controlar e se comunicar com dispositivos externos. A partir deste contexto, avalie o seguinte código:\nFonte: edisciplinas.usp.br A partir da análise dos dados apresentado, é CORRETO o que se afirma em:",
+        "alternativas": [
+            "Neste código, observamos o método \"value_in_gpio\" utilizado para realizar a leitura de um pino configurado como entrada.",
+            "Neste código, observamos o método \"value_in_gpio\" que efetua a leitura dos pinos.",
+            "Neste código, observamos o método \"value_in_gpio\" utilizado para controlar um pino configurado como saída.",
+            "Neste código, observamos o método \"value_in_gpio\" que configura a direção do pino de gpio, ou seja, entrada ou saída.",
+            "Neste código, observamos o método \"value_in_gpio\" que exporta o arquivo de gpio para conceder acesso aos arquivos de manipulação."
+        ],
+        "gabarito": "Neste código, observamos o método \"value_in_gpio\" que efetua a leitura dos pinos."
+    },
+    {
+        "id": 136,
+        "enunciado": "São exemplos de interfaces gráficas para Linux, EXCETO:",
+        "alternativas": [
+            "GNOME.",
+            "KDE.",
+            "LXDE.",
+            "FluxBox.",
+            "Slackware."
+        ],
+        "gabarito": "Slackware."
+    },
+    {
+        "id": 137,
+        "enunciado": "O sistema operacional Linux permite ao seu usuário trabalhar com recursos de datas dentre eles, pode-se destacar o comando cal. Com base no comando cal, assinale a alternativa CORRETA.",
+        "alternativas": [
+            "Realiza uma chamada de sistema (system call).",
+            "Exibe uma calculadora nativa do Linux.",
+            "Exibe um calendário no terminal do Linux.",
+            "Exibe apenas o dia atual, sem informações do mês ou ano.",
+            "Faz referência ao call acess last."
+        ],
+        "gabarito": "Exibe um calendário no terminal do Linux."
+    },
+    {
+        "id": 138,
+        "enunciado": "Ao receber um novo laptop de trabalho da empresa com um sistema operacional Linux, o funcionário notou que não havia instalada uma suíte de aplicativos de escritório, que ele precisaria para o seu trabalho.\nConsiderando o problema acima descrito, uma forma segura de instalar a aplicação desejada nesse laptop é:",
+        "alternativas": [
+            "procurar o pacote de instalação na internet e baixar para o computador;",
+            "transferir o pacote de instalação de um colega, por meio de um pendrive;",
+            "utilizar o gerenciador de certificados digitais do sistema;",
+            "procurar um script de instalação automática em um site Linux oficial;",
+            "utilizar o gerenciador de pacotes do sistema."
+        ],
+        "gabarito": "utilizar o gerenciador de pacotes do sistema."
+    },
+    {
+        "id": 139,
+        "enunciado": "Assinale a opção em que é apresentado o nome do sistema de arquivos copy-on-write (CoW) adaptado para sistemas Linux e inspirado no uso de árvores B para armazenar estruturas de arquivos internos.",
+        "alternativas": [
+            "Ext4.",
+            "JFS.",
+            "ReiserFS.",
+            "XFS.",
+            "Btrfs."
+        ],
+        "gabarito": "Btrfs."
+    },
+    {
+        "id": 140,
+        "enunciado": "Quanto ao sistema operacional Linux, aos sistemas de arquivos e à administração de redes Linux, julgue o item.\nO administrador de uma rede Linux faz uso de determinadas ferramentas para auxiliá-lo no gerenciamento da rede, entre elas a ipcalc, que mostra as configurações e os limites de cada sub-rede.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 141,
+        "enunciado": "O Linux usa uma nomenclatura própria para identificar discos e partições, na seguinte nomenclatura “/dev/sda1” o que representa o número 1?",
+        "alternativas": [
+            "A quantidade de discos.",
+            "O número da partição no disco.",
+            "O tipo de disco rígido.",
+            "O diretório do Linux.",
+            "Quantas vezes foi regravado no disco."
+        ],
+        "gabarito": "O número da partição no disco."
+    },
+    {
+        "id": 142,
+        "enunciado": "A partição Linux nativo é conhecida por diretório raiz do Linux e é representada por:",
+        "alternativas": [
+            "Dir.",
+            "dev.",
+            "/.",
+            "C:.",
+            "L:."
+        ],
+        "gabarito": "/."
+    },
+    {
+        "id": 143,
+        "enunciado": "Considere que uma Analista, em um ambiente Linux devidamente configurado para trabalhar com LVM em condições ideais, digitou os comandos abaixo e precisa de ajuda para encontrar comandos que realizem algumas ações.\nI. # pvcreate /dev/sdb1\nII. # pvscan\nIII. # vgcreate storage /dev/sdb1\nIV. # vgdisplay\nV. criar um LV de 200GB chamado Dados no VG criado em III\nVI. mostrar detalhes do LV criado É correto afirmar que",
+        "alternativas": [
+            "I cria um PV denominado sdb1 e II realiza a formatação do disco para permitir a criação do PV.",
+            "III cria um storage para permitir a criação de um VG e IV mostra a capacidade do storage criado.",
+            "V deve ser preenchido com # lvcreate -L 200G -n Dados storage.",
+            "VI deve ser preenchido com # lvscan.",
+            "VI deve ser preenchido com # lvshow e I solicita permissão para criação de um PV no disco sdb1."
+        ],
+        "gabarito": "V deve ser preenchido com # lvcreate -L 200G -n Dados storage."
+    },
+    {
+        "id": 144,
+        "enunciado": "#!/bin/bash for FILE in $ (ls -1 grep arquivo) do FILES=($ FILE) FILE=\"$ {FILE%.*}\" FILE=\"$ {FILE:7:1}\" FILE=\"$ (($ FILE % )\" if [ $ FILE -eq 0 ] then chmod 640 $ FILES else chmod 043 $ FILES fi done Assinale a opção que corresponde ao resultado da execução do Shell Script anterior.",
+        "alternativas": [
+            "---------- 1 tomcat tomcat 13 jun 15 16:47 arquivo1.txt ---------- 1 tomcat tomcat 26 jun 15 16:47 arquivo2.txt ---------- 1 tomcat tomcat 39 jun 15 16:47 arquivo3.txt ---------- 1 tomcat tomcat 52 jun 15 16:47 arquivo4.txt.",
+            "-r---wx--- 1 tomcat tomcat 13 jun 15 16:47 arquivo1.txt -r---wx--- 1 tomcat tomcat 26 jun 15 16:47 arquivo2.txt -r---wx--- 1 tomcat tomcat 39 jun 15 16:47 arquivo3.txt -r---wx--- 1 tomcat tomcat 52 jun 15 16:47 arquivo4.txt.",
+            "--w--wx--x 1 tomcat tomcat 13 jun 15 16:47 arquivo1.txt -----wx--x 1 tomcat tomcat 26 jun 15 16:47 arquivo2.txt --w--wx--x 1 tomcat tomcat 39 jun 15 16:47 arquivo3.txt -----wx--x 1 tomcat tomcat 52 jun 15 16:47 arquivo4.txt.",
+            "----r---wx 1 tomcat tomcat 13 jun 15 16:47 arquivo1.txt -rw-r----- 1 tomcat tomcat 26 jun 15 16:47 arquivo2.txt ----r---wx 1 tomcat tomcat 39 jun 15 16:47 arquivo3.txt -rw-r----- 1 tomcat tomcat 52 jun 15 16:47 arquivo4.txt."
+        ],
+        "gabarito": "----r---wx 1 tomcat tomcat 13 jun 15 16:47 arquivo1.txt -rw-r----- 1 tomcat tomcat 26 jun 15 16:47 arquivo2.txt ----r---wx 1 tomcat tomcat 39 jun 15 16:47 arquivo3.txt -rw-r----- 1 tomcat tomcat 52 jun 15 16:47 arquivo4.txt."
+    },
+    {
+        "id": 145,
+        "enunciado": "Após formatar um disco rígido, primeiramente foi instalado o sistema operacional Windows em uma partição. Após isto, em outra partição, foi instalado o sistema operacional LINUX. Quando todo o processo de instalação e configuração estiver concluído e o computador for reiniciado, qual dos programas a seguir será executado primeiro?",
+        "alternativas": [
+            "GRUB.",
+            "Sistema operacional Windows.",
+            "Terminal shell script.",
+            "Sistema operacional LINUX.",
+            "Navegador de internet."
+        ],
+        "gabarito": "GRUB."
+    },
+    {
+        "id": 146,
+        "enunciado": "Sobre a hierarquia de diretórios no LINUX, associe as colunas.\nPASTAS\n1 - /bin\n2 - /home\n3 - /tmp\n4 - /usr\n5 - /var FUNÇÕES\n( ) É uma área de armazenamento para arquivos menores e temporários com os quais você não se importe muito.\n( ) Contém programas prontos para execução, incluindo a maior parte dos comandos Unix básicos.\n( ) Contém uma hierarquia extensa de diretórios, incluindo a maior parte do sistema Linux.\n( ) Contém diretórios pessoais para usuários normais.\n( ) É o subdiretório de variáveis, em que os programas registram informações de tempo de execução.\nA sequência correta da associação é",
+        "alternativas": [
+            "3, 1, 2, 4, 5.",
+            "3, 2, 1, 4, 5.",
+            "3, 1, 4, 2, 5.",
+            "5, 1, 2, 4, 3.",
+            "5, 2, 1, 4, 3."
+        ],
+        "gabarito": "3, 1, 4, 2, 5."
+    },
+    {
+        "id": 147,
+        "enunciado": "No que se refere ao sistema operacional Linux e às criptografias simétrica e assimétrica, julgue o item.\nO root, superusuário, pode terminar (matar) qualquer processo no Linux, enquanto os usuários comuns só podem matar os seus processos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 148,
+        "enunciado": "A realização de operações através do terminal de comandos em sistemas operacionais Linux é muito comum. O Linux fornece um grande conjunto de comandos e o comportamento destes pode ser detalhado através de parâmetros que são digitados adicionalmente. Marque a alternativa que indica, corretamente, apenas comandos que possibilitam a realização de operações de desligamento ou reinicialização do sistema.",
+        "alternativas": [
+            "halt, reboot e shutdown.",
+            "restart, reboot e init.",
+            "shutdown, poweroff e park.",
+            "reboot, end e shutdown.",
+            "init, reboot e poweroff."
+        ],
+        "gabarito": "halt, reboot e shutdown."
+    },
+    {
+        "id": 149,
+        "enunciado": "Assinale a alternativa que contém apenas shells do sistema operacional Linux.",
+        "alternativas": [
+            "gcc, bash e kde.",
+            "bash, zsh e lilo.",
+            "tcsh, bash e grub.",
+            "grub, gcc e lilo.",
+            "bash, tcsh e ksh."
+        ],
+        "gabarito": "bash, tcsh e ksh."
+    },
+    {
+        "id": 150,
+        "enunciado": "O programa ntpd do sistema operacional Linux é uma implementação de servidor de",
+        "alternativas": [
+            "arquivos.",
+            "telefonia.",
+            "páginas web.",
+            "e-mails.",
+            "tempo."
+        ],
+        "gabarito": "tempo."
+    },
+    {
+        "id": 151,
+        "enunciado": "O Linux é um sistema operacional:",
+        "alternativas": [
+            "gratuito, escrito em Java.",
+            "pago, escrito em PHP.",
+            "gratuito, escrito em C.",
+            "pago, escrito em Java.",
+            "pago, escrito em C."
+        ],
+        "gabarito": "gratuito, escrito em C."
+    },
+    {
+        "id": 152,
+        "enunciado": "Os computadores de grande porte (Maingrames) tem seus próprios sistemas operacionais, mas a evolução do mercado os levou a abertura para os SO’s de baixa plataforma.\nDos SO’s abaixo, aquele que roda em mainframe é:",
+        "alternativas": [
+            "Windows Server.",
+            "Android.",
+            "Linux.",
+            "iOS.",
+            "OS/2 Warp."
+        ],
+        "gabarito": "Linux."
+    },
+    {
+        "id": 153,
+        "enunciado": "Sabendo que o processamento de transações de alto volume e alto rendimento do IBM z15 pode lidar com cargas grandes e contínuas de transações complexas em redes grandes e geograficamente dispersas, julgue o item subsequente, acerca desse benefício.\nO Linux, no System Z, oferece o desempenho e a escala vertical para atender às demandas enquanto reduz os custos de expansão de servidores, além de permitir a implementação de novos serviços.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 154,
+        "enunciado": "Existem atualmente vários Sistemas Operacionais para os diversos tipos de microprocessadores tais como:\n(1) Linux.\n(2) Android.\n(3) Oracle.\n(4) OS X.\nDa relação apresentada:",
+        "alternativas": [
+            "existem somente o 1, 2 e 3.",
+            "existem somente o 1, 2 e 4.",
+            "existem somente o 2, 3 e 4.",
+            "existem somente o 1, 3 e 4."
+        ],
+        "gabarito": "existem somente o 1, 2 e 4."
+    },
+    {
+        "id": 155,
+        "enunciado": "Sobre gerenciamento de processos no Linux, segundo WARD (2, é correto afirmar que:",
+        "alternativas": [
+            "quando uma estação de trabalho, em um sistema operacional moderno multitarefa, está com dois processos abertos ao mesmo tempo, por exemplo, um navegador web e uma planilha eletrônica, significa que esses processos são executados na CPU exatamente ao mesmo tempo.",
+            "alternância de contexto é o nome dado ao ato de um processo alternar sua própria sequência de execução, visando acelerar sua tarefa. Essa funcionalidade também é chamada context switch.",
+            "os comandos \"kill\" e \"fg\" permitem a interrupção de processos em execução, o mesmo que o sinal TERM, que quer dizer terminate, de forma a garantir o controle de jobs pelo shell do sistema operacional.",
+            "os shells também suportam controle de jobs (jobcontrol), que é uma maneira de enviar os sinais TSTP (semelhante a STOP) e CONT para os programas usando diversas teclas e vários comandos. Por exemplo, um sinal TSTP pode ser enviado por meio das teclas Ctrl-Z.",
+            "o kernel é um programa que reside na memória e diz à CPU o que ela deve fazer e processo é um programa em execução administrado pelo kernel, formando coletivamente o nível mais alto do sistema. Assim, tanto o kernel quanto os processos de usuário executam em modo kernel (kernel mode)."
+        ],
+        "gabarito": "os shells também suportam controle de jobs (jobcontrol), que é uma maneira de enviar os sinais TSTP (semelhante a STOP) e CONT para os programas usando diversas teclas e vários comandos. Por exemplo, um sinal TSTP pode ser enviado por meio das teclas Ctrl-Z."
+    },
+    {
+        "id": 156,
+        "enunciado": "Durante o processo de solução de problema em um determinado serviço Linux, o administrador da rede executou o comando systemctl reload cups.service. Acerca do comando executado e do daemon de inicialização invocado, avalie as seguintes afirmativas e a relação proposta entre elas.\nI. O daemon de inicialização que está sendo invocado é o Sysvinit.\nPORQUE\nII. O comando executado tem como objetivo reinicializar o serviço do servidor de impressão.\nA respeito dessas afirmativas, é correto afirmar que",
+        "alternativas": [
+            "a primeira proposição está incorreta e a segunda, correta.",
+            "a primeira proposição está correta e a segunda, incorreta.",
+            "as duas proposições estão incorretas.",
+            "as duas proposições são corretas e a segunda é uma justificativa correta da primeira.",
+            "as duas proposições são corretas, mas a segunda não é uma justificativa correta da primeira."
+        ],
+        "gabarito": "as duas proposições estão incorretas."
+    },
+    {
+        "id": 157,
+        "enunciado": "Qual o parâmetro do utilitário de linha de comando do Linux grep que implica na não diferenciação entre maiúsculas e minúsculas?",
+        "alternativas": [
+            "b.",
+            "c.",
+            "e.",
+            "u.",
+            "-i."
+        ],
+        "gabarito": "-i."
+    },
+    {
+        "id": 158,
+        "enunciado": "Qual utilitário Linux é utilizado para gerenciar e monitorar RAID por software?",
+        "alternativas": [
+            "md.",
+            "mdadm.",
+            "raidadmin.",
+            "raidadm.",
+            "e2fsck."
+        ],
+        "gabarito": "mdadm."
+    },
+    {
+        "id": 159,
+        "enunciado": "Você foi solicitado a avaliar a instalação de um Sistema LINUX quanto a área de SWAP. O Sistema em questão é uma máquina I5 com 8 GB de memória RAM, 1 TByte de disco, placa de vídeo integrada e placa de rede externa. As aplicações que serão utilizadas fazem parte da automação de escritórios (Processamento de Texto e Planilha principalmente). Com base no que foi exposto, analise as afirmativas abaixo e dê valores Verdadeiro (V) ou Falso (F).\n( ) Numa máquina de 8 GB, e por se tratar de uma máquina que não será servidor a área de SWAP não é necessário.\n( ) Inicialmente pode-se atribuir uma área de SWAP entre 1 MB e 4 MB.\n( ) Pelo fato de que a placa de vídeo é integrada não se recomenda criar área de SWAP.\nAssinale a alternativa que apresenta a sequência correta de cima para baixo.",
+        "alternativas": [
+            "F - V - F.",
+            "F - F - F.",
+            "F - V - V.",
+            "V - V - F."
+        ],
+        "gabarito": "F - F - F."
+    },
+    {
+        "id": 160,
+        "enunciado": "A respeito da criação de um novo usuário no sistema operacional Linux, é correto afirmar que",
+        "alternativas": [
+            "como resultado da criação do novo usuário, o arquivo /etc/passwd é alterado.",
+            "é necessário reiniciar o sistema para que se possa efetuar um login com o novo usuário após sua criação.",
+            "ela deve ser feita via terminal, não sendo possível criar usuários pelo ambiente gráfico.",
+            "antes da criação do usuário, é preciso criar um subdiretório dentro de /home por meio do comando mkdir.",
+            "a senha do usuário fica armazenada em texto claro no arquivo /etc/shadow, o que implica a necessidade de um controle de acesso rigoroso sobre esse arquivo."
+        ],
+        "gabarito": "como resultado da criação do novo usuário, o arquivo /etc/passwd é alterado."
+    },
+    {
+        "id": 161,
+        "enunciado": "Sobre o sistema operacional Linux é correto afirmar que:",
+        "alternativas": [
+            "É um software proprietário.",
+            "Foi desenvolvido em 1991 por Linus Torvalds.",
+            "É um sistema de código fechado.",
+            "Uots é uma distribuição Linux paga.",
+            "O mascote do Linux é um camelo."
+        ],
+        "gabarito": "Foi desenvolvido em 1991 por Linus Torvalds."
+    },
+    {
+        "id": 162,
+        "enunciado": "No Linux, o símbolo utilizado para designar que o usuário atual do terminal é um superusuário, administrador do sistema, é:",
+        "alternativas": [
+            "$.",
+            "@.",
+            "#.",
+            "*.",
+            "&."
+        ],
+        "gabarito": "#."
+    },
+    {
+        "id": 163,
+        "enunciado": "Uma das características do sistema Linux é que a codificação é realizada a partir de uma coleção de procedimentos, na qual é possível qualquer um deles em qualquer parte do sistema interagir com outro procedimento. Essa característica faz com que o sistema seja:",
+        "alternativas": [
+            "Preemptivo.",
+            "Incremental.",
+            "Monolítico.",
+            "Monoprocessos.",
+            "Livre."
+        ],
+        "gabarito": "Monolítico."
+    },
+    {
+        "id": 164,
+        "enunciado": "Em um shell script para bash no sistema operacional Linux, foi encontrada a seguinte linha:\ntrap f SIGINT Essa linha tem por objetivo",
+        "alternativas": [
+            "enviar o sinal SIGINT para a função f.",
+            "associar a função SIGINT como tratadora de exceções que possam ocorrer na execução da função f.",
+            "definir que o identificador f é um alias para SIGINT, podendo-se usar o primeiro no lugar do segundo no código subsequente.",
+            "impedir que o terminal onde o script está sendo executado seja fechado enquanto a função f estiver em execução.",
+            "associar a função f como o tratador de evento para o pressionamento de Ctrl+C durante a execução do script."
+        ],
+        "gabarito": "associar a função f como o tratador de evento para o pressionamento de Ctrl+C durante a execução do script."
+    },
+    {
+        "id": 165,
+        "enunciado": "João está atuando em um terminal Linux e atribuiu as permissões 755 para determinado arquivo. Em relação aos acessos a esse arquivo, assinale a alternativa correta.",
+        "alternativas": [
+            "Atribuem permissão de leitura e execução para usuários do mesmo grupo.",
+            "Não atribuem permissão de execução para usuários do mesmo grupo.",
+            "Não atribuem permissão de execução para usuários fora do mesmo grupo.",
+            "Atribuem permissão de leitura e escrita, mas não de execução, para o dono do arquivo.",
+            "Atribuem permissão de leitura, escrita e execução para usuários do mesmo grupo."
+        ],
+        "gabarito": "Atribuem permissão de leitura e execução para usuários do mesmo grupo."
+    },
+    {
+        "id": 166,
+        "enunciado": "Relacione os principais comandos do Linux da coluna da esquerda com a respectiva funcionalidade da coluna da direita:\n(1) kill\n(A) Criar um diretório.\n(2) ls\n(B) Apaga arquivos.\n(3) mkdir (C) Listar todos os arquivos do diretório.\n(4) rm\n(D) Matar um processo.",
+        "alternativas": [
+            "1D - 2C - 3A - 4B.",
+            "1A - 2B - 3C - 4D.",
+            "1C - 2D - 3A - 4B.",
+            "1B - 2C - 3D - 4A."
+        ],
+        "gabarito": "1D - 2C - 3A - 4B."
+    },
+    {
+        "id": 167,
+        "enunciado": "Com relação à administração do sistema operacional Linux, julgue o item seguinte.\nPara atribuir permissões de leitura, escrita e execução ao proprietário do arquivo de nome documento1.txt, sem qualquer permissão para grupos ou qualquer outro usuário, é correto o uso do comando chmod 0177 documento1.txt.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 168,
+        "enunciado": "Acerca dos sistemas operacionais Windows e Linux e da interoperabilidade entre esses sistemas, julgue o item que se segue.\nNo processo de inicialização de um sistema Linux, a função de carregar e descompactar a imagem do kernel é responsabilidade do carregador de boot de primeiro estágio.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 169,
+        "enunciado": "Acerca dos sistemas operacionais Windows e Linux e da interoperabilidade entre esses sistemas, julgue o item que se segue.\nO WSL (subsistema Windows para Linux), em sua última versão, viabiliza a chamada de binários do Windows no console do Linux e a chamada de binários do Linux no console do Windows.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 170,
+        "enunciado": "Em sistemas operacionais Linux derivados da edição Debian, o comando utilizado para fazer uma varredura ou busca por vulnerabilidades em um computador da mesma rede é o comando",
+        "alternativas": [
+            "vuln.",
+            "netstat.",
+            "nmap.",
+            "arp.",
+            "netcraft."
+        ],
+        "gabarito": "nmap."
+    },
+    {
+        "id": 171,
+        "enunciado": "Julgue o item quanto aos sistemas operacionais Linux e Windows.\nNo Linux, ao se instalar um software, é provável que alguns pacotes dependam de determinadas bibliotecas ou mesmo de outros pacotes de software.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 172,
+        "enunciado": "No Linux, a saída (output) de um comando pode ser direcionada para um arquivo ou processo. Nesse contexto, assinale o redirecionamento que é determinado pelo símbolo >>.",
+        "alternativas": [
+            "Adicionar o conteúdo direcionado a um arquivo existente, ou a um novo arquivo se não existir o arquivo referido.",
+            "Descartar o conteúdo direcionado; não gravar e não mostrar.",
+            "Direcionar o conteúdo para outro comando ou processo.",
+            "Gravar um novo arquivo com o conteúdo direcionado; não pode existir eventual arquivo homônimo.",
+            "Gravar um novo arquivo com o conteúdo direcionado, sobrescrevendo eventual arquivo homônimo."
+        ],
+        "gabarito": "Adicionar o conteúdo direcionado a um arquivo existente, ou a um novo arquivo se não existir o arquivo referido."
+    },
+    {
+        "id": 173,
+        "enunciado": "Nas implementações Linux, as funções de gerenciamento de memória e gerenciamento de processos são operadas pelo componente conhecido como",
+        "alternativas": [
+            "BIOS.",
+            "Kernel.",
+            "Interface.",
+            "Thread.",
+            "Web service."
+        ],
+        "gabarito": "Kernel."
+    },
+    {
+        "id": 174,
+        "enunciado": "É possível executar um ambiente GNU/Linux no Windows 10 sem a sobrecarga de uma máquina virtual tradicional. Qual o nome dessa tecnologia?",
+        "alternativas": [
+            "WSL.",
+            "VMWare.",
+            "VirtualBox.",
+            "Xen.",
+            "LXC."
+        ],
+        "gabarito": "WSL."
+    },
+    {
+        "id": 175,
+        "enunciado": "No que diz respeito aos sistemas Linux e aos conceitos de virtualização de servidores, julgue o item.\nNos sistemas Linux, o diretório /boot armazena os arquivos necessários para a inicialização do sistema.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 176,
+        "enunciado": "Qual variável de ambiente do Linux, mantém em seu conteúdo uma lista de diretórios que o Shell procura pelos executáveis chamados na linha de comando?",
+        "alternativas": [
+            "THERM.",
+            "USER.",
+            "PATH.",
+            "VAROFF.",
+            "MONT."
+        ],
+        "gabarito": "PATH."
+    },
+    {
+        "id": 177,
+        "enunciado": "Um servidor com o sistema operacional Linux possui o serviço SAMBA ativo. Nesse servidor, foi encontrada no arquivo de configuração /etc/samba/smb.conf a seguinte linha dentro da seção [global]:\nos level = 7 Essa linha representa",
+        "alternativas": [
+            "o número máximo de usuários que podem acessar um arquivo compartilhado pelo serviço SAMBA simultaneamente.",
+            "uma configuração de nível de acesso que determina que os recursos compartilhados podem ser acessados por usuários convidados, ou seja, dispensando a autenticação por login e senha.",
+            "uma configuração de nível de acesso que determina que o modo de autenticação do SAMBA seja do tipo share, no qual cada pasta compartilhada possui sua própria senha.",
+            "a versão do Windows mínima exigida para clientes que tentam acessar um recurso compartilhado, via protocolo SMB, no servidor em questão.",
+            "o peso do servidor no processo de eleição do master browser."
+        ],
+        "gabarito": "o peso do servidor no processo de eleição do master browser."
+    },
+    {
+        "id": 178,
+        "enunciado": "Correlacione o funcionamento dos recursos de direcionamento de entrada e saída do sistema GNU/Linux e assinale a opção correspondente.\nI- >\nII- » ∣\nIII-\n( ) Redireciona a salda padrão de um programa/comando/script para algum dispositivo ou arquivo ao invés do dispositivo de saída padrão (tela). Quando é usado com arquivos, este redirecionamento cria ou substitui o conteúdo do arquivo.\n( ) Redireciona a saída padrão de um programa/comando/script para algum dispositivo ou adiciona as linhas ao final de arquivo ao invés do dispositivo de saída padrão (tela). Quando é usado com arquivos, este adiciona a saída do comando ao final do arquivo.\n( ) Envia a saída de um comando para a entrada do próximo comando para continuidade do processamento. Os dados enviados são processados pelo próximo comando que mostrará o resultado do processamento.",
+        "alternativas": [
+            "(I) (II) (III).",
+            "(I) (III) (II).",
+            "(II) (I) (III).",
+            "(II) (III) (II).",
+            "(III) (II) (I)."
+        ],
+        "gabarito": "(I) (II) (III)."
+    }
+]

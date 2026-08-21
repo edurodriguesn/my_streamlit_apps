@@ -1,0 +1,1222 @@
+[
+    {
+        "id": 1,
+        "enunciado": "No processo de modernização do sistema interno de gestão de contratos da empresa, a equipe de desenvolvimento precisa adotar uma tecnologia padrão para garantir a persistência dos dados de maneira consistente e eficiente.\nConsiderando a necessidade de integração com aplicações Java já existentes e o uso de boas práticas de mapeamento objeto- relacional, assinale a alternativa que possibilita a persistência de dados e o gerenciamento eficiente das informações.",
+        "alternativas": [
+            "JavaFX.",
+            "Servlets.",
+            "JSF (JavaServer Faces).",
+            "JPA (Java Persistence API).",
+            "EJB (Enterprise JavaBeans)."
+        ],
+        "gabarito": "JPA (Java Persistence API)."
+    },
+    {
+        "id": 2,
+        "enunciado": "Uma analista de dados está implementando uma solução de persistência de dados para um novo sistema de gerenciamento de documentos utilizando JPA 2.0. Para otimizar o desempenho e evitar o problema N+1, ela precisa garantir que as entidades relacionadas sejam carregadas de forma eficiente.\nPara carregar as entidades via JPA 2.0 corretamente e mitigar o problema N+1 de forma eficiente, a analista deve:",
+        "alternativas": [
+            "utilizar a anotação @ManyToOne sem especificar a estratégia de carregamento, permitindo que o JPA decida a melhor abordagem;",
+            "implementar consultas JPQL manuais para carregar as entidades relacionadas, garantindo o controle total sobre o processo de carregamento;",
+            "utilizar a anotação @OneToMany com a estratégia FetchType.LAZY e utilizar JOIN FETCH nas consultas JPQL para carregar as entidades relacionadas de forma eficiente;",
+            "configurar o FetchType como EAGER em todos os relacionamentos @ManyToOne, garantindo que as entidades relacionadas sejam sempre carregadas junto com a entidade principal;",
+            "utilizar a anotação @LazyToOne(false) em relacionamentos @ManyToOne, a fim de carregar as entidades relacionadas apenas quando acessadas, evitando o carregamento antecipado."
+        ],
+        "gabarito": "utilizar a anotação @OneToMany com a estratégia FetchType.LAZY e utilizar JOIN FETCH nas consultas JPQL para carregar as entidades relacionadas de forma eficiente;"
+    },
+    {
+        "id": 3,
+        "enunciado": "Frameworks de persistência como JPA e Hibernate são utilizados para simplificar e gerenciar a interação entre aplicações Java e bancos de dados relacionais. Sobre seu uso, marque a opção correta.",
+        "alternativas": [
+            "Hibernate também suporta banco de dados não relacionais.",
+            "JPA é uma especificação padrão de persistência de dados em Java, enquanto Hibernate é uma de suas implementações.",
+            "Hibernate é utilizado exclusivamente com bancos de dados MySQL.",
+            "JPA requer que todos os métodos de mapeamento sejam escritos manualmente em SQL."
+        ],
+        "gabarito": "JPA é uma especificação padrão de persistência de dados em Java, enquanto Hibernate é uma de suas implementações."
+    },
+    {
+        "id": 4,
+        "enunciado": "No que se refere a testes de verificação de qualidade de códigos automatizados e a persistência, julgue o item a seguir.\nNo JPA 2.0, a exceção OptimisticLockException pode ocorrer na tentativa de atualizar ou remover uma entidade modificada por outra transação, independentemente de controle de versão aplicado à entidade.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 5,
+        "enunciado": "Uma equipe de desenvolvimento está utilizando Spring Boot para criar uma API RESTful. Durante os testes, observaram que a aplicação demora a inicializar, principalmente devido à configuração do banco de dados. Para melhorar o tempo de inicialização, decidiram desabilitar a criação automática do esquema de banco de dados ao iniciar a aplicação.\nA configuração, no application.properties, que desabilita a criação automática do esquema de banco de dados pelo Spring Boot é a",
+        "alternativas": [
+            "spring.jpa.hibernate.ddl-auto=none.",
+            "spring.datasource.database-auto=false.",
+            "spring.jpa.db-sql=disable.",
+            "spring.jpa.properties.hibernate.db-auto=disable.",
+            "spring.jpa.create-database-init=false."
+        ],
+        "gabarito": "spring.jpa.hibernate.ddl-auto=none."
+    },
+    {
+        "id": 6,
+        "enunciado": "O JPA é uma especificação da plataforma Java que define um padrão para mapeamento objeto-relacional (ORM) e gerenciamento de persistência de dados. No JPA, a forma padrão de realizar o mapeamento de objetos Java (POJOs) para tabelas de bancos de dados relacionais é por meio de",
+        "alternativas": [
+            "anotações como @Database, @Primary , @Relation e @Field.",
+            "configurações XML como persistence.xml, entity.xml e mappin.xml.",
+            "anotações como @Entity, @Id, @Table e @Column.",
+            "interfaces como EntityFactory, QueryBuilder e PersistenceUnit.",
+            "classes como HibernateSession,EntityManagerFactory e DataMapper."
+        ],
+        "gabarito": "anotações como @Entity, @Id, @Table e @Column."
+    },
+    {
+        "id": 7,
+        "enunciado": "Um analista cria a entidade Processo para um sistema de um tribunal, persistindo processos judiciais em um banco relacional, com número do processo gerado automaticamente, tipo de ação não nulo e relacionamento N:1 com a entidade vara (unidade judicial). Nesse contexto, o mapeamento correto da entidade Processo é @Entity para indicar que Processo é uma entidade,",
+        "alternativas": [
+            "@Id e @GeneratedValue(strategy = GenerationType.SEQUENCE) para o atributo número do processo, @Column (nullable=true) para tipo de ação, @ManyToOne @JoinColumn(name = \"processo id\",nullable false) para o atributo que representa a vara.",
+            "@Column (nullable=false) para o atributo que representa o tipo de açao, @ManyToOne(mappedBy = \"vara\")e @Joincolumn (name = \"numero\", nullable = false) para o atributo que representa a vara.",
+            "@Id e @GeneratedValue(strategy = GenerationType.IDENTITY) para o atributo número do processo, @Column (nullable=false) para o atributo que representa o tipo de ação, @ManyToOne e @Joincolumn (name \" vara_id\", nullable = false) para o atributo que representa a vara.",
+            "@Id e @GeneratedValue type = GenerationType.IDENTITY) para o atributo número do processo, @Column (nullable=false) para tipo de ação, @OneToOne @JoinColumn(name = \"vara id\", nullable = true) para o atributo que representa a vara.",
+            "@Column(nullable=false) para tipo de ação, @ManyToOne e @JoinColumn(id = \" vara_id\", nullable = false) para o atributo que representa a vara."
+        ],
+        "gabarito": "@Id e @GeneratedValue(strategy = GenerationType.IDENTITY) para o atributo número do processo, @Column (nullable=false) para o atributo que representa o tipo de ação, @ManyToOne e @Joincolumn (name \" vara_id\", nullable = false) para o atributo que representa a vara."
+    },
+    {
+        "id": 8,
+        "enunciado": "O Hibernate é um framework que implementa a especificação JPA do JavaEE, facilitando ao desenvolvedor abstrair a camada de persistência na implementação de sistemas. O mapeamento das classes do projeto em um sistema relacional de banco de dados pode ser feito por meio de um arquivo XML ou, o que é mais comum, por anotações nas classes. Nesse contexto, analise o trecho de código abaixo.\nNesse trecho de código, a anotação",
+        "alternativas": [
+            "@Enumerated(EnumType.ORDINAL) persistirá, no banco de dados, valores numéricos.",
+            "@Column(name = \"numero\") persistirá, no banco de dados, valores numéricos.",
+            "@Id persistirá, no banco de dados, dados na coluna id_numeros_contato.",
+            "@Column(name = \"tipo\") persistirá, no banco de dados, dados na coluna TipoTelefone."
+        ],
+        "gabarito": "@Enumerated(EnumType.ORDINAL) persistirá, no banco de dados, valores numéricos."
+    },
+    {
+        "id": 9,
+        "enunciado": "Em uma aplicação que utiliza JPA 2.0 e Hibernate 4.3, existem duas entidades: Order e OrderItem. O atributo private List<OrderItem> items; da entidade Order deve estabelecer um relacionamento um-para-muitos com OrderItem, de forma bidirecional, sendo o campo order na entidade OrderItem o responsável pela gestão da associação. As operações de persistência realizadas em Order devem ser propagadas para os OrderItem associados, e a lista de itens deve ser carregada somente quando for explicitamente acessada, e não quando a entidade Order for recuperada do banco de dados. Nesse contexto, a anotação que deve ser utilizada imediatamente antes da declaração private List<OrderItem> items; na entidade Order é",
+        "alternativas": [
+            "@OneToMany(mappedBy = \"items\", cascade = CascadeType.ALL, fetch = FetchType.LAZY).",
+            "@OneToMany(targetEntity = OrderItem.class, cascade = CascadeType.ALL, fetch = FetchType.LAZY).",
+            "@OneToMany(mappedBy = \"order\", cascade = CascadeType.ALL, fetch = FetchType.LAZY).",
+            "@OneToMany(mappedBy = \"order\", cascade = CascadeType.PERSIST, fetch = FetchType.LAZY).",
+            "@OneToMany(mappedBy = \"order\", cascade = CascadeType.ALL, fetch = FetchType.EAGER)."
+        ],
+        "gabarito": "@OneToMany(mappedBy = \"order\", cascade = CascadeType.ALL, fetch = FetchType.LAZY)."
+    },
+    {
+        "id": 10,
+        "enunciado": "No JPA (Java Persistence API), as classes que representam tabelas em um banco de dados são normalmente chamadas de classes DAO (Data Access Object). Na linguagem Java, qual anotação faz com que o JPA identifique que determinada classe deve ser manipulada por ele para manipular dados de uma tabela?",
+        "alternativas": [
+            "@Dao.",
+            "@Entity.",
+            "@Hibernate.",
+            "@Persistence.",
+            "@Table."
+        ],
+        "gabarito": "@Entity."
+    },
+    {
+        "id": 11,
+        "enunciado": "Acerca das tecnologias que atendem a PDPJ-Br, julgue o próximo item.\nO JPA 2.0 suporta coleções do tipo embeddable, que são classes com dados a serem persistidos, mas que não são entidades.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 12,
+        "enunciado": "Em uma instituição pública que precisa manter e gerenciar dados de diferentes departamentos, necessita-se implementar a persistência de objetos Java utilizando JPA 2.0. A tarefa inclui a criação de entidades e relacionamentos complexos para refletir o modelo de dados da instituição. Durante o desenvolvimento é necessário garantir que as anotações JPA estejam corretas para evitar problemas de performance e integridade dos dados. Considerando o cenário no qual é necessário definir um relacionamento de um-para-muitos entre a entidade departamento e a entidade funcionário, qual das opções a seguir configura corretamente a entidade Departamento para esse relacionamento em JPA 2.0?",
+        "alternativas": [
+            ".",
+            ".",
+            ".",
+            "."
+        ],
+        "gabarito": "."
+    },
+    {
+        "id": 13,
+        "enunciado": "“É uma API de persistência POJO para mapeamento de objetos/relacional que permite o uso de anotações de metadados da linguagem Java e/ou descritores XML para definir o mapeamento entre objetos Java e um banco de dados relacional.” O texto faz referência a",
+        "alternativas": [
+            "EJB.",
+            "Spring Boot.",
+            "Thymeleaf.",
+            "Zuul.",
+            "JPA."
+        ],
+        "gabarito": "JPA."
+    },
+    {
+        "id": 14,
+        "enunciado": "Em uma classe de acesso a dados de uma aplicação web Java que utiliza JPA, em condições ideais, a linha abaixo faz parte de um método que gerencia a conexão com um banco de dados.\nEntityManagerFactory conn = Persistence.createEntityManagerFactory(\"MPEPB123PU\");\nA existência dessa linha na aplicação indica que no arquivo persistence.xml deve haver, dentre outras, a linha",
+        "alternativas": [
+            "<factory-unit name=\"MPEPB123PU\" transaction-type=\"JTA\">.",
+            "<persistence-unit name=\"MPEPB123PU\" transaction-type=\"RESOURCE_LOCAL\">.",
+            "<database-unit name=\"MPEPB123PU\" driver-type=\"com.mysql.cj.jdbc.Driver\">.",
+            "<connection-unit database=\"MPEPB123PU\" transaction-type=\"JTA\">.",
+            "<property name=\"MPEPB123PU\" transaction-type=\"RESOURCE_LOCAL\">."
+        ],
+        "gabarito": "<persistence-unit name=\"MPEPB123PU\" transaction-type=\"RESOURCE_LOCAL\">."
+    },
+    {
+        "id": 15,
+        "enunciado": "Em uma aplicação Java que utiliza JPA, em condições ideais, o método da interface EntityManager utilizado para salvar um objeto de uma entidade da aplicação chamada Processo na tabela processo do banco de dados é o",
+        "alternativas": [
+            "persist.",
+            "save.",
+            "append.",
+            "add.",
+            "execute."
+        ],
+        "gabarito": "persist."
+    },
+    {
+        "id": 16,
+        "enunciado": "A anotação @Audited em uma classe de entidade JPA indica o uso",
+        "alternativas": [
+            "da biblioteca Flyway.",
+            "do Hibernate Envers.",
+            "do Spring Eureka.",
+            "de Map Struct.",
+            "do Swagger."
+        ],
+        "gabarito": "do Hibernate Envers."
+    },
+    {
+        "id": 17,
+        "enunciado": "No contexto do Spring Data JPA, analise a declaração a seguir.\npublic interface UserRepository extends JpaRepository<User, Long> { @Query(\"select codigo from User u where u.emailAddress = ?1\") User findByEmailAddress(String emailAddress);\n} Supondo-se que todas as definições complementares à declaração foram devidamente estabelecidas, é correto afirmar que o trecho ‘?1’ expressa:",
+        "alternativas": [
+            "uma referência a uma variável de ambiente declarada e definida no Spring Data JPA;",
+            "uma expressão regular a ser aplicada na execução do comando ‘select’;",
+            "um código que estabelece o uso da cláusula LIKE na execução do comando ‘select’;",
+            "um código que provoca o disparo de um prompt para coletar o valor a ser utilizado na execução do comando ‘select’;",
+            "o valor de um parâmetro utilizado na invocação do método associado à consulta."
+        ],
+        "gabarito": "o valor de um parâmetro utilizado na invocação do método associado à consulta."
+    },
+    {
+        "id": 18,
+        "enunciado": "No contexto do Java EE 6, a especificação que descreve como deve ser o comportamento dos frameworks de persistência Java é conhecida como",
+        "alternativas": [
+            "JSF.",
+            "JPA.",
+            "Hibernate.",
+            "JTA.",
+            "JMS."
+        ],
+        "gabarito": "JPA."
+    },
+    {
+        "id": 19,
+        "enunciado": "O trecho de código abaixo, em Java Persistence API (JPA) versão 2.2, apresenta a declaração de uma chave primária composta de uma entidade de um banco de dados.\n@__________ public class PessoaId implements Serializable { String nome;\nString sobrenome;\n} @__________ public class Pessoa { @__________ PessoaId id;\nString endereco;\n} Assinale a alternativa que preenche, correta e respectivamente, as lacunas do trecho de código acima.",
+        "alternativas": [
+            "Embeddable – Entity – EmbeddedId.",
+            "Instance – Entity – Primary.",
+            "Association – Table – Primary.",
+            "Instance – Table – EmbeddedId.",
+            "Embeddable – Entity – Primary."
+        ],
+        "gabarito": "Embeddable – Entity – EmbeddedId."
+    },
+    {
+        "id": 20,
+        "enunciado": "O Java Persistence API (JPA) define os padrões de persistência, condição fundamental para desenvolvimento de aplicativos orientados a objetos. Há, ainda, uma relação aos referenciamentos e aos tratamentos de eventos dele com o JavaServer.\nConsiderando o exposto acima, informe verdadeiro (V) ou falso (F) para as assertivas abaixo e, em seguida, marque a opção que apresenta a sequência correta.\n( ) A forma de utilização de API de critérios de metamodelos faz referência aos atributos por meio de expressões.\n( ) Na utilização de metamodelos, é possível obter a descrição de uma unidade persistente.\n( ) O API de critérios se apresenta como uma opção à escrita em Java Persistence Query Language.\n( ) A API de critérios baseada em strings é realizada por meio do recebimento das informações das propriedades das entidades.",
+        "alternativas": [
+            "(V); (V); (V); (F).",
+            "(F); (F); (F); (V).",
+            "(V); (F); (V); (V).",
+            "(F); (V); (F); (F)."
+        ],
+        "gabarito": "(V); (F); (V); (V)."
+    },
+    {
+        "id": 21,
+        "enunciado": "Em uma aplicação Java que utiliza JPA, em condições ideais, considere manager um objeto válido criado por meio da instrução abaixo.\nEntityManager manager = Persistence.createEntityManagerFactory(\"trtPU\").createEntityManager();\nA instrução manager.createNamedQuery(\"Acesso.findByUserSenha\", Acesso.class); irá retornar um objeto do tipo",
+        "alternativas": [
+            "List<Acesso>.",
+            "Acesso.",
+            "Query<Acesso>.",
+            "TypedQuery<Acesso>.",
+            "ArrayList<Acesso>."
+        ],
+        "gabarito": "TypedQuery<Acesso>."
+    },
+    {
+        "id": 22,
+        "enunciado": "Considere o método a seguir, de uma classe presente em uma aplicação Java que utiliza JPA, em condições ideais.\npublic List<Servico> listarTodosServicos() { TypedQuery<Servico> query;\nquery = em.createNamedQuery{\"Servico.findAll\", Servico.class);\ntry {\nI......\nreturn services;\n}catch (NoResultException ex) { return null;\n}finally { close();\n} } Para se obter a lista de serviços, o comando que preenche corretamente a lacuna I é:",
+        "alternativas": [
+            "List<Servico> services = query.getResult().toList();",
+            "List<Servico> services = query.executeQuery() ;",
+            "ArrayList<Servico> services = {ArrayList) query.getList() ;",
+            "ArrayList<Servico> services = query.getResultList();",
+            "List<Servico> services = query.getResultList();"
+        ],
+        "gabarito": "List<Servico> services = query.getResultList();"
+    },
+    {
+        "id": 23,
+        "enunciado": "Em uma aplicação Java web que utiliza JPA, em condições ideais, considere o método genérico abaixo em uma classe chamada EmpresaDao.java.\npublic <T> List listar (String queryNomeada, Class<T> classe) { conectar();\ntry { return manager.createNamedQuery (queryNomeada, classe).getResultList();\n} catch (NoResultException erro) { return null;\n} } Sabendo que existe uma classe de entidade do banco de dados chamada Departamento, e uma query nomeada chamada Departamento.findAll que seleciona todos os departamentos cadastrados, a partir de uma servlet Java da aplicação, para chamar o método listar e obter os departamentos cadastrados utiliza-se o comando",
+        "alternativas": [
+            "List<Departamentos departamentos - new EmpresaDao().listar (\"Departamento.findAll\", Departamento);",
+            "List<Departamento> departamentos = new EmpresaDao().listar (\"Departamento.findAll\", new Class (Departamento.java));",
+            "List<Departamento> departamentos = new EmpresaDao().listar (\"Departamento.findAll\", Departamento.class);",
+            "List<T> departamentos = new EmpresaDao().listar (\"Departamento.findAll\", Departamento.class);",
+            "List<Departamento» departamentos new EmpresaDao ().listar (\"Departamento.findAll\", Departamento.java);"
+        ],
+        "gabarito": "List<Departamento> departamentos = new EmpresaDao().listar (\"Departamento.findAll\", Departamento.class);"
+    },
+    {
+        "id": 24,
+        "enunciado": "O JavaTM Persistence API (JPA) fornece um mecanismo para gerenciar a persistência e mapeamento relacional de objeto e funções para as especificações de EJB.\nRegistre V, para verdadeiro, ou F, para falso:\n(__)A JPA representa uma simplificação do modelo de programação de persistência.\n(__)A especificação JPA define explicitamente o mapeamento relacional de objetos, em vez de depender das implementações de mapeamento específicas do fornecedor.\n(__)A JPA padroniza a importante tarefa de mapeamento relacional de objetos, utilizando anotações ou o XML para mapear objetos para uma ou mais tabelas de um banco de dados.\n(__)A JPA foi projetada para operar dentro e fora de um contêiner Java Enterprise Edition (Java EE).\n(__)A JPA não fornece uma linguagem de consulta, portanto, não pode ser considerado uma linguagem de consulta EJB independente (também conhecida como JPQL).\nMarque a alternativa que apresenta a sequência CORRETA:",
+        "alternativas": [
+            "V, V, V, V, F.",
+            "V, V, V, F, F.",
+            "V, V, V, V, V.",
+            "F, V, F, V, V.",
+            "V, F, V, V, F."
+        ],
+        "gabarito": "V, V, V, V, F."
+    },
+    {
+        "id": 25,
+        "enunciado": "A persistência de dados é a possibilidade de manter os dados entre as execuções do aplicativo. É vital para os aplicativos corporativos por causa do acesso necessário aos bancos de dados relacionais. Os aplicativos que forem desenvolvidos para este ambiente devem gerenciar a persistência por si só ou usar soluções de terceiros para manipular as atualizações e recuperações do banco de dados com persistência. O mecanismo responsável por fornecer o gerenciamento da persistência e mapeamento relacional de objeto e funções para as especificações de EJB é o:",
+        "alternativas": [
+            "JSR.",
+            "SQL.",
+            "GIT.",
+            "Docker.",
+            "JPA."
+        ],
+        "gabarito": "JPA."
+    },
+    {
+        "id": 26,
+        "enunciado": "Sobre o JPA, analise as afirmativas:\nI-JPA é um framework leve, baseado em POJOS (Plain Old Java Objects) para persistir objetos Java.\nII-A Java Persistence API, diferente do que muitos imaginam, não é apenas um framework para Mapeamento Objeto-Relacional (ORM - Object-Relational Mapping), ela também oferece diversas funcionalidades essenciais em qualquer aplicação corporativa.\nIII-JPA provê limitadas funcionalidades para os programadores e também não representa uma simplificação do modelo de programação de persistência. A especificação JPA remove explicitamente o mapeamento relacional de objetos, em vez de depender das implementações de mapeamento específicas do fornecedor.\nEstão CORRETAS as afirmativas:",
+        "alternativas": [
+            "III, apenas.",
+            "I, apenas.",
+            "I e II, apenas.",
+            "I, II e III.",
+            "II, apenas."
+        ],
+        "gabarito": "I e II, apenas."
+    },
+    {
+        "id": 27,
+        "enunciado": "Acerca do framework Zend, de JPA, do desenvolvimento para dispositivos móveis e de PHP, julgue o item seguinte.\nO suporte que o JPA 2.0 oferece para ordenação é insuficiente para a manutenção de uma ordenação persistente.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 28,
+        "enunciado": "As classes persistentes da JPA que são definidas por anotações são javax.persistence.Embeddable, javax.persistence.MappedSuperclass e",
+        "alternativas": [
+            "javax.persistence.Inerface.",
+            "javax.persistence.AbstractClass.",
+            "javax.persistence.MainClass.",
+            "javax.persistence.NamedClass.",
+            "javax.persistence.Entity."
+        ],
+        "gabarito": "javax.persistence.Entity."
+    },
+    {
+        "id": 29,
+        "enunciado": "Considere a classe abaixo em uma aplicação que utiliza JPA e Hibernate.\n@Entity public class Cliente { @Id @GeneratedValue(strategy = GenerationType...I..) private Long id;\n// atributos e métodos restantes } Para informar ao provedor de persistência que os valores a serem atribuídos ao identificador único (id) serão gerados pela coluna de autoincremento da tabela do banco de dados, utiliza-se, na lacuna I, o valor",
+        "alternativas": [
+            "TABLE.",
+            "AUTO_GENERATED.",
+            "AUTO_INCREMENT.",
+            "IDENTITY.",
+            "SELF_GENERATED."
+        ],
+        "gabarito": "IDENTITY."
+    },
+    {
+        "id": 30,
+        "enunciado": "Java Persistence API (JPA) é uma API que define uma interface que serve de padrão para frameworks de persistência de dados, como por exemplo o Hibemate e o Eclipsellnk. Por estar relacionada à linguagem Java, JPA possibilita o mapeamento objeto-relacional para Plain Old Java Objects (POJO). Em JPA utilizamos anotações para definir características que possibilitem o mapeamento objeto-relacional.\nMarque a alternativa que indica, respectivamente, o nome da anotação JPA que determina que um dado atributo da entidade representa um tipo de objeto de grande volume e o nome da anotação JPA que determina que um dado atributo da entidade não deve ser persistido.",
+        "alternativas": [
+            "@Blob e @ReadOnly.",
+            "@Large e @NotPersist.",
+            "@Blob e @NotPersist.",
+            "@BData e @ReadOnly.",
+            "@Lob e @Transient."
+        ],
+        "gabarito": "@Lob e @Transient."
+    },
+    {
+        "id": 31,
+        "enunciado": "Analise o código a seguir, que descreve a entidade Carro:\nA anotação JPA, versão 2.0, a ser incluída na linha 9 para indicar que as cores da entidade Carro devem ser armazenadas em uma tabela separada da tabela carros, é",
+        "alternativas": [
+            "@CollectionAttribute.",
+            "@ElementCollection.",
+            "@Embeddable.",
+            "@Embedded.",
+            "@InnerTable."
+        ],
+        "gabarito": "@ElementCollection."
+    },
+    {
+        "id": 32,
+        "enunciado": "A persistência de dados é a possibilidade de manter os dados entre as execuções do aplicativo. A persistência é vital para os aplicativos corporativos por causa do acesso necessário aos bancos de dados relacionais.\nAnalise as afirmativas abaixo em relação ao assunto.\n1. A unidade de persistência é utilizada para configurar as informações referentes ao provedor do JPA (implementação da especificação JPA) e ao banco de dados;\ntambém podemos identificar as classes que serão mapeadas como entidades do banco de dados.\n2. O contexto de persistência define o conjunto de instâncias ativas que o aplicativo está manipulando atualmente.\n3. O JPAUnityManager é um serviço responsável por gerenciar as entidades; através dele é possível gerenciar o ciclo de vida das entidades, operação de sincronização com a base de dados (inserir, atualizar ou remover), consultar entidades e outros.\nAssinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "É correta apenas a afirmativa 1.",
+            "É correta apenas a afirmativa 2.",
+            "São corretas apenas as afirmativas 1 e 2.",
+            "São corretas apenas as afirmativas 1 e 3.",
+            "São corretas apenas as afirmativas 2 e 3."
+        ],
+        "gabarito": "São corretas apenas as afirmativas 1 e 2."
+    },
+    {
+        "id": 33,
+        "enunciado": "Analise o código a seguir, que descreve a entidade Departamento:\nAssinale a opção que apresenta as anotações JPA 2.0 que devem ser incluídas na linha 11 para que a JPA utilize o método getNome() como mapeamento para a coluna nome da tabela departamentos nas operações de persistência.",
+        "alternativas": [
+            "@Column(name=\"nome\") @Access(AccessType.PROPERTY).",
+            "@Basic(field=\"nome\") @Access(AccessType.PROPERTY).",
+            "@Basic(field=\"nome\") @Access(AccessType.FIELD).",
+            "@Column(name=\"nome\") @Access(AccessType.FIELD).",
+            "@Column(field=\"nome\") @Access(AccessType.FIELD)."
+        ],
+        "gabarito": "@Column(name=\"nome\") @Access(AccessType.PROPERTY)."
+    },
+    {
+        "id": 34,
+        "enunciado": "O uso da anotação @Audited antes do nome da classe de entidade do banco de dados, em uma aplicação que utiliza JPA, sinaliza ao",
+        "alternativas": [
+            "Flyway que a entidade já foi auditada.",
+            "Hibernate Envers que a entidade será alvo de auditoria.",
+            "Map Struct que a entidade já foi auditada.",
+            "Spring Cloud que a entidade registra logs de transações com o banco de dados.",
+            "Service Discovery o caminho do arquivo de auditoria."
+        ],
+        "gabarito": "Hibernate Envers que a entidade será alvo de auditoria."
+    },
+    {
+        "id": 35,
+        "enunciado": "Em uma aplicação que utiliza JPA 2.0, a interface a partir da qual se pode mapear um conjunto de classes para um banco de dados particular, permitindo a criação de consultas, a busca de objetos e a inserção de objetos no banco de dados, é a interface",
+        "alternativas": [
+            "EntityManagerBuilder.",
+            "EntityTransaction.",
+            "TypedQuery.",
+            "EntityManager.",
+            "PreparedStatement."
+        ],
+        "gabarito": "EntityManager."
+    },
+    {
+        "id": 36,
+        "enunciado": "Considere o método abaixo, existente em uma classe de uma aplicação Java em condições ideais, que utiliza JPA 2.0. Considere a execução com sucesso de um método chamado conectar, que estabelece a conexão com um banco de dados, e do método desconectar, que encerra a conexão. Considere também que manager é um objeto do tipo EntityManager, criado com sucesso no método conectar.\nNesse método, \"Departamento.findAll\" refere-se",
+        "alternativas": [
+            "ao método findAll existente na classe Departamento.",
+            "a uma query nomeada por meio da anotação @NamedQuery na classe Departamento.",
+            "ao comando SELECT da classe Departamento, nomeado pela anotação @SQLQuery.",
+            "ao método findAll, que será criado na classe Departamento, quando esta instrução for executada.",
+            "a um método de uma stored procedure que será executada no banco de dados, retornando todos os departamentos cadastrados."
+        ],
+        "gabarito": "a uma query nomeada por meio da anotação @NamedQuery na classe Departamento."
+    },
+    {
+        "id": 37,
+        "enunciado": "Atenção: O Modelo Entidade-Relacionamento abaixo deve ser utilizado para responder a questão.\nEm uma aplicação que utiliza JPA, em condições ideais, a codificação correta que reflete a relação (cardinalidade) entre Departamento e Funcionario expressa no Modelo Entidade-Relacionamento é definida, na classe Departamento.java, por",
+        "alternativas": [
+            "@OneToMany(cascade = CascadeType.ALL, mappedBy = \"departamento\", fetch = FetchType.EAGER) private List<Funcionario> funcionarioList;",
+            "@ManyToOne(optional = false, fetch = FetchType.EAGER) private Departamento departamento;",
+            "@OneToOne(cascade = CascadeType.ALL, mappedBy = \"departamento\", fetch = FetchType.LAZY) private List<Funcionario> funcionarioList;",
+            "@ManyToOne(optional = false, fetch = FetchType.LAZY) private List<Funcionario> funcionarioList;",
+            "@OneToMany(cascade = CascadeType.ALL, mappedBy = \"funcionario\", fetch = FetchType.LAZY) private Departamento departamento;"
+        ],
+        "gabarito": "@OneToMany(cascade = CascadeType.ALL, mappedBy = \"departamento\", fetch = FetchType.EAGER) private List<Funcionario> funcionarioList;"
+    },
+    {
+        "id": 38,
+        "enunciado": "Atenção: O Modelo Entidade-Relacionamento abaixo deve ser utilizado para responder a questão.\nEm uma aplicação que utiliza JPA e Hibernate, em condições ideais, a codificação correta do trecho que define o atributo da classe Login.java, que é chave primária na tabela Login do Modelo Entidade-Relacionamento é",
+        "alternativas": [
+            "@Pk @NotNull(false) @ColumnName(\"emailFuncionario\") private String emailFuncionario;",
+            "@Id @Basic(optional = true) @JoinColumn(field = \"emailFuncionario\") private String emailFuncionario;",
+            "@PrimaryKey @Basic(required = true) @Field(name = \"emailFuncionario\") private String emailFuncionario;",
+            "@Pk @Basic(required = true) @Column(name = \"emailFuncionario\") private String emailFuncionario;",
+            "@Id @Basic(optional = false) @Column(name = \"emailFuncionario\") private String emailFuncionario;"
+        ],
+        "gabarito": "@Id @Basic(optional = false) @Column(name = \"emailFuncionario\") private String emailFuncionario;"
+    },
+    {
+        "id": 39,
+        "enunciado": "Considere o trecho de código a seguir, presente em um método de uma classe de aplicação criada utilizando-se JPA.\nTypedQuery<Departamento> query = manager.createNamedQuery(\"Departamento.findAll\",...I....\nDepartamento.class); List<Departamento> departamentos = ;\nDepartamento.findAll é uma query nomeada na classe Departamento, que retorna todos os departamentos cadastrados na tabela departamento do banco de dados. O objeto manager é um objeto do tipo EntityManager criado sobre uma conexão válida com um banco de dados. Considere que todos os recursos necessários foram importados e que a conexão com o banco de dados foi realizada com sucesso. Nestas condições, para se obter a lista de departamentos retornada da tabela do banco de dados a lacuna I deve ser corretamente preenchida por",
+        "alternativas": [
+            "query.getResult().toList().",
+            "manager.excuteQuery().",
+            "query.getResult().",
+            "query.getResultList().",
+            "manager.executeQuery(query)."
+        ],
+        "gabarito": "query.getResultList()."
+    },
+    {
+        "id": 40,
+        "enunciado": "Considere as linhas abaixo, presentes em uma classe chamada Departamento.java de um aplicação que utiliza JPA 2.0 implementada com Hibernate 4.3.\n@OneToMany(cascade = CascadeType.ALL, mappedBy = \"departamento\", fetch = FetchType.EAGER) private List<Funcionario> funcionarioList;\nEstas linhas permitem concluir corretamente que",
+        "alternativas": [
+            "a partir dos dados de um funcionário podem-se obter os departamentos aos quais ele está associado.",
+            "há um relacionamento com cardinalidade 1-para-muitos entre as classes Funcionario e Departamento, ou seja, 1 funcionário pode estar relacionado a muitos departamentos.",
+            "a instrução FetchType.EAGER está incorreta e deve ser substituída por FetchType.LAZY para que os funcionários associados a um departamento sejam carregados sob demanda.",
+            "há um relacionamento com cardinalidade 1-para-muitos entre as classes Departamento e Funcionario, ou seja, 1 departamento pode conter muitos funcionários.",
+            "a chave primária da entidade/classe Departamento é composta pelo id do departamento e pelo id do funcionário."
+        ],
+        "gabarito": "há um relacionamento com cardinalidade 1-para-muitos entre as classes Departamento e Funcionario, ou seja, 1 departamento pode conter muitos funcionários."
+    },
+    {
+        "id": 41,
+        "enunciado": "Leia atentamente a frase abaixo:\n\"O ______ é uma camada que descreve uma interface comum para frameworks ______ como o ______\".\nAssinale a alternativa que preencha correta e respectivamente as lacunas.",
+        "alternativas": [
+            "JVM / ORM / Hibernate.",
+            "JPA / ORM / Hibernate.",
+            "JVM / ORM / OpenJDK.",
+            "JPA / DBA / OpenJDK.",
+            "JPA / DBA / Hibernate."
+        ],
+        "gabarito": "JPA / ORM / Hibernate."
+    },
+    {
+        "id": 42,
+        "enunciado": "O Java™ Persistence API (JPA) fornece um mecanismo para gerenciar a persistência e mapeamento relacional de objeto e funções para as especificações de EJB. A especificação JPA define o mapeamento relacional de objetos internamente, em vez de depender das implementações de mapeamento específicas do fornecedor. Na JPA\n1.0, o mapeamento de mapas só é possível se os valores do Map forem entidades e as chaves forem as chaves primárias dos objetos valores, já na JPA 2.0, os mapas podem ser chaves e valores de tipos básicos, embeddable ou entidades. Para suportar essas alterações, novas anotações foram criadas, como por exemplo, a “@MapKeyClass”, utilizada para",
+        "alternativas": [
+            "especificar o nome da coluna da chave quando ela é de tipo básico e entidade.",
+            "chaves de tipo Date.",
+            "definir o tipo da chave em mapas não genéricos.",
+            "enumerar as chaves possíveis previamente.",
+            "mapear o relacionamento."
+        ],
+        "gabarito": "definir o tipo da chave em mapas não genéricos."
+    },
+    {
+        "id": 43,
+        "enunciado": "No contexto da arquitetura J2EE, o uso de stateless session beans",
+        "alternativas": [
+            "é adequado para tarefas que não requerem manter dados específicos de um cliente entre múltiplas chamadas.",
+            "impõe a existência de uma única instância do session bean para toda a aplicação.",
+            "requer a anotação da classe com a expressão @Stateful.",
+            "é adequado para a implementação de um carrinho de compras de um e-commerce, no qual dados específicos de um cliente são preservados na sessão.",
+            "restringe a invocação do session bean somente por outra classe executada na mesma JVM, não possibilitando chamadas recebidas remotamente."
+        ],
+        "gabarito": "é adequado para tarefas que não requerem manter dados específicos de um cliente entre múltiplas chamadas."
+    },
+    {
+        "id": 44,
+        "enunciado": "Julgue o próximo item, relativos a Spring Eureka, Zuul, Map Struct, service discovery e Swagger.\nMapStruct é um gerador de código que permite realizar a implementação de mapeamentos entre tipos de bean Java com base em uma abordagem de convenção sobre configuração, permitindo gerar mapeamentos de bean em tempo de compilação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 45,
+        "enunciado": "Em um projeto Java que utiliza MapStruct com o Maven como sistema de build, é necessário que as implementações das interfaces de mapeamento sejam geradas automaticamente em tempo de compilação. Para isso, além da dependência principal do MapStruct, a dependência que deve ser adicionada no pom.xml para que a geração ocorra corretamente é a",
+        "alternativas": [
+            "org.mapstruct-dependencies.",
+            "mapstruct-processor.",
+            "org.mapstruct-components.",
+            "mapstruct-compiler-plugin.",
+            "mapstruct-dependency."
+        ],
+        "gabarito": "mapstruct-processor."
+    },
+    {
+        "id": 46,
+        "enunciado": "Em uma aplicação corporativa Java desenvolvida com JaKarta EE 11, que utiliza recursos de injeção de dependência via Contexts and Dependency Injection (CDI), considere a seguinte classe de serviço:\n@RequestScoped public class RelatorioService { @Asynchronous public Future<String> gerarRelatorioAsync (String clienteId) { // Simulação de tarefa demorada try { Thread.sleep(3; } catch (InterruptedException\ne) {} return new AsyncResult<>(\"Relatório para: \" + clienteId);\n} } Com base nos conceitos da plataforma Jakarta EE e no ciclo de vida dos beans gerenciados por CDI, a anotação @RequestScoped aplicada à classe RelatorioService",
+        "alternativas": [
+            "garante que a classe RelatorioService não será excluída na compilação ou build otimizado.",
+            "marca a classe RelatorioService como uma entidade persistente no banco de dados.",
+            "executa a classe em background, sem interromper execuções que estão em andamento.",
+            "define que uma nova instância da classe será criada para cada requisição HTTP.",
+            "define que a instância dessa classe será única durante todo o ciclo de vida da aplicação (singleton)."
+        ],
+        "gabarito": "define que uma nova instância da classe será criada para cada requisição HTTP."
+    },
+    {
+        "id": 47,
+        "enunciado": "Marcos está desenvolvendo uma aplicação utilizando Spring Boot 3. Ele precisa garantir que um Bean só seja inicializado após o outro. Para isso, Marcos pode optar por utilizar a anotação",
+        "alternativas": [
+            "@Primary.",
+            "@After.",
+            "@Lazy.",
+            "@DependsOn."
+        ],
+        "gabarito": "@DependsOn."
+    },
+    {
+        "id": 48,
+        "enunciado": "A respeito de arquiteturas de microsserviços, julgue o item que se segue.\nO MapStruct exige que todas as propriedades dos objetos de origem e destino tenham exatamente o mesmo nome; caso contrário, o mapeamento falhará durante a compilação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 49,
+        "enunciado": "No que diz respeito aos servidores de aplicação Java, julgue o item que se segue.\nUm enterprise bean de sessão permite que aplicativos Java EE processem mensagens de forma assíncrona, semelhantemente a um ouvinte de eventos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 50,
+        "enunciado": "Um Tribunal está migrando um sistema legado para Jakarta EE 8 com o servidor WildFly e precisa de um módulo de relatórios implementado como um EJB que seja sem estado para garantir escalabilidade, acessível remotamente via JNDI, disponível no JNDI global e que exija que o cliente já esteja em uma transação ativa ao invocar seus métodos.\nA melhor abordagem para atender a esses requisitos é implementar o EJB como",
+        "alternativas": [
+            "@Singleton, expor uma interface @Remote, configurar o atributo de transação como TransactionAttributeType.SUPPORTS e disponibilizá-lo no JNDI global.",
+            "@MessageDriven Bean, configurar o atributo de transação como TransactionAttributeType.REQUIRED e disponibilizá-lo no JNDI global.",
+            "@Stateless, expor uma interface @Remote, configurar o atributo de transação como TransactionAttributeType.MANDATORY e garantir sua disponibilidade no JNDI global.",
+            "@Stateful, expor uma interface @Remote, configurar o atributo de transação como TransactionAttributeType.REQUIRED e disponibilizá-lo apenas no JNDI local.",
+            "@Stateless, expor uma interface @Local, configurar o atributo de transação como TransactionAttributeType.MANDATORY e acessar o EJB via injeção de dependência."
+        ],
+        "gabarito": "@Stateless, expor uma interface @Remote, configurar o atributo de transação como TransactionAttributeType.MANDATORY e garantir sua disponibilidade no JNDI global."
+    },
+    {
+        "id": 51,
+        "enunciado": "No mundo do desenvolvimento de aplicações corporativas em Java, o Enterprise Java Bean (EJB) desempenha um papel crucial. EJBs são componentes Java que facilitam o desenvolvimento de aplicações distribuídas, escaláveis e transacionais. Eles são utilizados para encapsular a lógica de negócios e lidam com diversas responsabilidades complexas, como gerenciamento de transações, persistência, segurança entre outras. O papel de um Enterprise Java Bean (EJB) é apresentado CORRETAMENTE na alternativa:",
+        "alternativas": [
+            "Criar interfaces gráficas.",
+            "Gerenciar transações e persistência.",
+            "Servir conteúdos estáticos.",
+            "Manipular arquivos XML."
+        ],
+        "gabarito": "Gerenciar transações e persistência."
+    },
+    {
+        "id": 52,
+        "enunciado": "Em relação à linguagem de programação Java, à arquitetura distribuída de microsserviços e à biblioteca Flyway, julgue os próximos itens MapStruct é um gerador de código que simplifica a implementação de mapeamentos entre tipos de bean Java.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 53,
+        "enunciado": "O desenvolvedor Luís implementou a interface Java ProcessoAB. O ProcessoAB mapeia a conversão de objetos da classe ProcessoA em objetos da classe ProcessoB através da ferramenta MapStruct. O atributo “nome” do ProcessoA corresponde ao atributo “titulo” do ProcessoB. A fim de orientar o correto mapeamento entre atributos de nomes diferentes, Luís recorreu à anotação Java do MapStruct que torna explícitos os nomes dos atributos mapeados.\nLuís recorreu à anotação do MapStruct:",
+        "alternativas": [
+            "Mapper;",
+            "Mapping;",
+            "AfterMapping;",
+            "MapperConfig;",
+            "BeanMapping."
+        ],
+        "gabarito": "Mapping;"
+    },
+    {
+        "id": 54,
+        "enunciado": "André está desenvolvendo um sistema com uso de EJBs, os objetos distribuídos da plataforma Java, e resolveu estudar a arquitetura adotada na plataforma JEE.\nSua análise levou à conclusão de que a implementação do pool de Session Beans segue o padrão:",
+        "alternativas": [
+            "Proxy;",
+            "Adapter;",
+            "Flyweight;",
+            "Abstract Factory;",
+            "Chain of Responsibility."
+        ],
+        "gabarito": "Flyweight;"
+    },
+    {
+        "id": 55,
+        "enunciado": "São anotações de proteção de acesso (Securing Access) ao Enterprise Java Beans (EJB) versão 3.2:",
+        "alternativas": [
+            "@DeclareBeans, @PermitFull, @DenyFull, @RolesAll e @Run.",
+            "@SecurityBeans, @PermitFull, @DenyFull, @RolesAll e @Run.",
+            "@DeclareRoles, @PermitAll, @DenyAll, @RolesAll e @RunAs.",
+            "@SecurityRoles, @PermitAll, @DenyAll, @RolesAllowed e @RunAs.",
+            "@DeclareRoles, @PermitAll, @DenyAll, @RolesAllowed e @RunAs."
+        ],
+        "gabarito": "@DeclareRoles, @PermitAll, @DenyAll, @RolesAllowed e @RunAs."
+    },
+    {
+        "id": 56,
+        "enunciado": "O package javax.ejb do Java EE v8 contém as classes e interfaces Enterprise JavaBeans que definem os contratos entre o bean corporativo e seus clientes e entre o bean corporativo e o contêiner EJB. As interfaces válidas desse package são:",
+        "alternativas": [
+            "EBJHome – ManagedTask – LastExecution.",
+            "EBJTimedObject – Context – FisrtExecution.",
+            "EBLocalHost- Coversion – AlterableContext.",
+            "EBJContext – Timer – SessionSynchronization.",
+            "EBJHandle – DDBeanRoot - J2eeApplicationObject."
+        ],
+        "gabarito": "EBJContext – Timer – SessionSynchronization."
+    },
+    {
+        "id": 57,
+        "enunciado": "Julgue o próximo item, a respeito de conceitos de servidor de aplicação contêiner WEB e EJB.\nEJB (Enterprise Java Beans) utiliza máquinas clientes que funcionam como um gateway para os clientes que usam os componentes de um navegador da Web e um plug- in Java executados juntos no cliente.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 58,
+        "enunciado": "Em uma aplicação Java que utiliza MapStruct, em condições ideais, um usuário tem uma classe chamada Processo e uma chamada ProcessoDto. Deseja criar uma interface MapStruct chamada ProcessoMap para mapear de ProcessocDto para Processo e vice-versa. Essa interface deve ser anotada, imediatamente antes de sua declaração, com",
+        "alternativas": [
+            "@Map (type=\"MapStruct\").",
+            "@Mmapping.",
+            "@Mapstruct.",
+            "@Mapper.",
+            "@InterfaceMapper."
+        ],
+        "gabarito": "@Mapper."
+    },
+    {
+        "id": 59,
+        "enunciado": "Em uma aplicação, considere a existência de uma classe chamada Advogado com o atributo nome e outra classe AdvogadoDto com o atributo nomeCompleto.\nUsando MapStruct, uma Analista criou a interface abaixo.\n..I..\npublic interface AdvogadoMapper {..II.. (target = \"nomeCompleto\", source = \"nome\") AdvogadoDto advogadoToAdvogadoDto(Advogado advogado);\n} Para que o mapeamento seja realizado corretamente, as lacunas I e II devem ser preenchidas, correta e respectivamente, por",
+        "alternativas": [
+            "@Mapper e @Mapping.",
+            "@Mapping e @Equals.",
+            "@MapStruct e @Mappings.",
+            "@MapStruct e @Map.",
+            "@Mapper e @Equity."
+        ],
+        "gabarito": "@Mapper e @Mapping."
+    },
+    {
+        "id": 60,
+        "enunciado": "Para definir um mapeador de bean com MapStruct deve-se definir uma interface Java com os métodos de mapeamento necessários e anotá-la com a anotação",
+        "alternativas": [
+            "@MapStruct.",
+            "@EntityMapper.",
+            "@GeneratedMapper.",
+            "@Mapper.",
+            "@BeanMapping."
+        ],
+        "gabarito": "@Mapper."
+    },
+    {
+        "id": 61,
+        "enunciado": "Quanto às principais API's, do J2EE (Java 2 Enterprise Edition), selecione a única alternativa que esteja tecnicamente incorreta.",
+        "alternativas": [
+            "JCW (Java Connection Web).",
+            "EJBs (Enterprise JavaBeans).",
+            "JDBC (Java Database Connectivity).",
+            "JTA (Java Transaction API)."
+        ],
+        "gabarito": "JCW (Java Connection Web)."
+    },
+    {
+        "id": 62,
+        "enunciado": "O contêiner EJB (Enterprise JavaBeans) é definido como um dos componentes do servidor J2EE (Java 2 Enterprise Edition), sendo que esse contêiner fornece diversas funcionalidades-chave para a programação utilizando o J2EE. Assinale a alternativa que NÃO apresenta uma dessas funcionalidades.",
+        "alternativas": [
+            "Comunicações Remotas.",
+            "Ferramentas de GUI.",
+            "Persistência.",
+            "Simultaneidade.",
+            "Conjunto de Conexão com o Banco de Dados."
+        ],
+        "gabarito": "Ferramentas de GUI."
+    },
+    {
+        "id": 63,
+        "enunciado": "Acerca de API, julgue o item a seguir.\nNa execução de uma API, os códigos de erro originados no servidor seguem o padrão 4xx, e os códigos de sucesso seguem o padrão 1xx.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 64,
+        "enunciado": "Um desenvolvedor precisa criar uma aplicação empresarial que utilize as especificações da plataforma Java EE. Considerando os itens abaixo abaixo:\n1. Persistência de dados em um banco relacional.\n2. Interface gráfica web rica e baseada em componentes.\n3. Gerenciamento de transações distribuídas em múltiplos recursos.\n4. Comunicação assíncrona entre sistemas.\nQuais especificações devem ser utilizadas para atender aos requisitos descritos, respectivamente?",
+        "alternativas": [
+            "JPA para persistência, JSF para interface gráfica, JTA para transações e JMS para comunicação assíncrona.",
+            "EJB para persistência, JSF para interface gráfica, JPA para transações e JMS para comunicação assíncrona.",
+            "JTA para persistência, EJB para interface gráfica, JSF para transações e JPA para comunicação assíncrona.",
+            "JMS para persistência, JPA para interface gráfica, EJB para transações e JSF para comunicação assíncrona."
+        ],
+        "gabarito": "JPA para persistência, JSF para interface gráfica, JTA para transações e JMS para comunicação assíncrona."
+    },
+    {
+        "id": 65,
+        "enunciado": "Julgue o item subsecutivo, relativo à arquitetura orientada a serviços (SOA), à arquitetura distribuída, à especificação de web services e a dispositivos móveis.\nAPIs RESTful utilizam formatos leves, como JSON ou XML, enquanto APIs SOAP utilizam exclusivamente XML para a troca de dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 66,
+        "enunciado": "Ao usar o Gateway API com o Service Discovery no contexto da PDPJ-Br, a principal consequência para o frontend em uma aplicação baseada em microsserviços é que o",
+        "alternativas": [
+            "frontend se torna o responsável pela chamada direta de cada microsserviço individualmente.",
+            "Gateway API reduz o número de chamadas externas que o frontend precisa fazer, tornando a comunicação mais eficiente.",
+            "frontend deve gerenciar manualmente as atualizações de endpoint de cada serviço individual registrado.",
+            "Gateway API diminui a necessidade de autenticação, uma vez que o Service Discovery é integrado ao SSO.",
+            "frontend deve configurar manualmente os IPs e portas dos serviços disponíveis na plataforma."
+        ],
+        "gabarito": "Gateway API reduz o número de chamadas externas que o frontend precisa fazer, tornando a comunicação mais eficiente."
+    },
+    {
+        "id": 67,
+        "enunciado": "Julgue o próximo item, a respeito de desenvolvimento de aplicações em APIs no contexto de plataformas GeoWEB.\nNa criação de aplicações em plataformas GeoWEB, o uso de APIs RESTful é geralmente preferível ao uso de APIs SOAP, devido à sua maior flexibilidade e facilidade de integração com diferentes sistemas e tecnologias.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 68,
+        "enunciado": "Julgue o item a seguir, referente a ferramentas de integração assíncrona, microsserviços, arquitetura orientada a serviços e gerenciamento de serviços.\nUm API gateway é responsável pelo armazenamento de dados temporários, e, apesar de executar várias tarefas transversais, não realiza algumas funções, tais como terminação de SSL, TLS mútuo e limitação de taxa.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 69,
+        "enunciado": "Uma Analista criou o método abaixo para acessar um banco de dados utilizando JDBC:\npublic Connection getConnection() { try { Class.forName(\"com.mysql.cj.jdbc.Driver\");\nreturn DriverManager.getConnection(\"jdbc:mysql://localhost:3306/b406f\", \"user\", \"pass\");\n} catch (Exception\ne) { System.out.println(\"Erro de conexão: \" + e.getMessage());\n} return null;\n} A principal falha nesse código, considerando boas práticas de administração de exceções, é que",
+        "alternativas": [
+            "a conexão deveria ser aberta em um bloco finally.",
+            "a conexão deveria ser retornada apenas dentro do bloco catch.",
+            "o método deveria lançar as exceções ao invés de capturá-las.",
+            "não há necessidade de carregar o Driver com Class.forName em JDBCs.",
+            "o bloco catch deveria encerrar a aplicação imediatamente."
+        ],
+        "gabarito": "o método deveria lançar as exceções ao invés de capturá-las."
+    },
+    {
+        "id": 70,
+        "enunciado": "O acesso a um banco de dados, utilizando o JDBC, ocorre por meio de classes e interfaces fornecidas por um pacote da linguagem Java.\nEsse pacote é o",
+        "alternativas": [
+            "java.sql.",
+            "java.io.",
+            "java.net.",
+            "java.util.",
+            "javax.swing."
+        ],
+        "gabarito": "java.sql."
+    },
+    {
+        "id": 71,
+        "enunciado": "O JDBC é uma tecnologia importante nas aplicações WEB que utilizam a linguagem JAVA.\nAssinale a afirmativa incorreta sobre esta tecnologia.",
+        "alternativas": [
+            "JDBC é uma camada de abstração que permite que uma aplicação JAVA possa se conectar a diversos bancos de dados relacionais.",
+            "A API JDBC passa as chamadas da aplicação para um controlador que pode ter vários tipos. O Tipo 1 depende de um cliente previamente instalado na máquina enquanto que o Tipo 4 pode ser baixado da rede automaticamente.",
+            "Os Servlets são tipicamente utilizados no módulo de Visualização do padrão MVC que recupera diretamente os dados utilizando exclusivamente a API JDBC TIPO. 1.",
+            "As classes de modelo, no padrão MVC implementado em JAVA, agem como intermediário entre o controlador e a API JDBC que irá prover os dados.",
+            "O comando JAVA Class.forName carrega e registra o controlador JDBC."
+        ],
+        "gabarito": "Os Servlets são tipicamente utilizados no módulo de Visualização do padrão MVC que recupera diretamente os dados utilizando exclusivamente a API JDBC TIPO. 1."
+    },
+    {
+        "id": 72,
+        "enunciado": "Com relação a barramento de serviços corporativos (EBS), e dos aspectos de segurança e versatilidade do API Gateway, julgue o item subsequente.\nUma das vantagens de se usar um API Gateway é que ele permite implementar a segurança da API em um único ponto, em vez de em cada serviço individual.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 73,
+        "enunciado": "Considere o seguinte trecho de código ainda em desenvolvimento Node.js:\nconst express = require('express');\nconst app = express();\napp.get('/users', (req, res) => { // A FAZER: Implementar a lógica.\n});\napp.post('/users', (req, res) => { // A FAZER: Implementar a lógica.\n});\napp.put('/users/:id', (req, res) => { // A FAZER: Implementar a lógica.\n});\napp.delete('/users/:id', (req, res) => { // A FAZER: Implementar a lógica.\n});\napp.listen(3000, () => { console.log('Servidor ON’);\n});\nCom base no código acima, assinale a afirmativa incorreta.",
+        "alternativas": [
+            "O trecho de código demonstra a estrutura inicial para a criação de uma API RESTful com Node.js e Express, mas necessita da implementação detalhada das funcionalidades específicas dentro de cada rota.",
+            "O servidor está configurado para ouvir na porta 3000, indicando que as requisições devem ser enviadas para essa porta.",
+            "O código estabelece as rotas básicas para a implementação de um CRUD de usuários em uma aplicação Express, mas ainda não implementou a lógica de negócios para cada operação.",
+            "O trecho de código ilustra a implementação de um sistema de autenticação de usuários, com rotas específicas para login e logout.",
+            "O uso de parâmetros de rota, como em '/users/:id' para as operações PUT e DELETE, indica a intenção de manipular usuários específicos, embora a implementação ainda esteja pendente."
+        ],
+        "gabarito": "O trecho de código ilustra a implementação de um sistema de autenticação de usuários, com rotas específicas para login e logout."
+    },
+    {
+        "id": 74,
+        "enunciado": "Em uma arquitetura de microsserviços, os aplicativos do cliente normalmente precisam consumir a funcionalidade de mais de um microsserviço. Se esse consumo for executado diretamente, o cliente precisará manipular várias chamadas para terminais de microsserviço. Portanto, ter um nível intermediário ou indireto (Gateway) pode ser conveniente para aplicativos baseados em microsserviço. Se você não tiver Gateways de API, os aplicativos do cliente deverão enviar solicitações diretamente aos microsserviços, o que causará problemas. Marque a alternativa correta que apresentam os problemas neste contexto.",
+        "alternativas": [
+            "Complexidade de gerenciamento e monitoramento.",
+            "Baixa escalabilidade e flexibilidade.",
+            "Acoplamento, Problemas de segurança, Interesses paralelos.",
+            "Alto acoplamento e coesão baixa."
+        ],
+        "gabarito": "Acoplamento, Problemas de segurança, Interesses paralelos."
+    },
+    {
+        "id": 75,
+        "enunciado": "Em uma aplicação web desenvolvida com Node.js e seguindo a arquitetura RESTful, qual é a abordagem mais apropriada para autenticação de usuários em uma API?",
+        "alternativas": [
+            "Utilizar o esquema de autenticação Basic Auth, enviando as credenciais do usuário (usuário e senha) em cada requisição HTTP.",
+            "Implementar um token de autenticação JWT (JSON Web Token), que é gerado após o login bem-sucedido e enviado pelo cliente em cada requisição subsequente.",
+            "Armazenar as credenciais de usuário em cookies seguros no cliente e validá-las em cada requisição HTTP.",
+            "Utilizar o protocolo OAuth 2.0 para delegação de autorização e autenticação, permitindo que terceiros acessem os recursos protegidos em nome do usuário."
+        ],
+        "gabarito": "Implementar um token de autenticação JWT (JSON Web Token), que é gerado após o login bem-sucedido e enviado pelo cliente em cada requisição subsequente."
+    },
+    {
+        "id": 76,
+        "enunciado": "Acerca de gerenciamento de API, de RESTful e de ITIL 4, julgue o item subsequente.\nUm API gateway atua como um ponto central de entrada para várias APIs e desempenha um papel importante na simplificação da gestão de tráfego, autenticação, autorização e monitoramento das chamadas de API.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 77,
+        "enunciado": "Um desenvolvedor está utilizando JDBC (Java Database Connectivity) para interagir com um banco de dados e obteve uma variável rs com a linha de código:\nrs = java.sql.DriverManager.executeQuery(\"SELECT * FROM sua_tabela\");\nConsiderando-se esse contexto, qual das seguintes linhas de código mostra corretamente como avançar a posição do cursor quando é necessário obter o próximo registro?",
+        "alternativas": [
+            "rs.moveNext();",
+            "rs.fetchNext();",
+            "rs.next();",
+            "rs.getNext();",
+            "rs.advance();"
+        ],
+        "gabarito": "rs.next();"
+    },
+    {
+        "id": 78,
+        "enunciado": "No universo do desenvolvimento em Java, especialmente na arquitetura tecnologias e APls Edition (J2EE), diversas fundamentais para a construção desempenham papéis fundamentais para a construção desempenham papéis fundamentais para a construção eficiente de aplicações robustas e escaláveis. Uma dessas tecnologia é o Java Database Connectivity (JDBC), que tecnologias é o Java d a aplicações Java com bancos de permite a interação de JDBC na arquitetura J2EE é dados CORRETAMENTE na alternativa:",
+        "alternativas": [
+            "Uma biblioteca para interface gráfica.",
+            "Um framework de mapeamento objeto-relacional.",
+            "Uma API para acesso a banco de dados.",
+            "Um formato de configuração."
+        ],
+        "gabarito": "Uma API para acesso a banco de dados."
+    },
+    {
+        "id": 79,
+        "enunciado": "Em relação à linguagem de programação Java, à arquitetura distribuída de microsserviços e à biblioteca Flyway, julgue os próximos itens Zuul é uma solução que permite a realização de roteamento dinâmico e monitoramento, e seus filtros são capazes de atuar na segurança por meio da identificação de requisitos de autenticação para cada recurso e da rejeição de solicitações que não os satisfaçam.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 80,
+        "enunciado": "Qual componente é descrito pela seguinte definição? \"Um padrão de software amplamente utilizado em arquiteturas de microsserviços, atuando como um ponto de entrada único para todas as requisições dos clientes e roteando essas requisições para os microsserviços apropriados.\"",
+        "alternativas": [
+            "Reverse Proxy.",
+            "Load Balancer.",
+            "Service Mesh.",
+            "API Gateway."
+        ],
+        "gabarito": "API Gateway."
+    },
+    {
+        "id": 81,
+        "enunciado": "No que concerne a Java, Zuul e Spring Cloud, julgue o item a seguir.\nComo um aplicativo de serviço de borda, o Zuul é construído para permitir roteamento dinâmico e monitoramento que lida com solicitações e executa o roteamento de aplicativos de microsserviços, funcionando como porta de entrada para os pedidos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 82,
+        "enunciado": "Acerca da definição de classe, da utilização de encapsulamento, da sobrescrita de métodos e do acesso ao banco de dados, julgue o item abaixo:\nJDBC utiliza drivers Java específicos para cada banco de dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 83,
+        "enunciado": "Avalie se a maneira correta de lidar com erros em uma API RESTful inclui as seguintes ações:\nI. Retornar um código de status 200 OK com uma mensagem de erro no corpo da resposta.\nII. Retornar um código de status 400 Bad Request com uma mensagem de erro no corpo da resposta.\nIII. Retornar um código de status 500 Internal Server Error com uma mensagem de erro no corpo da resposta.\nIV. Retornar um código de status 200 OK com uma mensagem de erro no cabeçalho de resposta.\nV. Retornar um código de status 202 Accepted com uma mensagem de erro no corpo da resposta.\nEstão corretas as ações",
+        "alternativas": [
+            "I e II, apenas.",
+            "II e III, apenas.",
+            "III e IV, apenas.",
+            "IV e V, apenas.",
+            "I, II, III, IV e V."
+        ],
+        "gabarito": "II e III, apenas."
+    },
+    {
+        "id": 84,
+        "enunciado": "Julgue o item a seguir, relacionados a desenvolvimento web em Java.\nEm JDBC, o uso da interface PreparedStatement para a execução de consultas deve ser feito em casos específicos, já que a consulta é compilada em tempo de execução.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 85,
+        "enunciado": "Em uma aplicação Java, criada e executada em condições ideais, uma analista deseja realizar uma conexão com um banco de dados utilizando o driver JDBC adequado. Para tentar estabelecer uma conexão com o URL do banco de dados fornecido, ela deverá chamar o método getConnection da classe",
+        "alternativas": [
+            "PreparedStatement.",
+            "Connection.",
+            "Persistence.",
+            "DriverManager.",
+            "SQLConnection."
+        ],
+        "gabarito": "DriverManager."
+    },
+    {
+        "id": 86,
+        "enunciado": "Um benefício do uso da API JNDI em aplicações Java é a",
+        "alternativas": [
+            "falta de suporte ao uso de transações, tornando a escrita do código mais fácil.",
+            "existência de um banco de dados relacional embarcado (embedded), próprio da JNDI, para dar suporte à persistência de objetos, dispensando o uso de outros servidores tais como MySQL.",
+            "conversão automática de bytecode em código de máquina nativo do processador subjacente, aumentando o desempenho da aplicação.",
+            "possibilidade de chamar funções e métodos de arquivos binários baseados na tecnologia.NET, a partir de programas Java, facilitando a integração de sistemas.",
+            "possibilidade de escrever código para acessar dados em uma ou várias máquinas, desde que os recursos estejam acessíveis a partir de um diretório JNDI."
+        ],
+        "gabarito": "possibilidade de escrever código para acessar dados em uma ou várias máquinas, desde que os recursos estejam acessíveis a partir de um diretório JNDI."
+    },
+    {
+        "id": 87,
+        "enunciado": "O seguinte programa Java utiliza a API JDBC para se conectar a um banco de dados MySQL.\nimport java.sql.*;\nclass MysqlTest { public static void main(String args[]) { try { Class.forName(\"com.mysql.jdbc.Driver\");\nConnection con= DriverManager.getConnection( \"jdbc:mysql://localhost:3306/sistema\", \"root\",\"pass\");\nStatement stmt=con.createStatement();\nResultSet rs= stmt.executeQuery(\"select * from dados\");\nwhile(rs.next()) System.out.println(rs.getString(2));\nrs.close();\nstmt.close();\ncon.close();\n} catch(Exception\ne) { System.out.println(e);\n} }} O propósito desse programa é exibir o conteúdo",
+        "alternativas": [
+            "da coluna denominada dados de todas as linhas da tabela sistema.",
+            "de todas as colunas da primeira linha da tabela dados.",
+            "de todas as colunas da segunda linha da tabela dados.",
+            "da segunda coluna de todas as linhas da tabela dados.",
+            "da coluna denominada dados da segunda linha da tabela sistema."
+        ],
+        "gabarito": "da segunda coluna de todas as linhas da tabela dados."
+    },
+    {
+        "id": 88,
+        "enunciado": "A Jackson API é uma API:",
+        "alternativas": [
+            "Java de processamento XML.",
+            "Java de processamento JSON.",
+            "para implementar persistência em Java.",
+            "para implementar e processar lambda em Java.",
+            "SOAP em Java para implementar web services em XML."
+        ],
+        "gabarito": "Java de processamento JSON."
+    },
+    {
+        "id": 89,
+        "enunciado": "O uso de Portlets simplifica a construção de portais com base na tecnologia Java Web, tratando as divisões do portal como aplicativos independentes e interoperáveis, que podem ser organizados hierarquicamente.\nA versão 3 da API permite a utilização de anotações, sendo correto afirmar que:",
+        "alternativas": [
+            "eventos são definidos pela anotação EventDefinition, no parâmetro events de PortletConfiguration;",
+            "o conteúdo do Portlet é fornecido por um método anotado com HeaderMethod;",
+            "o atributo portletName é de preenchimento obrigatório para a anotação PortletApplication;",
+            "um título para o Portlet seria definido no atributo title da anotação PortletApplication;",
+            "o processamento de um evento é implementado em um método anotado com EventMethod, sendo obrigatório fornecer os atributos portletName e processingEvents."
+        ],
+        "gabarito": "o processamento de um evento é implementado em um método anotado com EventMethod, sendo obrigatório fornecer os atributos portletName e processingEvents."
+    },
+    {
+        "id": 90,
+        "enunciado": "Uma API (Application Programming Interfaces ou Interfaces de Programação de Aplicações) é uma especificação que facilita a troca de mensagens ou dados entre duas ou mais aplicações de software diferentes. Uma definição de API mais informal e normalmente adotada entre engenheiros de software profissionais abrange qualquer interface bem definida que defina o serviço que um componente, um módulo ou uma aplicação fornece a outros elementos de software. Uma vantagem do desenvolvimento com APIs é que a sua criação e sua utilização economiza tempo de programação. Por que isso ocorre?",
+        "alternativas": [
+            "O trabalho de análise de uma API é reduzido.",
+            "APIs trabalham com aplicativos NoCode.",
+            "As funcionalidades de APIs são muito simples.",
+            "Os testes de APIs não são necessários.",
+            "Faz-se a reutilização de funcionalidades que a API fornece."
+        ],
+        "gabarito": "Faz-se a reutilização de funcionalidades que a API fornece."
+    },
+    {
+        "id": 91,
+        "enunciado": "Acerca de API Gateway, julgue o próximo item.\nConsidere-se que seja necessário criar uma API Gateway para um serviço back-end que responde a solicitações HTTP na rota /api/fiscalização. Nessa situação hipotética, na etapa de configuração da rota para o serviço de back-end, é necessário especificar, na API Gateway, o método HTTP (GET, POST etc.) que a aplicação back-end suporta, para que a integração funcione corretamente.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 92,
+        "enunciado": "O seguinte trecho de um diagrama de classes UML modela uma API RESTful acessível por HTTP.\nConsiderando as convenções do estilo arquitetural REST, dentre as alternativas a seguir, é esperado que o acesso de leitura ao produto cujo identificador é 123 seja feito pelo seguinte caminho a partir da URL api.lojaexemplo.com:",
+        "alternativas": [
+            "/produtos/123.",
+            "/produto?id=123.",
+            "/api/produto?id=123.",
+            "/api?resource=produto&id=123.",
+            "/resource?name=produto&id=123."
+        ],
+        "gabarito": "/produtos/123."
+    },
+    {
+        "id": 93,
+        "enunciado": "Os pacotes padrão que fazem parte especificação da API JSR 362 Portlet 3.0 são",
+        "alternativas": [
+            "java.portlet, java.portlets.annotation e java.portlets.flag.",
+            "javax.portlet, javax.portlet.annotations e javax.portlet.filter.",
+            "javax.portlets, javax.portlets.annotations e javax.portlets.flags.",
+            "java.portlet.rss, java.portlet.annotations.rss, java.portlet.filter.rss e java.portlet.request.rss.",
+            "javax.portlets.rss, javax.portlets.annotations.rss, javax.portlets.flags.rs, javax.portlet.request.rss e javax.portlet.responses.rss."
+        ],
+        "gabarito": "javax.portlet, javax.portlet.annotations e javax.portlet.filter."
+    },
+    {
+        "id": 94,
+        "enunciado": "Com relação a integrações de sistemas de informação por meio de web services e APIs, julgue o item a seguir.\nA integração do tipo nativa é realizada por meio do desenvolvimento e da manutenção de APIs de integração personalizadas internamente, utilizando-se de equipes capazes de projetar, implantar e manter as APIs em conformidade com as especificações da integração.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 95,
+        "enunciado": "Com relação a integrações de sistemas de informação por meio de web services e APIs, julgue o item a seguir.\nO Auth é um padrão de tecnologia aberta de delegação de acesso, projetado para permitir que um site ou aplicativo acesse recursos hospedados por outros aplicativos na Web em nome de um usuário, permitindo o compartilhamento de conteúdos sem a necessidade de compartilhamento de senhas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 96,
+        "enunciado": "JDBC funciona como uma interface entre uma aplicação desenvolvida em Java e um banco de dados relacional. Assinale a alternativa que se refere ao tipo de driver que converte as chamadas JDBC de acordo com o banco de dados do fabricante:",
+        "alternativas": [
+            "Driver de API nativa.",
+            "Driver de protocolo de rede.",
+            "Driver fino.",
+            "Driver set.",
+            "Driver de ponte JDBC-ODBC."
+        ],
+        "gabarito": "Driver fino."
+    },
+    {
+        "id": 97,
+        "enunciado": "Maria está criando uma página em seu site para o cadastro de clientes, onde a busca pelo CEP preencherá automaticamente parte dos dados do endereço.\nConsiderando que o serviço de busca é oferecido por um Web Service SOAP, e que Maria irá utilizar XMLHttpRequest, no código Java Script, a função de callback para a consulta deve:",
+        "alternativas": [
+            "confirmar a recepção bem-sucedida, com status 500, utilizar o atributo responseText, transformado para um objeto com JSON.parse, e obter os dados nos atributos do objeto;",
+            "verificar se a recepção foi concluída, com readyState valendo 0 e status 304, e utilizar o atributo response da resposta, com uso de JSON.stringify para obtenção dos dados;",
+            "verificar se a recepção foi concluída, com readyState valendo 3 e status 404, utilizar o atributo responseXML, transformado para objeto com JSON.parse, e obter os dados do objeto;",
+            "confirmar a recepção bem-sucedida, com status 304, utilizar o atributo responseText da resposta, e obter os dados através dos métodos de DOMParser;",
+            "verificar se a recepção foi concluída, com readyState valendo 4 e status 200, e utilizar o atributo responseXML da resposta, com a obtenção dos dados pelos métodos de DOMParser."
+        ],
+        "gabarito": "verificar se a recepção foi concluída, com readyState valendo 4 e status 200, e utilizar o atributo responseXML da resposta, com a obtenção dos dados pelos métodos de DOMParser."
+    },
+    {
+        "id": 98,
+        "enunciado": "Assinale a opção que apresenta a função JDBC ResultSet que executa a instrução SQL fornecida, que retorna um único objeto ResultSet.",
+        "alternativas": [
+            "executeBatch( )n.",
+            "executeQuery( ).",
+            "executeUpdate( ).",
+            "execute( ).",
+            "executeResult( )."
+        ],
+        "gabarito": "executeQuery( )."
+    },
+    {
+        "id": 99,
+        "enunciado": "Julgue o item a seguir, acerca de CSS3, JMS, JSON e JUnit.\nMensagens trocadas por meio de JMS têm como principal característica e vantagem a entrega garantida.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 100,
+        "enunciado": "Julgue o próximo item, a respeito de Spring Framework, JDBC, iText, Java 8 e Apache CXF.\nO framework Apache CXF permite que a transmissão de dados binários seja feita por meio de mensagens MIME, o que traz eficiência à transmissão.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 101,
+        "enunciado": "Julgue o próximo item, a respeito de Spring Framework, JDBC, iText, Java 8 e Apache CXF.\nEm JDBC, o método executeUpdate() pode ser usado para realizar um update em banco de dados, caso em que esse método recebe uma expressão SQL cujos valores de retorno serão tratados por um ResultSet.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 102,
+        "enunciado": "Em uma aplicação Java, para interagir com um banco de dados H2 usando JDBC um Analista deve indicar (ou registrar) o driver JDBC utilizando o comando",
+        "alternativas": [
+            "DriverManager.JDBCDriver(\"org.h2.Driver\");",
+            "Class.forDriver(\"com.jdbc.h2.Driver\");",
+            "Class.driver(\"com.h2.cj.jdbc.Driver\");",
+            "Connection.JDBCDriver(\"com.jdbc.h2.Driver\");",
+            "Class.forName(\"org.h2.Driver\");"
+        ],
+        "gabarito": "Class.forName(\"org.h2.Driver\");"
+    },
+    {
+        "id": 103,
+        "enunciado": "JDBC é uma funcionalidade do Java EE que pode ser descrito como um conjunto de classes e interfaces que realizam o envio de instruções SQL para qualquer SGBD previamente configurado. Qual afirmação abaixo melhor descreve os ganhos que essa funcionalidade traz?",
+        "alternativas": [
+            "O JDBC permite e facilita a integração entre aplicação e banco de dados, seja ele qual for, desde que exista um driver implementado para o mesmo.",
+            "O JDBC permite e facilita a integração entre aplicação e banco de dados, desde que seja MySQL ou PostgreSQL.",
+            "O JDBC permite e facilita a integração entre a aplicação e o PostgreSQL.",
+            "O JDBC permite e facilita a integração entre a aplicação e o MySQL."
+        ],
+        "gabarito": "O JDBC permite e facilita a integração entre aplicação e banco de dados, seja ele qual for, desde que exista um driver implementado para o mesmo."
+    },
+    {
+        "id": 104,
+        "enunciado": "A classe DriverManager da linguagem Java tem a função de gerenciar uma série JDBC. Um dos seus métodos mais utilizados é o getConnection, que permite estabelecer a conexão com a URL de um banco de dados.\nSobre esse método, é possível afirmar corretamente que",
+        "alternativas": [
+            "ele não possui risco de jogar uma exceção.",
+            "ele requer obrigatoriamente, como parâmetros, um usuário e uma senha.",
+            "ele permite estabelecer a conexão sem fornecer a URL, desde que o usuário seja do tipo admin.",
+            "é possível estabelecer a conexão utilizando o método e fornecendo somente a URL e um objeto da classe Properties.",
+            "a URL fornecida como parâmetro deverá ser iniciada com http://."
+        ],
+        "gabarito": "é possível estabelecer a conexão utilizando o método e fornecendo somente a URL e um objeto da classe Properties."
+    },
+    {
+        "id": 105,
+        "enunciado": "Quanto às tecnologias Java Enterprise Edition (JEE), Java Standard Edition (JSE) e Java Micro Edition (JME), julgue o item a seguir.\nCada configuração da JME pode ter somente um perfil associado, o qual define um conjunto adicional de bibliotecas e características de empresas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 106,
+        "enunciado": "Pamela, Analista de Sistemas da Procuradoria, está utilizando uma API em JAVA para conseguir acesso a serviços de diretórios. Essa API transige que aplicações do tipo clientes acessem dados ou objetos através de um nome. Qual é o nome dessa API?",
+        "alternativas": [
+            "APPLET.",
+            "AWT.",
+            "JNDI.",
+            "IO.",
+            "LANG."
+        ],
+        "gabarito": "JNDI."
+    },
+    {
+        "id": 107,
+        "enunciado": "A respeito de orquestração de serviços e API gateway, julgue o item a seguir.\nAPIs podem ser protegidas com recursos de autenticação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 108,
+        "enunciado": "A respeito de orquestração de serviços e API gateway, julgue o item a seguir.\nUm gateway de API é utilizado entre o cliente e os serviços back-end, sendo capaz de prover estatísticas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 109,
+        "enunciado": "Julgue o item seguinte, a respeito de JMS (Java Message Service), JUnit e Spring Framework.\nNo JMS, o JMSContext combina uma conexão e uma sessão em um único objeto, de maneira que o uso do JMSContext permite criar produtores de mensagens e consumidores de mensagens.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 110,
+        "enunciado": "Com relação a JSon e JDBC, julgue o item que se segue.\nO JDBC permite a configuração de um pool de conexões, que consiste em um grupo de conexões reutilizáveis para um banco de dados específico.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    }
+]

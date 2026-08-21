@@ -1,0 +1,1649 @@
+[
+    {
+        "id": 1,
+        "enunciado": "Um administrador de sistemas deseja abandonar a configuração manual de servidores via console web para garantir que os ambientes de teste e produção sejam idênticos e auditáveis. Para isso, ele adotou uma ferramenta que permite descrever o estado desejado da infraestrutura através de arquivos de texto.\nConsidere o trecho de código ilustrativo abaixo, escrito na linguagem HCL (HashiCorp Configuration Language):\nresource \"aws_instance\" \"servidor_web\" { ami = \"ami-0c55b159cbfafe1f0\" instance_type = \"t2.micro\" tags = { Name = \"SistemaJudicial\" } } A prática de gerenciamento de operações de TI ilustrada pelo código acima, que permite o provisionamento e a gestão de recursos de tecnologia através de arquivos de definição versionáveis (como no Git), em vez de configurações manuais de hardware ou interfaces gráficas, é denominada:",
+        "alternativas": [
+            "Serverless Computing (computação sem servidor);",
+            "Continuous Integration (integração contínua - CI);",
+            "Infrastructure as Code (infraestrutura como código - IaC);",
+            "Virtual Machine Monitor (monitoramento de máquina virtual);",
+            "Object-Oriented Programming (programação orientada a objetos)."
+        ],
+        "gabarito": "Infrastructure as Code (infraestrutura como código - IaC);"
+    },
+    {
+        "id": 2,
+        "enunciado": "Durante a gestão de uma infraestrutura automatizada via IaC, uma equipe de operações percebeu que alguns recursos estavam com configurações diferentes das definidas originalmente no código. Nenhuma alteração foi registrada nos repositórios ou pipelines. Esse cenário caracteriza um desvio (drift).\nA abordagem adequada para lidar com as ações descritas é:",
+        "alternativas": [
+            "ignorar o desvio, desde que os recursos estejam funcionando corretamente;",
+            "recriar toda a infraestrutura manualmente para garantir que esteja conforme o código;",
+            "desabilitar o controle de versão dos arquivos IaC para evitar conflitos com o estado real;",
+            "permitir alterações manuais nos recursos, desde que documentadas em planilhas compartilhadas;",
+            "implementar uma rotina de verificação periódica entre o estado desejado e o estado atual da infraestrutura."
+        ],
+        "gabarito": "implementar uma rotina de verificação periódica entre o estado desejado e o estado atual da infraestrutura."
+    },
+    {
+        "id": 3,
+        "enunciado": "Acerca de arquitetura de aplicações, julgue o próximo item.\nEm DevOps, o conceito de distribuição contínua refere-se à prática de criar, testar e preparar as alterações de código automaticamente para a produção.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 4,
+        "enunciado": "Uma equipe de especialistas de TI está migrando parte dos serviços para cloud para reduzir o tempo de entrega de atualizações e aumentar a confiabilidade dos módulos que monitoram fluxo de passageiros, intervalos e falhas em tempo real de transportes públicos.\nPara isso, a equipe deve",
+        "alternativas": [
+            "aumentar a automação nos processos de entrega dos containers DevOps, mas evitar frequentes atualizações nos serviços de monitoramento, pois mudanças rápidas tendem a elevar os riscos operacionais nos sistemas de transporte e podem comprometer os módulos críticos.",
+            "priorizar clusters DevOps com parte das validações nas etapas de integração automatizadas, reforçando revisões manuais antes de cada deploy para reduzir eventuais impactos nos módulos responsáveis pelo controle de tráfego.",
+            "configurar os ambientes em cloud utilizando provisionamento estático, reproduzindo a topologia dos servidores locais para facilitar a manutenção, diminuir a necessidade de ajustes contínuos na infraestrutura e aumentar a confiabilidade dos módulos de monitoramento dos transportes.",
+            "manter a separação forte entre os times de desenvolvimento e operações, estabelecendo fluxos independentes de aprovação para que cada atualização passe por etapas distintas antes de chegar à produção.",
+            "adotar pipelines DevOps automatizados e práticas de gestão de serviços em cloud que suportem monitoramento contínuo, provisionamento dinâmico e escalabilidade, assegurando que os módulos críticos do transporte respondam com estabilidade e visibilidade completa durante todo o ciclo de vida."
+        ],
+        "gabarito": "adotar pipelines DevOps automatizados e práticas de gestão de serviços em cloud que suportem monitoramento contínuo, provisionamento dinâmico e escalabilidade, assegurando que os módulos críticos do transporte respondam com estabilidade e visibilidade completa durante todo o ciclo de vida."
+    },
+    {
+        "id": 5,
+        "enunciado": "Uma equipe de TI objetiva reduzir o ciclo entre desenvolvimento e produção de aplicações cloud-native com entrega contínua e confiável.\nNessa situação, para atender à necessidade mencionada, a prática mais recomendada é a aplicação de",
+        "alternativas": [
+            "testes de aceitação somente após implantação final.",
+            "testes de carga apenas em ambiente de desenvolvimento.",
+            "pipeline CI/CD automatizado com testes integrados.",
+            "deploy automatizado com checklist.",
+            "testes de usuário apenas no final do projeto."
+        ],
+        "gabarito": "pipeline CI/CD automatizado com testes integrados."
+    },
+    {
+        "id": 6,
+        "enunciado": "A respeito de testes e métricas de software e de DevOps, julgue o item subsequente.\nO processo de deployment blue/green utiliza dois ambientes de produção com as mesmas configurações, o que permite um método de implantação de baixo risco.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 7,
+        "enunciado": "Julgue o item subsequente, referente à construção e automação de pipelines em nuvens.\nEm pipelines de integração contínua, exige-se intervenção manual para o início de cada etapa do processo de build e testes após uma alteração no código-fonte, a fim de se evitarem erros em commits de código por parte do desenvolvedor.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 8,
+        "enunciado": "Julgue o item subsequente, referente à construção e automação de pipelines em nuvens.\nFerramentas de automação como Jenkins e GitHub Actions permitem implementar pipelines de integração contínua e entrega contínua por meio da execução automática de etapas como compilação, testes e implantação de aplicações após alterações no repositório de código.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 9,
+        "enunciado": "No que concerne a testes de software, métricas de software, DevOps e integração contínua, julgue o item a seguir.\nEm um pipeline de CI/CD, a eficácia da integração contínua fundamenta-se na execução automatizada de builds e testes, visando assegurar que o código integrado ao ramo principal (main branch) permaneça em um estado tecnicamente implantável, de modo a mitigar riscos de instabilidade a cada nova alteração.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 10,
+        "enunciado": "Com relação a monitoramento, logging e tracing, julgue o item que se segue.\nEm plataformas de observabilidade em nuvem, serviços de monitoramento coletam apenas métricas numéricas de infraestrutura, enquanto registros de logs e dados de tracing devem ser armazenados e analisados por ferramentas externas independentes do fabricante e especializadas em regras de negócio segundo o que o auditor determina.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 11,
+        "enunciado": "Com relação a monitoramento, logging e tracing, julgue o item que se segue.\nEm sistemas distribuídos, o tracing distribuído permite acompanhar o percurso completo de uma requisição por múltiplos serviços, registrando a sequência de chamadas entre componentes e o tempo gasto em cada etapa do processamento.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 12,
+        "enunciado": "Leia o trecho a seguir.\nEsta tecnologia é uma abordagem da automação da infraestrutura baseada em práticas do desenvolvimento de software. Ela enfatiza rotinas consistentes e repetíveis para provisionar e alterar sistemas e suas configurações. Com ela, as mudanças são feitas através do código, e em seguida, a automação é utilizada para testar e aplicar essas alterações nos sistemas.\nA descrição acima corresponde à",
+        "alternativas": [
+            "CI/CD – Continuous Integration / Continuous Delivery.",
+            "IaaS – Infrastructure as a Service.",
+            "TDD – Test Driven Development.",
+            "PaaS – Plataform as a Service.",
+            "IaC – Infrastructure as Code."
+        ],
+        "gabarito": "IaC – Infrastructure as Code."
+    },
+    {
+        "id": 13,
+        "enunciado": "DevOps é uma abordagem cultural e prática que integra as equipes de desenvolvimento (Dev) e operações (Ops) para melhorar a colaboração, automatizar processos e acelerar o ciclo de entrega de software.\nBaseado nessa definição, assinale a opção que indica o princípio que está associado ao DevOps.",
+        "alternativas": [
+            "Integração contínua e entrega contínua (CI/CD).",
+            "Separação estrita entre as equipes de desenvolvimento e operações.",
+            "Utilização de infraestrutura física ao invés de ambientes em nuvem.",
+            "Menor colaboração entre equipes para aumentar o foco individual.",
+            "Ciclos de lançamento de software mais longos e controlados."
+        ],
+        "gabarito": "Integração contínua e entrega contínua (CI/CD)."
+    },
+    {
+        "id": 14,
+        "enunciado": "Qual das práticas abaixo é essencial para garantir que uma integração contínua funcione bem em projetos de desenvolvimento de aplicações móveis?",
+        "alternativas": [
+            "Adotar ferramentas de monitoramento de erros e crashes em tempo real, como Firebase Crashlytics e Sentry.",
+            "Coletar feedback contínuo de usuários e testadores.",
+            "Monitorar a qualidade de código com ferramentas como SonarQube e Codacy.",
+            "Adotar uma estratégia de lançamento gradual, como Staged Rollouts (Google Play) e Phased Release (App Store)."
+        ],
+        "gabarito": "Monitorar a qualidade de código com ferramentas como SonarQube e Codacy."
+    },
+    {
+        "id": 15,
+        "enunciado": "Considerando conceitos e aplicações do DevOps no contexto das metodologias ágeis, julgue o item a seguir.\nA cultura da escalabilidade horizontal e vertical das aplicações insere-se na adoção de práticas seguras no DevOps, pois a detecção de vulnerabilidades em ambientes ágeis de entrega contínua, como o Kanban e o XP, é aprimorada.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 16,
+        "enunciado": "Considerando conceitos e aplicações do DevOps no contexto das metodologias ágeis, julgue o item a seguir.\nA implementação de uma pipeline de CI/CD no DevOps otimiza o processo de sprint review em um ambiente Scrum, pois resulta em uma capacidade aprimorada de demonstrar funcionalidades em ambiente próximo ao de produção.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 17,
+        "enunciado": "Julgue o item a seguir, relativo a práticas e ferramentas de DevOps e integração contínua de código.\nA expansão gradual em Canary Releases consiste na liberação imediata de uma nova versão para a totalidade da base de usuários, sendo a nova versão do software monitorada em tempo real.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 18,
+        "enunciado": "No que se refere a práticas de DevOps, julgue o próximo item.\nAs práticas de DevOps, ao focarem em automação,monitoramento contínuo e feedback rápido, melhoram o tempo médio de recuperação (MTTR) após uma falha.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 19,
+        "enunciado": "Acerca de CI/CD (continuous integration/continuous delivery), julgue o item a seguir.\nCI refere-se à liberação automática das mudanças feitas por desenvolvedores, do repositório à produção, onde podem ser usadas por clientes.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 20,
+        "enunciado": "Acerca de CI/CD (continuous integration/continuous delivery), julgue o item a seguir.\nA prática de CD tem como foco o uso de testes de unidade para verificar rapidamente novas mudanças, garantindo a confiabilidade das mudanças consolidadas no código.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 21,
+        "enunciado": "No contexto da Infraestrutura como Código (IaC), uma objeção comum é a ideia de que é melhor construir a infraestrutura primeiro e automatizá-la posteriormente.\nQual é a principal razão pela qual essa abordagem é considerada inadequada?",
+        "alternativas": [
+            "A automação é uma etapa essencial no processo de entrega contínua e deve ser implementada desde o início, permitindo entregas mais rápidas, testes automatizados e facilitando correções e reconstruções quando necessário.",
+            "A automação desempenha um papel crucial na entrega contínua, sendo fundamental implementá-la desde o começo para acelerar entregas, possibilitar testes manuais e simplificar ajustes e reconstruções sempre que necessário.",
+            "A automação é um processo complexo e caro, e deve ser considerada apenas depois que a infraestrutura estiver totalmente construída e estabilizada.",
+            "A automação é uma etapa opcional e pode ser adicionada mais tarde, pois não afeta significativamente o desempenho ou a confiabilidade do sistema."
+        ],
+        "gabarito": "A automação é uma etapa essencial no processo de entrega contínua e deve ser implementada desde o início, permitindo entregas mais rápidas, testes automatizados e facilitando correções e reconstruções quando necessário."
+    },
+    {
+        "id": 22,
+        "enunciado": "No contexto de DevOps, os pipelines CI/CD desempenham um papel fundamental. Analise as afirmações a seguir sobre os pipelines CI/CD:\nI. O pipeline de Integração Contínua (CI) automatiza a compilação, teste e empacotamento do código-fonte.\nII. O pipeline de Entrega Contínua (CD) é responsável pela implantação automática do software em ambientes de produção.\nIII. Os pipelines CI/CD promovem a entrega rápida e confiável de software, reduzindo os riscos de erros humanos.\nIV. A ferramenta GitLab CI é comumente utilizada para implementar pipelines CI/CD.\nAssinale a alternativa que contém, exclusivamente, afirmações corretas.",
+        "alternativas": [
+            "I e III apenas.",
+            "II e IV apenas.",
+            "I, III e IV apenas.",
+            "I, II, III e IV."
+        ],
+        "gabarito": "I, III e IV apenas."
+    },
+    {
+        "id": 23,
+        "enunciado": "Quais são os principais benefícios da adoção da Infraestrutura como Código (IaC) para gerenciar infraestruturas dinâmicas? Analise as afirmações a seguir e indique se são verdadeiras (V) ou falsas (F).\n( ) Permitir que os usuários da infraestrutura obtenham os recursos de que precisam, no momento em que precisam.\n( ) Criar sistemas confiáveis, seguros e com boa relação custo-benefício.\n( ) Tornar invisíveis os controles de governança, segurança e conformidade.\n( ) Reduzir o esforço e o risco de fazer mudanças na infraestrutura.\n( ) Fornecer ferramentas comuns para desenvolvimento, operações e outros stakeholders.\n( ) Melhorar a velocidade na identificação e resolução de falhas.\nA sequência correta é:",
+        "alternativas": [
+            "V, V, F, V, V, V.",
+            "V, V, V, V, V, V.",
+            "V, V, F, V, V, F.",
+            "F, F, V, F, F, F."
+        ],
+        "gabarito": "V, V, F, V, V, V."
+    },
+    {
+        "id": 24,
+        "enunciado": "Com base no livro “Manual de DevOps” (2, de Gene Kim e outros autores, a implementação do DevOps na organização deve ser realizada de forma metódica, seguindo fases que maximizem o apoio e minimizem os riscos, com base na Curva de Adoção de Tecnologia. Diante dessa abordagem, qual das estratégias abaixo melhor reflete o plano ideal para introduzir o DevOps na organização?",
+        "alternativas": [
+            "Começar pelas equipes mais conservadoras para superar as maiores resistências desde o início.",
+            "Engajar diretamente os oponentes para conquistar credibilidade com os grupos mais resistentes.",
+            "Implementar práticas DevOps em todas as equipes simultaneamente para obter resultados rápidos e abrangentes.",
+            "Concentrar esforços nas equipes mais receptivas inicialmente, criar uma base de apoio sólida e, por último, engajar os grupos resistentes."
+        ],
+        "gabarito": "Concentrar esforços nas equipes mais receptivas inicialmente, criar uma base de apoio sólida e, por último, engajar os grupos resistentes."
+    },
+    {
+        "id": 25,
+        "enunciado": "Qual padrão de estruturação de infraestrutura é descrito pelo texto abaixo? “Esse padrão consiste em colocar todo o sistema em uma única pilha de infraestrutura, o que pode ser mais simples de gerenciar inicialmente, mas torna se difícil de manter conforme o sistema cresce. Embora possa ser adequado para sistemas pequenos e simples, esse padrão apresenta problemas como maior risco de falhas, impacto ampliado de mudanças e lentidão na provisão e atualização do sistema.” Adaptado de Moris (2MORIS, K. Infrastructure as Code: Dynamic System for the Cloud Age. 2021.",
+        "alternativas": [
+            "Micro Stack.",
+            "Service Stack.",
+            "Monolithic Stack.",
+            "Application Group Stack."
+        ],
+        "gabarito": "Monolithic Stack."
+    },
+    {
+        "id": 26,
+        "enunciado": "No que concerne à gestão de configuração e à infraestrutura como código (IAC), julgue o item a seguir.\nA IAC automatiza o provisionamento de infraestrutura, liberando os desenvolvedores de tarefas manuais.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 27,
+        "enunciado": "Qual das seguintes ferramentas é especializada em automação de infraestrutura como código (IaC)?",
+        "alternativas": [
+            "Jenkins.",
+            "Ansible.",
+            "Docker.",
+            "Kubernetes.",
+            "Terraform."
+        ],
+        "gabarito": "Terraform."
+    },
+    {
+        "id": 28,
+        "enunciado": "A respeito de governança e gestão de TI, julgue o item que se segue.\nEm DevOps, entrega contínua é a capacidade de implantar novas funcionalidades manualmente após a realização de muitos testes de regressão.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 29,
+        "enunciado": "A respeito da prática do uso de sistemas de controle de versão no contexto de DevOps, considerando o cenário de uma equipe que mantém um sistema de software próprio funcionando em uma organização, é correto afirmar que",
+        "alternativas": [
+            "se recomenda não inserir scripts e arquivos de configuração relacionados à criação automática de infraestrutura em repositórios de sistemas de controle de versão, por razões de segurança, uma vez que segredos e detalhes sobre a infraestrutura ficariam mais expostos.",
+            "é justificada exclusivamente quando a equipe trabalha de forma geograficamente distribuída, uma vez que, estando no mesmo escritório físico, haveria maior facilidade em trabalhar com pastas compartilhadas em um servidor local, o que provê maior simplicidade de uso.",
+            "é recomendada para equipes grandes, mas pouco recomendada para equipes pequenas, sendo que, em projetos realizados por um único desenvolvedor, essa prática não deve ser adotada.",
+            "se justifica utilizar vários repositórios e sistemas de versionamento, simultaneamente, para diferentes tipos de arquivos, artefatos de projeto, objetos e serviços, mesmo que isso requeira conhecimentos da equipe em diferentes ferramentas.",
+            "sua utilização se dá exclusivamente pela equipe de desenvolvimento, e não pela equipe de operações, já que esta equipe não lida com código-fonte, arquivos de scripts de testes automatizados etc."
+        ],
+        "gabarito": "se justifica utilizar vários repositórios e sistemas de versionamento, simultaneamente, para diferentes tipos de arquivos, artefatos de projeto, objetos e serviços, mesmo que isso requeira conhecimentos da equipe em diferentes ferramentas."
+    },
+    {
+        "id": 30,
+        "enunciado": "Em DevOps, é característica do continuous deployment",
+        "alternativas": [
+            "liberar automaticamente, no ambiente de produção (desde que os testes não falhem), todas as mudanças que passam por todos os estágios do pipeline de produção, sem intervenção manual.",
+            "dispensar o continuous integration, já que se trata de uma substituição deste.",
+            "requerer o uso de ferramentas comerciais, e não gratuitas, para o gerenciamento do pipeline, uma vez que tais ferramentas são consideradas mais confiáveis.",
+            "trabalhar com prazos maiores entre releases, quando comparado ao continuous delivery.",
+            "dispensar os testes de unidade que ocorrem em etapa anterior, já que os testes de fumaça (smoke tests) são utilizados em seu lugar de forma mais eficiente e conseguem suprir as mesmas necessidades."
+        ],
+        "gabarito": "liberar automaticamente, no ambiente de produção (desde que os testes não falhem), todas as mudanças que passam por todos os estágios do pipeline de produção, sem intervenção manual."
+    },
+    {
+        "id": 31,
+        "enunciado": "A respeito de CI/CD (continuous integration/continuous delivery), julgue o próximo item.\nNo trecho do arquivo.gitlab-ci.yml, utilizado no GitLab CI/CD para definir regras de execução de pipelines com base em variáveis de ambiente, na execução do bloco job2, o valor da variável ALL_JOBS_VAR será “Different value than default”, pois variáveis definidas no nível do job têm precedência sobre as globais com o mesmo nome.\nvariables:\nALL_JOBS_VAR: \"A default variable\" job1:\nvariables:\nJOB1_VAR: \"Job 1 variable\" script:\n- echo \"Variables are '$ ALL_JOBS_VAR' and '$ JOB1_VAR'\" job2:\nvariables:\nALL_JOBS_VAR: \"Different value than default\" JOB2_VAR: \"Job 2 variable\" script:\n- echo \"Variables are '$ ALL_JOBS_VAR', '$ JOB2_VAR', and '$ JOB1_VAR'\"",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 32,
+        "enunciado": "DevOps integra desenvolvimento e operações, promovendo a automação e a colaboração contínua para acelerar a entrega de software e melhorar sua qualidade.\nEssa cultura visa otimizar todo o ciclo de vida do desenvolvimento, desde o planejamento até a produção e monitoramento, garantindo maior agilidade e confiabilidade.\nConsiderando esse cenário, assinale a opção que apresenta ferramentas mais direcionadas para a etapa de build.",
+        "alternativas": [
+            "Gradle, Maven e Make.",
+            "Grafana, Trello e Vagrant.",
+            "Eclipse, NetBeans e git.",
+            "Nagios, kubernetes e Selenium.",
+            "Jira, Puppet e VS Code."
+        ],
+        "gabarito": "Gradle, Maven e Make."
+    },
+    {
+        "id": 33,
+        "enunciado": "O Desenvolvimento de Software tem sido impactado pela condução de projetos empregando métodos ágeis. São alguns dos principais métodos: Scrum; Kanban;\nLean; Feature Driven Development (FDD); eXtreme Programming (XP); e, Microsoft Solutions Framework (MSF).\nEntre as técnicas aplicadas, destaca-se a prática que torna a integração de código mais eficiente por meio de builds e testes automatizados denominada",
+        "alternativas": [
+            "Iterative Development / Continuous Delivery (ID/CD).",
+            "Continuous Delivery / Continuous Feedback (CD/CF).",
+            "Continuous Integration / Continuous Delivery (CI/CD).",
+            "Flow Production / Continuous Integration (FP/CI).",
+            "Continuous Integration / Continuous Feedback (CI/CF)."
+        ],
+        "gabarito": "Continuous Integration / Continuous Delivery (CI/CD)."
+    },
+    {
+        "id": 34,
+        "enunciado": "Julgue o item subsequente, com relação a ferramentas de DevOps, gestão de ativos e autenticação única (single sing-on).\nOs módulos puppets de DevOps permitem que um usuário defina os nomes e as localizações dos diretórios de um sistema.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 35,
+        "enunciado": "Julgue o item subsequente, com relação a ferramentas de DevOps, gestão de ativos e autenticação única (single sing-on).\nEm DevOps, a análise estática de código e geração de documentação fazem parte do processo de build de uma aplicação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 36,
+        "enunciado": "Julgue o item subsecutivo, relacionado a DevSecOps.\nO processo shift left tem por objetivo encorajar os desenvolvedores de software a migrarem a segurança da direita (fim) para a esquerda (início) do processo de DevOps\n(entrega).",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 37,
+        "enunciado": "A respeito de IaC (Infrastructure as Code), julgue o próximo item.\nIaC é a prática de gerenciar e aprovisionar a infraestrutura por meio de hardware, software e processos manuais.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 38,
+        "enunciado": "A respeito de IaC (Infrastructure as Code), julgue o próximo item.\nA IaC declarativa permite que um desenvolvedor descreva todas as etapas para configurar os recursos e chegar ao sistema e ao estado de execução desejados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 39,
+        "enunciado": "A respeito de IaC (Infrastructure as Code), julgue o próximo item.\nIaC lida com o aprovisionamento de processamento, armazenamento e rede na camada de infraestrutura.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 40,
+        "enunciado": "No que diz respeito a refatoração e modernização de software, julgue o item subsequente.\nDe acordo com o modelo DevOps, a equipe de desenvolvimento é responsável por construir e publicar os containers de suas aplicações.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 41,
+        "enunciado": "Com relação às práticas de integração e entrega continua (CI/CD), analise os itens a seguir.\nI. A CI é uma prática de desenvolvimento de software onde os desenvolvedores frequentemente integram suas alterações de código ao branch principal de um repositório compartilhado.\nII. A CD é uma prática de desenvolvimento de software para construir software de forma que um conjunto de alterações de código possa ser entregue ou liberado para produção a qualquer momento.\nIII. A CD é uma prática de desenvolvimento de software em que o foco principal é liberar implantações automatizadas para produção sem a intervenção do usuário.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, II e III.",
+            "I e III, apenas.",
+            "I e II, apenas.",
+            "II e III, apenas.",
+            "III, apenas."
+        ],
+        "gabarito": "III, apenas."
+    },
+    {
+        "id": 42,
+        "enunciado": "Um dev que trabalha com integração contínua, para garantir que suas implementações funcionem com o restante do código, deve, sequencialmente, ao final de sua tarefa,",
+        "alternativas": [
+            "atualizar a cópia local do projeto, executar os testes localmente, executar um build local e fazer commit com o repositório central.",
+            "atualizar a cópia local do projeto, executar um build local, executar os testes localmente e fazer commit com o repositório central.",
+            "fazer commit com o repositório central, executar um build local, atualizar a cópia local do projeto e executar os testes localmente.",
+            "executar um build local, atualizar a cópia local do projeto, executar os testes localmente e fazer commit com o repositório central.",
+            "executar os testes localmente, executar um build local, atualizar a cópia local do projeto e fazer commit com o repositório central."
+        ],
+        "gabarito": "executar um build local, atualizar a cópia local do projeto, executar os testes localmente e fazer commit com o repositório central."
+    },
+    {
+        "id": 43,
+        "enunciado": "Infraestrutura como código (IaC) é uma forma de gerenciamento e provisionamento de infraestrutura por meio de código em vez de processos manuais.\nCom relação às três práticas para implementar IaC, analise as afirmativas a seguir.\nI. Definir todas as suas coisas como código é uma prática básica para fazer alterações rápidas e de modo confiável. Os principais motivos para a adoção dessa prática são a interoperabilidade, a consistência e a acessibilidade.\nII. Testar e entregar continuamente todo o trabalho em andamento é uma prática onde as equipes de infraestrutura são rigorosas nos testes. Eles usam a automação para implantar e testar o sistema como um todo antes de testar e integrar todos os módulos desenvolvidos por todos os envolvidos.\nIII. Construir peças pequenas e simples, que os membros da equipe podem alterar independentemente é uma prática essencial, pois muitas equipes enfrentam dificuldades quando seus sistemas são grandes e fortemente acoplados. Quanto maior um sistema, mais difícil mudá-lo e mais fácil quebrar.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I e II, apenas.",
+            "I, apenas.",
+            "II, apenas.",
+            "III, apenas.",
+            "II e III, apenas."
+        ],
+        "gabarito": "III, apenas."
+    },
+    {
+        "id": 44,
+        "enunciado": "A respeito de metodologias e técnicas prescritas pela engenharia de software para o desenvolvimento e para a gestão de produtos, julgue o item que se segue.\nNa entrega de software funcionando para a produção de forma ágil, o DevOps prestigia a entrega contínua; nesse sentido, um princípio recomendado é que as atualizações de arquivo do servidor, por meio de uma operação de atualização de arquivos (commit) realizada pelos desenvolvedores, sejam centralizadas em uma máquina de integração.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 45,
+        "enunciado": "Julgue o seguinte item, relativo DevOps, CI/CD, contêiner e arquitetura de banco de dados.\nUma das etapas na implementação do DevOps é o processo de build que envolve tarefas necessárias para se conseguir executar um programa, como, por exemplo, vinculação com bibliotecas, compilação, download e resolução de dependências, conforme a linguagem de programação que se estiver utilizando.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 46,
+        "enunciado": "A respeito de contêineres, máquinas virtuais e DevOps, julgue o item a seguir.\nDevOps opera com base em princípios, entre os quais está a entrega contínua, que permite realizar tarefas repetitivas de maneira eficiente e confiável, reduzindo erros e liberando tempo para atividades de maior valor.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 47,
+        "enunciado": "A respeito de conteinerização e DevOps, julgue o item que se segue.\nO build de uma aplicação engloba o resultado das tarefas de compilação e empacotamento em um único arquivo binário.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 48,
+        "enunciado": "A respeito de conteinerização e DevOps, julgue o item que se segue.\nUm dos objetivos do processo de entrega contínua é garantir a continuidade da aplicação em produção, por meio de aumento do tempo entre os deploys, minimizando o seu impacto no que está funcionando.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 49,
+        "enunciado": "A automação de testes desempenha um papel fundamental em pipelines de Integração Contínua (CI) e Entrega Contínua (CD), ao permitir que equipes de desenvolvimento detectem e corrijam problemas rapidamente, mantendo a qualidade do software em níveis adequados. Uma característica importante da automação de testes CI/CD é a capacidade de executar testes automaticamente a cada novo commit no repositório, garantindo que alterações recentes não quebrem funcionalidades existentes.\nCom base nesse contexto, assinale a opção que descreve corretamente a importância da automação de testes em ambientes CI/CD.",
+        "alternativas": [
+            "A automação de testes em CI/CD é opcional, visto que testes manuais podem ser eficientemente agendados para cobrir todas as mudanças de código.",
+            "A principal vantagem da automação de testes em CI/CD é reduzir o custo dos testes ao eliminar a necessidade de ferramentas de automação.",
+            "A automação de testes em CI/CD permite a execução frequente de testes, ajudando a identificar e corrigir defeitos rapidamente, o que é essencial para manter a qualidade do software.",
+            "Em ambientes de CI/CD, a automação de testes é usada apenas para testes de performance e carga, enquanto testes funcionais devem ser realizados manualmente.",
+            "A automação de testes em CI/CD foca exclusivamente em testes de segurança, deixando outros tipos de testes para serem executados em ambientes de teste dedicados."
+        ],
+        "gabarito": "A automação de testes em CI/CD permite a execução frequente de testes, ajudando a identificar e corrigir defeitos rapidamente, o que é essencial para manter a qualidade do software."
+    },
+    {
+        "id": 50,
+        "enunciado": "A respeito de DevOps, GIT e testes de software, julgue o item a seguir.\nNo DevOps, o pipeline de entrega contínua gerencia o processo de desenvolvimento do software, prescindindo-se dos testes, uma vez que a gestão do código-fonte é iterativa com vistas a otimizar a entrega rápida de software de alta qualidade, unindo as equipes de desenvolvimento e deoperações.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 51,
+        "enunciado": "Para integrar um departamento de desenvolvimento de software e um de operações de TI, assinale a ação correta.",
+        "alternativas": [
+            "Implementação da metodologia Agile, concentrando-se na melhoria contínua e colaboração entre as equipes de desenvolvimento de software e operações de TI.",
+            "Utilização da técnica de Benchmarking, comparando os processos internos com os de organizações líderes do setor para identificar melhores práticas.",
+            "Adoção do modelo ITIL para a gestão de serviços de TI, focando na padronização dos processos de entrega e suporte de serviços de TI.",
+            "Aplicação do framework DevOps, integrando os departamentos de desenvolvimento de software e o de operações de TI para agilizar a entrega de projetos e melhorar a comunicação e a colaboração.",
+            "Introdução da técnica Six Sigma, com o objetivo de reduzir a variabilidade nos processos de desenvolvimento de software e operações de TI, aumentando a qualidade das entregas."
+        ],
+        "gabarito": "Aplicação do framework DevOps, integrando os departamentos de desenvolvimento de software e o de operações de TI para agilizar a entrega de projetos e melhorar a comunicação e a colaboração."
+    },
+    {
+        "id": 52,
+        "enunciado": "Diferentes conceitos são aplicados em empresas de desenvolvimento de software. No IFS será utilizado um conceito que engloba Cultura DovOps para colaboração e integração do desenvolvimento de software e das operações, assim como práticas de automação em que alterações de código são frequentes e adicionais a um repositório central de versionamento, para que, em seguida, ocorram as etapas de build e teste para melhorar a qualidade. Qual conceito deverá ser usado?",
+        "alternativas": [
+            "Continuous integration.",
+            "Machine learning.",
+            "Blockchain.",
+            "Agile scrum."
+        ],
+        "gabarito": "Continuous integration."
+    },
+    {
+        "id": 53,
+        "enunciado": "O paradigma DevOps introduziu princípios e práticas para desenvolvimento de software com qualidade, rapidez e confiabilidade. O princípio que representa esse paradigma é:",
+        "alternativas": [
+            "as equipes de desenvolvimento e de operações devem trabalhar em silos independentes.",
+            "crie um processo adaptativo, flexível e irrepetível para entrega contínua de software.",
+            "evite automatizar testes porque eles deterioram com o tempo e é mais fácil fazê-los manualmente.",
+            "mantenha tudo o que é necessário para criar, testar, implantar e lançar o software em um sistema de controle de versões."
+        ],
+        "gabarito": "mantenha tudo o que é necessário para criar, testar, implantar e lançar o software em um sistema de controle de versões."
+    },
+    {
+        "id": 54,
+        "enunciado": "Avalie as seguintes afirmativas no contexto de práticas e metodologias de deploy em desenvolvimento mobile:\nI. A aplicação de Continuous Integration (CI) em aplicativos mobile responsivos é uma prática que visa a fusão e teste do código apenas ao final de cada sprint;\nII. Continuous Delivery (CD) é parte da filosofia \"Mobile First\" e permite que toda mudança de código seja automaticamente disponibilizada para os usuários finais, sem a necessidade de aprovação das equipes de operações;\nIII. DevSecOps é a integração da segurança no processo de desenvolvimento de software desde o início sem comprometer a velocidade de entrega.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, apenas.",
+            "II e III, apenas.",
+            "III, apenas.",
+            "I, II e III.",
+            "I e II, apenas."
+        ],
+        "gabarito": "III, apenas."
+    },
+    {
+        "id": 55,
+        "enunciado": "Suponha que em um projeto de desenvolvimento de software, João e Maria estão trabalhando em diferentes branches para implementar funcionalidades distintas.\nDurante o desenvolvimento, Maria alterou uma função fundamental que também é utilizada por João em seu branch. Quando ambos tentaram integrar os branches ao branch principal, surgiram conflitos de integração devido às alterações na função compartilhada. Considerando esse cenário, qual prática teria ajudado a evitar ou minimizar esse problema de integração?",
+        "alternativas": [
+            "Utilizar um sistema de controle de versões que não suporta branches.",
+            "Realizar integrações manuais apenas no final do ciclo de desenvolvimento.",
+            "Aplicar a prática de integração contínua, integrando o código frequentemente ao branch principal.",
+            "Utilizar um pipeline de integração automática que não considera as alterações feitas por Maria e João em seus branches, para não resultar em conflitos durante a integração com o branch principal."
+        ],
+        "gabarito": "Aplicar a prática de integração contínua, integrando o código frequentemente ao branch principal."
+    },
+    {
+        "id": 56,
+        "enunciado": "Qual é o papel essencial e altamente estratégico da Integração Contínua e Entrega Contínua (CI/CD) em um cenário de desenvolvimento de software altamente complexo e ágil, onde múltiplos desenvolvedores colaboram simultaneamente em diferentes partes do código-fonte, visando garantir qualidade, consistência e eficiência no processo de desenvolvimento e implantação de software?",
+        "alternativas": [
+            "Garantir a segurança do código-fonte e proteger contra ameaças externas.",
+            "Gerenciar a documentação do projeto e facilitar a comunicação entre os membros da equipe.",
+            "Automatizar o processo de integração, teste e implantação de código, permitindo entregas rápidas e confiáveis.",
+            "Limitar o acesso dos desenvolvedores às ferramentas de desenvolvimento para manter a estabilidade do ambiente."
+        ],
+        "gabarito": "Automatizar o processo de integração, teste e implantação de código, permitindo entregas rápidas e confiáveis."
+    },
+    {
+        "id": 57,
+        "enunciado": "Acerca das tecnologias que atendem a PDPJ-Br, julgue o próximo item.\nO objetivo da entrega contínua (continuous delivery) é diminuir o intervalo de tempo entre a criação de uma ideia e sua respectiva implantação em produção",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 58,
+        "enunciado": "Em relação a DevOps e DevSecOps, julgue o item que se segue.\nO gerenciamento das configurações rastreia, atualiza e mantém as configurações dos servidores, das aplicações e de outros ambientes de um sistema, para que este funcione em uma linha de base predeterminada e permaneça seguro independentemente de quaisquer alterações.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 59,
+        "enunciado": "Julgue o próximo item, relativo ao DevOps.\nA prática continuous delivery permite que as alterações do código sejam automaticamente preparadas para uma liberação para produção e possibilita automatizar testes, inclusive os de unidade e de carga, por exemplo.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 60,
+        "enunciado": "Julgue o próximo item, relativo ao DevOps.\nContinuous integration é uma prática de desenvolvimento de software do DevOps cujo objetivo é encontrar e investigar erros mais rapidamente, por meio de processo de criação e testes automáticos de código, sempre que um desenvolvedor da equipe realizar alterações de código, para o controle de versão.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 61,
+        "enunciado": "Julgue o próximo item, relativo ao DevOps.\nRegistry Docker é uma ferramenta que favorece a definição e a execução de aplicativos nos contêineres a partir do controle do que será executado pelos aplicativos; para isso, utiliza um único arquivo de configuração YAML, o qual permite iniciar os serviços gerenciados pelo arquivo.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 62,
+        "enunciado": "Juliano é analista de Desenvolvimento de Sistemas e, utilizando-se de conceitos e ferramentas do DevOps, está implementando um processo no qual o gerenciamento e o provisionamento de recursos de infraestrutura serão realizados por meio de arquivos de configuração e scripts em vez de acesso direto a máquinas físicas. Esse processo é denominado",
+        "alternativas": [
+            "Infraestrutura como Código.",
+            "Entrega Contínua.",
+            "Monitoramento e Controle de Logs.",
+            "Monitoramento de Aplicação.",
+            "Integração Contínua."
+        ],
+        "gabarito": "Infraestrutura como Código."
+    },
+    {
+        "id": 63,
+        "enunciado": "Qual é a principal característica referente ao processo de CI/CD na disciplina de desenvolvimento e operações de software?",
+        "alternativas": [
+            "Minimização da quantidade de atualizações em entregas de software.",
+            "Automatização das tarefas de entrega e integração de código.",
+            "Publicação automática de software após a compilação manual sob responsabilidade da equipe de desenvolvimento.",
+            "Criação automática de ambiente para versionamento de código.",
+            "Acesso a bancos de dados distribuídos."
+        ],
+        "gabarito": "Automatização das tarefas de entrega e integração de código."
+    },
+    {
+        "id": 64,
+        "enunciado": "Em relação à ferramenta Azure Devops, avalie as afirmativas a seguir.\nI. A funcionalidade Boards permite gerenciar a lista de pendências de produtos.\nII. A funcionalidade Pipelines permite o gerenciamento de requisitos, incluindo bugs e tarefas.\nIII. A funcionalidade Repos permite revisar, baixar e editar arquivos e revisar o histórico de alterações de um arquivo.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, apenas.",
+            "I e II, apenas.",
+            "I e III, apenas.",
+            "II e III, apenas.",
+            "I, II e III apenas."
+        ],
+        "gabarito": "I e III, apenas."
+    },
+    {
+        "id": 65,
+        "enunciado": "O Azure DevOps dá suporte a uma cultura colaborativa e um conjunto de processos que reúnem desenvolvedores, gerentes de projetos e colaboradores para desenvolver software. Ele permite que as organizações criem e melhorem produtos em ritmos mais acelerados do que o fariam com abordagens tradicionais de desenvolvimento de software.\nSobre os serviços incluídos no Azure DevOps, avalie as descrições a seguir.\nI. Azure Test Plans - Fornece várias ferramentas para testar seus aplicativos, incluindo testes manuais/exploratórios e testes contínuos.\nII. Azure Pipelines - Fornece serviços de compilação e lançamento para dar suporte à integração contínua e à distribuição de seus aplicativos.\nIII. Azure Boards - Entrega um conjunto de ferramentas Agile para dar apoio ao trabalho de planejamento e acompanhamento, aos defeitos de código e aos problemas de uso dos métodos Kanban e Scrum.\nEstá correto o que se descreve em",
+        "alternativas": [
+            "I e II, apenas.",
+            "II, apenas.",
+            "III, apenas.",
+            "II e III, apenas.",
+            "I, II e III."
+        ],
+        "gabarito": "I, II e III."
+    },
+    {
+        "id": 66,
+        "enunciado": "No contexto de DevOps e CD/CI (Continuous Delivery/ Continuous Integration), avalie as afirmativas a seguir são verdadeiras (V) ou falsas (F).\n( ) O processo de testes automatizados engloba os testes unitários e os testes de integração, mas não incluem os testes de sistema ou de funcionalidade.\n( ) A automação é um dos principais princípios do DevOps, permitindo executar tarefas mais rapidamente, diminuindo a possibilidade de erros humanos e tornando os processos mais confiáveis e auditáveis.\n( ) Uma de suas vantagens de implementação é a realização de deploy de incrementos ou melhorias de software sob supervisão de especialistas.\n( ) Essa abordagem busca aumentar o fluxo de trabalho completado, proporcionando uma maior frequência de deploys, enquanto aumenta a estabilidade e robustez do ambiente de produção.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "F – F – F – V.",
+            "F – V – F – V.",
+            "V – V – V – V.",
+            "V – V – F – F.",
+            "F – F – V – F."
+        ],
+        "gabarito": "F – V – F – V."
+    },
+    {
+        "id": 67,
+        "enunciado": "É um desafio rotineiro de um projeto DevOps priorizar o esforço de melhoria, de modo a tornar visível o trabalho do fluxo de valor e expandindo-o por toda a organização. Nesse sentido, devem ser incluídos nos investimentos de todos os ciclos de DevOps ações de",
+        "alternativas": [
+            "aumento da dívida técnica.",
+            "detecção de defeitos.",
+            "trabalho de refatoração, automação, aprimoramento da arquitetura e do atendimento aos requisitos não funcionais.",
+            "aumento da pressão para saldar dívidas técnicas.",
+            "conservação da dívida técnica."
+        ],
+        "gabarito": "trabalho de refatoração, automação, aprimoramento da arquitetura e do atendimento aos requisitos não funcionais."
+    },
+    {
+        "id": 68,
+        "enunciado": "Uma das práticas de DevOps permite aos desenvolvedores mesclar alterações de código com frequência em um repositório central, possibilitando, assim, que as equipes possam resolver bugs de forma mais rápida, melhorando a qualidade do software e reduzindo o tempo para validação e lançamento de novas atualizações. Essa prática de DevOps é denominada",
+        "alternativas": [
+            "integração contínua.",
+            "consciência situacional.",
+            "automação.",
+            "monitoramento.",
+            "serviço constante."
+        ],
+        "gabarito": "integração contínua."
+    },
+    {
+        "id": 69,
+        "enunciado": "A respeito dos conceitos de DevOps, analise as afirmativas a seguir e assinale (V) para a verdadeira e (F) para a falsa.\n( ) Uma das práticas da Integração Contínua é estimular que a equipe de desenvolvimento agregue código em um repositório compartilhado várias vezes ao dia.\n( ) Executar casos de teste automatizados e compilar o código-fonte são tarefas de ferramentas de automação de build, como Cucumber, Travis CI e Zabbix.\n( ) Configuration Management é eficiente quando nem todas as instalações e modificações são aplicadas novamente aos servidores, atualizando apenas o comportamento alterado.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "V – V – F.",
+            "V – F – V.",
+            "F – V – V.",
+            "V – F – F.",
+            "F – F – V."
+        ],
+        "gabarito": "V – F – V."
+    },
+    {
+        "id": 70,
+        "enunciado": "A equipe do Núcleo de Gestão de Tecnologia da Informação (NucTI) de uma organização optou por utilizar Infrastructure as Code (IaC).\nCom o uso de IaC, o provedor terá responsabilidade sobre algumas funções, mas a equipe do NucTI terá que gerenciar:",
+        "alternativas": [
+            "os dados e o crescimento de storage;",
+            "as aplicações, os dados e as storages;",
+            "a virtualização, o sistema operacional e as aplicações;",
+            "a virtualização, o middleware e o ambiente de execução;",
+            "as aplicações, os dados, o middleware e o sistema operacional."
+        ],
+        "gabarito": "as aplicações, os dados, o middleware e o sistema operacional."
+    },
+    {
+        "id": 71,
+        "enunciado": "Davi está modificando a forma de trabalho de sua empresa de desenvolvimento para usar o processo de Continuous Delivery e Continuous Integration (CI/CD). As aplicações em desenvolvimento vão passar por um conjunto de etapas nas quais o código passará por alterações até chegar à produção (pipeline). Uma das aplicações de Davi está na fase de certificação de sistema/subsistema em um ambiente de staging.\nNesse pipeline de CD/CI, a aplicação de Davi encontra-se na fase de:",
+        "alternativas": [
+            "integração contínua;",
+            "componente;",
+            "subsistema;",
+            "sistema;",
+            "produção."
+        ],
+        "gabarito": "sistema;"
+    },
+    {
+        "id": 72,
+        "enunciado": "Determinada empresa de TI está aplicando a Infraestrutura como Código (IaC) para que haja provisionamento da sua infraestrutura por meio de códigos. Foi escolhida, para isso, uma única abordagem, que é caracterizada por definir o estado no qual se deseja o sistema, com a inclusão dos recursos necessários, as propriedades que tais recursos precisam ter e uma ferramenta específica para configurar esse estado. A abordagem escolhida por possuir essas características é a",
+        "alternativas": [
+            "sensitiva.",
+            "impositiva.",
+            "imperativa.",
+            "declarativa.",
+            "colaborativa."
+        ],
+        "gabarito": "declarativa."
+    },
+    {
+        "id": 73,
+        "enunciado": "Um time de desenvolvimento de software está adotando a cultura DevOps para melhorar a colaboração entre as equipes de desenvolvimento e operações. O objetivo é acelerar a entrega de software, melhorar a qualidade e aumentar a satisfação dos clientes. A equipe está implementando práticas para assegurar que o código funcione corretamente em diferentes ambientes antes de ser lançado em produção.\nEntre as práticas de DevOps, aquela que é específica e essencial para garantir que o código funcione de forma consistente em diferentes ambientes é conhecida como",
+        "alternativas": [
+            "Integração Contínua.",
+            "Desenvolvimento Ágil.",
+            "Pipeline de CI/CD.",
+            "Monitoramento de Aplicações.",
+            "Conteinerização."
+        ],
+        "gabarito": "Conteinerização."
+    },
+    {
+        "id": 74,
+        "enunciado": "Assinale a alternativa que NÃO corresponde a um conceito ou prática associada à integração e entrega contínua (Continuous Integration and Continuous Delivery – CI/CD) em desenvolvimento de software.",
+        "alternativas": [
+            "A integração contínua envolve a prática de integrar código em um repositório compartilhado várias vezes ao dia, com o objetivo de detectar e corrigir erros rapidamente.",
+            "A entrega contínua é um processo que garante que o código atualizado esteja sempre em um estado pronto para ser implantado em produção, incluindo a execução de testes automatizados.",
+            "Ferramentas de integração contínua, como Jenkins e GitLab CI, são usadas para automatizar a construção e o teste do código a cada integração no repositório.",
+            "O pipeline de CI/CD pode incluir várias etapas, como compilação, testes unitários, testes de integração, testes de aceitação e implantação automática.",
+            "A entrega contínua elimina a necessidade de testes manuais, substituindo-os completamente por testes automatizados."
+        ],
+        "gabarito": "A entrega contínua elimina a necessidade de testes manuais, substituindo-os completamente por testes automatizados."
+    },
+    {
+        "id": 75,
+        "enunciado": "Com base nas práticas de Integração Contínua (Cl) e Entrega Contínua (CD), assinale a alternativa correta.",
+        "alternativas": [
+            "A integração contínua (Cl) e a entrega contínua (CD) visam aumentar a quantidade de erros para identificar falhas no software.",
+            "A integração contínua (Cl) e a entrega contínua (CD) são práticas manuais aplicadas ao final do desenvolvimento de software para garantir sua qualidade.",
+            "A integração contínua (Cl) e a entrega contínua (CD) são práticas automatizadas que buscam manter a qualidade do software e minimizar erros através de um pipeline organizado de forma lógica e sequencial.",
+            "A integração contínua (Cl) e a entrega contínua (CD) são usadas apenas para testar o software, sem relação com sua entrega ou estabilidade."
+        ],
+        "gabarito": "A integração contínua (Cl) e a entrega contínua (CD) são práticas automatizadas que buscam manter a qualidade do software e minimizar erros através de um pipeline organizado de forma lógica e sequencial."
+    },
+    {
+        "id": 76,
+        "enunciado": "Julgue o item subsequente, referente a DevOps, switches, teoria e políticas de backup e recuperação de dados e Apache.\nEntrega contínua é uma abordagem da engenharia de software na qual se produzem softwares em ciclos curtos, garantindo um software executável a qualquer momento e, ainda, a redução de custos, de tempo e de risco na entrega.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 77,
+        "enunciado": "Julgue o próximo item, relativos a DevOps e Kubernetes.\nA implantação contínua é uma estratégia no desenvolvimento de software em que as alterações de código em um aplicativo são liberadas automaticamente no ambiente de produção.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 78,
+        "enunciado": "Julgue o próximos item, relativos a H2, Keycloak, Webhooks, Git, CD (continuous delivery) e CI (continuous integration).\nCD (continuous delivery) e CI (continuous integration) são práticas afetas ao DevOps: a primeira realiza a implantação automática no repositório da solução após o build;\ne a segunda realiza implantação automática no ambiente de produção a cada release.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 79,
+        "enunciado": "A utilização de Infrastructure as Code (IaC) permite automatizar tarefas antes executadas manualmente, como provisionamento de máquinas virtuais e configurações de rede.\nAssinale a alternativa que possui uma outra vantagem da utilização de Infrastructure as Code (IaC).",
+        "alternativas": [
+            "Aumenta a necessidade de intervenção manual.",
+            "Aumenta consideravelmente os custos de implantação.",
+            "Reduz a consistência, garantindo que a infraestrutura nem sempre seja implantada da mesma maneira.",
+            "Reduz o tempo de implantação das aplicações e recuperação de desastres."
+        ],
+        "gabarito": "Reduz o tempo de implantação das aplicações e recuperação de desastres."
+    },
+    {
+        "id": 80,
+        "enunciado": "Dentre as alternativas a seguir, assinale aquela que é parte direta da prática de integração contínua (continuous integration) de DevOps.",
+        "alternativas": [
+            "Os desenvolvedores submetem seu código com frequência a um repositório central e, em seguida, testes de unidade e builds são executados de forma automatizada.",
+            "Todas as alterações de código submetidas ao repositório central são automaticamente enviadas a um ambiente de testes após o estágio de build, caso ele seja bem sucedido.",
+            "Todas as alterações de código submetidas ao repositório central são automaticamente enviadas ao ambiente de produção após passar com sucesso pelo ambiente de testes.",
+            "Todas as alterações de código submetidas ao repositório central são manualmente enviadas ao ambiente de produção após aprovação de um responsável.",
+            "Para cada novo método de classe criado no back-end da aplicação, considerando o desenvolvimento de software orientado a objetos, um recurso equivalente em uma API RESTful é criado automaticamente para prover acesso ao método por outras aplicações, promovendo a integração de sistemas."
+        ],
+        "gabarito": "Os desenvolvedores submetem seu código com frequência a um repositório central e, em seguida, testes de unidade e builds são executados de forma automatizada."
+    },
+    {
+        "id": 81,
+        "enunciado": "Em relação ao processo de integração contínua de software, analise as seguintes afirmativas.\nI. Um dos benefícios de se trabalhar com integração contínua é permitir que os problemas causados pelas interações entre diferentes desenvolvedores sejam detectados e reparados tão logo seja possível.\nII. A integração contínua é uma boa estratégia para sistemas muito grandes, quando se leva muito tempo para que o sistema seja construído (build) e testado.\nIII. Na integração contínua, assim que o trabalho em uma tarefa é concluído, ele é integrado ao sistema como um todo e, após essa integração, todos os testes de unidade do sistema devem passar.\nEstão CORRETAS as afirmativas:",
+        "alternativas": [
+            "I e II, apenas.",
+            "I e III, apenas.",
+            "II e III, apenas.",
+            "I, II e III."
+        ],
+        "gabarito": "I e III, apenas."
+    },
+    {
+        "id": 82,
+        "enunciado": "Uma das carreiras em ascensão na área de tecnologia, é a de DevOps, responsável por acelerar a colocação da solução no mercado, manter a estabilidade e a confiabilidade do sistema, melhorar o tempo médio de recuperação, entre outras ações. Assinale a alternativa que descreve as palavras que formam o acrônimo DevOps.",
+        "alternativas": [
+            "Desenho e Operação.",
+            "Desenho e Otimização.",
+            "Desenvolvimento e Operação.",
+            "Desenvolvimento e Otimização."
+        ],
+        "gabarito": "Desenvolvimento e Operação."
+    },
+    {
+        "id": 83,
+        "enunciado": "Analise as afirmativas abaixo sobre DevOps.\n1. Tem como ponto de partida artefatos de software no lugar de código-fonte, o que favorece a implantação continuada.\n2. Pode-se contemplar a adoção de práticas de segurança com DevOps, no que é conhecido como DevSecOps.\n3. A arquitetura de microserviços é muito utilizada para a criação de sistemas de implantação continuada.\nAssinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "É correta apenas a afirmativa 2.",
+            "São corretas apenas as afirmativas 1 e 2.",
+            "São corretas apenas as afirmativas 1 e 3.",
+            "São corretas apenas as afirmativas 2 e 3.",
+            "São corretas as afirmativas 1, 2 e 3."
+        ],
+        "gabarito": "São corretas apenas as afirmativas 2 e 3."
+    },
+    {
+        "id": 84,
+        "enunciado": "Dentre as etapas de DevOps está a de Planejamento, que compreende definições e planos de trabalho.\nConstituem atividades, objetos, informações ou documentos válidos dessa etapa de DevOps:\n1. Requisitos\n2. Métricas de negócio\n3. Métricas de atualizações e updates\n4. Plano de implementação das versões e releases\n5. Requerimentos e política de segurança Assinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "São corretas apenas as afirmativas 1, 2 e 3.",
+            "São corretas apenas as afirmativas 2, 3 e 5.",
+            "São corretas apenas as afirmativas 2, 4 e 5.",
+            "São corretas apenas as afirmativas 1, 3, 4 e 5.",
+            "São corretas as afirmativas 1, 2, 3, 4 e 5."
+        ],
+        "gabarito": "São corretas as afirmativas 1, 2, 3, 4 e 5."
+    },
+    {
+        "id": 85,
+        "enunciado": "Acerca da gestão de configuração, julgue o item a seguir.\nA prática de database migration é fundamental em DevOps para garantir a consistência dos dados bem como sua disponibilidade e segurança.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 86,
+        "enunciado": "No projeto em que você começará a trabalhar, você precisará de quatro engenheiros _____________ para programar o back-end (server) e front-end (client) da aplicação web. Além disso, precisará de mais um _____________ para automatizar o deploy e a integração contínua da aplicação que será toda em AWS e GitHub Actions.\nAssinale a alternativa que preenche, correta e respectivamente, as lacunas do trecho acima.",
+        "alternativas": [
+            "full-stack – engenheiro de dados.",
+            "full-stack – engenheiro DevOps.",
+            "de dados – analista de infraestrutura.",
+            "de dados – engenheiro DevOps.",
+            "full-stack – analisa de infraestrutura."
+        ],
+        "gabarito": "full-stack – engenheiro DevOps."
+    },
+    {
+        "id": 87,
+        "enunciado": "Assinale a alternativa que apresenta um conceito relacionado aos conhecimentos de integração contínua utilizando GIT.",
+        "alternativas": [
+            "O GIT é uma ferramenta de integração contínua que automatiza a compilação e o teste de código-fonte.",
+            "A integração contínua envolve a integração frequente de alterações de código-fonte em um repositório compartilhado.",
+            "O processo de integração contínua pode ser implementado apenas por equipes de desenvolvimento de software com grande experiência.",
+            "O GIT é uma ferramenta de versionamento de código-fonte que não está diretamente relacionada à integração contínua.",
+            "A integração contínua envolve a liberação automática de novas versões de software sem testes ou validações."
+        ],
+        "gabarito": "A integração contínua envolve a integração frequente de alterações de código-fonte em um repositório compartilhado."
+    },
+    {
+        "id": 88,
+        "enunciado": "O DevOps (desenvolvimento + operação) preza o estreitamento entre as áreas de desenvolvimento e infraestrutura através de ferramentas e metodologias, de modo que seja possível automatizar, monitorar, observar, testar e metrificar todas as etapas de desenvolvimento de software. Dentro dos processos de DevOps, que visam o aumento dessa qualidade e também a facilitação de colocar um projeto em produção, há um que é uma prática em que os times de desenvolvimento lançam novas funcionalidades de forma constante e automatizada. Quando uma nova funcionalidade é finalizada, automaticamente ela será disponibilizada no ambiente de testes e, posteriormente, no ambiente de produção e, em alguns casos, pode ir direto para produção. Assinale a alternativa que cita essa prática.",
+        "alternativas": [
+            "Design Patterns ou Padrões de Projeto.",
+            "Test Driven Development ou Desenvolvimento Orientado a Testes.",
+            "Continuous Delivery ou Entrega Contínua.",
+            "Behavior Driven Development ou Desenvolvimento Orientado ao Comportamento.",
+            "Continuous Integration ou Integração Contínua."
+        ],
+        "gabarito": "Continuous Delivery ou Entrega Contínua."
+    },
+    {
+        "id": 89,
+        "enunciado": "No DevOps, existe uma prática em que novas alterações de código de uma solução de software são criadas, testadas e mescladas regularmente em um repositório central, com objetivo de encontrar e investigar bugs mais rapidamente. Trata-se da",
+        "alternativas": [
+            "integração contínua.",
+            "entrega contínua.",
+            "implantação em contêineres.",
+            "disponibilização em microsserviços.",
+            "pipeline."
+        ],
+        "gabarito": "integração contínua."
+    },
+    {
+        "id": 90,
+        "enunciado": "Dentro do conceito de Continuous Integration / Continous Delivery, utilizado em desenvolvimento de software no contexto de DevOps, uma prática considerada fundamental é denominada “builds automatizados”.\nEssa prática consiste em",
+        "alternativas": [
+            "utilizar scripts que incluem tudo o que é necessário para a compilação ou preparação dos artefatos executáveis por meio de um único comando.",
+            "utilizar geradores de código-fonte com base em modelos de alto nível, automatizando a produção de trechos de código que seriam produzidos de forma manual.",
+            "utilizar um único repositório que armazena todos os arquivos de código-fonte, estruturas de bancos de dados, bibliotecas e arquivos de configuração da aplicação.",
+            "manter um ambiente de testes o mais similar possível ao ambiente de produção, utilizando scripts de testes rigorosos para detectar e identificar bugs de forma automatizada.",
+            "permitir que todos os desenvolvedores tenham acesso aos últimos executáveis da aplicação e possam visualizar todas as mudanças feitas no repositório de código."
+        ],
+        "gabarito": "utilizar scripts que incluem tudo o que é necessário para a compilação ou preparação dos artefatos executáveis por meio de um único comando."
+    },
+    {
+        "id": 91,
+        "enunciado": "Tendo em vista que, no atual cenário de desenvolvimento de aplicações web, é essencial considerar princípios, como consistência e escalabilidade, e práticas, como automação do processo de implantação e integração do código-fonte, julgue o item subsequente.\nAs ferramentas DevOps incluem o Kubernetes, uma plataforma de orquestração de contêineres que permite gerenciar e escalonar aplicativos em contêineres em diferentes ambientes e pode ser integrada a outras ferramentas DevOps, como Docker e Jenkins.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 92,
+        "enunciado": "Julgue o item que se segue, com relação a técnicas de integração e implantação contínua de código.\nEmbora as técnicas de integração contínua sejam essenciais para garantir a qualidade do software e a eficiência do processo de desenvolvimento, elas não possibilitam a realização de testes automatizados de aceitação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 93,
+        "enunciado": "Julgue o item que se segue, com relação a técnicas de integração e implantação contínua de código.\nA implantação contínua é uma prática que envolve a entrega automatizada do software em diferentes ambientes, como ambientes de teste, pré-produção e produção, reduzindo o tempo necessário para implantar novas funcionalidades e corrigir bugs.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 94,
+        "enunciado": "Determinada empresa adota a cultura DevOps, com os objetivos de colaboração e integração do desenvolvimento de software e das operações. A mesma empresa também adota práticas de automação em que alterações de código são frequentes e adicionadas a um repositório central de versionamento, para que, em seguida, ocorram as etapas de build e teste para melhorar a qualidade.\nNessa situação hipotética, a empresa aplica o conceito de",
+        "alternativas": [
+            "agile scrum.",
+            "continuous integration.",
+            "machine learning.",
+            "blockchain.",
+            "continuous delivery."
+        ],
+        "gabarito": "continuous integration."
+    },
+    {
+        "id": 95,
+        "enunciado": "São benefícios da integração continua, EXCETO:",
+        "alternativas": [
+            "Melhora a estimativa de tempo alocada para as atividades do projeto, pois elencará com clareza os requisitos funcionais e casos de usos.",
+            "Facilita que bugs sejam encontrados e investigados com mais celeridade, pois testes são realizados com recorrência durante o desenvolvimento do software.",
+            "Aperfeiçoa a produtividade dos desenvolvedores de softwares.",
+            "Automatiza as operações do software, contribuindo para a qualidade do desenvolvimento.",
+            "Facilita a distribuição de atualizações rapidamente."
+        ],
+        "gabarito": "Melhora a estimativa de tempo alocada para as atividades do projeto, pois elencará com clareza os requisitos funcionais e casos de usos."
+    },
+    {
+        "id": 96,
+        "enunciado": "No contexto de DevOps, a prática de gestão de configuração conhecida como Infrastructure As Code consiste em",
+        "alternativas": [
+            "salvar snapshots de máquinas virtuais para reproduzir ambientes necessários para execução ou teste de aplicações.",
+            "utilizar ferramentas de desenvolvimento baseadas nos conceitos de no code e low code.",
+            "criar documentos formais que funcionam como manuais explicativos, em linguagem natural, sobre como criar ambientes necessários para uma determinada aplicação.",
+            "definir ou descrever ambientes contendo redes, servidores, máquinas virtuais, balanceadores de carga e outros recursos de computação em arquivos texto que possam ser lidos por ferramentas de automação.",
+            "utilizar servidores em nuvem baseados em máquinas virtuais no lugar de servidores físicos on-premises para hospedar a execução de aplicações."
+        ],
+        "gabarito": "definir ou descrever ambientes contendo redes, servidores, máquinas virtuais, balanceadores de carga e outros recursos de computação em arquivos texto que possam ser lidos por ferramentas de automação."
+    },
+    {
+        "id": 97,
+        "enunciado": "Julgue o item a seguir acerca de intranet, extranet, UDDI, XSLT e DevOps.\nCom a adoção de DevOps, na fase de operação de um software, as equipes buscam identificar os problemas antes que afetem a experiência do cliente.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 98,
+        "enunciado": "Julgue o item a seguir, relativo a infraestrutura como código (IaC, na sigla em inglês).\nA IaC declarativa especifica as propriedades dos recursos de infraestrutura que deseja provisionar e, em seguida, a ferramenta IaC descobre como alcançar esse resultado final por conta própria.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 99,
+        "enunciado": "Tendo como referência conceitos e princípios de DevOps e DevSecOps, julgue o item a seguir, relativo aos 6 Cs.\nO processo de entrega contínua envolve a automação de processos de desenvolvimento, testes e integração dos códigos de forma frequente e em um repositório compartilhado.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 100,
+        "enunciado": "Tendo como referência conceitos e princípios de DevOps e DevSecOps, julgue o item a seguir, relativo aos 6 Cs.\nA monitoração contínua é uma prática que fornece feedback constante aos desenvolvedores e testadores sobre o desempenho e a disponibilidade de suas aplicações, tanto antes quanto após a implantação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 101,
+        "enunciado": "Tendo como referência conceitos e princípios de DevOps e DevSecOps, julgue o item a seguir, relativo aos 6 Cs.\nA implantação contínua se refere ao lançamento automático das mudanças feitas por um desenvolvedor, do repositório à produção, as quais podem ser utilizadas por clientes.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 102,
+        "enunciado": "O Terraform é uma ferramenta de infraestrutura como código (IaC) que permite provisionar e gerenciar recursos de infraestrutura de maneira declarativa. Com suporte a vários provedores de nuvem, o Terraform simplifica a automação e a orquestração de recursos, garantindo a consistência e a escalabilidade das infraestruturas modernas. O Terraform utiliza diversos arquivos para seu funcionamento. Qual é a finalidade do arquivo de extensão \"tfstate\" no Terraform?",
+        "alternativas": [
+            "Armazenar os provedores de nuvem utilizados no projeto.",
+            "Registrar os logs de execução das tarefas do Terraform.",
+            "Salvar o histórico de alterações realizadas no código do Terraform.",
+            "Manter o estado atual da infraestrutura provisionada pelo Terraform.",
+            "Armazenar os módulos customizados utilizados no projeto."
+        ],
+        "gabarito": "Manter o estado atual da infraestrutura provisionada pelo Terraform."
+    },
+    {
+        "id": 103,
+        "enunciado": "Julgue o seguinte item, relativo a DevOps, Jenkins e GIT.\nNo DevOps, por meio das práticas de CI/CD (pipeline de integração e implantação contínuas), é possível que equipes de operação e desenvolvimento disponibilizem aplicações para os clientes por meio de microsserviços, usando práticas de métodos ágeis.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 104,
+        "enunciado": "Julgue o próximo item, relativo a SQL, banco de dados e Azure.\nNo Azure DevOps, é possível implementar a entrega contínua do software para registros de contêiner como o Docker Hub e o registro de contêiner do Azure, não sendo possível, nesses casos, a utilização do Kubernetes.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 105,
+        "enunciado": "Com base nos princípios e modelos de DEVOPS, julgue o item subsecutivo.\nA evolução natural da entrega contínua (continuous delivery) é a implantação contínua (continuous deployment), que consiste no deploy automático em produção após a execução com sucesso dos testes automatizados e das validações previstas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 106,
+        "enunciado": "Com base nos princípios e modelos de DEVOPS, julgue o item subsecutivo.\nO uso da integração contínua (continuous integration) é um requisito fundamental para o DEVOPS e ocorre quando existe o interesse de expandir os benefícios da automação dos testes e do feedback imediato para os próximos estágios que não são cobertos pela entrega contínua (continuous delivery).",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 107,
+        "enunciado": "Com base nos conceitos de microsserviços, julgue o item que se segue.\nEm infraestrutura como código, a abordagem declarativa define os comandos específicos necessários para o alcance da configuração desejada.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 108,
+        "enunciado": "Com base nos conceitos de microsserviços, julgue o item que se segue.\nEm infraestrutura como código, o modelo controlado por interface de programação de aplicativos (API) da nuvem permite que os desenvolvedores interajam com a infraestrutura de modo programático e em escala, em vez de precisarem instalar e configurar manualmente os recursos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 109,
+        "enunciado": "Na Engenharia de Software moderna, o conceito de DevOps propõe uma aproximação do time de desenvolvimento (Dev) com o time de operações (Ops), sendo este último responsável pela implantação do sistema em ambiente de produção. Nesse contexto, numere a COLUNA II de acordo com a COLUNA I, associando as práticas DevOps às suas respectivas ações.\nCOLUNA I\n1. Controle de versões\n2. Integração contínua\n3. Deployment contínuo COLUNA II\n( ) Colocar em produção o mais rápido possível os commits submetidos ao branch principal (máster / main) do controle de versão.\n( ) Armazenar e gerenciar as alterações do código-fonte ao longo do tempo.\n( ) Atualizar constantemente o branch principal (máster / main) do controle de versão para minimizar conflitos de merge.\nAssinale a sequência correta.",
+        "alternativas": [
+            "1 2 3.",
+            "2 3 1.",
+            "1 3 2.",
+            "3 1 2."
+        ],
+        "gabarito": "3 1 2."
+    },
+    {
+        "id": 110,
+        "enunciado": "Em relação aos conceitos de DevOps é correto afirmar que:",
+        "alternativas": [
+            "o Maven é uma ferramenta utilizada para monitoramento de microsserviços.",
+            "o OpenStack é uma ferramenta utilizada para gerenciamento de repositórios.",
+            "branch é o nome dado a uma alteração feita no código através de um pull request em uma cloud.",
+            "a integração contínua (CI) é a metodologia de desenvolvimento de software onde o processo de build, teste e deploy é automatizado.",
+            "Shift-left testing é uma abordagem na qual os testes são executados no começo do ciclo de vida do software."
+        ],
+        "gabarito": "Shift-left testing é uma abordagem na qual os testes são executados no começo do ciclo de vida do software."
+    },
+    {
+        "id": 111,
+        "enunciado": "De acordo com as práticas e ferramentas utilizadas no contexto do DevOps, assinale a alternativa INCORRETA em relação à automação de processos e gerenciamento de infraestrutura:",
+        "alternativas": [
+            "Infraestrutura imutável: refere-se à prática de criar e gerenciar, por exemplo, as infraestruturas dos ambientes de produção, desenvolvimento e teste, de forma que elas sejam consideradas estáticas e não suscetíveis a alterações após serem provisionadas. Isso aumenta a estabilidade e confiabilidade do ambiente, uma vez que cada ambiente possui sua versão com fontes de configuração diferentes e podem ser facilmente recuperadas.",
+            "Conteinerização: A utilização de contêineres, através de ferramentas como Docker, facilita a criação, distribuição e execução de aplicações em ambientes isolados. Isso contribui para a padronização e escalabilidade da infraestrutura, além de permitir uma rápida implantação e rollbacks.",
+            "Telemetria: No DevOps, é fundamental ter uma visibilidade contínua do desempenho e disponibilidade dos sistemas. Com ferramentas de monitoramento, como Prometheus, é possível coletar métricas em tempo real, identificar problemas e tomar ações corretivas proativamente.",
+            "Infraestrutura como código (IaC): A prática de IaC envolve a descrição da infraestrutura em forma de código, permitindo a automatização e o versionamento do ambiente. Com ferramentas como Terraform e Ansible, é possível definir, provisionar e gerenciar a infraestrutura de forma consistente e reprodutível.",
+            "Entrega contínua: A entrega contínua é uma abordagem que visa automatizar e acelerar o processo de implantação do software em ambientes de produção. Com a integração contínua, testes automatizados e pipelines de implantação, é possível garantir que as alterações sejam entregues de forma confiável e com baixo risco, permitindo a liberação frequente de novas funcionalidades aos usuários."
+        ],
+        "gabarito": "Infraestrutura imutável: refere-se à prática de criar e gerenciar, por exemplo, as infraestruturas dos ambientes de produção, desenvolvimento e teste, de forma que elas sejam consideradas estáticas e não suscetíveis a alterações após serem provisionadas. Isso aumenta a estabilidade e confiabilidade do ambiente, uma vez que cada ambiente possui sua versão com fontes de configuração diferentes e podem ser facilmente recuperadas."
+    },
+    {
+        "id": 112,
+        "enunciado": "O serviço do Azure DevOps que permite que equipes planejem, acompanhem e discutam o trabalho no processo de desenvolvimento, suportando metodologias ágeis como Scrum e Kanban, é conhecido como",
+        "alternativas": [
+            "Azure Elastic Beanstalk.",
+            "Azure EC2.",
+            "Azure Boards.",
+            "Azure HDInsight.",
+            "Azure Bastion."
+        ],
+        "gabarito": "Azure Boards."
+    },
+    {
+        "id": 113,
+        "enunciado": "Em um cenário de implementação de DevOps, uma organização busca melhorar o fluxo de trabalho entre desenvolvedores e operadores, automatizando pipelines de integração e entrega contínua. Qual das seguintes ferramentas NÃO é tipicamente associada à prática de DevOps para atender a esses objetivos?",
+        "alternativas": [
+            "Jenkins.",
+            "Docker.",
+            "Ansible.",
+            "Kubernetes.",
+            "Adobe Photoshop."
+        ],
+        "gabarito": "Adobe Photoshop."
+    },
+    {
+        "id": 114,
+        "enunciado": "Quem é creditado como o pioneiro do termo \"DevOps\" e qual foi sua motivação para introduzi-lo?",
+        "alternativas": [
+            "Andrew Shafer; para promover a automação em projetos de software.",
+            "John Allspaw; para eliminar a necessidade de colaboração entre desenvolvedores e operações.",
+            "Patrick Debois; para resolver os conflitos tradicionais entre desenvolvedores e administradores de sistemas.",
+            "Um desenvolvedor anônimo; para criar um novo paradigma na entrega de software."
+        ],
+        "gabarito": "Patrick Debois; para resolver os conflitos tradicionais entre desenvolvedores e administradores de sistemas."
+    },
+    {
+        "id": 115,
+        "enunciado": "O que significa DevOps e qual é seu principal objetivo?",
+        "alternativas": [
+            "DevOps é um modelo de pensamento que enfatiza a segregação entre desenvolvimento e operações para otimizar a construção de software.",
+            "DevOps é um termo que se refere à automatização completa de todas as etapas de desenvolvimento de software.",
+            "DevOps representa um paradigma que busca a harmonização entre as áreas de desenvolvimento e operações para otimizar a entrega de software com qualidade.",
+            "DevOps é um conjunto de práticas que prioriza a implementação rápida de novos recursos sem levar em consideração a qualidade."
+        ],
+        "gabarito": "DevOps representa um paradigma que busca a harmonização entre as áreas de desenvolvimento e operações para otimizar a entrega de software com qualidade."
+    },
+    {
+        "id": 116,
+        "enunciado": "Além da automatização, o que é essencial para que o DevOps seja bem-sucedido?",
+        "alternativas": [
+            "Uma mudança cultural que inclua valores como colaboração e transparência.",
+            "Um foco exclusivo na automação de processos.",
+            "A eliminação de todas as etapas de revisão de código.",
+            "A concentração em manter a cultura existente na empresa."
+        ],
+        "gabarito": "Uma mudança cultural que inclua valores como colaboração e transparência."
+    },
+    {
+        "id": 117,
+        "enunciado": "Uma atividade típica do processo de integração contínua/entrega contínua é a automação dos processos de compilação e dos testes da aplicação. O processo de compilação é acionado quando",
+        "alternativas": [
+            "o gestor do projeto autoriza uma entrega para o ambiente de produção.",
+            "o código da aplicação é atualizado em um sistema de versionamento centralizado.",
+            "todos os testes de unidade são concluídos com sucesso.",
+            "ocorre falha em algum dos testes realizados na aplicação.",
+            "alguma instância de máquina virtual em ambiente de nuvem é inicializada."
+        ],
+        "gabarito": "o código da aplicação é atualizado em um sistema de versionamento centralizado."
+    },
+    {
+        "id": 118,
+        "enunciado": "A equipe de redes de um órgão público está trabalhando para auxiliar no cumprimento das metas da equipe de desenvolvimento de sistemas do mesmo órgão e vislumbrou a possibilidade de utilização de DevOps. Para tal, a equipe de redes indicou a contratação de uma API em uma nuvem. A API indicada permite que os desenvolvedores e os administradores dos sistemas interajam com a infraestrutura de modo programático e em escala, evitando a instalação e a configuração dos recursos manualmente todas as vezes que precisam recriar um ambiente de desenvolvimento.\nPara essa atividade, a equipe de desenvolvimento utilizou a prática DevOps de:",
+        "alternativas": [
+            "comunicação e colaboração;",
+            "integração contínua;",
+            "entrega contínua;",
+            "microsserviços;",
+            "infraestrutura como código."
+        ],
+        "gabarito": "infraestrutura como código."
+    },
+    {
+        "id": 119,
+        "enunciado": "Julgue o item subsecutivo, relativo a DevOps e notação BPMN.\nNo DevOps, a integração contínua possui como uma de suas atividades a realização de testes; a fim de se obter os benefícios esperados convém automatizar os testes para poder executá-los para cada alteração feita no repositório principal.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 120,
+        "enunciado": "Quanto aos conceitos de computação em nuvem, benefícios e alta disponibilidade, julgue o próximo item.\nA IaC (infraestrutura como código) foi viabilizada pelo surgimento de plataformas de hospedagem de infraestrutura em nuvem, especificamente as plataformas IaaS.\nEntre os fatores que influenciam diretamente o uso da IaC estão o aumento dos custos e a diminuição na velocidade de implantação da infraestrutura.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 121,
+        "enunciado": "Quanto a implementação de um modelo de DEVOPS, analise as afirmativas abaixo e dê valores Verdadeiro (V) ou Falso (F).\n( ) Uma prática fundamental é a execução de atualizações frequentes, porém pequenas.\n( ) A segurança não é a principal prioridade de todos em uma equipe de DevOps.\n( ) As equipes de desenvolvimento e operações não ficam mais separadas.\nAssinale a alternativa que apresenta a sequência correta de cima para baixo.",
+        "alternativas": [
+            "V - V - V.",
+            "V - V - F.",
+            "V - F - V.",
+            "F - F - V.",
+            "F - F - F."
+        ],
+        "gabarito": "V - V - V."
+    },
+    {
+        "id": 122,
+        "enunciado": "No DevOps, as mudanças feitas pelo desenvolvedor na solução de software, nas quais são feitos testes contra erros para depois serem enviadas a um repositório de versionamento de códigos, como o GitHub, representam a etapa de",
+        "alternativas": [
+            "deploy.",
+            "entrega contínua.",
+            "integração contínua.",
+            "operação."
+        ],
+        "gabarito": "entrega contínua."
+    },
+    {
+        "id": 123,
+        "enunciado": "São tarefas do DevOps o(a)\nI monitoramento (monitor).\nII planejamento (plan).\nIII codificação (code).\nAssinale a opção correta.",
+        "alternativas": [
+            "Apenas os itens I e II estão certos.",
+            "Apenas os itens I e III estão certos.",
+            "Apenas os itens II e III estão certos.",
+            "Todos os itens estão certos."
+        ],
+        "gabarito": "Todos os itens estão certos."
+    },
+    {
+        "id": 124,
+        "enunciado": "Sobre os conceitos de integração e entrega contínua, analise as afirmações a seguir.\nI - Entrega contínua (CD) é um processo de automação para desenvolvedores. Uma CD (entrega continua) bem sucedida é quando novas mudanças no código de uma aplicação são desenvolvidas, testadas e consolidadas regularmente em um repositório compartilhado.\nII - Entrega contínua (CD) representa as mudanças feitas pelo desenvolvedor em uma aplicação, que são automaticamente testadas contra bugs e carregadas em um repositório, como o GitHub, ou em um registro de contêiner. Nesse repositório, a equipe de operações pode implantar essas mudanças em um ambiente de produção ativo.\nIII - Integração continua (CI) é um processo que representa as mudanças feitas pelo desenvolvedor em uma aplicação, que são automaticamente testadas contra bugs e carregadas em um repositório, como o GitHub, ou em um registro de contêiner. Nesse repositório, a equipe de operações pode implantar essas mudanças em um ambiente de produção ativo.\nIV - Integração contínua (CI) é um processo de automação para desenvolvedores. Uma CI (integração continua) bem sucedida é quando novas mudanças no código de uma aplicação são desenvolvidas, testadas e consolidadas regularmente em um repositório compartilhado.\nEstão corretas, apenas, as assertivas:",
+        "alternativas": [
+            "I e ll.",
+            "Il e lll.",
+            "IlI e lV.",
+            "l e lll.",
+            "Il e lV."
+        ],
+        "gabarito": "Il e lV."
+    },
+    {
+        "id": 125,
+        "enunciado": "O DevOps faz uso de três pipelines e, em um deles, as alterações realizadas pelos diferentes elementos do grupo são validadas, testadas e integradas ao repositório compartilhado do código fonte da aplicação. A descrição apresentada corresponde ao Pipeline Continuous",
+        "alternativas": [
+            "Strategy.",
+            "Delivery.",
+            "Integration.",
+            "Deployment.",
+            "Development."
+        ],
+        "gabarito": "Integration."
+    },
+    {
+        "id": 126,
+        "enunciado": "Continuous lntegration (CI) e Continuous Delivery (CD) são práticas complementares adotadas em equipes de desenvolvimento de software e geralmente implementadas por profissionais DevOps. O objetivo dessas práticas é o de otimizar o ciclo de desenvolvimento de software através da automação de tarefas. A respeito dos conceitos presentes nas práticas de CI e de CE, analise as afirmativas abaixo e marque alternativa correta.\nI. Dentre os beneficias que podemos obter ao adotar CI e CD, podemos citar: rapidez na identificação de problemas e agilidade na entrega de atualizações do software para o cliente.\nII. Um pipeline onde CI e CD foram Implementados deve ser capaz de automatizar tarefas como: integração, compilação, testes da aplicação.\nIII. Para conseguirmos um processo eficaz de Integração contínua, é importante que entrega contínua já esteja incorporada ao pipeline de desenvolvimento.",
+        "alternativas": [
+            "Apenas a afirmativa III está correta.",
+            "Apenas a afirmativa I está correta.",
+            "Apenas as afirmativas II e III estão corretas.",
+            "Apenas as afirmativas I e II estão corretas.",
+            "Todas as afirmativas estão corretas."
+        ],
+        "gabarito": "Apenas as afirmativas I e II estão corretas."
+    },
+    {
+        "id": 127,
+        "enunciado": "Considerando o DevOps e suas boas práticas, analise os itens a seguir:\nI. Testes integrados são uma parte importante do processo DevOps. Esses testes devem levar em consideração as práticas de Test-Driven Development e Behavior-Driven Development, dessa forma a execução automática desses testes pode ser integrada ao pipeline de CI. No entanto, é importante integrar outros tipos de testes, como testes funcionais ou testes de integração, que permitem que o aplicativo seja testado funcionalmente do início ao fim com os outros componentes do seu ecossistema.\nII. Recomenda-se automatizar apenas as tarefas críticas que envolvam poucas atualizações na implementação e nos testes dos aplicativos nas infraestruturas.\nEssas tarefas devem ser automatizadas em scripts que podem ser facilmente integradas e executadas em pipelines de CI/CD.\nIII. A construção de pipelines de CI/CD envolvem a escolha de ferramentas de DevOps adequadas pelas equipes considerando a natureza da empresa. E necessário levar em conta aspectos financeiros, avaliar entre ferramentas de código aberto e gratuitas e as proprietárias, que são mais ricas em recursos e suporte, mas exigem um investimento significativo.\nEstá correto apenas o que se afirma em",
+        "alternativas": [
+            "I e III.",
+            "I.",
+            "I e II.",
+            "II e III.",
+            "II."
+        ],
+        "gabarito": "I e III."
+    },
+    {
+        "id": 128,
+        "enunciado": "Um modelo que combina filosofias culturais, práticas e ferramentas que aumentam a capacidade de uma empresa distribuir seus serviços em alta velocidade é chamado:",
+        "alternativas": [
+            "Thruput.",
+            "DevOps.",
+            "SOA.",
+            "Modelos OSI.",
+            "ITIL."
+        ],
+        "gabarito": "DevOps."
+    },
+    {
+        "id": 129,
+        "enunciado": "Em um modelo DevOps existe um método para entregar aplicações com frequência aos clientes, visando integração, entrega e implantação contínuas. Chamamos esse método de:",
+        "alternativas": [
+            "git.",
+            "pipeline.",
+            "flowchart.",
+            "reentrante.",
+            "CI/CD."
+        ],
+        "gabarito": "CI/CD."
+    },
+    {
+        "id": 130,
+        "enunciado": "Julgue o próximo item, relativo a metodologias ágeis e experiência do usuário, suas técnicas e processos de apoio.\nO DevOps melhora a experiência do cliente ao dar atenção aos testes manuais contínuos por membros da equipe de operações e de desenvolvimento para garantir a adequação do produto às necessidades dos usuários.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 131,
+        "enunciado": "Julgue o item a seguir, relativo à gestão de configuração DevOps e CI/CD.\nO CI/CD aplica monitoramento manual pausado em todo o ciclo de vida das aplicações, incluindo as etapas de teste e de integração.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 132,
+        "enunciado": "Julgue o item a seguir, relativo à gestão de configuração DevOps e CI/CD.\nA integração contínua, a entrega contínua e a infraestrutura como código estão entre as melhores práticas de DevOps.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 133,
+        "enunciado": "Acerca de conceitos e fundamentos de metodologias ágeis, julgue o item que se segue.\nEm um ambiente de DevOps, o gerenciamento de liberação é geralmente integrado à cadeia de ferramentas de integração contínua e implantação contínua.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 134,
+        "enunciado": "Acerca dos conceitos de gestão de configuração, julgue o item que se segue.\nA prática DevOps visa à entrega contínua e à automação de tarefas repetitivas e tediosas, o que possibilita dedicar mais tempo à interação humana.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 135,
+        "enunciado": "Julgue o item que se segue, acerca de DevOps.\nCada vez que uma alteração na base de código é detectada, é iniciada uma compilação que testa a qualidade do código recém-enviado, alcançando-se, assim, a integração contínua.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 136,
+        "enunciado": "Julgue o item que se segue, acerca de DevOps.\nO repositório de artefatos armazena artefatos de construção produzidos por integração contínua e os disponibiliza para implantação automatizada em ambientes de teste, preparação e produção.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 137,
+        "enunciado": "Julgue o item que se segue, acerca de DevOps.\nOs processos envolvidos no DevOps são denominados, respectivamente, de planejar, construir, testar, codificar, operar, avaliar e relatar.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 138,
+        "enunciado": "A respeito de DevOps, julgue o item subsequente.\nA ferramenta puppet permite escrever e executar um conjunto de diretivas para gerenciar a configuração de um sistema, seja o operacional, seja uma aplicação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 139,
+        "enunciado": "A respeito de DevOps, julgue o item subsequente.\nA organização que investir em DevOps deve estar preparada para automatizar seus processos mediante a execução de scripts pré-definidos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 140,
+        "enunciado": "A respeito de DevOps, julgue o item subsequente.\nTestes automatizados locais, atualização local a partir do repositório central, novos testes automatizados locais e atualização do repositório central a partir do local são as etapas de integração contínua.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 141,
+        "enunciado": "A respeito de DevOps, julgue o item subsequente.\nA recomendação da integração é contínua quando prevê que cada desenvolvedor faça, no mínimo, um commit por semana, atualizando o repositório central a partir do repositório local.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 142,
+        "enunciado": "No que se refere aos conceitos de infraestrutura como código (IaC), julgue o próximo item.\nInfraestrutura como código (IaC) é o processo de gerenciamento e provisionamento de data centers de computador, por meio de arquivos de definição legíveis por máquina, ao invés de configuração de hardware físico ou ferramentas de configuração interativas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 143,
+        "enunciado": "Considerando a figura a seguir, julgue o próximo item, acerca dos conceitos de DevOps.\nSituação hipotética: Alguns funcionários de determinada organização foram encarregados de selecionar uma ferramenta para auxiliar os gestores na execução das atividades relacionadas à fase build dos projetos da empresa. Após se reunirem para debater o assunto, os funcionários optaram pela ferramenta puppet.\nAssertiva: Nessa situação, os funcionários da empresa escolheram a ferramenta mais adequada, uma vez que o puppet é utilizado para realizar, de forma padronizada, a automação e construção de código, verificando-se as dependências necessárias durante o processo de compilação das aplicações.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 144,
+        "enunciado": "Considerando a figura a seguir, julgue o próximo item, acerca dos conceitos de DevOps.\nOs microsserviços são módulos implantados e monitorados de forma independente, os quais são combinados, em uma coleção desacoplada, por aplicativos baseados nesses microsserviços.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 145,
+        "enunciado": "Considerando a figura a seguir, julgue o próximo item, acerca dos conceitos de DevOps.\nA entrega contínua (CD) no DevOps é o processo de automatização que inclui a configuração e implantação de um aplicativo em um pipeline de produção, mas não abrange a compilação e o teste.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 146,
+        "enunciado": "A respeito de testes automatizados, no contexto de DevOps e DevSecOps, assinale a opção correta.",
+        "alternativas": [
+            "Em um teste unitário, os métodos da classe sendo testada e suas dependências podem ter relação com recursos externos.",
+            "Os bugs são detectados no final do ciclo de desenvolvimento, o que pode aumentar o tempo na criação de novos produtos.",
+            "Os testes unitários são testes de caixa preta com cada função que compõe o software.",
+            "O TDD (Test Driven Development) eleva o nível dos testes unitários e tem como característica criar a classe de testes antes da classe de produção, de forma que os testes guiem o código a ser implementado.",
+            "Os testes de integração são caracterizados pela verificação de partes internas do sistema, que se inter-relacionam entre si, conforme definido pelos clientes."
+        ],
+        "gabarito": "O TDD (Test Driven Development) eleva o nível dos testes unitários e tem como característica criar a classe de testes antes da classe de produção, de forma que os testes guiem o código a ser implementado."
+    },
+    {
+        "id": 147,
+        "enunciado": "Quanto aos conceitos básicos de DevOps, segundo a Amazon, analise as afirmativas abaixo, dê valores Verdadeiro (V) ou Falso (F).\n( ) Lança-se versões de software em ciclos periódicos, lineares, mas longos.\n( ) As equipes de desenvolvimento ficam separadas dos operadores de software.\n( ) DevOps é a combinação de filosofias culturais, práticas e ferramentas.\nAssinale a alternativa que apresenta a sequência correta de cima para baixo.",
+        "alternativas": [
+            "V - F - F.",
+            "V - V - F.",
+            "F - V - V.",
+            "F - F - V."
+        ],
+        "gabarito": "F - F - V."
+    },
+    {
+        "id": 148,
+        "enunciado": "Assinale a alternativa que indica os três pilares que formam a cultura DevOps.",
+        "alternativas": [
+            "Colaboração, processos e ferramentas.",
+            "Colaboração, deploy e integração.",
+            "Processo, infraestrutura como código e deploy.",
+            "GitHub Actions, testes unitários e processo.",
+            "CI, CD e deploy."
+        ],
+        "gabarito": "Colaboração, processos e ferramentas."
+    },
+    {
+        "id": 149,
+        "enunciado": "No contexto de DevOps e de computação em nuvem, há diversos KPIs a serem levados em consideração. O KPI que mensura o tempo médio gasto entre a detecção da ocorrência de uma falha na aplicação e a recuperação completa de suas funcionalidades é chamado de",
+        "alternativas": [
+            "MTTR.",
+            "número de falhas e incidentes.",
+            "duração do ciclo de vida do desenvolvimento.",
+            "MTBF.",
+            "ERV."
+        ],
+        "gabarito": "MTTR."
+    },
+    {
+        "id": 150,
+        "enunciado": "O ciclo de DevOps engloba a integração contínua, o deploy contínuo e o monitoramento após o deploy.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 151,
+        "enunciado": "A integração contínua consiste em implantar o sistema no ambiente de execução.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 152,
+        "enunciado": "Com relação ao DevOps, quando utiliza-se o “SHIFT LEFT TESTING\", queremos dizer que os testes devem",
+        "alternativas": [
+            "dirigir o desenvolvimento do produto.",
+            "ser feitos junto com a entrada em operação do produto.",
+            "ser feitos apenas no ambiente de desenvolvimento.",
+            "ser feitos apenas por meio de ferramentas de automação de testes.",
+            "ser feitos desde as fases iniciais do ciclo de vida do produto."
+        ],
+        "gabarito": "ser feitos desde as fases iniciais do ciclo de vida do produto."
+    },
+    {
+        "id": 153,
+        "enunciado": "A cultura DevOps é capaz de alcançar muitos objetivos com sua metodologia. Inicialmente, essa metodologia era fundamental para a implementação manual de novas versões que, sem a devida automação, sofria com a frequência de erros. Atualmente, o DevOps se tomou uma cultura de aperfeiçoamento para TI. Com isso, proporciona vantagens, como",
+        "alternativas": [
+            "maior controle de ambiente por parte do desenvolvedor.",
+            "realizar deploy sob controle manual de especialistas.",
+            "estabelecer uma divisão bem delimitada entre infraestrutura e desenvolvimento.",
+            "possuir um ambiente aberto (não padrão) sem muitos controles.",
+            "fazer com que cada etapa do processo seja aprovada formalmente pelos gerentes."
+        ],
+        "gabarito": "maior controle de ambiente por parte do desenvolvedor."
+    },
+    {
+        "id": 154,
+        "enunciado": "Ainda sobre a cultura DevOps, assinale a alternativa que indica outra vantagem.",
+        "alternativas": [
+            "burocratização de processos.",
+            "aumento de tempo para entregas.",
+            "aprimoramento de qualidade.",
+            "heterogeneidade de ambientes.",
+            "rigidez no gerenciamento de processos."
+        ],
+        "gabarito": "aprimoramento de qualidade."
+    },
+    {
+        "id": 155,
+        "enunciado": "modelo DevOps é muito mais do que uma simples implantação de princípios ágeis para controlar a infraestrutura. Trata-se de uma abordagem que elimina barreiras, aproximando as equipes, a partir de um modelo de trabalho que conduz ao alinhamento dos objetivos de negócios. Então, de acordo com as propostas de cada fase do ciclo de vida do DevOps, assinale aquela que “trata de uma abordagem que mescla as operações de desenvolvimento, teste e implantação em um processo simplificado, pois depende fortemente da automação.”",
+        "alternativas": [
+            "Planejamento ágil.",
+            "Desenvolvimento contínuo.",
+            "Integração contínua e entrega continua (CI/CD).",
+            "Implantação continua.",
+            "Monitoramento continuo."
+        ],
+        "gabarito": "Integração contínua e entrega continua (CI/CD)."
+    },
+    {
+        "id": 156,
+        "enunciado": "“As práticas de DevOps, como integração contínua e entrega continua, podem garantir a qualidade das atualizações de aplicativos e mudanças na infraestrutura.\nAssim, a empresa consegue entregar com segurança em um ritmo mais rápido, mantendo uma experiência ideal para os usuários finais.” Esse conceito está intrinsicamente ligado a qual das vantagens do uso do DevOps para a equipe de TI?",
+        "alternativas": [
+            "Colaboração aprimorada.",
+            "Velocidade.",
+            "Entrega rápida.",
+            "Confiabilidade.",
+            "Segurança."
+        ],
+        "gabarito": "Confiabilidade."
+    },
+    {
+        "id": 157,
+        "enunciado": "A metodologia DevOps é uma abordagem de cultura, automação e design de plataforma que tem como objetivo agregar mais valor aos negócios e aumentar sua capacidade de resposta às mudanças por meio de entregas de serviços rápidas e de alta qualidade.” Sabendo-se disso, e levando-se em consideração todas as características de DevOps, qual a melhor metodologia ágil para se integrar com DevOps?",
+        "alternativas": [
+            "Lean.",
+            "Kanban.",
+            "Smart.",
+            "Scrum.",
+            "FDD."
+        ],
+        "gabarito": "Scrum."
+    }
+]

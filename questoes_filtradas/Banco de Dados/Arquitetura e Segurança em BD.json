@@ -1,0 +1,1178 @@
+[
+    {
+        "id": 1,
+        "enunciado": "Em um SGBD, o tipo de índice mais comum para acesso geral aos dados é a B+ Tree. A estrutura dessa árvore garante a eficiência tanto na busca por um registro específico quanto na busca por um intervalo de registros.\nAssinale a opção que descreve a característica da B+ Tree que a torna excepcionalmente eficiente para buscas por intervalo.",
+        "alternativas": [
+            "A B+ Tree utiliza uma função de hashing para mapear chaves diretamente para endereços de bloco, eliminando a necessidade de travessia da árvore.",
+            "Todos os nós internos e não folhas da árvore contêm ponteiros para os registros de dados, permitindo que a busca termine em qualquer nível.",
+            "A B+ Tree garante que todas as folhas estão no mesmo nível de profundidade e são interligadas por ponteiros, permitindo a varredura sequencial eficiente.",
+            "O fator de ramificação da B+ Tree é sempre fixo em dois, o que simplifica a implementação, mas não afeta a busca por intervalo.",
+            "A estrutura permite que os registros de dados sejam armazenados diretamente dentro dos nós internos, otimizando o acesso aleatório, mas não o sequencial."
+        ],
+        "gabarito": "A B+ Tree garante que todas as folhas estão no mesmo nível de profundidade e são interligadas por ponteiros, permitindo a varredura sequencial eficiente."
+    },
+    {
+        "id": 2,
+        "enunciado": "Um DBA utiliza Hashing Extensível para implementar um índice em uma tabela onde se espera um alto volume de inserções. Este tipo de indexação dinâmica é preferido ao Hashing Estático quando o tamanho do arquivo de dados pode variar drasticamente.\nAssinale a afirmativa correta sobre o principal mecanismo que o Hashing Extensível utiliza para lidar com o crescimento dinâmico e o problema de colisão de forma eficiente, sem a necessidade de reestruturar todo o índice.",
+        "alternativas": [
+            "Utiliza uma tabela de Bucket Pointers e um Global Depth para endereçar os blocos de dados. Quando um bucket transborda, ele é dividido e a profundidade global pode ser incrementada.",
+            "Armazena os registros em ordem sequencial no disco e usa uma busca binária para encontrar o registro correspondente ao valor de hash.",
+            "Resolve as colisões usando listas encadeadas presas a cada bucket pointer, o que degrada a performance de busca na tabela.",
+            "O Hashing Extensível exige que o DBA defina previamente o número máximo de buckets que o índice pode ter.",
+            "Utiliza uma B+ Tree para armazenar os valores de hash, combinando os benefícios de ambos os algoritmos."
+        ],
+        "gabarito": "Utiliza uma tabela de Bucket Pointers e um Global Depth para endereçar os blocos de dados. Quando um bucket transborda, ele é dividido e a profundidade global pode ser incrementada."
+    },
+    {
+        "id": 3,
+        "enunciado": "Ao projetar um SGBD, o fator de ramificação dos nós internos de uma B+ Tree é dimensionado para ser o maior possível, limitado pelo tamanho da página do disco.\nAssinale a afirmativa que explica o benefício de ter um alto fator de ramificação em uma B+ Tree para a performance do SGBD.",
+        "alternativas": [
+            "Reduz a quantidade de espaço em disco necessária para armazenar a tabela de dados.",
+            "Permite que mais dados do usuário sejam armazenados nos nós internos da árvore.",
+            "Aumenta o número máximo de registros que a árvore pode indexar para uma determinada profundidade.",
+            "Minimiza a altura da árvore para um dado número de registros, reduzindo o número de acessos a disco necessários para a busca de um registro.",
+            "Facilita a implementação do algoritmo de inserção e remoção."
+        ],
+        "gabarito": "Minimiza a altura da árvore para um dado número de registros, reduzindo o número de acessos a disco necessários para a busca de um registro."
+    },
+    {
+        "id": 4,
+        "enunciado": "Um DBA está planejando a indexação de uma tabela de clientes no MS SQL Server. Ele decide criar um índice Clustered na coluna CPF e um índice Non-Clustered na coluna EMAIL.\nAssinale a opção que descreve o impacto do índice Clustered na organização física dos dados.",
+        "alternativas": [
+            "O índice Clustered armazena a chave de indexação e um ponteiro para a localização dos dados, mas não altera a ordem física das tuplas na página de dados.",
+            "Em tabelas com índice Clustered, as tuplas de dados são armazenadas fisicamente em disco na ordem definida pela chave do índice, e a árvore Clustered é o próprio dado.",
+            "O índice Clustered só pode ser criado em colunas de baixa cardinalidade como booleanos.",
+            "O MS SQL Server permite criar múltiplos índices Clustered em uma única tabela para diferentes colunas em disco.",
+            "O índice Clustered é o único tipo de índice que utiliza a estrutura de B+ Tree."
+        ],
+        "gabarito": "Em tabelas com índice Clustered, as tuplas de dados são armazenadas fisicamente em disco na ordem definida pela chave do índice, e a árvore Clustered é o próprio dado."
+    },
+    {
+        "id": 5,
+        "enunciado": "O que é uma tabela Heap?",
+        "alternativas": [
+            "Esta tabela refere-se à forma como os endereços de memória são organizados em sistemas computacionais, onde os endereços são atribuídos de maneira contínua e linear.",
+            "Um tipo de estrutura de dados usada em bancos de dados relacionais para armazenar registros de maneira não ordenada e não indexada, onde os dados são inseridos sem qualquer ordenação prévia, e o acesso a esses dados ocorre de forma sequencial.",
+            "É uma técnica utilizada em sistemas de gerenciamento de banco de dados (DBMS) para dividir grandes tabelas em partes menores, chamadas de partições, com o objetivo de melhorar o desempenho, a manutenção e a gestão de dados. Cada partição é tratada como uma tabela independente, mas ainda faz parte da tabela original.",
+            "É uma estrutura de dados que permite armazenar e acessar dados de forma muito eficiente, utilizando uma função de hash para mapear as chaves dos dados para posições específicas de memória, chamadas de índices.",
+            "Uma estrutura de dados balanceada, amplamente utilizada em sistemas de gerenciamento de banco de dados e sistemas de arquivos para otimizar a busca, inserção, e remoção de dados, sendo um tipo de árvore de busca balanceada que oferece uma estrutura eficiente para armazenar grandes quantidades de dados de forma ordenada."
+        ],
+        "gabarito": "Um tipo de estrutura de dados usada em bancos de dados relacionais para armazenar registros de maneira não ordenada e não indexada, onde os dados são inseridos sem qualquer ordenação prévia, e o acesso a esses dados ocorre de forma sequencial."
+    },
+    {
+        "id": 6,
+        "enunciado": "O que o método array.shift() faz em linguagem Javascript?",
+        "alternativas": [
+            "É um método usado para unir arrays sem modificar os arrays originais.",
+            "É um método que remove e retorna o último elemento de um array.",
+            "É um método que remove o primeiro elemento de um array, e não adiciona um novo elemento.",
+            "É um método que adiciona um ou mais elementos ao in ício de um array.",
+            "É um método que adiciona um ou mais elementos ao final de um array."
+        ],
+        "gabarito": "É um método que remove o primeiro elemento de um array, e não adiciona um novo elemento."
+    },
+    {
+        "id": 7,
+        "enunciado": "Considere a construção de um programa em linguagem Java e marque a afirmativa correta.",
+        "alternativas": [
+            "O método principal de um programa Java deve '.)brigatoriamente se chamar main e ter a assinatura public static void main(String[] args), caso contrário, a JVM não conseguirá iniciar o programa.",
+            "Java é uma linguagem puramente orientada a objetos.",
+            "É impossível compilar um programa Java sem a extensão.java.",
+            "Em Java, toda classe deve ter um método main para ser executada.",
+            "Em Java, se o programa possui uma classe pública, o nome do arquivo fonte deve ser diferente do nome desta classe."
+        ],
+        "gabarito": "O método principal de um programa Java deve '.)brigatoriamente se chamar main e ter a assinatura public static void main(String[] args), caso contrário, a JVM não conseguirá iniciar o programa."
+    },
+    {
+        "id": 8,
+        "enunciado": "Relacione a Coluna 1 à Coluna 2, associando as formas de organizar os registros em arquivos às suas respectivas definições.\nColuna 1\n1. Organização de arquivo heap.\n2. Organização sequencial de arquivo.\n3. Organização de arquivo hash.\n4. Organização de arquivo clustering.\nColuna 2\n( ) Os registros são armazenados em ordem sequencial, baseados no valor da chave primária.\n( ) Uma função é calculada sobre algum atributo de cada registro. O resultado da função especifica em qual bloco do arquivo o registro deve ser colocado.\n( ) Registros relacionados de diferentes relações são armazenados no mesmo bloco, de forma que uma operação de I/O busque os registros relacionados de todas as relações.\n( ) Qualquer registro pode ser colocado em qualquer lugar no arquivo onde haja espaço para o registro. Não há uma ordem de registros.\nA ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+        "alternativas": [
+            "1 – 2 – 3 – 4.",
+            "2 – 3 – 4 – 1.",
+            "4 – 3 – 2 – 1.",
+            "3 – 4 – 1 – 2.",
+            "4 – 1 – 2 – 3."
+        ],
+        "gabarito": "2 – 3 – 4 – 1."
+    },
+    {
+        "id": 9,
+        "enunciado": "O hashing é uma técnica amplamente utilizada em várias áreas da computação. Esse processo é essencial para a criação de estruturas de dados eficientes, permitindo a indexação eficaz, verificação de integridade de dados e segurança em sistemas de software e redes. Define corretamente a estrutura de dados Hash Table (Tabela de Hashing):",
+        "alternativas": [
+            "Tabela que armazena dados em ordem alfabética.",
+            "Tabela usada exclusivamente para criptografar senhas.",
+            "Transforma dados em uma representação visual com base na hash table.",
+            "Estrutura de dados que mapeia chaves para valores com base em funções de hashing."
+        ],
+        "gabarito": "Estrutura de dados que mapeia chaves para valores com base em funções de hashing."
+    },
+    {
+        "id": 10,
+        "enunciado": "Determinado profissional deseja criar um sistema para armazenar informações de contato com base no número de telefone. A chave seria o número de telefone e o valor o nome da pessoa. Ao tentar encontrar o nome de alguém, existe uma função que mapeia o número de telefone para a posição na tabela onde o nome está armazenado. Podemos afirmar que uma tabela hash (hash table) em estruturas de dados e algoritmos se trata de",
+        "alternativas": [
+            "técnica para armazenar valores únicos em uma lista.",
+            "estrutura de dados que organiza os dados em uma árvore binária.",
+            "tabela que permite a pesquisa de dados usando índices numéricos.",
+            "estrutura de dados que armazena pares chave-valor e permite pesquisa eficiente com base na chave, empregando uma função de hash."
+        ],
+        "gabarito": "estrutura de dados que armazena pares chave-valor e permite pesquisa eficiente com base na chave, empregando uma função de hash."
+    },
+    {
+        "id": 11,
+        "enunciado": "A respeito da extração de dados em mídias, é correto afirmar:",
+        "alternativas": [
+            "O cabeçalho de um arquivo pode ser visto com a utilização de qualquer visualizador ou editor hexadecimal, como, por exemplo, o hexadump, presente nas distribuições MacOS.",
+            "Ao se deparar com arquivos contendo os valores 0XFFd8FF e 0Xffd9 no cabeçalho e no rodapé, respectivamente, o perito saberá estar lidando com arquivos no formato JPEG.",
+            "Os números mágicos não servem para identificar arquivos cujas extensões são inconsistentes com a sua assinatura.",
+            "O cabeçalho/rodapé (HEXADECIMAL) da extensão do arquivo PDF, pode ser descrita 1A 45 DF A3 93 42 82 88.",
+            "A técnica de file carving é muito bem-sucedida para recuperar os metadados dos arquivos."
+        ],
+        "gabarito": "Ao se deparar com arquivos contendo os valores 0XFFd8FF e 0Xffd9 no cabeçalho e no rodapé, respectivamente, o perito saberá estar lidando com arquivos no formato JPEG."
+    },
+    {
+        "id": 12,
+        "enunciado": "Em relação a bancos de dados, julgue o item subsequente.\nRegistros de tamanho variável podem ser implementados a partir da organização dos registros dentro de blocos; para tanto, uma técnica adotada é a estrutura de página em slots (slotted page structure), a qual requer a existência de ponteiros que apontem diretamente para os endereços das partes variáveis dos registros.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 13,
+        "enunciado": "“Dentro do cenário de Banco de Dados, podemos afirmar que existem diversos tipos de armazenamento. Esses meios são classificados de acordo com sua velocidade de acesso e sua disponibilidade. Podemos definir uma hierarquia dos tipos de armazenamento de dados onde geralmente aqueles de maior capacidade tem menor velocidade de acesso”.\nDisponivel em: https://pt.wikibooks.org/wiki/Bancos_de_dados/Estrutura_de_armazenamento Assim temos em ordem de maior para menor velocidade (e de menor capacidade para a maior):",
+        "alternativas": [
+            "Memória Flash; Disco Magnético; Disco Ótico.",
+            "Memória Principal; Cache; Memória Flash.",
+            "Fita Magnética; Disco Ótico; Disco Magnético.",
+            "Memória Principal; Disco Magnético; Cache.",
+            "Disco Ótico; Memória Flash; Cache."
+        ],
+        "gabarito": "Memória Flash; Disco Magnético; Disco Ótico."
+    },
+    {
+        "id": 14,
+        "enunciado": "Acerca da modelagem de bancos de dados, do gerenciamento de memória e dos sistemas de arquivos, julgue o item.\nDiferentemente do FAT, o sistema de arquivos NTFS utiliza uma estrutura de árvore hierárquica para organizar diretórios.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 15,
+        "enunciado": "Acerca da modelagem de bancos de dados, do gerenciamento de memória e dos sistemas de arquivos, julgue o item.\nTanto o FAT quanto o NTFS possuem uma restrição significativa no tamanho máximo de partições que podem suportar, que, atualmente, é de 4 MB.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 16,
+        "enunciado": "Uma árvore consiste em uma estrutura de dados que contém nós e arcos e pode ser utilizada para organizar objetos de forma hierárquica. Uma árvore binária de busca utiliza a estrutura de árvore e possui propriedades específicas.\nAssinale a alternativa que apresenta uma árvore binária de busca.",
+        "alternativas": [
+            ".",
+            ".",
+            ".",
+            ".",
+            "."
+        ],
+        "gabarito": "."
+    },
+    {
+        "id": 17,
+        "enunciado": "Considere os dados abaixo relativos a um método hashing.\nchave hash (chave) Carlos 6 Maria 2 Fernando 6 Luísa 1 Adriano 1 Jorge 7 Pedro 2 vetor Luísa\n1 Maria\n2 Adriano\n3\n4\n5 6 Carlos 7 Fernando 8 Com base no método apresentado acima e na sua continuação, é correto afirmar que",
+        "alternativas": [
+            "não há colisões.",
+            "Jorge ocupará a posição 7 do vetor e Fernando será deslocado para a posição 8.",
+            "serão realizadas, na pesquisa por Adriano, apenas 2 comparações para encontrá-lo.",
+            "ocorreu uma pseudocolisão entre Adriano e Luísa.",
+            "Pedro ocupará a posição 4 do vetor."
+        ],
+        "gabarito": "Pedro ocupará a posição 4 do vetor."
+    },
+    {
+        "id": 18,
+        "enunciado": "Considere as seguintes afirmativas sobre estratégias de organização de arquivos:\nI - Nos arquivos de registros desordenados (Heap Files), os registros estão posicionados no arquivo segundo a ordem pela qual foram incluídos, de forma que novos registros são acrescentados ao final do arquivo.\nII - Nos arquivos de registros ordenados (Sorted Files), podemos ordenar fisicamente os registros de um arquivo em um disco a partir dos valores de um de seus campos — chamado campo de classificação. Isso leva a um arquivo ordenado ou sequencial.\nIII - Arquivos ordenados (Sorted Files) têm algumas vantagens sobre arquivos desordenados. A leitura dos registros na ordem de valores da chave de classificação se torna extremamente eficiente porque nenhuma classificação se faz necessária.\nIV - Nos arquivos de registros desordenados (Heap Files), incluir um novo registro é muito eficiente: o endereço do último bloco do arquivo é mantido no cabeçalho do arquivo. Entretanto, a pesquisa por um registro, usando qualquer condição, envolve uma pesquisa sequencial bloco a bloco do arquivo — um procedimento dispendioso.\nEstá CORRETO o que consta em:",
+        "alternativas": [
+            "I, II e III.",
+            "II, III e IV.",
+            "I, III e IV.",
+            "II, III e IV.",
+            "Todas."
+        ],
+        "gabarito": "Todas."
+    },
+    {
+        "id": 19,
+        "enunciado": "Em um ambiente de produção de banco de dados, o Administrador de Banco de Dados (DBA) planeja uma estratégia de recuperação de desastres. O objetivo principal é garantir o menor tempo de inatividade (RTO - Recovery Time Objective) e a mínima perda de dados (RPO - Recovery Point Objective) possíveis. Assinale a opção que apresenta as abordagens de backup e recuperação mais adequadas para atender a esses requisitos rigorosos em um sistema de missão crítica.",
+        "alternativas": [
+            "Point-in-Time Recovery (PITR) utilizando os arquivos de log de transação contínuos.",
+            "Implementar uma solução de espelhamento ou replicação síncrona (como o Always On Availability Groups no SQL Server ou Data Guard no Oracle) para um servidor de standby.",
+            "Confiar exclusivamente em backups completos diários e armazená-los em um local remoto, sem a utilização de logs de transação para restauração.",
+            "Utilizar a abordagem de cold backup (backup a frio), onde o banco de dados é desligado completamente uma vez por dia para a cópia dos arquivos de dados.",
+            "Realizar backups incrementais em fitas magnéticas e transportá-las manualmente para um cofre, restaurando apenas o último backup completo e o último incremental."
+        ],
+        "gabarito": "Implementar uma solução de espelhamento ou replicação síncrona (como o Always On Availability Groups no SQL Server ou Data Guard no Oracle) para um servidor de standby."
+    },
+    {
+        "id": 20,
+        "enunciado": "A equipe de infraestrutura é responsável por garantir a recuperabilidade de um banco de dados Oracle em ambiente de produção com alta taxa de transações. O DBA precisa implementar uma estratégia de backup que minimize o tempo de indisponibilidade (RTO) em caso de falha e permita a recuperação até o último ponto no tempo\n(Point-In-Time Recovery).\nConsiderando as ferramentas nativas do Oracle e os modos de operação, a estratégia de backup e recuperação mais adequada para atender aos requisitos de alta disponibilidade e recuperação pontual recomendada pela equipe é:",
+        "alternativas": [
+            "Realizar backups lógicos diários usando a utility Data Pump (expdp/impdp) e manter o banco de dados no modo NOARCHIVELOG. Essa combinação é a mais rápida de executar e oferece a vantagem de recuperar objetos específicos sem a necessidade de restaurar o banco de dados inteiro.",
+            "Realizar backups completos do banco de dados (cold backups) copiando os arquivos do sistema operacional e manter o banco de dados no modo NOARCHIVELOG. Em casos de desastre, essa estratégia garante a restauração total da base, mas a recuperação estará limitada ao momento em que o último backup foi realizado.",
+            "Configurar o banco de dados para operar no modo ARCHIVELOG e utilizar a ferramenta Recovery Manager (RMAN) para realizar backups incrementais diários. Essa combinação garante a possibilidade de recuperação pontual (Point-In-Time Recovery) e minimiza o RTO, pois o RMAN é o utilitário nativo e mais eficiente para gerenciar cópias e logs de restauração.",
+            "Utilizar a ferramenta Recovery Manager (RMAN) para backups completos e manter o banco de dados no modo NOARCHIVELOG. Em casos de falha, o RMAN oferece a facilidade de catálogo, mas a recuperação só poderá ser feita se o servidor estiver totalmente fora de operação, aumentando o tempo de indisponibilidade.",
+            "Implementar snapshots de storage diários e desabilitar a geração de Archive Logs. Embora os snapshots sejam rápidos, essa abordagem é a mais simples, não faz uso de RMAN, e a restauração de um snapshot garante apenas a recuperação do estado anterior do banco de dados."
+        ],
+        "gabarito": "Configurar o banco de dados para operar no modo ARCHIVELOG e utilizar a ferramenta Recovery Manager (RMAN) para realizar backups incrementais diários. Essa combinação garante a possibilidade de recuperação pontual (Point-In-Time Recovery) e minimiza o RTO, pois o RMAN é o utilitário nativo e mais eficiente para gerenciar cópias e logs de restauração."
+    },
+    {
+        "id": 21,
+        "enunciado": "Um Administrador de Banco de Dados implementou uma rotina de backup para um sistema de e-commerce de missão crítica. O objetivo é garantir o menor RPO\n(Recovery Point Objective) e o menor RTO (Recovery Time Objective) possíveis em caso de falha catastrófica. O sistema utiliza a técnica de Full Backup semanal, complementada por Differential Backup diário.\nAssinale a afirmativa que descreve corretamente o procedimento de restauração e os backups necessários para recuperar o estado do banco de dados na terça-feira, às 14h, assumindo que o Full Backup mais recente foi feito no domingo, às 23h.",
+        "alternativas": [
+            "Apenas o Full Backup de domingo é necessário, pois o Differential Backup apenas armazena as diferenças desde a última transação.",
+            "O Full Backup de domingo e o Differential Backup de segunda-feira são necessários, sendo o último o mais recente antes da falha.",
+            "O Full Backup de domingo e o Differential Backup de terça-feira são necessários, seguidos da aplicação de todos os logs de transação gerados desde o Differential Backup de terça-feira.",
+            "O Full Backup de domingo e todos os Differential Backups (segunda e terça) são necessários, seguidos da aplicação dos logs.",
+            "Apenas o Differential Backup de terça-feira é suficiente, pois ele contém todos os dados alterados desde o Full Backup de domingo."
+        ],
+        "gabarito": "O Full Backup de domingo e o Differential Backup de terça-feira são necessários, seguidos da aplicação de todos os logs de transação gerados desde o Differential Backup de terça-feira."
+    },
+    {
+        "id": 22,
+        "enunciado": "Durante a administração de um SGBD (Sistema Gerenciador de Banco de Dados) como o PostgreSQL (Postgre SQL) ou Oracle (Oráculo), a gestão dos segmentos de memória compartilhada é vital para a performance de escrita. O parâmetro conhecido como WAL (Write-Ahead Logging − Registro de Gravação Antecipada) assegura que as modificações nos dados sejam registradas em um log persistente antes de serem aplicadas nos arquivos de dados. Considerando a configuração deste mecanismo para garantir a segurança em caso de falha crítica, assinale a alternativa correta.",
+        "alternativas": [
+            "O diretório destinado aos logs do WAL (Write-Ahead Logging − Registro de Gravação Antecipada) deve ser configurado obrigatoriamente no mesmo disco físico dos arquivos de dados para evitar a latência de rede em ambientes de Alta Disponibilidade (High Availability).",
+            "O processo de Checkpoint (Ponto de Verificação) é o único momento em que o SGBD (Sistema Gerenciador de Banco de Dados) permite que novas conexões de leitura acessem tabelas que sofreram operações de Insert (Inserção) ou Update (Atualização).",
+            "O mecanismo de WAL (Write-Ahead Logging − Registro de Gravação Antecipada) reduz o tráfego de Entrada e Saída (I/O) ao permitir que os buffers de dados modificados sejam gravados em disco de forma assíncrona, desde que o log de transação já esteja persistido.",
+            "A desativação do parâmetro fsync (Sincronização de Sistema de Arquivos) no arquivo de configuração do SGBD (Sistema Gerenciador de Banco de Dados) aumenta a segurança dos dados, pois força o kernel a validar o checksum (soma de verificação) de cada bloco."
+        ],
+        "gabarito": "O mecanismo de WAL (Write-Ahead Logging − Registro de Gravação Antecipada) reduz o tráfego de Entrada e Saída (I/O) ao permitir que os buffers de dados modificados sejam gravados em disco de forma assíncrona, desde que o log de transação já esteja persistido."
+    },
+    {
+        "id": 23,
+        "enunciado": "A respeito de arquitetura, segurança, integridade, concorrência, recuperação após falhas e gerenciamento de transições em sistemas de gerenciamento de banco de dados (SGDB), julgue o item a seguir.\nSe a recuperação de falhas for realizada por meio do rollback, o SGDB que utiliza log de transações retornará todas as transições, tanto as confirmadas quanto as não confirmadas, a fim de garantir que o sistema retorne ao estado anterior à falha.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 24,
+        "enunciado": "Em um sistema de banco de dados relacional que implementa o modelo ACID (Atomicidade, Consistência, Isolamento e Durabilidade) para garantir a integridade das transações, a propriedade de durabilidade assegura que, após uma transação ser confirmada (commit realizado), todas as suas alterações sejam permanentemente gravadas no banco de dados, mesmo em caso de falhas do sistema, como quedas de energia ou falhas de hardware. Considerando os componentes típicos de um sistema de gerenciamento de banco de dados (SGBD), assinale a alternativa que apresenta o componente responsável por garantir essa durabilidade:",
+        "alternativas": [
+            "Gerenciador de transações (transaction manager).",
+            "Gerenciador de bloqueios (lock manager).",
+            "Otimizador de consultas (query optimizer).",
+            "Sistema de recuperação (recovery system) e log de transações.",
+            "Sistema de controle de concorrência (concurrency control)."
+        ],
+        "gabarito": "Sistema de recuperação (recovery system) e log de transações."
+    },
+    {
+        "id": 25,
+        "enunciado": "Segundo Date (2, em caso de falhas, o sistema de banco de dados deve ser restaurado a um estado anterior considerado consistente e confiável. Para isso, diferentes estratégias de recuperação são aplicadas, dependendo da natureza da falha. Seguindo a ordem crescente de gravidade da falha, a recuperação ___________ tem como objetivo reverter os efeitos de transações específicas que não foram concluídas com sucesso. A recuperação ___________, por sua vez, trata de falhas que interrompem todas as transações ativas no momento, mas não causam danos físicos ao banco de dados. Já a recuperação ___________ é voltada a cenários mais graves, nos quais há perda do conteúdo físico dos arquivos, sendo necessário recorrer a backups para restaurar os dados. Assinale a alternativa que preenche, correta e respectivamente, as lacunas do trecho acima.",
+        "alternativas": [
+            "da mídia – de transações – do sistema.",
+            "de transações – do sistema – da mídia.",
+            "lógica – do sistema – física.",
+            "de transações – lógica – estrutural.",
+            "estrutural – do sistema – física."
+        ],
+        "gabarito": "de transações – do sistema – da mídia."
+    },
+    {
+        "id": 26,
+        "enunciado": "Um DBA precisa restaurar um banco de dados após uma falha catastrófica que corrompeu o arquivo de dados principal. Ele possui um backup completo realizado às 2h da madrugada e todos os arquivos de log de transações gerados desde então. O incidente ocorreu às 14h. Qual procedimento permitirá restaurar o banco ao seu estado exatamente no momento da falha sem perder nenhuma transação confirmada?",
+        "alternativas": [
+            "Restaurar o backup completo e executar um ROLLBACK até 14h.",
+            "Restaurar o backup completo e executar um ROLLFORWARD aplicando todos os logs até 14h.",
+            "Restaurar o backup completo e executar um COMMIT forçado.",
+            "Restaurar apenas o último arquivo de log de transações.",
+            "Inicializar uma nova instância do banco e importar os dados do backup."
+        ],
+        "gabarito": "Restaurar o backup completo e executar um ROLLFORWARD aplicando todos os logs até 14h."
+    },
+    {
+        "id": 27,
+        "enunciado": "Um DBA precisa estabelecer uma estratégia de backup para um banco de dados de grande porte, onde a janela de manutenção é curta. O backup completo leva 8 horas, tornando sua execução diária inviável. Qual estratégia de backup combina um backup completo semanal com backups diários que armazenam apenas os blocos de dados modificados desde o último backup completo, equilibrando tempo de execução e tempo de recuperação?",
+        "alternativas": [
+            "Backup apenas de Archive Logs.",
+            "Backup diferencial.",
+            "Backup espelhado.",
+            "Backup desnormalizado.",
+            "Backup incremental."
+        ],
+        "gabarito": "Backup incremental."
+    },
+    {
+        "id": 28,
+        "enunciado": "Após uma falha de hardware, um DBA precisa restaurar um banco de dados crítico. Ele possui um backup completo de 2 dias atrás e uma série completa de backups incrementais e de archive logs gerados desde então. Para minimizar a perda de dados, o objetivo é restaurar o banco ao estado exatamente no momento da falha. Qual é a sequência correta de operações a ser realizada?",
+        "alternativas": [
+            "Restaurar o backup completo, aplicar o último backup incremental e os Archive Logs.",
+            "Restaurar o último backup incremental, aplicar o backup completo e os Archive Logs.",
+            "Restaurar os Archive Logs, aplicar o backup completo e os backups incrementais.",
+            "Restaurar o backup completo, aplicar todos os backups incrementais em ordem, recuperar o banco aplicando os Archive Logs.",
+            "Restaurar o backup completo e imediatamente abrir o banco; os incrementais e logs serão aplicados automaticamente."
+        ],
+        "gabarito": "Restaurar o backup completo, aplicar todos os backups incrementais em ordem, recuperar o banco aplicando os Archive Logs."
+    },
+    {
+        "id": 29,
+        "enunciado": "Um desenvolvedor executou acidentalmente um DELETE sem cláusula WHERE em uma tabela importante às 10:30 AM. O erro foi percebido às 10:35 AM. O banco está em modo ARCHIVELOG e possui Flashback Technology habilitada. Qual feature permite reverter apenas esta operação indesejada, recuperando os dados deletados, sem a necessidade de realizar um restore completo dos arquivos de backup e sem afetar outras transações válidas ocorridas no período?",
+        "alternativas": [
+            "Point-in-Time Recovery a nível de tabela.",
+            "Restore de um Backup Incremental.",
+            "Flashback Table to before TIMESTAMP.",
+            "Ativação de uma Logical Standby Database.",
+            "Recriação da tabela a partir de um export lógico."
+        ],
+        "gabarito": "Flashback Table to before TIMESTAMP."
+    },
+    {
+        "id": 30,
+        "enunciado": "Uma instituição financeira precisa garantir que seu sistema de banco de dados permaneça acessível para operações de leitura e escrita mesmo em caso de falha no servidor principal. Qual arquitetura de alta disponibilidade mantém uma cópia sincronizada do banco de dados em um servidor secundário, onde a failover (mudança de operação para o secundário) pode ser automática e transparente para os aplicativos?",
+        "alternativas": [
+            "Cluster Ativo-Ativo.",
+            "Replicação Snapshot.",
+            "Hot Backup.",
+            "Replicação Geográfica Assíncrona.",
+            "Restore Automatizado."
+        ],
+        "gabarito": "Cluster Ativo-Ativo."
+    },
+    {
+        "id": 31,
+        "enunciado": "Para atender a políticas de compliance e Disaster Recovery, uma empresa precisa manter uma cópia de seu banco de dados de produção em um data center remoto localizado em outra região geográfica. A latência de rede entre os data centers é alta. Qual técnica de replicação é mais adequada para esse cenário, permitindo que a cópia remota seja mantida com um lag mínimo de dados, mas sem impactar significativamente o desempenho do banco primário?",
+        "alternativas": [
+            "Replicação Síncrona.",
+            "Recuperação de Mídia.",
+            "Replicação Assíncrona.",
+            "Espelhamento de Banco.",
+            "Cópia de Backup via FTP."
+        ],
+        "gabarito": "Replicação Assíncrona."
+    },
+    {
+        "id": 32,
+        "enunciado": "Com relação à tolerância a falhas, avalie se as afirmativas a seguir são verdadeiras (V) ou falsas (F).\n( ) A tolerância a falhas é a capacidade de um sistema de continuar funcionando mesmo quando ocorrem falhas em seus componentes.\n( ) A redundância é uma técnica comum usada para aumentar a tolerância a falhas em sistemas críticos.\n( ) A tolerância a falhas é uma técnica que garante que um sistema nunca falhe.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "F – V – F.",
+            "V – V – F.",
+            "F – F – V.",
+            "V – F – F.",
+            "V – V – V."
+        ],
+        "gabarito": "V – V – F."
+    },
+    {
+        "id": 33,
+        "enunciado": "No contexto de atualização imediata, o banco de dados pode ser atualizado por algumas operações de uma transação antes que ela alcance seu ponto de confirmação. Dessa forma, durante a recuperação de um banco de dados após uma falha de transação, é necessário desfazer as operações não confirmadas e refazer as operações confirmadas para manter a integridade dos dados.\nPara tanto, o algoritmo de recuperação do banco de dados que deverá ser aplicado é:",
+        "alternativas": [
+            "UNDO/REDO;",
+            "UNDO/NO-REDO;",
+            "NO-UNDO/REDO;",
+            "ROLLBACK/COMMIT;",
+            "COMMIT/ROLLBACK."
+        ],
+        "gabarito": "UNDO/REDO;"
+    },
+    {
+        "id": 34,
+        "enunciado": "Marisa, chefe do centro de dados (CD) da empresa X, recebeu uma ligação na madrugada informando que tinha havido queda de luz e que nenhum dos geradores disponíveis assumira a geração de energia. Ela então foi ao CD e, após o restabelecimento da luz, solicitou aos presentes que verificassem seus sistemas. Contudo, foram identificadas falhas de discos e, com isso, não haveria acessos aos arquivos de log.\nMarisa chamou seus funcionários e orientou, corretamente, que eles recuperassem os bancos de dados a partir do(a):",
+        "alternativas": [
+            "backup do banco de dados em fita;",
+            "algoritmo de recuperação de áries;",
+            "sistema de paginação sombra;",
+            "técnica de atualização imediata;",
+            "técnica de atualização adiada."
+        ],
+        "gabarito": "backup do banco de dados em fita;"
+    },
+    {
+        "id": 35,
+        "enunciado": "Com relação a backup e recuperação de banco de dados contra falhas catastróficas, avalie se as afirmativas a seguir são verdadeiras (V) ou falsas (F).\n( ) O módulo de recuperação de um SGBD não precisa ser capaz de lidar com falhas mais catastróficas, como as falhas de disco.\n( ) O log do banco de dados é copiado com mais frequência do que o banco de dados, uma vez que costuma ser muito menor do que o banco em si.\n( ) UNDO, REDO e NO-UNDO/REDO são técnicas para recuperação de dados contra falhas catastróficas.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "V – F – F.",
+            "F – V – F.",
+            "V – V – F.",
+            "F – F – V.",
+            "F – V – V."
+        ],
+        "gabarito": "F – V – F."
+    },
+    {
+        "id": 36,
+        "enunciado": "A escolha do modelo de recuperação de falhas de um sistema de banco de dados depende dos requisitos específicos desse sistema.\nComparando os modelos de atualização imediata e atualização adiada, avalie as afirmativas são verdadeiras (V) ou falsas (F).\n( ) Para garantir a consistência dos dados de um banco de dados, o melhor modelo a se utilizar é o de atualização imediata.\n( ) O rollback no modelo de atualização adiada é mais simples, pois envolve desfazer alterações aplicadas no banco de dados.\n( ) A atualização adiada é mais indicada quando a segurança dos dados é prioridade, mas pode-se tolerar alguma latência na execução de alterações.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "V – V – F.",
+            "F – V – F.",
+            "F – F – V.",
+            "F – F – F.",
+            "F – V – V."
+        ],
+        "gabarito": "F – F – V."
+    },
+    {
+        "id": 37,
+        "enunciado": "Assinale a alternativa correspondente à métrica que deve ser melhorada em uma empresa cujo foco está em manter um banco de dados com alto volume de transações e que precisa desenvolver uma política de backup de dados que permita um tempo de recuperação curto.",
+        "alternativas": [
+            "Checkpoint.",
+            "RTO.",
+            "Incrementalidade.",
+            "Dupla fase.",
+            "Envio de dados serializados."
+        ],
+        "gabarito": "RTO."
+    },
+    {
+        "id": 38,
+        "enunciado": "Um sistema diz-se assíncrono quando não faz nenhuma assunção sobre velocidade de execução do processo e/ou em relação à entrega da mensagem. No caso contrário diz-se síncrono. Um sistema síncrono faz assunção dos limites de execução e demora dos canais de comunicação. Sobre a replicação síncrona e assíncrona, assinale a afirmativa correta.",
+        "alternativas": [
+            "Na replicação de dados síncrona, a latência é igual a zero.",
+            "Em ambiente de sistemas síncronos não pode ser produzido o comportamento fail-stop.",
+            "A replicação assíncrona aumenta os custos e reduz a concorrência nos gestores de recursos.",
+            "Na replicação de dados assíncrona, não há atraso entre o commit da transação originadora das modificações e seu efeito nas réplicas."
+        ],
+        "gabarito": "Na replicação de dados síncrona, a latência é igual a zero."
+    },
+    {
+        "id": 39,
+        "enunciado": "Qual é o nome da técnica de recuperação que posterga qualquer atualização real do banco de dados em disco até que uma transação atinja seu ponto de confirmação (commit)? A transação força a gravação do log em disco antes de gravar as atualizações no banco de dados.",
+        "alternativas": [
+            "Checkpoint.",
+            "Atualização Imediata.",
+            "Atualização Adiada.",
+            "Paginação de sombra.",
+            "Rollback."
+        ],
+        "gabarito": "Atualização Adiada."
+    },
+    {
+        "id": 40,
+        "enunciado": "Quando um banco de dados é utilizado por mais de um usuário, é preciso administrar o controle de concorrência entre as informações que estão sendo acessadas.\nPara a solução desse problema, existem diversas técnicas de controle de concorrência que são utilizadas como forma de assegurar a propriedade de não interferência entre uma operação e outra. Assinale a alternativa que NÃO se trata de uma técnica de controle de concorrência.",
+        "alternativas": [
+            "Técnica de bloqueio em duas fases.",
+            "Isolamento das transações executadas ao mesmo tempo.",
+            "Packet Filtering (Filtragem de Pacotes).",
+            "Métodos de controle de concorrência e recuperação do SGBD.",
+            "Escalonamento de Transações."
+        ],
+        "gabarito": "Packet Filtering (Filtragem de Pacotes)."
+    },
+    {
+        "id": 41,
+        "enunciado": "Assinale a alternativa correta sobre replicação de banco de dados.",
+        "alternativas": [
+            "Replicação em banco de dados só pode ocorrer em servidores que estão na mesma sub-rede.",
+            "A replicação assíncrona garante que todas as réplicas estejam sempre consistentes com o banco de dados principal.",
+            "A replicação síncrona fornece melhor desempenho do que a replicação assíncrona.",
+            "Na replicação síncrona, o sistema deve garantir que, quando a transação é finalizada no servidor primário, as atualizações feitas no banco de dados são propagadas eventualmente a todas as réplicas.",
+            "Na replicação multi-master, como todos os servidores são considerados coordenadores e não há conceito de réplica, não há necessidade de propagação de atualizações, e cada servidor mantém os seus dados atualizados de forma independente dos outros."
+        ],
+        "gabarito": "Na replicação síncrona, o sistema deve garantir que, quando a transação é finalizada no servidor primário, as atualizações feitas no banco de dados são propagadas eventualmente a todas as réplicas."
+    },
+    {
+        "id": 42,
+        "enunciado": "Analise as assertivas genéricas abaixo sobre replicação em banco de dados:\nI. A replicação pode ser síncrona ou assíncrona, dependendo da necessidade do sistema.\nII. A replicação pode melhorar a disponibilidade de dados e contribuir para a recuperação de desastres.\nIII. A replicação em banco de dados garante consistência em todas as réplicas.\nQuais estão corretas?",
+        "alternativas": [
+            "Apenas II.",
+            "Apenas I e II.",
+            "Apenas I e III.",
+            "Apenas II e III.",
+            "I, II e III."
+        ],
+        "gabarito": "Apenas I e II."
+    },
+    {
+        "id": 43,
+        "enunciado": "Assinale a alternativa que indica corretamente uma técnica comum usada na replicação de banco de dados para garantir a atomicidade em transações, para haver consistência entre réplicas.",
+        "alternativas": [
+            "Protocolo de confirmação em duas fases.",
+            "Validação de chave primária.",
+            "Compressão de dados.",
+            "Escrita de registros de log.",
+            "Balanceamento de carga."
+        ],
+        "gabarito": "Protocolo de confirmação em duas fases."
+    },
+    {
+        "id": 44,
+        "enunciado": "Assinale a alternativa que se refere à estratégia de backup mais adequada para um banco de dados com alto volume transacional e métrica Recovery Time Objectives\n(RTO) restrita.",
+        "alternativas": [
+            "Diferencial.",
+            "Incremental.",
+            "Completo.",
+            "Snapshot.",
+            "Nenhuma das alternativas anteriores está correta."
+        ],
+        "gabarito": "Incremental."
+    },
+    {
+        "id": 45,
+        "enunciado": "Assinale a alternativa que NÃO corresponde a um método usado comumente para tornar um sistema de banco de dados tolerante a falhas.",
+        "alternativas": [
+            "Replicação.",
+            "Armazenamento RAID.",
+            "Particionamento (sharding).",
+            "Backups frequentes.",
+            "Nenhuma das alternativas anteriores."
+        ],
+        "gabarito": "Particionamento (sharding)."
+    },
+    {
+        "id": 46,
+        "enunciado": "No contexto da administração de SGBDs (Sistemas de Gerenciamento de Banco de Dados), qual é a principal diferença entre um Dump e um Backup?",
+        "alternativas": [
+            "Um Dump é uma cópia completa do banco de dados, enquanto um Backup é apenas uma cópia parcial.",
+            "Um Dump é uma cópia parcial do banco de dados, enquanto um Backup é apenas uma cópia completa.",
+            "Um Dump é uma exportação dos dados em formato legível, enquanto um Backup é uma cópia dos arquivos do banco de dados.",
+            "Um Dump e um Backup são termos intercambiáveis e significam exatamente a mesma coisa.",
+            "Um Dump é uma operação de restauração de um banco de dados, enquanto um Backup é uma cópia dos arquivos do banco de dados."
+        ],
+        "gabarito": "Um Dump é uma exportação dos dados em formato legível, enquanto um Backup é uma cópia dos arquivos do banco de dados."
+    },
+    {
+        "id": 47,
+        "enunciado": "A respeito de dados e informações, julgue o item que se segue.\nA recuperação e o armazenamento de dados não estruturados são fáceis, porém esses dados não podem ser organizados em linhas e colunas de um banco de dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 48,
+        "enunciado": "No que se refere à recuperação após falha, julgue o item a seguir.\nNa recuperação baseada em log, o identificador de item de dados é o identificador exclusivo da transação que realizou a operação WRITE.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 49,
+        "enunciado": "No que se refere à recuperação após falha, julgue o item a seguir.\nO esquema de recuperação do banco de dados independe do esquema de controle de concorrência, uma vez que, no restauro a partir dos esquemas baseados em log, o valor é recuperado a partir de informação de UNDO em um registro e no log.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 50,
+        "enunciado": "No que se refere à recuperação após falha, julgue o item a seguir.\nNa técnica de modificação de banco de dados adiada, a atomicidade da transação é garantida registrando-se todas as modificações do banco de dados no log, mas adiando-se a execução de todas as operações WRITE de uma transação até que a transação seja parcialmente confirmada, para transações executadas em série.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 51,
+        "enunciado": "Assinale a alternativa que apresenta a técnica de recuperação que segue o seguinte protocolo: (1) uma transação não pode mudar o banco de dados em disco até que ela alcance seu ponto de efetivação; (2) uma transação não alcança seu ponto de efetivação até que todas as suas operações de atualização sejam registradas no log e até que seja forçada a gravação do log no disco.",
+        "alternativas": [
+            "Atualização Imediata.",
+            "Timestamp.",
+            "Atualização Adiada.",
+            "Paginação Shadow (Sombra).",
+            "Checkpoint."
+        ],
+        "gabarito": "Atualização Adiada."
+    },
+    {
+        "id": 52,
+        "enunciado": "Quanto aos conceitos utilizados no tratamento de dados e na análise de dados e informações, julgue o item.\nNa fase de recuperação, de acordo com o modelo de ciclo de vida dos dados (CVD), há o acesso efetivo aos dados pelos profissionais e pesquisadores, ocorrendo, assim, as atividades de consulta e visualização dos dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 53,
+        "enunciado": "Sobre backup e recuperação, analise.\nI - Se houver um dano extenso em uma grande porção do banco de dados por conta de falha catastrófica, tal como um crash de disco, o método de recuperação restaura uma cópia anterior do banco de dados, que estava guardada em um arquivo de armazenamento, e o reconstrói num estado mais atual, reaplicando ou refazendo as operações das transações armazenadas no log até o instante da falha.\nII - Quando o banco de dados não for danificado fisicamente, mas se tornar inconsistente por causa de uma falha não catastrófica, a estratégia é reverter quaisquer mudanças que causaram a inconsistência, desfazendo algumas operações. Nesse caso, não necessitamos de uma cópia arquivada completa do banco de dados. De preferência, as entradas mantidas em um log on-line do sistema serão consultadas durante a recuperação.\nIII - Na técnica de atualização imediata, somente se atualiza o banco de dados fisicamente no disco logo depois que uma transação alcance seu ponto de efetivação; as atualizações são, então, gravadas no banco de dados. Antes que a efetivação seja alcançada, todas as transações atualizam seus registros no espaço de transação local (ou buffers).\nIV - Nas técnicas de atualização adiada, o banco de dados pode ser atualizado por algumas operações de uma transação antes que ela alcance seu ponto de efetivação. Entretanto, essas operações estarão normalmente registradas no log em disco, pois uma gravação forçada foi feita antes que elas fossem aplicadas ao banco de dados, tornando possível a recuperação.\nEstão CORRETAS apenas as afirmativas:",
+        "alternativas": [
+            "I e II.",
+            "I e III.",
+            "II e III.",
+            "I e IV.",
+            "II e IV."
+        ],
+        "gabarito": "I e II."
+    },
+    {
+        "id": 54,
+        "enunciado": "A respeito de banco de dados, julgue o item subsequente.\nO comando rollback recupera o valor anterior de um registro alterado, a partir do último backup da tabela.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 55,
+        "enunciado": "Considerando os protocolos de replicação de dados com consistência forte, assinale a alternativa que apresenta o protocolo em que múltiplas cópias são mantidas atualizadas ao mesmo tempo e os dados podem ser lidos de qualquer cópia.",
+        "alternativas": [
+            "timestamped anti-entropy.",
+            "quasi-copies.",
+            "read-one write-all.",
+            "cópia primária virtual.",
+            "quorum consensus."
+        ],
+        "gabarito": "read-one write-all."
+    },
+    {
+        "id": 56,
+        "enunciado": "Acerca de fitotecas, armazenamento de discos e replicação, julgue o item seguinte.\nA replicação de dados oferece melhor desempenho e disponibilidade a sistemas porque permite que esses sistemas operem sobre cópias sem precisar se comunicar com sites remotos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 57,
+        "enunciado": "Julgue o item a seguir, relativo a SQL Injection e referência insegura a objetos.\nA referência insegura a objetos (insecure direct object reference) ocorre quando uma aplicação expõe um identificador de objeto interno, mas valida se o usuário autenticado estiver autorizado a acessá-lo.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 58,
+        "enunciado": "Julgue o item a seguir, relativo a SQL Injection e referência insegura a objetos.\nComo consequência de exploração de falhas de SQL Injection em aplicações vulneráveis, tem-se situações que resultam em bypass de autenticação e execução remota de comandos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 59,
+        "enunciado": "Um órgão público que utiliza MS SQL Server revisa sua política de segurança para atender requisitos de sigilo, proteção de dados e conformidade. A equipe de TI precisa garantir que:\n- os dados armazenados fisicamente no banco fiquem protegidos contra acesso indevido aos arquivos com extensão.mdf,.ndf ou.ldf;\n- as conexões entre aplicações e o MS SQL Server sejam protegidas contra interceptação durante o tráfego pela rede corporativa.\nConsiderando as práticas recomendadas e os recursos disponíveis no MS SQL Server, o conjunto de mecanismos que atende aos requisitos é",
+        "alternativas": [
+            "aplicar o Transparent Data Encryption (TDE) para proteger os arquivos físicos e SSL/TLS para criptografia de conexões entre aplicações e o MS SQL Server.",
+            "habilitar o TDE para proteger conexões de rede e aplicar Always Encrypted para criptografar arquivos.mdf.",
+            "configurar o Backup Encryption para trafegar dados criptografados e habilitar SSL/TLS para proteger arquivos físicos do banco.",
+            "usar o Always On Availability Groups para criptografia local e ativar Log Shipping para criptografia no tráfego.",
+            "ativar o Transparent Network Encryption para arquivos de dados e usar Column Level Encryption para criptografia de rede."
+        ],
+        "gabarito": "aplicar o Transparent Data Encryption (TDE) para proteger os arquivos físicos e SSL/TLS para criptografia de conexões entre aplicações e o MS SQL Server."
+    },
+    {
+        "id": 60,
+        "enunciado": "Uma agência adotou o PostgreSQL como SGBD principal e iniciou a organização de acessos para equipes de desenvolvimento. O administrador do banco precisa permitir que o usuário analista_app possa consultar registros da tabela vendas e inserir novos registros, porém sem permissão para atualizar ou excluir dados existentes.\nOs requisitos são:\n- O banco já possui o usuário analista_app criado;\n- A tabela vendas pertence ao esquema padrão public;\n- O analista deve ter privilégios apenas de leitura e inserção.\nA política interna determina que cada privilégio deve ser concedido diretamente via comandos SQL executados pelo DBA, sem uso de funções especiais ou extensões externas.\nConsiderando esse cenário, o conjunto de comandos que configura as permissões desejadas é:",
+        "alternativas": [
+            "GRANT SELECT ON DATABASE postgres TO analista_app;",
+            "GRANT ALL PRIVILEGES ON TABLE public.vendas TO analista_app;",
+            "GRANT UPDATE, DELETE ON TABLE public.vendas TO analista_app;",
+            "GRANT SELECT, INSERT ON TABLE public.vendas TO analista_app;",
+            "REVOKE ALL ON TABLE public.vendas FROM analista_app;"
+        ],
+        "gabarito": "GRANT SELECT, INSERT ON TABLE public.vendas TO analista_app;"
+    },
+    {
+        "id": 61,
+        "enunciado": "Um grande banco de investimentos está implementando uma política de segurança de dados estrita para atender às regulamentações de proteção de dados. Uma das exigências é que os dados confidenciais armazenados em discos sejam criptografados, de forma que o processo seja transparente para a aplicação e não exija alterações no esquema do banco de dados ou nas consultas SQL existentes.\nAssinale a opção que apresenta a técnica de criptografia de dados transparente tipicamente utilizada em SGBDs empresariais como MS SQL Server e Oracle.",
+        "alternativas": [
+            "Criptografia no nível da coluna, em que apenas atributos específicos são criptografados, exigindo mudanças na aplicação para decifrar os dados após a consulta.",
+            "Criptografia no nível do arquivo do sistema operacional, em que o SGBD não tem conhecimento da criptografia, sendo realizada externamente.",
+            "Criptografia no nível do tablespace ou arquivo de dados, em que os dados são criptografados antes de serem escritos no disco e decifrados ao serem lidos pelo buffer pool, sendo transparente para o usuário final.",
+            "Criptografia no nível de comunicação (SSL/TLS), que protege apenas os dados em trânsito, mas não os dados em repouso.",
+            "Uso de Hashing irreversível para os dados, que atende à segurança, mas inviabiliza a recuperação dos dados originais."
+        ],
+        "gabarito": "Criptografia no nível do tablespace ou arquivo de dados, em que os dados são criptografados antes de serem escritos no disco e decifrados ao serem lidos pelo buffer pool, sendo transparente para o usuário final."
+    },
+    {
+        "id": 62,
+        "enunciado": "Uma equipe de desenvolvimento de software está desenvolvendo uma aplicação web para consultas de processos. O sistema utilizará um banco de dados relacional e o DBA (analista de banco de dados) foi consultado para garantir a segurança e o desempenho. A aplicação, que é acessada por advogados e cidadãos, executa consultas complexas e consultas a dados sensíveis.\nPara mitigar os riscos de segurança, como ataques de injeção de SQL (SQL Injection), e otimizar o desempenho das consultas, a prática que a equipe de desenvolvimento e o DBA devem adotar é",
+        "alternativas": [
+            "adotar Prepared Statements (consultas parametrizadas) para todas as interações com o banco de dados, pois essa técnica separa o código SQL dos dados de entrada do usuário, prevenindo ataques de injeção de SQL e, ao mesmo tempo, permite que o banco de dados reutilize planos de execução otimizados para um melhor desempenho.",
+            "concatenar strings de entrada do usuário diretamente na consulta SQL, pois é uma prática comum e eficiente para criar consultas dinâmicas.",
+            "utilizar Stored Procedures para todas as consultas, pois elas são compiladas e executadas mais rapidamente que comandos SQL dinâmicos, e previnem ataques de injeção de SQL se os parâmetros forem concatenados em texto dentro da procedure.",
+            "manter as permissões de acesso ao banco de dados em um nível de superusuário para a aplicação, simplificando a gestão de privilégios e garantindo que o sistema sempre terá acesso a todos os dados necessários.",
+            "usar Views para simplificar a lógica de consultas complexas, mas conceder acesso direto às tabelas subjacentes para que a aplicação possa realizar operações de INSERT e UPDATE sem restrições."
+        ],
+        "gabarito": "adotar Prepared Statements (consultas parametrizadas) para todas as interações com o banco de dados, pois essa técnica separa o código SQL dos dados de entrada do usuário, prevenindo ataques de injeção de SQL e, ao mesmo tempo, permite que o banco de dados reutilize planos de execução otimizados para um melhor desempenho."
+    },
+    {
+        "id": 63,
+        "enunciado": "A respeito de arquitetura, segurança, integridade, concorrência, recuperação após falhas e gerenciamento de transições em sistemas de gerenciamento de banco de dados (SGDB), julgue o item a seguir.\nA implementação de auditorias de acesso e a aplicação de políticas de criptografia em um SGBD são suficientes para garantir a segurança dos dados sensíveis armazenados no banco, mesmo que não haja no sistema controle de acesso granular.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 64,
+        "enunciado": "No contexto de administração de banco de dados, assinale a afirmativa correta.",
+        "alternativas": [
+            "O backup incremental armazena todas as alterações realizadas desde o último backup completo e, por isso, ocupa mais espaço que o backup completo.",
+            "A restauração de um banco de dados é sempre um processo automático e não exige intervenção do administrador.",
+            "O processo de tuning de banco de dados inclui ajustes no hardware, mas não considera a otimização de consultas SQL.",
+            "Em um banco de dados seguro, o uso de senhas fortes e criptografia garante proteção total contra acessos não autorizados.",
+            "O backup é essencial para recuperação de dados em caso de falhas, e sua frequência deve ser definida com base na criticidade das informações e no RPO. (Recovery Point Objective)."
+        ],
+        "gabarito": "O backup é essencial para recuperação de dados em caso de falhas, e sua frequência deve ser definida com base na criticidade das informações e no RPO. (Recovery Point Objective)."
+    },
+    {
+        "id": 65,
+        "enunciado": "Em um ataque cibernético recente, foi identificado que um malware se instalou no núcleo do sistema operacional, permitindo acesso remoto ao invasor.Esse tipo de software malicioso é conhecido como:",
+        "alternativas": [
+            "Rootkit.",
+            "Trojan.",
+            "Worm.",
+            "Spyware.",
+            "Keylogger."
+        ],
+        "gabarito": "Rootkit."
+    },
+    {
+        "id": 66,
+        "enunciado": "No contexto da proteção de dados sensíveis armazenados em bancos de dados corporativos, qual prática é mais eficiente para garantir confidencialidade e integridade?",
+        "alternativas": [
+            "Uso de criptografia em repouso com algoritmos como AES-256.",
+            "Implementação de firewalls para bloquear acessos externos.",
+            "Monitoramento contínuo por sistemas IDS/IPS.",
+            "Uso de balanceamento de carga para distribuir tráfego entre servidores seguros.",
+            "Autenticação de múltiplos fatores para acesso aos dados."
+        ],
+        "gabarito": "Uso de criptografia em repouso com algoritmos como AES-256."
+    },
+    {
+        "id": 67,
+        "enunciado": "Para evitar ataques de SQL Injection em um sistema web que interage com um banco de dados, qual das seguintes práticas é a mais segura?",
+        "alternativas": [
+            "Implementação de Prepared Statements e parametrização de consultas.",
+            "Uso de consultas SQL dinâmicas para validar entradas.",
+            "Desativação de logs de erro para ocultar falhas.",
+            "Permissão para usuários administradores inserirem consultas SQL diretamente no sistema.",
+            "Uso de criptografia para proteger os dados armazenados."
+        ],
+        "gabarito": "Implementação de Prepared Statements e parametrização de consultas."
+    },
+    {
+        "id": 68,
+        "enunciado": "O gestor de pessoal do MPU Antônio precisa da lista dos funcionários contendo diversos dados pessoais. Para agir de acordo com a LGPD, Antônio solicitou ao analista José que realizasse um tratamento no cadastro de pessoal para que o dado perdesse a possibilidade de associação, direta ou indireta, ao indivíduo.\nPara atender Antônio, José deve realizar nos dados a ação de:",
+        "alternativas": [
+            "difusão;",
+            "bloqueio;",
+            "indexação;",
+            "classificação;",
+            "anonimização."
+        ],
+        "gabarito": "anonimização."
+    },
+    {
+        "id": 69,
+        "enunciado": "Durante uma auditoria interna de um banco digital, foram identificadas vulnerabilidades críticas no serviço de SSH de máquinas Linux com Ubuntu. O responsável pelo sistema foi incumbido de aplicar boas práticas de hardening no serviço SSH (OpenSSH) de um servidor Linux exposto à internet, com o objetivo de proteger acessos remotos contra ataques de força bruta, exploração de algoritmos obsoletos e acessos não autorizados ao usuário root. Foram consideradas as seguintes alterações de configuração no arquivo /etc/ssh/sshd_config:  PermitRootLogin no  PasswordAuthentication no  AuthenticationMethods publickey  MaxAuthTries 3  LogLevel VERBOSE  Ciphers chacha20-poly1305@openssh.com,aes256-gcm@opens sh.com  MACs hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm @openssh.com  KexAlgorithms curve25519-sha256@libssh.org Analise as assertivas a seguir e registre V, para as verdadeiras, e F, para as falsas:\n(__)A diretiva PermitRootLogin no impede completamente o login remoto via SSH para o usuário root, mesmo que uma chave pública esteja cadastrada para o usuário root.\n(__) Definir AuthenticationMethods publickey garante que apenas usuários com uma chave pública autorizada consigam autenticar-se, e a diretiva LogLevel VERBOSE permite registrar eventos detalhados, como tentativas de autenticação com usuários inválidos ou chaves rejeitadas.\n(__) A diretiva PasswordAuthentication no desativa a autenticação por senha, exigindo que o usuário utilize uma chave privada correspondente à chave pública previamente cadastrada no arquivo ~/.ssh/authorized_keys. Nesse processo, a chave privada é transmitida ao servidor para verificação e autenticação.\nAssinale a alternativa que apresenta a sequência correta:",
+        "alternativas": [
+            "F − F − V.",
+            "V − V − F.",
+            "F − V − F.",
+            "V − F − F.",
+            "V − F − V."
+        ],
+        "gabarito": "V − V − F."
+    },
+    {
+        "id": 70,
+        "enunciado": "Dentro do banco de dados PostgreSQL, qual é o nome que caracteriza uma função que não tem efeitos colaterais, ou seja, uma função que não revela nenhuma informação sobre seus argumentos além do seu valor de retorno?",
+        "alternativas": [
+            "LEAKPROOF.",
+            "VOLATILE.",
+            "IMMUTABLE.",
+            "STABLE.",
+            "TRANSFORM."
+        ],
+        "gabarito": "LEAKPROOF."
+    },
+    {
+        "id": 71,
+        "enunciado": "Normalmente, os usuários de sistemas informatizados são identificados e autenticados por meio de um processo chamado:",
+        "alternativas": [
+            "Hash.",
+            "Logon.",
+            "Script.",
+            "Algoritmo.",
+            "Código de acesso."
+        ],
+        "gabarito": "Logon."
+    },
+    {
+        "id": 72,
+        "enunciado": "Durante o projeto de uma solução corporativa, a equipe de dados foi incumbida de revisar a arquitetura do SGBD utilizado, garantindo o isolamento adequado entre as camadas do banco e a aplicação de controles de integridade e concorrência apropriados para o ambiente multiusuário.\nDe acordo com os conceitos da arquitetura de SGBD e com os mecanismos de integridade, proteção e controle de concorrência, julgue (C ou E) o item a seguir.\nA proteção de dados em um SGBD relacional limita-se apenas à definição de usuários e senhas, não envolvendo outras formas de controle de acesso.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 73,
+        "enunciado": "Um serviço.NET usa Dapper para consultar e gravar dados em um banco relacional. A aplicação recebe parâmetros vindos de formulários públicos (por exemplo, CPF, período de datas e número do protocolo). Qual prática deve ser adotada para mitigar SQL Injection ao montar comandos SQL com Dapper?",
+        "alternativas": [
+            "Utilizar parâmetros nomeados e passar os valores separadamente, permitindo que o provedor de dados gere comandos preparados de forma segura.",
+            "Concatenar as entradas do usuário após “sanitização” (substituir aspas, remover palavras-chave), pois isso evita ataques na maioria dos casos.",
+            "Depender de migrações automáticas para validar o esquema, reduzindo o risco de injeção na camada SQL.",
+            "Usar change tracking do Dapper para que os valores sejam tratados como dados, não como código.",
+            "Eliminar N+1 automaticamente, pois menos rodadas no banco reduzem a superfície de ataque."
+        ],
+        "gabarito": "Utilizar parâmetros nomeados e passar os valores separadamente, permitindo que o provedor de dados gere comandos preparados de forma segura."
+    },
+    {
+        "id": 74,
+        "enunciado": "Sobre gerenciamento de usuários e perfis de acesso de um sistema de gerenciamento de banco de dados (SGBD), assinale a alternativa INCORRETA.",
+        "alternativas": [
+            "É recomendado fazer backup dos arquivos de configuração após cada alteração.",
+            "Utilizar roles de grupo simplifica o gerenciamento de permissões.",
+            "É possível gerenciar não só o acesso, mas também o limite de recursos utilizáveis por um usuário.",
+            "É considerada uma boa prática manter permissões atribuídas ao papel/grupo padrão (por exemplo, o conjunto ‘público’, quando existir) mesmo quando não são necessárias.",
+            "Um perfil de acesso permite o compartilhamento dos mesmos atributos por múltiplos usuários."
+        ],
+        "gabarito": "É considerada uma boa prática manter permissões atribuídas ao papel/grupo padrão (por exemplo, o conjunto ‘público’, quando existir) mesmo quando não são necessárias."
+    },
+    {
+        "id": 75,
+        "enunciado": "Considerando o Microsoft SQL Server 2019, qual das alternativas abaixo descreve corretamente uma boa prática de segurança?",
+        "alternativas": [
+            "Utilizar apenas autenticação SQL interna, desabilitando autenticação integrada do Windows.",
+            "Habilitar todos os recursos por padrão, para reduzir erros de configuração.",
+            "Conceder privilégios mínimos necessários aos usuários e serviços (princípio do menor privilégio).",
+            "Permitir que usuários configurem livremente linked servers para integração.",
+            "Exibir mensagens de erro detalhadas diretamente aos usuários finais para facilitar debugging."
+        ],
+        "gabarito": "Conceder privilégios mínimos necessários aos usuários e serviços (princípio do menor privilégio)."
+    },
+    {
+        "id": 76,
+        "enunciado": "Após um incidente de segurança, a diretoria de uma empresa de e-commerce determinou a revisão de todos os acessos ao banco de dados de produção. O DBA precisa garantir que apenas pessoas autorizadas possam se conectar ao SGBD, verificando a identidade de cada tentativa de acesso. Qual mecanismo de segurança é a primeira barreira e é absolutamente essencial para atender a essa determinação da diretoria?",
+        "alternativas": [
+            "Auditoria.",
+            "Autorização.",
+            "Mascaramento de dados.",
+            "Autenticação.",
+            "Checksum."
+        ],
+        "gabarito": "Autenticação."
+    },
+    {
+        "id": 77,
+        "enunciado": "Um profissional de TI, está implementando um script Python para remover registros de uma tabela no banco de dados. O script usa “placeholders” e “parâmetros” para criar o comando SQL de remoção. Marque a opção que justifique corretamente a principal razão para usar placeholders e parametros em seu comando de remoção.",
+        "alternativas": [
+            "Para evitar a duplicação de registros na tabela.",
+            "Para manter a integridade dos dados na tabela.",
+            "Gerenciar e garantir a portabilidade do código.",
+            "Para proteger contra injeções de SQL."
+        ],
+        "gabarito": "Para proteger contra injeções de SQL."
+    },
+    {
+        "id": 78,
+        "enunciado": "Senhas são comumente armazenadas em arquivos e bancos de dados na forma de hashes criptográficos.\nUma prática que corresponde a uma defesa efetiva contra ataques baseados em tabelas de hashes pré-calculadas para a obtenção de senhas é",
+        "alternativas": [
+            "obrigar que a senha de cada usuário possua um tamanho mínimo de 6 caracteres.",
+            "a utilização de salts grandes e únicos na senha antes de calcular seu hash.",
+            "a substituição do uso de funções de hash da família SHA-2, quando utilizadas, por MD5.",
+            "a substituição do uso da função de hash MD5, quando utilizada, por SHA-1.",
+            "escolher o uso de funções de hash que produzem saídas de tamanho variável."
+        ],
+        "gabarito": "a utilização de salts grandes e únicos na senha antes de calcular seu hash."
+    },
+    {
+        "id": 79,
+        "enunciado": "Segurança de banco de dados consiste em proteger os dados armazenados em um Sistema de Gerenciamento de Banco de Dados (SGBD) contra acesso não autorizado, alterações não autorizadas e perda de integridade. Considerando os conceitos fundamentais de segurança de banco de dados, marque V para as afirmativas verdadeiras e F para as falsas.\n( ) As senhas de acesso aos bancos de dados devem ser armazenadas em texto simples para facilitar a autenticação.\n( ) O backup regular dos bancos de dados é uma prática importante para garantir a recuperação de dados em caso de falhas ou ataques.\n( ) Auditorias de banco de dados são úteis apenas para fins de conformidade regulatória e não contribuem para a segurança geral do banco de dados.\nA sequência está correta em",
+        "alternativas": [
+            "F, F, F.",
+            "F, V, F.",
+            "V, F, V.",
+            "V, V, V."
+        ],
+        "gabarito": "F, V, F."
+    },
+    {
+        "id": 80,
+        "enunciado": "As organizações realizam diversas transações eletrônicas durante a execução das suas atividades operacionais, com aplicações de uso interno e externo, desenvolvidas em diferentes linguagens de programação, que persistem os dados coletados em um Sistema de Gerenciamento de Banco de Dados. O armazenamento desses dados deve ser revestido de uma boa camada de segurança, bem como as aplicações que consomem e alimentam esse banco, pois as consultas dinâmicas desenvolvidas nessas aplicações, se não protegidas adequadamente, produzem vulnerabilidades que podem causar danos de magnitude catastrófica em uma base de dados, permitindo acessos indevidos através de ataques conhecidos como SQL Injection. Sobre esse tipo de ataque, analise as afirmativas a seguir.\nI. Consiste basicamente em digitar comandos SQL, exclusivamente do tipo DML, nos inputs de formulários da aplicação.\nII. Um teste de SQL Injection pode ser em uma tela de login de um sistema WEB qualquer, digitar o comando ' or 1=1 or 'a' = 'a no campo de login, preencher o campo senha com qualquer valor e clicar no botão que efetua o login para verificar se o sistema realizará a autenticação.\nIII. Uma forma de proteger a aplicação do SQL Injection é realizar a validação/tratamento das informações manualmente ou utilizar frameworks de persistência/ORM que possuam mecanismos para evitar esse tipo de ataque.\nEstá correto o que se afirma apenas em",
+        "alternativas": [
+            "I.",
+            "II.",
+            "III.",
+            "II e III."
+        ],
+        "gabarito": "II e III."
+    },
+    {
+        "id": 81,
+        "enunciado": "Com relação à segurança física de bancos de dados, é correto afirmar que",
+        "alternativas": [
+            "ela não inclui, entre seus dispositivos de proteção, câmeras de segurança.",
+            "ela tem como um de seus objetivos proteger, por exemplo, os servidores de bancos de dados contra acessos de pessoas intrusas.",
+            "eventos como um incêndio em uma sala contendo servidores de bancos de dados não representam ameaça à segurança física desses servidores.",
+            "uma das medidas de segurança é a chamada dissuasão, que objetiva dificultar o acesso de um invasor ao equipamento protegido.",
+            "uma das medidas de segurança é a chamada dificultação, que visa induzir um eventual invasor a desistir de uma invasão planejada ao equipamento protegido."
+        ],
+        "gabarito": "ela tem como um de seus objetivos proteger, por exemplo, os servidores de bancos de dados contra acessos de pessoas intrusas."
+    },
+    {
+        "id": 82,
+        "enunciado": "No âmbito da segurança física de banco de dados, a política de controle na qual um sujeito poderá ter acesso a determinado objeto se seu nível de classificação for igual ou superior ao do objeto e se pertencer a, pelo menos, uma categoria a que o objeto também pertença é denominada política",
+        "alternativas": [
+            "discricionária ou compulsória.",
+            "compulsória ou mandatária.",
+            "discricionária ou provisória.",
+            "mandatária ou provisória."
+        ],
+        "gabarito": "compulsória ou mandatária."
+    },
+    {
+        "id": 83,
+        "enunciado": "Ao utilizar o PHP Data Objects (PDO) para interação com um banco de dados MySQL, qual prática é recomendada para prevenir SQL Injection?",
+        "alternativas": [
+            "Utilização de prepared statements com placeholders para parâmetros.",
+            "Uso de variáveis globais PHP dentro de consultas SQL.",
+            "Concatenação direta de variáveis na string de consulta SQL.",
+            "Execução direta de consultas SQL recebidas através de entradas do usuário."
+        ],
+        "gabarito": "Utilização de prepared statements com placeholders para parâmetros."
+    },
+    {
+        "id": 84,
+        "enunciado": "Qual é a melhor maneira de proteger um sistema de gerenciamento de banco de dados PostgreSQL contra ataques de SQL Injection?",
+        "alternativas": [
+            "Usar uma senha forte e única para o usuário administrativo.",
+            "Habilitar a autenticação por dois fatores (2FA) para todos os usuários.",
+            "Atualizar o PostgreSQL para a versão mais recente.",
+            "Criptografar os dados em repouso.",
+            "Validar todos os dados inseridos no banco de dados."
+        ],
+        "gabarito": "Validar todos os dados inseridos no banco de dados."
+    },
+    {
+        "id": 85,
+        "enunciado": "Sobre segurança em banco de dados, analise as assertivas e assinale a alternativa correta.\nI. A criptografia de dados em repouso protege os dados armazenados contra acessos não autorizados.\nII. Controle de acesso baseado em papéis (RBAC) é uma abordagem de segurança que define permissões de acesso com base nas funções desempenhadas pelos usuários na organização.\nIII. A implementação de auditoria em banco de dados visa monitorar e registrar todas as atividades realizadas no banco de dados para detectar e prevenir atividades maliciosas.\nIV. O uso de senhas fortes e políticas de alteração frequente de senhas são suficientes para garantir a segurança de um banco de dados.",
+        "alternativas": [
+            "I, II, III e IV estão corretas.",
+            "Apenas III está incorreta.",
+            "Apenas III está correta.",
+            "Apenas IV está incorreta.",
+            "Apenas IV está correta."
+        ],
+        "gabarito": "Apenas IV está incorreta."
+    },
+    {
+        "id": 86,
+        "enunciado": "A gestão de conteúdo é essencial para organizar, armazenar e proteger informações valiosas para uma organização. Além disso, a segurança no banco de dados é um aspecto crítico para proteger o acesso não autorizado e garantir a integridade dos dados.\nQual das alternativas abaixo reflete uma prática recomendada de segurança na gestão de conteúdo e em bancos de dados?",
+        "alternativas": [
+            "Armazenar todas as informações de autenticação diretamente em tabelas acessíveis para facilitar a recuperação.",
+            "Permitir acesso de administrador a todos os usuários para garantir que possam realizar operações quando necessário.",
+            "Implementar permissões de acesso baseadas em funções (RBAC), assegurando que os usuários acessem apenas as informações necessárias ao seu papel.",
+            "Evitar criptografia de dados sensíveis, pois isso aumenta a complexidade e dificulta a manutenção dos dados.",
+            "Utilizar triggers para replicar automaticamente todas as informações de acesso e dados sensíveis em tabelas de backup sem restrição."
+        ],
+        "gabarito": "Implementar permissões de acesso baseadas em funções (RBAC), assegurando que os usuários acessem apenas as informações necessárias ao seu papel."
+    },
+    {
+        "id": 87,
+        "enunciado": "Suponha que você esteja desenvolvendo uma aplicação web que utiliza consultas SQL para interagir com um banco de dados. Considerando as boas práticas de prevenção de SQL injection preconizadas pela OWASP (Open Web Application Security Project), a abordagem para proteger o sistema contra esse tipo de ataque deve ser:",
+        "alternativas": [
+            "utilizar consultas SQL dinâmicas com concatenação de strings.",
+            "implementar uma blacklist de caracteres especiais e re jeitar qualquer entrada que contenha esses caracteres.",
+            "validar e sanitizar todas as entradas de usuário antes de incorporá-las em consultas SQL.",
+            "ocultar completamente mensagens de erro do banco de dados para evitar revelar informações sensíveis.",
+            "utilizar a função eval() para avaliar dinamicamente as consultas SQL com base nas entradas do usuário."
+        ],
+        "gabarito": "validar e sanitizar todas as entradas de usuário antes de incorporá-las em consultas SQL."
+    },
+    {
+        "id": 88,
+        "enunciado": "Considerando o contexto de segurança em bancos de dados, assinale a alternativa incorreta.",
+        "alternativas": [
+            "Um ataque de injeção SQL ocorre quando um invasor explora vulnerabilidades no sistema para obter informações confidenciais, como senhas de usuários.",
+            "O ataque de força bruta é uma tentativa de explorar vulnerabilidades desconhecidas em um banco de dados, utilizando repetidas tentativas de acesso para adivinhar senhas ou chaves.",
+            "A criptografia de dados em um banco de dados é uma medida eficaz contra os ataques, pois torna o acesso às informações mais complexo.",
+            "Ataques de negação de serviço (DoS) são exclusivamente destinados a danificar fisicamente os servidores de banco de dados."
+        ],
+        "gabarito": "Ataques de negação de serviço (DoS) são exclusivamente destinados a danificar fisicamente os servidores de banco de dados."
+    },
+    {
+        "id": 89,
+        "enunciado": "Existem vários tipos de falhas que podem ocorrer em um sistema de banco de dados. A falha em que a transação não pode mais continuar com sua execução normal, devido a alguma condição interna, como entrada defeituosa, dados não encontrados, estouro ou limite de recursos ultrapassados, tem o nome de",
+        "alternativas": [
+            "Erro de disco.",
+            "Erro de integridade.",
+            "Erro lógico.",
+            "Erro de sistema."
+        ],
+        "gabarito": "Erro lógico."
+    },
+    {
+        "id": 90,
+        "enunciado": "Dentre os ataques possíveis a vulnerabilidades de bancos de dados relacionais, existe um que consiste em inserções diretas, via Web, de código nos campos de entrada de dados que serão concatenados com comandos SQL e posteriormente executados podendo causar grandes prejuízos à organização atacada. Trata-se de",
+        "alternativas": [
+            "privilégios SQL excessivos.",
+            "vulnerabilidade SQL no sistema operacional.",
+            "autenticação SQL fraca.",
+            "SQL injection.",
+            "SQL insertion mode."
+        ],
+        "gabarito": "SQL injection."
+    },
+    {
+        "id": 91,
+        "enunciado": "Relacione a Coluna 1 à Coluna 2, associando as medidas de controle de segurança de bancos de dados com os respectivos problemas de segurança comuns a sistemas de computação.\nColuna 1\n1. Controle de acesso.\n2. Controle de inferência.\n3. Controle de fluxo.\nColuna 2\n( ) Pessoas não autorizadas acessam o sistema para obter informações ou para fazer mudanças maliciosas em uma parte do banco de dados.\n( ) Um banco de dados para estatísticas de população pode oferecer informações com base em faixas etárias, níveis de renda, tamanho de residência, níveis de educação e outros critérios. Informações sobre indivíduos são acessadas, por exemplo, através da dedução de certos fatos com relação aos indivíduos baseando-se em consultas que envolvem resumos sobre grupos.\n( ) Considere um sistema de banco de dados distribuído em que dois nós tenham níveis de segurança do usuário secreto (S) e não classificado (U). S e U só podem realizar operações mutuamente que sejam consistentes com a propriedade *, que afirma que, em qualquer transação, o nó S não pode gravar ou passar informações para o nó U. Se esses dois nós estabelecerem um canal secreto, uma transação poderá ser conformada de maneira incondicional pelo nó U, mas o nó S pode fazer isso de uma forma previamente combinada, passando informações do nó S para o nó U, violando a propriedade *.\n( ) Informações fluem de modo que acessem usuários não autorizados, através de canais que são percursos para as informações fluírem implicitamente em caminhos que violam a política de segurança.\nA ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+        "alternativas": [
+            "3 – 1 – 2 – 2.",
+            "1 – 2 – 3 – 3.",
+            "2 – 3 – 1 – 2.",
+            "2 – 1 – 3 – 1.",
+            "3 – 2 – 1 – 1."
+        ],
+        "gabarito": "1 – 2 – 3 – 3."
+    },
+    {
+        "id": 92,
+        "enunciado": "Em 2019, foi descoberta uma vulnerabilidade de segurança no jogo on-line Fortnite. Alterando os parâmetros de endereço de uma antiga página Web da Epic Games, era possível submeter instruções SQL para obter informações do banco de dados acessado pela página.\nA esse ataque dá-se o nome de",
+        "alternativas": [
+            "abuso de privilégio.",
+            "injeção de SQL.",
+            "escalada de privilégio não autorizada.",
+            "abuso de SQL."
+        ],
+        "gabarito": "injeção de SQL."
+    },
+    {
+        "id": 93,
+        "enunciado": "Bancos de dados estatísticos são usados para fornecer informações estatísticas ou resumos dos valores com base em diversos critérios. Às vezes, é possível deduzir certos fatos com relação aos indivíduos baseando-se em consultas que envolvem apenas estatísticas de resumo sobre grupos dentro do banco de dados. Esse é um problema de segurança de banco de dados.\nAssinale a alternativa que apresenta a medida de controle para esse problema.",
+        "alternativas": [
+            "Controle de acesso.",
+            "Controle de inferência.",
+            "Controle de fluxo.",
+            "Criptografia de dados."
+        ],
+        "gabarito": "Controle de inferência."
+    },
+    {
+        "id": 94,
+        "enunciado": "Um sistema de gerenciamento de banco de dados está sendo desenvolvido e você precisa garantir a segurança contra ataques de injeção de SQL. Considerando as boas práticas de segurança, assinale a opção correta quanto às medidas adequadas para prevenir esse tipo de ataque.",
+        "alternativas": [
+            "Implementar a filtragem e sanitização de entrada de dados pelo usuário antes de executar as consultas SQL.",
+            "Utilizar autenticação de dois fatores para acessar o sistema de gerenciamento de banco de dados.",
+            "Configurar um filtro de pacote de redes para bloquear solicitações suspeitas de injeção de SQL.",
+            "Utilizar certificados SSL/TLS para criptografar as comunicações entre o sistema de gerenciamento de banco de dados e os clientes.",
+            "Realizar auditorias regulares no sistema de gerenciamento de banco de dados para identificar possíveis vulnerabilidades."
+        ],
+        "gabarito": "Implementar a filtragem e sanitização de entrada de dados pelo usuário antes de executar as consultas SQL."
+    },
+    {
+        "id": 95,
+        "enunciado": "Qual é o prazo para o controlador informar ao titular de dados pessoais sobre uma violação de dados pessoais?",
+        "alternativas": [
+            "72 horas.",
+            "10 dias.",
+            "15 dias.",
+            "30 dias.",
+            "60 dias."
+        ],
+        "gabarito": "72 horas."
+    },
+    {
+        "id": 96,
+        "enunciado": "No contexto de técnicas de desenvolvimento seguro, qual das seguintes práticas é altamente recomendada para prevenir a vulnerabilidade de injeção de SQL em aplicações web?",
+        "alternativas": [
+            "Armazenar todas as credenciais no código fonte.",
+            "Utilizar strings concatenadas para construir consultas SQL.",
+            "Limitar o número de requisições HTTP por minuto.",
+            "Utilizar técnicas de hashing para armazenar senhas.",
+            "Empregar consultas preparadas (ou \"prepared statements\") quando interagindo com bancos de dados."
+        ],
+        "gabarito": "Empregar consultas preparadas (ou \"prepared statements\") quando interagindo com bancos de dados."
+    },
+    {
+        "id": 97,
+        "enunciado": "Acerca de ambientes de replicação, balanceamento de carga e failover, julgue o item que se segue.\nFailover é um processo que é acionado automaticamente quando há indisponibilidade de um banco de dados primário, não sendo possível configurar o seu acionamento no modo manual.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 98,
+        "enunciado": "Acerca de ambientes de replicação, balanceamento de carga e failover, julgue o item que se segue.\nLogo após o failover, o banco de dados secundário passa a ser o novo banco de dados primário e fica inativo até ser iniciado pelo administrador, por meio de comandos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 99,
+        "enunciado": "No que diz respeito à administração, à segurança, ao backup e à recuperação de banco de dados, julgue o item.\nQuanto à segurança de dados, um SGBD não possui recursos de proteção para o banco de dados inteiro, conseguindo apenas realizar a proteção em nível de tabela.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 100,
+        "enunciado": "Para evitar os efeitos indesejáveis de ataques SQL Injection em aplicações web, uma recomendação correta de programação segura é",
+        "alternativas": [
+            "não utilizar ferramentas Object Relational Mapping (ORM) como Hibernate, NHibernate ou JPA.",
+            "utilizar as propriedades security=\"true\" e/ou encode=\"secure\" nos campos de formulários HTML.",
+            "realizar a validação dos dados de entrada do lado do servidor por meio de whitelists.",
+            "validar a entrada de dados no cliente, evitando assim qualquer possibilidade de envio de instruções maliciosas ao servidor.",
+            "utilizar concatenação de valores nas consultas de dados ao invés de consultas parametrizadas."
+        ],
+        "gabarito": "realizar a validação dos dados de entrada do lado do servidor por meio de whitelists."
+    },
+    {
+        "id": 101,
+        "enunciado": "Sobre a segurança de dados, assinale a afirmativa correta.",
+        "alternativas": [
+            "Segurança de dados e integridade de dados são conceitos semelhantes.",
+            "Criar visões no banco de dados pode ser usado para ocultar dados confidenciais de usuários não autorizados.",
+            "A concessão de privilégios de um usuário para outro usuário poderá ser retirada utilizando a cláusula RESTRICT.",
+            "Um usuário que recebe alguma forma de autorização não tem permissão para passar adiante essa autorização a outros usuários em nenhuma forma de concessão de privilégios."
+        ],
+        "gabarito": "Criar visões no banco de dados pode ser usado para ocultar dados confidenciais de usuários não autorizados."
+    },
+    {
+        "id": 102,
+        "enunciado": "Julgue o item quanto aos sistemas gerenciadores de banco de dados (SGBD) Oracle, MySQL e PostgreSQL.\nO MySQL não permite associar uma senha a um objeto específico, como, por exemplo, uma tabela.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 103,
+        "enunciado": "Sobre administração de usuários e perfis de acesso em banco de dados, analise.\nI - As políticas de Controle de Acesso Discricionário (CAD) são caracterizadas por um alto grau de flexibilidade, que as torna adequadas para uma grande variedade de domínios de aplicação.\nII - A principal vantagem dos modelos CAD é a proteção contra ataques maliciosos, como os cavalos de Troia embutidos em programas de aplicação.\nIII - O Controle de Acesso Baseado em Papéis (CABP) pode ser uma alternativa viável para os tradicionais controles de acesso discricionário e obrigatório; ele assegura que apenas aos usuários autorizados seja dado acesso a certos dados ou recursos.\nIV - No CABP os usuários criam sessões durante as quais podem ativar um subconjunto de papéis aos quais pertencem. Cada sessão pode ser atribuída a muitos papéis e mapear vários usuários. Muitos SGBDs têm permitido o conceito de papéis, aos quais privilégios podem ser atribuídos.\nEstão CORRETAS apenas as afirmativas:",
+        "alternativas": [
+            "I e II.",
+            "I e III.",
+            "II e III.",
+            "I e IV.",
+            "II e IV."
+        ],
+        "gabarito": "I e III."
+    },
+    {
+        "id": 104,
+        "enunciado": "Quanto a temática \"Segurança de Banco de Dados\" inclui vários tipos diferentes de processos e procedimentos para termos a devida proteção das Bases de Dados, tais como:\n(1) criptografia dos dados.\n(2) autenticação de dois fatores.\n(3) replicação de bancos de dados.\nDa relação apresentada:",
+        "alternativas": [
+            "existem somente o 1 e 2.",
+            "existem somente o 1 e 3.",
+            "existem somente o 2 e 3.",
+            "existem todos."
+        ],
+        "gabarito": "existem todos."
+    }
+]

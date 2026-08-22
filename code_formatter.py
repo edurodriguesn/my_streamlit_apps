@@ -137,37 +137,18 @@ def _is_html(code: str) -> bool:
 
 
 def _normalize_html(code: str) -> str:
-    """Quebra linhas ao redor de tags HTML de bloco, mantendo elementos simples em linha única."""
-    # Coloca quebra de linha após tags de fechamento de bloco (mas não se houver apenas conteúdo simples)
-    # Primeiro, identificamos tags que abrem e fecham na mesma linha e as preservamos
+    """Quebra tags em linhas próprias, mas mantém pares <tag>conteúdo</tag> na mesma linha."""
+    # 1. Garante que toda tag HTML (<...>) tenha uma quebra de linha antes e depois
+    code = re.sub(r'\s*(<[^>]+>)\s*', r'\n\1\n', code)
     
-    # 1. Quebra linha após tags de fechamento de bloco
-    code = re.sub(r'(</(?!' + '|'.join(_HTML_INLINE) + r')[^>]+>)', r'\1\n', code)
-    
-    # 2. Quebra linha após tags de abertura de bloco (evitando quebrar se já fechar na mesma linha)
-    def _break_open_tags(m):
-        full_tag = m.group(1)
-        tag_name = m.group(2).lower()
-        rest_of_line = m.group(3)
-        
-        # Se for inline OU se a tag fechar na mesma linha, não insere \n
-        if tag_name in _HTML_INLINE or f'</{tag_name}>' in rest_of_line:
-            return full_tag + rest_of_line
-        return full_tag + '\n' + rest_of_line
+    # 2. Junta novamente os pares: <tag> + texto/conteúdo + </tag>
+    # Exemplo: \n<td>\nFruta\n</td>\n  ->  \n<td>Fruta</td>\n
+    pattern = r'\n(<([a-zA-Z0-9]+)[^>]*>)\n([^\n<]+)\n(</\2>)\n'
+    code = re.sub(pattern, r'\n\1\3\4\n', code)
 
-    # Processa linha por linha para manter o contexto local
-    lines = code.split('\n')
-    new_lines = []
-    for line in lines:
-        # Aplica a quebra apenas para tags de abertura que não fecham na mesma linha
-        processed = re.sub(r'(<([a-zA-Z0-9]+)[^>]*>)(.*)', _break_open_tags, line)
-        new_lines.append(processed)
-        
-    code = '\n'.join(new_lines)
-    
-    # 3. Limpa linhas em branco extras
-    code = re.sub(r'\n\s*\n', '\n', code)
-    return code.strip()
+    # 3. Remove linhas vazias consecutivas
+    lines = [line.strip() for line in code.split('\n') if line.strip()]
+    return '\n'.join(lines)
 
 
 def _indent_html(code: str) -> str:
@@ -179,21 +160,28 @@ def _indent_html(code: str) -> str:
     for line in lines:
         stripped = line.strip()
         if not stripped:
-            result.append('')
             continue
 
-        close_match = re.match(r'^</(\w+)', stripped)
-        if close_match and close_match.group(1).lower() not in _HTML_INLINE:
-            indent = max(0, indent - indent_size)
+        # Verifica se é tag de fechamento de bloco no início da linha
+        close_match = re.match(r'^</([a-zA-Z0-9]+)', stripped)
+        
+        # Se for um par completo na mesma linha (ex: <td>Fruta</td>), não deve alterar o nível de indentação
+        is_inline_pair = bool(re.match(r'^<([a-zA-Z0-9]+)[^>]*>.*?</\1>$', stripped))
+
+        if close_match and not is_inline_pair:
+            tag = close_match.group(1).lower()
+            if tag not in _HTML_INLINE:
+                indent = max(0, indent - indent_size)
 
         result.append(' ' * indent + stripped)
 
-        open_match = re.match(r'^<(\w+)([^>]*)>', stripped)
-        if open_match:
+        open_match = re.match(r'^<([a-zA-Z0-9]+)([^>]*)>', stripped)
+        if open_match and not is_inline_pair:
             tag = open_match.group(1).lower()
             attrs = open_match.group(2)
             self_closing = stripped.endswith('/>') or tag in _HTML_VOID
             has_close = bool(re.search(rf'</{re.escape(tag)}>', stripped))
+            
             if not self_closing and not has_close and tag not in _HTML_INLINE:
                 indent += indent_size
 

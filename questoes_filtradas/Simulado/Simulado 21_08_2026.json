@@ -354,7 +354,7 @@
     },
     {
         "id": 28,
-        "enunciado": "Observe os seguintes fragmentos de um documento XML.\nFragmento 1:\n>'''<table> <tr> <td>Fruta</td> <td>Quantidade</td> </tr> </table>'''< Fragmento 2:\n>'''<table> <name>Manga</name> <quantidade>10</quantidade> </table>'''< Ambos os fragmentos possuem o elemento <table>. Para evitar conflito entre os nomes dos elementos no mesmo documento XML, deve-se usar um:",
+        "enunciado": "Observe os seguintes fragmentos de um documento XML.\nFragmento 1:\n>'''<table> <tr> <td>Fruta</td> <td>Quantidade</td> </tr> </table>'''<\nFragmento 2:\n>'''<table> <name>Manga</name> <quantidade>10</quantidade> </table>'''< Ambos os fragmentos possuem o elemento <table>. Para evitar conflito entre os nomes dos elementos no mesmo documento XML, deve-se usar um:",
         "alternativas": [
             "XSLT;",
             "Parser;",

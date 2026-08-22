@@ -137,16 +137,36 @@ def _is_html(code: str) -> bool:
 
 
 def _normalize_html(code: str) -> str:
-    """Quebra linhas ao redor de tags HTML de bloco."""
-    # Coloca cada tag em sua própria linha
-    code = re.sub(r'(</[^>]+>)', r'\1\n', code)
-    code = re.sub(r'(<(?!/)(?:[^>]+)>)(?!\n)', lambda m: (
-        m.group(1) if re.match(r'<(\w+)', m.group(1)) and
-        re.match(r'<(\w+)', m.group(1)).group(1).lower() in _HTML_INLINE
-        else m.group(1) + '\n'
-    ), code)
-    # Remove linhas em branco extras
-    code = re.sub(r'\n{2,}', '\n', code)
+    """Quebra linhas ao redor de tags HTML de bloco, mantendo elementos simples em linha única."""
+    # Coloca quebra de linha após tags de fechamento de bloco (mas não se houver apenas conteúdo simples)
+    # Primeiro, identificamos tags que abrem e fecham na mesma linha e as preservamos
+    
+    # 1. Quebra linha após tags de fechamento de bloco
+    code = re.sub(r'(</(?!' + '|'.join(_HTML_INLINE) + r')[^>]+>)', r'\1\n', code)
+    
+    # 2. Quebra linha após tags de abertura de bloco (evitando quebrar se já fechar na mesma linha)
+    def _break_open_tags(m):
+        full_tag = m.group(1)
+        tag_name = m.group(2).lower()
+        rest_of_line = m.group(3)
+        
+        # Se for inline OU se a tag fechar na mesma linha, não insere \n
+        if tag_name in _HTML_INLINE or f'</{tag_name}>' in rest_of_line:
+            return full_tag + rest_of_line
+        return full_tag + '\n' + rest_of_line
+
+    # Processa linha por linha para manter o contexto local
+    lines = code.split('\n')
+    new_lines = []
+    for line in lines:
+        # Aplica a quebra apenas para tags de abertura que não fecham na mesma linha
+        processed = re.sub(r'(<([a-zA-Z0-9]+)[^>]*>)(.*)', _break_open_tags, line)
+        new_lines.append(processed)
+        
+    code = '\n'.join(new_lines)
+    
+    # 3. Limpa linhas em branco extras
+    code = re.sub(r'\n\s*\n', '\n', code)
     return code.strip()
 
 

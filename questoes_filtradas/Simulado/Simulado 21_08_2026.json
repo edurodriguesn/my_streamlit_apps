@@ -354,7 +354,7 @@
     },
     {
         "id": 28,
-        "enunciado": "Observe os seguintes fragmentos de um documento XML.\nFragmento 1:\n<table> <tr> <td>Fruta</td> <td>Quantidade</td> </tr> </table> Fragmento 2:\n<table> <name>Manga</name> <quantidade>10</quantidade> </table> Ambos os fragmentos possuem o elemento <table>. Para evitar conflito entre os nomes dos elementos no mesmo documento XML, deve-se usar um:",
+        "enunciado": "Observe os seguintes fragmentos de um documento XML.\nFragmento 1:\n>'''<table> <tr> <td>Fruta</td> <td>Quantidade</td> </tr> </table>'''< Fragmento 2:\n>'''<table> <name>Manga</name> <quantidade>10</quantidade> </table>'''< Ambos os fragmentos possuem o elemento <table>. Para evitar conflito entre os nomes dos elementos no mesmo documento XML, deve-se usar um:",
         "alternativas": [
             "XSLT;",
             "Parser;",
@@ -577,14 +577,17 @@
     },
     {
         "id": 45,
-        "enunciado": "Com relação a SOA, web services, UDDI, WSDL, SOAP, XML, XSLT, e-ping, SGC, W3C e e-MAG, julgue o próximo item.\nO UDDI é uma especificação técnica que tem como objetivo descrever, descobrir e integrar web services; é embasado na tecnologia XML, que fornece uma plataforma neutra de dados e permite descrever relações hierárquicas de modo natural.",
+        "enunciado": "Considere uma organização que disponibiliza Web Services para clientes e colaboradores na sua rede corporativa. Visando facilitar o acesso, um serviço de busca de diretórios e serviços é implantado usando a especificação UDDI (Universal Directory and Discovery Integration). Sobre o acesso das aplicações clientes a esse serviço, podemos afirmar que",
         "alternativas": [
-            "Certo.",
-            "Errado."
+            "precisam formatar as mensagens de consulta no formato SOAPXDDI.",
+            "os clientes recuperam o ponto de acesso ou endpoint de um serviço registrado através da estrutura businessServices e sua operação correspondente get_ServiceDetail.",
+            "os clientes recuperam o ponto de acesso ou endpoint de um serviço registrado através da estrutura bindingTemplate e sua operação correspondente get_bindingDetail.",
+            "ao contrário do acesso aos serviços funcionais, o acesso ao UDDI não deve envolver o processamento de especificações WSDL por questões de desempenho.",
+            "ao contrário do acesso aos serviços funcionais, o acesso ao UDDI não deve envolver o processamento de mensagens SOAP por questões de desempenho."
         ],
-        "gabarito": "Certo.",
+        "gabarito": "os clientes recuperam o ponto de acesso ou endpoint de um serviço registrado através da estrutura bindingTemplate e sua operação correspondente get_bindingDetail.",
         "assunto": "TI - Desenvolvimento de Sistemas - UDDI",
-        "banca": "CEBRASPE (CESPE)"
+        "banca": "IDECAN"
     },
     {
         "id": 46,

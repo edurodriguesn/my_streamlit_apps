@@ -5,13 +5,15 @@ import tempfile
 
 import genanki
 
+CENTERED = '<div style="text-align:center">'
+
 REVERSED_MODEL = genanki.Model(
     1731695950190,
     'Básico e Invertido',
     fields=[{'name': 'Frente'}, {'name': 'Verso'}],
     templates=[
-        {'name': 'Cartão 1', 'qfmt': '{{Frente}}', 'afmt': '{{FrontSide}}<hr id="answer">{{Verso}}'},
-        {'name': 'Cartão 2', 'qfmt': '{{Verso}}', 'afmt': '{{FrontSide}}<hr id="answer">{{Frente}}'},
+        {'name': 'Cartão 1', 'qfmt': CENTERED + '{{Frente}}</div>', 'afmt': CENTERED + '{{FrontSide}}<hr id="answer">{{Verso}}</div>'},
+        {'name': 'Cartão 2', 'qfmt': CENTERED + '{{Verso}}</div>', 'afmt': CENTERED + '{{FrontSide}}<hr id="answer">{{Frente}}</div>'},
     ]
 )
 
@@ -23,6 +25,10 @@ def generate_apkg_from_pairs(deck_name, pairs):
         deck.add_note(genanki.Note(model=REVERSED_MODEL, fields=[html.escape(front), html.escape(back)]))
     with tempfile.NamedTemporaryFile(suffix='.apkg', delete=False) as tmp:
         tmp_path = tmp.name
+    import random as _random
+    notes = deck.notes
+    _random.shuffle(notes)
+    deck.notes = notes
     genanki.Package(deck).write_to_file(tmp_path)
     with open(tmp_path, 'rb') as f:
         data = f.read()

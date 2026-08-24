@@ -1,0 +1,722 @@
+[
+    {
+        "id": 1,
+        "enunciado": "Qual é a definição correta de idempotência no contexto de Infraestrutura como Código (IaC)?",
+        "alternativas": [
+            "Garantia de que a execução repetida de uma configuração produz o mesmo resultado sem efeitos colaterais.",
+            "Capacidade de criar múltiplos recursos idênticos a cada nova execução do script.",
+            "Necessidade de apagar manualmente os recursos anteriores para evitar duplicação.",
+            "Processo de atualização de pacotes que exige reinicialização do sistema operacional."
+        ],
+        "gabarito": "Garantia de que a execução repetida de uma configuração produz o mesmo resultado sem efeitos colaterais.",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 2,
+        "enunciado": "Como é caracterizado o fenômeno de Configuration Drift (Desvio de Configuração)?",
+        "alternativas": [
+            "Ocorre quando o código fonte é versionado em repositórios distintos simultaneamente.",
+            "Mudança do estado de um ambiente devido a alterações manuais não registradas no código.",
+            "Atualização automática de provedores de nuvem que altera a API de comunicação.",
+            "Processo de migração de recursos entre diferentes regiões geográficas de um provedor."
+        ],
+        "gabarito": "Mudança do estado de um ambiente devido a alterações manuais não registradas no código.",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 3,
+        "enunciado": "Em uma infraestrutura imutável, qual é o procedimento padrão ao necessitar de uma alteração no servidor?",
+        "alternativas": [
+            "Realizar a alteração diretamente no servidor em produção via acesso SSH.",
+            "Aplicar patches de segurança no servidor ativo durante o horário de menor tráfego.",
+            "Construir uma nova imagem, provisionar uma nova instância e destruir a antiga.",
+            "Reconfigurar os arquivos de sistema sem interromper os serviços em execução."
+        ],
+        "gabarito": "Construir uma nova imagem, provisionar uma nova instância e destruir a antiga.",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 4,
+        "enunciado": "No paradigma declarativo de IaC, qual é a responsabilidade do administrador de sistemas?",
+        "alternativas": [
+            "Definir a sequência exata de comandos e passos para atingir o estado.",
+            "Programar scripts Bash complexos para gerenciar dependências de hardware.",
+            "Especificar o estado final desejado para que a ferramenta calcule as mudanças.",
+            "Monitorar manualmente cada etapa da instalação para corrigir erros de execução."
+        ],
+        "gabarito": "Especificar o estado final desejado para que a ferramenta calcule as mudanças.",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 5,
+        "enunciado": "Qual é a principal diferença entre o paradigma imperativo e o paradigma declarativo?",
+        "alternativas": [
+            "O imperativo foca no &#x27;o que&#x27; deve ser feito e o declarativo no &#x27;como&#x27; fazer.",
+            "O imperativo define os passos sequenciais enquanto o declarativo define o estado final.",
+            "O declarativo exige o uso de agentes instalados e o imperativo é agentless.",
+            "O imperativo utiliza linguagem YAML e o declarativo utiliza linguagem Ruby."
+        ],
+        "gabarito": "O imperativo define os passos sequenciais enquanto o declarativo define o estado final.",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 6,
+        "enunciado": "No modelo de arquitetura Push, como o nó de controle interage com os servidores alvo?",
+        "alternativas": [
+            "O servidor alvo solicita as configurações periodicamente via protocolo HTTPS.",
+            "O nó de controle conecta-se diretamente aos alvos para executar as configurações.",
+            "Os agentes locais nos alvos verificam atualizações em um repositório central.",
+            "A comunicação é estabelecida por meio de um barramento de mensagens assíncrono."
+        ],
+        "gabarito": "O nó de controle conecta-se diretamente aos alvos para executar as configurações.",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 7,
+        "enunciado": "Qual é uma vantagem significativa do modelo de arquitetura Pull em comparação ao modelo Push?",
+        "alternativas": [
+            "Dispensa a instalação de softwares adicionais nos servidores de destino.",
+            "Facilita o gerenciamento de credenciais centralizadas no nó de controle.",
+            "Proporciona escalabilidade extrema ao distribuir o processamento nos agentes locais.",
+            "Reduz a carga de rede ao concentrar todo o tráfego no servidor central."
+        ],
+        "gabarito": "Proporciona escalabilidade extrema ao distribuir o processamento nos agentes locais.",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 8,
+        "enunciado": "O Terraform é classificado primariamente como qual tipo de ferramenta de automação?\n- Gerenciamento de Configuração para o Dia",
+        "alternativas": [
+            "",
+            "Orquestração de workflows de CI/CD.",
+            "Aprovisionamento de infraestrutura declarativa.",
+            "Monitoramento de performance de rede."
+        ],
+        "gabarito": "Aprovisionamento de infraestrutura declarativa.",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 9,
+        "enunciado": "Qual é a função do arquivo terraform.tfstate no fluxo de trabalho do Terraform?",
+        "alternativas": [
+            "Armazenar as senhas e chaves de acesso aos provedores de nuvem.",
+            "Mapear os recursos definidos no código para a infraestrutura real existente.",
+            "Servir como um log de erros para depuração de falhas de rede.",
+            "Definir a ordem alfabética de criação dos recursos de infraestrutura."
+        ],
+        "gabarito": "Mapear os recursos definidos no código para a infraestrutura real existente.",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 10,
+        "enunciado": "Qual comando do Terraform é utilizado para baixar provedores e inicializar o backend de estado?",
+        "alternativas": [
+            "terraform plan",
+            "terraform apply",
+            "terraform init",
+            "terraform refresh"
+        ],
+        "gabarito": "terraform init",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 11,
+        "enunciado": "O que ocorre durante a execução do comando terraform plan?",
+        "alternativas": [
+            "A infraestrutura na nuvem é modificada conforme as definições do código.",
+            "O arquivo de estado é deletado para garantir uma nova sincronização.",
+            "É gerada uma previsão das alterações necessárias sem aplicá-las.",
+            "Todos os recursos existentes no provedor são destruídos e recriados."
+        ],
+        "gabarito": "É gerada uma previsão das alterações necessárias sem aplicá-las.",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 12,
+        "enunciado": "No contexto do Terraform, o que são os &#x27;Providers&#x27;?",
+        "alternativas": [
+            "Blocos de código reutilizáveis que agrupam múltiplos recursos.",
+            "Scripts Bash utilizados para instalar softwares no sistema operacional.",
+            "Plugins que traduzem HCL em chamadas de API de serviços de nuvem.",
+            "Arquivos de configuração que definem variáveis globais do projeto."
+        ],
+        "gabarito": "Plugins que traduzem HCL em chamadas de API de serviços de nuvem.",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 13,
+        "enunciado": "Qual é a característica arquitetural fundamental do Ansible que o diferencia do Puppet?",
+        "alternativas": [
+            "Uso de uma linguagem baseada em Ruby para definições.",
+            "Arquitetura baseada em agentes instalados em todos os alvos.",
+            "Modelo de funcionamento agentless via SSH ou WinRM.",
+            "Necessidade de um servidor central para compilação de catálogos."
+        ],
+        "gabarito": "Modelo de funcionamento agentless via SSH ou WinRM.",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 14,
+        "enunciado": "Como são chamados os arquivos no Ansible que definem as tarefas a serem executadas em YAML?",
+        "alternativas": [
+            "Cookbooks",
+            "Manifests",
+            "Playbooks",
+            "Recipes"
+        ],
+        "gabarito": "Playbooks",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 15,
+        "enunciado": "No Ansible, qual é a finalidade dos &#x27;Handlers&#x27;?",
+        "alternativas": [
+            "Definir variáveis globais que podem ser acessadas por todas as tarefas.",
+            "Executar tarefas acionadas por mudanças reais em tarefas anteriores.",
+            "Listar os endereços IP e nomes de host dos servidores gerenciados.",
+            "Instalar dependências de Python nos nós de destino automaticamente."
+        ],
+        "gabarito": "Executar tarefas acionadas por mudanças reais em tarefas anteriores.",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 16,
+        "enunciado": "Qual ferramenta do ecossistema Puppet coleta informações do sistema operacional antes da configuração?",
+        "alternativas": [
+            "Facter",
+            "Hiera",
+            "Catalog",
+            "MCollective"
+        ],
+        "gabarito": "Facter",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 17,
+        "enunciado": "No Puppet, o que representa o &#x27;Catálogo&#x27; (Catalog)?",
+        "alternativas": [
+            "Uma lista de todos os servidores ativos na rede corporativa.",
+            "O documento que descreve o estado desejado específico para um nó.",
+            "O código fonte original escrito pelo administrador em linguagem DSL.",
+            "Um repositório de módulos públicos mantido pela comunidade."
+        ],
+        "gabarito": "O documento que descreve o estado desejado específico para um nó.",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 18,
+        "enunciado": "A ferramenta Chef utiliza qual linguagem de programação como base para suas receitas e cookbooks?",
+        "alternativas": [
+            "Python",
+            "YAML",
+            "Ruby",
+            "JavaScript"
+        ],
+        "gabarito": "Ruby",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 19,
+        "enunciado": "Qual é o principal foco da orquestração de containers realizada pelo Kubernetes?",
+        "alternativas": [
+            "Provisionar máquinas virtuais em provedores de nuvem pública.",
+            "Gerenciar o ciclo de vida e a alta disponibilidade de microsserviços.",
+            "Executar scripts sequenciais de manutenção em servidores legados.",
+            "Automatizar o envio de e-mails de alerta para a equipe de suporte."
+        ],
+        "gabarito": "Gerenciar o ciclo de vida e a alta disponibilidade de microsserviços.",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 20,
+        "enunciado": "O que caracteriza o &#x27;Loop de Reconciliação&#x27; no Kubernetes?",
+        "alternativas": [
+            "Reinicialização periódica de todos os nós do cluster para limpeza de cache.",
+            "Comparação contínua entre o estado desejado e o estado atual para correções.",
+            "Processo de backup diário de todas as imagens de container em uso.",
+            "Verificação de vulnerabilidades de segurança em bibliotecas externas."
+        ],
+        "gabarito": "Comparação contínua entre o estado desejado e o estado atual para correções.",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 21,
+        "enunciado": "Qual é a distinção entre orquestração de containers e orquestração de workflow?",
+        "alternativas": [
+            "Containers focam em hardware e workflows focam em software de rede.",
+            "Workflow coordena tarefas sequenciais entre sistemas e containers gerenciam pods.",
+            "Containers operam no Dia 0 e workflows operam no Dia 1 do ciclo de vida.",
+            "Não há distinção técnica relevante entre os dois tipos de orquestração."
+        ],
+        "gabarito": "Workflow coordena tarefas sequenciais entre sistemas e containers gerenciam pods.",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 22,
+        "enunciado": "De acordo com a classificação por fase operacional, o Ansible é mais utilizado em qual estágio?",
+        "alternativas": [
+            "Dia 0 (Setup inicial de hardware).",
+            "Dia 1 (Configuração de redes e firewalls).",
+            "Dia 2 (Manutenção contínua do sistema operacional).",
+            "Fase de descarte e destruição de recursos legados."
+        ],
+        "gabarito": "Dia 2 (Manutenção contínua do sistema operacional).",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 23,
+        "enunciado": "Qual é um requisito técnico para gerenciar servidores Linux utilizando o Ansible?",
+        "alternativas": [
+            "Instalação do serviço &#x27;ansible-agent&#x27; no servidor remoto.",
+            "Presença de um interpretador Python no nó de destino.",
+            "Configuração de um banco de dados SQL para controle de estado.",
+            "Uso obrigatório de uma conexão via protocolo HTTPS customizado."
+        ],
+        "gabarito": "Presença de um interpretador Python no nó de destino.",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 24,
+        "enunciado": "Como ferramentas declarativas determinam a ordem de criação de recursos se a ordem no código não importa?",
+        "alternativas": [
+            "Executam todos os recursos em paralelo sem considerar dependências.",
+            "Seguem estritamente a ordem alfabética dos nomes dos recursos.",
+            "Constroem um Grafo Direcionado Acíclico (DAG) de dependências.",
+            "Solicitam que o administrador defina um índice numérico para cada bloco."
+        ],
+        "gabarito": "Constroem um Grafo Direcionado Acíclico (DAG) de dependências.",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 25,
+        "enunciado": "Qual é o impacto de perder o arquivo terraform.tfstate em um ambiente de produção?",
+        "alternativas": [
+            "Nenhum, pois o Terraform recria o arquivo consultando o código fonte.",
+            "O Terraform perde a rastreabilidade e tentará recriar recursos já existentes.",
+            "As máquinas virtuais em execução na nuvem serão desligadas imediatamente.",
+            "O provedor de nuvem bloqueará o acesso às APIs por motivos de segurança."
+        ],
+        "gabarito": "O Terraform perde a rastreabilidade e tentará recriar recursos já existentes.",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 26,
+        "enunciado": "No Ansible, como é controlado o número de conexões simultâneas a múltiplos hosts?",
+        "alternativas": [
+            "Através do parâmetro de configuração &#x27;forks&#x27;.",
+            "Pelo limite de memória RAM disponível no servidor de destino.",
+            "Por meio de uma licença paga que desbloqueia a concorrência.",
+            "O Ansible não permite execução paralela em múltiplos hosts."
+        ],
+        "gabarito": "Através do parâmetro de configuração &#x27;forks&#x27;.",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 27,
+        "enunciado": "No modelo Pull, como é garantida a segurança das credenciais de acesso local?",
+        "alternativas": [
+            "As chaves privadas são armazenadas em um servidor central de segredos.",
+            "O agente roda localmente com privilégios, sem necessidade de chaves remotas.",
+            "O administrador deve digitar a senha a cada ciclo de 30 minutos.",
+            "As credenciais são enviadas via texto plano através da rede local."
+        ],
+        "gabarito": "O agente roda localmente com privilégios, sem necessidade de chaves remotas.",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 28,
+        "enunciado": "Em relação à detecção de desvios de configuração, como o modelo Pull se comporta?",
+        "alternativas": [
+            "Detecta desvios sob demanda quando o administrador inicia o script.",
+            "Ocorre continuamente através do agendamento de execução do agente local.",
+            "Depende de ferramentas externas de monitoramento de logs de auditoria.",
+            "Não possui capacidade nativa de detectar alterações manuais ad-hoc."
+        ],
+        "gabarito": "Ocorre continuamente através do agendamento de execução do agente local.",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 29,
+        "enunciado": "Qual é a função do comando terraform destroy?",
+        "alternativas": [
+            "Apagar apenas os arquivos temporários de log do diretório local.",
+            "Remover todos os recursos gerenciados pelo estado daquele workspace.",
+            "Formatar o disco rígido do nó de controle para limpeza de dados.",
+            "Cancelar uma execução de terraform apply que esteja travada."
+        ],
+        "gabarito": "Remover todos os recursos gerenciados pelo estado daquele workspace.",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 30,
+        "enunciado": "O que são &#x27;Roles&#x27; no ecossistema do Ansible?",
+        "alternativas": [
+            "Funções de permissão de usuário dentro do Ansible Tower.",
+            "Estrutura de diretórios para organizar tarefas e variáveis de forma modular.",
+            "Comandos de linha de comando para depurar erros de sintaxe YAML.",
+            "Plugins de inventário para conexão com a nuvem AWS."
+        ],
+        "gabarito": "Estrutura de diretórios para organizar tarefas e variáveis de forma modular.",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 31,
+        "enunciado": "Qual das seguintes ferramentas utiliza primariamente um paradigma híbrido imperativo/declarativo?",
+        "alternativas": [
+            "Terraform",
+            "Puppet",
+            "Chef",
+            "Kubernetes"
+        ],
+        "gabarito": "Chef",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 32,
+        "enunciado": "O que acontece em uma operação idempotente se o sistema já estiver no estado desejado?",
+        "alternativas": [
+            "A ferramenta força uma reinicialização para garantir a integridade.",
+            "Nenhuma alteração é realizada no servidor de destino.",
+            "O código reporta um erro de &#x27;conflito de estado atual&#x27;.",
+            "O recurso é deletado e recriado para coincidir com o timestamp."
+        ],
+        "gabarito": "Nenhuma alteração é realizada no servidor de destino.",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 33,
+        "enunciado": "No Terraform, o mecanismo de &#x27;State Locking&#x27; serve para qual propósito?",
+        "alternativas": [
+            "Impedir que usuários sem privilégios visualizem o arquivo de estado.",
+            "Evitar a execução simultânea que possa corromper o arquivo de estado.",
+            "Criptografar as senhas armazenadas nos recursos de infraestrutura.",
+            "Bloquear a deleção acidental de recursos marcados como críticos."
+        ],
+        "gabarito": "Evitar a execução simultânea que possa corromper o arquivo de estado.",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 34,
+        "enunciado": "Qual protocolo é tipicamente utilizado pelo Puppet para a comunicação entre agentes e o servidor?",
+        "alternativas": [
+            "SSH",
+            "WinRM",
+            "HTTPS customizado",
+            "FTP"
+        ],
+        "gabarito": "HTTPS customizado",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 35,
+        "enunciado": "Na arquitetura do Chef, o que são as &#x27;Recipes&#x27; (Receitas)?",
+        "alternativas": [
+            "Arquivos que definem recursos individuais e passos de configuração em Ruby.",
+            "Manuais de instrução para a instalação física de racks de servidores.",
+            "Listas de verificação para auditoria de segurança em redes locais.",
+            "Conjuntos de drivers de hardware para diferentes distribuições Linux."
+        ],
+        "gabarito": "Arquivos que definem recursos individuais e passos de configuração em Ruby.",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 36,
+        "enunciado": "Qual é o principal ponto de força do Puppet em ambientes corporativos tradicionais?",
+        "alternativas": [
+            "Facilidade de aprendizado da sintaxe baseada em Python.",
+            "Excelente controle de desvio de configuração em grandes ambientes.",
+            "Ausência de necessidade de software instalado nos servidores alvo.",
+            "Foco em execuções rápidas e síncronas via linha de comando."
+        ],
+        "gabarito": "Excelente controle de desvio de configuração em grandes ambientes.",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 37,
+        "enunciado": "O Ansible utiliza qual protocolo para gerenciar máquinas com sistema operacional Windows?",
+        "alternativas": [
+            "SSH",
+            "WinRM",
+            "RDP",
+            "Telnet"
+        ],
+        "gabarito": "WinRM",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 38,
+        "enunciado": "No Terraform, o que define um &#x27;Módulo&#x27;?",
+        "alternativas": [
+            "Um plugin de tradução de API para um provedor específico.",
+            "Um pacote de configurações reutilizáveis que agrupa múltiplos recursos.",
+            "Uma tarefa individual executada dentro de um script de provisionamento.",
+            "O banco de dados que armazena o histórico de todas as versões."
+        ],
+        "gabarito": "Um pacote de configurações reutilizáveis que agrupa múltiplos recursos.",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 39,
+        "enunciado": "Qual é a principal desvantagem do modelo Push em redes com muitos servidores?",
+        "alternativas": [
+            "A impossibilidade de usar chaves SSH para autenticação.",
+            "O gargalo de desempenho no nó de controle durante execuções massivas.",
+            "A complexidade de instalar agentes em cada um dos servidores.",
+            "A falta de suporte para sistemas operacionais Unix-like."
+        ],
+        "gabarito": "O gargalo de desempenho no nó de controle durante execuções massivas.",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 40,
+        "enunciado": "No Kubernetes, os manifestos que definem o estado desejado são geralmente escritos em qual formato?",
+        "alternativas": [
+            "JSON",
+            "XML",
+            "YAML",
+            "HCL"
+        ],
+        "gabarito": "YAML",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 41,
+        "enunciado": "Em relação à infraestrutura mutável, qual é um risco comum a longo prazo?",
+        "alternativas": [
+            "Aumento excessivo dos custos de licenciamento de software.",
+            "Desvio de configuração (drift) entre ambientes de dev e prod.",
+            "Impossibilidade de realizar backups de dados de usuários.",
+            "Lentidão na rede devido ao uso de containers leves."
+        ],
+        "gabarito": "Desvio de configuração (drift) entre ambientes de dev e prod.",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 42,
+        "enunciado": "A linguagem HCL (HashiCorp Configuration Language) é nativa de qual ferramenta?",
+        "alternativas": [
+            "Ansible",
+            "Puppet",
+            "Terraform",
+            "Kubernetes"
+        ],
+        "gabarito": "Terraform",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 43,
+        "enunciado": "O termo &#x27;Agentless&#x27; é uma característica central de qual ferramenta de gerenciamento?",
+        "alternativas": [
+            "Chef",
+            "Puppet",
+            "Ansible",
+            "SaltStack"
+        ],
+        "gabarito": "Ansible",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 44,
+        "enunciado": "No Chef, o que é o &#x27;Chef Server&#x27;?",
+        "alternativas": [
+            "O servidor físico onde a aplicação final do cliente é hospedada.",
+            "O ponto central que armazena cookbooks e definições dos nós.",
+            "Uma ferramenta de linha de comando para testar código Ruby localmente.",
+            "Um serviço de nuvem para armazenamento de imagens de containers."
+        ],
+        "gabarito": "O ponto central que armazena cookbooks e definições dos nós.",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 45,
+        "enunciado": "O que é um &#x27;Inventário&#x27; no contexto do Ansible?",
+        "alternativas": [
+            "Um catálogo de hardware disponível no estoque da empresa.",
+            "Um arquivo que lista os hosts gerenciados e seus grupos.",
+            "Uma lista de softwares proibidos em servidores de produção.",
+            "Um relatório financeiro sobre o consumo de recursos na nuvem."
+        ],
+        "gabarito": "Um arquivo que lista os hosts gerenciados e seus grupos.",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 46,
+        "enunciado": "Como o Terraform lida com a criação de recursos que dependem de outros recursos?",
+        "alternativas": [
+            "Exige que o administrador escreva o código na ordem cronológica exata.",
+            "Utiliza referências de dependência implícitas ou explícitas no código.",
+            "Tenta criar todos os recursos simultaneamente e reinicia em caso de erro.",
+            "Ignora as dependências e delega a resolução para o provedor de nuvem."
+        ],
+        "gabarito": "Utiliza referências de dependência implícitas ou explícitas no código.",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 47,
+        "enunciado": "Qual é a principal vantagem de usar infraestrutura como código em vez de processos manuais?",
+        "alternativas": [
+            "Eliminação completa da necessidade de firewalls de rede.",
+            "Reprodutibilidade e versionamento das definições de ambiente.",
+            "Redução do número de desenvolvedores necessários em um projeto.",
+            "Aumento da performance física dos processadores no data center."
+        ],
+        "gabarito": "Reprodutibilidade e versionamento das definições de ambiente.",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 48,
+        "enunciado": "No Puppet, o que acontece se o Facter não conseguir coletar informações de um nó?",
+        "alternativas": [
+            "O servidor Master assume valores padrão aleatórios para a configuração.",
+            "O agente Puppet interrompe a execução e não solicita o catálogo.",
+            "O Puppet Server compila um catálogo genérico para todos os sistemas.",
+            "A configuração é aplicada manualmente pelo administrador via console."
+        ],
+        "gabarito": "O agente Puppet interrompe a execução e não solicita o catálogo.",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 49,
+        "enunciado": "Qual componente do Kubernetes é responsável por garantir que o número de pods em execução corresponda ao definido?",
+        "alternativas": [
+            "Kube-proxy",
+            "Control Plane (Controladores)",
+            "Etcd",
+            "Container Runtime"
+        ],
+        "gabarito": "Control Plane (Controladores)",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 50,
+        "enunciado": "O uso de Blue-Green Deployments é mais facilitado por qual tipo de infraestrutura?",
+        "alternativas": [
+            "Infraestrutura Mutável",
+            "Infraestrutura Imutável",
+            "Infraestrutura Manual",
+            "Infraestrutura de Hardware Legado"
+        ],
+        "gabarito": "Infraestrutura Imutável",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 51,
+        "enunciado": "No Ansible, qual é a principal diferença entre um arquivo de inventário estático e um dinâmico?",
+        "alternativas": [
+            "O estático usa YAML e o dinâmico usa obrigatoriamente formato XML.",
+            "O dinâmico consulta APIs de nuvem para obter a lista atualizada de hosts.",
+            "O estático é armazenado no servidor alvo e o dinâmico no nó de controle.",
+            "Não existem inventários dinâmicos, todos os hosts devem ser listados manualmente."
+        ],
+        "gabarito": "O dinâmico consulta APIs de nuvem para obter a lista atualizada de hosts.",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 52,
+        "enunciado": "Qual é o comportamento do Ansible em relação à concorrência por padrão?",
+        "alternativas": [
+            "Executa tarefas em um único host por vez de forma sequencial.",
+            "Executa tarefas em paralelo em múltiplos hosts simultaneamente.",
+            "Aguarda a confirmação manual do operador para cada host processado.",
+            "Requer a instalação de um cluster de gerenciamento para paralelismo."
+        ],
+        "gabarito": "Executa tarefas em paralelo em múltiplos hosts simultaneamente.",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 53,
+        "enunciado": "Em relação à porta de comunicação, o que é tipicamente exigido nos alvos pelo modelo Pull?",
+        "alternativas": [
+            "Abertura da porta 22 (SSH) para conexões de entrada.",
+            "Capacidade do alvo alcançar a porta do servidor central (ex: 443).",
+            "Desativação total de firewalls para permitir tráfego broadcast.",
+            "Configuração de um proxy reverso em cada servidor gerenciado."
+        ],
+        "gabarito": "Capacidade do alvo alcançar a porta do servidor central (ex: 443).",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 54,
+        "enunciado": "No contexto de ferramentas de IaC, o que significa o termo &#x27;Cloud Agnostic&#x27;?",
+        "alternativas": [
+            "Ferramenta que funciona apenas em ambientes de nuvem privada.",
+            "Capacidade de gerenciar múltiplos provedores de nuvem com a mesma ferramenta.",
+            "Tecnologia que dispensa o uso de conexão com a internet para funcionar.",
+            "Software que converte automaticamente código Java em infraestrutura AWS."
+        ],
+        "gabarito": "Capacidade de gerenciar múltiplos provedores de nuvem com a mesma ferramenta.",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 55,
+        "enunciado": "Qual é a função do diretório &#x27;templates&#x27; dentro de uma Role do Ansible?",
+        "alternativas": [
+            "Armazenar fotos e arquivos binários de instalação de softwares.",
+            "Guardar arquivos com variáveis dinâmicas processadas pelo motor Jinja2.",
+            "Listar os usuários que possuem permissão de execução do Playbook.",
+            "Salvar backups de versões anteriores do arquivo de inventário."
+        ],
+        "gabarito": "Guardar arquivos com variáveis dinâmicas processadas pelo motor Jinja2.",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 56,
+        "enunciado": "O conceito de &#x27;State Locking&#x27; no Terraform é comumente implementado em AWS usando qual serviço?",
+        "alternativas": [
+            "S3 apenas para armazenamento sem trava.",
+            "DynamoDB para gerenciar os bloqueios de estado.",
+            "EC2 instâncias reservadas para o nó de controle.",
+            "CloudWatch para monitorar alterações no arquivo .tfstate."
+        ],
+        "gabarito": "DynamoDB para gerenciar os bloqueios de estado.",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 57,
+        "enunciado": "No ecossistema Puppet, os arquivos com extensão &#x27;.pp&#x27; são conhecidos como:",
+        "alternativas": [
+            "Playbooks",
+            "Manifests",
+            "Recipes",
+            "Cookbooks"
+        ],
+        "gabarito": "Manifests",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 58,
+        "enunciado": "Qual é a principal força do Chef para programadores experientes?",
+        "alternativas": [
+            "Uso de uma linguagem simplificada baseada em recortes de texto.",
+            "Flexibilidade total do Ruby para tratar configurações complexas.",
+            "Interface gráfica que dispensa o uso de linhas de comando.",
+            "Integração nativa com drivers de impressoras corporativas."
+        ],
+        "gabarito": "Flexibilidade total do Ruby para tratar configurações complexas.",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 59,
+        "enunciado": "No Terraform, o que acontece se um recurso for removido do código e o comando apply for executado?",
+        "alternativas": [
+            "O Terraform ignora a mudança para preservar a infraestrutura existente.",
+            "O recurso correspondente é destruído no provedor de nuvem.",
+            "O comando falha alegando inconsistência entre o código e o estado.",
+            "O recurso é marcado como &#x27;órfão&#x27; e movido para uma conta de quarentena."
+        ],
+        "gabarito": "O recurso correspondente é destruído no provedor de nuvem.",
+        "assunto": "Gerenciamento de Infra"
+    },
+    {
+        "id": 60,
+        "enunciado": "A prática de IaC ajuda a combater qual problema comum em centros de dados tradicionais?",
+        "alternativas": [
+            "Superaquecimento de servidores físicos devido ao alto processamento.",
+            "Falta de documentação e conhecimento sobre o estado real dos sistemas.",
+            "Necessidade de cabos de rede de alta velocidade entre os racks.",
+            "Obsolescência programada de componentes de hardware de armazenamento."
+        ],
+        "gabarito": "Falta de documentação e conhecimento sobre o estado real dos sistemas.",
+        "assunto": "Gerenciamento de Infra"
+    }
+]

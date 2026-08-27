@@ -68,9 +68,11 @@ def secao_questao(questoes, arquivo_local_selecionado):
             st.session_state.idx = ir_para - 1
             st.rerun()
 
-    if q.get("assunto"):
-        banca = f" | {q['banca']}" if q.get("banca") else ""
-        st.caption(f"📚 Assunto: {q['assunto']}{banca}")
+    if q.get("assunto") or q.get("banca"):
+        partes = []
+        if q.get("assunto"): partes.append(f"📚 {q['assunto']}")
+        if q.get("banca"): partes.append(q["banca"])
+        st.caption(" | ".join(partes))
 
     render_enunciado_com_imagens(q["enunciado"], arquivo_local_selecionado)
 
@@ -147,11 +149,11 @@ def secao_questao(questoes, arquivo_local_selecionado):
     texto_copiar = q["enunciado"] + "\n\n" + "\n".join(
         f"({letras[i]}) {alt}" for i, alt in enumerate(q["alternativas"])
     ) + (f"\n\nGabarito: {letra_gab}" if letra_gab else "")
-    texto_copiar_escaped = texto_copiar.replace("`", "\\`").replace("$", "\\$")
-    st.components.v1.html(
-        f"""<button onclick="navigator.clipboard.writeText(`{texto_copiar_escaped}`)"""
-        """ style="cursor:pointer;padding:4px 12px;border-radius:4px;border:1px solid #ccc">📋 Copiar questão</button>""",
-        height=40,
+    texto_copiar_escaped = texto_copiar.replace("\\", "\\\\").replace("'", "\\'").replace("\n", "\\n")
+    st.markdown(
+        f"""<script>function copiarQuestao(){{navigator.clipboard.writeText('{texto_copiar_escaped}');}}</script>"""
+        f"""<button onclick="copiarQuestao()" style="cursor:pointer;padding:4px 12px;border-radius:4px;border:1px solid #ccc">📋 Copiar questão</button>""",
+        unsafe_allow_html=True,
     )
 
     st.markdown("---")

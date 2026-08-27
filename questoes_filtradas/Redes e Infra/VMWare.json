@@ -1,0 +1,602 @@
+[
+    {
+        "id": 1,
+        "enunciado": "No contexto do Data Center Definido por Software ($SDDC$), qual camada é ocupada especificamente pelas soluções da suíte VMware Aria (antigo vRealize)?",
+        "alternativas": [
+            "Camada de Computação e Virtualização",
+            "Camada de Governança e Automação",
+            "Camada de Rede e Segurança SDN",
+            "Camada de Cloud Multi-Tenant"
+        ],
+        "gabarito": "Camada de Governança e Automação",
+        "assunto": "VMWare"
+    },
+    {
+        "id": 2,
+        "enunciado": "Qual é a função primordial do VMware vCenter Server dentro de um ambiente vSphere?",
+        "alternativas": [
+            "Executar diretamente o ciclo de vida das máquinas virtuais como hypervisor principal",
+            "Atuar como o elemento central de gerenciamento e administração dos recursos físicos",
+            "Prover exclusivamente o armazenamento definido por software para os hosts ESXi",
+            "Realizar o roteamento de borda entre a rede virtualizada e a infraestrutura física"
+        ],
+        "gabarito": "Atuar como o elemento central de gerenciamento e administração dos recursos físicos",
+        "assunto": "VMWare"
+    },
+    {
+        "id": 3,
+        "enunciado": "Como se chama o agente instalado nos hosts ESXi responsável pela comunicação direta com o vCenter Server?",
+        "alternativas": [
+            "Agent FDM",
+            "Agent GENEVE",
+            "Agent VPXA",
+            "Agent OVSDB"
+        ],
+        "gabarito": "Agent VPXA",
+        "assunto": "VMWare"
+    },
+    {
+        "id": 4,
+        "enunciado": "Qual tecnologia do vSphere permite a migração ativa de VMs entre hosts sem interrupção para o usuário final, exigindo rede gigabit dedicada?",
+        "alternativas": [
+            "vSphere High Availability (HA)",
+            "vSphere Distributed Resource Scheduler (DRS)",
+            "vSphere vMotion",
+            "vSphere Fault Tolerance (FT)"
+        ],
+        "gabarito": "vSphere vMotion",
+        "assunto": "VMWare"
+    },
+    {
+        "id": 5,
+        "enunciado": "O vSphere Distributed Resource Scheduler (DRS) utiliza qual funcionalidade para realizar o balanceamento automático de carga de computação?",
+        "alternativas": [
+            "Reinicialização forçada de máquinas virtuais",
+            "Migração dinâmica via vMotion baseada em regras de afinidade",
+            "Replicação síncrona de dados entre datastores distintos",
+            "Criação de instâncias secundárias em modo vLockstep"
+        ],
+        "gabarito": "Migração dinâmica via vMotion baseada em regras de afinidade",
+        "assunto": "VMWare"
+    },
+    {
+        "id": 6,
+        "enunciado": "Em caso de falha física de um host ESXi, qual recurso garante a disponibilidade reiniciando as VMs em outros hosts do cluster?",
+        "alternativas": [
+            "vSphere vMotion",
+            "vSphere High Availability (HA)",
+            "vSphere Fault Tolerance (FT)",
+            "vSphere Storage vMotion"
+        ],
+        "gabarito": "vSphere High Availability (HA)",
+        "assunto": "VMWare"
+    },
+    {
+        "id": 7,
+        "enunciado": "Qual característica distingue o vSphere Fault Tolerance (FT) do vSphere High Availability (HA) em termos de continuidade de serviço?",
+        "alternativas": [
+            "O FT exige o reboot da VM em um novo host, enquanto o HA mantém o estado da memória",
+            "O FT oferece disponibilidade contínua com zero downtime através de uma instância secundária síncrona",
+            "O HA opera no nível da aplicação, enquanto o FT opera no nível do hardware físico",
+            "O HA utiliza a tecnologia vLockstep para espelhamento, enquanto o FT utiliza migração a frio"
+        ],
+        "gabarito": "O FT oferece disponibilidade contínua com zero downtime através de uma instância secundária síncrona",
+        "assunto": "VMWare"
+    },
+    {
+        "id": 8,
+        "enunciado": "Sobre a dependência do vCenter para o funcionamento do cluster, o que ocorre se o vCenter Server ficar indisponível?",
+        "alternativas": [
+            "Todas as máquinas virtuais em execução são suspensas imediatamente",
+            "O vSphere HA continua operacional através dos agentes locais FDM",
+            "O balanceamento de carga do DRS continua migrando as VMs normalmente",
+            "A rede SDN do NSX perde todas as tabelas de roteamento e para o tráfego"
+        ],
+        "gabarito": "O vSphere HA continua operacional através dos agentes locais FDM",
+        "assunto": "VMWare"
+    },
+    {
+        "id": 9,
+        "enunciado": "Diferencie vMotion de Storage vMotion de acordo com o objeto de migração:",
+        "alternativas": [
+            "vMotion migra o disco $vmdk$ e o Storage vMotion migra a CPU",
+            "vMotion migra o estado de execução e o Storage vMotion migra os arquivos de disco",
+            "vMotion exige o desligamento da VM e o Storage vMotion ocorre a quente",
+            "vMotion opera entre datacenters e o Storage vMotion opera entre hosts físicos"
+        ],
+        "gabarito": "vMotion migra o estado de execução e o Storage vMotion migra os arquivos de disco",
+        "assunto": "VMWare"
+    },
+    {
+        "id": 10,
+        "enunciado": "Qual conceito do VMware NSX descreve a aplicação de regras de firewall diretamente na placa de rede virtual (vNIC) da VM?",
+        "alternativas": [
+            "Encapsulamento de Overlays",
+            "Microsegmentação",
+            "Roteamento Distribuído",
+            "Service Routing"
+        ],
+        "gabarito": "Microsegmentação",
+        "assunto": "VMWare"
+    },
+    {
+        "id": 11,
+        "enunciado": "Qual é o protocolo de encapsulamento padrão utilizado nas versões modernas do NSX (antigo NSX-T)?",
+        "alternativas": [
+            "VXLAN",
+            "NVGRE",
+            "GENEVE",
+            "STT"
+        ],
+        "gabarito": "GENEVE",
+        "assunto": "VMWare"
+    },
+    {
+        "id": 12,
+        "enunciado": "Onde ocorre o processamento do Roteamento Distribuído (DR) no VMware NSX?",
+        "alternativas": [
+            "No hardware do switch físico central do Data Center",
+            "No espaço de kernel de cada host ESXi participante",
+            "Centralizadamente no NSX Manager via API",
+            "Nos Edge Nodes responsáveis pelo tráfego Norte-Sul"
+        ],
+        "gabarito": "No espaço de kernel de cada host ESXi participante",
+        "assunto": "VMWare"
+    },
+    {
+        "id": 13,
+        "enunciado": "No VMware NSX, para quais serviços é utilizado o Service Router (SR) implementado em Edge Nodes?",
+        "alternativas": [
+            "Firewall distribuído entre VMs da mesma sub-rede",
+            "Roteamento Leste-Oeste entre sub-redes virtuais no mesmo host",
+            "Conexões com a rede física externa, NAT e VPNs",
+            "Encapsulamento de pacotes para o protocolo GENEVE no kernel"
+        ],
+        "gabarito": "Conexões com a rede física externa, NAT e VPNs",
+        "assunto": "VMWare"
+    },
+    {
+        "id": 14,
+        "enunciado": "O tráfego de rede que ocorre internamente entre máquinas virtuais dentro do Data Center é classificado como:",
+        "alternativas": [
+            "Tráfego Norte-Sul",
+            "Tráfego Leste-Oeste",
+            "Tráfego de Gerenciamento",
+            "Tráfego de Storage"
+        ],
+        "gabarito": "Tráfego Leste-Oeste",
+        "assunto": "VMWare"
+    },
+    {
+        "id": 15,
+        "enunciado": "Qual é a principal distinção arquitetural entre o NSX-V e o NSX-T (NSX atual)?",
+        "alternativas": [
+            "O NSX-V suporta múltiplos hypervisors, enquanto o NSX-T suporta vSphere",
+            "O NSX-V utiliza VXLAN e o NSX-T utiliza preferencialmente GENEVE",
+            "O NSX-V é independente do vCenter e o NSX-T é acoplado ao vCenter",
+            "O NSX-V foca em containers e o NSX-T foca em Bare Metal"
+        ],
+        "gabarito": "O NSX-V utiliza VXLAN e o NSX-T utiliza preferencialmente GENEVE",
+        "assunto": "VMWare"
+    },
+    {
+        "id": 16,
+        "enunciado": "Qual plataforma VMware é projetada para prover nuvens híbridas e ambientes de múltiplos inquilinos (multi-tenancy) para provedores de IaaS?",
+        "alternativas": [
+            "VMware vCenter Server",
+            "VMware Cloud Director",
+            "VMware vRealize Operations",
+            "VMware NSX"
+        ],
+        "gabarito": "VMware Cloud Director",
+        "assunto": "VMWare"
+    },
+    {
+        "id": 17,
+        "enunciado": "No vCloud Director, como se chama a unidade básica que representa um cliente ou departamento isolado?",
+        "alternativas": [
+            "Provider VDC",
+            "Organization",
+            "vApp",
+            "Catalog"
+        ],
+        "gabarito": "Organization",
+        "assunto": "VMWare"
+    },
+    {
+        "id": 18,
+        "enunciado": "O que define um Organization VDC (oVDC) no VMware Cloud Director?",
+        "alternativas": [
+            "É o agrupamento total de recursos físicos disponibilizado pelo administrador",
+            "É uma subdivisão de recursos alocada especificamente para uma Organização",
+            "É um portal de autoatendimento para provisionamento de Blueprints YAML",
+            "É um container lógico que agrupa VMs de uma mesma aplicação"
+        ],
+        "gabarito": "É uma subdivisão de recursos alocada especificamente para uma Organização",
+        "assunto": "VMWare"
+    },
+    {
+        "id": 19,
+        "enunciado": "Qual é a definição de um $vApp$ no ambiente vCloud Director?",
+        "alternativas": [
+            "Uma rede virtual isolada para tráfego Norte-Sul",
+            "Um contêiner lógico que agrupa e gerencia o ciclo de vida de múltiplas VMs juntas",
+            "Um modelo de alocação onde 100% dos recursos são reservados",
+            "Um plugin do vCenter para gerenciamento de hosts remotos"
+        ],
+        "gabarito": "Um contêiner lógico que agrupa e gerencia o ciclo de vida de múltiplas VMs juntas",
+        "assunto": "VMWare"
+    },
+    {
+        "id": 20,
+        "enunciado": "No modelo de alocação de recursos &#x27;Allocation Pool&#x27; do vCloud Director, como os recursos são tratados?",
+        "alternativas": [
+            "100% dos recursos são reservados e dedicados exclusivamente à organização",
+            "Uma porcentagem é garantida, permitindo overcommit até um limite definido",
+            "Os recursos são cobrados dinamicamente apenas quando as VMs são ligadas",
+            "Não há garantia de recursos, dependendo totalmente da disponibilidade física"
+        ],
+        "gabarito": "Uma porcentagem é garantida, permitindo overcommit até um limite definido",
+        "assunto": "VMWare"
+    },
+    {
+        "id": 21,
+        "enunciado": "Qual é a relação operacional correta entre o vCloud Director (VCD) e o vCenter Server?",
+        "alternativas": [
+            "O VCD substitui o vCenter na gestão de clusters e hosts físicos",
+            "O VCD abstrai e consome os recursos técnicos gerenciados pelo vCenter",
+            "O vCenter atua como um portal de autoatendimento para os clientes do VCD",
+            "O VCD gerencia apenas as redes, enquanto o vCenter gerencia as VMs"
+        ],
+        "gabarito": "O VCD abstrai e consome os recursos técnicos gerenciados pelo vCenter",
+        "assunto": "VMWare"
+    },
+    {
+        "id": 22,
+        "enunciado": "Qual componente da suíte vRealize foca em Infraestrutura como Código (IaC) e provisionamento multicloud via portais de autoatendimento?",
+        "alternativas": [
+            "vRealize Orchestrator (vRO)",
+            "vRealize Automation (vRA)",
+            "vRealize Log Insight (vRLI)",
+            "vRealize Operations (vROps)"
+        ],
+        "gabarito": "vRealize Automation (vRA)",
+        "assunto": "VMWare"
+    },
+    {
+        "id": 23,
+        "enunciado": "Dentro do vRealize Automation, qual ferramenta é utilizada para criar o design de $blueprints$ declarados em YAML?",
+        "alternativas": [
+            "Service Broker",
+            "Code Stream",
+            "Cloud Assembly",
+            "Orchestrator Engine"
+        ],
+        "gabarito": "Cloud Assembly",
+        "assunto": "VMWare"
+    },
+    {
+        "id": 24,
+        "enunciado": "Qual é a principal função do VMware vRealize Orchestrator (vRO)?",
+        "alternativas": [
+            "Analisar métricas estruturadas de CPU e memória para prever gargalos",
+            "Executar fluxos de trabalho (workflows) automatizados e complexos de baixo nível",
+            "Coletar e indexar syslogs de dispositivos de rede e hosts ESXi",
+            "Gerenciar o catálogo de serviços para usuários finais de negócio"
+        ],
+        "gabarito": "Executar fluxos de trabalho (workflows) automatizados e complexos de baixo nível",
+        "assunto": "VMWare"
+    },
+    {
+        "id": 25,
+        "enunciado": "No vRealize Operations (vROps), o &#x27;badge&#x27; de Eficiência (Efficiency) é utilizado para identificar:",
+        "alternativas": [
+            "Problemas imediatos que necessitam de atenção administrativa",
+            "Riscos futuros relacionados à falta de espaço em storage",
+            "Otimização de recursos desperdiçados ou VMs superdimensionadas",
+            "Erros textuais em arquivos de log do sistema operacional"
+        ],
+        "gabarito": "Otimização de recursos desperdiçados ou VMs superdimensionadas",
+        "assunto": "VMWare"
+    },
+    {
+        "id": 26,
+        "enunciado": "Qual ferramenta VMware deve ser utilizada para realizar a análise de causa raiz através de buscas em logs não estruturados e syslogs?",
+        "alternativas": [
+            "vRealize Operations (vROps)",
+            "vRealize Log Insight (vRLI)",
+            "vRealize Automation (vRA)",
+            "vRealize Orchestrator (vRO)"
+        ],
+        "gabarito": "vRealize Log Insight (vRLI)",
+        "assunto": "VMWare"
+    },
+    {
+        "id": 27,
+        "enunciado": "Como o vRealize Operations (vROps) prevê futuros gargalos de infraestrutura?",
+        "alternativas": [
+            "Realizando varreduras de segurança em tempo real no kernel do ESXi",
+            "Utilizando IA e aprendizado de máquina para analisar métricas estruturadas",
+            "Correlacionando mensagens de erro textuais enviadas via protocolo Syslog",
+            "Executando scripts de benchmark em todas as VMs do inventário"
+        ],
+        "gabarito": "Utilizando IA e aprendizado de máquina para analisar métricas estruturadas",
+        "assunto": "VMWare"
+    },
+    {
+        "id": 28,
+        "enunciado": "No contexto de SDN do VMware NSX, qual componente representa o Plano de Gerenciamento (Management Plane)?",
+        "alternativas": [
+            "NSX Controller",
+            "NSX Manager",
+            "ESXi Kernel Module",
+            "Edge Node"
+        ],
+        "gabarito": "NSX Manager",
+        "assunto": "VMWare"
+    },
+    {
+        "id": 29,
+        "enunciado": "Qual é a responsabilidade do Plano de Controle (Control Plane) na arquitetura do VMware NSX?",
+        "alternativas": [
+            "Prover a interface de usuário (UI) para configuração do administrador",
+            "Manter o estado da rede e tabelas ARP/VTEP sem encaminhar dados diretamente",
+            "Realizar o encapsulamento dos pacotes no protocolo de overlay",
+            "Executar fisicamente as regras de firewall distribuído nas vNICs"
+        ],
+        "gabarito": "Manter o estado da rede e tabelas ARP/VTEP sem encaminhar dados diretamente",
+        "assunto": "VMWare"
+    },
+    {
+        "id": 30,
+        "enunciado": "O Plano de Dados (Data Plane) do VMware NSX é composto por quais elementos centrais?",
+        "alternativas": [
+            "NSX Manager e Cloud Director",
+            "NSX Controllers e vCenter Server",
+            "Hosts ESXi (Módulos de Kernel) e Edge Nodes",
+            "vRealize Automation e Blueprints YAML"
+        ],
+        "gabarito": "Hosts ESXi (Módulos de Kernel) e Edge Nodes",
+        "assunto": "VMWare"
+    },
+    {
+        "id": 31,
+        "enunciado": "Um administrador precisa de um relatório que sugira a redução de CPU em VMs ociosas ($rightsizing$). Qual ferramenta deve ser usada?",
+        "alternativas": [
+            "vRealize Automation",
+            "vRealize Operations",
+            "vRealize Log Insight",
+            "vRealize Orchestrator"
+        ],
+        "gabarito": "vRealize Operations",
+        "assunto": "VMWare"
+    },
+    {
+        "id": 32,
+        "enunciado": "Qual o principal objetivo da utilização de redes de $Overlay$ no VMware NSX?",
+        "alternativas": [
+            "Eliminar a necessidade de roteamento físico em toda a infraestrutura da empresa",
+            "Criar redes virtuais L2 sobrepostas a uma infraestrutura física L3 existente",
+            "Aumentar a velocidade de transmissão de dados via fibra ótica",
+            "Substituir o uso de endereços IP públicos por endereços privados"
+        ],
+        "gabarito": "Criar redes virtuais L2 sobrepostas a uma infraestrutura física L3 existente",
+        "assunto": "VMWare"
+    },
+    {
+        "id": 33,
+        "enunciado": "No vCloud Director, qual modelo de alocação é caracterizado pela cobrança dinâmica baseada apenas no que é ligado pelo usuário?",
+        "alternativas": [
+            "Reservation Pool",
+            "Allocation Pool",
+            "Pay-As-You-Go",
+            "Dedicated Host Pool"
+        ],
+        "gabarito": "Pay-As-You-Go",
+        "assunto": "VMWare"
+    },
+    {
+        "id": 34,
+        "enunciado": "A funcionalidade de &#x27;vLockstep&#x27; é associada a qual recurso do vSphere?",
+        "alternativas": [
+            "Distributed Resource Scheduler (DRS)",
+            "Storage vMotion",
+            "Fault Tolerance (FT)",
+            "Single Sign-On (SSO)"
+        ],
+        "gabarito": "Fault Tolerance (FT)",
+        "assunto": "VMWare"
+    },
+    {
+        "id": 35,
+        "enunciado": "Qual componente do vRA é responsável por apresentar o portal onde usuários finais solicitam catálogos de recursos autorizados?",
+        "alternativas": [
+            "Code Stream",
+            "Cloud Assembly",
+            "Service Broker",
+            "Orchestrator Engine"
+        ],
+        "gabarito": "Service Broker",
+        "assunto": "VMWare"
+    },
+    {
+        "id": 36,
+        "enunciado": "Qual protocolo é citado como o padrão para envio e agregação de dados textuais no vRealize Log Insight?",
+        "alternativas": [
+            "SNMP",
+            "Syslog (RFC 5424)",
+            "NetFlow",
+            "AMQP"
+        ],
+        "gabarito": "Syslog (RFC 5424)",
+        "assunto": "VMWare"
+    },
+    {
+        "id": 37,
+        "enunciado": "O que acontece especificamente no passo 2 do processo de recuperação do vSphere HA quando um host falha repentinamente?",
+        "alternativas": [
+            "O vCenter migra as VMs via vMotion para outros hosts",
+            "O HA inicia o processo de reinicialização das VMs nos hosts sobreviventes",
+            "A VM secundária assume o tráfego sem interrupção de estado",
+            "O administrador deve aprovar manualmente a migração de cada VM"
+        ],
+        "gabarito": "O HA inicia o processo de reinicialização das VMs nos hosts sobreviventes",
+        "assunto": "VMWare"
+    },
+    {
+        "id": 38,
+        "enunciado": "No NSX, qual funcionalidade evita o fenômeno de $hairpinning$ no roteamento entre sub-redes virtuais?",
+        "alternativas": [
+            "Microsegmentação por vNIC",
+            "Roteamento Distribuído no kernel do hypervisor",
+            "Uso de Edge Gateways para tráfego interno",
+            "Encapsulamento GENEVE"
+        ],
+        "gabarito": "Roteamento Distribuído no kernel do hypervisor",
+        "assunto": "VMWare"
+    },
+    {
+        "id": 39,
+        "enunciado": "Para o funcionamento do vSphere vMotion, qual é um dos requisitos fundamentais em relação ao armazenamento?",
+        "alternativas": [
+            "Armazenamento local SSD em todos os hosts do cluster",
+            "Armazenamento compartilhado acessível por ambos os hosts envolvidos",
+            "Uso obrigatório de fitas LTO para backup de migração",
+            "Desativação de qualquer tipo de armazenamento externo"
+        ],
+        "gabarito": "Armazenamento compartilhado acessível por ambos os hosts envolvidos",
+        "assunto": "VMWare"
+    },
+    {
+        "id": 40,
+        "enunciado": "Como o vRealize Automation se diferencia do vRealize Orchestrator em termos de foco?",
+        "alternativas": [
+            "vRA foca em logs e vRO foca em métricas de performance",
+            "vRA foca na entrega de serviços de alto nível e vRO é o motor de microtarefas técnico",
+            "vRA foca em redes SDN e vRO foca em virtualização de servidores",
+            "vRA é exclusivo para vSphere e vRO funciona em nuvens públicas"
+        ],
+        "gabarito": "vRA foca na entrega de serviços de alto nível e vRO é o motor de microtarefas técnico",
+        "assunto": "VMWare"
+    },
+    {
+        "id": 41,
+        "enunciado": "Qual recurso do VMware Aria é capaz de prever em quantos dias o storage do Data Center ficará sem espaço disponível?",
+        "alternativas": [
+            "vRealize Automation",
+            "vRealize Operations",
+            "vRealize Log Insight",
+            "vRealize Orchestrator"
+        ],
+        "gabarito": "vRealize Operations",
+        "assunto": "VMWare"
+    },
+    {
+        "id": 42,
+        "enunciado": "A unidade que representa o agrupamento de recursos físicos (computação e storage) fornecidos pelo vCenter ao vCloud Director é o:",
+        "alternativas": [
+            "Organization VDC",
+            "Provider VDC",
+            "vApp Network",
+            "External Network"
+        ],
+        "gabarito": "Provider VDC",
+        "assunto": "VMWare"
+    },
+    {
+        "id": 43,
+        "enunciado": "Qual tecnologia é utilizada pelo vSphere HA para detectar a falha de um host ESXi?",
+        "alternativas": [
+            "Monitoramento de temperatura do processador físico",
+            "Perda de batimento cardíaco ($heartbeat$) e agentes FDM",
+            "Verificação de integridade de arquivos .vmdk no storage",
+            "Análise de logs textuais via Log Insight"
+        ],
+        "gabarito": "Perda de batimento cardíaco ($heartbeat$) e agentes FDM",
+        "assunto": "VMWare"
+    },
+    {
+        "id": 44,
+        "enunciado": "Qual é a linguagem ou padrão frequentemente utilizado para definir fluxos de trabalho no vRealize Orchestrator?",
+        "alternativas": [
+            "Blueprints em YAML",
+            "JavaScript e Plugins XML/SOAP",
+            "Linguagem SQL para consultas diretas",
+            "Somente interface gráfica sem scripts"
+        ],
+        "gabarito": "JavaScript e Plugins XML/SOAP",
+        "assunto": "VMWare"
+    },
+    {
+        "id": 45,
+        "enunciado": "No contexto de nuvem multi-inquilino, o que garante o isolamento entre a &#x27;Empresa A&#x27; e a &#x27;Empresa B&#x27; no vCloud Director?",
+        "alternativas": [
+            "Uso de diferentes instâncias físicas de vCenter Server",
+            "Criação de Organizations distintas com portais customizados e isolados",
+            "Configuração de VLANs físicas diferentes para cada servidor host",
+            "Instalação de firewalls físicos dedicados para cada departamento"
+        ],
+        "gabarito": "Criação de Organizations distintas com portais customizados e isolados",
+        "assunto": "VMWare"
+    },
+    {
+        "id": 46,
+        "enunciado": "O componente do vRA focado em pipelines de entrega contínua (CI/CD) para infraestrutura e aplicações é o:",
+        "alternativas": [
+            "Cloud Assembly",
+            "Code Stream",
+            "Service Broker",
+            "Aria Hub"
+        ],
+        "gabarito": "Code Stream",
+        "assunto": "VMWare"
+    },
+    {
+        "id": 47,
+        "enunciado": "Qual badge do vROps alerta sobre problemas que necessitam de atenção imediata do administrador?",
+        "alternativas": [
+            "Risk",
+            "Efficiency",
+            "Health",
+            "Capacity"
+        ],
+        "gabarito": "Health",
+        "assunto": "VMWare"
+    },
+    {
+        "id": 48,
+        "enunciado": "No VMware NSX, as regras de firewall distribuído (DFW) são aplicadas em qual ponto para impedir movimentos laterais de ameaças?",
+        "alternativas": [
+            "No roteador de borda físico do Data Center",
+            "Na placa de rede virtual (vNIC) de cada VM",
+            "No console central do vCenter Server",
+            "No gateway de internet da organização"
+        ],
+        "gabarito": "Na placa de rede virtual (vNIC) de cada VM",
+        "assunto": "VMWare"
+    },
+    {
+        "id": 49,
+        "enunciado": "Qual é a função do vCenter Single Sign-On (SSO)?",
+        "alternativas": [
+            "Permitir a migração de VMs sem senhas entre hosts",
+            "Serviço de autenticação integrado para login único nos componentes vSphere",
+            "Garantir que apenas um administrador acesse o console por vez",
+            "Criptografar os arquivos de disco das máquinas virtuais"
+        ],
+        "gabarito": "Serviço de autenticação integrado para login único nos componentes vSphere",
+        "assunto": "VMWare"
+    },
+    {
+        "id": 50,
+        "enunciado": "Qual das alternativas descreve um exemplo de uso prático para o vRealize Orchestrator?",
+        "alternativas": [
+            "Criar um portal de compras de máquinas virtuais para desenvolvedores",
+            "Provisionar automaticamente uma VM, registrar o IP no DNS externo e abrir chamado no ITSM",
+            "Monitorar o uso de CPU de um cluster ao longo de seis meses",
+            "Identificar uma tentativa de login falho em um host ESXi via syslog"
+        ],
+        "gabarito": "Provisionar automaticamente uma VM, registrar o IP no DNS externo e abrir chamado no ITSM",
+        "assunto": "VMWare"
+    }
+]

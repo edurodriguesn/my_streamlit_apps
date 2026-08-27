@@ -143,21 +143,6 @@ def secao_questao(questoes, arquivo_local_selecionado):
                 st.session_state.mostrar_gabarito[qid] = True
                 st.rerun()
 
-    letra_gab = next(
-        (letras[i] for i, alt in enumerate(q["alternativas"]) if alt == q["gabarito"]), None
-    )
-    texto_copiar = q["enunciado"] + "\n\n" + "\n".join(
-        f"({letras[i]}) {alt}" for i, alt in enumerate(q["alternativas"])
-    ) + (f"\n\nGabarito: {letra_gab}" if letra_gab else "")
-    texto_copiar_js = texto_copiar.replace("\\", "\\\\").replace("'", "\\'").replace("\n", "\\n")
-    st.components.v1.html(f"""
-        <textarea id="t" style="position:absolute;left:-9999px">{texto_copiar}</textarea>
-        <button onclick="var t=document.getElementById('t');t.select();document.execCommand('copy');this.innerText='✅ Copiado! Quem cola prejudica a si mesmo!';setTimeout(()=>this.innerText='📋',2000)"
-            style="cursor:pointer">
-            📋
-        </button>
-    """, height=5)
-
     st.markdown("---")
 
     col_prev, col_next, col_rand, col_fim = st.columns(4)
@@ -177,3 +162,17 @@ def secao_questao(questoes, arquivo_local_selecionado):
         if st.button("🏁 Terminar", use_container_width=True):
             st.session_state.finalizado = True
             st.rerun()
+
+    letra_gab = next(
+        (letras[i] for i, alt in enumerate(q["alternativas"]) if alt == q["gabarito"]), None
+    )
+    texto_copiar = q["enunciado"] + "\n\n" + "\n".join(
+        f"({letras[i]}) {alt}" for i, alt in enumerate(q["alternativas"])
+    ) + (f"\n\nGabarito: {letra_gab}" if letra_gab else "")
+    st.components.v1.html(f"""
+        <textarea id="t" style="position:absolute;left:-9999px">{texto_copiar}</textarea>
+        <button onclick="var t=document.getElementById('t');t.select();document.execCommand('copy');this.innerText='✅ Copiado! Quem cola prejudica a si mesmo!';setTimeout(()=>this.innerText='📋',2000)"
+            style="cursor:pointer">
+            📋
+        </button>
+    """, height=40)

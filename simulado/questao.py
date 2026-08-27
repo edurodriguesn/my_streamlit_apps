@@ -152,11 +152,11 @@ def secao_questao(questoes, arquivo_local_selecionado):
     texto_copiar_js = texto_copiar.replace("\\", "\\\\").replace("'", "\\'").replace("\n", "\\n")
     st.components.v1.html(f"""
         <textarea id="t" style="position:absolute;left:-9999px">{texto_copiar}</textarea>
-        <button onclick="var t=document.getElementById('t');t.select();document.execCommand('copy');this.innerText='✅ Copiado!';setTimeout(()=>this.innerText='📋',2000)"
+        <button onclick="var t=document.getElementById('t');t.select();document.execCommand('copy');this.innerText='✅ Copiado! Quem cola prejudica a si mesmo!';setTimeout(()=>this.innerText='📋',2000)"
             style="cursor:pointer">
             📋
         </button>
-    """, height=40)
+    """, height=5)
 
     st.markdown("---")
 

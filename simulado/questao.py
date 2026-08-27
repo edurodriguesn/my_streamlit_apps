@@ -143,7 +143,7 @@ def secao_questao(questoes, arquivo_local_selecionado):
                 st.session_state.mostrar_gabarito[qid] = True
                 st.rerun()
 
-    st.markdown("---")
+    st.markdown('<hr style="margin:4px 0">', unsafe_allow_html=True)
 
     col_prev, col_next, col_rand, col_fim = st.columns(4)
     with col_prev:

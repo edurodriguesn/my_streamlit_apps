@@ -149,12 +149,14 @@ def secao_questao(questoes, arquivo_local_selecionado):
     texto_copiar = q["enunciado"] + "\n\n" + "\n".join(
         f"({letras[i]}) {alt}" for i, alt in enumerate(q["alternativas"])
     ) + (f"\n\nGabarito: {letra_gab}" if letra_gab else "")
-    texto_copiar_escaped = texto_copiar.replace("\\", "\\\\").replace("'", "\\'").replace("\n", "\\n")
-    st.markdown(
-        f"""<script>function copiarQuestao(){{navigator.clipboard.writeText('{texto_copiar_escaped}');}}</script>"""
-        f"""<button onclick="copiarQuestao()" style="cursor:pointer; solid #ccc">📋</button>""",
-        unsafe_allow_html=True,
-    )
+    texto_copiar_js = texto_copiar.replace("\\", "\\\\").replace("'", "\\'").replace("\n", "\\n")
+    st.components.v1.html(f"""
+        <textarea id="t" style="position:absolute;left:-9999px">{texto_copiar}</textarea>
+        <button onclick="var t=document.getElementById('t');t.select();document.execCommand('copy');this.innerText='✅ Copiado!';setTimeout(()=>this.innerText='📋',2000)"
+            style="cursor:pointer">
+            📋
+        </button>
+    """, height=40)
 
     st.markdown("---")
 

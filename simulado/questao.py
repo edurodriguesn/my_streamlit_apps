@@ -71,7 +71,7 @@ def secao_questao(questoes, arquivo_local_selecionado):
     if q.get("assunto") or q.get("banca"):
         partes = []
         if q.get("assunto"): partes.append(f"📚 {q['assunto']}")
-        if q.get("banca"): partes.append(q["banca"])
+        if q.get("banca"): partes.append(f"🏛️ {q['banca']}")
         st.caption(" | ".join(partes))
 
     render_enunciado_com_imagens(q["enunciado"], arquivo_local_selecionado)
@@ -152,7 +152,7 @@ def secao_questao(questoes, arquivo_local_selecionado):
     texto_copiar_escaped = texto_copiar.replace("\\", "\\\\").replace("'", "\\'").replace("\n", "\\n")
     st.markdown(
         f"""<script>function copiarQuestao(){{navigator.clipboard.writeText('{texto_copiar_escaped}');}}</script>"""
-        f"""<button onclick="copiarQuestao()" style="cursor:pointer;padding:4px 12px;border-radius:4px;border:1px solid #ccc">📋 Copiar questão</button>""",
+        f"""<button onclick="copiarQuestao()" style="cursor:pointer; solid #ccc">📋</button>""",
         unsafe_allow_html=True,
     )
 

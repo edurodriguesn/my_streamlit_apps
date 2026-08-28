@@ -1,0 +1,662 @@
+[
+    {
+        "id": 1,
+        "enunciado": "Qual fundação tornou-se a mantenedora do Jakarta EE após a transferência feita pela Oracle em 2017?",
+        "alternativas": [
+            "Apache Foundation",
+            "Eclipse Foundation",
+            "Spring Foundation",
+            "Linux Foundation"
+        ],
+        "gabarito": "Eclipse Foundation",
+        "assunto": "Java_Jakarta EE"
+    },
+    {
+        "id": 2,
+        "enunciado": "Qual foi o motivo principal para a mudança do nome de Java EE para Jakarta EE?",
+        "alternativas": [
+            "Mudança completa da arquitetura do núcleo",
+            "Questões de direitos autorais sobre a marca Java",
+            "Fusão com o projeto Jakarta da Apache",
+            "Decisão de marketing para atrair desenvolvedores de nuvem"
+        ],
+        "gabarito": "Questões de direitos autorais sobre a marca Java",
+        "assunto": "Java_Jakarta EE"
+    },
+    {
+        "id": 3,
+        "enunciado": "Até qual versão da plataforma o namespace padrão utilizado nos pacotes era o &#x27;javax.*?",
+        "alternativas": [
+            "Java EE 5",
+            "Java EE 7",
+            "Jakarta EE 8",
+            "Jakarta EE 9"
+        ],
+        "gabarito": "Jakarta EE 8",
+        "assunto": "Java_Jakarta EE"
+    },
+    {
+        "id": 4,
+        "enunciado": "A partir de qual versão ocorreu o fenômeno &#x27;Big Bang&#x27;, alterando todo o namespace para &#x27;jakarta.*?",
+        "alternativas": [
+            "Jakarta EE 8",
+            "Jakarta EE 9",
+            "Jakarta EE 10",
+            "Jakarta EE 11"
+        ],
+        "gabarito": "Jakarta EE 9",
+        "assunto": "Java_Jakarta EE"
+    },
+    {
+        "id": 5,
+        "enunciado": "Qual é a principal consequência da transição do namespace para &#x27;jakarta.*&#x27; em relação a códigos legados?",
+        "alternativas": [
+            "Compatibilidade automática garantida pelo compilador",
+            "Quebra de retrocompatibilidade direta no código",
+            "Necessidade de alteração do hardware do servidor",
+            "Migração opcional dependendo do sistema operacional"
+        ],
+        "gabarito": "Quebra de retrocompatibilidade direta no código",
+        "assunto": "Java_Jakarta EE"
+    },
+    {
+        "id": 6,
+        "enunciado": "Com que objetivo o Jakarta EE foi dividido em &#x27;Profiles&#x27; (Perfis)?",
+        "alternativas": [
+            "Para segmentar os desenvolvedores por nível de experiência",
+            "Para evitar o carregamento de especificações desnecessárias em aplicações simples",
+            "Para permitir o uso de diferentes linguagens de programação",
+            "Para separar as camadas de banco de dados e interface"
+        ],
+        "gabarito": "Para evitar o carregamento de especificações desnecessárias em aplicações simples",
+        "assunto": "Java_Jakarta EE"
+    },
+    {
+        "id": 7,
+        "enunciado": "Qual perfil do Jakarta EE é focado em aplicações Web modernas e leves, omitindo tecnologias como JMS?",
+        "alternativas": [
+            "Full Profile",
+            "Cloud Profile",
+            "Web Profile",
+            "Enterprise Profile"
+        ],
+        "gabarito": "Web Profile",
+        "assunto": "Java_Jakarta EE"
+    },
+    {
+        "id": 8,
+        "enunciado": "O &#x27;Web Profile&#x27; do Jakarta EE inclui qual subconjunto de tecnologias EJB?",
+        "alternativas": [
+            "EJB Completo",
+            "EJB Remoto",
+            "EJB Lite",
+            "Message-Driven Beans"
+        ],
+        "gabarito": "EJB Lite",
+        "assunto": "Java_Jakarta EE"
+    },
+    {
+        "id": 9,
+        "enunciado": "Em qual cenário o uso do &#x27;Full Profile&#x27; é mais indicado?",
+        "alternativas": [
+            "Microserviços de alta performance",
+            "Aplicações front-end estáticas",
+            "Sistemas legados complexos com forte integração empresarial",
+            "Scripts de automação simples"
+        ],
+        "gabarito": "Sistemas legados complexos com forte integração empresarial",
+        "assunto": "Java_Jakarta EE"
+    },
+    {
+        "id": 10,
+        "enunciado": "Qual tecnologia é considerada a base de toda a pilha Web do ecossistema Jakarta EE?",
+        "alternativas": [
+            "Jakarta Persistence",
+            "Jakarta Servlet",
+            "Jakarta Messaging",
+            "Jakarta Security"
+        ],
+        "gabarito": "Jakarta Servlet",
+        "assunto": "Java_Jakarta EE"
+    },
+    {
+        "id": 11,
+        "enunciado": "Sobre o ciclo de vida do Servlet, qual é a frequência de execução do método &#x27;init()&#x27;?",
+        "alternativas": [
+            "Uma vez para cada requisição HTTP",
+            "Uma vez a cada thread criada",
+            "Uma vez durante a vida do Servlet",
+            "Uma vez a cada minuto de atividade"
+        ],
+        "gabarito": "Uma vez durante a vida do Servlet",
+        "assunto": "Java_Jakarta EE"
+    },
+    {
+        "id": 12,
+        "enunciado": "Qual método do Servlet é responsável por despachar a requisição para métodos como &#x27;doGet&#x27; ou &#x27;doPost&#x27;?",
+        "alternativas": [
+            "init()",
+            "destroy()",
+            "execute()",
+            "service()"
+        ],
+        "gabarito": "service()",
+        "assunto": "Java_Jakarta EE"
+    },
+    {
+        "id": 13,
+        "enunciado": "Por padrão, quantas instâncias de cada Servlet configurado o container cria?",
+        "alternativas": [
+            "Uma instância para cada sessão de usuário",
+            "Uma única instância (Singleton por padrão)",
+            "Uma instância para cada requisição simultânea",
+            "Duas instâncias para balanceamento de carga"
+        ],
+        "gabarito": "Uma única instância (Singleton por padrão)",
+        "assunto": "Java_Jakarta EE"
+    },
+    {
+        "id": 14,
+        "enunciado": "Qual é a responsabilidade principal do Jakarta CDI?",
+        "alternativas": [
+            "Gerenciar a persistência de dados no banco relacional",
+            "Validar campos de formulários HTML",
+            "Gerenciar o ciclo de vida e injeção de dependências desacoplada",
+            "Enviar mensagens assíncronas para filas"
+        ],
+        "gabarito": "Gerenciar o ciclo de vida e injeção de dependências desacoplada",
+        "assunto": "Java_Jakarta EE"
+    },
+    {
+        "id": 15,
+        "enunciado": "Qual escopo do CDI garante que um bean dure exatamente o tempo de uma única requisição HTTP?",
+        "alternativas": [
+            "@SessionScoped",
+            "@ApplicationScoped",
+            "@RequestScoped",
+            "@Dependent"
+        ],
+        "gabarito": "@RequestScoped",
+        "assunto": "Java_Jakarta EE"
+    },
+    {
+        "id": 16,
+        "enunciado": "Qual é o escopo padrão (Pseudo-Scope) do CDI quando nenhuma anotação de escopo é declarada?",
+        "alternativas": [
+            "@RequestScoped",
+            "@Dependent",
+            "@Stateless",
+            "@ApplicationScoped"
+        ],
+        "gabarito": "@Dependent",
+        "assunto": "Java_Jakarta EE"
+    },
+    {
+        "id": 17,
+        "enunciado": "O que define o ciclo de vida de um bean com o escopo &#x27;@Dependent&#x27;?",
+        "alternativas": [
+            "Ele sobrevive enquanto o servidor estiver ligado",
+            "Ele dura o tempo de uma sessão de usuário",
+            "Ele herda o tempo de vida do objeto que o injetou",
+            "Ele é destruído logo após a chamada do método"
+        ],
+        "gabarito": "Ele herda o tempo de vida do objeto que o injetou",
+        "assunto": "Java_Jakarta EE"
+    },
+    {
+        "id": 18,
+        "enunciado": "Na especificação JPA, como é chamado o estado de um objeto recém-criado com &#x27;new&#x27; e sem ID de banco?",
+        "alternativas": [
+            "Managed",
+            "Detached",
+            "New (Transient)",
+            "Removed"
+        ],
+        "gabarito": "New (Transient)",
+        "assunto": "Java_Jakarta EE"
+    },
+    {
+        "id": 19,
+        "enunciado": "Qual estado da JPA garante que alterações nos atributos sejam sincronizadas automaticamente via &#x27;dirty checking&#x27;?",
+        "alternativas": [
+            "Managed",
+            "Transient",
+            "Detached",
+            "Persistent-ID"
+        ],
+        "gabarito": "Managed",
+        "assunto": "Java_Jakarta EE"
+    },
+    {
+        "id": 20,
+        "enunciado": "Qual método do &#x27;EntityManager&#x27; deve ser usado para tornar um objeto transiente em um objeto gerenciado?",
+        "alternativas": [
+            "merge()",
+            "find()",
+            "persist()",
+            "refresh()"
+        ],
+        "gabarito": "persist()",
+        "assunto": "Java_Jakarta EE"
+    },
+    {
+        "id": 21,
+        "enunciado": "Quando uma entidade JPA entra no estado &#x27;Detached&#x27;?",
+        "alternativas": [
+            "Ao ser criada com o operador new",
+            "Ao ser removida definitivamente do banco de dados",
+            "Após o fechamento do EntityManager ou fim da transação",
+            "Durante a execução de uma consulta JPQL"
+        ],
+        "gabarito": "Após o fechamento do EntityManager ou fim da transação",
+        "assunto": "Java_Jakarta EE"
+    },
+    {
+        "id": 22,
+        "enunciado": "Qual interface da JPA é utilizada para interagir com o contexto de persistência e não é thread-safe?",
+        "alternativas": [
+            "EntityManagerFactory",
+            "EntityManager",
+            "PersistenceProvider",
+            "TransactionManager"
+        ],
+        "gabarito": "EntityManager",
+        "assunto": "Java_Jakarta EE"
+    },
+    {
+        "id": 23,
+        "enunciado": "Qual tipo de Session Bean do EJB mantém um pool de instâncias compartilhadas e é altamente escalável?",
+        "alternativas": [
+            "Stateful",
+            "Singleton",
+            "Stateless",
+            "Message-Driven"
+        ],
+        "gabarito": "Stateless",
+        "assunto": "Java_Jakarta EE"
+    },
+    {
+        "id": 24,
+        "enunciado": "Qual Session Bean é indicado para manter o estado da conversação dedicado a um usuário específico?",
+        "alternativas": [
+            "Stateless",
+            "Singleton",
+            "Stateful",
+            "Pooled Bean"
+        ],
+        "gabarito": "Stateful",
+        "assunto": "Java_Jakarta EE"
+    },
+    {
+        "id": 25,
+        "enunciado": "Qual componente EJB reage a mensagens de Filas (Queues) ou Tópicos (Topics) de forma assíncrona?",
+        "alternativas": [
+            "Stateless Session Bean",
+            "Message-Driven Bean (MDB)",
+            "Singleton Session Bean",
+            "Jakarta REST Resource"
+        ],
+        "gabarito": "Message-Driven Bean (MDB)",
+        "assunto": "Java_Jakarta EE"
+    },
+    {
+        "id": 26,
+        "enunciado": "No gerenciamento de transações CMT (Container-Managed Transaction), como o commit é realizado?",
+        "alternativas": [
+            "Manualmente via interface UserTransaction",
+            "Automaticamente pelo container baseado em anotações",
+            "Pelo driver do banco de dados de forma isolada",
+            "Através de blocos try-catch no código do cliente"
+        ],
+        "gabarito": "Automaticamente pelo container baseado em anotações",
+        "assunto": "Java_Jakarta EE"
+    },
+    {
+        "id": 27,
+        "enunciado": "Qual interface é utilizada pelo desenvolvedor no modelo BMT (Bean-Managed Transaction)?",
+        "alternativas": [
+            "EntityManager",
+            "UserTransaction",
+            "TransactionAttribute",
+            "ContextTransaction"
+        ],
+        "gabarito": "UserTransaction",
+        "assunto": "Java_Jakarta EE"
+    },
+    {
+        "id": 28,
+        "enunciado": "Qual anotação do Jakarta REST define o formato de retorno de um recurso (ex: JSON)?",
+        "alternativas": [
+            "@Consumes",
+            "@Path",
+            "@Produces",
+            "@GET"
+        ],
+        "gabarito": "@Produces",
+        "assunto": "Java_Jakarta EE"
+    },
+    {
+        "id": 29,
+        "enunciado": "Para capturar variáveis declaradas diretamente no caminho da URI (ex: /clientes/{id}), usa-se:",
+        "alternativas": [
+            "@QueryParam",
+            "@PathParam",
+            "@Context",
+            "@Inject"
+        ],
+        "gabarito": "@PathParam",
+        "assunto": "Java_Jakarta EE"
+    },
+    {
+        "id": 30,
+        "enunciado": "Qual anotação é a correta para injetar objetos de infraestrutura como &#x27;UriInfo&#x27; no Jakarta REST?",
+        "alternativas": [
+            "@Inject",
+            "@EJB",
+            "@Context",
+            "@Resource"
+        ],
+        "gabarito": "@Context",
+        "assunto": "Java_Jakarta EE"
+    },
+    {
+        "id": 31,
+        "enunciado": "Qual é a principal diferença funcional entre &#x27;persist()&#x27; e &#x27;merge()&#x27; no EntityManager?",
+        "alternativas": [
+            "persist() atualiza; merge() deleta",
+            "persist() inicia um objeto novo; merge() copia o estado de um desanexado",
+            "persist() é assíncrono; merge() é síncrono",
+            "persist() é para XML; merge() é para JSON"
+        ],
+        "gabarito": "persist() inicia um objeto novo; merge() copia o estado de um desanexado",
+        "assunto": "Java_Jakarta EE"
+    },
+    {
+        "id": 32,
+        "enunciado": "Diferente dos &#x27;Filters&#x27; do Servlet, o que os &#x27;Interceptors&#x27; do CDI interceptam?",
+        "alternativas": [
+            "Requisições baseadas em URL",
+            "Cabeçalhos HTTP de resposta",
+            "Chamadas a métodos de negócio do Java",
+            "Conexões de sockets TCP"
+        ],
+        "gabarito": "Chamadas a métodos de negócio do Java",
+        "assunto": "Java_Jakarta EE"
+    },
+    {
+        "id": 33,
+        "enunciado": "Por que variáveis de instância em um Servlet não são consideradas seguras para concorrência?",
+        "alternativas": [
+            "Porque o container destrói o Servlet após cada uso",
+            "Porque o container usa apenas uma instância para múltiplas threads",
+            "Porque o Servlet não suporta o uso de tipos primitivos",
+            "Porque a JVM bloqueia o acesso a essas variáveis"
+        ],
+        "gabarito": "Porque o container usa apenas uma instância para múltiplas threads",
+        "assunto": "Java_Jakarta EE"
+    },
+    {
+        "id": 34,
+        "enunciado": "Qual especificação de transações é utilizada por padrão em ambientes Jakarta EE?",
+        "alternativas": [
+            "EntityTransaction",
+            "JTA (Jakarta Transactions)",
+            "JDBC Transaction",
+            "ResourceLocal Transaction"
+        ],
+        "gabarito": "JTA (Jakarta Transactions)",
+        "assunto": "Java_Jakarta EE"
+    },
+    {
+        "id": 35,
+        "enunciado": "Qual anotação JPA é utilizada para indicar que uma classe é mapeada para uma tabela do banco?",
+        "alternativas": [
+            "@TableOnly",
+            "@Persistence",
+            "@Entity",
+            "@Bean"
+        ],
+        "gabarito": "@Entity",
+        "assunto": "Java_Jakarta EE"
+    },
+    {
+        "id": 36,
+        "enunciado": "No Jakarta REST, qual anotação captura parâmetros de busca na URL após o símbolo &#x27;?&#x27;?",
+        "alternativas": [
+            "@PathParam",
+            "@HeaderParam",
+            "@QueryParam",
+            "@FormParam"
+        ],
+        "gabarito": "@QueryParam",
+        "assunto": "Java_Jakarta EE"
+    },
+    {
+        "id": 37,
+        "enunciado": "Um EJB Singleton pode ter sua concorrência gerenciada por quais entidades?",
+        "alternativas": [
+            "Apenas pelo Sistema Operacional",
+            "Pelo Container ou pelo Desenvolvedor",
+            "Exclusivamente pelo Banco de Dados",
+            "Pelo protocolo HTTP"
+        ],
+        "gabarito": "Pelo Container ou pelo Desenvolvedor",
+        "assunto": "Java_Jakarta EE"
+    },
+    {
+        "id": 38,
+        "enunciado": "O que ocorre com uma entidade no estado &#x27;Removed&#x27; ao final de uma transação bem-sucedida?",
+        "alternativas": [
+            "Ela volta ao estado Managed",
+            "Ela é excluída do banco de dados",
+            "Ela é movida para o cache de segundo nível",
+            "Ela se torna Transient automaticamente"
+        ],
+        "gabarito": "Ela é excluída do banco de dados",
+        "assunto": "Java_Jakarta EE"
+    },
+    {
+        "id": 39,
+        "enunciado": "Qual é a principal limitação do EJB Lite presente no Web Profile?",
+        "alternativas": [
+            "Não suporta Session Beans",
+            "Não suporta EJBs Remotos nem Message-Driven Beans",
+            "Não permite transações declarativas",
+            "Não aceita injeção de dependência"
+        ],
+        "gabarito": "Não suporta EJBs Remotos nem Message-Driven Beans",
+        "assunto": "Java_Jakarta EE"
+    },
+    {
+        "id": 40,
+        "enunciado": "A anotação &#x27;@TransactionAttribute&#x27; é tipicamente associada a qual modelo de transação?",
+        "alternativas": [
+            "BMT",
+            "CMT",
+            "JDBC",
+            "JTA Local"
+        ],
+        "gabarito": "CMT",
+        "assunto": "Java_Jakarta EE"
+    },
+    {
+        "id": 41,
+        "enunciado": "Qual é a frequência de execução do método &#x27;destroy()&#x27; em um Servlet?",
+        "alternativas": [
+            "Uma vez por dia",
+            "Uma vez antes da remoção do Servlet de serviço",
+            "Sempre que uma exceção ocorre",
+            "A cada dez requisições processadas"
+        ],
+        "gabarito": "Uma vez antes da remoção do Servlet de serviço",
+        "assunto": "Java_Jakarta EE"
+    },
+    {
+        "id": 42,
+        "enunciado": "O escopo &#x27;@ApplicationScoped&#x27; no CDI é compartilhado por qual extensão da aplicação?",
+        "alternativas": [
+            "Por todos os usuários enquanto a aplicação estiver ativa",
+            "Por um único método de negócio",
+            "Por uma única thread de execução",
+            "Por uma única aba do navegador"
+        ],
+        "gabarito": "Por todos os usuários enquanto a aplicação estiver ativa",
+        "assunto": "Java_Jakarta EE"
+    },
+    {
+        "id": 43,
+        "enunciado": "Qual das seguintes especificações NÃO faz parte das cinco mais cobradas em provas segundo o texto?",
+        "alternativas": [
+            "Servlet",
+            "CDI",
+            "Jakarta Batch",
+            "Jakarta REST"
+        ],
+        "gabarito": "Jakarta Batch",
+        "assunto": "Java_Jakarta EE"
+    },
+    {
+        "id": 44,
+        "enunciado": "O mapeamento &#x27;ORM&#x27; é a função principal de qual tecnologia?",
+        "alternativas": [
+            "Jakarta Messaging",
+            "Jakarta Persistence (JPA)",
+            "Jakarta Security",
+            "Jakarta Expression Language"
+        ],
+        "gabarito": "Jakarta Persistence (JPA)",
+        "assunto": "Java_Jakarta EE"
+    },
+    {
+        "id": 45,
+        "enunciado": "Como o &#x27;EntityManager&#x27; detecta mudanças em objetos gerenciados para sincronizar com o banco?",
+        "alternativas": [
+            "Através de timers configurados no persistence.xml",
+            "Através do mecanismo de &#x27;dirty checking&#x27;",
+            "Através de triggers manuais disparadas pelo desenvolvedor",
+            "Através da análise de logs do servidor"
+        ],
+        "gabarito": "Através do mecanismo de &#x27;dirty checking&#x27;",
+        "assunto": "Java_Jakarta EE"
+    },
+    {
+        "id": 46,
+        "enunciado": "Qual componente é responsável por criar instâncias de &#x27;EntityManager&#x27;?",
+        "alternativas": [
+            "ServletContext",
+            "BeanManager",
+            "EntityManagerFactory",
+            "TransactionManager"
+        ],
+        "gabarito": "EntityManagerFactory",
+        "assunto": "Java_Jakarta EE"
+    },
+    {
+        "id": 47,
+        "enunciado": "Qual é a característica de escalabilidade de um EJB Stateless?",
+        "alternativas": [
+            "Baixa, devido ao estado mantido",
+            "Alta, pois o container mantém um pool de instâncias",
+            "Nula, pois só existe uma instância no sistema",
+            "Média, pois depende da velocidade do banco"
+        ],
+        "gabarito": "Alta, pois o container mantém um pool de instâncias",
+        "assunto": "Java_Jakarta EE"
+    },
+    {
+        "id": 48,
+        "enunciado": "Em relação à memória, qual é a desvantagem do EJB Stateful?",
+        "alternativas": [
+            "Consome menos memória que o Stateless",
+            "Consome mais memória, pois mantém o estado de cada cliente",
+            "Não utiliza memória RAM, apenas disco",
+            "É limpo automaticamente a cada requisição"
+        ],
+        "gabarito": "Consome mais memória, pois mantém o estado de cada cliente",
+        "assunto": "Java_Jakarta EE"
+    },
+    {
+        "id": 49,
+        "enunciado": "O método &#x27;find()&#x27; do EntityManager move uma entidade para qual estado?",
+        "alternativas": [
+            "Transient",
+            "Removed",
+            "Managed",
+            "Detached"
+        ],
+        "gabarito": "Managed",
+        "assunto": "Java_Jakarta EE"
+    },
+    {
+        "id": 50,
+        "enunciado": "O namespace &#x27;javax.servlet.http.HttpServlet&#x27; é válido para qual versão?",
+        "alternativas": [
+            "Jakarta EE 10",
+            "Jakarta EE 9",
+            "Java EE 8",
+            "Jakarta EE 11"
+        ],
+        "gabarito": "Java EE 8",
+        "assunto": "Java_Jakarta EE"
+    },
+    {
+        "id": 51,
+        "enunciado": "Qual tecnologia CDI permite a injeção de dependências usando anotações?",
+        "alternativas": [
+            "@Inject",
+            "@Link",
+            "@AutoWired",
+            "@Attach"
+        ],
+        "gabarito": "@Inject",
+        "assunto": "Java_Jakarta EE"
+    },
+    {
+        "id": 52,
+        "enunciado": "Qual é a principal função do método &#x27;flush()&#x27; no EntityManager?",
+        "alternativas": [
+            "Limpar todo o cache de persistência",
+            "Sincronizar as alterações pendentes com o banco de dados",
+            "Reiniciar a conexão com o servidor",
+            "Validar o mapeamento XML"
+        ],
+        "gabarito": "Sincronizar as alterações pendentes com o banco de dados",
+        "assunto": "Java_Jakarta EE"
+    },
+    {
+        "id": 53,
+        "enunciado": "No contexto de Servlets, o que é instanciado para cada requisição de cliente?",
+        "alternativas": [
+            "Uma nova instância do Servlet",
+            "Uma nova thread que chama o método service()",
+            "Um novo container web",
+            "Uma nova conexão física com o banco"
+        ],
+        "gabarito": "Uma nova thread que chama o método service()",
+        "assunto": "Java_Jakarta EE"
+    },
+    {
+        "id": 54,
+        "enunciado": "Qual anotação Jakarta REST é usada para mapear o verbo HTTP de criação de recursos?",
+        "alternativas": [
+            "@GET",
+            "@PUT",
+            "@POST",
+            "@DELETE"
+        ],
+        "gabarito": "@POST",
+        "assunto": "Java_Jakarta EE"
+    },
+    {
+        "id": 55,
+        "enunciado": "A anotação &#x27;@SessionScoped&#x27; exige que os beans sejam de qual tipo para serialização?",
+        "alternativas": [
+            "Statics",
+            "Passivatable/Serializable",
+            "Final classes",
+            "Interfaces apenas"
+        ],
+        "gabarito": "Passivatable/Serializable",
+        "assunto": "Java_Jakarta EE"
+    }
+]

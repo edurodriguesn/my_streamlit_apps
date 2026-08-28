@@ -1,0 +1,602 @@
+[
+    {
+        "id": 1,
+        "enunciado": "Qual é a principal característica arquitetural do WebFocus que permite a integração com diversos sistemas sem mover os dados para um repositório próprio?",
+        "alternativas": [
+            "Processamento em memória RAM de alta densidade.",
+            "Camada de metadados baseada em Synonyms (Sinônimos).",
+            "Utilização de arquivos compactados do tipo QVD.",
+            "Execução de scripts de carga em modo batch noturno."
+        ],
+        "gabarito": "Camada de metadados baseada em Synonyms (Sinônimos).",
+        "assunto": "WebFocus e QlikView"
+    },
+    {
+        "id": 2,
+        "enunciado": "No contexto do WebFocus, qual é a responsabilidade específica do arquivo Master File (.mas)?",
+        "alternativas": [
+            "Configurar as strings de conexão e os drivers de banco de dados.",
+            "Armazenar o cache dos resultados das consultas SQL.",
+            "Descrever a estrutura lógica dos dados, incluindo nomes de campos e relacionamentos.",
+            "Gerar o layout final do relatório em formato PDF ou Excel."
+        ],
+        "gabarito": "Descrever a estrutura lógica dos dados, incluindo nomes de campos e relacionamentos.",
+        "assunto": "WebFocus e QlikView"
+    },
+    {
+        "id": 3,
+        "enunciado": "O arquivo Access File (.acx) do WebFocus é essencial para qual finalidade técnica?",
+        "alternativas": [
+            "Mapear as propriedades físicas de acesso, como nomes de tabelas e chaves de banco.",
+            "Definir as fórmulas de agregação complexas usadas nos dashboards.",
+            "Estabelecer as permissões de acesso dos usuários finais ao portal.",
+            "Traduzir a linguagem FOCUS para comandos MDX em cubos OLAP."
+        ],
+        "gabarito": "Mapear as propriedades físicas de acesso, como nomes de tabelas e chaves de banco.",
+        "assunto": "WebFocus e QlikView"
+    },
+    {
+        "id": 4,
+        "enunciado": "Como a separação entre as camadas lógica (.mas) e física (.acx) no WebFocus beneficia a manutenção de sistemas?",
+        "alternativas": [
+            "Permite a compressão de dados em disco de forma automática.",
+            "Facilita a migração de bancos de dados alterando-se o mapeamento físico sem quebrar os relatórios.",
+            "Garante que o processamento ocorra dentro do navegador do usuário cliente.",
+            "Reduz a necessidade de utilizar a linguagem SQL para consultas complexas."
+        ],
+        "gabarito": "Facilita a migração de bancos de dados alterando-se o mapeamento físico sem quebrar os relatórios.",
+        "assunto": "WebFocus e QlikView"
+    },
+    {
+        "id": 5,
+        "enunciado": "O termo &#x27;Pixel-Perfect Reporting&#x27; no WebFocus refere-se a qual capacidade da ferramenta?",
+        "alternativas": [
+            "Criação automática de gráficos baseada em inteligência artificial.",
+            "Geração de relatórios altamente formatados com paginação rígida para distribuição em massa.",
+            "Ajuste dinâmico de cores conforme as seleções associativas do usuário.",
+            "Renderização de imagens de alta resolução em dashboards de tempo real."
+        ],
+        "gabarito": "Geração de relatórios altamente formatados com paginação rígida para distribuição em massa.",
+        "assunto": "WebFocus e QlikView"
+    },
+    {
+        "id": 6,
+        "enunciado": "Qual componente do WebFocus é responsável por traduzir as requisições dos usuários em consultas nativas, como SQL ou MDX?",
+        "alternativas": [
+            "Synonyms Manager.",
+            "QIX Engine.",
+            "WebFocus Reporting Server.",
+            "FOCUS Client Application."
+        ],
+        "gabarito": "WebFocus Reporting Server.",
+        "assunto": "WebFocus e QlikView"
+    },
+    {
+        "id": 7,
+        "enunciado": "Considere o comando: &#x27;TABLE FILE VENDAS SUM VALOR_TOTAL BY REGIAO&#x27;. O que o WebFocus executa internamente antes de consultar o banco?",
+        "alternativas": [
+            "Carrega a tabela VENDAS integralmente para a memória RAM.",
+            "Lê os arquivos Master File e Access File para interpretar a instrução.",
+            "Converte os dados para o formato proprietário .qvw.",
+            "Cria uma Synthetic Key para relacionar os campos SUM e BY."
+        ],
+        "gabarito": "Lê os arquivos Master File e Access File para interpretar a instrução.",
+        "assunto": "WebFocus e QlikView"
+    },
+    {
+        "id": 8,
+        "enunciado": "O motor QIX (Qlik Index Engine) do QlikView diferencia-se das ferramentas tradicionais por qual motivo?",
+        "alternativas": [
+            "Executa comandos SQL JOIN em tempo real a cada clique do usuário.",
+            "Mantém associações não lineares entre todas as tabelas carregadas na memória RAM.",
+            "Utiliza uma arquitetura federada baseada em metadados de tradução.",
+            "Depende de cubos OLAP pré-agregados para garantir a performance."
+        ],
+        "gabarito": "Mantém associações não lineares entre todas as tabelas carregadas na memória RAM.",
+        "assunto": "WebFocus e QlikView"
+    },
+    {
+        "id": 9,
+        "enunciado": "Na interface do QlikView, o que a cor cinza (Gray) comunica ao usuário durante a análise de dados?",
+        "alternativas": [
+            "Valores selecionados que definem o filtro atual.",
+            "Valores que possuem relação direta com os filtros aplicados.",
+            "Valores excluídos que não possuem associação com a seleção atual.",
+            "Campos que apresentam erros de carregamento no script de ETL."
+        ],
+        "gabarito": "Valores excluídos que não possuem associação com a seleção atual.",
+        "assunto": "WebFocus e QlikView"
+    },
+    {
+        "id": 10,
+        "enunciado": "No paradigma de cores do QlikView, qual é o significado da cor branca (White)?",
+        "alternativas": [
+            "Dados selecionados ativamente pelo desenvolvedor no script.",
+            "Valores que representam associações possíveis com a seleção vigente.",
+            "Tabelas que sofreram o processo de compressão binária.",
+            "Filtros que foram desativados para economizar memória RAM."
+        ],
+        "gabarito": "Valores que representam associações possíveis com a seleção vigente.",
+        "assunto": "WebFocus e QlikView"
+    },
+    {
+        "id": 11,
+        "enunciado": "Qual é a principal implicação da arquitetura &#x27;In-Memory&#x27; do QlikView para o dimensionamento de hardware?",
+        "alternativas": [
+            "Necessidade de processadores com múltiplos núcleos para cálculos SQL.",
+            "Exigência de servidores com alta capacidade de memória RAM.",
+            "Requisito de discos rígidos de alta velocidade para leitura de metadados.",
+            "Dependência de placas gráficas avançadas para renderização de dashboards."
+        ],
+        "gabarito": "Exigência de servidores com alta capacidade de memória RAM.",
+        "assunto": "WebFocus e QlikView"
+    },
+    {
+        "id": 12,
+        "enunciado": "Qual é a vantagem estratégica da utilização de arquivos QVD (QlikView Data) em processos de ETL?",
+        "alternativas": [
+            "Substituem a necessidade de criar um modelo de dados associativo.",
+            "Permitem leituras significativamente mais rápidas do que consultas diretas ao banco de dados.",
+            "Automatizam a criação de chaves sintéticas para otimização de performance.",
+            "Armazenam as regras de segurança e metadados lógicos do WebFocus."
+        ],
+        "gabarito": "Permitem leituras significativamente mais rápidas do que consultas diretas ao banco de dados.",
+        "assunto": "WebFocus e QlikView"
+    },
+    {
+        "id": 13,
+        "enunciado": "Sobre a escalabilidade de dados, como o WebFocus se comporta em comparação ao QlikView?",
+        "alternativas": [
+            "O WebFocus é limitado pela memória RAM, enquanto o QlikView é virtualmente ilimitado.",
+            "O QlikView depende da capacidade do banco de origem, enquanto o WebFocus pré-carrega tudo.",
+            "O WebFocus possui escalabilidade virtualmente ilimitada baseada no banco de origem.",
+            "Ambas as ferramentas possuem a mesma limitação física imposta pelo servidor de aplicação."
+        ],
+        "gabarito": "O WebFocus possui escalabilidade virtualmente ilimitada baseada no banco de origem.",
+        "assunto": "WebFocus e QlikView"
+    },
+    {
+        "id": 14,
+        "enunciado": "Qual linguagem é utilizada primordialmente no QlikView para a criação de scripts de carga e expressões de análise?",
+        "alternativas": [
+            "Linguagem FOCUS e SQL Procedural.",
+            "Script de carga proprietário e Set Analysis.",
+            "MDX e Python for Data Science.",
+            "Java e Metadados Synonyms."
+        ],
+        "gabarito": "Script de carga proprietário e Set Analysis.",
+        "assunto": "WebFocus e QlikView"
+    },
+    {
+        "id": 15,
+        "enunciado": "A respeito do armazenamento de dados, qual afirmação define corretamente a diferença entre as ferramentas?",
+        "alternativas": [
+            "O WebFocus armazena dados em arquivos .qvw e o QlikView utiliza .mas.",
+            "O WebFocus utiliza caches temporários ou consulta as fontes; o QlikView usa formatos proprietários em RAM e disco.",
+            "O QlikView é uma ferramenta federada que nunca armazena dados fisicamente.",
+            "O WebFocus exige a criação de arquivos compactados para cada relatório gerado."
+        ],
+        "gabarito": "O WebFocus utiliza caches temporários ou consulta as fontes; o QlikView usa formatos proprietários em RAM e disco.",
+        "assunto": "WebFocus e QlikView"
+    },
+    {
+        "id": 16,
+        "enunciado": "Uma banca de concurso afirma que o WebFocus é uma ferramenta puramente &#x27;In-Memory&#x27;. Por que essa afirmação está tecnicamente incorreta?",
+        "alternativas": [
+            "O WebFocus só processa dados em arquivos PDF estáticos.",
+            "Sua arquitetura base é federada/relacional via metadados, embora possua recursos de cache.",
+            "A ferramenta utiliza obrigatoriamente cubos OLAP residentes em disco.",
+            "O processamento é realizado integralmente no lado do cliente (navegador)."
+        ],
+        "gabarito": "Sua arquitetura base é federada/relacional via metadados, embora possua recursos de cache.",
+        "assunto": "WebFocus e QlikView"
+    },
+    {
+        "id": 17,
+        "enunciado": "O que ocorre tecnicamente no QlikView quando duas tabelas carregadas possuem dois ou mais campos com o mesmo nome?",
+        "alternativas": [
+            "O motor QIX interrompe a carga e emite um erro de duplicidade.",
+            "Uma tabela substitui a outra automaticamente no modelo de dados.",
+            "O sistema cria automaticamente uma Synthetic Key (Chave Sintética).",
+            "Os campos são renomeados com um sufixo numérico sequencial."
+        ],
+        "gabarito": "O sistema cria automaticamente uma Synthetic Key (Chave Sintética).",
+        "assunto": "WebFocus e QlikView"
+    },
+    {
+        "id": 18,
+        "enunciado": "Por que as Synthetic Keys são geralmente evitadas por desenvolvedores QlikView experientes?",
+        "alternativas": [
+            "Impedem a utilização de cores no paradigma associativo.",
+            "Podem causar degradação de performance no modelo de dados.",
+            "Limitam o número de usuários simultâneos no servidor.",
+            "Tornam o arquivo .qvd incompatível com versões anteriores."
+        ],
+        "gabarito": "Podem causar degradação de performance no modelo de dados.",
+        "assunto": "WebFocus e QlikView"
+    },
+    {
+        "id": 19,
+        "enunciado": "Qual é a principal diferença de proposta entre o QlikView e o Qlik Sense?",
+        "alternativas": [
+            "O QlikView é focado em self-service moderno e o Qlik Sense em aplicações guiadas por TI.",
+            "O Qlik Sense utiliza um motor relacional e o QlikView utiliza o motor QIX.",
+            "O QlikView é voltado para aplicações guiadas por TI e o Qlik Sense foca em self-service BI para o usuário final.",
+            "O Qlik Sense não permite a utilização de scripts de carga complexos."
+        ],
+        "gabarito": "O QlikView é voltado para aplicações guiadas por TI e o Qlik Sense foca em self-service BI para o usuário final.",
+        "assunto": "WebFocus e QlikView"
+    },
+    {
+        "id": 20,
+        "enunciado": "Para que serve a técnica de Set Analysis no QlikView?",
+        "alternativas": [
+            "Para realizar a limpeza de dados durante o processo de ETL.",
+            "Para criar escopos de agregação independentes das seleções atuais do usuário.",
+            "Para definir as permissões de acesso baseadas em grupos de usuários.",
+            "Para converter arquivos .qvw em relatórios formatados do WebFocus."
+        ],
+        "gabarito": "Para criar escopos de agregação independentes das seleções atuais do usuário.",
+        "assunto": "WebFocus e QlikView"
+    },
+    {
+        "id": 21,
+        "enunciado": "No fluxo de dados do QlikView, quando o comando SQL é efetivamente executado?",
+        "alternativas": [
+            "Sempre que o usuário clica em um filtro na interface visual.",
+            "Somente no momento da carga de dados (Reload/ETL).",
+            "Durante a renderização de cada gráfico no dashboard.",
+            "No encerramento da sessão do usuário para salvar o cache."
+        ],
+        "gabarito": "Somente no momento da carga de dados (Reload/ETL).",
+        "assunto": "WebFocus e QlikView"
+    },
+    {
+        "id": 22,
+        "enunciado": "Qual é a principal diferença na lógica de relacionamento de dados entre WebFocus e QlikView?",
+        "alternativas": [
+            "WebFocus usa lógica associativa e QlikView usa joins estruturais.",
+            "O WebFocus baseia-se em relacionamentos estruturais/Joins e o QlikView em lógica associativa automática.",
+            "O QlikView exige a definição manual de cada relacionamento no Access File.",
+            "O WebFocus não suporta modelagem do tipo Star Schema."
+        ],
+        "gabarito": "O WebFocus baseia-se em relacionamentos estruturais/Joins e o QlikView em lógica associativa automática.",
+        "assunto": "WebFocus e QlikView"
+    },
+    {
+        "id": 23,
+        "enunciado": "Identifique a sintaxe básica de uma expressão que utiliza Set Analysis no QlikView:",
+        "alternativas": [
+            "SELECT SUM(Valor) WHERE Ano=2023",
+            "SUM({$&lt;Ano={2023}&gt;} Valor)",
+            "TABLE FILE VENDAS SUM VALOR IF ANO EQ 2023",
+            "LOAD Valor FROM Fonte WHERE Ano=2023"
+        ],
+        "gabarito": "SUM({$&lt;Ano={2023}&gt;} Valor)",
+        "assunto": "WebFocus e QlikView"
+    },
+    {
+        "id": 24,
+        "enunciado": "Em relação à &#x27;Descoberta de Dados&#x27; (Data Discovery), qual ferramenta é citada como pioneira nessa abordagem?",
+        "alternativas": [
+            "WebFocus (Tibco).",
+            "QlikView (Qlik).",
+            "Microsoft Excel.",
+            "Oracle BI."
+        ],
+        "gabarito": "QlikView (Qlik).",
+        "assunto": "WebFocus e QlikView"
+    },
+    {
+        "id": 25,
+        "enunciado": "O arquivo .qvw no ecossistema QlikView contém quais elementos?",
+        "alternativas": [
+            "Apenas os metadados de conexão com o banco de dados.",
+            "Somente o layout visual das abas e gráficos.",
+            "O modelo de dados, os scripts de carga e a interface visual da aplicação.",
+            "O código-fonte em linguagem FOCUS para execução no servidor."
+        ],
+        "gabarito": "O modelo de dados, os scripts de carga e a interface visual da aplicação.",
+        "assunto": "WebFocus e QlikView"
+    },
+    {
+        "id": 26,
+        "enunciado": "Qual é a função do componente &#x27;Reporting Server&#x27; no fluxo de trabalho do WebFocus?",
+        "alternativas": [
+            "Atuar como repositório central de arquivos compactados QVD.",
+            "Armazenar as credenciais de rede dos usuários finais.",
+            "Processar instruções TABLE FILE e devolvê-las em formatos como PDF ou HTML.",
+            "Gerenciar a memória RAM para garantir a lógica associativa."
+        ],
+        "gabarito": "Processar instruções TABLE FILE e devolvê-las em formatos como PDF ou HTML.",
+        "assunto": "WebFocus e QlikView"
+    },
+    {
+        "id": 27,
+        "enunciado": "No QlikView, se um usuário selecionar um Estado e certas Categorias ficarem brancas, o que isso indica na descoberta associativa?",
+        "alternativas": [
+            "Que essas categorias não possuem vendas no estado selecionado.",
+            "Que essas categorias possuem vendas associadas ao estado selecionado.",
+            "Que houve um erro de integridade referencial no banco de dados.",
+            "Que essas categorias foram excluídas pelo script de Set Analysis."
+        ],
+        "gabarito": "Que essas categorias possuem vendas associadas ao estado selecionado.",
+        "assunto": "WebFocus e QlikView"
+    },
+    {
+        "id": 28,
+        "enunciado": "A linguagem FOCUS do WebFocus é classificada como:",
+        "alternativas": [
+            "Linguagem de marcação para web.",
+            "Linguagem de quarta geração (4GL) procedural/declarativa.",
+            "Linguagem de consulta estruturada puramente visual.",
+            "Script de automação para sistemas operacionais legados."
+        ],
+        "gabarito": "Linguagem de quarta geração (4GL) procedural/declarativa.",
+        "assunto": "WebFocus e QlikView"
+    },
+    {
+        "id": 29,
+        "enunciado": "Qual destas afirmações sobre o fluxo de dados do WebFocus está correta?",
+        "alternativas": [
+            "Os dados são extraídos, transformados e salvos em formato .qvw antes da visualização.",
+            "O relatório final é renderizado diretamente para o navegador após a recepção e formatação dos dados.",
+            "O WebFocus exige a criação de cubos OLAP para qualquer análise ad-hoc.",
+            "A ferramenta altera os dados na fonte de origem durante a consulta."
+        ],
+        "gabarito": "O relatório final é renderizado diretamente para o navegador após a recepção e formatação dos dados.",
+        "assunto": "WebFocus e QlikView"
+    },
+    {
+        "id": 30,
+        "enunciado": "Um ponto de atenção para provas é a escalabilidade do QlikView. Qual é o seu principal fator limitante?",
+        "alternativas": [
+            "O número de tabelas no banco de dados relacional.",
+            "A capacidade física de memória RAM do servidor.",
+            "A velocidade da conexão de rede entre o cliente e o servidor.",
+            "A quantidade de arquivos .mas configurados no Synonym."
+        ],
+        "gabarito": "A capacidade física de memória RAM do servidor.",
+        "assunto": "WebFocus e QlikView"
+    },
+    {
+        "id": 31,
+        "enunciado": "O paradigma &#x27;Green/White/Gray&#x27; é exclusivo de qual ferramenta mencionada?",
+        "alternativas": [
+            "WebFocus.",
+            "QlikView.",
+            "Tibco Information Builders.",
+            "SQL Server Reporting Services."
+        ],
+        "gabarito": "QlikView.",
+        "assunto": "WebFocus e QlikView"
+    },
+    {
+        "id": 32,
+        "enunciado": "Como o WebFocus lida com fontes de dados modernas versus legadas?",
+        "alternativas": [
+            "Ele só consegue se conectar a bancos de dados relacionais modernos via SQL.",
+            "Ele exige a migração de sistemas legados para PostgreSQL antes da análise.",
+            "Ele se integra profundamente com ambos, traduzindo requisições para a sintaxe nativa da fonte.",
+            "Ele utiliza a lógica associativa para ignorar as restrições de sistemas legados."
+        ],
+        "gabarito": "Ele se integra profundamente com ambos, traduzindo requisições para a sintaxe nativa da fonte.",
+        "assunto": "WebFocus e QlikView"
+    },
+    {
+        "id": 33,
+        "enunciado": "Na comparação de &#x27;Perfil de Uso&#x27;, o WebFocus é mais indicado para qual cenário?",
+        "alternativas": [
+            "Exploração livre de dados por usuários sem conhecimentos técnicos.",
+            "Relatórios operacionais complexos e distribuição em massa (ex: PDF).",
+            "Dashboards ultra-interativos baseados inteiramente em memória RAM.",
+            "Pequenas aplicações de BI departamentais com poucos dados."
+        ],
+        "gabarito": "Relatórios operacionais complexos e distribuição em massa (ex: PDF).",
+        "assunto": "WebFocus e QlikView"
+    },
+    {
+        "id": 34,
+        "enunciado": "Qual componente do WebFocus descreve as propriedades lógicas, como aliases e tipos de dados de um campo?",
+        "alternativas": [
+            "Access File.",
+            "QVD File.",
+            "Master File.",
+            "Set Analysis."
+        ],
+        "gabarito": "Master File.",
+        "assunto": "WebFocus e QlikView"
+    },
+    {
+        "id": 35,
+        "enunciado": "Qual é a função primordial do Sinônimo (Synonym) no WebFocus?",
+        "alternativas": [
+            "Criar cópias dos dados para análise offline.",
+            "Atuar como uma camada de abstração entre o relatório e a fonte de dados física.",
+            "Fornecer uma interface de arrastar-e-soltar para usuários finais.",
+            "Otimizar a carga de dados em memória RAM usando compressão binária."
+        ],
+        "gabarito": "Atuar como uma camada de abstração entre o relatório e a fonte de dados física.",
+        "assunto": "WebFocus e QlikView"
+    },
+    {
+        "id": 36,
+        "enunciado": "No QlikView, o que acontece com o desempenho quando se utiliza arquivos QVD em vez de consultas diretas ao banco?",
+        "alternativas": [
+            "O desempenho diminui devido à necessidade de descompactar os arquivos.",
+            "A leitura pode ser até 100 vezes mais rápida.",
+            "Não há diferença significativa de performance perceptível.",
+            "O modelo de dados torna-se rígido e impede a lógica associativa."
+        ],
+        "gabarito": "A leitura pode ser até 100 vezes mais rápida.",
+        "assunto": "WebFocus e QlikView"
+    },
+    {
+        "id": 37,
+        "enunciado": "A &#x27;Lógica Associativa&#x27; do QlikView realiza a união de tabelas baseando-se em qual critério?",
+        "alternativas": [
+            "Definição explícita de clausulas JOIN no script SQL de consulta.",
+            "Nomes de campos idênticos entre as tabelas carregadas.",
+            "Mapeamento físico realizado no arquivo .acx.",
+            "Chaves primárias e estrangeiras definidas no banco de dados de origem."
+        ],
+        "gabarito": "Nomes de campos idênticos entre as tabelas carregadas.",
+        "assunto": "WebFocus e QlikView"
+    },
+    {
+        "id": 38,
+        "enunciado": "Em termos de desenvolvimento, a ferramenta WebFocus utiliza qual combinação de linguagens?",
+        "alternativas": [
+            "Script de carga proprietário e expressões matemáticas.",
+            "Linguagem FOCUS e SQL.",
+            "Python e Linguagem R.",
+            "HTML5 e JavaScript para o motor de processamento."
+        ],
+        "gabarito": "Linguagem FOCUS e SQL.",
+        "assunto": "WebFocus e QlikView"
+    },
+    {
+        "id": 39,
+        "enunciado": "O conceito de &#x27;Data Discovery&#x27; no QlikView permite que o usuário identifique o que não está vendendo ao focar em qual cor?",
+        "alternativas": [
+            "Verde.",
+            "Branco.",
+            "Cinza.",
+            "Azul."
+        ],
+        "gabarito": "Cinza.",
+        "assunto": "WebFocus e QlikView"
+    },
+    {
+        "id": 40,
+        "enunciado": "O WebFocus armazena dados físicos da organização nos arquivos .mas e .acx? Por quê?",
+        "alternativas": [
+            "Sim, pois são bancos de dados proprietários de alto desempenho.",
+            "Não, eles armazenam apenas metadados (definições lógicas e físicas).",
+            "Sim, para garantir a independência da fonte de dados.",
+            "Não, esses arquivos são apenas para configurar a interface visual."
+        ],
+        "gabarito": "Não, eles armazenam apenas metadados (definições lógicas e físicas).",
+        "assunto": "WebFocus e QlikView"
+    },
+    {
+        "id": 41,
+        "enunciado": "Qual ferramenta de BI é mais associada à criação de portais analíticos integrados para milhares de usuários?",
+        "alternativas": [
+            "QlikView.",
+            "Qlik Sense.",
+            "WebFocus.",
+            "Excel Power Pivot."
+        ],
+        "gabarito": "WebFocus.",
+        "assunto": "WebFocus e QlikView"
+    },
+    {
+        "id": 42,
+        "enunciado": "No QlikView, como se resolvem problemas de performance causados por Chaves Sintéticas?",
+        "alternativas": [
+            "Aumentando a memória RAM do servidor.",
+            "Renomeando campos ou utilizando chaves compostas no script.",
+            "Migrando o modelo de dados para o WebFocus.",
+            "Desativando o motor QIX durante a carga de dados."
+        ],
+        "gabarito": "Renomeando campos ou utilizando chaves compostas no script.",
+        "assunto": "WebFocus e QlikView"
+    },
+    {
+        "id": 43,
+        "enunciado": "Dentre os componentes citados, qual deles é exclusivo do ecossistema Qlik?",
+        "alternativas": [
+            "Master File.",
+            "Access File.",
+            "QVD (QlikView Data).",
+            "Synonyms."
+        ],
+        "gabarito": "QVD (QlikView Data).",
+        "assunto": "WebFocus e QlikView"
+    },
+    {
+        "id": 44,
+        "enunciado": "Qual é a saída padrão exemplificada para um comando &#x27;TABLE FILE&#x27; no WebFocus no material fornecido?",
+        "alternativas": [
+            "Gráfico interativo em tempo real.",
+            "Arquivo PDF renderizado no navegador.",
+            "Tabela dinâmica em memória RAM.",
+            "Dashboard em formato .qvw."
+        ],
+        "gabarito": "Arquivo PDF renderizado no navegador.",
+        "assunto": "WebFocus e QlikView"
+    },
+    {
+        "id": 45,
+        "enunciado": "Sobre a independência da fonte de dados no WebFocus, o que ocorre ao migrar de Oracle para PostgreSQL?",
+        "alternativas": [
+            "Todos os relatórios devem ser reconstruídos do zero.",
+            "Basta alterar o arquivo .acx, mantendo os relatórios existentes.",
+            "É necessário converter a linguagem FOCUS para a sintaxe do PostgreSQL.",
+            "A camada de metadados Synonyms deve ser excluída e recriada."
+        ],
+        "gabarito": "Basta alterar o arquivo .acx, mantendo os relatórios existentes.",
+        "assunto": "WebFocus e QlikView"
+    },
+    {
+        "id": 46,
+        "enunciado": "A arquitetura do WebFocus é melhor descrita como:",
+        "alternativas": [
+            "Centralizada em arquivos binários compactados.",
+            "Federada, baseada em metadados e consultas em tempo real.",
+            "Distribuída em clusters de memória RAM volátil.",
+            "Baseada em micro-serviços de visualização self-service."
+        ],
+        "gabarito": "Federada, baseada em metadados e consultas em tempo real.",
+        "assunto": "WebFocus e QlikView"
+    },
+    {
+        "id": 47,
+        "enunciado": "Qual o principal benefício do processamento In-Memory para o usuário final do QlikView?",
+        "alternativas": [
+            "Relatórios prontos para impressão com formatação rígida.",
+            "Cálculos e agregações de expressões em tempo real durante a navegação.",
+            "Menor custo de licenciamento de software de BI.",
+            "Facilidade em conectar com sistemas legados via metadados."
+        ],
+        "gabarito": "Cálculos e agregações de expressões em tempo real durante a navegação.",
+        "assunto": "WebFocus e QlikView"
+    },
+    {
+        "id": 48,
+        "enunciado": "Em uma prova de BI, se o enunciado mencionar &#x27;PCHOLD FORMAT PDF&#x27;, ele está se referindo a qual ferramenta?",
+        "alternativas": [
+            "QlikView.",
+            "WebFocus.",
+            "Qlik Sense.",
+            "Power BI."
+        ],
+        "gabarito": "WebFocus.",
+        "assunto": "WebFocus e QlikView"
+    },
+    {
+        "id": 49,
+        "enunciado": "O &#x27;Motor Associativo&#x27; permite ao usuário fazer perguntas que não foram previstas na modelagem inicial. Essa afirmação aplica-se a qual ferramenta?",
+        "alternativas": [
+            "WebFocus, devido aos arquivos .mas.",
+            "QlikView, através da descoberta não linear.",
+            "Ambas as ferramentas, de forma idêntica.",
+            "Nenhuma das ferramentas, pois BI exige consultas pré-definidas."
+        ],
+        "gabarito": "QlikView, através da descoberta não linear.",
+        "assunto": "WebFocus e QlikView"
+    },
+    {
+        "id": 50,
+        "enunciado": "Qual termo técnico descreve a capacidade do QlikView de manter dados compactados e carregados na memória para acesso instantâneo?",
+        "alternativas": [
+            "Virtualização Federada.",
+            "Processamento In-Memory.",
+            "Pixel-Perfect Rendering.",
+            "Metadados Synonyms."
+        ],
+        "gabarito": "Processamento In-Memory.",
+        "assunto": "WebFocus e QlikView"
+    }
+]

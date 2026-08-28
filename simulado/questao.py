@@ -25,6 +25,36 @@ def escape_markdown(text):
     return text.replace('R\x00', r'R\$')
 
 
+def render_alternativa_com_imagens(prefixo, alt, arquivo_local_selecionado, css=None):
+    partes = re.split(r'\{image\((\d+)\)\}', alt)
+    tem_imagem = len(partes) > 1
+    texto_inicial = partes[0].strip()
+    label = f"{prefixo} {texto_inicial}" if texto_inicial else prefixo
+    if css:
+        st.markdown(f'<div class="{css}">{html_lib.escape(label)}</div>', unsafe_allow_html=True)
+    else:
+        st.markdown(escape_markdown(label))
+    for i, parte in enumerate(partes[1:], 1):
+        if i % 2 == 1:
+            if arquivo_local_selecionado:
+                pasta_json = os.path.basename(os.path.dirname(arquivo_local_selecionado))
+                nome_json = os.path.splitext(os.path.basename(arquivo_local_selecionado))[0]
+                img_path = os.path.join("images", pasta_json, f"{nome_json}-{parte}")
+                for ext in [".png", ".jpg", ".jpeg", ".gif", ".webp"]:
+                    if os.path.exists(img_path + ext):
+                        st.image(img_path + ext)
+                        break
+                else:
+                    st.warning(f"Imagem não encontrada: {img_path}")
+        else:
+            texto = parte.strip()
+            if texto:
+                if css:
+                    st.markdown(f'<div class="{css}">{html_lib.escape(texto)}</div>', unsafe_allow_html=True)
+                else:
+                    st.markdown(escape_markdown(texto))
+
+
 def render_enunciado_com_imagens(enunciado, arquivo_local_selecionado):
     partes = re.split(r'\{image\((\d+)\)\}', enunciado)
     for i, parte in enumerate(partes):
@@ -82,14 +112,17 @@ def secao_questao(questoes, arquivo_local_selecionado):
 
     if not ja_respondida and not mostrar_gab:
         elim = st.session_state.eliminadas.get(qid, set())
-        opcoes_filtradas = [f"{letras[i]}) {escape_markdown(alt)}"
-                            for i, alt in enumerate(q["alternativas"]) if letras[i] not in elim]
-        if not opcoes_filtradas:
+        alts_visiveis = [(letras[i], alt) for i, alt in enumerate(q["alternativas"]) if letras[i] not in elim]
+        if not alts_visiveis:
             st.warning("Todas as alternativas foram eliminadas.")
             selecao = None
         else:
+            opcoes_filtradas = [f"{letra}) {escape_markdown(re.sub(r'{image(.*?)}', '', alt)).strip()}" for letra, alt in alts_visiveis]
             selecao = st.radio("Alternativas:", opcoes_filtradas, index=None,
                                key=f"radio_{qid}", label_visibility="collapsed")
+            for letra, alt in alts_visiveis:
+                if re.search(r'\{image\(\d+\)\}', alt):
+                    render_alternativa_com_imagens(f"{letra})", alt, arquivo_local_selecionado)
 
         opcoes_pills = [f"✂️{letras[i]}" for i in range(len(q["alternativas"])) if letras[i] not in elim]
         if elim:
@@ -124,7 +157,6 @@ def secao_questao(questoes, arquivo_local_selecionado):
 
         for i, alt in enumerate(q["alternativas"]):
             letra = letras[i]
-            texto_safe = f"{letra}) {html_lib.escape(alt)}"
             if ja_respondida:
                 if mostrar_correta and letra == letra_gabarito:
                     css = "alt-box correta"
@@ -136,7 +168,7 @@ def secao_questao(questoes, arquivo_local_selecionado):
                 css = "alt-box gabarito" if letra == letra_gabarito else "alt-box"
             else:
                 css = "alt-box"
-            st.markdown(f'<div class="{css}">{texto_safe}</div>', unsafe_allow_html=True)
+            render_alternativa_com_imagens(f"{letra})", alt, arquivo_local_selecionado, css=css)
 
         if ja_respondida and not acertou and not mostrar_gab:
             if st.button("👁️ Mostrar Resposta", key=f"mostrar_{qid}", use_container_width=True):

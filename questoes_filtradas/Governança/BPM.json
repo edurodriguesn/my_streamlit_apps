@@ -1,0 +1,921 @@
+[
+    {
+        "id": 1,
+        "enunciado": "Segundo a disciplina de Gerenciamento de Processos de Negócio (Business Process Management – BPM), o trabalho que entrega valor para os clientes ou apoia/gerencia outros processos, podendo ser de ponta a ponta, interfuncional ou até mesmo interorganizacional, corresponde ao conceito de:",
+        "alternativas": [
+            "Processo de negócio.",
+            "Fluxo corporativo.",
+            "Instância de processo.",
+            "Projeto integrado.",
+            "Função de negócio."
+        ],
+        "gabarito": "Processo de negócio.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 2,
+        "enunciado": "O gestor de tecnologia da informação de um órgão está identificando os processos da organização para aplicação de melhorias contínuas a fim de agregar mais valor para os clientes. Dentre as situações identificadas, a melhoria contínua deve ser aplicada em:",
+        "alternativas": [
+            "processos repetitivos;",
+            "projetos de curta duração;",
+            "ambientes instáveis ou em crise;",
+            "processos sem dados confiáveis;",
+            "serviços a serem descontinuados."
+        ],
+        "gabarito": "processos repetitivos;",
+        "banca": "FGV"
+    },
+    {
+        "id": 3,
+        "enunciado": "O Gerenciamento de Processos de Negócio (BPM) propicia a implantação de melhorias em processos e seu gerenciamento, a fim de se obterem benefícios relacionados, dentre os quais a elevação da qualidade dos serviços prestados pelo Poder Judiciário.\nDe acordo com o CBOK 4.0, o ciclo de Gerenciamento de Processos de Negócio é composto por etapas que, a depender da demanda, podem ser suprimidas ou executadas individualmente.\nA avaliação de como os processos de negócio estão operando para, a partir do entendimento comum de seu estado atual, identificar possíveis melhorias para atender aos objetivos do negócio com efetividade ocorre no(a):",
+        "alternativas": [
+            "análise de processos;",
+            "desenho de processo;",
+            "modelagem de processos;",
+            "transformação de processos;",
+            "gerenciamento do desempenho do processo."
+        ],
+        "gabarito": "análise de processos;",
+        "banca": "FGV"
+    },
+    {
+        "id": 4,
+        "enunciado": "De acordo com o BPM CBOK 4.0, o desenho de processos é a criação de especificações para processos de negócio novos e modificados.\nOs princípios do desenho de processos representam os principais conceitos envolvidos na maioria dos projetos de redesenho de processos.\nO princípio do desenho de processo que orienta que se estude o fluxograma AS-IS do processo, para determinar exatamente onde as atividades de agregação de valor são executadas, é o seguinte:",
+        "alternativas": [
+            "reduza o tamanho do lote;",
+            "redesenhe, depois automatize;",
+            "providencie um único ponto de contato;",
+            "capture a informação uma vez e compartilhe-a;",
+            "desenhe em torno de atividades que agregam valor."
+        ],
+        "gabarito": "desenhe em torno de atividades que agregam valor.",
+        "banca": "FGV"
+    },
+    {
+        "id": 5,
+        "enunciado": "Uma organização pública está atuando na sua transformação digital com relação à gestão de processos. De forma a melhorar a eficiência de seus fluxos de trabalho, decidiu-se implantar um Escritório de Processos.\nUma das responsabilidades consideradas pela organização pública foi:",
+        "alternativas": [
+            "o controle do orçamento das áreas administrativas e financeiras;",
+            "a execução direta dos processos operacionais das áreas finalísticas;",
+            "o gerenciamento dos projetos de tecnologia da informação, exclusivamente;",
+            "o monitoramento, a padronização e a promoção da melhoria contínua dos processos organizacionais;",
+            "a centralização de todas as decisões estratégicas da organização, substituindo o planejamento institucional."
+        ],
+        "gabarito": "o monitoramento, a padronização e a promoção da melhoria contínua dos processos organizacionais;",
+        "banca": "FGV"
+    },
+    {
+        "id": 6,
+        "enunciado": "O gestor de processos do TJRJ precisa de uma interface de monitoramento que mostre as seguintes informações:\nTaxa de congestionamento Processos pendentes x total Tempo médio de tramitação Duração média dos processos Produtividade por magistrado Processos finalizados/mês Índice de acordos % de conciliações bem-sucedidas Taxa de retrabalho Processos retornados por erro Para desenvolver a interface com as informações solicitadas pelo gestor, é necessário implementar:",
+        "alternativas": [
+            "KPI;",
+            "LIME;",
+            "narrativa;",
+            "storytelling;",
+            "explicação contrafactual."
+        ],
+        "gabarito": "KPI;",
+        "banca": "FGV"
+    },
+    {
+        "id": 7,
+        "enunciado": "Sobre modelagem de processos de negócio, assinale a alternativa correta.",
+        "alternativas": [
+            "Um processo de negócio é definido exclusivamente por atividades técnicas, sem relação com objetivos organizacionais.",
+            "Na modelagem de processos, eventos representam ocorrências que disparam, interrompem ou finalizam o fluxo de um processo.",
+            "Gateways são utilizados para representar tarefas executadas por usuários no fluxo do processo.",
+            "A modelagem de processos elimina a necessidade de monitoramento e melhoria contínua.",
+            "Processos de negócio devem ser modelados apenas após a implementação do sistema, para garantir maior precisão."
+        ],
+        "gabarito": "Na modelagem de processos, eventos representam ocorrências que disparam, interrompem ou finalizam o fluxo de um processo.",
+        "banca": "Instituto AVALIA"
+    },
+    {
+        "id": 8,
+        "enunciado": "Em relação ao gerenciamento de processos de negócios, analise as afirmativas a seguir.\nI. A automação dos processos implica eliminação de gargalos e fluxos de trabalho ineficientes.\nII. Estabelecer indicadores de desempenho baseados nas metas de longo prazo da organização implica dificuldade para otimizar os processos.\nIII. Para uma visão mais próxima da realidade operacional, a análise de Pareto é mais indicada que brainstorming com colaboradores.\nÉ correto o que se afirma em",
+        "alternativas": [
+            "II, apenas.",
+            "III, apenas.",
+            "I e II, apenas.",
+            "I e III, apenas.",
+            "II e III, apenas."
+        ],
+        "gabarito": "III, apenas.",
+        "banca": "FGV"
+    },
+    {
+        "id": 9,
+        "enunciado": "No Gerenciamento de Processos de Negócio (BPM), a modelagem do estado futuro de processos é conhecida como:",
+        "alternativas": [
+            "AS-IS.",
+            "TO-BE.",
+            "WILL-BE.",
+            "HOW-FUTURE."
+        ],
+        "gabarito": "TO-BE.",
+        "banca": "FCPC"
+    },
+    {
+        "id": 10,
+        "enunciado": "Analise as assertivas abaixo sobre modelagem de processos de negócio, segundo a disciplina de Gerenciamento de Processos de Negócio (BPM):\nI. Processo e atividade são conceitos análogos em BPM, representando o conjunto de passos ou ações para realizar o trabalho em um determinado cenário.\nII. O propósito da modelagem de um processo de negócio é criar uma representação do processo de maneira completa e precisa sobre seu funcionamento.\nIII. O estado futuro de um processo é conhecido como AS-IS.\nQuais estão corretas?",
+        "alternativas": [
+            "Apenas I.",
+            "Apenas II.",
+            "Apenas I e III.",
+            "Apenas II e III."
+        ],
+        "gabarito": "Apenas II.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 11,
+        "enunciado": "A modelagem de processos de negócio, também conhecida como Business Process Modeling (BPM), é uma metodologia que representa os processos de uma empresa.\nCom relação ao BPM, analise os itens a seguir.\nI. É uma metodologia voltada para administrar todo o ciclo de vida dos processos, desde a concepção, a modelagem e simulação, passando pela execução e alcançando o monitoramento e controle dos processos\nII. O propósito da modelagem é criar uma representação parcial e estimada do funcionamento do processo.\nIII. O principal orientador do BPM é o Guia ‘Corpo Comum de Conhecimento em Gerenciamento de Processos de Negócio’ (ou BPM CBOK, Business Process Management Common Body of Knowledge).\nEstá correto o que se afirma em",
+        "alternativas": [
+            "III apenas.",
+            "I e II, apenas.",
+            "II e III, apenas.",
+            "I e III, apenas.",
+            "I, II e III."
+        ],
+        "gabarito": "I e III, apenas.",
+        "banca": "FGV"
+    },
+    {
+        "id": 12,
+        "enunciado": "A modelagem de processos de negócio é uma prática essencial para compreender e aprimorar as operações de uma organização. Dentro desse contexto, os modelos AS-IS desempenham um papel fundamental ao representar o estado atual dos processos, permitindo uma análise detalhada e a identificação de oportunidades de melhoria.\nO principal objetivo de um modelo AS-IS na modelagem de processos de negócio é",
+        "alternativas": [
+            "monitorar continuamente o processo após melhorias.",
+            "analisar os indicadores de desempenho do processo.",
+            "identificar falhas e ineficiências no processo atual.",
+            "descrever o estado futuro desejado do processo.",
+            "implementar melhorias no processo."
+        ],
+        "gabarito": "identificar falhas e ineficiências no processo atual.",
+        "banca": "FGV"
+    },
+    {
+        "id": 13,
+        "enunciado": "A análise e a simulação de processos de negócio são fundamentais para compreender, avaliar e aprimorar a eficiência operacional de uma organização.\nA técnica que busca identificar as causas fundamentais de problemas ou falhas dentro de um processo é",
+        "alternativas": [
+            "simulação de eventos discretos.",
+            "simulação de Monte Carlo.",
+            "análise de séries temporais.",
+            "análise de valor agregado.",
+            "análise de causa raiz."
+        ],
+        "gabarito": "análise de causa raiz.",
+        "banca": "FGV"
+    },
+    {
+        "id": 14,
+        "enunciado": "• Neste item, devem-se relacionar as ações importantes para a realização do negócio.\nO tópico precedente, no Business Model Canvas, refere-se diretamente",
+        "alternativas": [
+            "a atividades principais.",
+            "a recursos principais.",
+            "a relacionamento com clientes.",
+            "à proposta de valor.",
+            "ao segmento de cliente."
+        ],
+        "gabarito": "a atividades principais.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 15,
+        "enunciado": "Sobre a construção e a mensuração de indicadores de processos, informe se é verdadeiro (V) ou falso (F) o que se afirma a seguir e assinale a alternativa com a sequência correta.\n( ) Os indicadores de eficiência avaliam se os objetivos do processo foram atingidos, independentemente do uso de recursos.\n( ) Para ser eficaz, um indicador de desempenho deve ser mensurável, relevante para o processo e possuir uma fórmula de cálculo bem definida.\n( ) A mensuração contínua dos indicadores possibilita a identificação de gargalos, falhas e oportunidades de melhoria nos processos organizacionais.\n( ) Os indicadores de efetividade medem o impacto real que um processo gera sobre a organização e seus stakeholders.\n( ) A construção de indicadores deve ser feita sem a definição de metas, pois elas podem comprometer a imparcialidade da análise dos resultados.",
+        "alternativas": [
+            "V – F – V – F – V.",
+            "F – V – V – V – F.",
+            "F – V – F – V – V.",
+            "V – V – F – V – F.",
+            "F – F – V – V – V."
+        ],
+        "gabarito": "F – V – V – V – F.",
+        "banca": "Instituto AOCP"
+    },
+    {
+        "id": 16,
+        "enunciado": "Acerca dos modelos de processos AS-IS e TO-BE e suas respectivas características, relacione as colunas e assinale a alternativa com a sequência correta.\n1. Modelo AS-IS.\n2. Modelo TO-BE.\n( ) Foca a identificação de problemas e desperdícios do processo atual.\n( ) Utiliza ferramentas como BPMN otimizado, RPA e Lean para melhorar o fluxo de trabalho.\n( ) Representa o estado atual do processo organizacional.\n( ) Define como o processo deve funcionar no futuro após otimizações.\n( ) Visa à redução de falhas, eliminação de gargalos e melhoria na eficiência.",
+        "alternativas": [
+            "1 – 1 – 1 – 2 – 2.",
+            "1 – 2 – 2 – 2 – 1.",
+            "2 – 1 – 1 – 2 – 2.",
+            "1 – 2 – 1 – 1 – 2.",
+            "1 – 2 – 1 – 2 – 2."
+        ],
+        "gabarito": "1 – 2 – 1 – 2 – 2.",
+        "banca": "Instituto AOCP"
+    },
+    {
+        "id": 17,
+        "enunciado": "A equipe de melhoria contínua de uma Secretaria da Fazenda propôs a aplicação de técnicas modernas de análise de processos, com foco em Value Stream Mapping\n(VSM) e Six Sigma, visando à otimização de fluxos e à elevação da qualidade do trabalho de fiscalização. A abordagem que representa corretamente uma aplicação eficaz dessas técnicas na Secretaria é:",
+        "alternativas": [
+            "Aplicar o VSM para identificar oportunidades de melhoria, dispensando medições reais e análises quantitativas sobre os dados já coletados, uma vez que o mapeamento visual já permite definir as ações de otimização do processo fiscal.",
+            "Usar Six Sigma quando os resultados desejados puderem ser expressos em métricas financeiras, visto que a metodologia se baseia prioritariamente na eliminação de desperdícios financeiros e não operacionais.",
+            "Implementar o VSM apenas nas etapas que envolvem sistemas automatizados, pois a técnica não é eficaz na visualização de fluxos manuais, o que dificultaria o mapeamento completo do processo fiscal.",
+            "Utilizar o VSM para identificar etapas sem valor agregado no fluxo de fiscalização e aplicar Six Sigma para reduzir a variação dos processos críticos, assegurando entregas mais consistentes e com menor índice de erro.",
+            "Priorizar a aplicação de Six Sigma nos processos de auditoria eletrônica, dado que seu foco estatístico é ineficiente quando aplicado a processos administrativos ou baseados em atividades humanas."
+        ],
+        "gabarito": "Utilizar o VSM para identificar etapas sem valor agregado no fluxo de fiscalização e aplicar Six Sigma para reduzir a variação dos processos críticos, assegurando entregas mais consistentes e com menor índice de erro.",
+        "banca": "FCC"
+    },
+    {
+        "id": 18,
+        "enunciado": "Durante a modelagem de um sistema de gestão empresarial, foi necessário representar somente as atividades que trocam mensagens com entidades externas, como fornecedores e parceiros, sem detalhar as ações internas da empresa que não participam diretamente dessas interações. Com base nas classificações de processos de negócio, assinale a alternativa que apresenta o tipo de processo representado nessa modelagem.",
+        "alternativas": [
+            "Processo Privado.",
+            "Processo Abstrato.",
+            "Processo de Colaboração.",
+            "Processo Híbrido."
+        ],
+        "gabarito": "Processo Abstrato.",
+        "banca": "IBFC"
+    },
+    {
+        "id": 19,
+        "enunciado": "Dois analistas de processos da AgSUS estavam estudando o tema “gerenciamento de desempenho de processos” presente CBOK 3.0, uma literatura clássica na área de gestão de processos. Ambos concordam que gerenciar um negócio por processo requer que medidas, métricas e indicadores de desempenho estejam disponíveis para monitorar os processos de forma que estes atendam às metas. Analise as afirmações feitas pelos analistas a seguir.\nI. O analista 1 afirma que a definição do termo “gerenciamento de desempenho de processos” é usada para indicar o gerenciamento tanto em nível de fluxo de processos (intrafuncional) quanto em nível de fluxo de trabalho (interfuncional).\nII. O analista 2 afirma que a definição se aplica de modos distintos aos fluxos de processos e de trabalho. No nível dos fluxos de trabalho o foco dever ser no movimento físico de trabalho de uma atividade para a próxima e nos locais onde os problemas ocorrem.\nIII. O analista 1 afirma que no nível dos fluxos de processos, o foco é no movimento de trabalho entre as áreas funcionais e no que é entregue para a próxima área na sequência do trabalho ou do fluxo de processos.\nIV. O analista 2 afirma que apesar das diferenças as medições devem ser consistentes em termos de tempo, custo, capacidade e desempenho. O que as diferencia é o contexto e como a informação pode ser aplicada para melhorar a operação.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I e II, apenas.",
+            "I e III, apenas.",
+            "III e IV, apenas.",
+            "I, II e III, apenas.",
+            "II, III e IV, apenas."
+        ],
+        "gabarito": "II, III e IV, apenas.",
+        "banca": "FGV"
+    },
+    {
+        "id": 20,
+        "enunciado": "Na disciplina de Gerenciamento de Processos de Negócio (BPM), o modelo AS-IS representa o estado __________ de um processo de negócio.\nAssinale a alternativa que preenche corretamente a lacuna do trecho acima.",
+        "alternativas": [
+            "desejado.",
+            "atual.",
+            "ideal.",
+            "planejado.",
+            "futuro."
+        ],
+        "gabarito": "atual.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 21,
+        "enunciado": "A Gestão de Processos de Negócio (BPM, Business Process Management) promove a melhoria contínua de processos de negócio, integrando a estratégia da organização com as expectativas e as necessidades dos clientes.\nConsiderando os conceitos principais do BPM, analise as afirmativas a seguir e assinale (V) para a verdadeira e (F) para a falsa.\n( ) O Mapeamento de Processos visa a identificar os processos de negócio e mapear os detalhes do funcionamento da organização, enquanto a Padronização de Processos busca a criação de uma sequência lógica de atividades, para que todos executem o trabalho da mesma forma.\n( ) AS-IS/TO-BE são fases do BPM, em que a primeira busca a transformação dos processos de negócio focalizando na identificação dos pontos fracos no processo e identificação do que pode ser melhorado e, a segunda, busca o mapeamento dos processos da organização, servindo para apresentar as correções indicadas previamente e uma definição futura do processo organizacional considerando as necessidades dos clientes, as melhores práticas e os objetivos estratégicos.\n( ) O projeto de melhoria de processo (AS-IS/TO-BE) pode empregar diversas técnicas e metodologias, dentre elas destaca-se o Design Thinking, que se refere à metodologia que mostra exatamente o que é preciso fazer e o que é necessário para executar cada uma das cinco etapas, realizadas em dias sequenciais.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "F – V – F.",
+            "V – F – F.",
+            "F – F – V.",
+            "V – V – V."
+        ],
+        "gabarito": "V – F – F.",
+        "banca": "FGV"
+    },
+    {
+        "id": 22,
+        "enunciado": "A Universidade Federal de Sergipe (UFS) está enfrentando desafios na eficiência de seus processos internos de pesquisa acadêmica. As equipes enfrentam demora na aprovação de verbas, logística para aquisição de materiais e liberação de espaços de laboratório. Como analista da gerência de processos da universidade, que ação você tomaria imediatamente para começar a resolver esses problemas?",
+        "alternativas": [
+            "Ignoraria os problemas e assumiria que se resolverão ao longo do tempo.",
+            "Realizaria uma análise de processos, identificando gargalos, ineficiências e pontos de melhoria, para então iniciar um plano de ação.",
+            "Implantaria uma nova tecnologia de gerenciamento sem entender completamente os processos atuais.",
+            "Mudaria todo o pessoal envolvido nos processos, assumindo que o problema está nas pessoas e não nos processos.",
+            "Solicitaria mais verbas para todos os departamentos, supondo que mais dinheiro resolverá os problemas de eficiência."
+        ],
+        "gabarito": "Realizaria uma análise de processos, identificando gargalos, ineficiências e pontos de melhoria, para então iniciar um plano de ação.",
+        "banca": "Instituto AOCP"
+    },
+    {
+        "id": 23,
+        "enunciado": "Um analista de processos é encarregado de revisar e otimizar os procedimentos operacionais de uma empresa. Ele identificou uma oportunidade significativa de melhoria que, no entanto, implicaria na redução do número de empregados.\nNesse caso, a conduta mais apropriada do analista é",
+        "alternativas": [
+            "proceder com a recomendação da otimização sem consultar os impactos humanos, priorizando exclusivamente os ganhos de eficiência.",
+            "ignorar a oportunidade de melhoria para evitar conflitos internos e possíveis demissões, mantendo a situação atual.",
+            "avaliar cuidadosamente as possíveis consequências da implementação, buscando alternativas que possam realocar ou requalificar os empregados afetados.",
+            "comunicar a descoberta exclusivamente à alta direção, deixando a decisão de implementação e gestão das consequências a seu critério.",
+            "propor a otimização como uma medida temporária, revertendo-a caso haja insatisfação significativa entre os empregados."
+        ],
+        "gabarito": "avaliar cuidadosamente as possíveis consequências da implementação, buscando alternativas que possam realocar ou requalificar os empregados afetados.",
+        "banca": "FGV"
+    },
+    {
+        "id": 24,
+        "enunciado": "O BABOK (Business Analysis Body of Knowledge) é um guia que estabelece um conjunto de conhecimentos e práticas recomendadas para a análise de negócios, abordando desde a definição de requisitos até a entrega de soluções que atendam às necessidades das organizações. Embora o BABOK seja amplamente utilizado no contexto empresarial, seus princípios, técnicas e metodologias também podem ser aplicados no serviço público. O BABOK 3.0 identifica áreas de conhecimento que são essenciais para a prática de análise de negócios, dentre elas:",
+        "alternativas": [
+            "a modelagem de processos de negócio, e o planejamento estratégico.",
+            "o gerenciamento de projetos, e a elicitação e a colaboração.",
+            "a análise de requisitos e design da solução, e a avaliação da solução.",
+            "a estratégia de análise de negócios, e a gestão de portfólio."
+        ],
+        "gabarito": "a análise de requisitos e design da solução, e a avaliação da solução.",
+        "banca": "Instituto Verbena"
+    },
+    {
+        "id": 25,
+        "enunciado": "Perspectivas do Business Analysis Body of Knowledge são utilizadas dentro do trabalho de análise de negócios para fornecer foco às tarefas e às técnicas específicas para o contexto da iniciativa. A maioria das iniciativas provavelmente envolverá uma ou mais perspectivas. A perspectiva que foca no alinhamento das estratégias de negócios com as operações é a:",
+        "alternativas": [
+            "agilidade.",
+            "business intelligence.",
+            "tecnologia da informação.",
+            "arquitetura de negócios."
+        ],
+        "gabarito": "arquitetura de negócios.",
+        "banca": "Instituto Verbena"
+    },
+    {
+        "id": 26,
+        "enunciado": "O mapeamento, modelagem, documentação, registro e controle dos processos visa melhorar a eficiência, a eficácia e a adaptabilidade dos processos organizacionais.\nNo contexto dos serviços públicos, esses elementos desempenham um papel crucial na otimização das operações governamentais. De acordo com os preceitos do Business Process Management (BPM), qual abordagem é mais eficaz para garantir a alinhamento entre os processos de negócios e os objetivos estratégicos da organização?",
+        "alternativas": [
+            "O uso de técnicas de mineração de processos para análise de dados operacionais.",
+            "A implementação de um ERP sem customização e aproveitando melhores práticas.",
+            "A aplicação de princípios Lean para eliminação de desperdícios nos processos.",
+            "O desenvolvimento de cultura organizacional focada em inovação e nos stakeholders."
+        ],
+        "gabarito": "O uso de técnicas de mineração de processos para análise de dados operacionais.",
+        "banca": "Instituto Verbena"
+    },
+    {
+        "id": 27,
+        "enunciado": "Ao modelar os processos internos do Poder Executivo do Estado do Paraná utilizando Business Process Model and Notation (BPMN) na versão 2.0, você se depara com o elemento Gateway. Nesse contexto, assinale a alternativa que descreve corretamente o conceito de “Gateway” dentro do contexto do BPMN 2.0.",
+        "alternativas": [
+            "Liga informações adicionais, como documentos ou dados, a um elemento específico no diagrama.",
+            "É uma área externa que representa entidades externas ao processo.",
+            "São linhas conectando os elementos do diagrama para mostrar a ordem em que as atividades e eventos ocorrem.",
+            "Indica decisões no fluxo do processo, direcionando o caminho com base em condições ou eventos.",
+            "Marca um ponto no tempo durante o processo. Pode ser um início, fim, interrupção ou desencadeado por condições específicas."
+        ],
+        "gabarito": "Indica decisões no fluxo do processo, direcionando o caminho com base em condições ou eventos.",
+        "banca": "Instituto AOCP"
+    },
+    {
+        "id": 28,
+        "enunciado": "Como profissional de TI do Poder Executivo do Estado do Paraná, você está encarregado de escolher ferramentas para modelar os processos internos da organização, visando aprimorar a eficiência e a automação dos fluxos de trabalho. Duas ferramentas dedicadas a essa finalidade são",
+        "alternativas": [
+            "Bonita e Power BI.",
+            "Bizagi e Bonita.",
+            "KNIME e Bizagi.",
+            "QlikView/Qlik Sense e KNIME.",
+            "Weka e RapidMiner."
+        ],
+        "gabarito": "Bizagi e Bonita.",
+        "banca": "Instituto AOCP"
+    },
+    {
+        "id": 29,
+        "enunciado": "A gestão de processos visa à melhoria contínua por meio do uso de ferramentas e metodologias de mapeamento de processos em uma organização. A respeito desse tema, assinale a alternativa correta.",
+        "alternativas": [
+            "A implantação de um novo processo não deve afetar os processos já existentes.",
+            "Todos os processos de negócio de uma organização devem ser aperfeiçoados sempre que possível.",
+            "O planejamento de novos processos deve demonstrar as melhorias potencialmente incorporadas ao negócio,.",
+            "O ciclo de vida de um processo se inicia em seu planejamento e termina em sua implantação:.",
+            "É fundamental que melhorias contínuas de processos respeitem os paradigmas de negócio já preconizados na organização."
+        ],
+        "gabarito": "O planejamento de novos processos deve demonstrar as melhorias potencialmente incorporadas ao negócio,.",
+        "banca": "IADES"
+    },
+    {
+        "id": 30,
+        "enunciado": "O Business Process Management (BPM) ou Gerenciamento de Processos de Negócio usa uma abordagem que identifica, desenha, executa, documenta, mede, monitora, controla e melhora os processos de negócio, sejam automatizados ou não, alcançando resultados pretendidos, consistentes e alinhados com as metas estratégicas da organização. Sobre o BPM, assinale a afirmativa INCORRETA.",
+        "alternativas": [
+            "Inclui modelagem, análise, desenho e medição de processos de negócio de uma organização.",
+            "Aborda um trabalho ponta a ponta e diferencia entre conjuntos de subprocessos, tarefas, atividades e funções.",
+            "É um conjunto contínuo, em curso, de processos com o foco no gerenciamento de processos de negócio ponta a ponta nas organizações.",
+            "É uma disciplina de gerenciamento e um conjunto de tecnologias habilitadoras; não introduz novos papéis, mas as responsabilidades são da alta gestão."
+        ],
+        "gabarito": "É uma disciplina de gerenciamento e um conjunto de tecnologias habilitadoras; não introduz novos papéis, mas as responsabilidades são da alta gestão.",
+        "banca": "Instituto Consulplan"
+    },
+    {
+        "id": 31,
+        "enunciado": "“Esses processos são ponta a ponta, interfuncionais e entregam valor aos clientes. São frequentemente chamados de processos essenciais, pois representam as atividades essenciais que uma organização desempenha para cumprir sua missão.” As informações se referem aos processos",
+        "alternativas": [
+            "primários.",
+            "de suporte.",
+            "de exceção.",
+            "de gerenciamento."
+        ],
+        "gabarito": "primários.",
+        "banca": "Instituto Consulplan"
+    },
+    {
+        "id": 32,
+        "enunciado": "Na disciplina de Gerenciamento de Processos de Negócio (BPM), o modelo AS-IS é utilizado para representar o estado __________ de um processo.\nAssinale a alternativa que preenche corretamente a lacuna do trecho acima.",
+        "alternativas": [
+            "futuro.",
+            "estático.",
+            "atual.",
+            "dinâmico.",
+            "ideal."
+        ],
+        "gabarito": "atual.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 33,
+        "enunciado": "Assinale a alternativa que apresenta um dos principais objetivos do Gerenciamento de Conteúdo Empresarial (ECM).",
+        "alternativas": [
+            "Permitir que as organizações capturem e armazenem dados exclusivamente estruturados, como planilhas e bancos de dados.",
+            "Facilitar a captura, o armazenamento, a ativação, a análise e a automatização do conteúdo de negócios ao transformar conteúdos desestruturados em informações valiosas.",
+            "Gerenciar apenas informações financeiras e operacionais essenciais para a tomada de decisões empresariais.",
+            "Substituir completamente os sistemas tradicionais de gestão de documentos por soluções automatizadas de análise de dados."
+        ],
+        "gabarito": "Facilitar a captura, o armazenamento, a ativação, a análise e a automatização do conteúdo de negócios ao transformar conteúdos desestruturados em informações valiosas.",
+        "banca": "IBFC"
+    },
+    {
+        "id": 34,
+        "enunciado": "Um portal web muito utilizado por tomadores de decisão acerca de problemas globais contratou o desenvolvimento de um dashboard sobre pobreza em seis subregiões do globo. A equipe de design se deparou com um dilema: mostrar os números da pobreza em valores absolutos como apresentado no gráfico da esquerda ou em valores relativos como apresentado no gráfico da direita. {image(1)} Considerando o público-alvo do dashboard, assinale a alternativa que apresenta a melhor decisão a ser tomada pela equipe do projeto.",
+        "alternativas": [
+            "Exibir o gráfico apresentando os números absolutos, pois refletem a quantidade total de pessoas em situação de pobreza, o que é essencial para a alocação de recursos globais. Os valores relativos podem ser úteis, mas não devem ser o foco principal, já que a proporção não necessariamente reflete a urgência de intervenção.",
+            "Exibir o gráfico apresentando os valores relativos, pois estes ajudam a entender a severidade da pobreza em relação ao tamanho da população de cada continente. Mesmo que uma região tenha mais pessoas em situação de pobreza em números absolutos, a proporção menor pode indicar que os problemas são mais administráveis do que em regiões com percentuais maiores.",
+            "Exibir ambos os gráficos, pois números absolutos mostram a magnitude real do problema, enquanto os valores relativos revelam a intensidade e a prevalência da pobreza em cada região. Apenas um indicador não fornece a visão completa, o que pode comprometer a alocação eficiente de recursos e a formulação de políticas.",
+            "Exibir o gráfico apresentando os números absolutos, pois em regiões com populações muito grandes, mesmo uma pequena porcentagem de pobreza pode significar milhões de pessoas afetadas. Em contrapartida, valores relativos têm mais impacto em regiões menores, onde a proporção alta pode significar desafios estruturais mais graves."
+        ],
+        "gabarito": "Exibir ambos os gráficos, pois números absolutos mostram a magnitude real do problema, enquanto os valores relativos revelam a intensidade e a prevalência da pobreza em cada região. Apenas um indicador não fornece a visão completa, o que pode comprometer a alocação eficiente de recursos e a formulação de políticas.",
+        "banca": "IBFC"
+    },
+    {
+        "id": 35,
+        "enunciado": "A abordagem BPM (Business Process Management) busca melhorar e otimizar processos de negócios, aumentando eficiência e desempenho organizacional.\nNesse contexto, é correto afirmar que",
+        "alternativas": [
+            "a análise AS IS tem como função avaliar o estado atual do negócio, sendo parte da fase de modelagem, enquanto a análise TO BE, sendo aplicada ao futuro, é executada na fase de monitoramento.",
+            "o Diagrama de Casos de Uso se concentra em representar a interação entre atores e casos de uso, organizando as responsabilidades em raias.",
+            "KPI's (Key Performance Indicators) são utilizados para medir diversos aspectos de desempenho de maneira estritamente quantitativa.",
+            "BPMS buscam integrar completamente o ambiente operacional de uma organização, abrangendo seus processos, pessoas e informações de forma coesa.",
+            "A taxonomia em portais corporativos é responsável pela criação automática de workflows, classificando tarefas hierarquicamente com base na estrutura organizacional."
+        ],
+        "gabarito": "BPMS buscam integrar completamente o ambiente operacional de uma organização, abrangendo seus processos, pessoas e informações de forma coesa.",
+        "banca": "FGV"
+    },
+    {
+        "id": 36,
+        "enunciado": "Mais do que uma simples abordagem operacional, a gestão de processos constitui uma ferramenta importante para líderes de variados níveis hierárquicos, fornecendo subsídios para a tomada de decisão e a implantação de melhorias impactantes em diversos setores das instituições e na geração de valor público.\nNesse contexto, assinale a afirmativa correta acerca de gestão de processos.",
+        "alternativas": [
+            "Cadeia de valor encontra-se em um nível intermediário na estratégia de uma organização.",
+            "Uma tarefa é um conjunto de atividades e comportamentos executados por pessoas ou máquinas cujo objetivo é alcançar um ou mais resultados organizacionais.",
+            "O Ciclo BPM possui etapas como: planejar, analisar, desenhar, implantar e monitorar os processos.",
+            "Processos de suporte são associados às atividades-fim da organização ou diretamente envolvidos no atendimento às necessidades dos seus usuários finais.",
+            "Um processo é uma agregação de tarefas necessárias para entregar uma parte específica e definível de um produto ou serviço."
+        ],
+        "gabarito": "O Ciclo BPM possui etapas como: planejar, analisar, desenhar, implantar e monitorar os processos.",
+        "banca": "FGV"
+    },
+    {
+        "id": 37,
+        "enunciado": "A modelagem de processo de negócio (Business Process Modeling - BPM) é uma técnica utilizada para representar os processos internos de uma empresa de forma clara e estruturada, com o objetivo de otimizá-los.\nEm relação às práticas de BPM, qual das alternativas abaixo está correta?",
+        "alternativas": [
+            "A modelagem de processo de negócio é focada exclusivamente no desenho gráfico dos processos, não havendo preocupação com a melhoria ou otimização dos processos modelados.",
+            "A modelagem de processo de negócio é uma atividade estática, que ocorre apenas uma vez na vida de uma empresa, sem a necessidade de revisões ou otimizações futuras.",
+            "A modelagem de processos é focada exclusivamente em processos de TI, sendo menos aplicável a áreas como vendas e recursos humanos.",
+            "A BPM é aplicada apenas a processos de manufatura, sendo ineficaz em áreas como serviços ou administração, onde os processos são menos repetitivos.",
+            "A modelagem de processo de negócio utiliza notações como BPMN (Business Process Model and Notation) para representar processos e identificar oportunidades de automação, melhorias e eliminação de gargalos."
+        ],
+        "gabarito": "A modelagem de processo de negócio utiliza notações como BPMN (Business Process Model and Notation) para representar processos e identificar oportunidades de automação, melhorias e eliminação de gargalos.",
+        "banca": "INSTITUTO ACESSO"
+    },
+    {
+        "id": 38,
+        "enunciado": "A engenharia e reengenharia de negócios são abordagens que envolvem a reestruturação e a otimização de processos empresariais com o objetivo de melhorar a eficiência organizacional. Essas metodologias utilizam ferramentas como análise de ambiente, modelagem de processos e técnicas de otimização para identificar falhas e propor melhorias.\nComplete as lacunas com as respostas corretas.\nA reengenharia de negócios se concentra em uma revisão fundamental e radical dos processos de negócios, buscando melhorias dramáticas em indicadores como custo, qualidade e tempo de resposta. Um dos princípios centrais da reengenharia é a análise do ________(1), que envolve a identificação das principais forças que influenciam a competitividade da empresa. Entre as ferramentas utilizadas na reengenharia de processos, destaca-se o uso de ________(2), que permite representar graficamente os processos de negócios e identificar pontos de otimização.",
+        "alternativas": [
+            "(1) ambiente externo / (2) diagramas de fluxo de trabalho.",
+            "(1) estrutura organizacional / (2) mapeamento de processos em ERP.",
+            "(1) ciclo de vida do produto / (2) softwares de simulação.",
+            "(1) fatores internos / (2) modelagem em BPMN.",
+            "(1) mercado global / (2) ferramentas de mineração de dados."
+        ],
+        "gabarito": "(1) ambiente externo / (2) diagramas de fluxo de trabalho.",
+        "banca": "INSTITUTO ACESSO"
+    },
+    {
+        "id": 39,
+        "enunciado": "Na disciplina de Gerenciamento de Processos de Negócio (BPM – Business Process Management), instância de processo é:",
+        "alternativas": [
+            "A representação de um determinado estado do negócio (atual ou futuro) e dos respectivos recursos envolvidos.",
+            "Cada grupo de atividades e competências especializadas relacionadas a objetivos ou tarefas particulares.",
+            "A concepção de um novo processo de negócio e a especificação de como este funcionará, será medido, controlado e gerenciado.",
+            "Cada execução de um processo.",
+            "O ciclo contínuo de um processo de negócio."
+        ],
+        "gabarito": "Cada execução de um processo.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 40,
+        "enunciado": "Uma empresa decidiu investir na sua Cadeia de Valor, iniciando por aumentar as atividades ou ações que trazem benefícios diretos aos clientes, que são os processos de core ou processos que se relacionam com a criação ou a transformação dos produtos e serviços. Entre essas atividades existe a de:",
+        "alternativas": [
+            "Custos.",
+            "Operações.",
+            "Escopo vertical.",
+            "Remuneração da equipe."
+        ],
+        "gabarito": "Escopo vertical.",
+        "banca": "SELECON"
+    },
+    {
+        "id": 41,
+        "enunciado": "Uma organização resolveu adotar uma abordagem invasiva e disruptiva provocando uma mudança radical em seus processos de negócio. Neste caso podemos dizer que se trata de:",
+        "alternativas": [
+            "reengenharia de processo.",
+            "melhoria contínua de processo.",
+            "melhoria de processo de negócios.",
+            "análise estatística de processo.",
+            "redesenho de processo."
+        ],
+        "gabarito": "reengenharia de processo.",
+        "banca": "PR4 (UFRJ)"
+    },
+    {
+        "id": 42,
+        "enunciado": "A abordagem de gestão de processos de negócio (BPM) visa à melhoria contínua dos processos de negócio dentro de uma organização. Considerando os objetivos do BPM, assinale a alternativa correta.",
+        "alternativas": [
+            "O ciclo de vida do BPM tem início na identificação dos processos existentes e encerra-se na criação de novos processos a partir destes.",
+            "O BPM facilita o mapeamento dos processos que necessitam ser otimizados.",
+            "Não se admite o levantamento dos recursos de uma organização dentro do BPM, pois a abordagem é adequada tão somente à modelagem de processos, e não ao uso de recursos.",
+            "Apenas os processos críticos da organização necessitam ser mapeados.",
+            "A implantação de novos processos não pode ser acompanhada da eliminação de processos existentes."
+        ],
+        "gabarito": "O BPM facilita o mapeamento dos processos que necessitam ser otimizados.",
+        "banca": "IADES"
+    },
+    {
+        "id": 43,
+        "enunciado": "Em relação à Gestão de Processos Integrados de Negócios (BPM - Business Process Management), assinale a alternativa correta em relação ao seu objetivo principal.",
+        "alternativas": [
+            "O objetivo principal do BPM é criar processos complexos e rígidos para garantir a uniformidade das operações.",
+            "O objetivo principal do BPM é alinhar os processos de negócios com as necessidades dos clientes e as metas da organização.",
+            "O objetivo principal do BPM é substituir totalmente o trabalho humano por automação.",
+            "O objetivo principal do BPM é aumentar a complexidade dos processos para desafiar constantemente os funcionários.",
+            "O objetivo principal do BPM é focar exclusivamente na eficiência operacional, sem considerar a experiência do cliente."
+        ],
+        "gabarito": "O objetivo principal do BPM é alinhar os processos de negócios com as necessidades dos clientes e as metas da organização.",
+        "banca": "Instituto AOCP"
+    },
+    {
+        "id": 44,
+        "enunciado": "Em relação à modelagem de processos \"as is\" (atual) e \"to be\" (futuro), no contexto de gestão e otimização de processos de negócios, assinale a alternativa correta.",
+        "alternativas": [
+            "A modelagem \"as is\" tem como objetivo principal definir a visão futura desejada de um processo, ignorando a situação atual.",
+            "A modelagem \"to be\" foca em documentar a situação atual de um processo para servir de base para auditorias internas.",
+            "A modelagem \"as is\" serve como um ponto de partida, capturando o estado atual de um processo, enquanto \"to be\" ilustra o estado desejado após implementar melhorias.",
+            "A modelagem \"to be\" nunca deve ser realizada até que todas as falhas do processo \"as is\" tenham sido completamente resolvidas.",
+            "A modelagem \"as is\" é opcional, pois a maioria das organizações foca apenas no processo \"to be\" para otimização."
+        ],
+        "gabarito": "A modelagem \"as is\" serve como um ponto de partida, capturando o estado atual de um processo, enquanto \"to be\" ilustra o estado desejado após implementar melhorias.",
+        "banca": "Instituto AOCP"
+    },
+    {
+        "id": 45,
+        "enunciado": "Ao modelar Processos de Negócio, é fundamental compreender a estrutura hierárquica e as relações entre processos, subprocessos e atividades. Considerando essa hierarquia e as definições envolvidas, assinale a alternativa correta.",
+        "alternativas": [
+            "Atividades são conjuntos de subprocessos, enquanto subprocessos são conjuntos de processos.",
+            "Subprocessos são uma aglomeração de processos menores e não contêm atividades.",
+            "Processos são comumente compostos por uma ou mais atividades, mas nunca por subprocessos.",
+            "Atividades representam tarefas individuais ou ações específicas, enquanto subprocessos são segmentos ou divisões menores de um processo maior.",
+            "Processos e subprocessos são sinônimos e, portanto, podem ser usados de forma intercambiável em qualquer modelagem de negócio."
+        ],
+        "gabarito": "Atividades representam tarefas individuais ou ações específicas, enquanto subprocessos são segmentos ou divisões menores de um processo maior.",
+        "banca": "Instituto AOCP"
+    },
+    {
+        "id": 46,
+        "enunciado": "A respeito da gestão de processos em atividades de tecnologia da informação, assinale a alternativa correta.",
+        "alternativas": [
+            "Processos são as unidades atômicas no escopo da governança de TI.",
+            "Tarefas, rotinas e atividades são abstrações lógicas de um conjunto de processos.",
+            "As organizações devem ter foco em pequenas melhorias nos processos já estruturados.",
+            "Processos não devem ser entendidos meramente como fluxos de tarefas, mas também como ativos da organização.",
+            "Indicadores de desempenho devem ser aplicados ao processo como um todo, e não a cada um de seus componentes individualizados."
+        ],
+        "gabarito": "Processos não devem ser entendidos meramente como fluxos de tarefas, mas também como ativos da organização.",
+        "banca": "IADES"
+    },
+    {
+        "id": 47,
+        "enunciado": "Acerca de Gerenciamento de Processos de Negócios é incorreto afirmar:",
+        "alternativas": [
+            "É uma prescrição de estrutura de trabalho, metodologia ou conjunto de ferramentas.",
+            "Trata-se de uma capacidade básica interna.",
+            "Visa entregar valor para o cliente.",
+            "Trata o trabalho de ponta a ponta e a orquestração das atividades ao longo das funções de negócio.",
+            "Trata O QUÊ, ONDE, QUANDO, POR QUÊ, COMO e POR QUEM o trabalho é realizado."
+        ],
+        "gabarito": "É uma prescrição de estrutura de trabalho, metodologia ou conjunto de ferramentas.",
+        "banca": "FADE UFPE"
+    },
+    {
+        "id": 48,
+        "enunciado": "Em projetos de implementação de BPM (conhecidos também por projetos de automação de processos), tradicionalmente, o ciclo de vida segue as fases típicas que são:\nI. Implementação.\nII. Análise.\nIII. Redesenho.\nAs fases I, II e III correspondem, correta e respectivamente, a",
+        "alternativas": [
+            "Plan, Check e Act.",
+            "Do, Plan e Check.",
+            "To Be, Plan e To Do.",
+            "As Is, To Be e To Do.",
+            "To Do, As Is e To Be."
+        ],
+        "gabarito": "To Do, As Is e To Be.",
+        "banca": "FCC"
+    },
+    {
+        "id": 49,
+        "enunciado": "A necessidade de um escritório de processos se faz presente quando o volume de processos a gerenciar ultrapassa a capacidade de ser conduzido como atividade paralela por outros setores da organização. Assinale a alternativa que apresenta corretamente o dever de um escritório de processos em uma organização.",
+        "alternativas": [
+            "É dever de um escritório de processos garantir a implantação e a continuidade do ciclo de gestão de BPM.",
+            "É dever de um escritório de processos identificar, desenhar, executar, documentar, implantar, medir, monitorar, controlar e melhorar processos de negócio.",
+            "É dever de um escritório de processos transformar matéria-prima em um resultado com maior valor agregado por meio da aplicação de um processo de fabricação.",
+            "É dever de um escritório de processos cooperar sistematicamente com pessoas de toda a organização para produzir valor para um grupo de interessados.",
+            "É dever de um escritório de processos implantar um controle de qualidade total na organização."
+        ],
+        "gabarito": "É dever de um escritório de processos garantir a implantação e a continuidade do ciclo de gestão de BPM.",
+        "banca": "Instituto AOCP"
+    },
+    {
+        "id": 50,
+        "enunciado": "O ciclo de vida do Business Process Management é composto por quatro fases principais.\nAssinale a opção que indica a fase em que o histórico de execução do projeto é analisado e os problemas são identificados, podendo levar à remodelagem dos processos.",
+        "alternativas": [
+            "Avaliação.",
+            "Reexecução.",
+            "Configuração.",
+            "Projeto & análise.",
+            "Refinamento & manutenção."
+        ],
+        "gabarito": "Avaliação.",
+        "banca": "FGV"
+    },
+    {
+        "id": 51,
+        "enunciado": "Quanto às técnicas de mapeamento de processos (modelos AS-IS) e (modelos TO-BE), analise as afirmativas abaixo e assinale a alternativa correta.\nI. O modelo AS-IS é o significado da situação atual do processo.\nII. Primeiro realiza-se a modelagem TO-BE para depois implementar o AS-IS.\nIII. Tanto no AS-IS como no TO-BE aplica-se a notação de modelagem BPMN.\nEstão corretas as afirmativas:",
+        "alternativas": [
+            "I e II são tecnicamente verdadeiras.",
+            "II e III são tecnicamente verdadeiras.",
+            "I e III são tecnicamente verdadeiras.",
+            "I, II e III são tecnicamente verdadeiras."
+        ],
+        "gabarito": "I e III são tecnicamente verdadeiras.",
+        "banca": "IBFC"
+    },
+    {
+        "id": 52,
+        "enunciado": "Na disciplina de Gerenciamento de Processos de Negócio (BPM – Business Process Management), um é a decomposição do processo de negócio por afinidade, objetivo ou resultado desejado.\nAssinale a alternativa que preenche corretamente a lacuna do trecho acima.",
+        "alternativas": [
+            "Requisito.",
+            "Portal.",
+            "Papel.",
+            "Cenário.",
+            "Subprocesso."
+        ],
+        "gabarito": "Subprocesso.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 53,
+        "enunciado": "Modelagem de processos de negócio é o conjunto de atividades envolvidas na criação de representações de processos de negócios existentes ou propostos, podendo prover uma perspectiva de ponta a ponta ou uma porção dos processos primários, de suporte ou de gerenciamento. Sobre a modelagem de processos, é correto afirmar que:",
+        "alternativas": [
+            "um mapa fornece a representação de um determinado estado do negócio e seus recursos; apresenta grande precisão sobre aquilo que está sendo modelado.",
+            "um modelo é uma visão abrangente dos principais componentes do processo e seus relacionamentos.",
+            "diagramas podem fornecer simulação manual ou automatizada do processo.",
+            "modelos são adequados para capturas rápidas de ideias, sendo simples de utilizar, no entanto, não permitem simulações manuais ou automatizadas.",
+            "diagramas são utilizados para retratar os principais elementos de um fluxo de processos, mas omitem detalhes de entendimento dos fluxos de trabalho."
+        ],
+        "gabarito": "diagramas são utilizados para retratar os principais elementos de um fluxo de processos, mas omitem detalhes de entendimento dos fluxos de trabalho.",
+        "banca": "FAPEC"
+    },
+    {
+        "id": 54,
+        "enunciado": "Segundo o Guia BABOK versão 2.0, Análise de Negócios é o conjunto de atividades e técnicas utilizadas para servir como ligação entre as partes interessadas, no intuito de compreender a estrutura, as políticas e as operações de uma organização e para recomendar soluções que permitam que a organização alcance suas metas.\nSobre a atividade de Análise de Negócio, é correto afirmar que:",
+        "alternativas": [
+            "o analista de negócios precisa ter, ao menos, um entendimento da abordagem da organização em relação à definição de requisitos, para planejar o processo de gerenciamento de requisitos.",
+            "um analista de negócio é qualquer pessoa que executa atividade de análise de negócio, independente de cargo ou função organizacional.",
+            "é possível avaliar o desempenho de uma solução, mesmo que um requisito não esteja completamente claro, desde que as partes interessadas deliberem um consenso sobre o que é satisfatório.",
+            "analistas de negócios devem compreender os critérios envolvidos na tomada de decisão, uma vez que devem dar suporte apropriado para que outros tomem as melhores decisões, no entanto, não devem assumir para si a responsabilidade pela tomada de decisão.",
+            "a atividade de elicitação de requisitos ocorre por meio de análise documental e análise de interface, exclusivamente,."
+        ],
+        "gabarito": "um analista de negócio é qualquer pessoa que executa atividade de análise de negócio, independente de cargo ou função organizacional.",
+        "banca": "FAPEC"
+    },
+    {
+        "id": 55,
+        "enunciado": "Dentre as atividades abaixo, as ferramentas de software BPM destinam-se a apoiar:",
+        "alternativas": [
+            "modelagem de dados.",
+            "modelagem de software.",
+            "modelagem de processos.",
+            "modelagem de bancos de dados.",
+            "modelagem de sistemas."
+        ],
+        "gabarito": "modelagem de processos.",
+        "banca": "IBADE"
+    },
+    {
+        "id": 56,
+        "enunciado": "Quanto às técnicas de mapeamento de processos, analise as afirmativas a seguir e assinale a alternativa correta.\n(1) Um dos objetivos do AS IS é analisar as tarefas executadas e seu tempo de execução.\n(2) TO BE é a definição da situação do passado dos processos organizacionais/negócios.",
+        "alternativas": [
+            "As afirmativas (1) e (2) são verdadeiras.",
+            "A afirmativa (1) é verdadeira, e a (2) é falsa.",
+            "A afirmativa (2) é verdadeira, e a (1) é falsa.",
+            "As afirmativas (1) e (2) são falsas."
+        ],
+        "gabarito": "A afirmativa (1) é verdadeira, e a (2) é falsa.",
+        "banca": "IBFC"
+    },
+    {
+        "id": 57,
+        "enunciado": "Analise as afirmativas abaixo com relação à análise de negócios.\n1. Análise de Negócios envolve compreender como as organizações funcionam e alcançam seus propósitos, e definir as capacidades que uma organização deve possuir para prover produtos e serviços para as partes interessadas externas.\n2. Analistas de negócios devem analisar e sintetizar informações fornecidas por grande número de pessoas que interage com o negócio, como clientes, colaboradores, profissionais de TI e executivos.\n3. Um analista de negócios é qualquer pessoa que executa atividades de análise de negócios, não importa qual o seu cargo ou função organizacional.\nAssinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "É correta apenas a afirmativa 1.",
+            "É correta apenas a afirmativa 2.",
+            "É correta apenas a afirmativa 3.",
+            "São corretas apenas as afirmativas 1 e 3.",
+            "São corretas as afirmativas 1, 2 e 3."
+        ],
+        "gabarito": "São corretas as afirmativas 1, 2 e 3.",
+        "banca": "FEPESE"
+    },
+    {
+        "id": 58,
+        "enunciado": "Processos de Negócio de acordo com o CBOK V3.0 podem ser classificados em três tipos. Compreender como esses três tipos de processos de negócio interagem e se relacionam uns com os outros em uma organização é essencial para a compreensão da disciplina de BPM.\nAssinale a alternativa que indica corretamente esses três tipos.",
+        "alternativas": [
+            "Primário, suporte e gerenciamento.",
+            "Primário, secundário e terciário.",
+            "Suporte, Estrutural e de Apoio.",
+            "Organizacional, Secundário e de Apoio.",
+            "Organizacional, Estrutural e de Apoio."
+        ],
+        "gabarito": "Primário, suporte e gerenciamento.",
+        "banca": "FEPESE"
+    },
+    {
+        "id": 59,
+        "enunciado": "Analise as afirmativas abaixo com relação ao assunto BPM.\n1. Gerenciamento de Processos de Negócio (BPM – Business Process Management) é uma disciplina gerencial que integra estratégias e objetivos de uma organização com expectativas e necessidades de clientes, por meio do foco em processos ponta a ponta.\n2. A tecnologia desempenha papel essencial e de liderança na implementação de BPM.\n3. BPM envolve definição deliberada, colaborativa e suportada por tecnologia, melhoria, inovação e gerenciamento de processos de negócio ponta a ponta para criar valor e habilitar a organização a alcançar seus objetivos com maior agilidade.\nAssinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "É correta apenas a afirmativa 2.",
+            "É correta apenas a afirmativa 3.",
+            "São corretas apenas as afirmativas 1 e 2.",
+            "São corretas apenas as afirmativas 1 e 3.",
+            "São corretas apenas as afirmativas 2 e 3."
+        ],
+        "gabarito": "São corretas apenas as afirmativas 1 e 3.",
+        "banca": "FEPESE"
+    },
+    {
+        "id": 60,
+        "enunciado": "Tendo como premissa o Business Process Management (BPM), são consideradas práticas de uma organização centrada em processos, EXCETO",
+        "alternativas": [
+            "incorporar o BPM como parte da prática gerencial.",
+            "possuir clara visão dos seus processos.",
+            "envolver o BPM na estratégia.",
+            "recompensar e premiar com base em metas de processos.",
+            "refletir, na estrutura da organização, seus departamentos."
+        ],
+        "gabarito": "refletir, na estrutura da organização, seus departamentos.",
+        "banca": "Instituto AOCP"
+    },
+    {
+        "id": 61,
+        "enunciado": "Quando falamos em “Processos de Negócios”, estamos falando em um conjunto de atividades ou tarefas estruturadas e que buscam um resultado de valor para o cliente, centrado na entrega de um serviço ou produto. Analise as afirmativas a seguir sobre Processos de Negócio:\nI. Processos de Suporte são aqueles que ajudam ou facilitam a execução dos Processos Primários. II. Processos Primários são aqueles que abrangem as atividades essenciais que uma organização precisa realizar para cumprir sua missão de negócio. III. Processos de Gerenciamento são aqueles que medem, monitoram e controlam as atividades de uma organização. São parecidos com os Processos de Suporte, pois não agregam valor ao cliente, mas a outros processos, como os Processos Primários e os Processos de Suporte.\nÉ correto o que se afirma",
+        "alternativas": [
+            "apenas em I e II.",
+            "apenas em I e III.",
+            "em I, II e III.",
+            "apenas em III."
+        ],
+        "gabarito": "em I, II e III.",
+        "banca": "IDIB"
+    },
+    {
+        "id": 62,
+        "enunciado": "Uma das técnicas mais usadas para se conhecer o processo consiste em responder a um questionário com perguntas iniciadas com palavras específicas, descobrindo muito sobre o processo. Assinale a alternativa que identifica corretamente essa técnica.",
+        "alternativas": [
+            "Técnica do 5W1H.",
+            "Técnica da Matriz GUT.",
+            "Técnica da matriz BÁSICO.",
+            "Técnica da Matriz SIPOC."
+        ],
+        "gabarito": "Técnica do 5W1H.",
+        "banca": "IDIB"
+    },
+    {
+        "id": 63,
+        "enunciado": "Imediatamente após realizar as etapas de preparação, coleta de informações e construção do diagrama de um processo de negócio, um profissional de tecnologia da informação deve",
+        "alternativas": [
+            "validar o modelo ou diagrama com o dono do processo, com o apoio dos executores do processo.",
+            "implantar o modelo de processo de negócio, com o apoio da equipe de tecnologia da informação.",
+            "documentar o processo de negócio em repositórios de versionamento.",
+            "validar o processo de negócio, com os profissionais do departamento de tecnologia da informação.",
+            "testar e implantar o processo de negócio, com a ajuda do cliente."
+        ],
+        "gabarito": "validar o modelo ou diagrama com o dono do processo, com o apoio dos executores do processo.",
+        "banca": "QUADRIX"
+    },
+    {
+        "id": 64,
+        "enunciado": "O primeiro termo define um fluxo de processo, onde, em seu interior, o processamento ocorre independentemente do que acontece ao seu redor. É como se fosse um módulo ou programa independente de um sistema. Imaginando o exemplo de uma piscina, se ela estiver dentro de um estádio, várias outras atividades esportivas podem estar acontecendo simultaneamente, mas a competição dentro da piscina independe dessas outras atividades que acontecem simultaneamente no estádio. Já o segundo termo define o perfil que está executando a atividade em dado momento. Via de regra, o primeiro termo define um processo, enquanto o segundo termo define os participantes que irão concretizar esse processo.\nREIS, Glauco S. Modelagem de processos de negócios com BPMN. São Paulo: Editora Portal BPM, 2008, com adaptações.\nNo contexto da Modelagem de Processos, o texto apresentado se refere a quais termos?",
+        "alternativas": [
+            "Workflows e Pure Players.",
+            "Eventos de timer e Eventos de dados.",
+            "Pools e Lanes.",
+            "Gateways e Loops.",
+            "Atividades e Tarefas."
+        ],
+        "gabarito": "Pools e Lanes.",
+        "banca": "IADES"
+    },
+    {
+        "id": 65,
+        "enunciado": "No que diz respeito à análise de negócios, assinale a opção correta.",
+        "alternativas": [
+            "A matriz RACI descreve os papéis dos envolvidos em atividades de análise de negócios, isto é, o responsável, o aconselhador, o consultado e o informado.",
+            "A técnica de análise de interfaces identifica fronteiras apropriadas para o escopo da solução.",
+            "O mapa das partes interessadas do projeto pode ser representado por uma matriz, de modo a identificar o nível de sua influência versus o nível de seu esforço.",
+            "Um glossário de negócios constitui ativo acessório para todas as técnicas de elicitação.",
+            "Abordagens orientadas ao planejamento buscam, o quanto antes possível, definir requisitos para reduzir a incerteza, enquanto abordagens orientadas à mudança incentivam que os requisitos sejam definidos circunjacentes à implementação."
+        ],
+        "gabarito": "Abordagens orientadas ao planejamento buscam, o quanto antes possível, definir requisitos para reduzir a incerteza, enquanto abordagens orientadas à mudança incentivam que os requisitos sejam definidos circunjacentes à implementação.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 66,
+        "enunciado": "Assinale a opção correspondente a uma característica da gestão funcional.",
+        "alternativas": [
+            "Integração e arranjo dos sistemas de informação entre as diversas áreas da organização.",
+            "Fortalecimento da individualidade com autoridade para tomada de decisões.",
+            "Tarefas executadas sob rígida supervisão hierárquica.",
+            "Visão integrada do processo, de forma a manter uma linha de agregação constante de valor.",
+            "Forte incentivo por meio de processos colaborativos de parcerias."
+        ],
+        "gabarito": "Tarefas executadas sob rígida supervisão hierárquica.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 67,
+        "enunciado": "Acerca de gerenciamento de processos de negócios, assinale a opção correta.",
+        "alternativas": [
+            "BPM aborda trabalho ponta a ponta e não apresenta diferenças entre conjuntos de subprocessos, tarefas, atividades e funções.",
+            "BPM se vale de ferramentas tecnológicas que se encerram na modelagem, simulação, automação e integração de processos de negócio.",
+            "BPM requer compromisso significativo da organização e frequentemente introduz novos papéis, responsabilidade e estruturas em organizações tradicionais orientadas à gestão por processos.",
+            "BPM é o conjunto descontínuo de processos em curso, com foco no gerenciamento de negócio ponta a ponta nas organizações.",
+            "BPM permite à organização alinhar os seus processos de negócio à sua estratégia organizacional, mediante melhorias de atividades específicas de trabalho em um departamento, na organização como um todo ou entre organizações."
+        ],
+        "gabarito": "BPM permite à organização alinhar os seus processos de negócio à sua estratégia organizacional, mediante melhorias de atividades específicas de trabalho em um departamento, na organização como um todo ou entre organizações.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 68,
+        "enunciado": "Considere as seguintes descrições de indicadores de desempenho.\nI Indicadores de desempenho estão sempre aprumados com objetivos e estratégias corporativas.\nII Todo indicador de desempenho pertence a um indivíduo ou grupo da área de negócio que é responsável pelo seu resultado.\nIII Indicadores de desempenho medem valores de negócio e performance desejada.\nNo que se refere aos indicadores de desempenho utilizados no gerenciamento de processos de negócio, as descrições apresentadas anteriormente correspondem, respectivamente, às características",
+        "alternativas": [
+            "relevante, acionável e alinhamento.",
+            "alinhamento, prestação de contas e previsibilidade.",
+            "previsibilidade, acionável e orientada a contexto.",
+            "equilibrada e conectada, prestação de contas e relevante.",
+            "orientada a contexto, acionável e previsibilidade."
+        ],
+        "gabarito": "alinhamento, prestação de contas e previsibilidade.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 69,
+        "enunciado": "No desenho de um novo processo de negócio, o analista deve",
+        "alternativas": [
+            "criar vários pontos de contato com os clientes de diferentes áreas organizacionais, para definição do novo processo.",
+            "desenhar em torno de todas as atividades organizacionais.",
+            "redesenhar o processo depois de automatizá-lo.",
+            "aumentar o handoff.",
+            "reduzir o tamanho dos lotes de entrega."
+        ],
+        "gabarito": "reduzir o tamanho dos lotes de entrega.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 70,
+        "enunciado": "No BABOK, a definição e a determinação dos processos de análise de negócios e das métricas que serão utilizadas para avaliar o progresso do trabalho realizado são descritas na área de conhecimento denominada",
+        "alternativas": [
+            "planejamento e monitoramento da análise de negócios.",
+            "avaliação e validação da solução.",
+            "análise de requisitos.",
+            "análise corporativa.",
+            "competências fundamentais."
+        ],
+        "gabarito": "planejamento e monitoramento da análise de negócios.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 71,
+        "enunciado": "A decomposição de um processo de negócio resulta nas visões lógica e física; na visão física, a atividade refere-se a",
+        "alternativas": [
+            "um conjunto de passos ou ações para realizar o trabalho.",
+            "uma ação em nível atômico.",
+            "um conjunto de tarefas necessárias para entregar um produto ou serviço.",
+            "um grupo de competências especializadas.",
+            "uma modalidade de execução da tarefa."
+        ],
+        "gabarito": "um conjunto de tarefas necessárias para entregar um produto ou serviço.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 72,
+        "enunciado": "BPM refere-se a uma sigla associada ao gerenciamento/ gestão de processos; trata-se do conjunto de conhecimentos que regem os processos de uma organização.\nNesse contexto, observe a figura abaixo, relacionada à Metodologia de Gestão de Processos de Negócio: {image(2)} As fases PLANEJAMENTO, MELHORIA, EXECUÇÃO, SIMULAÇÃO, MELHORAMENTO e MODELAGEM são identificadas na figura, respectivamente, como",
+        "alternativas": [
+            "G1, G4, G5, G2, G6 e G3.",
+            "G2, G6, G4, G5, G1 e G3.",
+            "G1, G6, G4, G3, G5 e G2.",
+            "G2, G5, G1, G3, G4 e G6."
+        ],
+        "gabarito": "G1, G6, G4, G3, G5 e G2.",
+        "banca": "IDECAN"
+    }
+]

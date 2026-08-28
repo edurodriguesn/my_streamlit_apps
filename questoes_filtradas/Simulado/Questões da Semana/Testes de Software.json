@@ -1,0 +1,2139 @@
+[
+    {
+        "id": 1,
+        "enunciado": "A automação de testes em um ambiente de desenvolvimento de software traz diversos benefícios, sendo um dos cuidados necessários garantir que novos recursos adicionados ao software não introduzam problemas em funcionalidades pré-existentes, que já haviam sido testadas antes.\nO tipo de teste adequado para detectar potenciais problemas dessa natureza é o",
+        "alternativas": [
+            "teste de integração.",
+            "smoke test.",
+            "teste de regressão.",
+            "teste unitário.",
+            "teste de performance."
+        ],
+        "gabarito": "teste de regressão.",
+        "banca": "VUNESP"
+    },
+    {
+        "id": 2,
+        "enunciado": "A empresa Y está trabalhando no desenvolvimento de um sistema bancário e encontra-se na fase de codificação. Nesse momento, a equipe percebeu que os testes estavam sendo realizados apenas ao final de cada módulo, o que demandava um tempo excessivo para revisões. A empresa Y resolveu contratar uma consultoria para melhorar a qualidade nesse processo, reduzindo o retrabalho e melhorando a detecção precoce de defeitos.\nA consultoria identificou que poderia melhorar o desenvolvimento do sistema bancário implementando o(a):",
+        "alternativas": [
+            "teste de carga;",
+            "auditoria externa;",
+            "teste de aceitação;",
+            "refatoração contínua;",
+            "revisão de código por pares."
+        ],
+        "gabarito": "revisão de código por pares.",
+        "banca": "FGV"
+    },
+    {
+        "id": 3,
+        "enunciado": "No contexto de boas práticas de desenvolvimento de software, como testes unitários e testes de integração podem ser utilizados para apoiar uma estratégia de refatoração efetiva em um sistema de software em constante crescimento?",
+        "alternativas": [
+            "Testes unitários verificam detalhes internos de implementação dos componentes do sistema, enquanto testes de integração realizam a validação do comportamento do sistema como um todo, permitindo que a refatoração prossiga sem riscos.",
+            "Testes unitários validam comportamentos locais e testes de integração validam as interações entre componentes, criando camadas de verificação para garantir que mudanças estruturais não alterem o comportamento observável do sistema.",
+            "Testes de integração garantem a correção arquitetural, tornando redundante a realização de testes unitários durante a refatoração, desde que os workflows possam ser validados fim-a-fim.",
+            "Testes unitários protegem contra mudanças de interface, enquanto testes de integração garantem estabilidade de desempenho, o que remove a necessidade de refazer os testes após uma refatoração."
+        ],
+        "gabarito": "Testes unitários validam comportamentos locais e testes de integração validam as interações entre componentes, criando camadas de verificação para garantir que mudanças estruturais não alterem o comportamento observável do sistema.",
+        "banca": "Instituto Verbena"
+    },
+    {
+        "id": 4,
+        "enunciado": "Sobre níveis e tipos de testes de software, assinale a alternativa correta.",
+        "alternativas": [
+            "Testes de integração têm como objetivo validar o funcionamento de componentes individuais de forma isolada.",
+            "Testes de sistema avaliam o comportamento completo da aplicação, considerando sua interação com os requisitos especificados.",
+            "Testes unitários são realizados após a implantação do sistema em ambiente de produção.",
+            "Testes exploratórios seguem roteiros rígidos previamente definidos, sem permitir variação durante sua execução.",
+            "Testes de aceitação não consideram critérios definidos pelo cliente, sendo conduzidos apenas com base técnica."
+        ],
+        "gabarito": "Testes de sistema avaliam o comportamento completo da aplicação, considerando sua interação com os requisitos especificados.",
+        "banca": "Instituto AVALIA"
+    },
+    {
+        "id": 5,
+        "enunciado": "Em relação aos tipos de testes automatizados, qual das alternativas abaixo associa corretamente o tipo de teste ao seu objetivo principal?",
+        "alternativas": [
+            "Testes de aceitação automatizados são realizados para validar os requisitos do cliente em relação ao funcionamento geral do sistema.",
+            "Testes unitários são usados para verificar a integração entre diferentes módulos de um sistema, garantindo que eles funcionem corretamente juntos.",
+            "Testes de regressão são realizados para avaliar o desempenho do sistema sob cargas extremas, simulando um número elevado de usuários simultâneos.",
+            "Testes funcionais verificam a capacidade de recuperação do sistema em cenários de falhas críticas."
+        ],
+        "gabarito": "Testes de aceitação automatizados são realizados para validar os requisitos do cliente em relação ao funcionamento geral do sistema.",
+        "banca": "FCPC"
+    },
+    {
+        "id": 6,
+        "enunciado": "Um analista de sistemas está desenvolvendo uma aplicação web e decide implementar testes unitários para verificar individualmente a funcionalidade de componentes front-end. Para isso, ele cria um teste que verifica se um botão exibe o rótulo correto com base nas propriedades (props) recebidas. Qual das seguintes práticas é considerada uma boa prática no desenvolvimento de testes unitários para componentes front-end?",
+        "alternativas": [
+            "Isolar o componente em teste e evitar dependências externas.",
+            "Criar testes que interajam diretamente com o banco de dados em tempo real.",
+            "Simular a interface completa do usuário para validar a funcionalidade do botão.",
+            "Garantir que o teste cubra todos os componentes relacionados ao mesmo módulo."
+        ],
+        "gabarito": "Isolar o componente em teste e evitar dependências externas.",
+        "banca": "FCPC"
+    },
+    {
+        "id": 7,
+        "enunciado": "Um técnico bancário está aprofundando seus conhecimentos em testes de software, buscando identificar o mais adequado para avaliar o limite de capacidade do sistema e como ele se comporta sob pressão, considerando, inclusive, seu tempo de resposta e sua escalabilidade. Nesse contexto, o técnico deve utilizar o teste de",
+        "alternativas": [
+            "acessibilidade.",
+            "carga.",
+            "segurança.",
+            "usabilidade.",
+            "vulnerabilidade."
+        ],
+        "gabarito": "carga.",
+        "banca": "CESGRANRIO"
+    },
+    {
+        "id": 8,
+        "enunciado": "A equipe de Analistas do Tribunal Regional do Trabalho está desenvolvendo um sistema para automatizar o trâmite e gerenciar os processos eletrônicos. Durante a fase de testes, é necessário adotar uma abordagem robusta e adequada para garantir a qualidade do software, considerando diversos aspectos, incluindo o desempenho e a segurança.\nPara isso, a equipe deve",
+        "alternativas": [
+            "executar testes de unidade para validar a comunicação entre diferentes módulos do sistema e verificar se a interface do usuário está funcionando corretamente.",
+            "conduzir testes de fumaça para identificar defeitos críticos no código-fonte e assegurar que cada função individualmente atenda aos requisitos específicos. Embora sejam testes demorados, são cruciais para garantir que o sistema possa ser implantado no ambiente de produção.",
+            "priorizar os testes de integração, simulando o comportamento de usuários finais e certificando-se de que o sistema atende aos requisitos de desempenho e segurança. Estes testes exigem que todo o sistema esteja ativo e em execução em ambiente de produção.",
+            "realizar testes de aceitação para avaliar a compatibilidade entre diferentes componentes técnicos do sistema, garantindo que a arquitetura esteja alinhada com os padrões estabelecidos.",
+            "executar testes de performance, submetendo o sistema a situações intensas de uso e avaliar seu comportamento, determinando se atende aos requisitos de desempenho, localizando gargalos, medindo a estabilidade durante picos de tráfego etc."
+        ],
+        "gabarito": "executar testes de performance, submetendo o sistema a situações intensas de uso e avaliar seu comportamento, determinando se atende aos requisitos de desempenho, localizando gargalos, medindo a estabilidade durante picos de tráfego etc.",
+        "banca": "FCC"
+    },
+    {
+        "id": 9,
+        "enunciado": "Quando do teste de software, testam-se, inicialmente, os módulos de forma unitária, para, depois, proceder-se ao teste de integração desses módulos, sendo correto afirmar que a integração do tipo",
+        "alternativas": [
+            "descendente aplica-se exclusivamente a software voltado a folhas de pagamento.",
+            "descendente só é possível na modalidade primeiro em largura.",
+            "ascendente não se aplica a software voltado à automação de processos.",
+            "descendente pode ser feita primeiro em largura ou primeiro em profundidade.",
+            "ascendente deve ser feita."
+        ],
+        "gabarito": "descendente pode ser feita primeiro em largura ou primeiro em profundidade.",
+        "banca": "VUNESP"
+    },
+    {
+        "id": 10,
+        "enunciado": "Considerando a implementação dos chamados mocks e stubs, é correto afirmar que, por definição,",
+        "alternativas": [
+            "stub é uma implementação que tem como retorno um valor fixo, pré-definido, quando ocorre a chamada a uma função.",
+            "stub é configurado para retornar diferentes respostas, de acordo com os parâmetros de entrada recebidos.",
+            "stub e mock aplicam-se apenas a software cuja finalidade é o acesso a bases de dados.",
+            "stub e mock não se aplicam a software voltado ao desenvolvimento de interfaces humano-computador.",
+            "mock, normalmente, é uma implementação que tem como retorno um valor fixo, pré-definido, quando ocorre a chamada a uma função."
+        ],
+        "gabarito": "stub é uma implementação que tem como retorno um valor fixo, pré-definido, quando ocorre a chamada a uma função.",
+        "banca": "VUNESP"
+    },
+    {
+        "id": 11,
+        "enunciado": "Os testes de software são fundamentais para garantir a qualidade, funcionalidade e desempenho de sistemas. Diferentes tipos de testes têm objetivos específicos, e sua aplicação varia conforme o ciclo de desenvolvimento. Os testes automatizados de pequenas unidades de código, normalmente classes, as quais são testadas de forma isolada do restante do sistema, são os testes de",
+        "alternativas": [
+            "regressão.",
+            "sistema.",
+            "desempenho.",
+            "exploração.",
+            "unidade."
+        ],
+        "gabarito": "unidade.",
+        "banca": "Instituto Verbena"
+    },
+    {
+        "id": 12,
+        "enunciado": "Os testes de software são essenciais para garantir a qualidade dos códigos gerados.\nInicialmente o programador desenvolveu o seguinte código de produção a ser testado:\nCODIGO-01.py def celsius_to_fahrenheit(celsius):\nreturn (celsius * 9/5) + 32 Posteriormente, o programador desenvolveu o código de teste empregando a linguagem Python import unittest class TestTemperatureConversion(unittest.TestCase):\ndef test_celsius_to_fahrenheit(self):\nself.assertEqual(celsius_to_fahrenheit(0), 32) self.assertEqual(celsius_to_fahrenheit(25), 77) if __name__ == '__main__':\nunittest.main() A abordagem do teste utilizado pelo programador se refere a um",
+        "alternativas": [
+            "BDD (Behavior-Driven Development).",
+            "TDD (Testdriven development).",
+            "Teste de usabilidade.",
+            "Teste de integração.",
+            "Teste Unitário."
+        ],
+        "gabarito": "Teste Unitário.",
+        "banca": "FGV"
+    },
+    {
+        "id": 13,
+        "enunciado": "Considerando os testes de software, ao trabalhar com o TDD (Test Driven Development), é possível utilizar uma técnica que propõe a substituição do código que define as funcionalidades por implementações falsas que emulam o código real, tornando possível que os testes sejam escritos para qualquer objeto, simplificando, assim, a estrutura dos testes e evitando a poluição do código em produção com elementos de testes propriamente ditos. Qual é o nome dessa técnica?",
+        "alternativas": [
+            "Nagios Test.",
+            "WCAG.",
+            "Mock Development.",
+            "Zabbix.",
+            "Mock Objects."
+        ],
+        "gabarito": "Mock Objects.",
+        "banca": "Instituto AOCP"
+    },
+    {
+        "id": 14,
+        "enunciado": "Assinale a opção em que é apresentada a estratégia para teste de integração de sistemas orientados a objetos com base em sequência de execução que integra o conjunto de classes necessárias para responder a uma entrada onde cada sequência de execução é integrada e testada individualmente.",
+        "alternativas": [
+            "class partition based testing.",
+            "software process based testing.",
+            "unitary cluster testing.",
+            "usage-based testing.",
+            "thread-based testing."
+        ],
+        "gabarito": "thread-based testing.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 15,
+        "enunciado": "Os Testes de Software são essenciais para garantir a qualidade dos sistemas computacionais desenvolvidos e reduzir a ocorrência de exceções e erros da solução.\nNesse contexto, considere as seguintes características:\nI- São aplicados para verificar a interação entre módulos ou serviços.\nII- São utilizados para validar o comportamento de componentes isolados, como funções ou métodos.\nIII- São empregados para garantir a cobertura de código em ambientes de produção.\nIV- São comumente executados em ambientes de homologação, mas isso não os restringe a esse contexto.\nAssinale a alternativa que traz APENAS características dos Testes de Integração.",
+        "alternativas": [
+            "I e III.",
+            "I e IV.",
+            "II e III.",
+            "II e IV."
+        ],
+        "gabarito": "I e IV.",
+        "banca": "Instituto CONSULPAM"
+    },
+    {
+        "id": 16,
+        "enunciado": "A equipe de TI de uma Secretaria da Fazenda Estadual pondera sobre aplicações de testes de software por três abordagens distintas, tais como:\nI. Validar se o sistema atende aos requisitos e expectativas do usuário final. Esse teste é geralmente executado pelo cliente ou usuário final para garantir que o sistema está pronto para uso.\nII. Verificar como o sistema se comporta sob condições extremas, como alta demanda de usuários ou grandes volumes de dados.\nIII. Garantir que alterações no código não introduzam novos defeitos em partes já testadas do sistema. Esse teste verifica se funcionalidades previamente testadas continuam funcionando após modificações.\nAtendem, correta e respectivamente, às abordagens I, II e III os testes de",
+        "alternativas": [
+            "unidade, integração e segurança.",
+            "integração, carga e unidade.",
+            "aceitação, desempenho e integração.",
+            "controle, segurança e desempenho.",
+            "aceitação, carga e regressão."
+        ],
+        "gabarito": "aceitação, carga e regressão.",
+        "banca": "FCC"
+    },
+    {
+        "id": 17,
+        "enunciado": "O IFMS está desenvolvendo um sistema para gerenciar as atividades acadêmicas e administrativas de seus cursos e, como técnico de informática, você está envolvido na fase de testes desse sistema. Durante os testes, é necessário avaliar a facilidade de uso e a experiência do usuário com a interface do sistema, verificando se ela é intuitiva e acessível aos diversos usuários.\nConsiderando esse contexto, assinale a alternativa que apresenta o tipo de teste que visa avaliar a experiência do usuário com a interface do sistema.",
+        "alternativas": [
+            "Testes unitários.",
+            "Testes de usabilidade.",
+            "Testes de integração.",
+            "Testes de regressão.",
+            "Testes de desempenho."
+        ],
+        "gabarito": "Testes de usabilidade.",
+        "banca": "Instituto AOCP"
+    },
+    {
+        "id": 18,
+        "enunciado": "Considere, por hipótese, que durante a elaboração do plano de testes do sistema de Acompanhamento de Autos de Infração, a equipe de uma Secretaria da Fazenda tenha adotado as decisões abaixo.\n- Planejou realizar testes funcionais automatizados para as principais regras de negócio, como geração de autos e emissão de relatórios, integrando-os a um pipeline de integração contínua.\n- Decidiu omitir os testes de usabilidade, considerando que os usuários finais já estavam habituados com sistemas internos anteriores semelhantes.\n- Documentou os casos de teste com base em critérios de aceitação definidos em reuniões com stakeholders de algumas áreas da Secretaria.\n- Planejou testes de regressão exploratórios a cada nova entrega do sistema, utilizando um conjunto base de funcionalidades críticas.\n- Realizou os testes de homologação em uma única iteração.\nAo analisar essas decisões, um Analista do Tesouro Estadual afirmou corretamente que a",
+        "alternativas": [
+            "substituição de testes exploratórios por testes manuais documentados garante maior flexibilidade e menor esforço de planejamento.",
+            "automação dos testes funcionais e sua integração ao pipeline de CI/CD garantem rastreabilidade, agilidade e redução de falhas em funcionalidades críticas.",
+            "decisão de excluir os testes de usabilidade com base no perfil dos usuários reduz a complexidade e permite concentrar esforços no desempenho do sistema.",
+            "opção por realizar testes de homologação em uma única iteração garante que a equipe identifique e resolva todos os problemas de maneira mais eficiente, mantendo a qualidade e a confiabilidade do produto final.",
+            "ausência de testes automatizados nas fases finais de entrega evita erros de sobreposição entre testes manuais e automatizados."
+        ],
+        "gabarito": "automação dos testes funcionais e sua integração ao pipeline de CI/CD garantem rastreabilidade, agilidade e redução de falhas em funcionalidades críticas.",
+        "banca": "FCC"
+    },
+    {
+        "id": 19,
+        "enunciado": "Uma Secretaria da Fazenda está passando por instabilidades em um novo módulo do sistema. A equipe de Garantia da Qualidade (QA) está sendo chamada para repetir rapidamente os testes funcionais sempre que o sistema é corrigido, devido a atualizações constantes. Nesse cenário de manutenção contínua e verificação rápida, o tipo mais adequado a ser utilizado é o Teste",
+        "alternativas": [
+            "de Estresse.",
+            "de Unidade.",
+            "de Regressão.",
+            "de Usabilidade.",
+            "Beta."
+        ],
+        "gabarito": "de Regressão.",
+        "banca": "FCC"
+    },
+    {
+        "id": 20,
+        "enunciado": "Em um projeto de sistema judiciário trabalhista, a equipe de desenvolvimento adota práticas de testes automatizados para garantir a qualidade do software.\nConsiderando os conceitos de cobertura de código, testes unitários, testes de integração, testes funcionais e as ferramentas JUnit e Mockito,",
+        "alternativas": [
+            "testes de integração são substituídos por testes unitários, pois ambos têm como foco a menor parte testável do sistema.",
+            "testes funcionais são equivalentes a testes unitários, pois ambos validam métodos específicos dentro de classes do sistema.",
+            "Mockito é uma ferramenta voltada para testes funcionais que simula interações de usuários com a interface do sistema.",
+            "a cobertura de código garante que o sistema está livre de erros, desde que atinja 100% de linhas executadas durante os testes.",
+            "o uso conjunto de JUnit e Mockito permite criar testes unitários eficazes, simulando comportamentos de dependências externas para isolar a unidade testada."
+        ],
+        "gabarito": "o uso conjunto de JUnit e Mockito permite criar testes unitários eficazes, simulando comportamentos de dependências externas para isolar a unidade testada.",
+        "banca": "FCC"
+    },
+    {
+        "id": 21,
+        "enunciado": "Quando da manutenção corretiva do módulo de relatórios do sistema de tramitação processual de um TRT, um técnico identificou que, ao gerar relatórios em PDF contendo muitos processos, o sistema travava intermitentemente, e registros incompletos eram salvos.\nCom base em boas práticas de manutenção de sistemas, diagnóstico de erros, geração de relatórios e metodologias de teste, a abordagem correta e mais adequada nesse cenário",
+        "alternativas": [
+            "é evitar o problema, dividindo-se o relatório em múltiplos arquivos, enviando cada um deles por e-mail diretamente do backend, reduzindo o uso de memória sem necessidade de depuração manual ou logs.",
+            "é forçar um try/catch genérico envolvendo toda a rotina de geração do relatório e, dentro do bloco de captura, exibir uma mensagem padrão ao usuário e continuar a execução do sistema sem registrar logs detalhados.",
+            "é comentar o trecho de código em que ocorre a falha na geração do PDF, de modo a evitar que a exceção interrompa o sistema. Após isso, reimplantar o sistema em produção e documentar o incidente.",
+            "é, primeiramente, analisar os logs de erro e consumo de memória durante a geração dos relatórios, replicar o erro em ambiente de teste com dados reais e utilizar uma ferramenta de profiler ou depurador para identificar gargalos e vazamentos, antes de propor correções definitivas.",
+            "é evitar o uso de testes de integração automatizados, pois, nesse caso, o erro só ocorre com alto volume de dados, sendo mais eficiente aguardar relatos de usuários para entender a origem do travamento."
+        ],
+        "gabarito": "é, primeiramente, analisar os logs de erro e consumo de memória durante a geração dos relatórios, replicar o erro em ambiente de teste com dados reais e utilizar uma ferramenta de profiler ou depurador para identificar gargalos e vazamentos, antes de propor correções definitivas.",
+        "banca": "FCC"
+    },
+    {
+        "id": 22,
+        "enunciado": "Uma aplicação foi decomposta em microsserviços. O microsserviço “Pedidos” precisou se comunicar com o microsserviço “Pagamentos” através de uma API REST para autorizar uma transação. A equipe de QA precisou validar se o “Pedidos” enviou a requisição no formato e se o “Pagamentos” respondeu adequadamente.\nCom base nessa situação hipotética, assinale a opção que apresenta o nível de teste focado em verificar a comunicação e a troca de dados entre esses dois microsserviços distintos.",
+        "alternativas": [
+            "teste unitário.",
+            "teste de sistema.",
+            "teste de integração.",
+            "teste de aceitação.",
+            "teste de usabilidade."
+        ],
+        "gabarito": "teste de integração.",
+        "banca": "QUADRIX"
+    },
+    {
+        "id": 23,
+        "enunciado": "Relacione adequadamente os tipos de testes de software às suas respectivas descrições.\n1. Unitário.\n2. Integração.\n3. Funcional.\n4. Aceitação.\n5. Desempenho.\n( ) Validar se o software é aceitável para uso de acordo com os requisitos e as necessidades de negócios.\n( ) Garantir que essas partes funcionem bem juntas como um sistema coeso.\n( ) Verificar se o código-fonte de cada unidade funciona conforme o esperado.\n( ) Certificar-se de que o software execute as ações esperadas e forneça os resultados corretos.\n( ) Medir como o sistema se comporta sob diferentes condições de carga, identificando gargalos de desempenho.\nA sequência está correta em",
+        "alternativas": [
+            "1, 3, 2, 5, 4.",
+            "4, 5, 3, 1, 2.",
+            "3, 4, 2, 5, 1.",
+            "4, 2, 1, 3, 5."
+        ],
+        "gabarito": "4, 2, 1, 3, 5.",
+        "banca": "Instituto Consulplan"
+    },
+    {
+        "id": 24,
+        "enunciado": "Analise as afirmativas abaixo e dê valores Verdadeiro (V) ou Falso (F).\n( ) O teste de segurança é uma técnica que não avalia a resistência do software a ameaças e ataques, visando não identificar vulnerabilidades e garantir a proteção dos dados.\n( ) Teste de Unidade é uma técnica que verifica obrigatoriamente em todos os componentes de um software para garantir que tudo funcione conforme esperado, dispensando completamente o teste de partes menores isoladas (unidades).\n( ) O teste de aceitação do usuário (UAT) é conduzido exclusivamente pelos desenvolvedores para garantir que o sistema atenda aos padrões de qualidade internos da equipe de desenvolvimento.\nAssinale a alternativa que apresenta a sequência correta de cima para baixo.",
+        "alternativas": [
+            "F - F - F.",
+            "V - V - F.",
+            "V - F - F.",
+            "F - V - V."
+        ],
+        "gabarito": "F - F - F.",
+        "banca": "IBFC"
+    },
+    {
+        "id": 25,
+        "enunciado": "Entre os métodos para testes de software está o teste de caixa-branca. Uma de suas aplicações consiste em determinar os caminhos que podem ser percorridos, de modo que todas as instruções e todos os resultados de condições sejam executados ao menos uma vez. Para descobrir a quantidade de caminhos independentes, o primeiro passo é desenhar um grafo direcionado, representando o código da função seguindo regras simples.\nNesse contexto, quantos caminhos possui uma função que é representada por um grafo com 9 nós e 11 arestas?",
+        "alternativas": [
+            "4.",
+            "5.",
+            "6.",
+            "7.",
+            "8."
+        ],
+        "gabarito": "4.",
+        "banca": "CESGRANRIO"
+    },
+    {
+        "id": 26,
+        "enunciado": "Um teste de regressão em desenvolvimento de software, tem como missão:",
+        "alternativas": [
+            "identificar defeitos no código-fonte.",
+            "verificar se as novas funcionalidades não interferem nas existentes.",
+            "testar a aplicação em diferentes ambientes.",
+            "avaliar o desempenho do sistema.",
+            "realizar testes de usabilidade."
+        ],
+        "gabarito": "verificar se as novas funcionalidades não interferem nas existentes.",
+        "banca": "IBFC"
+    },
+    {
+        "id": 27,
+        "enunciado": "A respeito do teste unitário de software, informe se é verdadeiro (V) ou falso (F) o que se afirma a seguir e assinale a alternativa com a sequência correta.\n( ) O teste unitário foca em validar cada componente individualmente.\n( ) O teste unitário é geralmente realizado pelos usuários finais.\n( ) O teste unitário é rápido de ser executado.\n( ) O teste unitário verifica a interação entre diferentes módulos do software.\n( ) O teste unitário pode usar frameworks específicos, como JUnit para Java.",
+        "alternativas": [
+            "V – V – F – V – F.",
+            "F – V – F – V – F.",
+            "F – F – F – V – F.",
+            "V – F – V – F – V.",
+            "V – V – V – F – F."
+        ],
+        "gabarito": "V – F – V – F – V.",
+        "banca": "Instituto AOCP"
+    },
+    {
+        "id": 28,
+        "enunciado": "Com relação aos testes de software, avalie as afirmativas a seguir e assinale V para a afirmativa verdadeira e F para a falsa.\n( ) Testes unitários são aqueles que testam os métodos de uma classe de produção, são feitos de forma automatizada, podem ser executados pressionando um botão e não exigem necessariamente nenhum conhecimento do sistema em geral.\n( ) Testes funcionais validam o sistema de software em relação aos requisitos/especificações funcionais, se concentram na simulação do uso real do software e podem ser automatizados como testes de aceitação, por meio de ferramentas como Selenium.\n( ) Testes de integração garantem, de modo independente e determinístico, que os componentes em análise realmente produzem o comportamento esperado quando se executa a verificação de partes maiores do sistema que dependem de recursos externos, e, quando envolverem acesso à banco de dados precisam garantir o seu estado somente após sua execução.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "F – F – F.",
+            "V – F – F.",
+            "V – V – F.",
+            "F – V – V.",
+            "V – V – V."
+        ],
+        "gabarito": "V – V – F.",
+        "banca": "FGV"
+    },
+    {
+        "id": 29,
+        "enunciado": "No contexto da Engenharia de Software, os testes de software desempenham um papel consideravelmente importante no âmbito do processo de desenvolvimento.\nNesse contexto, os testes de unidade caracterizam-se por",
+        "alternativas": [
+            "dependerem do sucesso do teste de integração descendente (top-down).",
+            "representarem validações em componentes que representam programas independentes.",
+            "serem responsáveis pela verificação na menor unidade do componente ou módulo de software.",
+            "substituírem paulatinamente a abordagem de teste por fumaça na verificação do software.",
+            "utilizarem como metodologia de base a abordagem de testes de regressão."
+        ],
+        "gabarito": "serem responsáveis pela verificação na menor unidade do componente ou módulo de software.",
+        "banca": "FGV"
+    },
+    {
+        "id": 30,
+        "enunciado": "Considerando os conceitos de teste de software, é correto afirmar que o Teste de Desempenho visa, especificamente,",
+        "alternativas": [
+            "examinar se o software atende aos requisitos de disponibilidade estabelecidos.",
+            "constatar se a equipe de desenvolvimento cumpriu com os prazos previamente determinados.",
+            "assegurar o funcionamento do software em diversas plataformas de hardware.",
+            "verificar se o software atende aos requisitos de usabilidade da interface com o usuário.",
+            "assegurar que o software possa realizar seu processamento de acordo com a carga pretendida."
+        ],
+        "gabarito": "assegurar que o software possa realizar seu processamento de acordo com a carga pretendida.",
+        "banca": "VUNESP"
+    },
+    {
+        "id": 31,
+        "enunciado": "A testabilidade é um fator importante para o desenvolvimento e a implementação de um software. Uma característica de um software testável é que os estados do software devem ser visíveis e podem ser consultados durante a execução.\nEssa característica é chamada de:",
+        "alternativas": [
+            "compreensibilidade;",
+            "controlabilidade;",
+            "estabilidade;",
+            "observabilidade;",
+            "operabilidade."
+        ],
+        "gabarito": "observabilidade;",
+        "banca": "FGV"
+    },
+    {
+        "id": 32,
+        "enunciado": "Leia o texto a seguir.\nO teste é uma atividade fundamental no ciclo de vida do desenvolvimento de software, que visa identificar defeitos, bugs ou problemas em um sistema de software para garantir sua qualidade e adequação aos requisitos do usuário final. Consiste em executar o software em condições controladas e observar seu comportamento, a fim de verificar se ele atende aos critérios de aceitação estabelecidos durante a fase de especificação e de desenvolvimento.\nDisponível em: <https://www.softwaretestinghelp.com/>. Acesso em: 20 fev. 2024.\nÉ uma característica essencial para o resultado adequado em testes unitários de software:",
+        "alternativas": [
+            "atomicidade: Cada teste unitário deve testar um único comportamento ou funcionalidade da unidade de código específica.",
+            "isolamento: O teste unitário deve ter um resultado esperado bem definido, além de verificar se a unidade de código está funcionando de acordo com o esperado.",
+            "precisão: Cada teste unitário deve testar uma única unidade de código de forma precisa, sem depender de outras unidades ou do ambiente externo.",
+            "execução rápida: O teste unitário deve ser executado de forma rápida, permitindo feedback rápido sobre o estado da unidade de código."
+        ],
+        "gabarito": "atomicidade: Cada teste unitário deve testar um único comportamento ou funcionalidade da unidade de código específica.",
+        "banca": "Instituto Verbena"
+    },
+    {
+        "id": 33,
+        "enunciado": "A abordagem que se concentra principalmente em examinar as estruturas internas ou os funcionamentos de uma aplicação de software é denominada teste de",
+        "alternativas": [
+            "sistema.",
+            "caixa preta.",
+            "caixa branca.",
+            "aceitação.",
+            "caixa cinza."
+        ],
+        "gabarito": "caixa branca.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 34,
+        "enunciado": "Assinale a opção em que é corretamente apresentado o tipo de teste de software responsável por verificar se diferentes partes do sistemas de software foram projetadas para interagir entre si e se fazem essa interação corretamente, avaliando, inclusive, como os dados são transferidos entre elas.",
+        "alternativas": [
+            "teste de desempenho.",
+            "teste unitário.",
+            "teste funcional.",
+            "teste de integração.",
+            "teste de aceitação."
+        ],
+        "gabarito": "teste de integração.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 35,
+        "enunciado": "A excelência no desenvolvimento de software começa com testes meticulosos, assim como a precisão é crucial em uma obra de arte. Diversas técnicas de teste de software existem, cada uma com propósito e abordagem específicos.\nAssinale a opção que indica o tipo de teste que assegura que as funcionalidades previamente implementadas não serão afetadas pelas alterações feitas no código.",
+        "alternativas": [
+            "Teste Unitário.",
+            "Teste de Integração.",
+            "Teste de Usabilidade.",
+            "Teste de Regressão."
+        ],
+        "gabarito": "Teste de Regressão.",
+        "banca": "FGV"
+    },
+    {
+        "id": 36,
+        "enunciado": "Existem várias técnicas de teste de software, cada uma com seus próprios objetivos e métodos específicos. Relacione os testes de software listados a seguir, às suas respectivas definições.\n1. Teste Funcional\n2. Teste de Conformidade\n3. Teste de Caixa Preta\n4. Teste de Desempenho\n( ) Avalia como o sistema se comporta em termos de velocidade, escalabilidade e estabilidade sob diferentes condições de carga.\n( ) Testa o software sem conhecimento interno da lógica ou estrutura do código, focando nos requisitos e funcionalidades visíveis.\n( ) Verifica se as funções do software estão operando conforme esperado. Isso pode incluir testes de casos de uso, fluxos de trabalho e requisitos funcionais.\n( ) Verifica se o software atende a padrões, regulamentos e requisitos legais.\nAssinale a opção que indica a relação correta, na ordem apresentada.",
+        "alternativas": [
+            "2 – 4 – 3 – 1.",
+            "2 – 1 – 3 – 4.",
+            "4 – 3 – 1 – 2.",
+            "4 – 2 – 1 – 3."
+        ],
+        "gabarito": "4 – 3 – 1 – 2.",
+        "banca": "FGV"
+    },
+    {
+        "id": 37,
+        "enunciado": "Uma das técnicas de teste de software recebe a denominação de teste de caixa preta, sendo que essa técnica apresenta, especificamente, a seguinte característica:",
+        "alternativas": [
+            "os testes são orientados e dirigidos pelas entradas e saídas dos módulos sob teste, não se entrando em sua estrutura interna.",
+            "os testes são realizados por meio de um simulador especial denominado Black Box.",
+            "cada teste é reproduzido por pelo menos três vezes, sendo seus resultados comparados.",
+            "os testes verificam a correção dos comandos de desvio existentes internamente ao código.",
+            "a execução de testes para todos os valores possíveis para cada variável presente no programa."
+        ],
+        "gabarito": "os testes são orientados e dirigidos pelas entradas e saídas dos módulos sob teste, não se entrando em sua estrutura interna.",
+        "banca": "VUNESP"
+    },
+    {
+        "id": 38,
+        "enunciado": "Em certa empresa de desenvolvimento de software, a equipe de qualidade é responsável por garantir que os produtos entregues atendam aos mais altos padrões de qualidade. Como parte desse processo, a equipe realiza uma série de testes para verificar funcionalidade, desempenho e confiabilidade do software desenvolvido.\nConsidere a seguinte situação hipotética: A equipe de desenvolvimento está trabalhando em um sistema de gerenciamento de inventário para uma cadeia de lojas de varejo. Durante o desenvolvimento, foram implementadas várias funcionalidades, incluindo a adição de novos itens ao estoque, atualização de quantidades disponíveis e geração de relatórios de vendas. Para testar essas funcionalidades de forma eficiente, a equipe utiliza mocks e stubs.\nQual é o objetivo principal do uso de mocks e stubs durante os testes de software?",
+        "alternativas": [
+            "Acelerar o processo de desenvolvimento de software.",
+            "Garantir que o software seja totalmente livre de bugs.",
+            "Simular o comportamento do usuário final durante os testes.",
+            "Isolar e controlar o comportamento de componentes dependentes durante os testes."
+        ],
+        "gabarito": "Isolar e controlar o comportamento de componentes dependentes durante os testes.",
+        "banca": "Instituto Consulplan"
+    },
+    {
+        "id": 39,
+        "enunciado": "O objetivo principal do processo de teste de software é detectar a presença de erros no sistema testado. Sendo assim, o teste bem sucedido é aquele que consegue determinar situações nas quais o software falhe. Para se alcançar tal objetivo, diversas são as técnicas que podem ser empregadas. O Teste de Regressão apresenta as seguintes características:",
+        "alternativas": [
+            "consiste em aplicar, antes e depois da alteração, todos os testes que já foram aplicados nas versões anteriores;",
+            "é projetado em função da estrutura interna do sistema e, por isso, permite uma verificação mais precisa do funcionamento do software;",
+            "não está preocupado com o comportamento interno do sistema durante a execução do teste, mas sim com a saída gerada após a entrada dos dados especificados;",
+            "essa técnica de teste deve validar os requisitos de segurança, visando identificar as vulnerabilidades do sistema;",
+            "basicamente, é um teste de carga abrangendo cargas de trabalho extremas, memória insuficiente, hardware e serviços indisponíveis ou recursos compartilhados limitados."
+        ],
+        "gabarito": "consiste em aplicar, antes e depois da alteração, todos os testes que já foram aplicados nas versões anteriores;",
+        "banca": "IBADE"
+    },
+    {
+        "id": 40,
+        "enunciado": "Quanto às tarefas de testes de software, assinale a alternativa correta.",
+        "alternativas": [
+            "Testes de regressão são desenvolvidos de modo incremental durante o desenvolvimento do software, para avaliar se alterações no software introduziram comportamentos inesperados.",
+            "É fundamental que o time de garantia de qualidade seja o mesmo que desenvolveu o produto.",
+            "Em testes automatizados, o desenvolvedor deve se preocupar apenas com o resultado do retorno, e não com o corpo dos métodos e das funções.",
+            "Testes unitários avaliam o sistema como um conjunto unificado de funcionalidades.",
+            "O desenvolvimento dos testes automatizados deve ser iniciado assim que o produto for considerado pronto para entrega."
+        ],
+        "gabarito": "Testes de regressão são desenvolvidos de modo incremental durante o desenvolvimento do software, para avaliar se alterações no software introduziram comportamentos inesperados.",
+        "banca": "IADES"
+    },
+    {
+        "id": 41,
+        "enunciado": "Como profissional de TI do Poder Executivo do Estado do Paraná, você está responsável por testar um software em desenvolvimento, e o próximo teste a ser realizado será o de integração. Diante disso, assinale a alternativa que melhor descreve o teste de integração.",
+        "alternativas": [
+            "Verifica a corretude de unidades individuais do código, como funções ou métodos.",
+            "Garante que as alterações recentes não afetem negativamente as funcionalidades existentes.",
+            "Avalia o desempenho e a capacidade de resposta do sistema sob diferentes condições de carga.",
+            "Identifica vulnerabilidades e garante que o sistema seja resistente a ataques.",
+            "Verifica a interação entre diferentes módulos ou sistemas."
+        ],
+        "gabarito": "Verifica a interação entre diferentes módulos ou sistemas.",
+        "banca": "Instituto AOCP"
+    },
+    {
+        "id": 42,
+        "enunciado": "Carlos Alberto é o analista de Desenvolvimento de Sistemas responsável pela área de qualidade de software e pretende aplicar um teste de software para verificar se os módulos funcionam corretamente em conjunto, analisando também se as interfaces que fazem parte do sistema conseguem se comunicar e se ocorrem conflitos de dependência. Esse tipo de teste constitui a categoria dos",
+        "alternativas": [
+            "Testes Unitários.",
+            "Testes de Regressão.",
+            "Testes de Usabilidade.",
+            "Testes de Integração.",
+            "Testes de Desempenho."
+        ],
+        "gabarito": "Testes de Integração.",
+        "banca": "Instituto AOCP"
+    },
+    {
+        "id": 43,
+        "enunciado": "A pirâmide de testes, proposta por Mike Cohn, classifica os testes de software de acordo com sua granularidade e quantidade. Os testes de maior granularidade ficam no topo da pirâmide, enquanto os testes de menor granularidade ficam na base da pirâmide.\nFazem parte da pirâmide de teste, exceto:",
+        "alternativas": [
+            "Testes de Unidade.",
+            "Testes de Integração.",
+            "Testes de Sistema.",
+            "Testes A/B."
+        ],
+        "gabarito": "Testes A/B.",
+        "banca": "FUNDEP"
+    },
+    {
+        "id": 44,
+        "enunciado": "Um programador deve desenvolver testes unitários para uma função que interage com uma API externa, fornecida por um terceiro e acessada via internet.\nPara garantir que os testes sejam feitos de forma isolada, de acordo com as melhores práticas de testes, o programador deve",
+        "alternativas": [
+            "substituir as chamadas à API por atribuições de constantes.",
+            "estabelecer uma conexão VPN para a API externa.",
+            "criar um mock da API.",
+            "comentar as partes que chamam a API.",
+            "criar breakpoints antes das chamadas da API."
+        ],
+        "gabarito": "criar um mock da API.",
+        "banca": "CESGRANRIO"
+    },
+    {
+        "id": 45,
+        "enunciado": "Algumas vezes chamado de teste alfa, este tipo de teste corresponde à fase final do processo de testes, precedendo a liberação do software para uso operacional.\nA aplicação é testada com dados fornecidos pelo cliente, o que pode revelar problemas na definição dos requisitos do sistema, uma vez que o software é provocado de maneira diferente ao usar os dados reais em vez de dados de teste.\nA definição acima descreve aspectos a respeito do teste de",
+        "alternativas": [
+            "aceitação.",
+            "componente.",
+            "sistema.",
+            "regressão.",
+            "unidade."
+        ],
+        "gabarito": "aceitação.",
+        "banca": "FGV"
+    },
+    {
+        "id": 46,
+        "enunciado": "Testes de Usabilidade são uma prática fundamental na Engenharia de Usabilidade, focando na observação de como usuários reais interagem com o sistema.\nSobre esses testes, é correto afirmar que",
+        "alternativas": [
+            "devem sempre ser conduzidos em laboratório especializado.",
+            "métodos heurísticos de avaliação envolvem usuários reais testando a interface.",
+            "testes não moderados são indicados quando é necessária a coleta de dados em grande escala.",
+            "não devem ser executados usando protótipos do sistema.",
+            "testes A/B são utilizados para coletar feedback qualitativo detalhado dos usuários."
+        ],
+        "gabarito": "testes não moderados são indicados quando é necessária a coleta de dados em grande escala.",
+        "banca": "FGV"
+    },
+    {
+        "id": 47,
+        "enunciado": "Testes de usabilidade podem ser classificados em vários tipos, conforme o seu objetivo.\nO teste de exploração, frequentemente realizado durante o desenvolvimento de uma aplicação web, tem por objetivo",
+        "alternativas": [
+            "validar a conformidade da aplicação com as nas Diretrizes de Acessibilidade para Conteúdo Web (WCAG).",
+            "entender como os usuários pensam e determinar como as funcionalidades devem operar.",
+            "escolher qual a solução mais adequada entre duas opções, através de um processo de comparação.",
+            "efetivar o teste exaustivo das funcionalidades, empregando de protótipos de alta fidelidade.",
+            "medir a performance da aplicação em diferentes dispositivos, garantindo sua acessibilidade."
+        ],
+        "gabarito": "entender como os usuários pensam e determinar como as funcionalidades devem operar.",
+        "banca": "FGV"
+    },
+    {
+        "id": 48,
+        "enunciado": "Segundo o modelo de quadrantes de testes ágeis, para testes de aceitação do sistema direcionados ao negócio e à crítica do produto, tais como testes exploratórios, de cenários e de usabilidade, os testes mais indicados são os",
+        "alternativas": [
+            "manuais.",
+            "manuais e automatizados.",
+            "apoiados por ferramentas.",
+            "automatizados.",
+            "automatizados e com ferramentas."
+        ],
+        "gabarito": "manuais.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 49,
+        "enunciado": "Um engenheiro de computação é responsável pela Gerência de Testes de Integração. Ele está realizando um planejamento dos tipos de testes de integração e elaborou os tipos de testes com as suas respectivas descrições, conforme a seguir.\nI. No teste de integração descendente, os módulos são integrados por meio da hierarquia de controle, começando com o módulo de controle principal em direção aos módulos subordinados.\nII. No teste de regressão é realizada a reexecução do mesmo subconjunto de testes que já foram executados, para assegurar que as alterações não tenham propagado efeitos colaterais indesejados.\nIII. No teste de integração ascendente inicia-se os testes com os módulos atômicos, sendo que a funcionalidade proporcionada por componentes subordinados a determinado nível estará sempre disponível.\nIV. No teste fumaça é projetado um mecanismo de projetos com prazo pouco crítico, para que a equipe de software avalie o projeto em prazos mais prolongados.\nEstão corretas apenas as afirmativas",
+        "alternativas": [
+            "I e II.",
+            "I, III e IV.",
+            "I, II e III.",
+            "III e IV."
+        ],
+        "gabarito": "I, II e III.",
+        "banca": "DIRENS Aeronáutica"
+    },
+    {
+        "id": 50,
+        "enunciado": "Quando são desenvolvidos sistemas, uma das principais funções é a elaboração dos testes, garantindo a sua qualidade. Neste sentido, o engenheiro de software precisa elaborar um checklist de testes de interface.\nInforme verdadeiro (V) ou falso (F) para as assertivas a seguir, sobre os testes de interface, em seguida, marque a opção que apresenta a sequência correta.\n( )Teste de validação de fronteiras.\n( )Teste de solicitação de informação.\n( )Teste de validação de entrada de dados.\n( )Teste de transmissão de dados.",
+        "alternativas": [
+            "(V); (V); (V); (F).",
+            "(F); (F); (F); (V).",
+            "(V); (F); (V); (V).",
+            "(F); (V); (F); (F)."
+        ],
+        "gabarito": "(V); (V); (V); (F).",
+        "banca": "DIRENS Aeronáutica"
+    },
+    {
+        "id": 51,
+        "enunciado": "Em um projeto de desenvolvimento de software, os desenvolvedores perceberam que, ao integrar diferentes módulos do sistema, o comportamento esperado não estava sendo alcançado. Os desenvolvedores notaram que as funções individuais dentro de cada módulo não estavam retornando os resultados esperados, mesmo antes da integração. Para identificar a origem dos problemas e corrigi-los, devem ser priorizados os testes de",
+        "alternativas": [
+            "aceitação.",
+            "independência.",
+            "modularidade.",
+            "carga.",
+            "unidade."
+        ],
+        "gabarito": "unidade.",
+        "banca": "CESGRANRIO"
+    },
+    {
+        "id": 52,
+        "enunciado": "Outra categoria importante dos testes de software são os testes de integração. O propósito dos testes de integração em desenvolvimento de software é",
+        "alternativas": [
+            "avaliar o desempenho do software em termos de tempo de resposta e escalabilidade sob condições de carga pesada.",
+            "verificar a conformidade do software com os requisitos e especificações do usuário, geralmente com foco no sistema como um todo.",
+            "garantir que cada componente ou módulo do software funcione corretamente quando testado isoladamente.",
+            "testar a interação entre diferentes módulos ou componentes do sistema para assegurar que eles funcionam corretamente em conjunto.",
+            "validar a interface do usuário e a usabilidade do software durante a execução real pelo usuário final."
+        ],
+        "gabarito": "testar a interação entre diferentes módulos ou componentes do sistema para assegurar que eles funcionam corretamente em conjunto.",
+        "banca": "FGV"
+    },
+    {
+        "id": 53,
+        "enunciado": "Considerando diferentes técnicas de teste de validação de software, enquadram-se os denominados testes alfa e testes beta, sendo correto que os testes do tipo",
+        "alternativas": [
+            "beta não têm a participação de usuários finais do software.",
+            "alfa aplicam-se exclusivamente a sistemas voltados para a Internet.",
+            "beta não são aplicados a sistemas produzidos com linguagens orientadas a objetos.",
+            "alfa são realizados nas instalações da equipe de desenvolvimento do software.",
+            "alfa são realizados em instalações especiais contratadas junto a terceiros, denominadas AlfaTeste."
+        ],
+        "gabarito": "alfa são realizados nas instalações da equipe de desenvolvimento do software.",
+        "banca": "VUNESP"
+    },
+    {
+        "id": 54,
+        "enunciado": "O tipo de teste de software que serve para garantir que todas ou algumas partes de um sistema estão dialogando e funcionando corretamente em conjunto é o teste",
+        "alternativas": [
+            "de regressão.",
+            "de aceitação.",
+            "de integração.",
+            "de validação.",
+            "unitário."
+        ],
+        "gabarito": "de integração.",
+        "banca": "FGV"
+    },
+    {
+        "id": 55,
+        "enunciado": "O Teste de software é parte de um processo mais amplo de Validação e Verificação (V&V). As atividades de V, V & T compõem atividades caracterizadas como estáticas e dinâmicas, cujo objetivo é avaliar os diferentes artefatos dos sistemas de software na busca de identificação de erros.\n(SOMMERVILLE I. Engenharia de Software; 10ªed. Porto São Paulo: Pearson, 2019. Adaptado.) Considerando conceitos, técnicas e ferramentas de VV&T aplicados em sistemas tradicionais, assim como aqueles aplicados em ambiente ágil, analise as afirmativas a seguir.\nI. Os processos de verificação e validação estão preocupados em conferir se o software que está sendo desenvolvido cumpre sua especificação e fornece a funcionalidade esperada pelos clientes. Esse processo inicia-se logo que os requisitos de software são identificados e permanecem por todos os estágios do ciclo de vida do sistema.\nII. O teste de caminho básico é uma técnica de caixa-preta que permite que o projetista de casos de teste derive uma medida da complexidade lógica de um projeto procedimental e a use como guia para definir um conjunto-base de caminhos para a realização do teste.\nIII. A Análise do Valor Limite (AVL) é uma técnica de projeto de casos de teste que complementa o particionamento de equivalência. Em vez de selecionar qualquer elemento de uma classe de equivalência, a AVL conduz à seleção de casos de teste nas “bordas” da classe. Em vez de focalizar somente nas condições de entradas, obtém casos de teste também a partir do domínio de saída.\nIV. O teste de cenário é uma abordagem importante no ambiente ágil para testar histórias. O teste combina a compreensão do testador sobre o sistema, juntamente com o pensamento crítico, para definir “testes” experimentais e focados, que podem ser executados em curtos períodos de tempo e, em seguida, retroalimentados no processo de planejamento do teste.\nEstá correto o que se afirma apenas em",
+        "alternativas": [
+            "I e II.",
+            "I e III.",
+            "I, II e IV.",
+            "II, III e IV."
+        ],
+        "gabarito": "I e III.",
+        "banca": "Instituto Consulplan"
+    },
+    {
+        "id": 56,
+        "enunciado": "Dentre as várias estratégias de teste de software, há uma delas que estabelece que quando da realização de testes de integração de módulos de software, alguns testes são executados novamente de modo a verificar se a adição de novos módulos não tenha provocado erros até então inexistentes. A essa técnica atribui-se a denominação de teste",
+        "alternativas": [
+            "adaptativo.",
+            "principal.",
+            "de regressão.",
+            "secundário.",
+            "estratégico."
+        ],
+        "gabarito": "de regressão.",
+        "banca": "VUNESP"
+    },
+    {
+        "id": 57,
+        "enunciado": "Em relação aos conceitos de verificação e validação relacionados ao teste de software, correlacione as colunas a seguir:\nTarefa\n1. Verificação\n2. Validação Característica\n( ) Checar se o software atende a seus requisitos funcionais e não funcionais.\n( ) Garantir que o software atenda às expectativas do cliente.\n( ) “Estamos construindo o produto certo?”.\n( ) “Estamos construindo o produto da maneira certa?”.\n( ) Garantir que o software implementa corretamente uma função específica.\nA sequência CORRETA, de cima para baixo, é:",
+        "alternativas": [
+            "1, 1, 2, 1, 2.",
+            "1, 2, 1, 2, 1.",
+            "1, 2, 2, 1, 1.",
+            "2, 1, 2, 1, 2."
+        ],
+        "gabarito": "1, 2, 2, 1, 1.",
+        "banca": "FUMARC"
+    },
+    {
+        "id": 58,
+        "enunciado": "Em relação às etapas de teste de software, correlacione as colunas a seguir:\nEtapa de teste\n1. Teste de unidade\n2. Teste de integração\n3. Teste de validação\n4. Teste de sistema Objetivo\n( ) Foca no projeto e construção da arquitetura de software, ao mesmo tempo em que se realizam testes para descobrir erros associados às interfaces.\n( ) Garante que o software satisfaz a todos os requisitos funcionais, comportamentais e de desempenho.\n( ) Verifica se o software e todos os outros elementos se combinam corretamente e se a função/desempenho global é obtido.\n( ) Foca em cada componente individualmente, garantindo que ele funcione adequadamente.\nA sequência CORRETA, de cima para baixo, é:",
+        "alternativas": [
+            "2, 3, 4, 1.",
+            "2, 4, 1, 3.",
+            "2, 4, 3, 1.",
+            "3, 2, 1, 4."
+        ],
+        "gabarito": "2, 3, 4, 1.",
+        "banca": "FUMARC"
+    },
+    {
+        "id": 59,
+        "enunciado": "Tipo de teste de integração que executa novamente um mesmo subconjunto de testes que já foram executados, para assegurar que as alterações não tenham propagado efeitos colaterais indesejados é",
+        "alternativas": [
+            "Teste beta.",
+            "Teste de caixa preta.",
+            "Teste de recuperação.",
+            "Teste de regressão."
+        ],
+        "gabarito": "Teste de regressão.",
+        "banca": "FUMARC"
+    },
+    {
+        "id": 60,
+        "enunciado": "Considere as seguintes características de testes de software.\nI. Medir a confiabilidade, a velocidade, a escalabilidade e a capacidade de resposta de um aplicativo. Por exemplo, nesse teste pode-se observar tempos de resposta ao executar um grande número de solicitações, ou ver como o sistema se comporta com quantidade significativa de dados.\nII. Verificar se um sistema atende aos requisitos de negócios. Eles exigem que todo o aplicativo esteja ativo e em execução e foca em replicar os comportamentos do usuário.\nIII. Testar a interação com o banco de dados ou garantir que os microsserviços funcionem juntos conforme o esperado.\nAs características correspondem, correta e respectivamente, a teste",
+        "alternativas": [
+            "de desempenho – de negócio – de carga.",
+            "de carga – de aceitação – funcional.",
+            "funcional – de unidade – de interação.",
+            "de carga – de avaliação – de negócio.",
+            "de desempenho – de aceitação – de integração."
+        ],
+        "gabarito": "de desempenho – de aceitação – de integração.",
+        "banca": "FCC"
+    },
+    {
+        "id": 61,
+        "enunciado": "Pensando em teste de aplicações, existe uma pirâmide do teste prático utilizado como uma metáfora que orienta os testes de aplicações. Sobre as camadas existentes nas pirâmides, analise as proposições abaixo.\nI. Teste de Unidade.\nII. Teste de Autenticação.\nIII. Teste de Interface de Usuário.\nIV. Teste de Serviço.\nÉ correto o que se afirma, apenas, em",
+        "alternativas": [
+            "I, II e III.",
+            "I, II e IV.",
+            "I, III e IV.",
+            "II, III e IV."
+        ],
+        "gabarito": "I, III e IV.",
+        "banca": "INSTITUTO MAIS"
+    },
+    {
+        "id": 62,
+        "enunciado": "Relacione a Coluna 1 à Coluna 2, associando os tipos de testes de software aos respectivos focos de verificação.\nColuna 1\n1. Teste de integração.\n2. Teste de desempenho.\n3. Teste de unidade.\nColuna 2\n( ) Componentes ou módulos do software.\n( ) Tempo de execução do software dentro do contexto de um sistema integrado.\n( ) Arquitetura do software.\nA ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+        "alternativas": [
+            "1 – 2 – 3.",
+            "1 – 3 – 2.",
+            "2 – 3 – 1.",
+            "3 – 1 – 2.",
+            "3 – 2 – 1."
+        ],
+        "gabarito": "3 – 2 – 1.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 63,
+        "enunciado": "Qual dos seguintes processos de teste/validação de sistemas é realizado para verificar se o sistema produz o resultado desejado?",
+        "alternativas": [
+            "Validação de Estilo.",
+            "Teste de Estresse.",
+            "Teste de Regressão.",
+            "Análise de Risco.",
+            "Teste de Aceitação."
+        ],
+        "gabarito": "Teste de Aceitação.",
+        "banca": "AVANÇASP"
+    },
+    {
+        "id": 64,
+        "enunciado": "Em relação a testes unitários, são suas principais características:\nI. Rapidez na execução dos testes.\nII. Curto tempo no seu desenvolvimento.\nIII. Alta complexidade.\nIV. Testa a menor unidade do sistema.\nV. Baixo acoplamento entre classes.\nQuais estão corretas?",
+        "alternativas": [
+            "Apenas I e II.",
+            "Apenas I e III.",
+            "Apenas I, II e IV.",
+            "Apenas III, IV e V.",
+            "Apenas I, II, III e V."
+        ],
+        "gabarito": "Apenas I, II e IV.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 65,
+        "enunciado": "Os testes ______________ têm como objetivo aferir o comportamento de sistemas e módulos distintos; por sua vez, os testes _____________ focam nos métodos, funções de uma classe de um único sistema; os testes ____________ identificam as vulnerabilidades do sistema, por fim, os testes _________ têm o propósito de garantir que as mudanças realizadas em uma nova versão da aplicação não gerem erros em componentes prontos e já testados.\nAssinale a alternativa que preenche, correta e respectivamente, as lacunas do trecho acima.",
+        "alternativas": [
+            "unitários – integração – segurança – regressão.",
+            "integração – unitários – segurança – regressão.",
+            "regressão – segurança – unitários – integração.",
+            "segurança – unitários – performance – regressão.",
+            "integração – unitários – segurança – performance."
+        ],
+        "gabarito": "integração – unitários – segurança – regressão.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 66,
+        "enunciado": "Em relação às técnicas adotadas nos testes de software, quais de fato podem ser usadas na criação de testes?",
+        "alternativas": [
+            "Tabela de decisão, Particionamento de Equivalência, Análise do valor limite.",
+            "Análise do valor limite, Caso de uso, Técnica da melhor entrada.",
+            "Particionamento de Equivalência, Análise do valor limite, Builder.",
+            "Caso de uso, Builder, Técnica da melhor entrada.",
+            "Particionamento de Equivalência, Técnica da melhor entrada, Caso de Uso."
+        ],
+        "gabarito": "Tabela de decisão, Particionamento de Equivalência, Análise do valor limite.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 67,
+        "enunciado": "Dentro da área de testes de software, tem-se o conceito de “Testes Limpos”, o qual dispõe de cinco regras que formam o acrônimo em inglês F.I.R.S.T. Assinale a alternativa que contempla o significado desse acrônimo.",
+        "alternativas": [
+            "Fast, Independent, Recursive, Security, Time.",
+            "First, Injection, Repeatable, Security, Timely.",
+            "First, Independent, Recursive, Self-Validating, Temporary.",
+            "Fast, Independent, Repeatable, Self-Validating, Timely.",
+            "First, Injection, Repeatable, Self-Validating, Temporary."
+        ],
+        "gabarito": "Fast, Independent, Repeatable, Self-Validating, Timely.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 68,
+        "enunciado": "Os testes de software são organizados em quatro dimensões ou níveis, o que simplifica o entendimento por parte da equipe que está conduzindo, bem como amplia a cobertura dos testes e a eficiência da detecção de defeitos. Assinale a alternativa que NÃO se trata de um nível de teste.",
+        "alternativas": [
+            "Regressão.",
+            "Unitário.",
+            "Integração.",
+            "Sistema.",
+            "Aceitação."
+        ],
+        "gabarito": "Regressão.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 69,
+        "enunciado": "Em 1978, o autor Glenford Myers publicou um livro chamado “The Art of Software Testing\", cuja tradução em língua portuguesa significa “A arte de teste de software\". Na obra, ele já apresentava uma profunda análise dos problemas que a falta do teste de software poderia causar ao projeto. Além disto, o livro também contempla a Regra 10 de Myers.\nSobre o tema, analise as afirmações seguintes e assinale a alternativa correta.\nI- A Regra 10 de Myers afirma que não existe software sem erro, assim, não se deve investir recursos e tempo para testar sistemas.\nII- De acordo com a regra 10 de Myers, no caso de um erro não é identificado, a cada fase do desenvolvimento que o erro segue, os custos de sua correção multiplicam-se por 10.\nIII- A Regra 10 de Myers afirma que quanto mais cedo os defeitos forem encontrados, mais barato será corrigi-los.\nIV- De acordo com Myers, a qualidade de software é um processo sistemático que é aplicada em todas as etapas do processo com objetivo de garantir a conformidade de processos e produtos.",
+        "alternativas": [
+            "Apenas as afirmações I e II estão corretas.",
+            "Apenas as afirmações II e III estão corretas.",
+            "Apenas as afirmações II, III e IV estão corretas.",
+            "Apenas as afirmações III e IV estão corretas.",
+            "Apenas as afirmações I e IV são corretas."
+        ],
+        "gabarito": "Apenas as afirmações II, III e IV estão corretas.",
+        "banca": "CETAP"
+    },
+    {
+        "id": 70,
+        "enunciado": "Assinale a alternativa que indica corretamente o nome do documento utilizado em testes de software que descreve em detalhes o teste de uma parte específica do software.",
+        "alternativas": [
+            "Caso de teste.",
+            "Plano de teste.",
+            "Roteiro de teste.",
+            "Relatório de teste.",
+            "Teste unitário."
+        ],
+        "gabarito": "Caso de teste.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 71,
+        "enunciado": "Qual o tipo de teste tem como objetivo testar cada nova versão do software toda vez que uma funcionalidade é modificada para verificar se essa mudança não resultou em problemas tais como erros já corrigidos e que retornaram com a nova versão?",
+        "alternativas": [
+            "Teste de Sistema.",
+            "Teste de Caixa branca.",
+            "Teste de Caixa preta.",
+            "Teste de Regressão.",
+            "Teste de Integração."
+        ],
+        "gabarito": "Teste de Regressão.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 72,
+        "enunciado": "São características importantes observadas na execução dos testes de software:\nI. Repetição dos testes em sua totalidade de maneira exaustiva.\nII. Armazenamento dos casos de teste, testados e documentados com os seus resultados.\nIII. Fidelidade na reprodução dos testes.\nIV. Arquivos de log com o histórico completo das atividades de teste.\nQuais pertencem às ferramentas de automação de testes?",
+        "alternativas": [
+            "Apenas I e II.",
+            "Apenas I e IV.",
+            "Apenas II e IV.",
+            "Apenas I, III e IV.",
+            "I, II, III e IV."
+        ],
+        "gabarito": "I, II, III e IV.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 73,
+        "enunciado": "Analise as assertivas a seguir, que apresentam algumas características relacionadas ao teste de software:\nI. O desenvolvedor não pode testar a unidade por ele desenvolvida.\nII. O teste da unidade verifica se ela funciona sem erros de maneira isolada.\nIII. Por unidade entende-se como sendo a menor porção de um projeto de software que pode ser testado.\nIV. É importante que o testador tenha o conhecimento detalhado dos requisitos da unidade que será testada.\nQuais pertencem ao teste unitário?",
+        "alternativas": [
+            "Apenas I e II.",
+            "Apenas I e III.",
+            "Apenas II e IV.",
+            "Apenas II, III e IV.",
+            "I, II, III e IV."
+        ],
+        "gabarito": "Apenas II, III e IV.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 74,
+        "enunciado": "O tipo de teste de software que tem por objetivo avaliar seus aspectos internos e externos, com suas entradas, fluxo dos dados e saídas, sendo a combinação de dois tipos de testes é o Teste de:",
+        "alternativas": [
+            "Volume.",
+            "Segurança.",
+            "Caixa Cinza.",
+            "Usabilidade.",
+            "Performance."
+        ],
+        "gabarito": "Caixa Cinza.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 75,
+        "enunciado": "O teste _____________ é o processo de testar os componentes de programa, como métodos ou classes de objeto. As funções individuais ou métodos são do tipo mais simples de componente. Seus testes devem ser chamados para essas rotinas com parâmetros diferentes de entrada.\nAssinale a alternativa que preenche corretamente a lacuna do trecho acima.",
+        "alternativas": [
+            "de componente.",
+            "de sistema.",
+            "de usuário.",
+            "unitário.",
+            "de release."
+        ],
+        "gabarito": "unitário.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 76,
+        "enunciado": "Relacione a Coluna 1 à Coluna 2, associando os tipos de teste de software às suas definições.\nColuna 1\n1. Teste de Unidade.\n2. Teste de Integração.\n3. Teste de Validação.\nColuna 2\n( ) O teste começa quando componentes individuais já foram exercitados, o software está completamente montado como um pacote e os erros de interface foram descobertos e corrigidos. O teste focaliza ações visíveis ao usuário e saídas de sistema reconhecidas pelo usuário.\n( ) Focaliza o esforço de verificação na menor unidade de projeto do software – o componente ou o módulo de software.\n( ) Abordagem incremental para construção da arquitetura do software. Os módulos são integrados movendo-se descendentemente pela hierarquia de controle, começando com o módulo de controle principal (programa principal). Os módulos subordinados são incorporados à estrutura de maneira primeiro-em-profundidade ou primeiro-em-largura.\n( ) Técnica sistemática para construir a arquitetura do software enquanto, ao mesmo tempo, conduz testes para descobrir erros associados às interfaces.\nA ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+        "alternativas": [
+            "3 – 1 – 2 – 2.",
+            "1 – 2 – 3 – 3.",
+            "2 – 3 – 1 – 2.",
+            "2 – 1 – 3 – 3.",
+            "3 – 2 – 2 – 1."
+        ],
+        "gabarito": "3 – 1 – 2 – 2.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 77,
+        "enunciado": "Um tipo de teste de software que pode ser aplicado a sistemas web consiste em utilizar ferramentas automatizadas para fornecer entradas inválidas ou inesperadas, verificando se o sistema falha ou age de forma inapropriada. Esse teste é conhecido como",
+        "alternativas": [
+            "session timeout.",
+            "session fixation.",
+            "teste de carga.",
+            "XSS.",
+            "fuzzing."
+        ],
+        "gabarito": "fuzzing.",
+        "banca": "VUNESP"
+    },
+    {
+        "id": 78,
+        "enunciado": "Testar um software não é apenas encontrar algum erro/problema, mas envolve investigar, analisar e garantir que a entrega será realizada com qualidade (qualidade do código desenvolvido, dos requisitos acordados, dos padrões adotados e afins). Duas técnicas de teste de software são testes de caixa branca e testes de caixa preta.\nRelacione a Coluna 1 à Coluna 2, associando as técnicas de teste de software aos itens.\nColuna 1\n1. Teste de caixa branca.\n2. Teste de caixa preta.\nColuna 2\n( ) Análise de valor limite.\n( ) Teste de condição.\n( ) Teste de tabela de decisão.\n( ) Teste funcional.\n( ) Teste estrutural.\n( ) Teste de ciclo.\nA ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+        "alternativas": [
+            "1 – 1 – 2 – 1 – 2 – 2.",
+            "1 – 2 – 1 – 1 – 2 – 2.",
+            "2 – 1 – 2 – 2 – 1 – 1.",
+            "2 – 1 – 1 – 2 – 1 – 2.",
+            "1 – 2 – 1 – 2 – 1 – 1."
+        ],
+        "gabarito": "2 – 1 – 2 – 2 – 1 – 1.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 79,
+        "enunciado": "Muitas empresas fazem apenas testes funcionais em seus sistemas, mas na busca contínua por mais qualidade, menos riscos e melhores resultados, estão utilizando diversos outros tipos de testes. Relacione a Coluna 1 à Coluna 2, associando os tipos de testes com sua explicação.\nColuna 1\n1. Teste de usabilidade.\n2. Teste de segurança.\n3. Teste de desempenho.\n4. Teste de stress.\n5. Teste de portabilidade.\nColuna 2\n( ) Verificar aspectos que envolvem a experiência do usuário ao utilizar o sistema.\n( ) Verificar o comportamento do sistema em condições extremas.\n( ) Verificar o funcionamento do sistema em diferentes plataformas e dispositivos, nas quais o sistema está proposto a funcionar.\n( ) Verificar o tempo de resposta para determinadas operações.\n( ) Verificar a proteção do sistema contra invasões ou acesso não autorizado a informações.\nA ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+        "alternativas": [
+            "5 – 1 – 3 – 2 – 4.",
+            "5 – 3 – 1 – 4 – 2.",
+            "2 – 1 – 4 – 3 – 5.",
+            "1 – 4 – 5 – 3 – 2.",
+            "4 – 3 – 2 – 1 – 5."
+        ],
+        "gabarito": "1 – 4 – 5 – 3 – 2.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 80,
+        "enunciado": "Assinale a alternativa que apresenta SOMENTE tipos de testes de sistema.",
+        "alternativas": [
+            "Teste de desempenho e teste de integração.",
+            "Teste de segurança e teste de unidade.",
+            "Teste de recuperação e teste de segurança.",
+            "Teste de integração e teste de recuperação.",
+            "Teste de desempenho e teste de unidade."
+        ],
+        "gabarito": "Teste de recuperação e teste de segurança.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 81,
+        "enunciado": "Os testes fazem parte de um processo mais amplo de __________ e __________ de software (V & V), cujo objetivo é conferir se o software que está sendo desenvolvido cumpre sua especificação e fornece a funcionalidade esperada pelos usuários.\nAssinale a alternativa que preenche, correta e respectivamente, as lacunas do trecho acima.",
+        "alternativas": [
+            "viabilidade – visão.",
+            "verificação – validação.",
+            "vistoria – verificação.",
+            "visão – vistoria.",
+            "validação – viabilidade."
+        ],
+        "gabarito": "verificação – validação.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 82,
+        "enunciado": "Sobre fundamentos de testes de software, o International Software Testing Qualifications Board (ISTQB) define que ________ é uma falha humana e produz resultado incorreto, enquanto ________ é o resultado de um código mal escrito que causa anomalia no funcionamento de um sistema. Já ________ é o funcionamento inesperado das funções do software.\nAssinale a alternativa que preenche, correta e respectivamente, as lacunas do trecho acima.",
+        "alternativas": [
+            "erro – falha – defeito.",
+            "erro – defeito – falha.",
+            "defeito – erro – falha.",
+            "defeito – falha – erro.",
+            "falha – defeito – erro."
+        ],
+        "gabarito": "erro – defeito – falha.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 83,
+        "enunciado": "Relacione a Coluna 1 à Coluna 2, associando os tipos de testes de software com as respectivas características.\nColuna 1\n1. Teste unitário.\n2. Teste de integração.\n3. Teste de regressão.\n4. Teste de sistema.\nColuna 2\n( ) Avalia o software do ponto de vista do usuário.\n( ) Verifica se a comunicação entre os módulos está feita de modo correto.\n( ) Reaplica os testes já realizados em novas versões do sistema.\n( ) Confere a funcionalidade geral do sistema.\n( ) Permite que cada funcionalidade do sistema seja analisada individualmente.\nA ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+        "alternativas": [
+            "2 – 3 – 2 – 1 – 4.",
+            "4 – 1 – 3 – 2 – 3.",
+            "4 – 2 – 3 – 4 – 1.",
+            "1 – 3 – 2 – 4 – 4.",
+            "2 – 1 – 1 – 3 – 4."
+        ],
+        "gabarito": "4 – 2 – 3 – 4 – 1.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 84,
+        "enunciado": "Qual dos seguintes tipos de teste é mais adequado para identificar problemas de desempenho em um aplicativo web?",
+        "alternativas": [
+            "Teste de regressão.",
+            "Teste de unidade.",
+            "Teste de carga.",
+            "Teste de segurança.",
+            "Teste de interface do usuário."
+        ],
+        "gabarito": "Teste de carga.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 85,
+        "enunciado": "Qual é a definição correta para testes unitários?",
+        "alternativas": [
+            "Testes realizados em um ambiente de produção que verifica se o sistema está funcionando corretamente.",
+            "Testes que validam a interação entre vários componentes do sistema.",
+            "Testes que verificam se as funcionalidades individuais do sistema estão funcionando corretamente.",
+            "Testes que validam o desempenho do sistema em situações de alta demanda.",
+            "Testes que validam a compatibilidade do sistema com diferentes navegadores e dispositivos."
+        ],
+        "gabarito": "Testes que verificam se as funcionalidades individuais do sistema estão funcionando corretamente.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 86,
+        "enunciado": "Qual é a principal vantagem da automação de testes funcionais?",
+        "alternativas": [
+            "Redução dos custos de desenvolvimento de software.",
+            "Aumento da qualidade do software.",
+            "Redução da margem de confiabilidade dos testes realizados.",
+            "Maior facilidade na manutenção dos testes.",
+            "Redução do tempo de execução dos testes."
+        ],
+        "gabarito": "Redução do tempo de execução dos testes.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 87,
+        "enunciado": "Qual o propósito do processo de testes de software na Engenharia de Software?",
+        "alternativas": [
+            "Adicionar melhorias desnecessárias ao software.",
+            "Aumentar o tempo de desenvolvimento do software.",
+            "Deixar o software mais complexo.",
+            "Garantir que o software atende todos os requisitos e especificações.",
+            "Reduzir o custo do desenvolvimento de software."
+        ],
+        "gabarito": "Garantir que o software atende todos os requisitos e especificações.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 88,
+        "enunciado": "Normalmente, um software comercial passa por algumas etapas de teste antes de sua liberação final. Uma dessas etapas consiste na execução de testes de uma versão completa do sistema antes que ela seja liberada aos usuários para identificar, principalmente, se os requisitos dos stakeholders estão atendidos. Essa etapa é chamada de:",
+        "alternativas": [
+            "Teste de Componente.",
+            "Teste de Desenvolvimento.",
+            "Teste de Release.",
+            "Teste de Usuário.",
+            "Teste Unitário."
+        ],
+        "gabarito": "Teste de Release.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 89,
+        "enunciado": "Com o avanço do desenvolvimento de software baseado em processos de desenvolvimento ágil, também houve adaptações em outros processos que acompanham o desenvolvimento, como o processo de teste em que um novo modelo de trabalho chamado Testes Ágeis surgiu. Nesse modelo, foram adaptados alguns conceitos do Manifesto Ágil para os testes. Assinale a alternativa INCORRETA quanto à definição dos conceitos de testes ágeis.",
+        "alternativas": [
+            "Testar em cada etapa ao invés de testar no final.",
+            "Prevenir bugs ao invés de encontrar bugs.",
+            "Testar o entendimento ao invés de checar funcionalidades.",
+            "Construir o melhor sistema ao invés de quebrar o sistema.",
+            "Os Testers são responsáveis pela qualidade."
+        ],
+        "gabarito": "Os Testers são responsáveis pela qualidade.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 90,
+        "enunciado": "O teste de componente (também conhecido como teste de unidade/unitário ou módulo) é um teste de caixa branca que se concentra em componentes que são testáveis separadamente. Assinale a alternativa que NÃO é um exemplo de produto de trabalho que pode ser usado como base de teste para testes de componentes.",
+        "alternativas": [
+            "Documento de especificação.",
+            "Projeto detalhado.",
+            "Código.",
+            "Modelo de dados.",
+            "Programação de componentes."
+        ],
+        "gabarito": "Documento de especificação.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 91,
+        "enunciado": "O teste de integração se concentra nas interações entre componentes ou sistemas. Quanto maior o escopo da integração, ____________________ pode se tornar mais difícil e levar a um aumento do risco e a um tempo adicional para a solução de problemas. Assinale a alternativa que preenche corretamente a lacuna do trecho acima.",
+        "alternativas": [
+            "efetuar os testes de integração com o cliente final.",
+            "isolar os defeitos em um componente ou sistema específico.",
+            "cadastrar um defeito para uma integração.",
+            "encontrar um defeito nos testes.",
+            "gerar os resultados dos testes de integração."
+        ],
+        "gabarito": "isolar os defeitos em um componente ou sistema específico.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 92,
+        "enunciado": "Dentre os diversos tipos de RNF (Requisitos Não Funcionais), há o requisito de “eficiência no desempenho” ou apenas “desempenho”. A norma ISO/IEC/IEEE 29119-1 sugere uma classificação e um conjunto de definições. Essa classificação considera, genericamente, “Teste de Desempenho” como um tipo de teste que possui cinco subtipos. Qual das alternativas abaixo NÃO se trata de um teste de desempenho?",
+        "alternativas": [
+            "Teste de carga.",
+            "Teste de estresse.",
+            "Teste de fumaça.",
+            "Teste de resistência.",
+            "Teste de volume."
+        ],
+        "gabarito": "Teste de fumaça.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 93,
+        "enunciado": "Em uma técnica de aprendizagem colaborativa, os profissionais realizam uma atividade e revisam as atividades dos colegas, levando a melhores respostas nas atividades solicitadas. Nessa técnica, os desenvolvedores precisam trabalhar em conjunto para criar uma solução que atenda às necessidades do cliente. Qual é essa técnica?",
+        "alternativas": [
+            "Desenvolvimento orientado ao comportamento.",
+            "Desenvolvimento orientado a testes.",
+            "Código limpo (Clean Code).",
+            "Revisão por pares.",
+            "Desenvolvimento por Kanban."
+        ],
+        "gabarito": "Revisão por pares.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 94,
+        "enunciado": "Não existe um processo universal de teste de software, mas há conjuntos comuns de atividades de teste sem as quais os testes terão menor probabilidade de atingir seus objetivos estabelecidos. Nesse sentido, o processo de teste de software específico e apropriado em qualquer situação depende de muitos fatores. Atividades de teste estão envolvidas nesse processo e podem ser discutidas na estratégia de teste de uma organização. Qual atividade abaixo NÃO faz parte de uma atividade de testes?",
+        "alternativas": [
+            "Monitoramento e controle dos testes.",
+            "Planejamento dos testes.",
+            "Correção do bug encontrado nos testes.",
+            "Modelagem do teste.",
+            "Execução dos casos de teste."
+        ],
+        "gabarito": "Correção do bug encontrado nos testes.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 95,
+        "enunciado": "Existem vários ciclos de vida de testes existentes no mercado. Independentemente do modelo de ciclo de vida de desenvolvimento de software escolhido, as atividades de teste devem começar nos estágios iniciais do ciclo de vida, aderindo ao princípio de testar do início. Um ciclo de vida muito utilizado é o Test Management\n(TMap) por ser bastante didático e fácil de analisar. Esse ciclo de vida do processo de teste é composto por diversas etapas ou fases, sendo quatro delas sequenciais ou em cascata, e duas paralelas. Analise a tabela abaixo e assinale a alternativa correta em relação à opção que indica as fases que são sequenciais e as fases que são paralelas.\nFases / Opções Opção 1 Opção 2 Opção 3 Opção 4 Opção 5 Planejamento Sequencial Paralela Sequencial Paralela Sequencial Preparação Paralela Paralela Sequencial Sequencial Sequencial Procedimentos Paralela Sequencial Sequencial Sequencial Sequencial Iniciais Especificação Sequencial Sequencial Sequencial Sequencial Paralela Execução Sequencial Sequencial Sequencial Sequencial Paralela Entrega Sequencial Sequencial Paralela Paralela Sequencial",
+        "alternativas": [
+            "Opção 1.",
+            "Opção 2.",
+            "Opção 3.",
+            "Opção 4.",
+            "Opção 5."
+        ],
+        "gabarito": "Opção 2.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 96,
+        "enunciado": "Referente aos testes de software, os níveis de teste são grupos de atividades de teste que são organizados e gerenciados juntos. Cada nível de teste é uma instância do processo de teste, executada em relação ao software em um determinado nível de desenvolvimento, desde as unidades individuais ou componentes até os sistemas completos. Considera-se quatro principais níveis de teste. Assinale a alternativa que NÃO é considerada um nível de teste.",
+        "alternativas": [
+            "Teste estrutural.",
+            "Teste de aceite.",
+            "Teste de sistema.",
+            "Teste de integração.",
+            "Teste unitário."
+        ],
+        "gabarito": "Teste estrutural.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 97,
+        "enunciado": "O modelo ou conceito “V” de testes, composto por Verificação e Validação, integra o processo de teste ao longo do processo de desenvolvimento, implementando o princípio de testar do início. Esse modelo inclui níveis de teste associados a cada fase de desenvolvimento que ocorre sequencialmente, mas em alguns casos pode ocorrer a sobreposição. O modelo em \"V\" demonstra o ciclo de desenvolvimento e um resumo dos passos principais em conjunto com as entregas entre o ambiente de desenvolvimento, ou seja, relaciona as fases de desenvolvimento do software com os níveis de testes aplicados a cada fase. Qual fase de desenvolvimento está relacionada de forma ERRADA ao nível de teste?",
+        "alternativas": [
+            "Projeto Detalhado – Teste de Integração.",
+            "Análise de Requisitos – Teste de Aceitação.",
+            "Projeto de Alto Nível – Teste do Sistema.",
+            "Implementação – Teste Unitário.",
+            "Análise de Sistemas – Teste de Componente."
+        ],
+        "gabarito": "Análise de Sistemas – Teste de Componente.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 98,
+        "enunciado": "Uma estratégia de teste fornece uma descrição geral do processo de teste, comumente no nível do produto ou organizacional. Existem tipos comuns de estratégias para abordagem de testes. Para a abordagem de testes em aplicações em dispositivos móveis, há uma estratégia de teste que é uma das mais utilizadas, pois esse tipo de estratégia de teste depende do uso sistemático de um conjunto predefinido de testes ou condições de teste, como uma taxonomia de tipos comuns ou prováveis de falhas, uma lista de características de qualidade importantes ou padrões de aparência e comportamento de aplicativos móveis ou páginas da web da empresa. Qual estratégia é essa?",
+        "alternativas": [
+            "Metódica.",
+            "Analítica.",
+            "Contra regressão.",
+            "Reativa.",
+            "Compatível com processo."
+        ],
+        "gabarito": "Metódica.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 99,
+        "enunciado": "Existem as seguintes técnicas de modelagem de testes: caixa branca (também chamadas de técnicas estruturais ou baseadas na estrutura) que são baseadas em uma análise da arquitetura, do detalhamento do projeto, da estrutura interna ou do código do objeto de teste, concentram-se na estrutura e no processamento dentro do objeto de teste; caixa preta (também chamadas de técnicas comportamentais ou baseadas no comportamento) que são fundamentadas em uma análise da base de teste apropriada, aplicáveis a testes funcionais e não funcionais e se concentram nas entradas e saídas do objeto de teste sem referência à sua estrutura interna. Qual alternativa abaixo contém, respectivamente, uma técnica de caixa branca e uma técnica de caixa preta?",
+        "alternativas": [
+            "Teste de cobertura de instruções e Particionamento de equivalência.",
+            "Análise de valor limite e Teste e cobertura de decisão.",
+            "Teste de tabela de decisão e Suposição de erro.",
+            "Valor da instrução/teste de decisão e Teste exploratório.",
+            "Teste de transição de estado e Teste de caso de uso."
+        ],
+        "gabarito": "Teste de cobertura de instruções e Particionamento de equivalência.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 100,
+        "enunciado": "O teste é feito de forma diferente em diferentes contextos. O teste em um projeto ágil é feito de forma diferente do que o teste em um projeto de ciclo de vida sequencial. Os produtos de trabalho de implementação do teste incluem trabalhos manuais como: os procedimentos de teste e seu sequenciamento, a elaboração das suítes de teste e cronograma de execução do teste. Em alguns casos, especialmente em modelos de desenvolvimento incremental e iterativo, em que as alterações de código estão em andamento, alguns testes automatizados desempenham um papel fundamental na criação da confiança de que as alterações não impactaram os componentes existentes. Qual é o tipo de teste mais propenso a ser automatizado?",
+        "alternativas": [
+            "Teste de conformidade.",
+            "Teste de requisitos.",
+            "Teste de tratamento de erros.",
+            "Teste de regressão.",
+            "Teste de aceitação."
+        ],
+        "gabarito": "Teste de regressão.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 101,
+        "enunciado": "A análise de risco em projetos de teste de software, embora tenha suas características próprias, deve seguir as mesmas regras e metodologias aplicadas a projetos de software em geral. O risco é um dos elementos mais importantes a ser trabalhado no momento de se elaborar o projeto de teste de um software. Portanto, ao preparar o plano de teste e fazer a análise de riscos e definir a cobertura de testes, devemos levar em conta alguns elementos, que são:",
+        "alternativas": [
+            "Se existe risco evidente ou não e se há necessidade de mapear o mesmo no plano.",
+            "Probabilidade de ocorrência do risco e o impacto e a perda associada a esse risco.",
+            "Riscos são mapeados pelo analista na especificação e não são considerados no plano de teste.",
+            "Mapear a probabilidade de ocorrência do risco e, se menor que 40%, não considerar.",
+            "Avaliar o impacto do risco levantado pelo gerente de projetos na execução de testes."
+        ],
+        "gabarito": "Probabilidade de ocorrência do risco e o impacto e a perda associada a esse risco.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 102,
+        "enunciado": "Referente ao modelo V de teste de software, composto por Verificação e Validação e que integra o processo de teste ao longo do processo de desenvolvimento, implementando o princípio de testar do início, é correto afirmar que:",
+        "alternativas": [
+            "Desenvolvimento orientando a comportamentos (BDD) não utiliza o Modelo V.",
+            "Modelo V utiliza desenvolvimento orientado a testes (TDD) como base do processo.",
+            "Semelhante ao modelo cascata, o modelo V associa as técnicas de teste com as fases.",
+            "Modelo V inclui níveis de teste associados a cada fase de desenvolvimento correspondente.",
+            "Os testes de aceitação são os primeiros a serem contemplados no modelo V nas duas vértices."
+        ],
+        "gabarito": "Modelo V inclui níveis de teste associados a cada fase de desenvolvimento correspondente.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 103,
+        "enunciado": "Em 1979, Glenford Myers afirmava haver uma importância que as atividades de testes fossem executadas de forma paralela a todas as outras fases de desenvolvimento de software criando a regra 10 de Myers, que estabelece uma importante questão para os defeitos. Essa regra implica em:",
+        "alternativas": [
+            "À medida em que os erros vão migrando nas fases de desenvolvimento, o custo de correção aumenta em 10 vezes mais.",
+            "Ao tratar erros durante o processo de desenvolvimento, estabelece 10 boas práticas a se seguir.",
+            "A cada 10 bugs encontrados, é efetuada uma medida a ser considerada nas métricas dos relatórios de gestão.",
+            "Estabelece 10 fases no ciclo de vida dos bugs, iniciando no cadastro e acompanhamento até sua solução.",
+            "A regra número 10 de Myers era que o defeito deve ser priorizado assim que detectado até sua correção."
+        ],
+        "gabarito": "À medida em que os erros vão migrando nas fases de desenvolvimento, o custo de correção aumenta em 10 vezes mais.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 104,
+        "enunciado": "Para implantar testes de software em projetos, existem várias estratégias que podemos adotar. As estratégias de teste servem para nos guiar para o objetivo de encontrar e eliminar o máximo possível de bugs e desvios de implementação. Para a escolha da estratégia, há quatro abordagens: duas em relação ao tempo em que os testes iniciam e duas em relação às fontes de informação disponíveis. Assinale a alternativa que NÃO se trata de uma abordagem de testes.",
+        "alternativas": [
+            "Preventiva.",
+            "Analítica.",
+            "Estruturada.",
+            "Reativa.",
+            "Heurística."
+        ],
+        "gabarito": "Estruturada.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 105,
+        "enunciado": "É um padrão de medidas muito útil para a verificaç̧ão da efetividade e da eficiência de diversas atividades do desenvolvimento de software. Também usadas para prover informações como estimativas do esforço necessário para o teste; e obtidas e interpretadas durante o processo de testes. É importante que sejam capturadas e utilizadas corretamente para que possam auxiliar na melhoria do processo de desenvolvimento do software através de informações objetivas e pragmáticas. A qual conceito o trecho se refere?",
+        "alternativas": [
+            "Clean Code.",
+            "Identificação de riscos.",
+            "Custo do defeito.",
+            "Defeitos encontrados.",
+            "Métricas de teste."
+        ],
+        "gabarito": "Métricas de teste.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 106,
+        "enunciado": "O teste de unidade é a prática de criar testes pequenos e rápidos para componentes de software individuais para verificar a funcionalidade do código e a conformidade com os padrões de segurança. A respeito de teste de unidade, analise as assertivas e assinale a alternativa correta.\nI. Os testes de unidade devem ser executados continuamente com cada compilação para fornecer feedback rápido sobre as alterações de código.\nII. Os testes de unidade funcionam isolando funções de código e/ou procedimentos em um arquivo de origem para testar coletivamente essas pequenas unidades de código quanto à segurança e robustez.\nIII. Para testar a unidade de código, manipula-se valores de entrada para ajudar a garantir o comportamento funcional correto em valores de entrada válidos. No entanto, a unidade deve garantir a robustez, portanto, a inserção de valores fora dos intervalos esperados, incluindo valores nulos.",
+        "alternativas": [
+            "Apenas I está correta.",
+            "Apenas II está correta.",
+            "Apenas I e III estão corretas.",
+            "Todas estão corretas."
+        ],
+        "gabarito": "Apenas I e III estão corretas.",
+        "banca": "Unifil"
+    },
+    {
+        "id": 107,
+        "enunciado": "Tanto o teste de caixa preta quanto o teste de caixa branca têm vantagens e desvantagens próprias, e certos defeitos só podem ser detectados usando uma mistura das duas metodologias. De posse dessas informações e considerando os tipos de testes citados, correlacione as colunas e assinale a alternativa com a sequência correta.\n1. Caixa Preta.\n2. Caixa Branca.\n( ) É feito principalmente por testadores de software.\n( ) Nenhum conhecimento de implementação é necessário.\n( ) Este teste pode ser iniciado com base no documento de especificações de requisitos.\n( ) A implementação de código é necessária para o teste.",
+        "alternativas": [
+            "1 – 1 – 1 – 2.",
+            "1 – 1 – 2 – 2.",
+            "2 – 2 – 2 – 1.",
+            "2 – 1 – 2 – 2."
+        ],
+        "gabarito": "1 – 1 – 1 – 2.",
+        "banca": "Unifil"
+    },
+    {
+        "id": 108,
+        "enunciado": "A escolha de casos de teste de unidade é fundamental para a redução dos custos dos testes e uma estratégia que pode ser adotada para a seleção de casos é a de teste de partição de equivalência. Nesse contexto, considere-se um programa que precisa aceitar as seguintes opções de tamanho de folha para impressão.\n10,5 cm × 14,8 cm 14,8 cm × 21,0 cm 21,0 cm × 29,7 cm 29,7 cm × 42,0 cm Nessa hipótese, para a aplicação correta da técnica de equivalência de partição com o número mínimo de casos de teste, é necessário realizar",
+        "alternativas": [
+            "apenas um caso de teste, para verificar se o programa pode imprimir folhas em todos os tamanhos exigidos.",
+            "três casos de teste, para verificar se o programa pode imprimir folhas de 15 cm, 22 cm ou 30 cm.",
+            "quatro casos de teste, para verificar se o programa pode imprimir folhas em todos os tamanhos exigidos.",
+            "seis casos de teste, para verificar se o programa pode imprimir folhas em todos os tamanhos exigidos e para tamanhos menores que 10,5 cm e maiores de 29,7 cm.",
+            "cinco casos de teste, para verificar se o programa pode imprimir folhas em todos os tamanhos exigidos e para tamanhos maiores que 29,7 cm."
+        ],
+        "gabarito": "quatro casos de teste, para verificar se o programa pode imprimir folhas em todos os tamanhos exigidos.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 109,
+        "enunciado": "O teste de integração de software é responsável por",
+        "alternativas": [
+            "examinar os módulos desenvolvidos sem considerar acoplamento.",
+            "iniciar a recuperação de um sistema após uma falha.",
+            "analisar a forma como um sistema se comporta quando seus recursos são muito acessados.",
+            "validar, de forma conjunta, os módulos construídos individualmente.",
+            "verificar se os mecanismos de proteção de um software impedem acessos indevidos."
+        ],
+        "gabarito": "validar, de forma conjunta, os módulos construídos individualmente.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 110,
+        "enunciado": "São tipos de testes de software, EXCETO:",
+        "alternativas": [
+            "Teste de Paradigmas de Programação.",
+            "Teste de Aplicações Web.",
+            "Teste de Aspectos.",
+            "Teste de Mutação.",
+            "Teste Orientado a Objetos e Componentes."
+        ],
+        "gabarito": "Teste de Paradigmas de Programação.",
+        "banca": "Legalle"
+    },
+    {
+        "id": 111,
+        "enunciado": "Os testes implementados em sistemas de informação são recursos que todo software deve ter, pois por meio destes testes, o software passa a ter mais qualidade e automatização. Com base no conhecimento sobre testes de software, assinale a alternativa CORRETA.",
+        "alternativas": [
+            "O teste funcional (caixa branca) é utilizado para testar as interfaces entre os componentes dos sistemas envolvidos, assim como assegura que a capacidade de elencar requisitos funcionais seja explícita.",
+            "O teste baseado em modelos consiste da técnica utilizada para se projetar caso de testes em que o programa é categorizado como uma caixa branca.",
+            "O teste estrutural (caixa branca) consiste da técnica de detectar problemas na cobertura do código, sendo este tipo de teste recomendado para aplicar em sistemas legados ou que foram desenvolvidos a partir de tecnologias proprietárias.",
+            "O teste de mutação consiste na técnica de assegurar qualidade de software e automatização de atividades em softwares exclusivamente para Web, sendo uma estratégia de testes bem eficaz em sistemas Web em Java.",
+            "O teste de estresse tem a finalidade de avaliar como o sistema vai responder em condições não comuns, ou seja, quando o sistema é submetido a situações extremas de cargas de trabalhos."
+        ],
+        "gabarito": "O teste de estresse tem a finalidade de avaliar como o sistema vai responder em condições não comuns, ou seja, quando o sistema é submetido a situações extremas de cargas de trabalhos.",
+        "banca": "Legalle"
+    },
+    {
+        "id": 112,
+        "enunciado": "O tipo de teste de software cujo foco está no projeto e construção da arquitetura do software é chamado de teste:",
+        "alternativas": [
+            "De validação.",
+            "De unidade.",
+            "De integração.",
+            "De aceitação.",
+            "Funcional."
+        ],
+        "gabarito": "De integração.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 113,
+        "enunciado": "A atividade de teste de software é vital no desenvolvimento de programas com boa qualidade. Dessa forma, uma das técnicas de teste de software aplicável denomina-se Caminhos Independentes. Sobre as características dessa técnica é correto afirmar que",
+        "alternativas": [
+            "um caminho independente é aquele que, quando exercitado, introduz, no conjunto de testes, um novo conjunto de comandos ou uma nova condição.",
+            "caminhos independentes representam trechos do código que tenham sido escritos por equipes diferentes.",
+            "cada caminho independente deve apresentar tempos máximos de execução, os quais devem estar na especificação do sistema.",
+            "cada caminho independente deve estar protegido por protocolos de criptografia distintos entre si.",
+            "caminhos independentes representam trechos de código que tenham sido compilados por pelo menos dois compiladores diferentes."
+        ],
+        "gabarito": "um caminho independente é aquele que, quando exercitado, introduz, no conjunto de testes, um novo conjunto de comandos ou uma nova condição.",
+        "banca": "VUNESP"
+    },
+    {
+        "id": 114,
+        "enunciado": "No contexto das técnicas de teste de software, insere-se o chamado teste de regressão, que consiste",
+        "alternativas": [
+            "no teste de um software com requisitos similares ao do software sob teste.",
+            "na conversão de um código estruturado para orientado a objetos, seguido de seu teste.",
+            "na reexecução de algum subconjunto de testes previamente já executado e avaliado.",
+            "na execução do código sob teste, seguindo ordem inversa de execução, em relação ao fluxo normal de processamento.",
+            "na transformação do código de software em um código criptografado, seguido de seu teste."
+        ],
+        "gabarito": "na reexecução de algum subconjunto de testes previamente já executado e avaliado.",
+        "banca": "VUNESP"
+    },
+    {
+        "id": 115,
+        "enunciado": "Qual o conceito de teste de software e suas principais fases do processo de testes?",
+        "alternativas": [
+            "O teste de software é uma etapa final do desenvolvimento que visa garantir que o software esteja livre de bugs. As principais fases do processo de testes são Planejamento de Testes, Execução de Testes, Avaliação de Resultados e Documentação de Defeitos.",
+            "O teste de software é um processo complexo de identificar erros no código e validar se o software atende aos requisitos. As fases do processo de testes incluem Teste de Unidade, Teste de Integração, Teste de Sistema e Teste de Aceitação.",
+            "O teste de software é uma atividade simples de verificar a aparência visual do software. As principais fases do processo de testes são Projeto de Interface, Teste de Interface, Teste Funcional e Teste de Usabilidade.",
+            "O teste de software é uma técnica que visa melhorar o desempenho do sistema. As fases do processo de testes incluem Teste de Performance, Teste de Carga, Teste de Estresse e Teste de Segurança.",
+            "O teste de software é uma abordagem para criar casos de uso em um software. As principais fases do processo de testes são Modelagem de Casos de Uso, Execução de Casos de Uso, Avaliação de Resultados e Relatório de Defeitos."
+        ],
+        "gabarito": "O teste de software é um processo complexo de identificar erros no código e validar se o software atende aos requisitos. As fases do processo de testes incluem Teste de Unidade, Teste de Integração, Teste de Sistema e Teste de Aceitação.",
+        "banca": "AVANÇASP"
+    },
+    {
+        "id": 116,
+        "enunciado": "O principal objetivo dos testes estáticos é o de reduzir os defeitos de um software por meio da redução de defeitos na documentação a partir da qual o software foi desenvolvido. Uma das técnicas mais importantes para a execução de testes estáticos é a de",
+        "alternativas": [
+            "regressão.",
+            "walk-through.",
+            "análise do valor limite.",
+            "análise de casos de uso.",
+            "particionamento de equivalência."
+        ],
+        "gabarito": "walk-through.",
+        "banca": "CESGRANRIO"
+    },
+    {
+        "id": 117,
+        "enunciado": "Uma equipe de desenvolvimento pretende convidar um conjunto de representantes dos usuários finais de uma solução, que aparentemente está completamente desenvolvida, para testar sua última versão antes de disponibilizá-la no mercado. Caso essa versão seja aprovada, será colocada em produção. A situação descrita faz referência aos testes",
+        "alternativas": [
+            "unitários.",
+            "de aceitação.",
+            "de desempenho.",
+            "de integração.",
+            "de sistema."
+        ],
+        "gabarito": "de aceitação.",
+        "banca": "CESGRANRIO"
+    },
+    {
+        "id": 118,
+        "enunciado": "Testes de Software são essenciais para garantir a qualidade do produto entregue. Neste sentido, a maioria dos testes analisam características funcionais do software ao invés das não-funcionais.\nDentre os testes que cuidam de características não-funcionais, tem-se o",
+        "alternativas": [
+            "teste de integração.",
+            "teste funcional.",
+            "teste alfa.",
+            "teste de desempenho."
+        ],
+        "gabarito": "teste de desempenho.",
+        "banca": "Instituto Verbena"
+    },
+    {
+        "id": 119,
+        "enunciado": "Um Analista do Tribunal de Justiça foi requisitado a esclarecer dúvidas sobre os diferentes tipos de testes que poderiam ser utilizados na instituição. Dessa forma, ele afirmou corretamente que o teste",
+        "alternativas": [
+            "que garante que uma aplicação web satisfaz certos critérios como performance, throughput de dados ou tempo de resposta é o teste de integração. Esse teste é usado também para se identificar bottlenecks de um sistema, determinar o compliance com os requisitos não-funcionais de performance e coletar outras informações como hardware necessário para a operação da aplicação.",
+            "conhecido como Pentest busca vulnerabilidades e possui 3 tipos: whíte box, no qual o pentester realiza um falso ataque usando as informações que conhece sobre a rede, simulando um ataque interno; black box, em que o pentester não possui informações sobre a rede, simulando invasões externas por cibercriminosos; e gray box, que mistura características dos dois anteriores.",
+            "que permite detectar defeitos que podem ser introduzidos quando dois ou mais módulos de software são unidos, bem como avaliar o ajuste global e a função dos elementos de software combinados é o teste de desempenho. Esse teste ocorre sempre após os testes unitários, uma vez que avalia como todas as unidades funcionam quando combinadas.",
+            "funcional, também conhecido como teste de caixa-branca, é uma validação de software na qual determinada funcionalidade é verificada, sem considerar a estrutura do código-fonte, os detalhes de implementação ou os cenários de execução; o foco é apenas as entradas e saídas do sistema, sem se preocupar com a estrutura interna do programa.",
+            "conhecido como Risktest é amplo e almeja detectar o maior número de riscos possíveis, sem necessariamente analisar a fundo cada um deles; já o teste de vulnerabilidades se concentra em um número menor de riscos, mas tenta levantar o máximo de informações sobre eles, verificando se são genuínos e como podem ser combatidos."
+        ],
+        "gabarito": "conhecido como Pentest busca vulnerabilidades e possui 3 tipos: whíte box, no qual o pentester realiza um falso ataque usando as informações que conhece sobre a rede, simulando um ataque interno; black box, em que o pentester não possui informações sobre a rede, simulando invasões externas por cibercriminosos; e gray box, que mistura características dos dois anteriores.",
+        "banca": "FCC"
+    },
+    {
+        "id": 120,
+        "enunciado": "A atividade de Teste de Software é complexa, pois diversos fatores podem colaborar para ocorrência de erros, mas a maioria deles tem uma única origem: erro humano. Dessa forma, o Teste de Software tem o intuito de executar um programa ou modelo utilizando algumas entradas em particular e verificar se seu comportamento está de acordo com o esperado.\nAdaptado de Márcio Eduardo Delamaro, José Carlos Maldonado e Mário Jino. Introdução ao Teste de Software. 2 ed. Rio de Janeiro: Elsevier, 2016.\nEm relação a Atividade de Teste de Software, avalie as seguintes afirmações:\nI - O teste de regressão é realizado no processo de manutenção do software. O objetivo é avaliar se as modificações efetuadas estão corretas, ou seja, que os novos requisitos implementados funcionam como o esperado e que os requisitos anteriormente testados continuam válidos.\nII - O particionamento de equivalência é um método de teste caixa branca que divide o domínio de entrada de um programa em classes de dados a partir dos quais os casos de teste podem ser derivados.\nIII - A análise de valor limite é uma técnica de teste caixa preta que leva à escolha de casos de teste que põem à prova os valores nas fronteiras do domínio de entrada.\nIV - O teste de unidade faz muito uso das técnicas de teste caixa preta e as técnicas de projeto de casos de teste de caixa branca são mais encontradas durante o teste de integração.\nAssinale a alternativa que apresenta APENAS as afirmações CORRETAS.",
+        "alternativas": [
+            "I e II.",
+            "II e III.",
+            "III e IV.",
+            "I e III.",
+            "II e IV."
+        ],
+        "gabarito": "I e III.",
+        "banca": "NUCEPE UESPI"
+    },
+    {
+        "id": 121,
+        "enunciado": "Uma categoria de testes comumente utilizada é a de Testes Baseados em Experiência (Experience-based Testing). Nas técnicas dessa categoria, fatores como o histórico de funcionamento da aplicação e erros comuns de utilização das tecnologias empregadas – derivados do conhecimento do testador – são utilizados para antecipar a ocorrência de erros, defeitos e falhas. Testes baseados em experiência não costumam ser empregados como abordagem principal em cenários de alto risco, em função da variabilidade de sua eficiência e cobertura.\nConsiderando um projeto em que o time de desenvolvimento não possua experiência com a tecnologia e o domínio da aplicação, a técnica recomendada para o portfólio de testes desse time é:",
+        "alternativas": [
+            "Teste de Caso de Uso (Use Case Testing);",
+            "Teste de Hipótese (Statistical Hypothesis Testing);",
+            "Previsão de Erros (Error Guessing);",
+            "Teste Exploratório (Exploratory Testing);",
+            "Teste Baseado em Listas de Verificação (Checklist-based Testing)."
+        ],
+        "gabarito": "Teste de Caso de Uso (Use Case Testing);",
+        "banca": "FGV"
+    },
+    {
+        "id": 122,
+        "enunciado": "A validação do software, também conhecida como validação e verificação, mostra que um software está em conformidade com a sua especificação. Nesse sentido, são recomendados estágios de testes para a validação e a verificação do software. Assinale a alternativa que apresenta corretamente somente esses três estágios.",
+        "alternativas": [
+            "Teste de implementação, teste de implantação, teste de execução.",
+            "Teste de caixa preta, teste de caixa branca, teste de homologação.",
+            "Teste de objetos, teste de banco de dados, teste de usuário.",
+            "Testes funcionais, testes não funcionais, teste de usabilidade.",
+            "Teste de componente, teste de sistema, teste do cliente."
+        ],
+        "gabarito": "Teste de componente, teste de sistema, teste do cliente.",
+        "banca": "Instituto AOCP"
+    },
+    {
+        "id": 123,
+        "enunciado": "Em software, o teste de desenvolvimento inclui todas as atividades que são efetuadas pela equipe responsável pelo sistema. O testador do software, normalmente, é o programador que o desenvolveu. Sabendo disso, assinale a alternativa que apresenta os três estágios do teste de desenvolvimento.",
+        "alternativas": [
+            "Teste de caixa branca, teste de caixa preta e teste de integração.",
+            "Teste unitário, teste de funcionalidade e teste de sobrecarga.",
+            "Teste de requisito, teste funcional e teste estrutural.",
+            "Teste de unidade, teste de componentes e teste de sistema.",
+            "Teste de requisito, teste de caixa preta e teste de homologação."
+        ],
+        "gabarito": "Teste de unidade, teste de componentes e teste de sistema.",
+        "banca": "Instituto AOCP"
+    },
+    {
+        "id": 124,
+        "enunciado": "Considere, por hipótese, que uma equipe da PGE-AM, depois de testar e corrigir internamente os erros de uma nova versão de um app, decide fazer um soft launch do aplicativo. A equipe convida um seleto grupo de usuários reais, que não têm conhecimento prévio do aplicativo, para que estes interajam com o produto, incentivando- os a agir de forma diferente do que o app direciona, visando identificar erros críticos antes do lançamento para uma ampla base de usuários e procuradores. Neste caso, a equipe está realizando testes",
+        "alternativas": [
+            "de caixa branca.",
+            "de caixa preta.",
+            "de sistema.",
+            "AUIT − Application User Interface Testing.",
+            "beta."
+        ],
+        "gabarito": "beta.",
+        "banca": "FCC"
+    },
+    {
+        "id": 125,
+        "enunciado": "Testes de desenvolvimento incluem todas as atividades de testes que são realizadas pela equipe de desenvolvimento do sistema. Durante o desenvolvimento, o teste pode ocorrer em três níveis de granularidade. Assinale a alternativa que apresenta corretamente esses três níveis.",
+        "alternativas": [
+            "Testes em desenvolvimento, testes de release e testes de usuário.",
+            "Teste unitário, teste de componentes e teste de sistema.",
+            "TDD, Junit e Extreme Programming.",
+            "Cobertura de código, teste de regressão e depuração simplificada.",
+            "Teste unitário, teste de regressão e testes de usuário."
+        ],
+        "gabarito": "Teste unitário, teste de componentes e teste de sistema.",
+        "banca": "Instituto AOCP"
+    },
+    {
+        "id": 126,
+        "enunciado": "Teste de release é o processo de testar um release particular de um sistema que se destina para uso fora da equipe de desenvolvimento. Geralmente, o release de sistema é para uso dos clientes e usuários. A partir desse conceito, assinale a alternativa que descreve corretamente o teste funcional.",
+        "alternativas": [
+            "É o teste feito pela equipe de desenvolvimento com foco nos bugs.",
+            "É chamado assim porque o testador só está preocupado com a funcionalidade e não com a implementação do software.",
+            "É também chamado de teste de caixa branca quando o testador conhece a codificação do sistema.",
+            "Esse teste verifica se os componentes são compatíveis, se interagem corretamente e transferem os dados certos no momento certo, por suas interfaces.",
+            "Esse teste deve centrar-se em mostrar que a interface de componente se comporta de acordo com sua especificação."
+        ],
+        "gabarito": "É chamado assim porque o testador só está preocupado com a funcionalidade e não com a implementação do software.",
+        "banca": "Instituto AOCP"
+    },
+    {
+        "id": 127,
+        "enunciado": "Acerca da prática de TDD, analise as assertivas e julgue V, para as verdadeiras, ou F, para as falsas!\n( ) TDD significa em inglês Test-Driver Develop.\n( ) As atividades de Verificação e Validação contribuem para a realização de testes de software.\n( ) Teste de caixa preta e teste de caixa branca são exemplos de tipos de teste de software.\nQual alternativa preenche, CORRETAMENTE, de cima para baixo, os parênteses acima?",
+        "alternativas": [
+            "F - F -V.",
+            "V - V - F.",
+            "V - F - V.",
+            "V - V - V.",
+            "F - V - V."
+        ],
+        "gabarito": "F - V - V.",
+        "banca": "Legalle"
+    },
+    {
+        "id": 128,
+        "enunciado": "A analista Ester implementou um teste automatizado de nome ETest para o software TJApp. O ETest avalia se TJApp é capaz de executar seu fluxo de execução principal de forma completa, em um ambiente muito semelhante ao do usuário final.\nPortanto, o ETest implementado por Ester é do tipo:",
+        "alternativas": [
+            "regressão visual;",
+            "unitário;",
+            "desempenho;",
+            "ponta a ponta;",
+            "exploratório."
+        ],
+        "gabarito": "ponta a ponta;",
+        "banca": "FGV"
+    },
+    {
+        "id": 129,
+        "enunciado": "O analista em TI Josué está desenvolvendo o software SApp e implementou o teste K. O teste K consiste em determinar se a função F do código de SApp retorna o resultado esperado C ao receber dois valores A e B.\nO teste K implementado por Josué é de:",
+        "alternativas": [
+            "aceitação;",
+            "integração;",
+            "ponta a ponta;",
+            "unidade;",
+            "sanidade."
+        ],
+        "gabarito": "unidade;",
+        "banca": "FGV"
+    },
+    {
+        "id": 130,
+        "enunciado": "No que se refere aos testes de software, um dos níveis de teste, conhecido como Unit Testing, tem por objetivo",
+        "alternativas": [
+            "testar a adequação do sistema no ambiente de negócios, e avaliar a conveniência de sua liberação.",
+            "testar a compatibilidade com dados de sistemas herdados.",
+            "testar a integração de seções ou partes, explorando as falhas de interação entre partes.",
+            "testar se a conformidade do sistema à luz dos requisitos estabelecidos.",
+            "testar seções ou partes separadamente, usualmente com teste funcionais."
+        ],
+        "gabarito": "testar seções ou partes separadamente, usualmente com teste funcionais.",
+        "banca": "FGV"
+    },
+    {
+        "id": 131,
+        "enunciado": "No que diz respeito aos tipos de testes de software, relacione as colunas e, em seguida, assinale a alternativa com a sequência correta.\n1 – Teste de Unidade\n2 – Teste de Integração\n3 – Teste de Sistema\n4 – Teste de Regressão\n5 – Teste de Caixa preta\n( ) Dada uma entrada específica, testa se a saída ou o comportamento correto, visível externamente, resulta conforme definido pela especificação da classe ou do sistema.\n( ) Examina as alterações nas partes do sistema que já foram validadas.\n( ) Examina o sistema inteiro e verifica se o sistema funciona conforme mencionado nos casos de uso.\n( ) Verifica se dois ou mais objetos funcionam em conjunto corretamente.\n( ) É o dispositivo de teste de nível mais baixo. Envia uma mensagem para um objeto e depois verifica se ele recebe o resultado esperado do objeto. Verifica apenas um recurso por vez.",
+        "alternativas": [
+            "3 - 5 - 1 - 2 - 4.",
+            "1 - 2 - 5 - 4 - 3.",
+            "3 - 1 - 2 - 4 - 5.",
+            "5 - 4 - 3 - 2 - 1."
+        ],
+        "gabarito": "5 - 4 - 3 - 2 - 1.",
+        "banca": "DIRENS Aeronáutica"
+    },
+    {
+        "id": 132,
+        "enunciado": "Uma Analista verificou que, dentre os tipos de teste de integração, uma das abordagens considerava:\n– Integrar componentes de infraestrutura e depois adicionar componentes funcionais.\n– Iniciar a integração dos sistemas no nível de módulo.\n– Implementar o método de teste quando existirem módulos superiores ainda em construção. Nesse caso, deve-se usar drivers para estimular o funcionamento dos módulos ausentes.\nTrata-se da abordagem",
+        "alternativas": [
+            "Base-Top.",
+            "Top-Down.",
+            "Back-Stage.",
+            "Bottom-Up.",
+            "Middle-Upper."
+        ],
+        "gabarito": "Bottom-Up.",
+        "banca": "FCC"
+    },
+    {
+        "id": 133,
+        "enunciado": "O teste automatizado de software que simula situações que normalmente não aconteceriam (como toques acidentais em áreas não interativas), para analisar se nenhum ponto da interface apresenta problemas, é conhecido como teste de",
+        "alternativas": [
+            "Unit.",
+            "Stress.",
+            "GUI.",
+            "Block.",
+            "API."
+        ],
+        "gabarito": "GUI.",
+        "banca": "FCC"
+    },
+    {
+        "id": 134,
+        "enunciado": "Uma vez que o sistema tenha sido totalmente integrado, é possível testá-lo para propriedades emergentes, como desempenho e confiabilidade. Os testes de desempenho precisam ser projetados para",
+        "alternativas": [
+            "projetar o sistema como uma história realista com cenários que descrevem uma maneira de usar o sistema. Os usuários reais do sistema devem ser capazes de se relacionar com cada cenário específico.",
+            "assegurar maior confiabilidade do sistema em vista das respostas dos usuários que o testam em ambiente replicado ou em protótipos específicos criados a partir de blocos do sistema que se pretende testar.",
+            "projetar casos de teste em que se considera cada requisito e se deriva um conjunto de testes para eles a fim de demonstrar que o sistema implementou adequadamente seus requisitos.",
+            "assegurar que o sistema possa processar a carga a que se destina. Isso normalmente envolve a execução de uma série de testes em que se aumenta a carga até que o desempenho do sistema se torne inaceitável.",
+            "convencer o usuário de que uma determinada versão do sistema é boa e confiável o suficiente para uso além de mostrar que o sistema atende todos os requisitos funcionais."
+        ],
+        "gabarito": "assegurar que o sistema possa processar a carga a que se destina. Isso normalmente envolve a execução de uma série de testes em que se aumenta a carga até que o desempenho do sistema se torne inaceitável.",
+        "banca": "FCC"
+    },
+    {
+        "id": 135,
+        "enunciado": "Uma das atividades importantes do processo de garantia da qualidade de software é o processo de teste. Sobre esse processo, é correto afirmar que:",
+        "alternativas": [
+            "o processo de teste de software tem três metas distintas: 1 - demonstrar que o software atende aos requisitos especificados, 2 - descobrir falhas, comportamentos indesejados ou não conformidade com as especificações e 3 - garantir ao cliente o sucesso do produto.",
+            "em relação à metodologia TDD (Test Driven Development), podemos afirmar que entre as vantagens de sua utilização temos o foco no teste e não na implementação e a simplicidade. O software desenvolvido possui ao menos um teste de unidade, garantindo que ele funciona.",
+            "com relação ao Teste Funcional, é correto afirmar que a preocupação dessa técnica é validar os detalhes da implementação sob o ponto de vista do desenvolvedor. Essa técnica também é conhecida como teste de caixa branca.",
+            "a técnica estrutural requer a execução de partes ou de componentes elementares do programa, rodando sobre todos os caminhos lógicos e, portanto, trata-se de uma abordagem que não apresenta limitações inerentes à atividade de teste.",
+            "podemos afirmar que no paradigma de POO é suficiente que os testes sejam realizados nas superclasses, uma vez que as subclasses herdam as características e comportamentos da classe pai. Então, um teste que valida a superclasse, consequentemente, valida suas subclasses."
+        ],
+        "gabarito": "em relação à metodologia TDD (Test Driven Development), podemos afirmar que entre as vantagens de sua utilização temos o foco no teste e não na implementação e a simplicidade. O software desenvolvido possui ao menos um teste de unidade, garantindo que ele funciona.",
+        "banca": "FAPEC"
+    },
+    {
+        "id": 136,
+        "enunciado": "A disciplina de teste de software não busca apenas identificar falhas em um sistema. Ela busca também analisar a qualidade e garantir que o sistema será entregue de forma satisfatória, respeitando aspectos como: requisitos acordados, utilização de padronizações e qualidade do código fonte. Muitos conceitos estão presentes nas diferentes formas como um software pode ser testado.\nA respeito destes conceitos, analise as afirmativas abaixo e marque alternativa correta.\nI. No mundo dos testes chamamos de teste de caixa branca aquele em que o testador tem acesso a estrutura interna da aplicação. Por outro lado, temos o teste de caixa preta. Ele possui tal nome justamente pelo fato do testador desconhecer o conteúdo interno da aplicação.\nII. Também chamado de teste estrutural, o teste de caixa branca possui diversas técnicas. A técnica de caminhos básicos, por exemplo, identifica os percursos de execução do software com o objetivo de garantir que cada um deles seja testado.\nIII. Os testes de caixa preta são também conhecidos como testes funcionais. São chamados assim pois tem o objetivo de validar saídas de acordo com as entradas, ou seja, garantir que os requisitos funcionais da aplicação estão sendo atendidos.",
+        "alternativas": [
+            "Apenas a afirmativa I está correta.",
+            "Apenas as afirmativas I e II estão corretas.",
+            "Apenas a afirmativa III está correta.",
+            "Apenas as afirmativas I e III estão corretas.",
+            "Todas as afirmativas estão corretas."
+        ],
+        "gabarito": "Todas as afirmativas estão corretas.",
+        "banca": "IDECAN"
+    },
+    {
+        "id": 137,
+        "enunciado": "O analista de sistemas Carlos está desenvolvendo o software CharlieApp e implementou o teste C. O teste C consiste apenas em determinar se o método A do código de CharlieApp retorna o resultado esperado C ao chamar o método B que realiza uma consulta ao banco de dados de CharlieApp.\nPortanto, o teste C implementado por Carlos é de:",
+        "alternativas": [
+            "unidade;",
+            "aceitação;",
+            "ponta a ponta;",
+            "exploração;",
+            "integração."
+        ],
+        "gabarito": "integração.",
+        "banca": "FGV"
+    },
+    {
+        "id": 138,
+        "enunciado": "Em seu famoso livro de Engenharia de Software, Pressman (2011) cita os principais tipos de testes de sistema que são vantajosos para sistemas de software tais como:\n(1) Teste por Esforço.\n(2) Teste de Segurança.\n(3) Teste de Desempenho.\nDa relação apresentada:",
+        "alternativas": [
+            "existem somente o 1 e 2.",
+            "existem somente o 1 e 3.",
+            "existem somente o 2 e 3.",
+            "existem em todos."
+        ],
+        "gabarito": "existem em todos.",
+        "banca": "IBFC"
+    },
+    {
+        "id": 139,
+        "enunciado": "Sobre o teste de unidade, avalie as afirmações a seguir:\nI – Verificação da menor unidade de projeto de software.\nII – Pode ser realizado em paralelo para múltiplos módulos.\nIII – Devem ser testados todos os possíveis caminhos lógicos.\nEstão corretas as afirmações:",
+        "alternativas": [
+            "I e II, apenas.",
+            "II e III, apenas.",
+            "I, II e III.",
+            "I e III, apenas.",
+            "III, apenas."
+        ],
+        "gabarito": "I e II, apenas.",
+        "banca": "AVANÇASP"
+    },
+    {
+        "id": 140,
+        "enunciado": "Sistemas de software estão sujeitos aos mais variados tipos de erros e inconsistências introduzidos ao longo do processo de desenvolvimento. Para evitar que tais erros cheguem aos usuários finais e causem prejuízos, é necessária a introdução de atividades de teste em projetos de desenvolvimento de software.\nAssinale a alternativa correta em relação ao assunto.",
+        "alternativas": [
+            "Testes de unidade são testes que usam diversas classes, de pacotes distintos, e podem ainda testar componentes externos, como bancos de dados.",
+            "Testes de unidade são testes que verificam uma funcionalidade ou transação completa de um sistema. Logo, são testes que usam diversas classes, de pacotes distintos, e podem ainda testar componentes externos, como bancos de dados.",
+            "Testes de unidade também chamados de testes de interface com o usuário. Eles simulam, da forma mais fiel possível, uma sessão de uso do sistema por um usuário real.",
+            "Teste estrutural ou Teste de validação, frequentemente chamado de teste caixa-preta, mostra que um programa faz o que é proposto a fazer.",
+            "Testes de unidade são testes automatizados de pequenas unidades de código, normalmente classes, as quais são testadas de forma isolada do restante do sistema."
+        ],
+        "gabarito": "Testes de unidade são testes automatizados de pequenas unidades de código, normalmente classes, as quais são testadas de forma isolada do restante do sistema.",
+        "banca": "FEPESE"
+    },
+    {
+        "id": 141,
+        "enunciado": "Leia a frase abaixo referente às técnicas de Teste de Software:\n\"O teste estrutural é também conhecido como assim como o teste funcional é também conhecido especificamente como sendo o \".\nAssinale a alternativa que preencha correta e respectivamente as lacunas.",
+        "alternativas": [
+            "teste da caixa preta / teste da caixa branca.",
+            "teste da caixa branca / teste da caixa preta.",
+            "teste da caixa cinza / teste da caixa preta.",
+            "teste da caixa branca / teste da caixa cinza."
+        ],
+        "gabarito": "teste da caixa branca / teste da caixa preta.",
+        "banca": "IBFC"
+    },
+    {
+        "id": 142,
+        "enunciado": "Um analista pretende utilizar um tipo de teste automatizado que simula uma experiência de nível de usuário em toda a pilha de um produto de software. Planos de testes automatizados, desse tipo, em geral, abrangem histórias de nível de usuário como: “o usuário pode entrar”, “o usuário pode fazer um depósito” ou “o usuário pode alterar as configurações de e-mail”. A implementação desses testes oferece a garantia de que os usuários reais terão uma experiência sem bugs, mesmo quando novos commits são enviados. A descrição trata do teste de",
+        "alternativas": [
+            "lógica.",
+            "integração.",
+            "unidade.",
+            "ponta-a-ponta.",
+            "mesa."
+        ],
+        "gabarito": "ponta-a-ponta.",
+        "banca": "FCC"
+    },
+    {
+        "id": 143,
+        "enunciado": "Os princípios das atividades metodológicas têm forte influência sobre o sucesso de cada atividade metodológica genérica definida como parte do processo de software. Selecione o princípio de atividade metodológica que abrange um conjunto de tarefas de codificação e testes que gera um software operacional pronto para ser entregue ao cliente e ao usuário.",
+        "alternativas": [
+            "Princípios da comunicação.",
+            "Princípios do planejamento.",
+            "Princípio da modelagem.",
+            "Princípio da construção.",
+            "Princípio da disponibilização."
+        ],
+        "gabarito": "Princípio da construção.",
+        "banca": "IDECAN"
+    },
+    {
+        "id": 144,
+        "enunciado": "É preciso efetuar testes ao longo de todo o desenvolvimento para evitar custos e prazos diferentes daqueles previstos inicialmente. Selecione o tipo de teste que normalmente é realizado pelos próprios desenvolvedores e que serve para verificar se as partes do software funcionam de maneira isolada das demais partes do sistema.",
+        "alternativas": [
+            "Teste de integração.",
+            "Teste de regressão.",
+            "Teste unitário.",
+            "Teste de volume.",
+            "Teste usabilidade."
+        ],
+        "gabarito": "Teste unitário.",
+        "banca": "IDECAN"
+    },
+    {
+        "id": 145,
+        "enunciado": "Existem vários tipos de testes que podem ser realizados e que se aplicam a diferentes propósitos durante um projeto de software. Selecione o tipo de teste que tem como propósito verificar se as porções menores, testadas anteriormente, têm condições de funcionar em conjunto, formando um sistema.",
+        "alternativas": [
+            "Teste de caixa branca.",
+            "Teste de caixa preta.",
+            "Teste de regressão.",
+            "Teste de integração.",
+            "Teste de performance."
+        ],
+        "gabarito": "Teste de integração.",
+        "banca": "IDECAN"
+    },
+    {
+        "id": 146,
+        "enunciado": "Carlos trabalha como implementador de software e recebe a demanda de realizar um teste de software usando a técnica que avalia a parte externa do software, o seu modo de funcionamento e que serve para identificar se o software está funcionando como deveria.",
+        "alternativas": [
+            "Teste de caixa preta.",
+            "Teste de caixa branca.",
+            "Teste de integração.",
+            "Teste de performance.",
+            "Teste unitário."
+        ],
+        "gabarito": "Teste de caixa preta.",
+        "banca": "IDECAN"
+    },
+    {
+        "id": 147,
+        "enunciado": "De acordo com as Etapas do Ciclo de Vida de Teste de Software, assinale aquela em que os profissionais de teste vão realizar as devidas validações considerando tudo o que foi apontado nos casos de teste.",
+        "alternativas": [
+            "Implementação.",
+            "Encerramento.",
+            "Planejamento.",
+            "Análise de requisitos.",
+            "Integração."
+        ],
+        "gabarito": "Implementação.",
+        "banca": "IDECAN"
+    },
+    {
+        "id": 148,
+        "enunciado": "O é uma técnica do teste de software para garantir que uma nova versão do software não gere novos defeitos em componentes já analisados.",
+        "alternativas": [
+            "Teste de Carga.",
+            "Teste de Estresse.",
+            "Teste de Usabilidade.",
+            "Teste de Regressão.",
+            "Teste Exploratório."
+        ],
+        "gabarito": "Teste de Regressão.",
+        "banca": "SS CENTEC"
+    },
+    {
+        "id": 149,
+        "enunciado": "Possui esse nome porque o código fonte é ignorado no teste. Assim, ao se utilizar dessa técnica, o tester não está preocupado com os elementos constitutivos do software, mas em como ele funciona, avaliando a funcionalidade.\nA frase anterior refere-se a Testes:",
+        "alternativas": [
+            "Caixa Branca.",
+            "Caixa Cinza.",
+            "Regressão.",
+            "Não Funcionais.",
+            "Caixa Preta."
+        ],
+        "gabarito": "Caixa Preta.",
+        "banca": "SS CENTEC"
+    },
+    {
+        "id": 150,
+        "enunciado": "Uma estratégia de teste de software deve ser flexível o bastante para promover uma estratégia de teste personalizada. Ao mesmo tempo, deve ser rígida o bastante para estimular um planejamento razoável e o acompanhamento à medida que o projeto progride.\nCom relação a esse assunto, assinale a alternativa que indica corretamente a abordagem para o teste de programas que se baseiam no conhecimento da estrutura do programa e seus componentes. O acesso ao código-fonte é essencial para esse tipo de teste.",
+        "alternativas": [
+            "Teste caixa-preta.",
+            "Teste caixa-branca.",
+            "Teste de aceitação.",
+            "Teste de avaliação.",
+            "Teste caixa-cinzenta."
+        ],
+        "gabarito": "Teste caixa-branca.",
+        "banca": "FEPESE"
+    },
+    {
+        "id": 151,
+        "enunciado": "O reteste seletivo de um sistema ou componente para verificar que modificações realizadas sobre o software não causaram efeitos diferentes dos planejados e que o sistema ou componente continua a atender aos seus requisitos especificados é chamado de teste",
+        "alternativas": [
+            "de regressão.",
+            "de segurança.",
+            "de sistema.",
+            "de unidade."
+        ],
+        "gabarito": "de regressão.",
+        "banca": "Instituto Verbena"
+    },
+    {
+        "id": 152,
+        "enunciado": "Atividades de teste são complexas e onerosas e por isso devem ser bem planejadas. Todavia, há uma técnica de teste de software em que os testes não são definidos com antecedência em um plano de teste estabelecido, mas são dinamicamente projetados, executados e modificados com base no conhecimento adquirido pelo responsável pelo teste. A técnica de teste que apresenta estas características é chamada de teste",
+        "alternativas": [
+            "analítico.",
+            "exploratório.",
+            "heurístico.",
+            "randômico."
+        ],
+        "gabarito": "exploratório.",
+        "banca": "Instituto Verbena"
+    },
+    {
+        "id": 153,
+        "enunciado": "O teste é uma atividade importante durante o desenvolvimento de um software, pois ajuda a garantir a qualidade. Acerca de teste de software, assinale a alternativa correta.",
+        "alternativas": [
+            "O teste de software permite encontrar todos os erros de um sistema.",
+            "O erro é definido como a visualização de um problema pelo usuário.",
+            "O teste de software é uma técnica de V&V dinâmica.",
+            "É possível testar todos os valores de entrada de um software."
+        ],
+        "gabarito": "O teste de software é uma técnica de V&V dinâmica.",
+        "banca": "IDIB"
+    },
+    {
+        "id": 154,
+        "enunciado": "Acerca dos testes ágeis, assinale a opção que corresponde à metodologia caracterizada por sua adaptabilidade às mudanças de cada iteração, e na qual nem sempre é fornecida documentação detalhada sobre como o aplicativo é testado.",
+        "alternativas": [
+            "desenvolvimento orientado a comportamentos (BDD).",
+            "desenvolvimento orientado a testes de aceitação (ATDD).",
+            "teste exploratório.",
+            "teste baseado em sessão."
+        ],
+        "gabarito": "teste exploratório.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 155,
+        "enunciado": "Segundo JINO, MALDONADO e DELAMARO, sobre os testes funcionais, assinalar a alternativa CORRETA:",
+        "alternativas": [
+            "São utilizados para testar um sistema em que este é considerado uma caixa preta. O software é avaliado segundo o ponto de vista do usuário.",
+            "São utilizados para avaliar se há brechas de segurança a partir de procedimentos, tais como análise de vulnerabilidade, coleta de informações e violação de senha.",
+            "Consistem em simular eventos de carga excessiva, forçando o software ao extremo.",
+            "São uma série de análises voltadas para o desempenho do software mediante várias situações. A partir dos diagnósticos, é possível compreender os limites do programa sob diversas condições.",
+            "Têm como finalidade analisar o comportamento do software quando interage com outras aplicações ou processos."
+        ],
+        "gabarito": "São utilizados para testar um sistema em que este é considerado uma caixa preta. O software é avaliado segundo o ponto de vista do usuário.",
+        "banca": "OBJETIVA CONCURSOS"
+    },
+    {
+        "id": 156,
+        "enunciado": "Cleiton está realizando testes em um sistema e revisa o código procurando por problemas. Nesse caso, ele está realizando testes de qual tipo?",
+        "alternativas": [
+            "Unitário.",
+            "Integração.",
+            "Caixa Branca.",
+            "Caixa Preta.",
+            "A B."
+        ],
+        "gabarito": "Caixa Branca.",
+        "banca": "Instituto AOCP"
+    },
+    {
+        "id": 157,
+        "enunciado": "Baseando-se em conhecimentos acerca de teste de software, analise a descrição a seguir:\n\"Utiliza o aspecto interno do programa/sistema, o código fonte, para avaliar seus componentes. Ele também é conhecido como teste orientado à lógica ou estrutural.\nPodem ser analisados itens como: fluxo dos dados, condição, ciclos etc. Na hora de implementá-lo é preciso verificar a criticidade, a complexidade, a estrutura e o nível de qualidade que se pretende obter do programa, envolvendo confiança e segurança;\" Esse tipo de teste de software é o:",
+        "alternativas": [
+            "Teste de unidade.",
+            "Teste de integração.",
+            "Teste de stress.",
+            "Teste da caixa branca."
+        ],
+        "gabarito": "Teste da caixa branca.",
+        "banca": "IUDS"
+    },
+    {
+        "id": 158,
+        "enunciado": "Baseando-se em conhecimentos acerca de teste de software, analise a descrição a seguir:\n\"esse teste é feito por um pequeno grupo de usuários para ver se o software satisfaz as suas necessidades. Nesse teste, analisa-se como o usuário usa o sistema, verificando onde ele tem mais dificuldade. Ouve-se também suas impressões, porém é preciso confrontá-las com as observações do avaliador;\" Esse tipo de teste de software é o:",
+        "alternativas": [
+            "Teste da caixa preta.",
+            "Teste de usabilidade.",
+            "Teste da caixa cinza.",
+            "Teste de carga."
+        ],
+        "gabarito": "Teste de usabilidade.",
+        "banca": "IUDS"
+    },
+    {
+        "id": 159,
+        "enunciado": "Sobre técnicas de teste de software, assinale a alternativa para qual tipo de teste garante que as mudanças realizadas em uma nova versão não gerarão erros em componentes prontos e testados.",
+        "alternativas": [
+            "Teste de Regressão.",
+            "Teste de Carga.",
+            "Teste de Estresse.",
+            "Teste de Usabilidade."
+        ],
+        "gabarito": "Teste de Regressão.",
+        "banca": "IBFC"
+    },
+    {
+        "id": 160,
+        "enunciado": "Existem diversas técnicas para se testar um software sendo ele orientado a objeto ou não.\nA técnica de teste de software é o processo que vai assegurar perfeito funcionamento de alguns aspectos do software ou de sua unidade. Neste contexto, considere:\nO Teste _____ também conhecido como teste da caixa branca, tem por objetivo testar o _____, testar os fluxos básicos e os alternativos. Teste _____ também conhecido como teste da caixa preta, é baseado na _____ do software e garante que os requisitos funcionem conforme o especificado sem se preocupar com a forma que foi implementado.\nAssinale a alternativa que preencha correta e respectivamente as lacunas.",
+        "alternativas": [
+            "funcional / análise funcional / estrutural / código fonte.",
+            "estrutural / código fonte / funcional / análise funcional.",
+            "funcional / código fonte / estrutural / análise funcional.",
+            "estrutural / análise funcional / funcional / código fonte."
+        ],
+        "gabarito": "estrutural / código fonte / funcional / análise funcional.",
+        "banca": "IBFC"
+    },
+    {
+        "id": 161,
+        "enunciado": "No contexto da testagem de software, os testes do tipo Unitário, aplicam-se normalmente",
+        "alternativas": [
+            "à aderência a padrões.",
+            "às funções codificadas.",
+            "às interfaces de entrada de dados.",
+            "à integração dos componentes.",
+            "aos limites de carga."
+        ],
+        "gabarito": "às funções codificadas.",
+        "banca": "FGV"
+    },
+    {
+        "id": 162,
+        "enunciado": "Considere que a separação de ambientes no TJUSC, de forma hipotética, funcione como mostra a figura abaixo.\nO ambiente de desenvolvimento é utilizado pelos desenvolvedores para construir o software, reunindo máquinas nas quais o código é implementado. O ambiente de produção corresponde àquele em que os usuários finais utilizarão o software. O ambiente de testes",
+        "alternativas": [
+            "possui infraestrutura que não corre o risco de ficar desatualizada, devido ao fato de o servidor I ser uma cópia do ambiente de produção e o servidor II ser uma cópia do servidor de desenvolvimento. Este ambiente deve espelhar o máximo possível o ambiente de desenvolvimento, de forma a buscar garantir sucesso na execução dos testes.",
+            "deve ser distinto do ambiente de homologação, por isso os servidores I e II são cópias de segurança do ambiente de desenvolvimento. Não é recomendável montar o ambiente de testes usando virtualização, pois essa técnica não garante recursos suficientes para que não haja queda de desempenho do sistema, podendo comprometer a confiabilidade dos testes.",
+            "corresponde ao ambiente de homologação, no qual o desenvolvedor publica o software para submetê-los aos testes alpha. É um ambiente criado para replicar todas as condições do ambiente de produção, contribuindo para a eficiência na execução dos testes e qualidade final da entrega.",
+            "realiza os testes de desempenho, de carga, de esforço/estresse e de longevidade, que requerem um ambiente de testes similar ao de produção. Mas os testes de segurança não podem espelhar o ambiente de produção, devendo ser executados em ambiente similar ao de desenvolvimento, para que os testes exponham as vulnerabilidades do programador.",
+            "deve estar preparado para os testes manuais, essenciais ao desenvolvimento ágil tanto no Scrum como no XP. Em ambas as metodologias, ter agilidade e trabalhar com testes automatizados não condiz com o mundo real."
+        ],
+        "gabarito": "corresponde ao ambiente de homologação, no qual o desenvolvedor publica o software para submetê-los aos testes alpha. É um ambiente criado para replicar todas as condições do ambiente de produção, contribuindo para a eficiência na execução dos testes e qualidade final da entrega.",
+        "banca": "FCC"
+    },
+    {
+        "id": 163,
+        "enunciado": "Os requisitos de software são classificados como requisitos funcionais e não funcionais. De acordo com os requisitos funcionais, determinados testes são projetados para sua validação, não considerando o funcionamento interno de um programa.\nAssinale, a seguir, tal tipo de teste.",
+        "alternativas": [
+            "Beta.",
+            "Caixa preta.",
+            "Caixa branca.",
+            "Caminho básico."
+        ],
+        "gabarito": "Caixa preta.",
+        "banca": "Instituto Consulplan"
+    },
+    {
+        "id": 164,
+        "enunciado": "Com referência às metodologias de teste de software, a técnica que avalia as funcionalidades sem ter contato com o código-fonte, mas apenas com as respostas que o sistema dá a determinadas ações, é conhecida como",
+        "alternativas": [
+            "Caixa Branca.",
+            "Caixa Cinza.",
+            "Caixa Preta.",
+            "Regressão.",
+            "Testes não funcionais."
+        ],
+        "gabarito": "Caixa Preta.",
+        "banca": "FGV"
+    },
+    {
+        "id": 165,
+        "enunciado": "O teste de software é destinado a mostrar se um programa faz o que se propõe. a fazer e para descobrir seus defeitos antes do uso. Com relação a testes de software, assinale a opção correta.",
+        "alternativas": [
+            "O teste de aceitação, em que alguns ou todos os componentes de um sistema estão integrados e o sistema é testado como um todo, é essencialmente um processo de teste de defeitos, e seu objetivo é descobrir bugs no software.",
+            "O teste de release, em que a equipe de desenvolvimento testa uma versão completa do sistema antes que ela seja liberada para os usuários, tem o objetivo de verificar se o sistema atende aos requisitos dos stakeholders de sistema.",
+            "O teste de segurança é um teste de sistema que tenta forçar o software a falhar de várias formas, verificando se sua segurança é executada corretamente.",
+            "O teste de release costuma ser um processo de teste de caixa-preta, no qual os testes são derivados da especificação de sistema, cujo comportamento só pode ser determinado por meio do estudo das entradas e saídas relacionadas.",
+            "O teste beta é um tipo de teste de usuário, em que os usuários do software trabalham em equipe para testar o software no local de desenvolvimento."
+        ],
+        "gabarito": "O teste de release costuma ser um processo de teste de caixa-preta, no qual os testes são derivados da especificação de sistema, cujo comportamento só pode ser determinado por meio do estudo das entradas e saídas relacionadas.",
+        "banca": "Marinha"
+    },
+    {
+        "id": 166,
+        "enunciado": "A figura a seguir ilustra um ciclo de vida de sistemas de software:\nAs fases “IMPLEMENTAÇÃO E TESTE DE UNIDADE”, “INTEGRAÇÃO E TESTE DO SISTEMA” e “PROJETO DO SISTEMA DE SOFTWARE” correspondem na figura aos blocos identificados, respectivamente, como",
+        "alternativas": [
+            "GAMA, ALFA e BETA.",
+            "GAMA, BETA e ALFA.",
+            "BETA, GAMA e ALFA.",
+            "BETA, ALFA e GAMA."
+        ],
+        "gabarito": "BETA, GAMA e ALFA.",
+        "banca": "IDECAN"
+    },
+    {
+        "id": 167,
+        "enunciado": "No que se refere à engenharia de software, assinale a alternativa que apresenta o estágio do modelo em cascata em que o projeto do software é desenvolvido como um conjunto de programas ou de unidades de programa e há a verificação de que cada unidade atende a sua especificação.",
+        "alternativas": [
+            "análise e definição de requisitos.",
+            "implementação e teste unitário.",
+            "projeto de sistema e software.",
+            "integração e teste de sistema.",
+            "operação e manutenção."
+        ],
+        "gabarito": "implementação e teste unitário.",
+        "banca": "QUADRIX"
+    }
+]

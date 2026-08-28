@@ -1,0 +1,1398 @@
+[
+    {
+        "id": 1,
+        "enunciado": "Julgue o item a seguir, a respeito de servidores web, suporte técnico e usabilidade do usuário.\nA usabilidade de um sistema é medida pela facilidade com que os usuários podem aprender a usar e podem operar esse sistema de maneira eficiente, eficaz e satisfatória.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 2,
+        "enunciado": "IHM significa Interface Homem-Máquina, um conceito que visa a facilitar a interação entre os usuários e os sistemas, maquinários ou softwares, permitindo a comunicação e a troca de informações entre o homem e a máquina. Entre as principais características de um sistema homem-máquina, uma delas representa a qualidade para o uso de programas e aplicações, referindo-se à facilidade de operação, associada à capacidade que um sistema interativo oferece ao usuário, para a realização de tarefas de maneira eficaz, eficiente e agradável. Essa característica é conhecida como:",
+        "alternativas": [
+            "usabilidade.",
+            "interatividade.",
+            "acessibilidade.",
+            "adaptabilidade."
+        ],
+        "gabarito": "usabilidade.",
+        "banca": "SELECON"
+    },
+    {
+        "id": 3,
+        "enunciado": "Quanto aos sistemas de gerenciamento de conteúdo (CMS), à organização e arquitetura da informação e à usabilidade e experiência do usuário (UX), julgue o item a seguir.\nVisibilidade do status do sistema é o princípio, na usabilidade e na experiência do usuário, que diz respeito à manutenção de elementos e comportamentos similares em diferentes partes da interface.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "QUADRIX"
+    },
+    {
+        "id": 4,
+        "enunciado": "Quanto aos sistemas de gerenciamento de conteúdo (CMS), à organização e arquitetura da informação e à usabilidade e experiência do usuário (UX), julgue o item a seguir.\nNa usabilidade e experiência do usuário, o princípio da estética e do design minimalista afirma que interfaces devem evitar excesso de informações irrelevantes.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "QUADRIX"
+    },
+    {
+        "id": 5,
+        "enunciado": "Na avaliação de um protótipo do novo portal acadêmico de uma escola, que visa centralizar notas, horários, materiais de aula e o catálogo da biblioteca, o analista observa que: 1) A navegação principal utiliza ícones sem texto, cujos significados não são imediatamente claros para novos usuários. 2) O sistema não oferece alternativas textuais para gráficos que exibem o desempenho acadêmico, e a paleta de cores usada nos gráficos não é adequada para daltônicos. 3) A estrutura de menus agrupa \"Notas\" e \"Catálogo da Biblioteca\" sob uma mesma categoria chamada \"Serviços Acadêmicos\", o que gerou confusão nos testes iniciais. Com base no cenário descrito, qual alternativa descreve corretamente a relação entre os problemas identificados e os conceitos de usabilidade, acessibilidade e arquitetura da informação?",
+        "alternativas": [
+            "A dificuldade com os ícones é um problema de acessibilidade, pois impede o acesso à informação; a questão dos gráficos sem texto é uma falha de usabilidade, pois torna a interface menos eficiente; e a estrutura de menus confusa afeta a arquitetura da informação.",
+            "A ausência de rótulos nos ícones afeta a usabilidade, pois dificulta o aprendizado e a recordação; a falta de alternativas para os gráficos e a paleta de cores inadequada comprometem a acessibilidade; e o agrupamento ilógico dos menus representa uma falha na arquitetura da informação.",
+            "A estrutura de menus confusa é um desafio de usabilidade, pois afeta a satisfação do usuário; os ícones sem texto representam uma falha na arquitetura da informação, pois a iconografia faz parte da estrutura; e a falta de alternativas nos gráficos é um problema de acessibilidade.",
+            "A questão dos gráficos e cores é um problema de arquitetura da informação, pois se refere à forma como os dados são apresentados; a estrutura de menus é um problema de acessibilidade, pois dificulta o acesso a certas áreas; e a falta de clareza dos ícones afeta a usabilidade.",
+            "Todos os três problemas — ícones, gráficos e menus — são primordialmente questões de usabilidade, pois coletivamente resultam em uma experiência ruim ao usuário, sendo a acessibilidade e a arquitetura da informação subcomponentes desse conceito maior."
+        ],
+        "gabarito": "A ausência de rótulos nos ícones afeta a usabilidade, pois dificulta o aprendizado e a recordação; a falta de alternativas para os gráficos e a paleta de cores inadequada comprometem a acessibilidade; e o agrupamento ilógico dos menus representa uma falha na arquitetura da informação.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 6,
+        "enunciado": "Durante a análise de um sistema, foram observados diversos problemas de usabilidade que impactam negativamente a experiência do usuário. Entre os problemas identificados, destacam-se:\n1. Os usuários frequentemente relatam dificuldade para encontrar funcionalidades importantes, devido a menus pouco claros e labels ambíguos.\n2. Quando ocorre um erro, o sistema apresenta mensagens genéricas, que não ajudam o usuário a compreender o problema ou a corrigi-lo.\n3. Diferentes telas apresentam estilos de botões, cores e nomenclaturas distintos, gerando confusão.\n4. Algumas telas exibem muitos elementos ao mesmo tempo, tornando difícil a identificação do que é prioritário.\n5. Ações importantes não geram feedback imediato, deixando o usuário incerto sobre o resultado da operação.\nAssinale a alternativa que relaciona corretamente os problemas listados à respectiva heurística de Nielsen violada.",
+        "alternativas": [
+            "1 - Correspondência entre o sistema e o mundo real; 2 - Ajude os usuários a reconhecer, diagnosticar e recuperar-se de erros; 3 - Reconhecimento em vez de memorização; 4 - Design simples; 5 - Visibilidade do status do sistema.",
+            "1 - Correspondência entre o sistema e o mundo real; 2 - Ajuda e documentação; 3 - Consistência e padrões; 4 - Design estético e minimalista; 5 - Prevenção de erros.",
+            "1 - Flexibilidade e eficiência de uso; 2 - Ajude os usuários a reconhecer, diagnosticar e recuperar-se de erros; 3 - Reconhecimento em vez de memorização; 4 - Design simples; 5 - Prevenção de erros.",
+            "1 - Flexibilidade e eficiência de uso; 2 - Ajuda e documentação; 3 - Reconhecimento em vez de memorização; 4 - Design estético e minimalista; 5 - Visibilidade do status do sistema.",
+            "1 - Correspondência entre o sistema e o mundo real; 2 - Ajude os usuários a reconhecer, diagnosticar e recuperar-se de erros; 3 - Consistência e padrões; 4 - Design estético e minimalista; 5 - Visibilidade do status do sistema."
+        ],
+        "gabarito": "1 - Correspondência entre o sistema e o mundo real; 2 - Ajude os usuários a reconhecer, diagnosticar e recuperar-se de erros; 3 - Consistência e padrões; 4 - Design estético e minimalista; 5 - Visibilidade do status do sistema.",
+        "banca": "CCON UFSM"
+    },
+    {
+        "id": 7,
+        "enunciado": "A meta da usabilidade que está associada à rapidez com que um objetivo é alcançado é a meta de",
+        "alternativas": [
+            "eficiência.",
+            "segurança.",
+            "utilidade.",
+            "eficácia.",
+            "aprendizagem."
+        ],
+        "gabarito": "eficiência.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 8,
+        "enunciado": "A respeito de experiência do usuário (UX) e de metodologias ágeis, julgue o próximo item.\nTanto uma lista de emojis do teclado que inclui diferentes tons de pele quanto opções de avatar de gênero neutro constituem exemplos de um design mais utilizável\n(usable).",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 9,
+        "enunciado": "Durante o processo de análise de requisitos de usabilidade, é fundamental considerar aspectos que impactam diretamente na experiência do usuário. Dentre os critérios avaliados para garantir a usabilidade de um sistema, destaca-se um princípio que enfatiza a contextura nas interações do usuário, proporcionando uma experiência mais previsível e familiar. A alternativa que descreve perfeitamente o princípio de usabilidade que está sendo destacado no texto é",
+        "alternativas": [
+            "Feedback de sistema.",
+            "Eficiência de uso.",
+            "Consistência.",
+            "Flexibilidade."
+        ],
+        "gabarito": "Consistência.",
+        "banca": "IDECAN"
+    },
+    {
+        "id": 10,
+        "enunciado": "Considerando as melhores práticas em Engenharia de Usabilidade, assinale a opção que apresenta a forma correta de utilizar a prototipação.",
+        "alternativas": [
+            "A equipe desenvolve um protótipo de alta fidelidade detalhado e funcional no início do projeto, sem coletar feedback dos usuários, focando em ajustes técnicos antes de validar as necessidades do usuário.",
+            "Utilizando protótipos de baixa fidelidade, a equipe rapidamente testa diversas ideias de interfaces com um pequeno grupo de usuários internos, sem alterar a diversidade na amostra de testes para manter uma base de comparação mas iterar com base no feedback recebido.",
+            "A equipe cria um único protótipo de alta fidelidade e realiza testes com um grande número de usuários finais e planeja ajustes com base nas observações coletadas.",
+            "Inicialmente, são desenvolvidos protótipos de baixa fidelidade para explorar conceitos de design e fluxos de interação. Após coletar e analisar feedback dos usuários, a equipe itera sobre os protótipos, aumentando progressivamente a fidelidade.",
+            "Os protótipos são desenvolvidos exclusivamente pelo time de design, sem comunicação com a equipe de desenvolvimento, e os testes de usabilidade são realizados apenas após a conclusão do desenvolvimento do aplicativo."
+        ],
+        "gabarito": "Inicialmente, são desenvolvidos protótipos de baixa fidelidade para explorar conceitos de design e fluxos de interação. Após coletar e analisar feedback dos usuários, a equipe itera sobre os protótipos, aumentando progressivamente a fidelidade.",
+        "banca": "FGV"
+    },
+    {
+        "id": 11,
+        "enunciado": "Julgue o próximo item, referente à qualidade de software.\nNo conceito de usabilidade, considera-se que a experiência do usuário, além das qualidades técnicas do software, é fator determinante para a construção de sistemas de maior qualidade, pois a participação do usuário pode facilitar a compreensão dos seus desejos quanto ao software que está sendo desenvolvido.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 12,
+        "enunciado": "A usabilidade tem papel fundamental no design de interface. Dessa forma, heurísticas de usabilidade apontam para diretrizes gerais que tornam as interfaces acessíveis, favorecedoras de interação e agradáveis aos usuários Web em geral. Sendo assim, assinale a alternativa que NÃO representa uma heurística.",
+        "alternativas": [
+            "Visibilidade do status do sistema.",
+            "Consistência e padrões.",
+            "Projeto minimalista e estético.",
+            "Compatibilidade entre o sistema e o mundo virtual.",
+            "Ajuda e documentação."
+        ],
+        "gabarito": "Compatibilidade entre o sistema e o mundo virtual.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 13,
+        "enunciado": "Acerca de engenharia de requisitos, prototipação e engenharia de usabilidade, julgue o item subsequente.\nAdicionar várias camadas de proteção, ao se projetar uma arquitetura de sistema que mantenha essa proteção, afeta a usabilidade do sistema, o que dificulta o atendimento dos requisitos de usabilidade e desempenho do sistema.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 14,
+        "enunciado": "No que se refere à engenharia de usabilidade, julgue o item a seguir.\nFacilidade de aprendizado, velocidade de operação, robustez, facilidade de recuperação e adaptabilidade são os atributos de uma interface de software.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 15,
+        "enunciado": "Acerca de blockchain, conceitos de inteligência artificial, arquitetura hexagonal e gestão de conteúdo, julgue o item a seguir.\nA garantia de usabilidade de uma aplicação exige atualizações constantes que podem se basear no comportamento do usuário.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 16,
+        "enunciado": "Atributo de usabilidade é a característica geral de Usabilidade a ser usada como critério para avaliação da interface. Esse elemento é essencial já que corresponde a parâmetros usados para se medir a usabilidade de uma versão da interface. A capacidade do software de oferecer resultados na precisão desejada pelo usuário, é denominada de:",
+        "alternativas": [
+            "Sensitividade.",
+            "Acurácia.",
+            "Retenção.",
+            "Especificidade.",
+            "Confiabilidade."
+        ],
+        "gabarito": "Acurácia.",
+        "banca": "IDCAP"
+    },
+    {
+        "id": 17,
+        "enunciado": "O Grupo de Desenvolvimento de Software (GRUDEV) construirá um aplicativo para dispositivos móveis cujo público-alvo são os cidadãos estaduais.\nCom foco na produção de um aplicativo que atenda aos princípios de usabilidade, o GRUDEV deve:",
+        "alternativas": [
+            "utilizar modais para avisos importantes, prevenção ou correção de erros;",
+            "condicionar que os conteúdos ou serviços vinculados sejam apresentados em resposta às pesquisas dos usuários;",
+            "disponibilizar grandes quantidades de texto, principalmente para auxílio na navegação, de modo que o funcionamento do aplicativo esteja explícito;",
+            "aplicar barras de rolagem quando o conteúdo ultrapassar o tamanho físico da tela em polegadas, para que o conteúdo útil fique disponível em uma mesma tela;",
+            "construir os botões com funcionalidades para submissão de dados em tamanhos maiores, com fontes maiores que os demais, para ocupar a largura total da tela do dispositivo móvel, de modo a facilitar a confirmação de dados pelos usuários."
+        ],
+        "gabarito": "utilizar modais para avisos importantes, prevenção ou correção de erros;",
+        "banca": "FGV"
+    },
+    {
+        "id": 18,
+        "enunciado": "Dentre as atividades de análise, parte do processo de entender a necessidade do usuário consiste em ser claro quanto ao objetivo principal. No entendimento do contexto interface homem-máquina, a usabilidade é geralmente considerada como o fator que assegura que os produtos são fáceis de usar, eficientes e agradáveis.\nAcerca do conceito de design de interação, dentre as metas nas quais a usabilidade é dividida, assinale a que NÃO tem relação ao conceito apresentado:",
+        "alternativas": [
+            "Ser segura no uso (segurança).",
+            "Ser emocionalmente adequado (adequável).",
+            "Ser de boa utilidade (utilidade).",
+            "Ser eficiente no uso (eficiência).",
+            "Ser eficaz no uso (eficácia)."
+        ],
+        "gabarito": "Ser emocionalmente adequado (adequável).",
+        "banca": "PR4 (UFRJ)"
+    },
+    {
+        "id": 19,
+        "enunciado": "No que diz respeito à qualidade de um projeto de software, pode-se classificar um produto segundo diversas características, sendo uma delas a que se refere ao esforço necessário para usar um produto de software, bem como o julgamento individual de tal uso por um conjunto explícito ou implícito de usuários.\nEssa característica é denominada",
+        "alternativas": [
+            "funcionalidade.",
+            "usabilidade.",
+            "portabilidade.",
+            "acessibilidade.",
+            "confiabilidade."
+        ],
+        "gabarito": "usabilidade.",
+        "banca": "Instituto ACCESS"
+    },
+    {
+        "id": 20,
+        "enunciado": "Durante a utilização do sistema, existe uma sensibilidade ao contexto e, em vez de inúmeras opções, é indicado apenas o que se deve fazer como próximo passo válido; assim, o usuário pode inferir o que o sistema espera que seja feito em seguida.\nSabendo que, na engenharia de usabilidade, devem ser observados alguns princípios do projeto de interação, assinale a opção que indica o princípio do projeto de interação abordado no texto precedente.",
+        "alternativas": [
+            "consistência.",
+            "restrições.",
+            "feedback (retorno).",
+            "mapeamento.",
+            "visibilidade."
+        ],
+        "gabarito": "mapeamento.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 21,
+        "enunciado": "Na construção de uma aplicação para web, características estéticas e de interface são abordadas em",
+        "alternativas": [
+            "eficiência.",
+            "confiabilidade.",
+            "manutenibilidade.",
+            "funcionalidade.",
+            "usabilidade."
+        ],
+        "gabarito": "usabilidade.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 22,
+        "enunciado": "Com relação a user experience (UX), julgue o item a seguir.\nA usabilidade pode ser vista como medida e como qualidade: no primeiro caso, trata como um produto pode ser usado por usuários específicos para alcançar objetivos determinados com eficiência e satisfação; no segundo, trata sobre o uso de um sistema a partir das necessidades de determinado usuário.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 23,
+        "enunciado": "No que se refere à usabilidade, assinale a opção que apresenta o fator relacionado ao tempo necessário para a conclusão de uma atividade com apoio computacional, o qual é determinado pela maneira como o usuário interage com a interface do sistema.",
+        "alternativas": [
+            "eficiência.",
+            "facilidade de aprendizado.",
+            "segurança no uso.",
+            "satisfação do usuário."
+        ],
+        "gabarito": "eficiência.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 24,
+        "enunciado": "A imagem a seguir representa uma das 10 Heurísticas de Nielsen para uma boa interação e usabilidade do usuário.\nAssinale a alternativa correta que corresponde à imagem.",
+        "alternativas": [
+            "Consistência e padrões.",
+            "Reconhecimento em vez de memorização.",
+            "Correspondência entre o sistema e o mundo real.",
+            "Flexibilidade e eficiência de uso.",
+            "Liberdade de controle fácil para o usuário."
+        ],
+        "gabarito": "Correspondência entre o sistema e o mundo real.",
+        "banca": "FAPEC"
+    },
+    {
+        "id": 25,
+        "enunciado": "A Interação Humano-Computador (IHC) é uma área de estudo da ciência da computação interdisciplinar por considerar conceitos presentes em áreas de design, ergonomia e psicologia. O usuário de sistemas informatizados tem a necessidade de interagir com tais sistemas através de operações de entrada e saída. Ao longo do tempo, essa forma de interação evoluiu sempre com o intuito de maximizar as habilidades de uso destes sistemas, tornando-as mais intuitivas, simples e seguras.\nA respeito de conceitos que envolvem IHC, analise as afirmativas abaixo e marque alternativa correta.\nI. Graphical User Interface (GUI) é o nome dado para Interfaces que se comunicam com o usuário através do uso de elementos gráficos. Podem ser consideradas uma evolução em relação as interfaces de linha de comando, um tipo de interface em que o homem e o computador se comunicam através de texto.\nII. Adaptabilidade, clareza e consistência são exemplos de características presentes em uma boa interface gráfica de usuário. As duas últimas, por exemplo, ajudam a tomar a interface mais intuitiva, o que acaba tornando o processo de aprendizagem de uso do sistema mais simples.\nIII. VUI é o acrônimo utilizado para descrevermos Interfaces de comunicação entre homem e computador através do uso da voz. VUI é considera um exemplo de Natural User Interface (NUI) pois se aproxima da forma como humanos interagem, dispensando a presença de elementos fisicos intermediários, como por exemplo teclados e mouses. Um bom exemplo de VUI são as inteligências artificiais, que se comunicam com o usuário através da voz, por meio de assistentes virtuais.",
+        "alternativas": [
+            "Apenas as afirmativas I e II estão corretas.",
+            "Apenas a afirmativa III está correta.",
+            "Apenas as afirmativas II e III estão corretas.",
+            "Apenas a afirmativa II está correta.",
+            "Todas as afirmativas estão corretas."
+        ],
+        "gabarito": "Todas as afirmativas estão corretas.",
+        "banca": "IDECAN"
+    },
+    {
+        "id": 26,
+        "enunciado": "Acerca dos conceitos de experiência do usuário (user experience) e dos sistemas de gestão de conteúdo, julgue o item subsequente.\nA usabilidade é um atributo de qualidade de um projeto que avalia se ele fornece os recursos que os usuários precisam.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 27,
+        "enunciado": "No desenvolvimento de um sistema de software, a propriedade de usabilidade representa",
+        "alternativas": [
+            "o nível de facilidade da utilização desse sistema.",
+            "o número de horas durante as quais um usuário pode operar tal sistema sem interrupções.",
+            "a facilidade de se efetuarem reparos nesse sistema.",
+            "a quantidade máxima de usuários simultâneos no sistema.",
+            "a taxa média de falhas que pode fazer com que o sistema seja interrompido."
+        ],
+        "gabarito": "o nível de facilidade da utilização desse sistema.",
+        "banca": "VUNESP"
+    },
+    {
+        "id": 28,
+        "enunciado": "A usabilidade é dividida em metas que auxiliam o designer de interação a avaliar os aspectos de um produto interativo. Para a meta de UTILIDADE, o que deve ser considerado ao avaliar um sistema?",
+        "alternativas": [
+            "Se o sistema auxilia o usuário na realização da tarefa, permitindo alcançar seus objetivos de forma mais rápida e precisa.",
+            "Se é fácil aprender a utilizar as funcionalidades do sistema.",
+            "Se o sistema fornece um conjunto apropriado de funções, considerando as necessidades e expectativas do usuário final.",
+            "Se é fácil lembrar como utilizar o sistema após uma experiência prévia."
+        ],
+        "gabarito": "Se o sistema fornece um conjunto apropriado de funções, considerando as necessidades e expectativas do usuário final.",
+        "banca": "IDIB"
+    },
+    {
+        "id": 29,
+        "enunciado": "Tendo por foco o tema Interface Homem- Máquina, o termo “User-Friendly” deve ser preocupação dos analistas de sistemas quando envolvidos na construção de softwares automatizados no desenvolvimento de projetos. Nesse contexto, esse termo tem por significado:",
+        "alternativas": [
+            "interface amigável.",
+            "interação entre usuários.",
+            "ambiente de interação entre sistemas.",
+            "interações com interfaces inconsistentes."
+        ],
+        "gabarito": "interface amigável.",
+        "banca": "SELECON"
+    },
+    {
+        "id": 30,
+        "enunciado": "No que diz respeito à área da Interface Homem- Máquina, dois conceitos estão diretamente relacionados à construção de sites e portais para a Web.\nI. É o parâmetro que trata da disponibilidade de conteúdos e recursos de modo universal na internet, com o objetivo do conteúdo ser acessado, percebido, compreendido e receber interação de qualquer usuário com autonomia e sem barreiras. É, em essência, o respeito pela diversidade de usuários que há na internet e seus direitos ao acesso à informação.\nII. É o parâmetro que define a facilidade com que as pessoas empregam uma ferramenta ou mesmo um objeto para realizar uma tarefa. É, em essência, a capacidade do sistema em fazer com que o usuário tenha sucesso na execução de suas tarefas.\nOs conceitos em I e II referem-se, respectivamente a:",
+        "alternativas": [
+            "comunicabilidade e usabilidade.",
+            "acessibilidade e usabilidade.",
+            "comunicabilidade e design.",
+            "acessibilidade e design."
+        ],
+        "gabarito": "acessibilidade e usabilidade.",
+        "banca": "SELECON"
+    },
+    {
+        "id": 31,
+        "enunciado": "A respeito de qualidade de software, julgue o item que se segue.\nUsabilidade é o atributo de qualidade determinado pelo comportamento do software em relação aos recursos fornecidos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 32,
+        "enunciado": "Dentre os conceitos de metas de usabilidade listados abaixo, assinale qual representa a definição de eficiência.",
+        "alternativas": [
+            "Envolve proteger o usuário de condições perigosas e situações indesejáveis.",
+            "Refere-se ao quanto um produto é bom e atende ao esperado.",
+            "Refere-se à maneira como um produto auxilia os usuários na realização de suas tarefas.",
+            "Refere-se à medida na qual o produto oferece o tipo certo de funcionalidade, de modo que os usuários possam fazer aquilo que precisam ou desejam.",
+            "Refere-se à facilidade de aprender a usar um sistema."
+        ],
+        "gabarito": "Refere-se à maneira como um produto auxilia os usuários na realização de suas tarefas.",
+        "banca": "IDECAN"
+    },
+    {
+        "id": 33,
+        "enunciado": "Sobre usabilidade em interface de interação entre usuário e computador, assinale a alternativa correta:",
+        "alternativas": [
+            "Requisitos de usabilidade são requisitos funcionais.",
+            "Adicionar várias camadas de proteção também afeta a usabilidade de um sistema, de modo que se pode dizer que é mais difícil atender aos requisitos de usabilidade e desempenho de sistema.",
+            "A usabilidade é um atributo interno que pode ser medido por atributos externos como número de mensagens de erro e extensão do manual de usuário.",
+            "Todas as alternativas acima estão erradas.",
+            "Todas as alternativas acima estão corretas."
+        ],
+        "gabarito": "Adicionar várias camadas de proteção também afeta a usabilidade de um sistema, de modo que se pode dizer que é mais difícil atender aos requisitos de usabilidade e desempenho de sistema.",
+        "banca": "FAU UNICENTRO"
+    },
+    {
+        "id": 34,
+        "enunciado": "A Engenharia de Usabilidade trata da construção de sistemas melhores através da compreensão de quem são os usuários finais e do envolvimento destes usuários nos requisitos, no design da interface e nos esforços de teste. O RUP trabalha técnicas de engenharia de usabilidade em várias atividades. A atividade Design da Interface com o Usuário, por exemplo, gera os artefatos Esboço Sequencial e Mapa de Navegação. O Esboço Sequencial",
+        "alternativas": [
+            "descreve a estrutura dos elementos da interface com o usuário no sistema, com seus possíveis caminhos de navegação.",
+            "é uma descrição lógica e conceitual da funcionalidade do sistema para um cenário específico, incluindo a interação requerida entre os usuários e o sistema.",
+            "é um exemplo da interface com o usuário, na forma de protótipo, utilizado para explorar e/ou validar o design da interface com o usuário.",
+            "descreve como um determinado caso de uso é realizado no modelo de design em termos de objetos de colaboração.",
+            "especifica elementos de um modelo conceitual para coisas existentes no sistema que têm responsabilidades e comportamentos. É utilizado para capturar os principais blocos de responsabilidade no sistema usando classes."
+        ],
+        "gabarito": "é uma descrição lógica e conceitual da funcionalidade do sistema para um cenário específico, incluindo a interação requerida entre os usuários e o sistema.",
+        "banca": "FCC"
+    },
+    {
+        "id": 35,
+        "enunciado": "A interface com o usuário deve informar continuamente o que ele está fazendo. Essa característica está relacionada a",
+        "alternativas": [
+            "correspondência entre o sistema e o mundo real.",
+            "apresentação das etapas do processo.",
+            "liberdade de controle fácil para o usuário.",
+            "estética e design.",
+            "boas mensagens de erro."
+        ],
+        "gabarito": "apresentação das etapas do processo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 36,
+        "enunciado": "Acerca de interface de interação com usuários, julgue o item subsequente.\nUm sistema tem o mesmo grau de facilidade e de dificuldade no que se refere ao uso e ao aprendizado.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 37,
+        "enunciado": "Na literatura de IHC podem ser encontrados vários conjuntos de princípios, diretrizes e heurísticas que podem ajudar no design da interação humano-computador.\nCom relação a esses princípios, diretrizes e heurísticas para o design de IHC, é INCORRETO afirmar que",
+        "alternativas": [
+            "um princípio importante que deve guiar o design da interação diz respeito à modificabilidade dos requisitos, cujos enunciados devem ter uma estrutura e estilo que permitam mudanças de qualquer requisito de forma fácil, completa e consistente.",
+            "devemos explorar os mapeamentos naturais, seja entre as variáveis mentais e as físicas, seja entre as tarefas e os controles utilizados para manipular essas variáveis no mundo real e no sistema projetado.",
+            "alguns autores destacam a importância de manter o usuário no controle da interação. Entretanto, Tognazzini ressalta a necessidade buscar um equilíbrio, pois quando não há limites ou restrições os usuários podem se sentir perdidos ou angustiados com o excesso de opções.",
+            "para ações frequentes e com resultado esperado, o feedback do sistema pode ser sutil, mas para ações infrequentes e com grandes consequências, a resposta deve ser mais substancial."
+        ],
+        "gabarito": "um princípio importante que deve guiar o design da interação diz respeito à modificabilidade dos requisitos, cujos enunciados devem ter uma estrutura e estilo que permitam mudanças de qualquer requisito de forma fácil, completa e consistente.",
+        "banca": "COPEVE UFMG"
+    },
+    {
+        "id": 38,
+        "enunciado": "Os processos que visam à usabilidade no desenvolvimento de software, também conhecidos como processos de design de IHC, podem ser utilizados no desenvolvimento de software com qualidade. Com relação aos processos de design de IHC usados no desenvolvimento de software, é CORRETO afirmar que",
+        "alternativas": [
+            "o conceito de design participativo sugerido por Nielsen, também incorporado pelos métodos ágeis de desenvolvimento de software, consiste em se utilizar uma equipe multidisciplinar em que todos os desenvolvedores participam do design da interação.",
+            "o ciclo de vida em estrela proposto por Hix e Hartson propõe o projeto conceitual associado à especificação do design como uma atividade central e, por isso, todas as outras atividades de processo estão interligadas a ela.",
+            "Nielsen advoga o design paralelo, cuja ideia central é que uma arena de interação, seja uma tela ou página da Internet, seja organizada com agrupamentos de elementos interativos que satisfazem às várias necessidades dos usuários em um determinado contexto.",
+            "o processo de design envolve atividades básicas que compreendem, em termos gerais, a análise da situação atual, a síntese de uma intervenção e a avaliação dessa intervenção; mas cada processo detalha essas atividades de uma forma particular, definindo: como executar cada atividade; a sequência em que elas devem ser executadas; quais atividades podem se repetir e por quais motivos; e os artefatos consumidos e produzidos em cada uma delas."
+        ],
+        "gabarito": "o processo de design envolve atividades básicas que compreendem, em termos gerais, a análise da situação atual, a síntese de uma intervenção e a avaliação dessa intervenção; mas cada processo detalha essas atividades de uma forma particular, definindo: como executar cada atividade; a sequência em que elas devem ser executadas; quais atividades podem se repetir e por quais motivos; e os artefatos consumidos e produzidos em cada uma delas.",
+        "banca": "COPEVE UFMG"
+    },
+    {
+        "id": 39,
+        "enunciado": "Considere os exemplos de estratégias para construção de interfaces com o usuário.\nConsiderando que cada um dos exemplos é formado por um par de imagens, conclui-se que",
+        "alternativas": [
+            "todos os pares trazem nas figuras da esquerda modelos de interface incorretos ou a serem evitados e nas figuras da direita sua correspondente correção ou melhoria.",
+            "todos os pares trazem nas figuras da esquerda modelos de interface corretos ou mais adequados e nas figuras da direita o modelo correspondente com algum erro ou algo a ser evitado.",
+            "todos os pares trazem modelos de interface alternativos que são adequados para representar uma mesma ideia ou comunicação com o usuário.",
+            "no Exemplo 1, a figura da esquerda traz o modelo de interface menos indicado e a da direita seu correspondente adequado; no Exemplo 2, a figura da esquerda traz o modelo de interface mais indicado e a da direita seu correspondente inadequado.",
+            "no Exemplo 1, a figura da esquerda traz o modelo de interface mais indicado e a da direita seu correspondente adequado; os Exemplos 2 e 3 trazem na esquerda o modelo incorreto ou inadequado e na direita o correspondente melhor ou mais adequado."
+        ],
+        "gabarito": "no Exemplo 1, a figura da esquerda traz o modelo de interface menos indicado e a da direita seu correspondente adequado; no Exemplo 2, a figura da esquerda traz o modelo de interface mais indicado e a da direita seu correspondente inadequado.",
+        "banca": "FCC"
+    },
+    {
+        "id": 40,
+        "enunciado": "O antiquário “Só Velharia” possui um sistema de catálogo de produtos, desenvolvido há três anos, que é utilizado por todos os seus funcionários. Há cerca de um ano, devido à crise do país, a empresa teve que demitir alguns funcionários. Recentemente a “Só Velharia” conseguiu fechar um convênio com alguns investidores para retomar sua produtividade normal. Assim, a empresa decidiu recontratar alguns de seus antigos funcionários. Em relação ao sistema, a empresa acredita que não precisará readaptar esses funcionários.\nO critério básico da engenharia de usabilidade que garantirá que esses funcionários não necessitarão de novo treinamento no sistema, mesmo após um ano sem utilizá- lo, é:",
+        "alternativas": [
+            "memorização;",
+            "satisfação;",
+            "erro;",
+            "criatividade;",
+            "eficiência."
+        ],
+        "gabarito": "memorização;",
+        "banca": "FGV"
+    },
+    {
+        "id": 41,
+        "enunciado": "A usabilidade está associada a uma característica de qualidade de software que se refere à sua adequação à utilização pelos usuários. Na Engenharia de Usabilidade cada elemento de uma interface deve ser analisado segundo algumas heurísticas. Manuel é o analista de usabilidade responsável por elaborar as interfaces do sistema da financeira SemGrana. Para realizar seu trabalho, Manuel frequentou diariamente a financeira por um mês, de forma a conhecer o vocabulário padrão, bem como os conceitos usuais utilizados pelos funcionários da financeira. Dessa forma, Manuel pôde elaborar interfaces que contivessem o vocabulário e os conceitos da financeira.\nA preocupação demonstrada por Manuel pode ser traduzida pela heurística:",
+        "alternativas": [
+            "ajuda e documentação;",
+            "controle e liberdade do usuário;",
+            "design estético e minimalista;",
+            "correspondência entre o sistema e o mundo real;",
+            "visibilidade do estado do sistema."
+        ],
+        "gabarito": "correspondência entre o sistema e o mundo real;",
+        "banca": "FGV"
+    },
+    {
+        "id": 42,
+        "enunciado": "No que se refere aos conceitos de usabilidade, comunicabilidade, acessibilidade e navegabilidade, bem como à arquitetura da informação, julgue o item a seguir.\nA escolha de ícones e nomes de links adequados ao contexto simbólico do usuário aumenta a sua capacidade de interpretação correta da interface e a sua comunicabilidade.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 43,
+        "enunciado": "No que se refere aos conceitos de usabilidade, comunicabilidade, acessibilidade e navegabilidade, bem como à arquitetura da informação, julgue o item a seguir.\nUm sítio possui boa navegabilidade quando todos os seus links de navegação estão operacionais.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 44,
+        "enunciado": "No que se refere aos conceitos de usabilidade, comunicabilidade, acessibilidade e navegabilidade, bem como à arquitetura da informação, julgue o item a seguir.\nA usabilidade, cujo foco é o usuário, visa tornar fácil e eficiente o uso de sítios de Internet.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 45,
+        "enunciado": "Julgue o próximo item acerca de análise de requisitos de usabilidade, teste de usabilidade e de interfaces web.\nOs requisitos de usabilidade devem ser estabelecidos em função do conteúdo, dos usuários e do contexto de uso.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 46,
+        "enunciado": "A usabilidade tem como objetivo elaborar interfaces capazes de permitir uma interação fácil, agradável, com eficácia e eficiência. Deve induzir à criação de interfaces transparentes de maneira a não dificultar o processo, permitindo ao usuário pleno controle do ambiente evitando que este se torne um obstáculo durante a interação. A usabilidade pode ser dividida em cinco critérios básicos, dentre os quais NÃO consta:",
+        "alternativas": [
+            "Intuitividade: o sistema deve apresentar facilidade de uso permitindo que mesmo um usuário sem experiência seja capaz de produzir algum trabalho satisfatoriamente.",
+            "Memorização: suas telas devem apresentar facilidade de memorização permitindo que usuários ocasionais consigam utilizá-lo mesmo depois de um longo intervalo de tempo.",
+            "Performance: o sistema deve ser projetado tendo como alvo principal usuários experientes, capazes de superar dificuldades de aprendizagem e ter alta performance na utilização.",
+            "Erro: a quantidade de erros apresentados pelo sistema deve ser o mais reduzido possível. Erros graves ou sem solução não podem ocorrer.",
+            "Satisfação: o sistema deve satisfazer os usuários, sejam eles iniciantes ou avançados, permitindo uma interação agradável."
+        ],
+        "gabarito": "Performance: o sistema deve ser projetado tendo como alvo principal usuários experientes, capazes de superar dificuldades de aprendizagem e ter alta performance na utilização.",
+        "banca": "FCC"
+    },
+    {
+        "id": 47,
+        "enunciado": "Segundo Jakob Nielsen, um pesquisador reconhecido e precursor na área de usabilidade, a engenharia de usabilidade visa ao desenvolvimento de interfaces com determinados atributos. Em relação a esses atributos, é correto afirmar que:",
+        "alternativas": [
+            "produtividade na realização de atividades está relacionada diretamente com o desempenho do aplicativo de software.",
+            "facilidade de aprendizado significa que deve ser fácil para o usuário aprender os conteúdos ensinados no aplicativo de software.",
+            "retenção do aprendizado com uso intermitente significa que o software deve permitir que o usuário consiga lembrar os conteúdos ensinados mesmo quando fica sem usá-lo por um período relativamente longo de tempo.",
+            "prevenção de erros do usuário significa que o sistema deve prevenir erros cometidos pelo usuário quando o utiliza em suas atividades.",
+            "todos os atributos devem ter o mesmo peso e relevância, independente do tipo de sistema."
+        ],
+        "gabarito": "prevenção de erros do usuário significa que o sistema deve prevenir erros cometidos pelo usuário quando o utiliza em suas atividades.",
+        "banca": "ESAF"
+    },
+    {
+        "id": 48,
+        "enunciado": "Um Programador da Defensoria Pública do Estado de São Paulo foi designado para realizar o projeto da interface do usuário de um sistema. Ao seguir os princípios para o projeto da interface, o programador NÃO DEVE permitir que",
+        "alternativas": [
+            "o usuário seja forçado a realizar ações indesejadas, mesmo que o programador as considere úteis.",
+            "a interação com o usuário possa ser interrompida em algum ponto.",
+            "o layout visual da interface seja baseado em uma metáfora do mundo real.",
+            "seja mantida uma consistência de interações ao longo de uma família de aplicações.",
+            "seja reduzida a demanda de memória do usuário, mesmo que o programador queira simplificar a interface."
+        ],
+        "gabarito": "o usuário seja forçado a realizar ações indesejadas, mesmo que o programador as considere úteis.",
+        "banca": "FCC"
+    },
+    {
+        "id": 49,
+        "enunciado": "Uma universidade possui 27 unidades acadêmicas, nas quais estão lotados os atuais 75 cursos. Deseja-se criar uma interface para dispositivos móveis que permita aos usuários externos da universidade localizar determinado curso de seu interesse.\nConsiderando que a interface deve ser rápida, fácil de usar e de boa usabilidade, qual das alternativas abaixo melhor atende a esses requisitos na busca supracitada?",
+        "alternativas": [
+            "Uma caixa de texto na qual o usuário digita o nome completo do curso e envia ao servidor.",
+            "Uma tela com um menu das 27 unidades; o usuário escolhe a unidade e envia ao servidor; o servidor retorna uma tela com os cursos a ela vinculados, em forma de menu; o usuário escolhe, então, o curso.",
+            "Uma tela com um menu com os 75 cursos; o usuário escolhe o curso desejado.",
+            "Uma tela com as 27 unidades listadas com botões de rádio; o usuário marca o botão da unidade e envia ao servidor; o servidor retorna uma tela com os cursos a ela vinculados, em forma de botões de rádio; o usuário, então, marca a opção do curso desejado.",
+            "Uma tela com as 27 unidades listadas com caixa de seleção múltipla (check box ); o usuário marca a caixa da unidade e envia ao servidor; o servidor retorna uma tela com os cursos a ela vinculados, em forma de botões de rádio; o usuário marca, então, a opção do curso desejado."
+        ],
+        "gabarito": "Uma tela com um menu com os 75 cursos; o usuário escolhe o curso desejado.",
+        "banca": "FAURGS"
+    },
+    {
+        "id": 50,
+        "enunciado": "A respeito da usabilidade de websites, julgue o seguinte item.\nPara se construir uma AI eficiente, não se deve levar em consideração as necessidades do usuário, mas sim as especificações técnicas fornecidas pelo cliente.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 51,
+        "enunciado": "A respeito da usabilidade de websites, julgue o seguinte item.\nUsar diálogos simples e naturais, empregar a linguagem do usuário, minimizar a carga de memória do usuário, dar mensagens de erros claras, hierarquizar os conteúdos de um website são alguns dos princípios básicos de usabilidade na Web.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 52,
+        "enunciado": "A respeito da usabilidade de websites, julgue o seguinte item.\nOs eventuais erros oriundos da análise heurística são classificados de acordo com uma escala de gravidade, a qual tem três fatores relevantes — frequência, impacto e persistência — e quatro graus de severidades — superleve, leve, sério e crítico.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 53,
+        "enunciado": "A respeito da usabilidade de websites, julgue o seguinte item.\nOs atributos básicos da usabilidade web são facilidade de aprendizagem, eficiência, minimização de erros, satisfação subjetiva e facilidade para relembrar.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 54,
+        "enunciado": "A respeito da usabilidade de websites, julgue o seguinte item.\nÉ imprescindível observar os princípios básicos do uso das cores ao se dispor elementos em uma interface web, uma vez que o uso correto das cores contribui para agrupar e organizar elementos que facilitarão a navegação do usuário no website.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 55,
+        "enunciado": "A respeito de usabilidade, julgue o item subsecutivo.\nUsabilidade de programas e conteúdo refere-se ao acesso a locais, produtos, serviços e informações disponíveis ao maior número e variedade possível de pessoas, independentemente da capacidade motora, cultural e social de cada uma delas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 56,
+        "enunciado": "A usabilidade de um website refere-se à sua",
+        "alternativas": [
+            "compatibilidade com qualquer navegador web.",
+            "diagramação.",
+            "estética.",
+            "frequência de atualização.",
+            "simplicidade e facilidade de uso."
+        ],
+        "gabarito": "simplicidade e facilidade de uso.",
+        "banca": "VUNESP"
+    },
+    {
+        "id": 57,
+        "enunciado": "De acordo com a heurística de visibilidade de estado de um sistema,",
+        "alternativas": [
+            "a interface do sistema deve ser mais reativa que ativa.",
+            "a interface do sistema deve sinalizar claramente ao usuário as consequências de suas ações.",
+            "o sistema deve oferecer ajuda para o usuário em todas as ações e atividades.",
+            "o usuário deve ser constantemente informado sobre o estado em que o sistema está.",
+            "o sistema deve ter mensagens de erro claras e informativas."
+        ],
+        "gabarito": "o usuário deve ser constantemente informado sobre o estado em que o sistema está.",
+        "banca": "VUNESP"
+    },
+    {
+        "id": 58,
+        "enunciado": "A norma ABNT NBR ISO 9241-11:2011 define os seguintes critérios de sucesso em relação à usabilidade de produtos:",
+        "alternativas": [
+            "eficiência, eficácia e satisfação.",
+            "eficiência, estética e diagramação.",
+            "eficiência, estética e satisfação.",
+            "diagramação, eficácia e satisfação.",
+            "diagramação, estética e satisfação."
+        ],
+        "gabarito": "eficiência, eficácia e satisfação.",
+        "banca": "VUNESP"
+    },
+    {
+        "id": 59,
+        "enunciado": "No que diz respeito à usabilidade e acessibilidade, julgue o próximo item.\nNo que se refere à usabilidade, é aconselhável o desenvolvimento de projetos de sítios idênticos para desktops e dispositivos móveis, sendo ambos capazes de processar as páginas web da mesma forma, entretanto os dispositivos móveis apresentam, como características diferenciais, velocidade de comunicação e processo interno do hardware que não impactam a apresentação da informação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 60,
+        "enunciado": "No que diz respeito à usabilidade e acessibilidade, julgue o próximo item.\nNo projeto de sítios otimizados para dispositivos móveis, devem-se priorizar, entre outros aspectos, a eliminação de funcionalidades que não sejam fundamentais, a redução da quantidade de palavras e a ampliação dos elementos da interface para acomodar o problema do “dedo gordo”.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 61,
+        "enunciado": "De acordo com as considerações de Jakob Nielsen, julgue o próximo item.\nÉ uma falha não alterar as cores de um link já visitado, pois isso dificulta a navegação do leitor em um sítio. Uma decisão correta seria diferenciar, por meio de cores, os links visitados daqueles não visitados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 62,
+        "enunciado": "De acordo com as considerações de Jakob Nielsen, julgue o próximo item.\nDeve-se permitir que o usuário redimensione o texto, alterando o tamanho da fonte em valores relativos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 63,
+        "enunciado": "De acordo com as considerações de Jakob Nielsen, julgue o próximo item.\nA estratégia de fazer serem abertas novas janelas do navegador sem respeitar o interesse do usuário tem desvantagens: além de o usuário poder considerá-la hostil, ele pode não perceber que está dentro do conteúdo de uma nova janela e, assim, pode não conseguir retornar ao conteúdo original.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 64,
+        "enunciado": "De acordo com as considerações de Jakob Nielsen, julgue o próximo item.\nÉ um erro projetar motores de busca que priorizem as respostas de uma consulta com base na importância dos documentos pesquisados. Ao invés disto, os motores deveriam priorizar as respostas que obtiveram a maior quantidade de palavras pesquisadas encontradas, o que aumentaria as chances de atender aos anseios do usuário.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 65,
+        "enunciado": "Segundo a norma ISO 9241-11, usabilidade é entendida como “medida na qual um produto pode ser usado por usuários específicos para alcançar objetivos específicos com _____, eficiência e _____ em um contexto específico de uso”.\nAssinale a opção que completa corretamente as lacunas do fragmento acima.",
+        "alternativas": [
+            "eficácia (ou efetividade) – baixa taxa de erros.",
+            "facilidade de aprendizado – baixa taxa de erros.",
+            "eficácia (ou efetividade) – satisfação.",
+            "facilidade de aprendizado – satisfação.",
+            "eficácia (ou efetividade) – facilidade de memorização."
+        ],
+        "gabarito": "eficácia (ou efetividade) – satisfação.",
+        "banca": "FGV"
+    },
+    {
+        "id": 66,
+        "enunciado": "A usabilidade de um site está relacionada com o grau em que um usuário consegue desenvolver suas atividades nesse site. Acerca dos conceitos relacionados a usabilidade, é correto afirmar que",
+        "alternativas": [
+            "Card sorting é uma técnica que pode ser utilizada para, por exemplo, reestruturar informações dentro de um site.",
+            "a análise de usabilidade independe das características do público alvo.",
+            "Information architecture é a área responsável pelo projeto arquitetural (código-fonte) de sistemas de informação, não tendo relação com usabilidade.",
+            "o projeto de usabilidade de um site independe de questões humanas de memorização, já que o aprendizado do ser humano é baseado em casos."
+        ],
+        "gabarito": "Card sorting é uma técnica que pode ser utilizada para, por exemplo, reestruturar informações dentro de um site.",
+        "banca": "COMPERVE (UFRN)"
+    },
+    {
+        "id": 67,
+        "enunciado": "Segundo Preece, Rogers e Sharp, são características-chave que constituem parte fundamental do design de interação:",
+        "alternativas": [
+            "foco no usuário, critérios de usabilidade específicos e iteração.",
+            "foco na tarefa, critérios gerais de acessibilidade e interatividade.",
+            "foco na interface, critérios de comunicabilidade e imersão.",
+            "foco no sistema, critérios de funcionalidade e feedback computacional."
+        ],
+        "gabarito": "foco no usuário, critérios de usabilidade específicos e iteração.",
+        "banca": "Instituto Verbena"
+    },
+    {
+        "id": 68,
+        "enunciado": "A usabilidade está tradicionalmente associada a cinco atributos:",
+        "alternativas": [
+            "ser fácil de aprender, ser eficiente na utilização, ser fácil de ser recordado, ter poucos erros e ser subjetivamente agradável.",
+            "ser acessível, ter um design minimalista, prevenir erros, modelar usuários e facilitar tarefas.",
+            "relacionar com a imprensa e o público, divulgar o produto, atender ao usuário, garantir conhecimento do projeto e responder dúvidas.",
+            "garantir uma padronização, facilitar o carregamento de um website, relacionar website com banco de dados, fazer ajuste na programação e criar rotinas Javascript."
+        ],
+        "gabarito": "ser fácil de aprender, ser eficiente na utilização, ser fácil de ser recordado, ter poucos erros e ser subjetivamente agradável.",
+        "banca": "Instituto Verbena"
+    },
+    {
+        "id": 69,
+        "enunciado": "A expressão “engenharia de usabilidade” foi cunhada para se referir aos conceitos e às técnicas para planejamento, atingimento e verificação de objetivos para usabilidade de sistemas. A engenharia de usabilidade é uma disciplina que oferece métodos estruturados para atingir a usabilidade em projeto de interface com o usuário durante seu desenvolvimento, sendo uma disciplina com raízes em outras disciplinas, dentre as quais a engenharia de software. A engenharia de software é uma abordagem de desenvolvimento que envolve:",
+        "alternativas": [
+            "expertise e experiência, disciplina organizacional, administração e controle de atividades, parcerias e serviços.",
+            "definição de requisitos do produto, definição de objetivos, definição de projeto e teste em ciclos interativos até que os objetivos sejam alcançados.",
+            "reforço de alianças visando à busca de consultoria, implementação e processos de terceirização.",
+            "foco nas habilidades, no treinamento, na gestão, na certificação, na pesquisa, no acúmulo de negócios e capital intelectual."
+        ],
+        "gabarito": "definição de requisitos do produto, definição de objetivos, definição de projeto e teste em ciclos interativos até que os objetivos sejam alcançados.",
+        "banca": "Instituto Verbena"
+    },
+    {
+        "id": 70,
+        "enunciado": "No tocante à engenharia de usabilidade, julgue o seguinte item.\nSe o preenchimento de um formulário cadastral de um sistema ocasiona cinco erros, em média, e esses erros representam um esforço de uma hora para correção, então, nessa situação, infere-se que não foi utilizada adequadamente a engenharia de usabilidade durante a fase de desenvolvimento.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 71,
+        "enunciado": "No tocante à engenharia de usabilidade, julgue o seguinte item.\nA usabilidade consiste em extrair informações a respeito de quando o sistema não suporta a carga aplicada, sendo importante para estruturar e dimensionar a arquitetura e prover informações para escalar o sistema.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 72,
+        "enunciado": "Julgue o item subsequente, relativos a qualidade de software e análise de pontos de função.\nDo ponto de vista histórico, o termo usabilidade evoluiu a partir do termo qualidade em uso, que, por sua vez, substituiu o termo interface amigável, principalmente devido à pouca abrangência e subjetividade que estes últimos sugeriam.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 73,
+        "enunciado": "Segundo Jakob Nielsen, o desenvolvimento de interfaces deve prever a aplicação de princípios básicos, como a usabilidade e o design de interação. Com base nas teorias formuladas por esse autor, julgue o item a seguir.\nA estética e o design devem ser atrativos, sem apresentar níveis hierárquicos de informação. Desse modo, o usuário permanecerá por mais tempo na página da interface e realizará interações mais produtivas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 74,
+        "enunciado": "Segundo Jakob Nielsen, o desenvolvimento de interfaces deve prever a aplicação de princípios básicos, como a usabilidade e o design de interação. Com base nas teorias formuladas por esse autor, julgue o item a seguir.\nJakob Nielsen afirma que a interface deve apresentar consistência e padrões, pois desta forma os usuários se localizam facilmente, não necessitando de palavras ou referencias diferentes a cada página de um site. As situações ou ações devem manter uma consistência e padronização ao longo da utilização da aplicação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 75,
+        "enunciado": "Segundo Jakob Nielsen, o desenvolvimento de interfaces deve prever a aplicação de princípios básicos, como a usabilidade e o design de interação. Com base nas teorias formuladas por esse autor, julgue o item a seguir.\nA interface deve apresentar situações de controle e liberdade para o usuário, pois estes, frequentemente, escolhem funções do sistema por engano e necessitam de uma navegação adequada. Tal solução deve ser bem caracterizada, para que o problema do usuário seja resolvido sem a necessidade de um extenso diálogo.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 76,
+        "enunciado": "Segundo Pressman, à medida que um projeto de interface com o usuário evolui, algumas questões comuns de projeto sempre aparecem.\nAssinale a alternativa que indica exemplos destas questões.",
+        "alternativas": [
+            "Tempo de resposta, apresentação dos componentes usados para o usuário, modelo gráfico da ajuda e rotulação de comandos.",
+            "Tempo de resposta, modelo gráfico da ajuda, apresentação da interação do sistema e internacionalização.",
+            "Visualização da utilização do sistema, apresentação dos componentes usados para o usuário, manipulação da informação de erro e internacionalização.",
+            "Facilidade de ajuda a usuário, rotulação de comandos, acessibilidade da aplicação e apresentação da interação do sistema.",
+            "Tempo de resposta, facilidades de ajuda a usuário, manipulação da informação de erro e rotulação de comandos."
+        ],
+        "gabarito": "Tempo de resposta, facilidades de ajuda a usuário, manipulação da informação de erro e rotulação de comandos.",
+        "banca": "FGV"
+    },
+    {
+        "id": 77,
+        "enunciado": "Com relação aos padrões web, julgue o item a seguir.\nEntre as propostas de Jakob Nielsen relacionadas à usabilidade de sistemas, estão a visibilidade de status do sistema, a liberdade e o controle do usuário, a consistência e o controle de concorrência entre processos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 78,
+        "enunciado": "A norma ISO 9241-11 define o conceito de usabilidade. Ele é definido como a extensão em que um produto pode ser usado por usuários específicos para alcançar objetivos específicos com eficácia, eficiência e satisfação num contexto específico de uso. Na construção de um Web site, são boas práticas desse conceito:",
+        "alternativas": [
+            "colocar o menu de navegação numa localização consistente em cada página do site; usar travessões para separar horizontalmente diferentes tipos de conteúdos; usar o negrito ou maiúsculo para texto longo;",
+            "colocar o menu de navegação numa localização consistente em cada página do site; usar travessões para separar horizontalmente diferentes tipos de conteúdos; assegurar que o texto se encontra numa cor que se possa imprimir;",
+            "colocar o menu de navegação numa localização consistente em cada página do site; usar eixo de simetria para centrar o texto numa página; usar o negrito ou maiúsculo para texto longo;",
+            "usar etiquetas ALT para todas as imagens, especialmente as de navegação; assegurar que o texto se encontra numa cor que se possa imprimir; usar eixo de simetria para centrar o texto numa página;",
+            "usar etiquetas ALT para todas as imagens, especialmente as de navegação; assegurar que o texto se encontra numa cor que se possa imprimir; usar o negrito ou maiúsculo para texto longo."
+        ],
+        "gabarito": "usar etiquetas ALT para todas as imagens, especialmente as de navegação; assegurar que o texto se encontra numa cor que se possa imprimir; usar eixo de simetria para centrar o texto numa página;",
+        "banca": "FEMPERJ"
+    },
+    {
+        "id": 79,
+        "enunciado": "Para que ocorra minimamente uma interação, a interface deve apresentar características que facilitem sua utilização, permitindo que usuários básicos ou avançados possam aprender seus recursos de forma clara e objetiva. Segundo Jacob Nielsen, entre os atributos que compõe a usabilidade este é o mais importante e está associado a",
+        "alternativas": [
+            "eficiência.",
+            "memorização.",
+            "satisfação.",
+            "erros.",
+            "intuitividade."
+        ],
+        "gabarito": "intuitividade.",
+        "banca": "FCC"
+    },
+    {
+        "id": 80,
+        "enunciado": "A usabilidade não é uma propriedade singular de uma interface de um sistema de informação. Ela se apoia em uma série de elementos. São três de seus predicados:",
+        "alternativas": [
+            "Relação entre o sistema e o mundo real, Consistência e Standards e Prevenção de erros.",
+            "Facilidade de aprendizagem, Facilidade de memorização e Segurança.",
+            "Abordagem semiótica, Visibilidade do estado do sistema e Observação.",
+            "Walkthrough cognitivo, Satisfação e Heurística da usabilidade.",
+            "Escolha de requisitos, Entrevistas e Questionários."
+        ],
+        "gabarito": "Facilidade de aprendizagem, Facilidade de memorização e Segurança.",
+        "banca": "AOCP"
+    },
+    {
+        "id": 81,
+        "enunciado": "NÃO se trata de um dos cinco critérios básicos elencados na engenharia de usabilidade (Nielsen, 1993)",
+        "alternativas": [
+            "intuitividade.",
+            "eficiência.",
+            "memorização.",
+            "erro.",
+            "portabilidade."
+        ],
+        "gabarito": "portabilidade.",
+        "banca": "FCC"
+    },
+    {
+        "id": 82,
+        "enunciado": "No projeto de interface com o usuário, o princípio em que “os comandos e os menus do sistema devem ter o mesmo formato, os parâmetros devem ser fornecidos a todos os comandos da mesma maneira e a pontuação utilizada nos comandos deve ser similar” é conhecido como:",
+        "alternativas": [
+            "familiaridade com o usuário;",
+            "consistência da interface com o usuário;",
+            "mínimo de surpresa;",
+            "orientação do usuário;",
+            "diversidade de usuários."
+        ],
+        "gabarito": "consistência da interface com o usuário;",
+        "banca": "FDC"
+    },
+    {
+        "id": 83,
+        "enunciado": "Interação Homem-Computador (IHC) é o nome dado ao conjunto de estudos que envolve a interação entre pessoas (usuários) e equipamentos computacionais, desenvolvendo métodos e ferramentas para design, criação, implementação e manutenção de sistemas computacionais adequados ao uso humano. Acerca do tema, aponte a afirmativa INCORRETA.",
+        "alternativas": [
+            "Usabilidade corresponde a um critério de qualidade que está relacionado com a facilidade de aprendizado, com a facilidade de recordação, com a eficiência, com a segurança no uso e com a satisfação do usuário.",
+            "Experiência do usuário, acessibilidade e comunicabilidade constituem critérios de qualidade em IHC.",
+            "Comunicabilidade é um critério de qualidade em IHC relacionado com o expressar bem a intenção e a lógica de design dos produtores do sistema.",
+            "Controle ao desenvolvedor, conformidade com as expectativas do usuário, ênfase nos acertos, facilidade de observação e contexto de aprendizagem são princípios para projeto e avaliação de interfaces humano-computador para aplicações de escritório.",
+            "No projeto de interfaces, as mensagens ou alertas de erro têm um papel muito importante. Contudo, não apresenta uma prática adequada para alertas produzidos por um sistema interativo, uma vez que a mensagem é opinativa."
+        ],
+        "gabarito": "Controle ao desenvolvedor, conformidade com as expectativas do usuário, ênfase nos acertos, facilidade de observação e contexto de aprendizagem são princípios para projeto e avaliação de interfaces humano-computador para aplicações de escritório.",
+        "banca": "CCV UFS"
+    },
+    {
+        "id": 84,
+        "enunciado": "Com relação ao projeto da interface com o usuário, analise as afirmativas a seguir.\nI. É importante a colocação do usuário no controle definindo modos de interação de uma forma que não o force a ações desnecessárias, proporcionando interação flexível e permitindo que ele possa interromper ou desfazer qualquer ação sem perder o trabalho que já tenha feito.\nII. A interface com o usuário tem que ser capaz de aumentar a carga de memória do usuário para que ele utilize todo seu conhecimento a todo instante sobre o sistema, garantindo uma interface objetiva e robusta.\nIII. A interface com o usuário deve ser consistente ao longo de uma família de aplicações e consistente com modelos interativos anteriores.\nAssinale:",
+        "alternativas": [
+            "se somente a afirmativa I estiver correta.",
+            "se somente a afirmativa II estiver correta.",
+            "se somente as afirmativas I e III estiverem corretas.",
+            "se somente as afirmativas I e II estiverem corretas.",
+            "se todas as afirmativas estiverem corretas."
+        ],
+        "gabarito": "se somente as afirmativas I e III estiverem corretas.",
+        "banca": "FGV"
+    },
+    {
+        "id": 85,
+        "enunciado": "Dadas as seguintes afirmações sobre Interação Homem Computador,\nI. Testes de usabilidade podem ser realizados utilizando apenas Prototipagem em papel.\nII. Cenários retratam histórias de usuários utilizando a interface ou produto.\nIII. Protótipos fornecem uma versão de um produto com funcionalidades reduzidas.\nIV. Um Storyboard ilustra o produto ou serviço em uso.\nverifica-se que estão corretas",
+        "alternativas": [
+            "I e III, apenas.",
+            "I, II, III e IV.",
+            "I, II e IV, apenas.",
+            "III e IV, apenas.",
+            "II, III e IV, apenas."
+        ],
+        "gabarito": "II, III e IV, apenas.",
+        "banca": "FUNDEPES COPEVE"
+    },
+    {
+        "id": 86,
+        "enunciado": "O sistema deve apresentar facilidade de uso, permitindo que mesmo um usuário sem experiência seja capaz de produzir algum trabalho satisfatoriamente. Trata-se de um critério básico de usabilidade denominado",
+        "alternativas": [
+            "eficiência.",
+            "memorização.",
+            "satisfação.",
+            "intuitividade.",
+            "erro."
+        ],
+        "gabarito": "intuitividade.",
+        "banca": "FCC"
+    },
+    {
+        "id": 87,
+        "enunciado": "NÃO é um dos atributos resultante da engenharia de usabilidade:",
+        "alternativas": [
+            "ser fácil de aprender.",
+            "ser eficiente no uso.",
+            "ser de fácil recordação.",
+            "ter poucas informações.",
+            "ter poucos erros."
+        ],
+        "gabarito": "ter poucas informações.",
+        "banca": "FCC"
+    },
+    {
+        "id": 88,
+        "enunciado": "Tendo em vista que as características de qualidade do produto de software permitem identificar uma série de fatores de influenciam na avaliação de um produto de software, julgue o item.\nA usabilidade representa a facilidade de utilizar o produto. Características como atratividade, compreensibilidade, eficiência de uso, facilidade de memorização e apreensibilidade, permitem orientar uma avaliação nesse contexto.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 89,
+        "enunciado": "Uma forma de avaliar a usabilidade é por meio do uso de métricas que funcionam como critérios de medição da usabilidade do sistema considerado.\nSão dois critérios recomendáveis:",
+        "alternativas": [
+            "forma como estão distribuídas as tabelas no BD e fator de distribuição de dados nos diversos ambientes arquiteturais.",
+            "tempo médio entre falhas de máquina e frequência de uso da ajuda.",
+            "tempo consumido com erros e frequência de uso da ajuda.",
+            "percentual de tarefa concluído por unidade de tempo e forma como estão distribuídas as tabelas no BD.",
+            "tempo médio entre falhas de máquina e tempo para realizar uma tarefa."
+        ],
+        "gabarito": "tempo consumido com erros e frequência de uso da ajuda.",
+        "banca": "FCC"
+    },
+    {
+        "id": 90,
+        "enunciado": "De acordo com Jakob Nielsen, usabilidade consiste no atributo de qualidade que permite avaliar a facilidade de utilização de uma interface em sistemas computacionais, conceito que implica avaliação com base em variáveis como eficiência, aprendizagem, memorização e recuperação a partir de erros e satisfação do usuário com a interface.\nInternet: <www.useit.com/alertbox> (com adaptações).\nCom relação ao assunto tratado no texto acima, julgue o item a seguir.\nConsidera-se adequado, para o usuário ou internauta, website desenvolvido em conformidade com o conceito de usabilidade, visto que, nesse padrão, o website independe das características subjetivas e altamente variáveis dos usuários.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 91,
+        "enunciado": "De acordo com Jakob Nielsen, usabilidade consiste no atributo de qualidade que permite avaliar a facilidade de utilização de uma interface em sistemas computacionais, conceito que implica avaliação com base em variáveis como eficiência, aprendizagem, memorização e recuperação a partir de erros e satisfação do usuário com a interface.\nInternet: <www.useit.com/alertbox> (com adaptações).\nCom relação ao assunto tratado no texto acima, julgue o item a seguir.\nA realização de pesquisas abrangentes com grande número de usuários, preferencialmente com a utilização de técnicas de grupo focal, é a estratégia mais adequada para propiciar facilidade de uso de uma interface.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 92,
+        "enunciado": "De acordo com Jakob Nielsen, usabilidade consiste no atributo de qualidade que permite avaliar a facilidade de utilização de uma interface em sistemas computacionais, conceito que implica avaliação com base em variáveis como eficiência, aprendizagem, memorização e recuperação a partir de erros e satisfação do usuário com a interface.\nInternet: <www.useit.com/alertbox> (com adaptações).\nCom relação ao assunto tratado no texto acima, julgue o item a seguir.\nA utilização de animações que têm os objetivos de entreter o usuário e aumentar o seu tempo de permanência em um website constitui técnica de usabilidade para ampliar a satisfação do usuário com a interface do sistema.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 93,
+        "enunciado": "De acordo com Jakob Nielsen, usabilidade consiste no atributo de qualidade que permite avaliar a facilidade de utilização de uma interface em sistemas computacionais, conceito que implica avaliação com base em variáveis como eficiência, aprendizagem, memorização e recuperação a partir de erros e satisfação do usuário com a interface.\nInternet: <www.useit.com/alertbox> (com adaptações).\nCom relação ao assunto tratado no texto acima, julgue o item a seguir.\nEmbora não se enquadre no conceito de usabilidade, a utilidade de um website é tão importante quanto as variáveis de usabilidade, pois se a informação não é útil, pouco importa a facilidade de encontrá-la.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 94,
+        "enunciado": "De acordo com Jakob Nielsen, usabilidade consiste no atributo de qualidade que permite avaliar a facilidade de utilização de uma interface em sistemas computacionais, conceito que implica avaliação com base em variáveis como eficiência, aprendizagem, memorização e recuperação a partir de erros e satisfação do usuário com a interface.\nInternet: <www.useit.com/alertbox> (com adaptações).\nCom relação ao assunto tratado no texto acima, julgue o item a seguir.\nAtende adequadamente ao atributo de eficiência uma interface de navegação que apresente baixo grau de exigência de reaprendizagem na ocasião de retorno do usuário, após certo período de tempo, a essa interface.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 95,
+        "enunciado": "De acordo com Jakob Nielsen, usabilidade consiste no atributo de qualidade que permite avaliar a facilidade de utilização de uma interface em sistemas computacionais, conceito que implica avaliação com base em variáveis como eficiência, aprendizagem, memorização e recuperação a partir de erros e satisfação do usuário com a interface.\nInternet: <www.useit.com/alertbox> (com adaptações).\nCom relação ao assunto tratado no texto acima, julgue o item a seguir.\nAtributos de usabilidade são fundamentais em páginas da Internet, mas dispensáveis em intranets, onde os usuários podem ter treinamento específico para uso das interfaces.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 96,
+        "enunciado": "Segundo a norma ISO 9241, usabilidade é a capacidade que um sistema interativo oferece a seu usuário, em determinado contexto de operação, para a realização de tarefas de maneira eficaz, eficiente e agradável. Segundo a norma ISO/IEC 9126, usabilidade é a facilidade com que um usuário pode aprender a operar, preparar entradas para um sistema ou componente e interpretar as saídas desse sistema.\nTendo como referência as informações acima, julgue o item a seguir, relativo à engenharia de usabilidade.\nA adequação ao uso significa adequar-se ao tipo de tarefas ou atividades que se pretende realizar com o produto de software, aos usuários que tipicamente utilizam o produto e ao ambiente de utilização do produto. A avaliação somativa pode ser utilizada como critério de aceitação de um produto, ou seja, como parte dos requisitos não funcionais acordados com os usuários.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 97,
+        "enunciado": "Segundo a norma ISO 9241, usabilidade é a capacidade que um sistema interativo oferece a seu usuário, em determinado contexto de operação, para a realização de tarefas de maneira eficaz, eficiente e agradável. Segundo a norma ISO/IEC 9126, usabilidade é a facilidade com que um usuário pode aprender a operar, preparar entradas para um sistema ou componente e interpretar as saídas desse sistema.\nTendo como referência as informações acima, julgue o item a seguir, relativo à engenharia de usabilidade.\nAs metas de desempenho estabelecidas na especificação de requisitos de usabilidade correspondem a níveis de desempenho que usuários devem atingir ao interagirem com o sistema. A especificação de requisitos de usabilidade poderá ser usada como uma indicação de quando o projeto está convergindo em direção a uma interface com sucesso.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 98,
+        "enunciado": "Segundo a norma ISO 9241, usabilidade é a capacidade que um sistema interativo oferece a seu usuário, em determinado contexto de operação, para a realização de tarefas de maneira eficaz, eficiente e agradável. Segundo a norma ISO/IEC 9126, usabilidade é a facilidade com que um usuário pode aprender a operar, preparar entradas para um sistema ou componente e interpretar as saídas desse sistema.\nTendo como referência as informações acima, julgue o item a seguir, relativo à engenharia de usabilidade.\nA modelagem de conteúdo e navegação envolve aspectos estruturais e dinâmicos para realizar o desenho da arquitetura da interface em termos de espaços de interação.\nO aspecto dinâmico corresponde à criação de um modelo simplificado do conteúdo da interface, e o aspecto estrutural, à definição da navegação associada ao modelo dinâmico.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 99,
+        "enunciado": "Com referência à engenharia de usabilidade, julgue o próximo item.\nVantagem competitiva e redução de custos de manutenção estão entre os benefícios mensuráveis que podem ser obtidos de um sistema usável.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 100,
+        "enunciado": "Com referência à engenharia de usabilidade, julgue o próximo item.\nSe um sistema é utilizável com instrução ou ajuda contínua, então há usabilidade nesse sistema.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 101,
+        "enunciado": "Com referência à engenharia de usabilidade, julgue o próximo item.\nUma questão do tipo A interação é simples? jamais deve ser utilizada para determinar se a usabilidade foi atingida em um sistema.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 102,
+        "enunciado": "No que tange à usabilidade, acessibilidade e interoperabilidade em sistemas Web, são fornecidas as seguintes afirmativas:\nI - Serviços Web (Web Services) permitem a interoperabilidade entre aplicações Web, mesmo que essas aplicações tenham sido desenvolvidas com linguagens de programação diferentes.\nII - Testes de usabilidade são projetados por uma equipe de engenharia da Web e conduzidos por usuários finais.\nIII - Um entrave para a produção de sistemas Web de boa acessibilidade é o fato de que estes normalmente se tornam mais difíceis de serem utilizados por usuários sem alguma deficiência.\nÉ correto APENAS o que se afirma em",
+        "alternativas": [
+            "I.",
+            "III.",
+            "I e II.",
+            "I e III.",
+            "II e III."
+        ],
+        "gabarito": "I e II.",
+        "banca": "CESGRANRIO"
+    },
+    {
+        "id": 103,
+        "enunciado": "Com relação a usabilidade e acessibilidade podemos afirmar:",
+        "alternativas": [
+            "Usabilidade normalmente se refere à simplicidade e facilidade com que uma interface, um programa de computador ou um website pode ser utilizado.",
+            "O teste de usabilidade é uma técnica informal que pode envolver usuários representando a população alvo para aquele determinado sistema.",
+            "Usabilidade e acessibilidade são sinônimos.",
+            "Um sistema com boa usabilidade deve prover mecanismos para portadores de necessidades especiais, bem como, usuários com deficiência técnica (sem mouse por exemplo).",
+            "Uma das grandes falhas do W3C é não possuir padrão para avaliação da usabilidade e acessibilidade na WEB."
+        ],
+        "gabarito": "Usabilidade normalmente se refere à simplicidade e facilidade com que uma interface, um programa de computador ou um website pode ser utilizado.",
+        "banca": "CCC IFCE"
+    },
+    {
+        "id": 104,
+        "enunciado": "Ben Shneiderman enumerou três princípios que devem ser levados em consideração no projeto de interfaces de usuários: o uso das oito regras douradas do projeto de interfaces, o reconhecimento da diversidade de usuários e a prevenção de erros. Analise as afirmativas a seguir:\nI Manter um mesmo padrão no uso da terminologia, cores, formatos, sequências, etc.\nII Definir uma sequência de ações organizadas em grupo (ciclo) com início, meio e fim, que permita fechar o ciclo de forma consistente, partindo em seguida para um novo ciclo de ações.\nIII Classificar os usuários em três níveis: novatos, intermediários e experientes.\nIV Fazer com que o usuário tenha o controle da ação a ser realizada pelo sistema, como o responsável pelo sistema e iniciador da ação, e não apenas responder às ações do sistema.\nFazem parte das regras de ouro de Shneiderman:",
+        "alternativas": [
+            "apenas a afirmativa III.",
+            "apenas a afirmativa IV.",
+            "nenhuma das alternativas.",
+            "as afirmativas I, II e IV.",
+            "as afirmativas I e III."
+        ],
+        "gabarito": "as afirmativas I, II e IV.",
+        "banca": "CSEP IFPI"
+    },
+    {
+        "id": 105,
+        "enunciado": "Um dos elementos indispensáveis para que ocorra a interação humano-computador (IHC) de forma satisfatória está no atendimento dos critérios de usabilidade, que engloba um conjunto de técnicas que facilitam a realização de tarefas pelos usuários de computadores. Dos atributos dispostos a seguir, o único que não condiz com esses aspectos é:",
+        "alternativas": [
+            "ter poucos erros.",
+            "não ser difícil de aprender.",
+            "ser subjetivamente agradável.",
+            "não ser eficiente na utilização.",
+            "não ser difícil de ser recordado."
+        ],
+        "gabarito": "não ser eficiente na utilização.",
+        "banca": "CSEP IFPI"
+    },
+    {
+        "id": 106,
+        "enunciado": "Sobre a usabilidade utilizada em interfaces gráficas, é INCORRETO afirmar que",
+        "alternativas": [
+            "usabilidade é a qualidade que caracteriza o uso de programas e aplicações.",
+            "a norma ISO 9241 refere-se a usabilidade.",
+            "pode-se dizer que a ergonomia está na origem da usabilidade.",
+            "a usabilidade faz com que os usuários pensem mais ao inteirar em uma determinada interface.",
+            "a essência da usabilidade é o acordo entre interface, usuário, tarefa e ambiente."
+        ],
+        "gabarito": "a usabilidade faz com que os usuários pensem mais ao inteirar em uma determinada interface.",
+        "banca": "AOCP"
+    },
+    {
+        "id": 107,
+        "enunciado": "A administração aeroportuária encomendou um site Internet cujas páginas fossem autoexplicativas, formadas por um design que orientasse o internauta a encontrar informações, serviços e produtos. O atendimento dessa encomenda é a aplicação do requisito de",
+        "alternativas": [
+            "usabilidade.",
+            "interoperabilidade.",
+            "portabilidade.",
+            "privacidade.",
+            "eficiência."
+        ],
+        "gabarito": "usabilidade.",
+        "banca": "FCC"
+    },
+    {
+        "id": 108,
+        "enunciado": "Dadas as seguintes proposições,\nI. Usabilidade significa colocar o foco sobre usuários.\nII. Somente a equipe de desenvolvimento de programas é capaz de decidir sobre a usabilidade dos seus programas.\nIII. Construir programas que funcionem garantem uma boa usabilidade para eles.\nIV. Protótipos de programas, são fundamentais para a realização de testes usabilidade.\nverifica-se que são corretas unicamente",
+        "alternativas": [
+            "I, II e III.",
+            "I, II e IV.",
+            "II, III e IV.",
+            "I e III.",
+            "I e IV."
+        ],
+        "gabarito": "I e IV.",
+        "banca": "FUNDEPES COPEVE"
+    },
+    {
+        "id": 109,
+        "enunciado": "Jakob Nielsen foi um dos inventores da técnica de usabilidade chamada “avaliação heurística”. De acordo com Nielsen, heurísticas são princípios para o design de interface. Acerca das heurísticas propostas por Nielsen e da avaliação heurística, julgue o item seguinte.\nA heurística “consistência e padrões” significa que os usuários não têm que se preocupar se diferentes palavras, situações, ou ações significam a mesma coisa.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 110,
+        "enunciado": "Jakob Nielsen foi um dos inventores da técnica de usabilidade chamada “avaliação heurística”. De acordo com Nielsen, heurísticas são princípios para o design de interface. Acerca das heurísticas propostas por Nielsen e da avaliação heurística, julgue o item seguinte.\nUma das heurísticas sugere eliminar os avisos de erros por meio de um design que resolva o problema antes que ele ocorra.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 111,
+        "enunciado": "Considerando a figura acima, que apresenta um modelo de processo para desenho de sítios web, o qual contempla vários aspectos de engenharia de usabilidade, julgue o item seguinte, relativo aos conceitos de engenharia de usabilidade e engenharia de software.\nAs atividades que ocorrem no início do processo são menos sujeitas à automação que as atividades que ocorrem ao final do processo.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 112,
+        "enunciado": "Considerando a figura acima, que apresenta um modelo de processo para desenho de sítios web, o qual contempla vários aspectos de engenharia de usabilidade, julgue o item seguinte, relativo aos conceitos de engenharia de usabilidade e engenharia de software.\nA análise e decomposição de tarefas de um usuário é normalmente representada por uma estrutura hierárquica e em árvore.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 113,
+        "enunciado": "Com relação a usabilidade de web sites, julgue o item que se segue.\nUm sistema é consistente quando permite que o usuário obtenha o mesmo efeito quando executa determinada ação; há, portanto, uma relação direta entre as ações e os efeitos. Usar terminologia, leiaute gráfico, conjunto de cores e fontes padronizadas pode melhorar a consistência.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 114,
+        "enunciado": "Segundo Jakob Nielsen, um dos maiores experts em usabilidade na atualidade, usabilidade é um atributo de qualidade que avalia quão fáceis são de usar as interfaces entre o homem e as máquinas.\nQual das alternativas a seguir NÃO representa um componente de qualidade da usabilidade?",
+        "alternativas": [
+            "Eficiência na utilização.",
+            "Uso de tecnologia de ponta.",
+            "Fácil aprendizagem.",
+            "Satisfação na utilização.",
+            "Fácil memorização através do uso."
+        ],
+        "gabarito": "Uso de tecnologia de ponta.",
+        "banca": "FAURGS"
+    },
+    {
+        "id": 115,
+        "enunciado": "Com relação ao desenho de interação, é CORRETO afirmar que",
+        "alternativas": [
+            "affordance é um princípio de usabilidade que se refere à relação entre os controles e seus efeitos no mundo real.",
+            "capacidade de memorização é uma meta de usabilidade que se refere à facilidade de se aprender a usar um sistema.",
+            "feedback é um conceito relacionado à consistência de um produto de usabilidade.",
+            "metáforas são mecanismos para descrição de modelos conceituais de interface."
+        ],
+        "gabarito": "metáforas são mecanismos para descrição de modelos conceituais de interface.",
+        "banca": "FUNDEP"
+    },
+    {
+        "id": 116,
+        "enunciado": "Texto para o item.\nA figura a seguir propõe um modelo conceitual para gestão da unidade de tecnologia da informação de uma organização responsável pelo fomento, regulação e fiscalização das indústrias cinematográfica e videofonográfica brasileiras.\nInternet:<www.ancine.gov.br>.\nJulgue o item a seguir, no referente aos processos, métodos, técnicas e ferramentas de engenharia de software e sistemas de informação, aplicáveis ao desenvolvimento de sistemas para a organização referida no diagrama da figura incluída no texto, atendendo áreas finalísticas de negócios como registro de projetos e produtos audiovisuais, controle e arrecadação de tributos e taxas, sistemas de informação gerenciais que emitem relatórios de monitoramento de desempenho, de gestão eletrônica de documentos e de fluxo de trabalho.\nA fim de desenvolver uma especificação de interface web para acesso aos sistemas mencionados na figura em uma intranet, é correto o uso de mistura entre fontes com serif e sem serif, em uma mesma página HTML, visto que tal mistura reduz a monotonicidade do texto e agiliza a velocidade de leitura.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 117,
+        "enunciado": "Texto para o item.\nA figura a seguir propõe um modelo conceitual para gestão da unidade de tecnologia da informação de uma organização responsável pelo fomento, regulação e fiscalização das indústrias cinematográfica e videofonográfica brasileiras.\nInternet:<www.ancine.gov.br>.\nJulgue o item a seguir, no referente aos processos, métodos, técnicas e ferramentas de engenharia de software e sistemas de informação, aplicáveis ao desenvolvimento de sistemas para a organização referida no diagrama da figura incluída no texto, atendendo áreas finalísticas de negócios como registro de projetos e produtos audiovisuais, controle e arrecadação de tributos e taxas, sistemas de informação gerenciais que emitem relatórios de monitoramento de desempenho, de gestão eletrônica de documentos e de fluxo de trabalho.\nA fim de desenvolver uma implementação de interface web para acesso a sistemas públicos na Internet, é correto realizar o desenho da interface para melhor uso em uma tela de 1024 × 768 pixels.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 118,
+        "enunciado": "As necessidades de desenvolvimento de software podem ser atendidas graças a várias metodologias, técnicas e ferramentas de apoio da engenharia de software que objetivam responder à necessidade de produção sistemática de softwares, respondendo a requisitos técnicos e garantindo determinado nível de qualidade, a determinado custo. Acerca do emprego da engenharia de software no desenvolvimento de aplicações e bancos de dados, julgue o item que se segue.\nA variabilidade do tempo de resposta de um sistema tem pouca importância para o desempenho médio do usuário na realização de tarefas com esse sistema.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 119,
+        "enunciado": "As necessidades de desenvolvimento de software podem ser atendidas graças a várias metodologias, técnicas e ferramentas de apoio da engenharia de software que objetivam responder à necessidade de produção sistemática de softwares, respondendo a requisitos técnicos e garantindo determinado nível de qualidade, a determinado custo. Acerca do emprego da engenharia de software no desenvolvimento de aplicações e bancos de dados, julgue o item que se segue.\nSegundo a norma ISO 9241, um produto pode ter níveis significativamente diferentes de usabilidade quando usado em diferentes contextos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 120,
+        "enunciado": "As necessidades de desenvolvimento de software podem ser atendidas graças a várias metodologias, técnicas e ferramentas de apoio da engenharia de software que objetivam responder à necessidade de produção sistemática de softwares, respondendo a requisitos técnicos e garantindo determinado nível de qualidade, a determinado custo. Acerca do emprego da engenharia de software no desenvolvimento de aplicações e bancos de dados, julgue o item que se segue.\nOs atributos eficácia, eficiência e satisfação dos usuários definidos na norma ISO 9241 são atributos diretamente mensuráveis e verificáveis.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 121,
+        "enunciado": "Considere que se deseja desenvolver um sistema para controle de caixa de supermercado tendo como base um computador que registra os produtos vendidos, interagindo com dispositivos de entrada e saída tais como impressora, teclado e leitora de código de barras. Esse sistema deve interagir também com o operador do caixa e com um banco de dados do estabelecimento.\nA partir dessas informações, julgue o item que se segue.\nA facilidade de uso é uma das funções mais importantes do sistema.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 122,
+        "enunciado": "Se um programa não for amigável ao usuário (user friendliness) freqüentemente estará destinado ao fracasso, mesmo que as funções que ele execute sejam valiosas. A usabilidade é a forma de se quantificar este fator e pode ser medida segundo quatro características. Uma destas características é a(o)",
+        "alternativas": [
+            "facilidade com que o programa pode ser corrigido se um erro for encontrado.",
+            "grau de corretitude com que o software executa a função que é dele exigida.",
+            "habilidade física e/ou intelectual exigida para se aprender o sistema.",
+            "medida onde um defeito é definido como uma falta verificada de conformidade aos requisitos.",
+            "custo para se corrigir defeitos encontrados depois que o software foi liberado para o usuário final."
+        ],
+        "gabarito": "habilidade física e/ou intelectual exigida para se aprender o sistema.",
+        "banca": "ESAF"
+    }
+]

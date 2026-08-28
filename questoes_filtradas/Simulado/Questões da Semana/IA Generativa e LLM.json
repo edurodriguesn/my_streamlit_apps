@@ -1,0 +1,512 @@
+[
+    {
+        "id": 1,
+        "enunciado": "No âmbito das investigações policiais, os diversos modelos de Inteligência Artificial Generativa destacam-se por sua capacidade de analisar, sintetizar e reconstruir informações complexas provenientes de múltiplas fontes digitais. Assim, a IA generativa revela-se uma aliada essencial na integração e interpretação de grandes volumes de dados forenses, aprimorando a eficiência, a rastreabilidade e a precisão analítica das atividades investigativas.\nAssinale a opção que não descreve corretamente as características dos modelos de Inteligência Artificial Generativa.",
+        "alternativas": [
+            "O modelo de áudio e voz generativo, de natureza intermodal, integra múltiplos sentidos, explorando a complementaridade entre eles, possibilitando traduções cruzadas entre modalidades.",
+            "Os modelos de difusão, sustentados por cadeias estocásticas e treinados por inferência variacional, reproduzem em amostras a distribuição original ao reverter o processo de difusão que adiciona ruído aos dados.",
+            "Os modelos de linguagem de grande porte (LLMs) são treinados para prever a probabilidade de um caractere, palavra ou sequência (token) dado o seu contexto precedente ou circundante.",
+            "Os modelos fundacionais são treinados em dados amplos e capazes de adaptação a uma ampla variedade de tarefas subsequentes, servindo de base para outros modelos.",
+            "Os modelos generativos adversariais (GANs) consistem em dois modelos: um gerador, que aprende a capturar a distribuição de dados, e um discriminador, que estima a probabilidade de uma amostra ser real."
+        ],
+        "gabarito": "O modelo de áudio e voz generativo, de natureza intermodal, integra múltiplos sentidos, explorando a complementaridade entre eles, possibilitando traduções cruzadas entre modalidades."
+    },
+    {
+        "id": 2,
+        "enunciado": "No que concerne aos conceitos básicos de inteligência artificial e de computação em nuvem, julgue o item a seguir.\nAs IAs generativas, como o ChatGPT, funcionam por meio de pesquisa e de cópia de respostas escritas previamente por humanos em uma base de dados, o que as torna à prova de erros.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 3,
+        "enunciado": "Com relação ao aprendizado de máquina, à IA generativa e às redes neurais e deep learning, julgue o próximo item.\nModelos de IA generativa, como os baseados em arquiteturas transformer, são capazes de produzir novos dados a partir de padrões aprendidos durante o treinamento.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 4,
+        "enunciado": "Julgue o item a seguir, relativo a conceitos e técnicas de aprendizado de máquina, IA generativa, redes neurais e deep learning.\nAs redes adversárias generativas (GANs) operam com duas redes neurais — o gerador e o discriminador —, que colaboram cooperativamente para minimizar a mesma função de perda, produzindo dados sintéticos indistinguíveis dos reais.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 5,
+        "enunciado": "Consiste em um desafio ético associado ao uso de inteligência artificial generativa:",
+        "alternativas": [
+            "incapacidade de gerar conteúdo criativo.",
+            "risco de propagação de informação incorreta por meio de textos falsos.",
+            "falta de recursos computacionais para treinar modelos.",
+            "exclusão de dados estruturados no treinamento.",
+            "limitação de modelos a tarefas simples."
+        ],
+        "gabarito": "risco de propagação de informação incorreta por meio de textos falsos."
+    },
+    {
+        "id": 6,
+        "enunciado": "Um auditor pretende utilizar inteligência artificial generativa (IAG) em dois momentos de uma auditoria operacional realizada em um programa social destinado a comunidades quilombolas: na análise de informações obtidas em diferentes fontes e na redação dos achados de auditoria.\nConsiderando essa situação hipotética, julgue o item seguinte.\nNo desenvolvimento dos achados de auditoria, a partir dos resultados da análise das informações feita com auxílio de IAG, o auditor deve atentar à possibilidade de ocorrência do viés de exclusão, que ocorrerá caso as comunidades quilombolas tenham sido sub-representadas ou excluídas do conjunto de dados utilizado no treinamento da IAG.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 7,
+        "enunciado": "Um auditor pretende utilizar inteligência artificial generativa (IAG) em dois momentos de uma auditoria operacional realizada em um programa social destinado a comunidades quilombolas: na análise de informações obtidas em diferentes fontes e na redação dos achados de auditoria.\nConsiderando essa situação hipotética, julgue o item seguinte.\nO uso de IAG contribui para a imparcialidade do relatório de auditoria, pois, desde que treinadas com grandes volumes de dados, as ferramentas de inteligência artificial generativa não reproduzem tendências humanas discriminatórias, como racismo.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 8,
+        "enunciado": "A inteligência artificial generativa (IA generativa) é um campo da inteligência artificial que se concentra na capacidade de criar novos conteúdos e ideias de forma autônoma. Em vez de simplesmente responder a comandos ou fornecer respostas predefinidas, uma IA generativa tem a capacidade de gerar conteúdos originais em uma variedade de formas, como texto, imagens, áudio e vídeo. São exemplos de categorias amplas de modelos de IA generativa",
+        "alternativas": [
+            "Autocodificadores variacionais e Multilayer Perceptrons.",
+            "Transformadores e Algoritmos de retropropagação.",
+            "Autocodificadores variacionais e Redes Adversariais.",
+            "Algoritmos de retropropagação e ChatGPT.",
+            "Gemini e Multilayer Perceptrons."
+        ],
+        "gabarito": "Autocodificadores variacionais e Redes Adversariais."
+    },
+    {
+        "id": 9,
+        "enunciado": "Em relação à inteligência artificial (IA), julgue o item a seguir.\nA IA generativa utiliza modelos de base treinados para realizar tarefas gerais, como, por exemplo, técnicas de distribuição de probabilidade.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 10,
+        "enunciado": "Assinale a alternativa que apresenta o papel de um prompt na interação com a inteligência artificial (IA) generativa.",
+        "alternativas": [
+            "Um prompt é um conjunto de algoritmos usados para melhorar a precisão dos modelos de IA generativa.",
+            "Um prompt é um texto em linguagem natural que orienta a IA generativa a executar uma tarefa específica, gerando novos conteúdos com base em modelos de machine learning pré-treinados.",
+            "Um prompt é uma interface de usuário que facilita a comunicação entre humanos e sistemas de IA generativa sem a necessidade de linguagem natural.",
+            "Um prompt é um mecanismo de armazenamento de dados que armazena informações geradas por modelos de IA para posterior análise."
+        ],
+        "gabarito": "Um prompt é um texto em linguagem natural que orienta a IA generativa a executar uma tarefa específica, gerando novos conteúdos com base em modelos de machine learning pré-treinados."
+    },
+    {
+        "id": 11,
+        "enunciado": "A Inteligência Artificial Generativa representa um avanço estratégico para as atividades policiais investigativas, ao permitir a análise automatizada, síntese e geração de informações complexas a partir de grandes volumes de dados. Arquiteturas como os transformers e modelos de linguagem de grande porte podem auxiliar investigações criminais, ampliando a capacidade analítica, a precisão investigativa e a eficiência operacional das forças de segurança.\nUma das características inerentes aos transformers é a de",
+        "alternativas": [
+            "apresentar, como desafio, a dificuldade de captura de dependências de longo alcance pelo uso de camadas empilhadas de atenção (self-attention).",
+            "otimizar o seu desempenho pela substituição do uso da técnica de atenção escalonada por produto interno (scaled dot-product attention), que causava instabilidade nos gradientes em dimensões altas.",
+            "produzir, ao longo da sua execução, vetores de codificação posicional parabólicos, que se multiplicam aos embeddings das palavras, permitindo o reconhecimento da posição absoluta e relativa de cada termo.",
+            "ser a primeira arquitetura de transdução de sequências construídas com mecanismos de atenção sustentados em redes neurais recorrentes e convolucionais profundas.",
+            "utilizar o modelo de múltiplas \"cabeças\" de atenção paralelas, substituindo a proposta de atenção única global, atentando a diferentes subespaços de representação simultaneamente."
+        ],
+        "gabarito": "utilizar o modelo de múltiplas \"cabeças\" de atenção paralelas, substituindo a proposta de atenção única global, atentando a diferentes subespaços de representação simultaneamente."
+    },
+    {
+        "id": 12,
+        "enunciado": "Durante a investigação de possíveis discursos de ódio em grande volume, foi utilizada IA generativa baseada em LLMs. O perito precisa entender como o modelo constrói sua representação interna dos textos.\n1. Embeddings\n2. Tokenização\n3. Modelo Transformer Associe as técnicas ao seu propósito:",
+        "alternativas": [
+            "(1) Compactação ZIP / (2) Criptografia / (3) Kernel do SO.",
+            "(1) Vetores de frequência / (2) Segmentação por palavras / (3) Árvores de decisão.",
+            "(1) Lista de stopwords / (2) Regex / (3) Hashing SHA.",
+            "(1) Vetor de bytes / (2) Base64 / (3) Execução paralela.",
+            "(1) Vetores semânticos / (2) Quebra em unidades / (3) Atenção multi-head."
+        ],
+        "gabarito": "(1) Vetores semânticos / (2) Quebra em unidades / (3) Atenção multi-head."
+    },
+    {
+        "id": 13,
+        "enunciado": "Os modelos de linguagem de grande escala (LLMs - Large Language Models) consistem em",
+        "alternativas": [
+            "programas determinísticos que produzem resultados idênticos a cada execução, considerando os parâmetros de geração.",
+            "sistemas que traduzem linguagem natural por meio de tabelas estáticas de correlação entre palavras e significados.",
+            "algoritmos que armazenam regras fixas de gramática e vocabulário, aplicando-as de forma literal durante a geração de texto.",
+            "mecanismos baseados em pesquisa direta de trechos textuais previamente gravados em bancos de dados.",
+            "modelos neurais treinados em grandes volumes de dados textuais, capazes de prever a próxima palavra em uma sequência e gerar respostas contextuais."
+        ],
+        "gabarito": "modelos neurais treinados em grandes volumes de dados textuais, capazes de prever a próxima palavra em uma sequência e gerar respostas contextuais."
+    },
+    {
+        "id": 14,
+        "enunciado": "Em Python a função é um módulo de programa independente que foi especialmente escrito para implementar os requisitos da função. O programa que chama a função é chamado de calling program. Com relação ao uso do Python, analise os itens a seguir:\nI. Uma função recursiva, tem um calling program com uma função definida (escrita) dentro do corpo de outra função.\nII. O algoritmo de redução da dimensionalidade Principal component analysis (PCA), presente na biblioteca Scikit-Learn Library, é usada para decompor um conjunto de dados multivariado, podendo sua capacidade de estimar quantos componentes são necessários para descrever os dados ser determinada observando o Cálculo médio de Autovalores e Autovetores.\nIII. Modelos de Large Language Models (LLMs) foram incorporados ao Python, por meio de camadas de abstração (bibliotecas), que estabeleceram facilidade de integração por meio de Processamento matemático em GPU (pela Infraestrutura/Base), Download e execução de modelos open- source (pelo Acesso a Modelos), Criação de fluxos de trabalho e agentes multitarefa (pela Orquestração) e conexão da IA com documentos e bases de dados (pela Integração de Dados).\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, apenas.",
+            "II, apenas.",
+            "III, apenas.",
+            "I e III, apenas.",
+            "I, II e III."
+        ],
+        "gabarito": "III, apenas."
+    },
+    {
+        "id": 15,
+        "enunciado": "Um órgão de controle estuda implantar uma plataforma avançada baseada em grandes modelos de linguagem para apoiar a análise de documentos, a consulta a bases normativas e a execução de fluxos complexos (por exemplo, checagem automática em diários oficiais, sistemas internos e bases abertas). A arquitetura em estudo combina LLMs, geração aumentada por recuperação (RAG), agentes de IA com uso de ferramentas externas e mecanismos de monitoramento para riscos éticos e de segurança.\nCom base em conceitos de transformers e LLMs, RAG, agentificação, engenharia de prompts, bem como ética e segurança em IA, analise as afirmativas a seguir.\nI. Em uma arquitetura com RAG, o LLM é utilizado principalmente como gerador condicionado a evidências: os documentos relevantes são buscados por similaridade de embeddings em um índice vetorial e incorporados ao contexto de entrada, de modo que decisões sobre fragmentação (tamanho dos trechos, sobreposição, estratégia de indexação) influenciam diretamente tanto a recuperação quanto a qualidade e a fundamentação das respostas.\nII. Em arquiteturas que combinam LLMs com RAG, o risco de exposição indevida de dados sensíveis tende a ser intrinsecamente menor do que no uso direto de LLMs, porque os documentos sigilosos não precisam ser indexados: o modelo passa a depender principalmente de representações paramétricas já aprendidas no pré-treinamento, reduzindo a necessidade de controles específicos sobre o ciclo de vida dos dados no índice vetorial.\nIII. Técnicas de alinhamento com preferências humanas, como Reinforcement Learning e variantes de preference optimization, são frequentemente combinadas com boas práticas de engenharia de prompts (zero-shot, few-shot, encadeamento de pensamento) e com avaliações sistemáticas de prompts e saídas, pois, mesmo após o alinhamento, permanecem desafios como viés algorítmico, suscetibilidade a jailbreaks e prompt injection, exigindo camadas adicionais de governança, monitoramento e auditoria.\nEstá correto o que se afirma em:",
+        "alternativas": [
+            "I, apenas;",
+            "I e II, apenas;",
+            "I e III, apenas;",
+            "II e III, apenas;",
+            "I, II e III."
+        ],
+        "gabarito": "I e III, apenas;"
+    },
+    {
+        "id": 16,
+        "enunciado": "Acerca de inteligência artificial, técnicas de prompts, transformação e análise de dados, julgue o item seguinte.\nNo zero-shot prompting, é fornecido ao modelo apenas a instrução inicial, sem exemplos adicionais, a fim de se explorar a capacidade do modelo de fazer generalizações a partir do conhecimento obtido no treinamento.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 17,
+        "enunciado": "No que concerne aos conceitos básicos de inteligência artificial e de computação em nuvem, julgue o item a seguir.\nOs modelos LLM, como o Gemini 3 e o ChatGPT 5.2, têm consciência própria, o que lhes permite tomar decisões morais independentemente das instruções recebidas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 18,
+        "enunciado": "Em relação a Android, malware e IA generativa, julgue os item subsequente.\nEm sistemas de IA generativa baseados em modelos de linguagem, o processo de geração de saída envolve a predição iterativa autorregressiva de tokens com base em distribuições de probabilidade condicionadas ao contexto de entrada e ao histórico de tokens previamente gerados, o que permite a construção incremental de sequências coerentes.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 19,
+        "enunciado": "Como o algoritmo Byte Pair Encoding (BPE) impacta o processo de aprendizagem de Large Language Models (LLMs), e qual é a principal vantagem de sua aplicação?",
+        "alternativas": [
+            "O BPE cria tokens de subpalavras que permitem que o modelo processe palavras desconhecidas ou raras, reduzindo a necessidade de vocabulários muito grandes e melhorando a generalização.",
+            "O BPE usa pares de palavras inteiras em frases fixas durante o pré processamento, o que aumenta a velocidade de inferência, mas limita a flexibilidade de aprendizado do modelo.",
+            "O BPE reduz o vocabul ário ao mínimo, eliminando palavras raras, o que impede que o modelo aprenda a lidar com termos de baixa frequência.",
+            "O BPE codifica todas as palavras em números inteiros fixos, eliminando a necessidade de embeddings e simplificando o treinamento."
+        ],
+        "gabarito": "O BPE cria tokens de subpalavras que permitem que o modelo processe palavras desconhecidas ou raras, reduzindo a necessidade de vocabulários muito grandes e melhorando a generalização."
+    },
+    {
+        "id": 20,
+        "enunciado": "Uma equipe de Analistas está implementando um modelo LLM para uso no Tribunal Regional do Trabalho e precisa garantir que o modelo não gere respostas inapropriadas ou incorretas, mantendo a relevância e coerência do conteúdo. Para ajustar o desempenho do modelo e evitar problemas como alucinações e vieses, eles optaram por",
+        "alternativas": [
+            "utilizar Reinforcement Learming from Human Feedback (RLHF) para treinar o modelo a partir de respostas corrigidas por humanos.",
+            "implementar fine-tuning com um conjunto de dados menor e mais específico, sem utilizar nenhum mecanismo de atenção para evitar sobrecarga de processamento.",
+            "aumentar o número de tokens e embeddings durante o treinamento para que o modelo tenha mais dados contextuais disponíveis.",
+            "reduzir o número de camadas de rede neural para minimizar o processamento e aumentar a velocidade de inferência, pois isso reduziria erros causados por dados não estruturados.",
+            "usar o aprendizado zero-shot durante o treinamento, pois ele é suficiente para que o modelo aprenda a generalizar padrões sem supervisão."
+        ],
+        "gabarito": "utilizar Reinforcement Learming from Human Feedback (RLHF) para treinar o modelo a partir de respostas corrigidas por humanos."
+    },
+    {
+        "id": 21,
+        "enunciado": "No que se refere a inteligências artificiais (IAs) generativas e discriminativas, julgue o item seguinte.\nPara aplicações do mundo real, como geração de imagens, as distribuições são extremamente complexas, e o aprendizado profundo não conseguiu melhorar o desempenho dos modelos generativos, por isso se tem optado por investir em uma classe importante de modelos de linguagem de grande escala (LLMs — large language models) autorregressivos baseados em transformadores.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 22,
+        "enunciado": "No que se refere a inteligências artificiais (IAs) generativas e discriminativas, julgue o item seguinte.\nO ChatGPT e o DeepSeek são plataformas de IA generativas baseadas em modelos de linguagem de grande escala (LLMs — large language models) e o princípio tecnológico dessas plataformas é a arquitetura transformer, que ajuda o modelo a aprender as relações entre palavras e frases em longos trechos de texto.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 23,
+        "enunciado": "Assinale a alternativa que descreve CORRETAMENTE o Google Gemini.",
+        "alternativas": [
+            "Uma ferramenta dedicada exclusivamente à análise estatística de grandes volumes de dados (big data).",
+            "Um modelo de IA projetado exclusivamente para criar imagens em alta definição.",
+            "Um assistente de voz limitado a realizar comandos de sistema operacional.",
+            "Um algoritmo simples focado exclusivamente em recomendar vídeos baseados no histórico do usuário.",
+            "Um modelo avançado de IA que integra texto, imagens e outras modalidades em uma única plataforma."
+        ],
+        "gabarito": "Um modelo avançado de IA que integra texto, imagens e outras modalidades em uma única plataforma."
+    },
+    {
+        "id": 24,
+        "enunciado": "Acerca dos algoritmos de machine learning, deep learning, de técnicas de inteligência artificial generativa e LLM e dos softwares MAKER e Trinity, julgue o item a seguir.\nLLM é uma rede neural artificial baseada em aprendizado profundo, com treinamento em grandes quantidades de dados textuais, o que lhe permite reconhecer, traduzir, prever e gerar dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 25,
+        "enunciado": "Uma referência para criar aplicações robustas alimentadas por LLMs (Large Language Models) pode ser a biblioteca LlamaIndex. Com a utilização dessa biblioteca, o nome do dispositivo que auxilia a organização dos dados em um formato recuperável, fazendo com que estes sejam facilmente acessíveis, podendo envolver análise sintática, incorporação e inferência de metadados, o que resulta em uma base de conhecimento, é",
+        "alternativas": [
+            "Conectores de dados.",
+            "Motores LlamaIndex.",
+            "Índice de dados.",
+            "Retrievers.",
+            "Fibre Channel."
+        ],
+        "gabarito": "Índice de dados."
+    },
+    {
+        "id": 26,
+        "enunciado": "A arquitetura de um LLM (Large Language Models) utiliza mecanismos de autoatenção para processar texto em paralelo, capturando relações contextuais de longo alcance. A arquitetura adotada pela maioria dos LLMs modernos é baseada, principalmente, em",
+        "alternativas": [
+            "arquitetura Transformer, que utiliza mecanismos para ponderar a importância de palavras em um contexto, permitindo capturar relações de longo alcance e paralelização eficiente.",
+            "Redes Neurais Recorrentes (RNNs), que processam texto sequencialmente, mantendo um estado oculto para informações de curto prazo, e que sofrem com o problema de vanishing gradient.",
+            "Redes Convolucionais (CNNs), que aplicam filtros convolucionais para extrair features locais de textos, sendo ideais para análise de imagens com padrões espaciais.",
+            "modelos baseados em regras fixas, que utilizam regras gramaticais e dicionários artesanais, sem aprendizado estatístico ou redes neurais."
+        ],
+        "gabarito": "arquitetura Transformer, que utiliza mecanismos para ponderar a importância de palavras em um contexto, permitindo capturar relações de longo alcance e paralelização eficiente."
+    },
+    {
+        "id": 27,
+        "enunciado": "O prompting Chain of Thought (CoT) é uma técnica que ajuda os Large Language Models (LLMs) a executar tarefas complexas de raciocínio lógico. Nesse sentido, o prompting CoT consiste em",
+        "alternativas": [
+            "um procedimento que divide o problema em etapas intermediárias, fazendo o modelo gerar um raciocínio passo a passo antes de dar a resposta final.",
+            "um método que aumenta aleatoriamente o tamanho do prompt para confundir o modelo e testar sua robustez.",
+            "uma estratégia que remove palavras-chave do prompt para forçar o modelo a adivinhar a resposta sem contexto.",
+            "uma abordagem que usa apenas emojis no prompt para avaliar a capacidade do modelo de interpretar símbolos."
+        ],
+        "gabarito": "um procedimento que divide o problema em etapas intermediárias, fazendo o modelo gerar um raciocínio passo a passo antes de dar a resposta final."
+    },
+    {
+        "id": 28,
+        "enunciado": "O one-shot Prompting é uma técnica de interação com Large Language Models (LLMs) em que o usuário fornece um único exemplo da tarefa desejada antes de fazer a pergunta real. Nesse contexto, uma das características essenciais do One-shot Prompting consiste em o",
+        "alternativas": [
+            "modelo receber um exemplo completo (input + output) antes da pergunta real, permitindo que ele identifique o padrão esperado na resposta.",
+            "modelo gerar múltiplas respostas aleatórias para a mesma pergunta, sem usar exemplos prévios.",
+            "usuário fornecer, pelo menos, três exemplos para que o modelo entenda a tarefa.",
+            "método ser exclusivo para tarefas de geração de imagens, não sendo aplicável a textos."
+        ],
+        "gabarito": "modelo receber um exemplo completo (input + output) antes da pergunta real, permitindo que ele identifique o padrão esperado na resposta."
+    },
+    {
+        "id": 29,
+        "enunciado": "Os chatbots têm sido amplamente utilizados em serviços automatizados de atendimento ao cliente, sistemas de suporte e interfaces conversacionais. Há diferentes abordagens de implementação, como bots baseados em regras, NLP e modelos de linguagem. Assinale a alternativa correta em relação aos chatbots.",
+        "alternativas": [
+            "Chatbots baseados em regras utilizam modelos de machine learning para inferir automaticamente a intenção do usuário em tempo real.",
+            "Chatbots baseados em NLP conseguem interpretar a intenção do usuário com maior flexibilidade do que os baseados unicamente em regras, possibilitando interações mais naturais.",
+            "A utilização de modelos de linguagem grandes (LLMs) em chatbots elimina completamente a necessidade de contexto para manter conversas coerentes.",
+            "O uso de NLP em chatbots impede que esses sistemas sejam integrados com APIs externas, limitando-os a respostas internas.",
+            "Um chatbot híbrido é aquele que pode operar tanto em canais de texto quanto de voz, independentemente do modelo conversacional utilizado."
+        ],
+        "gabarito": "Chatbots baseados em NLP conseguem interpretar a intenção do usuário com maior flexibilidade do que os baseados unicamente em regras, possibilitando interações mais naturais."
+    },
+    {
+        "id": 30,
+        "enunciado": "A respeito da proteção de dados pessoais no Brasil, dos grandes modelos de linguagem (LLMs) e do uso de redes neurais no setor jurídico, julgue o item que se segue.\nOs LLMs se destacaram recentemente em decorrência do aprimoramento das técnicas de treinamento com feedback humano; da maior acessibilidade via interfaces de uso simples como ChatGPT e Gemini; do avanço da potência computacional com GPUs; e da melhoria dos dados de treinamento.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 31,
+        "enunciado": "Com relação aos Grandes Modelos de Linguagens (LLMs), avalie as afirmativas a seguir e assinale (V) para verdadeira e (F) para falsa.\n( ) LLMs são capazes de fazer inferências a partir de um contexto, gerar respostas contextualmente relevantes, traduzir documentos para outros idiomas, resumir textos, responder a perguntas ou mesmo auxiliar em tarefas de redação criativa ou geração de código.\n( ) Os LLMs representam um avanço considerável no processamento de linguagem natural (PNL) e tornaram-se facilmente acessíveis ao público por meio de interfaces como o Chat GPT-3 e o GPT-4. Outros exemplos de LLMs são os modelos Llama e as representações de codificadores bidirecionais, como BERT e RoBERTa.\n( ) LLM é um modelo de aprendizado de máquina que pode ser usado na inteligência artificial generativa, capaz de executar diferentes funções. Os LLM são treinados a partir de grandes volumes de dados.\nAs afirmativas são, segundo a ordem apresentada,",
+        "alternativas": [
+            "V – F – V.",
+            "V – F – F.",
+            "V – V – V.",
+            "F – V – V.",
+            "F – V – F."
+        ],
+        "gabarito": "V – V – V."
+    },
+    {
+        "id": 32,
+        "enunciado": "No contexto de Inteligência Artificial Generativa, a técnica utilizada para otimizar a interação com Large Language Models (LLMs) por meio de instruções específicas e bem formuladas é",
+        "alternativas": [
+            "o treinamento supervisionado.",
+            "a compressão de modelo.",
+            "o aprendizado por reforço.",
+            "a transferência de aprendizado.",
+            "a engenharia de prompts."
+        ],
+        "gabarito": "a engenharia de prompts."
+    },
+    {
+        "id": 33,
+        "enunciado": "Com o avanço do deep learning, redes neurais profundas e grandes modelos de linguagem (LLMs) vêm sendo amplamente utilizados em aplicações como tradução automática, geração de texto, reconhecimento de imagens e assistentes virtuais.\nA respeito de redes neurais profundas, deep learning e grandes modelos de linguagem (LLMs), assinale a afirmativa correta.",
+        "alternativas": [
+            "Redes neurais profundas possuem apenas uma camada oculta entre a entrada e a saída e são ideais para tarefas simples de classificação linear.",
+            "O termo deep learning refere-se a técnicas que dispensam o uso de redes neurais artificiais, utilizando apenas algoritmos estatísticos tradicionais.",
+            "Os grandes modelos de linguagem (LLMs) são caracterizados por seu tamanho reduzido, pois dependem de poucos parâmetros para evitar sobrecarga computacional.",
+            "Os grandes modelos de linguagem (LLMs) utilizam arquiteturas de redes neurais profundas, como os transformadores, para processar sequências de texto e aprender padrões complexos.",
+            "Redes neurais profundas são indicadas exclusivamente para reconhecimento de imagens e não são aplicadas em processamento de linguagem natural."
+        ],
+        "gabarito": "Os grandes modelos de linguagem (LLMs) utilizam arquiteturas de redes neurais profundas, como os transformadores, para processar sequências de texto e aprender padrões complexos."
+    },
+    {
+        "id": 34,
+        "enunciado": "Com a popularização de modelos de linguagem de grande escala (LLMs), como o GPT e o Claude, a engenharia de prompt tornou-se uma habilidade essencial para direcionar corretamente esses modelos, extraindo respostas mais úteis, seguras e alinhadas ao objetivo do usuário.\nEm relação às boas práticas de engenharia de prompt aplicadas a grandes modelos de linguagem (LLMs), assinale a afirmativa correta.",
+        "alternativas": [
+            "A engenharia de prompt exige conhecimento profundo de linguagens de programação, pois os prompts devem ser escritos em linguagens formais como Python ou SQL.",
+            "Prompts vagos e abertos tendem a melhorar a criatividade dos modelos e garantem maior precisão, especialmente em tarefas críticas e factuais.",
+            "Instruções explícitas, exemplos no prompt e delimitação clara da tarefa aumentam a probabilidade de o LLM produzir respostas relevantes e adequadas ao objetivo.",
+            "LLMs interpretam todos os prompts da mesma forma, independentemente da estrutura, do idioma ou da ordem em que as informações são fornecidas.",
+            "A engenharia de prompt não tem impacto sobre a segurança das respostas geradas, já que os LLMs seguem regras internas fixas de filtragem de conteúdo."
+        ],
+        "gabarito": "Instruções explícitas, exemplos no prompt e delimitação clara da tarefa aumentam a probabilidade de o LLM produzir respostas relevantes e adequadas ao objetivo."
+    },
+    {
+        "id": 35,
+        "enunciado": "No treinamento de grandes modelos de linguagem (LLMs), como o GPT-4, uma técnica importante, utilizada para estabilizar o treinamento e favorecer a convergência - especialmente ao lidar com camadas profundas -, é a normalização por camada, conhecida como Layer Normalization, que consiste em:",
+        "alternativas": [
+            "normalizar as ativações ao longo dos canais de entrada, reduzindo o desvio padrão espacial, ideal para modelos CNN.",
+            "realizar a normalização entre exemplos de treinamento, reduzindo a variação das ativações dentro de um mesmo lote.",
+            "normalizar as ativações individualmente para cada exemplo, considerando todos os neurônios da mesma camada.",
+            "aplicar uma normalização nas ativações por meio de uma média móvel das ativações das camadas anteriores.",
+            "realizar uma normalização baseada em gradientes acumulados, diretamente no passo de retropropagação (backpropagation)."
+        ],
+        "gabarito": "normalizar as ativações individualmente para cada exemplo, considerando todos os neurônios da mesma camada."
+    },
+    {
+        "id": 36,
+        "enunciado": "Os grandes modelos de linguagem, também conhecidos como LLMs (Large Language Model),",
+        "alternativas": [
+            "empregam uma tabela numérica para representar cada palavra, o que possibilita reconhecer relações entre palavras, como vocábulos com significados semelhantes.",
+            "correspondem a um conjunto de redes neurais em que cada uma consiste em um codificador e um decodificador com recursos de recorrência e convoluções.",
+            "processam entradas sequencialmente, o que potencializa a realização dos cálculos mais complexos.",
+            "utilizam vetores multidimensionais, conhecidos como incorporações de palavras, para representá-las de modo que aquelas com significados contextuais semelhantes ou com outras relações fiquem próximas entre si no espaço vetorial.",
+            "processam sequências inteiras em paralelo, empregando recursos de recorrência e convoluções, o que possibilita o uso extensivo de GPUs (Graphics Processing Units) para treinar LLMs."
+        ],
+        "gabarito": "utilizam vetores multidimensionais, conhecidos como incorporações de palavras, para representá-las de modo que aquelas com significados contextuais semelhantes ou com outras relações fiquem próximas entre si no espaço vetorial."
+    },
+    {
+        "id": 37,
+        "enunciado": "A combinação entre grandes modelos de linguagem (LLMs) e mecanismos de recuperação de informação tem viabilizado sistemas mais atualizados e contextualizados, como no caso da Recuperação-Augmentada por Geração (RAG). Nesse cenário, a engenharia de prompt também assume papel central, atuando como técnica de refinamento das instruções dadas ao modelo para guiar sua saída com mais precisão. Diante do exposto, assinale a alternativa correta.",
+        "alternativas": [
+            "A Engenharia de Prompt modifica os pesos dos modelos LLMs para gerar respostas mais precisas.",
+            "O RAG integra busca de documentos com modelos generativos, ampliando a relevância e atualidade das respostas.",
+            "O uso de RAG impede a atualização em tempo real dos modelos.",
+            "Modelos RAG não são compatíveis com mecanismos de busca vetorial."
+        ],
+        "gabarito": "O RAG integra busca de documentos com modelos generativos, ampliando a relevância e atualidade das respostas."
+    },
+    {
+        "id": 38,
+        "enunciado": "Nos itens que avaliem conhecimentos de informática, a menos que seja explicitamente informado o contrário, considere que: todos os programas mencionados estejam em configuração‑padrão, em português; o mouse esteja configurado para pessoas destras; expressões como clicar, clique simples e clique duplo refiram‑se a cliques com o botão esquerdo do mouse; e teclar corresponda à operação de pressionar uma tecla e, rapidamente, liberá‑la, acionando‑a apenas uma vez. Considere também que não haja restrições de proteção, de funcionamento e de uso em relação aos programas, arquivos, diretórios, recursos e equipamentos mencionados.\nA respeito das noções de transformação digital e segurança da informação, julgue o item seguinte.\nLLM (Large language models) são modelos de aprendizado profundo, pré‑treinados em grandes volumes de dados para aprender padrões linguísticos, semânticos e contextuais e são, geralmente, empregados em tarefas como geração de textos e resumos de informações.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 39,
+        "enunciado": "Considere-se a aplicação de um modelo grande de linguagem (LLM) com 3 bilhões de parâmetros, distribuído em formato não quantizado, meia-precisão.\nA quantidade mínima de memória necessária para carregar os pesos do modelo para inferência (sem gradientes), considerando apenas o espaço ocupado pelos pesos, é:",
+        "alternativas": [
+            "8GB;",
+            "16GB;",
+            "32GB;",
+            "64GB;",
+            "128GB."
+        ],
+        "gabarito": "8GB;"
+    },
+    {
+        "id": 40,
+        "enunciado": "Um dos principais fatores que tornam viável a aplicação de modelos grandes de linguagem (LLMs) é o controle do espaço de probabilidade de tokens através da redução de dimensionalidade do vocabulário, sem perda da capacidade de reconstruir qualquer token válido da linguagem sendo modelada.\nConsiderando esse objetivo, dois algoritmos que podem ser utilizados para esse fim são:",
+        "alternativas": [
+            "UMAP, BPE;",
+            "T5, UMAP;",
+            "BPE, WordPiece;",
+            "WordPiece, T5;",
+            "UMAP, GTE."
+        ],
+        "gabarito": "BPE, WordPiece;"
+    },
+    {
+        "id": 41,
+        "enunciado": "Em relação aos grandes modelos de linguagem (LLM) e à inteligência artificial generativa, julgue o item subsequente.\nO parâmetro temperature em LLM regula a amplitude da diversidade e criatividade nas previsões produzidas pelo modelo.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo."
+    },
+    {
+        "id": 42,
+        "enunciado": "Em relação aos grandes modelos de linguagem (LLM) e à inteligência artificial generativa, julgue o item subsequente.\nUma thread representa uma entidade que pode ser configurada para responder às mensagens de um usuário a partir de vários parâmetros, como modelo, instruções e ferramentas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado."
+    },
+    {
+        "id": 43,
+        "enunciado": "Large Language Models (LLMs) são um tipo de modelo IA projetado para lidar com tarefas de processamento de linguagem natural (PLN) em uma escala muito grande. Esses modelos são treinados com enormes quantidades de dados textuais e são capazes de entender e gerar texto em linguagem natural de forma altamente sofisticada.\nEm relação aos Large Language Models (LLMs), como o GPT, a abordagem mais relevante para melhorar a capacidade do modelo de gerar respostas coerentes e contextualmente apropriadas em conversas prolongadas, entre as listadas, é",
+        "alternativas": [
+            "aumentar o número de parâmetros do modelo.",
+            "utilizar a técnica de fine-tuning em um grande conjunto de dados não rotulados.",
+            "implementar um mecanismo de atenção (Attention Mechanism).",
+            "aplicar a tokenização BPE (Byte Pair Encoding) ao texto de entrada.",
+            "aumentar a frequência de palavras raras no conjunto de treinamento."
+        ],
+        "gabarito": "implementar um mecanismo de atenção (Attention Mechanism)."
+    },
+    {
+        "id": 44,
+        "enunciado": "A evolução das tecnologias de Inteligência Artificial, especialmente no campo do Processamento de Linguagem Natural (PLN), tem sido marcada por inovações significativas que transformaram a maneira como as máquinas entendem e geram linguagem humana. Uma dessas inovações é a arquitetura de Transformers, introduzida pelo artigo Attention is All You Need em 2017, superando as limitações das abordagens anteriores baseadas em Redes Neurais Recorrentes (RNNs) e tornando-se a base fundamental para o surgimento dos Large Language Models (LLMs).\nSobre essa arquitetura, pode-se afirmar que:",
+        "alternativas": [
+            "a arquitetura dos Transformers depende exclusivamente de camadas recorrentes para processar sequências de texto, o que melhora a eficiência computacional em comparação com as RNNs.",
+            "os Transformers introduziram o conceito de atenção seletiva, permitindo que modelos focassem em partes relevantes do texto ao gerar respostas, algo que as RNNs não podem fazer.",
+            "os Transformers utilizam mecanismos de atenção que permitem a modelagem de dependências de longo alcance sem a necessidade de processamento sequencial, superando as limitações das RNNs.",
+            "a arquitetura dos Transformers substituiu as unidades de processamento baseadas em regras pelas redes neurais, o que não era possível com as RNNs.",
+            "a arquitetura dos Transformers elimina a necessidade de encoders e decoders, diferenciando-se das RNNs que dependem dessa estrutura para o Processamento de Linguagem Natural."
+        ],
+        "gabarito": "os Transformers utilizam mecanismos de atenção que permitem a modelagem de dependências de longo alcance sem a necessidade de processamento sequencial, superando as limitações das RNNs."
+    },
+    {
+        "id": 45,
+        "enunciado": "O uso de Large Language Models (LLMs) na área da saúde, como GPT e BERT, oferece um vasto campo de possibilidades para inovação. Atualmente, é possível criar uma série de aplicações que fazem uso dessas LLMs, variando desde melhorias da qualidade e acessibilidade a conhecimentos até o apoio a novas pesquisas na área.\nEntre as opções abaixo, aquela que apresenta uma iniciativa que NÃO pode ser baseada no uso de LLMs é:",
+        "alternativas": [
+            "LLMs podem ser utilizadas para extrair informações críticas de registros médicos eletrônicos, notas de alta hospitalar e literatura científica, transformando dados não estruturados em insights valiosos para a pesquisa clínica e epidemiológica.",
+            "LLMs podem ser utilizadas para processar informações textuais sobre genética e biomarcadores, incluindo sequências de DNA/RNA, realizar análises genéticas complexas e interpretar dados laboratoriais brutos.",
+            "LLMs podem automatizar a criação de relatórios de pesquisa, sumários de políticas de saúde e comunicados à imprensa, facilitando a disseminação rápida de informações importantes para o público e a comunidade científica.",
+            "LLMs podem analisar extensas bases de dados de literatura científica para identificar padrões, tendências e lacunas no conhecimento, gerando novas hipóteses para pesquisa em saúde pública.",
+            "LLMs podem analisar dados de fontes abertas e redes sociais para detectar e monitorar surtos de doenças em tempo real, permitindo respostas rápidas a emergências de saúde pública."
+        ],
+        "gabarito": "LLMs podem ser utilizadas para processar informações textuais sobre genética e biomarcadores, incluindo sequências de DNA/RNA, realizar análises genéticas complexas e interpretar dados laboratoriais brutos."
+    },
+    {
+        "id": 46,
+        "enunciado": "Ao integrar informações provenientes de fontes de dados externas, como documentos ou bancos de dados, com Large Language Models (LLMs), é possível empregar uma variedade de técnicas e estratégias para construir aplicações adaptadas às demandas específicas de cada projeto e aos recursos disponíveis.\nDas opções abaixo, a que descreve corretamente uma dessas técnicas é:",
+        "alternativas": [
+            "Prompt engineering é a prática de reduzir a complexidade dos modelos de linguagem de IA, simplificando-os para que reconheçam e respondam apenas a comandos básicos de uma palavra, evitando qualquer tipo de prompt contextualizado ou frase mais complexa.",
+            "Few-Shot Learning é uma abordagem que envolve treinar o modelo com pouco exemplos adicionais e específicos, denominados shots. O modelo usa esses exemplos para entender melhor o contexto ou a tarefa específica solicitada, permitindo que ele generalize a partir de poucos dados e aplique o aprendizado a situações semelhantes.",
+            "Retrieval-Augmented Generation (RAG) é uma técnica que combina a geração de texto de um LLM com um sistema de recuperação de informações; o modelo original é treinado com uma base de dados ou um conjunto de documentos específico, permitindo a incorporação de novos conhecimentos que não estavam presentes no corpus de treinamento original do modelo.",
+            "Fine-Tuning é um processo de ajuste fino que consiste em treinar um LLM com um dataset adicional, com o objetivo de personalizar o modelo para tarefas ou domínios específicos. Isso permite que o modelo adapte suas respostas com base no conhecimento ou nos dados contidos nesse dataset adicional.",
+            "Text-to-SQL é uma funcionalidade padrão integrada em todas as versões do SQL que automaticamente traduz instruções em linguagem natural para comandos SQL, eliminando a necessidade de conhecimento técnico em bancos de dados para a realização de consultas complexas."
+        ],
+        "gabarito": "Fine-Tuning é um processo de ajuste fino que consiste em treinar um LLM com um dataset adicional, com o objetivo de personalizar o modelo para tarefas ou domínios específicos. Isso permite que o modelo adapte suas respostas com base no conhecimento ou nos dados contidos nesse dataset adicional."
+    },
+    {
+        "id": 47,
+        "enunciado": "Acerca dos frameworks LangChain e Llamaindex, amplamente utilizados atualmente para construir aplicação integradas a Large Language Models (LLMs), a opção que apresenta uma observação correta é:",
+        "alternativas": [
+            "LlamaIndex é um framework projetado para aplicações que utilizam LLMs que se beneficiam de aumento de contexto, fornecendo abstrações que facilitam a ingestão, estruturação e acesso a dados independente de um domínio específico.",
+            "no LangChain, chains são sequências de chamadas a um LLM, ferramenta ou etapa de pré-processamento de dados, permitindo a criação de pipelines complexos sem necessidade de linguagem específica.",
+            "LangChain pode ser utilizado para tarefas como classificação de texto e tradução automática, mas não para extração de entidades nomeadas e geração de texto.",
+            "LLamaindex não oferece suporte à busca semântica, não permitindo que os usuários realizem buscas por documentos que contenham conceitos relacionados aos termos de busca.",
+            "no LangChain, chains implementam uma sequência de ações através de código, ao contrário de agents, onde um modelo de linguagem é utilizado como motor de raciocínio para determinar as ações a serem tomadas."
+        ],
+        "gabarito": "no LangChain, chains implementam uma sequência de ações através de código, ao contrário de agents, onde um modelo de linguagem é utilizado como motor de raciocínio para determinar as ações a serem tomadas."
+    }
+]

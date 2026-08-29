@@ -560,7 +560,7 @@
     },
     {
         "id": 42,
-        "enunciado": "",
+        "enunciado": "No contexto de administração de banco de dados MySQL, ao planejar o armazenamento de tabelas e índices, considerando otimizar a alocação de espaço e melhorar o desempenho do sistema, é recomendado:",
         "alternativas": [
             "definir tamanhos de página menores para todas as tabelas e índices para reduzir a fragmentação;",
             "utilizar a compactação de tabelas para economizar espaço em disco, independentemente do tipo de dado;",
@@ -574,7 +574,7 @@
     },
     {
         "id": 43,
-        "enunciado": "Com intenção de melhoria da performance nas consultas executadas, Amanda tem trabalhado na fragmentação horizontal:",
+        "enunciado": "Amanda está mudando a arquitetura do banco de dados da empresa onde trabalha de forma a torná-lo distribuído. Para melhorar a flexibilidade e ocultar detalhes de implementação de usuários finais, ela está fazendo uso de algumas formas de transparência de dados.\nCom intenção de melhoria da performance nas consultas executadas, Amanda tem trabalhado na fragmentação horizontal:",
         "alternativas": [
             "copiando os mesmos objetos de dados em vários nós da rede;",
             "distribuindo, por vários nós da rede, algumas tabelas em um subconjunto de linhas;",
@@ -587,36 +587,34 @@
         "assunto": "Otimização (Tuning)"
     },
     {
-        "id": 44,
-        "enunciado": "Um dos fatores mais importantes na escolha dos planos de execução de consultas SQL baseia-se",
+        "id": 35,
+        "enunciado": "SGBD é a sigla para Sistema de Gerenciamento de Banco de Dados. Trata-se de um software que permite a criação, manipulação e administração de bancos de dados. Como um ecossistema completo para gerenciamento dos dados, muitos recursos são implementados nos SGBDs, sendo um dos mais importantes os chamados índices.\nEm um Sistema de Gerenciamento de Banco de Dados (SGBD), os índices são utilizados para",
         "alternativas": [
-            "na quantidade de memória RAM disponível na instalação.",
-            "na velocidade dos dispositivos de armazenagem.",
-            "nas estatísticas sobre as instâncias das tabelas.",
-            "na habilidade do programador para construir consultas SQL.",
-            "no número de sessões concorrentes abertas."
+            "armazenar dados sensíveis de forma criptografada.",
+            "melhorar o desempenho das consultas ao permitir acesso rápido aos registros.",
+            "controlar as permissões de acesso aos dados por meio de políticas de segurança.",
+            "efetuar cópias de segurança (backups) automáticos dos dados do banco.",
+            "executar operações de migração de esquema entre diferentes versões do SGBD."
         ],
-        "gabarito": "nas estatísticas sobre as instâncias das tabelas.",
-        "banca": "FGV",
-        "assunto": "Otimização (Tuning)"
+        "gabarito": "melhorar o desempenho das consultas ao permitir acesso rápido aos registros.",
+        "banca": "FGV"
     },
     {
-        "id": 45,
-        "enunciado": "A condição que estabelece a razão entre o número de registros que satisfazem uma dada condição e o número total de registros no arquivo, é chamada de",
+        "id": 16,
+        "enunciado": "Os Sistemas Gerenciadores de Bancos de Dados relacionais possuem diversos tipos de índices que podem melhorar o desempenho de consultas.\nCom relação aos índices do tipo cluster, avalie se as afirmativas a seguir são verdadeiras (V) ou falsas (F).\n( ) Não são usados para acelerar a recuperação de todos os registros que possuem o mesmo valor para o campo de cluster.\n( ) Um índice de clustering também é um arquivo ordenado com dois campos; o primeiro campo é do mesmo tipo que o campo de cluster do arquivo de dados, e o segundo campo é um bloco de disco ponteiro.\n( ) Há uma entrada no índice de clustering para cada grupo de valor iguais do campo de clustering e contém o valor e um ponteiro para o primeiro bloco nos dados arquivo que possui um registro com esse valor para seu campo de cluster.\nAs afirmativas são, respectivamente,",
         "alternativas": [
-            "facilidade.",
-            "reatividade.",
-            "seletividade.",
-            "disjuntividade.",
-            "computabilidade."
+            "V – F – F.",
+            "V – V – F.",
+            "F – F – F.",
+            "F – V – F.",
+            "F – F – V."
         ],
-        "gabarito": "seletividade.",
-        "banca": "FGV",
-        "assunto": "Otimização (Tuning)"
+        "gabarito": "F – V – F.",
+        "banca": "FGV"
     },
     {
         "id": 46,
-        "enunciado": "O desenvolvedor Rafael está construindo um microsserviço de gerência de inventário com Java e Spring Boot. Analise o seguinte trecho do código do microsserviço:\n@RestController public class InventarioController { private final Map<String, Integer> inventario = new HashMap<>();\npublic InventarioController() { inventario.put(\"produto1\", 10);\ninventario.put(\"produto2\", 5);\n} @GetMapping(\"/inventario/{produtoId}\") public Integer getInventario\n(@PathVariable String produtoId) { return inventario.getOrDefault(produtoId, 0);\n}} Considere que todos os imports necessários foram feitos corretamente.\nCom base no trecho de código apresentado, a requisição GET /inventario/produto3 retornará:",
+        "enunciado": "O desenvolvedor Rafael está construindo um microsserviço de gerência de inventário com Java e Spring Boot. Analise o seguinte trecho do código do microsserviço:\n>'''@RestController public class InventarioController { private final Map<String, Integer> inventario = new HashMap<>();\npublic InventarioController() { inventario.put(\"produto1\", 10);\ninventario.put(\"produto2\", 5);\n} @GetMapping(\"/inventario/{produtoId}\") public Integer getInventario\n(@PathVariable String produtoId) { return inventario.getOrDefault(produtoId, 0);\n}}<'''\n Considere que todos os imports necessários foram feitos corretamente.\nCom base no trecho de código apresentado, a requisição GET /inventario/produto3 retornará:",
         "alternativas": [
             "0;",
             "5;",

@@ -81,7 +81,7 @@
         ],
         "gabarito": "can be predicted;",
         "banca": "FGV",
-        "assunto": "CGE PB 2024"
+        "assunto": "Inglês"
     },
     {
         "id": 7,
@@ -95,7 +95,7 @@
         ],
         "gabarito": "companies;",
         "banca": "FGV",
-        "assunto": "CGE PB 2024"
+        "assunto": "Inglês"
     },
     {
         "id": 8,
@@ -109,7 +109,7 @@
         ],
         "gabarito": "F; F, T;",
         "banca": "FGV",
-        "assunto": "CGE PB 2024"
+        "assunto": "Inglês"
     },
     {
         "id": 9,
@@ -123,7 +123,7 @@
         ],
         "gabarito": "similarity.",
         "banca": "FGV",
-        "assunto": "CGE PB 2024"
+        "assunto": "Inglês"
     },
     {
         "id": 10,
@@ -137,7 +137,7 @@
         ],
         "gabarito": "present perfect, passive voice;",
         "banca": "FGV",
-        "assunto": "CGE PB 2024"
+        "assunto": "Inglês"
     },
     {
         "id": 11,
@@ -169,7 +169,7 @@
     },
     {
         "id": 13,
-        "enunciado": "Em certo município foi feita uma pesquisa para determinar, em cada residência, quantas crianças havia até 10 anos de idade.\nO resultado está na tabela a seguir:\nNúmero Quantidade de criançasde residências 0 25\n1 44\n2 56\n3 20\n4 12 mais de 4 3 Em relação ao total de residências pesquisadas, as que possuem somente uma ou duas crianças representam:",
+        "enunciado": "Em certo município foi feita uma pesquisa para determinar, em cada residência, quantas crianças havia até 10 anos de idade.\nO resultado está na tabela a seguir:\n{image(1)} Em relação ao total de residências pesquisadas, as que possuem somente uma ou duas crianças representam:",
         "alternativas": [
             "55,0%;",
             "57,5%;",
@@ -224,12 +224,14 @@
     },
     {
         "id": 17,
-        "enunciado": "A respeito de ontologia, julgue o próximo item.\nA representação formal de ontologias é utilizada para que estas sejam consumidas por computadores, enquanto a representação gráfica é utilizada para compreensão humana.",
+        "enunciado": "Relacione os termos de Inteligência Artificial (IA) às suas respectivas definições.\n1. IA fraca 2. IA forte 3. IA generativa 4. Teste de Turing ( ) É capaz de resolver uma única tarefa, pode automatizar tarefas demoradas e analisar dados de maneiras que os humanos às vezes não podem.\n( ) É uma categoria de algoritmos de IA que gera novos resultados com base nos dados em que foram treinados.\n( ) É capaz de resolver uma gama extensa e arbitrária de tarefas, incluindo aquelas que são novas, e executá-las com eficácia comparável à de um ser humano.\n( ) É uma medida de inteligência de uma máquina, onde se a máquina pode se passar por um humano em uma conversa de texto, ela passa no teste.\nAssinale a opção que indica a relação correta, segundo a ordem apresentada.",
         "alternativas": [
-            "Certo.",
-            "Errado."
+            "1 – 3 – 2 – 4.",
+            "1 – 2 – 4 – 3.",
+            "4 – 3 – 2 – 1.",
+            "3 – 2 – 1 – 4."
         ],
-        "gabarito": "Certo.",
+        "gabarito": "1 – 3 – 2 – 4.",
         "assunto": "Conceitos de IA"
     },
     {
@@ -246,29 +248,29 @@
     },
     {
         "id": 19,
-        "enunciado": "Observe as imagens a seguir.\nI.\nFonte: Goiânia, 1960. Acervo IBGE.\nII.\nFonte: https://www.goiania.go.gov.br/sobre-goiania/ A primeira imagem mostra a cidade de Goiânia em 1960, evidenciando o início de sua ocupação, com casas dispersas, áreas verdes e terrenos ainda disponíveis. A segunda imagem, de 2025, revela uma cidade densamente ocupada, marcada principalmente por edifícios.\nCom base nas imagens, analise as afirmativas sobre as mudanças ocorridas na paisagem urbana de Goiânia durante os anos e assinale (V) para a verdadeira e (F) para a falsa.\n( ) A urbanização acelerada e a ocupação irregular em bairros periféricos da cidade pressionam os serviços de coleta de lixo e de saneamento básico, aumentando os riscos à saúde pública, como a disseminação da dengue.\n( ) A transformação da paisagem urbana, com a substituição das áreas verdes por prédios e vias asfaltadas, aumenta as superfícies impermeáveis, dificultando a absorção da água da chuva pelo solo e contribuindo para alagamentos.\n( ) A evolução urbana reflete o aumento da infraestrutura, que melhorou o sistema de mobilidade publica, mas também trouxe desafios, como o aumento da frota de veículos particulares na cidade que sobrecarregada ruas e avenidas.\nA sequência correta, segundo a ordem apresentada, é:",
+        "enunciado": "A economia brasileira ocupa uma posição relevante no cenário mundial devido ao fato de combinar um grande mercado consumidor, a abundância de recursos naturais e uma forte participação no comércio internacional de commodities. Em 2025, o país seguiu como parceiro comercial importante para diferentes regiões do mundo.\nCom relação ao ano de 2025, assinale a opção correta.",
         "alternativas": [
-            "V – V – F.",
-            "V – F – V.",
-            "F – F – V.",
-            "F – V – F.",
-            "V– V – V."
+            "A Argentina se mantém como principal destino das exportações brasileiras, enquanto os automóveis lideram a pauta exportadora nacional.",
+            "A União Europeia ocupa atualmente a posição de principal parceira comercial do Brasil, com destaque para as exportações de café.",
+            "Os Estados Unidos consolidaram-se como principal parceiro comercial do Brasil, impulsionados pelas importações de produtos industrializados brasileiros.",
+            "A pauta exportadora brasileira foi liderada principalmente por produtos industriais de alto valor agregado, destinados ao mercado europeu.",
+            "O petróleo bruto lidera a pauta exportadora brasileira, seguido pela soja e pelo minério de ferro, tendo a China como principal destino."
         ],
-        "gabarito": "V– V – V.",
+        "gabarito": "O petróleo bruto lidera a pauta exportadora brasileira, seguido pela soja e pelo minério de ferro, tendo a China como principal destino.",
         "assunto": "Atualidades",
         "banca": "FGV"
     },
     {
         "id": 20,
-        "enunciado": "Leia o trecho a seguir.\nO relatório “Medidas de Desenvolvimento Humano e Políticas Públicas no Piauí” mostrou que o IDH do Piauí cresceu de 0,480 para 0,710 entre 2000 e 2020, aproximando-se da média nacional e alcançando o nível de “alto desenvolvimento humano”. O documento atribui a ascensão a investimentos em educação, que mais que dobraram, e melhorias na saúde, com elevação na expectativa de vida.\nFonte: https://www.undp.org/pt/brazil/news/relatorio-detalha-forte-ascensao-de-idh-do-piaui-entre-2000-e-2020 É correto afirmar que a melhoria dos indicadores de saúde no Piauí se deve ao fato de que o estado",
+        "enunciado": "Dados recentes do Instituto Brasileiro de Geografia e Estatística (IBGE) mostram que, nos últimos anos, a pobreza recuou expressivamente no Brasil, enquanto a desigualdade de renda permaneceu entre as mais elevadas do mundo.\nA pobreza diz respeito à insuficiência de renda para suprir necessidades básicas, enquanto a desigualdade se refere à forma como a renda se distribui relativamente entre os diferentes grupos sociais.\nConsiderando a relação entre pobreza e desigualdade, assinale a afirmativa correta.",
         "alternativas": [
-            "possui ampla cobertura da atenção primária à saúde, o que contribui significativamente para a ampliação do acesso aos cuidados básicos de saúde.",
-            "apresenta baixo índice de insegurança alimentar, o que contribui para a melhoria da saúde pública e prevenção de doenças nutricionais.",
-            "possui altos índices de urbanização e grande disponibilidade de unidades de saúde, o que facilita o acesso da população aos serviços médicos em todo o território.",
-            "apresenta um dos melhores índices de mortalidade materna e infantil do Brasil, superando a média nacional, o que o posiciona como referência para outros estados.",
-            "possui um dos menores índices de doenças crônicas não transmissíveis do Brasil, com destaque para a baixa prevalência de diabetes e hipertensão."
+            "A redução da pobreza leva à diminuição da desigualdade no médio prazo, pois o crescimento econômico beneficia progressivamente todos os grupos.",
+            "A pobreza e a desigualdade são fenômenos distintos, que podem evoluir em direções diferentes dentro de uma mesma sociedade, como demonstra o caso brasileiro.",
+            "A queda da pobreza indica que os rendimentos estão crescendo de forma mais equitativa entre os diferentes grupos sociais da população.",
+            "A desigualdade de renda é consequência direta da pobreza, de modo que combater uma equivale a combater a outra no contexto brasileiro.",
+            "A redução da pobreza é condição suficiente para a redução da desigualdade, desde que os programas sociais alcancem os mais vulneráveis da população."
         ],
-        "gabarito": "possui ampla cobertura da atenção primária à saúde, o que contribui significativamente para a ampliação do acesso aos cuidados básicos de saúde.",
+        "gabarito": "A pobreza e a desigualdade são fenômenos distintos, que podem evoluir em direções diferentes dentro de uma mesma sociedade, como demonstra o caso brasileiro.",
         "assunto": "Atualidades",
         "banca": "FGV"
     },

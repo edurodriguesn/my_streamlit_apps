@@ -1,0 +1,514 @@
+[
+    {
+        "id": 1,
+        "enunciado": "Em relação aos mecanismos de passagem de parâmetros em sub-rotinas, assinale a alternativa correta.",
+        "alternativas": [
+            "Na passagem por valor, a função recebe o endereço da variável original, permitindo sua modificação direta.",
+            "Na passagem por referência, a função recebe uma cópia do valor da variável, não podendo alterar o valor original.",
+            "Na passagem por valor, alterações realizadas no parâmetro dentro da função não afetam a variável original.",
+            "Na passagem por referência, a variável original não pode ser modificada dentro da função chamada.",
+            "A passagem por valor e por referência possuem o mesmo comportamento, diferindo apenas na sintaxe da linguagem."
+        ],
+        "gabarito": "Na passagem por valor, alterações realizadas no parâmetro dentro da função não afetam a variável original.",
+        "banca": "Instituto AVALIA"
+    },
+    {
+        "id": 2,
+        "enunciado": "Sobre sistemas de tipos em linguagens de programação, analise as assertivas e assinale a alternativa que aponta a(s) correta(s).\nI. A verificação de tipos pode ocorrer em tempo de compilação ou em tempo de execução.\nII. Em linguagens fortemente tipadas, operações entre tipos incompatíveis são restritas ou proibidas.\nIII. A vinculação de tipos (type binding) refere-se à associação entre uma variável e seu tipo.",
+        "alternativas": [
+            "I, apenas.",
+            "II, apenas.",
+            "I e II, apenas.",
+            "II e III, apenas.",
+            "I, II e III."
+        ],
+        "gabarito": "I, II e III.",
+        "banca": "Instituto AVALIA"
+    },
+    {
+        "id": 3,
+        "enunciado": "Em relação às tipificações forte e fraca em linguagens de programação, assinale a alternativa correta.",
+        "alternativas": [
+            "Linguagens fortemente tipadas permitem livre conversão implícita entre quaisquer tipos.",
+            "Linguagens fracamente tipadas não realizam qualquer verificação de tipos.",
+            "Tipificação forte impede completamente a conversão de tipos entre variáveis.",
+            "Linguagens fortemente tipadas restringem operações entre tipos incompatíveis, exigindo maior controle do programador.",
+            "Tipificação forte e tipificação estática são conceitos equivalentes."
+        ],
+        "gabarito": "Linguagens fortemente tipadas restringem operações entre tipos incompatíveis, exigindo maior controle do programador.",
+        "banca": "Instituto AVALIA"
+    },
+    {
+        "id": 4,
+        "enunciado": "No que se refere à passagem de parâmetros para uma função, dois termos presentes e conhecidos em programação são a passagem por valor e a passagem por referência. Sobre essas maneiras de passar parâmetros para funções, verifica-se que",
+        "alternativas": [
+            "a função acessa diretamente a variável original tanto na passagem por valor como na por referência, sendo a principal diferença entre os dois tipos a eficiência no processamento.",
+            "uma cópia do valor do argumento é passada para a função na passagem por valor, enquanto a função acessa diretamente a área de memória da variável original na passagem por referência.",
+            "o tipo de informação que deve ser passado é uma constante, tanto em passagem por valor como por referência.",
+            "o parâmetro, na passagem por valor, deve ser um tipo primitivo, como um inteiro ou um caractere, enquanto, na passagem por referência, ele deve ser um tipo complexo, como um objeto ou uma estrutura.",
+            "o parâmetro do tipo complexo, como um objeto ou uma estrutura, não é aceito nem na passagem por valor, nem na por referência."
+        ],
+        "gabarito": "uma cópia do valor do argumento é passada para a função na passagem por valor, enquanto a função acessa diretamente a área de memória da variável original na passagem por referência.",
+        "banca": "CESGRANRIO"
+    },
+    {
+        "id": 5,
+        "enunciado": "São estruturas utilizadas em linguagens de programação procedurais como forma de dividir um programa em sub-rotinas:\nI. Classe.\nII. Função.\nIII. Procedimento.\nQuais estão corretas?",
+        "alternativas": [
+            "Apenas I.",
+            "Apenas III.",
+            "Apenas I e II.",
+            "Apenas II e III."
+        ],
+        "gabarito": "Apenas II e III.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 6,
+        "enunciado": "Julgue o item a seguir, a respeito das estruturas de dados e de bancos de dados e da análise de dados.\nOs registros são utilizados exclusivamente para armazenar dados numéricos, enquanto as variáveis simples podem armazenar qualquer tipo de dado, como números, caracteres e strings.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 7,
+        "enunciado": "Em uma linguagem de programação orientada a objetos, um método é void quando",
+        "alternativas": [
+            "não possui atributos.",
+            "requer a passagem de argumentos.",
+            "não retorna valor após o processamento do escopo.",
+            "não necessita da definição do escopo.",
+            "não possui modificador de acesso."
+        ],
+        "gabarito": "não retorna valor após o processamento do escopo.",
+        "banca": "FADESP"
+    },
+    {
+        "id": 8,
+        "enunciado": "Dados booleanos são usados para representar:",
+        "alternativas": [
+            "Os dois únicos valores lógicos possíveis: verdadeiro e falso.",
+            "Números inteiros (positivos, negativos ou zero).",
+            "Números com casas decimais.",
+            "Cadeias de caracteres (texto).",
+            "Coleções ordenadas e imutáveis de itens."
+        ],
+        "gabarito": "Os dois únicos valores lógicos possíveis: verdadeiro e falso.",
+        "banca": "FAU UNICENTRO"
+    },
+    {
+        "id": 9,
+        "enunciado": "Na criação de programas de computador, utilizam-se variáveis para armazenar dados mais simples como números e textos, ou mais complexos como estruturas de dados (listas ou dicionários). As variáveis podem ser mutáveis ou imutáveis.\nNesse contexto, é correto afirmar:",
+        "alternativas": [
+            "as variáveis mutáveis podem ter seu valor alterado, mas essa alteração causa necessariamente a alteração do endereço de memória.",
+            "as variáveis imutáveis podem armazenar variáveis mutáveis, possibilitando a alteração do conteúdo que a variável faz referência.",
+            "as variáveis mutáveis servem apenas para tipos simples, como números e textos, e não para estruturas de dados.",
+            "as variáveis imutáveis somente são utilizadas para variáveis globais, impedindo que outras partes do programa possam alterá-las.",
+            "as variáveis mutáveis somente são utilizadas por linguagens dinâmicas em que o tipo da variável não é determinístico."
+        ],
+        "gabarito": "as variáveis imutáveis podem armazenar variáveis mutáveis, possibilitando a alteração do conteúdo que a variável faz referência.",
+        "banca": "VUNESP"
+    },
+    {
+        "id": 10,
+        "enunciado": "Quando da escrita de programas de software, é importante considerar um conjunto de formas de escrita desses códigos, de maneira a torná-los mais legíveis e aptos a serem mantidos, ou seja, modificados e/ou corrigidos.\nDessa forma, o programador deve seguir um conjunto denominado de boas práticas de programação, sendo correto afirmar que uma dessas práticas compreende",
+        "alternativas": [
+            "atribuir nomes às variáveis, tal que representem seu significado e sua função no contexto do programa.",
+            "restringir o uso de comentários apenas na parte inicial de cada rotina.",
+            "não deixar qualquer linha em branco (sem qualquer texto) em qualquer parte do programa.",
+            "não se preocupar em identar os comandos, pois isto torna o código mais longo.",
+            "não utilizar sub-rotinas, mesmo que seja necessário repetir códigos no programa principal."
+        ],
+        "gabarito": "atribuir nomes às variáveis, tal que representem seu significado e sua função no contexto do programa.",
+        "banca": "VUNESP"
+    },
+    {
+        "id": 11,
+        "enunciado": "Julgue o item a seguir, relativo a algoritmos de linguagem de programação.\nOs dados de um algoritmo devem ser definidos por tipos para que seus conteúdos possam ser submetidos a operações corretas, inerentes a cada tipo de dado.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 12,
+        "enunciado": "Julgue o item a seguir, relativo a algoritmos de linguagem de programação.\nNa instrução A(i) = FUNC(i), a saída da função FUNC( ) é passada corretamente como parâmetro de entrada (i) para a função A.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 13,
+        "enunciado": "Julgue o item a seguir.\nNa programação, os operadores lógicos são utilizados principalmente para operações matemáticas complexas, como cálculos de derivadas e integrais.\nEsses operadores, incluindo adição, subtração, multiplicação e divisão, são fundamentais na construção de algoritmos para aplicações matemáticas avançadas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "IGEDUC"
+    },
+    {
+        "id": 14,
+        "enunciado": "Julgue o item a seguir.\nNa programação, o uso de variáveis e constantes é fundamental para o armazenamento e manipulação de dados. Variáveis podem ter seus valores alterados, enquanto constantes mantêm valores fixos durante a execução do programa. Dentre os tipos de dados comuns em programação estão inteiros (int), decimais (float, double), caracteres (char), strings e valores booleanos (boolean).",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "IGEDUC"
+    },
+    {
+        "id": 15,
+        "enunciado": "Em programação, sobre a passagem de parâmetros por referência em comparação com a passagem de parâmetros por valor, assinale a afirmativa correta.",
+        "alternativas": [
+            "A passagem por referência é uma técnica que permite que variáveis sejam executadas em paralelo; ao contrário da passagem por valor.",
+            "A passagem de uma referência à memória onde o valor está armazenado; a passagem por valor envolve a cópia do valor real do argumento para a função.",
+            "A passagem por referência permite modificar o valor da variável passada como argumento, não necessariamente uma variável global; ao contrário da passagem por valor.",
+            "A passagem por valor é uma técnica que permite modificar o valor de uma variável global a partir de uma função; a passagem por referência mantém a integridade do valor original."
+        ],
+        "gabarito": "A passagem de uma referência à memória onde o valor está armazenado; a passagem por valor envolve a cópia do valor real do argumento para a função.",
+        "banca": "Instituto Consulplan"
+    },
+    {
+        "id": 16,
+        "enunciado": "Acerca de estrutura de dados e algoritmos, julgue o item a seguir.\nA passagem de um vetor por valor é mais eficiente que a passagem por parâmetro, considerando aspectos de tempo de processamento e espaço em memória, estando ambas as situações sob as mesmas condições de recursos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 17,
+        "enunciado": "Em linguagens de programação, o escopo sintático refere- se",
+        "alternativas": [
+            "à área do código onde uma variável pode ser referenciada.",
+            "à hierarquia de operadores utilizados para realizar operações em expressões.",
+            "às regras que determinam a forma correta das estruturas de controle de fluxo.",
+            "ao conjunto de palavras-chave reservadas da linguagem.",
+            "ao número máximo de parâmetros permitido em uma função, exclusivamente."
+        ],
+        "gabarito": "à área do código onde uma variável pode ser referenciada.",
+        "banca": "CESGRANRIO"
+    },
+    {
+        "id": 18,
+        "enunciado": "Existem duas formas básicas para a passagem de parâmetros para uma sub-rotina: a chamada por valor e a chamada por referência. Assinale a alternativa que contém uma informação correta a respeito.",
+        "alternativas": [
+            "Na chamada por referência, o valor original de uma variável passada como parâmetro pode ser modificado.",
+            "Na chamada por referência, uma cópia da variável é passada como parâmetro.",
+            "Na chamada por valor, o valor original de uma variável passada como parâmetro pode ser modificado.",
+            "Tanto na chamada por valor quanto na chamada por referência o valor original de uma variável passada como parâmetro pode ser modificado.",
+            "Tanto na chamada por valor quanto na chamada por referência uma cópia da variável é passada como parâmetro."
+        ],
+        "gabarito": "Na chamada por referência, o valor original de uma variável passada como parâmetro pode ser modificado.",
+        "banca": "VUNESP"
+    },
+    {
+        "id": 19,
+        "enunciado": "No contexto dos algoritmos, os tipos de dados são fundamentais para representar informações em um programa de computador. Dentre esses tipos, um deles representa um valor lógico, podendo ser verdadeiro (true) ou falso (false). Esse tipo de dado é comumente utilizado em expressões condicionais e em controle de fluxo.\nTrata-se de.",
+        "alternativas": [
+            "String.",
+            "Enum.",
+            "Boolean.",
+            "Void.",
+            "lnteger."
+        ],
+        "gabarito": "Boolean.",
+        "banca": "Legalle"
+    },
+    {
+        "id": 20,
+        "enunciado": "Considere o seguinte código em uma linguagem de programação hipotética, onde tipos escalares são passados por valor e tipos dinâmicos por referência:\n-------- def modify_value(x):\nx = x + 10 return x def modify_list(lst):\nlst.append(10) return lst a = 5 b = [5] modify_value(a) modify_list(b) print(a) # Saída 1 print(b) # Saída 2 ---------- Considerando-se esse código e também a passagem de valores por referência e por valor, verifica-se que",
+        "alternativas": [
+            "a é passado por valor, então a permanece 5, e b é passado por referência, então b se torna [5, 10].",
+            "a é passado por valor, então a permanece 5, e b é passado por valor, então b permanece [5].",
+            "a é passado por valor, então a se torna 15, e b é passado por referência, então b se torna [5, 10].",
+            "a é passado por referência, então a se torna 15, e b é passado por referência, então b se torna [5, 10].",
+            "a é passado por referência, então a se torna 15, e b é passado por valor, então b permanece [5]."
+        ],
+        "gabarito": "a é passado por valor, então a permanece 5, e b é passado por referência, então b se torna [5, 10].",
+        "banca": "CESGRANRIO"
+    },
+    {
+        "id": 21,
+        "enunciado": "passagem de parâmetros em linguagem C refere-se ao envio de valores ou referências para funções, permitindo que as funções realizem operações com dados fornecidos. Com relação à passagem de parâmetros, julgue o item.\nSe a declaração de um vetor for: int Vetor[100], isso significa que o vetor terá até 100 inteiros armazenados nele.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "Instituto Verbena"
+    },
+    {
+        "id": 22,
+        "enunciado": "passagem de parâmetros em linguagem C refere-se ao envio de valores ou referências para funções, permitindo que as funções realizem operações com dados fornecidos. Com relação à passagem de parâmetros, julgue o item.\nUma variável int X, quando for passada por parâmetro para alterar o seu valor no procedimento alterar_valor, é passada da seguinte maneira: alterar_valor(x).",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "Instituto Verbena"
+    },
+    {
+        "id": 23,
+        "enunciado": "Na passagem de parâmetros para uma função, para que seja permitida a alteração do conteúdo da variável passada como parâmetro, é preciso que seja passado(a) para a função",
+        "alternativas": [
+            "o endereço da variável.",
+            "o tipo da variável.",
+            "o valor da variável.",
+            "uma cópia da variável.",
+            "uma instância da variável."
+        ],
+        "gabarito": "o endereço da variável.",
+        "banca": "VUNESP"
+    },
+    {
+        "id": 24,
+        "enunciado": "Nas linguagens procedurais, funções e procedimentos são blocos de código que permitem organizar, modularizar e reutilizar trechos de programação, promovendo uma melhor estrutura e clareza no desenvolvimento de software. Sobre as características de funções e procedimentos, informe se é verdadeiro (V) ou falso (F) o que se afirma a seguir e assinale a alternativa com a sequência correta.\n( ) Funções são blocos de código que realizam uma tarefa específica e retornam um valor ao final da sua execução.\n( ) Funções podem receber parâmetros como entrada, processar esses dados e devolver um resultado.\n( ) Procedimentos são blocos de código semelhantes às funções, mas diferem no fato de que não retornam um valor.\n( ) Procedimentos também podem receber parâmetros para alterar seu comportamento ou realizar operações específicas.",
+        "alternativas": [
+            "F – F – F – F.",
+            "F – F – V – V.",
+            "V – V – F – F.",
+            "V – F – V – F.",
+            "V – V – V – V."
+        ],
+        "gabarito": "V – V – V – V.",
+        "banca": "Instituto AOCP"
+    },
+    {
+        "id": 25,
+        "enunciado": "Na programação estruturada, ao tipo de sub-rotina que retorna um valor e cuja chamada ocorre em expressões ou em instruções de atribuição, dá-se o nome de:",
+        "alternativas": [
+            "Gatilho.",
+            "Bloco.",
+            "Função.",
+            "Módulo.",
+            "Procedimento."
+        ],
+        "gabarito": "Função.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 26,
+        "enunciado": "Julgue o item a seguir, acerca de funções e procedimentos.\nAs funções executam um ou mais comandos e sempre retornam um resultado para quem fez uma chamada à função.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 27,
+        "enunciado": "A _________ ocorre quando se armazena um valor em uma variável; quando deseja-se um desvio no fluxo de nosso código baseado em uma condição booleana, usa-se o comando _________; para realizar uma repetição de instrução, pode-se usar a instrução _________; a fim de não repetir códigos, tem a possibilidade de fazer uso de _________; por fim, para interromper um laço de repetição de forma abrupta, usa-se __________.\nAssinale a alternativa que preenche, correta e respectivamente, as lacunas do trecho acima.",
+        "alternativas": [
+            "composição – if – do-while – funções – break.",
+            "atribuição – test – repetir – funções – parar.",
+            "atribuição – if – do-while – funções – break.",
+            "persistência – test – for – métodos – stop.",
+            "persistência – if – for – métodos – stop."
+        ],
+        "gabarito": "atribuição – if – do-while – funções – break.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 28,
+        "enunciado": "Considere o seguinte programa, na forma de uma pseudolinguagem (português estruturado).\nInício Inteiro: p, q, S, cont;\n← ← p 5; q 3; Para cont de 1 até 5 faça [ Se (p+q) > 2*p Então p p-1; Senão q q+2; ] S p + q;\nFim.\n← ← ← Ao final da execução desse programa, o conteúdo da variável S será:",
+        "alternativas": [
+            "8.",
+            "9.",
+            "10.",
+            "11.",
+            "12."
+        ],
+        "gabarito": "9.",
+        "banca": "VUNESP"
+    },
+    {
+        "id": 29,
+        "enunciado": "Os parâmetros que são passados para uma função de um programa são denominados parâmetros reais, enquanto que os parâmetros recebidos por uma função são denominados parâmetros formais. Neste contexto, em uma chamada de função por valor, os valores dos parâmetros reais",
+        "alternativas": [
+            "são copiados para os parâmetros formais da função, e as alterações nestes efetuadas dentro da função refletem-se em alterações nos parâmetros reais.",
+            "são copiados para os parâmetros formais da função, e as alterações nestes efetuadas dentro da função não implicam em alterações nos parâmetros reais.",
+            "não são copiados para os parâmetros formais da função, e as alterações efetuadas nestes dentro da função, refletem-se em alterações nos parâmetros reais.",
+            "não são copiados para os parâmetros formais da função, e as alterações efetuadas nestes dentro da função, não implicam em alterações nos parâmetros reais.",
+            "não são copiados para os parâmetros formais da função, e esta não pode realizar alterações em seus parâmetros formais."
+        ],
+        "gabarito": "são copiados para os parâmetros formais da função, e as alterações nestes efetuadas dentro da função não implicam em alterações nos parâmetros reais.",
+        "banca": "VUNESP"
+    },
+    {
+        "id": 30,
+        "enunciado": "Julgue os itens a seguir, relacionados a dados do tipo elementar e do tipo estruturado.\nI Dados do tipo elementar são aqueles que não podem ser decompostos.\nII Um float (ponto flutuante) é considerado um dado do tipo estruturado.\nIII Uma string é um dado do tipo estruturado.\nAssinale a opção correta.",
+        "alternativas": [
+            "Apenas o item II está certo.",
+            "Apenas o item III está certo.",
+            "Apenas os itens I e II estão certos.",
+            "Apenas os itens I e III estão certos.",
+            "Todos os itens estão certos."
+        ],
+        "gabarito": "Apenas os itens I e III estão certos.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 31,
+        "enunciado": "Sistemas de computação utilizam o sistema binário como forma de representação. Porém, essa numeração só consegue representar normalmente inteiros e maiores que zero. Para que outros tipos de dados sejam representados, é necessário utilizar um sistema de codificação para o sistema de numeração binário. Um exemplo é a representação de números não inteiros usando o ponto flutuante.\nSobre a notação de ponto flutuante, assinale a alternativa incorreta.",
+        "alternativas": [
+            "O padrão 754 do ANSI/IEEE trata da representação de números na notação de ponto flutuante com precisão simples e precisão dupla.",
+            "A notação de ponto flutuante é formada por: bit de sinal, expoente e mantissa.",
+            "Na precisão dupla, o campo mantissa tem 8 bits e o campo expoente tem 23 bits.",
+            "A representação usando o ponto flutuante na forma normalizada é análoga à notação científica."
+        ],
+        "gabarito": "Na precisão dupla, o campo mantissa tem 8 bits e o campo expoente tem 23 bits.",
+        "banca": "FUNDEP"
+    },
+    {
+        "id": 32,
+        "enunciado": "No que diz respeito aos tipos de variáveis, à orientação a objetos e aos métodos de acesso a arquivos, julgue o item.\nAs variáveis globais possuem as seguintes características: são declaradas fora do escopo das funções; não são visíveis a todas as funções; não criam dependência entre as funções; e facilitam o entendimento e o reuso de código.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "QUADRIX"
+    },
+    {
+        "id": 33,
+        "enunciado": "Linguagens de programação são formas de instruir os computadores acerca de como realizar tarefas. Para isso, utilizam-se estruturas de controle de fluxo, tipos de dados variados e diversos recursos.\nA respeito da linguagem de programação Java, julgue (C ou E) o item a seguir.\nUm conjunto de instruções que pode ou não receber parâmetros de entrada, que pode ou não retornar algum valor como resultado, mas que recebe um nome identificador, pode ser chamado de “função”, evitando a repetição de um mesmo bloco de código.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "IADES"
+    },
+    {
+        "id": 34,
+        "enunciado": "Em programação, existem duas maneiras de realizar a passagem de parâmetros para uma função qualquer. Sobre o tema, analise as afirmativas a seguir e marque a alternativa correta:\nI- A passagem de parâmetro pode ser feita por valor ou por referência.\nII- Em Linguagem JAVA, a passagem de parâmetro por referência é feita por meio de ponteiros, de forma que o método recebe como argumento o endereço da memória onde está armazenado o valor da variável.",
+        "alternativas": [
+            "Ambas as afirmativas estão corretas.",
+            "Somente a afirmativa I está correta.",
+            "Somente a afirmativa II está correta.",
+            "Nenhuma das afirmativas está correta."
+        ],
+        "gabarito": "Somente a afirmativa I está correta.",
+        "banca": "CETAP"
+    },
+    {
+        "id": 35,
+        "enunciado": "função a( n) { se (n = 4) então retorne n; senão retorne (4*a(n+1)); fim se;\n} escreva(a(2));\nPara o algoritmo anterior, o resultado apresentado é igual a",
+        "alternativas": [
+            "4.",
+            "8.",
+            "64.",
+            "16.",
+            "32."
+        ],
+        "gabarito": "64.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 36,
+        "enunciado": "Analise abaixo as variáveis declaradas nos dois exemplos em português estruturado e assinale a alternativa correta. {image(1)}",
+        "alternativas": [
+            "A variável C é global nos dois exemplos.",
+            "As variáveis B e C são locais nos dois exemplos.",
+            "As variáveis A e B são globais nos dois exemplos.",
+            "A variável A é global e a variável C é local nos dois exemplos."
+        ],
+        "gabarito": "As variáveis A e B são globais nos dois exemplos.",
+        "banca": "DIRENS Aeronáutica"
+    },
+    {
+        "id": 37,
+        "enunciado": "Quanto aos conceitos básicos sobre variáveis locais e globais, analise as afirmativas abaixo e assinale a alternativa correta:\nI. As variáveis locais somente podem ser acessadas de dentro da função a qual pertencem.\nII. As variáveis globais não alteram o seu valor durante toda a execução da aplicação.\nIII. Declarar um grande número de variáveis locais é problemático em um programa grande.\nDas afirmativas:",
+        "alternativas": [
+            "I e II são tecnicamente verdadeiras.",
+            "II e III são tecnicamente verdadeiras.",
+            "I e III são tecnicamente verdadeiras.",
+            "I, II e III são tecnicamente verdadeiras."
+        ],
+        "gabarito": "I e II são tecnicamente verdadeiras.",
+        "banca": "IBFC"
+    },
+    {
+        "id": 38,
+        "enunciado": "Entre os fundamentos da programação, um dos conceitos mais importantes é o de variável; assinale-o.",
+        "alternativas": [
+            "Estrutura na programação que não ocupa espaço na memória do dispositivo.",
+            "Posição na memória do dispositivo, cujo conteúdo pode variar com o tempo.",
+            "Posição na memória do dispositivo, cujo valor pode assumir apenas números inteiros.",
+            "Posição na memória do dispositivo, cujo valor assume apenas “VERDADEIRO” ou “FALSO”."
+        ],
+        "gabarito": "Posição na memória do dispositivo, cujo conteúdo pode variar com o tempo.",
+        "banca": "CONSULPLAN"
+    },
+    {
+        "id": 39,
+        "enunciado": "Considere que, em um programa, um parâmetro foi passado para uma função. Quando alterações nesse parâmetro dentro da função não alteram o valor que foi passado pelo programa chamador dessa função, trata-se de passagem de parâmetro",
+        "alternativas": [
+            "parcial.",
+            "unilateral.",
+            "por ponteiros.",
+            "por referência.",
+            "por valor."
+        ],
+        "gabarito": "por valor.",
+        "banca": "VUNESP"
+    },
+    {
+        "id": 40,
+        "enunciado": "Acerca de desenvolvimento de sistemas, julgue o próximo item.\nA notação húngara para nomes de variáveis, na qual a primeira letra identifica o tipo da própria variável, está em desuso devido aos novos compiladores e ambientes de desenvolvimento, que têm facilidades para verificação de tipos e endereçamento de memória.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 41,
+        "enunciado": "A respeito de análise estática de código e interoperabilidade de sistemas, julgue o item seguinte.\nA notação húngara para nomes de variáveis é utilizada para tornar o código fonte mais limpo, a partir de indicadores para identificar o tipo das variáveis.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 42,
+        "enunciado": "Analise as afirmações, a seguir, a respeito dos TAD (Tipos abstratos de dados):\nI - Um TAD especifica o tipo de dado (domínio e operações) sem referência a detalhes da implementação.\nII - Dando mais liberdade para mudar implementação com menor impacto nos programas.\nIII - Oferece muitas vantagens, apesar de não minimizar custos.\nIV - Os programas que usam o TAD não \"conhecem\" as implementações dos TADs.\nEstão corretas as afirmações:",
+        "alternativas": [
+            "I e III.",
+            "II, III e IV.",
+            "I, II e III.",
+            "I, II e IV."
+        ],
+        "gabarito": "I, II e IV.",
+        "banca": "IUDS"
+    },
+    {
+        "id": 43,
+        "enunciado": "Considere a representação de números inteiros, com sinal, numa palavra de 32 bits.\nO intervalo de valores que pode ser representado é",
+        "alternativas": [
+            "-32.767 até +32.768.",
+            "-32.768 até +32.767.",
+            "-65.536 até 65.535.",
+            "-2.147.483.648 até +2.147.483.647.",
+            "-2.147.483.647 até +2.147.483.648."
+        ],
+        "gabarito": "-2.147.483.648 até +2.147.483.647.",
+        "banca": "FGV"
+    }
+]

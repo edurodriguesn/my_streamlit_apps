@@ -1,0 +1,1353 @@
+[
+    {
+        "id": 1,
+        "enunciado": "Em um projeto de desenvolvimento de um novo sistema de acompanhamento de denúncias, a equipe de TI utilizou a Análise de Pontos de Função (APF) para estimar o tamanho da aplicação.\nAs métricas e estimativas de custo total adotadas foram:\n- O esforço para desenvolver cada Ponto de Função foi de 5 horas de trabalho.\n- O custo da hora de trabalho foi de R$ 100,00.\n- O custo total estimado do desenvolvimento do sistema foi de R$ 48.000,00.\nCom base nesses dados, a quantidade total de Pontos de Função (PF) estimados para a aplicação foi de",
+        "alternativas": [
+            "100 PF.",
+            "96 PF.",
+            "98 PF.",
+            "105 PF.",
+            "95 PF."
+        ],
+        "gabarito": "96 PF.",
+        "banca": "FCC"
+    },
+    {
+        "id": 2,
+        "enunciado": "O sistema PRODUS é utilizado para apoiar o controle da produtividade das equipes da ORG1. O PRODUS possui uma funcionalidade para calcular a taxa de produtividade dos colaboradores da equipe com base na quantidade de resoluções de pedidos de serviço e na quantidade de horas trabalhadas. As taxas de produtividade são calculadas e armazenadas na base de dados a partir do comando do usuário que tenha o perfil de líder. Para os usuários com perfil de gestor, o PRODUS disponibiliza uma outra funcionalidade para comandar a apresentação das taxas de produtividade de cada equipe em uma janela de tempo.\nCom base na Análise de Pontos de Função (APF), as funcionalidades supracitadas do PRODUS serão contadas, respectivamente, como:",
+        "alternativas": [
+            "Saída Externa e Consulta Externa;",
+            "Entrada Externa e Saída Externa;",
+            "Entrada Externa e Consulta Externa;",
+            "Arquivo Lógico Interno e Consulta Externa;",
+            "Arquivo Lógico Interno e Arquivo de Interface Externa."
+        ],
+        "gabarito": "Entrada Externa e Consulta Externa;",
+        "banca": "FGV"
+    },
+    {
+        "id": 3,
+        "enunciado": "Certa equipe de desenvolvimento está estimando o tamanho funcional de um software usando análise de pontos de função (IFPUG, da sigla em inglês). O sistema possui:\n10 entradas externas de complexidade média e peso complexidade igual a 4;\n8 consultas externas de complexidade baixa e peso complexidade igual a 3;\n3 arquivos lógicos internos de complexidade média e peso complexidade igual a 10; e\n2 interfaces de arquivos externos de complexidade baixa e peso complexidade igual a 5.\nSabe-se que o fator de ajuste de valor (VAF, da sigla em inglês) calculado a partir de 14 características gerais do sistema é de 1,25.\nA partir da situação hipotética precedente, assinale a opção que apresenta corretamente o tamanho funcional total em pontos de função ajustados (AFP, da sigla em inglês) do sistema.",
+        "alternativas": [
+            "135,00.",
+            "105,25.",
+            "120,00.",
+            "130,00.",
+            "115,25."
+        ],
+        "gabarito": "130,00.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 4,
+        "enunciado": "No que concerne a testes de software, métricas de software, DevOps e integração contínua, julgue o item a seguir.\nCom base na métrica de análise de pontos de função (APF), conforme as diretrizes que estabelecem o cálculo do fator de ajuste (VAF), considere que um sistema tenha 120 pontos de função não ajustados (UFP) e que a soma das 14 características gerais do sistema (GSC) seja igual a 30. Nessa situação, o total de pontos de função ajustados (PFA) será exatamente igual a 114.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 5,
+        "enunciado": "Durante a auditoria de um contrato de desenvolvimento de software mensurado por Pontos de Função (PF), o Auditor percebe que a contagem incluiu Arquivos Lógicos Internos (ALI) para tabelas que são apenas referenciadas para consulta, mas mantidas por outro sistema externo.\nDe acordo com o manual de contagem do International Function Point Users Group (IFPUG), essa funcionalidade deve ser classificada como",
+        "alternativas": [
+            "Arquivo Lógico Interno (ALI).",
+            "Arquivo de Interface Externa (AIE).",
+            "Saída Externa (SE).",
+            "Consulta Externa (CE).",
+            "Entrada Externa (EE)."
+        ],
+        "gabarito": "Arquivo de Interface Externa (AIE).",
+        "banca": "FGV"
+    },
+    {
+        "id": 6,
+        "enunciado": "A Análise por Pontos de Função (APF) é uma técnica usada para medir o tamanho funcional de um sistema de software. Um dos elementos utilizados na APF são os chamados deflatores, que são usados para",
+        "alternativas": [
+            "avaliar o desempenho do sistema com base nas transações de entrada externa.",
+            "ajustar o total de pontos de função com base nas características gerais do sistema.",
+            "converter pontos de função em estimativas de esforço com base na complexidade das funções de dados.",
+            "calcular a complexidade das funções transacionais com base no número de dados elementares referenciados.",
+            "reduzir os pontos de função considerando a reutilização de código com base em registros lógicos referenciados."
+        ],
+        "gabarito": "ajustar o total de pontos de função com base nas características gerais do sistema.",
+        "banca": "FGV"
+    },
+    {
+        "id": 7,
+        "enunciado": "No contexto da metodologia de ponto de função, ao determinar a fronteira de cada aplicação contida no escopo da contagem, qqual das alternativas a seguir está correta sobre esse processo?",
+        "alternativas": [
+            "A fronteira de cada aplicação é definida pela interação do usuário com o sistema, considerando as funcionalidades que o usuário percebe como parte da aplicação.",
+            "A fronteira da aplicação é determinada exclusivamente pelas funcionalidades do sistema, desconsiderando a interação do usuário com a interface.",
+            "A fronteira da aplicação é determinada pelos aspectos técnicos de implementação, como servidores e protocolos de comunicação utilizados.",
+            "A fronteira de cada aplicação deve ser definida com base na quantidade de tabelas e entidades do banco de dados envolvidas no sistema."
+        ],
+        "gabarito": "A fronteira de cada aplicação é definida pela interação do usuário com o sistema, considerando as funcionalidades que o usuário percebe como parte da aplicação.",
+        "banca": "FCPC"
+    },
+    {
+        "id": 8,
+        "enunciado": "A respeito de métricas e estimativas de software e análise por pontos de função, julgue o item que se segue.\nDe acordo com o estabelecido pelo IFPUG (International Function Point Users Group), a fronteira da aplicação é a interface conceitual que delimita o software do mundo externo, baseada exclusivamente na visão de negócio.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 9,
+        "enunciado": "A respeito de métricas e estimativas de software e análise por pontos de função, julgue o item que se segue.\nConforme as orientações de contagem de pontos de função adotadas pelo roteiro de métrica do SISP v.2.3, o uso da fórmula PF_CONSULTA_PRÉVIA = PF_ALTERADO permite dimensionar uma consulta prévia sem atualização, com base no tamanho da funcionalidade.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 10,
+        "enunciado": "Um Tribunal Regional do Trabalho está implementando um novo sistema para gerenciar processos trabalhistas. O sistema será utilizado para registrar e processar informações relacionadas aos casos trabalhistas, com funcionalidades como cadastro de processos, consulta de informações, emissão de relatórios e integração com outros sistemas judiciais.\nPara estimar o esforço de desenvolvimento do sistema, uma Analista de TI recomendou que a equipe utilizasse a técnica de Ponto de Função (contagem bruta),",
+        "alternativas": [
+            "cujo cálculo deve levar em consideração a contagem do número de linhas de código implementadas no sistema, pois isso é diretamente relacionado ao tamanho do sistema.",
+            "porque ela é utilizada apenas para medir a complexidade das funcionalidades técnicas que é o caso do sistema em questão.",
+            "porque, nesse caso, a complexidade seria determinada pela quantidade de componentes gráficos e interfaces de usuário no sistema (requisitos principais), sendo irrelevante a lógica de negócios por trás de cada funcionalidade.",
+            "porque de acordo com os requisitos, o cálculo de Pontos de Função seria realizado levando em conta apenas a quantidade de processos realizados pelo sistema, independentemente do tipo e quantidade de entrada ou saída envolvida.",
+            "porque essa técnica é baseada na análise das funcionalidades do sistema, considerando entradas, saídas, consultas, arquivos e interfaces, independentemente da tecnologia utilizada para implementá-las."
+        ],
+        "gabarito": "porque essa técnica é baseada na análise das funcionalidades do sistema, considerando entradas, saídas, consultas, arquivos e interfaces, independentemente da tecnologia utilizada para implementá-las.",
+        "banca": "FCC"
+    },
+    {
+        "id": 11,
+        "enunciado": "Durante um processo de contagem de pontos de função de uma aplicação, as telas do sistema foram utilizadas como subsídios.\nAs Figuras 1 e 2 apresentam as telas para cadastro de clientes. {image(1)} Figura 1 {image(2)} Figura 2 Com base na Análise de Pontos de Função, o cadastro apresentado nas Figuras 1 e 2 deve ser contado como:",
+        "alternativas": [
+            "uma Entrada Externa e um Arquivo Lógico Interno;",
+            "uma Entrada Externa e dois Arquivos Lógicos Internos;",
+            "duas Entradas Externas e um Arquivo Lógico Interno;",
+            "duas Entradas Externas e dois Arquivos Lógicos Internos;",
+            "uma Entrada Externa e três Arquivos Lógicos Internos."
+        ],
+        "gabarito": "uma Entrada Externa e um Arquivo Lógico Interno;",
+        "banca": "FGV"
+    },
+    {
+        "id": 12,
+        "enunciado": "Como exemplo hipotético, um Agente de Tributos realizou uma contagem de pontos de função que tinha as seguintes características:\n- 5 telas de entrada de dados para inserir informações de localização de processos tributários.\n- 3 relatórios de saída para exibir o status dos processos.\n- 4 consultas para buscar informações de rastreamento por número de processo.\n- 2 arquivos lógicos internos para armazenar dados de localização dos processos.\n- 1 interface com um sistema externo de pesquisa de processos em outros órgãos, mediante busca pelo CPF do envolvido no processo tributário.\nConsiderando que ele utilizou um valor de complexidade 2 para todas as funções, o total de pontos de função não ajustados (PFNA) (brutos) foi de",
+        "alternativas": [
+            "30 PFNA.",
+            "28 PFNA.",
+            "32 PFNA.",
+            "46 PFNA.",
+            "18 PFNA."
+        ],
+        "gabarito": "30 PFNA.",
+        "banca": "FCC"
+    },
+    {
+        "id": 13,
+        "enunciado": "Durante a modelagem de um sistema de fiscalização tributária, a equipe de analistas identificou a seguinte funcionalidade:\nO sistema deve permitir consultar dados de contribuintes a partir do número de inscrição estadual, retornando informações cadastrais, situação fiscal e débitos vinculados.\nA equipe técnica mapeou os seguintes elementos:\nA consulta acessa 3 Arquivos Lógicos Internos (ALI) A consulta também acessa 2 Arquivos de Interface Externa (AIE) A resposta da consulta contém 10 Dados Elementares (DETs – Data Element Types) A funcionalidade foi classificada como do tipo Consulta Externa (CE) segundo o padrão IFPUG. Para calcular sua complexidade, a equipe utilizou a tabela de referência abaixo, na qual FTRs se referem a Files Type Referenced.\nTabela de Complexidade – Consulta Externa (CE) {image(3)} Com base nas informações fornecidas e utilizando as regras de contagem da Análise de Pontos de Função, a quantidade correta de pontos de função (PF) atribuída a essa funcionalidade de consulta é:",
+        "alternativas": [
+            "6 PF, pois o sistema retorna muitos dados ao usuário e qualquer consulta com mais de 2 arquivos é considerada complexa.",
+            "3 PF, pois, com 1 FTR e a operação sendo apenas de leitura, sempre resulta em baixa pontuação de PF para consultas externas.",
+            "3 PF, pois o número de DETs está entre 6 e 19 e a contagem de FTRs é 2, o que classifica a Consulta Externa como de média complexidade.",
+            "4 PF, pois, com 2 FTRs e o número de DETs não ultrapassando 19, a complexidade não pode ser considerada alta.",
+            "6 PF, pois há 5 FTRs e 10 DETs, o que classifica a Consulta Externa como de alta complexidade."
+        ],
+        "gabarito": "6 PF, pois há 5 FTRs e 10 DETs, o que classifica a Consulta Externa como de alta complexidade.",
+        "banca": "FCC"
+    },
+    {
+        "id": 14,
+        "enunciado": "Considere os seguintes dados multiplicativos para cada tipo de função como orientação para a contagem de pontos, onde baixa, média e alta são os níveis de complexidade (IFPUG - International Function Points Users Group):\nEE Baixa x 3 Média x 4 Alta x 6 SE Baixa x 4 Média x 5 Alta x 7 ALI Baixa x 7 Média x 10 Alta x 15 AIE Baixa x 5 Média x 7 Alta x 10 Os dados multiplicativos de consultas são idênticos aos dados de entrada.\nUma equipe de uma Secretaria da Fazenda está desenvolvendo um sistema cujas características iniciais dos requisitos levantados apontam para uma contagem de pontos de função com as seguintes características:\ntrês entradas de complexidade baixa, duas de complexidade média e uma de complexidade alta. uma saída de complexidade baixa, cinco de complexidade média e duas de complexidade alta. duas consultas de complexidade baixa, seis de complexidade média. dois arquivos lógicos de complexidade baixa, três de complexidade média e um de complexidade alta. três interfaces de complexidade baixa e duas de complexidade alta.\nA quantidade bruta e correta de pontos de função apurada após o cálculo é",
+        "alternativas": [
+            "256.",
+            "161.",
+            "190.",
+            "174.",
+            "203."
+        ],
+        "gabarito": "190.",
+        "banca": "FCC"
+    },
+    {
+        "id": 15,
+        "enunciado": "Considere os seguintes dados multiplicativos para cada tipo de função como orientação para a contagem de pontos, onde baixa, média e alta são os níveis de complexidade (IFPUG – International Function Points Users Group):\nEE Baixa x 3 Média x 4 Alta x 6 SE Baixa x 4 Média x 5 Alta x 7 ALI Baixa x 7 Média x 10 Alta x 15 AIE Baixa x 5 Média x 7 Alta x 10 Os dados multiplicativos de consultas são idênticos aos dados de entrada.\nUma líder da equipe de contagem de APF (análise de pontos de função) de uma Secretaria da Fazenda está explicando ao seu time sobre um sistema cujas características iniciais dos requisitos levantados apontam para uma contagem de pontos de função com as seguintes características:\n- uma entrada de complexidade baixa, nove de complexidade média e um de complexidade alta.\n- três saídas de complexidade baixa, cinco de complexidade média e dois de complexidade alta.\n- quatro consultas de complexidade baixa, dez de complexidade média e seis de complexidade alta.\n- sete arquivos lógicos de complexidade baixa, oito de complexidade média e cinco de complexidade alta.\n- duas interfaces de complexidade baixa, uma de complexidade média e três de complexidade alta.\nA quantidade bruta e correta de pontos de função apurada após o cálculo é",
+        "alternativas": [
+            "501.",
+            "435.",
+            "336.",
+            "429.",
+            "290."
+        ],
+        "gabarito": "435.",
+        "banca": "FCC"
+    },
+    {
+        "id": 16,
+        "enunciado": "A respeito da gestão de projetos e produtos de software, julgue o item que se segue.\n× × Σ Σ No cálculo de pontos de função (FP) por meio da equação FP = count_total [0,65 + 0,01 (Fi)], em que count_total corresponde à contagem bruta dos pontos de função, o somatório dos Fi, (Fi), reflete a subjetividade inerente à avaliação da complexidade do projeto.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 17,
+        "enunciado": "De acordo com o IFPUG (International Function Point Users Group), assinale a opção que apresenta a sequência em que ocorrem as etapas do método de medição de tamanho funcional (FSM).",
+        "alternativas": [
+            "determinar escopo, obter documentação disponível, medir funções, calcular tamanho funcional e documentar.",
+            "obter documentação disponível, determinar escopo, medir funções, calcular tamanho funcional e documentar.",
+            "calcular tamanho funcional, obter documentação disponível, determinar escopo, medir funções e documentar.",
+            "medir funções, calcular tamanho funcional, obter documentação disponível, determinar escopo e documentar.",
+            "determinar escopo, medir funções, calcular tamanho funcional, obter documentação disponível e documentar."
+        ],
+        "gabarito": "obter documentação disponível, determinar escopo, medir funções, calcular tamanho funcional e documentar.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 18,
+        "enunciado": "Assinale, a seguir, o principal objetivo da técnica de Análise por Pontos de Função (APF), conforme definida pelas organizações IFPUG (International Function Point Users Group) e NESMA (Non-functional End System Measures Association).",
+        "alternativas": [
+            "Avaliar a complexidade da arquitetura de software.",
+            "Medir o tamanho do código-fonte em linhas de código.",
+            "Validar a conformidade do código com os padrões de codificação.",
+            "Estimar o tamanho e o custo de desenvolvimento de um projeto de software."
+        ],
+        "gabarito": "Estimar o tamanho e o custo de desenvolvimento de um projeto de software.",
+        "banca": "Instituto Consulplan"
+    },
+    {
+        "id": 19,
+        "enunciado": "De acordo com o Manual de Práticas de Contagem do IFPUG, a contagem das funções de dados e das funções transacionais deve ser realizada imediatamente após a",
+        "alternativas": [
+            "determinação do escopo da contagem.",
+            "identificação do tipo da contagem.",
+            "identificação do propósito da contagem.",
+            "determinação da fronteira da aplicação.",
+            "identificação dos requisitos funcionais."
+        ],
+        "gabarito": "determinação da fronteira da aplicação.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 20,
+        "enunciado": "Ao planejar um projeto de desenvolvimento de software, várias técnicas de estimativas de esforço estão disponíveis ao gestor, como, por exemplo, a estimativa baseada em pontos de função. Consciente da importância de uma boa estimativa do tamanho do projeto, um gerente de projeto fez uma estimativa do tamanho de software em pontos de função não ajustados, obtendo o valor de 470. Ao somar todos os valores relativos aos fatores ajuste, devido à complexidade do projeto, ele encontrou o valor 45.\nConsiderando-se esses dois valores, o número total de pontos de função estimado é",
+        "alternativas": [
+            "564.",
+            "517.",
+            "470.",
+            "423.",
+            "376."
+        ],
+        "gabarito": "517.",
+        "banca": "CESGRANRIO"
+    },
+    {
+        "id": 21,
+        "enunciado": "Julgue o item a seguir, com relação à mensuração de sistemas em pontos de função, segundo o Manual de Práticas de Contagem.\nNa análise de pontos de função, uma consulta implícita de dados ocorre quando a aplicação apresenta dados ao usuário antes de realizar uma transação, sem que o usuário precise solicitar explicitamente os dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 22,
+        "enunciado": "Cláudia precisa estimar o custo do novo software para o setor de logística, e utilizou a metodologia de pontos de função para o cálculo dos recursos financeiros necessários. No entanto, ela observou que muitos custos não eram expressos apenas com a análise das funcionalidades do sistema.\nPara lidar com esses custos ocultos, Cláudia precisará fazer uma análise adicional, com base na metodologia:",
+        "alternativas": [
+            "SNAP;",
+            "WSDL;",
+            "UDDI;",
+            "REST;",
+            "CI/CD."
+        ],
+        "gabarito": "SNAP;",
+        "banca": "FGV"
+    },
+    {
+        "id": 23,
+        "enunciado": "A respeito da mensuração de sistemas em pontos de função segundo o Manual de Práticas de Contagem do IFPUG, julgue o item subsequente.\nUma das condições para que uma função transacional seja classificada como saída externa é que ela processe dados ou informações de controle originadas fora da fronteira da aplicação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 24,
+        "enunciado": "A respeito da mensuração de sistemas em pontos de função segundo o Manual de Práticas de Contagem do IFPUG, julgue o item subsequente.\nNa medição de um software em que sejam encontradas atividades de manutenção adaptativa, corretiva e perfectiva, o cálculo do esforço do trabalho deve considerar apenas os dados das duas primeiras categorias de manutenção.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 25,
+        "enunciado": "Em relação às funções de dados e às funções de transação na análise por pontos de função, assinale a afirmativa correta.",
+        "alternativas": [
+            "As funções de dados são as únicas consideradas na análise por pontos de função, pois representam o único aspecto relevante do tamanho do software.",
+            "As funções de transação são menos importantes que as funções de dados, pois apenas manipulam os dados sem contribuir para o tamanho funcional do software.",
+            "Tanto as funções de dados quanto as funções de transação são essenciais e complementares na análise por pontos de função, contribuindo juntas para uma estimativa precisa do esforço de desenvolvimento.",
+            "A análise por pontos de função desconsidera as funções de transação, focando exclusivamente na complexidade dos algoritmos internos do software.",
+            "As funções de transação substituem a necessidade de análise das funções de dados, pois oferecem uma visão mais integrada do funcionamento do software."
+        ],
+        "gabarito": "Tanto as funções de dados quanto as funções de transação são essenciais e complementares na análise por pontos de função, contribuindo juntas para uma estimativa precisa do esforço de desenvolvimento.",
+        "banca": "FGV"
+    },
+    {
+        "id": 26,
+        "enunciado": "Uma empresa de tecnologia está planejando utilizar a análise por pontos de função para estimar o esforço e os custos envolvidos. Sobre a implementação dessa técnica de estimativa, assinale a afirmativa correta.",
+        "alternativas": [
+            "A contagem de pontos de função IFPUG é mais adequada para projetos de manutenção, pois considera apenas os ajustes diretos em funcionalidades existentes.",
+            "A Nesma oferece uma abordagem alternativa que não diferencia projetos de desenvolvimento e de manutenção, tratando todos os esforços de software igualmente.",
+            "A análise por pontos de função, independente da metodologia escolhida, não pode ser aplicada em projetos que utilizam metodologias ágeis devido à sua rigidez estrutural.",
+            "A metodologia IFPUG para contagem de pontos de função em projetos de manutenção considera três tipos de funções: consultas internas, consultas externas e arquivos de interface interna.",
+            "O uso de deflatores é uma prática recomendada pela Nesma para aumentar a precisão da contagem de pontos de função em projetos de desenvolvimento, ajustando o tamanho funcional do software em função da complexidade técnica."
+        ],
+        "gabarito": "A Nesma oferece uma abordagem alternativa que não diferencia projetos de desenvolvimento e de manutenção, tratando todos os esforços de software igualmente.",
+        "banca": "FGV"
+    },
+    {
+        "id": 27,
+        "enunciado": "A aplicação MeuCONTROLE possui uma funcionalidade para que os convidados para uma palestra possam indicar ao organizador do evento se poderão ou não comparecer. Para isso, o convidado informa seu telefone e MeuCONTROLE apresenta o nome do convidado. O convidado seleciona a opção de confirmação ou não da presença. Caso opte pela confirmação da presença, o convidado tem a opção de levar um acompanhante, que deve ser identificado pelo nome completo. MeuCONTROLE gera uma listagem com os nomes dos convidados e seus respectivos acompanhantes para facilitar o controle pelos recepcionistas no dia do evento.\nCom base na Análise de Pontos de Função (APF), MeuCONTROLE possui:",
+        "alternativas": [
+            "uma função de transação e uma função de dados;",
+            "duas funções de transação e uma função de dados;",
+            "duas funções de transação e duas funções de dados;",
+            "uma função de transação e duas funções de dados;",
+            "três funções de transação e uma função de dados."
+        ],
+        "gabarito": "três funções de transação e uma função de dados.",
+        "banca": "FGV"
+    },
+    {
+        "id": 28,
+        "enunciado": "O sistema MinhaRECLAMACAO é utilizado por uma organização para controlar os processos de reclamações sobre os serviços prestados. Para abrir uma nova reclamação, o usuário informa seu CPF e o MinhaRECLAMACAO verifica se o formato do CPF é ou não válido antes de prosseguir.\nCom base na APF (Análise de Pontos de Função) e no SNAP (Software Non Functional Assessment Process), a validação do CPF realizada pelo MinhaRECLAMACAO deve ser contada como um requisito:",
+        "alternativas": [
+            "funcional na forma de Consulta Externa (CE);",
+            "não funcional da categoria operação de dados;",
+            "funcional na forma de Entrada Externa (EE);",
+            "não funcional da categoria projeto de interface;",
+            "funcional na forma de Saída Externa (SE)."
+        ],
+        "gabarito": "não funcional da categoria operação de dados;",
+        "banca": "FGV"
+    },
+    {
+        "id": 29,
+        "enunciado": "O sistema Web SouDIGITAL está sendo medido por meio da Análise de Pontos de Função (APF). O SouDIGITAL possui funcionalidades de cadastro que armazenam dados em quatro Arquivos Lógicos Internos (ALI) distintos. O sistema possibilita que todos os dados cadastrados sejam apresentados ao usuário, diretamente na sua interface, a título de conferência, a partir da seleção de um conjunto de critérios de busca informados pelos usuários autorizados.\nCom base na APF, a funcionalidade que apresenta todos os dados cadastrados para conferência deve ser contada como:",
+        "alternativas": [
+            "duas Consultas Externas (CE) e duas Saídas Externas (SE);",
+            "quatro Consultas Externas (CE);",
+            "quatro Saídas Externas (SE);",
+            "uma Consulta Externa (CE);",
+            "uma Saída Externa (SE)."
+        ],
+        "gabarito": "uma Consulta Externa (CE);",
+        "banca": "FGV"
+    },
+    {
+        "id": 30,
+        "enunciado": "Leia o texto a seguir.\nA Análise de Pontos de Função (APF) é uma técnica de medição de software que quantifica o tamanho funcional de um sistema de software com base nos requisitos funcionais do sistema. Foi desenvolvida inicialmente por Allan Albrecht, na IBM, no final da década de 1970, e, desde então, tornou-se uma técnica amplamente utilizada para estimar o tamanho e a complexidade de sistemas de software.\nDisponível em: https://www.ifpug.org/. Acesso em: 20 fev. 2024.\nNa APF, a fórmula para calcular a contagem final de Pontos de Função (FP) de um software é:",
+        "alternativas": [
+            "FP = 4 * (AIS + TF) + (CxA * CF).",
+            "FP = 4 * (AIS + TF) + (CxA * CI).",
+            "FP = 3 * (AIS + TF) + (CxA * CF).",
+            "FP = 3 * (AIS + TF) + (CxA * CF)."
+        ],
+        "gabarito": "FP = 4 * (AIS + TF) + (CxA * CI).",
+        "banca": "Instituto Verbena"
+    },
+    {
+        "id": 31,
+        "enunciado": "A Análise de Pontos de Função (APF) é amplamente utilizada para estimar o esforço de desenvolvimento, avaliar a produtividade e fornecer uma base objetiva para a negociação de contratos de desenvolvimento de software. Qual é a principal métrica medida na análise de ponto de função?",
+        "alternativas": [
+            "Linhas de código fonte.",
+            "Complexidade Ciclomática.",
+            "Tamanho Funcional.",
+            "Tamanho do Código Binário."
+        ],
+        "gabarito": "Tamanho Funcional.",
+        "banca": "Instituto Verbena"
+    },
+    {
+        "id": 32,
+        "enunciado": "A técnica de Análise de Pontos de Função (Function Point Analysis, FPA), da International Function Point Users Group (IFPUG), é um método tradicional empregado para medir sistemas pela quantificação da funcionalidade solicitada e fornecida.\nConsiderando a técnica FPA, assinale a afirmativa correta.",
+        "alternativas": [
+            "A técnica FPA busca medir como o software foi construído.",
+            "A unidade “ponto de função” serve para medição das funcionalidades de um software (o que o software faz) sob o ponto de vista do usuário.",
+            "A técnica é baseada na avaliação de implementações de código do ponto de vista da gestão.",
+            "Abrange exclusivamente a funcionalidade genérica requerida pelo usuário."
+        ],
+        "gabarito": "A unidade “ponto de função” serve para medição das funcionalidades de um software (o que o software faz) sob o ponto de vista do usuário.",
+        "banca": "FGV"
+    },
+    {
+        "id": 33,
+        "enunciado": "Na engenharia de software, a análise de pontos por função tem como base a contagem de alguns parâmetros, sendo correto que um desses parâmetros é representado pelo número de",
+        "alternativas": [
+            "entradas externas ao software.",
+            "comandos de acesso à memória.",
+            "comandos de acesso a matrizes.",
+            "linhas de código de cada módulo.",
+            "endereços de memória acessados pelo software."
+        ],
+        "gabarito": "entradas externas ao software.",
+        "banca": "VUNESP"
+    },
+    {
+        "id": 34,
+        "enunciado": "A respeito da metodologia XP, do RUP, do Scrum, do PMBOK e da análise de pontos de função, julgue o item.\nUm dos objetivos da análise de pontos de função é prover uma forma de estimar o tamanho do software.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "QUADRIX"
+    },
+    {
+        "id": 35,
+        "enunciado": "Acerca de engenharia de software, julgue o item seguinte.\nA análise de pontos de função analisa o software quantificando as tarefas e os serviços que ele fornece ao usuário, primordialmente com base no projeto lógico.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 36,
+        "enunciado": "Qual dos seguintes métodos é mais apropriado para medir a funcionalidade de um software, considerando fatores como número de entradas, saídas, consultas e arquivos lógicos?",
+        "alternativas": [
+            "Análise de Pontos de Função (APF).",
+            "Análise de Impacto de Mudanças (AIM).",
+            "Análise de Ponto de Caso de Uso (APCU).",
+            "Processo de Avaliação Não Funcional de Software (SNAP)."
+        ],
+        "gabarito": "Análise de Pontos de Função (APF).",
+        "banca": "Instituto Consulplan"
+    },
+    {
+        "id": 37,
+        "enunciado": "Julgue o item subsequente, relativo a modelagem de dados e a análise de pontos de função.\nConsiderando que a tabela seguinte descreve a quantidade de funções de dados e de transações e respectivas complexidades de um sistema, é correto afirmar que, nesse caso, o sistema possui exatamente 22 pontos de função sem fator de ajuste.\nfunção complexidade quantidade arquivo de interface externa (AIE) média\n1 entrada externa (EE) média\n2 saída externa (SE) baixa\n1 consulta externa (CE) baixa\n1",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 38,
+        "enunciado": "função quantidade complexidade ALI (arquivo lógico interno)\n2 alta AIE (arquivo de interface externa)\n3 baixa EE (entrada externa)\n3 baixa SE (saída externa)\n3 média CE (consulta externa)\n2 alta Tendo como base a tabela precedente, que apresenta as quantidades de funções e os respectivos níveis de complexidade para uma aplicação, e utilizando a contagem detalhada de pontos de função com base na IFPUG, assinale a opção que corresponde à quantidade de pontos de função brutos dessa aplicação.",
+        "alternativas": [
+            "69.",
+            "71.",
+            "75.",
+            "77.",
+            "81."
+        ],
+        "gabarito": "81.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 39,
+        "enunciado": "função quantidade ALI (arquivo lógico interno)\n2 AIE (arquivo de interface externa)\n2 EE (entrada externa)\n2 SE (saída externa)\n5 CE (consulta externa)\n4 Com base na tabela precedente, que apresenta as quantidades de funções para uma aplicação, utilizando-se a contagem estimativa de pontos de função por meio da técnica NESMA, é correto afirmar essa aplicação tem uma quantidade de pontos de função brutos igual a",
+        "alternativas": [
+            "62.",
+            "73.",
+            "83.",
+            "99.",
+            "105."
+        ],
+        "gabarito": "73.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 40,
+        "enunciado": "Você, como Analista de Sistemas do TCE-PA, provavelmente fará uso da Análise de Pontos de Função (APF) caso deseje medir o esforço para desenvolver ou proporcionar uma base objetiva para a contratação de desenvolvimento de software.\nNesse contexto, assinale a opção que não corresponde a uma característica de pontos de função.",
+        "alternativas": [
+            "Medem o tamanho do software com base na funcionalidade solicitada e fornecida ao usuário final.",
+            "Têm como principal métrica a Complexidade Ciclomática das funcionalidades.",
+            "São uma medida de tamanho lógico, em oposição a uma medida de tamanho físico, como linhas de código ou objetos.",
+            "São compostos por entradas, saídas, consultas, dados internos e dados de interface externa.",
+            "São derivados de requisitos e são aplicáveis para medição durante todo o ciclo de vida de desenvolvimento."
+        ],
+        "gabarito": "Têm como principal métrica a Complexidade Ciclomática das funcionalidades.",
+        "banca": "FGV"
+    },
+    {
+        "id": 41,
+        "enunciado": "No contexto da Análise de Pontos de Função, relacione os tipos de funções de dados ou de transação com suas respectivas definições.\n1. Arquivo Lógico Interno (ALI)\n2. Arquivo de Interface Externa (AIE)\n3. Entrada Externa (EE)\n4. Consulta Externa (CE)\n( ) Tem como função primária armazenar dados mantidos através de um ou mais processos elementares do sistema que está sendo contado.\n( ) Conjunto de dados relacionados ou informação de controle, referenciado pelo software sendo medido, mas que é mantido dentro da fronteira de outra aplicação.\n( ) Processo elementar que envia dados ou informações de controle para fora da fronteira do sistema.\n( ) Processa dados ou informações de controle oriundos de fora do software. Pode alterar o comportamento da aplicação.\nA relação correta, na ordem apresentada, é:",
+        "alternativas": [
+            "4 – 1 – 2 – 3.",
+            "3 – 2 – 4 – 1.",
+            "2 – 1 – 3 – 4.",
+            "1 – 2 – 4 – 3.",
+            "1 – 4 – 3 – 2."
+        ],
+        "gabarito": "1 – 2 – 4 – 3.",
+        "banca": "FGV"
+    },
+    {
+        "id": 42,
+        "enunciado": "Dentre as funcionalidades da aplicação Web MeACOMPANHA, os usuários podem, opcionalmente, registrar três telefones, dois endereços físicos e dois endereços de e-mail como informações de contato. Para os usuários que já utilizaram a aplicação, o sistema apresenta as informações de contato cadastradas viabilizando a opção de alterá-las ou excluí-las. O MeACOMPANHA emite mensagens para o usuário (de erro, de aviso, de alerta e de confirmação) de acordo com suas ações.\nCom base na Análise de Pontos de Função (APF), as funcionalidades supracitadas da aplicação MeACOMPANHA representam:",
+        "alternativas": [
+            "quatro Processos Elementares (PE) e um Arquivo Lógico (ALR);",
+            "cinco Processos Elementares (PE) e um Arquivo Lógico (ALR);",
+            "doze Processos Elementares (PE) e um Arquivo Lógico (ALR);",
+            "treze Processos Elementares (PE) e três Arquivos Lógicos (ALR);",
+            "dezesseis Processos Elementares (PE) e quatro Arquivos Lógicos (ALR)."
+        ],
+        "gabarito": "quatro Processos Elementares (PE) e um Arquivo Lógico (ALR);",
+        "banca": "FGV"
+    },
+    {
+        "id": 43,
+        "enunciado": "VENCE_ONE é a organização que venceu a licitação, instaurada por um Tribunal Regional Federal, para desenvolvimento de uma solução de software na forma de aplicativo para dispositivos móveis. A VENCE_ONE deve entregar duas versões do aplicativo, com as mesmas funcionalidades, para os dois tipos de sistemas operacionais\n(SO) para dispositivos móveis indicados pelo Tribunal. Após a versão do aplicativo para um dos SOs a serem entregues, a VENCE_ONE fez as adequações necessárias para gerar o aplicativo na versão do outro SO.\nConsiderando a Análise de Pontos de Função (APF) e o Software Non Functional Assessment Process (SNAP), as ações de adaptação do aplicativo de um SO para outro devem ser classificadas para contagem/avaliação como:",
+        "alternativas": [
+            "Aplicação utilizando APF;",
+            "Projeto de Melhoria utilizando APF;",
+            "Múltiplas Plataformas utilizando SNAP;",
+            "Projeto de Manutenção utilizando APF e SNAP;",
+            "Aplicação após o projeto de melhoria utilizando SNAP."
+        ],
+        "gabarito": "Múltiplas Plataformas utilizando SNAP;",
+        "banca": "FGV"
+    },
+    {
+        "id": 44,
+        "enunciado": "Uma equipe de desenvolvimento está trabalhando em um sistema de gestão de pedidos, no qual é necessário implementar uma transação que gera um relatório detalhado de vendas. Esse relatório contém informações sobre as vendas do dia, agrupadas por categoria de produto, cliente e vendedor. O usuário pode selecionar a data específica como entrada para gerar o relatório. O relatório gerado não permite navegação ou consulta adicional e é produzido para ser impresso. Dada a descrição da transação, qual tipo de ponto de função deve ser contado?",
+        "alternativas": [
+            "Consulta Externa.",
+            "Entrada Externa.",
+            "Impressão Externa.",
+            "Relatório Externo.",
+            "Saída Externa."
+        ],
+        "gabarito": "Saída Externa.",
+        "banca": "CESGRANRIO"
+    },
+    {
+        "id": 45,
+        "enunciado": "Análise por pontos de função (APF) é uma técnica usada para medir o tamanho e a complexidade de um software com base nas funções que ele fornece ao usuário.\nEla é especialmente útil para estimar o esforço necessário para o desenvolvimento e a manutenção de um sistema. No desenvolvimento de software a análise por pontos de função",
+        "alternativas": [
+            "é usada para estimar o tempo de execução do software em diferentes ambientes de hardware.",
+            "mede a complexidade do software com base no número de linhas de código escritas durante o desenvolvimento.",
+            "avalia a funcionalidade do software a partir do ponto de vista do usuário e é usada para estimar o esforço e os custos de desenvolvimento.",
+            "é aplicada para medir a eficiência do algoritmo de busca usado no software.",
+            "foca exclusivamente na validação e verificação de testes unitários durante o desenvolvimento do software."
+        ],
+        "gabarito": "avalia a funcionalidade do software a partir do ponto de vista do usuário e é usada para estimar o esforço e os custos de desenvolvimento.",
+        "banca": "FGV"
+    },
+    {
+        "id": 46,
+        "enunciado": "A Análise de Pontos de Função (APF) é uma técnica de medição funcional utilizada para estimar o esforço de desenvolvimento de software.\nConsiderando a aplicação do APF, qual das alternativas abaixo representa corretamente um fator que é levado em consideração durante a contagem de pontos de função?",
+        "alternativas": [
+            "A arquitetura interna do software, incluindo detalhes de configuração e infraestrutura.",
+            "A complexidade técnica da implementação das funcionalidades.",
+            "O número de linhas de código do sistema.",
+            "A quantidade de funcionalidades baseadas nos requisitos do usuário, sem considerar a tecnologia utilizada.",
+            "O tempo estimado para desenvolvimento das funcionalidades."
+        ],
+        "gabarito": "A quantidade de funcionalidades baseadas nos requisitos do usuário, sem considerar a tecnologia utilizada.",
+        "banca": "INSTITUTO ACESSO"
+    },
+    {
+        "id": 47,
+        "enunciado": "Acerca de análise de pontos de função, julgue o próximo item.\nConforme o conceito do IFPUG (International Function Point Users Group), o estado consistente corresponde ao ponto em que o processamento já foi completamente concluído, o requisito funcional do usuário foi satisfeito, e todas as operações associadas foram finalizadas, sem mais ações pendentes.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 48,
+        "enunciado": "No método de Análise de Pontos de Função recomendado pelo International Function Point Users Group = IFPUG foi utilizada, originalmente, uma fórmula de ajuste\n(atualmente criticada, mas ainda utilizada em algumas organizações) que tanto pode reduzir quanto aumentar a pontuação bruta calculada. Essa fórmula é chamada de Fator de Ajuste e usa 0 NI (Nível de Influência). A fórmula correta do Fator de Ajuste é",
+        "alternativas": [
+            "(NI* 0,01) + 0,35 que reduz ou aumenta a pontuação bruta em 65%.",
+            "(NI* 0,35)+ 0,01 que reduz ou aumenta a pontuação bruta em 35%.",
+            "(NI* 0,35) + 0,01 que reduz ou aumenta a pontuação bruta em 65%.",
+            "(NI* 0,01) + 0,65 que reduz ou aumenta a pontuação bruta em 35%.",
+            "(NI* 0,1) + 65 que reduz ou aumenta a pontuação bruta em 35%."
+        ],
+        "gabarito": "(NI* 0,01) + 0,65 que reduz ou aumenta a pontuação bruta em 35%.",
+        "banca": "FCC"
+    },
+    {
+        "id": 49,
+        "enunciado": "Uma secretaria de um órgão público foi encarregada da desenvolver um sistema de controle da documentos administrativos com as seguintes funcionalidades:\n- Cadastro de documentos (4 ALls, 3 EEs) - Registro de movimentação de documentos (3 ALIs, 2 EEs) - Consulta de documentos (3 ALls, 1 CE) - Geração de relatórios de movimentação (2 ALis, 1 SE) - Ajuste de status de documentos (2 ALIs, 1 EE) Com base nas informações fornecidas, o total de Pontos de Função (PF) brutos do sistema, considerando as complexidades médias da metodologia IFPUG, é",
+        "alternativas": [
+            "212 PF.",
+            "95 PF.",
+            "142 PF.",
+            "125 PF.",
+            "173 PF."
+        ],
+        "gabarito": "173 PF.",
+        "banca": "FCC"
+    },
+    {
+        "id": 50,
+        "enunciado": "Uma das métricas empregadas para a medição de produtos de software é a Análise por Pontos de Função (APF). Nesse tipo de métrica, há os chamados Fatores de Ajuste, em número de 14. Sobre tais fatores, é correto afirmar que um deles visa verificar se",
+        "alternativas": [
+            "os dados do processo em questão são criptografados.",
+            "o processo de software tem nível de maturidade adequado.",
+            "há integrantes da equipe de software externos à organização.",
+            "existem funções para processamento distribuído.",
+            "o sistema deve funcionar no esquema 24 x 7."
+        ],
+        "gabarito": "existem funções para processamento distribuído.",
+        "banca": "VUNESP"
+    },
+    {
+        "id": 51,
+        "enunciado": "João precisa fazer uma contagem de pontos de função para um novo projeto de desenvolvimento utilizando a Análise de Pontos de Função (APF) Estimada (APF de Alto Nível).\nPara isso, João deve considerar a complexidade funcional de todos(as) os(as):",
+        "alternativas": [
+            "fronteiras da aplicação a serem desenvolvidas como média;",
+            "processos elementares das funções de transação como baixa;",
+            "funções de dados como média para cálculo de pontos de função;",
+            "funções de transação como baixa para cálculo de pontos de função;",
+            "grupos de dados logicamente relacionados, reconhecidos pelo usuário, que serão mantidos dentro da fronteira da aplicação ou referenciados pela aplicação como baixa."
+        ],
+        "gabarito": "grupos de dados logicamente relacionados, reconhecidos pelo usuário, que serão mantidos dentro da fronteira da aplicação ou referenciados pela aplicação como baixa.",
+        "banca": "FGV"
+    },
+    {
+        "id": 52,
+        "enunciado": "O SisPersonaExtra é um sistema que mantém dados pessoais dos não sócios e de suas visitas a um clube para utilização de facilidades esportivas. A imagem abaixo apresenta uma listagem {image(4)} Mary é uma das administradoras do clube e solicitou à equipe de desenvolvimento do sistema uma melhoria para que seja exibida a quantidade de vezes que o não sócio visitou o clube no mês corrente, ao lado da Data de Nascimento.\nPara calcular a quantidade de pontos de função da melhoria solicitada por Mary, a equipe de desenvolvimento do sistema deve contar a:",
+        "alternativas": [
+            "Entrada Externa incluída e a Saída Externa alterada;",
+            "Consulta Externa alterada e a Entrada Externa incluída;",
+            "Entrada Externa incluída e a Saída Externa incluída;",
+            "Consulta Externa excluída e a Entrada Externa incluída;",
+            "Consulta Externa excluída e a Saída Externa incluída."
+        ],
+        "gabarito": "Consulta Externa excluída e a Saída Externa incluída.",
+        "banca": "FGV"
+    },
+    {
+        "id": 53,
+        "enunciado": "O SiCONTA será um sistema de apoio à contabilidade tributária. No SiCONTA, há funcionalidades para incluir, alterar, excluir e consultar tributos. Para cada tributo é possível incluir, alterar, excluir e consultar alíquotas, ou seja, a alíquota só pode existir se estiver associada a um tributo.\nCom base na Análise de Pontos de Função, a contagem do projeto de desenvolvimento do SiCONTA deverá considerar:",
+        "alternativas": [
+            "três Entradas Externas (EE) e uma Consulta Externa (CE);",
+            "seis Entradas Externas (EE) e duas Consultas Externas (CE);",
+            "três Entradas Externas (EE) e duas Consultas Externas (CE);",
+            "seis Entradas Externas (EE) e dois Arquivos Lógicos Internos (ALI);",
+            "três Entradas Externas (EE) e dois Arquivos Lógicos Internos (ALI)."
+        ],
+        "gabarito": "três Entradas Externas (EE) e uma Consulta Externa (CE);",
+        "banca": "FGV"
+    },
+    {
+        "id": 54,
+        "enunciado": "Assinale a opção que indica a métrica utilizada para mensurar o esforço de um software na ótica do usuário, a partir das funcionalidades implementadas, preconizada pelo IPFUG no Manual de Práticas de Contagem, do método FSM (Functional Size Measurement).",
+        "alternativas": [
+            "arquivo lógico interno (ALI).",
+            "arquivo de interface externa (AIE).",
+            "entrada externa.",
+            "saída externa.",
+            "ponto de função."
+        ],
+        "gabarito": "ponto de função.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 55,
+        "enunciado": "Sobre a contagem de pontos de função, é correto afirmar que:",
+        "alternativas": [
+            "Uma das atividades executadas para medir as funções de dados é classificar cada função como um ALI (Arquivo Lógico Interno) ou AIE (Arquivo de Interface Externa).",
+            "Não pode ser utilizada em aplicações Web.",
+            "Uma SE (Saída Externa) é um componente funcional básico que processa dados ou informações de controle enviados de fora da fronteira da aplicação medida.",
+            "Leva em consideração a linguagem de programação que será utilizada no desenvolvimento da aplicação.",
+            "O tamanho funcional de cada função de transação do tipo Entrada Externa (EE), Saída Externa (SE) ou Consulta Externa (CE) é sempre o mesmo, independentemente da complexidade funcional."
+        ],
+        "gabarito": "Uma das atividades executadas para medir as funções de dados é classificar cada função como um ALI (Arquivo Lógico Interno) ou AIE (Arquivo de Interface Externa).",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 56,
+        "enunciado": "Na primeira etapa da contagem de pontos de função com IFPUG, o responsável pela medição deve estabelecer o tipo de contagem que será utilizado para medir o software. O tipo de contagem que mede a funcionalidade fornecida aos usuários do software no momento da sua primeira instalação, acrescido das eventuais funções de conversão de dados necessárias à implantação denomina-se:",
+        "alternativas": [
+            "Aplicação.",
+            "Entrada externa.",
+            "Projeto de melhoria.",
+            "Projeto de desenvolvimento."
+        ],
+        "gabarito": "Projeto de desenvolvimento.",
+        "banca": "Instituto Consulplan"
+    },
+    {
+        "id": 57,
+        "enunciado": "Um Engenheiro de Sistemas foi contratado para elaborar a contagem de pontos de função para um novo projeto de desenvolvimento de software utilizando a Análise de Pontos de Função (APF), conforme as condições de complexidade seguindo as regras de contagem funcional para o processo de desenvolvimento e manutenção de software. As condições dadas são:\nTipo Complexidade Quantidade ALI média\n4 AIE média 6 SE média\n2 SE alta\n2 CE alta\n1 CE baixa\n2 EE baixa\n3 EE alta\n1 O valor correto de Pontos de Função Bruto (PFB) sem fator de ajuste é:",
+        "alternativas": [
+            "132.",
+            "133.",
+            "134.",
+            "135."
+        ],
+        "gabarito": "133.",
+        "banca": "Instituto Consulplan"
+    },
+    {
+        "id": 58,
+        "enunciado": "A engenharia de requisitos é uma etapa crítica no desenvolvimento de software, pois ajuda a garantir que o produto final atenda às necessidades do cliente e aos objetivos do projeto. Acerca da engenharia de requisitos, julgue o item subsequente.\nA análise de ponto de função tem como base as funcionalidades que um sistema deve realizar, enquanto a story points é baseada em uma estimativa relativa, que compara a complexidade e o esforço de uma tarefa com outras já realizadas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 59,
+        "enunciado": "A métrica de pontos por função utilizada para mensuração de projetos de software faz uso de 14 fatores de ajuste baseados em respostas a perguntas, sendo, especificamente, que uma dessas perguntas é a seguinte:",
+        "alternativas": [
+            "A equipe de desenvolvimento foi composta por mais de 5 pessoas?.",
+            "O sistema tem interface com o usuário compatível com normas da área?.",
+            "O código é projetado para ser reutilizado?.",
+            "O código contém grande quantidade de comentários?.",
+            "Qual foi o tempo total de desenvolvimento do sistema?."
+        ],
+        "gabarito": "O código é projetado para ser reutilizado?.",
+        "banca": "VUNESP"
+    },
+    {
+        "id": 60,
+        "enunciado": "Assinale a opção que apresenta a fórmula de projeto de desenvolvimento do CPM 4.3 para mudança de plataforma, utilizada para calcular pontos de função e estimar o esforço necessário para se desenvolver uma nova versão de um sistema legado, empregando-se, para tanto, uma nova linguagem de programação.",
+        "alternativas": [
+            "PF_DESENVOLVIMENTO = PF_INCLUIDO + PF_CONVERSÃO.",
+            "PF_CORRETIVA = FI * PF_ALTERADO.",
+            "PF_REDESENVOLVIMENTO_LINGUAGEM = PF_INCLUÍDO + PF_CONVERSÃO.",
+            "PF_CONVERSÃO = PF_INCLUIDO.",
+            "PF_MELHORIA = PF_INCLUIDO + (FI x PF_ALTERADO) + (0,30 x PF_EXCLUIDO) + PF_CONVERSÃO."
+        ],
+        "gabarito": "PF_REDESENVOLVIMENTO_LINGUAGEM = PF_INCLUÍDO + PF_CONVERSÃO.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 61,
+        "enunciado": "Julgue o item a seguir, a respeito de metodologias ágeis, métricas e qualidade de software.\nDe acordo com a análise de pontos de função, para uma aplicação nova cujas funções e respectivas complexidades tenham sido contabilizadas conforme a tabela a seguir, a quantidade de pontos de função brutos é maior que 95.\nfunção complexidade quantidade arquivos lógicos internos baixa\n3 arquivos lógicos internos alta\n1 arquivos de interface externos média\n2 entradas externas alta\n2 saídas externas baixa\n1 saídas externas alta\n3 consultas externas média\n2",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 62,
+        "enunciado": "A Netherlands Software Metrics Association - Associação de Métricas de Software da Holanda (NESMA) define métodos de Medição de Tamanho Funcional (FSM) autossuficientes. Nesse sentido, assinale a alternativa que se refere ao método que é utilizado da seguinte forma:\nI. Determina-se a quantidade de funções de dados (ALIs e AIEs).\nII. Calcula-se o total de pontos de função da seguinte forma: Tamanho Funcional (PF) = (35 x número de ALlIs) + (15 x número de AIEs).\nIII. O tamanho funcional é baseado somente na quantidade de arquivos lógicos existentes (ALIs e AIEs).",
+        "alternativas": [
+            "Análise de Pontos de Função de Alto Nível.",
+            "Análise de Pontos de Função Resultante.",
+            "Análise de Pontos de Função de Baixo Nível.",
+            "Análise de Pontos de Função Indicativa.",
+            "Análise de Pontos de Função Detalhada."
+        ],
+        "gabarito": "Análise de Pontos de Função Indicativa.",
+        "banca": "Legalle"
+    },
+    {
+        "id": 63,
+        "enunciado": "De acordo com o Roteiro de Métricas de Software do SISP, descreve-se a necessidade de realizar o mapeamento dos requisitos de dados e de funções transacionais, para os tipos funcionais da Análise de Pontos de Função. Dessa forma, assinale a alternativa que se refere ao tipo funcional que representa um grupo de dados, logicamente relacionados, reconhecido pelo usuário, e mantido por meio de um processo elementar da aplicação que está sendo contada.",
+        "alternativas": [
+            "Entrada Externa (EE),.",
+            "Arquivo Lógico Interno (ALI).",
+            "Saída Externa (SE).",
+            "Arquivo Lógico Externo (ALE).",
+            "Consulta Externa (CE)."
+        ],
+        "gabarito": "Arquivo Lógico Interno (ALI).",
+        "banca": "Legalle"
+    },
+    {
+        "id": 64,
+        "enunciado": "A análise de pontos de função é uma técnica de medição das funcionalidades fornecidas por um sistema de informação do ponto de vista do usuário.\nDe acordo com a IFPUG (International Function Point Users Group), um grupo de dados ou informações de controle, identificável pelo usuário, logicamente relacionado e mantido dentro da fronteira do sistema sendo contado é classificado como",
+        "alternativas": [
+            "uma saída externa (SE).",
+            "uma entrada externa (EE).",
+            "uma consulta externa (CE).",
+            "um arquivo lógico interno (ALI).",
+            "um arquivo de interface externa (AIE)."
+        ],
+        "gabarito": "um arquivo lógico interno (ALI).",
+        "banca": "FGV"
+    },
+    {
+        "id": 65,
+        "enunciado": "Julgue o item a seguir, que tratam de testes ágeis, metodologias ágeis de desenvolvimento e reuso de software e metodologia de pontos de função.\nNa metodologia de pontos de função, qualquer função que apresente informação para o usuário por meio de processamento lógico é considerada uma saída externa (SE).",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 66,
+        "enunciado": "Acerca da metodologia de ponto de função, julgue o item a seguir.\nContagem de aplicação é o tipo de contagem de pontos de função em que é medida a funcionalidade fornecida aos usuários finais quando o projeto estiver pronto, no momento de sua instalação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 67,
+        "enunciado": "Acerca da metodologia de ponto de função, julgue o item a seguir.\nA metodologia de ponto de função tem como foco principal a visão do usuário, a medida independe da tecnologia utilizada e(ou) da linguagem de programação em que a funcionalidade foi implementada.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 68,
+        "enunciado": "Análise de Pontos de Função (APF) é uma técnica de medição das funcionalidades fornecidas pelo software do ponto de vista de seus usuários. Nesse contexto assinale a alternativa cujo conceito apresentado está INCORRETO:\nDisponível em: https://www.trt9.jus.br /pds/pdstrt9/guidances/ concepts/apf_41E4E1FC.html",
+        "alternativas": [
+            "No cálculo de Pontos de Função brutos, ou não ajustados, não são considerados aspectos técnicos ou baseados em requisitos não funcionais. Mesmo assim, é sabido que existem fatores não funcionais que afetam o \"tamanho\" da aplicação.",
+            "Um arquivo de interface externa é um grupo de dados ou informações de controle, reconhecido pelo usuário e mantido dentro da fronteira da aplicação sendo medida. A sua principal intenção é armazenar dados mantidos por um ou mais processos elementares da aplicação sendo medida.",
+            "Requisitos não funcionais são restrições ou qualidades e características do sistema. Já os requisitos funcionais são aqueles que capturam o que o software deve fazer em termos de tarefas e serviços.",
+            "O tamanho funcional de um projeto de desenvolvimento deverá ser calculado utilizando-se a Fórmula: (a contagem de pontos de função do projeto de desenvolvimento) = (o tamanho das funções a serem entregues ao usuário pelo projeto de desenvolvimento) + (o tamanho da funcionalidade de conversão).",
+            "Toda a funcionalidade de transação dentro do escopo da contagem deve ser avaliada, a fim de identificar cada processo elementar único."
+        ],
+        "gabarito": "Um arquivo de interface externa é um grupo de dados ou informações de controle, reconhecido pelo usuário e mantido dentro da fronteira da aplicação sendo medida. A sua principal intenção é armazenar dados mantidos por um ou mais processos elementares da aplicação sendo medida.",
+        "banca": "IDCAP"
+    },
+    {
+        "id": 69,
+        "enunciado": "O AppDELTA é um aplicativo para dispositivos móveis que pode fazer uso da localização física do dispositivo utilizado pelo usuário para prestar serviços mais assertivos com base na localidade. Para obter a localização física do dispositivo móvel, o aplicativo solicita ao usuário a autorização de uso de dados de localização. A decisão do usuário sobre autorização ou não de uso deve ser consultada a partir de outras aplicações Web. Caso autorizada a obtenção de dados de localização, mas a opção de indicação de localização ainda não esteja habilitada no sistema operacional, o aplicativo solicita que o usuário habilite a referida opção.\nEm análise de pontos de função, a opção do usuário sobre a autorização para obtenção da localização e a ação de coleta da localização em si pelo aplicativo representam, respectivamente, uma:",
+        "alternativas": [
+            "Entrada Externa de complexidade média e uma Entrada Externa de complexidade alta;",
+            "Entrada Externa de complexidade baixa e uma Consulta Externa de complexidade média;",
+            "Consulta Externa de complexidade baixa e uma Entrada Externa de complexidade média;",
+            "Entrada Externa de complexidade baixa e uma Entrada Externa de complexidade baixa;",
+            "Consulta Externa de complexidade baixa e uma Consulta Externa de complexidade baixa."
+        ],
+        "gabarito": "Entrada Externa de complexidade baixa e uma Entrada Externa de complexidade baixa;",
+        "banca": "FGV"
+    },
+    {
+        "id": 70,
+        "enunciado": "A AP1 é uma aplicação que apresenta dados na forma de listagem para os usuários em uma página Web. Para cada listagem, AP1 calcula a quantidade de dados listados. Os dados são recuperados de um banco de dados mantido pela aplicação AP2. Em Análise de Pontos de Função (APF), a função de transação para apresentação de dados de AP1 é uma:",
+        "alternativas": [
+            "Consulta Externa (CE) cujo processo elementar está relacionado a um Arquivo de Interface Externa (AIE) de AP2;",
+            "Saída Externa (SE) cujo processo elementar recupera dados de um Arquivo de Interface Externa (AIE);",
+            "Consulta Externa (CE) associada a uma função de dados do tipo Entrada Externa (EE) de AP2;",
+            "Saída Externa (SE) mantida por uma função de dados do tipo Arquivo Lógico Interno (ALI);",
+            "Consulta Externa (CE) fora da fronteira de AP2 associada a um Arquivo Lógico de Dados."
+        ],
+        "gabarito": "Saída Externa (SE) cujo processo elementar recupera dados de um Arquivo de Interface Externa (AIE);",
+        "banca": "FGV"
+    },
+    {
+        "id": 71,
+        "enunciado": "Suponha que uma Analista está trabalhando em um projeto de Assistência Dirigida ao Cidadão e necessita estimar o tamanho (complexidade) do software usando a análise de Pontos de Função, internacionalmente aceita.\nAo analisar o processo, considerando seu correto conhecimento sobre as funções, ela contou:\n- dois arquivos internos simples (baixa), um médio e um complexo (alta);\n- três consultas médias;\n- cinco entradas médias e duas complexas (alta), - três interfaces médias e uma complexa (alta);\n- duas saídas simples (baixa) e uma média.\nDados:\nValores das Complexidades das funções EE: Baixa: 4 Média:4 Alta:6 SE: Baixa: 4 Média:5 Alta:7 CE: Baixa: 3 Média:4 Alta:6 ALI: Baixa: 7 Média:10 Alta:15 AIE: Baixa: 5 Média:7 Alta:10 A Analista contou corretamente (contagem detalhada) a seguinte quantidade de Pontos de Função brutos:",
+        "alternativas": [
+            "173.",
+            "167.",
+            "127.",
+            "153.",
+            "123."
+        ],
+        "gabarito": "127.",
+        "banca": "FCC"
+    },
+    {
+        "id": 72,
+        "enunciado": "Como é denominado o método de medição do tamanho funcional de um software, com base em operações extraídas dos requisitos funcionais, sabendo-se que, a partir dessa medição inicial de tamanho, derivam-se outras medidas como, por exemplo, o tempo necessário para desenvolvimento, e uma estimativa inicial de custos?",
+        "alternativas": [
+            "Análise de Gestão de Riscos.",
+            "Análise de Gestão de Escopo.",
+            "Análise de Ponto de Função.",
+            "Modelagem de Dados.",
+            "Análise de Gestão de Tempo."
+        ],
+        "gabarito": "Análise de Ponto de Função.",
+        "banca": "AVANÇASP"
+    },
+    {
+        "id": 73,
+        "enunciado": "Assinale a alternativa que apresenta, dentre os componentes de um software medido por pontos de função, aquele considerado de maior complexidade nessa métrica.",
+        "alternativas": [
+            "Arquivo Lógico Interno.",
+            "Arquivo de Interface Externa.",
+            "Saída Externa.",
+            "Entrada Externa.",
+            "Consulta Externa."
+        ],
+        "gabarito": "Arquivo Lógico Interno.",
+        "banca": "VUNESP"
+    },
+    {
+        "id": 74,
+        "enunciado": "Assinale a alternativa correta sobre análise por pontos de função.",
+        "alternativas": [
+            "ALI é um grupo de dados armazenado fora da fronteira da aplicação.",
+            "AIE é um grupo de dados armazenado dentro da fronteira da aplicação.",
+            "SE sempre altera o comportamento do sistema.",
+            "EE sempre altera o comportamento do sistema.",
+            "CE nunca altera o comportamento do sistema."
+        ],
+        "gabarito": "CE nunca altera o comportamento do sistema.",
+        "banca": "VUNESP"
+    },
+    {
+        "id": 75,
+        "enunciado": "Considerando 1 AIE simples, 3 ALIs simples, 3 EEs complexas, 2 SEs médias e 4 CEs complexas, indique a alternativa que apresenta a quantidade de pontos de função não ajustados.",
+        "alternativas": [
+            "13.",
+            "29.",
+            "43.",
+            "57.",
+            "78."
+        ],
+        "gabarito": "78.",
+        "banca": "VUNESP"
+    },
+    {
+        "id": 76,
+        "enunciado": "Julgue o próximo item, com relação à engenharia de software.\nSe as tabelas a seguir descrevem a quantidade e a complexidade das funções de dados e de transação de duas aplicações #A e #B, então a quantidade de pontos de função brutos da aplicação #A é maior que a da aplicação #B.\naplicação #A tipo complexidade quantidade arquivo lógico interno (ALI) baixa\n3 arquivo de interface externa média\n1\n(AIE) saída externa (SE) alta\n2 aplicação #B tipo complexidade quantidade arquivo lógico interno (ALI) alta\n1 entrada externa (EE) média\n4 consulta externa (CE) alta\n2",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 77,
+        "enunciado": "Acerca de aspectos diversos pertinentes a objetos de avaliação associados à análise de sistemas, julgue o item que se segue.\nConsiderando a hipótese de que uma empresa pública esteja desenvolvendo um novo sistema de controle de frota e que os requisitos do projeto do software incluam a migração ou carga inicial de dados do sistema legado (em COBOL), é correto afirmar - de acordo com o Manual de Práticas de Contagem (CPM versão 4.3), que tem como foco principal a visão do usuário - que, na hipótese em apreço, as funcionalidades de conversão de dados serão consideradas na contagem",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 78,
+        "enunciado": "Coletar métricas de software é importante para a estimativa de prazos, custos e qualidade do sistema projetado. Sendo assim, quando se trata da métrica de Pontos de Função, uma das contagens de tipo de dados diz respeito ao grupo lógico de dados e persistentes dentro da fronteira de outra aplicação, embora requerido ou referenciado pela aplicação que está sendo contada. Essa contagem refere-se a",
+        "alternativas": [
+            "arquivo lógico interno.",
+            "tipo de dados.",
+            "tipo de referências.",
+            "arquivo de interface externa.",
+            "casos de uso internos."
+        ],
+        "gabarito": "arquivo de interface externa.",
+        "banca": "Instituto AOCP"
+    },
+    {
+        "id": 79,
+        "enunciado": "Um Técnico foi designado para elaborar a contagem de Pontos de Função brutos de um sistema. As condições dadas são:\n− 3 Arquivos Lógicos Internos de baixa complexidade (valor 7).\n− 2 Arquivos de Interface Externa de média complexidade (valor 7).\n− 1 Saída Externa de média complexidade (valor 5).\n− 2 Saídas Externas de alta complexidade (valor 7).\n− 1 Consulta Externa de média complexidade (valor 4).\n− 1 Consulta Externa de alta complexidade.\n− 3 Entradas Externas de média complexidade.\n− 1 Entrada Externa de alta complexidade (valor 6).\nO valor correto de PFB é",
+        "alternativas": [
+            "73.",
+            "82.",
+            "112.",
+            "92.",
+            "91."
+        ],
+        "gabarito": "82.",
+        "banca": "FCC"
+    },
+    {
+        "id": 80,
+        "enunciado": "Durante a contagem de Pontos por Função de um sistema em desenvolvimento, um analista encontrou, ao medir as funções de dados, 10 Arquivos Lógicos Internos\n(AIL), com as seguintes complexidades: 5 de complexidade baixa, 3 de complexidade média e 2 de complexidade alta.\nQuantos pontos de função devem ser atribuídos, no total, a esses AIL?",
+        "alternativas": [
+            "39.",
+            "49.",
+            "66.",
+            "76.",
+            "95."
+        ],
+        "gabarito": "95.",
+        "banca": "CESGRANRIO"
+    },
+    {
+        "id": 81,
+        "enunciado": "A análise por pontos de função (APF) tem como principal objetivo medir a funcionalidade do sistema tendo como base a visão do usuário, de acordo com características abaixo:\n(1) Utiliza-se de estimativas.\n(2) É independente da tecnologia utilizada.\n(3) Baseia-se na visão do usuário.\n(4) Somente permite o seu cálculo de forma manual.\nAssinale a alternativa correta.",
+        "alternativas": [
+            "Somente são aplicados o 1, 2 e 3.",
+            "Somente são aplicados o 1, 2 e 4.",
+            "Somente são aplicados o 2, 3 e 4.",
+            "Somente são aplicados o 1, 3 e 4.",
+            "1, 2, 3 e 4 podem ser aplicados."
+        ],
+        "gabarito": "Somente são aplicados o 1, 2 e 3.",
+        "banca": "IBFC"
+    },
+    {
+        "id": 82,
+        "enunciado": "tipo complexidade quantidade arquivos lógicos internos média\n1 entradas externas baixa\n1 consultas externas baixa\n1 Considerando a tabela precedente, que apresenta as funções, complexidades e quantidades de uma aplicação hipotética, assinale a opção correspondente à quantidade de pontos de função brutos, sem ajuste.",
+        "alternativas": [
+            "16.",
+            "33.",
+            "30.",
+            "35.",
+            "28."
+        ],
+        "gabarito": "16.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 83,
+        "enunciado": "tipo complexidade quantidade arquivo de interface interna baixa\n1 saída externa baixa\n2 saída externa alta\n3 Considerando a tabela precedente, que apresenta as funções, complexidades e quantidades de uma aplicação hipotética, a quantidade de pontos de função brutos, sem ajuste, é",
+        "alternativas": [
+            "maior que 33.",
+            "igual a 30.",
+            "entre 25 e 29.",
+            "entre 20 e 24.",
+            "menor que 20."
+        ],
+        "gabarito": "maior que 33.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 84,
+        "enunciado": "De acordo com o Manual de Pontos de Função, informações de controle reconhecidas pelo usuário, referenciadas apenas pela aplicação sendo medida, mas mantidas dentro da fronteira de outra aplicação, são definidas como",
+        "alternativas": [
+            "arquivo de interface externa.",
+            "arquivo lógico interno.",
+            "entrada externa.",
+            "saída externa.",
+            "consulta externa."
+        ],
+        "gabarito": "arquivo de interface externa.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 85,
+        "enunciado": "Um Analista foi designado para contar Pontos de Função – PF de um sistema em sua organização. A política de contagem organizacional determina que se use o fator de ajuste após a contagem bruta – PFB, conforme proposição original de contagem de PF, que considera 14 características para determinar o nível de influência para o cálculo do ajuste. O resultado da contagem bruta é 256 e o somatório do nível de influência é 46.\nConsiderando que a aplicação da fórmula pode variar a quantidade de PFB em mais ou em menos 35% após a aplicação da fórmula a quantidade de pontos de função resultante será",
+        "alternativas": [
+            "284,16.",
+            "293,10.",
+            "312.",
+            "384,28.",
+            "390."
+        ],
+        "gabarito": "284,16.",
+        "banca": "FCC"
+    },
+    {
+        "id": 86,
+        "enunciado": "Na métrica “análise por pontos de função”, a contagem das funções tipo dado considera funções que representam as funcionalidades fornecidas ao usuário que atendem aos requisitos de dados internos e externos. Assinale o elemento da contagem para funções tipo dado, que consiste em um grupo de dados logicamente relacionados ou informações de controle identificável pelo usuário e mantidos dentro da fronteira da aplicação.",
+        "alternativas": [
+            "Snapshot.",
+            "Tabela Lógica.",
+            "Entrada Interna.",
+            "Arquivos Lógicos Internos."
+        ],
+        "gabarito": "Arquivos Lógicos Internos.",
+        "banca": "CONSULPLAN"
+    },
+    {
+        "id": 87,
+        "enunciado": "Através de Análise por Pontos de Função (APF), é possível obter, pela análise das características gerais do sistema, informações valiosas, tais como a necessidade de uma disponibilidade total do sistema devido à carga de transações ou a proteção especial contra perda de dados, ainda em estágios iniciais do projeto. Na APF, a apuração que considera funções que representam as funcionalidades fornecidas ao usuário para o processamento de dados de uma aplicação é:",
+        "alternativas": [
+            "Contagem das Funções Tipo Transação.",
+            "Determinação do Fator de Ajuste do Valor.",
+            "Cálculo do Valor de Ponto de Função Ajustado.",
+            "Cálculo do Valor de Ponto de Função Não Ajustado."
+        ],
+        "gabarito": "Contagem das Funções Tipo Transação.",
+        "banca": "CONSULPLAN"
+    },
+    {
+        "id": 88,
+        "enunciado": "A Engenharia de Software é provavelmente uma das área mais amplas quando falamos em desenvolvimento de software. Se pararmos para pensar apenas no tema das métricas de software, rapidamente percebemos que existem diversas questões importantes que precisamos medir em um software como por exemplo: seu tamanho, seu custo total de desenvolvimento, seu progresso de desenvolvimento, sua confiabilidade, sua segurança e sua qualidade.\nMarque a alternativa que indica, corretamente, apenas técnicas de medição de tamanho de software.",
+        "alternativas": [
+            "UML e QoS.",
+            "APF e PCU.",
+            "ISO 9126 e PCU.",
+            "QoS e APF.",
+            "SMP e UML."
+        ],
+        "gabarito": "APF e PCU.",
+        "banca": "IDECAN"
+    },
+    {
+        "id": 89,
+        "enunciado": "Marque a alternativa que indica, corretamente, o nome do método de medição de software baseado em uma unidade de medida criada na International Business Machines Corporation (IBM). Este método é questionado por especialistas pelo fato da unidade de medida utilizada ser considerada subjetiva, já que é influenciada pelo ponto de vista do usuário do software que está sendo desenvolvido.",
+        "alternativas": [
+            "APF.",
+            "RLR.",
+            "PF.",
+            "AIE.",
+            "ALI."
+        ],
+        "gabarito": "APF.",
+        "banca": "IDECAN"
+    },
+    {
+        "id": 90,
+        "enunciado": "A métrica utilizada como medição da evolução de um projeto, baseada na visão do usuário e o que ele considera como objetivos alcançados, é chamada:",
+        "alternativas": [
+            "evolução modular.",
+            "ponto de função.",
+            "linhas de código.",
+            "homem hora.",
+            "tamanho de classes."
+        ],
+        "gabarito": "ponto de função.",
+        "banca": "IBADE"
+    },
+    {
+        "id": 91,
+        "enunciado": "Na métrica de análise de pontos por função, a identificação das funções de dados ALI e AIE",
+        "alternativas": [
+            "representam funcionalidades fornecidas ao usuário a fim de atender às suas necessidades de persistência de dados internos e externos à aplicação.",
+            "são classificadas como entradas externas, saídas externas e consultas de interesse do usuário.",
+            "representam os requisitos funcionais e não funcionais da aplicação, sejam ou não de interesse direto do usuário.",
+            "são classificadas como entradas externas, saídas externas e consultas de interesse ou não do usuário.",
+            "são as funcionalidades somente de entrada, de interesse do usuário ou quaisquer requisitos não funcionais que não necessitem ser persistidos."
+        ],
+        "gabarito": "representam funcionalidades fornecidas ao usuário a fim de atender às suas necessidades de persistência de dados internos e externos à aplicação.",
+        "banca": "FCC"
+    },
+    {
+        "id": 92,
+        "enunciado": "A medição permite aos gerentes planejar, controlar, melhorar e aperfeiçoar o processo de desenvolvimento de software. Medição resulta em mudança cultural.\nColetar dados, calcular e analisar métricas são três passos que devem ser implementados para iniciar um programa de métricas.\nAssinale a alternativa correta em relação ao assunto.",
+        "alternativas": [
+            "A métrica de Pontos por Caso de Uso baseou-se na métrica Pontos por Linha de Código.",
+            "A métrica de Pontos por Caso de Uso foi criada para que seja possível estimar o tamanho de um sistema já na fase de levantamento de Casos de Uso.",
+            "Análise de Pontos de Função é uma técnica de medição das funcionalidades fornecidas pelo software do ponto de vista de seus desenvolvedores.",
+            "Contagem de Linhas de Código Fonte (LOCs) e Análise de Pontos por Função são dois tipos de métricas que podem ser utilizadas para medição das funcionalidades presentes nos Casos de Uso.",
+            "A Análise de Ponto de Função mede o que o software faz, independentemente de como ele foi construído. Portanto, o processo de medição ou de contagem de pontos de função é baseado na avaliação dos requisitos não funcionais do usuário, como descrito nos artefatos do desenvolvimento."
+        ],
+        "gabarito": "A métrica de Pontos por Caso de Uso foi criada para que seja possível estimar o tamanho de um sistema já na fase de levantamento de Casos de Uso.",
+        "banca": "FEPESE"
+    },
+    {
+        "id": 93,
+        "enunciado": "Na Engenharia de Software, a Análise de Pontos de Função, é usada para",
+        "alternativas": [
+            "avaliar e controlar processos de construção/manutenção de software em desenvolvimento.",
+            "avaliar o desempenho de equipes de desenvolvimento.",
+            "comparar e avaliar o funcionamento e a adequação de diferentes sistemas automatizados num cenário específico.",
+            "medir um software quantificando as tarefas e serviços com vistas a uma estimativa de orçamento ou dimensionamento.",
+            "planejar a designação de equipes de desenvolvimento em relação a prazos, custos e recursos humanos."
+        ],
+        "gabarito": "medir um software quantificando as tarefas e serviços com vistas a uma estimativa de orçamento ou dimensionamento.",
+        "banca": "FGV"
+    },
+    {
+        "id": 94,
+        "enunciado": "Acerca dos conceitos de engenharia de softwares, métodos ágeis, teste de software e estimativas, julgue o item subsequente.\nSegundo o IFPUG, na contagem de pontos de função, o número de consultas externas (EQs) considera a quantidade de recuperação de dados gerados por dados derivados matematicamente de arquivos de interface externa (EIFs).",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 95,
+        "enunciado": "A métrica ponto de função (FP) pode ser usada como um meio para medir a funcionalidade fornecida por um sistema.\nAnalise as afirmativas abaixo com relação a este assunto.\n1. Por meio de dados históricos, a métrica FP pode ser empregada para estimar o custo ou trabalho necessário para projetar, codificar e testar o software.\n2. Por meio de dados históricos, a métrica FP pode ser empregada para prever o número de erros que serão encontrados durante o teste.\n3. Por meio de dados históricos, a métrica FP não pode prever o número de componentes e/ou o número de linhas projetadas de código-fonte no sistema implementado.\nAssinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "É correta apenas a afirmativa 1.",
+            "É correta apenas a afirmativa 2.",
+            "São corretas apenas as afirmativas 1 e 2.",
+            "São corretas apenas as afirmativas 1 e 3.",
+            "São corretas apenas as afirmativas 2 e 3."
+        ],
+        "gabarito": "São corretas apenas as afirmativas 1 e 2.",
+        "banca": "FEPESE"
+    },
+    {
+        "id": 96,
+        "enunciado": "A métrica “ponto por função” considera em sua expressão os chamados fatores de ajuste, em um total de 14 fatores. Tais fatores têm por base a resposta a perguntas, sendo uma dessas perguntas, especificamente:",
+        "alternativas": [
+            "O sistema teve uma análise de segurança?.",
+            "Existem funções de processamento distribuído?.",
+            "Há utilização de linguagem de orientação a objetos?.",
+            "O modelo de desenvolvimento emprega técnicas ágeis?.",
+            "Há limitações no orçamento do projeto?."
+        ],
+        "gabarito": "Existem funções de processamento distribuído?.",
+        "banca": "VUNESP"
+    },
+    {
+        "id": 97,
+        "enunciado": "Uma das métricas de gerência de projetos de engenharia de software é a métrica relacionada a pontos de função (FP). Julgue a seguinte afirmação: Número de postos de função (FPs) é a técnica que estima o tamanho da funcionalidade que se dá por meio da combinação de entradas, saídas, arquivos de dados, consultas e interfaces externas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "IDECAN"
+    },
+    {
+        "id": 98,
+        "enunciado": "Uma das métricas de software bastante utilizada, Análise de Pontos de Função (APF) é uma técnica para a medição de projetos de desenvolvimento de software, visando a estabelecer uma medida de tamanho, em Pontos de Função (PF), considerando a funcionalidade implementada. Sobre a APF, assinale a alternativa correta:",
+        "alternativas": [
+            "essa medida depende da linguagem de programação ou da tecnologia que será usada para implementação.",
+            "não possui relação com outras medidas úteis ao negócio, tais como a produtividade do processo de desenvolvimento e o custo unitário de suporte ao software.",
+            "não se aplica a projetos que utilizam orientação a objetos.",
+            "essa medida relaciona-se diretamente aos requisitos do negócio que o software pretende tratar.",
+            "na APF uma aplicação é definida segundo a visão do desenvolvedor e de acordo com considerações de negócio."
+        ],
+        "gabarito": "essa medida relaciona-se diretamente aos requisitos do negócio que o software pretende tratar.",
+        "banca": "IDIB"
+    },
+    {
+        "id": 99,
+        "enunciado": "A respeito de arquitetura e engenharia de software, julgue o item a seguir.\nNa métrica de pontos por função, entradas externas, saídas externas e consultas externas são computadas separadamente.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 100,
+        "enunciado": "Entre os não exemplos de funções de transação do tipo entrada externa encontram-se os(as):",
+        "alternativas": [
+            "processamentos em lotes de atualização de bases cadastrais a partir de arquivos de movimento.",
+            "transações que recebem dados externos, utilizados na manutenção de arquivos lógicos internos.",
+            "janelas que permitem adicionar, excluir e alterar registros em arquivos lógicos internos.",
+            "telas de filtro de relatórios e consultas."
+        ],
+        "gabarito": "telas de filtro de relatórios e consultas.",
+        "banca": "CEPUERJ"
+    },
+    {
+        "id": 101,
+        "enunciado": "Observe as seguintes descrições de funcionalidades que compõem um sistema de controle de ponto: {image(5)} Considerando as complexidades e contribuições para funções de transação apresentadas no Manual de Práticas de Pontos de Função do IFPUG , versão 4.3.1 desconsiderando qualquer funcionalidade não citada como, por exemplo, o login no sistema ou alteração dos registros , o número de transações do tipo entrada externa\n(EE), consulta externa (CE) e saída externa (SE), além do somatório de pontos de função (PF) de todas as funções do tipo transação é expresso corretamente em:",
+        "alternativas": [
+            "2 entradas externas, 1 consulta externa, 1 saída externa, 15 PFs.",
+            "2 entradas externas, 1 consulta externa, 1 saída externa, 14 PFs.",
+            "2 entradas externas, 2 consultas externas, 15 PFs.",
+            "2 entradas externas, 2 consultas externas, 14 PFs."
+        ],
+        "gabarito": "2 entradas externas, 1 consulta externa, 1 saída externa, 14 PFs.",
+        "banca": "CEPUERJ"
+    },
+    {
+        "id": 102,
+        "enunciado": "No contexto da análise de pontos de função, considerando as regras de contagem de tipos de dados e arquivos referenciados, deve(m) ser contado(s):",
+        "alternativas": [
+            "dois arquivos referenciados para cada ALI que seja tanto mantido quanto lido.",
+            "um tipo de dado para cada atributo gerado dentro da fronteira da aplicação por uma função transacional e salvo em um ALI sem sair pela fronteira.",
+            "dois tipos de dados - um para o mês em questão e outro para o valor - no caso de arquivos com várias ocorrências do mesmo campo (ex: valor janeiro, valor fevereiro,... e valor dezembro).",
+            "um tipo de dado para cada atributo que atravessa a fronteira da aplicação (entrando e/ou saindo), reconhecido pelo usuário, único, não repetido. Se um campo tanto entra quanto sai pela fronteira da aplicação, deve ser contado duas vezes."
+        ],
+        "gabarito": "dois tipos de dados - um para o mês em questão e outro para o valor - no caso de arquivos com várias ocorrências do mesmo campo (ex: valor janeiro, valor fevereiro,... e valor dezembro).",
+        "banca": "CEPUERJ"
+    },
+    {
+        "id": 103,
+        "enunciado": "Analise as alternativas abaixo e assinale a afirmação ERRADA.",
+        "alternativas": [
+            "O retorno sobre o investimento é um dos parâmetros utilizados pela gestão de portfólio;",
+            "A determinação do caminho crítico depende da definição da precedência entre as atividades;",
+            "Requisitos não funcionais estão associados à qualidade ou restrições;",
+            "Artefatos correspondem ao escopo negativo de um projeto;",
+            "O uso de Ponto de Função em projetos de desenvolvimento de software fornece dados para construção do cronograma e orçamento."
+        ],
+        "gabarito": "Artefatos correspondem ao escopo negativo de um projeto;",
+        "banca": "CEV URCA"
+    },
+    {
+        "id": 104,
+        "enunciado": "No que se baseia a Análise de Pontos de Função (APF)?",
+        "alternativas": [
+            "Na quantificação das capacidade de entrega do time.",
+            "Na quantificação das funcionalidades solicitadas e entregues.",
+            "Na quantificação das horas gastas em um projeto já entregue.",
+            "Na quantificação das funções em linguagem de programação.",
+            "Na quantificação das funções e papéis de cada membro da equipe."
+        ],
+        "gabarito": "Na quantificação das funcionalidades solicitadas e entregues.",
+        "banca": "Instituto AOCP"
+    },
+    {
+        "id": 105,
+        "enunciado": "A Análise de Pontos de Função é uma métrica internacional de software padronizada com objetivo principal de descobrir o tamanho de um software. Ela tem como foco principal a visão do usuário, ou seja, somente são contados os requisitos funcionais (requisitos de negócio) e, por isso, não leva em consideração a linguagem de programação.\nAssinale a alternativa correta sobre uma das características da Análise de Pontos de Função.",
+        "alternativas": [
+            "É dependente da tecnologia utilizada.",
+            "Auxilia a produção de resultados inconsistentes.",
+            "Baseia-se na visão do desenvolvedor.",
+            "Tem significado para o usuário final."
+        ],
+        "gabarito": "Tem significado para o usuário final.",
+        "banca": "IDIB"
+    },
+    {
+        "id": 106,
+        "enunciado": "\" é um método padronizado que determina o tamanho do software por meio de seus requisitos funcionais, considerando as funcionalidades a serem implementadas. Foi desenvolvido para ser aplicado independente da linguagem de programação e tecnologias utilizadas.\" Qual das alternativas, a seguir, completa, corretamente, a lacuna?",
+        "alternativas": [
+            "Sistema de Administração dos Recursos de Tecnologia da Informação.",
+            "Counting Practices Manual (CPM).",
+            "Métrica de qualidade.",
+            "Análise de Pontos de Função (APF)."
+        ],
+        "gabarito": "Análise de Pontos de Função (APF).",
+        "banca": "IUDS"
+    },
+    {
+        "id": 107,
+        "enunciado": "A análise de pontos de função é um conceito que foi introduzido, em 1979, no artigo Measuring Application Development Productivity por Allan Albrecht. Acerca do método da análise de pontos de função de acordo com as diretrizes do International Function Point Users Group (IFPUG), é correto afirmar que",
+        "alternativas": [
+            "suas regras não são aprovadas por nenhuma norma ISO.",
+            "existem apenas dois tipos de contagem, projeto de desenvolvimento e aplicação.",
+            "pode ser aplicado em linguagens de programação visuais.",
+            "a perspectiva do usuário do software nunca é levada em consideração.",
+            "não podem ser utilizados em projetos que empregam a metodologia ágil."
+        ],
+        "gabarito": "pode ser aplicado em linguagens de programação visuais.",
+        "banca": "IADES"
+    },
+    {
+        "id": 108,
+        "enunciado": "A Análise de Pontos de Função (APF) e o Software Non-Functional Assessment Process (SNAP) são utilizados para medir o tamanho de um software.\nSobre a aplicação da APF e do SNAP, é correto afirmar que:",
+        "alternativas": [
+            "o tamanho total do software é obtido por meio da multiplicação da quantidade de Pontos de Função pela quantidade de Pontos SNAP associados à função de transação medida;",
+            "a soma dos Pontos de Função aos Pontos SNAP representa o tamanho total do software;",
+            "os grupos de dados formados em resposta às normalizações de dados são quantificados pelo SNAP;",
+            "as funções de dados que mantêm grupos de dados associados às regras de negócio são quantificadas pela APF;",
+            "as alterações nas estruturas de arquivos lógicos são quantificadas pela APF."
+        ],
+        "gabarito": "as funções de dados que mantêm grupos de dados associados às regras de negócio são quantificadas pela APF;",
+        "banca": "FGV"
+    },
+    {
+        "id": 109,
+        "enunciado": "Considere que uma Analista de Sistemas do TJUSC está fazendo a análise por Pontos de Função (PFs) de um software em desenvolvimento. Ao seguir os passos da técnica, chegou-se à tabela abaixo.\nTabela completa de Pontos de Função do Software Fator de Peso Contagem Valor do domínio da informação Contagem x Fator de Peso Simples Médio Complexo Nº de Entradas Externas (EIs)\n3\n3\n4 6 9 Nº de Saídas Externas (EOs)\n2\n4\n5 7 8 Nº de Consultas Externas (EQs)\n2\n3\n4 6 6 Nº de Arq Lóg Internos (ILFs)\n1 7 10 15 7 Nº de Arq Interf Externos (EIFs)\n4\n5 7 10 20 Contagem Total 50 {image(6)} Para o cálculo de PF, utiliza-se a expressão empírica proposta pelo modelo para obtenção dos pontos de função:\n14 Fi ∑ i=1 PF ContagemTotal * (0,65 + 0,01* ) 14 Fi = 46 ∑ i=1 A Analista já realizou o cálculo que resultou em: , valor que indica que o produto é moderadamente complexo. De acordo com os fundamentos da Análise por Pontos de Função e com os dados apresentados,",
+        "alternativas": [
+            "é de responsabilidade da Analista preencher a coluna “Fator de Peso”, pois são valores não propostos pelo modelo e, a princípio, são variáveis. Então, a Analista terá que estimar a quantidade de cada parâmetro previsto para o software a ser desenvolvido e criar um fator de peso para cada um deles.",
+            "a métrica Ponto de Função pode ser utilizada como forma de medir a funcionalidade fornecida pelo software, podendo ser usada para prever o número de componentes e/ou o número de linhas de código-fonte projetadas. No software em questão o valor de PF é igual a 55.5.",
+            "é de responsabilidade da Analista preencher os dados somente da coluna Contagem e totalizar a Contagem Total. Todas as outras colunas já estão preenchidas, pois são valores propostos pelo modelo e são fixos. No software em questão o valor de PF é 20% maior que o valor da Contagem Total.",
+            "para o cálculo dos PFs, a Analista terá que avaliar as 10 perguntas relativas ao custo do software a ser desenvolvido. Para cada uma das perguntas, deve-se atribuir um VAF − Value Adjustment Factor, obedecendo à escala de 1 a 10, proposta pelo modelo.",
+            "o valor de PF reflete as influências de cada uma das perguntas. O valor da soma variará de um mínimo de 14 (todas as perguntas tendo valor 1) a um valor máximo de 140 (todas as perguntas tendo valor igual a 10)."
+        ],
+        "gabarito": "a métrica Ponto de Função pode ser utilizada como forma de medir a funcionalidade fornecida pelo software, podendo ser usada para prever o número de componentes e/ou o número de linhas de código-fonte projetadas. No software em questão o valor de PF é igual a 55.5.",
+        "banca": "FCC"
+    },
+    {
+        "id": 110,
+        "enunciado": "O gerenciamento de projetos deve ser auxiliado pela utilização de métricas que permitam mensurar o tamanho de um projeto. A métrica Pontos de Função ou Function Points (FP), inicialmente proposta por Albrecht, em 1979, pode ser usada efetivamente como um meio para medir a funcionalidade entregue por um sistema.\nSobre pontos de função, assinale a afirmativa correta.",
+        "alternativas": [
+            "É uma métrica baseada em características do domínio de informação e complexidade do software para estimar somente o esforço necessário para projetar codificação e testar o software.",
+            "Um projeto estimado em 1800 PF tem a fase de análise de requisitos estimada em 30% do projeto. Esse projeto possui uma equipe de dez pessoas com produtividade de 20 PF/h, jornada de trabalho de seis horas diárias e um custo de R$ 45,00. Nessas condições, o projeto levará seis meses para ser finalizado a um custo de R$ 486.000,00.",
+            "O ponto de função pode ser usado apenas em dois tipos de contagem: (i) Projeto de desenvolvimento, onde mede a funcionalidade a ser entregue ao usuário pela primeira instalação do software pronto e (ii) Projeto de melhoria, quando as funções a serem adicionadas, modificadas ou excluídas e algumas conversões de dados deste projeto são medidas.",
+            "O Arquivo Lógico Interno (ALI) é um grupo de dados ou informações de controle, logicamente relacionado, identificável pelo usuário, mantido na fronteira da aplicação. O Arquivo Interno Estendido (AIE) é um agrupamento logicamente relacionado de dados ou informações de controle que é apenas referenciado pela aplicação. É identificável pelo usuário e serve para armazenar dados referenciados por meio de processos elementares dentro da fronteira da aplicação e mantidos por outra aplicação."
+        ],
+        "gabarito": "Um projeto estimado em 1800 PF tem a fase de análise de requisitos estimada em 30% do projeto. Esse projeto possui uma equipe de dez pessoas com produtividade de 20 PF/h, jornada de trabalho de seis horas diárias e um custo de R$ 45,00. Nessas condições, o projeto levará seis meses para ser finalizado a um custo de R$ 486.000,00.",
+        "banca": "Instituto Consulplan"
+    }
+]

@@ -1,0 +1,1021 @@
+[
+    {
+        "id": 1,
+        "enunciado": "A plataforma J2EE apresenta uma série de especificações que fornecem funcionalidades para se desenvolver aplicações empresariais.\nDentre as diversas especificações destaca-se a Servlet API a qual disponibiliza as interfaces e classes necessárias para a criação de Servlets.\nNa programação de Java Servlets para se recuperar valores de uma solicitação HTTP, pode-se usar o método:",
+        "alternativas": [
+            "returnData.",
+            "obtainObject.",
+            "acceptRecord.",
+            "acquireArgument.",
+            "getParameter."
+        ],
+        "gabarito": "getParameter.",
+        "banca": "IBFC"
+    },
+    {
+        "id": 2,
+        "enunciado": "A respeito dos métodos básicos da camada de aplicação com a arquitetura TCP/IP e o protocolo HTTP, julgue o item seguinte.\nO método get é comumente usado no HTTP, e o servidor responde a uma solicitação get do cliente com informações baseadas na URL/URI especificada na solicitação HTTP.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 3,
+        "enunciado": "Assinale a opção na qual é apresentado o código HTTP que indica que uma requisição do cliente foi recebida, entendida e processada pelo servidor.",
+        "alternativas": [
+            "100.",
+            "200.",
+            "300.",
+            "400.",
+            "500."
+        ],
+        "gabarito": "200.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 4,
+        "enunciado": "Em relação aos protocolos HTTP e NFS e a administração de sistemas Windows Server e Linux, julgue o próximo item.\nA terceira versão do HTTP — HTTP/3 — roda sobre o UDP, sendo mais eficiente e segura que a versão HTTP/2.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 5,
+        "enunciado": "Qual é a finalidade do cabeçalho Content-Type em uma requisição HTTP?",
+        "alternativas": [
+            "Define o método HTTP utilizado na requisição.",
+            "Indica o tipo de arquivo do recurso.",
+            "Descreve todas as instruções necessárias para lidar com o conteúdo da requisição.",
+            "Determina o tipo de autenticação utilizado na requisição.",
+            "Informa o valor do conteúdo do body (payload) da requisição."
+        ],
+        "gabarito": "Indica o tipo de arquivo do recurso.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 6,
+        "enunciado": "HTTP/1.1 200 OK Date: Tue, 06 Feb 2024 16:21:22 GMT Server: Apache Last-Modified: Mon, 05 Fev 2024 21:11:27 GMT ETag: “51142bc1-7449-479b075b2891b” Accept-Ranges: bytes Content-Length: 21233 Content-Type: text/html <!DOCTYPE html... (here comes the 21233 bytes of the requested web page) Com base no trecho precedente, julgue o item que se segue, a respeito de HTTP.\nNa primeira linha do trecho apresentado, o número 200 significa que a conexão HTTP teve êxito.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 7,
+        "enunciado": "O REST emprega um protocolo universal, o HTTP, para oferecer um serviço web simples e aberto. Verbos HTTP são usados para realizar chamadas e indicar para o serviço que ação deve ser realizada.\nAssinale a opção que indica o verbo usado tipicamente para a atualização de um recurso existente.",
+        "alternativas": [
+            "CREATED.",
+            "GET.",
+            "POST.",
+            "TRACE.",
+            "PUT."
+        ],
+        "gabarito": "PUT.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 8,
+        "enunciado": "É um dos protocolos de aplicação de internet mais usados. Ele é utilizado para comunicação entre navegadores Web e servidores Web, para ler informações de páginas Web ou para enviar respostas como formulários completos ou caixas selecionadas. A maioria dos usuários da internet está familiarizado com as aplicações que usam esse protocolo, mas, como essas aplicações são ocultas por trás das interfaces gráficas dos navegadores Web, é raro para qualquer pessoa ser familiar com o protocolo trabalhando em segundo plano. Estamos falando do protocolo:",
+        "alternativas": [
+            "HTML.",
+            "TCP/IP.",
+            "HTTP.",
+            "DHCP."
+        ],
+        "gabarito": "HTTP.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 9,
+        "enunciado": "A respeito dos protocolos HTTP e HTTPS, assinale a opção correta.",
+        "alternativas": [
+            "O HTTPS dispensa certificados digitais para seu funcionamento.",
+            "Ambos operam na camada de transporte.",
+            "O HTTP garante a confidencialidade dos dados.",
+            "O HTTPS adiciona criptografia por meio do SSL/TLS.",
+            "Ambos não necessitam do TCP."
+        ],
+        "gabarito": "O HTTPS adiciona criptografia por meio do SSL/TLS.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 10,
+        "enunciado": "Preencha as lacunas e assinale a alternativa correta.\nUm usuário de uma rede corporativa, ao visitar uma página web localizada na ____________, realiza uma requisição HTTP através do navegador, a qual percorre através da ___________ até o ____________ da rede, sendo roteada através da ___________ até chegar ao servidor web.",
+        "alternativas": [
+            "internet / LAN / gateway / internet.",
+            "intranet / WAN / switch / VLAN.",
+            "internet / LAN / roteador / intranet.",
+            "internet / WAN / roteador / VLAN.",
+            "internet / LAN / switch / VLAN."
+        ],
+        "gabarito": "internet / LAN / gateway / internet.",
+        "banca": "Instituto AOCP"
+    },
+    {
+        "id": 11,
+        "enunciado": "No que diz respeito à arquitetura de sistemas web, julgue o item a seguir.\nNo HTTP/2, são utilizadas conexões persistentes para o atendimento a diversas solicitações em sequência, ao passo que, no HTTP/1, as conexões atendem a várias solicitações simultâneas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 12,
+        "enunciado": "Ao implementar operações de manipulação de dados na API RESTful da PDPJ-Br, uma desenvolvedora deseja alterar apenas alguns atributos de um processo existente, sem substituir todos os atributos da entidade. Considerando as diretrizes para o uso de verbos HTTP da PDPJ-Br, o verbo HTTP mais adequado para essa operação é o",
+        "alternativas": [
+            "GET.",
+            "POST.",
+            "PUT.",
+            "PATCH.",
+            "UPDATE."
+        ],
+        "gabarito": "PATCH.",
+        "banca": "FCC"
+    },
+    {
+        "id": 13,
+        "enunciado": "Ao requisitar uma página web por meio do protocolo HTTP, uma máquina cliente faz uso de um protocolo da camada de transporte da pilha TCP/IP, estabelecendo conexão com o servidor a partir do envio de uma solicitação do tipo",
+        "alternativas": [
+            "SYN, iniciando o three-way handshake do TCP e o servidor responde a solicitação por meio de um SYN e ACK.",
+            "DNS, para converter endereços MAC em endereços IP antes da comunicação e o servidor responde com o endereço IP correto do servidor HTTP.",
+            "ARP, iniciando a conversão de caracteres para um código ASCII e como resposta o servidor envia uma sequência ASCII do tipo established.",
+            "UDP, contendo o número de sequência e a janela de transmissão dos segmentos e como resposta o servidor envia uma mensagem do tipo Echo Reply.",
+            "Open, indicando a necessidade de estabelecimento de conexão e o receptor responde com uma mensagem do tipo synchronized."
+        ],
+        "gabarito": "SYN, iniciando o three-way handshake do TCP e o servidor responde a solicitação por meio de um SYN e ACK.",
+        "banca": "FCC"
+    },
+    {
+        "id": 14,
+        "enunciado": "Analise a mensagem request HTTP exibida a seguir.\nGET /somedir/page.html HTTP/1.1 Host: www.someschool.edu.br Connection: close User-agent: Mozilla/5.0 Accept-language: br Considerando a pilha de protocolos TCP/IP, é correto afirmar que, de acordo com a mensagem, o protocolo nela indicado é da camada de",
+        "alternativas": [
+            "redes.",
+            "enlace.",
+            "internet.",
+            "aplicação.",
+            "transporte."
+        ],
+        "gabarito": "aplicação.",
+        "banca": "FGV"
+    },
+    {
+        "id": 15,
+        "enunciado": "Com relação ao HTTP no contexto de aplicações web, assinale a lista que contém dois dos métodos desse protocolo.",
+        "alternativas": [
+            "CONNECT e EXIT.",
+            "GET e POST.",
+            "OPEN e CLOSE.",
+            "READ e WRITE.",
+            "START e END."
+        ],
+        "gabarito": "GET e POST.",
+        "banca": "FGV"
+    },
+    {
+        "id": 16,
+        "enunciado": "Julgue o item subsecutivo, que se refere a protocolos de rede e à computação de alto desempenho.\nO HTTPS é uma junção do HTTP com o SSL (secure sockets layers).",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 17,
+        "enunciado": "Qual protocolo de segurança é comumente usado em combinação com o servidor Apache para criar uma conexão segura entre o navegador do cliente e o servidor?",
+        "alternativas": [
+            "FTP.",
+            "SSH.",
+            "SMTP.",
+            "HTTPS.",
+            "HTTP2."
+        ],
+        "gabarito": "HTTPS.",
+        "banca": "FEPESE"
+    },
+    {
+        "id": 18,
+        "enunciado": "A respeito de WebSockets, julgue o item subsecutivo.\nO uso de WebSockets com HTTP/2 aproveita novos recursos, tal como multiplexação, que reduz o tempo e os recursos necessários ao fazer várias solicitações ao servidor; por usar CONNECT em vez de GET, pode ser preciso atualizar suas rotas e seus controladores.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 19,
+        "enunciado": "O cabeçalho do protocolo HTTP que contém o DNS do servidor é o",
+        "alternativas": [
+            "host.",
+            "authorization.",
+            "referer.",
+            "location.",
+            "server."
+        ],
+        "gabarito": "host.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 20,
+        "enunciado": "Julgue o item a seguir, acerca de protocolo de sinalizações de controle H.323 e SIP e de protocolos de transporte TCP e UDP.\nAs portas TCP 80 e 443 são usadas, respectivamente, pela Internet (world wide web) e pela Web segura (HTTP sobre SSL/TLS).",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 21,
+        "enunciado": "O HTTP é um protocolo da camada de aplicação e é executado em dois programas, sendo um deles o cliente e o outro o servidor. Ele possui o papel de definir como são as trocas de mensagens entre cliente e servidor. Ele usa o protocolo TCP da camada de transporte e não o UDP.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "IDECAN"
+    },
+    {
+        "id": 22,
+        "enunciado": "O protocolo padrão utilizado para a transferência de hipertexto em uma arquitetura cliente-servidor é o",
+        "alternativas": [
+            "WebSocket.",
+            "FTP.",
+            "HTTP.",
+            "SMTP.",
+            "TCP/IP."
+        ],
+        "gabarito": "HTTP.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 23,
+        "enunciado": "A respeito dos métodos básicos da camada de aplicação com a arquitetura TCP/IP e o protocolo HTTP, julgue o item seguinte.\nO método post envia dados ao servidor HTTP para criar ou atualizar um recurso no servidor, e os dados correspondentes estão incluídos no corpo da mensagem post.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 24,
+        "enunciado": "Um analista do MP está configurando um servidor web para garantir comunicações seguras com clientes, utilizando SSL/TLS.\nConsiderando os conceitos de autenticidade, confidencialidade e integridade e as tecnologias empregadas nessa configuração,",
+        "alternativas": [
+            "no handshake TLS, a chave pré-master secreta é enviada do cliente ao servidor por meio de um túnel IPSec.",
+            "o hash criptográfico SHA-256 é usado em assinaturas digitais para verificar a integridade dos dados, mas não garante confidencialidade.",
+            "o SSUTLS utiliza criptografia assimétrica (RSA, ECC) durante toda a sessão para garantir maior desempenho na troca de dados.",
+            "certificados digitais X.509 não são requeridos no TLS, pois a criptografia simétrica já garante autenticidade do servidor com SSL.",
+            "assinaturas digitais utilizam chaves simétricas para cifrar mensagens e comprovar a identidade do remetente."
+        ],
+        "gabarito": "o hash criptográfico SHA-256 é usado em assinaturas digitais para verificar a integridade dos dados, mas não garante confidencialidade.",
+        "banca": "FCC"
+    },
+    {
+        "id": 25,
+        "enunciado": "Um desenvolvedor web está trabalhando em um projeto que envolve a transferência de dados do usuário através de um formulário on-line. Por questões de privacidade e segurança, ele precisa garantir que os dados submetidos pelos usuários não sejam expostos na URL do navegador.\nNesse contexto, o método de requisição definido no protocolo HTTP que deve ser utilizado durante a transferência é o",
+        "alternativas": [
+            "GET.",
+            "HEAD.",
+            "POST.",
+            "QUERY.",
+            "SUBMIT."
+        ],
+        "gabarito": "POST.",
+        "banca": "CESGRANRIO"
+    },
+    {
+        "id": 26,
+        "enunciado": "Julgue o próximo item, relativo a redes de computadores.\nO protocolo HTTP é utilizado para transferência de emails entre servidores de correio eletrônico e clientes de email.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 27,
+        "enunciado": "No contexto dos métodos disponíveis pelo protocolo HTTP, a lista que contém apenas métodos válidos é:",
+        "alternativas": [
+            "GET, POST, PUT;",
+            "GET, PUT, SEND;",
+            "POST, READ, WRITE;",
+            "PUT, SET, WRITE;",
+            "SEND, INPUT, OUTPUT."
+        ],
+        "gabarito": "GET, POST, PUT;",
+        "banca": "FGV"
+    },
+    {
+        "id": 28,
+        "enunciado": "O protocolo utilizado para transferência de páginas web é o:",
+        "alternativas": [
+            "HTTP.",
+            "FTP.",
+            "SSH.",
+            "POP3.",
+            "SMTP."
+        ],
+        "gabarito": "HTTP.",
+        "banca": "FEPESE"
+    },
+    {
+        "id": 29,
+        "enunciado": "Em relação ao protocolo HTTP e ao método HTTP POST, assinale alternativa correta.",
+        "alternativas": [
+            "O método POST envia dados no corpo da requisição para criação ou atualização de recursos no servidor.",
+            "O método POST é utilizado exclusivamente para receber dados do servidor.",
+            "O método POST é idempotente e seguro.",
+            "O método POST utiliza parâmetros na URL para enviar dados ao servidor.",
+            "O método POST não permite o envio de dados no corpo da requisição."
+        ],
+        "gabarito": "O método POST envia dados no corpo da requisição para criação ou atualização de recursos no servidor.",
+        "banca": "Instituto AOCP"
+    },
+    {
+        "id": 30,
+        "enunciado": "HTTP/1.1 200 XXXX Connection: close Considerando-se esse trecho inicial de uma mensagem de resposta HTTP, é correto afirmar que XXXX representa",
+        "alternativas": [
+            "Moved Permanently, o que significa que o objeto requisitado foi removido em definitivo e que novo URL é especificado no cabeçalho Location: da mensagem de resposta.",
+            "Not Found, o que significa que o documento requisitado não existe no servidor.",
+            "OK, o que significa que a requisição foi bem-sucedida e a informação é entregue com a resposta.",
+            "Bad Request, o que significa que o código genérico de erro da requisição não pôde ser entendido pelo servidor.",
+            "HTTP Version Not Supported, o que significa que a versão do HTTP requisitada não é suportada pelo servidor."
+        ],
+        "gabarito": "OK, o que significa que a requisição foi bem-sucedida e a informação é entregue com a resposta.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 31,
+        "enunciado": "Uma solicitação de conexão HTTP (Hypertext Transfer Protocol) foi enviada para um servidor de páginas desse tipo na internet. A resposta a essa solicitação possui código de estado (status) 403.\nO provável motivo do recebimento do código de estado (status) 403 nessa tentativa de conexão é:",
+        "alternativas": [
+            "a solicitação foi recebida, compreendida e será processada com sucesso pelo servidor;",
+            "houve um redirecionamento de página;",
+            "a página não pode ser encontrada ou não existe;",
+            "a solicitação não foi autorizada pelo servidor;",
+            "o servidor web não conseguiu processar a solicitação."
+        ],
+        "gabarito": "a solicitação não foi autorizada pelo servidor;",
+        "banca": "FGV"
+    },
+    {
+        "id": 32,
+        "enunciado": "Um método HTTP é considerado seguro quando ele não altera o estado do servidor. Qual alternativa cita apenas métodos HTTP seguros?",
+        "alternativas": [
+            "GET, POST, PUT.",
+            "GET, POST, HEAD.",
+            "GET, HEAD, OPTIONS.",
+            "PUT, HEAD, OPTIONS.",
+            "PUT, POST, DELETE."
+        ],
+        "gabarito": "GET, HEAD, OPTIONS.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 33,
+        "enunciado": "No que diz respeito à arquitetura de sistemas web, julgue o item a seguir.\nNo WebSocket, utiliza-se um fluxo de bytes no lugar de um fluxo de mensagens para fornecer comunicações completas em uma conexão TCP.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 34,
+        "enunciado": "A respeito de tecnologia de integração com RESTful, julgue o item a seguir.\nO protocolo de comunicação HTTP e a identificação de recursos podem ser utilizados por meio de URL (uniform resource locator).",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 35,
+        "enunciado": "O protocolo HTTP define um conjunto de métodos de requisição responsáveis por indicar a ação a ser executada para um dado recurso.\nUm método HTTP é denominado idempotente se:",
+        "alternativas": [
+            "as requisições em algum momento causam danos ou efeitos colaterais irreversíveis no servidor;",
+            "as requisições com cabeçalhos e parâmetros diferentes causam uma mesma mudança no estado do recurso;",
+            "toda requisição estabelecer um túnel para o servidor identificado pelo recurso de destino;",
+            "o código de status for o mesmo entre requisições que aplicam modificações parciais em um recurso;",
+            "uma requisição idêntica puder ser feita uma ou mais vezes em sequência com o mesmo efeito enquanto deixa o servidor no mesmo estado."
+        ],
+        "gabarito": "uma requisição idêntica puder ser feita uma ou mais vezes em sequência com o mesmo efeito enquanto deixa o servidor no mesmo estado.",
+        "banca": "FGV"
+    },
+    {
+        "id": 36,
+        "enunciado": "Os navegadores web, ou web browsers, se comunicam geralmente com servido(cid:0)res web através de protocolos. São exemplos de protocolos de transferência suportados pelos navegadores web, EXCETO:",
+        "alternativas": [
+            "FTP.",
+            "HTML.",
+            "HTTP.",
+            "HTTPS."
+        ],
+        "gabarito": "HTML.",
+        "banca": "FUMARC"
+    },
+    {
+        "id": 37,
+        "enunciado": "Julgue o item subsequente, a respeito de HTTP e DNS.\nO HTTP é capaz de criptografar automaticamente a comunicação de dados entre o navegador do usuário e o servidor do sítio que está sendo acessado.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 38,
+        "enunciado": "Acerca de contêineres, microsserviços e APIs, julgue o item a seguir.\nUsuários que recebem um código de status HTTP 4XX podem refazer a solicitação mesmo sem alterar nada e ter sucesso na próxima resposta.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 39,
+        "enunciado": "Julgue o item subsequente, relativo a protocolos.\nEm sítios que usam o protocolo HTTPS, a comunicação entre cliente e servidor é criptografada, o que dificulta a interceptação das informações.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 40,
+        "enunciado": "No modelo de arquitetura TCP/IP, a camada em que se dá o uso do protocolo HTTP é a camada de",
+        "alternativas": [
+            "aplicação.",
+            "transporte.",
+            "rede.",
+            "enlace."
+        ],
+        "gabarito": "aplicação.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 41,
+        "enunciado": "Ao analisar como o HTTP define como os clientes requisitam páginas aos servidores e como eles as transferem aos clientes, é correto afirmar que:",
+        "alternativas": [
+            "o cliente HTTP primeiro inicia uma conexão HTTP com o servidor. Uma vez estabelecida, os processos do navegador e do servidor acessam o HTTP por meio de suas interfaces de socket;",
+            "TCP oferece ao HTTP um serviço confiável de transferência de dados, o que implica que toda mensagem de requisição TCP emitida por um processo cliente chegará intacta ao servidor;",
+            "toda mensagem de resposta TCP emitida pelo processo servidor chegará intacta ao cliente. O TCP não precisa se preocupar com dados perdidos ou com detalhes de como o HTTP se recupera da perda de dados ou os reordena dentro da rede;",
+            "o servidor envia ao cliente os arquivos solicitados e armazena qualquer informação de estado sobre o cliente. Se determinado cliente solicita o mesmo objeto duas vezes em um período de poucos segundos, o servidor não responde dizendo que acabou de enviá-lo;",
+            "o cliente envia mensagens de requisição HTTP para sua interface socket e recebe mensagens de resposta HTTP de sua interface socket. Já o servidor HTTP recebe mensagens de requisição de sua interface socket e envia mensagens de resposta para sua interface socket."
+        ],
+        "gabarito": "o cliente envia mensagens de requisição HTTP para sua interface socket e recebe mensagens de resposta HTTP de sua interface socket. Já o servidor HTTP recebe mensagens de requisição de sua interface socket e envia mensagens de resposta para sua interface socket.",
+        "banca": "FGV"
+    },
+    {
+        "id": 42,
+        "enunciado": "Um determinado Sistema atende o tráfego de dados B2B de uma empresa do setor automotivo. O Sistema trabalha com a modalidade SaaS hospedando um Web Service trocando arquivos XML, que por padrão atende na porta TCP de número. Assinale a alternativa que preencha corretamente a lacuna.",
+        "alternativas": [
+            "oitenta.",
+            "cinquenta e três.",
+            "cento e dez.",
+            "vinte e cinco."
+        ],
+        "gabarito": "oitenta.",
+        "banca": "IBFC"
+    },
+    {
+        "id": 43,
+        "enunciado": "HTTP/1.1 200 OK Date: Tue, 06 Feb 2024 16:21:22 GMT Server: Apache Last-Modified: Mon, 05 Fev 2024 21:11:27 GMT ETag: “51142bc1-7449-479b075b2891b” Accept-Ranges: bytes Content-Length: 21233 Content-Type: text/html <!DOCTYPE html... (here comes the 21233 bytes of the requested web page) Com base no trecho precedente, julgue o item que se segue, a respeito de HTTP.\nETag é um identificador para uma versão específica de um recurso.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 44,
+        "enunciado": "código de estado do Hypertext Transfer Protocol (HTTP) é um código de resposta de três dígitos que indica o resultado de uma requisição HTTP.\nPor exemplo, o código 403 indica que o acesso ao recurso requisitado (arquivo, página Web, etc.) está “Proibido” (forbidden). Já o código 500 indica “Erro interno no servidor”.\nUm código de estado bastante conhecido é o 404, o qual indica que:",
+        "alternativas": [
+            "a requisição enviada é inválida.",
+            "a URL de requisição é muito grande.",
+            "o recurso requisitado (arquivo, página Web, etc.) não foi encontrado.",
+            "o recurso requisitado (arquivo, página Web, etc.) está sendo utilizado por outro usuário.",
+            "a requisição HTTP originou o redirecionamento temporário para outro recurso (página Web, servidor, etc)."
+        ],
+        "gabarito": "o recurso requisitado (arquivo, página Web, etc.) não foi encontrado.",
+        "banca": "FEPESE"
+    },
+    {
+        "id": 45,
+        "enunciado": "Davi administra o servidor web Apache do TJSE. Foi solicitado a Davi ativar no servidor web o suporte à versão 2 do Hypertext Transfer Protocol (HTTP/2), mantendo o suporte à versão 1.1. Davi optou por ativar no Apache a variante do HTTP/2 que opera sobre Transport Layer Security (TLS). Para atender a solicitação, Davi alterou o valor da diretiva Protocols na configuração do Apache, definindo que as conexões HTTP/2 tenham preferência sobre as conexões HTTP/1.1.\nDavi alterou o valor da diretiva Protocols do Apache para:",
+        "alternativas": [
+            "h2 h1.1;",
+            "h2c h1.1;",
+            "h2 http/1.1;",
+            "http/2 http/1.1;",
+            "http/2c http/1.1."
+        ],
+        "gabarito": "h2 http/1.1;",
+        "banca": "FGV"
+    },
+    {
+        "id": 46,
+        "enunciado": "Uma Analista precisa utilizar uma função de callback baseada em HTTP que viabiliza a comunicação entre duas interfaces de programação de aplicações, de forma que em vez de um cliente solicitar dados de um servidor, o servidor envia dados ao cliente quando ocorre um determinado evento. Ela pretende utilizar esse recurso em um sistema de e-commerce para enviar uma solicitação HTTP ao cliente sempre que um pedido for feito. Baseado nessa descrição, a opção adequada que a Analista deve utilizar é",
+        "alternativas": [
+            "um Evento Negocial.",
+            "um RESTul Web Server.",
+            "um Webhook.",
+            "uma API tradicional.",
+            "um Message Broker."
+        ],
+        "gabarito": "um Webhook.",
+        "banca": "FCC"
+    },
+    {
+        "id": 47,
+        "enunciado": "Cookies são pequenos arquivos gravados no computador ao acessar sites na internet e reenviados a esses mesmos sites quando eles são visitados novamente. Sobre cookies, é INCORRETO afirmar que podem ser:",
+        "alternativas": [
+            "Temporários, quando são apagados no momento em que o navegador é fechado.",
+            "De terceiros, quando pertencentes a outro domínio.",
+            "Seguros, quando são apagados ou atualizados somente pelo domínio que os criou.",
+            "Primários, quando definidos pelo domínio do site visitado.",
+            "Permanentes, quando ficam gravados no computador até expirar ou serem apagados."
+        ],
+        "gabarito": "Seguros, quando são apagados ou atualizados somente pelo domínio que os criou.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 48,
+        "enunciado": "O Hypertext Transfer Protocol (HTTP) é um protocolo, sem estado, de nível de aplicação para sistemas de informação de hipertexto distribuídos e colaborativos. O HTTP permite que um emissor crie uma requisição condicional com um ou mais campos de cabeçalho de requisição que indicam uma pré-condição a ser testada antes de aplicar o método de requisição ao recurso de destino. Se a pré- -condição especificada não for atendida, o servidor não retorna o item requisitado. As requisições GET condicionais são o mecanismo mais eficiente para atualizações de cache HTTP. Pode-se usar um campo de cabeçalho nessas requisições condicionais para solicitar a transferência de um item sob a condição de ele ter sido atualizado desde uma data especificada. Um exemplo de uso desse campo de cabeçalho é o",
+        "alternativas": [
+            "If-Modified-Since: Sat, 29 Oct 2024 19:43:31 GMT.",
+            "If-Changed-Since: Sat, 29 Oct 2024 19:43:31 GMT.",
+            "If-Altered-Since: Sat, 29 Oct 2024 19:43:31 GMT.",
+            "If-Revised-After: Sat, 29 Oct 2024 19:43:31 GMT.",
+            "If-Updated-Since: Sat, 29 Oct 2024 19:43:31 GMT."
+        ],
+        "gabarito": "If-Modified-Since: Sat, 29 Oct 2024 19:43:31 GMT.",
+        "banca": "CESGRANRIO"
+    },
+    {
+        "id": 49,
+        "enunciado": "A analista Zélia está configurando um filtro de requisições no servidor web. O filtro de Zélia é baseado no cabeçalho de requisição do Hypertext Transfer Protocol\n(HTTP) que permite ao servidor identificar a página web que originou a requisição.\nO filtro de Zélia se baseia no cabeçalho do HTTP:",
+        "alternativas": [
+            "link;",
+            "from;",
+            "origin;",
+            "referer;",
+            "location."
+        ],
+        "gabarito": "referer;",
+        "banca": "FGV"
+    },
+    {
+        "id": 50,
+        "enunciado": "O analista Sandro projetou o aplicativo web TribunalOnline, baseado no Hypertext Transfer Protocol (HTTP). Sandro definiu que os navegadores web clientes do TribunalOnline devem ser aqueles capazes de criar conexões HTTP persistentes, nas quais múltiplos recursos web possam ser transmitidos em uma mesma conexão. Os navegadores clientes devem ser compatíveis, no mínimo, com a versão mais baixa do HTTP que utiliza a persistência da conexão por padrão, sem o uso de opções extras.\nSandro definiu que os navegadores web clientes do TribunalOnline devem suportar, no mínimo, a versão do HTTP:",
+        "alternativas": [
+            "0.9;",
+            "1.0;",
+            "1.1;",
+            "2;",
+            "3."
+        ],
+        "gabarito": "1.1;",
+        "banca": "FGV"
+    },
+    {
+        "id": 51,
+        "enunciado": "A respeito de redes de computadores, julgue o item que se segue.\nO HTTP usa o UDP como protocolo de transporte subjacente; assim, o cliente HTTP primeiro inicia uma conexão UDP com o servidor e, uma vez estabelecida tal conexão, os processos do navegador e do servidor acessam o TCP por meio de suas interfaces de socket para garantir a entrega dos pacotes.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 52,
+        "enunciado": "Uma vez que estabeleça uma conexão, um navegador envia uma requisição HTTP para o servidor. Nesse sentido, assinale a alternativa que corresponde a uma requisição.",
+        "alternativas": [
+            "Bizagi.",
+            "Primary key.",
+            "272.",
+            "CRT.",
+            "GET."
+        ],
+        "gabarito": "GET.",
+        "banca": "Instituto AOCP"
+    },
+    {
+        "id": 53,
+        "enunciado": "A internet é uma rede global de computadores interconectados que permite comunicação e troca de dados entre dispositivos em todo o mundo. Essa rede é composta por várias redes menores que são conectadas entre si, usando um conjunto de protocolos padronizados. Entre estes protocolos, um dos mais utilizados é o protocolo HTTP. Assinale a alternativa que apresenta a definição do protocolo HTTP.",
+        "alternativas": [
+            "O HTTP é um protocolo usado exclusivamente para a troca de mensagens em arquivos.txt.",
+            "O HTTP é um protocolo usado principalmente para acessar dados na World Wide Web.",
+            "O HTTP é um protocolo usado principalmente para a autenticação e certificação de usuários em uma plataforma.",
+            "O HTTP é um protocolo usado para principalmente coletar dados de navegação do usuário e reportar erros.",
+            "O HTTP é um protocolo usado exclusivamente para enviar vídeos e áudios via internet."
+        ],
+        "gabarito": "O HTTP é um protocolo usado principalmente para acessar dados na World Wide Web.",
+        "banca": "IBFC"
+    },
+    {
+        "id": 54,
+        "enunciado": "O protocolo HTTP é comumente utilizado para o trafego de informações na Web, não é diferente em aplicações utilizando linguagem PHP, que enviam e recepcionam dados utilizando este protocolo. Assinale a alternativa referente as características do método POST.",
+        "alternativas": [
+            "Permite o envio de dados maiores; Não garante a entrega total da requisição.",
+            "Permite o envio de dados maiores; Encapsula os dados no corpo da requisição.",
+            "Permite o envio de dados limitados; Não é recomendado para o envio de informações sensíveis.",
+            "Encapsula as informações no corpo da mensagem; Não pode ser utilizado na arquitetura REST."
+        ],
+        "gabarito": "Permite o envio de dados maiores; Encapsula os dados no corpo da requisição.",
+        "banca": "IBFC"
+    },
+    {
+        "id": 55,
+        "enunciado": "O modelo TCP/IP é composto por camadas distintas. Cada camada é responsável por funções específicas na comunicação de rede e utiliza protocolos que desempenham papéis essenciais para garantir a transmissão eficiente de dados.\nConsiderando tais informações, assinale a alternativa que apresenta corretamente um protocolo que atua na camada de aplicação do modelo TCP/IP.",
+        "alternativas": [
+            "Ethernet.",
+            "PPP (Point-to-Point Protocol).",
+            "ICMP (Internet Control Message Protocol).",
+            "UDP (User Datagram Protocol).",
+            "HTTP (Hypertext Transfer Protocol)."
+        ],
+        "gabarito": "HTTP (Hypertext Transfer Protocol).",
+        "banca": "Instituto AOCP"
+    },
+    {
+        "id": 56,
+        "enunciado": "A respeito de arquitetura de rede TCP/IP, julgue o item a seguir.\nO protocolo HTTP (hypertext transfer protocol) opera na camada de transporte do modelo de referência TCP/IP.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 57,
+        "enunciado": "Sobre o protocolo HTTP, é INCORRETO afirmar que:",
+        "alternativas": [
+            "É um protocolo stateless, ou seja, as requisições são tratadas de forma independente, não mantendo informações sobre a conexão entre as solicitações e respostas.",
+            "É o principal protocolo de comunicação usado para transferência de arquivos entre servidores e permite o acesso remoto para download ou upload de arquivos.",
+            "As solicitações e respostas podem ser verificadas por meio de códigos de status, indicando o sucesso ou falha na transmissão.",
+            "Define as operações básicas que podem ser executadas em um recurso web, como obter (GET), enviar (POST), atualizar (PUT) e excluir (DELETE).",
+            "Adota o modelo cliente-servidor, em que um cliente solicita informações a um servidor web e o servidor responde com os dados solicitados."
+        ],
+        "gabarito": "É o principal protocolo de comunicação usado para transferência de arquivos entre servidores e permite o acesso remoto para download ou upload de arquivos.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 58,
+        "enunciado": "Julgue o item subsequente, relativos a redes de computadores.\nhttps://www.telebras.com.br/ é uma URL em que HTTPS indica o protocolo de comunicação, com uma camada de proteção na transmissão de dados, entre o computador de um usuário e o servidor, que permite a obtenção de recursos textuais do sítio da TELEBRAS.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 59,
+        "enunciado": "O servidor OAuth2 do TJMS recebeu a seguinte requisição no endpoint de token:\nPOST /token HTTP/1.1 Host: auth-tjms.jus.br Content-Type: application/x-www-form-urlencoded grant_type=client_credentials &client_id=client_id &client_secret=client_secret De acordo com a especificação do OAuth2, a requisição OAuth2 acima é:",
+        "alternativas": [
+            "inválida, pois há parâmetros obrigatórios ausentes;",
+            "inválida, pois utiliza o método POST ao invés do GET;",
+            "válida, e os parâmetros obrigatórios estão presentes;",
+            "inválida, pois utiliza o HTTP/1.1 ao invés do HTTP/2.0;",
+            "inválida, pois há parâmetros com valores não permitidos."
+        ],
+        "gabarito": "válida, e os parâmetros obrigatórios estão presentes;",
+        "banca": "FGV"
+    },
+    {
+        "id": 60,
+        "enunciado": "Assinale a opção que apresenta o objeto servlet que atribui um identificador exclusivo para determinado usuário e no qual são mantidas as informações específicas desse usuário em todo o aplicativo.",
+        "alternativas": [
+            "HttpResponse.",
+            "HttpRequests.",
+            "HttpSession.",
+            "HttpsParameters.",
+            "HttpServer."
+        ],
+        "gabarito": "HttpSession.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 61,
+        "enunciado": "Um órgão público disponibilizou uma API REST consumida por diferentes portais web externos. Durante testes de segurança, foi verificado que navegadores permitiam chamadas AJAX autenticadas provenientes de quaisquer domínios externos previamente não homologados. Considerando os mecanismos modernos de controle de acesso entre origens, a configuração identificada na API é a",
+        "alternativas": [
+            "aplicação de balanceamento de carga HTTP associado à replicação de sessões autenticadas entre servidores de origens distintas.",
+            "utilização de certificados digitais autoassinados destinados à autenticação mútua entre aplicações distribuídas.",
+            "adoção de serialização XML compatível com integrações baseadas em serviços SOAP legados.",
+            "implementação de autenticação centralizada baseada em Single Sign-On utilizando protocolos federados de identidade multiorigem.",
+            "configuração excessivamente permissiva de compartilhamento de recursos entre aplicações executadas em origens distintas."
+        ],
+        "gabarito": "configuração excessivamente permissiva de compartilhamento de recursos entre aplicações executadas em origens distintas.",
+        "banca": "FCC"
+    },
+    {
+        "id": 62,
+        "enunciado": "Ao acessarmos uma aplicação web diversos serviços são acionados, desde os serviços de gerenciamento de rede até a recepção das requisições pelos servidores de web/páginas, servidores de banco de dados, servidores de armazenamento de arquivos e outros. Com base nos servidores web/páginas, assinale a alternativa que apresenta qual é o principal protocolo para esta comunicação entre cliente-servidor.",
+        "alternativas": [
+            "FTP.",
+            "HTTP/HTTPs.",
+            "DNS.",
+            "TCP/IP."
+        ],
+        "gabarito": "HTTP/HTTPs.",
+        "banca": "IBFC"
+    },
+    {
+        "id": 63,
+        "enunciado": "Assinale a alternativa que apresenta uma porta de comunicação comumente utilizada pelo protocolo HTTP.",
+        "alternativas": [
+            "20.",
+            "53.",
+            "80.",
+            "143.",
+            "587."
+        ],
+        "gabarito": "80.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 64,
+        "enunciado": "Ao tentar acessar um serviço por meio de uma requisição a uma API RESTful, a aplicação cliente recebeu como resposta o código HTTP 500. Com base nas convenções do protocolo HTTP, esse código indica que",
+        "alternativas": [
+            "ocorreu um erro interno no servidor que o impediu de concluir a requisição.",
+            "a requisição foi malformada ou continha parametros inválidos, e o servidor nao conseguiu processá-la.",
+            "o recurso solicitado nao foi encontrado no servidor.",
+            "a requisição foi bem-sucedida, mas o servidor optou por nao retornar nenhum conteúdo.",
+            "o servidor recebeu a requisição, mas nao tem autorização para executá-la."
+        ],
+        "gabarito": "ocorreu um erro interno no servidor que o impediu de concluir a requisição.",
+        "banca": "FCC"
+    },
+    {
+        "id": 65,
+        "enunciado": "Um usuário está relatando que o seu navegador apresenta o seguinte código de erro ao tentar acessar uma página inicial de um site na intranet:\nHTTP Error 403 – Forbidden O navegador utilizado pelo usuário está na lista de softwares homologados para uso na rede da empresa. Antes de uma análise aprofundada e apenas com essas informações, a conclusão mais provável é que",
+        "alternativas": [
+            "o usuário não tem permissão para navegar na intranet.",
+            "o usuário não tem permissão para navegar na internet.",
+            "o servidor HTTP está indisponível.",
+            "o servidor HTTP está com uma sobrecarga.",
+            "deve haver erros de configuração de permissões no servidor HTTP."
+        ],
+        "gabarito": "deve haver erros de configuração de permissões no servidor HTTP.",
+        "banca": "Instituto AOCP"
+    },
+    {
+        "id": 66,
+        "enunciado": "Uma empresa do setor imobiliário está implantando uma nova infraestrutura de servidores para hospedar seus sites.\nConsidere os seguintes pré-requisitos:\nI. os sites serão acessíveis por um único IP público, por meio dos protocolos HTTP e HTTPS, porém estarão instalados em servidores diferentes em seu datacenter;\nII. deve-se evitar a comunicação direta entre usuários e servidores onde estarão hospedados os sites, impedindo ataques diretos a esses sites.\nEm relação à solução que atende os pré-requisitos listados acima, assinale a afirmativa correta.",
+        "alternativas": [
+            "Não é possível que vários servidores atendam a um único IP público.",
+            "Configurar o switch da rede interna para os servidores responderem para o mesmo IP privado.",
+            "Configurar o serviço de DNS para distribuir corretamente o conteúdo do site pela internet.",
+            "Configurar um proxy-reverso para redirecionar o tráfego dos sites para o servidor correto de acordo com os cabeçalhos HTTP.",
+            "Configurar um balanceador de carga da camada 4 para distribuir os pacotes TCP entre os servidores de acordo com os cabeçalhos HTTP."
+        ],
+        "gabarito": "Configurar um proxy-reverso para redirecionar o tráfego dos sites para o servidor correto de acordo com os cabeçalhos HTTP.",
+        "banca": "FGV"
+    },
+    {
+        "id": 67,
+        "enunciado": "Analise as afirmativas abaixo sobre HTTPS.\n1. Por padrão, opera sobre a porta 443, em contraste com o HTTP, que opera sobre a porta 80.\n2. Cookies em um site sobre HTTPS devem ter o atributo de segurança ativado para garantir a efetividade do protocolo.\n3. Chaves públicas e privadas de prazo curto são empregadas para gerar chaves de sessão de prazo longo.\nAssinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "É correta apenas a afirmativa 2.",
+            "São corretas apenas as afirmativas 1 e 2.",
+            "São corretas apenas as afirmativas 1 e 3.",
+            "São corretas apenas as afirmativas 2 e 3.",
+            "São corretas as afirmativas 1, 2 e 3."
+        ],
+        "gabarito": "São corretas apenas as afirmativas 1 e 2.",
+        "banca": "FEPESE"
+    },
+    {
+        "id": 68,
+        "enunciado": "O HTTP/2 é uma revisão importante do protocolo de rede HTTP amplamente utilizado pela World Wide Web.\nSobre o HTTP/2, assinale a afirmativa correta.",
+        "alternativas": [
+            "Permite multiplexar várias solicitações de recursos dentro de uma mesma conexão TCP.",
+            "Usa os esquemas de URI nos formatos \"h2p://\" e \"h2ps://\" em detrimento do \"http://\" e \"https://\".",
+            "É uma especificação alternativa que modifica, aprimora e obsoleta a sintaxe do HTTP/1.",
+            "Opera por padrão sobre a porta 88 e não mais na porta 80 conforme versões anteriores deste protocolo.",
+            "Aumenta a latência na web ao impedir a compactação de cabeçalhos HTTP para manter a retrocompatibilidade."
+        ],
+        "gabarito": "Permite multiplexar várias solicitações de recursos dentro de uma mesma conexão TCP.",
+        "banca": "FGV"
+    },
+    {
+        "id": 69,
+        "enunciado": "Em relação aos métodos de requisição HTTP, qual NÃO faz parte do protocolo HTTP?",
+        "alternativas": [
+            "HEAD.",
+            "DELETE.",
+            "PUT.",
+            "TRACE.",
+            "DEBUG."
+        ],
+        "gabarito": "DEBUG.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 70,
+        "enunciado": "Acerca de aspectos diversos pertinentes a objetos de avaliação associados à análise de sistemas, julgue o item que se segue.\nCriado por um cliente de aplicações, um cookie HTTP é um bloco de dados que é armazenado no servidor de aplicação de banco de dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 71,
+        "enunciado": "Os logs são fundamentais em TI para monitorar sistemas, detectar falhas e identificar atividades suspeitas. Eles ajudam na auditoria, na segurança e na tomada de decisões técnicas.\nA tabela a seguir apresenta 10 registros extraídos dos logs de acesso a um servidor web, contendo informações como IP, horário, endereço solicitado e o código de status HTTP retornado.\nEndereço Código de Status IPv4 Solicitante Horário solicitado HTTP 28/Jun/2025 45.87.21.14 /admin 200 10:14:32 28/Jun/2025 203.0.13.56 /site 301 16:45:11 29/Jun/2025 91.18.14.92 /login 200 02:33:56 29/Jun/2025 18.51.10.88 /docs 403 05:07:13 29/Jun/2025 23.95.16.4 /config 401 19:22:12 29/Jun/2025 64.23.16.19 /backup 404 21:55:42 30/Jun/2025 20.20.10.56 /dashboard 200 00:12:18 30/Jun/2025 15.19.10.13 /status 302 03:03:34 30/Jun/2025 34.17.59.81 /.git 403 09:40:57 30/Jun/2025 13.45.67.89 /test 400 13:29:14 Analise os dados da tabela e assinale a opção correspondente ao endereço que foi redirecionado permanentemente para outro.",
+        "alternativas": [
+            "/admin.",
+            "/site.",
+            "/backup.",
+            "/status.",
+            "/test."
+        ],
+        "gabarito": "/site.",
+        "banca": "FGV"
+    },
+    {
+        "id": 72,
+        "enunciado": "Um perito em computação está avaliando pacotes de um tráfego HTTP que foi capturado através de uma ferramenta com essa finalidade (e.g. Wireshark). Entender a funcionalidade de certos protocolos e suas versões utilizadas pode ser útil durante uma investigação. Como seria possível descobrir, por meio da inspeção de pacotes, qual é a versão do protocolo HTTP utilizada pelo navegador?",
+        "alternativas": [
+            "Identificando a mensagem GET enviada pelo navegador.",
+            "Identificando a mensagem REPLY enviada pelo servidor.",
+            "Inspecionando o campo protocol do segmento TCP encaminhado no primeiro GET.",
+            "Inspecionando o campo protocol do segmento TCP encaminhado no primeiro REPLY.",
+            "No campo de versão do pacote IPv4."
+        ],
+        "gabarito": "Identificando a mensagem GET enviada pelo navegador.",
+        "banca": "Instituto AOCP"
+    },
+    {
+        "id": 73,
+        "enunciado": "O código de status HTTP 403, em resposta ao cliente, acontece quando:",
+        "alternativas": [
+            "É solicitado acesso a um recurso não encontrado no servidor.",
+            "Ocorre timeout ao acessar um recurso no servidor.",
+            "O cliente não está autenticado.",
+            "O cliente não possui permissão para acessar o recurso solicitado.",
+            "Uma requisição é processada com sucesso."
+        ],
+        "gabarito": "O cliente não possui permissão para acessar o recurso solicitado.",
+        "banca": "FUNDATEC"
+    },
+    {
+        "id": 74,
+        "enunciado": "Ao digitar uma URL na barra de endereço de um navegador, iniciamos uma jornada pela internet. Essa sequência de caracteres, como https://www.exemplo.com, serve como um guia para que o computador encontre o servidor onde o site está hospedado e, então, exiba o conteúdo na tela. Assinale a alternativa que apresenta o que permite o uso de \"https://\" em vez de \"http://\" em URLs, conforme descrito no texto.",
+        "alternativas": [
+            "O aumento da capacidade de armazenamento de dados no servidor.",
+            "A implementação de um novo protocolo de transporte para maior velocidade.",
+            "A redução do tamanho dos pacotes transmitidos pela rede.",
+            "A utilização de pacotes SSL (ou TLS) para encapsular mensagens HTTP."
+        ],
+        "gabarito": "A utilização de pacotes SSL (ou TLS) para encapsular mensagens HTTP.",
+        "banca": "IBFC"
+    },
+    {
+        "id": 75,
+        "enunciado": "Um internauta em sua residência, utilizando seu notebook, acessou o site www.ibfc.org.br pela primeira vez, e a página padrão da empresa foi exibida. Sabe-se que a empresa possui seu site atendido pelo protocolo de hipertexto com e sem criptografia, dependendo da área do site que o usuário estiver acessando. Então se o usuário passeou por áreas não seguras e seguras, certamente as portas TCP ou UDP utilizadas na comunicação entre se equipamento e o site foram ______.\nAssinale a alternativa que preencha corretamente a lacuna.",
+        "alternativas": [
+            "80, 443 e 53.",
+            "80, 445 e 53.",
+            "53, 80 e 3128.",
+            "53, 8080, 445.",
+            "110, 587, 445."
+        ],
+        "gabarito": "80, 443 e 53.",
+        "banca": "IBFC"
+    },
+    {
+        "id": 76,
+        "enunciado": "Kátia é uma web designer contratada para fazer uma página web para o Tribunal de Justiça. Ela fará uso do protocolo HTTP, pois este é um protocolo da camada de aplicação, o qual executa sob o TCP e associado à web. As operações nesse protocolo são chamadas de métodos. Kátia, então, testa o envio da página pelo servidor, cria uma coleção de páginas web em um servidor remoto e instrui o servidor a enviar de volta a solicitação.\nPara implementar a página web, Kátia deve usar, respectivamente, os métodos:",
+        "alternativas": [
+            "POST, HEAD, DELETE;",
+            "GET, CONNECT, TRACE;",
+            "PUT, CONNECT, OPTIONS;",
+            "POST, HEAD, OPTIONS;",
+            "GET, PUT, TRACE."
+        ],
+        "gabarito": "GET, PUT, TRACE.",
+        "banca": "FGV"
+    },
+    {
+        "id": 77,
+        "enunciado": "A respeito de redes de computadores, julgue o item a seguir.\nHTTP (hypertext transfer protocol) é um protocolo da camada de aplicação da Web e usa o TCP (transmission control protocol) como seu protocolo de transporte subjacente; como o servidor envia ao cliente os arquivos solicitados sem armazenar informação de estado sobre o cliente, o HTTP é denominado protocolo sem estado.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 78,
+        "enunciado": "Em relação a protocolos de aplicação, julgue o item seguinte.\nO protocolo HTTP funciona na camada de aplicação do protocolo TCP/IP, sendo capaz de fornecer acesso a páginas web e de também enviar e receber emails, estabelecendo comunicação com servidores de email.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 79,
+        "enunciado": "Considere que um cliente deseja acessar uma página web em um servidor remoto. Para garantir a entrega confiável dos dados, é necessário que uma conexão seja estabelecida entre o cliente e o servidor. Após a troca de dados, a conexão é encerrada. Com base nesse processo, assinale a alternativa correta.",
+        "alternativas": [
+            "O cliente e o servidor podem trocar dados sem precisar estabelecer uma conexão.",
+            "A conexão entre o cliente e o servidor garante que os dados podem ser perdidos durante a comunicação.",
+            "O cliente usa uma porta temporária e o servidor usa a porta 80 para a comunicação, e a conexão deve ser estabelecida antes da troca de dados.",
+            "Não é necessário estabelecer uma conexão entre o cliente e o servidor, pois o protocolo é confiável e garante a entrega dos dados.",
+            "O protocolo de comunicação entre o cliente e servidor não garante que os dados sejam entregues corretamente."
+        ],
+        "gabarito": "O cliente usa uma porta temporária e o servidor usa a porta 80 para a comunicação, e a conexão deve ser estabelecida antes da troca de dados.",
+        "banca": "IBFC"
+    },
+    {
+        "id": 80,
+        "enunciado": "Ao analisar uma conexão HTTP não persistente, constatou-se o acesso ao endereço http://www.highschool.edu/departamentos/home.index.\nUma das etapas da transferência dessa página do servidor para o cliente está corretamente descrita na seguinte alternativa:",
+        "alternativas": [
+            "cliente HTTP envia uma mensagem de download HTTP ao servidor por meio do socket do servidor. Essa mensagem inclui o nome de caminho /departamentos/home.index;",
+            "processo servidor HTTP ordena ao TCP que encerre a conexão TCP. Mas, na realidade, o TCP só a encerrará quando tiver certeza de que o cliente recebeu a mensagem de resposta intacta;",
+            "processo cliente HTTP inicia uma conexão TCP para o servidor www.highschool.edu na porta número 90, que é o número de porta default para o HTTP. Associados à conexão UDP, haverá um socket no cliente e um socket no servidor;",
+            "cliente TCP recebe a mensagem de resposta e a conexão TCP é encerrada. A mensagem indica que o objeto encapsulado é um arquivo HTTP. O cliente extrai o arquivo da mensagem de resposta, analisa o arquivo HTML e encontra referências aos objetos JPEG;",
+            "processo servidor HTML solicita a mensagem de requisição por meio de seu socket, extrai o objeto /departamentos/home.index de seu armazenamento (RAM ou disco), encapsula-o em uma mensagem de resposta HTML e a envia ao cliente HTTP."
+        ],
+        "gabarito": "processo servidor HTTP ordena ao TCP que encerre a conexão TCP. Mas, na realidade, o TCP só a encerrará quando tiver certeza de que o cliente recebeu a mensagem de resposta intacta;",
+        "banca": "FGV"
+    },
+    {
+        "id": 81,
+        "enunciado": "O analista André está reforçando a segurança de um site do TRF1 que é servido pelo nginx. André deve configurar o nginx de forma que as respostas do Hypertext Transfer Protocol (HTTP) incluam o cabeçalho do HTTP que orienta o browser do cliente a carregar o site apenas se o acesso for feito via HTTPS.\nAndré deve configurar no nginx a inclusão do cabeçalho do HTTP:",
+        "alternativas": [
+            "Referrer-Policy;",
+            "X-XSS-Protection;",
+            "X-Frame-Options;",
+            "Content-Security-Policy;",
+            "Strict-Transport-Security."
+        ],
+        "gabarito": "Strict-Transport-Security.",
+        "banca": "FGV"
+    },
+    {
+        "id": 82,
+        "enunciado": "Um internauta tinha problemas para acessar uma página HTTP (Hypertext Transfer Protocol) disponível na internet. Para descobrir a causa do problema, ele usou uma ferramenta de análise de protocolos de rede para capturar os pacotes trocados entre sua máquina e o servidor daquela página. Feito isso, verificou que a resposta para a sua solicitação de conexão HTTP apresentava código de estado (status) 401.\nAssinale a opção que apresenta o provável motivo do recebimento do código de estado(status) 401 nessa tentativa de conexão.",
+        "alternativas": [
+            "A solicitação foi recebida, compreendida e será processada com sucesso pelo servidor.",
+            "A página foi redirecionada.",
+            "A página não pode ser encontrada ou não existe.",
+            "A autenticação é necessária e falhou.",
+            "O servidor não reconhece o método da solicitação ou não possui a capacidade para completá-la."
+        ],
+        "gabarito": "A autenticação é necessária e falhou.",
+        "banca": "FGV"
+    },
+    {
+        "id": 83,
+        "enunciado": "O Engenheiro da Computação está configurando o servidor web do portal de transparência da Assembleia.\nAssinale a alternativa que identifica o protocolo de aplicação usado para transferir e exibir páginas web no navegador dos usuários.",
+        "alternativas": [
+            "HTTP.",
+            "SMTP.",
+            "FTP.",
+            "DNS.",
+            "SSH."
+        ],
+        "gabarito": "HTTP.",
+        "banca": "FGV"
+    },
+    {
+        "id": 84,
+        "enunciado": "Uma desenvolvedora está implementando o carrinho de compras de um sistema de e-commerce. Ela percebe que, ao enviar a segunda requisição HTTP ao servidor — adicionando um segundo produto ao carrinho —, o servidor não tem como associá-la à primeira requisição do mesmo cliente: o carrinho parece estar sempre vazio a cada nova chamada. Assinale a alternativa que identifica corretamente a causa do problema e a abordagem padrão para resolvê-lo.",
+        "alternativas": [
+            "O HTTP é um protocolo sem estado (stateless): cada requisição é processada de forma independente, sem memória de interações anteriores. O estado da sessão é gerenciado na camada de aplicação via cookies — o servidor emite um identificador de sessão que o cliente reenvia em cada requisição subsequente.",
+            "Conexões TCP persistentes (keep-alive) não foram habilitadas. Sem elas, o servidor encerra o contexto da sessão ao fechar o socket. Com keep-alive ativo, o protocolo de transporte mantém automaticamente o estado do carrinho entre requisições.",
+            "Falta um módulo de rastreamento ativo no servidor: servidores HTTP associam automaticamente o estado da sessão ao IP de origem, mas apenas quando o módulo está habilitado — requisições do mesmo IP passam então a compartilhar a mesma sessão.",
+            "O cabeçalho ‘Connection: keep-alive’ não foi incluído nas requisições. Sem ele, o servidor encerra o contexto de sessão após cada resposta e não preserva variáveis, como o conteúdo do carrinho, entre chamadas consecutivas.",
+            "O HTTP/1.0 não suportava sessões persistentes; migrar para HTTP/1.1 e habilitar keep-alive faz o protocolo manter automaticamente o estado da aplicação entre requisições do mesmo cliente."
+        ],
+        "gabarito": "O HTTP é um protocolo sem estado (stateless): cada requisição é processada de forma independente, sem memória de interações anteriores. O estado da sessão é gerenciado na camada de aplicação via cookies — o servidor emite um identificador de sessão que o cliente reenvia em cada requisição subsequente.",
+        "banca": "FUNDATEC"
+    }
+]

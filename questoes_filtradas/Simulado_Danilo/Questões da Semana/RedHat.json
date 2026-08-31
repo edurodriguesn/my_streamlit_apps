@@ -1,0 +1,507 @@
+[
+    {
+        "id": 1,
+        "enunciado": "Os sistemas de arquivos padrão utilizados no Red Hat Enterprise Linux (RHEL) 5, 6 e 7 são, correta e respectivamente,",
+        "alternativas": [
+            "ext4, ext4 e xfs.",
+            "ext3, ext4 e xfs.",
+            "ext3, ext3 e ext4.",
+            "ext4, xfs e xfs.",
+            "ext3, ext4 e ext4."
+        ],
+        "gabarito": "ext3, ext4 e xfs.",
+        "banca": "FCC"
+    },
+    {
+        "id": 2,
+        "enunciado": "A partir de um servidor Red Hat versão 9.1, aberto e funcionando em condições ideais, em seu diretório home e com direitos de superusuários, um analista observou que um de seus diretórios estava com as seguintes permissões: drw-rw-r-- analista analista 6 Apr 15 09:45 PIAUI. Na sequência ele digitou os seguintes comandos.\nsudo groupadd MP sudo usermod --append -G MP analista sudo chgrp MP PIAUI sudo chmod g+rwxs PIAUI Ao final, aplicou o comando ls -ld PIAUI, obtendo a saída",
+        "alternativas": [
+            "-IW-IWSI--. 2 analista MP 6 Apr 15 09:45 PIAUI.",
+            "-rwsr-xr-x 2 MP analista 6 Apr 15 09:45 PIAUI.",
+            "drw-rwsrws-. 2 analista MP 6 Apr 15 09:45 PIAUI.",
+            "drw-rwsr--. 2 analista MP 6 Apr 15 09:45 PIAUI.",
+            "drw-rwsr-. 2 MP analista 6 Apr 15 09:45 PIAUI."
+        ],
+        "gabarito": "drw-rwsr--. 2 analista MP 6 Apr 15 09:45 PIAUI.",
+        "banca": "FCC"
+    },
+    {
+        "id": 3,
+        "enunciado": "RPM é um sistema de gerenciamento de pacotes que roda no Red Hat Enterprise Linux.\nCom relação ao RMP é correto afirmar que",
+        "alternativas": [
+            "permite instalar, reinstalar, remover, atualizar e verificar pacotes com ferramentas padrão de gerenciamento de pacotes, tais como Yum ou APT.",
+            "assina digitalmente seus pacotes usando as chaves de assinatura do GNU Pretty Good Privacy (PGP), garantindo a sua autenticidade e integridade.",
+            "usa metadados para descrever os pacotes, suas instruções de instalação e outros parâmetros de pacotes.",
+            "suporta versões únicas de um mesmo pacote, não permite a instalação de pacotes de diferentes versões.",
+            "permite carregar localmente a base de dados de pacotes caso seja danificada na web, garantindo a funcionalidade do sistema hospedeiro."
+        ],
+        "gabarito": "usa metadados para descrever os pacotes, suas instruções de instalação e outros parâmetros de pacotes.",
+        "banca": "FGV"
+    },
+    {
+        "id": 4,
+        "enunciado": "Um Analista que usa o Linux Red Hat, em condições ideais, editou um arquivo e colocou os comandos abaixo, para indicar os servidores que atuarão na resolução de nomes para o servidor que está configurando.\nsearch localdomain nameserver 8.8.8.8 nameserver 8.8.4.4 Para editar o arquivo em questão, utilizou a instrução",
+        "alternativas": [
+            "vi /etc/dns.conf.",
+            "nano /conf/dns.conf.",
+            "vi /etc/resolv.conf.",
+            "nano /bin/resolv.conf.",
+            "vi /lib/dnsconf.conf."
+        ],
+        "gabarito": "vi /etc/resolv.conf.",
+        "banca": "FCC"
+    },
+    {
+        "id": 5,
+        "enunciado": "Julgue o próximo item, a respeito do Windows Server 2016 e do RedHat Enterprise Linux 7.\nNa situação em que vários aplicativos desenvolvidos e baseados em microsserviços com abordagem de containers devem ser disponibilizados aos usuários de uma organização, é correto instalar e configurar a OpenShift Container Platform, que é a solução de gerenciamento de containers da RedHat, pois não há solução da Microsoft que oferte serviços de Kubernetes para disponibilização desses aplicativos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 6,
+        "enunciado": "Um analista, utilizando o usuário padrão definido no Red Hat, listou o conteúdo de um diretório após ter criado os objetos arquivo.txt e diretório, obtendo a saída abaixo.\n-rw--w-r-- 1 analista analista 0 Oct 12 18:32 arquivo.txt drwx-wxr-x 2 analista analista 4096 Oct 12 18:32 diretório Com base nesta saída, o valor do umask foi definido em",
+        "alternativas": [
+            "0002.",
+            "0244.",
+            "0202.",
+            "0042.",
+            "0642."
+        ],
+        "gabarito": "0042.",
+        "banca": "FCC"
+    },
+    {
+        "id": 7,
+        "enunciado": "Assinale a opção que corresponde, em Red Hat Linux, ao comando que terá como resultado a exibição das permissões de todos os arquivos contidos no diretório meudir.",
+        "alternativas": [
+            "$ ls -dl meudir.",
+            "$ ls -a meudir.",
+            "ls -l meudir.",
+            "$ ls -p meudir.",
+            "$ ls -d meudir."
+        ],
+        "gabarito": "ls -l meudir.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 8,
+        "enunciado": "No Red Hat Enterprise Linux 7, firewalld é um serviço de firewall baseado em host (host-based firewall) que utiliza os conceitos de zonas e serviços, em que as zonas são conjuntos predefinidos de regras.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 9,
+        "enunciado": "Executar o comando sudo renice -18 -p 2028 no terminal do RedHat Linux faz com que",
+        "alternativas": [
+            "a prioridade do processo com PID 18 seja alterado para 2028.",
+            "a prioridade do processo com PID 2028 seja alterado para 2.",
+            "o valor do nice do processo com PID 18 passe para 2028.",
+            "o PID do processo 2028 seja alterado para 18.",
+            "a prioridade do processo com PID 2028 seja alterado para 38."
+        ],
+        "gabarito": "a prioridade do processo com PID 2028 seja alterado para 2.",
+        "banca": "FCC"
+    },
+    {
+        "id": 10,
+        "enunciado": "No Red Hat Enterprise Linux 9.0, o modo como o SELinux atua como se estivesse aplicando as políticas de segurança sem, no entanto, negar nenhuma operação é o modo:",
+        "alternativas": [
+            "autorizativo;",
+            "coercitivo;",
+            "desativado;",
+            "passivo;",
+            "permissivo."
+        ],
+        "gabarito": "permissivo.",
+        "banca": "FGV"
+    },
+    {
+        "id": 11,
+        "enunciado": "A respeito de fundamentos, operação e configuração do Linux RedHat, julgue o item a seguir.\nPara a realização da leitura contínua de um arquivo com atualização em tempo real, como um arquivo de log, utiliza-se o comando tail /var/log/meu_arquivo.log.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 12,
+        "enunciado": "O analista Micael precisa instalar o pacote nodejs em um servidor Red Hat Enterpise Linux (RHEL). Ele deve instalar especificamente a versão 18, uma versão anterior, do nodejs. Sabendo que a versão 18 do nodejs está disponível no repositório AppStream do RHEL, como o stream 18 do módulo nodejs, Micael deve simplificar a instalação utilizando os recursos de modularidade do Dandified YUM.\nMicael deve instalar a versão 18 do módulo nodejs por meio do seguinte comando do Dandified YUM:",
+        "alternativas": [
+            "install nodejs:18.",
+            "module -i nodejs:18.",
+            "install -m nodejs -s 18.",
+            "install -p nodejs -s 18.",
+            "module install nodejs:18."
+        ],
+        "gabarito": "module install nodejs:18.",
+        "banca": "FGV"
+    },
+    {
+        "id": 13,
+        "enunciado": "Acerca da administração do sistema operacional Linux e da linguagem de script Shell, julgue o item subsequente.\nNo Red Hat Enterprise Linux 8 (RHEL 8), o arquivo /etc/sysconfig/network contém as configurações de endereço IP, de máscara de rede e de endereço de broadcast.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 14,
+        "enunciado": "Um tecnólogo de suporte necessita instalar um visualizador de Virtual Network Computing (VNC) no Red Hat Enterprise Linux versão 7 que seja independente de ambiente de desktop.\nEle deverá fazer uso do pacote denominado",
+        "alternativas": [
+            "tigervnc.",
+            "vinagre.",
+            "kdeneworkd-krdc.",
+            "rhelvnc.",
+            "yum."
+        ],
+        "gabarito": "tigervnc.",
+        "banca": "FGV"
+    },
+    {
+        "id": 15,
+        "enunciado": "Considere a configuração de LVM no Linux Red Hat com volumes físicos e grupo de volumes já criados. O comando exemplo abaixo é usado para criar um volume lógico denominado new_logical_volume a partir do grupo de volumes designado new_vol_group:\nlvcreate -L2G -n new_logical_volume new_vol_group Este exemplo cria um volume lógico que usa 2GB do grupo de volumes e:",
+        "alternativas": [
+            "para estar correto, new_vol_group deveria ser escrito como new_physical_volume.",
+            "para estar correto, -L2G -n deveria ser escrito como -L2G n -p.",
+            "para estar correto, lvcreate -L2G deveria ser escrito como lvmcreate #L2G.",
+            "está integralmente correto.",
+            "para estar correto, new_vol_group deveria ser escrito como old_physical_group."
+        ],
+        "gabarito": "está integralmente correto.",
+        "banca": "FCC"
+    },
+    {
+        "id": 16,
+        "enunciado": "No sistema operacional Red Hat Enterprise Linux 7, uma alternativa para o comando fsck é o",
+        "alternativas": [
+            "rhck.",
+            "sfdisk.",
+            "ssm.",
+            "fdsk.",
+            "pfs.."
+        ],
+        "gabarito": "ssm.",
+        "banca": "FCC"
+    },
+    {
+        "id": 17,
+        "enunciado": "Analise a figura a seguir, no contexto do Red Hat Enterprise Linux versão 8. {image(1)} Dadas as permissões ilustradas, está correto concluir que:",
+        "alternativas": [
+            "- indica que se trata de um sub-diretório.",
+            "rwx indica que o proprietário do diretório não tem permissões para ler, escrever e executar o diretório.",
+            "rw- indica que o grupo tem permissões para ler e escrever, mas não para executar o arquivo.",
+            "--- indica que outros usuários têm permissão para ler, escrever ou executar o arquivo.",
+            ". indica que o contexto de segurança da SELinux não está definido para o diretório."
+        ],
+        "gabarito": "rw- indica que o grupo tem permissões para ler e escrever, mas não para executar o arquivo.",
+        "banca": "FGV"
+    },
+    {
+        "id": 18,
+        "enunciado": "Com o Red Hat Enterprise Linux 9, aberto e funcionando em condições ideais, um Analista, a partir do terminal, aplicou o comando ls -l, obtendo a seguinte saída.\n-rwxrw----. 1 analista analista 2 Mar 2 08:48 sefaz Sobre essa saída, o Analista concluiu corretamente que",
+        "alternativas": [
+            "o contexto de segurança do SELinux está desativado para o diretório.",
+            "o proprietário do arquivo tem permissões para ler, escrever e executar o arquivo.",
+            "se trata de permissões aplicadas a um diretório que contém dois arquivos dentro dele.",
+            "outros usuários têm permissão para ler, escrever ou executar o arquivo.",
+            "o grupo tem permissão para ler, mas não para escrever e executar o arquivo."
+        ],
+        "gabarito": "o proprietário do arquivo tem permissões para ler, escrever e executar o arquivo.",
+        "banca": "FCC"
+    },
+    {
+        "id": 19,
+        "enunciado": "O Administrador da rede Linux de uma Secretaria da Fazenda definiu controles de acesso para as aplicações, processos e arquivos do servidor Red Hat Enterprise Linux por meio do SELinux,",
+        "alternativas": [
+            "que funciona como um firewall para toda a rede Linux permitindo ou não a passagem do tráfego pelo servidor.",
+            "que são aplicados por meio das permissões rwxz dos comandos chmod e chown.",
+            "que são conjuntos de regras que indicam ao SELinux o que pode ou não ser acessado conforme as permissões de uma política.",
+            "que são aplicados apenas a usuários não-root, pois os usuários root têm sempre acesso total ao sistema.",
+            "cujas regras substituem completamente as permissões tradicionais do Linux (rwx), tornando comandos como chmod e chown inoperantes."
+        ],
+        "gabarito": "que são conjuntos de regras que indicam ao SELinux o que pode ou não ser acessado conforme as permissões de uma política.",
+        "banca": "FCC"
+    },
+    {
+        "id": 20,
+        "enunciado": "Acerca do sistema operacional Red Hat Enterprise Linux 7, julgue o próximo item.\nNesse sistema operacional, para se realizar busca por pacote com o nome pacote1, é necessário que se utilize o comando yum find pacote1.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 21,
+        "enunciado": "A respeito de fundamentos, operação e configuração do Linux RedHat, julgue o item a seguir.\nO diretório padrão para armazenamento de logs do Linux RedHat é /var/log.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 22,
+        "enunciado": "Dentre algumas das características técnicas incorporadas no sistema operacional Red Hat Enterprise Linux − RHEL 7, consta a",
+        "alternativas": [
+            "melhora no desenvolvimento, entrega, portabilidade e isolamento de aplicações por meio de contêineres Linux, incluindo o XFS, para execuções exclusivamente em cloud em ambientes de produção.",
+            "melhora significativa do sistema de arquivos, incluindo o systemd como o sistema padrão, que escala até 500GB.",
+            "melhora significativa do sistema de arquivos, incluindo o XSL como o sistema padrão, que escala até 300TB.",
+            "adoção do LXC, incluindo o OpenShift, como forma de iniciar processos e serviços, em substituição ao init.",
+            "adoção do systemd como forma de iniciar processos e serviços, em substituição ao init."
+        ],
+        "gabarito": "adoção do systemd como forma de iniciar processos e serviços, em substituição ao init.",
+        "banca": "FCC"
+    },
+    {
+        "id": 23,
+        "enunciado": "Para verificar as atualizações disponíveis para os pacotes instalados no Red Hat Enterprise Linux 9, um Agente com direitos administrativos digitou no terminal",
+        "alternativas": [
+            "dpkg check-update.",
+            "yum repolist-all.",
+            "dnf check-update.",
+            "apt update.",
+            "apt-get repo-list."
+        ],
+        "gabarito": "dnf check-update.",
+        "banca": "FCC"
+    },
+    {
+        "id": 24,
+        "enunciado": "Analise as afirmativas abaixo sobre implementações CIFS em sistemas operacionais Linux RedHat.\n1. Pode ser utilizado para compartilhar sistemas de arquivos.\n2. Pode ser utilizado para compartilhar impressoras.\n3. Pode ser utilizado para compartilhar portas seriais.\n4. O CIFS não pode ser utilizado em sistemas Linux, que contam com o NFS.\nAssinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "É correta apenas a afirmativa 4.",
+            "Estão corretas somente as afirmações 1 e 2.",
+            "Estão corretas somente as afirmações 1 e 3.",
+            "Estão corretas somente as afirmações 2 e 3.",
+            "Estão corretas somente as afirmações 1, 2 e 3."
+        ],
+        "gabarito": "Estão corretas somente as afirmações 1, 2 e 3.",
+        "banca": "FEPESE"
+    },
+    {
+        "id": 25,
+        "enunciado": "Julgue o item subsecutivo, relativos a sistemas operacionais, redes de computadores e arquitetura em nuvem.\nNo Red Hat Enterprise Linux 7, systemd é um gerenciador de sistema e de serviços; o comando systemctl se comunica com serviços que são gerenciados pelo systemd. O serviço nfs-server é reiniciado como a seguir.\nsystemctl reload nfs-server.service",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 26,
+        "enunciado": "Um administrador necessita alterar, via linha de comandos em uma console de texto, o layout do teclado da sua estação de trabalho cujo sistema operacional é o RedHat Entreprise Linux 8.\nO comando que ele utilizará para alterar para o padrão us é",
+        "alternativas": [
+            "localectl status.",
+            "localectl list-keymaps.",
+            "localectl set-keymap us.",
+            "localectl config-keymap us.",
+            "localectl set-locale-keymap us."
+        ],
+        "gabarito": "localectl set-keymap us.",
+        "banca": "FGV"
+    },
+    {
+        "id": 27,
+        "enunciado": "A analista Joana é responsável pela administração do servidor RLServ, que executa o RHEL 8 (Red Hat Enterprise Linux). Joana verifica periodicamente, de forma proativa, se as tentativas de login no RLServ, tanto locais quanto remotas, estão coerentes com os usuários sabidamente atendidos pelo RLServ. Para efetuar esta verificação, Joana consulta o log de autenticações gerado pelo serviço Rsyslog.\nLogo, Joana consulta o log de autenticações disponível no RHEL, por padrão, no caminho /var/log/:",
+        "alternativas": [
+            "syslog;",
+            "secure;",
+            "auth.log;",
+            "boot.log;",
+            "messages."
+        ],
+        "gabarito": "secure;",
+        "banca": "FGV"
+    },
+    {
+        "id": 28,
+        "enunciado": "Julgue o próximo item, a respeito do Windows Server 2016 e do RedHat Enterprise Linux 7.\nConsidere que se deseje implementar a funcionalidade de sign-on único em domínios do Microsoft Windows 2016 e do RedHat 7, de modo que, com credenciais do active directory, seja possível acessar recursos do Linux sem necessidade de autenticação digital adicional. Nessa situação, para que esse objetivo seja atingido, é correto configurar, no RedHat 7, o gerenciamento de identificações, utilizando-se o Realmd, de modo que haja confiança entre domínios do Kerberos, sendo, assim, desnecessária a sincronização entre os dois repositórios de identidade.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 29,
+        "enunciado": "O console web do Red Hat Enterprise Linux é uma interface baseada na web projetada para gerenciar o sistema local, assim como servidores Linux no ambiente de rede. Com isso, através do acesso ao console web é possível realizar a reinicialização do sistema através do menu:",
+        "alternativas": [
+            "Management.",
+            "Networking.",
+            "Overview.",
+            "Podman.",
+            "Services."
+        ],
+        "gabarito": "Overview.",
+        "banca": "IDECAN"
+    },
+    {
+        "id": 30,
+        "enunciado": "A respeito do gerenciamento de serviços com Systemd no Linux Red Hat, julgue os seguintes itens.\nI Systemd é um gerente de sistemas e serviços do Linux que permite gerenciar a lógica de controle de serviços baseada em dependência.\nII O utilitário systemctl não suporta comandos personalizados além dos comandos-padrão.\nIII O comando systemctl reload nome.service reinicia o serviço nome com a última configuração utilizada no serviço.\nAssinale a opção correta.",
+        "alternativas": [
+            "Apenas os itens I e II estão certos.",
+            "Apenas os itens I e III estão certos.",
+            "Apenas os itens II e III estão certos.",
+            "Todos os itens estão certos."
+        ],
+        "gabarito": "Apenas os itens I e II estão certos.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 31,
+        "enunciado": "O console web do Red Hat Enterprise Linux é uma interface baseada na web projetada para gerenciar o sistema local. Usando o console web é possível adicionar novas contas, para isso, é preciso acessar o menu:",
+        "alternativas": [
+            "Accounts.",
+            "Management.",
+            "Services.",
+            "Storage.",
+            "Podman."
+        ],
+        "gabarito": "Accounts.",
+        "banca": "IDECAN"
+    },
+    {
+        "id": 32,
+        "enunciado": "O Administrador de um servidor com sistema operacional Red Hat Linux deve alterar a data de validade da conta de um usuário. Para isso, deve utilizar o comando",
+        "alternativas": [
+            "userchg.",
+            "passwd.",
+            "moduser.",
+            "date.",
+            "chage."
+        ],
+        "gabarito": "chage.",
+        "banca": "FCC"
+    },
+    {
+        "id": 33,
+        "enunciado": "Qual o nome e local correto do arquivo de configuração do Apache em distribuições Red Hat Enterprise Linux 9.xx?",
+        "alternativas": [
+            "/etc/apache.conf.",
+            "/etc/httpd/admin.conf.",
+            "/etc/httpd/conf/main.conf.",
+            "/etc/httpd/conf/httpd.conf.",
+            "/etc/httpd/apache.conf."
+        ],
+        "gabarito": "/etc/httpd/conf/httpd.conf.",
+        "banca": "FEPESE"
+    },
+    {
+        "id": 34,
+        "enunciado": "Um Analista de Sistemas deseja saber a versão do sistema operacional Red Hat Linux do servidor sob sua administração. Para obter essa informação ele deve executar o comando",
+        "alternativas": [
+            "info -v.",
+            "top -al.",
+            "uname -sr.",
+            "vmlinuz -v.",
+            "linuxconf."
+        ],
+        "gabarito": "uname -sr.",
+        "banca": "FCC"
+    },
+    {
+        "id": 35,
+        "enunciado": "Julgue o próximo item, a respeito do Windows Server 2016 e do RedHat Enterprise Linux 7.\nConsidere que se deseje implementar uma camada extra de segurança no servidor instalado com RedHat 7, para que determinados recursos do sistema operacional sejam permitidos por meio de políticas de segurança. Nesse caso, é correto instalar e configurar o SELinux, de modo que seja possível definir controles de acesso estabelecidos em políticas de segurança, criando-se, assim, um conjunto de regras que estabelecem para o SELinux o que pode e o que não pode ser acessado.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 36,
+        "enunciado": "Logado como root, um Analista aplicou o comando semanage login -l no Red Hat Enterprise Linux. Como saída desse comando, o Analista verificou",
+        "alternativas": [
+            "o mapeamento dos usuários do Linux para usuários do SELinux.",
+            "o status atual do SELinux (enforcing, permissive ou disabled) e a data da última modificação de política.",
+            "a lista de todos os pacotes instalados no sistema que possuem políticas SELinux associadas.",
+            "as portas de rede que estão atualmente bloqueadas pelo SELinux, impedindo conexões não autorizadas.",
+            "os contextos de segurança dos arquivos no diretório atual, mostrando seus rótulos SELinux."
+        ],
+        "gabarito": "o mapeamento dos usuários do Linux para usuários do SELinux.",
+        "banca": "FCC"
+    },
+    {
+        "id": 37,
+        "enunciado": "O Administrador de um servidor com sistema operacional Red Hat Linux deseja escrever um script para automatizar o processo de backup do servidor. A primeira linha do arquivo de script deve ser:",
+        "alternativas": [
+            "#/sbin/bash.",
+            "%#/sbin/bash.",
+            "#!/bin/bash.",
+            "*#/bin/bash.",
+            "$/sbin/bash."
+        ],
+        "gabarito": "#!/bin/bash.",
+        "banca": "FCC"
+    },
+    {
+        "id": 38,
+        "enunciado": "O sistema de monitoramento de ativos computacionais alertou quanto à elevada quantidade de processos que estavam rodando em um servidor com o sistema operacional RedHat Enterprise Linux. Ao acessar diretamente pela linha de comando, foram identificados vários processos filhos sem a presença de pais, com consumos pequenos de recursos, tratando-se de processos zumbis.\nConsiderando essa situação hipotética, assinale a opção que apresenta os comandos utilizados no RedHat Enterprise Linux 5, 6 ou 7 para identificar os PIDs dos processos zumbis.",
+        "alternativas": [
+            "ps aux | awk {'print $8'} wc -l.",
+            "kill PID zumbi.",
+            "ps aux | awk '$8==\"Z\" { print $0 }'.",
+            "abrt-cli info zumbi.",
+            "abrt-cli list zumbi."
+        ],
+        "gabarito": "ps aux | awk '$8==\"Z\" { print $0 }'.",
+        "banca": "CEBRASPE (CESPE)"
+    },
+    {
+        "id": 39,
+        "enunciado": "O RPM Package Manager é um sistema executado em várias distribuições Linux e UNIX.\nO conjunto completo de modos básicos de operação do RPM é",
+        "alternativas": [
+            "consulta, atualização e instalação de pacotes.",
+            "instalação, atualização, criação e depuração de pacotes.",
+            "valoração, reinstalação, consulta e desinstalação de pacotes.",
+            "instalação, desinstalação, valoração, consulta, monitoramento e depuração de pacotes.",
+            "criação, instalação, desinstalação, atualização, consulta e verificação de pacotes."
+        ],
+        "gabarito": "criação, instalação, desinstalação, atualização, consulta e verificação de pacotes.",
+        "banca": "FGV"
+    },
+    {
+        "id": 40,
+        "enunciado": "Considere que um computador do Tribunal tenha o sistema operacional Red Hat Enterprise Linux instalado e funcionando em condições ideais.\nUm Analista utilizou corretamente o comando",
+        "alternativas": [
+            "rpm -q para realizar as atualizações disponíveis para todos os pacotes instalados.",
+            "up2date --nox para usar a versão da linha de comandos do up2date e forçar o Sistema X Window a não exibir a interface gráfica.",
+            "yum check-update samba para verificar se o pacote samba está instalado e qual é a versão.",
+            "update -d para atualizar o sistema sem interação. O comando faz o download dos pacotes mais novos e os instala.",
+            "yum -obsolete -all samba para remover todas as versões obsoletas do pacote samba."
+        ],
+        "gabarito": "up2date --nox para usar a versão da linha de comandos do up2date e forçar o Sistema X Window a não exibir a interface gráfica.",
+        "banca": "FCC"
+    },
+    {
+        "id": 41,
+        "enunciado": "Um Analista trabalhando no suporte de sistemas operacionais de rede está utilizando Linux Red Hat. Neste sistema, o Red Hat Network Daemon (rhnsd) conecta-se periodicamente ao Red Hat Network para verificar atualizações e notificações. Em condições ideais, o daemon, que executa em segundo plano, é tipicamente inicializado a partir do script de inicialização",
+        "alternativas": [
+            "/etc/init.d/rhnsd.",
+            "/etc/init.d/rhn_check.",
+            "/etc/sysconfig/rhnsd.",
+            "/etc/sysconfig/rhn_check.",
+            "/etc/rc.d/rhnsd restart."
+        ],
+        "gabarito": "/etc/init.d/rhnsd.",
+        "banca": "FCC"
+    }
+]

@@ -1,0 +1,2101 @@
+[
+    {
+        "id": 1,
+        "enunciado": "Em programação orientada a objetos, um desenvolvedor precisa garantir que apenas uma instância de uma classe de conexão com banco de dados seja criada durante toda a execução da aplicação, evitando múltiplas conexões desnecessárias.\nO padrão de projeto que resolve esse problema é o",
+        "alternativas": [
+            "Factory Method.",
+            "Observer.",
+            "Singleton.",
+            "Strategy.",
+            "Decorator."
+        ],
+        "gabarito": "Singleton.",
+        "banca": "FGV",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 2,
+        "enunciado": "Uma equipe de desenvolvimento identificou que o código de um módulo de autenticação está sendo duplicado em vários pontos do sistema, dificultando a manutenção. A equipe decide refatorar o código aplicando um padrão que centralize a criação de objetos de autenticação, permitindo que subclasses decidam qual tipo específico de autenticador instanciar (OAuth, LDAP, ou local).\nO padrão de projeto que atende a essa necessidade é chamado",
+        "alternativas": [
+            "Abstract Factory.",
+            "Factory Method.",
+            "Builder.",
+            "Prototype.",
+            "Singleton."
+        ],
+        "gabarito": "Factory Method.",
+        "banca": "FGV",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 3,
+        "enunciado": "Um Ministério Público está desenvolvendo um módulo ASP.NET Core (C#) para integrar diferentes sistemas externos de apoio (protocolo eletrônico, consulta de antecedentes e validação de documentos). Cada sistema externo exige um conjunto consistente de objetos relacionados (por exemplo: ProtocoloClient, ConsultaService, ValidadorToken) que precisam ser compatíveis entre si conforme a origem dos dados. A equipe precisa alternar dinamicamente o sistema integrado em tempo de execução, sem acoplamento direto às classes concretas, além de viabilizar testes que substituam famílias inteiras de componentes.\nA decisão de projeto que melhor atende esse cenário é",
+        "alternativas": [
+            "empregar o padrão Prototype para clonar objetos base de um sistema externo e derivar variações configuráveis, gerando cópias individuais da família de objetos completa.",
+            "definir um Abstract Factory para produzir famílias de objetos relacionados (client, service, validator) de cada sistema externo, mantendo o uso apenas de interfaces e escolhendo a fábrica concreta em tempo de execução.",
+            "criar um único Factory Method no ProtocoloClient para instanciar os objetos necessários de cada sistema, permitindo variar a implementação por herança na família de objetos do mesmo sistema.",
+            "adotar um Facade sobre cada SDK de sistema externo para simplificar o uso e centralizar a criação, expondo uma interface única para os membros da família de objetos produzidos em cada integração.",
+            "implementar um Adapter para padronizar a interface de cada SDK, oferecendo compatibilidade com o contrato comum, porém deixando a criação da família de objetos distribuída em módulos diferentes, fortalecendo a coesão."
+        ],
+        "gabarito": "definir um Abstract Factory para produzir famílias de objetos relacionados (client, service, validator) de cada sistema externo, mantendo o uso apenas de interfaces e escolhendo a fábrica concreta em tempo de execução.",
+        "banca": "FCC",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 4,
+        "enunciado": "Um grupo de especialistas estava desenvolvendo um sistema de cadastro de magistrados e servidores. Durante uma análise, perceberam que há diversas formas de validar dados e que novas regras podem surgir frequentemente. Para evitar que o código da classe principal sofra alterações constantes, o grupo desenvolvedor decidiu encapsular as regras de validação em classes separadas e permitir que o sistema troque dinamicamente o método de validação usado. A partir da situação hipotética precedente, é correto afirmar que o padrão de projeto mais adequado para essa solução é o",
+        "alternativas": [
+            "observer.",
+            "singleton.",
+            "strategy.",
+            "composite.",
+            "prototype."
+        ],
+        "gabarito": "strategy.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 5,
+        "enunciado": "Uma agência reguladora de transporte está desenvolvendo um sistema para processar solicitações de autorização de linhas interestaduais. O sistema precisa integrar- se com múltiplos provedores externos de validação (ANTT, Receita Federal, sistemas estaduais) e garantir que a lógica de negócio central permaneça isolada dessas dependências externas. A equipe técnica busca implementar uma arquitetura que permita substituir ou adicionar novos adaptadores de integração sem modificar as regras de negócio.\nA abordagem arquitetural que melhor atende a esse requisito, considerando os princípios de baixo acoplamento e inversão de dependências, é:",
+        "alternativas": [
+            "Padrão Mediator do GOF estabelecendo um componente centralizador que coordena as interações entre a lógica de negócio e os diversos provedores externos, reduzindo o acoplamento direto através da comunicação intermediada por esse objeto coordenador.",
+            "Implementação baseada no padrão Facade do GOF, criando uma interface unificada que encapsula as complexidades dos subsistemas externos, permitindo que a camada de negócio acesse todos os provedores através de um único ponto de entrada simplificado e coeso.",
+            "Utilização do padrão Strategy do GOF combinado com Factory Method, onde cada provedor externo é representado por uma estratégia concreta que implementa a interface comum de validação, selecionada dinamicamente conforme o contexto da solicitação.",
+            "Arquitetura em camadas tradicionais com o padrão Repository do GOF na camada de acesso a dados, isolando as operações de persistência e consulta aos sistemas externos através de abstrações que ocultam os detalhes de implementação específicos de cada provedor.",
+            "Arquitetura Hexagonal (Ports and Adapters) onde a lógica de negócio define interfaces de porta (ports) para as operações necessárias, e os adaptadores. (adapters) implementam essas interfaces conectando-se aos provedores externos, mantendo o núcleo da aplicação independente de tecnologias específicas."
+        ],
+        "gabarito": "Arquitetura Hexagonal (Ports and Adapters) onde a lógica de negócio define interfaces de porta (ports) para as operações necessárias, e os adaptadores. (adapters) implementam essas interfaces conectando-se aos provedores externos, mantendo o núcleo da aplicação independente de tecnologias específicas.",
+        "banca": "FCC",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 6,
+        "enunciado": "Durante o projeto de um sistema orientado a objetos, uma equipe de desenvolvimento identificou que determinados problemas de projeto se repetem em diferentes partes do sistema. A equipe busca uma forma de lidar com essas situações recorrentes, para aumentar a manutenibilidade e a flexibilidade do software, sem comprometer as decisões de análise e modelagem já realizadas. Nesse cenário, a ação mais adequada a ser adotada pela equipe é",
+        "alternativas": [
+            "adotar padrões de projeto como soluções reutilizáveis para problemas recorrentes de projeto, adaptando-os ao contexto do sistema.",
+            "substituir as etapas de análise e modelagem por padrões de projeto previamente definidos.",
+            "aplicar padrões de projeto apenas na fase de implementação, dispensando decisões de projeto.",
+            "utilizar padrões de projeto para garantir automaticamente desempenho e segurança elevados.",
+            "empregar padrões de projeto como estruturas fixas, independentemente dos requisitos do sistema."
+        ],
+        "gabarito": "adotar padrões de projeto como soluções reutilizáveis para problemas recorrentes de projeto, adaptando-os ao contexto do sistema.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 7,
+        "enunciado": "No que diz respeito a projetos e processos de software, julgue o item a seguir.\nNo catálogo GoF, o padrão de criação Singleton garante que haja somente uma instância para cada classe, com um único ponto de acesso a ela.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 8,
+        "enunciado": "Julgue o item subsequente, relativo a padrões arquiteturais e padrões de projeto.\nNo padrão de projeto abstract factory, a inclusão de uma nova categoria de objeto em uma família de produtos já existente prescinde da alteração da interface da fábrica abstrata e de suas subclasses concretas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 9,
+        "enunciado": "Em sistemas distribuídos e baseados em microsserviços, falhas parciais são esperadas e inevitáveis. Dependências externas podem tornar-se lentas ou indisponíveis, propagando falhas em cascata e degradando a experiência do usuário. Para mitigar esse risco, padrões de resiliência são adotados com o objetivo de isolar falhas, proteger recursos e permitir recuperação controlada do sistema.\nConsidere uma API back-end que depende de um serviço externo de pagamento. Em situações de instabilidade desse serviço, a API começa a apresentar lentidão generalizada e falhas sucessivas, afetando usuários que não dependem diretamente da funcionalidade de pagamento.\nNesse contexto, assinale a alternativa que descreve corretamente a aplicação do padrão Circuit Breaker para aumentar a resiliência do sistema.",
+        "alternativas": [
+            "Interromper temporariamente as chamadas ao serviço externo após um número configurável de falhas, permitindo recuperação e evitando sobrecarga do sistema.",
+            "Repetir indefinidamente as chamadas ao serviço externo até que uma resposta válida seja obtida, garantindo disponibilidade funcional.",
+            "Centralizar todas as chamadas externas em um único serviço síncrono, reduzindo a complexidade da comunicação distribuída.",
+            "Substituir o serviço externo por chamadas diretas ao banco de dados, eliminando a dependência de integrações externas."
+        ],
+        "gabarito": "Interromper temporariamente as chamadas ao serviço externo após um número configurável de falhas, permitindo recuperação e evitando sobrecarga do sistema.",
+        "banca": "IDECAN",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 10,
+        "enunciado": "Na modernização dos sistemas de fiscalização, o Tribunal migrou de um sistema monolítico para uma arquitetura de microsserviços. Durante uma auditoria técnica, observou-se que a falha em um serviço de autenticação estava causando a queda em cascata de todos os outros serviços dependentes.\nO padrão de projeto de arquitetura de software a ser implementado para interromper chamadas a um serviço que está a falhar, permitindo que o sistema degrade graciosamente em vez de colapsar, é o",
+        "alternativas": [
+            "Singleton.",
+            "Observer.",
+            "Circuit Breaker.",
+            "Adapter.",
+            "Facade."
+        ],
+        "gabarito": "Circuit Breaker.",
+        "banca": "FGV",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 11,
+        "enunciado": "A respeito do padrão arquitetural MVVM (Model, View e View-Model) e dos padrões de projetos GoF, julgue o item a seguir.\nO padrão Iterator oferece uma forma sequencial de acessar os elementos de uma coleção de objetos, expondo a estrutura interna dessa coleção.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 12,
+        "enunciado": "A respeito do padrão arquitetural MVVM (Model, View e View-Model) e dos padrões de projetos GoF, julgue o item a seguir.\nO padrão Facade simplifica a interação com sistemas internos ao consolidar várias funcionalidades em uma única interface, proporcionando um acesso simplificado aos subsistemas sem alterar sua estrutura ou autonomia.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 13,
+        "enunciado": "Julgue o item a seguir relativo à arquitetura de microsserviços, ao domain-driven design e a design patterns.\nO padrão decorator permite que classes concretas sejam envolvidas em uma hierarquia de objetos que compartilham a mesma interface, em que cada decorador implementa a interface base e delega chamadas para o objeto decorado, adicionando funcionalidade antes ou depois da delegação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 14,
+        "enunciado": "Um bom desenvolvedor de sistemas deve ter conhecimento sobre refatoração, padrões de arquitetura e de projeto, princípios SOLID e outros tópicos importantes sobre programação.\nEm relação a padrões de projeto, considere o seguinte trecho de código:\npublic interface Heroi { void falar();\n} public class HomemDeFerro implements Heroi { public void falar() { System.out.println(\"Eu sou o Homem de Ferro, da Marvel!\");\n} } public class SuperHomem implements Heroi { public void falar() { System.out.println(\"Eu sou o Super Homem, da DC!\"); } } public class MarvelOuDC { public static Heroi getHeroi(String nome) { if (nome.equalsIgnoreCase(\"HomemDeFerro\")) { return new HomemDeFerro(); } else if (nome.equalsIgnoreCase(\"SuperHomem\")) { return new SuperHomem(); } } } Marque a opção que corresponde ao padrão de projeto implementado no código acima.",
+        "alternativas": [
+            "Singleton.",
+            "Factory.",
+            "Observer.",
+            "Flyweight.",
+            "Builder."
+        ],
+        "gabarito": "Factory.",
+        "banca": "FGV",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 15,
+        "enunciado": "J é um desenvolvedor de uma empresa e foi incumbido de criar um novo sistema de arquivos. Esse sistema seguirá uma estrutura de árvore com pastas que podem conter arquivos ou outras pastas. Além disso, tanto as pastas como os arquivos compartilharão operações como copiar, mover e excluir. A partir desse contexto, J lembrou que há um padrão de projeto que poderia ajudá-lo nessa tarefa, que é o",
+        "alternativas": [
+            "Adapter.",
+            "Command.",
+            "Composite.",
+            "DAO.",
+            "Singleton."
+        ],
+        "gabarito": "Composite.",
+        "banca": "CESGRANRIO",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 16,
+        "enunciado": "M desempenha o papel de líder de arquitetura de software em uma empresa. Percebeu, junto com sua equipe, a necessidade de desenvolver, em uma linguagem orientada a objetos, um esqueleto de um algoritmo, composto por um conjunto de passos na sua superclasse. A definição de alguns desses passos deverá ser postergada para as suas subclasses. Vale destacar que a estrutura do algoritmo, ou seja, a ordem, definida na superclasse, em que os passos serão executados não poderá ser mudada, podendo- -se alterar, a partir das subclasses, o que será executado por alguns dos passos. Nesse caso, o padrão de projeto utilizado por M e sua equipe é o",
+        "alternativas": [
+            "Façade.",
+            "Observer.",
+            "Abstract Factory.",
+            "Factory Method.",
+            "Template Method."
+        ],
+        "gabarito": "Template Method.",
+        "banca": "CESGRANRIO",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 17,
+        "enunciado": "Uma prefeitura está desenvolvendo um sistema para integrar um módulo de pagamentos legados, cujo formato de dados é incompatível com o novo subsistema de cobrança online. E necessário permitir que o novo subsistema utilize o módulo antigo sem modificá-lo diretamente. Nesse contexto, o padrão estrutural Gang of Four\n(GOF) que resolve de forma ideal o problema de integração entre interfaces incompatíveis é o",
+        "alternativas": [
+            "Facade, pois fornece uma interface unificada e simplificada para um conjunto complexo de subsistemas, tornando mais simples a comunicação entre sistemas legados e novos.",
+            "Flyweight, pois compartilha estado intrínseco para reduzir o consumo de memória quando há múltiplas instâncias semelhantes interagindo entre sistemas ou subsistemas.",
+            "Adapter, pois converte a interface de uma classe para outra interface esperada pelos clientes, tornando possível a comunicação entre sistemas legados e novos.",
+            "Bridge, pois separa a abstração da implementação, permitindo que sistemas legados e novos se comuniquem de forma integrada.",
+            "Composite, pois organiza objetos em estruturas hierárquicas, tratando composições e objetos individuais de forma integrada, permitindo a comunicação entre sistemas legados e novos."
+        ],
+        "gabarito": "Adapter, pois converte a interface de uma classe para outra interface esperada pelos clientes, tornando possível a comunicação entre sistemas legados e novos.",
+        "banca": "FCC",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 18,
+        "enunciado": "A equipe de TI de uma prefeitura está desenvolvendo uma aplicação para integração com diversos serviços externos, utilizando arquiteturas serverless em um ambiente de nuvem. Para implementar a lógica que orquestra a comunicação entre serviços, a equipe considera adotar um design pattern adequado à abordagem serverless. Com base nas tendências emergentes, o design pattern mais indicado para lidar com a orquestração e controle de fluxos em arquiteturas serverless é o",
+        "alternativas": [
+            "Proxy.",
+            "Strategy.",
+            "Observer.",
+            "Circuit Breaker.",
+            "Saga."
+        ],
+        "gabarito": "Saga.",
+        "banca": "FCC",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 19,
+        "enunciado": "A equipe de desenvolvimento de uma prefeitura está refatorando um sistema legado de atendimento ao público e precisa utilizar o padrão Factory Method para criar diferentes tipos de objetos relacionados a solicitações (como solicitações de manutenção, serviços ou emergências). A prática de implementação que reflete adequadamente o padrão Factory Method com foco em extensibilidade e encapsulamento é",
+        "alternativas": [
+            "centralizar a criação de objetos em uma única classe utilitária que contém métodos estáticos para cada tipo de solicitação.",
+            "utilizar classes abstratas ou interfaces para definir o método de criação e implementá-lo nas subclasses específicas.",
+            "criar um método estático para instanciar objetos de solicitações com base em parâmetros fornecidos.",
+            "delegar a criação de objetos para um método de inicialização dentro da própria classe principal.",
+            "criar uma classe base que contenha a lógica para determinar o tipo de solicitação e retornar a instância apropriada."
+        ],
+        "gabarito": "utilizar classes abstratas ou interfaces para definir o método de criação e implementá-lo nas subclasses específicas.",
+        "banca": "FCC",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 20,
+        "enunciado": "O Tribunal Regional do Trabalho está desenvolvendo um sistema de gestão de documentos judiciais que permite o armazenamento, recuperação e edição de diversos tipos de documentos, como petições, sentenças e relatórios de audiência. O sistema deve permitir que novas funcionalidades sejam adicionadas de forma modular e que alterações nos requisitos de cada tipo de documento não afetem o sistema como um todo.\nNessas circunstâncias, a equipe de desenvolvimento deverá aplicar, corretamente, o padrão de projeto mais apropriado, que é o",
+        "alternativas": [
+            "Singleton.",
+            "Adapter.",
+            "Factory Method.",
+            "Composite.",
+            "Decorat."
+        ],
+        "gabarito": "Factory Method.",
+        "banca": "FCC",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 21,
+        "enunciado": "Um Tribunal Regional do Trabalho está desenvolvendo um sistema de gestão de processos judiciais para otimizar o fluxo de trabalho dos juízes, advogados e servidores. Um dos requisitos críticos é a Implementação de um sistema de notificação para diferentes eventos processuais (por exemplo, novos documentos apresentados, audiências agendadas, decisões publicadas). O sistema deve ser flexível, permitindo adicionar novos tipos de notificações sem alterar significativamente o código existente.\nO padrão de projeto mais adequado para alcançar essa fexibílidade é o",
+        "alternativas": [
+            "Factory Method.",
+            "Decorator.",
+            "Singleton.",
+            "Observer.",
+            "Strategy."
+        ],
+        "gabarito": "Observer.",
+        "banca": "FCC",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 22,
+        "enunciado": "Os padrões GRASP descrevem princípios fundamentais de design de objetos (OD) e atribuição de responsabilidades, que ajudam a entender a essência de OD. A atribuição de responsabilidades ocorre durante a criação dos diagramas de",
+        "alternativas": [
+            "caso de uso.",
+            "interação.",
+            "pacotes.",
+            "objetos.",
+            "dados."
+        ],
+        "gabarito": "interação.",
+        "banca": "FGV",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 23,
+        "enunciado": "Julgue o item a seguir, relativo aos padrões de programação para smartphones, às tecnologias de persistência de dados em dispositivos móveis e aos modelos de ciclo de vida de software.\nA principal característica do padrão Factory method é que ele permite a clonagem de objetos, para evitar instanciar novas instâncias repetitivamente.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 24,
+        "enunciado": "O padrão de projeto factory method, utilizado para delegar a criação de objetos a subclasses e permitir maior flexibilidade e desacoplamento,",
+        "alternativas": [
+            "garante que todas as instâncias criadas sejam idênticas e compartilhadas globalmente.",
+            "impede a criação de novos objetos, limitando a reutilização de instâncias existentes.",
+            "cria objetos diretamente na classe principal, sem necessidade de subclasses.",
+            "estabelece um mecanismo baseado em abstrações para a criação de objetos, o que possibilita que subclasses escolham qual implementação concreta utilizar.",
+            "utiliza um único método estático para criar todas as instâncias do sistema."
+        ],
+        "gabarito": "estabelece um mecanismo baseado em abstrações para a criação de objetos, o que possibilita que subclasses escolham qual implementação concreta utilizar.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 25,
+        "enunciado": "Uma equipe de desenvolvimento está criando uma aplicação que precisa gerar diferentes tipos de relatórios (PDF, Excel ou HTML). Cada tipo de relatório requer um processo de construção complexo e específico. Nesse cenário, o padrão de projeto criacional da Gang of Four (GoF) mais adequado para encapsular a criação de objetos complexos, permitindo a construção de diferentes representações e facilitando a adição de novos tipos de objetos sem alterar o código existente é o",
+        "alternativas": [
+            "Object Pool, que mantém um conjunto de objetos prontos para uso, evitando o custo de criação repetida.",
+            "Builder, que separa a construção de um objeto complexo de sua representação, permitindo que o mesmo processo de construção crie diferentes representações.",
+            "Prototype, que cria novos objetos copiando uma instância existente.",
+            "Factory Method, que define uma interface para criar um objeto, mas permite às subclasses decidirem qual classe instanciar.",
+            "Singleton, que garante que uma classe tenha apenas uma instância e fornece um ponto global de acesso a ela."
+        ],
+        "gabarito": "Builder, que separa a construção de um objeto complexo de sua representação, permitindo que o mesmo processo de construção crie diferentes representações.",
+        "banca": "FCC",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 26,
+        "enunciado": "Considere o seguinte bloco de código Python, em condições ideais:\nclass Editor:\ndef __init__(self): self.history = [] def write(self, text): self.history.append(text) def undo(self): if self.history: return self.history.pop() return None O padrão de projeto mais claramente aplicado nesse bloco de código é o",
+        "alternativas": [
+            "Template Method.",
+            "State.",
+            "Memento.",
+            "Command.",
+            "Observer."
+        ],
+        "gabarito": "Memento.",
+        "banca": "FCC",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 27,
+        "enunciado": "Acerca de domain‐driven design, de especificação OpenAPI e de design patterns, julgue o item a seguir.\nEm design patterns, o padrão strategy introduz forte hierarquia de herança entre algoritmos, violando o OCP (open/closed principle) ao exigir modificações no contexto sempre que uma nova estratégia é adicionada.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 28,
+        "enunciado": "Leia a descrição a seguir.\nTrata-se de um padrão que fornece uma interface para criar famílias de objetos relacionados ou dependentes, sem especificar suas classes concretas, seja porque estas ainda são desconhecidas ou para permitir maior escalabilidade no futuro.\nO padrão de projeto descrito é o:",
+        "alternativas": [
+            "Builder.",
+            "Singleton.",
+            "Abstract Factory.",
+            "Decorator.",
+            "Template Method."
+        ],
+        "gabarito": "Abstract Factory.",
+        "banca": "FGV",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 29,
+        "enunciado": "Os princípios GRASP (General Responsibility Assignment Software Patterns) são padrões de design de software orientados a objetos que servem como diretrizes para a atribuição de responsabilidades a classes e objetos.\nDentre os princípios GRASP podemos identificar os seguintes:",
+        "alternativas": [
+            "Baixo Acoplamento (Low Coupling, Proteção contra Variações (Protected Variations) e Responsabilidade única (Single Responsibility).",
+            "Alta Coesão (High Cohesion), Indireção (Indirection) e Substituição de Liskov (Liskov Substitution).",
+            "Controlador (Controller), Especialista na Informação (Information Expert) e Inversão da dependência (Dependency Inversion).",
+            "Controlador (Controller), Criador (Creator) e Fabricação Pura/Pura Fabricação (Pure Fabrication).",
+            "Baixa Coesão (Low Cohesion), Indireção (Indirection) e Polimorfismo (Polymorphism)."
+        ],
+        "gabarito": "Controlador (Controller), Criador (Creator) e Fabricação Pura/Pura Fabricação (Pure Fabrication).",
+        "banca": "FGV",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 30,
+        "enunciado": "Acerca de padrões de projeto, julgue o item seguinte.\nO padrão adapter da visão GoF permite que uma classe de persistência seja adaptada de acordo com o banco de dados utilizado na aplicação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 31,
+        "enunciado": "Acerca de padrões de projeto, julgue o item seguinte.\nOs padrões de comando da visão GoF determinam o encapsulamento de uma ação e seus respectivos parâmetros.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 32,
+        "enunciado": "Acerca de padrões de projeto, julgue o item seguinte.\nNa visão GoF, o padrão singleton define que cada classe pode ser instanciada em um único objeto.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 33,
+        "enunciado": "Padrões de projeto são soluções consagradas que se baseiam nas estruturas da orientação a objetos para solucionar problemas comuns em projetos de software. Os padrões são agrupados em tipos.\nAssinale a opção que indica apenas padrões do tipo comportamental.",
+        "alternativas": [
+            "Decorator, bridge e adapter.",
+            "Singleton, prototype e builder.",
+            "Iterator, memento e observer.",
+            "Command, mediator e facade."
+        ],
+        "gabarito": "Iterator, memento e observer.",
+        "banca": "FGV",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 34,
+        "enunciado": "Um fabricante de aeronaves produz modelos turboélices e turbofans. Para auxiliar os pilotos das aeronaves que fabrica, a empresa desenvolveu um software para checklist de decolagem. A classe principal desse software é exibida a seguir.\npublic abstract class Checklist { public void check( ) { step01(); step02(); step03(); step04(); } void step01( ) { // código irrelevante para a questão } void step02( ) { // código irrelevante para a questão } void step03( ) { // código irrelevante para a questão } abstract void step04( );\n} O checklist é composto de quatro etapas. As três primeiras, step01, step02 e step03, são comuns aos modelos turboélices e turbofans, mas a quarta etapa depende do tipo de propulsor.\nPara criar um design flexível que dê suporte a outros modelos sem alterações no código existente, a equipe de desenvolvimento definiu um método abstrato para o quarto passo. Ele deverá ser implementado pelas subclasses de Checklist que implementem o quarto passo de acordo com o propulsor usado. Por exemplo, a classe Turboelice seria implementada da seguinte maneira:\npublic class Turboelice extends Checklist { void step04( ) { // código irrelevante para a questão } } Desse modo, o checklist para turboélices seria executado de acordo com o trecho de código a seguir:\nChecklist c = new Turboelice();\nc.check( );\nQual padrão de projeto foi empregado nesse design?",
+        "alternativas": [
+            "Singleton.",
+            "Adapter.",
+            "Strategy.",
+            "Factory Method.",
+            "Template Method."
+        ],
+        "gabarito": "Template Method.",
+        "banca": "CESGRANRIO",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 35,
+        "enunciado": "O padrão de projeto que permite definir uma interface para criar objetos, mas deixa as subclasses decidirem a classe a ser instanciada, adiando a instanciação para cada subclasse, é o",
+        "alternativas": [
+            "Factory Method.",
+            "Template Method.",
+            "Abstract Factory.",
+            "Chain of Responsibility.",
+            "Facade."
+        ],
+        "gabarito": "Factory Method.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 36,
+        "enunciado": "Analise as afirmativas abaixo sobre padrões de projeto e dê valores Verdadeiro (V) ou Falso (F).\n( ) Padrões de projeto são soluções comprovadas para problemas recorrentes no design de software, promovendo boas práticas e reutilização de código.\n( ) O padrão Observer é utilizado para definir uma dependência um-para-muitos entre objetos, de modo que, quando um objeto muda de estado, todos os seus dependentes são notificados e atualizados automaticamente.\n( ) Padrões de projeto podem ser classificados em três categorias principais: padrões de criação, padrões estruturais e padrões comportamentais.\nAssinale a alternativa que apresenta a sequência correta de cima para baixo.",
+        "alternativas": [
+            "V - F - F.",
+            "F - F - V.",
+            "F - V - F.",
+            "V - V - V."
+        ],
+        "gabarito": "V - V - V.",
+        "banca": "IBFC",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 37,
+        "enunciado": "Julgue o próximo item, relativo a padrão de projetos e Scrum.\nNo padrão de projetos adapter, um algoritmo pode variar independentemente dos clientes que o utilizam, de modo a fornecer diferentes implementações de um mesmo comportamento.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 38,
+        "enunciado": "J participa de uma equipe de desenvolvimento e recebeu uma demanda de codificar uma estrutura de árvore no sistema em que está trabalhando.\nO padrão de projeto estrutural que poderá ajudar nessa tarefa de implementação é o",
+        "alternativas": [
+            "Visitor.",
+            "Façade.",
+            "Singleton.",
+            "Composite.",
+            "Factory Method."
+        ],
+        "gabarito": "Composite.",
+        "banca": "CESGRANRIO",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 39,
+        "enunciado": "A equipe de sistemas de uma empresa recebeu uma demanda para incluir, em um sistema, um tratamento que permita observar se um determinado conjunto de dados está sendo atualizado. Caso haja alguma atualização, um conjunto de assinantes que desejem ser informados sobre alguma mudança nesses dados deverá ser notificado.\nPara atender à demanda descrita, qual padrão de projeto pode ser usado?",
+        "alternativas": [
+            "Memento.",
+            "Observer.",
+            "Strategy.",
+            "Abstract Factory.",
+            "Template Method."
+        ],
+        "gabarito": "Observer.",
+        "banca": "CESGRANRIO",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 40,
+        "enunciado": "Com relação ao padrão MVC (Model View Controller), a padrões de projeto e a orientação a objetos, julgue o item subsequente.\nO padrão Singleton facilita o teste unitário, pois garante que sempre haverá uma única instância da classe para testar.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 41,
+        "enunciado": "A respeito de arquitetura de aplicações, julgue o próximo item.\nNo padrão GRASP (general responsibility assignment software patterns), a aplicação do controller tem como objetivo a separação do controle da interface das demais partes do sistema.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 42,
+        "enunciado": "Padrões de projeto são representados por meio de diagramas da UML, sendo possível identificá-los através da análise de métodos e relacionamentos entre classes ou interfaces.\nObserve o diagrama de classes apresentado a seguir. {image(1)} No diagrama é representado o padrão de projeto:",
+        "alternativas": [
+            "Singleton;",
+            "Prototype;",
+            "Data Access Object;",
+            "Observer;",
+            "Abstract Factory."
+        ],
+        "gabarito": "Abstract Factory.",
+        "banca": "FGV",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 43,
+        "enunciado": "Com base nos conceitos fundamentais de padrões de projeto (designer patterns) e padrões de arquitetura MVC, julgue o seguinte item.\nO padrão observer segue a arquitetura MVC uma vez que, quando os dados de seu modelo mudam de estado, as suas visões correspondentes são notificadas e atualizadas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 44,
+        "enunciado": "Com base nos conceitos fundamentais de padrões de projeto (designer patterns) e padrões de arquitetura MVC, julgue o seguinte item.\nOs designer patterns não se destinam a contribuir com especificação de interfaces de objetos, pois a essência dos padrões está nos algoritmos e na implementação dos objetos que evitam potenciais problemas nos projetos de sistemas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 45,
+        "enunciado": "O diagrama a seguir mostra um módulo de notificação para uma aplicação de e-commerce para permitir diversos serviços de notificação, tais como, e-mail e push. {image(2)} Assinale a opção que indica o padrão de projeto usado nesse módulo.",
+        "alternativas": [
+            "Singleton.",
+            "Factory Method.",
+            "Abstract Factory.",
+            "Observer.",
+            "Prototype."
+        ],
+        "gabarito": "Observer.",
+        "banca": "FGV",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 46,
+        "enunciado": "Assinale a opção que indica o padrão responsável pela criação de objetos de várias classes graças à especialização de sua classe principal.",
+        "alternativas": [
+            "Abstract Factory.",
+            "Decorator.",
+            "Strategy.",
+            "Builder.",
+            "Adapter."
+        ],
+        "gabarito": "Abstract Factory.",
+        "banca": "FGV",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 47,
+        "enunciado": "O analista Lucas está desenvolvendo o sistema orientado a objeto JustiSul. Em determinado módulo do JustiSul, o sistema instancia um objeto da classe Terceirizado de forma dinâmica, em tempo de execução, por meio da interface I3rd. A classe Terceirizado pertence a uma biblioteca proprietária externa, de forma que o JustiSul conhece apenas a especificação de I3rd, e não a de Terceirizado. Dentro de outro módulo, o sistema precisa instanciar um segundo objeto Terceirizado. Devido ao alto custo de uma nova inicialização dinâmica, Lucas optou por chamar o método cp3rd do objeto Terceirizado já criado. O cp3rd, declarado em I3rd e implementado na classe Terceirizado, retorna uma nova instância da classe, com um estado idêntico ao do objeto chamador.\nAo permitir a criação de novas instâncias pelo método cp3rd de uma instância existente, Terceirizado implementa o padrão de projeto:",
+        "alternativas": [
+            "builder;",
+            "singleton;",
+            "prototype;",
+            "factory method;",
+            "abstract factory."
+        ],
+        "gabarito": "prototype;",
+        "banca": "FGV",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 48,
+        "enunciado": "Os analistas do TJMS possuem convenções de código-fonte bem definidas, que orientam o bom desenvolvimento de novos sistemas. As convenções de código-fonte do TJMS ajudam a manter os códigos bem estruturados e fáceis de manutenir.\nAo reforçar a boa estruturação e a clareza do código-fonte, as convenções do TJMS mitigam diretamente o antipadrão de software conhecido como:",
+        "alternativas": [
+            "fim da linha;",
+            "espera ativa;",
+            "fluxo de lava;",
+            "âncora de barco;",
+            "código espaguete."
+        ],
+        "gabarito": "código espaguete.",
+        "banca": "FGV",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 49,
+        "enunciado": "Os padrões de projeto são extremamente úteis para organizar a arquitetura do sistema e o modelo de programação. Eles são projetados em diagramas da UML, como no modelo a seguir. {image(3)} O diagrama expressa o padrão de projeto:",
+        "alternativas": [
+            "Observer;",
+            "Singleton;",
+            "Data Access Object;",
+            "Intercept Filter;",
+            "Template Method."
+        ],
+        "gabarito": "Template Method.",
+        "banca": "FGV",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 50,
+        "enunciado": "Natália está desenvolvendo um sistema financeiro, no qual os documentos podem receber diferentes tipos de tratamento, e pretende tirar proveito dos padrões de desenvolvimento. Para tratar os documentos, ela criou diversos processos, que serão colocados em uma fila. Assim, o documento passa por um dado processo da fila, é tratado e enviado para o processo seguinte. Adotando essa estratégia, Natália usou o padrão de desenvolvimento denominado:",
+        "alternativas": [
+            "Chain of Responsibility;",
+            "Prototype;",
+            "Decorator;",
+            "Abstract Factory;",
+            "Factory Method."
+        ],
+        "gabarito": "Chain of Responsibility;",
+        "banca": "FGV",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 51,
+        "enunciado": "Julgue o item seguinte, que tratam de padrões de projeto e dos protocolos para Web services, padrões e tecnologias relacionadas.\nO padrão de projetos Iterator fornece aos clientes vários métodos simples de acesso aos elementos da coleção, protegendo a coleção contra ações descuidadas ou maliciosas passíveis de ocorrência caso seja permitido o acesso direto à coleção.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 52,
+        "enunciado": "O Poder Executivo do Estado do Paraná utiliza Padrões de Projeto (Design Patterns) como soluções reutilizáveis para problemas comuns encontrados no design de software. Um padrão adotado pela organização cria novos objetos a partir da cópia de objetos existentes, evitando a criação de objetos duplicados. Considerando a descrição do padrão utilizado, qual padrão de projeto de design se encaixa nessa definição?",
+        "alternativas": [
+            "Iterator.",
+            "Command.",
+            "Strategy.",
+            "Prototype.",
+            "Singleton."
+        ],
+        "gabarito": "Prototype.",
+        "banca": "Instituto AOCP",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 53,
+        "enunciado": "Julgue o próximo item, a respeito de GRASP (general responsibility assignment software patterns).\nUm padrão que recomenda que uma classe tenha várias e diferentes responsabilidades, para que se aumente sua reutilização, é caracterizado como de alta coesão (high cohesion).",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 54,
+        "enunciado": "Julgue o próximo item, a respeito de GRASP (general responsibility assignment software patterns).\nDeterminar quando deve ser delegada a responsabilidade para outro objeto é responsabilidade do criador (creator).",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 55,
+        "enunciado": "Patrícia é analista de Desenvolvimento de Sistemas e está utilizando conceitos do Design Patterns para a implementação de um novo sistema de controle de acesso para a Defensoria Pública do Estado de Mato Grosso do Sul. A profissional pretende utilizar um padrão de projeto estrutural que fornece uma interface mais simplificada para um conjunto de classes complexas. Esse padrão é o",
+        "alternativas": [
+            "Decorator.",
+            "Adapter.",
+            "Flyweight.",
+            "Mediator.",
+            "Facade."
+        ],
+        "gabarito": "Facade.",
+        "banca": "Instituto AOCP",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 56,
+        "enunciado": "Tendo em vista os conceitos de Orientação a Objetos e Padrões de Projetos, assinale a alternativa que apresenta uma afirmação correta a respeito do uso do padrão Singleton em Programação Orientada a Objeto.",
+        "alternativas": [
+            "O padrão em questão se caracteriza por possibilitar a criação de múltiplas instâncias de uma classe, gerenciando o acesso concorrente a recursos compartilhados.",
+            "O padrão em questão se caracteriza por permitir a criação de objetos em uma hierarquia de classes que compartilham uma interface comum.",
+            "O padrão em questão efetua a delegação da responsabilidade de criação de instâncias para uma classe especializada conhecida como Fábrica.",
+            "O padrão em questão garante que uma classe tenha apenas uma instância e fornece um ponto de acesso global a essa instância.",
+            "O padrão em questão é utilizado principalmente em linguagens de programação funcionais para gerenciar estados globais."
+        ],
+        "gabarito": "O padrão em questão garante que uma classe tenha apenas uma instância e fornece um ponto de acesso global a essa instância.",
+        "banca": "Instituto AOCP",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 57,
+        "enunciado": "Julgue o item subsequente, relativo a padrões GoF.\nOs padrões abstract factory e facade são, respectivamente, de criação e estrutural, uma vez que o abstract factory fornece uma interface para criação de famílias de objetos relacionados, ao passo que o facade separa a construção de um objeto complexo da sua representação.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 58,
+        "enunciado": "Julgue o item subsequente, relativo a padrões GoF.\nO padrão composite atribui responsabilidades adicionais a um objeto dinamicamente e o memento, sem violar o encapsulamento, captura e externaliza um estado interno de um objeto, de modo que este possa, posteriormente, ser restaurado para aquele estado.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 59,
+        "enunciado": "O sistema TRF1Web possui um módulo orientado a eventos, chamado TRF1Sync. No TRF1Sync, há um objeto central que implementa um loop síncrono, responsável por receber eventos de indicação. Ao receber um evento, o objeto central dispara a operação associada mediante um objeto manipulador de evento. Esse comportamento do TRF1Sync é resultado direto da aplicação do seguinte padrão da Pattern-Oriented Software Architecture:",
+        "alternativas": [
+            "reactor;",
+            "proactor;",
+            "interceptor;",
+            "objeto ativo;",
+            "objeto monitor."
+        ],
+        "gabarito": "reactor;",
+        "banca": "FGV",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 60,
+        "enunciado": "Um desenvolvedor está trabalhando em um sistema onde o padrão Façade está sendo usado para encapsular como um conjunto de objetos interage de forma fracamente acoplada. Verificando as especificações, ele percebeu que esse padrão não atendia os requisitos do projeto, já que era necessário um comportamento cooperativo e um protocolo multidirecional, além de evitar que os objetos interagissem de forma explícita uns com os outros. Considerando-se esse contexto, o desenvolvedor deve corrigir o sistema implementando o padrão",
+        "alternativas": [
+            "Bridge.",
+            "Composite.",
+            "Decorator.",
+            "Mediator.",
+            "Strategy."
+        ],
+        "gabarito": "Mediator.",
+        "banca": "CESGRANRIO",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 61,
+        "enunciado": "Na revisão de um programa feito por um programador novato, foi solicitado a ele que corrigisse o programa de forma a realizar certas funcionalidades de acordo com padrões de projeto estabelecidos na literatura.\nNão conhecendo o termo padrão de projeto, o programador novato foi buscar orientações e descobriu que um padrão de projeto é um(a)",
+        "alternativas": [
+            "conjunto de recomendações para formatação de código, como, por exemplo, o padrão PEP 8 para a formatação de código em Python.",
+            "conjunto de regras para definir a interação entre serviços, definidas por APIs, como, por exemplo, o padrão REST para a arquitetura de sistemas distribuídos.",
+            "estratégia correta para estruturar a solução de um problema recorrente no desenvolvimento de software, como, por exemplo, o padrão Factory para criar instâncias de diferentes classes baseadas em uma condição.",
+            "estratégia correta para estruturar a solução de um problema recorrente no desenvolvimento de software, como, por exemplo, o padrão God Object, no qual uma classe assume toda a responsabilidade do sistema, criando alto acoplamento e baixa coesão.",
+            "norma internacional para especificação de qualidade de software, como, por exemplo, o padrão ISO 9001 para garantir a qualidade do processo de desenvolvimento."
+        ],
+        "gabarito": "estratégia correta para estruturar a solução de um problema recorrente no desenvolvimento de software, como, por exemplo, o padrão Factory para criar instâncias de diferentes classes baseadas em uma condição.",
+        "banca": "CESGRANRIO",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 62,
+        "enunciado": "Um time de desenvolvimento está trabalhando em um sistema financeiro que processa transações bancárias. Para garantir que o sistema seja flexível, escalável e fácil de manter, o time decide usar padrões de projeto. Após uma análise cuidadosa de uma situação encontrada, eles escolhem como solução uma combinação de dois padrões de projeto. O primeiro padrão de projeto escolhido é usado para criar instâncias de objetos necessários para processar diferentes tipos de transações, enquanto o segundo padrão de projeto escolhido garante que o sistema possa tratar uma série de requisições de transações de forma flexível e extensível. Considerando-se o contexto descrito, quais são os dois padrões de projeto escolhidos?",
+        "alternativas": [
+            "Abstract Factory e Command.",
+            "Builder e Strategy.",
+            "Factory Method e Chain of Responsibility.",
+            "Prototype e Mediator.",
+            "Singleton e Observer."
+        ],
+        "gabarito": "Factory Method e Chain of Responsibility.",
+        "banca": "CESGRANRIO",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 63,
+        "enunciado": "Um Analista está desenvolvendo um projeto cujos requisitos técnicos de software exigem que ele utilize padrões de projeto para permitir:\nI. O salvamento e restauração do estado anterior de um objeto sem revelar os detalhes de sua implementação.\nII. À produção de famílias de objetos relacionados sem ter que especificar suas classes concretas.\nIII. A construção de objetos complexos passo a passo sendo diferentes tipos e representações de um objeto usando 0 mesmo código de construção.\nTrata-se dos padrões",
+        "alternativas": [
+            "Memento, Abstract Factory e Builder.",
+            "Factory Method, Singleton e Builder.",
+            "Singleton, Abstract Factory e Strategy.",
+            "Memento, Observer e Factory Method.",
+            "Abstract Factory, Singieton e Observer."
+        ],
+        "gabarito": "Memento, Abstract Factory e Builder.",
+        "banca": "FCC",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 64,
+        "enunciado": "Os padrões de projeto de software (design patterns) tiram proveito máximo dos pilares da orientação a objetos. Usemos como exemplo o padrão Abstract Factory, que é um padrão de projeto criacional que permite produzir famílias de objetos relacionados sem especificar suas classes concretas.\nO principal pilar da orientação a objetos usado nesse design pattern é",
+        "alternativas": [
+            "o polimorfismo.",
+            "a herança.",
+            "o encapsulamento.",
+            "a abstração.",
+            "a sublevação."
+        ],
+        "gabarito": "a abstração.",
+        "banca": "FGV",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 65,
+        "enunciado": "Os padrões de projeto na Engenharia de Software representam soluções que podem ser reusadas em diferentes contextos para determinados problemas que ocorrem com frequência.\nAnalise as afirmativas abaixo sobre alguns elementos que descrevem os Padrões de Projeto:\nI. Problema: descreve o problema de que o padrão trata.\nII. Solução: fornece uma descrição detalhada de uma solução proposta para o problema.\nIII. Consequências: descrevem os possíveis prós e contras que devem ser considerados quando o padrão é implementado e as consequências do uso do padrão.\nEstão CORRETAS as afirmativas:",
+        "alternativas": [
+            "I e II, apenas.",
+            "I e III, apenas.",
+            "II e III, apenas.",
+            "I, II e III."
+        ],
+        "gabarito": "I, II e III.",
+        "banca": "FUMARC",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 66,
+        "enunciado": "Pedro está trabalhando em um projeto de software orientado a objetos e especificou a classe Manage Schedules Handler que representa um tratador artificial de todos os eventos de sistema referente ao caso de uso Gerenciar Horários.\nAo atribuir à classe Manage Schedules Handler essa responsabilidade, Pedro aplicou o princípio GRASP denominado",
+        "alternativas": [
+            "controller.",
+            "creator.",
+            "inheritance.",
+            "flyweight.",
+            "template method."
+        ],
+        "gabarito": "controller.",
+        "banca": "FGV",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 67,
+        "enunciado": "Um Analista criou uma aplicação de monitoramento do mercado de ações, que faz o download dos dados de múltiplas fontes em formato XML e então apresenta gráficos e diagramas para o usuário. Mas agora é necessário que a aplicação integre uma biblioteca de análise de terceiros, que trabalha apenas com dados em formato JSON. Para fazer isso, o Analista deve utilizar um padrão de projeto GOF que converte a interface de uma classe para outra interface que o cliente espera encontrar, de forma que as classes com interfaces incompatíveis trabalhem juntas. Este padrão é denominado",
+        "alternativas": [
+            "Adapter.",
+            "Proxy.",
+            "Mediator.",
+            "Prototype.",
+            "Builder."
+        ],
+        "gabarito": "Adapter.",
+        "banca": "FCC",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 68,
+        "enunciado": "Considere a classe Java abaixo. {image(4)} Ela contém métodos que implementam o processo de venda de ingressos para espetáculos culturais. Entre eles está o método de encerramento de uma venda, que é composto de três etapas. São elas:\n• o cálculo do valor do ingresso;\n• a confirmação do pagamento;\n• a impressão do ingresso.\nAs duas últimas etapas independem da natureza de quem está comprando um ingresso, por isso foram implementadas diretamente na classe VendaIngresso. A 1ª etapa, entretanto, não pôde ser implementada nessa classe, pois o valor de um ingresso pode variar de acordo com o tipo de comprador (estudante, idoso, pessoa com deficiência, dentre outros). Por isso, o método calculaValorIngresso é abstrato.\nUma 2ª classe, que implementa a venda de ingressos para estudantes, é mostrada a seguir. {image(5)} Ela é uma subclasse de VendaIngresso que implementa o cálculo do valor de um ingresso de estudante. Dessa forma, um programa Java que implemente a venda de ingressos para estudantes, baseada nas classes acima, irá conter os seguintes comandos:\nVendaIngresso v = new VendaIngressoEstudante();\nv.encerraVenda(\"Máquina Mortífera 20\", \"L8\");\nQual padrão de projeto foi empregado na solução descrita acima?",
+        "alternativas": [
+            "Prototype.",
+            "Adapter.",
+            "Composite.",
+            "Mediator.",
+            "Template Method."
+        ],
+        "gabarito": "Template Method.",
+        "banca": "CESGRANRIO",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 69,
+        "enunciado": "Considerando o contexto de padrões de projeto em engenharia de software, relacione a Coluna 1 à Coluna 2.\nColuna 1\n1. Singleton.\n2. Protótipo.\n3. Adaptador.\n4. Decorador.\nColuna 2\n( ) Permite a adição de responsabilidades a um objeto dinamicamente.\n( ) Define uma instância de uma classe a partir da qual outros objetos são criados.\n( ) Garante que uma classe tenha exatamente uma instância, acessada globalmente.\n( ) Converte a interface de uma classe em outra.\nA ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+        "alternativas": [
+            "4 – 2 – 1 – 3.",
+            "4 – 1 – 2 – 3.",
+            "3 – 2 – 1 – 4.",
+            "3 – 1 – 2 – 4.",
+            "3 – 1 – 4 – 2."
+        ],
+        "gabarito": "4 – 2 – 1 – 3.",
+        "banca": "FUNDATEC",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 70,
+        "enunciado": "O padrão de projeto de software ou Design Patterns é uma descrição do problema e da essência de sua solução, de modo que a solução possa ser reutilizada em diferentes contextos. Ao escrever um padrão, os quatro elementos essenciais foram definidos pela “Gangue dos Quatro”, em seu livro de padrões. Assinale a alternativa que contém elemento que NÃO pertence a essa descrição.",
+        "alternativas": [
+            "Nome do padrão.",
+            "Descrição do problema.",
+            "Declaração de variáveis.",
+            "Descrição da solução.",
+            "Declaração das consequências."
+        ],
+        "gabarito": "Declaração de variáveis.",
+        "banca": "FUNDATEC",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 71,
+        "enunciado": "A respeito de padrões de projeto, julgue o próximo item.\nO padrão Decorator permite acrescentar funcionalidades a um objeto em tempo de execução, flexibilizando a extensão de classes.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 72,
+        "enunciado": "A respeito de padrões de projeto, julgue o próximo item.\nNo catálogo GoF, a classe Factory Method tem, em seu escopo, os padrões Builder, Prototype, Composite e Iterator.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 73,
+        "enunciado": "A respeito de padrões de projeto, julgue o próximo item.\nO objetivo do padrão Observer do catálogo GoF é garantir que todos os dependentes de um objeto sejam notificados quando houver mudança no estado do referido objeto.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 74,
+        "enunciado": "Ana está implementando um sistema de comércio eletrônico e agora está definindo a operação de pagamento para a compra, podendo aceitar cartão de crédito, PIX ou boleto.\nComo a ação de pagamento envolve apenas a conciliação do valor final da compra, mas segundo diferentes meios de pagamento, Ana, com o objetivo de organizar seu código, permitiu a escolha do meio de pagamento por intermédio do padrão:",
+        "alternativas": [
+            "State;",
+            "Interpreter;",
+            "Prototype;",
+            "Memento;",
+            "Strategy."
+        ],
+        "gabarito": "Strategy.",
+        "banca": "FGV",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 75,
+        "enunciado": "Sobre injeção de dependência, analise as assertivas abaixo e assinale a alternativa correta.\nI. Recomenda-se implementar a injeção de dependência quando uma classe é dependente de outra.\nII. A injeção de dependência não permite desacoplar uma classe de suas classes dependentes, mas facilita o entendimento da implementação.\nIII. Uma das formas de implementação é pela criação de um pool de objetos, no qual objetos são retirados para serem injetados em uma classe.",
+        "alternativas": [
+            "Todas estão corretas.",
+            "Todas estão incorretas.",
+            "Apenas I e II estão corretas.",
+            "Apenas I e III estão corretas.",
+            "Apenas II e III estão corretas."
+        ],
+        "gabarito": "Apenas I e III estão corretas.",
+        "banca": "FUNDATEC",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 76,
+        "enunciado": "Qual é a diferença entre inversão de controle e injeção de dependências?",
+        "alternativas": [
+            "A inversão de controle é um princípio e a injeção de dependências é uma técnica.",
+            "A inversão de controle é uma técnica e a injeção de dependências é um princípio.",
+            "Não há diferença, os termos são sinônimos.",
+            "A inversão de controle é um conceito antigo e a injeção de dependências é um conceito moderno.",
+            "A injeção de dependências é uma técnica específica da linguagem Java."
+        ],
+        "gabarito": "A inversão de controle é um princípio e a injeção de dependências é uma técnica.",
+        "banca": "FUNDATEC",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 77,
+        "enunciado": "Quais são as principais vantagens da utilização de injeção de dependências em um projeto de software?",
+        "alternativas": [
+            "Aumento da coesão e diminuição do acoplamento.",
+            "Facilidade para testes unitários e maior flexibilidade do código fonte.",
+            "Possibilidade de reutilização completa de código e maior segurança de sua execução.",
+            "Diminuição da complexidade e ganho visível de performance.",
+            "Nenhuma das anteriores."
+        ],
+        "gabarito": "Facilidade para testes unitários e maior flexibilidade do código fonte.",
+        "banca": "FUNDATEC",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 78,
+        "enunciado": "Assinale a alternativa que descreve corretamente o conceito de Inversão de Controle (IoC)?",
+        "alternativas": [
+            "Um padrão de projeto que permite que um objeto possa ser substituído por outro sem alterar o comportamento do sistema.",
+            "Um padrão de projeto que permite que um objeto seja criado por outro objeto.",
+            "Um padrão de projeto que permite que a configuração do sistema seja realizada por meio de um arquivo de propriedades.",
+            "Um padrão de projeto que permite que um objeto possa ser utilizado por outros objetos sem que estes tenham que saber a sua implementação.",
+            "Nenhuma das anteriores."
+        ],
+        "gabarito": "Um padrão de projeto que permite que um objeto possa ser utilizado por outros objetos sem que estes tenham que saber a sua implementação.",
+        "banca": "FUNDATEC",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 79,
+        "enunciado": "Assinale a alternativa que descreve corretamente o conceito de Injeção de Dependências (DI)?",
+        "alternativas": [
+            "Um padrão de projeto que permite que um objeto possa ser substituído por outro sem alterar o comportamento do sistema.",
+            "Um padrão de projeto que permite que um objeto seja criado por outro objeto.",
+            "Um padrão de projeto que permite que a configuração do sistema seja realizada por meio de um arquivo de propriedades.",
+            "Um padrão de projeto que permite que as dependências de um objeto sejam injetadas por outro objeto ou por um contêiner de DI.",
+            "Nenhuma das anteriores."
+        ],
+        "gabarito": "Um padrão de projeto que permite que as dependências de um objeto sejam injetadas por outro objeto ou por um contêiner de DI.",
+        "banca": "FUNDATEC",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 80,
+        "enunciado": "Os princípios GRASP (General Responsibility Assignment Software Patterns) definem diretrizes para atribuições de responsabilidades às classes e objetos durante a construção de Sistemas Orientados a Objetos. Os nove diferentes princípios apresentados em GRASP são: Criador, Especialista de informação, Baixo acoplamento, Controlador, Alta coesão e, EXCETO:",
+        "alternativas": [
+            "Polimorfismo.",
+            "Fabricação pura.",
+            "Indireção.",
+            "Variações protegidas.",
+            "Segregação de interface."
+        ],
+        "gabarito": "Segregação de interface.",
+        "banca": "FUNDATEC",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 81,
+        "enunciado": "De acordo com o Catálogo GoF, o padrão que apresenta uma interface comum para uma coleção de objetos é o",
+        "alternativas": [
+            "Facade.",
+            "Command.",
+            "Prototype.",
+            "Singleton.",
+            "Iterator."
+        ],
+        "gabarito": "Iterator.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 82,
+        "enunciado": "Assinale a opção que apresenta tipos de padrões estruturais (design patterns) de projetos de desenvolvimento de software.",
+        "alternativas": [
+            "bridge, composite, facade.",
+            "abstract factory, builder.",
+            "factory method, prototye, singleton.",
+            "interator, mediator, visitor.",
+            "memento, state, strategy."
+        ],
+        "gabarito": "bridge, composite, facade.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 83,
+        "enunciado": "Acerca da UML, de padrões de projeto e de arquitetura, julgue o item seguinte.\nUma maneira de parametrizar um sistema pelas classes de objetos que ele cria é utilizar o padrão factory method para criar subclasses da classe que cria objetos, contudo essa solução tem a desvantagem de requerer a criação de uma nova subclasse somente para mudar a classe do produto.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 84,
+        "enunciado": "Um padrão de projeto é uma solução geral para um problema que ocorre com frequência dentro de um determinado contexto no projeto de software. O padrão de projeto de software denominado Bridge é um padrão",
+        "alternativas": [
+            "estrutural que desacopla uma abstração de sua implementação para que os dois possam variar independentemente.",
+            "comportamental destinado a armazenar o estado interno de um objeto em um dado momento para que seja possível retorná-lo a este estado.",
+            "de controle de objetos utilizado para garantir que determinada classe só tenha uma única instância e prover um ponto de acesso global a ela.",
+            "de criação para instanciar famílias de objetos relacionados por meio de uma única interface e sem que a classe concreta seja especificada.",
+            "de interação para prover uma maneira de acessar os elementos de um objeto agregado sequencialmente sem expor sua representação interna."
+        ],
+        "gabarito": "estrutural que desacopla uma abstração de sua implementação para que os dois possam variar independentemente.",
+        "banca": "FGV",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 85,
+        "enunciado": "São categorias de Padrões de Projetos (Design Patterns) no contexto do processo de desenvolvimento de software:",
+        "alternativas": [
+            "Estruturados, não estruturados e semiestruturados.",
+            "Modulares, sequenciais e encadeados.",
+            "Criacionais, estruturais e comportamentais.",
+            "Elementares, complexos e intermediários.",
+            "Públicos, privados e reservados."
+        ],
+        "gabarito": "Criacionais, estruturais e comportamentais.",
+        "banca": "FUNDATEC",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 86,
+        "enunciado": "O analista André é o arquiteto da aplicação web TCEDash. O componente Board, da TCEDash, apresenta ao usuário indicadores visuais e manipuláveis, baseados em informações contidas no banco de dados da aplicação. O Board instancia um novo objeto para cada indicador apresentado ao usuário. Sabendo que determinado subconjunto de informações se repete em todos os indicadores, André aplicou no componente Board o padrão de projeto estrutural do Gang Of Four (GoF), que otimiza a alocação de objetos na memória RAM, mediante o compartilhamento de atributos comuns entre os objetos.\nAndré aplicou no componente Board o padrão do GoF:",
+        "alternativas": [
+            "proxy;",
+            "bridge;",
+            "facade;",
+            "flyweight;",
+            "composite."
+        ],
+        "gabarito": "flyweight;",
+        "banca": "FGV",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 87,
+        "enunciado": "Marcos está efetuando a manutenção de um sistema e notou que em diversos pontos são efetuadas chamadas HTTP para diferentes servidores, utilizando configurações específicas. Ele resolveu refatorar o código, criando uma classe que oferece métodos para cada elemento da configuração, os quais podem ser combinados para gerar um conector personalizado para cada servidor acessado.\nAdotando essa abordagem, Marcos aumentou o reuso de processos intermediários na construção de objetos complexos, de acordo com o padrão:",
+        "alternativas": [
+            "Singleton;",
+            "Mediator;",
+            "Builder;",
+            "Observer;",
+            "Chain of Responsibility."
+        ],
+        "gabarito": "Builder;",
+        "banca": "FGV",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 88,
+        "enunciado": "Pedro criou uma cesta de compras virtual, onde é apresentado o valor total por item, considerando a quantidade, e o valor da compra, com a soma dos valores dos itens. Em seu sistema, ele criou as classes Produto, ItemCesta e Cesta, cada uma com os dados relacionados às tabelas do banco, o método que calcula o valor total do item na classe ItemCesta, e o cálculo do valor da compra é efetuado na classe Cesta.\nA estratégia adotada por Pedro segue o padrão:",
+        "alternativas": [
+            "Information Expert;",
+            "Creator;",
+            "Pure Fabrication;",
+            "Controller;",
+            "Polymorphism."
+        ],
+        "gabarito": "Information Expert;",
+        "banca": "FGV",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 89,
+        "enunciado": "Assinale a opção que indica o padrão de projeto GoF ('Gang of Four') que, com finalidade comportamental, sem violar o encapsulamento, captura e externaliza um estado interno de um objeto, de modo que o mesmo possa posteriormente ser restaurado para este estado.",
+        "alternativas": [
+            "bridge.",
+            "facade.",
+            "flyweight.",
+            "memento.",
+            "visitor."
+        ],
+        "gabarito": "memento.",
+        "banca": "FGV",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 90,
+        "enunciado": "Padrões GRASP comunicam princípios fundamentais de atribuição de responsabilidades em um projeto orientado a objetos e oferecem soluções idiomáticas que guiam os projetistas na criação de software.\nDe acordo com esses padrões, um princípio fundamental, segundo o qual as responsabilidades são atribuídas em projetos orientado a objetos, é",
+        "alternativas": [
+            "atribuir responsabilidade de maneira que o acoplamento entre classes permaneça forte.",
+            "atribuir responsabilidade à classe que tem a informação necessária para satisfazer a responsabilidade.",
+            "atribuir responsabilidades de forma que a coesão das classes permanece baixa.",
+            "atribuir a responsabilidade do tratamento dos eventos de sistema de um mesmo caso de uso a múltiplas classes.",
+            "atribuir um conjunto de responsabilidades sem coesão a uma classe artificial para permitir a reutilização."
+        ],
+        "gabarito": "atribuir responsabilidade à classe que tem a informação necessária para satisfazer a responsabilidade.",
+        "banca": "FGV",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 91,
+        "enunciado": "A analista Maria está desenvolvendo a funcionalidade C de uma aplicação, utilizando os padrões de projeto Gang of Four (GoF). Existem vários algoritmos, conhecidos e disponíveis, capazes de implementar a funcionalidade C. A aplicação deve deixar o usuário escolher qual algoritmo usar. Sendo assim, Maria decidiu aplicar na funcionalidade C o padrão GoF comportamental que modela algoritmos similares como objetos independentes, porém, passíveis de troca em tempo de execução.\nMaria decidiu aplicar o padrão GoF:",
+        "alternativas": [
+            "Visitor;",
+            "Strategy;",
+            "Mediator;",
+            "Interpreter;",
+            "Template Method."
+        ],
+        "gabarito": "Strategy;",
+        "banca": "FGV",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 92,
+        "enunciado": "Pedro está implementando a aplicação web SergipeJusto. Pedro aplicou em SergipeJusto o padrão de projeto comportamental que soluciona o problema de armazenar e, posteriormente, restaurar o estado interno de um objeto sem violar o seu encapsulamento. Pedro aplicou em SergipeJusto o padrão de projeto comportamental:",
+        "alternativas": [
+            "State;",
+            "Iterator;",
+            "Mediator;",
+            "Memento;",
+            "Prototype."
+        ],
+        "gabarito": "Memento;",
+        "banca": "FGV",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 93,
+        "enunciado": "Em paralelo aos conhecimentos do desenvolvimento orientado a objetos, padrões de projetos foram desenvolvidos, a fim de propor padrões já consagrados para a resolução de problemas que eventualmente são recorrentes ao longo do desenvolvimento de projeto logo existem diversas Design Patterns (Padrões de projeto). Assinale a alternativa correta sobre qual a principal finalidade da Design Pattern Singleton.",
+        "alternativas": [
+            "Garantir que uma classe tenha apenas um objeto em toda a aplicação.",
+            "Garantir que uma classe tenha apenas uma única herança no projeto.",
+            "Garantir que uma classe tenha apenas atributos em sua definição.",
+            "Garantir que uma classe tenha apenas métodos em sua definição."
+        ],
+        "gabarito": "Garantir que uma classe tenha apenas um objeto em toda a aplicação.",
+        "banca": "IBFC",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 94,
+        "enunciado": "Considere o seguinte caso hipotético:\nUm Analista de um Tribunal Regional do Trabalho está criando uma aplicação de gerenciamento de logística para distribuição de processos. A primeira versão da sua aplicação pode lidar apenas com a distribuição física feita por meio de pessoas, portanto, a maior parte do código fica dentro da classe Entregador. Depois de um tempo, a aplicação se torna bastante utilizada e ele recebe frequentemente várias solicitações de outros departamentos do órgão para incorporar. na aplicação, a logística de distribuição dos processos digitalizados por meio do computador. A adição de uma nova classe (meio) de distribuição ao programa causa um problema porque adicionar uma nova classe ao programa não é tão simples se o restante do código já estiver acoplado às classes existentes. Atualmente, a maior parte do código é acoplada à classe Entregador. Adicionar Computador à aplicação exigiria alterações em toda a base de código. Além disso, se mais tarde ele decidir adicionar outro meio de distribuição à aplicação, provavelmente precisará fazer todas essas alterações novamente. Como resultado, ele terá um código bastante sujo, repleto de condicionais que alteram o comportamento da aplicação, dependendo da classe de objetos de meio de distribuição.\nUma solução de melhoria para deixar o código mais limpo e manutenível é usar o padrão de projeto",
+        "alternativas": [
+            "criacional Bridge.",
+            "comportamental Composite.",
+            "criacional Factory Method.",
+            "comportamental lterator.",
+            "estrutural Builder."
+        ],
+        "gabarito": "criacional Factory Method.",
+        "banca": "FCC",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 95,
+        "enunciado": "Uma Técnica de um Tribunal Regional do Trabalho utiliza padrões de projeto como soluções típicas para problemas comuns em projeto de software. Ela utilizou um deles que permite que se salve e restaure o estado anterior de um objeto sem revelar os detalhes de sua implementação.\nTrata-se do padrão",
+        "alternativas": [
+            "comportamental Memento.",
+            "estrutural Mediator.",
+            "criacional Singleton.",
+            "comportamental Visitor.",
+            "estrutural Decorator."
+        ],
+        "gabarito": "comportamental Memento.",
+        "banca": "FCC",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 96,
+        "enunciado": "Os padrões de projetos (Design Patterns), são amplamente utilizados para soluções de problemas computacionais, onde, os padrões disponíveis são utilizados para solucionar problemas já conhecidos, que ocorrem com frequência em diversos projetos de diversas áreas. Assinale a alternativa que descrevem apenas Design Patterns da categoria da comportamental.",
+        "alternativas": [
+            "Observer; Strategy; State.",
+            "Singleton; Observer; State.",
+            "Strategy; Observer; Singleton.",
+            "Factory; State; Singleton."
+        ],
+        "gabarito": "Observer; Strategy; State.",
+        "banca": "IBFC",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 97,
+        "enunciado": "O GRASP (general responsibility assignment software patterns) define princípios básicos padrões de projetos orientados a objetos.\nConsidere os seguintes questionamentos, feitos no âmbito de um sistema escolar onde se conhece a média total do resultado de um aluno.\n∙ Para se conhecer a média total do resultado de um aluno, qual princípio vai se direcionar para encontrar a classe de objetos adequada para receber essa responsabilidade? ∙ Nesse caso, qual princípio GRASP procura identificar a classe de objetos que tem a informação necessária para a determinação da média? Assinale a opção que apresenta o princípio GRASP presente nos referidos questionamentos.",
+        "alternativas": [
+            "especialista na informação (information expert).",
+            "acoplamento baixo (low coupling).",
+            "coesão alta (high cohesion).",
+            "controlador (controller).",
+            "criador (creator)."
+        ],
+        "gabarito": "especialista na informação (information expert).",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 98,
+        "enunciado": "Um sistema cliente-servidor precisa tratar de documentos que possuem imagens muito grandes. Essas imagens não são, necessariamente, apresentadas ao usuário sempre que ele carrega um documento, logo, carregar todas as imagens previamente, toda vez que o cliente abre um documento, pode gastar um tempo desnecessário.\nA melhor estratégia é carregar a imagem apenas quando a visualização é necessária. Ciente desse problema, o desenvolvedor responsável pelo sistema decidiu usar um padrão de projeto que fornece, no cliente, um objeto substituto que controla o acesso ao objeto original.\nQual foi o padrão de projeto utilizado?",
+        "alternativas": [
+            "Decorator.",
+            "Facade.",
+            "Memento.",
+            "Observer.",
+            "Proxy."
+        ],
+        "gabarito": "Proxy.",
+        "banca": "CESGRANRIO",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 99,
+        "enunciado": "Julgue o item subsequente, a respeito de padrões de projeto de software.\nOs três principais padrões de projeto (design patterns) são os criacionais, os estruturais e os comportamentais; os padrões criacionais aumentam a flexibilidade e a reutilização de código porque oferecem diversas alternativas de criação de objetos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 100,
+        "enunciado": "Julgue o item subsequente, a respeito de padrões de projeto de software.\nDesign patterns é um conjunto de soluções generalistas para problemas recorrentes durante o desenvolvimento de um software; trata-se de um framework ou código pronto, e não de uma definição de alto nível de como um problema comum pode ser solucionado.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 101,
+        "enunciado": "O padrão de projeto de software orientado a objetos, que pode ser utilizado para garantir que uma determinada classe tenha somente uma única instância, é",
+        "alternativas": [
+            "adapter.",
+            "flyweight.",
+            "memento.",
+            "singleton.",
+            "visitor."
+        ],
+        "gabarito": "singleton.",
+        "banca": "FGV",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 102,
+        "enunciado": "Sabendo que o diagrama a seguir apresenta um padrão de projeto orientado a objetos, assinale a alternativa que apresenta corretamente o nome do padrão usado no diagrama. {image(6)}",
+        "alternativas": [
+            "Strategy.",
+            "Factory.",
+            "Bridge.",
+            "Template Method.",
+            "BCE (Boundary, Control, Entity)."
+        ],
+        "gabarito": "Strategy.",
+        "banca": "Instituto AOCP",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 103,
+        "enunciado": "Julgue o próximo item, a respeito de arquitetura de software.\nOs padrões de projeto abrangem um amplo espectro de abstração e aplicação; especificamente, o factory method pattern separa a construção de um objeto complexo de sua representação de modo que o mesmo processo de construção possa criar diferentes implementações do mesmo objeto.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 104,
+        "enunciado": "O padrão de projeto Singleton",
+        "alternativas": [
+            "pertence à categoria de padrões comportamentais, tendo por objetivo garantir que um objeto tenha apenas uma instância, enquanto provê um ponto de acesso global para essa instância.",
+            "cria um método Singleton() cujo construtor deve ser público. Um construtor público não permite que a classe seja instanciada a não ser que seja feito através do método getInstance() que é privado e pode ser acessado de qualquer outra classe.",
+            "permite que a classe seja acessada de qualquer lugar no programa. Contudo, ele permite que a instância dessa classe possa ser sobrescrita por outro código.",
+            "é indicado quando uma classe no programa deve ter apenas uma instância disponível para todos os clientes. Por exemplo, para controlar o acesso a uma base de dados única compartilhada por diferentes partes do programa.",
+            "garante que o objeto Singleton seja inicializado cada vez que for instanciado. Isso também garante que o princípio de responsabilidade única seja respeitado."
+        ],
+        "gabarito": "é indicado quando uma classe no programa deve ter apenas uma instância disponível para todos os clientes. Por exemplo, para controlar o acesso a uma base de dados única compartilhada por diferentes partes do programa.",
+        "banca": "FCC",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 105,
+        "enunciado": "No contexto de Design Patterns (Padrões de projetos), um dos padrões mais simples em Java envolve uma classe simples, responsável pela criação de um objeto com a garantia de que apenas um simples objeto é criado.\nEsse pattern é conhecido como",
+        "alternativas": [
+            "Adapter.",
+            "Builder.",
+            "Factory.",
+            "Singleton.",
+            "State."
+        ],
+        "gabarito": "Singleton.",
+        "banca": "FGV",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 106,
+        "enunciado": "Em computação muitos problemas são recorrentes e boas soluções para eles já foram devidamente catalogadas pois são consideras soluções consagradas. Com o intuito de definir uma nomenclatura universal no mundo do desenvolvimento de software, foram estabelecidos os padrões de projeto.\nA respeito dos nomes e conceitos que envolvem os diversos padrões de projeto atualmente existentes, analise as afirmativas abaixo e marque alternativa correta.\nI. Singleton e lterator são exemplos de padrões de projeto comportamentais.\nII. Command e Prototype são exemplos de padrões de projeto de criação.\nIII. Adapter é o nome do padrão de projeto que se propõe a ser um intermediador entre uma classe não adaptável e uma interface esperada. Pode ser útil, por exemplo, para tomar \"plugável\" a interface de comunicação entre um sistema e módulos fornecidos por terceiros, facilitando a troca de fornecedor destes módulos se necessário.",
+        "alternativas": [
+            "Apenas a afirmativa I está correta.",
+            "Apenas a afirmativa III está correta.",
+            "Apenas as afirmativas I e III estão corretas.",
+            "Apenas a afirmativa II está correta.",
+            "Todas as afirmativas estão corretas."
+        ],
+        "gabarito": "Apenas a afirmativa III está correta.",
+        "banca": "IDECAN",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 107,
+        "enunciado": "Facade é o nome de um padrão de projeto comportamental. Esse tipo de padrão é caracterizado por facilitar processos de delegação de responsabilidade entre objetos.\nMarque a alternativa que indica, corretamente, onde se aplica este tipo de padrão.",
+        "alternativas": [
+            "Garantir que uma classe possua objeto único e que esse esteja disponível em todo o escopo da aplicação.",
+            "Agregar responsabilidades adicionais a um objeto de forma dinâmica.",
+            "Permitir acesso sequencial a elementos de uma coleção sem expor detalhes da estrutura que comporta tal coleção.",
+            "Esconder a complexidade de um código maior ou mais complexo, através da apresentação de uma interface mais simplificada.",
+            "Encapsular o processo de criação de objetos, deixando para subclasses a responsabilidade de decidir qual objeto deverá ser criado."
+        ],
+        "gabarito": "Esconder a complexidade de um código maior ou mais complexo, através da apresentação de uma interface mais simplificada.",
+        "banca": "IDECAN",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 108,
+        "enunciado": "Acerca dos padrões de projeto em arquitetura de software, julgue o próximo item.\nO objetivo do padrão Singleton é especificar os tipos de objetos a partir de uma instância de protótipo.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 109,
+        "enunciado": "Acerca dos padrões de projeto em arquitetura de software, julgue o próximo item.\nPor meio do padrão Facade, é possível construir uma interface comum e simplificada para um sistema ou subsistema.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 110,
+        "enunciado": "Acerca dos padrões de projeto em arquitetura de software, julgue o próximo item.\nO padrão de comportamento Command permite representar comandos como objetos, sem a necessidade de saber como a operação é executada.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 111,
+        "enunciado": "Acerca dos padrões de projeto em arquitetura de software, julgue o próximo item.\nO padrão GRASP de Expert é utilizado para atribuir uma responsabilidade à classe que possui a informação necessária para atender essa mesma responsabilidade.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 112,
+        "enunciado": "Julgue o item a seguir, a respeito dos padrões GRASP (general responsibility assignment software patterns).\nEntre os padrões definidos pelo GRASP, destacam-se baixa coesão e alto acoplamento.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 113,
+        "enunciado": "Design Patterns são soluções generalistas para problemas que surgem de forma recorrente ao longo do desenvolvimento de softwares. Ou seja: são soluções elegantes, prontas, pensadas, testadas e aprovadas para situações comuns e que surgem no cotidiano.\nAssinale a alternativa correta em relação ao assunto.",
+        "alternativas": [
+            "Creational Patterns são os padrões de criação e tratam da construção do objeto e de referência. Neste padrão, como exemplo, constam Abstract Factory, Builder, Bridge e Proxy.",
+            "Behavioral Patterns são os padrões comportamentais que tratam da comunicação entre os objetos, especialmente em termos de responsabilidade e de algoritmo. Nele, estão inseridos: Chain of Responsibility, Proxy, Abstract Factory e Interpreter.",
+            "Creational Patterns são os padrões comportamentais que tratam da construção e comunicação entre os objetos, especialmente em termos de responsabilidade e de algoritmo. Nele, estão inseridos: Chain of Responsibility, Command e Interpreter.",
+            "Structural Patterns são os padrões estruturais que tratam da relação entre os objetos e como eles interagem entre si para formarem objetos grandes e complexos. Como exemplo temos Adapter, Bridge e Singleton.",
+            "Behavioral Patterns são os padrões estruturais de comportamento que tratam da relação entre os objetos e como eles interagem entre si para formarem objetos grandes e complexos. Como exemplo temos Adapter, Bridge, Proxy e Singleton."
+        ],
+        "gabarito": "Structural Patterns são os padrões estruturais que tratam da relação entre os objetos e como eles interagem entre si para formarem objetos grandes e complexos. Como exemplo temos Adapter, Bridge e Singleton.",
+        "banca": "FEPESE",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 114,
+        "enunciado": "Em Design Patterns, padrões criacionais oferecem diversas alternativas de criação de objetos, o que aumenta a flexibilidade e a reutilização de código.\nAssinale a alternativa que contém somente padrões criacionais.",
+        "alternativas": [
+            "Factory Method, Abstract Factory e Builder.",
+            "Builder, Composite, Interpreter.",
+            "Factory, Compsite, Interpreter.",
+            "Abstract, Composite, Adapter.",
+            "Adapter, Bridge, Composite."
+        ],
+        "gabarito": "Factory Method, Abstract Factory e Builder.",
+        "banca": "FEPESE",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 115,
+        "enunciado": "No processo de desenvolvimento de software, muitas vezes não precisamos nos preocupar em resolver certos problemas, pois outras pessoas no passado já trabalharam nisso. O nome que damos para essas fórmulas é design patterns (Padrões de projeto), que no final, se resumem a soluções típicas para problemas comuns em um projeto de software.\nAssinale a alternativa correta em relação ao assunto.",
+        "alternativas": [
+            "Padrões de projeto descrevem objetos e classes que se relacionam para resolver um problema de projeto genérico em um contexto particular.",
+            "Padrões de projeto descrevem algoritmos que se relacionam para resolver um problema de projeto particular em um contexto particular.",
+            "Padrões Comportamentais propõem soluções flexíveis para composição de classes e objetos.",
+            "Padrões Estruturais propõem soluções flexíveis para interação e divisão de responsabilidades entre classes e objetos.",
+            "Design Patterns, ou Padrões de Projeto são padrões para alcançar objetivos na engenharia de software usando classes e métodos em linguagens procedurais."
+        ],
+        "gabarito": "Padrões de projeto descrevem objetos e classes que se relacionam para resolver um problema de projeto genérico em um contexto particular.",
+        "banca": "FEPESE",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 116,
+        "enunciado": "São considerados Padrões de Projeto GoF do Tipo Criação, EXCETO",
+        "alternativas": [
+            "Abstract Factory.",
+            "Flyweight.",
+            "Factory Method.",
+            "Builder.",
+            "Singleton."
+        ],
+        "gabarito": "Flyweight.",
+        "banca": "Instituto AOCP",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 117,
+        "enunciado": "De acordo com o propósito de criação do padrão Singleton, é correto afirmar que o uso desse padrão",
+        "alternativas": [
+            "define a estrutura e composição da main.",
+            "garante a existência de apenas uma instância de uma classe.",
+            "institui a taxonomia da operação.",
+            "abstrai o desenho do projeto de configuração.",
+            "encapsula a propriedade de cardinalidade do extends."
+        ],
+        "gabarito": "garante a existência de apenas uma instância de uma classe.",
+        "banca": "Instituto AOCP",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 118,
+        "enunciado": "Com base nos fundamentos da Engenharia de Software, julgue o item a seguir relativos às decisões adequadas que devem ser tomadas pelas equipes de analistas quando do planejamento para o desenvolvimento de um novo sistema.\nPara a solução de problemas que surgirem no projeto do sistema, quando o contexto não estiver claro e não houver tempo para entendê-lo, devem ser adotados padrões de projeto constantes da literatura da área.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 119,
+        "enunciado": "A respeito de padrões de criação, julgue o item a seguir.\nConforme o padrão Singleton, um sistema que necessite de um único objeto de uma classe, após o programa instanciar o objeto, não deve ter permissão de criar objetos adicionais dessa classe.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 120,
+        "enunciado": "A respeito de padrões de criação, julgue o item a seguir.\nO padrão Prototype cria novos objetos a partir da cópia de quaisquer objetos, sem aproveitar o estado do objeto copiado.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 121,
+        "enunciado": "Acerca de padrões estruturais, julgue o item a seguir.\nO propósito do padrão Adapter é separar uma abstração de sua implementação, para que as duas possam variar e ser independentes.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 122,
+        "enunciado": "Acerca de padrões estruturais, julgue o item a seguir.\nUm cliente que precisa tratar, de maneira uniforme, objetos individuais e suas composições deve utilizar, para essa finalidade, o padrão Facade.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 123,
+        "enunciado": "Com relação a padrões comportamentais, julgue o item a seguir.\nO padrão Iterator oferece uma forma flexível de uso de herança para estender uma funcionalidade.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 124,
+        "enunciado": "Com relação a padrões comportamentais, julgue o item a seguir.\nO padrão Command permite suportar operações reversíveis e diferentes requisições parametrizadas pelo cliente.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 125,
+        "enunciado": "Considerando o padrão GRASP, julgue o item a seguir.\nObserva-se a utilização do padrão Controller quando uma classe recebe a responsabilidade de lidar com eventos do sistema.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 126,
+        "enunciado": "Considerando o padrão GRASP, julgue o item a seguir.\nAtribuir responsabilidades para abstrações, e não para objetos, faz parte do padrão Expert.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 127,
+        "enunciado": "O Sistema de Acompanhamento de Mercados (SisMARKET) apoia o processo de controle de transações de compra e venda de ativos financeiros e fornece aos gestores visões distintas contendo gráficos que demonstram continuamente o andamento das transações. Sendo assim, o SisMARKET possui uma funcionalidade para notificar e atualizar as visões gráficas automaticamente sempre que o quantitativo de um ativo financeiro sofre alterações. No projeto de desenvolvimento do SisMARKET foram empregadas boas práticas, como o uso de padrões de projeto.\nSendo assim, no SisMARKET, o padrão de projeto utilizado na construção da funcionalidade que configura uma dependência um-para-muitos entre objetos, de modo que, quando um objeto muda de estado, todos os seus dependentes são notificados e atualizados automaticamente, foi o:",
+        "alternativas": [
+            "Memento;",
+            "Proxy;",
+            "Observer;",
+            "State;",
+            "Strategy."
+        ],
+        "gabarito": "Observer;",
+        "banca": "FGV",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 128,
+        "enunciado": "Com relação à arquitetura de desenvolvimento de software, julgue o item a seguir.\nAplicando-se o padrão de projetos especialista da informação da abordagem GRASP no desenvolvimento de software orientado a objetos, ficará claramente definida de quem é a responsabilidade pela criação de nova instância de uma classe.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 129,
+        "enunciado": "Ao construir uma aplicação bancária, um projetista de software modelou a classe “Conta”. Posteriormente, percebeu que cada instância da classe “Conta” poderia ter um conjunto de responsabilidades variadas e independentes, sendo que uma requisição poderia ter que ser atendida por uma ou várias dessas responsabilidades. Isso não permitiria usar de forma eficiente o mecanismo de subclasses para representar essas responsabilidades. Buscando uma solução adequada para essa limitação, o projetista encontrou um padrão de projeto que permite adicionar e retirar dinamicamente responsabilidades apenas aos objetos individuais, e não à classe inteira, estendendo a funcionalidade do objeto, o que seria a solução ideal para o seu caso.\nEsse padrão de projeto específico tem uma estrutura comum, em que existe uma",
+        "alternativas": [
+            "superclasse abstrata, por exemplo “ComponenteConta”, que também é superclasse de uma segunda classe, e essa segunda classe, também abstrata, será superclasse das várias classes concretas que representam as responsabilidades adicionais.",
+            "classe, por exemplo “InterfaceConta”, que converte a interface de uma classe em outra interface que o cliente espera, evitando incompatibilidades causadas por interfaces diferentes.",
+            "classe, por exemplo “FabricaContas”, que separa a construção de um objeto complexo da sua representação, de forma que o mesmo processo de construção possa criar diferentes representações.",
+            "classe que define uma dependência um-para-muitos entre objetos, de forma que, quando o estado de um objeto da classe “Conta” é alterado, todos os outros objetos dependentes são notificados e podem implementar atualização automática de suas propriedades, em uma relação publicar-subscrever.",
+            "classe abstrata, por exemplo “InterfaceConta”, cuja finalidade é definir a interface que permite que suas subclasses tratem uma requisição, sendo que as subclasses concretas são estruturadas em uma cadeia onde cada classe trata a requisição ou a envia para a classe sucessora, até que uma delas atenda a requisição."
+        ],
+        "gabarito": "superclasse abstrata, por exemplo “ComponenteConta”, que também é superclasse de uma segunda classe, e essa segunda classe, também abstrata, será superclasse das várias classes concretas que representam as responsabilidades adicionais.",
+        "banca": "CESGRANRIO",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 130,
+        "enunciado": "Para acelerar os resultados e as entregas do desenvolvimento de um sistema, optou-se pelo uso de metodologias ágeis e pelo emprego de um quadro Kanban (lista de atividades para fazer, fazendo e prontas). Para a modelagem visual do sistema, optou-se pela linguagem de modelagemunificada (UML 2.2) como apoio à análise e ao projeto orientado a objetos. O gerente do projeto deseja adotar o padrão de arquitetura modelo-visão-controle (MVC), buscando um baixo acoplamento entre os componentes da aplicação.\nConsiderando desenvolvimento do sistema descrito nessa situação hipotética bem como os conceitos de engenharia de software, julgue o item que se segue.\nDe forma coerente com a orientação recebida do gestor, o padrão de projeto Observer pode ser adotado para aprimorar a implementação do MVC.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 131,
+        "enunciado": "Sobre Padrões de Projetos (Design Patterns), analise as afirmativas abaixo e dê valores Verdadeiro (V) ou Falso (F).\n( ) Auxiliam somente projetos de arquiteturas mais simples.\n( ) Facilitam a documentação e manutenção da arquitetura do software.\n( ) Definem um vocabulário comum para a discussão de problemas e soluções de projeto.\nAssinale a alternativa que apresenta a sequência correta de cima para baixo.",
+        "alternativas": [
+            "F, V, V.",
+            "V, V, F.",
+            "F, F, V.",
+            "V, F, F."
+        ],
+        "gabarito": "F, V, V.",
+        "banca": "IBFC",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 132,
+        "enunciado": "No contexto de padrões de projeto GoF, há um padrão que tem como definição garantir que uma classe tenha apenas uma instância de si mesma e que forneça um ponto global de acesso.\nAssinale-o.",
+        "alternativas": [
+            "Builder.",
+            "Factory.",
+            "Proxy.",
+            "Singleton.",
+            "Strategy."
+        ],
+        "gabarito": "Singleton.",
+        "banca": "FGV",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 133,
+        "enunciado": "Considerando o catálogo GoF.\nI. Bridge.\nII. Mediator.\nIII. Proxy.\nOs padrões de projeto são, respectivamente, do tipo",
+        "alternativas": [
+            "comportamental, estrutural e comportamental.",
+            "criacional, estrutural e comportamental.",
+            "estrutural, comportamental e criacional.",
+            "estrutural, comportamental e estrutural.",
+            "criacional, comportamental e criacional."
+        ],
+        "gabarito": "estrutural, comportamental e estrutural.",
+        "banca": "FCC",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 134,
+        "enunciado": "A coleção GoF (Gang of Four) é formada por padrões orientados a objetos, separados em categorias. A categoria padrões estruturais é responsável por",
+        "alternativas": [
+            "estabelecer um design de objetos reutilizáveis.",
+            "fornecer maneiras eficientes para criar objetos.",
+            "descrever como os objetos são colocados juntos.",
+            "descrever como os objetos interagem.",
+            "distribuir responsabilidades entre os objetos."
+        ],
+        "gabarito": "descrever como os objetos são colocados juntos.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 135,
+        "enunciado": "Utilizando-se de padrões de projeto (Design Patterns) disponíveis na literatura em sistema orientado a objetos, existe um conhecido como GoF, que define três padrões de categorias, sendo elas:",
+        "alternativas": [
+            "criação, estrutural e comportamental.",
+            "criação, manutenção e estrutural.",
+            "estrutural, manutenção e reutilizável.",
+            "comportamental, usual e reutilizável.",
+            "criação, reutilizável e comportamental."
+        ],
+        "gabarito": "criação, estrutural e comportamental.",
+        "banca": "Instituto AOCP",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 136,
+        "enunciado": "No que diz respeito aos padrões de projeto em Java, Gof é a sigla para um dos conhecidos pela engenharia de software, que tem como objetivo solucionar problemas comuns de softwares que tenham algum envolvimento com a orientação a objetos. Entre os três tipos de padrões Gof, dois são descritos a seguir:\nI. Descrevem os aspectos de elaboração, associação e a organização entre objetos e classes/interfaces, permitindo combinar objetos em modalidades mais complexas, ou descrever como as classes são herdadas ou compostas a partir de outras.\nII. Mostram o processo de como os objetos ou classes se comunicam, em geral, buscando um baixo acoplamento entre os objetos, apesar da comunicação que existe entre eles.\nOs padrões de projeto Gof descritos em I e II são conhecidos, respectivamente, como",
+        "alternativas": [
+            "comportamentais e interativos.",
+            "estruturais e comportamentais.",
+            "interativos e procedurais.",
+            "procedurais e temporais."
+        ],
+        "gabarito": "estruturais e comportamentais.",
+        "banca": "IDECAN",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 137,
+        "enunciado": "Acerca de design patterns, julgue o item subsecutivo.\nOs design patterns presentes nas arquiteturas de software surgiram das experiências e do conhecimento dos desenvolvedores a partir da programação orientada a objetos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 138,
+        "enunciado": "Acerca de design patterns, julgue o item subsecutivo.\nOs patterns estão organizados em três grupos: creational patterns (padrões de criação), structural patterns (padrões estruturais) e behavioral patterns (padrões comportamentais).",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 139,
+        "enunciado": "Acerca de design patterns, julgue o item subsecutivo.\nO pattern factory method é responsável por criar uma instância de diversas famílias de classes, sem detalhar classes concretas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 140,
+        "enunciado": "Sobre a lista de design patterns no padrão GoF, é correto afirmar:",
+        "alternativas": [
+            "Decorator é um padrão comportamental que categoriza um objeto para fornecer novos comportamentos.",
+            "Visitor é um padrão comportamental que encapsula uma solicitação como um objeto.",
+            "Abstract Factory é um padrão estrutural que permite criar novas instâncias simplesmente copiando instâncias existentes.",
+            "Iterator é um padrão comportamental que fornece uma maneira de acessar sequencialmente uma coleção de objetos sem expor a sua implementação.",
+            "State é um padrão criacional que centraliza operações complexas de comunicação e controle entre objetos relacionados."
+        ],
+        "gabarito": "Iterator é um padrão comportamental que fornece uma maneira de acessar sequencialmente uma coleção de objetos sem expor a sua implementação.",
+        "banca": "FCC",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 141,
+        "enunciado": "Os padrões de projeto de software são classificados de acordo com a funcionalidade. Assim, eles podem ser de criação, estrutural e comportamental. Assinale a alternativa que contém um exemplo de padrão de cada tipo.",
+        "alternativas": [
+            "Adapter, Bridge e Composite.",
+            "Factory Method, Prototype e Interpreter.",
+            "Prototype, Singleton e Adapter.",
+            "Builder, Bridge e Observer.",
+            "Façade, Bridge e Iterator."
+        ],
+        "gabarito": "Builder, Bridge e Observer.",
+        "banca": "IDECAN",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 142,
+        "enunciado": "O Governo Federal, por meio do Banco Central, está desenvolvendo um sistema que possibilitará a todos os Bancos do país o acesso a algumas de suas informações. Um requisito fundamental desse sistema é que a taxa de juros utilizada em todas as transações de todos os Bancos seja a mesma e haja um único acesso a essa informação. Além disso, esse sistema deve poder ser executado em diferentes plataformas, como computadores e diversos dispositivos móveis. Para garantir que a taxa de juros seja única e para evitar a necessidade de criar diferentes soluções para cada plataforma, a empresa desenvolvedora decidiu adotar padrões de projeto. O primeiro padrão deverá garantir uma única instanciação para a classe “Taxa de juros”; e o segundo padrão deverá definir uma família de componentes para cada plataforma e uma implementação que os instancie de acordo com a plataforma na qual a aplicação estará sendo executada.\nOs padrões de projeto a serem adotados nessa implementação são, respectivamente:",
+        "alternativas": [
+            "Prototype e Adapter;",
+            "Singleton e Abstract Factory;",
+            "Template Method e Prototype;",
+            "Adapter e Singleton;",
+            "Abstract Factory e Command."
+        ],
+        "gabarito": "Singleton e Abstract Factory;",
+        "banca": "FGV",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 143,
+        "enunciado": "Padrões de Projeto são descrições dos problemas e suas soluções. Essas soluções devem ter a possibilidade de serem reusadas em diferentes tipos de contextos.\nTambém pode-se definir padrões de projetos como soluções já aprovadas para problemas comuns que foram criados a partir do conhecimento e, principalmente, da experiência.\nAssinale a alternativa que NÃO apresenta um padrão de projeto reconhecido.",
+        "alternativas": [
+            "Abstract Factory.",
+            "Primitive Operation.",
+            "Singleton.",
+            "Adapter.",
+            "Template Method."
+        ],
+        "gabarito": "Primitive Operation.",
+        "banca": "Instituto AOCP",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 144,
+        "enunciado": "Julgue o item, a respeito de domain-driven design, design patterns, emergent design, enterprise content management e REST.\nO uso de design patterns leva à unificação dos códigos utilizados em diferentes aplicações que utilizem o mesmo padrão.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 145,
+        "enunciado": "Com relação a desenvolvimento de software, julgue o item a seguir.\nRefactoring (refatoração) é o processo utilizado para reescrever aplicações desatualizadas, com a finalidade de incrementar e melhorar suas funcionalidades; o uso dessa técnica normalmente aprimora aplicações para disponibilizá-las na Internet.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 146,
+        "enunciado": "Uma Analista de TI quer criar um aplicativo capaz de trocar mensagens entre diversas plataformas móveis, um Android enviando mensagem para um iOS, um Windows Phone trocando mensagens com um Android etc. O problema é que cada uma destas plataformas implementa maneiras diferentes de receber mensagens. Ela sabe que criar vários métodos para cada plataforma não seria uma solução adequada, pois, se o aplicativo precisar incluir uma nova plataforma, outros métodos teriam que ser criados. A modelagem de relacionamentos muitos para muitos pode deixar o projeto do sistema demasiadamente complexo. A Analista procurou, então, um padrão de projeto para utilizar na solução. Dentre os padrões GoF, encontrou um que permite definir um objeto que encapsula a forma como um conjunto de objetos interage. Este padrão promove o acoplamento fraco aoevitar que os objetos se refiram uns aos outros explicitamente e permite variar o uso da interação de forma independente. Atua como um interlocutor entre relacionamentos muitos para muitos, ao evitar uma referência explícita aos objetos, sendo adequado ao problema. Trata- se do padrão comportamental",
+        "alternativas": [
+            "Mediator.",
+            "Composite.",
+            "Adapter.",
+            "Factory Method.",
+            "Prototype."
+        ],
+        "gabarito": "Mediator.",
+        "banca": "FCC",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 147,
+        "enunciado": "Assinale a opção que apresenta os três grupos em que se segmentam os Design Patterns.",
+        "alternativas": [
+            "padrões de criação, padrões estruturais e padrões comportamentais.",
+            "padrões de análise, padrões estruturais e padrões comportamentais.",
+            "padrões de criação, padrões de construção e padrões comportamentais.",
+            "padrões de criação, padrões estruturais e padrões de construção.",
+            "padrões de análise, padrões de construção e padrões comportamentais."
+        ],
+        "gabarito": "padrões de criação, padrões estruturais e padrões comportamentais.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 148,
+        "enunciado": "Um Analista de TI precisa criar um filtro de requisições em uma aplicação Java EE para processar um conjunto de serviços de maneira padrão.\nEsse recurso será usado para interceptar e manipular as requisições vindas das páginas web e as respostas retornadas da camada de modelo a estas requisições. O padrão de projeto adequado para esta situação é o",
+        "alternativas": [
+            "Intercepting Filter.",
+            "Filter Chain.",
+            "Bridge.",
+            "interpreter.",
+            "Filter Controller."
+        ],
+        "gabarito": "Intercepting Filter.",
+        "banca": "FCC",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 149,
+        "enunciado": "Atenção: Para responder à questão, considere a figura abaixo.\nO diagrama apresenta a descrição de um design pattern GoF. Esse padrão usa as interfaces genéricas para criar os objetos concretos que fazem parte da família de objetos. O cliente não sabe ou não se importa com quais objetos concretos obtém de cada PatternConcreto, pois usa apenas as interfaces genéricas de seus produtos.\nEsse design pattern de criação separa detalhes da implementação de um conjunto de objetos de seu uso e é denominado",
+        "alternativas": [
+            "Strategy.",
+            "Façade.",
+            "Interpreter.",
+            "Builder.",
+            "Abstract Factory."
+        ],
+        "gabarito": "Abstract Factory.",
+        "banca": "FCC",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 150,
+        "enunciado": "O padrão de desenvolvimento de uma API RESTfull trabalha em cima do conceito de criação e manipulação de recursos. Esses recursos, basicamente, são entidades da aplicação utilizadas para consultas, cadastros, atualização e exclusão de dados, ou seja, tudo é baseado em manipular os dados de um recurso. Uma API tem como objetivo tratar e unificar esses dados para, no final, construir e apresentar um recurso. Sabendo disso, Lúcia está implementando uma API REST usando NodeJS e esta possui muitos endpoints, então não será uma boa prática implementar todos eles no index.js. Para resolver esse problema, é importante o uso de um padrão de projeto que tem como objetivo organizar os códigos de acordo com suas responsabilidades. Assinale a alternativa que apresenta o padrão de projeto que tem essas características e deve ser utilizado nesse caso.",
+        "alternativas": [
+            "Model View Router.",
+            "Model View Controller.",
+            "Model View ViewModel.",
+            "Model View Model.",
+            "Model View Presenter."
+        ],
+        "gabarito": "Model View Router.",
+        "banca": "Instituto AOCP",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 151,
+        "enunciado": "Padrões de Projeto possibilitam retrabalhar os códigos antigos reduzindo problemas anteriormente, pois nos dizem como resolver problemas. Supomos que Pedro foi contratado para desenvolver um software para uma estação meteorológica que deve fornecer os dados de temperatura, umidade e pressão para outras classes que são responsáveis para apresentar dados aos usuários, apresentar dados em tela e realizar cálculos com dados meteorológicos. Essas classes precisam saber quando os valores aferidos pela estação forem alterados. Assinale a alternativa que apresenta o Padrão de Projeto correto a ser usado nesse caso para avisar as demais classes sobre a mudança de estados de um objeto.",
+        "alternativas": [
+            "Adapter.",
+            "Bridge.",
+            "Builder.",
+            "Singleton.",
+            "Observer."
+        ],
+        "gabarito": "Observer.",
+        "banca": "Instituto AOCP",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 152,
+        "enunciado": "Supõe-se que, ao desenvolver um software, é possível se deparar com uma barreira na hora de fazer a ligação com o banco de dados, pois ele só pode ter uma única instância, visto que é necessário manter a integridade da aplicação. Para esse caso, pode-se utilizar os padrões de projeto, para garantir que uma classe tenha apenas uma instância de si mesma e que forneça um ponto global de acesso a ela. Assim, uma classe gerencia a própria instância dela, além de evitar que qualquer outra classe crie uma instância dela.\nAssinale a alternativa que apresenta o Padrão de Projeto que possui essas características.",
+        "alternativas": [
+            "Singleton.",
+            "Façade.",
+            "Abstract Factory.",
+            "Adapter.",
+            "Observer."
+        ],
+        "gabarito": "Singleton.",
+        "banca": "Instituto AOCP",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 153,
+        "enunciado": "Considere a seguinte definição de problemas que podem ser encontrados em projetos orientados a objetos: “A quem devemos atribuir a responsabilidade de maneira a evitar o acoplamento direto entre dois (ou mais) objetos? Como desacoplar os objetos, de modo que o acoplamento baixo seja apoiado e o potencial de reúso permaneça mais alto?” Assinale a alternativa que corresponde ao padrão GRASP que recomenda uma forma de resolver esse problema.",
+        "alternativas": [
+            "Indireção.",
+            "Invenção Pura.",
+            "Especialista na Informação.",
+            "Variações Protegidas.",
+            "Acoplamento."
+        ],
+        "gabarito": "Indireção.",
+        "banca": "IDECAN",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 154,
+        "enunciado": "Deseja-se implementar uma solução para o desenvolvimento de um display, o qual mostra o estado de um objeto X a partir do objeto em si, utilizando-se padrão de projeto. Displays alternativos são fornecidos, e a necessidade principal é que todos eles sejam automaticamente notificados e atualizados para refletir a mudança ocorrida quando o estado do objeto mudar.\nPara resolver esse problema, é mais adequado o uso do padrão",
+        "alternativas": [
+            "Observer.",
+            "Facade.",
+            "Adapter.",
+            "Iterator.",
+            "Visitor."
+        ],
+        "gabarito": "Observer.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 155,
+        "enunciado": "Padrões de projeto consistem em soluções genéricas, focadas no reuso, para problemas recorrentes no desenvolvimento de software. Padrões Criacionais abstraem o processo de instanciação. Padrões Estruturais tratam de como classes e objetos são compostos para formar estruturas maiores. Padrões comportamentais lidam com algoritmos e responsabilidades entre objetos. Assinale a alternativa que apresenta apenas Padrões Estruturais.",
+        "alternativas": [
+            "Adapter, Command, Bridge.",
+            "Bridge, Facade, Prototype.",
+            "Command, Proxy, Adapter.",
+            "Flyweight, Prototype, Command.",
+            "Flyweight, Adapter, Proxy."
+        ],
+        "gabarito": "Flyweight, Adapter, Proxy.",
+        "banca": "IDECAN",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 156,
+        "enunciado": "Os Design Patterns (Padrões de Desenvolvimento de Software) são divididos em três grupos segundo a definição GoF (Gang of Four (Gangue dos quatro)). Quanto ao nome dos grupos, assinale a alternativa correta.",
+        "alternativas": [
+            "Padrões de Criação, Padrões Estruturais e Padrões Comportamentais.",
+            "Padrões Estruturais, Padrões de Adaptação e Padrões de Construção.",
+            "Padrões Comportamentais, Padrões de Conceitos e Padrões Composição.",
+            "Padrões Estruturais, Padrões de Conceitos e Padrões Arquiteturais."
+        ],
+        "gabarito": "Padrões de Criação, Padrões Estruturais e Padrões Comportamentais.",
+        "banca": "IBFC",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 157,
+        "enunciado": "Considere alguns Design Patterns (Padrões de Desenvolvimento de Software):\n\"___________, utilizado quando é desejável que uma interface possa variar independentemente das suas implementações. ___________, este padrão garante a existência de apenas uma instância de uma classe, mantendo um ponto global de acesso ao seu objeto. ___________, é um padrão que provê uma interface simplificada para um corpo de código maior, como por exemplo, uma biblioteca de classes.\n___________, define uma representação para sua gramática juntamente com um interpretador que usa a representação para interpretar sentenças na língua. Ou mapear um domínio para uma língua, a língua para uma gramática e a gramática para um projeto de design hierárquico orientado a objetos.\" Assinale a alternativa que preencha correta e respectivamente as lacunas.",
+        "alternativas": [
+            "Adapter/ Unique/ Simple/ Proxy.",
+            "Bridge/ Sigleton/ Facade/ Interpreter.",
+            "Bridge/ Composite/ Command/ Mediator.",
+            "Builder/ Unique/ Facade/ Proxy."
+        ],
+        "gabarito": "Bridge/ Sigleton/ Facade/ Interpreter.",
+        "banca": "IBFC",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 158,
+        "enunciado": "Sobre as definições de Design Patterns (Padrões de Desenvolvimento de Software) e suas principais aplicações, analise as afirmativas abaixo e assinale a alternativa correta.\nI. São soluções generalistas para problemas recorrentes durante o desenvolvimento de um software. II. Trata de um framework ou um código pronto. III. É uma definição de alto nível de como um problema comum pode ser solucionado.",
+        "alternativas": [
+            "Apenas a afirmativa II está correta.",
+            "Apenas a afirmativa I está correta.",
+            "Apenas as afirmativas I e III estão corretas.",
+            "Apenas as afirmativas I e II estão corretas."
+        ],
+        "gabarito": "Apenas as afirmativas I e III estão corretas.",
+        "banca": "IBFC",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 159,
+        "enunciado": "Considere os seguintes objetivos de padrões de projeto.\n1. Separa a construção de um objeto complexo da sua representação, de forma que o mesmo processo de construção possa criar diferentes representações, ou seja, serve para encapsular a construção de um produto e permitir que ele seja construído em etapas.\n2. Atribui responsabilidades adicionais a um objeto dinamicamente. Ele fornece uma alternativa flexível a subclasses para a extensão da funcionalidade, ou seja, envelopa um objeto para fornecer novos comportamentos.\n3. Usa compartilhamento para dar suporte a vários objetos de forma eficiente, ou seja, permite que uma instância de uma classe possa ser usada para fornecer muitas “instâncias virtuais”.\n4. Torna possível salvar o estado de um objeto de modo que o mesmo possa ser restaurado, ou seja, permite restaurar um objeto a um dos seus estados prévios, por exemplo, quando o usuário seleciona um “desfazer”.\nCorrespondem, correta e respectivamente, aos objetivos de padrões de projeto:",
+        "alternativas": [
+            "Factory Method, Decorator, Facade e Memento.",
+            "Adapter, Mediator, Facade e Builder.",
+            "Builder, State, Mediator e Adapter.",
+            "Builder, Decorator, Flyweight e Memento.",
+            "Decorator, Factory Method, Abstract Factory e State."
+        ],
+        "gabarito": "Builder, Decorator, Flyweight e Memento.",
+        "banca": "FCC",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 160,
+        "enunciado": "O software que controla a venda de títulos privados de um banco de investimentos tem de ser flexível o suficiente para acomodar as variações nos procedimentos de venda de CDBs, letras de câmbio e debêntures. Entretanto, a sequência na qual esses procedimentos são executados é a mesma para todos os tipos de títulos. Sendo assim, os projetistas desse software adotaram o design descrito a seguir.\nEm primeiro lugar, criaram uma classe abstrata contendo um método concreto, chamado compra(), que implementa a sequência de execução dos procedimentos, que é comum a todos os tipos de títulos, mas deixaram em aberto, por meio de métodos abstratos, a implementação de cada procedimento. Essa classe, chamada TituloPrivado, é mostrada a seguir.\npublic abstract class TituloPrivado { public final boolean compra(int qtd) { if(exibePropospectoInicial()) if(realizaCadastro(qtd)) return encerra();\nreturn false;\n} public abstract boolean exibePropospectoInicial();\npublic abstract boolean realizaCadastro(int qtd);\npublic abstract boolean encerra();\n} O passo seguinte foi criar subclasses específicas para cada um dos três tipos de títulos. Cada subclasse implementa os seus próprios procedimentos, por meio da concretização dos métodos abstratos da classe TituloPrivado. Isso é exemplificado pela classe Debenture, mostrada a seguir.\npublic class Debenture extends TituloPrivado { public boolean exibePropospectoInicial() { // código irrelevante para a questão } public boolean realizaCadastro(int qtd) { // código irrelevante para a questão } public boolean encerra() { // código irrelevante para a questão } } A realização de uma compra será feita por meio da instanciação de uma das subclasses concretas da classe TituloPrivado e da posterior execução do método compra(), que irá acionar os métodos que implementam os procedimentos específicos do tipo de título instanciado.\nQual padrão de projeto foi empregado nesse design?",
+        "alternativas": [
+            "Prototype.",
+            "Template Method.",
+            "Interpreter.",
+            "Composite.",
+            "Proxy."
+        ],
+        "gabarito": "Template Method.",
+        "banca": "CESGRANRIO",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    },
+    {
+        "id": 161,
+        "enunciado": "Um grupo de desenvolvedores resolveu criar a sua própria biblioteca para compartilhar implementações de estruturas de dados típicas. A primeira dessas estruturas é uma pilha. Para tal, eles definiram a seguinte interface:\npublic interface Pilha<E> { E pop();\nvoid push(E o);\nboolean isEmpty();\n} Para não perderem muito tempo, resolveram reutilizar o máximo de código possível das bibliotecas nativas de Java. Assim sendo, decidiram utilizar a classe ArrayList do pacote java.util.\nPor último, criaram a seguinte classe para implementar a interface Pilha:\nimport java.util.ArrayList;\npublic class PilhaLib <E> extends ArrayList <E> implements Pilha <E> { public void push(E o) { super.add(o);\n} public E pop() { return super.remove(size()-1);\n} public boolean isEmpty() { return super.isEmpty();\n} } Qual padrão de projeto foi empregado na implementação da classe PilhaLib?",
+        "alternativas": [
+            "Strategy.",
+            "AbstractFactory.",
+            "Class Adapter.",
+            "Mediator.",
+            "Object Adapter."
+        ],
+        "gabarito": "Class Adapter.",
+        "banca": "CESGRANRIO",
+        "assunto": "TI - Engenharia de Software - Padrões de Projeto (Engenharia de Software)"
+    }
+]

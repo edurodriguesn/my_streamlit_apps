@@ -1,0 +1,662 @@
+[
+    {
+        "id": 1,
+        "enunciado": "O que caracteriza o Master Data Management (MDM) no contexto de governança de dados?",
+        "alternativas": [
+            "Um conjunto de disciplinas e processos para garantir uma fonte única da verdade para dados críticos.",
+            "Um software de banco de dados relacional para armazenamento de registros históricos de faturamento.",
+            "Uma técnica de compressão de dados para reduzir o espaço físico ocupado por sistemas legados.",
+            "Um método de backup incremental voltado para a recuperação de desastres operacionais."
+        ],
+        "gabarito": "Um conjunto de disciplinas e processos para garantir uma fonte única da verdade para dados críticos.",
+        "assunto": "MDM (Master Data Management)"
+    },
+    {
+        "id": 2,
+        "enunciado": "Qual característica define corretamente os Dados Mestres em oposição aos Dados Transacionais?",
+        "alternativas": [
+            "Possuem alta volatilidade e registram eventos pontuais com estampas de tempo.",
+            "Fornecem o contexto para as transações e apresentam baixa frequência de alteração.",
+            "São armazenados em Data Lakes para processamento por cientistas de dados.",
+            "Representam metadados técnicos que descrevem o tamanho e o tipo de campos de tabelas."
+        ],
+        "gabarito": "Fornecem o contexto para as transações e apresentam baixa frequência de alteração.",
+        "assunto": "MDM (Master Data Management)"
+    },
+    {
+        "id": 3,
+        "enunciado": "No Master Data Management, qual é a finalidade primordial da criação de um &#x27;Golden Record&#x27;?",
+        "alternativas": [
+            "Eliminar a necessidade de sistemas de origem operarem com bancos de dados locais.",
+            "Consolidar registros inconsistentes em uma versão unificada, limpa e padronizada da entidade.",
+            "Agregar volumes massivos de dados não estruturados para análise preditiva.",
+            "Armazenar o histórico completo de todas as alterações feitas em dados transacionais."
+        ],
+        "gabarito": "Consolidar registros inconsistentes em uma versão unificada, limpa e padronizada da entidade.",
+        "assunto": "MDM (Master Data Management)"
+    },
+    {
+        "id": 4,
+        "enunciado": "Como se define a &#x27;Regra de Sobrevivência&#x27; (Survivorship Rule) no processo de consolidação de dados mestres?",
+        "alternativas": [
+            "Critério para determinar quais atributos de sistemas de origem prevalecem no registro de ouro.",
+            "Protocolo de segurança que garante a persistência dos dados em caso de falha no Hub central.",
+            "Técnica de limpeza que remove caracteres especiais e padroniza formatos de endereços.",
+            "Algoritmo de compressão que mantém dados relevantes enquanto descarta informações obsoletas."
+        ],
+        "gabarito": "Critério para determinar quais atributos de sistemas de origem prevalecem no registro de ouro.",
+        "assunto": "MDM (Master Data Management)"
+    },
+    {
+        "id": 5,
+        "enunciado": "Sobre a arquitetura de Registro (Registry) no MDM, selecione a afirmação correta:",
+        "alternativas": [
+            "O Hub MDM armazena os dados mestres de forma centralizada e os distribui para as origens.",
+            "Os dados mestres permanecem nos sistemas legados, e o Hub armazena índices e chaves de identificação.",
+            "Existe uma sincronização bidirecional que atualiza as correções nos sistemas de origem.",
+            "É a arquitetura mais complexa devido à necessidade de controle rigoroso de concorrência."
+        ],
+        "gabarito": "Os dados mestres permanecem nos sistemas legados, e o Hub armazena índices e chaves de identificação.",
+        "assunto": "MDM (Master Data Management)"
+    },
+    {
+        "id": 6,
+        "enunciado": "Qual é a característica distintiva da arquitetura de Consolidação no MDM?",
+        "alternativas": [
+            "Os dados são criados no Hub e depois replicados para os sistemas operacionais.",
+            "O fluxo de dados ocorre das origens para o Hub, visando relatórios corporativos e análise.",
+            "Garante que os sistemas operacionais deixem de gerar dados inconsistentes na origem.",
+            "Exige uma mudança cultural profunda por centralizar a criação do dado no início do processo."
+        ],
+        "gabarito": "O fluxo de dados ocorre das origens para o Hub, visando relatórios corporativos e análise.",
+        "assunto": "MDM (Master Data Management)"
+    },
+    {
+        "id": 7,
+        "enunciado": "Na arquitetura de Coexistência, como ocorre o tratamento das divergências de dados?",
+        "alternativas": [
+            "O Hub MDM harmoniza os dados e replica as correções de volta para os sistemas de origem.",
+            "O conflito é resolvido manualmente pelos usuários nos sistemas legados antes da replicação.",
+            "O sistema de origem mais antigo prevalece sobre as atualizações do Hub central.",
+            "As divergências são mantidas no Hub, preservando-se o registro original de cada sistema."
+        ],
+        "gabarito": "O Hub MDM harmoniza os dados e replica as correções de volta para os sistemas de origem.",
+        "assunto": "MDM (Master Data Management)"
+    },
+    {
+        "id": 8,
+        "enunciado": "Qual vantagem a arquitetura Centralizada oferece em relação à qualidade do dado?",
+        "alternativas": [
+            "Baixo impacto nos processos de negócio e nos sistemas legados existentes.",
+            "Controle total da qualidade antes da criação do dado e consistência absoluta.",
+            "Implementação célere por não exigir a validação prévia de regras de negócio.",
+            "Facilidade de adoção por não requerer mudanças na cultura da organização."
+        ],
+        "gabarito": "Controle total da qualidade antes da criação do dado e consistência absoluta.",
+        "assunto": "MDM (Master Data Management)"
+    },
+    {
+        "id": 9,
+        "enunciado": "O que ocorre especificamente durante a etapa de &#x27;Matching&#x27; no fluxo de processamento de um Hub MDM?",
+        "alternativas": [
+            "Identificação de registros que pertencem à mesma entidade por meio de chaves como o CPF.",
+            "Aplicação de filtros para remover caracteres especiais e padronizar textos de endereços.",
+            "Escolha do sistema de origem que fornecerá a informação mais atualizada do cliente.",
+            "Distribuição do registro de ouro finalizado para os sistemas operacionais consumidores."
+        ],
+        "gabarito": "Identificação de registros que pertencem à mesma entidade por meio de chaves como o CPF.",
+        "assunto": "MDM (Master Data Management)"
+    },
+    {
+        "id": 10,
+        "enunciado": "Qual é a diferença fundamental entre Master Data Management (MDM) e Data Warehouse (DW)?",
+        "alternativas": [
+            "O MDM foca em análise histórica, enquanto o DW foca na identidade única de entidades.",
+            "O MDM foca na consistência operacional, enquanto o DW foca em análise e Business Intelligence.",
+            "O DW gerencia dados estruturados, enquanto o MDM lida com dados não estruturados.",
+            "O MDM substitui o DW ao consolidar as transações financeiras da organização."
+        ],
+        "gabarito": "O MDM foca na consistência operacional, enquanto o DW foca em análise e Business Intelligence.",
+        "assunto": "MDM (Master Data Management)"
+    },
+    {
+        "id": 11,
+        "enunciado": "Como os Dados de Referência se relacionam com o Master Data Management?",
+        "alternativas": [
+            "São registros de eventos de negócio associados a uma estampa de tempo específica.",
+            "Funcionam como valores permitidos para categorizar outros dados e podem ser geridos pelo MDM.",
+            "Descrevem aspectos técnicos do banco de dados, como o tamanho dos campos de tabelas.",
+            "São dados transacionais brutos que servem de entrada para modelos de machine learning."
+        ],
+        "gabarito": "Funcionam como valores permitidos para categorizar outros dados e podem ser geridos pelo MDM.",
+        "assunto": "MDM (Master Data Management)"
+    },
+    {
+        "id": 12,
+        "enunciado": "Por que a afirmação &#x27;MDM é um software de prateleira&#x27; é considerada incorreta?",
+        "alternativas": [
+            "Porque o MDM é uma disciplina de governança e processos, sendo a tecnologia um meio viabilizador.",
+            "Porque softwares de MDM não existem comercialmente, exigindo desenvolvimento interno.",
+            "Porque o MDM lida com hardware e infraestrutura de rede, não com camadas de software.",
+            "Porque a implementação de MDM dispensa o uso de ferramentas tecnológicas para funcionar."
+        ],
+        "gabarito": "Porque o MDM é uma disciplina de governança e processos, sendo a tecnologia um meio viabilizador.",
+        "assunto": "MDM (Master Data Management)"
+    },
+    {
+        "id": 13,
+        "enunciado": "Sobre a redundância física de dados em ambientes que utilizam MDM, é correto afirmar:",
+        "alternativas": [
+            "A implementação do MDM causa a exclusão de bancos de dados legados para evitar duplicidade.",
+            "Na maioria das arquiteturas, os sistemas de origem mantêm seus próprios bancos de dados.",
+            "O MDM garante que o dado exista fisicamente em um servidor central da infraestrutura.",
+            "Redundâncias físicas são eliminadas por algoritmos de compressão no armazenamento do Hub."
+        ],
+        "gabarito": "Na maioria das arquiteturas, os sistemas de origem mantêm seus próprios bancos de dados.",
+        "assunto": "MDM (Master Data Management)"
+    },
+    {
+        "id": 14,
+        "enunciado": "No contexto de MDM, qual o objetivo da etapa de &#x27;Cleansing&#x27; (Saneamento)?",
+        "alternativas": [
+            "Definir qual sistema de origem tem a prioridade em caso de conflito de informações.",
+            "Padronizar formatos, remover caracteres especiais e corrigir erros de digitação nos registros.",
+            "Agrupar registros de diferentes sistemas que possuem o mesmo identificador fiscal.",
+            "Exportar os dados mestres para ambientes de Data Lake para fins de ciência de dados."
+        ],
+        "gabarito": "Padronizar formatos, remover caracteres especiais e corrigir erros de digitação nos registros.",
+        "assunto": "MDM (Master Data Management)"
+    },
+    {
+        "id": 15,
+        "enunciado": "Qual o papel dos Metadados em relação ao Master Data Management?",
+        "alternativas": [
+            "Representam as entidades de negócio centrais, como Clientes, Produtos e Fornecedores.",
+            "São usados para definir as regras de negócio, mas não são o objeto de negócio em si.",
+            "Registram o timestamp de cada venda ou movimentação financeira da organização.",
+            "São listas de valores fixos, como siglas de países, usadas para categorizar transações."
+        ],
+        "gabarito": "São usados para definir as regras de negócio, mas não são o objeto de negócio em si.",
+        "assunto": "MDM (Master Data Management)"
+    },
+    {
+        "id": 16,
+        "enunciado": "Em termos de esquema (schema), qual a distinção entre MDM e Data Lake?",
+        "alternativas": [
+            "O MDM usa schema-on-write (esquema rígido), enquanto o Data Lake usa schema-on-read.",
+            "O Data Lake exige modelos dimensionais estrela, enquanto o MDM usa arquivos JSON.",
+            "O MDM define o esquema no momento da consulta, enquanto o Data Lake o define na entrada.",
+            "Ambos utilizam esquemas rígidos definidos previamente para garantir a integridade analítica."
+        ],
+        "gabarito": "O MDM usa schema-on-write (esquema rígido), enquanto o Data Lake usa schema-on-read.",
+        "assunto": "MDM (Master Data Management)"
+    },
+    {
+        "id": 17,
+        "enunciado": "A etapa de &#x27;Merging&#x27; (Fusão/Sobrevivência) no fluxo de um MDM resulta diretamente em:",
+        "alternativas": [
+            "Um conjunto de índices que apontam para os diversos sistemas legados de origem.",
+            "Um registro consolidado (Golden Record) baseado na aplicação de regras de sobrevivência.",
+            "Uma lista de erros de integridade que impede a gravação dos dados no Data Warehouse.",
+            "Uma tabela transacional contendo o histórico de compras de um determinado cliente."
+        ],
+        "gabarito": "Um registro consolidado (Golden Record) baseado na aplicação de regras de sobrevivência.",
+        "assunto": "MDM (Master Data Management)"
+    },
+    {
+        "id": 18,
+        "enunciado": "Qual é o foco principal de atuação do MDM em uma arquitetura de dados corporativa?",
+        "alternativas": [
+            "Consistência operacional e identidade única das entidades de negócio centrais.",
+            "Processamento massivo de logs de servidores em tempo real para fins de segurança.",
+            "Armazenamento de imagens e vídeos para treinamento de modelos de visão computacional.",
+            "Geração de relatórios gerenciais complexos baseados em séries temporais de faturamento."
+        ],
+        "gabarito": "Consistência operacional e identidade única das entidades de negócio centrais.",
+        "assunto": "MDM (Master Data Management)"
+    },
+    {
+        "id": 19,
+        "enunciado": "Qual é uma desvantagem típica da arquitetura de Registro (Registry) no MDM?",
+        "alternativas": [
+            "Exigência de mudanças culturais profundas nos processos de criação de dados nas origens.",
+            "Complexidade na execução de consultas federadas em tempo real nos sistemas de origem.",
+            "Alto impacto nos sistemas legados devido à replicação de dados para o Hub central.",
+            "Necessidade de sincronização bidirecional constante para manter a limpeza na origem."
+        ],
+        "gabarito": "Complexidade na execução de consultas federadas em tempo real nos sistemas de origem.",
+        "assunto": "MDM (Master Data Management)"
+    },
+    {
+        "id": 20,
+        "enunciado": "O principal desafio da arquitetura Centralizada de MDM reside em:",
+        "alternativas": [
+            "A falta de controle sobre a qualidade do dado no momento da sua criação inicial.",
+            "O elevado impacto nos processos de negócio e a necessidade de mudança cultural.",
+            "A geração contínua de dados inconsistentes nos sistemas de origem por falta de validação.",
+            "A impossibilidade técnica de distribuir dados validados para os sistemas operacionais."
+        ],
+        "gabarito": "O elevado impacto nos processos de negócio e a necessidade de mudança cultural.",
+        "assunto": "MDM (Master Data Management)"
+    },
+    {
+        "id": 21,
+        "enunciado": "Como o MDM interage com os Dados Transacionais de uma organização?",
+        "alternativas": [
+            "O MDM gerencia e limpa os registros de vendas e movimentações financeiras.",
+            "Os dados transacionais fazem referência aos dados mestres gerenciados pelo MDM.",
+            "O MDM substitui a necessidade de chaves estrangeiras em tabelas de transação.",
+            "Dados transacionais são convertidos em dados mestres após o processo de Merging."
+        ],
+        "gabarito": "Os dados transacionais fazem referência aos dados mestres gerenciados pelo MDM.",
+        "assunto": "MDM (Master Data Management)"
+    },
+    {
+        "id": 22,
+        "enunciado": "Em um cenário com múltiplos sistemas, como o Hub MDM decide o nome correto de um cliente?",
+        "alternativas": [
+            "Através da aplicação de regras de sobrevivência, como preferir o nome mais completo.",
+            "Escolhendo um dos sistemas para evitar o processamento excessivo de dados.",
+            "Mantendo as diversas versões do nome no Registro de Ouro separadas por vírgulas.",
+            "Solicitando que o cliente acesse um portal e redigite as informações manualmente."
+        ],
+        "gabarito": "Através da aplicação de regras de sobrevivência, como preferir o nome mais completo.",
+        "assunto": "MDM (Master Data Management)"
+    },
+    {
+        "id": 23,
+        "enunciado": "Qual a principal vantagem da arquitetura de Registro (Registry) para empresas com sistemas legados rígidos?",
+        "alternativas": [
+            "Garante que os dados sejam limpos na origem no momento da entrada das informações.",
+            "Oferece implementação rápida com baixo impacto nos sistemas legados existentes.",
+            "Proporciona uma visão consolidada e física de todos os dados no Hub MDM central.",
+            "Elimina a necessidade de governança por delegar as regras aos sistemas de origem."
+        ],
+        "gabarito": "Oferece implementação rápida com baixo impacto nos sistemas legados existentes.",
+        "assunto": "MDM (Master Data Management)"
+    },
+    {
+        "id": 24,
+        "enunciado": "Na arquitetura de Consolidação, por que os sistemas operacionais continuam gerando dados &#x27;sujos&#x27;?",
+        "alternativas": [
+            "Porque o fluxo de dados é unidirecional e as correções do Hub não retornam às origens.",
+            "Porque o Hub MDM carece de ferramentas de limpeza e saneamento de informações.",
+            "Porque os sistemas legados rejeitam atualizações enviadas por sistemas externos ao Hub.",
+            "Porque a regra de sobrevivência impede a alteração de registros operacionais de origem."
+        ],
+        "gabarito": "Porque o fluxo de dados é unidirecional e as correções do Hub não retornam às origens.",
+        "assunto": "MDM (Master Data Management)"
+    },
+    {
+        "id": 25,
+        "enunciado": "Em qual arquitetura o MDM assegura a consistência absoluta ao validar o dado antes da sua criação?",
+        "alternativas": [
+            "Registro (Registry).",
+            "Centralizada (Centralized).",
+            "Consolidação (Consolidation).",
+            "Coexistência (Coexistence)."
+        ],
+        "gabarito": "Centralizada (Centralized).",
+        "assunto": "MDM (Master Data Management)"
+    },
+    {
+        "id": 26,
+        "enunciado": "Qual elemento é fundamental para que a etapa de &#x27;Matching&#x27; seja executada com sucesso?",
+        "alternativas": [
+            "A existência de um identificador comum, como CPF ou CNPJ, entre os registros.",
+            "O uso de algoritmos de compressão para reduzir o volume de dados processados.",
+            "A conversão de todos os dados mestres para o formato JSON antes da comparação.",
+            "A desativação momentânea dos sistemas legados durante o processamento de busca."
+        ],
+        "gabarito": "A existência de um identificador comum, como CPF ou CNPJ, entre os registros.",
+        "assunto": "MDM (Master Data Management)"
+    },
+    {
+        "id": 27,
+        "enunciado": "Por que a &#x27;estabilidade&#x27; é considerada uma característica intrínseca dos Dados Mestres?",
+        "alternativas": [
+            "Porque eles representam entidades de negócio que mudam com pouca frequência.",
+            "Porque os registros de ouro são imutáveis após sua criação inicial no Hub MDM.",
+            "Porque os bancos de dados relacionais proíbem a edição de registros de clientes.",
+            "Porque o custo de atualização desses dados é elevado para a maioria das empresas."
+        ],
+        "gabarito": "Porque eles representam entidades de negócio que mudam com pouca frequência.",
+        "assunto": "MDM (Master Data Management)"
+    },
+    {
+        "id": 28,
+        "enunciado": "Qual a distinção prática entre Dados Mestres e Dados de Referência?",
+        "alternativas": [
+            "Dados de Referência categorizam informações; Dados Mestres representam entidades centrais.",
+            "Dados Mestres são estáticos; Dados de Referência mudam a cada transação comercial.",
+            "Dados de Referência são internos; Dados Mestres originam-se em fontes externas.",
+            "Não há distinção técnica, sendo termos sinônimos na governança de dados."
+        ],
+        "gabarito": "Dados de Referência categorizam informações; Dados Mestres representam entidades centrais.",
+        "assunto": "MDM (Master Data Management)"
+    },
+    {
+        "id": 29,
+        "enunciado": "Como o Master Data Management beneficia as iniciativas de Business Intelligence (BI)?",
+        "alternativas": [
+            "Substituindo a camada de visualização por dashboards integrados nativamente no Hub.",
+            "Fornecendo dados mestres limpos e consistentes para o Data Warehouse.",
+            "Automatizando a coleta de metadados técnicos dos servidores de aplicação legados.",
+            "Eliminando a necessidade de processos de ETL no ambiente de Data Warehouse."
+        ],
+        "gabarito": "Fornecendo dados mestres limpos e consistentes para o Data Warehouse.",
+        "assunto": "MDM (Master Data Management)"
+    },
+    {
+        "id": 30,
+        "enunciado": "O conceito de &#x27;Single Source of Truth&#x27; (SSOT) no Master Data Management refere-se a:",
+        "alternativas": [
+            "Uma planilha de controle centralizada pelo gestor de TI da organização.",
+            "Um repositório que fornece a versão confiável e única dos dados mais críticos.",
+            "Um sistema de backup que preserva a cópia original de todos os bancos de dados.",
+            "Uma regra de segurança que impede o acesso a fontes de dados não validadas."
+        ],
+        "gabarito": "Um repositório que fornece a versão confiável e única dos dados mais críticos.",
+        "assunto": "MDM (Master Data Management)"
+    },
+    {
+        "id": 31,
+        "enunciado": "Quais itens representam exemplos típicos de Dados Mestres em uma organização?",
+        "alternativas": [
+            "Venda de produto, emissão de nota fiscal e transferência bancária efetuada.",
+            "Cliente, Produto, Fornecedor e Plano de Contas Contábil.",
+            "Tipo de dado VARCHAR, tamanho de campo e data de criação de uma tabela.",
+            "Siglas de estados, códigos de moedas internacionais e Classificação de Doenças."
+        ],
+        "gabarito": "Cliente, Produto, Fornecedor e Plano de Contas Contábil.",
+        "assunto": "MDM (Master Data Management)"
+    },
+    {
+        "id": 32,
+        "enunciado": "Por que a Governança de Dados é indispensável para a implementação do MDM?",
+        "alternativas": [
+            "Para definir as regras de negócio e de sobrevivência que a tecnologia deve aplicar.",
+            "Para assegurar o pagamento das licenças de software de banco de dados corporativo.",
+            "Para substituir a necessidade de modelagem física de dados nos sistemas de origem.",
+            "Para restringir o acesso de usuários comuns aos portais de Business Intelligence."
+        ],
+        "gabarito": "Para definir as regras de negócio e de sobrevivência que a tecnologia deve aplicar.",
+        "assunto": "MDM (Master Data Management)"
+    },
+    {
+        "id": 33,
+        "enunciado": "No MDM, o dado é altamente estruturado. Em contraste, um Data Lake pode conter:",
+        "alternativas": [
+            "Dados estruturados, semiestruturados (JSON) e não estruturados (imagens).",
+            "Dados organizados em tabelas dimensionais de fato e dimensão.",
+            "Metadados técnicos que descrevem a estrutura física dos servidores.",
+            "Registros de auditoria de acesso aos sistemas de arquivos operacionais."
+        ],
+        "gabarito": "Dados estruturados, semiestruturados (JSON) e não estruturados (imagens).",
+        "assunto": "MDM (Master Data Management)"
+    },
+    {
+        "id": 34,
+        "enunciado": "O que caracteriza a natureza &#x27;Compartilhada&#x27; dos Dados Mestres?",
+        "alternativas": [
+            "O fato de serem consumidos por múltiplos sistemas e departamentos da corporação.",
+            "O acesso público a esses dados para usuários externos via redes sociais.",
+            "A divisão dos dados em fragmentos armazenados em diferentes discos físicos.",
+            "A propriedade intelectual dos dados pertencente a um consórcio de empresas."
+        ],
+        "gabarito": "O fato de serem consumidos por múltiplos sistemas e departamentos da corporação.",
+        "assunto": "MDM (Master Data Management)"
+    },
+    {
+        "id": 35,
+        "enunciado": "Qual a diferença entre Cleansing e Survivorship no fluxo de processamento do MDM?",
+        "alternativas": [
+            "Cleansing trata a forma e qualidade; Survivorship decide a origem do conteúdo em conflito.",
+            "Survivorship remove duplicatas; Cleansing define o identificador único da entidade.",
+            "Cleansing é um processo manual; Survivorship é um processo automatizado por hardware.",
+            "Não há distinção, pois ambos referem-se à exclusão de registros considerados obsoletos."
+        ],
+        "gabarito": "Cleansing trata a forma e qualidade; Survivorship decide a origem do conteúdo em conflito.",
+        "assunto": "MDM (Master Data Management)"
+    },
+    {
+        "id": 36,
+        "enunciado": "Comparando a estabilidade, como se comportam Dados Mestres e Dados Transacionais?",
+        "alternativas": [
+            "Dados Mestres mudam pouco; Dados Transacionais são gerados por eventos contínuos.",
+            "Dados Transacionais são imutáveis; Dados Mestres mudam a cada segundo no sistema.",
+            "Ambos possuem a mesma frequência de alteração no ambiente de produção.",
+            "Dados Mestres são removidos após cada transação para garantir a segurança de dados."
+        ],
+        "gabarito": "Dados Mestres mudam pouco; Dados Transacionais são gerados por eventos contínuos.",
+        "assunto": "MDM (Master Data Management)"
+    },
+    {
+        "id": 37,
+        "enunciado": "No contexto de MDM, a informação sobre o &#x27;tipo de dado de uma coluna&#x27; é classificada como:",
+        "alternativas": [
+            "Dado Mestre.",
+            "Metadado.",
+            "Dado de Referência.",
+            "Dado Transacional."
+        ],
+        "gabarito": "Metadado.",
+        "assunto": "MDM (Master Data Management)"
+    },
+    {
+        "id": 38,
+        "enunciado": "Em relação ao propósito de uso, um Data Warehouse (DW) é predominantemente:",
+        "alternativas": [
+            "Analítico e voltado para consultas de leitura pelos usuários finais.",
+            "Operacional e permite escrita constante nos sistemas de origem legados.",
+            "Exploratório com foco em descoberta de padrões em dados brutos não limpos.",
+            "Transacional e responsável por validar regras de negócio em tempo real."
+        ],
+        "gabarito": "Analítico e voltado para consultas de leitura pelos usuários finais.",
+        "assunto": "MDM (Master Data Management)"
+    },
+    {
+        "id": 39,
+        "enunciado": "Diferente do Data Warehouse, o MDM possui um foco operacional que possibilita:",
+        "alternativas": [
+            "Escrever correções e dados validados de volta nos sistemas de origem.",
+            "Armazenar o histórico de dez anos de faturamento para fins de auditoria fiscal.",
+            "Executar consultas SQL complexas para prever tendências de mercado futuras.",
+            "Reduzir a latência de rede entre os centros de processamento de dados."
+        ],
+        "gabarito": "Escrever correções e dados validados de volta nos sistemas de origem.",
+        "assunto": "MDM (Master Data Management)"
+    },
+    {
+        "id": 40,
+        "enunciado": "Selecione o conjunto que representa exemplos de Dados de Referência:",
+        "alternativas": [
+            "Nome de cliente, CPF do fornecedor e endereço residencial atualizado.",
+            "Siglas de unidades federativas, códigos de moedas e códigos de doenças.",
+            "Número da venda, data da transação e valor total da nota fiscal.",
+            "Nome da tabela, nome da coluna e tipo de dado definido no banco."
+        ],
+        "gabarito": "Siglas de unidades federativas, códigos de moedas e códigos de doenças.",
+        "assunto": "MDM (Master Data Management)"
+    },
+    {
+        "id": 41,
+        "enunciado": "Se um MDM detecta que &#x27;Carlos Souza&#x27; e &#x27;C. Souza&#x27; possuem o mesmo identificador único:",
+        "alternativas": [
+            "Bloqueia ambos os registros por suspeita de inconsistência de segurança.",
+            "Realiza o processo de Matching para associá-los à mesma entidade de negócio.",
+            "Deleta o registro mais curto para otimizar o espaço de armazenamento central.",
+            "Cria dois Registros de Ouro distintos para preservar as informações originais."
+        ],
+        "gabarito": "Realiza o processo de Matching para associá-los à mesma entidade de negócio.",
+        "assunto": "MDM (Master Data Management)"
+    },
+    {
+        "id": 42,
+        "enunciado": "Por que a arquitetura de Registro (Registry) apresenta baixo impacto nos sistemas legados?",
+        "alternativas": [
+            "Porque não altera os dados nas origens nem exige replicação massiva de conteúdo.",
+            "Porque desativa os sistemas legados e assume suas funções de processamento.",
+            "Porque utiliza hardware de baixo custo para o armazenamento de todos os dados.",
+            "Porque automatiza a criação de novos campos em todas as tabelas das origens."
+        ],
+        "gabarito": "Porque não altera os dados nas origens nem exige replicação massiva de conteúdo.",
+        "assunto": "MDM (Master Data Management)"
+    },
+    {
+        "id": 43,
+        "enunciado": "Qual o principal desafio técnico associado à arquitetura de Coexistência de MDM?",
+        "alternativas": [
+            "A complexidade da sincronização bidirecional e o controle de concorrência de dados.",
+            "A ausência de um Hub central para armazenar as versões tratadas dos dados.",
+            "A impossibilidade de realizar o saneamento de dados (cleansing) no Hub central.",
+            "O impedimento de os sistemas de origem criarem novos registros de clientes."
+        ],
+        "gabarito": "A complexidade da sincronização bidirecional e o controle de concorrência de dados.",
+        "assunto": "MDM (Master Data Management)"
+    },
+    {
+        "id": 44,
+        "enunciado": "Empresas que exigem dados limpos tanto no Hub quanto nas origens devem optar pela arquitetura de:",
+        "alternativas": [
+            "Registro (Registry).",
+            "Consolidação (Consolidation).",
+            "Coexistência (Coexistence).",
+            "Data Lake."
+        ],
+        "gabarito": "Coexistência (Coexistence).",
+        "assunto": "MDM (Master Data Management)"
+    },
+    {
+        "id": 45,
+        "enunciado": "O que define os Dados Mestres como &#x27;não transacionais por si mesmos&#x27;?",
+        "alternativas": [
+            "Eles não registram um evento de negócio, mas fornecem o contexto das entidades.",
+            "Eles não podem ser utilizados em operações de compra e venda de produtos.",
+            "Eles são armazenados em sistemas que carecem de suporte a transações SQL.",
+            "Eles representam informações fictícias usadas em ambientes de teste de estresse."
+        ],
+        "gabarito": "Eles não registram um evento de negócio, mas fornecem o contexto das entidades.",
+        "assunto": "MDM (Master Data Management)"
+    },
+    {
+        "id": 46,
+        "enunciado": "No processo de Merging, a regra &#x27;preferir o nome mais completo&#x27; é classificada como:",
+        "alternativas": [
+            "Regra de Sobrevivência (Survivorship Rule).",
+            "Técnica de Indexação de Tabelas de Banco de Dados.",
+            "Política de Descarte de Metadados Obsoletos.",
+            "Norma de Segurança Cibernética e Acesso."
+        ],
+        "gabarito": "Regra de Sobrevivência (Survivorship Rule).",
+        "assunto": "MDM (Master Data Management)"
+    },
+    {
+        "id": 47,
+        "enunciado": "Enquanto o MDM foca em Dados Mestres, o Data Warehouse armazena de forma central:",
+        "alternativas": [
+            "Dados transacionais brutos coletados diretamente dos sistemas operacionais.",
+            "Dados estruturados mestres e transacionais, devidamente limpos e agregados.",
+            "Metadados técnicos referentes ao desempenho do hardware de BI.",
+            "Dados não estruturados, como áudios de atendimento ao consumidor."
+        ],
+        "gabarito": "Dados estruturados mestres e transacionais, devidamente limpos e agregados.",
+        "assunto": "MDM (Master Data Management)"
+    },
+    {
+        "id": 48,
+        "enunciado": "Qual requisito é vital para a implementação bem-sucedida da arquitetura Centralizada de MDM?",
+        "alternativas": [
+            "Mudança cultural profunda, pois os dados são criados no Hub MDM.",
+            "Manutenção de processos manuais de limpeza em cada sistema legado isolado.",
+            "Uso de sistemas legados que proíbem a entrada de novos dados operacionais.",
+            "Existência de um Data Lake para o armazenamento prévio de registros sujos."
+        ],
+        "gabarito": "Mudança cultural profunda, pois os dados são criados no Hub MDM.",
+        "assunto": "MDM (Master Data Management)"
+    },
+    {
+        "id": 49,
+        "enunciado": "Segundo o material, por que o DW não substitui o MDM no gerenciamento de dados mestres?",
+        "alternativas": [
+            "O DW foca em análise histórica, enquanto o MDM foca na consistência operacional.",
+            "O DW já contém todas as transações, mas carece de algoritmos de compressão.",
+            "O DW processa dados não estruturados que são incompatíveis com o MDM.",
+            "A tecnologia de DW é mais antiga que os modernos Hubs de MDM Centralizado."
+        ],
+        "gabarito": "O DW foca em análise histórica, enquanto o MDM foca na consistência operacional.",
+        "assunto": "MDM (Master Data Management)"
+    },
+    {
+        "id": 50,
+        "enunciado": "Qual o resultado final esperado após a etapa de Merging no fluxo de um MDM?",
+        "alternativas": [
+            "A geração do Registro de Ouro (Golden Record) unificado.",
+            "A criação de um backup físico de todos os sistemas legados da empresa.",
+            "O mapeamento de todos os metadados técnicos dos bancos de dados.",
+            "A exclusão definitiva dos sistemas de origem considerados lentos."
+        ],
+        "gabarito": "A geração do Registro de Ouro (Golden Record) unificado.",
+        "assunto": "MDM (Master Data Management)"
+    },
+    {
+        "id": 51,
+        "enunciado": "Como o MDM contribui para a visão &#x27;Customer 360&#x27; em um banco?",
+        "alternativas": [
+            "Consolidando cadastros de diferentes sistemas para criar um perfil único do cliente.",
+            "Aumentando a velocidade de processamento de saques em caixas eletrônicos.",
+            "Armazenando as imagens das câmeras de segurança de todas as agências físicas.",
+            "Monitorando o tempo de permanência dos usuários no aplicativo móvel do banco."
+        ],
+        "gabarito": "Consolidando cadastros de diferentes sistemas para criar um perfil único do cliente.",
+        "assunto": "MDM (Master Data Management)"
+    },
+    {
+        "id": 52,
+        "enunciado": "Qual termo define o processo de escolher qual atributo prevalece no Registro de Ouro?",
+        "alternativas": [
+            "Sobrevivência (Survivorship).",
+            "Saneamento (Cleansing).",
+            "Correspondência (Matching).",
+            "Indexação (Indexing)."
+        ],
+        "gabarito": "Sobrevivência (Survivorship).",
+        "assunto": "MDM (Master Data Management)"
+    },
+    {
+        "id": 53,
+        "enunciado": "Em relação à governança, o que as bancas costumam afirmar incorretamente sobre o MDM?",
+        "alternativas": [
+            "Que o MDM elimina a necessidade de bancos de dados nos sistemas legados.",
+            "Que o MDM é uma disciplina apoiada por processos e tecnologias.",
+            "Que o MDM visa garantir a precisão e integridade dos dados críticos.",
+            "Que o MDM trabalha de forma complementar ao Data Warehouse."
+        ],
+        "gabarito": "Que o MDM elimina a necessidade de bancos de dados nos sistemas legados.",
+        "assunto": "MDM (Master Data Management)"
+    },
+    {
+        "id": 54,
+        "enunciado": "Qual categoria de dado descreve o &#x27;tamanho do campo VARCHAR&#x27; em um sistema?",
+        "alternativas": [
+            "Metadados.",
+            "Dados Mestres.",
+            "Dados de Referência.",
+            "Dados Transacionais."
+        ],
+        "gabarito": "Metadados.",
+        "assunto": "MDM (Master Data Management)"
+    },
+    {
+        "id": 55,
+        "enunciado": "Qual a principal desvantagem da arquitetura de Consolidação no MDM?",
+        "alternativas": [
+            "Os sistemas operacionais continuam gerando dados inconsistentes na origem.",
+            "O impacto nos processos de negócio é extremamente elevado no início.",
+            "O Hub central não armazena os dados físicos para fins de relatórios corporativos.",
+            "A implementação é demorada devido à complexidade da sincronização bidirecional."
+        ],
+        "gabarito": "Os sistemas operacionais continuam gerando dados inconsistentes na origem.",
+        "assunto": "MDM (Master Data Management)"
+    }
+]

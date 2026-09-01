@@ -1,0 +1,2062 @@
+[
+    {
+        "id": 1,
+        "enunciado": "Um analista de infraestrutura é responsável por gerenciar um banco de dados Oracle que armazena informações críticas de processos judiciais. Para garantir o desempenho ideal e a alta disponibilidade, o DBA (Database Administrator) deve realizar o monitoramento e a otimização proativa do ambiente. Recentemente, o analista notou um aumento na latência de consultas e na carga do sistema.\nConsiderando as ferramentas e as práticas de administração de SGBD Oracle, a abordagem mais adequada e tecnicamente correta para investigar a causa da degradação de desempenho e otimizar o banco de dados é:",
+        "alternativas": [
+            "Utilizar as visões dinâmicas de desempenho (V$ views) para coletar estatísticas do sistema em tempo real, como V$SESSION_WAIT e V$SQLAREA, analisar os planos de execução de consultas com o EXPLAIN PLAN ou o AUTOTRACE, e verificar a ocorrência de bloqueios em sessões com o DBA_LOCKS.",
+            "Focar a análise nas tabelas e no espaço em disco livre (tablespaces), pois a degradação de desempenho é causada, na maioria dos casos, pela falta de espaço. A otimização seria feita simplesmente adicionando mais arquivos de dados (datafiles) para garantir que não ocorram erros de out of space.",
+            "Consultar o Oracle Enterprise Manager (OEM) para uma visão genérica do ambiente, identificar o SQL mais lento com base em elapsed time e, em seguida, forçar o otimizador a usar um índice específico, sem necessidade de avaliar a distribuição dos dados ou a validade do plano de execução.",
+            "Desabilitar as estatísticas do otimizador de consultas, pois elas consomem recursos do sistema, e confiar na indexação manual de todas as colunas de todas as tabelas para garantir um acesso mais rápido e eficiente aos dados.",
+            "Reiniciar o banco de dados para liberar a memória e resolver a degradação de desempenho, o que é a maneira mais simples e rápida de restaurar a performance do sistema. As ferramentas de monitoramento seriam usadas apenas após a reinicialização para identificar se a performance foi restaurada."
+        ],
+        "gabarito": "Utilizar as visões dinâmicas de desempenho (V$ views) para coletar estatísticas do sistema em tempo real, como V$SESSION_WAIT e V$SQLAREA, analisar os planos de execução de consultas com o EXPLAIN PLAN ou o AUTOTRACE, e verificar a ocorrência de bloqueios em sessões com o DBA_LOCKS.",
+        "banca": "FCC",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 2,
+        "enunciado": "Um relatório de fiscalização foi elaborado para classificar contribuintes por valor total de crédito tributário, exigindo que empates recebam a mesma posição e que a numeração não apresente lacunas após empates. A função analítica Oracle que atende corretamente ao requisito é",
+        "alternativas": [
+            "LAG() com ordenação por valor do crédito para determinar posição relativa.",
+            "COUNT() como função analítica para produzir a posição sem empates.",
+            "ROW_NUMBER() com ordenação por valor do crédito em ordem decrescente.",
+            "RANK() com ordenação por valor do crédito em ordem decrescente.",
+            "DENSE_RANK() com ordenação por valor do crédito em ordem decrescente."
+        ],
+        "gabarito": "DENSE_RANK() com ordenação por valor do crédito em ordem decrescente.",
+        "banca": "FCC",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 3,
+        "enunciado": "Uma Secretaria da Fazenda usa um sistema de arrecadação estadual em Oracle Database por onde múltiplos usuários executam consultas simultâneas como necessidade de processamento consistente de SQL. Nesse cenário e levando em conta a arquitetura básica do Sistema Gerenciador de banco de Dados, o componente que processa instruções SQL por meio de memória compartilhada e processos é",
+        "alternativas": [
+            "a tablespace SYSTEM, que provê CPU e memória para execução de comandos.",
+            "o dicionário de dados, que executa consultas e armazena os resultados em cache permanente.",
+            "o Oracle Net Services, responsável por autenticação e execução de SQL no servidor.",
+            "a instância Oracle, composta pela System Global Area e processos de segundo plano para executar SQL.",
+            "o banco de dados físico, formado por datafiles e control files para interpretação de SQL."
+        ],
+        "gabarito": "a instância Oracle, composta pela System Global Area e processos de segundo plano para executar SQL.",
+        "banca": "FCC",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 4,
+        "enunciado": "O setor de tecnologia da informação está em processo de otimização de sua infraestrutura de banco de dados, que utiliza o Oracle Database. O responsável pela administração do sistema precisa garantir a alta disponibilidade, o desempenho e a segurança dos dados processuais.\nDiante dos métodos disponíveis no Oracle para backup e recuperação, a abordagem mais adequada para garantir a consistência e a recuperação completa dos dados em caso de falha é",
+        "alternativas": [
+            "ignorar o uso de backups lógicos e físicos, pois a alta disponibilidade do Oracle Data Guard garante que não haverá perda de dados em nenhuma circunstância.",
+            "realizar um backup em frio (cold backup) com o banco de dados aberto, utilizando a ferramenta Data Pump para exportar apenas as tabelas alteradas desde o último backup.",
+            "configurar o banco de dados em NOARCHIVELOG mode, pois essa configuração otimiza o desempenho das transações, tornando o processo de backup mais rápido e dispensando a necessidade de arquivos de redo logs.",
+            "utilizar a ferramenta Recovery Manager (RMAN) para realizar backups incrementais periódicos em um banco de dados em ARCHIVELOG mode, combinando-os com backups completos para permitir uma recuperação pontual (point-in-time recovery) e assegurar a integridade total dos dados.",
+            "depender exclusivamente dos arquivos de redo logs online para restaurar o banco de dados, pois eles contêm todas as informações de transação e são suficientes para qualquer tipo de recuperação."
+        ],
+        "gabarito": "utilizar a ferramenta Recovery Manager (RMAN) para realizar backups incrementais periódicos em um banco de dados em ARCHIVELOG mode, combinando-os com backups completos para permitir uma recuperação pontual (point-in-time recovery) e assegurar a integridade total dos dados.",
+        "banca": "FCC",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 5,
+        "enunciado": "Uma equipe de TI é responsável por instalar e administrar diferentes bancos de dados utilizados em sistemas críticos de gestão processual e em sistemas de consulta pública de jurisprudência. Considerando os requisitos de instalação e configuração, a melhor abordagem para o SGBD",
+        "alternativas": [
+            "SQL Server 2019 é desabilitar o Windows Authentication Mode na sua instalação, mantendo apenas os modos Mixed Mode Authentication e SQL Server Authentication Mode, pois isso pode simplificar a sua administração.",
+            "PostgreSQL 11 é desabilitar o Write-Ahead Logging (WAL) durante a configuração inicial, pois isso aumenta o desempenho em consultas de grande volume, sem comprometer a recuperação em caso de falhas.",
+            "PostgreSQL 11 é realizar a configuração inicial de parâmetros críticos como shared\\_connections e max\\_buffers no banco de dados específico criado para a aplicação, já que eles não afetam a instância como um todo.",
+            "SQL Server 2019 é utilizar apenas o Windows Authentication Mode na sua instalação, dentre os três tipos de autenticação possíveis, pois este modo elimina a necessidade de gerenciamento de logins internos ao SGBD.",
+            "Oracle 21c é utilizar CDBs (Container Databases) e PDBs (Pluggable Databases) para consolidar múltiplos sistemas judiciais em uma instância única, pois isso permite melhor isolamento lógico, aplicação eficiente de patches de segurança e pode simplificar a administração."
+        ],
+        "gabarito": "Oracle 21c é utilizar CDBs (Container Databases) e PDBs (Pluggable Databases) para consolidar múltiplos sistemas judiciais em uma instância única, pois isso permite melhor isolamento lógico, aplicação eficiente de patches de segurança e pode simplificar a administração.",
+        "banca": "FCC",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 6,
+        "enunciado": "Na administração do Oracle 21c em um Ministério Público, que mantém sistemas de tramitação processual e consultas públicas, a prática mais adequada relacionada à instalação de correções, ao gerenciamento de versões e à administração de sessões, proces-sos e conexões é:",
+        "alternativas": [
+            "Utilizar o AutoUpgrade Patching para realizar out-of-place patching de múltiplos bancos de dados com um único comando, aplicando Release Updates, Monthly Recommended Patches e one-off patches, de forma mais simples e com melhor capacidade de recuperação em caso de falhas durante o processo.",
+            "Realizar upgrades diretamente em ambiente de produção, utilizando o Database Upgrade Assistant (DBUA) quando os ambientes Oracle de origem e de destino pertencem a usuários diferentes, já que o DBUA realiza automaticamente a checagem de compatibilidade e corrige possíveis inconsistências de forma transparente.",
+            "Adotar a estratégia de downgrade para versões imediatamente anteriores por meio do uso do datapump (expdp/impdp), preservando as funcionalidades introduzidas pela versão superior e garantindo compatibilidade plena de objetos de dicionário de dados.",
+            "Utilizar a reinstalação completa do Oracle como prática padrão de manutenção preventiva para garantir que todos os binários estejam atualizados, evitando a aplicação incremental de patches e reduzindo a complexidade da administração.",
+            "Controlar o número de conexões simultâneas por meio de session profiles, sem necessidade de parametrização no nível de processes ou sessions no arquivo de inicialização, pois o Oracle ajusta automaticamente esses limites de acordo com a carga."
+        ],
+        "gabarito": "Utilizar o AutoUpgrade Patching para realizar out-of-place patching de múltiplos bancos de dados com um único comando, aplicando Release Updates, Monthly Recommended Patches e one-off patches, de forma mais simples e com melhor capacidade de recuperação em caso de falhas durante o processo.",
+        "banca": "FCC",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 7,
+        "enunciado": "A INFRA S.A. implantou uma arquitetura corporativa de dados híbrida para suportar suas atividades estratégicas, sobretudo a estruturação de projetos de infraestrutura logística. Nessa arquitetura, o Oracle Database 21C é utilizado para sistemas críticos de gestão contratual e execução orçamentária; bancos de dados NoSQL são empregados para armazenar dados semiestruturados oriundos de sensores, documentos técnicos e relatórios de campo; e um data lake corporativo é adotado para ingestão massiva de dados brutos históricos, inclusive dados geoespaciais e séries temporais.\nConsiderando a situação hipotética apresentada, julgue o item a seguir.\nNo ambiente descrito da INFRA S.A., a utilização de In-Memory Column Store no Oracle 21C garantiria redução automática do custo de operações DML massivas sobre tabelas de monitoramento ferroviário, dispensando ajustes de paralelismo e controle de transações.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 8,
+        "enunciado": "A INFRA S.A. implantou uma arquitetura corporativa de dados híbrida para suportar suas atividades estratégicas, sobretudo a estruturação de projetos de infraestrutura logística. Nessa arquitetura, o Oracle Database 21C é utilizado para sistemas críticos de gestão contratual e execução orçamentária; bancos de dados NoSQL são empregados para armazenar dados semiestruturados oriundos de sensores, documentos técnicos e relatórios de campo; e um data lake corporativo é adotado para ingestão massiva de dados brutos históricos, inclusive dados geoespaciais e séries temporais.\nConsiderando a situação hipotética apresentada, julgue o item a seguir.\nA adoção da arquitetura multitenant do Oracle 21C no ambiente da INFRA S.A. facilitaria a consolidação de bases contratuais, mantendo isolamento lógico entre projetos distintos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 9,
+        "enunciado": "Considere um ambiente de auditoria fiscal em uma Secretaria da Fazenda, no qual grandes volumes de documentos fiscais eletrônicos precisam ser processados em lote com redução das trocas de contexto entre os mecanismos SQL e PL/SQL. Nesse cenário, o recurso de PL/SQL apropriado para enviar ao mecanismo SQL, em lote, instruções DML repetidas baseadas em coleções, como INSERT, UPDATE ou DELETE, reduzindo trocas de contexto, é",
+        "alternativas": [
+            "FORALL.",
+            "CURSOR.",
+            "ANALYZE.",
+            "SAVEPOINT.",
+            "TRIGGER."
+        ],
+        "gabarito": "FORALL.",
+        "banca": "FCC",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 10,
+        "enunciado": "Julgue o item a seguir, a respeito de Oracle e de MySQL.\nNo Oracle, gatilhos podem invocar procedimentos armazenados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 11,
+        "enunciado": "A respeito de arquitetura, segurança, integridade, concorrência, recuperação após falhas e gerenciamento de transições em sistemas de gerenciamento de banco de dados (SGDB), julgue o item a seguir.\nEm um ambiente Oracle, a implementação de controle de concorrência por meio de isolamento de transações, combinada ao uso de backups incrementais e de log de redo, é suficiente para garantir a integridade e a recuperação completa dos dados após falha inesperada.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 12,
+        "enunciado": "Acerca de linguagens de consulta e de banco de dados distribuídos, julgue o item a seguir.\nNo Oracle, o uso de PL/SQL é ideal para operações avançadas de controle e análise de segurança, pois permite que se criem consultas complexas, que incluem laços de repetição e tratamento de exceções.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 13,
+        "enunciado": "Na linguagem PL/SQL, a seção de tratamento de exceções permite que os programadores especifiquem quais ações devem ser tomadas quando uma determinada exceção ocorre.\nNesse contexto, a seguinte exceção é gerada quando um código PL/SQL tenta armazenar um valor duplicado em uma coluna que possui um índice exclusivo definido:",
+        "alternativas": [
+            "VALUE_ERROR.",
+            "DUP_VALUE_ON_INDEX.",
+            "NO_DATA_FOUND.",
+            "TOO_MANY_ROWS.",
+            "DUPLICATED_INDEX."
+        ],
+        "gabarito": "DUP_VALUE_ON_INDEX.",
+        "banca": "FGV",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 14,
+        "enunciado": "Considerando o Oracle, julgue o próximo item.\nO nível de isolamento serializable garante que uma transação opere como se fosse executada isoladamente, o que previne leituras sujas, leituras não repetíveis e leituras fantasmas.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 15,
+        "enunciado": "Julgue o próximos item, relativo à aquisição de dados.\nA extensão Oracle Spatial, do sistema de armazenamento de dados Oracle, fornece a base para o gerenciamento de dados espaciais dentro de um banco de dados Oracle, de maneira que os tipos e as funções padrão no Oracle, como CHAR, DATE ou INTEGER, são estendidos com equivalentes geográficos.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 16,
+        "enunciado": "Julgue o próximo item, relativo à normalização de dados, à linguagem de definição de dados (DDL), a sistema gerenciador de banco de dados (SGBD) Oracle 21C e a data lake.\nA execução do comando DLL a seguir alterará a tabela PROCESSO, adicionando uma coluna com o nome STATUS do tipo de dados CHAR(1).\nALTER PROCESSO ADD COLUMN STATUS CHAR(1);",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 17,
+        "enunciado": "Julgue o próximo item, relativo à normalização de dados, à linguagem de definição de dados (DDL), a sistema gerenciador de banco de dados (SGBD) Oracle 21C e a data lake.\nO Oracle 21C exige que todas as operações de backup sejam realizadas exclusivamente no Oracle Cloud, removendo a opção de backups locais.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 18,
+        "enunciado": "Julgue o próximo item, relativo à normalização de dados, à linguagem de definição de dados (DDL), a sistema gerenciador de banco de dados (SGBD) Oracle 21C e a data lake.\nO Oracle 21C introduziu o recurso de tabelas imutáveis, que são tabelas à prova de adulteração, somente para inserção, com um período de retenção associado em nível de tabela e nível de linha.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 19,
+        "enunciado": "O Sistema Gerenciador de Bancos de Dados (SGBD) Oracle 21c oferece diversos tipos de índices. Índices são estruturas opcionais, associadas a uma tabela ou cluster de tabelas que podem acelerar o acesso aos dados.\nCom relação aos índices desse SGBD, analise as afirmativas a seguir.\nI. Índices podem ser exclusivos ou não exclusivos. Índices exclusivos garantem que nenhuma das duas linhas de uma tabela tenha valores duplicados na coluna ou mais colunaschave. Já Índices não exclusivos permitem valores duplicados na coluna ou nas colunas indexadas.\nII. Índices de árvores B são o tipo de índice padrão do Oracle. Esse tipo possui diversos subtipos, por exemplo, índices de chave inversa, índices descendentes e índices de junção de clusteres de tabelas.\nIII. Existem índices que não usam estruturas de árvore B, por exemplo, índices de junção de bitmap e bitmap, índices baseados em funções e índices de domínio de aplicação.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, apenas.",
+            "II, apenas.",
+            "III, apenas.",
+            "I e II, apenas.",
+            "I e III, apenas."
+        ],
+        "gabarito": "I e III, apenas.",
+        "banca": "FGV",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 20,
+        "enunciado": "Julgue o item a seguir, a respeito de linguagem de programação e de sistema de gerenciamento de banco de dados (SGBD) com extensão espacial. Nesse sentido, considere que a sigla SQL, sempre que empregada, se refere a Structured Query Language.\nOracle Spatial é uma extensão espacial desenvolvida sobre o modelo objeto-relacional do SGDB Oracle e permite definir novos tipos de dados por meio da DDL, além de implementar operações sobre esses novos tipos por meio de uma extensão procedural da SQL (PL/SQL).",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 21,
+        "enunciado": "Acerca de banco de dados georreferenciados, julgue o item a seguir.\nOs dados geográficos no Oracle Spatial podem ser indexados com métodos como R-tree e quadtree, contando também com recursos para gerenciamento de projeções, sistemas de coordenadas, transações longas e ferramentas para análises espaciais elementares.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 22,
+        "enunciado": "Durante a instalação do Oracle23ai, o administrador deve escolher o charset a ser utilizado pelo SGBD.\nCom relação ao charset, assinale (V) para a afirmativa verdadeira e (F) para a falsa.\n( ) Alterar o charset após um banco de dados ser criado é muito caro em termos de tempo e consumo de recursos. Tais operações podem exigir a conversão de todos os dados de caracteres exportando todo o banco de dados e importando-o de volta.\n( ) Oracle não usa o charset em dados armazenados do tipos número (FLOAT, INT, NUMERIC e DOUBLE) e data (DATE, DATETIME, TIMESTAMP, TIME). Usa o charset apenas recursos que envolvam literais, tais como em nomes de tabelas, nomes de colunas e variáveis PL/SQL e nos código-fonte SQL e PL/SQL, incluindo literais de texto incorporados nos códigos.\n( ) O charset padrão dos bancos de dados é o AL64UTF8 do tipo unicode. Trata-se de uma codificação byte único que consome pouco tempo de CPU para processamento de textos em comparação o charset WE8MSWIN1252 de múltiplos bytes.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "V – F – V.",
+            "V – F – F.",
+            "F – V – V.",
+            "F – F – V.",
+            "F – V – F."
+        ],
+        "gabarito": "V – F – F.",
+        "banca": "FGV",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 23,
+        "enunciado": "Julgue o item seguinte, relativos à administração de banco de dados Oracle, à modelagem de dados relacional, à normalização de dados e ao data mining.\nEm um ambiente Oracle Database, o comando ALTER DATABASE DISMOUNT; pode ser utilizado para desmontar o banco de dados, ou seja, a execução desse comando encerraria o acesso às estruturas físicas (datafiles), mas manteria a instância ativa.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 24,
+        "enunciado": "Julgue o item seguinte, relativos à administração de banco de dados Oracle, à modelagem de dados relacional, à normalização de dados e ao data mining.\nNo Oracle Database, o log writer buffer é uma das principais áreas da System Global Area (SGA), contendo a Library Cache (para instruções SQL/PLSQL) e a Data Dictionary Cache.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 25,
+        "enunciado": "Um Analista de um Tribunal Regional do Trabalho foi solicitado a consultar os benefícios concedidos a funcionários de diferentes empresas e apresentar a quantidade total de benefícios pagos por empresa para aquelas que tenham concedido mais de 5 benefícios nos últimos 12 meses. Utilizando um banco de dados Oracle 19c, aberto e em condições ideais, o comando que faz a consulta é:",
+        "alternativas": [
+            "SELECT empresa, COUNT(*) AS total_beneficios FROM beneficios WHERE data_concessao BETWEEN SYSDATE AND SYSDATE - 365 GROUP BY empresa HAVING COUNT(*) > 5;",
+            "SELECT empresa, COUNT(*) AS total_beneficios FROM beneficios WHERE data_concessao <= ADD_MONTHS(SYSDATE, -12) GROUP BY empresa HAVING COUNT() > 5;",
+            "SELECT empresa, COUNT(*) AS total_beneficios FROM beneficios WHERE data_concessao >= ADD_MONTHS(TRUNC(SYSDATE), -12) GROUP BY empresa HAVING COUNT(*) > 5;",
+            "SELECT empresa, COUNT(*) AS total_beneficios FROM beneficios WHERE EXTRACT(YEAR FROM data_concessao) := EXTRACT(YEAR FROM SYSDATE) - 1 GROUP BY empresa HAVING COUNT(*) > 5;",
+            "SELECT empresa, SUM(beneficio) AS total_beneficios FROM beneficios WHERE data_concessao >= ADD_MONTHS(SYSDATE, -12) GROUP BY empresa HAVING SUM(beneficio) > 5;"
+        ],
+        "gabarito": "SELECT empresa, COUNT(*) AS total_beneficios FROM beneficios WHERE data_concessao >= ADD_MONTHS(TRUNC(SYSDATE), -12) GROUP BY empresa HAVING COUNT(*) > 5;",
+        "banca": "FCC",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 26,
+        "enunciado": "No Oracle 19c, uma das vantagens da utilização de mais tablespaces consiste",
+        "alternativas": [
+            "na separação dos dados de aplicativos diferentes.",
+            "na garantia da atomicidade dos dados na base.",
+            "na redução do uso de espaço em disco.",
+            "no aumento da disponibilidade dos dados em cada tablespace.",
+            "na diminuição da necessidade de controle."
+        ],
+        "gabarito": "na separação dos dados de aplicativos diferentes.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 27,
+        "enunciado": "No Oracle Database 21c, as funções COALESCE e NVL são usadas para substituir valores NULL em consultas SQL. Uma diferença fundamental entre elas é que a",
+        "alternativas": [
+            "COALESCE é mais lenta que NVL em todos os cenários devido à sua conformidade com ANSI SQL.",
+            "COALESCE retorna o primeiro valor não-NULL de uma lista de argumentos, enquanto NVL está limitada a dois argumentos.",
+            "NVL é padrão ANSI SQL, enquanto COALESCE é específica do Oracle.",
+            "COALESCE aceita apenas dois argumentos, enquanto NVL aceita múltiplos argumentos.",
+            "NVL suporta expressões complexas, enquanto COALESCE aceita apenas colunas simples."
+        ],
+        "gabarito": "COALESCE retorna o primeiro valor não-NULL de uma lista de argumentos, enquanto NVL está limitada a dois argumentos.",
+        "banca": "FCC",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 28,
+        "enunciado": "No Oracle Database 21c, a função analítica RANK é utilizada para atribuir classificações numéricas às linhas de uma consulta SQL, com base em uma ordenação definida pelo usuário. Quando aplicada a uma janela analítica, a função",
+        "alternativas": [
+            "ignora valores NULL por padrão, excluindo-os completamente do cálculo do ranking.",
+            "atribui a mesma classificação a linhas com valores iguais, criando lacunas no ranking para as próximas posições.",
+            "atribui números sequenciais únicos a cada linha, independentemente de empates, como a função ROW_NUMBER.",
+            "agrega linhas em um único valor, reduzindo o número de linhas retornadas na consulta.",
+            "só pode ser usada sem a cláusula PARTITION BY, ordenando todas as linhas da consulta."
+        ],
+        "gabarito": "atribui a mesma classificação a linhas com valores iguais, criando lacunas no ranking para as próximas posições.",
+        "banca": "FCC",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 29,
+        "enunciado": "Julgue o item a seguir, que versam acerca da administração do SGBD Oracle, da modelagem de dados multidimensional e do conceito de data lake.\nOracle RMAN (Recovery Manager) é uma ferramenta capaz de realizar apenas backups lógicos de objetos do banco de dados, como tabelas e usuários, de modo que backups físicos são realizados por outras ferramentas, como Data Pump.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 30,
+        "enunciado": "Julgue o item a seguir, que versam acerca da administração do SGBD Oracle, da modelagem de dados multidimensional e do conceito de data lake.\nO Oracle Data Guard permite a replicação síncrona e assíncrona de dados entre bancos de dados primários e de standby, oferecendo alta disponibilidade e recuperação de desastres.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 31,
+        "enunciado": "Sobre o SGBD Oracle 19c, assinale a alternativa INCORRETA.",
+        "alternativas": [
+            "A linguagem SQL é suportada para operar no banco de dados.",
+            "Quando uma operação de uma transação falha, as modificações anteriores ainda são salvas no banco de dados.",
+            "É possível executar múltiplas instâncias (Oracle RAC) em nós distintos acessando o mesmo conjunto de datafiles em armazenamento compartilhado suportado.",
+            "Uma instância do banco de dados pode permitir apenas leitura.",
+            "É possível configurá-lo para que uma tabela não aceite que nenhuma inserção ou atualização contenha valores null."
+        ],
+        "gabarito": "Quando uma operação de uma transação falha, as modificações anteriores ainda são salvas no banco de dados.",
+        "banca": "FUNDATEC",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 32,
+        "enunciado": "Relacione a Coluna 1 à Coluna 2, associando tarefas de pós-instalação do SGBD Oracle 19c às suas respectivas categorias.\nColuna 1\n1. Tarefa pós-instalação obrigatória.\n2. Tarefa pós-instalação recomendada.\nColuna 2\n( ) Desbloquear e redefinir senhas de usuários administradores.\n( ) Fazer um backup do script “root.sh”.\n( ) Recompilar objetos inválidos no banco de dados.\n( ) Definir as preferências de idioma.\n( ) Instalar as Release Updates (RUs).\nA ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+        "alternativas": [
+            "1 – 1 – 1 – 2 – 2.",
+            "1 – 1 – 2 – 2 – 2.",
+            "1 – 2 – 2 – 2 – 1.",
+            "2 – 1 – 1 – 1 – 2.",
+            "2 – 2 – 1 – 2 – 1."
+        ],
+        "gabarito": "1 – 2 – 2 – 2 – 1.",
+        "banca": "FUNDATEC",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 33,
+        "enunciado": "No Oracle Versão 23ai, em seu módulo GeoEspacial incorporado, quando precisamos modelar e criar no banco um objeto que represente um conjunto de ilhas junto com suas boias de medida de temperatura da água, representado por pontos, deve-se utilizar",
+        "alternativas": [
+            "um índice espacial R-tree para indexar dados espaciais de até quatro dimensões.",
+            "uma geometria (ou objeto geométrico) homogênea.",
+            "um multipolígono heterogêneo.",
+            "a Geocodificação das coordenadas de longitude e latitude das ilhas e pontos de medição.",
+            "o recurso GeoRaster do Oracle Spatial, já habilitado no Oracle Spatial."
+        ],
+        "gabarito": "um multipolígono heterogêneo.",
+        "banca": "FGV",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 34,
+        "enunciado": "Entre os principais Sistemas Gerenciadores de Banco de Dados relacionais utilizados em ambientes corporativos, o Oracle Database utiliza como porta padrão para conexões de clientes o número",
+        "alternativas": [
+            "1433.",
+            "1521.",
+            "3306.",
+            "5432.",
+            "27017."
+        ],
+        "gabarito": "1521.",
+        "banca": "FGV",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 35,
+        "enunciado": "Para implementar auditoria detalhada de acesso a dados sensíveis em Oracle Database visando conformidade regulatória, o tipo de auditoria que permite rastrear acessos específicos a linhas baseado em condições detalhadas é",
+        "alternativas": [
+            "Standard Database Auditing.",
+            "SYS Auditing.",
+            "Value-Based Auditing.",
+            "Mandatory Auditing.",
+            "Fine-Grained Auditing (FGA)."
+        ],
+        "gabarito": "Fine-Grained Auditing (FGA).",
+        "banca": "FGV",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 36,
+        "enunciado": "Uma plataforma de e-commerce possui Oracle RAC com cinco nós. Sobre Oracle RAC e mecanismo de Cache Fusion, analise as seguintes afirmativas:\nI. Cache Fusion permite transferência de blocos de dados diretamente entre instâncias via interconnect, sem gravação em disco.\nII. Global Cache Service (GCS) coordena acesso aos blocos compartilhados entre instâncias.\nIII. Em falha de nó, Global Enqueue Service (GES) reconfigura locks entre nós sobreviventes.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, II e III.",
+            "I e II, apenas.",
+            "II e III, apenas.",
+            "I e III, apenas.",
+            "II, apenas."
+        ],
+        "gabarito": "I, II e III.",
+        "banca": "FGV",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 37,
+        "enunciado": "A partir de qual versão (a primeira versão) do Sistema Gerenciador de Bancos de Dados (SGBD) Oracle existe suporte à JSON?",
+        "alternativas": [
+            "Oracle 11g.",
+            "Oracle 8i.",
+            "Oracle 12c.",
+            "Oracle 19c.",
+            "Oracle 21c."
+        ],
+        "gabarito": "Oracle 12c.",
+        "banca": "FEPESE",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 38,
+        "enunciado": "Qual distribuição Linux é a mais recomendada para hospedar SGBDs Oracle?",
+        "alternativas": [
+            "Debian Linux.",
+            "Ubuntu Linux.",
+            "Slackware Linux.",
+            "Fedora Linux.",
+            "Oracle Linux."
+        ],
+        "gabarito": "Oracle Linux.",
+        "banca": "FEPESE",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 39,
+        "enunciado": "Analise as afirmativas abaixo sobre otimização de consultas e tuning de bancos de dados Oracle.\n1. O ADDM (Automatic Database Diagnostic Monitor) é um suplemento com uma IDE visual que permite ao usuário monitorar e revisar consultas em tempo real de execução.\n2. O SQL Tuning Advisor é um software interno da Oracle que identifica expressões SQL problemáticas e realiza recomendações sobre como otimizá-las.\n3. O SQL Access Advisor realiza recomendações sobre views materializadas, índices e logs de views materializadas: quais criar, eliminar ou reter.\nAssinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "É correta apenas a afirmativa 2.",
+            "São corretas apenas as afirmativas 1 e 2.",
+            "São corretas apenas as afirmativas 1 e 3.",
+            "São corretas apenas as afirmativas 2 e 3.",
+            "São corretas as afirmativas 1, 2 e 3."
+        ],
+        "gabarito": "São corretas apenas as afirmativas 2 e 3.",
+        "banca": "FEPESE",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 40,
+        "enunciado": "A integração do sistema ORACLE com a linguagem de programação R foi resultado da adesão da empresa ao R Consortium R/Database.\nA integração do R com Oracle Database e Oracle Autonomous Database, promovida por R API (Application Programming Interface) é denominada:",
+        "alternativas": [
+            "Oracle Exadata.",
+            "Oracle Database API for R (ODAPI4R).",
+            "Oracle Hyperion.",
+            "Oracle API for R (OAPI4R).",
+            "Oracle Machine Learning for R (OML4R)."
+        ],
+        "gabarito": "Oracle Machine Learning for R (OML4R).",
+        "banca": "FGV",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 41,
+        "enunciado": "Bancos de dados muito grandes (VLDB) apresentam desafios de administração, porque exigem que os DBA adotem múltiplas estratégias para mantê-los. O particionamento é componente chave dessas estratégias.\nCom relação às vantagens do particionamento no banco de dados Oracle v23c, analise as afirmativas a seguir e assinale (V) para a verdadeira e (F) para a falsa.\n( ) Permite que operações de gerenciamento de dados, como, por exemplo, carregamento de dados, criação e reconstrução de índices e operações de backup e restore, apenas no nível de tabela inteira. Isso resulta em tempos significativamente reduzidos para executar essas operações.\n( ) Melhora o desempenho das consultas SQL. Muitas vezes, os resultados de uma consulta podem ser obtidos acessando um subconjunto de partições, em vez de acessar a tabela inteira. Para algumas consultas, técnica chamada de remoção de partição pode fornecer ganhos de ordem de magnitude no desempenho.\n( ) Aumenta a disponibilidade de bancos de dados de missão crítica se tabelas e índices críticos forem divididos em partições para reduzir as janelas de manutenção. A execução paralela de consultas SQL oferece vantagens específicas para otimizar e minimizar os tempos de execução. A execução paralela é suportada exclusivamente para consultas SQL do tipo DDL.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "V – F – F.",
+            "V – V – F.",
+            "F – F – V.",
+            "F – V – F."
+        ],
+        "gabarito": "F – V – F.",
+        "banca": "FGV",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 42,
+        "enunciado": "Uma junção é uma consulta SQL que combina linhas de duas ou mais tabelas, visões ou visões materializadas.\nCom relação aos tipos de junção suportadas pelo Oracle, analise as afirmativas a seguir e assinale (V) para a verdadeira e (F) para a falsa.\n( ) Uma semi-junção é uma junção de uma tabela a si mesma. Esta tabela aparece duas vezes na FROM cláusula e é seguida por aliases de tabela que qualificam os nomes das colunas na condição de junção. Para realizar uma semi-junção, o Oracle Database combina e retorna linhas da tabela que satisfazem a condição de junção.\n( ) Uma junção interna estende o resultado de uma junção simples. Essa junção retorna todas as linhas que satisfazem a condição de junção e retorna algumas ou todas as linhas de uma tabela para as quais nenhuma linha da outra satisfaz a condição de junção.\n( ) Uma anti-junção retorna linhas do lado esquerdo do predicado para as quais não há linhas correspondentes no lado direito do predicado. Ou seja, ele retorna linhas que não correspondem (NOT IN) à subconsulta do lado direito.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "V – V – F.",
+            "V – F – F.",
+            "F – F – V.",
+            "F – V – F."
+        ],
+        "gabarito": "F – F – V.",
+        "banca": "FGV",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 43,
+        "enunciado": "Com relação aos métodos de extração em dados em data warehouses nos ambientes Oracle, avalie se as afirmativas a seguir são falsas (F) ou verdadeiras (V).\nI. Existem dois tipos de extração lógica: extração completa e extração incremental.\nII. Existem dois seguintes métodos de extração física: extração on-line e extração off-line.\nIII. Existem três métodos de extração virtual: extração por timestamp, extração por particionamento e extração por triggers.\nAs afirmativas são, respectivamente,",
+        "alternativas": [
+            "V – V – F.",
+            "V – F – V.",
+            "V – F – F.",
+            "F – V – V.",
+            "F – V – F."
+        ],
+        "gabarito": "V – V – F.",
+        "banca": "FGV",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 44,
+        "enunciado": "Na Infraestrutura de rede da Oracle (OCI, Oracle Cloud Infrastructure), o serviço de auditoria (Audit service), baseado no registro de logs, inclui as seguintes informações:",
+        "alternativas": [
+            "fonte da atividade, alvo da atividade e tipo de resposta.",
+            "tipo de heatwave, tipo de ação e tipo de resposta.",
+            "fonte da atividade, hora em que ocorreu a atividade da API, tipo de streaming.",
+            "hora em que ocorreu a atividade da API, tipo de redis e tipo de ação.",
+            "tipo do goldengate, alvo da atividade e tipo de resposta."
+        ],
+        "gabarito": "fonte da atividade, alvo da atividade e tipo de resposta.",
+        "banca": "FGV",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 45,
+        "enunciado": "No Oracle Database o tipo de dados conhecido por armazenar um número de ponto flutuante de 64 bits e precisão dupla tem a notação ______.\nAssinale a alternativa que preencha a lacuna corretamente.",
+        "alternativas": [
+            "CHAR_DOUBLE.",
+            "CHAR_FLOAT.",
+            "BINARY_FLOAT.",
+            "BINARY_DOUBLE."
+        ],
+        "gabarito": "BINARY_DOUBLE.",
+        "banca": "IBFC",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 46,
+        "enunciado": "No que diz respeito a linguagens procedurais em um banco de dados SQL e a técnicas de análise de desempenho e otimização de consultas SQL, julgue o item subsecutivo.\nO UTL_HTTP do Oracle Database é um pacote utilizado em PL/SQL e SQL para inclusão de dados de arquivos no padrão UTL ou HTML advindos de páginas com o protocolo HTTP da Internet.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 47,
+        "enunciado": "João, administrador de Banco de Dados Oracle, deverá criar índices para melhorar o desempenho de consultas complexas sobre processos judiciais.\nPara isso, deverá escolher a estrutura que facilita a busca rápida de informações em operações de junção e intervalo, como:\nSELECT parte.nome, movimento.descricao, movimento.data FROM parte JOIN movimento ON parte.processoID = movimento.processoID WHERE parte.processoID BETWEEN 10 AND 20;] Para tanto, João criou um índice específico na coluna “processoID” da tabela “movimento”:\nCREATE INDEX idx_movimento_processoID ON movimento(processoID);\nApós a execução do script apresentado, o tipo de índice criado por João é:",
+        "alternativas": [
+            "bitmap;",
+            "hashing;",
+            "espacial;",
+            "árvore B;",
+            "sequencial."
+        ],
+        "gabarito": "árvore B;",
+        "banca": "FGV",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 48,
+        "enunciado": "No contexto de administração de conexões no Oracle, Database Link é um objeto do esquema que permite que usuários acessem objetos em bancos de dados diferentes.\nObserve o seguinte script:\n---conexão no banco de dados staging CONNECT staging@staging CREATE PUBLIC DATABASE LINK \"PRD_PROCESSO\" CONNECT TO staging IDENTIFIED BY <PWD> USING 'PRD_PROCESSO';\nSELECT nome FROM processo.tbl_usuario@prd_processo WHERE cpf = 99988877766;\nApós a execução do script acima, a instrução SELECT:",
+        "alternativas": [
+            "retornará o nome do usuário com o CPF 99988877766 da tabela “tbl_usuario” do banco de dados “prd_processo”;",
+            "retornará o nome do usuário com o CPF 99988877766 da tabela “tbl_usuario” do banco de dados “prd_processo”, se o usuário “processo” existir no banco de dados “staging”;",
+            "retornará o nome do usuário com o CPF 99988877766 da tabela “tbl_usuario” do banco de dados “prd_processo”, se existir sinônimo público para a tabela “tbl_usuario” no banco de dados “prd_processo”;",
+            "não retornará o nome do usuário com o CPF 99988877766 da tabela “tbl_usuario” do banco de dados “prd_processo”, porque o Database Link deve ser criado no banco de dados remoto especificado em USING 'PRD_PROCESSO';",
+            "não retornará o nome do usuário com o CPF 99988877766 da tabela “tbl_usuario” do banco de dados “prd_processo”, porque a instrução deve ser executada com o usuário “staging” na cláusula FROM staging.tbl_usuario@prd_processo."
+        ],
+        "gabarito": "retornará o nome do usuário com o CPF 99988877766 da tabela “tbl_usuario” do banco de dados “prd_processo”;",
+        "banca": "FGV",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 49,
+        "enunciado": "João, administrador de banco de dados, deverá configurar a inicialização de uma instância do Banco de Dados Oracle. Para isso, deverá considerar que somente poderá executar o “shutdown” da instância após o “rollback” das transações não submetidas a “commit”.\nPara tanto, como João não precisa aguardar a conclusão de todas as transações, ele deverá executar o modo de “shutdown”:",
+        "alternativas": [
+            "abort;",
+            "mount;",
+            "nomount;",
+            "immediate;",
+            "transactional."
+        ],
+        "gabarito": "immediate;",
+        "banca": "FGV",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 50,
+        "enunciado": "Observe o seguinte script de criação da tabela “Empresa” e outros objetos em Oracle:\nCREATE TABLE empresa ( empresa_ID NUMBER(12) PRIMARY KEY, razao_social VARCHAR2(50) NOT NULL );\nCREATE SEQUENCE sq_empresa_pk START WITH 2 INCREMENT BY 2 NOMAXVALUE NOCACHE NOCYCLE;\nCREATE OR REPLACE TRIGGER trg_bi_empresa BEFORE INSERT ON empresa FOR EACH ROW WHEN (NEW.empresa_ID IS NULL) BEGIN SELECT sq_empresa_pk.NEXTVAL INTO :NEW.empresa_ID FROM dual;\nEND;\nApós a execução do script anteriormente apresentado, analise a execução dos seguintes comandos:\nINSERT INTO empresa (empresa_ID, razao_social) VALUES (NULL, 'AAA');\nINSERT INTO empresa (razao_social) VALUES ('BBB');\nINSERT INTO empresa (empresa_ID, razao_social) VALUES (1, 'CCC');\nINSERT INTO empresa (empresa_ID, razao_social) VALUES (5, 'DDD');\nINSERT INTO empresa (empresa_ID, razao_social) VALUES (6, 'EEE');\nINSERT INTO empresa (razao_social) VALUES\n('FFF');\nCOMMIT;\nApós a execução dos comandos apresentados, é correto afirmar que:",
+        "alternativas": [
+            "foram inseridas 6 (seis) linhas e o número final para sq_empresa_pk.CURRVAL é igual a 6 (seis);",
+            "nenhuma linha pode ser inserida e o número final para sq_empresa_pk.CURRVAL é igual a 2 (dois);",
+            "foram inseridas 5 (cinco) linhas e o número final para sq_empresa_pk.CURRVAL é igual a 6 (seis);",
+            "foram inseridas 5 (cinco) linhas e o número final para sq_empresa_pk.CURRVAL é igual a 4 (quatro);",
+            "foram inseridas 4 (quatro) linhas e o número final para sq_empresa_pk.CURRVAL é igual a 4 (quatro)."
+        ],
+        "gabarito": "foram inseridas 5 (cinco) linhas e o número final para sq_empresa_pk.CURRVAL é igual a 6 (seis);",
+        "banca": "FGV",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 51,
+        "enunciado": "João, administrador de banco de dados, deverá projetar um banco de dados Oracle de registro de alunos que contenha várias tabelas para armazenar informações acadêmicas:\n∙ A tabela “Aluno” armazena informações sobre alunos.\n∙ A tabela “Notas_Aluno” armazena informações sobre as notas do aluno.\n∙ Ambas as tabelas têm uma coluna chamada “Aluno_ID”.\n∙ A coluna “Aluno_ID” na tabela “Aluno” é uma chave primária.\nJoão deverá criar a chave estrangeira na coluna “aluno_ID” da tabela “Notas_Aluno” para relacionar-se com a coluna “aluno_ID” da tabela “Aluno”. Para isso, João deverá utilizar o seguinte comando:",
+        "alternativas": [
+            "CREATE TABLE notas_aluno (aluno_ID NUMBER(12), media_notas NUMBER(4,3), CONSTRAINT aluno_ID_fk REFERENCES aluno(aluno_ID));",
+            "CREATE TABLE notas_aluno (aluno_ID NUMBER(12), media_notas NUMBER(4,3), CONSTRAINT FOREIGN KEY. (aluno_ID)REFERENCES aluno (aluno_ID));",
+            "CREATE TABLE notas_aluno (aluno_ID NUMBER(12), media_notas NUMBER(4,3), aluno_ID_fk FOREIGN KEY (aluno_ID)REFERENCES aluno(aluno_ID));",
+            "CREATE TABLE notas_aluno (aluno_ID NUMBER(12), media_notas NUMBER(4,3), CONSTRAINT aluno_ID_fk FOREIGN KEY (aluno_ID) REFERENCES aluno(aluno_ID));",
+            "CREATE TABLE notas_aluno (aluno_ID NUMBER(12), media_notas NUMBER(4,3), CONSTRAINT aluno_ID_fk REFERENCES (aluno_ID) FOREIGN KEY aluno(aluno_ID));"
+        ],
+        "gabarito": "CREATE TABLE notas_aluno (aluno_ID NUMBER(12), media_notas NUMBER(4,3), CONSTRAINT aluno_ID_fk FOREIGN KEY (aluno_ID) REFERENCES aluno(aluno_ID));",
+        "banca": "FGV",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 52,
+        "enunciado": "O Oracle 19G possui três declarações básicas de controle de transações conhecidas como",
+        "alternativas": [
+            "do, redo e undo.",
+            "confirm, do e abort.",
+            "checkpoint, do e save.",
+            "checkpoint, commit e undo.",
+            "commit, rollback e savepoint."
+        ],
+        "gabarito": "commit, rollback e savepoint.",
+        "banca": "FGV",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 53,
+        "enunciado": "{image(1)} Considerando a tabela precedente, que representa um banco de dados relacional ORACLE, julgue o próximo item.\nO select a seguir retornará o valor 70.\nselect max(cod_carreira) FROM eg.EGT_CARREIRA ec WHERE DES_CARREIRA LIKE 'a%'",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 54,
+        "enunciado": "João pretende enriquecer a documentação do banco de dados registrando o propósito das tabelas e as descrições de suas colunas. Isso é crucial para facilitar a compreensão e a manutenção do seu esquema.\nPara tanto, o comando em Oracle que ele deverá usar para alcançar seu objetivo, em relação à tabela “Processo”, é:",
+        "alternativas": [
+            "DESCRIBE Processo IS ‘Esta tabela armazena informações sobre processos judiciais.’;",
+            "SHOW TABLE Processo IS ‘Esta tabela armazena informações sobre processos judiciais.’;",
+            "ALTER TABLE Processo (‘Esta tabela armazena informações sobre processos judiciais.’);",
+            "COMMENT ON TABLE Processo IS ‘Esta tabela armazena informações sobre processos judiciais.’;",
+            "INSERT INTO Processo VALUES (‘Propósito’, ‘Esta tabela armazena informações sobre processos judiciais.’);"
+        ],
+        "gabarito": "COMMENT ON TABLE Processo IS ‘Esta tabela armazena informações sobre processos judiciais.’;",
+        "banca": "FGV",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 55,
+        "enunciado": "João, administrador de Banco de Dados Oracle, percebe que a configuração de um parâmetro específico precisa ser ajustada para otimizar o desempenho do banco de dados. Ele precisa fazer essa alteração, de forma persistente, no arquivo de inicialização (spfile) e garantir que ela seja aplicada após o reinício do banco de dados.\nPara isso, João deverá executar o comando:",
+        "alternativas": [
+            "UPDATE SYSTEM SET parameter_name = novo_valor;",
+            "ALTER SESSION SET parameter_name = novo_valor;",
+            "ALTER SYSTEM SET parameter_name = novo_valor SCOPE=PFILE;",
+            "ALTER SYSTEM SET parameter_name = novo_valor SCOPE=SPFILE;",
+            "ALTER DATABASE SET parameter_name = novo_valor SCOPE=SPFILE;"
+        ],
+        "gabarito": "ALTER SYSTEM SET parameter_name = novo_valor SCOPE=SPFILE;",
+        "banca": "FGV",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 56,
+        "enunciado": "Durante uma manutenção de rotina, a equipe de banco de dados Oracle da Comissão de Valores Mobiliários identificou que uma tablespace de sistema estava com um crescimento descontrolado. Ao refinar a pesquisa, observou que os registros de auditoria ainda estavam com a sua tablespace default. Conforme a documentação de melhores práticas da Oracle, é recomendado que seja criada uma tablespace específica para os dados de auditoria e que estes sejam removidos da tablespace:",
+        "alternativas": [
+            "system;",
+            "users;",
+            "temp;",
+            "sysaux;",
+            "undo."
+        ],
+        "gabarito": "sysaux;",
+        "banca": "FGV",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 57,
+        "enunciado": "Em bancos de dados relacionais que utilizem a linguagem SQL (não procedural) a otimização de comandos SQL é um fator central no “tuning” de um banco de dados.\nA otimização foca na determinação do modo mais eficiente para obter o resultado. Nesse contexto, o “estimator” é o componente que avalia o consumo de recursos num certo plano de execução.\nDe acordo com o que é preconizado pela Oracle, os fatores pelos quais o custo é estimado são:",
+        "alternativas": [
+            "Cardinality, Cost, Selectivity.",
+            "Disk memory, Indexes, RAM memory.",
+            "Filters, Partitions, Primary keys.",
+            "Indexes, Join operations, Size.",
+            "Joins, Projections, Selection."
+        ],
+        "gabarito": "Cardinality, Cost, Selectivity.",
+        "banca": "FGV",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 58,
+        "enunciado": "Num ambiente Oracle, no âmbito do Database Resource Manager, analise o comando a seguir.\nEXEC DBMS_RESOURCE_MANAGER_PRIVS.GRANT_SYSTEM_PRIVILEGE -\n(GRANTEE_NAME => 'xxxxx', - PRIVILEGE_NAME => 'ADMINISTER_RESOURCE_MANAGER', - ADMIN_OPTION => FALSE);\nAssinale o efeito desse comando.",
+        "alternativas": [
+            "O banco de dados “xxxxx” é incluído e pode ser gerenciado de acordo com o pacote DBMS_RESOURCE_MANAGER.",
+            "O banco de dados “xxxxx” passa a ser gerenciado somente por administradores do pacote DBMS_RESOURCE_MANAGER.",
+            "O usuário “xxxxx” é retirado do papel de administrador do pacote DBMS_RESOURCE_MANAGER.",
+            "O usuário “xxxxx” fica impedido de executar todos os procedimentos do pacote DBMS_RESOURCE_MANAGER.",
+            "O usuário “xxxxx” pode executar todos os procedimentos do pacote DBMS_RESOURCE_MANAGER, mas não pode atribuir esse privilégio a outros usuários."
+        ],
+        "gabarito": "O usuário “xxxxx” pode executar todos os procedimentos do pacote DBMS_RESOURCE_MANAGER, mas não pode atribuir esse privilégio a outros usuários.",
+        "banca": "FGV",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 59,
+        "enunciado": "Acerca dos níveis de isolamento do Oracle 21C, julgue o item que se segue.\nO nível de isolamento REPEATABLE READ é suscetível ao problema de “fantasmas”, que ocorre quando novas linhas inseridas por outras transações podem não ser visíveis para a transação atual.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 60,
+        "enunciado": "Acerca dos níveis de isolamento do Oracle 21C, julgue o item que se segue.\nNo nível de isolamento SERIALIZABLE, uma transação em andamento pode visualizar as alterações realizadas por outras transações, independentemente delas terem sido confirmadas ou não.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 61,
+        "enunciado": "Amanda, administradora de banco de dados (DBA) da empresa X, está efetuando ajustes em seu sistema de banco de dados (SGBD) Oracle. Ela identificou que a tablespace de UNDO default não foi criada corretamente, o que está acarretando muitas falhas nas transações executadas. Amanda resolveu criar uma nova tablespace de UNDO, conforme script a seguir.\ncreate undo tablespace UNDOTBS1 datafile 'undotbs_01.dbf' size 100M autoextend on;\nNa tentativa de tornar default do banco de dados a tablespace UNDOTBS1, Amanda poderá:",
+        "alternativas": [
+            "adicionar a cláusula nologging ao script no momento da criação da undo tablespace UNDOTBS1;",
+            "certificar-se de que o sistema gerenciador de banco de dados opere em modo de gerenciamento de undo automático;",
+            "executar o comando drop na tablespace de UNDO anterior, pois assim a UNDOTBS1 será assumida como default automaticamente;",
+            "encontrar uma falha no comando executado, de modo que, ao dropar a tablespace de UNDO existente, o banco assumirá a tablespace SYSAUX como default;",
+            "substituir a query apresentada por outra que faça a criação de uma tablespace bigfile, pois este é o único formato para a cláusula default."
+        ],
+        "gabarito": "certificar-se de que o sistema gerenciador de banco de dados opere em modo de gerenciamento de undo automático;",
+        "banca": "FGV",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 62,
+        "enunciado": "Após executar o comando Oracle TRUNCATE TABLE, um Analista decidiu desfazer a ação por meio de rollback. A ação foi",
+        "alternativas": [
+            "ineficaz, pois ele já havia dado commit na tabela objeto.",
+            "eficaz, após a execução de um drop realizado na tabela objeto.",
+            "ineficaz, pois esse comando não permite o rollback.",
+            "ineficaz, pois ele já havia atualizado a tabela objeto.",
+            "eficaz, após a execução de um alter realizado na tabela objeto."
+        ],
+        "gabarito": "ineficaz, pois esse comando não permite o rollback.",
+        "banca": "FCC",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 63,
+        "enunciado": "Um Analista de um Tribunal do trabalho realiza consultas de dados em movimento, como streams de dados em tempo real no Oracle 19c, usando a solução mais adequada que é o Oracle",
+        "alternativas": [
+            "Parse Streams.",
+            "Database In-Memory.",
+            "Advanced Queuing.",
+            "Change Data Capture.",
+            "Flashback."
+        ],
+        "gabarito": "Advanced Queuing.",
+        "banca": "FCC",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 64,
+        "enunciado": "O sistema de gerenciamento de banco de dados Oracle possui uma arquitetura complexa. Uma das estruturas mais importantes que podemos destacar é a de memória.\nDuas das principais áreas de memória no Oracle são SGA (System Global Area) e PGA (Program Global Area).\nRelacione as áreas de memória com a sua respectiva utilização e definição.\n1. PGA\n2. SGA\n( ) Ao executar uma instrução SQL é armazenado: tabelas temporárias, Linhas de classificação, bitmaps de mesclagem, variáveis e pilha de chamadas\n( ) Contém estruturas que podem ser dimensionadas de forma independente\n( ) Está associada a cada sessão e irá variar seu tamanho de acordo com as necessidades de memória da sessão em dado momento.\n( ) Aloca e desaloca a memória do servidor ao iniciar ou desligar a instância.\n( ) Está presente em sua composição além de outras estruturas o stream pool, java pool. Também fazem parte.\nAssinale a opção que indica a relação correta, na ordem apresentada.",
+        "alternativas": [
+            "2, 2, 1, 2 e 1.",
+            "1, 1, 2, 2 e 2.",
+            "1, 2, 1, 1 e 1.",
+            "2, 1, 1, 2 e 1.",
+            "1, 2, 1, 2 e 2."
+        ],
+        "gabarito": "1, 2, 1, 2 e 2.",
+        "banca": "FGV",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 65,
+        "enunciado": "Julgue o item a seguir a respeito dos conceitos do SGBD Oracle.\nA tabela BDA_SORT _SEGMENT informa a quantidade de espaço destinado para ordenar uma consulta no SGBD Oracle.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 66,
+        "enunciado": "Considerando um banco de dados Oracle 19 aberto e funcionando em condições ideais, uma Analista foi solicitada a remover o tablespace tbs_trt18a, eliminando todas as restrições de integridade referencial que se referem às chaves primárias e únicas dentro de tbs_trt18a. Tendo os privilégios para tal ação, ela utilizou o comando:",
+        "alternativas": [
+            "DROP TABLESPACE tbs_trt18a REMOVING CONSTRAINTS KEEPING CONTENTS AND DATAFILES;",
+            "DELETE TABLESPACE tbs_trt18a INCLUDING CONTENTS AND CONSTRAINTS;",
+            "DROP TABLESPACE tbs_trt18a WITH CONTENTS AND CONSTRAINTS ON CASCADE;",
+            "DROP TABLESPACE tbs_trt18a INCLUDING CONTENTS CASCADE CONSTRAINTS;",
+            "DELETE TABLESPACE tbs_trt18a ADDING CONTENTS ON CASCADE CONSTRAINTS;"
+        ],
+        "gabarito": "DROP TABLESPACE tbs_trt18a INCLUDING CONTENTS CASCADE CONSTRAINTS;",
+        "banca": "FCC",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 67,
+        "enunciado": "Numa instalação Oracle, considere o script a seguir.\ncreate sequence xxxx;\nselect xxxx.nextval from dual;\nA execução desse script provoca:",
+        "alternativas": [
+            "a exibição do número 0;",
+            "a exibição do número 1;",
+            "a exibição do valor NULL;",
+            "a exibição dos números de 1 até 1000;",
+            "um erro, pois não foi criada a tabela dual."
+        ],
+        "gabarito": "a exibição do número 1;",
+        "banca": "FGV",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 68,
+        "enunciado": "O banco de dados de um órgão do Judiciário foi modelado conforme imagem abaixo, utilizando o Modelo Entidade-Relacionamento (MER). {image(2)} Foi criado um banco de dados chamado MPEPB123 com as tabelas referentes ao modelo e os dados abaixo foram cadastrados. Considere para todas as questões que o banco de dados está aberto e em condições ideais.\nTabela Processo numeroProc orgaoProc tribunalProc origemProc 0001842672017\n5 01 0246 0045613912014 8 19 0004 0056712432022 6 14 0023 0002347652022 8 02 0341 Tabela Advogado numeroOABAdv nomeAdv 28H418 Marcos Vieira Dias 34.443 Fabiana Duque Zanon Tabela Advogado_Processo numeroOABAdv numeroProc papel 28H418 0001842672017 Defesa 34.443 0045613912014 Defesa 28H418 0056712432022 Acusação 28H418 0045613912014 Acusação 34.443 0056712432022 Acusação 34.443 0001842672017 Acusação Em um banco de dados Oracle, um analista utilizou um comando que retornou, da tabela Processo, os dados mostrados abaixo.\nAno 2017 2022 2014 2022 O comando utilizado pelo analista foi",
+        "alternativas": [
+            "SELECT SUBSTR(numeroProc,-4,4) AS Ano FROM Processo;",
+            "SELECT SUBSTRING(-4,4,numeroProc) AS Ano FROM Processo;",
+            "SELECT SUBSTR(numeroProc,4,10) AS Ano FROM Processo;",
+            "SELECT SUBSTRING(10,4,numeroProc) AS Ano FROM Processo;",
+            "SELECT SUBSTRING(numeroProc from 9 for 4) AS Ano FROM Processo;"
+        ],
+        "gabarito": "SELECT SUBSTR(numeroProc,-4,4) AS Ano FROM Processo;",
+        "banca": "FCC",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 69,
+        "enunciado": "Tabelas do tipo Indexed-organized tables no Oracle têm uma correspondência de organização e funcionalidade com:",
+        "alternativas": [
+            "Clusterized indexes, no SQL Server;",
+            "HEAP tables, no MySQL;",
+            "Memory tables, no MySQL;",
+            "Partition tables, no SQL Server;",
+            "Table Clusters, no Oracle."
+        ],
+        "gabarito": "Clusterized indexes, no SQL Server;",
+        "banca": "FGV",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 70,
+        "enunciado": "Imagine que em um banco de dados ORACLE existe um usuário USUARIO1 e uma tabela de nome PROJETOS. Considere que o DBA emitiu o seguinte comando SQL nesse banco de dados:\nGRANT ALL PRIVILEGES ON PROJETOS TO USUARIO1;\nAnalise as assertivas abaixo, sobre os privilégios concedidos a USUARIO1 com esse comando, assinalando V, se verdadeiras, ou F, se falsas.\n( ) USUARIO1 pode remover tuplas da tabela PROJETOS.\n( ) USUARIO1 pode conceder a outros usuários um ou mais privilégios recebidos sobre a tabela PROJETOS através de comandos GRANT.\n( ) USUARIO1 pode definir um gatilho sobre a tabela PROJETOS.\nA ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+        "alternativas": [
+            "V – V – V.",
+            "F – V – F.",
+            "V – F – F.",
+            "F – F – V.",
+            "V – F – V."
+        ],
+        "gabarito": "V – F – V.",
+        "banca": "FUNDATEC",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 71,
+        "enunciado": "No Oracle, cada instância de um banco de dados tem um redo log associado para proteger o banco de dados em caso de falha da instância. Um redo log consiste em um ou mais arquivos pré-alocados que armazenam todas as alterações feitas no banco de dados à medida que ocorrem. O Log Writer (LGWR) é o processo que controla a escrita das mudanças nos arquivos de redo log. Analise as seguintes assertivas sobre o redo log no Oracle:\nI. O recurso de multiplexar um redo log (multiplexed redo logs) visa proteger contra uma falha envolvendo o próprio redo log.\nII. Quando um redo log é multiplexado, é recomendado que todos os membros de um grupo sejam colocados em discos físicos distintos.\nIII. É uma boa prática que a necessidade de arquivamento dos arquivos de redo log em mídias de armazenamento off-line, tais como discos ou fitas, seja levada em conta pelo DBA ao definir o tamanho do arquivo de redo log.\nQuais estão corretas?",
+        "alternativas": [
+            "Apenas III.",
+            "Apenas I e II.",
+            "Apenas I e III.",
+            "Apenas II e III.",
+            "I, II e III."
+        ],
+        "gabarito": "I, II e III.",
+        "banca": "FUNDATEC",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 72,
+        "enunciado": "O Oracle Data Guard fornece um conjunto abrangente de serviços que criam, mantêm, gerenciam e monitoram um ou mais bancos de dados em espera (standby).\nAnalise as seguintes assertivas sobre serviços providos pelo Oracle Data Guard, assinalando V, se verdadeiras, ou F, se falsas.\n( ) Existem quatro tipos de bancos de dados standby: físico, lógico, snapshot e cloud.\n( ) Uma transição do banco de dados primário para uma base de dados standby pode ocorrer tanto para gerenciar casos de falha (failover), tais como desastres e corrupção de dados, quanto situações que não envolvem falhas (switchover), como, por exemplo, manutenções programadas.\n( ) Oferece três modos de proteção: disponibilidade máxima, desempenho máximo e proteção máxima.\nA ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+        "alternativas": [
+            "V – V – V.",
+            "F – V – V.",
+            "F – V – F.",
+            "V – F – V.",
+            "F – F – F."
+        ],
+        "gabarito": "F – V – V.",
+        "banca": "FUNDATEC",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 73,
+        "enunciado": "No contexto de uma instalação Oracle, nas suas versões mais recentes, DBA_TABLES e USER_TABLES referem-se, principalmente,",
+        "alternativas": [
+            "ao conjunto de permissões de acesso em vigor nos bancos de dados.",
+            "ao conjunto de usuários registrados nos bancos de dados.",
+            "aos mecanismos para extração de metadados.",
+            "aos processos de autenticação em aplicações Web.",
+            "aos processos de indexação e otimização de tabelas."
+        ],
+        "gabarito": "aos mecanismos para extração de metadados.",
+        "banca": "FGV",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 74,
+        "enunciado": "Usando o SQL *Plus, do Oracle 11g, qual a sintaxe correta do comando DESCRIBE utilizado para exibir a estrutura de uma tabela identificada como tab_cidades?",
+        "alternativas": [
+            "DESCRIBE tab_cidades.",
+            "DESCRIBE FROM tab_cidades.",
+            "DESCRIBE INTO tab_cidades.",
+            "DESCRIBE TABLE FROM tab_cidades.",
+            "DESCRIBE STRUCT FROM tab_cidades."
+        ],
+        "gabarito": "DESCRIBE tab_cidades.",
+        "banca": "FUNDATEC",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 75,
+        "enunciado": "Qual o formato padrão de entrada da data no Oracle 11g, em que DD é o dia com dois dígitos, MON são as três primeiras letras do mês, MM é o número do mês com dois dígitos e YYYY é o ano com quatro dígitos?",
+        "alternativas": [
+            "DD-MON-YYYY.",
+            "MON-DD-YYYY.",
+            "YYYY-MON-DD.",
+            "MM-DD-YYYY.",
+            "DD-MM-YYYY."
+        ],
+        "gabarito": "DD-MON-YYYY.",
+        "banca": "FUNDATEC",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 76,
+        "enunciado": "O gerenciamento da memória no SGBD Oracle possui duas áreas principais: SGA (System Global Area) e PGA (Program Global Area). Nesse contexto, analise as assertivas abaixo e assinale a alternativa correta.\nI. A PGA é um conjunto de estruturas de memória compartilhada que contém dados e informações de controle de uma instância do banco de dados Oracle.\nII. A SGA é uma região não compartilhada da memória que contém dados e informações de controle de um processo do servidor.\nIII. Tanto a SGA como a PGA podem ser configuradas manualmente ou automaticamente.",
+        "alternativas": [
+            "Todas estão corretas.",
+            "Todas estão incorretas.",
+            "Apenas III está correta.",
+            "Apenas I e II estão corretas.",
+            "Apenas II e III estão corretas."
+        ],
+        "gabarito": "Apenas III está correta.",
+        "banca": "FUNDATEC",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 77,
+        "enunciado": "Considere o seguinte comando:\nCREATE SEQUENCE sequenciaquestao START WITH 100 INCREMENT BY 2 NOCACHE NOCYCLE;\nAnalise as assertivas abaixo e assinale a alternativa correta.\nI. No ORACLE, se forem omitidas as cláusulas CACHE e NOCACHE na criação da SEQUENCE, o banco de dados irá fazer um CACHE de 20 sequencias por default. II. Quando uma transação gerou e utilizou valores de uma SEQUENCE e a transação for finalizada com ROOLBACK, os valores gerados para SEQUENCE também serão desfeitos e ela voltará ao valor que tinha antes. III. A primeira referência a sequenciaquestao.NEXTVAL retornará o valor 101.",
+        "alternativas": [
+            "Todas estão corretas.",
+            "Todas estão incorretas.",
+            "Apenas I está correta.",
+            "Apenas II está correta.",
+            "Apenas III está correta."
+        ],
+        "gabarito": "Apenas I está correta.",
+        "banca": "FUNDATEC",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 78,
+        "enunciado": "NVL e NVL2 são funções que ORACLE disponibiliza para serem utilizadas nas consultas. Analise as assertivas abaixo e assinale a alternativa correta.\nI. NVL2(E1,E2) especifica que se E1 for nulo, a função retornará E2, caso contrário, retornará E1.\nII. NVL(E1,E2,E3) especifica que se E1 for nulo, a função retornará E3, caso contrário, retornará E2.\nIII. NVL e NVL2 são usadas quando o valor de um campo de uma tupla pode retornar NULL.",
+        "alternativas": [
+            "Todas estão corretas.",
+            "Todas estão incorretas.",
+            "Apenas I está correta.",
+            "Apenas II está correta.",
+            "Apenas III está correta."
+        ],
+        "gabarito": "Apenas III está correta.",
+        "banca": "FUNDATEC",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 79,
+        "enunciado": "Usuários acessam o SGBD Oracle através de suas contas de usuários, que possuem permissões específicas concedidas no momento da criação do usuário ou concedidas posteriormente. Analise as assertivas abaixo e assinale a alternativa correta.\nI. O usuário SYSTEM pode realizar todas as funções administrativas do banco de dados, inclusive pode fazer backup e recovery do sistema.\nII. O usuário SYS pode fazer todas as funções administrativas, mas não pode fazer backup, recovery e nem upgrade do SGBD.\nIII. SYSDBA é um privilégio concedido aos usuários que são administradores do banco de dados.",
+        "alternativas": [
+            "Todas estão corretas.",
+            "Todas estão incorretas.",
+            "Apenas I está correta.",
+            "Apenas II está correta.",
+            "Apenas III está correta."
+        ],
+        "gabarito": "Apenas III está correta.",
+        "banca": "FUNDATEC",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 80,
+        "enunciado": "O SGBD ORACLE permite que se faça uma conexão local a um banco de dados. Analise as assertivas abaixo e assinale a alternativa correta.\nI. A conexão local não cria um processo servidor (Server Process) e não usa um protocolo de rede.\nII. A conexão local não irá precisar de um Database Listener.\nIII. A conexão local requer o protocolo IPC.",
+        "alternativas": [
+            "Todas estão corretas.",
+            "Todas estão incorretas.",
+            "Apenas I e II estão corretas.",
+            "Apenas I e III estão corretas.",
+            "Apenas II e III estão corretas."
+        ],
+        "gabarito": "Apenas II e III estão corretas.",
+        "banca": "FUNDATEC",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 81,
+        "enunciado": "Assinale a alternativa que NÃO corresponde a uma funcionalidade do Oracle 19c SQL automatic tuning.",
+        "alternativas": [
+            "Criação automática de índices.",
+            "Compressão automática de tabelas acessadas frequentemente.",
+            "Criação automática de triggers (gatilhos) para eventos.",
+            "Identificação automática de operações SQL.",
+            "Implementação automática de perfis SQL."
+        ],
+        "gabarito": "Criação automática de triggers (gatilhos) para eventos.",
+        "banca": "FUNDATEC",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 82,
+        "enunciado": "Analise as assertivas abaixo sobre os casos de uso do monitoramento de operação de banco de dados (Monitoring Database Operations) do Oracle 19c e assinale a alternativa correta.\nI. O monitoramento não tem suporte a cláusulas SQL em paralelo, por isso não pode ser usado para analisar problemas de balanceamento de carga.\nII. Uma cláusula SQL que começou a levar mais tempo para executar pode ser analisada com o monitoramento.\nIII. Uma sessão de banco de dados que está com performance abaixo do esperado pode precisar ser analisada pelo monitoramento.",
+        "alternativas": [
+            "Todas estão corretas.",
+            "Todas estão incorretas.",
+            "Apenas II está correta.",
+            "Apenas I e II estão corretas.",
+            "Apenas II e III estão corretas."
+        ],
+        "gabarito": "Apenas II e III estão corretas.",
+        "banca": "FUNDATEC",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 83,
+        "enunciado": "O modelo de banco de dados relacional representa o banco de dados como uma coleção de relações. Informalmente, cada relação se assemelha a uma tabela de valores ou, até certo ponto, a um arquivo simples de registros. É chamado de arquivo simples porque cada registro tem uma estrutura simples linear ou plana. Qual banco abaixo é um banco de dados relacional?",
+        "alternativas": [
+            "MongoDB.",
+            "CouchDB.",
+            "Redis.",
+            "Oracle.",
+            "NoSQL."
+        ],
+        "gabarito": "Oracle.",
+        "banca": "FUNDATEC",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 84,
+        "enunciado": "A arquitetura de banco de dados relacional, como o Oracle, é um modelo de organização de dados que se baseia em tabelas estruturadas. Nesse contexto, assinale a opção que apresenta a denominação correta de uma coluna ou um conjunto de colunas que identifica exclusivamente cada linha em uma tabela e garante a unicidade e a integridade dos dados.",
+        "alternativas": [
+            "relacionamentos.",
+            "índices.",
+            "álgebra relacional.",
+            "chave primária.",
+            "diagrama de entidade-relacionamento (DER)."
+        ],
+        "gabarito": "chave primária.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 85,
+        "enunciado": "Numa instalação de bancos de dados Oracle, as tabelas do tipo Index-Organized permitem",
+        "alternativas": [
+            "a participação num grupo de tabelas (table cluster).",
+            "a supressão da cláusula primary key.",
+            "o acesso às linhas da tabela em certa ordem num full scan.",
+            "o uso de colunas do tipo long.",
+            "o uso de colunas virtuais (virtual columns)."
+        ],
+        "gabarito": "o acesso às linhas da tabela em certa ordem num full scan.",
+        "banca": "FGV",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 86,
+        "enunciado": "No contexto do gerenciamento de tablespaces no Oracle 19, considere as seguintes afirmativas.\nI. Tablespaces podem operar no modo read-only.\nII. Não é possível renomear uma tablespace.\nIII. É possível colocar uma tablespace off-line, tornando-a temporariamente indisponível, mantendo a operação do banco de dados normal.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, apenas.",
+            "II, apenas.",
+            "III, apenas.",
+            "I e III, apenas."
+        ],
+        "gabarito": "I e III, apenas.",
+        "banca": "FGV",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 87,
+        "enunciado": "No SQL*Plus, um Analista que possui as devidas permissões pretende ampliar o tamanho do Buffer Cache do Oracle 19c para 2 gigabytes, persistindo esta alteração no arquivo de parâmetros de inicialização SPFILE. O objetivo é armazenar em cache blocos de dados frequentemente acessados, visando aprimorar o desempenho do banco de dados. Para isso, ele deve usar o comando",
+        "alternativas": [
+            "ALTER SYSTEM SET CACHE_SIZE=2G PARAM=SPFILE;",
+            "ALTER SYSTEM SET DB_CACHE_SIZE=2G SCOPE=SPFILE;",
+            "ALTER SYSTEM SET DATABASE_CACHE_SIZE='2G' SCOPE='SPFILE';",
+            "ALTER DATABASE SET DB_CACHE_SIZE=2G SCOPE=SPFILE;",
+            "ALTER DATABASE SET DATABASE_CACHE_SIZE=2G PARAM=SPFILE;"
+        ],
+        "gabarito": "ALTER SYSTEM SET DB_CACHE_SIZE=2G SCOPE=SPFILE;",
+        "banca": "FCC",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 88,
+        "enunciado": "Qual é a função principal do componente “SGA” (System Global Area) na arquitetura Oracle?",
+        "alternativas": [
+            "Armazenar o código-fonte do aplicativo.",
+            "Manter a segurança da rede.",
+            "Gerenciar o acesso a dados do usuário.",
+            "Controlar o acesso de administradores ao sistema.",
+            "Gerenciar a memória e os buffers para operações de banco de dados."
+        ],
+        "gabarito": "Gerenciar a memória e os buffers para operações de banco de dados.",
+        "banca": "FEPESE",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 89,
+        "enunciado": "Qual é a função principal do componente “Redo Log” na arquitetura Oracle?",
+        "alternativas": [
+            "Manter o controle de acesso do usuário.",
+            "Gerenciar o armazenamento físico dos dados.",
+            "Armazenar cópias de segurança (backups) do banco de dados.",
+            "Registrar todas as mudanças de dados que ocorrem no banco de dados.",
+            "Armazenar os dados da tabela em formato de log."
+        ],
+        "gabarito": "Registrar todas as mudanças de dados que ocorrem no banco de dados.",
+        "banca": "FEPESE",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 90,
+        "enunciado": "Qual componente da arquitetura Oracle é responsável por armazenar os dados permanentes do banco de dados, como tabelas, índices e dados do usuário?",
+        "alternativas": [
+            "Data Files.",
+            "Data Buffer Cache.",
+            "PGA (Program Global Area).",
+            "SGA (System Global Area.",
+            "Redo Log."
+        ],
+        "gabarito": "Data Files.",
+        "banca": "FEPESE",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 91,
+        "enunciado": "Qual é a função principal do “PGA” (Program Global Area) na arquitetura Oracle?",
+        "alternativas": [
+            "Gerenciar o acesso a dados do usuário.",
+            "Armazenar dados temporários e informações de execução de consultas.",
+            "Armazenar cópias de segurança (backups) do banco de dados.",
+            "Registrar todas as mudanças de dados que ocorrem no banco de dados.",
+            "Controlar o acesso de administradores ao sistema."
+        ],
+        "gabarito": "Armazenar dados temporários e informações de execução de consultas.",
+        "banca": "FEPESE",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 92,
+        "enunciado": "Os pequenos arquivos binários, atualizados constantemente pelo Oracle, que guardam a estrutura do banco e são responsáveis pelo sincronismo entre os arquivos, são chamados de:",
+        "alternativas": [
+            "init.ora.",
+            "control files.",
+            "redo log files.",
+            "spfile.ora.",
+            "data files."
+        ],
+        "gabarito": "control files.",
+        "banca": "FEPESE",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 93,
+        "enunciado": "Uma das vantagens da POO é a reutilização de código.\nAssinale a alternativa que exemplifica de forma correta a assinatura inicial da criação de uma subclasse em ORACLE(versão de base: 9i).",
+        "alternativas": [
+            "create or replace type Aluno_t ext Pessoa_t().",
+            "create or replace type Aluno_t under Pessoa_t ().",
+            "create or replace type Aluno_t upper Pessoa_t().",
+            "create or replace type Aluno_t implement Pessoa_t().",
+            "create or replace type Aluno_t extended Pessoa_t()."
+        ],
+        "gabarito": "create or replace type Aluno_t under Pessoa_t ().",
+        "banca": "FEPESE",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 94,
+        "enunciado": "O utilitário Explain Plan",
+        "alternativas": [
+            "é criado pegando-se uma string de qualquer comprimento e codificando-a em uma impressão digital de 128 bits.",
+            "serve para criar uma expressão da álgebra relacional.",
+            "relata a maneira como uma consulta usa os índices do banco de dados.",
+            "deve executar o SQL para determinar o tamanho do resultado.",
+            "cria os índices necessários para executar uma consulta."
+        ],
+        "gabarito": "relata a maneira como uma consulta usa os índices do banco de dados.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 95,
+        "enunciado": "Na ferramenta avançada de análise e apresentação de dados Oracle BI Enterprise Edition (Oracle BIEE), a área que permite automatizar os processos comerciais, podendo ser empregada para fornecer alertas orientados a eventos, publicação programada de conteúdo e execução de ação condicional orientada a evento, é denominada",
+        "alternativas": [
+            "scorecards.",
+            "condições.",
+            "análises.",
+            "painéis.",
+            "agentes."
+        ],
+        "gabarito": "agentes.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 96,
+        "enunciado": "Julgue o item subsequente, referente a otimização de bases de dados multidimensionais.\nÍndices de bitmap não permitem linhas com valores NULL.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 97,
+        "enunciado": "Julgue o seguinte item, pertinentes a bancos de dados.\nEm um SGBD Oracle, as tabelas e suas visões (views) do banco de dados são armazenadas localmente em arquivos físicos que são denominados de tablespace.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 98,
+        "enunciado": "Na criação e manutenção de bancos de dados Oracle, a escolha do conjunto de caracteres (Character Set) requer atenção, especialmente pelo caráter internacional de muitas instalações.\nAssinale a opção que apresenta o conjunto que abrange múltiplos padrões de codificação, sendo a escolha default quando usado o Oracle Universal Installer.",
+        "alternativas": [
+            "AL32UTF8.",
+            "JA16SJIS.",
+            "UNICODE_OR.",
+            "UFT-16.",
+            "WE8DEC."
+        ],
+        "gabarito": "AL32UTF8.",
+        "banca": "FGV",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 99,
+        "enunciado": "A criação de um banco de dados Oracle, por meio do DBCA, passa por vários passos, nos quais diversos parâmetros são estabelecidos. No passo final, o administrador pode escolher diferentes opções (Creation options) para prosseguir.\nAssinale as opções básicas disponíveis nesse passo.",
+        "alternativas": [
+            "Create Database, Create as EmptyDatabase, Generate Database Creation Scripts.",
+            "Create Database, Generate Database Creation Scripts, Create Temporary Only.",
+            "Create Database, Save as Database Template, Create Database From BackUpFiles.",
+            "Create Database, Save as Database Template, Generate Database Creation Scripts.",
+            "Create Database, Save as Database Template, Generate Database Creation Scripts, Create Database as RandomData."
+        ],
+        "gabarito": "Create Database, Save as Database Template, Generate Database Creation Scripts.",
+        "banca": "FGV",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 100,
+        "enunciado": "No contexto do Oracle, assinale a opção que apresenta a ferramenta mais indicada para ações de backup e de recuperação de bancos de dados.",
+        "alternativas": [
+            "BPC.",
+            "Data Pump.",
+            "Export.",
+            "RMAN.",
+            "SQL*Loader."
+        ],
+        "gabarito": "RMAN.",
+        "banca": "FGV",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 101,
+        "enunciado": "A respeito dos mecanismos de triggers do Oracle, analise as afirmativas a seguir.\nI. A cláusula “OF nome_da_coluna” é usada para disparar o trigger somente quando a coluna específica tiver seu conteúdo alterado (updated).\nII. A cláusula “WHEN” pode ser aplicada somente para trigger no nível de linha (row level).\nIII. A cláusula “REFERENCING OLD AS …” é aplicada somente para operações de inserção na tabela associada ao trigger.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, somente.",
+            "I e II, somente.",
+            "I e III, somente.",
+            "II e III, somente.",
+            "I, II e III."
+        ],
+        "gabarito": "I e II, somente.",
+        "banca": "FGV",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 102,
+        "enunciado": "No que diz respeito aos sistemas gerenciadores de banco de dados (SGBD) Oracle 21C e MySQL, julgue o item.\nO comando RMAN> SHUTDOWN IMMEDIATE; não pode ser executado no Oracle, pois a operação de desligar o banco de dados somente é permitida por meio do SQL PLUS.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 103,
+        "enunciado": "No que diz respeito aos sistemas gerenciadores de banco de dados (SGBD) Oracle 21C e MySQL, julgue o item.\nCom a view V$SYSMETRIC do SGBD Oracle, é possível exibir a porcentagem de tempo usada pela CPU em relação ao tempo total do banco de dados.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Certo.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 104,
+        "enunciado": "Um desenvolvedor necessita somar dois meses a uma data em um banco de dados Oracle e um banco de dados MySQL, respectivamente. Os comandos para efetuar essa operação estão corretamente apresentados em uma das alternativas a seguir. Considerando que os bancos de dados estão com suas configurações padrão para data e hora, assinale a alternativa correta.",
+        "alternativas": [
+            "No Oracle: SELECT ADD_MONTHS ('10-Apr-22', 2) from DUAL; No MySQL: SELECT DATE_ADD('2022-04-10', INTERVAL 2 MONTH);",
+            "No Oracle: SELECT ADD_DATE ('10-Apr-22', 2) from DUAL; No MySQL: SELECT DATE_MONTH('2022-04-10', INTERVAL 2 MONTH);",
+            "No Oracle: SELECT DATEADD ('10-Apr-22', 2); No MySQL: SELECT DATE_ADD('2022-04-10', INTERVAL 2 MONTH);",
+            "No Oracle: SELECT ADD_DATE ('10-Apr-22', INCREMENT BY 2) from DUAL; No MySQL: SELECT ADDMONTH('2022-04-10', 2);",
+            "No Oracle: SELECT MONTHS ('10-Apr-22', ADD BY 2) from DUAL; No MySQL: SELECT DATE('2022-04-10', ADD 2 MONTH);"
+        ],
+        "gabarito": "No Oracle: SELECT ADD_MONTHS ('10-Apr-22', 2) from DUAL; No MySQL: SELECT DATE_ADD('2022-04-10', INTERVAL 2 MONTH);",
+        "banca": "Instituto AOCP",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 105,
+        "enunciado": "Um desenvolvedor escreveu uma consulta em um banco de dados Oracle que apresenta o nome de todos os funcionários de determinado departamento. Assinale a alternativa que apresenta corretamente a consulta escrita pelo desenvolvedor.",
+        "alternativas": [
+            "SELECT F.nome FROM funcionario F JOIN departmento D ON F.dept_id = 50 AND F.dept_id = D.dept_id;",
+            "SELECT F.nome FROM funcionario F JOIN departmento D ON F.dept_id = D.dept_id;",
+            "SELECT F.nome FROM funcionario F NATURAL JOIN departmento D;",
+            "SELECT F.nome FROM funcionario F, departmento D WHERE F.dept_id = D.dept_id;",
+            "SELECT F.nome FROM funcionario F JOIN departmento D WHERE F.dept_id = 50;"
+        ],
+        "gabarito": "SELECT F.nome FROM funcionario F JOIN departmento D ON F.dept_id = 50 AND F.dept_id = D.dept_id;",
+        "banca": "Instituto AOCP",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 106,
+        "enunciado": "No contexto da implementação de bancos de dados Oracle 11g, analise as afirmativas a seguir.\nI. Dados são armazenados logicamente em tablespaces, e fisicamente em datafiles associados com a tablespace correspondente. II. Todo banco de dados Oracle possui uma tablespace denominada SYSTEM, criada automaticamente. III. Todo banco de dados Oracle deve possuir uma tablespace intitulada LOG, cuja criação não é automática.\nEstá correto o que se afirma em",
+        "alternativas": [
+            "I, apenas.",
+            "II, apenas.",
+            "I e II, apenas.",
+            "II e III, apenas.",
+            "I, II e III."
+        ],
+        "gabarito": "I e II, apenas.",
+        "banca": "FGV",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 107,
+        "enunciado": "A vista (view) de dicionário de dados da Oracle que se pode consultar para encontrar as colunas de chave primária de tabelas é",
+        "alternativas": [
+            "DBA_APPLY.",
+            "DBA_RULE.",
+            "DBA_TABLES.",
+            "DBA_SQLSET.",
+            "DBA_CONSTRAINTS."
+        ],
+        "gabarito": "DBA_CONSTRAINTS.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 108,
+        "enunciado": "No Oracle 11g, considere a trigger abaixo, em condições ideais. {image(3)} Para que o laço de repetição seja executado após os ajustes do campo deptno na tabela DEPT a lacuna I deve ser preenchida com",
+        "alternativas": [
+            "DO UPDATE AFTER deptno on DEPT.",
+            "AFTER deptno WAS UPDATED on DEPT.",
+            "WHEN UPDATE deptno on DEPT.",
+            "AFTER UPDATE OF deptno on DEPT.",
+            "AFTER OF UPDATE deptno in DEPT."
+        ],
+        "gabarito": "AFTER UPDATE OF deptno on DEPT.",
+        "banca": "FCC",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 109,
+        "enunciado": "No Oracle 11g, para fornecer ao vendedor (database role) permissão para consulta, inclusão, alteração e exclusão de dados na tabela func, utiliza-se a instrução",
+        "alternativas": [
+            "GRANT SELECT, INSERT, UPDATE, DELETE ON func TO vendedor WITH ALLOWED='True';",
+            "GRANT SELECT, INSERT, UPDATE, DELETE ON func TO vendedor;",
+            "GRANT SELECT, INSERT, UPDATE, DELETE INTO func TO ROLE vendedor;",
+            "GRANT PRIVILEGES SELECT, INSERT, UPDATE, DELETE ON func TO vendedor;",
+            "GRANT PRIVILEGES SELECT, INSERT, UPDATE, DELETE OVER func TO vendedor;"
+        ],
+        "gabarito": "GRANT SELECT, INSERT, UPDATE, DELETE ON func TO vendedor;",
+        "banca": "FCC",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 110,
+        "enunciado": "No contexto do Oracle, considere o comando a seguir e analise as afirmativas a respeito das consequências desse mesmo comando.\ncreate global temporary table temp\n( a int not null primary key, b varchar(20) not null ) ON COMMIT DELETE ROWS;\nI. Dados inseridos numa sessão (em inglês, session) ficam disponíveis como read only para todas as sessões abertas.\nII. Dados inseridos por uma sessão são removidos quando a sessão é encerrada.\nIII. Ao término de uma transação por meio de um comando commit, os dados são automaticamente removidos da tabela.\nEstá correto somente o que se afirma em:",
+        "alternativas": [
+            "I;",
+            "II;",
+            "I e II;",
+            "I e III;",
+            "II e III."
+        ],
+        "gabarito": "II e III.",
+        "banca": "FGV",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 111,
+        "enunciado": "No contexto do Oracle, analise o comando a seguir e as afirmativas a respeito das consequências desse mesmo comando.\ncreate global temporary table temp\n( a int not null primary key, b varchar(20) not null );\nI. Dados introduzidos numa sessão (em inglês, session) são removidos no fim da sessão.\nII. Dados inseridos numa sessão podem ser acessados somente pela própria sessão.\nIII. Ao término de uma transação por meio de um comando commit, os dados são automaticamente removidos da tabela.\nEstá correto somente o que se afirma em:",
+        "alternativas": [
+            "I;",
+            "II;",
+            "I e II;",
+            "I e III;",
+            "II e III."
+        ],
+        "gabarito": "I e II;",
+        "banca": "FGV",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 112,
+        "enunciado": "No contexto do Oracle, considere o comando a seguir e analise as afirmativas a respeito das consequências desse mesmo comando.\ncreate global temporary table temp\n( a int not null primary key, b varchar(20) not null );\nI. Dados inseridos numa sessão (em inglês, session) são removidos no fim da sessão.\nII. Dados inseridos numa sessão podem ser acessados somente pela própria sessão.\nIII. Ao término de uma transação por meio de um comando commit, os dados são automaticamente removidos da tabela.\nEstá correto somente o que se afirma em:",
+        "alternativas": [
+            "I;",
+            "II;",
+            "I e II;",
+            "I e III;",
+            "II e III."
+        ],
+        "gabarito": "I e II;",
+        "banca": "FGV",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 113,
+        "enunciado": "No contexto do Oracle, os termos BY RANGE BY HASH BY LIST podem ser utilizados em declarações a respeito da criação de:",
+        "alternativas": [
+            "Clustered indexes;",
+            "Clustered tables;",
+            "Indexed tables;",
+            "Nested tables;",
+            "Partitioned tables."
+        ],
+        "gabarito": "Partitioned tables.",
+        "banca": "FGV",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 114,
+        "enunciado": "Considere as seguintes afirmativas a respeito de tabelas temporárias no Oracle.\nI. Não persistem após o término da sessão na qual foi criada.\nII. É possível remover os efeitos de uma transação usando uma variação do comando commit.\nIII. Permitem a criação de chaves estrangeiras.\nEstá correto somente o que se afirma em (",
+        "alternativas": [
+            "I.",
+            "II.",
+            "III.",
+            "I e II.",
+            "II e III."
+        ],
+        "gabarito": "I e II.",
+        "banca": "FGV",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 115,
+        "enunciado": "No contexto do Oracle, uma view é updatable quando pode ser alvo de comandos update, delete, insert.\nAssinale o tipo de operador/cláusula permitido na definição de uma view updatable no Oracle.",
+        "alternativas": [
+            "Cláusula DISTINCT.",
+            "Cláusula GROUP BY.",
+            "Funções de agregação: SUM, MAX, MIN, etc.",
+            "Operador INNER JOIN.",
+            "Operadores de conjunto UNION e UNION ALL."
+        ],
+        "gabarito": "Operador INNER JOIN.",
+        "banca": "FGV",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 116,
+        "enunciado": "Analise as afirmativas abaixo com relação ao Oracle 10g e backup.\n1. O utilitário exp é um utilitário de backup lógico do Oracle, que tem como saída arquivos binários que contêm dados lógicos como tabelas e stored procedures.\n2. Backups físicos constituem cópias de arquivos físicos do Oracle, como datafiles, control files e até mesmo os archived redo logs.\n3. RMAN é um utilitário de backup físico do Oracle que pode realizar tanto cópias físicas quanto a restauração de um backup.\nAssinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "É correta apenas a afirmativa 1.",
+            "São corretas apenas as afirmativas 1 e 2.",
+            "São corretas apenas as afirmativas 1 e 3.",
+            "São corretas apenas as afirmativas 2 e 3.",
+            "São corretas as afirmativas 1, 2 e 3."
+        ],
+        "gabarito": "São corretas as afirmativas 1, 2 e 3.",
+        "banca": "FEPESE",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 117,
+        "enunciado": "Analise as afirmativas abaixo sobre a função Oracle denominada DECODE.\n1. Compara uma expressão a um valor de busca e retorna o resultado correspondente.\n2. Se não encontrar correspondências, a função retorna um valor padrão passado como argumento, que é obrigatório.\n3. Se não encontrar correspondências e não for passado um valor padrão à função, esta irá retornar nulo.\nAssinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "É correta apenas a afirmativa 2.",
+            "É correta apenas a afirmativa 3.",
+            "São corretas apenas as afirmativas 1 e 2.",
+            "São corretas apenas as afirmativas 1 e 3.",
+            "São corretas apenas as afirmativas 2 e 3."
+        ],
+        "gabarito": "São corretas apenas as afirmativas 1 e 3.",
+        "banca": "FEPESE",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 118,
+        "enunciado": "Num ambiente Oracle, considere os seguintes comandos:\ncreate sequence xpto;\nselect xpto.nextval from dual d1, dual d2, dual d3;\nselect xpto.currval from dual;\nAssinale o valor exibido pelo último comando.",
+        "alternativas": [
+            "0.",
+            "1.",
+            "2.",
+            "3.",
+            "NULL."
+        ],
+        "gabarito": "1.",
+        "banca": "FGV",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 119,
+        "enunciado": "Em um banco de dados Oracle aberto e em condições ideais há um conjunto de triggers que não são mais necessários e o administrador do banco de dado deseja atribuir ao usuário analista o privilégio para que ele possa eliminar triggers em qualquer esquema. Para atribuir tal privilégio, o administrador deve utilizar a instrução",
+        "alternativas": [
+            "GRANT DELETE ALL TRIGGER TO analista.",
+            "GRANT DELETE ANY TRIGGER TO USER analista.",
+            "GRANT DROP ALL TRIGGER FOR analista.",
+            "GRANT KILL ANY TRIGGER TO ROLE analista.",
+            "GRANT DROP ANY TRIGGER TO analista."
+        ],
+        "gabarito": "GRANT DROP ANY TRIGGER TO analista.",
+        "banca": "FCC",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 120,
+        "enunciado": "Analise as afirmativas abaixo com relação ao tuning de bancos de dados Oracle 10g.\n1. Dentre as ferramentas de tuning do banco, incluem-se as views de performance V$.\n2. Para habilitar a coleta automática de estatísticas e também os recursos de gestão da performance automáticos do Oracle, o parâmetro de inicialização STATISTICS_LEVEL deve ser definido como ALL ou TYPICAL.\n3. O monitor de diagnóstico de banco de dados automático (ADDM) do Oracle analisa informações coletadas previamente na busca por possíveis problemas de performance do banco de dados.\nAssinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "É correta apenas a afirmativa 3.",
+            "São corretas apenas as afirmativas 1 e 2.",
+            "São corretas apenas as afirmativas 1 e 3.",
+            "São corretas apenas as afirmativas 2 e 3.",
+            "São corretas as afirmativas 1, 2 e 3."
+        ],
+        "gabarito": "São corretas as afirmativas 1, 2 e 3.",
+        "banca": "FEPESE",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 121,
+        "enunciado": "Qual pacote ou package possibilita a coleta e utilização de estatísticas de otimização voltadas à otimização de queries pelo Query Optimizer do Oracle 10g?",
+        "alternativas": [
+            "CONTROL CENTER.",
+            "AWR – Automatic Workload Repository.",
+            "ADDM – Automatic Database Diagnostic Monitor.",
+            "DPPR – Decision Process for Performance Repository.",
+            "DBMS_STATS – DataBase Management System Statistics."
+        ],
+        "gabarito": "DBMS_STATS – DataBase Management System Statistics.",
+        "banca": "FEPESE",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 122,
+        "enunciado": "Quais tipos de análise de tuning podem ser aplicados pelo tuning automático de SQL do Oracle 10g?\n1. Análise estatística (Statistics Analysis)\n2. SQL Profiling\n3. Análise de estrutura SQL (SQL Structure Analysis)\n4. Análise de caminho de acesso (Access Path Analysis) Assinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "São corretas apenas as afirmativas 1, 2 e 3.",
+            "São corretas apenas as afirmativas 1, 2 e 4.",
+            "São corretas apenas as afirmativas 1, 3 e 4.",
+            "São corretas apenas as afirmativas 2, 3 e 4.",
+            "São corretas as afirmativas 1, 2, 3 e 4."
+        ],
+        "gabarito": "São corretas as afirmativas 1, 2, 3 e 4.",
+        "banca": "FEPESE",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 123,
+        "enunciado": "No contexto da codificação de um trigger de banco de dados Oracle, assinale as variáveis que permitem acesso aos valores dos campos que estão sendo processados.",
+        "alternativas": [
+            "after, before.",
+            "inserted, deleted, updated.",
+            "new, old.",
+            "pre, post.",
+            "row, column."
+        ],
+        "gabarito": "new, old.",
+        "banca": "FGV",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 124,
+        "enunciado": "Considere o script Oracle PL/SQL a seguir.\nDECLARE var_x(2);\nBEGIN UPDATE calendario SET dia = dia + 1;\nIF....... THEN dbms_output.put_line('Zero alterados.');\nELSIF....... THEN var_x:=....... ;\ndbms_output.put_line(var_x || ' alterados.');\nEND IF;\nEND;\nPara que esse script funcione corretamente, os três trechos pontilhados devem ser substituídos, na ordem em que aparecem, por",
+        "alternativas": [
+            ".EMPTY /.OK /.RECORD_COUNT.",
+            ".NOTFOUND /.FOUND /.COUNT.",
+            "_NOTFOUND / _FOUND / _COUNT.",
+            "SQL%NOTFOUND / SQL%FOUND / SQL%ROWCOUNT.",
+            "SQL:EMPTY / SQL:OK / SQL:ROWCOUNT."
+        ],
+        "gabarito": "SQL%NOTFOUND / SQL%FOUND / SQL%ROWCOUNT.",
+        "banca": "FGV",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 125,
+        "enunciado": "Numa instalação Oracle 11g, o comando SHUTDOWN para uma instância de banco de dados correntemente ativa, admite as seguintes variações sintáticas, à exceção de uma. Assinale-a.",
+        "alternativas": [
+            "ABORT.",
+            "DISMOUNT.",
+            "IMMEDIATE.",
+            "NORMAL.",
+            "TRANSACTIONAL."
+        ],
+        "gabarito": "DISMOUNT.",
+        "banca": "FGV",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 126,
+        "enunciado": "Acerca do Container Database (CDB) e do pluggable databases (PDB) na arquitetura Multitenant do Oracle 19, é correto afirmar que",
+        "alternativas": [
+            "um Seed PDB se destina a oferecer suporte a um aplicativo ou contêiner de aplicativos.",
+            "um PDB é um conjunto criado pelo usuário de esquemas e estruturas relacionadas que aparecem logicamente para um aplicativo cliente como um banco de dados separado.",
+            "um PDB pode conter vários CDBs conectados a ele, permitindo executar a operação para vários contêineres a partir do PDB.",
+            "um contêiner de aplicativos é um componente CDB obrigatório criado pelo usuário com objetivo de permitir o acesso facilitado aos dados do PBD ou aos dos CBDs associados ao PDB.",
+            "cada CDB tem seu próprio conjunto de tablespaces, incluindo seus próprios tablespaces SYSTEM e SYSAUX."
+        ],
+        "gabarito": "um PDB é um conjunto criado pelo usuário de esquemas e estruturas relacionadas que aparecem logicamente para um aplicativo cliente como um banco de dados separado.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 127,
+        "enunciado": "Para um administrador de banco de dados Oracle atribuir ao usuário analista os privilégios para criar sessões, tabelas e views ele deve utilizar, em condições ideais, a instrução",
+        "alternativas": [
+            "GRANT OPERATION(create session, create table, create view) TO analista;",
+            "ALLOW create session, create table, create view TO analista;",
+            "GRANT create session, create table, create view TO analista;",
+            "GRANT PERMISSION(create session, create table, create) TO analista;",
+            "DELEGATE TO analista PERMISSION TO create session, create table, create view;"
+        ],
+        "gabarito": "GRANT create session, create table, create view TO analista;",
+        "banca": "FCC",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 128,
+        "enunciado": "Analise as afirmativas abaixo sobre o Oracle Tuning Pack para banco de dados Oracle.\n1. Qualquer instrução SQL que consome ao menos 10 segundos de CPU ou tempo de E/S em uma execução é automaticamente monitorada.\n2. O monitoramento das operações do banco de dados em tempo real combina a capacidade de monitorar tanto SQL e PL/SQL quanto as tarefas de banco de dados como ETL e trabalhos em batch, dentre outros.\n3. O SQL Tuning Advisor do Oracle não somente oferece insights ou dicas sobre pontos de melhoria como automatiza o processo de tuning SQL.\nAssinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "É correta apenas a afirmativa 2.",
+            "São corretas apenas as afirmativas 1 e 2.",
+            "São corretas apenas as afirmativas 1 e 3.",
+            "São corretas apenas as afirmativas 2 e 3.",
+            "São corretas as afirmativas 1, 2 e 3."
+        ],
+        "gabarito": "São corretas apenas as afirmativas 2 e 3.",
+        "banca": "FEPESE",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 129,
+        "enunciado": "São objetos de esquema (Schema Objects) no contexto do banco de dados relacional Oracle 19c:\n1. Fatos\n2. Partições\n3. Sinônimos\n4. Dimensões\n5. Packages e subprogramas PL/SQL Assinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "São corretas apenas as afirmativas 1, 2 e 3.",
+            "São corretas apenas as afirmativas 3, 4 e 5.",
+            "São corretas apenas as afirmativas 1, 2, 3 e 4.",
+            "São corretas apenas as afirmativas 2, 3, 4 e 5.",
+            "São corretas as afirmativas 1, 2, 3, 4 e 5."
+        ],
+        "gabarito": "São corretas apenas as afirmativas 2, 3, 4 e 5.",
+        "banca": "FEPESE",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 130,
+        "enunciado": "O Oracle Enterprise Manager implementa o conceito de Gestão do Ciclo de Vida que visa automatizar tarefas que consomem tempo em um contexto de desafios caracterizados por uma variedade de implementações de gerenciadores de bancos de dados Oracle em ambientes heterogêneos e/ou em Cloud.\nSão soluções válidas oferecidas pelo Cloud Controle do Oracle Enterprise Management:\n1. Provisionamento\n2. Gestão da mudança\n3. Gestão da configuração\n4. Gestão de conformidade ou compliance\n5. Gestão do portfólio de serviços Assinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "São corretas apenas as afirmativas 1, 2, 3 e 4.",
+            "São corretas apenas as afirmativas 1, 2, 3 e 5.",
+            "São corretas apenas as afirmativas 1, 2, 4 e 5.",
+            "São corretas apenas as afirmativas 1, 3, 4 e 5.",
+            "São corretas apenas as afirmativas 2, 3, 4 e 5."
+        ],
+        "gabarito": "São corretas apenas as afirmativas 1, 2, 3 e 4.",
+        "banca": "FEPESE",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 131,
+        "enunciado": "São recursos ou capacidades do Oracle Enterprise Manager Database Management da Oracle:\n1. Testes de Throughput\n2. Testes de Tempo de Resposta\n3. Tuning de Aplicações\n4. Gestão da Performance\n5. Detecção de Intrusão e SQL Injection Assinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+            "-square São corretas apenas as afirmativas 1, 2, 3 e 4.",
+            "São corretas apenas as afirmativas 1, 2, 4 e 5.",
+            "São corretas apenas as afirmativas 1, 3, 4 e 5.",
+            "São corretas apenas as afirmativas 2, 3, 4 e 5.",
+            "São corretas as afirmativas 1, 2, 3, 4 e 5."
+        ],
+        "gabarito": "-square São corretas apenas as afirmativas 1, 2, 3 e 4.",
+        "banca": "FEPESE",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 132,
+        "enunciado": "Considere um banco de dados Oracle Database Express Edition 11g que contém uma tabela chamada “tb_avaliacoes”, com campos “ID” e “QTDE”, conforme o conteúdo abaixo: {image(4)} Foi solicitada uma consulta SQL que apresentasse um campo com a quantidade de caracteres do tipo asterisco indicada pelo campo “QTDE”, da mesma forma que o conteúdo abaixo: {image(5)} Qual consulta obtém exatamente o que foi solicitado?",
+        "alternativas": [
+            "SELECT ID, QTDE, REPLACE((LPAD('*',QTDE,'x')),'*','x') RESULTADO FROM tb_avaliacoes ORDER BY 1.",
+            "SELECT QTDE, (LPAD('x',QTDE,'*')) RESULTADO FROM tb_avaliacoes ORDER BY 1.",
+            "SELECT ID, QTDE, (RPAD('x',QTDE,'*')) RESULTADO FROM tb_avaliacoes ORDER BY 1.",
+            "SELECT ID, QTDE, (RPAD('*',QTDE,'x')) RESULTADO FROM tb_avaliacoes ORDER BY 2.",
+            "SELECT ID, QTDE, REPLACE((LPAD('x',QTDE,'*')),'x','*') RESULTADO FROM tb_avaliacoes ORDER BY 1."
+        ],
+        "gabarito": "SELECT ID, QTDE, REPLACE((LPAD('x',QTDE,'*')),'x','*') RESULTADO FROM tb_avaliacoes ORDER BY 1.",
+        "banca": "FUNDATEC",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 133,
+        "enunciado": "Considere um banco de dados Oracle Database Express Edition 11g que contém uma tabela chamada “tb_teste”, com campos “C1”, “C2”, “C3”, “C4”, “C5”, “C6”, conforme o conteúdo abaixo:\nFoi solicitada uma consulta SQL que gere o resultado abaixo:\nQual consulta obtém exatamente o que foi solicitado?",
+        "alternativas": [
+            "SELECT CONCAT(C1,C2,C3,C4,C5,C6) AS R FROM tb_teste.",
+            "SELECT C1||C2||C3||C4||C5||C6 AS R FROM tb_teste.",
+            "SELECT C1,C2,C3,C4,C5,C6 AS R FROM tb_teste.",
+            "SELECT C1C2C3C4C5C6 AS R FROM tb_teste.",
+            "SELECT C1+C2+C3+C4+C5+C6 AS R FROM tb_teste."
+        ],
+        "gabarito": "SELECT C1||C2||C3||C4||C5||C6 AS R FROM tb_teste.",
+        "banca": "FUNDATEC",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 134,
+        "enunciado": "Qual consulta SQL abaixo executa sem erros em um SGBD Oracle 11g?",
+        "alternativas": [
+            "SELECT TO_DATE('2022/12/25', 'YYYY.MONTH.DD') FROM dual;",
+            "SELECT TO_DATE('25/12/2022', 'DAY/MONTH/YEAR') FROM dual;",
+            "SELECT TO_DATE('2022.12.25', 'Y.M.D') FROM dual;",
+            "SELECT TO_DATE('2022.12.25', 'DD.MM.YYYY') FROM dual;",
+            "SELECT TO_DATE('2022.12.25', 'YYYY.MM.DD') FROM dual;"
+        ],
+        "gabarito": "SELECT TO_DATE('2022.12.25', 'YYYY.MM.DD') FROM dual;",
+        "banca": "FUNDATEC",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 135,
+        "enunciado": "Para responder à questão, considere um banco de dados Oracle 11g contendo uma tabela chamada “tb_casas” com o conteúdo abaixo:\nID DORMITORIOS BANHEIROS VALOR\n1\n2\n1 300\n2\n3\n2 500\n3\n1\n1 100\n4\n1\n1 100 Analise a consulta abaixo:\nSELECT SUM(valor) FROM tb_casas WHERE valor>(SELECT avg(valor) FROM tb_casas) Qual é o resultado obtido com a sua execução?",
+        "alternativas": [
+            "10.",
+            "100.",
+            "250.",
+            "800.",
+            "8000."
+        ],
+        "gabarito": "800.",
+        "banca": "FUNDATEC",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 136,
+        "enunciado": "Para responder à questão, considere um banco de dados Oracle 11g contendo uma tabela chamada “tb_casas” com o conteúdo abaixo:\nID DORMITORIOS BANHEIROS VALOR\n1\n2\n1 300\n2\n3\n2 500\n3\n1\n1 100\n4\n1\n1 100 O código PL/SQL abaixo foi executado após o usuário executar o comando “SET SERVEROUTPUT ON”.\nDECLARE CURSOR vc IS SELECT * FROM tb_casas;\nx NUMBER := 0;\ny NUMBER := 0;\nBEGIN FOR v IN vc LOOP x:=x+v.valor;\ny:=y+1; END LOOP;\nDBMS_OUTPUT.PUT_LINE(x/y);\nEND;\nQual é a saída apresentada na tela?",
+        "alternativas": [
+            "Nenhuma.",
+            "150.",
+            "250.",
+            "500.",
+            "1000."
+        ],
+        "gabarito": "250.",
+        "banca": "FUNDATEC",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 137,
+        "enunciado": "Sobre os operadores de conjunto do banco de dados Oracle 11g, analise os comportamentos abaixo:\n∙ Retorna as linhas da primeira consulta que não possuem correspondentes na segunda consulta.\n∙ Retorna todas as linhas das duas consultas, incluindo duplicidades.\n∙ Retorna as linhas comuns entre as duas consultas.\n∙ Retorna todas as linhas das duas consultas, eliminando duplicidades.\nAssinale a alternativa que contém, correta e respectivamente, os operadores com os comportamentos acima.",
+        "alternativas": [
+            "MINUS – UNION – INTERSECT – UNION ALL.",
+            "MINUS – UNION ALL – INTERSECT – UNION.",
+            "MINUS – UNION – EXCEPT – DISTINCT.",
+            "EXCEPT – UNION – MINUS – UNION ALL.",
+            "EXCEPT – UNION ALL – INTERSECT – DISTINCT."
+        ],
+        "gabarito": "MINUS – UNION ALL – INTERSECT – UNION.",
+        "banca": "FUNDATEC",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 138,
+        "enunciado": "Suponha um banco de dados Oracle Database Express Edition 11g, onde foram executados, um a um, os comandos SQL abaixo:\nDROP TABLE tb_teste;\nCREATE TABLE tb_teste (c1 integer, c2 integer, c3 integer);\nINSERT INTO tb_teste (c1,c2,c3) VALUES (1,2,3);\nINSERT INTO tb_teste (c2,c3) VALUES (4,5);\nINSERT INTO tb_teste (c3) VALUES (6);\nINSERT INTO tb_teste (c3) VALUES (null);\nCaso o comando SELECT, apresentado abaixo, fosse executado, qual seria a saída esperada? SELECT COALESCE(c1,c2,c3,7) FROM tb_teste ORDER BY 1 NULLS FIRST;",
+        "alternativas": [
+            "7 7 7 7.",
+            "null. 1 2 3 4 5 6 7",
+            ". 1 2 3 4 null 5 null null 6 null null null",
+            "null null null null null 6. 4 null 5 1 2 3",
+            ". 1 4 6 7"
+        ],
+        "gabarito": ". 1 4 6 7",
+        "banca": "FUNDATEC",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 139,
+        "enunciado": "Um programador criou uma tabela chamada “funcionarios” em um banco de dados Oracle Database Express Edition 11g, mas foi alertado que na empresa existe um padrão em que os nomes das tabelas devem começar por “tb_”.\nQual alternativa representa uma solução válida para alterar o nome da tabela?",
+        "alternativas": [
+            "RENAME funcionarios TO tb_funcionarios;",
+            "RENAME funcionarios tb_funcionarios;",
+            "REN funcionarios TO tb_funcionarios;",
+            "MOVE funcionarios tb_funcionarios;",
+            "MOVE funcionarios TO tb_funcionarios;"
+        ],
+        "gabarito": "RENAME funcionarios TO tb_funcionarios;",
+        "banca": "FUNDATEC",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 140,
+        "enunciado": "Sobre os índices em um banco de dados Oracle Database Express Edition 11g, assinale a alternativa INCORRETA.",
+        "alternativas": [
+            "Uma entrada de índice B-tree aponta para uma única linha.",
+            "Índices podem ser únicos ou não únicos.",
+            "B-tree é o tipo de índice padrão do Oracle.",
+            "Índices bitmap geralmente ocupam menos espaço.",
+            "Índices bitmap otimizam a escrita concorrente."
+        ],
+        "gabarito": "Índices bitmap otimizam a escrita concorrente.",
+        "banca": "FUNDATEC",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 141,
+        "enunciado": "Qual é o nome do recurso, dentro do Oracle 19c, que possibilita que se faça transações relacionadas ao banco de dados em espera?",
+        "alternativas": [
+            "Indexação Automática.",
+            "Particionamento de Tabelas Híbridas.",
+            "Atualização parcial de JSON.",
+            "Indexação Linear.",
+            "Redirecionamento de DML com Active Data Guard."
+        ],
+        "gabarito": "Redirecionamento de DML com Active Data Guard.",
+        "banca": "Instituto AOCP",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 142,
+        "enunciado": "Qual é o nome do driver que pode ser utilizado em uma configuração de SQLConfigDatasource, válida para uma conexão de banco Oracle no Microsoft ODBC, que dará suporte a todas as configurações?",
+        "alternativas": [
+            "Msorcl10.dll.",
+            "Msql64.dll.",
+            "Msorcl32.dll.",
+            "Msql32.dll.",
+            "Msorcl128.dll."
+        ],
+        "gabarito": "Msorcl32.dll.",
+        "banca": "Instituto AOCP",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 143,
+        "enunciado": "No âmbito do Oracle, analise o comando select xxxx.currval from dual Assinale a opção que identifica corretamente a natureza do objeto xxxx.",
+        "alternativas": [
+            "User.",
+            "Table.",
+            "Sequence.",
+            "Constraint.",
+            "Tablespace."
+        ],
+        "gabarito": "Sequence.",
+        "banca": "FGV",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 144,
+        "enunciado": "Acerca de Oracle e linguagem de programação em banco de dados (PL/SQL), julgue o item que se segue.\nUm cursor é um objeto de esquema que agrupa tipos, variáveis, constantes, subprogramas, cursores e exceções relacionados logicamente.",
+        "alternativas": [
+            "Certo.",
+            "Errado."
+        ],
+        "gabarito": "Errado.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 145,
+        "enunciado": "No Oracle NVL(expr1, expr2) retornará expr2 quando expr1 for nula. Enquanto a função NVL é específica do Oracle, uma função com certa similaridade retorna a primeira expressão não nula entre os argumentos fornecidos e pode ser utilizada em outros SGBDs compatíveis com o padrão ANSI SQL-92. Trata-se da função",
+        "alternativas": [
+            "SWITCH.",
+            "MERGE.",
+            "TRUNCATE.",
+            "PREPARE.",
+            "COALESCE."
+        ],
+        "gabarito": "COALESCE.",
+        "banca": "FCC",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 146,
+        "enunciado": "Num ambiente Oracle, considere o acionamento de um utilitário por meio do prompt de comando, como exibido a seguir.\n% rman RMAN> CONNECT TARGET SYS@prod É correto afirmar que o comando disparado refere-se ao(s):",
+        "alternativas": [
+            "acesso aos manuais de utilização do Oracle;",
+            "monitoramento da performance em tempo real;",
+            "critérios para criação de índices para bancos de dados;",
+            "mecanismos para criação de backups e recuperação de bancos de dados;",
+            "procedimentos e facilidades para uso/acesso remoto."
+        ],
+        "gabarito": "mecanismos para criação de backups e recuperação de bancos de dados;",
+        "banca": "FGV",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 147,
+        "enunciado": "Uma organização que utiliza servidores de bancos de dados Oracle possui dois datacenters (DC1 e DC2): o banco de dados do DC 1 tem estado ativo para leitura e escrita; o banco de dados do DC 2 tem estado de somente leitura. A organização necessita manter os dados armazenados nos dois datacenters, não suportando mais que 20 minutos de perda de dados, portanto, os dados devem ser replicados do DC1 para o DC2 imediatamente após serem gravados, considerando-se a estratégia near real time. Com os mecanismos suportados pelo fabricante Oracle, essa necessidade é atendida usando-se",
+        "alternativas": [
+            "timesten.",
+            "DBMSREPAIR.",
+            "site guard.",
+            "data guard.",
+            "audit vault."
+        ],
+        "gabarito": "data guard.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 148,
+        "enunciado": "Assinale a opção que apresenta o nome do arquivo utilizado no sistema gerenciador de banco de dados Oracle para armazenar os nomes de serviço de rede, de modo que a aplicação (cliente) consiga se conectar ao servidor Oracle, e permitir também a adição de strings de conexão, manualmente, pelo cliente.",
+        "alternativas": [
+            "oratab.",
+            "spfile.ora.",
+            "listener.ora.",
+            ".bashprofile.",
+            "tnsnames.ora."
+        ],
+        "gabarito": "tnsnames.ora.",
+        "banca": "CEBRASPE (CESPE)",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 149,
+        "enunciado": "As funções de caractere aceitam entrada de caracteres, que podem vir de uma coluna em uma tabela ou de qualquer expressão. Essa entrada é processada e um resultado é retornado.\nSobre as funções de caractere, utilizando como base o Oracle Database 11g, assinale a alternativa INCORRETA.",
+        "alternativas": [
+            "A função ASCII(x) retorna o valor ASCII do caractere x.",
+            "A função CHR(x) retorna o caractere com o valor ASCII x.",
+            "A função CONCAT(x, y) anexa y a x e depois retorna uma nova string.",
+            "A função LOWER(x) converte as letras de x para maíusculas e retorna a nova string.",
+            "A função LENGTH(x) retorna o número de caracteres em x."
+        ],
+        "gabarito": "A função LOWER(x) converte as letras de x para maíusculas e retorna a nova string.",
+        "banca": "Instituto AOCP",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 150,
+        "enunciado": "As funções numéricas são usadas para efetuar cálculos. Essas funções aceitam um número de entrada, que pode vir de uma coluna numérica, ou qualquer expressão que seja avaliada como um número. Referente às funções numericas, utilizando como base o Oracle Database 11g, assinale a alternativa INCORRETA.",
+        "alternativas": [
+            "COSH(x) retorna o co-seno de x, em que x é um ângulo em radianos.",
+            "ABS(x) retorna o valor absoluto de x.",
+            "ACOS(x) retorna o arco co-seno de x.",
+            "CEIL(x) retorna o menor inteiro maior ou igual a x.",
+            "EXP(x) retorna o resultado do número elevado à potência x, em que aproximadamente 2,71828183."
+        ],
+        "gabarito": "COSH(x) retorna o co-seno de x, em que x é um ângulo em radianos.",
+        "banca": "Instituto AOCP",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 151,
+        "enunciado": "Um privilégio de sistema permite ao usuário realizar certas ações dentro do banco de dados, como executar instruções DDL.\nSobre privilégios de sistema, utilizando como base o Oracle Database 11g, assinale a alternativa correta.",
+        "alternativas": [
+            "DROP ANY TABLE exclui uma tabela do esquema do usuário.",
+            "DROP TABLE exclui uma tabela de qualquer esquema.",
+            "EXECUTE ANY PROCEDURE cria uma procedure armazenada.",
+            "CREATE ANY TABLE cria uma tabela em qualquer esquema.",
+            "CREATE SESSION cria uma sequência, que é uma série de números normalmente usados para preencher uma coluna de chave primária automaticamente."
+        ],
+        "gabarito": "CREATE ANY TABLE cria uma tabela em qualquer esquema.",
+        "banca": "Instituto AOCP",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 152,
+        "enunciado": "No contexto do Oracle, há um recurso para gerar séries de números inteiros exclusivos que podem ser compartilhados. Assinale-o.",
+        "alternativas": [
+            "Dual.",
+            "Partition.",
+            "Sequence.",
+            "Tablespace.",
+            "Trigger."
+        ],
+        "gabarito": "Sequence.",
+        "banca": "FGV",
+        "assunto": "TI - Banco de Dados - Oracle"
+    },
+    {
+        "id": 153,
+        "enunciado": "Qual utilitário Oracle permite que Stored Procedures PL/SQL tenham seu código fonte PL/SQL ofuscado, de modo a tornar sua descrição ininteligível, sem ônus, no entanto, à sua execução?",
+        "alternativas": [
+            "code.",
+            "wrap.",
+            "cload.",
+            "cypher.",
+            "encode."
+        ],
+        "gabarito": "wrap.",
+        "banca": "FEPESE",
+        "assunto": "TI - Banco de Dados - Oracle"
+    }
+]

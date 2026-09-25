@@ -85,8 +85,6 @@ def generate_apkg_from_questoes(deck_name, questoes, output_path):
     deck = genanki.Deck(deck_id, deck_name)
     for item in questoes:
         parts = []
-        if item.get('assunto'):
-            parts.append(html.escape(item['assunto']))
         parts.append(html.escape(item['enunciado']))
         alternativas = item.get('alternativas', [])
         if alternativas:

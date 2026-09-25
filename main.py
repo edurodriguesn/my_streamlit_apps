@@ -35,3 +35,6 @@ with col2:
 
     if st.button("❓ (Questões sem ano) Extrator de Questões de PDF do Estratégia", use_container_width=True):
         st.switch_page("pages/(sem ano) estrategia_anki.py")
+
+    if st.button("❌🃏 Gerar Baralho de Erros Anki", use_container_width=True):
+        st.switch_page("pages/pdf_para_anki.py")

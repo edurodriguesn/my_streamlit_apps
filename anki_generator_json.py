@@ -75,8 +75,8 @@ def generate_apkg(deck_name, input_path, output_path):
     return output_path
 
 def deck_name_from_pdf(nome_pdf):
-    nome = nome.replace("FGV","")
-    nome = re.sub(r'^Caderno Erradas_\s*', '', nome_pdf)
+    nome = nome_pdf.replace("FGV","")
+    nome = re.sub(r'^Caderno Erradas_\s*', '', nome)
     nome = re.sub(r'\b(Douglas|Luiz|Danilo)\b', '', nome, flags=re.IGNORECASE)
     return 'Erros::' + ' '.join(nome.split())
 

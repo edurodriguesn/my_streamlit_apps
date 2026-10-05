@@ -12,6 +12,10 @@ st.set_page_config(page_title="Simulado de Questões", layout="centered")
 aplicar_estilos()
 st.title("📝 Simulado de Questões")
 
+# Inicialização do estado para sequência atual de acertos
+if "streak" not in st.session_state:
+    st.session_state.streak = 0
+
 uploaded_file, arquivo_local_selecionado = secao_carregamento()
 processar_arquivo(uploaded_file, arquivo_local_selecionado)
 
@@ -38,9 +42,11 @@ acertos = sum(
 )
 erros = len(st.session_state.respostas) - acertos
 
-col_ac, col_er, col_tot = st.columns(3)
+# Exibição das métricas apenas com a sequência atual
+col_ac, col_er, col_str, col_tot = st.columns(4)
 col_ac.metric("✅ Acertos", acertos)
 col_er.metric("❌ Erros", erros)
+col_str.metric("🔥 Sequência", st.session_state.streak)
 col_tot.metric("📊 Respondidas", f"{len(st.session_state.respostas)}/{total}")
 st.markdown("<hr style='margin: 0.5rem 0'>", unsafe_allow_html=True)
 

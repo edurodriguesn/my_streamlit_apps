@@ -82,6 +82,9 @@ def render_enunciado_com_imagens(enunciado, arquivo_local_selecionado):
 
 
 def secao_questao(questoes, arquivo_local_selecionado):
+    if "streak" not in st.session_state:
+        st.session_state.streak = 0
+
     total = len(questoes)
     idx = st.session_state.idx
     q = questoes[idx]
@@ -117,7 +120,7 @@ def secao_questao(questoes, arquivo_local_selecionado):
             st.warning("Todas as alternativas foram eliminadas.")
             selecao = None
         else:
-            opcoes_filtradas = [f"{letra}) {escape_markdown(re.sub(r'{image(.*?)}', '', alt)).strip()}" for letra, alt in alts_visiveis]
+            opcoes_filtradas = [f"{letra}) {escape_markdown(re.sub(r'\{image\(.*?\)\}', '', alt)).strip()}" for letra, alt in alts_visiveis]
             selecao = st.radio("Alternativas:", opcoes_filtradas, index=None,
                                key=f"radio_{qid}", label_visibility="collapsed")
             for letra, alt in alts_visiveis:
@@ -139,8 +142,18 @@ def secao_questao(questoes, arquivo_local_selecionado):
         with col_resp:
             if st.button("✔️ Responder", key=f"resp_{qid}", use_container_width=True):
                 if selecao:
-                    st.session_state.respostas[qid] = selecao[0]
+                    resposta_letra = selecao[0]
+                    st.session_state.respostas[qid] = resposta_letra
                     st.session_state.respondidas[qid] = True
+
+                    letra_gabarito = next(
+                        (letras[i] for i, alt in enumerate(q["alternativas"]) if alt == q["gabarito"]), None
+                    )
+                    if resposta_letra == letra_gabarito:
+                        st.session_state.streak += 1
+                    else:
+                        st.session_state.streak = 0
+
                     st.rerun()
                 else:
                     st.warning("Selecione uma alternativa.")

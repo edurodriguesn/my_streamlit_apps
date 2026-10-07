@@ -129,6 +129,9 @@ def extrair_questoes_pdf(caminho_pdf, pasta_imagens=None, nome_base=None):
 
     texto_completo = re.sub(r'\s{2,}', ' ', texto_completo)
     texto_completo = '\n'.join(texto_completo.split('\n')[3:])
+    # Remove linhas com URL do tecconcursos e a linha imediatamente abaixo
+    texto_completo = re.sub(r'[^\n]*https://www\.tecconcursos\.com\.br/questoes/cadernos/[^\n]*(?:\n[^\n]*){1,3}','',texto_completo)
+    texto_completo = re.sub(r'[^\n]*https://www.tecconcursos.com.br/s/[^\n]*\n?[^\n]*\n?', '', texto_completo)
     linhas = texto_completo.split('\n')
     linhas_filtradas = []
     i = 0
@@ -192,12 +195,13 @@ def extrair_questoes_pdf(caminho_pdf, pasta_imagens=None, nome_base=None):
     texto_completo = '\n'.join(novas_linhas)
 
     texto_completo = re.sub(r'(Gabarito:\s[A-E])', r'\1.', texto_completo, flags=re.MULTILINE)
-    texto_completo = re.sub(r'(?<!\.|\:|\;)\n(?!\(|[IVX]+[\s\-.]|[1-5][\s\-.]|Assunto: |Enunciado: |Banca: |Gabarito:)', ' ', texto_completo)
+    texto_completo = re.sub(r'(?<![.\:;])\n(?![\(A-ZÁÉÍÓÚÀÂÊÔÃÕÇ]|[IVX]+[\s\-.]|[1-5][\s\-.]|Assunto: |Enunciado: |Banca: |Gabarito:)', ' ', texto_completo)
     texto_completo = re.sub(r'(?<!\n)\s+([a-e]\))', r'\n\1', texto_completo)
     texto_completo = re.sub(r'(?<!\n)(Gabarito:\s[A-E]\.)', r'\n\1', texto_completo)
     texto_completo = re.sub(r'^([a-e]\).*)(?<![.;])$', r'\1.', texto_completo, flags=re.MULTILINE)
     texto_completo = texto_completo.replace(' .', '.')
     texto_completo = re.sub(r'(\{image\(\d+\)\})\.', r'\1', texto_completo)
+    texto_completo = texto_completo.replace('Enunciado:','')
 
     return texto_completo, imagens_extraidas
 

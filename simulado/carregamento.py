@@ -2,7 +2,10 @@ import streamlit as st
 import tempfile
 import os
 import json
-from extrator_questoes import processar_pdf
+import shutil
+import sys
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
+from extrator import extrair_questoes_pdf, armazenar_questoes
 
 PASTA_RAIZ = "questoes_filtradas"
 
@@ -102,18 +105,31 @@ def processar_arquivo(uploaded_file, arquivo_local_selecionado):
             else:
                 questoes = json.loads(arquivo_para_processar.read().decode("utf-8"))
         else:
+            pasta_imgs_tmp = tempfile.mkdtemp(prefix="simulado_imgs_")
+            nome_base = os.path.splitext(nome_do_arquivo)[0]
             if origem_local:
                 with st.spinner("Gerando seu simulado do servidor, aguarde..."):
-                    questoes = processar_pdf(arquivo_para_processar)
+                    texto, imagens = extrair_questoes_pdf(arquivo_para_processar, pasta_imgs_tmp, nome_base)
+                    questoes = armazenar_questoes(texto)
             else:
                 with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as tmp:
                     tmp.write(uploaded_file.read())
                     tmp_path = tmp.name
                 try:
                     with st.spinner("Gerando seu simulado, por favor aguarde alguns segundos..."):
-                        questoes = processar_pdf(tmp_path)
+                        texto, imagens = extrair_questoes_pdf(tmp_path, pasta_imgs_tmp, nome_base)
+                        questoes = armazenar_questoes(texto)
                 finally:
                     os.unlink(tmp_path)
+            if "imagens_tmp_dir" in st.session_state and st.session_state.imagens_tmp_dir:
+                shutil.rmtree(st.session_state.imagens_tmp_dir, ignore_errors=True)
+            if imagens:
+                st.session_state.imagens_tmp_dir = pasta_imgs_tmp
+                # Caminho sintético: dirname -> pasta_imgs_tmp, basename sem ext -> nome_base
+                st.session_state.arquivo_local_pdf = os.path.join(pasta_imgs_tmp, nome_base + ".json")
+            else:
+                st.session_state.imagens_tmp_dir = None
+                st.session_state.pop("arquivo_local_pdf", None)
 
         st.session_state.questoes = questoes
         st.session_state.arquivo_nome = nome_do_arquivo

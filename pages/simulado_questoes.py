@@ -19,6 +19,9 @@ if "streak" not in st.session_state:
 uploaded_file, arquivo_local_selecionado = secao_carregamento()
 processar_arquivo(uploaded_file, arquivo_local_selecionado)
 
+if "arquivo_local_pdf" in st.session_state:
+    arquivo_local_selecionado = st.session_state.arquivo_local_pdf
+
 if "questoes" not in st.session_state:
     st.info("Envie um PDF ou selecione um arquivo do servidor para começar.")
     st.stop()
@@ -51,3 +54,8 @@ col_tot.metric("📊 Respondidas", f"{len(st.session_state.respostas)}/{total}")
 st.markdown("<hr style='margin: 0.5rem 0'>", unsafe_allow_html=True)
 
 secao_questao(questoes, arquivo_local_selecionado)
+
+st.components.v1.html(
+    "<script>setInterval(()=>fetch(window.location.href,{method:'HEAD'}),60000)</script>",
+    height=0
+)

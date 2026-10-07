@@ -25,6 +25,21 @@ def escape_markdown(text):
     return text.replace('R\x00', r'R\$')
 
 
+def _resolver_imagem(arquivo_local_selecionado, n):
+    if not arquivo_local_selecionado:
+        return None
+    pasta = os.path.dirname(arquivo_local_selecionado)
+    nome = os.path.splitext(os.path.basename(arquivo_local_selecionado))[0]
+    if os.path.isabs(pasta):
+        base = os.path.join(pasta, f"{nome}-{n}")
+    else:
+        base = os.path.join("images", os.path.basename(pasta), f"{nome}-{n}")
+    for ext in [".png", ".jpg", ".jpeg", ".gif", ".webp"]:
+        if os.path.exists(base + ext):
+            return base + ext
+    return None
+
+
 def render_alternativa_com_imagens(prefixo, alt, arquivo_local_selecionado, css=None):
     partes = re.split(r'\{image\((\d+)\)\}', alt)
     tem_imagem = len(partes) > 1
@@ -36,16 +51,11 @@ def render_alternativa_com_imagens(prefixo, alt, arquivo_local_selecionado, css=
         st.markdown(escape_markdown(label))
     for i, parte in enumerate(partes[1:], 1):
         if i % 2 == 1:
-            if arquivo_local_selecionado:
-                pasta_json = os.path.basename(os.path.dirname(arquivo_local_selecionado))
-                nome_json = os.path.splitext(os.path.basename(arquivo_local_selecionado))[0]
-                img_path = os.path.join("images", pasta_json, f"{nome_json}-{parte}")
-                for ext in [".png", ".jpg", ".jpeg", ".gif", ".webp"]:
-                    if os.path.exists(img_path + ext):
-                        st.image(img_path + ext)
-                        break
-                else:
-                    st.warning(f"Imagem não encontrada: {img_path}")
+            img = _resolver_imagem(arquivo_local_selecionado, parte)
+            if img:
+                st.image(img)
+            elif arquivo_local_selecionado:
+                st.warning(f"Imagem não encontrada: {parte}")
         else:
             texto = parte.strip()
             if texto:
@@ -69,16 +79,11 @@ def render_enunciado_com_imagens(enunciado, arquivo_local_selecionado):
                 else:
                     st.markdown(escape_markdown(parte))
         else:
-            if arquivo_local_selecionado:
-                pasta_json = os.path.basename(os.path.dirname(arquivo_local_selecionado))
-                nome_json = os.path.splitext(os.path.basename(arquivo_local_selecionado))[0]
-                img_path = os.path.join("images", pasta_json, f"{nome_json}-{parte}")
-                for ext in [".png", ".jpg", ".jpeg", ".gif", ".webp"]:
-                    if os.path.exists(img_path + ext):
-                        st.image(img_path + ext)
-                        break
-                else:
-                    st.warning(f"Imagem não encontrada: {img_path}")
+            img = _resolver_imagem(arquivo_local_selecionado, parte)
+            if img:
+                st.image(img)
+            elif arquivo_local_selecionado:
+                st.warning(f"Imagem não encontrada: {parte}")
 
 
 def secao_questao(questoes, arquivo_local_selecionado):
@@ -106,6 +111,9 @@ def secao_questao(questoes, arquivo_local_selecionado):
         if q.get("assunto"): partes.append(f"📚 {q['assunto']}")
         if q.get("banca"): partes.append(f"🏛️ {q['banca']}")
         st.caption(" | ".join(partes))
+
+    if re.search(r'destacad|sublinhad', q["enunciado"], re.IGNORECASE):
+        st.caption("⚠️ Atenção: essa questão pode conter trechos destacados ou sublinhados que não aparecem aqui.")
 
     render_enunciado_com_imagens(q["enunciado"], arquivo_local_selecionado)
 
